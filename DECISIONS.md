@@ -100,3 +100,69 @@ reading the first draft:
    draft (it was already dish entry #6) — the reviewer's comment listed it
    alongside the genuine pasta omission, but on review the pizza/faina entry
    was already present and accurate, so no change was needed there.
+
+---
+
+## Uruguay pilot — visual/plating + bread-specificity pass, 2026-09-21
+
+The user asked two things: (1) whether the file should specify plating and
+visual aesthetics (grilling style, color, texture, shape) given the KB's
+actual purpose is verifying AI-generated food photography, and (2) flagged
+that bread references were generic ("bread bun") when Uruguay has specific,
+visually distinct local breads (naming tortugas and Italian-style bread as
+examples, asking me to confirm what's actually appropriate).
+
+**Judgment calls:**
+
+1. **This was a real structural gap, not a stylistic nice-to-have.** The
+   original draft had zero visual/appearance information anywhere — every
+   field described ingredients, customs, and sourcing, but nothing about
+   what the dish should actually *look like* on camera, which is the one
+   thing most directly relevant to the KB's stated purpose (verifying
+   AI-generated photography). Rather than answering "yes we should add
+   this" and stopping, I added it: a new VISUAL & PLATING NORMS subsection
+   (grilling doneness/color, grill-mark pattern, plating style, overall
+   color palette) plus a per-dish "Visual/plating characteristics" field on
+   all 11 entries.
+
+2. **Confidence discipline on the new visual claims.** Some visual claims
+   have real sourcing (asado doneness/color from INAC Uruguay — the
+   national meat institute, a primary/institutional source; chivito's
+   height from The Kitchn; milanesa napolitana's layered top from Paulina
+   Cocina; chajá's pale layering from Laylita; pizza a la piedra's
+   thickness/cut from Wikipedia ES and a dedicated recipe source). Others
+   (pastel de carne, torta frita, puchero, pasta) had no source that
+   discussed appearance directly, only preparation steps — for those I
+   wrote visual descriptions inferred from how the dish is assembled/cooked
+   and explicitly marked each one "not confirmed by a dedicated visual
+   source... flag for review" rather than presenting inferred detail with
+   the same confidence as sourced detail. This distinction is also called
+   out in the Gap Log so a reviewer knows which visual claims to
+   sanity-check hardest.
+
+3. **The grill-mark/grate-shape claim is the single most actionable
+   authenticity flag in this whole pass.** Uruguayan asado uses round-rod
+   grates (per the earlier-cited Scoolinary comparison), which don't
+   produce the bold, evenly-spaced crosshatch sear-stripe pattern that
+   V-grooved grates (or AI image generation's defaults, which skew toward
+   American-BBQ-style grill marks) produce. I called this out explicitly
+   as something to treat as a likely inauthenticity signal, since it's a
+   concrete, checkable visual detail rather than a vague "make it look
+   authentic" instruction.
+
+4. **Bread: confirmed tortugas, corrected "Italian bread" to more specific
+   named breads.** Research confirmed pan tortuga is real and used for
+   sausages/hamburgers (now cited for choripán). "Italian bread" as such
+   wasn't the right frame — Uruguay's bread repertoire is described in
+   sources as its own named set (flauta, felipe, marsellés, pan de campo,
+   pan catalán, galleta) rather than as a single "Italian-style" category,
+   even though the country's baking tradition is Italian/Spanish-immigrant
+   derived like everything else in this file. I corrected three specific
+   generic "bread bun/roll" references: chivito → pan catalán (soft,
+   faintly sweet), milanesa al pan → pan flauta/felipe, choripán → pan
+   tortuga or an individual pan flauta segment. **Caveat carried into the
+   file itself:** I could not find a Uruguay-dedicated source describing
+   each bread's visual/textural detail (crust color, crumb density) beyond
+   the Wikipedia list naming them — flagged as MEDIUM-HIGH confidence for
+   which breads exist and are used where, but not fully verified for
+   granular visual description of each one.
