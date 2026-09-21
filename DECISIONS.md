@@ -56,3 +56,47 @@ not inherited.
    matching the exact path the task specified. No sibling country files or
    README exist yet in this tree — first-of-its-kind, so no cross-file
    consistency was possible to check against.
+
+---
+
+## Uruguay pilot — correction pass, 2026-09-21 (post-draft human/SME review)
+
+The user (who has direct personal familiarity with Uruguay — the whole
+reason this market was chosen as the pilot) flagged three issues after
+reading the first draft:
+
+1. **Bread service was factually wrong.** The draft said bread is placed
+   directly on the tablecloth, sourced from a single generic (not
+   Uruguay-specific) etiquette site — exactly the kind of thin, single-source
+   claim the brief warned against overtrusting. Corrected to bread-basket
+   service based on the reviewer's direct knowledge. **Judgment call:** since
+   I could not find a dedicated Uruguay-specific citation for "basket" either
+   (only generic Argentina-focused bread-basket culture pieces), I documented
+   the correction as sourced from direct SME/reviewer knowledge rather than
+   inventing or overstating a web citation for it. This is logged explicitly
+   in the file's Research Log as a claim still wanting a stronger source.
+
+2. **On-table condiments were missing.** Chimichurri as a standing table
+   condiment (not just an asado-specific side) was absent from
+   REGION-WIDE NORMS despite being well-documented in sources already
+   gathered for the asado dish entry. Added as its own norm bullet, sourced
+   from the sauce-specific sources found in the correction-pass search.
+
+3. **Pasta was missing as its own dish entry**, despite the triage section's
+   own reasoning explicitly naming "pizza/faina, pasta" as part of Uruguay's
+   core immigration-derived repertoire — an internal inconsistency the
+   reviewer's question exposed rather than something I'd independently
+   caught. Researched and added a full Pasta entry covering both the Sunday
+   ravioles/tallarines-con-tuco custom and the Ñoquis del 29 monthly ritual
+   (money-under-the-plate tradition included), sourced in part from a
+   Uruguayan newspaper (El Observador) and Uruguayan alt-weekly (la diaria).
+   **Judgment call:** this brings the dish catalog to 11 entries, one over
+   the brief's stated 8-10 range. Did not remove an existing entry to
+   compensate, since every existing entry was independently well-sourced and
+   removing one to hit a round number would have been arbitrary; flagging
+   the overage here instead.
+
+   Note: pizza a la piedra/faina was *not* actually missing from the first
+   draft (it was already dish entry #6) — the reviewer's comment listed it
+   alongside the genuine pasta omission, but on review the pizza/faina entry
+   was already present and accurate, so no change was needed there.
