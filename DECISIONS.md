@@ -256,3 +256,69 @@ caricature/stereotype.
    to find dedicated, citable sources for than named dishes and customs
    are. Flagged for SME review ahead of the other sections if review time
    is limited.
+
+---
+
+## Uruguay pilot — environment sourcing-upgrade pass, 2026-09-21
+
+The user asked a methodology question: given that architecture/setting
+detail is thinly sourced, how do we get trusted material here without
+using actual imagery (no downloading or licensing photos — text
+descriptions and trends only)? I proposed three source types that are
+text describing real, specific, current things rather than generic
+commentary: architecture portals publishing real projects in prose
+(ArchDaily), real estate listing copy (infocasas.com.uy), and municipal
+photo-archive metadata (Centro de Fotografía de Montevideo). The user
+said to go ahead.
+
+**What this pass found, and the judgment calls involved:**
+
+1. **It surfaced a real correction, not just additional color.** The
+   original "meal outdoors at home" scenario said apartment dwellers
+   "mostly lack quincho-equivalent access" — a plausible-sounding inference
+   I had explicitly flagged as an unconfirmed judgment call at the time.
+   Actual current infocasas.com.uy listings directly contradict it:
+   private "terraza con parrillero" and shared building "SUM con
+   parrillero" are routine, explicitly advertised features. I corrected
+   the scenario text rather than just adding a caveat on top of the wrong
+   claim, and marked the correction inline with today's date so a reviewer
+   can see exactly what changed and why, the same pattern used for the
+   earlier bread-service correction.
+
+2. **Treated real estate listings as primary market evidence, not as a
+   weaker source to apologize for.** A live, currently-posted listing
+   describing an actual apartment's actual features is arguably stronger
+   evidence for "what is common in Montevideo housing right now" than a
+   general architecture essay would be — it's revealed preference/market
+   reality, not someone's characterization of a trend. I labeled it that
+   way in the confidence tag rather than defaulting to a lower confidence
+   just because it's a commercial listing site rather than a media outlet.
+
+3. **Added monoambientes as a fourth housing category, not folded into an
+   existing one.** El Observador's reporting gave a specific, current,
+   statistically-grounded finding (2,200+ subsidized units built since
+   2020, real price data, a documented resident's actual studio layout)
+   that materially changes the "1 person at home" scenario — eating,
+   sleeping, and living happen in one undivided room, not a separate
+   dining nook. This was strong enough to warrant its own bullet rather
+   than a footnote, and directly improved a scenario I'd previously
+   flagged as weakly sourced ("modest apartment kitchen" was a generic
+   guess; monoambiente specifics are a documented reality).
+
+4. **Deliberately did not fetch or analyze any actual images**, consistent
+   with what the user asked for — every source used here is text (listing
+   copy, architect's project description, press reporting) describing a
+   real thing, never a photo I looked at myself. Flagged the Centro de
+   Fotografía de Montevideo archive as a strong candidate for a *future*
+   pass rather than using it now, since actually using it well would mean
+   engaging with specific cataloged photos (even just their metadata/
+   descriptions) in a more deliberate way than a single search pass
+   allows — didn't want to gesture at using it without doing it properly.
+
+5. **Did not stretch the ArchDaily "Urban House" project's residential
+   register into a claim about typicality.** It's one renovated
+   architect-designed house in Cordón, published because it's distinctive
+   — the same caution from the earlier Pocitos/Art Deco discussion applies.
+   Used it only as concrete corroboration that the casa-de-patio/interior-
+   courtyard pattern is real and still being built around today, not as
+   evidence of what an "ordinary" Cordón house looks like.
