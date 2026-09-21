@@ -166,3 +166,93 @@ examples, asking me to confirm what's actually appropriate).
    the Wikipedia list naming them — flagged as MEDIUM-HIGH confidence for
    which breads exist and are used where, but not fully verified for
    granular visual description of each one.
+
+---
+
+## Uruguay pilot — environment/staging-scenes pass, 2026-09-21
+
+The user asked for the file to cover the physical environments meals take
+place in, explicitly mapped to Coca-Cola's standard photography staging
+scenarios (casual lunch at home for 1/2/3 people, dinner at home, an
+outdoor meal at home, a solo meal on the go, and away-from-home dining for
+1 person vs. 2-3 people) — architecture, materials, outdoor-scene detail —
+plus cultural cues that thread the needle between generic/flag-coded and
+caricature/stereotype.
+
+**Judgment calls:**
+
+1. **This is a new subsection, not a retrofit of existing fields.** Unlike
+   the bread and visual-plating corrections (which fixed/extended existing
+   fields), nothing in the first two drafts addressed setting/environment
+   at all. Added a full ENVIRONMENT & STAGING SCENES subsection under
+   TRUSTED CONTENT, covering general norms once (climate, housing types,
+   materials, a caricature-avoidance note) and then each of the six
+   requested scenarios individually, rather than repeating the general
+   norms six times.
+
+2. **The single most load-bearing finding is the "quincho."** This is a
+   real, specifically-named Rioplatense architectural feature — a covered
+   outdoor structure built around a parrilla, used for exactly the "meal
+   outdoors at home" scenario — and it is a much stronger, more specific
+   answer than a generic "backyard patio." I gave it its own bullet with a
+   direct Wikipedia citation rather than folding it into a general
+   materials note.
+
+3. **Explicitly caveated the quincho as aspirational, not universal.**
+   A private quincho requires a house with a yard; a large share of urban
+   Montevideo households live in apartments. Rather than presenting the
+   quincho as the default "outdoors at home" answer, I flagged that this
+   is the iconic version and that an apartment-appropriate alternative
+   (rooftop terrace, balcony, or the historic casa-chorizo interior patio)
+   may be needed depending on which household the brief is depicting. This
+   judgment call is my own synthesis, not directly sourced, and is labeled
+   as such in the file.
+
+4. **Handled the caricature-avoidance ask as editorial guidance, explicitly
+   marked as such — not dressed up as a sourced factual claim.** The
+   architecture/materials sourcing (Art Deco apartment buildings, muted
+   stucco tones, decorative wrought-iron balconies rather than defensive
+   window bars) supports a specific claim: Uruguay's visual register reads
+   closer to modest Southern European than to the "tropical Latin America"
+   shorthand (bright saturated color, palm fronds, market-stall chaos,
+   security-grille windows) that generic prompting tends to default to. I
+   said this directly, and paired it with an equal warning against
+   over-correcting into a rural gaucho cliché (ponchos, campfires, dirt
+   roads) for what should be an ordinary urban/domestic scene — that
+   register belongs to the interior "campo" context the triage section
+   already separated out, not to a default Montevideo home. I labeled this
+   whole bullet "editorial judgment, not a sourced factual claim" rather
+   than assigning it a HIGH/MEDIUM/LOW confidence tag like the factual
+   bullets, since it's a synthesis call, not a claim with citable sources
+   behind it in the same way.
+
+5. **Handled "don't pin to a specific neighborhood" by keeping named
+   neighborhoods (Pocitos, etc.) in citations only, never in the operative
+   guidance.** Research kept surfacing Pocitos' Art Deco beachfront towers
+   as the most-written-about example of Montevideo residential
+   architecture — precisely because it's distinctive enough to get written
+   about, which is exactly the kind of over-specific anchor the user asked
+   me to avoid defaulting to. I used it only as evidence that the Art Deco
+   *style* exists and is real, and explicitly wrote that this or any other
+   single named neighborhood should be treated as one option, not the
+   required default. Logged in the Gap Log that this is a structural
+   tension in what's sourceable at all: distinctive things get written
+   about, "ordinary and unremarkable" mostly doesn't, so the "ordinary"
+   guidance leans more on my own synthesis of the contrast than on a
+   source that directly describes an ordinary, unremarkable setting.
+
+6. **Flagged, rather than silently resolved, a real tension in the
+   sourcing**: one source states the "grab-and-go" concept barely exists
+   in Uruguay (long, scheduled lunch/dinner windows), while another
+   describes chivito as commonly eaten as street/on-the-go food. Rather
+   than picking one and dropping the other, both are presented with the
+   contradiction named directly, and mate-carrying plus the "carrito"
+   street-cart custom are offered as the better-supported "on the go"
+   anchors than a generic rushed-coffee-and-pastry trope.
+
+7. **This is now explicitly logged as the thinnest-sourced section in the
+   file overall** (see the file's own Gap Log and Research Log), since
+   architecture/urban-planning-level cultural detail is inherently harder
+   to find dedicated, citable sources for than named dishes and customs
+   are. Flagged for SME review ahead of the other sections if review time
+   is limited.
