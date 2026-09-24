@@ -1849,3 +1849,37 @@ one-off — **treat this project's own visual crop judgment on these
 particular images as unconfirmed, not as an established finding**, and
 don't carry the "can gets cropped at the edge" claim forward into future
 prompt-writing without a fresh, independently verified check.
+
+---
+
+## New standing methodology rule: real-world scale is a mandatory dish-entry field, flagged as an open retroactive gap, 2026-09-24
+
+The beignet size miss (see the earlier entries above) surfaced a
+systemic gap, not a one-dish problem: this project's dish entries
+generally describe color, shape, and texture in detail but often skip a
+concrete real-world size, leaving scale to either the image model's own
+default proportions or an ungrounded guess by whoever writes the prompt
+— exactly what produced the oversized beignet. The user flagged this as
+an open issue to sort out, proposing a two-track fix: (1) where a dish's
+own real-world dimension is genuinely researchable, state it explicitly
+(as now done for beignets — a 3-inch square footprint, 1.5–2in post-fry
+thickness); (2) where it isn't, or doesn't meaningfully vary (a stew, a
+sauce, a variable-portion dish), fall back to locking the **serving
+vessel's** known dimension (from `tableware-composition-reference.md`
+§2's existing plate/bowl/vessel tables) and stating how much of that
+vessel the dish occupies. Combined with the Coca-Cola product's own
+already-locked dimensions (`coca-cola-guidelines.md` §3–4.3), this gives
+every scene at least one, ideally two, independent real-world scale
+anchors instead of an unanchored guess.
+
+Added this as a standing, mandatory field in `country-file-schema.md`
+§4.5 (the same section that already carries the texture/finish standing
+rule) and cross-referenced it from `tableware-composition-reference.md`
+§2, so every dish entry built from this point forward includes it.
+**Explicitly not applied retroactively** to the seven US regional files
+already published (`us-northeast.md` through `us-gulf-south.md`) — this
+is logged as a real, acknowledged gap in those files rather than treated
+as solved by documenting the rule, and is a candidate for a dedicated
+future audit pass once more of the US structure is built out, rather
+than pausing regional-file production now to backfill it region by
+region.

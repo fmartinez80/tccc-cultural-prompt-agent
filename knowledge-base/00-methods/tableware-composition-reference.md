@@ -23,6 +23,8 @@ This file holds the reusable, brand-agnostic composition rules and vessel dimens
 
 ## 2. Plate and vessel dimensions
 
+**This section is also the fallback scale-anchor for dish entries that lack their own real-world dimension** — see `country-file-schema.md` §4.5's real-world-scale requirement. When a dish's own size genuinely isn't researchable or doesn't meaningfully vary (a stew, a sauce, a variable-portion dish), a dish entry should cite the relevant vessel dimension below plus how much of that vessel the dish fills (e.g., "a standard 26–28cm entree plate, roughly two-thirds covered"), rather than leaving portion size to the model's own default.
+
 **Entree plates (hero-zone plate):**
 
 | Element | Dimensions | Notes |

@@ -258,6 +258,43 @@ rather than a single entry that tries to describe both.
     §7.5's texture-vs-proportion finding) and the detail most likely to
     make a generated image look genuinely photorealistic rather than
     illustrative.
+  - **Real-world scale is a standing, mandatory field, not an
+    occasional nice-to-have — flagged as an open, not-yet-systematically-
+    applied gap across this project's existing regional files, added
+    2026-09-24 after a beignet test generation came back oversized.**
+    A dish entry's own confident-sounding visual description ("puffed,
+    domed pillows of fried dough") gave no real-world size at all, and the
+    prompt-writer's own guess at scale (anchoring to a fraction of the
+    Coca-Cola can's height) was wrong, producing a beignet roughly 1.5–2×
+    too large across multiple test generations, corrected only once actual
+    sourced dimensions (a 3-inch square footprint, 1.5–2in post-fry
+    thickness) were added to the entry — see `us-gulf-south.md`'s beignet
+    entry and the corresponding `DECISIONS.md` log for the full case.
+    **Going forward, every dish entry should state real-world size
+    wherever it's genuinely checkable** (a sandwich's height, a pie
+    slice's width, a dumpling's diameter) using the same kind of concrete
+    comparison this project already uses elsewhere (a Post-it note, a
+    playing card, a deck of cards, a specific inch/cm measurement) — not
+    just color, shape, and texture. **Where a dish-specific dimension
+    genuinely isn't researchable or doesn't meaningfully vary** (a loose
+    stew, a sauce, a dish whose portion size is inherently variable),
+    the fallback is to lock the **serving vessel's** real dimension
+    instead, using `00-methods/tableware-composition-reference.md` §2's
+    plate/bowl/vessel dimension tables as the reference, and state
+    explicitly how much of that vessel the dish occupies (e.g., "fills
+    roughly two-thirds of a standard 26–28cm entree plate, leaving a
+    visible rim" rather than leaving portion size to the model's default).
+    Between a dish's own dimension (or its vessel's, as the fallback) and
+    the Coca-Cola product's own locked dimensions
+    (`01-brand/coca-cola-guidelines.md` §3–4.3), every scene should have at
+    least one, ideally two, independent real-world scale anchors — relying
+    on the model's own sense of proportion, or on an ungrounded guess by
+    whoever writes the prompt, is what produced the beignet miss. **Not
+    yet retroactively applied to this project's existing regional files**
+    (`us-northeast.md` through `us-gulf-south.md` as of this writing) —
+    logged here so every file built from this point forward includes it,
+    and so a future audit pass can go back and add it where missing,
+    rather than treating this as solved just because it's now documented.
 - Common confusion (with neighboring countries/cultures specifically)
 - Confidence (§6)
 - Sources (§6)
