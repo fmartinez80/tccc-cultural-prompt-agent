@@ -934,3 +934,32 @@ discarded one, so a future pass doesn't waste time re-chasing the same
 false lead. Consistent with this project's standing practice: a search
 result is a lead to verify, not a fact to write down on first read,
 especially when a second, more specific source directly contradicts it.
+
+---
+
+## Coney Island pizza scene: checked the location before writing the prompt, 2026-09-24
+
+The user asked for a similar outdoor pizza prompt, this time at Coney
+Island, NY. NY-style pizza itself was already fully documented (no new
+dish research needed), but the location warranted a quick check before
+staging it: is pizza actually Coney Island's own iconic food the way
+boardwalk pizza is for the Jersey Shore, or would that overclaim?
+
+Search results confirmed Coney Island's own signature food is Nathan's
+Famous hot dogs, not pizza — the pizzeria found in the research
+(Totonno's) is a few blocks inland, not a boardwalk stand. Rather than
+stage the scene as if pizza were Coney Island's defining food (the same
+overclaiming mistake this project has caught before, e.g. milanesa
+napolitana/pizza a la piedra), added a venue note to the NY-style pizza
+entry in `us.md` stating this plainly, while still using the setting: it's
+a real, plausible place to eat a NY-style slice outdoors, just not the
+location's own culinary claim to fame.
+
+Also sourced the specific visual landmarks that make an outdoor Coney
+Island scene unmistakable without relying on legible signage: the Wonder
+Wheel (1920) and the Cyclone (1927), both on the Riegelmann Boardwalk
+(1923) — recognizable by silhouette alone, a clean fit with the
+no-legible-text production rule already in the schema doc. Also added the
+NY-style slice's triangular wedge cut as an explicit point-of-difference
+against Jersey Shore boardwalk pizza's square Sicilian cut, so the two
+test prompts stay visually distinguishable from each other.
