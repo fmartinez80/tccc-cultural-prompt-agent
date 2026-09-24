@@ -1196,3 +1196,25 @@ spec doesn't control scale, why a known-size in-frame anchor works) and
 point to the brand file for the actual number, rather than duplicating it
 in both places — consistent with how the can-legibility findings were
 already split earlier this session.
+
+---
+
+## Market roadmap received and recorded, 2026-09-24
+
+The user provided TCCC's top-markets priority list (US, UK, Germany,
+Spain, Mexico, Argentina, Brazil, Turkey, South Africa, Nigeria, China,
+India, Japan, Thailand, Philippines, plus Pakistan/Bangladesh/Indonesia
+listed without a numbered rank) alongside confirming the sequencing
+strategy from the prior turn: build the US first and in maximum depth,
+specifically because it's the hardest, most structurally complex case, on
+the theory that the schema will generalize more easily to simpler markets
+if it holds up here first.
+
+Created `knowledge-base/00-methods/market-roadmap.md` as a living status
+tracker rather than leaving this list to live only in chat — a genuine
+gap, since nothing in the repo previously recorded which markets were
+planned or in what order, and this will matter increasingly as more
+countries get built. Noted Uruguay separately in that file, since it's not
+on TCCC's list but is the KB's existing pilot/schema-origin country and
+should stay visible as such rather than being conflated with the numbered
+priority markets.
