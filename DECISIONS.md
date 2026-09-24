@@ -811,3 +811,37 @@ something to ask the generation itself to render correctly. Placed in
 `country-file-schema.md` since it's the only non-region-specific file in
 the KB and the rule applies to every future country/region file, not just
 Uruguay.
+
+---
+
+## New Jersey pizza gap filled ahead of a test prompt, 2026-09-24
+
+The user asked for a photorealistic prompt of pizza outdoors in New Jersey.
+`us.md`'s Pizza entry only documented NY-style, Chicago deep-dish,
+Detroit-style, New Haven apizza, and St. Louis-style — no New Jersey-
+specific style, and `us-northeast.md` doesn't exist yet, so there was
+nothing to point to. Rather than default NJ to generic "NY-style" (an
+approximation, not a sourced NJ claim) or fabricate detail to fill the
+prompt, ran two quick, targeted web searches before writing anything.
+
+Found two real, well-corroborated, NJ-specific facts and added both
+directly to the Pizza entry (same pattern as the existing New
+Haven/St. Louis bullets — full sourced detail lives in the national file
+now, pointer to `us-northeast.md` for future expansion):
+1. **Trenton tomato pie**: reversed construction (cheese/toppings down
+   first, sauce ladled on top last), tangy tomato-forward flavor, traced to
+   specific still-operating originators (Papa's Tomato Pies, 1912). HIGH
+   confidence — Wikipedia plus independent regional food journalism.
+2. **Jersey Shore boardwalk pizza**: thin-crust, sweet sauce, often cut
+   Sicilian-style into squares, sold by the slice at walk-up boardwalk
+   stands rather than sit-down pizzerias — an inherently outdoor,
+   walking/handheld eating register tied to summer beach-vacation culture,
+   not an everyday meal. HIGH confidence — trade press plus a named
+   business's own documented history (Manco & Manco since 1956).
+
+**Judgment call**: picked the boardwalk register, not Trenton tomato pie,
+as the basis for the actual test prompt, since the user specifically asked
+for "outdoors" — boardwalk pizza is inherently an outdoor/walking scene,
+where Trenton tomato pie is a sit-down pizzeria style with no inherent
+outdoor context. Documented both anyway since a future request could
+reasonably want the sit-down NJ style instead.
