@@ -1938,3 +1938,53 @@ platter dish entry rather than left as a passing mention.
 `market-roadmap.md` updated to 7/13 US regional files complete. Next:
 Texas, per the standing "continue through the full 13-file list, using
 judgment on internal zone clustering" authorization.
+
+---
+
+## us-texas.md built and merged — eighth US regional file, 2026-09-24
+
+Built from a single dedicated research pass (chili, Tex-Mex, BBQ,
+chicken-fried steak, kolaches, plus new native dishes: fajitas, queso,
+barbacoa, cabrito, Frito pie), covering `us.md`'s four existing Texas
+pointers (Texas chili, Tex-Mex tacos, Tex-Mex enchiladas, Texas BBQ) in
+full authoritative depth.
+
+The research pass surfaced a genuine internal-structure question,
+explicitly flagged parallel to `us-midwest.md`'s Kansas City/St. Louis
+question: Texas BBQ has a real four-way regional split (Central/East/
+South-barbacoa/West), each with a different primary protein, cooking
+method, sauce convention, and settlement history — is this variation
+strong enough to warrant zone treatment inside `us-texas.md`, the way
+Missouri & Kansas City got two internal registers inside
+`us-midwest.md`?
+
+**Decision: no — one file, no internal zone split.** The distinguishing
+test applied: Missouri's split separated two cities carrying two
+entirely different *whole food identities* (Kansas City's barbecue vs.
+St. Louis's Italian-American/German-American register, each with its
+own multi-dish catalog spanning pizza, pasta, dessert, and more).
+Texas's BBQ variation, by contrast, stays *within* one already-coherent
+dish family — the same kind of internal variation this project already
+documents at the dish level without a zone split (Chicago's three
+coexisting pizza registers, Michigan's Detroit-vs-Flint coney, Kansas
+City's own brisket-vs-pork-belly burnt ends). Resolution: one Texas BBQ
+platter dish entry with a full four-way `country-file-schema.md` §4.6
+variant table (Central Texas as the default when unspecified), with
+barbacoa given its own separate full dish entry (not a variant-table
+row) since it differs enough in protein, method, serving format, and
+occasion (a Sunday-morning taco, not an evening BBQ platter) that
+folding it into the platter's table would misrepresent it. Cabrito gets
+the same "distinct enough for its own entry" treatment for the same
+reason. Tex-Mex's own internal North/South/West Texas intensity
+variation was separately validated (not just assumed) as a real but
+single-axis gradient rather than four structurally different dishes,
+confirming `us.md`'s pre-existing "callout, not a split" framing for
+that specific question.
+
+A secondary, lower-confidence flag — El Paso/West Texas Tex-Mex's
+possible content overlap with the not-yet-built `us-desert-southwest.md`
+Sonoran-style content — is logged in the Gap Log/Candidate Queue for a
+cross-check once that file exists, not resolved now.
+
+`market-roadmap.md` updated to 8/13 US regional files complete. Next:
+New Mexico, per the standing authorization.
