@@ -540,6 +540,27 @@ just a one-off for this project.
   approved can asset over whatever the model renders), but it does mean
   that plan is the only reliable control for the can, not a backup for when
   prompt instructions fail — the instructions are expected to fail here.
+- **Never name a real, privately-owned, trademarked landmark or attraction
+  in a prompt, even when a KB entry documents it as a genuine, useful
+  locator.** A KB entry may cite a specific real place to establish that a
+  setting is authentic and well-sourced — Coney Island's Wonder Wheel and
+  Cyclone, or Uruguay's Mercado del Puerto, play this role. That citation
+  is background context for understanding the place, not a literal prompt
+  ingredient. The Wonder Wheel and Cyclone specifically are proprietary
+  attractions operated by named businesses (Deno's Wonder Wheel Amusement
+  Park; Luna Park) with a specific, identifiable, potentially trademarked/
+  copyrighted design — asking the model to reproduce one company's actual
+  structure is a legal exposure distinct from this document's usual
+  authenticity/photorealism concerns, and applies broadly (stadiums, theme
+  park rides, distinctively branded storefronts, any other entity's
+  recognizable structures or IP), not just to this one example. **Instead,
+  describe the generic category of structure/setting the landmark
+  represents**: "a large classic Ferris wheel and the humped silhouette of
+  a wooden roller coaster rising above the boardwalk, evocative of a
+  seaside amusement boardwalk" conveys the same real, sourced category of
+  place (a boardwalk amusement-park skyline is a genuine, common American
+  beach-town pattern, not fabricated) without asking the model to
+  reproduce one company's specific, identifiable structure.
 
 ---
 

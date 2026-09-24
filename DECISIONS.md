@@ -988,3 +988,30 @@ toward being rendered sharply and recognizably. Practical takeaway: this
 doesn't change the existing plan to composite an approved can asset in
 production — it confirms that plan is the *only* reliable control for the
 can, not a fallback for when the prompt-level instruction happens to fail.
+
+---
+
+## New standing rule: never name real trademarked landmarks in a prompt, 2026-09-24
+
+The user flagged a legal concern with the Coney Island prompt: it named
+the Wonder Wheel and Cyclone specifically, and both are proprietary,
+trademarked attractions operated by named businesses (Deno's Wonder Wheel
+Amusement Park; Luna Park), not generic public architecture. Specifying
+them by name asks the model to reproduce another company's identifiable
+structure/design — a legal exposure distinct from this project's usual
+authenticity concerns.
+
+Added a new standing rule to `country-file-schema.md` §7.5: a KB entry can
+still document a real, specific landmark as useful context for
+understanding a place (the same role Mercado del Puerto plays for
+Uruguayan asado) — that's real, useful research and stays in the file —
+but a prompt built from that entry should describe the generic category of
+structure/setting instead ("a large Ferris wheel and a wooden roller
+coaster silhouette") rather than naming or specifying the real one. This
+applies broadly, not just to this example — stadiums, theme park rides,
+distinctively branded storefronts, any other entity's recognizable IP.
+Cross-referenced this rule directly from the Coney Island venue note in
+`us.md` so a future prompt-writer reading that entry doesn't repeat the
+same mistake. Did not remove the landmark research itself — it's accurate
+and useful for understanding the place, just not something to be spec'd
+literally into an image-generation prompt.
