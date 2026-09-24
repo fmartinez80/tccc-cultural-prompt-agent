@@ -577,12 +577,13 @@ just a one-off for this project.
   known, fixed real-world size**, rather than describing the food's size
   in isolation or leaning on lens spec. The Coca-Cola can is a naturally
   convenient anchor for this, since it's already present in nearly every
-  scene and has a fixed, widely-understood real-world size (a standard 12
-  fl oz can is ~4.83 in / 12.2 cm tall) — e.g., "the wrap is roughly the
-  same length as the can standing beside it, not dramatically larger or
-  smaller" rather than an absolute size claim for the food. Not yet
-  confirmed across multiple generations; flagged as the next thing to
-  test, not a proven fix.
+  scene — its actual dimensions and a ready-to-use template clause are in
+  `01-brand/coca-cola-guidelines.md` §3, not restated here, since a
+  specific product's real-world size is reference data a prompt-writer
+  should be able to look up directly rather than a general technique.
+  This is the reusable lesson; the numbers live with the product they
+  describe. Not yet confirmed across multiple generations; flagged as the
+  next thing to test, not a proven fix.
 
 ---
 

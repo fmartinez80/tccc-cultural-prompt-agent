@@ -60,7 +60,44 @@ This does not mean the generation should ignore the can — a correctly
 shaped, positioned, and lit can (see §3) is still the right generation
 target; only the logo/text rendering itself is untrustworthy.
 
-## 3. Product representation best practices
+## 3. Physical specifications — scale-anchor reference for prompts
+
+Use this section directly when writing a prompt; don't re-derive these
+numbers per country file or leave scale to the model's judgment. This is
+reference data, kept here rather than in `country-file-schema.md`, because
+it's about the product itself, not a food-culture fact or a general
+prompting technique.
+
+- **Standard can (12 fl oz / 355 mL)**: ~4.83 in (12.3 cm) tall, ~2.6 in
+  (6.6 cm) diameter. This is the format used in every test prompt in this
+  project to date. [CONFIDENCE: HIGH — standard, publicly documented
+  packaging dimension, not project-specific research]
+- Other formats (mini can, 20 fl oz bottle, 2-liter bottle, glass bottle)
+  are not yet documented here — add their dimensions before using them as
+  a scale anchor in a prompt; don't assume the standard can's numbers apply.
+
+**Why this matters**: this project found that scale/size consistency for
+the hero food item is unreliable across generations of the same prompt,
+and that lens/aperture phrasing ("50mm at f/2.8") is not a dependable lever
+for fixing it — see `country-file-schema.md` §7.5 for the general finding
+and the reasoning. The fix that's actually expected to help is anchoring
+the food's size to the can's known, fixed real-world dimensions above,
+rather than describing the food's size in isolation.
+
+**Template scale-anchor clause** — adapt the comparison to what the scene
+actually needs, but keep the structure: name the can's real size, then
+state the food's size relative to it.
+
+> "[Food item] is [taller than / roughly the same length as / shorter
+> than] the can standing beside it — a standard 12 fl oz can, about 4.83
+> inches (12.3 cm) tall — use the can's real size as the scale reference
+> for the whole scene."
+
+Not yet confirmed across multiple generations as of this writing; apply
+the two-generations-minimum discipline below before treating a specific
+phrasing as settled.
+
+## 4. Product representation best practices
 
 *Pending — to be compiled and added.* Expected to cover: camera-facing
 orientation, optimal framing (e.g., seen full-height, not cropped or
@@ -68,7 +105,7 @@ partially obscured), positioning relative to the food, and other
 composition rules that make the generated can easiest to composite over or
 verify against in production.
 
-## 4. Reference-image conditioning (untested)
+## 5. Reference-image conditioning (untested)
 
 Hypothesis, not yet tested: supplying an actual Coca-Cola product reference
 image alongside the text prompt (image-conditioned generation, where

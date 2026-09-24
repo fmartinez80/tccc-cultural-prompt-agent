@@ -1168,3 +1168,31 @@ and has a fixed, standard real-world size (~4.83 in tall) most people have
 an intuitive sense of — logged as a new, general (not brand-specific)
 finding in `country-file-schema.md` §7.5, flagged explicitly as untested
 pending a revised prompt and the usual two-generations check.
+
+---
+
+## Moved the can's real dimensions into structured reference data, 2026-09-24
+
+The user pointed out a real gap in how the scale-anchor finding was
+recorded: the can's actual dimensions only existed inline, inside a
+paragraph of prose in `country-file-schema.md` §7.5 explaining a specific
+past test. That's fine for me to reference from memory of this
+conversation, but a user building a prompt from the KB directly — without
+having read that narrative — would have no way to find the actual number
+to use, and no template to copy. Same underlying issue as the earlier
+"where should camera-facing/full-height rules live" question: physical
+product specs are reference data about the product, not a narrative
+finding about a testing methodology, and they need to be locatable and
+directly usable, not just mentioned in passing.
+
+Added a new §3 "Physical specifications — scale-anchor reference for
+prompts" to `knowledge-base/01-brand/coca-cola-guidelines.md`: the standard
+12 fl oz can's real dimensions (4.83 in / 12.3 cm tall, 2.6 in / 6.6 cm
+diameter), an explicit note that other formats (bottles, mini cans) aren't
+documented yet and shouldn't be assumed to share these numbers, and a
+copy-adaptable template scale-anchor clause. Trimmed the
+`country-file-schema.md` §7.5 finding to keep the general lesson (why lens
+spec doesn't control scale, why a known-size in-frame anchor works) and
+point to the brand file for the actual number, rather than duplicating it
+in both places — consistent with how the can-legibility findings were
+already split earlier this session.
