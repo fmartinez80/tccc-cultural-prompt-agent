@@ -1564,3 +1564,65 @@ Three background research passes (Appalachia; North Florida; South
 Florida/Floribbean) completed while this merge was underway and are
 queued for the next two regional files (`us-appalachia.md`,
 `us-florida.md`), continuing the pipelining rhythm adopted earlier.
+
+---
+
+## us-appalachia.md and us-florida.md merged and published, 2026-09-24
+
+**us-appalachia.md** (sixth regional file, fourth chronologically) is a
+single-pass, single-zone file — the researcher found no evidence of a
+sharp-enough internal split (e.g., Central vs. Southern Appalachia) to
+justify the multi-zone structure the prior three files used, and flagged
+that judgment explicitly as a one-pass call rather than an exhaustively
+validated triage. Published close to as-drafted, since there was no
+cross-zone merge work to do. Eight full dish entries: soup beans, skillet
+cornbread (explicitly checked and found NOT genuinely distinct from
+`us-south.md`'s own cornbread tradition — the no-sugar divide runs along
+the Ohio River, not the Appalachian boundary, stated honestly rather than
+claimed as a differentiator), leather britches beans, ramps, the
+pepperoni roll (West Virginia coal-camp origin), fried apple pie, apple
+stack cake, and the West Virginia slaw dog (flagged as a candidate fifth
+regional hot dog style for `us.md`'s national entry). The file explicitly
+treats meat-and-three and church-potluck/"dinner on the grounds" as
+shared-with-the-South institutions, not Appalachia-exclusive — a judgment
+this pass made before `us-south.md` existed, now corroborated rather than
+just assumed, since `us-south.md`'s own Tennessee and Deep South zones
+independently reached the same conclusion.
+
+**us-florida.md** (seventh regional file, fifth chronologically) merges
+two parallel zone passes (North Florida; South Florida/Floribbean) into a
+two-zone file, resolving three cross-zone questions both passes flagged
+rather than resolved on their own:
+
+1. **The Cuban sandwich** (`us.md`'s existing pointer) stays a single,
+   full entry in the North Florida zone (Tampa/Ybor City origin, salami
+   included) — Miami's genuinely different venue register (no salami,
+   softer bread, a "double press" technique) is folded in as a documented
+   addendum rather than duplicated as a competing entry, per the South
+   Florida pass's own explicit deference to the North Florida pass's
+   ownership of this dish.
+2. **Key lime pie**: the North Florida pass researched it, found the
+   origin points to Key West, and explicitly recommended the South
+   Florida zone take it rather than writing a competing entry. Decided
+   exactly as recommended — full entry lives in the South Florida zone.
+3. **Stone crab claws**: both passes wrote full entries and both flagged
+   the same real geographic tension (Joe's Stone Crab's Miami Beach
+   origin and the Keys/Everglades City's dominant modern harvest volume,
+   versus a smaller, genuine, decades-old North Florida/Big Bend
+   presence). Decided: the full entry stays in the South Florida zone;
+   North Florida keeps a short cross-reference to its own real but
+   secondary presence — the same trim-to-cross-reference pattern used for
+   Hoppin' John in `us-south.md`.
+
+A fourth item, the screened porch/"lanai," was resolved as a Florida-wide,
+climate-driven feature documented once in a shared TRUSTED CONTENT section
+rather than claimed by either zone exclusively — the North Florida pass
+found only South-Florida-sourced material on it and asked the merge to
+decide; the South Florida pass's own climate sourcing confirmed the
+underlying driver (heat, humidity, mosquitoes, a wet season) is not
+South-Florida-exclusive, so neither zone should claim it as a unique find.
+
+Both files' Gap Logs and Candidate Queues were carried forward largely
+intact rather than re-litigated, consistent with this project's practice
+of surfacing open questions rather than silently resolving them without
+new evidence.
