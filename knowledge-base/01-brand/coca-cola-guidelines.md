@@ -46,6 +46,24 @@ the product itself right, so it doesn't need re-discovering per country.
   margin is not as clean as the first two tests alone suggested. [CONFIDENCE:
   HIGH that neither is a dependable instruction target; MEDIUM that the can
   fails more often than background specifically, given the small sample]
+- **Distinct from the wordmark-text problem above: the can's product
+  variant/color (classic red original vs. Diet Coke's silver vs. Coke
+  Zero's black) is not reliably rendered as "the classic red can" when a
+  prompt says only "a Coca-Cola can" without specifying which variant.**
+  A beignets test prompt asked for "a single unopened 12 fl oz aluminum
+  Coca-Cola can" with no color/variant specified; across three
+  generations of the same prompt, one rendered the correct red original
+  can, and two rendered a silver Diet-Coke-style can instead (one of
+  those two also showed a garbled, duplicated volume readout). This is a
+  color/product-identity miss, not just illegible text on an otherwise-
+  correct can — a silver can is the wrong product, not a correctly-shaped
+  can with bad label text. [CONFIDENCE: MEDIUM — a single three-generation
+  test batch, but a clean 2-of-3 miss rate is suggestive; treat as a real
+  risk to guard against by default, not yet a fully powered finding]
+  **Standing practice going forward**: every prompt should explicitly
+  state "the classic red Coca-Cola can (original, not Diet Coke or Coke
+  Zero)" rather than relying on "Coca-Cola can" alone to imply the
+  original red variant.
 
 ## 2. Production standard
 

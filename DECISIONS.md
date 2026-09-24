@@ -1755,3 +1755,31 @@ be re-derived per prompt. Consistent with this project's established
 scale-anchor discipline (`01-brand/coca-cola-guidelines.md` §3) — the fix
 for a food-size miss is real dimension data anchored to the can's known
 size, not tighter wording around an ungrounded guess.
+
+---
+
+## Beignets retest: size fix confirmed, new can-variant finding surfaced, 2026-09-24
+
+Ran the corrected prompt (explicit 3-inch-square footprint, 1.5–2in
+post-fry thickness, "clearly less than half the can's height") three
+times. Measured against the can in the two generations where it's fully
+in frame (the third crops the can's top, unusable as a ruler there): the
+top beignet now reads at roughly 40–45% of the can's height, matching the
+corrected target — a real fix from the first round's ~65%+ oversized
+renders. Sugar mounding, crust visibility at the edges, and the
+torn-open beignet's air-pocket interior all held correctly across all
+three generations.
+
+**New, unrelated problem surfaced by this batch**: the can itself
+rendered as the wrong product in 2 of 3 generations — a silver Diet
+Coke-style can instead of the classic red original the scene called for,
+despite the prompt saying "a Coca-Cola can." One of those two also showed
+a garbled, duplicated volume readout. This is a distinct failure mode
+from the already-documented wordmark-text-legibility problem: a silver
+can is the wrong product, not a correctly-shaped can with bad label text.
+Added to `01-brand/coca-cola-guidelines.md` §1 as its own finding, with a
+standing-practice fix: every future prompt should explicitly say "the
+classic red Coca-Cola can (original, not Diet Coke or Coke Zero)" rather
+than relying on "Coca-Cola can" alone. Flagged MEDIUM confidence given
+the small (three-generation) sample, but a 2-of-3 miss rate is a real
+enough risk to guard against by default going forward.
