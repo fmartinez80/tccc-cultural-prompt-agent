@@ -1366,3 +1366,23 @@ to treat its "expected" flags (chopsticks for China/Japan, thali plates
 for India, fork-and-spoon for Thailand) as sourced claims — they're
 research-priority hints for whoever builds those files next, not
 findings this KB stands behind yet.
+
+---
+
+## Fixed an overclaim: street food isn't staged only at point of sale, 2026-09-24
+
+The user caught a real overclaim in `us-northeast.md`'s cross-cutting
+Visual & Plating norm on street-cart/bodega food: it listed only
+point-of-sale surfaces ("the cart's own counter ledge, a folding table, a
+bodega counter, or a boardwalk railing/bench") as if grab-and-go food must
+be staged right where it was bought. The actual idea behind "grab-and-go"
+is that someone buys it and eats it wherever they end up — a home
+tabletop, a park bench, the beach, a subway-platform bench are all equally
+authentic. Fixed the wording to state the point-of-sale location is one
+option, not a rule, and name several non-point-of-sale surfaces explicitly
+so it doesn't read as a closed list. Checked `country-file-schema.md`'s
+general anti-hand-holding rule for the same issue — it already says "a
+table, counter, railing, or other stable surface" with an open-ended
+qualifier, so the overclaim was specific to how this file narrowed the
+general rule's examples, not a flaw in the rule itself; no change needed
+there.
