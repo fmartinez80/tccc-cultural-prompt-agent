@@ -782,3 +782,32 @@ own. Did not touch `uruguay.md`, since the audit confirmed it isn't the
 cause. Did not yet re-test a revised prompt phrase — that's the next step,
 and per this project's own two-generations rule, any fix needs at least
 two runs before being called confirmed.
+
+---
+
+## Fifth iteration: stacking fix confirmed, new "no legible text" rule, 2026-09-24
+
+The user ran the revised (v5) prompt — explicit "only one half is shown,
+the other half is not in frame" language — and shared four generations
+total. All four held the single-half, cut-face-forward composition with no
+stacking. Updated the §7.5 entry from "fix applied, untested" to
+confirmed: naming the byproduct explicitly resolved the ambiguity rather
+than just reducing it, a clean result against the roughly 50/50 split seen
+across the four generations that used the old unresolved phrasing.
+
+The user separately flagged a new, broader issue: one generation's
+background included a chalkboard menu board that rendered fully legible
+and coherent text ("CHÍVITO AL PAN $450 / ASADO $520 / PILSEN") — nothing
+in the prompt asked for this, and nothing about it is guaranteed to
+reproduce correctly (rather than as garbled nonsense) on the next run. The
+user's direction: never want text or legible signage in any composition,
+not just the Coca-Cola can. Logged this as a new §7.5 rule in
+`country-file-schema.md`, generalizing the existing "don't trust generated
+brand text" finding: default every prompt to explicitly excluding all
+legible text/signage from the frame (packaging, menu boards, chalkboards,
+receipts, wall décor), and treat any text that must be accurate — the
+Coca-Cola can included — as a post-production compositing task, never
+something to ask the generation itself to render correctly. Placed in
+`country-file-schema.md` since it's the only non-region-specific file in
+the KB and the rule applies to every future country/region file, not just
+Uruguay.

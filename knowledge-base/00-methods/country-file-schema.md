@@ -454,6 +454,30 @@ just a one-off for this project.
   byproduct** ("only one half is shown; the other half is not in frame;
   do not depict two sandwich halves or a stacked pair") rather than
   leaving the model to pick a default convention on its own.
+  - **Confirmed, not just proposed**: the revised prompt (explicit
+    disposition of the second half) was run four more times and held the
+    single-half, cut-face-forward composition in all four — a clean result
+    after the same unrevised phrasing had split roughly 50/50 across the
+    prior four generations. Naming the byproduct explicitly resolved the
+    ambiguity rather than just reducing it.
+- **Default every prompt to excluding all legible text and signage from the
+  scene, not only the brand can.** Testing surfaced this as a broader
+  version of the brand-logo-unreliability finding above: across the same
+  batch of generations, a background chalkboard menu board rendered fully
+  legible and coherent ("CHÍVITO AL PAN $450 / ASADO $520 / PILSEN") in one
+  image purely by chance — nothing in the prompt asked for it, and nothing
+  guarantees it renders as coherent text (rather than garbled nonsense) in
+  the next run. Any legible text a generation produces on its own —
+  packaging, menu boards, chalkboards, receipts, wall signage, price
+  boards — is uncontrolled: sometimes correct, sometimes garbled, never
+  guaranteed either way, and even a correct sample in testing proves
+  nothing about the next run. Build every prompt to explicitly exclude it
+  rather than hope for or fix specific wording: e.g., "no legible text or
+  writing anywhere in the frame — keep any packaging, signage, menu
+  boards, or wall décor blank, blurred, or out of focus." Any text or
+  branding that must actually be correct and consistent (the Coca-Cola can
+  included) belongs in post-production compositing over a blank/blurred
+  placeholder, never in the generation itself.
 
 ---
 
