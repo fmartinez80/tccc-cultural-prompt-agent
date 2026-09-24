@@ -1883,3 +1883,58 @@ as solved by documenting the rule, and is a candidate for a dedicated
 future audit pass once more of the US structure is built out, rather
 than pausing regional-file production now to backfill it region by
 region.
+
+---
+
+## us-midwest.md built and merged — seventh US regional file, 2026-09-24
+
+Built from three parallel subagent research passes (Chicago & Great
+Lakes; Missouri & Kansas City; Ohio Valley) and merged into one file
+with three zones, following the established `us-south.md`/`us-gulf-south.md`
+pattern. ~31 dish entries total across the three zones.
+
+Three cross-zone questions the parallel passes flagged were resolved
+during the merge, not left open:
+
+1. **The "German Triangle" (Cincinnati, Milwaukee, St. Louis) coordination
+   flag, raised explicitly by the Ohio Valley pass**: all three cities
+   share a real, documented 19th-century German-immigrant-heritage
+   pattern, and a zone-distinctness argument built on that alone would
+   not clear this project's own "would swapping norms look visibly
+   wrong" test for any of the three. Resolution: the shared heritage is
+   documented once, Midwest-wide, in `us-midwest.md`'s TRUSTED CONTENT
+   section, and each zone's actual distinctness argument instead rests
+   on other, non-shared evidence (Cincinnati's specific 1922
+   Kiradjieff-brothers chili invention; Milwaukee's specific
+   brewing→tavern→supper-club institutional chain; St. Louis's specific
+   Hill-neighborhood settlement story) — checked explicitly against all
+   three source drafts before finalizing, per the Ohio Valley pass's own
+   request.
+2. **Missouri/Kansas City's internal split**: the Missouri pass
+   recommended a labeled internal callout, parallel to `us-northeast.md`'s
+   three-zone precedent. Decision: rather than promoting St. Louis to a
+   14th regional file or flattening the two identities into one
+   undifferentiated zone, `us-midwest.md` gives "Missouri & Kansas City"
+   one zone with two coexisting, non-hierarchical internal registers
+   (Kansas City barbecue; St. Louis Italian-American/German-American) —
+   the same "emphasis, not a structural split" treatment Lowcountry got
+   inside `us-south.md`.
+3. **A real gap the Chicago/Great Lakes pass surfaced on its own**:
+   `us.md`'s prior Pizza entry pointed `us-midwest.md` to only two
+   Chicago pizza styles (deep-dish, Detroit-style), but that pass's
+   research found two additional, genuinely distinct, well-sourced,
+   coexisting Chicago pizza registers — stuffed pizza and tavern-style
+   pizza — with no prior `us.md` pointer. Rather than just logging this
+   as a recommendation for later, `us.md`'s national Pizza entry has been
+   updated directly to add both pointers now, since the underlying
+   research was already complete and sourced, consistent with how every
+   other regional file's dishes get folded back into `us.md` as pointers.
+
+A fourth item, the "Kansas City-style ribs" vs. "St. Louis-cut ribs"
+naming trap (a butchery-cut-name collision unrelated to either city's
+overall food identity), was preserved in full inside the Kansas City BBQ
+platter dish entry rather than left as a passing mention.
+
+`market-roadmap.md` updated to 7/13 US regional files complete. Next:
+Texas, per the standing "continue through the full 13-file list, using
+judgment on internal zone clustering" authorization.
