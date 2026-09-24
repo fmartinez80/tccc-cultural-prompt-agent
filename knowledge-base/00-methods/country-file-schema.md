@@ -521,6 +521,25 @@ just a one-off for this project.
   on its wax-paper liner set on the boardwalk railing itself, which is
   still an authentic real-world boardwalk behavior, without the shot
   being staged as a hand-held POV.
+- **The Coca-Cola can specifically resists the "no legible text" rule above
+  — an instruction to keep its label soft-focus/illegible was not
+  followed, even while the same prompt's other no-legible-text instructions
+  were.** A Coney Island test prompt asked for "the can's label faces away
+  from camera or is soft-focus and not legible, not a focal point of the
+  shot," in the same sentence as instructions to keep background signage
+  and ride marquees blurred. Both generations complied fully for the
+  background elements — genuinely blurred, illegible — but rendered the
+  can's own logo sharp, front-facing, and fully legible in both, as if that
+  part of the instruction had been dropped. Working theory: "Coca-Cola can"
+  is such a strongly-anchored visual concept in the model's training data
+  that it overrides an explicit instruction to obscure it, in a way generic
+  signage doesn't. **Practical implication: don't rely on a soft-focus/
+  illegible-label instruction as a control for the can specifically** — it
+  isn't a dependable lever the way it is for background text. This doesn't
+  change the production plan already established above (composite an
+  approved can asset over whatever the model renders), but it does mean
+  that plan is the only reliable control for the can, not a backup for when
+  prompt instructions fail — the instructions are expected to fail here.
 
 ---
 

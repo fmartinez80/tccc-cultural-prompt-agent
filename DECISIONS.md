@@ -963,3 +963,28 @@ no-legible-text production rule already in the schema doc. Also added the
 NY-style slice's triangular wedge cut as an explicit point-of-difference
 against Jersey Shore boardwalk pizza's square Sicilian cut, so the two
 test prompts stay visually distinguishable from each other.
+
+---
+
+## Coney Island test results: strong overall, one consistent can-legibility miss, 2026-09-24
+
+Both generations landed the cultural/compositional targets well: correct
+triangular NY-style wedge cut (vs. the prior test's square Sicilian cut),
+sauce correctly hidden under the cheese (vs. the prior test's exposed
+spiral), Wonder Wheel and coaster silhouettes clearly establishing Coney
+Island without any legible signage, food resting on the railing rather
+than hand-held.
+
+One consistent miss across both: the prompt explicitly asked for the
+Coca-Cola can's label to be soft-focus/not legible, in the same sentence
+asking for background signage and ride marquees to stay blurred. Both
+generations complied for the background elements but rendered the can's
+own logo sharp and fully legible regardless — as if that specific clause
+had no effect. Logged as a new, more specific finding in
+`country-file-schema.md` §7.5: the "no legible text" rule reliably works
+for incidental/background text but does not reliably work for the
+Coca-Cola can itself, which appears to have too strong a training prior
+toward being rendered sharply and recognizably. Practical takeaway: this
+doesn't change the existing plan to composite an approved can asset in
+production — it confirms that plan is the *only* reliable control for the
+can, not a fallback for when the prompt-level instruction happens to fail.
