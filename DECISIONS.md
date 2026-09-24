@@ -434,6 +434,44 @@ country builds check every scene component's own requirements rather than
 generalizing from the main dish, and don't checklist-include every sourced
 fact into one image.
 
+---
+
+## Two generations of the revised prompt confirm a real limitation, 2026-09-24
+
+The user ran the corrected prompt (fixed bread/steak language, added fork
+and napkin, explicit no-clutter instruction) twice and shared both results.
+Fork, napkin, and no-clutter all landed correctly in both. Bread and steak
+did not move at all — both generations reproduced the same crusty loaf and
+thick steak cut the original prompt had, despite explicit named corrections
+with negation ("NOT a crusty artisan loaf," "NOT a thick steak medallion").
+
+**Judgment call**: rather than write a third prompt with the same jargon
+terms said more forcefully, I treated two identical failures as a real
+signal about *which lever isn't working* — the terms "pan catalán" and
+"churrasco-cut" themselves, not the strength of the instruction. Proposed a
+third iteration that drops both terms entirely in favor of plain sensory
+description (crumb texture, crust thickness, meat thickness in millimeters,
+a familiar comparison object like "a schnitzel") to test vocabulary
+recognition as the actual variable, rather than re-running the same
+approach a third time and hoping.
+
+**Second finding, unprompted**: comparing the two generations side by side,
+one rendered the Coca-Cola can's text correctly ("ORIGINAL TASTE") and the
+other garbled it ("ORIGINAL TAST"). This is concrete, first-party evidence
+for the brand-fidelity risk flagged earlier in this session, not just a
+theoretical caution anymore — logged as such.
+
+**Logged both as reusable methodology** in
+`knowledge-base/00-methods/country-file-schema.md` §7.5 rather than as
+Uruguay-specific facts, since they're about how *any* KB entry's terms
+survive translation into a specific image model, not about Uruguayan food
+culture itself: (1) a named correction needs at least two generations before
+being treated as confirmed or refuted, in either direction; (2) when a
+targeted fix doesn't move two independent generations, suspect the term's
+recognizability before assuming the instruction needs to be stronger; (3)
+never trust generated brand/logo text as production-safe regardless of how
+a single sample looks — composite an approved asset instead.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to

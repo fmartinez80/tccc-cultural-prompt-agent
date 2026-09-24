@@ -355,7 +355,7 @@ alternatives**, not replacements.
 
 ---
 
-## 7.5 From KB facts to image prompts: two practical rules
+## 7.5 From KB facts to image prompts: practical rules
 
 These surfaced from actually generating an image off a finished entry and
 reviewing the result against the source file — a real-world test worth
@@ -382,6 +382,38 @@ just a one-off for this project.
   component listed in the entry (mains, sides, condiments) and ask what it
   specifically requires, rather than inferring the whole scene's needs from
   the single most prominent item.
+- **A source-accurate culinary term in the KB entry is not guaranteed to
+  translate into a correct image-model render — test it, don't assume a
+  named correction "took" after one generation.** This project named a
+  specific local bread term and a specific cut/prep term in a prompt,
+  explicitly negating the wrong alternatives ("NOT a crusty artisan loaf,"
+  "NOT a thick steak medallion"). Across two independent generations of the
+  same prompt, neither correction moved the output at all — the model
+  reproduced the same wrong bread and wrong meat cut both times, suggesting
+  a strong prior tied to the general "hearty sandwich" concept that plain
+  negation didn't override. **When a targeted correction doesn't visibly
+  change two independent generations, the term itself — not the emphasis —
+  is the likely problem.** The next lever to try is dropping the
+  culturally-specific vocabulary entirely and describing the same physical
+  fact in plain sensory terms instead (e.g., not "pan catalán" but "a soft
+  white roll, fine tight crumb, no visible air holes, thin pale crust, no
+  crunch"; not "churrasco-cut" but "pounded flat to a few millimeters, like
+  a schnitzel, not a thick steak"). If plain-language description *also*
+  fails to move the render across further attempts, that's a stronger
+  signal of a genuine model-level bias rather than a vocabulary gap, and the
+  more reliable fix at that point is post-generation editing/inpainting, not
+  further prompt iteration.
+- **Run at least two generations per prompt before drawing a conclusion**,
+  in both directions: don't call a fix confirmed off one lucky generation,
+  and don't call a miss confirmed off one unlucky one. This project's
+  Coca-Cola can logo is the concrete example — the identical prompt run
+  twice produced one correct "ORIGINAL TASTE" and one garbled "ORIGINAL
+  TAST" in the same run set, from the same prompt. A single generation
+  cannot tell you whether a given element is reliable; treat brand-critical
+  elements (logos, wordmarks, exact packaging text) as **never** safe to
+  trust from a generated image regardless of how a single sample looks —
+  composite an approved brand asset in production rather than relying on
+  the model to reproduce it correctly, consistently, across every run.
 
 ---
 
