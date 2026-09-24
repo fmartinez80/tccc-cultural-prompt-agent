@@ -2355,3 +2355,294 @@ Gap Log and Candidate Queue as Priority 1 for human judgment.
 updated accordingly. `us.md` updated (table row, Bread Reference
 sourdough entry, California roll gap flag, GAP LOG). Scratch draft
 deleted. Pacific Northwest and Hawaii remain.
+
+---
+
+## Spain file built: WebSearch verification-and-merge pass over a model-knowledge scaffold, 2026-09-24
+
+**Context.** As with the UK, the user had a parallel effort on an alt
+Claude session drafting the Spain file from model knowledge only (no
+working web access for that session). That session produced
+`knowledge-base/scratch-spain-model-knowledge-draft.md`: a well-organized,
+explicitly self-tagged `[UV→tier]`/`[EDITORIAL]` scaffold — six internal
+zones plus a Canaries callout, a vessel/bread/portion-ladder scale
+reference, a texture lexicon, a three-way market-register comparison, a
+Coca-Cola-moments cross-cutting register, a festivals register, and an
+opt-in morning module — with a consolidated 40-item verification
+checklist and its own draft `DECISIONS.md`/`market-roadmap.md` append
+sections (left as scratch content, not written to the real files
+verbatim). This session ran the real WebSearch verification pass and
+built the canonical `knowledge-base/02-culture/regions/europe/spain.md`.
+
+**Structure and festival sensitivity: decided by the orchestrating
+session, not this pass, and not relitigated here.** The orchestrating
+session decided, before this verification pass began: (1) one file,
+`spain.md`, with the scaffold's own six internal zones (Atlantic
+Northwest, North, Catalonia & Balearics, Valencia & Murcia, Andalusia,
+Centre) plus a Canary Islands callout, rather than a US-style national-
+index-plus-regional-files split; (2) the festival-sensitivity calls —
+exclude all bull imagery including San Fermín, do not stage La Tomatina
+at all, keep product out of religious-procession frames (Semana Santa,
+Corpus/romerías), and keep product away from open flame/fireworks
+(Fallas, Noche de San Juan) — as final, with the scaffold's other
+sensitivity notes kept as its own reasonable editorial calls. This pass's
+only structural work was two requested spot-checks, both confirmed: pintxo
+culture is genuinely Basque/Northern-specific (every source treats it as
+a counter-top, skewered format tied to that region, not a nationwide bar
+norm), and paella is genuinely lunch/Valencia-anchored, more strongly than
+the scaffold's own hedge — multiple current sources state directly that
+paella at dinner is a real digestive/cultural mismatch in Valencia, not
+just a less-common choice.
+
+**Assessment of the scaffold, same finding as the UK pass.** Its honesty
+discipline (real "Check" leads and a consolidated checklist, never a
+fabricated citation) made it a legitimate, efficient starting scaffold,
+not hallucination requiring a restart — confirmed again this pass: nothing
+in it was found to be flatly wrong and removed outright; every correction
+below is a refinement of a specific number or an added nuance, not a
+reversal of a core claim.
+
+**A genuine new brand-file finding, added minimally and only where
+load-bearing.** WebSearch turned up a real, current, market-specific
+Coca-Cola fact the scaffold's own checklist didn't anticipate: Coca-Cola's
+Spanish bottling partner (CCEP Iberia) runs an active returnable-glass-
+bottle program for the hostelería channel at two sizes — **350mL (147mm
+tall, 76.1mm diameter) for meals and 237mL (~19cm, modeled on the 1915
+contour design) for an aperitivo/evening drink** — genuinely distinct
+from `coca-cola-guidelines.md` §4.3's generic 200–210mm contour-bottle
+default. This directly answers the task's own checklist item #2 ("does
+Spain use a different on-premise glass-bottle size") with a confirmed
+yes, not an honest "unknown." Added to `coca-cola-guidelines.md` §4.3 as
+a market-specific note, the same minimal-footprint pattern the UK's
+330mL can finding established there. **Per an explicit mid-task steering
+note from the orchestrating session, this is the only edit made to
+`coca-cola-guidelines.md`** — that file has a larger dedicated overhaul
+planned separately, so other brand-adjacent observations surfaced this
+pass (e.g., whether Spain's bar "ice and a slice" Coca-Cola serve merits
+the same first-party sourcing treatment `uk.md` gives the UK's pub serve)
+were logged in `spain.md`'s own Gap Log as candidates for that file's
+future pass, not added inline.
+
+**Verification outcome, roughly quantified** (see `spain.md`'s own
+RESEARCH LOG for the full breakdown). Roughly 35 WebSearch queries across
+this pass, examining on the order of 45 distinct factual claims:
+- **~15 confirmed largely as the scaffold described**: the tortilla con/
+  sin-cebolla and jugosa/cuajada debates; paella valenciana's official
+  no-seafood/no-chorizo ingredient list; pintxo culture's Basque
+  specificity; jamón ibérico/serrano's visual distinction; pan de
+  cristal's construction; mollete de Antequera's DOP status; boquerones
+  and gilda's composition; the three-vuelco cocido madrileño structure;
+  the andaluza/romana calamares batter distinction (sharpened further);
+  the Barcelona bravas-plus-alioli variant; Granada's free-tapa custom
+  (broadened to León, Jaén, and Ávila); the churros/porras pairing;
+  padel's popularity (upgraded with hard figures); and the core Fallas/
+  Semana Santa/Feria de Abril/San Fermín/Tomatina dates and visuals.
+- **~12 corrected with a real checked figure in place of the scaffold's
+  guess**: the 330mL can (now sourced from `coca-cola-guidelines.md`
+  rather than the scaffold's ~11.5cm placeholder, per the task's
+  standing instruction); croqueta length (5–7cm → ~3.5cm); roscón de
+  Reyes diameter (30–40cm → ~20–26cm standard, up to 36cm large); coca de
+  Sant Joan width (15–20cm → 25cm); patatas bravas' origin and sauce
+  (corrected to Madrid-original, paprika-based, no tomato — the alioli
+  pairing is Catalonia's own later addition, not the base recipe);
+  tortilla-pan sizing (refined to a 24cm-centered range with a technical
+  rationale for the bounds); espetos' modern wood-to-steel boat shift;
+  Torrezno de Soria's new EU IGP status (November 2024 — the scaffold
+  predates this); the age-leaving-home and flat-share statistics (both
+  replaced with exact, current Eurostat figures — 30.0 years and 65.3%
+  respectively, both among the EU's highest); paella pan-size-per-serving
+  figures; and the pulpo wooden-plate size range (widened to include
+  20–22cm, not just 25–30cm).
+- **One genuinely new finding not on the scaffold's checklist at all**:
+  the Spain-specific Coca-Cola glass-bottle sizes described above.
+- **~6–8 honestly left unconfirmed rather than guessed**: the 237mL
+  bottle's exact dimensions; gazpacho's actual most-common bar-service
+  glass size; cachopo's exact standard dimension (no single spec found —
+  treated as a scale story, not a locked figure); a specific city's
+  covered-market count; the precise prevalence (not just the existence)
+  of bread directly on the tablecloth; and several Priority 3 items
+  (the grill/meat and menú-del-día compact sections) that were
+  deliberately time-boxed per the task's own instruction, carried at a
+  reasonable-consensus confidence one notch below the scaffold's own
+  self-assessment rather than individually re-searched.
+
+**No claims were found to be flatly wrong.** Every correction above is a
+refinement (a number moved, a nuance added, a new regulatory fact folded
+in) rather than a reversal — the same pattern the UK pass found and
+recorded as itself a reusable finding: a well-disciplined, honestly
+self-tagged unverified scaffold is a genuinely efficient verification
+starting point, not a reason to restart from zero.
+
+**Files touched**: `knowledge-base/02-culture/regions/europe/spain.md`
+(built), `knowledge-base/01-brand/coca-cola-guidelines.md` (one minimal,
+load-bearing addition to §4.3, per the steering note above),
+`knowledge-base/00-methods/market-roadmap.md` (Spain row updated),
+`knowledge-base/scratch-spain-model-knowledge-draft.md` (deleted, now
+superseded). Not committed or pushed, per the task's own instruction —
+left for the orchestrating session to review.
+
+---
+
+## Germany file built: third country, single-file structure with a heavy variant load, 2026-09-24
+
+Ran a full WebSearch verification pass over
+`knowledge-base/scratch-germany-model-knowledge-draft.md`, an exceptionally
+detailed model-knowledge-only scaffold produced by a separate, tool-less
+Claude session on branch `claude/nations-batch-1` (its own honesty
+discipline — every claim self-tagged `[UV→X]`, real "verify via" routes
+rather than fabricated citations — made it a legitimate, trustworthy
+starting scaffold, the same assessment this project already made of the UK
+scaffold; see that entry above). Built
+`knowledge-base/02-culture/regions/europe/germany.md`, reorganizing the
+draft's own distinct 0–12 section numbering into this project's established
+FILE ROLE & METHOD / QUICK-REFERENCE / ZONE CHARACTERIZATION / TRUSTED
+CONTENT (GENERAL NORMS, VISUAL & PLATING NORMS, ENVIRONMENT & STAGING
+SCENES) / DISH CATALOG / GAP LOG / CANDIDATE QUEUE / RESEARCH LOG
+convention — an actual content re-mapping, not a renumbering exercise: the
+texture lexicon became part of VISUAL & PLATING NORMS, the regional map and
+structural decision became FILE ROLE & METHOD, the settings/festival
+material became ENVIRONMENT & STAGING SCENES, and the ~50-dish catalog
+(with its scale anchors and variant tables) became DISH CATALOG.
+
+**Structure and alcohol-exclusion decisions were made by the orchestrating
+session before this pass began, and were not relitigated, per the task
+brief** — recorded here for completeness, not as this pass's own call:
+
+- **Single file, `germany.md`**, not an index-plus-regional-files split,
+  with a heavy schema §4.6 variant load and an internal regional map
+  (Bavaria, Baden-Württemberg, Rhineland/NRW, Hesse/Frankfurt, the
+  Palatinate, the North, Berlin/Brandenburg, Saxony/Thuringia/the former
+  East), plus a documented future-trigger (not an action item now): if
+  Bavarian-specific prompt usage ever exceeds roughly 30% of Germany's
+  total volume, a future `germany-bavaria.md` regional file may be split
+  out, mirroring how Scotland was split from the UK index once confirmed
+  distinct. This pass's own ZONE CHARACTERIZATION research supports, without
+  overturning, that decision: Germany's regional variation is real and
+  heavier in raw dish count than the UK's, but it resolves at the dish-and-
+  vocabulary level (handled via §4.6 disclosure) rather than the
+  food+vocabulary+architecture triple-axis break that earned Scotland its
+  own file — no German region's housing/architecture type reads as
+  categorically unrelated to a national vernacular the way a Glasgow
+  tenement's shared "close" has no English equivalent at all.
+- **Alcohol exclusion accepted as a hard rule, not relitigated.** Beer,
+  wine, Apfelwein, and Glühwein genuinely dominate many of this file's real
+  settings (beer gardens, the Munich autumn folk festival, wine festivals,
+  Christmas markets) — the draft's own resolution (record the market fact
+  honestly, then frame every prompt on food/Coca-Cola/people, explicitly
+  excluding alcohol, alcohol-coded vessels, alcohol branding, and
+  Coca-Cola-as-mixer imagery) is accepted as final policy for this file.
+  **This pass's actual job on this point was narrower and is now done**:
+  cross-check the rule against `coca-cola-guidelines.md`'s own existing
+  language. That file currently contains **no** alcohol-adjacency or
+  children's-marketing language of its own — it documents only the
+  Coca-Cola product's physical representation and composition rules. That
+  is recorded honestly in `germany.md`'s FILE ROLE & METHOD section as a
+  finding, not treated as a gap this pass should fill. **A real, current
+  TCCC policy independently supports the rule anyway**: this pass found and
+  cited The Coca-Cola Company's own public Responsible Marketing Policy
+  (no direct marketing to children under 13; no advertising in primary
+  schools) and its Responsible Alcohol Marketing Policy (marketing only to
+  those above the legal purchase age; never implying Coca-Cola is consumed
+  as or with alcohol) — both published at coca-colacompany.com. `germany.md`
+  cites both directly, so its alcohol-exclusion rule and children/schools
+  caution are grounded in a real external policy, not an invented rationale.
+
+**Steering note received mid-task, followed exactly.** The orchestrating
+session flagged that `coca-cola-guidelines.md` has a larger dedicated
+overhaul planned separately (evidently coordinating with the parallel
+Spain-file session, whose own confirmed Spain-specific glass-bottle finding
+had just been added to that file — see the Spain entry above) and asked
+that this pass not add new content to it unless a confirmed, load-bearing,
+market-specific pack dimension was found that genuinely differs from the
+existing 330mL/115.2mm/66.1mm non-US default. **No such figure was found
+for Germany this pass** — WebSearch for Germany's 0.2L/0.33L returnable
+glass-bottle dimensions and for a possible "slim" 330mL can variant
+returned only generic aggregator content, not a Germany-specific confirmed
+spec. Consistent with the steering note, `coca-cola-guidelines.md` was
+**not edited** by this pass; the two TCCC policy citations, the deposit-
+logo/DPG size, the calibrated-glassware (Eichstrich/Füllstrich) convention,
+and the unconfirmed glass-bottle dimensions all live inside `germany.md`
+itself (its COCA-COLA MARKET INTEGRATION section and GAP LOG/CANDIDATE
+QUEUE), exactly where the steering note asked them to stay.
+
+**Verification outcome, roughly quantified.** Of roughly 50 distinct
+factual claims this pass specifically targeted (the draft's own Priority
+A/B queue plus the task's own named spot-check list): **roughly 20 were
+confirmed and upgraded to a real sourced HIGH/MEDIUM-HIGH confidence tag**
+(the Wiener Schnitzel veal-naming law; the DPG deposit-logo's legal size and
+trademark status; the Eichstrich/Füllstrich legal fill-line convention;
+Nürnberger and Thüringer Rostbratwurst's exact EU-PGI dimensions; the
+Swabian-vs-Bavarian pretzel-shape mechanism — pre-slit fat belly vs.
+naturally-split belly, not just "arms joined higher/lower"; currywurst's
+Berlin-best-evidenced-but-genuinely-contested origin and its East Berlin
+skinless-variant origin, traced to a named individual and a real 1947
+casing shortage; East-style Jägerschnitzel's specific GDR-canteen
+Jagdwurst-substitution origin; Sauerbraten's three genuinely distinct
+regional sauce constructions [Rhenish/raisins, Franconian/gingerbread,
+Swabian/garlic-dry-wine]; Käsespätzle's Swabian origin and Bergkäse cheese
+type; Flammkuchen's shared Alsace/Baden/Palatinate origin and test-oven-
+temperature etymology; Handkäs mit Musik's composition; Labskaus's origin
+plus a newly-disclosed Hamburg-vs-Bremen presentation variant [beetroot
+mixed into the mash vs. served as a separate side] the draft hadn't
+flagged as a choice at all; Grüne Soße's Maundy Thursday tradition and 2016
+EU protection; Spaghettieis's exact 1969 Mannheim/Dario Fontanella origin;
+Steckerlfisch's mackerel-prevalence correction; the Munich-only Oktoberfest
+framing; Spargelzeit's 24 June/Johannistag end date; Germany's population,
+housing-stock split [54.8%/31.4%/12.8%], ~55% rental rate, ~67% balcony-
+access rate, and the ~14%-of-25–29-year-olds-at-home figure; and TCCC's own
+real responsible-marketing/alcohol-marketing policies). **Roughly a dozen
+items were spot-checked and carried forward largely as the draft described
+them**, finding no contradiction (the general meal-structure framework,
+most texture-lexicon claims, most compact-catalog dish dimensions).
+**A handful of specific figures were corrected or sharpened, not just
+confirmed verbatim** — the can dimension (replaced the draft's own rough
+~11.5cm/~6.6cm estimate with `coca-cola-guidelines.md`'s already-verified
+115.2mm/66.1mm figure, the same correction the UK build made); Nürnberger
+Bratwurst's length (sharpened to the exact EU-registered 7–9cm/20–25g); and
+Labskaus's presentation (disclosed as a genuine coexisting variant rather
+than one unqualified description). **Nothing was found to be flatly wrong
+and removed outright** — the same pattern the UK and Spain passes both
+recorded: a well-disciplined, honestly self-tagged unverified scaffold is a
+genuinely efficient verification starting point.
+
+**What could not be confirmed, honestly flagged rather than guessed**: the
+Germany-specific 0.2L/0.33L returnable glass-bottle and 1.0L PET/glass
+dimensions (the single largest remaining Priority-A gap from the draft's
+own queue); whether Germany uses a "slim" 330mL can variant; the exact
+everyday visual appearance of a calibrated-glass fill line; the paprika-
+schnitzel old-name naming-sensitivity claim (carried forward as a standing
+precaution regardless, since over-caution here costs nothing); and a large
+share of individual dimensions across the compact-catalog tables (fair-and-
+market snacks, Kaffee-und-Kuchen items, East German dishes, soups) — logged
+in `germany.md`'s own GAP LOG rather than left implicit. This file also
+carries a heavier proportion of MEDIUM-confidence, not-individually-
+re-verified entries than `uk.md` did, an explicit, disclosed proportionality
+choice given the draft's roughly 50-dish scope — see the DISH CATALOG's own
+opening note in `germany.md` for the reasoning.
+
+**One structural merge made during reorganization, flagged as a judgment
+call beyond what was pre-decided**: the draft kept its trademark/landmark
+list and its general-norms brand-mention list as two separate, overlapping
+tables; this pass consolidated them into one authoritative
+trademark-genericization table inside TRUSTED CONTENT > GENERAL NORMS, with
+the TRADEMARK & LANDMARK HANDLING section (kept, matching schema §7.5's
+naming convention used elsewhere in this project) pointing back to it
+rather than duplicating it.
+
+**Not done, flagged instead**: a native-German-reviewer sign-off pass (the
+draft's own explicit recommendation) has not happened — `germany.md`'s
+`status:` front matter and this project's `market-roadmap.md` both reflect
+"needs SME/human review," not production-ready. An independent §8 audit of
+the finished file, per the project's standing practice, also has not been
+run yet as a separate pass.
+
+**Files touched**: `knowledge-base/02-culture/regions/europe/germany.md`
+(built), `knowledge-base/00-methods/market-roadmap.md` (Germany row
+updated only — the Spain row from the parallel session's edit above was
+left untouched), `knowledge-base/scratch-germany-model-knowledge-draft.md`
+(deleted, now superseded). `knowledge-base/01-brand/coca-cola-guidelines.md`
+was deliberately **not** touched, per the steering note above.
+`knowledge-base/scratch-spain-model-knowledge-draft.md` was left untouched,
+per the task's own instruction not to interfere with the parallel Spain
+task. Not committed or pushed — left for the orchestrating session to
+review.
