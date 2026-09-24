@@ -1218,3 +1218,45 @@ countries get built. Noted Uruguay separately in that file, since it's not
 on TCCC's list but is the KB's existing pilot/schema-origin country and
 should stay visible as such rather than being conflated with the numbered
 priority markets.
+
+---
+
+## Starting us-northeast.md: internal zone triage and subagent delegation, 2026-09-24
+
+The user directed going in depth on the US specifically because it's the
+hardest, most structurally complex market — the theory being that if the
+schema holds up here, it generalizes more easily to every simpler,
+typically single-file market on the new roadmap. Started the first
+regional file, `us-northeast.md`, since three separate `us.md` index
+entries (NY-style pizza incl. NJ specialty styles, NYC halal cart gyro,
+several deli/sandwich dishes) already depend on it and it's the most
+immediately useful build.
+
+**Internal zone decision**: the 13-file regional list (including keeping
+Northeast as one file, not further split) was already decided in an
+earlier round — not re-litigated here. But evidence already sitting in
+`us.md` shows genuine internal texture within "Northeast" (Connecticut vs.
+Maine lobster roll are already documented as materially different; New
+Haven apizza vs. NY-style pizza are already different; Boston's "grinder"
+vs. NYC's "hero" terminology already different) — enough to warrant
+labeled internal zones within the one file, the same treatment Uruguay
+gave its coastal-vs-interior distinction and `us-south.md` gives
+Lowcountry. Split into three zones based on that existing evidence: NYC
+Metro & New Jersey; Southern New England (CT/RI); Northern New England
+(Boston/MA, VT, NH, ME).
+
+**Delegation**: launched three parallel background research subagents, one
+per zone, each instructed to read `country-file-schema.md` and the
+existing `us.md`/`uruguay.md` content first, pull forward (not duplicate)
+the dish entries already sourced in `us.md` that point to
+`us-northeast.md`, research genuinely new dishes/environment detail for
+their zone with the same sourcing discipline as the rest of this project,
+and write a scratch draft rather than edit any KB file directly. This
+mirrors the original `us.md` buildout's parallel-subagent pattern. Each
+agent was also asked to flag (not decide) whether their zone might warrant
+further internal subdivision — e.g., whether Boston/MA reads different
+enough from rural Vermont/NH/Maine to eventually need a fourth zone — since
+that's a structural call for human review, not something a research pass
+should settle on its own. Results pending; will review, reconcile, and
+merge into `us-northeast.md` by hand once all three complete, checking for
+duplication against `us.md`'s existing entries before anything is written.
