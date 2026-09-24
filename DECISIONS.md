@@ -2272,3 +2272,86 @@ dimensions stay as this file's own reasonable estimates rather than
 locked figures — logged in `uk.md`'s Gap Log as the top remaining §4.5
 item, not silently left unaddressed. Germany and Spain remain not started,
 per `market-roadmap.md`.
+
+---
+
+## `us-west-coast.md` (11th US regional file) — 2026-09-24
+
+**Context:** Eleventh of the 13 planned US regional files. Research was
+delegated to a subagent, which wrote a 322-line scratch draft to
+`knowledge-base/scratch-us-west-coast-draft.md` following the exact
+structural pattern `us-texas.md` and `us-arizona.md` established. This
+entry records the merge/review pass: the scratch draft was read in full
+(two `Read` calls), the canonical file was written, `us.md` was updated,
+and the scratch file deleted.
+
+**Naming decision not relitigated.** Unlike Arizona's case, this file's
+name was not up for reconsideration: `us.md`'s FILE ROLE & METHOD table
+already records that a research-recommended rename to `us-california.md`
+was proposed and explicitly rejected by the human reviewer on
+2026-09-24 — the reviewer judged the broader "West Coast" label still
+fits the actual reach of the content (California cuisine, Baja fish
+taco, sourdough). The research brief explicitly instructed the subagent
+not to revisit this, and it didn't.
+
+**Structural decision: one file, no NorCal/SoCal split — tested, not
+assumed.** The brief specifically asked that the Northern California/Bay
+Area vs. Southern California/LA–San Diego axis be run through the swap
+test rather than inherited as an assumption either way. Real, sourced,
+causally-explained internal variation was found (Gold Rush-era Chinese
+immigration and Chez Panisse's farm-to-table movement anchoring NorCal;
+the Pacific Rim immigration-wave pattern, Cal-Mex border culture, and
+car-culture food inventions anchoring SoCal) — but it resolves the same
+way Texas's BBQ-style variation and Arizona's Tucson/Phoenix gradient did:
+dish-level variant tables and zone callouts inside one file, not a
+further split. The California burrito (San Diego, fries-inside) vs.
+Mission-style burrito (San Francisco, foil-wrapped, rice-and-beans) pair
+is the clearest concrete case — a genuine §4.2/§4.6 form-changing
+regional-variant pair, disclosed with both origin claims honestly
+contested rather than resolved, consistent with this project's treatment
+of the gyro, Reuben, and chimichanga disputes.
+
+**Two `us.md` pointers resolved.** Sourdough bread (previously flagged
+LOW confidence, "not fully researched this pass") now has a full entry
+covering the *Fructilactobacillus sanfranciscensis* microbiology and
+Boudin Bakery's 1849 Gold Rush origin claim (cited as historical
+evidence only, genericized per §7.5 for actual prompts). The Baja-style
+fish taco pointer is resolved with San Diego's Ralph Rubio
+popularization story (explicitly a popularization claim, not an
+invention claim — the City of San Diego's own 2016 "Ralph Rubio Day"
+proclamation makes this distinction itself) and a §4.6 battered-vs-grilled
+variant table with an explicit default.
+
+**California roll gap flagged, not fixed here.** `us-west-coast.md`'s
+research noticed `us.md`'s existing, nationally-uniform California roll
+entry has no §4.5 real-world-scale field — a real gap, but one that
+predates §4.5 becoming mandatory project-wide and belongs to `us.md`'s
+own future audit, not this file, per the placement rule (a
+nationally-uniform dish's authoritative entry stays in the national
+index). Added a one-line flag directly to that entry in `us.md` plus a
+matching GAP LOG note, rather than duplicating the entry here.
+
+**Pacific Northwest boundary respected.** Dungeness crab, Pacific salmon
+traditions, and Seattle coffee culture were deliberately kept out of this
+file for the future `us-pacific-northwest.md`. Two boundary-adjacent
+findings were flagged rather than silently absorbed or dropped: San
+Francisco's clam-chowder bread bowl is a California, not PNW, claim; and
+Oakland (not Seattle) is Blue Bottle Coffee's real birthplace, flagged so
+a future Pacific Northwest file doesn't assume uncontested ownership of
+all West Coast coffee-culture claims (not built into a dish entry itself,
+per the project's beverage-scope exclusion).
+
+**One open call deferred to a human reviewer, not resolved unilaterally**:
+a generic, region-unspecified "burrito" brief (naming neither San Diego
+nor San Francisco) has no established default in this file. Both burrito
+styles are comparably well-known nationally by different routes (the
+Chipotle-lineage cultural export for Mission-style; direct West Coast
+recognition for the California burrito), and picking one without a
+stronger tiebreaker risked exactly the silent-default problem
+`country-file-schema.md` §4.6 exists to prevent — logged in the file's own
+Gap Log and Candidate Queue as Priority 1 for human judgment.
+
+**Status**: 11 of 13 US regional files complete. `market-roadmap.md`
+updated accordingly. `us.md` updated (table row, Bread Reference
+sourdough entry, California roll gap flag, GAP LOG). Scratch draft
+deleted. Pacific Northwest and Hawaii remain.
