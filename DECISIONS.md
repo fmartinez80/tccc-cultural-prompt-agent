@@ -400,6 +400,40 @@ Candidate Queue) treats this: without the correction, someone could
 reasonably read the original phrasing as "open item, go dig for a source,"
 when the right instruction is "don't — this isn't a sourcing problem."
 
+---
+
+## Real-world prompt test surfaces a table-setting gap, then a self-correction, 2026-09-24
+
+The user generated an actual image from the Chivito entry's prompt and asked
+me to evaluate it against `uruguay.md`. I flagged two real mismatches (bread
+type, steak cut) and confirmed several things the file got right. The user
+then asked about napkins, sauces, and utensils — the image had none of the
+three, and the file didn't address any of them either.
+
+I researched it (two dedicated searches, no Uruguay-specific source found for
+napkins or condiment caddies) and reported back — but I made a real mistake
+in that same reply: I said "utensils are not a gap" because a source confirms
+the sandwich itself is hand-eaten. The user immediately caught the error:
+**the plate also includes ensalada rusa**, a mayo-bound potato salad, which
+obviously requires a fork regardless of how the sandwich is eaten. I'd
+checked the headline dish's own eating custom and stopped there, without
+checking the plate's other documented component for its own requirement.
+
+**Fixed**: the Chivito entry's Utensils field now says a fork is required at
+the table for the side even when the sandwich is hand-eaten, and the Gap Log
+entry was corrected in place (not left standing next to a contradicting
+correction) to show the mistake and the fix, not just the final answer.
+
+Separately, the user gave direction not to add chimichurri to the scene,
+reasoning that not every documented cultural detail should be added to every
+generated scene — doing so risks clutter/over-indexing on local color rather
+than a clean, natural shot. I agreed this was a real, generalizable principle
+and wrote both this one and the utensils-checking mistake into
+`knowledge-base/00-methods/country-file-schema.md` (new §7.5) so future
+country builds check every scene component's own requirements rather than
+generalizing from the main dish, and don't checklist-include every sourced
+fact into one image.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to

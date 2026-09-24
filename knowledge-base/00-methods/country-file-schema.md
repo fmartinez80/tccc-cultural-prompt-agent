@@ -355,6 +355,36 @@ alternatives**, not replacements.
 
 ---
 
+## 7.5 From KB facts to image prompts: two practical rules
+
+These surfaced from actually generating an image off a finished entry and
+reviewing the result against the source file — a real-world test worth
+running on any dish/scene entry before treating it as fully validated, not
+just a one-off for this project.
+
+- **A documented detail existing somewhere in the file does not mean it
+  belongs in every scene drawn from that file.** A general norm (e.g., a
+  table condiment that's genuinely common for one category of dish) should
+  not be reflexively added to a different dish's scene just because it's
+  documented *somewhere* in the same file. Checklist-including every sourced
+  detail the file happens to contain produces visual clutter and a
+  staged-looking result — its own kind of inauthenticity, working against
+  a natural/inviting photography goal the same way an under-researched
+  generic scene would. Include what the specific dish/scenario's own entry
+  actually calls for, not everything the file knows about the country.
+- **Check every documented component of the scene for its own eating/serving
+  requirements, not just the headline dish.** A specific failure mode this
+  project hit: a dish entry correctly said its named dish is eaten by hand,
+  and that got extended — wrongly — to a claim that no utensils belong in
+  the scene at all. But the same entry's own documented side dish (a
+  mayo-based potato salad) obviously requires a fork regardless of how the
+  main dish is eaten. When evaluating what belongs on the table, walk every
+  component listed in the entry (mains, sides, condiments) and ask what it
+  specifically requires, rather than inferring the whole scene's needs from
+  the single most prominent item.
+
+---
+
 ## 8. Independent audit, before calling a file done
 
 Before treating a file as finished, run a **skeptical, independent** review
