@@ -900,3 +900,37 @@ recurring for a future reader who hasn't seen the verification. This is
 the same discipline as the earlier chivito utensils correction: treat a
 user's skepticism as a prompt to re-verify, and either fix the file or
 clarify it so the same question doesn't need to be re-litigated.
+
+---
+
+## New schema principle: surface variants as choices, not silent defaults, 2026-09-24
+
+The user's forward-looking point: as this KB eventually feeds a guided
+tool that walks a user toward a finished image prompt, a dish with
+multiple real, coexisting regional/local variants (Trenton tomato pie vs.
+Jersey Shore boardwalk pizza vs. NJ's everyday NY-influenced pizzeria pie)
+should offer those as an explicit choice, not have the tool (or me, writing
+a prompt by hand) silently pick one. Added this as a new §4.6 in
+`country-file-schema.md`, tied directly to the existing regional
+form-variation schema (§4.2/§4.3) so it's read as guidance on how that
+data gets *used* by a downstream tool, not just how it's documented: the
+variant list is the option set to offer; "Default when unspecified" is a
+fallback for no-preference cases, never a reason to skip asking.
+
+While checking whether NJ actually has a sourceable "most common statewide"
+default (needed to know whether a third option belonged in the picker
+alongside the two already-documented specialty styles), hit and caught a
+real research error worth recording plainly: an initial search summary
+suggested "Grandma-style" square pizza as particularly associated with New
+Jersey. A second, more specific search contradicted this directly —
+Wikipedia's Grandma pizza entry attributes the style's origin to Umberto's
+Pizzeria in New Hyde Park, Long Island, NY, not New Jersey; only Sicilian-
+style (a different, already-documented style) was actually called out as
+popular in NJ. Did not add the Grandma-pizza claim anywhere. Instead added
+a Gap Log entry to `us.md` documenting both the surviving lead (NJ's
+everyday pizzeria style is broadly NY-influenced with a thicker, sturdier
+crust — MEDIUM at best, commercial/enthusiast sourcing only) and the
+discarded one, so a future pass doesn't waste time re-chasing the same
+false lead. Consistent with this project's standing practice: a search
+result is a lead to verify, not a fact to write down on first read,
+especially when a second, more specific source directly contradicts it.

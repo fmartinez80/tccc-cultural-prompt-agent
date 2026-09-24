@@ -171,11 +171,39 @@ say so explicitly — this is itself a recurring, useful authenticity note.
   file — one is authoritative, the other points to it.
 - **Default/fallback**: state explicitly what to render when a brief doesn't
   name a specific place — flagged as an editorial judgment call, not
-  presented as a sourced fact.
+  presented as a sourced fact. **This default is a fallback for when no
+  preference is given, not a suppression of the other variants** — see §4.6.
 - **Decision test for whether a dish needs this mechanism at all**: the same
   "would depicting the wrong variant look visibly wrong to someone who knows
   the place" test from §1.1, applied at the dish level instead of the
   country level.
+
+### 4.6 Surface coexisting variants as an explicit choice, not a silent default
+
+When a place has multiple genuinely coexisting, non-hierarchical variants
+of a dish — not one superseding the others, just different registers a
+real person might mean — any tool guiding a user toward a finished prompt
+should offer them as options, rather than the KB (or a person writing a
+prompt from it) silently picking one on the user's behalf. The concrete
+case that surfaced this: "pizza in New Jersey" isn't one thing — Trenton
+tomato pie (a specific city's sit-down pizzeria style), Jersey Shore
+boardwalk pizza (a beach-vacation, walk-up-stand register), and NJ's
+everyday, NY-influenced neighborhood pizzeria pie are all real, distinct,
+simultaneously-true answers, not a hierarchy with one correct choice.
+Silently defaulting to whichever one the KB happens to have the best
+sourcing for would quietly foreclose two answers a user might have
+actually wanted.
+
+Practically, this means: (1) a dish entry's regional form variation list
+(§4.2/§4.3) is the option set a guided tool should read and offer, not just
+a place to bury detail; (2) the "Default when unspecified" field is what
+the tool pre-selects or falls back to only if the user has no preference
+or doesn't engage with the choice, never a reason to skip asking; (3) where
+one candidate "everyday/default" variant exists but isn't yet confidently
+sourced (see this project's New Jersey pizza Gap Log entry), don't paper
+over that with an under-sourced guess just to have a complete-looking
+option set — offer the well-sourced variants as choices and flag the
+missing baseline as a real gap, the same as any other unconfirmed claim.
 
 ### 4.4 Serving-format variation
 
