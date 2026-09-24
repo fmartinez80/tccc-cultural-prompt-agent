@@ -559,6 +559,30 @@ just a one-off for this project.
     Wonder Wheel's or Cyclone's actual distinctive designs — the
     boardwalk-amusement-park category read correctly without reproducing
     either real structure.
+- **Scale/size consistency for the hero food item is unreliable across
+  generations from the same prompt, and the lens/distance spec (e.g.
+  "50mm at f/2.8") is not a dependable lever for controlling it.** A NYC
+  halal-cart gyro prompt produced one generation where the wrap looked
+  nearly twice the width of the Coca-Cola can beside it, and a second
+  where the proportions read as realistic — same prompt, same lens spec,
+  no absolute-size language for the food either time. Lens/aperture
+  language in a prompt functions as a stylistic cue toward a bokeh/framing
+  convention the model has seen labeled that way in training data, not a
+  literal physical camera simulation — changing the focal length or
+  implied camera distance may shift the overall look but isn't expected to
+  reliably fix scale on its own, since the model isn't computing real
+  optics from that number in the first place. **The more reliable lever is
+  the same one already established for the steak-vs-ham thickness fix:
+  anchor the food's size to another object already in the frame with a
+  known, fixed real-world size**, rather than describing the food's size
+  in isolation or leaning on lens spec. The Coca-Cola can is a naturally
+  convenient anchor for this, since it's already present in nearly every
+  scene and has a fixed, widely-understood real-world size (a standard 12
+  fl oz can is ~4.83 in / 12.2 cm tall) — e.g., "the wrap is roughly the
+  same length as the can standing beside it, not dramatically larger or
+  smaller" rather than an absolute size claim for the food. Not yet
+  confirmed across multiple generations; flagged as the next thing to
+  test, not a proven fix.
 
 ---
 

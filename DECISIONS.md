@@ -1141,3 +1141,30 @@ navy/dark blue rather than the yellow specified in the prompt. A single
 data point isn't enough to call this a pattern under this project's own
 two-generations discipline — flagging it here for awareness, not writing
 it into either methods file yet.
+
+---
+
+## New finding: scale consistency and the lens-spec question, 2026-09-24
+
+The user flagged that the two gyro generations disagreed sharply on scale
+— one where the wrap looked nearly twice the can's width, one much more
+realistic — and asked whether the "50mm at f/2.8" lens spec was
+responsible, wondering if a longer lens/greater distance would help.
+
+Answered from how these models actually work rather than real camera
+physics: lens/aperture language in a prompt is a stylistic cue toward a
+bokeh/framing convention the model associates with that phrasing from
+training data, not a literal optical simulation — there's no real 3D scene
+being rendered through virtual glass, so changing the focal-length number
+isn't expected to reliably fix scale on its own, even though it's a
+reasonable real-world photography intuition.
+
+Recommended the already-established, already-proven lever instead:
+anchor the food's size to another object in frame with a known, fixed
+real-world size, the same technique that fixed the chivito steak-vs-ham
+thickness problem. The Coca-Cola can is a natural fit here specifically
+because it's already present in nearly every scene this project generates
+and has a fixed, standard real-world size (~4.83 in tall) most people have
+an intuitive sense of — logged as a new, general (not brand-specific)
+finding in `country-file-schema.md` §7.5, flagged explicitly as untested
+pending a revised prompt and the usual two-generations check.
