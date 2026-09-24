@@ -1787,26 +1787,41 @@ enough risk to guard against by default going forward.
 
 ---
 
-## Beignets ablation: the relative can-height sentence may be redundant, 2026-09-24
+## Beignets ablation: the relative can-height sentence looks redundant; the "classic red" fix is still untested, 2026-09-24
 
-User ran one further generation with the explicit relative-comparison
+User ran three further generations with the explicit relative-comparison
 sentence removed from the prompt ("...about 4.83 inches (12.3cm) tall —
 use its real size as the scale reference for the whole scene. Each
-beignet should read as clearly less than half the can's height..."),
-keeping only the beignet's own absolute dimensions (3-inch square
-footprint, 1.5–2in post-fry thickness). Result: size still held —
-beignets read proportionate to the can, not oversized, consistent with
-the corrected batch above rather than the original ~65%+ oversized
-renders. Tentative read, n=1 only, needs the standard two-generation
-minimum before treating as confirmed: **the beignet's own absolute
-real-world dimensions may be doing the actual correcting work, with the
-explicit can-relative comparison sentence possibly redundant once those
-are present.** If confirmed with a second run, this would simplify future
-scale-anchor phrasing — grounding the food's own real size may matter
-more than an explicit side-by-side comparison instruction. Not promoted
-to a schema rule yet.
+beignet should read as clearly less than half the can's height...")
+replaced with a bare "The can is a standard 12 fl oz can," keeping only
+the beignet's own absolute dimensions (3-inch square footprint, 1.5–2in
+post-fry thickness). None of the three added any can color/variant
+specification — the can description stayed "a single unopened 12 fl oz
+aluminum Coca-Cola can" throughout, same as every prior test in this
+series.
 
-The can-color/variant problem persisted unchanged in this generation (a
-silver can again) — expected, since that variable wasn't touched by this
-test; the classic-red-can wording recommended above still needs testing
-on its own.
+**Size held correctly across all three** — beignets read proportionate to
+the can, not oversized, consistent with the corrected batch rather than
+the original ~65%+ oversized renders. This now meets the standard
+two-generation minimum: **the beignet's own absolute real-world
+dimensions appear to be doing the actual correcting work; the explicit
+can-relative comparison sentence looks redundant once those are
+present.** Confirmed enough to note here, though still not promoted to a
+schema-wide rule — this project's practice has been to let a finding
+accumulate across more than one dish before generalizing it.
+
+**Can color/branding varied widely across the same three generations**:
+one rendered a fully silver Diet-Coke-style can; one rendered a
+half-red/half-silver can with a wrong wordmark ("Coke" in a plain font,
+plus garbled gibberish subtext); one rendered a predominantly correct red
+can with a clean, correctly-spelled "Coca-Cola" script (though cropped at
+the frame's edge, a separate composition miss). **Important correction to
+this project's own working assumption**: none of these three tested the
+"classic red Coca-Cola can (original, not Diet Coke or Coke Zero)"
+wording recommended after the prior batch — that fix remains completely
+untested. What this batch actually shows is that an *unspecified* can
+variant produces a wide, unpredictable spread of outcomes (silver, wrong
+wordmark, or correct red) run to run, which is a larger, more informative
+sample of the same finding already logged above, not new evidence either
+for or against the untested fix. The classic-red-can wording still needs
+its own dedicated test before treating it as validated or ruled out.
