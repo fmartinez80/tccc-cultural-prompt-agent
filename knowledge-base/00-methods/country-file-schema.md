@@ -561,6 +561,12 @@ just a one-off for this project.
   place (a boardwalk amusement-park skyline is a genuine, common American
   beach-town pattern, not fabricated) without asking the model to
   reproduce one company's specific, identifiable structure.
+  - **Confirmed**: the genericized version of the Coney Island prompt was
+    tested twice and both generations produced a plausible Ferris
+    wheel/roller coaster skyline with no recognizable resemblance to the
+    Wonder Wheel's or Cyclone's actual distinctive designs — the
+    boardwalk-amusement-park category read correctly without reproducing
+    either real structure.
 
 ---
 

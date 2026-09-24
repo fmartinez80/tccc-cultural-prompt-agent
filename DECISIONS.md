@@ -1015,3 +1015,23 @@ Cross-referenced this rule directly from the Coney Island venue note in
 same mistake. Did not remove the landmark research itself — it's accurate
 and useful for understanding the place, just not something to be spec'd
 literally into an image-generation prompt.
+
+---
+
+## Landmark-genericization rule confirmed, 2026-09-24
+
+Ran the revised (generic-landmark) Coney Island prompt twice. Both
+generations produced a plausible Ferris wheel/roller coaster skyline with
+no recognizable resemblance to the Wonder Wheel's or Cyclone's actual
+distinctive designs (no wood-lattice structure, no matching ride geometry)
+— the boardwalk-amusement-park category read correctly without reproducing
+either real attraction. Marked the rule "confirmed" rather than just
+proposed in `country-file-schema.md`, same pattern as the earlier
+stacked-halves fix.
+
+Also picked up an additional data point on the can-legibility finding: one
+of the two generations showed the blurred back label (compliant), the
+other the sharp, fully legible front logo (non-compliant) — a mixed rather
+than uniform result. Didn't change the existing finding or the production
+plan over this, since "unreliable, don't depend on it, composite instead"
+already covers a mixed outcome as well as a uniform one.
