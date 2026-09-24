@@ -1679,3 +1679,41 @@ Five cross-zone questions were resolved by hand:
    vs. butter, tomato vs. no tomato) as the actual point of distinction.
 
 This brings the US regional structure to 6 of 13 files complete.
+
+---
+
+## Beignets test (New Orleans, evening, Coca-Cola can): strong confirming result, 2026-09-24
+
+Ran the beignet prompt (built off the newly-published `us-gulf-south.md`
+entry) twice. Both generations landed the dish's checkable authenticity
+markers cleanly and consistently:
+
+- Thick, heaping, matte-white powdered sugar mounding in both — not a
+  light dusting — matching the entry's flagged "under-sugared beignet is
+  a real, checkable authenticity miss" note.
+- Deep golden-brown fried crust visible at the edges where sugar didn't
+  fully cover, in both.
+- The torn-open beignet showed a light, airy interior with visible
+  irregular air pockets in both — image 2's cross-section was the
+  stronger, more textbook example of this specific texture/finish detail.
+- Square/rectangular, irregular, puffed/domed shape (not a ring doughnut,
+  not a smooth geometric square) in both.
+- No hand-holding — food rests on the marble table in both, per the
+  standing anti-hand-holding composition rule.
+- Background genericized correctly — wrought-iron balconies, string
+  lights/warm sconces, a dusky sky, no legible signage or menu boards,
+  no recognizable specific real venue reproduced.
+
+One recurring item, not a new finding: the Coca-Cola can's logo rendered
+fully correct and legible in both generations this run. Per the standing
+`01-brand/coca-cola-guidelines.md` §1 finding, two clean samples in a row
+does not overturn the established run-to-run unreliability — still never
+trust the can's rendered branding as production-safe; compositing remains
+the standard regardless of how clean a given sample looks.
+
+One minor compositional note for future iteration, not a KB correction:
+in the second generation, the can reads slightly large/dominant relative
+to the beignets and sits close to the frame's right edge, a looser fit to
+the hero-zone/scale-anchor phrasing than the first generation's tighter
+composition. Not treated as a failure — flagged for whoever refines this
+prompt template next.
