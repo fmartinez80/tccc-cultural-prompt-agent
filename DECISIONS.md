@@ -1386,3 +1386,29 @@ table, counter, railing, or other stable surface" with an open-ended
 qualifier, so the overclaim was specific to how this file narrowed the
 general rule's examples, not a flaw in the rule itself; no change needed
 there.
+
+---
+
+## Texture/finish standing rule added; starting Mid-Atlantic, 2026-09-24
+
+The user confirmed `us-northeast.md`'s depth level is the right bar going
+forward, and asked for one refinement applied to every remaining
+subregion: more emphasis on texture/finish detail specifically — char,
+crispiness, doneness, crumb structure — not just color and shape. Added
+this as a standing rule in `country-file-schema.md` §4.5, under the
+existing mandatory Visual/plating characteristics field, rather than as a
+one-off note — this needs to apply to every future dish entry in every
+future country/region file, not just the remaining US subregions. Used
+this project's own existing strong examples (New Haven apizza's charring/
+pecorino-dusting description, RI clam cakes' craggy-not-smooth exterior)
+as the model to match, since they were already doing this well by
+instinct even before the rule was written down explicitly.
+
+Starting the next regional file, `us-mid-atlantic.md`. Only one dish
+(Philly cheesesteak) currently points there from `us.md`; the exact state
+scope (Pennsylvania/Philadelphia plus Delaware are clear; whether
+Maryland/DC/Virginia's Chesapeake Bay identity belongs here or is better
+split as its own internal zone is a real open question, not yet decided)
+will be established by the research itself, the same way Northeast's
+three-zone structure emerged from its own research rather than being
+assumed in advance.

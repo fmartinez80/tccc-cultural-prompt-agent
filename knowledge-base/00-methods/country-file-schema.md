@@ -236,6 +236,28 @@ rather than a single entry that tries to describe both.
   confusable alternative and state what rules it out. If nothing rules it
   out — say so explicitly (see §4.1's spaghetti/meatballs-style honesty
   norm, and the Uruguay milanesa napolitana / pizza a la piedra fix in §8).
+  - **Texture/finish detail specifically — don't stop at color and shape.**
+    (Added after `us-northeast.md`'s first review, as a standing rule for
+    every subsequent entry, not just a Northeast-specific note.) A dish's
+    finish is often the more checkable, more photorealism-relevant detail
+    than its base color or silhouette: is the crust **charred** or evenly
+    golden? Is the surface **crisp/craggy** or smooth? Is the meat
+    **well-done and uniformly cooked through** or **pink/rare at the
+    center**? Does a cut surface show visible **crumb structure** (open
+    and irregular vs. dense and fine), or **crumbs/flaking** on the
+    surface or plate? This project's own entries already do this well in
+    places worth using as the model — New Haven apizza's "blistered and
+    deeply charred crust edges" and pecorino's "light, dry, granular
+    dusting" (not a melted sheen); Rhode Island clam cakes' "crisp/craggy
+    exterior... small irregular bumps and ridges from loose-scooped
+    batter, not a smooth molded surface"; the chivito's steak needing a
+    *relative* thickness comparison, not just a color description. Treat
+    "what color and shape is it" as necessary but not sufficient — always
+    also ask what the finish/texture is doing, since that's frequently the
+    detail an image model gets wrong first (see `country-file-schema.md`
+    §7.5's texture-vs-proportion finding) and the detail most likely to
+    make a generated image look genuinely photorealistic rather than
+    illustrative.
 - Common confusion (with neighboring countries/cultures specifically)
 - Confidence (§6)
 - Sources (§6)
