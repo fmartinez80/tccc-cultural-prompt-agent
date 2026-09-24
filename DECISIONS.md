@@ -2039,3 +2039,117 @@ other.
 
 `market-roadmap.md` updated to 9/13 US regional files complete. Next:
 Desert Southwest (Arizona), per the standing authorization.
+
+---
+
+## us-arizona.md built — renamed from us-desert-southwest.md, tenth US regional file, 2026-09-24
+
+Built from a single dedicated research pass covering the Sonoran hot dog
+(full authoritative depth for `us.md`'s existing pointer), Sonoran-style
+flour tortillas, the cheese crisp, carne seca/machaca, the chimichanga
+(honest contested-origin treatment: Tucson's El Charro Café vs. Phoenix's
+Woody's El Nido, plus the failed 2011 joint state-food campaign), the
+Sonoran-style chile relleno, green corn tamales, prickly pear products,
+and — picking up exactly where `us-new-mexico.md` deliberately deferred —
+Navajo Nation foodways in northeastern Arizona (mutton stew, blue corn
+mush, kneel-down bread, the Navajo taco) plus Tohono O'odham (tepary
+beans, the saguaro-fruit harvest) and Hopi (piki bread) content.
+
+**Renamed from `us-desert-southwest.md` to `us-arizona.md`, reversing a
+prior reviewer judgment call.** `us.md`'s FILE ROLE & METHOD table had
+kept the broader "Desert Southwest" name on 2026-09-24 specifically for
+lack of evidence of internal Arizona-vs-elsewhere variance, explicitly
+flagging it for revisit if a future pass found real internal variance.
+This pass found exactly that: nearly everything researched is
+specifically and checkably Arizona-bounded (unlike `us-gulf-south.md`'s
+po'boy or `us-west-coast.md`'s content, which genuinely exceed their
+namesake states), plus two real internal axes — a Tucson/Phoenix gradient
+within one Sonoran-Mexican cuisine, and a genuinely distinct Navajo/
+Hopi/Tohono O'odham Indigenous-foodways layer. Accepted the rename during
+the merge on the strength of this evidence, consistent with the standing
+authorization to make regional-file naming/structure calls as research
+lands (the same authorization already exercised for Missouri & Kansas
+City's internal split and the Texas/New Mexico single-file decisions).
+`us.md`'s table and Sonoran-hot-dog pointer were both updated to match.
+
+**Internal structure: one file, no further split.** The Tucson/Phoenix
+gradient stays within one shared cuisine (a difference of emphasis and
+cosmopolitanism, the same kind of gradient `us-texas.md` documented for
+its own Tex-Mex intensity variation) — not promoted to zone status. The
+Navajo/Hopi/Tohono O'odham content is a genuinely different cuisine
+family, layered geographically within the state, but is carried as a
+substantial, clearly-labeled internal callout rather than a further
+split, for the same reason `us-new-mexico.md` deferred full Navajo
+treatment: the Navajo Nation spans three states, so it doesn't map
+cleanly onto this project's state/region-file convention, and the
+currently-sourced dish depth (four to six dishes, several pending
+stronger tribally-authored sourcing) isn't yet at the level that
+justified carving Appalachia or Florida out on their own. This mirrors
+the Lowcountry resolution in `us-south.md`.
+
+**Closes `us-texas.md`'s open Gap Log item** on the El Paso/Sonoran
+overlap question: El Paso's cross-border influence is Chihuahuan (a
+different Mexican state, a different food profile), not Sonoran —
+`us-texas.md`'s Gap Log and Candidate Queue have been updated to reflect
+the resolution.
+
+This file also carries forward the project's Indigenous-heritage
+sourcing-discipline precedent (from `us-appalachia.md` and
+`us-new-mexico.md`): Navajo and Hopi claims are tagged at the confidence
+level the underlying sourcing (mostly food-blog/journalism tier, not
+tribally-authored or academic) actually supports, with a fry-bread
+origin history (the 1864 Long Walk/commodity-ration system) treated with
+explicit care given its difficult historical context. A sourcing error
+found along the way was corrected rather than repeated: prickly pear is
+Texas's official state plant, not Arizona's, despite one search result
+claiming otherwise.
+
+`market-roadmap.md` updated to 10/13 US regional files complete. Next:
+West Coast, per the standing authorization.
+
+---
+
+## UK file: evaluating a model-knowledge-only scaffold from another session, 2026-09-24
+
+The user had been running a parallel effort on an alt Claude account to
+draft the UK/Germany/Spain files, using a session that turned out to lack
+working web access for this task. That session, rather than fabricating
+sourced-looking content, produced an explicitly self-tagged
+`[UV→expected-tier]` scaffold — every claim marked unverified with a
+prioritization hint and a real "source to check" (never a fabricated
+citation) — plus a 31-item verification checklist (also delivered as an
+uploaded UK_MD_TEST.docx) and a structural recommendation (initially "one
+file," later revised to "index + `uk-scotland.md`") pending human
+sign-off.
+
+**Assessment: this is legitimately usable, not hallucination requiring a
+restart.** The scaffold's own honesty discipline — never assigning an
+earned-sounding HIGH/MEDIUM/LOW tag without a real source behind it —
+means the structure, dish selection, and disputes it flagged (the
+fish-and-chips Malin-vs-Lees origin dispute, the ploughman's-lunch
+marketing-campaign history, the shepherd's-vs-cottage-pie naming rule,
+the NI-pastie/Cornish-pasty confusion trap) are trustworthy leads, not
+claims to distrust. **Decision: verify and merge, not discard and
+restart from zero** — the scratch content is preserved verbatim at
+`knowledge-base/scratch-uk-model-knowledge-draft.md` as the input to a
+real WebSearch verification pass, to be run and merged into the
+canonical UK file the same way the US regional scratch drafts have been
+handled all session.
+
+**A concrete, actionable gap the scaffold surfaced was real and has
+already been fixed**: `coca-cola-guidelines.md` only documented the US
+355mL/12fl oz can. The UK's (and most of Europe's) standard single-serve
+can is 330mL — a genuinely different, shorter size (115.2mm vs. 123mm
+tall, same 66mm diameter) — verified via WebSearch against standard
+packaging-dimension sources and UK retail listings, and added to both
+§3 and §4.3 of the brand file, with an explicit "use 330mL for non-US
+markets" rule. This unblocks accurate can-based scale anchors for the
+UK file and the upcoming Germany/Spain files alike, and specifically
+avoids repeating the beignet-scale mistake in reverse (anchoring a
+UK food item against a can that's actually 7mm too tall).
+
+**Structural decision on the UK deferred to the verification pass
+itself**, not inherited from the scaffold's own guess — same discipline
+as every US regional file this session: research first, then apply the
+swap test, rather than pre-committing to "one file" or "index +
+Scotland" before the evidence is actually checked.

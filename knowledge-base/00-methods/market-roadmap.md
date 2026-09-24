@@ -20,8 +20,8 @@ additional country is completed and confirms it generalizes.
 
 | # | Market | Status |
 |---|--------|--------|
-| 1 | United States | IN PROGRESS — national index (`us.md`) drafted, needs SME review. Regional files: `us-northeast.md`, `us-mid-atlantic.md`, `us-south.md`, `us-appalachia.md`, `us-florida.md`, `us-gulf-south.md`, `us-midwest.md`, `us-texas.md`, and `us-new-mexico.md` complete (9 of 13); 4 regions remaining (Desert Southwest, West Coast, Pacific Northwest, Hawaii). Working autonomously through the full 13-file list per explicit user direction, using judgment on internal zone clustering as each region's research lands. |
-| 2 | United Kingdom | Not started |
+| 1 | United States | IN PROGRESS — national index (`us.md`) drafted, needs SME review. Regional files: `us-northeast.md`, `us-mid-atlantic.md`, `us-south.md`, `us-appalachia.md`, `us-florida.md`, `us-gulf-south.md`, `us-midwest.md`, `us-texas.md`, `us-new-mexico.md`, and `us-arizona.md` (renamed from `us-desert-southwest.md`, see DECISIONS.md) complete (10 of 13); 3 regions remaining (West Coast, Pacific Northwest, Hawaii). Working autonomously through the full 13-file list per explicit user direction, using judgment on internal zone clustering as each region's research lands. |
+| 2 | United Kingdom | IN PROGRESS — a model-knowledge-only scaffold (no web verification performed) received from a parallel effort on another account; preserved at `knowledge-base/scratch-uk-model-knowledge-draft.md` pending a real WebSearch verification-and-merge pass into a canonical file under `knowledge-base/02-culture/regions/europe/`. Structure (single file vs. index + Scotland file) not yet decided — deferred to that pass. See DECISIONS.md. |
 | 3 | Germany | Not started |
 | 4 | Spain | Not started |
 | 5 | Mexico | Not started |

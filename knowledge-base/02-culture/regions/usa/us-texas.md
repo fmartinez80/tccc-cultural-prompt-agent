@@ -281,7 +281,7 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 
 ## GAP LOG
 
-- **El Paso/West Texas Tex-Mex's overlap with `us-desert-southwest.md`'s Sonoran content** rests on a single retail-blog-tier source (LOW-MEDIUM confidence) — worth a dedicated cross-check once both files exist, to confirm there's no unintentional content duplication or contradiction at the Texas/Arizona boundary.
+- **RESOLVED (`us-arizona.md`'s research pass, 2026-09-24): El Paso/West Texas Tex-Mex's overlap with Sonoran content does not hold up.** El Paso's cross-border food culture is shaped by Ciudad Juárez, Chihuahua — a different Mexican state from Sonora, with its own distinct profile (more oil than lard, more beef than pork, Jack cheese) plus a documented New-Mexico-adjacent green-chile influence from proximity to Las Cruces/Hatch Valley — not by Sonoran cuisine, which centers on the Tucson/Nogales corridor roughly 300 miles away. The original flag rested on a single retail-blog source's loose regional gesture, not a specific, checkable culinary overlap. No content conflict exists between this file and `us-arizona.md` (renamed from `us-desert-southwest.md`).
 - **East Texas BBQ and West Texas BBQ were researched to a shallower depth than Central Texas** — both rest on a smaller number of journalism/enthusiast-tier sources rather than the institutional-tier sourcing (Texas Historical Commission, TSHA) available for Central Texas specifically. Flag for a deeper pass.
 - **Chicken-fried steak's origin is genuinely contested between two incompatible accounts** (German/Austrian schnitzel-adaptation vs. the Jimmy Don Perkins/Lamesa 1911 legend) — disclosed honestly in the dish entry rather than resolved; the schnitzel account is more frequently cited but no definitive tiebreaker source was found.
 - **"Country-fried steak" vs. "chicken-fried steak" naming/gravy distinction** (brown gravy vs. cream gravy, by some regional conventions) was not resolved to a clear, sourced rule — flagged as an open naming ambiguity in the dish entry itself.
@@ -295,7 +295,7 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 ## CANDIDATE QUEUE
 
 1. **Priority 1**: A dedicated, deeper research pass on East Texas and West Texas BBQ specifically, to reach the same institutional-source depth already achieved for Central Texas.
-2. **Priority 2**: Cross-check El Paso/West Texas Tex-Mex content against `us-desert-southwest.md` once that file exists, to resolve the LOW-MEDIUM-confidence Sonoran-overlap flag above.
+2. ~~Cross-check El Paso/West Texas Tex-Mex content against the Arizona file~~ — **RESOLVED**, see Gap Log above.
 3. **Priority 3**: A stronger, ideally academic/institutional source to adjudicate chicken-fried steak's contested origin story, and to settle (or confirm as genuinely unsettled) the country-fried-steak/gravy naming question.
 4. **Priority 4**: A dedicated pass on Texas Gulf Coast seafood and Houston's documented culinary-fusion diversity, if a future brief needs Texas coastal or major-metro-specific depth beyond this file's scope.
 5. **Priority 5**: Tighten the several real-world-size figures flagged MEDIUM/MEDIUM-HIGH above once the project's broader retroactive real-world-scale audit reaches this file.
