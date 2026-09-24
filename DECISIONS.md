@@ -279,6 +279,74 @@ sound more settled than the sourcing supports — they're marked "not confirmed
 as a purchasing pattern, flag for review" in the merged text, not softened
 into ordinary prose the way a less careful merge might have done.
 
+---
+
+## Photorealism audit and fixes, 2026-09-24
+
+The user asked for a genuinely independent quality audit — not another
+building pass — evaluating whether both files could actually brief an
+image-generation system to an unmistakable, region-true result. I ran this
+as a skeptical subagent review rather than grading my own work, with an
+explicit instruction not to soften findings for diplomacy.
+
+**What came back was real, specific, and mostly fixable, not vague:**
+
+1. A genuine confidence/completeness mismatch in `us.md`'s "city/region-
+   specific sandwiches" block — five entries (cheesesteak, po'boy, lobster
+   roll, Cuban sandwich, Chicago Italian beef) carried HIGH confidence tags
+   but had zero visual/plating detail, just an ingredient list. The
+   confidence was earned for the *facts* (origin, composition) but not for
+   *staging-readiness*, and a downstream user skimming the tag alone would
+   be misled. I fixed all five with real, freshly-researched visual detail
+   (bread texture, cheese-melt behavior, press-mark specifics, jus/dressing
+   appearance) rather than inferring plausible-sounding detail from general
+   knowledge — consistent with this project's sourcing discipline throughout.
+
+2. One genuinely stale pointer: the Cuban sandwich entry still said
+   "→ Florida, file TBD" even though `us-florida.md` had already been
+   finalized in the same document's FILE ROLE & METHOD table earlier in this
+   session. A small thing, but exactly the kind of drift that accumulates
+   silently across many rounds of edits — fixed.
+
+3. A named, specific gap in the pizza entry: Detroit-style and Sicilian
+   pizza are both rectangular-pan pizzas and a real confusable pair, but the
+   original entry only contrasted Detroit against Chicago/NY/New Haven/St.
+   Louis. Rather than accept the audit's suggested fix on faith, I ran a
+   fresh verification search before writing it in — the frico-edge
+   distinction held up under a dedicated Sicilian-vs-Detroit search, so I
+   added it with its own citation rather than just taking the audit
+   subagent's word for a factual claim.
+
+4. The "Casual lunch at home — 2 people / 3 people" scenarios in `us.md`
+   were, in the audit's words, "confidently narrated but would not actually
+   produce a specific scene" — demographic reasoning with no incremental
+   visual detail beyond the 1-person version. Added concrete staging detail
+   (seating arrangement, individual-vs-shared plating, a specific dish
+   anchor) to both, explicitly marked as editorial synthesis rather than
+   independently sourced, matching how the rest of the file already
+   discloses that tier of claim.
+
+5. For Uruguay, the audit's finding was different in kind — not a completion
+   gap but an honesty gap: the Milanesa napolitana and Pizza a la piedra
+   entries are well-defended against confusion with other countries' dishes
+   (Italian, American) but the file never states outright that it *cannot*
+   prove "Uruguayan, not Argentine" for these two specifically, since both
+   are genuinely Río de la Plata-shared dishes with no sourced visual
+   distinction between the two countries' versions. Added that limitation
+   explicitly to both entries rather than leaving a downstream user to
+   discover it only by reading the surrounding prose closely.
+
+**What I did not do**: the audit's #2 priority fix (Gen Z reweighting) was
+already resolved by the time the audit's findings arrived — a timing
+artifact of running two subagents in overlapping windows, not a real gap.
+I noted this in `us.md`'s own log rather than re-doing work that was already
+done. I also did not touch the clam-chowder schema-rule inconsistency the
+audit flagged (its own rule says the entry should defer to `us-northeast.md`
+once that file exists, but keeps a near-full entry here anyway) — the audit
+itself called this "not blocking," and keeping the content accessible while
+no regional file exists is the more useful choice than removing it to
+satisfy the letter of a rule written for a different point in the build.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to
