@@ -38,7 +38,7 @@ itself left open. **Final list: 13 regional files.**
 |---|------|------|
 | 1 | `us-northeast.md` | unchanged |
 | 2 | `us-mid-atlantic.md` | unchanged (dish assignment governs the NYC/Philadelphia boundary, not census political-region lines) |
-| 3 | `us-south.md` | scope narrowed — explicitly excludes Appalachia, Florida, and Louisiana Creole/Cajun; carries a Lowcountry callout pending its own review (see below) |
+| 3 | `us-south.md` | scope narrowed — explicitly excludes Appalachia, Florida, and Louisiana Creole/Cajun; carries Lowcountry (SC/coastal GA) as a decided callout, not a separate file (see below) |
 | 4 | `us-appalachia.md` | **NEW** — omitted from the original list without a documented reason; evidence (distinct pantry from climate/geography, distinct settlement pattern) supports adding it |
 | 5 | `us-florida.md` | **NEW** — split back out of `us-south.md`; own documented "Floribbean" identity and internal North/South Florida split |
 | 6 | `us-gulf-south.md` | **Unchanged name (reviewer decision, 2026-09-24) — the research-recommended rename to `us-louisiana.md` was rejected.** Reviewer's read: po'boys and this file's other anchor dishes are not confined to Louisiana in practice even though they originated there (po'boy: New Orleans, 1929), so "Gulf South" better reflects the actual reach than narrowing to a single state's name would. Same caveat as `us-desert-southwest.md` above — this is a reviewer judgment call about naming/framing, not a rebuttal of the underlying distinctness evidence (Cajun/Creole cuisine being genuinely different from mainstream Southern food is not in dispute, only what to call the file that holds it). |
@@ -50,13 +50,19 @@ itself left open. **Final list: 13 regional files.**
 | 12 | `us-pacific-northwest.md` | unchanged |
 | 13 | `us-hawaii.md` | unchanged |
 
-**Still open, not part of this decision:** `us-lowcountry.md` (South Carolina/coastal
-Georgia — rice, she-crab soup, shrimp and grits, Gullah influence) surfaced
-incidentally as a candidate 14th region but was not independently stress-tested
-with the same rigor as the others — needs its own dedicated pass before a
-file/no-file decision; `us-south.md` carries a labeled callout for it in the
-meantime rather than treating coastal Carolina/Georgia food as generically the
-same as inland BBQ-and-fried-chicken content.
+**Lowcountry — DECIDED 2026-09-24: folds into `us-south.md`, no separate file.**
+A standalone `us-lowcountry.md` (South Carolina/coastal Georgia — rice,
+she-crab soup, shrimp and grits, Gullah influence) surfaced incidentally
+during the validation pass but was never independently stress-tested with
+the same rigor as Appalachia, Florida, or Louisiana — it was a hunch with a
+Wikipedia page, not a verified finding, and the reviewer judged that thin
+evidence didn't clear the bar for a 14th file. Resolution: `us-south.md`
+carries Lowcountry as a labeled callout (rice- and seafood-forward coastal
+Carolina/Georgia content, Gullah-influenced, explicitly distinguished from
+the file's inland BBQ-and-fried-chicken core) — the same "emphasis, not a
+structural split" treatment Uruguay's coastal/interior distinction got,
+rather than a separate regional file. Revisit only if a future dedicated
+pass turns up evidence as strong as what supported the other three additions.
 
 **No regional files have been created yet.** This pass produces only `us.md`.
 Every "→ `us-*.md`" pointer elsewhere in this document should now be read
@@ -603,7 +609,7 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 
 - **RESOLVED this pass (2026-09-24, via four parallel subagent research passes)**: Snacks (9 entries added), Tier 2 global cuisine (Indian-American, Sushi/Japanese-American, Thai-American added), New Mexican vs. Tex-Mex enchiladas/chile (added as a form-changing index entry), and a full regional-boundary validation pass (see FILE ROLE & METHOD above). Each is subject to the specific lower-confidence flags listed below, but the categories themselves are no longer unresearched.
 - **Environment/staging-scenes section still does not exist in this file.** The six-scenario Uruguay-style treatment (casual lunch at home 1/2/3 people, dinner at home, outdoor meal at home, on-the-go, away-from-home 1 vs. 2-3 people) remains confirmed in-scope but not started. Given confirmed US car/drive-thru culture, I'd expect the "on-the-go" scenario to look close to the opposite of Uruguay's "grab-and-go barely exists" finding — a hypothesis to confirm, not yet checked.
-- **RESOLVED (2026-09-24, human decision):** the regional-file list is now final at 13 files (see FILE ROLE & METHOD above) — New Mexico splits out from Arizona into its own `us-new-mexico.md` (the one addition the reviewer accepted from the research). All three research-recommended renames were reviewed and rejected: `us-desert-southwest.md`, `us-gulf-south.md`, and `us-west-coast.md` all keep their original names — the reviewer judged each broader label still fits the actual reach of the food culture involved (e.g., po'boys aren't confined to Louisiana in practice), even though the underlying distinctness evidence behind each file is not in dispute. Lowcountry (SC/coastal GA) remains open, not independently stress-tested — carried as a callout inside `us-south.md` pending its own pass.
+- **RESOLVED (2026-09-24, human decision):** the regional-file list is now final at 13 files (see FILE ROLE & METHOD above) — New Mexico splits out from Arizona into its own `us-new-mexico.md` (the one addition the reviewer accepted from the research). All three research-recommended renames were reviewed and rejected: `us-desert-southwest.md`, `us-gulf-south.md`, and `us-west-coast.md` all keep their original names — the reviewer judged each broader label still fits the actual reach of the food culture involved (e.g., po'boys aren't confined to Louisiana in practice), even though the underlying distinctness evidence behind each file is not in dispute. **Lowcountry is also now resolved**: it folds into `us-south.md` as a labeled callout rather than becoming a 14th file, since the evidence for it was never independently stress-tested the way Appalachia/Florida/Louisiana's was — a hunch, not a verified finding. The regional-list question is fully closed; no open items remain on it.
 - **No regional files exist yet under either the old or new list.** Every "→ `us-*.md`" pointer in this file is a forward reference. This file is not yet usable end-to-end for any form-changing dish until at least the relevant regional file exists.
 - **New this pass — specific lower-confidence flags carried in from the subagent research** (full detail in each entry above): potato-chip regional-flavor claims (Old Bay/Maryland, Zapp's Cajun) are retail/roundup-sourced, not journalism-tier; dill pickle chips are more a Canadian marker than a US-regional one; the George Crum potato-chip origin story is contested legend, not verified history; kettle corn and sundae-glass-vessel descriptions rely on enthusiast/specialty sourcing; mozzarella sticks' exact inventor attribution (Frank Baker, 1976) traces to a small cluster of similar articles, not a primary source; no snack item this pass turned out to be genuinely form-changing by region (all regional variation found was flavor/brand/prevalence-level) — a real finding, not an oversight; butter chicken/tikka masala's "Americans get it creamier" claim and naan's India-vs-US staple-status inversion are both MEDIUM, food-blog-adjacent sourcing; California roll's exact inventor/city remains genuinely disputed among sources (like the gyro and Reuben cases already in this file); pad thai's ketchup-substitution detail is MEDIUM, no top-tier single source; the academic paper most directly on-point for the New Mexico/Arizona regional-boundary question (Journal of the Southwest, hosted at jsw.arizona.edu) could not be read directly — network egress blocked it, only a search snippet was available, flagged for a follow-up pass with working fetch access.
 - **Sourdough bread's SF/West Coast regional identity** is still asserted from general awareness in the Bread Reference section, not independently sourced — explicitly flagged LOW confidence there.
@@ -612,7 +618,7 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 
 ## CANDIDATE QUEUE
 
-For the next research pass, roughly in priority order: (1) human sign-off on the recommended 12-region list and the New Mexico/Desert-Southwest disagreement — this blocks starting any regional file; (2) the environment/staging-scenes section (six scenarios, not yet started); (3) a dedicated Lowcountry stress-test pass; (4) the jsw.arizona.edu Journal of the Southwest paper on Southwestern cuisine geography, if fetchable in a future session; (5) stronger sourcing passes on the specific MEDIUM/LOW items flagged in the Gap Log above (potato chip regional flavors, NRA's primary ethnic-cuisine dine-in/takeout study, mozzarella sticks' exact origin); (6) once the region list is confirmed, building out the actual regional files, starting with whichever region the next real staging brief needs first.
+The regional-list question (including Lowcountry) is now closed — see FILE ROLE & METHOD above. Remaining, roughly in priority order: (1) the environment/staging-scenes section (six scenarios, not yet started); (2) the jsw.arizona.edu Journal of the Southwest paper on Southwestern cuisine geography, if fetchable in a future session; (3) stronger sourcing passes on the specific MEDIUM/LOW items flagged in the Gap Log above (potato chip regional flavors, NRA's primary ethnic-cuisine dine-in/takeout study, mozzarella sticks' exact origin); (4) building out the actual regional files, starting with whichever region the next real staging brief needs first — if that turns up strong Lowcountry-specific evidence along the way, revisit the folded-in decision then, rather than as a standalone research task.
 
 ## RESEARCH LOG
 
