@@ -1717,3 +1717,41 @@ to the beignets and sits close to the frame's right edge, a looser fit to
 the hero-zone/scale-anchor phrasing than the first generation's tighter
 composition. Not treated as a failure — flagged for whoever refines this
 prompt template next.
+
+---
+
+## Beignets oversized in both test generations — traced to a prompt error, not a model bias, 2026-09-24
+
+User flagged (via a Google-sourced dimension claim) that a real beignet is
+roughly 3–4 inches square, roughly a Post-it note or playing card's
+footprint, and puffs to something like the thickness of a loaded
+cheeseburger or thick Texas toast once fried. Checked this against two
+independent WebSearch queries before touching the KB: multiple Café du
+Monde-style copycat recipes converge on cutting the dough into 3-inch
+squares at 1/8–1/4 inch thickness before frying, corroborating the
+"Post-it note" comparison and the pancake/cookie-dough-thickness claim.
+No source gives an exact post-fry thickness, but dough that thin
+doubling-to-tripling in a hot fry lands the puffed result around
+1.5–2 inches thick — the "thick Texas toast" comparison holds up better
+than "loaded cheeseburger," which reads as a looser AI-generated analogy.
+
+Checked the two test images against this using the Coca-Cola can already
+in frame (a fixed, known 4.83in/12.3cm) as the ruler: both generations
+show beignets closer to 4–5 inches across and 2.5–3+ inches thick —
+oversized, reading more like a large dinner roll than the flatter ~3-inch
+cushion a real beignet is.
+
+**Root-caused, not just observed**: the original prompt's own scale-anchor
+clause told the model each beignet should read as "roughly two-thirds the
+can's height" (~3.2 inches) — already too large for a puffed beignet's
+real ~1.5–2 inch thickness, and anchored to the wrong dimension (height,
+when a beignet's most checkable measurement is its square footprint, not
+its puffed height). The model followed the instruction faithfully; the
+instruction itself carried a wrong number. Added the sourced dimension
+data to the `us-gulf-south.md` beignets entry (3-inch square footprint,
+1/8–1/4in pre-fry dough thickness, ~1.5–2in post-fry thickness, all
+confidence-tagged per how well each is sourced) so this doesn't have to
+be re-derived per prompt. Consistent with this project's established
+scale-anchor discipline (`01-brand/coca-cola-guidelines.md` §3) — the fix
+for a food-size miss is real dimension data anchored to the can's known
+size, not tighter wording around an ungrounded guess.
