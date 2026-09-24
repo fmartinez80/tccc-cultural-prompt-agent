@@ -20,7 +20,7 @@ additional country is completed and confirms it generalizes.
 
 | # | Market | Status |
 |---|--------|--------|
-| 1 | United States | IN PROGRESS — national index (`us.md`) drafted, needs SME review; regional files (0 of 13 built) now underway, starting with `us-northeast.md` |
+| 1 | United States | IN PROGRESS — national index (`us.md`) drafted, needs SME review. Regional files: `us-northeast.md` complete (1 of 13); `us-mid-atlantic.md` and `us-south.md` in active research (5 parallel passes running as of 2026-09-24); 10 regions remaining (Appalachia, Florida, Gulf South, Midwest, Texas, New Mexico, Desert Southwest, West Coast, Pacific Northwest, Hawaii). Working autonomously through the full 13-file list per explicit user direction, using judgment on internal zone clustering as each region's research lands. |
 | 2 | United Kingdom | Not started |
 | 3 | Germany | Not started |
 | 4 | Spain | Not started |

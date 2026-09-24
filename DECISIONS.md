@@ -1412,3 +1412,39 @@ split as its own internal zone is a real open question, not yet decided)
 will be established by the research itself, the same way Northeast's
 three-zone structure emerged from its own research rather than being
 assumed in advance.
+
+---
+
+## Authorized to proceed autonomously through the remaining US regions, 2026-09-24
+
+The user instructed continuing through every remaining US region until the
+13-file list is complete, and explicitly authorized using judgment on
+further dividing or clustering regions based on what the research finds,
+rather than escalating every internal-zone question the way the Boston/
+New Haven-apizza questions were escalated for `us-northeast.md`. Judgment
+calls will still be logged here as they're made, and anything genuinely
+surprising or high-stakes (a major scope dispute, evidence that changes
+the already-decided 13-file boundary itself) will still go to the user —
+but routine internal-zone clustering (which states group together within
+one file) will be decided and documented, not asked about each time.
+
+Launched `us-south.md`'s research in parallel with the still-running
+`us-mid-atlantic.md` passes: three zones, based on evidence already
+sitting in `us.md` before this file existed — Tennessee has two already-
+documented, genuinely distinct pointers (Nashville hot chicken; Memphis
+dry-rub BBQ), which alone justified treating Nashville/Memphis as their
+own zone rather than folding Tennessee into a generic "Deep South" bucket.
+The other two zones: Deep South core (Georgia, Alabama, Mississippi) and
+the Carolinas plus the already-decided Lowcountry callout (South Carolina,
+coastal Georgia). Kentucky and Arkansas's placement was left unresolved —
+each Deep South/Carolinas pass was told to flag, not research, any strong
+evidence that either state belongs in this file, rather than guess at
+scope neither research pass was asked to settle.
+
+Adopted a pipelining rhythm to move through the remaining 10 regions at a
+reasonable pace without producing an unreviewable backlog: keep roughly
+one to two regions' worth of research running in the background at a time
+(so the next region's research is already underway by the time the
+current one is ready to review and merge), rather than either serializing
+everything (slow) or launching all 10 remaining regions' passes at once
+(too much simultaneous unreviewed output to reconcile responsibly).
