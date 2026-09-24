@@ -244,6 +244,41 @@ than to a shared rental with roommates) — logged this distinction explicitly
 in `us.md`'s own Gap Log so the next pass revises the right layer rather than
 re-deriving statistics that don't need to change.
 
+---
+
+## US knowledge base — Gen Z reweighting merged, 2026-09-24
+
+The Gen Z revision pass came back with a genuinely useful asymmetry: housing/
+living-arrangement claims (roommate prevalence, boomerang living, co-buying,
+multigenerational households) were solidly sourced — Pew Research, Census
+PUMS-grounded industry surveys, National Association of Realtors data — while
+decor-aesthetic claims (dopamine decor, cluttercore, named micro-aesthetics
+like "cottagecore" or "clean girl") turned out to rest only on retailer
+content and lifestyle-blog round-ups, exactly the sourcing tier this project
+has deprioritized since the Uruguay pilot. The agent kept those two tiers
+honestly separate rather than smoothing them into uniform confidence, and I
+preserved that distinction rather than upgrading the weaker claims for a
+tidier-looking merge.
+
+**Judgment call on how to merge:** the draft was explicitly additive — every
+new bullet was written to sit alongside, not replace, the existing family/
+general-household framing already in `us.md`. I kept that structure exactly:
+roommate/shared-living bullets were added as co-equal alternatives in the
+three "casual lunch at home" scenarios (1/2/3 people) rather than swapping
+out the existing kitchen-island/family framing, and boba shops/aesthetic
+cafes were added alongside the casual-dining-chain default for "away from
+home — 2-3 people" rather than replacing it. This matches the reviewer's
+original phrasing ("prioritize... but factor in") — prioritizing Gen Z
+framing doesn't mean deleting the general-population framing that was
+already correct and sourced.
+
+**What I did not add**, per the agent's own honest flagging: food halls and
+shopping malls as Gen Z hangout venues (insufficient/self-interested sourcing
+for both), and I did not upgrade any of the LOW-confidence decor claims to
+sound more settled than the sourcing supports — they're marked "not confirmed
+as a purchasing pattern, flag for review" in the merged text, not softened
+into ordinary prose the way a less careful merge might have done.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to
