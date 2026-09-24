@@ -454,12 +454,14 @@ just a one-off for this project.
   and don't call a miss confirmed off one unlucky one. This project's
   Coca-Cola can logo is the concrete example — the identical prompt run
   twice produced one correct "ORIGINAL TASTE" and one garbled "ORIGINAL
-  TAST" in the same run set, from the same prompt. A single generation
-  cannot tell you whether a given element is reliable; treat brand-critical
-  elements (logos, wordmarks, exact packaging text) as **never** safe to
-  trust from a generated image regardless of how a single sample looks —
-  composite an approved brand asset in production rather than relying on
-  the model to reproduce it correctly, consistently, across every run.
+  TAST" in the same run set, from the same prompt (full detail and the
+  resulting production standard are in
+  `knowledge-base/01-brand/coca-cola-guidelines.md`, not here, since they're
+  product-specific rather than a general prompting technique). A single
+  generation cannot tell you whether any given element is reliable; treat
+  any brand-critical element — for this project, the Coca-Cola can's own
+  branding — as **never** safe to trust from a generated image regardless
+  of how a single sample looks.
 - **"Cut in half to reveal the cross-section" is genuinely ambiguous about
   what happens to the second half, and the model's default resolution is
   often the wrong one.** This project's KB entry only ever described the
@@ -503,9 +505,11 @@ just a one-off for this project.
   rather than hope for or fix specific wording: e.g., "no legible text or
   writing anywhere in the frame — keep any packaging, signage, menu
   boards, or wall décor blank, blurred, or out of focus." Any text or
-  branding that must actually be correct and consistent (the Coca-Cola can
-  included) belongs in post-production compositing over a blank/blurred
-  placeholder, never in the generation itself.
+  branding that must actually be correct and consistent belongs in
+  post-production compositing over a blank/blurred placeholder, never in
+  the generation itself — see `01-brand/coca-cola-guidelines.md` for how
+  this applies to the Coca-Cola can specifically, including why the
+  instruction above is not itself a dependable control for the can.
 - **Avoid "a hand holds..." phrasing — stage the food resting on a table or
   other surface, even for genuinely handheld/by-the-slice foods.** This is
   a production/composition convention, not a correction to any KB fact:
@@ -521,25 +525,13 @@ just a one-off for this project.
   on its wax-paper liner set on the boardwalk railing itself, which is
   still an authentic real-world boardwalk behavior, without the shot
   being staged as a hand-held POV.
-- **The Coca-Cola can specifically resists the "no legible text" rule above
-  — an instruction to keep its label soft-focus/illegible was not
-  followed, even while the same prompt's other no-legible-text instructions
-  were.** A Coney Island test prompt asked for "the can's label faces away
-  from camera or is soft-focus and not legible, not a focal point of the
-  shot," in the same sentence as instructions to keep background signage
-  and ride marquees blurred. Both generations complied fully for the
-  background elements — genuinely blurred, illegible — but rendered the
-  can's own logo sharp, front-facing, and fully legible in both, as if that
-  part of the instruction had been dropped. Working theory: "Coca-Cola can"
-  is such a strongly-anchored visual concept in the model's training data
-  that it overrides an explicit instruction to obscure it, in a way generic
-  signage doesn't. **Practical implication: don't rely on a soft-focus/
-  illegible-label instruction as a control for the can specifically** — it
-  isn't a dependable lever the way it is for background text. This doesn't
-  change the production plan already established above (composite an
-  approved can asset over whatever the model renders), but it does mean
-  that plan is the only reliable control for the can, not a backup for when
-  prompt instructions fail — the instructions are expected to fail here.
+- **Coca-Cola can findings have moved.** The can-specific behavior
+  (it resists the "no legible text" rule above, inconsistently, even when
+  the same prompt's other no-legible-text instructions are followed) and
+  the resulting production guidance now live in
+  `knowledge-base/01-brand/coca-cola-guidelines.md` §1, since they're about
+  the product itself rather than a general prompting technique that applies
+  regardless of subject.
 - **Never name a real, privately-owned, trademarked landmark or attraction
   in a prompt, even when a KB entry documents it as a genuine, useful
   locator.** A KB entry may cite a specific real place to establish that a

@@ -1035,3 +1035,41 @@ other the sharp, fully legible front logo (non-compliant) — a mixed rather
 than uniform result. Didn't change the existing finding or the production
 plan over this, since "unreliable, don't depend on it, composite instead"
 already covers a mixed outcome as well as a uniform one.
+
+---
+
+## New file: knowledge-base/01-brand/coca-cola-guidelines.md, 2026-09-24
+
+The user pointed out that product-representation rules (camera-facing,
+full-height framing, and the reference-image best practices they're
+compiling) don't obviously belong in `country-file-schema.md` — that file
+is about building and using cultural/culinary content, not about
+representing the Coca-Cola product itself, which is the one constant
+across every country file regardless of cuisine or location. Agreed and
+acted on it rather than just discussing it, since the folder scheme
+(`00-methods/`, `02-culture/`, skipping `01-`) already signaled a reserved
+spot for exactly this category.
+
+Created `knowledge-base/01-brand/coca-cola-guidelines.md` and moved the
+genuinely product-specific findings out of `country-file-schema.md` §7.5
+into it: the logo/wordmark unreliability finding (ORIGINAL TASTE/TAST
+variance, the hyphen-vs-dot connector error) and the can's inconsistent
+resistance to "keep it illegible" instructions, plus the resulting
+production standard (composite an approved asset, never trust generated
+brand text). Left two placeholder sections for the user's incoming rules:
+product representation best practices (camera-facing, full-height, etc.)
+and reference-image-conditioning best practices, the latter marked
+explicitly as an untested hypothesis, not a confirmed technique, per this
+project's own two-generations-before-concluding discipline.
+
+Left in `country-file-schema.md` §7.5: everything genuinely
+subject-agnostic — the two-generations testing discipline itself (general
+rule, illustrated with a pointer to the brand doc for the Coca-Cola
+example rather than restating it), the general no-legible-text/signage
+rule (applies to any incidental text, not just the can), the cut-in-half
+ambiguity finding, the hand-holds framing rule, the trademarked-landmark
+rule (about *other* companies' IP, not Coca-Cola's own), and the
+vocabulary/texture-vs-proportion findings. Each place in the schema doc
+that used to hold Coca-Cola-specific detail now points to the new file
+instead of restating it, so there's one place to update as the can
+findings evolve rather than two.
