@@ -1626,3 +1626,56 @@ Both files' Gap Logs and Candidate Queues were carried forward largely
 intact rather than re-litigated, consistent with this project's practice
 of surfacing open questions rather than silently resolving them without
 new evidence.
+
+---
+
+## us-gulf-south.md merged and published, 2026-09-24
+
+Merges three parallel passes (New Orleans/Louisiana Creole; Cajun/Acadiana;
+Mississippi & Alabama Gulf Coast) into a three-zone file, closing the
+Gulf Coast AL/MS boundary question `us-south.md`'s Deep South zone had
+explicitly left open. The dedicated pass found that coast is neither
+"just Deep South" nor "just New Orleans in another state" — it has real,
+independent colonial/settlement history predating New Orleans in places
+(Mobile founded 1702, the first Mardi Gras in North America there in
+1703), a genuine, sourced Creole-cuisine import layer, and its own
+locally-invented dishes (West Indies salad, fried crab claws, Royal Red
+shrimp) with no New Orleans equivalent.
+
+Five cross-zone questions were resolved by hand:
+
+1. **Gumbo** and **jambalaya**: both have a real, sourced, non-hierarchical
+   Creole ("red"/lighter roux/seafood-leaning) vs. Cajun ("brown"/dark
+   roux/tomato-free) fork. Kept as two full, coexisting entries each per
+   `country-file-schema.md` §4.6, exactly as both research passes
+   recommended — not collapsed into one silent default. The Gulf Coast
+   AL/MS pass's own gumbo research explicitly found no visual
+   differentiator from Creole gumbo and flagged its entry for a
+   merge-check; trimmed to a short cross-reference (Mobile's own claimed
+   pre-New-Orleans gumbo history is real and worth keeping) rather than a
+   third, visually-duplicative full entry — the same pattern used for
+   Hoppin' John in `us-south.md`.
+2. **Crawfish étouffée**: the Creole/New Orleans pass explicitly declined
+   to research it, deferring to Acadiana as the dish's actual origin
+   (Breaux Bridge, 1920s) — kept as a single full entry, with the later
+   Creole restaurant adaptation (darker roux, tomato, sometimes cream)
+   noted inside it rather than duplicated.
+3. **King cake**: the Cajun/Acadiana pass explicitly declined to claim it,
+   finding its origin is Creole New Orleans-specific — kept as a single
+   full entry in that zone, with Cajun Country's secondary, derivative
+   bakery variant (simpler, less sweet, more bread-forward) noted as an
+   addendum.
+4. **Trout meunière, oysters Rockefeller, and oysters Bienville**: real,
+   imported, locally-embraced dishes on the Gulf Coast, but that pass's
+   own research found no visually distinct coastal form and deferred full
+   depth to New Orleans/Creole, per the placement rule. Full entries kept
+   in that zone (oysters Bienville newly written, since neither original
+   pass had researched it as deeply as Rockefeller); the Gulf Coast zone
+   keeps a cross-reference plus one honestly-flagged LOW-confidence local
+   curiosity (a Mobile restaurant's "redfish Bienville," possibly named
+   for Mobile's own founder).
+5. **The "holy trinity"** (onion, celery, bell pepper) is documented once,
+   Gulf-South-wide, with each zone's differing *treatment* of it (oil/lard
+   vs. butter, tomato vs. no tomato) as the actual point of distinction.
+
+This brings the US regional structure to 6 of 13 files complete.
