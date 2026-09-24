@@ -378,6 +378,28 @@ process documentation that sits above any one country's content and should
 be the first thing a future country-file build reads, not a peer of
 `uruguay.md`/`us.md`.
 
+---
+
+## Corrected framing on milanesa napolitana / pizza a la piedra, 2026-09-24
+
+After the audit fix landed, the user pointed out that my phrasing was subtly
+wrong: I'd written the Uruguay-vs-Argentina limitation on these two dishes as
+something a "dedicated cross-border comparison pass" might someday resolve.
+That framing was incorrect, not just imprecise — these dishes are genuinely
+shared Río de la Plata heritage, eaten and claimed by both countries, not
+exclusively Uruguayan to begin with. No amount of further research would
+produce a "provably Uruguayan, not Argentine" distinction, because that
+distinction likely doesn't exist as a real difference between the two
+countries' versions — it's a structural fact about the dishes, not an
+unfinished research task.
+
+**Fixed** both entries and the Gap Log summary to say this outright, and
+removed the line suggesting a future research pass could resolve it. This
+matters for how a future reader (or a future automated pass acting on the
+Candidate Queue) treats this: without the correction, someone could
+reasonably read the original phrasing as "open item, go dig for a source,"
+when the right instruction is "don't — this isn't a sourcing problem."
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to
