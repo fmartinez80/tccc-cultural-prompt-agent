@@ -1448,3 +1448,44 @@ one to two regions' worth of research running in the background at a time
 current one is ready to review and merge), rather than either serializing
 everything (slow) or launching all 10 remaining regions' passes at once
 (too much simultaneous unreviewed output to reconcile responsibly).
+
+---
+
+## us-mid-atlantic.md merged and published, 2026-09-24
+
+Both Mid-Atlantic passes (Philadelphia/PA/Delaware; Chesapeake Bay) landed
+strong. Merged into `knowledge-base/02-culture/regions/usa/us-mid-atlantic.md`
+as a two-zone file (Philadelphia & Pennsylvania, including Delaware;
+Chesapeake Bay). Two structural questions were decided by hand this round,
+using the judgment the user authorized rather than escalating:
+
+1. **Delaware's placement**: folded into the Philadelphia & Pennsylvania
+   zone, on the strength of the PA/Philly pass's sourced finding that
+   Delaware's food culture (scrapple's Sussex County roots, the cross-
+   border cheesesteak/hoagie tradition) largely overlaps with
+   Pennsylvania's — with Delaware's own independent Delaware Bay coastal
+   identity, untouched by either pass, logged as a real gap rather than
+   assumed covered.
+2. **Virginia's placement**: the Chesapeake pass surfaced genuinely split
+   evidence (a tourism consortium groups it with the Mid-Atlantic;
+   Wikipedia's own Southern-cuisine article names Tidewater cuisine a
+   Southern subregion) and recommended a geographic split rather than a
+   single verdict. Decided: Tidewater/coastal Virginia (Hampton Roads, the
+   Eastern Shore, Smithfield) joins this file's Chesapeake Bay zone, since
+   it shares the same blue crab/oyster/Smithfield-ham identity; inland/
+   Southside/Piedmont Virginia (Brunswick stew's territory) is assigned to
+   `us-south.md` instead. This mirrors the New Mexico/Desert Southwest
+   split decided earlier in this project — a real internal distinction
+   resolved by geography and evidence, not left open.
+
+Both passes independently found strong new dishes beyond what `us.md`
+pointed here for (only the Philly cheesesteak existed as a prior pointer)
+— Chesapeake alone contributed nine new full entries (crab cake, steamed
+crabs, soft-shell crab sandwich, Baltimore pit beef, DC half-smoke, mumbo
+sauce, Smith Island cake, Smithfield ham, Chesapeake oysters), and
+Philadelphia/PA contributed six (scrapple, water ice, roast pork sandwich,
+Philadelphia tomato pie — verified as genuinely distinct from Trenton
+tomato pie, not the same tradition — plus the Capriotti's Bobbie sandwich
+for Delaware). Added the same "typical use note" and quick-reference table
+`us-northeast.md` got after its own calibration, applying that lesson
+forward without being asked again.
