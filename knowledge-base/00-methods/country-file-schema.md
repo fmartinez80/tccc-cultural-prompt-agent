@@ -403,6 +403,24 @@ just a one-off for this project.
   signal of a genuine model-level bias rather than a vocabulary gap, and the
   more reliable fix at that point is post-generation editing/inpainting, not
   further prompt iteration.
+  - **Follow-up finding from this project's third iteration: the
+    plain-language swap does not fix everything equally — it fixed a
+    texture/surface attribute but not a thickness/proportion attribute in
+    the same prompt.** Bread crumb/crust texture ("fine tight crumb, no
+    visible air holes, thin pale crust") corrected cleanly and reproducibly
+    once jargon was dropped. Meat thickness ("pounded flat to a few
+    millimeters, like a schnitzel") did not move at all, even with the same
+    technique that fixed the bread in the same prompt. Working theory: an
+    absolute unit-based description ("a few millimeters") gives the model
+    nothing else in the frame to size itself against, whereas a texture
+    description is a recognizable pattern on its own. **For a proportion/
+    scale correction specifically, describe it relative to another object
+    already correctly rendered in the same scene** (e.g., "the meat should
+    be visibly thinner than the ham slice beside it, not thicker") rather
+    than as a standalone measurement — comparative framing gives the model
+    two things to reconcile against each other instead of one thing to
+    size in isolation. Not yet confirmed whether this specific technique
+    works; flagged as the next thing to test, not a proven fix.
 - **Run at least two generations per prompt before drawing a conclusion**,
   in both directions: don't call a fix confirmed off one lucky generation,
   and don't call a miss confirmed off one unlucky one. This project's

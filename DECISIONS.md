@@ -472,6 +472,38 @@ recognizability before assuming the instruction needs to be stronger; (3)
 never trust generated brand/logo text as production-safe regardless of how
 a single sample looks — composite an approved asset instead.
 
+---
+
+## Third iteration: plain-language swap fixes texture, not proportion, 2026-09-24
+
+The user ran the plain-language revision (dropped "pan catalán" and
+"churrasco-cut" for sensory description) and shared two more generations.
+Direct side-by-side comparison against the prior round: bread crumb/crust
+corrected cleanly and reproducibly — tight fine crumb, smooth golden crust,
+a real fix. Meat thickness did not move at all — still 2-3x the thickness
+of the adjacent ham slice in both new generations, unchanged from before the
+"fix" was applied.
+
+**Judgment call**: rather than treat this as "the technique partially
+worked, close enough," I treated the bread/steak split as itself the
+finding — the same fix technique succeeded on one attribute and failed on
+another *within the same prompt*, which is more diagnostically useful than
+either a clean pass or a clean fail would have been. Formed a specific
+hypothesis for why: "a few millimeters" is an absolute unit with nothing in
+the frame to anchor against, while a crumb/crust description is a
+self-contained recognizable pattern. Proposed the next lever as a relative
+comparison instruction (thinner than the ham slice beside it) rather than
+another absolute restatement of thinness, and explicitly flagged this as
+untested — a hypothesis for the next attempt, not a claimed fix, consistent
+with this project's discipline against presenting an unconfirmed idea as
+settled.
+
+Also caught a second independent data point on the brand-logo risk: the
+punctuation between "Coca" and "Cola" rendered as a plain dot instead of the
+correct connecting mark, and the "ORIGINAL TASTE" line wasn't legible in
+this framing — reinforcing rather than repeating the earlier finding, logged
+as an additional data point in the same file section rather than a new one.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to
