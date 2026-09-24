@@ -97,13 +97,95 @@ Not yet confirmed across multiple generations as of this writing; apply
 the two-generations-minimum discipline below before treating a specific
 phrasing as settled.
 
-## 4. Product representation best practices
+## 4. Product representation and scene-composition rules
 
-*Pending — to be compiled and added.* Expected to cover: camera-facing
-orientation, optimal framing (e.g., seen full-height, not cropped or
-partially obscured), positioning relative to the food, and other
-composition rules that make the generated can easiest to composite over or
-verify against in production.
+**Source note**: this section is migrated from an earlier standalone project
+document ("TABLEWARE COMPOSITION REQUIREMENTS - AGENTIC SYSTEM," v2.0),
+split so that the Coca-Cola-SKU-specific rules live here and the general
+plate/vessel composition rules (that apply whether or not Coca-Cola is in
+the frame) live in `00-methods/tableware-composition-reference.md`, which
+this section cross-references rather than duplicates. Status: DRAFT,
+inherited from the source document, not yet re-validated against this
+project's own image-generation testing the way §1's findings were.
+
+### 4.1 Hero Zone Rule (non-negotiable)
+
+The vertical center third of the frame is the hero zone. It must contain
+the hero Coca-Cola SKU (bottle, can, or glass) **and** the hero dish/plate
+— both together, not just the food. Every other element composes around
+this protected zone. This is what keeps a composition crop-flexible across
+aspect ratios (1:1, 4:5, 16:9, 9:16) without losing the product.
+
+### 4.2 Depth Hierarchy Rule (non-negotiable)
+
+Nothing is positioned in front of the Coca-Cola bottle/can. Layer 1
+(foreground) holds the hero dish and the Coca-Cola SKU; layer 2 (midground)
+holds supporting dishes, bread, and clustered condiments; layer 3
+(background) holds a second place setting and any additional elements.
+
+### 4.3 Coca-Cola product dimensions
+
+**Single-serve formats:**
+
+| Product | Height | Diameter/width | Volume | Context |
+|---|---|---|---|---|
+| Glass bottle (contour) | 200–210mm | 60–65mm | 330mL | Classic, premium, on-premise |
+| PET bottle | 210mm | 60mm | 330mL | Convenience, retail |
+| Aluminum can | 123mm | 66mm | 355mL | Casual, convenience, on-the-go |
+| PET bottle | 203mm | 65mm | 500mL | Single-serve, retail, hearty meals |
+
+**Multi-serve formats (at-home):**
+
+| Product | Height | Diameter | Volume | Serves | Context |
+|---|---|---|---|---|---|
+| PET bottle | 310–320mm | 95–100mm | 1.5L | 2–3 | Intimate family dining |
+| PET bottle | 325–335mm | 105–110mm | 2L | 3–4 | Standard family dinner |
+| PET bottle | 340–350mm | 110–115mm | 2.5L | 4–6 | Large family gatherings |
+| PET bottle | 360–370mm | 115–120mm | 3L | 6+ | Parties, celebrations |
+
+**Glassware**: a contour (bell-shaped) glass, 171–173mm tall, 95mm diameter at the top, 640mL (22oz) — used in every multi-serve scenario below, one per place setting.
+
+**Note on the 12 fl oz/355mL can's dimensions above (123mm tall, 66mm diameter) vs. §3's scale-anchor figures (~4.83in/12.3cm tall, ~2.6in/6.6cm diameter)**: these are the same can, expressed in mm vs. inches/cm from two different source documents — 123mm ≈ 4.84in and 66mm ≈ 2.6in, consistent to within rounding. Use either; they agree.
+
+### 4.4 Conditional drink placement
+
+- **Single-serve scenario** (330mL bottle, 355mL can, or 500mL bottle): the bottle/can itself is the drink for the hero place setting, positioned at the top right of the hero entree plate — no glass needed. Product choice signals register: glass bottle for premium/nostalgic/on-premise settings, PET bottle for everyday convenience, can for casual/modern/on-the-go, 500mL for a heartier individual meal.
+- **Multi-serve scenario** (1.5L–3L bottle, at-home): the large bottle sits in the midground, between the hero zone and a side third — not directly at the plate. Each place setting instead gets its own 640mL contour glass, filled, at the top right of that setting's plate; the hero setting's glass can shift further right to let the bottle sit closer to the hero dish for a tighter lockup in narrow/vertical crops. Bottle size signals occasion: 1.5L for 2–3 people, 2L for a standard 3–4-person family dinner (the most common multi-serve choice), 2.5L for 4–6, 3L for 6+/parties.
+
+### 4.5 Bottle clearance radii (multi-serve)
+
+Nothing else in the scene should encroach within these radii of a multi-serve bottle, consistent with the depth-hierarchy rule above:
+
+| Bottle | Height | Clearance radius |
+|---|---|---|
+| 1.5L | 31–32cm | 10cm |
+| 2L | 32.5–33.5cm | 10–12cm |
+| 2.5L | 34–35cm | 12–15cm |
+| 3L | 36–37cm | 15cm |
+
+### 4.6 Composition scenarios (Coca-Cola-specific layer)
+
+These build on `00-methods/tableware-composition-reference.md` §8's general scenarios A–F, adding the Coca-Cola-specific product/placement choice for each:
+
+- **Single setting + single-serve** (general scenario A): choose the single-serve format per §4.4's register guidance; position at the hero plate's top right.
+- **Single setting + multi-serve** (general scenario B): multi-serve bottle in the midground per §4.4; one filled contour glass at the plate's top right.
+- **Multiple settings + multi-serve** (general scenario C): as above, plus a second contour glass (filled) at the second place setting.
+- **Multiple settings + communal spread** (general scenario D): as C, with the multi-serve bottle sized to the implied number of diners (2L standard, 2.5–3L for a festive/celebratory spread).
+- **Rustic single shared dish** (general scenario E): a 1.5–2L bottle for family-style sharing, or a single 355mL can for a more casual, individual-servings feel.
+- **Elevated/minimal presentation** (general scenario F): a 330mL glass bottle specifically — the premium/nostalgic single-serve format is the natural fit for this register.
+
+### 4.7 Validation checklist (Coca-Cola-specific — use alongside the general checklist in `00-methods/tableware-composition-reference.md` §9)
+
+- Hero dish **and** hero Coca-Cola SKU both sit in the vertical center third.
+- Nothing is positioned in front of the Coca-Cola bottle/can (depth-hierarchy rule).
+- The Coca-Cola product format matches the scene's register (single- vs. multi-serve, casual vs. premium) per §4.4.
+- A multi-serve bottle's size matches the implied number of diners, and its clearance radius (§4.5) is respected.
+- Every multi-serve place setting has its own filled 640mL contour glass.
+- Per §1–§2 above: don't rely on the generation to render correct can/bottle branding text — that's a compositing task, not a prompt-instruction target.
+
+### 4.8 Regional/market note
+
+Coca-Cola product format availability can vary by market (not every size is stocked everywhere) — flag this if a specific market's brief calls for a format not confirmed available there. This KB does not yet track per-market SKU availability; treat §4.3's dimension tables as generally applicable but verify format availability against real market data before treating a specific SKU choice as confirmed for a given country.
 
 ## 5. Reference-image conditioning (untested)
 

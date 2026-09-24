@@ -1260,3 +1260,109 @@ that's a structural call for human review, not something a research pass
 should settle on its own. Results pending; will review, reconcile, and
 merge into `us-northeast.md` by hand once all three complete, checking for
 duplication against `us.md`'s existing entries before anything is written.
+
+---
+
+## us-northeast.md merged and published, 2026-09-24
+
+All three zone research passes (NYC Metro & NJ; Southern New England;
+Northern New England) completed. Two structural questions surfaced
+independently by the research were put to the user rather than decided
+unilaterally, per this project's human-sign-off practice: (1) whether
+Boston proper should get its own internal callout distinct from rural
+Vermont/New Hampshire/Maine — **decided: no, stays one zone**; (2) where
+New Haven apizza's authoritative entry should live, since both the
+Southern New England pass and the NYC Metro/NJ pass independently wrote
+full entries for it — **decided: Southern New England** (geographically
+correct; keeps zone boundaries predictable). The NYC/NJ pass's extra,
+independently-sourced apizza detail (Modern Apizza's coke-to-oil oven
+switch, the specific Pepe's/Sally's/Modern founding chronology) was merged
+into the single surviving entry rather than discarded, so no sourced
+research from either pass was lost — this was a hand-reconciliation
+judgment call, not an instruction either pass could have resolved itself.
+
+Wrote the merged file to `knowledge-base/02-culture/regions/usa/us-northeast.md`
+— the first regional file built under the 13-file US structure, and the
+first real test of whether `country-file-schema.md` holds up one level
+below the national-index layer. Tightened each zone's repeated
+scaffolding language (all three drafts independently restated "this is one
+of three zones, not a separate file" boilerplate) into a single statement
+in the file's FILE ROLE & METHOD section rather than three redundant
+copies.
+
+**Immediately after publishing, the user gave a calibrating note**: the
+realistic use case skews toward general, archetypal Northeastern scenes
+(coastal/seafood-shack, fall outdoors, indoor restaurant, beach moment)
+rather than hyper-local neighborhood-level staging (a named NYC block, a
+Beacon-Hill-vs-South-End architectural distinction). This didn't invalidate
+the neighborhood-level research — it's still real, sourced, and needed to
+get dish-level authenticity right — but it meant the file's most-used
+content wasn't easy to find on top. Added a "Typical use note" and a new
+"QUICK-REFERENCE: GENERIC SCENE REGISTERS" table right after the zone
+characterizations, surfacing the four broadly-reusable registers (coastal
+seafood shack, fall outdoors, indoor restaurant, beach/boardwalk) ahead of
+the more granular city/neighborhood depth further down, without deleting
+or downgrading that depth. This is itself a generalizable lesson for every
+future country/region file — noted for `country-file-schema.md` if a
+similar signal recurs on a future file.
+
+---
+
+## Tableware composition document integrated, regional population deferred, 2026-09-24
+
+The user shared an existing standalone document ("TABLEWARE COMPOSITION
+REQUIREMENTS - AGENTIC SYSTEM," v2.0, a .docx) and asked to evaluate the
+cutlery/tableware it covers against the 18-market roadmap, adding what's
+most common across those regions — while explicitly leaving open whether
+to do that now or after the 18 country files exist.
+
+Read the full document (642 lines once extracted) rather than skimming —
+it turned out to be considerably more developed than a simple dimensions
+list: a full scene-composition framework with a non-negotiable hero-zone
+rule, a depth-hierarchy rule (nothing in front of the Coca-Cola bottle),
+detailed plate/bowl/vessel dimension tables, vessel shape/orientation
+logic, spacing rules and clearances, six labeled decision-tree scenarios,
+and a validation checklist. Its own §11 ("Regional/Contextual Overrides")
+was already a self-aware placeholder — it named the categories that would
+need regional attention (chopsticks/hands-only cultures, communal vs.
+individual serving, traditional vessel shapes by cuisine) but had zero
+actual content, consistent with the user's own read that the document was
+incomplete specifically on this axis.
+
+**Split the content by concern, the same separation-of-concerns pattern
+established earlier for the can-legibility/scale findings**: created
+`knowledge-base/00-methods/tableware-composition-reference.md` for the
+general plate/vessel/composition rules that apply whether or not
+Coca-Cola is even in frame (dimensions, spacing, vessel orientation,
+scenario templates, validation checklist) — genuinely reusable across
+every country file, brand-agnostic. Moved the Coca-Cola-SKU-specific
+content (hero-zone rule, depth hierarchy, bottle/can/glass dimension
+tables, multi-serve bottle clearance radii, SKU-selection-by-register
+logic) into `knowledge-base/01-brand/coca-cola-guidelines.md` §4 — this
+turned out to be exactly the "product representation best practices"
+placeholder left open earlier in this project, now filled by real content
+rather than a promise to add it later. Cross-referenced both directions
+rather than duplicating.
+
+**Decided (with the user's sequencing question left open, so this is my
+own call, stated plainly rather than silently made)**: defer populating
+the regional/cultural tableware overrides (§5 of the new methods file)
+until each country/region file gets its own research pass, rather than
+researching all 18 markets' tableware conventions in a dedicated pass
+now. Reasoning: (1) this project's entire discipline is sourced-research-
+first, and speculatively researching "common Indian tableware" disconnected
+from actually building `india.md` risks duplicate work now and
+inconsistency later, if the two research passes land on different
+specifics; (2) the schema already has a natural home for this
+exact information — the "Utensils/eating customs" field on every dish
+entry (`country-file-schema.md` §4.5) — so a country file's own research
+will surface its tableware/cutlery norms as a side effect of normal dish
+research, not as separate work; (3) the source document's own structure
+(a placeholder table naming categories, not populated) was already built
+to be filled in incrementally this way. Built the placeholder as an
+actual per-market status table (all 18 roadmap markets plus a note on
+Uruguay/Argentina's mate-gourd overlap) with an explicit instruction not
+to treat its "expected" flags (chopsticks for China/Japan, thali plates
+for India, fork-and-spoon for Thailand) as sourced claims — they're
+research-priority hints for whoever builds those files next, not
+findings this KB stands behind yet.
