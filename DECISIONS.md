@@ -1825,3 +1825,28 @@ wordmark, or correct red) run to run, which is a larger, more informative
 sample of the same finding already logged above, not new evidence either
 for or against the untested fix. The classic-red-can wording still needs
 its own dedicated test before treating it as validated or ruled out.
+
+---
+
+## Beignets: a fourth unspecified-variant generation, plus a new composition finding (can cropped at frame edge), 2026-09-24
+
+One more generation, again without the "classic red, not Diet Coke or
+Coke Zero" wording — this run added `(6.6cm in diameter)` to the can
+description instead, still not a variant specification. Result: another
+correctly-colored red can with a clean cursive "Coca-Cola" wordmark — a
+fourth data point in the same unspecified-variant condition, and the
+classic-red fix remains untested as of this entry.
+
+**New, separate finding: the can is cropped at the frame's right edge in
+this generation, same as the prior good-colored render.** Two of the last
+two "well-colored" generations both show this same composition miss —
+only "Coca-Col..." visible before the can runs off-frame. This looks like
+a distinct composition problem from the branding-accuracy question:
+positioning the can "at the top right" in a tight close-up shot appears
+to push it toward, and sometimes past, the frame's edge. **Recommended
+fix for the next test**: add an explicit instruction that the can sits
+fully within the frame with clear margin from the right edge, separate
+from the hero-zone/vertical-center-third placement already in the
+prompt — the two aren't the same constraint, and this batch shows
+"center third vertically" doesn't by itself guarantee the can stays clear
+of the horizontal edge.
