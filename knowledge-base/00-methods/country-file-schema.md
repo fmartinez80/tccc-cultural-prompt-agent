@@ -432,6 +432,28 @@ just a one-off for this project.
   trust from a generated image regardless of how a single sample looks —
   composite an approved brand asset in production rather than relying on
   the model to reproduce it correctly, consistently, across every run.
+- **"Cut in half to reveal the cross-section" is genuinely ambiguous about
+  what happens to the second half, and the model's default resolution is
+  often the wrong one.** This project's KB entry only ever described the
+  sandwich's height/layering as an intrinsic trait of the dish itself
+  ("a tall, multi-layer cross-section... genuinely difficult to bite
+  into") — it never instructed cutting the sandwich for the photo at all.
+  That instruction was added independently in the prompt, and it doesn't
+  say what becomes of the half not facing the camera. Two industry-standard
+  food-photography compositions both satisfy the literal words: (a) one
+  half standing with its cut face toward the camera, the other half out of
+  frame — the intended read; (b) both halves stacked with cut faces
+  exposed, a "club-sandwich tower" convention that is if anything *more*
+  common in stock food photography. Across four generations of prompts
+  carrying this same unresolved phrasing, the model split roughly evenly
+  between the two reads — including two different outputs from the *same*
+  prompt in the same run — confirming this is prompt ambiguity, not a bad
+  roll, and not traceable to the KB entry at all. **When an instruction
+  implies an action that produces a byproduct (cutting something in half
+  produces a second piece), state explicitly what happens to the
+  byproduct** ("only one half is shown; the other half is not in frame;
+  do not depict two sandwich halves or a stacked pair") rather than
+  leaving the model to pick a default convention on its own.
 
 ---
 

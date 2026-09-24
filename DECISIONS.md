@@ -733,3 +733,52 @@ said to go ahead.
    Used it only as concrete corroboration that the casa-de-patio/interior-
    courtyard pattern is real and still being built around today, not as
    evidence of what an "ordinary" Cordón house looks like.
+
+---
+
+## Fourth prompt iteration: diagnosing the stacked-halves defect, 2026-09-24
+
+The user asked a targeted diagnostic question about the fourth chivito test
+image (fork moved beside the plate, steak thickness reworded as a relative
+comparison to the ham slice): why does the sandwich keep rendering as two
+stacked halves instead of one cross-section, and is that traceable to the
+`uruguay.md` plating text or to prompt phrasing?
+
+Checked the actual Chivito "Visual/plating characteristics" text directly
+rather than relying on memory: it says the dish's defining trait is
+"height/stacking... a tall, multi-layer cross-section (steak, ham, melted
+cheese, egg if canadiense, vegetables)... genuinely difficult to bite into,
+not a flat, thin sandwich." That sentence describes the *whole/half
+sandwich's own internal layering* as a trait of the dish — it never
+instructs cutting the sandwich for the photo, and never mentions two
+pieces or a stack of pieces. The KB is not the source of the defect.
+
+Re-examined all six generated images rather than just the newest one, to
+find when the pattern actually started: images 1 and 2 (earliest prompts)
+show a single, uncut sandwich. Images 4 and 5 are two generations from the
+*same* prompt — 4 shows a correct single half with the cut face toward the
+camera, 5 shows two stacked halves. Image 6 (the newest) also shows two
+stacked halves. That split within a single identical-prompt run set is the
+key evidence: the defect isn't tied to what changed in the newest prompt
+(fork position, steak phrasing), and it isn't a one-off bad generation —
+it's the same prompt resolving two genuinely different ways across runs.
+
+**Diagnosis**: the prompt's own recurring phrase — "cut in half to reveal
+its tall, multi-layer cross-section" — is ambiguous about what happens to
+the second half once the sandwich is cut. Two real food-photography
+conventions both satisfy those words: showing one half with its cut face
+to the camera (intended), or stacking both halves with cut faces exposed
+(a "club-sandwich tower" convention, arguably the more common stock-photo
+trope of the two). Nothing in the prompt tells the model which one to
+produce or what to do with the half not facing the camera, so it picks
+between two valid readings inconsistently.
+
+**Fix applied**: logged this as a new generalizable prompt-engineering
+finding in `country-file-schema.md` §7.5 (not a cultural fact, so it goes
+in the methods doc, not `uruguay.md`) — when an instruction implies a
+byproduct (cutting produces a second piece), state explicitly what happens
+to it, rather than leaving the model to default to a convention on its
+own. Did not touch `uruguay.md`, since the audit confirmed it isn't the
+cause. Did not yet re-test a revised prompt phrase — that's the next step,
+and per this project's own two-generations rule, any fix needs at least
+two runs before being called confirmed.
