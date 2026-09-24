@@ -864,3 +864,39 @@ boardwalk behavior) rather than staged as a hand-held POV shot. Logged as a
 new §7.5 rule in `country-file-schema.md`, since it applies to every future
 country/region file and every handheld dish in this project (sandwiches,
 choripán, tacos, hot dogs), not just this one test.
+
+---
+
+## Verified, not overturned: the visible sauce spiral, 2026-09-24
+
+The user challenged the "spiral of sauce" detail in the boardwalk-pizza
+images as likely a food-prep artifact (a mixing/ladling motion) rather
+than something a food stylist would actually see in a finished, plated
+photo — reasoning that in ordinary pizza-making, sauce goes down first and
+gets fully covered by cheese, so any spiral shape disappears by the time
+the pie is baked. That reasoning is correct for ordinary pizza. It doesn't
+apply here specifically because Trenton tomato pie and Manco & Manco
+boardwalk pizza are documented as doing the layering backwards on purpose
+— cheese down first, sauce ladled on last — which means the sauce is the
+top-most layer in the finished, baked pie, not something later buried.
+
+Ran two more targeted searches to verify before answering rather than
+trusting the original characterization from memory. Found independent,
+specific corroboration that the visible spiral is a genuine finished-plate
+trait, explicitly called out as one of the style's defining, photographed
+characteristics — not a prep-motion detail: a pizza-making forum's
+description of Manco & Manco's technique ("the sauce is placed on top of
+the cheese in a swirling spiral pattern... visually distinctive and very
+visible on top of the pizza... one of the defining characteristics"), and
+Central Jersey's description of Trenton tomato pie ("the vibrant red sauce
+is clearly visible draped across the top of the white cheese layer").
+
+**Outcome**: did not change the underlying claim, since it held up under
+scrutiny — but tightened the `us.md` wording for both the Trenton and
+boardwalk pizza bullets to state explicitly that this is a finished-plate
+visual trait surviving the bake, not a mixing step, specifically to
+prevent this exact reasonable-sounding but incorrect assumption from
+recurring for a future reader who hasn't seen the verification. This is
+the same discipline as the earlier chivito utensils correction: treat a
+user's skepticism as a prompt to re-verify, and either fix the file or
+clarify it so the same question doesn't need to be re-litigated.
