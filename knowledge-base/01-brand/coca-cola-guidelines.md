@@ -86,13 +86,20 @@ reference data, kept here rather than in `country-file-schema.md`, because
 it's about the product itself, not a food-culture fact or a general
 prompting technique.
 
-- **Standard can (12 fl oz / 355 mL)**: ~4.83 in (12.3 cm) tall, ~2.6 in
+- **Standard US can (12 fl oz / 355 mL)**: ~4.83 in (12.3 cm) tall, ~2.6 in
   (6.6 cm) diameter. This is the format used in every test prompt in this
-  project to date. [CONFIDENCE: HIGH — standard, publicly documented
-  packaging dimension, not project-specific research]
+  project to date, and the correct default **for US market files only**.
+  [CONFIDENCE: HIGH — standard, publicly documented packaging dimension,
+  not project-specific research]
+- **Standard UK/European can (330 mL)**: ~4.53 in (11.52 cm) tall, ~2.6 in
+  (6.61 cm) diameter — see §4.3's full table and market note. **Use this
+  figure, not the 355mL one above, for any UK, European, or other
+  non-US-market prompt**, unless that market's own file documents a
+  different confirmed local standard.
 - Other formats (mini can, 20 fl oz bottle, 2-liter bottle, glass bottle)
-  are not yet documented here — add their dimensions before using them as
-  a scale anchor in a prompt; don't assume the standard can's numbers apply.
+  are not yet documented here beyond §4.3's table — add their dimensions
+  before using them as a scale anchor in a prompt; don't assume the US
+  standard can's numbers apply to a different format or market.
 
 **Why this matters**: this project found that scale/size consistency for
 the hero food item is unreliable across generations of the same prompt,
@@ -149,8 +156,11 @@ holds supporting dishes, bread, and clustered condiments; layer 3
 |---|---|---|---|---|
 | Glass bottle (contour) | 200–210mm | 60–65mm | 330mL | Classic, premium, on-premise |
 | PET bottle | 210mm | 60mm | 330mL | Convenience, retail |
-| Aluminum can | 123mm | 66mm | 355mL | Casual, convenience, on-the-go |
+| Aluminum can | 123mm | 66mm | 355mL | Casual, convenience, on-the-go — **US/North American standard single-serve can** |
+| Aluminum can | 115.2mm | 66.1mm | 330mL | Casual, convenience, on-the-go — **UK/European (and most non-US-market) standard single-serve can — do not substitute the 355mL/123mm figure for a non-US market** |
 | PET bottle | 203mm | 65mm | 500mL | Single-serve, retail, hearty meals |
+
+**Market-specific can size — read before writing a non-US prompt.** The 355mL/123mm can is a US-market convention, not a universal one. The UK's (and most of Europe's) standard single-serve can is 330mL, roughly 7mm shorter at the same 66mm diameter — a small but real difference that matters for §3's scale-anchor technique, since anchoring a UK/European food item's size against the wrong (longer) US can would introduce exactly the kind of ungrounded-scale error this project's beignet finding already flagged, just in reverse (making the food read smaller than it really is relative to the can). Verified via standard packaging-dimension sources; not yet cross-checked against a specific market's actual bottler SKU data per §4.8. [CONFIDENCE: HIGH for the 330mL can existing as the standard UK/European single-serve size and for its approximate dimensions; not yet verified per-market via TCCC's own bottler documentation] [SOURCE: [Wikipedia: Drink can](https://en.wikipedia.org/wiki/Drink_can); UK retail listings confirming 330mL as the standard single-can size (Tesco, Amazon UK, Coca-Cola GB's own product listings)] **When a country file's market is not the US, default to the 330mL can dimensions above for any can-based scale-anchor clause, not the 355mL figure**, unless that market's own file states a different confirmed local standard.
 
 **Multi-serve formats (at-home):**
 
