@@ -1762,13 +1762,14 @@ size, not tighter wording around an ungrounded guess.
 
 Ran the corrected prompt (explicit 3-inch-square footprint, 1.5–2in
 post-fry thickness, "clearly less than half the can's height") three
-times. Measured against the can in the two generations where it's fully
-in frame (the third crops the can's top, unusable as a ruler there): the
-top beignet now reads at roughly 40–45% of the can's height, matching the
-corrected target — a real fix from the first round's ~65%+ oversized
-renders. Sugar mounding, crust visibility at the edges, and the
-torn-open beignet's air-pocket interior all held correctly across all
-three generations.
+times. **Correction to this entry's original wording**: all three
+generations actually show the can fully in frame, not just two — an
+earlier read of one image as cropped at the top was wrong, caught by the
+user. Measured against the can in all three: the top beignet reads at
+roughly 40–45% of the can's height, matching the corrected target — a
+real fix from the first round's ~65%+ oversized renders. Sugar mounding,
+crust visibility at the edges, and the torn-open beignet's air-pocket
+interior all held correctly across all three generations.
 
 **New, unrelated problem surfaced by this batch**: the can itself
 rendered as the wrong product in 2 of 3 generations — a silver Diet
@@ -1783,3 +1784,29 @@ classic red Coca-Cola can (original, not Diet Coke or Coke Zero)" rather
 than relying on "Coca-Cola can" alone. Flagged MEDIUM confidence given
 the small (three-generation) sample, but a 2-of-3 miss rate is a real
 enough risk to guard against by default going forward.
+
+---
+
+## Beignets ablation: the relative can-height sentence may be redundant, 2026-09-24
+
+User ran one further generation with the explicit relative-comparison
+sentence removed from the prompt ("...about 4.83 inches (12.3cm) tall —
+use its real size as the scale reference for the whole scene. Each
+beignet should read as clearly less than half the can's height..."),
+keeping only the beignet's own absolute dimensions (3-inch square
+footprint, 1.5–2in post-fry thickness). Result: size still held —
+beignets read proportionate to the can, not oversized, consistent with
+the corrected batch above rather than the original ~65%+ oversized
+renders. Tentative read, n=1 only, needs the standard two-generation
+minimum before treating as confirmed: **the beignet's own absolute
+real-world dimensions may be doing the actual correcting work, with the
+explicit can-relative comparison sentence possibly redundant once those
+are present.** If confirmed with a second run, this would simplify future
+scale-anchor phrasing — grounding the food's own real size may matter
+more than an explicit side-by-side comparison instruction. Not promoted
+to a schema rule yet.
+
+The can-color/variant problem persisted unchanged in this generation (a
+silver can again) — expected, since that variable wasn't touched by this
+test; the classic-red-can wording recommended above still needs testing
+on its own.
