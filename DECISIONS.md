@@ -1073,3 +1073,39 @@ vocabulary/texture-vs-proportion findings. Each place in the schema doc
 that used to hold Coca-Cola-specific detail now points to the new file
 instead of restating it, so there's one place to update as the can
 findings evolve rather than two.
+
+---
+
+## NYC halal cart gyro added as a second coexisting form, 2026-09-24
+
+The user asked for a gyro-in-Queens-from-a-street-cart prompt. `us.md`'s
+existing Gyro entry only documented the traditional Greek-American form
+(spit-shaved meat, pita, tzatziki, restaurant-served) — nothing about
+street carts, which is almost certainly what "a gyro in Queens from a
+cart" actually means in practice, and a real, visually distinct form in
+its own right (chicken/lamb blend rolled burrito-style in pita, the white/
+red/green sauce trio, foil wrap, silver cart with umbrella), not a lesser
+version of the restaurant gyro.
+
+Researched and added it as a second entry under Gyro, explicitly framed
+using the §4.6 "surface coexisting variants" principle added earlier this
+session — this is exactly the kind of case that principle exists for.
+Also added real historical/demographic context (Muslim immigrant vendors,
+predominantly Egyptian, Bangladeshi, and Afghan, took over NYC's street-
+cart trade from Greek vendors in the late 1980s/1990s, who had themselves
+succeeded Italian/German vendors — with sourced before/after vendor-count
+data) since it explains why a NYC cart "gyro" today is often this distinct
+form rather than the traditional Greek one.
+
+Checked for Queens-specific detail (rather than generic NYC-wide claims)
+and didn't find a dedicated source beyond general borough-diversity
+framing — flagged honestly as LOW confidence for anything Queens-specific,
+rather than implying the halal cart phenomenon is somehow unique to Queens
+when the sourcing only supports a citywide claim.
+
+Also flagged a prompt-writing implication directly in the entry: the
+traditional cart umbrella is itself a specific commercial brand's product
+(a named hot-dog-cart umbrella maker whose umbrellas became a general NYC
+street-cart fixture) — per the landmark/trademark rule in
+`country-file-schema.md` §7.5, describe it generically ("a yellow cart
+umbrella") in an actual prompt rather than naming the brand.
