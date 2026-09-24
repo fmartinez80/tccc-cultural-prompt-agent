@@ -201,6 +201,49 @@ judgment call, distinct from the underlying distinctness evidence, so a
 future pass doesn't mistake "kept the broader name" for "the narrower category
 isn't real."
 
+---
+
+## US knowledge base — Lowcountry closed, environment section added, Gen Z reweight requested, 2026-09-24
+
+Three things happened in quick succession. First, the user asked directly why
+Lowcountry wouldn't just be "the South" — a fair challenge, and I gave an
+honest answer rather than defending the file split reflexively: the evidence
+for Lowcountry's distinctness was thin (surfaced incidentally by the
+validation agent, never independently stress-tested the way Appalachia/
+Florida/Louisiana were), so I recommended folding it into `us-south.md` as a
+callout rather than defending a 14th file on a hunch. The user agreed
+("proceed with south"), closing the regional-list question entirely.
+
+Second, the user asked me to also run the environment/staging-scenes section.
+I delegated this to a fifth subagent (same pattern as the four dish-research
+agents), mirroring Uruguay's exact six-scenario structure. It came back with
+strong, quantified confirmation of both hypothesized US/Uruguay contrasts
+(drive-thru culture: ~20% of meals eaten in a car, ~83% of fast-food orders
+off-premise; dinner timing: ~6:19pm US peak vs. Uruguay's 9:30pm+) plus one
+genuinely useful finding I hadn't hypothesized: most US fire codes ban
+charcoal/propane grills on apartment balconies — the mirror image of
+Uruguay's parrillero-terrace correction. I merged this in full.
+
+Third — while I was still in the middle of that merge — the user sent a
+follow-up asking to reweight the section's decor/setting defaults toward Gen
+Z specifically: Gen Z hangout venues, Gen Z home furnishings, non-traditional
+home environments, and roommate/shared-living quarters, rather than the
+"older"/traditional-family framing the just-merged section defaulted to
+(suburban homeownership, nuclear-family dinner scenes, etc.).
+
+**Judgment call:** rather than discarding the just-merged section, I finished
+committing it as a checkpoint first, then launched a dedicated revision pass
+targeting specifically the demographic framing layered on top of the
+statistical findings — not the statistical findings themselves. The
+distinction matters: drive-thru share, dinner timing, grill-type prevalence,
+and the apartment-balcony grill ban are all demographic-agnostic facts about
+the US as a whole and remain valid regardless of who's being staged. What
+needed revision was the "likely setting" narrative decisions layered on top
+(e.g., defaulting a solo-lunch scene to a homeowner's kitchen island rather
+than to a shared rental with roommates) — logged this distinction explicitly
+in `us.md`'s own Gap Log so the next pass revises the right layer rather than
+re-deriving statistics that don't need to change.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to
