@@ -27,18 +27,25 @@ the product itself right, so it doesn't need re-discovering per country.
   time. [CONFIDENCE: HIGH — directly observed across multiple independent
   test generations in this project]
 - **The can resists an explicit "keep the label soft-focus/illegible"
-  instruction, inconsistently.** A prompt asked for the can's label to face
-  away from camera or stay soft-focus/not legible, in the same sentence as
-  instructions to keep background signage and ride marquees blurred. Across
-  four generations testing this instruction (two per test, two tests), the
-  background signage instruction was followed cleanly every time; the can
-  label instruction was followed in roughly a quarter of generations and
-  ignored — rendered sharp, front-facing, fully legible — in the rest, with
-  no clear pattern predicting which. Working theory: "Coca-Cola can" is such
-  a strongly-anchored visual concept in the model's training data that it
-  competes with and often overrides an explicit instruction to obscure it,
-  in a way generic signage doesn't. [CONFIDENCE: HIGH for the inconsistency
-  itself; the underlying cause is a working theory, not confirmed]
+  instruction, inconsistently — and a fifth test complicated the pattern
+  further rather than confirming it.** A prompt asked for the can's label
+  to face away from camera or stay soft-focus/not legible, in the same
+  sentence as instructions to keep background signage and ride marquees
+  blurred. The first two tests (four generations) suggested a clean split:
+  background signage instructions followed every time, can-label
+  instructions followed in roughly a quarter of generations. **A third
+  test (a Queens street-cart scene) inverted that pattern**: background
+  signage — a yellow storefront sign, a red neon sign — rendered as sharp,
+  legible-looking (if gibberish) text despite the same "keep signage
+  blank/blurred" instruction, while the can rendered with fully correct,
+  legible branding in the same image. **Revised conclusion: neither
+  background text nor the can label is a reliable target for a "keep it
+  illegible" instruction — both are unpredictable run to run, not a clean
+  case of "background complies, only the can defies."** The can does still
+  appear to fail more often in aggregate across all three tests, but the
+  margin is not as clean as the first two tests alone suggested. [CONFIDENCE:
+  HIGH that neither is a dependable instruction target; MEDIUM that the can
+  fails more often than background specifically, given the small sample]
 
 ## 2. Production standard
 

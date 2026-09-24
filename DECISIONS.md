@@ -1109,3 +1109,35 @@ traditional cart umbrella is itself a specific commercial brand's product
 street-cart fixture) — per the landmark/trademark rule in
 `country-file-schema.md` §7.5, describe it generically ("a yellow cart
 umbrella") in an actual prompt rather than naming the brand.
+
+---
+
+## Queens gyro test complicates the can-vs-background pattern, 2026-09-24
+
+The generated image validated the new KB research well: correct burrito-
+style tight roll (not open-faced), the white-sauce-base/red-sauce-drizzle
+combination rendered accurately, silver cart with visible grill and
+condiment squeeze bottles, food resting on the cart counter rather than
+hand-held — all consistent with the halal cart entry just added.
+
+But it also complicated a finding rather than confirming it. The prior
+Coney Island tests suggested a clean pattern: background signage reliably
+stays blurred, only the Coca-Cola can resists the "keep it illegible"
+instruction. This test inverted that — a background storefront sign and a
+neon sign both rendered as sharp, legible-looking (if gibberish) text
+despite the same instruction, while the can rendered with fully correct,
+legible branding. Rather than let the earlier, cleaner-looking pattern
+stand on a small sample, revised the finding in
+`knowledge-base/01-brand/coca-cola-guidelines.md` §1 to state plainly that
+neither background text nor the can is a dependable target for a "keep it
+illegible" instruction — the can still appears to fail more often in
+aggregate, but the margin is weaker than the first two tests alone
+suggested. Consistent with this project's practice of revising a finding
+when new evidence complicates it rather than cherry-picking the tests that
+confirm the original claim.
+
+Also noted, but not logged as a KB finding: the cart umbrella rendered
+navy/dark blue rather than the yellow specified in the prompt. A single
+data point isn't enough to call this a pattern under this project's own
+two-generations discipline — flagging it here for awareness, not writing
+it into either methods file yet.
