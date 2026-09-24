@@ -35,11 +35,11 @@ additional country is completed and confirms it generalizes.
 | 13 | Japan | Not started |
 | 14 | Thailand | Not started |
 | 15 | Philippines | Not started |
-| — | Pakistan | Not started (listed without a numbered rank in the source list — sequencing relative to 1–15 not yet clarified) |
-| — | Bangladesh | Not started (same note as Pakistan) |
-| — | Indonesia | Not started (same note as Pakistan) |
+| 16 | Pakistan | Not started (listed without a numbered rank in the source list — sequencing relative to 1–15 not yet clarified) |
+| 17 | Bangladesh | Not started (same note as Pakistan) |
+| 18 | Indonesia | Not started (same note as Pakistan) |
+| 19 | Uruguay | Partial | Not as a priority but as a verifiable gastro-homogenous country
 
-Also already underway, outside this numbered list: **Uruguay** (`uruguay.md`)
 — the original pilot that the schema itself was derived from, not a TCCC
 top-market per this list but kept in the KB as the schema's proof-of-concept
 and ongoing prompt-testing ground.
