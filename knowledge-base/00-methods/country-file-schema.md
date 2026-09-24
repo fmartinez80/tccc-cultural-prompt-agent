@@ -478,6 +478,21 @@ just a one-off for this project.
   branding that must actually be correct and consistent (the Coca-Cola can
   included) belongs in post-production compositing over a blank/blurred
   placeholder, never in the generation itself.
+- **Avoid "a hand holds..." phrasing — stage the food resting on a table or
+  other surface, even for genuinely handheld/by-the-slice foods.** This is
+  a production/composition convention, not a correction to any KB fact:
+  a dish entry documenting that a food is authentically eaten by hand
+  (a sandwich, a slice of pizza, a choripán) remains accurate as written.
+  But a prompt built around "a hand holds the [food]" reliably produced an
+  in-hand, POV-style shot rather than a plated/set-down composition (this
+  project's New Jersey boardwalk-pizza test is the concrete example — two
+  generations from a hand-holds prompt both came back as a hand-held slice
+  shot). Default every prompt's composition to the food resting on a
+  table, counter, railing, or other stable surface regardless of how the
+  entry says the dish is actually eaten — a boardwalk pizza slice can rest
+  on its wax-paper liner set on the boardwalk railing itself, which is
+  still an authentic real-world boardwalk behavior, without the shot
+  being staged as a hand-held POV.
 
 ---
 

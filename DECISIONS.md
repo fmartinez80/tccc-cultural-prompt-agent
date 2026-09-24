@@ -845,3 +845,22 @@ for "outdoors" — boardwalk pizza is inherently an outdoor/walking scene,
 where Trenton tomato pie is a sit-down pizzeria style with no inherent
 outdoor context. Documented both anyway since a future request could
 reasonably want the sit-down NJ style instead.
+
+---
+
+## New production rule: no hand-held framing, even for handheld foods, 2026-09-24
+
+Two generations of the boardwalk-pizza prompt (which included "a hand
+holds a...") both came back as an in-hand, POV-style shot. The user's
+direction: scenes should always be staged on a table or other surface, not
+held in a hand — a standing production/composition choice for this whole
+image program, not a correction to any KB fact. `us.md`'s Pizza entry still
+correctly documents boardwalk pizza as authentically handheld/by-the-slice
+— that fact isn't being changed. The convention only governs how the
+*photograph* is composed: even a genuinely by-hand food should be shown
+resting on a surface (a counter, table, railing — a boardwalk slice can sit
+on its own wax-paper liner set on the railing, which is still realistic
+boardwalk behavior) rather than staged as a hand-held POV shot. Logged as a
+new §7.5 rule in `country-file-schema.md`, since it applies to every future
+country/region file and every handheld dish in this project (sandwiches,
+choripán, tacos, hot dogs), not just this one test.
