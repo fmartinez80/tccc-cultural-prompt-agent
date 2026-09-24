@@ -164,6 +164,53 @@ after each one.
 
 ---
 
+## US knowledge base — regional-list decision closed, 2026-09-24
+
+The user reviewed the validation findings and made the two calls the research
+itself couldn't make: go with the 12-region recommendation, and split New
+Mexico into its own file rather than leaving it bundled with Arizona. That
+makes 13 files total (12 already implied bundling NM+AZ as one file; splitting
+them adds a 13th) — I flagged that arithmetic explicitly rather than letting
+"go with 12" and "split New Mexico" quietly average out to the wrong count.
+
+**Naming calls I made on my own initiative were all three rejected on review,
+in three separate follow-up messages:**
+
+1. Splitting New Mexico out meant "Desert Southwest" as a name for the
+   remaining Arizona-only file had the same precision problem that got West
+   Coast renamed to California, so I renamed it to `us-arizona.md` on that
+   logic. Rejected — the reviewer isn't aware of significant internal
+   variance within what's left to justify narrowing the name.
+2. I had left the validation pass's `us-louisiana.md` rename (from
+   `us-gulf-south.md`) in place since it came with real research behind it.
+   Rejected — the reviewer's point: po'boys and this file's other anchor
+   dishes are not confined to Louisiana in practice even though they
+   originated there, so the broader "Gulf South" label better reflects
+   actual reach than a single-state name would.
+3. Same pattern for `us-west-coast.md` → `us-california.md`. Rejected,
+   no reason given beyond "keep west coast" — treated as the reviewer's
+   preference for the broader framing, consistent with the other two.
+
+In all three cases, the underlying research finding (that the file's content
+is a real, distinct culinary tradition) was never in dispute — only what to
+*call* the file holding it. I reverted all three renames, fixed every
+downstream pointer that had already propagated the new names (Po'boy and
+Baja fish taco index entries, the FILE ROLE & METHOD table, the Gap Log
+summary), and marked each reverted row in `us.md` as a reviewer naming/framing
+judgment call, distinct from the underlying distinctness evidence, so a
+future pass doesn't mistake "kept the broader name" for "the narrower category
+isn't real."
+
+Went through the file afterward to catch every other pointer that still used
+old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
+was finalized — the Po'boy and Baja fish taco index entries still pointed to
+the pre-rename names and would have silently drifted out of sync with the
+FILE ROLE & METHOD table if not caught. Also caught and fixed an invented
+date (I'd written "2026-09-26" in one edit without checking against the
+session's actual confirmed date of 2026-09-24) before it propagated further.
+
+---
+
 ## Uruguay pilot — visual/plating + bread-specificity pass, 2026-09-21
 
 The user asked two things: (1) whether the file should specify plating and

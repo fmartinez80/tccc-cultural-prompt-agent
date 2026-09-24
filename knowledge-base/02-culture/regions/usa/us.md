@@ -27,60 +27,40 @@ toast) are absent and some lower-frequency but iconic ones (Thanksgiving dinner)
 are included. No beverage other than Coca-Cola itself is in scope; this file
 does not catalog other American beverages.
 
-**Working regional-file list — SUPERSEDED BY A 2026-09-24 VALIDATION PASS, PENDING HUMAN SIGN-OFF.**
-The original ten-file list (`us-northeast.md`, `us-mid-atlantic.md`,
-`us-south.md`, `us-gulf-south.md`, `us-midwest.md`, `us-texas.md`,
-`us-desert-southwest.md`, `us-west-coast.md`, `us-pacific-northwest.md`,
-`us-hawaii.md`) was a conversational working hypothesis, not a validated
-decision. A dedicated subagent research pass (method: the same "would
-swapping one region's norms into another look visibly wrong" test used in
-Uruguay's SUB-REGION TRIAGE DECISION) confirmed all ten as real categories
-but concluded the list **undercounts** — recommending **12 confirmed
-regions plus 1 open question**:
+**Working regional-file list — DECIDED 2026-09-24 (human sign-off received), superseding the original 10-file working hypothesis.**
+A dedicated subagent validation pass (method: the same "would swapping one
+region's norms into another look visibly wrong" test used in Uruguay's SUB-REGION
+TRIAGE DECISION) confirmed the original ten as real categories but found the
+list undercounted; the reviewer then resolved the one point the research
+itself left open. **Final list: 13 regional files.**
 
-- **Add** `us-appalachia.md` (its omission from the working list appears to
-  have been a mistake — real, causally-distinct cuisine: no cane sugar in
-  mountain climates → sorghum/honey sweeteners instead of cane sugar; no
-  coastline → game/freshwater fish instead of rice/seafood; a documented
-  ~75% Scots-Irish settlement pattern distinct from the Deep South's
-  plantation economy) [CONFIDENCE: MEDIUM-HIGH]
-- **Add** `us-florida.md`, splitting it back OUT of `us-south.md` (Florida
-  has its own documented "Floribbean" fusion identity and a real internal
-  North/South Florida split; the Cuban sandwich entry above is itself the
-  sharpest evidence — it has documented Tampa/Ybor City vs. Miami vs. Key
-  West sub-variants that a generic `us-south.md` entry would flatten)
-  [CONFIDENCE: MEDIUM-HIGH]
-- **Rename** `us-gulf-south.md` → `us-louisiana.md` (the actual evidence
-  supports Louisiana Creole/Cajun specifically, not the broader, vaguer
-  multi-state "Gulf Coast" label) [CONFIDENCE: HIGH on distinctness, MEDIUM
-  on the exact name]
-- **Rename** `us-west-coast.md` → `us-california.md` (no source treats
-  "West Coast" as one coherent identity once Pacific Northwest is already
-  split out; what's left is California cuisine specifically) [CONFIDENCE: MEDIUM-HIGH]
-- **Open question, not resolved**: `us-lowcountry.md` (South Carolina/coastal
-  Georgia — rice, she-crab soup, shrimp and grits, Gullah influence) surfaced
-  incidentally as a candidate 13th region but was not independently
-  stress-tested with the same rigor as the five questions above — needs its
-  own dedicated pass before a file/no-file decision.
-- **Unresolved disagreement between two subagent research passes, flagged
-  rather than silently resolved:** the regional-validation pass recommends
-  keeping New Mexico *inside* `us-desert-southwest.md` as an internal
-  sub-style alongside Arizona/Sonoran content (the same one-file/multiple-
-  named-sub-styles pattern already used for BBQ, pizza, and hot dogs).
-  A separate, independent research pass done specifically on New Mexican
-  chile/enchilada culture (see the Enchiladas entry above) concluded the
-  opposite — that New Mexican cuisine is distinct enough from Arizona/Sonoran
-  content to warrant its own `us-new-mexico.md` file. Both passes cite real,
-  credible sources for their respective conclusions. **This is a genuine,
-  unresolved disagreement, not a settled recommendation — do not treat
-  either conclusion as final without a human decision.**
+| # | File | Status vs. original 10-file list |
+|---|------|------|
+| 1 | `us-northeast.md` | unchanged |
+| 2 | `us-mid-atlantic.md` | unchanged (dish assignment governs the NYC/Philadelphia boundary, not census political-region lines) |
+| 3 | `us-south.md` | scope narrowed — explicitly excludes Appalachia, Florida, and Louisiana Creole/Cajun; carries a Lowcountry callout pending its own review (see below) |
+| 4 | `us-appalachia.md` | **NEW** — omitted from the original list without a documented reason; evidence (distinct pantry from climate/geography, distinct settlement pattern) supports adding it |
+| 5 | `us-florida.md` | **NEW** — split back out of `us-south.md`; own documented "Floribbean" identity and internal North/South Florida split |
+| 6 | `us-gulf-south.md` | **Unchanged name (reviewer decision, 2026-09-24) — the research-recommended rename to `us-louisiana.md` was rejected.** Reviewer's read: po'boys and this file's other anchor dishes are not confined to Louisiana in practice even though they originated there (po'boy: New Orleans, 1929), so "Gulf South" better reflects the actual reach than narrowing to a single state's name would. Same caveat as `us-desert-southwest.md` above — this is a reviewer judgment call about naming/framing, not a rebuttal of the underlying distinctness evidence (Cajun/Creole cuisine being genuinely different from mainstream Southern food is not in dispute, only what to call the file that holds it). |
+| 7 | `us-midwest.md` | unchanged |
+| 8 | `us-texas.md` | unchanged (internal North/South/West Texas Tex-Mex variation noted as a callout, not a further split) |
+| 9 | `us-new-mexico.md` | **NEW — split out of the original `us-desert-southwest.md` slot.** Two subagent passes disagreed on this (one recommended keeping New Mexico bundled with Arizona as an internal sub-style; the chile-specific pass recommended a standalone file, citing separate Wikipedia categories, a specialist culinary school framing the comparison as "Tex-Mex vs. New Mexican" rather than "vs. Desert Southwest," and Arizona's own Sonoran style being explicitly described as its own distinct thing). **Decision (human, 2026-09-24): split them.** If New Mexico carries enough distinct, sourced material (red/green chile, the "Christmas" state question, stacked-enchilada format, Hatch chile's geographic-designation status) to warrant its own depth, it gets its own file rather than being a subsection of somewhere else. |
+| 10 | `us-desert-southwest.md` | **Unchanged name (reviewer decision, 2026-09-24).** New Mexico splits out to its own file (#9 above), so this file now covers Arizona/Sonoran-style content specifically — but unlike the West Coast→California rename, the reviewer judged there isn't enough known internal variance *within* what's left to justify a more specific name; "Desert Southwest" stays. Note this is a judgment call, not an independently-researched conclusion the way the California/Louisiana renames were — flag if a future pass finds real internal Arizona-vs-elsewhere-in-the-Southwest variance that would argue otherwise. |
+| 11 | `us-west-coast.md` | **Unchanged name (reviewer decision, 2026-09-24) — the research-recommended rename to `us-california.md` was rejected.** Same pattern as the two reversals above: the underlying content (California cuisine, Baja fish taco, sourdough) is not in dispute, only the file's name/framing — reviewer kept the broader "West Coast" label. |
+| 12 | `us-pacific-northwest.md` | unchanged |
+| 13 | `us-hawaii.md` | unchanged |
 
-**No regional files have been created yet under either the old or the new
-list** — this pass produces only `us.md`. Every "→ `us-*.md`" pointer above
-is a forward reference to a file that does not exist yet. **The renames and
-additions above are a research recommendation awaiting explicit human
-sign-off before the working list is formally changed** — pointers elsewhere
-in this file still use the original ten-file names pending that decision.
+**Still open, not part of this decision:** `us-lowcountry.md` (South Carolina/coastal
+Georgia — rice, she-crab soup, shrimp and grits, Gullah influence) surfaced
+incidentally as a candidate 14th region but was not independently stress-tested
+with the same rigor as the others — needs its own dedicated pass before a
+file/no-file decision; `us-south.md` carries a labeled callout for it in the
+meantime rather than treating coastal Carolina/Georgia food as generically the
+same as inland BBQ-and-fried-chicken content.
+
+**No regional files have been created yet.** This pass produces only `us.md`.
+Every "→ `us-*.md`" pointer elsewhere in this document should now be read
+against this finalized 13-file list.
 
 ## SCHEMA NOTE — three independent dimensions (new convention, meant to be reusable beyond the US)
 
@@ -259,7 +239,7 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Category: Everyday to special-occasion (New Mexico's enchilada is arguably that state's single most foundational dish, on par with the fajita's role in Tex-Mex)
 - Cuisine lineage: Mexican-American, with two genuinely distinct, independently-evolved US sub-traditions that share a name and a Mexican ancestor but not a common US form
 - Regional form variation: **Form-changing — one of the clearest cases in this file, on the same order as pizza and hot dogs.**
-  - **New Mexican** (→ proposed `us-new-mexico.md` — **not yet on the working regional-file list; see FILE ROLE & METHOD note on the 2026-09-24 regional-validation pass**): stacked, not rolled — corn tortillas (often blue corn in northern NM) lightly fried/softened, dipped in red or green chile sauce, layered flat like a stack of pancakes with onion, cheese, and shredded chicken/beef between layers, smothered in more sauce, traditionally crowned with a fried egg. Sauce color is a real cultural fork — green (more southern NM) and red (more northern NM) chile are both legitimate, and ordering both is "Christmas," New Mexico's official state question being literally "Red or Green?" (the only state question of any US state). [CONFIDENCE: HIGH]
+  - **New Mexican** (→ `us-new-mexico.md`, now confirmed on the 13-file regional list per the 2026-09-24 human decision — see FILE ROLE & METHOD above): stacked, not rolled — corn tortillas (often blue corn in northern NM) lightly fried/softened, dipped in red or green chile sauce, layered flat like a stack of pancakes with onion, cheese, and shredded chicken/beef between layers, smothered in more sauce, traditionally crowned with a fried egg. Sauce color is a real cultural fork — green (more southern NM) and red (more northern NM) chile are both legitimate, and ordering both is "Christmas," New Mexico's official state question being literally "Red or Green?" (the only state question of any US state). [CONFIDENCE: HIGH]
   - **Tex-Mex** (→ `us-texas.md`): rolled, not stacked — corn tortillas rolled around a filling (classically yellow cheese and onion, beef also common), lined seam-side-down in a baking dish, covered in a roux-based "chili gravy" (flour-and-fat roux with chili powder and beef broth — not a fresh chile-pod sauce, not tomato-based) reading as a uniform matte reddish-brown, finished with melted shredded yellow cheese (cheddar or cheddar/Jack) on top. [CONFIDENCE: HIGH]
 - Serving format: Plate in both traditions — no handheld sibling for either
 - Visual/plating characteristics: **Sauce color/consistency and tortilla handling (rolled vs. stacked) are the primary, checkable visual differentiators — the same logic already established for BBQ sauce in this file.** New Mexican red chile: thin, matte, earthy brick-red, made from dried ground chile pods, not a roux. New Mexican green chile: bright yellowish-green, chunky (visible roasted chile flesh, not puréed). "Christmas": both sauces visible on the same plate at once — a distinctive two-tone presentation unique to this style. New Mexican stacking gives a flat, layered, lasagna-like cross-section when cut, topped with a fried egg (no Tex-Mex equivalent). Tex-Mex chili gravy is a single, uniform, glossy reddish-brown sauce blanketing tightly-rolled tortillas under a solid melted-cheese layer — the most "smothered/uniform" look of the two, vs. New Mexican's visibly layered, deconstructed look. These two silhouettes are not interchangeable; depicting one as the other is a real, visible authenticity error. [CONFIDENCE: HIGH]
@@ -623,7 +603,7 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 
 - **RESOLVED this pass (2026-09-24, via four parallel subagent research passes)**: Snacks (9 entries added), Tier 2 global cuisine (Indian-American, Sushi/Japanese-American, Thai-American added), New Mexican vs. Tex-Mex enchiladas/chile (added as a form-changing index entry), and a full regional-boundary validation pass (see FILE ROLE & METHOD above). Each is subject to the specific lower-confidence flags listed below, but the categories themselves are no longer unresearched.
 - **Environment/staging-scenes section still does not exist in this file.** The six-scenario Uruguay-style treatment (casual lunch at home 1/2/3 people, dinner at home, outdoor meal at home, on-the-go, away-from-home 1 vs. 2-3 people) remains confirmed in-scope but not started. Given confirmed US car/drive-thru culture, I'd expect the "on-the-go" scenario to look close to the opposite of Uruguay's "grab-and-go barely exists" finding — a hypothesis to confirm, not yet checked.
-- **The regional-file list has a validated recommendation but no human sign-off yet** (see FILE ROLE & METHOD above) — including one unresolved disagreement between two independent subagent passes on whether New Mexico needs its own file or stays combined with Arizona inside `us-desert-southwest.md`. Lowcountry (SC/coastal GA) surfaced as a candidate 13th region but was not independently stress-tested.
+- **RESOLVED (2026-09-24, human decision):** the regional-file list is now final at 13 files (see FILE ROLE & METHOD above) — New Mexico splits out from Arizona into its own `us-new-mexico.md` (the one addition the reviewer accepted from the research). All three research-recommended renames were reviewed and rejected: `us-desert-southwest.md`, `us-gulf-south.md`, and `us-west-coast.md` all keep their original names — the reviewer judged each broader label still fits the actual reach of the food culture involved (e.g., po'boys aren't confined to Louisiana in practice), even though the underlying distinctness evidence behind each file is not in dispute. Lowcountry (SC/coastal GA) remains open, not independently stress-tested — carried as a callout inside `us-south.md` pending its own pass.
 - **No regional files exist yet under either the old or new list.** Every "→ `us-*.md`" pointer in this file is a forward reference. This file is not yet usable end-to-end for any form-changing dish until at least the relevant regional file exists.
 - **New this pass — specific lower-confidence flags carried in from the subagent research** (full detail in each entry above): potato-chip regional-flavor claims (Old Bay/Maryland, Zapp's Cajun) are retail/roundup-sourced, not journalism-tier; dill pickle chips are more a Canadian marker than a US-regional one; the George Crum potato-chip origin story is contested legend, not verified history; kettle corn and sundae-glass-vessel descriptions rely on enthusiast/specialty sourcing; mozzarella sticks' exact inventor attribution (Frank Baker, 1976) traces to a small cluster of similar articles, not a primary source; no snack item this pass turned out to be genuinely form-changing by region (all regional variation found was flavor/brand/prevalence-level) — a real finding, not an oversight; butter chicken/tikka masala's "Americans get it creamier" claim and naan's India-vs-US staple-status inversion are both MEDIUM, food-blog-adjacent sourcing; California roll's exact inventor/city remains genuinely disputed among sources (like the gyro and Reuben cases already in this file); pad thai's ketchup-substitution detail is MEDIUM, no top-tier single source; the academic paper most directly on-point for the New Mexico/Arizona regional-boundary question (Journal of the Southwest, hosted at jsw.arizona.edu) could not be read directly — network egress blocked it, only a search snippet was available, flagged for a follow-up pass with working fetch access.
 - **Sourdough bread's SF/West Coast regional identity** is still asserted from general awareness in the Bread Reference section, not independently sourced — explicitly flagged LOW confidence there.
