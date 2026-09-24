@@ -347,6 +347,37 @@ itself called this "not blocking," and keeping the content accessible while
 no regional file exists is the more useful choice than removing it to
 satisfy the letter of a rule written for a different point in the build.
 
+---
+
+## Schema/criteria document written, 2026-09-24
+
+The user asked, early in the US build, for a reusable list of criteria
+capturing the schema so future countries could start from a template. I said
+I'd write it once the current round (environment section, Gen Z reweighting,
+audit fixes) actually landed, rather than freezing it mid-revision — that
+round is now done, so I wrote
+`knowledge-base/00-methods/country-file-schema.md`.
+
+**Judgment call on scope**: this captures everything actually established
+across both builds — the split-vs-no-split test, the document section order,
+the three-dimension dish schema (cuisine lineage / regional-form-variation
+with the style-map mechanism / serving-format splits), the eight-scenario
+environment structure, the demographic-lens principle the Gen Z round
+introduced, the sourcing/confidence discipline, the human-sign-off and
+subagent-disagreement handling from the regional-list decision, the
+subagent-delegation criteria, and the independent-audit practice from this
+same session. I did not invent new criteria beyond what this project actually
+did and learned — every section traces back to a specific decision or
+correction made earlier in this conversation, cited by what it was (e.g. "a
+finding from this project's own audit") rather than presented as abstract
+best practice.
+
+**Placement**: created a new `knowledge-base/00-methods/` directory rather
+than putting this in the existing `02-culture/regions/` tree, since it's
+process documentation that sits above any one country's content and should
+be the first thing a future country-file build reads, not a peer of
+`uruguay.md`/`us.md`.
+
 Went through the file afterward to catch every other pointer that still used
 old names (`us-gulf-south.md`, `us-west-coast.md`) from before the decision
 was finalized — the Po'boy and Baja fish taco index entries still pointed to
