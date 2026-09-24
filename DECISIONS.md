@@ -1988,3 +1988,54 @@ cross-check once that file exists, not resolved now.
 
 `market-roadmap.md` updated to 8/13 US regional files complete. Next:
 New Mexico, per the standing authorization.
+
+---
+
+## us-new-mexico.md built and merged — ninth US regional file, 2026-09-24
+
+Built from a single dedicated research pass, covering `us.md`'s existing
+New Mexican enchiladas pointer in full authoritative depth and adding
+eight new native dishes/features: Hatch and Chimayó chile (with their
+geographic-designation/certification-mark status, including a real
+2017-settled 10th Circuit trademark dispute), sopapillas, posole, carne
+adovada, green chile stew, the green chile cheeseburger, biscochitos,
+tamales/the tamalada, and Pueblo horno bread.
+
+The research independently re-tested (not assumed) the same kind of
+internal-structure question `us-texas.md` resolved for itself: New
+Mexico has a real, sourced northern (Santa Fe/Taos, blue corn, Chimayó
+chile, older landrace-seed tradition)/southern (Hatch Valley/Las
+Cruces, NMSU chile-breeding economy) gradient. Applying the same test
+Texas used for its own BBQ variation — does this stay within one
+coherent dish family, or does it carry a second whole distinct cuisine
+identity the way Missouri's KC-barbecue/St.-Louis-Italian split did —
+the answer for New Mexico is clearly the former: north and south share
+the same core dish grammar (stacked enchiladas, chile-smothered
+plates, posole, sopapillas, the "red or green?" ritual itself); the
+difference is which chile landrace and which corn color, not a
+different cuisine. **Decision: one file, no internal split**,
+documented via the enchilada entry's own §4.6 variant table and the
+Hatch/Chimayó chile entry, consistent with the Texas precedent.
+
+A second, deliberate scoping decision: Navajo and Apache foodways
+(mutton stew, blue corn mush) were researched enough to confirm they're
+real and distinct, but not given full dish entries, since Navajo/Apache
+territory spans into Arizona and Utah and isn't New-Mexico-exclusive
+the way the 19 Pueblo Nations' horno-bread tradition is — logged as an
+open item for a future dedicated pass, potentially cross-referenced
+with `us-desert-southwest.md` once that file exists. This file also
+carries forward this project's established Indigenous-heritage
+sourcing-discipline precedent (from `us-appalachia.md`): claims about
+Pueblo-specific origins are tagged at the confidence level the
+underlying sourcing (mostly journalism/magazine-tier, not tribally-
+authored or academic) actually supports, not elevated to unearned
+certainty.
+
+New Mexico's Frito pie entry was written to be explicitly consistent
+with, not contradicting, `us-texas.md`'s existing account of that same
+contested TX/NM origin dispute — both states' claims are disclosed
+honestly side by side rather than one file silently overriding the
+other.
+
+`market-roadmap.md` updated to 9/13 US regional files complete. Next:
+Desert Southwest (Arizona), per the standing authorization.
