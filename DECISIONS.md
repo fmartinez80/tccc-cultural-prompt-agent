@@ -2153,3 +2153,122 @@ itself**, not inherited from the scaffold's own guess — same discipline
 as every US regional file this session: research first, then apply the
 swap test, rather than pre-committing to "one file" or "index +
 Scotland" before the evidence is actually checked.
+
+---
+
+## UK file built: first non-US country, index + Scotland file, 2026-09-24
+
+Ran the full WebSearch verification pass over the scaffold at
+`knowledge-base/scratch-uk-model-knowledge-draft.md`, per the plan logged
+above. Roughly 30 WebSearch queries, prioritized per the scaffold's own
+order (every `[UV→LOW]` tag first, then dimensions, then everything
+else). Built `knowledge-base/02-culture/regions/europe/uk.md` (national
+index) and `uk-scotland.md` (Scotland's regional file), following the
+`us-texas.md`/`us-new-mexico.md` structural template. Deleted the scratch
+file, now fully superseded.
+
+**Structural decision: index + one regional file (Scotland), tested
+rather than inherited from either scaffold round.** Round 1 of the
+scaffold recommended no split; round 2 recommended "index +
+`uk-scotland.md`" as one of three options (A/B/C) without deciding among
+them. This pass ran the §1.1 swap test with real evidence and found
+Scotland clears it on three independent axes at once — a distinct dish
+set (haggis/neeps/tatties, Scotch pie, Cullen skink), distinct
+staging-relevant vocabulary ("fish supper," Edinburgh's "salt and sauce"),
+and a genuinely distinct dominant housing type (sandstone tenements with
+a shared "close," confirmed via dedicated architecture sourcing, with no
+English equivalent at all) — a stronger case than most US regional splits
+in this project, which typically clear one or two of these axes, not
+three. Wales was found real but thin at this file's lunch/dinner/snack
+scope (cawl, Welsh rarebit, Welsh cakes are genuine, but don't add up to
+a second everyday dish *set* the way Scotland's does) and got the same
+"callout, not a file" treatment this project already gave Lowcountry
+inside `us-south.md`.
+
+**Northern Ireland's placement was the harder call, and I decided it
+rather than leaving it open — with a genuine piece of new evidence
+driving the decision, not just a coin flip between two plausible
+options.** The scaffold flagged this as a real open question (does NI
+belong with the UK file or a future Ireland file?) and explicitly declined
+to decide it. I searched for TCCC's actual market/bottler structure
+specifically to settle this with something firmer than cultural
+food-evidence alone, and found a concrete, checkable fact: Great Britain
+(England/Scotland/Wales) is bottled and distributed by Coca-Cola
+Europacific Partners GB, while Northern Ireland is served by a *different*
+bottling partner, **Coca-Cola HBC Ireland & Northern Ireland** — a single
+combined all-island operation headquartered in Dublin, with its main
+production site in Lisburn serving both jurisdictions as one market. For
+the one brand this whole knowledge base exists to serve, "the UK market"
+and Northern Ireland are not the same commercial thing. **Decision:** keep
+NI as a compact callout in `uk.md` for now (it's constitutionally UK,
+there's no Ireland file yet to hold it, and its documented dishes are
+real and worth having somewhere), but flag this explicitly, in both
+`uk.md`'s FILE ROLE & METHOD and its Gap Log, as provisional — likely to
+be revisited toward an island-of-Ireland treatment once a future Ireland
+file exists, since the cultural sourcing itself (champ, soda bread
+lineage, the Ulster fry) already reads as closer to the Republic than to
+Great Britain specifically. This is the same kind of named-but-not-fully-
+resolved cross-boundary caveat this project left for the Navajo Nation's
+span across state lines in `us-arizona.md`/`us-new-mexico.md`, rather than
+a forced tidy answer the evidence doesn't actually support yet.
+
+**Tikka masala reconciliation, resolved rather than left as a flagged
+duplicate.** The scaffold correctly noted that `us.md`'s existing chicken
+tikka masala entry documents the Glasgow-vs-Delhi dispute and that the UK
+file might be the more natural home for it. Rather than duplicating the
+dispute in both files, or moving it wholesale out of `us.md` (which would
+leave that file's Indian-American section citing a source it no longer
+owns), I gave `uk-scotland.md` the fuller Glasgow-specific depth (the
+Shish Mahal invention anecdote, Robin Cook's 2001 speech in full) and made
+one narrow, targeted edit to `us.md`'s existing entry: a single added
+sentence cross-referencing `uk-scotland.md` for that depth, with an
+explicit note that the US entry remains authoritative for its own
+purpose (how the dish appears on US menus) and isn't being superseded.
+Did not touch anything else in `us.md`, per the task's explicit
+instruction to keep this narrow.
+
+**Verification outcome, roughly quantified.** Of the scaffold's `[UV→X]`-
+tagged claims: roughly a dozen were confirmed close to as-written (the
+Malin-vs-Lees dispute, the Sephardic fried-fish lineage, cod/haddock
+geography and its spoilage-based mechanism, Cornish pasty PGI/crimp
+direction, Cumberland sausage PGI, Welsh rarebit's definition, cawl's
+composition, champ's construction, the NI pastie/Cornish-pasty confusion
+trap, UK Continental cutlery style, the Scotch egg's genuinely disputed
+origin, and shepherd's-vs-cottage-pie naming); roughly eight specific
+figures were corrected with a real checked source in place of the
+scaffold's guess (both polystyrene-ban dates, the meal-deal origin
+[refined from a single "1985" date to a two-stage 1985/1999 account],
+the ploughman's-lunch marketing mechanism, Bangladeshi restaurant-
+ownership share [upgraded from a MEDIUM guess to a HIGH-confidence,
+multiply-corroborated ~80%+ figure], English housing-stock shares,
+young-adults-at-home and garden-access shares, and balcony-BBQ
+restrictions [upgraded from the scaffold's own explicitly-flagged LOW
+guess to MEDIUM-HIGH]); the 330mL can dimension was corrected using the
+figure already added to `coca-cola-guidelines.md` in the prior round
+(115.2mm, replacing the scaffold's own unverified ~11.5cm estimate); and
+a handful of dish dimensions (Cornish pasty length, pub-pie/pie-and-mash
+sizes, poppadom size) remain this file's own reasonable estimates,
+honestly flagged LOW-MEDIUM in the Gap Log rather than presented as
+checked. **Nothing was found to be flatly wrong and removed outright** —
+the scaffold's own honesty discipline (real, named "sources to check"
+rather than fabricated citations) meant its leads consistently panned out
+in the direction it expected, which is itself worth recording as a
+finding: a well-disciplined, honestly-self-tagged unverified scaffold is
+a genuinely efficient starting point for a verification pass, not
+something that needed a from-scratch restart.
+
+**Scotch pie, haggis/neeps/tatties, and Cullen skink got full new dish
+entries** in `uk-scotland.md` (the scaffold's own "compact, full entries
+in a later pass" deferral), each independently sourced this pass rather
+than expanded from the scaffold's compact bullets — Cullen skink in
+particular wasn't in the scaffold's compact nation-callout list at all
+and was added after research surfaced it as a well-documented, genuinely
+distinct Scottish dish worth a full entry rather than a passing mention.
+
+**Not done, flagged instead**: a dedicated Cornish Pasty Association/
+British Pie Awards dimensional-standards search came up empty this pass
+(no working source found via WebSearch), so those specific dish
+dimensions stay as this file's own reasonable estimates rather than
+locked figures — logged in `uk.md`'s Gap Log as the top remaining §4.5
+item, not silently left unaddressed. Germany and Spain remain not started,
+per `market-roadmap.md`.
