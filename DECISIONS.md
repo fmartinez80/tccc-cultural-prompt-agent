@@ -1489,3 +1489,78 @@ tomato pie, not the same tradition — plus the Capriotti's Bobbie sandwich
 for Delaware). Added the same "typical use note" and quick-reference table
 `us-northeast.md` got after its own calibration, applying that lesson
 forward without being asked again.
+
+---
+
+## us-south.md merged and published, 2026-09-24
+
+All three South passes (Deep South: GA/AL/MS; Carolinas & Lowcountry:
+NC/SC/coastal GA; Tennessee: Nashville/Memphis) landed strong. Merged into
+`knowledge-base/02-culture/regions/usa/us-south.md` as a three-zone file,
+per the structure already anticipated in the Mid-Atlantic merge's own
+decision log. Several structural questions were decided by hand this
+round, using the same authorized judgment as the prior two regional files:
+
+1. **Georgia's split between two zones**: the Deep South pass's Georgia
+   content (peach country, Atlanta-area soul food) and the Carolinas &
+   Lowcountry pass's Georgia content (coastal Georgia's Gullah Geechee
+   foodways) are genuinely different halves of the same state. Decided:
+   coastal Georgia joins the Carolinas & Lowcountry zone's Lowcountry
+   callout; inland/Atlanta-area Georgia stays in the Deep South zone —
+   mirroring the Virginia Tidewater/Piedmont split from the Mid-Atlantic
+   merge above.
+2. **Hoppin' John's cross-zone duplication**: both the Deep South and
+   Carolinas & Lowcountry passes independently drafted full entries. The
+   Carolinas & Lowcountry version is the historically accurate one
+   (Gullah Geechee origin, an 1847 cookbook citation, corroborated by
+   Frederick Law Olmsted's 1861 travelogue) and is kept as the sole full
+   authoritative entry; the Deep South pass's own version — which itself
+   honestly disclosed the dish's true origin lies outside its own zone —
+   is trimmed to a cross-reference rather than duplicated in full. Same
+   resolution pattern as New Haven apizza in `us-northeast.md`.
+3. **Meat-and-three's cross-zone overlap** (Deep South and Tennessee both
+   independently sourced the same 1930s Nashville/May Hosiery Mill
+   origin): not a disagreement, so no trimming was needed — the Tennessee
+   zone carries the fuller origin sourcing, and the Deep South zone's own
+   environment-section coverage now cross-references it instead of
+   re-deriving the same history a second time.
+4. **Nashville-vs-Memphis structure**: the Tennessee pass itself flagged,
+   rather than resolved, whether Nashville and Memphis should be two
+   labeled callouts within one Tennessee zone or split into separate
+   files, noting the split is comparably sharp to the state's own West/
+   Middle Tennessee divide. Decided: kept as one zone with two labeled
+   callouts, per the pass's own recommendation (the two cities read as
+   "two anchor cities each carrying one dominant, non-overlapping
+   signature dish" rather than a broad multi-county cultural region) —
+   flagged as a live question a future pass with more evidence could
+   revisit, not treated as permanently closed.
+5. **Gulf Coast Alabama/Mississippi** (Mobile; Biloxi/Gulfport) was
+   deliberately left out of this file, per the Deep South pass's own
+   scope instructions and its finding that the strip reads culinarily
+   closer to Louisiana Creole/Cajun than to the inland Deep South content
+   documented here — logged as an open boundary question for whoever
+   researches `us-gulf-south.md`, not resolved.
+6. **Kentucky and Arkansas** were left as a fully open question, not a
+   decided inclusion or exclusion — real "Southern BBQ belt" evidence
+   exists for both (Kentucky's Hot Brown sandwich; Arkansas's internally
+   split BBQ sauce styles) but neither was researched in depth, per the
+   Deep South pass's own scope instructions.
+
+All three passes contributed strong new dishes beyond `us.md`'s existing
+pointers (classic fried chicken, Carolina barbecue, Nashville hot chicken,
+Memphis BBQ): Deep South contributed eight new full entries (collard
+greens, skillet cornbread, soul food mac and cheese, Alabama white sauce
+chicken, Georgia peach cobbler, pimento cheese, Mississippi Delta hot
+tamales, plus the trimmed Hoppin' John cross-reference); Carolinas &
+Lowcountry contributed six (SC barbecue hash and rice, shrimp and grits,
+she-crab soup, the full Hoppin' John entry, Charleston/Gullah red rice,
+Frogmore stew/Lowcountry boil); Tennessee contributed six (the Nashville
+hot chicken sandwich sibling and meat-and-three note, Memphis wet ribs,
+Memphis pulled pork sandwich, Memphis BBQ spaghetti, Memphis BBQ nachos).
+Carried forward the "typical use note" and quick-reference table pattern
+from the two prior regional files without being asked again.
+
+Three background research passes (Appalachia; North Florida; South
+Florida/Floribbean) completed while this merge was underway and are
+queued for the next two regional files (`us-appalachia.md`,
+`us-florida.md`), continuing the pipelining rhythm adopted earlier.
