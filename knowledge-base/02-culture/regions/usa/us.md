@@ -27,17 +27,60 @@ toast) are absent and some lower-frequency but iconic ones (Thanksgiving dinner)
 are included. No beverage other than Coca-Cola itself is in scope; this file
 does not catalog other American beverages.
 
-**Working regional-file list (provisional — NOT yet independently validated the
-way Uruguay's sub-region triage was tested against evidence; flag for a real
-validation pass before treating these boundaries as final):**
-`us-northeast.md`, `us-mid-atlantic.md`, `us-south.md`, `us-gulf-south.md`,
-`us-midwest.md`, `us-texas.md`, `us-desert-southwest.md`, `us-west-coast.md`,
-`us-pacific-northwest.md`, `us-hawaii.md`. **None of these have been created
-yet** — this pass produces only `us.md`. Every pointer to a regional file below
-is a forward reference to a file that does not exist yet, not a working link.
-Florida is provisionally folded into `us-south.md`, but the Cuban
-sandwich/Tampa entry below suggests Florida may deserve its own file — flagged,
-not decided.
+**Working regional-file list — SUPERSEDED BY A 2026-09-24 VALIDATION PASS, PENDING HUMAN SIGN-OFF.**
+The original ten-file list (`us-northeast.md`, `us-mid-atlantic.md`,
+`us-south.md`, `us-gulf-south.md`, `us-midwest.md`, `us-texas.md`,
+`us-desert-southwest.md`, `us-west-coast.md`, `us-pacific-northwest.md`,
+`us-hawaii.md`) was a conversational working hypothesis, not a validated
+decision. A dedicated subagent research pass (method: the same "would
+swapping one region's norms into another look visibly wrong" test used in
+Uruguay's SUB-REGION TRIAGE DECISION) confirmed all ten as real categories
+but concluded the list **undercounts** — recommending **12 confirmed
+regions plus 1 open question**:
+
+- **Add** `us-appalachia.md` (its omission from the working list appears to
+  have been a mistake — real, causally-distinct cuisine: no cane sugar in
+  mountain climates → sorghum/honey sweeteners instead of cane sugar; no
+  coastline → game/freshwater fish instead of rice/seafood; a documented
+  ~75% Scots-Irish settlement pattern distinct from the Deep South's
+  plantation economy) [CONFIDENCE: MEDIUM-HIGH]
+- **Add** `us-florida.md`, splitting it back OUT of `us-south.md` (Florida
+  has its own documented "Floribbean" fusion identity and a real internal
+  North/South Florida split; the Cuban sandwich entry above is itself the
+  sharpest evidence — it has documented Tampa/Ybor City vs. Miami vs. Key
+  West sub-variants that a generic `us-south.md` entry would flatten)
+  [CONFIDENCE: MEDIUM-HIGH]
+- **Rename** `us-gulf-south.md` → `us-louisiana.md` (the actual evidence
+  supports Louisiana Creole/Cajun specifically, not the broader, vaguer
+  multi-state "Gulf Coast" label) [CONFIDENCE: HIGH on distinctness, MEDIUM
+  on the exact name]
+- **Rename** `us-west-coast.md` → `us-california.md` (no source treats
+  "West Coast" as one coherent identity once Pacific Northwest is already
+  split out; what's left is California cuisine specifically) [CONFIDENCE: MEDIUM-HIGH]
+- **Open question, not resolved**: `us-lowcountry.md` (South Carolina/coastal
+  Georgia — rice, she-crab soup, shrimp and grits, Gullah influence) surfaced
+  incidentally as a candidate 13th region but was not independently
+  stress-tested with the same rigor as the five questions above — needs its
+  own dedicated pass before a file/no-file decision.
+- **Unresolved disagreement between two subagent research passes, flagged
+  rather than silently resolved:** the regional-validation pass recommends
+  keeping New Mexico *inside* `us-desert-southwest.md` as an internal
+  sub-style alongside Arizona/Sonoran content (the same one-file/multiple-
+  named-sub-styles pattern already used for BBQ, pizza, and hot dogs).
+  A separate, independent research pass done specifically on New Mexican
+  chile/enchilada culture (see the Enchiladas entry above) concluded the
+  opposite — that New Mexican cuisine is distinct enough from Arizona/Sonoran
+  content to warrant its own `us-new-mexico.md` file. Both passes cite real,
+  credible sources for their respective conclusions. **This is a genuine,
+  unresolved disagreement, not a settled recommendation — do not treat
+  either conclusion as final without a human decision.**
+
+**No regional files have been created yet under either the old or the new
+list** — this pass produces only `us.md`. Every "→ `us-*.md`" pointer above
+is a forward reference to a file that does not exist yet. **The renames and
+additions above are a research recommendation awaiting explicit human
+sign-off before the working list is formally changed** — pointers elsewhere
+in this file still use the original ten-file names pending that decision.
 
 ## SCHEMA NOTE — three independent dimensions (new convention, meant to be reusable beyond the US)
 
@@ -212,6 +255,18 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Confidence: HIGH for Tex-Mex and Baja; MEDIUM for birria's US regional placement
 - Sources: [Cookwisdom — Baja vs Tex-Mex](https://cookwisdom.blog/baja-mexican-food-vs-tex-mex); [Wikipedia: Birria](https://en.wikipedia.org/wiki/Birria)
 
+##### Dish: Enchiladas (national index entry — form-changing, see regional files for full depth)
+- Category: Everyday to special-occasion (New Mexico's enchilada is arguably that state's single most foundational dish, on par with the fajita's role in Tex-Mex)
+- Cuisine lineage: Mexican-American, with two genuinely distinct, independently-evolved US sub-traditions that share a name and a Mexican ancestor but not a common US form
+- Regional form variation: **Form-changing — one of the clearest cases in this file, on the same order as pizza and hot dogs.**
+  - **New Mexican** (→ proposed `us-new-mexico.md` — **not yet on the working regional-file list; see FILE ROLE & METHOD note on the 2026-09-24 regional-validation pass**): stacked, not rolled — corn tortillas (often blue corn in northern NM) lightly fried/softened, dipped in red or green chile sauce, layered flat like a stack of pancakes with onion, cheese, and shredded chicken/beef between layers, smothered in more sauce, traditionally crowned with a fried egg. Sauce color is a real cultural fork — green (more southern NM) and red (more northern NM) chile are both legitimate, and ordering both is "Christmas," New Mexico's official state question being literally "Red or Green?" (the only state question of any US state). [CONFIDENCE: HIGH]
+  - **Tex-Mex** (→ `us-texas.md`): rolled, not stacked — corn tortillas rolled around a filling (classically yellow cheese and onion, beef also common), lined seam-side-down in a baking dish, covered in a roux-based "chili gravy" (flour-and-fat roux with chili powder and beef broth — not a fresh chile-pod sauce, not tomato-based) reading as a uniform matte reddish-brown, finished with melted shredded yellow cheese (cheddar or cheddar/Jack) on top. [CONFIDENCE: HIGH]
+- Serving format: Plate in both traditions — no handheld sibling for either
+- Visual/plating characteristics: **Sauce color/consistency and tortilla handling (rolled vs. stacked) are the primary, checkable visual differentiators — the same logic already established for BBQ sauce in this file.** New Mexican red chile: thin, matte, earthy brick-red, made from dried ground chile pods, not a roux. New Mexican green chile: bright yellowish-green, chunky (visible roasted chile flesh, not puréed). "Christmas": both sauces visible on the same plate at once — a distinctive two-tone presentation unique to this style. New Mexican stacking gives a flat, layered, lasagna-like cross-section when cut, topped with a fried egg (no Tex-Mex equivalent). Tex-Mex chili gravy is a single, uniform, glossy reddish-brown sauce blanketing tightly-rolled tortillas under a solid melted-cheese layer — the most "smothered/uniform" look of the two, vs. New Mexican's visibly layered, deconstructed look. These two silhouettes are not interchangeable; depicting one as the other is a real, visible authenticity error. [CONFIDENCE: HIGH]
+- Sub-note — Hatch chile: "Hatch chile" is a geographic designation, not just a variety name (sources compare it to Champagne or Vidalia onions) — it refers specifically to New Mexico-pod-type chiles grown in the Hatch Valley of southern NM; peppers from Hatch seed stock grown elsewhere are properly "Hatch-style," not "Hatch," a distinction that has been litigated. A brief specifying "Hatch chile" by name is making a narrower geographic claim than "New Mexico chile" or "green chile" generically. [CONFIDENCE: MEDIUM-HIGH]
+- Confidence: HIGH overall — corroborated by the Smithsonian Institution/Folklife Festival, Wikipedia, a dedicated culinary school, New Mexico's official tourism authority, and Texas food journalism (Texas Monthly, Homesick Texan); the blue-corn-harder-to-roll causal detail and the exact "Christmas"-naming origin story are the two specific sub-claims at a lower (MEDIUM) evidentiary tier, flagged individually below.
+- Sources: [Smithsonian Folklife Festival — Red or Green?](https://festival.si.edu/blog/red-or-green-the-chile-pepper-and-the-makings-of-new-mexico); [Wikipedia: New Mexican cuisine](https://en.wikipedia.org/wiki/New_Mexican_cuisine); [Wikipedia: New Mexico chile](https://en.wikipedia.org/wiki/New_Mexico_chile); [Santa Fe School of Cooking — Tex-Mex vs New Mexican](https://santafeschoolofcooking.com/the-difference-between-tex-mex-and-new-mexican-cuisine/); [New Mexico True](https://www.newmexico.org/things-to-do/cuisine/iconic-chile/); [Santa Fe New Mexican — coining of "Christmas"](https://www.santafenewmexican.com/news/local_news/longtime-tia-sophias-waitress-remembered-for-coining-christmas-for-red-and-green-chiles/article_930c604c-a13f-11ef-a8e8-870d85f3f4f9.html); [Texas Monthly — Cheese Enchiladas](https://www.texasmonthly.com/food/cheese-enchiladas/); [Homesick Texan — Essence of Tex-Mex](https://www.homesicktexan.com/essence-of-tex-mex/); [Chowhound — Hatch Chiles](https://www.chowhound.com/1660397/why-are-hatch-chiles-grown-in-new-mexico/)
+
 #### Chili
 
 ##### Dish: Chili (national index entry — form-changing, see regional files for full depth)
@@ -350,6 +405,198 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Confidence: MEDIUM-HIGH for the dish list; MEDIUM for the specific visual details, which are inferred from preparation description rather than a dedicated visual source
 - Sources: [NBC News — Data Reveals Most Popular Chinese Dish in America](https://www.nbcnews.com/news/amp/ncna299576); [Wikipedia: Orange chicken](https://en.wikipedia.org/wiki/Orange_chicken)
 
+#### Indian-American
+
+##### Dish: Butter chicken / Chicken tikka masala (the two-headed "gateway curry")
+- Category: Everyday to special-occasion (the default order for a first-time or casual Indian-restaurant visit)
+- Cuisine lineage: **Indian-American, with an important wrinkle — chicken tikka masala's own origin is itself disputed and possibly not Indian at all.** Multiple sources credit its invention to Ali Ahmed Aslam, a Pakistani-Scottish chef, at the Shish Mahal restaurant in Glasgow, Scotland, in the 1970s (he reportedly improvised a tomato-and-cream sauce from canned tomato soup and spices after a customer complained his chicken was too dry); it was declared "Britain's true national dish" by UK Foreign Secretary Robin Cook in 2001. A competing claim (from the Moti Mahal restaurant family) places a similar dish in Delhi as early as 1947, derived from butter chicken (murgh makhani), which is more confidently Delhi-originated, circa the 1950s. On American menus this distinction is invisible — both dishes are sold side by side as ordinary "Indian food." [CONFIDENCE: HIGH for the dispute existing and being genuinely unresolved; MEDIUM for which specific account is correct] [SOURCE: [Wikipedia: Chicken tikka masala](https://en.wikipedia.org/wiki/Chicken_tikka_masala); [CNN — Inventor of the UK's "true national dish" dies at 77](https://www.cnn.com/travel/article/ali-ahmed-aslam-chicken-tikka-masala-glasgow); [Britannica: Chicken tikka masala](https://www.britannica.com/topic/chicken-tikka-masala)]
+- Regional form variation: Not form-changing — nationally uniform preparation; see Regional prevalence note below for restaurant-density variation
+- Serving format: Plate/bowl — a curry course, always with rice and/or naan, never handheld
+- Primary protein: Butter chicken — tandoor-roasted, yogurt-marinated chicken in a tomato-butter-cream sauce; chicken tikka masala — near-identical on many US menus, often coded slightly spicier/more orange-red
+- Visual/plating characteristics: Thick, glossy, orange-to-brick-red sauce with visible cream/butter sheen; chunky (not shredded) chicken pieces; served in a metal or ceramic bowl/karahi with basmati rice and naan alongside. A claim that US versions run creamier/sweeter than versions in India is plausible but only LOW-MEDIUM sourced (food-blog tier, not a rigorous comparison) — flag for review. [SOURCE: [Savory Spice — Behind the Seasoning: Butter Chicken](https://www.savoryspiceshop.com/blogs/news/behind-the-seasoning-butter-chicken)]
+- Confidence: HIGH that these are the most iconic/ordered "curry" items on US Indian menus; MEDIUM-LOW on the specific creaminess/sweetness delta
+- Sources: [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/); [Wikipedia: Chicken tikka masala](https://en.wikipedia.org/wiki/Chicken_tikka_masala); [Mashed — The Untold Truth Of Chicken Tikka Masala](https://www.mashed.com/818775/the-untold-truth-of-chicken-tikka-masala/)
+
+##### Dish: Naan (plain and garlic naan)
+- Category: Everyday — near-mandatory add-on to any Indian meal in the US
+- Cuisine lineage: Indian-American, with a genuinely important authenticity inversion (the mirror image of the Chinese-American and spaghetti-and-meatballs framing elsewhere in this file): **in India, naan is a restaurant/special-occasion bread**, requiring a tandoor most households don't have; the actual everyday staple is whole-wheat roti/chapati. In the US, naan (especially garlic naan) is the default, near-universal restaurant bread, while roti/chapati is comparatively rare on US menus. [CONFIDENCE: MEDIUM — consistent across several food-explainer sources, but no single heavyweight institutional citation found] [SOURCE: [Britannica: Naan](https://www.britannica.com/topic/naan); [Flavor of India — What Is Naan?](https://flavorofindia.com/what-is-naan-bread/)]
+- Regional form variation: None identified — nationally uniform
+- Serving format: Shared table bread, torn by hand, used to scoop curry
+- Visual/plating characteristics: Plain naan — teardrop-shaped, pillowy, charred blistered spots from the tandoor wall, brushed with ghee. Garlic naan — same base, visibly flecked with chopped garlic and cilantro, glossier from butter. Served warm, folded/stacked in a small basket or bread plate.
+- Confidence: HIGH for the visual description and near-mandatory-order status; MEDIUM for the India-vs-US staple-status inversion
+- Sources: [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/)
+
+##### Dish: Samosas
+- Category: Everyday (appetizer/starter)
+- Cuisine lineage: Indian-American, though the samosa has pre-Indian Central Asian/Middle Eastern ancestry — not a point of confusion on US menus
+- Regional form variation: None identified — nationally uniform
+- Serving format: Plate (appetizer, always shared, never a main)
+- Primary composition: Deep-fried pastry triangle filled with spiced potato and pea (vegetarian is the default/most common on US menus)
+- Visual/plating characteristics: Triangular, deep-fried golden-brown, blistered, flaky-crisp exterior; pale yellow-beige spiced potato-pea filling visible when cut. Almost always served with two dipping sauces — dark tamarind chutney and bright green cilantro-mint chutney.
+- Confidence: HIGH
+- Sources: [Saveur — Classic Indian Samosa](https://www.saveur.com/article/Recipes/Classic-Indian-Samosa/); [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/)
+
+##### Dish: Biryani
+- Category: Everyday to special-occasion
+- Cuisine lineage: Indian-American — real internal regional variation exists inside India (Hyderabadi, Lucknowi, etc.) but is generally flattened into one generic "chicken/vegetable biryani" line item on US menus
+- Regional form variation: Not confirmed as form-changing within the US specifically — presumed to read as a single generic form on most US menus; flag for review
+- Serving format: Plate/bowl, a rice-forward one-dish meal
+- Visual/plating characteristics: Mounded, layered rice — basmati visibly streaked/marbled with saffron or turmeric (patchy yellow-orange next to plain white, not evenly colored, when made with traditional "dum" layering), studded with meat/vegetable pieces, caramelized fried onion, and whole spices (cinnamon stick, cardamom pods, bay leaf) visible on top; garnished with cilantro, sometimes a hard-boiled egg wedge or side of yogurt raita.
+- Confidence: MEDIUM — corroborated as a top-ordered dish across multiple sources, but no single authoritative ordering-data source the way the Chinese-American entry has GrubHub data
+- Sources: [Wikipedia: Biryani](https://en.wikipedia.org/wiki/Biryani); [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/)
+
+##### Regional prevalence note — Indian-American (prevalence-only, no regional-file pointer needed)
+Indian restaurants and Indian-American population concentrate measurably by state/metro rather than spreading evenly — the dish forms don't change, but how "expected" a scene featuring Indian food reads does, by location:
+- Indian restaurants concentrate most heavily in California (~17% of a sampled national total), Texas (~11%), and New York (~8%). [CONFIDENCE: MEDIUM — single restaurant-database analysis] [SOURCE: [American Bazaar](https://americanbazaaronline.com/2023/05/24/indian-restaurants-among-most-underrepresented-asian-cuisines-in-us-453675/)]
+- New Jersey has the highest *proportional* Indian-origin population of any state (~4.6%); Jersey City's "India Square" is described as the highest concentration of Asian Indians in the Western Hemisphere, and the wider NYC metro contains at least 24 distinct "Little India" enclaves. [CONFIDENCE: HIGH] [SOURCE: [Wikipedia: India Square](https://en.wikipedia.org/wiki/India_Square); [Wikipedia: Indians in the New York metropolitan area](https://en.wikipedia.org/wiki/Indians_in_the_New_York_metropolitan_area)]
+- The five states with the largest Indian-American populations overall: California, New York, Texas, New Jersey, Washington. [CONFIDENCE: MEDIUM] [SOURCE: [NRI to USA](https://www.nritousa.com/indian-population-in-usa)]
+- Practical implication: an Indian food scene reads as most "expected" in a coastal-metro, NJ/NY-corridor, or major-Texas-city setting, and slightly more notable/less default in a small-town Midwest or rural-South setting — though nothing found suggests it's implausible anywhere, only less concentrated.
+
+#### Sushi/Japanese-American
+
+##### Dish: California roll — the American-invented anchor dish
+- Category: Everyday (the default, low-risk order for a first-time/casual sushi diner)
+- Cuisine lineage: **The clearest case in this cuisine group of an authentic American invention, not a lower-fidelity copy of Japanese cuisine** — directly parallel to spaghetti-and-meatballs elsewhere in this file. It does not exist in any traditional Japanese repertoire being imperfectly replicated; the invented version *is* the authentic form for an American context.
+- Origin details: Most commonly credited to chef Ichiro Mashita at Tokyo Kaikan restaurant, Little Tokyo, Los Angeles, late 1960s/1970s — substituting avocado for tuna (mimicking toro's fattiness/texture) and adding cooked crab to sidestep raw-fish squeamishness. A competing, well-documented claim credits Vancouver chef Hidekazu Tojo with independently inventing an inside-out version in the early 1970s specifically to hide the nori that American/Canadian diners were peeling off. Both exact inventor and city are genuinely disputed — treat as unresolved, the same way this file already handles the gyro and Reuben origin disputes. [CONFIDENCE: HIGH that it's a late-1960s/70s North American invention designed to Americanize sushi; LOW-MEDIUM on the specific originator] [SOURCE: [Wikipedia: California roll](https://en.wikipedia.org/wiki/California_roll); [Today.com](https://www.today.com/food/news/california-roll-rcna154759); [Tasting Table](https://www.tastingtable.com/1814558/who-invented-california-roll-sushi-history/)]
+- Regional form variation: None identified — nationally uniform, sold identically coast to coast, including grocery stores
+- Serving format: Plate (sushi platter/tray), typically cut into 6-8 pieces
+- Visual/plating characteristics: **Inside-out roll (uramaki)** — rice forms the visible outer surface (often coated in roe or sesame seeds), nori wrapped invisibly on the inside, reversing traditional Japanese maki construction. Cross-section shows pale green-white avocado, pink-white crab, and pale green cucumber in distinct bands. Often finished with orange-pink "spicy mayo" drizzle or orange tobiko for a bright, photogenic contrast against the white rice.
+- Confidence: HIGH for the structural description and mainstreaming role; MEDIUM for the exact invention story
+- Sources: [Wikipedia: California roll](https://en.wikipedia.org/wiki/California_roll); [History.com](https://www.history.com/articles/sushi-america-first-restaurant-california-rolls); [Britannica: California roll](https://www.britannica.com/topic/California-roll)
+
+##### Dish/context: Everyday "strip-mall" and grocery-store sushi (vs. omakase)
+- Category: Everyday — a context/format note as much as a dish entry, since it materially changes what a plausible "American sushi" scene looks like
+- Cuisine lineage: Japanese-American, but a distinct, casual register from high-end Japanese dining — the two should not be visually conflated
+- Regional form variation: None identified — both the casual-restaurant and grocery-store formats are nationally ubiquitous
+- Serving format: Plate/tray (dine-in) or clear plastic clamshell (takeout/grocery)
+- Visual/plating characteristics: Casual/strip-mall sushi restaurants and grocery-store sushi counters are ubiquitous and visually distinct from omakase — commonly anchor/secondary tenants in ordinary strip malls, menu dominated by cooked-and-invented rolls (California, spicy tuna, rainbow, dragon) rather than nigiri/sashimi-forward presentation. Prepackaged supermarket sushi became widespread from the mid-1980s (Advanced Fresh Concepts, founded 1986, credited with pioneering nationwide distribution) and is sold in clear plastic clamshells, pre-cut, refrigerated, with a small packet of soy sauce/wasabi/pickled ginger — the visual and contextual opposite of an omakase tasting-menu presentation (minimal decoration, fish-forward). A "casual/everyday" sushi brief should reference this register, not omakase.
+- Confidence: HIGH for the ubiquity/casual-vs-omakase distinction; MEDIUM for the specific 1986/Advanced Fresh Concepts detail (single source)
+- Sources: [TASTE — How America Warmed Up to Cold Grocery-Store Sushi](https://tastecooking.com/america-warmed-cold-grocery-store-sushi/); [History.com](https://www.history.com/articles/sushi-america-first-restaurant-california-rolls); [Smithsonian — Sushi Collection](https://americanhistory.si.edu/collections/object-groups/sushi-collection)
+
+#### Thai-American
+
+##### Dish: Pad Thai
+- Category: Everyday — the default, most commonly ordered Thai dish in the US
+- Cuisine lineage: Thai-American — **not an ancient or traditional Thai dish**; created and deliberately promoted by the Thai government in the 1930s-40s under PM Plaek Phibunsongkhram as a nation-building/rice-shortage campaign, with a standardized recipe distributed to street vendors nationwide. [CONFIDENCE: HIGH] [SOURCE: [Smithsonian Magazine](https://www.smithsonianmag.com/travel/the-surprising-history-of-pad-thai-180984625/); [Mental Floss](https://www.mentalfloss.com/article/650530/pad-thai-food-history)]
+- Popularity data: Grubhub's "2022 Delivered" order-volume report ranked pad thai the **#4 most-delivered dish in the entire US that year across all cuisines** — behind only burritos, cheeseburgers, and cheese pizza, ahead of chicken quesadillas, California rolls, and chicken tikka masala. [CONFIDENCE: HIGH — large-scale order-volume data, not independently cross-checked against a second platform] [SOURCE: [The Takeout](https://www.thetakeout.com/grubhub-top-orders-most-delivered-foods-of-2022-1849894763/)]
+- Regional form variation: None identified — nationally uniform; see prevalence note below
+- Serving format: Plate — stir-fried noodle entrée, not a soup or curry
+- Primary composition: Flat rice noodles, egg, protein (chicken/shrimp/tofu are standard US choices), bean sprouts, scallion, sweet-sour-salty sauce
+- Visual/plating characteristics: Warm brownish-orange to reddish-orange noodles; garnished with a lime wedge, crushed peanuts on top, and a small pile of raw bean sprouts on the side rather than fully mixed in. **Sourced Americanization detail**: mainstream US pad thai often uses ketchup in place of or alongside traditional tamarind paste, producing a more saturated red-orange color and simpler sweetness than the more sour-forward, less-red traditional tamarind-and-palm-sugar version — directly analogous to the spaghetti-and-meatballs/Chinese-American framing elsewhere in this file, though here it's a documented deviation rather than a wholesale invention. [CONFIDENCE: MEDIUM — corroborated across multiple food-writing sources, no single high-authority source found this pass]
+- Confidence: HIGH for ordering prominence and government-campaign origin; MEDIUM for the ketchup/color detail
+- Sources: [Smithsonian Magazine](https://www.smithsonianmag.com/travel/the-surprising-history-of-pad-thai-180984625/); [The Takeout](https://www.thetakeout.com/grubhub-top-orders-most-delivered-foods-of-2022-1849894763/); [Mental Floss](https://www.mentalfloss.com/article/650530/pad-thai-food-history)
+
+##### Regional prevalence note — Thai-American (prevalence-only, no regional-file pointer needed)
+- Thai cuisine is frequently cited as one of the most popular Asian cuisines in the US and specifically associated with **on-premise (sit-down) dining**, as opposed to Chinese/Mexican food's stronger takeout association. [CONFIDENCE: MEDIUM — corroborated via secondary reporting citing NRA/Pew data; primary NRA study not directly read] [SOURCE: [Restaurant Business Online](https://www.restaurantbusinessonline.com/americans-embracing-global-flavors-menus-study-finds); [Pew Research Center](https://www.pewresearch.org/short-reads/2023/05/23/71-of-asian-restaurants-in-the-u-s-serve-chinese-japanese-or-thai-food/)]
+- Los Angeles has the only official city-designated Thai neighborhood in the US ("Thai Town," East Hollywood, designated 1999) and the largest Thai population outside Thailand (~80,000) — the clearest geographic concentration point, making a Thai-food scene read as most "expected" in a Southern California setting specifically. [CONFIDENCE: HIGH] [SOURCE: [USC Libraries — Thai Town](https://libraries.usc.edu/sites/default/files/111022_thai_town_rg.pdf)]
+- Outside that LA concentration, no source found suggests Thai food is regionally restricted elsewhere — the national #4 Grubhub ranking implies broad nationwide demand, not a coastal-only phenomenon.
+
+#### Snacks
+
+##### Dish: Potato chips (bagged/packaged)
+- Category: Everyday snack — arguably the single most nationally ubiquitous packaged snack food
+- Cuisine lineage: Native-American-tradition (contested founding legend — see below)
+- Regional form variation: Prevalence-only, with a genuine caveat — the base product is nationally uniform in form, but real regional brand/flavor loyalty exists: **Utz "Chesapeake Old Bay" crab-seasoned chips** (Mid-Atlantic/Maryland-associated); **dill pickle-flavored chips** (sold in the US but sources are explicit this is more a Canadian regional identity marker than an American one — do not caption as a US region's signature); **Zapp's (Louisiana)** Cajun-spiced flavors tied to Gulf South cuisine. This whole sub-bullet set is thinner-sourced (retail/roundup-article level) than the hot dog/BBQ/pizza regional cases and should be flagged MEDIUM, not HIGH. [CONFIDENCE: MEDIUM]
+- Serving format: Snack, eaten directly from the bag or decanted into a bowl for a party/gathering — no plated "meal" format
+- Serving vessel: The bag itself (shiny foil-laminate, crinkled texture) for casual/on-the-go consumption; a bowl for shared contexts
+- Visual/plating characteristics: **Classic/standard chips** are thin, flat-to-slightly-curled, pale golden-yellow, smooth-surfaced, uniform. **Kettle-cooked chips** are visually distinct — thicker, more curled/irregular (batch-fried, not continuous-line), duller matte deeper-golden surface, visible air bubbles/blistering and salt crystals clinging to ridges. Ridged/waffle-cut chips are a third distinct sub-style (thick, deeply corrugated, sturdy for dip). Getting kettle-style texture on a "classic" chip (or vice versa) is a checkable authenticity error.
+- Confidence: HIGH for basic ubiquity/format; MEDIUM for regional flavor-variant claims; LOW/contested for the origin legend
+- Origin note: The popular "George Crum invented the potato chip at Saratoga Springs in 1853" story is widely repeated, but historians have found no solid evidence for the specific anecdote, and a competing claimant (Catherine Wicks) and an even earlier 1849 reference exist — treat as popular legend, not verified history.
+- Sources: [Daily Meal — Regional Potato Chip Brands](https://www.thedailymeal.com/1875228/regional-potato-chip-brands-to-buy/); [Wikipedia: Dill pickle chips](https://en.wikipedia.org/wiki/Dill_pickle_chips); [History.com — Who Invented the Potato Chip?](https://www.history.com/articles/who-invented-potato-chip-saratoga); [JSTOR Daily — The Invented Potato Chip Myth](https://daily.jstor.org/story-invention-potato-chip-myth)
+
+##### Dish: Movie theater popcorn
+- Category: Everyday/occasion snack — tied specifically to the cinema-going environment, not a home-food item
+- Cuisine lineage: Native-American-tradition
+- Regional form variation: None identified — nationally uniform; the meaningful variation here is venue/context, not geography
+- Serving format: Snack, sold/eaten exclusively in a concession-stand context — the setting (lit concession counter, dark auditorium) is as diagnostic as the food
+- Serving vessel: **A tall, wide-mouthed, red-and-white vertically striped paper/cardboard tub** is the classic, iconic vessel — not a bowl, not solid-color packaging. A plain (non-striped) rectangular box was the pre-1950s norm; modern chains increasingly use novelty/collectible plastic buckets tied to film releases (a real, current, but secondary trend). [CONFIDENCE: HIGH for the striped-tub default]
+- Visual/plating characteristics: Loosely, generously overfilled above the rim (not level-filled); kernels visibly glossy/wet from butter or "buttery topping," yellow-tinted sheen; fine white salt specks visible.
+- Confidence: HIGH — the striped tub and concession context are well-documented and give one of the most checkable visual authenticity markers in this snack set
+- Historical note: Popcorn was actually banned from many respectable theaters in the silent-film/early-talkie era (1910s-late 1920s) as downmarket/messy; theater owners reversed course during the Depression (early-mid 1930s) when popcorn sales kept struggling theaters afloat. [CONFIDENCE: HIGH]
+- Sources: [Laughing Squid — History of Popcorn at Movie Theaters](https://laughingsquid.com/history-of-popcorn-at-movie-theaters/); [History.com — How Popcorn Became the Ultimate Movie Snack](https://www.history.com/articles/why-popcorn-is-movie-snack); [TIME — Novelty Popcorn Bucket Took Over Movies in 2024](https://time.com/7177639/novelty-popcorn-buckets-movie-theaters/)
+
+##### Dish: Home popcorn (stovetop/microwave)
+- Category: Everyday snack — a distinct visual/contextual sibling to movie theater popcorn, same base food, different serving context
+- Cuisine lineage: Native-American-tradition — home popcorn dates to 18th-19th century colonial households, popped in pans/wire baskets, sometimes molasses-sweetened. [CONFIDENCE: MEDIUM]
+- Regional form variation: None identified — nationally uniform
+- Serving format: Snack, home context
+- Serving vessel: A plain household bowl (stovetop) or the **microwave bag itself, torn open and served from** — a flat-bottomed, expanded, printed paper bag, visually distinct from both the movie tub and a stovetop bowl. Microwave popcorn became mass-market from the late 1970s-80s (Pillsbury vending version ~1974, General Mills patent 1981, Act II shelf-stable bag 1984). [CONFIDENCE: HIGH for the timeline]
+- Visual/plating characteristics: Similar kernel appearance to theater popcorn but a more matte, less uniformly glossy coating, served in smaller, level-filled, unpiled portions — this bowl-vs-tub, modest-vs-overfilled contrast is the main marker separating "home" from "movie theater" popcorn scenes.
+- Confidence: MEDIUM-HIGH for the historical timeline; MEDIUM for the specific visual contrast (partly inferred)
+- Sources: [Mashed — Microwave Popcorn vs. Stovetop Popcorn](https://www.mashed.com/1524540/microwave-popcorn-vs-stovetop-popcorn-guide/); [Wikipedia: Pop Secret](https://en.wikipedia.org/wiki/Pop_Secret)
+
+##### Dish: Kettle corn
+- Category: Occasion/venue-specific snack — fair, festival, and carnival culture
+- Cuisine lineage: Native-American-tradition, explicit European (German/Dutch) immigrant origin
+- Regional form variation: Prevalence/venue-coded, not geographically regional — tied to an *event type* (state/county fairs, festivals, carnivals) nationally, not one US region. Roots trace to Pennsylvania Dutch communities in the early 19th century, fell out of common use through most of the 20th century, then had a documented revival at fairs/living-history events starting in the early 21st century. [CONFIDENCE: MEDIUM — consistent but mostly food-blog-tier sourcing]
+- Serving format: Snack, sold in large clear plastic bags from a fair/festival vendor stall with a visible kettle as part of the point-of-sale spectacle
+- Visual/plating characteristics: Shiny, semi-translucent sugar-glazed coating (sugar cooked into the kernel during popping, not dusted after) giving a light caramel-tinted sheen, distinct from movie/home popcorn's matte butter-salt finish; often mixed with some unpopped/caramelized kernel clusters; sold from large (traditionally copper) kettles visible to the customer.
+- Confidence: MEDIUM
+- Sources: [Wikipedia: Kettle corn](https://en.wikipedia.org/wiki/Kettle_corn); [Daily Meal — Kettle Corn's Origin Story](https://www.thedailymeal.com/1563492/origin-story-kettle-corn/)
+
+##### Dish: Soft pretzel
+- Category: Everyday snack, strongly city/street-vendor and mall-food-court coded
+- Cuisine lineage: German/Pennsylvania-Dutch-American — arrived with German-speaking ("Deutsch," anglicized "Dutch") immigrants settling Pennsylvania from the 18th century; the pretzel shape itself is older, tracing to European monastic bread traditions. [CONFIDENCE: HIGH]
+- Regional form variation: Prevalence/origin-coded, not fully form-changing — core shape/prep is nationally consistent, but Philadelphia/Pennsylvania has a well-documented specific claim (a street vendor, Daniel Christopher Kleiss, documented selling soft pretzels in Philadelphia as early as the 1820s; German-immigrant bakeries proliferated there through the 1800s). Sold nationally today, but Philadelphia is the most authentic staging context if a brief specifies that city. [CONFIDENCE: HIGH]
+- Serving format: Snack/handheld — no plated form
+- Serving vessel: Typically none — held directly, or on wax paper from a street cart/mall kiosk
+- Visual/plating characteristics: Classic symmetrical twisted-loop shape; glossy, deep golden-brown surface from a baking-soda or lye bath before baking (distinct from a plain baked-bread surface); coarse, unevenly-scattered salt crystals (not fine table salt); soft, dense, chewy interior. Standard dip in the Philadelphia/Mid-Atlantic tradition is yellow mustard.
+- Confidence: HIGH
+- Sources: [Encyclopedia of Greater Philadelphia — Pretzels](https://philadelphiaencyclopedia.org/essays/pretzels/); [Tasting Table — How the Philly Soft Pretzel Became a Unique Icon](https://www.tastingtable.com/995172/how-the-philly-soft-pretzel-became-a-unique-icon-of-the-city/)
+
+##### Dish: Hard pretzel (bagged)
+- Category: Everyday snack — a separate, nationally-distributed packaged category from the soft pretzel above, despite sharing an origin dough
+- Cuisine lineage: Native-American-tradition, specifically a **Pennsylvania invention**: legend holds a baker's apprentice over-baked a batch by accident; Julius Sturgis opened the first dedicated pretzel bakery in Lititz, PA in 1861, deliberately developing a harder, lower-moisture, shelf-stable pretzel (soft pretzels stale quickly and don't ship). [CONFIDENCE: HIGH]
+- Regional form variation: Prevalence, strongly skewed but not exclusive — roughly 80% of US-made pretzels are still manufactured in Pennsylvania, but the finished product is sold/eaten nationally with no regional restriction. [CONFIDENCE: HIGH]
+- Serving format: Snack, eaten from a bag — the genuinely form-changing sibling to the soft pretzel: same dough lineage, completely different visual object
+- Serving vessel: Printed plastic bag (grocery-aisle), or a small bowl at a bar
+- Visual/plating characteristics: Small, dense, uniformly dark golden-brown, hard and matte-surfaced (not glossy like the soft pretzel), dry brittle cracker-like texture, visible fine salt crystals; typically a smaller, tightly-wound twist, or rods/sticks/nuggets — much smaller and more uniform/mass-produced-looking than the large, irregular, hand-twisted soft pretzel.
+- Confidence: HIGH
+- Sources: [The Conversation — How the Pretzel Went from Soft to Hard](https://theconversation.com/how-the-pretzel-went-from-soft-to-hard-and-other-little-known-facts-about-one-of-the-worlds-favorite-snacks-95409); [PA Eats — PA Food Icons: Pretzels](https://www.paeats.org/feature/pa-food-icons-pretzels/)
+
+##### Dish: Chips and dip (guacamole; sour-cream-based dip) — snack context
+- Category: Everyday/party snack — a **snack-context item, distinct from the meal-context nachos entry** (nachos are a shared restaurant/bar appetizer with melted cheese; chips-and-dip is cold, room-temperature, party/couch food with no melted cheese)
+- Cuisine lineage: Mixed — tortilla-chip-and-guacamole is Mexican-American in lineage; potato-chip-and-sour-cream dip ("French onion"/"California dip") is a Native-American-tradition, a 1950s invention
+- Regional form variation: None identified — nationally uniform; more an *occasion* item (parties, Super Bowl gatherings, potlucks, movie nights) than a regionally-varying dish
+- Serving format: Snack, always shared/communal
+- Primary components: Triangular fried corn tortilla chips (shape popularized commercially by Rebecca Webb Carranza, 1940s Los Angeles, reportedly repurposing misshapen tortillas) with mashed-avocado guacamole; or potato/corn chips with a sour-cream-and-dry-onion-soup-mix dip (a Los Angeles home cook's 1954 combination, printed on Lipton soup-mix boxes by 1958 and TV-promoted, becoming "California Dip"). [CONFIDENCE: HIGH for both origin claims]
+- Serving vessel: A wide shallow bowl, or a dedicated two-part chip-and-dip tray (a servingware category that emerged alongside this snack's 1950s popularity) — chips arranged around a central dip bowl for hand-to-mouth dipping
+- Visual/plating characteristics: Guacamole — pale-to-medium green, visibly chunky (not puréed), often garnished with lime wedge/cilantro/diced tomato. Sour-cream dip — off-white/cream, thick enough to hold a dip-mark, visibly flecked with dried onion. Chips — triangular, pale golden, lightly char-speckled (tortilla) or standard potato-chip appearance.
+- Confidence: HIGH for both product-origin stories; MEDIUM for the "no regional variation" claim (asserted from absence of contrary evidence)
+- Sources: [Wikipedia: Tortilla chips](https://en.wikipedia.org/wiki/Tortilla_chips); [Wikipedia: French onion dip](https://en.wikipedia.org/wiki/French_onion_dip); [Daily Meal — You Can Thank Lipton for Chips and Dip](https://www.thedailymeal.com/1680744/lipton-invented-chips-and-dip-history/)
+
+##### Dish: Mozzarella sticks
+- Category: Everyday snack/appetizer — casual dining and bar-food staple, not home-cooking-first
+- Cuisine lineage: **American, despite the Italian-sounding name and cheese** — most likely developed by a Wisconsin cheesemaker (commonly credited to Frank Baker, 1976) as mass-produced mozzarella and practical deep-frying converged — the same "not from the cuisine its name implies" pattern flagged for spaghetti-and-meatballs and Chinese-American takeout elsewhere in this file. [CONFIDENCE: MEDIUM-HIGH — the specific "Frank Baker, 1976" attribution traces to a small cluster of similar articles, not a primary source]
+- Regional form variation: None identified — nationally uniform
+- Serving format: Snack/appetizer, plated for shared table service (TGI Fridays and Applebee's specifically credited with popularizing it on national chain menus in the 1980s) — no sandwich/handheld sibling
+- Primary composition: Mozzarella cut into thick sticks, breaded (often double-breaded, seasoned breadcrumbs or panko), deep-fried
+- Serving vessel: A plate or small basket, sticks fanned/rowed, with a separate small ramekin of marinara (occasionally ranch) for dipping
+- Visual/plating characteristics: Uniform cylindrical sticks, deep golden-brown, crisp breadcrumb exterior, with a defining **visible "cheese pull"** — molten interior cheese stretches into long strings when broken or bitten rather than breaking cleanly. This stretch effect is the single most diagnostic visual trait.
+- Confidence: HIGH for composition/cheese-pull signature; MEDIUM for the exact origin attribution
+- Sources: [The Takeout — The Origin of Mozzarella Sticks](https://www.thetakeout.com/1736727/origin-mozzarella-sticks-explained/); [U.S. Dairy — Who Invented Mozzarella Sticks?](https://www.usdairy.com/news-articles/the-long-history-of-the-mozzarella-stick)
+
+##### Dish: Ice cream sundae (soda fountain culture)
+- Category: Special-occasion to everyday dessert/snack — strong historical tie to American soda-fountain culture
+- Cuisine lineage: Native-American-tradition
+- Regional form variation: Contested origin, not form-changing — the dish's physical form is nationally uniform, but its "birthplace" is a genuine multi-town dispute (structurally similar to the gyro/Reuben disputes elsewhere in this file), primarily between **Two Rivers, Wisconsin** (Edward Berner's soda fountain, 1881, working around a "blue law" restricting Sunday soda sales) and **Ithaca, New York** (Chester Platt's soda fountain, 1892, earliest documented print use of "Sunday"/"sundae" as the dessert's name). [CONFIDENCE: HIGH that both claims are real/documented; unresolvable as to which is "first" — treat as an open dispute]
+- Serving format: Snack/dessert, always assembled and served on the spot — no packaged/handheld sibling
+- Serving vessel: **A tall, footed, tulip-shaped glass ("sundae glass")** is the classic vessel — distinct from a plain bowl or flat plate; serving in an ordinary cereal bowl would read as visually off for a "classic soda fountain" staging. A boat-shaped dish is a secondary, still-authentic vessel for multi-scoop/banana-split-style versions. [CONFIDENCE: MEDIUM — consistent description, but no top-tier source specifically on the glassware]
+- Visual/plating characteristics: One or more scoops (vanilla is the traditional base), topped with warm liquid sauce (chocolate or cherry syrup originally), a swirl of whipped cream, and a single stemmed maraschino cherry centered on top — this whipped-cream-plus-single-cherry topping is the single most identifiable, non-negotiable visual signature. Multi-scoop versions show sauce visibly pooling/dripping down the glass.
+- Confidence: HIGH for composition/visual signature; MEDIUM for the glass-vessel description; LOW/contested for the specific origin town
+- Context note (informational, not a beverage-catalog entry): American soda fountains originated in early-to-mid-1800s pharmacies; Coca-Cola itself was invented by pharmacist John Pemberton and first served at Jacob's Pharmacy's soda fountain in Atlanta in 1886 — meaning the ice-cream-sundae-at-a-soda-fountain scene and Coca-Cola's own origin scene are historically the same venue type (a drugstore soda-fountain counter), useful staging context even though Coca-Cola itself stays outside this file's dish catalog. [CONFIDENCE: HIGH]
+- Sources: [Wikipedia: Sundae](https://en.wikipedia.org/wiki/Sundae); [Cornell Alumni Magazine — The Straight Scoop on the Origins of the Ice Cream Sundae](https://alumni.cornell.edu/cornellians/earle-sundae/); [Food & Drink Life — 2 Towns Have Been Fighting Over Who Invented the Ice Cream Sundae](https://fooddrinklife.com/who-invented-the-ice-cream-sundae/)
+
+##### Dish: Candy bar / chocolate snack
+- Category: Everyday snack — kept brief; the notable content here is environmental/context-of-consumption rather than visual complexity of the object itself
+- Cuisine lineage: Native-American-tradition — the multi-ingredient molded candy bar format is a genuinely American commercial invention. Milton Hershey, inspired by German chocolate-making machinery seen at the 1893 World's Columbian Exposition, developed the first US mass-production chocolate process by 1899 and launched the Hershey's Milk Chocolate Bar in 1900, marketed as "The Great American Chocolate Bar." [CONFIDENCE: HIGH]
+- Regional form variation: None identified — nationally uniform, mass-produced, branded
+- Serving format: Snack, individually wrapped, eaten by hand
+- Visual/plating characteristics: A rectangular, individually wrapped, segmented (score-lined) molded chocolate bar is the default generic visual; specific national brands have highly recognizable standardized wrapper/bar designs — this file does not catalog individual brand packaging.
+- Environment/context cues (as relevant to staging as the object itself): **Movie theater concessions** — sold at the same lobby counter as popcorn, often a lit glass-front case, added specifically to capture impulse purchases before showtime from the mid-20th century. **Vending machines** — a top-selling vending category nationally, dispensed via coin/card-operated glass-front machines with a spiral coil. **Checkout aisle** — a standard, deliberately-placed impulse item at eye/hand level beside the register, a distinct retail cue from a snack-aisle shelf. **Wartime symbolism** — candy bars (especially Hershey) became an internationally recognized symbol of American soldiers/liberation during and after WWII, sometimes used as informal currency — historical association only, not a current staging concern. [CONFIDENCE: MEDIUM for all environment cues — industry/trade and popular-history sourcing tier, not deep journalism]
+- Confidence: HIGH for Hershey/candy-bar origin history; MEDIUM for environment/context cues
+- Sources: [History.com — Why the Candy Bar Market Exploded After World War I](https://www.history.com/articles/wwi-1920s-chocolate-candy-boom); [American Heritage — Land of the Candy Bar](https://www.americanheritage.com/land-candy-bar)
+
 #### Special-occasion (included despite the lunch/dinner/snack framing, per explicit direction)
 
 ##### Dish: Thanksgiving dinner
@@ -374,22 +621,23 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 
 ## GAP LOG
 
-- **Not yet researched this pass**: Indian food in the US (butter chicken/naan tier), sushi/California roll, pad Thai, and the broader Tier 2/3 global-cuisine ladder items discussed in conversation but not yet built into this file.
-- **Snacks are entirely unresearched this pass** despite being explicitly in scope (lunch/dinner/**snacks**) — potato chips, popcorn, pretzels, chips-and-dip, mozzarella sticks, ice cream/soda-fountain sundae, candy. This is a real, acknowledged gap, not an oversight being hidden — flagged for the next research pass.
-- **New Mexican vs. Tex-Mex enchiladas/chile** (red vs. green chile as a Desert Southwest-specific identity marker, distinct from Tex-Mex) was identified in conversation as a likely form-changing case but not researched this pass.
-- **Environment/staging-scenes section does not exist yet in this file.** The six-scenario Uruguay-style treatment (casual lunch at home 1/2/3 people, dinner at home, outdoor meal at home, on-the-go, away-from-home 1 vs. 2-3 people) was explicitly confirmed as in-scope for the US but has not been started. Given confirmed US car/drive-thru culture, I'd expect the "on-the-go" scenario in particular to look like close to the opposite finding from Uruguay's "grab-and-go barely exists" — a hypothesis to confirm, not yet checked.
-- **The ten-region working list itself has not been validated** the way Uruguay's single-file conclusion was tested against evidence — it's a carried-over working hypothesis from conversation, not a researched triage decision. Florida's file placement is specifically flagged as unresolved.
-- **No regional files exist yet.** Every "→ `us-*.md`" pointer in this file points to a file that has not been created. This file is not yet usable end-to-end for any dish flagged form-changing until at least the relevant regional file exists.
-- **Sourdough bread's SF/West Coast regional identity** is asserted from general awareness in the Bread Reference section, not independently sourced this pass — explicitly flagged LOW confidence there.
-- **BLT and turkey club** entries are thin (MEDIUM confidence, not independently sourced beyond common knowledge) — deprioritized in favor of the more clearly form-changing/high-value entries this pass.
+- **RESOLVED this pass (2026-09-24, via four parallel subagent research passes)**: Snacks (9 entries added), Tier 2 global cuisine (Indian-American, Sushi/Japanese-American, Thai-American added), New Mexican vs. Tex-Mex enchiladas/chile (added as a form-changing index entry), and a full regional-boundary validation pass (see FILE ROLE & METHOD above). Each is subject to the specific lower-confidence flags listed below, but the categories themselves are no longer unresearched.
+- **Environment/staging-scenes section still does not exist in this file.** The six-scenario Uruguay-style treatment (casual lunch at home 1/2/3 people, dinner at home, outdoor meal at home, on-the-go, away-from-home 1 vs. 2-3 people) remains confirmed in-scope but not started. Given confirmed US car/drive-thru culture, I'd expect the "on-the-go" scenario to look close to the opposite of Uruguay's "grab-and-go barely exists" finding — a hypothesis to confirm, not yet checked.
+- **The regional-file list has a validated recommendation but no human sign-off yet** (see FILE ROLE & METHOD above) — including one unresolved disagreement between two independent subagent passes on whether New Mexico needs its own file or stays combined with Arizona inside `us-desert-southwest.md`. Lowcountry (SC/coastal GA) surfaced as a candidate 13th region but was not independently stress-tested.
+- **No regional files exist yet under either the old or new list.** Every "→ `us-*.md`" pointer in this file is a forward reference. This file is not yet usable end-to-end for any form-changing dish until at least the relevant regional file exists.
+- **New this pass — specific lower-confidence flags carried in from the subagent research** (full detail in each entry above): potato-chip regional-flavor claims (Old Bay/Maryland, Zapp's Cajun) are retail/roundup-sourced, not journalism-tier; dill pickle chips are more a Canadian marker than a US-regional one; the George Crum potato-chip origin story is contested legend, not verified history; kettle corn and sundae-glass-vessel descriptions rely on enthusiast/specialty sourcing; mozzarella sticks' exact inventor attribution (Frank Baker, 1976) traces to a small cluster of similar articles, not a primary source; no snack item this pass turned out to be genuinely form-changing by region (all regional variation found was flavor/brand/prevalence-level) — a real finding, not an oversight; butter chicken/tikka masala's "Americans get it creamier" claim and naan's India-vs-US staple-status inversion are both MEDIUM, food-blog-adjacent sourcing; California roll's exact inventor/city remains genuinely disputed among sources (like the gyro and Reuben cases already in this file); pad thai's ketchup-substitution detail is MEDIUM, no top-tier single source; the academic paper most directly on-point for the New Mexico/Arizona regional-boundary question (Journal of the Southwest, hosted at jsw.arizona.edu) could not be read directly — network egress blocked it, only a search snippet was available, flagged for a follow-up pass with working fetch access.
+- **Sourdough bread's SF/West Coast regional identity** is still asserted from general awareness in the Bread Reference section, not independently sourced — explicitly flagged LOW confidence there.
+- **BLT and turkey club** entries remain thin (MEDIUM confidence, not independently sourced beyond common knowledge).
+- **WebFetch access to Wikipedia, Smithsonian, and other primary-source pages was blocked by network egress restrictions across all four subagent passes**, consistent with the main session's own experience — every subagent relied on WebSearch result snippets rather than a full direct page read. Flagged as a genuine depth limitation in this environment, not a fabrication risk (snippets were used conservatively and cited, not invented).
 
 ## CANDIDATE QUEUE
 
-For the next research pass, roughly in priority order: snacks (potato chips, popcorn, pretzels, ice cream/soda fountain, candy — genuinely unresearched despite being in scope), Indian-American and other Tier 2 global-cuisine entries, New Mexican green/red chile and enchilada style, the environment/staging-scenes section, and validation research on the ten-region boundary list before any regional file is started in earnest.
+For the next research pass, roughly in priority order: (1) human sign-off on the recommended 12-region list and the New Mexico/Desert-Southwest disagreement — this blocks starting any regional file; (2) the environment/staging-scenes section (six scenarios, not yet started); (3) a dedicated Lowcountry stress-test pass; (4) the jsw.arizona.edu Journal of the Southwest paper on Southwestern cuisine geography, if fetchable in a future session; (5) stronger sourcing passes on the specific MEDIUM/LOW items flagged in the Gap Log above (potato chip regional flavors, NRA's primary ethnic-cuisine dine-in/takeout study, mozzarella sticks' exact origin); (6) once the region list is confirmed, building out the actual regional files, starting with whichever region the next real staging brief needs first.
 
 ## RESEARCH LOG
 
-- **Total sources consulted:** ~20 search queries this pass, yielding approximately 35-40 unique sources cited above.
+- **2026-09-24 subagent research round**: four parallel subagent passes were run — (1) Snacks, (2) Tier 2 global cuisine (Indian/Sushi/Thai), (3) New Mexican vs. Tex-Mex chile, (4) regional-boundary validation. Combined, these added roughly 90+ additional cited sources and ~90 tool-uses across the four agents. Each agent's full sourcing/gaps list is preserved in its own scratch draft (not merged verbatim to keep this log readable) at `/tmp/.../scratchpad/us-snacks-draft.md`, `us-tier2-cuisine-draft.md`, `us-newmexican-chile-draft.md`, and `us-regional-validation-report.md` respectively — the specific per-entry confidence tags and sources were merged into the dish entries and FILE ROLE & METHOD section above; the raw drafts are not part of the KB but are retained as a paper trail. Notable upgrade in sourcing tier this round: the regional-validation pass drew on the American Association of Geographers, Texas State Historical Association, Southern Foodways Alliance, and major regional newsrooms (Seattle Times, Austin American-Statesman) — a stronger institutional/academic tier than most of this file's first-pass sourcing.
+- **Total sources consulted:** ~20 search queries in the initial pass, plus ~90 across the four 2026-09-24 subagent passes; approximately 125-130 unique sources cited across the file as a whole.
 - **Sources used and their general type:**
   - Encyclopedic/reference: Wikipedia — New York-style bagel, Chicken parmesan, Spaghetti and meatballs, Reuben sandwich, Pastrami on rye, Cincinnati chili, Birria, Gyros, Orange chicken, New Haven-style pizza, St. Louis-style pizza, Hot dog variations, Prince's Hot Chicken Shack
   - Long-form food journalism/history: Smithsonian Magazine, National Geographic, CNBC, Food Republic, Tasting Table, Taste of Home, Atlas Obscura, Mental Floss, Food52

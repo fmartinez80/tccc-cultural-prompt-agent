@@ -103,6 +103,67 @@ reading the first draft:
 
 ---
 
+## US knowledge base — subagent research round, 2026-09-24
+
+After building `us.md`'s first pass directly, the user authorized delegating
+four remaining Candidate Queue items to parallel background subagents
+(snacks; Tier 2 global cuisine; New Mexican vs. Tex-Mex chile; regional-
+boundary validation), explicitly confirming they should run together and
+that I should continue through to a merged result rather than checking in
+after each one.
+
+**Judgment calls:**
+
+1. **Each subagent was told to write to its own scratch file, never to edit
+   `us.md` directly.** With four agents running concurrently against the
+   same target file, letting them all edit it directly risked silent
+   overwrites/conflicts. Merging sequentially myself, after reading each
+   draft, meant every addition went through the same review I'd apply to my
+   own work before landing in the canonical file.
+
+2. **Two of the four agents disagreed with each other, and I surfaced the
+   disagreement rather than picking a side.** The regional-boundary
+   validation agent recommended keeping New Mexico combined with Arizona
+   inside `us-desert-southwest.md` (as internal named sub-styles, the same
+   pattern already used for BBQ/pizza/hot dogs). The New Mexican chile agent,
+   working independently and citing different converging evidence (separate
+   Wikipedia categories, a specialist culinary school framing the comparison
+   as "Tex-Mex vs. New Mexican" not "vs. Desert Southwest," Arizona's Sonoran
+   style being explicitly described as its own distinct thing), recommended
+   splitting New Mexico into its own file. Both cite real, credible sources.
+   I did not adjudicate this myself — it's exactly the kind of structural
+   call the user should make, not something to resolve by picking whichever
+   agent sounded more confident. Flagged explicitly, in the file itself and
+   here, as unresolved.
+
+3. **The regional-validation finding is bigger than a routine addition, so I
+   did not silently apply it.** It recommends growing the region list from
+   10 to 12 (adding Appalachia and Florida, renaming two files) — a real
+   change to the project's structure, not a dish-level correction. I'd told
+   the user earlier I'd surface anything that "changes the plan materially"
+   rather than fold it in silently, so I marked the entire working-list
+   section in `us.md` as "SUPERSEDED BY A VALIDATION PASS, PENDING HUMAN
+   SIGN-OFF" and left the original ten-file pointers in place elsewhere in
+   the document until that sign-off happens, rather than unilaterally
+   renaming files that don't exist yet or changing pointers throughout the
+   document based on a recommendation alone.
+
+4. **Trusted but verified each agent's output before merging** — read every
+   scratch draft in full rather than merging on the strength of the agent's
+   own summary. All four held to the sourcing discipline I'd specified
+   (real citations, honest confidence tags, explicit "not confirmed" flags,
+   no invented sources) closely enough that I did not need to reject or
+   substantially rewrite any section, only integrate them and adjust
+   surrounding cross-references (Gap Log, Candidate Queue, Research Log).
+
+5. **Kept the four raw scratch drafts out of the actual knowledge-base tree**
+   (they remain in the session's scratchpad directory, not the repo) — only
+   the merged, reviewed content was committed. Noted their scratch paths in
+   `us.md`'s own Research Log as a paper trail in case the fuller
+   per-source detail in any one draft is needed later.
+
+---
+
 ## Uruguay pilot — visual/plating + bread-specificity pass, 2026-09-21
 
 The user asked two things: (1) whether the file should specify plating and
