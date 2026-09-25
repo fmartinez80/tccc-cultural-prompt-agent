@@ -1871,6 +1871,10 @@ copyrighted design.
 
 ## GAP LOG
 
+- **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
+  expected in the coming days**, per the orchestrating session. Hold off on
+  further WebSearch effort toward the pack-dimension gaps below until it
+  lands; see `coca-cola-guidelines.md`'s own front-matter flag.
 - **Germany-specific Coca-Cola pack dimensions beyond the 330mL can remain
   largely unconfirmed** — the 0.2L and 0.33L glass contour bottles and the
   1.0L returnable format are carried from the draft's own estimates, not

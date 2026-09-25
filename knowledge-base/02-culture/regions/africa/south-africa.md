@@ -1709,6 +1709,10 @@ the Gap Log below.
 
 ## GAP LOG
 
+- **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
+  expected in the coming days**, per the orchestrating session. Hold off on
+  further WebSearch effort toward the pack-dimension gap below until it
+  lands; see `coca-cola-guidelines.md`'s own front-matter flag.
 - **South Africa's exact TCCC pack dimensions remain partly unconfirmed.**
   This pass confirmed that 300 mL and 330 mL cans, a 440 mL can, and
   500 mL/1.25 L returnable glass bottles are all real, current SA formats

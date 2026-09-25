@@ -13,6 +13,15 @@ to build and use those cultural files and holds general, subject-agnostic
 image-generation findings — this file holds everything specific to getting
 the product itself right, so it doesn't need re-discovering per country.
 
+> **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
+> expected in the coming days.** Every pack dimension in §3 and §4.3 below
+> is currently sourced from public packaging data (Wikipedia, retail
+> listings, trade press), not TCCC's own specs — treat all of it as
+> provisional. Don't spend further effort verifying, refining, or
+> per-market-sourcing these figures until the drop lands; a full
+> replacement pass over §3/§4.3 (and the pack-dimension gaps flagged in the
+> Germany, Spain, and South Africa country files) is expected once it does.
+
 ---
 
 ## 1. Confirmed findings on generated brand fidelity
@@ -79,6 +88,9 @@ shaped, positioned, and lit can (see §3) is still the right generation
 target; only the logo/text rendering itself is untrustworthy.
 
 ## 3. Physical specifications — scale-anchor reference for prompts
+
+> **PENDING UPDATE** — see the front-matter note above; these figures are
+> provisional pending an authoritative TCCC spec drop.
 
 Use this section directly when writing a prompt; don't re-derive these
 numbers per country file or leave scale to the model's judgment. This is
@@ -149,6 +161,10 @@ holds supporting dishes, bread, and clustered condiments; layer 3
 (background) holds a second place setting and any additional elements.
 
 ### 4.3 Coca-Cola product dimensions
+
+> **PENDING UPDATE** — see the front-matter note above; every dimension in
+> this section (including the Spain-specific glass-bottle figures) is
+> provisional pending an authoritative TCCC spec drop.
 
 **Single-serve formats:**
 

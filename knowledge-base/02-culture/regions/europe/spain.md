@@ -1451,6 +1451,10 @@ level, since none of these surfaced as contested or surprising.*
 
 ## GAP LOG
 
+- **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
+  expected in the coming days**, per the orchestrating session. Hold off on
+  further WebSearch effort toward the 237mL-bottle gap below until it
+  lands; see `coca-cola-guidelines.md`'s own front-matter flag.
 - **Cachopo's exact size, gazpacho's exact serving-glass size, and the
   237mL Coca-Cola bottle's exact dimensions all remain genuinely
   unconfirmed to a single figure** after a dedicated search this pass —
