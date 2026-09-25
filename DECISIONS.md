@@ -2859,3 +2859,223 @@ table against all 13 files, confirming no broken `→ us-*.md` references,
 and deciding whether `us-hawaii.md` and `us-pacific-northwest.md` warrant
 new thin pointers from `us.md`, which currently has none into either),
 followed by image testing.
+
+---
+
+## South Africa file built: fourth country, WebSearch verification pass over a three-pass model-knowledge scaffold with two deliberate, user-driven design departures, 2026-09-25
+
+**Context.** As with the UK, Germany, and Spain, the user ran a parallel
+effort on a separate, tool-less Claude session to draft the South Africa
+file from model knowledge only, across **three internal revision passes**
+within that session (an initial scaffold, a hero-product generalization,
+and a beverages/missing-dish/scale-audit pass), producing
+`knowledge-base/scratch-south-africa-model-knowledge-draft.md`: an
+explicitly self-tagged `[UV→tier]`/`[EDITORIAL]` scaffold — five internal
+zones plus four cross-cutting settlement registers, a HERO PRODUCT SLOT
+template, a fully-documented ICONIC BEVERAGES section with hard no-alcohol
+staging rules, a texture lexicon, cross-cutting registers for markets/
+beverage-moments/festivals, and a Scale Coverage Audit table claiming 100%
+scale coverage across ~95 dishes — with a 32-item verification checklist.
+This session ran the real WebSearch verification pass and built the
+canonical `knowledge-base/02-culture/regions/africa/south-africa.md`, in a
+new `africa/` region directory.
+
+**Two major design departures were the user's own explicit, deliberate
+decisions, made before this pass began, and were preserved exactly rather
+than treated as this pass's own design choice or relitigated:**
+
+1. **The "hero product" generalization.** Unlike the UK/Germany/Spain
+   files, which default every scene to "the classic red Coca-Cola can,"
+   this file was deliberately redesigned around a **HERO PRODUCT SLOT**:
+   the hero beverage in any scene is whichever TCCC brand/format a brief
+   specifies — brand, variant, format, and negated lookalikes filled in
+   per brief, never a hardcoded default. This is a genuine generalization
+   of the same underlying finding `coca-cola-guidelines.md` §1 already
+   documents (an unspecified "Coca-Cola can" rendered as the wrong variant
+   in 2 of 3 test generations) — the lesson was always "name the exact
+   product and negate the lookalike," not "always use the red can"; this
+   file's slot mechanism applies that lesson to the full TCCC portfolio
+   instead of one SKU. **This pass verified what it could about the
+   mechanism's consistency with `coca-cola-guidelines.md`** (confirmed
+   consistent — that file's own §1–2 findings support, without
+   contradicting, the generalization) **and about South Africa's actual
+   local pack formats and brand portfolio** (see the scale-anchor findings
+   below), but did **not** revert the framing to a default red can, and
+   did **not** back-port the hero-product-slot design to the UK, Germany,
+   or Spain files — both of those are separate, already-flagged future
+   decisions the orchestrating session is explicitly holding off on, per
+   its own instruction for this task.
+2. **Iconic beverages documented, not blocked.** The file records the full
+   South African drinks landscape — the TCCC local portfolio, non-alcoholic
+   staples (rooibos, mageu, amasi, rock shandy), and alcohol pairings
+   (brandy-and-Coke, umqombothi, tavern quarts) — as real cultural context,
+   while a hard staging rule keeps alcohol out of every generated scene and
+   forbids ever showing a TCCC product as a mixer. This directly answers
+   the user's own explicit request, made mid-build in the alt session, to
+   "keep information about iconic beverages... without blocking the
+   available information" while still excluding alcohol from staged
+   scenes. **This pass's own contribution here was narrow and additive**:
+   it found and cited The Coca-Cola Company's own current, public
+   **Responsible Marketing Policy** and **Responsible Alcohol Marketing
+   Policy** (coca-colacompany.com) to ground the rule in real TCCC policy
+   rather than only editorial judgment — the same grounding this project
+   already established for `germany.md`'s alcohol-exclusion rule — and
+   flagged umqombothi's additional ceremonial/ancestral-libation
+   significance as a reason to treat it as even less stageable than a
+   generic alcohol exclusion would already require. The document-everything/
+   stage-nothing-alcoholic structure itself is preserved exactly as the
+   user designed it, not redesigned by this pass.
+
+**The settlement-register structural question was flagged by the scaffold
+itself as needing human sign-off, and this pass deliberately did not
+resolve it — a different kind of open question than an ordinary
+one-file-vs-split call.** The scaffold recommends one `south-africa.md`
+with five geographic zones (Western Cape, KwaZulu-Natal, Gauteng &
+Highveld, Eastern Cape, Interior & North) plus four cross-cutting
+**settlement registers** (suburban, township, urban-flat, rural/farm) as
+the primary axis for staging environment scenes, on the finding that a
+township street and a walled suburban house differ more visually than two
+provinces do. **The one-file/five-zone structural call itself was treated
+as an ordinary, already-precedented decision** (this project's Germany and
+Spain files already established the single-file-with-internal-zones
+pattern, and the scaffold's own swap-test evidence for it — a mostly
+nationally-uniform food core with a handful of genuinely zone-coded
+serving formats, handled via §4.6 disclosure — was found consistent on
+inspection) **and was not re-litigated.** The settlement-register framing
+specifically is a different matter: the scaffold itself states it "touches
+race, class and apartheid spatial history; framing is an editorial and
+brand decision," and this pass agrees and did not resolve it. **The four
+registers are kept in the file, described factually, with an explicit
+PENDING HUMAN SIGN-OFF flag in both the front matter and the FILE ROLE &
+METHOD section**, per the orchestrating session's own explicit instruction
+not to relitigate this one. This is a deliberately different treatment
+from the ordinary "one file vs. split" cuisine questions this project has
+resolved unilaterally elsewhere (Texas, Arizona, Hawaii, Pacific
+Northwest) — this one stays open specifically because of its social/
+political sensitivity, not because the underlying research question is
+unusually hard.
+
+**The seven gaps the orchestrating session identified were the primary
+reason for this task, and all seven were addressed:**
+
+1. **Trinchado** — previously named twice (a summary table and a
+   restaurant-scenario mention) with no actual catalog entry. Added a full
+   entry: cubed beef (or chicken/chicken-liver) in a garlicky chilli/
+   paprika-and-red-wine sauce, sourced to two independent culinary-history
+   sources that specifically note the dish is **not found in Portugal
+   itself** — a genuinely South African-Portuguese invention, originally
+   made from off-cut restaurant meat. Full texture, serving, and scale
+   detail added, matching the file's existing prego-roll/LM-prawns entries'
+   quality bar.
+2. **Denningvleis** — previously named only in the Western Cape zone
+   callout list, with no entry in section F. Added a full entry: a Cape
+   Malay tamarind-and-spice lamb/mutton stew, with its Javanese
+   etymological origin (*dendeng*, water-buffalo meat, substituted locally
+   with lamb) sourced to two independent culinary-history sources, plus
+   texture, sauce colour, and scale detail distinguishing it from the
+   neighbouring bredie entry.
+3. **Ostrich meat** — previously absent entirely. Added as **both** a new
+   dish entry (ostrich steak, in section A alongside the existing beef
+   steaks — a distinct animal with a distinct, leaner, less-marbled visual
+   profile, not a beef variant) **and** an explicit §4.6 coexisting variant
+   of the existing biltong entry (ostrich biltong), grounded in Oudtshoorn/
+   Klein Karoo's real, sourced status as the world's dominant ostrich-
+   farming and -processing region.
+4. **Game biltong (springbok, kudu)** — previously silently absent from an
+   entry that only covered beef. Added as an explicit §4.6 coexisting
+   variant of the biltong entry, not a silent merge, with real sourcing
+   confirming it is darker and leaner than beef biltong, with a
+   distinctly softer cut edge (kudu specifically).
+5. **"Russian and chips"** — previously only a kota filling ingredient.
+   Added as its own full entry near the existing slap-chips/fish-and-chips
+   entry, confirming it as a genuine standalone fish-and-chip-shop/spaza
+   order, with the Russian sausage's own real composition and naming
+   sourced (a South African polony-style sausage with no actual Russian
+   origin, closest internationally to a Slovenian kransky).
+6. **West Coast mussels** — added, not skipped, given research budget held
+   up: a full entry alongside the existing crayfish entry, sourced to
+   Saldanha Bay's real, documented status as South Africa's sole mussel-
+   farming region, with a mussel-pot (white wine, garlic, bread-for-
+   dipping) preparation style corroborated across multiple current South
+   African recipe sources. The exact serving-portion dimension was not
+   independently sourced and is flagged LOW, using the vessel-fallback
+   method instead.
+7. **Koeksister categorization** — the Afrikaner koeksister entry sits in
+   section F ("Cape Malay, Western Cape") for direct comparison with the
+   similarly-named Cape Malay koesister, but is a nationwide Afrikaner
+   tradition, not Western-Cape-specific. Added a clarifying cross-reference
+   note directly in the entry, plus matching one-line notes in the Gauteng
+   & Highveld and Interior & North zone callouts, rather than moving the
+   entry — consistent with the task's own suggested resolution.
+
+**Verification outcome, roughly quantified.** Roughly 30 WebSearch queries
+across this pass, prioritized per the task's own order — TCCC pack
+formats/portfolio first, then the seven gaps, then the biggest cultural/
+factual claims, then a spot-check sample of other dish dimensions:
+- **~20 claims confirmed largely as the scaffold described**: bunny chow's
+  disputed origin (sharpened to three specific named competing accounts),
+  the Durban-vs-Cape-Malay curry colour/heat distinction, Cape Malay
+  breyani's lentils as the key distinguishing ingredient from biryani,
+  the three pap forms (stywe/krummel-phutu/slap), kota's construction and
+  history, Heritage Day/Braai Day's 1995/2005 dual origin, umqombothi's
+  clay-pot (ukhamba) serving and ceremonial role, brandy-and-Coke's
+  "unofficial national cocktail" status, rock shandy's three-ingredient
+  composition, the Sunday "seven colours" plate's real, widely-documented
+  status, the potjie's numbered-size system, the 700g standard loaf
+  weight, and the koeksister-vs-koesister shape/spicing/coconut
+  distinction.
+- **~6 corrected with a real figure or fact in place of the scaffold's
+  guess**: the Gatsby's everyday length (corrected from the scaffold's
+  45–60cm — apparently anchored to novelty/record examples — down to
+  ~30cm/1ft or somewhat more for the standard product); **Iron Brew's
+  status corrected from a standalone local brand to one of Sparletta's
+  four flavours** (confirmed directly on Coca-Cola South Africa's own
+  Sparletta brand page); South Africa's returnable-glass assumption
+  corrected from a generic 330mL contour bottle to the real, current
+  500mL and 1.25L glass line (with the 2L returnable format confirmed as
+  PET, not glass); the melktert tart-tin range widened to 20–26cm; and the
+  TCCC local portfolio expanded to include Schweppes and Monster Energy,
+  which the scaffold's own portfolio note had omitted.
+- **A genuinely new finding not on the scaffold's own checklist**: TCCC's
+  public Responsible Marketing and Responsible Alcohol Marketing policies,
+  found and cited to ground the file's no-alcohol staging rule in real
+  company policy (the same grounding already established for `germany.md`)
+  rather than editorial judgment alone.
+- **Several items honestly left unconfirmed rather than guessed**: the
+  exact SA-bottler dimensions for the newly-confirmed 300mL/440mL cans and
+  500mL/1.25L glass bottles (a generic, non-SA-specific industry figure is
+  used as a placeholder for the 300mL can only); Minute Maid's current SA
+  availability; a plausible but unsourced causal link between the 300mL
+  can's 2018 introduction and South Africa's Health Promotion Levy (sugar
+  tax), explicitly flagged as this pass's own inference rather than a
+  sourced fact; ostrich biltong's specific visual texture (inferred by
+  analogy to ostrich steak's leanness, not independently sourced); and
+  West Coast mussels' exact standard-portion dimension.
+- **One flagged "schema conflict" resolved as a non-conflict, not a fix**:
+  the scaffold's own note that its "fork left, knife right" real-world
+  etiquette claim conflicted with `tableware-composition-reference.md`
+  §2's "fork/knife always right side" instruction was examined and found
+  to describe two different things (real-world place-setting etiquette vs.
+  a photo-composition framing convention for where the utensil cluster
+  sits in the frame) — resolved by explanation, not by overriding either
+  document.
+
+**No claims were found to be flatly wrong and removed outright** — every
+correction above is a refinement or a genuine new addition, the same
+pattern this project's UK, Spain, and Germany passes each recorded: a
+well-disciplined, honestly self-tagged unverified scaffold (here, across
+three internal revision passes rather than one) is a genuinely efficient
+verification starting point, not a reason to restart from zero.
+
+**Files touched**: `knowledge-base/02-culture/regions/africa/south-africa.md`
+(built, new `africa/` region directory created),
+`knowledge-base/00-methods/market-roadmap.md` (South Africa row updated;
+the OU column's existing "EMEA" value was left untouched, per the task's
+explicit instruction), `knowledge-base/scratch-south-africa-model-
+knowledge-draft.md` (deleted, now superseded). **Not touched, per the
+orchestrating session's explicit hold for this task**:
+`coca-cola-guidelines.md`, `country-file-schema.md`, and the UK/Germany/
+Spain files — the hero-product-slot and iconic-beverages generalizations
+are not back-ported to those three files here; that remains a separate,
+future decision. Not committed or pushed, per the task's own instruction —
+left for the orchestrating session to review.
