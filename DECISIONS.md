@@ -2646,3 +2646,216 @@ was deliberately **not** touched, per the steering note above.
 per the task's own instruction not to interfere with the parallel Spain
 task. Not committed or pushed — left for the orchestrating session to
 review.
+
+---
+
+## `us-hawaii.md` (13th and final planned US regional file) — 2026-09-24/25
+
+**Context.** Thirteenth and last of the 13 planned US regional files.
+Research was delegated to a subagent, which wrote a 437-line scratch
+draft to `knowledge-base/scratch-us-hawaii-draft.md` following the
+`us-arizona.md`/`us-new-mexico.md` structural and methodological pattern.
+`us.md` held no dish-level pointers into Hawaii content at all going in —
+unlike `us-west-coast.md`, this file resolves nothing, it only adds. This
+entry records the merge/review pass: the scratch draft was read in full,
+the canonical file was written, `us.md` was updated, and the scratch file
+deleted.
+
+**Three-layer framing accepted as the file's organizing principle.** The
+research brief required keeping three distinct threads separate rather
+than blended: (1) everyday "local" plantation-era immigrant-fusion food
+(plate lunch, loco moco, Spam musubi, saimin, chicken katsu, manapua,
+malasada, andagi, li hing mui), grounded in a dated, named immigration
+timeline (Chinese 1852, Portuguese 1878–87, Japanese 1886–1925, Korean
+1903, Filipino 1906) and the documented shared-plantation-lunch origin of
+the "mixed plate" concept; (2) Native Hawaiian (Kanaka Maoli) tradition
+(poi, kalua pig/imu, laulau, traditional poke), predating Western contact
+and plantation immigration entirely; (3) the commercial luau/tourist
+register, real and commercially significant but explicitly flagged as
+secondary — never the default for an unspecified "Hawaii" scene, which
+should instead default to a plate-lunch counter, okazuya deli, or home
+kitchen. This mirrors the caricature-avoidance discipline applied
+throughout the project, sharpened here because the luau/tiki visual
+vocabulary is unusually globally recognizable and therefore an unusually
+strong pull toward becoming a false default.
+
+**Poke's traditional-vs-commercial split handled as two full, separate
+entries per §4.6**, not one flattened dish: traditional Native Hawaiian
+poke (pre-contact, fish/limu/ʻinamona, hand-cut, no soy or sesame) and the
+modern mainland fast-casual poke bowl (dated 2012–2016 LA/NY boom,
+customizable base-plus-protein-plus-toppings format) are disclosed as
+three historical layers in total — the traditional dish, its own
+1970s ahi-shoyu evolution, and the further-Americanized commercial bowl
+built on top of that — rather than two, since even the "traditional"
+framing understates how much the dish had already changed before the
+mainland boom.
+
+**Indigenous-heritage sourcing discipline applied, with a genuinely mixed
+but in places stronger outcome than prior regional files reached.**
+Poi's cultural/cosmological claims (the Kumulipo/Hāloa creation narrative)
+are backed by a peer-reviewed *Food, Culture & Society* journal article,
+Slow Food International's Ark of Taste, and direct programming material
+from Kamehameha Schools and the Office of Hawaiian Affairs — an
+academic-plus-Native-Hawaiian-institutional tier stronger than any single
+Navajo/Hopi claim `us-arizona.md` reached, and tagged HIGH accordingly.
+Laulau and kalua pig/imu, by contrast, rest on Bishop Museum blog content
+plus enthusiast/recipe-tier sourcing — a genuinely weaker tier, honestly
+disclosed in-entry and in the Gap Log rather than borrowing poi's stronger
+confidence, the same discipline `us-arizona.md` applied to its own
+weaker-tier Navajo/Hopi entries. Traditional poke landed at an
+intermediate tier (Bishop Museum's blog plus a dedicated Honolulu Magazine
+feature).
+
+**One honest-disclosure correction worth flagging on its own**: lomi lomi
+salmon, despite its frequent presentation as an ancient Hawaiian dish, is
+not pre-contact at all — salmon don't swim in Hawaii's waters. It dates to
+the early-to-mid 1800s, when Russian traders and North American whalers
+brought barrels of salted salmon into Honolulu and Lahaina as a trade
+good. This file discloses that origin plainly rather than letting the
+dish's luau-plate ubiquity imply an older pedigree than it actually has —
+the same honest-disclosure standard applied elsewhere in this project to
+dishes whose popular framing outruns their actual history.
+
+**Structural decision: one file, no split, Oʻahu/neighbor-island gradient
+carried as a callout — accepted on the research's own reasoning.** The
+research brief asked that this be tested, not assumed. Finding: a real
+density/commercial-sophistication gradient exists (Oʻahu cosmopolitan and
+restaurant-dense; neighbor islands more home/family-prepared), but no
+neighbor-island-specific dish, ingredient, or construction method was
+found — the same kind of gradient, not cuisine-family difference, that
+resolved as a callout for Arizona's Tucson/Phoenix split and New Mexico's
+own north/south gradient. Accepted as final by the orchestrating session
+on that reasoning; logged transparently per `country-file-schema.md` §7
+so a human reviewer can revisit if a future pass finds a genuine
+neighbor-island-specific dish-grammar difference.
+
+**Verification outcome**: ~30 WebSearch queries, ~55 sources cited.
+Sourcing reached encyclopedic/institutional tier (multiple Wikipedia
+articles, the peer-reviewed journal article, Slow Food, Kamehameha
+Schools, Office of Hawaiian Affairs, the Bishop Museum's blog), long-form
+journalism (National Geographic, Time, Honolulu Civil Beat, HAWAIʻI
+Magazine, Honolulu Magazine, SFGate, Hawaiʻi Public Radio), and a
+disclosed minority of recipe-blog/enthusiast-tier sourcing for
+construction/dimension detail and for the laulau/kalua entries' core
+claims specifically, where nothing stronger was found. All named real
+businesses encountered (a Hilo diner, a Honolulu bakery, a North Shore
+shrimp truck) are cited only as historical background per §7.5; actual
+dish entries describe generic counters/stands/trucks throughout.
+
+**Status**: 13 of 13 planned US regional files now built (pending the
+parallel Pacific Northwest research pass, still in progress at the time
+of this entry — see the next DECISIONS.md entry once it lands).
+`market-roadmap.md`'s US row will be updated to reflect full completion
+once Pacific Northwest is merged. `us.md`'s FILE ROLE & METHOD table
+row 13 updated to reflect completion. Scratch draft deleted. Flagged for
+a future project-wide cross-reference audit: `us.md` currently has zero
+dish-level pointers into any Hawaii content.
+
+---
+
+## `us-pacific-northwest.md` (12th of 13 planned US regional files) — 2026-09-25
+
+**Context.** Twelfth of the 13 planned US regional files, researched in
+parallel with `us-hawaii.md` (previous entry). Research was delegated to
+a subagent, which wrote a 285-line scratch draft to
+`knowledge-base/scratch-us-pacific-northwest-draft.md` following the
+`us-arizona.md`/`us-west-coast.md` structural pattern. Like Hawaii, `us.md`
+held no dish-level pointers into Pacific Northwest content going in — this
+file only adds, resolving nothing.
+
+**Washington/Oregon structural question tested, not assumed, and accepted
+on the research's own reasoning.** The brief asked whether Seattle/
+Washington needed to split from Portland/Oregon into two files. Finding: a
+real gradient exists (WA/Seattle skews maritime-and-coffee — Dungeness
+crab, salmon, oysters, teriyaki bowls, Ballard's Scandinavian fishing
+heritage; OR/Portland skews agriculture-and-DIY — the marionberry/hazelnut
+economy, food-cart pods, eccentric doughnuts), independently corroborated
+by an external journalism comparison. But it doesn't clear the bar that
+split New Mexico from Arizona: no source treats "Washington cuisine" and
+"Oregon cuisine" as separate named traditions (both fall under one
+"Pacific Northwest cuisine" label), and — unlike Arizona/New Mexico's
+wheat-vs-corn-tortilla, different-chile-grammar split — the two states
+share one cuisine grammar: the same Pacific salmon runs, the same
+evergreen-rainforest climate, and largely the same Coast Salish/Chinookan
+Indigenous substrate straddling the Columbia River border. **Accepted as
+final by the orchestrating session** on that reasoning, consistent with
+how Texas's BBQ styles, Arizona's Tucson/Phoenix gradient, and
+California's NorCal/SoCal split were all resolved as one-file-with-
+callouts rather than a further split; logged transparently per
+`country-file-schema.md` §7 for a human reviewer to revisit if a future
+pass finds genuine state-specific Indigenous salmon-culture content deep
+enough to constitute a different cuisine-grammar tradition.
+
+**`us-west-coast.md`'s boundary flags respected, not re-claimed.** That
+file deliberately deferred Dungeness crab, Pacific salmon traditions, and
+Seattle/PNW coffee culture here, and flagged two findings this file had to
+respect rather than re-litigate: San Francisco's sourdough-bread-bowl clam
+chowder is a California claim, not a Pacific Northwest one (this file's
+own PNW clam chowder is served in an ordinary bowl or mug); and Oakland,
+not Seattle, is Blue Bottle Coffee's real birthplace (this file's coffee
+content covers Seattle's own real, independently-sourced history —
+Starbucks' 1971 founding, the world's first espresso cart, third-wave
+pioneers — without overclaiming the whole West Coast coffee story). A
+genuinely useful new finding surfaced in this pass: the drive-through
+espresso stand format itself originated in Portland in 1990, not Seattle
+— a small, sourced correction to a Seattle-only assumption about the
+region's coffee-industry identity.
+
+**Indigenous salmon culture handled with the same sourcing-tier discipline
+as prior regional files, and with additional cultural-sensitivity
+staging guidance beyond the usual disclosure.** The First Salmon Ceremony
+and the Boldt Decision (the 1974 federal ruling affirming tribal fishing
+rights) reached a strong institutional tier — CRITFC (a formal
+tribal-government fisheries commission), the U.S. Fish & Wildlife
+Service's own retrospective, the Northwest Power and Conservation
+Council. The cedar-plank cooking technique's specific historical
+mechanics, by contrast, rest on journalism/enthusiast-tier sourcing only
+— honestly disclosed as a weaker tier rather than borrowing the stronger
+confidence, the same discipline applied to `us-arizona.md`'s Navajo/Hopi
+content. Beyond the usual tiering, this file also separated the
+mainstream restaurant cedar-plank-salmon dish from the traditional
+ceremonial Indigenous salmon bake as two distinct entries (not one dish
+with a "regional variant" table), with explicit staging guidance that the
+ceremonial format carries real cultural weight for living communities and
+should not be treated as an interchangeable stylistic choice — a
+reasonable extension of this project's Indigenous-heritage discipline
+into staging guidance, not just sourcing disclosure.
+
+**One brand-safety exclusion worth flagging on its own**: research
+surfaced a real, well-documented but sexualized "bikini barista" variant
+of the region's drive-through espresso-stand format. It was deliberately
+excluded from the file entirely — logged transparently in the Gap Log as
+an exclusion, not silently omitted — since it has no legitimate role in a
+Coca-Cola brand-safety-conscious staging brief.
+
+**One clam chowder "no default" call, left open deliberately.** Pacific
+Northwest clam chowder has three genuinely coexisting variants (plain,
+razor-clam, smoked-salmon-added) with no single "everyday" baseline the
+research could responsibly force a default onto — flagged for
+human-reviewer judgment rather than resolved unilaterally, consistent with
+`country-file-schema.md` §4.6's caution against silently suppressing real
+options.
+
+**Verification outcome**: ~25 WebSearch queries, ~45-50 sources cited.
+Sourcing reached institutional/tribal-commission tier (CRITFC, U.S. Fish &
+Wildlife Service, the Northwest Power and Conservation Council, USDA,
+state fish-and-wildlife agencies), encyclopedic tier (Wikipedia, Oregon
+Encyclopedia), and long-form journalism/regional-authority tier
+(HistoryLink.org — used repeatedly and treated as a strong Washington-
+state-historical-society-tier source, Tasting Table, Cascade PBS,
+Chowhound, the Seattle Times). All named real businesses encountered (the
+teriyaki restaurant's own founding shop, the historic public market, the
+doughnut shop, the Crab Louie claimants) are cited only as historical
+background per §7.5; actual dish/environment entries describe generic
+counters/markets/stands throughout.
+
+**Status**: 13 of 13 planned US regional files now built and merged —
+the full structure planned at this project's outset is complete.
+`market-roadmap.md`'s US row updated to reflect full completion. `us.md`'s
+FILE ROLE & METHOD table row 12 updated. Scratch draft deleted. Per
+`country-file-schema.md` §8, the recommended next step is a project-wide
+cross-reference/internal-consistency audit (checking `us.md`'s pointer
+table against all 13 files, confirming no broken `→ us-*.md` references,
+and deciding whether `us-hawaii.md` and `us-pacific-northwest.md` warrant
+new thin pointers from `us.md`, which currently has none into either),
+followed by image testing.
