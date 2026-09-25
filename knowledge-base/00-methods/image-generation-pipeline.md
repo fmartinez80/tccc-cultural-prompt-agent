@@ -110,6 +110,30 @@ compliance, composition rules) — closing the loop with a second
 validation pass that a text-only Stage 4 check can't catch (e.g., a
 composition or scale error that only shows up in the rendered image).
 
+## Tooling — which systems run which stages
+
+The pipeline is implemented across (at least) three distinct systems, not
+one monolithic app:
+
+1. **Agentic interface** — handles prompt generation and both Scene
+   Validation loops: Stage 2 (Agentic Prompt Generator), Stage 3
+   (decomposed segments + Scene Summary), Stage 4 (pre-generation
+   validation), and Stage 7 (post-generation validation). This is the
+   system this knowledge base is written for/consumed by.
+2. **Scene Creator** — the Three.js layout tool (Stage 5), in active
+   development, producing the proxy-labeled layout PNG.
+3. **Node-based workflow tool** — a Runway-style node graph (Stage 6),
+   handling per-segment component image generation, the Digital Twin PNG
+   compositing step, and final Image Composition/Output.
+
+The Agentic interface is the orchestrator across the other two: it
+produces the inputs the node-based tool and Scene Creator consume, and
+consumes their outputs (layout PNG, final Image Output) back in for
+validation. This KB's job is entirely upstream of all three — it supplies
+the cultural/product/schema knowledge the Agentic interface draws on at
+Stage 2, not anything consumed directly by Scene Creator or the node-based
+tool.
+
 ## Open questions (not yet specified by the diagram)
 
 - How the Scene Creator's (Three.js) template library is stored/
