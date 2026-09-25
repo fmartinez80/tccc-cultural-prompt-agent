@@ -15,9 +15,16 @@ against instead of re-deriving it from a diagram in chat history.
 
 ## Stage 1 — Client Brief
 
-The starting input, supplied per generation request:
-Operating Unit, Local Region, Product SKU, Hero Dish, Side Dish Request,
-Occasion, and misc notes.
+The user arrives with a meal, a region, a product SKU, a side dish, and an
+occasion they want to visualize (e.g., "lunch at home," "meal on the go,"
+"family dinner at a restaurant," among others) — but doesn't hand these
+over as a flat form. The Agentic interface walks them through **a guided
+series of questions**, narrowing toward specific options at each step
+(e.g., which regional variant of a dish, which occasion register), rather
+than accepting free-text for every field. The end state is the same brief
+fields as before — Operating Unit, Local Region, Product SKU, Hero Dish,
+Side Dish Request, Occasion, misc notes — but arrived at conversationally,
+not typed in all at once.
 
 ## Stage 2 — Agentic Prompt Generator
 
@@ -54,16 +61,25 @@ segments, each independently generatable/editable:
 
 ## Stage 4 — Scene Validation (pre-generation loop)
 
-The Scene Summary is run back through the Agentic Prompt Generator to
-check the decomposed segments against the original brief and cultural
-guardrails before any image is generated.
+The Scene Summary is run back through the Agentic Prompt Generator, which
+checks the decomposed segments against the original brief **and directly
+against this knowledge base's `.md` files** — the country file for the
+selected region, `country-file-schema.md`, `tableware-composition-
+reference.md`, `coca-cola-guidelines.md` — for cultural authenticity and
+any gaps, before any image is generated.
 - **Fail** → re-run the Agentic Prompt Generator with notes on the
   discrepancy.
-- **Pass** → proceed to Scene Creator.
+- **Pass** → the user is good with the story + prompt segments; proceed
+  to Scene Creator.
 
 This is a text-only validation pass — catching a wrong dish, a broken
 cultural rule, or an inconsistent brief interpretation before spending a
-generation on it.
+generation on it. **This is the pipeline's direct, load-bearing use of
+this KB's country files as a validation reference**, not just as
+generation source material — a country file's Gap Log, confidence tags,
+and §4.6 coexisting-variant disclosures are exactly the content this
+check would need to catch a culturally wrong or unsupported claim in a
+generated Scene Summary.
 
 ## Stage 5 — Scene Creator
 
@@ -103,12 +119,30 @@ segments, **and the Scene Creator's proxy-labeled layout PNG**, feed into
 
 ## Stage 7 — Scene Validation (post-generation loop)
 
-The Image Output and the original Scene Summary are run back through the
-Agentic Prompt Generator together, to validate the actual generated image
-against the intended scene (dish accuracy, cultural correctness, brand
-compliance, composition rules) — closing the loop with a second
-validation pass that a text-only Stage 4 check can't catch (e.g., a
-composition or scale error that only shows up in the rendered image).
+The composition (Image Output) and the original story (Scene Summary) are
+brought back to the Agentic interface together, to validate the actual
+generated image against a defined set of criteria — closing the loop with
+a second validation pass that a text-only Stage 4 check can't catch (e.g.,
+a composition or scale error that only shows up in the rendered image).
+
+**Scoring criteria** (each graded out of 100; fail threshold TBD):
+1. **Brand guardian** — checks for correct logos, brand colors, and
+   overall brand compliance.
+2. **General creative direction** — checks for generation artifacts and
+   glitches (e.g., a hand with extra fingers) unrelated to brand or
+   culture, just generation quality.
+3. **Cultural authenticity** — do the meals look the way they should, and
+   is there anything in the scene that shouldn't be there. **This is the
+   criterion this KB's country files most directly serve** — the same
+   dish-description, texture, model-failure, and "never stage X" content
+   used at Stage 4 is the reference standard this criterion grades
+   against, just applied to the rendered image instead of the text
+   summary.
+4. **TBD** — a fourth criterion, not yet defined.
+
+If any criterion fails, the resulting notes are used for reprompting —
+feeding back into the loop (most likely to Stage 2/Stage 6, re-generating
+the specific failing element) rather than starting over from Stage 1.
 
 ## Tooling — which systems run which stages
 
@@ -129,10 +163,11 @@ one monolithic app:
 The Agentic interface is the orchestrator across the other two: it
 produces the inputs the node-based tool and Scene Creator consume, and
 consumes their outputs (layout PNG, final Image Output) back in for
-validation. This KB's job is entirely upstream of all three — it supplies
-the cultural/product/schema knowledge the Agentic interface draws on at
-Stage 2, not anything consumed directly by Scene Creator or the node-based
-tool.
+validation. This KB is consumed only by the Agentic interface, never
+directly by Scene Creator or the node-based tool — but it's used there
+**twice**: once at Stage 2 to generate a culturally grounded scene, and
+again at Stage 4 (and, for the cultural-authenticity criterion
+specifically, at Stage 7) to validate against the same reference content.
 
 ## Open questions (not yet specified by the diagram)
 
@@ -144,9 +179,13 @@ tool.
 - What "re-run with notes" actually changes in the Agentic Prompt
   Generator's next pass (full re-decomposition vs. targeted segment
   edits).
-- Whether Stage 7's validation failure loops back to Stage 6 (re-generate
-  the image), Stage 5 (re-compose), or Stage 2 (re-brief) — the diagram
-  doesn't show a fail path out of the second Scene Validation.
+- Stage 7's exact fail path: confirmed that a failing criterion produces
+  notes used for reprompting, but not yet specified whether that always
+  loops back through the full node-based workflow (Stage 6) or can target
+  just the specific failing element/segment.
+- The 4th Stage-7 scoring criterion (brand, creative-direction, and
+  cultural-authenticity are defined; one more is TBD) and each criterion's
+  fail threshold (all graded out of 100, no pass/fail cutoff set yet).
 
 ## Current state
 
