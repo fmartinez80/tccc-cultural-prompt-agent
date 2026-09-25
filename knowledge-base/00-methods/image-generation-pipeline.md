@@ -156,19 +156,63 @@ a composition or scale error that only shows up in the rendered image).
    plate) are both a cultural fact and a composition rule — which
    criterion owns that overlap isn't decided yet.
 
-**PLACEHOLDER — scoring methodology.** To make grading less subjective and
-consistent across runs, each criterion should eventually be backed by its
-own checklist of concrete yes/no questions, with points derived from the
-answers (e.g., "is the hero SKU positioned in the vertical center third?
-Y/N", "does the plate match the dish's documented real-world scale
-anchor? Y/N") rather than a single holistic 0–100 judgment call. **Not yet
-built** — the specific question sets per criterion, how per-question
-answers roll up into a 0–100 score, and the pass/fail cutoff are all still
-to be defined. When they are, this KB's own content is the natural source
-for at least two of the four checklists: country-file facts (dish
-appearance, model-failure notes, §4.6 variants) for Cultural Authenticity,
-and `tableware-composition-reference.md`/`coca-cola-guidelines.md` §4
-rules for Food Stylist/Composition QA.
+### Scoring methodology — candidate approaches (undecided)
+
+The goal is consistent, less-subjective grading across runs. Four
+candidate approaches, not mutually exclusive:
+
+1. **Holistic 0–100 judgment call (the current implicit default).**
+   A single "how good is this, 0–100" score per criterion. **Con**: this
+   is exactly the subjectivity problem the checklist idea was proposed to
+   fix — no reproducibility, no actionable failure reason, score drifts
+   run to run on an identical image. Not recommended as the sole method.
+2. **Weighted yes/no checklist, summed to 100.** Each criterion gets a
+   fixed set of concrete questions ("is the hero SKU in the vertical
+   center third? Y/N," "does the plate match the dish's documented scale
+   anchor? Y/N"), each worth N points; the score is the sum. **Pro**:
+   reproducible, and every failure comes with a specific, actionable
+   question to fix. **Con**: treats every question as equally severe,
+   which doesn't match reality — a wrong garnish and a visible competitor
+   logo shouldn't cost the same points.
+3. **Gate + weighted-deduction hybrid (recommended starting point).**
+   Split each criterion's questions into **hard gates** (an automatic
+   fail regardless of everything else — e.g., wrong/garbled logo, visible
+   alcohol in a South Africa scene, a dish that violates a country file's
+   explicit "never do X") and **weighted deductions** (start at 100,
+   subtract per failed question, weighted by severity — a wrong garnish
+   costs less than a wrong hero dish). This mirrors standard QA-rubric
+   practice (critical/major/minor defect tiers) and matches how this KB
+   already distinguishes severity implicitly — a country file's hard
+   "never stage X" rules (e.g., no alcohol, no legible fabricated text,
+   no trademark landmarks) are natural hard-gate candidates; ordinary
+   dish-detail accuracy is a natural deduction candidate.
+4. **Vision-model-as-judge, answering the checklist directly.** Whichever
+   of #2/#3 is chosen, the actual grading mechanism is a vision-capable
+   model given the rendered image plus the fixed question set, answering
+   each question and producing the rollup score — not a human grading
+   every image by hand. **Consistency safeguard**: run the judge twice per
+   image and flag disagreement for human review, the same
+   two-generations-minimum discipline `coca-cola-guidelines.md` already
+   applies to testing prompt phrasing — a judge that disagrees with itself
+   on the same image is exactly the failure mode worth catching before
+   trusting its scores.
+
+**Refinement specific to Cultural Authenticity**: this KB already tags
+every claim HIGH/MEDIUM/LOW confidence. A checklist question generated
+from a LOW-confidence claim (e.g., an estimated dish dimension, an
+editorial judgment call) probably shouldn't be eligible as a hard gate —
+only HIGH-confidence, well-sourced claims (a documented "never do X" rule,
+a verified dish-identity fact) should be able to auto-fail a scene;
+LOW-confidence claims are better as deductions or informational-only,
+since a hard gate built on the file's own admittedly-uncertain content
+would fail images for the wrong reason.
+
+**Still not built for any criterion**: the actual question sets, the
+point/severity weighting, which questions are gates vs. deductions, the
+final pass/fail cutoff, and the judge-disagreement-review process. This
+KB's own content remains the natural source for at least two of the four
+checklists — country-file facts for Cultural Authenticity, `tableware-
+composition-reference.md`/`coca-cola-guidelines.md` §4 for Composition QA.
 
 If any criterion fails, the resulting notes are used for reprompting —
 feeding back into the loop (most likely to Stage 2/Stage 6, re-generating
@@ -202,6 +246,72 @@ Cultural Authenticity criterion, `tableware-composition-reference.md`/
 `coca-cola-guidelines.md` §4 for the Food Stylist/Composition QA
 criterion.
 
+## Build approach under consideration (undecided)
+
+Two architectures for Stages 5–7 are being weighed. Both keep Stages 1–4
+(the Agentic interface) identical — this decision only affects how layout,
+generation, and compositing get built.
+
+**Option A — hybrid (current documented design): agent network + a
+separate node-based workflow tool.** Scene Creator (Three.js) plus a
+Runway-style node graph, orchestrated by the Agentic interface, per
+Stages 5–6 above.
+- **Pros**: composability — each element (entree, side, product) is its
+  own node, independently regeneratable without re-rendering the whole
+  scene, which matters directly for Stage 7's fail-path targeting (fix
+  just what failed). A validated, brand-correct Digital Twin PNG asset can
+  be generated once and reused across many scenes rather than re-risking
+  brand fidelity on every single generation — this is the direct fix for
+  the branding-unreliability finding in `coca-cola-guidelines.md` §1.
+  Explicit intermediate checkpoints give a human (or brand/legal reviewer)
+  a place to intervene before final composition, which a brand as
+  regulated as Coca-Cola likely wants for auditability. Model-agnostic —
+  the underlying image model in any given node can be swapped without
+  touching the rest of the graph.
+- **Cons**: three systems to build, integrate, and keep in sync (agentic
+  interface, Scene Creator, node graph), each with its own API/versioning
+  surface — more engineering overhead and more places for the pipeline to
+  break. Multiple round-trips add latency. Requires ongoing node-graph
+  tool cost/expertise (Runway or equivalent).
+
+**Option B — fully agentic single flow: one model (e.g., Nano Banana 2)
+generating the image directly from the decomposed prompts**, with the
+Agentic interface still doing Stages 1–4/7 but Stages 5–6 collapsing into
+one generation call instead of a separate layout tool + node graph.
+- **Pros**: far simpler to build and ship — one system instead of three,
+  lower latency, fewer integration points. Models like Nano Banana are
+  specifically strong at multi-image composition and instruction-following
+  edits, which could handle "combine entree + side + product reference +
+  layout intent" in fewer steps, and their built-in reference-image
+  conditioning may help with branding fidelity without a separate
+  compositing step.
+- **Cons**: less deterministic control over exact placement — without an
+  explicit layout-planning step enforcing it, hero-zone/depth-hierarchy
+  adherence (the new Composition QA criterion's whole domain) becomes
+  harder to guarantee rather than structurally enforced. Loses the
+  reusable, pre-validated Digital Twin asset approach — branding fidelity
+  becomes a per-generation risk again on every single image, the exact
+  problem the Digital Twin PNG step exists to solve. Harder to isolate and
+  fix just the failing element on a Stage 7 fail unless the model's edit
+  capability supports precise, targeted inpainting of only the flagged
+  region (plausible with Nano Banana's edit features, but unconfirmed).
+  Single-vendor/model dependency. A monolithic single-shot generation is
+  also a harder story for brand/legal audit trail than a node graph with
+  visible intermediate checkpoints.
+
+**Recommendation**: given TCCC's brand sensitivity, this project's own
+already-documented branding-fidelity problem, and the new Composition QA
+criterion's need for enforceable (not just hoped-for) layout control,
+Option A's composability and auditability are worth its extra build cost
+for a production system — but Nano Banana 2's compositing strength could
+still be used *inside* Option A's node graph (replacing specific Runway
+nodes) rather than framing this as all-or-nothing. Option B is a
+reasonable choice for a fast prototype/MVP to validate the Agentic
+interface and scoring rubric end-to-end before committing to the
+heavier build, if speed-to-first-test matters more than production
+readiness right now. **Not yet decided** — this is an open call, not a
+made one.
+
 ## Open questions (not yet specified by the diagram)
 
 - How the Scene Creator's (Three.js) template library is stored/
@@ -231,4 +341,6 @@ tableware/product reference data, and country files) and none of the
 pipeline mechanics themselves (Stages 2–7 are not implemented here). The
 Scene Creator (Stage 5) is under active development elsewhere as a
 Three.js tool. Prompt testing so far in this project has been manual/
-single-shot, not run through this pipeline.
+single-shot, not run through this pipeline. See
+`readiness-checklist.md` for the full outstanding-work list across both
+the knowledge base and this pipeline.
