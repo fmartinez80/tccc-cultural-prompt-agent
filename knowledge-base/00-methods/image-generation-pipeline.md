@@ -129,8 +129,8 @@ a composition or scale error that only shows up in the rendered image).
 1. **Brand guardian** — checks for correct logos, brand colors, and
    overall brand compliance.
 2. **General creative direction** — checks for generation artifacts and
-   glitches (e.g., a hand with extra fingers) unrelated to brand or
-   culture, just generation quality.
+   glitches (e.g., a hand with extra fingers), unrelated to brand,
+   culture, or styling — pure generation-quality/defect detection.
 3. **Cultural authenticity** — do the meals look the way they should, and
    is there anything in the scene that shouldn't be there. **This is the
    criterion this KB's country files most directly serve** — the same
@@ -138,7 +138,37 @@ a composition or scale error that only shows up in the rendered image).
    used at Stage 4 is the reference standard this criterion grades
    against, just applied to the rendered image instead of the text
    summary.
-4. **TBD** — a fourth criterion, not yet defined.
+4. **Food Stylist / Composition QA** — a distinct criterion from #2,
+   grading aesthetic/compositional judgment rather than technical defects:
+   hero-zone rule adherence, depth hierarchy, plating and garnish
+   standards, vessel-scale correctness, overall layout quality. This is
+   this KB's second direct grading target — `tableware-composition-
+   reference.md` and `coca-cola-guidelines.md` §4 (hero-zone/depth-
+   hierarchy/clearance-radii/composition-scenario rules) are the reference
+   standard here, the same way country files are the reference standard
+   for #3. Kept separate from #2 rather than folded in, since "no extra
+   fingers" (binary defect-spotting) and "is this well-composed"
+   (aesthetic judgment against a documented standard) are different
+   skills that produce differently-actionable fail notes; kept separate
+   from #3 because a scene can be culturally accurate but poorly composed,
+   or vice versa. **Open overlap to resolve**: some country-specific
+   plating/presentation norms (e.g., South Africa's "seven colours" Sunday
+   plate) are both a cultural fact and a composition rule — which
+   criterion owns that overlap isn't decided yet.
+
+**PLACEHOLDER — scoring methodology.** To make grading less subjective and
+consistent across runs, each criterion should eventually be backed by its
+own checklist of concrete yes/no questions, with points derived from the
+answers (e.g., "is the hero SKU positioned in the vertical center third?
+Y/N", "does the plate match the dish's documented real-world scale
+anchor? Y/N") rather than a single holistic 0–100 judgment call. **Not yet
+built** — the specific question sets per criterion, how per-question
+answers roll up into a 0–100 score, and the pass/fail cutoff are all still
+to be defined. When they are, this KB's own content is the natural source
+for at least two of the four checklists: country-file facts (dish
+appearance, model-failure notes, §4.6 variants) for Cultural Authenticity,
+and `tableware-composition-reference.md`/`coca-cola-guidelines.md` §4
+rules for Food Stylist/Composition QA.
 
 If any criterion fails, the resulting notes are used for reprompting —
 feeding back into the loop (most likely to Stage 2/Stage 6, re-generating
@@ -165,9 +195,12 @@ produces the inputs the node-based tool and Scene Creator consume, and
 consumes their outputs (layout PNG, final Image Output) back in for
 validation. This KB is consumed only by the Agentic interface, never
 directly by Scene Creator or the node-based tool — but it's used there
-**twice**: once at Stage 2 to generate a culturally grounded scene, and
-again at Stage 4 (and, for the cultural-authenticity criterion
-specifically, at Stage 7) to validate against the same reference content.
+**at three points**: once at Stage 2 to generate a culturally grounded
+scene, again at Stage 4 to validate the pre-generation story against it,
+and again at Stage 7 to grade the rendered image — country files for the
+Cultural Authenticity criterion, `tableware-composition-reference.md`/
+`coca-cola-guidelines.md` §4 for the Food Stylist/Composition QA
+criterion.
 
 ## Open questions (not yet specified by the diagram)
 
@@ -183,9 +216,13 @@ specifically, at Stage 7) to validate against the same reference content.
   notes used for reprompting, but not yet specified whether that always
   loops back through the full node-based workflow (Stage 6) or can target
   just the specific failing element/segment.
-- The 4th Stage-7 scoring criterion (brand, creative-direction, and
-  cultural-authenticity are defined; one more is TBD) and each criterion's
-  fail threshold (all graded out of 100, no pass/fail cutoff set yet).
+- Each Stage-7 criterion's fail threshold (all graded out of 100, no
+  pass/fail cutoff set yet), and the yes/no question sets + score-rollup
+  method for the placeholder scoring methodology above — not yet built for
+  any of the four criteria.
+- Which criterion (Cultural Authenticity or Food Stylist/Composition QA)
+  owns a plating/presentation norm that is simultaneously a cultural fact
+  and a composition rule (e.g., South Africa's "seven colours" plate).
 
 ## Current state
 
