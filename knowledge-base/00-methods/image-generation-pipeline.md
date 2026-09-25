@@ -67,11 +67,19 @@ generation on it.
 
 ## Stage 5 — Scene Creator
 
-Takes the validated prompt segments into scene-composition templates —
-top-down layout grids assigning zones (hero dish, sides, drink,
-tableware) per `tableware-composition-reference.md`'s hero-zone/depth-
-hierarchy framework. Either an existing template is reused for a quick
-generation, or a new one is created from scratch for a novel composition.
+A **Three.js-based 3D layout tool** (in active development, not yet
+built) that takes the validated prompt segments and outputs a **PNG of
+the intended scene layout with proxy labels** for each element — top-down
+composition grids assigning zones (hero dish, sides, drink, tableware)
+per `tableware-composition-reference.md`'s hero-zone/depth-hierarchy
+framework. Either an existing template is reused for a quick generation,
+or a new one is composed from scratch for a novel layout.
+
+This proxy-labeled layout PNG is what pairs with the actual scene-content
+prompt segments (Entree Dish, Traditional Side Dish, etc.) at Stage 6 —
+i.e., the layout/composition (where things go) and the content (what
+each thing is) are generated separately and then combined, rather than
+one image-gen call handling both placement and content at once.
 
 ## Stage 6 — Node-based workflow (image generation graph)
 
@@ -90,8 +98,8 @@ approach `coca-cola-guidelines.md` §5 flags as "reference-image
 conditioning (untested)."
 
 All component nodes, plus Brand Vis ID and Environmental Overview
-segments, feed into **Image Composition**, which produces the final
-**Image Output**.
+segments, **and the Scene Creator's proxy-labeled layout PNG**, feed into
+**Image Composition**, which produces the final **Image Output**.
 
 ## Stage 7 — Scene Validation (post-generation loop)
 
@@ -104,8 +112,9 @@ composition or scale error that only shows up in the rendered image).
 
 ## Open questions (not yet specified by the diagram)
 
-- How the Scene Creator's template library is stored/versioned, and how
-  "reuse an existing template" vs. "create new" is decided.
+- How the Scene Creator's (Three.js) template library is stored/
+  versioned, and how "reuse an existing template" vs. "create new" is
+  decided.
 - The exact mechanism/source for the "Digital Twin PNG" reference image
   per product SKU (a fixed asset library? Pulled per-market?).
 - What "re-run with notes" actually changes in the Agentic Prompt
@@ -119,6 +128,7 @@ composition or scale error that only shows up in the rendered image).
 
 This repo currently implements the knowledge inputs to Stage 2 (schema,
 tableware/product reference data, and country files) and none of the
-pipeline mechanics themselves (Stages 2–7 are not implemented here). Prompt
-testing so far in this project has been manual/single-shot, not run
-through this pipeline.
+pipeline mechanics themselves (Stages 2–7 are not implemented here). The
+Scene Creator (Stage 5) is under active development elsewhere as a
+Three.js tool. Prompt testing so far in this project has been manual/
+single-shot, not run through this pipeline.
