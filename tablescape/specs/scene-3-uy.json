@@ -1,0 +1,15 @@
+{
+  "specVersion": "0.1",
+  "id": "scene-3-uy",
+  "brief": "Meal + 3: Uruguay choripan, side of chimichurri, side of french fries, mobile phone, lunch at home",
+  "market": "UY",
+  "setting": { "place": "home", "time": "lunch" },
+  "table": "table-rect-4top",
+  "sku": { "registry": "bottle-contour-330", "text": "Coca-Cola 330mL contour glass bottle (SKU not in the brief; added as the project default)" },
+  "entree": { "text": "choripan in pan flauta", "vessel": "board-wood", "food": "food-choripan" },
+  "accompaniments": [
+    { "role": "sauce", "text": "chimichurri", "vessel": "ramekin", "food": "food-mound", "pairedWith": "DISH" },
+    { "role": "side", "text": "french fries", "vessel": "bowl-side-medium", "food": "food-fries" }
+  ],
+  "props": [ { "role": "prop", "text": "mobile phone", "registry": "phone" } ]
+}

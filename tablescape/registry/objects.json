@@ -1,0 +1,17 @@
+{
+  "_note": "Real-world sizes in meters. Sources: knowledge-base/00-methods/tableware-composition-reference.md (vessels), knowledge-base/01-brand/coca-cola-guidelines.md s4.3 (SKU, provisional pending TCCC spec drop), region files for serving vessels. Pivot is bottom-center; footprint is the shape seen from above.",
+  "table-rect-4top":     { "kind": "table",  "w": 1.20, "d": 0.80, "h": 0.04, "source": "assumed 4-top so 5 items fit; not in KB" },
+  "bottle-contour-330":  { "kind": "bottle", "diameter": 0.062, "h": 0.205, "source": "coca-cola-guidelines s4.3: 200-210mm x 60-65mm, 330mL" },
+  "plate-rect":          { "kind": "rectPlate", "w": 0.30, "d": 0.20, "h": 0.02, "source": "tableware ref s2: rectangular 28-32 x 18-22cm; us-midwest: KC meat on oval/rect plate or tray" },
+  "paper-wrap":          { "kind": "sheet",  "w": 0.32, "d": 0.26, "h": 0.004, "source": "us-mid-atlantic: cheesesteak is handheld, no plated sibling; staged resting on its wrapper" },
+  "board-wood":          { "kind": "board",  "w": 0.30, "d": 0.20, "h": 0.02, "source": "tableware ref s2 cutting board 30-35 x 20cm; uruguay.md: served on a wooden board" },
+  "bowl-side-small":     { "kind": "bowl",   "diameter": 0.13, "h": 0.06, "source": "tableware ref s2: small side bowl 12-15cm" },
+  "bowl-side-medium":    { "kind": "bowl",   "diameter": 0.16, "h": 0.07, "source": "tableware ref s2: medium side bowl 15-18cm" },
+  "ramekin":             { "kind": "ramekin","diameter": 0.07, "h": 0.04, "source": "tableware ref s2: condiment ramekin 6-8cm; uruguay.md: chimichurri in its own small dish" },
+  "phone":               { "kind": "slab",   "w": 0.147, "d": 0.071, "h": 0.008, "source": "typical smartphone 147 x 71 x 8mm" },
+  "food-hoagie":         { "kind": "roll",   "length": 0.25, "diameter": 0.075, "source": "us-mid-atlantic: hoagie roll, assumed ~10in" },
+  "food-bun-sandwich":   { "kind": "bun",    "diameter": 0.11, "h": 0.09, "source": "us-midwest: pulled pork piled high on a soft white bun" },
+  "food-choripan":       { "kind": "roll",   "length": 0.18, "diameter": 0.065, "source": "uruguay.md: pan flauta segment 15-20cm" },
+  "food-fries":          { "kind": "fries",  "h": 0.06, "source": "mound in bowl" },
+  "food-mound":          { "kind": "mound",  "h": 0.035, "source": "slaw / sauce mound" }
+}

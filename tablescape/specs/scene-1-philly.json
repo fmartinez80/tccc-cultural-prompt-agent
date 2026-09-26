@@ -1,0 +1,12 @@
+{
+  "specVersion": "0.1",
+  "id": "scene-1-philly",
+  "brief": "Meal + Coke: Philly cheesesteak, outside during the day, 330mL Coca-Cola bottle",
+  "market": "US-mid-atlantic",
+  "setting": { "place": "outdoors", "time": "day" },
+  "table": "table-rect-4top",
+  "sku": { "registry": "bottle-contour-330", "text": "Coca-Cola 330mL contour glass bottle" },
+  "entree": { "text": "Philly cheesesteak on a hoagie roll", "vessel": "paper-wrap", "food": "food-hoagie" },
+  "accompaniments": [],
+  "props": []
+}

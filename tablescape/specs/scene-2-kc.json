@@ -1,0 +1,12 @@
+{
+  "specVersion": "0.1",
+  "id": "scene-2-kc",
+  "brief": "Meal + Side + Coke: pulled pork sandwich, Kansas City MO, indoors away from home, side of coleslaw, 330mL Coca-Cola",
+  "market": "US-midwest",
+  "setting": { "place": "indoors-away", "time": "any" },
+  "table": "table-rect-4top",
+  "sku": { "registry": "bottle-contour-330", "text": "Coca-Cola 330mL contour glass bottle" },
+  "entree": { "text": "KC pulled pork sandwich on a soft white bun", "vessel": "plate-rect", "food": "food-bun-sandwich" },
+  "accompaniments": [ { "role": "side", "text": "creamy coleslaw", "vessel": "bowl-side-small", "food": "food-mound" } ],
+  "props": []
+}

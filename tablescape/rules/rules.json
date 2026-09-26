@@ -1,0 +1,16 @@
+{
+  "_note": "Test-build rules. Sources: composition doc 2 (30 deg, 50% table horizon, odd/even, depth bands, condiment 1-3in), knowledge base tableware ref s7 (spacing, margins), plan 2a (SKU on diner's right).",
+  "camera": { "elevationDeg": 30, "focalMm": 50, "sensorWidthMm": 36, "aspect": [16, 9], "yawDeg": 22 },
+  "tableHorizonMax": 0.50,
+  "tableHorizonMinPreferred": 0.36,
+  "minGapM": 0.015,
+  "tableEdgeMarginM": 0.03,
+  "dishFrontMarginM": 0.06,
+  "rearMarginM": 0.05,
+  "sideMarginM": 0.12,
+  "condimentGapM": { "min": 0.0254, "max": 0.0762 },
+  "frameMargin": { "hero": { "side": 0.06, "bottom": 0.04, "top": 0.04 }, "other": { "side": 0.02, "bottom": 0.02, "top": 0.02 } },
+  "maxOcclusion": { "SKU": 0.05, "DISH": 0.15, "other": 0.20 },
+  "visualMassTarget": { "layer1": 0.50, "layer2": 0.30, "layer3": 0.20 },
+  "oddEven": { "inject": { "role": "accent", "vessel": "ramekin", "pairedWith": "DISH" } }
+}
