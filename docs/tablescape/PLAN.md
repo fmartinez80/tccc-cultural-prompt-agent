@@ -1,6 +1,6 @@
 # Tablescape Composer — Plan
 
-Turn the Cultural Prompt Agent's scene guidance (table type, entree, number of accompaniments, SKU, camera angle and lens) into a **labeled 3D perspective proxy** of the tablescape. The composer generates **up to 3 layout options** that use the same elements and meet the same requirements. The user picks one, so nobody has to design a layout by hand. Once a layout has been picked for a given combination of elements and camera, it becomes the template and is reused.
+Turn the Cultural Prompt Agent's scene guidance (table type, entree, number of accompaniments, SKU, camera angle and lens) into a **labeled 3D perspective proxy** of the tablescape. The composer generates **up to 3 layout options** that use the same elements and meet the same requirements. The prompt operator, who is also the art director, picks one, so nobody has to design a layout by hand. Once a layout has been picked for a given combination of elements and camera, it becomes the template and is reused.
 
 Reference proxies we're aiming for: [`reference/`](./reference)
 
@@ -14,9 +14,10 @@ Reference proxies we're aiming for: [`reference/`](./reference)
 ## 0. Guiding principles
 
 1. **The LLM decides *what* is on the table. Deterministic code decides *where* it goes.** The Prompt Agent outputs a semantic `SceneSpec`, and a rule-based solver turns it into geometry. The same input always gives the same options.
-2. **Choose, don't design.** Users never place objects. They see up to 3 finished, rule-compliant proxies and pick one. That pick is the only human input and also the approval signal.
-3. **Batch job, not an app.** Nobody watches the layout come together, so there is no interactive editor in the pipeline: spec in → solve → one render per option → images out.
-4. **Rules come from data, not taste.** Design standards, brand rules and real object sizes live in versioned files, so every option is compliant by construction.
+2. **Choose, don't design.** The operator never places objects. They see up to 3 finished, rule-compliant proxies and pick one. That pick is the only human input, and because the operator is also the art director, it is the approval.
+3. **SKU always on the diner's right.** Fixed brand rule, not an option (see 2a).
+4. **Batch job, not an app.** Nobody watches the layout come together, so there is no interactive editor in the pipeline: spec in → solve → one render per option → images out.
+5. **Rules come from data, not taste.** Design standards, brand rules and real object sizes live in versioned files, so every option is compliant by construction.
 
 ```
 Prompt Agent ──► SceneSpec ──► signature ──► approved template? ──yes──► cached proxy (no solve, no render)
@@ -29,7 +30,7 @@ Prompt Agent ──► SceneSpec ──► signature ──► approved template
                                                   │
                                    Headless render ×N  ──► options bundle (labeled + clean PNG, masks, layout JSON)
                                                   │
-                                   User selects 1 ──► promoted to template for this signature
+                               Operator selects 1 ──► promoted to template for this signature
                                                   │
                                                   ▼
                                    Selected proxy + manifest ──► image generation workflow
@@ -71,8 +72,19 @@ Three versioned data files drive the solver. Every option is checked against all
 | file | owns | examples |
 |---|---|---|
 | `registry/*.json`: **known sizes** | real-world dimensions (m), footprint, height, bottom-center pivot, label anchor | 8 oz contour bottle Ø 6.2 cm × 19.5 cm; dinner plate Ø 27 cm; 2-top table 75 × 75 cm |
-| `rules/brand.json`: **brand rules** | non-negotiables for the SKU | SKU ≤ 5 % occluded, never cropped, upright, logo yawed to camera; SKU height 35–55 % of frame; allowed SKU sides; min distance from frame edge |
+| `rules/brand.json`: **brand rules** | non-negotiables for the SKU | SKU ≤ 5 % occluded, never cropped, upright, logo yawed to camera; SKU height 35–55 % of frame; **SKU on the diner's right (2a)**; min distance from frame edge |
 | `rules/design.json`: **design standards** | composition quality | rule of thirds, visual balance, depth order (tall behind short), spacing ≥ 1.5 cm, no tangents, even negative space, table-edge handling per preset |
+
+### 2a. SKU placement: always on the diner's right
+
+The SKU always sits to the **right of MAIN, on the diner's right-hand side**. Every market gets the same placement, which avoids cultural problems where use of the left hand while dining is discouraged. The SKU is where a right-handed diner naturally reaches.
+
+How it's enforced:
+- **Defined from the diner's seat, not just the screen.** Each layout has a diner position (the place setting MAIN belongs to). The SKU must be on that diner's right in table coordinates.
+- **Every camera preset shoots from the diner's side of the table** (within ±30° of the diner's line of sight, or overhead with the diner at the bottom of the frame). So the diner's right is always also **screen-right**. A camera across the table would mirror it to screen-left, so no preset is allowed there.
+- **Hard constraint (screen space):** SKU centroid is right of MAIN's centroid, and inside the right half of the frame (target band: the right third).
+- It's a **brand rule with no per-market override**. Cultural modules can change archetype order, but not the SKU side.
+- The same applies to any other drinkware the spec adds (a glass with ice goes with the SKU on the right).
 
 The brand rules are the **hard gate**: an option that fails one is never shown. Design standards are a mix of hard limits (overlap, table margins) and scored preferences (thirds, balance), weighted in `design.json`.
 
@@ -100,11 +112,11 @@ Each preset is **photographic parameters**, not a fixed position. The preset is 
 
 ## 5. Layout solver
 
-Work in **camera-relative table coordinates**: `x` = screen left↔right and `z` = depth away from the camera, on the tabletop plane. The same rules then apply at any azimuth, and results are rotated into world space at the end.
+Work in **camera-relative table coordinates**: `x` = screen left↔right and `z` = depth away from the camera, on the tabletop plane. Because every preset shoots from the diner's side, `+x` is also the diner's right. The same rules then apply at any azimuth, and results are rotated into world space at the end.
 
 ### 5a. Hard constraints (reject)
 - Footprints don't overlap (gap ≥ 1.5 cm), everything stays on the table with an edge margin, and object counts match the spec exactly.
-- All brand rules in `brand.json` (SKU visibility, cropping, orientation, prominence range).
+- All brand rules in `brand.json` (SKU on the diner's right, visibility, cropping, orientation, prominence range).
 - MAIN ≤ 15 % occluded and never cropped.
 
 ### 5b. Soft score (screen space)
@@ -125,7 +137,7 @@ Project each object's 3D bounding box through the camera to 2D (pure math, no re
 
 ### 5c. Composition archetypes
 
-An archetype is a named slot map: where MAIN, SKU, accompaniments and props may go, in normalized table coordinates. Each archetype is a recognizable composition idea, so the options differ in a way people can see.
+An archetype is a named slot map: where MAIN, SKU, accompaniments and props may go, in normalized table coordinates. Each archetype is a recognizable composition idea, so the options differ in a way people can see. **All archetypes keep the SKU right of MAIN.** They vary depth, spacing and how the accompaniments balance the frame, never the SKU side.
 
 | archetype | idea | MAIN | SKU | accompaniments |
 |---|---|---|---|---|
@@ -133,7 +145,7 @@ An archetype is a named slot map: where MAIN, SKU, accompaniments and props may 
 | **Diagonal** | leading line toward the SKU | foreground left | mid-depth right | back right, continuing the diagonal |
 | **SKU Forward** | brand-led, drink shares the hero | center-right, pushed back slightly | front-right, beside MAIN | back left, balancing the SKU |
 | **Counterweight** | accompaniments grouped as one mass | center | right third | clustered on the left as a counterweight |
-| **Mirrored** *(if brand allows SKU left)* | Classic flipped | center / lower-right third | left third | back arc |
+| **Tall Back** | depth-led, SKU framed by the table | front-center | back-right, behind MAIN's right edge | flanking left and front-left |
 
 Arrangement styles bring their own archetype sets (for example family-style: *Shared Center*, *Offset Share*; banchan-grid: *Grid Back*, *Grid Wrap*). This is also where cultural modules plug in: a market can enable, disable or reorder archetypes.
 
@@ -163,7 +175,7 @@ If **no** archetype yields a valid layout, return an infeasible result with a re
 2. Rank the feasible ones by score. Break ties with the market's archetype preference order and past selections (section 7).
 3. Pick greedily down the ranking. Add a candidate only if it is **visibly different** from every option already picked:
    - it is a different archetype, **and**
-   - the mean screen-space displacement of role centroids (SKU, MAIN, accompaniments) is ≥ 12 % of frame width, **or** the SKU and MAIN swap sides / depth order.
+   - the mean screen-space displacement of role centroids (SKU, MAIN, accompaniments) is ≥ 12 % of frame width, **or** the SKU's depth relative to MAIN changes (front / beside / behind). The SKU side is fixed, so it's never a source of variation.
 4. Stop at `options.max` (default 3).
 5. **Never pad.** If only 1 or 2 distinct compliant layouts exist (a crowded small table, for example), return 1 or 2. A near-duplicate is worse than fewer choices.
 
@@ -178,10 +190,10 @@ out/<runId>/
   C/ ...
 ```
 
-Each option carries a short, generated **rationale** from its archetype and top score terms, for example *"Diagonal: leading line from entree to SKU; SKU at 48 % frame height"*. It gives the picker something to decide on besides taste.
+Each option carries a short, generated **rationale** from its archetype and top score terms, for example *"Diagonal: leading line from entree to SKU; SKU at 48 % frame height"*. It gives the operator something to decide on besides taste.
 
-### Picker
-The user sees the contact sheet and picks A, B or C. Nothing else to do. Optional later: "show more" returns the next distinct archetypes if any remain.
+### Picking
+The operator sees the contact sheet and picks A, B or C. Nothing else to do. Optional later: "show more" returns the next distinct archetypes if any remain.
 
 ## 7. Templates (reuse what was picked)
 
@@ -192,12 +204,14 @@ rect-2top | three-quarter-45 | 50mm | 16:9 | sku:contour-8oz | main:plate | acc:
 ```
 
 Lookup flow:
-1. **Approved template exists** for the signature: return that cached proxy and layout directly, with **no solve and no render**. Optionally include the other cached options if the user asks to see alternatives.
+1. **Approved template exists** for the signature: return that cached proxy and layout directly, with **no solve and no render**. Optionally include the other cached options if the operator asks to see alternatives.
 2. **No approved template, but cached options exist**, from an earlier run whose options were never picked: return them again (deterministic, so identical).
 3. **Near hit** (same except, say, one extra accompaniment): use the approved layout as the solver's starting point for its archetype, and solve the others normally.
 4. **Miss:** full solve and render, then cache all options under the signature.
 
-**Promotion:** the user's pick is the approval. The chosen option becomes the signature's approved template (versioned, with who picked it and when).
+**Promotion:** the operator's pick is the approval. The operator is the art director, so there's no separate sign-off. The chosen option becomes the signature's approved template (versioned, with who picked it and when), and is used automatically the next time this signature comes up.
+
+**Retiring a template:** a proxy can look right and still generate poorly. If final images from a template keep disappointing, the operator retires it. The next run for that signature shows fresh options again, and the retired layout is excluded.
 
 **Learning from picks:** count selections per archetype, by market and arrangement style. Over time this reorders archetype ranking (5c/6), so the most-picked composition shows up as option A. It's a small preference table, not a model.
 
@@ -208,7 +222,7 @@ Lookup flow:
 - A small **`scene-core`** function, with no React and no render loop, turns `layout.json` into a three.js scene and renders one frame at the spec's aspect ratio. It runs in headless Chromium (Playwright) or Node with headless GL.
 - **Labels are a 2D overlay** composited after rendering, from projected anchor points. They're always legible, never hidden behind objects, and all use one style (examples 1–3).
 - Passes per option:
-  1. **`labeled.png`**: for the picker, the prompt manifest and debugging.
+  1. **`labeled.png`**: for the operator's pick, the prompt manifest and debugging.
   2. **`clean.png`**: no labels. **This is the one fed to the image model**, so the text "SKU" can't leak into the generated photo.
   3. **`depth.png`** and **`ids.png`** (flat color per role label): for depth / segmentation control and regional prompting, if the workflow accepts them.
   4. **`layout.json`**: signature, archetype, seed, camera parameters, and per-object `{label, role, world transform, 2D bbox, mask color}`, plus the full score and a pass/fail per rule.
@@ -216,7 +230,7 @@ Lookup flow:
 
 ## 9. Integration with the Cultural Prompt Agent
 
-- A `tablescape` tool stage runs after the agent's scene guidance: `SceneSpec → options bundle → user pick → selected proxy attached to the prompt manifest`.
+- A `tablescape` tool stage runs after the agent's scene guidance: `SceneSpec → options bundle → operator pick → selected proxy attached to the prompt manifest`.
 - **Pre-gen validator:** feasibility (5d). If infeasible, the agent revises counts or camera before anything is rendered.
 - **Knowledge base hooks:** cultural modules set `arrangementStyle`, enable or disable archetypes, and reorder archetype preference per market.
 - **Post-gen validator:** compare the generated image's detected SKU bbox with the selected layout's SKU bbox (IoU threshold) to catch drift.
@@ -265,16 +279,13 @@ The solver only needs projection and bounding-box math, so all of it is unit-tes
 ## 13. Testing and quality
 
 - **Golden tests:** fixture spec → options snapshot (archetypes, layouts, scores) → rendered PNG diff in CI.
-- **Rule tests:** one unit test per brand and design rule (SKU occlusion, crop, prominence, overlap, tangents).
+- **Rule tests:** one unit test per brand and design rule (SKU on the diner's right, occlusion, crop, prominence, overlap, tangents). Every option from every fixture is asserted SKU-right, across all camera presets.
 - **Diversity tests:** options from a single spec always pass the distinctness check. Crowded fixtures return fewer than 3 rather than near-duplicates.
 - **Metrics:** template hit rate, pick distribution per archetype (A picked most often means ranking works), and the rate of "none of these" if we add that button.
 
 ## 14. Open questions for the team
 
-1. **SKU side:** is SKU-left allowed (which enables *Mirrored*)? Globally, per market, or per campaign?
-2. **Image workflow inputs:** does the node-based workflow accept depth / segmentation / region masks, or only a reference image plus prompt? This decides which passes in section 8 we build first.
-3. **Label semantics:** role labels (`SKU`, `MAIN`) or content labels (`Coke 8oz`, `tacos al pastor`) in `labeled.png`? Recommendation: role in the image, content in the manifest.
-4. **Who picks:** the prompt operator, an AD, or the client? This affects whether picks should be scoped per user, per campaign or global.
-5. **Is a pick enough approval** to promote a template, or should the final generated image also be approved first?
-6. **SKU prominence range** per camera preset: the most brand-sensitive number in `brand.json`.
-7. **Where it lives:** recommendation is a standalone `tablescape/` package in this repo, with `wpp-scene-composer` kept only as an optional debug viewer.
+1. **Image workflow inputs:** does the node-based workflow accept depth / segmentation / region masks, or only a reference image plus prompt? This decides which passes in section 8 we build first.
+2. **Label semantics:** role labels (`SKU`, `MAIN`) or content labels (`Coke 8oz`, `tacos al pastor`) in `labeled.png`? Recommendation: role in the image, content in the manifest.
+3. **SKU prominence range** per camera preset: the most brand-sensitive number in `brand.json`.
+4. **Where it lives:** recommendation is a standalone `tablescape/` package in this repo, with `wpp-scene-composer` kept only as an optional debug viewer.
