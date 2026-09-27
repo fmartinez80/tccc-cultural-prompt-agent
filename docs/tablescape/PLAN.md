@@ -1,8 +1,18 @@
 # Tablescape Composer — Plan
 
-Turn the Cultural Prompt Agent's scene guidance (table type, entree, number of accompaniments, SKU, camera angle and lens) into a **labeled 3D perspective proxy** of the tablescape. The composer generates **up to 3 layout options** that use the same elements and meet the same requirements. The prompt operator, who is also the art director, picks one, so nobody has to design a layout by hand. Once a layout has been picked for a given combination of elements and camera, it becomes the template and is reused.
+Turn the Cultural Prompt Agent's scene guidance into a **labeled 3D perspective proxy** of the tablescape that follows the CokeMeals composition rules:
+- 30° diner's-eye camera
+- table horizon at or below 50 % of the frame
+- the main entree and SKU as co-heroes
+- 50 / 30 / 20 visual mass across the three layers
+- odd item counts that form depth triangles
 
-Reference proxies we're aiming for: [`reference/`](./reference)
+The composer generates **up to 3 layout options** that use the same elements and meet the same requirements. The prompt operator, who is also the art director, picks one, so nobody has to design a layout by hand. Once a layout has been picked for a given combination of elements and format, it becomes the template and is reused.
+
+Related docs:
+- [`../INTAKE_FLOW.md`](../INTAKE_FLOW.md): the front-end exchange that produces the `SceneSpec` this composer consumes.
+- [`source/composition-rules.md`](./source/composition-rules.md) and [`source/blueprint.schema.json`](./source/blueprint.schema.json): the composition rules and blueprint schema as provided. Section 13 traces every rule to where it's implemented.
+- [`reference/`](./reference): earlier proxy examples. These predate the composition rules: their camera is higher and their table horizon sits above 50 %.
 
 | | |
 |---|---|
@@ -13,279 +23,384 @@ Reference proxies we're aiming for: [`reference/`](./reference)
 
 ## 0. Guiding principles
 
-1. **The LLM decides *what* is on the table. Deterministic code decides *where* it goes.** The Prompt Agent outputs a semantic `SceneSpec`, and a rule-based solver turns it into geometry. The same input always gives the same options.
-2. **Choose, don't design.** The operator never places objects. They see up to 3 finished, rule-compliant proxies and pick one. That pick is the only human input, and because the operator is also the art director, it is the approval.
-3. **SKU always on the diner's right.** Fixed brand rule, not an option (see 2a).
-4. **Batch job, not an app.** Nobody watches the layout come together, so there is no interactive editor in the pipeline: spec in → solve → one render per option → images out.
-5. **Rules come from data, not taste.** Design standards, brand rules and real object sizes live in versioned files, so every option is compliant by construction.
+1. **The LLM decides *what* is on the table. Deterministic code decides *where* it goes.** The composition rules were written as a system prompt for an LLM that outputs coordinates (Part B). We keep every rule, but **the solver implements them in code, and the solver outputs the blueprint JSON (Part A)**. The LLM keeps the parts it's good at:
+   - assigning each item to a layer
+   - choosing the culturally right accent when the odd/even rule adds one
+   - pairing each condiment with its dish
+
+   Why not let the LLM place things:
+   - An LLM can't check projection, occlusion or the horizon clamp.
+   - It gives different coordinates for the same brief.
+   - It can't guarantee 3 distinct options that all comply.
+2. **Choose, don't design.** The operator never places objects. They see up to 3 finished, rule-compliant proxies and pick one. That pick is the approval.
+3. **SKU always on the diner's right.** It's a fixed brand rule (2a), and it matches the composition rule placing the beverage midground-right.
+4. **Batch job, not an app.** Nobody watches the layout come together: spec in → solve → one render per option → images out.
+5. **Rules come from data, not taste.** Composition rules, brand rules and real object sizes live in versioned files, so every option is compliant by construction.
 
 ```
-Prompt Agent ──► SceneSpec ──► signature ──► approved template? ──yes──► cached proxy (no solve, no render)
-                                                  │ no
-                                                  ▼
-                                   Solver: one best layout per archetype
-                                   (design rules + brand rules + known sizes)
-                                                  │
-                                   Pick up to 3 distinct, compliant options
-                                                  │
-                                   Headless render ×N  ──► options bundle (labeled + clean PNG, masks, layout JSON)
-                                                  │
-                               Operator selects 1 ──► promoted to template for this signature
-                                                  │
-                                                  ▼
-                                   Selected proxy + manifest ──► image generation workflow
+Intake flow (../INTAKE_FLOW.md) ──► SceneSpec
+                                       │
+                          Layer classification + odd/even check (agent picks the accent)
+                                       │
+                          signature ──► approved template? ──yes──► cached proxy + blueprint (no solve, no render)
+                                       │ no
+                                       ▼
+                          Solver: one best layout per archetype
+                          (composition rules + brand rules + known sizes)
+                                       │
+                          Pick up to 3 distinct, compliant options
+                                       │
+                          Headless render ×N ──► options bundle (labeled + clean PNG, masks, blueprint.json)
+                                       │
+                          Operator selects 1 ──► promoted to template for this signature
+                                       │
+                                       ▼
+                          Selected proxy + blueprint + prompt manifest ──► image generation workflow
 ```
 
 ---
 
-## 1. Contract first (`SceneSpec`)
+## 1. Contracts
 
-The agent's output format is still WIP, so **the schema is the first deliverable**. It lets the agent and composer tracks move in parallel, and the composer can be built against hand-written fixtures.
+### 1a. Input: `SceneSpec`
+Produced by the intake flow. The full field list and an example are in [`../INTAKE_FLOW.md`](../INTAKE_FLOW.md#resulting-scenespec-example). What the composer relies on:
 
-```jsonc
-{
-  "specVersion": "0.1",
-  "market": "MX",
-  "arrangementStyle": "individual-plated",   // individual-plated | family-style | banchan-grid | street-food
-  "table":  { "shape": "rect", "surface": "wood", "size": "2-top" },
-  "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle" },
-  "entree": { "name": "tacos al pastor", "vessel": "plate", "sizeClass": "L" },
-  "accompaniments": [
-    { "role": "sauce", "vessel": "small-bowl", "sizeClass": "S" },
-    { "role": "side",  "vessel": "bowl",       "sizeClass": "M" }
-  ],
-  "props":  [ { "role": "napkin" } ],
-  "camera": { "preset": "three-quarter-45", "focalLengthMm": 50, "aspect": "16:9" },
-  "options": { "max": 3 }
-}
-```
+| field | used for |
+|---|---|
+| `format.aspectRatio` (1:1, 2:3, 1:3, 3:2, 3:1) | frame shape and table-zone shape |
+| `format.shopperZone` (Transition, Impulse, Destination) | copy reserve blocks in the upper zone |
+| `scene.{setting, venue, party}` | table type/size, arrangement style, environment prompt |
+| `sku.package` | beverage proxy, logo box, seam offset |
+| `entree.{vessel, massClass}` | main proxy footprint and silhouette height |
+| `accompaniments[]` with `role`, `vessel`, `pairsWith` | layer assignment, condiment proximity |
+| `props[]` (napkin, cutlery with `targets`) | Layer 3 props, directional vectors |
 
-Tasks:
-- JSON Schema (or Zod/Pydantic) plus ~20 fixture specs covering markets and edge cases.
-- A **closed vocabulary** for `vessel`, `package`, `role`, `camera.preset` and `arrangementStyle`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the image prompt.
-- Stable **role labels** (`SKU`, `MAIN`, `SIDE_1`, `SAUCE_1`, `PROP_1`). The labels in the proxy, the ID mask and the final prompt manifest use the same strings, so regional prompts map 1:1.
+- **Closed vocabularies** for `vessel`, `role`, `package`, `massClass`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the prompt.
+- **Stable role labels** (`SKU`, `MAIN`, `SIDE_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_1`, `CUTLERY_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest.
+- There are **no camera fields in the spec.** The composition rules fix the camera (section 4).
 
-## 2. Rule sources (what every option must obey)
+### 1b. Output: `blueprint.json` (Part A schema + extensions)
+Every option's layout is emitted as a `CokeMeals3DTablescapeBlueprint` ([schema](./source/blueprint.schema.json)). It's the shared format between the composer, template cache, renderer and prompt manifest. The extensions below are allowed because the schema doesn't forbid extra properties. We should fold them into schema v2:
 
-Three versioned data files drive the solver. Every option is checked against all three, and changing a rule never needs a code change.
+| extension | why it's needed |
+|---|---|
+| `frame.units` `{ x_span_m, z_span_m }` | links normalized coordinates to meters, needed for the 1–3 inch condiment rule and real sizes |
+| `primitives[].role`, `primitives[].pairs_with` | role labels; which dish a condiment belongs to |
+| `primitives[].screen_bbox` `{x0, y0, x1, y1}` | projected silhouette, for the horizon, occlusion and trademark checks |
+| `primitives[].logo_bbox` (beverage only) | trademark clear zone check |
+| `primitives[].shape_type: "curve_path"` + `control_points` | napkin S- and C-curves, which `bounding_box` can't express |
+| `primitives[].injected: true` + `injected_reason` | marks the accent added by the odd/even rule |
+| `layout_meta` `{ archetype, seed, score, rule_results[], signature }` | traceability and template cache |
+| `copy_reserve[]` | copy blocks for the shopper zone in the upper 50 % |
 
-| file | owns | examples |
+## 2. Rule sources
+
+Three versioned data files drive the solver. Changing a rule never needs a code change.
+
+| file | owns | contents (from the composition rules) |
 |---|---|---|
-| `registry/*.json`: **known sizes** | real-world dimensions (m), footprint, height, bottom-center pivot, label anchor | 8 oz contour bottle Ø 6.2 cm × 19.5 cm; dinner plate Ø 27 cm; 2-top table 75 × 75 cm |
-| `rules/brand.json`: **brand rules** | non-negotiables for the SKU | SKU ≤ 5 % occluded, never cropped, upright, logo yawed to camera; SKU height 35–55 % of frame; **SKU on the diner's right (2a)**; min distance from frame edge |
-| `rules/design.json`: **design standards** | composition quality | rule of thirds, visual balance, depth order (tall behind short), spacing ≥ 1.5 cm, no tangents, even negative space, table-edge handling per preset |
+| `registry/*.json`: **known sizes** | real dimensions (m), footprint, height, bottom-center pivot, logo box, label anchor | 8 oz contour bottle Ø 6.2 × 19.5 cm; dinner plate Ø 27 cm; ramekin Ø 7 cm; 2-top 75 × 75 cm… |
+| `rules/brand.json`: **brand rules** | non-negotiables for the SKU | SKU on the diner's right; trademark clear zone; "Coca" script fully visible and in frame; clockwise seam offset; upright |
+| `rules/composition.json`: **composition rules** | CokeMeals layout rules | camera 30°; horizon ≤ 0.50; depth bands; phi-grid anchors; 50/30/20 mass; odd/even; condiment 1–3 in; cutlery vectors; no line-of-sight stacking; side size 40–60 % |
+
+**Hard** rules reject an option and are never relaxed. **Soft** rules are scored, with weights in `composition.json`. Section 13 lists which is which.
 
 ### 2a. SKU placement: always on the diner's right
-
-The SKU always sits to the **right of MAIN, on the diner's right-hand side**. Every market gets the same placement, which avoids cultural problems where use of the left hand while dining is discouraged. The SKU is where a right-handed diner naturally reaches.
-
-How it's enforced:
-- **Defined from the diner's seat, not just the screen.** Each layout has a diner position (the place setting MAIN belongs to). The SKU must be on that diner's right in table coordinates.
-- **Every camera preset shoots from the diner's side of the table** (within ±30° of the diner's line of sight, or overhead with the diner at the bottom of the frame). So the diner's right is always also **screen-right**. A camera across the table would mirror it to screen-left, so no preset is allowed there.
-- **Hard constraint (screen space):** SKU centroid is right of MAIN's centroid, and inside the right half of the frame (target band: the right third).
-- It's a **brand rule with no per-market override**. Cultural modules can change archetype order, but not the SKU side.
-- The same applies to any other drinkware the spec adds (a glass with ice goes with the SKU on the right).
-
-The brand rules are the **hard gate**: an option that fails one is never shown. Design standards are a mix of hard limits (overlap, table margins) and scored preferences (thirds, balance), weighted in `design.json`.
+- The SKU sits to the **right of MAIN, on the diner's right-hand side**, in every market. This avoids cultural problems where use of the left hand while dining is discouraged. It also matches the composition rule: beverage in the midground-right, over the upper-right phi intersection.
+- The diner's right is defined from the diner's seat. The fixed camera shoots from the diner's side, so the diner's right is always **screen-right**.
+- **Hard constraint:** the SKU centroid is right of MAIN's centroid and inside the right half of the frame. It targets the right phi line (x = +0.236).
+- There's no per-market override. Any other drinkware goes on the right with the SKU.
 
 ## 3. Real-scale proxy registry
 
-- Every proxy has real dimensions and a **bottom-center pivot**, so objects sit on the tabletop without guessed spawn heights.
-- SKU proxies per package, built with `LatheGeometry` from real profiles (the contour silhouette matters, see example 1): contour glass 8 / 12 oz, can 12 oz, PET 500 ml, glass with ice. Swap in GLBs later.
-- Vessels (dinner plate, side plate, bowl, sauce bowl, board, basket, tray) and tables (rect / round / square, real sizes).
-- Optional food-mass proxies (sphere / cone, as in example 3) so a heaped entree has its real silhouette height.
-- **Proxies render with one flat, consistent color per role** under fixed lighting, not realistic materials. The image model is the only real viewer, so consistency beats looks.
+- Every proxy has real dimensions and a **bottom-center pivot**, so objects sit on the tabletop without guessed spawn heights. The blueprint's shape types map onto the registry: `cylinder` (beverages, glasses), `flattened_cylinder` (plates, bowls, ramekins), `bounding_box` (cutlery, boards, baskets, foil wraps) and `curve_path` (napkins).
+- **Beverages:** contour glass 8 / 12 oz, can 12 oz, PET 500 ml, glass with ice. They're built with `LatheGeometry` from real profiles, and each has a **logo box** (the "Coca" script region) for the trademark clear zone.
+- **Plating vessels** cover every option the intake's plating step can offer: plate, bowl, board, basket, foil wrap, tray, leaf, paper-lined basket. A plating with no proxy maps to the nearest class.
+- **Food-mass proxies** per `massClass` (flat, heaped, stacked, wrapped) give the entree its real silhouette height. This matters, because the horizon clamp applies to silhouettes.
+- **Props:** ramekins, sauce boats, lime dish, cutlery, and napkins as flat ribbons along a curve.
+- **Proxies render with one flat color per layer or role** under fixed lighting. The image model is the only real viewer, so consistency beats looks.
 
-## 4. Camera model
+## 4. Camera and frame
 
-Each preset is **photographic parameters**, not a fixed position. The preset is part of the locked requirements, so all options share it.
+### 4a. Fixed camera (from the composition rules)
 
-| preset | elevation | azimuth | default lens |
-|---|---|---|---|
-| `eye-level` | 5–10° | 0° | 85 mm |
-| `three-quarter-45` | 30–45° | ±25° | 50 mm |
-| `high-angle` | 60° | 0–20° | 35 mm |
-| `overhead` | 90° | 0° | 35 mm |
+| parameter | value | notes |
+|---|---|---|
+| pitch | **30°** (diner's eye) | schema allows 30–45°. v1 locks 30°. Overhead (90°) and hyper-low (0°) are never used |
+| azimuth | 0° ± 10°, from the diner's side | keeps diner's-right = screen-right |
+| focal length | 50 mm | `fov = 2·atan(24 / (2·50))` full-frame vertical |
+| aperture | f/4–f/5.6 | **prompt-only**: depth of field isn't rendered in the proxy, it's passed to the prompt manifest |
 
-- `fov = 2·atan(24 / (2·focal))` (full-frame vertical), with aspect from the spec.
-- **Auto-fit per option:** elevation, azimuth and lens stay locked. Only camera distance and aim point are solved, so the must-see set (SKU + MAIN + accompaniments) fills the frame at the target coverage within safe margins.
+### 4b. Frame zones
+
+```
+y = 1.0 ┌───────────────────────────────────────────┐
+        │  ENVIRONMENT / CONTEXT ZONE               │  bokeh environment from scene details (prompt-only)
+        │  + copy reserve blocks for shopperZone    │  never table elements
+y = 0.5 ├ ─ ─ ─ ─ ─ ─ table rear edge ≤ here ─ ─ ─ ─ ┤
+        │  TABLE SUBSTRATE ZONE                     │  every table primitive lives here
+        │        ● SKU (upper-right phi, y≈0.309)   │
+        │  ● MAIN (lower-left phi, y≈0.191)         │
+y = 0.0 └───────────────────────────────────────────┘
+```
+
+- **Auto-fit:** pitch, azimuth and lens stay locked. Camera distance, height and aim point are solved so that:
+  - the table's rear edge projects at y ≤ 0.50 (target 0.44–0.50, which uses the table zone fully)
+  - every table primitive's silhouette stays inside the table zone (see open question 1)
+  - MAIN and the SKU land near their phi anchors
+- **Aspect ratios:** all five ShRED / ShopX ratios are supported, and templates are keyed per ratio. The extremes are tight:
+  - **3:1** banners leave a very thin, wide table band.
+  - **1:3** strips leave a narrow table band, which may only fit the co-heroes plus one item.
+
+  The solver returns "infeasible, suggest ≤ N items" rather than breaking a rule.
+- **Copy reserves:** each shopper zone reserves blocks in the upper 50 %. These are recorded in the blueprint and drawn in `labeled.png` only, never in `clean.png`. The block sizes per zone need the ShRED definitions (open question 8).
 
 ## 5. Layout solver
 
-Work in **camera-relative table coordinates**: `x` = screen left↔right and `z` = depth away from the camera, on the tabletop plane. Because every preset shoots from the diner's side, `+x` is also the diner's right. The same rules then apply at any azimuth, and results are rotated into world space at the end.
+### 5.1 Coordinate frame
+The blueprint's normalized frame is defined as follows:
+- **x ∈ [-1, 1]:** lateral position across the table. -1 is left, +1 is right (the diner's right).
+- **z ∈ [0, 1]:** depth. 0 is the immediate foreground at the bottom of the frame, **0.5 is the table's rear edge (the horizon)**, and 1 is far background.
+- **y ∈ [0, 0.50]:** the primitive center's **projected height on the canvas**, from the bottom. The solver derives it from x/z and the camera. It's used to check the clamp, not to place objects.
 
-### 5a. Hard constraints (reject)
-- Footprints don't overlap (gap ≥ 1.5 cm), everything stays on the table with an edge margin, and object counts match the spec exactly.
-- All brand rules in `brand.json` (SKU on the diner's right, visibility, cropping, orientation, prominence range).
-- MAIN ≤ 15 % occluded and never cropped.
+The solver works in meters internally (real sizes, the 1–3 inch rule) and converts to the normalized frame for output, recording the scale in `frame.units`.
 
-### 5b. Soft score (screen space)
-Project each object's 3D bounding box through the camera to 2D (pure math, no rendering), then score:
+Depth bands (from the rules):
 
-| term | intent |
+| band | z | holds |
+|---|---|---|
+| immediate foreground | 0.0–0.2 | MAIN only |
+| midground | 0.2–0.4 | SKU + Layer 2 sides |
+| rear table margin | 0.4–0.5 | Layer 3 accents only, if needed |
+| background | > 0.5 | never table elements (environment, prompt-only) |
+
+### 5.2 Pre-step: layers and the odd/even engine
+1. **Classify** every item into a layer. The agent does this with the closed role vocabulary:
+   - **Layer 1, Primary Co-Heroes:** MAIN + SKU.
+   - **Layer 2, Secondary:** sides, starches, salads, sharing bowls, bread baskets.
+   - **Layer 3, Tertiary:** ramekins, sauces, garnishes, napkins, cutlery.
+2. **Count N** = MAIN + SKU + Layer 2 + ramekins / sauces / garnishes + napkins. Cutlery is not counted, since it's a directional prop (open question 4).
+3. **If N is even:** the solver requests one Layer 3 accent. The **agent picks what it is** from the region's knowledge base (lime dish, pickled onions, kimchi, chutney ramekin…) and falls back to a plain ramekin. The accent is marked `injected: true` and shown in the meal summary as "added for composition", where the operator can swap it.
+4. **Side-size check:** each Layer 2 vessel should be 40–60 % of the MAIN vessel's size. Real sizes are never rescaled, because that would make the proxy lie. If a side breaks the rule, the intake's sides step warns (open question 6).
+
+### 5.3 Hard constraints (reject the option)
+
+| # | rule | check |
+|---|---|---|
+| H1 | Horizon clamp | table rear edge projects at y ≤ 0.50 |
+| H2 | Table zone | every table primitive's `screen_bbox.y1` ≤ 0.50 |
+| H3 | Depth bands | MAIN z ∈ [0, 0.2]; SKU and Layer 2 z ∈ [0.2, 0.4]; Layer 3 z ≤ 0.5 |
+| H4 | SKU right | SKU x > MAIN x, SKU in the right half |
+| H5 | Trademark clear zone | nothing overlaps the SKU's `logo_bbox` + margin in screen space; the "Coca" script is fully in frame |
+| H6 | Seam offset | SKU yaw = camera-facing + clockwise offset (`brand.json`, default 12°, to confirm); roll and pitch 0 (upright) |
+| H7 | No line-of-sight stacking | a nearer item may cover at most 30 % of the width of an item directly behind it; sides are never directly behind MAIN |
+| H8 | Condiment proximity | edge-to-edge gap to the `pairs_with` dish is 2.5–7.6 cm (1–3 in) |
+| H9 | Cutlery vectors | the handle→tip axis points within ±15° of its target's center; no handle points toward the frame edge; fully in frame |
+| H10 | Odd count | N (after the odd/even step) is odd |
+| H11 | Physical | footprints don't overlap (gap ≥ 1.5 cm, except condiments meant to sit on their dish); everything on the table |
+| H12 | Co-heroes visible | MAIN ≤ 15 % occluded and not cropped at the sides |
+
+### 5.4 Soft score (screen space)
+Each primitive is projected through the camera: analytic silhouettes for the solver, and the ID pass for the final check. The score terms:
+
+| term | intent (source rule) |
 |---|---|
-| `skuProminence` | SKU height near the brand target within its range |
-| `heroArea` | MAIN is the largest 2D area |
-| `thirds` | SKU and MAIN centroids near rule-of-thirds lines / intersections |
-| `balance` | visual-weight centroid near frame center |
-| `depthOrder` | tall objects behind short ones relative to camera |
+| `phiAnchors` | MAIN near the lower-left phi point of the table zone (x -0.236, y 0.191), SKU near the upper-right point (x +0.236, y 0.309) |
+| `goldenTriangle` | MAIN → SKU sits along the golden-triangle diagonal |
+| `visualMass` | projected area share per layer is close to 50 / 30 / 20 (tolerance ± 5 pts, see open question 3) |
+| `depthTriangles` | odd groups form real triangles in x–z (no three items in a line), per the depth-loop rule |
+| `lateralStagger` | midground items staggered diagonally or laterally behind MAIN |
+| `napkinFlow` | the napkin curve passes through a midground gap, S- or C-shaped |
+| `leadingLines` | cutlery and napkin lead the eye toward MAIN or the SKU |
 | `breathingRoom` | even negative space, no tangents between objects or with the frame edge |
-| `occlusionSoft` | accompaniments overlapping each other > 20 % is penalized |
-| `tableEdge` | table front edge handled consistently per preset (examples 1–2) |
+| `horizonUse` | the table rear edge is close to 0.50, using the table zone fully |
 
-`score = Σ wᵢ·termᵢ`, with weights in `design.json`.
+`score = Σ wᵢ·termᵢ`, with weights in `composition.json`.
 
-### 5c. Composition archetypes
+### 5.5 Archetypes
+The co-heroes are anchored by the rules (MAIN front-left, SKU mid-right), so the archetypes vary **how the Layer 2 and 3 items sit around them**. Each archetype is a named slot map in the normalized frame.
 
-An archetype is a named slot map: where MAIN, SKU, accompaniments and props may go, in normalized table coordinates. Each archetype is a recognizable composition idea, so the options differ in a way people can see. **All archetypes keep the SKU right of MAIN.** They vary depth, spacing and how the accompaniments balance the frame, never the SKU side.
+| archetype | idea | Layer 2 / 3 placement | default when |
+|---|---|---|---|
+| **Triangle Loop** | depth loop MAIN → SKU → accent | accent / side at far-left midground; more items build nested triangles | N = 3 (the rules' 2 + 1 case) |
+| **Crescent Arc** | secondaries wrap behind MAIN | 3+ items in a midground arc from left to center, behind MAIN | N = 5 (the rules' 4 + 1 case) |
+| **Diagonal Stagger** | leading line into the SKU | items stepped along a diagonal from front-left toward the SKU | N ≥ 5 alternative |
+| **Counterweight** | mass balances the SKU | secondaries grouped mid-left, opposite the SKU | N ≥ 5 alternative |
 
-| archetype | idea | MAIN | SKU | accompaniments |
-|---|---|---|---|---|
-| **Classic** | calm, centered hero | center / lower-left third | right third, beside and slightly behind MAIN | back arc |
-| **Diagonal** | leading line toward the SKU | foreground left | mid-depth right | back right, continuing the diagonal |
-| **SKU Forward** | brand-led, drink shares the hero | center-right, pushed back slightly | front-right, beside MAIN | back left, balancing the SKU |
-| **Counterweight** | accompaniments grouped as one mass | center | right third | clustered on the left as a counterweight |
-| **Tall Back** | depth-led, SKU framed by the table | front-center | back-right, behind MAIN's right edge | flanking left and front-left |
+Napkin shape (S or C) and cutlery target (MAIN or SKU) are variants within an archetype. Arrangement styles for group and family scenes bring their own archetype sets (open question 9). A market can reorder archetypes but not break any rule.
 
-Arrangement styles bring their own archetype sets (for example family-style: *Shared Center*, *Offset Share*; banchan-grid: *Grid Back*, *Grid Wrap*). This is also where cultural modules plug in: a market can enable, disable or reorder archetypes.
+### 5.6 Search (per archetype)
+1. Place the co-heroes near their phi anchors, then enumerate slot assignments for Layer 2 and 3 (small: usually < 200 combinations).
+2. Auto-fit the camera, then reject on hard constraints.
+3. Score, and refine the top-k with a **seeded** jitter pass (positions ± 3 cm, non-SKU yaw, napkin control points).
+4. Keep the best layout for the archetype, or mark the archetype infeasible.
 
-### 5d. Search (per archetype)
-1. Enumerate slot assignments within the archetype (small: usually < 200 combinations).
-2. Reject on hard constraints, then score.
-3. Refine the top-k with a small **seeded** jitter pass (position ± 3 cm, yaw of non-SKU items) and keep improvements.
-4. Auto-fit the camera, then re-score, since framing changes screen-space terms.
-5. Keep the single best layout for this archetype, or mark the archetype infeasible.
-
-If **no** archetype yields a valid layout, return an infeasible result with a relaxation suggestion (for example "max 3 accompaniments at close-up on a 2-top") to feed back to the agent.
+If no archetype is feasible, return an infeasible result with a relaxation suggestion, such as "1:3 fits at most 3 items" or "drop one side", to feed back to the intake.
 
 ## 6. Generating up to 3 options
 
-### Locked across all options (the requirements)
-- The same elements: SKU, entree, every accompaniment and prop, with the same vessels, sizes and counts.
-- The same table, camera preset (elevation, azimuth, lens) and aspect ratio.
-- The same brand rules and design limits. Every option passes every hard constraint.
+**Locked across options:**
+- elements, vessels and counts, including the injected accent
+- format (aspect ratio, shopper zone)
+- camera
+- every hard rule
 
-### Allowed to vary
-- Which archetype, and so which slot each element occupies.
-- Exact x/z positions and the yaw of non-SKU items.
-- Camera distance and aim point, via auto-fit only.
+**Allowed to vary:**
+- archetype and slot assignment
+- Layer 2 and 3 positions, napkin shape and cutlery target
+- small co-hero shifts around their phi anchors
+- camera distance and aim, via auto-fit
 
-### Selection algorithm
-1. Solve every archetype enabled for this arrangement style and market (5d).
-2. Rank the feasible ones by score. Break ties with the market's archetype preference order and past selections (section 7).
-3. Pick greedily down the ranking. Add a candidate only if it is **visibly different** from every option already picked:
-   - it is a different archetype, **and**
-   - the mean screen-space displacement of role centroids (SKU, MAIN, accompaniments) is ≥ 12 % of frame width, **or** the SKU's depth relative to MAIN changes (front / beside / behind). The SKU side is fixed, so it's never a source of variation.
-4. Stop at `options.max` (default 3).
-5. **Never pad.** If only 1 or 2 distinct compliant layouts exist (a crowded small table, for example), return 1 or 2. A near-duplicate is worse than fewer choices.
+**Selection:**
+1. Solve every enabled archetype (5.6).
+2. Rank by score. Break ties with past picks for this market (section 7).
+3. Pick greedily. An option is added only if it's a different archetype **and** its Layer 2 and 3 role centroids move ≥ 10 % of frame width on average versus every option already picked. Co-heroes are anchored, so they don't count toward difference.
+4. Stop at 3. **Never pad.** Small scenes have fewer ways to comply: N = 3 (main + SKU + accent) is nearly prescribed by the rules, so expect 1–2 options there, and 3 for N ≥ 5.
 
-### Options bundle
-
+**Bundle:**
 ```
 out/<runId>/
-  options.json            # per option: archetype, score breakdown, one-line rationale, signature
-  contact-sheet.png       # the options side by side with A / B / C badges, for the picker UI
-  A/ labeled.png  clean.png  depth.png  ids.png  layout.json
-  B/ ...
-  C/ ...
+  options.json            # per option: archetype, score breakdown, rule results, one-line rationale
+  contact-sheet.png       # A / B / C side by side for the operator's pick
+  A/ labeled.png  clean.png  depth.png  ids.png  blueprint.json
+  B/ …
+  C/ …
 ```
-
-Each option carries a short, generated **rationale** from its archetype and top score terms, for example *"Diagonal: leading line from entree to SKU; SKU at 48 % frame height"*. It gives the operator something to decide on besides taste.
-
-### Picking
-The operator sees the contact sheet and picks A, B or C. Nothing else to do. Optional later: "show more" returns the next distinct archetypes if any remain.
+Each option has a one-line rationale, for example *"Crescent Arc: sides wrap behind the tacos; napkin C-curve leads to the bottle; mass 51/29/20"*.
 
 ## 7. Templates (reuse what was picked)
 
-A **signature** is a key over everything that's locked:
-
+A **signature** is a key over everything locked:
 ```
-rect-2top | three-quarter-45 | 50mm | 16:9 | sku:contour-8oz | main:plate | acc:sauce(small-bowl),side(bowl) | props:napkin | individual-plated | proxyset:v3
+diners-eye-30 | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
 ```
 
-Lookup flow:
-1. **Approved template exists** for the signature: return that cached proxy and layout directly, with **no solve and no render**. Optionally include the other cached options if the operator asks to see alternatives.
-2. **No approved template, but cached options exist**, from an earlier run whose options were never picked: return them again (deterministic, so identical).
-3. **Near hit** (same except, say, one extra accompaniment): use the approved layout as the solver's starting point for its archetype, and solve the others normally.
-4. **Miss:** full solve and render, then cache all options under the signature.
+**Lookup:**
+1. **Approved template exists:** return the cached proxy and blueprint, with no solve and no render.
+2. **Cached options exist but none was picked:** return them again.
+3. **Near hit** (one item different): seed the solver from the approved layout.
+4. **Miss:** full solve, then cache.
 
-**Promotion:** the operator's pick is the approval. The operator is the art director, so there's no separate sign-off. The chosen option becomes the signature's approved template (versioned, with who picked it and when), and is used automatically the next time this signature comes up.
+**Promotion and upkeep:**
+- **Promotion:** the operator's pick is the approval and becomes the signature's template (versioned, with who picked it and when).
+- **Retire:** if final images from a template keep disappointing, the operator retires it. The next run shows fresh options, excluding it.
+- **Learning:** pick counts per archetype, by market and scene, reorder the ranking.
+- **Invalidation:** `proxyset` and `rules` versions are in the key. Any change to a size or rule re-validates approved templates and flags failures for a re-pick.
 
-**Retiring a template:** a proxy can look right and still generate poorly. If final images from a template keep disappointing, the operator retires it. The next run for that signature shows fresh options again, and the retired layout is excluded.
+## 8. Rendering and outputs (headless, one frame per option)
 
-**Learning from picks:** count selections per archetype, by market and arrangement style. Over time this reorders archetype ranking (5c/6), so the most-picked composition shows up as option A. It's a small preference table, not a model.
-
-**Invalidation:** `proxyset:vN` and the rules-file versions are part of the cache key. Changing a bottle profile, plate size, brand rule or weight invalidates old images automatically. Approved templates re-validate against the new rules and are flagged for a re-pick if they fail.
-
-## 8. Rendering (headless, one frame per option)
-
-- A small **`scene-core`** function, with no React and no render loop, turns `layout.json` into a three.js scene and renders one frame at the spec's aspect ratio. It runs in headless Chromium (Playwright) or Node with headless GL.
-- **Labels are a 2D overlay** composited after rendering, from projected anchor points. They're always legible, never hidden behind objects, and all use one style (examples 1–3).
+- A small **`scene-core`** function, with no React and no render loop, turns `blueprint.json` into a three.js scene and renders one frame at the spec's aspect ratio. It runs in headless Chromium (Playwright) or Node with headless GL.
 - Passes per option:
-  1. **`labeled.png`**: for the operator's pick, the prompt manifest and debugging.
-  2. **`clean.png`**: no labels. **This is the one fed to the image model**, so the text "SKU" can't leak into the generated photo.
-  3. **`depth.png`** and **`ids.png`** (flat color per role label): for depth / segmentation control and regional prompting, if the workflow accepts them.
-  4. **`layout.json`**: signature, archetype, seed, camera parameters, and per-object `{label, role, world transform, 2D bbox, mask color}`, plus the full score and a pass/fail per rule.
-- Because nobody watches the build, **validators are the quality gate.** Any hard-rule failure after rendering fails the run loudly, never quietly ships a frame.
+  1. **`labeled.png`**: role labels as a 2D overlay, plus the horizon line and copy-reserve blocks. For the operator's pick and debugging.
+  2. **`clean.png`**: no labels, lines or blocks. **This is what the image model gets.**
+  3. **`depth.png`** and **`ids.png`** (flat color per role): for depth / segmentation control and regional prompting, if the workflow supports them. `ids.png` also measures visual mass exactly.
+  4. **`blueprint.json`**: Part A plus extensions, including every rule's pass/fail result.
+- **Validators are the quality gate.** Hard rules are re-checked on the rendered ID mask. A failure fails the run loudly and never ships a frame.
+- **Prompt-only rules** travel in the prompt manifest, not the proxy:
+  - aperture / depth of field
+  - environment and bokeh content for the upper zone
+  - ≤ 2.5 background faces
+  - the "Coca" script slanting diagonally upward, which is inherent to an upright bottle facing the camera
 
 ## 9. Integration with the Cultural Prompt Agent
 
-- A `tablescape` tool stage runs after the agent's scene guidance: `SceneSpec → options bundle → operator pick → selected proxy attached to the prompt manifest`.
-- **Pre-gen validator:** feasibility (5d). If infeasible, the agent revises counts or camera before anything is rendered.
-- **Knowledge base hooks:** cultural modules set `arrangementStyle`, enable or disable archetypes, and reorder archetype preference per market.
-- **Post-gen validator:** compare the generated image's detected SKU bbox with the selected layout's SKU bbox (IoU threshold) to catch drift.
-- The **selected proxy and layout are stored with the final image** as the record of what was decided.
+- **Intake flow → `SceneSpec`** ([`../INTAKE_FLOW.md`](../INTAKE_FLOW.md)). The layout pick is the flow's last decision step and uses the same A (suggested) / B / C card as the meal steps.
+- **Agent responsibilities in the composer:** layer classification, the accent choice for the odd/even rule, and `pairsWith` links.
+- **Feasibility feedback:** infeasible results go back to the sides or format step with a concrete suggestion.
+- **Post-gen validators:**
+  - the SKU's detected box matches the blueprint's SKU box (IoU)
+  - the table horizon in the generated image is ≤ 0.50
+  - the logo isn't covered
+  - the face count in the background is within the rule
+- The **selected proxy and blueprint are stored with the final image** as the record of what was decided.
 
 ## 10. What to reuse from `wpp-scene-composer`
 
 | Keep | Drop from the pipeline / change |
 |---|---|
-| Lighting + shadow setup (`Canvas3D.jsx`) → moves into `scene-core` | React canvas, render loop, resize handling, raycast selection |
-| Geometry builders (`objectGeometries.js`) → become the registry | Scales aren't real-world (plate is 0.8 m across on a 2 m table), and pivots are centered (hence `spawnHeight 0.85`). Switch to meters and bottom pivots |
-| Object model `{id, type, category, label, position, rotation, scale}` | Add `role` and `slot`, and make `label` the canonical role label |
-| Camera preset list (`CameraPresets.jsx`) | Presets become elevation / azimuth / lens + auto-fit, with no tween animation |
-| Aspect ratios offered | Aspect comes from the spec and drives the renderer directly |
-| — | TransformGizmo, CategoryPicker, LayersPanel, LOAD/SAVE/EXPORT UI: not needed. The composer can stay as an **optional debug viewer** that opens a `layout.json` |
+| Lighting + shadow setup (`Canvas3D.jsx`) → `scene-core` | React canvas, render loop, resize handling, raycast selection |
+| Geometry builders (`objectGeometries.js`) → registry | Scales aren't real-world (plate is 0.8 m across on a 2 m table), and pivots are centered (hence `spawnHeight 0.85`). Switch to meters, bottom pivots and the blueprint shape types |
+| Object model `{id, type, category, label, position, rotation, scale}` | Replace with blueprint primitives (`layer`, `role`, `shape_type`…) |
+| Aspect-ratio selector | Use the five ShRED ratios, driven by the spec |
+| — | CameraPresets (the camera is fixed), TransformGizmo, CategoryPicker, LayersPanel, LOAD/SAVE UI. The composer can stay as an **optional debug viewer** for `blueprint.json` |
 
 ## 11. Module layout
 
 ```
 tablescape/
-  schema/        SceneSpec, Layout, Options, Template JSON schemas + fixtures
-  registry/      known sizes: real-scale proxies (lathe profiles, vessels, tables)
-  rules/         brand.json, design.json, archetypes/*.json (slot maps per arrangement style)
-  camera/        preset → camera params, auto-fit
-  solver/        constraints, scoring, per-archetype search, option selection + diversity
-  templates/     signature(), lookup, cache, approvals, selection counts
-  render/        scene-core (three.js), label overlay, depth / ID passes, contact sheet, headless runner
+  schema/        SceneSpec, Blueprint (Part A + extensions), Options, Template schemas + fixtures
+  registry/      known sizes: beverages (+ logo boxes), plating vessels, food-mass, props, tables
+  rules/         brand.json, composition.json, archetypes/*.json, shopper-zones.json
+  camera/        fixed diner's-eye camera, auto-fit, horizon clamp
+  solver/        layer + odd/even pre-step, constraints H1–H12, scoring, archetype search, option selection
+  templates/     signature(), lookup, cache, approvals, pick counts
+  render/        scene-core, label / horizon / copy-reserve overlay, depth + ID passes, contact sheet, headless runner
   cli/           `tablescape options spec.json --out ./out`
                  `tablescape select <runId> B`
 ```
-
-The solver only needs projection and bounding-box math, so all of it is unit-testable without WebGL.
+The solver only needs projection and footprint math, so it's unit-testable without WebGL.
 
 ## 12. Phased roadmap
 
 | Phase | Deliverable | Done when |
 |---|---|---|
-| **0: Contract + rules** | `SceneSpec` schema and fixtures; registry with real sizes incl. contour bottle; first `brand.json` / `design.json` signed off by brand + AD | Agent and composer teams both code against it |
-| **1: Render from JSON** | `scene-core` + headless runner + label overlay: hand-written `layout.json` → labeled / clean PNG | Example 2 reproduced from JSON alone |
-| **2: Solver, one option** | Constraints, scoring, camera auto-fit, *Classic* archetype for `individual-plated` | Every fixture gives a compliant layout or a clear infeasible result, deterministic per seed |
-| **3: Three options** | Remaining archetypes, diversity selection, options bundle + contact sheet, rationale text | Fixtures return up to 3 visibly distinct, all-compliant options; never pads |
-| **4: Pick → template** | Signature cache, selection = approval, template lookup bypasses solve + render, selection counts reorder archetypes | Repeat specs return the approved proxy instantly |
-| **5: Pipeline hookup** | Agent tool stage, feasibility feedback, clean / depth / ID passes into the image workflow, post-gen SKU IoU | End-to-end: agent → options → pick → final image |
-| **6: Scale out** | Family-style, banchan-grid, street-food archetype sets; per-market archetype preferences | Template hit rate and option-A pick rate tracked |
+| **0: Contracts + rules** | `SceneSpec` v0.2 (from the intake flow), blueprint schema v2 (Part A + extensions), `brand.json` / `composition.json` from the composition rules, open questions 1–8 answered | Agent, intake and composer all code against the same schemas |
+| **1: Render from blueprint** | Registry at real scale; `scene-core` + headless runner + overlays: hand-written `blueprint.json` → labeled / clean / ID PNG | A hand-written N = 3 blueprint renders with the horizon at ≤ 0.50 |
+| **2: Solver, one option** | Camera auto-fit, odd/even pre-step, H1–H12, scoring, *Triangle Loop* | Every N = 3 fixture passes all hard rules, deterministic per seed |
+| **3: Three options** | *Crescent Arc*, *Diagonal Stagger*, *Counterweight*; diversity selection; bundle + contact sheet + rationale | N ≥ 5 fixtures return 3 distinct, compliant options; all five aspect ratios handled or reported infeasible |
+| **4: Pick → template** | Signature cache, pick = approval, template bypass, pick counts | Repeat specs return the approved proxy instantly |
+| **5: Pipeline hookup** | Intake decision cards → SceneSpec → options → pick → manifest; post-gen validators | End-to-end run from intake to final image |
+| **6: Scale out** | Group and family arrangement styles, on-the-go mode (if in scope), shopper-zone copy reserves | Template hit rate and option-A pick rate tracked |
 
-## 13. Testing and quality
+## 13. Rule traceability
 
-- **Golden tests:** fixture spec → options snapshot (archetypes, layouts, scores) → rendered PNG diff in CI.
-- **Rule tests:** one unit test per brand and design rule (SKU on the diner's right, occlusion, crop, prominence, overlap, tangents). Every option from every fixture is asserted SKU-right, across all camera presets.
-- **Diversity tests:** options from a single spec always pass the distinctness check. Crowded fixtures return fewer than 3 rather than near-duplicates.
-- **Metrics:** template hit rate, pick distribution per archetype (A picked most often means ranking works), and the rate of "none of these" if we add that button.
+| Source rule | Implemented as | Where |
+|---|---|---|
+| ~30° diner's-eye camera; no overhead or hyper-low | fixed camera | 4a |
+| Table rear edge ≤ Y 0.50 | **H1** + auto-fit | 4b, 5.3 |
+| All table items in the lower 50 % | **H2** | 5.3 (open question 1) |
+| Upper 50 % for bokeh + ShRED copy | environment is prompt-only; `copy_reserve[]` | 4b, 8 |
+| MAIN at Z 0–0.2; beverage + sides at Z 0.2–0.4; nothing on the table at Z > 0.5 | **H3** | 5.1, 5.3 |
+| MAIN at lower-left phi; beverage at upper-right phi / golden triangle | `phiAnchors`, `goldenTriangle` (table-zone phi grid) | 5.4 (open question 2) |
+| 50 / 30 / 20 visual mass | `visualMass` soft score, measured on `ids.png` | 5.4 (open question 3) |
+| Sides 40–60 % smaller than MAIN | selection-time warning, never rescaled | 5.2 (open question 6) |
+| Stagger sides diagonally or laterally behind MAIN | `lateralStagger` + **H7** | 5.3, 5.4 |
+| Don't stack along the line of sight | **H7** | 5.3 |
+| Even N → inject +1 Layer 3 accent; form depth triangles | odd/even pre-step + **H10** + `depthTriangles`; Triangle Loop / Crescent Arc defaults | 5.2, 5.5 |
+| Condiments within 1–3 in of their dish | **H8** (via `pairs_with`) | 5.3 |
+| Cutlery points inward; never off-canvas | **H9** + `leadingLines` | 5.3, 5.4 |
+| Napkin S- / C-curves through midground gaps | `curve_path` shape + `napkinFlow` | 1b, 5.4 (open question 7) |
+| Clockwise seam offset on bottles / cans | **H6** | 5.3 (open question 5) |
+| Trademark clear zone; nothing overlaps the logo box | **H5** | 5.3 |
+| "Coca" fully visible, in focus, slanting upward, even if tightly cropped | **H5** (in frame and uncovered); focus and slant are prompt-only | 5.3, 8 |
+| f/4–f/5.6 depth of field | prompt manifest | 8 |
+| ≤ 2.5 faces in the background | prompt manifest + post-gen check | 8, 9 |
+| SKU on the diner's right (our rule) | **H4** | 2a |
 
-## 14. Open questions for the team
+## 14. Testing and quality
 
-1. **Image workflow inputs:** does the node-based workflow accept depth / segmentation / region masks, or only a reference image plus prompt? This decides which passes in section 8 we build first.
-2. **Label semantics:** role labels (`SKU`, `MAIN`) or content labels (`Coke 8oz`, `tacos al pastor`) in `labeled.png`? Recommendation: role in the image, content in the manifest.
-3. **SKU prominence range** per camera preset: the most brand-sensitive number in `brand.json`.
-4. **Where it lives:** recommendation is a standalone `tablescape/` package in this repo, with `wpp-scene-composer` kept only as an optional debug viewer.
+- **Golden tests:** fixture spec → options snapshot (archetypes, blueprints, scores) → PNG diff in CI.
+- **Rule tests:** one unit test per hard rule, H1–H12. Every option from every fixture is asserted to pass all of them across all five aspect ratios.
+- **Odd/even tests:** N = 2, 4, 6 inputs always gain exactly one accent. Odd inputs never do.
+- **Diversity tests:** options from one spec always pass the distinctness check. Small scenes return fewer rather than near-duplicates.
+- **Metrics:** template hit rate, pick distribution per archetype, visual-mass error, and post-gen SKU IoU.
+
+## 15. Open questions
+
+Questions about the composition rules. Answers go into `composition.json` / `brand.json`:
+
+1. **Horizon clamp scope.** Read literally, *every* item's full silhouette must stay below y = 0.50. That caps how tall the bottle can appear, since it stands in the midground and its top can't cross the midline. Is that intended, or may tall beverages rise above the line as long as their base and the table stay below?
+2. **Phi grid frame.** The upper-right phi point of the full canvas is at y ≈ 0.618, which is above the horizon. v1 applies the phi grid **within the table zone** (anchors at y 0.191 and 0.309). Confirm, or tell us whether the beverage's visual center should target the full-canvas point, which only works if question 1 allows tall items to rise.
+3. **Visual mass.** Should it be measured as the share of projected area? What tolerance? And when a layer is empty (for example main + SKU + accent has no Layer 2), how should 50 / 30 / 20 apply? Proposed: enforce the split only when all three layers are present, otherwise Layer 1 ≥ 50 % and Layer 3 ≤ 20 %.
+4. **What counts toward N?** The N = 4 example adds a napkin, so napkins count. Proposed: MAIN, SKU, sides, condiments and napkins count; cutlery doesn't.
+5. **Seam offset value.** How many degrees clockwise (viewed from above), and what margin around the logo box for the trademark clear zone?
+6. **"40–60 % smaller".** Should a side be 40–60 % *of* the entree's size, or 40–60 % *smaller than* it (that is, 40–60 % of the size vs 60–40 %)? Is it measured by diameter or by area?
+7. **Napkin curves** need a curve shape. OK to add `curve_path` to the schema?
+8. **ShRED shopper zones.** We need the copy-reserve blocks for Transition, Impulse and Destination, and what "humanity presence" means for the proxy (hands in frame?).
+9. **2-person and group scenes.** The rules assume one co-hero pair. See [`../INTAKE_FLOW.md`](../INTAKE_FLOW.md#gaps-to-decide), gap 3.
+
+Pipeline questions (carried over):
+
+10. **Image workflow inputs:** does the workflow accept depth / segmentation / region masks, or only a reference image plus prompt?
+11. **Label semantics:** role labels (`SKU`, `MAIN`) in `labeled.png` and content labels in the manifest (recommended)?
+12. **Where it lives:** a standalone `tablescape/` package in this repo, with `wpp-scene-composer` as an optional debug viewer (recommended)?
