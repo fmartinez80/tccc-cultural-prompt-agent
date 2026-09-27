@@ -72,7 +72,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 | `scene.time` (+ setting, venue) | lighting preset → prompt sentence + proxy light rig |
 | `scene.{setting, venue, party, surface}` | surface type and size (table, park table, bench, food-truck counter…), number of place settings, environment prompt |
 | `sku.package`, `sku.volumeMl` | beverage proxy, logo box |
-| `sku.glass` (Y/N; locked Y for SKUs over 1 L, hidden N on the go) | adds a branded bell glass to every place setting |
+| `sku.glass` (Y/N; locked Y for SKUs of 1 L and up, hidden N on the go) | adds a branded bell glass to every place setting |
 | `entree.{vessel, massClass}` | main proxy footprint and silhouette height |
 | `accompaniments[]` with `role`, `vessel`, `pairsWith` | layer assignment, condiment proximity |
 | `props[]` (napkin set: napkin shape + cutlery on top, with `targets`) | one Layer 3 prop, directional vectors |
@@ -118,14 +118,14 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 
   | venue | SKU under 1 L | SKU 1 L and up (large, shared) |
   |---|---|---|
-  | home | glass optional (intake Y/N) | **one shared bottle for the table**. Glass required when the SKU is over 1 L |
+  | home | glass optional (intake Y/N) | **one shared bottle for the table, glass required** |
   | restaurant | glass optional (intake Y/N) | **not allowed** |
   | on the go | **no glass** | **not allowed** |
 
   - **Large SKUs (1 L and up) are shared:** one bottle for the table, placed in the center third between the place settings, never one bottle per diner.
   - **Large SKUs appear only at home**, never at restaurants or on the go. The intake enforces this in both directions.
   - **Glasses never appear on the go.** The glass question is hidden there.
-  - **SKUs over 1 L require a glass:** the question is answered Y and locked. Otherwise the operator decides (default N).
+  - **Large SKUs (1 L and up) require a glass**, because diners pour from the shared bottle: the question is answered Y and locked. Otherwise the operator decides (default N).
   - Whenever glasses are in the scene, **every place setting gets one**.
 - **When the glass is present** (label `GLASS`), it sits **beside the bottle, on the MAIN side**, slightly forward of it. It's close to the meal, in the center third, on the diner's right, and it never covers the bottle's logo box. Both logos face the camera head-on, and the trademark clear zone (H5) and head-on rule (H6) apply to both. In 2-person scenes each diner gets one.
 - **When it's absent**, the bottle is the only logo'd element, and every rule below that mentions the glass simply skips it.
@@ -559,7 +559,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 - **Aspect ratio:** every template renders at **16:9**; ShRED ratios are cropped in post (4b, H14).
 - **Crop protection:** hero meal + SKU (+ glass, when present) stay in the vertical center third, so every priority crop holds at least one complete logo'd element plus part of the meal (4b, H14).
 - **Priority crops:** 16:9 (master), 1:1, 4:5, 2:3, 3:2, 5:4, 9:16.
-- **SKU size, venue and glass:** SKUs of 1 L and up are shared (one bottle per table) and appear only at home. Glasses never appear on the go. SKUs over 1 L require a glass (locked Y). Otherwise the operator's intake Y/N decides, and every place setting gets a glass when there are glasses (2a, `glass-rules.json`).
+- **SKU size, venue and glass:** SKUs of 1 L and up are shared (one bottle per table) and appear only at home. Glasses never appear on the go. SKUs of 1 L and up also require a glass (locked Y). Otherwise the operator's intake Y/N decides, and every place setting gets a glass when there are glasses (2a, `glass-rules.json`).
 - **On the go:** always on a surface (park table, bench, food-truck counter…), never in a hand (5.6).
 - **Drinks:** the SKU is the only drink, for every diner. Every diner has the same place setting (5.6).
 - **Knowledge scope:** OU owns the rules; cultural knowledge is per country (9).
@@ -573,7 +573,7 @@ Composition:
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
 4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
-5. **The 1 L edge:** a 1 L bottle is shared, but the glass is only *required* above 1 L. Should a shared 1 L bottle also require glasses (Y locked), since diners pour from it? Proposed: yes, making the rule "1 L and up: shared, glass required".
+5. **Shared bottle, 1-person scenes:** a large SKU at home with one diner shows the bottle plus one glass. Is a large shared bottle realistic for a 1-person scene, or should large SKUs require 2+ people?
 6. **Does the glass count toward odd/even?** Proposed: yes, it's a separate object. With a glass, main + bottle + glass = 3 is already odd. Without it, main + bottle = 2 still gets the added accent.
 
 Pipeline:

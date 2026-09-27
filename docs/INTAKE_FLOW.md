@@ -45,7 +45,7 @@ Each option keeps its **rationale and knowledge-base sources**, so the cultural-
 | Operating Unit | **owns the rules:** brand and legal rule set, and the SKU catalog available in that OU | `operatingUnit` |
 | Local Region (country) | **cultural knowledge is per country** (how the dish is prepared, plated and served locally). It may later be clustered by OU; v1 is country-specific | `country` (ISO code, e.g. `MX`) |
 | Product SKU | beverage proxy (package, size) and trademark rules | `sku.id`, `sku.package`, `sku.volumeMl` |
-| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **Hidden (N) on the go**, where glasses never appear. **SKUs over 1 L require a glass**, so the answer is Y and locked. Otherwise the operator chooses (default N). Asked after the scene step, since it depends on the venue (`tablescape/glass-rules.json`) | `sku.glass` |
+| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **Hidden (N) on the go**, where glasses never appear. **SKUs of 1 L and up are shared and require a glass**, so the answer is Y and locked. Otherwise the operator chooses (default N). Asked after the scene step, since it depends on the venue (`tablescape/glass-rules.json`) | `sku.glass` |
 | Hero Dish | starting point for steps 1–3 | `entree.name` |
 | Side Dish Request | pre-fills step 3. The agent checks it for cultural fit and still offers the common alternatives | seeds `accompaniments[]` |
 | Occasion | mood and environment in the prompt; sets the time of day when unambiguous (breakfast → morning), which selects the lighting | `occasion` |
