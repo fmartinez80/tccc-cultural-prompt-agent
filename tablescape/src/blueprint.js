@@ -11,8 +11,23 @@ const CLOCK = {
   '4:00-5:00_BOTTOM_RIGHT': 4.5,
   '7:00-8:00_BOTTOM_LEFT': 7.5,
 };
-// Each entree sits on its ideal vessel, an entree plate unless the blueprint says otherwise.
-const BASE = { standard_plate: 'plate-round', plate_on_tray: 'plate-on-tray', basket: 'basket-entree', wooden_board: 'board-wood', butcher_paper: 'paper-butcher' };
+// Each entree sits on its ideal vessel, an entree plate unless the blueprint says
+// otherwise; a carrier under the vessel is opt-in (rules/serving-stacks.json).
+// `x_serving_stack: {vessel, carrier}` on the main overrides this mapping.
+const STACK = {
+  standard_plate: { vessel: 'plate' },
+  bowl: { vessel: 'bowl' },
+  basket: { vessel: 'basket' },
+  wooden_board: { vessel: 'board' },
+  butcher_paper: { vessel: 'paper_wrap' },
+  plate_on_tray: { vessel: 'plate', carrier: 'tray' },
+  plate_on_board: { vessel: 'plate', carrier: 'board' },
+  plate_on_butcher_paper: { vessel: 'plate', carrier: 'butcher_paper' },
+  basket_on_tray: { vessel: 'basket', carrier: 'tray' },
+};
+// An ON_BOARD item whose base_layer_type names the vessel itself shares the vessel;
+// otherwise it shares the carrier when there is one. `x_share` overrides.
+const VESSEL_OF = { standard_plate: 'plate', bowl: 'bowl', basket: 'basket', wooden_board: 'board', butcher_paper: 'paper_wrap' };
 const ROLE = { SIDE_DISH: 'side', CONDIMENT_SAUCE: 'sauce', LIFESTYLE_PROP: 'prop' };
 const REQUIRED = ['canvas_metadata', 'horizon_clamp', 'table_dining_mode', 'primitives'];
 
@@ -37,7 +52,8 @@ export function blueprintToSpec(bp, { id, brief, market, setting, table = 'table
   if (mains.length !== 1 || drinks.length !== 1) throw new Error('SINGLE_DINER needs exactly one MAIN_ENTREE and one HERO_BEVERAGE');
   const main = mains[0], drink = drinks[0];
   main.base_layer_type ??= 'standard_plate';
-  if (!(main.base_layer_type in BASE)) throw new Error(`MAIN_ENTREE base_layer_type ${main.base_layer_type} is not built yet`);
+  if (!main.x_serving_stack && !(main.base_layer_type in STACK)) throw new Error(`MAIN_ENTREE base_layer_type ${main.base_layer_type} is not built yet`);
+  const stack = main.x_serving_stack ?? STACK[main.base_layer_type];
 
   const [aw, ah] = bp.canvas_metadata.aspect_ratio.split(':').map(Number);
   const spec = {
@@ -52,7 +68,7 @@ export function blueprintToSpec(bp, { id, brief, market, setting, table = 'table
     layouts: ['clock-face'],
     oddEvenAuto: false, // the blueprint author has already balanced the count
     table,
-    entree: { text: asset(main).text, base: BASE[main.base_layer_type], food: asset(main).food, yaw: main.rotation_euler_deg?.yaw ?? 0 },
+    entree: { text: asset(main).text, stack, food: asset(main).food, yaw: main.rotation_euler_deg?.yaw ?? 0 },
     sku: {
       registry: asset(drink).registry,
       text: asset(drink).text,
@@ -72,6 +88,7 @@ export function blueprintToSpec(bp, { id, brief, market, setting, table = 'table
       text: a.text,
       clock: clock(p),
       onBase: p.clock_position === 'ON_BOARD' || undefined,
+      share: p.clock_position === 'ON_BOARD' ? p.x_share ?? (VESSEL_OF[p.base_layer_type] === stack.vessel ? 'vessel' : undefined) : undefined,
       pairedWith: role === 'sauce' && target?.component_role === 'MAIN_ENTREE' ? 'DISH' : undefined,
     };
     if (role === 'prop') spec.props.push({ ...item, registry: a.registry });

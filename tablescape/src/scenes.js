@@ -14,3 +14,9 @@ export function sceneFiles(root) {
     .filter((d) => fs.existsSync(d))
     .flatMap((d) => fs.readdirSync(d).filter((f) => f.endsWith('.json')).map((f) => path.join(d, f)));
 }
+
+// Shared rules plus the serving-stack rules the solver needs.
+export function loadRules(root) {
+  const read = (f) => JSON.parse(fs.readFileSync(path.join(root, f), 'utf8'));
+  return { ...read('rules/rules.json'), servingStacks: read('rules/serving-stacks.json') };
+}

@@ -1,0 +1,76 @@
+{
+  "_note": "Serving stacks (Fernando, 2026-09-27): what is the entree served in (vessel), does that sit on something (carrier), and what else may share either. Default is a plate with no carrier, so a tray or large rectangle is never the default. canShare caps shared items by kind; real sizes are checked too.",
+  "defaults": {
+    "vessel": "plate",
+    "carrier": null
+  },
+  "gapOnStackM": 0.02,
+  "vessels": {
+    "plate": {
+      "registry": "plate-round",
+      "canShare": {
+        "CONDIMENT": 2
+      }
+    },
+    "bowl": {
+      "registry": "bowl-entree",
+      "canShare": {}
+    },
+    "basket": {
+      "registry": "basket-entree",
+      "canShare": {
+        "CONDIMENT": 1
+      }
+    },
+    "board": {
+      "registry": "board-wood",
+      "canShare": {
+        "CONDIMENT": 2,
+        "SIDE": 1
+      }
+    },
+    "paper_wrap": {
+      "registry": "paper-butcher",
+      "canShare": {
+        "CONDIMENT": 1
+      }
+    }
+  },
+  "carriers": {
+    "tray": {
+      "registry": "carrier-tray",
+      "canCarry": [
+        "plate",
+        "bowl",
+        "basket",
+        "paper_wrap"
+      ],
+      "canShare": {
+        "CONDIMENT": 2,
+        "SIDE": 1
+      }
+    },
+    "board": {
+      "registry": "carrier-board",
+      "canCarry": [
+        "plate",
+        "bowl"
+      ],
+      "canShare": {
+        "CONDIMENT": 2,
+        "SIDE": 1
+      }
+    },
+    "butcher_paper": {
+      "registry": "carrier-paper",
+      "canCarry": [
+        "plate",
+        "basket"
+      ],
+      "canShare": {
+        "CONDIMENT": 2,
+        "SIDE": 1
+      }
+    }
+  }
+}

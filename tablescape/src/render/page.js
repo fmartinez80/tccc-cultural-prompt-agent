@@ -83,28 +83,24 @@ function foodMesh(food, top, o, reg) {
   return g;
 }
 
-function objectMesh(o, reg) {
-  const v = reg[o.vessel];
+// One vessel or carrier; `top` is where food or items resting in it sit.
+function vesselMesh(v) {
   const g = new THREE.Group();
   let top = 0;
   if (v.kind === 'bottle') g.add(new THREE.Mesh(lathe(CONTOUR, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.18 })));
   else if (v.kind === 'glass') g.add(new THREE.Mesh(lathe(GLASS, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.12 })));
-  else if (v.kind === 'plateTray') {
-    const tray = new THREE.Mesh(new THREE.BoxGeometry(v.w, 0.015, v.d), std(0x8c8c8e, { metalness: 0.5, roughness: 0.4 }));
-    tray.position.y = 0.0075;
-    const plate = new THREE.Mesh(roundPlate(v.plateDiameter / 2, 0.025), std(COLORS.vessel));
-    plate.position.y = 0.015;
-    g.add(tray, plate);
-    top = 0.015 + 0.025 * 0.45;
-  } else if (v.kind === 'tray') {
-    // metal sheet tray lined with butcher paper
-    const pan = new THREE.Mesh(new THREE.BoxGeometry(v.w, v.h, v.d), std(0x8c8c8e, { metalness: 0.6, roughness: 0.35 }));
-    pan.position.y = v.h / 2;
-    const liner = new THREE.Mesh(new THREE.BoxGeometry(v.w * 0.9, 0.002, v.d * 0.86), std(COLORS.sheet));
-    liner.position.y = v.h + 0.001;
-    liner.rotation.y = 0.05;
-    g.add(pan, liner);
-    top = v.h;
+  else if (v.kind === 'trayPlain') {
+    // serving tray: flat metal sheet with a low rim
+    const mat = std(0x8c8c8e, { metalness: 0.6, roughness: 0.35 });
+    const floor = new THREE.Mesh(new THREE.BoxGeometry(v.w, 0.004, v.d), mat);
+    floor.position.y = 0.002;
+    g.add(floor);
+    for (const [w, d, x, z] of [[v.w, 0.006, 0, v.d / 2], [v.w, 0.006, 0, -v.d / 2], [0.006, v.d, v.w / 2, 0], [0.006, v.d, -v.w / 2, 0]]) {
+      const rim = new THREE.Mesh(new THREE.BoxGeometry(w, v.h, d), mat);
+      rim.position.set(x, v.h / 2, z);
+      g.add(rim);
+    }
+    top = 0.004;
   } else if (v.kind === 'basket') {
     const mat = std(COLORS.vessel);
     const t = 0.004;
@@ -129,6 +125,24 @@ function objectMesh(o, reg) {
   } else {
     g.add(new THREE.Mesh(roundPlate(v.diameter / 2, v.h), std(COLORS.vessel)));
     top = v.h * 0.45;
+  }
+  return { g, top };
+}
+
+function objectMesh(o, reg) {
+  const g = new THREE.Group();
+  let top;
+  if (o.stack) {
+    // serving stack: carrier (optional) at the table, vessel on it, food in the vessel
+    if (o.stack.carrierRegistry) g.add(vesselMesh(reg[o.stack.carrierRegistry]).g);
+    const vm = vesselMesh(reg[o.stack.vesselRegistry]);
+    vm.g.position.set(o.stack.vesselOffsetX, o.stack.vesselY, 0);
+    g.add(vm.g);
+    top = o.stack.foodY;
+  } else {
+    const vm = vesselMesh(reg[o.vessel]);
+    g.add(vm.g);
+    top = vm.top;
   }
   if (o.food) {
     const food = foodMesh(o.food, top, o, reg);

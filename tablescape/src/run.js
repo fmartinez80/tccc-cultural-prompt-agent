@@ -6,7 +6,7 @@ import http from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 import { enrich, place, autofit, checks, rulesFor, ARCHETYPES } from './solve.js';
-import { loadScene, sceneFiles } from './scenes.js';
+import { loadScene, sceneFiles, loadRules } from './scenes.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -16,7 +16,7 @@ const specFiles = args.length ? args : sceneFiles(ROOT);
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const registry = readJson(path.join(ROOT, 'registry/objects.json'));
-const baseRules = readJson(path.join(ROOT, 'rules/rules.json'));
+const baseRules = loadRules(ROOT);
 
 function serve() {
   const types = { '.js': 'text/javascript', '.html': 'text/html' };
@@ -105,7 +105,7 @@ async function main() {
   }
   const cols = Math.min(3, tiles.length);
   const tw = cols === 3 ? 640 : 960, th = Math.round((tw * tiles[0].h) / tiles[0].w);
-  const sheet = await page.evaluate((a) => window.R.contactSheet(a.tiles, a.cols, a.tw, a.th, 'Tablescape test build: clock-face place setting, 30° camera'), { tiles, cols, tw, th });
+  const sheet = await page.evaluate((a) => window.R.contactSheet(a.tiles, a.cols, a.tw, a.th, 'Tablescape test build: clock-face place setting, serving stacks, 30° camera'), { tiles, cols, tw, th });
   png(sheet, path.join(OUT, 'contact-sheet.png'));
   fs.writeFileSync(path.join(OUT, 'summary.json'), JSON.stringify(summary, null, 2));
   await browser.close();

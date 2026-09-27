@@ -1,5 +1,6 @@
 // SceneSpec -> layout.json. Deterministic: same spec + archetype gives the same layout.
 import { makeCamera, project } from './camera.js';
+import { layoutStack } from './stack.js';
 
 const rad = (d) => (d * Math.PI) / 180;
 const LAYER = { DISH: 1, SKU: 1, SIDE: 2, SAUCE: 3, ACCENT: 3, PROP: 3 };
@@ -19,8 +20,8 @@ export function rulesFor(spec, rules) {
 
 export function enrich(spec, rules) {
   const items = [
-    { role: 'DISH', text: spec.entree.text, vessel: spec.entree.base || spec.entree.vessel || 'plate-round', food: spec.entree.food, foodYaw: spec.entree.foodYaw },
-    ...spec.accompaniments.map((a) => ({ role: a.role.toUpperCase(), text: a.text, vessel: a.vessel, food: a.food, pairedWith: a.pairedWith, clock: a.clock, onBase: a.onBase, injected: a.injected })),
+    { role: 'DISH', text: spec.entree.text, stackSpec: spec.entree.stack || {}, food: spec.entree.food, foodYaw: spec.entree.foodYaw },
+    ...spec.accompaniments.map((a) => ({ role: a.role.toUpperCase(), text: a.text, vessel: a.vessel, food: a.food, pairedWith: a.pairedWith, clock: a.clock, onBase: a.onBase, share: a.share, injected: a.injected })),
     ...spec.props.map((p) => ({ role: 'PROP', text: p.text, vessel: p.registry, clock: p.clock, yawToDish: p.yawToDish })),
     { role: 'SKU', text: spec.sku.text, vessel: spec.sku.registry, clock: spec.sku.clock },
   ];
@@ -161,34 +162,31 @@ export function place(enriched, spec, reg, rules, archetypeId) {
   const clearOfAll = (poly) => placed.filter((p) => !p.onBase).every((p) => gap(poly, p.poly) >= rules.minGapM);
   const clockAngle = (o) => (o.clock != null ? 90 - o.clock * 30 : null); // 12:00 = away from the diner, 3:00 = diner's right
 
-  const dish = mk(enriched.items.find((i) => i.role === 'DISH'));
+  // The entree's serving stack (vessel, optional carrier, items sharing them)
+  // is one unit on the table: its footprint is the carrier's, or the vessel's.
+  const sharing = enriched.items.filter((i) => i.onBase).map(mk);
+  const st = layoutStack(enriched.items.find((i) => i.role === 'DISH'), sharing, rules.servingStacks, reg);
+  const dish = { ...enriched.items.find((i) => i.role === 'DISH'), ...st.footprint, h: st.h, x: 0, z: 0, yaw: 0 };
+  dish.vessel = st.vesselRegistry;
+  dish.foodOffsetX = st.foodOffsetX;
+  dish.stack = { vessel: st.vessel, carrier: st.carrier, vesselRegistry: st.vesselRegistry, carrierRegistry: st.carrierRegistry, vesselOffsetX: st.vesselOffsetX, vesselY: st.vesselY, foodY: st.foodY };
   dish.yaw = spec.entree.yaw ?? A.dishYaw;
   dish.x = A.dishX;
-  dish.z = 0;
   const fp0 = footprint(dish);
   const front = Math.max(...fp0.map((p) => p[1]));
   dish.z = table.d / 2 - rules.dishFrontMarginM - front;
   dish.poly = footprint(dish);
   placed.push(dish);
 
-  // Items that sit on the dish's base layer (a ramekin on the board or tray):
-  // lined up at the base's right end, with the food shifted left to make room.
-  const onBase = enriched.items.filter((i) => i.onBase).map(mk);
-  if (onBase.length) {
-    const base = reg[dish.vessel];
-    const baseW = base.w ?? base.diameter;
-    let edge = baseW / 2 - 0.02;
-    const c = Math.cos(rad(dish.yaw)), sn = Math.sin(rad(dish.yaw));
-    for (const o of onBase) {
-      const lx = edge - o.r;
-      edge -= 2 * o.r + 0.02;
-      o.x = dish.x + lx * c;
-      o.z = dish.z - lx * sn;
-      o.y = base.kind === 'plate' ? base.h * 0.45 : base.h; // a plate's well sits below its rim
-      o.poly = footprint(o);
-      placed.push(o);
-    }
-    dish.foodOffsetX = -(baseW / 2 - 0.02 - edge) / 2;
+  const c = Math.cos(rad(dish.yaw)), sn = Math.sin(rad(dish.yaw));
+  const at = (lx) => ({ x: dish.x + lx * c, z: dish.z - lx * sn });
+  const vesselPoly = footprint({ ...st.vesselFootprint, ...at(st.vesselOffsetX), yaw: dish.yaw });
+  for (const o of sharing) {
+    const p = st.placements.find((q) => q.label === o.label);
+    Object.assign(o, at(p.lx), { y: p.y, host: p.host === 'vessel' ? st.vessel : st.carrier });
+    o.poly = footprint(o);
+    o.hostPoly = p.host === 'vessel' ? vesselPoly : dish.poly;
+    placed.push(o);
   }
 
   // Put `o` at the given edge gap from `anchor`, along angle a.
@@ -224,23 +222,23 @@ export function place(enriched, spec, reg, rules, archetypeId) {
   };
 
   const rest = enriched.items.filter((i) => i.role !== 'DISH' && !i.onBase).map(mk);
-  const at = (o, defaults) => (clockAngle(o) != null ? [clockAngle(o)] : defaults);
+  const atClock = (o, defaults) => (clockAngle(o) != null ? [clockAngle(o)] : defaults);
   const G = A.gaps || {};
   const sku = rest.find((o) => o.role === 'SKU');
-  tryAngles(sku, at(sku, A.sku.angles), A.sku.gap, (o) => o.x > dish.x);
+  tryAngles(sku, atClock(sku, A.sku.angles), A.sku.gap, (o) => o.x > dish.x);
 
   let s = 0;
-  for (const o of rest.filter((o) => o.role === 'SIDE')) tryAngles(o, at(o, [A.side[s++ % A.side.length]]), G.SIDE ?? 0.06);
+  for (const o of rest.filter((o) => o.role === 'SIDE')) tryAngles(o, atClock(o, [A.side[s++ % A.side.length]]), G.SIDE ?? 0.06);
 
   const cg = rules.condimentGapM;
   for (const o of rest.filter((o) => o.role === 'SAUCE' || o.role === 'ACCENT'))
-    tryAngles(o, at(o, A.condiment), G[o.role] ?? (cg.min + cg.max) / 2, (p) => {
+    tryAngles(o, atClock(o, A.condiment), G[o.role] ?? (cg.min + cg.max) / 2, (p) => {
       const g = gap(p.poly, dish.poly);
       return g >= cg.min - 1e-4 && g <= cg.max + 1e-4;
     });
 
   for (const o of rest.filter((o) => o.role === 'PROP'))
-    tryAngles(o, at(o, A.prop.angles), G.PROP ?? 0.05, () => true, (a) => (A.prop.yaw === 'pointAtDish' ? a : A.prop.yaw));
+    tryAngles(o, atClock(o, A.prop.angles), G.PROP ?? 0.05, () => true, (a) => (A.prop.yaw === 'pointAtDish' ? a : A.prop.yaw));
 
   return { archetype: archetypeId, objects: placed, unplaced: rest.filter((o) => o.unplaced).map((o) => o.label), table: { ...table, id: spec.table } };
 }
@@ -362,9 +360,10 @@ export function checks(layout, camera, enriched, rules) {
   add('sku-top', true, `SKU top at ${(sb.y1 * 100).toFixed(0)}% of frame height (objects may cross the 50% line)`, false);
   for (const o of objs.filter((o) => o.onBase)) {
     const cross = (p, q, [x, z]) => (q[0] - p[0]) * (z - p[1]) - (q[1] - p[1]) * (x - p[0]);
-    const signs = o.poly.flatMap((pt) => dish.poly.map((p, i) => Math.sign(Math.round(cross(p, dish.poly[(i + 1) % dish.poly.length], pt) * 1e6))));
+    const host = o.hostPoly || dish.poly;
+    const signs = o.poly.flatMap((pt) => host.map((p, i) => Math.sign(Math.round(cross(p, host[(i + 1) % host.length], pt) * 1e6))));
     const inside = signs.every((v) => v >= 0) || signs.every((v) => v <= 0);
-    add(`on-base:${o.label}`, inside, inside ? 'sits on the entree vessel' : 'hangs off the entree vessel');
+    add(`on-stack:${o.label}`, inside, inside ? `sits on the entree's ${o.host}` : `hangs off the entree's ${o.host}`);
   }
   for (const o of objs.filter((o) => o.pairedWith && !o.onBase)) {
     const g = gap(o.poly, dish.poly);

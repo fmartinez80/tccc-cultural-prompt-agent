@@ -4,13 +4,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { enrich, place, autofit, checks, rulesFor, ARCHETYPES } from '../src/solve.js';
-import { loadScene, sceneFiles } from '../src/scenes.js';
+import { loadScene, sceneFiles, loadRules } from '../src/scenes.js';
 import { blueprintToSpec } from '../src/blueprint.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 const registry = read('registry/objects.json');
-const baseRules = read('rules/rules.json');
+const baseRules = loadRules(ROOT);
 
 for (const f of sceneFiles(ROOT)) {
   const spec = loadScene(f);
@@ -42,9 +42,10 @@ test('deterministic: same spec gives the same layout', () => {
   assert.equal(run(), run());
 });
 
-test('blueprint: ON_BOARD condiment sits on the main base; clock positions map to hours', () => {
+test('blueprint: ON_BOARD condiment shares the main vessel; clock positions map to hours', () => {
   const spec = loadScene(path.join(ROOT, 'blueprints/scene-3-uy.json'));
-  assert.equal(spec.entree.base, 'board-wood');
+  assert.deepEqual(spec.entree.stack, { vessel: 'board' });
+  assert.equal(spec.accompaniments.find((a) => a.text === 'chimichurri').share, 'vessel');
   assert.equal(spec.sku.clock, 1.5);
   assert.ok(spec.accompaniments.find((a) => a.text === 'chimichurri').onBase);
   assert.equal(spec.props[0].clock, 4.5);

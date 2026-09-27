@@ -123,14 +123,18 @@
             "type": "string",
             "enum": [
               "standard_plate",
-              "plate_on_tray",
+              "bowl",
               "basket",
               "wooden_board",
               "butcher_paper",
+              "plate_on_tray",
+              "plate_on_board",
+              "plate_on_butcher_paper",
+              "basket_on_tray",
               "bare_table"
             ],
             "default": "standard_plate",
-            "description": "The entree's ideal vessel; standard_plate unless the dish calls for something else. plate_on_tray and basket are additions for those cases."
+            "description": "On a MAIN_ENTREE: its serving stack, the vessel and an optional carrier under it (rules/serving-stacks.json). standard_plate unless the dish calls for something else; *_on_* values add a carrier. On an ON_BOARD item: which layer of the stack it shares."
           },
           "clock_position": {
             "type": "string",
@@ -217,6 +221,39 @@
                 "type": "string"
               }
             }
+          },
+          "x_serving_stack": {
+            "type": "object",
+            "description": "Extension on MAIN_ENTREE: explicit serving stack, overriding base_layer_type.",
+            "properties": {
+              "vessel": {
+                "enum": [
+                  "plate",
+                  "bowl",
+                  "basket",
+                  "board",
+                  "paper_wrap"
+                ]
+              },
+              "carrier": {
+                "enum": [
+                  "tray",
+                  "board",
+                  "butcher_paper",
+                  null
+                ]
+              }
+            },
+            "required": [
+              "vessel"
+            ]
+          },
+          "x_share": {
+            "enum": [
+              "vessel",
+              "carrier"
+            ],
+            "description": "Extension on an ON_BOARD item: share the entree's vessel or its carrier. Default: the vessel when base_layer_type names it, else the carrier when there is one."
           }
         }
       }
