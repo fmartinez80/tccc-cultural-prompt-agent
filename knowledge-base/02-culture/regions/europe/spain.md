@@ -1879,6 +1879,13 @@ level, since none of these surfaced as contested or surprising.*
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md`
+  §4.7) are mostly editorial synthesis.** Piece sizes are sourced where
+  tagged; counts and surface shares are reasoned from recipe quantities and
+  serving norms, tagged [EDITORIAL], and should be checked against image
+  tests — two or more generations per prompt-ready line — before being
+  treated as reliable.
+
 - **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
   expected in the coming days**, per the orchestrating session. Hold off on
   further WebSearch effort toward the 237mL-bottle gap below until it

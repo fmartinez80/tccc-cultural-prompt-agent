@@ -808,6 +808,21 @@ vessel table above.*
   cheese + tomato dice + sour cream (Tex-Mex); large flour tortillas;
   tacos stood upright in a metal rack.
 - **Confidence**: HIGH for format and garnish set; see sub-entries.
+- **Composition & proportions (§4.7)** — one street order.
+  - **What dominates**: **the tortilla and the meat together**; a street
+    taco carries only **~30–50 g of meat** — a strip along the centre
+    covering roughly half to two-thirds of the tortilla, the tortilla
+    edge visible all round. [MEDIUM — Infobae and taquería portioning
+    guides give ~30 g average, 40–50 g for fattier pastor/carnitas]
+  - **Count**: an order is **3–5 tacos** on one plate. [MEDIUM]
+  - **Garnish share**: onion-cilantro confetti is a light scatter (~1
+    tablespoon per taco), not a salad; salsa one streak or a few drops;
+    1–2 lime wedges per plate.
+  - **Arrangement**: tacos laid flat or loosely curled, side by side,
+    slightly overlapping.
+  - **Absent on purpose**: cheese, lettuce, tomato dice, sour cream,
+    hard shells, taco racks, beans inside.
+  - **Prompt-ready line**: see Tacos al pastor.
 
 #### Quesadillas (and the Mexico City cheese question)
 
@@ -830,6 +845,16 @@ vessel table above.*
   quesillo threads, never orange cheddar.
 - **Model failure**: a flour-tortilla wedge quesadilla cut into triangles
   with orange cheese and sour cream (US chain style).
+- **Composition & proportions (§4.7)**.
+  - **What dominates**: the folded tortilla or masa shell; the filling is
+    a thin layer (~1 cm) visible only where the half-moon is opened or
+    cut; 1–3 quesadillas per plate. [EDITORIAL]
+  - **Absent on purpose**: triangles, orange cheese, sour cream, guac
+    scoops on top.
+  - **Prompt-ready line**: "Two folded corn tortilla half-moons, each a
+    little wider than the can is tall, toasted with brown freckles from
+    a griddle, one opened slightly to show stretchy white string cheese;
+    a small bowl of green salsa beside."
 
 #### Masa antojitos — sopes, huaraches, tlacoyos, gorditas, tostadas
 
@@ -856,6 +881,21 @@ vessel table above.*
   toasted patches; blue-corn masa reads grey-violet, not bright blue.
 - **Model failure**: a pizza-like crust; bright-blue dough; flour pastry.
 - **Confidence**: MEDIUM (forms uncontested; not individually re-searched).
+- **Composition & proportions (§4.7)**.
+  - **What dominates**: the masa base; toppings sit in a thin layer that
+    leaves the raised rim (sope) or oval edge (huarache, tlacoyo) visible.
+    Beans a thin dark spread; 1 tablespoon each of crumbled cheese and
+    crema; a pinch of onion; meat, if any, a small mound in the centre.
+    Plate: 2–3 sopes, or 1 huarache, or 2 tlacoyos, or 2–3 tostadas.
+    [EDITORIAL]
+  - **Tostada de tinga**: the flat tostada fully covered by a thin bean
+    layer, a ~1.5 cm layer of shredded chipotle chicken, then a loose
+    handful of shredded lettuce, crema drizzle and crumbled cheese on top.
+  - **Absent on purpose**: melted yellow cheese, piped sour cream.
+  - **Prompt-ready line (sopes)**: "Three thick round corn-masa discs, each
+    a little wider than the can, with pinched raised rims, spread with
+    black refried beans, a small spoon of green salsa, crumbled dry white
+    cheese, a drizzle of thin crema and a pinch of chopped onion."
 
 #### Enchiladas
 
@@ -878,6 +918,22 @@ vessel table above.*
   white.
 - **Model failure**: Tex-Mex casserole enchiladas smothered in melted
   yellow cheese and chili gravy (see `us-texas.md`); burrito-sized rolls.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: **the sauced tortillas**: 3–4 enchiladas side by
+    side cover about two-thirds of the plate; sauce covers them fully
+    and pools around; toppings are sparse — thin crema lines, a light
+    scatter of crumbled cheese, 4–6 raw onion rings. Rice and beans, if
+    present, are two small mounds in the remaining third. [EDITORIAL]
+  - **Filling**: shredded chicken, visible only at the open ends.
+  - **State cues**: sauce glossy, tortillas soft and stained, a little
+    steam.
+  - **Absent on purpose**: melted yellow cheese blanket, baking-dish
+    casserole look (except suizas), lettuce heap, black olives.
+  - **Prompt-ready line (verdes)**: "Four rolled corn tortillas side by
+    side on a plate, completely covered in loose, glossy tomatillo-green
+    sauce that pools around them, with thin drizzles of white crema,
+    crumbled dry white cheese and a few raw white onion rings on top;
+    small mounds of orange-red rice and black beans beside them."
 
 #### Tamales (national — regional forms)
 
@@ -913,6 +969,16 @@ vessel table above.*
   burrito.
 - **Sources**: [Directo al Paladar — tipos de tamales](https://www.directoalpaladar.com.mx/cocina-popular-mexicana/principales-tipos-tamales-mexico);
   [Xochitla — tipos de tamales según la región](https://blog.xochitla.org.mx/2021/01/22/los-tipos-de-tamales-segun-la-region/).
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: **masa** — the filling is a narrow core (~1/4 to
+    1/3 of the cut face) running down the centre; 1–2 tamales per plate,
+    the husk or leaf opened beneath. [EDITORIAL]
+  - **Absent on purpose**: sauce blanket, cheese on top (unless rajas
+    con queso inside), parchment.
+  - **Prompt-ready line**: "One tamal on a plate, its dry straw-coloured
+    corn husk peeled open beneath it, the soft pale-yellow cornmeal dough
+    about the length of the can, split to show a thin stripe of chicken
+    in green sauce down the centre."
 
 #### Pozole (national holiday dish — colour changes by region)
 
@@ -945,6 +1011,23 @@ vessel table above.*
 - **Sources**: [UnoTV — pozole más famoso](https://www.unotv.com/nacional/pozole-mas-famoso-de-mexico-jalisco-guerrero-blanco-rojo/);
   [Mexico News Daily — Guerrero pozole](https://mexiconewsdaily.com/food/state-by-plate-guerrero-pozole/);
   [PROFECO — pozole del 15 de septiembre](https://www.gob.mx/profeco/documentos/el-pozole-en-la-cena-del-15-de-septiembre?state=published).
+- **Composition & proportions (§4.7)** — one bowl.
+  - **What dominates**: **broth and hominy**; the bowl is filled to ~1–2
+    cm below the rim; puffed white hominy kernels crowd the surface
+    (~50–60% of what shows above the broth line); 2–4 chunks of pork
+    (~3–4 cm) partly visible. Garnish is **served on the side** in small
+    bowls and plates; in the bowl itself, at most a small pinch of
+    lettuce, 2–3 radish slices and a sprinkle of oregano on top.
+    [EDITORIAL]
+  - **Alongside**: 2–3 tostadas on a small plate, lime wedges.
+  - **Absent on purpose**: beans, ground meat, tortilla chips, cheese,
+    sour cream.
+  - **Prompt-ready line (rojo)**: "A deep clay bowl of brick-red broth with
+    a slick of red fat droplets, crowded with large puffed chalk-white
+    hominy kernels and a few tender chunks of pork, steam rising; a pinch
+    of shredded lettuce, three thin radish slices and dried oregano on
+    top. Around it, small bowls of chopped onion and lime wedges and a
+    plate of flat crisp tostadas."
 
 #### Tortas (national sandwich — bread changes by region)
 
@@ -971,6 +1054,21 @@ vessel table above.*
 - **Model failure**: a baguette sub; a burger bun; a panini with grill
   stripes.
 - **Sources**: [El Financiero — bolillo vs telera](https://www.elfinanciero.com.mx/food-and-drink/2023/04/20/diferencia-entre-el-bolillo-y-la-telera/).
+- **Composition & proportions (§4.7)** — one torta.
+  - **What dominates**: unlike a Spanish bocadillo, **the filling is
+    thick** — roughly half of the cut-face height (~3–5 cm of layers
+    inside ~2 cm of bread top and bottom): a dark bean stripe on the base,
+    the main filling (milanesa, pierna), then thin avocado slices, 1–2
+    tomato slices, onion, a few pickled jalapeño strips. [EDITORIAL]
+  - **Served portion**: whole or halved on its paper; if halved, one
+    half cut-face forward and the other beside it.
+  - **Absent on purpose**: lettuce shreds overflowing, sauces dripping
+    (except ahogada and pambazo), grill stripes.
+  - **Prompt-ready line**: "A torta cut in half on white paper, one half
+    facing the camera: a soft flat white roll with two shallow grooves,
+    lightly toasted, filled thickly with a dark refried-bean stripe, a
+    thin golden breaded cutlet, green avocado slices, a red tomato slice
+    and a few pickled jalapeño strips; the other half lies beside it."
 
 #### Flautas / tacos dorados
 
@@ -984,6 +1082,15 @@ vessel table above.*
 - **Texture**: deep golden, blistered, rigid, visible ridges where the
   tortilla overlaps.
 - **Model failure**: taquitos in a fast-food box; egg rolls.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: 3–4 crisp rolled flautas side by side; toppings
+    cover their middle third only (a band of shredded lettuce, crema,
+    crumbled cheese, a spoon of salsa), leaving the crisp ends visible.
+    [EDITORIAL]
+  - **Prompt-ready line**: "Three long, tightly rolled, deep-golden
+    crisp-fried corn tortillas side by side on a plate, each longer than
+    the can, with a band of shredded lettuce, thin crema drizzle and
+    crumbled white cheese across their middles, crisp ends showing."
 
 #### Arroz rojo, frijoles and the guisado plate
 
@@ -1001,6 +1108,19 @@ vessel table above.*
   two-thirds; or rice as its own sopa seca course in a smaller plate.
 - **Model failure**: yellow Spanish rice; refried beans topped with melted
   cheddar; a burrito bowl.
+- **Composition & proportions (§4.7)** — the guisado plate.
+  - **What dominates**: **the guisado** (~40–50% of the plate), with rice
+    (~25–30%) and beans (~20–25%) in adjacent mounds; tortillas in a
+    basket or cloth, not on the plate. Rice grains separate, a few peas
+    and carrot cubes (~5 mm) visible; beans either a smooth dark paste
+    with a sheen or whole in a little broth. [EDITORIAL]
+  - **Absent on purpose**: cheese melted on the beans, lettuce garnish,
+    lime on everything.
+  - **Prompt-ready line**: "A plate with three adjacent mounds: chicken
+    pieces in loose green tomatillo sauce taking half the plate, a mound
+    of separate orange-red rice grains flecked with peas and diced
+    carrot, and smooth dark refried black beans; warm corn tortillas in
+    a cloth basket beside the plate."
 
 #### Sopa de tortilla / caldo de pollo (sopa aguada)
 
@@ -1012,6 +1132,18 @@ vessel table above.*
   chopped onion/cilantro to add; **sopa de fideo** — thin noodles in
   tomato broth. [MEDIUM — not individually re-searched]
 - **Vessel**: a soup plate or bowl ~20–22 cm.
+- **Composition & proportions (§4.7)**.
+  - **Sopa de tortilla**: a shallow bowl, broth filling to ~1 cm below
+    the rim; a nest of fried tortilla strips (~1 cm wide) in the centre
+    rising slightly above the broth; on top, 4–6 avocado cubes, a spoon of
+    crumbled cheese, a thin crema drizzle, one crumbled dark pasilla
+    chile. **Caldo de pollo**: one chicken piece, 2–3 chunks each of
+    carrot, potato and chayote in clear broth; rice, onion-cilantro and
+    lime on the side. [EDITORIAL]
+  - **Prompt-ready line (sopa de tortilla)**: "A shallow bowl of rich
+    brick-red tomato-chile broth with a nest of crisp fried tortilla
+    strips in the centre, topped with a few green avocado cubes, crumbled
+    white cheese, a thin drizzle of crema and a crumbled dark dried chile."
 
 #### Milanesa, chiles rellenos and fonda staples (compact)
 
@@ -1023,6 +1155,12 @@ vessel table above.*
   pale-gold, uneven) and served in a thin tomato broth. [MEDIUM]
 - **Mole con pollo** at a fonda: a chicken piece under a pool of mole,
   sesame on top, rice beside. → see Moles.
+- **Composition & proportions (§4.7)**.
+  - **Milanesa**: one very thin cutlet covering most of a 26–28 cm plate
+    (often reaching the rim); rice and beans or a small salad squeezed
+    at one edge; 1–2 lime wedges. **Chile relleno**: one chile (~12–15 cm)
+    centred in a shallow pool of thin tomato broth that covers the plate's
+    base; rice on the side. [EDITORIAL]
 
 #### Guacamole with totopos; elotes and esquites (snacks)
 
@@ -1034,6 +1172,17 @@ vessel table above.*
   a cup with broth, epazote, mayonnaise, cheese, chile and lime. Street and
   plaza snack, evenings. [MEDIUM]
 - Staging: the cup or cob rests on a counter or a plate, not held.
+- **Composition & proportions (§4.7)**.
+  - **Guacamole**: the molcajete filled to the rim with a chunky green
+    mash; visible accents are small (~5 mm) — white onion, red tomato
+    dice, cilantro flecks; 15–25 totopos tucked around the base or in a
+    basket. **Elote**: one cob, the white coating covering it thinly, cheese
+    and red chile dusted over; **esquites**: a cup filled to the rim,
+    toppings a small cap. [EDITORIAL]
+  - **Prompt-ready line (guacamole)**: "A grey volcanic-stone mortar on
+    three short legs, about three cans wide, filled with chunky mashed
+    avocado flecked with small bits of white onion, red tomato and
+    cilantro, crisp triangular corn chips tucked around its base."
 
 ### B. Regional signatures
 
@@ -1060,6 +1209,21 @@ vessel table above.*
   as the main filling.
 - **Sources**: [Infobae — origen de los tacos al pastor](https://www.infobae.com/america/mexico/2022/01/21/cual-es-el-origen-de-los-tacos-al-pastor/);
   [Recetas Mexas — tacos al pastor](https://recetasmexas.com/es-us/guia/tacos-al-pastor).
+- **Composition & proportions (§4.7)** — one order of three.
+  - **What dominates**: per taco, **~30–40 g of shaved meat** heaped in a
+    loose strip down two stacked 10 cm tortillas, covering about
+    two-thirds of the top tortilla; **one** thumbnail-size sliver of
+    pineapple (~2 cm) per taco — an accent, not a filling. [MEDIUM for
+    meat weight — Infobae, taquería portion guides; pineapple EDITORIAL]
+  - **Garnish**: a pinch of onion-cilantro per taco; one streak of salsa;
+    2 lime wedges on the plate rim.
+  - **Prompt-ready line**: "Three small soft corn tacos side by side on a
+    plastic plate in a clear bag, each on two stacked corn tortillas
+    about one and a half times the can's width. On each, a loose strip
+    of thin shaved brick-red pork with crisp charred edges covers most
+    of the tortilla, with one small sliver of golden pineapple, a pinch
+    of finely chopped white onion and cilantro and a streak of green
+    salsa. Two lime wedges on the rim. No cheese, no lettuce."
 
 #### Tacos de canasta and the guajolota (zone 4)
 
@@ -1076,6 +1240,15 @@ vessel table above.*
   Infobae, Chilango]
 - **Staging**: canasta tacos three to a small plate or on paper;
   guajolota on its paper beside the cart's steaming pot, never in hand.
+- **Composition & proportions (§4.7)**.
+  - **Canasta**: 3–5 small tacos per plate, folded flat, slightly
+    overlapping, glossy; the filling a thin (~5 mm) layer inside, not
+    visible except at the fold; a spoon of salsa and pickled chiles on the
+    side. **Guajolota**: the tamal fills the bread almost end to end;
+    bread ~40% and tamal ~60% of the cut-face height. [EDITORIAL]
+  - **Prompt-ready line (canasta)**: "Four small, soft, folded corn tacos
+    pressed flat and glossy with oil, their tortillas stained orange,
+    overlapping on a small plate with a spoonful of green salsa."
 
 #### Chiles en nogada (zone 4, Puebla; seasonal)
 
@@ -1099,6 +1272,17 @@ vessel table above.*
   cranberries or cherries; pomegranate halves.
 - **Sources**: [Milenio — temporada de chiles en nogada](https://www.milenio.com/consejos/temporada-chiles-en-nogada-cuando-empieza-termina);
   [N+ — temporada en Puebla](https://www.nmas.com.mx/cultura/asi-se-preparan-en-puebla-para-la-temporada-de-chiles-en-nogada/).
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: **the white nogada**, which covers the whole
+    chile and ~60–70% of the plate; pomegranate seeds are scattered
+    (~30–50 seeds, not a heap), with 3–5 flat parsley leaves; the chile's
+    green shows only at its stem end. [EDITORIAL]
+  - **Absent on purpose**: red sauce, rice mounds on top, cheese.
+  - **Prompt-ready line**: "One large stuffed green poblano chile, about
+    one and a half times the can's length, entirely covered in a smooth,
+    thick ivory walnut sauce that spreads across most of the white plate,
+    scattered with glossy jewel-red pomegranate seeds and a few flat
+    green parsley leaves; only the green stem end shows."
 
 #### Moles (zone 4 Puebla; zone 6 Oaxaca authoritative)
 
@@ -1121,6 +1305,16 @@ vessel table above.*
 - **Model failure**: brown gravy; chocolate dessert sauce; an Indian curry.
 - **Sources**: [Gastronosfera — moles mexicanos](https://www.gastronosfera.com/tendencias/moles-mexicanos-historia-variedades-y-recetas-tradicionales);
   [Rutopía — los siete moles de Oaxaca](https://www.rutopia.com/es/articulo/sabores-de-oaxaca-y-sus-siete-diferentes-moles).
+- **Composition & proportions (§4.7)** — mole con pollo.
+  - **What dominates**: **the sauce**: mole covers the chicken (one leg
+    or thigh-and-leg, or a breast piece) completely and floods ~60% of
+    the plate; sesame seeds a light sprinkle (~a teaspoon); rice a small
+    mound at one edge; tortillas in a basket. [EDITORIAL]
+  - **Absent on purpose**: visible bare chicken skin, herbs, cream.
+  - **Prompt-ready line (poblano)**: "A piece of chicken completely
+    covered in thick, glossy, near-black mole sauce that floods most of
+    the plate, lightly sprinkled with pale toasted sesame seeds, a small
+    mound of orange-red rice at the edge."
 
 #### Barbacoa (zone 4, Hidalgo; Sunday)
 
@@ -1134,12 +1328,25 @@ vessel table above.*
   Module); tender shredded lamb glistening, a thick grey-green maguey leaf
   under it, consomé steaming in a clay bowl.
 - **Model failure**: US barbecue; Texas beef barbacoa (a different thing).
+- **Composition & proportions (§4.7)**.
+  - **What dominates**: a heap of shredded and chunked lamb (~200–250 g)
+    on a piece of maguey leaf or a plate; consomé in a separate bowl with
+    a few chickpeas and rice grains visible; tortillas, salsa borracha
+    kept out (contains pulque) — use a salsa roja; onion-cilantro and
+    lime. [EDITORIAL]
+  - **Prompt-ready line**: "A heap of tender, glistening shredded lamb on a
+    thick grey-green agave leaf, a clay bowl of steaming broth with a few
+    chickpeas beside it, warm corn tortillas, chopped onion and cilantro,
+    lime wedges."
 
 #### Cemita poblana (zone 4, compact)
 
 A sesame-seed-topped round bun filled with milanesa, quesillo, avocado,
 chipotle, and **pápalo** (a strong herb with broad leaves), in Puebla.
 [MEDIUM — not individually re-searched]
+- **Composition & proportions (§4.7)**: the cutlet overhangs the round
+  bun slightly; string cheese in a visible nest (~2 cm), avocado slices,
+  a few papalo leaves; filling ~half the height. [EDITORIAL]
 
 #### Birria (zone 3 Jalisco; zone 2 Tijuana — two coexisting forms)
 
@@ -1158,6 +1365,17 @@ chipotle, and **pápalo** (a strong herb with broad leaves), in Puebla.
   fat; tacos crisp, red-orange, glossy, with molten cheese at the edge.
 - **Sources**: [Wikipedia — Birria / Quesabirria (via search)](https://en.wikipedia.org/wiki/Quesabirria);
   [Eat Your World — birria Tijuana](https://eatyourworld.com/destinations/mexico/baja-california/what-to-eat/tacos-de-birria-tijuana/).
+- **Composition & proportions (§4.7)**.
+  - **Jalisco bowl**: meat chunks (~3–5 cm) fill about half the bowl,
+    consomé to ~1 cm below the rim; onion-cilantro and lime on the side;
+    tortillas in a basket. **Quesabirria**: 3 tacos per plate, each
+    folded, with ~40–50 g meat and melted cheese oozing at the edges; a
+    ~250 mL cup of consomé topped with onion and cilantro beside them.
+    [EDITORIAL]
+  - **Prompt-ready line (quesabirria)**: "Three folded tacos with crisp,
+    glossy red-orange tortillas, stuffed with shredded beef and melted
+    white cheese oozing at the edges, next to a cup of deep red broth
+    with an orange fat slick, topped with chopped onion and cilantro."
 
 #### Torta ahogada (zone 3, Guadalajara)
 
@@ -1175,6 +1393,15 @@ chipotle, and **pápalo** (a strong herb with broad leaves), in Puebla.
   visible at the cut.
 - **Model failure**: a soft bun gone soggy; a French dip.
 - **Sources**: [Wikipedia — Torta ahogada (via search)](https://en.wikipedia.org/wiki/Torta_ahogada).
+- **Composition & proportions (§4.7)**.
+  - **What dominates**: the roll and the sauce: the sauce fills the plate
+    to ~2–3 cm and reaches halfway up the roll; carnitas show at the cut
+    as a ~2–3 cm layer; sliced onion (and lime) a small topping.
+    [EDITORIAL]
+  - **Prompt-ready line**: "A crusty, dark-golden hard roll, a little longer
+    than the can, sitting in a shallow bowl of thin bright tomato-red
+    sauce that reaches halfway up its sides, the cut end showing tender
+    pork, topped with a few thin rings of pickled onion."
 
 #### Carnitas (zone 3, Michoacán)
 
@@ -1187,6 +1414,15 @@ chipotle, and **pápalo** (a strong herb with broad leaves), in Puebla.
 - **Staging**: a heap on butcher paper or a plate, tortillas beside;
   the copper cazo glinting behind.
 - **Model failure**: US pulled pork in barbecue sauce.
+- **Composition & proportions (§4.7)** — tacos de carnitas or a plate.
+  - **What dominates**: pork (~40–50 g per taco); crisp browned bits are
+    ~20–30% of the meat, the rest tender and pale gold. A sold-by-the-kilo
+    plate: a mound of mixed cuts on paper, tortillas in a stack beside.
+    [MEDIUM for per-taco weight — taquería portion guides]
+  - **Prompt-ready line**: "A mound of tender pork pieces, pale gold with
+    crisp bronzed edges and glossy rendered fat, on brown butcher paper,
+    a stack of warm corn tortillas, chopped onion and cilantro and a
+    bowl of green salsa beside it."
 
 #### Carne asada & flour tortillas (zone 1)
 
@@ -1201,6 +1437,14 @@ chipotle, and **pápalo** (a strong herb with broad leaves), in Puebla.
 - **Staging**: a wooden board or platter on a folding table, the grill
   smoking softly behind.
 - **Model failure**: a US steakhouse plate; fajita skillet.
+- **Composition & proportions (§4.7)** — a shared board.
+  - **What dominates**: sliced grilled beef (~60% of the board); 4–6
+    grilled cebollitas and 3–4 blistered chiles as accents; flour tortillas
+    folded in a cloth beside; guacamole and salsa in bowls. [EDITORIAL]
+  - **Prompt-ready line**: "A wooden board of thin grilled beef with
+    irregular charcoal char, sliced into strips, a few whole grilled
+    spring onions and blistered green chiles, with a stack of large thin
+    flour tortillas folded in a cloth beside it."
 
 #### Burritos and machaca (zone 1, compact)
 
@@ -1210,6 +1454,9 @@ frijoles, chile colorado, carne asada — **not** the fat, rice-stuffed US
 Mission burrito. Outside zone 1, don't default to burritos. [MEDIUM-HIGH —
 northern flour-tortilla sources; slimness MEDIUM, not individually
 re-searched]
+- **Composition & proportions (§4.7)**: slim — ~4–5 cm thick, the
+  filling a single ingredient plus beans, the tortilla wrapping several
+  times; 1–2 per plate, one cut to show the cross-section. [EDITORIAL]
 
 #### Cabrito (zone 1, Nuevo León, compact)
 
@@ -1217,6 +1464,9 @@ Young goat roasted over charcoal on a stake (al pastor style) — the
 special-occasion dish of Monterrey; served in portions with tortillas,
 salsa and frijoles. Golden-brown, crisp skin, small bones. [HIGH for the
 dish and its Nuevo León status]
+- **Composition & proportions (§4.7)**: one portion is a leg or rib
+  section (~200–300 g) on a plate, with tortillas, salsa and a small bowl
+  of beans. [EDITORIAL]
 
 #### Baja fish tacos (zone 2)
 
@@ -1231,6 +1481,14 @@ dish and its Nuevo León status]
 - **Staging**: two tacos on a small plate at a seaside stand; self-serve
   salsas.
 - **Model failure**: grilled fish with mango salsa (a US restaurant take).
+- **Composition & proportions (§4.7)** — two tacos.
+  - **What dominates**: one battered fish strip (~10–12 cm, as long as
+    the tortilla) per taco; cabbage a light handful; pico de gallo a
+    spoon; sauce a thin drizzle. [EDITORIAL]
+  - **Prompt-ready line**: "Two soft corn tacos, each holding one long
+    strip of puffy, pale-golden battered white fish, topped with shredded
+    cabbage, a spoon of chopped tomato-onion salsa and a thin drizzle of
+    white creamy sauce, lime wedges beside."
 
 #### Aguachile (zone 2, Sinaloa / Nayarit)
 
@@ -1244,6 +1502,16 @@ dish and its Nuevo León status]
   crisp and pale.
 - **Model failure**: cooked cocktail shrimp; Peruvian ceviche with sweet
   potato and corn.
+- **Composition & proportions (§4.7)**.
+  - **What dominates**: 10–15 butterflied shrimp fanned in a single
+    layer, half-submerged in the green chile-lime liquid; cucumber slices
+    (8–10) and red onion slivers as accents on top; 2–3 tostadas beside.
+    [EDITORIAL]
+  - **Prompt-ready line**: "A flat plate of raw butterflied shrimp fanned
+    in a single layer, translucent in the middle and pale pink at the
+    edges, sitting in a thin bright green chile-lime sauce, topped with
+    thin cucumber half-moons and slivers of red onion, crisp tostadas
+    beside it."
 
 #### Pescado zarandeado (zone 2, Nayarit)
 
@@ -1251,6 +1519,9 @@ A whole butterflied fish marinated in a chile-achiote-based paste and
 grilled over charcoal in a hinged basket; charred, red-orange, served
 flat on a platter with tortillas, salsa, cucumber and onion. [MEDIUM —
 one source confirms; details not individually re-searched]
+- **Composition & proportions (§4.7)**: one whole butterflied fish
+  (~35–45 cm) fills a platter; tortillas, cucumber and onion on the side.
+  [EDITORIAL]
 
 #### Pescado a la veracruzana (zone 5)
 
@@ -1258,6 +1529,9 @@ A white fish (traditionally red snapper) baked or simmered in a tomato
 sauce with green olives, capers, pickled güero chiles, onion and bay —
 bright red sauce studded with olive green, on a platter with white rice.
 [MEDIUM — not individually re-searched]
+- **Composition & proportions (§4.7)**: the fish fillet (or whole fish)
+  under a sauce that covers it; olives (6–10), capers and 2–3 güero
+  chiles scattered on top; white rice a small mound beside. [EDITORIAL]
 
 #### Tlayuda (zone 6, Oaxaca)
 
@@ -1274,6 +1548,17 @@ bright red sauce studded with olive green, on a platter with white rice.
 - **Model failure**: a pizza; a Tex-Mex tostada; a flour tortilla.
 - **Sources**: [Recetas Mexas — tlayuda](https://recetasmexas.com/guia/tlayuda);
   [El Independiente — el asiento de las tlayudas](https://elindependiente.mx/estados/2025/10/29/oaxaca-y-su-secreto-mejor-guardado-el-asiento-de-las-tlayudas/).
+- **Composition & proportions (§4.7)**.
+  - **What dominates**: the huge tortilla; toppings cover it to ~2 cm
+    from the edge: a thin dark bean layer, quesillo in loose white
+    ribbons (~30% coverage), shredded cabbage, 2–3 tomato and avocado
+    slices, and **2–3 long thin tasajo strips laid across the top**
+    rather than chopped meat all over. [EDITORIAL]
+  - **Prompt-ready line**: "An enormous round, semi-crisp corn tortilla,
+    about two and a half cans across, charred in spots, spread with a
+    thin layer of black beans and loose white ribbons of string cheese,
+    shredded cabbage, a few slices of tomato and avocado, with two long
+    thin strips of grilled dried beef laid across it."
 
 #### Cochinita pibil (zone 7)
 
@@ -1288,6 +1573,15 @@ bright red sauce studded with olive green, on a platter with white rice.
 - **Model failure**: US pulled pork; carnitas (pale gold, not orange-red).
 - **Sources**: [Larousse Cocina — cochinita pibil](https://laroussecocina.mx/receta/cochinita-pibil/);
   [Wikipedia — Cochinita pibil (via search)](https://en.wikipedia.org/wiki/Cochinita_pibil).
+- **Composition & proportions (§4.7)** — tacos de cochinita.
+  - **What dominates**: shredded orange-red pork (~40–50 g per taco) with
+    **pickled red onion as a generous magenta topping** (~1/4 of the
+    visible taco) — the one garnish that always appears; habanero salsa
+    on the side. [EDITORIAL]
+  - **Prompt-ready line**: "Three soft corn tacos filled with shredded,
+    juicy orange-red pork, each topped with a generous tangle of thin
+    translucent magenta pickled red onion, on a plate lined with a piece
+    of banana leaf, a small bowl of orange habanero salsa beside."
 
 #### Panuchos and salbutes (zone 7)
 
@@ -1298,6 +1592,10 @@ bright red sauce studded with olive green, on a platter with white rice.
   topped the same way. The bean layer is the visual difference. [HIGH]
 - **Scale**: ~10–12 cm each, three or four to a plate. [LOW-MEDIUM]
 - **Sources**: [Imperial Las Perlas — panuchos y salbutes](https://imperialperlas.com/blog/gastronomia-de-yucatan-cochinita-panuchos-y-salbutes-explicados/).
+- **Composition & proportions (§4.7)**: 3–4 per plate; toppings cover
+  the tortilla: a small heap of shredded poultry, a pinch of lettuce, one
+  tomato slice, one avocado slice, pickled onion; on panuchos the black
+  bean layer shows at the torn edge. [EDITORIAL]
 
 #### Sopa de lima, poc chuc, papadzules (zone 7, compact)
 
@@ -1308,6 +1606,11 @@ bright red sauce studded with olive green, on a platter with white rice.
 - **Papadzules**: tortillas rolled around chopped egg, bathed in a pale
   green pumpkin-seed sauce and topped with tomato sauce.
 [MEDIUM — not individually re-searched]
+- **Composition & proportions (§4.7)**: sopa de lima — clear broth to
+  near the rim, shredded chicken, a nest of tortilla strips, 1–2 lima
+  slices floating; poc chuc — sliced pork taking half the plate with
+  pickled onion, charred tomato salsa and beans; papadzules — 3–4 rolls
+  under pale green sauce with a stripe of red tomato sauce. [EDITORIAL]
 
 ### C. Sweets (compact)
 
@@ -1367,6 +1670,13 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
 ---
 
 ## GAP LOG
+
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md`
+  §4.7) are mostly editorial synthesis.** Piece sizes are sourced where
+  tagged; counts and surface shares are reasoned from recipe quantities and
+  serving norms, tagged [EDITORIAL], and should be checked against image
+  tests — two or more generations per prompt-ready line — before being
+  treated as reliable.
 
 - **No Mexico-specific pack dimensions confirmed.** The 355 mL can uses the
   US figures as a stand-in; the 355 mL returnable glass bottle's ~20 cm

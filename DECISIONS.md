@@ -3185,5 +3185,7 @@ per portion, look, placement), arrangement, vessel fill, served portion vs
 whole dish, state cues, things absent on purpose, and a prompt-ready line
 ordered by prominence. Spain's paella entry is the worked example.
 
-**Not yet done**: back-filling the block into existing entries across the
-other files — rollout order put to Fernando.
+**Back-fill progress**: Spain (all entries, compact sections as one-line
+notes) and Mexico (all catalog entries) done the same day, following the
+recommended order while Fernando's rollout pick was pending. Remaining:
+Germany, South Africa, UK/Scotland, Uruguay and the US files.
