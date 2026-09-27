@@ -12,11 +12,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const outIdx = args.indexOf('--out');
 const OUT = outIdx >= 0 ? path.resolve(args.splice(outIdx, 2)[1]) : path.join(ROOT, 'out');
+const keepClamps = args.includes('--keep-clamps') && args.splice(args.indexOf('--keep-clamps'), 1);
 const specFiles = args.length ? args : sceneFiles(ROOT);
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const registry = readJson(path.join(ROOT, 'registry/objects.json'));
 const baseRules = loadRules(ROOT);
+if (keepClamps && baseRules.camera.closer) baseRules.camera.closer.tableHorizonMax = null; // keep each blueprint's own clamp
 
 function serve() {
   const types = { '.js': 'text/javascript', '.html': 'text/html' };
@@ -83,9 +85,10 @@ async function main() {
       const r = await page.evaluate((a) => window.R.render(a), { layout: doc, registry, width: W, height: H });
       for (const [label, px] of Object.entries(r.pixels)) {
         const o = doc.objects.find((x) => x.label === label);
-        const occ = px.solo ? 1 - px.visible / px.solo : 1;
+        const occ = px.solo ? 1 - (px.visibleWithoutStack ?? px.visible) / px.solo : 1;
         const max = rules.maxOcclusion[o.role] ?? rules.maxOcclusion.other;
-        results.push({ id: `occlusion:${label}`, pass: occ <= max, hard: true, detail: `${(occ * 100).toFixed(1)}% hidden (max ${max * 100}%)` });
+        const own = px.visibleWithoutStack != null ? `; items on its own stack cover another ${(((px.visibleWithoutStack - px.visible) / px.solo) * 100).toFixed(1)}%, by design` : '';
+        results.push({ id: `occlusion:${label}`, pass: occ <= max, hard: true, detail: `${(occ * 100).toFixed(1)}% hidden by other items (max ${max * 100}%)${own}` });
       }
       const byLayer = { 1: 0, 2: 0, 3: 0 };
       for (const o of doc.objects) byLayer[o.layer] += r.pixels[o.label].visible;
@@ -105,7 +108,9 @@ async function main() {
   }
   const cols = Math.min(3, tiles.length);
   const tw = cols === 3 ? 640 : 960, th = Math.round((tw * tiles[0].h) / tiles[0].w);
-  const sheet = await page.evaluate((a) => window.R.contactSheet(a.tiles, a.cols, a.tw, a.th, 'Tablescape test build: clock-face place setting, serving stacks, 30° camera'), { tiles, cols, tw, th });
+  const k = baseRules.camera.closer;
+  const title = `Tablescape test build: ${baseRules.camera.elevationDeg}° camera${k ? `, ${k.by * 100}% closer than ${k.fromElevationDeg}°` : ''}${keepClamps ? ', blueprint horizon clamps kept' : ''}`;
+  const sheet = await page.evaluate((a) => window.R.contactSheet(a.tiles, a.cols, a.tw, a.th, a.title), { tiles, cols, tw, th, title });
   png(sheet, path.join(OUT, 'contact-sheet.png'));
   fs.writeFileSync(path.join(OUT, 'summary.json'), JSON.stringify(summary, null, 2));
   await browser.close();

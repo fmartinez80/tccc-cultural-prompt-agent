@@ -1,14 +1,20 @@
 {
   "_note": "Test-build rules. Sources: composition doc 2 (30 deg, 50% table horizon, odd/even, depth bands, condiment 1-3in), knowledge base tableware ref s7 (spacing, margins), plan 2a (SKU on diner's right).",
   "camera": {
-    "elevationDeg": 30,
+    "elevationDeg": 20,
     "focalMm": 50,
     "sensorWidthMm": 36,
     "aspect": [
       16,
       9
     ],
-    "yawDeg": 22
+    "yawDeg": 22,
+    "closer": {
+      "_note": "Fernando 2026-09-27: 20 deg instead of 30, and about 25% closer than the 30 deg framing. The distance is 25% under the tightest 30 deg fit; at that distance the rear table edge lands at 46-50% of frame height, above some blueprint clamps (0.42-0.48), so tableHorizonMax here replaces the blueprint clamp. Set it to null to keep the blueprint clamps (the camera then stops as close as they allow, about 12-17% closer).",
+      "by": 0.25,
+      "fromElevationDeg": 30,
+      "tableHorizonMax": 0.5
+    }
   },
   "tableHorizonMax": 0.5,
   "tableHorizonMinPreferred": 0.36,

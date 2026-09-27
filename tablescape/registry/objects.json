@@ -159,5 +159,11 @@
     "d": 0.32,
     "h": 0.003,
     "source": "butcher paper sheet under a vessel; assumed"
+  },
+  "portion-small": {
+    "kind": "portion",
+    "diameter": 0.09,
+    "h": 0.0,
+    "source": "a side served straight on the plate, no dish (Fernando 2026-09-27: plate holds entree + two small sides)"
   }
 }

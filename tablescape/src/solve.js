@@ -179,11 +179,11 @@ export function place(enriched, spec, reg, rules, archetypeId) {
   placed.push(dish);
 
   const c = Math.cos(rad(dish.yaw)), sn = Math.sin(rad(dish.yaw));
-  const at = (lx) => ({ x: dish.x + lx * c, z: dish.z - lx * sn });
+  const at = (lx, lz = 0) => ({ x: dish.x + lx * c + lz * sn, z: dish.z - lx * sn + lz * c }); // local -> table, as footprint()
   const vesselPoly = footprint({ ...st.vesselFootprint, ...at(st.vesselOffsetX), yaw: dish.yaw });
   for (const o of sharing) {
     const p = st.placements.find((q) => q.label === o.label);
-    Object.assign(o, at(p.lx), { y: p.y, host: p.host === 'vessel' ? st.vessel : st.carrier });
+    Object.assign(o, at(p.lx, p.lz), { y: p.y, host: p.host === 'vessel' ? st.vessel : st.carrier });
     o.poly = footprint(o);
     o.hostPoly = p.host === 'vessel' ? vesselPoly : dish.poly;
     placed.push(o);
@@ -278,7 +278,19 @@ export function screenBox(c, o) {
   return { x0: Math.min(...xs), x1: Math.max(...xs), y0: Math.min(...ys), y1: Math.max(...ys), cx: (Math.min(...xs) + Math.max(...xs)) / 2 };
 }
 
+// camera.closer: fit at fromElevationDeg first, then move `by` closer at the
+// configured elevation (the nearest distance at or beyond that which still fits).
 export function autofit(layout, rules) {
+  const k = rules.camera.closer;
+  if (!k) return fit(layout, rules, 0.5);
+  const ref = fit(layout, { ...rules, camera: { ...rules.camera, elevationDeg: k.fromElevationDeg } }, 0.5);
+  if (!ref) return null;
+  const r = { ...rules, tableHorizonMax: k.tableHorizonMax ?? rules.tableHorizonMax };
+  const c = fit(layout, r, ref.distance * (1 - k.by));
+  return c && { ...c, referenceDistance: ref.distance, closerBy: 1 - c.distance / ref.distance };
+}
+
+function fit(layout, rules, minDistance) {
   const cam = rules.camera;
   const A = ARCHETYPES[layout.archetype];
   const objs = layout.objects;
@@ -287,7 +299,7 @@ export function autofit(layout, rules) {
   let best = null;
   for (let tx = -1.0; tx <= 1.0001; tx += 0.025)
     for (let tz = -1.2; tz <= 0.3001; tz += 0.025) // aim point may sit behind the table: the 50% rule puts the rear edge at or below frame center
-      for (let d = 0.5; d <= 4.0; d += 0.02) {
+      for (let d = minDistance; d <= 4.0; d += 0.02) {
         const c = makeCamera(cam, [tx, 0, tz], d);
         let ok = true;
         const boxes = {};
@@ -314,7 +326,7 @@ export function autofit(layout, rules) {
       }
   if (!best) return null;
   const c = makeCamera(cam, best.target, best.distance);
-  return { ...best, position: c.position, vfovDeg: c.vfovDeg, aspect: c.ratio, elevationDeg: cam.elevationDeg, yawDeg: cam.yawDeg, focalMm: cam.focalMm };
+  return { ...best, horizonMax: rules.tableHorizonMax, position: c.position, vfovDeg: c.vfovDeg, aspect: c.ratio, elevationDeg: cam.elevationDeg, yawDeg: cam.yawDeg, focalMm: cam.focalMm };
 }
 
 // ---------- 5. Pre-render checks ----------
@@ -356,7 +368,9 @@ export function checks(layout, camera, enriched, rules) {
   add('sku-diner-right', sku.x > dish.x, `SKU ${((sku.x - dish.x) * 100).toFixed(0)} cm right of DISH on the table`);
   const sb = screenBox(c, sku), db = screenBox(c, dish);
   add('sku-screen-right', sb.cx > db.cx && sb.cx > 0.5, `SKU center x ${sb.cx.toFixed(2)}, DISH ${db.cx.toFixed(2)}`);
-  add('table-horizon', camera.horizon <= rules.tableHorizonMax, `table rear edge at ${(camera.horizon * 100).toFixed(0)}% of frame height (max ${Math.round(rules.tableHorizonMax * 100)}%)`);
+  const hMax = camera.horizonMax ?? rules.tableHorizonMax;
+  add('table-horizon', camera.horizon <= hMax + 1e-9, `table rear edge at ${(camera.horizon * 100).toFixed(0)}% of frame height (max ${Math.round(hMax * 100)}%${hMax !== rules.tableHorizonMax ? `; blueprint clamp ${Math.round(rules.tableHorizonMax * 100)}%` : ''})`);
+  if (camera.closerBy != null) add('camera-closer', true, `${(camera.closerBy * 100).toFixed(0)}% closer than the ${rules.camera.closer.fromElevationDeg}° fit (${camera.referenceDistance.toFixed(2)} m -> ${camera.distance.toFixed(2)} m)`, false);
   add('sku-top', true, `SKU top at ${(sb.y1 * 100).toFixed(0)}% of frame height (objects may cross the 50% line)`, false);
   for (const o of objs.filter((o) => o.onBase)) {
     const cross = (p, q, [x, z]) => (q[0] - p[0]) * (z - p[1]) - (q[1] - p[1]) * (x - p[0]);

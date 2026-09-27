@@ -24,9 +24,26 @@ test('a carrier only takes the vessels it is built for', () => {
   assert.throws(() => resolveStack({ stack: { vessel: 'platter' } }, stacks), /unknown vessel/);
 });
 
-test('capacity: a bowl shares nothing, a plate holds at most 2 condiments', () => {
-  assert.throws(() => layoutStack(dish({ vessel: 'bowl' }, null), [ramekin('C1')], stacks, reg), /bowl holds at most 0/);
-  assert.throws(() => layoutStack(dish({}, null), [ramekin('C1'), ramekin('C2'), ramekin('C3')], stacks, reg), /plate holds at most 2/);
+const side = (label, registry) => ({ label, role: 'SIDE', round: true, r: reg[registry].diameter / 2 });
+
+test('capacity: a bowl holds only the entree, a plate at most 2 condiments', () => {
+  assert.throws(() => layoutStack(dish({ vessel: 'bowl' }, null), [ramekin('C1')], stacks, reg), /bowl holds 1 entree; no room for C1/);
+  assert.throws(() => layoutStack(dish({}, null), [ramekin('C1'), ramekin('C2'), ramekin('C3')], stacks, reg), /no room for C3 \(condiment\)/);
+});
+
+test('a plate holds the entree plus two small sides, packed inside the rim', () => {
+  const s = layoutStack(dish({}), [side('S1', 'portion-small'), side('S2', 'portion-small')], stacks, reg);
+  const R = reg['plate-round'].diameter / 2;
+  for (const p of s.placements) assert.ok(Math.hypot(p.lx, p.lz) + reg['portion-small'].diameter / 2 <= R);
+  assert.ok(s.foodOffsetX - reg['food-bun-sandwich'].diameter / 2 >= -R, 'the entree stays on the plate');
+  assert.throws(() => layoutStack(dish({}), [side('S1', 'portion-small'), side('S2', 'portion-small'), side('S3', 'portion-small')], stacks, reg), /no room for S3 \(small side\)/);
+  assert.throws(() => layoutStack(dish({}), [side('S1', 'bowl-side-small')], stacks, reg), /no room for S1 \(side\)/);
+});
+
+test('a board holds the entree, one side of any size and two condiments', () => {
+  const s = layoutStack(dish({ vessel: 'board' }, 'food-choripan'), [side('S1', 'portion-small'), ramekin('C1')], stacks, reg);
+  assert.equal(s.placements.length, 2);
+  assert.throws(() => layoutStack(dish({ vessel: 'board' }), [side('S1', 'portion-small'), side('S2', 'portion-small')], stacks, reg), /no room for S2/);
 });
 
 test('real size: food plus shared items must fit across the vessel', () => {

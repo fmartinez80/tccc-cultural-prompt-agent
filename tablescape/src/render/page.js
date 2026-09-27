@@ -89,6 +89,7 @@ function vesselMesh(v) {
   let top = 0;
   if (v.kind === 'bottle') g.add(new THREE.Mesh(lathe(CONTOUR, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.18 })));
   else if (v.kind === 'glass') g.add(new THREE.Mesh(lathe(GLASS, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.12 })));
+  else if (v.kind === 'portion') top = 0; // served straight on the vessel below, no dish
   else if (v.kind === 'trayPlain') {
     // serving tray: flat metal sheet with a low rim
     const mat = std(0x8c8c8e, { metalness: 0.6, roughness: 0.35 });
@@ -299,8 +300,13 @@ export async function render({ layout, registry: reg, width, height }) {
     labels.forEach((m) => (meshes[m].visible = m === l));
     return count()[i];
   });
+  // The entree measured with the items sharing its stack hidden: sides on the
+  // plate cover the plate by design, so only other items count as occlusion.
+  const mates = layout.objects.filter((o) => o.onBase).map((o) => o.label);
+  labels.forEach((m) => (meshes[m].visible = !mates.includes(m)));
+  const noMates = count();
   labels.forEach((m) => (meshes[m].visible = true));
-  const pixels = Object.fromEntries(labels.map((l, i) => [l, { visible: visible[i], solo: solo[i] }]));
+  const pixels = Object.fromEntries(labels.map((l, i) => [l, { visible: visible[i], solo: solo[i], ...(mates.length && layout.objects[i].role === 'DISH' ? { visibleWithoutStack: noMates[i] } : {}) }]));
   idRenderer.dispose();
   return { clean, labeled, pixels };
 }
