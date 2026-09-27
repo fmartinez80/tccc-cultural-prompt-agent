@@ -15,7 +15,7 @@
         "id": "close-hero",
         "label": "Close-up hero",
         "help": "Tight on the meal and the bottle, background melts away.",
-        "prompt": "Commercial food photography, shot on a 50mm f/2.0 lens, sharp high-fidelity focus on the foreground elements on the table, crisp edge details on the beverage bottle and plated food. Smooth, rapid focus fall-off completely blurring the background elements immediately past the table edge. Authentically rendered real-world film grain, fine-grain texture across the midtones, deep rich contrast, bold enticing saturation with vibrant iconic color separation, lively editorial food styling.",
+        "prompt": "Commercial food photography, shot on a 50mm f/2.0 lens, sharp focus on the foreground elements on the table, with crisp edge detail on the beverage bottle and plated food. Smooth, rapid focus fall-off softly blurring the background immediately past the table edge. Authentic real-world film grain with fine-grain texture across the midtones, clean natural contrast with open shadows, and rich but true-to-life color, with the Coca-Cola red standing out. Food looks real and freshly made: natural textures, visible char, crumbs, moisture and small imperfections, with soft natural highlights, never glossy, waxy or plastic-looking. Lively editorial food styling.",
         "hidden": { "focal_length_mm": 50, "aperture": "f/2.0", "focus": "the whole table setting, including the Coca-Cola product; blur begins just past the table's far edge", "focus_distance_m": "auto" },
         "status": "final"
       },
