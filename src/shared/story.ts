@@ -118,8 +118,8 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   const shared = bp.primitives.some((p) => p.id === "SHARED_HERO");
   const serving = spec.sku.glass
     ? shared || spec.sku.volumeMl >= 1000
-      ? `A ${spec.sku.displayName} stands on the table as the shared bottle, with a filled branded bell-shaped Coca-Cola glass at the top right of the plate.`
-      : `A ${spec.sku.displayName} with a filled branded bell-shaped Coca-Cola glass beside it, at the top right of the plate.`
+      ? `A ${spec.sku.displayName} stands at the top right of the plate as the shared bottle, with a filled branded bell-shaped Coca-Cola glass to its right.`
+      : `A ${spec.sku.displayName} at the top right of the plate, with a filled branded bell-shaped Coca-Cola glass to its right.`
     : `A ${spec.sku.displayName} at the top right of the plate, served as is, no glass.`;
   return {
     genreLine: `Photorealistic ${venueWord} photography, 16:9.`,

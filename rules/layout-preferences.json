@@ -7,6 +7,10 @@
     "counterweight": 0,
     "feast-spread": 0.06
   },
+  "drink_order": {
+    "$comment": "Left-to-right order of the product and the glass, from the camera. House rule: the bottle sits at the plate's top right and the glass to the right of the bottle, slightly forward. This overrides the knowledge base's tableware reference, which puts the glass next to the plate and a shared bottle beyond it. Values: bottle-then-glass | glass-then-bottle.",
+    "value": "bottle-then-glass"
+  },
   "hero_span_target": {
     "$comment": "Share of frame width the hero group (entree + drink) should span. Raised 15% after the first taco test (0.28 -> 0.32) to zoom in on the setting.",
     "with_sides": 0.32,

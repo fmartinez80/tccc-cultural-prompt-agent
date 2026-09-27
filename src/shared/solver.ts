@@ -137,7 +137,16 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
   const glass = items.find((i) => i.kind === "glass");
   const multi = isMultiServe(spec);
 
-  if (glass) {
+  const bottleFirst = layoutPreferences.drink_order.value === "bottle-then-glass";
+  if (glass && bottleFirst) {
+    // House rule (layout-preferences.json drink_order): bottle at the top right of the plate,
+    // glass to its right and slightly forward, nearer the diner.
+    const rg = footprintRadius(glass.def);
+    const clear = multi ? Math.max(bottleClearance(spec.sku), rs + 0.02) : rs;
+    const s = polar(P, 32, R + 0.03 + clear);
+    pos.set("SKU", s);
+    pos.set("GLASS", { x: s.x + rs + 0.025 + rg, d: s.d - 0.03 });
+  } else if (glass) {
     const rg = footprintRadius(glass.def);
     // Glass at the top right of the plate.
     const g = polar(P, 52, R + 0.03 + rg);
@@ -174,9 +183,11 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
   const sharedHero = items.find((i) => i.kind === "shared-hero");
   const r = (i: ItemSpec) => footprintRadius(i.def);
 
-  // Bread: right third, midground/background (tableware reference §4).
+  // Bread: right third, midground/background (tableware reference §4), beyond the rightmost drink.
   const skuPos = pos.get("SKU")!;
-  breads.forEach((b, k) => pos.set(b.label, { x: skuPos.x + rs + 0.07 + r(b) + k * 0.05, d: skuPos.d + 0.1 + k * 0.08 }));
+  const glassPos = pos.get("GLASS");
+  const drinkRight = glass && glassPos && glassPos.x > skuPos.x ? glassPos.x + footprintRadius(glass.def) : skuPos.x + rs;
+  breads.forEach((b, k) => pos.set(b.label, { x: drinkRight + 0.07 + r(b) + k * 0.05, d: skuPos.d + 0.1 + k * 0.08 }));
 
   // Condiments: tight cluster behind the plate, within 1-3 in of it.
   const condCluster = (angle: number) => {
