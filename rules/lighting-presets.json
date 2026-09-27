@@ -19,7 +19,8 @@
     { "setting": "indoor",  "venue": "home",       "time": ["morning", "midday"], "preset": "home-window-daylight" },
     { "setting": "indoor",  "venue": "home",       "time": ["golden-hour"],       "preset": "home-window-golden" },
     { "setting": "indoor",  "venue": "home",       "time": ["evening"],           "preset": "home-evening-lamps" },
-    { "setting": "indoor",  "venue": "restaurant", "time": ["morning", "midday", "golden-hour"], "preset": "restaurant-day-window" },
+    { "setting": "indoor",  "venue": "restaurant", "time": ["morning", "midday"], "preset": "restaurant-late-morning-window" },
+    { "setting": "indoor",  "venue": "restaurant", "time": ["golden-hour"],       "preset": "restaurant-day-window" },
     { "setting": "indoor",  "venue": "restaurant", "time": ["evening"],           "preset": "restaurant-evening-ambient" },
     { "setting": "outdoor", "venue": "*",          "time": ["morning"],           "preset": "outdoor-morning" },
     { "setting": "outdoor", "venue": "*",          "time": ["midday"],            "preset": "outdoor-midday-shade" },
@@ -44,8 +45,8 @@
     "transparent": {
       "packages": ["contour-glass-bottle", "pet-bottle", "glass-with-ice", "bell-glass"],
       "prompt_by_warmth": {
-        "cool":    "Light passes through {drinks} from behind, giving the cola a deep red-amber glow with crisp highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label.",
-        "warm":    "Warm light passes through {drinks} from behind, making the cola glow rich amber-red with warm highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label.",
+        "cool":    "Light passes through {drinks} from behind, giving the cola a deep red-amber glow with crisp highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label. Where the light passes through the cola, it lays a soft caramel-amber tint inside the drink's shadow on the table.",
+        "warm":    "Warm light passes through {drinks} from behind, making the cola glow rich amber-red with warm highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label. Where the light passes through the cola, it lays a soft caramel-amber tint inside the drink's shadow on the table.",
         "ambient": "A soft glow passes through {drinks} from the light behind, with gentle highlights tracing the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label."
       }
     },
@@ -70,6 +71,12 @@
       "prompt": "Evening indoors, warm light from a pendant lamp above and slightly behind the table plus a table lamp to the left, soft pools of light and a cozy warm tone.",
       "warmth": "ambient",
       "rig": { "key": { "type": "spot", "azimuth_deg": -160, "elevation_deg": 60, "kelvin": 2700, "softness": 0.6 }, "fill_ratio": 0.2, "ambient_kelvin": 2700, "practicals": ["pendant", "table-lamp-left"] }
+    },
+    "restaurant-late-morning-window": {
+      "prompt": "Natural late-morning daylight from large windows behind and to the left of the table, bright, clean and neutral rather than golden. The foreground is pleasantly and evenly lit, with soft, subtle shadows falling forward and to the right, away from the plate, and the room gently filled by bounced daylight. Balanced fill from the front keeps the face of the bottle and its label evenly lit, never darkened by its own shadow and never blown out.",
+      "warmth": "cool",
+      "rig": { "key": { "type": "area", "azimuth_deg": -140, "elevation_deg": 40, "kelvin": 5400, "softness": 0.65 }, "fill_ratio": 0.55, "ambient_kelvin": 6000 },
+      "notes": "Default for daytime restaurant scenes. Replaces the warm afternoon look after image tests: higher fill protects the label; the caramel cast comes from sku_light."
     },
     "restaurant-day-window": {
       "prompt": "Natural daylight: warm afternoon sunlight streams through large windows behind and to the left of the table, laying soft-edged patches of sun across the tabletop and casting natural shadows that fall forward and to the right, away from the plate, with the rest of the room gently lit by bounced daylight.",
