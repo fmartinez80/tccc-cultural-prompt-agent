@@ -1367,6 +1367,22 @@ on-premise glass bottles (same §), and the vessel table above.*
   glistening with oil — no bread. [CONFIDENCE: HIGH]
 - **Common model failure**: tiny formal canapés; generic "tapas" plates
   with no bread base.
+- **Composition & proportions (§4.7)** — a counter row and one plate.
+  - **What dominates**: **the topping**, which is taller than the bread:
+    a ~8–10 cm baguette slice ~1 cm thick carries a topping mound 3–5 cm
+    high that covers the whole slice to its edges; one toothpick through
+    the centre. [EDITORIAL from the scale above]
+  - **Count**: a diner's plate holds 2–3 pintxos; the counter behind holds
+    rows of 20–40 on platters. A gilda: one olive, one anchovy coiled
+    around, 2–3 guindillas, on an 8–10 cm stick.
+  - **Absent on purpose**: plated tapas without bread, formal canapé
+    piping, cocktail sticks with frills.
+  - **Prompt-ready line**: "On a small white plate on a bar counter, two
+    bite-size open sandwiches on thick slices of baguette, each piled
+    higher than the bread with a glossy topping (roasted red peppers and
+    a silvery anchovy; a creamy salt-cod spread), a toothpick through
+    each. Behind, softly out of focus, rows of similar bites along the
+    counter."
 
 #### Tarta de queso vasca (Basque burnt cheesecake)
 
@@ -1389,6 +1405,19 @@ on-premise glass bottles (same §), and the vessel table above.*
   crust); a burnt-looking failure.
 - **Genericize**: the named San Sebastián bar of origin — real, and
   useful as historical background, but never a prompt subject (§7.5).
+- **Composition & proportions (§4.7)** — a slice.
+  - **What dominates**: the creamy interior; the burnt top is a ~3–5 mm
+    near-black skin, no base or crust. [EDITORIAL]
+  - **Served portion**: one wedge ~1/8 of a 20–22 cm cake, ~6–8 cm tall
+    (a little over half the can's height), cut face to camera, crinkled
+    parchment left under or peeled back; nothing else on the plate.
+  - **Absent on purpose**: berry coulis, whipped cream, biscuit base,
+    icing sugar.
+  - **Prompt-ready line**: "One wedge of crustless cheesecake about half
+    the can's height, top deep caramel-black and blistered, sides
+    ruffled and bronzed from crumpled baking paper, the cut face pale
+    cream and very soft, sagging slightly at the centre. Plain white
+    plate, no sauce, no garnish."
 
 #### Pulpo á feira / a la gallega (zone 1)
 
@@ -1409,6 +1438,18 @@ on-premise glass bottles (same §), and the vessel table above.*
   beneath.
 - **Common model failure**: charred grilled tentacles with grill marks;
   a white ceramic plate.
+- **Composition & proportions (§4.7)** — one wooden plate.
+  - **What dominates**: octopus rounds (~1–1.5 cm thick, 2–4 cm across),
+    ~20–30 of them covering the plate in a single layer; cachelos
+    (potato slices) beneath if used, visible only at the edges; pimentón
+    and salt a surface dusting. [EDITORIAL for counts]
+  - **Absent on purpose**: grill marks, whole tentacles, lemon, parsley,
+    salad, ceramic plate.
+  - **Prompt-ready line**: "A round, oil-darkened wooden plate covered in
+    a single layer of octopus cut into thick coins, each about a third of
+    the can's width, purple-pink skin with pale suction-cup rims and
+    firm white centres, dusted unevenly with red paprika, coarse salt and
+    a pool of golden olive oil; toothpicks stuck in a few pieces."
 
 #### Empanada gallega (zone 1)
 
@@ -1423,6 +1464,15 @@ on-premise glass bottles (same §), and the vessel table above.*
   pepper sofrito.
 - **Common model failure**: small Argentine crimped hand pies ("empanada"
   means both).
+- **Composition & proportions (§4.7)** — one square.
+  - **What dominates**: the filling layer (~1.5–2 cm) between two thin
+    crusts (~5–8 mm each); a square ~8–10 cm on a plate or napkin.
+    [LOW-MEDIUM]
+  - **Absent on purpose**: crimped half-moon shapes, sauces.
+  - **Prompt-ready line**: "A square slice of a large flat Galician pie,
+    about the can's height across, thin golden egg-washed top crust with
+    a strip of dough decoration, the cut side showing a reddish, oily
+    onion-and-pepper filling with flakes of tuna between two thin crusts."
 
 #### Fabada asturiana (zone 1)
 
@@ -1436,6 +1486,18 @@ on-premise glass bottles (same §), and the vessel table above.*
   pork belly pale and wobbly.
 - **Common model failure**: small, dark, sweet US baked beans; a crusted
   cassoulet.
+- **Composition & proportions (§4.7)** — individual cazuela.
+  - **What dominates**: **beans** (~60–70% of the surface) — large
+    ivory fabes ~2.5–3 cm long; the compango (1–2 chorizo rounds or
+    chunks, 1 slice of morcilla, 1 piece of pork belly) sits on top as
+    accents or is served on a separate plate. Broth reaches just below the
+    top layer of beans. [EDITORIAL]
+  - **Absent on purpose**: tomato sauce, a crust, small dark beans.
+  - **Prompt-ready line**: "An earthenware bowl of large, plump, creamy
+    white beans, each nearly half the can's width, in a loose orange-
+    tinted broth with fat droplets, topped with a few glossy red chorizo
+    slices, a slice of near-black blood sausage and a piece of pork
+    belly."
 
 #### Cachopo (zone 1, Asturias)
 
@@ -1456,6 +1518,17 @@ on-premise glass bottles (same §), and the vessel table above.*
   cross-section shows thin pale meat, a pink jamón layer, and molten,
   stretching cheese.
 - **Common model failure**: a normal-size schnitzel.
+- **Composition & proportions (§4.7)** — one cachopo.
+  - **What dominates**: **the breaded cutlet itself**, ~30 cm+ long,
+    ~2–3 cm thick in total, overhanging a 26–28 cm plate; fries and 2–3
+    roasted pepper strips on a separate plate or tucked at one edge.
+    Cut face: thin pale veal top and bottom (~5 mm each), a pink jamón
+    layer, molten cheese. [MEDIUM for size, see above]
+  - **Absent on purpose**: sauces, salad heaps.
+  - **Prompt-ready line**: "A huge golden breaded cutlet, wider than the
+    dinner plate it sits on and about three cans across, cut open at one
+    end to show two thin layers of pale veal around pink cured ham and
+    stretching melted cheese; a pile of chips beside it."
 
 #### Cocido madrileño (zone 6)
 
@@ -1474,6 +1547,19 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Cross-file**: a shared ancestor of `uruguay.md`'s separately served
   puchero (§5.2).
 - **Common model failure**: a single bowl of mixed stew.
+- **Composition & proportions (§4.7)** — the three vuelcos.
+  - **Vuelco 1**: soup plate of clear golden broth with fine noodles, the
+    noodles filling about a third of the depth. **Vuelco 2**: platter of
+    chickpeas (the bulk, ~60%), with boiled potato, carrot and cabbage.
+    **Vuelco 3**: platter of meats — a chunk of beef shank, a piece of
+    chicken, 2–3 chorizo pieces, 2–3 morcilla slices, pork belly, a
+    tocino slab, a bone. [MEDIUM-HIGH for the three-part structure;
+    counts EDITORIAL]
+  - **Staging**: pick one vuelco per shot or show them in sequence; never
+    one bowl with everything mixed.
+  - **Prompt-ready line (vuelco 2)**: "An oval platter heaped mostly with
+    plump golden-beige chickpeas, with boiled potato halves, carrot
+    lengths and soft pale green cabbage beside them."
 
 #### Gazpacho vs. salmorejo (zone 5)
 
@@ -1492,6 +1578,17 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Scope note [EDITORIAL]**: gazpacho in a glass is food. Show a spoon,
   garnish, or croutons so it doesn't read as juice or a second drink.
 - **Common model failure**: hot tomato soup; chunky salsa.
+- **Composition & proportions (§4.7)**.
+  - **Gazpacho**: liquid fills a tumbler to ~80% (or a small ~100 mL
+    glass); garnish is tiny (~5 mm) dice of cucumber, pepper and bread on
+    a side plate or a spoonful on top — a small accent. [EDITORIAL]
+  - **Salmorejo**: a 12–15 cm bowl filled to ~1 cm below the rim; topping
+    is sparse — a spoonful of chopped egg and 3–5 small jamón shards
+    clustered in the centre, a thread of oil. [EDITORIAL]
+  - **Prompt-ready line (salmorejo)**: "A small shallow bowl of thick,
+    velvety deep-orange cold tomato cream holding spoon ridges, with a
+    small cluster of chopped hard-boiled egg and a few shards of cured
+    ham in the centre and a thin thread of olive oil."
 
 #### Pescaíto frito + espetos (zone 5)
 
@@ -1516,6 +1613,19 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Texture**: pescaíto coating thin, pale-gold, matte-crisp; tails and
   fins visibly crisp.
 - **Common model failure**: thick-battered UK-style fish; neat fillets.
+- **Composition & proportions (§4.7)**.
+  - **Pescaíto**: a mixed plate is mostly small whole fish (15–25
+    anchovies or small fish ~8–12 cm, often fanned by the tails) with a
+    few pieces of cuttlefish or squid; 1–2 lemon wedges; on a paper
+    cone or oval plate. [EDITORIAL]
+  - **Espeto**: one cane with 5–6 sardines (~15–18 cm each) threaded
+    through, laid on a plate; skins charred and blistered; coarse salt.
+    [MEDIUM]
+  - **Absent on purpose**: thick batter, tartar sauce, fillets.
+  - **Prompt-ready line (espeto)**: "A plate with five whole sardines
+    threaded crosswise on a thin cane, each a little longer than the can,
+    skins silver and blistered black in patches from wood fire, coarse
+    salt crystals, a beach behind softly out of focus."
 
 #### Torreznos (zone 6, Soria)
 
@@ -1534,6 +1644,14 @@ on-premise glass bottles (same §), and the vessel table above.*
   and pink-brown meat, visible from the side; a glistening edge.
   [CONFIDENCE: HIGH for the puffed-crust description]
 - **Common model failure**: flat bacon rashers.
+- **Composition & proportions (§4.7)** — a tapa.
+  - **What dominates**: the puffed crackling crown (~1–1.5 cm of the
+    height), over alternating bands of fat and meat; 3–5 strips on a
+    small plate, standing on their sides or lying. [EDITORIAL]
+  - **Prompt-ready line**: "Four thick strips of fried pork belly, each
+    about half the can's height, on a small plate, the skin puffed into a
+    blistered, glassy golden crackling crown over clear bands of pale fat
+    and pink-brown meat."
 
 #### Calçots (zone 3, winter–spring)
 
@@ -1547,6 +1665,14 @@ on-premise glass bottles (same §), and the vessel table above.*
   coarse, brick-orange, nutty sauce in a bowl.
 - **Staging**: bibs are authentic but add clutter; keep any wrapping
   newspaper unreadable. Beverage leak: exclude the porrón wine jug.
+- **Composition & proportions (§4.7)** — a calçotada serving.
+  - **What dominates**: a pile of 10–20 blackened calçots on a roof tile
+    or wrapped in paper; a bowl of romesco (~10–12 cm) is the only
+    accompaniment in frame; one or two shown peeled. [EDITORIAL]
+  - **Prompt-ready line**: "A curved terracotta roof tile piled with long
+    spring onions charred black and ashy, each about two cans long, one
+    peeled to its soft glossy white-and-pale-green centre, beside a bowl
+    of coarse brick-orange nut sauce."
 
 #### Serranito and flamenquín (zone 5, compact)
 
@@ -1555,6 +1681,14 @@ on-premise glass bottles (same §), and the vessel table above.*
   fried into a log ~15–25cm long, sliced into rounds that show a spiral;
   with chips and mayo. [CONFIDENCE: MEDIUM — not individually re-searched
   this pass]
+- **Composition & proportions (§4.7)** — flamenquín.
+  - **What dominates**: the breaded log; served as 4–6 rounds (~2–3 cm
+    thick, ~4–5 cm across) each showing the jamón-and-loin spiral, with
+    fries and a little mayonnaise. [EDITORIAL] Serranito: see Bocadillo
+    family.
+  - **Prompt-ready line**: "Five thick rounds cut from a golden breaded
+    pork roll, each about the can's width, the cut faces showing a
+    spiral of pale pork loin and pink cured ham, with fries beside them."
 
 ### C. Grill & meat (compact)
 
@@ -1566,21 +1700,27 @@ higher than general knowledge supports.*
 - **Chuletillas de cordero**: tiny lamb chops ~8–10cm with the bone,
   piled on a plate. Crisp charred fat edges, a pink centre, coarse salt;
   eaten by the bone. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 chops fanned or piled on a 26–28 cm plate, bones outward; meat ~60%, charred fat rim ~20%; 3–5 fried potato pieces or nothing else. Absent: mint sauce, garnish. [EDITORIAL]
 - **Pinchos morunos**: paprika- and spice-marinated pork cubes on a
   ~20–25cm metal skewer; orange-red, glossy, charred edges. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: one skewer of 5–7 cubes (~2–2.5 cm) per portion, laid on a small plate with a bread slice under the tip. Absent: vegetables between the cubes. [EDITORIAL]
 - **Secreto ibérico**: a marbled pork cut, grilled and sliced into
   strips; a deep brown sear over a juicy, pink-white marbled interior.
   [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 strips (~1.5 cm wide, 8–10 cm long) fanned on a plate, half the plate; fries or piquillo peppers on the other half. Absent: sauces. [EDITORIAL]
 - **Chistorra/txistorra**: a thin (~2cm) long orange-red sausage fried in
   coils or pieces; glossy, blistered skin; on a small plate or a bread
   slice. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one coil ~12–15 cm across or 6–8 finger-length pieces on a small plate or a bread slice; a thin oil pool. Absent: garnish. [EDITORIAL]
 - **Chorizo and morcilla a la brasa**: grilled sausages, charred and
   split; morcilla near-black, crumbly and rice- or onion-studded at the
   cut. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 2–4 sausages or split halves on a board, bread alongside; sausage ~70% of the board area, bread the rest. [EDITORIAL]
 - **Chorizo a la sidra (zone 1)**: chorizo pieces simmered in cider and
   served sizzling in a cazuela, red oil pooling. The cider is a cooking
   ingredient, not a drink in frame. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 thick chorizo rounds (~2–3 cm) half-submerged in red-orange oil and cider in a small cazuela; bread beside. Absent: a cider bottle or glass. [EDITORIAL]
 
 ### D. Menú del día plates (compact)
 
@@ -1590,23 +1730,31 @@ level, since none of these surfaced as contested or surprising.*
 - **Lentejas**: brown lentils in a loose, glossy, brick-brown broth with
   chorizo rounds and carrot pieces, in a 22–24cm soup plate. [CONFIDENCE:
   MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: lentils ~70% of the bowl surface; 3–5 chorizo rounds and a few carrot pieces as accents; broth just covering. Absent: cream, herbs. [EDITORIAL]
 - **Pisto**: a soft, jammy, glossy red stew of peppers, onion, courgette,
   and tomato, often topped with a fried egg. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: the vegetable stew covers the plate or cazuela in a loose layer; one fried egg on top as the single accent. Pieces ~1–1.5 cm dice, soft and jammy. [EDITORIAL]
 - **Merluza a la romana**: battered hake fillets, puffy, pale-gold and
   smooth, with lemon and salad. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 2–3 battered fillets (~10–12 cm) take half the plate; a small green-lettuce-and-tomato salad or fries the other half; 1 lemon wedge. [EDITORIAL]
 - **San Jacobo**: ham and cheese between thin breaded pork or ham slices,
   fried; a kid and Gen Z favourite. Golden crumb, cheese oozing at the
   cut. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one golden breaded rectangle ~10–12 cm, cut to show oozing cheese and ham; fries alongside take about half the plate. [EDITORIAL]
 - **Filete con patatas**: a thin fried beef or pork fillet with chips and
   a fried egg or salad. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one thin fillet covering about half a 26–28 cm plate, chips the other half, optionally one fried egg on the chips. [EDITORIAL]
 - **Flan**: a glossy, smooth, pale-custard cylinder ~7–9cm tall, amber
   caramel pooling around it, tiny air bubbles at the sides, on a small
   plate. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: one unmoulded flan (~7–9 cm tall, a little shorter than the can) centred on a small plate with a thin caramel pool around it; nothing else, or one rosette of cream. [EDITORIAL]
 - **Arroz con leche**: creamy rice pudding in a small bowl with a
   cinnamon-dusted surface, sometimes a strip of lemon peel. [CONFIDENCE:
   MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: a small bowl filled to ~1 cm below the rim; a dusting of cinnamon covers the surface; one strip of lemon peel at most. [EDITORIAL]
 - **Natillas**: pale-yellow custard in a bowl with a biscuit on top.
   [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: a small bowl of custard filled near the rim; one round biscuit (María) on top, half-sunk; a cinnamon dusting. [EDITORIAL]
 
 ### E. Desserts & festival sweets (compact)
 
@@ -1614,12 +1762,15 @@ level, since none of these surfaced as contested or surprising.*
   glassy amber burnt-sugar crust that cracks into shards when tapped,
   over smooth pale-yellow custard. [CONFIDENCE: MEDIUM-HIGH — not
   individually re-searched this pass]
+  - *Composition & proportions (§4.7)*: the whole cazuelita surface is the burnt-sugar crust (~2 mm), cracked in one or two places with a spoon; nothing on top. [EDITORIAL]
 - **Tarta de Santiago**: an almond cake ~20–24cm across and ~3–4cm tall;
   dense, moist, slightly grainy crumb; powdered-sugar top with a
   stencilled cross silhouette in bare cake. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: one wedge (~1/8) on a plate, powdered sugar top showing part of the cross stencil; no cream or fruit. [EDITORIAL]
 - **Torrijas (Semana Santa)**: thick slices of bread soaked and fried;
   golden, caramelized crust over a custardy, wobbly interior; a sugar-
   cinnamon crust or honey gloss. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: one or two thick slices (~3 cm) per plate, glossy with honey or crusted with sugar-cinnamon; no fruit or ice cream. [EDITORIAL]
 - **Roscón de Reyes — corrected downward this pass; the scaffold's own
   30–40cm figure ran too large.** A dedicated recipe source gives an
   individual roscón's diameter as roughly **15–25cm**, with 20cm a
@@ -1635,10 +1786,12 @@ level, since none of these surfaced as contested or surprising.*
   sourced correction, though from recipe/retail-tier sources rather than
   a single authoritative standard] [SOURCE: [Virutas de Limón — Roscón
   de Reyes tradicional](https://www.virutasdelimon.com/roscon-de-reyes/); aggregated commercial roscón-size retail listings]
+  - *Composition & proportions (§4.7)*: the whole ring on a board or a few ~4–5 cm slices showing the cream band; candied fruit spaced around the top, not covering it. [EDITORIAL]
 - **Turrón and polvorones**: soft Jijona turrón — beige, oily-grainy nut
   paste; hard Alicante turrón — white nougat studded with whole almonds;
   polvorones — small, crumbly, powdery shortbreads in twisted paper
   wrappers (wrapper text blurred). [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: a small plate with 4–6 turrón bars/pieces (~3 × 1.5 cm) and 3–4 wrapped polvorones; no bars stacked high. [EDITORIAL]
 - **Coca de Sant Joan (zone 3, 23 June) — corrected this pass.** A long,
   flat, oval brioche-like pastry with rounded corners, traditionally
   twice as long as it is wide; a dedicated recipe source gives a
@@ -1647,34 +1800,44 @@ level, since none of these surfaced as contested or surprising.*
   than the scaffold's own 40×15–20cm estimate**, corrected here. Glossy
   crust topped with candied fruit, pine nuts, and sugar; cut into slices.
   [CONFIDENCE: MEDIUM] [SOURCE: [Cocinatis — Coca de San Juan](https://www.cocinatis.com/receta/coca-de-san-juan.html); [Bonviveur — Coca de San Juan](https://www.bonviveur.es/recetas/coca-de-san-juan)]
+  - *Composition & proportions (§4.7)*: one long oval coca on a board, or 3–4 slices; candied fruit pieces spaced every few cm, pine nuts scattered, sugar crust visible between. [EDITORIAL]
 - **Panellets (1 November, zone 3)**: small marzipan balls ~3–4cm, rolled
   in pine nuts toasted golden. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: 6–10 small balls on a plate or in a paper tray, pine-nut coated; nothing else. [EDITORIAL]
 - **Castañas asadas**: roasted chestnuts with split, charred, glossy-
   brown shells showing golden flesh, in a paper cone. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: a paper cone holding ~10–12 chestnuts, a few split open; nothing else. [EDITORIAL]
 - **Buñuelos**: buñuelos de viento — small, hollow, puffy golden balls
   ~3–4cm, sugar-dusted; Fallas buñuelos de calabaza — irregular, knotty
   rings, crisp outside. The chocolate cup is excluded. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 small puffs in a paper cone or on a plate, sugar dusting; the chocolate cup excluded. [EDITORIAL]
 - **Rosquillas de San Isidro**: "tontas" are plain golden rings; "listas"
   are glazed with yellow-and-white icing; ~6–8cm. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 4–6 rings on a plate or paper, tontas and listas mixed if asked. [EDITORIAL]
 
 ### F. Snacks (compact)
 
 - **Pipas**: sunflower seeds in black-and-white striped shells, from a
   small bag; eaten on benches and in stadiums. Authentic detail: a small
   pile of split, empty shells beside the bag. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: one small bag and a small pile of 20–40 split empty shells beside it on a bench or step. [EDITORIAL]
 - **Frutos secos**: salted almonds, peanuts, and kikos (big, puffed,
   golden, crunchy corn kernels) in paper cones or bowls. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: a small bowl or paper cone (~8–10 cm) holding one kind of nut; not a mixed platter. [EDITORIAL]
 - **Vasito de fruta**: pre-cut fruit in a clear cup with a small fork.
   Show the chunks and the fork so it doesn't read as juice. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: a clear cup filled with ~2 cm chunks of 2–3 fruits, a small plastic fork standing in it. [EDITORIAL]
 - **Pollo asado**: a whole rotisserie chicken with bronzed, glossy,
   crackly skin in a crimped foil tray (~25×20cm), with golden potatoes.
   [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one whole bronzed chicken fills the foil tray; potatoes (~3–4 cm) tucked around it take about a third of the tray. [EDITORIAL]
 - **Papas arrugadas con mojo (Canaries)**: small potatoes ~3–5cm with
   wrinkled skins and a dusty white salt crust; red mojo (brick-orange,
   oily) and green mojo (herby green) in small bowls. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: 8–15 small potatoes on a plate (~70% of it); two small bowls of red and green mojo beside; the salt crust visible on every potato. [EDITORIAL]
 
 ---
 
