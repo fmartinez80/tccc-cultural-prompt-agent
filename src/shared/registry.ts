@@ -34,6 +34,32 @@ export const VESSELS: Record<Vessel, ProxyDef> = {
   "sauce-boat": { kind: "box", width: 0.15, depth: 0.07, height: 0.06 },
 };
 
+/** How each vessel is named in the image prompt. The size is added from VESSELS so text and proxy agree. */
+export const VESSEL_NOUN: Record<Vessel, string> = {
+  plate: "a round entree plate",
+  "side-plate": "a round side plate",
+  bowl: "a round side bowl",
+  "small-bowl": "a small round bowl",
+  "large-bowl": "a large communal serving bowl",
+  ramekin: "a small ramekin",
+  board: "a wooden serving board",
+  basket: "a small bread basket",
+  "foil-wrap": "a foil wrap",
+  tray: "a serving tray",
+  leaf: "a banana leaf",
+  casserole: "a rectangular casserole dish",
+  platter: "an oval serving platter",
+  "sauce-boat": "a sauce boat",
+};
+
+/** "a round entree plate about 27 cm across" */
+export function vesselPhrase(v: Vessel): string {
+  const d = VESSELS[v];
+  const cm = (m: number) => Math.round(m * 100);
+  const size = d.radius !== undefined ? `about ${cm(2 * d.radius)} cm across` : `about ${cm(Math.max(d.width!, d.depth!))} by ${cm(Math.min(d.width!, d.depth!))} cm`;
+  return `${VESSEL_NOUN[v]} ${size}`;
+}
+
 /** Extra height the food adds on top of the vessel. */
 export const MASS_HEIGHT: Record<MassClass, number> = {
   flat: 0.02,

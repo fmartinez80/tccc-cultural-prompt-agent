@@ -27,6 +27,8 @@ export const LOOKS: LookOption[] = cameraOptions.look.options as LookOption[];
 export const ANGLES: AngleOption[] = cameraOptions.angle.options as AngleOption[];
 export const DEFAULT_LOOK = cameraOptions.look.default;
 export const DEFAULT_ANGLE = cameraOptions.angle.default;
+/** Field-of-view factor for the proxy sent to the image model (see camera-options.json). */
+export const MODEL_FRAMING_WIDEN: number = cameraOptions.model_framing.widen;
 
 export function lookById(id: string): LookOption {
   return LOOKS.find((l) => l.id === id) ?? LOOKS[0];
@@ -58,7 +60,7 @@ export function timeFromOccasion(o: Occasion): SceneSpec["scene"]["time"] | null
 export interface LightingPreset {
   id: string;
   prompt: string;
-  warmth: "cool" | "warm" | "ambient";
+  warmth: "neutral" | "cool" | "warm" | "ambient";
   rig: {
     key: { type: string; azimuth_deg: number; elevation_deg: number; kelvin: number; softness: number };
     fill_ratio: number;
@@ -68,6 +70,9 @@ export interface LightingPreset {
 }
 
 export function selectLighting(scene: SceneSpec["scene"]): LightingPreset {
+  const presets = lightingPresets.presets as Record<string, Omit<LightingPreset, "id">>;
+  const forced = (lightingPresets.default_preset as { preset: string | null } | null)?.preset;
+  if (forced) return { id: forced, ...presets[forced] };
   for (const row of lightingPresets.select) {
     const venueOk = row.venue === "*" || row.venue === scene.venue || (Array.isArray(row.venue) && row.venue.includes(scene.venue));
     if (row.setting === scene.setting && venueOk && row.time.includes(scene.time)) {

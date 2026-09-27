@@ -63,6 +63,7 @@ await page.waitForSelector(".pass-badge, .fail-box", { timeout: 300000 });
 await shot("09-story");
 const proxy = await page.locator("img.proxy").getAttribute("src");
 writeFileSync(`${out}/proxy.png`, Buffer.from(proxy.split(",")[1], "base64"));
-writeFileSync(`${out}/prompt.txt`, await page.locator("pre.prompt").innerText());
+writeFileSync(`${out}/prompt-composition.txt`, await page.locator("pre.prompt").nth(0).innerText());
+writeFileSync(`${out}/prompt-product-swap.txt`, await page.locator("pre.prompt").nth(1).innerText());
 console.log("done");
 await browser.close();

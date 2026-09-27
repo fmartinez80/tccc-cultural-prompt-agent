@@ -6,8 +6,13 @@ Agentic system for generating photorealistic Coca-Cola meal/beverage image promp
 
 A guided intake that turns a short brief into:
 
-1. **A scene story**: a Scene Summary, cultural do's and don'ts, and the prompt segments (Entree Dish, Traditional Side Dishes, Product Detail, Environmental Overview, Plating + Tableware, Product Serving Details, Brand Vis ID), plus one segment per labeled shape in the proxy and the assembled prompt.
+1. **A scene story**: a Scene Summary, cultural do's and don'ts, and the prompt segments (Entree Dish, Traditional Side Dishes, Product Detail, Environmental Overview, Plating + Tableware, Product Serving Details, Brand Vis ID), plus one segment per labeled shape in the proxy.
 2. **A labeled proxy template** (16:9 PNG): real-scale 3D shapes showing where everything goes, with role labels (`MAIN`, `SKU`, `GLASS`, `SIDE_1`, …) that match the prompt segments.
+3. **Two image prompts**, in the order the image tests proved out:
+   - **Composition prompt** (Nano Banana 2, image 1 = the proxy): how to read the proxy, one line per label, setting, lighting, camera look, exclusions. Food lines give the exact piece count, the local dish and what it looks like, and the container with its real size. Product, glass and napkin lines are fixed text.
+   - **Product swap prompt** (Seedream, image 1 = the composed photo, image 2 = the product reference): swaps in the exact product, keeping position, size and lighting, with the label kept a clean solid red.
+
+The proxy for the image model is rendered 1.25x wider than the true framing (`rules/camera-options.json` → `model_framing`), because the model draws objects larger than their shapes. A true-framing proxy is also downloadable.
 
 It stops there, before photorealistic image generation.
 
@@ -84,5 +89,5 @@ docs/                 INTAKE_FLOW.md, tablescape/PLAN.md, composition rules sour
 
 - One place setting (1 person), including family-style meals with a shared centerpiece. 2-person layouts (corner, face-to-face) and groups are designed in the plan and come next.
 - Camera look and angle values are placeholders until the team finalizes lenses.
-- Lighting presets are a draft for review.
+- Lighting: every scene uses one even, well-balanced commercial food photography setup for now (`rules/lighting-presets.json` → `default_preset`). The scene-based presets stay in the file; set `default_preset.preset` to null to use them.
 - Product dimensions follow `coca-cola-guidelines.md` §4.3 and are provisional pending the TCCC SKU spec drop.

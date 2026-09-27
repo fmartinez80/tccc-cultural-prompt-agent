@@ -40,11 +40,17 @@
     ]
   },
 
+  "default_preset": {
+    "$comment": "While the team builds templates for many scenes, every scene uses this one even, well-balanced commercial food photography setup. Set to null to go back to picking a preset from the scene (the select table below).",
+    "preset": "commercial-balanced"
+  },
+
   "sku_light": {
     "$comment": "Added after the lighting sentence. Depends on the SKU package, because only glass and PET let light through. {drinks} = 'the Coca-Cola bottle', or 'the Coca-Cola bottle and the bell-shaped Coca-Cola glass' when the glass rule applies (glass-rules.json).",
     "transparent": {
       "packages": ["contour-glass-bottle", "pet-bottle", "glass-with-ice", "bell-glass"],
       "prompt_by_warmth": {
+        "neutral": "Light passes through {drinks} from behind, giving the cola a clear red-amber glow with clean highlights along the glass. The label itself is never washed out or darkened: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label. A faint caramel-amber tint shows inside the drink's soft shadow on the table.",
         "cool":    "Light passes through {drinks} from behind, giving the cola a deep red-amber glow with crisp highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label. Where the light passes through the cola, it lays a soft caramel-amber tint inside the drink's shadow on the table.",
         "warm":    "Warm light passes through {drinks} from behind, making the cola glow rich amber-red with warm highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label. Where the light passes through the cola, it lays a soft caramel-amber tint inside the drink's shadow on the table.",
         "ambient": "A soft glow passes through {drinks} from the light behind, with gentle highlights tracing the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label."
@@ -57,6 +63,12 @@
   },
 
   "presets": {
+    "commercial-balanced": {
+      "prompt": "Even, well-balanced commercial food photography lighting: a large soft key light from behind and to the left of the table with generous fill from the front, so every item on the table is bright, clearly lit and true to color. Soft, subtle shadows fall forward and to the right, away from the plate. Clean neutral white balance, bright and airy, with no dark vignette, no dark corners and no blown highlights; the background is bright and softly out of focus.",
+      "warmth": "neutral",
+      "rig": { "key": { "type": "area", "azimuth_deg": -140, "elevation_deg": 45, "kelvin": 5500, "softness": 0.8 }, "fill_ratio": 0.65, "ambient_kelvin": 5800 },
+      "notes": "Default for every scene for now (default_preset). Image tests showed the scene-based window presets read too moody."
+    },
     "home-window-daylight": {
       "prompt": "Natural daylight from a window behind and to the left of the table, soft directional light with gentle shadows falling forward and to the right, clean neutral color.",
       "warmth": "cool",

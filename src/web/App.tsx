@@ -4,7 +4,7 @@ import { renderProxy } from "./render";
 import type { LayoutOption } from "../shared/solver";
 import type { Selections } from "../shared/spec";
 import type { Story, StoryFacts, Validation } from "../shared/story";
-import type { LightingPreset } from "../shared/rules";
+import { MODEL_FRAMING_WIDEN, type LightingPreset } from "../shared/rules";
 import type { AccentChoice, Decision, IntakeInput, PlatingChoice, PrepChoice, SceneSpec, SidesChoice, StepName, SurfaceChoice } from "../shared/types";
 
 type StepId = "brief" | "prep" | "plating" | "sides" | "scene" | "camera" | "accent" | "layout" | "story";
@@ -45,7 +45,7 @@ export function App() {
   const [rules, setRules] = useState<RuleEffects | null>(null);
   const [compose, setCompose] = useState<{ spec: SceneSpec; lighting: LightingPreset; options: LayoutOption[]; infeasible: Array<{ archetype: string; reason: string }> } | null>(null);
   const [picked, setPicked] = useState<number | null>(null);
-  const [story, setStory] = useState<{ story: Story; facts: StoryFacts; prompt: string; source: string } | null>(null);
+  const [story, setStory] = useState<{ story: Story; facts: StoryFacts; prompt: string; swapPrompt: string; source: string } | null>(null);
   const [validation, setValidation] = useState<Validation | null>(null);
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -659,7 +659,7 @@ function StoryStep(props: {
   brief: Brief;
   compose: { spec: SceneSpec; lighting: LightingPreset };
   option: LayoutOption;
-  story: { story: Story; facts: StoryFacts; prompt: string; source: string } | null;
+  story: { story: Story; facts: StoryFacts; prompt: string; swapPrompt: string; source: string } | null;
   validation: Validation | null;
   busy: boolean;
   generate: (notes?: string[]) => void;
@@ -669,7 +669,9 @@ function StoryStep(props: {
   useEffect(() => {
     if (!story) props.generate();
   }, [story]);
-  const proxy = useMemo(() => renderProxy(option.blueprint, props.compose.lighting, { width: 1920 }), [option]);
+  // The proxy handed to the image model is framed wider, because the model tightens it.
+  const proxy = useMemo(() => renderProxy(option.blueprint, props.compose.lighting, { width: 1920, widen: MODEL_FRAMING_WIDEN }), [option]);
+  const trueProxy = useMemo(() => renderProxy(option.blueprint, props.compose.lighting, { width: 1920 }), [option]);
   const slug = `${props.brief.heroDish}-${props.brief.country}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   return (
     <section>
@@ -679,10 +681,12 @@ function StoryStep(props: {
         <div>
           <img className="proxy" src={proxy} alt="Labeled proxy template" />
           <div className="downloads">
-            <button onClick={() => download(`${slug}-proxy.png`, proxy)}>Download proxy PNG</button>
+            <button onClick={() => download(`${slug}-proxy.png`, proxy)}>Proxy PNG for the image model</button>
+            <button onClick={() => download(`${slug}-proxy-true-framing.png`, trueProxy)}>Proxy PNG, true framing</button>
             <button onClick={() => download(`${slug}-blueprint.json`, JSON.stringify(option.blueprint, null, 2), "application/json")}>Blueprint JSON</button>
             {story && <button onClick={() => download(`${slug}-story.json`, JSON.stringify({ spec: props.compose.spec, ...story }, null, 2), "application/json")}>Story JSON</button>}
-            {story && <button onClick={() => download(`${slug}-prompt.txt`, story.prompt)}>Prompt text</button>}
+            {story && <button onClick={() => download(`${slug}-prompt-composition.txt`, story.prompt)}>Composition prompt</button>}
+            {story && <button onClick={() => download(`${slug}-prompt-product-swap.txt`, story.swapPrompt)}>Product swap prompt</button>}
           </div>
           <details className="rules">
             <summary>Rule checks ({option.blueprint.layout_meta.rule_results.filter((r) => r.pass).length}/{option.blueprint.layout_meta.rule_results.length} passed)</summary>
@@ -742,8 +746,10 @@ function StoryStep(props: {
               </div>
             ))}
           </div>
-          <h2>Assembled prompt</h2>
+          <h2>Composition prompt <span className="opt">Nano Banana 2 · image 1 = the proxy PNG for the image model</span></h2>
           <pre className="prompt">{story.prompt}</pre>
+          <h2>Product swap prompt <span className="opt">Seedream · image 1 = the composed photo, image 2 = the product reference</span></h2>
+          <pre className="prompt">{story.swapPrompt}</pre>
         </>
       )}
     </section>

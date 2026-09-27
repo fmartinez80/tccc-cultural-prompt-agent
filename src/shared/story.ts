@@ -4,9 +4,9 @@
 // in the proxy PNG to its text.
 
 import { z } from "zod";
-import { SURFACES } from "./registry";
+import { BELL_GLASS, SURFACES, VESSELS, skuProxy, vesselPhrase } from "./registry";
 import { angleById, angleSentence, lookById, lookSentence, selectLighting, skuLightSentence } from "./rules";
-import type { Blueprint, SceneSpec } from "./types";
+import type { Blueprint, SceneSpec, Vessel } from "./types";
 
 export const StorySegments = z.object({
   entreeDish: z.string(),
@@ -44,8 +44,49 @@ export interface StoryFacts {
   framingSentence: string;
   surfaceText: string;
   servingSentence: string;
-  labels: Array<{ label: string; what: string; where: string }>;
+  labels: Array<{
+    label: string;
+    what: string;
+    where: string;
+    /** The container, with its real size, worded so the text matches the proxy shape. */
+    vessel: string;
+    /** Product and napkin labels use fixed text; only food labels are written by the agent. */
+    fixedText?: string;
+  }>;
   labelInstruction: string;
+  /** Opens the image prompt: how to read the proxy (image 1). */
+  proxyInstruction: string;
+  /** Closes the image prompt. */
+  exclusions: string;
+}
+
+/** Labels whose text the agent writes (the food). */
+export function foodLabels(facts: StoryFacts): StoryFacts["labels"] {
+  return facts.labels.filter((l) => !l.fixedText);
+}
+
+function cm(m: number): number {
+  return Math.round(m * 100);
+}
+
+function labelVessel(spec: SceneSpec, proxy: string, role: string): { vessel: string; fixedText?: string } {
+  if (proxy.startsWith("sku:")) {
+    const h = cm(skuProxy(spec.sku).height);
+    const cold = spec.sku.package === "can" ? "cold, with fine condensation on the can" : "cold, with fine condensation on the glass";
+    const text = `exactly one ${spec.sku.displayName}, about ${h} cm tall, standing upright and facing the camera straight on so the full logo reads, ${cold}. ${spec.sku.package === "can" ? "Unopened, no straw." : "Capped, no straw."}`;
+    return { vessel: `the ${spec.sku.displayName}, about ${h} cm tall`, fixedText: text[0].toUpperCase() + text.slice(1) };
+  }
+  if (proxy === "bell-glass") {
+    const text = `Exactly one branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall, filled with Coca-Cola and ice, with the logo facing the camera.`;
+    return { vessel: `a branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall`, fixedText: text };
+  }
+  if (role === "napkin-set") {
+    const cutlery = spec.napkinSet?.cutlery.join(" and ") ?? "fork and knife";
+    const text = `A neatly folded plain cloth napkin, about 20 by 10 cm, lying flat with a ${cutlery} on top, handles toward the camera. No print or text on the napkin.`;
+    return { vessel: "a folded cloth napkin", fixedText: text };
+  }
+  if (proxy in VESSELS) return { vessel: vesselPhrase(proxy as Vessel) };
+  return { vessel: proxy };
 }
 
 function whereOnTable(bp: Blueprint, id: string): string {
@@ -81,26 +122,46 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
       "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background.",
     surfaceText: spec.scene.surfaceText || SURFACES[spec.scene.surface].promptText,
     servingSentence: serving,
-    labels: bp.primitives.map((p) => ({ label: p.id, what: p.component_name, where: whereOnTable(bp, p.id) })),
+    labels: bp.primitives.map((p) => ({ label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), ...labelVessel(spec, p.proxy, p.role) })),
     labelInstruction:
       "The labeled shapes in the reference layout are placement guides only. Match each shape to the segment with the same label, and do not render the labels or any text as part of the image.",
+    proxyInstruction:
+      "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
+    exclusions: `Only the ${bp.primitives.length} objects described above are on the table. No text anywhere except the Coca-Cola product's own label; no hands or people at the table.`,
   };
 }
 
-/** Assemble the final prompt text in the fixed order. */
+function labelText(story: Story, l: StoryFacts["labels"][number]): string {
+  return l.fixedText ?? story.labelSegments.find((x) => x.label === l.label)?.text ?? `${l.what}, on ${l.vessel}.`;
+}
+
+/**
+ * The composition prompt (Nano Banana 2), in the order the image tests proved out:
+ * how to read the proxy, one line per label, setting, lighting, camera look, exclusions.
+ */
 export function assemblePrompt(story: Story, facts: StoryFacts): string {
-  const s = story.segments;
   return [
-    facts.genreLine,
-    s.environmentalOverview,
-    ...story.labelSegments.map((l) => `${l.label}: ${l.text}`),
-    s.platingAndTableware,
-    s.productServingDetails,
-    s.brandVisId,
-    facts.lightingSentence,
-    facts.skuLightSentence,
-    facts.labelInstruction,
+    facts.proxyInstruction,
+    facts.labels.map((l) => `${l.label}: ${labelText(story, l)}`).join("\n"),
+    story.segments.environmentalOverview,
+    `${facts.lightingSentence} ${facts.skuLightSentence}`,
+    facts.lookSentence,
+    facts.exclusions,
   ]
     .filter(Boolean)
-    .join("\n");
+    .join("\n\n");
+}
+
+/** The product swap prompt (Seedream): image 1 = the composed photo, image 2 = the product reference. */
+export function productSwapPrompt(spec: SceneSpec, facts: StoryFacts): string {
+  const noun = spec.sku.package === "can" ? "can" : "bottle";
+  return [
+    `Replace the Coca-Cola ${noun} in image 1 with the ${spec.sku.displayName} from image 2. Keep its exact position, size and straight-on angle, and keep its base resting on the table.`,
+    `Match the lighting of image 1: ${facts.lightingSentence}`,
+    facts.skuLightSentence,
+    spec.sku.glass ? "Keep the bell-shaped Coca-Cola glass as it is." : "",
+    "Change nothing else in image 1.",
+  ]
+    .filter(Boolean)
+    .join(" ");
 }

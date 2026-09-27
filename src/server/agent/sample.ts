@@ -2,7 +2,7 @@
 // well-formed; the story is assembled from the fixed facts. Anything shown
 // from this provider is marked "sample" in the UI.
 
-import type { Story, StoryFacts, Validation } from "../../shared/story";
+import { foodLabels, type Story, type StoryFacts, type Validation } from "../../shared/story";
 import type { AccentChoice, Accompaniment, Blueprint, Decision, PlatingChoice, PrepChoice, SceneSpec, SidesChoice, StepName, SurfaceChoice } from "../../shared/types";
 import type { Selections } from "../../shared/spec";
 import type { Brief, IntakeAgent } from "./types";
@@ -70,14 +70,15 @@ export class SampleAgent implements IntakeAgent {
   async story(b: Brief, spec: SceneSpec, _bp: Blueprint, f: StoryFacts): Promise<Story> {
     const sides = spec.accompaniments.map((a) => a.promptText);
     const place = spec.scene.venue === "on-the-go" ? `out and about in ${b.countryLabel}` : spec.scene.venue === "restaurant" ? `at a restaurant in ${b.countryLabel}` : `at home in ${b.countryLabel}`;
-    const labelText = (label: string, what: string) => {
-      if (label === "MAIN") return `${spec.entree.prep.promptText}, ${spec.entree.plating.promptText}.`;
-      if (label === "SKU") return `${spec.sku.displayName}, upright, logo facing the camera.`;
-      if (label === "GLASS") return "A branded bell-shaped Coca-Cola glass filled with Coca-Cola, logo facing the camera.";
+    const labelText = (label: string, what: string, vessel: string) => {
+      const strip = (t: string) => t.replace(/\.$/, "");
+      // When the option text already names the container, add only its size.
+      const on = (t: string, prep: string) => (t.includes(vessel.split(" about ")[0].split(" ").pop()!) ? `${strip(t)}, about ${vessel.split(" about ")[1]}.` : `${strip(t)}, ${prep} ${vessel}.`);
+      if (label === "MAIN") return on(spec.entree.prep.promptText, "on");
       const acc = spec.accompaniments.find((a) => what.includes(a.name));
-      if (acc) return `${acc.promptText}.`;
-      if (label.startsWith("ACCENT") && spec.accent) return `${spec.accent.promptText}.`;
-      return `${what}.`;
+      if (acc) return on(acc.promptText, "in");
+      if (label.startsWith("ACCENT") && spec.accent) return on(spec.accent.promptText, "in");
+      return `${what}, on ${vessel}.`;
     };
     return {
       sceneSummary: [
@@ -91,12 +92,12 @@ export class SampleAgent implements IntakeAgent {
         entreeDish: `${spec.entree.prep.promptText}, ${spec.entree.plating.promptText}.`,
         traditionalSideDishes: sides,
         productDetail: `${spec.sku.displayName}${spec.sku.glass ? ", with a branded bell-shaped Coca-Cola glass" : ""}.`,
-        environmentalOverview: `${place[0].toUpperCase()}${place.slice(1)}, ${f.surfaceText}; the upper half of the frame is a soft, out-of-focus background of the setting.`,
+        environmentalOverview: `Setting: ${place}, on ${f.surfaceText}; the upper half of the frame is a soft, out-of-focus background of the setting.`,
         platingAndTableware: `${spec.entree.plating.promptText}${spec.napkinSet ? "; a folded napkin with fork and knife on top, to the right of the plate" : ""}.`,
         productServingDetails: f.servingSentence,
         brandVisId: `${f.lookSentence} ${f.angleSentence} ${f.framingSentence}`,
       },
-      labelSegments: f.labels.map((l) => ({ label: l.label, text: labelText(l.label, l.what) })),
+      labelSegments: foodLabels(f).map((l) => ({ label: l.label, text: labelText(l.label, l.what, l.vessel) })),
     };
   }
 

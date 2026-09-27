@@ -36,6 +36,6 @@ export const api = {
   compose: (brief: IntakeInput, selections: Selections) =>
     call<SolveResult & { spec: SceneSpec; lighting: LightingPreset; options: LayoutOption[] }>("/api/compose", { brief, selections }),
   story: (brief: IntakeInput, spec: SceneSpec, blueprint: Blueprint, notes?: string[]) =>
-    call<{ story: Story; facts: StoryFacts; prompt: string; source: string }>("/api/story", { brief, spec, blueprint, notes }),
+    call<{ story: Story; facts: StoryFacts; prompt: string; swapPrompt: string; source: string }>("/api/story", { brief, spec, blueprint, notes }),
   validate: (brief: IntakeInput, spec: SceneSpec, story: Story) => call<Validation>("/api/validate", { brief, spec, story }),
 };

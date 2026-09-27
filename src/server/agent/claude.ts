@@ -6,7 +6,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { z } from "zod";
 import { contextFiles } from "../knowledge";
-import { Story, Validation, type StoryFacts } from "../../shared/story";
+import { Story, Validation, foodLabels, type StoryFacts } from "../../shared/story";
 import {
   AccentChoice,
   PlatingChoice,
@@ -186,7 +186,15 @@ Write:
 - sceneSummary: a few paragraphs of prose as a food stylist would brief it: what's on the table, where, the setting, the mood, and the cultural framing.
 - culturalNotes: the do's and don'ts from the knowledge base that matter for this scene.
 - segments: entreeDish, traditionalSideDishes (one per side or condiment), productDetail (the exact Coca-Cola product and its size, with a real-world scale anchor), environmentalOverview (the upper half of the frame: soft background and setting, no text, at most two people's faces, blurred), platingAndTableware, productServingDetails (use the product serving fact), brandVisId (camera, lens, angle and framing from the fixed facts).
-- labelSegments: one entry for each of these labels, in this order: ${facts.labels.map((l) => l.label).join(", ")}. Each text describes what that labeled shape should become in the photo, concretely and visually.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join("\n- ")}` : ""}`;
+- labelSegments: one entry for each food label below, in this order. The image model draws each labeled shape from this text alone, so each text must make the component unmistakable:
+  - When the dish has countable pieces, start with the exact count ("Exactly three tacos side by side", "Two slices") and say none is hidden behind another.
+  - Name the food by its local name, then what it visibly looks like: colors, textures, how it is cut, filled, sauced and garnished, as it is actually served in this region.
+  - Say what it sits on using the given container wording, including the size.
+  - No position, lighting, mood or camera words; the layout gives the position.
+  - One or two sentences.
+  Food labels: ${foodLabels(facts).map((l) => `${l.label} = ${l.what}, on ${l.vessel}`).join("; ")}.
+  (The product and napkin labels have fixed text; do not write them.)
+- environmentalOverview: also name the table surface.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join("\n- ")}` : ""}`;
     return this.call(brief, `${briefText(brief)}\n\n${task}`, Story);
   }
 

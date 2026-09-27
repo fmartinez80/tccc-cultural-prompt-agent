@@ -226,6 +226,12 @@ export interface RenderOptions {
   width?: number;
   labels?: boolean;
   guides?: boolean;
+  /**
+   * Widen the field of view by this factor (1.25 = everything 1.25x smaller around the
+   * frame center). The image model tightens the framing of the proxy it is given, so the
+   * proxy sent to it is rendered wider; the blueprint keeps the true framing.
+   */
+  widen?: number;
 }
 
 let sharedRenderer: THREE.WebGLRenderer | null = null;
@@ -241,6 +247,11 @@ export function renderProxy(bp: Blueprint, lighting: LightingPreset, opts: Rende
     sharedRenderer.outputColorSpace = THREE.SRGBColorSpace;
   }
   const renderer = sharedRenderer;
+  if (opts.widen && opts.widen !== 1) {
+    const half = (bp.camera.fovDeg * Math.PI) / 360;
+    const fovDeg = (Math.atan(Math.tan(half) * opts.widen) * 360) / Math.PI;
+    bp = { ...bp, camera: { ...bp.camera, fovDeg } };
+  }
   renderer.setPixelRatio(1);
   renderer.setSize(width, height, false);
   const scene = buildScene(bp, lighting);

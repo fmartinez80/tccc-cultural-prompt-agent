@@ -12,7 +12,7 @@ import { ANGLES, DEFAULT_ANGLE, DEFAULT_LOOK, LOOKS, glassRule, selectLighting, 
 import { buildSpec, skuById, type Selections } from "../shared/spec";
 import { needsAccent } from "../shared/scene";
 import { solve } from "../shared/solver";
-import { assemblePrompt, storyFacts, type Story } from "../shared/story";
+import { assemblePrompt, productSwapPrompt, storyFacts, type Story } from "../shared/story";
 import { IntakeInput, Occasion, type Blueprint, type SceneSpec } from "../shared/types";
 
 const app = express();
@@ -124,7 +124,7 @@ app.post(
     const bp = req.body.blueprint as Blueprint;
     const facts = storyFacts(spec, bp);
     const story = await agent.story(brief, spec, bp, facts, req.body.notes as string[] | undefined);
-    return { story, facts, prompt: assemblePrompt(story, facts), source: agent.mode };
+    return { story, facts, prompt: assemblePrompt(story, facts), swapPrompt: productSwapPrompt(spec, facts), source: agent.mode };
   }),
 );
 
