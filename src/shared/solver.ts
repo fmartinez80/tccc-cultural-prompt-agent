@@ -65,6 +65,9 @@ function minGap(a: Placed, b: Placed, multi: { sku: string; clearance: number } 
   return 0.015;
 }
 
+/** Minimum gap between the entree's front edge and the bottom of the frame. */
+const MAIN_BOTTOM_MARGIN = 0.02;
+
 /** Table left visible behind the rearmost item. */
 const REAR_MARGIN = 0.08;
 
@@ -156,7 +159,7 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
     // Napkin + utensils to the right of the plate, 3-5 cm from it (tableware reference §3, §7).
     const w = (napkin.def.width ?? 0.1) / 2;
     const nx = P.x + R + 0.04 + w;
-    pos.set(napkin.label, { x: nx, d: Math.max(0.12, P.d - 0.05) });
+    pos.set(napkin.label, { x: nx, d: Math.max(0.12, P.d - 0.02) });
     if (!glass) {
       // Team reference: a single-serve drink sits in the gap between the plate's right
       // edge and the napkin set, evenly spaced from both, set back behind the plate's center.
@@ -188,7 +191,7 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
       // The team's preferred reference: a depth triangle around the plate with the
       // side dish back-left, the condiment front-left and the drink back-right.
       const angles = [v.sideAngle ?? 142, 115, 165, 100];
-      sides.forEach((s, k) => pos.set(s.label, polar(P, angles[k % 4], R + 0.05 + r(s) + Math.floor(k / 4) * 0.12)));
+      sides.forEach((s, k) => pos.set(s.label, polar(P, angles[k % 4], R + 0.035 + r(s) + Math.floor(k / 4) * 0.12)));
       condCluster(v.condAngle);
       break;
     }
@@ -325,7 +328,7 @@ function fitCamera(placed: Placed[], D: number, focal: number, pitch: number, ta
       const rearY = proj.project(tx, 0, D).y;
       const mainBox = boxes.get("MAIN")!;
       if (rearY > 0.5 + 1e-6) continue;
-      if (mainBox.y0 < 0.03) continue;
+      if (mainBox.y0 < MAIN_BOTTOM_MARGIN) continue;
       // Every base, and every low item in full, stays in the lower half (H2).
       if (placed.some((p) => (p.item.def.tall ? boxes.get(p.item.label)!.y0 : boxes.get(p.item.label)!.y1) > 0.5)) continue;
       if (u.y1 > 0.97) continue;
@@ -335,6 +338,24 @@ function fitCamera(placed: Placed[], D: number, focal: number, pitch: number, ta
     }
   }
   if (!best) return null;
+  // Refine the distance in 0.5% steps around the coarse optimum.
+  {
+    const c0 = best.fit.cam;
+    const tdBest = -c0.target[2];
+    const d0 = Math.hypot(c0.position[0] - c0.target[0], c0.position[1] - c0.target[1], c0.position[2] - c0.target[2]);
+    for (let f = 0.94; f <= 1.06; f += 0.005) {
+      const dist = d0 * f;
+      const cam = makeCameraParams(focal, pitch, c0.target[0], tdBest, dist);
+      const { boxes, proj } = project(placed, cam);
+      const u = unionBox(heroes.map((l) => boxes.get(l)!));
+      const rearY = proj.project(c0.target[0], 0, D).y;
+      if (rearY > 0.5 + 1e-6 || boxes.get("MAIN")!.y0 < MAIN_BOTTOM_MARGIN || u.y1 > 0.97) continue;
+      if (placed.some((p) => (p.item.def.tall ? boxes.get(p.item.label)!.y0 : boxes.get(p.item.label)!.y1) > 0.5)) continue;
+      if (u.x0 < 1 / 3 - 0.02 || u.x1 > 2 / 3 + 0.02) continue;
+      const score = -Math.abs(u.x1 - u.x0 - targetSpan) - 0.3 * (0.5 - rearY);
+      if (score > best.score) best = { fit: { cam, boxes, sils: new Map(), rearY }, score };
+    }
+  }
   const proj = new Projector(best.fit.cam);
   for (const p of placed) best.fit.sils.set(p.item.label, silhouette(proj, p.item.def, p.x, p.d, p.yaw, p.item.extraHeight));
   return best.fit;
@@ -578,7 +599,8 @@ function solveVariant(spec: SceneSpec, items: ItemSpec[], archetype: Archetype, 
   const look = lookById(spec.camera.look);
   const angle = angleById(spec.camera.angle);
   const hasL2 = items.some((i) => i.layer === "Layer_2_Secondary_Side");
-  const targetSpan = hasL2 ? 0.28 : 0.31;
+  const spans = layoutPreferences.hero_span_target;
+  const targetSpan = hasL2 ? spans.with_sides : spans.meal_and_drink_only;
   const fit = fitCamera(placed, D, look.hidden.focal_length_mm, angle.hidden.pitch_deg, targetSpan);
   if (!fit) return "no camera position keeps the table in the lower half with the entree in frame";
 

@@ -6,5 +6,10 @@
     "diagonal-stagger": 0,
     "counterweight": 0,
     "feast-spread": 0.06
+  },
+  "hero_span_target": {
+    "$comment": "Share of frame width the hero group (entree + drink) should span. Raised 15% after the first taco test (0.28 -> 0.32) to zoom in on the setting.",
+    "with_sides": 0.32,
+    "meal_and_drink_only": 0.36
   }
 }

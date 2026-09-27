@@ -31,8 +31,10 @@ function kelvinToColor(k: number): THREE.Color {
 }
 
 // Profiles: [radius fraction, height fraction], base to top.
+// Traced from the 330 mL contour glass bottle reference: near-straight body with a
+// slight lower waist, label band in the middle, rounded shoulder, narrow neck and lip.
 const CONTOUR_BOTTLE: Array<[number, number]> = [
-  [0.0, 0], [0.9, 0], [1.0, 0.03], [0.93, 0.18], [1.0, 0.3], [0.86, 0.45], [0.8, 0.55], [0.62, 0.68], [0.42, 0.8], [0.36, 0.93], [0.4, 0.95], [0.38, 1.0], [0.0, 1.0],
+  [0.0, 0], [0.9, 0], [0.98, 0.03], [1.0, 0.07], [0.93, 0.13], [0.97, 0.2], [1.0, 0.28], [1.0, 0.45], [0.98, 0.58], [0.9, 0.67], [0.74, 0.76], [0.55, 0.84], [0.45, 0.89], [0.43, 0.94], [0.5, 0.955], [0.5, 0.985], [0.45, 1.0], [0.0, 1.0],
 ];
 const PET_BOTTLE: Array<[number, number]> = [
   [0.0, 0], [0.95, 0], [1.0, 0.05], [1.0, 0.62], [0.8, 0.75], [0.4, 0.88], [0.32, 0.93], [0.36, 0.95], [0.3, 1.0], [0.0, 1.0],

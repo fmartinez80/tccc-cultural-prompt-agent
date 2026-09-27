@@ -72,9 +72,9 @@
       "rig": { "key": { "type": "spot", "azimuth_deg": -160, "elevation_deg": 60, "kelvin": 2700, "softness": 0.6 }, "fill_ratio": 0.2, "ambient_kelvin": 2700, "practicals": ["pendant", "table-lamp-left"] }
     },
     "restaurant-day-window": {
-      "prompt": "Bright restaurant interior by day, soft window light from behind and to the left, light airy tone with gentle shadows.",
-      "warmth": "cool",
-      "rig": { "key": { "type": "area", "azimuth_deg": -140, "elevation_deg": 30, "kelvin": 5200, "softness": 0.8 }, "fill_ratio": 0.45, "ambient_kelvin": 5000 }
+      "prompt": "Natural daylight: warm afternoon sunlight streams through large windows behind and to the left of the table, laying soft-edged patches of sun across the tabletop and casting natural shadows that fall forward and to the right, away from the plate, with the rest of the room gently lit by bounced daylight.",
+      "warmth": "warm",
+      "rig": { "key": { "type": "directional", "azimuth_deg": -140, "elevation_deg": 32, "kelvin": 4800, "softness": 0.45 }, "fill_ratio": 0.4, "ambient_kelvin": 5600 }
     },
     "restaurant-evening-ambient": {
       "prompt": "Restaurant at night, warm ambient lighting from overhead fixtures and a candle or small lamp on the table, soft shadows and warm bokeh in the background.",
