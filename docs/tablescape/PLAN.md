@@ -2,6 +2,8 @@
 
 > **Build status:** the intake, cultural agent, layout solver and proxy renderer are implemented for one place setting (including family-style meals). See the repo `README.md` to run it. 2-person and group layouts are next. Placement also follows the knowledge base's `tableware-composition-reference.md` and `coca-cola-guidelines.md` §4 (drink top-right of the plate, napkin and utensils to the right, multi-serve clearance radii, 640 mL bell glass); where those differ from this plan, the build follows the knowledge base.
 
+> **Team reference layout:** [`reference/preferred-tacos.webp`](./reference/preferred-tacos.webp) is the preferred composition for a single setting: side dish back-left, condiment front-left, the drink back-right and evenly spaced between the plate and the napkin set, napkin and utensils to the right. The *Triangle Loop* archetype reproduces it and ranks first by default (`rules/layout-preferences.json`); a test checks the arrangement.
+
 Turn the Cultural Prompt Agent's scene guidance into a **labeled 3D perspective proxy** of the tablescape that follows the CokeMeals composition rules:
 - camera lens and angle chosen from dropdowns (default: 30° diner's eye)
 - table horizon at or below 50 % of the frame (the bottle may rise above it)

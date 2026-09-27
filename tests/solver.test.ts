@@ -86,3 +86,25 @@ describe("family-style (Feast Spread)", () => {
     for (const rule of bp.layout_meta.rule_results) expect(rule.pass, `${rule.id}: ${rule.detail}`).toBe(true);
   });
 });
+
+describe("team reference layout (docs/tablescape/reference/preferred-tacos.webp)", () => {
+  it("option A is the Triangle Loop: side back-left, sauce front-left, can back-right between plate and napkin", () => {
+    const bp = solve(tacosSpec()).options[0].blueprint;
+    expect(bp.layout_meta.archetype).toBe("Triangle Loop");
+    const at = (id: string) => bp.primitives.find((p) => p.id === id)!.world;
+    const main = at("MAIN"), side = at("SIDE_1"), sauce = at("SAUCE_1"), can = at("SKU"), napkin = at("NAPKIN_SET_1");
+    expect(side.x).toBeLessThan(main.x);
+    expect(side.d).toBeGreaterThan(main.d); // back-left
+    expect(sauce.x).toBeLessThan(main.x);
+    expect(sauce.d).toBeLessThan(main.d); // front-left
+    expect(can.x).toBeGreaterThan(main.x);
+    expect(can.d).toBeGreaterThan(main.d); // back-right
+    // Can evenly spaced between the plate's right edge and the napkin set's left edge.
+    const plateEdge = main.x + 0.135;
+    const napkinEdge = napkin.x - 0.05;
+    const toPlate = can.x - 0.033 - plateEdge;
+    const toNapkin = napkinEdge - (can.x + 0.033);
+    expect(Math.abs(toPlate - toNapkin)).toBeLessThan(0.03);
+    expect(napkin.x).toBeGreaterThan(can.x);
+  });
+});

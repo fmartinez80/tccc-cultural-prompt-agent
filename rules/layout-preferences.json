@@ -1,0 +1,10 @@
+{
+  "$comment": "House-style preferences for ranking layout options. A bonus is added to an archetype's score when ordering options (it never overrides a hard rule). triangle-loop matches the team's preferred reference (docs/tablescape/reference/preferred-tacos.webp): side dish back-left, condiment front-left, drink back-right, napkin set to the right.",
+  "archetype_bonus": {
+    "triangle-loop": 0.06,
+    "crescent-arc": 0,
+    "diagonal-stagger": 0,
+    "counterweight": 0,
+    "feast-spread": 0.06
+  }
+}

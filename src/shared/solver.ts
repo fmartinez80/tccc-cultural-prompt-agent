@@ -8,6 +8,7 @@
 import { makeCameraParams, overlapArea, polyArea, Projector, rectPoly, screenBox, silhouette, type Poly, type ScreenBox } from "./camera";
 import { bottleClearance, footprintRadius, SURFACES } from "./registry";
 import { angleById, lookById } from "./rules";
+import layoutPreferences from "../../rules/layout-preferences.json";
 import { isMultiServe, sceneItems, type ItemSpec } from "./scene";
 import type { Blueprint, CameraParams, Primitive, RuleResult, SceneSpec } from "./types";
 
@@ -89,13 +90,15 @@ function polar(c: Anchor, angleDeg: number, dist: number): Anchor {
 interface Variant {
   condAngle: number; // where the condiment cluster sits around the plate
   accentAngle: number; // where the injected accent sits, always within 1-3 in of the plate
+  sideAngle?: number; // triangle-loop: where the first side dish sits
 }
 
 const VARIANTS: Record<Archetype, Variant[]> = {
+  // Team reference: side back-left, condiment front-left, drink back-right.
   "triangle-loop": [
-    { condAngle: 112, accentAngle: 168 },
-    { condAngle: 135, accentAngle: 175 },
-    { condAngle: 95, accentAngle: 155 },
+    { condAngle: 208, accentAngle: 172, sideAngle: 142 },
+    { condAngle: 200, accentAngle: 165, sideAngle: 150 },
+    { condAngle: 218, accentAngle: 178, sideAngle: 135 },
   ],
   "crescent-arc": [
     { condAngle: 92, accentAngle: 150 },
@@ -152,7 +155,13 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
   if (napkin) {
     // Napkin + utensils to the right of the plate, 3-5 cm from it (tableware reference §3, §7).
     const w = (napkin.def.width ?? 0.1) / 2;
-    pos.set(napkin.label, { x: P.x + R + 0.04 + w, d: Math.max(0.12, P.d - 0.05) });
+    const nx = P.x + R + 0.04 + w;
+    pos.set(napkin.label, { x: nx, d: Math.max(0.12, P.d - 0.05) });
+    if (!glass) {
+      // Team reference: a single-serve drink sits in the gap between the plate's right
+      // edge and the napkin set, evenly spaced from both, set back behind the plate's center.
+      pos.set("SKU", { x: (P.x + R + (nx - w)) / 2 + 0.01, d: P.d + Math.max(0.1, rs + 0.07) });
+    }
   }
 
   const sides = items.filter((i) => i.kind === "side" || i.kind === "shared-side");
@@ -176,9 +185,10 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
 
   switch (archetype) {
     case "triangle-loop": {
-      // Far-left, mid-depth: the third corner of the depth triangle.
-      const angles = [168, 125, 150, 100];
-      sides.forEach((s, k) => pos.set(s.label, polar(P, angles[k % 4], R + (k === 0 ? 0.12 : 0.07) + r(s) + Math.floor(k / 4) * 0.12)));
+      // The team's preferred reference: a depth triangle around the plate with the
+      // side dish back-left, the condiment front-left and the drink back-right.
+      const angles = [v.sideAngle ?? 142, 115, 165, 100];
+      sides.forEach((s, k) => pos.set(s.label, polar(P, angles[k % 4], R + 0.05 + r(s) + Math.floor(k / 4) * 0.12)));
       condCluster(v.condAngle);
       break;
     }
@@ -702,7 +712,9 @@ export function solve(spec: SceneSpec, maxOptions = 3): SolveResult {
     if (typeof r === "string") infeasible.push({ archetype: a, reason: r });
     else candidates.push(r);
   }
-  candidates.sort((a, b) => b.blueprint.layout_meta.score - a.blueprint.layout_meta.score);
+  // House-style preference (rules/layout-preferences.json) only affects ordering.
+  const bonus = (o: LayoutOption) => (layoutPreferences.archetype_bonus as Record<string, number>)[o.archetype] ?? 0;
+  candidates.sort((a, b) => b.blueprint.layout_meta.score + bonus(b) - (a.blueprint.layout_meta.score + bonus(a)));
   if (process.env.SOLVER_DEBUG) {
     for (const a of candidates) console.log("cand", a.archetype, a.blueprint.layout_meta.score, candidates.map((b) => layoutDistance(a.blueprint, b.blueprint).toFixed(3)).join(" "));
   }
