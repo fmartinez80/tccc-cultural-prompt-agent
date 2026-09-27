@@ -1,63 +1,47 @@
 {
-  "$comment": "PLACEHOLDER camera dropdowns. Final lens and angle options are still being decided. The structure is final; labels, prompt text and numbers are not. Proxy values are provisional so the solver and renderer can run end to end. The earlier draft options (50mm f/2.8, 35mm f/1.4, 15mm ultra-wide; 10/25/30/45 deg) are in git history, commit 1520fc2.",
-  "version": "0.0-placeholder",
+  "$comment": "Camera presets. Operators pick a plain-language look; the lens, aperture and focus behind it are hidden. Technical values are PLACEHOLDERS until the team settles the final lenses. The structure is final. Earlier draft values (50mm f/2.8, 35mm f/1.4, 15mm ultra-wide) are in git history, commit 1520fc2.",
+  "version": "0.1-placeholder",
 
-  "lens": {
-    "default": "lens-a",
+  "look": {
+    "$comment": "One dropdown. Each preset bundles lens + aperture + focus so users never choose an f-stop.",
+    "default": "close-hero",
     "options": [
       {
-        "id": "lens-a",
-        "label": "Lens A (placeholder: standard)",
-        "prompt": "[LENS_A_PROMPT]",
-        "proxy": { "focal_length_mm": 50, "focus_distance_m": "auto" },
-        "aperture": "TBD",
+        "id": "close-hero",
+        "label": "Close-up hero",
+        "help": "Tight on the meal and the bottle, background melts away.",
+        "prompt": "[CLOSE_HERO_PROMPT]",
+        "hidden": { "focal_length_mm": 50, "aperture": "TBD", "focus": "main dish and bottle", "focus_distance_m": "auto" },
         "status": "placeholder"
       },
       {
-        "id": "lens-b",
-        "label": "Lens B (placeholder: wide)",
-        "prompt": "[LENS_B_PROMPT]",
-        "proxy": { "focal_length_mm": 35, "focus_distance_m": "auto" },
-        "aperture": "TBD",
+        "id": "table-context",
+        "label": "Table in context",
+        "help": "The whole table setting, with a hint of the room or place around it.",
+        "prompt": "[TABLE_CONTEXT_PROMPT]",
+        "hidden": { "focal_length_mm": 35, "aperture": "TBD", "focus": "main dish and bottle", "focus_distance_m": "auto" },
         "status": "placeholder"
       },
       {
-        "id": "lens-c",
-        "label": "Lens C (placeholder: ultra-wide)",
-        "prompt": "[LENS_C_PROMPT]",
-        "proxy": { "focal_length_mm": 15, "focus_distance_m": "auto" },
-        "aperture": "TBD",
+        "id": "wide-scene",
+        "label": "Wide scene",
+        "help": "The meal inside its environment: street, patio, restaurant.",
+        "prompt": "[WIDE_SCENE_PROMPT]",
+        "hidden": { "focal_length_mm": 15, "aperture": "TBD", "focus": "main dish and bottle", "focus_distance_m": "auto" },
+        "constraints": { "sku_min_distance_from_frame_edge_pct": 15 },
         "status": "placeholder"
       }
     ]
   },
 
   "angle": {
-    "default": "angle-b",
+    "default": "diners-eye",
     "options": [
-      {
-        "id": "angle-a",
-        "label": "Angle A (placeholder: low)",
-        "prompt": "[ANGLE_A_PROMPT]",
-        "proxy": { "pitch_deg": 15 },
-        "status": "placeholder"
-      },
-      {
-        "id": "angle-b",
-        "label": "Angle B (placeholder: diner's eye)",
-        "prompt": "[ANGLE_B_PROMPT]",
-        "proxy": { "pitch_deg": 30 },
-        "status": "placeholder"
-      },
-      {
-        "id": "angle-c",
-        "label": "Angle C (placeholder: high)",
-        "prompt": "[ANGLE_C_PROMPT]",
-        "proxy": { "pitch_deg": 45 },
-        "status": "placeholder"
-      }
+      { "id": "low",        "label": "Low, near eye level",   "prompt": "[LOW_ANGLE_PROMPT]",        "hidden": { "pitch_deg": 15 }, "status": "placeholder" },
+      { "id": "diners-eye", "label": "Diner's eye (default)", "prompt": "[DINERS_EYE_ANGLE_PROMPT]", "hidden": { "pitch_deg": 30 }, "status": "placeholder" },
+      { "id": "high",       "label": "Looking down",          "prompt": "[HIGH_ANGLE_PROMPT]",       "hidden": { "pitch_deg": 45 }, "status": "placeholder" }
     ]
   },
 
-  "prompt_order": ["scene_genre", "subject", "angle", "lens", "lighting"]
+  "prompt_order": ["scene_genre", "subject", "angle", "look", "lighting", "sku_light"]
 }

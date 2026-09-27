@@ -47,7 +47,7 @@ Each option keeps its **rationale and knowledge-base sources**, so the cultural-
 | Product SKU | beverage proxy (package, size) and trademark rules | `sku.id`, `sku.package` |
 | Hero Dish | starting point for steps 1–3 | `entree.name` |
 | Side Dish Request | pre-fills step 3. The agent checks it for cultural fit and still offers the common alternatives | seeds `accompaniments[]` |
-| Occasion | time of day, mood, environment and lighting in the prompt, and it narrows step 4 | `occasion` |
+| Occasion | mood and environment in the prompt; sets the time of day when unambiguous (breakfast → morning), which selects the lighting | `occasion` |
 
 ## Steps and what each one writes
 
@@ -74,21 +74,24 @@ Defines the time and place of the meal. The operator picks one:
 | On the go | — | 1 person · 2 people |
 
 - **Writes:** `scene.setting` (indoor / outdoor), `scene.venue` (home / restaurant / on-the-go) and `scene.party` (1 / 2 / group / family).
+- **Time of day:** morning · midday · golden hour · evening. Taken from the occasion when it's unambiguous, otherwise asked here. Writes `scene.time`.
 - **Drives:**
   - table type and size (2-top, 4-top, long table, café table)
   - the arrangement style (group and family map to family-style sharing)
   - what fills the **upper 50 % environment zone** (home kitchen, restaurant interior, garden), which is prompt-only and never table elements
   - the **≤ 2.5 faces** rule for background people
+  - **the lighting.** Setting + venue + time of day select a lighting preset automatically ([`tablescape/lighting-presets.json`](./tablescape/lighting-presets.json)). The operator never picks it. The meal summary shows it with its reason, for example "Lighting: natural window daylight, because this is a meal at home in the morning". The preset also adds a sentence about light through the SKU (a red-amber glow for glass and PET, a rim highlight for cans).
   - the **genre line** at the start of the prompt (for example "Photorealistic street food photography" for on-the-go, or "Photorealistic restaurant food photography").
 
 ### 5. Format + camera (proposed new step)
 These are **dropdowns**, not decision cards. The agent doesn't suggest them from cultural knowledge. Each has a default, so the operator can skip the step.
 - **Aspect ratio:** 1:1, 2:3, 1:3, 3:2, 3:1. Writes `format.aspectRatio`.
 - **Shopper zone:** Transition, Impulse, Destination. Writes `format.shopperZone`. This and aspect ratio usually come from the media placement, so they may belong at intake instead.
-- **Lens + depth of field:** Lens A (default) · Lens B · Lens C (placeholders). Writes `camera.lens`.
-- **Angle:** Angle A · Angle B (default, 30°) · Angle C (placeholders). Writes `camera.angle`.
+- **Look:** *Close-up hero* (default) · *Table in context* · *Wide scene*. Each look bundles lens, aperture and focus, so the operator never picks an f-stop. Writes `camera.look`.
+- **Angle:** *Low, near eye level* · *Diner's eye* (default) · *Looking down*. Writes `camera.angle`.
+- The technical values behind the looks and angles are placeholders until the team settles the lenses.
 
-Lens and angle options, their prompt fragments and their proxy parameters live in [`tablescape/camera-options.json`](./tablescape/camera-options.json). See `tablescape/PLAN.md` §4a.
+Look and angle presets, their prompt sentences and their hidden technical values live in [`tablescape/camera-options.json`](./tablescape/camera-options.json). See `tablescape/PLAN.md` §4a.
 
 ### 6. Layout pick
 The tablescape composer returns up to 3 layout options for the locked elements. The operator picks one, using the same decision-card pattern. See [`tablescape/PLAN.md`](./tablescape/PLAN.md).
@@ -107,9 +110,9 @@ After step 3, the composer counts the table items (main + beverage + sides + con
   "operatingUnit": "LATAM",
   "region": "MX-CDMX",
   "occasion": "weekday lunch",
-  "scene":  { "setting": "indoor", "venue": "restaurant", "party": "1" },
+  "scene":  { "setting": "indoor", "venue": "restaurant", "party": "1", "time": "midday" },
   "format": { "aspectRatio": "3:2", "shopperZone": "Impulse" },
-  "camera": { "lens": "lens-a", "angle": "angle-b" },
+  "camera": { "look": "close-hero", "angle": "diners-eye" },
   "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle" },
   "entree": { "name": "tacos al pastor", "prep": "trompo-shaved pork, pineapple, cilantro, onion", "vessel": "plate", "massClass": "flat" },
   "accompaniments": [
@@ -121,7 +124,7 @@ After step 3, the composer counts the table items (main + beverage + sides + con
 }
 ```
 
-`camera` holds dropdown ids. The composer looks up focal length, focus distance, pitch and the prompt fragments in `camera-options.json`.
+`camera` holds preset ids. The composer looks up the hidden lens, aperture, focus and pitch in `camera-options.json`. Lighting isn't in the spec: it's derived from `scene` via `lighting-presets.json`.
 
 ## Gaps to decide
 

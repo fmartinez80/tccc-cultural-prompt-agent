@@ -1,0 +1,111 @@
+{
+  "$comment": "Lighting is derived from the scene, never picked by the operator. Scene details (setting, venue) + time of day select one preset. Each preset gives the prompt text AND the proxy light rig, so shadows in the proxy match the light the prompt describes. DRAFT values for team review. Key-light azimuth convention: 0 = from behind the camera, 180 = from behind the table facing the camera (backlight), negative = diner's left, positive = diner's right.",
+  "version": "0.1-draft",
+
+  "time_of_day": {
+    "$comment": "Derived from occasion when it is unambiguous (breakfast -> morning, dinner -> evening). Otherwise asked as part of scene details.",
+    "values": ["morning", "midday", "golden-hour", "evening"],
+    "from_occasion": {
+      "breakfast": "morning",
+      "brunch": "morning",
+      "weekday-lunch": "midday",
+      "afternoon-snack": "golden-hour",
+      "dinner": "evening",
+      "late-night": "evening"
+    }
+  },
+
+  "select": [
+    { "setting": "indoor",  "venue": "home",       "time": ["morning", "midday"], "preset": "home-window-daylight" },
+    { "setting": "indoor",  "venue": "home",       "time": ["golden-hour"],       "preset": "home-window-golden" },
+    { "setting": "indoor",  "venue": "home",       "time": ["evening"],           "preset": "home-evening-lamps" },
+    { "setting": "indoor",  "venue": "restaurant", "time": ["morning", "midday", "golden-hour"], "preset": "restaurant-day-window" },
+    { "setting": "indoor",  "venue": "restaurant", "time": ["evening"],           "preset": "restaurant-evening-ambient" },
+    { "setting": "outdoor", "venue": "*",          "time": ["morning"],           "preset": "outdoor-morning" },
+    { "setting": "outdoor", "venue": "*",          "time": ["midday"],            "preset": "outdoor-midday-shade" },
+    { "setting": "outdoor", "venue": "*",          "time": ["golden-hour"],       "preset": "outdoor-golden-hour" },
+    { "setting": "outdoor", "venue": ["home", "restaurant"], "time": ["evening"], "preset": "outdoor-evening-string-lights" },
+    { "setting": "outdoor", "venue": "on-the-go",  "time": ["evening"],           "preset": "street-evening" }
+  ],
+
+  "rules": {
+    "$comment": "Apply to every preset. These are why the key light sits behind-left of the table.",
+    "key_light_side": "back-left",
+    "why": "The SKU is always front-right of center and MAIN front-left. A key light from behind-left (1) passes through / rims the bottle toward the camera so the cola glows, and (2) throws shadows forward-right, away from the entree, so the bottle's shadow never falls across the main dish.",
+    "shadow_checks": [
+      "no cast shadow crosses the SKU logo box",
+      "the SKU's cast shadow does not fall on MAIN",
+      "shadow direction in the proxy matches the prompt's light direction"
+    ]
+  },
+
+  "sku_light": {
+    "$comment": "Added after the lighting sentence. Depends on the SKU package, because only glass and PET let light through.",
+    "transparent": {
+      "packages": ["contour-glass-bottle", "pet-bottle", "glass-with-ice"],
+      "prompt_by_warmth": {
+        "cool":    "Light passes through the Coca-Cola bottle from behind, giving the cola a deep red-amber glow with crisp highlights along the contour glass.",
+        "warm":    "Warm light passes through the Coca-Cola bottle from behind, making the cola glow rich amber-red with warm highlights along the glass.",
+        "ambient": "A soft glow passes through the Coca-Cola bottle from the light behind it, with gentle highlights tracing the contour glass."
+      }
+    },
+    "opaque": {
+      "packages": ["can"],
+      "prompt": "The light rims the edge of the Coca-Cola can with a clean highlight, keeping the red finish rich and the logo clearly lit."
+    }
+  },
+
+  "presets": {
+    "home-window-daylight": {
+      "prompt": "Natural daylight from a window behind and to the left of the table, soft directional light with gentle shadows falling forward and to the right, clean neutral color.",
+      "warmth": "cool",
+      "rig": { "key": { "type": "area", "azimuth_deg": -145, "elevation_deg": 30, "kelvin": 5500, "softness": 0.7 }, "fill_ratio": 0.35, "ambient_kelvin": 6000 }
+    },
+    "home-window-golden": {
+      "prompt": "Low golden afternoon sun through a window behind and to the left of the table, long warm shadows falling forward and to the right.",
+      "warmth": "warm",
+      "rig": { "key": { "type": "directional", "azimuth_deg": -150, "elevation_deg": 15, "kelvin": 3500, "softness": 0.3 }, "fill_ratio": 0.25, "ambient_kelvin": 4500 }
+    },
+    "home-evening-lamps": {
+      "prompt": "Evening indoors, warm light from a pendant lamp above and slightly behind the table plus a table lamp to the left, soft pools of light and a cozy warm tone.",
+      "warmth": "ambient",
+      "rig": { "key": { "type": "spot", "azimuth_deg": -160, "elevation_deg": 60, "kelvin": 2700, "softness": 0.6 }, "fill_ratio": 0.2, "ambient_kelvin": 2700, "practicals": ["pendant", "table-lamp-left"] }
+    },
+    "restaurant-day-window": {
+      "prompt": "Bright restaurant interior by day, soft window light from behind and to the left, light airy tone with gentle shadows.",
+      "warmth": "cool",
+      "rig": { "key": { "type": "area", "azimuth_deg": -140, "elevation_deg": 30, "kelvin": 5200, "softness": 0.8 }, "fill_ratio": 0.45, "ambient_kelvin": 5000 }
+    },
+    "restaurant-evening-ambient": {
+      "prompt": "Restaurant at night, warm ambient lighting from overhead fixtures and a candle or small lamp on the table, soft shadows and warm bokeh in the background.",
+      "warmth": "ambient",
+      "rig": { "key": { "type": "spot", "azimuth_deg": -155, "elevation_deg": 55, "kelvin": 2800, "softness": 0.6 }, "fill_ratio": 0.25, "ambient_kelvin": 2800, "practicals": ["overhead-fixtures", "table-candle"] }
+    },
+    "outdoor-morning": {
+      "prompt": "Fresh outdoor morning light, the sun low behind and to the left, soft clean shadows falling forward and to the right.",
+      "warmth": "cool",
+      "rig": { "key": { "type": "directional", "azimuth_deg": -150, "elevation_deg": 20, "kelvin": 5000, "softness": 0.4 }, "fill_ratio": 0.4, "ambient_kelvin": 7000 }
+    },
+    "outdoor-midday-shade": {
+      "prompt": "Bright midday outdoors in the open shade of an umbrella or tree, even soft light with light dappled sun behind the table.",
+      "warmth": "cool",
+      "rig": { "key": { "type": "area", "azimuth_deg": -150, "elevation_deg": 50, "kelvin": 6000, "softness": 0.85 }, "fill_ratio": 0.55, "ambient_kelvin": 6500 },
+      "notes": "Hard overhead noon sun gives short black shadows and blown highlights on glass, so midday is staged in open shade."
+    },
+    "outdoor-golden-hour": {
+      "prompt": "Golden hour outdoors, warm low sun behind and to the left of the table, long soft shadows falling forward and to the right.",
+      "warmth": "warm",
+      "rig": { "key": { "type": "directional", "azimuth_deg": -155, "elevation_deg": 10, "kelvin": 3300, "softness": 0.35 }, "fill_ratio": 0.3, "ambient_kelvin": 5500 }
+    },
+    "outdoor-evening-string-lights": {
+      "prompt": "Outdoors in the evening, warm string lights overhead and behind the table against a deep blue dusk sky, soft warm light on the food.",
+      "warmth": "ambient",
+      "rig": { "key": { "type": "area", "azimuth_deg": -160, "elevation_deg": 45, "kelvin": 2700, "softness": 0.7 }, "fill_ratio": 0.2, "ambient_kelvin": 9000, "practicals": ["string-lights"] }
+    },
+    "street-evening": {
+      "prompt": "Street at night, warm light from a food stall lamp behind and to the left, colorful city lights blurred in the background.",
+      "warmth": "ambient",
+      "rig": { "key": { "type": "spot", "azimuth_deg": -150, "elevation_deg": 40, "kelvin": 3000, "softness": 0.5 }, "fill_ratio": 0.2, "ambient_kelvin": 6000, "practicals": ["stall-lamp", "city-lights"] }
+    }
+  }
+}

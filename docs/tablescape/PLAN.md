@@ -69,7 +69,8 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 |---|---|
 | `format.aspectRatio` (1:1, 2:3, 1:3, 3:2, 3:1) | frame shape and table-zone shape |
 | `format.shopperZone` (Transition, Impulse, Destination) | copy reserve blocks in the upper zone |
-| `camera.lens`, `camera.angle` | proxy focal length, focus distance and pitch; prompt fragments |
+| `camera.look`, `camera.angle` | plain-language presets → hidden lens, aperture, focus and pitch; prompt sentences |
+| `scene.time` (+ setting, venue) | lighting preset → prompt sentence + proxy light rig |
 | `scene.{setting, venue, party}` | table type/size, arrangement style, environment prompt |
 | `sku.package` | beverage proxy, logo box, seam offset |
 | `entree.{vessel, massClass}` | main proxy footprint and silhouette height |
@@ -123,32 +124,32 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 
 ## 4. Camera and frame
 
-### 4a. Camera dropdowns (placeholders)
+### 4a. Camera: plain-language presets
 
-The operator picks **Lens** and **Angle** from two dropdowns, defined once in [`camera-options.json`](./camera-options.json). The front end, the prompt builder and the proxy camera all read that file.
+Most operators won't know what an aperture does, so they never see one. They pick from two dropdowns, both defined in [`camera-options.json`](./camera-options.json):
 
-**The options are placeholders for now** (Lens A/B/C, Angle A/B/C) while the team settles the right lenses and parameters. The structure is final, so everything downstream can be built against it. Provisional proxy values (50 / 35 / 15 mm; 15° / 30° / 45°, default 30°) let the solver and renderer run end to end. Swapping in the final options is a data change only.
+| dropdown | options | behind each option (hidden) |
+|---|---|---|
+| **Look** | *Close-up hero* (default) · *Table in context* · *Wide scene* | lens, aperture, focus target and focus distance, bundled |
+| **Angle** | *Low, near eye level* · *Diner's eye* (default) · *Looking down* | camera pitch |
 
-Each option carries:
-- a **UI label**
-- a **prompt fragment**: one complete sentence, no markdown, so fragments concatenate in the fixed order `scene/genre → subject → angle → lens → lighting`
-- **proxy parameters** (focal length, focus distance, pitch). The proxy must use the same lens and angle the prompt describes.
+Each option has a one-line help text for the UI ("Tight on the meal and the bottle, background melts away"), a prompt sentence, and the hidden technical values the proxy camera uses. The proxy must use the same lens and angle the prompt describes.
 
-**Guidelines for writing the final options** (from the first draft, in git history at commit `1520fc2`):
-- **One value per option, not a range** ("15mm", not "14–16mm"), because the proxy camera needs one number and it must match the prompt.
-- **Name what's sharp.** Fast apertures keep only a few centimeters in focus (50 mm f/2.8 ≈ 6–9 cm; 35 mm f/1.4 at 1.5 m ≈ 15 cm), less than the 20–30 cm between entree and bottle. Each lens fragment should say "the main dish and the Coca-Cola bottle in sharp focus" to protect the "Coca in focus" rule.
-- **Describe the depth of field accurately** (f/1.4 is shallow, not moderate).
-- **Keep genre out of the lens.** "Street food photography" belongs to the scene text.
+**The technical values are still placeholders** (provisional 50 / 35 / 15 mm and 15° / 30° / 45°, aperture TBD) while the team settles the lenses. The labels and structure are final, so everything downstream can be built now. Swapping in the final values is a data change only.
+
+**Guidelines for writing the final presets** (from the first draft, in git history at commit `1520fc2`):
+- **One value per option, not a range**, because the proxy camera needs one number and it must match the prompt.
+- **Every look names what's sharp: "the main dish and the Coca-Cola bottle".** Fast apertures keep only a few centimeters in focus (50 mm f/2.8 ≈ 6–9 cm), less than the 20–30 cm between entree and bottle. This protects the "Coca in focus" rule without the operator knowing anything about apertures.
+- **Describe depth of field accurately,** and keep genre ("street food photography") out of the look. Genre comes from the scene.
 - **Exclude 0° and 90°,** per the composition rules.
 
-**How the choices affect the layout** (applies to whatever the final options are):
-- **Focal length** sets the proxy's field of view, `fov = 2·atan(24 / (2·f))` (full-frame vertical).
-- A **fixed focus distance** in an option fixes the camera's distance from MAIN, so auto-fit only adjusts the aim.
-- **Ultra-wide lenses** stretch objects near the frame edges, so the SKU stays out of the outer 15 %.
-- **Low angles** make items hide behind each other more, so fewer items fit before the no-stacking rule fails.
-- **Azimuth** is 0° ± 10°, always from the diner's side, which keeps diner's-right = screen-right.
-- **Aperture is prompt-only.** The proxy doesn't render blur.
-- Lens and angle are **part of the template signature**.
+**How the choices affect the layout:**
+- **Focal length** sets the proxy's field of view, `fov = 2·atan(24 / (2·f))`.
+- A **fixed focus distance** fixes the camera's distance from MAIN, so auto-fit only adjusts the aim.
+- *Wide scene* stretches objects near the frame edges, so the SKU stays out of the outer 15 %.
+- *Low* angles make items hide behind each other more, so fewer items fit.
+- **Azimuth** is 0° ± 10°, always from the diner's side.
+- **Aperture is prompt-only.** Look and angle are part of the template signature.
 
 ### 4b. Frame zones
 
@@ -173,6 +174,37 @@ y = 0.0 └───────────────────────
 
   The solver returns "infeasible, suggest ≤ N items" rather than breaking a rule.
 - **Copy reserves:** each shopper zone reserves blocks in the upper 50 %. These are recorded in the blueprint and drawn in `labeled.png` only, never in `clean.png`. The block sizes per zone need the ShRED definitions (open question 8).
+
+### 4c. Lighting: derived from the scene, never picked
+
+Lighting follows from where and when the meal happens, so the operator doesn't choose it. **Scene details (setting, venue) + time of day** select one preset from [`lighting-presets.json`](./lighting-presets.json). The result is shown in the meal summary ("Lighting: natural window daylight, because this is a meal at home in the morning").
+
+**Time of day** comes from the occasion when that's unambiguous (breakfast → morning, dinner → evening). Otherwise it's one extra choice in the scene step: morning · midday · golden hour · evening.
+
+| scene | morning / midday | golden hour | evening |
+|---|---|---|---|
+| Indoor · home | window daylight, soft, neutral 5500 K | low golden sun through the window, long warm shadows | warm pendant + table lamp, 2700 K, cozy pools of light |
+| Indoor · restaurant | bright interior, soft window light | (same as day) | warm ambient fixtures + table candle, background bokeh |
+| Outdoor · any | morning: low soft sun · midday: **open shade** (umbrella or tree), because hard noon sun gives black shadows and blown glass highlights | warm low sun, long soft shadows | home/restaurant: string lights against blue dusk · on the go: food-stall lamp, city lights |
+
+**Each preset drives both the prompt and the proxy:**
+- a **prompt sentence** that describes the light source, its direction, the shadows and the color temperature
+- a **light rig** for the proxy renderer: key light type, direction, elevation, color temperature, softness and fill ratio, plus practical lights such as lamps and string lights. The proxy's shadows then point the same way as the prompt's light. If the proxy is used as a reference image, mismatched shadows would fight the prompt.
+
+**One direction rule for every preset: the key light comes from behind-left of the table.** The SKU is always right of MAIN, so this direction:
+1. passes light **through (glass, PET) or along (can) the SKU toward the camera**, which gives the cola its red-amber glow and the contour its highlights
+2. throws shadows **forward-right, away from the entree**, so the bottle's shadow never falls across the main dish
+
+**Light through the SKU depends on the package** (`sku_light` in the presets file):
+- **Glass or PET:** a glow sentence matched to the preset's warmth, for example "Light passes through the Coca-Cola bottle from behind, giving the cola a deep red-amber glow with crisp highlights along the contour glass."
+- **Can:** light can't pass through, so the sentence asks for a clean rim highlight and a well-lit logo instead.
+
+**Shadow checks** (hard rule H13, checked on a shadow pass of the proxy render):
+- no cast shadow crosses the SKU logo box
+- the SKU's shadow doesn't fall on MAIN
+- shadow direction matches the preset
+
+Lighting is part of the template signature. The same table at breakfast and at dinner is two templates.
 
 ## 5. Layout solver
 
@@ -218,6 +250,7 @@ Depth bands (from the rules):
 | H10 | Odd count | N (after the odd/even step) is odd |
 | H11 | Physical | footprints don't overlap (gap ≥ 1.5 cm, except condiments meant to sit on their dish); everything on the table |
 | H12 | Co-heroes visible | MAIN ≤ 15 % occluded and not cropped at the sides |
+| H13 | Shadows | no cast shadow crosses the logo box; the SKU's shadow doesn't fall on MAIN; shadow direction matches the lighting preset (4c) |
 
 ### 5.4 Soft score (screen space)
 Each primitive is projected through the camera: analytic silhouettes for the solver, and the ID pass for the final check. The score terms:
@@ -291,7 +324,7 @@ Each option has a one-line rationale, for example *"Crescent Arc: sides wrap beh
 
 A **signature** is a key over everything locked:
 ```
-lens-a | angle-b | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
+close-hero | diners-eye | home-window-daylight | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
 ```
 
 **Lookup:**
@@ -316,7 +349,8 @@ lens-a | angle-b | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | mai
   4. **`blueprint.json`**: Part A plus extensions, including every rule's pass/fail result.
 - **Validators are the quality gate.** Hard rules are re-checked on the rendered ID mask. A failure fails the run loudly and never ships a frame.
 - **Prompt-only rules** travel in the prompt manifest, not the proxy:
-  - aperture / depth of field and focus target (the lens dropdown's prompt fragment)
+  - aperture / depth of field and focus target (the look preset's prompt sentence)
+  - lighting and the light through the SKU (the lighting preset's sentences; the proxy only mirrors the direction)
   - environment and bokeh content for the upper zone
   - ≤ 2.5 background faces
   - the "Coca" script slanting diagonally upward, which is inherent to an upright bottle facing the camera
@@ -349,9 +383,10 @@ lens-a | angle-b | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | mai
 tablescape/
   schema/        SceneSpec, Blueprint (Part A + extensions), Options, Template schemas + fixtures
   registry/      known sizes: beverages (+ logo boxes), plating vessels, food-mass, props, tables
-  rules/         brand.json, composition.json, archetypes/*.json, shopper-zones.json
+  rules/         brand.json, composition.json, archetypes/*.json, shopper-zones.json,
+                 camera-options.json, lighting-presets.json
   camera/        camera-options.json → proxy camera, auto-fit, horizon clamp
-  solver/        layer + odd/even pre-step, constraints H1–H12, scoring, archetype search, option selection
+  solver/        layer + odd/even pre-step, constraints H1–H13, scoring, archetype search, option selection
   templates/     signature(), lookup, cache, approvals, pick counts
   render/        scene-core, label / horizon / copy-reserve overlay, depth + ID passes, contact sheet, headless runner
   cli/           `tablescape options spec.json --out ./out`
@@ -365,7 +400,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 |---|---|---|
 | **0: Contracts + rules** | `SceneSpec` v0.2 (from the intake flow), blueprint schema v2 (Part A + extensions), `brand.json` / `composition.json` from the composition rules, open questions 1–8 answered | Agent, intake and composer all code against the same schemas |
 | **1: Render from blueprint** | Registry at real scale; `scene-core` + headless runner + overlays: hand-written `blueprint.json` → labeled / clean / ID PNG | A hand-written N = 3 blueprint renders with the horizon at ≤ 0.50 |
-| **2: Solver, one option** | Camera auto-fit, odd/even pre-step, H1–H12, scoring, *Triangle Loop* | Every N = 3 fixture passes all hard rules, deterministic per seed |
+| **2: Solver, one option** | Camera auto-fit, odd/even pre-step, H1–H13, scoring, *Triangle Loop* | Every N = 3 fixture passes all hard rules, deterministic per seed |
 | **3: Three options** | *Crescent Arc*, *Diagonal Stagger*, *Counterweight*; diversity selection; bundle + contact sheet + rationale | N ≥ 5 fixtures return 3 distinct, compliant options; all five aspect ratios handled or reported infeasible |
 | **4: Pick → template** | Signature cache, pick = approval, template bypass, pick counts | Repeat specs return the approved proxy instantly |
 | **5: Pipeline hookup** | Intake decision cards → SceneSpec → options → pick → manifest; post-gen validators | End-to-end run from intake to final image |
@@ -395,11 +430,12 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 | f/4–f/5.6 depth of field | set per lens option (placeholders); every fragment names the entree and bottle as sharp | 4a (open question 13) |
 | ≤ 2.5 faces in the background | prompt manifest + post-gen check | 8, 9 |
 | SKU on the diner's right (our rule) | **H4** | 2a |
+| Lighting from the scene; glow through the SKU; bottle shadow off the entree (our rule) | lighting preset + key light behind-left + **H13** | 4c |
 
 ## 14. Testing and quality
 
 - **Golden tests:** fixture spec → options snapshot (archetypes, blueprints, scores) → PNG diff in CI.
-- **Rule tests:** one unit test per hard rule, H1–H12. Every option from every fixture is asserted to pass all of them across all five aspect ratios.
+- **Rule tests:** one unit test per hard rule, H1–H13. Every option from every fixture is asserted to pass all of them across all five aspect ratios.
 - **Odd/even tests:** N = 2, 4, 6 inputs always gain exactly one accent. Odd inputs never do.
 - **Diversity tests:** options from one spec always pass the distinctness check. Small scenes return fewer rather than near-duplicates.
 - **Metrics:** template hit rate, pick distribution per archetype, visual-mass error, and post-gen SKU IoU.
@@ -426,5 +462,11 @@ Pipeline questions (carried over):
 
 Camera dropdowns:
 
-13. **Final lens and angle options** to replace the placeholders in `camera-options.json`: label, prompt sentence, focal length, aperture, focus distance, pitch. Also confirm the composition rules' ~30° and f/4–f/5.6 are **defaults** the dropdowns can override.
-14. **Lighting dropdown:** lighting (natural window light, golden hour, overcast, warm evening interior…) is the next big prompt lever. Same structure as the camera dropdowns, with a default tied to occasion and scene.
+13. **Final values behind the camera presets** (*Close-up hero*, *Table in context*, *Wide scene*; the three angles): focal length, aperture, focus distance, pitch and prompt sentence. Also confirm the composition rules' ~30° and f/4–f/5.6 are **defaults** the presets can override.
+
+Lighting:
+
+14. **Lighting preset review.** `lighting-presets.json` is a draft: light sources, color temperatures, and the prompt wording per scene and time of day.
+15. **Can the operator override the derived lighting?** Proposed: no in v1. Lighting always follows the scene, and the operator changes it by changing the scene or time of day.
+16. **Time of day:** confirm the occasion → time mapping, and that time of day is asked in the scene step when the occasion doesn't settle it.
+17. **Region and climate:** should lighting vary by region (for example harsher tropical midday light, or overcast northern Europe)? Proposed: not in v1.
