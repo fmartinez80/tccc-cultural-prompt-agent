@@ -132,7 +132,7 @@ export class ClaudeAgent implements IntakeAgent {
       "plating",
       brief,
       sel,
-      "Identify how this dish is most commonly served here (entree plate, wrapped in foil, basket, cutting board, and so on). Use service \"shared\" only when the dish is typically served family-style from one large vessel on the table (a whole roast, a pizza, a paella pan); the scene then shows that vessel plus one plated portion.",
+      "Identify how this dish is most commonly served here (entree plate, wrapped in foil, basket, cutting board, and so on). For a plate, use \"plate\" (28 cm entree) by default and \"lunch-plate\" (23 cm) when the main is a small, delicate protein or a compact stack, so the food fills the plate; never an oversized charger. Use service \"shared\" only when the dish is typically served family-style from one large vessel on the table (a whole roast, a pizza, a paella pan); the scene then shows that vessel plus one plated portion.",
       PlatingChoice,
     );
   }

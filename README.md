@@ -76,7 +76,7 @@ To pick up knowledge-base edits, redeploy (the download runs at build time).
 ### Project layout
 
 ```
-rules/                camera-options.json, lighting-presets.json, glass-rules.json
+rules/                camera-options.json, lighting-presets.json, glass-rules.json, tableware-photo-spec.json
 scripts/              sync-knowledge.mjs (knowledge-base download)
 src/shared/           types, real-scale registry, rules, camera math, scene items, solver, story, spec
 src/server/           Express API, knowledge-base loader, agent (Claude + sample)

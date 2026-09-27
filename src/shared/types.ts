@@ -20,6 +20,7 @@ export type Occasion = z.infer<typeof Occasion>;
 
 export const Vessel = z.enum([
   "plate",
+  "lunch-plate",
   "side-plate",
   "bowl",
   "small-bowl",

@@ -1,7 +1,13 @@
 // Real-scale proxy registry. All sizes in meters. Every proxy has a
 // bottom-center pivot, so it sits on the tabletop at elevation 0.
 
+import plateSpec from "../../rules/tableware-photo-spec.json";
 import type { MassClass, SkuInfo, Surface, Vessel } from "./types";
+
+/** Plate diameters from the photography plate spec (rules/tableware-photo-spec.json). */
+const plateRadius = (id: keyof typeof plateSpec.plates) => plateSpec.plates[id].use_cm / 200;
+/** Lip height 1.5-2 cm (flat profile). */
+const PLATE_HEIGHT = 0.02;
 
 export type ShapeKind = "cylinder" | "box" | "lathe-bottle" | "lathe-can" | "lathe-bell-glass" | "napkin";
 
@@ -17,8 +23,9 @@ export interface ProxyDef {
 }
 
 export const VESSELS: Record<Vessel, ProxyDef> = {
-  plate: { kind: "cylinder", radius: 0.1525, height: 0.025 }, // entree plate 30.5 cm (12 in), team standard; KB range is 26-28 cm
-  "side-plate": { kind: "cylinder", radius: 0.1, height: 0.02 },
+  plate: { kind: "cylinder", radius: plateRadius("plate"), height: PLATE_HEIGHT }, // entree 27-29 cm (photo spec)
+  "lunch-plate": { kind: "cylinder", radius: plateRadius("lunch-plate"), height: PLATE_HEIGHT }, // smaller mains 22-24 cm
+  "side-plate": { kind: "cylinder", radius: plateRadius("side-plate"), height: PLATE_HEIGHT }, // sides, desserts, bread 18-20 cm
   bowl: { kind: "cylinder", radius: 0.08, height: 0.06 }, // side bowl, medium 15-18 cm
   "small-bowl": { kind: "cylinder", radius: 0.0675, height: 0.05 }, // side bowl, small 12-15 cm
   "large-bowl": { kind: "cylinder", radius: 0.16, height: 0.09 }, // communal bowl 30-35 cm
@@ -37,8 +44,9 @@ export const VESSELS: Record<Vessel, ProxyDef> = {
 
 /** How each vessel is named in the image prompt. The size is added from VESSELS so text and proxy agree. */
 export const VESSEL_NOUN: Record<Vessel, string> = {
-  plate: "a round entree plate",
-  "side-plate": "a round side plate",
+  plate: `a ${plateSpec.plates.plate.noun}`,
+  "lunch-plate": `a ${plateSpec.plates["lunch-plate"].noun}`,
+  "side-plate": `a ${plateSpec.plates["side-plate"].noun}`,
   bowl: "a round side bowl",
   "small-bowl": "a small round bowl",
   "large-bowl": "a large communal serving bowl",
@@ -57,6 +65,7 @@ export const VESSEL_NOUN: Record<Vessel, string> = {
 /** Short name for the vessel in running text ("the shared paella pan"). */
 export const VESSEL_SHORT: Record<Vessel, string> = {
   plate: "plate",
+  "lunch-plate": "plate",
   "side-plate": "side plate",
   bowl: "bowl",
   "small-bowl": "bowl",
@@ -78,7 +87,8 @@ export function vesselPhrase(v: Vessel): string {
   const d = VESSELS[v];
   const cm = (m: number) => Math.round(m * 200) / 2; // nearest half centimeter
   const size = d.radius !== undefined ? `about ${cm(2 * d.radius)} cm across` : `about ${cm(Math.max(d.width!, d.depth!))} by ${cm(Math.min(d.width!, d.depth!))} cm`;
-  return `${VESSEL_NOUN[v]} ${size}`;
+  const plate = v === "plate" || v === "lunch-plate" || v === "side-plate";
+  return plate ? `${VESSEL_NOUN[v]} ${size}, ${plateSpec.prompt}` : `${VESSEL_NOUN[v]} ${size}`;
 }
 
 /** Extra height the food adds on top of the vessel. */
