@@ -58,12 +58,13 @@ The agent identifies the meal and the conditions it's enjoyed in within the coun
 
 ### 2. Primary meal plating
 The agent identifies how the dish is most commonly served (entree plate, wrapped in foil, basket, cutting board…). It proceeds, or offers Meal Dish A (suggested) / B / C.
-- **Family-style (shared) service** is one of the plating options when the dish is typically served that way (for example a Thanksgiving turkey on a platter). Choosing it sets `entree.service: "shared"`. The dish goes on the table in a **shared vessel**, and the place setting shows **a portion plated from it** (see `tablescape/PLAN.md` §5.6, shared-vessel meal).
+- **Family-style (shared) service** is one of the plating options when the dish is typically served that way (for example a Thanksgiving turkey on a platter). Choosing it sets `entree.service: "shared"`. The dish becomes the table's **one shared hero vessel** (a whole turkey, a roast, a pizza), and the place setting shows **a portion plated from it** (see `tablescape/PLAN.md` §5.6, shared-vessel meal).
 - **Writes:** `entree.vessel`, `entree.service` (`individual` | `shared`). This must come from the **closed vessel vocabulary** that has a proxy in the registry (`plate`, `foil-wrap`, `basket`, `board`, `bowl`, `tray`, `leaf`…). If the agent finds a plating with no proxy, it maps it to the nearest proxy class and keeps the exact wording for the prompt.
 
 ### 3. Side dishes + accompaniments
 The agent identifies the most common sides and accompaniments (grain, vegetable, side dish, condiment) and what container each is served in. It proceeds, or offers A (suggested) / B / C.
 - **Writes:** `accompaniments[]`, each with `name`, `role` (side, starch, salad, sharing-bowl, bread, condiment, sauce, garnish), `vessel`, `service` (`individual` or `shared`: shared dishes sit in serving vessels on the table, and a portion appears on the plate), and **`pairsWith`** (which dish a condiment belongs to). `pairsWith` is needed for the 1–3 inch condiment rule.
+- **Shared sides budget:** for a family-style meal, shared sides are limited to 4 vessels **and** a size budget of 4 units: small bowl 0.5, medium bowl 1, large bowl or casserole 2, bread basket or board 1. The card shows the budget used and blocks picks that go over it.
 - **Composition check shown here:** the odd/even rule (see below) and the side-size rule. Side vessels should be 40–60 % of the entree's size. Shared serving vessels are exempt. If a pick breaks it, the card warns, rather than the layout failing later.
 
 ### 4. Scene details

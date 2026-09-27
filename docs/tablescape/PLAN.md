@@ -78,7 +78,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 | `props[]` (napkin set: napkin shape + cutlery on top, with `targets`) | one Layer 3 prop, directional vectors |
 
 - **Closed vocabularies** for `vessel`, `role`, `package`, `massClass`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the prompt.
-- **Stable role labels** (`SKU`, `GLASS`, `MAIN`, `SIDE_1`, `SHARED_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_SET_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest. **The image model relies on this match:** it reads the label on each shape to know which prompt segment applies to it (section 8a).
+- **Stable role labels** (`SKU`, `GLASS`, `MAIN`, `SIDE_1`, `SHARED_HERO`, `SHARED_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_SET_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest. **The image model relies on this match:** it reads the label on each shape to know which prompt segment applies to it (section 8a).
 - `camera.{lens, angle}` are dropdown ids from [`camera-options.json`](./camera-options.json) (section 4a).
 
 ### 1b. Output: `blueprint.json` (Part A schema + extensions)
@@ -312,7 +312,7 @@ The co-heroes are anchored by the rules (MAIN front-left, SKU mid-right), so the
 | **Crescent Arc** | secondaries wrap behind MAIN | 3+ items in a midground arc from left to center, behind MAIN | N = 5 (the rules' 4 + 1 case) |
 | **Diagonal Stagger** | leading line into the SKU | items stepped along a diagonal from front-left toward the SKU | N ≥ 5 alternative |
 | **Counterweight** | mass balances the SKU | secondaries grouped mid-left, opposite the SKU | N ≥ 5 alternative |
-| **Feast Spread** | family-style table, one plated setting | shared vessels in a back arc and flanks, across the outer thirds | shared-vessel meals (5.6) |
+| **Feast Spread** | family-style table, one plated setting | one shared hero back-left; shared sides in a back arc and flanks across the outer thirds | shared-vessel meals (5.6) |
 
 Napkin shape (rectangle or triangle) and cutlery target (MAIN or SKU) are variants within an archetype. Arrangement styles for group and family scenes bring their own archetype sets (open question 4). A market can reorder archetypes but not break any rule.
 
@@ -372,23 +372,39 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
 - **Odd/even:** two identical settings always make an even count, so the added accent becomes a **shared item between the two settings** (a shared salsa or lime dish). It sits at the corner (Corner) or the table center (Face-to-face), never in front of either SKU.
 - Lighting stays key-from-behind-left. In Face-to-face, SKU_L's shadow falls forward-right, toward the table center and away from both plates.
 
-**Shared-vessel meal, one place setting** (for example a Thanksgiving feast). The food is served family-style in shared vessels on the table, and **one place setting is shown with a portion plated from them**, plus a glass. A large shared SKU fits this naturally: one shared bottle, one glass.
+**Shared-vessel meal, one place setting** (for example a Thanksgiving feast). The food is served family-style on the table, and **one place setting is shown with a portion plated from it**, plus a glass. A large shared SKU fits this naturally: one shared bottle, one glass.
 ```
    back of table
   ┌──────────────────────────────────────┐
-  │ (SHARED_1)       (SHARED_2)          │   shared vessels: platter, casserole, bowls
-  │        (SHARED_3)          SKU ●     │   back arc, partly cropped at the outer edges
-  │               GLASS ◯                │
+  │ (SHARED_1)  [ SHARED_HERO ]          │   one large shared hero: turkey, roast, pizza
+  │      (SHARED_2)            SKU ●     │   shared sides fill the outer thirds
+  │               GLASS ◯    (SHARED_3)  │
   │        (MAIN)   ▭N                   │   MAIN = the plated portion for one
   └──────────────────────────────────────┘
       outer third |  center third  | outer third
 ```
-- **Hero = the plated portion (MAIN) + SKU + GLASS**, all in the center third (H14). Everything else in this plan applies to them unchanged.
-- **Shared vessels** (`SHARED_1`, `SHARED_2`…) are Layer 2. They sit in a staggered back arc (z ≈ 0.25–0.45) and fill the outer thirds. They may be partly cropped at the frame edges, and a narrow crop may cut them away while keeping the hero.
-- **Shared vessels can be bigger than the plate** (a turkey platter). They're exempt from the 40–60 % side-size rule. The hero stays dominant through position: the plate is in the foreground, and the vessels are further back and smaller on screen. The visual-mass check still requires the hero group to hold ≥ 50 %.
-- The plated portion shows **a portion of the shared dishes**. The MAIN prompt segment says so (for example "a plate with sliced turkey, stuffing and cranberry sauce"), and each SHARED segment describes its vessel and food.
-- Odd/even counts the shared vessels as items. The no-stacking, clear-zone and shadow rules apply as usual, so no vessel sits in front of the bottle or glass.
-- **Archetype: Feast Spread.** The shared vessels form the back arc and flanks, with the hero plate, glass and bottle in the center third. Variants shift which vessels flank left or right and how far they're cropped.
+**What's on the table:**
+- **Exactly one shared hero vessel** (`SHARED_HERO`): the large centerpiece the meal is built around, such as a whole turkey on a platter, a roast on a board, or a pizza.
+- **Shared sides** (`SHARED_1`, `SHARED_2`…): bowls, casseroles, a bread basket or board. Up to **4 vessels**, limited by a **size budget of 4 units**, because bowl size matters more than the count:
+
+  | shared side | size | units |
+  |---|---|---|
+  | small bowl | under 15 cm | 0.5 |
+  | medium bowl | 15–22 cm | 1 |
+  | large bowl, casserole | 23 cm and up | 2 |
+  | bread basket or board | any | 1 |
+
+  So 4 medium bowls fit, as do 2 large bowls, or 1 casserole + 1 bread basket + 1 medium bowl. The intake's sides step shows the budget as sides are picked and blocks going over it.
+- **The place setting:** the plated portion (MAIN), the shared bottle (SKU), one glass and the napkin set.
+
+**Where things go:**
+- **Hero group = MAIN + SKU + GLASS** in the center third (H14). All existing rules apply to them unchanged, including crop protection.
+- **The shared hero sits in the back band (z ≈ 0.3–0.45), left of center,** opposite the bottle and offset from the plate so it's never directly behind it (H7). It overlaps the left edge of the center third, so it survives the 1:1 and 4:5 crops and is partly visible in 9:16.
+- **Shared sides** are Layer 2 in a staggered back arc and the flanks, filling the outer thirds. They can be partly cropped at the frame edges, and a narrow crop may cut them away while keeping the hero group.
+- **Visual mass:** the shared hero counts with the co-heroes, so the plate + bottle + glass + shared hero hold ≥ 50 %. Shared sides count as Layer 2. Shared vessels are exempt from the 40–60 % side-size rule. The plate stays dominant because it's in the foreground.
+- **Prompt:** the MAIN segment describes a portion of the shared food (for example "a plate with sliced turkey, stuffing and cranberry sauce"). `SHARED_HERO` and each `SHARED_n` segment describe the vessel and its food.
+- Odd/even counts every shared vessel. The no-stacking, clear-zone and shadow rules apply as usual, so no vessel sits in front of the bottle or glass.
+- **Archetype: Feast Spread.** Shared hero back-left, sides in the arc and flanks, hero group in the center third. Variants change which sides flank left or right and how far they're cropped.
 
 **Groups and families** (proposed): the hero setting follows the rules, and the neighbouring settings are identical and partly cropped at the frame edges. Shared dishes sit in the center of the table. Full group layouts stay in Phase 6.
 
@@ -579,7 +595,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 - **Crop protection:** hero meal + SKU (+ glass, when present) stay in the vertical center third, so every priority crop holds at least one complete logo'd element plus part of the meal (4b, H14).
 - **Priority crops:** 16:9 (master), 1:1, 4:5, 2:3, 3:2, 5:4, 9:16.
 - **SKU size, venue and glass:** SKUs of 1 L and up are shared (one bottle per table) and appear only at home. Glasses never appear on the go. SKUs of 1 L and up also require a glass (locked Y). Otherwise the operator's intake Y/N decides, and every place setting gets a glass when there are glasses (2a, `glass-rules.json`).
-- **Large bottle, one setting:** allowed. For example, a family-style feast with shared vessels on the table, one place setting with a plated portion, the shared bottle and one glass (5.6, *Feast Spread*).
+- **Large bottle, one setting:** allowed. For example, a family-style feast: one shared hero vessel (turkey, roast, pizza), shared sides up to 4 within a size budget, one place setting with a plated portion, the shared bottle and one glass (5.6, *Feast Spread*).
 - **On the go:** always on a surface (park table, bench, food-truck counter…), never in a hand (5.6).
 - **Drinks:** the SKU is the only drink, for every diner. Every diner has the same place setting (5.6).
 - **Knowledge scope:** OU owns the rules; cultural knowledge is per country (9).
@@ -593,7 +609,7 @@ Composition:
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
 4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
-5. **Shared-vessel meals:** how many shared vessels at most in one scene? Proposed: up to 4, since more crowds the back arc at the 30° angle and the solver would report infeasible.
+5. **Shared-vessel meals:** confirm the shared hero counts toward the 50 % co-hero mass (proposed), and the size-budget units (small bowl 0.5, medium 1, large or casserole 2, bread 1; budget 4).
 6. **Does the glass count toward odd/even?** Proposed: yes, it's a separate object. With a glass, main + bottle + glass = 3 is already odd. Without it, main + bottle = 2 still gets the added accent.
 
 Pipeline:
