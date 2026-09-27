@@ -50,7 +50,7 @@ Intake flow (../INTAKE_FLOW.md) ──► SceneSpec
                                        │
                           Pick up to 3 distinct, compliant options
                                        │
-                          Headless render ×N ──► options bundle (labeled + clean PNG, masks, blueprint.json)
+                          Headless render ×N ──► options bundle (labeled proxy for the model, review image, masks, blueprint.json)
                                        │
                           Operator selects 1 ──► promoted to template for this signature
                                        │
@@ -78,7 +78,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 | `props[]` (napkin, cutlery with `targets`) | Layer 3 props, directional vectors |
 
 - **Closed vocabularies** for `vessel`, `role`, `package`, `massClass`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the prompt.
-- **Stable role labels** (`SKU`, `MAIN`, `SIDE_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_1`, `CUTLERY_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest.
+- **Stable role labels** (`SKU`, `MAIN`, `SIDE_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_1`, `CUTLERY_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest. **The image model relies on this match:** it reads the label on each shape to know which prompt segment applies to it (section 8a).
 - `camera.{lens, angle}` are dropdown ids from [`camera-options.json`](./camera-options.json) (section 4a).
 
 ### 1b. Output: `blueprint.json` (Part A schema + extensions)
@@ -173,7 +173,7 @@ y = 0.0 └───────────────────────
   - **1:3** strips leave a narrow table band, which may only fit the co-heroes plus one item.
 
   The solver returns "infeasible, suggest ≤ N items" rather than breaking a rule.
-- **Copy reserves:** each shopper zone reserves blocks in the upper 50 %. These are recorded in the blueprint and drawn in `labeled.png` only, never in `clean.png`. The block sizes per zone need the ShRED definitions (open question 8).
+- **Copy reserves:** each shopper zone reserves blocks in the upper 50 %. These are recorded in the blueprint and drawn in `review.png` only, never in the `proxy.png` sent to the model. The block sizes per zone need the ShRED definitions (open question 8).
 
 ### 4c. Lighting: derived from the scene, never picked
 
@@ -318,7 +318,7 @@ If no archetype is feasible, return an infeasible result with a relaxation sugge
 out/<runId>/
   options.json            # per option: archetype, score breakdown, rule results, one-line rationale
   contact-sheet.png       # A / B / C side by side for the operator's pick
-  A/ labeled.png  clean.png  depth.png  ids.png  blueprint.json
+  A/ proxy.png  review.png  depth.png  ids.png  blueprint.json
   B/ …
   C/ …
 ```
@@ -347,10 +347,21 @@ close-hero | diners-eye | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8o
 
 - A small **`scene-core`** function, with no React and no render loop, takes `blueprint.json` **plus the run's lighting preset** (the blueprint holds no lighting), turns them into a three.js scene and renders one frame at the spec's aspect ratio. It runs in headless Chromium (Playwright) or Node with headless GL.
 - Passes per option:
-  1. **`labeled.png`**: role labels as a 2D overlay, plus the horizon line and copy-reserve blocks. For the operator's pick and debugging.
-  2. **`clean.png`**: no labels, lines or blocks. **This is what the image model gets.**
+  1. **`proxy.png`**: the shapes with their **role labels. This is what the image model gets.** The model reads each label to match the shape to its prompt segment (8a). It contains shapes and labels only: no horizon line, copy-reserve blocks or other guides, because the model would try to render them.
+  2. **`review.png`**: `proxy.png` plus the horizon line, copy-reserve blocks and rule results, for the operator's pick and debugging.
   3. **`depth.png`** and **`ids.png`** (flat color per role): for depth / segmentation control and regional prompting, if the workflow supports them. `ids.png` also measures visual mass exactly.
   4. **`blueprint.json`**: Part A plus extensions, including every rule's pass/fail result.
+### 8a. Labels as the link between shapes and prompt
+
+The labels in `proxy.png` are functional, not decoration. The image generator uses them to decide which prompt segment applies to which shape, so they're designed for the model to read:
+- **Label text = prompt segment key, exactly.** The prompt is written in segments keyed by the same role labels, for example `MAIN: tacos al pastor on a white plate…`, `SKU: an ice-cold 8 oz Coca-Cola contour glass bottle…`, `SAUCE_1: salsa verde in a small clay bowl…`. The prompt builder generates both from the blueprint, so they can't drift apart. Every labeled shape has a segment, and every segment has a labeled shape.
+- **Role labels on the image, content in the prompt.** Labels stay short and constant (`SIDE_1`, not "frijoles charros"), so the proxy is reusable across meals with the same layout and the model isn't handed long text to copy.
+- **On the shape, on its visible part.** Each label is centered inside the visible silhouette of its own shape, never floating between two shapes. It's placed on the unoccluded portion when something partly covers the shape.
+- **Small items:** when a shape is too small to hold a legible label (a ramekin in a wide shot), the label sits just outside it with a short leader line. The solver checks that it can't be read as belonging to a neighbour.
+- **SKU label on the lower body,** below the logo box, so the label doesn't sit where the "Coca" script will be generated.
+- **One style everywhere:** same font, high contrast, a fixed minimum size relative to the frame, and no overlap between labels. The label box is checked like any other primitive: labels may not cover each other or another shape's label.
+- **Keeping labels out of the final image.** Because the model sees text, it may reproduce it. The prompt includes a fixed line saying the labels are placement guides and not to render them as text, and the post-gen validator runs text detection for any role label appearing in the output (section 9).
+
 - **Validators are the quality gate.** Hard rules are re-checked on the rendered ID mask. A failure fails the run loudly and never ships a frame.
 - **Prompt-only rules** travel in the prompt manifest, not the proxy:
   - aperture / depth of field and focus target (the look preset's prompt sentence)
@@ -369,6 +380,8 @@ close-hero | diners-eye | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8o
   - the table horizon in the generated image is ≤ 0.50
   - the logo isn't covered
   - the face count in the background is within the rule
+  - no role label text (`SKU`, `MAIN`, `SIDE_1`…) appears in the generated image
+  - each labeled shape became the item its prompt segment describes (for example the `SIDE_1` position holds the side dish, not the sauce)
 - The **selected proxy and blueprint are stored with the final image** as the record of what was decided.
 
 ## 10. What to reuse from `wpp-scene-composer`
@@ -392,7 +405,7 @@ tablescape/
   camera/        camera-options.json → proxy camera, auto-fit, horizon clamp
   solver/        layer + odd/even pre-step, constraints H1–H13, scoring, archetype search, option selection
   templates/     signature(), lookup, cache, approvals, pick counts
-  render/        scene-core, label / horizon / copy-reserve overlay, depth + ID passes, contact sheet, headless runner
+  render/        scene-core, proxy label placement, review overlay (horizon, copy reserves), depth + ID passes, contact sheet, headless runner
   cli/           `tablescape options spec.json --out ./out`
                  `tablescape select <runId> B`
 ```
@@ -403,7 +416,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 | Phase | Deliverable | Done when |
 |---|---|---|
 | **0: Contracts + rules** | `SceneSpec` v0.2 (from the intake flow), blueprint schema v2 (Part A + extensions), `brand.json` / `composition.json` from the composition rules, open questions 1–8 answered | Agent, intake and composer all code against the same schemas |
-| **1: Render from blueprint** | Registry at real scale; `scene-core` + headless runner + overlays: hand-written `blueprint.json` → labeled / clean / ID PNG | A hand-written N = 3 blueprint renders with the horizon at ≤ 0.50 |
+| **1: Render from blueprint** | Registry at real scale; `scene-core` + headless runner + overlays: hand-written `blueprint.json` → labeled proxy / review / ID PNG | A hand-written N = 3 blueprint renders with the horizon at ≤ 0.50 |
 | **2: Solver, one option** | Camera auto-fit, odd/even pre-step, H1–H13, scoring, *Triangle Loop* | Every N = 3 fixture passes all hard rules, deterministic per seed |
 | **3: Three options** | *Crescent Arc*, *Diagonal Stagger*, *Counterweight*; diversity selection; bundle + contact sheet + rationale | N ≥ 5 fixtures return 3 distinct, compliant options; all five aspect ratios handled or reported infeasible |
 | **4: Pick → template** | Signature cache, pick = approval, template bypass, pick counts | Repeat specs return the approved proxy instantly |
@@ -461,7 +474,7 @@ Questions about the composition rules. Answers go into `composition.json` / `bra
 Pipeline questions (carried over):
 
 10. **Image workflow inputs:** does the workflow accept depth / segmentation / region masks, or only a reference image plus prompt?
-11. **Label semantics:** role labels (`SKU`, `MAIN`) in `labeled.png` and content labels in the manifest (recommended)?
+11. **Label semantics (resolved):** role labels (`SKU`, `MAIN`, `SIDE_1`…) on the proxy, matching the prompt segment keys, with the content in the prompt segments (8a). Still open: does your workflow expect a specific label format or segment syntax (for example `[MAIN]` or `MAIN:`)?
 12. **Where it lives:** a standalone `tablescape/` package in this repo, with `wpp-scene-composer` as an optional debug viewer (recommended)?
 
 Camera dropdowns:
