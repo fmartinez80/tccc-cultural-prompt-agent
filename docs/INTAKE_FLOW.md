@@ -86,7 +86,7 @@ Defines the time and place of the meal. The operator picks one:
 ### 5. Format + camera (proposed new step)
 These are **dropdowns**, not decision cards. The agent doesn't suggest them from cultural knowledge. Each has a default, so the operator can skip the step.
 - **Aspect ratio:** 1:1, 2:3, 1:3, 3:2, 3:1. Writes `format.aspectRatio`.
-- **Shopper zone:** Transition, Impulse, Destination. Writes `format.shopperZone`. This and aspect ratio usually come from the media placement, so they may belong at intake instead.
+- **Shopper zone:** Transition, Impulse, Destination. Writes `format.shopperZone`. It's recorded only in v1 (no copy or text placement yet), and the aspect ratio's ShRED crop already allows for copy areas. This and aspect ratio usually come from the media placement, so they may belong at intake instead.
 - **Look:** *Close-up hero* (default) · *Table in context* · *Wide scene*. Each look bundles lens, aperture and focus, so the operator never picks an f-stop. Writes `camera.look`.
 - **Angle:** *Low, near eye level* · *Diner's eye* (default) · *Looking down*. Writes `camera.angle`.
 - The technical values behind the looks and angles are placeholders until the team settles the lenses.
@@ -98,7 +98,7 @@ The tablescape composer returns up to 3 layout options for the locked elements. 
 
 ## The odd/even rule shown to the operator
 
-After step 3, the composer counts the table items (main + beverage + sides + condiments). If the count is even, the composition rules add one small accent to make it odd (see `tablescape/PLAN.md` §5.2).
+After step 3, the composer counts the table items (main + beverage + sides + condiments + the napkin set, where napkin and cutlery count as one). If the count is even, the composition rules add one small accent to make it odd (see `tablescape/PLAN.md` §5.2).
 - **The accent is chosen by the agent from the region's knowledge base**, for example a lime dish (MX), pickled onions, kimchi or a chutney ramekin. It's never a generic ramekin when a local one exists.
 - It appears in the **meal summary as "added for composition"**, and the operator can swap it for another accent from the same list. It will show up in the final image, so the operator should see it.
 
@@ -119,7 +119,7 @@ After step 3, the composer counts the table items (main + beverage + sides + con
     { "id": "SIDE_1",  "name": "frijoles charros", "role": "side",  "vessel": "bowl",       "pairsWith": "MAIN" },
     { "id": "SAUCE_1", "name": "salsa verde",      "role": "sauce", "vessel": "small-bowl", "pairsWith": "MAIN" }
   ],
-  "props":  [ { "role": "napkin" }, { "role": "cutlery", "targets": "MAIN" } ],
+  "props":  [ { "role": "napkin-set", "napkinShape": "rect", "cutlery": ["fork", "knife"], "targets": "MAIN" } ],
   "options": { "max": 3 }
 }
 ```
