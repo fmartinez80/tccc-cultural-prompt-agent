@@ -4,7 +4,7 @@
 // in the proxy PNG to its text.
 
 import { z } from "zod";
-import { BELL_GLASS, SURFACES, VESSELS, skuProxy, vesselPhrase } from "./registry";
+import { BELL_GLASS, SURFACES, VESSELS, VESSEL_SHORT, skuProxy, vesselPhrase } from "./registry";
 import { angleById, angleSentence, lookById, lookSentence, selectLighting, skuLightSentence } from "./rules";
 import type { Blueprint, SceneSpec, Vessel } from "./types";
 
@@ -74,7 +74,7 @@ function cm(m: number): number {
 function labelVessel(spec: SceneSpec, proxy: string, role: string): { vessel: string; fixedText?: string } {
   if (proxy.startsWith("sku:")) {
     const h = cm(skuProxy(spec.sku).height);
-    const cold = spec.sku.package === "can" ? "cold, with fine condensation on the can" : "cold, with fine condensation on the glass";
+    const cold = `cold, with fine condensation on the ${spec.sku.package === "can" ? "can" : spec.sku.package === "pet-bottle" ? "bottle" : "glass"}`;
     // Describe the shape, not the catalog name: package words in the prompt get printed on the label.
     const shape =
       spec.sku.package === "can"
@@ -137,18 +137,22 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
-    exclusions: `Only the ${bp.primitives.length} objects described above are on the table. No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either; no hands or people at the table.`,
+    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either; no hands or people at the table.`,
   };
 }
 
 /** The image model draws objects larger than their proxy shapes, so the target scale is also stated in words. */
 function scaleSentence(bp: Blueprint): string {
   const box = (id: string) => bp.primitives.find((p) => p.id === id)?.screen_bbox;
-  const main = box("MAIN");
+  // The hero is the shared vessel when there is one (a paella pan), else the plate.
+  const heroId = bp.primitives.some((p) => p.id === "SHARED_HERO") ? "SHARED_HERO" : "MAIN";
+  const main = box(heroId);
   const sku = box("SKU");
   if (!main || !sku) return "";
+  const hero = bp.primitives.find((p) => p.id === heroId)!;
+  const heroNoun = heroId === "MAIN" ? "The plate" : `The shared ${hero.proxy in VESSEL_SHORT ? VESSEL_SHORT[hero.proxy as Vessel] : "dish"}`;
   const pct = (v: number) => Math.round(v * 100);
-  return `Keep the view wide and airy: the whole place setting with open table around it. The plate spans only about ${pct(main.x1 - main.x0)}% of the frame width and the ${bp.primitives.find((p) => p.id === "SKU")!.proxy.includes("can") ? "can" : "bottle"} stands about ${pct(sku.y1 - sku.y0)}% of the frame height; do not enlarge the food or the product.`;
+  return `Keep the view wide and airy: the whole table setting with open table around it. ${heroNoun} spans only about ${pct(main.x1 - main.x0)}% of the frame width and the ${bp.primitives.find((p) => p.id === "SKU")!.proxy.includes("can") ? "can" : "bottle"} stands about ${pct(sku.y1 - sku.y0)}% of the frame height; do not enlarge the food or the product.`;
 }
 
 function labelText(story: Story, l: StoryFacts["labels"][number]): string {

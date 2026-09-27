@@ -9,6 +9,7 @@ export const Occasion = z.enum([
   "breakfast",
   "brunch",
   "weekday-lunch",
+  "weekend-lunch",
   "afternoon-snack",
   "dinner",
   "late-night",
@@ -32,6 +33,7 @@ export const Vessel = z.enum([
   "casserole",
   "platter",
   "sauce-boat",
+  "paellera",
 ]);
 export type Vessel = z.infer<typeof Vessel>;
 

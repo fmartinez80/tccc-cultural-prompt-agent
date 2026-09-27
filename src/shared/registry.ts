@@ -32,6 +32,7 @@ export const VESSELS: Record<Vessel, ProxyDef> = {
   casserole: { kind: "box", width: 0.27, depth: 0.37, height: 0.07 },
   platter: { kind: "box", width: 0.26, depth: 0.37, height: 0.03 },
   "sauce-boat": { kind: "box", width: 0.15, depth: 0.07, height: 0.06 },
+  paellera: { kind: "cylinder", radius: 0.19, height: 0.05 }, // paella pan for ~4, 36-40 cm at the mouth, 4-6 cm rim (spain.md)
 };
 
 /** How each vessel is named in the image prompt. The size is added from VESSELS so text and proxy agree. */
@@ -50,6 +51,26 @@ export const VESSEL_NOUN: Record<Vessel, string> = {
   casserole: "a rectangular casserole dish",
   platter: "an oval serving platter",
   "sauce-boat": "a sauce boat",
+  paellera: "a shallow carbon-steel paella pan with two looped handles",
+};
+
+/** Short name for the vessel in running text ("the shared paella pan"). */
+export const VESSEL_SHORT: Record<Vessel, string> = {
+  plate: "plate",
+  "side-plate": "side plate",
+  bowl: "bowl",
+  "small-bowl": "bowl",
+  "large-bowl": "serving bowl",
+  ramekin: "ramekin",
+  board: "board",
+  basket: "basket",
+  "foil-wrap": "foil wrap",
+  tray: "tray",
+  leaf: "leaf",
+  casserole: "casserole dish",
+  platter: "platter",
+  "sauce-boat": "sauce boat",
+  paellera: "paella pan",
 };
 
 /** "a round entree plate about 27 cm across" */

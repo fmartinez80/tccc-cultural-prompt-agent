@@ -9,6 +9,7 @@
       "breakfast": "morning",
       "brunch": "morning",
       "weekday-lunch": "midday",
+      "weekend-lunch": "midday",
       "afternoon-snack": "golden-hour",
       "dinner": "evening",
       "late-night": "evening"

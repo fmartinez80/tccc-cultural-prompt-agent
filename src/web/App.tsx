@@ -27,6 +27,7 @@ const OCCASION_LABELS: Record<string, string> = {
   breakfast: "Breakfast",
   brunch: "Brunch",
   "weekday-lunch": "Weekday lunch",
+  "weekend-lunch": "Weekend / Sunday lunch",
   "afternoon-snack": "Afternoon snack",
   dinner: "Dinner",
   "late-night": "Late night",
