@@ -89,7 +89,14 @@ function objectMesh(o, reg) {
   let top = 0;
   if (v.kind === 'bottle') g.add(new THREE.Mesh(lathe(CONTOUR, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.18 })));
   else if (v.kind === 'glass') g.add(new THREE.Mesh(lathe(GLASS, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.12 })));
-  else if (v.kind === 'tray') {
+  else if (v.kind === 'plateTray') {
+    const tray = new THREE.Mesh(new THREE.BoxGeometry(v.w, 0.015, v.d), std(0x8c8c8e, { metalness: 0.5, roughness: 0.4 }));
+    tray.position.y = 0.0075;
+    const plate = new THREE.Mesh(roundPlate(v.plateDiameter / 2, 0.025), std(COLORS.vessel));
+    plate.position.y = 0.015;
+    g.add(tray, plate);
+    top = 0.015 + 0.025 * 0.45;
+  } else if (v.kind === 'tray') {
     // metal sheet tray lined with butcher paper
     const pan = new THREE.Mesh(new THREE.BoxGeometry(v.w, v.h, v.d), std(0x8c8c8e, { metalness: 0.6, roughness: 0.35 }));
     pan.position.y = v.h / 2;

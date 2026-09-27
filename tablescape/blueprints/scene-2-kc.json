@@ -23,7 +23,7 @@
         "id": "pulled_pork_sandwich",
         "diner_index": 1,
         "component_role": "MAIN_ENTREE",
-        "base_layer_type": "butcher_paper",
+        "base_layer_type": "standard_plate",
         "clock_position": "6:00_CENTER",
         "shape_type": "flattened_cylinder",
         "center_coordinates": {
@@ -92,7 +92,7 @@
         "id": "pickle_ramekin",
         "diner_index": 1,
         "component_role": "CONDIMENT_SAUCE",
-        "base_layer_type": "butcher_paper",
+        "base_layer_type": "standard_plate",
         "clock_position": "ON_BOARD",
         "shape_type": "cylinder",
         "center_coordinates": {

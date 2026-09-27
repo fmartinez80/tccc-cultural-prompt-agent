@@ -11,7 +11,8 @@ const CLOCK = {
   '4:00-5:00_BOTTOM_RIGHT': 4.5,
   '7:00-8:00_BOTTOM_LEFT': 7.5,
 };
-const BASE = { standard_plate: 'plate-round', wooden_board: 'board-wood', butcher_paper: 'paper-butcher' };
+// Each entree sits on its ideal vessel, an entree plate unless the blueprint says otherwise.
+const BASE = { standard_plate: 'plate-round', plate_on_tray: 'plate-on-tray', basket: 'basket-entree', wooden_board: 'board-wood', butcher_paper: 'paper-butcher' };
 const ROLE = { SIDE_DISH: 'side', CONDIMENT_SAUCE: 'sauce', LIFESTYLE_PROP: 'prop' };
 const REQUIRED = ['canvas_metadata', 'horizon_clamp', 'table_dining_mode', 'primitives'];
 
@@ -35,6 +36,7 @@ export function blueprintToSpec(bp, { id, brief, market, setting, table = 'table
   const drinks = bp.primitives.filter((p) => p.component_role === 'HERO_BEVERAGE');
   if (mains.length !== 1 || drinks.length !== 1) throw new Error('SINGLE_DINER needs exactly one MAIN_ENTREE and one HERO_BEVERAGE');
   const main = mains[0], drink = drinks[0];
+  main.base_layer_type ??= 'standard_plate';
   if (!(main.base_layer_type in BASE)) throw new Error(`MAIN_ENTREE base_layer_type ${main.base_layer_type} is not built yet`);
 
   const [aw, ah] = bp.canvas_metadata.aspect_ratio.split(':').map(Number);

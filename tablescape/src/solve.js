@@ -3,6 +3,8 @@ import { makeCamera, project } from './camera.js';
 
 const rad = (d) => (d * Math.PI) / 180;
 const LAYER = { DISH: 1, SKU: 1, SIDE: 2, SAUCE: 3, ACCENT: 3, PROP: 3 };
+// Proxy labels drawn in the template: what the item is for prompting (Fernando, 2026-09-27).
+const LABEL = { DISH: 'ENTREE', SKU: 'SKU', SIDE: 'SIDE DISH', SAUCE: 'CONDIMENT', ACCENT: 'CONDIMENT', PROP: 'PROP' };
 
 // Per-spec overrides of the shared rules (aspect ratio, table-horizon limit).
 export function rulesFor(spec, rules) {
@@ -17,7 +19,7 @@ export function rulesFor(spec, rules) {
 
 export function enrich(spec, rules) {
   const items = [
-    { role: 'DISH', text: spec.entree.text, vessel: spec.entree.base || spec.entree.vessel, food: spec.entree.food, foodYaw: spec.entree.foodYaw },
+    { role: 'DISH', text: spec.entree.text, vessel: spec.entree.base || spec.entree.vessel || 'plate-round', food: spec.entree.food, foodYaw: spec.entree.foodYaw },
     ...spec.accompaniments.map((a) => ({ role: a.role.toUpperCase(), text: a.text, vessel: a.vessel, food: a.food, pairedWith: a.pairedWith, clock: a.clock, onBase: a.onBase, injected: a.injected })),
     ...spec.props.map((p) => ({ role: 'PROP', text: p.text, vessel: p.registry, clock: p.clock, yawToDish: p.yawToDish })),
     { role: 'SKU', text: spec.sku.text, vessel: spec.sku.registry, clock: spec.sku.clock },
@@ -31,11 +33,12 @@ export function enrich(spec, rules) {
     items.push(injected);
   }
   const counts = {};
-  for (const it of items) counts[it.role] = (counts[it.role] || 0) + 1;
+  for (const it of items) counts[LABEL[it.role]] = (counts[LABEL[it.role]] || 0) + 1;
   const seen = {};
   for (const it of items) {
-    seen[it.role] = (seen[it.role] || 0) + 1;
-    it.label = counts[it.role] > 1 ? `${it.role} ${seen[it.role]}` : it.role;
+    const l = LABEL[it.role];
+    seen[l] = (seen[l] || 0) + 1;
+    it.label = counts[l] > 1 ? `${l} ${seen[l]}` : l;
     it.layer = LAYER[it.role];
   }
   return { items, nBrief: n, nFinal: items.length, injected: !!injected, auto: spec.oddEvenAuto !== false };
@@ -173,18 +176,19 @@ export function place(enriched, spec, reg, rules, archetypeId) {
   const onBase = enriched.items.filter((i) => i.onBase).map(mk);
   if (onBase.length) {
     const base = reg[dish.vessel];
-    let edge = base.w / 2 - 0.02;
+    const baseW = base.w ?? base.diameter;
+    let edge = baseW / 2 - 0.02;
     const c = Math.cos(rad(dish.yaw)), sn = Math.sin(rad(dish.yaw));
     for (const o of onBase) {
       const lx = edge - o.r;
       edge -= 2 * o.r + 0.02;
       o.x = dish.x + lx * c;
       o.z = dish.z - lx * sn;
-      o.y = base.h;
+      o.y = base.kind === 'plate' ? base.h * 0.45 : base.h; // a plate's well sits below its rim
       o.poly = footprint(o);
       placed.push(o);
     }
-    dish.foodOffsetX = -(base.w / 2 - 0.02 - edge) / 2;
+    dish.foodOffsetX = -(baseW / 2 - 0.02 - edge) / 2;
   }
 
   // Put `o` at the given edge gap from `anchor`, along angle a.
@@ -360,11 +364,11 @@ export function checks(layout, camera, enriched, rules) {
     const cross = (p, q, [x, z]) => (q[0] - p[0]) * (z - p[1]) - (q[1] - p[1]) * (x - p[0]);
     const signs = o.poly.flatMap((pt) => dish.poly.map((p, i) => Math.sign(Math.round(cross(p, dish.poly[(i + 1) % dish.poly.length], pt) * 1e6))));
     const inside = signs.every((v) => v >= 0) || signs.every((v) => v <= 0);
-    add(`on-base:${o.label}`, inside, inside ? 'sits on the dish base layer' : 'hangs off the base layer');
+    add(`on-base:${o.label}`, inside, inside ? 'sits on the entree vessel' : 'hangs off the entree vessel');
   }
   for (const o of objs.filter((o) => o.pairedWith && !o.onBase)) {
     const g = gap(o.poly, dish.poly);
-    add(`condiment-proximity:${o.label}`, g >= rules.condimentGapM.min - 1e-3 && g <= rules.condimentGapM.max + 1e-3, `${(g / 0.0254).toFixed(1)} in from DISH (1-3 in)`);
+    add(`condiment-proximity:${o.label}`, g >= rules.condimentGapM.min - 1e-3 && g <= rules.condimentGapM.max + 1e-3, `${(g / 0.0254).toFixed(1)} in from the entree (1-3 in)`);
   }
   const heroInCenterThird = [sb, db].every((b) => b.cx >= 1 / 3 && b.cx <= 2 / 3);
   add('kb-hero-center-third', heroInCenterThird, `DISH x ${db.cx.toFixed(2)}, SKU x ${sb.cx.toFixed(2)} (KB wants both in 0.33-0.67)`, false);

@@ -123,11 +123,14 @@
             "type": "string",
             "enum": [
               "standard_plate",
+              "plate_on_tray",
+              "basket",
               "wooden_board",
               "butcher_paper",
               "bare_table"
             ],
-            "default": "standard_plate"
+            "default": "standard_plate",
+            "description": "The entree's ideal vessel; standard_plate unless the dish calls for something else. plate_on_tray and basket are additions for those cases."
           },
           "clock_position": {
             "type": "string",
