@@ -1085,6 +1085,65 @@ on-premise glass bottles (same §), and the vessel table above.*
   [CONFIDENCE: HIGH]
 - **Staging**: the pan on a trivet or board at the table's centre, spoons
   laid in it, a sector eaten away to show the socarrat.
+- **Composition & proportions (§4.7) — paella valenciana, a 4-person pan
+  (~38–40 cm).** Added 2026-09-27 after a test render drew the plated
+  portion as large chicken pieces and giant beans.
+  - **What dominates**: **rice is the dish.** Roughly 60–70% of the
+    visible surface is rice; meat roughly 20–25%; green beans and
+    garrofó together roughly 10–15%. The meat and beans are scattered
+    accents sitting in the rice, never a pile on top of it. [EDITORIAL
+    synthesis from the recipe sources below — shares are not measured]
+  - **Component table**:
+
+    | Component | Real size | Count (pan / one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice (bomba or similar round grain) | Raw grain ~5.2–5.8 mm long, ~2.2–2.5 mm wide; roughly doubles when cooked — each cooked grain well under 1 cm, plump, short and round-ended [HIGH for raw size — Gallina Blanca, Cultura Valenciana] | Thousands / a thin layer | Separate, loose grains, saffron gold to amber, a light oil gloss, drier and matte towards the rim | A thin even layer across the whole pan, **~1 cm deep (a finger's thickness)**, flat, never mounded [HIGH for thin layer, not stirred — Gastraval, Tú te lo guisas] |
+    | Chicken | Bone-in pieces ~4–6 cm, "not very large", no loose small bones [MEDIUM — recipe sources agree pieces are moderate and cleaned; exact cm is an inference] | ~8–10 / 2 | Skin browned golden to deep amber, matte-crisp in patches | **Half-sunk in the rice**, top third showing |
+    | Rabbit | Smaller bone-in pieces ~3–5 cm [LOW-MEDIUM] | ~6–8 / 1–2 | Paler, browned edges, lean | Half-sunk, scattered between chicken pieces |
+    | Ferraura (flat green bean) | Cut by hand into lengths of **two to three fingers (~4–6 cm)**, ~1.5–2 cm wide, flat [MEDIUM-HIGH — hola.com, UA blog] | ~20–30 / 5–7 | Olive to dull green (cooked, not bright blanched green), soft, slightly wrinkled | Lying flat on the rice surface, scattered |
+    | Garrofó (large flat white bean) | **~2.5 × 1.5 cm**, flat, not very rounded [MEDIUM — Colono Gourmet, Secofrut] — about a third of the can's diameter; **smaller than a chicken piece, not bean-stew sized** | ~25–40 / 5–8 | Ivory to pale cream, matte, skin slightly wrinkled | Scattered, half-sunk, a few on top |
+    | Tomato and pimentón | Grated, cooked into the base — **no visible tomato pieces** | — | Tints the rice a warmer amber-orange at the base | Invisible except as colour |
+    | Rosemary (optional, household custom) | One sprig ~10–15 cm | 0–1 / 0 | Dark green, needles intact | Laid on top at the end, then usually removed before serving [MEDIUM — custom varies by household] |
+    | Snails (optional, valid variant) | Shells ~2–3 cm | 0–20 / 0–5 | Brown-striped small shells | Scattered on top |
+
+  - **Arrangement**: meat and beans evenly scattered across the whole pan,
+    not grouped, not radial (radial prawns belong to paella de marisco).
+    Rice is visible between every piece — no piece touches the next over
+    more than a few centimetres. [EDITORIAL]
+  - **Vessel fill and depth**: the rice reaches roughly a third to half of
+    the 4–6 cm rim; the whole base is covered edge to edge; the pan rim and
+    both looped handles clearly visible. [MEDIUM]
+  - **Served portion vs. whole dish**: **in Valencia the family eats
+    straight from the pan** with spoons, each person from their own
+    wedge-shaped sector, no plates. [HIGH — Gastraval, Restaurante Casa
+    Ángel, Nurimar] Outside Valencia, or for a single-diner scene, one
+    portion on a flat plate is **a thin, low layer of rice covering most
+    of the plate, with about two small meat pieces, five or six green bean
+    pieces, a handful of garrofó, and one or two shards of socarrat** — not
+    a mound, not a pile of meat. [EDITORIAL portion synthesis]
+  - **State cues**: no liquid left on top; the surface dry and matte at the
+    edges, faintly glossy in the centre; socarrat darkening the base and
+    rim; a light wisp of steam if just off the fire. [HIGH for dry,
+    socarrat-finished rice]
+  - **Absent on purpose**: seafood, chorizo, peas, red pepper strips,
+    onion, hard-boiled egg, parsley garnish; **lemon wedges** (a non-
+    Valencian habit — lemon was traditionally for cleaning hands after
+    cooking over wood) [HIGH that lemon on the rice is not Valencian
+    tradition — Gastraval, Directo al Paladar]; any liquid broth pooling.
+  - **Prompt-ready line**: "A wide, shallow, two-handled steel paella pan
+    covered edge to edge in a thin, flat layer of separate saffron-gold
+    rice grains about a finger deep, dry on top with a dark caramelised
+    crust at the rim. Scattered sparsely through the rice and half-sunk in
+    it: a few small browned bone-in chicken and rabbit pieces, short flat
+    olive-green bean pieces, and flat ivory beans each about a third the
+    width of the can. Mostly rice; the meat and beans are small accents.
+    No seafood, no chorizo, no peas, no lemon."
+  - **Sources**: [Gastraval — paso a paso](https://gastraval.com/como-hacer-una-paella-valenciana-tradicional-paso-a-paso/);
+    [hola.com — paella valenciana de pollo y conejo](https://www.hola.com/cocina/recetas/2013112768369/paella-valenciana-conejo/);
+    [Tú te lo guisas — paella valenciana tradicional](https://tuteloguisas.com/paella-valenciana-tradicional/);
+    [Colono Gourmet — the garrofón](https://colonogourmet.at/en/blogs/elblogdeoche/der-garrofon-wesentliche-zutat-der-valencianischen-paella);
+    [Gallina Blanca — arroces para paella](https://www.gallinablanca.es/reportaje/arroces-indispensables-para-hacer-paella/);
+    [Restaurante Casa Ángel — cómo se come una paella](https://restaurantecasaangel.com/arroces/como-se-come-una-paella/).
 - **Common model failure**: a deep heaped mound of yellow rice; creamy,
   risotto-like texture; peas-and-chorizo "Spanish rice"; a tourist
   "everything" seafood tower; a black non-stick pan with a single handle.

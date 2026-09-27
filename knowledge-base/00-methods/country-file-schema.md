@@ -205,6 +205,47 @@ over that with an under-sourced guess just to have a complete-looking
 option set — offer the well-sourced variants as choices and flag the
 missing baseline as a real gap, the same as any other unconfirmed claim.
 
+### 4.7 Composition & proportions — mandatory on every dish entry
+
+Standing rule, added 2026-09-27 after a Spain paella test: the plated
+portion came out as **large chicken pieces and giant beans**, because the
+entry (and the prompt built from it) listed the ingredients with equal
+weight and gave no piece sizes. An image model draws every ingredient it
+is told about as large and prominent unless told otherwise. Colour, shape
+and texture of the dish as a whole (§4.5) are not enough: each dish entry
+needs a **Composition & proportions** block with the following parts.
+
+1. **What dominates.** One line naming the base that makes up most of the
+   dish and what is only an accent, with a rough share of the visible
+   surface or volume ("rice ~65% of the visible surface; meat ~20%; beans
+   ~15%"). Rough is fine; the order and the gap between the numbers are
+   what matter.
+2. **Component table.** One row per visible component: real-world piece
+   size (cm, plus a comparison to the can or a known object), cut/shape,
+   **count** per vessel and per portion, colour, surface finish, and where
+   it sits (on top, half-submerged, underneath, on the side).
+3. **Arrangement.** How pieces are distributed (evenly scattered, radial,
+   heaped in the centre, in rows) and how much of the base shows between
+   them.
+4. **Vessel fill and depth.** How much of the vessel the food covers, how
+   deep or tall it is, and how much rim shows.
+5. **Served portion vs. whole dish.** When a dish is shared from one
+   vessel, how it is actually served (eaten from the vessel, spooned onto
+   a plate) and what one portion looks like — usually mostly the base,
+   with a few small pieces.
+6. **State cues.** Moisture, oil, steam, crust, doneness at the moment of
+   the photo.
+7. **Absent on purpose.** Ingredients and garnishes that must not appear
+   (and that a model tends to add).
+8. **Prompt-ready line.** A 50–80 word description ordered by visual
+   prominence (base first, accents last), using plain sensory language
+   (§7.5), sizes stated relative to the hero product or another object in
+   the frame.
+
+Tag each size, count and share with a confidence like any other claim;
+counts and shares are often editorial synthesis from recipes — say so.
+`europe/spain.md`'s paella entry is the worked example.
+
 ### 4.4 Serving-format variation
 
 Independent of region: some dishes exist as genuine siblings with completely
@@ -295,6 +336,7 @@ rather than a single entry that tries to describe both.
     logged here so every file built from this point forward includes it,
     and so a future audit pass can go back and add it where missing,
     rather than treating this as solved just because it's now documented.
+- **Composition & proportions** (§4.7) — mandatory
 - Common confusion (with neighboring countries/cultures specifically)
 - Confidence (§6)
 - Sources (§6)

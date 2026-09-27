@@ -3167,3 +3167,23 @@ defaults); `coca-cola-guidelines.md` (its §4.4 register logic is generic,
 not regional, and the file has a separate overhaul pending — flagged
 there for that pass). Scale-anchor figures (330 mL can etc.) are untouched:
 they apply whenever the brief picks that format.
+
+## Standing rule: Composition & proportions block on every dish entry, 2026-09-27
+
+**Trigger**: Fernando reported that testing Spain showed too little detail
+when briefing a paella, and asked that KB files carry extremely detailed,
+nuanced information on each meal's textures and ingredients. The earlier
+paella test (branch `claude/upbeat-curie-2k9ion`, commit b643fcb) had
+already shown the concrete failure: with ingredients listed at equal
+weight, the plated portion rendered as large chicken pieces and giant
+beans.
+
+**Decision**: `country-file-schema.md` §4.7 (new) makes a Composition &
+proportions block mandatory on every dish entry: what dominates (rough
+surface/volume shares), a component table (real size, count per vessel and
+per portion, look, placement), arrangement, vessel fill, served portion vs
+whole dish, state cues, things absent on purpose, and a prompt-ready line
+ordered by prominence. Spain's paella entry is the worked example.
+
+**Not yet done**: back-filling the block into existing entries across the
+other files — rollout order put to Fernando.
