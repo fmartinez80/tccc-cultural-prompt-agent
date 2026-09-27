@@ -77,7 +77,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 | `props[]` (napkin set: napkin shape + cutlery on top, with `targets`) | one Layer 3 prop, directional vectors |
 
 - **Closed vocabularies** for `vessel`, `role`, `package`, `massClass`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the prompt.
-- **Stable role labels** (`SKU`, `MAIN`, `SIDE_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_SET_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest. **The image model relies on this match:** it reads the label on each shape to know which prompt segment applies to it (section 8a).
+- **Stable role labels** (`SKU`, `GLASS`, `MAIN`, `SIDE_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_SET_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest. **The image model relies on this match:** it reads the label on each shape to know which prompt segment applies to it (section 8a).
 - `camera.{lens, angle}` are dropdown ids from [`camera-options.json`](./camera-options.json) (section 4a).
 
 ### 1b. Output: `blueprint.json` (Part A schema + extensions)
@@ -113,11 +113,12 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 - **Hard constraint (2 people):** each SKU is on its own diner's right in table coordinates, measured from that diner's seat. Depending on where they sit, that can be in front of, behind or screen-left of their plate (5.6).
 - There's no per-country override.
 - **The SKU is the only drink shown**, in every scene and for every diner (v1). No other beverages, glasses of water or competitor products.
+- **Every SKU comes with a branded bell-shaped Coca-Cola glass**, poured from it (label `GLASS`). The glass sits **beside the bottle, on the MAIN side**, slightly forward of it. It's close to the meal, in the center third, on the diner's right, and it never covers the bottle's logo box. Both logos face the camera head-on, and the trademark clear zone (H5) and head-on rule (H6) apply to both.
 
 ## 3. Real-scale proxy registry
 
 - Every proxy has real dimensions and a **bottom-center pivot**, so objects sit on the tabletop without guessed spawn heights. The blueprint's shape types map onto the registry: `cylinder` (beverages, glasses), `flattened_cylinder` (plates, bowls, ramekins), `bounding_box` (cutlery, boards, baskets, foil wraps, napkins with a rectangular or triangular footprint).
-- **Beverages:** contour glass 8 / 12 oz, can 12 oz, PET 500 ml, glass with ice. They're built with `LatheGeometry` from real profiles, and each has a **logo box** (the "Coca" script region) for the trademark clear zone.
+- **Beverages:** contour glass 8 / 12 oz, can 12 oz, PET 500 ml, and the **branded bell-shaped Coca-Cola glass** (lathe profile from the real glass; dimensions to confirm, roughly 15–16 cm tall with a ~9 cm rim), poured with cola, with or without ice. They're built with `LatheGeometry` from real profiles, and each has a **logo box** (the "Coca" script region) for the trademark clear zone.
 - **Plating vessels** cover every option the intake's plating step can offer: plate, bowl, board, basket, foil wrap, tray, leaf, paper-lined basket. A plating with no proxy maps to the nearest class.
 - **Food-mass proxies** per `massClass` (flat, heaped, stacked, wrapped) give the entree its real silhouette height. This matters for occlusion and the tight-crop framing.
 - **Props:** ramekins, sauce boats, lime dish, and the **napkin set**: a folded napkin (rectangle or triangle) with cutlery resting on top, treated as one item.
@@ -170,19 +171,21 @@ y = 0.0 └───────────────────────
   - MAIN and the SKU land near their phi anchors
   - **meal + SKU only (no Layer 2): crop in tighter.** The coverage target rises, so the co-heroes fill the frame, while the horizon clamp still holds.
 - **Aspect ratio: always 16:9.** Every template and proxy is composed and rendered at 16:9. ShRED ratios are **cropped down in post**, so there's one template per layout, not one per ratio. The blueprint schema's ratio list doesn't include 16:9, so `canvas_metadata.aspect_ratio` gets `"16:9"` added as an extension.
-- **Crop protection: hero meal + SKU in the vertical center third.** The goal: **every ShRED crop contains at least one complete logo'd element (the bottle, or a branded glass if the scene has one) plus part of the meal.** To get that, the solver keeps the hero MAIN and SKU in the center third of the 16:9 frame (x 0.333–0.667 of the width). This fits the rest of the rules: the phi anchors (MAIN at 0.382, SKU at 0.618) sit inside the center third, and sides and accents fill the outer thirds.
+- **Crop protection: hero meal + SKU + glass in the vertical center third.** The goal: **every crop contains at least one complete logo'd element (the bottle or the branded glass) plus part of the meal.** To get that, the solver keeps the hero MAIN, SKU and GLASS in the center third of the 16:9 frame (x 0.333–0.667 of the width). This fits the rest of the rules: the phi anchors (MAIN at 0.382, SKU at 0.618) sit inside the center third, and sides and accents fill the outer thirds.
 
-  What each crop keeps of a 16:9 frame, and why the goal holds:
+  **Priority crops** (v1). Every one is narrower than 16:9, so each keeps the **full height** and a slice of the width. The horizon rule survives every crop, and the post crop window can slide left or right:
 
-  | ShRED crop | keeps | result with hero meal + SKU in the center third |
+  | crop | keeps of the 16:9 width | result with the hero group in the center third |
   |---|---|---|
-  | 3:2 | 84 % of the width, full height | the whole center third, plus most of the outer thirds |
-  | 1:1 | 56 % of the width, full height | the whole center third, plus part of each outer third |
-  | 2:3 | 37.5 % of the width, full height | the whole center third (33 %) still fits: full bottle and full hero meal |
-  | 1:3 | 19 % of the width, full height | **the tightest case.** A slice around the bottle holds the full bottle plus the near edge of the meal, *if* the bottle and meal are close enough (rule H14b) |
-  | 3:1 | 59 % of the height, full width | the full width is kept. The band must hold the full bottle plus the top of the meal (rule H14c) |
+  | **16:9** (master) | 100 % | everything |
+  | 3:2 | 84 % | the whole center third, plus most of the outer thirds |
+  | 5:4 | 70 % | the whole center third, plus part of each outer third |
+  | 1:1 | 56 % | the whole center third, plus part of each outer third |
+  | 4:5 | 45 % | the whole center third, plus a little either side |
+  | 2:3 | 37.5 % | the whole center third just fits: full meal, bottle and glass |
+  | **9:16** | **31.6 %** | **the tightest crop, slightly narrower than the center third (33.3 %).** Sliding the window to the SKU side always keeps the full bottle and glass plus most of the meal. If the hero group spans ≤ 31 % of the width (soft target `heroSpan`), 9:16 holds all of it |
 
-  Crops that keep the full height (3:2, 1:1, 2:3, 1:3) don't move the horizon, so the 50 % rule survives them. Only 3:1 changes it.
+  Other ShRED ratios (1:3, 3:1) are deprioritized for now.
 - **ShRED, first pass:** we follow the primary ShRED cropping preferences in post, which already take the copy areas into account. There's no copy block or text placement in v1: the focus is image quality.
 
 ### 4c. Lighting: derived from the scene, never picked
@@ -241,7 +244,7 @@ Depth bands (from the rules):
 
 ### 5.2 Pre-step: layers and the odd/even engine
 1. **Classify** every item into a layer. The agent does this with the closed role vocabulary:
-   - **Layer 1, Primary Co-Heroes:** MAIN + SKU.
+   - **Layer 1, Primary Co-Heroes:** MAIN + SKU (bottle) + GLASS. The glass is the beverage co-hero's partner.
    - **Layer 2, Secondary:** sides, starches, salads, sharing bowls, bread baskets.
    - **Layer 3, Tertiary:** ramekins, sauces, garnishes, and the napkin set (napkin + the cutlery on top of it).
 2. **Count N** = MAIN + SKU + Layer 2 + ramekins / sauces / garnishes + napkin set. **Napkin and cutlery count as one item**, since the cutlery nearly always rests on the napkin.
@@ -265,9 +268,7 @@ Depth bands (from the rules):
 | H11 | Physical | footprints don't overlap (gap ≥ 1.5 cm, except condiments meant to sit on their dish); everything on the table |
 | H12 | Co-heroes visible | MAIN ≤ 15 % occluded and not cropped at the sides |
 | H13 | Shadows | no cast shadow crosses the logo box; the SKU's shadow doesn't fall on MAIN; shadow direction matches the lighting preset (4c). Checked per render, because lighting isn't part of the layout |
-| H14 | Center third | the SKU's full silhouette, including any branded glass, sits inside the vertical center third of the frame (x 0.333–0.667). MAIN's visual center is inside it too |
-| H14b | 1:3 slice | on screen, the gap between the SKU's edge and the nearest edge of MAIN is ≤ 8 % of frame width. Then a 1:3 slice (19 %) can hold the full bottle (~5–7 %) plus a sliver of the meal |
-| H14c | 3:1 band | the vertical span from the bottle's top down to the top of the meal is ≤ 55 % of frame height, so a 3:1 band (59 %) holds the full bottle plus part of the meal |
+| H14 | Center third | the full silhouettes of the SKU and the GLASS sit inside the vertical center third of the frame (x 0.333–0.667), and MAIN's visual center is inside it too. This guarantees the crop goal for every priority crop, including 9:16 |
 
 ### 5.4 Soft score (screen space)
 Each primitive is projected through the camera: analytic silhouettes for the solver, and the ID pass for the final check. The score terms:
@@ -282,6 +283,7 @@ Each primitive is projected through the camera: analytic silhouettes for the sol
 | `napkinPlacement` | the napkin set sits in a natural place-setting position (beside MAIN, typically front-left), square or at a slight angle to the table edge |
 | `leadingLines` | the cutlery on the napkin leads the eye toward MAIN or the SKU |
 | `breathingRoom` | even negative space, no tangents between objects or with the frame edge |
+| `heroSpan` | the hero group (MAIN + GLASS + SKU) spans ≤ 31 % of frame width, so even a 9:16 crop holds all of it |
 | `horizonUse` | the table rear edge is close to 0.50, using the table zone fully |
 
 `score = Σ wᵢ·termᵢ`, with weights in `composition.json`.
@@ -347,7 +349,7 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
 - **Each SKU is on its own diner's right, toward the table center.** For the left diner that's in front of their plate (screen-right of it). For the right diner it's behind their plate (screen-left of it). The two bottles form a **diagonal through the frame center**, one forward and one back, so they never block each other and read as a leading line.
 - Napkin sets are on each diner's left: behind the left plate, in front of the right plate.
 - **Rule adaptations for this arrangement:** MAINs sit at the front/mid boundary instead of the immediate foreground, and SKU_L sits forward of the usual 0.2–0.4 SKU band. The horizon, stacking, clear-zone and shadow rules all still apply.
-- **Crop protection:** the two SKUs sit near the center, so both stay inside the center third (H14). Each MAIN's inner edge reaches into it, which gives every crop a full bottle plus part of a meal. The outer edges of the plates may be trimmed in 1:1 and narrower crops.
+- **Crop protection:** the two SKUs and their glasses sit near the center, so they stay inside the center third (H14). Each MAIN's inner edge reaches into it, which gives every crop a full logo'd element plus part of a meal. The outer edges of the plates may be trimmed in 1:1 and narrower crops.
 
 **For both arrangements:**
 - Every diner has **the same place setting**, and the SKU is every diner's drink.
@@ -500,7 +502,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 
 | Source rule | Implemented as | Where |
 |---|---|---|
-| ~30° diner's-eye camera; no overhead or hyper-low | 30° is the default angle; other angles offered via the dropdown (placeholders); 0° and 90° excluded | 4a (open question 9) |
+| ~30° diner's-eye camera; no overhead or hyper-low | 30° is the default angle; other angles offered via the dropdown (placeholders); 0° and 90° excluded | 4a (open question 10) |
 | Table rear edge ≤ Y 0.50 | **H1** + auto-fit | 4b, 5.3 |
 | All table items in the lower 50 % | **H2**: bases and low items; **team decision:** the bottle may rise into the upper half | 5.3 |
 | Upper 50 % for bokeh + ShRED copy | environment is prompt-only; **team decision:** follow ShRED crops, no text placement in v1 | 4b, 8 |
@@ -517,7 +519,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 | Clockwise seam offset on bottles / cans | **team decision: dropped.** Bottles are shot head-on (**H6**) | 5.3 |
 | Trademark clear zone; nothing overlaps the logo box | **H5** | 5.3 |
 | "Coca" fully visible, in focus, slanting upward, even if tightly cropped | **H5** (in frame and uncovered); focus and slant are prompt-only | 5.3, 8 |
-| f/4–f/5.6 depth of field | set per lens option (placeholders); every fragment names the entree and bottle as sharp | 4a (open question 9) |
+| f/4–f/5.6 depth of field | set per lens option (placeholders); every fragment names the entree and bottle as sharp | 4a (open question 10) |
 | ≤ 2.5 faces in the background | prompt manifest + post-gen check | 8, 9 |
 | SKU on the diner's right (our rule) | **H4** | 2a |
 | Lighting from the scene; glow through the SKU; bottle shadow off the entree (our rule) | lighting preset + key light behind-left + **H13** | 4c |
@@ -525,7 +527,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 ## 14. Testing and quality
 
 - **Golden tests:** fixture spec → options snapshot (archetypes, blueprints, scores) → PNG diff in CI.
-- **Rule tests:** one unit test per hard rule, H1–H14. Every option from every fixture is asserted to pass all of them. A **crop test** cuts every ShRED ratio from the render (sliding the 1:3 and 3:1 windows) and asserts at least one crop position holds a complete logo'd element plus part of the meal.
+- **Rule tests:** one unit test per hard rule, H1–H14. Every option from every fixture is asserted to pass all of them. A **crop test** cuts every priority crop (3:2, 5:4, 1:1, 4:5, 2:3, 9:16) from the 16:9 render, sliding the window, and asserts at least one crop position holds a complete logo'd element plus part of the meal.
 - **Odd/even tests:** N = 2, 4, 6 inputs always gain exactly one accent. Odd inputs never do.
 - **Diversity tests:** options from one spec always pass the distinctness check. Small scenes return fewer rather than near-duplicates.
 - **Metrics:** template hit rate, pick distribution per archetype, visual-mass error, and post-gen SKU IoU.
@@ -540,7 +542,9 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 - **Napkin curves:** dropped. Napkins are **rectangular or triangular** (folded).
 - **ShRED:** follow the primary ShRED cropping preferences, which already allow for copy areas. **No text or copy placement in v1**; the focus is image quality.
 - **Aspect ratio:** every template renders at **16:9**; ShRED ratios are cropped in post (4b, H14).
-- **Crop protection:** hero meal + SKU stay in the vertical center third, so every crop holds at least one complete logo'd element plus part of the meal (4b, H14–H14c).
+- **Crop protection:** hero meal + SKU + glass stay in the vertical center third, so every priority crop holds at least one complete logo'd element plus part of the meal (4b, H14).
+- **Priority crops:** 16:9 (master), 1:1, 4:5, 2:3, 3:2, 5:4, 9:16.
+- **Glass:** every SKU comes with a branded bell-shaped Coca-Cola glass (2a).
 - **On the go:** always on a surface (park table, bench, food-truck counter…), never in a hand (5.6).
 - **Drinks:** the SKU is the only drink, for every diner. Every diner has the same place setting (5.6).
 - **Knowledge scope:** OU owns the rules; cultural knowledge is per country (9).
@@ -554,21 +558,22 @@ Composition:
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
 4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
-5. **Branded glass:** your crop goal mentions "a bottle + a glass". Should the place setting include a branded Coca-Cola glass poured from the SKU? That adds a second logo'd element: the rule already counts it, but it needs a registry proxy, a label (`GLASS`) and a place in the layout. It would sit beside the bottle in the center third.
+5. **Glass in every scene?** Proposed: the bell glass is part of every place setting at home and at restaurants. For on-the-go (park table, bench, food-truck counter), is a glass still realistic, or bottle only?
+6. **Does the glass count toward odd/even?** Proposed: yes, it's a separate object. So main + bottle + glass = 3 is already odd, and simple scenes no longer need an added accent.
 
 Pipeline:
 
-6. **Image workflow inputs:** besides the labeled proxy, does the workflow accept depth / segmentation masks?
-7. **Label format:** does the workflow expect a specific label or segment syntax (for example `[MAIN]` or `MAIN:`)? `MAIN:` is assumed.
-8. **Where it lives:** a standalone `tablescape/` package in this repo, with `wpp-scene-composer` as an optional debug viewer (recommended)?
+7. **Image workflow inputs:** besides the labeled proxy, does the workflow accept depth / segmentation masks?
+8. **Label format:** does the workflow expect a specific label or segment syntax (for example `[MAIN]` or `MAIN:`)? `MAIN:` is assumed.
+9. **Where it lives:** a standalone `tablescape/` package in this repo, with `wpp-scene-composer` as an optional debug viewer (recommended)?
 
 Camera:
 
-9. **Final values behind the camera presets** (*Close-up hero*, *Table in context*, *Wide scene*; the three angles): focal length, aperture, focus distance, pitch and prompt sentence. Also confirm the composition rules' ~30° and f/4–f/5.6 are **defaults** the presets can override.
+10. **Final values behind the camera presets** (*Close-up hero*, *Table in context*, *Wide scene*; the three angles): focal length, aperture, focus distance, pitch and prompt sentence. Also confirm the composition rules' ~30° and f/4–f/5.6 are **defaults** the presets can override.
 
 Lighting:
 
-10. **Lighting preset review.** `lighting-presets.json` is a draft: light sources, color temperatures, and the prompt wording per scene and time of day.
-11. **Can the operator override the derived lighting?** Proposed: no in v1.
-12. **Time of day:** confirm the occasion → time mapping, and that time of day is asked in the scene step when the occasion doesn't settle it.
-13. **Region and climate:** should lighting vary by region? Proposed: not in v1.
+11. **Lighting preset review.** `lighting-presets.json` is a draft: light sources, color temperatures, and the prompt wording per scene and time of day.
+12. **Can the operator override the derived lighting?** Proposed: no in v1.
+13. **Time of day:** confirm the occasion → time mapping, and that time of day is asked in the scene step when the occasion doesn't settle it.
+14. **Region and climate:** should lighting vary by region? Proposed: not in v1.

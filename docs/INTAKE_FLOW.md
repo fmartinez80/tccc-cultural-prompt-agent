@@ -10,7 +10,7 @@ Intake ─► 1 Meal prep ─► 2 Plating ─► 3 Sides + accompaniments ─�
                                      ▼
                               Image generation
 ```
-Every scene is composed at **16:9**. ShRED ratios are cropped down in post, so the operator never picks an aspect ratio.
+Every scene is composed at **16:9**. Crops are made in post (priority: 1:1, 4:5, 2:3, 3:2, 5:4, 9:16), so the operator never picks an aspect ratio.
 
 ## One pattern for every decision step
 
@@ -98,7 +98,7 @@ The tablescape composer returns up to 3 layout options for the locked elements. 
 
 ## The odd/even rule shown to the operator
 
-After step 3, the composer counts the table items (main + beverage + sides + condiments + the napkin set, where napkin and cutlery count as one). If the count is even, the composition rules add one small accent to make it odd (see `tablescape/PLAN.md` §5.2).
+After step 3, the composer counts the table items (main + bottle + branded glass + sides + condiments + the napkin set, where napkin and cutlery count as one). If the count is even, the composition rules add one small accent to make it odd (see `tablescape/PLAN.md` §5.2).
 - **The accent is chosen by the agent from the country's knowledge base**, for example a lime dish (MX), pickled onions, kimchi or a chutney ramekin. It's never a generic ramekin when a local one exists.
 - It appears in the **meal summary as "added for composition"**, and the operator can swap it for another accent from the same list. It will show up in the final image, so the operator should see it.
 
@@ -112,7 +112,7 @@ After step 3, the composer counts the table items (main + beverage + sides + con
   "occasion": "weekday lunch",
   "scene":  { "setting": "indoor", "venue": "restaurant", "party": "1", "time": "midday", "surface": "table-2top" },
   "camera": { "look": "close-hero", "angle": "diners-eye" },
-  "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle" },
+  "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle", "glass": "bell-glass" },
   "entree": { "name": "tacos al pastor", "prep": "trompo-shaved pork, pineapple, cilantro, onion", "vessel": "plate", "massClass": "flat" },
   "accompaniments": [
     { "id": "SIDE_1",  "name": "frijoles charros", "role": "side",  "vessel": "bowl",       "pairsWith": "MAIN" },

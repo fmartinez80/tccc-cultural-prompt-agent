@@ -11,7 +11,7 @@
         "label": "Close-up hero",
         "help": "Tight on the meal and the bottle, background melts away.",
         "prompt": "[CLOSE_HERO_PROMPT]",
-        "hidden": { "focal_length_mm": 50, "aperture": "TBD", "focus": "main dish and bottle", "focus_distance_m": "auto" },
+        "hidden": { "focal_length_mm": 50, "aperture": "TBD", "focus": "main dish, bottle and glass", "focus_distance_m": "auto" },
         "status": "placeholder"
       },
       {
@@ -19,7 +19,7 @@
         "label": "Table in context",
         "help": "The whole table setting, with a hint of the room or place around it.",
         "prompt": "[TABLE_CONTEXT_PROMPT]",
-        "hidden": { "focal_length_mm": 35, "aperture": "TBD", "focus": "main dish and bottle", "focus_distance_m": "auto" },
+        "hidden": { "focal_length_mm": 35, "aperture": "TBD", "focus": "main dish, bottle and glass", "focus_distance_m": "auto" },
         "status": "placeholder"
       },
       {
@@ -27,7 +27,7 @@
         "label": "Wide scene",
         "help": "The meal inside its environment: street, patio, restaurant.",
         "prompt": "[WIDE_SCENE_PROMPT]",
-        "hidden": { "focal_length_mm": 15, "aperture": "TBD", "focus": "main dish and bottle", "focus_distance_m": "auto" },
+        "hidden": { "focal_length_mm": 15, "aperture": "TBD", "focus": "main dish, bottle and glass", "focus_distance_m": "auto" },
         "constraints": { "sku_min_distance_from_frame_edge_pct": 15 },
         "status": "placeholder"
       }
