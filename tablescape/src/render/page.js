@@ -22,6 +22,10 @@ const CONTOUR = [
   [0, 0], [0.9, 0], [0.97, 0.02], [1.0, 0.07], [0.93, 0.16], [0.86, 0.24], [0.9, 0.32], [0.99, 0.41], [1.0, 0.47],
   [0.93, 0.55], [0.72, 0.64], [0.5, 0.74], [0.4, 0.83], [0.37, 0.93], [0.43, 0.95], [0.43, 0.985], [0.38, 1.0], [0, 1.0],
 ];
+// Contour (bell) glass, normalized to its top radius.
+const GLASS = [
+  [0, 0], [0.62, 0], [0.64, 0.04], [0.55, 0.12], [0.52, 0.3], [0.66, 0.5], [0.72, 0.62], [0.78, 0.8], [0.9, 0.93], [1.0, 1.0], [0, 1.0],
+];
 function lathe(profile, r, h, segs = 64) {
   return new THREE.LatheGeometry(profile.map(([a, b]) => new THREE.Vector2(a * r, b * h)), segs);
 }
@@ -60,7 +64,7 @@ function foodMesh(food, top, o, reg) {
     g.add(bottom, filling, crown);
   } else if (f.kind === 'fries') {
     const rand = rng(7);
-    const r = o.r * 0.7;
+    const r = (o.round ? o.r : Math.min(o.w, o.d) / 2) * 0.75;
     for (let i = 0; i < 70; i++) {
       const a = rand() * Math.PI * 2, d = Math.sqrt(rand()) * r;
       const len = f.h * (0.6 + rand() * 0.8);
@@ -84,7 +88,29 @@ function objectMesh(o, reg) {
   const g = new THREE.Group();
   let top = 0;
   if (v.kind === 'bottle') g.add(new THREE.Mesh(lathe(CONTOUR, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.18 })));
-  else if (v.kind === 'rectPlate' || v.kind === 'board' || v.kind === 'sheet' || v.kind === 'slab') {
+  else if (v.kind === 'glass') g.add(new THREE.Mesh(lathe(GLASS, v.diameter / 2, v.h), std(COLORS.sku, { roughness: 0.12 })));
+  else if (v.kind === 'tray') {
+    // metal sheet tray lined with butcher paper
+    const pan = new THREE.Mesh(new THREE.BoxGeometry(v.w, v.h, v.d), std(0x8c8c8e, { metalness: 0.6, roughness: 0.35 }));
+    pan.position.y = v.h / 2;
+    const liner = new THREE.Mesh(new THREE.BoxGeometry(v.w * 0.9, 0.002, v.d * 0.86), std(COLORS.sheet));
+    liner.position.y = v.h + 0.001;
+    liner.rotation.y = 0.05;
+    g.add(pan, liner);
+    top = v.h;
+  } else if (v.kind === 'basket') {
+    const mat = std(COLORS.vessel);
+    const t = 0.004;
+    const floor = new THREE.Mesh(new THREE.BoxGeometry(v.w, t, v.d), mat);
+    floor.position.y = t / 2;
+    g.add(floor);
+    for (const [w, d, x, z] of [[v.w, t, 0, v.d / 2], [v.w, t, 0, -v.d / 2], [t, v.d, v.w / 2, 0], [t, v.d, -v.w / 2, 0]]) {
+      const wall = new THREE.Mesh(new THREE.BoxGeometry(w, v.h, d), mat);
+      wall.position.set(x, v.h / 2, z);
+      g.add(wall);
+    }
+    top = t;
+  } else if (v.kind === 'rectPlate' || v.kind === 'board' || v.kind === 'sheet' || v.kind === 'slab') {
     const color = v.kind === 'board' ? COLORS.board : v.kind === 'sheet' ? COLORS.sheet : v.kind === 'slab' ? COLORS.prop : COLORS.vessel;
     const m = new THREE.Mesh(new THREE.BoxGeometry(v.w, v.h, v.d), std(color));
     m.position.y = v.h / 2;
@@ -97,8 +123,13 @@ function objectMesh(o, reg) {
     g.add(new THREE.Mesh(roundPlate(v.diameter / 2, v.h), std(COLORS.vessel)));
     top = v.h * 0.45;
   }
-  if (o.food) g.add(foodMesh(o.food, top, o, reg));
-  g.position.set(o.x, 0, o.z);
+  if (o.food) {
+    const food = foodMesh(o.food, top, o, reg);
+    food.position.x = o.foodOffsetX || 0; // food shifted along the base to make room for items on it
+    food.rotation.y = ((o.foodYaw || 0) * Math.PI) / 180;
+    g.add(food);
+  }
+  g.position.set(o.x, o.y || 0, o.z);
   g.rotation.y = (o.yaw * Math.PI) / 180;
   g.traverse((m) => {
     if (m.isMesh) {
@@ -188,7 +219,8 @@ export async function render({ layout, registry: reg, width, height }) {
   const boxes = [];
   const order = [...layout.objects].sort((a, b) => a.layer - b.layer);
   for (const o of order) {
-    const p = new THREE.Vector3(o.x, o.role === 'SKU' ? o.h * 0.45 : o.h * 0.6, o.z).project(camera);
+    const a = ((o.yaw || 0) * Math.PI) / 180, off = o.foodOffsetX || 0;
+    const p = new THREE.Vector3(o.x + off * Math.cos(a), (o.y || 0) + (o.role === 'SKU' ? o.h * 0.45 : o.h * 0.6), o.z - off * Math.sin(a)).project(camera);
     const w = ctx.measureText(o.label).width + font * 1.4, h = font * 1.45;
     const x0 = Math.max(4, Math.min(width - w - 4, (p.x * 0.5 + 0.5) * width - w / 2));
     const y0 = (-p.y * 0.5 + 0.5) * height - h / 2;

@@ -5,18 +5,17 @@ import path from 'node:path';
 import http from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
-import { enrich, place, autofit, checks, ARCHETYPES } from './solve.js';
+import { enrich, place, autofit, checks, rulesFor, ARCHETYPES } from './solve.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const outIdx = args.indexOf('--out');
 const OUT = outIdx >= 0 ? path.resolve(args.splice(outIdx, 2)[1]) : path.join(ROOT, 'out');
 const specFiles = args.length ? args : fs.readdirSync(path.join(ROOT, 'specs')).map((f) => path.join(ROOT, 'specs', f));
-const W = 1920, H = 1080;
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const registry = readJson(path.join(ROOT, 'registry/objects.json'));
-const rules = readJson(path.join(ROOT, 'rules/rules.json'));
+const baseRules = readJson(path.join(ROOT, 'rules/rules.json'));
 
 function serve() {
   const types = { '.js': 'text/javascript', '.html': 'text/html' };
@@ -47,7 +46,7 @@ async function main() {
   } catch {
     browser = await chromium.launch({ ...launch, executablePath: '/opt/pw-browsers/chromium' });
   }
-  const page = await browser.newPage({ viewport: { width: W, height: H } });
+  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
   page.on('console', (m) => m.type() === 'error' && console.error('[page]', m.text()));
   await page.goto(`http://127.0.0.1:${port}/src/render/index.html`);
   await page.waitForFunction(() => window.ready);
@@ -56,8 +55,11 @@ async function main() {
   const tiles = [];
   for (const file of specFiles) {
     const spec = readJson(file);
+    const rules = rulesFor(spec, baseRules);
+    const [aw, ah] = rules.camera.aspect;
+    const W = aw >= ah ? 1920 : Math.round((1920 * aw) / ah), H = aw >= ah ? Math.round((1920 * ah) / aw) : 1920;
     const enriched = enrich(spec, rules);
-    for (const archetype of Object.keys(ARCHETYPES)) {
+    for (const archetype of spec.layouts || Object.keys(ARCHETYPES)) {
       const dir = path.join(OUT, spec.id, archetype);
       fs.mkdirSync(dir, { recursive: true });
       const layout = place(enriched, spec, registry, rules, archetype);
@@ -95,12 +97,14 @@ async function main() {
       fs.writeFileSync(path.join(dir, 'layout.json'), JSON.stringify(doc, null, 2));
       fs.writeFileSync(path.join(dir, 'report.json'), JSON.stringify({ pass, checks: results }, null, 2));
       summary.push({ spec: spec.id, archetype, pass, failed: results.filter((c) => c.hard && !c.pass).map((c) => `${c.id}: ${c.detail}`) });
-      tiles.push({ src: r.labeled, caption: `${spec.id} · ${ARCHETYPES[archetype].title} · ${pass ? 'all hard checks pass' : 'FAILS checks'}`, pass });
+      tiles.push({ src: r.labeled, w: W, h: H, caption: `${spec.id} · ${pass ? "checks pass" : "FAILS checks"}`, pass });
       console.log(`${pass ? 'PASS' : 'FAIL'} ${spec.id} ${archetype}`);
       for (const c of results) console.log(`   ${c.pass ? 'ok  ' : c.hard ? 'FAIL' : 'note'} ${c.id}: ${c.detail}`);
     }
   }
-  const sheet = await page.evaluate((a) => window.R.contactSheet(a.tiles, 2, 960, 540, 'Tablescape test build: 30° / 50% table horizon'), { tiles });
+  const cols = Math.min(3, tiles.length);
+  const tw = cols === 3 ? 640 : 960, th = Math.round((tw * tiles[0].h) / tiles[0].w);
+  const sheet = await page.evaluate((a) => window.R.contactSheet(a.tiles, a.cols, a.tw, a.th, 'Tablescape test build: clock-face place setting, 30° camera'), { tiles, cols, tw, th });
   png(sheet, path.join(OUT, 'contact-sheet.png'));
   fs.writeFileSync(path.join(OUT, 'summary.json'), JSON.stringify(summary, null, 2));
   await browser.close();

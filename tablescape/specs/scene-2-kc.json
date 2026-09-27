@@ -1,5 +1,17 @@
 {
-  "specVersion": "0.1",
+  "specVersion": "0.2",
+  "canvas": {
+    "aspect": [
+      1,
+      1
+    ],
+    "shopperZone": "Destination"
+  },
+  "layouts": [
+    "clock-face"
+  ],
+  "oddEvenAuto": false,
+  "table": "table-2top",
   "id": "scene-2-kc",
   "brief": "Meal + Side + Coke: pulled pork sandwich, Kansas City MO, indoors away from home, side of coleslaw, 330mL Coca-Cola",
   "market": "US-midwest",
@@ -7,23 +19,34 @@
     "place": "indoors-away",
     "time": "any"
   },
-  "table": "table-2top",
-  "sku": {
-    "registry": "bottle-contour-330",
-    "text": "Coca-Cola 330mL contour glass bottle"
-  },
+  "horizonMax": 0.48,
   "entree": {
     "text": "KC pulled pork sandwich on a soft white bun",
-    "vessel": "plate-round",
-    "food": "food-bun-sandwich"
+    "base": "tray-lined",
+    "food": "food-bun-sandwich",
+    "yaw": 5
   },
   "accompaniments": [
     {
       "role": "side",
       "text": "creamy coleslaw",
       "vessel": "bowl-side-small",
-      "food": "food-mound"
+      "food": "food-mound",
+      "clock": 10.5
+    },
+    {
+      "role": "sauce",
+      "text": "pickle chips",
+      "vessel": "ramekin-small",
+      "food": "food-mound",
+      "onBase": true,
+      "pairedWith": "DISH"
     }
   ],
-  "props": []
+  "props": [],
+  "sku": {
+    "registry": "bottle-contour-330",
+    "text": "Coca-Cola 330mL contour glass bottle",
+    "clock": 1.5
+  }
 }
