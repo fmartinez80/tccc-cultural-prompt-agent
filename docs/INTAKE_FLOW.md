@@ -45,7 +45,7 @@ Each option keeps its **rationale and knowledge-base sources**, so the cultural-
 | Operating Unit | **owns the rules:** brand and legal rule set, and the SKU catalog available in that OU | `operatingUnit` |
 | Local Region (country) | **cultural knowledge is per country** (how the dish is prepared, plated and served locally). It may later be clustered by OU; v1 is country-specific | `country` (ISO code, e.g. `MX`) |
 | Product SKU | beverage proxy (package, size) and trademark rules | `sku.id`, `sku.package`, `sku.volumeMl` |
-| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. Interim question until rules by setting and SKU size are set (`tablescape/glass-rules.json`) | `sku.glass` |
+| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **SKUs over 1 L require a glass**, so the answer is pre-set to Y and locked. For 1 L or less, the operator chooses (default N) (`tablescape/glass-rules.json`) | `sku.glass` |
 | Hero Dish | starting point for steps 1–3 | `entree.name` |
 | Side Dish Request | pre-fills step 3. The agent checks it for cultural fit and still offers the common alternatives | seeds `accompaniments[]` |
 | Occasion | mood and environment in the prompt; sets the time of day when unambiguous (breakfast → morning), which selects the lighting | `occasion` |
@@ -124,7 +124,7 @@ After step 3, the composer counts the table items (main + bottle + the branded g
 }
 ```
 
-The operator answered N to the glass question, so there's no glass. `camera` holds preset ids. The composer looks up the hidden lens, aperture, focus and pitch in `camera-options.json`. Lighting isn't in the spec: it's derived from `scene` via `lighting-presets.json`.
+The SKU is 8 oz (≤ 1 L), so the glass is optional. The operator answered N. `camera` holds preset ids. The composer looks up the hidden lens, aperture, focus and pitch in `camera-options.json`. Lighting isn't in the spec: it's derived from `scene` via `lighting-presets.json`.
 
 ## Decided
 - **Aspect ratio:** every scene renders at 16:9; ShRED ratios are cropped down in post. No format step.

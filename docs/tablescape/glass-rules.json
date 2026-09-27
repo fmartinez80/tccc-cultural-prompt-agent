@@ -1,7 +1,7 @@
 {
-  "$comment": "DEFERRED. For now the glass is an intake Y/N question (sku.glass): Y gives every place setting a glass. This file holds the future rule (certain settings AND SKUs at or above a minimum size), which will pre-fill or replace the Y/N once confirmed. Values below are placeholders. Owned by the Operating Unit's brand rules.",
-  "status": "deferred",
-  "version": "0.1-placeholder",
+  "$comment": "When the branded bell-shaped Coca-Cola glass appears. Rule: any SKU larger than 1 L requires at least one glass, so the intake Y/N is answered Y and locked. For SKUs of 1 L or less, the operator's intake Y/N (sku.glass) decides. Every place setting gets a glass whenever glasses are in the scene. Owned by the Operating Unit's brand rules.",
+  "status": "active",
+  "version": "0.2",
 
   "glass": {
     "id": "bell-glass",
@@ -9,23 +9,24 @@
     "description": "Branded bell-shaped Coca-Cola glass, poured from the SKU, with or without ice."
   },
 
-  "show_glass_when": {
-    "all_of": [
-      {
-        "scene": {
-          "venue": ["home", "restaurant"],
-          "$status": "placeholder: which settings get a glass is still to be confirmed"
-        }
-      },
-      {
-        "sku_min_volume_ml": 1000,
-        "$status": "placeholder: the size threshold is still to be confirmed (candidates: 500 ml, 1 L, 1.5 L, 2 L)"
-      }
-    ]
+  "required_when": {
+    "sku_volume_ml_greater_than": 1000,
+    "effect": "glass required: intake Y/N pre-set to Y and locked"
+  },
+
+  "otherwise": {
+    "effect": "operator chooses with the intake Y/N (default N)"
   },
 
   "per_diner": {
-    "$comment": "2-person and group scenes: each diner gets a glass when the rule above is met, keeping every place setting identical.",
+    "$comment": "Every place setting stays identical: when glasses are in the scene, each diner gets one.",
     "glass_per_diner": true
+  },
+
+  "shared_bottle": {
+    "$comment": "PROPOSED, to confirm. A SKU larger than 1 L is a shareable bottle, so a 2-person scene shows ONE bottle for the table (in the center third, between the settings) and one glass per diner, instead of a large bottle per diner.",
+    "applies_when_sku_volume_ml_greater_than": 1000,
+    "bottles_per_table": 1,
+    "status": "proposed"
   }
 }

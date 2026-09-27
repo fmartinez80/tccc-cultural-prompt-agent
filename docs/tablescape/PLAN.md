@@ -72,7 +72,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 | `scene.time` (+ setting, venue) | lighting preset → prompt sentence + proxy light rig |
 | `scene.{setting, venue, party, surface}` | surface type and size (table, park table, bench, food-truck counter…), number of place settings, environment prompt |
 | `sku.package`, `sku.volumeMl` | beverage proxy, logo box |
-| `sku.glass` (Y/N from intake) | adds a branded bell glass to every place setting |
+| `sku.glass` (Y/N; forced Y for SKUs over 1 L) | adds a branded bell glass to every place setting |
 | `entree.{vessel, massClass}` | main proxy footprint and silhouette height |
 | `accompaniments[]` with `role`, `vessel`, `pairsWith` | layer assignment, condiment proximity |
 | `props[]` (napkin set: napkin shape + cutlery on top, with `targets`) | one Layer 3 prop, directional vectors |
@@ -114,7 +114,11 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 - **Hard constraint (2 people):** each SKU is on its own diner's right in table coordinates, measured from that diner's seat. Depending on where they sit, that can be in front of, behind or screen-left of their plate (5.6).
 - There's no per-country override.
 - **The SKU is the only drink shown**, in every scene and for every diner (v1). No other beverages, glasses of water or competitor products.
-- **The branded bell-shaped Coca-Cola glass is an intake choice for now.** The intake asks "Include a branded glass? Y/N" (`sku.glass`). **Y gives every place setting a glass**, **N gives none**. This is the interim approach while the team decides which settings and SKU sizes require a glass. Once that's settled, [`glass-rules.json`](./glass-rules.json) will pre-fill the answer (the operator can still change it) or replace the question entirely.
+- **When the branded bell-shaped Coca-Cola glass appears** ([`glass-rules.json`](./glass-rules.json)):
+  - **Any SKU larger than 1 L requires at least one glass.** The intake's glass question is answered Y and locked.
+  - **SKUs of 1 L or less:** the operator decides with the intake question "Include a branded glass? Y/N" (`sku.glass`, default N).
+  - Whenever glasses are in the scene, **every place setting gets one**.
+  - **Proposed, to confirm:** a SKU over 1 L is a shareable bottle. In a 2-person scene, that means **one bottle for the table**, placed in the center third between the settings, with a glass for each diner, rather than a large bottle per diner.
 - **When the glass is present** (label `GLASS`), it sits **beside the bottle, on the MAIN side**, slightly forward of it. It's close to the meal, in the center third, on the diner's right, and it never covers the bottle's logo box. Both logos face the camera head-on, and the trademark clear zone (H5) and head-on rule (H6) apply to both. In 2-person scenes each diner gets one.
 - **When it's absent**, the bottle is the only logo'd element, and every rule below that mentions the glass simply skips it.
 
@@ -478,7 +482,7 @@ The labels in `proxy.png` are functional, not decoration. The image generator us
 tablescape/
   schema/        SceneSpec, Blueprint (Part A + extensions), Options, Template schemas + fixtures
   registry/      known sizes: beverages (+ logo boxes), plating vessels, food-mass, props, tables
-  rules/         brand.json (per OU), glass-rules.json (per OU, deferred), composition.json, archetypes/*.json,
+  rules/         brand.json (per OU), glass-rules.json (per OU), composition.json, archetypes/*.json,
                  camera-options.json, lighting-presets.json
   camera/        camera-options.json → proxy camera, auto-fit, horizon clamp
   solver/        layer + odd/even pre-step, constraints H1–H14, scoring, archetype search, option selection
@@ -547,7 +551,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 - **Aspect ratio:** every template renders at **16:9**; ShRED ratios are cropped in post (4b, H14).
 - **Crop protection:** hero meal + SKU (+ glass, when present) stay in the vertical center third, so every priority crop holds at least one complete logo'd element plus part of the meal (4b, H14).
 - **Priority crops:** 16:9 (master), 1:1, 4:5, 2:3, 3:2, 5:4, 9:16.
-- **Glass:** for now, a Y/N intake question. Y gives every place setting a branded bell-shaped glass. Rules by setting and SKU size come later (2a, `glass-rules.json`).
+- **Glass:** any SKU over 1 L requires at least one glass (locked Y). For 1 L or less, the operator's intake Y/N decides. Every place setting gets a glass whenever glasses are in the scene (2a, `glass-rules.json`).
 - **On the go:** always on a surface (park table, bench, food-truck counter…), never in a hand (5.6).
 - **Drinks:** the SKU is the only drink, for every diner. Every diner has the same place setting (5.6).
 - **Knowledge scope:** OU owns the rules; cultural knowledge is per country (9).
@@ -561,7 +565,7 @@ Composition:
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
 4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
-5. **Glass rule values (later):** which settings and minimum SKU size require the glass? Until then, the intake Y/N decides. When the rule exists, should it pre-fill the Y/N (operator can override) or replace the question?
+5. **Shared bottle over 1 L:** in 2-person scenes, should a SKU over 1 L show one shared bottle for the table with a glass per diner (proposed), or one bottle per diner? And does the setting (for example on-the-go) ever rule the glass out, even for SKUs over 1 L?
 6. **Does the glass count toward odd/even?** Proposed: yes, it's a separate object. With a glass, main + bottle + glass = 3 is already odd. Without it, main + bottle = 2 still gets the added accent.
 
 Pipeline:
