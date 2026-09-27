@@ -3079,3 +3079,60 @@ Spain files — the hero-product-slot and iconic-beverages generalizations
 are not back-ported to those three files here; that remains a separate,
 future decision. Not committed or pushed, per the task's own instruction —
 left for the orchestrating session to review.
+
+## Mexico file built: fifth country, first pass without a separate scaffold, 2026-09-27
+
+**Why Mexico, why now.** Fernando asked to continue building out the
+missing regions. `market-roadmap.md` lists Mexico (#5) as the highest-
+priority "Not started" market after the US, UK, Germany and Spain, so it
+was taken next, in the roadmap's own order.
+
+**Structure: one file, seven zones — a recommendation, reviewer decides.**
+The §1.1 swap test found a national core that travels (tacos, quesadillas,
+enchiladas, tamales, tortas, pozole, the comida corrida) alongside a set of
+genuinely form-changing dishes (tortilla type by region, pozole colour,
+tamal wrappers, birria vs quesabirria) and strongly non-travelling
+environments. As with Spain, Germany and South Africa, these were handled
+as zone-coded variant entries inside one file rather than a US-style
+index-plus-regional split. **The Yucatán Peninsula is flagged as the most
+likely future spinout** (`mexico-yucatan.md`) — distinct Maya-rooted
+cuisine, formats and architecture — but not split, per §7: a human
+decision. Rejected alternative: a Mexico index plus 3–4 regional files
+from the start, which would have front-loaded structure before any brief
+has shown the one-file version is insufficient.
+
+**Hero product: follows `south-africa.md`'s HERO PRODUCT SLOT, not the
+UK/Germany/Spain red-can default.** South Africa's slot was the user's own
+deliberate design and is the most recent country pattern; Mexico has an
+unusually varied, register-coded pack landscape (355 mL returnable glass,
+600 mL PET, 2.5 L returnable, 355 mL and 235 mL cans) where a fixed red-can
+default would often be the wrong register. Same with ICONIC BEVERAGES:
+alcohol context documented (tequila-and-Coca-Cola cocktails, the batanga),
+never staged. This does not back-port anything to the UK/Germany/Spain
+files; that remains its own pending decision.
+
+**Genuine new finding for the brand file (not edited there):** Mexico is a
+355 mL-can market. `coca-cola-guidelines.md` §4.3 currently says to default
+any non-US market to the 330 mL can; for Mexico that would be wrong. Left
+as a Gap Log item for the brand file's planned overhaul and the expected
+TCCC spec drop, keeping this build's brand-file footprint at zero, as the
+Spain and South Africa builds did.
+
+**Sensitivity calls (editorial, flagged for review):** never stage or
+reference San Juan Chamula's ritual Coca-Cola use; never place the hero
+product on a Día de Muertos ofrenda (even though soft drinks genuinely
+appear on some); grade scenes neutrally to avoid the documented Hollywood
+"yellow filter" stereotype; stage unbranded plastic furniture even though
+Coca-Cola-branded red furniture is real and widespread (legible-logo rule).
+
+**Method difference, disclosed in the file:** earlier non-US files were
+verification passes over a separate tool-less scaffold. Mexico was drafted
+and verified in the same session (~35 WebSearch queries), with unverified
+model-knowledge claims tagged "not independently re-checked this pass".
+Wikipedia pages were blocked for direct reading by the egress proxy, so
+Wikipedia-derived claims rest on search snippets and say so.
+
+**Files touched**: `knowledge-base/02-culture/regions/latam/mexico.md`
+(new), `knowledge-base/00-methods/market-roadmap.md` (Mexico row).
+Not touched: `coca-cola-guidelines.md`, `country-file-schema.md`, other
+country files.
