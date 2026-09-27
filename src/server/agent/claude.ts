@@ -190,11 +190,12 @@ Write:
   - When the dish has countable pieces, start with the exact count ("Exactly three tacos side by side", "Two slices") and say none is hidden behind another.
   - Name the food by its local name, then what it visibly looks like: colors, textures, how it is cut, filled, sauced and garnished, as it is actually served in this region.
   - Say what it sits on using the given container wording, including the size.
+  - When a common look-alike exists, say what it is not (al pastor is thinly shaved, not shredded; tortillas are small soft corn, not flour).
   - No position, lighting, mood or camera words; the layout gives the position.
   - One or two sentences.
   Food labels: ${foodLabels(facts).map((l) => `${l.label} = ${l.what}, on ${l.vessel}`).join("; ")}.
   (The product and napkin labels have fixed text; do not write them.)
-- environmentalOverview: also name the table surface.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join("\n- ")}` : ""}`;
+- environmentalOverview: start with "Setting:", name the table surface, and give two or three recognizable details of the place (wall color, a menu board, chairs, plants), softly out of focus, so the background reads as this place rather than a blank studio.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join("\n- ")}` : ""}`;
     return this.call(brief, `${briefText(brief)}\n\n${task}`, Story);
   }
 
