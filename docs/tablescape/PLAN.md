@@ -123,48 +123,32 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 
 ## 4. Camera and frame
 
-### 4a. Camera dropdowns
+### 4a. Camera dropdowns (placeholders)
 
-The operator picks **Lens** and **Angle** from two dropdowns. Both are defined once in [`camera-options.json`](./camera-options.json), which the front end, the prompt builder and the proxy camera all read. Each option carries:
+The operator picks **Lens** and **Angle** from two dropdowns, defined once in [`camera-options.json`](./camera-options.json). The front end, the prompt builder and the proxy camera all read that file.
+
+**The options are placeholders for now** (Lens A/B/C, Angle A/B/C) while the team settles the right lenses and parameters. The structure is final, so everything downstream can be built against it. Provisional proxy values (50 / 35 / 15 mm; 15° / 30° / 45°, default 30°) let the solver and renderer run end to end. Swapping in the final options is a data change only.
+
+Each option carries:
 - a **UI label**
-- a **prompt fragment**: one complete sentence in a consistent style, with no markdown or bullet syntax, so fragments concatenate cleanly
-- **proxy parameters** (focal length, focus distance, pitch). The proxy must be rendered with the same lens and angle the prompt describes, or the composition reference and the prompt disagree.
+- a **prompt fragment**: one complete sentence, no markdown, so fragments concatenate in the fixed order `scene/genre → subject → angle → lens → lighting`
+- **proxy parameters** (focal length, focus distance, pitch). The proxy must use the same lens and angle the prompt describes.
 
-**Lens + depth of field**
+**Guidelines for writing the final options** (from the first draft, in git history at commit `1520fc2`):
+- **One value per option, not a range** ("15mm", not "14–16mm"), because the proxy camera needs one number and it must match the prompt.
+- **Name what's sharp.** Fast apertures keep only a few centimeters in focus (50 mm f/2.8 ≈ 6–9 cm; 35 mm f/1.4 at 1.5 m ≈ 15 cm), less than the 20–30 cm between entree and bottle. Each lens fragment should say "the main dish and the Coca-Cola bottle in sharp focus" to protect the "Coca in focus" rule.
+- **Describe the depth of field accurately** (f/1.4 is shallow, not moderate).
+- **Keep genre out of the lens.** "Street food photography" belongs to the scene text.
+- **Exclude 0° and 90°,** per the composition rules.
 
-| id | label | proxy | prompt fragment (abridged) |
-|---|---|---|---|
-| `standard-50` *(default)* | Standard · 50mm · f/2.8 | 50 mm, focus auto | "Shot with a 50mm lens at f/2.8 for a shallow depth of field, with the main dish and the Coca-Cola bottle in sharp focus…" |
-| `wide-35` | Wide · 35mm · f/1.4 · focus 1.5 m | 35 mm, camera ~1.5 m from MAIN | "Shot on a 35mm wide-angle lens… at f/1.4, focused at about 1.5 meters on the main dish and the Coca-Cola bottle…" |
-| `ultrawide-15` | Ultra-wide · 15mm rectilinear · street food | 15 mm, focus auto | "Shot on an ultra-wide 15mm rectilinear lens at f/8 with deep depth of field… straight verticals and no fisheye distortion." |
-
-**Angle**
-
-| id | label | proxy pitch | status |
-|---|---|---|---|
-| `low-10` | Low · 10° | 10° | from your list |
-| `medium-25` | Medium · 25° | 25° | from your list |
-| `diners-eye-30` *(default)* | Diner's eye · 30° | 30° | proposed: the composition rules' default was missing |
-| `high-45` | High · 45° | 45° | proposed: upper end of the schema's 30–45° range |
-
-Overhead (90°) and hyper-low (0°) stay excluded, per the composition rules.
-
-**Adjustments made to the source options for prompt use**
-- **Ranges → one value.** "14–16mm" → 15 mm and "28–35mm" → 35 mm. The prompt could keep a range, but the proxy camera needs one number, and the two must match.
-- **Every option names what's sharp.** At 50 mm f/2.8 only ~6–9 cm of depth is in focus, and at 35 mm f/1.4 / 1.5 m only ~15 cm. The entree and the bottle sit 20–30 cm apart, so "shallow depth of field" alone lets the model blur one of them. Naming "the main dish and the Coca-Cola bottle in sharp focus" protects the brand rule that the "Coca" script stays in focus.
-- **"Moderate depth of field" → "shallow".** f/1.4 at 1.5 m is shallow, and the prompt should say what the lens really does.
-- **Genre moved out of the lens.** "Photorealistic street food photography" is scene text, not a lens property. It now comes from the scene step (`venue: on-the-go`), so picking the ultra-wide for a restaurant scene doesn't turn it into street food.
-- **Ultra-wide aperture added (f/8, proposed).** None was given. Ultra-wides are normally shot stopped down.
-- **Consistent sentence form.** Lens fragments start "Shot with/on…" and angle fragments describe the camera position. The prompt order is fixed: `scene/genre → subject → angle → lens → lighting`.
-
-**How the choices affect the layout**
+**How the choices affect the layout** (applies to whatever the final options are):
 - **Focal length** sets the proxy's field of view, `fov = 2·atan(24 / (2·f))` (full-frame vertical).
-- **Focus distance** (35 mm option) fixes the camera ~1.5 m from MAIN, so auto-fit only adjusts the aim. The result is a wider, more environmental frame with smaller items.
-- **Ultra-wide** stretches objects near the frame edges, so the SKU must stay out of the outer 15 % (extra hard constraint). It's recommended for outdoor and on-the-go scenes.
-- **Low angle (10°)** makes items hide behind each other more. Fewer items fit before the no-stacking rule fails, and the solver reports infeasible rather than stacking.
+- A **fixed focus distance** in an option fixes the camera's distance from MAIN, so auto-fit only adjusts the aim.
+- **Ultra-wide lenses** stretch objects near the frame edges, so the SKU stays out of the outer 15 %.
+- **Low angles** make items hide behind each other more, so fewer items fit before the no-stacking rule fails.
 - **Azimuth** is 0° ± 10°, always from the diner's side, which keeps diner's-right = screen-right.
 - **Aperture is prompt-only.** The proxy doesn't render blur.
-- Lens and angle are **part of the template signature**. A template picked at 50 mm / 30° isn't reused for 35 mm / 10°.
+- Lens and angle are **part of the template signature**.
 
 ### 4b. Frame zones
 
@@ -307,7 +291,7 @@ Each option has a one-line rationale, for example *"Crescent Arc: sides wrap beh
 
 A **signature** is a key over everything locked:
 ```
-standard-50 | diners-eye-30 | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
+lens-a | angle-b | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
 ```
 
 **Lookup:**
@@ -391,7 +375,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 
 | Source rule | Implemented as | Where |
 |---|---|---|
-| ~30° diner's-eye camera; no overhead or hyper-low | 30° is the default angle; 10°, 25°, 45° also offered; 0° and 90° excluded | 4a (open question 13) |
+| ~30° diner's-eye camera; no overhead or hyper-low | 30° is the default angle; other angles offered via the dropdown (placeholders); 0° and 90° excluded | 4a (open question 13) |
 | Table rear edge ≤ Y 0.50 | **H1** + auto-fit | 4b, 5.3 |
 | All table items in the lower 50 % | **H2** | 5.3 (open question 1) |
 | Upper 50 % for bokeh + ShRED copy | environment is prompt-only; `copy_reserve[]` | 4b, 8 |
@@ -408,7 +392,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 | Clockwise seam offset on bottles / cans | **H6** | 5.3 (open question 5) |
 | Trademark clear zone; nothing overlaps the logo box | **H5** | 5.3 |
 | "Coca" fully visible, in focus, slanting upward, even if tightly cropped | **H5** (in frame and uncovered); focus and slant are prompt-only | 5.3, 8 |
-| f/4–f/5.6 depth of field | superseded by the lens dropdown (f/1.4–f/8); every fragment names the entree and bottle as sharp | 4a (open question 13) |
+| f/4–f/5.6 depth of field | set per lens option (placeholders); every fragment names the entree and bottle as sharp | 4a (open question 13) |
 | ≤ 2.5 faces in the background | prompt manifest + post-gen check | 8, 9 |
 | SKU on the diner's right (our rule) | **H4** | 2a |
 
@@ -442,6 +426,5 @@ Pipeline questions (carried over):
 
 Camera dropdowns:
 
-13. **Dropdowns vs composition rules.** The rules say ~30° and f/4–f/5.6. The dropdowns now offer 10° and 25° angles and f/1.4–f/2.8 apertures. OK to treat the rules' values as the **defaults** rather than fixed requirements? The focus wording in each fragment covers the "Coca in focus" rule.
-14. **Ultra-wide aperture:** is f/8 right? And should the ultra-wide be offered only for outdoor and on-the-go scenes, or for all scenes?
-15. **Lighting dropdown:** lighting (natural window light, golden hour, overcast, warm evening interior…) is the next big prompt lever and isn't covered yet. Same structure as the camera dropdowns, with a default tied to occasion and scene.
+13. **Final lens and angle options** to replace the placeholders in `camera-options.json`: label, prompt sentence, focal length, aperture, focus distance, pitch. Also confirm the composition rules' ~30° and f/4–f/5.6 are **defaults** the dropdowns can override.
+14. **Lighting dropdown:** lighting (natural window light, golden hour, overcast, warm evening interior…) is the next big prompt lever. Same structure as the camera dropdowns, with a default tied to occasion and scene.

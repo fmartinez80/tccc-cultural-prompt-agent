@@ -1,71 +1,60 @@
 {
-  "$comment": "Camera dropdowns. Each option has a UI label, a prompt fragment written to be concatenated in a fixed order (see PLAN.md 4a), and the numeric parameters the 3D proxy camera must use so the proxy and the prompt describe the same shot. Items marked status=proposed are suggestions awaiting team sign-off.",
-  "version": "0.1",
+  "$comment": "PLACEHOLDER camera dropdowns. Final lens and angle options are still being decided. The structure is final; labels, prompt text and numbers are not. Proxy values are provisional so the solver and renderer can run end to end. The earlier draft options (50mm f/2.8, 35mm f/1.4, 15mm ultra-wide; 10/25/30/45 deg) are in git history, commit 1520fc2.",
+  "version": "0.0-placeholder",
 
   "lens": {
-    "default": "standard-50",
+    "default": "lens-a",
     "options": [
       {
-        "id": "standard-50",
-        "label": "Standard · 50mm · f/2.8 · shallow depth of field",
-        "prompt": "Shot with a 50mm lens at f/2.8 for a shallow depth of field, with the main dish and the Coca-Cola bottle in sharp focus and the background falling into soft bokeh.",
+        "id": "lens-a",
+        "label": "Lens A (placeholder: standard)",
+        "prompt": "[LENS_A_PROMPT]",
         "proxy": { "focal_length_mm": 50, "focus_distance_m": "auto" },
-        "aperture": "f/2.8",
-        "notes": "Real depth of field is ~6-9 cm at 1.0-1.2 m, less than the 20-30 cm between entree and bottle, so the prompt names both as the sharp subjects."
+        "aperture": "TBD",
+        "status": "placeholder"
       },
       {
-        "id": "wide-35",
-        "label": "Wide · 35mm · f/1.4 · focus 1.5 m",
-        "prompt": "Shot on a 35mm wide-angle lens (full-frame equivalent) at f/1.4, focused at about 1.5 meters on the main dish and the Coca-Cola bottle, with a shallow depth of field and a softly blurred background.",
-        "proxy": { "focal_length_mm": 35, "focus_distance_m": 1.5 },
-        "aperture": "f/1.4",
-        "notes": "Source said 28-35mm; the proxy needs one value, 35mm chosen for less edge stretch. Source said 'moderate depth of field', but f/1.4 at 1.5 m gives ~15 cm (35mm) to ~24 cm (28mm), which is shallow, so the wording was corrected. Focus distance fixes camera-to-MAIN distance at ~1.5 m, so this is a wider, more environmental frame."
+        "id": "lens-b",
+        "label": "Lens B (placeholder: wide)",
+        "prompt": "[LENS_B_PROMPT]",
+        "proxy": { "focal_length_mm": 35, "focus_distance_m": "auto" },
+        "aperture": "TBD",
+        "status": "placeholder"
       },
       {
-        "id": "ultrawide-15",
-        "label": "Ultra-wide · 15mm rectilinear · street food",
-        "prompt": "Shot on an ultra-wide 15mm rectilinear lens at f/8 with deep depth of field, the food and the Coca-Cola bottle sharp, straight verticals and no fisheye distortion.",
+        "id": "lens-c",
+        "label": "Lens C (placeholder: ultra-wide)",
+        "prompt": "[LENS_C_PROMPT]",
         "proxy": { "focal_length_mm": 15, "focus_distance_m": "auto" },
-        "aperture": "f/8",
-        "aperture_status": "proposed",
-        "recommended_for": { "venue": ["on-the-go"], "setting": ["outdoor"] },
-        "constraints": { "sku_min_distance_from_frame_edge_pct": 15 },
-        "notes": "Source said 14-16mm; 15mm used for the proxy. No aperture was given; f/8 proposed. 'Photorealistic street food photography' moved out of the lens text into the scene/genre text so it only appears for street scenes. Ultra-wides stretch objects near the frame edges, so the SKU is kept out of the outer 15% to protect the logo."
+        "aperture": "TBD",
+        "status": "placeholder"
       }
     ]
   },
 
   "angle": {
-    "default": "diners-eye-30",
+    "default": "angle-b",
     "options": [
       {
-        "id": "low-10",
-        "label": "Low · 10°",
-        "prompt": "Low camera angle, about 10 degrees above the tabletop, close to the diner's eye level.",
-        "proxy": { "pitch_deg": 10 },
-        "notes": "At low angles items hide behind each other more, so fewer items fit without breaking the no-stacking rule. The solver reports infeasible rather than stacking."
+        "id": "angle-a",
+        "label": "Angle A (placeholder: low)",
+        "prompt": "[ANGLE_A_PROMPT]",
+        "proxy": { "pitch_deg": 15 },
+        "status": "placeholder"
       },
       {
-        "id": "medium-25",
-        "label": "Medium · 25°",
-        "prompt": "Camera angled about 25 degrees down toward the table.",
-        "proxy": { "pitch_deg": 25 }
-      },
-      {
-        "id": "diners-eye-30",
-        "label": "Diner's eye · 30° (brand default)",
-        "prompt": "Diner's-eye view, camera angled about 30 degrees down toward the table.",
+        "id": "angle-b",
+        "label": "Angle B (placeholder: diner's eye)",
+        "prompt": "[ANGLE_B_PROMPT]",
         "proxy": { "pitch_deg": 30 },
-        "status": "proposed",
-        "notes": "The composition rules set ~30° as the default; it was missing from the list."
+        "status": "placeholder"
       },
       {
-        "id": "high-45",
-        "label": "High · 45°",
-        "prompt": "Camera angled about 45 degrees down toward the table.",
+        "id": "angle-c",
+        "label": "Angle C (placeholder: high)",
+        "prompt": "[ANGLE_C_PROMPT]",
         "proxy": { "pitch_deg": 45 },
-        "status": "proposed",
-        "notes": "Upper end of the 30-45° range allowed by the blueprint schema. Overhead (90°) stays excluded by the composition rules."
+        "status": "placeholder"
       }
     ]
   },
