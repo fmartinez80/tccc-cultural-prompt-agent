@@ -42,7 +42,7 @@ Intake flow (../INTAKE_FLOW.md) ──► SceneSpec
                                        │
                           Layer classification + odd/even check (agent picks the accent)
                                        │
-                          signature ──► approved template? ──yes──► cached proxy + blueprint (no solve, no render)
+                          signature ──► approved template? ──yes──► reuse blueprint (no solve) ──► render with this scene's lighting
                                        │ no
                                        ▼
                           Solver: one best layout per archetype
@@ -204,7 +204,11 @@ Lighting follows from where and when the meal happens, so the operator doesn't c
 - the SKU's shadow doesn't fall on MAIN
 - shadow direction matches the preset
 
-Lighting is part of the template signature. The same table at breakfast and at dinner is two templates.
+**Lighting is not part of the template.** A template is the layout: positions, camera and framing. Lighting is applied on top at render time, so the same approved layout serves breakfast at home and dinner at a restaurant.
+- The blueprint stores no lighting. The lighting preset is chosen per run from the scene and passed to the renderer separately.
+- Reusing a template under a new lighting preset means **one re-render and a re-run of H13 only**. The layout isn't solved again.
+- **The light adapts to the layout, never the other way round.** If a lighting preset's shadows break H13 on an approved layout (for example golden-hour shadows long enough to reach the entree), the renderer adjusts the key light within the preset's allowed range: rotate it within the behind-left sector, or raise it slightly to shorten shadows. The positions never move.
+- If no adjustment passes, the run reports it rather than silently changing the layout. This should be rare, since every preset keeps the key light behind-left.
 
 ## 5. Layout solver
 
@@ -250,7 +254,7 @@ Depth bands (from the rules):
 | H10 | Odd count | N (after the odd/even step) is odd |
 | H11 | Physical | footprints don't overlap (gap ≥ 1.5 cm, except condiments meant to sit on their dish); everything on the table |
 | H12 | Co-heroes visible | MAIN ≤ 15 % occluded and not cropped at the sides |
-| H13 | Shadows | no cast shadow crosses the logo box; the SKU's shadow doesn't fall on MAIN; shadow direction matches the lighting preset (4c) |
+| H13 | Shadows | no cast shadow crosses the logo box; the SKU's shadow doesn't fall on MAIN; shadow direction matches the lighting preset (4c). Checked per render, because lighting isn't part of the layout |
 
 ### 5.4 Soft score (screen space)
 Each primitive is projected through the camera: analytic silhouettes for the solver, and the ID pass for the final check. The score terms:
@@ -322,13 +326,13 @@ Each option has a one-line rationale, for example *"Crescent Arc: sides wrap beh
 
 ## 7. Templates (reuse what was picked)
 
-A **signature** is a key over everything locked:
+A **template is the layout**: primitive positions, rotations, camera look and angle, and framing. A **signature** is a key over everything that shapes that layout. Lighting is deliberately **not** in it (see 4c):
 ```
-close-hero | diners-eye | home-window-daylight | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
+close-hero | diners-eye | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
 ```
 
 **Lookup:**
-1. **Approved template exists:** return the cached proxy and blueprint, with no solve and no render.
+1. **Approved template exists:** reuse its blueprint with no solve. Render it once with this run's lighting preset (fast, and the render is cached per template + lighting preset), then re-check H13.
 2. **Cached options exist but none was picked:** return them again.
 3. **Near hit** (one item different): seed the solver from the approved layout.
 4. **Miss:** full solve, then cache.
@@ -341,7 +345,7 @@ close-hero | diners-eye | home-window-daylight | 3:2 | Impulse | table:2-top | p
 
 ## 8. Rendering and outputs (headless, one frame per option)
 
-- A small **`scene-core`** function, with no React and no render loop, turns `blueprint.json` into a three.js scene and renders one frame at the spec's aspect ratio. It runs in headless Chromium (Playwright) or Node with headless GL.
+- A small **`scene-core`** function, with no React and no render loop, takes `blueprint.json` **plus the run's lighting preset** (the blueprint holds no lighting), turns them into a three.js scene and renders one frame at the spec's aspect ratio. It runs in headless Chromium (Playwright) or Node with headless GL.
 - Passes per option:
   1. **`labeled.png`**: role labels as a 2D overlay, plus the horizon line and copy-reserve blocks. For the operator's pick and debugging.
   2. **`clean.png`**: no labels, lines or blocks. **This is what the image model gets.**
