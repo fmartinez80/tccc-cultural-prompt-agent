@@ -83,7 +83,7 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string): { vessel: st
         : spec.sku.package === "contour-glass-bottle"
           ? "glass Coca-Cola bottle in the classic contour shape, filled to the neck with cola"
           : "clear plastic Coca-Cola bottle, filled to the neck with cola";
-    const text = `exactly one ${shape}, about ${h} cm tall, standing upright and facing the camera straight on so the full logo reads, ${cold}. ${spec.sku.package === "can" ? "Unopened, no straw." : "Capped, no straw."} The label shows the Coca-Cola script logo; print no other words, sizes or descriptions on it.`;
+    const text = `exactly one ${shape}, about ${h} cm tall, standing upright and facing the camera straight on so the full logo reads, ${cold}. ${spec.sku.package === "can" ? "Unopened, no straw." : "Capped, no straw."} ${spec.sku.package === "can" ? "The can shows the white Coca-Cola script logo on red" : "A solid red label band wraps the middle of the bottle, with the white Coca-Cola script logo"}; print no other words, sizes or descriptions on it.`;
     return { vessel: `the ${spec.sku.displayName}, about ${h} cm tall`, fixedText: text[0].toUpperCase() + text.slice(1) };
   }
   if (proxy === "bell-glass") {

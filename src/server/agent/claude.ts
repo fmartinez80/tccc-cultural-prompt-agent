@@ -190,6 +190,8 @@ Write:
   - When the dish has countable pieces, start with the exact count ("Exactly three tacos side by side", "Two slices") and say none is hidden behind another.
   - Name the food by its local name, then what it visibly looks like: colors, textures, how it is cut, filled, sauced and garnished, as it is actually served in this region.
   - Say how the pieces are arranged on the container ("in one row across the plate, all fully visible").
+  - Give proportions: what makes up most of the dish and what is only an accent ("mostly rice, with only a few small pieces of chicken"), and the real size of distinctive pieces ("beans about 2 cm long"). Listing ingredients with equal weight makes the image model draw each one large and prominent.
+  - A plated portion served from a shared dish is smaller and simpler than the dish in its vessel: mostly the base, with a few small pieces.
   - Say what it sits on using the given container wording, including the size.
   - When a common look-alike exists, say what it is not (al pastor is thinly shaved, not shredded; tortillas are small soft corn, not flour).
   - No position, lighting, mood or camera words; the layout gives the position.
