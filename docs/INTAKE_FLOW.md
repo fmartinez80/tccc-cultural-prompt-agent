@@ -45,7 +45,7 @@ Each option keeps its **rationale and knowledge-base sources**, so the cultural-
 | Operating Unit | **owns the rules:** brand and legal rule set, and the SKU catalog available in that OU | `operatingUnit` |
 | Local Region (country) | **cultural knowledge is per country** (how the dish is prepared, plated and served locally). It may later be clustered by OU; v1 is country-specific | `country` (ISO code, e.g. `MX`) |
 | Product SKU | beverage proxy (package, size) and trademark rules | `sku.id`, `sku.package`, `sku.volumeMl` |
-| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **SKUs over 1 L require a glass**, so the answer is pre-set to Y and locked. For 1 L or less, the operator chooses (default N) (`tablescape/glass-rules.json`) | `sku.glass` |
+| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **Hidden (N) on the go**, where glasses never appear. **SKUs over 1 L require a glass**, so the answer is Y and locked. Otherwise the operator chooses (default N). Asked after the scene step, since it depends on the venue (`tablescape/glass-rules.json`) | `sku.glass` |
 | Hero Dish | starting point for steps 1–3 | `entree.name` |
 | Side Dish Request | pre-fills step 3. The agent checks it for cultural fit and still offers the common alternatives | seeds `accompaniments[]` |
 | Occasion | mood and environment in the prompt; sets the time of day when unambiguous (breakfast → morning), which selects the lighting | `occasion` |
@@ -76,6 +76,7 @@ Defines the time and place of the meal. The operator picks one:
 
 - **Writes:** `scene.setting` (indoor / outdoor), `scene.venue` (home / restaurant / on-the-go) and `scene.party` (1 / 2 / group / family).
 - **Surface:** the food always sits on a surface, **never in a hand**. For home and restaurant it's a dining table. For **on the go**, the agent suggests the surface from the country's knowledge base (decision card, A suggested): park or picnic table, bench, food-truck counter, street ledge. Writes `scene.surface`. Narrow surfaces (bench, counter) fit fewer items, and the layout step says so if the selection doesn't fit.
+- **Large SKUs (1 L and up) are home-only.** If the intake SKU is 1 L or larger, the restaurant and on-the-go options are disabled here, with the reason shown. Large SKUs are **shared**: one bottle for the table, and each diner gets a glass when there are glasses.
 - **Place settings:** 2 people and groups get **the same place setting per diner**: the same main, sides, condiments and napkin set, and the **SKU is every diner's drink**. No other drinks are shown (v1).
 - **Time of day:** morning · midday · golden hour · evening. Taken from the occasion when it's unambiguous, otherwise asked here. Writes `scene.time`.
 - **Drives:**
