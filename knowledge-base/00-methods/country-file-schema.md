@@ -382,6 +382,18 @@ alternatives**, not replacements.
   in the confidence tagging rather than letting a well-sourced housing claim
   lend borrowed credibility to a thin decor claim sitting next to it.
 
+### 5.4 The hero product comes from the brief, never from the region
+
+Standing rule, set by the reviewer 2026-09-27: **the brief always names
+the hero SKU** (TCCC brand, variant, format). No country or regional file
+defaults to one — not "the classic red can," not a format picked by
+region. Every file carries a HERO PRODUCT SLOT (template in
+`africa/south-africa.md`): name the variant exactly and negate its
+closest lookalike. A file may document which formats are sold locally and
+which fit a given setting, as reference for whoever writes the brief, but
+never as a default. If a brief names no product, ask for one rather than
+inferring it.
+
 ---
 
 ## 6. Sourcing and confidence discipline

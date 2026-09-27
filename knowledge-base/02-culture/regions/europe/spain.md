@@ -90,9 +90,14 @@ Module below. No beverage other than Coca-Cola is catalogued as a subject.
    number, or brand mark in the output means reject or retouch. Blur
    instructions are known to fail on background signage regardless
    [`country-file-schema.md` §7.5, HIGH — first-party finding].
-2. **The can.** Always write "the classic red Coca-Cola can (original,
-   not Diet Coke or Coke Zero)." Its branding is composited in post,
-   never trusted from the generation (`coca-cola-guidelines.md` §1–§2).
+2. **The hero product comes from the brief, never from the region.**
+   The brief names the exact TCCC brand, variant and format; this file
+   never defaults to one (standing rule, 2026-09-27 — see `DECISIONS.md`;
+   it replaces this file's earlier red-can default). Write it with
+   `africa/south-africa.md`'s HERO PRODUCT SLOT template: name the variant exactly and negate the closest lookalike
+   (e.g. Original vs. Zero Sugar vs. Light). Its branding is composited in
+   post, never trusted from the generation (`coca-cola-guidelines.md`
+   §1–§2).
 3. **No other drinks in frame.** Spanish bar, terraza, and festival
    scenes carry strong training priors toward beer (caña), wine, vermut,
    sangría, tinto de verano, rebujito, cava, coffee, and fresh juice.
@@ -1420,8 +1425,9 @@ level, since none of these surfaced as contested or surprising.*
 
 > A small square aluminium table on a stone plaza in a Spanish city at
 > golden hour on a summer evening, long warm shadows, plane trees behind.
-> On the table: the classic red Coca-Cola can (original, not Diet Coke or
-> Coke Zero), a standard 330ml can (11.52cm tall, 6.61cm diameter), beaded
+> On the table: {HERO PRODUCT from the brief — here, for illustration, a
+> Coca-Cola Original can, not Zero Sugar or Light}, a standard 330ml can
+> (11.52cm tall, 6.61cm diameter), beaded
 > with condensation, beside a plain glass with clear ice cubes and a thin
 > lemon slice. Next to it, a small white saucer about 13cm across holding
 > four plump, glossy green olives in brine and a few thin, pale-golden
@@ -1437,8 +1443,8 @@ level, since none of these surfaced as contested or surprising.*
 > irregular potato chunks about 3cm across with jagged, crackly golden
 > corners and fluffy white interiors, glossy orange-red paprika-based
 > sauce spooned over the top (no tomato in the sauce itself) — and a
-> small bread basket. Beside the plate: the classic red Coca-Cola can
-> (original, not Diet Coke or Coke Zero), a standard 330ml can. Behind,
+> small bread basket. Beside the plate: {HERO PRODUCT from the brief —
+> e.g. a Coca-Cola Original 330ml can, not Zero Sugar or Light}. Behind,
 > softly out of focus: fruit stacked in pyramids and hanging hams; stall
 > signs and price cards visible only as blurred, unreadable colour. No
 > juice cups, no other drinks. Nothing held in a hand.

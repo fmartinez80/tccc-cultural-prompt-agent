@@ -169,9 +169,9 @@ notes only where they prevent a visual error.
 ### HERO PRODUCT SLOT
 
 Every scene carries one TCCC hero product, chosen by the brief. This file
-follows `south-africa.md`'s generalised slot rather than the UK/Germany/
-Spain files' fixed red-can default — see `DECISIONS.md` (Mexico entry) for
-why; the method is identical.
+uses `south-africa.md`'s generalised slot; since 2026-09-27 that is the
+project-wide rule for every country file (the brief dictates the SKU,
+never the region — see `DECISIONS.md`).
 
 **Template:**
 > [HERO PRODUCT]: {brand and variant exactly as named on pack}, in
@@ -194,7 +194,10 @@ why; the method is identical.
   multiple Mexican retailer listings (Mercado Libre, Smart & Final México)
   and a Mexican format round-up agree; exact Mexican-bottler can height
   not independently confirmed, so the US figure is a close stand-in]
-- **Match format to register**, unless the brief overrides:
+- **The brief always names the SKU — never the region or this file**
+  (standing rule, 2026-09-27; see `DECISIONS.md`). If a brief names no
+  product, ask for one rather than inferring it. The register list below
+  is reference for whoever writes the brief, not a default:
   - street taco stand, fonda, market, taquería: a **355 mL returnable
     glass bottle** ("Coca de vidrio") or a **600 mL PET** bottle — the two
     most characteristic single-serve formats in everyday Mexican food
@@ -539,7 +542,7 @@ a window with an iron grille; hule on the table. Plate: a guisado (e.g.
 chicken in salsa verde, picadillo, chicharrón en salsa) with arroz rojo
 and frijoles in adjacent mounds on a plain ceramic or peltre plate; a
 small stack of tortillas de mesa wrapped in a cloth; a salsa in a small
-bowl. Hero: a 600 mL PET or a 355 mL glass bottle beside the plate.
+bowl. Hero (from the brief; formats that fit): a 600 mL PET or a 355 mL glass bottle beside the plate.
 Gen Z: the same table in the family house, or a shared-kitchen counter
 with leftover tacos reheated on a steel comal. [EDITORIAL synthesis;
 dish list MEDIUM]
@@ -550,7 +553,7 @@ A couple or two friends at a small dining table; shared bowls of frijoles
 and arroz, a shared salsa in a molcajete, one tortilla basket, each with
 their own plate of guisado. Or a "taquiza for two": a platter of tacos
 brought from the corner taquería, still in paper, transferred to plates.
-Hero: two cans or two glass bottles, or one 1.25–2 L bottle with two
+Hero (from the brief; formats that fit): two cans or two glass bottles, or one 1.25–2 L bottle with two
 glasses. [EDITORIAL]
 
 #### Scenario: Casual lunch at home — 3 people
@@ -558,7 +561,7 @@ glasses. [EDITORIAL]
 The family comida: a parent and two teenagers or three adults; a shared
 pot or platter in the centre (enchiladas in a baking dish, a cazuela of
 guisado, or tinga for tostadas), a tortilla basket, salsas, a plate of
-lime wedges; individual plates. Hero: a 2.5 L returnable or 2–3 L PET in
+lime wedges; individual plates. Hero (from the brief; formats that fit): a 2.5 L returnable or 2–3 L PET in
 the midground, a filled glass at each place. Leave room on the table —
 Mexican family tables get crowded but not cluttered with props.
 [EDITORIAL]
@@ -583,7 +586,7 @@ plated dinner reads as a special occasion, not an ordinary Mexican cena.
 - **Elsewhere**: a patio or azotea (roof terrace) with plants, a plastic
   table and chairs, the comida carried out; or a garden with fruit trees
   in a larger house. [EDITORIAL]
-- Hero: a multi-serve bottle on the table with glasses, or cans in a
+- Hero (from the brief; formats that fit): a multi-serve bottle on the table with glasses, or cans in a
   cooler (keep cooler branding blurred).
 
 #### Scenario: Meal on the go — 1 person
@@ -592,7 +595,7 @@ The street-food register, and Mexico's strongest one. A single person at
 a taco stand's counter or a stool, a plastic plate in a bag with two to
 four tacos, a lime wedge and salsa; or a torta in its paper wrapper on a
 ledge; or a tamal and a guajolota from a morning/evening tamal cart;
-or tacos de canasta from a bicycle basket. Hero: a 355 mL glass bottle
+or tacos de canasta from a bicycle basket. Hero (from the brief; formats that fit): a 355 mL glass bottle
 with a straw sometimes, a 600 mL PET or a can, resting on the counter.
 **§5.2 contrast**: unlike Uruguay's "grab-and-go barely exists", Mexico's
 street-food density is among the highest in the KB; a stand on every
@@ -608,7 +611,7 @@ the set sequence of **sopa aguada** (a broth soup), **sopa seca** (usually
 arroz rojo or pasta), a **guisado** plated with frijoles, tortillas, red
 and green salsa, and a small dessert. [HIGH for the comida-corrida
 structure — Larousse Cocina, Recetas Nestlé, Grupo Animal, México Travel
-Channel] Or a taquería counter. Hero: a glass bottle or can.
+Channel] Or a taquería counter. Hero (from the brief; formats that fit): a glass bottle or can.
 [SOURCE: [Larousse Cocina — comida corrida](https://laroussecocina.mx/palabra/comida-corrida/);
 [México Travel Channel — qué significa comida corrida](https://mexicotravelchannel.com.mx/que-significa-comida-corrida/)]
 

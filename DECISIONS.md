@@ -3136,3 +3136,34 @@ Wikipedia-derived claims rest on search snippets and say so.
 (new), `knowledge-base/00-methods/market-roadmap.md` (Mexico row).
 Not touched: `coca-cola-guidelines.md`, `country-file-schema.md`, other
 country files.
+
+## Standing rule: the brief dictates the hero SKU, never the region, 2026-09-27
+
+**Decided by Fernando** (reviewer), answering the Mexico PR's question:
+"brief dictates SKU. We should adjust UK and Spain as Brief should always
+dictate SKU and never by region." Also confirmed: the Yucatán stays a zone
+inside `mexico.md` (no `mexico-yucatan.md` spinout).
+
+**What changed:**
+- `country-file-schema.md` §5.4 (new): the rule, stated once for every
+  future file.
+- `europe/uk.md`: the meal-deal entry no longer prescribes the classic red
+  can; the brief names the SKU.
+- `europe/spain.md`: file-wide rule 2 ("The can.") replaced by the
+  brief-dictates-SKU rule; example prompts now show a `{HERO PRODUCT from
+  the brief}` placeholder with an illustrative fill.
+- `europe/germany.md`: the "Classic red Coca-Cola Original only" brand
+  anchor replaced; Zero Sugar, Light and Mezzo Mix (previously excluded as
+  a scope decision) are in scope when a brief names them; the pairing
+  matrix is relabelled as reference for the brief-writer, not a default.
+- `africa/south-africa.md` and `latam/mexico.md`: "match format to
+  register unless the brief overrides" reworded so the register list is
+  reference only, and a brief with no product triggers a question rather
+  than an inferred default.
+
+**Not changed:** `uk-scotland.md` (only a can scale note, no SKU default);
+US regional files (their can mentions are scale anchors, not SKU
+defaults); `coca-cola-guidelines.md` (its §4.4 register logic is generic,
+not regional, and the file has a separate overhaul pending — flagged
+there for that pass). Scale-anchor figures (330 mL can etc.) are untouched:
+they apply whenever the brief picks that format.

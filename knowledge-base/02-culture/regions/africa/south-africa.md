@@ -149,9 +149,8 @@ only where they prevent a visual error.
    this file's HERO PRODUCT SLOT generalizes the identical lesson to any
    TCCC brand and format. Per the orchestrating session's explicit
    instruction, `coca-cola-guidelines.md` itself is out of scope for this
-   pass and has not been rewritten, and this generalization is not being
-   back-ported to the UK/Germany/Spain files here — both are separate,
-   already-flagged future decisions.
+   pass and has not been rewritten. (The UK/Germany/Spain back-port was
+   done 2026-09-27 on the user's direction — see `DECISIONS.md`.)
 3. **No alcohol in any scene, ever.** Alcohol pairings are documented in
    ICONIC BEVERAGES as cultural context; they are never staged. Never show
    a TCCC product as a mixer, beside a spirits bottle, or in cocktail
@@ -175,10 +174,10 @@ only where they prevent a visual error.
 
 Every scene carries one TCCC hero product, chosen by the brief — **this
 file never defaults to a fixed "the classic red Coca-Cola can."** This is
-the user's own explicit, deliberate design feature for this file (distinct
-from the UK/Germany/Spain files' red-can default, which is out of scope
-for this pass), preserved exactly as built and verified for internal
-consistency this pass rather than redesigned.
+the user's own explicit, deliberate design feature for this file, and
+since 2026-09-27 the project-wide rule: the brief dictates the SKU, never
+the region (the UK/Germany/Spain red-can defaults were removed the same
+day — see `DECISIONS.md`).
 
 **Template:**
 > [HERO PRODUCT]: {brand and variant exactly as named on pack}, in
@@ -193,7 +192,10 @@ consistency this pass rather than redesigned.
   variant in 2 of 3 generations (`coca-cola-guidelines.md` §1). The lesson
   applies to every brand: Original vs. Zero Sugar vs. Light; Fanta's
   several flavours; Sparletta's several flavours.
-- **Match format to register**, unless the brief overrides:
+- **The brief always names the SKU — never the region or this file**
+  (standing rule, 2026-09-27; see `DECISIONS.md`). If a brief names no
+  product, ask for one rather than inferring it. The register list below
+  is reference for whoever writes the brief, not a default:
   - on the go, forecourt, street: a can or small PET
   - shisa nyama, spaza counter, township yard: a returnable glass bottle
     or PET

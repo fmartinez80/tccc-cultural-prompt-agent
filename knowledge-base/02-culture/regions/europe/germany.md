@@ -1702,12 +1702,15 @@ can dimensions) rather than restating them.
 
 ### Brand anchor
 
-**Classic red Coca-Cola Original only** — not Zero Sugar, not Diet/Light.
-**Mezzo Mix (a real Coca-Cola Germany cola-orange product) is excluded from
-this file's scope** — this is a KB scope decision, not a factual claim
-about the product's existence or popularity, and carries no confidence tag.
-Competitor beverages and other cola-orange "Spezi"-type drinks are never
-shown.
+**The brief names the hero SKU — never this file, never the region.**
+(Standing rule, 2026-09-27 — see `DECISIONS.md`; it replaces this file's
+earlier "Classic red Coca-Cola Original only" anchor.) Any TCCC brand,
+variant or format the brief names is in scope, including Coca-Cola Zero
+Sugar, Light, and **Mezzo Mix** (a real Coca-Cola Germany cola-orange
+product, previously excluded here as a scope decision). Write the slot
+with `africa/south-africa.md`'s HERO PRODUCT SLOT template: name the variant exactly and negate the closest
+lookalike. Competitor beverages and non-TCCC cola-orange "Spezi"-type
+drinks are never shown.
 
 ### German/EU pack formats (scale anchors)
 
@@ -1783,9 +1786,11 @@ documented throughout this file are accurate context only. In every image:
 
 Carried from the draft's own market-fit reasoning; none of these ratings
 are independently sourced surveys, and all remain editorial judgment calls
-about scene fit rather than measured consumer-preference data.
+about scene fit rather than measured consumer-preference data. **Reference
+for whoever writes the brief only** — the brief chooses the SKU; this
+table never overrides it or fills it in.
 
-| Context | Fit | Preferred format |
+| Context | Fit | Formats that fit the setting |
 |---|---|---|
 | Currywurst / fries / Döner / Imbiss | Strong | 330mL can or 0.5L PET |
 | Pizza / pasta / Gyros / Asia box | Strong | 0.33L glass or can |

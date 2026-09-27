@@ -452,8 +452,8 @@ above.
 lunch** — a genuine, sharp contrast with both Uruguay ("grab-and-go
 barely exists") and the US's car-centric drive-thru culture: this is a
 pedestrian/transit culture. A triangle-pack sandwich, a packet of crisps,
-and a drink — here, the classic red Coca-Cola can is an unusually natural
-product fit — eaten on a park bench, a low wall, at a desk, or on a train
+and a drink — a single-serve can or small bottle is an unusually natural
+product fit here (the brief names the exact SKU) — eaten on a park bench, a low wall, at a desk, or on a train
 seat. [CONFIDENCE: HIGH] A bakery-chain sausage roll or pasty in a paper
 bag is a close second. Chips from the chippy, eaten outdoors from the
 paper (classically on a seafront wall or bench, resting on the wall/paper
@@ -784,10 +784,12 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   edge close to the can's 11.52cm height. [CONFIDENCE: LOW-MEDIUM — a
   reasonable inference from standard sliced-bread dimensions, not an
   independently measured figure]
-- Can fit: This is the single most natural Coca-Cola-in-frame scene in
-  the file. Use the classic red Coca-Cola can (original, not Diet Coke or
-  Coke Zero) at the 330mL UK dimensions above, or the 500mL PET bottle as
-  the natural "meal deal" format per `coca-cola-guidelines.md` §4.3.
+- Product fit: This is the single most natural Coca-Cola-in-frame scene
+  in the file. **The brief names the SKU** (brand, variant, format) — this
+  file never picks one by region (standing rule, 2026-09-27; see
+  `DECISIONS.md`). Name the variant exactly and negate its closest
+  lookalike, per `africa/south-africa.md`'s HERO PRODUCT SLOT template. Scale: a 330mL can uses the UK dimensions
+  above; a 500mL PET per `coca-cola-guidelines.md` §4.3.
 - Sources: [The Critic](https://thecritic.co.uk/the-real-deal-with-meal-deals/); [Wikipedia: Meal deal](https://en.wikipedia.org/wiki/Meal_deal)
 
 #### Dish: Curry-house dishes (chicken tikka masala, korma, balti, poppadoms)
