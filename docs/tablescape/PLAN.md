@@ -1,7 +1,7 @@
 # Tablescape Composer — Plan
 
 Turn the Cultural Prompt Agent's scene guidance into a **labeled 3D perspective proxy** of the tablescape that follows the CokeMeals composition rules:
-- 30° diner's-eye camera
+- camera lens and angle chosen from dropdowns (default: 30° diner's eye)
 - table horizon at or below 50 % of the frame
 - the main entree and SKU as co-heroes
 - 50 / 30 / 20 visual mass across the three layers
@@ -69,6 +69,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 |---|---|
 | `format.aspectRatio` (1:1, 2:3, 1:3, 3:2, 3:1) | frame shape and table-zone shape |
 | `format.shopperZone` (Transition, Impulse, Destination) | copy reserve blocks in the upper zone |
+| `camera.lens`, `camera.angle` | proxy focal length, focus distance and pitch; prompt fragments |
 | `scene.{setting, venue, party}` | table type/size, arrangement style, environment prompt |
 | `sku.package` | beverage proxy, logo box, seam offset |
 | `entree.{vessel, massClass}` | main proxy footprint and silhouette height |
@@ -77,7 +78,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 
 - **Closed vocabularies** for `vessel`, `role`, `package`, `massClass`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the prompt.
 - **Stable role labels** (`SKU`, `MAIN`, `SIDE_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_1`, `CUTLERY_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest.
-- There are **no camera fields in the spec.** The composition rules fix the camera (section 4).
+- `camera.{lens, angle}` are dropdown ids from [`camera-options.json`](./camera-options.json) (section 4a).
 
 ### 1b. Output: `blueprint.json` (Part A schema + extensions)
 Every option's layout is emitted as a `CokeMeals3DTablescapeBlueprint` ([schema](./source/blueprint.schema.json)). It's the shared format between the composer, template cache, renderer and prompt manifest. The extensions below are allowed because the schema doesn't forbid extra properties. We should fold them into schema v2:
@@ -101,13 +102,13 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 |---|---|---|
 | `registry/*.json`: **known sizes** | real dimensions (m), footprint, height, bottom-center pivot, logo box, label anchor | 8 oz contour bottle Ø 6.2 × 19.5 cm; dinner plate Ø 27 cm; ramekin Ø 7 cm; 2-top 75 × 75 cm… |
 | `rules/brand.json`: **brand rules** | non-negotiables for the SKU | SKU on the diner's right; trademark clear zone; "Coca" script fully visible and in frame; clockwise seam offset; upright |
-| `rules/composition.json`: **composition rules** | CokeMeals layout rules | camera 30°; horizon ≤ 0.50; depth bands; phi-grid anchors; 50/30/20 mass; odd/even; condiment 1–3 in; cutlery vectors; no line-of-sight stacking; side size 40–60 % |
+| `rules/composition.json`: **composition rules** | CokeMeals layout rules | default camera 30°; horizon ≤ 0.50; depth bands; phi-grid anchors; 50/30/20 mass; odd/even; condiment 1–3 in; cutlery vectors; no line-of-sight stacking; side size 40–60 % |
 
 **Hard** rules reject an option and are never relaxed. **Soft** rules are scored, with weights in `composition.json`. Section 13 lists which is which.
 
 ### 2a. SKU placement: always on the diner's right
 - The SKU sits to the **right of MAIN, on the diner's right-hand side**, in every market. This avoids cultural problems where use of the left hand while dining is discouraged. It also matches the composition rule: beverage in the midground-right, over the upper-right phi intersection.
-- The diner's right is defined from the diner's seat. The fixed camera shoots from the diner's side, so the diner's right is always **screen-right**.
+- The diner's right is defined from the diner's seat. Every camera option shoots from the diner's side, so the diner's right is always **screen-right**.
 - **Hard constraint:** the SKU centroid is right of MAIN's centroid and inside the right half of the frame. It targets the right phi line (x = +0.236).
 - There's no per-market override. Any other drinkware goes on the right with the SKU.
 
@@ -122,14 +123,48 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 
 ## 4. Camera and frame
 
-### 4a. Fixed camera (from the composition rules)
+### 4a. Camera dropdowns
 
-| parameter | value | notes |
-|---|---|---|
-| pitch | **30°** (diner's eye) | schema allows 30–45°. v1 locks 30°. Overhead (90°) and hyper-low (0°) are never used |
-| azimuth | 0° ± 10°, from the diner's side | keeps diner's-right = screen-right |
-| focal length | 50 mm | `fov = 2·atan(24 / (2·50))` full-frame vertical |
-| aperture | f/4–f/5.6 | **prompt-only**: depth of field isn't rendered in the proxy, it's passed to the prompt manifest |
+The operator picks **Lens** and **Angle** from two dropdowns. Both are defined once in [`camera-options.json`](./camera-options.json), which the front end, the prompt builder and the proxy camera all read. Each option carries:
+- a **UI label**
+- a **prompt fragment**: one complete sentence in a consistent style, with no markdown or bullet syntax, so fragments concatenate cleanly
+- **proxy parameters** (focal length, focus distance, pitch). The proxy must be rendered with the same lens and angle the prompt describes, or the composition reference and the prompt disagree.
+
+**Lens + depth of field**
+
+| id | label | proxy | prompt fragment (abridged) |
+|---|---|---|---|
+| `standard-50` *(default)* | Standard · 50mm · f/2.8 | 50 mm, focus auto | "Shot with a 50mm lens at f/2.8 for a shallow depth of field, with the main dish and the Coca-Cola bottle in sharp focus…" |
+| `wide-35` | Wide · 35mm · f/1.4 · focus 1.5 m | 35 mm, camera ~1.5 m from MAIN | "Shot on a 35mm wide-angle lens… at f/1.4, focused at about 1.5 meters on the main dish and the Coca-Cola bottle…" |
+| `ultrawide-15` | Ultra-wide · 15mm rectilinear · street food | 15 mm, focus auto | "Shot on an ultra-wide 15mm rectilinear lens at f/8 with deep depth of field… straight verticals and no fisheye distortion." |
+
+**Angle**
+
+| id | label | proxy pitch | status |
+|---|---|---|---|
+| `low-10` | Low · 10° | 10° | from your list |
+| `medium-25` | Medium · 25° | 25° | from your list |
+| `diners-eye-30` *(default)* | Diner's eye · 30° | 30° | proposed: the composition rules' default was missing |
+| `high-45` | High · 45° | 45° | proposed: upper end of the schema's 30–45° range |
+
+Overhead (90°) and hyper-low (0°) stay excluded, per the composition rules.
+
+**Adjustments made to the source options for prompt use**
+- **Ranges → one value.** "14–16mm" → 15 mm and "28–35mm" → 35 mm. The prompt could keep a range, but the proxy camera needs one number, and the two must match.
+- **Every option names what's sharp.** At 50 mm f/2.8 only ~6–9 cm of depth is in focus, and at 35 mm f/1.4 / 1.5 m only ~15 cm. The entree and the bottle sit 20–30 cm apart, so "shallow depth of field" alone lets the model blur one of them. Naming "the main dish and the Coca-Cola bottle in sharp focus" protects the brand rule that the "Coca" script stays in focus.
+- **"Moderate depth of field" → "shallow".** f/1.4 at 1.5 m is shallow, and the prompt should say what the lens really does.
+- **Genre moved out of the lens.** "Photorealistic street food photography" is scene text, not a lens property. It now comes from the scene step (`venue: on-the-go`), so picking the ultra-wide for a restaurant scene doesn't turn it into street food.
+- **Ultra-wide aperture added (f/8, proposed).** None was given. Ultra-wides are normally shot stopped down.
+- **Consistent sentence form.** Lens fragments start "Shot with/on…" and angle fragments describe the camera position. The prompt order is fixed: `scene/genre → subject → angle → lens → lighting`.
+
+**How the choices affect the layout**
+- **Focal length** sets the proxy's field of view, `fov = 2·atan(24 / (2·f))` (full-frame vertical).
+- **Focus distance** (35 mm option) fixes the camera ~1.5 m from MAIN, so auto-fit only adjusts the aim. The result is a wider, more environmental frame with smaller items.
+- **Ultra-wide** stretches objects near the frame edges, so the SKU must stay out of the outer 15 % (extra hard constraint). It's recommended for outdoor and on-the-go scenes.
+- **Low angle (10°)** makes items hide behind each other more. Fewer items fit before the no-stacking rule fails, and the solver reports infeasible rather than stacking.
+- **Azimuth** is 0° ± 10°, always from the diner's side, which keeps diner's-right = screen-right.
+- **Aperture is prompt-only.** The proxy doesn't render blur.
+- Lens and angle are **part of the template signature**. A template picked at 50 mm / 30° isn't reused for 35 mm / 10°.
 
 ### 4b. Frame zones
 
@@ -144,7 +179,7 @@ y = 0.5 ├ ─ ─ ─ ─ ─ ─ table rear edge ≤ here ─ ─ ─ ─ ┤
 y = 0.0 └───────────────────────────────────────────┘
 ```
 
-- **Auto-fit:** pitch, azimuth and lens stay locked. Camera distance, height and aim point are solved so that:
+- **Auto-fit:** the chosen pitch and lens stay locked, as does the azimuth. Camera distance, height and aim point are solved so that:
   - the table's rear edge projects at y ≤ 0.50 (target 0.44–0.50, which uses the table zone fully)
   - every table primitive's silhouette stays inside the table zone (see open question 1)
   - MAIN and the SKU land near their phi anchors
@@ -242,7 +277,7 @@ If no archetype is feasible, return an infeasible result with a relaxation sugge
 **Locked across options:**
 - elements, vessels and counts, including the injected accent
 - format (aspect ratio, shopper zone)
-- camera
+- camera lens and angle (the operator's dropdown choices)
 - every hard rule
 
 **Allowed to vary:**
@@ -272,7 +307,7 @@ Each option has a one-line rationale, for example *"Crescent Arc: sides wrap beh
 
 A **signature** is a key over everything locked:
 ```
-diners-eye-30 | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
+standard-50 | diners-eye-30 | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:plate(flat) | L2:bowl | L3:small-bowl,accent:small-bowl | props:napkin,cutlery | proxyset:v3 | rules:v2
 ```
 
 **Lookup:**
@@ -297,7 +332,7 @@ diners-eye-30 | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:p
   4. **`blueprint.json`**: Part A plus extensions, including every rule's pass/fail result.
 - **Validators are the quality gate.** Hard rules are re-checked on the rendered ID mask. A failure fails the run loudly and never ships a frame.
 - **Prompt-only rules** travel in the prompt manifest, not the proxy:
-  - aperture / depth of field
+  - aperture / depth of field and focus target (the lens dropdown's prompt fragment)
   - environment and bokeh content for the upper zone
   - ≤ 2.5 background faces
   - the "Coca" script slanting diagonally upward, which is inherent to an upright bottle facing the camera
@@ -322,7 +357,7 @@ diners-eye-30 | 3:2 | Impulse | table:2-top | party:1 | sku:contour-8oz | main:p
 | Geometry builders (`objectGeometries.js`) → registry | Scales aren't real-world (plate is 0.8 m across on a 2 m table), and pivots are centered (hence `spawnHeight 0.85`). Switch to meters, bottom pivots and the blueprint shape types |
 | Object model `{id, type, category, label, position, rotation, scale}` | Replace with blueprint primitives (`layer`, `role`, `shape_type`…) |
 | Aspect-ratio selector | Use the five ShRED ratios, driven by the spec |
-| — | CameraPresets (the camera is fixed), TransformGizmo, CategoryPicker, LayersPanel, LOAD/SAVE UI. The composer can stay as an **optional debug viewer** for `blueprint.json` |
+| — | CameraPresets (replaced by the dropdowns in `camera-options.json`), TransformGizmo, CategoryPicker, LayersPanel, LOAD/SAVE UI. The composer can stay as an **optional debug viewer** for `blueprint.json` |
 
 ## 11. Module layout
 
@@ -331,7 +366,7 @@ tablescape/
   schema/        SceneSpec, Blueprint (Part A + extensions), Options, Template schemas + fixtures
   registry/      known sizes: beverages (+ logo boxes), plating vessels, food-mass, props, tables
   rules/         brand.json, composition.json, archetypes/*.json, shopper-zones.json
-  camera/        fixed diner's-eye camera, auto-fit, horizon clamp
+  camera/        camera-options.json → proxy camera, auto-fit, horizon clamp
   solver/        layer + odd/even pre-step, constraints H1–H12, scoring, archetype search, option selection
   templates/     signature(), lookup, cache, approvals, pick counts
   render/        scene-core, label / horizon / copy-reserve overlay, depth + ID passes, contact sheet, headless runner
@@ -356,7 +391,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 
 | Source rule | Implemented as | Where |
 |---|---|---|
-| ~30° diner's-eye camera; no overhead or hyper-low | fixed camera | 4a |
+| ~30° diner's-eye camera; no overhead or hyper-low | 30° is the default angle; 10°, 25°, 45° also offered; 0° and 90° excluded | 4a (open question 13) |
 | Table rear edge ≤ Y 0.50 | **H1** + auto-fit | 4b, 5.3 |
 | All table items in the lower 50 % | **H2** | 5.3 (open question 1) |
 | Upper 50 % for bokeh + ShRED copy | environment is prompt-only; `copy_reserve[]` | 4b, 8 |
@@ -373,7 +408,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 | Clockwise seam offset on bottles / cans | **H6** | 5.3 (open question 5) |
 | Trademark clear zone; nothing overlaps the logo box | **H5** | 5.3 |
 | "Coca" fully visible, in focus, slanting upward, even if tightly cropped | **H5** (in frame and uncovered); focus and slant are prompt-only | 5.3, 8 |
-| f/4–f/5.6 depth of field | prompt manifest | 8 |
+| f/4–f/5.6 depth of field | superseded by the lens dropdown (f/1.4–f/8); every fragment names the entree and bottle as sharp | 4a (open question 13) |
 | ≤ 2.5 faces in the background | prompt manifest + post-gen check | 8, 9 |
 | SKU on the diner's right (our rule) | **H4** | 2a |
 
@@ -404,3 +439,9 @@ Pipeline questions (carried over):
 10. **Image workflow inputs:** does the workflow accept depth / segmentation / region masks, or only a reference image plus prompt?
 11. **Label semantics:** role labels (`SKU`, `MAIN`) in `labeled.png` and content labels in the manifest (recommended)?
 12. **Where it lives:** a standalone `tablescape/` package in this repo, with `wpp-scene-composer` as an optional debug viewer (recommended)?
+
+Camera dropdowns:
+
+13. **Dropdowns vs composition rules.** The rules say ~30° and f/4–f/5.6. The dropdowns now offer 10° and 25° angles and f/1.4–f/2.8 apertures. OK to treat the rules' values as the **defaults** rather than fixed requirements? The focus wording in each fragment covers the "Coca in focus" rule.
+14. **Ultra-wide aperture:** is f/8 right? And should the ultra-wide be offered only for outdoor and on-the-go scenes, or for all scenes?
+15. **Lighting dropdown:** lighting (natural window light, golden hour, overcast, warm evening interior…) is the next big prompt lever and isn't covered yet. Same structure as the camera dropdowns, with a default tied to occasion and scene.

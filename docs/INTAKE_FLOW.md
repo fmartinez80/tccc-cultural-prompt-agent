@@ -3,14 +3,14 @@
 This is the front half of the pipeline: the exchange between the operator and the Cultural Prompt Agent that turns a short intake into a tailored meal and scene. It ends by producing the `SceneSpec`, which the tablescape composer ([`tablescape/PLAN.md`](./tablescape/PLAN.md)) turns into layout options.
 
 ```
-Intake ─► 1 Meal prep ─► 2 Plating ─► 3 Sides + accompaniments ─► 4 Scene details ─► 5 Format*
+Intake ─► 1 Meal prep ─► 2 Plating ─► 3 Sides + accompaniments ─► 4 Scene details ─► 5 Format + camera*
                                                                                          │
                      Meal summary + prompt manifest ◄─ 6 Layout pick (tablescape) ◄─ SceneSpec
                                      │
                                      ▼
                               Image generation
 ```
-\* Step 5 is proposed. Aspect ratio and shopper zone are required by the composition rules but aren't in the intake yet (see gaps).
+\* Step 5 is proposed. Aspect ratio and shopper zone are required by the composition rules but aren't in the intake yet (see gaps). Camera lens and angle are dropdowns.
 
 ## One pattern for every decision step
 
@@ -79,10 +79,16 @@ Defines the time and place of the meal. The operator picks one:
   - the arrangement style (group and family map to family-style sharing)
   - what fills the **upper 50 % environment zone** (home kitchen, restaurant interior, garden), which is prompt-only and never table elements
   - the **≤ 2.5 faces** rule for background people
+  - the **genre line** at the start of the prompt (for example "Photorealistic street food photography" for on-the-go, or "Photorealistic restaurant food photography"). It used to be part of the ultra-wide lens option.
 
-### 5. Format (proposed new step)
-- **Writes:** `format.aspectRatio` (1:1, 2:3, 1:3, 3:2, 3:1) and `format.shopperZone` (Transition, Impulse, Destination).
-- Both are required by the blueprint schema and change the layout: aspect ratio changes the table-zone shape, and shopper zone sets copy reserves. They usually come from the media placement, so they may belong at intake instead.
+### 5. Format + camera (proposed new step)
+These are **dropdowns**, not decision cards. The agent doesn't suggest them from cultural knowledge. Each has a default, so the operator can skip the step.
+- **Aspect ratio:** 1:1, 2:3, 1:3, 3:2, 3:1. Writes `format.aspectRatio`.
+- **Shopper zone:** Transition, Impulse, Destination. Writes `format.shopperZone`. This and aspect ratio usually come from the media placement, so they may belong at intake instead.
+- **Lens + depth of field:** Standard 50mm f/2.8 (default) · Wide 35mm f/1.4 · Ultra-wide 15mm. Writes `camera.lens`.
+- **Angle:** Low 10° · Medium 25° · Diner's eye 30° (default) · High 45°. Writes `camera.angle`.
+
+Lens and angle options, their prompt fragments and their proxy parameters live in [`tablescape/camera-options.json`](./tablescape/camera-options.json). See `tablescape/PLAN.md` §4a.
 
 ### 6. Layout pick
 The tablescape composer returns up to 3 layout options for the locked elements. The operator picks one, using the same decision-card pattern. See [`tablescape/PLAN.md`](./tablescape/PLAN.md).
@@ -103,6 +109,7 @@ After step 3, the composer counts the table items (main + beverage + sides + con
   "occasion": "weekday lunch",
   "scene":  { "setting": "indoor", "venue": "restaurant", "party": "1" },
   "format": { "aspectRatio": "3:2", "shopperZone": "Impulse" },
+  "camera": { "lens": "standard-50", "angle": "diners-eye-30" },
   "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle" },
   "entree": { "name": "tacos al pastor", "prep": "trompo-shaved pork, pineapple, cilantro, onion", "vessel": "plate", "massClass": "flat" },
   "accompaniments": [
@@ -114,7 +121,7 @@ After step 3, the composer counts the table items (main + beverage + sides + con
 }
 ```
 
-Camera parameters (30° pitch, 50 mm, f/4–f/5.6) are **not** in the spec. The composition rules fix them.
+`camera` holds dropdown ids. The composer looks up focal length, focus distance, pitch and the prompt fragments in `camera-options.json`.
 
 ## Gaps to decide
 

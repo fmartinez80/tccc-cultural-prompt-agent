@@ -1,0 +1,74 @@
+{
+  "$comment": "Camera dropdowns. Each option has a UI label, a prompt fragment written to be concatenated in a fixed order (see PLAN.md 4a), and the numeric parameters the 3D proxy camera must use so the proxy and the prompt describe the same shot. Items marked status=proposed are suggestions awaiting team sign-off.",
+  "version": "0.1",
+
+  "lens": {
+    "default": "standard-50",
+    "options": [
+      {
+        "id": "standard-50",
+        "label": "Standard · 50mm · f/2.8 · shallow depth of field",
+        "prompt": "Shot with a 50mm lens at f/2.8 for a shallow depth of field, with the main dish and the Coca-Cola bottle in sharp focus and the background falling into soft bokeh.",
+        "proxy": { "focal_length_mm": 50, "focus_distance_m": "auto" },
+        "aperture": "f/2.8",
+        "notes": "Real depth of field is ~6-9 cm at 1.0-1.2 m, less than the 20-30 cm between entree and bottle, so the prompt names both as the sharp subjects."
+      },
+      {
+        "id": "wide-35",
+        "label": "Wide · 35mm · f/1.4 · focus 1.5 m",
+        "prompt": "Shot on a 35mm wide-angle lens (full-frame equivalent) at f/1.4, focused at about 1.5 meters on the main dish and the Coca-Cola bottle, with a shallow depth of field and a softly blurred background.",
+        "proxy": { "focal_length_mm": 35, "focus_distance_m": 1.5 },
+        "aperture": "f/1.4",
+        "notes": "Source said 28-35mm; the proxy needs one value, 35mm chosen for less edge stretch. Source said 'moderate depth of field', but f/1.4 at 1.5 m gives ~15 cm (35mm) to ~24 cm (28mm), which is shallow, so the wording was corrected. Focus distance fixes camera-to-MAIN distance at ~1.5 m, so this is a wider, more environmental frame."
+      },
+      {
+        "id": "ultrawide-15",
+        "label": "Ultra-wide · 15mm rectilinear · street food",
+        "prompt": "Shot on an ultra-wide 15mm rectilinear lens at f/8 with deep depth of field, the food and the Coca-Cola bottle sharp, straight verticals and no fisheye distortion.",
+        "proxy": { "focal_length_mm": 15, "focus_distance_m": "auto" },
+        "aperture": "f/8",
+        "aperture_status": "proposed",
+        "recommended_for": { "venue": ["on-the-go"], "setting": ["outdoor"] },
+        "constraints": { "sku_min_distance_from_frame_edge_pct": 15 },
+        "notes": "Source said 14-16mm; 15mm used for the proxy. No aperture was given; f/8 proposed. 'Photorealistic street food photography' moved out of the lens text into the scene/genre text so it only appears for street scenes. Ultra-wides stretch objects near the frame edges, so the SKU is kept out of the outer 15% to protect the logo."
+      }
+    ]
+  },
+
+  "angle": {
+    "default": "diners-eye-30",
+    "options": [
+      {
+        "id": "low-10",
+        "label": "Low · 10°",
+        "prompt": "Low camera angle, about 10 degrees above the tabletop, close to the diner's eye level.",
+        "proxy": { "pitch_deg": 10 },
+        "notes": "At low angles items hide behind each other more, so fewer items fit without breaking the no-stacking rule. The solver reports infeasible rather than stacking."
+      },
+      {
+        "id": "medium-25",
+        "label": "Medium · 25°",
+        "prompt": "Camera angled about 25 degrees down toward the table.",
+        "proxy": { "pitch_deg": 25 }
+      },
+      {
+        "id": "diners-eye-30",
+        "label": "Diner's eye · 30° (brand default)",
+        "prompt": "Diner's-eye view, camera angled about 30 degrees down toward the table.",
+        "proxy": { "pitch_deg": 30 },
+        "status": "proposed",
+        "notes": "The composition rules set ~30° as the default; it was missing from the list."
+      },
+      {
+        "id": "high-45",
+        "label": "High · 45°",
+        "prompt": "Camera angled about 45 degrees down toward the table.",
+        "proxy": { "pitch_deg": 45 },
+        "status": "proposed",
+        "notes": "Upper end of the 30-45° range allowed by the blueprint schema. Overhead (90°) stays excluded by the composition rules."
+      }
+    ]
+  },
+
+  "prompt_order": ["scene_genre", "subject", "angle", "lens", "lighting"]
+}
