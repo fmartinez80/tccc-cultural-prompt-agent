@@ -44,9 +44,9 @@
     "transparent": {
       "packages": ["contour-glass-bottle", "pet-bottle", "glass-with-ice", "bell-glass"],
       "prompt_by_warmth": {
-        "cool":    "Light passes through {drinks} from behind, giving the cola a deep red-amber glow with crisp highlights along the glass.",
-        "warm":    "Warm light passes through {drinks} from behind, making the cola glow rich amber-red with warm highlights along the glass.",
-        "ambient": "A soft glow passes through {drinks} from the light behind, with gentle highlights tracing the glass."
+        "cool":    "Light passes through {drinks} from behind, giving the cola a deep red-amber glow with crisp highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label.",
+        "warm":    "Warm light passes through {drinks} from behind, making the cola glow rich amber-red with warm highlights along the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label.",
+        "ambient": "A soft glow passes through {drinks} from the light behind, with gentle highlights tracing the glass. The label itself is never washed out: it is evenly lit from the front, opaque, clean and a solid, saturated Coca-Cola red, with the white script crisp and fully legible; the glow shows only in the cola above and below the label."
       }
     },
     "opaque": {
