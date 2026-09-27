@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "scene-3-uy",
+    "brief": "Meal + 3: Uruguay choripan, side of chimichurri, side of french fries, mobile phone, lunch at home",
+    "market": "UY",
+    "setting": {
+      "place": "home",
+      "time": "lunch"
+    },
+    "table": "table-rect-4top"
+  },
+  "blueprint": {
+    "canvas_metadata": {
+      "aspect_ratio": "1:1",
+      "shopper_zone": "Transition"
+    },
+    "horizon_clamp": {
+      "max_table_rear_y_normalized": 0.42
+    },
+    "table_dining_mode": "SINGLE_DINER",
+    "primitives": [
+      {
+        "id": "choripan_main",
+        "diner_index": 1,
+        "component_role": "MAIN_ENTREE",
+        "base_layer_type": "wooden_board",
+        "clock_position": "6:00_CENTER",
+        "shape_type": "bounding_box",
+        "center_coordinates": {
+          "x": -0.15,
+          "y": 0.2,
+          "z": 0.14
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": -8,
+          "roll": 0
+        },
+        "x_asset": {
+          "food": "food-choripan",
+          "text": "choripan in pan flauta"
+        }
+      },
+      {
+        "id": "chimichurri_ramekin",
+        "diner_index": 1,
+        "component_role": "CONDIMENT_SAUCE",
+        "base_layer_type": "wooden_board",
+        "clock_position": "ON_BOARD",
+        "shape_type": "cylinder",
+        "center_coordinates": {
+          "x": 0.12,
+          "y": 0.22,
+          "z": 0.16
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "ramekin",
+          "food": "food-mound",
+          "text": "chimichurri"
+        },
+        "proximity_target_id": "choripan_main"
+      },
+      {
+        "id": "french_fries_basket",
+        "diner_index": 1,
+        "component_role": "SIDE_DISH",
+        "base_layer_type": "bare_table",
+        "clock_position": "10:00-11:00_TOP_LEFT",
+        "shape_type": "bounding_box",
+        "center_coordinates": {
+          "x": -0.52,
+          "y": 0.3,
+          "z": 0.28
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 15,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "basket-fries",
+          "food": "food-fries",
+          "text": "french fries"
+        },
+        "proximity_target_id": "choripan_main"
+      },
+      {
+        "id": "coke_glass_contour",
+        "diner_index": 1,
+        "component_role": "HERO_BEVERAGE",
+        "base_layer_type": "bare_table",
+        "clock_position": "1:00-2:00_TOP_RIGHT",
+        "shape_type": "cylinder",
+        "center_coordinates": {
+          "x": 0.4,
+          "y": 0.35,
+          "z": 0.35
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 20,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "glass-contour",
+          "text": "Coca-Cola in a contour glass"
+        },
+        "glass_logo_base_overlap_allowed": true
+      },
+      {
+        "id": "mobile_phone_prop",
+        "diner_index": 1,
+        "component_role": "LIFESTYLE_PROP",
+        "base_layer_type": "bare_table",
+        "clock_position": "4:00-5:00_BOTTOM_RIGHT",
+        "shape_type": "bounding_box",
+        "center_coordinates": {
+          "x": 0.5,
+          "y": 0.14,
+          "z": 0.1
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": -25,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "phone",
+          "text": "mobile phone"
+        },
+        "proximity_target_id": "choripan_main"
+      }
+    ]
+  }
+}

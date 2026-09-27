@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "scene-2-kc",
+    "brief": "Meal + Side + Coke: pulled pork sandwich, Kansas City MO, indoors away from home, side of coleslaw, 330mL Coca-Cola",
+    "market": "US-midwest",
+    "setting": {
+      "place": "indoors-away",
+      "time": "any"
+    },
+    "table": "table-2top"
+  },
+  "blueprint": {
+    "canvas_metadata": {
+      "aspect_ratio": "1:1",
+      "shopper_zone": "Destination"
+    },
+    "horizon_clamp": {
+      "max_table_rear_y_normalized": 0.48
+    },
+    "table_dining_mode": "SINGLE_DINER",
+    "primitives": [
+      {
+        "id": "pulled_pork_sandwich",
+        "diner_index": 1,
+        "component_role": "MAIN_ENTREE",
+        "base_layer_type": "butcher_paper",
+        "clock_position": "6:00_CENTER",
+        "shape_type": "flattened_cylinder",
+        "center_coordinates": {
+          "x": -0.1,
+          "y": 0.22,
+          "z": 0.15
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 5,
+          "roll": 0
+        },
+        "x_asset": {
+          "food": "food-bun-sandwich",
+          "text": "KC pulled pork sandwich on a soft white bun"
+        }
+      },
+      {
+        "id": "cole_slaw_bowl",
+        "diner_index": 1,
+        "component_role": "SIDE_DISH",
+        "base_layer_type": "bare_table",
+        "clock_position": "10:00-11:00_TOP_LEFT",
+        "shape_type": "flattened_cylinder",
+        "center_coordinates": {
+          "x": -0.45,
+          "y": 0.32,
+          "z": 0.3
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "bowl-side-small",
+          "food": "food-mound",
+          "text": "creamy coleslaw"
+        },
+        "proximity_target_id": "pulled_pork_sandwich"
+      },
+      {
+        "id": "coke_bottle_330ml",
+        "diner_index": 1,
+        "component_role": "HERO_BEVERAGE",
+        "base_layer_type": "bare_table",
+        "clock_position": "1:00-2:00_TOP_RIGHT",
+        "shape_type": "cylinder",
+        "center_coordinates": {
+          "x": 0.42,
+          "y": 0.38,
+          "z": 0.38
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 30,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "bottle-contour-330",
+          "text": "Coca-Cola 330mL contour glass bottle"
+        },
+        "glass_logo_base_overlap_allowed": true
+      },
+      {
+        "id": "pickle_ramekin",
+        "diner_index": 1,
+        "component_role": "CONDIMENT_SAUCE",
+        "base_layer_type": "butcher_paper",
+        "clock_position": "ON_BOARD",
+        "shape_type": "cylinder",
+        "center_coordinates": {
+          "x": 0.12,
+          "y": 0.26,
+          "z": 0.2
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "ramekin-small",
+          "food": "food-mound",
+          "text": "pickle chips"
+        },
+        "proximity_target_id": "pulled_pork_sandwich"
+      }
+    ]
+  }
+}

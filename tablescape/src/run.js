@@ -6,12 +6,13 @@ import http from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 import { enrich, place, autofit, checks, rulesFor, ARCHETYPES } from './solve.js';
+import { loadScene, sceneFiles } from './scenes.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const outIdx = args.indexOf('--out');
 const OUT = outIdx >= 0 ? path.resolve(args.splice(outIdx, 2)[1]) : path.join(ROOT, 'out');
-const specFiles = args.length ? args : fs.readdirSync(path.join(ROOT, 'specs')).map((f) => path.join(ROOT, 'specs', f));
+const specFiles = args.length ? args : sceneFiles(ROOT);
 
 const readJson = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const registry = readJson(path.join(ROOT, 'registry/objects.json'));
@@ -54,7 +55,7 @@ async function main() {
   const summary = [];
   const tiles = [];
   for (const file of specFiles) {
-    const spec = readJson(file);
+    const spec = loadScene(file);
     const rules = rulesFor(spec, baseRules);
     const [aw, ah] = rules.camera.aspect;
     const W = aw >= ah ? 1920 : Math.round((1920 * aw) / ah), H = aw >= ah ? Math.round((1920 * ah) / aw) : 1920;

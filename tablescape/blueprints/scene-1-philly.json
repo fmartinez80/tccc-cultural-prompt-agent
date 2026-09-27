@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "id": "scene-1-philly",
+    "brief": "Meal + Coke: Philly cheesesteak, outside during the day, 330mL Coca-Cola bottle",
+    "market": "US-mid-atlantic",
+    "setting": {
+      "place": "outdoors",
+      "time": "day"
+    },
+    "table": "table-2top"
+  },
+  "blueprint": {
+    "canvas_metadata": {
+      "aspect_ratio": "1:1",
+      "shopper_zone": "Impulse"
+    },
+    "horizon_clamp": {
+      "max_table_rear_y_normalized": 0.45
+    },
+    "table_dining_mode": "SINGLE_DINER",
+    "primitives": [
+      {
+        "id": "main_cheesesteak",
+        "diner_index": 1,
+        "component_role": "MAIN_ENTREE",
+        "base_layer_type": "butcher_paper",
+        "clock_position": "6:00_CENTER",
+        "shape_type": "bounding_box",
+        "center_coordinates": {
+          "x": -0.1,
+          "y": 0.22,
+          "z": 0.12
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 12,
+          "roll": 0
+        },
+        "x_asset": {
+          "food": "food-hoagie",
+          "text": "Philly cheesesteak on a hoagie roll"
+        }
+      },
+      {
+        "id": "coke_bottle_330ml",
+        "diner_index": 1,
+        "component_role": "HERO_BEVERAGE",
+        "base_layer_type": "bare_table",
+        "clock_position": "1:00-2:00_TOP_RIGHT",
+        "shape_type": "cylinder",
+        "center_coordinates": {
+          "x": 0.38,
+          "y": 0.36,
+          "z": 0.35
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 25,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "bottle-contour-330",
+          "text": "Coca-Cola 330mL contour glass bottle"
+        },
+        "glass_logo_base_overlap_allowed": true
+      },
+      {
+        "id": "injected_pepper_ramekin",
+        "diner_index": 1,
+        "component_role": "CONDIMENT_SAUCE",
+        "base_layer_type": "bare_table",
+        "clock_position": "10:00-11:00_TOP_LEFT",
+        "shape_type": "cylinder",
+        "center_coordinates": {
+          "x": -0.42,
+          "y": 0.28,
+          "z": 0.25
+        },
+        "rotation_euler_deg": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "x_asset": {
+          "registry": "ramekin",
+          "food": "food-mound",
+          "text": "hot pepper ramekin"
+        },
+        "proximity_target_id": "main_cheesesteak"
+      }
+    ]
+  }
+}

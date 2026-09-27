@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ErgonomicSpatialLayoutBlueprint",
+  "description": "Fernando's blueprint schema (2026-09-27, optics removed). x_asset on a primitive is the tablescape build's extension naming what to draw; center_coordinates are kept as intent and not used for placement.",
+  "type": "object",
+  "required": [
+    "canvas_metadata",
+    "horizon_clamp",
+    "table_dining_mode",
+    "primitives"
+  ],
+  "properties": {
+    "canvas_metadata": {
+      "type": "object",
+      "required": [
+        "aspect_ratio",
+        "shopper_zone"
+      ],
+      "properties": {
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "1:1",
+            "2:3",
+            "1:3",
+            "3:2",
+            "3:1"
+          ]
+        },
+        "shopper_zone": {
+          "type": "string",
+          "enum": [
+            "Transition",
+            "Impulse",
+            "Destination"
+          ]
+        }
+      }
+    },
+    "horizon_clamp": {
+      "type": "object",
+      "required": [
+        "max_table_rear_y_normalized"
+      ],
+      "properties": {
+        "max_table_rear_y_normalized": {
+          "type": "number",
+          "maximum": 0.5
+        }
+      }
+    },
+    "table_dining_mode": {
+      "type": "string",
+      "enum": [
+        "SINGLE_DINER",
+        "MULTI_DINER_REPLICATED",
+        "SHARED_FEAST_FAMILY_STYLE"
+      ]
+    },
+    "shared_epicenter": {
+      "type": "object",
+      "description": "Used when table_dining_mode is SHARED_FEAST_FAMILY_STYLE.",
+      "properties": {
+        "shared_vessel_id": {
+          "type": "string"
+        },
+        "multi_serve_sku_id": {
+          "type": "string"
+        },
+        "center_coordinates": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "default": 0.0
+            },
+            "y": {
+              "type": "number",
+              "maximum": 0.45
+            },
+            "z": {
+              "type": "number",
+              "default": 0.35
+            }
+          }
+        }
+      }
+    },
+    "primitives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "diner_index",
+          "component_role",
+          "base_layer_type",
+          "clock_position",
+          "shape_type",
+          "center_coordinates",
+          "rotation_euler_deg"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "diner_index": {
+            "type": "integer",
+            "default": 1
+          },
+          "component_role": {
+            "type": "string",
+            "enum": [
+              "MAIN_ENTREE",
+              "HERO_BEVERAGE",
+              "SIDE_DISH",
+              "CONDIMENT_SAUCE",
+              "LIFESTYLE_PROP",
+              "SHARED_PLATTER"
+            ]
+          },
+          "base_layer_type": {
+            "type": "string",
+            "enum": [
+              "standard_plate",
+              "wooden_board",
+              "butcher_paper",
+              "bare_table"
+            ],
+            "default": "standard_plate"
+          },
+          "clock_position": {
+            "type": "string",
+            "enum": [
+              "6:00_CENTER",
+              "1:00-2:00_TOP_RIGHT",
+              "10:00-11:00_TOP_LEFT",
+              "4:00-5:00_BOTTOM_RIGHT",
+              "7:00-8:00_BOTTOM_LEFT",
+              "ON_BOARD",
+              "CENTER_EPICENTER"
+            ]
+          },
+          "shape_type": {
+            "type": "string",
+            "enum": [
+              "cylinder",
+              "flattened_cylinder",
+              "bounding_box"
+            ]
+          },
+          "center_coordinates": {
+            "type": "object",
+            "required": [
+              "x",
+              "y",
+              "z"
+            ],
+            "properties": {
+              "x": {
+                "type": "number",
+                "minimum": -1.0,
+                "maximum": 1.0
+              },
+              "y": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 0.5
+              },
+              "z": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 1.0
+              }
+            }
+          },
+          "rotation_euler_deg": {
+            "type": "object",
+            "required": [
+              "pitch",
+              "yaw",
+              "roll"
+            ],
+            "properties": {
+              "pitch": {
+                "type": "number"
+              },
+              "yaw": {
+                "type": "number"
+              },
+              "roll": {
+                "type": "number"
+              }
+            }
+          },
+          "glass_logo_base_overlap_allowed": {
+            "type": "boolean",
+            "default": true
+          },
+          "proximity_target_id": {
+            "type": "string"
+          },
+          "x_asset": {
+            "type": "object",
+            "description": "Extension: registry items to draw.",
+            "properties": {
+              "registry": {
+                "type": "string"
+              },
+              "food": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
