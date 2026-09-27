@@ -292,7 +292,7 @@ Each primitive is projected through the camera: analytic silhouettes for the sol
 |---|---|
 | `phiAnchors` | full-canvas phi grid: MAIN's visual center near the lower-left phi point (x -0.236, at or below y 0.382); the SKU on the right phi line (x +0.236), with its logo and upper body rising toward the upper-right phi point (y ≈ 0.618) |
 | `goldenTriangle` | MAIN → SKU sits along the golden-triangle diagonal |
-| `visualMass` | projected area share per layer is close to 50 / 30 / 20 (± 5 pts, measured on `ids.png`) **when all three layers are present**. For meal + SKU only (plus any injected accent), the split is skipped and the tight-crop framing applies instead |
+| `visualMass` | projected area share per layer is close to 50 / 30 / 20 (± 5 pts, measured on `ids.png`) **when all three layers are present**. Source: the composition rules' layer weights (Part B, citing Visual Brand Guidelines [1]; also the blueprint schema's `visual_mass_distribution`). **It's a soft target, not a hard rule:** it only affects ranking, never rejects a layout, and its weight is set per archetype in `composition.json` (lowered or zeroed for edge cases). For meal + SKU only (plus any injected accent), the split is skipped and the tight-crop framing applies instead |
 | `depthTriangles` | odd groups form real triangles in x–z (no three items in a line), per the depth-loop rule |
 | `lateralStagger` | midground items staggered diagonally or laterally behind MAIN |
 | `napkinPlacement` | the napkin set sits in a natural place-setting position (beside MAIN, typically front-left), square or at a slight angle to the table edge |
@@ -385,7 +385,7 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
 ```
 **What's on the table:**
 - **Exactly one shared hero vessel** (`SHARED_HERO`): the large centerpiece the meal is built around, such as a whole turkey on a platter, a roast on a board, or a pizza.
-- **Shared sides** (`SHARED_1`, `SHARED_2`…): bowls, casseroles, a bread basket or board. Up to **4 vessels**, limited by a **size budget of 4 units**, because bowl size matters more than the count:
+- **Shared sides** (`SHARED_1`, `SHARED_2`…): bowls, casseroles, a bread basket or board. Up to **4 vessels**, limited by a **size budget of 4 units**, because bowl size matters more than the count. **These values are starting points to test, not final**: family-style scenes are edge cases for now.
 
   | shared side | size | units |
   |---|---|---|
@@ -401,7 +401,7 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
 - **Hero group = MAIN + SKU + GLASS** in the center third (H14). All existing rules apply to them unchanged, including crop protection.
 - **The shared hero sits in the back band (z ≈ 0.3–0.45), left of center,** opposite the bottle and offset from the plate so it's never directly behind it (H7). It overlaps the left edge of the center third, so it survives the 1:1 and 4:5 crops and is partly visible in 9:16.
 - **Shared sides** are Layer 2 in a staggered back arc and the flanks, filling the outer thirds. They can be partly cropped at the frame edges, and a narrow crop may cut them away while keeping the hero group.
-- **Visual mass:** the shared hero counts with the co-heroes, so the plate + bottle + glass + shared hero hold ≥ 50 %. Shared sides count as Layer 2. Shared vessels are exempt from the 40–60 % side-size rule. The plate stays dominant because it's in the foreground.
+- **Visual mass:** the 50 / 30 / 20 target is **relaxed for Feast Spread** (low weight in `composition.json`), since a large shared centerpiece is an edge case the split wasn't written for. What matters is that the hero group (plate + bottle + glass) stays clearly dominant through placement: foreground and center third. Shared sides count as secondary (Layer 2). Shared vessels are exempt from the 40–60 % side-size rule.
 - **Prompt:** the MAIN segment describes a portion of the shared food (for example "a plate with sliced turkey, stuffing and cranberry sauce"). `SHARED_HERO` and each `SHARED_n` segment describe the vessel and its food.
 - Odd/even counts every shared vessel. The no-stacking, clear-zone and shadow rules apply as usual, so no vessel sits in front of the bottle or glass.
 - **Archetype: Feast Spread.** Shared hero back-left, sides in the arc and flanks, hero group in the center third. Variants change which sides flank left or right and how far they're cropped.
@@ -609,7 +609,7 @@ Composition:
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
 4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
-5. **Shared-vessel meals:** confirm the shared hero counts toward the 50 % co-hero mass (proposed), and the size-budget units (small bowl 0.5, medium 1, large or casserole 2, bread 1; budget 4).
+5. **Feast Spread tuning (later):** the size-budget units and the visual-mass weight for family-style scenes get tuned through testing. They're edge cases for now.
 6. **Does the glass count toward odd/even?** Proposed: yes, it's a separate object. With a glass, main + bottle + glass = 3 is already odd. Without it, main + bottle = 2 still gets the added accent.
 
 Pipeline:
