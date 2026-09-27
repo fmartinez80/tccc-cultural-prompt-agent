@@ -1,0 +1,35 @@
+{
+  "name": "tccc-cultural-prompt-agent",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Intake → meal story + labeled 3D proxy tablescape for Coca-Cola meal imagery",
+  "scripts": {
+    "dev": "tsx watch src/server/index.ts",
+    "start": "NODE_ENV=production tsx src/server/index.ts",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "express": "^5.2.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "playwright": "^1.56.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

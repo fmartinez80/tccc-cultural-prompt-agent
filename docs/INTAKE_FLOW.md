@@ -45,7 +45,7 @@ Each option keeps its **rationale and knowledge-base sources**, so the cultural-
 | Operating Unit | **owns the rules:** brand and legal rule set, and the SKU catalog available in that OU | `operatingUnit` |
 | Local Region (country) | **cultural knowledge is per country** (how the dish is prepared, plated and served locally). It may later be clustered by OU; v1 is country-specific | `country` (ISO code, e.g. `MX`) |
 | Product SKU | beverage proxy (package, size) and trademark rules | `sku.id`, `sku.package`, `sku.volumeMl` |
-| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **Hidden (N) on the go**, where glasses never appear. **SKUs of 1 L and up are shared and require a glass**, so the answer is Y and locked. Otherwise the operator chooses (default N). Asked after the scene step, since it depends on the venue (`tablescape/glass-rules.json`) | `sku.glass` |
+| Include a branded glass? (Y/N) | Y adds a branded bell-shaped Coca-Cola glass, poured from the SKU, to **every place setting**. **Hidden (N) on the go**, where glasses never appear. **SKUs of 1 L and up are shared and require a glass**, so the answer is Y and locked. Otherwise the operator chooses (default N). Asked after the scene step, since it depends on the venue (`rules/glass-rules.json`) | `sku.glass` |
 | Hero Dish | starting point for steps 1–3 | `entree.name` |
 | Side Dish Request | pre-fills step 3. The agent checks it for cultural fit and still offers the common alternatives | seeds `accompaniments[]` |
 | Occasion | mood and environment in the prompt; sets the time of day when unambiguous (breakfast → morning), which selects the lighting | `occasion` |
@@ -86,7 +86,7 @@ Defines the time and place of the meal. The operator picks one:
   - the arrangement style (group and family map to family-style sharing)
   - what fills the **upper 50 % environment zone** (home kitchen, restaurant interior, garden), which is prompt-only and never table elements
   - the **≤ 2.5 faces** rule for background people
-  - **the lighting.** Setting + venue + time of day select a lighting preset automatically ([`tablescape/lighting-presets.json`](./tablescape/lighting-presets.json)). The operator never picks it. The meal summary shows it with its reason, for example "Lighting: natural window daylight, because this is a meal at home in the morning". The preset also adds a sentence about light through the SKU (a red-amber glow for glass and PET, a rim highlight for cans).
+  - **the lighting.** Setting + venue + time of day select a lighting preset automatically ([`rules/lighting-presets.json`](../rules/lighting-presets.json)). The operator never picks it. The meal summary shows it with its reason, for example "Lighting: natural window daylight, because this is a meal at home in the morning". The preset also adds a sentence about light through the SKU (a red-amber glow for glass and PET, a rim highlight for cans).
   - the **genre line** at the start of the prompt (for example "Photorealistic street food photography" for on-the-go, or "Photorealistic restaurant food photography").
 
 ### 5. Camera
@@ -95,7 +95,7 @@ These are **dropdowns**, not decision cards. The agent doesn't suggest them from
 - **Angle:** *Low, near eye level* · *Diner's eye* (default) · *Looking down*. Writes `camera.angle`.
 - The technical values behind the looks and angles are placeholders until the team settles the lenses.
 
-Look and angle presets, their prompt sentences and their hidden technical values live in [`tablescape/camera-options.json`](./tablescape/camera-options.json). See `tablescape/PLAN.md` §4a.
+Look and angle presets, their prompt sentences and their hidden technical values live in [`rules/camera-options.json`](../rules/camera-options.json). See `tablescape/PLAN.md` §4a.
 
 ### 6. Layout pick
 The tablescape composer returns up to 3 layout options for the locked elements. The operator picks one, using the same decision-card pattern. See [`tablescape/PLAN.md`](./tablescape/PLAN.md).

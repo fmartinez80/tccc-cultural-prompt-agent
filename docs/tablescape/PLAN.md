@@ -79,7 +79,7 @@ Produced by the intake flow. The full field list and an example are in [`../INTA
 
 - **Closed vocabularies** for `vessel`, `role`, `package`, `massClass`. The agent maps free text such as "molcajete of salsa" onto `vessel: small-bowl, role: sauce` and keeps the free text for the prompt.
 - **Stable role labels** (`SKU`, `GLASS`, `MAIN`, `SIDE_1`, `SHARED_HERO`, `SHARED_1`, `SAUCE_1`, `ACCENT_1`, `NAPKIN_SET_1`). The same strings are used in the proxy labels, the ID mask, the blueprint `id` and the prompt manifest. **The image model relies on this match:** it reads the label on each shape to know which prompt segment applies to it (section 8a).
-- `camera.{lens, angle}` are dropdown ids from [`camera-options.json`](./camera-options.json) (section 4a).
+- `camera.{lens, angle}` are dropdown ids from [`camera-options.json`](../../rules/camera-options.json) (section 4a).
 
 ### 1b. Output: `blueprint.json` (Part A schema + extensions)
 Every option's layout is emitted as a `CokeMeals3DTablescapeBlueprint` ([schema](./source/blueprint.schema.json)). It's the shared format between the composer, template cache, renderer and prompt manifest. The extensions below are allowed because the schema doesn't forbid extra properties. We should fold them into schema v2:
@@ -114,7 +114,7 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 - **Hard constraint (2 people):** each SKU is on its own diner's right in table coordinates, measured from that diner's seat. Depending on where they sit, that can be in front of, behind or screen-left of their plate (5.6).
 - There's no per-country override.
 - **The SKU is the only drink shown**, in every scene and for every diner (v1). No other beverages, glasses of water or competitor products.
-- **SKU size, venue and glass rules** ([`glass-rules.json`](./glass-rules.json)):
+- **SKU size, venue and glass rules** ([`glass-rules.json`](../../rules/glass-rules.json)):
 
   | venue | SKU under 1 L | SKU 1 L and up (large, shared) |
   |---|---|---|
@@ -143,7 +143,7 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 
 ### 4a. Camera: plain-language presets
 
-Most operators won't know what an aperture does, so they never see one. They pick from two dropdowns, both defined in [`camera-options.json`](./camera-options.json):
+Most operators won't know what an aperture does, so they never see one. They pick from two dropdowns, both defined in [`camera-options.json`](../../rules/camera-options.json):
 
 | dropdown | options | behind each option (hidden) |
 |---|---|---|
@@ -205,7 +205,7 @@ y = 0.0 └───────────────────────
 
 ### 4c. Lighting: derived from the scene, never picked
 
-Lighting follows from where and when the meal happens, so the operator doesn't choose it. **Scene details (setting, venue) + time of day** select one preset from [`lighting-presets.json`](./lighting-presets.json). The result is shown in the meal summary ("Lighting: natural window daylight, because this is a meal at home in the morning").
+Lighting follows from where and when the meal happens, so the operator doesn't choose it. **Scene details (setting, venue) + time of day** select one preset from [`lighting-presets.json`](../../rules/lighting-presets.json). The result is shown in the meal summary ("Lighting: natural window daylight, because this is a meal at home in the morning").
 
 **Time of day** comes from the occasion when that's unambiguous (breakfast → morning, dinner → evening). Otherwise it's one extra choice in the scene step: morning · midday · golden hour · evening.
 
