@@ -1,5 +1,6 @@
 {
-  "$comment": "When the branded bell-shaped Coca-Cola glass appears. It is shown only in certain settings AND only with SKUs at or above a minimum size. Both values below are PLACEHOLDERS until the team confirms them. Owned by the Operating Unit's brand rules (a per-OU override can replace this file).",
+  "$comment": "DEFERRED. For now the glass is an intake Y/N question (sku.glass): Y gives every place setting a glass. This file holds the future rule (certain settings AND SKUs at or above a minimum size), which will pre-fill or replace the Y/N once confirmed. Values below are placeholders. Owned by the Operating Unit's brand rules.",
+  "status": "deferred",
   "version": "0.1-placeholder",
 
   "glass": {
