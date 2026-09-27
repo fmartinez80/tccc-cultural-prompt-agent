@@ -208,7 +208,7 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
       sides.forEach((s, k) => {
         const col = Math.floor(k / 2);
         const row = k % 2;
-        pos.set(s.label, { x: left - r(s) - col * 0.2, d: P.d - 0.06 + row * 0.2 });
+        pos.set(s.label, { x: left - r(s) - col * 0.2, d: P.d + 0.03 + row * 0.2 });
       });
       condCluster(v.condAngle);
       break;
@@ -407,6 +407,15 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
     name: "Condiment proximity",
     pass: far.length === 0,
     detail: far.length ? `outside 1-3 in of their dish: ${far.map((c) => c.item.label).join(", ")}` : cond.length ? "condiments within 1-3 in of their dish" : "no condiments",
+  });
+  // Depth hierarchy (coca-cola-guidelines.md §4.2, tableware reference §1): supporting
+  // dishes sit in the midground, never in front of the entree; nothing in front of the SKU.
+  const forward = placed.filter((p) => ["side", "shared-side", "bread", "shared-hero"].includes(p.item.kind) && p.d < main.d - 0.02);
+  out.push({
+    id: "H3",
+    name: "Depth hierarchy",
+    pass: forward.length === 0,
+    detail: forward.length ? `in front of the entree: ${forward.map((p) => p.item.label).join(", ")}` : "supporting dishes sit at or behind the entree",
   });
   const n = placed.length;
   out.push({ id: "H10", name: "Odd item count", pass: n % 2 === 1, detail: `${n} items` });
@@ -620,7 +629,8 @@ function toBlueprint(
     return unionBox(hs).x1 - unionBox(hs).x0;
   })();
   const skuB = fit.boxes.get("SKU")!;
-  const rationale = `${info.name}: ${info.idea}. Hero group spans ${Math.round(span * 100)}% of the frame width; the ${spec.sku.package === "can" ? "can" : "bottle"} stands ${Math.round((skuB.y1 - skuB.y0) * 100)}% of frame height; table edge at ${Math.round(fit.rearY * 100)}% height.`;
+  const idea = describe(archetype, placed);
+  const rationale = `${info.name}: ${idea}. Hero group spans ${Math.round(span * 100)}% of the frame width; the ${spec.sku.package === "can" ? "can" : "bottle"} stands ${Math.round((skuB.y1 - skuB.y0) * 100)}% of frame height; table edge at ${Math.round(fit.rearY * 100)}% height.`;
   void main;
   return {
     canvas_metadata: { aspect_ratio: "16:9", shopper_zone: "Impulse" },
@@ -641,6 +651,27 @@ function toBlueprint(
       seed: 0,
     },
   };
+}
+
+export function describe(archetype: Archetype, placed: Placed[]): string {
+  const sides = placed.filter((p) => p.item.kind === "side" || p.item.kind === "shared-side");
+  const accent = placed.find((p) => p.item.kind === "accent");
+  const cond = placed.filter((p) => p.item.kind === "condiment");
+  const one = sides.length === 1 || (!sides.length && !!accent && !cond.length);
+  const what = sides.length ? (sides.length === 1 ? "the side dish" : "the side dishes") : accent ? "the accent" : cond.length ? "the condiments" : "the supporting items";
+  const v = (singular: string, plural: string) => (one ? singular : plural);
+  switch (archetype) {
+    case "triangle-loop":
+      return `the entree, the drink and ${sides.length ? "a far-left side dish" : accent ? "a far-left accent" : "a small far-left item"} form a depth triangle`;
+    case "crescent-arc":
+      return `${what} ${v("wraps", "wrap")} in an arc behind the entree`;
+    case "diagonal-stagger":
+      return `${what} ${v("steps", "step")} back on a diagonal that leads the eye to the drink`;
+    case "counterweight":
+      return `${what} ${v("sits", "sit")} on the left, balancing the drink on the right`;
+    case "feast-spread":
+      return "the shared centerpiece sits back-left with shared sides around it, and one plated setting in front";
+  }
 }
 
 export function layoutDistance(a: Blueprint, b: Blueprint): number {

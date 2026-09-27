@@ -58,3 +58,31 @@ describe("odd/even", () => {
     expect(needsAccent(even)).toBe(true);
   });
 });
+
+describe("family-style (Feast Spread)", () => {
+  it("places a shared centerpiece behind the plated portion with a glass and shared bottle", () => {
+    const spec = tacosSpec({
+      heroDish: "roast chicken",
+      sku: { ...SKU_CATALOG.find((s) => s.id === "coke-original-2l-pet")!, glass: true },
+      scene: { setting: "indoor", venue: "home", party: "1", time: "evening", surface: "long-table" },
+      entree: {
+        name: "roast chicken",
+        prep: { label: "Roast", detail: "", promptText: "a whole roast chicken", massClass: "heaped" },
+        plating: { label: "Platter", detail: "", vessel: "platter", service: "shared", promptText: "on a platter" },
+      },
+      accompaniments: [
+        { name: "roast potatoes", role: "side", vessel: "large-bowl", service: "shared", pairsWith: "MAIN", promptText: "roast potatoes" },
+        { name: "gravy", role: "sauce", vessel: "sauce-boat", service: "individual", pairsWith: "MAIN", promptText: "gravy" },
+      ],
+    });
+    const r = solve(spec);
+    expect(r.options.length, JSON.stringify(r.infeasible)).toBeGreaterThan(0);
+    const bp = r.options[0].blueprint;
+    const ids = bp.primitives.map((p) => p.id);
+    expect(ids).toEqual(expect.arrayContaining(["MAIN", "SHARED_HERO", "SKU", "GLASS"]));
+    const main = bp.primitives.find((p) => p.id === "MAIN")!;
+    const hero = bp.primitives.find((p) => p.id === "SHARED_HERO")!;
+    expect(hero.world.d).toBeGreaterThan(main.world.d); // centerpiece behind the plate
+    for (const rule of bp.layout_meta.rule_results) expect(rule.pass, `${rule.id}: ${rule.detail}`).toBe(true);
+  });
+});
