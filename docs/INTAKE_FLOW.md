@@ -133,6 +133,6 @@ After step 3, the composer counts the table items (main + beverage + sides + con
 
 ## Gaps to decide
 
-1. **2-person arrangement:** across the table (second diner's SKU on their own right, which is screen-left) or side by side? See `tablescape/PLAN.md` §5.6.
+1. **2-person arrangement:** two layouts are proposed. **Corner:** the diners sit around one table corner. **Face-to-face:** the diners sit at the left and right ends, at the same depth. Offer both as layout options, or have the agent pick one per country and scene? See `tablescape/PLAN.md` §5.6.
 2. **Side Dish Request vs agent suggestions.** Proposal: the request is pre-selected as option A if it's culturally plausible. Otherwise the agent flags it and still lets the operator keep it.
 3. **Occasion vocabulary.** Occasion needs a closed list (breakfast, weekday lunch, family dinner, celebration, game night…) so it can drive environment and lighting consistently.

@@ -108,8 +108,9 @@ Three versioned data files drive the solver. Changing a rule never needs a code 
 
 ### 2a. SKU placement: always on the diner's right
 - The SKU sits to the **right of MAIN, on the diner's right-hand side**, in every market. This avoids cultural problems where use of the left hand while dining is discouraged. It also matches the composition rule: beverage in the midground-right, over the upper-right phi intersection.
-- The diner's right is defined from the diner's seat. Every camera option shoots from the hero diner's side, so the hero diner's right is always **screen-right**. For a diner seated across the table, see 5.6.
-- **Hard constraint:** the SKU centroid is right of MAIN's centroid and inside the right half of the frame. It targets the right phi line (x = +0.236).
+- **The diner's right is defined from each diner's seat**, not from the screen. For one diner, the camera shoots from that diner's side, so their right is always **screen-right**.
+- **Hard constraint (1 person):** the SKU centroid is right of MAIN's centroid and inside the right half of the frame. It targets the right phi line (x = +0.236).
+- **Hard constraint (2 people):** each SKU is on its own diner's right in table coordinates, measured from that diner's seat. Depending on where they sit, that can be in front of, behind or screen-left of their plate (5.6).
 - There's no per-country override.
 - **The SKU is the only drink shown**, in every scene and for every diner (v1). No other beverages, glasses of water or competitor products.
 
@@ -308,11 +309,46 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
 
 **Every diner gets the same place setting** (v1): the same main, the same SKU, the same sides, condiments and napkin set. The SKU is every diner's drink.
 
-**2 people.** Proposed arrangement, across the table (confirm, see open question 4):
-- The **hero setting** is on the camera side and follows every rule in this plan: MAIN front-left, SKU mid-right, full label set.
-- The **second setting** is across the table, in the rear table band (z ≈ 0.35–0.45), smaller in frame. Its items count as **Layer 2 mass**, and it gets its own labels (`MAIN_2`, `SKU_2`…), each matched to a prompt segment that says "same as MAIN".
-- **Each SKU is on its own diner's right.** For the diner across the table, that's **screen-left** of their plate. This keeps the cultural rule, which is about the diner's hand, not the screen.
-- **Odd/even:** two identical settings always make an even count, so the added accent becomes a **shared item in the middle of the table** (a shared salsa or lime dish), which reads naturally for two people.
+**2 people: two arrangements.** Both are offered as layout archetypes, so the operator's options can include either. Diagrams are top-down, with the camera at the bottom:
+
+**Corner (catty-corner).** The two diners sit around one corner of the table, on adjacent sides, 90° apart.
+```
+   back of table
+  ┌─────────────────────────────┐
+  │                   SKU_2 ●   │   diner 2 sits on the right side, facing left.
+  │                  (MAIN_2)   │ ◄ Their right hand points away from the camera,
+  │   ◆ ACCENT      SKU ●  ▭N2  │   so SKU_2 sits behind their plate.
+  │  (MAIN)   ▭N                │
+  └─────────────────────────────┘
+      ▲ diner 1 (hero)              📷 camera on diner 1's side
+```
+- **Diner 1 (hero)** is on the camera side and follows every rule in this plan: MAIN front-left, SKU mid-right.
+- **Diner 2 sits on the right-hand side of the table**, facing left, with MAIN_2 at mid-depth on the right. Their right hand points away from the camera, so **SKU_2 sits behind their plate**, clear of everything.
+- Diner 2 goes on the right, not the left. Seated on the left side, their right hand would point toward the camera, which puts SKU_2 in the foreground in front of their plate, crowding the hero's entree.
+- Diner 2's napkin set is on their left, which here is the camera side of their plate.
+- Diner 2's items count as **Layer 2 mass**. Their labels are `MAIN_2`, `SKU_2`, `NAPKIN_SET_2`…, each matched to a prompt segment that says "same as MAIN" and so on.
+
+**Face-to-face, left and right.** The diners sit at the left and right ends of the table, facing each other. The camera looks at the long side where no one sits, so **both settings share the same depth**: neither is foreground, neither is background.
+```
+   back of table
+  ┌─────────────────────────────┐
+  │                  SKU_R ●    │   right diner faces left: their right hand
+  │ ▭NL                         │   points away → SKU_R behind, toward center
+  │►(MAIN_L)   ◆ ACCENT  (MAIN_R)◄
+  │         ● SKU_L          ▭NR│   left diner faces right: their right hand
+  └─────────────────────────────┘   points at the camera → SKU_L in front, toward center
+                 📷 camera on the long side, no diner there
+```
+- The two MAINs sit left and right at the same depth (z ≈ 0.2–0.3), near the left and right phi lines. **There's no single hero**: both settings are Layer 1 and share the 50 % co-hero mass.
+- **Each SKU is on its own diner's right, toward the table center.** For the left diner that's in front of their plate (screen-right of it). For the right diner it's behind their plate (screen-left of it). The two bottles form a **diagonal through the frame center**, one forward and one back, so they never block each other and read as a leading line.
+- Napkin sets are on each diner's left: behind the left plate, in front of the right plate.
+- **Rule adaptations for this arrangement:** MAINs sit at the front/mid boundary instead of the immediate foreground, and SKU_L sits forward of the usual 0.2–0.4 SKU band. The horizon, stacking, clear-zone and shadow rules all still apply.
+- **Crop note:** this layout is wide by nature. It holds in a 3:2 crop, but a 1:1 crop trims the outer edges of both plates (open question 5).
+
+**For both arrangements:**
+- Every diner has **the same place setting**, and the SKU is every diner's drink.
+- **Odd/even:** two identical settings always make an even count, so the added accent becomes a **shared item between the two settings** (a shared salsa or lime dish). It sits at the corner (Corner) or the table center (Face-to-face), never in front of either SKU.
+- Lighting stays key-from-behind-left. In Face-to-face, SKU_L's shadow falls forward-right, toward the table center and away from both plates.
 
 **Groups and families** (proposed): the hero setting follows the rules, and the neighbouring settings are identical and partly cropped at the frame edges. Shared dishes sit in the center of the table. Full group layouts stay in Phase 6.
 
@@ -512,8 +548,8 @@ Composition:
 1. **Trademark clear zone margin:** how much clear space around the logo box? Proposed default: 10 % of the bottle's width on every side.
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
-4. **2-person arrangement:** across the table, with the second diner's SKU on their own right (screen-left), as proposed in 5.6? Or side by side, so both SKUs are screen-right?
-5. **Crop-safe scope:** is protecting the 1:1 crop enough, or must 2:3 also always hold both co-heroes? That would force a tighter MAIN–SKU pairing in every layout.
+4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
+5. **Crop-safe scope:** is protecting the 1:1 crop enough, or must 2:3 also always hold both co-heroes? For 2 people: does the 1:1 crop need to hold both settings, or only the hero (Corner) and the two SKUs (Face-to-face)?
 
 Pipeline:
 
