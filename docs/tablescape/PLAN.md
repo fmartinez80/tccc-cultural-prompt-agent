@@ -170,15 +170,17 @@ y = 0.0 └───────────────────────
   - MAIN and the SKU land near their phi anchors
   - **meal + SKU only (no Layer 2): crop in tighter.** The coverage target rises, so the co-heroes fill the frame, while the horizon clamp still holds.
 - **Aspect ratio: always 16:9.** Every template and proxy is composed and rendered at 16:9. ShRED ratios are **cropped down in post**, so there's one template per layout, not one per ratio. The blueprint schema's ratio list doesn't include 16:9, so `canvas_metadata.aspect_ratio` gets `"16:9"` added as an extension.
-- **Crop-safe composition.** So post crops don't cut the co-heroes, the solver keeps them inside a crop-safe zone. What each ShRED crop keeps of a 16:9 frame:
+- **Crop protection: hero meal + SKU in the vertical center third.** The goal: **every ShRED crop contains at least one complete logo'd element (the bottle, or a branded glass if the scene has one) plus part of the meal.** To get that, the solver keeps the hero MAIN and SKU in the center third of the 16:9 frame (x 0.333–0.667 of the width). This fits the rest of the rules: the phi anchors (MAIN at 0.382, SKU at 0.618) sit inside the center third, and sides and accents fill the outer thirds.
 
-  | ShRED crop | keeps | co-heroes (MAIN at x 0.382, SKU at x 0.618 of frame width) |
+  What each crop keeps of a 16:9 frame, and why the goal holds:
+
+  | ShRED crop | keeps | result with hero meal + SKU in the center third |
   |---|---|---|
-  | 3:2 | 84 % of the width, full height | always fit |
-  | 1:1 | 56 % of the width (centered: 0.22–0.78), full height | fit: **hard rule H14** keeps MAIN's and the SKU's full silhouettes inside the centered 1:1 zone |
-  | 2:3 | 37.5 % of the width, full height | both fit only if they're packed close; otherwise post picks MAIN or SKU as the crop's focus |
-  | 1:3 | 19 % of the width, full height | holds one hero, in practice the SKU |
-  | 3:1 | 59 % of the height, full width | horizon and table fit; tall bottle tops may be trimmed |
+  | 3:2 | 84 % of the width, full height | the whole center third, plus most of the outer thirds |
+  | 1:1 | 56 % of the width, full height | the whole center third, plus part of each outer third |
+  | 2:3 | 37.5 % of the width, full height | the whole center third (33 %) still fits: full bottle and full hero meal |
+  | 1:3 | 19 % of the width, full height | **the tightest case.** A slice around the bottle holds the full bottle plus the near edge of the meal, *if* the bottle and meal are close enough (rule H14b) |
+  | 3:1 | 59 % of the height, full width | the full width is kept. The band must hold the full bottle plus the top of the meal (rule H14c) |
 
   Crops that keep the full height (3:2, 1:1, 2:3, 1:3) don't move the horizon, so the 50 % rule survives them. Only 3:1 changes it.
 - **ShRED, first pass:** we follow the primary ShRED cropping preferences in post, which already take the copy areas into account. There's no copy block or text placement in v1: the focus is image quality.
@@ -263,7 +265,9 @@ Depth bands (from the rules):
 | H11 | Physical | footprints don't overlap (gap ≥ 1.5 cm, except condiments meant to sit on their dish); everything on the table |
 | H12 | Co-heroes visible | MAIN ≤ 15 % occluded and not cropped at the sides |
 | H13 | Shadows | no cast shadow crosses the logo box; the SKU's shadow doesn't fall on MAIN; shadow direction matches the lighting preset (4c). Checked per render, because lighting isn't part of the layout |
-| H14 | Crop-safe | MAIN's and the SKU's full silhouettes sit inside the centered 1:1 crop of the 16:9 frame (x 0.22–0.78) |
+| H14 | Center third | the SKU's full silhouette, including any branded glass, sits inside the vertical center third of the frame (x 0.333–0.667). MAIN's visual center is inside it too |
+| H14b | 1:3 slice | on screen, the gap between the SKU's edge and the nearest edge of MAIN is ≤ 8 % of frame width. Then a 1:3 slice (19 %) can hold the full bottle (~5–7 %) plus a sliver of the meal |
+| H14c | 3:1 band | the vertical span from the bottle's top down to the top of the meal is ≤ 55 % of frame height, so a 3:1 band (59 %) holds the full bottle plus part of the meal |
 
 ### 5.4 Soft score (screen space)
 Each primitive is projected through the camera: analytic silhouettes for the solver, and the ID pass for the final check. The score terms:
@@ -322,7 +326,7 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
   └─────────────────────────────┘
       ▲ diner 1 (hero)              📷 camera on diner 1's side
 ```
-- **Diner 1 (hero)** is on the camera side and follows every rule in this plan: MAIN front-left, SKU mid-right.
+- **Diner 1 (hero)** is on the camera side and follows every rule in this plan: MAIN front-left, SKU mid-right, both in the center third. Diner 2's setting sits in the right third and may be cropped away in narrow crops.
 - **Diner 2 sits on the right-hand side of the table**, facing left, with MAIN_2 at mid-depth on the right. Their right hand points away from the camera, so **SKU_2 sits behind their plate**, clear of everything.
 - Diner 2 goes on the right, not the left. Seated on the left side, their right hand would point toward the camera, which puts SKU_2 in the foreground in front of their plate, crowding the hero's entree.
 - Diner 2's napkin set is on their left, which here is the camera side of their plate.
@@ -343,7 +347,7 @@ The horizon rule applies to the rear edge of whatever surface it is. Narrow surf
 - **Each SKU is on its own diner's right, toward the table center.** For the left diner that's in front of their plate (screen-right of it). For the right diner it's behind their plate (screen-left of it). The two bottles form a **diagonal through the frame center**, one forward and one back, so they never block each other and read as a leading line.
 - Napkin sets are on each diner's left: behind the left plate, in front of the right plate.
 - **Rule adaptations for this arrangement:** MAINs sit at the front/mid boundary instead of the immediate foreground, and SKU_L sits forward of the usual 0.2–0.4 SKU band. The horizon, stacking, clear-zone and shadow rules all still apply.
-- **Crop note:** this layout is wide by nature. It holds in a 3:2 crop, but a 1:1 crop trims the outer edges of both plates (open question 5).
+- **Crop protection:** the two SKUs sit near the center, so both stay inside the center third (H14). Each MAIN's inner edge reaches into it, which gives every crop a full bottle plus part of a meal. The outer edges of the plates may be trimmed in 1:1 and narrower crops.
 
 **For both arrangements:**
 - Every diner has **the same place setting**, and the SKU is every diner's drink.
@@ -487,7 +491,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 | **0: Contracts + rules** | `SceneSpec` v0.2 (from the intake flow), blueprint schema v2 (Part A + extensions), `brand.json` / `composition.json` from the composition rules and the team decisions (§15), open questions 1–3 answered | Agent, intake and composer all code against the same schemas |
 | **1: Render from blueprint** | Registry at real scale; `scene-core` + headless runner + overlays: hand-written `blueprint.json` → labeled proxy / review / ID PNG | A hand-written N = 3 blueprint renders with the horizon at ≤ 0.50 |
 | **2: Solver, one option** | Camera auto-fit, odd/even pre-step, H1–H14, scoring, *Triangle Loop* | Every N = 3 fixture passes all hard rules, deterministic per seed |
-| **3: Three options** | *Crescent Arc*, *Diagonal Stagger*, *Counterweight*; diversity selection; bundle + contact sheet + rationale | N ≥ 5 fixtures return 3 distinct, compliant options; every option passes the 1:1 crop-safe check |
+| **3: Three options** | *Crescent Arc*, *Diagonal Stagger*, *Counterweight*; diversity selection; bundle + contact sheet + rationale | N ≥ 5 fixtures return 3 distinct, compliant options; every option passes the crop test |
 | **4: Pick → template** | Signature cache, pick = approval, template bypass, pick counts | Repeat specs return the approved proxy instantly |
 | **5: Pipeline hookup** | Intake decision cards → SceneSpec → options → pick → manifest; post-gen validators | End-to-end run from intake to final image |
 | **6: Scale out** | Group and family layouts, narrow surfaces (bench, counter) tuned, shopper-zone copy and text placement | Template hit rate and option-A pick rate tracked |
@@ -521,7 +525,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 ## 14. Testing and quality
 
 - **Golden tests:** fixture spec → options snapshot (archetypes, blueprints, scores) → PNG diff in CI.
-- **Rule tests:** one unit test per hard rule, H1–H14. Every option from every fixture is asserted to pass all of them, and to survive the 1:1 crop.
+- **Rule tests:** one unit test per hard rule, H1–H14. Every option from every fixture is asserted to pass all of them. A **crop test** cuts every ShRED ratio from the render (sliding the 1:3 and 3:1 windows) and asserts at least one crop position holds a complete logo'd element plus part of the meal.
 - **Odd/even tests:** N = 2, 4, 6 inputs always gain exactly one accent. Odd inputs never do.
 - **Diversity tests:** options from one spec always pass the distinctness check. Small scenes return fewer rather than near-duplicates.
 - **Metrics:** template hit rate, pick distribution per archetype, visual-mass error, and post-gen SKU IoU.
@@ -536,6 +540,7 @@ The solver only needs projection and footprint math, so it's unit-testable witho
 - **Napkin curves:** dropped. Napkins are **rectangular or triangular** (folded).
 - **ShRED:** follow the primary ShRED cropping preferences, which already allow for copy areas. **No text or copy placement in v1**; the focus is image quality.
 - **Aspect ratio:** every template renders at **16:9**; ShRED ratios are cropped in post (4b, H14).
+- **Crop protection:** hero meal + SKU stay in the vertical center third, so every crop holds at least one complete logo'd element plus part of the meal (4b, H14–H14c).
 - **On the go:** always on a surface (park table, bench, food-truck counter…), never in a hand (5.6).
 - **Drinks:** the SKU is the only drink, for every diner. Every diner has the same place setting (5.6).
 - **Knowledge scope:** OU owns the rules; cultural knowledge is per country (9).
@@ -549,7 +554,7 @@ Composition:
 2. **Tight-crop target:** for meal + SKU only, how much of the frame should the co-heroes fill? Proposed default: the MAIN + SKU group spans ~70 % of the frame width. And should the odd/even rule still add an accent to these scenes (the rules say yes: 2 → 3)?
 3. **Sides 40–60 %:** this comes from Part B, Layer 2 ("scale primitives 40%–60% smaller than the main entree", citing Visual Brand Guidelines [1]). Proposed reading: side vessel **diameter is 40–60 % of the entree vessel's diameter**, used as a warning when sides are picked. Confirm, or drop it if it isn't a real brand rule.
 4. **2-person arrangements** (5.6): confirm the Corner layout with diner 2 on the right side of the table, and the Face-to-face layout with each SKU on its own diner's right (one in front of its plate, one behind). Should both always be offered, or should the agent pick one per country and scene?
-5. **Crop-safe scope:** is protecting the 1:1 crop enough, or must 2:3 also always hold both co-heroes? For 2 people: does the 1:1 crop need to hold both settings, or only the hero (Corner) and the two SKUs (Face-to-face)?
+5. **Branded glass:** your crop goal mentions "a bottle + a glass". Should the place setting include a branded Coca-Cola glass poured from the SKU? That adds a second logo'd element: the rule already counts it, but it needs a registry proxy, a label (`GLASS`) and a place in the layout. It would sit beside the bottle in the center third.
 
 Pipeline:
 
