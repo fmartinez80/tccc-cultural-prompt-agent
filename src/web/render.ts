@@ -205,12 +205,21 @@ function drawLabels(ctx: CanvasRenderingContext2D, bp: Blueprint, w: number, h: 
       padY = size * 0.42;
     const bw = tw + 2 * padX,
       bh = size + 2 * padY;
-    let x = s.x * w - bw / 2;
-    let y = (1 - s.y) * h - bh / 2;
-    // Nudge down until it doesn't collide with an earlier label.
-    for (let tries = 0; tries < 12 && placed.some((q) => x < q.x1 && q.x0 < x + bw && y < q.y1 && q.y0 < y + bh); tries++) y += bh * 0.6;
-    x = Math.max(4, Math.min(w - bw - 4, x));
-    y = Math.max(4, Math.min(h - bh - 4, y));
+    const x0 = s.x * w - bw / 2;
+    const y0 = (1 - s.y) * h - bh / 2;
+    // The image model maps each label to the shape under it, so a label that collides with
+    // an earlier one moves to the nearest free spot whose center still sits on its own shape.
+    const b = p.screen_bbox;
+    const onShape = (cx: number, cy: number) => !b || (cx >= b.x0 * w && cx <= b.x1 * w && cy >= (1 - b.y1) * h && cy <= (1 - b.y0) * h);
+    const free = (x: number, y: number) => !placed.some((q) => x < q.x1 && q.x0 < x + bw && y < q.y1 && q.y0 < y + bh);
+    const clampX = (x: number) => Math.max(4, Math.min(w - bw - 4, x));
+    const clampY = (y: number) => Math.max(4, Math.min(h - bh - 4, y));
+    const candidates: Array<[number, number]> = [[0, 0]];
+    for (let k = 1; k <= 8; k++) candidates.push([0, -k], [0, k], [-k, 0], [k, 0], [-k, -k], [k, -k], [-k, k], [k, k]);
+    const spots = candidates.map(([i, j]) => [clampX(x0 + i * bw * 0.35), clampY(y0 + j * bh * 0.6)] as [number, number]);
+    const pick =
+      spots.find(([x, y]) => free(x, y) && onShape(x + bw / 2, y + bh / 2)) ?? spots.find(([x, y]) => free(x, y)) ?? [clampX(x0), clampY(y0)];
+    const [x, y] = pick;
     placed.push({ x0: x, y0: y, x1: x + bw, y1: y + bh });
     ctx.fillStyle = "rgba(16, 20, 40, 0.86)";
     const r = bh * 0.22;

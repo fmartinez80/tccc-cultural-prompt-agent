@@ -17,7 +17,7 @@ export interface ProxyDef {
 }
 
 export const VESSELS: Record<Vessel, ProxyDef> = {
-  plate: { kind: "cylinder", radius: 0.135, height: 0.025 }, // entree plate 26-28 cm
+  plate: { kind: "cylinder", radius: 0.1525, height: 0.025 }, // entree plate 30.5 cm (12 in), team standard; KB range is 26-28 cm
   "side-plate": { kind: "cylinder", radius: 0.1, height: 0.02 },
   bowl: { kind: "cylinder", radius: 0.08, height: 0.06 }, // side bowl, medium 15-18 cm
   "small-bowl": { kind: "cylinder", radius: 0.0675, height: 0.05 }, // side bowl, small 12-15 cm
@@ -76,7 +76,7 @@ export const VESSEL_SHORT: Record<Vessel, string> = {
 /** "a round entree plate about 27 cm across" */
 export function vesselPhrase(v: Vessel): string {
   const d = VESSELS[v];
-  const cm = (m: number) => Math.round(m * 100);
+  const cm = (m: number) => Math.round(m * 200) / 2; // nearest half centimeter
   const size = d.radius !== undefined ? `about ${cm(2 * d.radius)} cm across` : `about ${cm(Math.max(d.width!, d.depth!))} by ${cm(Math.min(d.width!, d.depth!))} cm`;
   return `${VESSEL_NOUN[v]} ${size}`;
 }

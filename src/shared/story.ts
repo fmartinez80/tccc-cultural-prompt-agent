@@ -67,8 +67,9 @@ export function foodLabels(facts: StoryFacts): StoryFacts["labels"] {
   return facts.labels.filter((l) => !l.fixedText);
 }
 
+/** Centimeters to the nearest half (a 12 in plate reads 30.5 cm). */
 function cm(m: number): number {
-  return Math.round(m * 100);
+  return Math.round(m * 200) / 2;
 }
 
 function labelVessel(spec: SceneSpec, proxy: string, role: string): { vessel: string; fixedText?: string } {
@@ -141,18 +142,25 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   };
 }
 
-/** The image model draws objects larger than their proxy shapes, so the target scale is also stated in words. */
+/**
+ * Image tests: the model ignores the proxy's scale and draws the front plate at about 43% of
+ * the frame width. So the scale is stated in real-world terms it can reason with: how far the
+ * camera is, and how wide the frame is at the plate, next to the plate's own size.
+ */
 function scaleSentence(bp: Blueprint): string {
-  const box = (id: string) => bp.primitives.find((p) => p.id === id)?.screen_bbox;
-  // The hero is the shared vessel when there is one (a paella pan), else the plate.
-  const heroId = bp.primitives.some((p) => p.id === "SHARED_HERO") ? "SHARED_HERO" : "MAIN";
-  const main = box(heroId);
-  const sku = box("SKU");
-  if (!main || !sku) return "";
-  const hero = bp.primitives.find((p) => p.id === heroId)!;
-  const heroNoun = heroId === "MAIN" ? "The plate" : `The shared ${hero.proxy in VESSEL_SHORT ? VESSEL_SHORT[hero.proxy as Vessel] : "dish"}`;
-  const pct = (v: number) => Math.round(v * 100);
-  return `Keep the view wide and airy: the whole table setting with open table around it. ${heroNoun} spans only about ${pct(main.x1 - main.x0)}% of the frame width and the ${bp.primitives.find((p) => p.id === "SKU")!.proxy.includes("can") ? "can" : "bottle"} stands about ${pct(sku.y1 - sku.y0)}% of the frame height; do not enlarge the food or the product.`;
+  const main = bp.primitives.find((p) => p.id === "MAIN");
+  if (!main) return "";
+  const c = bp.camera;
+  const pos = c.position;
+  const dir = [c.target[0] - pos[0], c.target[1] - pos[1], c.target[2] - pos[2]];
+  const len = Math.hypot(dir[0], dir[1], dir[2]);
+  const p = [main.world.x - pos[0], main.dimensions.height / 2 - pos[1], -main.world.d - pos[2]];
+  const depth = (p[0] * dir[0] + p[1] * dir[1] + p[2] * dir[2]) / len; // along the view axis
+  const frameW = 2 * depth * Math.tan((c.fovDeg * Math.PI) / 360) * c.aspect;
+  const plateW = main.dimensions.width;
+  const noun = main.proxy in VESSEL_SHORT ? VESSEL_SHORT[main.proxy as Vessel] : "dish";
+  const dist = Math.hypot(p[0], p[1], p[2]);
+  return `Scale: this is a table shot, not a close-up. The camera is about ${dist.toFixed(1)} m from the ${noun}, and at that distance the frame is about ${Math.round(frameW * 20) * 5} cm wide, so the ${cm(plateW)} cm ${noun} fills only about ${Math.round((plateW / frameW) * 100)}% of the frame width, with open table on both sides. Do not enlarge the food or the product.`;
 }
 
 function labelText(story: Story, l: StoryFacts["labels"][number]): string {

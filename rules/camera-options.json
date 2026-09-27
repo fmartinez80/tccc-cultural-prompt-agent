@@ -3,8 +3,8 @@
   "version": "0.1-placeholder",
 
   "model_framing": {
-    "$comment": "Image tests: Nano Banana 2 keeps the table line where the proxy puts it but draws the objects about 1.5x larger than their shapes. To split the difference, the proxy handed to the image model is rendered with a field of view 1.25x wider than the true framing (shapes about 0.8x). The layout options and the blueprint keep the true framing.",
-    "widen": 1.25
+    "$comment": "Field-of-view factor for the proxy handed to the image model. Tried 1.25 to offset Nano Banana 2 drawing objects larger than their shapes; it had no effect (the model sizes the front plate at about 43% of the frame regardless), so it is back to 1 and the prompt states the scale in real-world terms instead (story.ts scaleSentence).",
+    "widen": 1
   },
 
   "look": {
