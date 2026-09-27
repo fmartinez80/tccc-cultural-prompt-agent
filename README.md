@@ -82,7 +82,7 @@ src/shared/           types, real-scale registry, rules, camera math, scene item
 src/server/           Express API, knowledge-base loader, agent (Claude + sample)
 src/web/              React wizard, three.js proxy renderer
 tests/                solver unit tests, fixtures, end-to-end script
-docs/                 INTAKE_FLOW.md, tablescape/PLAN.md, composition rules source
+docs/                 REBUILD_SPEC.md (full rebuild spec), INTAKE_FLOW.md, tablescape/PLAN.md, composition rules source
 ```
 
 ### Current scope
