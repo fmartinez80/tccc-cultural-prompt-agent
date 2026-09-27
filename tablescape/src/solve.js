@@ -97,7 +97,7 @@ export const ARCHETYPES = {
     title: 'Center Hero',
     source: 'knowledge base: coca-cola-guidelines s4.1-4.4, tableware-composition-reference s3-4',
     dishX: 0,
-    dishYaw: 90, // rectangular vessel >25cm runs front-to-back (tableware ref s6)
+    dishYaw: 0, // handheld food lies across the plate, parallel to the diner's edge
     sku: { angles: [45, 35, 55, 25, 65], gap: 0.04 },
     side: [150, 105, 190],
     condiment: [120, 135, 100, 150, 165],
@@ -107,11 +107,11 @@ export const ARCHETYPES = {
   'phi-diagonal': {
     title: 'Phi Diagonal',
     source: 'composition doc 2: entree lower-left phi point, beverage midground right, odd-count depth triangle',
-    dishX: -0.12,
-    dishYaw: 30, // long axis leads toward the SKU
+    dishX: -0.06,
+    dishYaw: 30, // food's long axis leads toward the SKU
     sku: { angles: [30, 40, 20, 50], gap: 0.1 },
     side: [110, 145, 75],
-    condiment: [165, 180, 150, 195],
+    condiment: [165, 150, 135, 120, 180],
     prop: { angles: [-20, -35, -5], yaw: 'pointAtDish' },
     compose: { dishX: 0.382, skuX: 0.618 },
   },
@@ -122,12 +122,21 @@ export function place(enriched, spec, reg, rules, archetypeId) {
   const table = reg[spec.table];
   const placed = [];
   const mk = (item) => ({ ...item, ...dims(item, reg), x: 0, z: 0, yaw: 0 });
+  // A place setting is a contained group: within reach of the dish, clear of the
+  // table's side and rear edges (the front edge is the diner's).
+  const ps = rules.placeSetting;
   const insideTable = (poly) =>
-    poly.every(([x, z]) => Math.abs(x) <= table.w / 2 - rules.tableEdgeMarginM && Math.abs(z) <= table.d / 2 - rules.tableEdgeMarginM);
+    poly.every(
+      ([x, z]) =>
+        Math.abs(x) <= table.w / 2 - ps.otherEdgeClearanceM &&
+        z >= -table.d / 2 + ps.otherEdgeClearanceM &&
+        z <= table.d / 2 - rules.tableEdgeMarginM &&
+        Math.hypot(x - dish.x, z - dish.z) <= ps.maxReachM,
+    );
   const clearOfAll = (poly) => placed.every((p) => gap(poly, p.poly) >= rules.minGapM);
 
   const dish = mk(enriched.items.find((i) => i.role === 'DISH'));
-  dish.yaw = dish.round ? 0 : A.dishYaw;
+  dish.yaw = A.dishYaw;
   dish.x = A.dishX;
   dish.z = 0;
   const fp0 = footprint(dish);
@@ -184,22 +193,6 @@ export function place(enriched, spec, reg, rules, archetypeId) {
 
   for (const o of rest.filter((o) => o.role === 'PROP'))
     tryAngles(o, A.prop.angles, 0.05, () => true, (a) => (A.prop.yaw === 'pointAtDish' ? a : A.prop.yaw));
-
-  // Pack the setting toward the table's rear edge. The 50% horizon rule keeps the rear
-  // edge at or below frame center, so any table left behind the setting is dead space
-  // that pushes the camera back and shrinks the food (see the PRODX reference template).
-  // With the camera yawed, the rear corner farthest from the camera is the table's
-  // highest point in frame, so the setting also packs sideways toward that corner.
-  const rearMost = Math.min(...placed.flatMap((o) => o.poly.map((p) => p[1])));
-  const shiftZ = -table.d / 2 + rules.rearMarginM - rearMost;
-  const xs = placed.flatMap((o) => o.poly.map((p) => p[0]));
-  const yaw = rules.camera.yawDeg;
-  const shiftX = yaw > 0 ? -table.w / 2 + rules.sideMarginM - Math.min(...xs) : yaw < 0 ? table.w / 2 - rules.sideMarginM - Math.max(...xs) : 0;
-  for (const o of placed) {
-    o.x += shiftX;
-    o.z += shiftZ;
-    o.poly = footprint(o);
-  }
 
   return { archetype: archetypeId, objects: placed, unplaced: rest.filter((o) => o.unplaced).map((o) => o.label), table: { ...table, id: spec.table } };
 }
@@ -292,6 +285,17 @@ export function checks(layout, camera, enriched, rules) {
   let minGap = Infinity;
   for (let i = 0; i < objs.length; i++) for (let j = i + 1; j < objs.length; j++) minGap = Math.min(minGap, gap(objs[i].poly, objs[j].poly));
   add('no-overlap', minGap >= rules.minGapM - 1e-4, `min gap ${(minGap * 100).toFixed(1)} cm (>= ${rules.minGapM * 100} cm)`);
+  const ps = rules.placeSetting;
+  const t = layout.table;
+  let reach = 0, edge = Infinity, front = Infinity;
+  for (const o of objs)
+    for (const [x, z] of o.poly) {
+      reach = Math.max(reach, Math.hypot(x - dish.x, z - dish.z));
+      edge = Math.min(edge, t.w / 2 - Math.abs(x), z + t.d / 2);
+    }
+  for (const [, z] of dish.poly) front = Math.min(front, t.d / 2 - z);
+  add('dish-at-front-edge', front <= rules.dishFrontMarginM + 0.005, `plate ${(front * 100).toFixed(0)} cm from the diner's edge`);
+  add('place-setting-contained', reach <= ps.maxReachM + 1e-3 && edge >= ps.otherEdgeClearanceM - 1e-3, `all items within ${(reach * 100).toFixed(0)} cm of the dish center (max ${ps.maxReachM * 100}); ${(edge * 100).toFixed(0)} cm from the side/rear edges (min ${ps.otherEdgeClearanceM * 100})`);
   add('sku-diner-right', sku.x > dish.x, `SKU ${((sku.x - dish.x) * 100).toFixed(0)} cm right of DISH on the table`);
   const sb = screenBox(c, sku), db = screenBox(c, dish);
   add('sku-screen-right', sb.cx > db.cx && sb.cx > 0.5, `SKU center x ${sb.cx.toFixed(2)}, DISH ${db.cx.toFixed(2)}`);

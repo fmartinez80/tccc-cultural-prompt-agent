@@ -181,7 +181,7 @@ export async function render({ layout, registry: reg, width, height }) {
   img.src = clean;
   await img.decode();
   ctx.drawImage(img, 0, 0);
-  const font = Math.round(height * 0.05);
+  const font = Math.round(height * 0.036);
   ctx.font = `700 ${font}px "DejaVu Sans", Arial, sans-serif`;
   ctx.textBaseline = 'middle';
   ctx.textAlign = 'center';
@@ -190,9 +190,20 @@ export async function render({ layout, registry: reg, width, height }) {
   for (const o of order) {
     const p = new THREE.Vector3(o.x, o.role === 'SKU' ? o.h * 0.45 : o.h * 0.6, o.z).project(camera);
     const w = ctx.measureText(o.label).width + font * 1.4, h = font * 1.45;
-    let x = (p.x * 0.5 + 0.5) * width - w / 2, y = (-p.y * 0.5 + 0.5) * height - h / 2;
-    for (let k = 0; k < 8 && boxes.some((b) => x < b.x + b.w && b.x < x + w && y < b.y + b.h && b.y < y + h); k++) y += h * 0.6;
-    x = Math.max(4, Math.min(width - w - 4, x));
+    const x0 = Math.max(4, Math.min(width - w - 4, (p.x * 0.5 + 0.5) * width - w / 2));
+    const y0 = (-p.y * 0.5 + 0.5) * height - h / 2;
+    // On a collision, take the smallest nudge that frees the label: up first
+    // (items behind sit higher in frame), then down, then sideways.
+    const hit = (x, y) => boxes.some((b) => x < b.x + b.w && b.x < x + w && y < b.y + b.h && b.y < y + h);
+    let x = x0, y = y0;
+    const moves = [[0, 0], [0, -0.6], [0, 0.6], [-0.35, 0], [0.35, 0], [0, -1.1], [0, 1.1], [-0.35, -0.6], [0.35, -0.6]];
+    for (const [mx, my] of moves) {
+      if (!hit(x0 + mx * w, y0 + my * h)) {
+        x = x0 + mx * w;
+        y = y0 + my * h;
+        break;
+      }
+    }
     boxes.push({ x, y, w, h });
     ctx.fillStyle = LABEL_FILL[o.layer];
     roundRect(ctx, x, y, w, h, font * 0.22);
