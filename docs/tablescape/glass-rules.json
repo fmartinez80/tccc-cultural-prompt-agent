@@ -1,0 +1,30 @@
+{
+  "$comment": "When the branded bell-shaped Coca-Cola glass appears. It is shown only in certain settings AND only with SKUs at or above a minimum size. Both values below are PLACEHOLDERS until the team confirms them. Owned by the Operating Unit's brand rules (a per-OU override can replace this file).",
+  "version": "0.1-placeholder",
+
+  "glass": {
+    "id": "bell-glass",
+    "label": "GLASS",
+    "description": "Branded bell-shaped Coca-Cola glass, poured from the SKU, with or without ice."
+  },
+
+  "show_glass_when": {
+    "all_of": [
+      {
+        "scene": {
+          "venue": ["home", "restaurant"],
+          "$status": "placeholder: which settings get a glass is still to be confirmed"
+        }
+      },
+      {
+        "sku_min_volume_ml": 1000,
+        "$status": "placeholder: the size threshold is still to be confirmed (candidates: 500 ml, 1 L, 1.5 L, 2 L)"
+      }
+    ]
+  },
+
+  "per_diner": {
+    "$comment": "2-person and group scenes: each diner gets a glass when the rule above is met, keeping every place setting identical.",
+    "glass_per_diner": true
+  }
+}

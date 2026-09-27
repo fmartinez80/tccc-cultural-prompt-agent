@@ -40,13 +40,13 @@
   },
 
   "sku_light": {
-    "$comment": "Added after the lighting sentence. Depends on the SKU package, because only glass and PET let light through.",
+    "$comment": "Added after the lighting sentence. Depends on the SKU package, because only glass and PET let light through. {drinks} = 'the Coca-Cola bottle', or 'the Coca-Cola bottle and the bell-shaped Coca-Cola glass' when the glass rule applies (glass-rules.json).",
     "transparent": {
       "packages": ["contour-glass-bottle", "pet-bottle", "glass-with-ice", "bell-glass"],
       "prompt_by_warmth": {
-        "cool":    "Light passes through the Coca-Cola bottle and the bell-shaped Coca-Cola glass from behind, giving the cola a deep red-amber glow with crisp highlights along the contour bottle and the glass.",
-        "warm":    "Warm light passes through the Coca-Cola bottle and the bell-shaped Coca-Cola glass from behind, making the cola glow rich amber-red with warm highlights along the bottle and the glass.",
-        "ambient": "A soft glow passes through the Coca-Cola bottle and the bell-shaped Coca-Cola glass from the light behind them, with gentle highlights tracing the contour bottle and the glass."
+        "cool":    "Light passes through {drinks} from behind, giving the cola a deep red-amber glow with crisp highlights along the glass.",
+        "warm":    "Warm light passes through {drinks} from behind, making the cola glow rich amber-red with warm highlights along the glass.",
+        "ambient": "A soft glow passes through {drinks} from the light behind, with gentle highlights tracing the glass."
       }
     },
     "opaque": {

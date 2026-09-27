@@ -44,7 +44,7 @@ Each option keeps its **rationale and knowledge-base sources**, so the cultural-
 |---|---|---|
 | Operating Unit | **owns the rules:** brand and legal rule set, and the SKU catalog available in that OU | `operatingUnit` |
 | Local Region (country) | **cultural knowledge is per country** (how the dish is prepared, plated and served locally). It may later be clustered by OU; v1 is country-specific | `country` (ISO code, e.g. `MX`) |
-| Product SKU | beverage proxy (package, size) and trademark rules | `sku.id`, `sku.package` |
+| Product SKU | beverage proxy (package, size) and trademark rules. Size also decides whether the branded glass appears (with the scene; `tablescape/glass-rules.json`) | `sku.id`, `sku.package`, `sku.volumeMl` |
 | Hero Dish | starting point for steps 1–3 | `entree.name` |
 | Side Dish Request | pre-fills step 3. The agent checks it for cultural fit and still offers the common alternatives | seeds `accompaniments[]` |
 | Occasion | mood and environment in the prompt; sets the time of day when unambiguous (breakfast → morning), which selects the lighting | `occasion` |
@@ -98,7 +98,7 @@ The tablescape composer returns up to 3 layout options for the locked elements. 
 
 ## The odd/even rule shown to the operator
 
-After step 3, the composer counts the table items (main + bottle + branded glass + sides + condiments + the napkin set, where napkin and cutlery count as one). If the count is even, the composition rules add one small accent to make it odd (see `tablescape/PLAN.md` §5.2).
+After step 3, the composer counts the table items (main + bottle + the branded glass when present + sides + condiments + the napkin set, where napkin and cutlery count as one). If the count is even, the composition rules add one small accent to make it odd (see `tablescape/PLAN.md` §5.2).
 - **The accent is chosen by the agent from the country's knowledge base**, for example a lime dish (MX), pickled onions, kimchi or a chutney ramekin. It's never a generic ramekin when a local one exists.
 - It appears in the **meal summary as "added for composition"**, and the operator can swap it for another accent from the same list. It will show up in the final image, so the operator should see it.
 
@@ -112,7 +112,7 @@ After step 3, the composer counts the table items (main + bottle + branded glass
   "occasion": "weekday lunch",
   "scene":  { "setting": "indoor", "venue": "restaurant", "party": "1", "time": "midday", "surface": "table-2top" },
   "camera": { "look": "close-hero", "angle": "diners-eye" },
-  "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle", "glass": "bell-glass" },
+  "sku":    { "id": "coke-classic-8oz-glass", "package": "contour-glass-bottle", "volumeMl": 237 },
   "entree": { "name": "tacos al pastor", "prep": "trompo-shaved pork, pineapple, cilantro, onion", "vessel": "plate", "massClass": "flat" },
   "accompaniments": [
     { "id": "SIDE_1",  "name": "frijoles charros", "role": "side",  "vessel": "bowl",       "pairsWith": "MAIN" },
@@ -123,7 +123,7 @@ After step 3, the composer counts the table items (main + bottle + branded glass
 }
 ```
 
-`camera` holds preset ids. The composer looks up the hidden lens, aperture, focus and pitch in `camera-options.json`. Lighting isn't in the spec: it's derived from `scene` via `lighting-presets.json`.
+No glass in this example: an 8 oz SKU is below the glass rule's size threshold. `camera` holds preset ids. The composer looks up the hidden lens, aperture, focus and pitch in `camera-options.json`. Lighting isn't in the spec: it's derived from `scene` via `lighting-presets.json`.
 
 ## Decided
 - **Aspect ratio:** every scene renders at 16:9; ShRED ratios are cropped down in post. No format step.
