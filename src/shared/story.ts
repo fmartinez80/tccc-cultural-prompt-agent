@@ -137,7 +137,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
-    exclusions: `Only the ${bp.primitives.length} objects described above are on the table. No text anywhere except the Coca-Cola product's own label; no hands or people at the table.`,
+    exclusions: `Only the ${bp.primitives.length} objects described above are on the table. No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either; no hands or people at the table.`,
   };
 }
 
