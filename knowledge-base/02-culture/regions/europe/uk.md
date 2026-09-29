@@ -594,6 +594,44 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
 - Confidence: HIGH for the origin/dispute/geography claims; MEDIUM-LOW for
   the specific size figures, flagged individually above.
 - Sources: [Manchester's Finest](https://www.manchestersfinest.com/articles/myths-manchester-birthplace-fish-chips/); [Atlas Obscura](https://www.atlasobscura.com/articles/who-invented-fish-and-chips); [JTA](https://www.jta.org/2019/11/06/food/fish-and-chips-surprising-jewish-history); [Quora-aggregated cod/haddock geography, corroborated by TasteScot and Newington Fish Bar]; [Defra media blog](https://deframedia.blog.gov.uk/2023/10/02/coverage-of-the-introduction-of-restrictions-on-a-range-of-single-use-plastics/); [Highland Council](https://www.highland.gov.uk/news/article/14700/scotlands_single-use_plastics_ban_fully_effective_from_12_august_2022); [RestaurantOnline — Campaign calls for standardised fish and chip portion sizes](https://www.restaurantonline.co.uk/Article/2016/11/29/Campaign-calls-for-standardised-fish-and-chip-portion-sizes/)
+- Composition & proportions (§4.7) — one regular portion, default register
+  (cod, salt and vinegar, optional mushy peas). No new sourcing this pass:
+  sizes restate this entry's own Real-world scale figures and keep their
+  tags; counts and shares are [EDITORIAL].
+  - What dominates: **fish and chips in roughly equal measure** — the fillet
+    ~40–45% of the food area, chips ~45–50%, mushy peas (if present) ~10%.
+    The fillet is the single largest object; the chips are the largest mass.
+    Nothing else is more than an accent. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Battered fillet | Regular ~15–18 cm long (~1.5× the can's height), ~6–8 cm wide, ~2–3 cm thick with batter [LOW-MEDIUM — this entry's own synthesis; width/thickness EDITORIAL] | 1 | Deep golden, craggy, blistered batter | Lying on or against the chips, usually on a diagonal |
+    | Chips | ~1–1.5 cm square, 6–10 cm long — each shorter than the can [LOW-MEDIUM — this entry] | ~20–30 [EDITORIAL] | Pale to mid gold, soft, some bent, vinegar-damp | A loose, low heap beside and partly under the fish |
+    | Mushy peas (optional) | A small pot or spoonful ~7–8 cm across, about the can's width [EDITORIAL] | 0–1 | Thick, lumpy, bright-to-olive green | Beside the chips, never spread over them |
+    | Lemon wedge / tartare ramekin (pub only) | Wedge ~5 cm; ramekin ~6–7 cm | 0–1 each | Pale yellow; ivory sauce | Wedge on the fish, ramekin at the plate edge |
+
+  - Arrangement: the fillet lies whole across or alongside the chip heap,
+    overlapping it at one end; chips jumbled, not stacked like a tower or
+    lined up. [EDITORIAL]
+  - Vessel fill: plated, fish and chips cover ~70–80% of a 26–28 cm plate or
+    oval platter, the fillet sometimes reaching the rim; takeaway, the food
+    sits in the middle of opened plain white paper or fills a card box to
+    its rim. [EDITORIAL]
+  - Served portion: one fillet and one portion of chips per person — not
+    shared from a platter. [EDITORIAL]
+  - State cues: batter dry-crisp with a faint oil sheen, no oil pooling;
+    chips matte and slightly limp; a light wisp of steam if just served.
+    [EDITORIAL]
+  - Absent on purpose: thin fries; breadcrumb coating; ketchup poured over;
+    coleslaw, salad leaves, parsley; a polystyrene clamshell; lemon and
+    tartare in the takeaway register; a beer glass.
+  - Prompt-ready line: "One whole battered fish fillet about one and a half
+    times the can's height, with a deep golden, craggy, blistered crust,
+    lying diagonally across a loose low heap of thick, soft, pale-gold
+    chips, each chip a little shorter than the can. A small pot of thick
+    green mushy peas about the can's width sits beside them. Faint steam, no
+    oil pooling. No thin fries, no salad, no ketchup."
 
 #### Dish: Sunday roast
 
@@ -647,6 +685,47 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
 - Confidence: HIGH for composition and components; MEDIUM for the
   individual-pudding size figures.
 - Sources: [YouGov](https://yougov.com/en-gb/articles/20826-dinner-time-or-tea-time-it-depends-where-you-live) (meal-timing context); [RSC](https://www.rsc.org/news-events/articles/2008/11-november/perfect-yorkshire/); general Yorkshire-pudding-tin-size sourcing aggregated across multiple recipe/bakeware sources.
+- Composition & proportions (§4.7) — one pre-plated roast beef dinner (pub
+  register; the home register serves the same portion from shared dishes).
+  Sizes restate this entry's own figures with their tags; counts and shares
+  are [EDITORIAL].
+  - What dominates: **the plate is full and mixed** — roast potatoes and
+    vegetables together ~45–50% of the surface, sliced meat ~20–25%,
+    Yorkshire pudding ~10–15%, gravy glossing across the meat and part of
+    the potatoes. No single element covers the plate; the full-to-the-rim
+    abundance is the look. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (plate) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Roast beef slices | ~10–14 cm across, 3–5 mm thick [EDITORIAL] | 2–3 | Pink centre, browned edge | Overlapping, fanned at the front or centre, under the gravy |
+    | Roast potatoes | Golf-ball to egg size, ~4–6 cm — under the can's width [this entry, unsourced size] | 3–5 [EDITORIAL] | Craggy, deep golden, crisp | Grouped together on one side |
+    | Yorkshire pudding | ~7–9 cm across, 5–8 cm tall — shorter than the can, about its width [MEDIUM — this entry] | 1 | Puffed, hollow cup, deep-brown risen edges | Perched on or beside the meat, often gravy-filled |
+    | Carrots | Batons ~6–8 cm × 1–1.5 cm or rounds ~2–3 cm [EDITORIAL] | 5–8 pieces | Bright orange, glossy | A small separate heap |
+    | Green veg (broccoli, greens, peas or beans) | Florets ~4–5 cm; peas a spoonful [EDITORIAL] | 3–4 florets or one spoonful | Deep green | A small separate heap |
+    | Gravy | — | Poured, plus a jug on the table | Thick, glossy brown | Over meat and pudding, pooling at the edges |
+
+  - Arrangement: components in distinct small groups around the plate,
+    touching; gravy over the meat, not drowning the potatoes' crisp tops.
+    [EDITORIAL]
+  - Vessel fill: 26–28 cm plate full to or slightly over the rim (this
+    entry); ~0–1 cm of rim visible. [EDITORIAL]
+  - Served portion vs. whole dish: at home the joint sits on a board or in a
+    roasting tin with vegetable dishes and a gravy jug; each plate is loaded
+    to the same full portion. [EDITORIAL]
+  - State cues: gravy glossy and thick; potatoes' edges dry and crackly;
+    light steam. [EDITORIAL]
+  - Absent on purpose: mash as the potato (not the roast default); sweet
+    potatoes, corn, cranberry sauce, stuffing balls with beef (a chicken
+    pairing); herb sprig garnish; thin watery jus; a wine glass; the
+    oversized 20–25 cm novelty pudding unless briefed.
+  - Prompt-ready line: "A dinner plate filled to the rim: two or three thin
+    slices of pink-centred roast beef fanned at the front under thick glossy
+    brown gravy, one puffed hollow Yorkshire pudding about the can's width
+    and shorter than it, four craggy deep-golden roast potatoes each smaller
+    than the can's width grouped to one side, and small separate heaps of
+    orange carrot batons and green broccoli. Light steam. No herb garnish,
+    no mash."
 
 #### Dish: Pies — pub pie (steak and ale / chicken and mushroom) and pie and mash
 
@@ -687,6 +766,34 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
 - Sources: general "proper pie" definitional-dispute coverage aggregated
   across UK food journalism; pie-and-mash form corroborated across
   multiple food-history sources.
+- Composition & proportions (§4.7) — one pub pie plate, then the
+  pie-and-mash sub-variant. Pie diameters restate this entry's LOW-MEDIUM
+  figures; heights, counts and shares are [EDITORIAL].
+  - What dominates (pub pie): **the pie** — ~40% of the plate; mash (or
+    chips) ~30%; peas ~10–15%; gravy the rest. [EDITORIAL]
+  - Components: enclosed pie ~12–15 cm across, ~5–7 cm tall (about half the
+    can's height); when cut, beef chunks ~2–3 cm in thick dark gravy, 4–6
+    visible in the cut face; puff-lid version a ceramic dish ~14–16 cm with
+    the lid domed 1–3 cm above the rim; mash one scoop ~8–10 cm; peas one
+    heaped spoonful. [EDITORIAL]
+  - Arrangement: pie at the centre or slightly off-centre, mash and peas
+    beside it, gravy poured over the pie or in a jug. [EDITORIAL]
+  - Vessel fill: pie plus sides cover ~70–80% of the 26–28 cm plate.
+    [EDITORIAL]
+  - Pie and mash (sub-variant): one or two small pies ~10–12 cm (this entry)
+    take ~35–40% of the plate; mash smeared in a flat band across one side
+    ~30%; parsley liquor covers the mash and pools across ~30% of the plate.
+    Absent: gravy, peas, garnish. [EDITORIAL]
+  - State cues: egg-washed lid glossy; gravy thick, oozing only where cut;
+    faint steam. [EDITORIAL]
+  - Absent on purpose: lattice tops; a pot pie in a soup bowl with no pastry
+    lid; herb garnish; ketchup; a pint glass.
+  - Prompt-ready line: "A round, tall-sided golden shortcrust pie with a
+    glossy egg-washed lid, a little wider than the can's height and about
+    half as tall, cut open to show dark chunks of beef in thick glossy
+    gravy, sitting at the centre of a dinner plate beside a scoop of smooth
+    mash and a heaped spoonful of green peas. Gravy poured over one side. No
+    garnish, no lattice."
 
 #### Dish: Cornish pasty
 
@@ -728,6 +835,34 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
 - Confidence: HIGH for PGI status, shape, and crimp-direction; LOW-MEDIUM
   for exact length.
 - Sources: [The Travel Trunk](https://www.thetraveltrunk.net/pasty-crimping-top-or-side/); [Coast & Country Cottages — The Devon pasty](https://www.coastandcountry.co.uk/blog/the-devon-pasty-our-comprehensive-guide); [GOV.UK — Cornish Pasty protected food name](https://www.gov.uk/protected-food-drink-names/cornish-pasty)
+- Composition & proportions (§4.7) — one pasty. Length restates this entry's
+  LOW-MEDIUM 18–22 cm estimate; other sizes and counts [EDITORIAL].
+  - What dominates: **the pastry** — unbroken, the whole visible object is
+    golden shortcrust; if broken, the cut face is ~80% filling and ~20%
+    pastry wall. Filling by volume: potato ~40–50%, swede ~20%, beef
+    ~20–25%, onion the rest. [EDITORIAL]
+  - Components: pasty ~18–22 cm long (about 1.5–2× the can's height), ~9–11
+    cm deep across the D, ~5–6 cm tall at the thickest; rope crimp ~1.5–2 cm
+    wide along the curved side; filling pieces roughly 1–2 cm (beef chunks,
+    potato and swede slices or dice), peppery, no sauce. [EDITORIAL]
+  - Count: one per person. [EDITORIAL]
+  - Arrangement: lying flat on its base with the crimp curving along one
+    side, or half out of a plain paper bag; a broken-open one shows the
+    chunky cut face. [EDITORIAL]
+  - Vessel fill: on a plate it takes most of a 22–26 cm side plate on its
+    own; café version with chips takes about half a dinner plate.
+    [EDITORIAL]
+  - State cues: glossy, dry pastry; a wisp of steam from a broken one; no
+    gravy leaking. [EDITORIAL]
+  - Absent on purpose: a crimp across the top; a fork-pressed edge; flaky
+    puff layers; carrots, peas or minced meat in the filling (not in the
+    filling listed above); a sauce or gravy inside.
+  - Prompt-ready line: "One large D-shaped pasty about one and a half to two
+    times the can's height, glossy golden egg-washed shortcrust with a thick
+    rope-like hand crimp running along the curved side, lying flat on plain
+    white paper. One end broken open showing chunky peppery pieces of
+    potato, pale orange swede and beef, no sauce. No top crimp, no puff
+    pastry, no garnish."
 
 #### Dish: Sausage roll (bakery-chain snack register)
 
@@ -749,6 +884,27 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   industry-wide standard] Party/cocktail rolls read roughly 4–6cm.
 - Sources: aggregated bakery-chain sausage-roll size reporting (retail/
   consumer press) and general sausage-roll history sourcing.
+- Composition & proportions (§4.7) — one bakery-chain roll; party rolls as a
+  platter. Length restates this entry's MEDIUM-HIGH ~15 cm; other figures
+  [EDITORIAL].
+  - What dominates: **the pastry** — the outside is all laminated puff; on
+    the cut end, a sausage-meat cylinder ~2.5–3 cm across fills ~50–60% of
+    the face, pastry layers the rest. [EDITORIAL]
+  - Components: roll ~15 cm long (a little longer than the can's height) and
+    ~4 cm thick; 3–5 diagonal score marks; loose pastry flakes around it.
+    Party rolls ~4–6 cm, 10–16 on a platter. [EDITORIAL]
+  - Arrangement: single roll lying on or half out of a plain paper bag;
+    party rolls in loose rows on a plate. [EDITORIAL]
+  - State cues: egg-wash gloss, crisp flakes, faint grease spots on the
+    paper bag. [EDITORIAL]
+  - Absent on purpose: ketchup blobs, dipping sauces, salad garnish, sesame
+    or seeds (gastro register only), legible bag print.
+  - Prompt-ready line: "One golden, flaky puff-pastry sausage roll a little
+    longer than the can's height and about half its width thick, glossy on
+    top with a few diagonal score marks, lying on a plain paper bag with
+    loose pastry flakes around it. The cut end shows pale pink-grey sausage
+    meat filling about half the face, wrapped in thin crisp layers. No
+    sauce, no garnish."
 
 #### Dish: Meal-deal sandwich (triangle pack) + crisps
 
@@ -791,6 +947,26 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   lookalike, per `africa/south-africa.md`'s HERO PRODUCT SLOT template. Scale: a 330mL can uses the UK dimensions
   above; a 500mL PET per `coca-cola-guidelines.md` §4.3.
 - Sources: [The Critic](https://thecritic.co.uk/the-real-deal-with-meal-deals/); [Wikipedia: Meal deal](https://en.wikipedia.org/wiki/Meal_deal)
+- Composition & proportions (§4.7) — one pack plus crisps. Triangle size
+  restates this entry's LOW-MEDIUM figure; the rest [EDITORIAL].
+  - What dominates: **bread** — on each cut face the two slices take ~65–75%
+    of the height, the filling a thin ~0.5–1 cm band. Sandwich ~60% of the
+    scene's food area, crisps ~40%. [EDITORIAL]
+  - Components: two triangles, sides ~10–12 cm, 2–3 cm thick (this entry) —
+    the long edge about the can's height; crisps ~3–4 cm across, curled, a
+    small handful spilling from an opened plain packet or 10–15 loose beside
+    it. [EDITORIAL]
+  - Arrangement: triangles upright in the opened wedge pack, cut faces
+    forward, or laid side by side on the opened pack; crisps beside, not
+    piled on the sandwich. [EDITORIAL]
+  - Absent on purpose: a tall deli stack, toothpicks, a plate and cutlery,
+    side salad, legible pack or packet print.
+  - Prompt-ready line: "Two soft sandwich triangles, each long edge about
+    the can's height, standing cut-face-forward in an opened blank
+    clear-fronted wedge pack; the cut faces show two thick slices of soft
+    bread with a thin, pressed band of filling between them. Beside it, a
+    small spill of thin pale-golden curled crisps from an opened plain
+    packet. No legible print, no plate, no toothpicks."
 
 #### Dish: Curry-house dishes (chicken tikka masala, korma, balti, poppadoms)
 
@@ -856,6 +1032,34 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   origin; HIGH that the tikka masala dispute exists; MEDIUM for
   poppadom size and pilau-rice coloring detail.
 - Sources: [Wikipedia: Business of British Bangladeshis](https://en.wikipedia.org/wiki/Business_of_British_Bangladeshis); [National Geographic](https://www.nationalgeographic.com/travel/article/story-behind-balti-birmingham-uk); [BhamGuide](https://bhamguide.com/the-history-of-the-balti-triangle-in-birmingham/); [Adventure.com — The plight of the Balti](https://adventure.com/birmingham-balti-curry-south-asian-food-heritage/); `us.md`'s existing tikka masala sourcing (Wikipedia, CNN, Britannica).
+- Composition & proportions (§4.7) — a two-person table and one diner's
+  plate. Poppadom size restates this entry's MEDIUM 20–28 cm; everything
+  else [EDITORIAL].
+  - What dominates (table): **sauce and rice** — curry surfaces ~35–40% of
+    the food area, pilau rice ~25%, naan ~20%, poppadoms and the chutney
+    tray the rest. In each curry dish, sauce covers ~60–70% of the surface
+    and meat pieces show through the rest. [EDITORIAL]
+  - Components: curries in metal karahi/balti dishes or white bowls ~15–18
+    cm, one per person, each with 8–12 chicken tikka pieces ~3–4 cm (about
+    half the can's width), half-submerged; pilau rice one oval dish ~20–25
+    cm; one naan ~25–30 cm long, teardrop, torn; poppadoms 2–4 stacked,
+    20–28 cm; chutney tray of 3–4 small pots ~6–7 cm. [EDITORIAL]
+  - Arrangement: curries and rice in the middle of the table, poppadoms at
+    one side, plates in front of each diner. [EDITORIAL]
+  - Served portion: a diner's plate has a mound of rice on about a third,
+    curry ladled beside it with 3–5 chicken pieces, and a torn piece of naan
+    at the edge. [EDITORIAL]
+  - State cues: sauce glossy with a thin oil sheen at the edge; steam over
+    the dishes; poppadoms dry and blistered. [EDITORIAL]
+  - Absent on purpose: heavy coriander piles (a light sprinkle at most),
+    whole chillies heaped, lime-and-herb Thai-style garnish, lager bottles
+    or glasses, candles, legible menus.
+  - Prompt-ready line: "On a restaurant table, a small metal balti dish of
+    glossy orange-red creamy curry with chicken pieces each about half the
+    can's width half-sunk in the sauce, a pale cream-yellow korma beside it,
+    an oval dish of white-and-yellow speckled pilau rice, a torn teardrop
+    naan longer than two cans, and a stack of large blistered poppadoms
+    wider than the can is tall. Light steam. No heaped garnish."
 
 #### Dish: Ploughman's lunch
 
@@ -887,6 +1091,29 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   `tableware-composition-reference.md` §2's cutting-board table
   (30–35cm × 20cm) once treated as authoritative for this dish]
 - Sources: [Pong Cheese](https://www.pongcheese.co.uk/blog/a-history-of-the-ploughmans-lunch/); [Zythophile](https://zythophile.co.uk/2007/07/16/the-ploughmans-lunch-guilty-or-innocent/); [Wikipedia: Ploughman's lunch](https://en.wikipedia.org/wiki/Ploughman's_lunch)
+- Composition & proportions (§4.7) — one board. Board and wedge sizes
+  restate this entry's LOW figures; the rest [EDITORIAL].
+  - What dominates: **bread and cheese** — together ~50% of the board's
+    food; chutney, pickled onions, apple and leaves each a small separate
+    accent (~10% each). [EDITORIAL]
+  - Components: one Cheddar wedge ~8–10 cm long (a little shorter than the
+    can); a crusty roll or 2 thick slices ~10–12 cm; butter pat ~3–4 cm;
+    chutney in a ramekin ~6–7 cm (about the can's width); 3–5 pickled onions
+    ~2.5–3 cm; 4–6 apple slices; a small handful of leaves. Optional ham
+    slice or a Scotch egg half. [EDITORIAL]
+  - Arrangement: components in separate piles around a 30–35 × 20 cm board,
+    bread and cheese at the centre, nothing assembled into a sandwich.
+    [EDITORIAL]
+  - State cues: cheese matte with a clean cut face; chutney glossy; onions
+    pearly and wet. [EDITORIAL]
+  - Absent on purpose: grapes and cured-meat charcuterie spread, crackers
+    fanned like a grazing board, honey drizzle, a beer glass.
+  - Prompt-ready line: "A wooden board set with separate small piles: a cut
+    wedge of pale-yellow Cheddar a little shorter than the can, a crusty
+    roll with a pat of butter, a small ramekin of glossy dark-brown chunky
+    chutney about the can's width, a few pearly pickled onions, fanned green
+    apple slices and a small tuft of salad leaves. Nothing assembled. No
+    grapes, no crackers."
 
 #### Dish: Bangers and mash
 
@@ -919,6 +1146,28 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   for "bangers" is widely repeated but not independently confirmed in
   this pass — treat as folk etymology, not fact.
 - Sources: [Wikipedia: Cumberland sausage](https://en.wikipedia.org/wiki/Cumberland_sausage)
+- Composition & proportions (§4.7) — one plate. Sausage size and count
+  restate this entry's LOW-MEDIUM figures; shares [EDITORIAL].
+  - What dominates: **mash** ~35–40% of the plate, sausages ~30%, onion
+    gravy ~20% (pooled over both), peas ~10% if present. [EDITORIAL]
+  - Components: 2–3 links ~12–14 × 2.5 cm (about the can's height, a third
+    of its width); mash one mound ~10–12 cm across, 4–5 cm tall; peas one
+    spoonful; a dab of English mustard at the rim optional. Cumberland
+    option: one flat coil ~15–20 cm across replaces the links. [EDITORIAL]
+  - Arrangement: sausages leaning on or lying across the mash, gravy poured
+    over both with onion strands visible. [EDITORIAL]
+  - Vessel fill: ~70% of a 26–28 cm plate (or a wide shallow bowl).
+    [EDITORIAL]
+  - State cues: split, blistered, deeply browned skins; gravy glossy; steam.
+    [EDITORIAL]
+  - Absent on purpose: hot-dog franks, bratwurst on a bun, herb sprigs, thin
+    jus, ketchup.
+  - Prompt-ready line: "Two or three deeply browned pork sausages, each
+    about the can's height and a third of its width, with split blistered
+    skins, leaning across a soft mound of smooth mashed potato, both covered
+    in glossy dark-brown onion gravy with translucent onion strands, a small
+    heap of green peas beside them on a dinner plate. Steam rising. No
+    garnish, no bun."
 
 #### Dish: Shepherd's pie / cottage pie
 
@@ -939,6 +1188,30 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   portion is a scooped mound covering roughly a third to a half of a
   26–28cm plate. [CONFIDENCE: LOW-MEDIUM — reasonable estimate, not an
   independently sourced figure]
+- Composition & proportions (§4.7) — the oven dish and one scooped portion.
+  Dish and portion sizes restate this entry's LOW-MEDIUM figures; layers and
+  shares [EDITORIAL].
+  - What dominates: **mash** — in the dish the top is ~100% browned mash; in
+    a scooped portion the mash is ~50–60% of the visible volume, the dark
+    mince-and-gravy layer ~40–50%, with carrot dice and peas as small flecks
+    in it. [EDITORIAL]
+  - Components: mash top 2–3 cm deep, fork-ridged or piped peaks; meat layer
+    3–4 cm; carrot dice ~1 cm, peas scattered; optional grated cheese crust.
+    [EDITORIAL]
+  - Vessel fill: the 20 × 25–30 cm oven dish filled to ~1 cm below the rim;
+    one corner or edge scooped out to show the layers. [EDITORIAL]
+  - Served portion: a slumped scoop covering a third to half of a 26–28 cm
+    plate, optionally with a spoonful of peas or greens beside it.
+    [EDITORIAL]
+  - State cues: crisp browned ridges, gravy seeping at the scooped edge,
+    steam. [EDITORIAL]
+  - Absent on purpose: a pastry crust; a sweet-potato top; herb garnish;
+    neat square slices that hold like lasagne.
+  - Prompt-ready line: "A rectangular ceramic oven dish filled almost to the
+    rim with a thick layer of mashed potato, fork-ridged with crisp browned
+    peaks; one corner scooped away shows a dark minced-meat layer in glossy
+    gravy with small flecks of carrot and peas beneath the mash. A slumped
+    portion sits on a plate beside it. Steam, no pastry, no garnish."
 
 #### Dish: Scotch egg
 
@@ -962,6 +1235,24 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   real and multi-sided, not settled] Genericize — do not present any one
   origin as fact. [SOURCE: [Fortnum & Mason — The History of The Scotch
   Egg](https://www.fortnumandmason.com/stories/scotch-egg-archive); [Tasting Table — The Mysterious Origins Of Scotch Eggs](https://www.tastingtable.com/1007982/the-mysterious-origins-of-scotch-eggs/)]
+- Composition & proportions (§4.7) — one egg, whole (supermarket) or halved
+  (gastropub). Diameter restates this entry's 6–8 cm; layers [EDITORIAL].
+  - What dominates: **the crumb shell** when whole; on a halved face, the
+    egg ~50–60% of the cut area (yolk ~3 cm, white ring ~0.8–1 cm),
+    sausage-meat ring ~1 cm, crumb ~2–3 mm. [EDITORIAL]
+  - Count: one whole, or two halves side by side; a picnic tray may hold 3–4
+    whole. [EDITORIAL]
+  - Arrangement: halves cut face up on a small plate or board; optionally a
+    small dab of mustard or piccalilli in a ramekin. [EDITORIAL]
+  - State cues: gastropub yolk glossy orange and just runny; supermarket
+    yolk firm and pale. [EDITORIAL]
+  - Absent on purpose: sauce drizzles, microgreen piles, a crumb that looks
+    panko-shaggy.
+  - Prompt-ready line: "One Scotch egg about the can's width, deep
+    golden-brown fine breadcrumb shell, cut in half and set cut-face up on a
+    small white plate: a ring of pale sausage meat about a finger thick around a
+    white ring and a glossy, just-runny orange yolk. No sauce drizzle, no
+    garnish pile."
 
 #### Dish: Jacket potato
 
@@ -975,6 +1266,26 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   long — roughly the can's 11.52cm height. [CONFIDENCE: LOW-MEDIUM —
   reasonable estimate for a standard large baking potato, not an
   independently sourced figure]
+- Composition & proportions (§4.7) — one cheese-and-beans jacket. Potato
+  size restates this entry's LOW-MEDIUM 12–15 cm; the rest [EDITORIAL].
+  - What dominates: **the topping** — beans ~35–40% of the visible surface,
+    melted grated cheese ~20%, the dark skin ~25% at the edges; a side salad
+    ~15%. [EDITORIAL]
+  - Components: one potato ~12–15 cm long (about the can's height), split
+    and pushed open; a butter knob melting; beans ~2 heaped spoonfuls
+    spilling to the plate; cheese a handful melted over; side salad a few
+    leaves, tomato and cucumber slices. [EDITORIAL]
+  - Vessel fill: potato and topping take ~60% of a 26–28 cm plate, salad the
+    rest. [EDITORIAL]
+  - State cues: steam from the split, cheese soft and stringy, bean sauce
+    glossy orange. [EDITORIAL]
+  - Absent on purpose: foil wrapping (US steakhouse cue), sour cream and
+    chives, bacon bits.
+  - Prompt-ready line: "One large baked potato about the can's height, crisp
+    dark salt-flecked skin, split open with fluffy white insides and melting
+    butter, heaped with glossy orange baked beans spilling onto the plate
+    and a layer of melted grated cheese, a small side salad of leaves and
+    tomato beside it. Steam rising. No foil, no sour cream."
 
 ---
 
@@ -990,17 +1301,32 @@ sandwich. Entree plate fallback: 26–28cm diameter, per
   table, where it softens and half-melts rather than being eaten
   separately, a real and checkable serving detail. [CONFIDENCE: HIGH]
   [SOURCE: [Visit Wales — Cawl: our traditional Welsh recipe](https://www.wales.com/visit/food-and-drink/welsh-recipes/cawl); [Lavender and Lovage — Welsh Cawl](https://www.lavenderandlovage.com/2018/02/welsh-cawl-lamb-vegetable-stew.html)]
+  - *Composition & proportions (§4.7)*: one warmed bowl ~18–20 cm filled to
+    ~2 cm below the rim; clear-ish broth ~40% of the surface, chunky lamb,
+    potato, swede and carrot pieces ~2–4 cm ~45%, leek rings ~15%; a slice
+    of crusty bread and a small wedge of Caerphilly (~6–8 cm, about the
+    can's width) beside it, a little crumbled into the broth. Absent: cream,
+    herb garnish, thick gravy-like stew. [EDITORIAL]
 - **Welsh rarebit** — a thick, savory cheese sauce (cheddar, ale, mustard,
   often Worcestershire sauce, sometimes cayenne), spread on toasted bread
   and grilled/broiled until bubbling and blistered brown in patches.
   **Not a toastie** — it's open-faced, with a distinct poured/spread
   sauce layer visible on top, not a closed pressed sandwich or plain
   melted cheese slices. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: 1–2 slices of toast ~10–12 cm (about
+    the can's height), open-faced, the cheese sauce covering ~90% of each
+    slice ~0.5–1 cm thick and blistered brown in patches; on a small plate,
+    nothing else. Absent: a top slice, melted cheese slices, salad garnish.
+    [EDITORIAL]
 - **Welsh cakes** — small, flat, griddle-cooked fruit-studded cakes
   (currants/sultanas), lightly spiced, dusted with sugar; a snack rather
   than a meal-occasion dish, cooked on a bakestone/griddle rather than
   baked in an oven — a genuine, checkable difference from a Western
   drop-scone or biscuit.
+  - *Composition & proportions (§4.7)*: flat rounds ~6–7 cm across (about
+    the can's width) and ~1 cm thick, 4–6 stacked or overlapping on a plate,
+    currants as small dark flecks, a light sugar dusting. Absent: icing, jam
+    and cream, domed scone shape. [EDITORIAL]
 - Out of scope: laverbread (a seaweed dish, traditionally a breakfast
   item alongside bacon and cockles — excluded here on the same
   breakfast-exclusion logic as the full English).
@@ -1025,6 +1351,10 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   real and specific serving custom, not just a garnish choice.
   [CONFIDENCE: HIGH] [SOURCE: aggregated across multiple Irish-food
   sources describing the identical well-and-butter serving convention]
+  - *Composition & proportions (§4.7)*: one bowl ~15–18 cm of mash heaped
+    ~5–6 cm high; green spring-onion flecks ~10–15% of the surface; one
+    central well ~3–4 cm across holding a melting butter pool. Absent:
+    gravy, herb sprig, a second topping. [EDITORIAL]
 - **The "pastie supper" naming trap — a real, checkable confusion risk,
   not a minor curiosity.** A Northern Irish chip-shop "pastie" is a
   large-to-medium, battered, deep-fried round patty of minced pork,
@@ -1036,12 +1366,25 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   shortcrust-wrapped, and baked. Depicting one as the other would be a
   direct, checkable authenticity error. [CONFIDENCE: HIGH]
   [SOURCE: [Wikipedia: Pastie](https://en.wikipedia.org/wiki/Pastie)]
+  - *Composition & proportions (§4.7)*: pastie supper: one round battered
+    patty ~9–11 cm across and ~2–3 cm thick (wider than the can) on a heap
+    of chips about equal in area, on paper or a plate; pastie bap: the patty
+    in a soft round roll. Absent: shortcrust, a D shape, a crimp.
+    [EDITORIAL]
 - **Gravy chips** (chips with brown gravy) are a common NI order,
   alongside the same gravy-on-chips convention documented for North
   England above.
+  - *Composition & proportions (§4.7)*: a regular portion of thick chips
+    (~1–1.5 cm square, per the fish-and-chips entry) in a box or on a plate,
+    brown gravy poured over ~60–70% of the top and pooling at the base.
+    Absent: cheese curds (a poutine cue), herbs. [EDITORIAL]
 - **Traybakes** such as "fifteens" (a no-bake refrigerator traybake made
   from digestive biscuits, marshmallows, and glacé cherries — a
   snack/dessert register) are real but thin at this file's scope.
+  - *Composition & proportions (§4.7)*: fifteens: 4–6 slices ~2 cm thick cut
+    from a log ~5–6 cm across, on a plate; pink-and-white marshmallow and
+    red cherry pieces ~1 cm visible in a pale-brown crumb, coconut-rolled
+    edge. Absent: icing drizzles, chocolate coating. [EDITORIAL]
 - Architecture: red-brick terraces broadly similar to northern England's.
 - Caricature-avoidance (editorial judgment): avoid defaulting every
   NI-set scene to a sectarian/"Troubles-era" visual frame — an ordinary
@@ -1052,6 +1395,11 @@ rather than promoted to its own file or deferred to a future Ireland file.**
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27,
+  `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece
+  sizes are sourced where tagged; counts and shares are reasoned from recipe
+  quantities and serving norms, tagged [EDITORIAL], and should be checked
+  against image tests before being treated as reliable.
 - **The Cornish pasty's exact retail length (18–22cm) and the pub-pie/
   pie-and-mash sizes (12–15cm/10–12cm) remain this file's own reasonable
   estimates, not independently sourced measurements** — no Cornish Pasty
