@@ -2081,3 +2081,127 @@ treating them as reliable.*
 (Pão de queijo and Tapioca, above, are also morning foods.)
 
 ---
+
+## EXAMPLE PROMPT LANGUAGE (illustrative — not validated by any image test)
+
+**PF at a lunch counter, 1 person, zone 1 (hero named by the brief — here
+a Coca-Cola Original 350 mL can):**
+> Eye-level photograph at a São Paulo neighbourhood lunch counter at
+> 12:30, soft daylight from the street. On a steel counter with a paper
+> placemat: a full white oval plate, food touching edge to edge — a domed
+> heap of fluffy separate white rice with a ladle of whole light-brown
+> beans in thick brown broth spilling over its edge; a thin browned
+> steak, about as long as the can is tall and far thinner, draped with
+> soft golden onion rings; a heap of golden straight-cut fries; two
+> lettuce leaves and three small tomato slices; a spoon of dry sandy
+> toasted flour. Beside the plate: a Coca-Cola Original 350 ml can, red
+> aluminium, standard can, not Sem Açúcar, standing upright. Behind, out
+> of focus: tiled wall, a heated glass case of golden snacks. No
+> tortillas, no cheese, no beer, no coffee, no other drinks; no legible
+> text or signage anywhere; nothing held in a hand. Pack text will be
+> composited in post.
+
+**Saturday feijoada, 3 people at home, zone 2 (hero: a 2 L bottle, as
+named by the brief):**
+> Midday light in a Rio apartment dining room, balcony door open. A table
+> with a plain cotton cloth; in the centre a dark clay pot of glossy whole
+> black beans in thick dark broth with a few pieces of sausage and dried
+> beef breaking the surface; around it a bowl of fluffy white rice, a bowl
+> of very fine glossy dark-green collard ribbons, a bowl of dry sandy
+> toasted flour, a small plate of puffed golden pork crackling and a plate
+> of peeled orange slices. Three plates, one already built in front. In the
+> midground a 2-litre Coca-Cola Original plastic bottle and a filled plain
+> glass of cola at each place. No caipirinha, no beer, no other drinks; no
+> legible text; nothing held in a hand.
+
+*Before use: run at least two generations per prompt
+(`country-file-schema.md` §7.5) and apply this file's confidence tags.*
+
+---
+
+## GAP LOG
+
+- **Composition & proportions blocks (§4.7) are mostly editorial
+  synthesis.** Piece sizes are sourced where tagged (coxinha weights and
+  mould, pão francês weight, brigadeiro cup, pão de queijo raw size,
+  mortadella weight, pastel length from one tier-4 source); counts and
+  surface shares are reasoned from recipes and serving norms and must be
+  checked against two or more image generations per prompt-ready line.
+- **Search budget exhausted mid-pass.** The shared session's WebSearch cap
+  (200) was reached after ~40 searches for this file. **Not checked**:
+  returnable glass dimensions (200/290 mL, 1 L), the universal RefPET
+  bottle's silhouette, 600 mL PET as current, pizza paulistana (left out
+  of the catalog), tapioca, parmegiana, pudim, pão na chapa, acarajé
+  fritter size and the IPHAN/Candomblé framing, Círio de Nazaré,
+  Réveillon foods, dinner time, sunset times, interior/exterior housing
+  markers, espeto lengths, moqueca pot size.
+- **Contradiction with `coca-cola-guidelines.md` §4.3.** Its rule "default
+  to the 330 mL can for any non-US market" does not fit Brazil, a
+  **350 mL** can market (12.2 × 6.6 cm per one retail listing). With
+  Mexico (355 mL) this is the second LATAM market that breaks the rule;
+  the rule should probably read "European markets default to 330 mL;
+  otherwise use the country file's confirmed can". Not edited here.
+- **No Brazil pack dimensions beyond the can.** Awaiting the TCCC spec
+  drop flagged in `coca-cola-guidelines.md`.
+- **Sem Açúcar vs Zero Açúcar naming** — both appear in press; confirm
+  current pack naming before a production run.
+- **Pack colours for Kuat, Fanta Guaraná, Guaraná Jesus not confirmed**
+  beyond Guaraná Jesus being pink.
+- **Wikipedia, Michelin Guide Brasil and Bom Gourmet pages could not be
+  read directly** (egress proxy); those claims rest on search snippets,
+  marked "(via search)".
+- **Zone 3's Centre-West extension (Goiás, DF, Mato Grosso) is
+  unresearched** — no pequi, Pantanal fish or Brasília registers yet.
+- **Gen Z housing** — no Brazil leaving-home statistic searched.
+- **São Paulo capital's apartment share** not found; only the national
+  figure and the three majority-apartment municipalities.
+- **Religious-food sensitivity (acarajé, caruru)** is an editorial rule;
+  a reviewer should confirm it matches TCCC Brazil's own guidance.
+
+## CANDIDATE QUEUE
+
+1. **Fernando decision**: keep Brazil as one file with seven zones, or
+   move to a national index + regional files (US pattern); and whether to
+   spin out Bahia and/or the Amazon now.
+2. Brazil pack dimensions (290 mL and 1 L glass, universal RefPET 2 L,
+   310/220 mL sleek cans) into `coca-cola-guidelines.md` once the spec
+   drop lands; reword the §4.3 330 mL rule.
+3. Re-check the unsearched entries listed in the GAP LOG, then add pizza
+   paulistana, espetinho de rua, x-tudo/cachorro-quente, bolinho de
+   bacalhau (boteco), pato no tucupi and maniçoba, frango com quiabo,
+   pequi rice (Centre-West).
+4. Image tests (two or more generations each), starting with the PF,
+   feijoada, coxinha and pastel — the entries with the clearest failure
+   modes (Mexican conflation, dry beans, empanada crust).
+5. Independent §8 audit.
+
+## RESEARCH LOG
+
+- **2026-09-27/29, first pass (this file).** Built directly — no separate
+  scaffold. About 40 WebSearch queries (plus 3 refused at the session
+  cap) and 3 WebFetch attempts (bomgourmet.com, guide.michelin.com,
+  en.wikipedia.org — all blocked by the egress proxy):
+  - **Packs and brand**: 350 mL can listings and dimensions; returnable
+    glass sizes; universal returnable RefPET (1.5/2 L, paper label, 25
+    reuses); Coca-Cola Brasil packaging portfolio (~20% returnable);
+    220 mL and 310 mL sleek cans; TCCC Brazil brands (Kuat, Fanta Guaraná,
+    Guaraná Jesus, Del Valle, Crystal, Schweppes, Matte Leão); Kuat
+    discontinuation rumour (denied); Samba em Berlim.
+  - **Housing and time**: IBGE Censo 2022 house/apartment split;
+    majority-apartment municipalities; lunch timing; dinner timing (no
+    study found).
+  - **Everyday food**: prato feito; comida por quilo origin (BH, 1984);
+    feijoada days and sides; carioca vs black bean geography (Embrapa);
+    São Paulo weekly PF calendar and virado; farofa; strogonoff.
+  - **Churrasco**: rodízio, cards, picanha; home churrasco cuts and sides.
+  - **Street and snacks**: pastel de feira and caldo de cana; coxinha
+    sizes; pão de queijo; mortadela sandwich; Biscoito Globo and mate.
+  - **Regional**: acarajé; moqueca baiana vs capixaba; açaí paraense vs
+    tigela; tacacá; baião de dois; feijão tropeiro; carreteiro, galeto,
+    chimarrão; cuscuz nordestino; pão francês weight; brigadeiro cups.
+  - **Festivals**: Carnaval 2027; São João 2026 (Campina Grande,
+    Caruaru) and junina foods; ceia de Natal.
+- **Sources down-weighted**: tier-4 recipe blogs and marketplace listings
+  used only for sizes where nothing better surfaced, and marked; TikTok,
+  Pinterest and Quora results ignored.
+- **No subagents were used.**
