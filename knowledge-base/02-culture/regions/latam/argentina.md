@@ -2073,3 +2073,151 @@ against two or more generations before trusting them.*
 
 ---
 
+## EXAMPLE PROMPT LANGUAGE (illustrative — not validated by any image test)
+
+**Home asado, meal outdoors at home, zone 2 (hero illustrative — the
+brief names the SKU):**
+> Eye-level photograph at midday under the roofed brick patio of an
+> Argentine family house, soft shade, hard sunlight on the lawn beyond.
+> On a long table with a plain cloth: a worn wooden carving board crowded
+> with grilled beef — narrow cross-cut short-rib strips each about the
+> can's width, golden-brown with crisp fat and a row of pale oval bone
+> ends; half a flank steak sliced into thick juicy pink slices; chunks of
+> browned sausage and dark blood sausage. A small bowl of loose oily
+> herb-green chimichurri, a bowl of diced tomato and onion, a basket of
+> crusty white bread, a bowl of green salad. Softly out of focus behind:
+> a brick grill with a side ember box and meat on a grate. {HERO PRODUCT
+> from the brief — e.g. "a 2.25-litre Coca-Cola Original plastic bottle
+> in the midground, one filled plain glass of cola with ice at each
+> place"}. No grill-stripe crosshatch, no sauce on the meat, no wine
+> glasses, no beer, no foam-topped dark drinks, no mate gourd or thermos.
+> No legible text anywhere; nothing held in a hand. Pack text will be
+> composited in post.
+
+**Pizzería porteña, away from home 2–3 people, zone 1:**
+> A Buenos Aires neighbourhood pizzeria at night, a formica table under
+> warm light. A thick round pan pizza on an aluminium tray, the soft
+> golden crust about a third of the can's width tall, almost entirely
+> covered in a deep layer of glossy melted white mozzarella running to
+> the rim and browned in patches, a few whole green olives; one slice on
+> a small plate with a thin pale-golden chickpea flatbread wedge laid on
+> top of it. {HERO PRODUCT from the brief — e.g. "a Coca-Cola Original
+> 354 ml can, red aluminium, not Sin Azúcar or Light"}. Counter and
+> ornate painted wall signs behind, heavily blurred and unreadable. No
+> basil, no pepperoni, no soda siphon, no other drinks, nothing held in
+> a hand.
+
+**Merienda, casual at home 1 person (teen register), zone 1:**
+> Late-afternoon window light in a Buenos Aires apartment kitchen. On
+> the table, a white cardboard bakery tray on paper with small curved
+> crescent pastries, each about as long as the can is tall, deep golden
+> and lacquered shiny with syrup, and two straight pastry strips with a
+> stripe of deep red quince paste. {HERO PRODUCT from the brief}. No mate
+> gourd, no thermos, no coffee cup, no legible text.
+
+*Before use: run at least two generations per prompt
+(`country-file-schema.md` §7.5), and apply this file's confidence tags.*
+
+---
+
+## GAP LOG
+
+- **Composition & proportions blocks (§4.7) are mostly editorial
+  synthesis.** Piece sizes are sourced where tagged (empanada discs
+  12–14 cm, asado de tira width classes, bife de chorizo thickness,
+  provoleta thickness, choripán bread length, chipá size, matambre
+  weight, lamb-cross angle and distance); counts and surface shares are
+  reasoned from recipes and serving norms, tagged [EDITORIAL], and must be
+  checked against two or more image generations per prompt-ready line.
+- **Search budget exhausted mid-pass.** The shared session's WebSearch
+  cap (200) was reached after 35 searches for this file; the 36th (TCCC's
+  reported alcoholic ready-to-drink launch in Argentina) did not run.
+  Not checked: the RTD products themselves; medialuna de grasa vs.
+  manteca **shape** difference; salsa criolla; tereré; river fish
+  (surubí/pacú) — the whole entry is LOW-MEDIUM; bondiola; tostado;
+  flan; sándwich de milanesa; pasta sizes; Día del Amigo and Día de la
+  Tradición customs; CABA-specific housing split; Cuyo dishes (tomaticán,
+  chivito a la llama); Patagonian trout/centolla presentation.
+- **No page was fetched directly**; every web claim rests on search
+  snippets ("via search").
+- **`coca-cola-guidelines.md` §4.3's "non-US market ⇒ 330 mL can"
+  default does not fit Argentina**: the Argentine standard can is
+  **354 mL** (North American 12 oz). Same contradiction already logged
+  for Mexico; the rule should probably read "non-North-American market
+  (and not Mexico/Argentina)" or list confirmed 355/354 markets. Not
+  edited here.
+- **No Argentina-specific pack dimensions.** 354 mL can uses US figures;
+  the 350 cc returnable glass bottle, 1 L/1.25 L returnable glass, and
+  PET formats have no heights. The reported discontinuation of the 2 L
+  returnable in Arca's northern territory is unconfirmed.
+- **Mate staging inconsistency with `uruguay.md`.** Uruguay catalogues
+  mate as a dish entry with visual guidance; this file (and the standing
+  "no other drinks in frame" rule) keeps it in ICONIC BEVERAGES only.
+  Reviewer should decide whether mate is ever stageable as a named
+  non-alcoholic companion, and align both files.
+- **Merienda scope** (treated here as an in-scope snack occasion) is a
+  judgment call the reviewer should confirm.
+- **TCCC's own public link to fernet con Coca** (a co-branded
+  #FernetconCoca Día del Amigo campaign reported by Perfil) and the
+  reported Coca-Cola alcoholic RTD launch in Argentina — the staging rule
+  is unchanged, but TCCC Argentina's own responsible-marketing guidance
+  on the pairing should be confirmed.
+- **Visually near-identical dishes**: lomito cordobés vs. Uruguay's
+  chivito; chipá vs. Brazil's pão de queijo; milanesa napolitana and
+  pizza + fainá are shared with Uruguay. The setting carries the
+  identity; the entries say so rather than claiming a distinction.
+- **No TCCC OU code**; bottler territories only partly confirmed.
+- **Sensitivity calls** (24 March, 2 April, flag, Malvinas) are
+  editorial, not company policy.
+
+## CANDIDATE QUEUE
+
+1. Reviewer decisions: NOA spinout (not triggered), merienda scope, the
+   mate-staging alignment with `uruguay.md`, the fernet/RTD policy check.
+2. Once the TCCC spec drop lands: Argentine 354 mL can, 350 cc glass,
+   1.25 L returnable glass and PET dimensions into
+   `coca-cola-guidelines.md` §4.3, and the §4.3 330 mL rule reworded.
+3. Image tests (two or more generations each), starting with the asado
+   board, pizza porteña, empanadas (criolla vs. salteña), milanesa
+   napolitana — strongest sourcing and clearest failure modes (US BBQ,
+   Neapolitan pizza, Galician pie, chicken parm).
+4. Research pass once search budget allows: the unchecked items in the
+   GAP LOG, especially the RTD launch, medialuna shapes, river fish and
+   Cuyo.
+5. Independent §8 audit of this file.
+6. Update `market-roadmap.md` (Argentina row) and
+   `tableware-composition-reference.md` (Argentina row) — not touched
+   this pass per the brief.
+
+## RESEARCH LOG
+
+- **2026-09-27, first pass (this file).** Built directly — no separate
+  scaffold. 35 WebSearch queries, prioritised by what a scene visibly
+  depends on:
+  - **Packs and brand**: 354 mL can (tienda.coca-cola.com.ar, Jumbo,
+    Mercado Libre); returnable glass 350 cc, 1 L, 1.25 L and PET formats;
+    2 L returnable discontinuation report (iProfesional); bottlers
+    (Andina, Arca Continental, FEMSA, Reginald Lee); portfolio; Coca-Cola
+    as most-chosen brand (Ámbito/Kantar); fernet con Coca (Wikipedia,
+    VinePair, El Cronista, argentina.travel); the #FernetconCoca
+    co-branded campaign (Perfil).
+  - **Meal timing, light, housing**: cena 21:00–22:00+, merienda
+    16:00–18:00 (Billiken, Remitly); Buenos Aires sunset 17:50–20:11;
+    Census 2022 76.7% casas / 19.6% departamentos; 37–38% of 25–34s
+    living with parents (Tejido Urbano/EPH).
+  - **Dishes and sizes**: regional gastronomic zones; empanada regional
+    variants and disc sizes; asado order and V-grate/brasero; asado de
+    tira width; bife de chorizo thickness; provoleta; choripán bread;
+    milanesa napolitana origin; bodegón aesthetic; pizza porteña and
+    fugazzeta; sándwich de miga; lomito cordobés; humita and tamal;
+    cordero patagónico; chipá; locro; pastelitos; facturas and medialunas;
+    alfajores; tortas fritas/pastafrola; matambre a la pizza and
+    arrollado; tarta pascualina; ñoquis del 29; Christmas table.
+  - **Festivals**: 2027 feriados and Carnaval (8–9 Feb 2027); Vendimia
+    2027 (Acto Central 6 Mar); 25 May menu.
+- **Access limitation**: no direct page reads; all web claims via
+  search snippets. Search cap reached on the 36th query.
+- **Sources down-weighted**: recipe blogs and retailer pages used only
+  for sizes where nothing better surfaced; TikTok/Instagram/Facebook
+  results ignored.
+- **No subagents were used.** No existing file was edited.
