@@ -100,11 +100,10 @@ product is staged; the others are documented in ICONIC BEVERAGES.
    [EDITORIAL; canang ubiquity MEDIUM — not independently re-checked]
 8. **No alcohol staged, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).** Bintang
    beer, arak Bali, tuak (palm wine) and Manado **cap tikus** exist (see
-   ICONIC BEVERAGES). **Also never as a non-alcoholic mixer**: **soda
-   gembira** (Fanta poured over sweetened condensed milk) is a beloved
-   Indonesian drink and a Ramadan classic, but it presents a TCCC product
-   as an ingredient — **not staged** unless Fernando/TCCC Indonesia
-   explicitly rules it in [EDITORIAL — flagged; see GAP LOG].
+   ICONIC BEVERAGES). **Soda gembira** (Fanta poured over sweetened
+   condensed milk), a beloved Indonesian drink and a Ramadan classic, may
+   be staged when the brief calls for it (Fernando, 2026-10-01; schema
+   §5.5).
 9. **Iced sweet tea is the intruder.** **Es teh manis** (sweet iced tea in
    a tall glass) is the default drink at every warung and rumah makan, and
    **a glass or jug of plain water or warm tea** is on every home table.
@@ -935,6 +934,301 @@ TCCC Indonesia sign-off):**
 - **Football and badminton on TV** — nonton bareng (watching together)
   at a warung kopi is a genuine occasion; no team logos legible.
   [LOW — not re-checked]
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Schema §5.7 applies: the frame shows only the operator's party (1, 2
+or a small group of place settings) at one stretch of a bigger table
+or buffet; the gathering is implied, never counted out. Hard rules
+1–10 above all still apply: **every entry below is halal by default**
+(no pork, no alcohol, nothing that reads as either); **hard rule 6 and
+the Ramadan staging guidance govern any Ramadan-coded scene**; hard rule
+7 keeps the product away from prayer, mosques, Qur'ans, offerings and
+shrines. Christmas in the Christian east, Imlek, Galungan and Balinese
+feasts stay brief-named exceptions (see the register above) and get no
+default entry here.
+
+### How large gatherings work here
+
+- **Who gathers**: the extended family (keluarga besar), the RT/RW
+  neighbourhood, colleagues, and for life events everyone the family
+  owes an invitation to. Many gatherings are a **selamatan / kenduri /
+  syukuran**: a communal prayer with neighbours followed by food, and
+  the guests take food home [HIGH — Wikipedia "Kenduri", budaya-indonesia.org,
+  INFID].
+- **Typical size**: a Lebaran open house or a syukuran is roughly
+  15–50 people over the day [LOW — not verified this pass]; a
+  khitanan hajatan is commonly around 100 (caterers quote packages per
+  100 guests) [MEDIUM — Jakarta caterer price lists (tier 3)], an aqiqah
+  at home smaller [LOW]; a
+  **wedding resepsi** is planned for hundreds to over 1,000 attendees
+  (one planning rule: 500 invitations bring about 1,000 people)
+  [MEDIUM — Jagarasa and pernikahan.or.id planning guides (tier 3)].
+- **Where (intake venue)**: **home indoor** (the living room, often on a
+  carpet or tikar mat, or the dining table) for Lebaran and syukuran;
+  **home outdoor** under a rented **tenda** (canvas or white-draped
+  marquee) over the yard or the gang lane, the classic **hajatan** set-up
+  for weddings, khitanan and aqiqah in kampung and perumahan; **other**:
+  a gedung (rented wedding hall), a mosque hall or a hotel ballroom;
+  **restaurant** for bukber (breaking the fast together) and urban
+  birthdays.
+- **Table form and serving style (three that matter)**:
+  1. **Prasmanan** (buffet): long tables with chafing dishes; guests
+     queue, fill a plate and eat standing or seated. At weddings it is
+     paired with **gubukan**: small decorated food stalls (often styled
+     as little huts or joglo pavilions) serving one item each, such as
+     bakso, soto, sate or siomay, which also break up the buffet queue
+     [HIGH — weddingmarket.com, djavacatering, pernikahan.or.id,
+     Jagarasa agree].
+  2. **Lesehan spread**: dishes set out on a mat or a low table, family
+     seated on the floor; Lebaran and syukuran at home. [MEDIUM — not
+     re-checked]
+  3. **Nasi kotak / berkat**: a cardboard rice box or a woven-bamboo
+     **besek** with rice and lauk, handed to guests and neighbours to
+     take home; standard at aqiqah, selamatan and many hajatan [HIGH —
+     Wikipedia "Kenduri"; aqiqah caterers].
+- **Who serves**: women of the family and neighbours cooking together
+  (rewang/gotong royong) at kampung hajatan; caterer staff at buffets;
+  guests help themselves.
+- **Plate and cutlery norms that differ**: still spoon and fork, no
+  knife; buffet plates are caterers' white china; a small glass of water
+  in a sealed plastic cup is the standard hajatan drink and an intruder
+  to negate; **eating standing** is normal at a wedding prasmanan but
+  never shown with a plate in hand. [EDITORIAL; cup MEDIUM — not
+  re-checked]
+- **Snapshot staging default for Indonesia [EDITORIAL]**: the three most
+  authentic crowd cues here are (1) **the edge of a prasmanan line**:
+  a row of stainless chafing dishes with domed lids running out of frame,
+  soft behind the table; (2) **a tenda canopy** (white or coloured drapes
+  over steel poles) with rows of covered chairs; (3) **a stack of nasi
+  kotak or besek** at the edge of the frame, or a tumpeng on its tray.
+  At home, swap (1) for a living-room carpet or table carrying more
+  dishes than the visible diners need, and jars of kue kering.
+
+#### Celebration: Lebaran open house (Idul Fitri / halal bihalal)
+- Type: calendar holiday
+- When: Idul Fitri (see register) and the days after. Shalat Ied is in
+  the morning; the ketupat meal and open-house visiting run from late
+  morning through the day. Stage the midday visiting meal (morning
+  kue kering can be present but the main meal is the scene). Intake
+  time of day: midday.
+- Gathering: the family reunited by mudik, then neighbours and
+  relatives visiting house to house, 15–50 over the day [LOW]. Venue:
+  home indoor (living room or dining table) or home outdoor (teras).
+- The spread: see catalog: **Lebaran table** (ketupat, opor ayam, sambal
+  goreng ati kentang, sayur labu siam or lodeh), plus **rendang** (see
+  catalog: Rendang), emping and krupuk, and lidded jars of **kue
+  kering** (nastar, kastengel, putri salju) on the living-room table.
+  5–8 serving dishes plus 4–8 cookie jars. [HIGH — register sources]
+  Kue kering have no catalog entry (see CANDIDATE QUEUE): nastar are
+  golden, glossy, egg-washed balls ~3 cm with a clove on top in clear
+  lidded plastic jars about 1.5 times the can's height.
+- Snapshot staging: **1 setting** — a plate of ketupat cubes with opor
+  and sambal goreng ati; the opor bowl and a pile of whole ketupat
+  partly in frame; two cookie jars cropped at the edge. **2 settings** —
+  two plates on the dining table, opor, rendang and sambal goreng
+  between them. **Small group** — plates around a low table, the
+  carpet and more dishes running out of frame. Crowd cues: cookie jars
+  lined up on the living-room table; bunches of woven ketupat hanging as
+  decoration; relatives in matching baju Lebaran blurred behind.
+- Decor and cues: new clothes in one family colour, ketupat garlands,
+  green-and-gold accents. Avoid: Middle-Eastern lantern props, camels,
+  crescent-moon clip art.
+- Never stage: sungkem (hand-kissing elders) in focus with the product;
+  Shalat Ied; a mosque interior; any pork or alcohol.
+- Confidence and sources: HIGH for the table (catalog sources); LOW for
+  headcount; EDITORIAL composition.
+
+#### Celebration: Buka bersama (bukber, breaking the fast together)
+- Type: calendar holiday (Ramadan; a recurring gathering through the
+  month)
+- When: at maghrib (~18:00 in Jakarta) during Ramadan (see register).
+  Intake time of day: golden-hour (before maghrib) or evening (after
+  prayer).
+- Gathering: friends, classmates, colleagues or the extended family;
+  restaurants are fully booked at 17:30 [MEDIUM — register]. 8–30 people
+  [LOW]. Venue: restaurant (a long reserved table), home indoor, or
+  other (a mosque courtyard: never staged with the product).
+- The spread: first **dates** and **takjil** (see catalog: Takjil — kolak
+  and es buah), then after prayer the main meal: rice with ayam goreng,
+  gorengan, soto or a Padang spread (see catalog: Ayam goreng and pecel
+  lele; Gorengan; Soto; Padang hidang spread). 6–12 serving dishes.
+- Snapshot staging: **follow the register's Ramadan staging rules
+  exactly.** **Moment (a), before maghrib**: **1 setting** — an untouched
+  place: an empty plate and spoon and fork, a saucer of 5–7 dates and a
+  small bowl of kolak in front, the hero unopened behind them; the
+  covered rice dish and a gorengan platter partly in frame. **2
+  settings** — two untouched places facing, dates and kolak at each, the
+  main dishes covered with a tudung saji or cling film. **Small group** —
+  one stretch of a long reserved restaurant table, untouched, running out
+  of frame. **Moment (b), after prayer**: the same stretches with takjil
+  bowls half-finished, rice plates in use, the hero among the main-meal
+  dishes, never in front of the dates. Crowd cues: a long table running
+  out of frame; a second group's table soft behind; golden dusk light.
+- Decor and cues: everyday Muslim dress mixed with T-shirts; dusk
+  through the window. If the brief names it, a non-alcoholic Fanta mix
+  (schema §5.5) may stand in for the hero.
+- Never stage: the product as the first thing that breaks the fast;
+  anyone eating or drinking in daylight; the adhan moment with the
+  product in focus; prayer, a mosque interior, a Qur'an; pork or alcohol.
+- Confidence and sources: MEDIUM for practice (register); EDITORIAL
+  staging, flagged for TCCC Indonesia sign-off (GAP LOG).
+
+#### Celebration: Idul Adha family sate evening (Idul Adha / Hari Raya Kurban)
+- Type: calendar holiday
+- When: Idul Adha (see register); the qurban is in the morning, the
+  family cooks the meat later and eats in the evening. Intake time of
+  day: evening (golden-hour for the grill).
+- Gathering: the family and neighbours, 8–25 [LOW]. Venue: home outdoor
+  (teras or yard with a small charcoal grill) or home indoor.
+- The spread: **sate kambing** (goat satay; see catalog: Sate Madura,
+  which covers goat), **gulai kambing** (goat in yellow coconut curry)
+  and **tongseng** (goat in a sweet-soy curry with cabbage and tomato),
+  rice, sliced shallots, tomato and chilli with kecap manis [HIGH — Kompas,
+  detik, Liputan6, Wikipedia "Sate kambing"]. Gulai kambing and tongseng
+  have no catalog entry (see CANDIDATE QUEUE): gulai is a thin ochre-
+  yellow coconut curry with a film of red oil, goat pieces on the bone,
+  in a large enamel or clay bowl about twice the can's width; tongseng
+  is darker, brown and glossy with wilted cabbage. 4–6 serving dishes.
+- Snapshot staging: **1 setting** — a plate of rice with 4–5 goat sate
+  sticks and kecap with shallots, the gulai bowl and the sate platter
+  partly in frame. **2 settings** — two plates on a tikar or low table,
+  gulai and tongseng bowls and a sate platter between them. **Small
+  group** — the mat running out of frame, a second sate platter cropped.
+  Crowd cues: a charcoal grill with smoke soft behind; extra plates;
+  blurred neighbours on the teras.
+- Decor and cues: dusk, string lights on the teras. Avoid: livestock.
+- Never stage: the sacrifice, raw meat, distribution of meat in bags;
+  mosque scenes; alcohol.
+- Confidence and sources: HIGH for the dishes (above); EDITORIAL.
+
+#### Celebration: Wedding reception (resepsi pernikahan)
+- Type: life event
+- When: weekend, late morning to afternoon (siang) at kampung or home
+  receptions, evening (malam) at gedung and hotel receptions. Intake time
+  of day: midday or evening.
+- Gathering: hundreds to over 1,000 attendees [MEDIUM — planning guides
+  above]. Venue: home outdoor (tenda over the yard or lane), other
+  (gedung, hotel ballroom).
+- The spread: **prasmanan**: white rice, a beef dish (rendang or
+  empal), an ayam (opor, bakar or goreng), a vegetable, a soup, krupuk,
+  sambal, fruit, a dessert; plus **gubukan** stalls: bakso, soto, sate,
+  siomay, dimsum, es campur [HIGH — weddingmarket.com, djavacatering,
+  cateringprasmanan]. See catalog: Rendang; Bakso; Soto; Sate Madura.
+  8–12 chafing dishes plus 3–6 gubukan.
+- Snapshot staging: **1 setting** — a seated guest's place at a dressed
+  table: a china plate with rice, rendang, a piece of ayam and a spoon of
+  vegetables; a small bowl of bakso from a gubukan beside it; the
+  prasmanan chafing dishes soft behind. **2 settings** — two plates side
+  by side at a covered banquet table with a bakso bowl and a sate plate.
+  **Small group** — a stretch of a long table, plates running out of
+  frame. Crowd cues: a row of chafing dishes with domed lids; a gubukan
+  hut roof soft in the background; draped tenda fabric and covered chairs.
+- Decor and cues: janur (young coconut-leaf) decorations at the entrance,
+  draped fabric, the region's colours (Javanese, Minang, Betawi). Avoid:
+  the couple on the pelaminan (dais) in focus.
+- Never stage: the akad nikah (marriage contract), prayer; a plate held
+  in a hand; any alcohol (absent anyway); legible names on backdrops.
+- Confidence and sources: HIGH for service style; MEDIUM for headcount
+  (tier 3); EDITORIAL composition.
+
+#### Celebration: Aqiqah (newborn thanksgiving)
+- Type: life event
+- When: traditionally the seventh day after birth (or later); a midday
+  gathering or simply food sent out. Intake time of day: midday.
+- Gathering: family, neighbours and the needy who receive cooked goat in
+  rice boxes; at home 30–100 [LOW]. Venue: home indoor, home outdoor, or
+  nasi kotak delivered.
+- The spread: goat cooked as **sate kambing**, **gulai kambing**,
+  **tongseng** or goat rendang, rice, acar, krupuk; packed as **nasi
+  kotak** for distribution [HIGH — Wikipedia "Sate kambing"; aqiqah
+  caterers (tier 3) agree]. See catalog: Sate Madura. Nasi kotak look: a
+  white cardboard box, lid open, rice ~half, a goat sate pair and a cup
+  of gulai, acar and krupuk; the box about 1.5 times the can's width.
+- Snapshot staging: **1 setting** — an open nasi kotak on a table, the
+  hero beside it, a stack of closed boxes cropped at the edge. **2
+  settings** — two plates of rice with gulai and sate, the gulai pot
+  partly in frame, boxes stacked behind. **Small group** — the lesehan
+  spread running out of frame. Crowd cues: a stack of nasi kotak; a
+  blurred neighbour at the door; a cradle softly far behind (no baby in
+  focus).
+- Decor and cues: soft pastel. Avoid: livestock.
+- Never stage: the slaughter, hair-shaving rite, prayer; box lids with
+  legible text.
+- Confidence and sources: HIGH for food and boxes; LOW for headcount.
+
+#### Celebration: Circumcision feast (khitanan / sunatan)
+- Type: life event (a boy's circumcision, usually aged ~6–12; in some
+  regions as big as a wedding)
+- When: often school holidays; a midday hajatan. Intake time of day:
+  midday.
+- Gathering: relatives and neighbours, about 100 (caterers price per
+  100 guests); in places like Brebes as large as a wedding with a stage
+  and tents [MEDIUM — Jakarta caterer price lists; cateringprasmanan
+  (tier 3)]. Venue: home outdoor (tenda) or home indoor.
+- The spread: a **tumpeng** as the thanksgiving centrepiece (see
+  catalog: Tumpeng) and a prasmanan of rice, ayam, a beef dish, vegetables,
+  sambal and krupuk [MEDIUM — same sources]. 6–10 serving dishes.
+- Snapshot staging: **1 setting** — a plate with rice, ayam goreng and
+  vegetables; the tumpeng tray partly in frame, chafing dishes soft
+  behind. **2 settings** — two plates at a covered table, the tumpeng
+  between them, cropped. **Small group** — a stretch of the table under
+  the tenda. Crowd cues: tenda drapes, rows of chairs, a small stage
+  blurred far behind.
+- Decor and cues: the boy appears only as a blurred figure in sarong
+  and peci, if at all.
+- Never stage: the medical procedure or its references; prayer.
+- Confidence and sources: MEDIUM (tier 3); EDITORIAL.
+
+#### Celebration: Birthday and syukuran (ulang tahun)
+- Type: life event (and the general thanksgiving syukuran for a new
+  house, car or job, same staging)
+- When: afternoon or evening; intake time of day: midday or evening.
+- Gathering: family, classmates or neighbours, 10–40 [LOW]. Venue: home
+  indoor or home outdoor; restaurant for urban adults.
+- The spread: a **tumpeng** of nasi kuning is often chosen instead of or
+  beside a cake; for children, **mini tumpeng boxes** with fried chicken,
+  fried noodles, omelette and vegetables [MEDIUM — Indonesian caterer and
+  Cookpad listings (tier 3–4)]. See catalog: Tumpeng; Mie goreng; Ayam
+  goreng and pecel lele. 4–6 serving dishes plus the cake.
+- Snapshot staging: **1 setting** — a plate with a slice of yellow rice
+  from the tumpeng, ayam goreng and egg; the tumpeng tray partly in frame,
+  the cake cropped. **2 settings** — two plates flanking the tumpeng.
+  **Small group** — a children's mini-tumpeng box at each place, more
+  boxes cropped at the edge. Crowd cues: balloons, the cut top of the
+  tumpeng, blurred children behind.
+- Decor and cues: balloons, plain bunting. Avoid: licensed cartoon
+  characters, legible "Happy Birthday" picks.
+- Never stage: alcohol; legible text.
+- Confidence and sources: MEDIUM; EDITORIAL.
+
+#### Celebration: Neighbourhood selamatan (kenduri / selamatan)
+- Type: community or family gathering
+- When: before or after life milestones (seven months of pregnancy, a
+  baby's 35th day, a new house, a death anniversary) and community dates;
+  usually after an evening or midday prayer. Intake time of day: evening
+  or midday.
+- Gathering: neighbours (mostly men of the RT) and close family, 15–40,
+  seated on mats in a living room cleared of furniture [HIGH for the form
+  — Wikipedia "Kenduri", budaya-indonesia.org; headcount LOW].
+- The spread: **nasi berkat**: spiced rice with chicken, egg, vegetables
+  (urap, sambal goreng), packed in **besek** to take home; often a tumpeng
+  or ingkung (whole chicken) shared first [HIGH for berkat and besek —
+  Wikipedia "Kenduri"; ingkung LOW — not verified]. See catalog: Tumpeng.
+  Besek look: a square woven-bamboo box ~15–20 cm, pale straw-coloured,
+  lid off to show rice and lauk on a banana leaf.
+- Snapshot staging: **1 setting** — an open besek on the mat in front of
+  one place, the hero beside it, a row of closed besek running out of
+  frame. **2 settings** — two open besek and a shared tumpeng tray partly
+  in frame. **Small group** — the mat and besek row continuing out of
+  frame. Crowd cues: the row of besek; men in sarong and peci blurred,
+  seated along the wall.
+- Decor and cues: a carpet or tikar, bare walls.
+- Never stage: the prayer itself; a death-anniversary (tahlilan) brief
+  without explicit sign-off; alcohol.
+- Confidence and sources: HIGH (form); EDITORIAL (staging).
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
@@ -2631,6 +2925,19 @@ conversation, not an approved scene.*
   Indomie (as its own entry), kue basah (klepon, lapis, onde-onde),
   pisang epe, Chinese-Indonesian bakmi and lumpia Semarang.
 
+- **Celebrations pass (2026-10-01) open items**: headcounts for Lebaran,
+  bukber, Idul Adha, aqiqah, birthday and selamatan gatherings are
+  estimates (not verified); wedding and khitanan figures rest on caterer
+  and planning sites (tier 3, a commercial interest); the ingkung
+  (whole chicken) at selamatan, the sealed-cup water at hajatan and the
+  siang/malam reception split were not verified. The bukber entry applies
+  the register's editorial Ramadan rules and inherits their sign-off
+  question. **Rule conflict found**: hard rule 8 still says soda gembira
+  and other non-alcoholic Fanta mixes are "not staged unless ruled in",
+  while ICONIC BEVERAGES and the GAP LOG record Fernando's 2026-10-01
+  ruling that they are allowed (schema §5.5). Resolved the same day: hard rule 8 now
+  matches the ruling.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with six zones (recommended) vs.
@@ -2657,6 +2964,13 @@ conversation, not an approved scene.*
    (pancake-stack failure), **gado-gado** (fresh salad failure), and the
    **buka puasa** composition (product-first failure).
 6. Independent §8 audit.
+
+7. **Celebrations pass additions (2026-10-01)**: catalog entries for
+   **gulai kambing** and **tongseng** (Idul Adha, aqiqah), **kue kering**
+   (nastar, kastengel, putri salju in jars — Lebaran), **nasi kotak /
+   nasi berkat in besek** (aqiqah, selamatan), the **prasmanan + gubukan
+   buffet** as a composition entry, and **ingkung** (whole Javanese
+   ceremonial chicken).
 
 ## RESEARCH LOG
 
@@ -2697,3 +3011,13 @@ conversation, not an approved scene.*
   better surfaced, and are marked. Grokipedia, Quora and Threads
   results were ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries
+  (wedding prasmanan and gubukan; aqiqah menus and nasi kotak; selamatan
+  and nasi berkat in besek; khitanan hajatan; Idul Adha goat dishes;
+  birthday tumpeng). Added CELEBRATIONS & LARGE GATHERINGS with 8 entries
+  (Lebaran open house, bukber, Idul Adha sate evening, wedding resepsi,
+  aqiqah, khitanan, birthday/syukuran, selamatan). Key sources: Wikipedia
+  "Kenduri", "Sate kambing"; budaya-indonesia.org; INFID; Kompas, detik,
+  Liputan6 (Idul Adha); weddingmarket.com, pernikahan.or.id, Jagarasa,
+  djavacatering, cateringprasmanan (tier 3); aqiqah caterers (tier 3);
+  Tokopedia/Cookpad/Lemon8 (tier 4, birthday tumpeng only). No subagents.

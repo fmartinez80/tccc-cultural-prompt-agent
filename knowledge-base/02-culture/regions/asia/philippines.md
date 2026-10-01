@@ -844,6 +844,282 @@ drafting (2026-10-01), dates to the end of 2026 are given where searched;
   and-marshmallow skewers, cake, balloons) and the **"pancit for long
   life"** rule. A natural family-PET scene. [MEDIUM — not re-checked]
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Schema §5.7 applies: the frame shows only the operator's party (1, 2
+or a small group of place settings) at one stretch of a bigger table;
+the gathering is implied, never counted out. Hard rules 1–8 above all
+still apply, above all **hard rule 4**: no inuman, no pulutan-at-night
+composition (sisig, chicharon, kropek on a sizzling plate after dark),
+no beer, gin or rum anywhere, even at evening receptions where drinking
+is real; **hard rule 3**: no pork in zone 7 or beside Muslim-coded
+cues; **hard rule 5**: no product near a Santo Niño, altar, belen, church
+or procession.
+
+### How large gatherings work here
+
+- **Who gathers**: the extended clan (titos, titas, lolos, cousins),
+  godparents (ninongs and ninangs), neighbours, and at fiestas anyone who
+  walks in. Filipino social life runs on **handaan** (a feast prepared
+  for guests) or **salu-salo**: birthdays, fiestas, graduations,
+  christenings and holidays [MEDIUM — Barong World and Jojie's fiesta
+  guides (tier 4), consistent with factsanddetails and SunStar].
+- **Typical size**: a home birthday or christening is roughly 20–60
+  guests [LOW — not verified this pass]; a catered debut or wedding is
+  **100 to 200+**, with caterers splitting buffets above 200 [MEDIUM —
+  Event Nest debut and wedding guides (tier 3, vendor)]; a fiesta open
+  house has no count, people come and go all day [MEDIUM — SunStar,
+  factsanddetails].
+- **Where (intake venue)**: **home outdoor** is the default (a carport
+  or front yard turned into a party space with rented tables, monobloc
+  chairs and a tarpaulin or tent overhead; see ENVIRONMENT, Meal outdoors
+  at home); **home indoor** for Noche Buena and Media Noche; **restaurant**
+  (a function room or a Filipino restaurant) for christening and
+  birthday lunches in cities; **other** for weddings and debuts (a
+  hotel ballroom, events place, garden venue or barangay hall).
+- **Table form and serving style**: the **buffet** is the default for
+  any big handaan: a long table along a wall with foil trays or
+  chafing dishes, a lechon at the head, a rice tray, and guests sitting
+  at round or rectangular rented tables with their filled plates. A
+  standard catered buffet runs **rice (plain and garlic), two or three
+  meat dishes, one seafood, one vegetable, a pasta, a dessert spread**
+  [MEDIUM — Executive Gourmet and Event Nest (tier 3, vendors)]. Family
+  style at round tables is used for 80–150 guests [MEDIUM — Event Nest].
+  Noche Buena and Media Noche are one family table, everything at once.
+- **Who serves**: relatives and helpers at home (the cooks are often
+  aunts or a hired "kusinera"); caterer staff in uniform behind chafing
+  dishes at catered events; guests serve themselves.
+- **Plate and cutlery norms that differ**: still spoon and fork, no knife;
+  big events use caterers' white china or heavy paper and plastic plates
+  at home parties; rice is served by the scoop from a tray; take-home
+  "balot" (food wrapped for guests) is common [LOW — not verified].
+  [EDITORIAL]
+- **Snapshot staging default for the Philippines [EDITORIAL]**: the three
+  most authentic crowd cues here are (1) **a lechon on a banana-leaf tray
+  at the head of a buffet**, soft in the background or cropped at the
+  edge (outside zone 7); (2) **a row of foil trays or chafing dishes**
+  (pancit, spaghetti, lumpia, caldereta) running out of frame; (3)
+  **monobloc chairs, rented tables under a tarpaulin or tent, and
+  banderitas** (small triangular bunting) overhead, with no legible text
+  on any tarp or banner.
+
+#### Celebration: Town fiesta open house (pista)
+- Type: community or family gathering
+- When: the patron-saint day of each barangay or town, year-round with a
+  May peak (see register); the open house feeds people from late morning
+  to evening. Intake time of day: midday.
+- Gathering: the household's relatives, neighbours and "anyone who walks
+  through the door"; families save for months for it [MEDIUM — SunStar
+  "The tradition of fiestas", factsanddetails]. Count is open-ended,
+  dozens over a day [LOW]. Venue: home indoor (dining room) spilling to
+  home outdoor (carport buffet).
+- The spread: **lechon** as centrepiece (see catalog: Lechon; Luzon form
+  by default, Cebu form in the Visayas), **pancit** (see catalog:
+  Pancit), **kare-kare** (see catalog: Kare-kare), **menudo, caldereta or
+  afritada** (tomato stews; see catalog: Carinderia / turo-turo rice plate
+  for the menudo look; caldereta has no own entry, see CANDIDATE QUEUE),
+  **lumpia** (see catalog: Lumpia), **leche flan** and **puto** (see
+  catalog: Leche flan), rice. A real table carries 6–10 serving dishes.
+  [MEDIUM — SunStar, Jojie's, Amazing Food & Drink (tier 4)]
+- Snapshot staging: **1 setting** — a plate at the near end of the
+  dining table: rice mound, two chopped lechon pieces with skin, a
+  spoonful of pancit, a saucer of liver sauce; the pancit tray and a
+  caldereta dish partly in frame, the lechon platter cropped at the edge.
+  **2 settings** — two plates side by side at a corner, kare-kare with
+  bagoong, lumpia and pancit between them, leche flan cropped behind.
+  **Small group** — three or four plates along one side, the table
+  running out of frame with more trays. Crowd cues: banderitas in the
+  window or over the street outside; extra monobloc chairs; blurred
+  visitors at the carport buffet behind.
+- Decor and cues: plastic or lace tablecloth, banderitas, a festive
+  street through the doorway. Avoid: Spanish-colonial costume drama,
+  luau props.
+- Never stage: the procession, the patron-saint image or carroza; any
+  inuman bench of men with bottles (common at fiestas); pork beside
+  Muslim-coded cues.
+- Confidence and sources: MEDIUM (SunStar, factsanddetails, tier-4
+  guides); EDITORIAL composition.
+
+#### Celebration: Christmas Eve feast (Noche Buena)
+- Type: calendar holiday
+- When: 24 December toward midnight, after the evening Mass (see
+  register). Intake time of day: evening.
+- Gathering: the household and extended family, about 6–15 [LOW]. Venue:
+  home indoor.
+- The spread: see catalog: **Noche Buena table** (hamon, queso de bola,
+  Filipino spaghetti, fruit salad, leche flan, embutido, lechon if
+  affordable, pandesal or ensaymada). This entry adds only the snapshot
+  rule. 6–9 serving dishes.
+- Snapshot staging: **1 setting** — a plate with a slice of ham, a wedge
+  of queso de bola and a twirl of spaghetti; the glazed ham platter and
+  the red-wax cheese partly in frame, the fruit-salad bowl cropped.
+  **2 settings** — two plates at the table's near corner with ham,
+  cheese and spaghetti between them. **Small group** — four plates
+  along one side, the ring of dishes running out of frame. Crowd cues: a
+  glowing parol blurred in the window; Christmas lights bokeh; wrapped
+  gifts (no text) soft under a tree at the edge.
+- Decor and cues: warm light, parol, red-and-green tablecloth. Avoid:
+  snow, turkey, mistletoe.
+- Never stage: the belen or church; wine or brandy bottles; legible
+  greetings.
+- Confidence and sources: HIGH for the dishes (catalog sources); LOW for
+  headcount; EDITORIAL composition.
+
+#### Celebration: New Year's Eve feast (Media Noche)
+- Type: calendar holiday
+- When: 31 December toward midnight. Intake time of day: evening.
+- Gathering: household and extended family, 6–15 [LOW]. Venue: home
+  indoor, sometimes the carport.
+- The spread: Noche Buena leftovers and a fresh **pancit** for long life
+  (see catalog: Pancit), sticky rice cakes (**biko**, **tikoy**), and a
+  bowl or tray of **12 round fruits** (grapes, oranges, apples, melons,
+  pomelo) for prosperity [MEDIUM — register; not re-checked this pass].
+  Biko has no catalog entry: a dark caramel-brown sticky-rice cake with a
+  glossy latik (coconut-curd) top, cut into squares in a banana-leaf-lined
+  bilao ~40 cm across; each square about half the can's height across
+  (see CANDIDATE QUEUE). 5–8 serving dishes.
+- Snapshot staging: **1 setting** — a plate with pancit and a square of
+  biko; the fruit tray partly in frame, the pancit platter cropped.
+  **2 settings** — two plates, the fruit tray and pancit between them.
+  **Small group** — the table running out of frame with leftovers from
+  Christmas. Crowd cues: the round-fruit tray, polka-dot shirts on
+  blurred relatives, a window with distant light bokeh.
+- Decor and cues: polka dots, round fruit, coins in a bowl. Avoid:
+  fireworks near the product (hard rule; no torotot horns in focus).
+- Never stage: firecrackers, a drinking table.
+- Confidence and sources: MEDIUM (register, not re-checked); EDITORIAL.
+
+#### Celebration: Children's birthday party, including the first birthday (kaarawan)
+- Type: life event
+- When: afternoon, often a weekend; the first and seventh birthdays are
+  the big ones [LOW — not verified this pass]. Intake time of day: midday
+  or golden-hour.
+- Gathering: cousins, classmates, parents, godparents, 20–60 [LOW].
+  Venue: home outdoor (carport party) or restaurant (a function room).
+- The spread: **Filipino sweet spaghetti** with sliced red hotdogs and
+  grated cheese (see catalog: Filipino-style spaghetti), **fried chicken**
+  (see catalog: Filipino fried chicken), **pancit for long life** (see
+  catalog: Pancit), **lumpia shanghai** (see catalog: Lumpia), **hotdog-
+  and-marshmallow skewers** stuck into a pineapple or a cabbage, a
+  decorated cake, and sometimes **pork barbecue** (see catalog: Pork
+  barbecue skewers) [HIGH — Delish.ph, HuffPost, Wikipedia "Filipino
+  spaghetti" and "Pancit", USC Folklore Archive]. Hotdog-marshmallow
+  skewers have no catalog entry: short skewers alternating a red hotdog
+  chunk (2 cm, cut) and a pastel marshmallow, a dozen or more studding a
+  whole pineapple about 1.5 times the can's height (see CANDIDATE QUEUE).
+  6–8 serving dishes.
+- Snapshot staging: **1 setting** — a party plate with a twirl of
+  spaghetti, a fried drumstick and a spoon of pancit; the spaghetti tray
+  and the pineapple of skewers partly in frame. **2 settings** — two
+  plates on a kids' table, spaghetti tray and fried chicken between them,
+  the cake cropped at the edge. **Small group** — the foil-tray buffet
+  running out of frame. Crowd cues: balloons and paper bunting (no
+  letters legible); party hats; a blurred child or two behind.
+- Decor and cues: balloon arch, plastic tablecloth with a pattern (no
+  characters or licensed cartoons). Avoid: fast-food mascots and
+  branded party packs (hard rule 7).
+- Never stage: chain branding, licensed characters, alcohol for the
+  adults.
+- Confidence and sources: HIGH for the food (above); LOW for size.
+
+#### Celebration: Debut (18th birthday)
+- Type: life event (a girl's coming-of-age party at 18; boys' 21st is
+  smaller)
+- When: evening, after a formal programme (cotillion, the "18 roses"
+  dance). Intake time of day: evening.
+- Gathering: 100–200+ guests, formally dressed [MEDIUM — Event Nest
+  (tier 3)]. Venue: other (hotel ballroom, events place, garden venue) or
+  restaurant (function room).
+- The spread: a catered buffet: lechon, chicken barbecue, a pasta,
+  a seafood dish, beef caldereta or beef with mushroom, pancit, leche
+  flan and fruit salad [MEDIUM — Event Nest, Executive Gourmet (tier 3)].
+  See catalog: Lechon; Pork barbecue skewers; Pancit; Leche flan. Buffet
+  of 8–12 chafing dishes, round tables of 8–10 dressed in linen.
+- Snapshot staging: **1 setting** — a china plate with garlic rice, a
+  piece of lechon and a spoon of caldereta on a linen-covered round table,
+  napkin folded, a centrepiece of flowers partly in frame. **2 settings**
+  — two plates at the curve of a round table, the centrepiece between
+  them. **Small group** — a quarter of the round table. Crowd cues: the
+  curve of a round table for 10; chafing dishes of the buffet blurred
+  behind; fairy lights and draped fabric.
+- Decor and cues: pastel or gold theme, flowers, fairy lights. Avoid:
+  the debutante in focus; Western prom imagery.
+- Never stage: champagne or wine glasses on the table, a toast, an open
+  bar; legible name backdrops.
+- Confidence and sources: MEDIUM (vendor sources, tier 3); EDITORIAL.
+
+#### Celebration: Christening feast (binyag handaan)
+- Type: life event
+- When: lunch after the baptism Mass, often a Sunday. Intake time of day:
+  midday.
+- Gathering: parents, many godparents, relatives, 30–80 [LOW — not
+  verified]. Venue: home outdoor (carport) or restaurant (function room).
+- The spread: **lechon** "the undisputed king", **pancit** for the child's
+  long life, **kakanin** (biko, sapin-sapin) "so family bonds stay
+  sticky", **lumpia shanghai**, kare-kare, fried chicken or lechon manok,
+  grilled bangus and squid [MEDIUM — Event Nest baptism guide (tier 3),
+  masstimesph (tier 4)]. See catalog: Lechon; Pancit; Lumpia; Kare-kare;
+  Filipino fried chicken. A kakanin platter is not in the catalog yet
+  (already queued). 6–10 serving dishes.
+- Snapshot staging: **1 setting** — a plate with rice, lechon, pancit and
+  a slice of sapin-sapin; the pancit tray and a bilao of kakanin partly
+  in frame, the lechon cropped at the head of the buffet. **2 settings**
+  — two plates facing, kare-kare and lumpia between them. **Small group**
+  — one stretch of a rented table under a tent. Crowd cues: white and
+  pastel balloons; the lechon at the buffet head soft behind; stacked
+  plates at the buffet end.
+- Decor and cues: white, baby blue or pink theme; a small cake.
+- Never stage: the church, the baptismal font, a priest; religious
+  figures on the cake; alcohol.
+- Confidence and sources: MEDIUM (tier 3–4); EDITORIAL.
+
+#### Celebration: Wedding reception (kasalan)
+- Type: life event
+- When: lunch or dinner reception after the church ceremony. Intake time
+  of day: midday or evening.
+- Gathering: 100–200+ guests [MEDIUM — Event Nest]; in provinces the
+  whole barrio. Venue: other (events place, garden, barangay hall, or a
+  tent in a family yard: home outdoor).
+- The spread: a buffet of rice (plain and garlic), lechon, chicken
+  barbecue, beef caldereta, pancit canton or bihon, a seafood dish, a
+  vegetable, leche flan or fruit salad [MEDIUM — Executive Gourmet,
+  Event Nest, filipinowedding.com (tier 3)]. See catalog: Lechon; Pancit;
+  Pork barbecue skewers; Leche flan. 8–12 serving dishes.
+- Snapshot staging: as for the debut (round table, centrepiece, buffet
+  blurred) for a venue reception; as for the fiesta (rented tables, foil
+  trays, lechon at the buffet head) for a provincial yard reception.
+  Same 1 / 2 / small-group stretches. Crowd cues: round table curving out
+  of frame; floral centrepiece; buffet and lechon soft behind.
+- Decor and cues: white and sage or the couple's colours, capiz-shell
+  lanterns are a nice local cue. Avoid: the couple, the money dance.
+- Never stage: the church ceremony; a toast; beer or brandy on tables;
+  legible monograms.
+- Confidence and sources: MEDIUM (tier 3); EDITORIAL.
+
+#### Celebration: Eid'l Fitr feast, Bangsamoro and Muslim households (Hari Raya Puasa)
+- Type: calendar holiday
+- When: Eid'l Fitr (see register); after morning prayer, family visiting
+  and the feast run through midday. Intake time of day: midday.
+- Gathering: family and neighbours, 10–30 [LOW]. Venue: home indoor or
+  home outdoor (zone 7).
+- The spread: **tiyula itum** (see catalog), **beef rendang**, chicken
+  dishes, **pastil** (see catalog), **satti** in Zamboanga (see catalog),
+  **dodol** and **panyalam** sweets (no catalog entry, already queued),
+  rice. **Halal only: no pork, no alcohol anywhere.** [MEDIUM —
+  register, not re-checked]
+- Snapshot staging: **1 setting** — a plate with rice and a ladle of
+  tiyula itum, the soup tureen and a rendang dish partly in frame, a tray
+  of sweets cropped. **2 settings** — two plates on a low table or mat,
+  shared dishes between them. **Small group** — the spread running out of
+  frame. Crowd cues: festive dress (hijab, kopiah, malong patterns)
+  on blurred figures; stacked plates; a second tray of sweets.
+- Decor and cues: okir patterns on textiles; bright malong.
+- Never stage: prayer, a mosque interior, a Qur'an; pork; alcohol; the
+  hero as anything that breaks a fast (Ramadan rule in register).
+- Confidence and sources: MEDIUM (register); EDITORIAL.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2764,6 +3040,17 @@ Morning Module exception logged):**
   entry, Zamboanga curacha and knickerbocker, and lechon manok are
   missing.
 
+- **Celebrations pass (2026-10-01) open items**: headcounts for home
+  birthdays, christenings, Noche Buena, Media Noche and Eid feasts are
+  estimates (not verified); debut and wedding figures (100–200+) and the
+  standard buffet composition rest on caterer/vendor sites (tier 3, a
+  commercial interest); the "first and seventh birthdays are the big
+  ones" claim and take-home balot were not verified; the Eid'l Fitr
+  spread in zone 7 is carried from the register, not re-checked.
+  **Rule note**: evening receptions (debut, wedding, Noche Buena, Media
+  Noche) are staged at night; hard rule 4 is respected by keeping every
+  pulutan item and drinking cue out, not by moving them to daytime.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with seven zones (recommended)
@@ -2792,6 +3079,12 @@ Morning Module exception logged):**
    (Thai curry failure), halo-halo (bingsu failure) and the boodle fight
    (plates/cutlery intrusion).
 7. Independent §8 audit.
+
+8. **Celebrations pass additions (2026-10-01)**: catalog entries for
+   **caldereta / afritada** (beef tomato stew, fiesta and buffet staple),
+   **hotdog-and-marshmallow skewers** (children's party), **biko** (Media
+   Noche and christenings), **embutido**, and the catered **buffet line**
+   (chafing dishes, rice trays, lechon at the head) as a composition entry.
 
 ## RESEARCH LOG
 
@@ -2847,3 +3140,13 @@ Morning Module exception logged):**
   surfaced, and are marked. eBay collector listings, Threads posts,
   Scribd and Grokipedia results were used only as weak corroboration
   (LOW) or ignored.
+- **2026-10-01 celebrations pass (schema §5.7)**: 5 WebSearch queries
+  (debut catering; binyag handaan food; children's birthday party food;
+  wedding reception buffet; town fiesta open house). Added CELEBRATIONS &
+  LARGE GATHERINGS with 8 entries (town fiesta open house, Noche Buena,
+  Media Noche, children's birthday, debut, christening, wedding
+  reception, Eid'l Fitr in zone 7). Key sources: Delish.ph; HuffPost;
+  Wikipedia "Filipino spaghetti", "Pancit"; USC Folklore Archive; SunStar
+  "The tradition of fiestas"; factsanddetails; Event Nest and Executive
+  Gourmet (tier 3, caterers); masstimesph, Barong World, Jojie's (tier 4).
+  No subagents.

@@ -785,6 +785,314 @@ Festival 2026 is days away.
   a genuine occasion; no team kit, logos or betting slips legible.
   [LOW — not re-checked]
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Schema §5.7 applies: the frame shows only the operator's party (1, 2
+or a small group of place settings) at one stretch of a bigger table;
+the gathering is implied, never counted out. Hard rules 1–9 above all
+still apply, especially hard rule 5 (no product near monks, Buddha
+images, altars, spirit houses or royal portraits) and hard rule 3
+(halal in zone 5 and any Muslim household).
+
+### How large gatherings work here
+
+- **Who gathers**: the extended family first, then neighbours, the
+  village or the soi, colleagues and friends. Many big events have a
+  merit-making (tham bun) part with monks in the morning and a meal for
+  guests after; the meal is the stageable part. [HIGH for the
+  monks-then-guests order — Thailand Foundation "Thai Housewarming
+  Ceremony", thaiworldview "New House", templeofthai]
+- **Typical size**: a Songkran or Chinese New Year family meal is
+  roughly 8–20 people at the family home [LOW — not verified this pass;
+  EDITORIAL estimate]; a village wedding or ordination runs to **over a
+  hundred guests** [MEDIUM — Charinya's Kitchen / Lion Brand Isan
+  wedding accounts, tier 4]; a catered urban wedding or ordination is
+  counted in **round tables of 8–10** [MEDIUM — Bangkok Post "Modern-Day
+  Ordination"].
+- **Where (intake venue)**: **home outdoor** is the default for village
+  and family events (the yard, the shaded space under an Isan stilted
+  house, a rented party tent with steel-frame roof over the yard or the
+  soi); **home indoor** for small family meals in Bangkok townhouses and
+  condos; **restaurant** for urban birthdays, Chinese New Year dinners and
+  hotel or restaurant wedding banquets; **other**: a temple hall or
+  village community hall for ordination and some weddings (stage the
+  dining tables only, never the temple interior).
+- **Table forms (two that matter)**:
+  1. **The "Chinese table" (to jeen)**: round tables for about 10 under a
+     tent or in a hall, white or coloured cloth, often a lazy Susan, and
+     courses brought by caterers one after another. It is the standard
+     catered form for urban weddings, ordinations and big birthdays
+     [MEDIUM — Bangkok Post; Pago Hotel Phuket and caterer menus (tier
+     3); round-tables-of-10 norm from general Chinese-banquet sources,
+     not Thai-specific].
+  2. **The home or village spread**: long folding tables or mats with
+     the Thai shared-dish structure scaled up — big bowls and platters,
+     everything at once, sticky rice in kratips in Isan and the North,
+     jasmine rice from big rice pots elsewhere (see catalog: Thai shared
+     home dinner). Relatives and neighbours cook on site in big woks and
+     pots [MEDIUM — Isan wedding accounts above].
+- **Who serves**: relatives and neighbours (village), caterer staff in
+  uniform (Chinese table), the host family (home meals).
+- **Plate and cutlery norms that differ**: party plates are often
+  matching white caterer china or melamine; at a Chinese table each place
+  has a small plate, a small bowl with a porcelain spoon, and spoon and
+  fork (chopsticks may appear at Thai-Chinese banquets); still no knife.
+  Village feasts use melamine plates, small bowls and sticky-rice baskets.
+  [EDITORIAL; LOW — not verified this pass]
+- **Snapshot staging default for Thailand [EDITORIAL]**: the three most
+  authentic crowd cues here are (1) **the edge of a round table for 10**
+  with more courses on it than the visible diners could eat, the table
+  curving out of frame; (2) **the steel poles and fabric of a party tent**
+  (often white or with coloured drapes) with plastic or banquet chairs
+  soft behind; (3) **a second round table or a row of big pots and woks**
+  at a cooking station blurred in the background. For home and village
+  meals, swap (1) for a long table or mat running out of frame with
+  several kratips and bowls along it.
+
+#### Celebration: Songkran family homecoming meal (Songkran)
+- Type: calendar holiday
+- When: 13–15 April (see register for dates). The big family meal is
+  midday or early afternoon; intake time of day: midday (golden-hour
+  for a late lunch in the yard).
+- Gathering: families return to their home provinces (the year's largest
+  internal migration), so three generations at the family house; roughly
+  10–20 people [HIGH for the homecoming — TAT Newsroom (cited in
+  register); headcount LOW — not verified this pass]. Venue: home
+  outdoor (yard, under the stilted house) or home indoor.
+- The spread: in Isan and the North, som tam, larb and nam tok, gai
+  yang, grilled fish and family kratips of sticky rice (see catalog: Som
+  tam; Larb and nam tok; Gai yang with sticky rice and jaew); in Central
+  homes a curry, a stir-fry, a soup and rice plates (see catalog: Thai
+  shared home dinner; Green curry), with **khao chae** as the Central
+  Songkran signature (see catalog: Khao chae) and mango sticky rice
+  for dessert at mango-season peak (see catalog: Mango sticky rice).
+  A real table carries about 6–10 shared dishes. [MEDIUM — register
+  sources; dish count EDITORIAL]
+- Snapshot staging: **1 setting** — one end of a long table or mat in
+  shade: a plate of jasmine rice or a personal kratip, a spoonful of
+  larb at the plate's edge, a bowl of som tam and a plate of gai yang
+  partly cropped beside it, a family kratip and a second som tam plate
+  cut by the frame edge. **2 settings** — two rice plates or kratips
+  facing across the table, between them som tam, larb, gai yang and a
+  nam prik with vegetables, two more bowls cropped at the far edge.
+  **Small group (3–4)** — the shared dishes cluster in the middle with
+  the table running out of frame on one side; extra kratips and stacked
+  plates at the edge. Crowd cues: table running out of frame; a silver
+  bowl and a water gun softly on a chair; floral shirts and damp
+  clothes on blurred relatives behind (no sharp faces).
+- Decor and cues: floral shirts, a silver bowl of jasmine water, shade
+  from a mango tree, damp concrete. Clichés to avoid: tourists in water
+  fights on Khao San Road, foam parties, elephants.
+- Never stage: water splashing on the product; the rot nam dam hua
+  blessing of elders; a temple or Buddha image; beer, whisky "sets" or
+  ice buckets (Songkran drink-driving campaigns make alcohol a sensitive
+  theme).
+- Confidence and sources: HIGH for the homecoming (TAT Newsroom,
+  visitthailandtoday); MEDIUM for food (Patra Porcelain, watcharees, Chef
+  Ko, tier 3–4); EDITORIAL composition.
+
+#### Celebration: Chinese New Year family meal (Trut Jin)
+- Type: calendar holiday
+- When: Lunar New Year (see register). Families make offerings to
+  ancestors and gods first (wai), then eat the offered dishes together;
+  intake time of day: midday (the offering day is usually daytime) or
+  evening for a reunion dinner.
+- Gathering: Chinese-Thai relatives reunite at the main family home;
+  about 8–15 people [MEDIUM for the reunion — Thailand Foundation; size
+  LOW — not verified]. Venue: home indoor (Bangkok shophouse or
+  townhouse) or restaurant (a Chinese restaurant's round table).
+- The spread: the offered dishes come back to the table — a **whole
+  poached chicken** chopped and laid back in shape, **roast or braised
+  pork** (see catalog: Khao moo daeng / moo krob for the crispy-pork
+  look), a **whole steamed fish**, glass noodles or long noodles,
+  stir-fried greens, and fruit (oranges, pomelo); rice in bowls.
+  [MEDIUM — Thailand Foundation, Michelin Guide "Lunar New Year food
+  traditions around Asia"] Whole chicken in shape, whole fish and the
+  Thai-Chinese banquet table have no catalog entry yet (see CANDIDATE
+  QUEUE). Look: the poached chicken is pale golden-yellow, glossy, on a
+  white oval platter about three times the can's width; the steamed fish
+  lies whole on an oval plate in a thin soy-and-ginger sauce with
+  spring onion and coriander. About 6–8 serving dishes.
+- Snapshot staging: **1 setting** — a small plate, a rice bowl with a
+  porcelain spoon and chopsticks or spoon and fork, a few pieces of
+  chicken on the rice; the chicken platter and the fish plate partly in
+  frame, a bowl of oranges cropped at the edge. **2 settings** — two
+  bowls at the curve of a round table, chicken, fish, pork and greens on
+  a lazy Susan between them, two more dishes cut off by the frame.
+  **Small group** — four places at one arc of a round table for 10, the
+  table curving out of frame. Crowd cues: the curve of a large round
+  table; red paper lanterns and a bowl of mandarin oranges soft behind;
+  stacked bowls and spare chairs at the edge.
+- Decor and cues: red clothing, red lanterns (no characters legible),
+  mandarin oranges, a red-and-gold tablecloth. Avoid: dragon dance in
+  focus, firecrackers, red envelopes with legible text.
+- Never stage: the ancestor or gods offering table, incense, joss paper;
+  any Chinese characters legible; alcohol.
+- Confidence and sources: MEDIUM — Thailand Foundation "Thai recipes for
+  your New Year feast", Michelin Guide; meal timing EDITORIAL.
+
+#### Celebration: Hari Raya feast, Deep South and Muslim households (Hari Raya Puasa / Eid al-Fitr)
+- Type: calendar holiday
+- When: Eid al-Fitr (see register). Morning prayer and visits; the
+  feast and open-house visiting run from late morning through the day.
+  Stage the midday visiting meal, not the morning sweets; intake time
+  of day: midday.
+- Gathering: family and neighbours visiting house to house, 10–30
+  people over the day [LOW — not verified this pass]. Venue: home indoor
+  (living-room floor or table) or home outdoor (verandah of a wooden
+  Malay house).
+- The spread: rice or **ketupat**-style pressed rice, Malay chicken or
+  beef curries, **khao mok gai** (see catalog: Khao mok gai), roti with
+  curry (see catalog: Roti), satay and gai golek (see catalog: Satay and
+  gai golek), plus sweets and cakes. About 5–8 serving dishes. **Halal
+  only; no pork; no alcohol.** [MEDIUM — register entry, not
+  independently re-checked]
+- Snapshot staging: **1 setting** — a plate of rice with a ladle of
+  chicken curry, the curry bowl and a plate of satay partly cropped; a
+  tray of cakes at the frame edge. **2 settings** — two plates on a floor
+  mat or low table with curry, khao mok and satay between them.
+  **Small group** — the spread continuing out of frame on a long mat.
+  Crowd cues: festive Malay dress (baju kurung, songkok) on blurred
+  figures; extra plates stacked; a second tray of cakes behind.
+- Decor and cues: songket or bright satin clothing, a wooden house
+  interior. Avoid: Middle-Eastern lanterns and crescent props.
+- Never stage: prayer, a mosque interior, a Qur'an or prayer mat near
+  the product; pork; alcohol; Jawi script legible. Zone 5 sign-off
+  question in the GAP LOG still applies.
+- Confidence and sources: MEDIUM (register); EDITORIAL composition.
+
+#### Celebration: Wedding feast (ngan taeng)
+- Type: life event
+- When: year-round, auspicious dates; the morning has monks and the
+  water-pouring blessing, the guests' meal follows at midday, and the
+  evening reception is the urban banquet. Intake time of day: midday
+  (village) or evening (banquet).
+- Gathering: **village/Isan form**: over a hundred guests, relatives and
+  neighbours cooking on site the day before and from dawn, a tent over
+  the yard, food also packed in bags for guests who leave early [MEDIUM —
+  Charinya's Kitchen, Lion Brand (tier 4)]. **Urban form**: a catered
+  Chinese-table banquet at a hotel, restaurant or rented hall, round
+  tables for about 10, headcount in the hundreds [MEDIUM — caterer menus
+  (Pago Hotel Phuket, Sawsamsai catering); headcount LOW]. Venue: home
+  outdoor (tent) or restaurant/other (hall).
+- The spread: **village**: larb moo, beef salad, som tam, a big pot of
+  tom yum, pork-bone soup, grilled pork neck with jaew, steamed herbal
+  fish, sticky rice (see catalog: Larb and nam tok; Som tam; Tom yum
+  goong; Gai yang with sticky rice and jaew) [MEDIUM — same Isan
+  sources]. **Banquet**: a sequence of courses on the lazy Susan — a
+  fruit or seafood salad, roast duck or chicken, a whole fish, stir-fried
+  mixed vegetables, a soup, fried rice, then a dessert; Thai-Chinese
+  families may serve **khanom khai** (small baked egg cakes, golden,
+  domed) because rising cakes stand for a rising married life [MEDIUM —
+  caterer menus (tier 3); khanom khai: Wikipedia "Khanom khai"]. A
+  village table carries 5–8 bowls; a banquet table shows 2–4 courses at
+  a time.
+- Snapshot staging: **1 setting** — village: a melamine plate with a
+  spoonful of larb beside sticky rice, a kratip, bowls of tom yum and
+  som tam partly cropped, the long table running out of frame. Banquet:
+  a small plate, a soup bowl and spoon, a fish platter and a vegetable
+  platter on the lazy Susan, the table curving away. **2 settings** —
+  two places side by side on the table's curve or across a village
+  table, three or four shared dishes between them, more cropped.
+  **Small group** — a quarter of a round table for 10, or one stretch
+  of the village table. Crowd cues: tent poles and white drapes; a
+  second round table soft behind; a cooking station with large aluminium
+  pots blurred at the edge (village).
+- Decor and cues: pink, white or pastel drapes, flower garlands
+  (malai) on the head table in the soft background, banquet chairs with
+  covers. Avoid: Western white-cake-and-champagne staging; the
+  head-table couple in focus.
+- Never stage: the water-pouring rite (rot nam sang), monks, the
+  phuang malai on the couple; any toast, beer crates or whisky bottles
+  on banquet tables (a real fixture: keep them off the table entirely);
+  legible names on backdrops.
+- Confidence and sources: MEDIUM (sources above); EDITORIAL composition.
+
+#### Celebration: Ordination feast (ngan buat)
+- Type: life event (a young man entering the monkhood, often for a
+  Buddhist Lent; a major merit-making event for his parents)
+- When: often just before Buddhist Lent (Khao Phansa, July) and in the
+  dry season; guests are fed all day on the eve and the day itself.
+  Intake time of day: midday or evening.
+- Gathering: relatives, the whole village or neighbourhood; village
+  ordinations are often shared by two or three candidates' families to
+  split the cost; modern ones hire caterers for **Chinese-table round
+  tables of 8–10** [HIGH — Bangkok Post "Modern-Day Ordination",
+  thaiworldview "Ordination", Wikipedia "Naga ordination"]. Venue: home
+  outdoor (tent in the yard or soi) or other (a temple's open hall: stage
+  the dining tables only).
+- The spread: the village or banquet forms as for the wedding (above),
+  regional dishes in the North and Isan (see catalog: Khan tok set for
+  Lanna feasts). About 5–8 serving dishes.
+- Snapshot staging: as for the wedding, with the same 1 / 2 /
+  small-group stretches. Crowd cues: the tent, round tables soft
+  behind, big cooking pots at the edge. **Keep it a family meal; the
+  candidate (shaved head, white robe) and monks never appear.**
+- Decor and cues: tent, banquet chairs, a sound system and a dance
+  troupe exist but stay out of frame.
+- Never stage: the candidate, monks, the procession, the ordination
+  hall, any Buddha image (hard rule 5); alcohol, which is common at
+  village ordination parties and must stay off the table.
+- Confidence and sources: HIGH for the gathering and catering form
+  (sources above); EDITORIAL for staging. A reviewer should confirm that
+  ordination briefs are acceptable at all (GAP LOG).
+
+#### Celebration: House-blessing lunch (tham bun ban)
+- Type: community or family gathering (housewarming and merit-making)
+- When: any auspicious day; monks chant and eat before noon, then leave,
+  and **only then do guests and the household eat**. Intake time of day:
+  midday.
+- Gathering: family, neighbours and friends, roughly 15–40 people [HIGH
+  for the sequence — Thailand Foundation, thaiworldview, templeofthai;
+  headcount LOW — not verified]. Venue: home indoor (the new house's
+  main room, often on mats) and home outdoor (yard or carport).
+- The spread: the Thai shared-dish table at scale: two curries
+  (green, massaman), a stir-fry, a soup, fried fish or omelette, fruit
+  and Thai sweets, rice from a big pot (see catalog: Thai shared home
+  dinner; Green curry; Massaman curry; Tom kha gai). 6–10 serving dishes.
+  [EDITORIAL]
+- Snapshot staging: **1 setting** — a rice plate on a mat or table with
+  a spoonful of curry, curry bowl and stir-fry plate partly in frame, a
+  fruit platter cropped. **2 settings** — two rice plates facing, four
+  shared dishes between them. **Small group** — mats or tables running
+  out of frame with more bowls. Crowd cues: a row of shoes outside the
+  open door; blurred guests seated on mats behind; stacked plates.
+- Decor and cues: a bright new tiled room, white sai sin thread may be
+  strung along the ceiling (keep it soft and incidental).
+- Never stage: monks, the altar or Buddha image, offerings to monks; no
+  product before the monks have left (the scene is after). Alcohol off
+  frame.
+- Confidence and sources: HIGH (sequence); EDITORIAL (spread).
+
+#### Celebration: Birthday dinner (wan koet)
+- Type: life event
+- When: the evening of the birthday, often after a morning merit-making
+  visit to a temple (not staged); intake time of day: evening.
+- Gathering: family or friends, 4–12 people; at home, or at a
+  restaurant — **mookata** (grill-and-broth) and shabu restaurants are a
+  common birthday choice for groups [LOW-MEDIUM — Bangkok group-dining
+  guides (tier 4)]; a cream birthday cake from a bakery with candles.
+  Venue: home indoor or restaurant.
+- The spread: either the Thai shared dinner (see catalog: Thai shared
+  home dinner; Tom yum goong; whole fried fish) or a mookata dome on a
+  charcoal bucket with plates of sliced pork, seafood, vegetables and
+  glass noodles (mookata has no catalog entry yet; see CANDIDATE QUEUE),
+  plus the cake. **Halal briefs swap pork for chicken and seafood.**
+- Snapshot staging: **1 setting** — a plate with rice and a spoonful of
+  a curry or stir-fry, two shared dishes partly in frame, the cake
+  cropped at the edge. **2 settings** — the cake between two places
+  with two shared dishes. **Small group** — the mookata dome in the
+  centre with raw-ingredient plates around it, more plates cropped.
+  Crowd cues: candles on a cake, a folded gift bag (no text), a second
+  table of friends soft behind (restaurant).
+- Decor and cues: balloons at home; restaurant fluorescent light.
+  Avoid: Western fine-dining.
+- Never stage: beer bottles or towers (a mookata cliché); legible
+  "Happy Birthday" text on the cake.
+- Confidence and sources: LOW-MEDIUM (tier-4 guides); EDITORIAL.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2260,6 +2568,18 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   khanom krok, Thai desserts (bua loy, khanom chan), fruit with
   chilli-salt.
 
+- **Celebrations pass (2026-10-01) open items**: headcounts for Songkran,
+  Chinese New Year, Hari Raya, house-blessing and birthday gatherings are
+  editorial estimates (not verified); the village-wedding "over a
+  hundred guests" figure rests on two tier-4 first-hand accounts; the
+  round-table-of-10 banquet norm is sourced for ordinations (Bangkok
+  Post) but only from general Chinese-banquet sources for weddings;
+  banquet place-setting details (chopsticks at Thai-Chinese banquets)
+  and the Hari Raya spread in zone 5 were not verified. **Reviewer
+  question**: are ordination and house-blessing briefs acceptable at all,
+  given they sit next to monastic rites (the entries stage only the
+  guests' meal, after or apart from the monks)?
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with five zones (recommended)
@@ -2284,6 +2604,13 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
    khao soi (laksa failure), mango sticky rice (cubed-mango failure) and
    the shared home dinner (one-plate-per-person and chopsticks failure).
 7. Independent §8 audit.
+
+8. **Celebrations pass additions (2026-10-01)**: full catalog entries for
+   the **Thai-Chinese banquet table (to jeen)** (course sequence, round
+   table for 10, lazy Susan), **whole poached chicken and whole steamed
+   fish** (Chinese New Year offering dishes returned to the table),
+   **mookata** (already listed above; now also needed for the birthday
+   entry), and **khanom khai** (wedding egg cakes).
 
 ## RESEARCH LOG
 
@@ -2316,3 +2643,14 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   where nothing better surfaced, and are marked. Grokipedia, Quora and
   Medium results were ignored or used only as corroboration.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 7 WebSearch queries
+  (Thai wedding banquet round tables; ordination feast; Thai-Chinese
+  wedding table menus; house-blessing meal sequence; Chinese New Year
+  family meal; birthday group dining; Isan village wedding food). Added
+  CELEBRATIONS & LARGE GATHERINGS with 7 entries (Songkran homecoming,
+  Chinese New Year, Hari Raya in zone 5, wedding, ordination,
+  house-blessing lunch, birthday). Key sources: Bangkok Post "Modern-Day
+  Ordination"; thaiworldview; Wikipedia "Naga ordination", "Khanom khai";
+  Thailand Foundation (housewarming; New Year recipes); Michelin Guide;
+  Charinya's Kitchen and Lion Brand (tier 4, Isan wedding); caterer menus
+  (tier 3). No subagents.
