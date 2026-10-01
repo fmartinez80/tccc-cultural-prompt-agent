@@ -3203,7 +3203,7 @@ the new block and logged the conflict rather than editing the old line.
 complete."
 
 **Decision**: Argentina, Brazil, Turkey, Nigeria, China, India, Japan,
-Thailand, Philippines, Pakistan, Bangladesh (and Indonesia, pending) built as
+Thailand, Philippines, Pakistan, Bangladesh and Indonesia built as
 single national files with internal zones, one research agent per country
 following `mexico.md`'s structure, §4.7 blocks on every dish and §5.4 (brief
 names the SKU). New region directory `asia/`. Each file's gap log lists the
