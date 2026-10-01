@@ -165,6 +165,68 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** church and extended family carry more of the Southern gathering calendar than anywhere else in the US. The weekly Sunday dinner and the yearly church homecoming are the recurring gatherings (see ENVIRONMENT, Deep South, for the sourced history of both). The **covered dish** (each family brings a casserole or platter from home) is the default serving logic, so a real table shows many mismatched dishes, glass casseroles, foil pans and cake carriers rather than a matched set. Outdoor feasts are whole-animal or seafood pour-outs (pig pickin', oyster roast, Lowcountry boil). New Year's Day dinner (black-eyed peas or Hoppin' John, collards, cornbread) is a real family meal; see catalog: **Hoppin' John** and **Black-eyed peas** for the dishes and the good-luck custom, staged at the family table as in the Sunday dinner entry below. [EDITORIAL, grounded in the sources cited in each entry]
+
+#### Celebration: Sunday dinner (after church)
+- Type: community or family gathering (weekly)
+- When: Sunday, early afternoon after the morning service (roughly 1pm to 3pm); "dinner" here means the main midday meal. Intake time of day: **midday**.
+- Gathering: three generations, often in church clothes, ~6 to 15 at the grandmother's or parents' home [EDITORIAL]. Venue: home indoor, the dining-room table. A deeply documented African American Southern institution with roots in the enslavement period, and also a broad white Southern custom [MEDIUM-HIGH — see ENVIRONMENT, Deep South, and its sources].
+- The spread: a protein plus several sides, family-style: see catalog: **Southern fried chicken — plated** (or a baked ham, smothered pork chops, a pot roast), **Soul food baked macaroni and cheese**, **Collard greens**, **Southern skillet cornbread**, candied yams, green beans cooked with pork, potato salad or deviled eggs, rolls; dessert is a cobbler, pound cake or sweet potato pie (see catalog: **Georgia peach cobbler**). A real table carries 5 to 8 serving dishes. Sweet tea is the everyday drink here and is a non-TCCC drink (keep it out of frame beside the hero).
+- Snapshot staging:
+  - **1 setting:** one place on a pressed tablecloth: a plate with a fried-chicken thigh and leg, a scoop of baked mac and cheese, collards with pot liquor, a wedge of cornbread. In frame: the fried-chicken platter and the edge of the mac-and-cheese casserole. Cues: the table runs out of frame; a cobbler cooling on a sideboard soft behind.
+  - **2 settings:** two identical plates; between them the chicken platter, the cornbread in its cast-iron skillet, a bowl of greens. Cues: a blurred elder in church clothes at the head; a second casserole half in frame.
+  - **Small group (3 to 4 settings):** one end of the dining table, identical plates, 4 to 5 dishes in mismatched glass and ceramic, cropped at the far side. Cues: more dishes than the diners need; framed family photos on the wall; a child's chair with a booster seat.
+- Decor and cues: a lace or pressed cotton tablecloth, the good dishes, a cast-iron skillet on a trivet, a cake under a glass dome. Clichés to avoid: a watermelon-and-fried-chicken stereotype composition (a racist trope; never pair the two as a staging device for a Black family), exaggerated "church hat" costume styling, a plantation house setting.
+- Never stage: alcohol; a Bible, prayer or grace as the captured moment; a church interior.
+- Confidence and sources: institution and roots [MEDIUM-HIGH — ENVIRONMENT sources]; dishes [HIGH — catalog entries]; headcount and staging [EDITORIAL].
+
+#### Celebration: Church homecoming and dinner on the grounds
+- Type: community or family gathering (yearly)
+- When: one Sunday a year, often August or September (also spring); the covered-dish meal follows the morning service. Intake time of day: **midday** (bright, outdoor, partial shade from trees or a pavilion).
+- Gathering: the congregation plus former members and their families who come "home", often joined to a family reunion; ~50 to 200+ [EDITORIAL — NCpedia describes the custom but gives no headcount]. Venue: other (church grounds: long tables under oaks, a picnic shelter, or the fellowship hall in bad weather). Shared with `us-appalachia.md`, where the same custom has its own entry.
+- The spread: covered dishes from every family laid end to end on long tables: fried chicken, chicken and dumplings, ham, potato salad, green beans cooked with fatback, deviled eggs, macaroni and cheese, candied yams, cornbread, and "plenty of pies, cobblers and cakes" [HIGH — NCpedia (Dinner on the Grounds; Church Homecomings), Statesboro Herald, Dallas Morning News]. Vessels: glass casserole dishes with foil lids pulled back, deviled-egg plates, cake carriers, Tupperware, a coffee urn; a real table runs to dozens of dishes. See catalog: **Southern fried chicken — plated**, **Soul food baked macaroni and cheese**, **Collard greens**, **Southern skillet cornbread**, **Georgia peach cobbler**; deviled eggs are in `us.md`'s CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting:** a heavy paper plate at a folding table or picnic table, loaded with small helpings from many dishes (a piece of fried chicken, a spoon each of potato salad, green beans, mac and cheese, a deviled egg, a square of cornbread). In frame: the long covered-dish table soft behind with many casseroles. Cues: tablecloths in different patterns on joined tables; oak shade dappling the table.
+  - **2 settings:** two identical plates at a picnic table, a dessert plate with a slice of pie or cobbler between them. Cues: the food line of joined tables running out of frame behind; blurred guests holding plates.
+  - **Small group (3 to 4 settings):** a stretch of picnic table with identical plates; a cake carrier and a deviled-egg plate in the centre, cropped. Cues: more tables receding under trees; a white clapboard or brick church soft and partly cropped (no steeple cross in sharp focus, no signage).
+- Decor and cues: mismatched tablecloths, foil-covered dishes, folding chairs, oak or pecan shade, a picnic shelter. Clichés to avoid: a tent revival, people in choir robes at the table, a cemetery in frame (many homecomings include grave decoration; keep it out).
+- Never stage: the worship service, preaching or prayer; crosses or church signage in sharp focus beside the product; alcohol (not present at these events in any case).
+- Confidence and sources: custom and foods [HIGH — NCpedia, Statesboro Herald, Dallas Morning News]; headcount [EDITORIAL].
+
+#### Celebration: Pig pickin' (whole-hog party)
+- Type: community or family gathering (also graduation, wedding-rehearsal, reunion and fundraiser parties)
+- When: spring to autumn, a long afternoon after an overnight or all-day cook. Intake time of day: **golden-hour** or **midday**.
+- Gathering: family, friends, church or work groups, ~30 to 100+ (a whole hog feeds a crowd) [EDITORIAL — no survey]. Venue: home outdoor (a big yard or farm), or other (church grounds, a rented barn). Strongest in eastern North Carolina, which calls itself the pig pickin' capital, a tradition the NC Department of Agriculture traces back more than 300 years [HIGH — NCDA blog, Wikipedia: Pig pickin', Our State].
+- The spread: a whole hog cooked low and slow over wood or charcoal in a large cooker; guests pull ("pick") meat straight off the carcass, choosing pale inside meat or dark outside bark, and splash it with vinegar-pepper sauce [HIGH — NCDA, Wikipedia, Our State]. See catalog: **Carolina barbecue (pork)** for the sauce and the chopped or pulled look. Sides: coleslaw, hushpuppies, baked beans, potato salad, white bread or buns, banana pudding. Vessels: the open cooker itself, foil pans, squeeze bottles of sauce.
+- Snapshot staging:
+  - **1 setting:** a paper plate with a mound of pulled pork glistening with thin vinegar sauce, a scoop of slaw, two hushpuppies, a slice of white bread. In frame: a squeeze bottle of sauce and the edge of a foil pan of slaw. Cues: the open cooker with the hog's ribs and smoke soft at the frame edge (no head in frame); blurred guests at the cooker.
+  - **2 settings:** two identical plates on a picnic table; a pan of hushpuppies and a banana-pudding dish between them. Cues: wood smoke drifting; the long table running out of frame.
+  - **Small group (3 to 4 settings):** a stretch of picnic table with identical plates, 2 to 3 side pans in the middle, cropped. Cues: more tables under a tent or oak; a figure in silhouette at the cooker with tongs; stacked paper plates.
+- Decor and cues: a black barrel or trailer cooker, wood smoke, gingham or plastic tablecloths, a barn or farm field behind. Clichés to avoid: a hog with an apple in its mouth (a luau or medieval cliché, not a Carolina pig pickin'), cartoon pig signage, confederate imagery.
+- Never stage: the pig's head or a gory carcass close-up (crop to the meat and ribs); beer or moonshine; guests eating with fingers straight from the carcass in hero position (it is real, but stage the plated portion).
+- Confidence and sources: [HIGH for the tradition and method — NCDA, Wikipedia, Our State]; sides [MEDIUM — catalog plus common practice]; headcount [EDITORIAL].
+
+#### Celebration: Lowcountry oyster roast
+- Type: community or family gathering (winter)
+- When: oyster season, roughly October to April, especially November to February; an afternoon or evening outdoors by a fire. Intake time of day: **golden-hour** or **evening** (firelight and string lights).
+- Gathering: friends, neighbours, church or club, ~20 to 100 [EDITORIAL]. Venue: home outdoor (a yard, a dock, a marsh-front lot) or other (a plantation-turned-venue, a club). Coastal South Carolina and Georgia. Indigenous people in the area steamed oysters in pits 3,000 to 5,000 years ago [MEDIUM — Mount Pleasant Magazine].
+- The spread: clusters of local oysters shovelled onto a steel plate over a wood fire, covered with wet burlap to steam, then shovelled onto a waist-high plywood-and-sawhorse table with a hole for shells; at the table are saltines, cocktail sauce, hot sauce, lemon wedges, oyster knives and gloves [HIGH — Mount Pleasant Magazine (two articles), Bray's Island, Beaufort tourism]. Often paired with a pot of chili, hot dogs or a Lowcountry boil (see catalog: **Frogmore stew / Lowcountry boil**) for non-oyster eaters. **Roasted cluster oysters** have no catalog entry: rough grey-brown clusters of small, elongated oysters, steaming, some popped open to show plump grey-cream meat, heaped on bare plywood (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** standing height: a stretch of plywood table with a heap of steaming oyster clusters, one oyster knife and a work glove, a sleeve of saltines, a small cup of cocktail sauce. Cues: the table and heap run out of frame; the fire and burlap smoke soft behind; string lights overhead.
+  - **2 settings:** two work areas side by side on the plywood, each with knife, glove and a few opened oysters, a shared hot-sauce bottle (label not legible) and lemon wedges between them. Cues: a figure with a shovel blurred at the fire; marsh at dusk behind.
+  - **Small group (3 to 4 settings):** a long plywood table with a fresh shovelful just dumped in the middle and identical work kits at each place. Cues: shell holes and buckets; a second table soft behind; a chili pot on a side table.
+- Decor and cues: plywood on sawhorses, burlap, a steel plate over a wood fire, string lights, live oaks with Spanish moss and marsh (see ENVIRONMENT, Carolinas & Lowcountry). Clichés to avoid: raw oysters on ice (that is a raw bar, not a roast), a New England lobster-shack look.
+- Never stage: beer (ubiquitous at real roasts); bare hands shucking without gloves in hero position (safety); a legible plantation name or plantation-house backdrop.
+- Confidence and sources: method and table [HIGH — Mount Pleasant Magazine, Bray's Island, Eat Stay Play Beaufort]; headcount [EDITORIAL].
+
+**Sources for this section:** [NCpedia — Dinner on the Grounds](https://www.ncpedia.org/dinner-grounds); [NCpedia — Church Homecomings](https://www.ncpedia.org/church-homecomings); [Statesboro Herald — Dinner on the grounds a family tradition](https://www.statesboroherald.com/life/dinner-grounds-family-tradition/); [Dallas Morning News — Dinner on the Ground](https://www.dallasnews.com/food/cooking/2021/09/17/dinner-on-the-ground-the-history-of-sunday-feasts-at-black-churches-in-dallas-and-beyond/); [NC Department of Agriculture — Pig pickin' is a time-honored tradition](https://blog.ncagr.gov/2025/07/31/in-north-carolina-pig-pickin-is-a-time-honored-tradition/); [Wikipedia — Pig pickin'](https://en.wikipedia.org/wiki/Pig_pickin%27); [Our State — High on the Hog](https://www.ourstate.com/high-on-the-hog/); [Mount Pleasant Magazine — Lowcountry oyster roast history](https://mountpleasantmagazine.com/2025/sc-carolina-coast/lowcountry-oyster-roast-history-a-steamy-tradition/); [Mount Pleasant Magazine — Host your own roast](https://mountpleasantmagazine.com/2015/entertainment/host-your-own-roast-its-oyster-season-in-the-lowcountry/); [Bray's Island — Lowcountry oyster roasts](https://www.braysisland.com/life-in-the-field/a-southern-delicacy-lowcountry-oyster-roasts); [Eat Stay Play Beaufort — A Lowcountry oyster roast](https://www.eatstayplaybeaufort.com/a-lowcountry-oyster-roast/).
+
+---
+
 ## DISH CATALOG
 
 ### Deep South
@@ -638,6 +700,8 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** headcounts for Sunday dinner, homecoming, pig pickin' and oyster roast are editorial; pig-pickin' sides and the oyster roast's chili/hot-dog side table are common practice, not verified; not checked whether Juneteenth (strongest in Texas, see `us-texas.md`) or Tennessee-specific gatherings need entries here.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across all three passes** (en.wikipedia.org, mississippiencyclopedia.org, southernfoodways.org, www.crimsoncoward.com) — consistent with every prior research round on this project. Every citation to these and other blocked domains relies on WebSearch's own result-snippet excerpting, not a full page read. A reviewer with working fetch access should spot-check the Wikipedia and Southern Foodways Alliance citations in particular.
 - **Gulf Coast Alabama and Mississippi (Mobile, AL; Biloxi/Gulfport, MS) were explicitly not researched in depth**, per the Deep South pass's own scope instructions. Available search evidence suggests this coastal strip is culinarily closer to Louisiana Creole/Cajun food than to the inland Deep South content documented here. **This is a real, flagged boundary question for whoever finalizes `us-gulf-south.md`** — not resolved here.
@@ -653,6 +717,8 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** roasted cluster oysters (Lowcountry oyster roast); hushpuppies; banana pudding; chicken and dumplings; candied yams.
+
 1. **Kentucky and Arkansas** — real, citable "Southern BBQ belt" evidence exists (Kentucky's Hot Brown sandwich, 1926; Arkansas's own internally split BBQ sauce styles) but neither state has been researched in depth; a dedicated validation pass should decide whether either belongs in this file, a different file, or neither.
 2. A dedicated future pass to resolve the Gulf Coast AL/MS boundary between this file and `us-gulf-south.md`.
 3. Perloo/pilau as a full Lowcountry dish entry — surfaced repeatedly alongside Hoppin' John and red rice but not researched to full depth this round.
@@ -664,6 +730,8 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 9. Secondary Deep South and Lowcountry dishes not researched this round: boiled peanuts, Brunswick stew (Georgia's side of the dispute — Virginia's inland side is separately logged in `us-mid-atlantic.md`'s own Candidate Queue), Vidalia onions, chicken and dumplings, banana pudding.
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 3 searches (pig pickin', Lowcountry oyster roast, church homecoming / dinner on the grounds). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 4 entries: Sunday dinner, church homecoming and dinner on the grounds, pig pickin', Lowcountry oyster roast; New Year's Day points to the Hoppin' John entry. Search snippets only.
 
 - **2026-09-24, three parallel subagent research passes** built this file's content: Deep South (Georgia, Alabama, Mississippi), Carolinas & Lowcountry (North Carolina, South Carolina, coastal Georgia), and Tennessee (Nashville and Memphis). All three read `country-file-schema.md`, `us.md`, and `us-northeast.md` first, pulled forward (not re-researched) `us.md`'s existing pointers (classic fried chicken, Carolina barbecue, Nashville hot chicken, Memphis BBQ), and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.
 - **Georgia's split between the two zones was resolved by hand**: coastal Georgia joins the Carolinas & Lowcountry zone's Lowcountry callout; inland/Atlanta-area Georgia stays in the Deep South zone — mirroring the Virginia Tidewater/Piedmont split decided in `us-mid-atlantic.md`. This decision was made using the judgment this project's user authorized for regional clustering questions, rather than escalated.

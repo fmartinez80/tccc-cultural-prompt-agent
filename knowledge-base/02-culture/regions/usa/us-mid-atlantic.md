@@ -109,6 +109,55 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** the Mid-Atlantic has a strong **community-fundraiser** register: the fire hall, church hall or club grounds, with long rows of tables covered in paper or plastic, volunteers serving, and tickets bought in advance. It is as authentic here as the backyard. Philadelphia's Italian-American Christmas Eve (Feast of the Seven Fishes) and Sunday "gravy" dinner follow the entries in `us-northeast.md` unchanged; South Philadelphia is part of the same corridor. [EDITORIAL; fundraiser register MEDIUM — Visit Annapolis, Annapolis Rotary, fire-company event pages]
+
+#### Celebration: Maryland crab feast
+- Type: community or family gathering (summer)
+- When: Memorial Day to September, peak July and August; afternoon into early evening. Intake time of day: **golden-hour** or **midday** (shade of a deck or pavilion).
+- Gathering: two forms. **Backyard:** family and friends, ~8 to 25 around paper-covered tables on a deck or lawn. **Fundraiser:** churches, fire companies, Rotary and other clubs hold all-you-can-eat crab feasts for hundreds; the Annapolis Rotary Crab Feast has run since 1946 [HIGH — Visit Annapolis, Annapolis Rotary, United Fire Company and BARCS event pages]. Venue: home outdoor, or other (a fire hall, pavilion, waterfront park). Headcount for the backyard form is [EDITORIAL].
+- The spread: see catalog: **Steamed blue crabs (the Maryland crab feast)** for the crab pile, tools, debris and table composition. Around it: corn on the cob, coleslaw, Old Bay-dusted steamed shrimp, sometimes crab soup (Maryland crab soup, red and vegetable-heavy) and hot dogs or fried chicken for non-crab eaters at fundraisers [MEDIUM — catalog sources plus event pages]. Serving: crabs dumped straight onto brown paper from a bushel basket or steamer pot; sides in foil trays at a buffet table at fundraisers. A real table carries the crab heap plus 2 to 4 side vessels.
+- Snapshot staging:
+  - **1 setting:** a stretch of brown paper with 4 to 6 crabs in front of one place, a mallet, a pick, a half-ear of corn, a small cup of coleslaw with a plastic fork. In frame: the edge of the central crab heap and a paper-towel roll. Cues: the paper and the pile run out of frame; a bushel basket on the deck soft behind.
+  - **2 settings:** two places across or beside each other, each with its own crab pile and debris, one shared shrimp tray between them. Cues: the heap continues out of frame; blurred hands cracking claws at the next place (no faces sharp).
+  - **Small group (3 to 4 settings):** a stretch of the long table, central heap in the middle, identical tool sets at each place. Cues (backyard): a steamer pot with a wisp of steam at the edge, string lights. Cues (fundraiser): rows of paper-covered tables receding, a fire-hall or pavilion roof line, a volunteer with a tray soft in the background.
+- Decor and cues: brown paper or newspaper on the table, wooden mallets, Old Bay tins (label not legible), a bushel basket. Clichés to avoid: crab-shaped decorations, a Maryland-flag pattern on everything (also a legible-flag issue), a lobster.
+- Never stage: beer (the single most common real crab-feast drink, and the base of many steaming liquids) or beer pitchers; raffle, pull-tab and 50/50 games at fundraisers (gambling); legible club or fire-company names and logos.
+- Confidence and sources: fundraiser tradition [HIGH — Visit Annapolis, Annapolis Rotary]; spread [MEDIUM]; staging [EDITORIAL].
+
+#### Celebration: Fire company chicken barbecue (Pennsylvania)
+- Type: community or family gathering (spring to autumn fundraiser; some held year-round)
+- When: Saturdays, typically late morning to mid-afternoon pickup or sit-down; the meal is lunch or an early dinner. Intake time of day: **midday**.
+- Gathering: the volunteer fire company (75 to 80 volunteers for a big one), with the town buying dinners; hundreds of half chickens are sold at a single event [MEDIUM — WNEP, Morrisons Cove Herald, fire-company event pages]. Many dinners are take-out, with a sit-down hall for others. Venue: other (the fire hall, its lot or social room); the take-out dinner is often eaten at home outdoor. A Pennsylvania-wide tradition of more than 60 years.
+- The spread: a **half chicken** grilled on long open cinder-block or steel pits over charcoal, basted with a vinegar-and-oil sauce, served with a baked potato, applesauce, a roll and butter, chips, pickles, and often a bake-sale dessert such as a whoopie pie [MEDIUM — fire-company menus; the vinegar baste is EDITORIAL from common practice, not verified this pass]. **Fire-company barbecued half chicken** has no catalog entry: one half bird (breast, wing, leg and thigh in one piece), ~20–25 cm long (longer than the can is tall), golden-brown to mahogany skin with charred grill stripes and a matte, not saucy, finish, in a foil or styrofoam clamshell or on a paper plate (see CANDIDATE QUEUE). Whoopie pie: see `us-northeast.md` catalog for the look (a Pennsylvania Dutch origin claim also exists).
+- Snapshot staging:
+  - **1 setting:** at a long table in the hall or at a home picnic table: one half chicken on a heavy paper plate, a foil-wrapped baked potato split with butter, a small cup of applesauce, a roll. In frame: the open clamshell lid and a pickle spear. Cues: the long table runs out of frame with more identical plates; the pit smoke soft through an open bay door.
+  - **2 settings:** two identical dinners side by side on a plastic-covered folding table. In frame: a shared basket of rolls, a bake-sale tray of whoopie pies partly cropped. Cues: rows of folding tables and chairs behind; a volunteer carrying a tray (blurred).
+  - **Small group (3 to 4 settings):** a stretch of the hall table with identical dinners. Cues: a stack of take-out clamshells at the end of the table; the grill pits and smoke at the frame edge outdoors; a red engine-bay door soft in the background (no legible names or numbers).
+- Decor and cues: plastic tablecloths, folding chairs, a hand-lettered sign (not legible), long grill pits with rows of chicken halves. Clichés to avoid: firefighters in full turnout gear at the table, a fire engine as the hero.
+- Never stage: beer; raffles or gambling games; legible fire-company names, patches or truck numbers; Amish or Plain people as the subject (Plain communities generally avoid being photographed; do not stage them even where events are in Lancaster County).
+- Confidence and sources: [MEDIUM — WNEP, Morrisons Cove Herald, Bird-in-Hand and other fire-company pages; headcount figures are event-specific, not statewide]; staging [EDITORIAL].
+
+#### Celebration: Southern Maryland stuffed-ham holiday table
+- Type: calendar holiday (Easter first, now Christmas and Thanksgiving too)
+- When: Easter and Christmas, a midday or afternoon family dinner, or an open-house buffet. Intake time of day: **midday**.
+- Gathering: extended family, ~10 to 25, at home; stuffed ham is also served at church dinners and community events in St. Mary's and Charles counties [MEDIUM — Baltimore Sun, Chesapeake Bay Magazine]. Venue: home indoor.
+- The spread: **Southern Maryland stuffed ham**, a corned ham cut with deep slits packed with chopped kale and/or cabbage, onion and hot pepper with celery and mustard seed, wrapped in cloth, boiled, and served cold, sliced [HIGH — Wikipedia: Stuffed ham, Baltimore Sun, Chesapeake Bay Magazine; oral tradition traces it to enslaved cooks in early-18th-century St. Mary's County; cabbage dominates in the south of the county, kale in the north]. It sits beside the usual holiday sides (see `us.md` Christmas and Easter entries). It has no catalog entry: slices ~1 cm thick, pale pink ham streaked with bright green ribbons of greens and flecks of red pepper, on a platter around the cut end of the ham (see CANDIDATE QUEUE). Some families also put out a whole ham and Maryland fried chicken.
+- Snapshot staging:
+  - **1 setting:** a plate with 2 slices of stuffed ham (green streaks clearly visible), a scoop of potato salad or mashed potatoes, a roll. In frame: the stuffed-ham platter cropped at the back. Cues: the table running out of frame; a buffet sideboard soft behind.
+  - **2 settings:** two identical plates; the platter between them, partly in frame, with a jar of mustard. Cues: a blurred relative carving at the head; pastel (Easter) or evergreen (Christmas) decor.
+  - **Small group (3 to 4 settings):** one end of the table or buffet, the stuffed ham as centrepiece, 3 to 4 side dishes cropped. Cues: more dishes than the diners need; extra chairs.
+- Decor and cues: as in `us.md` Easter or Christmas; a rural Southern Maryland farmhouse or waterfront setting.
+- Never stage: alcohol; religious items beside the product (the dish's Easter link is Catholic, but stage only the meal).
+- Confidence and sources: dish [HIGH]; gathering size [EDITORIAL].
+
+**Sources for this section:** [Visit Annapolis — Backyard crab feast](https://www.visitannapolis.org/blog/stories/post/backyard-crab-feast/); [Visit Annapolis — Annapolis Crab Feast](https://www.visitannapolis.org/events/annual-events-and-festivals/annapolis-crab-feast/); [Annapolis Rotary — Past crab feasts](https://www.annapolisrotary.org/past-crab-feasts); [United Fire Company — Crab Feast](https://crabfeast.usfe3.com/about-me/); [WNEP — A chicken tradition in Throop](https://www.wnep.com/article/news/local/lackawanna-county/a-chicken-tradition-in-throop-mark-zinskie-olyphant-steve-zarnowski-throop-dave-benson-throop-hose-company-president-andy-hegedus-lackawanna-county/523-ea8b54b1-1187-45ac-abad-58ff879fcc05); [Morrisons Cove Herald — Martinsburg Fire Department barbecue serves hundreds](https://www.mcheraldonline.com/story/2026/09/03/news/martinsburg-fire-department-barbecue-serves-hundreds/22058.html); [Bird-in-Hand Fire Company — BBQ chicken](https://www.bihfire.com/bbq-chicken/); [Wikipedia — Stuffed ham](https://en.wikipedia.org/wiki/Stuffed_ham); [Baltimore Sun — Ham for the holidays](https://www.baltimoresun.com/2017/11/07/ham-for-the-holidays-a-hard-to-find-southern-maryland-delicacy-with-a-fervent-following/); [Chesapeake Bay Magazine — Stuffed ham](https://www.chesapeakebaymagazine.com/corned-spiced-stuffed/).
+
+---
+
 ## DISH CATALOG
 
 ### Philadelphia & Pennsylvania
@@ -472,6 +521,8 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** backyard crab-feast and stuffed-ham table headcounts are editorial; the fire-company chicken's vinegar-and-oil baste is from common practice, not verified; not checked whether a Pennsylvania Dutch wedding or church-supper register (chicken corn soup, chicken and waffles) deserves its own entry.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across both research passes** — confirmed directly against en.wikipedia.org. Every citation to Wikipedia and other blocked domains relies on WebSearch excerpting, not a full page read.
 - **Delaware's coastal/Delaware Bay food culture, independent of its Sussex-County/Pennsylvania-Dutch-adjacent identity, was not researched by either pass** — the Philadelphia/PA pass explicitly deferred it to the Chesapeake pass, and the Chesapeake pass's scope was Maryland/DC/Virginia only. A real gap between the two passes, not a covered topic — flagged for a future pass.
@@ -487,6 +538,8 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** fire-company barbecued half chicken; Southern Maryland stuffed ham; Maryland crab soup.
+
 1. Delaware's own coastal/Delaware Bay food culture, independent of its Pennsylvania-Dutch overlap.
 2. Crab imperial as its own dedicated entry.
 3. A direct visual/textural comparison between Philadelphia tomato pie and Rhode Island pizza strips.
@@ -497,6 +550,8 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 8. Resolve the Federal Pretzel Baking Company vs. the competing equipment-supplier attribution with direct source access.
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 3 searches (Maryland crab-feast fundraisers, PA fire-company chicken barbecue, Southern Maryland stuffed ham). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: Maryland crab feast, fire company chicken barbecue, Southern Maryland stuffed-ham holiday table; Philadelphia's Seven Fishes and Sunday gravy point to `us-northeast.md`. Search snippets only.
 
 - **2026-09-24, two parallel subagent research passes** built this file's content: Pennsylvania/Philadelphia/Delaware, and Maryland/DC/Virginia (Chesapeake Bay). Both read `country-file-schema.md`, `us.md`, and `us-northeast.md` first, pulled forward (not re-researched) the one existing `us.md` pointer (Philly cheesesteak), and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.
 - **The Virginia scope question, flagged by the Chesapeake pass rather than decided by it, was resolved by hand**: Tidewater/coastal Virginia joins this file's Chesapeake Bay zone; inland/Southside/Piedmont Virginia (Brunswick stew's territory) is assigned to `us-south.md` instead, mirroring how New Mexico's split from the Desert Southwest was decided earlier in this project. This decision was made using the judgment this project's user authorized for regional clustering questions, rather than escalated.

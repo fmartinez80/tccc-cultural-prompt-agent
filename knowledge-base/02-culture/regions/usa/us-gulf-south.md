@@ -148,6 +148,55 @@ This coast clears the distinctness test against inland Deep South (`us-south.md`
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES; the crawfish boil already has its own register there (Cajun / Acadiana) and is deepened below, not restated. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** Gulf South gatherings are built around a **single big pot or a pour-out**: a crawfish or seafood boil dumped on a paper-covered table, a gumbo or jambalaya pot ladled onto rice, a boucherie's pork dishes. Paper plates and bare hands are normal; the shared vessel is the pot or the table itself rather than a ring of casseroles. The Carnival season (Epiphany to Fat Tuesday) adds a second calendar layer that exists nowhere else in the US. Seasonal timing matters: crawfish boils run roughly January to June, peaking in spring; gumbo weather is autumn and winter. [EDITORIAL, grounded in the ENVIRONMENT register and catalog sources]
+
+#### Celebration: Crawfish boil
+- Type: community or family gathering (spring; also birthdays, graduations, church and company parties)
+- When: roughly January to June, peaking around Lent and Easter, Saturdays and Sundays from early afternoon. Intake time of day: **midday** or **golden-hour**, outdoors.
+- Gathering: family, friends, neighbours or co-workers, ~15 to 60 [EDITORIAL]. Venue: home outdoor (backyard, driveway, carport) or other (church grounds, a park, a company lot). See ENVIRONMENT, Cajun / Acadiana, for the setting.
+- The spread: see catalog: **Boiled crawfish** for the pile and its composition block (crawfish, corn, red potatoes, smoked sausage, garlic heads, lemon). Around it: sometimes a dip (a mayonnaise-ketchup "crawfish dip"), saltines, and for non-eaters hot dogs or a pot of jambalaya (see catalog: **Cajun jambalaya ("brown jambalaya")**). Vessels: the big aluminium boil pot and basket on a propane burner, plastic tubs or a purpose-built crawfish table with a centre drain; one long pile per table.
+- Snapshot staging:
+  - **1 setting:** a stretch of paper-covered folding table with the red pile running through, one place's area with a small heap of peeled tails and empty shells, a half-cob of corn and a red potato in front. In frame: a roll of paper towels and a small cup of dip. Cues: the pile runs out of frame both ways; the propane burner and pot with steam soft behind.
+  - **2 settings:** two places across the pile, each with its own shell heap, the pile between them. Cues: a second table soft behind; blurred figures leaning in to peel (no faces sharp).
+  - **Small group (3 to 4 settings):** a full table width with identical shell heaps at each place and a fresh basket just dumped in the middle with steam. Cues: a figure in silhouette lifting the basket; folding chairs; live oak or carport post at the frame edge.
+- Decor and cues: newspaper or butcher paper (no legible text), paper-towel rolls, a propane rig, a plastic sack of lemons, an ice chest with its lid shut. Clichés to avoid: alligators or swamp-tour props, "Cajun" accent signage, a man in waders.
+- Never stage: beer (near-universal at real boils; the open ice chest full of cans is the most common giveaway, so keep coolers shut or out of frame); hands holding a crawfish up to camera (anti-hand-holding rule, as in the catalog entry); the head-sucking gesture in hero position.
+- Confidence and sources: [HIGH for the format — 64 Parishes and the catalog sources]; headcount and side dishes [EDITORIAL].
+
+#### Celebration: Carnival season — king cake party and the parade-route picnic
+- Type: calendar holiday (season from 6 January, Twelfth Night, to Fat Tuesday, the day before Ash Wednesday)
+- When: weekends and weeknights through the season. Two scenes: a **king cake party** at home, school or office (any time of day; stage a **midday** or afternoon scene), and the **parade-route picnic** where families claim a spot hours before a parade (afternoon into **golden-hour**). Fat Tuesday itself is the peak.
+- Gathering: king cake party: family, friends or co-workers, ~6 to 20, with whoever gets the baby buying the next cake [HIGH for the custom — catalog sources]; parade picnic: multi-family groups along St. Charles Avenue and other Uptown routes, with ladders, folding chairs and picnic baskets; the Uptown route is described as family-friendly [MEDIUM — New Orleans & Company, Time Out]. Venue: home indoor or office; other (the street's neutral ground for the picnic). Mobile has its own older Carnival, with MoonPies thrown from floats (see TRUSTED CONTENT, Mississippi & Alabama Gulf Coast).
+- The spread: see catalog: **King cake** for the cake and its slice. Party: the king cake on its board or opened box, plus whatever the host serves (a pot of red beans or gumbo for an evening party; see catalog: **Red beans and rice**, **Gumbo (Creole/New Orleans style)**). Parade picnic: fried chicken in a bucket or foil tray, po'boys cut into sections (see catalog: **Po'boy**), muffuletta wedges (see catalog: **Muffuletta**), chips, and king cake [MEDIUM — New Orleans & Company and Time Out note picnics and BBQs; the specific foods are EDITORIAL].
+- Snapshot staging:
+  - **1 setting (king cake party):** a small paper plate with one king cake slice, its yellow crumb and cinnamon swirl showing. In frame: the ring with one wedge gone, purple-green-gold sugar bands, partly cropped. Cues: a strand of purple, green and gold beads on the table edge (one, not a pile); blurred co-workers or family behind.
+  - **2 settings (parade picnic):** a folding table or cooler-lid surface: two identical paper plates with fried chicken and a po'boy section each; a tray of muffuletta wedges and the king cake box corner between them. Cues: a parade ladder with a seat box at the frame edge; beads hanging from an oak branch; a soft crowd line far behind.
+  - **Small group (3 to 4 settings):** a stretch of picnic table or folding table on the neutral ground with identical plates, the chicken tray and king cake in the middle, cropped. Cues: folding chairs in a row; live oaks with beads; a float's colours blurred in the far distance.
+- Decor and cues: purple, green and gold; a few beads; live oaks on St. Charles; ladders. Clichés to avoid: masks and feathers on everyone, Bourbon Street, bead-throwing excess, any nudity or "flashing" association (never).
+- Never stage: drinking (go-cups, beer, daiquiris; the French Quarter party register is drinking-led and out of scope); Ash Wednesday or any religious element; legible krewe names or emblems; the plastic baby in a way that suggests a choking hazard to a child.
+- Confidence and sources: king cake custom [HIGH]; parade picnic [MEDIUM]; foods and headcounts [EDITORIAL].
+
+#### Celebration: Boucherie (communal hog cooking day)
+- Type: community or family gathering (traditionally late autumn and winter; now also a festival format)
+- When: historically cold-weather months, starting before dawn; the shared meal is late morning to midday. Intake time of day: **midday**.
+- Gathering: neighbouring families sharing the work and the meat (traditionally rotating whose hog was used), now also community festivals; ~20 to 80 [EDITORIAL]. Venue: home outdoor (a farmyard or large backyard) or other (a festival ground, a church). Acadiana and southeast Louisiana [HIGH — Smithsonian Folklife Festival 1985 program, TravelMag, Rouses Markets, Lafayette Travel].
+- The spread: nose-to-tail pork dishes cooked on site in big black iron pots: cracklins (gratons) fried in a cast-iron cauldron, boudin blanc and boudin rouge, backbone stew, pork rice-and-gravy, hog's head cheese, with white rice and bread [HIGH — same sources]. See catalog: **Boudin (boudin blanc)**, **Cracklins (gratons)**, **Andouille sausage**. **Backbone stew** has no catalog entry: a dark brown, roux-based gravy with bone-in pork backbone pieces, spooned over a mound of white rice in a shallow bowl or on a plate (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** a plate with a scoop of white rice under backbone stew, a link of boudin, a few cracklins. In frame: a paper sack of cracklins and the edge of a black iron pot on a burner. Cues: steam and woodsmoke; the long table running out of frame; blurred neighbours at the pots.
+  - **2 settings:** two identical plates on a picnic table; a pan of boudin links and a sack of cracklins between them. Cues: a cast-iron cauldron with a long paddle soft behind; a barn or oak.
+  - **Small group (3 to 4 settings):** a stretch of table with identical plates, a rice pot and a stew pot cropped at the sides. Cues: more people around the outdoor cooking station (soft); folding chairs.
+- Decor and cues: black iron pots and cauldrons, long paddles, butane burners, a farmyard. Clichés to avoid: a hog with an apple in its mouth, swamp props.
+- Never stage: the slaughter, carcass, blood or butchering (crop strictly to cooked food); alcohol.
+- Confidence and sources: tradition and dishes [HIGH — Smithsonian Folklife program, TravelMag, Rouses, Lafayette Travel]; headcount [EDITORIAL].
+
+**Sources for this section:** [64 Parishes — Crawfish boils](https://64parishes.org/entry/crawfish-boils); [New Orleans & Company — Ultimate Mardi Gras guide](https://www.neworleans.com/events/holidays-seasonal/mardi-gras/the-ultimate-mardi-gras-guide/); [New Orleans & Company — King cakes](https://www.neworleans.com/events/holidays-seasonal/mardi-gras/king-cakes/); [Time Out — Guide to New Orleans Mardi Gras](https://www.timeout.com/new-orleans/a-guide-to-new-orleans-mardi-gras); [Smithsonian Folklife Festival 1985 program book (PDF)](https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1985_05.pdf); [TravelMag — Louisiana's community boucherie](https://www.travelmag.com/one-pig-becomes-an-entire-feast-at-louisianas-old-school-community-boucherie/); [Rouses Markets — Boucherie & charcuterie](https://www.rouses.com/about/blog/boucherie-charcuterie/); [Lafayette Travel — Cajun pork specialties](https://www.lafayettetravel.com/blog/stories/post/a-primer-on-unpronounceable-foodstuffs/).
+
+---
+
 ## DISH CATALOG
 
 ### New Orleans / Louisiana Creole
@@ -682,6 +731,8 @@ These dishes are genuinely served and identified with this coast specifically �
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** crawfish-boil, king-cake-party, parade-picnic and boucherie headcounts are editorial; the parade-picnic food list is inferred (sources confirm picnics and BBQs, not specific dishes); the crawfish dip and boil side dishes are common practice, not verified; New Orleans Réveillon dinners and Christmas Eve bonfires on the levee were not checked this pass.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across all three passes** (en.wikipedia.org, 64parishes.org, mississippiencyclopedia.org, smithsonianmag.com, and others). Every citation to these domains relies on WebSearch's own result-snippet excerpting, not a full page read.
 - **The Gumbo/jambalaya/étouffée Creole-vs-Cajun "default when unspecified" question is explicitly left unresolved** by all three passes, per `country-file-schema.md` §4.6 — a genuine editorial/product decision for a human reviewer, not a research gap to fill with a guess.
@@ -700,6 +751,8 @@ These dishes are genuinely served and identified with this coast specifically �
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** backbone stew (pork, roux gravy, over rice); hog's head cheese; crawfish dip.
+
 1. Get a human/reviewer decision on the Creole-vs-Cajun "default when unspecified" question for gumbo and jambalaya, the same "research recommends, human decides" pattern used elsewhere in this project.
 2. Research oysters Bienville's own dating/origin story to the same depth as oysters Rockefeller's.
 3. A stronger, non-recipe-blog source for corn maque choux's history and Cajun-vs-Creole treatment.
@@ -710,6 +763,8 @@ These dishes are genuinely served and identified with this coast specifically �
 8. Turtle soup and bread pudding with whiskey sauce as candidate additional New Orleans entries.
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 2 searches (boucherie, Mardi Gras parade picnic and king cake party); the crawfish boil reused the existing ENVIRONMENT register and catalog sources. Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: crawfish boil, Carnival season (king cake party and parade-route picnic), boucherie. Search snippets only.
 
 - **2026-09-24, three parallel subagent research passes** built this file's content: New Orleans/Louisiana Creole; Cajun/Acadiana; and Mississippi & Alabama Gulf Coast. All three read `country-file-schema.md`, `us.md`, and at least one prior regional file first, pulled forward (not re-researched) `us.md`'s existing po'boy pointer, and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.
 - **The gumbo and jambalaya Creole/Cajun forks were kept as two full, coexisting entries each**, per `country-file-schema.md` §4.6, exactly as both passes recommended — not collapsed into one default.

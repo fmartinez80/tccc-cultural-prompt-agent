@@ -212,6 +212,68 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** the Midwest's recurring large gatherings run through **church halls and church basements** more than backyards: Catholic parish fish fries in Lent, Lutheran potlucks and lutefisk suppers, and the graduation open house that fills a family's garage every June. Volunteers cook in quantity, food is served from a line or a buffet onto plain plates, and long folding tables in a fellowship hall or gym are the table form. The Wisconsin tavern and supper-club fish fry (see catalog) is a restaurant register, separate from the parish fish fry below. [EDITORIAL, grounded in ENVIRONMENT, Chicago & Great Lakes, and the sources in each entry]
+
+#### Celebration: Lenten parish fish fry
+- Type: calendar holiday (Fridays in Lent, roughly February to April; many Wisconsin venues run fish fries every Friday year-round)
+- When: Friday evenings, roughly 4:30pm to 7:30pm. Intake time of day: **evening** (fluorescent or warm hall light), or **golden-hour** through hall windows in late Lent.
+- Gathering: parish families, neighbours and non-Catholics alike, hundreds over an evening; run by parish volunteers, the Knights of Columbus or other groups [HIGH — The Miscellany (Catholic diocesan paper), Chowhound, Block Club Chicago, Signal Cleveland, Ladue News, Flatwater Free Press]. The tradition traces to 19th-century Polish, German and other Central European Catholic immigrants, Friday meat abstinence and Great Lakes fish [HIGH — same; see TRUSTED CONTENT for the Wisconsin three-cause history]. Venue: other (parish hall, school cafeteria, KofC hall); drive-thru and carry-out lines are common.
+- The spread: fried fish (usually cod, also perch, walleye or whitefish in the Great Lakes states), fried shrimp, French fries, coleslaw, macaroni and cheese, a soft roll; potato pancakes and rye in Wisconsin; desserts from a bake table [HIGH for the core menu — same sources]. See catalog: **Wisconsin Friday fish fry — fried perch or walleye plate** for the batter, plate composition and proportions (the parish plate is the same food on a paper or styrofoam plate or compartment tray, usually cod in larger, thicker pieces).
+- Snapshot staging:
+  - **1 setting:** a long folding table with a white paper cover; one compartment tray or paper plate with two pieces of golden battered cod, fries, a cup of coleslaw, a soft roll, a tartar cup and a lemon wedge. In frame: the next identical tray, a ketchup bottle and a napkin dispenser. Cues: the table runs out of frame; a serving line with steam and volunteers in aprons soft behind.
+  - **2 settings:** two identical trays side by side; a bake-sale plate of brownies or bars between them. Cues: rows of tables in a gym or hall receding; a basketball hoop folded up at the top edge (school-gym hall).
+  - **Small group (3 to 4 settings):** a stretch of long table with identical plates and a shared basket of rolls. Cues: blurred families at the next table; a take-out stack of clamshells on a cart at the edge.
+- Decor and cues: paper table covers, folding chairs, a parish hall or school gym, hand-lettered signs (not legible). Clichés to avoid: nuns or priests as the subject, a pub look.
+- Never stage: beer (the Wisconsin fish fry is often beer-battered and served with beer or an old fashioned; never shown; a few parish fries have beer stands too); raffles; crucifixes, Stations of the Cross or other religious items in frame with the product.
+- Confidence and sources: [HIGH — six independent news and diocesan sources]; staging [EDITORIAL].
+
+#### Celebration: Graduation open house (Upper Midwest)
+- Type: life event
+- When: late May to July, weekend afternoons, a 3-to-4-hour drop-in window; families in one class often stagger dates so guests can attend several. Intake time of day: **midday**.
+- Gathering: relatives, neighbours, church members, teammates' families and teachers dropping in; guests often give a card with money toward college. Open houses are described as traditional for graduations in Minnesota and Michigan [MEDIUM — Patch (Minnesota) and forum and lifestyle sources; weak tier, flagged]. ~50 to 150 over the afternoon [EDITORIAL]. Venue: home outdoor, specifically the **cleared-out attached garage** with the door up, plus the driveway and backyard; or a church hall or park shelter.
+- The spread: one hot sandwich meat in quantity kept warm in an electric roaster (sloppy joes, shredded beef or barbecue pulled pork on soft buns), potato salad, macaroni or pasta salad, chips, a veggie tray, a fruit tray, a decorated sheet cake and pans of bars [MEDIUM — Minnesota sources via Patch and forums; LOW for any single menu]. See `us.md` Graduation party for the national form. **Sloppy joe / shredded-beef sandwich** has no catalog entry: a soft white bun ~9 cm across heaped with loose, glossy, tomato-red sauced ground beef (or shredded beef), spilling slightly, on a paper plate (see CANDIDATE QUEUE). **Bars** have no catalog entry: pan-baked squares ~5 cm (brownies, lemon bars, Scotcheroos with a chocolate-butterscotch top) cut in a 9x13 pan or arranged on a tray (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** a paper plate on a folding table in the garage: a shredded-beef sandwich, a scoop of potato salad, chips, a few veggie-tray carrots, a bar. In frame: the electric roaster with its lid tipped and serving spoon, partly cropped. Cues: the garage door track overhead or a photo board soft behind; balloons in school colours.
+  - **2 settings:** two identical plates at a round folding table on the driveway; a tray of bars between them. Cues: the buffet tables in the garage soft behind; a card box (no legible writing); blurred guests.
+  - **Small group (3 to 4 settings):** a stretch of folding table with identical plates, the veggie tray and a salad bowl in the centre, cropped. Cues: a sheet cake with piped lettering (school name not legible); more tables and lawn chairs on the grass; mown lawn and a neighbouring house soft.
+- Decor and cues: plastic tablecloths in school colours, a memory board of photos and trophies, a garage with tools and shelves tidied or draped. Clichés to avoid: everyone in cap and gown, a beer fridge in the garage (real; keep closed and out of frame).
+- Never stage: alcohol; legible school names, mascots or crests; cash or money cards beside the product.
+- Confidence and sources: [MEDIUM/LOW — Patch, forum and lifestyle sources; flag for a stronger source]; staging [EDITORIAL].
+
+#### Celebration: Lutheran lutefisk and meatball supper
+- Type: community or family gathering (yearly church supper, October to February; Scandinavian Christmas tables at home are the private version)
+- When: a weekday or weekend evening, often served in seatings from mid-afternoon. Intake time of day: **evening** (church basement light, early winter darkness outside).
+- Gathering: the congregation feeding the town and visitors: a single dinner can draw 1,000+ diners and need 150 to 200 volunteers [HIGH — Atlas Obscura, MPR News, Southern Minn (Blooming Prairie Leader), Minnesota Monthly; numbers are per-church examples, not statewide]. Venue: other (Lutheran church basement or fellowship hall, long tables). Minnesota, the Dakotas, Wisconsin, Iowa; Norwegian, Swedish and Finnish heritage.
+- The spread: lutefisk (lye-cured dried cod, reconstituted and baked or boiled) with melted butter or white sauce, Swedish or Norwegian meatballs in gravy, boiled potatoes, mashed rutabaga, cranberries or lingonberries, lefse (soft potato flatbread, buttered and sugared), and rice pudding with lingonberry; served family-style in bowls passed along the table, or as a buffet line [HIGH — same sources]. Not in the catalog (see CANDIDATE QUEUE); visual anchors: **lutefisk** is translucent, pale, gelatinous white flakes of fish glistening with butter, in a white serving bowl; **lefse** is a thin, soft, pale cream round ~30 cm across with brown griddle spots, folded into quarters or rolled; **meatballs** are small (~3 cm) brown balls in a light-brown cream gravy.
+- Snapshot staging:
+  - **1 setting:** a plain white church-basement plate with a spoon of lutefisk with butter, three meatballs in gravy, a boiled potato, mashed rutabaga, a folded lefse. In frame: the passing bowls (meatballs, potatoes) partly cropped and a butter dish. Cues: the long table runs out of frame with identical plates; a church-basement serving window soft behind.
+  - **2 settings:** two identical plates side by side; a plate of rolled lefse and a bowl of lingonberries between them. Cues: volunteers in aprons carrying bowls (blurred); stackable chairs; a coffee urn on a side table.
+  - **Small group (3 to 4 settings):** a stretch of long table with identical plates and four serving bowls down the middle, cropped. Cues: more tables receding under fluorescent light; a rice-pudding bowl at one place; a snowy window.
+- Decor and cues: white paper on long tables, plain church china or heavy white plates, coffee cups, Scandinavian rosemaling-pattern details (not national flags). Clichés to avoid: Viking helmets, horned-helmet jokes, an Ikea-showroom look.
+- Never stage: alcohol (aquavit at a home Scandinavian Christmas; never); the church sanctuary, altar or hymn singing; jokes about lutefisk's smell as a visual gag.
+- Confidence and sources: [HIGH — Atlas Obscura, MPR News, Southern Minn, Minnesota Monthly]; staging [EDITORIAL].
+
+#### Celebration: Church-basement potluck (hotdish supper)
+- Type: community or family gathering (recurring: church events, funerals, reunions, holidays)
+- When: after a Sunday service, a weekday evening event or a funeral lunch; meal at midday or early evening. Intake time of day: **midday**.
+- Gathering: congregation and family, ~30 to 150 [EDITORIAL]. Venue: other (church basement or fellowship hall). See ENVIRONMENT, Chicago & Great Lakes, Lutheran-church-basement potluck [MEDIUM-HIGH there].
+- The spread: a buffet line of 9x13 glass baking dishes, each family bringing one: hotdishes (see catalog: **Minnesota hotdish**), a Jell-O or "salad" made with whipped topping, a ham-bun tray, a relish tray, pans of bars, and church coffee in an urn [MEDIUM — catalog sources; the Jell-O salad and ham buns are EDITORIAL from common practice, not verified this pass]. A real potluck line carries 15 to 40 dishes.
+- Snapshot staging:
+  - **1 setting:** a plain plate with a square of tater-tot hotdish, a spoon of a pastel Jell-O salad, a ham bun, a bar. In frame: the hotdish's glass pan with a spatula, partly cropped. Cues: the buffet line of foil-lidded pans soft behind; a coffee urn.
+  - **2 settings:** two identical plates at a long table; a relish tray and a pan of bars between them. Cues: rows of folding tables; blurred older parishioners in cardigans.
+  - **Small group (3 to 4 settings):** a stretch of long table with identical plates and two casserole pans in the middle, cropped. Cues: the buffet line running out of frame; stacked coffee cups; a bulletin board (not legible).
+- Decor and cues: plastic or paper table covers, 9x13 pans with masking-tape name labels (not legible), slow cookers, a pass-through kitchen window. Clichés to avoid: a mocking "Minnesota nice" caricature; overly retro 1950s styling.
+- Never stage: a funeral or casket context with the product (stage only the meal if the brief is a funeral lunch, with nothing in frame indicating a death); religious items beside the product; alcohol.
+- Confidence and sources: [MEDIUM — ENVIRONMENT and hotdish catalog sources]; headcount and specific dishes [EDITORIAL].
+
+**Sources for this section:** [The Miscellany — Lenten fish fries bring parish families together](https://themiscellany.org/lenten-fish-fries-bring-parish-families-together); [Chowhound — A history of Lenten fish fries](https://www.chowhound.com/1426272/what-is-a-lenten-fish-fry-history/); [Block Club Chicago — Fish fries for Lent](https://blockclubchicago.org/2026/02/25/where-to-find-a-fish-fry-in-chicago-for-lent/); [Signal Cleveland — Friday fish fry guide](https://signalcleveland.org/looking-for-a-friday-fish-fry-lent-church-greater-cleveland-start-here-2026/); [Ladue News — St. Louis fish fries](https://www.laduenews.com/community/fish-fry-st-louis-county-city-catholic-church-cod-shrimp-food-lent-lenten-march-parish/article_b9dc87ff-e0c5-40d1-970c-75d036a17227.html); [Flatwater Free Press — Omaha fish fry guide](https://flatwaterfreepress.org/omaha-fish-fry-guide/); [Patch — Grad party trends (Eagan, MN)](https://patch.com/minnesota/eagan/grad-party-trends-keep-it-simple-but-add-a-unique-twist); [Straight Dope boards — Open houses (forum, last-resort tier)](https://boards.straightdope.com/t/open-houses/308030); [Atlas Obscura — Obituary for a lutefisk dinner](https://www.atlasobscura.com/articles/church-lutefisk-dinner); [MPR News — Lutefisk still king at Mindekirken](https://www.mprnews.org/story/2019/11/26/its-fading-from-minn-households-but-lutefisk-is-still-king-at-minneapolis-mindekirken); [Southern Minn — Blooming Prairie lutefisk and meatball dinner](https://www.southernminn.com/blooming_prairie_leader/news/article_c35b9cb1-252e-59e7-90cd-8394449961af.html); [Minnesota Monthly — Why we keep eating lutefisk](https://www.minnesotamonthly.com/food-drink/why-we-keep-eating-lutefisk-in-minnesota/).
+
+---
+
 ## DISH CATALOG
 
 ### Chicago & Great Lakes
@@ -868,6 +930,8 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** the graduation open house's Upper Midwest concentration and menu rest on Patch plus forum/lifestyle sources (weak tier); open-house, potluck headcounts editorial; Jell-O salad and ham buns at potlucks are common practice, not verified; Polish-American Wigilia (Christmas Eve, Chicago/Milwaukee/Detroit) and Kansas City/St. Louis-specific gatherings were not researched this pass (search budget spent) and are candidates for a follow-up.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **Real-world scale per `country-file-schema.md` §4.5 was included for most, but not literally every, dish entry in this file** — where the underlying research passes gave a concrete dimension (burnt ends' 1-inch cubes, St. Louis pizza's 2-3-inch squares, the Chicago hot dog's 6-inch frank, the tenderloin's bun-overhang comparison, etc.) it is stated explicitly; a small number of entries (Chicago mild sauce, the coney dogs, buckeye candy's size aside, goetta, the St. Paul sandwich) rely on general format/serving-vessel description rather than an explicit vessel-occupancy fraction. Flagged as a partial, not complete, application of the new rule — a future audit pass (already logged as an open item project-wide, per `DECISIONS.md`) should tighten these.
 - **The German Triangle overlap check was performed explicitly during this merge** (see FILE ROLE & METHOD above) — Cincinnati's, Milwaukee's, and St. Louis's German-heritage content was compared across all three source drafts and consolidated into one Midwest-wide TRUSTED CONTENT note rather than left duplicated three times or silently claimed as a differentiator by any single zone.
@@ -892,6 +956,8 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** lutefisk; lefse; Scandinavian meatballs in gravy; sloppy joe / shredded-beef sandwich (open-house roaster); Midwest bars (Scotcheroos, lemon bars); Jell-O salad; Polish Wigilia table (pierogi, barszcz, fish) for research.
+
 1. **Priority 1 (methodology)**: Include this file in the future retroactive real-world-scale audit pass already logged in `DECISIONS.md`, tightening the handful of entries flagged above that rely on format/vessel description rather than an explicit occupancy fraction.
 2. **Priority 2**: Independently research Columbus, Dayton, and Toledo for any additional genuinely distinct, staging-relevant Ohio dishes/registers this file didn't cover.
 3. **Priority 3**: Source and write a full "generic/Midwestern chili con carne" comparison entry (wherever it ends up living in the KB) so Cincinnati chili's "common confusion" field has a real, cited counterpart on both sides rather than one sourced and one inferred.
@@ -906,6 +972,8 @@ This is the seventh regional file built under the 13-file US structure. It holds
 ---
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 3 searches (Upper Midwest graduation open house, Lutheran lutefisk suppers, Lenten parish fish fries). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 4 entries: Lenten parish fish fry, graduation open house, Lutheran lutefisk and meatball supper, church-basement potluck. Search snippets only.
 
 - **Method**: Three parallel Claude subagent research passes, each WebSearch-only — WebFetch/direct page reads were blocked by network egress for every domain attempted, consistent with every prior research round on this project. All citations rely on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Pass 1 — Chicago & Great Lakes** (Illinois/Chicago, Michigan, Wisconsin, Minnesota): approximately 25 search queries covering the Chicago-style hot dog, all three Chicago pizza styles, Chicago Italian beef, Chicago mild sauce/South Side fried chicken, the Detroit/Flint coney dispute, Detroit-style pizza, the Michigan UP pasty, Wisconsin cheese curds, the Friday fish fry, the Door County fish boil, the Wisconsin supper club, the butter burger, Minnesota hotdish, and the Juicy Lucy, plus the zone's settlement/immigration history (Great Lakes geography, Union Stockyards and the Great Migration, Milwaukee's brewing history, Detroit's auto-industry immigration).

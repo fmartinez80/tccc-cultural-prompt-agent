@@ -116,6 +116,55 @@ South Florida clears the same distinctness test on independently corroborated ca
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** in South Florida's Cuban-American (and wider Latin and Caribbean) households, the big family meal of Christmas is **Christmas Eve night**, not Christmas Day, and family parties run later and larger than the national norm: dinner at 8pm to 10pm, dancing, a cake cut late in the evening. Party food is a **tray culture**: platters of croquetas, pastelitos and bocaditos from a Cuban bakery greet guests before the hot food. Outdoor gatherings move to the patio, lanai or backyard almost year-round (see TRUSTED CONTENT and ENVIRONMENT). North Florida follows `us.md` and `us-south.md` patterns more closely. [EDITORIAL, grounded in the sources in each entry]
+
+#### Celebration: Nochebuena (Cuban-American Christmas Eve)
+- Type: calendar holiday
+- When: 24 December; the pig goes on in the afternoon, dinner is late evening. Intake time of day: **evening** (backyard string lights, patio light), or **golden-hour** for the roasting scene.
+- Gathering: extended family and friends, ~15 to 40, often in a backyard; whole neighbourhoods in Miami, Hialeah and Tampa smell of roasting pork that day [MEDIUM — Barbecue Bible (Steven Raichlen), Miami New Times; community-scale claim is lifestyle-tier]. Headcount [EDITORIAL]. Venue: home outdoor (backyard, carport, patio) with a long table, or home indoor.
+- The spread: **lechón asado**, a whole pig or pork shoulder marinated in mojo (sour orange, garlic, oregano, cumin) and roasted for hours, often in a **caja china** (a wooden roasting box with coals on the lid, popularised by Cuban-American Roberto Guerra) [HIGH — Barbecue Bible, Miami New Times, plus Cuban food writers]; with **moros y cristianos** or congrí (black beans and rice cooked together), **yuca con mojo**, fried sweet plantains (maduros), a green salad, Cuban bread, and turrón and buñuelos for dessert [HIGH — same]. None of the main items has a catalog entry here (see CANDIDATE QUEUE); visual anchors: **lechón asado** is chopped or pulled pork, juicy and pale-to-golden, with shards of deep amber, blistered crackling (chicharrón) on top, piled on a large platter or foil tray with raw onion rings and a bowl of mojo; **moros** is uniformly dark grey-brown rice with whole black beans through it, in a big bowl; **yuca con mojo** is ivory-white boiled yuca chunks glistening with garlic-oil mojo and translucent onion slivers. A real table carries the pork platter plus 4 to 5 serving dishes.
+- Snapshot staging:
+  - **1 setting:** a plate with a pile of lechón and a piece of crackling, a scoop of moros, two pieces of yuca with mojo, three maduros. In frame: the pork platter partly cropped, a basket of sliced Cuban bread. Cues: the long table running out of frame; the caja china or a smoking pit soft in the backyard behind; string lights.
+  - **2 settings:** two identical plates; between them the moros bowl and the yuca dish, the turrón board cropped at the end. Cues: blurred relatives under string lights; a dominoes table soft in the background (tiles, no gambling stakes shown).
+  - **Small group (3 to 4 settings):** a stretch of a long folding table with a holiday cloth, identical plates, the pork platter in the centre and 3 dishes around it, cropped. Cues: more chairs than people in frame; palm fronds and a lit tree visible through a sliding door.
+- Decor and cues: a long table in a backyard or carport, string lights, a caja china, a Christmas tree inside, poinsettias. Clichés to avoid: a Havana-nostalgia set (vintage cars, cigars), mariachi (Mexican, not Cuban), salsa-dancing as the scene.
+- Never stage: beer, wine, rum or cider (all common at a real Nochebuena); cigars; midnight Mass (Misa del Gallo) or a nativity beside the product; a whole pig's head in hero position (crop to the chopped meat and crackling).
+- Confidence and sources: dishes and caja china [HIGH]; community scale [MEDIUM]; headcount [EDITORIAL].
+
+#### Celebration: Quinceañera (Miami "quince")
+- Type: life event
+- When: around a girl's 15th birthday, usually a Saturday evening; dinner around 8pm to 9pm, cake cut around 9pm to 10pm [MEDIUM — Miami event-venue guides, commercially self-interested]. Intake time of day: **evening** (ballroom uplighting).
+- Gathering: extended family, friends, the court of honour; ~100 to 250 in a reception hall [LOW — venue marketing, not a statistic; flag]. Venue: other (rented reception hall, hotel ballroom, event barn). Miami quinces blend Cuban, Puerto Rican, Colombian and other Latin traditions [MEDIUM — venue guides].
+- The spread: a plated three-course dinner or a buffet of Latin classics: lechón (see Nochebuena entry), rice and beans, ropa vieja (see catalog: **Ropa vieja**), maduros, tostones; an elaborate multi-tiered cake; party trays of croquetas and pastelitos on arrival (see catalog: **Pastelito de guayaba y queso**) [MEDIUM — venue guides and Three Guys From Miami]. **Tiered quince cake** shares the look of `us.md`'s tiered wedding cake (CANDIDATE QUEUE there), often in the girl's theme colour.
+- Snapshot staging:
+  - **1 setting:** one place at a round banquet table: a dinner plate with ropa vieja, white rice, black beans and maduros, a folded napkin, a place card. In frame: the edge of a tall centrepiece and the next identical place setting. Cues: a second round table soft behind; dance-floor lighting in the theme colour, far and blurred.
+  - **2 settings:** two identical plates at the round table; a small plate of croquetas between them. Cues: the tiered cake on its own table blurred in the background; balloons or floral arch soft.
+  - **Small group (3 to 4 settings):** an arc of the round table with identical plates, the centrepiece cropped at the top. Cues: tables receding; blurred guests in formalwear (no sharp faces, the quinceañera herself not as the hero unless the brief says so).
+- Decor and cues: a theme colour throughout, tall centrepieces, a cake table, chandeliers or uplighting. Clichés to avoid: a Mexican-specific quince look (charro, mariachi) for a Cuban family, a tiara-and-gown close-up next to the product.
+- Never stage: champagne toasts or the bar; the church blessing (a Mass precedes many quinces); a minor in a sexualised or adult-styled pose; the minor as the consumer of the product unless the brief and TCCC policy allow.
+- Confidence and sources: [MEDIUM/LOW — Miami venue guides (commercially self-interested) and Three Guys From Miami (enthusiast); flag for a better source]; staging [EDITORIAL].
+
+#### Celebration: Cuban-American family party (cumpleaños) and the party tray
+- Type: life event (birthdays above all; the same format serves baby showers and christening parties)
+- When: weekend afternoons for children's parties, evenings for adults. Intake time of day: **midday** or **evening**.
+- Gathering: extended family and friends, often bigger than the national birthday party (~20 to 60) [LOW — Three Guys From Miami, enthusiast tier]. Venue: home outdoor (patio, backyard, a rented party hall or a park shelter) or home indoor.
+- The spread: platters from a Cuban bakery: **croquetas** (ham), **pastelitos** (guava and cheese, see catalog: **Pastelito de guayaba y queso**) and **bocaditos** (small soft rolls with ham spread), then a hot buffet (arroz con pollo, picadillo, or lechón), and a layered Cuban cake with meringue frosting [MEDIUM — Three Guys From Miami, Pinecrest Bakery party platters, Burger Beast]. **Croquetas** have no catalog entry: cylindrical, ~6–7 cm long, ~2.5 cm thick (a third of the can's height long), crisp, fine golden-brown breadcrumb crust with a creamy pale-pink ham béchamel inside, piled on a round platter (see CANDIDATE QUEUE). **Cuban party cake** has no catalog entry: a round or sheet cake covered in glossy white swirled meringue frosting, often with a guava or custard filling showing in the cut slice (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** a small paper or plastic plate with two croquetas, a pastelito and a bocadito. In frame: the round party platter partly cropped, the corner of the meringue cake. Cues: balloons at the top edge; blurred family on the patio.
+  - **2 settings:** two identical plates; a full platter of croquetas and pastelitos between them, a stack of napkins. Cues: the buffet table with foil trays soft behind; a palm or lanai screen.
+  - **Small group (3 to 4 settings):** a stretch of party table with identical plates, two platters and the cake in the middle with lit candles, cropped. Cues: more chairs, a pile of gifts at the edge, a piñata hanging far behind (generic shape, no licensed characters).
+- Decor and cues: balloons, a themed tablecloth, a lanai or patio. Clichés to avoid: licensed characters, Havana-nostalgia props.
+- Never stage: alcohol (beer and rum are common at adult parties); legible bakery branding on boxes.
+- Confidence and sources: [MEDIUM for the tray foods; LOW for party size]; staging [EDITORIAL].
+
+**Sources for this section:** [Barbecue Bible — How Miami celebrates the holidays: Cuban roast pig](https://barbecuebible.com/2025/12/23/how-miami-celebrates-the-holidays-cuban-roast-pig/); [Miami New Times — Restaurants to cater your Nochebuena](https://www.miaminewtimes.com/food-drink/miami-restaurants-to-cater-your-nochebuena-christmas-party-21983893/); [Three Guys From Miami — What goes on at a Cuban birthday party?](https://3guysfrommiami.com/birthday.html); [Pinecrest Bakery — Croquetas party platter (commercial)](https://pinecrestbakery.com/products/croquetas-traditional); [Burger Beast — Guide to Cuban bakeries in Miami](https://burgerbeast.com/cuban-bakeries-miami/); [The Barn 305 — What to expect at a quinceañera (venue, commercial)](https://www.thebarn305.com/what-to-expect-at-a-quinceanera-a-miami-venues-guide/); [The Barn 305 — Quinceañera reception order of events (venue, commercial)](https://www.thebarn305.com/quinceanera-reception-order-of-events/); [Grand Salon — Quinceañera planning guide Miami (venue, commercial)](https://www.grandsalonreceptionhall.com/quinceanera-planning-guide-miami/).
+
+---
+
 ## DISH CATALOG
 
 ### North Florida
@@ -427,6 +476,8 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** Nochebuena headcount editorial; quinceañera headcount, timing and service style rest on Miami venue marketing (commercially self-interested), not an independent source; Cuban party size rests on one enthusiast site; Haitian gatherings (soup joumou on 1 January is often a morning meal, so out of scope unless a later meal is documented) and North Florida-specific gatherings (fish fries, mullet festivals) were not checked this pass.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across both passes** — en.wikipedia.org and deepsouthmag.com specifically confirmed blocked. Every citation to these domains relies on WebSearch's own result-snippet excerpting, not a full page read.
 - **Florida Cracker cuisine (swamp cabbage/hearts of palm, cane syrup, wild game) is real and sourced but was not written up as a full dish entry** — the sourcing found is tourism/heritage-tier rather than deep enough for a full HIGH-confidence visual/plating entry.
@@ -439,6 +490,8 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** lechón asado (Cuban roast pork, with crackling); moros y cristianos / congrí; yuca con mojo; maduros (fried sweet plantains); croquetas de jamón; Cuban meringue party cake.
+
 1. A dedicated pass on Florida Cracker cuisine (swamp cabbage, cane syrup, wild game), if the file wants a further North Florida dish beyond the ones written up here.
 2. A dedicated, block-by-block architectural/venue-register pass for Little Haiti, matching the depth already given to Little Havana and the Art Deco District.
 3. Resolve the moros y cristianos vs. congrí Miami-prevalence question with more targeted, ideally institutional-tier sourcing.
@@ -448,6 +501,8 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 7. A dedicated pass on Tampa's own Cuban coffee/cafecito culture, distinct from Miami's ventanita/cortadito culture already documented.
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 2 searches (Nochebuena and lechón, Miami quinceañera and party trays). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: Nochebuena, quinceañera, Cuban-American family party and the party tray. Search snippets only.
 
 - **2026-09-24, two parallel subagent research passes** built this file's content: North Florida (Panhandle, Jacksonville, Tallahassee, Gainesville, Tampa/St. Petersburg) and South Florida/Floribbean (Miami, the Keys, Little Haiti). Both read `country-file-schema.md`, `us.md`, `us-northeast.md`, and `us-mid-atlantic.md` first, pulled forward (not re-researched) `us.md`'s existing Cuban sandwich pointer, and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.
 - **Three cross-zone questions were resolved by hand**: the Cuban sandwich stays a single entry in the North Florida zone with Miami's venue-register variant folded in as an addendum (rather than a competing entry); key lime pie's full entry moved to the South Florida zone, exactly as the North Florida pass itself recommended; stone crab claws' full entry stays in the South Florida zone (on the strength of Joe's Stone Crab's origin story and the Keys/Everglades City volume data), with the North Florida zone keeping a short cross-reference to its own real but secondary Big Bend/Cedar Key presence — the same resolution pattern used for Hoppin' John in `us-south.md`.

@@ -137,6 +137,55 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES. Only gatherings that look visibly different in the Northeast are below. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** in NYC Metro, holiday tables are often in an apartment, so the "long table out of frame" cue is a table extended with a leaf or a second folding table in a narrow dining room or living room, not a suburban dining room (see ENVIRONMENT, NYC Metro & New Jersey). Coastal New England adds an outdoor seafood-feast register (the clambake) that has no national equivalent. [EDITORIAL]
+
+#### Celebration: New England clambake (and the backyard lobster bake)
+- Type: community or family gathering (summer, often tied to the Fourth of July, family reunions and church or civic fundraisers)
+- When: July to early September; the meal comes off the bake mid-to-late afternoon after hours of cooking. Intake time of day: **golden-hour** or **midday** on a beach or lawn.
+- Gathering: family, neighbours or a club or church group, ~15 to 60 for a traditional beach or lawn bake; a backyard "lobster bake" in a big pot is the smaller home version for ~8 to 15 [EDITORIAL]. Venue: other (beach, shore park, a clambake company's grounds) or home outdoor. Coastal Rhode Island, Massachusetts and Maine.
+- The spread: the traditional bake layers seafood and vegetables on fire-heated stones under fresh rockweed and canvas: a whole lobster per person, steamers (soft-shell clams), corn on the cob, potatoes, sometimes sausage or fish, cooked together in one steaming pile [HIGH — New England Historical Society, Wikipedia: Clambake, Northshore Magazine]. Served with melted butter in cups and the clam broth for dipping steamers; New England clam chowder or clam cakes may start the meal (see catalog: **New England clam chowder**, **Rhode Island clam cakes**). **Clambake plate** has no full catalog entry: one bright red-orange whole lobster ~30 cm long (twice the can's height), a pile of grey-shelled steamers, a half or whole ear of yellow corn and 2 to 3 small red or white potatoes, on a heavy paper plate or a tin pie plate, a cup of melted butter beside it (see CANDIDATE QUEUE). Vessels: big enamel or aluminium pots or the rockweed pile itself, wire baskets, foil trays, rolls of paper towel.
+- Snapshot staging:
+  - **1 setting:** a picnic table covered in brown or newspaper-style paper; one plate with the full clambake portion, butter cup, a cracker and pick. In frame: an empty shell bowl and the edge of a steamer pot with rising steam. Cues: rockweed and canvas steaming in the background, soft; blurred figures on a lawn or beach.
+  - **2 settings:** two identical clambake plates side by side, one shared bowl of empty shells between them, a basket of corn cropped at the end. Cues: the long paper-covered table running out of frame; a stacked pile of paper plates and paper-towel rolls.
+  - **Small group (3 to 4 settings):** a stretch of picnic table with identical plates; a big pot or a pile of lobsters and corn tipped onto the paper in the middle, partly cropped. Cues: the bake pit smoking at the frame edge; extra picnic tables behind; harbor or dune grass soft.
+- Decor and cues: plastic lobster bibs, nutcrackers and picks, paper-covered tables, a weathered shingled shed or dune line behind. Clichés to avoid: a lighthouse in every frame, nautical rope-and-anchor props, a lobster in a captain's hat.
+- Never stage: beer or beer coolers (very common at a real bake, never shown); Wampanoag appanaug ceremonies (historians note the Native practice is ceremonial and distinct from the settler social bake; do not present the social clambake as an Indigenous rite, and do not stage the ceremony).
+- Confidence and sources: method and components [HIGH — New England Historical Society, Wikipedia: Clambake, Northshore Magazine]; headcounts [EDITORIAL].
+
+#### Celebration: Feast of the Seven Fishes (La Vigilia)
+- Type: calendar holiday (Italian-American Christmas Eve)
+- When: 24 December, a long evening dinner in courses. Intake time of day: **evening**.
+- Gathering: extended Italian-American family, ~10 to 25 at the home of the senior generation [EDITORIAL]. Venue: home indoor, a long dining table often extended into the living room. Strongest in NYC Metro and New Jersey, also Southern New England and (see `us-mid-atlantic.md`) Philadelphia.
+- The spread: at least seven seafood dishes, an Italian-American tradition rooted in southern Italian meatless Christmas Eve customs and brought over by the early-1900s immigration wave [HIGH — National Geographic, Atlas Obscura; the "seven" number is an American codification]. Typical dishes: baccalà (salt cod, fried or in a salad or tomato stew), fried calamari with lemon and marinara, fried smelts, a chilled seafood salad with scungilli (conch), shrimp, octopus and celery, baked stuffed clams oreganata, linguine with clam sauce, shrimp scampi, stuffed escarole [MEDIUM — National Geographic plus lifestyle and restaurant sources]. Served family-style in waves, platters and big pasta bowls on the table. None of these has a catalog entry here (see CANDIDATE QUEUE); visual anchors: **fried calamari** is golden rings and tentacles in a light crisp batter piled on a platter with lemon wedges and a small bowl of red marinara; **seafood salad** is a glossy white-and-pink mix of squid rings, shrimp and pale scungilli slices with celery and parsley in olive oil and lemon, in a wide glass or ceramic bowl; **linguine with clam sauce** is pale pasta glistening with oil, garlic and parsley, with small clams in the shell on top, in a wide pasta bowl.
+- Snapshot staging:
+  - **1 setting:** one place with a pasta-bowl portion of linguine with clams, or a plate with a few calamari rings and a spoon of seafood salad. In frame: the calamari platter with lemon wedges and the marinara bowl, partly cropped; a bread basket. Cues: the table running out of frame crowded with more platters; Christmas-tree bokeh behind.
+  - **2 settings:** two identical plates; between them the seafood-salad bowl and the calamari platter, a dish of baked clams cropped at the edge. Cues: a third platter coming in from a blurred hand; a red tablecloth and candles.
+  - **Small group (3 to 4 settings):** one end of the table with identical plates, 4 to 5 seafood platters and bowls covering the visible stretch, cropped at the sides. Cues: more platters than the diners could finish; an older relative blurred at the far end; a tray of Italian Christmas cookies on a sideboard.
+- Decor and cues: white or red tablecloth, the good dishes, candles, a tree in the next room, a sideboard of cookies and struffoli. Clichés to avoid: Italian-flag colours on everything, mobster or "Sopranos" styling, a red-checked trattoria cloth (that is a restaurant cliché, not a home Christmas Eve).
+- Never stage: wine (central to a real Vigilia table; never shown, no wine glasses); midnight Mass, nativity or religious items beside the product.
+- Confidence and sources: tradition and origin [HIGH — National Geographic, Atlas Obscura]; dish list [MEDIUM]; headcount and staging [EDITORIAL].
+
+#### Celebration: Italian-American Sunday dinner ("Sunday gravy")
+- Type: community or family gathering (weekly)
+- When: Sunday, a long early-afternoon dinner (roughly 1pm to 4pm) after a sauce that has simmered since the morning. Intake time of day: **midday** or early **golden-hour**.
+- Gathering: three generations of one family, ~6 to 15 at the grandparents' or parents' home [EDITORIAL]. Venue: home indoor, dining table or a big kitchen table. NYC (especially Brooklyn and Staten Island), New Jersey, and Philadelphia (shared with `us-mid-atlantic.md`); "gravy" for tomato sauce is a regional Italian-American usage in this corridor [MEDIUM — The Manual and regional food writing; recipe-blog tier for most detail].
+- The spread: one big pot of tomato "gravy" cooked for hours with meatballs, Italian sausage, braciole (rolled, tied beef or pork) and pork ribs; served as a pasta course (rigatoni, ziti or spaghetti dressed with the gravy) and then the meats on a platter, plus a green salad and Italian bread [MEDIUM — The Manual; LOW for any single family's set, as recipes vary]. See catalog (`us.md`): **Spaghetti and Meatballs — plated** for the meatball and sauce look. **Braciole** has no catalog entry: a browned beef roll ~5 cm across, sliced into rounds showing a spiral of parsley, garlic and cheese filling, sitting in deep red sauce on the meat platter (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** a wide pasta bowl of rigatoni in red gravy topped with a meatball and grated cheese. In frame: the meat platter (meatballs, sausage links, braciole rounds) partly cropped and a cheese bowl with a spoon. Cues: the sauce pot on the stove soft behind; the table running out of frame.
+  - **2 settings:** two identical pasta bowls; between them the big pasta serving bowl and a loaf of Italian bread on a board. Cues: a blurred grandparent ladling at the end; a second, empty chair pulled out.
+  - **Small group (3 to 4 settings):** a stretch of the family table with identical bowls, the pasta bowl and meat platter in the centre, the salad bowl cropped. Cues: more chairs than people in frame; framed family photos on the wall behind (no religious items in frame); a child's high chair at the edge.
+- Decor and cues: an everyday tablecloth, mismatched serving pieces, a grated-cheese bowl, a heel of Italian bread. Clichés to avoid: red-checked cloths and candle-in-a-Chianti-bottle (restaurant cliché), mafia styling, an accordion.
+- Never stage: wine or a carafe on the table (common in real life, never shown).
+- Confidence and sources: [MEDIUM — The Manual and regional food writing; much of the detail rests on recipe blogs, last-resort tier, flagged]; staging [EDITORIAL].
+
+**Sources for this section:** [New England Historical Society — Seven fun facts about the clambake](https://newenglandhistoricalsociety.com/seven-fun-facts-about-the-clambake/); [Wikipedia — Clambake](https://en.wikipedia.org/wiki/Clambake); [Northshore Magazine — Traditional New England clambake](https://www.nshoremag.com/eat-drink/traditional-new-england-clambake/); [National Geographic — What is the Feast of the Seven Fishes?](https://www.nationalgeographic.com/history/article/what-is-the-feast-of-the-seven-fishes); [Atlas Obscura — Feast of the Seven Fishes](https://assets.atlasobscura.com/foods/feast-of-the-seven-fishes); [The Manual — Italian-American Sunday gravy](https://www.themanual.com/food-and-drink/italian-american-sunday-gravy/).
+
+---
+
 ## DISH CATALOG
 
 ### NYC Metro & New Jersey — Pizza
@@ -810,6 +859,8 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** clambake, Seven Fishes and Sunday-dinner headcounts are editorial; the Seven Fishes dish list and the Sunday gravy detail rest partly on lifestyle and recipe-blog sources; not checked this pass whether Jewish holiday dinners (Rosh Hashanah, a Passover meal outside the seder rite) or Portuguese feasts in RI/southeastern MA deserve their own regional entries.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across all three research passes** — en.wikipedia.org, britannica.com, smithsonianmag.com, newengland.com, statesymbolsusa.org, and others all returned blocked. Every citation to these domains was sourced from a WebSearch result snippet, not a full page read — consistent with every prior research round in this project. A reviewer with working fetch access should spot-check the Wikipedia and long-form-journalism citations in particular.
 - **New Jersey's everyday/statewide-default pizza style remains unresolved** — already an open item in `us.md`'s own Gap Log (the "Grandma-style" lead didn't hold up on a second check; no dedicated source establishes a generic statewide-default NJ pizzeria style distinct from Trenton tomato pie and Jersey Shore boardwalk pizza).
@@ -828,6 +879,8 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** clambake plate (lobster, steamers, corn, potatoes); fried calamari; Italian-American seafood salad (scungilli); linguine with clam sauce; baccalà; braciole.
+
 1. Rhode Island stuffies (baked stuffed quahogs, Portuguese-chouriço-flavored) — surfaced repeatedly as a genuine RI seafood-shack staple but was outside this pass's scope; strong candidate for a future RI-focused pass.
 2. A dedicated architectural/historic-preservation source for CT/RI small-town Main Street visual specifics.
 3. Independent second-source verification for New Haven apizza's whole-pie-only norm.
@@ -838,6 +891,8 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 8. Whether the RI/southeastern-MA Portuguese-heritage food-culture boundary should reshape this file's zone grouping in a future pass.
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 3 searches (clambake, Feast of the Seven Fishes, Sunday gravy). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: New England clambake, Feast of the Seven Fishes, Italian-American Sunday dinner. Search snippets only, no full page reads.
 
 - **2026-09-24, three parallel subagent research passes** built this file's initial content, one per internal zone (NYC Metro & New Jersey; Southern New England; Northern New England), following the same parallel-subagent-plus-hand-merge pattern used for `us.md`'s original buildout. Each pass read `country-file-schema.md`, `us.md`, and `uruguay.md` first, and was instructed to pull forward (not re-research) any dish content `us.md` already pointed to this file, research genuinely new dishes/environment detail for its assigned zone, and write a standalone scratch draft for hand review rather than edit any KB file directly.
 - All three passes disclosed the same WebFetch/network-egress access limitation as every prior research round on this project; all citations rely on WebSearch excerpting.

@@ -85,6 +85,55 @@ Appalachia clears the "would swapping this region's norms into a neighboring reg
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. The general Southern church homecoming and dinner on the grounds is in `us-south.md`; this file keeps its overlap discipline and adds only the Appalachian forms. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** Appalachian large gatherings are mostly community work-and-feast days tied to the land and to kin: the spring ramp supper, the summer Decoration Day at a family cemetery, the autumn apple-butter stirring. They happen at a church, a fire hall, a school gym or a family homeplace rather than in a suburban backyard; tables are long, the food is covered-dish or cooked in quantity by volunteers, and plates are paper or the plain fellowship-hall china. People travel long distances "home" for these days, so the crowd is extended kin of every age. [EDITORIAL, grounded in the sources in each entry] A wedding note: lore says mountain wedding guests each brought a layer for the bride's apple stack cake (see catalog: **Apple stack cake**); sources repeat it but flag it as possibly just a story [LOW — Salon, AnnArbor.com, Appalachian History]; do not present it as fact.
+
+#### Celebration: Decoration Day and dinner on the grounds
+- Type: community or family gathering (yearly, per cemetery)
+- When: usually a Sunday between May and August (often June); the meal follows the morning's grave cleaning and decorating and a service. Intake time of day: **midday**, outdoors under trees.
+- Gathering: extended families and the church community, with relatives travelling hundreds of miles; it works as an extended family reunion [HIGH — Wikipedia: Decoration Day (tradition), citing the Smithsonian Center for Folklife & Cultural Heritage; Alan and Karen Jabbour's *Decoration Day in the Mountains* (UNC Press); West Virginia Watch]. ~30 to 150 at a small church or family cemetery [EDITORIAL]. Venue: other (church grounds or a family cemetery's picnic area: long tables or tablecloths under trees, a shelter).
+- The spread: covered dishes from every family in large quantities, the same core as the Southern dinner on the grounds (`us-south.md`), with the Appalachian menu content this file documents: fried chicken, ham, soup beans (see catalog: **Soup beans**), leather britches (see catalog: **Leather britches beans**), potato salad, deviled eggs, sliced garden tomatoes and cucumbers, cast-iron cornbread (see catalog: **Appalachian skillet cornbread**), fried apple pies (see catalog: **Fried apple pie**), stack cake and cobblers [MEDIUM — TRUSTED CONTENT church-dinner sources; the garden-vegetable detail is EDITORIAL]. Vessels: glass casseroles with foil, cast-iron skillets, Tupperware, cake carriers.
+- Snapshot staging:
+  - **1 setting:** a paper plate at a long outdoor table: a piece of fried chicken, a spoon of soup beans, leather britches, a wedge of cornbread, a slice of tomato. In frame: the covered-dish table soft behind with many dishes, a cast-iron skillet of cornbread at the edge. Cues: tablecloths of different patterns joined end to end; dappled tree shade.
+  - **2 settings:** two identical plates; a fried-pie plate and a cake carrier between them. Cues: the table running out of frame; blurred relatives of different ages behind.
+  - **Small group (3 to 4 settings):** a stretch of the long table with identical plates and 3 to 4 dishes in the centre, cropped. Cues: a small white wooden church or shelter soft in the background; folding chairs and lawn chairs mixed; green hills behind.
+- Decor and cues: plain tablecloths, a picnic shelter, mountain hills and hardwood trees. Clichés to avoid: a "hillbilly" register (overalls and bare feet, moonshine jugs), a run-down setting.
+- Never stage: graves, headstones, the decorated cemetery or flowers on graves in frame with the product (a memorial; stage only the meal at the tables, with the cemetery entirely out of frame); the service or singing; alcohol.
+- Confidence and sources: tradition [HIGH — Smithsonian via Wikipedia, Jabbour (UNC Press), West Virginia Watch]; menu [MEDIUM]; headcount [EDITORIAL].
+
+#### Celebration: Spring ramp supper (ramp feed)
+- Type: community or family gathering (yearly, spring)
+- When: March to May, when ramps come up; usually a Saturday or Sunday midday or early-evening dinner. Intake time of day: **midday** or early **evening** in a hall.
+- Gathering: a town, fire department, church, school or civic club cooking for paying guests as a fundraiser, ~100 to several hundred over the day (Richwood, WV's Feast of the Ramson is a long-running example) [MEDIUM — Richwood Chamber of Commerce and the catalog's ramp sources; headcount EDITORIAL]. Venue: other (fellowship hall, school cafeteria or gym, fire hall).
+- The spread: see catalog: **Ramps (wild leeks)** for the plate (ramps fried with potatoes, pinto beans, cornbread, ham or bacon) and its composition block. Served cafeteria-style from a kitchen pass on to plain plates at long tables; desserts from a bake table (fried apple pies, stack cake, sheet cakes).
+- Snapshot staging:
+  - **1 setting:** one plate per the catalog's prompt-ready line (ramps and potatoes, a bowl of beans, cornbread, a ham slice) at a long table with a paper or plastic cover. In frame: a raw ramp bunch on the table and the edge of the next identical plate. Cues: the long table runs out of frame; a serving window with steam soft behind.
+  - **2 settings:** two identical plates side by side, a shared plate of cornbread wedges and a bowl of chopped raw ramps between them. Cues: rows of tables in a gym or hall behind; volunteers in aprons blurred.
+  - **Small group (3 to 4 settings):** a stretch of long table with identical plates, a pitcher of water and a dessert plate with fried pies at one end. Cues: more tables receding, folding chairs; a basket of fresh ramps at a sale table at the edge.
+- Decor and cues: plain institutional hall, paper table cover, styrofoam or plain white plates, a hand-lettered sign (not legible). Clichés to avoid: jokes about ramp smell rendered as visual gags, a "hillbilly" theme.
+- Never stage: alcohol; legible organisation names.
+- Confidence and sources: [MEDIUM-HIGH — Ramps catalog sources, Richwood Chamber of Commerce]; headcount [EDITORIAL].
+
+#### Celebration: Apple-butter stirring
+- Type: community or family gathering (yearly, autumn)
+- When: September to November; an all-day cook (8 to 12 hours of stirring over a wood fire), with a shared midday meal while the kettle cooks. Intake time of day: **midday** or **golden-hour** with fire and steam.
+- Gathering: extended family in a backyard, or churches, schools and clubs making apple butter for a fundraiser; children and elders taking turns at the paddle [HIGH — Washington Post (via Roanoke Times), ETSU News, West Virginia Gazette-Mail, Wikipedia: Apple butter]. ~10 to 40 [EDITORIAL]. Venue: home outdoor (backyard or homeplace) or other (church grounds, a festival).
+- The spread: the apple butter itself, dark mahogany-brown, glossy and thick, in a large copper kettle over a wood fire, later ladled into rows of glass jars; served on biscuits or cornbread. The shared meal is plain and made in quantity: a pot of soup beans or chili, cornbread, sandwiches, and pies [MEDIUM — the meal component is EDITORIAL; the stirring is HIGH]. **Apple butter** has no catalog entry: a dense, spreadable, near-opaque dark-brown purée with a soft sheen, spooned thickly onto a split biscuit or cornbread wedge; jars ~10–12 cm tall (just under the can's height) glow amber when backlit (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** at a picnic table near the fire: a bowl of soup beans, a wedge of cornbread spread thickly with apple butter. In frame: a row of filled apple-butter jars partly cropped. Cues: the copper kettle and long wooden paddle soft at the frame edge with steam; autumn leaves.
+  - **2 settings:** two identical bowls and cornbread wedges; between them an open jar of warm apple butter with a spoon and a plate of biscuits. Cues: a figure stirring in soft silhouette; woodsmoke.
+  - **Small group (3 to 4 settings):** a stretch of picnic table with identical place settings, a bean pot and a tray of jars in the middle, cropped. Cues: crates of apples and a peeling station soft behind; more people around the kettle (blurred).
+- Decor and cues: a large copper kettle on an iron tripod over a wood fire, long wooden paddle, bushel baskets of apples, autumn hardwoods. Clichés to avoid: a moonshine still (a common visual confusion with copper kettles; never), costume pioneer dress.
+- Never stage: alcohol or any still; children close to the open fire with the product in hand.
+- Confidence and sources: stirring tradition [HIGH]; meal and headcount [EDITORIAL].
+
+**Sources for this section:** [Wikipedia — Decoration Day (tradition)](https://en.wikipedia.org/wiki/Decoration_Day_(tradition)); [Jabbour and Jabbour — Decoration Day in the Mountains (UNC Press, via Google Books)](https://books.google.com/books/about/Decoration_Day_in_the_Mountains.html?id=B2LhWYZsUvAC); [UNC Press Blog — What is Decoration Day?](https://uncpressblog.com/2010/05/27/what-is-decoration-day/); [West Virginia Watch — Decoration Day](https://westvirginiawatch.com/2024/05/27/bearing-flowers-and-tradition-the-next-generation-takes-on-the-duty-of-decoration-day/); [Roanoke Times / Washington Post — Appalachia's community apple-butter parties](https://roanoke.com/washingtonpost/features/peel-chop-and-stir-for-hours-how-appalachias-beloved-community-apple-butter-parties-live-on/article_defa1ad4-cc0f-5745-9d7e-b6cc221b4b50.html); [ETSU News — Apple butter exhibit](https://news.etsu.edu/articles/etsu-exhibit-explores-apple-butter); [Wikipedia — Apple butter](https://en.wikipedia.org/wiki/Apple_butter); [Salon — Apple stack cake folklore](https://www.salon.com/2022/10/15/the-autumnal-apple-stack-cake-is-rich-in-flavor-and-appalachian-folklore/); [Appalachian History — Dried apple stack cake](https://www.appalachianhistory.net/2017/10/stack-cake.html); [Richwood Chamber of Commerce — Feast of the Ramson](https://www.richwoodchamberofcommerce.org/feast-of-the-ramson).
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Soup beans (pinto beans)
@@ -266,6 +315,8 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 
 ## GAP LOG
 
+- **Celebrations pass (2026-10-01) open items:** headcounts for Decoration Day, ramp suppers and apple-butter stirrings are editorial; the Decoration Day menu's Appalachian items and the apple-butter day's shared meal are inferred from this file's church-dinner sources and common practice; the stack-cake wedding-layer custom is lore, possibly apocryphal.
+
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted this pass** — en.wikipedia.org, wvpublic.org, and others all returned blocked. Every citation to these domains was sourced from a WebSearch result snippet, not a full page read.
 - **Single-zone-vs-multi-zone triage for this file is a judgment call from one research pass, not an exhaustively validated conclusion** — a Central Appalachia (WV/eastern KY) vs. Southern Appalachia (western NC/northern GA) internal split is plausible and was not ruled out, only not found with strong-enough distinct evidence this pass to justify building it.
@@ -279,6 +330,8 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 celebrations pass:** apple butter (with biscuit or cornbread).
+
 1. A dedicated research pass on northern Georgia/Alabama's Appalachian-coded mountain counties specifically, to confirm or rule out whether they carry distinct-enough content to earn their own callout within this file.
 2. A dedicated pass testing whether Central Appalachia (WV/eastern KY coalfields) and Southern Appalachia (western NC/northern GA, Blue Ridge/Smokies) clear the "would swapping norms look wrong" bar for an internal zone split.
 3. A stronger, higher-tier source for the cornbread sugar/no-sugar Ohio-River-line framing.
@@ -288,6 +341,8 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 7. Add West Virginia's slaw dog to `us.md`'s national hot dog entry as a fifth named regional style alongside Chicago, Coney/Michigan, Sonoran, and NY cart dog.
 
 ## RESEARCH LOG
+
+- **2026-10-01 celebrations pass (schema §5.7):** 3 searches (Decoration Day, apple-butter stirring, stack-cake wedding lore). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: Decoration Day and dinner on the grounds, spring ramp supper, apple-butter stirring; general church homecoming points to `us-south.md`. Search snippets only.
 
 - **2026-09-24, single research pass** built this file's entire initial content, following `country-file-schema.md`'s methodology and using `us.md`, `us-northeast.md`, and `us-mid-atlantic.md` as structural/depth models. This file departs from those files' internal-zone structure per an explicit single-zone finding — see FILE ROLE & METHOD above.
 - All citations rely on WebSearch's own result snippets/excerpting; WebFetch was blocked by network egress for every domain tried, consistent with every prior research round on this project.
