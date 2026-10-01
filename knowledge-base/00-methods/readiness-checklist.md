@@ -30,6 +30,14 @@ unless checked — this is a gap list, not a status report of what's done.
   human decision on apartheid-era sensitivity, not a research gap
 
 ### A2. Cross-market standing gaps
+- [ ] **Game night (schema §5.8)** — first pass written 2026-10-01 for
+  every country and US regional file (watch parties and social game
+  nights, about 120 entries), built from a 45-search cross-market study
+  (`/mnt/project-files/knowledge-base/scenario-coverage/game-night-report.md`).
+  Needs SME review; most viewing foods, kick-off times and all of Uruguay
+  are unverified. Reviewer flags: Old Firm (Celtic–Rangers) imagery
+  banned in uk-scotland.md on sectarian grounds; Midwest euchre entry is
+  model knowledge only.
 - [ ] **Celebrations & large gatherings (schema §5.7)** — first pass
   written 2026-10-01 for every country and US regional file (about 180
   entries). Needs SME review per market; most headcounts are editorial
