@@ -3237,3 +3237,21 @@ TCCC spec drop and Fernando's OK).
    in place so cross-references resolve) and its two scenario lines no
    longer put mate in the default frame; `argentina.md`'s gap-log item
    marked resolved.
+
+## Fernando's direction on scenario coverage, 2026-10-01
+
+Following the dining-scenario coverage audit
+(`/mnt/project-files/knowledge-base/scenario-coverage/`):
+1. **Breakfast**: "Disregard breakfast." The breakfast back-fill proposed in
+   the audit is dropped; existing Morning Modules stay as they are (off by
+   default) and US, UK, Germany and Uruguay get none.
+2. **Celebrations**: included, with the same depth ("this sort of double
+   click") across all regions. New schema §5.7 and a mandatory
+   CELEBRATIONS & LARGE GATHERINGS section in every country file.
+3. **Party size**: "include information about large gatherings or family
+   type events while recognizing that our visual would capture a snapshot
+   of the festivities where we might see a large tablescape but only a few
+   place settings for our group. We can infer that there is a larger
+   gathering than the number of people visualized." Codified as the §5.7
+   snapshot rule: party size = place settings in frame; the gathering is
+   implied by table, spread and background cues.

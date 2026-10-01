@@ -116,6 +116,8 @@ One file per country: `knowledge-base/02-culture/regions/{ou}/{country}.md`.
      ingredient-level facts above it don't, by themselves, tell you what a
      photo should look like.
    - **ENVIRONMENT & STAGING SCENES** — see §5.
+   - **CELEBRATIONS & LARGE GATHERINGS** — see §5.7. Mandatory in every
+     country file, directly after the festivals register.
    - **Dish catalog** (called "DISH CATALOG" for a single-file country,
      "TOP DISHES" or similar for a national index file) — see §4.
 5. **GAP LOG** — explicit, honest listing of what's unresolved, thin, or
@@ -453,6 +455,75 @@ as **mate** is documented as a beverage/ritual (ICONIC BEVERAGES or an
 equivalent section), not as a dish entry. It is not part of the default
 frame beside the hero (it is another drink); stage it only when a brief
 asks for the ritual.
+
+### 5.7 Celebrations and large gatherings: the snapshot rule
+
+Standing rule, set by the reviewer 2026-10-01. Celebrations get the same
+depth as everyday meals in every market, and party size is read as **the
+place settings in frame, not the size of the gathering**.
+
+- **The image is a snapshot of a bigger event.** A wedding, a Christmas
+  Eve dinner, an owambe or a Sunday asado can have 10 to 200 people. The
+  frame shows only the operator's party (1, 2 or a small group of place
+  settings) at one end or one stretch of a large table. The larger
+  gathering is **implied**, never counted out in place settings.
+- **How the frame implies the crowd** (use two or three cues, not all):
+  the table runs out of frame on one or both sides; more shared serving
+  vessels than the visible diners could eat from (the feast spread),
+  partly cropped; a second table or buffet line soft in the background;
+  decorations specific to the occasion; blurred guests behind, within the
+  background-people limit (no more than about 2.5 faces, none sharp);
+  extra chairs, stacked plates or a serving station at the edge.
+- **What stays the operator's party.** Every visible place setting is
+  identical (same plated portion, same SKU, same glass rule), exactly as
+  in an everyday scene. Shared platters belong to the whole table and are
+  not counted as anyone's plate. The tablescape composer's `feast-spread`
+  archetype is the layout for this.
+- **Product format.** The brief still dictates the SKU (§5.4). When the
+  brief allows a multi-serve bottle, the implied gathering justifies the
+  larger sizes in `coca-cola-guidelines.md` §4.4 (2.5 L to 3 L for a
+  festive spread), placed in the midground of the visible stretch.
+- **Every country file carries a CELEBRATIONS & LARGE GATHERINGS
+  section**, placed directly after the FESTIVALS & SEASONAL OCCASIONS
+  register (which stays as the short calendar index). It holds:
+  1. **How large gatherings work here**: who gathers, typical size, where
+     (home indoors, yard or roof, rented hall, restaurant private room,
+     street or community space), table form (one long table, round
+     tables, a buffet, a floor spread, a mat), who serves, the serving
+     style (family-style platters, buffet, sequential courses, a single
+     communal pot), and the cutlery and plate norms that differ from an
+     everyday meal.
+  2. **One entry per celebration**, covering calendar holidays, life
+     events (birthdays, weddings, baptisms, coming-of-age, graduations,
+     religious milestones) and recurring community or family gatherings
+     (the Sunday family lunch, a neighbourhood fiesta). Each entry uses
+     the template below.
+- **Out of scope**: drinking-led events or the drinking part of an event
+  (toasts, open bars, beer festivals) are never staged; religious rites
+  themselves (altars, prayer, processions) are never the scene; staging
+  stops at the meal around them, per the existing sensitivity rules in
+  each file.
+
+Celebration entry template:
+
+```
+#### Celebration: <name> (<local name>)
+- Type: calendar holiday | life event | community or family gathering
+- When: date or season; meal time and the intake time of day
+  (midday | golden-hour | evening)
+- Gathering: who, typical headcount, where (map to intake venue and
+  setting: home indoor/outdoor, restaurant, other)
+- The spread: centrepiece dish(es) and the shared dishes around it, each
+  linked to its DISH CATALOG entry where one exists; serving vessels;
+  how many serving dishes a real table carries
+- Snapshot staging: for 1, 2 and a small group of place settings, what
+  is in frame (the visible stretch of table, which shared vessels, the
+  plated portion per setting) and which cues imply the wider gathering
+- Decor and cues: authentic details; clichés to avoid
+- Never stage: sensitivities, alcohol, religious imagery, legible flags
+  or crests
+- Confidence and sources
+```
 
 ---
 
