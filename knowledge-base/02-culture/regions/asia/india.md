@@ -1105,6 +1105,238 @@ hero, no religious ritual in frame.
 - Confidence and sources: [EDITORIAL], built on the existing scenario;
   the Sunday-mutton habit [LOW].
 
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8: two meanings, watching sport together
+and social game nights. Every India hard rule applies unchanged: the
+veg/non-veg decision comes from the brief (vegetarian when unspecified),
+no beef, no pork outside a briefed Northeast/Goa/Coorg context, nothing
+held in a hand, no chai/lassi/water tumbler beside the hero, no
+religious ritual in frame. Screens, cards and boards are never legible;
+no team crests, kits, sponsor marks or league logos; no gambling as the
+subject. The snapshot rule (§5.7) sets party size.
+
+### Watch parties
+
+Cricket is the watch-party sport in India by a wide margin: IPL 2025
+drew 137 crore views on JioHotstar and its final 892 million, and the
+India–Pakistan Champions Trophy match in February 2025 drew 60.2 crore
+views [HIGH — Business Standard, myKhel]. The meal sits mostly **at
+home** (living room, rooftop or terrace), with cafés screening on a
+projector as the public form; the signature viewing foods are samosa,
+pakora, chaat, pav bhaji, namkeen bowls, a biryani handi and pizza
+delivery, with masala chai as the authentic but out-of-frame drink
+[MEDIUM — Swiggy Diaries, India Food Network]. Pro Kabaddi is the
+second-biggest league and uses the same living-room spread [MEDIUM —
+prokabaddi.com/BARC]. Football is low outside the World Cup; Kerala, West
+Bengal and Goa have real World Cup screening cultures, but they are not
+verified this pass and Kerala's viewing food (parotta with beef fry) is
+beef-gated by hard rule 2, so no entry is given [LOW — not verified].
+Existing line: the Cricket bullet in the FESTIVALS register
+(`india.md:779-781`), which this section expands.
+
+#### Watch party: IPL evening match
+
+- When: late March to May (the existing festivals register gives the
+  season). Evening games start ~19:30 IST, so intake **evening** (into
+  late evening, ~23:00 finish); weekend double-header afternoon games at
+  15:30 IST are **golden-hour** [LOW — not verified, start times from
+  model knowledge; season per the festivals register]. The final (late
+  May or early June) is the party night.
+- Gathering: family in the living room, or 4–8 friends at someone's flat;
+  for the final, a rooftop or terrace party, or a café with a projector
+  [MEDIUM — Swiggy Diaries, Haier India via the research notes]. Intake
+  venue: *home indoor* (living room), *home outdoor* (terrace/chhat), or
+  *restaurant* (café screening).
+- The spread: a newspaper- or paper-lined steel tray of **pakoras**
+  (onion bhaji, mixed-veg fritters), **samosas** with green and tamarind
+  chutney in small katoris (see catalog: Samosa), a bowl of **namkeen**,
+  **bhel puri** or papdi chaat in a steel bowl (see catalog: Papdi chaat
+  and bhel puri), **pav bhaji** in a wide pan or steel bowls with a stack
+  of buttered pav (see catalog: Pav bhaji); a delivery pizza box or two,
+  lid open; for a non-veg brief, a biryani handi (see catalog: Hyderabadi
+  dum biryani) or kathi rolls in paper (see catalog: Kathi roll)
+  [MEDIUM — Swiggy, India Food Network for the menu; vessels EDITORIAL].
+  Melamine or steel quarter plates stacked beside the snacks.
+- Surface and environment: the **low centre table** (glass-top or wooden)
+  in front of a sofa, cushions on the floor for the overflow, a rug; the
+  TV is a soft green-and-white glow on the wall unit; a **ceiling fan**
+  overhead; tube light or a warm floor lamp at night. On the terrace:
+  plastic chairs, a folding table, string lights, a projector sheet as a
+  pale blurred rectangle. What reads as India: the steel katoris of
+  chutney, the newspaper under the pakoras, the ceiling fan, the
+  sofa facing a wall-mounted TV unit in a city flat.
+- Snapshot staging: **1 setting**: one quarter plate with two pakoras, a
+  samosa and a dab of green chutney on the centre-table corner; the
+  pakora tray and chutney katoris cropped at the edge; hero beside the
+  plate; the TV glow soft behind. **2 settings**: two identical plates
+  side by side on the sofa side of the table, the shared pakora tray and
+  bhel bowl between them, a pizza box cropped at the frame edge.
+  **Small group (3–4)**: the full centre table with tray, two chutney
+  katoris, a pizza box and a pav bhaji pan running out of frame, a 2 L
+  PET in the midground if the brief allows a multi-serve bottle. Crowd
+  cues: the sofa running out of frame, two backs of heads soft toward the
+  screen, extra floor cushions, more plates stacked than the visible
+  diners need.
+- Never stage: team jerseys, IPL or franchise marks, sponsor logos, a
+  legible score bug or channel logo on the screen; fantasy-cricket or
+  betting apps on a phone (heavily advertised, gambling-adjacent; India's
+  2025 online-gaming law banned real-money gaming [LOW — not verified]);
+  beer or whisky-cola (IPL house parties often have it; see ICONIC
+  BEVERAGES); chai in a glass or the water tumbler beside the hero;
+  a non-veg dish without a non-veg brief.
+- Confidence and sources: scale [HIGH — Business Standard, myKhel];
+  home/rooftop/café format and menu [MEDIUM — Swiggy Diaries, India Food
+  Network, Haier India]; kick-off times [LOW — not verified]; staging
+  [EDITORIAL].
+
+#### Watch party: India international match (India–Pakistan, ICC tournaments)
+
+- When: ICC tournaments (Champions Trophy, T20 and ODI World Cups) and
+  bilateral series, any month; an India–Pakistan match is the single
+  biggest viewing night of the year. Start times depend on the host
+  country: day-night ODIs and T20s usually start 14:00–19:30 IST, so
+  **golden-hour** into **evening**; a Test is daytime (**midday**)
+  [LOW — not verified, model knowledge]. India-host games played in the
+  evening are the default scene.
+- Gathering: the extended family around the living-room TV, 6–15 people,
+  with neighbours dropping in; the closest Indian analogue to the
+  Pakistani family-and-biryani viewing documented by Al Jazeera [HIGH for
+  Pakistan, Al Jazeera Feb 2026; India by analogy, EDITORIAL]. Intake
+  venue: *home indoor*.
+- The spread: a bigger version of the IPL table, closer to a festival
+  meal: a **biryani** handi or deg as centrepiece for a non-veg brief
+  (see catalog: Biryani regional variants — index), or a veg pulao,
+  chole with puri or pav bhaji for a veg brief; raita in a bowl; the
+  pakora tray and samosas; a box of mithai opened for a win (see
+  catalog: Compact sweets) [MEDIUM for snacks, Swiggy; biryani as the
+  India centrepiece LOW — not verified for India, HIGH for Pakistan].
+- Surface and environment: the centre table plus the dining table pulled
+  close to the sofa, serving bowls on the dining table edge; TV glow,
+  ceiling fan, evening light through curtains. Optional cue: a cropped
+  saffron-white-green paper streamer or bunting edge soft in the
+  background (never a full flag, never a team kit).
+- Snapshot staging: **1 setting**: one steel thali or plate with a
+  portion of biryani (or pulao) and raita at the dining table edge
+  nearest the TV, the handi lid off and cropped beside it. **2
+  settings**: two identical plates, the handi between them, the pakora
+  tray behind. **Small group (3–4)**: the dining-table end with the handi,
+  raita, two snack trays and a mithai box running out of frame; hero
+  per brief in the midground. Crowd cues: chairs turned toward the TV,
+  blurred relatives on the sofa (at most ~2.5 faces, none sharp), more
+  serving bowls than the visible diners could empty.
+- Never stage: political imagery, burnt or defaced flags, any full flag
+  (of India or Pakistan); team jerseys with sponsors or ICC marks;
+  betting or fantasy apps; alcohol; chai or the water tumbler beside the
+  hero; non-veg food without a non-veg brief.
+- Confidence and sources: scale [HIGH — Business Standard]; India–Pakistan
+  T20 WC 2026 record [MEDIUM — Yardbarker]; family-and-biryani format
+  [HIGH for Pakistan, Al Jazeera; EDITORIAL for India]; times [LOW].
+
+#### Watch party: Pro Kabaddi evening
+
+- When: the league runs roughly July/August to October with evening
+  matches [LOW — not verified]; intake **evening**.
+- Gathering: the household, 2–5, in the living room; a smaller, more
+  everyday occasion than cricket. Intake venue: *home indoor*.
+- The spread: the same living-room snack spread as cricket: pakoras,
+  samosas, namkeen, a plate of dhokla in the West (see catalog: Dhokla),
+  vada pav in Mumbai (see catalog: Vada pav) [MEDIUM for "same spread",
+  research notes; dish choice EDITORIAL].
+- Surface and environment: the centre table and sofa, TV glow, ceiling
+  fan; monsoon-season cues work (rain-streaked window, damp evening
+  light) since the season overlaps the monsoon [EDITORIAL].
+- Snapshot staging: as the IPL entry, scaled down: **1 setting** a
+  quarter plate of pakoras with a chutney katori; **2 settings** two
+  plates and one shared tray; **small group** the centre table with two
+  trays. Crowd cue: the sofa running out of frame.
+- Never stage: team kits, league logos, a legible screen; fantasy or
+  betting apps; alcohol; chai beside the hero.
+- Confidence and sources: scale (Season 10 225 million viewers) [MEDIUM —
+  prokabaddi.com, Middle East Bulletin]; season and times [LOW — not
+  verified]; staging [EDITORIAL].
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. Basis:
+Diwali card parties (teen patti) are a widely reported custom but
+gambling-coded [MEDIUM — HT City 2019, consistent with the Diwali
+celebration entry]; ludo and carrom are household games across South
+Asia [MEDIUM — Financial Express BD, a Bangladeshi source, applied to
+India by the research notes]; antakshari (the family sing-along) and
+friends' mobile-gaming nights are real but unsourced [LOW — not
+verified], so they get no entry. India has no weekly "game night" habit
+comparable to the US or Germany; games sit inside family gatherings.
+
+#### Game night: Diwali card evening (teen patti), staged as the sweets-and-snacks table
+
+- When: the evening of Diwali and the nights before it (October–November;
+  29 Oct 2027) [MEDIUM — HT City]; intake **evening** (~21:00–late), lit
+  by diyas and string lights.
+- Gathering: relatives and family friends at a house party, often 8–20,
+  playing in circles of 4–6 on the floor or round a table [MEDIUM for the
+  custom; headcount EDITORIAL]. Intake venue: *home indoor*.
+- The spread: an opened **mithai box** and a mithai platter (see catalog:
+  Diwali mithai spread; Compact sweets), **namkeen** and dry-fruit bowls,
+  samosas (see catalog: Samosa), chakli, with chai doing the rounds
+  [MEDIUM — research notes]. Serving: a steel or glass platter, small
+  bowls, paper napkins.
+- Surface and environment: a white sheet (chadar) spread on the floor or
+  a low table with cushions round it, or the dining table cleared of
+  dinner; diyas on the sill out of focus, string lights, a marigold
+  toran; new clothes on blurred figures. Cards are a soft fanned shape
+  face-down at the far edge, never the subject.
+- Snapshot staging: **1 setting**: a small plate with two pieces of kaju
+  katli and a few namkeen on the floor-sheet corner, the mithai box
+  cropped beside it, the hero on a coaster; a face-down blurred deck far
+  behind. **2 settings**: two identical plates side by side, the platter
+  and namkeen bowl between them. **Small group (3–4)**: the low table
+  with platter, two bowls, an open mithai box, a multi-serve bottle in
+  the midground if the brief allows. Crowd cues: more cushions than
+  visible people, a second circle soft in the background, string-light
+  bokeh.
+- Never stage: money, chips, coins, a "pot", or cards turned to show a
+  hand (teen patti is usually played for stakes; the Diwali celebration
+  entry already rules out "card games with money"); alcohol (Diwali card
+  parties often have it); the puja altar or deity images; chai beside the
+  hero. This is a **food-led, alcohol-free, no-stakes** form only; if a
+  brief wants the card game as the subject, do not stage it.
+- Confidence and sources: custom [MEDIUM — HT City via PressReader 2019];
+  menu [MEDIUM — research notes, consistent with the Diwali entry];
+  staging [EDITORIAL]. See also Celebration: Diwali family dinner.
+
+#### Game night: Family ludo or carrom at home
+
+- When: weekend afternoons and evenings, school holidays, monsoon days
+  indoors; intake **golden-hour** or **evening** [MEDIUM for the
+  household habit, South Asian source; timing EDITORIAL].
+- Gathering: 2–4 players across generations, with a couple of onlookers;
+  *home indoor* (living room, a bedroom floor) or the verandah/terrace
+  (*home outdoor*).
+- The spread: pakoras on a newspaper-lined steel plate, samosas, a bowl
+  of namkeen or bhel, chai for the adults [MEDIUM — research notes give
+  pakora, samosa, chaat, chai for South Asia]. Food sits on a side stool
+  or the floor beside the board, never on it.
+- Surface and environment: a **carrom board** (square wooden board with
+  corner pockets, pale powdered surface, round wooden pieces) on its
+  stand or on the floor; or a plain cloth or folded ludo board (generic
+  cross pattern, no printed brand) on a low table; afternoon light
+  through a window, a ceiling fan.
+- Snapshot staging: **1 setting**: a plate of two pakoras and a chutney
+  katori on a stool beside the carrom board's corner, hero beside it.
+  **2 settings**: two plates on a side table between two chairs facing
+  the board. **Small group**: the board in soft focus with the snack
+  plate and a namkeen bowl on a side stool; the third and fourth sides of
+  the board cut by the frame. Crowd cues: an empty chair at the board's
+  far side, a blurred onlooker behind.
+- Never stage: a branded board (Ludo King styling or any printed logo),
+  a phone screen showing a ludo app, money on the board, chai beside the
+  hero; no identifiable children (implied only: a small chair far behind,
+  out of focus).
+- Confidence and sources: ludo/carrom as household games [MEDIUM —
+  Financial Express BD, a Bangladeshi source applied to India; India
+  scale (including Ludo King) not searched]; staging [EDITORIAL].
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2699,6 +2931,15 @@ Up 300 mL cans, as named by the brief):**
   Ashtami vegetarianism and the "Sunday mutton" habit were not verified;
   wedding plate and buffet-line visuals need image tests.
 
+- **Game-night pass (2026-10-01) open items**: IPL, Test and
+  India–Pakistan start times and the Pro Kabaddi season are model
+  knowledge, not verified; biryani as the India–Pakistan centrepiece is
+  verified only for Pakistan (Al Jazeera) and assumed for India; the
+  ludo/carrom source is Bangladeshi; Kerala/Bengal/Goa World Cup
+  screenings, antakshari, friends' gaming nights and Ludo King scale were
+  not searched; the 2025 real-money online-gaming ban is model knowledge.
+  No WebSearch was run in this pass.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) keep India as one file with nine zones,
@@ -2732,6 +2973,13 @@ Up 300 mL cans, as named by the brief):**
    **Tamil kalyana sappadu** as its own leaf layout (currently pointed at
    South Indian meals), and the **birthday cream cake** (eggless bakery
    cake, piped cream, roughly three cans wide).
+
+9. Game-night pass: catalog entries for **pakora / bhajia** (onion and
+   mixed-veg fritters, craggy golden-brown clusters ~5 cm on a
+   newspaper-lined steel tray with green chutney), **namkeen bowl**
+   (the savoury mix as a standalone snack, currently only inside the
+   Diwali mithai spread), and **chakli / murukku** (spiral fried snack,
+   West and South).
 
 ## RESEARCH LOG
 
@@ -2769,3 +3017,4 @@ Up 300 mL cans, as named by the brief):**
   only as corroboration or ignored.
 - **No subagents were used.**
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding guest count and catering; Tamil wedding banana-leaf feast; Diwali dinner menu; Eid ul-Fitr India menu and visits; Durga Puja eating out in Kolkata; children's birthday party menus). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (Diwali, Eid ul-Fitr, Onam sadya, Durga Puja, wedding, birthday, Sunday family lunch). Sources are mostly tier 3–4 (WeddingWire India, EazyDiner, Agoda, recipe sites) plus Gulf News; headcounts are editorial.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 3 watch-party entries (IPL evening, India international/India–Pakistan, Pro Kabaddi) and 2 social game-night entries (Diwali card evening staged as the sweets table, family ludo/carrom); popularity rated medium.

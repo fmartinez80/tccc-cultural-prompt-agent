@@ -981,6 +981,239 @@ strongest prior of all.
 - Never stage: tea; a teapot on the table; baijiu.
 - Confidence and sources: [EDITORIAL], built on the existing scenarios.
 
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8: two meanings, watching sport together
+and social game nights. Every China hard rule applies unchanged: own
+rice bowl per diner where rice is served, chopsticks never upright,
+halal tables stay halal, no tea, herbal tea or sour-plum drink beside
+the hero, no legible characters, no flags or political set-dressing.
+**Beer is the strongest prior in every scene in this section** (shaokao,
+crawfish, mahjong evenings, KTV): negate it by name every time. Screens,
+cards and tiles are never legible; no team crests, kits, sponsor marks or
+league logos; no gambling as the subject. The snapshot rule (§5.7) sets
+party size.
+
+### Watch parties
+
+Football tournaments are the big watch-party occasion, and because
+European and North American matches land between late evening and
+morning in China, they drive a **late-night eating economy**: during the
+2026 World Cup, venues stayed open to 6 am, crawfish takeaway surged and
+restaurants' dine-in viewing packages rose about 80% [HIGH — China
+Daily Jul 2026, Asia News Network, Global Times]. China Daily describes
+"eating skewers, drinking Coke and watching soccer" as everyday life in
+the season [HIGH — China Daily]. The two stageable forms are the
+**shaokao (skewer) restaurant with a big screen** and **takeaway at home
+in front of the TV**; signature foods are lamb and chicken-wing skewers
+on stainless trays, a big bowl of spicy crawfish, and sunflower seeds.
+Basketball (CBA and NBA) is a second, home-based format, medium-high but
+unverified [LOW — not verified]. Existing lines: the shaokao scene
+register (`china.md:222`), the STREET FOOD register skewers bullet
+(`china.md:658-660`) and the beer note in ICONIC BEVERAGES
+(`china.md:373-380`); this section builds on them.
+
+#### Watch party: Late-night football at a shaokao restaurant (World Cup, Euros, Champions League)
+
+- When: summer tournaments (World Cup and Euros, June–July, even years)
+  and the European club season (August–May). Kick-offs fall roughly
+  21:00–03:00 Beijing time, so this is a **late-night** scene: intake
+  **evening** with explicit late-night cues (dark street, neon, screen
+  glow), never golden hour [HIGH for the late-night economy and 6 am
+  venues, China Daily; kick-off arithmetic LOW]. A dawn final is the
+  only morning variant.
+- Gathering: 3–6 friends or colleagues, mostly young adults, at an
+  indoor shaokao restaurant with a projector or big TV, or at low tables
+  on the pavement outside with the screen visible through the shopfront
+  [HIGH for the format, China Daily; headcount EDITORIAL]. Intake venue:
+  *restaurant* (indoor) or *other: street-side tables*.
+- The spread: stainless trays of **lamb skewers** dusted with cumin and
+  chilli (see catalog: Yangrou chuan), grilled chicken wings, skewered
+  vegetables (garlic aubergine, chives, mushrooms), grilled buns or
+  mantou slices; a big bowl of **spicy crawfish** (麻辣小龙虾) with a
+  stack of disposable gloves; a small dish of sunflower seeds (瓜子) or
+  peanuts [HIGH for skewers and crawfish, China Daily; side dishes LOW —
+  not verified]. Skewer sticks pile up in a steel cup or on the table
+  edge as the count of what was eaten.
+- Surface and environment: a **low folding table** (often with a
+  disposable plastic cover) and red or blue **plastic stools**, or a
+  laminated restaurant table; neon and fluorescent light, a smoky haze
+  from the charcoal trough, the screen a large blurred green field on the
+  wall. What reads as China: the stainless skewer tray, the pile of
+  bare sticks in a cup, the plastic stools, the gloves beside the
+  crawfish bowl.
+- Snapshot staging: **1 setting**: a small plate with a few skewers laid
+  across it, the shared tray cropped beside it, a bare-stick cup, hero
+  on the table; the screen glow soft behind. **2 settings**: two plates
+  facing the screen side of the table, one tray of lamb skewers and the
+  crawfish bowl between them, gloves folded beside each plate.
+  **Small group (3–4)**: the full low table with two trays, the crawfish
+  bowl, a seed dish and the stick cup; a multi-serve bottle in the
+  midground if the brief allows. Crowd cues: a second table of blurred
+  backs of heads toward the screen (at most ~2.5 faces, none sharp),
+  empty stools stacked by the wall, more skewers than the visible diners
+  could finish.
+- Never stage: beer bottles on the table or crates on the floor (the
+  real norm; negate), baijiu; a legible screen, broadcaster bug, crest,
+  kit or league logo; menu boards or shop signs with readable characters;
+  betting apps or lottery (sports lottery is promoted around the World
+  Cup [LOW — not verified]); a full flag of any country. In a Hui or
+  Uyghur halal skewer restaurant, lamb and beef only: no pork belly
+  skewers and no beer cues (hard rule 4).
+- Confidence and sources: format, hours, skewers and the China Daily
+  phrase [HIGH — China Daily, Asia News Network, Global Times]; side
+  dishes, seeds and kick-off times [LOW]; staging [EDITORIAL].
+
+#### Watch party: Late-night football with takeaway at home
+
+- When: same calendar as above; late-night to pre-dawn matches watched
+  at home; intake **evening** with a deep-night cue (dark window, one warm
+  lamp, the TV glow) [HIGH for the takeaway surge, China Daily].
+- Gathering: a couple, 2–4 flatmates or friends, or a father and adult
+  son; *home indoor* (living room) [EDITORIAL].
+- The spread: delivery: a large **crawfish** tub or bowl (spicy or
+  garlic) with a box of gloves, a delivery bag of skewers (see catalog:
+  Yangrou chuan) laid out on their foil, fried chicken in a box, a bag
+  of sunflower seeds tipped into a dish with a second dish for shells
+  [HIGH for crawfish takeaway; the rest LOW — not verified].
+- Surface and environment: a **coffee table** (often glass-top or
+  wooden) in front of a fabric sofa, a newspaper or plastic sheet spread
+  under the crawfish, delivery bags on the floor (any printed app logo
+  or text blurred); the TV a soft green glow; one floor lamp; dark
+  window, city lights faint beyond.
+- Snapshot staging: **1 setting**: a pair of gloves and a small bone
+  dish of shells beside the crawfish bowl on the coffee table, hero next
+  to it, the TV glow behind. **2 settings**: two sets of gloves and two
+  shell dishes either side of the bowl, the skewer foil between them.
+  **Small group**: the coffee table covered, the sofa running out of
+  frame, a second delivery bag at the edge. Crowd cues: a third pair of
+  gloves, an extra cushion on the floor.
+- Never stage: beer cans (the norm at a crawfish night; negate), a
+  legible TV, delivery-app branding or receipts, a phone with a betting
+  or lottery screen, tea beside the hero.
+- Confidence and sources: crawfish takeaway surge [HIGH — China Daily,
+  Global Times]; other foods [LOW]; staging [EDITORIAL].
+
+#### Watch party: CBA or NBA basketball at home
+
+- When: the CBA season runs roughly October–April with evening games
+  (~19:35 local), intake **evening**; NBA games land on Chinese mornings
+  and are better staged as a CBA evening scene [LOW — not verified, model
+  knowledge; breakfast is out of scope].
+- Gathering: 2–4 friends or family; *home indoor* [LOW].
+- The spread: jiaozi (see catalog: Jiaozi) or a fried-chicken delivery
+  box, sunflower seeds, fruit [LOW — research notes, not verified].
+- Surface and environment: coffee table, sofa, TV glow (an orange-wood
+  court as a blurred field of colour), evening lamp light.
+- Snapshot staging: as the takeaway entry: **1 setting** a small plate
+  of jiaozi with a vinegar dish; **2 settings** two plates and one shared
+  plate; **small group** the coffee table with a delivery box running out
+  of frame.
+- Never stage: team jerseys, NBA/CBA marks, player names or numbers, a
+  legible screen; beer; tea beside the hero.
+- Confidence and sources: [LOW — not verified] throughout; flagged in the
+  GAP LOG.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Basis:
+mahjong is China's top tabletop game and central to Spring Festival
+[MEDIUM — Wikipedia "Mahjong culture", research notes]; KTV is shrinking
+(enterprises fell from about 120,000 in 2015 to 56,300, still a 7-billion-
+yuan market in 2024) and now skews to retirees and daytime sessions,
+while board-game cafés and **jubensha** (剧本杀, script-murder role-play)
+are taking its place for young people [HIGH — Xinhua 2025, China Daily
+2025]. Family poker (斗地主, dou dizhu) after the reunion dinner is real
+but unverified [LOW — not verified], so it gets no entry.
+
+#### Game night: Family mahjong (Spring Festival and everyday)
+
+- When: Spring Festival afternoons and evenings after the reunion meals
+  (6 Feb 2027), and everyday at weekends; intake **golden-hour** or
+  **evening**; mahjong parlours and teahouses run **midday** to evening
+  [MEDIUM — research notes].
+- Gathering: four players at the table with relatives watching; at home
+  (*home indoor*) or in a mahjong parlour or teahouse (*other*)
+  [MEDIUM].
+- The spread: on a **side table**, because the mahjong table is full: a
+  New Year candy tray (a round lidded tray with compartments), sunflower
+  seeds, peanuts, mandarins, a fruit plate; dumplings later in the
+  evening (see catalog: Jiaozi) [LOW — not verified]. Tea is the real
+  drink here and is an intruder (hard rule 5).
+- Surface and environment: a **square table** with a green cloth, or an
+  automatic mahjong table with a recessed centre; tiles as pale
+  rectangles; red New Year decor (lanterns, paper-cuts) blurred on the
+  wall at Spring Festival; a TV glow in the background.
+- Snapshot staging: **1 setting**: the side-table corner with a small
+  plate of mandarin segments and seeds, hero beside it; the edge of the
+  mahjong table soft behind with tiles face-down. **2 settings**: two
+  small plates on the side table and two chairs angled toward the game
+  (the watchers' seats). **Small group**: the candy tray, fruit plate and
+  seed dish on the side table, the mahjong table out of focus behind, a
+  multi-serve bottle in the midground if the brief allows. Crowd cues: a
+  fourth chair half-cropped, a blurred onlooker, more cups and plates
+  than the visible people.
+- Never stage: money, chips, counters or the counting of winnings
+  (mahjong for money is common; keep it clearly social); **tile faces
+  turned up** (they carry characters, which is legible text; show backs
+  or a soft blur); legible 福 or 春联; beer or baijiu; tea beside the
+  hero; no identifiable children (implied only).
+- Confidence and sources: mahjong and Spring Festival [MEDIUM — Wikipedia
+  "Mahjong culture", research notes]; snacks [LOW]; staging [EDITORIAL].
+  See also Celebration: New Year's Eve reunion dinner.
+
+#### Game night: Board-game café or jubensha with friends
+
+- When: weekend **midday** to **evening**; jubensha sessions run 3–5
+  hours, often afternoon into evening [MEDIUM for the shift to these
+  formats, Xinhua/China Daily; session length LOW — not verified].
+- Gathering: 4–8 young adults (students, young professionals) at a café
+  table or a themed private room; intake venue *restaurant* (café) or
+  *other: game room* [HIGH for the trend; headcount LOW].
+- The spread: café plates: fried chicken pieces, fries, a snack plate,
+  milk tea (bubble tea is the companion drink and an intruder) [LOW —
+  research notes].
+- Surface and environment: a wooden café table, game boxes on shelves
+  behind with spines blurred; for jubensha, a dim themed room, a long
+  table, character booklets as closed, unreadable shapes, warm spotlight.
+- Snapshot staging: **1 setting**: a plate of fries and chicken on the
+  table edge, hero beside it, a closed generic game box soft behind.
+  **2 settings**: two plates and one shared snack plate, a scatter of
+  generic tokens at the far edge. **Small group**: the table with three
+  plates and the shared plate, booklets or cards face-down. Crowd cues:
+  the table running out of frame, chairs pulled up, a blurred figure
+  across.
+- Never stage: licensed games or branded boxes; open script booklets or
+  cards with text; gore or crime-scene props from murder themes; beer;
+  milk tea beside the hero.
+- Confidence and sources: trend [HIGH — Xinhua 2025, China Daily 2025];
+  food and staging [LOW / EDITORIAL].
+
+#### Game night: Daytime KTV room for an older group
+
+- When: weekday **midday** and afternoon; cheap daytime packages draw
+  retirees [MEDIUM — China Daily 2025, "in tune with retirees"].
+- Gathering: 4–8 friends in their 50s–70s in a private room; intake
+  venue *other: KTV room* [MEDIUM].
+- The spread: a **fruit platter** (watermelon, melon, cherry tomatoes,
+  orange wedges on a large plate), popcorn, sunflower seeds, small snack
+  plates [LOW — not verified]; tea is the real drink and an intruder.
+- Surface and environment: a **low glass-top table** in front of a long
+  sofa bench, a big screen as soft coloured light (lyrics unreadable),
+  two microphones resting on the table, coloured LED wash.
+- Snapshot staging: **1 setting**: a small plate with fruit and a few
+  seeds on the table corner, hero beside it, a resting microphone soft
+  behind. **2 settings**: two small plates, the fruit platter between
+  them. **Small group**: the table with fruit platter, popcorn and seeds
+  running out of frame. Crowd cues: the sofa curving out of frame, a
+  blurred figure standing by the screen (no face).
+- Never stage: beer towers or bottle buckets (the norm at evening youth
+  KTV; that version is not staged); legible lyrics, song titles or
+  machine brands; someone holding a microphone near the camera; tea
+  beside the hero.
+- Confidence and sources: KTV decline and retiree shift [HIGH — Xinhua
+  2025; MEDIUM — China Daily 2025]; food [LOW]; staging [EDITORIAL].
+
 ---
 
 ## ZONE CALLOUTS (environment + dish pointers)
@@ -2566,6 +2799,14 @@ sleek can:**
   figure is a commercial source. Banquet-table layouts need image tests
   (turntable crowding, glass-count intrusion).
 
+- **Game-night pass (2026-10-01) open items**: kick-off times (Beijing
+  time), the CBA season and game times, and all basketball viewing are
+  model knowledge, not verified; viewing side dishes (vegetable skewers,
+  sunflower seeds, fried chicken), the mahjong candy-tray spread, KTV
+  fruit platters, jubensha session length and food were not verified;
+  dou dizhu after the reunion dinner and sports-lottery promotion around
+  the World Cup were not searched. No WebSearch was run in this pass.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with eight zones vs. a national
@@ -2593,6 +2834,14 @@ sleek can:**
    about can-width, stacked)**, **longevity noodles (长寿面)**, **hairy
    crab (大闸蟹, zone 2, Mid-Autumn)**, **osmanthus / salted duck (桂花鸭,
    Nanjing)**, **niangao (年糕, southern New Year)** and **red eggs (红蛋)**.
+
+7. Game-night pass: catalog entries for **mala xiaolongxia (麻辣小龙虾,
+   spicy crawfish; a heap of glossy red crawfish in chilli oil in a big
+   bowl or takeaway tub, disposable gloves beside it)**, a **mixed
+   shaokao tray** (chicken wings, garlic aubergine, chives, grilled
+   mantou slices beside the existing lamb skewers), **guazi (瓜子,
+   sunflower seeds in a dish with a shell dish)**, the **New Year candy
+   tray (果盘 / 糖果盒)** and the **KTV fruit platter**.
 
 ## RESEARCH LOG
 
@@ -2631,3 +2880,4 @@ sleek can:**
   times, tagged MEDIUM.
 - **No subagents were used.**
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding banquet form, English and Chinese; longevity birthday buns and noodles; full-month red eggs; 年夜饭 at home vs restaurant 2025 survey; Mid-Autumn reunion dinner dishes). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year's Eve dinner, Mid-Autumn dinner, wedding banquet, elder's longevity banquet, full-month banquet, birthday dinner, weekend family dinner). Sources: China Youth Daily survey via Sina, CCTV, Xinhua, ihchina.cn, SCMP, Chinese wedding-planning sites (tier 3), Wikipedia; diaspora sources flagged.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 3 watch-party entries (late-night football at a shaokao restaurant, late-night football with takeaway at home, CBA/NBA at home [LOW]) and 3 social game-night entries (family mahjong, board-game café or jubensha, daytime KTV for an older group); popularity rated high.

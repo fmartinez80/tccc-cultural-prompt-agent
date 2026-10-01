@@ -1088,6 +1088,239 @@ box or branding, nor the children's sparkling cider ("kids' champagne",
 a non-TCCC drink and an alcohol look-alike). [HIGH per the catalog
 entry; EDITORIAL staging]
 
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8: two meanings, watching sport together
+and social game nights. Every Japan hard rule applies unchanged: no
+alcohol (Lemon-Dou included, no kanpai), **no izakaya or sports-bar
+register** (hard rule 2), no water glass, yunomi, teapot or barley-tea
+jug beside the hero, chopsticks on a rest and never upright, nothing on
+or beside a butsudan or Obon altar. Screens, cards, tiles and
+uniforms are never legible; no team crests, caps with marks, kits,
+sponsor marks or league logos; no gambling as the subject. The snapshot
+rule (§5.7) sets party size. Keep every scene calm and tidy, in the
+file's existing register.
+
+### Watch parties
+
+Watching sport together is **medium** in Japan: real, but quieter than
+in most markets, and the group form (sports bars, izakaya screens) is
+beer-led [EDITORIAL, research notes]. The stageable forms are **at
+home**: the August **Koshien** high-school baseball championship, which
+NHK has broadcast every game of since 1953 from roughly 08:00 to 21:00
+and which is called the national festival of Japanese summer [HIGH —
+gov-online.go.jp, Wikipedia]; **NPB** professional baseball night games;
+national-team football; and afternoon **sumo**. Signature foods are
+summer-table dishes for Koshien (chilled sōmen, watermelon, onigiri) and
+konbini or home snacks for night games (karaage, edamame, yakitori,
+onigiri). The file had no sports lines before this pass.
+
+#### Watch party: Koshien summer high-school baseball at home
+
+- When: the national championship in August, ~two weeks overlapping
+  Obon (13–16 August); games run all day, so stage it **midday** (the
+  morning slot is out of scope) or early **golden-hour** [HIGH for the
+  dates and broadcast, gov-online.go.jp; intake mapping EDITORIAL].
+- Gathering: the household or relatives home for Obon, 2–6, in the
+  living room or tatami room with the TV on in the corner; *home
+  indoor* [EDITORIAL]. See Celebration: Obon relatives' gathering for
+  the larger version.
+- The spread: **chilled sōmen** in a glass bowl over ice with a dipping
+  cup each, **watermelon** wedges on a plate, **onigiri** (see catalog:
+  Onigiri), edamame in a small bowl, kakigōri for an afternoon snack
+  (see catalog: Kakigōri) [LOW — not verified, research notes]. Mugicha
+  is the real drink and an intruder (hard rule 3): exclude the jug.
+- Surface and environment: a **low table (chabudai)** on tatami with
+  zabuton cushions, or the dining table; an **electric fan**, an open
+  shōji or sliding window to a garden, a wind chime, bright summer
+  daylight; the TV a soft green-and-brown field (diamond and dirt
+  infield) with nothing legible.
+- Snapshot staging: **1 setting**: a dipping cup and chopsticks on a
+  rest in front of the sōmen bowl, two watermelon wedges on a small
+  plate, hero beside them; the TV glow soft in the corner. **2
+  settings**: two dipping cups either side of the sōmen bowl, the
+  watermelon plate and onigiri between them. **Small group**: the low
+  table with sōmen, watermelon and an onigiri plate running out of frame,
+  a multi-serve PET in the midground if the brief allows. Crowd cues:
+  extra zabuton at the table edge, a blurred figure on the engawa, the
+  fan turning.
+- Never stage: school names, numbers or crests on uniforms, legible
+  scoreboards or on-screen graphics; beer (common with relatives in
+  August); the mugicha jug, a yunomi or teapot beside the hero; the
+  Obon altar; no identifiable children (the players on screen are
+  minors: keep the screen fully abstract).
+- Confidence and sources: Koshien dates and broadcast [HIGH —
+  gov-online.go.jp, Wikipedia]; food [LOW — not verified]; staging
+  [EDITORIAL].
+
+#### Watch party: NPB night game at home
+
+- When: the NPB season runs late March to October; night games start
+  around 18:00, intake **evening** [LOW — not verified].
+- Gathering: a couple, a family of 3–4, or 2–3 friends in a flat; *home
+  indoor*. The izakaya or sports-bar version is beer-led and is not
+  staged; the stadium (beer vendors in the stands) is not staged either
+  [EDITORIAL per hard rule 2].
+- The spread: konbini or supermarket-deli **karaage** (see catalog:
+  Karaage), **yakitori** skewers laid on a plate (see catalog: Yakitori
+  (non-drinking register)), **edamame** in a bowl with a second small
+  bowl for pods, **onigiri** (see catalog: Onigiri), gyōza from a
+  takeaway tray (see catalog: Gyōza) [LOW — research notes]. Karaage,
+  yakitori and edamame are classic drinking food (ICONIC BEVERAGES), so
+  the scene must read as a family dinner or snack at home: rice or
+  onigiri present, no glasses other than the hero.
+- Surface and environment: a low table in a compact living room (or a
+  kotatsu with the quilt off in spring and autumn), a sofa or floor
+  cushions, warm ceiling light, the TV glow; deli food decanted onto
+  plates, or plastic deli trays with their lids off and any labels
+  blurred.
+- Snapshot staging: **1 setting**: a small plate with two karaage and
+  an onigiri, chopsticks on a rest, the edamame bowl at the edge, hero
+  beside it. **2 settings**: two small plates, the yakitori plate and
+  edamame bowl between them. **Small group**: the low table with karaage
+  plate, yakitori plate, gyōza tray and edamame running out of frame.
+  Crowd cues: a third cushion, a blurred shoulder toward the screen.
+- Never stage: team caps, jerseys, towels or mascots with marks; a
+  legible screen; beer or chūhai cans (the default at a home night game;
+  negate Lemon-Dou by name); a yunomi or water glass; legible konbini or
+  deli packaging.
+- Confidence and sources: [LOW — not verified] for season, times and
+  food; staging [EDITORIAL].
+
+#### Watch party: National-team football at home (Samurai Blue)
+
+- When: home qualifiers and friendlies are usually evening kick-offs in
+  Japan (intake **evening**); World Cup and away matches in Europe or
+  the Americas often land in the early morning in Japan, which is out of
+  scope (breakfast), so stage the evening home-match version [LOW — not
+  verified; research notes say "often early morning"].
+- Gathering: friends or family, 2–5, in a flat; *home indoor*. The
+  public forms (sports bars, the Shibuya crossing crowds after a win)
+  are beer-led or crowd scenes and are not staged [EDITORIAL].
+- The spread: karaage (see catalog: Karaage), onigiri, a takeaway pizza
+  or a takoyaki tray (see catalog: Takoyaki), snack bowls [LOW —
+  EDITORIAL].
+- Surface and environment: as the NPB entry; an optional cue is a plain
+  blue towel or blue cushion (no crest, no lettering) on the sofa.
+- Snapshot staging: as the NPB entry.
+- Never stage: the national-team kit or crest, a full flag, a legible
+  screen; beer; Shibuya crowd scenes.
+- Confidence and sources: [LOW — not verified]; staging [EDITORIAL].
+
+#### Watch party: Sumo on an afternoon at home
+
+- When: six grand tournaments a year (January, March, May, July,
+  September, November), each 15 days; NHK shows the top division live
+  roughly 16:00–18:00, so intake **golden-hour** [LOW — not verified].
+- Gathering: older viewers, 1–3, at home; *home indoor* [LOW].
+- The spread: **senbei** (rice crackers) in a small bowl, **mikan** in a
+  bowl in the winter tournaments, a few wagashi (see catalog: Compact
+  sweets); tea is the real pairing and an intruder (hard rule 3)
+  [LOW — research notes].
+- Surface and environment: a **kotatsu** in January and November, a low
+  table otherwise; tatami, late-afternoon light through a window; the TV
+  a soft field of pale clay and colour.
+- Snapshot staging: **1 setting**: the kotatsu corner with the mikan bowl
+  and a small senbei dish, hero beside them, the TV glow soft behind.
+  **2 settings**: two small dishes and the shared mikan bowl. **Small
+  group**: rarely needed; the table edge with three dishes. Crowd cue:
+  a second cushion and a folded newspaper (no legible text).
+- Never stage: wrestlers' faces, ranking boards (banzuke) or any
+  legible text; a teapot or yunomi beside the hero; sake.
+- Confidence and sources: [LOW — not verified] throughout; staging
+  [EDITORIAL].
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high**.
+Basis: the **karaoke box** is an everyday group outing [MEDIUM —
+research notes]; the board-game market was about USD 1.13 billion in
+2024 with café growth tied to small homes [LOW-MEDIUM — IMARC, a
+market-research seller]; **mahjong** is reviving among the young, with
+17.6% of male teenagers playing in 2023, double the share of a few years
+earlier [MEDIUM — Korea Herald/ANN, China Daily 2025]. Home video-game
+nights (convenience-store snacks on a kotatsu) are plausible but
+unverified [LOW — not verified], and New Year karuta and sugoroku are a
+minor cue only, so neither gets an entry.
+
+#### Game night: Karaoke box with friends
+
+- When: after work or after class, **evening**; cheap daytime packages
+  make **midday** valid for students [LOW — not verified].
+- Gathering: 3–8 friends or co-workers in a private room; intake venue
+  *other: karaoke room* [MEDIUM].
+- The spread: room-service plates on the table: **karaage** (see
+  catalog: Karaage), fries, edamame, a pizza, takoyaki (see catalog:
+  Takoyaki), a honey-toast tower as dessert [LOW — not verified,
+  research notes; honey toast EDITORIAL].
+- Surface and environment: a **low glass-top or laminate table** in front
+  of an L-shaped vinyl sofa bench; a big screen as soft coloured light
+  (lyrics unreadable); two microphones resting on the table; a
+  song-picker tablet face-down; coloured LED wash, dim room.
+- Snapshot staging: **1 setting**: a small plate with two karaage and a
+  few fries on the table corner, hero beside it, a resting microphone
+  soft behind. **2 settings**: two small plates, the karaage and fries
+  plates between them. **Small group**: the table with three or four
+  room-service plates running out of frame. Crowd cues: the sofa bench
+  curving out of frame, a blurred standing figure by the screen (no
+  face), a jacket over the sofa arm.
+- Never stage: the **nomihoudai** (all-you-can-drink) version: beer
+  mugs, chūhai, Lemon-Dou or highball glasses (the norm in evening
+  groups; this entry is staged **food-led and alcohol-free only**);
+  legible lyrics, song titles, the chain or machine brand; a microphone
+  held near the camera; the self-serve water glass or tea.
+- Confidence and sources: format [MEDIUM — research notes]; food and
+  times [LOW]; staging [EDITORIAL].
+
+#### Game night: Board-game café
+
+- When: weekend **midday** to **evening** [LOW — research notes].
+- Gathering: 3–6 friends, students or young couples; intake venue
+  *restaurant* (café) [LOW-MEDIUM — IMARC for the café trend].
+- The spread: café plates: curry rice (see catalog: Curry rice), a
+  toasted sandwich, fries, a dessert plate [LOW — research notes].
+- Surface and environment: a wooden café table, shelves of game boxes
+  behind with spines unreadable, generic wooden pieces and dice, warm
+  café light.
+- Snapshot staging: **1 setting**: a curry plate with a spoon on the
+  table edge, the game board soft and generic at the far side, hero
+  beside the plate. **2 settings**: two plates side by side, a shared
+  fries plate, the game between them pushed back. **Small group**: three
+  plates and the game in soft focus. Crowd cues: a neighbouring table of
+  blurred players, the shelf running out of frame.
+- Never stage: licensed or branded games, legible boxes, cards or rules;
+  the café's water glass beside the hero; beer.
+- Confidence and sources: trend [LOW-MEDIUM — IMARC, commercial]; food
+  [LOW]; staging [EDITORIAL].
+
+#### Game night: Home mahjong, no stakes (riichi)
+
+- When: weekend afternoons into evening, New Year holidays; intake
+  **golden-hour** or **evening** [LOW — research notes].
+- Gathering: four players (young friends, or family across generations)
+  around a table at home; *home indoor*. The commercial mahjong parlour
+  (jansō) has a gambling and smoking reputation and is not staged; the
+  "healthy mahjong" idea (no stakes, no smoking, no drinking) is the
+  register [MEDIUM for the teen revival; jansō reputation and the
+  healthy-mahjong term LOW — not verified].
+- The spread: on a side table: senbei, a plate of onigiri (see catalog:
+  Onigiri), mikan, small wagashi (see catalog: Compact sweets); tea is
+  the real drink and an intruder [LOW — research notes].
+- Surface and environment: a square table with a green felt mat, tiles
+  as pale rectangles with backs showing; a living room or tatami room,
+  late-afternoon light.
+- Snapshot staging: **1 setting**: the side-table corner with a small
+  plate of senbei and two onigiri, hero beside it, the mat edge soft
+  behind. **2 settings**: two small plates and the mikan bowl.
+  **Small group**: the side table with three dishes, the mahjong table out
+  of focus. Crowd cues: a fourth cushion half-cropped, a blurred player.
+- Never stage: money, point sticks being exchanged, any sign of stakes;
+  **tile faces turned up** (they carry characters, which is legible
+  text); cigarettes and ashtrays; beer; a teapot or yunomi beside the
+  hero.
+- Confidence and sources: teen revival [MEDIUM — Korea Herald/ANN, China
+  Daily 2025]; food and parlour notes [LOW]; staging [EDITORIAL].
+
 ---
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
@@ -2827,6 +3060,16 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
   Shichi-Go-San venue claims come from photo-studio and department-store
   columns. Hina-doll and jūbako framing need image tests.
 
+- **Game-night pass (2026-10-01) open items**: only Koshien's dates and
+  broadcast are sourced (gov-online.go.jp, Wikipedia); NPB season and
+  start times, Samurai Blue kick-off times, sumo broadcast hours, all
+  viewing foods, karaoke room food, daytime karaoke packages, the
+  board-game café menu, the mahjong parlour reputation and the
+  "healthy mahjong" term are model knowledge, not verified; Japan
+  karaoke participation numbers were not found (Statista paywall); the
+  board-game market figure is from a market-research seller (IMARC).
+  WBC 2026 ratings were not found. No WebSearch was run in this pass.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: Okinawa spinout; izakaya exclusion; Lemon-Dou
@@ -2851,6 +3094,13 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
    wide for 3–4 people), **sekihan** (red-bean rice), **tai no shioyaki**
    (whole salt-grilled sea bream for celebrations), **temari-zushi**, and
    **vegetable tempura platter / sōmen on ice** (Obon).
+
+6. Game-night pass: catalog entries for **edamame** (bright green salted
+   pods in a small bowl with a pod bowl beside it; a home or snack
+   register, never an izakaya one), **sōmen on ice** (already queued for
+   Obon; also the Koshien table), **senbei and mikan** (the kotatsu
+   snack pair), and the **karaoke honey-toast tower** (thick cubed toast
+   loaf with cream and syrup).
 
 ## RESEARCH LOG
 
@@ -2890,3 +3140,4 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
   preferred wherever they covered a claim.
 - **No subagents were used.**
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries, all Japanese-language (Zexy 2024 wedding guest count; Obon relatives' food; Shichi-Go-San meal and venue; Hinamatsuri dishes; children's birthday menus; New Year osechi family and purchase surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year, Obon, Hinamatsuri, hanami, Shichi-Go-San, child's birthday, wedding reception) plus a Christmas Eve pointer to its catalog entry. Sources: Zexy/Recruit, Benesse, Kyoto Culinary Art College, MATCHA, HANKYU FOOD, HugKum, food-media and consumer-survey releases (commercial, flagged).
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 4 watch-party entries (Koshien at home, NPB night game at home, national-team football at home, sumo afternoon) and 3 social game-night entries (karaoke box staged food-led and alcohol-free, board-game café, home no-stakes mahjong); watch parties rated medium, social game nights medium-high.
