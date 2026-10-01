@@ -3255,3 +3255,19 @@ Following the dining-scenario coverage audit
    gathering than the number of people visualized." Codified as the §5.7
    snapshot rule: party size = place settings in frame; the gathering is
    implied by table, spread and background cues.
+
+## Fernando's rulings on the celebrations pass, 2026-10-01
+
+1. **Children**: "We do not see identifiable children." Schema §5.7 now
+   bans any recognisable child, any child near the product and any child
+   honoree in frame; this overrides softer per-file wording ("children
+   soft in the background").
+2. **Flags**: "Never a full flag." Schema §5.7 and `us.md` (Fourth of July)
+   updated; flag-palette bunting or a cropped partial pattern is the
+   ceiling.
+3. **Juneteenth**: "provide the information and we can assess how we use
+   it." `us-texas.md` now documents the red-drink tradition and possible
+   TCCC red options; decision open.
+4. **Thailand ordination and house-blessing feasts**: include when the
+   occasion is a common part of local culture or something traditional
+   marketing would point to. Both kept.

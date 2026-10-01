@@ -498,6 +498,17 @@ place settings in frame, not the size of the gathering**.
      religious milestones) and recurring community or family gatherings
      (the Sunday family lunch, a neighbourhood fiesta). Each entry uses
      the template below.
+- **No identifiable children** (reviewer ruling 2026-10-01). Children
+  may be implied (a booster seat, a party hat on an empty chair, small
+  shapes far behind and fully out of focus), but no child's face is ever
+  recognisable, no child is near or holding the product, and a child
+  honoree (birthday child, baptism baby, first-communion child,
+  quinceañera or debut celebrant if under 18) is never shown. This
+  overrides any softer wording in a country file.
+- **Never a full flag** (reviewer ruling 2026-10-01), of any country,
+  anywhere in frame. Flag-palette paper goods, bunting or a partial,
+  cropped flag pattern soft in the background is the most a national
+  holiday scene carries.
 - **Out of scope**: drinking-led events or the drinking part of an event
   (toasts, open bars, beer festivals) are never staged; religious rites
   themselves (altars, prayer, processions) are never the scene; staging
@@ -520,8 +531,8 @@ Celebration entry template:
   is in frame (the visible stretch of table, which shared vessels, the
   plated portion per setting) and which cues imply the wider gathering
 - Decor and cues: authentic details; clichés to avoid
-- Never stage: sensitivities, alcohol, religious imagery, legible flags
-  or crests
+- Never stage: sensitivities, alcohol, religious imagery, a full flag,
+  legible crests, identifiable children
 - Confidence and sources
 ```
 

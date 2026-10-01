@@ -34,11 +34,11 @@ unless checked — this is a gap list, not a status report of what's done.
   written 2026-10-01 for every country and US regional file (about 180
   entries). Needs SME review per market; most headcounts are editorial
   estimates and several menus rest on caterer or planning-site sources
-  (each file's GAP LOG lists them). Open reviewer questions: children near
-  the product in birthday scenes (TCCC responsible-marketing policy);
-  US Fourth of July flag bunting; Juneteenth red drink; Ramadan/iftar
-  entries in PK/BD/ID/TR wait on the existing iftar sign-off; Thai
-  ordination and house-blessing briefs.
+  (each file's GAP LOG lists them). Resolved 2026-10-01: no identifiable
+  children; never a full flag; Thai ordination and house-blessing kept.
+  Still open: how to use the Juneteenth red-drink information;
+  Ramadan/iftar entries in PK/BD/ID/TR wait on the existing iftar
+  sign-off; Turkey's file-level breakfast scope.
 - [ ] **No market has a confirmed TCCC internal OU code** — every started
   file flags "not confirmed, don't guess"; needs TCCC's own org
   documentation, not further research

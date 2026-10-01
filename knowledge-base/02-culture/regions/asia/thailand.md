@@ -1036,8 +1036,11 @@ images, altars, spirit houses or royal portraits) and hard rule 3
   hall, any Buddha image (hard rule 5); alcohol, which is common at
   village ordination parties and must stay off the table.
 - Confidence and sources: HIGH for the gathering and catering form
-  (sources above); EDITORIAL for staging. A reviewer should confirm that
-  ordination briefs are acceptable at all (GAP LOG).
+  (sources above); EDITORIAL for staging. Included per Fernando's
+  2026-10-01 test (include when the occasion is a common part of local
+  culture or something traditional marketing would point to): temporary
+  ordination of young men is a widespread Thai rite of passage, and the
+  guests' feast is the stageable part.
 
 #### Celebration: House-blessing lunch (tham bun ban)
 - Type: community or family gathering (housewarming and merit-making)
@@ -2575,10 +2578,10 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   round-table-of-10 banquet norm is sourced for ordinations (Bangkok
   Post) but only from general Chinese-banquet sources for weddings;
   banquet place-setting details (chopsticks at Thai-Chinese banquets)
-  and the Hari Raya spread in zone 5 were not verified. **Reviewer
-  question**: are ordination and house-blessing briefs acceptable at all,
-  given they sit next to monastic rites (the entries stage only the
-  guests' meal, after or apart from the monks)?
+  and the Hari Raya spread in zone 5 were not verified. **Resolved
+  2026-10-01 (Fernando)**: ordination and house-blessing feasts are kept
+  because both are common parts of Thai life; the entries stage only the
+  guests' meal, after or apart from the monks.
 
 ## CANDIDATE QUEUE
 
