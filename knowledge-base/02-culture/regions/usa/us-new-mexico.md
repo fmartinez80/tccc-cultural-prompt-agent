@@ -117,6 +117,14 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: Tex-Mex rolled enchiladas (`us-texas.md`, `us.md`) — ruled out by the stacked-vs-rolled cross-section and the chile-pod sauce's thinner, more matte, less uniformly glossy texture vs. Tex-Mex's roux-thickened gravy. A casserole-style Mexican-interior "enchilada" bake is a more distant confusable, generally ruled out by the absence of the fried-egg crown and the specific red/green-chile-pod sauce.
 - Confidence: HIGH overall, inherited from `us.md`'s existing sourcing; MEDIUM for the specific stack-height/tortilla-count scale figures added in this pass.
 - Sources: (in addition to `us.md`'s existing Enchiladas sourcing, not re-cited in full here) [House of Nash Eats — New Mexico Stacked Enchiladas](https://houseofnasheats.com/new-mexico-stacked-enchiladas/); [New Mexico Magazine — Not Mexican food. Not Tex-Mex.](https://www.newmexicomagazine.org/blog/post/best-new-mexico-foods/)
+- Composition & proportions (§4.7) — one "3 by 1" plate (three tortillas, one egg), red chile:
+  - What dominates: the sauced stack ~50% of the plate (per the entry), beans or posole ~20–25%, rice ~20%; on the stack, red chile ~70% of its top, the egg ~25%. [EDITORIAL]
+  - Components: corn tortillas ~15 cm (6 in, per the entry; about twice the can's width), 3 layers; stack ~5–6 cm tall (about half the can's height); shredded chicken or beef and chopped onion and cheese thin between layers; red chile ladled to pool ~0.5 cm deep around the stack; one sunny-side-up egg ~10–12 cm with a ~4 cm yolk; pinto beans and rice each a ~8 cm scoop. [EDITORIAL for counts and shares]
+  - Arrangement: stack centred-left, egg on top, sauce flowing over the edges onto the plate; sides at the right. If cut, a wedge pulled out to show distinct layers.
+  - Vessel fill: 26–28 cm plate ~80% covered; the plate's rim visible.
+  - State cues: matte, slightly grainy red sauce; glossy, runny yolk; light steam.
+  - Absent on purpose: rolled cylinders, a melted-cheddar blanket, sour cream, guacamole, cilantro, black olives.
+  - Prompt-ready line: "A New Mexican stacked enchilada plate: three soft corn tortillas layered flat with shredded chicken, onion and cheese into a stack about half the can's height and twice its width, drenched in thin, matte, brick-red chile sauce pooling on the plate, crowned with one sunny-side-up egg with a glossy, runny yolk. A scoop of pinto beans and a scoop of rice beside it. Light steam; no sour cream."
 
 ### Dish: Hatch chile and Chimayó chile — geographic-designation depth (a cross-cutting ingredient entry, not a standalone plated dish, referenced by multiple dish entries above and below)
 
@@ -142,6 +150,13 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: **Navajo fry bread** — see the construction/texture distinction above; the single clearest checkable difference is hollow-and-puffed (sopapilla) vs. flat-and-solid (fry bread). Not a beignet (`us-gulf-south.md`) — beignets are a yeasted, powdered-sugar-dusted French-derived pastry with a different dough and no honey-drizzle convention, and are square-cut but not shaped to visibly puff into a rounded pillow the way a sopapilla does.
 - Confidence: HIGH for the fry-bread distinction and general description; MEDIUM for the exact size figures.
 - Sources: [Richardson's Canal House — Fry Bread Vs Sopapilla](https://richardsonscanalhouse.com/fry-bread-vs-sopapilla/); [Whisk Taker — What's the difference between sopapilla and fry bread?](https://www.whisk-taker.com/whats-the-difference-between-sopapilla-and-fry-bread/); [Tasty Recipes Chef — Sopapillas: Fluffy Treats from New Mexico](https://tastyrecipeschef.com/sopapillas/); [Sadie's of New Mexico — The Sopapilla Story](https://www.sadiesofnewmexico.com/2025/08/12/the-sopapilla-story-a-staple-of-new-mexican-flavor-and-tradition/)
+- Composition & proportions (§4.7) — one basket served with the meal:
+  - What dominates: golden puffed pillows ~85%; honey ~10%; basket lining the rest. [EDITORIAL]
+  - Components: sopapillas ~6–8 cm across (per the entry; about the can's width), puffed ~3–4 cm tall, 3–4 per basket for two diners [EDITORIAL]; brought to the table in a basket with honey, traditionally from a squeeze bottle [MEDIUM — New Mexico True, Wikipedia (via search)]; one torn open to show the hollow.
+  - Arrangement: piled loosely in a small paper-lined basket; a plain, unlabelled honey bottle beside it; a drizzle on the torn one.
+  - State cues: matte golden surface with small blisters; steam from the torn hollow; honey glossy.
+  - Absent on purpose: flat solid fry bread, powdered-sugar heaps (beignet), cinnamon-sugar crust unless dessert register is briefed, ice cream, legible label.
+  - Prompt-ready line: "A small paper-lined basket with four puffed, pillow-shaped sopapillas, each about the can's width, with a matte golden-brown surface and small blisters. One is torn open, showing a hollow, steaming interior, with a thin drizzle of glossy honey pooled in its dimples. A plain, unlabelled honey squeeze bottle beside the basket."
 
 ### Dish: Posole (pork and hominy stew, red or green chile)
 
@@ -157,6 +172,13 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: Mexican-interior pozole (typically garnished with shredded cabbage, radish, and lime as standard rather than optional add-ons, and sometimes made with hominy that hasn't been simmered in a chile-forward broth the same way) — the New Mexican version's simpler, chile-broth-forward presentation without those garnishes pre-added is the checkable difference. Not menudo (a different offal-based soup, not hominy-and-pork).
 - Confidence: HIGH for composition and cultural/holiday significance; MEDIUM-HIGH for the specific visual/scale synthesis.
 - Sources: [Beyond Mere Sustenance — Chimayo, New Mexico and Red Chile Posole](https://beyondmeresustenance.com/chimayo-new-mexico-and-red-chile-posole/); [Food Folks and Fun — New Mexico Posole Recipe](https://foodfolksandfun.net/new-mexico-posole/); [Tomasitas — Why New Mexican Posole Is a Holiday Tradition](https://tomasitas.com/why-new-mexican-posole-is-a-holiday-tradition/); [Food Network — What Is Hominy?](https://www.foodnetwork.com/how-to/packages/food-network-essentials/what-is-hominy)
+- Composition & proportions (§4.7) — one bowl, red:
+  - What dominates: broth ~45% of the visible surface, puffed hominy ~40%, pork chunks ~15%. [EDITORIAL]
+  - Components: bowl 15–18 cm filled to ~1–2 cm below the rim (per the entry); hominy kernels ~1.5–2 cm, chickpea-sized (per the entry), crowding the surface; pork chunks or shreds ~2–3 cm, 4–6 visible; garnish (onion, oregano, lime) on the side; a warm tortilla or sopapilla alongside. [EDITORIAL for counts]
+  - Arrangement: hominy and pork floating evenly, no garnish pile in the bowl.
+  - State cues: thin, matte, brick-red broth with a few red oil droplets; steam.
+  - Absent on purpose: cabbage, radish and tostadas (Mexican-interior pozole), beans, ground meat, tripe, small sweet-corn kernels.
+  - Prompt-ready line: "A deep bowl of New Mexican red chile posole filled almost to the rim: a thin, matte, earthy brick-red broth crowded with plump, burst-open, chalk-white hominy kernels and a few tender chunks of pork, small red oil droplets on the surface, steam rising. A folded warm flour tortilla beside it. No cabbage, no radish."
 
 ### Dish: Carne adovada
 
@@ -172,6 +194,13 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: Not carnitas (a Mexican-interior dish, fried/confited rather than chile-braised, with a browned/crisped exterior on some pieces and no red chile coating). Not Tex-Mex chili (`us-texas.md`) — chili is a beef stew served in a thin bowl of liquid chile-based sauce as its own dish; carne adovada is pork, always chile-coated rather than swimming in a thin broth, and served as a plated entree with rice/beans rather than in a soup bowl.
 - Confidence: HIGH for composition and colonial-era history; MEDIUM for the specific size/portion synthesis.
 - Sources: [Highlands Ranch Foodie — Authentic Carne Adovada Recipe](https://highlandsranchfoodie.com/carne-adovada-recipe-2/); [Bodega Badia — Carne Adovada: New Mexico's Red Chile Braised Pork](https://bodega.badiaspices.com/pages/new-mexico-carne-adovada); [New Mexico Magazine — Centennial Cookbook Recipe: Carne Adovada](https://www.newmexicomagazine.org/blog/post/centennial-cookbook-recipe-carne-adovada/)
+- Composition & proportions (§4.7) — one entrée plate:
+  - What dominates: red-coated pork ~45% of the plate, beans ~20%, rice ~20%, tortilla or sopapilla ~15%. [EDITORIAL]
+  - Components: pork pieces ~2.5–4 cm (per the entry; about half the can's width), 8–12 per portion, mounded; pinto beans and rice each a ~8 cm scoop; a folded flour tortilla or 1–2 sopapillas. [EDITORIAL]
+  - Arrangement: pork mounded on one third to one half of a 26–28 cm plate (per the entry), sides around it.
+  - State cues: thick, clinging, deep red sauce, strands pulling apart at the edges; steam.
+  - Absent on purpose: a thin broth pool, crisp browned carnitas edges, cheese blanket, sour cream, cilantro.
+  - Prompt-ready line: "A white plate with a mound of carne adovada: tender pork chunks about half the can's width, coated in a thick, clinging, deep brick-red chile sauce, strands pulling apart at their edges. Beside it, a scoop of pinto beans, a scoop of rice and a folded warm flour tortilla. Steam rising; no cheese, no sour cream."
 
 ### Dish: Green chile stew
 
@@ -187,6 +216,12 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: **Posole** (this file, above) — the clearest differentiator is the absence of hominy in green chile stew (potato is the starch here) versus posole's hominy-and-no-potato composition. **Carne adovada** (this file, above) — green chile stew is a thin broth-based soup with visible chunks floating in liquid; carne adovada is a plated entree fully coated in a thick, clinging sauce with no thin broth pooling around it.
 - Confidence: MEDIUM-HIGH for composition and ubiquity; LOW-MEDIUM for exact scale figures.
 - Sources: [Boulder Locavore — Green Chile Stew](https://boulderlocavore.com/i-love-you-green-chile-stew/); [Here's Your Bite — New Mexico Hatch Green Chile Stew](https://heresyourbite.substack.com/p/hatch-chile-series-episode-4-green)
+- Composition & proportions (§4.7) — one bowl:
+  - What dominates: broth ~40% of the visible surface, potato ~25%, pork ~20%, green chile pieces ~15%. [EDITORIAL]
+  - Components: bowl 15–18 cm filled to ~1–2 cm below the rim (per the entry); potato cubes ~2.5 cm, 5–8; seared pork chunks ~2.5 cm, 5–8; roasted green chile pieces ~1–3 cm, irregular, with char flecks; warm flour tortilla alongside. [EDITORIAL]
+  - State cues: translucent-to-lightly-opaque yellow-green broth, a little fat sheen; steam.
+  - Absent on purpose: hominy, red chile, cream, cheese melt, sour cream.
+  - Prompt-ready line: "A deep bowl of New Mexico green chile stew filled almost to the rim: a light, yellow-green, slightly translucent broth with distinct cubes of potato and seared pork, each about a third of the can's width, and irregular pieces of roasted green chile with a few dark char flecks. A folded warm flour tortilla beside it; steam rising."
 
 ### Dish: Green chile cheeseburger
 
@@ -203,6 +238,14 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: A jalapeño burger (a Tex-Mex/national fast-food convention using raw or pickled jalapeño slices — smaller, brighter green, uncharred, and thinly sliced rather than roasted-and-chopped) is the primary confusable; the roasted/charred, thickly-piled chile pieces are the checkable differentiator. Not a green chile sauce/queso-topped burger (a smooth, sauce-like topping rather than distinguishable roasted pepper pieces).
 - Confidence: HIGH for the dish's cultural ubiquity and the Green Chile Cheeseburger Trail's institutional history; MEDIUM-HIGH for the specific Blake's Lotaburger origin account.
 - Sources: [New Mexico Magazine — How Blake's Lotaburger Became Legendary](https://www.newmexicomagazine.org/blog/post/blakes-lotaburger/); [New Mexico Magazine — Bite into the History of the Green Chile Cheeseburger](https://www.newmexicomagazine.org/blog/post/original-green-chile-cheeseburger/); [Wikipedia: Blake's Lotaburger](https://en.wikipedia.org/wiki/Blake%27s_Lotaburger); [New Mexico True — Green Chile Cheeseburger Trail](https://www.newmexico.org/things-to-do/cuisine/culinary-trails/green-chile-cheeseburger-trail/)
+- Composition & proportions (§4.7) — one burger (base proportions as `us.md`'s Cheeseburger block):
+  - What dominates: in side view, bun ~45% of the height, patty ~20%, the green chile layer ~20%, cheese and other toppings ~15%. [EDITORIAL]
+  - Components: bun ~10–11 cm (about one and a half can-widths); patty 1; American or cheddar 1 slice melted; roasted chile pieces ~1–4 cm, in a layer ~0.6–1.2 cm thick (per the entry), reaching or passing the patty's edge; lettuce, tomato or onion optional and sparse. [EDITORIAL]
+  - Arrangement: chile piled on the melted cheese, under the crown; a few strips peeking out.
+  - Vessel fill: paper wrap or a paper-lined basket; burger ~40% of the basket; fries optional on the other side.
+  - State cues: chile glossy with dark char patches; cheese draped; no drips.
+  - Absent on purpose: raw or pickled jalapeño slices, a smooth green relish or sauce, a towering stack, bacon unless briefed.
+  - Prompt-ready line: "One green chile cheeseburger in a paper-lined basket, about two-thirds of the can's height and one and a half times its width: a soft golden bun, a browned beef patty, a slice of melted yellow cheese and a thick layer of roasted, peeled green chile in rough pieces with dark charred patches, a few strips peeking out past the bun. No jalapeño slices, no sauce drips."
 
 ### Dish: Frito pie (New Mexico's side of a genuinely contested origin claim — written for consistency with `us-texas.md`'s existing entry, not to relitigate it)
 
@@ -217,6 +260,12 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: The Texas "walking Frito pie" (`us-texas.md`) — the checkable differentiator is the sauce: New Mexico's version uses a smooth red chile sauce with no beef chunks; Texas's uses its own chunky, beef-forward chili (see that file's Texas Chili entry). A brief specifying "New Mexico Frito pie" should not show Texas's beef-chunk chili poured over the chips.
 - Confidence: MEDIUM for the New Mexico-specific origin account and construction detail; the overall origin dispute is honestly disclosed as contested rather than resolved, consistent with `us-texas.md`.
 - Sources: [Santa Fe New Mexican — Santa Fe woman remembered for bringing famed Frito pie to the area](https://www.santafenewmexican.com/news/local_news/santa-fe-woman-remembered-for-bringing-famed-frito-pie-to-the-area/article_5d314621-e6d5-5753-8c9a-60b7a7f73b7f.html); [Santa Fe Reporter — Frito Fe](https://sfreporter.com/food/frito-fe/); [Santa Fe Insiders — A Taste of Santa Fe History: The Story Behind the Five and Dime Frito Pie](https://www.santafeinsiders.com/blog-articles/2451066_a-taste-of-santa-fe-history-the-story-behind-the-five-and-dime-frito-pie); (cross-referenced against, not duplicating) `us-texas.md`'s existing Frito pie entry and its cited [Texas Highways — All That and a Bag of Chips](https://texashighways.com/food-drink/all-that-and-a-bag-of-chips-the-history-of-frito-pie/)
+- Composition & proportions (§4.7) — one Santa Fe-style bag:
+  - What dominates: from above, smooth red chile ~55% of the opening, chips at the edges ~25%, cheese ~15%, onion ~5%. [EDITORIAL]
+  - Components: as `us-texas.md`'s bag (~9 × 18–20 cm, split lengthwise); red chile sauce ~¾ cup, smooth, no beef chunks; shredded cheese a handful; diced onion a spoonful; plastic spoon. [EDITORIAL]
+  - State cues: matte brick-red sauce soaking into the chips; cheese half-melted; steam.
+  - Absent on purpose: beef-chunk chili, beans, sour cream, lettuce, tomato, a legible bag print, a hand holding the bag.
+  - Prompt-ready line: "A small single-serve chip bag with no visible print, split open along its length, a bit taller than the can, filled with golden corrugated corn chips under a ladle of smooth, thin, matte brick-red New Mexico chile sauce, topped with shredded cheese and diced raw onion, a white plastic spoon standing in it. No beef chunks, no lettuce, no sour cream."
 
 ### Dish: Biscochitos (official state cookie)
 
@@ -233,6 +282,13 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: A generic round sugar cookie or Mexican wedding cookie (powdered-sugar-coated, round, no anise flavor, no fleur-de-lis shape) — the anise flavor (not independently visually checkable, but worth noting) and the cinnamon-sugar dusting plus fleur-de-lis/star/cross shape are the checkable visual differentiators.
 - Confidence: HIGH for official status and general composition/history; MEDIUM for the exact finished-size figure.
 - Sources: [statesymbolsusa.org — New Mexico State Cookie: Biscochito](https://statesymbolsusa.org/symbol-official-item/new-mexico/state-food-agriculture-symbol/biscochito); [New Mexico Secretary of State — State Cookie](https://www.sos.nm.gov/about-new-mexico/state-cookie/); [Wikipedia: Bizcochito](https://en.wikipedia.org/wiki/Bizcochito); [The Cookie Countess — Fleur de Lis Cookie Cutter](https://www.thecookiecountess.com/products/fleur-de-lis-cutter)
+- Composition & proportions (§4.7) — a plate or tin of cookies:
+  - What dominates: pale cookie surface ~85%; cinnamon-sugar flecks ~15% of each top. [EDITORIAL]
+  - Components: finished cookies ~5–8 cm (per the entry's 2–3 in estimate; about the can's width), ~0.6–0.8 cm thick; 8–12 on a plate; shapes fleur-de-lis, star or scalloped round. [EDITORIAL]
+  - Arrangement: overlapping loosely on a plate or in a tin lined with paper.
+  - State cues: matte, sandy, crumbly; one broken showing a fine, short crumb.
+  - Absent on purpose: icing, sprinkles, powdered-sugar coating (Mexican wedding cookie), a glossy browned surface.
+  - Prompt-ready line: "A plate of a dozen biscochitos overlapping loosely, each cookie about the can's width and thin, cut in fleur-de-lis and star shapes, pale matte golden with a sandy, crumbly surface dusted with cinnamon sugar. One is broken, showing a fine, short crumb, a few crumbs and loose cinnamon sugar on the plate around it. No icing, no sprinkles, no powdered sugar."
 
 ### Dish: Tamales (New Mexico Christmas tradition)
 
@@ -249,6 +305,13 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: Not a Mexican-interior tamale of a different regional style (banana-leaf-wrapped Oaxacan tamales, for instance, are a different, non-New-Mexican wrapper convention) — corn-husk wrapping specifically is the standard, checkable New Mexico/greater-Southwest convention.
 - Confidence: MEDIUM-HIGH for the holiday tradition and tamalada ritual; MEDIUM for exact size figures.
 - Sources: [Loma Vista Products — The Tamalada Tradition](https://www.lomavistaproducts.com/the-tamalada-tradition-a-new-mexican-christmas-gathering/); [New Mexico Magazine — Tamales, Empanaditas, and Farolitos: Christmas Traditions in New Mexico](https://www.newmexicomagazine.org/blog/post/christmas-memories-and-traditions-in-new-mexico/); [Tomasitas — Why New Mexican Posole Is a Holiday Tradition](https://tomasitas.com/why-new-mexican-posole-is-a-holiday-tradition/)
+- Composition & proportions (§4.7) — one plate of two or three:
+  - What dominates: husks ~45% of what shows, exposed masa ~40%, red chile filling and sauce ~15%. [EDITORIAL]
+  - Components: tamales ~10–15 cm long (per the entry; about the can's height), ~4–5 cm thick; 2–3 per plate (per the entry), husks peeled back to expose the top third; optional red chile spooned over one; a bowl of posole alongside for the holiday pairing. [EDITORIAL]
+  - Arrangement: side by side on a plate, one split lengthwise showing the red pork centre.
+  - State cues: masa moist and dense; steam; husk tan, ridged.
+  - Absent on purpose: banana-leaf wrapping, cheese blanket, sour cream, cilantro.
+  - Prompt-ready line: "Three corn-husk tamales side by side on a plate, each about the can's height and slimmer than it, husks peeled back to show pale, moist, dense masa; one split lengthwise reveals a deep red chile pork filling. A little red chile sauce spooned over one; steam rising. A bowl of red posole beside the plate."
 
 ### Dish: Pueblo bread (horno-baked) — Indigenous/Pueblo culinary and architectural feature
 
@@ -263,6 +326,13 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - Common confusion: Not a standard artisan bakery boule or rustic European hearth loaf (which would lack the horno's distinctive above-ground beehive-oven staging context and the community/feast-day framing); the oven itself, not just the bread's shape, is the primary unmistakable visual marker.
 - Confidence: MEDIUM-HIGH for the horno's construction and active present-day use; LOW-MEDIUM for shape-to-specific-Pueblo attribution and exact loaf dimensions — both flagged in GAP LOG.
 - Sources: [Atlas Obscura — In New Mexico, Bakers Keep the Tradition of Pueblo Bread Alive](https://www.atlasobscura.com/foods/pueblo-bread); [Wikipedia: Adobe bread](https://en.wikipedia.org/wiki/Adobe_bread); [Perry Null Trading — How to Build a Pueblo Bread Oven](https://turquoisetraders.com/blogs/perry-null-trading/how-to-build-a-pueblo-bread-oven)
+- Composition & proportions (§4.7) — loaves on a cloth (horno as backdrop):
+  - What dominates: loaves ~80% of the food surface; a torn piece showing crumb. [EDITORIAL]
+  - Components: 2–3 loaves at the entry's LOW-confidence ~20–25 cm (about one and a half to two times the can's height), round, oblong or knobbed; one torn open. [EDITORIAL; size LOW]
+  - Arrangement: in a cloth-lined basket or on a cloth on a table; the horno soft in the background.
+  - State cues: crisp deep golden crust, faint flour or ash dust; dense, chewy crumb.
+  - Absent on purpose: scored artisan boule patterns, sliced sandwich bread, butter pats and jam, sesame or seeds.
+  - Prompt-ready line: "Two round horno-baked Pueblo loaves in a cloth-lined basket, each about one and a half times the can's height across, with a crisp, deep golden-brown crust and a faint dusting of flour; one is torn open by hand to show a dense, chewy crumb. A rounded, earth-toned adobe beehive oven is soft and out of focus behind."
 
 ### Note: Navajo and Apache foodways — checked for inclusion, largely deferred rather than given full dish entries
 
@@ -273,6 +343,7 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **Pueblo bread's exact loaf dimensions were not found this pass** — described only qualitatively (large, round-to-oblong, family/market-batch-scale); the LOW-confidence 8–10 inch estimate in that dish's own entry is this file's own inference, not a sourced measurement. Flag for a dedicated follow-up pass, ideally with a source that measures or photographs a specific documented loaf.
 - **Which specific Pueblo community uses which specific bread shape was only partially sourced** (Laguna Pueblo's "elephant toes" was the one shape confidently attributed to a named Pueblo; "bulbous flower" and "oblong slab" shapes were not attributed to specific communities in the sourcing found this pass).
 - **The horno's "Spanish-introduced" framing rests on journalism/enthusiast-tier sourcing, not a tribally-authored or academic primary source** — flagged per this project's own Indigenous-heritage sourcing-discipline precedent (`us-appalachia.md`'s ramps/leather-britches entries). A future pass should seek Pueblo-authored or academic ethnographic sourcing before treating the origin-attribution claim as more settled than it currently is.

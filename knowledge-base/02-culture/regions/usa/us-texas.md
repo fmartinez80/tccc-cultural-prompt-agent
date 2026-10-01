@@ -116,6 +116,14 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Carolina/Memphis BBQ (`us-south.md`) — pork-centered, visibly sauced (thin vinegar-clear or thick tomato-red/mustard-yellow), plated rather than paper-served. Kansas City BBQ (`us-midwest.md`) — thick, glossy, dark tomato-molasses sauce coating the meat, the visual opposite of Central Texas's dry, matte bark. East Texas's own sweet tomato-sauced style is the closest internal confusable to Kansas City's — the sauce color/thickness convention, not the meat choice, is the checkable differentiator there.
 - Confidence: HIGH overall for the four-way regional structure and Central Texas's own detail; see individual cells above for finer-grained confidence.
 - Sources: [Black's BBQ — A Guide to Central Texas Barbecue Traditions](https://www.blacksbbq.com/resources/blog/central-texas-bbq-guide); [Authentic Texas — The History of Texas Barbecue, Brisket and Smoke](https://authentictexas.com/up-in-smoke/); [Texas Historical Commission — Bringing Texas Barbecue History to the Table](https://thc.texas.gov/blog/bringing-texas-barbecue-history-table); [MasterClass — A Guide to Texas Barbecue](https://www.masterclass.com/articles/a-guide-to-texas-barbecue); [Texas Monthly — Kreuz Market history](https://www.texasmonthly.com/bbq/kreuz-market-lockhart-history/)
+- Composition & proportions (§4.7) — one Central Texas tray (half pound of brisket plus a sausage link):
+  - What dominates: sliced brisket ~45% of the paper, sausage ~15%, white bread ~15%, pickles/onion/jalapeños ~10%; ~15% bare grease-stained paper. [EDITORIAL]
+  - Components: brisket ½ lb sliced to order, ~5–7 slices ~0.6 cm (flat) to ~1 cm (point) thick, each ~8–12 cm wide (the muscle's width, per the entry) and ~15–18 cm long; one sausage link ~12–15 cm, ~3 cm thick, or split. Counter rule of thumb: ⅓–½ lb of meat per adult when ordering two or more meats [MEDIUM — Exploring BBQ, All BBQ Menu (via search)]. White sandwich bread 2–4 slices, folded or stacked; dill pickle chips 4–6; raw onion 3–4 slices or a few rings; pickled jalapeño slices 3–5. Sides, if any, in small paper cups ~8–10 cm. [EDITORIAL for counts]
+  - Arrangement: brisket slices shingled in an overlapping row across the centre, bark edges up; sausage beside; bread at one corner; pickles, onion and jalapeños in a small loose heap.
+  - Vessel fill: butcher paper on a ~35×25 cm metal tray; the meat covers ~one-third to one-half of it (per the entry).
+  - State cues: matte black peppered bark, a thin pink smoke ring, glistening rendered fat on the slice faces, translucent grease spots on the paper.
+  - Absent on purpose: sauce on the meat, a plate, a toasted bun, parsley, coleslaw heaped on the paper, glossy lacquered ribs.
+  - Prompt-ready line: "A metal tray lined with butcher paper: five or six thick slices of smoked brisket shingled across the centre, each slice longer than the can's height, with a matte, nearly black peppered bark edge, a thin pink smoke ring and glistening rendered fat; a split smoked sausage link beside them; a few slices of plain white bread, dill pickle chips, raw onion and pickled jalapeños at the corner. Grease spots on the paper; no sauce on the meat."
 
 ### Dish: Barbacoa (South Texas) — a genuine sibling to the BBQ platter above, given its own full entry rather than a variant-table row
 
@@ -131,6 +139,14 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: **Central Texas brisket** (above) — barbacoa is shredded/pulled and taco-format, never sliced or served on a platter/tray; brisket is sliced and never served in a small taco. **Mexican-interior barbacoa traditions** (lamb/goat, different regional method) are a related but distinct dish family outside this file's scope. **Carnitas** — a confusable at the "shredded meat taco" level, but carnitas is pork, fried/confited rather than pit-smoked, and has a crispier, browned exterior on some pieces; barbacoa is exclusively beef in the Texas tradition and uniformly moist/shredded with no fried crisp element.
 - Confidence: HIGH for history and modern beef-cheek substitution; MEDIUM for the specific visual/scale synthesis.
 - Sources: [Houston Chronicle — Barbacoa and the tradition of Tejano barbecue](https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Barbacoa-and-the-tradition-of-Tejano-barbecue-6192235.php); [AmazingRibs.com — This Whole Head, Pit Cooked Barbacoa Keeps Texas Traditions Alive](https://amazingribs.com/this-whole-head-pit-cooked-barbacoa-keeps-texas-traditions-alive/); [NPR — Contemporary barbacoa](https://www.npr.org/2004/10/15/4108326/contemporary-barbacoa)
+- Composition & proportions (§4.7) — one order of three tacos:
+  - What dominates: shredded meat ~55% of each taco's visible top, tortilla ~35%, onion-cilantro garnish ~10%. [EDITORIAL]
+  - Components: corn tortillas ~10–13 cm (per the entry; about one and a half to two can-widths), single or doubled; meat ~40–60 g per taco, dark and glossy; chopped onion and cilantro a pinch each; salsa in a 2 oz cup; 2 lime wedges. [EDITORIAL]
+  - Arrangement: three folded tacos side by side, meat visible along the open edges, on foil or a paper-lined plate.
+  - Vessel fill: tacos cover ~60% of a ~23 cm plate or paper tray.
+  - State cues: moist, gelatinous sheen on the meat; warm tortillas with a few char spots; steam.
+  - Absent on purpose: BBQ sauce, yellow cheese, lettuce, sour cream, sliced brisket, hard shells.
+  - Prompt-ready line: "Three small folded corn tortilla tacos side by side on foil, each tortilla about one and a half times the can's width, warm with a few char spots, filled with dark, glossy, finely shredded beef cheek visible along the open edges, topped with a pinch of chopped white onion and cilantro. A small cup of salsa and two lime wedges beside them. No cheese, no lettuce, no sauce."
 
 ### Dish: Cabrito (South Texas)
 
@@ -143,6 +159,13 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Not lamb (a different species with a distinct flavor profile and typically not prepared whole/butterflied in this tradition) or a whole roast pig (larger, fattier, different skin-crackling convention).
 - Confidence: MEDIUM-HIGH overall — consistently described across Texas-food-journalism-tier sources, not independently corroborated by an institutional/academic source.
 - Sources: [Texas Monthly — Cabrito in South Texas](https://www.texasmonthly.com/bbq/cabrito-in-south-texas/); [Food Republic — This Old-School Meat Used To Be Popular On BBQ Menus](https://www.foodrepublic.com/1996670/old-school-meat-goat-once-popular-bbq-menus/)
+- Composition & proportions (§4.7) — one plated portion (whole butterflied animal noted):
+  - What dominates: on the plate, goat meat ~55%, sides ~35% (rice, charro beans or tortillas), garnish ~10%. [EDITORIAL]
+  - Components: 2–4 bone-in pieces ~8–12 cm (rib or leg sections, about two-thirds to most of the can's height); a scoop of rice or beans; 2–3 flour or corn tortillas folded; pico or lime on the side. A whole butterflied kid on the pit is ~60–80 cm long, splayed flat. [EDITORIAL]
+  - Arrangement: pieces leaning together on one half of a 26–28 cm plate, sides on the other half.
+  - State cues: lean, pale meat, thin blistered skin with dark char spots; little fat.
+  - Absent on purpose: heavy sauce, a lamb-chop frenched look, a fatty whole pig, rosemary sprigs.
+  - Prompt-ready line: "A white plate with three bone-in pieces of mesquite-grilled young goat, each about two-thirds of the can's height, lean and pale with thin, blistered, char-spotted skin, leaning together on one half; a scoop of pinto beans and folded warm tortillas on the other half, a lime wedge. No sauce, no herb garnish."
 
 ### Dish: Texas chili — "bowl of red" (full authoritative entry — supersedes `us.md`'s national-index Chili pointer for Texas)
 
@@ -159,6 +182,13 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: **Cincinnati chili** (`us-midwest.md`) — thinner, gravy-like, ground (not chunked) meat, served over spaghetti, a completely different serving format. **A generic ground-beef "chili con carne" with beans** (a common home-cooking/canned-product default nationally) — the absence of beans and the whole-meat-chunk texture (not ground) are the two checkable, defining differences from Texas chili specifically.
 - Confidence: HIGH overall for history, official status, and composition.
 - Sources: [statesymbolsusa.org — Texas State Dish: Chili](https://statesymbolsusa.org/symbol-official-item/texas/state-food-agriculture-symbol/chili); [Texas Highways — A Look At Terlingua's Chili Origins](https://texashighways.com/culture/history/a-look-at-terlinguas-chili-origins/); [Texas Hill Country — Texas Chili History](https://texashillcountry.com/texas-chili-history-state-dish/); [The Seasoned Mom — Texas Chili](https://www.theseasonedmom.com/texas-chili/)
+- Composition & proportions (§4.7) — one bowl:
+  - What dominates: chunky beef-and-chile stew ~95% of the bowl's surface; toppings sit beside, not on top (per the entry). [EDITORIAL]
+  - Components: bowl 15–18 cm filled to ~1 cm below the rim (per the entry); beef cubes ~2–2.5 cm (about a third of the can's width), 10–15 breaking the surface; side dishes: chopped raw onion, shredded cheddar, crackers or a cornbread square. Common table toppings are onion, cheddar and jalapeños [MEDIUM — recipe sources (via search)]. [EDITORIAL for counts]
+  - Arrangement: bowl centred; small topping dishes and crackers to one side.
+  - State cues: thick, matte-glossy sauce clinging; a thin red oil sheen at the edges; steam.
+  - Absent on purpose: beans, ground beef, pasta, a sour-cream dollop, a cilantro pile, a cheese blanket melted on top.
+  - Prompt-ready line: "A deep bowl of Texas bowl-of-red chili filled almost to the rim: a thick, deep brick-red stew with large, fork-tender beef cubes about a third of the can's width breaking apart at the edges, a thin red oil sheen, steam rising. Beside it, small dishes of chopped raw onion and shredded cheddar and a few crackers. No beans, no ground meat."
 
 ### Dish: Tex-Mex tacos — hard-shell ground-beef style (full authoritative entry — supersedes `us.md`'s national-index Tacos pointer for the Tex-Mex variant)
 
@@ -175,6 +205,14 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - **Puffy taco note (San Antonio-specific coexisting variant)**: invented in the 1950s at a San Antonio drive-in by cook Henry Lopez, who experimented with deep-frying uncooked masa dough rather than a pre-formed hard shell — the shell puffs up in the fryer into a rounded, domed, air-pocketed pillow rather than a flat, crisp, U-shaped shell. Filled most commonly with picadillo (seasoned ground beef with diced potato, bell pepper, and onion) or shredded chicken, then topped the same way as the hard-shell version (lettuce, tomato, cheese). Visually, a puffy taco shows an irregular, organically bulging, golden-brown fried surface with visible large air pockets when broken open — a distinctly different silhouette from the flat-sided, uniformly U-shaped hard-shell taco above, and should not be depicted interchangeably with it when a scene is specifically San Antonio-set. [CONFIDENCE: HIGH for the invention story and construction] [SOURCE: [Texas Monthly — The Delicate History of the Puffy Taco](https://www.texasmonthly.com/food/the-delicate-history-of-the-puffy-taco/)]
 - Confidence: HIGH overall for the hard-shell Tex-Mex form and its distinguishing garnishes; HIGH for the puffy taco's origin and construction.
 - Sources: [How to Feed a Loon — Authentic Tex-Mex Beef Tacos](https://howtofeedaloon.com/authentic-texmex-beef-tacos/); [Wikipedia: Hard-shell taco](https://en.wikipedia.org/wiki/Hard-shell_taco); [Texas Monthly — The Delicate History of the Puffy Taco](https://www.texasmonthly.com/food/the-delicate-history-of-the-puffy-taco/)
+- Composition & proportions (§4.7) — one plate of three hard-shell tacos:
+  - What dominates: inside each shell, from the top view lettuce ~35%, yellow cheese ~25%, beef ~25%, tomato ~10%, sour cream ~5%; from the side, the golden shell is ~60% of what shows. [EDITORIAL]
+  - Components: shells ~13–15 cm long, ~8–10 cm tall (per the entry; shorter than the can); beef ~50–60 g per taco, filling the lower half; shredded cheddar a layer; iceberg mound ~2–3 cm above the shell edge; tomato dice ~1 cm, 6–10 per taco; sour cream 0–1 small dollop. [EDITORIAL]
+  - Arrangement: three tacos upright side by side, leaning on each other or in a holder; optional rice and refried beans on the rest of a combo plate.
+  - Vessel fill: tacos alone ~50% of a 26 cm plate; with rice and beans ~85%.
+  - State cues: shell matte with small blisters and a crack or two; cheese softened; lettuce crisp.
+  - Absent on purpose: soft corn tortillas, onion-cilantro-only garnish, white cheese, pineapple, a tall overflowing tower, lime wedges as the main garnish.
+  - Prompt-ready line: "Three crisp, golden U-shaped hard corn taco shells standing upright side by side on a plate, each a little shorter than the can, with small fried blisters. Inside, browned seasoned ground beef in the bottom, then softened shredded yellow cheddar, a mound of shredded iceberg lettuce and diced red tomato rising just above the shell, a small dollop of sour cream. Neat, nothing spilling."
 
 ### Dish: Breakfast taco (distinct serving-occasion entry — cleared against the breakfast-exclusion scope, see FILE ROLE & METHOD above)
 
@@ -189,6 +227,13 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Not a burrito (which is rolled/fully enclosed rather than folded, and typically larger); not the hard-shell/puffy Tex-Mex tacos above (soft flour tortilla vs. fried corn shell is the checkable marker); not a Mexican-interior breakfast taco necessarily using the same fillings, though no strong documented visual difference was found to flag.
 - Confidence: MEDIUM-HIGH for the dish's composition and Texas cultural significance; MEDIUM for exact origin-city/date claims, which remain genuinely disputed between sources.
 - Sources: [ATXtoday — The delicious history of breakfast tacos origins](https://atxtoday.6amcity.com/food/delicious-history-breakfast-tacos); [CNN Travel — A short history of the long fight over breakfast tacos](https://www.cnn.com/travel/article/breakfast-tacos-origins-mexico-texas/index.html)
+- Composition & proportions (§4.7) — two tacos in foil:
+  - What dominates: flour tortilla ~60% of what shows; filling at the open edge ~40% (egg ~60% of the filling, potato/bacon/chorizo ~30%, cheese ~10%). [EDITORIAL]
+  - Components: flour tortillas ~15 cm (per the entry; about twice the can's width), folded in half; ~90–110 g filling each; salsa in a 2 oz cup, red or green. [EDITORIAL]
+  - Arrangement: two folded tacos side by side in opened foil, open edges toward camera.
+  - State cues: tortilla pale with light brown griddle spots, slightly puffed; egg soft yellow curds; faint steam.
+  - Absent on purpose: a rolled burrito, a hard shell, a breakfast plate setting (scope rule), lettuce and tomato, a hand holding it.
+  - Prompt-ready line: "Two soft flour tortilla tacos side by side in opened foil, each tortilla about twice the can's width, folded in half, pale with light brown griddle spots. Along the open edges, soft yellow scrambled egg mixed with diced golden potato and a few crumbles of orange chorizo, a little melted cheese. A small cup of red salsa beside them."
 
 ### Dish: Tex-Mex enchiladas (full authoritative entry — supersedes `us.md`'s national-index Enchiladas pointer for the Tex-Mex variant; builds on, does not duplicate, `us.md`'s existing Tex-Mex-vs-New-Mexican comparison)
 
@@ -202,6 +247,14 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: See `us.md`'s existing entry (New Mexican stacked enchiladas) — not re-derived here.
 - Confidence: HIGH for the rolled/chili-gravy form generally (per `us.md`); MEDIUM-HIGH for the chili gravy's specific causal-history account added in this pass.
 - Sources: (in addition to `us.md`'s existing Enchiladas sourcing) [Homesick Texan — Cheese enchiladas: the essence of Tex-Mex](https://www.homesicktexan.com/essence-of-tex-mex/); [House of Yumm — Best Ever Enchilada Sauce Recipe](https://houseofyumm.com/best-ever-enchilada-sauce-recipe/)
+- Composition & proportions (§4.7) — one combination plate:
+  - What dominates: the sauced, cheese-covered enchiladas ~55% of the plate, Spanish rice ~20%, refried beans ~20%, garnish ~5%. [EDITORIAL]
+  - Components: 2 enchiladas is the most common plate, 3 at some restaurants [MEDIUM — restaurant menus, Seasoned Homemaker (via search)]; each rolled cylinder ~12–13 cm long and ~4 cm thick (per the entry); chili gravy blanketing them; shredded yellow cheese melted over; chopped raw onion a sprinkle; rice a scoop ~8–10 cm; refried beans a scoop with a cheese sprinkle; optional small lettuce-tomato garnish at the edge. [EDITORIAL for portion sizes]
+  - Arrangement: enchiladas parallel across one half of a 26–28 cm plate (often an oval platter), rice and beans side by side on the other half.
+  - Vessel fill: ~85% of the plate covered; the plate rim visible.
+  - State cues: glossy melted cheese, sauce bubbling at the edges as from a hot oven-safe plate; steam.
+  - Absent on purpose: visible tortilla edges, green salsa, crema zigzags, cilantro piles, a fried egg, layered stacks.
+  - Prompt-ready line: "A hot oval combination plate: two rolled enchiladas side by side, each about the can's height long, buried under an opaque, reddish-brown chili gravy and melted shredded yellow cheese with a sprinkle of chopped raw onion, bubbling at the edges. On the other half, a scoop of orange-tinted Spanish rice and a scoop of refried beans. Steam; no tortilla edges showing."
 
 ### Dish: Fajitas (new full entry — a real, dated, Texas-specific invention)
 
@@ -218,6 +271,13 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Not carne asada (a plated, already-sliced grilled steak served without the tableside self-assembly ritual or the sizzling skillet); not stir-fry (different seasoning profile and garnish set, and no self-assembly-with-tortillas convention).
 - Confidence: HIGH for the multi-claimant origin history and the sizzling-skillet presentation's specific origin story; HIGH for composition and serving format.
 - Sources: [Austin Chronicle — Fajita History](https://www.austinchronicle.com/food/fajita-history-11721578/); [Austin American-Statesman — Austin's Fajita King](https://www.statesman.com/story/lifestyle/food/2019/09/25/why-you-can-thank-austin-man-for-your-sizzling-fajitas/2696961007/); [Food and the Story — The Sizzle That Changed Houston](https://foodandthestory.substack.com/p/the-sizzle-that-changed-houston); [Wikipedia: Fajita](https://en.wikipedia.org/wiki/Fajita)
+- Composition & proportions (§4.7) — one skillet for one diner, with its trays:
+  - What dominates: in the skillet, steak strips ~55%, onion and pepper strips ~45%; across the whole spread, the skillet ~45%, tortillas ~25%, garnish tray ~30%. [EDITORIAL]
+  - Components: skillet ~23–25 cm oval (per the entry) on a wooden underliner; meat ~6–8 oz (170–225 g) raw per person [MEDIUM — Foods Guy, Beef Direct portion guides (via search)] — 12–18 strips ~10–13 cm long, ~1.3 cm wide; onions and peppers in strips ~1 cm wide; flour tortillas 4–6, ~15–20 cm, in a covered warmer or foil; garnish: guacamole, pico de gallo, sour cream, shredded cheese, each a ~5–6 cm mound or small cup; lime wedges. [EDITORIAL for strip count]
+  - Arrangement: meat heaped over a bed of onions and peppers; skillet in front, tortillas and garnish tray behind it.
+  - State cues: visible steam and light smoke rising, oil glistening, char marks on the strips.
+  - Absent on purpose: a pre-assembled taco, a plated steak, rice heaped in the skillet, a bonfire flame.
+  - Prompt-ready line: "A sizzling black cast-iron oval skillet on a wooden underliner, about four times the can's width, piled with charred strips of skirt steak, each about the can's height long, over glossy, softened strips of onion and red and green pepper, steam and light smoke rising. Behind it, a covered stack of warm flour tortillas and small mounds of guacamole, pico de gallo, sour cream and shredded cheese."
 
 ### Dish: Chile con queso ("queso")
 
@@ -233,6 +293,13 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Not guacamole (green, chunky, unmelted) or a tomato-based salsa (thin, translucent, no melted-cheese component). Not queso flameado (a distinct, drier, skillet-melted-cheese dish without queso's diced-chile liquid-dip consistency).
 - Confidence: MEDIUM-HIGH for the history; HIGH for composition and visual description.
 - Sources: [Food Republic — The Homesick Texan's Brief History Of Chile Con Queso](https://www.foodrepublic.com/2017/10/03/history-chile-con-queso/); [Wikipedia: Chile con queso](https://en.wikipedia.org/wiki/Chile_con_queso)
+- Composition & proportions (§4.7) — one shared bowl with chips:
+  - What dominates: the yellow-orange queso surface ~90% of the bowl, chile and tomato flecks ~10%; in the frame, the chip basket is larger than the bowl. [EDITORIAL]
+  - Components: bowl 15–18 cm filled to ~1–2 cm below the rim (per the entry); a basket of tortilla chips ~4–6 oz (a dine-in basket) [MEDIUM — Moe's portion guide (via search)], chips ~7–8 cm triangles (a little wider than the can); green chile dice ~0.5 cm. Loaded ("Bob Armstrong") version: a scoop of taco meat ~6–8 cm and small dollops of guacamole and pico on top. [EDITORIAL for flecks]
+  - Arrangement: bowl beside a paper-lined basket; one chip dipped in at an angle.
+  - State cues: smooth, glossy, slow-dripping; a thin skin forming only at the rim; faint steam.
+  - Absent on purpose: white queso (unless briefed), a grainy or oily broken surface, nacho-style chips under melted cheese, cilantro piles.
+  - Prompt-ready line: "A round bowl filled nearly to the rim with smooth, glossy, yellow-orange chile con queso, flecked with tiny pieces of green chile and red tomato, one tortilla chip dipped in at an angle with a slow drip. Beside it, a larger paper-lined basket of tortilla chip triangles, each a little wider than the can. Faint steam."
 
 ### Dish: Chicken-fried steak
 
@@ -248,6 +315,14 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Country-fried steak (a near-synonym in some regions, sometimes distinguished by using brown gravy instead of cream gravy — this file did not find a fully settled, universally agreed distinction and flags this as a genuine, unresolved naming ambiguity). Schnitzel itself (the direct ancestor) is typically served without a thick cream gravy and often with a lemon wedge instead — the gravy is the Americanized, Texan-specific departure point.
 - Confidence: MEDIUM-HIGH overall; the origin story is explicitly contested (see above) and flagged rather than resolved.
 - Sources: [TSHA — The History and Preparation of Chicken-Fried Steak](https://www.tshaonline.org/handbook/entries/chicken-fried-steak); [Chowhound — What Texans Get Wrong About The Origin Story Of Chicken Fried Steak](https://www.chowhound.com/2144420/texas-chicken-fried-steak-origin-story/); [We3Travel — 10 Texas Chicken-Fried Steak Plates Bigger Than the State Fair](https://we3travel.com/texas-10-chicken-fried-steak-plates-bigger-than-the-state-fair/)
+- Composition & proportions (§4.7) — one everyday plate:
+  - What dominates: steak ~45% of the plate (half to two-thirds of it under gravy), mashed potatoes ~20%, green beans ~15%, gravy pooling ~10%. [EDITORIAL]
+  - Components: a ~6 oz breaded cube steak (a typical serving) topped with about ½ cup of cream gravy [MEDIUM — Wikipedia (via search)]; steak ~15–20 cm across (per the entry; a little longer than the can's height), ~1.5–2 cm thick with crust; mashed potatoes a ~8 cm scoop with gravy; green beans a small pile; optional Texas toast slice. Showpiece version overhangs the plate (per the entry). [EDITORIAL for sides]
+  - Arrangement: steak across the centre-left, gravy ladled over its middle, sides on the right.
+  - Vessel fill: 26–28 cm plate ~85% covered.
+  - State cues: craggy, crisp crust dry where uncovered; gravy thick, pepper-speckled; steam.
+  - Absent on purpose: brown gravy, a lemon wedge (schnitzel), pink meat, parsley sprigs, a smooth thin coating.
+  - Prompt-ready line: "A diner plate with a wide chicken-fried steak a little longer than the can's height, its craggy, golden-brown breaded crust dry and crisp at the edges, the middle covered with thick, pale ivory cream gravy speckled with black pepper. A scoop of mashed potatoes with more gravy and a small pile of green beans on the side. Steam rising."
 
 ### Dish: Kolaches / klobasnek (Czech-Texan heritage)
 
@@ -262,6 +337,13 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: **Each other** — the exposed-filling well vs. fully-enclosed distinction is the single clearest, most checkable marker between the two forms, and a scene depicting one while the associated text calls it the other's name is a real, checkable authenticity risk given how often the names are casually swapped in everyday Texas usage. Not a plain Danish pastry (a Danish is typically flakier/laminated dough, not a soft yeast-roll texture) or a corn dog (a klobasnek's casing is baked bread dough, not a fried cornmeal batter).
 - Confidence: HIGH for the settlement history and the two-form distinction; MEDIUM-HIGH for the specific size figures.
 - Sources: [Southern Foodways Alliance — The Keepers of Kolaches: The Evolutions of Texas-Czech Baking](https://www.southernfoodways.org/oral-history/the-keepers-of-kolaches-the-evolutions-of-texas-czech-baking/); [Colorado River Land Trust — Kolache Road Trip](https://www.coloradoriverlandtrust.org/kolache-road-trip-tracing-the-sweet-buttery-roots-of-texas/); [The Anthony Kitchen — Texas Kolaches (Klobasneks) with Sausage](https://www.theanthonykitchen.com/texas-kolaches/)
+- Composition & proportions (§4.7) — a half-dozen box, mixed (per the entry's default):
+  - What dominates: soft golden dough ~70% of the visible surface; fruit/cheese centres ~20%; klobasnek logs show no filling from outside. [EDITORIAL]
+  - Components: sweet kolaches ~8–10 cm across (per the entry; a bit wider than the can), well ~4–5 cm, ~3–4 cm tall; klobasnek ~10–13 cm long (close to the can's height), ~5 cm thick; 3 + 3 in a plain box; one klobasnek cut to show the sausage. [EDITORIAL]
+  - Arrangement: two rows in an open plain white bakery box, or on a bakery case tray in neat rows.
+  - State cues: soft, matte, slightly domed dough; glossy fruit centres; faint warmth.
+  - Absent on purpose: glossy egg-wash shine, icing drizzles, powdered sugar, flaky laminated Danish layers, a corn-dog batter, legible box print.
+  - Prompt-ready line: "An open plain white bakery box with six Texas pastries in two rows: three round, soft, matte golden kolaches, each a little wider than the can, with shallow centres of glossy apricot, deep purple poppy seed and white cream cheese; and three smooth golden klobasnek rolls close to the can's height, one cut open to show a plump sausage inside."
 
 ### Dish: Frito pie (a real, dated, staging-relevant Texas invention)
 
@@ -276,11 +358,19 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - Common confusion: Not nachos (nachos use tortilla chips, not Fritos' distinctive corrugated corn-chip shape, and are typically baked/broiled with the cheese fully melted over the chips rather than chili ladled on top of a mostly-unheated chip base).
 - Confidence: MEDIUM-HIGH for composition and the two serving formats; MEDIUM for the exact origin-city claim, honestly disclosed as contested.
 - Sources: [Texas Highways — All That and a Bag of Chips: The History of Frito Pie](https://texashighways.com/food-drink/all-that-and-a-bag-of-chips-the-history-of-frito-pie/); [Texas Standard — Frito pie, a mainstay under Friday night lights, is a Texas original](https://texasstandard.org/stories/frito-pie-history-texas/); [The Takeout — The Origins Of The Quirky Yet Delicious Frito Pie](https://www.thetakeout.com/1728998/who-invented-frito-pie/)
+- Composition & proportions (§4.7) — one walking Frito pie in its bag:
+  - What dominates: from above, chili ~55% of the opening, chips visible at the edges ~25%, cheese ~15%, onion ~5%. [EDITORIAL]
+  - Components: single-serve chip bag ~9 × 18–20 cm unopened (per the entry; taller than the can), split open lengthwise; chips ~2–3 cm corrugated scoops; chili ~¾–1 cup with beef chunks ~1.5–2 cm; shredded cheddar a handful; diced raw onion ~0.5 cm, a spoonful; a plastic spoon standing in it. [EDITORIAL]
+  - Arrangement: bag upright or laid in a paper boat, chili ladled down the middle, toppings on top.
+  - State cues: chips crisp at the edges, soaked where the chili sits; cheese half-melted; steam.
+  - Absent on purpose: a legible brand logo or bag print (plain foil bag), beans, sour cream, lettuce, jalapeño heaps, tortilla chips, a hand holding the bag.
+  - Prompt-ready line: "A small single-serve chip bag with no visible print, split open along its length and standing in a paper boat, a bit taller than the can. Inside, golden corrugated corn chips, crisp at the edges, under a ladle of thick brick-red beef chili, topped with half-melted shredded yellow cheese and diced raw onion, a white plastic spoon standing in it. Steam."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **RESOLVED (`us-arizona.md`'s research pass, 2026-09-24): El Paso/West Texas Tex-Mex's overlap with Sonoran content does not hold up.** El Paso's cross-border food culture is shaped by Ciudad Juárez, Chihuahua — a different Mexican state from Sonora, with its own distinct profile (more oil than lard, more beef than pork, Jack cheese) plus a documented New-Mexico-adjacent green-chile influence from proximity to Las Cruces/Hatch Valley — not by Sonoran cuisine, which centers on the Tucson/Nogales corridor roughly 300 miles away. The original flag rested on a single retail-blog source's loose regional gesture, not a specific, checkable culinary overlap. No content conflict exists between this file and `us-arizona.md` (renamed from `us-desert-southwest.md`).
 - **East Texas BBQ and West Texas BBQ were researched to a shallower depth than Central Texas** — both rest on a smaller number of journalism/enthusiast-tier sources rather than the institutional-tier sourcing (Texas Historical Commission, TSHA) available for Central Texas specifically. Flag for a deeper pass.
 - **Chicken-fried steak's origin is genuinely contested between two incompatible accounts** (German/Austrian schnitzel-adaptation vs. the Jimmy Don Perkins/Lamesa 1911 legend) — disclosed honestly in the dish entry rather than resolved; the schnitzel account is more frequently cited but no definitive tiebreaker source was found.

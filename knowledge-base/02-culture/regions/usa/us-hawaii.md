@@ -113,6 +113,23 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A mainland American "meat and two sides" diner plate (e.g., a Southern plate lunch) — ruled out specifically by the mayo-macaroni-salad-plus-two-scoops-rice combination, which has no equivalent convention in any other US regional file in this project.
 - Confidence: HIGH for the format's history, structure, and statewide non-negotiable status; MEDIUM for the exact container-dimension figure.
 - Sources: [Wheretraveler — Plate Lunches: A Scoop of Hawaiian History](https://www.wheretraveler.com/oahu/eat/plate-lunches-scoop-hawaiian-history); [Tasting Table — The Origin Of Hawaii's Most Popular Meal](https://www.tastingtable.com/943945/the-origin-of-hawaiis-most-popular-meal/); [Honolulu Civil Beat — Friend or Foam: Hawaii's Plate Lunch History](https://www.civilbeat.org/2011/10/13267-friend-or-foam-hawaiis-plate-lunch-history/); [Da Pidgin — Two Scoop Rice](https://dapidgin.com/learn/two-scoop-rice); [Hawaii Life — How the Mixed Plate Started](https://www.hawaiilife.com/blog/how-the-mixed-plate-started/); [Curtis J Cooks — Mastering Hawaiian Plate Lunch](https://curtisjcooks.com/guide-plate-lunch/)
+- Composition & proportions (§4.7) — the base format, one tray (the protein varies; see each protein's own block):
+  - What dominates: **rice ~40%** of the tray's top view, protein ~35%, macaroni salad ~25%: three separate zones, none blended. [EDITORIAL, consistent with entry's "a third each" guidance]
+  - Component table:
+
+    | Component | Real size | Count (tray) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice | Ice-cream-scoop domes, ~½ cup each (entry) — ~6.5–7 cm across, 4–5 cm tall, about the can's width | 2 | Glossy white, faint ridges from the scoop | Side by side at one end |
+    | Macaroni salad | One scoop, ~7–8 cm dome | 1 | Creamy white, elbow pieces, a few carrot flecks | Next to the rice |
+    | Protein | Fills the remaining third to half of the tray | Varies | Varies | Other end, may lean on the rice |
+
+    [Two scoops rice + one scoop mac salad confirmed as the standard formula; no source gave a gram weight per scoop — MEDIUM (via search: Wheretraveler, Ono Hawaiian BBQ). Sizes EDITORIAL]
+  - Arrangement: three distinct zones; sauce or gravy only on the protein (or poured over rice where the dish calls for it).
+  - Vessel fill/depth: foam clamshell (~23 × 15 × 7.5 cm common size, entry) open, filled to the rim — generous, not sparse.
+  - Served portion: one tray per person.
+  - State cues: steam from rice and protein; macaroni salad cool, matte-creamy.
+  - Absent on purpose: a tossed green salad as default, fries, garnish sprigs, anything mixed together.
+  - Prompt-ready line: "An open white foam clamshell, about twice the can's height across, generously filled in three separate mounds: two round ice-cream-scoop domes of white rice side by side, each about the can's width; one creamy white scoop of elbow macaroni salad next to them; and a hot main dish covering the other end of the tray. Nothing tossed together, no green salad, no garnish."
 
 ### Dish: Loco moco
 
@@ -129,6 +146,15 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A hamburger steak plate served with mashed potatoes and gravy (a mainland US diner dish) — ruled out by the rice base (never mashed potatoes) and the fried-egg crown, which has no equivalent in a standard mainland hamburger-steak plate.
 - Confidence: MEDIUM-HIGH for origin and composition; MEDIUM for the specific finished-height synthesis.
 - Sources: [National Geographic — The Surprising History of Hawai'i's Loco Moco](https://www.nationalgeographic.com/culture/article/loco-moco-hawaii-food-history); [Whats Cooking America — Loco Moco Recipe and History](https://whatscookingamerica.net/history/locomocohistory.htm); [Wikipedia: Loco moco](https://en.wikipedia.org/wiki/Loco_moco); [Sense & Edibility — Loco Moco](https://senseandedibility.com/loco-moco-hawaiian-beef-gravy/)
+- Composition & proportions (§4.7) — one plate or bowl:
+  - What dominates: from above, **gravy ~45%**, rice showing ~25%, egg ~20%, patty edge ~10%. [EDITORIAL]
+  - Components: rice about 1 cup ("two scoops") as the base; one beef patty ~4 oz (~115 g), ~10–11 cm across and ~2 cm thick (entry: ¾ in) — about 1.5× the can's width [MEDIUM — Taste of Home / The Kitchn recipes (via search)]; brown gravy ~½ cup ladled over the patty, running onto the rice; 1 sunny-side-up egg, white ~12 cm, yolk a ~4 cm dome (2 eggs on a "double" version). Stack ~6–7 cm high (entry). [counts EDITORIAL]
+  - Arrangement: rice → patty → egg, stacked in the centre; gravy pooling to one side; rice visible at the edges; macaroni salad scoop beside.
+  - Vessel fill/depth: 26–28 cm plate or wide shallow bowl, food covering ~60% of it.
+  - Served portion: one per person.
+  - State cues: yolk glossy and unbroken, gravy steaming and clinging, egg-white edges lightly crisp.
+  - Absent on purpose: mashed potatoes, a bun, a cheese slice, onion rings, a gravy flood hiding all the rice.
+  - Prompt-ready line: "A wide shallow bowl of white rice topped with one thick hamburger patty about one and a half times the can's width, ladled with glossy brown gravy that runs down onto the rice, crowned with one sunny-side-up fried egg with a glossy domed yolk. White rice still visible around the edges; a scoop of creamy macaroni salad to one side. No mashed potatoes, no bun, no cheese."
 
 ### Dish: Spam musubi
 
@@ -145,6 +171,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A plain onigiri (Japanese rice ball) — ruled out by the rectangular, layered-block silhouette (never a triangular or round onigiri shape) and the visible Spam slice on top, which has no onigiri equivalent.
 - Confidence: HIGH for the WWII-era Spam-adoption context and general construction; MEDIUM for the specific named-inventor claim, honestly disclosed as contested.
 - Sources: [Time — The WWII Origins of Spam in Asian American Cuisine](https://time.com/5593886/asian-american-spam-cuisine/); [Tasting Table — The WWII Roots Of Spam Musubi](https://www.tastingtable.com/1106582/the-wwii-roots-of-spam-musubi/); [Wikipedia: Spam musubi](https://en.wikipedia.org/wiki/Spam_musubi); [Hungry Huy — How To Make Spam Musubi](https://www.hungryhuy.com/spam-musubi/)
+- Composition & proportions (§4.7) — one to three blocks:
+  - What dominates: from above, **the glazed meat slice ~90%** of the footprint; side view, nori band ~40%, rice ~35%, meat ~25%. [EDITORIAL]
+  - Components: block ~9 × 5 cm footprint (entry: 3.5 × 2 in) — about 1.4× the can's width long; 4–5 cm tall (about two-thirds of the can's width); meat slice ~1.2 cm thick; nori a taut band or wrap with rice just visible at the edges (entry). [MEDIUM per entry sizes]
+  - Arrangement: 1–3 blocks in a row on wax paper or a small plate, or one in a clear plastic sleeve.
+  - Served portion: 1–2 per person as a snack.
+  - State cues: glossy, caramelized, deep reddish-brown glaze; rice grains slightly shiny; nori matte and slightly softened.
+  - Absent on purpose: triangular onigiri shapes, pale unfried meat, a visible meat can or legible packaging, sushi garnishes (wasabi, pickled ginger), a soy dish.
+  - Prompt-ready line: "Two rectangular rice blocks, each about one and a half times the can's width long and two-thirds of its width high, on a sheet of wax paper. On each, a thick slice of pan-fried canned pork luncheon meat with a glossy, caramelized, deep reddish-brown glaze, the whole block bound by a taut dark band of nori. No triangular rice balls, no packaging, no garnish."
 
 ### Dish: Saimin
 
@@ -162,6 +196,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: Ramen (already documented in this project's national/other regional content) — ruled out by saimin's clearer, thinner broth and chewier, higher-ash-content noodle, per the sourced distinction above. Not pho (a Vietnamese beef-and-star-anise-forward broth with garnishes served on the side) — saimin's garnishes are pre-added to the bowl, not served separately.
 - Confidence: HIGH for the historical/plantation-fusion origin and the ramen-distinction claim; LOW-MEDIUM for the specific bowl-size synthesis.
 - Sources: [Wikipedia: Saimin](https://en.wikipedia.org/wiki/Saimin); [Onolicious Hawaiʻi — Saimin, Hawaii's Noodle Soup](https://onolicioushawaii.com/saimin/); [SFGate — How a humble bowl of noodle soup became Hawaii's favorite comfort food](https://www.sfgate.com/hawaii/article/saimin-hawaii-noodle-soup-history-18693937.php); [Flux Hawaii — Why Saimin is Hawai'i's Favorite Comfort Food](https://fluxhawaii.com/why-saimin-is-hawaii-favorite-comfort-food/)
+- Composition & proportions (§4.7) — one bowl:
+  - What dominates: **clear broth ~45%** of the top view, toppings ~30%, noodles showing ~25%. [EDITORIAL]
+  - Components: bowl ~18–20 cm across (about three times the can's width), filled to 1–2 cm below the rim (entry); thin wavy wheat noodles ~2 mm, one portion; kamaboko 3–5 slices, 4–5 cm wide, ~3 mm thick; a pinch of green onion rounds; ½ boiled egg (entry); 2–4 thin red-edged char siu slices are a common extra. [EDITORIAL]
+  - Arrangement: toppings laid flat together on one side over the noodle mound.
+  - Served portion: one bowl per person; chopsticks and a spoon.
+  - State cues: steam; broth pale gold and clear enough to see noodles through.
+  - Absent on purpose: cloudy or opaque ramen broth, a standing nori sheet, corn, butter, garnish on a side plate.
+  - Prompt-ready line: "A deep bowl, about three times the can's width, of clear pale golden broth filled close to the rim, steam rising, with thin wavy wheat noodles beneath. Laid flat on top: three slices of pink-rimmed white fish cake, each about two-thirds the can's width, half a boiled egg and a scatter of green onion rounds. No cloudy broth, no corn, no nori sheet."
 
 ### Dish: Chicken katsu plate
 
@@ -178,6 +220,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: Mainland Southern-style fried chicken (already documented in `us.md`) — ruled out by the panko-crumb's coarser, craggier texture (vs. a flour-dredged or buttermilk-battered Southern crust) and by chicken katsu's sliced-strip presentation rather than a whole bone-in piece.
 - Confidence: MEDIUM-HIGH for the dish's plate-lunch centrality and general construction; LOW-MEDIUM for the specific size synthesis.
 - Sources: [Hawaii Guide — Chicken Katsu — Hawaii's Plate Lunch Workhorse](https://www.hawaii-guide.com/hawaii-eats/recipes/chicken-katsu); [Honolulu Civil Beat — Friend or Foam: Hawaii's Plate Lunch History](https://www.civilbeat.org/2011/10/13267-friend-or-foam-hawaiis-plate-lunch-history/); [Wikipedia: Chicken katsu](https://en.wikipedia.org/wiki/Chicken_katsu)
+- Composition & proportions (§4.7) — one plate-lunch tray:
+  - What dominates: **cutlet ~40%** of the tray, rice ~35%, macaroni salad ~20%, sauce ~5%. [EDITORIAL]
+  - Components: one cutlet, sliced into ~8–10 strips 2–2.5 cm wide (entry) — about a third of the can's width each — fanned over 13–18 cm (entry: 5–7 in); panko crust 3–5 mm; tonkatsu sauce 2–3 tablespoons in a small cup or a stripe across the strips; 2 rice scoops; 1 macaroni salad scoop; a small heap of shredded cabbage under the cutlet is a common option. [EDITORIAL]
+  - Arrangement: strips fanned at a slant beside the rice, partly overlapping, cut faces showing white meat.
+  - Served portion: one tray per person.
+  - State cues: dry, crisp, craggy crust; light steam; no oil pooling.
+  - Absent on purpose: bone-in fried chicken, gravy, honey drizzle, fries.
+  - Prompt-ready line: "An open foam plate-lunch tray with a fried panko-crusted chicken cutlet, deep golden and craggy, sliced into about eight parallel strips, each about a third of the can's width, fanned beside two white rice scoop domes and one scoop of creamy macaroni salad. Pale moist white meat shows at each cut; a small cup of dark brown tangy sauce. No bone-in fried chicken, no gravy."
 
 ### Dish: Garlic shrimp plate (North Shore Oʻahu shrimp-truck register)
 
@@ -194,6 +244,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A mainland shrimp scampi (typically peeled, served over pasta, in a wine-butter sauce) — ruled out by the shell-on presentation, the plate-lunch rice base (never pasta), and the more concentrated, less wine-forward garlic-butter flavor profile.
 - Confidence: HIGH for the North Shore truck-cluster history; MEDIUM-HIGH for the specific per-plate shrimp-count/size figures.
 - Sources: [Wikipedia: North Shore Shrimp Trucks](https://en.wikipedia.org/wiki/North_Shore_Shrimp_Trucks); [HAWAIʻI Magazine — Big Shrimpin'!](https://www.hawaiimagazine.com/big-shrimpin-our-guide-to-north-shore-oahu-shrimp-trucks-and-stands/); [Honolulu Magazine — Ranking 3 Garlic Shrimp Plates on Oʻahu's North Shore](https://www.honolulumagazine.com/ranking-garlic-shrimp-plates-north-shore/)
+- Composition & proportions (§4.7) — one plate:
+  - What dominates: **shrimp ~45–50%** of the plate, mounded higher than the rice; rice ~35%; garlic-butter pooling and sides ~15%. [EDITORIAL]
+  - Components: 8–12 shell-on butterflied shrimp (entry, MEDIUM-HIGH), each 7.5–10 cm straightened, curled into a C about the can's width across; minced garlic browned golden, clinging; 2 rice scoops; 1 lemon wedge; optional pineapple wedge or small side salad (entry).
+  - Arrangement: shrimp heaped over or against the rice; butter running into the rice.
+  - Served portion: one plate per person, often at an outdoor picnic table.
+  - State cues: glossy butter sheen, steam, rice stained gold where butter soaked in.
+  - Absent on purpose: peeled shrimp, pasta, a parsley pile, cocktail sauce, wine.
+  - Prompt-ready line: "A plate-lunch tray with two white rice scoops and a generous heap of about ten shell-on butterflied shrimp, each curled into a C roughly the can's width across, glossy with garlic butter and coated in golden browned minced garlic, butter pooling and soaking into the rice. One lemon wedge. No peeled shrimp, no pasta, no cocktail sauce."
 
 ### Dish: Manapua
 
@@ -210,6 +268,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A standard Cantonese dim-sum char siu bao — ruled out primarily by scale (manapua is documented as roughly double the size) rather than a difference in filling or construction; a plain unfilled steamed bun (mantou) — ruled out by the visible filling and the manapua's larger, rounder shape.
 - Confidence: MEDIUM-HIGH for the dish's Chinese-immigrant origin and general construction; MEDIUM for the specific scale-comparison and dimension figures.
 - Sources: [Onolicious Hawaiʻi — Manapua and The Manapua Man](https://onolicioushawaii.com/manapua/); [Wikipedia: Manapua](https://en.wikipedia.org/wiki/Manapua); [Ono Hawaiian Recipes — Hawaii's Best Manapua Recipe](https://onohawaiianrecipes.com/recipes/manapua/)
+- Composition & proportions (§4.7) — one or two buns:
+  - What dominates: whole, **the white bun is all that shows**; opened, crumb ~65%, filling ~35%. [EDITORIAL]
+  - Components: bun 10–13 cm across, 7.5–10 cm tall (entry; same figures, and roughly twice dim-sum char siu bao size, in hawaii-guide.com / Onolicious Hawaiʻi [MEDIUM via search]) — about 1.5–2× the can's width and two-thirds of its height; filling a ~5 cm core of ~1 cm diced red char siu; pinched spiral seam on top.
+  - Arrangement: one whole bun and one torn open, on a square of wax paper.
+  - Served portion: 1–2 per person.
+  - State cues: matte, faintly shiny white skin with a wisp of steam (baked version: glossy golden top); filling glossy.
+  - Absent on purpose: a bamboo steamer of small dim-sum buns, sesame seeds, dipping sauce.
+  - Prompt-ready line: "One large round steamed white bun, about one and a half times the can's width and two-thirds its height, smooth and matte with a pinched spiral seam on top, beside a second bun torn open to show a dense, glossy reddish filling of diced sweet barbecued pork. Both on a square of wax paper. No bamboo steamer, no small dim-sum buns, no dipping sauce."
 
 ### Dish: Malasada
 
@@ -226,6 +292,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A standard mainland US donut (glazed or plain ring donut) — ruled out by the absence of a center hole and by the generous, clumped granulated-sugar coating rather than a smooth glaze; not a beignet (`us-gulf-south.md`) — beignets are square-cut, powdered-sugar-dusted, and not shaped into a rounded ball the way a malasada is.
 - Confidence: HIGH for the Portuguese-immigrant origin and general construction; MEDIUM-HIGH for the specific size figure.
 - Sources: [Hawaiʻi Magazine — For the Family Behind Leonard's Bakery, Making Malasadas is a Sweet Labor of Love](https://www.hawaiimagazine.com/leonards-bakery-oahu-and-its-famous-malasadas/); [Wikipedia: Leonard's Bakery](https://en.wikipedia.org/wiki/Leonard's_Bakery); [Wikipedia: Malassada](https://en.wikipedia.org/wiki/Malassada); [Rasa Malaysia — Malasadas](https://rasamalaysia.com/malasadas/)
+- Composition & proportions (§4.7) — a few on wax paper:
+  - What dominates: **sugar-coated golden surface ~100%** of what shows; one torn open shows the pale crumb. [EDITORIAL]
+  - Components: ~7.5 cm across (entry: 3 in) — a little wider than the can; 5–6 cm tall; sugar in ~1 mm crystals clumping unevenly; filled version shows a 3–4 cm pocket of custard, chocolate or haupia when opened. [height EDITORIAL]
+  - Arrangement: 2–3 on wax paper beside an open plain paper bag; one torn in half.
+  - Served portion: 1–3 per person; bought by the half-dozen or dozen. [EDITORIAL]
+  - State cues: warm, steam from the torn crumb; sugar clinging; faint oil sheen under the sugar.
+  - Absent on purpose: a centre hole, glaze, powdered sugar, sprinkles, square beignet shapes.
+  - Prompt-ready line: "Three round, puffy fried dough balls, each a little wider than the can, on wax paper beside an open plain paper bag. No hole; deep golden-brown, slightly lumpy surfaces heavily coated in clinging clumps of granulated sugar. One is torn open, showing a soft, eggy, stretchy pale-yellow interior with a wisp of steam. No glaze, no powdered sugar, no sprinkles."
 
 ### Dish: Andagi (Okinawan doughnut)
 
@@ -242,6 +316,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: The malasada (this file, above) — the checkable differentiators are andagi's smaller, rounder, sugar-free, thicker-crusted form (baking-powder-leavened) versus the malasada's larger, more irregular, sugar-rolled, yeasted form.
 - Confidence: MEDIUM-HIGH for the Okinawan-immigrant origin and texture distinction from malasada; LOW for the specific finished-size figure.
 - Sources: [Bite My Bun — Andagi recipe](https://www.bitemybun.com/andagi-recipe/); [Wikipedia: Sata andagi](https://en.wikipedia.org/wiki/Sata_andagi); [The Kitchn — Sheldon Simeon's Andagi Recipe](https://www.thekitchn.com/andagi-recipe-23158708)
+- Composition & proportions (§4.7) — a small serving:
+  - What dominates: **matte golden crust ~100%** of each ball's surface; no coating. [EDITORIAL]
+  - Components: spheres ~4–6 cm (entry's golf-ball-to-tennis-ball range, LOW) — a bit smaller than the can's width; crust thick and crunchy, often split open along one side to show a dense pale crumb [EDITORIAL — the cracked look was not sourced this pass]; 4–6 per paper boat or bag.
+  - Arrangement: loosely piled in a paper boat or small bag.
+  - Served portion: 2–4 per person.
+  - State cues: dry, matte, crunchy-looking; a little crumb at the cracks.
+  - Absent on purpose: sugar coating, glaze, fillings, puffy malasada texture.
+  - Prompt-ready line: "A small paper boat holding five round, deep-golden-brown fried dough balls, each a bit smaller than the can's width, with thick, crunchy, matte cake-like shells, a few split open along one side to show a dense pale crumb, a scatter of crumbs in the boat. Plain, dry and crunchy-looking. No sugar coating, no glaze, no filling."
 
 ### Dish/ingredient: Li hing mui and li-hing-flavored snacks
 
@@ -257,6 +339,12 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A plain dried plum or prune — ruled out by the distinctive reddish-maroon coloring (from the food-coloring pickling process) and the sweet-salty-sour flavor profile (not independently visually checkable, but worth noting for staging context); a chili-lime fruit seasoning (a Mexican-American convention documented elsewhere in this project) — ruled out by li hing mui powder's reddish-orange (not green-flecked) color and its association specifically with Hawaii-branded packaging/snack products.
 - Confidence: MEDIUM-HIGH for origin and the whole-plum/powder distinction; MEDIUM for exact size figures.
 - Sources: [Onolicious Hawaiʻi — Li Hing Mui, A Hawaii Obsession](https://onolicioushawaii.com/li-hing-mui/); [Wikipedia: Li hing mui](https://en.wikipedia.org/wiki/Li_hing_mui); [Snack Hawaii — Li Hing Mui: Hawaii's Favorite Traveling Plum Explained](https://www.snackhawaii.com/blogs/news/li-hing-mui-the-traveling-plum)
+- Composition & proportions (§4.7) — whole plums, or powder on fruit:
+  - What dominates: whole-plum form — **the wrinkled maroon plums** fill an open small bag or jar; powder form — fruit ~60% of what shows, red-orange powder covering ~40% of the fruit surface unevenly. [EDITORIAL]
+  - Components: plums ~1.5–2.5 cm (entry: well under an inch to large-olive size), 10–20 visible; powder a fine dusting on 6–10 slices of mango or pineapple (~6–8 cm each) on a small plate. [EDITORIAL]
+  - Arrangement: plums spilling slightly from an open plain bag; fruit slices fanned, dusted from above.
+  - Absent on purpose: branded or legible packaging, chili-lime green flecks, glossy candied coating.
+  - Prompt-ready line: "A small plate of fresh mango slices, each about the can's height long, dusted unevenly with a fine vivid red-orange powder, beside an open plain paper bag spilling a few small wrinkled, matte, deep maroon dried plums, each much smaller than the can's width. No labels, no chili flakes, no glossy coating."
 
 ### Dish: Poi (Native Hawaiian — apply Indigenous-heritage sourcing discipline)
 
@@ -274,6 +362,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A generic gray or purple mashed-root-vegetable dish (e.g., mashed purple sweet potato or ube-based dessert paste, documented elsewhere in other cultures' food traditions) — the checkable differentiator is poi's specific matte lavender-gray (not the more saturated violet-purple of ube) and its context (served as a savory starch alongside kalua pig/laulau, never as a standalone sweet dessert).
 - Confidence: HIGH for cultural/cosmological significance and basic composition, on the strength of the academic/institutional sourcing tier reached; MEDIUM for the "finger consistency" naming convention and the specific vessel-fill/texture synthesis.
 - Sources: [Food, Culture & Society (Taylor & Francis) — Cultural Traditions and Food: Kānaka Maoli and the Production of Poi in the Heʻeʻia Wetland](https://www.tandfonline.com/doi/full/10.1080/15528014.2016.1208340); [Slow Food Foundation — Ark of Taste: Kalo Poi](https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/poi-kalo/); [Canoe Plants of Ancient Hawaiʻi — Kalo](https://www.canoeplants.com/kalo.html); [Kamehameha Schools — Ka Wai Ola: Papahana Kālai Papa Me Pōhaku Kuʻi ʻAi](https://kawaiola.news/mauliola/papahana-kalai-papa-me-pohaku-kui-ai/); [Sierra Club — The (Poi) Power of Hawaiian Food Sovereignty](https://www.sierraclub.org/sierra/2017-2-march-april/feature/poi-power-hawaiian-food-sovereignty)
+- Composition & proportions (§4.7) — one individual bowl:
+  - What dominates: **poi ~100%** of the bowl's surface — nothing on it. [EDITORIAL]
+  - Components: bowl 12–18 cm (entry) — about 2–2.5× the can's width; filled to 1–2 cm below the rim, holding a soft slumping mound (entry); a shared wooden calabash ~20–30 cm for a traditional table. [EDITORIAL]
+  - Arrangement: surface smooth, perhaps one finger-scooped trough; set beside the savoury dishes it accompanies.
+  - Served portion: a side to kalua pig, laulau or fish — never alone as a dessert.
+  - State cues: slightly glossy-wet, cool or room temperature, no steam, no lumps.
+  - Absent on purpose: toppings, sugar, garnish, bright violet ube colour, white or beige colour.
+  - Prompt-ready line: "A small plain bowl, about twice the can's width, filled nearly to the rim with smooth, thick, matte lavender-gray poi holding a soft slumping mound with a faint wet sheen and no lumps, set beside a plate of shredded smoky pork. Nothing on top: no toppings, no garnish, no bright purple colour."
 
 ### Dish: Kalua pig / imu earth-oven cooking (Native Hawaiian — apply Indigenous-heritage sourcing discipline)
 
@@ -291,6 +387,15 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: Mainland pulled pork/BBQ pork (documented elsewhere in this project) — ruled out by the absence of any BBQ sauce or heavy glaze on kalua pig, which is seasoned with salt alone, and by its lighter, less caramelized color.
 - Confidence: MEDIUM-HIGH for the imu's construction/process and kalua pig's basic composition; sourcing tier is honestly disclosed as museum-blog/enthusiast-practitioner level, not academic or a Native-Hawaiian-authored primary source — see GAP LOG.
 - Sources: [Polynesian Cultural Center Blog — Kalua Pork Recipe](https://blog.polynesia.com/kalua-pork-recipe-4-cooking-methods); [Wikipedia: Kālua](https://en.wikipedia.org/wiki/K%C4%81lua); [Primitive Ways — Imu: Hawaiian Underground Oven](https://www.primitiveways.com/Imu1.html); [Hawaii Luaus — What Is an Imu?](https://luaus.org/blog/luau-terminology-what-is-an-imu/)
+- Composition & proportions (§4.7) — everyday shredded plate-lunch portion (default):
+  - What dominates: **pork ~35–40%** of the tray, rice ~40%, macaroni salad ~20–25%; a kalua-pig-and-cabbage version swaps some pork area for soft wilted cabbage. [EDITORIAL]
+  - Components: loose pile ~10–12 cm across, 4–5 cm high (about 1.5× the can's width), ~110–170 g; strands 3–8 cm long, 0.5–1 cm thick; a few coarse sea-salt crystals at most. [EDITORIAL]
+  - Arrangement: pile at one end of the tray, rice domes and mac salad scoop separate.
+  - Served portion: one tray per person.
+  - State cues: moist, glistening with a little rendered fat, no sauce, no crust.
+  - Ceremonial whole-pig presentation: only for an explicit luau brief (see entry); not described here as a default.
+  - Absent on purpose: barbecue sauce, a bun, coleslaw, pineapple, crisp dark bark.
+  - Prompt-ready line: "On a foam plate-lunch tray, a loose pile of finely shredded pork about one and a half times the can's width across, moist gray-brown strands glistening with a little rendered fat and no sauce, beside two white rice scoop domes and one scoop of creamy macaroni salad. No barbecue sauce, no bun, no pineapple."
 
 ### Dish: Laulau (Native Hawaiian — apply Indigenous-heritage sourcing discipline)
 
@@ -308,6 +413,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A tamale (`us-new-mexico.md`, `us-arizona.md`) — ruled out by the leaf-wrapper material itself (taro and ti leaves, not a corn husk) and by the absence of any masa/corn-dough component; laulau's filling sits directly in cooked leaves, with no starch dough surrounding it.
 - Confidence: MEDIUM for general construction and cultural role; sourcing tier explicitly disclosed as enthusiast/recipe-blog level, not academic or Native-Hawaiian-authored — see GAP LOG.
 - Sources: [Whats Cooking America — Hawaiian Lau Lau Pork History and Recipe](https://whatscookingamerica.net/pork/hawaiian-laulaupork.htm); [Onolicious Hawaiʻi — Hawaiian Lau Lau](https://onolicioushawaii.com/lau-lau/); [Polynesia.com — Lau Lau: Ancient Hawaiian Dish, Modern Delicacy & Cultural Significance](https://www.polynesia.com/blog/lau-lau-ancient-hawaiian-dish-modern-delicacy-cultural-significance)
+- Composition & proportions (§4.7) — one bundle on a plate:
+  - What dominates: closed — **ti leaf ~100%**; opened — dark cooked taro leaf ~60%, pork/fish chunks ~40%. [EDITORIAL]
+  - Components: bundle ~10–12 cm long, 7–8 cm across (fist-sized per entry, LOW; about 1.5× the can's width); ~4–8 oz (115–225 g) protein per bundle — commonly 2–3 pork chunks of ~3–4 cm plus one piece of butterfish [MEDIUM — recipe norms, Waiāhole Poi Factory / UH recipe page (via search)]; two ti leaves crossed, tied with a leaf strip.
+  - Arrangement: bundle centre-plate, ti leaves opened back like petals; rice scoop and a small poi bowl beside.
+  - Served portion: one bundle per person.
+  - State cues: glossy, wilted dark-green ti leaves; steam; interior moist and collapsed.
+  - Absent on purpose: corn husk, masa, a smooth wide banana-leaf wrap, bright raw-green leaves, string bows.
+  - Prompt-ready line: "On a plate, one fist-sized bundle about one and a half times the can's width, wrapped in glossy, softened dark green ti leaves, the leaves opened back like petals to reveal a dark olive-green mass of cooked taro leaves with chunks of tender pork, steam rising. Beside it, a scoop of white rice and a small bowl of lavender-gray poi. No corn husk, no dough, no bright green leaves."
 
 ### Dish: Poke — traditional Native Hawaiian (apply Indigenous-heritage sourcing discipline; see next entry for the distinct mainland commercial poke bowl)
 
@@ -325,6 +438,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: **The modern mainland poke bowl (this file, next entry)** — the single most important, sourced distinction in this catalog's poke coverage; see that entry for the full disclosure. Not a Japanese sashimi presentation (individually sliced, arranged fish with no seasoning mixed in) — poke's defining "cut and dressed together" preparation, named for that exact action, is the checkable differentiator.
 - Confidence: HIGH for the traditional composition and pre-contact origin; MEDIUM-HIGH overall sourcing tier, honestly distinguished from poi's stronger academic-tier sourcing.
 - Sources: [Bishop Museum Blog — The History of Poke in Hawaiʻi](https://blog.bishopmuseum.org/history/the-history-of-poke-in-hawai%CA%BBi/); [Honolulu Magazine — Poke As We Know It Now Isn't Native Hawaiian. So What Is?](https://www.honolulumagazine.com/poke-as-we-know-it-now-isnt-native-hawaiian-so-what-is/); [Vital Choice — Poke Facts & History](https://www.vitalchoice.com/articles/cooking-tips/poke-facts); [Wikipedia: Inamona](https://en.wikipedia.org/wiki/Inamona)
+- Composition & proportions (§4.7) — one side bowl:
+  - What dominates: **fish or octopus ~75–80%**, limu ~10–15%, ʻinamona flecks ~5–10%. [EDITORIAL]
+  - Components: irregular hand-cut pieces 1.3–2 cm (entry) — about a quarter of the can's width; small bowl 12–15 cm, half to two-thirds full (entry); thin reddish-brown limu threads; dark oily ʻinamona flecks; coarse sea-salt crystals.
+  - Arrangement: a loose, uneven heap; seaweed threaded through.
+  - Served portion: a small side or shared pupu, not a meal bowl.
+  - State cues: matte, lightly moist, not sauce-glossy.
+  - Absent on purpose: soy-sesame sheen, scallion, sesame seeds, avocado, mango, a rice base, uniform cubes.
+  - Prompt-ready line: "A small bowl, about twice the can's width, half filled with irregular hand-cut pieces of deep red-brown raw skipjack tuna, each about a quarter of the can's width, mixed with thin reddish-brown seaweed strands, dark oily flecks of roasted ground candlenut and coarse sea-salt crystals. Matte and only lightly moist. No soy-sesame gloss, no scallions, no sesame seeds, no rice."
 
 ### Dish: Poke bowl — modern mainland fast-casual commercial phenomenon (a real, dated, separate evolution — coexists with, does not replace, the traditional entry above)
 
@@ -341,6 +462,23 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: **Traditional Native Hawaiian poke (this file, prior entry)** — the checkable differentiators are the mainland version's larger, more uniform fish cubes, its wider and more colorful topping array (edamame, mango, crispy onions, multiple sauce options largely absent from the traditional dish), and its full-meal bowl format with a rice/greens base, versus the traditional dish's smaller side-portion, three-ingredient (fish/limu/ʻinamona) simplicity.
 - Confidence: HIGH for the mainland commercial timeline and market growth; MEDIUM-HIGH for the construction/format distinction from the traditional dish.
 - Sources: [HAWAIʻI Magazine — How the Hawaiian Poke Bowl Became the World's New Fast Food](https://www.hawaiimagazine.com/how-the-hawaiian-poke-bowl-became-the-worlds-new-fast-food/); [Vital Choice — Poke Facts & History](https://www.vitalchoice.com/articles/cooking-tips/poke-facts); [Yale Daily News — Poke: The Politics of Food](https://yaledailynews.com/blog/2018/05/10/poke-the-politics-of-food/); [Honolulu Magazine — Poke As We Know It Now Isn't Native Hawaiian. So What Is?](https://www.honolulumagazine.com/poke-as-we-know-it-now-isnt-native-hawaiian-so-what-is/)
+- Composition & proportions (§4.7) — one regular fast-casual bowl:
+  - What dominates: from above, **fish ~35%**, mix-ins ~35%, rice showing ~25%, sauce ~5%. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Amount | Look | Where it sits |
+    |---|---|---|---|---|
+    | Fish cubes | ~1.5–2 cm (entry ½–¾ in), about a third of the can's width | 2–3 scoops of ~2 oz = 140–200 g, ~20–30 cubes [MEDIUM — fast-casual scoop norms, Kimecopak guide / Yelp Q&A (via search)] | Glossy red (ahi) or orange-pink (salmon) | One large section on top |
+    | Rice or greens | — | ~1 cup [MEDIUM — same] | White or brown rice | Underneath, visible at gaps |
+    | Mix-ins | Small heaps 4–6 cm | 3–5 kinds | Green edamame, dark seaweed salad, cucumber, avocado, pale pink ginger | Wedge sections around the fish |
+    | Sauce / crunch | Drizzle, sesame seeds | Light | Glossy streaks | Over the fish |
+
+  - Arrangement: sectioned wedges around or beside the fish, or fully tossed (entry); not both in one frame.
+  - Vessel fill/depth: 20–26 cm wide shallow bowl, mounded slightly above the rim (entry).
+  - Served portion: one bowl per person.
+  - State cues: fish glossy and cold; mix-ins fresh; sauce coating, not pooling.
+  - Absent on purpose: a sauce pool at the bottom, more than ~5 mix-ins, chopsticks standing upright in the rice.
+  - Prompt-ready line: "A wide shallow bowl, about three and a half times the can's width, with white rice underneath and sections arranged on top: a generous pile of glossy red raw tuna cubes, each about a third of the can's width, beside small heaps of green edamame, dark seaweed salad, sliced cucumber and pale pink pickled ginger, with a light drizzle of sauce and sesame seeds. No sauce pooling, no chopsticks stuck in the rice."
 
 ### Dish: Shave ice
 
@@ -356,6 +494,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A mainland snow cone — ruled out specifically and checkably by the ice texture (fine/fluffy/syrup-absorbing vs. coarse/crunchy/syrup-resistant, per the sourced distinction above) and by the buried "unders" convention, which has no snow-cone equivalent. Not Italian/mainland "shaved ice"/Italian ice sold in some other US regions (a smoother, more sorbet-like frozen dessert, not a snow-textured ice pile) — ruled out by shave ice's distinctly granular-but-fine (not smooth/creamy) texture.
 - Confidence: HIGH for the texture distinction from a snow cone; MEDIUM-HIGH for the "unders" convention; LOW-MEDIUM for exact serving-size figures.
 - Sources: [Food Republic — The Texture Difference Between Shaved Ice And Snow Cones](https://www.foodrepublic.com/1564319/difference-between-shaved-ice-snow-cone/); [KitchenAid — Shaved ice vs. snow cone: what's the difference?](https://www.kitchenaid.com/countertop-appliances/pinch-of-help/shaved-ice-vs-snow-cone); [Wikipedia: Hawaiian shave ice](https://en.wikipedia.org/wiki/Hawaiian_shave_ice); [HAWAIʻI Magazine — Hawaii Shave Ice: Our Guide to Favorite Toppings](https://www.hawaiimagazine.com/hawaii-shave-ice-our-guide-to-favorite-toppings/)
+- Composition & proportions (§4.7) — one single-serving cup:
+  - What dominates: **the ice dome ~85–90%** of the visible volume, rising well above the cup; the cup ~10–15%. [EDITORIAL]
+  - Components: cup with a 4–12 oz base (small/medium/large), the ice sculpted above it to roughly 2–2.5× the base volume [MEDIUM — shave-ice supply vendors, Hypothermias / Shave Ice Supplies (via search)]; total height about half to two-thirds of the can (entry); 2–3 syrup colours in wedge sections; the "unders" hidden inside (entry); optional thin condensed-milk drizzle, 3–5 mochi balls ~1.5 cm, or a dusting of li hing powder.
+  - Arrangement: cup set on a table or ledge with a spoon-straw standing in it (not held).
+  - Served portion: one cup per person.
+  - State cues: smooth, snowdrift-soft surface; syrup absorbed evenly; a slight melt at the base.
+  - Absent on purpose: coarse ice chips, syrup pooled at the bottom, visible ice cream on top, whipped cream.
+  - Prompt-ready line: "A smooth, rounded dome of extremely fine, snow-soft shaved ice rising high above a small paper cup, the whole about two-thirds the can's height, soaked evenly in three bright syrup colours in wedge-shaped sections, red, yellow and blue, with a thin drizzle of condensed milk and a spoon-straw standing in it. Slight melt at the base. No coarse ice chips, no syrup puddle, no ice cream on top."
 
 ### Dish/register: Commercial luau plate (a composite register, not a single dish — explicitly flagged as the commercial/tourist layer per this file's three-layer framing)
 
@@ -367,6 +513,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Primary composition: Commonly includes kalua pig (see that entry above), poi (see that entry above), lomi lomi salmon, rice, and haupia for dessert — see the two dedicated entries immediately below for those two dishes not otherwise covered in this catalog.
 - Confidence: MEDIUM-HIGH for the general buffet composition as a commercially standardized format, drawn from consistent description across multiple luau-industry and food-history sources.
 - Sources: See the individual component entries above and below, plus [Hawaii.com — Hawaiian Lūʻau History](https://hawaii.com/blog/hawaiian-luau); [Hawaiian Beach Rentals — Eat Like An Islander In Hawaii](https://www.hawaiianbeachrentals.com/hawaiitravelblog/eat-like-an-islander-in-hawaii-native-food-vs-local-food/)
+- Composition & proportions (§4.7) — one self-served buffet plate (only for an explicit commercial-luau brief):
+  - What dominates: no single item; **kalua pig ~25% and rice ~25%** are the largest; lomi lomi salmon ~10%, poi cup ~10%, haupia ~5%; any further buffet items (1–3 of them) share the rest. [EDITORIAL]
+  - Components: 26 cm disposable or melamine plate; kalua pork pile 8–10 cm; 1 rice scoop; lomi lomi salmon a spoonful ~5–7 cm across; poi in a small cup ~6–8 cm (about the can's width); 1 haupia square 4–5 cm. [EDITORIAL]
+  - Arrangement: items touching but distinct, slightly crowded, as self-served.
+  - Served portion: one plate per guest.
+  - State cues: warm torch-lit evening light; food moist, haupia firm.
+  - Absent on purpose: pineapple-boat clichés, cocktails or any alcohol, leis or flowers on the food.
+  - Prompt-ready line: "A self-served buffet plate with separate small portions: a loose pile of shredded smoky pork, one scoop of white rice, a spoonful of diced pink salmon with red tomato and onion, a small cup of lavender-gray poi about the can's width, and one firm white coconut pudding square at the rim. Items touch but don't mix. No pineapple boats, no cocktails, no flowers on the food."
 
 ### Dish: Lomi lomi salmon (a luau-plate staple with a specific, non-precontact, trade-good origin — honestly disclosed rather than presented as ancient)
 
@@ -382,6 +536,14 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A mainland tomato-and-onion salsa or pico de gallo — ruled out by the diced salted-salmon component, which has no equivalent in a Mexican-American salsa.
 - Confidence: HIGH for the non-precontact/trade-good origin and general composition; LOW-MEDIUM for the specific size synthesis.
 - Sources: [Taste of Home — Lomi Lomi Salmon Recipe](https://www.tasteofhome.com/recipes/lomi-lomi-salmon/); [Wikipedia: Lomi-lomi salmon](https://en.wikipedia.org/wiki/Lomi-lomi_salmon); [196 Flavors — Lomi-Lomi Salmon](https://www.196flavors.com/lomi-lomi-salmon/)
+- Composition & proportions (§4.7) — one side bowl:
+  - What dominates: **tomato ~45%**, salmon ~30–35%, onion ~20%, green onion flecks ~5% — reasoned from typical recipe ratios, where tomato outweighs salmon. [EDITORIAL]
+  - Components: dice ~0.6–1 cm, fingernail-sized; bowl 12–15 cm, about half full (entry); green onion rounds are a common addition. [EDITORIAL]
+  - Arrangement: a loose, glistening heap; distinct pieces.
+  - Served portion: a small side alongside poi and kalua pig.
+  - State cues: well-chilled, wet and glossy.
+  - Absent on purpose: herbs, chips, a purée, avocado.
+  - Prompt-ready line: "A small bowl, about twice the can's width, half full of a chilled, glistening mix of small diced pieces, each about the size of a fingernail: mostly bright red tomato, with deep pink-orange salted salmon and pale translucent sweet onion, and a scatter of green onion rounds. Distinct pieces, wet and glossy. No herbs, no chips, no purée."
 
 ### Dish: Haupia (coconut pudding)
 
@@ -397,11 +559,19 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - Common confusion: A mainland vanilla or coconut-cream pudding served in a cup (a soft-set, spoonable dessert) — ruled out by haupia's firm, sliceable, cut-square presentation, which a spoonable cup pudding cannot replicate.
 - Confidence: MEDIUM-HIGH for composition and luau-dessert-staple status; LOW-MEDIUM for the specific size figure.
 - Sources: [Wikipedia: Haupia](https://en.wikipedia.org/wiki/Haupia); [Hawaii Travel Guide — Haupia Recipe](https://www.hawaii-guide.com/hawaii-eats/recipes/haupia); [This Hawaii Life — Haupia](https://thishawaiilife.com/haupia/)
+- Composition & proportions (§4.7) — one or two squares:
+  - What dominates: **the white squares are the whole dish**; plate mostly empty around them. [EDITORIAL]
+  - Components: squares 4–5 cm (entry: 1.5–2 in, LOW-MEDIUM) — about two-thirds of the can's width; ~2–2.5 cm thick; 1–2 per person; on a buffet, rows of squares in a sheet pan. [thickness EDITORIAL]
+  - Arrangement: squares side by side on a small plate, or cut in a grid in the pan.
+  - State cues: opaque bright white, satin surface, clean cut edges, chilled.
+  - Absent on purpose: whipped cream, sauce, garnish, a wet glossy pudding in a cup.
+  - Prompt-ready line: "Two firm squares of bright white coconut pudding, each about two-thirds the can's width, with clean straight-cut edges and a smooth satin surface, sitting on a small plate. Opaque, cool and just set enough to hold their shape; the plate around them is otherwise empty. No whipped cream, no sauce, no garnish."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **Laulau's and kalua pig/imu's sourcing tier is honestly disclosed as museum-blog/enthusiast level throughout this file, not academic or Native-Hawaiian-authored** — the same category of gap `us-arizona.md` flagged for its Navajo/Hopi content and `us-new-mexico.md` flagged for Pueblo bread. Poi's entry reached a meaningfully stronger tier (a peer-reviewed *Food, Culture & Society* article, Slow Food's Ark of Taste, Kamehameha Schools and Office of Hawaiian Affairs programming materials) — a future pass should specifically try to find comparable Native-Hawaiian-institutional or academic sourcing (University of Hawaiʻi Hawaiian Studies faculty, ʻŌiwi-authored food-history scholarship, Native Hawaiian-led cultural organizations) for laulau and kalua/imu specifically before treating either as more settled than currently stated.
 - **Traditional poke's sourcing reached a real but intermediate tier** (Bishop Museum's own blog, plus a dedicated Honolulu Magazine feature distinguishing historic from contemporary poke) — stronger than laulau/kalua's tier, weaker than poi's academic-journal-tier sourcing. A future pass should look specifically for a Bishop Museum curatorial/exhibition-catalog source (rather than its blog) or an academic ethnobotany source on limu and ʻinamona specifically.
 - **The "finger consistency" naming convention for poi (one-finger, two-finger, three-finger poi) was not confirmed in this pass's academic-tier sources** — only in enthusiast-tier retellings. Flag for corroboration before treating it as more than a commonly-repeated but not independently verified convention.
