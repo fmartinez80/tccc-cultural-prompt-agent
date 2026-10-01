@@ -89,6 +89,40 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+National celebrations and the national snapshot rule live in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section. This section adds only what is genuinely Arizonan. All entries follow `country-file-schema.md` §5.7: the frame shows the operator's 1, 2 or small group of place settings at one stretch of a larger table, and the crowd is implied.
+
+### How large gatherings work here (deltas only)
+
+- **Sonoran grilling replaces the national cookout.** In Tucson and much of southern Arizona, "a carne asada" names both the mesquite-grilled beef and the backyard party itself, and it is eaten with thin flour tortillas rather than buns. [MEDIUM-HIGH — Tucson Foodie carne asada guide, Visit Arizona "Sonoran Mexican Food 101"]
+- **Holiday tamales are made in bulk and shared or exchanged** across families, and many households order them by the dozen from home cooks and restaurants. [HIGH — Arizona Daily Star (tucson.com) tamale coverage, multiple years]
+- **Snapshot default for Arizona** [EDITORIAL]: the most authentic crowd cues are (1) a grill with mesquite smoke soft in the background, (2) a cloth-wrapped stack of large thin flour tortillas more than the visible diners could eat, and (3) a desert yard with block wall, gravel and a paloverde or saguaro in late light. Use two of the three.
+
+#### Celebration: Carne asada gathering (una carne asada)
+- Type: community or family gathering (recurring, weekends and birthdays)
+- When: weekends year-round, avoiding midsummer midday heat; evening into night. Intake time: golden-hour or evening.
+- Gathering: extended family, compadres and neighbours, typically 10 to 30, in a backyard or carport (home outdoor). [MEDIUM — Tucson Foodie; headcount EDITORIAL]
+- The spread: thin-cut beef grilled over mesquite and chopped on a board; large thin flour tortillas (see catalog: Sonoran-style flour tortilla); salsa, guacamole, grilled green onions (cebollitas) and whole roasted chiles, beans, lime; often grilled Sonoran-style hot dogs for kids (see catalog: Sonoran hot dog). 5 to 7 shared vessels, mostly bowls and a cutting board. [MEDIUM-HIGH — Tucson Foodie, Visit Arizona]
+- Snapshot staging: **1 setting**: a plate with two folded flour-tortilla tacos of chopped charred beef, a spoon of beans, a grilled green onion; the cutting board of chopped beef cropped at the frame edge. **2 settings**: two identical plates on a folding or patio table; between them the board of carne asada, a molcajete or bowl of salsa and the cloth-wrapped tortillas. **Small group**: identical plates down one side of a long patio table; board, salsa, guacamole and beans in the middle, the table running out of frame. Crowd cues: mesquite smoke rising from a grill in the background, blurred family at a second table, string lights coming on. [EDITORIAL]
+- Decor and cues: block-wall desert backyard, gravel, a ramada or patio shade, string lights. Clichés to avoid: sombreros, giant inflatable cacti.
+- Never stage: beer coolers or bottles (the "cold drinks" part of the gathering is often beer; keep only the hero); a legible team jersey.
+- Confidence and sources: MEDIUM-HIGH for the gathering's name and food; EDITORIAL for staging.
+
+#### Celebration: Christmas Eve tamales (Nochebuena)
+- Type: calendar holiday
+- When: 24 December evening, with tamales eaten through Christmas Day and New Year. Intake time: evening.
+- Gathering: Mexican-American and Sonoran-heritage extended family, 10 to 25 (home indoor). [HIGH for the tradition — Arizona Daily Star; headcount EDITORIAL]
+- The spread: red chile beef tamales are the Tucson classic (the green corn tamal is the summer counterpart, see catalog: Green corn tamales; it should not be the default Christmas tamal); often menudo or pozole and beans, flour tortillas, and buñuelos or other sweets. No Arizona red-chile tamal entry exists; see `us-new-mexico.md` catalog: Tamales for husk form and scale, and the CANDIDATE QUEUE below. 3 to 5 vessels. [HIGH for red chile beef tamales — Arizona Daily Star; MEDIUM for the side dishes — not verified this pass]
+- Snapshot staging: **1 setting**: a plate with two red chile beef tamales, one unwrapped, red-stained masa visible; a stockpot of tamales cropped. **2 settings**: two identical plates; a platter of husk-wrapped tamales and a bowl of beans between them. **Small group**: identical plates on a dining table; tamale platter, beans and a basket of flour tortillas in the middle. Crowd cues: a second stockpot on the stove behind, a stack of foil-wrapped dozens on a counter (the gifting cue), blurred relatives. [EDITORIAL]
+- Decor and cues: home Christmas tree, poinsettias, a desert-modern or territorial-style home interior. Cliché to avoid: chile-pepper string lights as the only decor.
+- Never stage: religious imagery in focus; any alcohol.
+- Confidence and sources: HIGH for the tamale tradition and red chile beef as a category (Arizona Daily Star; Tucson Tamal & Heritage Festival coverage); EDITORIAL for staging.
+
+**Checked and not staged: the Tohono O'odham saguaro harvest (Hasan Baihi).** This is the most sacred time of the O'odham year, and its central feast is a ceremonial saguaro-wine (nawait) rain ceremony. It fails two §5.7 exclusions (religious rite; alcohol) and is not given a celebration entry. Saguaro syrup and jam as foods remain in the catalog (see catalog: Tepary beans and saguaro fruit). [HIGH — Arizona Memory Project, Arizona-Sonora Desert Museum, Arizona Daily Star]
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Sonoran hot dog (full authoritative entry — supersedes `us.md`'s national-index Hot dog pointer for the Sonoran variant)
@@ -378,6 +412,7 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - **Real-world size figures for several dishes (Sonoran hot dog finished height, cheese crisp platter coverage, chimichanga finished dimensions, chile relleno finished size, carne seca/machaca portion size, Navajo mutton stew and blue corn mush portion sizes, kneel-down bread dimensions, prickly pear candy piece size) rely on this file's own reasonable synthesis from recipe-tier and general food-preparation conventions, not an independently sourced, dish-specific measurement study** — flagged individually at MEDIUM/LOW-MEDIUM confidence in each entry, and a candidate for the project-wide retroactive real-world-scale audit already logged in `DECISIONS.md`.
 - **No dedicated research pass was run on Yuma/southwestern Arizona agriculture (citrus, dates, leafy greens), Arizona's broader craft/beverage scene, or a deeper Phoenix-specific dining-culture pass beyond the Tucson/Phoenix contrast already documented** — plausible candidates for a future pass but out of scope for this specific assignment.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, Tucson Foodie, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
+- **Celebrations pass (2026-10-01): carne asada gathering headcount and Christmas side dishes (menudo, pozole, buñuelos) not verified this pass.** The Tohono O'odham saguaro harvest was checked and deliberately not staged (religious rite with ceremonial wine).
 
 ---
 
@@ -389,6 +424,7 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 4. **Priority 4**: Corroborate or drop the chile relleno's Arizona-specific four-tortilla "sandwich" variant, currently at single-source LOW-MEDIUM confidence.
 5. **Priority 5**: Tighten the several real-world-size figures flagged MEDIUM/LOW-MEDIUM above once the project's broader retroactive real-world-scale audit reaches this file.
 6. **Priority 6**: A pass on Yuma-area agriculture, Arizona's broader beverage/craft scene, and a deeper Phoenix-specific dining-culture pass, if a future brief needs it.
+7. **Celebrations pass (2026-10-01)**: Sonoran carne asada (mesquite-grilled, chopped, with flour tortillas) and Sonoran red chile beef tamales as full entries.
 
 ---
 
@@ -400,3 +436,4 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - **Sources considered but not used**: Generic SEO recipe-roundup sites turned up frequently for nearly every dish and were deprioritized in favor of the journalism/encyclopedic/institutional sources above wherever both were available. A search for tribally-authored or academic ethnographic sourcing on Navajo and Hopi foodways specifically did not surface a source stronger than the journalism/enthusiast-tier accounts already cited — flagged in GAP LOG rather than papered over with an under-sourced guess, consistent with `us-new-mexico.md`'s identical finding for its own Pueblo-bread entry.
 - **Total sources cited**: approximately 45 distinct URLs across roughly 25 search queries.
 - **Structural/naming decision made during the merge into this canonical file (not part of the original research pass)**: this file's research recommended renaming from `us-desert-southwest.md` to `us-arizona.md`, reversing `us.md`'s prior 2026-09-24 judgment call. Accepted during the merge on the strength of the evidence presented (nearly all content is checkably Arizona-bounded; real internal variance found that the prior judgment call didn't have in hand), consistent with this project's standing authorization to use judgment on regional-file naming/structure as research lands. `us.md` has been updated accordingly.
+- **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (Tucson Christmas tamales, Sonoran carne asada gatherings, saguaro harvest). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: carne asada gathering, Christmas Eve tamales; saguaro harvest checked and excluded. WebSearch snippets only.

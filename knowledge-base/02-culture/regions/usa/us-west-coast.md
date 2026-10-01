@@ -94,6 +94,49 @@ The West Coast/California file clears the "would swapping this region's norms in
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+National celebrations and the national snapshot rule live in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section. This section adds only what is genuinely West Coast. All entries follow `country-file-schema.md` §5.7: the frame shows the operator's 1, 2 or small group of place settings at one stretch of a larger table, and the crowd is implied.
+
+### How large gatherings work here (deltas only)
+
+- **California's big family celebrations are often organised by heritage community**, and the three most staging-relevant are the Chinese-American Lunar New Year banquet, the Filipino-American family party, and the Mexican-American backyard party with a hired taquero. Each has its own table form: a round banquet table with a lazy Susan, a long buffet of foil party trays, and a taco station. [MEDIUM-HIGH — SF Chronicle, USC Folklore Archives, L.A. Taco; see entries]
+- **Catering is normal, not a sign of a lesser party**: lechon and party trays are usually ordered from a caterer, and a taquiza crew sets up in the backyard. [MEDIUM — USC Folklore Archives; L.A. Taco]
+- **Mild weather moves most parties outdoors** (yard, patio, driveway under a pop-up canopy), consistent with this file's indoor-outdoor ENVIRONMENT notes. [EDITORIAL]
+- **Snapshot default for the West Coast** [EDITORIAL]: the most authentic crowd cues are (1) a run of foil party trays or chafing pans soft in the background, (2) a round table whose curve and lazy Susan run out of frame (banquet), and (3) a pop-up canopy and folding tables in a sunny yard. Use two.
+
+#### Celebration: Lunar New Year banquet (Chinese New Year / Spring Festival dinner)
+- Type: calendar holiday
+- When: late January to mid-February (lunar calendar); evening. Intake time: evening.
+- Gathering: Chinese-American extended family, often 10 to 12 per round table, sometimes several tables, in a Chinatown or suburban Cantonese banquet restaurant (restaurant) or at home. [HIGH for round-table banquets — SF Chronicle "Banquets are roaring back", KQED]
+- The spread: a procession of shared courses (soup, barbecued meats and roast duck, whole steamed fish, noodles for longevity, dumplings or spring rolls, rice) placed one or two at a time on a lazy Susan; tangerines or oranges at the end. A whole fish, head and tail on, is the signature. Most dishes have no catalog entry here; whole steamed fish is added to the CANDIDATE QUEUE (an oval platter about 35–40 cm, a fish 30–35 cm long glossy with soy and scallion-ginger shreds, roughly two and a half cans long). [HIGH — SF Chronicle, Axios SF, KQED]
+- Snapshot staging: **1 setting**: a small plate, a rice bowl, chopsticks on a rest and a soup spoon at the round table's edge; the lazy Susan with the whole fish platter partly cropped. **2 settings**: two identical settings side by side on the curve; between and above them on the lazy Susan, the fish and a platter of roast duck. **Small group**: three or four identical settings along the curve; three or four platters on the lazy Susan, more than the visible diners could eat; the far side of the table out of frame. Crowd cues: red lanterns or red-and-gold decor blurred behind, another round table soft in the background, a server's arm placing a dish. [EDITORIAL]
+- Decor and cues: white or red tablecloth, lazy Susan, red envelopes (blank) on the table, tangerines with leaves. Clichés to avoid: fortune cookies as a banquet item, dragon-dance costumes in the dining room, legible Chinese characters (risk of nonsense text).
+- Never stage: an ancestral altar or offerings; any alcohol or toasting.
+- Confidence and sources: HIGH for format and symbolic dishes; EDITORIAL for staging.
+
+#### Celebration: Filipino-American family party (party; debut at 18; first and milestone birthdays)
+- Type: life event (birthdays, the debut at 18, baptisms, graduations) and recurring family gathering
+- When: weekends, afternoon into night; Christmas season peaks. Intake time: midday or evening.
+- Gathering: extended family and family friends, commonly 30 to 100, in a backyard, garage or community hall (home outdoor; other). Large concentrations in the Bay Area, Los Angeles and San Diego. [MEDIUM — USC Folklore Archives on lechon at Filipino parties in California; headcount EDITORIAL]
+- The spread: a whole roast pig (lechon) as the centrepiece, often on a tray with the crackling skin glossy amber-brown; pancit (noodles, for long life), lumpia, adobo, rice, and desserts. Party trays in foil half-pans, 6 to 12 on the buffet. No catalog entries exist for lechon, pancit or lumpia (added to CANDIDATE QUEUE). Lechon: a whole pig 60–90 cm long on a board or foil tray, skin glossy and lacquered, many cans long; pancit: thin pale noodles with shredded vegetables in a foil tray; lumpia: thin golden rolls about one can-height long. [MEDIUM-HIGH — USC Folklore Archives; caterer tray menus (commercial tier)]
+- Snapshot staging: **1 setting**: a paper or melamine plate with rice, a spoon of pancit, two lumpia and a piece of lechon with skin; the lechon tray cropped at the edge. **2 settings**: two identical plates on a folding table; a foil tray of lumpia and one of pancit between them. **Small group**: identical plates down a long folding table under a canopy; trays of pancit, lumpia and adobo down the middle, partly cropped. Crowd cues: the lechon's head end cropped out of frame (show the glossy skin and cut portion, not the face), a buffet line of foil trays behind, a birthday banner blurred. [EDITORIAL]
+- Decor and cues: balloons, a printed birthday banner, karaoke speakers soft in the background, plastic-covered tables. Clichés to avoid: tropical-island props.
+- Never stage: the lechon's head in close-up as hero; the baptism ceremony; any alcohol; a child as the subject beside the product.
+- Confidence and sources: MEDIUM-HIGH for the dishes; EDITORIAL for headcount and staging.
+
+#### Celebration: Backyard taquiza party (taquiza; birthdays, baptisms, quinceañeras)
+- Type: life event and recurring family gathering (Southern California)
+- When: weekends, afternoon into night. Intake time: golden-hour or evening.
+- Gathering: Mexican-American extended family and friends, 30 to 100+, in a backyard or driveway (home outdoor). A hired taquero crew sets up a station, sometimes with an al pastor trompo, and cooks tacos to order for as long as guests eat. [MEDIUM — L.A. Taco "Best taco catering (taquizas) in Los Angeles"; caterer sites (commercial tier)]
+- The spread: small corn-tortilla tacos of asada, al pastor, pollo; a salsa and garnish bar (onion, cilantro, radish, lime, grilled onions); rice and beans in foil pans. Tacos come off the station on paper plates, 3 to 4 per plate. Al pastor tacos have no catalog entry here (added to CANDIDATE QUEUE); see `us.md` Mexican-American Tacos for the general taco form.
+- Snapshot staging: **1 setting**: a paper plate with three small street tacos, a lime wedge and a grilled onion, on a folding table; a garnish tray cropped. **2 settings**: two identical plates; a shared tray of salsas between them. **Small group**: identical plates along a folding table; rice and beans in foil pans, salsas and limes in the middle. Crowd cues: the taco station's steam and a trompo's glow soft in the background, a blurred line of guests, papel picado or balloons. [EDITORIAL]
+- Decor and cues: pop-up canopy, folding tables with plastic cloths, string lights, piñata hanging out of focus for a birthday. Clichés to avoid: sombreros, mariachi as the subject.
+- Never stage: beer or micheladas; a child as the subject beside the product.
+- Confidence and sources: MEDIUM for the taquiza format; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: San Francisco sourdough bread (full authoritative entry — resolves `us.md`'s LOW-confidence "not fully researched" flag)
@@ -406,6 +449,7 @@ The West Coast/California file clears the "would swapping this region's norms in
 - **The "animal style" burger entry's patty-size figure is deliberately LOW-MEDIUM confidence and was not sourced to any single chain's own published dimensions**, consistent with the genericization requirement — a future pass could strengthen this with a generic industry-average thin-patty-diameter figure if one is needed without naming a specific chain.
 - **No dedicated research pass was run on Northern California's Chinatown-anchored Cantonese-American food tradition as its own dish-level entry** (distinct from the already-documented national Chinese-American takeout entry in `us.md`) — flagged as a plausible future candidate if a brief needs San Francisco-Chinatown-specific depth beyond `us.md`'s existing national entry.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, Smithsonian, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
+- **Celebrations pass (2026-10-01): headcounts for Filipino-American and taquiza parties are editorial**; Filipino party sourcing is one academic folklore archive plus caterer pages; taquiza sourcing is L.A. Taco plus caterers. No LA Times-tier source found for the taquiza format.
 
 ---
 
@@ -418,6 +462,7 @@ The West Coast/California file clears the "would swapping this region's norms in
 5. **Priority 5**: A possible future pass on pho's Northern-vs-Southern-Vietnamese broth-style distinction, if a brief needs that level of granularity.
 6. **Priority 6**: Flag for `us.md`'s own maintainers — its California roll entry needs a §4.5 real-world-scale field added in that file, not here.
 7. **Priority 7**: If the future `us-pacific-northwest.md` build ever surfaces a competing claim to West Coast coffee culture broadly, cross-check against this file's Oakland/Blue Bottle boundary flag.
+8. **Celebrations pass (2026-10-01)**: Lechon, pancit and lumpia (Filipino-American party trays); Cantonese whole steamed fish (banquet); al pastor tacos (taquiza). Overlaps the existing Cantonese-American Priority 2 item.
 
 ---
 
@@ -429,3 +474,4 @@ The West Coast/California file clears the "would swapping this region's norms in
 - **Sources considered but not used**: Generic SEO recipe-roundup sites turned up frequently for nearly every dish and were deprioritized in favor of the journalism/encyclopedic/institutional sources above wherever both were available. A folk etymology for "burro" as slang for burrito (a supposed donkey-meat legend) was considered and explicitly excluded as unverified legend, following the same discipline `us-arizona.md` applied to a similar claim.
 - **Total sources cited**: approximately 55–60 distinct URLs across roughly 25 search queries.
 - **Structural decisions made during this file's own research/writing process**: (1) tested, rather than assumed, the NorCal/SoCal internal-variation question — found real, sourced variation, resolved via dish-level variant tables and zone callouts rather than a further file split, consistent with how Texas's BBQ-style variation and Arizona's Tucson/Phoenix gradient were handled; (2) treated the California burrito and Mission-style burrito as a genuine §4.2 regional-form-variation pair rather than either a single flattened "California burrito" entry or two unrelated dishes, since both share a dish family (burrito) but differ in construction by California sub-region in a way that would look visibly wrong if swapped; (3) did not duplicate `us.md`'s already-full, nationally-scoped California roll entry, adding only a cross-reference and flagging that file's own missing §4.5 field for its future audit; (4) did not recommend any change to this file's name — the `us-west-coast.md` vs. `us-california.md` naming question is treated as closed by the human reviewer's 2026-09-24 decision.
+- **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (SF Lunar New Year banquets, Filipino-American parties, LA taquizas). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: Lunar New Year banquet, Filipino-American family party, backyard taquiza. WebSearch snippets only.

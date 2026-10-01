@@ -101,6 +101,39 @@ The Pacific Northwest file clears the "would swapping this region's norms into e
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+National celebrations and the national snapshot rule live in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section. This section adds only what is genuinely Pacific Northwest. All entries follow `country-file-schema.md` §5.7: the frame shows the operator's 1, 2 or small group of place settings at one stretch of a larger table, and the crowd is implied.
+
+### How large gatherings work here (deltas only)
+
+- **Seafood stands in for the national roast at winter gatherings.** Dungeness crab is a documented holiday-table food in Oregon and Washington, and the commercial season opens around December. [HIGH — OPB, Saveur, Seaside Oregon]
+- **Community-hall dinners are a real format**: crab feeds and Scandinavian lutefisk-and-meatball dinners are held in grange halls, lodges and church halls at long tables, served family-style or cafeteria-line by volunteers. [HIGH — Oregon's Adventure Coast, Pacific Seafood crab-feed page, Visit Poulsbo, HeraldNet]
+- **The Indigenous salmon bake already has its own catalog entry with heightened-care staging** (see catalog: Traditional Indigenous salmon bake). It is not repeated here as a celebration entry: the First Salmon Ceremony is a religious observance, so per §5.7 a brief may at most stage the communal meal tables after it, with explicit cultural framing.
+- **Snapshot default for the Pacific Northwest** [EDITORIAL]: the most authentic crowd cues are (1) a long paper- or plastic-covered hall table running out of frame, (2) a heap of whole crabs or a buffet line more than the visible diners could eat, and (3) soft, overcast window light with wood-panelled hall walls.
+
+#### Celebration: Dungeness crab feed and holiday crab dinner (crab feed)
+- Type: community gathering (fundraiser) and calendar holiday meal (Christmas to New Year)
+- When: crab season, December through winter; community crab feeds often January to March. Evening. Intake time: evening.
+- Gathering: community crab feeds seat 100+ at long tables in a hall (other: community hall); a home holiday crab dinner seats 6 to 12 (home indoor). [HIGH for the format and season — Oregon's Adventure Coast (Charleston Crab Feed), Petaluma Argus-Courier, OPB; headcounts EDITORIAL]
+- The spread: whole cooked crabs (see catalog: Dungeness crab) heaped on trays or poured onto paper-covered tables; melted butter in cups, lemon wedges, sourdough or French bread, green salad, often pasta or coleslaw at fundraisers; crackers and picks. 4 to 6 shared vessels. [MEDIUM-HIGH — crab-feed event listings]
+- Snapshot staging: **1 setting**: a paper-covered stretch of table with one whole cracked crab on a paper plate, a cup of melted butter, a lemon wedge, a cracker and pick; a tray heaped with more crabs cropped. **2 settings**: two identical crab plates; a shared bread basket and a bowl for shells between them. **Small group**: identical settings down one side of a long hall table; crab trays, bread and salad in the middle; shell bowls filling. Crowd cues: the long table and benches running out of frame, blurred diners further down, a volunteer carrying a tray. [EDITORIAL]
+- Decor and cues: butcher paper or plastic tablecloths, bibs, roll of paper towels, wood-panelled hall or a home dining table with a rainy window. Cliché to avoid: nautical-net and lighthouse decor.
+- Never stage: beer or wine (crab feeds often have a bar); legible fundraiser or sponsor banners.
+- Confidence and sources: HIGH for holiday and fundraiser crab tradition; EDITORIAL for staging.
+
+#### Celebration: Lutefisk and meatball dinner (Scandinavian heritage dinner)
+- Type: community gathering (annual, autumn to January)
+- When: October to January; midday through afternoon sittings. Intake time: midday.
+- Gathering: Norwegian- and Scandinavian-American families and visitors at Sons of Norway lodges and Lutheran churches in Seattle (Ballard) and Poulsbo; one Poulsbo church dinner has served more than 1,000 people. Seated at long tables in a hall (other: community hall). [HIGH — HeraldNet, Visit Poulsbo, Poulsbo Sons of Norway] This tradition is shared with the Upper Midwest (`us-midwest.md`); the PNW version is the same format.
+- The spread: lutefisk (lye-cured cod, white and translucent, served with melted butter or white sauce), Scandinavian meatballs in gravy, boiled potatoes, carrots, pickled beets, lefse (soft, thin potato flatbread, pale with brown spots, rolled or folded), cookies and ice cream. Served family-style bowls or cafeteria-line. No catalog entries for lutefisk, meatballs or lefse (added to CANDIDATE QUEUE; lefse already listed under the Ballard bakery item). [HIGH — Visit Poulsbo menu listing]
+- Snapshot staging: **1 setting**: a plate with lutefisk, two meatballs in gravy, boiled potatoes and a few beets; a folded lefse on the side; a bowl of potatoes cropped. **2 settings**: two identical plates; a platter of lefse and a gravy boat between them. **Small group**: identical plates along one side of a long hall table with a white paper cloth; bowls of potatoes, meatballs and beets down the middle. Crowd cues: the table and folding chairs running out of frame, blurred diners, a kitchen pass-through with volunteers. [EDITORIAL]
+- Decor and cues: hall with wood panelling, rosemaling or Nordic textile accents, a soft winter window. Clichés to avoid: Viking helmets, legible Norwegian flags.
+- Never stage: church interiors or worship; any alcohol (no aquavit).
+- Confidence and sources: HIGH for menu and format; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Dungeness crab (whole cooked/cracked)
@@ -335,6 +368,7 @@ The Pacific Northwest file clears the "would swapping this region's norms into e
 - **The "no dish-level pointer from `us.md`" situation for this entire file was confirmed, not assumed** — this file's research did not find any existing `us.md` content that should have pointed here and didn't; `us.md`'s own future audit pass should still double-check this independently, consistent with `country-file-schema.md` §8's internal-consistency check.
 - **A real, documented but brand-safety-inappropriate sub-phenomenon of the Pacific Northwest drive-through espresso-stand format (a sexualized "bikini barista" variant) was found in research and deliberately excluded from this file entirely** — it is real and well-documented, but has no plausible legitimate role in a Coca-Cola brand-safety-conscious staging brief, and including it would risk exactly the kind of content this project's brand-safety rules exist to prevent. This exclusion is a judgment call, logged here for transparency rather than silently omitted.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, HistoryLink.org, CRITFC, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
+- **Celebrations pass (2026-10-01): crab-feed and home crab-dinner headcounts are editorial.** The lutefisk dinner is shared with the Upper Midwest; cross-check against `us-midwest.md` if that file adds one.
 
 ## CANDIDATE QUEUE
 
@@ -345,6 +379,7 @@ The Pacific Northwest file clears the "would swapping this region's norms into e
 5. **Priority 5**: If a future project-wide scope change ever brings beverages into scope, substantially expand this file's coffee-culture research into full dish/product-level entries (currently environment-only).
 6. **Priority 6**: A possible future pass on Willamette Valley wine country's food-only dining register, in parallel to `us-west-coast.md`'s Napa/Sonoma treatment, if the project ever wants that specific parity — not part of this build's assigned scope.
 7. **Priority 7**: Now that all 13 planned US regional files exist, a project-level audit pass cross-checking `us.md`'s FILE ROLE & METHOD table and every other regional file's cross-references against the final 13-file structure, per `country-file-schema.md` §8's internal-consistency check.
+8. **Celebrations pass (2026-10-01)**: Lutefisk and Scandinavian meatballs as full entries (lefse is already queued under Priority 3).
 
 ## RESEARCH LOG
 
@@ -354,3 +389,4 @@ The Pacific Northwest file clears the "would swapping this region's norms into e
 - **Sources considered but not used**: a sexualized "bikini barista" variant of the drive-through espresso-stand phenomenon was found in research and deliberately excluded as brand-safety-inappropriate, logged in GAP LOG rather than silently omitted. Generic SEO recipe-roundup sites turned up frequently for several dishes (chowder, teriyaki, doughnuts) and were deprioritized in favor of the journalism/encyclopedic/institutional sources above wherever both were available.
 - **Total sources cited**: approximately 45–50 distinct URLs across roughly 25 search queries.
 - **Structural decisions made during this file's own research/writing process**: (1) tested, rather than assumed, the Washington/Oregon one-file-vs-two-files question — found a real gradient but resolved it as zone callouts within one file, consistent with how this project handled Texas's BBQ styles, Arizona's Tucson/Phoenix gradient, and California's NorCal/SoCal split, submitted as a research recommendation and **accepted by the orchestrating session**; (2) deliberately separated the mainstream/restaurant cedar-plank salmon entry from the traditional/ceremonial Indigenous salmon-bake entry, rather than blending them into one dish with an undifferentiated "regional variant" table, given the latter's genuine cultural/ceremonial weight — and added explicit staging-care guidance rather than treating it as an ordinary interchangeable style choice; (3) respected, rather than re-litigated or re-claimed, both of `us-west-coast.md`'s explicit Pacific-Northwest-boundary flags (the SF sourdough-bread-bowl chowder format; the Oakland/Blue Bottle Coffee origin); (4) declined to force a single default among Pacific Northwest clam chowder's three genuinely coexisting variants, per `country-file-schema.md` §4.6's caution against silently suppressing real options, logging the open question explicitly rather than guessing; (5) excluded lutefisk and the "bikini barista" espresso-stand variant as dish/environment candidates on staging-relevance and brand-safety grounds respectively, logging both exclusions explicitly rather than omitting them silently.
+- **2026-10-01 celebrations pass (schema §5.7)**: 2 searches (Dungeness crab feeds, Poulsbo/Seattle lutefisk dinners). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: crab feed and holiday crab dinner, lutefisk and meatball dinner; salmon bake pointed to its existing catalog entry. WebSearch snippets only.

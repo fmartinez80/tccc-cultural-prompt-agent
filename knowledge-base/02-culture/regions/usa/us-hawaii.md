@@ -96,6 +96,50 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+National celebrations and the national snapshot rule live in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section. This section adds only what is genuinely Hawaiian. All entries follow `country-file-schema.md` §5.7: the frame shows the operator's 1, 2 or small group of place settings at one stretch of a larger table, and the crowd is implied. The three-layer framing in FILE ROLE & METHOD applies: these are **local family** gatherings, not the commercial luau (see catalog: Commercial luau plate, which stays reserved for explicit commercial briefs).
+
+### How large gatherings work here (deltas only)
+
+- **Family parties are big and potluck-fed.** Extended family, family friends and neighbours bring food in foil pans; a separate pupu (appetizer) line can rival the main buffet, minus rice and poi. [MEDIUM-HIGH — Wikipedia: Customs and etiquette in Hawaii; Hawaiʻi Magazine pupu feature; Honolulu Magazine potluck piece]
+- **Where**: a backyard or carport under a pop-up tent, a beach park pavilion, or a rented community or church hall; long folding tables with plastic cloths; self-serve buffet onto paper or plastic plates. [MEDIUM — Kaukau Kitchen, Hawaii Aloha Travel; EDITORIAL for table form]
+- **Local food, not luau clichés**: a family party table mixes Native Hawaiian dishes (kalua pig, lomi salmon, poi, laulau) with local plantation-era dishes (mac salad, chicken long rice, sushi, teriyaki, chow fun, poke). [MEDIUM-HIGH — Kaukau Kitchen, Hawaii Aloha Travel]
+- **Snapshot default for Hawaii** [EDITORIAL]: the most authentic crowd cues are (1) a line of foil pans under a pop-up tent, partly cropped, (2) a ti-leaf or plain cloth runner on a long folding table running out of frame, and (3) blurred family under a tent in warm, humid late light. Use two.
+
+#### Celebration: Baby lūʻau (first birthday)
+- Type: life event
+- When: around the child's first birthday, a weekend afternoon into evening. Intake time: golden-hour or evening.
+- Gathering: extended family and friends, commonly 100 to 300 [LOW — headcount from lifestyle sources only], in a backyard, beach park or rented hall (home outdoor; other). Rural neighbor-island families more often cook the food themselves with extended family; others cater. The custom traces to marking survival of a fragile first year. [MEDIUM-HIGH — Hawaii Aloha Travel, Kaukau Kitchen, Kamaʻāina Services]
+- The spread: kalua pig (see catalog: Kalua pig / imu earth-oven cooking), lomi salmon (see catalog: Lomi lomi salmon), poi (see catalog: Poi), laulau (see catalog: Laulau), chicken long rice (clear glass noodles and shredded chicken in ginger broth, pale and glossy, in a foil pan; no entry, added to CANDIDATE QUEUE), rice, mac salad (see catalog: Plate lunch), haupia (see catalog: Haupia) and butter mochi (golden, chewy squares; added to CANDIDATE QUEUE). 8 to 12 foil pans on the buffet. [MEDIUM-HIGH — Kaukau Kitchen, Hawaii Aloha Travel]
+- Snapshot staging: **1 setting**: a paper plate with kalua pig, a scoop of rice, a spoon of lomi salmon, chicken long rice and a small cup of poi about the can's width; a foil pan of kalua pig cropped at the edge. **2 settings**: two identical plates on a folding table; a pan of laulau and a tray of haupia squares between them. **Small group**: identical plates down one side of a long table under a tent; foil pans of kalua pig, chicken long rice and lomi salmon in the middle. Crowd cues: a buffet line soft behind, a balloon arch or printed banner blurred, other tables under the tent. [EDITORIAL]
+- Decor and cues: ti leaves, simple flower arrangements, balloons, tents, a photo backdrop soft in the background. Clichés to avoid: tiki torches, grass skirts, hula show, pineapple boats (those belong to the commercial luau register).
+- Never stage: the baby as the subject beside the product; any alcohol or bar; the imu pit opening as the hero shot.
+- Confidence and sources: MEDIUM-HIGH for tradition and menu; LOW for headcount; EDITORIAL for staging.
+
+#### Celebration: Graduation party with lei (grad party)
+- Type: life event (delta from `us.md`'s national graduation party)
+- When: late May to June, after the ceremony; afternoon into evening. Intake time: golden-hour.
+- Gathering: family and friends, 30 to 150, in a backyard, carport or park pavilion (home outdoor; other). [LOW — headcount not verified this pass]
+- The spread: the same potluck and catered foil-pan buffet as a family party: kalua pig, teriyaki, chicken katsu (see catalog: Chicken katsu plate), mac salad, rice, poke (see catalog: Poke — traditional Native Hawaiian, or the contemporary local shoyu-ahi style), sushi, plus a pupu table. 8 to 12 pans. [MEDIUM — Wikipedia: Customs and etiquette in Hawaii; Hawaiʻi Magazine]
+- What changes from the national entry: graduates receive layer upon layer of lei (flower, kukui nut, ribbon, candy, money lei) until they reach the chin or cover the face; large photo-head signs of the graduate are common. [MEDIUM-HIGH — multiple Hawaii lei-retailer and lifestyle pages (commercial tier); widely corroborated]
+- Snapshot staging: **1 setting**: a paper plate with teriyaki beef, a spoon of mac salad, rice, a scoop of poke; a foil pan of katsu cropped. **2 settings**: two identical plates; a tray of sushi and a container of poke between them. **Small group**: identical plates along a folding table; foil pans down the middle. Crowd cues: a graduate's stack of lei on a guest's shoulders blurred in the background (no face sharp), a lei-covered chair or table at the edge, a printed congratulations banner. [EDITORIAL]
+- Decor and cues: lei piled on a side table, balloons in school colours (no legible school name or crest), a tent. Cliché to avoid: luau decor.
+- Never stage: legible school names, logos or crests; any alcohol; a minor as the subject beside the product.
+- Confidence and sources: MEDIUM-HIGH for the lei custom; MEDIUM for the menu; EDITORIAL for staging.
+
+#### Celebration: Family potluck party (pāʻina, "party")
+- Type: community or family gathering (recurring: birthdays, holidays, reunions)
+- When: any weekend; afternoon into evening. Intake time: midday or golden-hour.
+- Gathering: extended family, friends and neighbours, 20 to 60, at a home or beach park pavilion (home outdoor). [MEDIUM — Wikipedia: Customs and etiquette in Hawaii; headcount EDITORIAL]
+- The spread: whatever guests bring, consistently including chili, fried rice, cone or maki sushi, chow fun, wings, teriyaki, mac salad, somen salad, poke, lumpia, and desserts; often grocery "party pans". 10+ dishes. [MEDIUM-HIGH — Hawaiʻi Magazine, Honolulu Magazine, Foodland party pans]
+- Snapshot staging: **1 setting**: a paper plate with a mixed plate of fried rice, teriyaki chicken, a spoon of mac salad and two cone sushi; a foil pan of chow fun cropped. **2 settings**: two identical plates; a poke container and a pan of wings between them. **Small group**: identical plates down one side of a pavilion picnic table; foil pans and a rice cooker down the middle. Crowd cues: a separate pupu table soft behind, coolers and slippers at the edge, blurred family. [EDITORIAL]
+- Decor and cues: slippers lined up, a rice cooker, foil pans with handwritten masking-tape labels (unreadable), pop-up tent. Cliché to avoid: aloha-print overload, luau decor.
+- Never stage: beer coolers or cans; legible store or brand labels on party pans.
+- Confidence and sources: MEDIUM-HIGH for the menu; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Plate lunch (structural/format entry — cross-cutting, referenced by multiple entries below, parallel treatment to `us-arizona.md`'s Sonoran-flour-tortilla entry and `us-new-mexico.md`'s Hatch-chile entry)
@@ -582,6 +626,7 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - **POG juice and other Hawaii-specific non-Coca-Cola beverages were confirmed out of scope per this file's inherited scope rule and not researched further** — flagged only so a future reviewer knows this was a deliberate scope exclusion, not an oversight.
 - **`us.md` currently has no dish-level pointers into any content in this file** (loco moco, plate lunch, Spam musubi, and so on) — flagged as a candidate for a future project-wide cross-reference audit now that all 13 US regional files exist, not fixed in this pass.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, Bishop Museum, Hawaiʻi Magazine, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
+- **Celebrations pass (2026-10-01): baby lūʻau headcount (100–300) and grad-party headcount rest on lifestyle sources or none (LOW).** Graduation lei sourcing is retailer/lifestyle tier, though consistent across many pages.
 
 ## CANDIDATE QUEUE
 
@@ -592,6 +637,7 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 5. **Priority 5**: A dedicated pass on the commercial luau industry's specific, genericizable staging conventions (buffet layout, ceremonial pig-presentation choreography, seating format) if a future brief specifically requires a commercial luau scene in more depth than this file's Commercial luau plate entry provides.
 6. **Priority 6**: A pass on any Hawaii-specific tableware/eating-custom conventions (this file did not find a Hawaii-specific override to `tableware-composition-reference.md`'s Western-default place-setting norms, beyond the plate-lunch tray/clamshell format and poi's traditional finger-eating convention already documented) to populate `tableware-composition-reference.md` §5's currently-placeholder United States row with Hawaii-specific detail, per that file's stated population plan.
 7. **Priority 7**: Now that all 13 planned US regional files exist, a project-level audit pass cross-checking `us.md`'s FILE ROLE & METHOD table and every other regional file's cross-references against the final 13-file structure, per `country-file-schema.md` §8's internal-consistency check — this file in particular should be checked for whether any of its content (loco moco, Spam musubi, plate lunch) warrants a new thin index-entry pointer being added to `us.md`, which currently has none pointing here.
+8. **Celebrations pass (2026-10-01)**: Chicken long rice, butter mochi, and Hawaii-style mac salad as a standalone entry (currently only inside Plate lunch).
 
 ## RESEARCH LOG
 
@@ -601,3 +647,4 @@ Hawaii clears the "would swapping this region's norms into another US region loo
 - **Sources considered but not used**: Generic SEO recipe-roundup sites turned up frequently for nearly every dish and were deprioritized in favor of the journalism/encyclopedic/institutional/academic sources above wherever available. A dedicated search for tribally/Native-Hawaiian-authored or academic ethnographic sourcing on laulau and kalua/imu specifically did not surface a source stronger than the museum-blog/enthusiast-tier accounts already cited — flagged in GAP LOG rather than papered over with an under-sourced guess, consistent with `us-arizona.md`'s and `us-new-mexico.md`'s identical finding for their own weaker-tier Indigenous entries. A single commercial-tourism-industry named business (a specific North Shore shrimp truck, cited by name in some search results for its documented visitor-signature-covered exterior) was deliberately not named in this file's actual content, per the trademark/landmark-avoidance rule, and is referenced above only descriptively.
 - **Total sources cited**: approximately 55 distinct URLs across roughly 30 search queries.
 - **Structural decision made during this research pass**: this file recommends keeping Hawaii as a single file with the Oʻahu/neighbor-island gradient documented as an explicit callout rather than a further split — the same resolution `us-arizona.md` reached for its Tucson/Phoenix gradient and `us-new-mexico.md` reached for its north/south gradient, for the same reason (the variation found is one of density/commercial register, not a different dish grammar or cuisine family). **Accepted by the orchestrating session** on the strength of this reasoning, consistent with the project's established precedent for internal-gradient cases — logged in `DECISIONS.md`.
+- **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (baby lūʻau, potluck/pupu parties, graduation lei). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: baby lūʻau, graduation party with lei, family potluck party. WebSearch snippets only.

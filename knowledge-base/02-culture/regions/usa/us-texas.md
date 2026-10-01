@@ -90,6 +90,48 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+National celebrations (Thanksgiving, Fourth of July and Memorial/Labor Day cookouts, Christmas, Easter, birthdays, graduations, weddings) and the national snapshot rule live in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section. This section only adds what is genuinely Texan. All entries follow `country-file-schema.md` §5.7: the frame shows the operator's 1, 2 or small group of place settings at one stretch of a larger table, and the crowd is implied.
+
+### How large gatherings work here (deltas only)
+
+- **Texas swaps the national cookout protein for smoked beef.** When a Texas family gathering is catered or cooked in the yard, brisket and sausage on butcher paper replace the national burgers-and-hot-dogs default (see catalog: Texas BBQ platter). [HIGH — see TRUSTED CONTENT sources]
+- **Tejano family events run large and multi-generational**: backyard parties of around 60 and rented halls (VFW halls, church gyms, event venues) of 100 to 300 guests are the documented range for a quinceañera. Service is a buffet or a hired taco bar (taquiza), on round or long folding tables with disposable or rented plates. [MEDIUM — TX Quince budget guide and San Antonio/DFW caterer pages; caterer sources sell the service, flag commercial self-interest]
+- **Snapshot default for Texas** [EDITORIAL]: the most authentic crowd cues are (1) a buffet line of foil chafing pans soft in the background, (2) butcher paper or a sheet pan of sliced brisket running out of frame, and (3) papel picado or event-colour balloons for Tejano events. Use two of the three.
+
+#### Celebration: Christmas Eve tamales and the tamalada (tamalada)
+- Type: calendar holiday (with a preparatory family gathering)
+- When: the tamalada itself on a December weekend, often the weekend after Thanksgiving or the days before Christmas; eating on Christmas Eve evening. Intake time: evening (the tamalada kitchen scene: midday).
+- Gathering: Mexican-American and Tejano extended family, typically 10 to 25 people, in a home kitchen and dining room (home indoor). One documented Austin family tamalada has grown to 22 relatives over a two-day session. [HIGH — Texas Monthly "Love and Masa", NPR "Tamales for Christmas are a true Texas tradition", Wikipedia: Tamalada]
+- The spread: dozens of tamales stacked upright or in rows in a large steamer pot or on a sheet pan, husks still on (pork in red chile is the classic Texas filling; this file has no Texas tamale entry, so see `us-new-mexico.md`'s catalog: Tamales for form and scale, and the CANDIDATE QUEUE below). Around them: a pot of beans, Spanish rice, salsa, and often a bowl of chile con queso with chips (see catalog: Chile con queso). A real Christmas Eve table carries 4 to 6 serving dishes. [MEDIUM — NPR, Texas Co-op Power; dish count EDITORIAL]
+- Snapshot staging: **1 setting**: a plate with two tamales, one unwrapped with the husk folded back, a spoon of rice and beans; the steamer pot cropped at the frame edge, lid off, steam rising. **2 settings**: two identical plates side by side; the steamer pot and a platter of tamales in rows between them, a bowl of salsa. **Small group (3 to 4)**: identical plates along one side of a long table; the tamale platter, rice, beans and queso bowls down the middle, more than the visible diners could eat; the table continues out of frame. Crowd cues: a second heaped platter partly cropped, a blurred relative at the kitchen counter behind, a stack of clean plates at the edge. [EDITORIAL]
+- Decor and cues: corn husks soaking in a bowl or a stack of unfilled husks at the edge (the tamalada trace), a home Christmas tree softly in the background, poinsettias. Cliché to avoid: sombreros, serapes as tablecloths, cactus props.
+- Never stage: a nativity scene or religious imagery in focus; the midnight Mass; any alcohol (no beer or ponche con piquete).
+- Confidence and sources: HIGH for the tradition [Texas Monthly; NPR; Wikipedia: Tamalada]; MEDIUM for the side dishes; EDITORIAL for staging.
+
+#### Celebration: Quinceañera reception (quinceañera, "quince")
+- Type: life event (coming-of-age at 15)
+- When: any time of year, often a Saturday; the reception meal follows the church Mass. Intake time: evening.
+- Gathering: extended family, godparents (padrinos) who sponsor parts of the event, friends and the court of honor; about 60 in a backyard to 100–300 in a rented hall. [MEDIUM — TX Quince 2026 budget guide; caterer packages for 100–200+ guests]
+- The spread: a buffet of Tex-Mex staples: enchiladas (see catalog: Tex-Mex enchiladas), fajitas with flour tortillas (see catalog: Fajitas), Spanish rice and charro beans; or a Texas BBQ buffet of brisket, sausage, potato salad and beans (see catalog: Texas BBQ platter); a late-night taco bar is common. A tiered cake is the decor centrepiece. 6 to 10 foil chafing pans on the buffet line. [MEDIUM — San Antonio and DFW caterer menus; commercial sources]
+- Snapshot staging: **1 setting**: one round-table place with a buffet plate (two enchiladas, a spoon of rice, a spoon of charro beans, or two slices of brisket with potato salad), a folded napkin and the event-colour centrepiece cropped. **2 settings**: two identical buffet plates on a round table with a linen cloth; the centrepiece between them. **Small group**: three or four identical plates on one arc of a round table; a bread basket and salsa bowl shared. Crowd cues: other round tables with matching centrepieces soft behind, the buffet line of chafing pans at the edge, balloons or a balloon arch in the event colour, out of focus. Shared buffet vessels sit in the background, not on the guests' table. [EDITORIAL]
+- Decor and cues: one strong event colour (rose gold, emerald, red) repeated in linens, balloons and centrepieces; a tiered cake soft in the background. Clichés to avoid: the quinceañera in her gown as the subject next to the product (a minor; never make her the hero beside a product), mariachi as the scene.
+- Never stage: the church ceremony, the toast (brindis), any bar or alcohol, a minor holding or presented with the product.
+- Confidence and sources: MEDIUM for headcount and buffet (caterer and budget-guide tier); EDITORIAL for staging.
+
+#### Celebration: Juneteenth cookout (Juneteenth, "Emancipation Day")
+- Type: calendar holiday (community and family gathering); Texas origin
+- When: 19 June; afternoon into evening. Intake time: golden-hour.
+- Gathering: Black Texan families, churches and neighbourhoods; park and backyard cookouts from 15 to 50+, plus large city park celebrations. Juneteenth began in Galveston (19 June 1865) and spread from Texas. (home outdoor; other: park)
+- The spread: barbecue (brisket, links, ribs; see catalog: Texas BBQ platter), watermelon, and **red foods** (red velvet cake, strawberry desserts, red drinks) as the signature. Red drinks are traditional: hibiscus tea, red lemonade and a Waco-bottled red soda historically. [HIGH — Texas Monthly "Juneteenth and Barbecue", NPR on Galveston origins, Oldways]
+- Snapshot staging: **1 setting**: a paper or melamine plate on a picnic table with brisket slices, a link, potato salad and a wedge of watermelon; a sheet of butcher paper with more brisket cropped at the edge. **2 settings**: two identical plates; between them a sliced watermelon on a board and a red velvet cake partly cropped. **Small group**: identical plates down one side of a long picnic table covered in a red or plain cloth; brisket on paper, a pan of beans and a watermelon in the middle; the table runs out of frame. Crowd cues: a smoker's haze in the background, blurred family at another table, a folding canopy. [EDITORIAL]
+- Decor and cues: red accents in food and tableware, folding chairs, shade canopies, a smoker. **Drink rule**: the red-drink tradition must not put a non-TCCC red soda beside the hero (§5.5). If the brief wants the red cue, carry it in food (watermelon, red velvet cake), or use a TCCC red variant only if the brief names one. [EDITORIAL]
+- Never stage: a legible flag, protest or historical-trauma imagery; any alcohol.
+- Confidence and sources: HIGH for origin and red-food/barbecue tradition; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Texas BBQ platter (full authoritative entry — supersedes `us.md`'s national-index BBQ pointer for Texas)
@@ -379,6 +421,8 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - **No dedicated research pass was run on Texas Gulf Coast seafood** (distinct from `us-gulf-south.md`'s Louisiana/Mississippi/Alabama coverage) **or on Houston's own documented food diversity/fusion scene** — both are plausible candidates for a future pass but were out of scope for this file's specific assignment (chili, Tex-Mex, BBQ, chicken-fried steak, kolaches).
 - **Texas toast, Blue Bell ice cream, and other well-known Texas-associated foods were not researched this pass** — deliberately out of scope given the specific assignment; flagged as candidates for a future pass, not an oversight.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, TSHA, Texas Monthly, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
+- **Celebrations pass (2026-10-01): quinceañera headcount and buffet menus rest on caterer and budget-guide sources (commercial tier)**; no institutional or journalism source was found for typical Texas guest counts. Tamalada side dishes and Christmas Eve table counts are editorial.
+- **Juneteenth red-drink tradition conflicts with the hero-only drink rule**: the historical red soda is a non-TCCC brand. The entry resolves it by carrying the red cue in food; a reviewer may want a project-level rule on TCCC red variants for Juneteenth briefs.
 
 ---
 
@@ -390,6 +434,7 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 4. **Priority 4**: A dedicated pass on Texas Gulf Coast seafood and Houston's documented culinary-fusion diversity, if a future brief needs Texas coastal or major-metro-specific depth beyond this file's scope.
 5. **Priority 5**: Tighten the several real-world-size figures flagged MEDIUM/MEDIUM-HIGH above once the project's broader retroactive real-world-scale audit reaches this file.
 6. **Priority 6**: Texas toast, Blue Bell ice cream, and other Texas-associated foods not covered in this pass, if a future brief calls for them.
+7. **Celebrations pass (2026-10-01)**: Texas pork-in-red-chile tamales (full entry; currently borrowed from `us-new-mexico.md`'s Tamales), charro beans, and Tex-Mex Spanish rice as side entries.
 
 ---
 
@@ -401,3 +446,4 @@ Texas as a whole clears the "would swapping this region's norms into another reg
 - **Sources considered but not used**: Generic SEO recipe-roundup sites turned up frequently for nearly every dish and were deprioritized in favor of the journalism/encyclopedic/institutional sources above wherever both were available.
 - **Total sources cited**: approximately 45 distinct URLs across roughly 25 search queries.
 - **Structural decision made during the merge into this canonical file (not part of the original research pass)**: the research surfaced a genuine open question — whether Texas BBQ's four-way regional split (especially barbacoa) warrants zone treatment inside this file the way Missouri & Kansas City got inside `us-midwest.md`. Resolved as: one file, no internal zone split, since Texas's internal variation (BBQ style, Tex-Mex intensity) stays within already-coherent dish families rather than carrying a second whole distinct cuisine identity the way St. Louis's Italian-American/German-American register did alongside Kansas City's barbecue. See FILE ROLE & METHOD above for the full reasoning.
+- **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (tamalada, quinceañera catering, Juneteenth food). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: Christmas Eve tamales/tamalada, quinceañera reception, Juneteenth cookout. WebSearch snippets only, no page reads.

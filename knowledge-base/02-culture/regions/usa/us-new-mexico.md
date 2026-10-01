@@ -92,6 +92,48 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+National celebrations and the national snapshot rule live in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section. This section adds only what is genuinely New Mexican. All entries follow `country-file-schema.md` §5.7: the frame shows the operator's 1, 2 or small group of place settings at one stretch of a larger table, and the crowd is implied.
+
+### How large gatherings work here (deltas only)
+
+- **The food is chile-centred and served from big pots.** New Mexican gatherings are fed from large pots of posole and red or green chile, stacks of tamales, and trays of biscochitos, rather than a carved roast. Bowls and spoons are as present as plates. [HIGH — New Mexico Magazine, Visit Albuquerque]
+- **Open-house hospitality** is a real pattern on Christmas Eve and on Pueblo feast days: families feed relatives and visitors in shifts at the home table rather than seating everyone at once. [MEDIUM-HIGH — Santa Fe New Mexican, santafe.org feast-day pieces]
+- **Snapshot default for New Mexico** [EDITORIAL]: the most authentic crowd cues are (1) a large posole or chile pot cropped at the frame edge with a ladle, (2) farolitos/luminarias glowing outside a window or along an adobe wall at night (Christmas only), and (3) a heaped tray of biscochitos or a stack of horno bread loaves more than the visible diners could eat.
+
+#### Celebration: Christmas Eve (Nochebuena) with posole, tamales and biscochitos
+- Type: calendar holiday
+- When: 24 December, evening, after or around the lighting of farolitos/luminarias. Intake time: evening.
+- Gathering: extended Hispano family and neighbours, 10 to 30 across the evening, moving through the house (home indoor; farolitos outdoor as backdrop). Posadas processions end with food at a host home. [HIGH — New Mexico Magazine, Visit Albuquerque, Wikipedia: Luminaria]
+- The spread: a pot of posole (see catalog: Posole), a pot of red chile, tamales (see catalog: Tamales), often carne adovada (see catalog: Carne adovada), tortillas, and biscochitos (see catalog: Biscochitos) for dessert. Tamales and biscochitos are often bought in advance from home sellers. 4 to 6 serving vessels. [HIGH — New Mexico Magazine; Wide Open Eats first-person piece, blog tier]
+- Snapshot staging: **1 setting**: a bowl of red posole with its garnish plate (shredded cabbage or lettuce, radish, oregano, lime), one tamale on a small plate beside it; the posole pot cropped at the edge. **2 settings**: two identical bowl-and-plate settings; between them a platter of tamales and a small dish of red chile. **Small group**: identical settings along a wooden table; the posole pot, tamale platter, a basket of tortillas and a plate of biscochitos down the middle; table runs out of frame. Crowd cues: farolitos glowing through a dark window behind, a second biscochito tray on a sideboard, a blurred figure at the stove. [EDITORIAL]
+- Decor and cues: farolitos/luminarias (paper bags with sand and a candle; the name differs north and south of Santa Fe, so don't caption-label), chile ristras, an adobe or viga-ceiling interior, a home Christmas tree. Clichés to avoid: cow skulls, generic "Southwest" turquoise-and-cactus decor.
+- Never stage: a nativity, the Posadas procession itself or church interiors as the scene; any alcohol.
+- Confidence and sources: HIGH for the menu and farolitos; EDITORIAL for staging.
+
+#### Celebration: Pueblo feast day open house (feast day)
+- Type: community or family gathering (annual, tied to each Pueblo's patron saint)
+- When: each of the 19 Pueblos has its own feast day across the year; the home meal runs from midday through the afternoon. Intake time: midday.
+- Gathering: the host family feeds relatives, friends and invited visitors in rotating sittings at the home table (home indoor). Dozens to over a hundred people pass through a household across the day. [MEDIUM-HIGH for open-house hospitality — santafe.org, Santa Fe New Mexican; headcount LOW, not verified this pass]
+- The spread: red chile stew (pork), green chile stew (see catalog: Green chile stew), posole (see catalog: Posole), tamales, enchiladas, salad, often a casserole or lasagna, and horno-baked bread and pies (see catalog: Pueblo bread). The documented menu mixes traditional and everyday dishes; don't strip it to only "ancient" foods. [MEDIUM-HIGH — Fifty Grande, New Mexico Magazine, santafe.org]
+- Snapshot staging: **1 setting**: a bowl of red chile stew, a torn piece of round horno bread on the side plate; a basket of loaves cropped. **2 settings**: two identical bowls; a whole round loaf and a pot of stew between them. **Small group**: identical settings at a home table with an oilcloth or plain cloth; stew pots, a bread basket and a pie partly cropped. Crowd cues: a stack of clean bowls at the edge, blurred guests waiting near a doorway, more bread loaves on a counter behind. [EDITORIAL]
+- Decor and cues: a plain home dining room, everyday family dishes; an adobe exterior only through a window. Clichés to avoid: costume headdresses, "trading post" props.
+- Never stage: the dances, plaza, church or any ceremonial dress (photography at feast-day dances is commonly prohibited by the Pueblos; never imply it); any alcohol (several Pueblos prohibit it). [LOW — not verified this pass; widely stated Pueblo visitor rules] Use only for a brief with explicit feast-day framing; never as a generic "Native" scene.
+- Confidence and sources: MEDIUM-HIGH for menu and open-house practice; sourcing is tourism and journalism tier, not Pueblo-authored (same gap as the Pueblo bread entry); EDITORIAL for staging.
+
+#### Celebration: Matanza (community pork gathering)
+- Type: community or family gathering
+- When: traditionally fall and winter; the Belén "World's Largest Matanza" is in late January. The meal is midday into afternoon. Intake time: midday.
+- Gathering: Hispano family and neighbours at home (home outdoor), or a community event: Belén's matanza cooks about 45 pigs and serves free food to 10,000+ people, raising scholarship money. [HIGH — New Mexico Magazine, Taos News]
+- The spread: carne adovada (see catalog: Carne adovada), chicharrones (crisp fried pork pieces, golden-brown, irregular 3–6 cm chunks, served in a paper boat or bowl; no catalog entry, added to CANDIDATE QUEUE), red chile, beans, tortillas. Plates are paper and piled high. 3 to 5 shared vessels. [HIGH — New Mexico Magazine]
+- Snapshot staging: **1 setting**: a paper plate on a folding table with carne adovada, a tortilla folded on the side, a paper boat of chicharrones; a big cast-iron cauldron cropped at the edge. **2 settings**: two identical plates; a shared bowl of chicharrones between them. **Small group**: identical plates down a folding table outdoors; pots of chile and a stack of tortillas wrapped in a cloth. Crowd cues: smoke from outdoor cooking fires in the background, a blurred line of people, more tables behind. [EDITORIAL]
+- Decor and cues: winter light, outdoor wood fires, cast-iron pots, folding tables. Cliché to avoid: rustic "cowboy" props.
+- Never stage: the slaughter or butchering, a whole carcass, raw meat; any alcohol.
+- Confidence and sources: HIGH for the event and dishes; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: New Mexican stacked enchiladas (full authoritative entry — supersedes `us.md`'s national-index Enchiladas pointer for the New Mexican variant; builds on, does not duplicate, `us.md`'s existing depth)
@@ -353,6 +395,7 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - **The "23% more flavor compounds" claim for Hatch Valley terroir is a single commercial (grower-affiliated) source's marketing figure** — flagged individually in that entry as needing independent corroboration before being treated as more than a marketing claim.
 - **No dedicated research pass was run on Albuquerque's or Las Cruces's broader restaurant/dining-out culture, New Mexico wine country (the Rio Grande Valley has one of the oldest wine-growing histories in North America, per passing mentions in sourcing not followed up this pass), or the state's green chile export/processing industry beyond the top-line USDA production figures cited above** — all plausible candidates for a future pass but out of scope for this file's specific assignment.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, USDA NASS, New Mexico Magazine, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
+- **Celebrations pass (2026-10-01): Pueblo feast-day headcounts and the photography/alcohol visitor rules were not verified this pass**; feast-day menu sourcing is tourism/journalism tier, not Pueblo-authored. Christmas Eve headcount is editorial.
 
 ---
 
@@ -365,6 +408,7 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 5. **Priority 5**: Tighten the several real-world-size figures flagged MEDIUM/LOW-MEDIUM above once the project's broader retroactive real-world-scale audit reaches this file, especially Pueblo bread's loaf dimensions.
 6. **Priority 6**: A pass on New Mexico wine country and any other dishes/customs not covered in this pass, if a future brief calls for them.
 7. **Priority 7**: Cross-check this file's Frito pie entry against `us-texas.md`'s periodically, to confirm no unintentional drift or contradiction between the two states' accounts of the same contested origin dispute if either file is later revised.
+8. **Celebrations pass (2026-10-01)**: Chicharrones (New Mexico matanza style) and red chile (pork) stew as full entries.
 
 ---
 
@@ -376,3 +420,4 @@ New Mexico clears the "would swapping this region's norms into Texas or Arizona 
 - **Sources considered but not used**: Generic SEO recipe-roundup sites turned up frequently for nearly every dish and were deprioritized in favor of the journalism/encyclopedic/institutional sources above wherever both were available. A search for direct tribally-authored or academic ethnographic sourcing on Pueblo bread and the horno's origin did not surface a source stronger than the Atlas Obscura magazine-tier account already cited — flagged in GAP LOG rather than papered over with an under-sourced guess.
 - **Total sources cited**: approximately 45 distinct URLs across roughly 25 search queries.
 - **Structural decision made during the merge into this canonical file**: the research recommended, and this merge confirms, keeping New Mexico as a single file with the northern/southern gradient documented as an explicit dish-level callout — the same resolution `us-texas.md` reached for its own internal variation, for the same reason (the variation stays within one coherent dish family rather than carrying a second whole distinct cuisine identity). See ZONE CHARACTERIZATION above for the full reasoning and CANDIDATE QUEUE item 1 for what would revisit this.
+- **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (Christmas Eve menu and farolitos, Pueblo feast-day open houses, matanza). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: Christmas Eve posole/tamales/biscochitos, Pueblo feast-day open house, matanza. WebSearch snippets only.
