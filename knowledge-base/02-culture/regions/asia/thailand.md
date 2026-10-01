@@ -223,6 +223,408 @@ and real-world size.
 | **Night market** | Rows of lit stalls under canopies, food in clear plastic boxes and paper trays, shared folding tables; warm bulb light, bokeh; never legible signage. |
 | **Mall food court** | A big air-conditioned hall, stall counters with steel trays, melamine plates and bowls, a coupon/card system (keep unreadable); everyday urban lunch. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies. The default camera keeps the table sharp and the
+room soft, so each profile leads with what the blurred background must
+show. First wave (2026-10-01): the five most-used staging venues. The
+QUICK-REFERENCE table above stays the short index; the night market,
+khao gaeng shop, food court, khan tok and karaoke room keep their
+register rows and scenario text until a later wave. Hard rules 1–9 apply
+to every profile; hard rule 5 (no Buddha image, spirit house or royal
+portrait in frame) is the trap that matters most in Thai backgrounds,
+because all three are common in exactly these rooms.
+
+#### Venue: Bangkok townhouse living-dining room (baan tao-hao / tuek thaew)
+- Use for: home indoor; casual lunch at home (1–3), dinner at home, the
+  family side of Chinese New Year and house-blessing meals, the EPL and
+  national-team watch party; 1, 2 or a small group. The Bangkok family
+  default (townhouses and shophouses were ~18% of the national stock, far
+  more in the capital's inner rings) [MEDIUM — JICA housing survey via
+  search, see ENVIRONMENT & STAGING SCENES]; the condo and the detached
+  house are the variants below.
+- Soft background (the core): a narrow, deep ground-floor room seen
+  lengthwise, so the background is the **far end of a long room**: the
+  open kitchen or a pantry counter at the back, a white or beige
+  tiled splashback and a steel sink catching light, a lidded electric
+  rice cooker and a thermos-type hot-water pot on the counter as small
+  pale domes [MEDIUM for the ground-floor living-dining-kitchen layout
+  and white granite or grey tile floors — Living Asean townhouse
+  features; appliances MEDIUM, file interior markers]. **Back and side
+  walls**: smooth plaster painted off-white, cream or pale green, bare
+  except for a wall clock, a calendar from a local shop (text
+  unreadable) and framed family photos; a high shelf with a Buddha image
+  or a royal portrait is common and must be **out of frame or turned
+  into an unreadable warm smudge** (hard rule 5) [MEDIUM — file norms;
+  EDITORIAL]. **Middle distance**: a refrigerator (white or silver) as
+  a tall pale block, a stair rising along one side wall with a steel or
+  wooden handrail, a low wooden or rattan sofa set and the TV cabinet,
+  a stand fan, a glass-fronted display cabinet of plates and glasses.
+  **Light**: daylight from the street end through the folding steel
+  grille (pratu yuet) and an aluminium-frame glass door, so the front is
+  bright and the back darker; by night a white fluorescent tube or LED
+  panel on the ceiling (cool, 5000–6500 K look), the TV glow, and a
+  slowly turning ceiling fan as a soft disc [MEDIUM for fan, AC and
+  fluorescent — file interior markers; EDITORIAL for colour
+  temperature]. **Palette**: off-white walls, beige or grey glazed floor
+  tile with a sheen, dark lacquered wood or walnut-tone furniture,
+  silver appliances, the cool white of the tube. **Signature shapes
+  (pick 3–4)**: the split-AC unit high on the wall as a pale horizontal
+  bar; the ceiling-fan disc; the rice cooker's dome; the diagonal of the
+  staircase; the vertical lines of the folding steel grille at the
+  street end. **Density and wear**: lived-in and tidy, a little crowded
+  (plastic storage boxes, a shoe rack outside the door, a motorbike
+  helmet on a shelf); not a showroom. **People cues**: at most one
+  blurred relative on the sofa or at the kitchen counter, in house
+  clothes; no children's faces.
+- Shell: 3–4 storey reinforced-concrete row house, 4–5 m wide; glazed
+  ceramic or granite-look floor tiles; plaster ceiling about 2.8–3 m,
+  with a fan and a single tube or panel light; louvred or sliding
+  aluminium windows with mosquito screen at the rear [MEDIUM — Living
+  Asean; factsanddetails "suburban concrete town houses"].
+- The table as set here: a rectangular wooden or Formica-topped dining
+  table for four to six, sometimes covered with a clear plastic sheet
+  over a cloth, or a glass top; four wooden or steel chairs; or, in older
+  homes, a mat on the floor and a low table. Always on it: shared dishes
+  in the middle with serving spoons, one plate of rice per person,
+  spoon and fork, a saucer of prik nam pla, a box of tissues in a
+  plastic holder; a stainless or plastic lid cover (fly cover) nearby
+  [MEDIUM for structure — hard rule 2; tissue box and fly cover LOW —
+  not verified]. House tableware: white china or patterned melamine
+  plates, small bowls, steel spoons. Chair edges: dark wood backs or
+  steel-tube frames.
+- Subregional variants and the national default: **Bangkok condo**
+  (young adults, singles, couples): a 25–35 m² unit, laminate or tiled
+  floor, a galley kitchenette against the balcony door, a two-seat table
+  or a low table with floor cushions, a sliding glass door to a narrow
+  balcony with an AC compressor and drying rack, the city or another
+  tower soft beyond [MEDIUM — Beyond Decor condo guide (tier 3); file
+  ENVIRONMENT norms]. **Detached house** (the default outside central
+  Bangkok, ~73% of national stock): a wider single-storey or two-storey
+  room, a garden or carport through the window. **North**: more wood
+  (teak panelling, wooden floors). **Deep South**: no Buddha shelf;
+  framed Arabic calligraphy is common and must stay unreadable or out of
+  frame [LOW — not verified]. National default when nothing is named:
+  the Bangkok townhouse above.
+- Hallucination traps: a teak "Thai-style" resort interior with carved
+  panels and silk cushions; orchids and lotus flowers on every surface;
+  a Buddha statue as décor; a golden temple through the window; a
+  Japanese or Korean minimalist apartment (tatami, low hinoki table);
+  Western open-plan suburban kitchens with an island; dark moody
+  lighting (Thai homes are bright and evenly lit).
+- Never stage: a Buddha image, spirit house or royal portrait in frame;
+  a whisky bottle, beer or soda-water set on the table or cabinet;
+  legible calendars, TV screens, packaging.
+- Prompt-ready line: "A Bangkok townhouse dining table under a cool
+  white ceiling light, off-white plaster walls and a glossy beige tiled
+  floor, a softly blurred kitchen counter with a rice-cooker dome and a
+  steel sink at the back, a wall AC unit and a ceiling fan as pale soft
+  shapes, and daylight from the folding steel street grille behind."
+- Confidence and sources: MEDIUM overall. 2 searches (Thai townhouse
+  interiors; Bangkok condo units). Living Asean townhouse features;
+  factsanddetails.com "Homes in Thailand"; Beyond Decor (tier 3); file
+  ENVIRONMENT norms. Tissue box, fly cover and Deep South calligraphy
+  LOW — not verified.
+
+#### Venue: Front yard and under-house space (laan baan / tai thun)
+- Use for: home outdoor; meal outdoors at home, Songkran homecoming,
+  mookata at home, village feasts before the tent goes up, the
+  national-team and Muay Thai watch parties; 1, 2 or a small group.
+  The default home-outdoor venue outside central Bangkok; the Isan tai
+  thun is its most distinctive form [MEDIUM — file ENVIRONMENT norms;
+  tai thun use for eating and resting below].
+- Soft background (the core): **Isan / rural form**: the shaded space
+  under a raised house, so the frame is **dark above, bright beyond**:
+  the underside of the wooden floor and beams as a dark band at the top,
+  thick square concrete or timber posts in rhythm across the middle
+  distance, and beyond them a **bright, over-exposed yard** in green and
+  dusty ochre (banana leaves, a mango tree, a fence of concrete posts and
+  wire, rice paddies at the far edge in the countryside) [MEDIUM — the
+  tai thun as a cool shaded space for eating, resting, weaving and
+  storing tools: Living Asean; Wikipedia "Traditional Thai house"]. In
+  the middle distance: a hammock slung between two posts, a raised
+  bamboo or wooden platform bed (taeng) used for sitting and eating, a
+  parked motorbike, stacked plastic chairs, a large glazed water jar
+  (ong), a small charcoal clay stove (tao) with a faint smoke haze
+  [MEDIUM for hammock and storage — same sources and file norms; taeng,
+  ong and tao MEDIUM — not individually re-checked; uncontested].
+  **Light**: hard tropical daylight outside, cool shade inside; at
+  golden hour a warm low raking light across the yard; at night a bare
+  bulb or one fluorescent tube strapped to a post, insects in the glow.
+  **Palette**: grey-brown timber and grey concrete, red-brown laterite
+  earth, saturated leaf green, the primary colours of plastic chairs and
+  basins. **Signature shapes**: the dark underside of the floor; the row
+  of posts; the hammock's curve; the bright rectangle of yard; the
+  platform bed. **Density and wear**: practical and well used, some
+  clutter at the edges (baskets, a broom, a rice sack), swept earth or a
+  rough concrete pad. **People cues**: one or two blurred relatives on
+  the platform or in the hammock, within the limit.
+  **Central / Bangkok-suburb form**: a front yard or carport of a
+  detached or townhouse home: a concrete or tiled forecourt, a steel
+  gate with vertical bars, potted plants (bougainvillea, crotons) along
+  the wall, the car or motorbike pushed aside, the street soft beyond
+  the gate.
+- Shell: open on three or four sides; floor is packed earth, concrete
+  screed or tile; the "ceiling" is the house floor 2–2.5 m above
+  [MEDIUM — Living Asean; EDITORIAL for heights].
+- The table as set here: a mat (woven plastic or reed) on the concrete
+  with a low table, or the platform bed, or a folding steel table with
+  plastic stools; shared dishes in bowls and on melamine plates, a family
+  kratip of sticky rice in Isan, som tam on a plate, gai yang chopped on
+  a plate, raw cabbage and long beans, jaew in a small bowl; spoon and
+  fork. A mookata dome on a charcoal bucket when the brief names it.
+  Chair edges: plastic stools in red, blue or green.
+- Subregional variants and the national default: **Isan**: the tai
+  thun with paddies. **North**: a wooden house on lower stilts or a
+  townhouse forecourt, mountains in haze at the far edge. **South and
+  Deep South**: a wooden Malay house on stilts with a steep roof in zone
+  5; coconut palms and rubber trees beyond. **Bangkok**: the shophouse
+  frontage on the soi (see the street stall profile for that look).
+  National default when nothing is named: a detached-house front yard
+  with a concrete pad, potted plants, a steel gate and a mat or low
+  table, in shade.
+- Hallucination traps: an elephant, longtail boat or golden temple in
+  the distance; a bamboo resort sala with white cushions; a Western
+  barbecue grill and lawn furniture; jungle-tour scenery; a
+  dirt-poor, exoticised hut (the file's caricature-avoidance rule).
+- Never stage: a spirit house (stands in most yards — keep out of
+  frame); beer or whisky sets beside the mookata; a full Thai flag; any
+  legible sign on the gate.
+- Prompt-ready line: "Lunch in the cool shade beneath a raised Isan
+  wooden house: a low table on a woven mat, dark floor beams overhead,
+  a row of soft square posts and a hammock in the middle distance, and
+  a bright blurred yard of banana leaves and dusty red earth beyond."
+- Confidence and sources: MEDIUM. 1 search (tai thun use). Living
+  Asean; Thailand Foundation "Ruean Thai"; Wikipedia "Traditional Thai
+  house"; file ENVIRONMENT norms. Platform bed, water jar and clay stove
+  not individually re-checked.
+
+#### Venue: Shophouse restaurant (raan aahaan taam sang / raan khao)
+- Use for: restaurant indoor; away-from-home lunch for 1, dinner for
+  2–3, birthdays in small groups, the street-food-shop watch party; the
+  default casual sit-down restaurant in every Thai city [MEDIUM — file
+  register; Atlas Obscura and travelfish descriptions below].
+- Soft background (the core): an **open-fronted** ground-floor room, so
+  one side of the frame is the street. **Back wall**: glossy wall tiles
+  (white, cream or pale blue, sometimes granite-look) to head height
+  or full height, painted plaster above, with a few framed newspaper or
+  magazine clippings and old photos as small pale rectangles, a wall
+  clock and a TV mounted high in a corner as a soft bluish glow [HIGH
+  for tiled or granite walls, steel furniture and fluorescent light —
+  Atlas Obscura on Gai Tord Jae Kee ("glossy granite", "stainless steel
+  furniture and fluorescent lighting") and Wattana Panich ("tiled walls,
+  faded news clippings, and fluorescent lights"); travelfish market
+  eateries]. **Middle distance**: the **cooking station at the front by
+  the street** — a wok on a high-flame gas burner, a glass-fronted
+  aluminium cart or display case of raw ingredients, steam; a tall
+  glass-door drinks fridge as a cold, bright rectangle (contents and
+  brand fully blurred); stacks of melamine plates and steel bowls on a
+  shelf; other steel tables with a few blurred diners [MEDIUM — file
+  register; Atlas Obscura]. **Light**: rows of bare white fluorescent
+  tubes on the ceiling (cool, flat, even), plus daylight spilling from
+  the open front; at night the room glows white against a dark soi; one
+  or two wall fans or ceiling fans turning. **Palette**: cool white
+  light, glossy white or pale tile, brushed stainless steel, the red or
+  blue of plastic stools, the orange flame and steam at the wok.
+  **Signature shapes**: the band of white tile behind; the long lines of
+  fluorescent tubes; the wok's flame and steam cloud at the front; the
+  tall glowing fridge; the steel tables receding in rows. **Density and
+  wear**: busy at noon, functional and scrubbed but well worn (chipped
+  tiles, a scuffed floor, cables along the wall). **People cues**: a
+  cook at the wok in a T-shirt and apron, seen from behind or in blur;
+  one or two diners at a far table; no more than about 2.5 faces.
+- Shell: the ground floor of a 3–4 storey concrete shophouse, 4–5 m
+  wide, a roll-up steel shutter or folding grille pushed back to open
+  the whole front; terrazzo or ceramic-tile floor; a plain plaster
+  ceiling with tubes and fans [MEDIUM — file register and ENVIRONMENT
+  norms].
+- The table as set here: **bare stainless-steel table** (or a
+  Formica top with a steel edge); always on it: the four-jar condiment
+  caddy (chilli flakes, sugar, fish sauce with chilli, chilli vinegar), a
+  steel cup holding spoons, forks and chopsticks, a roll or box of pink
+  or white tissue paper; the house tableware is melamine plates
+  (white, or with a green or blue pattern) and steel or melamine noodle
+  bowls with porcelain soup spoons. Chair edges: steel chairs or
+  plastic stools [HIGH for caddy and spoon-fork — file GENERAL NORMS;
+  tissue roll MEDIUM — not independently re-checked].
+- Subregional variants and the national default: **Bangkok Chinatown
+  and old town**: older Chinese-Thai rooms with marble-topped tables,
+  wooden chairs and dark wood shelving. **Chiang Mai**: the khao soi
+  shop, often in a wooden-front townhouse or an open-sided shed with
+  wooden tables. **Phuket and the South**: Sino-Portuguese shophouses
+  with arcaded five-foot ways, pastel facades, patterned cement floor
+  tiles. **Deep South**: a halal shop (roti, khao mok) with a green
+  colour accent; Arabic calligraphy stays unreadable. National default
+  when nothing is named: the Bangkok tiled shophouse room above.
+- Hallucination traps: a dark-wood "Thai restaurant" abroad with
+  carved elephants, silk table runners, orchids and gold Buddha statues;
+  a trendy café with Edison bulbs and exposed brick; white tablecloths;
+  a Chinese restaurant with red lanterns everywhere (only in Chinatown,
+  and then as soft colour); a beer-branded fridge or umbrella.
+- Never stage: beer bottles on tables, a beer tower, whisky sets;
+  legible menus on the wall (Thai script, prices); branded fridges; the
+  royal portrait or a Buddha shelf (common in shops — out of frame).
+- Prompt-ready line: "A Bangkok shophouse restaurant at lunchtime: a
+  bare stainless-steel table with a four-jar condiment caddy, glossy
+  white wall tiles and rows of cool fluorescent tubes softly blurred
+  behind, and the steam and orange flame of a wok station at the open
+  street front."
+- Confidence and sources: MEDIUM-HIGH. 1 search (shophouse
+  interiors). Atlas Obscura "Essential places to eat in Bangkok"
+  (Gai Tord Jae Kee, Wattana Panich); travelfish Nang Loeng market;
+  file register and GENERAL NORMS.
+
+#### Venue: Soi street stall (raan khaang thang)
+- Use for: street / on-the-go and pavement sit-down; meal on the go
+  (1), away-from-home lunch (1–2), late-night food, a few friends with a
+  TV at a stall; the default Thai street venue [HIGH — travelfish Silom
+  Soi 20; Roadbook; Design Inquiry on Bangkok street vendors; file
+  STREET FOOD register].
+- Soft background (the core): the **soi itself** behind the stall:
+  a row of 3–4 storey concrete shophouse fronts with their roll-up
+  shutters, a tangle of **overhead electric cables** sagging across the
+  street, parked motorbikes as dark shapes along the kerb, and the
+  vendor's own set-up in the middle distance: a **wheeled cart with a
+  glass display case** (raw ingredients, or hanging poached chickens
+  for khao man gai), a wok on a gas burner with a blue LPG tank below,
+  a large steel pot of broth with steam, a striped or plain tarpaulin
+  or a big umbrella overhead [MEDIUM — Design Inquiry; travelfish;
+  file register and ENVIRONMENT norms]. Other steel tables and plastic
+  stools spread along the pavement, a few blurred diners hunched over
+  bowls. **Light by day**: bright, hazy, often white-sky; the
+  umbrella or tarp gives a soft coloured shade (blue, red, green) on the
+  table. **Light by night**: a bare bulb or fluorescent tube clipped to
+  the cart, the glass case lit from inside, warm and white spots against
+  a dark soi, and **bokeh** from motorbike headlights and shop fronts
+  [MEDIUM — night market and soi descriptions above; EDITORIAL colour].
+  **Palette**: brushed steel, the primary red and blue of plastic
+  stools, grey concrete, the white of steam, warm tungsten points at
+  night. **Signature shapes**: the cart's glass box; the overhead cable
+  tangle; the umbrella or tarp edge; low plastic stools; the steam
+  plume. **Density and wear**: busy, cramped and clean enough; kerb
+  wear, a bucket of washing water by the cart, a stack of stools.
+  **People cues**: the vendor in blur at the cart (apron, sometimes a
+  cap), one or two diners at the next table, a passing motorbike as a
+  streak; nobody sharp.
+- Shell: the pavement and the kerb; a concrete or brick-paved surface;
+  open sky or the tarp overhead.
+- The table as set here: a small **folding stainless-steel table**
+  (often square, about 60 × 60 cm) with low plastic stools; the
+  four-jar caddy, a steel cutlery cup, a roll of tissue; one dish on a
+  melamine plate, or a noodle bowl with a porcelain spoon and
+  chopsticks; a saucer of prik nam pla. Grab-and-go food sits on paper,
+  banana leaf, or a plastic bag laid flat on the cart ledge, never in a
+  hand [HIGH for steel tables and plastic stools — travelfish, Roadbook,
+  khaosanroad.com guides; caddy from file norms].
+- Subregional variants and the national default: **Isan and roadside
+  provinces**: the grill-and-som-tam stall (charcoal grill with chickens
+  in bamboo clamps, the clay krok), with wooden benches and a corrugated
+  roof. **Chiang Mai**: stalls under old trees, cooler blue evenings in
+  the cool season. **Deep South**: halal roti and satay carts, a
+  mosque dome possible far behind (soft, never as a hero). National
+  default when nothing is named: a Bangkok soi stall by day, tightly
+  framed.
+- Hallucination traps: Khao San Road neon and backpackers; a floating
+  market with boats; tuk-tuks lined up as décor; a "hawker centre"
+  (Singapore/Malaysia: numbered stalls under one roof); a Vietnamese
+  street scene (conical hats, tiny blue stools with knee-high tables
+  everywhere, French-colonial yellow walls); fried insects as the
+  default; filthy or chaotic framing.
+- Never stage: legible stall signs, menus or LINE/Grab stickers; beer
+  bottles on neighbouring tables; branded umbrellas or coolers;
+  motorbike number plates; a spirit house or shrine on the pavement.
+- Prompt-ready line: "A Bangkok soi stall: a small stainless-steel
+  folding table with a four-jar condiment caddy and a red plastic stool
+  in the foreground, a softly blurred food cart with a glass display case
+  and a steaming pot behind, concrete shophouse fronts and a tangle of
+  overhead cables beyond."
+- Confidence and sources: HIGH for the steel-table-and-stool set,
+  MEDIUM for the soi background. 1 search (stall set-up). Travelfish
+  Silom Soi 20; Roadbook; khaosanroad.com (tier 4); Design Inquiry
+  "Make/Do: Street vendors and Bangkok urban space".
+
+#### Venue: Party tent with Chinese tables (tent ngan liang / to jeen)
+- Use for: other (rented tent over a yard, soi or temple ground) or
+  restaurant/hall; wedding feast, ordination, house-blessing lunch, big
+  birthdays, Songkran and village gatherings at scale; snapshot frames
+  of 1, 2 or a small group. The signature Thai event venue in the
+  CELEBRATIONS section [MEDIUM — Bangkok Post "Modern-Day Ordination"
+  for round tables of 8–10; tent-and-Chinese-table rental listings
+  below].
+- Soft background (the core): the **inside of a steel-frame rental
+  tent**: white or pale fabric roof panels sagging slightly between
+  **steel poles**, often with **pleated or gathered drapes** (white,
+  or with coloured swags in pink, gold, purple or light blue) along the
+  roof edges and wrapped around the poles [MEDIUM — Thai tent and
+  catering rental listings (tentplk, nakorntoh, sawsamsai) offering
+  tents, white-topped tables, Chinese tables, chair covers, pleated
+  drape fabric and water-mist fans]. **Middle distance**: more **round
+  tables for ten** under white or coloured cloths, folding steel chairs
+  or banquet chairs with fabric covers (white with a coloured sash),
+  receding in a grid; a big **water-mist fan** or standing fans as round
+  shapes; at the far edge a stage or backdrop with fabric and flowers,
+  and (village form) the **cooking station**: rows of large aluminium
+  pots, big woks on gas rings, a trestle table of plates, steam and
+  helpers. **Light**: by day, diffuse white light through the fabric,
+  everything slightly bright and low-contrast, the yard or soi
+  over-exposed at the tent's open sides; by evening, strings of bare
+  bulbs or fluorescent tubes tied to the poles, warm-white and
+  cool-white mixed, coloured light on the stage. **Palette**: white
+  fabric and cloth, the chosen accent colour, chrome poles, the steel
+  of pots, green of the yard at the edges. **Signature shapes**: the
+  tent roof's soft triangle peaks; poles with gathered drapes; the
+  circles of round tables; covered chairs with bows; a row of big pots.
+  **Density and wear**: temporary and full: crowded chairs, tables
+  laden, plastic crates stacked at the edge. **People cues**: blurred
+  guests at the next table (backs and shoulders), caterer staff in
+  white or black shirts carrying platters, within the limit; no
+  children's faces, no monks in frame.
+- Shell: an open-sided tent on the yard, soi or a temple ground's open
+  hall area; the floor is concrete, earth or a laid tarpaulin; urban
+  banquets move into a hotel or rented hall (carpet, chandeliers, a
+  stage) [MEDIUM — same sources; EDITORIAL].
+- The table as set here: a round table for about ten with a white or
+  coloured cloth, often a **lazy Susan** in the middle; each place a
+  small plate, a small bowl with a porcelain spoon, spoon and fork,
+  a glass for the hero when the brief allows one, a paper napkin; 2–4 courses at a time on platters
+  (a whole fish, a stir-fry, a soup tureen, fried rice); in the village
+  form, long folding tables with melamine plates, kratips and bowls
+  instead [MEDIUM — CELEBRATIONS section; Sawsamsai catering menu
+  (tier 3)]. Chair edges: the fabric-covered backs with sashes.
+- Subregional variants and the national default: **Village and Isan**:
+  the tent over the house yard, long tables or a mix of round and long,
+  the cooking pots in view. **Urban**: a hotel or rented hall, carpet,
+  round tables, a backdrop. **Deep South (Muslim weddings, kenduri)**:
+  the same tent form, halal food, no alcohol at all, guests in songkok
+  and hijab soft in the background [LOW — not verified]. National
+  default when nothing is named: the white tent over a yard with round
+  tables for ten.
+- Hallucination traps: a Western garden-wedding marquee with fairy
+  lights, wildflower centrepieces and a champagne tower; Chinese red
+  lanterns and dragons everywhere (Thai-Chinese families may use red
+  and gold accents, but the default is white with a pastel accent);
+  an Indian shamiana; temple interiors with gilded walls; elephants
+  at the entrance.
+- Never stage: monks, the water-pouring ceremony or an altar (stage the
+  guests' meal only); whisky bottles and soda on the round table, beer
+  crates, ice buckets (very common at village parties — negate them
+  explicitly); legible banners with names and dates; a royal portrait
+  at the stage.
+- Prompt-ready line: "One stretch of a round banquet table for ten
+  under a white rental party tent in a Thai yard, steel poles wrapped in
+  pleated pastel drapes, more cloth-covered round tables and sashed
+  chairs receding softly behind, and a blurred row of big steaming pots
+  at the far edge."
+- Confidence and sources: MEDIUM. 2 searches (one English, one Thai:
+  โต๊ะจีน เต็นท์ งานแต่ง). Bangkok Post (round tables); tentplk.com,
+  nakorntoh.com, sawsamsaicatering.com rental and catering listings
+  (tier 3); drape colour palette and the Deep South form LOW — not
+  verified as a share of events.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2775,6 +3177,18 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   all not verified (model knowledge or editorial). Champions League
   times are time-zone arithmetic only.
 
+- **Venue-profile pass, wave 1 (2026-10-01) open items**: background
+  details not verified this pass: the tissue box and fly cover on home
+  tables; framed Arabic calligraphy in Deep South homes and shops; the
+  taeng platform bed, ong water jar and tao clay stove under the tai
+  thun (uncontested but not individually searched); colour temperature
+  of tube lighting (editorial); the pastel drape palette and how often
+  tents carry coloured swags versus plain white; the Deep South
+  wedding-tent form and its décor. The townhouse-share figure for
+  Bangkok specifically (as opposed to the national 18%) was not found.
+  The night market, khao gaeng shop, food court, khan tok and karaoke
+  room have no profile yet (later wave).
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with five zones (recommended)
@@ -2861,3 +3275,13 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   Thai national team, Muay Thai on TV at home) and 2 social game-night
   entries (private karaoke room, board-game café). Key sources carried
   over: ThaiRanked; Thailandblog; BKK Kids; Siam2nite. No subagents.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 7
+  searches.** Added VENUE PROFILES (Bangkok townhouse living-dining room
+  with condo and detached-house variants; front yard and tai thun;
+  shophouse restaurant; soi street stall; party tent with Chinese
+  tables). Key sources: Atlas Obscura (Gai Tord Jae Kee, Wattana
+  Panich interiors); travelfish; Roadbook; Design Inquiry "Make/Do";
+  Living Asean; Thailand Foundation "Ruean Thai"; Wikipedia
+  "Traditional Thai house"; factsanddetails.com; Beyond Decor (tier 3);
+  Thai tent and catering rental listings (tentplk, nakorntoh,
+  sawsamsai; tier 3). No subagents.

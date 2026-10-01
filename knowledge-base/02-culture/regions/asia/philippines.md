@@ -231,6 +231,387 @@ size.
 | **Mall food court / fast-casual** | Bright, clean, plastic trays and paper liners — **always unbranded**; rice plates, fried chicken, spaghetti, burger steak; avoid any chain's colours. |
 | **Seaside grill / ihaw-ihaw** | Charcoal grill (ihawan) with skewers and whole fish, a nipa-shaded table, plates on banana leaf, a beach or fishing boats behind; daylight only (night grills read as inuman). |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies. The default camera keeps the table sharp and the
+room soft, so each profile leads with what the blurred background must
+show. First wave (2026-10-01): the five most-used staging venues. The
+QUICK-REFERENCE table above stays the short index; the sari-sari store,
+boodle fight, mall food court and seaside grill keep their register rows
+until a later wave. Hard rules 1–8 apply to every profile; in Filipino
+backgrounds the two traps that matter most are **religious objects**
+(the Last Supper picture, a Santo Niño, a home altar: hard rule 5) and
+**drinking cues** (beer and gin bottles, an inuman table: hard rule 4),
+because both are common in exactly these rooms.
+
+#### Venue: Concrete-house dining area (kainan / silid-kainan)
+- Use for: home indoor; casual lunch at home (1–3), dinner at home,
+  Noche Buena and Media Noche, the sala-side PBA and boxing watch
+  parties; 1, 2 or a small group. The national default: 87.6% of
+  occupied housing units are single houses, 60.4% with concrete, brick
+  or stone outer walls and 85.9% with metal roofs [HIGH — PSA 2020 CPH,
+  see ENVIRONMENT & STAGING SCENES]. The dining area is usually a corner
+  of one open living-dining room, not a separate room [EDITORIAL].
+- Soft background (the core): **back wall**: smooth painted plaster in
+  a light colour (cream, off-white, pale yellow, mint or peach), with a
+  **framed picture or wooden plaque of the Last Supper** above the table
+  as the classic fixture, framed graduation portraits and a wall clock
+  [MEDIUM — homify.ph "15 most common things inside a Filipino house";
+  Subli blog; file interior markers]. **The Last Supper and any Santo
+  Niño or altar shelf must be out of frame or melted into an
+  unreadable warm rectangle** (hard rule 5); framed photos stay as pale
+  blurred rectangles with no faces readable. **Middle distance**: the
+  kitchen counter or a doorway to the kitchen, with a **rice cooker**, a
+  dish rack of plates and a gas range with a small LPG tank; a
+  refrigerator as a tall pale block, often with magnets; a wooden or
+  glass display cabinet (platera) of "for guests" plates and glasses;
+  the sala's sofa set and TV cabinet at one side; plastic or rattan
+  storage at the edges [MEDIUM — homify.ph; file interior markers;
+  platera LOW — not verified]. **Light**: daylight through **jalousie
+  windows** (horizontal glass louvres) or sliding aluminium windows with
+  **decorative iron grilles**, which throw thin striped light; at night
+  a white fluorescent tube or LED ceiling light (cool white), sometimes
+  a small warm pendant over the table; a **stand fan** or ceiling fan as
+  a soft disc [MEDIUM — Real Living "parts of a Filipino house"
+  (jalousies); file markers]. **Palette**: light plaster, white or beige
+  glossy floor tiles, dark varnished wood or glass-top table, the
+  colour of the plastic or lace tablecloth, silver grilles. **Signature
+  shapes (pick 3–4)**: the horizontal slats of jalousie glass; the
+  scroll or geometric pattern of window grilles; the stand-fan disc; the
+  rice cooker; the long wall rectangle of the (blurred) Last Supper.
+  **Density and wear**: lived-in, family-sized, a little full (a
+  calendar, a plastic flower arrangement, folded laundry on a chair);
+  clean, never a slum or a showroom. **People cues**: one blurred
+  relative at the kitchen or on the sofa, within the limit.
+- Shell: a one- or two-storey concrete house, often in a subdivision or
+  a dense barangay street; ceramic tile floor; plywood or gypsum ceiling
+  about 2.6–2.8 m with a ceiling light; a front door with a steel
+  screen or grille; a metal roof that is not seen indoors [HIGH for
+  materials — PSA; EDITORIAL for heights].
+- The table as set here: a rectangular wooden table (narra-look
+  varnish) or a glass-topped table, often with a **clear plastic cover
+  over a lace or printed cloth**, or a printed vinyl cloth; monobloc or
+  wooden chairs; always on it: **rice** in a pot, bowl or on each plate
+  (hard rule 1), 2–3 ulam in ceramic or melamine bowls with serving
+  spoons, saucers of **sawsawan** (soy-calamansi, vinegar with chilli,
+  patis), spoon right and fork left on a flat plate, a paper-napkin
+  holder; a plastic food-cover dome (taklob) at the edge when food waits
+  [HIGH for spoon-fork and rice — hard rules; MEDIUM for plastic table
+  cover — file register; napkin holder and food cover LOW — not
+  verified]. House tableware: white Corelle-type or floral melamine
+  plates, steel spoons and forks.
+- Subregional variants and the national default: **Metro Manila
+  condo** (young professionals, couples; only 0.7% nationally): a
+  studio or one-bedroom, a two-seat table against a wall, a window
+  onto towers, laminate or tile floor. **Metro Manila townhouse**: a
+  narrow row house in a subdivision, the same interior on a smaller
+  footprint, a carport in front. **Provinces (Visayas, Mindanao, rural
+  Luzon)**: a wider house, half-concrete half-wood or wooden upper
+  floor, capiz or sliding wooden windows in older houses, banana and
+  coconut trees through the window. **Zone 7 (Bangsamoro)**: no
+  Christian imagery; framed Arabic calligraphy possible (unreadable or
+  out of frame); okir-pattern textile or carving as a colour accent
+  [LOW — not verified]. National default when nothing is named: the
+  Metro Manila concrete house above.
+- Hallucination traps: a nipa hut or bamboo stilt house as the default
+  home; a Spanish-colonial bahay na bato with capiz windows and narra
+  floors (heritage only: Vigan, Taal, Iloilo); a Japanese or Korean
+  apartment; a Thai or Balinese resort interior; chopsticks; a Western
+  suburban kitchen island; a poverty-coded informal-settlement room.
+- Never stage: the Last Supper, a crucifix, a Santo Niño or an altar
+  in readable form; a beer bottle, gin bottle or tagay glass anywhere;
+  a fast-food chain's bucket, box or paper bag (hard rule 7); legible
+  calendars, labels or TV screens.
+- Prompt-ready line: "A Filipino family table in a concrete house:
+  a glass-topped table with a clear plastic cover over a lace cloth,
+  cream plaster walls, a softly blurred kitchen counter with a rice
+  cooker behind, and daylight through jalousie glass louvres and a
+  patterned iron window grille."
+- Confidence and sources: MEDIUM-HIGH. 1 search (Filipino dining-room
+  interiors). PSA 2020 CPH; homify.ph; Subli blog; Real Living "46
+  parts of a Filipino house"; file ENVIRONMENT norms. Platera, napkin
+  holder, food cover and the zone 7 interior LOW — not verified.
+
+#### Venue: Carport or garage party set-up (handaan sa garahe)
+- Use for: home outdoor; birthdays, christening parties, fiestas
+  (open house), graduations, the outdoor PBA/Gilas and boxing watch
+  party, and the everyday front-porch meal; snapshot frames of 1, 2 or a
+  small group. **The default venue for big handaan** in the
+  CELEBRATIONS section, and the market's signature event venue at home
+  [MEDIUM — file CELEBRATIONS; party-rental listings (Jojie's, Party Hub,
+  Rentolab) offering rectangular and round tables, monobloc chairs with
+  covers and ribbons, tents and food warmers for birthdays, baptisms and
+  barangay fiestas].
+- Soft background (the core): the **carport of a concrete house** with
+  the car moved out: the house front as the back wall (painted plaster,
+  a window with iron grille, a front door with a steel screen), the
+  **steel gate** with vertical or patterned bars at the street side, and
+  overhead either the carport's corrugated or polycarbonate roof or a
+  **rented tent or tarpaulin** stretched on steel poles [MEDIUM — same
+  sources; file ENVIRONMENT "Outdoor eating spaces"]. **Middle
+  distance**: the **buffet table along the wall**, its skirting or cloth
+  hanging to the floor, a row of **foil trays or chafing dishes** with
+  lids, a pancit **bilao** (woven round tray lined with banana leaf),
+  a rice tray, and (outside zone 7) **a lechon on a banana-leaf tray at
+  the head of the table** as a glossy amber-brown shape; more rented
+  tables with **white or coloured cloths** and **white monobloc chairs**
+  (bare, or with fabric covers and ribbons) [MEDIUM — Jojie's monobloc
+  rental listing (covers and ribbons); file CELEBRATIONS crowd cues]. A
+  karaoke/videoke speaker box on a stand and a TV may sit at the side
+  (screen a soft colour field). **Overhead**: **banderitas** (strings of
+  small triangular plastic or paper flags in bright colours) criss-
+  crossing under the roof, or helium balloons in a cluster for a
+  birthday [MEDIUM — file CELEBRATIONS; banderitas common at fiestas,
+  not individually searched]. **Light**: by day, shade under the roof
+  with the street and the neighbours' house fronts over-exposed beyond
+  the gate; by evening, a fluorescent tube or a string of bulbs tied to
+  the tent frame, cool and warm mixed. **Palette**: white plastic
+  chairs, cloth in the party colour, silver foil and chafing-dish steel,
+  the green of banana leaf, the multicoloured banderitas, grey concrete.
+  **Signature shapes**: rows of white monobloc chair backs; chafing-dish
+  domes; the round bilao; the triangle chain of banderitas; the gate's
+  vertical bars. **Density and wear**: full and festive, temporary,
+  slightly improvised (an extension cord, a stack of spare chairs, a
+  cooler box at the edge with its lid shut). **People cues**: blurred
+  relatives at the next table or by the buffet, within the limit; no
+  children's faces, no celebrant child shown.
+- Shell: the concrete carport floor (often tiled or plain screed), the
+  house wall, the gate; a tent or tarp roof when the carport is too
+  small; overflow onto the street under a second tent in fiesta form.
+- The table as set here: a **rented rectangular or round table with a
+  plain white or coloured cloth**, sometimes skirted; monobloc chairs;
+  heavy paper or plastic plates at home parties, caterer's white china
+  when catered; rice on each plate; spoon and fork; paper napkins; a
+  roll of tissue; food on plates carried from the buffet (the guests
+  serve themselves) [MEDIUM — file CELEBRATIONS plate norms]. Chair
+  edges: white monobloc backs, sometimes with a satin ribbon.
+- Subregional variants and the national default: **Metro Manila**: a
+  townhouse carport, tight, the tent spilling into the subdivision
+  street. **Provinces**: a front yard with mango or banana trees, a
+  bamboo or nipa-roofed kubo pavilion beside the house, the fiesta
+  table running longer. **Zone 7**: no lechon and no pork dishes; kenduri
+  and wedding food is beef, chicken and fish; no alcohol cues at all
+  [EDITORIAL from hard rule 3]. National default when nothing is named:
+  a Metro Manila concrete-house carport with white monobloc chairs, a
+  foil-tray buffet and banderitas.
+- Hallucination traps: a Western backyard barbecue with a lawn and a
+  kettle grill; a Mexican fiesta (papel picado, piñata as decor,
+  sombreros); a beach-party set-up; a garden marquee with fairy lights
+  and wildflowers; a fast-food birthday party with a mascot.
+- Never stage: beer and gin bottles, a tagay glass, a cooler with
+  bottles showing (very common at real parties — negate explicitly); an
+  inuman table with pulutan at night; tarpaulin banners with names,
+  faces or ages (a heavy text prior); the celebrant child; a chain's
+  boxes or buckets.
+- Prompt-ready line: "A Filipino carport birthday party at midday: one
+  end of a rented table with a white cloth in the foreground, white
+  monobloc chairs, a softly blurred buffet of foil trays and chafing
+  dishes with a lechon on banana leaf along the house wall, and
+  colourful triangle bunting strung under the roof."
+- Confidence and sources: MEDIUM. 1 search (party rentals). Jojie's
+  Catering rental listings; Party Hub; Rentolab; Tent King (tier 3,
+  vendors); file CELEBRATIONS. Banderitas share and the videoke speaker
+  LOW — not verified this pass.
+
+#### Venue: Carinderia / turo-turo (karinderya)
+- Use for: restaurant indoor (or semi-outdoor); away-from-home lunch
+  for 1, meal on the go (rice meal at a counter), 2–3 co-workers or
+  students; the default casual sit-down eatery [MEDIUM — Wikipedia
+  "Carinderia"; file register].
+- Soft background (the core): the **turo-turo counter** dominates the
+  middle distance: a **glass-fronted display case** (or an open counter)
+  holding a row of **8–15 aluminium pots (kaldero) and stainless-steel
+  trays** of ready ulam, lids leaning against them, ladles standing in
+  the pots, a big **rice pot or rice cooker** at one end, steam rising
+  [MEDIUM — Wikipedia "Carinderia" (glass cases, metal trays, turo-turo
+  pointing); file register]. Behind the counter, an **open kitchen**:
+  a gas range with big pots, a tiled wall (white, green or blue tiles)
+  or painted plywood, a shelf (estante) of plates, cups and condiment
+  bottles (labels unreadable), a server in an apron and hairnet in blur.
+  **Walls**: painted plaster or plywood in a bright colour (green,
+  yellow, sky blue) or tiled to waist height; a **printed tarpaulin
+  menu** or a whiteboard of prices (always illegible), a calendar
+  [MEDIUM — file register; colours LOW — not verified]. **Front**:
+  often open to the street or a market aisle, so a band of daylight,
+  passing tricycles and a jeepney as blurred colour, overhead wires.
+  **Light**: daylight from the open front; inside, one or two white
+  fluorescent tubes, cool and flat; a wall fan or stand fan turning.
+  **Palette**: aluminium and steel greys, the browns, reds and greens of
+  the ulam in the trays, bright painted wall, white monobloc chairs, the
+  oilcloth pattern. **Signature shapes**: the row of pot rims and lids
+  behind glass; the long bench; monobloc chairs; the fluorescent tube;
+  the open-front daylight rectangle. **Density and wear**: humble, busy
+  at 11:30–13:00, scrubbed but worn (chipped paint, a scuffed concrete
+  floor). **People cues**: the server behind the counter and one diner
+  at the far end of the bench, blurred; no more than about 2.5 faces.
+- Shell: the ground floor or front room of a house, a market stall, or
+  a roadside lean-to with a metal roof; concrete or tiled floor; low
+  plywood ceiling or open metal roof [MEDIUM — Wikipedia "Carinderia"
+  (stalls, shacks, house fronts near markets, offices and schools)].
+- The table as set here: a **long table with a printed oilcloth or
+  plastic cover** (floral or checked), or a bare painted-plywood or
+  steel table, with **monobloc chairs or a long wooden bench
+  (bangko)**; on it: a steel cup of spoons and forks, a roll of tissue
+  or a napkin holder, bottles of vinegar, soy sauce and patis, a saucer
+  of chilli; the meal is **a plate of rice plus one or two ulam on
+  separate saucers or spooned beside the rice**, on plain white or
+  melamine plates, a bowl of free broth (sabaw) [MEDIUM — Wikipedia;
+  file register; free sabaw LOW — not verified]. Chair edges: white or
+  red monobloc backs, or the bench.
+- Subregional variants and the national default: **Metro Manila**:
+  near offices, jeepney stops and universities, open-front, crowded.
+  **Cebu and the Visayas**: the same form, with puso (hanging rice in
+  woven coconut-leaf pouches) and grilled items; **Iloilo / Bacolod**:
+  the chicken-inasal shop as the casual default, a charcoal grill at the
+  front. **Zone 7**: a halal carinderia with beef and chicken ulam, no
+  pork, no Christian images. National default when nothing is named: a
+  Metro Manila open-front carinderia.
+- Hallucination traps: a Singapore or Malaysian hawker centre (numbered
+  stalls under one roof); a Thai street stall with steel tables and a
+  four-jar caddy; a Western diner; a fast-food counter with a menu board
+  and uniform colours; a squalid, fly-blown poverty framing.
+- Never stage: beer bottles or a gin bottle on a table; a chest cooler
+  of branded bottles; the tarpaulin menu or prices legible; a santo or
+  altar shelf over the counter (common — out of frame).
+- Prompt-ready line: "A Manila carinderia at noon: a long table with a
+  floral oilcloth and a white monobloc chair in the foreground, a
+  softly blurred glass counter of aluminium pots and steel trays of
+  ulam with a steaming rice pot behind, under cool fluorescent light,
+  with daylight from the open street front."
+- Confidence and sources: MEDIUM. 2 searches (carinderia interiors in
+  English; karinderya terms in Tagalog). Wikipedia "Carinderia"; file
+  register and ENVIRONMENT norms. Wall colours and free sabaw LOW — not
+  verified.
+
+#### Venue: Fishball and ihaw-ihaw cart corner (fishbolan / ihawan sa kanto)
+- Use for: street / on-the-go; meal on the go (1), afternoon merienda,
+  a stop for 2; the default Filipino street venue [MEDIUM — walanglasa.ph
+  on the fishball vendor; Ang Sarap; file STREET FOOD register].
+- Soft background (the core): a **street corner (kanto) of a barangay**
+  in late afternoon: a wooden or steel **pushcart** with a large wok of
+  oil in the middle, **tall jars of dipping sauce** (sweet, spicy,
+  vinegar) along the ledge with spoons or ladles, a tray of skewers, and
+  a **big umbrella** over the cart, sometimes a ring light clipped to it
+  [MEDIUM — walanglasa.ph (wooden cart, wok, umbrella, ring lights);
+  Ang Sarap (tall sauce jars)]. In the middle distance: a **sari-sari
+  store window** with its iron grille (strips of sachets as blurred
+  colour, never readable), a parked **tricycle** with a sidecar, the
+  concrete house fronts and gates of the street, a tangle of **overhead
+  power lines** and a lamp post [MEDIUM — file ENVIRONMENT exterior
+  markers]. For the ihaw-ihaw form, a low charcoal grill of barbecue
+  sticks with a smoke haze. **Light**: late-afternoon gold or the white
+  overcast of the rainy season; at dusk the cart's bulb or ring light,
+  the sari-sari window's tube light, a streetlight's orange glow; keep
+  to daylight or dusk (night ihaw-ihaw reads as inuman — file register).
+  **Palette**: weathered wood or steel, the dark amber of sauces, the
+  orange of kwek-kwek, grey concrete, the bright colours of tricycle
+  sidecars and gates. **Signature shapes**: the umbrella dome; the wok
+  of bubbling oil; the row of tall sauce jars; the tricycle sidecar
+  silhouette; overhead wires. **Density and wear**: busy, worn, cheerful;
+  a small queue implied. **People cues**: the vendor (manong) in blur,
+  one or two customers at the cart edge; nobody sharp, nobody holding
+  food toward camera.
+- Shell: the street and kerb, a concrete pavement or the road edge;
+  open sky with wires.
+- The table as set here: no table: the food rests on the **cart ledge**
+  or a small shelf: fishballs, kikiam or kwek-kwek on bamboo sticks
+  laid on a paper plate or in a small plastic cup with sauce, a saucer
+  of banana cue or turon; for a sit-down, a low bench or monobloc chair
+  by the cart. Never in a hand (hard rule 8) [EDITORIAL].
+- Subregional variants and the national default: **Metro Manila**: the
+  fishball cart at a school gate, jeepney stop or LRT station.
+  **Cebu**: tuslob-buwa and ngohiong stalls [LOW — not verified].
+  **Zone 7**: pastil in banana leaf and satti stalls, no pork skewers.
+  National default when nothing is named: a Manila barangay corner with
+  a fishball cart.
+- Hallucination traps: a Thai soi with steel tables and plastic stools;
+  Bangkok or Hong Kong neon; a jeepney with legible route paintwork as
+  the hero backdrop; Vietnamese conical hats; a Western food truck.
+- Never stage: beer or gin at the grill; a sari-sari shelf with
+  cigarettes or alcohol in frame; legible sachets, price lists or
+  jeepney paint; licence plates; a chest cooler of branded bottles.
+- Prompt-ready line: "A Manila street-corner fishball cart in late
+  afternoon: skewers of fishballs on a paper plate on the cart ledge in
+  the foreground, a softly blurred wok of bubbling oil, tall jars of
+  amber dipping sauce and a big umbrella, with a sari-sari window, a
+  parked tricycle and overhead wires beyond."
+- Confidence and sources: MEDIUM. 1 search (fishball cart). walanglasa.ph
+  "Fishball street vendor"; Ang Sarap; Wikipedia "Fish ball"; file
+  STREET FOOD register. Cebu stalls LOW — not verified.
+
+#### Venue: Events place / function hall (events place / function room)
+- Use for: other or restaurant; debuts, weddings, christening lunches,
+  big birthdays and reunions in cities; snapshot frames of 1, 2 or a
+  small group at a round table. The catered alternative to the carport
+  for 100–200+ guests [MEDIUM — Event Nest debut catering guide;
+  Venuerific events-place and baptismal-venue listings; restaurant
+  function rooms (Booky)].
+- Soft background (the core): a **windowless or curtained hall**:
+  walls hidden by **fabric draping** (white, ivory or a theme colour,
+  gathered and lit from below), a ceiling swag of fabric or a cluster of
+  chandeliers or simple LED panels, a **stage with a backdrop** of
+  flowers, balloons or a themed panel at the far end (any name or
+  monogram unreadable) [MEDIUM — Venuerific and caterer listings;
+  draping colours LOW — not verified]. **Middle distance**: round
+  tables for 8–10 under **floor-length cloths**, **Tiffany chairs**
+  (clear acrylic or gold or white, with a cushion) or covered chairs
+  with sashes, centrepieces of flowers in low vases; the **buffet line**
+  along a side wall with skirted tables and rows of **roll-top chafing
+  dishes** catching light, uniformed servers behind it [MEDIUM — Quidos
+  and Cebu Food Trays catering inclusions (roll-top chafing dishes,
+  skirted buffet tables, Tiffany chairs with cushion)]. **Light**:
+  warm-white overhead light, coloured uplights on the drapes (pink,
+  violet, gold), the stage brighter; no daylight in most halls.
+  **Palette**: ivory and the theme colour, gold or chrome of chairs and
+  chafing dishes, white tablecloths, flower colours. **Signature
+  shapes**: rows of Tiffany chair backs (the vertical-spindle silhouette);
+  chafing-dish domes; tall floral centrepieces; draped fabric swags; the
+  bright stage rectangle. **Density and wear**: new-looking, polished,
+  rented; full tables. **People cues**: blurred guests in barong
+  Tagalog and dresses at the next table, servers in black and white,
+  within the limit; no debutante under 18, no child celebrant, no
+  identifiable children.
+- Shell: a purpose-built events hall, a hotel function room or a
+  restaurant function room; carpet or polished tile; drop ceiling.
+- The table as set here: a round table with a white floor-length cloth,
+  sometimes a coloured runner or overlay; each place a white charger or
+  dinner plate, spoon and fork (a knife only at hotel plated dinners),
+  a folded cloth napkin, a glass for the hero when the brief allows
+  one (no water goblet); the plates arrive filled from
+  the buffet (rice, a meat, a pasta, a vegetable); centrepiece in the
+  middle [MEDIUM — Event Nest; caterer listings; spoon-fork from hard
+  rule 2]. Chair edges: Tiffany chair backs with cushions.
+- Subregional variants and the national default: **Metro Manila**:
+  events places in Quezon City, Pasig and Parañaque; restaurant function
+  rooms for christenings. **Provinces**: the barangay hall, a parish
+  hall or a garden resort pavilion with a buffet, plainer décor
+  (monobloc chairs with covers). **Zone 7**: weddings in a hall or the
+  home compound, halal catering, no alcohol, okir motifs and gold-and-
+  green colours possible [LOW — not verified]. National default when
+  nothing is named: a Metro Manila events hall with draped walls, round
+  tables and a chafing-dish buffet.
+- Hallucination traps: a Western ballroom wedding with a champagne
+  tower and a bar; Chinese red-and-gold banquet décor (only for
+  Filipino-Chinese families); a beach-resort ceremony; an American prom
+  look for the debut.
+- Never stage: a bar, wine glasses, champagne flutes, a toasting moment;
+  the debutante's cotillion dance or "18 roses" with a minor; legible
+  backdrop names, monograms or welcome signs; a church interior or the
+  religious rite itself.
+- Prompt-ready line: "A place at a round table in a Filipino events
+  hall: a white floor-length cloth and a Tiffany chair in the
+  foreground, softly blurred ivory fabric drapes washed with pink
+  uplight, more round tables with flower centrepieces, and a row of
+  gleaming chafing dishes along the side wall."
+- Confidence and sources: MEDIUM. 1 search (events places). Venuerific;
+  Event Nest; Quidos Catering; Cebu Food Trays; Booky function-room
+  list (tier 3, vendors and listings). Drape colours and the zone 7
+  form LOW — not verified.
+
 ---
 
 ## TRUSTED CONTENT
@@ -3297,6 +3678,19 @@ Morning Module exception logged):**
   occasions are all not verified. The asia-basket fandom figures cite an
   unnamed survey.
 
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items**: background
+  details not verified this pass: the platera display cabinet, napkin
+  holder and plastic food-cover dome on home tables; the zone 7 home,
+  carport and wedding-hall interiors (calligraphy, okir accents,
+  colours); how common banderitas and a videoke speaker are at carport
+  birthdays (as opposed to fiestas); carinderia wall colours and the
+  free bowl of sabaw; Cebu street stalls (tuslob-buwa, ngohiong); and
+  events-hall drape colours. The Last Supper as a dining-room fixture
+  rests on two home-décor sources (homify.ph, Subli; tier 3–4). The
+  sari-sari store, boodle fight, mall food court and seaside grill have
+  no profile yet (later wave).
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with seven zones (recommended)
@@ -3411,3 +3805,13 @@ Morning Module exception logged):**
   carried over: Philstar/Cignal (PBA ratings); Inquirer (PNP zero
   crime); Bloody Elbow; asia-basket; Fun in the Philippines;
   DitoSaPilipinas; Moonton; Philstar (M7). No subagents.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 6
+  searches.** Added VENUE PROFILES (concrete-house dining area with
+  condo, townhouse, provincial and zone 7 variants; carport or garage
+  party set-up, which doubles as the signature handaan venue;
+  carinderia / turo-turo; fishball and ihaw-ihaw cart corner; events
+  place / function hall). Key sources: PSA 2020 CPH (carried over);
+  homify.ph; Subli blog; Real Living; Wikipedia "Carinderia";
+  walanglasa.ph; Ang Sarap; Jojie's, Party Hub, Rentolab, Tent King,
+  Venuerific, Event Nest, Quidos, Cebu Food Trays, Booky (tier 3,
+  vendors and listings). No subagents.
