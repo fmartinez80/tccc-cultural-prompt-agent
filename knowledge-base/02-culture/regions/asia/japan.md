@@ -1398,17 +1398,64 @@ first guess.*
   noodles, snow peas; **pork in the east, beef in Kansai** (same line as
   curry [HIGH: SUUMO/House Foods, Daigo]). Served in a ~15 cm bowl or a
   shallow dish, glossy pale-amber, potato edges softened. [MEDIUM]
-  **Composition (§4.7)**: potato ~45%, onion ~20%, meat ~20%, carrot
-  and peas ~10%, shirataki ~5%; 4–5 potato pieces in a 15 cm bowl;
-  prompt line: "A small bowl a little wider than the can is tall,
-  heaped with softened golden potato chunks, onion wedges, a few thin
-  meat slices, orange carrot and two green snow peas, glossy with a
-  thin amber soy broth." [EDITORIAL]
+  **Composition & proportions (§4.7), compact**:
+  - *Dominates*: potato ~45%, onion ~20%, meat ~20%, carrot and snow
+    peas ~10%, shirataki ~5% of the visible surface. [EDITORIAL]
+  - *Components*: potato chunks ~4 cm, 4–5 per bowl, golden, edges
+    softened and slightly crumbling; onion wedges ~3 cm, 3–4,
+    translucent amber; thin meat slices ~6 cm, 3–4, brown, draped;
+    carrot rangiri ~2.5 cm, 2–3, orange; snow peas ~6 cm, 2, bright
+    green, laid on top last; shirataki a small knot, translucent grey.
+  - *Vessel fill*: heaped in a ~15 cm bowl, ~1 cm of thin amber broth
+    pooled at the bottom, the rim clear.
+  - *Served portion*: a shared bowl in the middle; each person takes
+    2–3 pieces onto a torizara.
+  - *State cues*: gentle steam, a light glaze on the potato tops.
+  - *Absent*: thick gravy, herbs, a Western stew look, cubes cut
+    perfectly square.
+  - *Prompt-ready line*: "A small bowl a little wider than the can is
+    tall, heaped with four softened golden potato chunks, amber onion
+    wedges, a few thin draped meat slices, orange carrot and two bright
+    green snow peas on top, glossy with a little thin amber soy broth
+    pooled at the bottom; gentle steam." [EDITORIAL]
 - **Tamagoyaki** (rolled omelette): a block ~12 × 5 × 3.5 cm cut into
   2 cm slices showing a spiral of thin yellow layers; sweet in Kantō,
   dashi-rich (dashimaki) in Kansai [MEDIUM — not re-checked].
+  **Composition & proportions (§4.7), compact**:
+  - *Dominates*: the yellow cut faces of the slices (~80% of what shows);
+    a ~3 cm grated-daikon mound with a drop of soy is the only accent.
+  - *Components*: 3–4 slices, each ~5 × 3.5 cm face, 2 cm thick, satin
+    yellow with faint browned streaks on the outer skin, the spiral of
+    4–6 thin layers visible on the cut face; on a ~12–15 cm rectangular
+    dish.
+  - *Arrangement*: slices leaning in a row, cut faces to camera; ~40%
+    of the dish showing.
+  - *State cues*: warm or room temperature, moist (dashimaki may weep a
+    little dashi), no steam needed.
+  - *Absent*: a folded Western omelette, browning all over, fillings,
+    ketchup.
+  - *Prompt-ready line*: "Three slices of rolled Japanese omelette on a
+    small rectangular dish, each slice about half the can's width
+    across, cut faces showing a tight spiral of thin satin-yellow
+    layers, faint golden streaks on the skin, a small mound of grated
+    white radish beside them." [EDITORIAL]
 - **Hiyayakko** (cold tofu): a ~7 cm cube on a small dish with grated
   ginger, green onion and bonito flakes [MEDIUM].
+  **Composition & proportions (§4.7), compact**:
+  - *Dominates*: the white tofu block (~70% of the dish surface); the
+    toppings cover only its top centre.
+  - *Components*: one silken or cotton tofu block ~7 × 7 × 3.5 cm,
+    smooth, wet, bright white (cotton tofu faintly textured); a ~1.5 cm
+    dab of grated ginger; a pinch of green onion rings; a few pale
+    bonito flakes; a thin drizzle of soy pooling at the base.
+  - *Vessel*: a ~10–12 cm small dish, glass in summer.
+  - *State cues*: chilled: a cool wet sheen, maybe condensation on a
+    glass dish; no steam.
+  - *Absent*: fried tofu, sauce flooding the dish, chilli oil, sesame.
+  - *Prompt-ready line*: "A cool, bright-white block of tofu about the
+    can's width across on a small glass dish, wet and smooth, topped
+    with a small dab of grated ginger, a pinch of green onion and a few
+    papery bonito flakes, a thin line of soy at its base." [EDITORIAL]
 
 ### B. Rice bowls, onigiri and bento
 
@@ -1952,3 +1999,613 @@ first guess.*
     with dark amber soy glaze and charred edges, two salt-grilled pale
     gold with char spots and short lengths of charred leek; a pinch of
     red spice at the corner. Daylight takeaway setting, no drinks."
+
+### E. Regional signatures
+
+#### Jingisukan (zone 7 — Hokkaidō)
+
+- **Category**: Everyday-to-gathering: home tabletop grill, dedicated
+  restaurants, outdoor BBQ and hanami in Hokkaidō.
+- **Lineage**: Hokkaidō regional dish (grilled mutton or lamb); the name
+  is a Japanese coinage, not a Mongolian dish.
+- **Form**: lamb or mutton, raw or pre-marinated in a sweet soy-fruit
+  sauce, grilled with **onion, bean sprouts, green pepper and carrot**
+  on a **dedicated domed iron pan**: the centre rises and has grooves,
+  so the meat juices run down onto the vegetables around the lower rim
+  [HIGH: MAFF うちの郷土料理 Hokkaidō jingisukan entry; ja.wikipedia;
+  Bell Foods (via search)]. Raw-then-dip (Sapporo) vs. pre-marinated
+  (Takikawa) styles coexist (not re-checked).
+- **Vessel & scale**: pan ~25–30 cm across, domed ~4–5 cm (EDITORIAL;
+  not sourced); on a tabletop burner; small bowls of dipping sauce and
+  rice at each place.
+- **Texture & finish**: lamb slices ~5 mm, browned at the edges and
+  still pink-juicy in places, glistening; bean sprouts wilting and
+  glossy with juices at the rim; onion rings soft and caramelised.
+- **Model failure**: Korean bulgogi on a flat grill; Mongolian stir-fry;
+  skewered lamb.
+- **Confidence**: HIGH for the pan and ingredients; sizes EDITORIAL.
+- **Sources**: [MAFF — ジンギスカン 北海道](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jingisukan_hokkaido.html).
+- **Composition & proportions (§4.7)**: the pan mid-meal.
+  - **What dominates**: **lamb ~40%** (on the dome), **bean sprouts and
+    onion ~45%** (around the lower rim), pepper and carrot ~15%.
+    [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count (pan) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Lamb slices | ~6 × 4 cm, ~5 mm | 8–10 | Browned edges, glistening, some pink | On the raised centre |
+    | Bean sprouts | ~5 cm | a ring (~100 g) | Wilting, glossy, pale | Around the lower rim |
+    | Onion | rings or wedges | 6–8 pieces | Soft, browned at the edges | Rim |
+    | Green pepper | strips ~5 cm | 4–5 | Bright green, blistered | Rim |
+    | Carrot | thin slices | 4–5 | Orange | Rim |
+
+  - **State cues**: sizzling, smoke and steam rising, juices running
+    down the grooves.
+  - **Absent on purpose**: beer glasses (Hokkaidō beer-hall cliché),
+    skewers, kimchi, a flat grill.
+  - **Prompt-ready line**: "On a tabletop burner, a dark iron pan with a
+    raised ridged dome in the centre, about twice the can's height
+    across: slices of browned, glistening lamb on the dome, juices
+    running down to a ring of wilting bean sprouts, soft onion, green
+    pepper strips and carrot around the rim; smoke and steam rising."
+
+#### Gyūtan teishoku (zone 8 — Sendai)
+
+- **Category**: Regional speciality set meal (lunch or dinner out).
+- **Lineage**: Sendai, from the post-war period; a city-branded dish.
+- **Form**: thick-cut grilled beef tongue with **mugimeshi** (rice
+  cooked with barley), **tail soup** (clear oxtail broth with green
+  onion) and **nanban-miso** (green chilli pickled in miso) and
+  pickled cabbage or cucumber on the side [HIGH: Fujisaki department
+  store gyūtan history page; City of Sendai page (via search)].
+- **Vessel & scale**: tongue slices ~8–10 cm long, ~1 cm thick
+  (EDITORIAL; "thick-cut" is sourced), usually 3–6 slices on a
+  rectangular plate; barley rice in a 12 cm bowl; tail soup in a
+  lacquer or ceramic bowl.
+- **Texture & finish**: slices grilled over charcoal, scored with a
+  fine knife pattern, browned and slightly charred at the edges, pale
+  grey-pink inside, faintly glossy with salt and fat; barley rice white
+  with darker grains, each barley grain showing a brown line.
+- **Model failure**: thin Korean-BBQ tongue slices; a steak; a dark
+  stew.
+- **Confidence**: HIGH for the set; MEDIUM for sizes.
+- **Sources**: [Fujisaki — 仙台牛たん定食](https://www.fujisaki.co.jp/gyutan-selection/history02.html).
+- **Composition & proportions (§4.7)**: one set on a tray.
+  - **What dominates**: on the main plate **tongue ~60%**, pickles and
+    nanban-miso ~25%, plate ~15%; on the tray, rice and soup each ~20%.
+    [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Beef tongue | ~9 × 4 × 1 cm, scored | 4–6 slices | Charred edges, grey-pink cut face, light gloss | Fanned on a rectangular plate |
+    | Pickled cabbage / cucumber | small heap ~5 cm | 1 | Pale green, crisp | Plate corner |
+    | Nanban-miso | 1–2 green chillies in miso | 1 small dab | Dark brown miso, green chilli | Plate corner |
+    | Mugimeshi | ~200 g in a 12 cm bowl | 1 | White with darker barley grains | Tray front-left |
+    | Tail soup | ~12–14 cm bowl | 1 | Clear pale broth, green onion, a piece of oxtail | Tray front-right |
+
+  - **State cues**: steam from soup and rice; the tongue just off the
+    charcoal.
+  - **Absent on purpose**: beer, a sauce over the tongue, thin shaved
+    slices.
+  - **Prompt-ready line**: "On a tray: a rectangular plate of four thick
+    slices of charcoal-grilled beef tongue, each a little shorter than
+    the can, finely scored, charred at the edges and grey-pink inside,
+    with a small heap of pale pickled cabbage and a dab of dark miso
+    with a green chilli; in front, a bowl of rice flecked with barley and
+    a bowl of clear soup with green onion; steam."
+
+#### Nagoya compact entries (zone 3)
+
+- **Tebasaki**: double-fried chicken wings glazed in a sweet-salty soy
+  sauce, heavily peppered and scattered with white sesame [HIGH:
+  Nagoya Concierge, Jalan, Tripto (via search)]. Wings ~8–10 cm, 5–6
+  per plate, stacked in a heap, lacquer-glossy dark brown with black
+  pepper flecks. Strong izakaya register: stage at home or as a
+  takeaway. **Composition (§4.7)**: wings ~85% of a ~20 cm plate,
+  sesame and pepper as a fine speckle over the glaze; no sauce pool,
+  no dip; prompt line: "Six crisp chicken wings, each a little longer
+  than the can is wide, piled on a small plate, glossy dark-brown
+  sweet soy glaze speckled with black pepper and white sesame." [EDITORIAL]
+- **Hitsumabushi**: grilled eel (unagi kabayaki) chopped into ~2 cm
+  strips over rice in a round lidded wooden or lacquer tub (ohitsu,
+  ~18 cm; not re-checked), eaten in three stages: plain, with
+  condiments (green onion, wasabi, nori), and as ochazuke with broth
+  poured over [MEDIUM — the three-way eating is uncontested; not
+  re-checked]. **Composition (§4.7)**: eel strips cover ~90% of the rice
+  surface in a dense mosaic, lacquer-glossy dark amber with charred
+  skin edges; a small tray of condiments and a small pot of broth
+  beside (the broth pot reads as a drink: keep it lidded or out);
+  prompt line: "A round lacquer tub a little wider than the can is
+  tall, its rice completely covered by a mosaic of short strips of
+  glossy dark-amber grilled eel with crisp charred edges; a tiny dish
+  of green onion, wasabi and seaweed beside it." [EDITORIAL]
+- **Miso katsu**: see Tonkatsu (variant block).
+
+#### Okinawa soba (zone 6)
+
+- **Category**: Everyday: Okinawa lunch at soba shops and home.
+- **Lineage**: Okinawan. **Not buckwheat soba**: the noodles are
+  **100% wheat flour with kansui**, so technically a Chinese-style noodle,
+  and the name is a registered regional collective trademark; the dish
+  traces to a 1534 royal-court offering [HIGH: Okinawa Raw Noodle
+  Cooperative (oki-soba.jp), Okiham, Okinawa Dietitians Association
+  (via search)].
+- **Variants (§4.6)**: **sanmainiku soba** (skin-on pork belly simmered
+  in sugar and soy; default); **sōki soba** (pork spare ribs); noodle
+  thickness varies by area (thicker further north; thin, curly and
+  round forms exist) [HIGH: oki-soba.jp]; **Yaeyama soba** (thin round
+  noodles; not re-checked).
+- **Vessel & scale**: bowl ~18–20 cm (EDITORIAL); a bottle of
+  **kōrēgusu** (chillies in awamori) on the table (alcohol-based: keep
+  it out of frame).
+- **Texture & finish**: noodles thick, flat-ish, slightly wavy, pale
+  yellow-white and a little chewy; broth clear, pale golden, pork and
+  bonito; **two or three slabs of glossy, deep-brown pork belly with
+  visible skin and fat layers**, slices of **kamaboko** (white fish cake,
+  sometimes with a pink edge), chopped green onion, a little **red pickled
+  ginger** [HIGH for toppings: Okiham, oki-soba.jp].
+- **Model failure**: grey buckwheat soba; ramen with chāshū and nori;
+  Vietnamese pho.
+- **Confidence**: HIGH.
+- **Sources**: [沖縄生麺協同組合 — 沖縄そばについて](https://oki-soba.jp/about/);
+  [Okiham — 沖縄そば](https://okiham.co.jp/ryukyuryouri/recipes/%E6%B2%96%E7%B8%84%E3%81%9D%E3%81%B0/).
+- **Composition & proportions (§4.7)**: one bowl of sanmainiku soba.
+  - **What dominates**: **noodles ~40%**, broth ~30%, pork ~20%, fish
+    cake, onion and ginger ~10%. [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Noodles | strands ~4 × 2 mm, wavy | 1 portion (~180 g) | Pale yellow-white, matte-glossy | Folded, breaking the surface |
+    | Broth | ~400 mL | — | Clear pale gold | Around |
+    | Sanmainiku | slabs ~8 × 4 × 1 cm | 2–3 | Deep brown glaze, layered skin/fat/meat | Overlapping on one side |
+    | Kamaboko | slices ~4 cm | 2 | White, a pink or brown edge | Beside the pork |
+    | Green onion | rings | a heap | Bright green | Centre |
+    | Beni-shōga | shreds | a pinch | Red | Edge |
+
+  - **State cues**: steam; the pork glaze shining.
+  - **Absent on purpose**: nori, egg, bamboo shoots, grey buckwheat,
+    a bottle of chilli liquor, beer.
+  - **Prompt-ready line**: "A bowl about 1.5 times the can's height
+    across: thick, pale, slightly wavy wheat noodles in clear pale-gold
+    broth, two slabs of glossy deep-brown braised pork belly with layered
+    skin and fat, two slices of white fish cake, a heap of green onion
+    and a pinch of red pickled ginger; steam. Not grey buckwheat noodles."
+
+#### Gōyā champurū (zone 6)
+
+- **Category**: Everyday Okinawan home dish (dinner, teishoku).
+- **Lineage**: Okinawan ("champurū" = mixed stir-fry).
+- **Form**: bitter melon (gōyā) stir-fried with firm **shima-dōfu**
+  (Okinawan island tofu, browned), **egg**, and **pork luncheon meat**
+  (Spam-type) or pork belly; tuna or corned beef in some homes [HIGH:
+  MAFF Okinawa entry; Hot Pepper Meshitsu; Okinawa Hormel (via search)].
+- **Vessel & scale**: a ~20–22 cm plate or a ~15 cm shallow bowl.
+- **Texture & finish**: gōyā in thin half-moons (~4 cm, ~5 mm thick),
+  deep green with a bumpy skin edge and pale inner flesh, glossy;
+  tofu pieces ~3 cm torn, golden-browned on the faces; egg in soft
+  yellow curds; luncheon meat in pink-brown seared rectangles;
+  a sprinkle of bonito flakes on top.
+- **Model failure**: courgette or cucumber stir-fry; Chinese bitter
+  melon with black bean sauce; tofu in neat white cubes.
+- **Confidence**: HIGH for ingredients; MEDIUM for proportions.
+- **Sources**: [MAFF — ゴーヤーチャンプルー 沖縄県](https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_11_okinawa.html).
+- **Composition & proportions (§4.7)**: one plate.
+  - **What dominates**: **gōyā ~35%**, tofu ~30%, egg ~20%, luncheon
+    meat ~15%. [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Gōyā | half-moons ~4 cm, 5 mm | ~20 | Deep green bumpy edge, glossy | Throughout |
+    | Shima-dōfu | torn pieces ~3 cm | ~10 | Golden-browned faces, white inside | Throughout |
+    | Egg | soft curds ~2 cm | ~10 | Yellow, moist | Woven through |
+    | Luncheon meat | rectangles ~3 × 1.5 × 0.5 cm | ~8 | Pink with seared brown faces | Scattered |
+    | Bonito flakes | curls | a pinch | Pale pink-beige | On top |
+
+  - **Arrangement**: a loose mound in the centre, ~2/3 of the plate
+    covered.
+  - **State cues**: steam; light oil gloss.
+  - **Absent on purpose**: sauce, rice mixed in, chilli, beer.
+  - **Prompt-ready line**: "A loose mound on a plate a little less than
+    twice the can's height across: glossy deep-green half-moons of
+    bumpy bitter melon, torn golden-browned tofu pieces, soft yellow egg
+    curds and seared pink rectangles of luncheon meat, a pinch of
+    bonito flakes on top; steam."
+
+### F. Festive and seasonal tables
+
+#### Osechi (New Year) and ozōni
+
+- **Category**: Annual ritual: 1–3 January family meal.
+- **Lineage**: Native Japanese.
+- **Form**: auspicious dishes packed in **tiered lacquer boxes
+  (jūbako)**. **Tier one** holds the **iwai-zakana** (celebratory
+  starters) and **kuchitori**: **kuromame** (glossy black soybeans),
+  **kazunoko** (herring roe), **tazukuri** (small candied dried
+  sardines), **datemaki** (a rolled sweet omelette with fish paste),
+  **kuri-kinton** (sweet chestnut and sweet-potato paste), **kōbu-maki**,
+  **red-and-white kamaboko**. Tier two: vinegared and grilled dishes
+  (vinegared lotus root, red-and-white namasu, prawns, sea bream,
+  yellowtail). Tier three: **nishime / chikuzen-ni** (simmered root
+  vegetables). The set balances **five colours: red, green, yellow,
+  black, white**. The three iwai-zakana are **kazunoko, tazukuri and
+  kuromame in Kantō**, with **tataki-gobō** (pounded burdock) replacing
+  kuromame in Kansai [HIGH: NHK Kyō no Ryōri, Kamaboko.com, Daimaru
+  Matsuzakaya, Dinos (via search)]. Many households now buy osechi
+  ready-made or eat a reduced set (not re-checked).
+- **Ozōni (form-changing, §4.2)**: **east of Sekigahara: square grilled
+  mochi in a clear soy-dashi broth (sumashi)**; **Kansai and eastern
+  Shikoku: round mochi in white-miso broth**; **the rest of western
+  Japan: round mochi in clear broth**; exceptions include Shōnai and
+  Ichinoseki (round in the east) and Kōchi and Kagoshima (square in the
+  west) [HIGH: MAFF aff magazine "地域で違う餅の形", Weathernews,
+  Otonanswer]. **Default when unspecified**: square mochi, clear broth
+  (zone 1).
+- **Vessel & scale**: jūbako tiers ~18–21 cm square (MEDIUM — not
+  re-checked), black lacquer outside, red inside; ozōni in a lidded
+  lacquer bowl ~12 cm; **iwai-bashi** (celebration chopsticks, tapered
+  at both ends, in a paper sleeve) [MEDIUM — not re-checked].
+- **Model failure**: a Chinese New Year spread (dumplings, red
+  envelopes, lanterns); sushi platter in a box; random colourful bento.
+- **Confidence**: HIGH for contents and regional rules.
+- **Sources**: [NHK きょうの料理 — 祝い肴](https://www.kyounoryouri.jp/contents/89770);
+  [Kamaboko.com — おせち料理の定番](https://www.kamaboko.com/column/43633/);
+  [MAFF — 地域で違う餅の形](https://www.maff.go.jp/j/pr/aff/2001/spe2_02.html).
+- **Composition & proportions (§4.7)**: the top tier, open, seen from
+  above.
+  - **What dominates**: the box is divided into a **3 × 3 grid of
+    compartments** (or diagonal sections), each ~6 × 6 cm, packed
+    full: no single item dominates; colours alternate. [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Kuromame | beans ~1.2 cm | ~30 in a small cup | Glossy jet black, wrinkle-free | One compartment, often in a small dish |
+    | Kazunoko | pieces ~5 × 2 cm | 3–4 | Pale golden-yellow, fine granular roe texture | One compartment |
+    | Tazukuri | fish ~4–5 cm | ~15 | Glossy dark amber, candied, with sesame | One compartment |
+    | Datemaki | slices ~6 cm across, 1.5 cm | 4–5 | Golden-brown outer, ridged spiral (from a bamboo mat) | One compartment |
+    | Kuri-kinton | ~5 cm heap, chestnuts ~2.5 cm | 1 heap, 3 chestnuts | Bright golden-yellow paste | One compartment |
+    | Kamaboko | slices ~5 cm, 1 cm | 4, alternating | Red-rimmed and white | One compartment |
+    | Kōbu-maki | rolls ~4 cm | 3–4 | Dark green-black, tied with a gourd strip | One compartment |
+    | Prawns (tier 2) | ~10 cm, head on | 2 | Bright orange-red, curved | Often on top as a centrepiece |
+    | Garnish | nandina or bamboo leaves | a few | Green | Between compartments |
+
+  - **Ozōni (served portion)**: square mochi ~5 × 4 cm, grilled with a
+    puffed, golden-blistered surface, 1–2 per bowl, in clear pale broth
+    with a piece of chicken, a slice of kamaboko, komatsuna greens and a
+    twist of yuzu peel; the mochi soft and slightly melted at the edges.
+  - **State cues**: osechi served cold, glossy; ozōni steaming.
+  - **Absent on purpose**: sake cups and the toso set (spiced sake),
+    Chinese New Year décor, shrine imagery, legible greeting cards.
+  - **Prompt-ready line**: "An open square black lacquer box with a red
+    interior, about twice the can's height on each side, packed in neat
+    full compartments: glossy jet-black beans, golden herring roe,
+    small candied amber sardines, ridged golden rolled omelette slices,
+    a bright yellow chestnut paste with whole chestnuts, alternating
+    red-rimmed and white fish-cake slices, two curved orange prawns on
+    top, green leaves between."
+
+#### Christmas Eve table (strawberry shortcake and fried chicken)
+
+- **Category**: Annual: 24 December evening, couples and young families.
+- **Lineage**: A Japanese convention: the **strawberry shortcake**
+  (white sponge, whipped cream, whole strawberries) is a Japan-specific
+  Christmas cake, said to evoke Santa's red and snow's white; **fried
+  chicken on Christmas Eve** is widely credited to a fast-food chain's
+  campaign begun in 1974 [HIGH: Weathernews, Yahoo! News expert, iElove
+  (via search)].
+- **Staging rule**: **no chain bucket, box, logo or mascot**; fried
+  drumsticks sit on a home platter. Never imply a partnership. [EDITORIAL]
+- **Composition & proportions (§4.7)**: the table centre.
+  - **What dominates**: the white round cake (~15 cm, a 5-gō size
+    widely sold; not re-checked) and a platter of 6–8 drumsticks; each
+    ~40% of the central area; salad and a small tree accent the rest.
+    [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Shortcake | ~15 cm round, ~8 cm tall | 1 | Smooth white whipped cream, piped rosettes, a ring of 8–10 whole glossy red strawberries on top, a sponge-and-strawberry layer showing if cut | Centre on a stand or plate |
+    | Fried chicken | drumsticks ~12 cm | 6–8 | Craggy golden-brown crust | Heaped on a platter |
+    | Salad | a bowl | 1 | Green leaves, cherry tomatoes | Beside |
+
+  - **Absent on purpose**: chain packaging, a "Merry Christmas" plaque
+    with text (keep the chocolate plate blank or omit it), sparkling
+    wine.
+  - **Prompt-ready line**: "On a home table at night, a round white
+    cream cake a little wider than the can is tall, smooth whipped
+    cream with piped rosettes and a ring of whole glossy strawberries,
+    beside a plain white platter of craggy golden fried chicken
+    drumsticks; warm light, a small blurred tree. No boxes or logos."
+
+#### Hanami bento (pointer)
+
+Use the **Bento** entry (packing, sizes, §4.7) in its **jūbako** form:
+two or three stacked square tiers opened on a blue tarp, holding
+onigiri, karaage, tamagoyaki, sausage cut into octopus shapes, boiled
+broccoli and cherry tomatoes, plus a stick of **sanshoku dango** (see
+Dango). **Composition (§4.7)**: the open tiers take ~60% of the frame's
+food area, a plate of 4–6 onigiri ~25%, dango and fruit ~15%; petals
+scattered on the lids and tarp; no grills, folding tables or beer cans
+(park rules and hard rule 1). [EDITORIAL]
+
+### G. Sweets
+
+#### Dango — mitarashi and hanami sanshoku
+
+- **Category**: Everyday snack (oyatsu), hanami, festivals,
+  tsukimi.
+- **Lineage**: Native Japanese (rice-flour dumplings on a skewer).
+- **Variants (§4.6)**: **mitarashi** (grilled, under a translucent
+  sweet-salty soy glaze; Kyoto's Shimogamo origin has **five dango with
+  the top one set apart**, while 3–4 per stick is common elsewhere
+  [MEDIUM: Rurubu on Kamo Mitarashi Chaya; count elsewhere not
+  re-checked]); **sanshoku / hanami dango** (pink, white, green, three
+  per stick; spring) [MEDIUM — not re-checked]; **anko** (red-bean paste
+  coated).
+- **Vessel & scale**: balls ~2.5–3 cm (EDITORIAL), on a ~12–15 cm
+  bamboo skewer; 2–3 sticks on a small plate or a paper.
+- **Texture & finish**: mitarashi: matte white balls with grill-browned
+  spots, coated in a thick, glossy, translucent amber glaze that drips;
+  sanshoku: soft, matte, pastel balls with a powdery bloom.
+- **Model failure**: Chinese tangyuan in soup; mochi ice cream;
+  cake pops.
+- **Composition & proportions (§4.7)**: two mitarashi sticks.
+  - **What dominates**: **glaze-covered balls ~70%** of the plate area
+    in use; the plate shows ~50%. [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Dango | ~2.5 cm balls | 4 per stick, 2 sticks | White, grill spots, under amber glaze | Lying parallel on a small plate |
+    | Glaze | — | — | Thick, glossy, translucent amber | Coating, pooling under |
+    | Skewer | ~13 cm bamboo | 2 | Pale | Protruding |
+
+  - **Absent on purpose**: a teacup (dango is classically eaten with
+    green tea: exclude by name), syrup bowls, a hand.
+  - **Prompt-ready line**: "Two bamboo skewers each holding four small
+    white rice dumplings, each dumpling under half the can's width,
+    lightly grill-spotted and coated in thick, glossy, translucent amber
+    glaze pooling on a small plate. No tea cup."
+
+#### Kakigōri (shaved ice)
+
+- **Category**: Summer snack: festivals, cafés, beach huts.
+- **Lineage**: Native Japanese.
+- **Form**: finely shaved ice heaped in a glass bowl and soaked with
+  bright syrup (strawberry red, melon green, lemon yellow, blue
+  Hawaii); café versions with fresh fruit purée, matcha and red beans,
+  or condensed milk; Kyoto cafés even torch a sugar crust [MEDIUM:
+  Rurubu (via search); syrup colours not re-checked].
+- **Vessel & scale**: a footed glass bowl ~12 cm (EDITORIAL), the ice
+  heaped into a dome ~12–15 cm tall; at festivals, a paper or plastic
+  cup ~9 cm with a spoon-straw.
+- **Composition & proportions (§4.7)**: one festival or café kakigōri.
+  - **What dominates**: **a white-and-red snow dome ~85%** of the
+    vessel's silhouette; the syrup colours the top ~60% of the ice.
+    [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Shaved ice | dome ~13 cm tall, ~12 cm wide | 1 | Fluffy, feathery, translucent-white crystals | Heaped above the bowl rim |
+    | Syrup | — | — | Translucent vivid red, soaking down unevenly | Top and one side |
+    | Condensed milk (optional) | a drizzle | — | Opaque cream | Over the top |
+    | Spoon | ~12 cm | 1 | Steel or plastic | Stuck in at an angle |
+
+  - **State cues**: starting to melt at the base, a small pool of pink
+    meltwater, condensation on the glass.
+  - **Absent on purpose**: ice-cream scoops, cones, crushed coarse ice
+    cubes.
+  - **Prompt-ready line**: "A footed glass bowl holding a tall dome of
+    feathery shaved ice about as tall as the can, its top half soaked
+    translucent vivid red with syrup, a drizzle of condensed milk,
+    melting slightly into a pink pool at the base, condensation on the
+    glass."
+
+#### Compact sweets
+
+- **Taiyaki** (fish-shaped waffle filled with red-bean paste, ~12–15 cm
+  long, golden-brown with crisp fins), **dorayaki** (two pancakes
+  sandwiching anko, ~9 cm), **daifuku** (soft mochi around anko,
+  ~5 cm, dusted), **candied apple** (ringo-ame, glossy red, festivals)
+  [MEDIUM — not independently re-checked]. **Composition (§4.7,
+  taiyaki)**: one fish ~13 cm lying on its paper on a stall ledge, deep
+  golden-brown with darker raised scale ridges, a thin crisp skirt of
+  batter at the edges; ~80% of the paper covered; prompt line: "A
+  fish-shaped golden-brown waffle a little longer than the can is
+  tall, crisp raised scale pattern and darker fin edges, lying on a
+  sheet of plain paper on a stall ledge." [EDITORIAL]
+
+### H. Morning Module (off by default)
+
+#### Japanese breakfast (washoku asagohan) and the toast morning set
+
+- **Category**: Morning only (MORNING MODULE).
+- **Variants (§4.6)**: **washoku**: rice, miso soup, **nattō** (sticky
+  fermented soybeans in a small tub or bowl, stirred into strings),
+  grilled salmon, tamagoyaki, nori, pickles; **yōshoku**: thick toast
+  (~3–4 cm "Japanese" shokupan), a fried egg, salad, yoghurt;
+  **kissaten morning set** (Nagoya, zone 3: thick toast with butter or
+  ogura red-bean paste, a boiled egg, given free with a coffee; the
+  coffee must not be staged). Bread breakfasts now outnumber rice in
+  some surveys [MEDIUM: Otonanswer, Mynavi, Rank+ (via search)]; rice
+  plus miso soup is the most common Japanese-style pairing.
+  **Default**: washoku.
+- **Vessel & scale**: as Ichijū-sansai; nattō in a ~8 cm bowl.
+- **Model failure**: a hotel buffet; sushi for breakfast; a full
+  English plate.
+- **Composition & proportions (§4.7)**: one washoku breakfast tray.
+  - **What dominates**: rice ~30%, soup ~25%, salmon ~20%, nattō ~10%,
+    tamagoyaki/nori/pickles ~15% of the food surface; ~40% of the tray
+    shows between vessels. [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice | ~150 g, 11.5 cm bowl | 1 | Glossy, steaming | Front-left |
+    | Miso soup | 11.5 cm lacquer bowl | 1 | Cloudy, tofu and wakame | Front-right |
+    | Salted salmon | ~7 × 4 cm slice | 1 | Orange-pink, crisped skin | Back-right |
+    | Nattō | ~40 g in an ~8 cm bowl | 1 | Brown beans in fine sticky threads, a dab of mustard, green onion | Back-left |
+    | Tamagoyaki | 2 cm slices | 2 | Yellow spiral | Centre |
+    | Nori | packet-size sheets ~8 × 5 cm | 4–5 | Black, crisp | Small plate |
+
+  - **State cues**: soft morning daylight; steam from rice and soup.
+  - **Absent on purpose**: green-tea cup, coffee, milk, orange juice
+    (all real breakfast priors).
+  - **Prompt-ready line**: "Morning window light on a small Japanese
+    breakfast tray: a steaming bowl of glossy rice at front-left and a
+    lacquer bowl of cloudy miso soup at front-right, each as wide as the
+    can is tall; behind, a small slice of salted salmon, a tiny bowl of
+    sticky fermented soybeans with chopped green onion, two slices of
+    rolled omelette and a few crisp seaweed sheets; chopsticks across the
+    front, tips left. No tea, no coffee."
+
+---
+
+## EXAMPLE PROMPT LANGUAGE (illustrative — not validated by any image test)
+
+**Weeknight dinner at home, 3 people, zone 1 (Tokyo apartment):**
+> Eye-level photograph at a small pale-wood dining table in a compact
+> Tokyo apartment, cool white ceiling light, a dark window behind. Three
+> place settings, each with a patterned rice bowl of glossy short-grain
+> rice at front-left and a red-brown lacquer bowl of cloudy miso soup at
+> front-right, each bowl about as wide as the can is tall and half its
+> height; a small plate of thin ginger-glazed pork with a heap of
+> shredded cabbage behind each; a shared bowl of potato and meat stew in
+> the centre; chopsticks lying across the front of each setting on small
+> rests, tips left. In the midground, a 1.5-litre Coca-Cola Original
+> plastic bottle, red label, not Zero Sugar, with three filled plain
+> glasses. No teapot, no tea cups, no water glasses, no beer; no legible
+> text anywhere; nothing held in a hand; chopsticks not standing in rice.
+> Pack text will be composited in post.
+
+**Osaka okonomiyaki, 2 people, zone 2:**
+> Photograph at a restaurant table with a built-in flat iron griddle,
+> warm wood-toned light, blurred plain cloth curtains behind. On the
+> griddle two thick round savoury pancakes, each about 1.6 times the
+> can's height across, crisp golden edges, tops brushed with glossy
+> dark-brown sauce under zigzag lines of pale mayonnaise, green seaweed
+> powder and curling bonito flakes; small metal spatulas resting on the
+> griddle edge. Beside the griddle, two small Coca-Cola Original 190 ml
+> contour glass bottles, clear glass showing dark cola, noticeably shorter
+> than a standard can, not any other cola brand. No water glasses, no
+> beer, no legible text or menu strips; nothing held in a hand.
+
+**Konbini lunch on the go, 1 person, zone 1:**
+> Daylight park bench in a Tokyo neighbourhood, blurred apartment blocks
+> and overhead wires. On the bench: two triangular rice balls on their
+> plain unprinted film, glossy rice under crisp seaweed, each about
+> two-thirds the can's height on a side; beside them a Coca-Cola Zero
+> Sugar 500 ml plastic bottle, black label, not the red Original, not a
+> green-tea bottle. No printed packaging, no other drinks, nothing held
+> in a hand.
+
+*Before use: run at least two generations per prompt
+(`country-file-schema.md` §7.5) and apply this file's confidence tags.*
+
+---
+
+## GAP LOG
+
+- **Composition & proportions standard (§4.7) applied to every entry,
+  but mostly editorial synthesis.** Vessel diameters (rice bowl, soup
+  bowl, ramen bowl, donburi) and piece weights (onigiri, karaage,
+  yakitori, nigiri, gyōza, tonkatsu, zaru soba, gyūdon rice, takoyaki
+  diameter, bento volume) are sourced where tagged; most linear piece
+  dimensions (onigiri side length, nigiri length, okonomiyaki diameter,
+  hamburg size, jūbako size, tray size) and all surface shares and counts
+  are reasoned from weights, recipes and serving norms. Each prompt-ready
+  line needs two or more image generations. The compact entries (Nagoya,
+  hanami bento, compact sweets, nikujaga/tamagoyaki/hiyayakko) carry
+  compact §4.7 blocks, not full tables.
+- **Brand-file contradiction (not edited here)**: `coca-cola-guidelines.md`
+  §4.3 says to default non-US markets to the **330 mL / 115.2 mm** can.
+  **Japan's standard can is 350 mL, 122 × 66 mm** (JIS; Coca-Cola's own
+  350 mL listed at 122 × 66 mm), so the 330 mL default would under-size
+  the can by ~7 mm and make Japanese food read too large. The brand
+  file's own exception clause covers this, but §4.3's table should gain
+  a Japan row. Also: §4.4's "330mL bottle / 355mL can / 500mL bottle"
+  single-serve list omits Japan's **190 mL glass**, **160/250 mL cans**
+  and **350/700 mL PET**.
+- **Pack dimensions missing**: 190 mL glass bottle height, 160 mL can
+  diameter, 500 mL can, all PET sizes. The 160/250 mL heights come from
+  one tier-4 measurement site. Hold for the expected TCCC spec drop.
+- **2 L PET and Original 1.5 L** not confirmed (1.5 L confirmed for Zero
+  Sugar only).
+- **500 mL can** rests on the orchestrating session's search, not re-run.
+- **Lemon-Dou (TCCC alcohol)**: the staging rule is editorial; Fernando
+  should confirm whether any brand-safety guidance from Coca-Cola Japan
+  applies (e.g. never co-locating Coca-Cola and Lemon-Dou packs).
+- **Izakaya exclusion** is an editorial call that removes a big real
+  register for yakitori and karaage; reviewer should confirm.
+- **Not searched (tagged "not re-checked")**: lunch time and weekday
+  lunch-away share, breakfast time, walking-while-eating norm, chopstick
+  taboo, kotatsu/LDK interior details, tray size, teishoku components,
+  hamburg/omurice/nabe forms, udon broth east/west colours, Sanuki
+  self-service shops, kitsune udon, champon, soup curry, imoni,
+  kiritanpo, Gion Matsuri and Awa Odori 2026/2027 dates, Okinawa Obon
+  dates, Setsubun, tsukimi, Golden Week, dango counts outside Kyoto,
+  kakigōri syrups, taiyaki and compact sweets, Gen Z housing.
+- **Okinawa Obon** (lunar) 2027 dates not checked.
+- **2027 hanami forecasts** not yet published.
+- **No page was fetched**; every sourced claim is from search snippets.
+- **Pepsi/Suntory market share** in Japan not found.
+- **Regional bottler map** (beyond CCBJI) not researched.
+
+## CANDIDATE QUEUE
+
+1. **Fernando decisions**: Okinawa spinout; izakaya exclusion; Lemon-Dou
+   co-location rule; whether to add a Japan row to
+   `coca-cola-guidelines.md` §4.3 (350 mL, 122 × 66 mm) and the small
+   formats to §4.4.
+2. When search budget allows: 190 mL bottle and PET dimensions; 2 L PET;
+   Okinawa lunar Obon 2027; Gion/Awa Odori 2027; a lunch-time survey;
+   linear sizes for onigiri, nigiri and okonomiyaki from a practitioner
+   source; Hokkaidō soup curry and Nagasaki champon entries.
+3. Image tests (two or more generations each), starting with the
+   ichijū-sansai tray (vessel over-sizing and chopsticks-in-rice),
+   Osaka vs Hiroshima okonomiyaki (variant swap), Hakata ramen (pho or
+   shōyu drift), onigiri (Korean rice-ball drift), takoyaki (meatball
+   size), and the water/tea-glass intrusion in restaurant scenes.
+4. Independent §8 audit of this file.
+
+## RESEARCH LOG
+
+- **2026-09-29 / 2026-10-01, first pass (this file).** Built directly,
+  no scaffold, no subagents. **40 WebSearch queries** (the brief's
+  budget); no WebFetch. The session was interrupted by an API spend
+  limit mid-catalog; the remaining entries and closing sections were
+  appended on resumption without new searches. Topics searched:
+  - **Packs and brand**: 350 mL can dimensions (JIS, Coca-Cola spec);
+    190 mL returnable glass; PET 350/500/700 mL and the 2025 label-less
+    500 mL (Coca-Cola Japan media centre); 1.5 L PET (Zero Sugar
+    listings); 160 and 250 mL can heights; TCCC Japan brands; Lemon-Dou
+    2025 relaunch; Pepsi/Suntory; JFA konbini count; JVMA vending
+    machines.
+  - **Housing and meals**: 2023 Housing and Land Survey (national and
+    Tokyo); dinner start times (Asahi University 2023; 2021 Time Use
+    Survey); breakfast rice vs bread surveys.
+  - **Table and vessels**: ichijū-sansai layout and chopstick placement;
+    rice bowl and soup bowl sizes; ramen bowl; donburi and gyūdon rice
+    weights; free water/tea/oshibori; bento box sizing.
+  - **Dishes**: onigiri weights; takoyaki (MAFF); okonomiyaki Osaka vs
+    Hiroshima; yakitori skewer weights; karaage weights; curry
+    (lineage, fukujinzuke) and the pork/beef east-west split; tonkatsu
+    thickness; nigiri weights; gyōza count and weight; zaru soba
+    portion; Hokkaidō and Hakata ramen; Okinawa soba; gōyā champurū;
+    jingisukan; Nagoya-meshi; Sendai gyūtan; ozōni mochi regions;
+    osechi tiers; dango and kakigōri.
+  - **Festivals**: Obon 2026 and shōryō-uma; hanami and Ueno park rules;
+    JMA 2026 sakura data; Nebuta 2026; summer matsuri yatai; Christmas
+    cake and fried chicken.
+- **Access limitation**: no pages were fetched; all sourced claims are
+  "(via search)".
+- **Sources considered and down-weighted**: calorie and recipe sites,
+  Yahoo! Chiebukuro and retailer blogs (tier 4) used only for piece
+  weights and vessel sizes where nothing institutional surfaced, and
+  marked; MAFF, the Statistics Bureau, JMA and Coca-Cola Japan were
+  preferred wherever they covered a claim.
+- **No subagents were used.**
