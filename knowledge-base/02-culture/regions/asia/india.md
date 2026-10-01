@@ -780,6 +780,331 @@ cycle.
   national occasion (IPL runs roughly March–May) [LOW-MEDIUM — not
   re-checked]; no team kit or logos legible.
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7: the frame shows the operator's party
+(1, 2 or a small group of identical place settings) at one stretch of a
+bigger event, and the crowd is implied. Every India hard rule applies
+unchanged: the veg/non-veg decision comes from the brief (vegetarian
+when unspecified), no beef, no pork outside a briefed Northeast/Goa/Coorg
+context, nothing held in a hand, no chai/lassi/water tumbler beside the
+hero, no religious ritual in frame.
+
+### How large gatherings work here
+
+- **Who and how many.** The extended family is the unit: festival meals
+  gather 8–25 relatives at the parents' or grandparents' home, and
+  neighbours and friends drop in through the day [EDITORIAL estimate,
+  not sourced]. Weddings are far larger: a WeddingWire India survey put
+  the **average 2024 guest list at about 330** (326 in 2023), and
+  caterers describe weddings as **3–4 functions** (mehendi, sangeet,
+  wedding, reception), each fed separately [MEDIUM — WeddingWire India
+  Newly Wed Survey 2024–25 via search, tier 3 industry source with a
+  commercial interest; hitkariproductions catering guide, tier 4].
+- **Where (intake venues).** *Home indoor*: festival meals (Diwali,
+  Eid, Onam at home, Durga Puja lunch, birthdays). *Home outdoor*: the
+  terrace (chhat) or courtyard for overflow and children's parties in
+  towns. *Restaurant*: Durga Puja and birthday dinners out, and smaller
+  receptions in a private room. *Other*: a rented **banquet hall,
+  marriage garden ("lawn") or kalyana mandapam** for weddings and big
+  birthdays [MEDIUM — standard venue categories on WeddingWire India and
+  caterer guides; EDITORIAL mapping].
+- **Table form and serving style, by region.** *North and West*: the
+  wedding and big-party default is a **standing buffet** with steel
+  chafing dishes in a long line, live counters (chaat, tandoor, dosa)
+  and plates taken by the guest; at home, serving bowls crowd the dining
+  table and family members serve each other. *South*: the wedding and
+  Onam default is a **seated banana-leaf feast**, long rows of narrow
+  tables (or floor mats in older halls), leaves laid tip-left, and
+  servers walking the row with buckets ladling rice, sambar, rasam and
+  payasam course by course [HIGH — Wikipedia "Sadya" (already cited);
+  Awesome Cuisine and My Cooking Journey on Tamil kalyana sappadu].
+  *East (Bengal)*: courses served in order, at home or as a restaurant
+  thali or buffet in Puja season.
+- **Plates and cutlery that differ from everyday.** Buffets use large
+  white melamine or ceramic plates (~30 cm) with a spoon; disposable
+  **areca-leaf or sal-leaf plates** and **dona** leaf bowls at community
+  and religious meals; the banana leaf at southern feasts with no cutlery
+  at all. At home, the "good" steel thali or a matching ceramic dinner
+  set comes out. [MEDIUM — uncontested, not individually re-checked;
+  EDITORIAL]
+- **Snapshot-staging default for India [EDITORIAL].** The two or three
+  most authentic crowd cues are: (1) **more serving bowls than the
+  visible diners could empty** (four to six katoris or serving bowls of
+  different curries, a covered roti casserole, a mithai platter), partly
+  cropped; (2) **at a hall, the buffet line of steel chafing dishes or
+  the long row of banana leaves running out of frame**; (3) **festival
+  decor** soft in the background: marigold torans over a doorway, string
+  lights, diyas on a sill, a pookalam edge at the threshold. Blurred
+  relatives (at most about 2.5 faces, none sharp) in festive clothes are
+  the fourth option. Avoid the Bollywood cliché of every frame being a
+  wedding.
+
+#### Celebration: Diwali family dinner (Deepavali)
+
+- Type: calendar holiday
+- When: October–November (Lakshmi Puja night; 29 Oct 2027, see the
+  festivals register). Dinner after the evening puja, ~20:30–22:00;
+  intake time **evening**. Afternoon snack-and-mithai visits are a
+  second register (golden-hour).
+- Gathering: the extended family at home, roughly 6–20, with visitors
+  bringing mithai boxes through the evening; *home indoor*, with the
+  terrace or balcony for the diyas [EDITORIAL estimate].
+- The spread: in the North and West a **vegetarian festive dinner** is
+  the norm: puri (deep-fried, puffed), chole (see catalog: Chole
+  bhature), dum aloo, a paneer dish (see catalog: Paneer butter masala),
+  dal makhani, pulao, raita, and sweets [MEDIUM — JCookingOdyssey and
+  Cook with Manali menus, tier 4; matches the festivals register]. The
+  sweet table: kaju katli, ladoos, barfi, soan papdi, gulab jamun (see
+  catalog: Diwali mithai spread; Compact sweets). Snacks (namkeen,
+  mathri, chakli in the South and West). A real table carries 5–8
+  serving bowls plus a mithai platter and a namkeen bowl.
+- Snapshot staging: **1 setting**: one steel or ceramic thali with two
+  puris, a katori of chole and one of dum aloo, a spoon of raita; behind
+  it a basket of puris and two cropped serving bowls, a mithai platter
+  at the frame edge; hero beside the thali. **2 settings**: two identical
+  thalis side by side, between them a covered puri casserole, the
+  paneer bowl and the mithai platter; a third and fourth serving bowl cut
+  by the frame. **Small group (3–4)**: one end of the dining table, the
+  spread of 5–6 bowls running out of frame, a multi-serve bottle in the
+  midground if the brief allows one. Crowd cues: string lights and a
+  marigold toran soft behind; diyas on a windowsill out of focus; an
+  open mithai box with the lid set aside.
+- Decor and cues: clay diyas (lit, on a sill or the floor at the door),
+  rangoli at the threshold (finished, never being drawn), new clothes
+  (silk kurtas, saris) on blurred figures, gift boxes of dry fruit.
+  Clichés to avoid: an orange haze, incense smoke, fireworks filling the
+  window.
+- Never stage: the puja thali, deity images or the altar; the hero near
+  firecrackers or an open flame; card games with money (a real Diwali
+  custom, gambling); alcohol (Diwali house parties often have it). No
+  non-veg dish unless the brief says so.
+- Confidence and sources: [MEDIUM] for the menu (tier-4 recipe sites,
+  consistent with the existing register); [EDITORIAL] for headcount and
+  staging.
+
+#### Celebration: Eid ul-Fitr lunch (Eid / Meethi Eid)
+
+- Type: calendar holiday
+- When: the day after Ramzan ends (~10 Mar 2027, moon-dependent). The
+  day opens with Eid prayers and a bowl of sheer khurma; the **main
+  family meal is lunch**, then visits continue into the evening. Intake
+  time **midday** (evening for the visiting register).
+- Gathering: family and relatives at home, often 10–30 across the day
+  as households visit each other; *home indoor* [MEDIUM that visiting
+  relatives is the core custom — Agoda guide and Newsband via search,
+  tier 3–4; headcount EDITORIAL].
+- The spread: **biryani** as the centrepiece in a wide handi or a large
+  platter (see catalog: Hyderabadi dum biryani; Lucknowi (Awadhi)
+  biryani; Kolkata biryani, by zone), kebabs (seekh, shami), a korma or
+  goat curry, raita, mirchi ka salan in Hyderabad, and **sheer khurma**
+  in a big bowl (see catalog: Sheer khurma), plus seviyan and phirni
+  [MEDIUM — Agoda, The Style List, History.com via search; consistent
+  with the festivals register]. A real table carries the biryani, 3–5
+  side dishes and 1–2 sweets. **Halal by definition; no pork, no beef.**
+- Snapshot staging: **1 setting**: a ceramic dinner plate with a mound of
+  biryani (one goat or chicken piece visible, no egg unless Kolkata or
+  the brief says so), a small bowl of raita; the handi cropped behind
+  and a glass bowl of sheer khurma at the edge. **2 settings**: two
+  plates, the biryani handi between them with its lid off, a plate of
+  seekh kebabs with onion rings and lemon, the sheer khurma bowl with
+  small cups beside it. **Small group**: a dastarkhwan-style spread on a
+  table (or a white cloth on a floor rug, a real register in older
+  homes), the handi, kebabs, korma, raita and sheer khurma, running out
+  of frame. Crowd cues: extra small dessert bowls stacked beside the
+  sheer khurma; blurred figures in new kurtas and embroidered clothes;
+  a tray of dates or a box of sweets at the edge.
+- Decor and cues: new clothes (white or pastel kurta-pyjama, embroidered
+  salwar suits), attar bottles and eidi envelopes are real but keep them
+  out of hero position; crescent-moon decor is commercial and optional.
+- Never stage: prayer, the mosque, a prayer mat or caps in hero
+  position; any non-halal food; the hero as the drink that breaks a
+  fast (that is iftar, not Eid). Alcohol never.
+- Confidence and sources: [MEDIUM] menu and visiting (tier 3–4 sources,
+  consistent across them); [EDITORIAL] staging and headcount.
+
+#### Celebration: Onam sadya at home (Onasadya)
+
+- Type: calendar holiday (Kerala, zone 6)
+- When: Thiruvonam day (12 Sep 2027); the sadya is the **midday** meal.
+- Gathering: the extended family at the ancestral or parents' home,
+  often 10–30; many urban families now order a catered sadya, and
+  restaurants and offices run sadya lunches [EDITORIAL estimate;
+  catered sadya pricing ₹600–1,200 per plate appears in a wedding
+  catering guide, tier 4]. *Home indoor*, seated in a row at a long
+  table or on mats.
+- The spread: see catalog: **Onam sadya** (about 26 dishes on a
+  banana leaf, tip to the left, red matta rice in the centre, served in
+  order, payasam last). Here the leaf is the plate; the shared vessels
+  are the servers' steel buckets and bowls of sambar, rasam and payasam,
+  not dishes on the table.
+- Snapshot staging: **1 setting**: one full leaf in frame with the
+  documented layout, the next leaf's tip just entering at the frame
+  edge; hero to the right of the leaf on the bare table. **2 settings**:
+  two leaves side by side on a long table, the row continuing out of
+  frame on one side; a steel bucket of sambar with a long ladle at the
+  far edge, soft. **Small group**: a row of 3–4 leaves receding along the
+  table, identical servings on each. Crowd cues: the row of leaves
+  running out of frame; a server's steel bucket half in frame (no hand,
+  no face); the edge of a pookalam on the floor of the doorway behind.
+- Decor and cues: kasavu (cream with gold border) saris and mundus on
+  blurred figures, a pookalam, a brass nilavilakku lamp soft in the far
+  background at most. Clichés: snake boats and Kathakali dancers.
+- Never stage: any non-veg item, cutlery on the leaf, a water tumbler on
+  the leaf, the hero on the leaf itself, the lamp lit as an object of
+  worship in hero position.
+- Confidence and sources: [HIGH] for the sadya form (catalog sources);
+  [EDITORIAL] for headcount and staging.
+
+#### Celebration: Durga Puja family meal out (Pujo, zone 8)
+
+- Type: calendar holiday (Bengal, also Delhi's Chittaranjan Park and
+  Bengali communities nationwide)
+- When: September–October, Shashthi to Dashami (5–9 Oct 2027). Lunch or
+  late dinner after pandal-hopping; intake time **evening** (or
+  midday).
+- Gathering: family or friends, 4–10, at a restaurant; eating out during
+  Puja is a modern Kolkata habit alongside pandal-hopping [MEDIUM —
+  EazyDiner and Agoda Kolkata Puja guides, tier 3; Gulf News food
+  features on Puja dishes]. The **bhog** (khichuri, labra, payesh) eaten
+  at the pandal is a religious offering and stays out of hero staging.
+  *Restaurant*, or *home indoor* for the family Puja lunch.
+- The spread: a Bengali Puja thali or buffet with **kosha mangsho**
+  (dark, dry-braised goat curry), **shorshe ilish** or another fish
+  (see catalog: Bengali fish meal), luchi with **cholar dal** and
+  **niramish aloor dum** (vegetarian Ashtami register), pulao, chutney,
+  and sweets (see catalog: Rasgulla and mishti); or a **Kolkata biryani**
+  with potato and egg (see catalog: Kolkata biryani) [MEDIUM — EazyDiner,
+  Agoda, Gulf News]. Many Bengali Hindus eat vegetarian on Ashtami
+  [LOW — not verified this pass].
+- Snapshot staging: **1 setting**: a large bell-metal-look or steel thali
+  with luchi, cholar dal, aloor dum and a katori of kosha mangsho
+  (non-veg brief) or paneer (veg), a sweet at the rim. **2 settings**:
+  two Kolkata biryani plates (potato visible), a shared bowl of chicken
+  chaap or mutton rezala cropped between them. **Small group**: one end
+  of a restaurant table with shared bowls of kosha mangsho, fish, luchi
+  basket, and an earthen bowl of mishti doi, running out of frame.
+  Crowd cues: festive saris and panjabis on blurred diners; a busy
+  restaurant behind; lights of a street pandal glimpsed through the
+  window, unreadable and out of focus.
+- Decor and cues: red-and-white sari borders (Dashami), dhak drums only
+  as a background suggestion. Clichés: the idol close-up.
+- Never stage: the pandal interior, the idol, sindoor khela, the bhog
+  queue or immersion; legible restaurant names.
+- Confidence and sources: [MEDIUM] (tier-3 food media and Gulf News);
+  the Ashtami vegetarian claim [LOW].
+
+#### Celebration: Wedding feast (shaadi / kalyanam)
+
+- Type: life event
+- When: wedding season roughly November–February and April–May
+  (auspicious dates vary) [LOW — not verified this pass]. North
+  receptions are **evening** (dinner 21:00–23:00); South wedding feasts
+  are often **midday** after a morning muhurtham.
+- Gathering: an average of about 330 guests in 2024 across several
+  functions [MEDIUM — WeddingWire India, tier 3]. *Other*: banquet hall,
+  marriage lawn, hotel ballroom or kalyana mandapam.
+- The spread, by region: *North/West buffet* (the default when the brief
+  names no zone): a line of chafing dishes with paneer butter masala,
+  dal makhani, a kofta, mixed veg, jeera rice or veg biryani, naan and
+  tandoori roti from a live tandoor, raita, salad, and live counters
+  (chaat, pani puri, tikki); desserts: gulab jamun, jalebi with rabri,
+  ice cream; non-veg receptions add butter chicken, mutton rogan josh and
+  biryani [MEDIUM — catering guides and price pages via search, tier 3–4;
+  see catalog: Paneer butter masala; Butter chicken; Pani puri;
+  Compact sweets]. *South seated feast*: **kalyana sappadu** on a banana
+  leaf, salt, pickle and a banana at the top, kosumalli, poriyal, kootu,
+  avial, pachadi, vada and appalam, rice with paruppu and ghee, then
+  sambar, rasam, mor kuzhambu, payasam, served in stages along the row
+  [HIGH — Awesome Cuisine, My Cooking Journey, Foodies Only; see catalog:
+  South Indian "meals" on banana leaf; Onam sadya for the Kerala form].
+  Muslim weddings centre on biryani; never stage a beef or pork dish.
+- Snapshot staging: **1 setting (buffet)**: a round banquet table with a
+  white or satin cloth and a chair-cover edge, one large white plate
+  with a buffet serving (paneer curry, dal, rice, half a naan, salad),
+  the buffet line of polished chafing dishes soft behind; hero on the
+  table beside the plate. **1–2 settings (South)**: one or two banana
+  leaves at a long white-papered table, the row of leaves running out of
+  frame. **Small group**: a round table, 3–4 identical plates, a shared
+  plate of starters (paneer tikka, hara bhara kebab) in the middle.
+  Crowd cues: marigold and rose garlands and fairy lights overhead; the
+  buffet line or row of leaves; blurred guests in lehengas and
+  sherwanis (no sharp faces).
+- Decor and cues: marigold strings, mandap draping, fairy lights, brass
+  urli bowls with floating flowers. Clichés: the bride and groom in
+  frame, the baraat horse, every scene a "big fat Indian wedding".
+- Never stage: the rites (pheras, the mandap fire, the muhurtham, nikah);
+  the bar counter or cocktail hour (North receptions often have one);
+  bride and groom as identifiable figures; legible signage.
+- Confidence and sources: [MEDIUM] buffet menu and guest count; [HIGH]
+  southern leaf feast; [EDITORIAL] staging.
+
+#### Celebration: Birthday party at home (janamdin)
+
+- Type: life event
+- When: any time; children's parties in the late afternoon
+  (**golden-hour**), adult birthdays as a family dinner (**evening**).
+- Gathering: a children's party of 15–30 (classmates, cousins, parents)
+  at home, on the building terrace, in a society clubhouse or at a
+  restaurant party room; an adult birthday is the immediate family or
+  4–10 friends at home or a restaurant [EDITORIAL estimate]. *Home
+  indoor*, *home outdoor* (terrace) or *restaurant*.
+- The spread: the **cake** is central (a cream cake from a local bakery,
+  often eggless for veg families), cut to song, with **samosa or veg
+  puffs and potato chips** as the classic pairing; modern parties add
+  mini pizzas, French fries, veg noodles, paneer rolls, pav bhaji or
+  chole bhature as the heavier dish, and gulab jamun [MEDIUM — Tarla
+  Dalal, Chitra's Food Book and Bhandary's Kitchen party menus, tier 4,
+  consistent across them; see catalog: Samosa; Pav bhaji; Chole bhature;
+  Compact sweets]. A real table carries the cake plus 4–6 snack platters.
+- Snapshot staging: **1 setting**: a paper or melamine party plate with a
+  cake slice, a samosa and a few chips with a ketchup dot; the cake
+  board cropped at the frame edge. **2 settings**: two identical plates,
+  the cake (one slice cut) between them, a platter of veg puffs
+  partly in frame. **Small group**: one end of a table covered with a
+  printed party cloth, the cake, platters of samosas, noodles and fries
+  running out of frame, a multi-serve bottle in the midground if the
+  brief allows. Crowd cues: balloons and a foil bunting (no legible
+  letters or numbers), stacked paper plates, a cone party hat on the
+  table.
+- Decor and cues: balloon arches, a cake knife beside the cake (never
+  held). Clichés: candles spelling a name, a legible "Happy Birthday".
+- Never stage: legible text on the cake or bunting; egg in a veg brief
+  (say "eggless cream cake"); characters or licensed cartoon décor.
+- Confidence and sources: [MEDIUM] food (tier-4 recipe sites); [EDITORIAL]
+  headcount and staging.
+
+#### Celebration: Sunday family lunch (ravivar ka khana)
+
+- Type: community or family gathering
+- When: Sunday, **midday** (~13:00–15:00), the one meal of the week the
+  working family eats together at leisure.
+- Gathering: the household plus visiting grandparents, siblings or
+  in-laws, 5–12; *home indoor*. This is the everyday-scale cousin of the
+  festival meal and is already sketched in ENVIRONMENT & STAGING SCENES
+  ("Casual lunch at home — 3 people").
+- The spread, by zone: chole bhature or rajma chawal (North; see
+  catalog: Chole bhature; Rajma chawal), a chicken or goat curry with
+  rice (non-veg households; "Sunday mutton" is a common North and East
+  habit [LOW — not verified this pass]), a biryani handi (Hyderabad,
+  Lucknow, Kolkata), a Bengali fish meal (see catalog: Bengali fish
+  meal), or a South Indian meal with sambar, rasam and a special
+  poriyal. 4–6 serving bowls.
+- Snapshot staging: **1 setting**: one thali or plate, a bowl of the
+  centrepiece curry and a roti casserole at the edge. **2 settings**: two
+  thalis, the centrepiece bowl, rice bowl and salad plate between them.
+  **Small group**: the dining table in daylight, serving bowls in a
+  cluster, more than the visible diners need, running out of frame.
+  Crowd cues: an extra chair pulled up, a newspaper folded on a side
+  table, a grandparent blurred at the far end.
+- Decor and cues: ceiling fan, daylight through curtains, the steel
+  serving bowls with lids. No festival decor; it is an ordinary Sunday.
+- Never stage: the steel water tumbler, chai, or any beef or pork dish.
+- Confidence and sources: [EDITORIAL], built on the existing scenario;
+  the Sunday-mutton habit [LOW].
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2366,6 +2691,14 @@ Up 300 mL cans, as named by the brief):**
   Andhra meals, Chettinad, Coorg, Kashmiri wazwan, Assamese and Khasi
   food are missing.
 
+- **Celebrations pass (2026-10-01) open items**: festival-meal
+  headcounts (Diwali, Eid, Onam, Sunday lunch, children's birthdays) are
+  editorial estimates, not sourced; the 330-guest wedding average rests
+  on one industry survey (WeddingWire India, via search); the Diwali and
+  birthday menus rest on tier-4 recipe sites; wedding-season months,
+  Ashtami vegetarianism and the "Sunday mutton" habit were not verified;
+  wedding plate and buffet-line visuals need image tests.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) keep India as one file with nine zones,
@@ -2390,6 +2723,15 @@ Up 300 mL cans, as named by the brief):**
    (orange-curry-and-naan failure) and the banana-leaf meal
    (cutlery/water-tumbler intrusion).
 7. Independent §8 audit.
+
+8. Celebrations pass: catalog entries for **puri with dum aloo**
+   (Diwali; deep-fried puffed golden discs ~12 cm, beside a potato curry
+   in a steel katori), **kosha mangsho** (Bengal, dark glossy dry goat
+   curry in a bowl), **kebab platter (seekh and shami)** (Eid; browned
+   cylinders and patties on a steel plate with onion rings and lemon),
+   **Tamil kalyana sappadu** as its own leaf layout (currently pointed at
+   South Indian meals), and the **birthday cream cake** (eggless bakery
+   cake, piped cream, roughly three cans wide).
 
 ## RESEARCH LOG
 
@@ -2426,3 +2768,4 @@ Up 300 mL cans, as named by the brief):**
   and are marked. Quora, Medium, Scribd and Grokipedia results were used
   only as corroboration or ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding guest count and catering; Tamil wedding banana-leaf feast; Diwali dinner menu; Eid ul-Fitr India menu and visits; Durga Puja eating out in Kolkata; children's birthday party menus). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (Diwali, Eid ul-Fitr, Onam sadya, Durga Puja, wedding, birthday, Sunday family lunch). Sources are mostly tier 3–4 (WeddingWire India, EazyDiner, Agoda, recipe sites) plus Gulf News; headcounts are editorial.

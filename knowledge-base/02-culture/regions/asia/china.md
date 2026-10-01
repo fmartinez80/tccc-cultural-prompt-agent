@@ -713,6 +713,274 @@ in the previous year [MEDIUM].
 - **Religious and ethnic festivals** (Eid among Hui and Uyghur Muslims,
   Tibetan Losar) — not researched; do not stage without SME review.
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7: the frame shows the operator's party
+(1, 2 or a small group of identical place settings) at one stretch of a
+bigger event, and the crowd is implied. Every China hard rule applies:
+own rice bowl per diner with shared dishes, chopsticks never upright,
+halal tables stay halal, no tea beside the hero, and **no baijiu, red
+wine or beer at any celebration table**, which is where they are the
+strongest prior of all.
+
+### How large gatherings work here
+
+- **Who and how many.** Celebrations are family-led and banquet-shaped.
+  Festival meals (New Year's Eve, Mid-Autumn) gather three generations,
+  roughly 6–15 people [EDITORIAL estimate]. Life-event banquets (weddings,
+  full-month, an elder's birthday) are hosted by the family for relatives,
+  colleagues and friends and run to **many round tables of about ten**
+  [MEDIUM — 婚礼纪 and 中国婚博会 wedding-menu guides via search, tier 3;
+  diaspora sources agree on the round-table-of-ten form]. Total guest
+  counts were not sourced this pass.
+- **Where (intake venues).** *Home indoor*: New Year's Eve dinner (a
+  2025 China Youth Daily survey found **83.6% of respondents eat 年夜饭 at
+  home**, 94.8% in the Northeast), Mid-Autumn, the weekend family dinner
+  [MEDIUM-HIGH — 中国青年报社会调查中心 survey of 1,347 people, via Sina;
+  CCTV]. *Restaurant*: banquet halls and private rooms (包间) for weddings,
+  full-month and birthday banquets, and a fast-growing share of New
+  Year's Eve dinners (Meituan reported online 年夜饭 bookings up 305%
+  year on year in January 2025) [MEDIUM — Meituan data via Sina Finance,
+  Guangzhou Daily; commercial source]. *Home outdoor*: a rural courtyard
+  (院子) with rented folding tables for a village banquet (农村流水席)
+  [LOW — not verified this pass]. *Other*: a hotel ballroom.
+- **Table form and serving style.** The **round table for ten with a
+  glass turntable** is the banquet unit; dishes arrive in sequence,
+  **cold dishes (凉菜) pre-set on the turntable before guests sit**, then
+  hot dishes, soup, staple (rice, noodles, dumplings) and fruit; plates
+  are not cleared, so the turntable gets more crowded as the meal goes
+  on [MEDIUM — wedding-menu guides via search; turntable HIGH from GENERAL
+  NORMS]. At home it is the family table extended with a folding round
+  top, every dish placed at once.
+- **Plates and cutlery that differ from everyday.** Banquet settings add
+  a small side plate, a ceramic spoon on a rest, chopsticks in a paper
+  sleeve (printed, keep blurred), a folded napkin in a glass and **two or
+  three glasses per seat** (water, wine, baijiu thimble glass); **stage
+  one glass only** for the hero. Restaurants often use the shrink-wrapped
+  sterilised set (GENERAL NORMS). Home festival tables bring out the
+  matching good china.
+- **Snapshot-staging default for China [EDITORIAL].** The most authentic
+  crowd cues: (1) **a crowded turntable** with more dishes than the
+  visible diners could eat, overlapping and partly cropped; (2) **a second
+  round table soft in the background** with its own turntable and red
+  chair covers (banquets); (3) **red decor at the edge**, blurred so no
+  character is legible (囍 at weddings, 福 and 春联 at New Year, a 寿 at
+  birthdays). Empty chairs with chair covers pushed in also work. Never
+  count out ten place settings.
+
+#### Celebration: New Year's Eve reunion dinner (年夜饭, 除夕)
+
+- Type: calendar holiday
+- When: 除夕, the eve of Spring Festival (5 Feb 2027); dinner ~18:00–20:00,
+  often running into the 20:00 CCTV gala on the TV; intake time
+  **evening**.
+- Gathering: three generations at the grandparents' or parents' home,
+  6–15 people, at the dining table extended with a round top [MEDIUM —
+  83.6% eat at home per the 2025 China Youth Daily survey; headcount
+  EDITORIAL]. A minority book a restaurant private room.
+- The spread: 8–10 or more dishes, every one symbolic: a **whole steamed
+  fish** on a long oval plate (see catalog: Qingzheng yu), a whole stewed
+  or white-cut chicken, **jiaozi** in the north (see catalog: Jiaozi),
+  **niangao** in the south, red-braised pork (see catalog: Hongshao rou),
+  cola chicken wings (see catalog: Kele jichi), braised prawns, cold
+  dishes (sliced braised beef, jellyfish, pickled vegetables), greens, a
+  soup [HIGH for fish/chicken/jiaozi/niangao — see the festivals
+  register sources]. A real table carries 8–12 dishes.
+- Snapshot staging: **1 setting**: a rice bowl (or a small plate of
+  jiaozi with a vinegar dish in the north), chopsticks on a rest, a
+  spoon, one glass with the hero; in front, the edge of the fish plate
+  and two overlapping dishes, more cropped by the frame. **2 settings**:
+  two identical settings at one curve of the round table, the whole
+  fish between them with its head and tail in frame, the chicken plate
+  and jiaozi plate overlapping behind. **Small group**: one arc of the
+  table, 6–8 dishes crowding the centre and running out of frame, a
+  multi-serve bottle in the midground if the brief allows. Crowd cues:
+  a third and fourth rice bowl at the frame edge; the red glow of
+  decorations (lanterns, paper-cuts) blurred on the wall; a TV glow
+  behind (no legible screen).
+- Decor and cues: red paper-cuts on windows, small red lanterns, a dish
+  of tangerines, sunflower seeds and candy on the coffee table behind.
+  Clichés: dragons, gongs, firecrackers in the room, qipao.
+- Never stage: baijiu or red wine (the strongest prior); legible 福 or
+  春联; ancestor offerings (an altar with incense); red envelopes being
+  handed over (hands).
+- Confidence and sources: [HIGH] symbolic dishes; [MEDIUM-HIGH] home
+  share (China Youth Daily survey via Sina, CCTV); [EDITORIAL] staging.
+
+#### Celebration: Mid-Autumn reunion dinner (中秋团圆饭)
+
+- Type: calendar holiday
+- When: 15th of the 8th lunar month (15 Sep 2027); dinner ~18:00–19:30,
+  then mooncakes and moon-viewing later; intake time **evening** (or
+  golden-hour for the balcony mooncake table).
+- Gathering: the family reunion at home, 4–12 people; *home indoor*, with
+  the balcony or courtyard for the moon [MEDIUM — Xinhua and China
+  Intangible Cultural Heritage (ihchina.cn) on the 家宴/赏月 custom].
+- The spread: a family feast with seasonal **hairy crab** (Jiangnan,
+  zone 2; steamed whole, bright orange), **osmanthus duck** (桂花鸭, pale,
+  salted, Nanjing), a **soup** (pigeon, fish-head tofu or chicken soup),
+  plus the household's usual festive dishes (whole fish, braised pork),
+  and afterwards **mooncakes** cut into wedges, pomelo and osmanthus
+  cake [MEDIUM — Xinhua, ihchina.cn, chinafolklore.org via search; see
+  catalog: Yuebing; Qingzheng yu; Hongshao rou]. 6–8 dishes.
+- Snapshot staging: **1 setting**: rice bowl, chopsticks, a small plate
+  with one steamed crab, the soup tureen and a duck plate cropped behind.
+  **2 settings**: two settings, a platter of crabs and the duck between
+  them, the soup tureen at the edge. **Small group**: one arc of the table
+  with 5–6 dishes running out of frame. For the after-dinner register, a
+  balcony table with a plate of mooncakes cut in quarters, a pomelo, the
+  full moon in a clear sky. Crowd cues: an open mooncake gift box
+  (blurred text) set aside; a fourth chair at the edge; children's
+  lanterns soft in the background.
+- Decor and cues: rabbit lanterns, osmanthus sprigs. Clichés: Chang'e
+  costumes, oversized moons.
+- Never stage: tea (the traditional mooncake pairing) or osmanthus wine
+  (桂花酒, alcohol); legible box text.
+- Confidence and sources: [MEDIUM]; crab and osmanthus duck are regional
+  (zone 2), not national.
+
+#### Celebration: Wedding banquet (婚宴)
+
+- Type: life event
+- When: midday or evening banquet on the wedding day (intake time
+  **midday** or **evening**); auspicious dates and the National Day and
+  May Day holidays are popular [LOW — not verified this pass].
+- Gathering: many round tables of ten in a restaurant banquet hall or
+  hotel ballroom (*restaurant* / *other*); in villages a courtyard
+  banquet with rented tables (*home outdoor*).
+- The spread: an even number of dishes for "pairs", commonly **16–24 per
+  table** (for example 6 cold dishes, 12 hot dishes, 2 snacks, a soup
+  and a fruit platter), with auspicious menu names (龙凤, 鸳鸯, 百年好合)
+  [MEDIUM — 婚礼纪 (hunliji.com), 中国婚博会 (jiehun.com.cn), Zhihu, via
+  search]. Fish served whole (abundance) is expected everywhere; in the
+  Cantonese register a **whole roast suckling pig** (red-brown crackling
+  skin, served in a row of tiles on a long platter) opens the banquet
+  [MEDIUM — SCMP; diaspora banquet sources agree]. Also lobster or
+  prawns, a whole chicken, braised abalone or sea cucumber, a sweet soup
+  and a fruit platter (see catalog: Qingzheng yu; Siu mei fan for the
+  roast-meat register). **Halal (Hui/Uyghur) weddings carry no pork.**
+- Snapshot staging: **1 setting**: a banquet setting (side plate, rice
+  bowl, chopsticks in a blurred sleeve, spoon on a rest, folded napkin),
+  one glass with the hero, the turntable edge in front crowded with two
+  cold dishes and the whole-fish plate. **2 settings**: two settings at
+  one curve of the table, the suckling-pig platter (Cantonese brief) or
+  the fish between them, several cold dishes overlapping. **Small group**:
+  3–4 settings in an arc, the turntable full and cropped, the next round
+  table soft behind with its red chair covers. Crowd cues: a small red
+  box or bag of wedding candy (喜糖) at each seat; the next table behind;
+  red-and-gold stage lighting blurred.
+- Decor and cues: red table runners, red or gold chair covers, floral
+  centrepieces, a stage glow far behind. Clichés: dragon-and-phoenix
+  costumes on every guest.
+- Never stage: the toasting round (敬酒) or any baijiu, wine or beer on
+  the table; the **wedding cigarettes (喜烟)** that sit on many real
+  banquet tables; legible 囍; the bride and groom identifiable;
+  the tea ceremony.
+- Confidence and sources: [MEDIUM] (Chinese wedding-planning sites, tier
+  3, and SCMP); [EDITORIAL] staging.
+
+#### Celebration: Elder's longevity birthday banquet (寿宴)
+
+- Type: life event
+- When: milestone birthdays of parents and grandparents (60, 70, 80, by
+  custom often counted in the Chinese way) [LOW for milestone ages — not
+  verified this pass]; lunch or dinner (**midday** or **evening**).
+- Gathering: children and grandchildren host relatives, 10–40, in a
+  restaurant private room or banquet hall (*restaurant*), or at home for
+  a smaller family meal [MEDIUM — contextualchinese.com and
+  lunarbirthdayfinder via search, tier 4; scale EDITORIAL].
+- The spread: a banquet table (see the wedding entry for the form) with
+  two signature items: **longevity noodles (长寿面)**, long uncut noodles
+  in a bowl, and **longevity peach buns (寿桃包)**, white steamed buns
+  with a blushed pink tip and a leaf-green dough leaf, piled in a stack
+  or pyramid, about the can's width each [MEDIUM — Wikipedia "Longevity
+  peach", CBC Kids, Huang Kitchen; the noodle custom is widely reported].
+  A Western cream cake now often joins them.
+- Snapshot staging: **1 setting**: a small bowl of longevity noodles at
+  the setting, the hero beside it, a plate of peach buns and a whole
+  fish cropped on the turntable. **2 settings**: two settings, the
+  pyramid of peach buns between them as the visual centre, cold dishes
+  around. **Small group**: an arc of the round table with the buns, a
+  cream cake, a whole fish and other dishes running out of frame.
+  Crowd cues: a large red backdrop with a gold character (寿) blurred
+  beyond reading; extra chairs; grandchildren blurred.
+- Decor and cues: red tablecloth, gold accents. Clichés: a "crane and
+  pine" painting in every frame.
+- Never stage: alcohol toasts to the elder; legible 寿 or banners.
+- Confidence and sources: [MEDIUM] for peach buns and noodles; [LOW]
+  milestone ages; [EDITORIAL] staging.
+
+#### Celebration: Baby's full-month banquet (满月酒)
+
+- Type: life event
+- When: about one month after birth; lunch or dinner (**midday** or
+  **evening**).
+- Gathering: relatives and friends at a restaurant banquet, often a few
+  tables (*restaurant*); smaller families celebrate at home [MEDIUM —
+  Wikipedia "Chinese red eggs", contextualchinese.com, Nspirement; most
+  detailed sources are from Singapore and diaspora communities, so the
+  mainland form is less certain].
+- The spread: a banquet table as above, with **red-dyed hard-boiled
+  eggs** (bright red shell) and, in southern and diaspora custom,
+  **pickled pink ginger**, on plates at each table [MEDIUM for red eggs,
+  Wikipedia; LOW for ginger as mainland custom]. Odd numbers of eggs for
+  a boy, even for a girl, are reported in some sources [LOW].
+- Snapshot staging: **1 setting**: a banquet setting with a small dish
+  holding two red eggs beside the rice bowl; turntable dishes cropped.
+  **2 settings**: two settings, a platter of red eggs between them with a
+  whole fish and a cold-dish platter. **Small group**: an arc of the
+  table with the red-egg platter as the colour accent. Crowd cues: red
+  balloons, a second table behind, a pram soft in the far background.
+- Never stage: the baby as the subject; red envelopes in hand; alcohol
+  (the name 满月酒 means "full-month wine", so negate it by name).
+- Confidence and sources: [MEDIUM] red eggs; [LOW] mainland ginger custom
+  and egg counts; [EDITORIAL] staging.
+
+#### Celebration: Birthday dinner with cake and noodles (生日)
+
+- Type: life event
+- When: evening (**evening**), at home or a restaurant.
+- Gathering: the family (3–6) for a child or adult, or friends (4–8) at
+  a hot pot or restaurant table for young adults [EDITORIAL].
+- The spread: a **bowl of longevity noodles** (often with a fried or
+  poached egg on top) for the birthday person, the family's favourite
+  dishes, and a **cream birthday cake** with fresh fruit from a bakery
+  [MEDIUM for noodles — sources in the elder's entry; cake EDITORIAL,
+  uncontested]. Young adults often celebrate over hot pot (see catalog:
+  Chongqing hot pot).
+- Snapshot staging: **1 setting**: a rice bowl and the noodle bowl, the
+  hero, the cake at the frame edge with one slice cut. **2 settings**: two
+  settings, the cake centred between them, two shared dishes behind.
+  **Small group**: a hot pot table with the split pot, raw-ingredient
+  plates crowding the edges and a cake box set aside. Crowd cues: a
+  paper crown (no text), a cake box with the ribbon untied, extra plates.
+- Never stage: legible text on the cake or candles spelling a name; beer
+  at the hot pot table.
+- Confidence and sources: [MEDIUM] noodles; [EDITORIAL] rest.
+
+#### Celebration: Weekend family dinner at the grandparents' (周末回家吃饭)
+
+- Type: community or family gathering
+- When: Saturday or Sunday, lunch or early dinner (**midday** or
+  **evening**).
+- Gathering: adult children and grandchildren return to the parents'
+  flat, 5–8 people; *home indoor* [EDITORIAL; widely described, not
+  sourced this pass].
+- The spread: the national home table at its fullest: 4–6 dishes and a
+  soup (see catalog: The home table: rice bowl + 三菜一汤; Xihongshi chao
+  jidan; Hongshao rou; Kele jichi; Qingzheng yu), a rice bowl each, or
+  jiaozi made together in the north (see catalog: Jiaozi).
+- Snapshot staging: **1 setting**: rice bowl, chopsticks, hero, two
+  shared dishes overlapping in front. **2 settings**: two settings, three
+  dishes and a soup between them. **Small group**: the table edge with
+  4–6 dishes. Crowd cues: a grandparent blurred at the far end, a
+  child's plastic bowl at the edge, a tray of uncooked jiaozi on a
+  floured board on the side table (north).
+- Never stage: tea; a teapot on the table; baijiu.
+- Confidence and sources: [EDITORIAL], built on the existing scenarios.
+
 ---
 
 ## ZONE CALLOUTS (environment + dish pointers)
@@ -2289,6 +2557,15 @@ sleek can:**
 - **Hong Kong, Macau and Taiwan** are out of scope — separate files
   needed if they become markets.
 
+- **Celebrations pass (2026-10-01) open items**: total guest counts for
+  weddings, full-month and longevity banquets were not sourced (only the
+  ten-per-table form); the full-month red-egg and ginger custom rests
+  mostly on Singapore and diaspora sources; milestone birthday ages,
+  wedding-season dates, village courtyard banquets (流水席) and the
+  weekend grandparents' dinner were not verified; the Meituan booking
+  figure is a commercial source. Banquet-table layouts need image tests
+  (turntable crowding, glass-count intrusion).
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with eight zones vs. a national
@@ -2309,6 +2586,13 @@ sleek can:**
    xiaolongbao vs. baozi vs. har gow (confusion trio), Lanzhou noodles
    (ramen failure — a halal risk), and hot pot (beer intrusion).
 5. Independent §8 audit.
+
+6. Celebrations pass: catalog entries for **roast suckling pig (烤乳猪,
+   Cantonese banquet; glossy red-brown crackling in tiles on a long
+   platter)**, **longevity peach buns (寿桃包; white buns with a pink tip,
+   about can-width, stacked)**, **longevity noodles (长寿面)**, **hairy
+   crab (大闸蟹, zone 2, Mid-Autumn)**, **osmanthus / salted duck (桂花鸭,
+   Nanjing)**, **niangao (年糕, southern New Year)** and **red eggs (红蛋)**.
 
 ## RESEARCH LOG
 
@@ -2346,3 +2630,4 @@ sleek can:**
   travel-guide sites (ChinaHighlights, China Xian Tour) used for meal
   times, tagged MEDIUM.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding banquet form, English and Chinese; longevity birthday buns and noodles; full-month red eggs; 年夜饭 at home vs restaurant 2025 survey; Mid-Autumn reunion dinner dishes). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year's Eve dinner, Mid-Autumn dinner, wedding banquet, elder's longevity banquet, full-month banquet, birthday dinner, weekend family dinner). Sources: China Youth Daily survey via Sina, CCTV, Xinhua, ihchina.cn, SCMP, Chinese wedding-planning sites (tier 3), Wikipedia; diaspora sources flagged.

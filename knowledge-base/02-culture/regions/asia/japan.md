@@ -824,6 +824,270 @@ of drafting on 2026-09-29, unless marked) and 2027.
 | **Christmas** | 24 December evening (a couples' and young-family occasion, not a religious or public holiday) | **Strawberry shortcake** (white sponge, whipped cream, whole strawberries), a Japan-specific convention said to evoke Santa's red and snow's white; **fried chicken**, a custom widely credited to a fast-food chain's campaign from 1974 [HIGH: Weathernews, Yahoo! News expert article, iElove column (via search)] | Home table with a round shortcake, a bucket-free plate of fried chicken drumsticks, a small tree. **Never show any chain's bucket, box or branding**, and never imply a partnership. |
 | **Ōmisoka (New Year's Eve)** | 31 December | Toshikoshi soba | See Soba entry |
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7: the frame shows the operator's party
+(1, 2 or a small group of identical place settings) at one stretch of a
+bigger event, and the crowd is implied. Every Japan hard rule applies:
+no alcohol (Lemon-Dou included, and no kanpai toast), no izakaya
+register, no water glass, yunomi or barley-tea jug, chopsticks on a
+rest and never upright, and nothing on or beside a butsudan, kamidana or
+Obon altar.
+
+### How large gatherings work here
+
+- **Who and how many.** Japanese celebrations are mostly **small and
+  family-centred**; the large crowd is the exception (weddings, hanami,
+  summer matsuri). New Year osechi is overwhelmingly eaten with the
+  household: consumer surveys put osechi eaten "with family" at roughly
+  nine in ten (88.2% in one 2025 survey), and one 2024 survey found only
+  14.8% eat it with relatives [MEDIUM — commercepick and PR Times survey
+  releases via search, commercial sources]. Obon is the main time relatives
+  gather at the family home; one widely shared 2023 news story described
+  a mother cooking for **16 relatives** [LOW as a norm — one Yahoo!
+  News/Netorabo anecdote]. Weddings average **52.0 invited guests**
+  (Zexy Marriage Trend Survey 2024, up 2.9 on the year) [MEDIUM —
+  Recruit Bridal Research Institute report via search].
+- **Where (intake venues).** *Home indoor*: New Year, Obon, Hinamatsuri,
+  birthdays, Christmas Eve, at the dining table or a low table in the
+  tatami room with zabuton cushions. *Restaurant*: a private room (個室)
+  at a Japanese restaurant, hotel or family restaurant for Shichi-Go-San
+  and other family milestones [MEDIUM — Studio Mario, HANKYU FOOD,
+  Kosodate Hack via search]. *Other*: a wedding venue or hotel banquet
+  room; a park under cherry trees for hanami (a blue tarp, see the
+  festivals register for park rules).
+- **Table form and serving style.** At home the everyday rule of
+  individual bowls holds, with **large shared platters** added in the
+  centre: a **sushi-oke** (round lacquered tub of delivered nigiri),
+  an **ōdoburu** party platter, a tempura platter, a chirashi-zushi tub.
+  Large Obon or New Year gatherings push two low tables together in the
+  washitsu. Weddings use **round tables of 6–8 with plated courses**
+  served by staff (usually French or Franco-Japanese) [EDITORIAL on the
+  table size; course format MEDIUM, uncontested].
+- **Plates and cutlery that differ from everyday.** Celebration tables
+  bring out lacquerware (jūbako, red-and-black lacquer trays, nuri-bashi
+  lacquered chopsticks), **iwai-bashi** (round, tapered at both ends,
+  in a paper sleeve, for New Year) and small plates (torizara) for the
+  shared platters. Weddings: Western cutlery laid outside-in, with
+  chopsticks often added. Hanami: paper plates, disposable chopsticks.
+- **Snapshot-staging default for Japan [EDITORIAL].** The most authentic
+  crowd cues: (1) **a shared centrepiece too big for the visible diners**
+  (a sushi-oke for five, an open three-tier jūbako, a tempura platter)
+  partly cropped; (2) **the low table extending out of frame** in a
+  tatami room with extra zabuton cushions at the edge; (3) **seasonal
+  decor** in soft focus (a kagami-mochi on a shelf at New Year, hina
+  dolls on their tiers in March, cherry branches overhead at hanami).
+  Blurred relatives at the far end (no more than about 2.5 faces) are a
+  fourth cue. Keep it calm and tidy: Japanese celebrations are not
+  boisterous party scenes.
+
+#### Celebration: New Year family meal (正月, osechi)
+
+- Type: calendar holiday
+- When: 1–3 January. Osechi is eaten across the holiday; stage the
+  **midday** meal (1 or 2 January, when relatives visit), not the
+  morning ozōni.
+- Gathering: the household plus grandparents, 3–8, at the parents' home;
+  *home indoor*, often at a low table in the tatami room [MEDIUM — about
+  nine in ten eat osechi with family per consumer surveys; headcount
+  EDITORIAL]. Most
+  households buy osechi ready-made or partly so (83.8% "buy" or "buy and
+  make" in a 2025 survey) [MEDIUM — commercepick survey via search,
+  commercial source].
+- The spread: see catalog: **Osechi (New Year) and ozōni** (tiered
+  jūbako, five colours, iwai-zakana). Around it: a plate of sashimi or a
+  sushi-oke, simmered nishime, red-and-white kamaboko, and a small bowl
+  of ozōni per person. 1 jūbako (2–3 tiers opened side by side) plus 2–4
+  other dishes.
+- Snapshot staging: **1 setting**: a lacquer tray with iwai-bashi in
+  their sleeve (text blurred) on a rest, a small plate with a few osechi
+  pieces (datemaki slice, kuromame, kamaboko), an ozōni bowl; the open
+  jūbako tiers cropped behind; hero beside the tray. **2 settings**: two
+  identical settings at one long side of a low table, the open tiers
+  between them, a sashimi plate at the edge. **Small group**: the low
+  table running out of frame, three tiers opened side by side, a
+  multi-serve bottle in the midground if the brief allows. Crowd cues:
+  extra zabuton cushions; a kagami-mochi on a shelf soft in the
+  background; winter light through shōji.
+- Decor and cues: pine-and-bamboo kadomatsu (outside only), nanten
+  berries, a small kagami-mochi on a shelf (not an altar). Clichés:
+  kimono on everyone, Mount Fuji through the window.
+- Never stage: toso or sake (the New Year spiced sake is a strong
+  prior), the kamidana, shrine visits; legible text on chopstick sleeves.
+- Confidence and sources: [HIGH] osechi form (catalog sources); [MEDIUM]
+  family share and purchase share; [EDITORIAL] staging.
+
+#### Celebration: Obon relatives' gathering (お盆)
+
+- Type: calendar holiday (ancestral, but the meal is a family reunion)
+- When: 13–16 August (July in parts of Tokyo; lunar in Okinawa); the
+  shared meal is **midday** or **evening**.
+- Gathering: relatives return to the family home, typically 6–16 [LOW —
+  one news anecdote of 16; EDITORIAL range]; *home indoor*, two low
+  tables pushed together in the tatami room, or the dining table plus a
+  side table.
+- The spread: big shared platters: a **sushi-oke** or hand-made
+  **temari-zushi** and **chirashi-zushi** (see catalog: Sushi), a
+  **vegetable tempura** platter (an Obon custom especially in Shinshū and
+  Tōhoku), **sōmen** on ice, an **ōdoburu** of karaage and side dishes
+  (see catalog: Karaage), watermelon after [MEDIUM — Delish Kitchen,
+  Ninben, Jackery Obon food guides via search, tier 3–4, consistent].
+  4–6 shared dishes.
+- Snapshot staging: **1 setting**: a small plate with two nigiri and a
+  piece of tempura, chopsticks on a rest, a dipping-sauce dish; the
+  sushi-oke rim and the tempura platter cropped behind. **2 settings**:
+  two settings, the sushi-oke between them, a glass bowl of sōmen on
+  ice at the edge. **Small group**: the joined low tables running out of
+  frame, platters crowding the centre. Crowd cues: extra torizara
+  stacked; a summer fan and an open shōji to a garden; children blurred
+  on the engawa.
+- Decor and cues: summer light, a wind chime, an electric fan. Clichés:
+  lantern-lit cemeteries, bon-odori in the room.
+- Never stage: the bon-dana altar, the cucumber horse and aubergine ox,
+  incense, butsudan; beer (the dominant prior at a relatives' table).
+- Confidence and sources: [MEDIUM] food; [LOW] headcount.
+
+#### Celebration: Hinamatsuri family dinner (ひな祭り)
+
+- Type: calendar holiday (Girls' Day, 3 March)
+- When: 3 March, **evening** family dinner.
+- Gathering: the household and grandparents, 3–6, at home; *home
+  indoor* [EDITORIAL].
+- The spread: **chirashi-zushi** (vinegared rice in a wide tub or
+  bowl, topped with pink shrimp, salmon roe, shredded egg ribbons, snow
+  peas or rapeseed flowers), **hamaguri clear soup** (one pair of clam
+  shells per bowl, for a good marriage), **hina-arare** (pink, white and
+  green puffed rice), **hishimochi** (three-colour diamond mochi) and
+  sakura-mochi; a strawberry cake is now common [HIGH — Benesse, Kyoto
+  Culinary Art College, MATCHA, HANKYU FOOD via search, consistent].
+  The chirashi tub plus 2–3 other dishes.
+- Snapshot staging: **1 setting**: a small bowl of chirashi served from
+  the tub, a lacquer bowl of clam soup with the open shells visible,
+  chopsticks on a rest; the chirashi tub cropped behind. **2 settings**:
+  two settings, the chirashi tub between them, a dish of hina-arare at
+  the edge. **Small group**: the dining table with the tub, a plate of
+  sakura-mochi and a cake running out of frame. Crowd cues: the hina
+  doll tiers soft and far in the background (never the product beside
+  them); peach blossom in a vase.
+- Never stage: amazake or shirozake beside the hero (shirozake is
+  alcoholic; amazake is a non-hero drink); the dolls as a backdrop for
+  the product.
+- Confidence and sources: [HIGH] food; [EDITORIAL] staging. Chirashi-zushi
+  has no catalog entry (see CANDIDATE QUEUE).
+
+#### Celebration: Hanami party (花見)
+
+- Type: community or family gathering
+- When: late March to early May depending on the region (see festivals
+  register); **midday** or **golden-hour**.
+- Gathering: friends, colleagues or families, 4–15 on blue tarps under
+  cherry trees in a public park; many neighbouring groups around; *other*
+  (park) [MEDIUM — park-rule sources in the festivals register; group
+  size EDITORIAL].
+- The spread: see catalog: **Hanami bento (pointer)** and **Bento**
+  (stacked jūbako), plus onigiri (see catalog: Onigiri), karaage,
+  konbini snacks decanted, and sanshoku dango (see catalog: Dango).
+- Snapshot staging: **1 setting**: one paper plate with an onigiri and two
+  karaage on the tarp, the open jūbako tiers cropped beside it, the hero
+  on the tarp; petals scattered. **2 settings**: two paper plates side by
+  side, the jūbako tiers between them, a dango stick on a plate. **Small
+  group**: a corner of the tarp with 3–4 plates and the tiers, the tarp
+  running out of frame. Crowd cues: another group's tarp soft in the
+  background; cherry branches overhead; shoes lined up at the tarp edge.
+- Never stage: beer or chūhai cans (the strongest prior of all, and
+  Lemon-Dou is a TCCC product); grills, folding tables and tents in a
+  Tokyo park; drunken crowds; legible konbini packaging.
+- Confidence and sources: [MEDIUM]; [EDITORIAL] staging.
+
+#### Celebration: Shichi-Go-San family meal (七五三)
+
+- Type: life event (children aged 3, 5 and 7, around 15 November)
+- When: after the shrine visit and studio photos, a **midday** lunch.
+- Gathering: parents, the child and grandparents, 4–8, in a restaurant
+  private room, a hotel, a family restaurant or at home [MEDIUM — Studio
+  Mario, HANKYU FOOD, Kosodate Hack via search: private rooms
+  recommended, casual restaurants and yakiniku also usual].
+- The spread: a celebration set (祝い膳) with **sekihan** (red-bean rice,
+  pinkish-red with dark beans), a **whole grilled sea bream** (tai, pink
+  skin, salt-grilled), sashimi, tempura, a children's plate, and
+  **chitose-ame** (long red-and-white candy sticks in a printed bag)
+  [MEDIUM — same sources; Studio Alice, Delish Kitchen]. At home, the
+  same with a sushi-oke and a cake.
+- Snapshot staging: **1 setting**: a lacquer tray set with a small bowl of
+  sekihan, sashimi, a tempura piece, a soup bowl; a whole sea bream on a
+  long plate cropped in the centre. **2 settings**: two trays, the sea
+  bream between them. **Small group**: the private-room table with trays
+  and a shared sea bream, extending out of frame. Crowd cues: the
+  child's chitose-ame bag leaning at the frame edge (text blurred or
+  bag turned away); a folded kimono sleeve on a blurred figure; a
+  photo-studio folder set aside.
+- Never stage: the shrine, the purification rite; the child as a
+  costume tableau; legible bag text; sake for the adults.
+- Confidence and sources: [MEDIUM] food and venue (photo-studio and
+  department-store columns, tier 3 with a commercial interest);
+  [EDITORIAL] staging.
+
+#### Celebration: Child's birthday at home (誕生日)
+
+- Type: life event
+- When: **evening** dinner at home, or a weekend afternoon.
+- Gathering: the household and grandparents, 3–6; friends' parties at
+  home are smaller than in the US [EDITORIAL].
+- The spread: in one ranking the top birthday dishes are **sushi**,
+  **hambāgu** and **curry** [LOW-MEDIUM — Chefkuru ranking via search,
+  tier 4]; also **karaage** (tulip-shaped drumettes), **temaki-zushi**
+  at the table, temari-zushi, and a **strawberry shortcake** (the top
+  cake) [MEDIUM — HugKum (Shogakukan), Kurashiru, Delish Kitchen; see
+  catalog: Hambāgu; Karaage; Sushi (temaki at home); Curry rice;
+  Christmas Eve table for the shortcake description].
+- Snapshot staging: **1 setting**: a plate with a small hambāgu, two
+  karaage and salad, the shortcake cropped at the edge. **2 settings**:
+  two plates, the cake with candles (unlit or lit, no text plate)
+  between them. **Small group**: a temaki spread with a rice tub, nori
+  stack and fillings plates running out of frame. Crowd cues: a paper
+  garland (no letters), a party hat, a wrapped present at the edge.
+- Never stage: a chocolate plaque with text; number or letter candles
+  (plain candles only).
+- Confidence and sources: [MEDIUM]; [EDITORIAL] staging.
+
+#### Celebration: Wedding reception (披露宴)
+
+- Type: life event
+- When: the reception follows the ceremony; **midday** or **evening**.
+- Gathering: an average of **52 invited guests** (2024) at a wedding
+  venue, hotel or restaurant; *other* or *restaurant* [MEDIUM — Zexy
+  Marriage Trend Survey 2024; the 2023 survey put food at about ¥16,000
+  per guest].
+- The spread: a **plated course**, typically Franco-Japanese: an
+  appetiser, a soup, a fish course, a beef main, a dessert (often with
+  the cut wedding cake), sometimes a sushi or sea-bream course
+  [EDITORIAL from common venue menus; not verified this pass]. No shared
+  platters; each course is one plate per guest.
+- Snapshot staging: **1 setting**: a white tablecloth, a charger with
+  the main course (seared beef, sauce swoosh, seasonal vegetables),
+  cutlery outside-in, a folded napkin, one glass with the hero; the next
+  setting's edge in frame. **2 settings**: two identical plated settings
+  side by side, a low floral centrepiece between them. **Small group**:
+  an arc of a round table for eight, 3–4 settings visible, the next
+  table soft behind. Crowd cues: the next round table and its flowers;
+  soft chandelier light; a gift bag (hikidemono) under a chair, no text.
+- Never stage: the kanpai toast, champagne, wine or beer glasses (a
+  wedding table carries several; stage one glass only); legible name
+  cards and seating charts; the couple identifiable; a chapel or shrine
+  ceremony.
+- Confidence and sources: [MEDIUM] guest count; [EDITORIAL] menu and
+  staging.
+
+**Christmas Eve at home (24 December, evening)** is staged from the
+catalog entry **Christmas Eve table (strawberry shortcake and fried
+chicken)**: plate one drumstick and a cake slice per visible setting, a
+small tree blurred behind as the crowd cue, and never a chain's bucket,
+box or branding, nor the children's sparkling cider ("kids' champagne",
+a non-TCCC drink and an alcohol look-alike). [HIGH per the catalog
+entry; EDITORIAL staging]
+
 ---
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
@@ -2555,6 +2819,14 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
 - **Pepsi/Suntory market share** in Japan not found.
 - **Regional bottler map** (beyond CCBJI) not researched.
 
+- **Celebrations pass (2026-10-01) open items**: the Obon relatives'
+  headcount rests on one news anecdote (16 people); New Year family and
+  purchase shares come from commercial consumer surveys; the wedding
+  reception menu (Franco-Japanese plated course) and round-table size
+  were not verified; the birthday-dish ranking is a tier-4 source;
+  Shichi-Go-San venue claims come from photo-studio and department-store
+  columns. Hina-doll and jūbako framing need image tests.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: Okinawa spinout; izakaya exclusion; Lemon-Dou
@@ -2571,6 +2843,14 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
    shōyu drift), onigiri (Korean rice-ball drift), takoyaki (meatball
    size), and the water/tea-glass intrusion in restaurant scenes.
 4. Independent §8 audit of this file.
+
+5. Celebrations pass: catalog entries for **chirashi-zushi**
+   (Hinamatsuri; wide tub of vinegared rice with pink shrimp, salmon
+   roe, egg ribbons, green snow peas), **sushi-oke delivery platter**
+   (round red-and-black lacquer tub of assorted nigiri, about three cans
+   wide for 3–4 people), **sekihan** (red-bean rice), **tai no shioyaki**
+   (whole salt-grilled sea bream for celebrations), **temari-zushi**, and
+   **vegetable tempura platter / sōmen on ice** (Obon).
 
 ## RESEARCH LOG
 
@@ -2609,3 +2889,4 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
   marked; MAFF, the Statistics Bureau, JMA and Coca-Cola Japan were
   preferred wherever they covered a claim.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries, all Japanese-language (Zexy 2024 wedding guest count; Obon relatives' food; Shichi-Go-San meal and venue; Hinamatsuri dishes; children's birthday menus; New Year osechi family and purchase surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year, Obon, Hinamatsuri, hanami, Shichi-Go-San, child's birthday, wedding reception) plus a Christmas Eve pointer to its catalog entry. Sources: Zexy/Recruit, Benesse, Kyoto Culinary Art College, MATCHA, HANKYU FOOD, HugKum, food-media and consumer-survey releases (commercial, flagged).
