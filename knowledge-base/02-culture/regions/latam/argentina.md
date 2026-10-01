@@ -1005,6 +1005,201 @@ size of the event. The hero SKU always comes from the brief (§5.4).
 - Never stage: the church rite, religious figures, rosaries on the table.
 - Confidence and sources: LOW — not verified this pass.
 
+## GAME NIGHT
+
+Built 2026-10-01 under `country-file-schema.md` §5.8 from the
+cross-market game-night research notes (no new searches for this file).
+Party size is the place settings in frame (§5.7 snapshot rule); the hero
+SKU comes from the brief (§5.4). Screens, cards and boards are never
+legible; no crests, kits, sponsor or league marks; no gambling as the
+subject; no identifiable children; never a full flag. **Fernet con Coca
+is the single biggest risk in this section**: football with friends is
+exactly the scene where an image model adds a foam-topped dark drink or a
+cut-down plastic bottle (see ICONIC BEVERAGES). Negate it, with wine,
+beer, mate and the soda siphon, in every prompt (file-wide rules 3–4).
+
+### Watch parties
+
+Football is the viewing occasion: the Selección above all, then the
+Superclásico (Boca–River) and the league. The meal sits at home: 66% of
+Argentines planned to watch the 2026 World Cup with family and 32% with
+friends, and picada and asado purchases spike on match days [MEDIUM —
+canal26, El Comodorense, La Capital]. Signature foods: the **picada**
+board, **sándwiches de miga**, the patio **asado**, and **choripán** off
+the carrito outside the cancha.
+
+#### Watch party: Selección match at home (picada and sandwichitos)
+- When: Selección matches in World Cup and Copa América summers and in
+  qualifier windows. Intake time follows kick-off: **golden-hour** for
+  afternoon matches, **evening** for night ones; a match during the
+  working day is a **midday** scene. [LOW — not verified; no Argentine
+  kick-off schedule was checked this pass]
+- Gathering: family (the majority) or 4–8 friends in the living room;
+  **home indoor**. [MEDIUM — canal26: 66% family, 32% friends for WC 2026]
+- The spread: a **picada** on a wooden board — sliced salame, cubes of
+  cheese, olives, peanuts (maní), sometimes ham and bread sticks — no
+  catalog entry yet (see CANDIDATE QUEUE); **sándwiches de miga** stacked
+  on a tray (see catalog: Sándwiches de miga); **empanadas** in a basket
+  or on their delivery-box paper (see catalog: Empanadas); for a night
+  match, pizza from the pizzería (see catalog: Pizza porteña). [MEDIUM —
+  canal26 and La Capital (Rosario) name picada, sandwichitos and asado
+  as the match-day foods; the picada components are from canal26]
+  - **Picada** (no catalog entry): a rectangular wooden board about four
+    to five cans long, covered edge to edge with small heaps: thin
+    salame slices fanned, pale cheese cubes about a third of the can's
+    width, green and black olives in a small bowl, peanuts in another;
+    toothpicks, no garnish leaves.
+- Surface and environment: a low coffee table in front of the sofa in a
+  flat or brick house (see ENVIRONMENT & STAGING SCENES); the TV as a
+  soft green glow with no score bug; a light-blue-and-white scarf with
+  no crest over a sofa arm, soft. It reads as Argentina through the
+  wooden picada board and the miga tray. Avoid the "football shrine"
+  cliché (shirts and flags on every wall; see caricature list).
+- Snapshot staging:
+  - **1 setting**: one small plate with two triangles of miga and a few
+    picada pieces; the picada board cropped at the edge of the coffee
+    table; the hero on the table; TV glow behind.
+  - **2 settings**: two identical small plates side by side facing the
+    screen; the picada board between them, the miga tray half out of
+    frame.
+  - **Small group (3–4)**: identical plates along the coffee table; board,
+    tray and empanada basket repeating out of frame; the sofa running
+    out of frame.
+  - **Crowd cues**: a second board soft at the edge; extra chairs pulled
+    up; blurred backs of heads toward the screen.
+- Never stage: fernet con Coca or any foam-topped dark drink, beer,
+  wine, mate, the soda siphon; AFA crest or the national team shirt
+  with legible marks; a full flag; betting apps or prode (prediction)
+  sheets; pre-match cábala (superstition) objects with religious
+  imagery.
+- Confidence and sources: [canal26 — la historia de la picada](https://www.canal26.com/historia/2026/07/07/la-historia-detras-de-la-picada-argentina-como-nacio-una-costumbre-que-no-falta-en-reuniones-asados-y-partidos-de-la-seleccion/);
+  [El Comodorense — cuánto cuesta juntarse a ver un partido](https://www.elcomodorense.net/de-la-picada-al-asado-cuanto-cuesta-juntarse-a-comer-para-ver-un-partido-de-argentina-en-el-mundial-2026);
+  [La Capital — picada, sandwichitos y asado](https://www.lacapital.com.ar/la-ciudad/picada-sandwichitos-y-asado-los-elegidos-los-rosarinos-ver-el-mundial-n10268320.html).
+  Foods MEDIUM; times LOW; staging EDITORIAL.
+
+#### Watch party: asado before the match (Superclásico, league, Selección)
+- When: weekend afternoons; the asado is eaten before or around the
+  match. Intake time: **golden-hour**, or **midday** for an early match.
+  [MEDIUM that asado is a match-day choice — canal26, La Capital;
+  timing LOW]
+- Gathering: friends or family, about 6–12; **home outdoor** (patio,
+  quincho, the building's parrilla), with the TV carried out or visible
+  through a window. [EDITORIAL]
+- The spread: tira de asado, chorizo, chimichurri, ensalada; choripán
+  first (see catalog: Asado — the home parrillada; Choripán; Provoleta;
+  CROSS-CUTTING REGISTER: ASADO & PARRILLA for the order; Celebration:
+  Weekend family or friends' asado for the full table).
+- Surface and environment: the patio table or quincho table; the
+  parrilla smoking softly behind; a TV on a stand under the quincho roof
+  or glowing through a window, unreadable.
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of tira and a choripán, the
+    carving board and chimichurri bowl cropped; the TV glow soft at the
+    back of the quincho.
+  - **2 settings**: two identical plates facing each other; the board of
+    carved meat between them.
+  - **Small group**: identical plates along one side of the table, all
+    angled toward the screen; boards and bread repeating out of frame.
+  - **Crowd cues**: the parrilla with meat still on it; extra chairs; a
+    blurred figure at the grill.
+- Never stage: fernet, beer, wine, mate; club shirts or crests; a gas
+  grill with flames; flares or fan-violence references.
+- Confidence and sources: as above (canal26, La Capital); asado detail
+  per the catalog entry; staging EDITORIAL.
+
+#### Watch party: outside the cancha (choripán off the carrito)
+- When: before league matches, weekend afternoons and evenings. Intake
+  time: **golden-hour** or **evening**. [LOW — not verified]
+- Gathering: 1–3 friends standing at a carrito outside the stadium;
+  **other: street / stadium surroundings**.
+- The spread: **choripán** and **bondiola** sandwiches off the flat grill,
+  jars of chimichurri and salsa criolla on the counter (see catalog:
+  Choripán; Bondiola sandwich; and the Street / costanera / cancha row in
+  QUICK-REFERENCE: GENERIC SCENE REGISTERS).
+- Surface and environment: the carrito's steel counter or a ledge; the
+  stadium as a soft, unreadable mass behind; floodlights at dusk.
+- Snapshot staging:
+  - **1 setting**: one choripán on paper resting on the counter beside
+    the hero, the grill smoking soft behind.
+  - **2 settings**: two choripanes side by side on the counter.
+  - **Small group**: three on the counter; blurred figures queueing.
+  - **Crowd cues**: blurred crowd toward the stadium, floodlight glow.
+- Never stage: club colours with crests, banners with words, police
+  lines, flares, beer.
+- Confidence and sources: LOW for the scene (research notes); choripán
+  at the cancha is already in this file's register row and catalog entry
+  [see their tags].
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high** — truco is
+the most beloved card game and is played at family asados, at the
+merienda and in cafés [MEDIUM — Wikipedia, Board Game Studies 2025
+paper]; generala (dice) and chinchón (rummy-type cards) are also common
+[LOW — not verified].
+
+#### Game night: truco after the Sunday asado
+- When: the sobremesa of the weekend asado, from about 15:00. Intake
+  time: **midday** into **golden-hour**. [MEDIUM — research notes,
+  Wikipedia, Board Game Studies paper]
+- Gathering: four players in pairs (2v2) with onlookers, family or
+  friends; **home outdoor** (patio, quincho, under a parral). [MEDIUM for
+  the 2v2 form]
+- The spread: the asado aftermath: a board with the last chorizo and a
+  few pieces of meat, a bread basket, a picada board (see catalog: Asado
+  — the home parrillada; Choripán); later something sweet. [LOW — not
+  verified; no source tied a menu to truco]
+- Surface and environment: a wooden table under the parral or quincho
+  roof, a Spanish-suit deck (generic swords, cups, coins, clubs art,
+  unreadable), plates pushed aside; dappled afternoon light, the
+  parrilla cooling behind.
+- Snapshot staging:
+  - **1 setting**: one plate with leftover asado and bread at the table
+    edge, the hero, a few cards face down beside it.
+  - **2 settings**: two plates at opposite sides, cards face down in the
+    middle, the board between.
+  - **Small group**: four places around the table, cards held as soft
+    shapes out of focus or face down; board and bread basket in the
+    middle.
+  - **Crowd cues**: an onlooker's chair pulled up, blurred; the parrilla
+    behind; more chairs.
+- Never stage: mate (the real sobremesa drink, rule 4), wine, fernet;
+  money, coins or beans as stakes (porotos as score counters are a
+  known custom but read as stakes — leave them out [LOW — not
+  verified]); branded decks.
+- Confidence and sources: [Wikipedia — Truco](https://en.wikipedia.org/wiki/Truco);
+  [Board Game Studies 2025 — Face to Face with Argentinian Truco](https://www.researchgate.net/publication/398622311_Face_to_Face_with_Argentinian_Truco_Origins_and_Evolution);
+  menu LOW; staging EDITORIAL.
+
+#### Game night: merienda or café truco
+- When: merienda, ~16:00–18:00 (**golden-hour**) at home; evenings in a
+  neighbourhood café or club (**evening**). [MEDIUM for café play —
+  Wikipedia, Board Game Studies; the merienda slot per CROSS-CUTTING
+  REGISTER: MERIENDA]
+- Gathering: four players, family at home or regulars in a café or
+  club; **home indoor** or **restaurant** (café-bar) / **other** (club).
+- The spread: home: facturas and medialunas on a plate (see catalog:
+  Medialunas and facturas), alfajores (see catalog: Alfajores). Café:
+  tostados and medialunas (see catalog: Tostado and café-bar plate).
+  [LOW — not verified for food with truco]
+- Surface and environment: home: the kitchen or dining table with an
+  oilcloth. Café: a marble-top table, bentwood chairs, warm evening
+  light (see Scenario: Away from home — 1 person at a
+  restaurant/café).
+- Snapshot staging:
+  - **1 setting**: one plate of facturas or a tostado, the hero, cards
+    face down at the side.
+  - **2 settings**: two plates on a café table, cards between.
+  - **Small group**: four places at a square table; the factura plate
+    in the middle.
+  - **Crowd cues**: another table of players soft behind; a coat on a
+    chair.
+- Never stage: mate (the authentic merienda drink — out of frame),
+  coffee cups beside the hero unless the brief allows them; money;
+  legible café signage.
+- Confidence and sources: as the entry above; merienda foods HIGH per
+  CROSS-CUTTING REGISTER: MERIENDA.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2451,6 +2646,12 @@ brief names the SKU):**
   (LOW). The asado group-size survey (Infobae 2022) does not name its
   sample in the snippet. The children-in-frame rule needs checking
   against TCCC's marketing-to-children policy.
+- **Game-night pass (2026-10-01) open items.** Sourced: home viewing
+  with family or friends and picada, sandwichitos and asado as match-day
+  foods (MEDIUM — canal26, El Comodorense, La Capital); truco at asados
+  and cafés (MEDIUM). Unverified [LOW]: kick-off times and intake
+  mapping, the carrito-outside-the-cancha scene, any menu tied to truco,
+  generala and chinchón, and porotos (beans) as truco score counters.
 
 ## CANDIDATE QUEUE
 
@@ -2474,6 +2675,9 @@ brief names the SKU):**
    CELEBRATIONS & LARGE GATHERINGS: torta de cumpleaños (bizcochuelo
    with dulce de leche); panchos and the fin-de-fiesta plate; mesa dulce
    (lemon pie, mousse); pionono.
+8. Dish entry for the **picada** (wooden board of salame, cheese,
+   olives and peanuts) — the signature match-day food, described only
+   briefly in GAME NIGHT.
 
 ## RESEARCH LOG
 
@@ -2512,3 +2716,9 @@ brief names the SKU):**
   and menus (two searches; no survey average found), the children's
   birthday table, and asado frequency and group size (Infobae 2022 and
   2024 surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three
+  watch-party entries (Selección at home with picada, asado before the
+  match, choripán outside the cancha) and two truco entries (after the
+  asado; merienda or café).

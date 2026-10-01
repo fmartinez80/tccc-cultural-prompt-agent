@@ -987,6 +987,193 @@ size of the event. The hero SKU always comes from the brief (§5.4).
   table.
 - Confidence and sources: LOW — not verified this pass.
 
+## GAME NIGHT
+
+Built 2026-10-01 under `country-file-schema.md` §5.8 from the
+cross-market game-night research notes (no new searches for this file).
+Party size is the place settings in frame (§5.7 snapshot rule); the hero
+SKU comes from the brief (§5.4). Screens, cards and boards are never
+legible; no crests, kits, sponsor or league marks (file-wide rule 1
+already covers football shirts and posters); no gambling as the subject;
+no identifiable children; never a full flag. Beer in insulated sleeves,
+caipirinha and the Samba em Berlim are the default priors at every
+Brazilian viewing table; negate them, and name Fanta Guaraná or Kuat
+rather than a generic "guaraná" (ICONIC BEVERAGES).
+
+### Watch parties
+
+Football is the national viewing occasion: Seleção matches stop work
+and fill homes and botecos, and the Brasileirão clássicos (Fla-Flu,
+Corinthians–Palmeiras and others) are weekly fixtures; Formula 1 at
+Interlagos is a smaller following. Viewing is mostly at home or on the
+laje, quintal or terrace around a churrasco or bowls of petiscos. The
+boteco is the classic public venue but is beer-led: stage it only in a
+food-led, alcohol-free form (porções on the table, beer explicitly
+excluded) or not at all. Signature foods: churrasco skewers on a board,
+coxinha, pastel, pão de queijo, mandioca frita and frango à passarinho.
+
+#### Watch party: Seleção match at home (petiscos in the living room)
+- When: World Cup and Copa América summers and qualifier windows. At the
+  2026 World Cup, Brazil's group games kicked off at 19:00 and 21:30
+  Brasília time, so the intake time is **evening** (a 21:30 kick-off is a
+  night scene: lamp and screen glow, dark windows). [HIGH — CNN Brasil,
+  Lance]
+- Gathering: family or 4–8 friends; **home indoor** (living room of a
+  house or apartment). [EDITORIAL]
+- The spread: **petiscos** in small bowls and plates: coxinhas and other
+  salgados (see catalog: Coxinha and the salgados counter), mini pastéis
+  (see catalog: Pastel de feira), pão de queijo (see catalog: Pão de
+  queijo), **mandioca frita** (fried cassava batons) and **frango à
+  passarinho** (small garlicky fried chicken pieces) — neither has a
+  catalog entry (see CANDIDATE QUEUE). [LOW — not verified; the notes
+  list the petisco spread as model knowledge]
+- Surface and environment: a low coffee table (mesa de centro) between
+  sofa and TV; tiled floor, pale walls, a ceiling fan (see ENVIRONMENT &
+  STAGING SCENES, interior markers); the TV a soft green glow with no
+  score bug; green-and-yellow paper bunting or a plain yellow cushion,
+  no crest, soft.
+- Snapshot staging:
+  - **1 setting**: a small plate with two coxinhas and a few cassava
+    batons; a bowl of pão de queijo cropped at the table edge; the hero;
+    TV glow behind.
+  - **2 settings**: two identical small plates side by side facing the
+    screen; bowls of petiscos between them.
+  - **Small group (3–4)**: identical plates along the coffee table;
+    bowls repeating out of frame; the sofa running out of frame.
+  - **Crowd cues**: more bowls than the visible diners need; extra
+    plastic chairs; blurred backs of heads toward the screen.
+- Never stage: beer bottles or cans in sleeves, caipirinha, a cooler;
+  CBF crest or the yellow shirt with marks; a full flag; betting apps
+  or bolão (pool) sheets; vuvuzelas or face paint on identifiable
+  people.
+- Confidence and sources: kick-off times HIGH ([CNN Brasil — jogos do
+  Brasil na Copa](https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jogos-do-brasil-na-copa-veja-datas-horarios-e-onde-assistir-ao-vivo/);
+  [Lance — horários da Copa 2026](https://www.lance.com.br/lancepedia/horarios-da-copa-do-mundo-2026-no-brasil.html));
+  food LOW; staging EDITORIAL.
+
+#### Watch party: churrasco on the laje or quintal (weekend match)
+- When: weekend Seleção matches or clássicos in the afternoon. Intake
+  time: **golden-hour** (or **midday** for an early kick-off). [LOW —
+  not verified]
+- Gathering: family, friends and neighbours, about 8–20; **home outdoor**
+  (laje — the flat concrete roof slab — quintal, covered terrace,
+  condominium grill area), with a TV carried out or set on a shelf.
+  [LOW — not verified; the notes name the laje churrasco as model
+  knowledge]
+- The spread: skewers and a board of sliced picanha and linguiça, farofa,
+  vinagrete, pão de alho (see catalog: Churrasco em casa — the home
+  barbecue; and Celebration: Sunday churrasco for the full table).
+- Surface and environment: a long table with a plastic cloth; the
+  churrasqueira or a portable grill; green-and-yellow paper bunting
+  overhead (no crest, no flag); water tank and neighbouring roofs on a
+  laje; the TV as a soft glow under an awning.
+- Snapshot staging:
+  - **1 setting**: one plate with sliced picanha, farofa and vinagrete;
+    the board and farofa bowl cropped; the TV glow soft behind.
+  - **2 settings**: two identical plates facing each other; the board of
+    meat between them.
+  - **Small group**: identical plates along one side, angled toward the
+    screen; bowls repeating out of frame.
+  - **Crowd cues**: bunting running out of frame; plastic chairs; a
+    blurred figure at the grill.
+- Never stage: beer (the strongest prior here), caipirinha, a cooler of
+  beer; shirts or banners with crests; fireworks or flares.
+- Confidence and sources: LOW for the scene (research notes); churrasco
+  detail per the catalog entry; staging EDITORIAL.
+
+#### Watch party: weekday Seleção match at work
+- When: a weekday daytime match; at the 2026 World Cup a Monday 14:00
+  round-of-32 game fell in working hours and offices and botecos stopped
+  to watch. Intake time: **midday**. [HIGH for the schedule — CNN Brasil,
+  Lance]
+- Gathering: 2–8 colleagues; **other: office** (meeting room or pantry).
+  [EDITORIAL]
+- The spread: **salgadinhos** on a tray or in a party box — mini
+  coxinhas, kibes, risoles (see catalog: Coxinha and the salgados
+  counter), pão de queijo (see catalog: Pão de queijo); paper napkins,
+  small disposable plates. [LOW — not verified]
+- Surface and environment: a meeting-room table, a wall screen as soft
+  glow, office chairs turned toward it, daylight through blinds.
+- Snapshot staging:
+  - **1 setting**: one small plate of salgados at the table edge, the
+    hero, the tray cropped.
+  - **2 settings**: two plates side by side, the tray between.
+  - **Small group**: identical plates along the table; a second tray at
+    the edge.
+  - **Crowd cues**: empty chairs turned to the screen; blurred
+    colleagues standing at the back.
+- Never stage: company logos, laptops with readable screens, beer.
+- Confidence and sources: schedule HIGH (CNN Brasil, Lance); office
+  scene and food LOW; staging EDITORIAL.
+
+Formula 1 (Interlagos, November) is a medium following [LOW — not
+verified]; stage it with the home template above, with no team liveries,
+car numbers or sponsor marks.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high** —
+buraco, truco, tranca and dominoes are played at weekend churrascos and
+family gatherings, strongest among older generations; 10 July is Truco
+Day [MEDIUM — Megajogos, Jogos do Rei, Clube Paineiras]. Games are a
+regular part of family gatherings rather than a set "night". Home
+console nights are reported but not verified [LOW]; no entry.
+
+#### Game night: cards at the churrasco or the family table (buraco, truco, tranca)
+- When: weekend afternoons, at the churrasco or after Sunday lunch.
+  Intake time: **midday** into **golden-hour**. [MEDIUM — Megajogos,
+  Jogos do Rei, Clube Paineiras]
+- Gathering: four players in pairs (buraco and truco are 2v2) with
+  onlookers, often grandparents and adult relatives; **home outdoor**
+  (terrace beside the churrasqueira) or **home indoor** (dining table).
+  [MEDIUM]
+- The spread: at the churrasco: skewers on a cutting board, pão de alho,
+  farofa, pastel (see catalog: Churrasco em casa; Pastel de feira). At
+  the indoor family table: pão de queijo and a plain cake (bolo) for the
+  café da tarde (see catalog: Pão de queijo). Food on a side table or the
+  table end so the cards have space. [LOW — not verified]
+- Surface and environment: a side table or folding table on the covered
+  terrace, or the dining table with a cotton cloth; generic French-suit
+  cards face down or soft, a buraco rack or tray; ceiling fan, afternoon
+  light.
+- Snapshot staging:
+  - **1 setting**: a plate of churrasco or pão de queijo at the table
+    corner, the hero, a few cards face down.
+  - **2 settings**: two plates at opposite sides, cards between.
+  - **Small group**: four places around a square table, cards out of
+    focus; the board or the cake on a side table.
+  - **Crowd cues**: an onlooker's chair, blurred; the churrasqueira
+    behind; more chairs. Grandchildren may be implied far behind and
+    fully out of focus, never identifiable.
+- Never stage: money or stakes; beer, cachaça; chimarrão (zone 4) or
+  coffee beside the hero unless the brief allows it; branded decks.
+- Confidence and sources: [Megajogos — história do truco](https://blog.megajogos.com.br/historia-do-truco-um-jogo-de-tradicao-estrategia-e-muita-diversao/);
+  [Jogos do Rei — como o Brasil joga cartas](https://www.jogosdorei.com.br/blog/2026/09/29/como-o-brasil-joga-cartas/);
+  [Clube Paineiras — carteado](https://clubepaineiras.org.br/carteado/).
+  Format MEDIUM; menu LOW; staging EDITORIAL.
+
+#### Game night: dominoes in the praça or at the club
+- When: weekday and weekend afternoons. Intake time: **golden-hour**.
+  [LOW — not verified]
+- Gathering: four players with onlookers, mostly older men; **other:
+  public square** (praça) or a social club. [LOW — not verified]
+- The spread: pastel and coxinha on paper from a nearby lanchonete (see
+  catalog: Pastel de feira; Coxinha and the salgados counter). [LOW]
+- Surface and environment: a concrete or slatted park table under a
+  tree, or a club table; tiles face down or as generic rectangles; late
+  sun, pavement.
+- Snapshot staging:
+  - **1 setting**: one pastel on paper at the table corner, the hero,
+    tiles soft in front.
+  - **2 settings**: two pastéis at opposite corners, tiles between.
+  - **Small group**: four corners of the table, tiles in the middle.
+  - **Crowd cues**: a blurred onlooker standing; another table behind.
+- Never stage: money; beer (the boteco version is beer-led — stage the
+  praça or club instead); legible club or shop signage.
+- Confidence and sources: dominoes at clubs and botecos MEDIUM (Clube
+  Paineiras, Jogos do Rei); the praça scene and food LOW; staging
+  EDITORIAL.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2442,6 +2629,12 @@ named by the brief):**
   searched; bem-casado as the wedding sweet not individually checked.
   The children-in-frame rule needs checking against TCCC's
   marketing-to-children policy.
+- **Game-night pass (2026-10-01) open items.** Sourced: the 2026 World
+  Cup kick-off times and the weekday work stoppage (HIGH — CNN Brasil,
+  Lance); buraco, truco and dominoes at churrascos, clubs and botecos
+  (MEDIUM). Unverified [LOW]: the whole viewing-food spread (petiscos,
+  churrasco on the laje), Brasileirão kick-off times, the office scene,
+  praça dominoes, home console nights and F1 viewing.
 
 ## CANDIDATE QUEUE
 
@@ -2462,6 +2655,9 @@ named by the brief):**
 6. Full dish entries for celebration items described only briefly in
    CELEBRATIONS & LARGE GATHERINGS: bolo de aniversário; bem-casado;
    salpicão and arroz à grega as standalone entries; Réveillon lentils.
+7. Dish entries for game-night petiscos described only in GAME NIGHT:
+   mandioca frita, frango à passarinho, pão de alho (churrasco side), and
+   a plain bolo for the café da tarde.
 
 ## RESEARCH LOG
 
@@ -2498,3 +2694,10 @@ named by the brief):**
   and caterer quantities, Saturday feijoada as a family gathering, and
   Christmas-at-home surveys (Brazil Panels, CNDL/SPC, employee sample).
   Added CELEBRATIONS & LARGE GATHERINGS with 7 entries.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three
+  watch-party entries (Seleção at home with petiscos, churrasco on the
+  laje or quintal, weekday match at work) and two social game-night
+  entries (cards at the churrasco or family table, dominoes in the praça
+  or club).

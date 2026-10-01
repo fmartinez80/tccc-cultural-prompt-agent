@@ -1095,6 +1095,254 @@ size of the event. The hero SKU always comes from the brief (§5.4).
 - Confidence and sources: see ENVIRONMENT & STAGING SCENES, Meal
   outdoors at home; staging EDITORIAL.
 
+## GAME NIGHT
+
+Built 2026-10-01 under `country-file-schema.md` §5.8 from the
+cross-market game-night research notes (no new searches for this file).
+Party size is the place settings in frame (§5.7 snapshot rule); the hero
+SKU comes from the brief (§5.4). Screens, cards and boards are never
+legible; no crests, kits, sponsor or league marks; no gambling as the
+subject; no identifiable children; never a full flag. Beer, micheladas,
+tequila and the batanga are the default priors at every Mexican viewing
+table, so negate them in every prompt (file-wide rules 3–4).
+
+### Watch parties
+
+Football is the main viewing occasion (Liga MX, the Selección, the
+derbies such as América–Chivas), with boxing as the second national
+format and the NFL and Formula 1 as smaller followings. Most viewing is at
+home around a botana spread or a carne asada, and the public form that
+stages cleanly is the fan-zone food court: Mexico City's 2026 FIFA Fan
+Festival in the Zócalo sold no alcohol at all. Signature foods: botanas
+(tostadas, chicharrón, cacahuates, guacamole in a molcajete), tacos and
+tortas, and in the North the carne asada.
+
+#### Watch party: football at home (Selección and Liga MX)
+- When: Liga MX on weekend afternoons and evenings; Selección matches in
+  tournament summers (World Cup, Gold Cup, Copa América years) and
+  qualifier windows. Intake time: **golden-hour** for weekend afternoon
+  kick-offs, **evening** for night games. [LOW — not verified; the notes
+  map Latin American weekend afternoons to golden-hour; no Liga MX
+  schedule was checked]
+- Gathering: family or 4–8 friends in the living room, or the extended
+  family in the patio when a Sunday comida and a match coincide; **home
+  indoor** (living room) or **home outdoor** (patio, carport). [EDITORIAL,
+  following the notes' cross-market home-viewing pattern]
+- The spread: a **botana** spread on the centre table: tostadas with
+  toppings (see catalog: Masa antojitos — sopes, huaraches, tlacoyos,
+  gorditas, tostadas), chicharrón and chicharrones de harina with hot
+  sauce (see catalog: D. Snacks), cacahuates japoneses (coated peanuts)
+  and salted peanuts in small bowls, potato chips with salsa, **guacamole
+  in a molcajete** with totopos (see catalog: Guacamole with totopos;
+  elotes and esquites), then tacos or tortas for the meal (see catalog:
+  Tacos — the national format; Tortas). Plastic or clay bowls, a
+  tortillero, paper napkins. In zone 1 the patio carne asada replaces
+  the botana (see catalog: Carne asada & flour tortillas; and Celebration:
+  Sunday family comida and the northern carne asada). [LOW — not verified;
+  the notes list the botana spread as model knowledge]
+- Surface and environment: a low centre table (mesa de centro) in front
+  of the sofa, or a folding table with hule in the patio; the TV as a
+  soft green glow with no score bug or channel mark; green-white-red
+  paper streamers or a scarf in national colours with no emblem, soft;
+  tiled floor, painted plaster walls (see ENVIRONMENT & STAGING SCENES,
+  General environmental norms). It reads as Mexico through the
+  molcajete, the clay and plastic bowls, the hule and the house interior,
+  not through costume.
+- Snapshot staging:
+  - **1 setting**: one small plate with two tostadas and a spoon of
+    guacamole; the molcajete and a bowl of cacahuates cropped at the
+    edge of the centre table; the hero on the table; the TV glow soft
+    behind.
+  - **2 settings**: two identical plates side by side on the centre
+    table facing the screen; between them the molcajete, a bowl of
+    chicharrón and a bowl of totopos.
+  - **Small group (3–4)**: identical plates along the table edge;
+    bowls repeating and running out of frame; the sofa running out of
+    frame.
+  - **Crowd cues**: more bowls than the visible diners need; extra
+    folding chairs brought in; one or two blurred backs of heads toward
+    the screen.
+- Never stage: beer cans or bottles with lime, micheladas, a cooler of
+  beer; team crests, kits, Liga MX or federation marks; a legible TV
+  screen; betting apps or quinielas (football pools) on paper; a full
+  flag or the eagle emblem; sombreros or luchador masks as fan props.
+- Confidence and sources: overall LOW — model knowledge carried from the
+  research notes; football as a high-popularity viewing occasion in
+  Mexico per the notes' per-market table; staging EDITORIAL.
+
+#### Watch party: fan-zone food court (public viewing)
+- When: tournament summers; Mexico City's FIFA Fan Festival in the
+  Zócalo ran through the 2026 World Cup (11 June–19 July 2026), with
+  more than 100,000 people in the square for the final. Intake time:
+  **midday** or **evening**, following kick-off. [HIGH — mexicocityfwc26,
+  La Silla Rota, Informador]
+- Gathering: the operator's party of 1–4 at a food-court table inside a
+  crowd of tens of thousands (capacity about 55,000, ~2.2 million
+  cumulative visitors); **other: fan zone**. [HIGH for the capacity and
+  attendance — mexicocityfwc26, La Silla Rota; party size EDITORIAL]
+- The spread: street-stall food on paper or plastic plates and in
+  paper trays: **tacos al pastor** (see catalog: Tacos al pastor),
+  **esquites** in cups (see catalog: Guacamole with totopos; elotes and
+  esquites), **tortas** (see catalog: Tortas). [LOW — not verified; the
+  notes rank this scene but cite no menu source]
+- Surface and environment: a folding table or high standing table in a
+  food-court area; string lights or temporary lighting rigs; a giant
+  LED screen far behind as a soft field of colour; crowd as blurred
+  shapes. Keep the specific colonial façades of the Zócalo generic and
+  soft so the scene does not pin to a real venue.
+- Snapshot staging:
+  - **1 setting**: one paper tray of three tacos al pastor and a cup of
+    esquites on the table edge, the hero beside it; the screen glow and
+    blurred crowd far behind.
+  - **2 settings**: two identical trays facing each other across a
+    small folding table.
+  - **Small group**: identical trays on a longer shared table; more
+    tables and blurred backs beyond.
+  - **Crowd cues**: rows of tables running out of frame; blurred
+    figures (within the background-people limit) facing the distant
+    screen; temporary lighting.
+- Never stage: FIFA, tournament or sponsor marks on screens, signage,
+  cups or tables; legible screens; beer (the 2026 Zócalo fan fest sold
+  none, which makes the alcohol-free version authentic); face paint on
+  identifiable people; crowd crushes or flares.
+- Confidence and sources: event facts HIGH ([Mexico City FWC26 — FIFA
+  Fan Festival](https://www.mexicocityfwc26.com.mx/fifa-fan-festival);
+  [La Silla Rota](https://lasillarota.com/metropoli/2026/3/4/mundial-2026-asi-sera-el-fan-fest-del-zocalo-cdmx-588878.html);
+  [Informador](https://www.informador.mx/mexico/mundial-2026--fan-fest-del-zocalo-cdmx-luce-repleto-en-la-final-espana-argentina-asisten-mas-de-100-mil-aficionados-20260719-0116.html));
+  food LOW; staging EDITORIAL. The 2026 fan fest is over; use it as the
+  template for a future public screening, not as a current event.
+
+#### Watch party: boxing fight night (Canelo weekend, mid-September)
+- When: Canelo Álvarez has fought on Mexican Independence Day weekend
+  (mid-September) since 2010; families and friends gather for a carne
+  asada in the afternoon and watch the pay-per-view at night. Intake
+  time: **golden-hour** for the asado, then **late night** for the main
+  event (US main events land late in central Mexico [LOW — time-zone
+  arithmetic, not verified]). [MEDIUM — Boxing247, Round by Round Boxing]
+- Gathering: family and friends, about 6–15; **home outdoor** (patio,
+  carport, backyard grill) moving to **home indoor** (living room) for
+  the fight. Overlaps with the Fiestas Patrias night (see Celebration:
+  Fiestas Patrias night) in some years. [EDITORIAL headcount]
+- The spread: the afternoon is a **carne asada** — arrachera and thin-cut
+  beef, cebollitas, chiles toreados, flour and corn tortillas, guacamole,
+  frijoles charros (see catalog: Carne asada & flour tortillas;
+  Guacamole with totopos). At night, what is left moves to the centre
+  table as tacos and botanas.
+- Surface and environment: golden-hour: a folding table with a plastic
+  cloth beside a charcoal grill in a patio or carport. Late night: the
+  living room lit by a lamp and the soft glow of the TV (a dark, blurred
+  ring of light only), plates of tacos on the centre table, dark
+  windows.
+- Snapshot staging:
+  - **1 setting**: golden-hour: a plate with two carne asada tacos, the
+    board of sliced meat and the molcajete cropped, the grill smoking
+    soft behind. Late night: one plate on the centre table, TV glow
+    behind, a warm lamp.
+  - **2 settings**: two identical plates facing each other across the
+    patio table; between them the board of arrachera and the tortilla
+    basket.
+  - **Small group**: identical plates along a folding table; bowls
+    repeating out of frame; the grill with more meat than the diners
+    need.
+  - **Crowd cues**: extra plastic chairs; a blurred figure at the grill;
+    blurred backs of heads toward the screen at night.
+- Never stage: beer (the stated default at these gatherings: stage the
+  carne asada table only), fighters' faces or bodies on screen, blood,
+  belts or promoter logos, betting on the fight, cash.
+- Confidence and sources: the Canelo September tradition and the asado-
+  then-fight pattern MEDIUM ([Boxing247](https://www.boxing247.com/boxing-news/canelo-smith-heating-up/60781);
+  [Round by Round Boxing](https://roundbyroundboxing.com/news/canelo-alvarez-takes-back-mexican-independence-day/));
+  carne asada composition per the catalog entry; staging EDITORIAL.
+
+Smaller formats, no entries [LOW — not verified]: the NFL has a real
+Mexican following (regular-season games in Mexico City), mainly a
+Sunday home or carne asada scene; Formula 1's Mexico City Grand Prix
+(late October, ~400,000 weekend crowds) is watched at home in a
+brunch-style **midday** register (breakfast out of scope; stage it as a
+midday table); baseball is medium in the northern states. Stage any of
+these with the home-football template above.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high** —
+lotería is the posada game "while the food finishes cooking" and is
+played at fairs and family parties [MEDIUM — Press Democrat, Loco
+Gringo]; dominoes [LOW — not verified]; party karaoke [LOW — not
+verified]. Games are part of family gatherings rather than a set
+"night".
+
+#### Game night: lotería at a posada (and family parties)
+- When: posadas, 16–24 December, and fairs and family Sundays through
+  the year. Intake time: **evening**. [MEDIUM for posadas — Press
+  Democrat, Loco Gringo]
+- Gathering: neighbours and extended family, about 15–40, with the
+  caller (the "gritón") and players around folding tables; **home
+  outdoor** (patio, street in front of the house under a tarp) or a
+  neighbourhood courtyard ("other"). [EDITORIAL headcount]
+- The spread: **tamales** (see catalog: Tamales), **pozole** with its
+  garnish plates (see catalog: Pozole), tostadas (see catalog: Masa
+  antojitos), **buñuelos** (fried discs of dough with syrup or sugar,
+  no catalog entry; see CANDIDATE QUEUE). Ponche (warm fruit punch,
+  alcohol-free) in jarritos is authentic but is another drink: out of
+  frame unless the brief names it, and never "con piquete" (spiked).
+  Clay cazuelas, a tamal pot, disposable plates.
+- Surface and environment: rented folding tables with an oilcloth,
+  each player's **tabla** (picture board) with **pinto beans** as
+  markers; a deck of picture cards face down or soft. String lights and
+  papel picado under a tarp; a night sky; warm bulbs. The cards and
+  tablas carry only unreadable, generic picture art.
+- Snapshot staging:
+  - **1 setting**: a disposable plate with a tamal and a spoon of
+    pozole beside it, a tabla with scattered beans pushed to one side,
+    the hero; the tamal pot cropped.
+  - **2 settings**: two identical plates at a folding table, two tablas
+    between them with beans, a bowl of buñuelos.
+  - **Small group**: identical plates and tablas along one table that
+    runs out of frame.
+  - **Crowd cues**: more folding tables under the tarp behind, string
+    lights, blurred neighbours; the caller as a soft shape at the far
+    end.
+- Never stage: a publisher's lotería deck or its trademarked card art
+  (use generic unreadable picture cards); legible card names or numbers;
+  prize money or coins as stakes; ponche con piquete, beer; religious
+  imagery from the posada procession (the pilgrims, the nativity) as the
+  scene; identifiable children breaking a piñata.
+- Confidence and sources: lotería at posadas MEDIUM ([Press Democrat](https://www.pressdemocrat.com/article/specialsections/loteria-pinatas-help-latino-families-create-memories-that-last-a-lifetime/);
+  [Loco Gringo](https://www.locogringo.com/blog/activities/mexican-posadas-fun-guide-holiday-parties-mexico));
+  posada foods per the notes and FESTIVALS (tamales and ponche HIGH
+  there for Nochebuena); staging EDITORIAL.
+
+#### Game night: family dominoes on the patio
+- When: weekend afternoons, often after the Sunday comida. Intake time:
+  **golden-hour**. [LOW — not verified]
+- Gathering: four players with onlookers, older relatives and
+  neighbours; **home outdoor** (patio, carport, sidewalk table).
+  [LOW — not verified]
+- The spread: botanas in small bowls: cacahuates, chicharrón, tostadas
+  (see catalog: D. Snacks; Masa antojitos), fruit cups with lime and
+  chile powder (see catalog: D. Snacks). Food on a side table or the
+  table corner so the tiles keep their space.
+- Surface and environment: a plastic folding table or a square wooden
+  table, tiles face down or as generic ivory rectangles; late sun on a
+  painted wall, a potted plant, plastic chairs.
+- Snapshot staging:
+  - **1 setting**: a small plate of botana at the table corner, the hero
+    beside it, a few tiles soft in the foreground.
+  - **2 settings**: two plates at opposite corners, tiles in a line
+    between them, a bowl of cacahuates.
+  - **Small group**: four corners of a square table with tiles in the
+    middle; bowls on a side table.
+  - **Crowd cues**: a blurred onlooker standing; extra chairs.
+- Never stage: money or stakes; beer; scoring sheets with legible
+  numbers.
+- Confidence and sources: LOW — the notes list dominoes in Mexico as
+  model knowledge, not verified; staging EDITORIAL.
+
+Party karaoke (a speaker and microphone at birthday parties) is reported
+but not verified [LOW]; at most a background cue at an adult birthday
+taquiza (see How large gatherings work here), mics resting on a table, never
+held, no legible lyrics.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2105,6 +2353,12 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   percentages are attributed to unnamed polling houses via Infobae. The
   wedding tornafiesta, rosca length and the children-in-frame rule need
   checking (the last against TCCC's own marketing-to-children policy).
+- **Game-night pass (2026-10-01) open items.** Only the Zócalo fan-fest
+  facts (HIGH) and the Canelo September weekend and lotería at posadas
+  (MEDIUM) are sourced. Unverified [LOW]: the home botana spread for
+  football, the fan-zone food menu, Liga MX kick-off times, the late-night
+  main-event time for fights, dominoes as a family pastime, party
+  karaoke, the NFL and F1 viewing registers and northern baseball.
 
 ## CANDIDATE QUEUE
 
@@ -2126,6 +2380,10 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
    pierna al horno; bacalao a la vizcaína; romeritos con tortitas de
    camarón; pavo navideño; pastel de cumpleaños (tres leches) and
    gelatinas; promote Rosca de Reyes from the compact Sweets list.
+8. Dish entries for game-night foods described only in GAME NIGHT:
+   the botana spread (cacahuates japoneses, chicharrón, tostadas with
+   toppings, papas with salsa) as one compact entry; buñuelos (posada
+   sweet); promote chicharrones de harina from the compact Snacks list.
 
 ## RESEARCH LOG
 
@@ -2167,3 +2425,9 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   dinner figure, and the children's party table. Added CELEBRATIONS &
   LARGE GATHERINGS with 8 entries; sources are mostly tier 3 (planning
   and catering vendors) plus Infobae and UNAM Global, tagged accordingly.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three
+  watch-party entries (football at home, fan-zone food court, Canelo
+  fight night) plus a smaller-formats note, and two social game-night
+  entries (lotería at a posada, family dominoes).

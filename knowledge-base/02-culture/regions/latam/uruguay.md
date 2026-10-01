@@ -201,6 +201,168 @@ I specifically checked the three plausible fault lines the brief named:
 - Never stage: stemmed glasses at the setting, wine, the toast, the ceremony.
 - Confidence and sources: see above.
 
+### GAME NIGHT
+
+(Added 2026-10-01 under `country-file-schema.md` §5.8, from the
+cross-market game-night research notes; no new searches for this file.
+Headings step down one level to match CELEBRATIONS & LARGE GATHERINGS.
+Party size is the place settings in frame (§5.7). The hero SKU comes
+from the brief (§5.4). Screens, cards and boards are never legible; no
+crests, kits, sponsor or league marks; no gambling as the subject; no
+identifiable children; never a full flag. Alcohol is never staged, and
+**mate stays out of frame** unless a brief asks for the ritual (§5.6):
+the research notes suggest "a mate gourd on the side" at a Celeste
+asado, which is authentic but conflicts with this rule, so it is
+dropped here.)
+
+#### Watch parties
+
+Football's primacy in Uruguay is uncontested — the Celeste (national
+team) and the Peñarol–Nacional clásico above all — but no Uruguay-specific
+viewing data was found in the research pass, so everything below is
+[LOW — not verified] apart from the facts it borrows from this file's own
+sourced entries. Viewing is assumed to be home-centred, around the asado
+or a pizzería order, with choripán off the carrito outside the stadium as
+the public form.
+
+##### Watch party: Celeste match at home with an asado
+- When: Celeste matches in World Cup and Copa América summers and in
+  qualifier windows; a weekend afternoon match is a **golden-hour**
+  scene, a night match **evening**. [LOW — not verified; no kick-off data
+  checked]
+- Gathering: family or friends, about 6–15; **home outdoor** (quincho,
+  patio, the building's parrillero) with the TV under the quincho roof
+  or visible through a window. [LOW — not verified]
+- The spread: the asado: tira, vacío, chorizo and morcilla, chimichurri,
+  a bread basket and salads (see Dish: Asado; Dish: Chorizo y morcilla /
+  Choripán; and Celebration: Weekend family asado for the full table).
+- Surface and environment: the long quincho table; the parrilla with its
+  round-rod grate and brasero soft behind; a TV as a soft glow,
+  unreadable; a sky-blue scarf with no crest over a chair, soft. Muted,
+  temperate Southern-European palette (see ENVIRONMENT & STAGING
+  SCENES).
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of tira and a choripán, the
+    wooden board and chimichurri dish cropped; the TV glow soft behind.
+  - **2 settings**: two identical plates facing each other; the board of
+    carved meat between them.
+  - **Small group (3–4)**: identical plates along one side, angled toward
+    the screen; boards and bread baskets repeating out of frame.
+  - **Crowd cues**: the parrilla with meat still on it; extra chairs; a
+    blurred figure at the grill.
+- Never stage: mate kit, wine, beer; AUF crest or the national shirt with
+  marks; a full flag; betting; crosshatch grill marks or a gas grill.
+- Confidence and sources: scene LOW (research notes, model knowledge);
+  asado detail per Dish: Asado (La Gran Uruguaya, Bodega Garzón, INAC);
+  staging EDITORIAL.
+
+##### Watch party: clásico night at home (pizza and fainá, chivitos)
+- When: the Peñarol–Nacional clásico and big league nights; intake time
+  **evening**. [LOW — not verified]
+- Gathering: 3–6 friends or family in the living room; **home indoor**.
+  [LOW — not verified]
+- The spread: rectangular pizza a la piedra with fainá from the pizzería
+  (see Dish: Pizza a la piedra (with faina)), chivitos al plato or in
+  the bread, cut in halves (see Dish: Chivito). Delivery boxes or a
+  wooden board. [LOW — not verified]
+- Surface and environment: a coffee table or the dining table, a lamp,
+  the TV as a soft glow, dark windows; a modest flat (see ENVIRONMENT &
+  STAGING SCENES for the apartment register).
+- Snapshot staging:
+  - **1 setting**: one plate with a rectangle of pizza and a slice of
+    fainá on top, the hero, the pizza board cropped.
+  - **2 settings**: two identical plates side by side facing the screen,
+    the board between them.
+  - **Small group**: identical plates along the coffee table; a second
+    board and a halved chivito at the edge.
+  - **Crowd cues**: more pizza than the visible diners need; extra
+    chairs; blurred backs of heads.
+- Never stage: club crests or the yellow-and-black or white shirts with
+  marks; beer; mate; legible pizzería boxes.
+- Confidence and sources: LOW (research notes); dish visuals per the
+  catalog entries; staging EDITORIAL.
+
+##### Watch party: choripán outside the stadium
+- When: before matches, weekend afternoons and evenings; **golden-hour**
+  or **evening**. [LOW — not verified]
+- Gathering: 1–3 people at a carrito; **other: street / stadium
+  surroundings**. The carrito tradition began near Estadio Centenario
+  (see Scenario: Meal on the go — 1 person).
+- The spread: choripán and panchos off the carrito grill (see Dish:
+  Chorizo y morcilla / Choripán); chivito al pan as an alternative (see
+  Dish: Chivito).
+- Surface and environment: the carrito's counter or a ledge; the
+  stadium a soft mass behind; floodlights at dusk.
+- Snapshot staging:
+  - **1 setting**: one choripán on paper on the counter beside the hero.
+  - **2 settings**: two side by side on the counter.
+  - **Small group**: three on the counter; blurred figures queueing.
+  - **Crowd cues**: a blurred crowd toward the stadium, floodlight glow.
+- Never stage: crests, banners with words, flares, police lines, beer.
+- Confidence and sources: the carrito's origin near Estadio Centenario
+  per Scenario: Meal on the go — 1 person (Wikipedia: Carrito (Uruguay));
+  match-day scene LOW.
+
+#### Social game nights
+
+Popularity as an occasion to gather and eat around: **high** — truco
+(Uruguayan rules) is "one of the most popular card games", played at
+home and at the asado, with championships at neighbourhood clubs and
+bars that post sign-ups [MEDIUM — pagat, Wikipedia ES].
+
+##### Game night: truco after the asado
+- When: the sobremesa of the weekend asado; intake time **midday** into
+  **golden-hour**. [MEDIUM for truco at the asado — pagat, Wikipedia ES]
+- Gathering: four players in pairs (2v2), sometimes six, with
+  onlookers; **home outdoor** (quincho, patio). [MEDIUM for the pairs
+  format — pagat]
+- The spread: what is left of the asado: chorizo and a board with a
+  piece of morcilla, bread, salads (see Dish: Asado; Dish: Chorizo y
+  morcilla / Choripán). [LOW — no source tied a menu to truco]
+- Surface and environment: the wooden quincho table, plates pushed
+  aside; a Spanish-suit deck (generic, unreadable art) face down or
+  soft; eucalyptus beams, brick, temperate afternoon light.
+- Snapshot staging:
+  - **1 setting**: one plate with leftover asado and bread at the table
+    edge, the hero, a few cards face down.
+  - **2 settings**: two plates at opposite sides, cards between, the
+    board in the middle.
+  - **Small group**: four places around the table, cards out of focus.
+  - **Crowd cues**: an onlooker's chair pulled up, blurred; the parrilla
+    cooling behind.
+- Never stage: mate (the real sobremesa drink — Region-wide norms),
+  wine, beer; money or stakes; branded decks.
+- Confidence and sources: [pagat — Uruguayan Truco](https://www.pagat.com/put/truco_ur.html);
+  [Wikipedia ES — Truco uruguayo](https://recursos.mec.edu.py/kiwix/wikipedia_es_all_maxi/A/Truco_uruguayo);
+  menu LOW; staging EDITORIAL.
+
+##### Game night: club truco championship night (and merienda truco)
+- When: club or bar championship evenings (**evening**); at home at
+  merienda (**golden-hour**). [MEDIUM that bars and clubs run
+  championships — pagat, Wikipedia ES; LOW for the merienda slot]
+- Gathering: tables of four at a neighbourhood club (**other**) or a
+  modest bar (**restaurant**); family at home for merienda.
+- The spread: club night: chivitos and pizza by the rectangle with
+  fainá (see Dish: Chivito; Dish: Pizza a la piedra (with faina)).
+  Merienda: bizcochos and pastries on a plate, or torta frita on a rainy
+  day (see Dish: Torta frita); no catalog entry for bizcochos (see
+  CANDIDATE QUEUE). [LOW — not verified]
+- Surface and environment: club: plain tables in a hall with fluorescent
+  or warm light, other tables of players soft behind. Home: the kitchen
+  table with an oilcloth.
+- Snapshot staging:
+  - **1 setting**: one plate with a halved chivito or a pizza rectangle,
+    the hero, cards face down beside it.
+  - **2 settings**: two plates at a club table, cards between.
+  - **Small group**: four places at a square table; more tables of
+    players behind.
+  - **Crowd cues**: rows of tables running out of frame; blurred players.
+- Never stage: the drinking side of the bar (pitchers, beer, grappamiel);
+  prize money, sign-up sheets or scoreboards with legible names; mate
+  at the merienda table.
+- Confidence and sources: as above (pagat, Wikipedia ES); the bar
+  format is staged as a food-led, alcohol-free club table [EDITORIAL].
+
 ### DISH CATALOG
 
 (Heading added 2026-10-01 so the dish entries below are not read as part of CELEBRATIONS & LARGE GATHERINGS; the entries themselves are unchanged.)
@@ -461,6 +623,7 @@ I specifically checked the three plausible fault lines the brief named:
 - **Neighborhood-specificity tension not fully resolved.** The brief asked for cultural cues that don't pin to one neighborhood but also avoid caricature. The sourcing available skews toward describing distinctive, named things (Art Deco Pocitos, specific historic bars) precisely because those are what gets written about — the "ordinary, unremarkable" register the brief actually wants is logically the harder thing to find dedicated sources for. The guidance given leans on the assistant's synthesis of the *contrast* between the named/distinctive examples and what they imply about the more ordinary baseline, not on a direct source describing "an ordinary Montevideo apartment."
 
 - **Celebrations pass (2026-10-01) open items.** All headcounts in CELEBRATIONS & LARGE GATHERINGS are editorial or inferred from vendor listings (no Uruguayan survey found); the children's party foods (sándwich olímpico, chajá as birthday cake) rest on non-Uruguayan food media; the fiesta de 15 and wedding menus rest on vendor listings and may simply mirror Argentina's. The children-in-frame rule needs checking against TCCC's marketing-to-children policy. A `### DISH CATALOG` heading was added above the dish entries so they do not nest under the new section.
+- **Game-night pass (2026-10-01) open items.** No Uruguay-specific viewing data was found by the cross-market research: the Celeste asado, clásico pizza night and stadium choripán scenes, kick-off times and every game-night menu are [LOW — not verified]. Truco's popularity and club championships are MEDIUM (pagat, Wikipedia ES). Rule conflict noted: the research notes put a mate gourd beside the Celeste asado; dropped under §5.6.
 
 ## CANDIDATE QUEUE
 
@@ -468,6 +631,7 @@ I specifically checked the three plausible fault lines the brief named:
 
 1. Dish entries for the festive items described only briefly in CELEBRATIONS & LARGE GATHERINGS: lechón (Christmas roast suckling pig), vitel toné (see `argentina.md` for the shared dish), lengua a la vinagreta, ensalada rusa, huevos rellenos, sándwich olímpico.
 2. A short FESTIVALS & SEASONAL OCCASIONS register (Carnaval, Semana de Turismo and the Semana Criolla, Día de la Familia, Fin de Año, Noche de la Nostalgia, Ñoquis del 29) to sit above CELEBRATIONS as the calendar index.
+3. Dish entry for **bizcochos** (the merienda and breakfast pastries) and a compact entry for **panchos** from the carrito, both referenced in GAME NIGHT; a Uruguay-specific viewing-food source for football.
 
 ## RESEARCH LOG
 
@@ -502,3 +666,4 @@ I specifically checked the three plausible fault lines the brief named:
 - **2026-09-21 environment/staging-scenes sourcing-upgrade pass (fourth post-draft human review):** The reviewer asked how to gain trusted material for environment/staging detail given the section's thin sourcing, specifically without downloading or licensing imagery — targeting text descriptions and trends associated with real photography/listings rather than the assets themselves. Re-ran research targeting three text-adjacent-to-real-imagery source types: architecture portals publishing real, named projects in professional prose (ArchDaily), real estate listing copy describing real, currently-listed homes (infocasas.com.uy), and municipal photo-archive metadata (Centro de Fotografía de Montevideo, identified as a resource for a future pass). This surfaced one genuine correction (apartment terraces commonly include a parrillero grill — the earlier draft wrongly implied apartment dwellers mostly lack outdoor-grill access) and one well-sourced addition (monoambientes/studio apartments as a real, statistically-documented, growing housing category, directly relevant to the 1-person home scenarios). Updated the housing-type norm, the "meal outdoors at home" scenario, and the "casual lunch at home — 1 person" scenario accordingly. See DECISIONS.md for the full record.
 - **2026-09-21 environment/staging-scenes pass (third post-draft human review):** The reviewer asked for the file to cover the physical environments meals take place in, mapped specifically to Coca-Cola's standard staging scenarios (casual lunch at home for 1/2/3 people, dinner at home, an outdoor meal at home, a solo on-the-go meal, and away-from-home dining for 1 vs. 2-3 people), including architecture, materials, and outdoor-scene detail — plus guidance on cultural cues that avoid both flag-waving specificity and caricature. Added a new ENVIRONMENT & STAGING SCENES subsection covering general architectural/material norms (temperate climate, three coexisting housing types, muted material palette) and each of the six requested scenarios individually. This section is honestly the thinnest-sourced of the three expansion passes — several scenario-level judgment calls (which housing type fits which household size, the late-dinner lighting implication, the caricature-avoidance guidance itself) are the assistant's own synthesis rather than directly sourced claims, and are labeled as such inline and in the Gap Log. See DECISIONS.md for the full judgment-call record.
 - **2026-10-01 celebrations pass (schema §5.7): 4 searches**, covering the Uruguayan Christmas table (Bodega Garzón, cocina-uruguaya.com), the Día de la Familia secular naming (LARED21, Cadena 3), children's birthday foods, and salón and catering offers for fiestas de 15 and weddings (vendor listings only). Added CELEBRATIONS & LARGE GATHERINGS with 5 entries after ENVIRONMENT & STAGING SCENES.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three watch-party entries (Celeste match with an asado, clásico night with pizza and fainá or chivitos, choripán outside the stadium), all LOW, and two truco entries (after the asado; club championship and merienda).
