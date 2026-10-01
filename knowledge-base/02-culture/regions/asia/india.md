@@ -1989,7 +1989,7 @@ vegetable dum biryani, no egg.
 
     | Component | Real size | Count | Look | Where it sits |
     |---|---|---|---|---|
-    | Momos | ~5 cm across, 3 cm tall (about half the can's width... a little under) | 6 (sold in 6s or 8s) | Thin, slightly translucent white skin, fine pleats gathered at the top, soft sheen | Two rows on a paper or steel plate |
+    | Momos | ~5 cm across, 3 cm tall (a little narrower than the can) | 6 (sold in 6s or 8s) | Thin, slightly translucent white skin, fine pleats gathered at the top, soft sheen | Two rows on a paper or steel plate |
     | Red chutney | small bowl ~6 cm | 1 | Bright orange-red, thick, seedy | Centre or side |
     | Mayonnaise dip (Delhi street, optional) | small bowl | 1 | White | Side |
 
@@ -2043,6 +2043,21 @@ the NE — gated). [MEDIUM — not independently re-checked] **Composition
 ~30%, meat slices ~20%; steam; prompt line: "A deep bowl, a little
 wider than the can is tall, of steaming clear broth with wheat noodles,
 shredded cabbage, carrot slivers, spring onion and thin chicken slices."
+
+- **Composition & proportions (§4.7, compact)** [EDITORIAL counts and
+  shares; sizes not re-checked]:
+  - **What dominates**: noodles ~50%, vegetables ~30%, meat ~20% of the
+    visible surface; broth shows between them.
+  - **Components**: wheat noodles, round, ~2–3 mm thick, a loose tangle
+    ~10 cm across, pale cream, half-submerged; shredded cabbage ribbons
+    ~3–4 cm, pale green, a handful; carrot slivers ~4 cm, 8–10, orange;
+    spring onion rings ~5 mm, a pinch, bright green, floating on top;
+    chicken slices ~3 cm, 5–6, pale, half-submerged.
+  - **Arrangement and fill**: everything loosely mixed, broth to ~2 cm
+    below the rim of a ~16 cm deep bowl; one bowl is one portion.
+  - **State cues**: steam; a few fat beads on the broth.
+  - **Absent on purpose**: ramen egg, nori, a Japanese chopstick setting,
+    pork on a non-Northeast brief, soy-dark broth.
 
 ### G. Festive tables and sweets
 
@@ -2152,6 +2167,40 @@ shredded cabbage, carrot slivers, spring onion and thin chicken slices."
   little more than half the can's width, soaking in golden syrup in a
   small steel bowl, a green pistachio sliver on each."
 
+**Composition & proportions (§4.7, compact, one line per sweet)**
+[EDITORIAL counts and shares; sizes not re-checked]:
+- **Gulab jamun** — balls ~85% of the bowl's surface, syrup ~15%; 2 per
+  bowl; absent: white colour (that is rasgulla), cream, ice cream unless
+  briefed. (Prompt line above.)
+- **Jalebi** — 5–6 spirals ~8–10 cm (a little under the can's height)
+  heaped on a small steel plate or paper, ~90% of the plate; bright
+  orange, crisp ridged tubes ~8 mm thick, glossy with syrup, a few
+  amber drips; absent: dull brown colour, powdered sugar. Prompt line:
+  "A loose heap of five bright orange, crisp, syrup-glossy fried
+  spirals, each a little shorter than the can is tall, on a small steel
+  plate."
+- **Gujiya** — 4 half-moons ~8 cm long (a little under the can's
+  height) on a plate, ~70% of it; pale gold fried
+  pastry with a finely crimped, rope-like edge, one broken to show a
+  coarse cream khoya-and-nut filling; absent: empanada orange, sugar
+  glaze. Prompt line: "Four pale golden half-moon fried pastries with a
+  finely crimped rope edge, each a little shorter than the can, one
+  broken open to show a crumbly cream nut filling."
+- **Modak** — 5 on a steel plate ~22 cm, ~60% of it; each ~5–6 cm tall
+  (about half the can's height), matte white, slightly translucent,
+  pleated up to a pointed tip, a little ghee sheen; absent: fried brown
+  modak unless briefed, the Ganesh idol (hard rule 7). Prompt line:
+  "Five matte white steamed dumplings, each about half the can's height,
+  pleated up to a pointed tip, on a steel plate."
+- **Kheer / payasam** — one bowl ~10 cm filled to ~1 cm below the rim;
+  pudding ~85% of the surface, nuts and saffron ~15%; creamy ivory to
+  pale caramel, rice grains or vermicelli visible, almond/pistachio
+  slivers and a few saffron threads on top; absent: rice-pudding skin
+  dusted with cinnamon (a European cue). Prompt line: "A small bowl,
+  about the can's height across, of creamy ivory rice pudding with
+  visible soft grains, almond and pistachio slivers and saffron threads
+  on top."
+
 ### H. Morning Module (off by default)
 
 #### Aloo paratha (zone 1 — Punjab/North breakfast)
@@ -2239,3 +2288,141 @@ the brief — here a Coca-Cola Original small returnable glass bottle):**
 *Before use: run at least two generations per prompt
 (`country-file-schema.md` §7.5) and apply this file's confidence tags.
 **Confirm the 300 mL can's silhouette before any can prompt.***
+
+**Biryani house, 2 people, Hyderabad, zone 7, non-veg (hero: two Thums
+Up 300 mL cans, as named by the brief):**
+> Eye-level photograph at a busy, clean biryani restaurant in Hyderabad,
+> warm evening light, plain tiled wall softly out of focus. On a table:
+> a copper pot with its browned dough seal broken and lid set askew,
+> and two white plates, each with a domed heap of long, separate basmati
+> grains in patches of white, saffron-yellow and orange, glossy with
+> ghee, two bone-in pieces of chicken coated in deep red-brown spice
+> half-buried in it, crisp dark fried onion threads and mint leaves on
+> top; small steel bowls of fat green chillies in thick nutty brown
+> gravy and white yoghurt with green flecks. Beside the plates: two
+> Thums Up 300 ml cans, not Coca-Cola, not Pepsi, not any other cola
+> brand. No boiled egg, no potato, no water tumblers, no tea, no other
+> drinks; no legible text or signage anywhere; nothing held in a hand;
+> neutral colour grading. Pack text will be composited in post.
+
+---
+
+## GAP LOG
+
+- **Composition & proportions blocks (§4.7) are mostly editorial
+  synthesis.** Piece sizes are sourced only where tagged (thali and
+  katori sizes from vendors, dosa length, pani puri shell size, mini-idli
+  mould, idli-vada compartment plate, kulhad volume); counts, surface
+  shares and most piece sizes (roti, naan, bhatura, samosa, vada, pav,
+  idli, appam, parotta, banana leaf, biryani pieces, sweets) are reasoned
+  from recipes and serving norms and must be checked against two or more
+  image generations per prompt-ready line. The compact entries (thukpa,
+  the compact sweets) carry one-line §4.7 blocks, not full tables.
+- **The 300 mL can's dimensions and silhouette are unknown.** Every
+  "relative to the can" phrase in this file uses a provisional
+  ~11 × 6.6 cm anchor. If India's 300 mL can turns out to be a tall slim
+  can, those phrases need re-checking. A real can, or the TCCC spec drop
+  flagged in `coca-cola-guidelines.md`, settles it.
+- **Contradiction with `coca-cola-guidelines.md` §4.3.** Its rule
+  "default to the 330 mL can for any non-US market" does not fit India,
+  a **300 mL** can market. That makes three markets that break it (Mexico
+  355, Brazil 350, India 300). Also §4.4's "500mL" personal bottle: India's
+  personal PETs are **400 and 600 mL**. Not edited here.
+- **Small can: 180 or 200 mL?** coca-cola.com/in (via search) says 180;
+  one BigBasket listing says 200. Unresolved.
+- **330 mL can and 250 mL slim can**: each rests on one listing or a
+  tier-4 article. Current availability not confirmed.
+- **Pack colours for Thums Up, Limca and Maaza not confirmed.** Check the
+  current packs before naming colours in a slot.
+- **Glass-bottle heights (200/300/330 mL RGB) and PET dimensions not
+  found.**
+- **Blocked sources**: coca-cola.com/in and indiantelevision.com
+  (egress proxy). Pack lists rest on search snippets, marked "(via
+  search)".
+- **Festival dates**: Holi 2027 is 23 Mar in most sources and 22 Mar in
+  two. Muslim dates (Ramzan, Eid ul-Fitr, Bakrid 2027) depend on the moon
+  sighting. The 2026 dates for Pongal, Holi, Bakrid, Ganesh Chaturthi,
+  Onam, Durga Puja and Diwali were not searched (Diwali 2026 ~8 Nov
+  matters soonest).
+- **Housing**: the flat share (31.3% of urban dwellings) comes from a
+  search summary of India Housing Report, not the NSS table itself; no
+  metro-level apartment share was found.
+- **Not searched this pass** (tagged "not independently re-checked"):
+  Jain diet rules, prohibition states, the Bengali course order, the
+  Malabar/Ambur/Dindigul biryanis, Goan fish curry, Gujarati onion-garlic
+  practice, kathi roll origin, rasgulla GIs, litti chokha, momo forms,
+  aloo paratha, poha, the sweets, the Gen Z PG-housing claim, meal clock
+  times beyond tier-3/4 sources, hand-eating etiquette beyond a
+  Wikipedia title.
+- **No India entry in `tableware-composition-reference.md`** (its row
+  says "Not started"). The thali/katori/banana-leaf sizes here could seed
+  it.
+- **Sensitive framing that needs a reviewer**: the "stage vegetarian when
+  unspecified" fallback; the beef and pork gating (Kerala beef fry, Naga
+  pork, Goan pork); the iftar "never the first sip" rule; the
+  religious-imagery exclusions. All are editorial and should be checked
+  against TCCC India's own guidance.
+- **Zones 2 (Heartland) and 9 (Northeast) are the thinnest**, and
+  Andhra meals, Chettinad, Coorg, Kashmiri wazwan, Assamese and Khasi
+  food are missing.
+
+## CANDIDATE QUEUE
+
+1. **Fernando decisions**: (a) keep India as one file with nine zones,
+   or move to a US-pattern national index plus regional files (the
+   recommendation here is to consider the split); (b) Northeast spinout;
+   (c) tiffin in scope and the morning module; (d) the veg-default
+   fallback; (e) beef/pork gating and who at TCCC India signs off.
+2. Confirm the 300 mL can's dimensions and silhouette, and the
+   180-vs-200 mL small can, then re-check every "relative to the can"
+   phrase. Add India's formats to `coca-cola-guidelines.md` §4.3 once the
+   spec drop lands; reword the 330 mL rule.
+3. Confirm Thums Up, Limca and Maaza pack colours.
+4. Search the 2026 festival dates (Diwali ~8 Nov 2026 first) and
+   reconcile Holi 2027 (22 vs 23 Mar).
+5. Re-check the unsearched entries listed in the GAP LOG, then add
+   Andhra meals, Chettinad chicken, Kashmiri wazwan (non-veg), sarson da
+   saag with makki di roti, misal pav, haleem, Assamese thali and Kerala
+   meen curry.
+6. Image tests (two or more generations each), starting with the dosa
+   (crêpe/burrito failure), idli (bread-roll failure), samosa (flat
+   triangle failure), biryani (yellow fried-rice failure), the home thali
+   (orange-curry-and-naan failure) and the banana-leaf meal
+   (cutlery/water-tumbler intrusion).
+7. Independent §8 audit.
+
+## RESEARCH LOG
+
+- **2026-09-29/10-01, first pass (this file).** Built directly, with no
+  separate scaffold. 39 WebSearch queries and 3 WebFetch attempts
+  (indiantelevision.com, coca-cola.com/in — blocked by the egress proxy;
+  one more coca-cola.com/in attempt blocked). The session was cut off
+  partway by an API spend limit; the coordinator committed the partial
+  file and this pass appended the closing sections. Topics searched:
+  - **Packs and brand**: 300 mL can listings (BigBasket, Hyperpure);
+    returnable glass (200/300/330 mL); rPET 250/750 mL launch; 2.25 L
+    PET; full pack list (coca-cola.com/in via search); Ball India can
+    formats; 300 mL slim/sleek can (not resolved); slim-can Gen Z
+    article; HCCB, the planned 2027 listing and the brand list; Thums Up,
+    Limca and Maaza history (Parle, 1977, 1993 purchase, 1997 revival);
+    Campa Cola and competitor share.
+  - **Diet, religion and law**: Pew 2021 vegetarian self-identification;
+    NFHS-5 non-veg consumption; Census 2011 religion shares; state
+    cattle-slaughter laws.
+  - **Housing and time**: Census 2011 households; NSS 76th round housing
+    (flats vs independent houses); meal times.
+  - **Vessels**: thali and katori sizes; idli plates and moulds; chai
+    glass and kulhad sizes.
+  - **Dishes**: Hyderabadi, Lucknowi and Kolkata biryani; Hyderabadi dum
+    and mirchi ka salan; masala dosa size; vada pav; pani puri size and
+    names; chole bhature and kulche; butter chicken origin dispute; pav
+    bhaji; Gujarati thali; Bengali fish curry and shorshe ilish; Kerala
+    appam, parotta and beef fry; Naga smoked pork; Onam sadya layout.
+  - **Festivals**: Diwali, Holi, Pongal, Onam, Eid ul-Fitr and Ramzan,
+    Bakrid, Durga Puja and Ganesh Chaturthi 2027; Pongal rituals and
+    dishes.
+- **Sources down-weighted**: tier-4 recipe blogs, vendor listings and
+  date-calendar aggregators were used only where nothing better surfaced,
+  and are marked. Quora, Medium, Scribd and Grokipedia results were used
+  only as corroboration or ignored.
+- **No subagents were used.**
