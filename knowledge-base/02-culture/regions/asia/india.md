@@ -223,6 +223,398 @@ pools in a katori, and real-world size.
 | **Home dinner (apartment)** | A four- or six-seat dining table with a plain or printed cloth, steel or melamine serving bowls, a casserole (insulated hot-pot) of rotis, individual plates or thalis. |
 | **Family restaurant** | North Indian "family restaurant": copper-look or steel handi bowls, a naan basket, onion rings with lemon and green chilli on a small plate, cloth napkins; warm, mid-range. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (wave 1, 2026-10-01): the default
+camera is a close-up hero, so each profile leads with what must read in
+the **soft background**. The register table above stays the index. The
+national default zone is **zone 1, Delhi** (see Default when no zone is
+named); each profile names what changes elsewhere. Every India hard rule
+applies: veg unless the brief says otherwise, no beef, no pork outside a
+briefed context, no chai/lassi/water tumbler beside the hero, no puja
+corner or religious ritual in frame, nothing legible in any script.
+Research this pass was thin (search results were mostly design-trade
+and vendor pages), so most background detail is tagged MEDIUM or LOW
+and logged in the GAP LOG.
+
+#### Venue: Delhi apartment or builder-floor dining corner (ghar ka dining area)
+
+- Use for: home indoor; casual lunch (1–3), dinner at home, Sunday
+  family lunch, Diwali and Eid dinners, birthday at home; all party
+  sizes. The national urban-middle-class default (metro apartment or
+  Delhi builder floor; see General environmental norms for the housing
+  figures). [EDITORIAL default; HIGH for the housing basis]
+- Soft background (the core): **back wall** in plain painted plaster,
+  off-white, cream, pale peach or light grey (emulsion paint, sometimes
+  one textured or wallpapered feature wall in newer flats); a **wall
+  clock** and one or two framed family photos or a small print; a glass-
+  fronted **crockery unit** (showcase) along the wall holding stacked
+  "good" dinner sets and steel serving bowls as rows of pale curves; the
+  **fridge** standing in the dining space (very common; reads as a tall
+  pale rectangle with magnets as unreadable specks). **Middle distance**:
+  the opening to the kitchen with a glimpse of a steel utensil rack, a
+  pressure cooker on a gas hob, or a granite counter edge; or the living
+  side of the combined room with the back of a sofa and a wall-mounted
+  TV unit (screen dark or a soft glow). **Light**: daylight through a
+  window behind sheer or printed cotton curtains, often with a metal
+  **window grille** casting a soft lattice; at dinner, a white LED tube
+  or panel light (cool, ~5000–6500 K) or warm pendant over the table in
+  better-off homes. The **ceiling fan** is the signature shape: three
+  blades, blurred overhead or as a shadow at the top of frame. **Palette**:
+  cream and beige walls, polished pale stone floor, the silver of steel,
+  dark-brown laminate or veneer furniture, one strong colour from
+  cushions or curtains. **Signature shapes (3–5)**: the ceiling fan; the
+  glass-fronted showcase; window grille lattice; the fridge; a split-AC
+  unit as a long white bar high on the wall. **Density and wear**: tidy
+  and lived-in, neither showroom nor cluttered; a few objects on every
+  surface. **People**: a blurred relative passing toward the kitchen, at
+  most about 2.5 faces, none sharp. [MEDIUM — fan, stone floors and
+  combined living-dining per General environmental norms and design-press
+  search (DesignCafe, Interior Company); showcase unit, fridge in dining
+  room, window grille and split AC LOW-MEDIUM — general knowledge, not
+  verified this pass]
+- Shell: a reinforced-concrete flat (8–20-storey society tower) or a
+  3–4-storey builder floor; aluminium or uPVC sliding windows with
+  grilles; floor of polished marble, kota stone, granite or vitrified
+  tiles (shiny, light-coloured, cool underfoot); flat white ceiling,
+  sometimes a false-ceiling border with recessed lights in newer flats.
+  [MEDIUM — marble/stone floors corroborated by design-press search;
+  rest general knowledge]
+- The table as set here: a four- or six-seat table, wood-veneer or
+  laminate, often with a **glass top** over it or a printed cotton or
+  PVC table cover; steel or melamine serving bowls, a **casserole**
+  (insulated roti hot-pot) with lid, a small plate of onion-cucumber
+  salad and a pickle jar; individual steel thalis or ceramic dinner
+  plates. Chairs are upholstered wooden dining chairs; their top rails
+  show at frame edge. [MEDIUM — consistent with the register row "Home
+  dinner (apartment)"; glass top LOW]
+- Subregional variants and the national default: **Mumbai** — smaller
+  room, the table pushed against a wall, a balcony door with drying
+  laundry soft beyond (keep the laundry out of focus or out of frame).
+  **Bengaluru/Chennai/Hyderabad** — newer gated-community flats, vitrified
+  tiles, more wood laminate; a kolam is at the door, not inside. **Kolkata**
+  — older flat or north-city house: green shutters, red oxide or mosaic
+  floor, higher ceilings. **Kerala** — independent house, wooden ceiling
+  or sloping roof line visible, red or terracotta floor. **Small towns
+  (zones 2, 4)** — independent house, the dining table in a hall that
+  doubles as a sitting room, a steel almirah (cupboard) in the background.
+  Default when nothing is named: the Delhi flat above. [LOW-MEDIUM —
+  general knowledge, not verified]
+- Hallucination traps: carved "maharaja" wood, brass elephants, jharokha
+  arches and silk cushions everywhere (palace-hotel India, not a home);
+  incense smoke and marigolds on an ordinary weekday; a Western open-plan
+  kitchen island with bar stools; dark, dusty or crumbling rooms (poverty
+  cliché); a puja shelf or deity picture in frame (forbidden, hard rule
+  7); a chai glass or steel water tumbler at each place.
+- Never stage: steel water tumblers, chai, lassi; any legible calendar,
+  newspaper or packaging; brand logos on fridge, TV or AC; deity images;
+  identifiable children.
+- Prompt-ready line: "A tidy Delhi apartment dining corner: a glass-topped
+  wooden table with steel serving bowls and a roti casserole, cream walls
+  and a glass-fronted crockery cabinet softly blurred behind, a ceiling
+  fan overhead and daylight through a gridded window with printed cotton
+  curtains."
+- Confidence and sources: MEDIUM overall; 1 search (design press:
+  DesignCafe, Interior Company, Kriaan) plus this file's General
+  environmental norms; staging [EDITORIAL].
+
+#### Venue: Rooftop terrace (chhat) or open terrace
+
+- Use for: home outdoor; winter-afternoon snacks, IPL and India-match
+  watch parties on the final night, birthday overflow, Diwali evening
+  snacks; 2 to a small group. Real in the North and in towns where
+  houses have flat roofs; less common in metro towers (a balcony instead).
+  [LOW-MEDIUM — Meal outdoors at home; Watch party: IPL evening match]
+- Soft background (the core): **back plane** is the **parapet wall**
+  (plastered brick, waist to chest height, painted off-white, pale
+  yellow or left grey with weather streaks), and beyond it the **jumble
+  of neighbouring flat roofs** at slightly different heights: black or
+  white plastic **water tanks** (cylindrical, ribbed), stair-head rooms
+  (mumty), TV dish antennas, a few potted plants (tulsi, money plant,
+  bougainvillea spilling over), clothes-lines (keep empty or out of
+  focus). **Middle distance**: the stair-head door, a folding table,
+  white or red moulded plastic chairs, perhaps a charpoy or a durrie
+  rug. **Light**: winter midday is soft, hazy, warm-white sun (Delhi
+  winter haze flattens the sky to pale grey-blue); evening scenes run on
+  warm fairy lights (string LEDs) along the parapet and a single tube
+  light by the stair door; Diwali adds small warm diya points on the
+  parapet (decor, not worship). **Palette**: sun-bleached concrete
+  grey, cream parapets, black water tanks, terracotta pots, green
+  foliage, a coloured durrie. **Signature shapes**: ribbed water tanks;
+  the stepped skyline of flat roofs; the parapet line; plastic chairs;
+  string lights at night. **Density and wear**: weathered, practical,
+  a little cluttered at the edges. **People**: blurred backs of heads
+  facing a projector sheet or a screen, within the limit. [LOW-MEDIUM —
+  water tanks and terraces in General environmental norms; one search
+  found only designed rooftop venues, so the residential detail is
+  general knowledge, not verified]
+- Shell: a flat RCC roof slab with a parapet, accessed by an internal
+  stair; floor of rough concrete, terrazzo or cheap tiles; open sky.
+- The table as set here: a plastic or folding metal table with a cotton
+  or PVC cover, or snacks on a steel tray on a charpoy; steel or melamine
+  quarter plates; chutneys in katoris; newspaper under the fried snacks
+  (unreadable). [EDITORIAL]
+- Subregional variants and the national default: **Punjab, Delhi, UP,
+  Rajasthan** — the default above; Rajasthan's terraces in Jaipur/
+  Jodhpur show pink or blue-washed walls and harder sun. **Mumbai and
+  metro towers** — use the **balcony** instead: a narrow tiled balcony,
+  two chairs, grille, potted plants, other towers' windows soft behind.
+  **Kerala/coastal South** — sloping tiled roofs mean a sit-out (front
+  verandah) replaces the roof. **Courtyard (aangan)** in old town houses
+  is the inward-facing alternative. [LOW — not verified]
+- Hallucination traps: a Western rooftop bar or café deck with lounge
+  sofas and cocktails; the Taj Mahal or a fort on the skyline; kites
+  everywhere (kites are Makar Sankranti and Independence Day only, see
+  the festivals register); laundry in focus; dust storms and slum roofs
+  as "authentic".
+- Never stage: beer or whisky-cola (common at terrace parties); legible
+  hoardings on nearby buildings; full flags (Independence Day rooftops
+  fly them, so crop or omit); identifiable children.
+- Prompt-ready line: "A North Indian rooftop terrace on a hazy winter
+  afternoon: a plastic table with steel plates of pakoras and green
+  chutney, a cream parapet wall and a soft jumble of neighbouring flat
+  roofs with black water tanks and potted plants blurred behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (results were commercial
+  rooftop venues); built from this file and general knowledge.
+
+#### Venue: North Indian family restaurant
+
+- Use for: restaurant indoor; away from home 2–3 people, dinner out,
+  birthday dinner, Durga Puja meal out (with zone 8 changes), small
+  reception room; 2 to a small group. The default sit-down restaurant
+  for a group in North and West Indian cities. [EDITORIAL; register row
+  "Family restaurant"]
+- Soft background (the core): **back wall** with a warm, earthy finish:
+  ochre, terracotta, maroon or cream textured paint, sometimes exposed
+  brick or wood panelling; **decor** of framed rural-Punjab or Mughal-
+  style prints, a carved wooden jali panel or mirror-work, and **copper
+  or brass vessels** (handis, lotas) on wall shelves catching light as
+  warm points. **Middle distance**: rows of other tables with white or
+  cream cloths (or bare laminate in cheaper places), waiters in
+  waistcoats or a uniform kurta moving between them (blurred), a cashier
+  counter near the door, and in some places a glass window onto the
+  tandoor. **Light**: warm, amber, artificial even at lunch; lantern-
+  style or copper pendant lamps and recessed spots read as round warm
+  bokeh; a strip of cove lighting along a false ceiling. **Palette**:
+  ochre, maroon, deep red upholstery, burnished copper, white napkins.
+  **Signature shapes**: rows of round copper glints; cove-lit false
+  ceiling; carved wood or jali screen; folded cloth napkins standing on
+  tables; high-backed upholstered chairs. **Density and wear**: busy,
+  mid-range, mildly dated; tables close together; weekend evenings
+  crowded with families. **People**: blurred diners at the next table
+  (no more than about 2.5 faces), a waiter's back. [MEDIUM — copper
+  accents, warm clay palette, lantern lights in Delhi restaurant-design
+  sources (Craftsmen, Hogr, The Architects Diary); table density and
+  waistcoats LOW — general knowledge]
+- Shell: a ground-floor or first-floor commercial unit in a market
+  (Delhi "market" blocks) or a mall; tinted glass frontage, often
+  curtained; granite or vitrified-tile floor; false ceiling with cove
+  lights.
+- The table as set here: a cloth (white, cream or maroon) sometimes
+  under a glass top; cloth or folded paper napkins; steel or copper-look
+  **handis** on small stands or straight on the table; a **naan basket**
+  lined with paper or cloth; a small plate of **onion rings with lemon
+  wedges and green chilli** (always); a chrome salt-and-pepper set;
+  white ceramic dinner plates; a **finger bowl** with lemon slice may
+  arrive at the end (it is not a drink; keep it out of the hero zone).
+  [MEDIUM — register row; finger bowl LOW]
+- Subregional variants and the national default: **Mumbai/Pune** —
+  "family restaurant" signs (often a separate family section), Udupi-
+  owned multi-cuisine places with mirror walls. **Kolkata** — Mughlai/
+  Chinese-Bengali restaurants, darker wood, older fittings. **South** —
+  the default sit-down is the darshini/Udupi room or a "meals" hotel
+  (see register rows), not this. **Hyderabad** — the biryani house:
+  bigger hall, steel-topped tables, louder light. Default: the Delhi
+  market-block restaurant above.
+- Hallucination traps: London or US "curry house" decor (flock
+  wallpaper, gold Ganesh statues, sitar posters); palace-hotel fine
+  dining (silver thalis, maharaja chairs); every waiter in a turban;
+  candles on every table; a bar back-lit with bottles (many family
+  restaurants serve no alcohol; those that do must not show it).
+- Never stage: bottles, glasses or a bar counter; a steel water tumbler
+  or glass of water at each place (waiters pour one by habit); legible
+  menu cards; deity pictures by the cashier.
+- Prompt-ready line: "A busy North Indian family restaurant at dinner:
+  a cloth-covered table with copper handis, a naan basket and onion
+  rings with lemon, ochre walls with copper vessels glinting on shelves
+  and warm lantern lights blurring into round amber glows behind."
+- Confidence and sources: MEDIUM; 1 search (Delhi restaurant-design
+  pages, tier 2–4) plus the register.
+
+#### Venue: Dhaba (highway or neighbourhood)
+
+- Use for: restaurant indoor/outdoor; 1 person at a restaurant, 2–3
+  people, road-trip meals; the zone-1 default casual meal out. National
+  across North and Central India; the dhaba-style neighbourhood eatery
+  in cities shares the look. [EDITORIAL; register row "Dhaba"]
+- Soft background (the core): **back plane** is the **open kitchen
+  front**: a clay or steel-drum **tandoor** with a faint orange glow at
+  its mouth, a row of large aluminium or steel **degchis** and patilas
+  (pots) on gas burners with steam rising, a stack of steel thalis; the
+  walls behind are plain painted plaster (pale blue, green, white or
+  pink) or tile, stained above the stoves. **Middle distance**: other
+  tables or **charpoys** (wooden frame, jute or nylon webbing) with a
+  plank across them, white or red plastic chairs, a waist-high steel
+  counter with a cash box; at a highway dhaba, an open-sided shed with
+  a corrugated-sheet or thatch roof and parked trucks soft beyond (no
+  readable truck art). **Light**: daylight from the open front; at
+  night, white **tube lights** (cool, flat) and a few bare bulbs, the
+  tandoor glow as the one warm point. **Palette**: steel and aluminium
+  greys, sun-faded pastel walls, red-and-white plastic chairs, the
+  orange tandoor mouth, brown charpoy wood. **Signature shapes**: the
+  round tandoor mouth; a rank of tall pots; charpoy webbing; tube
+  lights; the steel thali stack. **Density and wear**: plain, busy,
+  well-worn, clean enough. **People**: one blurred cook at the tandoor,
+  a figure at the counter, within the limit. [MEDIUM — charpoys,
+  plank, tandoor, steel thalis per SCMP and the register; tube lights
+  and pastel walls LOW — general knowledge]
+- Shell: a single-storey open-fronted shed or shop-front; floor of
+  rough cement or tiles; tin or concrete roof with a ceiling fan or
+  pedestal fan.
+- The table as set here: a bare steel-topped or laminate table, or the
+  plank on a charpoy; steel thalis or steel plates with katoris; a steel
+  jug is typical (keep out); a small plate of sliced onion, green chilli
+  and lemon; rotis served straight onto the plate. [MEDIUM]
+- Subregional variants and the national default: **Punjab highways
+  (GT Road, Murthal)** — the big modern "dhaba" with tiled halls,
+  parking, and a Punjabi-village theme (cartwheels, painted walls);
+  **Rajasthan** — sandstone sheds, colourful turbaned staff is real but
+  avoid as a default. **South**: the counterpart is the darshini/Udupi
+  tiffin room or roadside "meals" hotel (register rows), with steel
+  buckets of sambar and standing counters. Default: the open-fronted
+  zone-1 dhaba above.
+- Hallucination traps: the upmarket "dhaba-themed" restaurant (painted
+  trucks, faux mud walls, lanterns) when the brief wants the real one;
+  poverty framing (flies, grime); a turbaned Sikh waiter as caricature;
+  hand-painted signage readable in the back.
+- Never stage: legible truck art, painted signs or menu boards; liquor
+  (some highway dhabas tolerate it; none in frame); water jugs and
+  tumblers beside the hero; non-veg in a veg brief (many dhabas are
+  "pure veg").
+- Prompt-ready line: "A roadside North Indian dhaba at lunchtime: a
+  steel thali with dal, paneer and tandoori rotis on a bare steel table,
+  a charpoy and plastic chairs blurred behind, and the orange glow of a
+  tandoor beside a row of tall steaming pots in the open kitchen."
+- Confidence and sources: MEDIUM; 1 search (SCMP on dhaba history,
+  restaurant-design pages) plus the register.
+
+#### Venue: Chaat stall or cart (chaat-wala)
+
+- Use for: street / on the go; meal on the go (1), friends at a chaat
+  corner (2–3), evening snack. National; zone 1's chaat corner is the
+  default; Mumbai's vada pav and pav bhaji stalls and Kolkata's puchka
+  cart are variants. [HIGH that chaat is a national street register;
+  EDITORIAL default]
+- Soft background (the core): the stall itself fills the near
+  background: a **stainless-steel counter or cart** with rows of
+  **steel bowls and glass jars** (boiled potato, chickpeas, sev, curd,
+  tamarind and green chutneys, onion), a large clay or steel **matka**
+  of spiced water with a ladle, a stack of **dona** leaf bowls and
+  paper plates, a tawa with aloo tikki browning at the side. **Middle
+  distance**: the market street at dusk: neighbouring shop fronts as
+  warm rectangles, a sweet shop's glass counter, an auto-rickshaw's
+  green-and-yellow (Delhi CNG) or black-and-yellow (Mumbai) shape
+  passing, two-wheelers parked in a row. **Light**: evening is the peak:
+  a **bare bulb or white LED tube** on the cart (cool, harsh) against
+  the warm sodium/yellow and mixed LED glow of shops behind; lots of
+  small mixed-colour bokeh. **Palette**: polished steel, chutney
+  green and tamarind brown, pale leaf bowls, warm shop light, dusky blue
+  sky. **Signature shapes**: rows of steel bowls; the round matka;
+  stacked dona; the hanging bulb; an auto-rickshaw silhouette.
+  **Density and wear**: busy, clean and bright (never squalid). **People**:
+  the vendor's apron and forearms only, cropped (no hands holding food
+  toward camera), blurred customers within the limit. [MEDIUM — steel
+  containers, spiced-water dispenser, disposable bowls per vendor
+  catalogues (tier 4) and the register; auto-rickshaw colours and
+  evening peak LOW — general knowledge]
+- Shell: a pushcart or a fixed counter at a shop front in a market;
+  tarpaulin or tin awning; pavement.
+- The table as set here: no table: the dish sits on the **steel counter
+  ledge** in a dona or on a small steel plate; the hero stands on the
+  counter. Plastic stools only at bigger stalls. [EDITORIAL]
+- Subregional variants and the national default: **Mumbai** — vada pav
+  stall with a big kadai of oil and pav in trays; pav bhaji on a huge
+  flat tawa; **Kolkata** — puchka cart with a basket of shells and a
+  red cloth; **Varanasi/Lucknow** — tamatar chaat and basket chaat in
+  clay bowls; **South** — dosa carts and bajji stalls. Default: Delhi
+  market chaat corner (Lajpat Nagar/Chandni Chowk style) above.
+- Hallucination traps: hand-painted Hindi signs or Bollywood posters in
+  focus; a crowd pressing in; poverty and dirt; a food truck in Western
+  style; Thai or Mexican street-cart forms; the vendor's hand filling
+  a puri in close-up.
+- Never stage: legible stall boards, prices or shop signs (heavy prior,
+  frame tight); hands holding food; the chai glass from the next stall;
+  plastic water pouches.
+- Prompt-ready line: "A Delhi chaat stall at dusk: a leaf bowl of papdi
+  chaat on a polished steel counter, rows of steel chutney bowls and a
+  clay matka just behind, and a busy market street of warm shop lights
+  and a passing auto-rickshaw melting into soft bokeh."
+- Confidence and sources: MEDIUM; 1 search (vendor catalogues, tier 4)
+  plus the Street food register.
+
+#### Venue: Banquet hall or marriage lawn (wedding and reception buffet)
+
+- Use for: other; wedding feast and reception, big birthdays, family
+  functions; 1, 2 or a small group as the snapshot of 200–500 guests.
+  The North/West default event venue (Celebration: Wedding feast). South
+  feasts use the kalyana mandapam variant below. [MEDIUM — venue
+  categories in How large gatherings work here]
+- Soft background (the core): **ceiling and walls dressed in fabric**:
+  swagged drapes in white, ivory or pastel (with pink, gold or marigold
+  accents), **crystal chandeliers** and strings of **fairy lights** as
+  clusters of warm sparkle; **marigold and rose garlands** hanging in
+  strands. **Middle distance**: the **buffet line of polished steel or
+  brass-finish chafing dishes** under lids, with a skirted counter and
+  warm lamps, live-counter stations (tandoor, chaat) as busy bright
+  patches, round tables with satin cloths and chair covers with sashes,
+  a raised stage with a floral backdrop far behind (couple never in
+  frame). **Light**: night event, warm (~2700–3000 K) chandeliers and
+  fairy lights, coloured uplighting (magenta, gold) on drapes; at a
+  lawn, festoon lights strung overhead and a dark sky. **Palette**:
+  ivory and gold, marigold orange, rose pink, polished steel, satin
+  sheen. **Signature shapes**: chandelier sparkle; the row of domed
+  chafing-dish lids; swagged drapes; chair covers with bows; garland
+  strands. **Density and wear**: crowded, glossy, new-looking. **People**:
+  blurred guests in lehengas, saris and sherwanis, within about 2.5
+  faces, none sharp. [MEDIUM — chandeliers, drapes, florals and
+  chafing dishes in event-decor sources (Chennai Convention Centre, The
+  Knot, Flambé Karma); colour temperatures EDITORIAL]
+- Shell: a purpose-built banquet hall (often first floor of a
+  commercial building, mirrored walls, granite floor) or a **marriage
+  lawn** (open grass plot with a tent shamiana, carpets laid over the
+  grass, a fabric ceiling); hotel ballrooms at the top end.
+- The table as set here: a round table, white or satin cloth, chair
+  covers; a large white melamine or ceramic plate (~30 cm) with a buffet
+  serving; a spoon and paper napkin; a small floral centrepiece. [MEDIUM
+  — Celebration: Wedding feast]
+- Subregional variants and the national default: **Tamil Nadu,
+  Karnataka, Kerala** — the **kalyana mandapam/hall dining room**:
+  long narrow tables covered in white paper, banana leaves in rows,
+  plain steel chairs, tube lights and ceiling fans, servers with steel
+  buckets walking the row — plain, bright, functional, not glossy.
+  **Bengal** — a community or rented hall with a buffet or seated
+  courses on white-papered tables. **Muslim weddings** — biryani deg
+  and seated or buffet service; same hall look. Default: the North
+  Indian banquet hall above.
+- Hallucination traps: the bride, groom or mandap fire in frame; the
+  baraat horse; a Western ballroom with champagne flutes; a bar
+  counter (North receptions often have one); everything gold and red
+  like a film set; elephants.
+- Never stage: rites (pheras, mandap fire, nikah); bar or cocktail
+  counters, glasses; legible welcome boards with names; identifiable
+  children or the couple; a full flag.
+- Prompt-ready line: "A North Indian wedding reception at night: a round
+  table with a white satin cloth and a buffet plate of paneer curry, dal
+  and naan, a long line of gleaming steel chafing dishes, chandeliers,
+  ivory drapes and marigold garlands dissolving into warm sparkling bokeh
+  behind."
+- Confidence and sources: MEDIUM; 1 search (event-decor and catering
+  pages, tier 3–4) plus Celebration: Wedding feast.
+
 ---
 
 ## TRUSTED CONTENT
@@ -779,6 +1171,563 @@ cycle.
 - **Cricket** — watching a match at home with snacks is a genuine
   national occasion (IPL runs roughly March–May) [LOW-MEDIUM — not
   re-checked]; no team kit or logos legible.
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7: the frame shows the operator's party
+(1, 2 or a small group of identical place settings) at one stretch of a
+bigger event, and the crowd is implied. Every India hard rule applies
+unchanged: the veg/non-veg decision comes from the brief (vegetarian
+when unspecified), no beef, no pork outside a briefed Northeast/Goa/Coorg
+context, nothing held in a hand, no chai/lassi/water tumbler beside the
+hero, no religious ritual in frame.
+
+### How large gatherings work here
+
+- **Who and how many.** The extended family is the unit: festival meals
+  gather 8–25 relatives at the parents' or grandparents' home, and
+  neighbours and friends drop in through the day [EDITORIAL estimate,
+  not sourced]. Weddings are far larger: a WeddingWire India survey put
+  the **average 2024 guest list at about 330** (326 in 2023), and
+  caterers describe weddings as **3–4 functions** (mehendi, sangeet,
+  wedding, reception), each fed separately [MEDIUM — WeddingWire India
+  Newly Wed Survey 2024–25 via search, tier 3 industry source with a
+  commercial interest; hitkariproductions catering guide, tier 4].
+- **Where (intake venues).** *Home indoor*: festival meals (Diwali,
+  Eid, Onam at home, Durga Puja lunch, birthdays). *Home outdoor*: the
+  terrace (chhat) or courtyard for overflow and children's parties in
+  towns. *Restaurant*: Durga Puja and birthday dinners out, and smaller
+  receptions in a private room. *Other*: a rented **banquet hall,
+  marriage garden ("lawn") or kalyana mandapam** for weddings and big
+  birthdays [MEDIUM — standard venue categories on WeddingWire India and
+  caterer guides; EDITORIAL mapping].
+- **Table form and serving style, by region.** *North and West*: the
+  wedding and big-party default is a **standing buffet** with steel
+  chafing dishes in a long line, live counters (chaat, tandoor, dosa)
+  and plates taken by the guest; at home, serving bowls crowd the dining
+  table and family members serve each other. *South*: the wedding and
+  Onam default is a **seated banana-leaf feast**, long rows of narrow
+  tables (or floor mats in older halls), leaves laid tip-left, and
+  servers walking the row with buckets ladling rice, sambar, rasam and
+  payasam course by course [HIGH — Wikipedia "Sadya" (already cited);
+  Awesome Cuisine and My Cooking Journey on Tamil kalyana sappadu].
+  *East (Bengal)*: courses served in order, at home or as a restaurant
+  thali or buffet in Puja season.
+- **Plates and cutlery that differ from everyday.** Buffets use large
+  white melamine or ceramic plates (~30 cm) with a spoon; disposable
+  **areca-leaf or sal-leaf plates** and **dona** leaf bowls at community
+  and religious meals; the banana leaf at southern feasts with no cutlery
+  at all. At home, the "good" steel thali or a matching ceramic dinner
+  set comes out. [MEDIUM — uncontested, not individually re-checked;
+  EDITORIAL]
+- **Snapshot-staging default for India [EDITORIAL].** The two or three
+  most authentic crowd cues are: (1) **more serving bowls than the
+  visible diners could empty** (four to six katoris or serving bowls of
+  different curries, a covered roti casserole, a mithai platter), partly
+  cropped; (2) **at a hall, the buffet line of steel chafing dishes or
+  the long row of banana leaves running out of frame**; (3) **festival
+  decor** soft in the background: marigold torans over a doorway, string
+  lights, diyas on a sill, a pookalam edge at the threshold. Blurred
+  relatives (at most about 2.5 faces, none sharp) in festive clothes are
+  the fourth option. Avoid the Bollywood cliché of every frame being a
+  wedding.
+
+#### Celebration: Diwali family dinner (Deepavali)
+
+- Type: calendar holiday
+- When: October–November (Lakshmi Puja night; 29 Oct 2027, see the
+  festivals register). Dinner after the evening puja, ~20:30–22:00;
+  intake time **evening**. Afternoon snack-and-mithai visits are a
+  second register (golden-hour).
+- Gathering: the extended family at home, roughly 6–20, with visitors
+  bringing mithai boxes through the evening; *home indoor*, with the
+  terrace or balcony for the diyas [EDITORIAL estimate].
+- The spread: in the North and West a **vegetarian festive dinner** is
+  the norm: puri (deep-fried, puffed), chole (see catalog: Chole
+  bhature), dum aloo, a paneer dish (see catalog: Paneer butter masala),
+  dal makhani, pulao, raita, and sweets [MEDIUM — JCookingOdyssey and
+  Cook with Manali menus, tier 4; matches the festivals register]. The
+  sweet table: kaju katli, ladoos, barfi, soan papdi, gulab jamun (see
+  catalog: Diwali mithai spread; Compact sweets). Snacks (namkeen,
+  mathri, chakli in the South and West). A real table carries 5–8
+  serving bowls plus a mithai platter and a namkeen bowl.
+- Snapshot staging: **1 setting**: one steel or ceramic thali with two
+  puris, a katori of chole and one of dum aloo, a spoon of raita; behind
+  it a basket of puris and two cropped serving bowls, a mithai platter
+  at the frame edge; hero beside the thali. **2 settings**: two identical
+  thalis side by side, between them a covered puri casserole, the
+  paneer bowl and the mithai platter; a third and fourth serving bowl cut
+  by the frame. **Small group (3–4)**: one end of the dining table, the
+  spread of 5–6 bowls running out of frame, a multi-serve bottle in the
+  midground if the brief allows one. Crowd cues: string lights and a
+  marigold toran soft behind; diyas on a windowsill out of focus; an
+  open mithai box with the lid set aside.
+- Decor and cues: clay diyas (lit, on a sill or the floor at the door),
+  rangoli at the threshold (finished, never being drawn), new clothes
+  (silk kurtas, saris) on blurred figures, gift boxes of dry fruit.
+  Clichés to avoid: an orange haze, incense smoke, fireworks filling the
+  window.
+- Never stage: the puja thali, deity images or the altar; the hero near
+  firecrackers or an open flame; card games with money (a real Diwali
+  custom, gambling); alcohol (Diwali house parties often have it). No
+  non-veg dish unless the brief says so.
+- Confidence and sources: [MEDIUM] for the menu (tier-4 recipe sites,
+  consistent with the existing register); [EDITORIAL] for headcount and
+  staging.
+
+#### Celebration: Eid ul-Fitr lunch (Eid / Meethi Eid)
+
+- Type: calendar holiday
+- When: the day after Ramzan ends (~10 Mar 2027, moon-dependent). The
+  day opens with Eid prayers and a bowl of sheer khurma; the **main
+  family meal is lunch**, then visits continue into the evening. Intake
+  time **midday** (evening for the visiting register).
+- Gathering: family and relatives at home, often 10–30 across the day
+  as households visit each other; *home indoor* [MEDIUM that visiting
+  relatives is the core custom — Agoda guide and Newsband via search,
+  tier 3–4; headcount EDITORIAL].
+- The spread: **biryani** as the centrepiece in a wide handi or a large
+  platter (see catalog: Hyderabadi dum biryani; Lucknowi (Awadhi)
+  biryani; Kolkata biryani, by zone), kebabs (seekh, shami), a korma or
+  goat curry, raita, mirchi ka salan in Hyderabad, and **sheer khurma**
+  in a big bowl (see catalog: Sheer khurma), plus seviyan and phirni
+  [MEDIUM — Agoda, The Style List, History.com via search; consistent
+  with the festivals register]. A real table carries the biryani, 3–5
+  side dishes and 1–2 sweets. **Halal by definition; no pork, no beef.**
+- Snapshot staging: **1 setting**: a ceramic dinner plate with a mound of
+  biryani (one goat or chicken piece visible, no egg unless Kolkata or
+  the brief says so), a small bowl of raita; the handi cropped behind
+  and a glass bowl of sheer khurma at the edge. **2 settings**: two
+  plates, the biryani handi between them with its lid off, a plate of
+  seekh kebabs with onion rings and lemon, the sheer khurma bowl with
+  small cups beside it. **Small group**: a dastarkhwan-style spread on a
+  table (or a white cloth on a floor rug, a real register in older
+  homes), the handi, kebabs, korma, raita and sheer khurma, running out
+  of frame. Crowd cues: extra small dessert bowls stacked beside the
+  sheer khurma; blurred figures in new kurtas and embroidered clothes;
+  a tray of dates or a box of sweets at the edge.
+- Decor and cues: new clothes (white or pastel kurta-pyjama, embroidered
+  salwar suits), attar bottles and eidi envelopes are real but keep them
+  out of hero position; crescent-moon decor is commercial and optional.
+- Never stage: prayer, the mosque, a prayer mat or caps in hero
+  position; any non-halal food; the hero as the drink that breaks a
+  fast (that is iftar, not Eid). Alcohol never.
+- Confidence and sources: [MEDIUM] menu and visiting (tier 3–4 sources,
+  consistent across them); [EDITORIAL] staging and headcount.
+
+#### Celebration: Onam sadya at home (Onasadya)
+
+- Type: calendar holiday (Kerala, zone 6)
+- When: Thiruvonam day (12 Sep 2027); the sadya is the **midday** meal.
+- Gathering: the extended family at the ancestral or parents' home,
+  often 10–30; many urban families now order a catered sadya, and
+  restaurants and offices run sadya lunches [EDITORIAL estimate;
+  catered sadya pricing ₹600–1,200 per plate appears in a wedding
+  catering guide, tier 4]. *Home indoor*, seated in a row at a long
+  table or on mats.
+- The spread: see catalog: **Onam sadya** (about 26 dishes on a
+  banana leaf, tip to the left, red matta rice in the centre, served in
+  order, payasam last). Here the leaf is the plate; the shared vessels
+  are the servers' steel buckets and bowls of sambar, rasam and payasam,
+  not dishes on the table.
+- Snapshot staging: **1 setting**: one full leaf in frame with the
+  documented layout, the next leaf's tip just entering at the frame
+  edge; hero to the right of the leaf on the bare table. **2 settings**:
+  two leaves side by side on a long table, the row continuing out of
+  frame on one side; a steel bucket of sambar with a long ladle at the
+  far edge, soft. **Small group**: a row of 3–4 leaves receding along the
+  table, identical servings on each. Crowd cues: the row of leaves
+  running out of frame; a server's steel bucket half in frame (no hand,
+  no face); the edge of a pookalam on the floor of the doorway behind.
+- Decor and cues: kasavu (cream with gold border) saris and mundus on
+  blurred figures, a pookalam, a brass nilavilakku lamp soft in the far
+  background at most. Clichés: snake boats and Kathakali dancers.
+- Never stage: any non-veg item, cutlery on the leaf, a water tumbler on
+  the leaf, the hero on the leaf itself, the lamp lit as an object of
+  worship in hero position.
+- Confidence and sources: [HIGH] for the sadya form (catalog sources);
+  [EDITORIAL] for headcount and staging.
+
+#### Celebration: Durga Puja family meal out (Pujo, zone 8)
+
+- Type: calendar holiday (Bengal, also Delhi's Chittaranjan Park and
+  Bengali communities nationwide)
+- When: September–October, Shashthi to Dashami (5–9 Oct 2027). Lunch or
+  late dinner after pandal-hopping; intake time **evening** (or
+  midday).
+- Gathering: family or friends, 4–10, at a restaurant; eating out during
+  Puja is a modern Kolkata habit alongside pandal-hopping [MEDIUM —
+  EazyDiner and Agoda Kolkata Puja guides, tier 3; Gulf News food
+  features on Puja dishes]. The **bhog** (khichuri, labra, payesh) eaten
+  at the pandal is a religious offering and stays out of hero staging.
+  *Restaurant*, or *home indoor* for the family Puja lunch.
+- The spread: a Bengali Puja thali or buffet with **kosha mangsho**
+  (dark, dry-braised goat curry), **shorshe ilish** or another fish
+  (see catalog: Bengali fish meal), luchi with **cholar dal** and
+  **niramish aloor dum** (vegetarian Ashtami register), pulao, chutney,
+  and sweets (see catalog: Rasgulla and mishti); or a **Kolkata biryani**
+  with potato and egg (see catalog: Kolkata biryani) [MEDIUM — EazyDiner,
+  Agoda, Gulf News]. Many Bengali Hindus eat vegetarian on Ashtami
+  [LOW — not verified this pass].
+- Snapshot staging: **1 setting**: a large bell-metal-look or steel thali
+  with luchi, cholar dal, aloor dum and a katori of kosha mangsho
+  (non-veg brief) or paneer (veg), a sweet at the rim. **2 settings**:
+  two Kolkata biryani plates (potato visible), a shared bowl of chicken
+  chaap or mutton rezala cropped between them. **Small group**: one end
+  of a restaurant table with shared bowls of kosha mangsho, fish, luchi
+  basket, and an earthen bowl of mishti doi, running out of frame.
+  Crowd cues: festive saris and panjabis on blurred diners; a busy
+  restaurant behind; lights of a street pandal glimpsed through the
+  window, unreadable and out of focus.
+- Decor and cues: red-and-white sari borders (Dashami), dhak drums only
+  as a background suggestion. Clichés: the idol close-up.
+- Never stage: the pandal interior, the idol, sindoor khela, the bhog
+  queue or immersion; legible restaurant names.
+- Confidence and sources: [MEDIUM] (tier-3 food media and Gulf News);
+  the Ashtami vegetarian claim [LOW].
+
+#### Celebration: Wedding feast (shaadi / kalyanam)
+
+- Type: life event
+- When: wedding season roughly November–February and April–May
+  (auspicious dates vary) [LOW — not verified this pass]. North
+  receptions are **evening** (dinner 21:00–23:00); South wedding feasts
+  are often **midday** after a morning muhurtham.
+- Gathering: an average of about 330 guests in 2024 across several
+  functions [MEDIUM — WeddingWire India, tier 3]. *Other*: banquet hall,
+  marriage lawn, hotel ballroom or kalyana mandapam.
+- The spread, by region: *North/West buffet* (the default when the brief
+  names no zone): a line of chafing dishes with paneer butter masala,
+  dal makhani, a kofta, mixed veg, jeera rice or veg biryani, naan and
+  tandoori roti from a live tandoor, raita, salad, and live counters
+  (chaat, pani puri, tikki); desserts: gulab jamun, jalebi with rabri,
+  ice cream; non-veg receptions add butter chicken, mutton rogan josh and
+  biryani [MEDIUM — catering guides and price pages via search, tier 3–4;
+  see catalog: Paneer butter masala; Butter chicken; Pani puri;
+  Compact sweets]. *South seated feast*: **kalyana sappadu** on a banana
+  leaf, salt, pickle and a banana at the top, kosumalli, poriyal, kootu,
+  avial, pachadi, vada and appalam, rice with paruppu and ghee, then
+  sambar, rasam, mor kuzhambu, payasam, served in stages along the row
+  [HIGH — Awesome Cuisine, My Cooking Journey, Foodies Only; see catalog:
+  South Indian "meals" on banana leaf; Onam sadya for the Kerala form].
+  Muslim weddings centre on biryani; never stage a beef or pork dish.
+- Snapshot staging: **1 setting (buffet)**: a round banquet table with a
+  white or satin cloth and a chair-cover edge, one large white plate
+  with a buffet serving (paneer curry, dal, rice, half a naan, salad),
+  the buffet line of polished chafing dishes soft behind; hero on the
+  table beside the plate. **1–2 settings (South)**: one or two banana
+  leaves at a long white-papered table, the row of leaves running out of
+  frame. **Small group**: a round table, 3–4 identical plates, a shared
+  plate of starters (paneer tikka, hara bhara kebab) in the middle.
+  Crowd cues: marigold and rose garlands and fairy lights overhead; the
+  buffet line or row of leaves; blurred guests in lehengas and
+  sherwanis (no sharp faces).
+- Decor and cues: marigold strings, mandap draping, fairy lights, brass
+  urli bowls with floating flowers. Clichés: the bride and groom in
+  frame, the baraat horse, every scene a "big fat Indian wedding".
+- Never stage: the rites (pheras, the mandap fire, the muhurtham, nikah);
+  the bar counter or cocktail hour (North receptions often have one);
+  bride and groom as identifiable figures; legible signage.
+- Confidence and sources: [MEDIUM] buffet menu and guest count; [HIGH]
+  southern leaf feast; [EDITORIAL] staging.
+
+#### Celebration: Birthday party at home (janamdin)
+
+- Type: life event
+- When: any time; children's parties in the late afternoon
+  (**golden-hour**), adult birthdays as a family dinner (**evening**).
+- Gathering: a children's party of 15–30 (classmates, cousins, parents)
+  at home, on the building terrace, in a society clubhouse or at a
+  restaurant party room; an adult birthday is the immediate family or
+  4–10 friends at home or a restaurant [EDITORIAL estimate]. *Home
+  indoor*, *home outdoor* (terrace) or *restaurant*.
+- The spread: the **cake** is central (a cream cake from a local bakery,
+  often eggless for veg families), cut to song, with **samosa or veg
+  puffs and potato chips** as the classic pairing; modern parties add
+  mini pizzas, French fries, veg noodles, paneer rolls, pav bhaji or
+  chole bhature as the heavier dish, and gulab jamun [MEDIUM — Tarla
+  Dalal, Chitra's Food Book and Bhandary's Kitchen party menus, tier 4,
+  consistent across them; see catalog: Samosa; Pav bhaji; Chole bhature;
+  Compact sweets]. A real table carries the cake plus 4–6 snack platters.
+- Snapshot staging: **1 setting**: a paper or melamine party plate with a
+  cake slice, a samosa and a few chips with a ketchup dot; the cake
+  board cropped at the frame edge. **2 settings**: two identical plates,
+  the cake (one slice cut) between them, a platter of veg puffs
+  partly in frame. **Small group**: one end of a table covered with a
+  printed party cloth, the cake, platters of samosas, noodles and fries
+  running out of frame, a multi-serve bottle in the midground if the
+  brief allows. Crowd cues: balloons and a foil bunting (no legible
+  letters or numbers), stacked paper plates, a cone party hat on the
+  table.
+- Decor and cues: balloon arches, a cake knife beside the cake (never
+  held). Clichés: candles spelling a name, a legible "Happy Birthday".
+- Never stage: legible text on the cake or bunting; egg in a veg brief
+  (say "eggless cream cake"); characters or licensed cartoon décor.
+- Confidence and sources: [MEDIUM] food (tier-4 recipe sites); [EDITORIAL]
+  headcount and staging.
+
+#### Celebration: Sunday family lunch (ravivar ka khana)
+
+- Type: community or family gathering
+- When: Sunday, **midday** (~13:00–15:00), the one meal of the week the
+  working family eats together at leisure.
+- Gathering: the household plus visiting grandparents, siblings or
+  in-laws, 5–12; *home indoor*. This is the everyday-scale cousin of the
+  festival meal and is already sketched in ENVIRONMENT & STAGING SCENES
+  ("Casual lunch at home — 3 people").
+- The spread, by zone: chole bhature or rajma chawal (North; see
+  catalog: Chole bhature; Rajma chawal), a chicken or goat curry with
+  rice (non-veg households; "Sunday mutton" is a common North and East
+  habit [LOW — not verified this pass]), a biryani handi (Hyderabad,
+  Lucknow, Kolkata), a Bengali fish meal (see catalog: Bengali fish
+  meal), or a South Indian meal with sambar, rasam and a special
+  poriyal. 4–6 serving bowls.
+- Snapshot staging: **1 setting**: one thali or plate, a bowl of the
+  centrepiece curry and a roti casserole at the edge. **2 settings**: two
+  thalis, the centrepiece bowl, rice bowl and salad plate between them.
+  **Small group**: the dining table in daylight, serving bowls in a
+  cluster, more than the visible diners need, running out of frame.
+  Crowd cues: an extra chair pulled up, a newspaper folded on a side
+  table, a grandparent blurred at the far end.
+- Decor and cues: ceiling fan, daylight through curtains, the steel
+  serving bowls with lids. No festival decor; it is an ordinary Sunday.
+- Never stage: the steel water tumbler, chai, or any beef or pork dish.
+- Confidence and sources: [EDITORIAL], built on the existing scenario;
+  the Sunday-mutton habit [LOW].
+
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8: two meanings, watching sport together
+and social game nights. Every India hard rule applies unchanged: the
+veg/non-veg decision comes from the brief (vegetarian when unspecified),
+no beef, no pork outside a briefed Northeast/Goa/Coorg context, nothing
+held in a hand, no chai/lassi/water tumbler beside the hero, no
+religious ritual in frame. Screens, cards and boards are never legible;
+no team crests, kits, sponsor marks or league logos; no gambling as the
+subject. The snapshot rule (§5.7) sets party size.
+
+### Watch parties
+
+Cricket is the watch-party sport in India by a wide margin: IPL 2025
+drew 137 crore views on JioHotstar and its final 892 million, and the
+India–Pakistan Champions Trophy match in February 2025 drew 60.2 crore
+views [HIGH — Business Standard, myKhel]. The meal sits mostly **at
+home** (living room, rooftop or terrace), with cafés screening on a
+projector as the public form; the signature viewing foods are samosa,
+pakora, chaat, pav bhaji, namkeen bowls, a biryani handi and pizza
+delivery, with masala chai as the authentic but out-of-frame drink
+[MEDIUM — Swiggy Diaries, India Food Network]. Pro Kabaddi is the
+second-biggest league and uses the same living-room spread [MEDIUM —
+prokabaddi.com/BARC]. Football is low outside the World Cup; Kerala, West
+Bengal and Goa have real World Cup screening cultures, but they are not
+verified this pass and Kerala's viewing food (parotta with beef fry) is
+beef-gated by hard rule 2, so no entry is given [LOW — not verified].
+Existing line: the Cricket bullet in the FESTIVALS register
+(`india.md:779-781`), which this section expands.
+
+#### Watch party: IPL evening match
+
+- When: late March to May (the existing festivals register gives the
+  season). Evening games start ~19:30 IST, so intake **evening** (into
+  late evening, ~23:00 finish); weekend double-header afternoon games at
+  15:30 IST are **golden-hour** [LOW — not verified, start times from
+  model knowledge; season per the festivals register]. The final (late
+  May or early June) is the party night.
+- Gathering: family in the living room, or 4–8 friends at someone's flat;
+  for the final, a rooftop or terrace party, or a café with a projector
+  [MEDIUM — Swiggy Diaries, Haier India via the research notes]. Intake
+  venue: *home indoor* (living room), *home outdoor* (terrace/chhat), or
+  *restaurant* (café screening).
+- The spread: a newspaper- or paper-lined steel tray of **pakoras**
+  (onion bhaji, mixed-veg fritters), **samosas** with green and tamarind
+  chutney in small katoris (see catalog: Samosa), a bowl of **namkeen**,
+  **bhel puri** or papdi chaat in a steel bowl (see catalog: Papdi chaat
+  and bhel puri), **pav bhaji** in a wide pan or steel bowls with a stack
+  of buttered pav (see catalog: Pav bhaji); a delivery pizza box or two,
+  lid open; for a non-veg brief, a biryani handi (see catalog: Hyderabadi
+  dum biryani) or kathi rolls in paper (see catalog: Kathi roll)
+  [MEDIUM — Swiggy, India Food Network for the menu; vessels EDITORIAL].
+  Melamine or steel quarter plates stacked beside the snacks.
+- Surface and environment: the **low centre table** (glass-top or wooden)
+  in front of a sofa, cushions on the floor for the overflow, a rug; the
+  TV is a soft green-and-white glow on the wall unit; a **ceiling fan**
+  overhead; tube light or a warm floor lamp at night. On the terrace:
+  plastic chairs, a folding table, string lights, a projector sheet as a
+  pale blurred rectangle. What reads as India: the steel katoris of
+  chutney, the newspaper under the pakoras, the ceiling fan, the
+  sofa facing a wall-mounted TV unit in a city flat.
+- Snapshot staging: **1 setting**: one quarter plate with two pakoras, a
+  samosa and a dab of green chutney on the centre-table corner; the
+  pakora tray and chutney katoris cropped at the edge; hero beside the
+  plate; the TV glow soft behind. **2 settings**: two identical plates
+  side by side on the sofa side of the table, the shared pakora tray and
+  bhel bowl between them, a pizza box cropped at the frame edge.
+  **Small group (3–4)**: the full centre table with tray, two chutney
+  katoris, a pizza box and a pav bhaji pan running out of frame, a 2 L
+  PET in the midground if the brief allows a multi-serve bottle. Crowd
+  cues: the sofa running out of frame, two backs of heads soft toward the
+  screen, extra floor cushions, more plates stacked than the visible
+  diners need.
+- Never stage: team jerseys, IPL or franchise marks, sponsor logos, a
+  legible score bug or channel logo on the screen; fantasy-cricket or
+  betting apps on a phone (heavily advertised, gambling-adjacent; India's
+  2025 online-gaming law banned real-money gaming [LOW — not verified]);
+  beer or whisky-cola (IPL house parties often have it; see ICONIC
+  BEVERAGES); chai in a glass or the water tumbler beside the hero;
+  a non-veg dish without a non-veg brief.
+- Confidence and sources: scale [HIGH — Business Standard, myKhel];
+  home/rooftop/café format and menu [MEDIUM — Swiggy Diaries, India Food
+  Network, Haier India]; kick-off times [LOW — not verified]; staging
+  [EDITORIAL].
+
+#### Watch party: India international match (India–Pakistan, ICC tournaments)
+
+- When: ICC tournaments (Champions Trophy, T20 and ODI World Cups) and
+  bilateral series, any month; an India–Pakistan match is the single
+  biggest viewing night of the year. Start times depend on the host
+  country: day-night ODIs and T20s usually start 14:00–19:30 IST, so
+  **golden-hour** into **evening**; a Test is daytime (**midday**)
+  [LOW — not verified, model knowledge]. India-host games played in the
+  evening are the default scene.
+- Gathering: the extended family around the living-room TV, 6–15 people,
+  with neighbours dropping in; the closest Indian analogue to the
+  Pakistani family-and-biryani viewing documented by Al Jazeera [HIGH for
+  Pakistan, Al Jazeera Feb 2026; India by analogy, EDITORIAL]. Intake
+  venue: *home indoor*.
+- The spread: a bigger version of the IPL table, closer to a festival
+  meal: a **biryani** handi or deg as centrepiece for a non-veg brief
+  (see catalog: Biryani regional variants — index), or a veg pulao,
+  chole with puri or pav bhaji for a veg brief; raita in a bowl; the
+  pakora tray and samosas; a box of mithai opened for a win (see
+  catalog: Compact sweets) [MEDIUM for snacks, Swiggy; biryani as the
+  India centrepiece LOW — not verified for India, HIGH for Pakistan].
+- Surface and environment: the centre table plus the dining table pulled
+  close to the sofa, serving bowls on the dining table edge; TV glow,
+  ceiling fan, evening light through curtains. Optional cue: a cropped
+  saffron-white-green paper streamer or bunting edge soft in the
+  background (never a full flag, never a team kit).
+- Snapshot staging: **1 setting**: one steel thali or plate with a
+  portion of biryani (or pulao) and raita at the dining table edge
+  nearest the TV, the handi lid off and cropped beside it. **2
+  settings**: two identical plates, the handi between them, the pakora
+  tray behind. **Small group (3–4)**: the dining-table end with the handi,
+  raita, two snack trays and a mithai box running out of frame; hero
+  per brief in the midground. Crowd cues: chairs turned toward the TV,
+  blurred relatives on the sofa (at most ~2.5 faces, none sharp), more
+  serving bowls than the visible diners could empty.
+- Never stage: political imagery, burnt or defaced flags, any full flag
+  (of India or Pakistan); team jerseys with sponsors or ICC marks;
+  betting or fantasy apps; alcohol; chai or the water tumbler beside the
+  hero; non-veg food without a non-veg brief.
+- Confidence and sources: scale [HIGH — Business Standard]; India–Pakistan
+  T20 WC 2026 record [MEDIUM — Yardbarker]; family-and-biryani format
+  [HIGH for Pakistan, Al Jazeera; EDITORIAL for India]; times [LOW].
+
+#### Watch party: Pro Kabaddi evening
+
+- When: the league runs roughly July/August to October with evening
+  matches [LOW — not verified]; intake **evening**.
+- Gathering: the household, 2–5, in the living room; a smaller, more
+  everyday occasion than cricket. Intake venue: *home indoor*.
+- The spread: the same living-room snack spread as cricket: pakoras,
+  samosas, namkeen, a plate of dhokla in the West (see catalog: Dhokla),
+  vada pav in Mumbai (see catalog: Vada pav) [MEDIUM for "same spread",
+  research notes; dish choice EDITORIAL].
+- Surface and environment: the centre table and sofa, TV glow, ceiling
+  fan; monsoon-season cues work (rain-streaked window, damp evening
+  light) since the season overlaps the monsoon [EDITORIAL].
+- Snapshot staging: as the IPL entry, scaled down: **1 setting** a
+  quarter plate of pakoras with a chutney katori; **2 settings** two
+  plates and one shared tray; **small group** the centre table with two
+  trays. Crowd cue: the sofa running out of frame.
+- Never stage: team kits, league logos, a legible screen; fantasy or
+  betting apps; alcohol; chai beside the hero.
+- Confidence and sources: scale (Season 10 225 million viewers) [MEDIUM —
+  prokabaddi.com, Middle East Bulletin]; season and times [LOW — not
+  verified]; staging [EDITORIAL].
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. Basis:
+Diwali card parties (teen patti) are a widely reported custom but
+gambling-coded [MEDIUM — HT City 2019, consistent with the Diwali
+celebration entry]; ludo and carrom are household games across South
+Asia [MEDIUM — Financial Express BD, a Bangladeshi source, applied to
+India by the research notes]; antakshari (the family sing-along) and
+friends' mobile-gaming nights are real but unsourced [LOW — not
+verified], so they get no entry. India has no weekly "game night" habit
+comparable to the US or Germany; games sit inside family gatherings.
+
+#### Game night: Diwali card evening (teen patti), staged as the sweets-and-snacks table
+
+- When: the evening of Diwali and the nights before it (October–November;
+  29 Oct 2027) [MEDIUM — HT City]; intake **evening** (~21:00–late), lit
+  by diyas and string lights.
+- Gathering: relatives and family friends at a house party, often 8–20,
+  playing in circles of 4–6 on the floor or round a table [MEDIUM for the
+  custom; headcount EDITORIAL]. Intake venue: *home indoor*.
+- The spread: an opened **mithai box** and a mithai platter (see catalog:
+  Diwali mithai spread; Compact sweets), **namkeen** and dry-fruit bowls,
+  samosas (see catalog: Samosa), chakli, with chai doing the rounds
+  [MEDIUM — research notes]. Serving: a steel or glass platter, small
+  bowls, paper napkins.
+- Surface and environment: a white sheet (chadar) spread on the floor or
+  a low table with cushions round it, or the dining table cleared of
+  dinner; diyas on the sill out of focus, string lights, a marigold
+  toran; new clothes on blurred figures. Cards are a soft fanned shape
+  face-down at the far edge, never the subject.
+- Snapshot staging: **1 setting**: a small plate with two pieces of kaju
+  katli and a few namkeen on the floor-sheet corner, the mithai box
+  cropped beside it, the hero on a coaster; a face-down blurred deck far
+  behind. **2 settings**: two identical plates side by side, the platter
+  and namkeen bowl between them. **Small group (3–4)**: the low table
+  with platter, two bowls, an open mithai box, a multi-serve bottle in
+  the midground if the brief allows. Crowd cues: more cushions than
+  visible people, a second circle soft in the background, string-light
+  bokeh.
+- Never stage: money, chips, coins, a "pot", or cards turned to show a
+  hand (teen patti is usually played for stakes; the Diwali celebration
+  entry already rules out "card games with money"); alcohol (Diwali card
+  parties often have it); the puja altar or deity images; chai beside the
+  hero. This is a **food-led, alcohol-free, no-stakes** form only; if a
+  brief wants the card game as the subject, do not stage it.
+- Confidence and sources: custom [MEDIUM — HT City via PressReader 2019];
+  menu [MEDIUM — research notes, consistent with the Diwali entry];
+  staging [EDITORIAL]. See also Celebration: Diwali family dinner.
+
+#### Game night: Family ludo or carrom at home
+
+- When: weekend afternoons and evenings, school holidays, monsoon days
+  indoors; intake **golden-hour** or **evening** [MEDIUM for the
+  household habit, South Asian source; timing EDITORIAL].
+- Gathering: 2–4 players across generations, with a couple of onlookers;
+  *home indoor* (living room, a bedroom floor) or the verandah/terrace
+  (*home outdoor*).
+- The spread: pakoras on a newspaper-lined steel plate, samosas, a bowl
+  of namkeen or bhel, chai for the adults [MEDIUM — research notes give
+  pakora, samosa, chaat, chai for South Asia]. Food sits on a side stool
+  or the floor beside the board, never on it.
+- Surface and environment: a **carrom board** (square wooden board with
+  corner pockets, pale powdered surface, round wooden pieces) on its
+  stand or on the floor; or a plain cloth or folded ludo board (generic
+  cross pattern, no printed brand) on a low table; afternoon light
+  through a window, a ceiling fan.
+- Snapshot staging: **1 setting**: a plate of two pakoras and a chutney
+  katori on a stool beside the carrom board's corner, hero beside it.
+  **2 settings**: two plates on a side table between two chairs facing
+  the board. **Small group**: the board in soft focus with the snack
+  plate and a namkeen bowl on a side stool; the third and fourth sides of
+  the board cut by the frame. Crowd cues: an empty chair at the board's
+  far side, a blurred onlooker behind.
+- Never stage: a branded board (Ludo King styling or any printed logo),
+  a phone screen showing a ludo app, money on the board, chai beside the
+  hero; no identifiable children (implied only: a small chair far behind,
+  out of focus).
+- Confidence and sources: ludo/carrom as household games [MEDIUM —
+  Financial Express BD, a Bangladeshi source applied to India; India
+  scale (including Ludo King) not searched]; staging [EDITORIAL].
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
@@ -2366,6 +3315,34 @@ Up 300 mL cans, as named by the brief):**
   Andhra meals, Chettinad, Coorg, Kashmiri wazwan, Assamese and Khasi
   food are missing.
 
+- **Celebrations pass (2026-10-01) open items**: festival-meal
+  headcounts (Diwali, Eid, Onam, Sunday lunch, children's birthdays) are
+  editorial estimates, not sourced; the 330-guest wedding average rests
+  on one industry survey (WeddingWire India, via search); the Diwali and
+  birthday menus rest on tier-4 recipe sites; wedding-season months,
+  Ashtami vegetarianism and the "Sunday mutton" habit were not verified;
+  wedding plate and buffet-line visuals need image tests.
+
+- **Game-night pass (2026-10-01) open items**: IPL, Test and
+  India–Pakistan start times and the Pro Kabaddi season are model
+  knowledge, not verified; biryani as the India–Pakistan centrepiece is
+  verified only for Pakistan (Al Jazeera) and assumed for India; the
+  ludo/carrom source is Bangladeshi; Kerala/Bengal/Goa World Cup
+  screenings, antakshari, friends' gaming nights and Ludo King scale were
+  not searched; the 2025 real-money online-gaming ban is model knowledge.
+  No WebSearch was run in this pass.
+
+- **Venue-profile pass (2026-10-01, wave 1) open items**: searches
+  returned mostly design-trade, venue-listing and vendor pages, so these
+  background details are unverified: the glass-fronted crockery unit,
+  fridge in the dining space, glass table top and split-AC bar in the
+  apartment; all residential rooftop detail (water tanks, mumty,
+  parapet colours, Delhi winter haze); waiter dress, table density and
+  finger bowl in the family restaurant; tube lights and pastel walls in
+  the dhaba; auto-rickshaw colours and evening peak at the chaat stall;
+  the kalyana-mandapam dining-hall look; all subregional variants.
+  Needs a pass with image references or a local reviewer.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) keep India as one file with nine zones,
@@ -2390,6 +3367,22 @@ Up 300 mL cans, as named by the brief):**
    (orange-curry-and-naan failure) and the banana-leaf meal
    (cutlery/water-tumbler intrusion).
 7. Independent §8 audit.
+
+8. Celebrations pass: catalog entries for **puri with dum aloo**
+   (Diwali; deep-fried puffed golden discs ~12 cm, beside a potato curry
+   in a steel katori), **kosha mangsho** (Bengal, dark glossy dry goat
+   curry in a bowl), **kebab platter (seekh and shami)** (Eid; browned
+   cylinders and patties on a steel plate with onion rings and lemon),
+   **Tamil kalyana sappadu** as its own leaf layout (currently pointed at
+   South Indian meals), and the **birthday cream cake** (eggless bakery
+   cake, piped cream, roughly three cans wide).
+
+9. Game-night pass: catalog entries for **pakora / bhajia** (onion and
+   mixed-veg fritters, craggy golden-brown clusters ~5 cm on a
+   newspaper-lined steel tray with green chutney), **namkeen bowl**
+   (the savoury mix as a standalone snack, currently only inside the
+   Diwali mithai spread), and **chakli / murukku** (spiral fried snack,
+   West and South).
 
 ## RESEARCH LOG
 
@@ -2426,3 +3419,6 @@ Up 300 mL cans, as named by the brief):**
   and are marked. Quora, Medium, Scribd and Grokipedia results were used
   only as corroboration or ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding guest count and catering; Tamil wedding banana-leaf feast; Diwali dinner menu; Eid ul-Fitr India menu and visits; Durga Puja eating out in Kolkata; children's birthday party menus). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (Diwali, Eid ul-Fitr, Onam sadya, Durga Puja, wedding, birthday, Sunday family lunch). Sources are mostly tier 3–4 (WeddingWire India, EazyDiner, Agoda, recipe sites) plus Gulf News; headcounts are editorial.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 3 watch-party entries (IPL evening, India international/India–Pakistan, Pro Kabaddi) and 2 social game-night entries (Diwali card evening staged as the sweets table, family ludo/carrom); popularity rated medium.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches (apartment, dhaba, family restaurant, banquet hall, chaat stall, rooftop). Results were thin (design-trade, vendor and venue-listing pages; SCMP on dhabas); most background detail is MEDIUM or LOW and logged in the GAP LOG.

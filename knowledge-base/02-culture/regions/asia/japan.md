@@ -234,6 +234,359 @@ can (12.2 cm tall, 6.6 cm diameter).
 | **Festival (matsuri) yatai** | Rows of stalls with striped or red-white awnings, paper lanterns (blank), yakisoba on a big griddle, takoyaki pans, kakigōri, candied apples; yukata-clad crowds, evening light. |
 | **Hanami** | Blue plastic tarps under cherry trees, stacked bento boxes, onigiri, dango skewers, pale pink petals falling. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (wave 1, 2026-10-01): the default
+camera is a close-up hero, so each profile leads with what must read in
+the **soft background**. The register table above stays the index. The
+national default zone is **zone 1, Tokyo** (see Default when no zone is
+named). Every Japan hard rule applies: no alcohol (Lemon-Dou included),
+**no izakaya register**, no ohiya water glass, yunomi, teapot or
+mugicha jug beside the hero, chopsticks on a rest and never upright,
+nothing on or beside a butsudan or kamidana, no legible text (noren,
+menu strips, ticket machines, packaging). **Swap from the brief's
+default list**: the home outdoor space (engawa, balcony, garden BBQ) is
+EDITORIAL and not surveyed in this file, so it is replaced by the
+**tatami room (washitsu)**, which the celebrations and game-night
+sections use far more; the ramen counter is added because it is the
+file's second default 1-person venue. Konbini eat-in, family restaurant
+(famiresu) and the okonomiyaki teppan are queued for wave 2.
+
+#### Venue: Tokyo apartment LDK dining table (マンションのダイニング)
+
+- Use for: home indoor; casual lunch (1–3), dinner at home, nabe night,
+  Christmas Eve, child's birthday (no identifiable children), NPB and
+  football watch parties; all party sizes. The zone-1 default (71.6% of
+  Tokyo dwellings are multi-unit; see General environmental norms).
+  [HIGH for the housing basis; EDITORIAL default]
+- Soft background (the core): **back wall** of white or pale-grey vinyl
+  wallpaper (クロス, faint texture), almost bare: a wall clock, a
+  calendar (blur), one small framed print or a children's drawing (no
+  child). **Middle distance**: the **counter-style kitchen** (対面
+  キッチン) behind a waist-high counter with a few objects on it (rice
+  cooker, a dish rack, a small plant), white or wood-grain cabinet
+  doors, a stainless range hood; or, the other way, the living side of
+  the LDK with a low sofa, a low TV board and a flat TV (dark or a soft
+  glow), and a **balcony sliding window** (掃き出し窓) with lace and
+  plain curtains, laundry pole beyond (out of focus). **Light**: a
+  **pendant lamp** over the dining table (warm 2700–3000 K; fabric,
+  paper or simple metal shade) pooling light on the table while the
+  room falls darker; or a round flush **LED ceiling light** (シーリング
+  ライト, cool-white) in more ordinary homes; daylight from the balcony
+  window. **Palette**: white walls, **light oak or walnut-tone
+  flooring** (フローリング), pale wood furniture, white and earth-tone
+  ceramics, small green plants. **Signature shapes**: the counter-kitchen
+  opening with a range hood; the balcony sliding window with two-layer
+  curtains; the pendant lamp; a round flush ceiling light; a low
+  wooden TV board. **Density and wear**: compact, tidy, many small
+  useful objects, 生活感 (lived-in feel) around the kitchen; never
+  showroom-empty, never cluttered. **People**: a blurred figure at the
+  kitchen counter, within the limit. [MEDIUM — LDK layout, pendant over
+  the dining table and wood flooring in Japanese housing and renovation
+  sources (Zero Renovation, sumica, Freedom, RoomClip); counter kitchen,
+  ceiling light and curtains LOW-MEDIUM — general knowledge, consistent
+  with this file's interior markers]
+- Shell: a reinforced-concrete mansion block (or a two-storey apāto),
+  aluminium sash windows, wood-look floor, flat white ceiling about
+  2.4 m; small rooms.
+- The table as set here: a small four-seat wooden table (often 120–135
+  cm), bare wood or with a cloth or place mats; for dinner, the
+  ichijū-sansai layout (rice bowl front-left, soup bowl front-right, main
+  back-right), many small mismatched ceramic dishes, chopsticks on
+  hashioki; a soy-sauce cruet. Wooden chair backs at frame edge. [HIGH
+  for the layout per Dinner at home; table size EDITORIAL]
+- Subregional variants and the national default: **suburbs and regional
+  cities** — detached house: larger LDK, often a tatami corner opening
+  off it; **Kansai** — same, a takoyaki plate in the cupboard; **Hokkaidō**
+  — double-glazed windows, an oil or gas heater, bigger rooms; **Okinawa**
+  — concrete house, louvred windows, bright light. **Gen Z** — a 1K
+  studio with a low table and floor cushion (General environmental
+  norms). Default: the Tokyo LDK above.
+- Hallucination traps: shōji screens, tatami and a kimono in a modern
+  flat; a ryokan or kaiseki interior; neon-cyberpunk views from the
+  window; Mount Fuji through the window; a Chinese lazy Susan; an
+  American open kitchen with a huge island; minimalist showroom emptiness.
+- Never stage: mugicha jug, teapot, yunomi; beer or chūhai cans (same
+  silhouette as the hero); a butsudan; legible calendar, packaging or TV;
+  identifiable children.
+- Prompt-ready line: "A compact Tokyo apartment dining table at dinner
+  under a warm pendant lamp: rice, miso soup and small ceramic dishes,
+  with a softly blurred counter kitchen, white walls, pale wood flooring
+  and a curtained balcony window behind."
+- Confidence and sources: MEDIUM; 1 search (Japanese housing and
+  interior sites) plus General environmental norms.
+
+#### Venue: Tatami room with a low table (和室, 座卓)
+
+- Use for: home indoor; New Year osechi, Obon relatives' gathering,
+  Hinamatsuri and Shichi-Go-San family meals, Koshien and sumo at home,
+  home mahjong; 2 to a small group, the snapshot of a larger family.
+  Common in detached houses (the 52.7% majority nationally) and in
+  grandparents' homes; increasingly rare in new urban flats. [MEDIUM —
+  How large gatherings work here; decline of the washitsu per nippon.com]
+- Soft background (the core): **walls and openings**: **fusuma**
+  sliding doors (plain cream or a muted painted pattern) and **shōji**
+  (white paper in a fine wooden lattice) glowing with daylight; earth-
+  or sand-coloured plaster walls; a **tokonoma** alcove with a hanging
+  scroll (an ink landscape or flower; **never legible calligraphy**) and
+  a vase of seasonal flowers. **Middle distance**: the rest of the
+  **tatami** floor (pale green-gold, aged to straw), **zabuton** cushions
+  around the low table, a second low table pushed against the first for
+  a gathering, a wooden chest or a TV in the corner (Koshien and sumo
+  scenes), an open shōji to the **engawa** and garden in summer with an
+  electric fan and wind chime. **Light**: soft diffuse daylight through
+  shōji is the signature; at night a square or round paper-shaded
+  ceiling lamp or a flush LED light, warm-white; New Year adds a
+  kagami-mochi on a shelf, March the hina doll tiers (soft, at one
+  side). **Palette**: tatami green-gold, pale wood, cream paper, earth
+  plaster, dark lacquer red and black at celebrations. **Signature
+  shapes**: the grid of shōji; tatami edge bindings (dark cloth strips);
+  square zabuton; the tokonoma alcove; the low dark-wood table. **Density
+  and wear**: calm, uncluttered, a little old-fashioned (grandparents'
+  house), well kept. **People**: blurred relatives at the far end of the
+  table, within about 2.5 faces, none sharp. **The butsudan often stands
+  in this room: frame away from it** (hard rule 4). [MEDIUM — tatami,
+  tokonoma with scroll and flowers, shōji, zadaku and zabuton per
+  ja.wikipedia 和室, Daiwa House, wa-nokurashi; lamp types and decor LOW]
+- Shell: a 6- or 8-mat room in a wooden detached house; sliding doors
+  on two or more sides; wooden ceiling boards; engawa beyond the shōji.
+- The table as set here: a rectangular low table (座卓, ~60×90 cm to
+  ~90×150 cm) in dark wood or lacquer finish, sometimes with a cloth;
+  celebration tables add lacquer jūbako, a sushi-oke, small plates
+  (torizara), iwai-bashi in paper sleeves (blur); everyday chabudai
+  meals use the ichijū-sansai bowls. Zabuton edges at the frame bottom.
+  [MEDIUM]
+- Subregional variants and the national default: **Kyoto** — machiya
+  rooms, darker wood, a small courtyard garden through the opening;
+  **Tōhoku/Hokuriku farmhouses** — large rooms joined into one by
+  removing fusuma; **winter everywhere** — a **kotatsu** (low table with
+  a quilt) replaces the zadaku; **Okinawa** — tatami rooms open to a
+  veranda, red-tile roofs outside. Default: a suburban or regional
+  detached house's 6- or 8-mat washitsu.
+- Hallucination traps: a ryokan suite or tea-ceremony room; kimono on
+  everyone; geisha; cherry blossoms outside out of season; a samurai
+  armour or katana display; legible calligraphy scroll; a Korean ondol
+  room with metal chopsticks; Chinese red-lacquer decor.
+- Never stage: the butsudan, Obon offerings or kamidana near the hero;
+  sake, beer or toasts; legible scrolls or cards; identifiable children
+  (Shichi-Go-San and Hinamatsuri honorees never shown).
+- Prompt-ready line: "A family tatami room in soft daylight: a dark
+  low table with lacquer boxes and small plates, square cushions on the
+  tatami, and glowing shōji screens and a tokonoma alcove with a
+  flower vase softly blurred behind."
+- Confidence and sources: MEDIUM; 1 search (ja.wikipedia, nippon.com,
+  Daiwa House, wa-nokurashi) plus the celebrations section.
+
+#### Venue: Neighbourhood teishoku shop (定食屋, 食堂)
+
+- Use for: restaurant indoor; 1 person at a restaurant (the default
+  weekday lunch), 2–3 colleagues; 1 to a small group. National
+  default for a quick sit-down meal. [EDITORIAL; register row
+  "Teishoku shop"]
+- Soft background (the core): **back wall** of cream plaster or wood
+  panelling with **menu strips** (短冊, rows of vertical paper or wood
+  tags) and taped-up handwritten specials: always illegible, render as
+  rhythmic pale vertical bars; a wall-mounted TV high in a corner (soft
+  glow); a calendar; a **noren** half-curtain over the kitchen doorway
+  (plain indigo or white; no characters). **Middle distance**: the
+  **kitchen counter** with a pass and a cook in white, steam from a rice
+  pot and miso pot, a stack of trays; a few **small four-seat tables**
+  with laminate or wood tops; red or green vinyl-padded chairs or
+  stools; in older shops a raised **zashiki** tatami section. **Light**:
+  bright and even: fluorescent or LED panels (neutral-white), daylight
+  from a sliding glass front door; Shōwa-retro shops have warm lantern-
+  style pendants. **Palette**: wood browns, cream walls, red or green
+  vinyl, white trays and ceramics, indigo noren. **Signature shapes**:
+  vertical menu strips; the noren over the kitchen door; the pass with
+  stacked trays; small square tables in rows; a wall TV in the corner.
+  **Density and wear**: plain, used for decades, very clean; a solo
+  diner is normal. **People**: a blurred salaryman or worker at another
+  table, within the limit. [MEDIUM — worn tables and chairs, menus on
+  the walls, counter plus tables plus zashiki, lantern lights in Shōwa-
+  retro shops per Kyoto Side, Kinarino, store-design sources; TV and
+  noren LOW-MEDIUM — general knowledge]
+- Shell: a ground-floor unit with a sliding glass door, sometimes a
+  shopping-street (shōtengai) front; tiled or vinyl floor; low ceiling.
+- The table as set here: a rectangular **tray** per diner with rice,
+  miso soup, the main with shredded cabbage, a small side, pickles;
+  chopsticks on the tray front; a table caddy of soy sauce, shichimi and
+  toothpicks (no readable labels); a self-serve water jug or a glass
+  of ohiya (exclude). [HIGH for the tray per Teishoku catalog entry;
+  caddy MEDIUM]
+- Subregional variants and the national default: **Osaka** — 大衆食堂
+  with display cases of small plates to pick up; **university and office
+  canteens** — bigger, brighter, plastic trays; **Kagawa** — the
+  self-service udon shop replaces the teishoku shop for lunch;
+  **chain gyūdon and teishoku shops** — never reproduce a chain's look
+  (orange signage, branded counters). Default: the Tokyo neighbourhood
+  teishoku shop above.
+- Hallucination traps: an izakaya (red lanterns, beer mugs, sake bottles
+  on shelves); a sushi counter; a fine-dining kaiseki room; legible
+  Japanese menu strips; neon; plastic food samples in sharp focus with
+  readable price tags.
+- Never stage: water glass, jug or tea; beer; legible menu strips,
+  calendars, TV or ticket machine; chain branding.
+- Prompt-ready line: "A neighbourhood Japanese teishoku shop at
+  lunchtime: a tray set of rice, miso soup and ginger pork on a worn
+  wooden table, with softly blurred rows of pale vertical menu strips,
+  an indigo noren over the kitchen door and a cook at the steamy pass
+  behind."
+- Confidence and sources: MEDIUM; 1 search (Kyoto Side, Kinarino,
+  Tabelog lists, store-design guide) plus the register.
+
+#### Venue: Ramen shop counter (ラーメン屋)
+
+- Use for: restaurant indoor; 1 person at a restaurant, 2 friends; 1–2.
+  National, with regional styles; Tokyo shōyu is the default. [EDITORIAL;
+  register row "Ramen shop"]
+- Soft background (the core): **back plane** is the **open kitchen**
+  across the counter: tall stainless **stockpots** (寸胴) steaming, a
+  **noodle boiler** with mesh baskets, a cook in a black or white T-shirt
+  and headband or cap working behind the raised counter ledge, ladles,
+  stacked bowls. **Back wall** of the kitchen in stainless steel or
+  white tile; the dining side in **dark wood or black** finishes or
+  plain **white wood** (natural style). **Middle distance**: the row of
+  **counter stools**, the next diner's bowl on the ledge (blurred), a
+  self-serve water dispenser (exclude), the **ticket machine** by the
+  door as a pale box with rows of buttons (blurred, no text). **Light**:
+  warm downlights over the counter catching the steam; the kitchen
+  brighter and cooler; dim, steamy, close. **Palette**: dark wood or
+  black, stainless steel, white steam, rich broth browns, the red or
+  black of a bowl rim. **Signature shapes**: steaming stockpots; the
+  raised counter ledge; the row of stools; mesh noodle baskets; a
+  ticket-machine box near the door. **Density and wear**: small (often
+  8–15 seats), busy at lunch, worn wood. **People**: one blurred cook,
+  one blurred diner at the counter. [MEDIUM — wood-grain counter,
+  stockpots with taps, noodle boilers, ticket machine near the entrance,
+  black or white-wood palettes per Japanese shop-design sources (Ideal
+  Shop, Tenpo Naisoh, ak-co); seat count and staff dress LOW]
+- Shell: a narrow street-front unit, sliding door, noren (blank) at the
+  entrance; tiled floor; low ceiling with an extractor hood.
+- The table as set here: the bowl sits on the **raised counter ledge**
+  or the counter in front of the diner; a condiment caddy (pepper,
+  garlic, chilli oil; blurred labels); a canister of disposable
+  chopsticks or reusable ones; a renge spoon in the bowl; a box of
+  tissues. [MEDIUM]
+- Subregional variants and the national default: **Fukuoka (zone 5)** —
+  tonkotsu shops, louder, white milky broth, single-booth counters in
+  some; the riverside **yatai** at early evening for ramen only (see
+  the Street food register); **Sapporo** — miso ramen, bigger rooms,
+  winter steam; **Kyoto/Osaka** — similar counters. Default: the Tokyo
+  shōyu counter above.
+- Hallucination traps: a Chinese noodle shop (zone-7 noodle pulling,
+  chilli-oil jars); an izakaya with lanterns and beer; neon-cyberpunk
+  alleys outside; anime posters; a ramen bowl with a whole soft egg
+  floating in a Western "ramen bar".
+- Never stage: beer, water glass or dispenser, tea; legible ticket
+  machine, menu or noren characters; chain branding.
+- Prompt-ready line: "A small Tokyo ramen counter: a steaming bowl of
+  shōyu ramen on a dark wooden ledge, and beyond it a softly blurred open
+  kitchen of tall stainless stockpots, rising steam and a cook in a
+  headband under warm downlights."
+- Confidence and sources: MEDIUM; 1 search (shop-design sources) plus
+  the register and the Ramen catalog entry.
+
+#### Venue: Summer festival stalls (夏祭りの屋台)
+
+- Use for: street / on the go; matsuri evenings, summer outings; 1 to
+  a small group; also the hanami variant in spring. The street-food
+  venue Japan actually stages (everyday street eating is not the norm;
+  see Meal on the go). [MEDIUM — Festival yatai register; FESTIVALS]
+- Soft background (the core): **rows of stalls** under **tents with
+  red-and-white or striped awnings** and **red-and-white curtains**
+  (紅白幕), each with a big **iron griddle** of yakisoba or a takoyaki
+  pan, steam and smoke rising; **chōchin paper lanterns** strung
+  overhead in lines (blank, no characters), glowing warm orange-white.
+  **Middle distance**: a slow crowd in **yukata** (indigo, white, floral
+  prints) as blurred colour, shrine trees or a street of shops beyond
+  (no torii framed as backdrop), a kakigōri stall's colourful syrup
+  bottles as small blurred jewels. **Light**: dusk into night: deep
+  blue sky, the warm lantern line, bare bulbs and LED tubes in stalls,
+  griddle glow; strong warm bokeh. **Palette**: red and white,
+  lantern orange, indigo yukata, night blue, steam white. **Signature
+  shapes**: the lantern line; striped awnings; a griddle's dark flat
+  rectangle with steam; yukata silhouettes; plastic tray packs on a
+  ledge. **Density and wear**: festive, crowded but orderly. **People**:
+  blurred yukata figures, within about 2.5 faces, none sharp; no
+  identifiable children. [MEDIUM — lanterns at night, red-white
+  curtains, linked tents, yakisoba on a griddle per Japanese event and
+  festival-food sources (enjoytokyo, event-tent suppliers, gyojisyoku-
+  hyakka); yukata crowd per the register]
+- Shell: a shrine approach or a closed street; tents on poles; asphalt
+  or gravel underfoot.
+- The table as set here: no table: food on its **clear plastic tray**
+  (yakisoba, takoyaki with a toothpick) on a stall's **standing ledge**,
+  a folding table in a rest area, or a bench; disposable chopsticks;
+  paper napkin. Never in hand. [MEDIUM]
+- Subregional variants and the national default: **Fukuoka** — permanent
+  riverside yatai (ramen only, early evening; see register); **hanami**
+  — daytime, blue tarps under cherry trees, stacked bento (register row
+  "Hanami"); **Osaka** — takoyaki stands in shōtengai arcades year-round;
+  **Aomori Nebuta / Tokushima Awa Odori** — festival floats far behind
+  (blurred). Default: a summer shrine matsuri evening.
+- Hallucination traps: Chinese New Year red lanterns with gold
+  characters; Taiwanese or Thai night markets; neon-cyberpunk streets;
+  a torii or pagoda framed behind the hero; fireworks in every frame;
+  geisha.
+- Never stage: beer stalls and cups (very common); legible stall banners,
+  noren or lanterns with characters; prices; food held in a hand;
+  identifiable children; shrine ritual or mikoshi as the subject.
+- Prompt-ready line: "A Japanese summer festival at dusk: a clear tray
+  of yakisoba on a stall ledge, and behind it a softly blurred line of
+  glowing paper lanterns, red-and-white striped awnings, griddle steam
+  and passing figures in indigo yukata."
+- Confidence and sources: MEDIUM; 1 search (Japanese festival and event
+  sources) plus the Festival yatai register.
+
+#### Venue: Karaoke box room (カラオケボックス)
+
+- Use for: other; game night with friends (food-led, alcohol-free only),
+  student afternoons, office groups; 1 to a small group (3–8 in the
+  room). The file's signature social-game venue. [MEDIUM — Game night:
+  Karaoke box with friends]
+- Soft background (the core): **back wall** of patterned wallpaper or
+  dark panelling with the **large screen** (soft field of colour; lyrics
+  unreadable) and speakers; **middle distance**: the **vinyl or fabric
+  sofa bench** running along the walls (often red, black, or brown),
+  a jacket over the arm, the song-picker tablet face-down, microphones
+  resting on the table; in themed rooms a **mirror ball** or LED strips.
+  **Light**: dim, adjustable room light (dimmer switch) plus the
+  screen's shifting glow and coloured LED wash (magenta, blue); small
+  bright points from the tablet and mic stand. **Palette**: dark walls,
+  saturated screen colours, red or black vinyl, glossy table top.
+  **Signature shapes**: the sofa bench wrapping round a low table; the
+  big glowing screen; microphones in a tray; a mirror ball dot pattern
+  on the walls (themed rooms only). **Density and wear**: small, enclosed,
+  slightly worn chain-room finish. **People**: a blurred standing figure
+  by the screen with no face, within the limit. [MEDIUM — sofas along
+  the walls facing a table, dimmable lighting, red carpets in luxury
+  rooms, mirror balls in some rooms per ja.wikipedia カラオケボックス and
+  shop-design sources; colour wash LOW]
+- Shell: a windowless small room in a multi-floor karaoke building;
+  carpet or vinyl floor; low ceiling; a glass panel in the door.
+- The table as set here: a **low glass-top or laminate table**;
+  room-service plates (karaage, fries, edamame, pizza, takoyaki, honey
+  toast); small plates; two microphones; a menu folder face-down
+  (blurred). [LOW — Game night entry; food not verified]
+- Subregional variants and the national default: the same nationally;
+  **party rooms** for larger groups with a small stage; **solo karaoke
+  (hitokara)** booths for one. Default: a standard 4–6-person room.
+- Hallucination traps: a Western karaoke bar stage; a nightclub; a
+  Korean noraebang with soju; neon-cyberpunk décor; legible lyrics.
+- Never stage: beer mugs, chūhai, Lemon-Dou, highball glasses, the
+  nomihoudai drinks bar; legible lyrics, song titles, chain or machine
+  brand; a microphone held toward camera; water or tea glasses.
+- Prompt-ready line: "A Japanese karaoke room with friends: small plates
+  of karaage and fries on a glossy low table beside two resting
+  microphones, a red vinyl sofa bench and a big softly glowing screen
+  washing the dim room in magenta and blue behind."
+- Confidence and sources: MEDIUM; 1 search (ja.wikipedia, karaoke shop-
+  design sources) plus the Game night entry.
+
 ---
 
 ## TRUSTED CONTENT
@@ -823,6 +1176,503 @@ of drafting on 2026-09-29, unless marked) and 2027.
 | **Tsukimi (moon viewing)** | Mid-autumn full moon (September/October) [MEDIUM — not re-checked] | Tsukimi dango stacked on a stand, pampas grass | A quiet veranda scene |
 | **Christmas** | 24 December evening (a couples' and young-family occasion, not a religious or public holiday) | **Strawberry shortcake** (white sponge, whipped cream, whole strawberries), a Japan-specific convention said to evoke Santa's red and snow's white; **fried chicken**, a custom widely credited to a fast-food chain's campaign from 1974 [HIGH: Weathernews, Yahoo! News expert article, iElove column (via search)] | Home table with a round shortcake, a bucket-free plate of fried chicken drumsticks, a small tree. **Never show any chain's bucket, box or branding**, and never imply a partnership. |
 | **Ōmisoka (New Year's Eve)** | 31 December | Toshikoshi soba | See Soba entry |
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7: the frame shows the operator's party
+(1, 2 or a small group of identical place settings) at one stretch of a
+bigger event, and the crowd is implied. Every Japan hard rule applies:
+no alcohol (Lemon-Dou included, and no kanpai toast), no izakaya
+register, no water glass, yunomi or barley-tea jug, chopsticks on a
+rest and never upright, and nothing on or beside a butsudan, kamidana or
+Obon altar.
+
+### How large gatherings work here
+
+- **Who and how many.** Japanese celebrations are mostly **small and
+  family-centred**; the large crowd is the exception (weddings, hanami,
+  summer matsuri). New Year osechi is overwhelmingly eaten with the
+  household: consumer surveys put osechi eaten "with family" at roughly
+  nine in ten (88.2% in one 2025 survey), and one 2024 survey found only
+  14.8% eat it with relatives [MEDIUM — commercepick and PR Times survey
+  releases via search, commercial sources]. Obon is the main time relatives
+  gather at the family home; one widely shared 2023 news story described
+  a mother cooking for **16 relatives** [LOW as a norm — one Yahoo!
+  News/Netorabo anecdote]. Weddings average **52.0 invited guests**
+  (Zexy Marriage Trend Survey 2024, up 2.9 on the year) [MEDIUM —
+  Recruit Bridal Research Institute report via search].
+- **Where (intake venues).** *Home indoor*: New Year, Obon, Hinamatsuri,
+  birthdays, Christmas Eve, at the dining table or a low table in the
+  tatami room with zabuton cushions. *Restaurant*: a private room (個室)
+  at a Japanese restaurant, hotel or family restaurant for Shichi-Go-San
+  and other family milestones [MEDIUM — Studio Mario, HANKYU FOOD,
+  Kosodate Hack via search]. *Other*: a wedding venue or hotel banquet
+  room; a park under cherry trees for hanami (a blue tarp, see the
+  festivals register for park rules).
+- **Table form and serving style.** At home the everyday rule of
+  individual bowls holds, with **large shared platters** added in the
+  centre: a **sushi-oke** (round lacquered tub of delivered nigiri),
+  an **ōdoburu** party platter, a tempura platter, a chirashi-zushi tub.
+  Large Obon or New Year gatherings push two low tables together in the
+  washitsu. Weddings use **round tables of 6–8 with plated courses**
+  served by staff (usually French or Franco-Japanese) [EDITORIAL on the
+  table size; course format MEDIUM, uncontested].
+- **Plates and cutlery that differ from everyday.** Celebration tables
+  bring out lacquerware (jūbako, red-and-black lacquer trays, nuri-bashi
+  lacquered chopsticks), **iwai-bashi** (round, tapered at both ends,
+  in a paper sleeve, for New Year) and small plates (torizara) for the
+  shared platters. Weddings: Western cutlery laid outside-in, with
+  chopsticks often added. Hanami: paper plates, disposable chopsticks.
+- **Snapshot-staging default for Japan [EDITORIAL].** The most authentic
+  crowd cues: (1) **a shared centrepiece too big for the visible diners**
+  (a sushi-oke for five, an open three-tier jūbako, a tempura platter)
+  partly cropped; (2) **the low table extending out of frame** in a
+  tatami room with extra zabuton cushions at the edge; (3) **seasonal
+  decor** in soft focus (a kagami-mochi on a shelf at New Year, hina
+  dolls on their tiers in March, cherry branches overhead at hanami).
+  Blurred relatives at the far end (no more than about 2.5 faces) are a
+  fourth cue. Keep it calm and tidy: Japanese celebrations are not
+  boisterous party scenes.
+
+#### Celebration: New Year family meal (正月, osechi)
+
+- Type: calendar holiday
+- When: 1–3 January. Osechi is eaten across the holiday; stage the
+  **midday** meal (1 or 2 January, when relatives visit), not the
+  morning ozōni.
+- Gathering: the household plus grandparents, 3–8, at the parents' home;
+  *home indoor*, often at a low table in the tatami room [MEDIUM — about
+  nine in ten eat osechi with family per consumer surveys; headcount
+  EDITORIAL]. Most
+  households buy osechi ready-made or partly so (83.8% "buy" or "buy and
+  make" in a 2025 survey) [MEDIUM — commercepick survey via search,
+  commercial source].
+- The spread: see catalog: **Osechi (New Year) and ozōni** (tiered
+  jūbako, five colours, iwai-zakana). Around it: a plate of sashimi or a
+  sushi-oke, simmered nishime, red-and-white kamaboko, and a small bowl
+  of ozōni per person. 1 jūbako (2–3 tiers opened side by side) plus 2–4
+  other dishes.
+- Snapshot staging: **1 setting**: a lacquer tray with iwai-bashi in
+  their sleeve (text blurred) on a rest, a small plate with a few osechi
+  pieces (datemaki slice, kuromame, kamaboko), an ozōni bowl; the open
+  jūbako tiers cropped behind; hero beside the tray. **2 settings**: two
+  identical settings at one long side of a low table, the open tiers
+  between them, a sashimi plate at the edge. **Small group**: the low
+  table running out of frame, three tiers opened side by side, a
+  multi-serve bottle in the midground if the brief allows. Crowd cues:
+  extra zabuton cushions; a kagami-mochi on a shelf soft in the
+  background; winter light through shōji.
+- Decor and cues: pine-and-bamboo kadomatsu (outside only), nanten
+  berries, a small kagami-mochi on a shelf (not an altar). Clichés:
+  kimono on everyone, Mount Fuji through the window.
+- Never stage: toso or sake (the New Year spiced sake is a strong
+  prior), the kamidana, shrine visits; legible text on chopstick sleeves.
+- Confidence and sources: [HIGH] osechi form (catalog sources); [MEDIUM]
+  family share and purchase share; [EDITORIAL] staging.
+
+#### Celebration: Obon relatives' gathering (お盆)
+
+- Type: calendar holiday (ancestral, but the meal is a family reunion)
+- When: 13–16 August (July in parts of Tokyo; lunar in Okinawa); the
+  shared meal is **midday** or **evening**.
+- Gathering: relatives return to the family home, typically 6–16 [LOW —
+  one news anecdote of 16; EDITORIAL range]; *home indoor*, two low
+  tables pushed together in the tatami room, or the dining table plus a
+  side table.
+- The spread: big shared platters: a **sushi-oke** or hand-made
+  **temari-zushi** and **chirashi-zushi** (see catalog: Sushi), a
+  **vegetable tempura** platter (an Obon custom especially in Shinshū and
+  Tōhoku), **sōmen** on ice, an **ōdoburu** of karaage and side dishes
+  (see catalog: Karaage), watermelon after [MEDIUM — Delish Kitchen,
+  Ninben, Jackery Obon food guides via search, tier 3–4, consistent].
+  4–6 shared dishes.
+- Snapshot staging: **1 setting**: a small plate with two nigiri and a
+  piece of tempura, chopsticks on a rest, a dipping-sauce dish; the
+  sushi-oke rim and the tempura platter cropped behind. **2 settings**:
+  two settings, the sushi-oke between them, a glass bowl of sōmen on
+  ice at the edge. **Small group**: the joined low tables running out of
+  frame, platters crowding the centre. Crowd cues: extra torizara
+  stacked; a summer fan and an open shōji to a garden; children blurred
+  on the engawa.
+- Decor and cues: summer light, a wind chime, an electric fan. Clichés:
+  lantern-lit cemeteries, bon-odori in the room.
+- Never stage: the bon-dana altar, the cucumber horse and aubergine ox,
+  incense, butsudan; beer (the dominant prior at a relatives' table).
+- Confidence and sources: [MEDIUM] food; [LOW] headcount.
+
+#### Celebration: Hinamatsuri family dinner (ひな祭り)
+
+- Type: calendar holiday (Girls' Day, 3 March)
+- When: 3 March, **evening** family dinner.
+- Gathering: the household and grandparents, 3–6, at home; *home
+  indoor* [EDITORIAL].
+- The spread: **chirashi-zushi** (vinegared rice in a wide tub or
+  bowl, topped with pink shrimp, salmon roe, shredded egg ribbons, snow
+  peas or rapeseed flowers), **hamaguri clear soup** (one pair of clam
+  shells per bowl, for a good marriage), **hina-arare** (pink, white and
+  green puffed rice), **hishimochi** (three-colour diamond mochi) and
+  sakura-mochi; a strawberry cake is now common [HIGH — Benesse, Kyoto
+  Culinary Art College, MATCHA, HANKYU FOOD via search, consistent].
+  The chirashi tub plus 2–3 other dishes.
+- Snapshot staging: **1 setting**: a small bowl of chirashi served from
+  the tub, a lacquer bowl of clam soup with the open shells visible,
+  chopsticks on a rest; the chirashi tub cropped behind. **2 settings**:
+  two settings, the chirashi tub between them, a dish of hina-arare at
+  the edge. **Small group**: the dining table with the tub, a plate of
+  sakura-mochi and a cake running out of frame. Crowd cues: the hina
+  doll tiers soft and far in the background (never the product beside
+  them); peach blossom in a vase.
+- Never stage: amazake or shirozake beside the hero (shirozake is
+  alcoholic; amazake is a non-hero drink); the dolls as a backdrop for
+  the product.
+- Confidence and sources: [HIGH] food; [EDITORIAL] staging. Chirashi-zushi
+  has no catalog entry (see CANDIDATE QUEUE).
+
+#### Celebration: Hanami party (花見)
+
+- Type: community or family gathering
+- When: late March to early May depending on the region (see festivals
+  register); **midday** or **golden-hour**.
+- Gathering: friends, colleagues or families, 4–15 on blue tarps under
+  cherry trees in a public park; many neighbouring groups around; *other*
+  (park) [MEDIUM — park-rule sources in the festivals register; group
+  size EDITORIAL].
+- The spread: see catalog: **Hanami bento (pointer)** and **Bento**
+  (stacked jūbako), plus onigiri (see catalog: Onigiri), karaage,
+  konbini snacks decanted, and sanshoku dango (see catalog: Dango).
+- Snapshot staging: **1 setting**: one paper plate with an onigiri and two
+  karaage on the tarp, the open jūbako tiers cropped beside it, the hero
+  on the tarp; petals scattered. **2 settings**: two paper plates side by
+  side, the jūbako tiers between them, a dango stick on a plate. **Small
+  group**: a corner of the tarp with 3–4 plates and the tiers, the tarp
+  running out of frame. Crowd cues: another group's tarp soft in the
+  background; cherry branches overhead; shoes lined up at the tarp edge.
+- Never stage: beer or chūhai cans (the strongest prior of all, and
+  Lemon-Dou is a TCCC product); grills, folding tables and tents in a
+  Tokyo park; drunken crowds; legible konbini packaging.
+- Confidence and sources: [MEDIUM]; [EDITORIAL] staging.
+
+#### Celebration: Shichi-Go-San family meal (七五三)
+
+- Type: life event (children aged 3, 5 and 7, around 15 November)
+- When: after the shrine visit and studio photos, a **midday** lunch.
+- Gathering: parents, the child and grandparents, 4–8, in a restaurant
+  private room, a hotel, a family restaurant or at home [MEDIUM — Studio
+  Mario, HANKYU FOOD, Kosodate Hack via search: private rooms
+  recommended, casual restaurants and yakiniku also usual].
+- The spread: a celebration set (祝い膳) with **sekihan** (red-bean rice,
+  pinkish-red with dark beans), a **whole grilled sea bream** (tai, pink
+  skin, salt-grilled), sashimi, tempura, a children's plate, and
+  **chitose-ame** (long red-and-white candy sticks in a printed bag)
+  [MEDIUM — same sources; Studio Alice, Delish Kitchen]. At home, the
+  same with a sushi-oke and a cake.
+- Snapshot staging: **1 setting**: a lacquer tray set with a small bowl of
+  sekihan, sashimi, a tempura piece, a soup bowl; a whole sea bream on a
+  long plate cropped in the centre. **2 settings**: two trays, the sea
+  bream between them. **Small group**: the private-room table with trays
+  and a shared sea bream, extending out of frame. Crowd cues: the
+  child's chitose-ame bag leaning at the frame edge (text blurred or
+  bag turned away); a folded kimono sleeve on a blurred figure; a
+  photo-studio folder set aside.
+- Never stage: the shrine, the purification rite; the child as a
+  costume tableau; legible bag text; sake for the adults.
+- Confidence and sources: [MEDIUM] food and venue (photo-studio and
+  department-store columns, tier 3 with a commercial interest);
+  [EDITORIAL] staging.
+
+#### Celebration: Child's birthday at home (誕生日)
+
+- Type: life event
+- When: **evening** dinner at home, or a weekend afternoon.
+- Gathering: the household and grandparents, 3–6; friends' parties at
+  home are smaller than in the US [EDITORIAL].
+- The spread: in one ranking the top birthday dishes are **sushi**,
+  **hambāgu** and **curry** [LOW-MEDIUM — Chefkuru ranking via search,
+  tier 4]; also **karaage** (tulip-shaped drumettes), **temaki-zushi**
+  at the table, temari-zushi, and a **strawberry shortcake** (the top
+  cake) [MEDIUM — HugKum (Shogakukan), Kurashiru, Delish Kitchen; see
+  catalog: Hambāgu; Karaage; Sushi (temaki at home); Curry rice;
+  Christmas Eve table for the shortcake description].
+- Snapshot staging: **1 setting**: a plate with a small hambāgu, two
+  karaage and salad, the shortcake cropped at the edge. **2 settings**:
+  two plates, the cake with candles (unlit or lit, no text plate)
+  between them. **Small group**: a temaki spread with a rice tub, nori
+  stack and fillings plates running out of frame. Crowd cues: a paper
+  garland (no letters), a party hat, a wrapped present at the edge.
+- Never stage: a chocolate plaque with text; number or letter candles
+  (plain candles only).
+- Confidence and sources: [MEDIUM]; [EDITORIAL] staging.
+
+#### Celebration: Wedding reception (披露宴)
+
+- Type: life event
+- When: the reception follows the ceremony; **midday** or **evening**.
+- Gathering: an average of **52 invited guests** (2024) at a wedding
+  venue, hotel or restaurant; *other* or *restaurant* [MEDIUM — Zexy
+  Marriage Trend Survey 2024; the 2023 survey put food at about ¥16,000
+  per guest].
+- The spread: a **plated course**, typically Franco-Japanese: an
+  appetiser, a soup, a fish course, a beef main, a dessert (often with
+  the cut wedding cake), sometimes a sushi or sea-bream course
+  [EDITORIAL from common venue menus; not verified this pass]. No shared
+  platters; each course is one plate per guest.
+- Snapshot staging: **1 setting**: a white tablecloth, a charger with
+  the main course (seared beef, sauce swoosh, seasonal vegetables),
+  cutlery outside-in, a folded napkin, one glass with the hero; the next
+  setting's edge in frame. **2 settings**: two identical plated settings
+  side by side, a low floral centrepiece between them. **Small group**:
+  an arc of a round table for eight, 3–4 settings visible, the next
+  table soft behind. Crowd cues: the next round table and its flowers;
+  soft chandelier light; a gift bag (hikidemono) under a chair, no text.
+- Never stage: the kanpai toast, champagne, wine or beer glasses (a
+  wedding table carries several; stage one glass only); legible name
+  cards and seating charts; the couple identifiable; a chapel or shrine
+  ceremony.
+- Confidence and sources: [MEDIUM] guest count; [EDITORIAL] menu and
+  staging.
+
+**Christmas Eve at home (24 December, evening)** is staged from the
+catalog entry **Christmas Eve table (strawberry shortcake and fried
+chicken)**: plate one drumstick and a cake slice per visible setting, a
+small tree blurred behind as the crowd cue, and never a chain's bucket,
+box or branding, nor the children's sparkling cider ("kids' champagne",
+a non-TCCC drink and an alcohol look-alike). [HIGH per the catalog
+entry; EDITORIAL staging]
+
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8: two meanings, watching sport together
+and social game nights. Every Japan hard rule applies unchanged: no
+alcohol (Lemon-Dou included, no kanpai), **no izakaya or sports-bar
+register** (hard rule 2), no water glass, yunomi, teapot or barley-tea
+jug beside the hero, chopsticks on a rest and never upright, nothing on
+or beside a butsudan or Obon altar. Screens, cards, tiles and
+uniforms are never legible; no team crests, caps with marks, kits,
+sponsor marks or league logos; no gambling as the subject. The snapshot
+rule (§5.7) sets party size. Keep every scene calm and tidy, in the
+file's existing register.
+
+### Watch parties
+
+Watching sport together is **medium** in Japan: real, but quieter than
+in most markets, and the group form (sports bars, izakaya screens) is
+beer-led [EDITORIAL, research notes]. The stageable forms are **at
+home**: the August **Koshien** high-school baseball championship, which
+NHK has broadcast every game of since 1953 from roughly 08:00 to 21:00
+and which is called the national festival of Japanese summer [HIGH —
+gov-online.go.jp, Wikipedia]; **NPB** professional baseball night games;
+national-team football; and afternoon **sumo**. Signature foods are
+summer-table dishes for Koshien (chilled sōmen, watermelon, onigiri) and
+konbini or home snacks for night games (karaage, edamame, yakitori,
+onigiri). The file had no sports lines before this pass.
+
+#### Watch party: Koshien summer high-school baseball at home
+
+- When: the national championship in August, ~two weeks overlapping
+  Obon (13–16 August); games run all day, so stage it **midday** (the
+  morning slot is out of scope) or early **golden-hour** [HIGH for the
+  dates and broadcast, gov-online.go.jp; intake mapping EDITORIAL].
+- Gathering: the household or relatives home for Obon, 2–6, in the
+  living room or tatami room with the TV on in the corner; *home
+  indoor* [EDITORIAL]. See Celebration: Obon relatives' gathering for
+  the larger version.
+- The spread: **chilled sōmen** in a glass bowl over ice with a dipping
+  cup each, **watermelon** wedges on a plate, **onigiri** (see catalog:
+  Onigiri), edamame in a small bowl, kakigōri for an afternoon snack
+  (see catalog: Kakigōri) [LOW — not verified, research notes]. Mugicha
+  is the real drink and an intruder (hard rule 3): exclude the jug.
+- Surface and environment: a **low table (chabudai)** on tatami with
+  zabuton cushions, or the dining table; an **electric fan**, an open
+  shōji or sliding window to a garden, a wind chime, bright summer
+  daylight; the TV a soft green-and-brown field (diamond and dirt
+  infield) with nothing legible.
+- Snapshot staging: **1 setting**: a dipping cup and chopsticks on a
+  rest in front of the sōmen bowl, two watermelon wedges on a small
+  plate, hero beside them; the TV glow soft in the corner. **2
+  settings**: two dipping cups either side of the sōmen bowl, the
+  watermelon plate and onigiri between them. **Small group**: the low
+  table with sōmen, watermelon and an onigiri plate running out of frame,
+  a multi-serve PET in the midground if the brief allows. Crowd cues:
+  extra zabuton at the table edge, a blurred figure on the engawa, the
+  fan turning.
+- Never stage: school names, numbers or crests on uniforms, legible
+  scoreboards or on-screen graphics; beer (common with relatives in
+  August); the mugicha jug, a yunomi or teapot beside the hero; the
+  Obon altar; no identifiable children (the players on screen are
+  minors: keep the screen fully abstract).
+- Confidence and sources: Koshien dates and broadcast [HIGH —
+  gov-online.go.jp, Wikipedia]; food [LOW — not verified]; staging
+  [EDITORIAL].
+
+#### Watch party: NPB night game at home
+
+- When: the NPB season runs late March to October; night games start
+  around 18:00, intake **evening** [LOW — not verified].
+- Gathering: a couple, a family of 3–4, or 2–3 friends in a flat; *home
+  indoor*. The izakaya or sports-bar version is beer-led and is not
+  staged; the stadium (beer vendors in the stands) is not staged either
+  [EDITORIAL per hard rule 2].
+- The spread: konbini or supermarket-deli **karaage** (see catalog:
+  Karaage), **yakitori** skewers laid on a plate (see catalog: Yakitori
+  (non-drinking register)), **edamame** in a bowl with a second small
+  bowl for pods, **onigiri** (see catalog: Onigiri), gyōza from a
+  takeaway tray (see catalog: Gyōza) [LOW — research notes]. Karaage,
+  yakitori and edamame are classic drinking food (ICONIC BEVERAGES), so
+  the scene must read as a family dinner or snack at home: rice or
+  onigiri present, no glasses other than the hero.
+- Surface and environment: a low table in a compact living room (or a
+  kotatsu with the quilt off in spring and autumn), a sofa or floor
+  cushions, warm ceiling light, the TV glow; deli food decanted onto
+  plates, or plastic deli trays with their lids off and any labels
+  blurred.
+- Snapshot staging: **1 setting**: a small plate with two karaage and
+  an onigiri, chopsticks on a rest, the edamame bowl at the edge, hero
+  beside it. **2 settings**: two small plates, the yakitori plate and
+  edamame bowl between them. **Small group**: the low table with karaage
+  plate, yakitori plate, gyōza tray and edamame running out of frame.
+  Crowd cues: a third cushion, a blurred shoulder toward the screen.
+- Never stage: team caps, jerseys, towels or mascots with marks; a
+  legible screen; beer or chūhai cans (the default at a home night game;
+  negate Lemon-Dou by name); a yunomi or water glass; legible konbini or
+  deli packaging.
+- Confidence and sources: [LOW — not verified] for season, times and
+  food; staging [EDITORIAL].
+
+#### Watch party: National-team football at home (Samurai Blue)
+
+- When: home qualifiers and friendlies are usually evening kick-offs in
+  Japan (intake **evening**); World Cup and away matches in Europe or
+  the Americas often land in the early morning in Japan, which is out of
+  scope (breakfast), so stage the evening home-match version [LOW — not
+  verified; research notes say "often early morning"].
+- Gathering: friends or family, 2–5, in a flat; *home indoor*. The
+  public forms (sports bars, the Shibuya crossing crowds after a win)
+  are beer-led or crowd scenes and are not staged [EDITORIAL].
+- The spread: karaage (see catalog: Karaage), onigiri, a takeaway pizza
+  or a takoyaki tray (see catalog: Takoyaki), snack bowls [LOW —
+  EDITORIAL].
+- Surface and environment: as the NPB entry; an optional cue is a plain
+  blue towel or blue cushion (no crest, no lettering) on the sofa.
+- Snapshot staging: as the NPB entry.
+- Never stage: the national-team kit or crest, a full flag, a legible
+  screen; beer; Shibuya crowd scenes.
+- Confidence and sources: [LOW — not verified]; staging [EDITORIAL].
+
+#### Watch party: Sumo on an afternoon at home
+
+- When: six grand tournaments a year (January, March, May, July,
+  September, November), each 15 days; NHK shows the top division live
+  roughly 16:00–18:00, so intake **golden-hour** [LOW — not verified].
+- Gathering: older viewers, 1–3, at home; *home indoor* [LOW].
+- The spread: **senbei** (rice crackers) in a small bowl, **mikan** in a
+  bowl in the winter tournaments, a few wagashi (see catalog: Compact
+  sweets); tea is the real pairing and an intruder (hard rule 3)
+  [LOW — research notes].
+- Surface and environment: a **kotatsu** in January and November, a low
+  table otherwise; tatami, late-afternoon light through a window; the TV
+  a soft field of pale clay and colour.
+- Snapshot staging: **1 setting**: the kotatsu corner with the mikan bowl
+  and a small senbei dish, hero beside them, the TV glow soft behind.
+  **2 settings**: two small dishes and the shared mikan bowl. **Small
+  group**: rarely needed; the table edge with three dishes. Crowd cue:
+  a second cushion and a folded newspaper (no legible text).
+- Never stage: wrestlers' faces, ranking boards (banzuke) or any
+  legible text; a teapot or yunomi beside the hero; sake.
+- Confidence and sources: [LOW — not verified] throughout; staging
+  [EDITORIAL].
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high**.
+Basis: the **karaoke box** is an everyday group outing [MEDIUM —
+research notes]; the board-game market was about USD 1.13 billion in
+2024 with café growth tied to small homes [LOW-MEDIUM — IMARC, a
+market-research seller]; **mahjong** is reviving among the young, with
+17.6% of male teenagers playing in 2023, double the share of a few years
+earlier [MEDIUM — Korea Herald/ANN, China Daily 2025]. Home video-game
+nights (convenience-store snacks on a kotatsu) are plausible but
+unverified [LOW — not verified], and New Year karuta and sugoroku are a
+minor cue only, so neither gets an entry.
+
+#### Game night: Karaoke box with friends
+
+- When: after work or after class, **evening**; cheap daytime packages
+  make **midday** valid for students [LOW — not verified].
+- Gathering: 3–8 friends or co-workers in a private room; intake venue
+  *other: karaoke room* [MEDIUM].
+- The spread: room-service plates on the table: **karaage** (see
+  catalog: Karaage), fries, edamame, a pizza, takoyaki (see catalog:
+  Takoyaki), a honey-toast tower as dessert [LOW — not verified,
+  research notes; honey toast EDITORIAL].
+- Surface and environment: a **low glass-top or laminate table** in front
+  of an L-shaped vinyl sofa bench; a big screen as soft coloured light
+  (lyrics unreadable); two microphones resting on the table; a
+  song-picker tablet face-down; coloured LED wash, dim room.
+- Snapshot staging: **1 setting**: a small plate with two karaage and a
+  few fries on the table corner, hero beside it, a resting microphone
+  soft behind. **2 settings**: two small plates, the karaage and fries
+  plates between them. **Small group**: the table with three or four
+  room-service plates running out of frame. Crowd cues: the sofa bench
+  curving out of frame, a blurred standing figure by the screen (no
+  face), a jacket over the sofa arm.
+- Never stage: the **nomihoudai** (all-you-can-drink) version: beer
+  mugs, chūhai, Lemon-Dou or highball glasses (the norm in evening
+  groups; this entry is staged **food-led and alcohol-free only**);
+  legible lyrics, song titles, the chain or machine brand; a microphone
+  held near the camera; the self-serve water glass or tea.
+- Confidence and sources: format [MEDIUM — research notes]; food and
+  times [LOW]; staging [EDITORIAL].
+
+#### Game night: Board-game café
+
+- When: weekend **midday** to **evening** [LOW — research notes].
+- Gathering: 3–6 friends, students or young couples; intake venue
+  *restaurant* (café) [LOW-MEDIUM — IMARC for the café trend].
+- The spread: café plates: curry rice (see catalog: Curry rice), a
+  toasted sandwich, fries, a dessert plate [LOW — research notes].
+- Surface and environment: a wooden café table, shelves of game boxes
+  behind with spines unreadable, generic wooden pieces and dice, warm
+  café light.
+- Snapshot staging: **1 setting**: a curry plate with a spoon on the
+  table edge, the game board soft and generic at the far side, hero
+  beside the plate. **2 settings**: two plates side by side, a shared
+  fries plate, the game between them pushed back. **Small group**: three
+  plates and the game in soft focus. Crowd cues: a neighbouring table of
+  blurred players, the shelf running out of frame.
+- Never stage: licensed or branded games, legible boxes, cards or rules;
+  the café's water glass beside the hero; beer.
+- Confidence and sources: trend [LOW-MEDIUM — IMARC, commercial]; food
+  [LOW]; staging [EDITORIAL].
+
+#### Game night: Home mahjong, no stakes (riichi)
+
+- When: weekend afternoons into evening, New Year holidays; intake
+  **golden-hour** or **evening** [LOW — research notes].
+- Gathering: four players (young friends, or family across generations)
+  around a table at home; *home indoor*. The commercial mahjong parlour
+  (jansō) has a gambling and smoking reputation and is not staged; the
+  "healthy mahjong" idea (no stakes, no smoking, no drinking) is the
+  register [MEDIUM for the teen revival; jansō reputation and the
+  healthy-mahjong term LOW — not verified].
+- The spread: on a side table: senbei, a plate of onigiri (see catalog:
+  Onigiri), mikan, small wagashi (see catalog: Compact sweets); tea is
+  the real drink and an intruder [LOW — research notes].
+- Surface and environment: a square table with a green felt mat, tiles
+  as pale rectangles with backs showing; a living room or tatami room,
+  late-afternoon light.
+- Snapshot staging: **1 setting**: the side-table corner with a small
+  plate of senbei and two onigiri, hero beside it, the mat edge soft
+  behind. **2 settings**: two small plates and the mikan bowl.
+  **Small group**: the side table with three dishes, the mahjong table out
+  of focus. Crowd cues: a fourth cushion half-cropped, a blurred player.
+- Never stage: money, point sticks being exchanged, any sign of stakes;
+  **tile faces turned up** (they carry characters, which is legible
+  text); cigarettes and ashtrays; beer; a teapot or yunomi beside the
+  hero.
+- Confidence and sources: teen revival [MEDIUM — Korea Herald/ANN, China
+  Daily 2025]; food and parlour notes [LOW]; staging [EDITORIAL].
 
 ---
 
@@ -2555,6 +3405,34 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
 - **Pepsi/Suntory market share** in Japan not found.
 - **Regional bottler map** (beyond CCBJI) not researched.
 
+- **Celebrations pass (2026-10-01) open items**: the Obon relatives'
+  headcount rests on one news anecdote (16 people); New Year family and
+  purchase shares come from commercial consumer surveys; the wedding
+  reception menu (Franco-Japanese plated course) and round-table size
+  were not verified; the birthday-dish ranking is a tier-4 source;
+  Shichi-Go-San venue claims come from photo-studio and department-store
+  columns. Hina-doll and jūbako framing need image tests.
+
+- **Game-night pass (2026-10-01) open items**: only Koshien's dates and
+  broadcast are sourced (gov-online.go.jp, Wikipedia); NPB season and
+  start times, Samurai Blue kick-off times, sumo broadcast hours, all
+  viewing foods, karaoke room food, daytime karaoke packages, the
+  board-game café menu, the mahjong parlour reputation and the
+  "healthy mahjong" term are model knowledge, not verified; Japan
+  karaoke participation numbers were not found (Statista paywall); the
+  board-game market figure is from a market-research seller (IMARC).
+  WBC 2026 ratings were not found. No WebSearch was run in this pass.
+
+- **Venue-profile pass (2026-10-01, wave 1) open items**: unverified
+  background details: the apartment's counter kitchen, flush ceiling
+  light and two-layer curtains; tatami-room lamp types, seasonal decor
+  placement and how often the butsudan shares the room; the teishoku
+  shop's wall TV and noren; ramen-shop seat counts and staff dress;
+  karaoke-room colour wash and room-service food; all subregional
+  variants. Home outdoor (engawa, balcony, garden BBQ) was not profiled
+  (EDITORIAL in this file, not surveyed); konbini eat-in, famiresu and
+  the okonomiyaki teppan are queued for wave 2.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: Okinawa spinout; izakaya exclusion; Lemon-Dou
@@ -2571,6 +3449,21 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
    shōyu drift), onigiri (Korean rice-ball drift), takoyaki (meatball
    size), and the water/tea-glass intrusion in restaurant scenes.
 4. Independent §8 audit of this file.
+
+5. Celebrations pass: catalog entries for **chirashi-zushi**
+   (Hinamatsuri; wide tub of vinegared rice with pink shrimp, salmon
+   roe, egg ribbons, green snow peas), **sushi-oke delivery platter**
+   (round red-and-black lacquer tub of assorted nigiri, about three cans
+   wide for 3–4 people), **sekihan** (red-bean rice), **tai no shioyaki**
+   (whole salt-grilled sea bream for celebrations), **temari-zushi**, and
+   **vegetable tempura platter / sōmen on ice** (Obon).
+
+6. Game-night pass: catalog entries for **edamame** (bright green salted
+   pods in a small bowl with a pod bowl beside it; a home or snack
+   register, never an izakaya one), **sōmen on ice** (already queued for
+   Obon; also the Koshien table), **senbei and mikan** (the kotatsu
+   snack pair), and the **karaoke honey-toast tower** (thick cubed toast
+   loaf with cream and syrup).
 
 ## RESEARCH LOG
 
@@ -2609,3 +3502,6 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
   marked; MAFF, the Statistics Bureau, JMA and Coca-Cola Japan were
   preferred wherever they covered a claim.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries, all Japanese-language (Zexy 2024 wedding guest count; Obon relatives' food; Shichi-Go-San meal and venue; Hinamatsuri dishes; children's birthday menus; New Year osechi family and purchase surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year, Obon, Hinamatsuri, hanami, Shichi-Go-San, child's birthday, wedding reception) plus a Christmas Eve pointer to its catalog entry. Sources: Zexy/Recruit, Benesse, Kyoto Culinary Art College, MATCHA, HANKYU FOOD, HugKum, food-media and consumer-survey releases (commercial, flagged).
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 4 watch-party entries (Koshien at home, NPB night game at home, national-team football at home, sumo afternoon) and 3 social game-night entries (karaoke box staged food-led and alcohol-free, board-game café, home no-stakes mahjong); watch parties rated medium, social game nights medium-high.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches (all Japanese-language: mansion LDK, washitsu and zabuton, Shōwa teishoku shop, ramen-shop interior, summer-festival yatai, karaoke-box room). Sources were ja.wikipedia, nippon.com, Daiwa House, housing/renovation and shop-design sites, festival and event pages (tier 1–4); home outdoor swapped for the tatami room.

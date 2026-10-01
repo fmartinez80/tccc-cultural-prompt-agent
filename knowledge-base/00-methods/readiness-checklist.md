@@ -30,6 +30,34 @@ unless checked — this is a gap list, not a status report of what's done.
   human decision on apartheid-era sensitivity, not a research gap
 
 ### A2. Cross-market standing gaps
+- [ ] **Venue profiles (schema §5.9), wave 1** — written 2026-10-01:
+  135 background-first profiles, 5–6 per country file (the
+  everyday home, home outdoor space, casual sit-down restaurant, street
+  venue and signature event venue), a 6-venue national set in us.md and
+  2 per US regional file. About 140 searches, snippet-level only; much
+  of the room detail rests on supplier, decorator and listing pages
+  (tagged commercial, mostly MEDIUM/LOW; each file's GAP LOG lists the
+  unverified items). No prompt-ready line has been image-tested yet.
+  Wave 2 (the remaining register venues, queued in each file) not
+  started. Reviewer checks: TX and NM local restaurants replace the
+  national casual sit-down profile; ZA/NG register variants stay pending.
+- [ ] **Game night (schema §5.8)** — first pass written 2026-10-01 for
+  every country and US regional file (watch parties and social game
+  nights, about 120 entries), built from a 45-search cross-market study
+  (`/mnt/project-files/knowledge-base/scenario-coverage/game-night-report.md`).
+  Needs SME review; most viewing foods, kick-off times and all of Uruguay
+  are unverified. Reviewer flags: Old Firm (Celtic–Rangers) imagery
+  banned in uk-scotland.md on sectarian grounds; Midwest euchre entry is
+  model knowledge only.
+- [ ] **Celebrations & large gatherings (schema §5.7)** — first pass
+  written 2026-10-01 for every country and US regional file (about 180
+  entries). Needs SME review per market; most headcounts are editorial
+  estimates and several menus rest on caterer or planning-site sources
+  (each file's GAP LOG lists them). Resolved 2026-10-01: no identifiable
+  children; never a full flag; Thai ordination and house-blessing kept.
+  Still open: how to use the Juneteenth red-drink information;
+  Ramadan/iftar entries in PK/BD/ID/TR wait on the existing iftar
+  sign-off; Turkey's file-level breakfast scope.
 - [ ] **No market has a confirmed TCCC internal OU code** — every started
   file flags "not confirmed, don't guess"; needs TCCC's own org
   documentation, not further research

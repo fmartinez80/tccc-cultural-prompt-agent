@@ -222,6 +222,331 @@ size relative to the can.
 | **Shaokao / skewer street (夜宵)** | Night, low folding tables and plastic stools on the pavement, a long charcoal trough grill, skewers on stainless trays; strong beer prior (negate). |
 | **Breakfast stall (早点摊)** | A griddle cart or a steamer stack at a stall front, a folding table; paper bags. Morning Module only. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (wave 1, 2026-10-01): the default
+camera is a close-up hero, so each profile leads with what must read in
+the **soft background**. The register table above stays the index. The
+national default zone is **zone 1, Beijing** (see Default when no zone
+is named). Every China hard rule applies: own rice bowl per diner,
+chopsticks never upright, halal tables stay halal, no teapot, soy milk
+or beer, **no legible characters** (couplets, 福, 囍, menus, shop
+signs), no flags or political set-dressing. **Swap from the brief's
+default list**: home outdoor is not profiled, because private gardens
+are rare in cities and the file's evidence for courtyards and balconies
+is LOW (Meal outdoors at home); the noodle shop takes its place as the
+most-used 1-person venue. Hot pot and the dim sum tea house are queued
+for wave 2.
+
+#### Venue: Beijing apartment dining area (家里的餐厅, 客餐厅)
+
+- Use for: home indoor; casual lunch (1–3), dinner at home, New Year's
+  Eve and Mid-Autumn reunion dinners, weekend dinner at the
+  grandparents', home watch parties; all party sizes. The national urban
+  default (General environmental norms: two-thirds urban, flat in a
+  小区). [HIGH for the housing basis; EDITORIAL default]
+- Soft background (the core): **back wall** white or warm off-white
+  latex paint, often meeting the **living-room side** of a combined
+  客餐厅: the sofa back and the large **TV feature wall** (电视背景墙:
+  a pale stone-effect, wood-veneer or wallpapered panel with the dark
+  TV rectangle on it). **Middle distance**: the kitchen doorway, often
+  a **sliding glass door** to a narrow kitchen with white or grey
+  cabinets and a stainless range hood; a tall fridge; a glass-fronted
+  side cabinet or wine-cabinet-style display unit (keep it free of
+  bottles) with tea sets and ornaments as small blurred shapes; potted
+  green plants (money plant, pothos) on the floor; in older flats, the
+  **enclosed balcony** beyond a glass partition with laundry racks
+  (soft, or out of frame). **Light**: a **pendant lamp** directly over
+  the table (warm 3000 K LED, often a multi-head or round shade) is the
+  key light at dinner; recessed downlights or an LED strip in a false-
+  ceiling border; daylight from a wide aluminium window. Winter
+  evenings are dark by 17:30 in Beijing. **Palette**: white walls,
+  **light-grey or beige polished floor tiles** (large-format, glossy),
+  pale wood or white furniture, white porcelain, one warm colour from a
+  table runner or cushions. **Signature shapes**: the pendant lamp over
+  the table; the TV feature wall; the sliding kitchen door with a range
+  hood behind; large glossy floor tiles reflecting the lamp; slippers
+  and a shoe cabinet near the door. **Density and wear**: tidy, lived-
+  in, practical; rice cooker and thermos on the counter; New Year adds
+  red paper-cuts on the window and red decorations (blurred, no
+  characters). **People**: a blurred elder or parent at the kitchen
+  door, at most about 2.5 faces, none sharp. [MEDIUM — combined
+  living-dining with grey floor tiles, pendant lamp over the table and
+  strip lights in Chinese home-design cases (Haohaozhu, 163.com, Zhihu
+  70 m² case) plus this file's interior markers; side-cabinet contents
+  and sliding kitchen door LOW-MEDIUM — general knowledge]
+- Shell: a 6–7-storey walk-up from the 1980s–2000s or a high-rise in a
+  gated compound; aluminium or uPVC windows with outward AC units;
+  ceramic-tile floor (wood-effect laminate in some bedrooms); plain
+  white ceiling, often a stepped plaster border.
+- The table as set here: a square or rectangular table for four to six
+  (wood, or a **sintered-stone/glass top**; a clear PVC or patterned
+  table mat over wood is common); a round folding top appears at New
+  Year. Shared dishes on white or blue-patterned porcelain plates, soup
+  in a big bowl, a small rice bowl, chopsticks on rests and a ceramic
+  spoon at each place. Upholstered or wooden chair backs at the frame
+  edge. [MEDIUM — register row "Home dinner"; table-mat detail from a
+  design case]
+- Subregional variants and the national default: **Shanghai/Jiangnan
+  (zone 2)** — smaller old-lane flats (石库门 or 1990s blocks), wooden
+  floors, humid grey window light; **Guangzhou (zone 3)** — no heating,
+  ceiling fans or AC, louvred windows, bright subtropical light;
+  **Northeast (zone 6)** — double-glazed windows steamed up in winter,
+  radiators under the sill; **Sichuan/Chongqing** — hillside towers,
+  fog beyond the window; **rural** — self-built house, concrete or
+  tiled floor, a round table in a large front room. Default: the
+  Beijing flat above.
+- Hallucination traps: red lanterns, dragons and calligraphy scrolls in
+  an ordinary home; carved rosewood "imperial" furniture and moon gates;
+  Japanese tatami, shoji or low tables with floor cushions; a Western
+  open-plan kitchen island; a teapot and cups on the table; a 福 or
+  couplet rendered legibly; a sterile showroom.
+- Never stage: tea, soy milk, beer, baijiu; legible characters on
+  calendars, paper-cuts or packaging; flags or portraits; a brand-name
+  appliance logo; identifiable children.
+- Prompt-ready line: "A Beijing apartment dining area at dinner: a
+  table of shared dishes with a rice bowl at each place under a warm
+  pendant lamp, glossy grey floor tiles and a pale TV feature wall
+  softly blurred behind, a sliding glass kitchen door glowing at the
+  side."
+- Confidence and sources: MEDIUM; 1 search (Chinese home-design cases:
+  Haohaozhu, 163.com, Zhihu, To8to) plus this file's interior markers.
+
+#### Venue: Neighbourhood home-style restaurant (家常菜馆)
+
+- Use for: restaurant indoor; away from home 2–3 people, family meals
+  out, small birthday dinners, colleagues' lunch; 2 to a small group,
+  private room (包间) for larger family meals. The national default sit-
+  down restaurant. [EDITORIAL; register row "Home-style restaurant"]
+- Soft background (the core): **back wall** of light painted plaster or
+  wood-effect panelling, sometimes a nostalgic theme (old street
+  photos, retro posters, painted murals of a local lane: all illegible);
+  a **kitchen pass window** or doorway with a flash of flame and the
+  clatter shape of a wok, cooks in white jackets; a **glass-fronted
+  display fridge** with raw dishes or cold dishes on plates (a common
+  ordering point in smaller places). **Middle distance**: other round
+  tables with **glass turntables**, many crowded with dishes, family
+  groups as blurred shapes; waitresses in a uniform waistcoat or apron;
+  a cashier counter with a lucky cat or small plant (blurred). **Light**:
+  bright and even, artificial: white LED panels or rows of downlights
+  (cool-neutral, 4000–5000 K) in cheaper places; warmer pendant lamps
+  in mid-range ones; little daylight except near the street window.
+  **Palette**: white tablecloths or bare brown wood, the clear glass
+  turntable, white porcelain, red accents (chair cushions, lanterns
+  only in themed places), steam. **Signature shapes**: the round glass
+  turntable crowded with oval plates; shrink-wrapped tableware sets at
+  each seat; the kitchen-pass flame; a display fridge glow; tables of
+  blurred families. **Density and wear**: loud, busy, well-used, clean
+  enough. **People**: within the limit; a server's back. [MEDIUM — 苍蝇
+  馆子 and mid-range 家常菜馆 environment from Sina/Weibo food columns
+  (wooden tables, retro posters, "市井" feel, private rooms as standard);
+  turntable and sterilised sets HIGH per GENERAL NORMS; lighting and
+  display fridge LOW — general knowledge]
+- Shell: a ground-floor shop unit on a residential street, often two
+  floors with private rooms upstairs; glass frontage; ceramic-tile or
+  stone-effect floor; plain or false ceiling.
+- The table as set here: a round table (or square for 2–4) with a white
+  cloth, a disposable plastic cover or bare wood; a glass turntable for
+  larger tables; **the shrink-wrapped sterilised set (消毒餐具)** at each
+  place — cup, small plate, bowl, spoon — opened for the meal (the
+  wrap's printing is legible, so show it opened or cropped); chopsticks
+  on a rest or the plate; shared dishes on oval and round white plates;
+  a steel teapot (exclude); a toothpick holder and napkin box. [MEDIUM]
+- Subregional variants and the national default: **Sichuan/Chongqing**
+  — the tiny 苍蝇馆子 with bamboo-backed or plastic stools, small square
+  tables, chilli everywhere; **Northeast** — big rooms, big plates,
+  plastic-covered tables, steamy windows; **Cantonese** — the
+  neighbourhood restaurant shares rooms with the dim sum tea house
+  (register row); **Jiangnan** — darker wood, quieter, smaller plates.
+  Default: the Beijing neighbourhood restaurant above.
+- Hallucination traps: Western "Chinese restaurant" decor (gold dragons,
+  red lacquer pillars, paper lanterns everywhere, fortune cookies);
+  a fine-dining tasting room with plated single portions; Japanese
+  izakaya wood and noren curtains; a banquet toast table; legible menu
+  boards on the wall.
+- Never stage: beer bottles or crates (very common on these tables),
+  baijiu, the teapot and tea cups; cigarettes; legible menus, wall text,
+  printed tableware wrap; one plated Western portion per diner.
+- Prompt-ready line: "A busy Chinese neighbourhood home-style restaurant:
+  a round table with a glass turntable crowded with shared dishes and a
+  rice bowl at each place, wood-panelled walls, a glowing kitchen pass
+  and other tables of blurred diners under bright downlights behind."
+- Confidence and sources: MEDIUM; 1 search (Sina/Weibo food columns,
+  tier 3) plus the register and GENERAL NORMS.
+
+#### Venue: Noodle shop (面馆, Lanzhou beef-noodle default)
+
+- Use for: restaurant indoor; 1 person at a restaurant, quick lunch,
+  meal on the go seated; 1–2. National: Lanzhou beef-noodle shops are in
+  every city; the shop type is the national quick-lunch default.
+  Lanzhou shops are **halal** (hard rule 4). [MEDIUM — Xinhua on
+  Lanzhou noodles spreading nationally; EDITORIAL default]
+- Soft background (the core): **back plane** is the **noodle-pulling
+  window**: a glass-fronted prep counter (newer shops) or open pass
+  where a cook in a white jacket and cap pulls dough (a blurred white
+  figure with a pale arc of noodles), a steel table dusted with flour,
+  and a **huge stock pot** sending up steam; beside it a counter of
+  steel trays with sliced beef, coriander, garlic shoots and a big
+  bowl of red chilli oil. **Back wall** plain white tile or white
+  panelling, often with a big photographic menu board (illegible
+  coloured rectangles; frame to keep it soft) and, in halal shops, the
+  green 清真 sign (blurred, no characters). **Middle distance**: small
+  square tables with bench-like stools or plastic-backed chairs,
+  customers hunched over bowls. **Light**: flat, cool white LED panels or
+  fluorescent tubes; daylight from the street door; steam softening
+  everything. **Palette**: white tile and steel, pale noodle-dough
+  colours, deep red chilli oil, green coriander, the clear amber broth.
+  **Signature shapes**: the noodle-puller's arms and arc of dough; the
+  steaming stock pot; rows of steel trays; big ceramic bowls; vinegar
+  and chilli jars on each table. **Density and wear**: plain, quick,
+  busy at noon; older shops worn (sticky tables, which you clean up for
+  the frame); new shops "窗明几净" with modern Chinese finishes.
+  **People**: one blurred cook, one or two blurred diners. [MEDIUM —
+  glass noodle-pulling window and modern-vs-old shop look from CBNData
+  and Zhihu (via search); jars on the table per register row; menu
+  board and green halal sign LOW — general knowledge]
+- Shell: a narrow street-level shop unit; glass front with a plastic
+  strip curtain or door; tiled floor; low ceiling.
+- The table as set here: a small laminate or stainless-edged table;
+  a big white or patterned **ceramic bowl** (~20 cm) of noodles; jars
+  of **vinegar** and **chilli oil**, a chopstick canister, a napkin box;
+  a small side plate of cold cucumber or a marinated egg. Disposable
+  wooden chopsticks in a paper sleeve (blur it). [MEDIUM]
+- Subregional variants and the national default: **Beijing** — the
+  zhajiangmian shop with wooden tables and side plates of shredded
+  vegetables; **Shanghai** — the 面馆 with a bowl of soup noodles and a
+  topping (浇头) plate, smaller, wood-trimmed; **Chongqing** — xiaomian
+  shops with low stools on the pavement; **Yunnan** — rice-noodle (米线)
+  shops; **Shaanxi** — biangbiang or liangpi shops. Default: the Lanzhou
+  beef-noodle shop above.
+- Hallucination traps: Japanese ramen-ya (counter seats, noren,
+  ticket machine, wooden interior); a Western "noodle bar" with
+  industrial lighting; pork in a halal Lanzhou shop; a dirty-kitchen
+  poverty frame; a legible photo menu.
+- Never stage: pork or alcohol cues in a halal shop; tea or soup bowls
+  of soy milk; legible menu boards, 清真 sign or chopstick sleeve; the
+  cook's hands in close-up holding noodles toward camera.
+- Prompt-ready line: "A Lanzhou beef-noodle shop at noon: a big ceramic
+  bowl of clear-broth noodles with chilli oil on a small table beside
+  vinegar and chilli jars, and behind it a softly blurred glass pulling
+  window where a cook in white stretches dough beside a steaming stock
+  pot."
+- Confidence and sources: MEDIUM; 1 search (CBNData, Xinhua, Zhihu,
+  Sina) plus the register and the Lanzhou niurou mian catalog entry.
+
+#### Venue: Shaokao night street and skewer restaurant (烧烤摊 / 烧烤店, 撸串)
+
+- Use for: street / on the go and other (street-side tables); night
+  snacks (夜宵), friends' evenings, late-night football watch party;
+  1 to a small group. National, origin zone 7, strongest in the North
+  and Northeast. [MEDIUM — Street food register; Watch party: Late-night
+  football at a shaokao restaurant]
+- Soft background (the core): **back plane** is the **charcoal trough
+  grill**: a long narrow steel box glowing orange, a cook fanning it,
+  **blue-grey smoke** rising into the light; beside it a lit **chiller
+  or shelf of raw skewers** on trays. **Middle distance**: more **low
+  folding tables** with plastic covers and **red or blue plastic stools**
+  on the pavement, groups as blurred silhouettes, a shopfront with a
+  roll-up shutter open and a big screen glowing inside on match nights,
+  parked e-bikes, plane trees in eastern cities. **Light**: night;
+  **warm orange bulbs** strung over the tables and the charcoal glow
+  against the cooler white of shopfront LEDs and a neon sign (coloured
+  blur, no characters); smoke turns all lights into soft halos.
+  **Palette**: charcoal orange, smoky blue, red plastic, steel trays,
+  warm amber; black night sky. **Signature shapes**: the long glowing
+  trough; smoke halos round bulbs; low tables and stools; piles of bare
+  bamboo sticks in a cup; stainless skewer trays. **Density and wear**:
+  crowded, loud, informal, a little greasy but lively ("烟火气").
+  **People**: blurred groups within about 2.5 faces, a cook's back.
+  [MEDIUM — folding tables, small stools, charcoal, orange light and
+  smoke per The Paper and Sina/Weibo night-snack columns; Watch party
+  entry HIGH for the format; neon detail LOW]
+- Shell: pavement outside a small skewer shop, or the shop's own tiled
+  room with steel tables and an extractor fan; awning or open sky.
+- The table as set here: a low folding table with a disposable plastic
+  sheet; stainless trays of skewers laid flat; a steel cup for the bare
+  sticks; paper napkin box; small plates; garlic and cumin-chilli dish;
+  plastic disposable gloves by a crawfish bowl in summer. [MEDIUM —
+  watch-party entry]
+- Subregional variants and the national default: **Northeast (zone 6)**
+  — 东北烧烤 with indoor tables, bigger skewers, steamy windows in
+  winter; **Xinjiang/Xi'an (zone 7)** — halal lamb skewers on long iron
+  rods over charcoal, no pork, no beer cues; **Sichuan/Chongqing** —
+  串串 in red broth replaces the grill; **Guangdong** — the 大排档 with
+  seafood and congee. Default: the northern pavement shaokao above.
+- Hallucination traps: Japanese yakitori counters and lanterns; Korean
+  BBQ table grills; Western barbecue; green beer bottles and crates
+  (the strongest prior); legible neon signs; a night market so crowded
+  that faces become sharp.
+- Never stage: beer, baijiu, cigarettes; legible signs, price boards,
+  screens; betting slips; full flags; pork on a halal table.
+- Prompt-ready line: "A Chinese street-side skewer stall at night: a
+  stainless tray of cumin-dusted lamb skewers on a low folding table,
+  red plastic stools, and behind it a long glowing charcoal grill with
+  smoke drifting through strings of warm orange bulbs."
+- Confidence and sources: MEDIUM; 1 search (The Paper, Sina/Weibo,
+  Zhihu) plus the watch-party entry (China Daily).
+
+#### Venue: Restaurant or hotel banquet hall (宴会厅, 婚宴大厅)
+
+- Use for: restaurant and other; wedding banquet, elder's longevity
+  banquet, full-month banquet, New Year's Eve dinner booked out; 1, 2
+  or a small group as the snapshot of many tables of ten. The signature
+  event venue (CELEBRATIONS: How large gatherings work here). [MEDIUM]
+- Soft background (the core): **ceiling** with **crystal chandeliers**
+  or a grid of recessed lights, sometimes swagged fabric; **far end** a
+  raised **stage with a backdrop** (wedding: flowers, LED screen glow;
+  never the couple) and a **T-stage aisle** carpeted down the middle of
+  the hall, lit by spotlights and coloured wash lights (pink, purple,
+  blue) [MEDIUM — Sohu, Zhihu, jiehun.com.cn wedding-venue guides].
+  **Middle distance**: **rows of round tables of ten** with white or
+  red cloths, **chair covers** (red, gold or white, often with a sash)
+  matching the hall, glass turntables, floral centrepieces, small red
+  boxes of wedding candy at each seat. **Light**: warm chandelier
+  sparkle and gold wall sconces; stage colour washes in the distance;
+  at an elder's banquet or full-month, the same hall plainer. **Palette**:
+  red and gold (traditional), or white, champagne and blush (modern
+  weddings); white porcelain; clear glass turntables. **Signature
+  shapes**: chandelier sparkle; the next round table with its covered
+  chairs; the crowded turntable; the distant stage glow; a carpeted
+  aisle. **Density and wear**: formal, glossy, crowded. **People**: blurred
+  guests at the next table, within about 2.5 faces, none sharp. [MEDIUM
+  — round tables, glass turntables, metal-frame upholstered chairs,
+  cloths and chair covers, crystal chandeliers per Chinese wedding-
+  planning sites (tier 3) and the existing Wedding banquet entry]
+- Shell: a ballroom-like hall on an upper floor of a large restaurant
+  or hotel; carpet with a pattern; mirrored or panelled walls.
+  **Private room (包间)** is the smaller variant: one large round table,
+  a wall-mounted TV, a sofa corner and a coat stand, wood-panelled walls.
+- The table as set here: a round table for ten with a cloth and glass
+  turntable; banquet setting of side plate, rice bowl, ceramic spoon on
+  a rest, chopsticks in a sleeve (blurred), napkin folded in a glass;
+  **one glass only** for the hero (real tables have two or three);
+  cold dishes pre-set on the turntable. [MEDIUM — How large gatherings
+  work here]
+- Subregional variants and the national default: **Cantonese (zone 3)**
+  — the tea-house restaurant converts to a banquet hall at night;
+  roast suckling pig platter; **villages** — courtyard banquet (流水席)
+  with rented round tables under a tarp (LOW); **halal** — no pork, no
+  alcohol cues. Default: the city restaurant banquet hall above.
+- Hallucination traps: Western wedding ballroom with long tables and
+  champagne; legible 囍 everywhere; dragon-and-phoenix costumes;
+  imperial-palace decor; the toasting round; the couple in frame.
+- Never stage: baijiu, wine, beer, the toasting round (敬酒); wedding
+  cigarettes (喜烟); legible 囍, 寿 or name boards; the bride and groom
+  identifiable; identifiable children (full-month banquet baby never
+  shown).
+- Prompt-ready line: "A Chinese wedding banquet hall: a round table with
+  a glass turntable crowded with dishes and a single banquet setting,
+  red chair covers on the next round table, crystal chandeliers and a
+  distant stage glowing pink and gold in soft bokeh behind."
+- Confidence and sources: MEDIUM; 1 search (Sohu, Zhihu, jiehun.com.cn,
+  Sina) plus Celebration: Wedding banquet.
+
 ---
 
 ## TRUSTED CONTENT
@@ -712,6 +1037,507 @@ in the previous year [MEDIUM].
   staging** [EDITORIAL].
 - **Religious and ethnic festivals** (Eid among Hui and Uyghur Muslims,
   Tibetan Losar) — not researched; do not stage without SME review.
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7: the frame shows the operator's party
+(1, 2 or a small group of identical place settings) at one stretch of a
+bigger event, and the crowd is implied. Every China hard rule applies:
+own rice bowl per diner with shared dishes, chopsticks never upright,
+halal tables stay halal, no tea beside the hero, and **no baijiu, red
+wine or beer at any celebration table**, which is where they are the
+strongest prior of all.
+
+### How large gatherings work here
+
+- **Who and how many.** Celebrations are family-led and banquet-shaped.
+  Festival meals (New Year's Eve, Mid-Autumn) gather three generations,
+  roughly 6–15 people [EDITORIAL estimate]. Life-event banquets (weddings,
+  full-month, an elder's birthday) are hosted by the family for relatives,
+  colleagues and friends and run to **many round tables of about ten**
+  [MEDIUM — 婚礼纪 and 中国婚博会 wedding-menu guides via search, tier 3;
+  diaspora sources agree on the round-table-of-ten form]. Total guest
+  counts were not sourced this pass.
+- **Where (intake venues).** *Home indoor*: New Year's Eve dinner (a
+  2025 China Youth Daily survey found **83.6% of respondents eat 年夜饭 at
+  home**, 94.8% in the Northeast), Mid-Autumn, the weekend family dinner
+  [MEDIUM-HIGH — 中国青年报社会调查中心 survey of 1,347 people, via Sina;
+  CCTV]. *Restaurant*: banquet halls and private rooms (包间) for weddings,
+  full-month and birthday banquets, and a fast-growing share of New
+  Year's Eve dinners (Meituan reported online 年夜饭 bookings up 305%
+  year on year in January 2025) [MEDIUM — Meituan data via Sina Finance,
+  Guangzhou Daily; commercial source]. *Home outdoor*: a rural courtyard
+  (院子) with rented folding tables for a village banquet (农村流水席)
+  [LOW — not verified this pass]. *Other*: a hotel ballroom.
+- **Table form and serving style.** The **round table for ten with a
+  glass turntable** is the banquet unit; dishes arrive in sequence,
+  **cold dishes (凉菜) pre-set on the turntable before guests sit**, then
+  hot dishes, soup, staple (rice, noodles, dumplings) and fruit; plates
+  are not cleared, so the turntable gets more crowded as the meal goes
+  on [MEDIUM — wedding-menu guides via search; turntable HIGH from GENERAL
+  NORMS]. At home it is the family table extended with a folding round
+  top, every dish placed at once.
+- **Plates and cutlery that differ from everyday.** Banquet settings add
+  a small side plate, a ceramic spoon on a rest, chopsticks in a paper
+  sleeve (printed, keep blurred), a folded napkin in a glass and **two or
+  three glasses per seat** (water, wine, baijiu thimble glass); **stage
+  one glass only** for the hero. Restaurants often use the shrink-wrapped
+  sterilised set (GENERAL NORMS). Home festival tables bring out the
+  matching good china.
+- **Snapshot-staging default for China [EDITORIAL].** The most authentic
+  crowd cues: (1) **a crowded turntable** with more dishes than the
+  visible diners could eat, overlapping and partly cropped; (2) **a second
+  round table soft in the background** with its own turntable and red
+  chair covers (banquets); (3) **red decor at the edge**, blurred so no
+  character is legible (囍 at weddings, 福 and 春联 at New Year, a 寿 at
+  birthdays). Empty chairs with chair covers pushed in also work. Never
+  count out ten place settings.
+
+#### Celebration: New Year's Eve reunion dinner (年夜饭, 除夕)
+
+- Type: calendar holiday
+- When: 除夕, the eve of Spring Festival (5 Feb 2027); dinner ~18:00–20:00,
+  often running into the 20:00 CCTV gala on the TV; intake time
+  **evening**.
+- Gathering: three generations at the grandparents' or parents' home,
+  6–15 people, at the dining table extended with a round top [MEDIUM —
+  83.6% eat at home per the 2025 China Youth Daily survey; headcount
+  EDITORIAL]. A minority book a restaurant private room.
+- The spread: 8–10 or more dishes, every one symbolic: a **whole steamed
+  fish** on a long oval plate (see catalog: Qingzheng yu), a whole stewed
+  or white-cut chicken, **jiaozi** in the north (see catalog: Jiaozi),
+  **niangao** in the south, red-braised pork (see catalog: Hongshao rou),
+  cola chicken wings (see catalog: Kele jichi), braised prawns, cold
+  dishes (sliced braised beef, jellyfish, pickled vegetables), greens, a
+  soup [HIGH for fish/chicken/jiaozi/niangao — see the festivals
+  register sources]. A real table carries 8–12 dishes.
+- Snapshot staging: **1 setting**: a rice bowl (or a small plate of
+  jiaozi with a vinegar dish in the north), chopsticks on a rest, a
+  spoon, one glass with the hero; in front, the edge of the fish plate
+  and two overlapping dishes, more cropped by the frame. **2 settings**:
+  two identical settings at one curve of the round table, the whole
+  fish between them with its head and tail in frame, the chicken plate
+  and jiaozi plate overlapping behind. **Small group**: one arc of the
+  table, 6–8 dishes crowding the centre and running out of frame, a
+  multi-serve bottle in the midground if the brief allows. Crowd cues:
+  a third and fourth rice bowl at the frame edge; the red glow of
+  decorations (lanterns, paper-cuts) blurred on the wall; a TV glow
+  behind (no legible screen).
+- Decor and cues: red paper-cuts on windows, small red lanterns, a dish
+  of tangerines, sunflower seeds and candy on the coffee table behind.
+  Clichés: dragons, gongs, firecrackers in the room, qipao.
+- Never stage: baijiu or red wine (the strongest prior); legible 福 or
+  春联; ancestor offerings (an altar with incense); red envelopes being
+  handed over (hands).
+- Confidence and sources: [HIGH] symbolic dishes; [MEDIUM-HIGH] home
+  share (China Youth Daily survey via Sina, CCTV); [EDITORIAL] staging.
+
+#### Celebration: Mid-Autumn reunion dinner (中秋团圆饭)
+
+- Type: calendar holiday
+- When: 15th of the 8th lunar month (15 Sep 2027); dinner ~18:00–19:30,
+  then mooncakes and moon-viewing later; intake time **evening** (or
+  golden-hour for the balcony mooncake table).
+- Gathering: the family reunion at home, 4–12 people; *home indoor*, with
+  the balcony or courtyard for the moon [MEDIUM — Xinhua and China
+  Intangible Cultural Heritage (ihchina.cn) on the 家宴/赏月 custom].
+- The spread: a family feast with seasonal **hairy crab** (Jiangnan,
+  zone 2; steamed whole, bright orange), **osmanthus duck** (桂花鸭, pale,
+  salted, Nanjing), a **soup** (pigeon, fish-head tofu or chicken soup),
+  plus the household's usual festive dishes (whole fish, braised pork),
+  and afterwards **mooncakes** cut into wedges, pomelo and osmanthus
+  cake [MEDIUM — Xinhua, ihchina.cn, chinafolklore.org via search; see
+  catalog: Yuebing; Qingzheng yu; Hongshao rou]. 6–8 dishes.
+- Snapshot staging: **1 setting**: rice bowl, chopsticks, a small plate
+  with one steamed crab, the soup tureen and a duck plate cropped behind.
+  **2 settings**: two settings, a platter of crabs and the duck between
+  them, the soup tureen at the edge. **Small group**: one arc of the table
+  with 5–6 dishes running out of frame. For the after-dinner register, a
+  balcony table with a plate of mooncakes cut in quarters, a pomelo, the
+  full moon in a clear sky. Crowd cues: an open mooncake gift box
+  (blurred text) set aside; a fourth chair at the edge; children's
+  lanterns soft in the background.
+- Decor and cues: rabbit lanterns, osmanthus sprigs. Clichés: Chang'e
+  costumes, oversized moons.
+- Never stage: tea (the traditional mooncake pairing) or osmanthus wine
+  (桂花酒, alcohol); legible box text.
+- Confidence and sources: [MEDIUM]; crab and osmanthus duck are regional
+  (zone 2), not national.
+
+#### Celebration: Wedding banquet (婚宴)
+
+- Type: life event
+- When: midday or evening banquet on the wedding day (intake time
+  **midday** or **evening**); auspicious dates and the National Day and
+  May Day holidays are popular [LOW — not verified this pass].
+- Gathering: many round tables of ten in a restaurant banquet hall or
+  hotel ballroom (*restaurant* / *other*); in villages a courtyard
+  banquet with rented tables (*home outdoor*).
+- The spread: an even number of dishes for "pairs", commonly **16–24 per
+  table** (for example 6 cold dishes, 12 hot dishes, 2 snacks, a soup
+  and a fruit platter), with auspicious menu names (龙凤, 鸳鸯, 百年好合)
+  [MEDIUM — 婚礼纪 (hunliji.com), 中国婚博会 (jiehun.com.cn), Zhihu, via
+  search]. Fish served whole (abundance) is expected everywhere; in the
+  Cantonese register a **whole roast suckling pig** (red-brown crackling
+  skin, served in a row of tiles on a long platter) opens the banquet
+  [MEDIUM — SCMP; diaspora banquet sources agree]. Also lobster or
+  prawns, a whole chicken, braised abalone or sea cucumber, a sweet soup
+  and a fruit platter (see catalog: Qingzheng yu; Siu mei fan for the
+  roast-meat register). **Halal (Hui/Uyghur) weddings carry no pork.**
+- Snapshot staging: **1 setting**: a banquet setting (side plate, rice
+  bowl, chopsticks in a blurred sleeve, spoon on a rest, folded napkin),
+  one glass with the hero, the turntable edge in front crowded with two
+  cold dishes and the whole-fish plate. **2 settings**: two settings at
+  one curve of the table, the suckling-pig platter (Cantonese brief) or
+  the fish between them, several cold dishes overlapping. **Small group**:
+  3–4 settings in an arc, the turntable full and cropped, the next round
+  table soft behind with its red chair covers. Crowd cues: a small red
+  box or bag of wedding candy (喜糖) at each seat; the next table behind;
+  red-and-gold stage lighting blurred.
+- Decor and cues: red table runners, red or gold chair covers, floral
+  centrepieces, a stage glow far behind. Clichés: dragon-and-phoenix
+  costumes on every guest.
+- Never stage: the toasting round (敬酒) or any baijiu, wine or beer on
+  the table; the **wedding cigarettes (喜烟)** that sit on many real
+  banquet tables; legible 囍; the bride and groom identifiable;
+  the tea ceremony.
+- Confidence and sources: [MEDIUM] (Chinese wedding-planning sites, tier
+  3, and SCMP); [EDITORIAL] staging.
+
+#### Celebration: Elder's longevity birthday banquet (寿宴)
+
+- Type: life event
+- When: milestone birthdays of parents and grandparents (60, 70, 80, by
+  custom often counted in the Chinese way) [LOW for milestone ages — not
+  verified this pass]; lunch or dinner (**midday** or **evening**).
+- Gathering: children and grandchildren host relatives, 10–40, in a
+  restaurant private room or banquet hall (*restaurant*), or at home for
+  a smaller family meal [MEDIUM — contextualchinese.com and
+  lunarbirthdayfinder via search, tier 4; scale EDITORIAL].
+- The spread: a banquet table (see the wedding entry for the form) with
+  two signature items: **longevity noodles (长寿面)**, long uncut noodles
+  in a bowl, and **longevity peach buns (寿桃包)**, white steamed buns
+  with a blushed pink tip and a leaf-green dough leaf, piled in a stack
+  or pyramid, about the can's width each [MEDIUM — Wikipedia "Longevity
+  peach", CBC Kids, Huang Kitchen; the noodle custom is widely reported].
+  A Western cream cake now often joins them.
+- Snapshot staging: **1 setting**: a small bowl of longevity noodles at
+  the setting, the hero beside it, a plate of peach buns and a whole
+  fish cropped on the turntable. **2 settings**: two settings, the
+  pyramid of peach buns between them as the visual centre, cold dishes
+  around. **Small group**: an arc of the round table with the buns, a
+  cream cake, a whole fish and other dishes running out of frame.
+  Crowd cues: a large red backdrop with a gold character (寿) blurred
+  beyond reading; extra chairs; grandchildren blurred.
+- Decor and cues: red tablecloth, gold accents. Clichés: a "crane and
+  pine" painting in every frame.
+- Never stage: alcohol toasts to the elder; legible 寿 or banners.
+- Confidence and sources: [MEDIUM] for peach buns and noodles; [LOW]
+  milestone ages; [EDITORIAL] staging.
+
+#### Celebration: Baby's full-month banquet (满月酒)
+
+- Type: life event
+- When: about one month after birth; lunch or dinner (**midday** or
+  **evening**).
+- Gathering: relatives and friends at a restaurant banquet, often a few
+  tables (*restaurant*); smaller families celebrate at home [MEDIUM —
+  Wikipedia "Chinese red eggs", contextualchinese.com, Nspirement; most
+  detailed sources are from Singapore and diaspora communities, so the
+  mainland form is less certain].
+- The spread: a banquet table as above, with **red-dyed hard-boiled
+  eggs** (bright red shell) and, in southern and diaspora custom,
+  **pickled pink ginger**, on plates at each table [MEDIUM for red eggs,
+  Wikipedia; LOW for ginger as mainland custom]. Odd numbers of eggs for
+  a boy, even for a girl, are reported in some sources [LOW].
+- Snapshot staging: **1 setting**: a banquet setting with a small dish
+  holding two red eggs beside the rice bowl; turntable dishes cropped.
+  **2 settings**: two settings, a platter of red eggs between them with a
+  whole fish and a cold-dish platter. **Small group**: an arc of the
+  table with the red-egg platter as the colour accent. Crowd cues: red
+  balloons, a second table behind, a pram soft in the far background.
+- Never stage: the baby as the subject; red envelopes in hand; alcohol
+  (the name 满月酒 means "full-month wine", so negate it by name).
+- Confidence and sources: [MEDIUM] red eggs; [LOW] mainland ginger custom
+  and egg counts; [EDITORIAL] staging.
+
+#### Celebration: Birthday dinner with cake and noodles (生日)
+
+- Type: life event
+- When: evening (**evening**), at home or a restaurant.
+- Gathering: the family (3–6) for a child or adult, or friends (4–8) at
+  a hot pot or restaurant table for young adults [EDITORIAL].
+- The spread: a **bowl of longevity noodles** (often with a fried or
+  poached egg on top) for the birthday person, the family's favourite
+  dishes, and a **cream birthday cake** with fresh fruit from a bakery
+  [MEDIUM for noodles — sources in the elder's entry; cake EDITORIAL,
+  uncontested]. Young adults often celebrate over hot pot (see catalog:
+  Chongqing hot pot).
+- Snapshot staging: **1 setting**: a rice bowl and the noodle bowl, the
+  hero, the cake at the frame edge with one slice cut. **2 settings**: two
+  settings, the cake centred between them, two shared dishes behind.
+  **Small group**: a hot pot table with the split pot, raw-ingredient
+  plates crowding the edges and a cake box set aside. Crowd cues: a
+  paper crown (no text), a cake box with the ribbon untied, extra plates.
+- Never stage: legible text on the cake or candles spelling a name; beer
+  at the hot pot table.
+- Confidence and sources: [MEDIUM] noodles; [EDITORIAL] rest.
+
+#### Celebration: Weekend family dinner at the grandparents' (周末回家吃饭)
+
+- Type: community or family gathering
+- When: Saturday or Sunday, lunch or early dinner (**midday** or
+  **evening**).
+- Gathering: adult children and grandchildren return to the parents'
+  flat, 5–8 people; *home indoor* [EDITORIAL; widely described, not
+  sourced this pass].
+- The spread: the national home table at its fullest: 4–6 dishes and a
+  soup (see catalog: The home table: rice bowl + 三菜一汤; Xihongshi chao
+  jidan; Hongshao rou; Kele jichi; Qingzheng yu), a rice bowl each, or
+  jiaozi made together in the north (see catalog: Jiaozi).
+- Snapshot staging: **1 setting**: rice bowl, chopsticks, hero, two
+  shared dishes overlapping in front. **2 settings**: two settings, three
+  dishes and a soup between them. **Small group**: the table edge with
+  4–6 dishes. Crowd cues: a grandparent blurred at the far end, a
+  child's plastic bowl at the edge, a tray of uncooked jiaozi on a
+  floured board on the side table (north).
+- Never stage: tea; a teapot on the table; baijiu.
+- Confidence and sources: [EDITORIAL], built on the existing scenarios.
+
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8: two meanings, watching sport together
+and social game nights. Every China hard rule applies unchanged: own
+rice bowl per diner where rice is served, chopsticks never upright,
+halal tables stay halal, no tea, herbal tea or sour-plum drink beside
+the hero, no legible characters, no flags or political set-dressing.
+**Beer is the strongest prior in every scene in this section** (shaokao,
+crawfish, mahjong evenings, KTV): negate it by name every time. Screens,
+cards and tiles are never legible; no team crests, kits, sponsor marks or
+league logos; no gambling as the subject. The snapshot rule (§5.7) sets
+party size.
+
+### Watch parties
+
+Football tournaments are the big watch-party occasion, and because
+European and North American matches land between late evening and
+morning in China, they drive a **late-night eating economy**: during the
+2026 World Cup, venues stayed open to 6 am, crawfish takeaway surged and
+restaurants' dine-in viewing packages rose about 80% [HIGH — China
+Daily Jul 2026, Asia News Network, Global Times]. China Daily describes
+"eating skewers, drinking Coke and watching soccer" as everyday life in
+the season [HIGH — China Daily]. The two stageable forms are the
+**shaokao (skewer) restaurant with a big screen** and **takeaway at home
+in front of the TV**; signature foods are lamb and chicken-wing skewers
+on stainless trays, a big bowl of spicy crawfish, and sunflower seeds.
+Basketball (CBA and NBA) is a second, home-based format, medium-high but
+unverified [LOW — not verified]. Existing lines: the shaokao scene
+register (`china.md:222`), the STREET FOOD register skewers bullet
+(`china.md:658-660`) and the beer note in ICONIC BEVERAGES
+(`china.md:373-380`); this section builds on them.
+
+#### Watch party: Late-night football at a shaokao restaurant (World Cup, Euros, Champions League)
+
+- When: summer tournaments (World Cup and Euros, June–July, even years)
+  and the European club season (August–May). Kick-offs fall roughly
+  21:00–03:00 Beijing time, so this is a **late-night** scene: intake
+  **evening** with explicit late-night cues (dark street, neon, screen
+  glow), never golden hour [HIGH for the late-night economy and 6 am
+  venues, China Daily; kick-off arithmetic LOW]. A dawn final is the
+  only morning variant.
+- Gathering: 3–6 friends or colleagues, mostly young adults, at an
+  indoor shaokao restaurant with a projector or big TV, or at low tables
+  on the pavement outside with the screen visible through the shopfront
+  [HIGH for the format, China Daily; headcount EDITORIAL]. Intake venue:
+  *restaurant* (indoor) or *other: street-side tables*.
+- The spread: stainless trays of **lamb skewers** dusted with cumin and
+  chilli (see catalog: Yangrou chuan), grilled chicken wings, skewered
+  vegetables (garlic aubergine, chives, mushrooms), grilled buns or
+  mantou slices; a big bowl of **spicy crawfish** (麻辣小龙虾) with a
+  stack of disposable gloves; a small dish of sunflower seeds (瓜子) or
+  peanuts [HIGH for skewers and crawfish, China Daily; side dishes LOW —
+  not verified]. Skewer sticks pile up in a steel cup or on the table
+  edge as the count of what was eaten.
+- Surface and environment: a **low folding table** (often with a
+  disposable plastic cover) and red or blue **plastic stools**, or a
+  laminated restaurant table; neon and fluorescent light, a smoky haze
+  from the charcoal trough, the screen a large blurred green field on the
+  wall. What reads as China: the stainless skewer tray, the pile of
+  bare sticks in a cup, the plastic stools, the gloves beside the
+  crawfish bowl.
+- Snapshot staging: **1 setting**: a small plate with a few skewers laid
+  across it, the shared tray cropped beside it, a bare-stick cup, hero
+  on the table; the screen glow soft behind. **2 settings**: two plates
+  facing the screen side of the table, one tray of lamb skewers and the
+  crawfish bowl between them, gloves folded beside each plate.
+  **Small group (3–4)**: the full low table with two trays, the crawfish
+  bowl, a seed dish and the stick cup; a multi-serve bottle in the
+  midground if the brief allows. Crowd cues: a second table of blurred
+  backs of heads toward the screen (at most ~2.5 faces, none sharp),
+  empty stools stacked by the wall, more skewers than the visible diners
+  could finish.
+- Never stage: beer bottles on the table or crates on the floor (the
+  real norm; negate), baijiu; a legible screen, broadcaster bug, crest,
+  kit or league logo; menu boards or shop signs with readable characters;
+  betting apps or lottery (sports lottery is promoted around the World
+  Cup [LOW — not verified]); a full flag of any country. In a Hui or
+  Uyghur halal skewer restaurant, lamb and beef only: no pork belly
+  skewers and no beer cues (hard rule 4).
+- Confidence and sources: format, hours, skewers and the China Daily
+  phrase [HIGH — China Daily, Asia News Network, Global Times]; side
+  dishes, seeds and kick-off times [LOW]; staging [EDITORIAL].
+
+#### Watch party: Late-night football with takeaway at home
+
+- When: same calendar as above; late-night to pre-dawn matches watched
+  at home; intake **evening** with a deep-night cue (dark window, one warm
+  lamp, the TV glow) [HIGH for the takeaway surge, China Daily].
+- Gathering: a couple, 2–4 flatmates or friends, or a father and adult
+  son; *home indoor* (living room) [EDITORIAL].
+- The spread: delivery: a large **crawfish** tub or bowl (spicy or
+  garlic) with a box of gloves, a delivery bag of skewers (see catalog:
+  Yangrou chuan) laid out on their foil, fried chicken in a box, a bag
+  of sunflower seeds tipped into a dish with a second dish for shells
+  [HIGH for crawfish takeaway; the rest LOW — not verified].
+- Surface and environment: a **coffee table** (often glass-top or
+  wooden) in front of a fabric sofa, a newspaper or plastic sheet spread
+  under the crawfish, delivery bags on the floor (any printed app logo
+  or text blurred); the TV a soft green glow; one floor lamp; dark
+  window, city lights faint beyond.
+- Snapshot staging: **1 setting**: a pair of gloves and a small bone
+  dish of shells beside the crawfish bowl on the coffee table, hero next
+  to it, the TV glow behind. **2 settings**: two sets of gloves and two
+  shell dishes either side of the bowl, the skewer foil between them.
+  **Small group**: the coffee table covered, the sofa running out of
+  frame, a second delivery bag at the edge. Crowd cues: a third pair of
+  gloves, an extra cushion on the floor.
+- Never stage: beer cans (the norm at a crawfish night; negate), a
+  legible TV, delivery-app branding or receipts, a phone with a betting
+  or lottery screen, tea beside the hero.
+- Confidence and sources: crawfish takeaway surge [HIGH — China Daily,
+  Global Times]; other foods [LOW]; staging [EDITORIAL].
+
+#### Watch party: CBA or NBA basketball at home
+
+- When: the CBA season runs roughly October–April with evening games
+  (~19:35 local), intake **evening**; NBA games land on Chinese mornings
+  and are better staged as a CBA evening scene [LOW — not verified, model
+  knowledge; breakfast is out of scope].
+- Gathering: 2–4 friends or family; *home indoor* [LOW].
+- The spread: jiaozi (see catalog: Jiaozi) or a fried-chicken delivery
+  box, sunflower seeds, fruit [LOW — research notes, not verified].
+- Surface and environment: coffee table, sofa, TV glow (an orange-wood
+  court as a blurred field of colour), evening lamp light.
+- Snapshot staging: as the takeaway entry: **1 setting** a small plate
+  of jiaozi with a vinegar dish; **2 settings** two plates and one shared
+  plate; **small group** the coffee table with a delivery box running out
+  of frame.
+- Never stage: team jerseys, NBA/CBA marks, player names or numbers, a
+  legible screen; beer; tea beside the hero.
+- Confidence and sources: [LOW — not verified] throughout; flagged in the
+  GAP LOG.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Basis:
+mahjong is China's top tabletop game and central to Spring Festival
+[MEDIUM — Wikipedia "Mahjong culture", research notes]; KTV is shrinking
+(enterprises fell from about 120,000 in 2015 to 56,300, still a 7-billion-
+yuan market in 2024) and now skews to retirees and daytime sessions,
+while board-game cafés and **jubensha** (剧本杀, script-murder role-play)
+are taking its place for young people [HIGH — Xinhua 2025, China Daily
+2025]. Family poker (斗地主, dou dizhu) after the reunion dinner is real
+but unverified [LOW — not verified], so it gets no entry.
+
+#### Game night: Family mahjong (Spring Festival and everyday)
+
+- When: Spring Festival afternoons and evenings after the reunion meals
+  (6 Feb 2027), and everyday at weekends; intake **golden-hour** or
+  **evening**; mahjong parlours and teahouses run **midday** to evening
+  [MEDIUM — research notes].
+- Gathering: four players at the table with relatives watching; at home
+  (*home indoor*) or in a mahjong parlour or teahouse (*other*)
+  [MEDIUM].
+- The spread: on a **side table**, because the mahjong table is full: a
+  New Year candy tray (a round lidded tray with compartments), sunflower
+  seeds, peanuts, mandarins, a fruit plate; dumplings later in the
+  evening (see catalog: Jiaozi) [LOW — not verified]. Tea is the real
+  drink here and is an intruder (hard rule 5).
+- Surface and environment: a **square table** with a green cloth, or an
+  automatic mahjong table with a recessed centre; tiles as pale
+  rectangles; red New Year decor (lanterns, paper-cuts) blurred on the
+  wall at Spring Festival; a TV glow in the background.
+- Snapshot staging: **1 setting**: the side-table corner with a small
+  plate of mandarin segments and seeds, hero beside it; the edge of the
+  mahjong table soft behind with tiles face-down. **2 settings**: two
+  small plates on the side table and two chairs angled toward the game
+  (the watchers' seats). **Small group**: the candy tray, fruit plate and
+  seed dish on the side table, the mahjong table out of focus behind, a
+  multi-serve bottle in the midground if the brief allows. Crowd cues: a
+  fourth chair half-cropped, a blurred onlooker, more cups and plates
+  than the visible people.
+- Never stage: money, chips, counters or the counting of winnings
+  (mahjong for money is common; keep it clearly social); **tile faces
+  turned up** (they carry characters, which is legible text; show backs
+  or a soft blur); legible 福 or 春联; beer or baijiu; tea beside the
+  hero; no identifiable children (implied only).
+- Confidence and sources: mahjong and Spring Festival [MEDIUM — Wikipedia
+  "Mahjong culture", research notes]; snacks [LOW]; staging [EDITORIAL].
+  See also Celebration: New Year's Eve reunion dinner.
+
+#### Game night: Board-game café or jubensha with friends
+
+- When: weekend **midday** to **evening**; jubensha sessions run 3–5
+  hours, often afternoon into evening [MEDIUM for the shift to these
+  formats, Xinhua/China Daily; session length LOW — not verified].
+- Gathering: 4–8 young adults (students, young professionals) at a café
+  table or a themed private room; intake venue *restaurant* (café) or
+  *other: game room* [HIGH for the trend; headcount LOW].
+- The spread: café plates: fried chicken pieces, fries, a snack plate,
+  milk tea (bubble tea is the companion drink and an intruder) [LOW —
+  research notes].
+- Surface and environment: a wooden café table, game boxes on shelves
+  behind with spines blurred; for jubensha, a dim themed room, a long
+  table, character booklets as closed, unreadable shapes, warm spotlight.
+- Snapshot staging: **1 setting**: a plate of fries and chicken on the
+  table edge, hero beside it, a closed generic game box soft behind.
+  **2 settings**: two plates and one shared snack plate, a scatter of
+  generic tokens at the far edge. **Small group**: the table with three
+  plates and the shared plate, booklets or cards face-down. Crowd cues:
+  the table running out of frame, chairs pulled up, a blurred figure
+  across.
+- Never stage: licensed games or branded boxes; open script booklets or
+  cards with text; gore or crime-scene props from murder themes; beer;
+  milk tea beside the hero.
+- Confidence and sources: trend [HIGH — Xinhua 2025, China Daily 2025];
+  food and staging [LOW / EDITORIAL].
+
+#### Game night: Daytime KTV room for an older group
+
+- When: weekday **midday** and afternoon; cheap daytime packages draw
+  retirees [MEDIUM — China Daily 2025, "in tune with retirees"].
+- Gathering: 4–8 friends in their 50s–70s in a private room; intake
+  venue *other: KTV room* [MEDIUM].
+- The spread: a **fruit platter** (watermelon, melon, cherry tomatoes,
+  orange wedges on a large plate), popcorn, sunflower seeds, small snack
+  plates [LOW — not verified]; tea is the real drink and an intruder.
+- Surface and environment: a **low glass-top table** in front of a long
+  sofa bench, a big screen as soft coloured light (lyrics unreadable),
+  two microphones resting on the table, coloured LED wash.
+- Snapshot staging: **1 setting**: a small plate with fruit and a few
+  seeds on the table corner, hero beside it, a resting microphone soft
+  behind. **2 settings**: two small plates, the fruit platter between
+  them. **Small group**: the table with fruit platter, popcorn and seeds
+  running out of frame. Crowd cues: the sofa curving out of frame, a
+  blurred figure standing by the screen (no face).
+- Never stage: beer towers or bottle buckets (the norm at evening youth
+  KTV; that version is not staged); legible lyrics, song titles or
+  machine brands; someone holding a microphone near the camera; tea
+  beside the hero.
+- Confidence and sources: KTV decline and retiree shift [HIGH — Xinhua
+  2025; MEDIUM — China Daily 2025]; food [LOW]; staging [EDITORIAL].
 
 ---
 
@@ -2289,6 +3115,33 @@ sleek can:**
 - **Hong Kong, Macau and Taiwan** are out of scope — separate files
   needed if they become markets.
 
+- **Celebrations pass (2026-10-01) open items**: total guest counts for
+  weddings, full-month and longevity banquets were not sourced (only the
+  ten-per-table form); the full-month red-egg and ginger custom rests
+  mostly on Singapore and diaspora sources; milestone birthday ages,
+  wedding-season dates, village courtyard banquets (流水席) and the
+  weekend grandparents' dinner were not verified; the Meituan booking
+  figure is a commercial source. Banquet-table layouts need image tests
+  (turntable crowding, glass-count intrusion).
+
+- **Game-night pass (2026-10-01) open items**: kick-off times (Beijing
+  time), the CBA season and game times, and all basketball viewing are
+  model knowledge, not verified; viewing side dishes (vegetable skewers,
+  sunflower seeds, fried chicken), the mahjong candy-tray spread, KTV
+  fruit platters, jubensha session length and food were not verified;
+  dou dizhu after the reunion dinner and sports-lottery promotion around
+  the World Cup were not searched. No WebSearch was run in this pass.
+
+- **Venue-profile pass (2026-10-01, wave 1) open items**: unverified
+  background details: the apartment's sliding kitchen door, side-cabinet
+  contents and Beijing winter-dusk time; lighting colour temperatures,
+  the display fridge and lucky-cat counter in the home-style restaurant;
+  the noodle shop's photo menu board and green halal sign; neon and
+  e-bike details at the shaokao street; village courtyard banquets and
+  the private-room (包间) furnishings; all subregional variants. Home
+  outdoor (courtyard, balcony, picnic) was not profiled (evidence LOW);
+  hot pot restaurant and dim sum tea house are queued for wave 2.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with eight zones vs. a national
@@ -2309,6 +3162,21 @@ sleek can:**
    xiaolongbao vs. baozi vs. har gow (confusion trio), Lanzhou noodles
    (ramen failure — a halal risk), and hot pot (beer intrusion).
 5. Independent §8 audit.
+
+6. Celebrations pass: catalog entries for **roast suckling pig (烤乳猪,
+   Cantonese banquet; glossy red-brown crackling in tiles on a long
+   platter)**, **longevity peach buns (寿桃包; white buns with a pink tip,
+   about can-width, stacked)**, **longevity noodles (长寿面)**, **hairy
+   crab (大闸蟹, zone 2, Mid-Autumn)**, **osmanthus / salted duck (桂花鸭,
+   Nanjing)**, **niangao (年糕, southern New Year)** and **red eggs (红蛋)**.
+
+7. Game-night pass: catalog entries for **mala xiaolongxia (麻辣小龙虾,
+   spicy crawfish; a heap of glossy red crawfish in chilli oil in a big
+   bowl or takeaway tub, disposable gloves beside it)**, a **mixed
+   shaokao tray** (chicken wings, garlic aubergine, chives, grilled
+   mantou slices beside the existing lamb skewers), **guazi (瓜子,
+   sunflower seeds in a dish with a shell dish)**, the **New Year candy
+   tray (果盘 / 糖果盒)** and the **KTV fruit platter**.
 
 ## RESEARCH LOG
 
@@ -2346,3 +3214,6 @@ sleek can:**
   travel-guide sites (ChinaHighlights, China Xian Tour) used for meal
   times, tagged MEDIUM.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding banquet form, English and Chinese; longevity birthday buns and noodles; full-month red eggs; 年夜饭 at home vs restaurant 2025 survey; Mid-Autumn reunion dinner dishes). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year's Eve dinner, Mid-Autumn dinner, wedding banquet, elder's longevity banquet, full-month banquet, birthday dinner, weekend family dinner). Sources: China Youth Daily survey via Sina, CCTV, Xinhua, ihchina.cn, SCMP, Chinese wedding-planning sites (tier 3), Wikipedia; diaspora sources flagged.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 3 watch-party entries (late-night football at a shaokao restaurant, late-night football with takeaway at home, CBA/NBA at home [LOW]) and 3 social game-night entries (family mahjong, board-game café or jubensha, daytime KTV for an older group); popularity rated high.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (all in Chinese: apartment dining area, 家常菜馆, Lanzhou noodle shop, shaokao street, wedding banquet hall). Sources were home-design case sites, Sina/Weibo/Zhihu food columns, The Paper, CBNData, Xinhua and wedding-planning sites (tier 2–4); home outdoor swapped out for the noodle shop.

@@ -185,6 +185,123 @@ Background notes only where they prevent a visual error.
 | **Rotisería takeaway** | Glass counter of empanadas, tartas, milanesas and roast chicken; food packed in foil trays and paper. |
 | **NOA peña / comedor** | Adobe walls, rustic wooden tables, clay bowls of locro, empanadas salteñas from a clay oven, humitas in husks. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used staging venues; the bodegón and the neighbourhood parrilla are both kept because the scenarios use both as defaults). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 1 (Buenos Aires) is the default; other zones are variants, and where a zone has no detail the Buenos Aires version applies [EDITORIAL]. File-wide rules apply throughout; at Argentine tables the wine glass, the soda siphon, fernet, beer and the mate kit are all real priors, so negate them in every prompt. The QUICK-REFERENCE table above stays as the short index.
+
+### Venue: Buenos Aires flat, kitchen-dining corner (departamento porteño)
+- **Use for:** home indoor; casual lunch for 1, 2 or 3, the late cena (~21:00–22:00), the Sunday pasta lunch, Christmas in a CABA flat, the living-room watch party. The default home for a zone 1 CABA scene; a conurbano or provincial scene uses the brick-house variant below (76.7% of dwellings nationally are houses; see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the default].
+- **Soft background (the core):**
+  - *Back wall:* smooth plaster painted white or off-white (sometimes a pale warm grey), a few framed prints or family photos, a wall clock; in older buildings a high ceiling with a simple cornice line. Little colour on the walls: Buenos Aires interiors read pale and neutral, the warmth coming from the wood floor and furniture [MEDIUM — file house-type notes; LOW for the pale palette — not verified].
+  - *Middle distance:* a **tall French window or balcony door** with **wooden roller shutters (persianas de madera)** half-raised, giving a bright horizontal band above a dark slatted band; through it, the narrow balcony rail with potted plants and the facade of the building opposite as a soft grey wall with more balconies. Through a doorway, the small kitchen: tiled walls (white or cream ceramic), a marble or granite counter, a gas cooker, a few pans hanging [MEDIUM — property listings for older CABA flats: pinotea or parquet floors, wooden "barrio" shutters, front balcony, tiled kitchen with marble counter].
+  - *Light:* side daylight from the balcony door, softened by the shutter slats into thin stripes; at cena, a **warm pendant lamp low over the table** or a ceiling fitting, plus the cool flicker of a TV in a corner (screen unreadable) [EDITORIAL; LOW — not verified].
+  - *Palette:* honey-brown wood floor, white walls, grey city light, dark wood furniture.
+  - *Signature shapes (3–5):* the tall window with its slatted shutter; the balcony rail with plants; parquet or plank floor lines running to the wall; a dark wooden sideboard; the TV glow.
+  - *Density and wear:* lived-in, moderately full, well-kept older finishes rather than new ones.
+  - *People:* one blurred family member or flatmate at the kitchen doorway.
+- **Shell:** a 1950s–70s concrete block or an older French or Italian-style building; **parquet or pine plank (pinotea) floors**; tall wooden shutters; a narrow galley kitchen [MEDIUM — property listings; file notes].
+- **The table as set here:** a rectangular or round wooden table by the window, a plain or lightly patterned cloth or bare wood with individual mats; a **bread basket**, salt, olive oil and vinegar cruets, a jug of water kept out of frame; plain white plates, everyday stainless cutlery, plain glass tumblers. Chair edges: wooden or upholstered dining chairs [EDITORIAL; MEDIUM for bread at every meal, per GENERAL NORMS].
+- **Subregional variants and the national default:** *Conurbano and provincial brick house (the national default outside CABA):* a dining corner with ceramic floor tiles, a window onto the back patio and the parrilla, aluminium window frames with roller shutters (persianas de PVC), more colour on the walls. *PH / casa chorizo:* patterned cement tiles (mosaicos calcáreos) and a long tiled patio of potted plants through the door (shared with `uruguay.md`). *Patagonia:* wood-lined walls and a wood stove. *NOA:* thick whitewashed adobe walls, small deep windows [MEDIUM for PH tiles per file; LOW for the zone details — not verified].
+- **Hallucination traps:** "Buenos Aires is Paris" Belle Époque salons as the default home; tango posters, bandoneóns or gaucho gear on the walls; football shirts and flags on every wall; mate gourd and thermos on the table; a US open kitchen with an island.
+- **Never stage:** wine bottles or glasses, the soda siphon, the mate kit; legible TV screens; crests or scarves with marks; a full flag.
+- **Prompt-ready line:** "A Buenos Aires apartment at dinner time: soft background of white plaster walls, a tall balcony door with half-raised wooden shutters and plants on the rail, honey-coloured parquet and a warm pendant lamp; in focus, a wooden table with a bread basket and white plates of milanesa and puré."
+- **Confidence and sources:** MEDIUM. [Argenprop — CABA flats listings](https://www.argenprop.com/departamentos/venta/villa-del-parque/2-ambientes/dolares-75000-100000) (tier 3, listing descriptions for pinotea and parquet floors, wooden shutters, tiled kitchens); house types from the file; staging EDITORIAL. One search this pass.
+
+### Venue: Patio or quincho with the brick parrilla (patio / quincho)
+- **Use for:** home outdoor; the weekend asado, Christmas and New Year in summer, the asado before the match, truco after the asado, birthdays; 1, 2 or a small group as a snapshot of 6–15 or more. The signature venue of the file: the celebrations and game-night sections stage more scenes here than anywhere else [HIGH for the asado as the weekend ritual, per the file; EDITORIAL for the ranking].
+- **Soft background (the core):**
+  - *Back wall:* the **built-in brick parrilla** at waist height with its tall brick chimney hood, a **side brasero** glowing orange, the V-bar grate with cuts laid out, thin blue-grey smoke; exposed red brick or brick-and-cement walls around it, often with brick work counters (mesadas) [HIGH for the rig, per CROSS-CUTTING REGISTER: ASADO & PARRILLA; MEDIUM — La Nación, Homify and Para Ti on brick parrillas and quinchos].
+  - *Overhead:* the quincho roof: **eucalyptus or wooden posts and beams**, with cane (cañizo) under the roof, or translucent polycarbonate sheet letting in light; ceramic tiles or sheet metal on simpler builds; a ceiling fan in the north [MEDIUM — Homify, Para Ti; fan LOW].
+  - *Middle distance:* the long table running away from camera with **mismatched chairs or wooden benches**; the garden or tiled patio beyond the open sides: a strip of lawn, a lemon tree or a vine pergola (parral), a brick or rendered boundary wall, a plastic chair or two; the asador's back at the grill as a blur.
+  - *Light:* midday: bright open-sided light with the roof throwing the table into soft shade, the brasero as a warm orange glow; summer evening: golden low sun through the open side, then a single warm bulb or string of lights under the roof.
+  - *Palette:* red brick, honey wood, white smoke, green garden, the orange of the embers.
+  - *Signature shapes (3–5):* the brick chimney hood; the grate with meat; the glow of the brasero; roof beams; the long table with a run of bread baskets and salad bowls.
+  - *Density and wear:* well-used and comfortable; soot on the brick, worn wood.
+  - *People:* the asador at the grill and one or two guests at the far end, blurred.
+- **Shell:** a roofed outdoor room open on one or more sides, or a roofed patio (galería) attached to the house, with a tiled or cement floor [MEDIUM — Homify, La Nación].
+- **The table as set here:** a checked or plain cloth, or bare wood; **a wooden board of carved meat**, bread baskets, bowls of chimichurri and salsa criolla, a mixed salad and a potato salad; everyday ceramic plates and **wooden-handled steak knives**, often mismatched; paper napkins. Chair edges: wooden benches or folding and plastic chairs [MEDIUM — per the file's asado register and celebration entry].
+- **Subregional variants and the national default:** the conurbano or zone 2 patio is the default for any asado brief (per Default when no zone is named). *CABA:* a smaller tiled PH patio or a **balcony or terrace parrilla** in a newer tower, a steel grill against a city backdrop (a secondary register). *Cuyo:* the table under a vine pergola with poplars and the Andes beyond. *Patagonia:* a whole lamb on an iron cross (asador) leaning over embers; wood and stone. *NEA:* a ceiling fan, tierra colorada and dense green [per file scenario; LOW for zone details].
+- **Hallucination traps:** a US gas barbecue or kettle grill with flames licking the meat; a Brazilian churrascaria skewer service; gauchos in bombachas and boinas; an estancia with horses as the default; lavish catering décor.
+- **Never stage:** wine glasses and bottles, beer, fernet with cola, cut plastic bottles used as jugs, the soda siphon, the mate kit; legible club colours or crests; a full flag.
+- **Prompt-ready line:** "An Argentine weekend asado under a quincho roof: soft background of a sooty red-brick parrilla with a glowing ember box, thin smoke over meat on the grate, eucalyptus roof beams and a green garden beyond; in focus, the end of a long wooden table with a board of carved meat, a bread basket and bowls of chimichurri."
+- **Confidence and sources:** MEDIUM-HIGH. [Homify — quinchos](https://www.homify.com.ar/libros_de_ideas/6060372/quinchos-todo-lo-que-tenes-que-saber-para-disenar-ese-rinconcito-100-argentino); [La Nación — ideas de parrillas](https://www.lanacion.com.ar/lifestyle/17-ideas-de-parrillas-para-tu-casa-nid2105525/); [Para Ti — quincho perfecto](https://parati.com.ar/todo-lo-que-necesitas-para-tener-un-quincho-perfecto/amp) (tier 2–3 design press); rig per the ASADO register. One search this pass.
+
+### Venue: Bodegón porteño
+- **Use for:** restaurant, indoor; the 2–3-person table, Sunday family lunch out, a weeknight cena; oversized shared portions. The signature casual sit-down restaurant of Buenos Aires [HIGH for the aesthetic, per Scenario: Away from home — 2–3 people].
+- **Soft background (the core):**
+  - *Back wall:* **exposed brick or dark wood panelling**, crowded with **black-and-white photographs** of old Buenos Aires and football or tango memorabilia (kept generic and soft); **old mirrors with curved frames**; wooden **shelves of preserves (conservas) and tins**; in many, **cured hams and sausages hanging from the ceiling** over the counter [MEDIUM — Ámbito on new and classic bodegones: checked cloths, checkered floor, exposed brick, walls of photos, shelves of conservas, hanging hams, curved mirrors, wooden side bar].
+  - *Middle distance:* a long **dark wooden counter (barra)** as a warm horizontal band; an old wooden cold cabinet; other tables close together with diners as blurred shapes; a **waiter in white shirt and black apron** crossing the frame.
+  - *Light:* warm, slightly dim: globe pendants or old ceiling fittings, warm light bouncing off mirrors; daylight from a corner window at lunch.
+  - *Palette:* red-and-white checks, black-and-white floor, dark wood, red brick, sepia photographs.
+  - *Signature shapes (3–5):* the **checkerboard floor**; hanging hams; the dark wooden counter; the photo-covered wall; curved mirrors.
+  - *Density and wear:* busy, packed, decades of wear; nothing new-looking.
+  - *People:* the waiter and one or two diners, blurred, within the limit.
+- **Shell:** a corner building from the late 19th or early 20th century, high ceiling, tall windows, a black-and-white checkerboard tile floor [MEDIUM — Ámbito; La Nación on an 1880 corner bodegón].
+- **The table as set here:** a **white cloth with a red-and-white checked cloth over it** (or the checked cloth alone); a bread basket, salt, oil and vinegar cruets; **oversized milanesas or pasta on oval stainless-steel or tin platters** set in the middle and shared; plain white plates; heavy stainless cutlery. Chair edges: bentwood or simple wooden chairs [HIGH for checked cloths and oval platters, per the file; MEDIUM for the double cloth — Ámbito].
+- **Subregional variants and the national default:** Buenos Aires is the default and the bodegón is chiefly a porteño form; Rosario, La Plata and Córdoba have their own versions in the same style. *Cantina (La Boca, Italian roots):* the same with more Italian-flag colours and pasta (keep flags out). *New-wave bodegones (Palermo):* the same look, cleaner, brighter, newer wood [EDITORIAL; LOW — not verified for regional versions].
+- **Hallucination traps:** the Spanish bodegón still-life painting (the word means both); a Spanish tapas bar with legs of jamón ibérico on a stand and bar stools; an Italian-American red-sauce trattoria with Chianti flasks; tango dancers; wine racks as the back wall.
+- **Never stage:** the **soda siphon**, wine bottles, the **penguin-shaped wine jug (pingüino)**, wine glasses, beer; bottles on the shelves (shelves hold jars and tins only); legible menus, chalkboards or photo captions; club crests.
+- **Prompt-ready line:** "A classic Buenos Aires bodegón: soft background of a black-and-white checkerboard floor, a long dark wooden counter under hanging cured hams, exposed brick hung with old black-and-white photographs and a curved mirror; in focus, a red-and-white checked tablecloth with an oversized milanesa napolitana on an oval steel platter and a bread basket."
+- **Confidence and sources:** MEDIUM-HIGH. [Ámbito — nueva apertura en Palermo](https://www.ambito.com/lifestyle/nueva-apertura-palermo-un-bodegon-cocina-portena-y-porciones-abundantes-n6268037); [Ámbito — bodegones y cantinas](https://www.ambito.com/uruguay/bodegones-y-cantinas-el-sabor-la-tradicion-portena-n6262943); [La Nación — de posta a bodegón](https://www.lanacion.com.ar/buenos-aires/de-posta-a-bodegon-la-esquina-de-1880-que-frecuento-la-bohemia-arrabalera-y-ahora-apuesta-a-la-nid13052022/); plus canal26 and Pipol as cited in the scenario. One search this pass.
+
+### Venue: Neighbourhood parrilla (parrilla de barrio)
+- **Use for:** restaurant, indoor; the 1-person lunch (bife de chorizo), a parrillada for 2–3, weekend family meals. The everyday steak restaurant [MEDIUM — per Scenario: Away from home — 1 person].
+- **Soft background (the core):**
+  - *Back wall or focal point:* the **grill station in view**: a large steel parrilla behind glass or a low wall, the **parrillero** in a white shirt or apron working it, embers glowing and thin smoke, a stainless hood over it; cuts on the grate as dark shapes; in some, a glass-fronted cold cabinet of aged meat [MEDIUM — Time Out and the file's register row].
+  - *Middle distance:* tables close together; **waiters in white shirts and black trousers, older ones in bow ties**; plain painted or wood-panelled walls with a few framed photos or a mounted clock; the corner window to the street.
+  - *Light:* warm-white interior light, the orange glow of the grill; daylight from street windows at lunch.
+  - *Palette:* white cloths, dark wood, steel, the orange of embers, the brown of grilled meat.
+  - *Signature shapes (3–5):* the glowing grill behind glass; the steel hood; rows of white-clothed tables; the white-shirted waiter; the stack of bread baskets.
+  - *Density and wear:* busy and plain; function over décor.
+  - *People:* the parrillero's back and one waiter, blurred.
+- **Shell:** a street-corner or mid-block room with large windows, tiled floor, plain ceiling with simple fittings.
+- **The table as set here:** **white cloth, often with white paper laid over it**, or in the plainest places a paper cloth on a plastic or wooden table; a bread basket, a bowl of **chimichurri**, salt; **wooden-handled serrated steak knives**; plain white plates; a **parrillita** (small table-top brazier) for a mixed grill for two or more [MEDIUM — Time Out Buenos Aires (white cloths, bow-tied waiters; paper cloths and plastic tables in the cheapest); per register row].
+- **Subregional variants and the national default:** Buenos Aires is the default. *Roadside parrillas in zones 2 and 3:* larger, rustic, a big open grill, wooden beams, a garden. *Patagonia:* a lamb on the iron cross in a glassed-in fire pit (asador criollo) as the focal point [LOW — not verified].
+- **Hallucination traps:** a US steakhouse with leather booths and dark moody lighting; a Brazilian churrascaria with passadores and skewers; a tourist "tango show" parrilla; flames leaping on a gas grill; gaucho décor.
+- **Never stage:** wine bottles in ice buckets, wine glasses on the cloth, the soda siphon; legible menus or price boards; brand logos on the grill hood.
+- **Prompt-ready line:** "A Buenos Aires neighbourhood parrilla at lunchtime: soft background of a steel grill glowing with embers behind glass, a white-shirted grill cook and white-clothed tables close together; in focus, a white cloth with a bife de chorizo, a wooden-handled steak knife, a bread basket and a small bowl of chimichurri."
+- **Confidence and sources:** MEDIUM. [Time Out — mejores parrillas de Buenos Aires](https://www.timeout.com/es/buenos-aires/restaurantes/mejores-parrillas-carnes); [Time Out — parrillitas de barrio](https://www.timeout.com/es/buenos-aires/parrillitas-barrio-asado-carne); register row. One search this pass.
+
+### Venue: Choripán cart on the Costanera or outside the cancha (carrito)
+- **Use for:** other / street; meal on the go for 1, a stop for 2–3, the pre-match carrito; afternoon and evening. A real but thinner street register than Mexico's [MEDIUM — per Scenario: Meal on the go].
+- **Soft background (the core):**
+  - *The cart itself:* a boxy steel food cart with a **striped awning** (the Costanera Sur's current carts are brown outside, white inside, with white-and-yellow striped awnings), a **flat grill** with chorizos and bondiola smoking, a counter lined with **rows of glass jars** of chimichurri, salsa criolla and pickled vegetables; a drinks fridge as a lit rectangle (brand panels blurred) [HIGH for the Costanera Sur cart design — Buenos Aires City Government; MEDIUM for the jar rows — travel and blog sources].
+  - *Middle distance:* other carts in a row as repeating striped awnings; **folding tables and plastic chairs** beside the carts; on the Costanera, a riverside rail and the reeds and lagoons of the ecological reserve as soft green and brown; outside a stadium, the concrete mass of the stand and the crowd as blur.
+  - *Light:* afternoon sun or golden hour on the promenade; at night, fluorescent tubes inside the cart, streetlights and stadium floodlights as large white bokeh.
+  - *Palette:* steel, striped awning colours, green reeds, brown-grey river sky.
+  - *Signature shapes (3–5):* the striped awning; the row of condiment jars; smoke over the flat grill; the riverside rail or stadium floodlight towers; folding tables.
+  - *Density and wear:* busy on weekends; worn but clean.
+  - *People:* the cart cook in an apron and one or two customers queueing, blurred, backs turned.
+- **Shell:** the open promenade, sidewalk or stadium surroundings.
+- **The table as set here:** the cart's steel counter or a folding table: the choripán on a paper napkin or in a paper sleeve, spoons in the chimichurri and criolla jars, a stack of paper napkins [MEDIUM].
+- **Subregional variants and the national default:** the Costanera Sur (Buenos Aires) is the default. *Outside the cancha:* a rougher steel cart or a half-drum grill on the sidewalk. *Rosario, Córdoba and provincial ferias:* the same in a plaza or riverside [LOW — not verified].
+- **Hallucination traps:** a US hot-dog cart; a Mexican taco stand with a coloured tarp; a gourmet food truck with graffiti art; club banners and flares.
+- **Never stage:** beer, fernet; legible menus, price boards or fridge brand panels; club colours with crests; police lines; food in a hand.
+- **Prompt-ready line:** "A choripán cart on the Buenos Aires riverside: soft background of a white-and-yellow striped awning, smoke over a flat grill, a row of chimichurri jars catching the light and reeds along the river under a grey-blue sky; in focus, a choripán on a paper napkin on the steel counter."
+- **Confidence and sources:** MEDIUM-HIGH. [Buenos Aires Ciudad — carritos más modernos en la Costanera Sur](https://buenosaires.gob.ar/noticias/carritos-mas-modernos-y-seguros-en-la-costanera-sur); [Burrita de viaje — Carritos Costanera Sur](https://burritadeviaje.com/carritos-costanera-sur/) (tier 4). One search this pass.
+
+### Venue: Hired party hall (salón de fiestas)
+- **Use for:** other; fiesta de 15 and wedding dinners (~22:00 onward), the mesa dulce, children's birthdays in a salón infantil; 1, 2 or a small group as a snapshot of 100–200 [LOW-MEDIUM — catering brackets, per CELEBRATIONS].
+- **Soft background (the core):**
+  - *Walls and ceiling:* **light fabric draped across the ceiling and walls** in the theme colour, lit from below; perimeter LED uplights washing the walls in colour [MEDIUM — ineventos and inolvidables15 salón listings: fabric on ceilings and walls, perimeter lights, robotic lighting, haze on the dance floor].
+  - *Middle distance:* **round tables of 10** in strong-coloured or white cloths with runners, **chairs dressed with bows**; centrepieces of **low candles in glass with coloured crystals** or tall arrangements; the **dance floor** with haze, laser dots and moving lights; a large screen or LED wall as a soft field of colour; the mesa dulce as a lit table of small desserts.
+  - *Light:* warm light over the tables, coloured and moving light everywhere else; it is a late-night scene.
+  - *Palette:* white cloths plus one theme colour, deep coloured light behind.
+  - *Signature shapes (3–5):* round tables receding; candle clusters; laser and moving-light dots in haze; the bright mesa dulce; draped fabric swags.
+  - *Density and wear:* dense, decorated, new-looking.
+  - *People:* one or two blurred guests or a waiter (mozo) in black, backs or profiles; the quinceañera or couple never in the hero frame.
+- **Shell:** a purpose-built hall in the conurbano or a quinta (country house) with a garden; few or covered windows.
+- **The table as set here:** cloth and runner; white china, full cutlery, cloth napkin; a bread basket; plain tumblers (no wine glasses). Chair edge: a dressed chair with a bow [MEDIUM — per celebration entries].
+- **Subregional variants and the national default:** the conurbano salón is the default. *Quinta:* tables under a marquee or on a lawn with string lights and trees. *Provinces:* the same model at smaller scale [EDITORIAL].
+- **Hallucination traps:** a US hotel ballroom; a Mexican quinceañera with charro or mariachi cues; a rustic barn wedding; an open bar with bottles in view.
+- **Never stage:** the barra de tragos, bottles, wine glasses or flutes, the toast, fernet; legible names on screens or backdrops; identifiable minors.
+- **Prompt-ready line:** "An Argentine salón de fiestas late at night: soft background of fabric draped from the ceiling in deep violet light, round tables with candle clusters in glass and moving dance-floor lights in a faint haze; in focus, a white plate with a plated main, full cutlery and a folded cloth napkin."
+- **Confidence and sources:** MEDIUM for the salón package ([ineventos — temáticas fiesta de 15](https://www.ineventos.com/ar/blog/3-tematicas-musicales-para-la-fiesta-de-15.html); [Inolvidables 15 — salones de fiesta](https://www.inolvidables15.com/servicios-para-fiesta/Salones-de-Fiesta.html), tier 3); staging EDITORIAL. One search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -727,6 +844,478 @@ Truth and Justice, marking the 1976 coup) and **2 April** (Malvinas
 veterans and fallen) are solemn national days — never a festive or
 branded food moment. Do not stage a TCCC product beside the national
 flag in hero position, religious processions, or the Malvinas.
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Built 2026-10-01 under `country-file-schema.md` §5.7 (the snapshot rule).
+The FESTIVALS register above stays as the calendar index; this section
+holds the staging. Party size is the place settings in frame, never the
+size of the event. The hero SKU always comes from the brief (§5.4).
+
+### How large gatherings work here
+
+- **Who gathers.** Family and friends in roughly equal weight: the
+  weekend asado is as often a friends' event as a family one. In a 2022
+  survey reported by Infobae, about 85% of respondents host asados for
+  family and friends (52.9% habitually), and the most common group size
+  was **6–10 people (32.9%)**, followed by **more than 15 (27.8%)**,
+  11–15 (20.4%) and under 5 (17.4%). [MEDIUM — one survey, reported by
+  Infobae] **Economic context**: a 2024 survey reported by Infobae found
+  eight in ten Argentines had cut back on or stopped asados for cost
+  reasons. [MEDIUM — one survey] Stage gatherings as ordinary and
+  modest, not lavish [EDITORIAL].
+- **Life events are mid-sized to large.** Wedding budgets are quoted for
+  about 100–150 guests, with 70–120 described as a mid-sized wedding and
+  120–250 as large (El Cronista, Ámbito, wedding-budget guides). Fiestas
+  de 15 are planned on the same catering model. [LOW-MEDIUM — no single
+  survey average was found; these are budget-guide brackets]
+- **Where (intake venues).** Asados, birthdays and Christmas: **home
+  outdoor** (patio, quincho, garden, terrace) or **home indoor** in
+  winter and in CABA flats. Weddings and fiestas de 15: a rented
+  **salón** or quinta (country house) with catering ("other"). Children's
+  birthdays: home, or a rented **salón de fiestas infantiles** or play
+  centre ("other"). Restaurant private rooms host smaller milestones.
+  [EDITORIAL; MEDIUM for salones and catering being the standard — vendor
+  and press sources]
+- **Table form.** At home: one **long table**, often two tables end to
+  end, or the quincho's built-in long table with benches; plastic or
+  folding chairs added. At salones: round tables of 10, plus a head table
+  or the honoured person's table. [EDITORIAL]
+- **Who serves and how.** At an asado, **the asador** (traditionally a
+  man of the house, increasingly anyone) carves on a board and hands
+  pieces down the table; sides sit in bowls along the table. At salones,
+  waiters (mozos) serve a sequence: recepción (standing finger food),
+  entrada, plato principal, postre, then a **mesa dulce** (dessert
+  buffet), the cake and a late-night **fin de fiesta** snack. [MEDIUM —
+  Ámbito and catering vendors list this sequence]
+- **Plates and cutlery.** Home asado: everyday ceramic plates and steak
+  knives, often mismatched; disposable plates and cups appear at big
+  birthdays. Salones: white china, full cutlery, cloth napkins.
+  [EDITORIAL]
+- **Snapshot-staging default for Argentina [EDITORIAL].** The three most
+  authentic crowd cues: (1) **a wooden board of carved meat bigger than
+  the visible diners could finish**, with several bread baskets and
+  salad bowls running down the table; (2) **the parrilla soft in the
+  background** with more meat still on the grate; (3) **the long table
+  running out of frame** with mismatched chairs. Use two of the three.
+  For salón events, swap (2) for round tables with white cloths soft
+  behind.
+- **Product format.** When the brief allows a multi-serve bottle, the
+  implied gathering justifies a 2.25 L or larger bottle in the midground
+  of the visible stretch (schema §5.7). Remove every wine glass, beer
+  bottle, fernet glass, cut plastic bottle used as a jug, the soda siphon
+  and the mate kit (file-wide rules 3–4); at a real Argentine party all
+  of these are present, so negate them explicitly.
+
+#### Celebration: Weekend family or friends' asado (asado del domingo)
+- Type: community or family gathering
+- When: Sunday (or Saturday) midday, eating from ~13:30, sobremesa until
+  17:00 or later; intake time: **midday** (also **golden-hour** for
+  summer evening asados).
+- Gathering: 6–15 typically, often more; **home outdoor** (patio,
+  quincho, garden), in winter the quincho or indoors. [MEDIUM — Infobae
+  survey above]
+- The spread: the full home asado (see catalog: Asado — the home
+  parrillada) with choripán and achuras first (see catalog: Choripán;
+  Achuras), provoleta (see catalog: Provoleta), then tira and vacío
+  carved on a board; bread baskets, chimichurri and salsa criolla bowls,
+  ensalada mixta and ensalada rusa. 5–8 shared vessels on a long table.
+  The Sunday alternative in many families is **pasta** (see catalog:
+  Pasta del domingo — ravioles con tuco). See also CROSS-CUTTING REGISTER:
+  ASADO & PARRILLA for the order.
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of asado de tira and a piece of
+    vacío, a spoon of salad; the carving board cropped at the edge, a
+    bread basket and a chimichurri bowl.
+  - **2 settings**: two identical plates facing each other; between them
+    the board of carved meat (partly cropped), a salad bowl and bread.
+  - **Small group (3–4)**: identical plates along one side; boards,
+    salads and bread repeating down the table and out of frame.
+  - **Crowd cues**: the parrilla smoking softly behind with meat still
+    on it; extra chairs; a blurred figure at the grill.
+- Decor and cues: checked or plain cloth, or bare wood; mismatched
+  plates; a quincho's brick walls; summer shade or winter sun. Avoid
+  gaucho costume, football shirts on everyone.
+- Never stage: wine, beer, fernet, mate, the soda siphon; a gas grill
+  with flames.
+- Confidence and sources: [Infobae — encuesta sobre el asado (2022)](https://www.infobae.com/tendencias/2022/03/09/asado-una-encuesta-revelo-que-carnes-cortes-y-achuras-eligen-los-argentinos/);
+  [Infobae — ocho de cada 10 redujeron los asados (2024)](https://www.infobae.com/economia/2024/09/10/ocho-de-cada-10-argentinos-redujeron-o-eliminaron-los-asados/);
+  asado sources as in the catalog entry.
+
+#### Celebration: Christmas Eve and New Year's Eve (Nochebuena, Año Nuevo)
+- Type: calendar holiday
+- When: 24 and 31 December; dinner ~21:30–23:30, midnight toast and
+  fireworks, sweets after midnight; midsummer heat. Intake time:
+  **evening** (night, warm string lights).
+- Gathering: extended family, ~10–25; **home outdoor** (patio, garden,
+  terrace) or **home indoor** with windows open. [EDITORIAL headcount;
+  HIGH for the cold-table, patio, midsummer norm — Infobae, La Nación]
+- The spread: the cold table (see catalog: Christmas table — vitel toné,
+  matambre arrollado, pan dulce): vitel toné, matambre arrollado,
+  ensalada rusa, pionono rolls, often a cold roast or a whole asado
+  added; after midnight pan dulce, turrón and garrapiñadas on a tray.
+  A table carries 5–8 platters.
+- Snapshot staging:
+  - **1 setting**: a plate with two slices of vitel toné, a round of
+    matambre and a spoon of ensalada rusa; the vitel toné platter and a
+    pionono roll cropped.
+  - **2 settings**: two identical plates; between them the vitel toné
+    platter and the matambre board; pan dulce soft behind.
+  - **Small group**: identical plates on a white or red cloth; platters
+    repeating down the table.
+  - **Crowd cues**: string lights in a tree; the table running out of
+    frame; a second table with the sweets tray soft behind.
+- Decor and cues: a small artificial tree indoors, red cloth, candles in
+  jars, summer night. Avoid snow, fireplaces and winter clothing.
+- Never stage: cider, sparkling wine, the midnight toast, fireworks with
+  bottles; the nativity scene.
+- Confidence and sources: as in the catalog entry (Infobae, La Capital,
+  La Nación, Directo al Paladar).
+
+#### Celebration: Patriotic holidays — 25 de Mayo and 9 de Julio (locro and empanadas)
+- Type: calendar holiday
+- When: 25 May and 9 July (autumn and midwinter); midday comida; intake
+  time: **midday**.
+- Gathering: family at home, ~8–20, or community **peñas** and town
+  squares serving locro from big pots (map to "other"). [HIGH for the
+  menu and the community pots — FESTIVALS sources: La Nación, El
+  Cronista, EPU]
+- The spread: **locro** (see catalog: Locro) in deep bowls with its red
+  quiquirimichi oil on top, **empanadas** (see catalog: Empanadas), and
+  **pastelitos criollos** with quince or sweet potato for dessert (see
+  catalog: Pastelitos criollos). 3–5 shared vessels: the locro pot, an
+  empanada tray, a pastelitos plate.
+- Snapshot staging:
+  - **1 setting**: one deep bowl of locro with a red oil spoonful, a
+    small plate with one empanada; the big pot and an empanada tray
+    cropped.
+  - **2 settings**: two identical locro bowls; a tray of empanadas
+    between them, more than two people would eat.
+  - **Small group**: identical bowls on a winter table; the steaming
+    pot on a trivet in the centre, half out of frame.
+  - **Crowd cues**: a large aluminium pot on a burner behind; a second
+    tray of pastelitos; cockades or light-blue-and-white paper bunting,
+    soft.
+- Decor and cues: winter light, wool, a kitchen with steam; light blue
+  and white bunting only as soft colour.
+- Never stage: the national flag or coat of arms legible or in hero
+  position; wine in the peña.
+- Confidence and sources: as in FESTIVALS and the Locro entry.
+
+#### Celebration: Children's birthday party (cumpleaños infantil)
+- Type: life event
+- When: weekend afternoon, ~16:00–19:00 (merienda time); intake time:
+  **golden-hour** or **midday** indoors.
+- Gathering: the child's classmates and family, 20–50; **home indoor or
+  outdoor**, or a salón de fiestas infantiles ("other"). [LOW —
+  headcount not verified]
+- The spread: the classic snack table: **sándwiches de miga** (see
+  catalog: Sándwiches de miga), small cocktail empanadas (see catalog:
+  Empanadas), pizza squares (see catalog: Pizza porteña), **panchos**
+  (hot dogs), chizitos, papas fritas and palitos salados in bowls, and
+  the **birthday cake**. [MEDIUM — La Nación on birthday-party food;
+  language-school descriptions of the "traditional" party]
+  - **Torta de cumpleaños** (no catalog entry): typically a round
+    sponge (bizcochuelo) layered with dulce de leche and frosted with
+    whipped cream or coloured fondant, about two to three cans across,
+    candles on top. Added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a disposable plate with two triangle sándwiches de
+    miga, a pizza square and a mini empanada; a big tray of miga
+    sandwiches and a bowl of chizitos cropped.
+  - **2 settings**: two identical plates; between them a tray of miga
+    sandwiches stacked in rows and a bowl of snacks; the cake soft
+    behind.
+  - **Small group**: identical plates; trays repeating down a table
+    covered in a coloured paper cloth.
+  - **Crowd cues**: balloons and a themed garland (unreadable); a stack
+    of paper cups; the cake on a separate table.
+- Decor and cues: balloons, paper tablecloths, a piñata is less central
+  than in Mexico. Licensed characters generic and unrecognisable.
+- Never stage: readable names or licensed characters; children as the
+  hero subject near the product (keep children soft, background only
+  [EDITORIAL — confirm against TCCC marketing-to-children policy]).
+- Confidence and sources: [La Nación — fiestas de cumpleaños y sobrepeso infantil (2025)](https://www.lanacion.com.ar/sociedad/alerta-nutricion-el-riesgoso-vinculo-entre-las-fiestas-de-cumpleanos-y-el-sobrepeso-infantil-nid15062025/);
+  [Easy Argentine Spanish — un tradicional cumpleaños infantil argentino](https://easyargentinespanish.com/un-tradicional-cumpleanos-infantil-argentino/) (tier 4).
+
+#### Celebration: Fiesta de 15 (quince años)
+- Type: life event
+- When: Friday or Saturday night; dinner ~22:00–00:00, dancing until
+  dawn, fin de fiesta ~04:00; intake time: **evening**.
+- Gathering: family plus the girl's school friends, often 100–200;
+  rented salón or quinta ("other"), round tables of 10. [LOW-MEDIUM —
+  catering brackets, no survey]
+- The spread: recepción finger food (empanaditas, miga sandwiches,
+  small brochettes), an entrada, a plated main (pasta, chicken, beef
+  with sides; informal versions are a "pizza party", "pasta party" or
+  "asado party"), dessert, a **mesa dulce** (tarts, lemon pie, mousse,
+  cheesecake, cupcakes) and the cake; the **fin de fiesta** is panchos
+  with papas pay (shoestring crisps) or hamburgers. [MEDIUM — catering
+  vendors and inolvidables15.com, tier 3]
+- Snapshot staging:
+  - **1 setting**: one plated main on white china at a round table,
+    full cutlery, folded napkin; the centrepiece base cropped.
+  - **2 settings**: two identical plates on the curve of the table; a
+    bread basket shared.
+  - **Small group**: identical plates around one arc; or a mesa dulce
+    stretch with three or four dessert plates in front of a dessert
+    table running out of frame.
+  - **Crowd cues**: dance-floor lights as bokeh; more round tables soft
+    behind; balloon or floral arches.
+- Decor and cues: themed colours, tall centrepieces; the girl out of the
+  hero frame or soft and faceless.
+- Never stage: the barra de tragos (drinks bar), the toast, fernet;
+  the waltz or candle ceremony as the scene.
+- Confidence and sources: [Inolvidables 15 — menús para tu fiesta](https://www.inolvidables15.com/blog-asado-party-pizza-party-catering-informal-para-fiestas-122.htm);
+  [Inolvidables 15 — mesa dulce](https://www.inolvidables15.com/blog-mesa-dulce-para-fiestas-de-15-y-casamientos-postres-tortas-helados-12.htm) (tier 3).
+
+#### Celebration: Wedding party (casamiento)
+- Type: life event
+- When: Friday or Saturday night (dinner ~22:00, party to 05:00), or a
+  daytime civil-wedding lunch; intake time: **evening** or **midday**.
+- Gathering: about 100–150 guests is the usual planning bracket;
+  salón, quinta, estancia or bodega venue ("other"). [LOW-MEDIUM — El
+  Cronista, Ámbito and budget guides; no survey average]
+- The spread: recepción, entrada, plato principal, postre, mesa dulce,
+  the cake and a fin de fiesta; asado or a parrilla station is a common
+  main at quintas; a daytime civil wedding often has a **lunch**
+  (finger-food only). [MEDIUM — Ámbito, casamientos.com.ar]
+- Snapshot staging:
+  - **1 setting**: one plated main (e.g. a beef medallion with potatoes)
+    on a charger, full cutlery; the table edge and candles cropped.
+  - **2 settings**: two identical plates side by side; a shared bread
+    basket.
+  - **Small group**: identical plates on a long table under a pergola or
+    in a galpón (barn); the table runs out of frame both ways.
+  - **Crowd cues**: string lights or a garden canopy; a parrilla station
+    soft behind; blurred guests at the far end.
+- Decor and cues: white linen, greenery runners, candles; quinta or
+  estancia setting.
+- Never stage: wine and champagne glasses at the setting (remove all
+  stemware), the toast, the barra de tragos, a bodega's barrels; the
+  church or civil ceremony.
+- Confidence and sources: [Ámbito — precios para fiesta de casamiento](https://www.ambito.com/finanzas/precios-fiesta-casamiento-3-opciones-segun-tu-bolsillo-n5685967);
+  [El Cronista — cuánto cuesta casarse en 2026](https://www.cronista.com/informacion-gral/boda-imposible-cuanto-cuesta-casarse-en-argentina-en-2026-y-como-hacer-para-gastar-poco/);
+  [casamientos.com.ar — lunch para el casamiento](https://www.casamientos.com.ar/articulos/servicio-de-lunch-para-un-casamiento-por-civil--c5634).
+
+#### Celebration: Baptism and first-communion lunch (bautismo, primera comunión)
+- Type: life event
+- When: Sunday after the late-morning service, ~13:30–17:00; intake
+  time: **midday**.
+- Gathering: family and godparents, ~20–50; **home outdoor** or a
+  restaurant or parrilla ("restaurant"). [LOW — not verified this pass]
+- The spread: most often an **asado** (see catalog: Asado) or a
+  **lunch** of finger food (sándwiches de miga, empanadas, tartas — see
+  catalog: Sándwiches de miga; Empanadas; Tarta pascualina and tartas),
+  then a white cake. [LOW — model knowledge, not verified this pass]
+- Snapshot staging:
+  - **1 setting**: one plate with asado or with miga sandwiches and a
+    tarta slice; a board or tray cropped.
+  - **2 settings**: two identical plates on a white cloth; trays between.
+  - **Small group**: identical plates; trays and bread repeating out of
+    frame.
+  - **Crowd cues**: white or pastel balloons; the parrilla soft behind;
+    extra chairs.
+- Decor and cues: white and pastel decor.
+- Never stage: the church rite, religious figures, rosaries on the table.
+- Confidence and sources: LOW — not verified this pass.
+
+## GAME NIGHT
+
+Built 2026-10-01 under `country-file-schema.md` §5.8 from the
+cross-market game-night research notes (no new searches for this file).
+Party size is the place settings in frame (§5.7 snapshot rule); the hero
+SKU comes from the brief (§5.4). Screens, cards and boards are never
+legible; no crests, kits, sponsor or league marks; no gambling as the
+subject; no identifiable children; never a full flag. **Fernet con Coca
+is the single biggest risk in this section**: football with friends is
+exactly the scene where an image model adds a foam-topped dark drink or a
+cut-down plastic bottle (see ICONIC BEVERAGES). Negate it, with wine,
+beer, mate and the soda siphon, in every prompt (file-wide rules 3–4).
+
+### Watch parties
+
+Football is the viewing occasion: the Selección above all, then the
+Superclásico (Boca–River) and the league. The meal sits at home: 66% of
+Argentines planned to watch the 2026 World Cup with family and 32% with
+friends, and picada and asado purchases spike on match days [MEDIUM —
+canal26, El Comodorense, La Capital]. Signature foods: the **picada**
+board, **sándwiches de miga**, the patio **asado**, and **choripán** off
+the carrito outside the cancha.
+
+#### Watch party: Selección match at home (picada and sandwichitos)
+- When: Selección matches in World Cup and Copa América summers and in
+  qualifier windows. Intake time follows kick-off: **golden-hour** for
+  afternoon matches, **evening** for night ones; a match during the
+  working day is a **midday** scene. [LOW — not verified; no Argentine
+  kick-off schedule was checked this pass]
+- Gathering: family (the majority) or 4–8 friends in the living room;
+  **home indoor**. [MEDIUM — canal26: 66% family, 32% friends for WC 2026]
+- The spread: a **picada** on a wooden board — sliced salame, cubes of
+  cheese, olives, peanuts (maní), sometimes ham and bread sticks — no
+  catalog entry yet (see CANDIDATE QUEUE); **sándwiches de miga** stacked
+  on a tray (see catalog: Sándwiches de miga); **empanadas** in a basket
+  or on their delivery-box paper (see catalog: Empanadas); for a night
+  match, pizza from the pizzería (see catalog: Pizza porteña). [MEDIUM —
+  canal26 and La Capital (Rosario) name picada, sandwichitos and asado
+  as the match-day foods; the picada components are from canal26]
+  - **Picada** (no catalog entry): a rectangular wooden board about four
+    to five cans long, covered edge to edge with small heaps: thin
+    salame slices fanned, pale cheese cubes about a third of the can's
+    width, green and black olives in a small bowl, peanuts in another;
+    toothpicks, no garnish leaves.
+- Surface and environment: a low coffee table in front of the sofa in a
+  flat or brick house (see ENVIRONMENT & STAGING SCENES); the TV as a
+  soft green glow with no score bug; a light-blue-and-white scarf with
+  no crest over a sofa arm, soft. It reads as Argentina through the
+  wooden picada board and the miga tray. Avoid the "football shrine"
+  cliché (shirts and flags on every wall; see caricature list).
+- Snapshot staging:
+  - **1 setting**: one small plate with two triangles of miga and a few
+    picada pieces; the picada board cropped at the edge of the coffee
+    table; the hero on the table; TV glow behind.
+  - **2 settings**: two identical small plates side by side facing the
+    screen; the picada board between them, the miga tray half out of
+    frame.
+  - **Small group (3–4)**: identical plates along the coffee table; board,
+    tray and empanada basket repeating out of frame; the sofa running
+    out of frame.
+  - **Crowd cues**: a second board soft at the edge; extra chairs pulled
+    up; blurred backs of heads toward the screen.
+- Never stage: fernet con Coca or any foam-topped dark drink, beer,
+  wine, mate, the soda siphon; AFA crest or the national team shirt
+  with legible marks; a full flag; betting apps or prode (prediction)
+  sheets; pre-match cábala (superstition) objects with religious
+  imagery.
+- Confidence and sources: [canal26 — la historia de la picada](https://www.canal26.com/historia/2026/07/07/la-historia-detras-de-la-picada-argentina-como-nacio-una-costumbre-que-no-falta-en-reuniones-asados-y-partidos-de-la-seleccion/);
+  [El Comodorense — cuánto cuesta juntarse a ver un partido](https://www.elcomodorense.net/de-la-picada-al-asado-cuanto-cuesta-juntarse-a-comer-para-ver-un-partido-de-argentina-en-el-mundial-2026);
+  [La Capital — picada, sandwichitos y asado](https://www.lacapital.com.ar/la-ciudad/picada-sandwichitos-y-asado-los-elegidos-los-rosarinos-ver-el-mundial-n10268320.html).
+  Foods MEDIUM; times LOW; staging EDITORIAL.
+
+#### Watch party: asado before the match (Superclásico, league, Selección)
+- When: weekend afternoons; the asado is eaten before or around the
+  match. Intake time: **golden-hour**, or **midday** for an early match.
+  [MEDIUM that asado is a match-day choice — canal26, La Capital;
+  timing LOW]
+- Gathering: friends or family, about 6–12; **home outdoor** (patio,
+  quincho, the building's parrilla), with the TV carried out or visible
+  through a window. [EDITORIAL]
+- The spread: tira de asado, chorizo, chimichurri, ensalada; choripán
+  first (see catalog: Asado — the home parrillada; Choripán; Provoleta;
+  CROSS-CUTTING REGISTER: ASADO & PARRILLA for the order; Celebration:
+  Weekend family or friends' asado for the full table).
+- Surface and environment: the patio table or quincho table; the
+  parrilla smoking softly behind; a TV on a stand under the quincho roof
+  or glowing through a window, unreadable.
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of tira and a choripán, the
+    carving board and chimichurri bowl cropped; the TV glow soft at the
+    back of the quincho.
+  - **2 settings**: two identical plates facing each other; the board of
+    carved meat between them.
+  - **Small group**: identical plates along one side of the table, all
+    angled toward the screen; boards and bread repeating out of frame.
+  - **Crowd cues**: the parrilla with meat still on it; extra chairs; a
+    blurred figure at the grill.
+- Never stage: fernet, beer, wine, mate; club shirts or crests; a gas
+  grill with flames; flares or fan-violence references.
+- Confidence and sources: as above (canal26, La Capital); asado detail
+  per the catalog entry; staging EDITORIAL.
+
+#### Watch party: outside the cancha (choripán off the carrito)
+- When: before league matches, weekend afternoons and evenings. Intake
+  time: **golden-hour** or **evening**. [LOW — not verified]
+- Gathering: 1–3 friends standing at a carrito outside the stadium;
+  **other: street / stadium surroundings**.
+- The spread: **choripán** and **bondiola** sandwiches off the flat grill,
+  jars of chimichurri and salsa criolla on the counter (see catalog:
+  Choripán; Bondiola sandwich; and the Street / costanera / cancha row in
+  QUICK-REFERENCE: GENERIC SCENE REGISTERS).
+- Surface and environment: the carrito's steel counter or a ledge; the
+  stadium as a soft, unreadable mass behind; floodlights at dusk.
+- Snapshot staging:
+  - **1 setting**: one choripán on paper resting on the counter beside
+    the hero, the grill smoking soft behind.
+  - **2 settings**: two choripanes side by side on the counter.
+  - **Small group**: three on the counter; blurred figures queueing.
+  - **Crowd cues**: blurred crowd toward the stadium, floodlight glow.
+- Never stage: club colours with crests, banners with words, police
+  lines, flares, beer.
+- Confidence and sources: LOW for the scene (research notes); choripán
+  at the cancha is already in this file's register row and catalog entry
+  [see their tags].
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high** — truco is
+the most beloved card game and is played at family asados, at the
+merienda and in cafés [MEDIUM — Wikipedia, Board Game Studies 2025
+paper]; generala (dice) and chinchón (rummy-type cards) are also common
+[LOW — not verified].
+
+#### Game night: truco after the Sunday asado
+- When: the sobremesa of the weekend asado, from about 15:00. Intake
+  time: **midday** into **golden-hour**. [MEDIUM — research notes,
+  Wikipedia, Board Game Studies paper]
+- Gathering: four players in pairs (2v2) with onlookers, family or
+  friends; **home outdoor** (patio, quincho, under a parral). [MEDIUM for
+  the 2v2 form]
+- The spread: the asado aftermath: a board with the last chorizo and a
+  few pieces of meat, a bread basket, a picada board (see catalog: Asado
+  — the home parrillada; Choripán); later something sweet. [LOW — not
+  verified; no source tied a menu to truco]
+- Surface and environment: a wooden table under the parral or quincho
+  roof, a Spanish-suit deck (generic swords, cups, coins, clubs art,
+  unreadable), plates pushed aside; dappled afternoon light, the
+  parrilla cooling behind.
+- Snapshot staging:
+  - **1 setting**: one plate with leftover asado and bread at the table
+    edge, the hero, a few cards face down beside it.
+  - **2 settings**: two plates at opposite sides, cards face down in the
+    middle, the board between.
+  - **Small group**: four places around the table, cards held as soft
+    shapes out of focus or face down; board and bread basket in the
+    middle.
+  - **Crowd cues**: an onlooker's chair pulled up, blurred; the parrilla
+    behind; more chairs.
+- Never stage: mate (the real sobremesa drink, rule 4), wine, fernet;
+  money, coins or beans as stakes (porotos as score counters are a
+  known custom but read as stakes — leave them out [LOW — not
+  verified]); branded decks.
+- Confidence and sources: [Wikipedia — Truco](https://en.wikipedia.org/wiki/Truco);
+  [Board Game Studies 2025 — Face to Face with Argentinian Truco](https://www.researchgate.net/publication/398622311_Face_to_Face_with_Argentinian_Truco_Origins_and_Evolution);
+  menu LOW; staging EDITORIAL.
+
+#### Game night: merienda or café truco
+- When: merienda, ~16:00–18:00 (**golden-hour**) at home; evenings in a
+  neighbourhood café or club (**evening**). [MEDIUM for café play —
+  Wikipedia, Board Game Studies; the merienda slot per CROSS-CUTTING
+  REGISTER: MERIENDA]
+- Gathering: four players, family at home or regulars in a café or
+  club; **home indoor** or **restaurant** (café-bar) / **other** (club).
+- The spread: home: facturas and medialunas on a plate (see catalog:
+  Medialunas and facturas), alfajores (see catalog: Alfajores). Café:
+  tostados and medialunas (see catalog: Tostado and café-bar plate).
+  [LOW — not verified for food with truco]
+- Surface and environment: home: the kitchen or dining table with an
+  oilcloth. Café: a marble-top table, bentwood chairs, warm evening
+  light (see Scenario: Away from home — 1 person at a
+  restaurant/café).
+- Snapshot staging:
+  - **1 setting**: one plate of facturas or a tostado, the hero, cards
+    face down at the side.
+  - **2 settings**: two plates on a café table, cards between.
+  - **Small group**: four places at a square table; the factura plate
+    in the middle.
+  - **Crowd cues**: another table of players soft behind; a coat on a
+    chair.
+- Never stage: mate (the authentic merienda drink — out of frame),
+  coffee cups beside the hero unless the brief allows them; money;
+  legible café signage.
+- Confidence and sources: as the entry above; merienda foods HIGH per
+  CROSS-CUTTING REGISTER: MERIENDA.
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
@@ -2167,6 +2756,28 @@ brief names the SKU):**
 - **No TCCC OU code**; bottler territories only partly confirmed.
 - **Sensitivity calls** (24 March, 2 April, flag, Malvinas) are
   editorial, not company policy.
+- **Celebrations pass (2026-10-01) open items.** No survey average was
+  found for wedding or fiesta de 15 guest counts (budget-guide brackets
+  only); children's birthday, baptism and Christmas headcounts are
+  editorial; the baptism/communion entry is unverified model knowledge
+  (LOW). The asado group-size survey (Infobae 2022) does not name its
+  sample in the snippet. The children-in-frame rule needs checking
+  against TCCC's marketing-to-children policy.
+- **Game-night pass (2026-10-01) open items.** Sourced: home viewing
+  with family or friends and picada, sandwichitos and asado as match-day
+  foods (MEDIUM — canal26, El Comodorense, La Capital); truco at asados
+  and cafés (MEDIUM). Unverified [LOW]: kick-off times and intake
+  mapping, the carrito-outside-the-cancha scene, any menu tied to truco,
+  generala and chinchón, and porotos (beans) as truco score counters.
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  this pass [LOW]: the pale, neutral palette of porteño flat interiors,
+  the pendant lamp over the table, and all zone variants for the flat
+  and the quincho (Cuyo, Patagonia, NEA, NOA details); regional bodegón
+  versions; roadside and Patagonian parrillas; the carrito outside the
+  cancha (the Costanera Sur cart design is HIGH, the stadium version is
+  not); the salón's light and décor rest on tier-3 vendor listings only.
+  The flat's interior relies on property-listing descriptions. Check all
+  six prompt-ready lines in image tests.
 
 ## CANDIDATE QUEUE
 
@@ -2186,6 +2797,13 @@ brief names the SKU):**
 6. Update `market-roadmap.md` (Argentina row) and
    `tableware-composition-reference.md` (Argentina row) — not touched
    this pass per the brief.
+7. Full dish entries for celebration items described only briefly in
+   CELEBRATIONS & LARGE GATHERINGS: torta de cumpleaños (bizcochuelo
+   with dulce de leche); panchos and the fin-de-fiesta plate; mesa dulce
+   (lemon pie, mousse); pionono.
+8. Dish entry for the **picada** (wooden board of salame, cheese,
+   olives and peanuts) — the signature match-day food, described only
+   briefly in GAME NIGHT.
 
 ## RESEARCH LOG
 
@@ -2219,3 +2837,21 @@ brief names the SKU):**
   for sizes where nothing better surfaced; TikTok/Instagram/Facebook
   results ignored.
 - **No subagents were used.** No existing file was edited.
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches**, covering
+  fiesta de 15 menus and the catering sequence, wedding guest brackets
+  and menus (two searches; no survey average found), the children's
+  birthday table, and asado frequency and group size (Infobae 2022 and
+  2024 surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three
+  watch-party entries (Selección at home with picada, asado before the
+  match, choripán outside the cancha) and two truco entries (after the
+  asado; merienda or café).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  Buenos Aires flat kitchen-dining corner, patio/quincho with the brick
+  parrilla, bodegón porteño, neighbourhood parrilla, choripán carrito,
+  and the salón de fiestas. Sources: Ámbito, La Nación, Time Out, Homify,
+  Para Ti, the Buenos Aires City Government, property listings and
+  salón vendors; open items in GAP LOG.

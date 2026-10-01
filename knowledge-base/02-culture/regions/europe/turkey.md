@@ -187,6 +187,349 @@ char, crust, crumb, how butter or yoghurt sits, and real-world size.
 | **Home kahvaltı** | The table covered edge to edge with small plates: cheeses, olives, tomatoes and cucumbers, jam, honey with kaymak, eggs; a pan of menemen or sucuklu yumurta in the centre. |
 | **Seaside / ferry-side** | Istanbul waterfront, İzmir Kordon or an Aegean harbour: balık ekmek, midye dolma, simit on a bench or railing. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used Turkish staging venues: the
+apartment salon dining table, the apartment balcony, the esnaf lokantası,
+the dönerci, the kebapçı or ocakbaşı, and the wedding salon (*düğün
+salonu*). Default zone when none is named: zone 1, Istanbul, at the
+everyday register (see Default when no zone is named). The hard staging
+rules hold in every profile: halal table, no alcohol and never a meyhane
+look (rule 2), çay and ayran never beside the hero (rule 4), nothing
+legible, nothing held in a hand, no drinks other than the hero; plus no
+brand marks, never a full flag, no identifiable children, no more than
+about 2.5 background faces and none sharp. Mosques stay distant and never
+frame the hero (ENVIRONMENT). İftar staging is not changed by this pass:
+the salon profile below gives the room only, and the CELEBRATIONS: İftar
+entry governs the occasion.
+
+#### Venue: Apartment salon dining table (home, indoor)
+- Use for: home indoor; the family dinner at about 19:00 to 20:00 (3 to
+  5), weekend lunch, bayram meals, New Year's Eve, derby night (the
+  coffee-table end of the same room); the national default home.
+  Only about 29% of households live in one- or two-storey buildings
+  [HIGH for the storey figures, TÜİK; MEDIUM for the apartment inference,
+  see ENVIRONMENT].
+- Soft background (the core): the *salon* is a combined living-dining
+  room: behind the table, a glass-fronted display cabinet (*vitrin*) of
+  dark or white lacquered wood holding the guest tea sets, crystal bowls
+  and ornaments as soft glints behind glass; a sideboard or console with
+  a framed family photo and a doily; a large window or balcony door
+  dressed in white tulle sheers (*tül perde*) under heavier coloured
+  side curtains, so daylight arrives as a bright, milky, diffused glow
+  [MEDIUM — Turkish home-decor guides list the dining table, chairs,
+  console and vitrin as the dining set, and tulle curtains; ENVIRONMENT
+  interior markers]. Further back, the living end: a sofa set (*koltuk
+  takımı*) with cushions, a large machine-made rug in red, beige or blue
+  patterns on laminate or tiled floor, the TV on a unit as a dark
+  rectangle, a ceiling chandelier or a flush ceiling lamp. Through the
+  window: the balconies and windows of the block opposite, awnings,
+  satellite dishes, a strip of sky. Light: milky tulle-filtered daylight
+  at lunch; at dinner, a cool-white or warm ceiling lamp or chandelier
+  over the table, dusk blue at the window. Palette: cream and beige walls,
+  dark wood or white furniture, the red or blue of the rug, white tulle,
+  crystal glints. Signature shapes: the vitrin's glass doors with stacked
+  tea sets, the tulle-veiled window, the chandelier, the patterned rug,
+  the sofa set. Density: tidy, hospitable, well-kept; slippers at the
+  door; more ornaments in older households. People cues: blurred family
+  members, headscarves and uncovered hair both natural in a mixed family,
+  within the limit.
+- Shell: a flat in a 5- to 8-storey concrete block, about 97 m² on average
+  now [MEDIUM — TÜİK via press]; plastered walls, laminate or ceramic
+  floor, PVC windows [EDITORIAL].
+- The table as set here: a rectangular dining table with a lace, embroidered
+  or patterned cloth, sometimes a clear protective cover over it; soup in
+  individual bowls first; shared mains, pilav and salad in the centre; a
+  basket of sliced white bread or pide; fork and spoon as the core pair;
+  upholstered dining chairs at the edge [HIGH for the family-together
+  dinner, Ipsos; MEDIUM for cloth and service, ENVIRONMENT and GENERAL
+  NORMS].
+- Subregional variants and the national default: Istanbul (smaller
+  flats, a glimpse of hillside streets or water at most, never a mosque
+  framing the hero); Aegean (bright light, a balcony door open, olive
+  green and white); Southeast (larger families, courtyard houses in Mardin
+  or Urfa stone, the *yer sofrası* floor tray as a coexisting register,
+  see CELEBRATIONS); Black Sea (wooden houses, mist at the window); Central
+  Anatolia (modern Ankara blocks, dry light). National default: an
+  Istanbul apartment salon with a vitrin, tulle curtains and a patterned
+  cloth.
+- Hallucination traps: an Orientalist salon with floor cushions, hanging
+  mosaic lanterns, brass trays and hookahs everywhere; carpets on every
+  surface; a Greek or Arab interior; a showroom-minimal Scandinavian flat;
+  çay glasses on the table (the strongest prior).
+- Never stage: çay glasses or çaydanlık in frame, ayran, alcohol of any
+  kind; framed religious calligraphy or prayer items as a subject (keep
+  out of frame or unreadable) [EDITORIAL]; legible TV; a full flag;
+  pork-looking cold cuts.
+- Prompt-ready line: "A Turkish apartment salon at dinner: the
+  lace-clothed table with soup bowls and a bread basket sharp in front,
+  behind it a softly blurred glass-fronted vitrin of tea sets, white tulle
+  curtains glowing with dusk light and a patterned rug under a sofa set."
+- Confidence and sources: MEDIUM; one search ([Doğtaş — dining room
+  decoration](https://www.dogtas.com/yemek-odasi-dekorasyonu);
+  [Boyner MAG — dining room ideas](https://www.boyner.com.tr/mag/5-oneriyle-yemek-odasi-dekorasyon-fikirleri),
+  retail tier) plus ENVIRONMENT; LOW for the protective table cover and
+  the chandelier as common (model knowledge).
+
+#### Venue: Apartment balcony (home, outdoor)
+- Use for: home outdoor; a summer lunch or dinner for 1 to 3, a small
+  mangal where the building allows, weekend breakfast-lunch (breakfast
+  itself is out of scope); very common and genuinely used [MEDIUM,
+  ENVIRONMENT].
+- Soft background (the core): an aluminium or iron railing, often with a
+  solid lower panel; pots of geraniums, petunias, basil, mint and a
+  pepper or tomato plant along the rail and on the floor; a fabric awning
+  (*tente*) overhead in orange, green, blue or stripes, casting tinted
+  shade; many balconies are enclosed with sliding glass panels (*cam
+  balkon*), which put reflections and frame lines in the background
+  [LOW-MEDIUM — Turkish retail decor guides cover open and closed
+  balconies; prevalence not verified]; a laundry rack or line with
+  clothes, a small storage cabinet, a doormat; beyond, the next block's
+  balconies with their own awnings, plants and satellite dishes, rooftop
+  solar water heaters on the skyline in the south and west, a slice of
+  sea or hills in some cities. Light: bright direct sun filtered by the
+  awning's colour at midday; long warm evening light in summer. Palette:
+  awning orange or green, terracotta and plastic pots, white or beige
+  concrete, laundry colours. Signature shapes: the awning's scalloped
+  edge, the railing with pots, the grid of balconies opposite, satellite
+  dishes, solar heater tanks on roofs.
+- Shell: a 4 to 8 m² concrete balcony with ceramic tiles [EDITORIAL].
+- The table as set here: a small folding table or a plastic garden table
+  with a cotton or oilcloth cover, two or three folding or plastic chairs,
+  a cushion; everyday plates; for a mangal, a small charcoal grill in
+  the corner, lavaş on a plate, grilled peppers and tomatoes [MEDIUM,
+  scenario above].
+- Subregional variants and the national default: Aegean and
+  Mediterranean (bougainvillea, citrus, sea glimpses, strong sun); Black
+  Sea (mist, green slopes, a covered balcony); Istanbul (dense blocks,
+  a cam balkon); a garden or *müstakil ev* yard in villages and small
+  towns, with fruit trees and a low wall. National default: an Istanbul
+  block balcony with an awning, pots and the grid of balconies opposite.
+- Hallucination traps: a Greek-island whitewash-and-blue-dome terrace;
+  Cappadocian balloons or the Bosphorus Bridge as every backdrop;
+  Orientalist lanterns and kilims everywhere; a çay glass on the rail.
+- Never stage: çay, ayran, alcohol; legible signs; a full flag (common on
+  real balconies on national days: cropped red pattern at most); a
+  mosque framing the hero.
+- Prompt-ready line: "A Turkish apartment balcony on a summer evening:
+  the small clothed table sharp in front, behind it pots of geraniums and
+  basil along a railing, an orange awning glowing in low sun and the
+  softly blurred balconies, awnings and satellite dishes of the block
+  opposite."
+- Confidence and sources: MEDIUM-LOW; one search ([Koçtaş — balcony
+  decoration ideas](https://blog.koctas.com.tr/balkon-dekorasyonu-fikirleri/);
+  [LC Waikiki — open and closed balconies](https://www.lcw.com/blog/balkon-dekorasyonu-acik-ve-kapali-balkonlar-icin-oneriler/),
+  retail tier) plus ENVIRONMENT exterior markers.
+
+#### Venue: Esnaf lokantası (tradesmen's canteen)
+- Use for: restaurant, indoor; weekday lunch at about 12:00 to 13:30; 1 (a
+  worker alone) or 2 to 3 colleagues; the default casual sit-down
+  restaurant [register above; catalog: Kuru fasulye & pilav].
+- Soft background (the core): the steam table (*benmari*) along the front
+  or side, a long stainless-steel counter with a glass sneeze guard and
+  rows of deep steel trays and pots of stews, beans, pilav, vegetables in
+  olive oil and soups, steam rising, under warm display lights; ladles
+  standing in the pots; a cook or server in a white jacket and cap behind
+  it, blurred [MEDIUM — Turkish catering-equipment suppliers on benmari
+  counters; Hürriyet Lezizz and food-media lists of lokanta dishes]. The
+  dining room: Formica or laminate-topped tables close together, mirrors
+  on the walls that double the room, artificial flowers in pots, framed
+  old photographs of the shop or the city; a cooler and a bread rack near
+  the door; a TV high in a corner [MEDIUM for Formica tables, wall mirrors
+  and hanging artificial flowers — food-media description of classic
+  Istanbul lokantas (Nefis Yemek Tarifleri)]. Light: bright overhead
+  fluorescent or LED, warm lamps over the steam table, daylight from the
+  street window. Palette: stainless steel, white, the orange-red of
+  tomato stews and beans, the beige of pilav, mirror glints. Signature
+  shapes: the long steam table with its rows of trays and rising steam,
+  the wall mirrors, close-set small tables, the bread basket on each
+  table. Density: full and fast at noon, plain, clean, a little worn.
+  People cues: workers and shopkeepers at other tables, the server
+  carrying a tray, blurred, within the limit.
+- Shell: a ground-floor shop in a commercial street or near a market;
+  tiled floor; low ceiling [MEDIUM].
+- The table as set here: a Formica or laminate table, sometimes with a
+  paper cover; small steel or melamine plates of the chosen dishes
+  (kuru fasulye, pilav, a salad, pickles in a small bowl); a basket of
+  sliced white bread; a salt, pepper and red-pepper-flake set; paper
+  napkins; no water glass or ayran beside the hero [MEDIUM — register,
+  catalog].
+- Subregional variants and the national default: Istanbul (Eminönü,
+  Karaköy and Kadıköy lokantas, many dishes, older décor); Ankara
+  (government-worker lokantas); the Southeast (more grills alongside
+  stews); a newer chain-like canteen with a tray line (do not stage as a
+  chain). National default: an Istanbul neighbourhood lokanta at noon.
+- Hallucination traps: an Orientalist restaurant with lanterns and floor
+  cushions; a Greek taverna; a cafeteria with branded trays; a meyhane
+  meze table (hard rule 2); a European bistro.
+- Never stage: ayran, çay, alcohol; a legible menu board or price list;
+  portraits or framed religious calligraphy readable on the wall (both
+  real fixtures; keep unreadable or out of frame) [EDITORIAL]; a full
+  flag; branded coolers.
+- Prompt-ready line: "An Istanbul esnaf lokantası at noon: a plate of kuru
+  fasulye with pilav and a bread basket sharp on a Formica table, behind
+  it a softly blurred stainless steam table of stew trays with rising
+  steam, mirrored walls and close-set tables under bright light."
+- Confidence and sources: MEDIUM; one search ([Nefis Yemek Tarifleri —
+  Istanbul esnaf lokantaları](https://www.nefisyemektarifleri.com/blog/istanbul-esnaf-lokantalari/);
+  [Hürriyet Lezizz — esnaf lokantası dishes](https://www.hurriyet.com.tr/lezizz/galeri-esnaf-lokantasi-yemekleri-hangileri-iste-esnaf-lokantasi-denince-akla-ilk-gelenler-41880044);
+  [Web Mutfak — benmari counters](https://www.webmutfak.com.tr/benmari-ve-yemek-tezgahlari-pmk5),
+  commercial tier).
+
+#### Venue: Dönerci (street döner shop)
+- Use for: meal on the go and standing meal; döner ekmek arası or dürüm on
+  its paper on the ledge; lunch, evening, late night; 1 or 2. The default
+  street venue [register above; catalog: Döner].
+- Soft background (the core): the vertical döner cone turning in front
+  of its upright gas or charcoal heating panel, behind or inside a glass
+  surround, browned and glistening, the single strongest shape; the
+  usta's long thin knife; a steel counter with trays of chopped tomato,
+  onion with parsley and sumac, pickles, fries, stacked half-loaves of
+  bread and lavaş [MEDIUM — register; industrial-kitchen suppliers on
+  glazed and open döner grills]. The shop is often tiny, with a shelf
+  ledge along the wall or window for eating standing, a few stools, white
+  or pale tiled walls, a menu panel above (illegible), a cooler glowing
+  by the door (contents blurred, no brands) [MEDIUM — Istanbul food
+  guides describe tiny shops where customers eat standing]. Through the
+  open front: the street, a passing crowd, shop lights. Light: warm glow
+  from the döner's heating panel, bright overhead light, daylight or
+  street lights through the open front. Palette: browned meat, steel,
+  white tile, tomato red, parsley green. Signature shapes: the turning
+  meat cone and its heating panel, the long knife, the stack of bread,
+  the standing ledge.
+- Shell: a narrow street-front shop, often fully open to the pavement
+  [EDITORIAL].
+- The table as set here: a steel or wood standing ledge; the döner in
+  half a loaf or a dürüm wrapped in paper, resting on the ledge; a small
+  plate of pickles and pickled peppers; paper napkins [MEDIUM — catalog].
+- Subregional variants and the national default: Istanbul (tiny
+  standing shops, chicken and meat döner side by side); Erzurum's
+  horizontal cağ kebabı is a different spit (see catalog: Cağ kebabı,
+  do not substitute); Bursa's İskender is a sit-down dish (see catalog).
+  National default: an Istanbul street dönerci at lunchtime.
+- Hallucination traps: the German Döner shop look (big backlit photo
+  menus, salad-bar vitrine of many sauces, the German-Turkish fast-food
+  register in `germany.md`); a Greek gyros stand with pita and tzatziki;
+  an Arab shawarma shop with garlic sauce and Arabic signage; an ayran
+  cup beside the döner (the strongest prior).
+- Never stage: ayran, çay, alcohol; legible menu or shop name; branded
+  coolers; held in a hand.
+- Prompt-ready line: "An Istanbul dönerci at lunchtime: a döner in half a
+  loaf on its paper sharp on a steel standing ledge, behind it the glowing
+  browned meat cone turning before its heating panel, stacked bread and
+  trays of tomato and onion softly blurred."
+- Confidence and sources: MEDIUM; one search ([Ofix — Istanbul's best
+  dönercis](https://www.ofix.com/isdunyasi/istanbulun-en-iyi-5-donercisi-doner-dedektifinin-haritasi/);
+  [Harbi Yiyorum — Istanbul dönercileri](https://harbiyiyorum.com/istanbulun-en-iyi-donercileri/);
+  [İnoksan — döner grills](https://www.inoksanshop.com.tr/en/Doner-Ocaklari),
+  commercial tier) plus the register and catalog.
+
+#### Venue: Kebapçı / ocakbaşı
+- Use for: restaurant, indoor; dinner or weekend lunch for 2 to 3 or a
+  family group; a solo Adana portion at the ocakbaşı counter; the default
+  group restaurant [register above; catalog: Adana kebab, Izgara köfte,
+  Meze].
+- Soft background (the core): the charcoal grill (*ocakbaşı*) as the
+  room's centre: a long trough of glowing coals under a big hood
+  (*davlumbaz*), often in hammered copper, with a marble or granite
+  counter round the grill where guests sit facing the grill master; long
+  flat skewers of minced meat, chicken wings and peppers over the coals,
+  smoke and orange coal glow; a refrigerated display of skewered meats
+  [MEDIUM — copper ocakbaşı manufacturers describe the copper hood,
+  marble or granite counter and centred grill]. The dining room: tables
+  with plain white or coloured cloths, sometimes with a paper cover;
+  walls of stone, brick, wood or plaster with framed photographs; staff in
+  white shirts and dark aprons or vests. Light: the warm orange coal glow
+  and the copper hood catching it; warm pendant or spot lights over
+  tables; evening dark outside. Palette: copper, coal orange, marble
+  white, red pepper and tomato, lavaş beige. Signature shapes: the copper
+  hood, the grill's coal line with skewers, the marble counter edge, stacked
+  lavaş in a basket.
+- Shell: a street-front restaurant, sometimes two floors; tiled or stone
+  floor [EDITORIAL].
+- The table as set here: a white or coloured cloth; lavaş stacked in a
+  basket or under the kebab; plates of sumac onion with parsley, roasted
+  peppers and tomatoes, lemon halves; small meze plates (acılı ezme,
+  haydari, çoban salatası); oval steel or white plates for the kebab
+  [HIGH for the garnish set, register and catalog].
+- Subregional variants and the national default: Adana and Mersin (zone
+  3): a busy, bright kebab hall with an open grill; Gaziantep and Urfa
+  (zone 6): stone interiors, a copper hood, liver and aubergine kebabs on
+  the grill; Istanbul: ocakbaşı counters in Beyoğlu, Kadıköy and Kumkapı
+  neighbourhoods. National default: an Istanbul ocakbaşı with a copper hood
+  and a marble counter.
+- Hallucination traps: the meyhane look (tall narrow glasses, an ice
+  bucket, white cheese and melon on small plates, a meze-crowded table at
+  night: hard rule 2); an Arab grill house; Greek souvlaki; Orientalist
+  lanterns; ayran in copper cups (the real companion, negated).
+- Never stage: rakı, beer, ayran, çay; legible signs; skewers held in a
+  hand; raw meat piles.
+- Prompt-ready line: "A Turkish ocakbaşı in the evening: an Adana kebab on
+  lavaş with sumac onion and grilled peppers sharp on a white cloth,
+  behind it the orange glow of a charcoal grill under a hammered-copper
+  hood, skewers over the coals and a marble counter softly blurred."
+- Confidence and sources: MEDIUM; one search ([Bakır Sarayı — copper
+  ocakbaşı with counter](https://www.bakirsarayi.com/tezgahli-bakir-ocakbasi/);
+  [Mutfak Merkezi — kebab-house copper grill with hood](https://www.mutfakmerkezi.com/urunler/kebapci-tipi-davlumbazli-bakir-ocakbasi-izgarasi-detail),
+  commercial tier) plus the register.
+
+#### Venue: Wedding salon (*düğün salonu*) (other)
+- Use for: other; the salon wedding (evening), also used for sünnet
+  feasts and engagement parties; 1 to small group as a snapshot of 150
+  to 450 (see CELEBRATIONS: Wedding, salon register). The village kazan
+  wedding is the coexisting outdoor register and is covered in that
+  entry.
+- Soft background (the core): a large hall of round tables for 8 to 10
+  under white or coloured cloths, chairs in fitted white or coloured
+  covers with sashes and bows (*sandalye giydirme*), receding in rows;
+  crystal chandeliers and LED-lit false ceilings overhead as clusters of
+  bright bokeh; a raised stage or dance floor (*pist*) at the far end
+  with columns, arches, flower arrangements and moving coloured LED
+  lights; a seated couple's table on the stage far away, out of focus;
+  a musicians' corner with speakers [MEDIUM — Turkish wedding-salon
+  decorators and furniture suppliers on round tables, chair covers,
+  chandeliers, columned stages and LED lighting]. Light: evening; warm
+  chandelier glow plus coloured LED washes (pink, purple, blue) from the
+  stage. Palette: white cloth, gold or silver chair sashes, crystal,
+  stage magenta and blue. Signature shapes: the round tables with
+  covered chairs, the chandeliers, the columned stage and arch, the dance
+  floor's light. People cues: blurred guests in evening wear,
+  headscarves and uncovered hair both natural, dancers' shapes far behind,
+  within the limit; no identifiable children (relevant at sünnet feasts).
+- Shell: a purpose-built hall or a hotel ballroom; polished floor or
+  carpet; no windows or curtained windows [EDITORIAL].
+- The table as set here: a white cloth; for a *yemekli* wedding, a plated
+  starter or ordövr plate and a main at each place; for a *yemeksiz*
+  wedding, a slice of cake, a small plate of snacks and the hero soft
+  drink; a small flower centrepiece, a table number (illegible).
+- Subregional variants and the national default: Istanbul and the west
+  (hotel ballrooms, more plated menus); Central Anatolia and the
+  Southeast (bigger halls, many yemeksiz weddings, more dancing, halay
+  lines blurred far behind) [LOW — not verified]; village weddings move
+  outdoors to long trestles and cauldrons (see CELEBRATIONS). National
+  default: a city wedding salon with round tables, covered chairs and a
+  lit stage.
+- Hallucination traps: Orientalist costume, belly dancers; a Western
+  church wedding; champagne towers and wine glasses on every table; gold
+  being pinned on the couple as the subject; legible banners with names.
+- Never stage: alcohol (some urban weddings serve it), ayran; legible
+  names, banners or table numbers; gold pinning as the subject;
+  identifiable children; a full flag.
+- Prompt-ready line: "A Turkish wedding salon at night: one plated main
+  sharp on a white-clothed round table, behind it rows of round tables
+  with white-covered chairs and gold sashes, crystal chandeliers as bright
+  bokeh and a columned stage glowing pink and blue far behind."
+- Confidence and sources: MEDIUM-LOW; one search, decorator and supplier
+  sources ([Barış Organizasyon — wedding salon decoration](https://barisorganizasyon.com/blogdetay/dugun-salonu-dekorasyonu.html);
+  [Kamış Hasır — wedding salon decoration guide](https://www.kamishasir.com/blog/dugun-salonu-dekorasyon-onerileri),
+  commercial tier) plus CELEBRATIONS.
+
 ---
 
 ## TRUSTED CONTENT
@@ -680,6 +1023,509 @@ past; the 2027 dates are the next ones a production would hit.
 - **Mosques and religious imagery**: do not stage a TCCC product in or
   beside a mosque, prayer rugs or Qur'an. [EDITORIAL, same stance as
   `spain.md`'s Semana Santa]
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+The FESTIVALS & SEASONAL OCCASIONS register above stays the calendar
+index; this section is the staging layer, per schema §5.7. The hard
+staging rules at the top of this file govern every entry: no pork, no
+alcohol or meyhane cues, Ramadan and bayram treated as religious
+occasions, and **no çay or ayran beside the hero** (both are on every
+real celebration table here and must be negated by name). Breakfast is
+in scope for this file generally, but this pass follows the 2026-10-01
+project rule: bayram mornings are mentioned, and the main midday or
+evening meal is what gets staged.
+
+### How large gatherings work here
+
+- **Who gathers.** The extended family, with elders at the centre:
+  bayram means visiting elders' homes in turn; iftar invitations (*iftar
+  daveti*) host relatives, neighbours and friends; life events scale up
+  fast. A family iftar or bayram meal is about 6 to 15; a sünnet (boys'
+  circumcision celebration) feeds dozens to a few hundred; a wedding is
+  commonly put at 200 to 450 guests by Turkish wedding-industry sites.
+  [LOW-MEDIUM for the wedding figure, industry sites only; EDITORIAL
+  for the rest]
+- **Where (intake venues).** *Home indoor*: iftar, bayram meals and New
+  Year's Eve in the apartment salon, the dining table extended or a
+  second table added (see ENVIRONMENT; average household now about 3,
+  so celebration tables are visibly larger than the household).
+  *Home outdoor*: the weekend mangal on a balcony or garden; *other*:
+  piknik in parks and by the sea, wedding salons (*düğün salonu*), village
+  squares and gardens for köy düğünü, municipal iftar tents. *Restaurant*:
+  hotel and restaurant iftar menus, some sünnet and birthday meals.
+  [MEDIUM — ENVIRONMENT section; wedding and catering sources]
+- **Table form and serving style.** Urban homes: one dining table with a
+  lace or patterned cloth, soup served individually first, then shared
+  mains, pilav and salad from the centre, each person on their own plate
+  (see GENERAL NORMS). Village and traditional: the **yer sofrası** (a
+  large round tray, *sini*, on a low stand or cloth on the floor, cushions
+  around) and long trestle tables. Communal events (köy düğünü, sünnet,
+  mevlit) are fed from **huge copper or steel cauldrons (*kazan*)** of
+  etli pilav, keşkek and stew cooked over wood fires by neighbours
+  working together (*imece*), ladled onto plates. Salon weddings serve a
+  plated menu (starter, ordövr plate, main, dessert) or no meal at all
+  (cake and soft drinks only). [MEDIUM — Samsun and Konya local press,
+  catering and wedding-salon sources]
+- **Plate and cutlery norms that differ from everyday.** Fork and spoon
+  remain the core pair; the "guest" china and the vitrin's glassware come
+  out; a soup bowl at every place for iftar. Cauldron food goes onto
+  disposable or plain white plates with a spoon. [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most authentic
+  cues: (1) a table crowded edge to edge with shared dishes, more than the
+  visible diners could eat (bread, pilav, a main, salad, börek, a sweets
+  tray), partly cropped; (2) an extra table or chairs from the kitchen
+  pushed on, or a second sofra soft in the background; (3) the occasion's
+  marker at the frame edge: dusk at the window for iftar, a sweets and
+  lokum dish on the coffee table for bayram, a kazan steaming in the
+  background for a communal event. Blurred relatives stay within the
+  2.5-face limit; headscarves and uncovered hair both appear naturally in
+  a mixed family. [EDITORIAL]
+
+#### Celebration: İftar invitation (iftar daveti)
+- Type: calendar holiday (religious month; nightly, with invitations
+  through the month).
+- When: at sunset during Ramazan (2027: 8 February to 8 March); intake
+  time evening (dusk). See the register for the call-to-prayer rule.
+- Gathering: the household plus invited relatives, neighbours or friends,
+  about 6 to 15; home indoor. Hotel and restaurant iftar menus and
+  municipal iftar tents are the out-of-home variants. [EDITORIAL;
+  register for the tents]
+- The spread: see catalog: Ramazan pidesi and the iftar table (national)
+  for the table centre (pide, mercimek soup, dates, the iftariyelik
+  plate). An invitation table adds more: a soup course (see catalog:
+  Mercimek çorbası; ezogelin is common), a meat-and-vegetable main with
+  rice or bulgur pilav, börek (see catalog: Börek), salad (see catalog:
+  Çoban salatası), and a dessert (güllaç or a milk pudding; see Compact
+  sweets). [MEDIUM — Yemek.com, lezzet.com.tr and catering menus agree on
+  soup, main, side, dessert] A guest table carries about 6 to 10 shared
+  dishes plus a soup bowl at each place.
+- Snapshot staging: **1 setting**: one untouched soup bowl and an empty
+  plate at the near end, the whole Ramazan pidesi and the dates plate in
+  the midground, the main-dish pot cropped at the edge. **2 settings**:
+  two identical untouched soup bowls, the pide between them, iftariyelik
+  plate and börek tray behind. **Small group**: three or four settings,
+  every shared dish crowding the centre, the table running out of frame
+  toward the window. Cues: dusk blue at the window, warm lamp light;
+  more soup bowls continuing beyond the frame; a second pide; extra
+  chairs. Nothing looks started, and the hero stands untouched in the
+  midground (never "the first sip"). [EDITORIAL, extending the register]
+- Decor and cues: the patterned tablecloth, the vitrin behind, a
+  crescent-shaped lantern at most (soft). Avoid: Orientalist lanterns and
+  hookahs.
+- Never stage: eating before sunset; water or tea glasses; prayer, the
+  Qur'an or a mosque interior; alcohol.
+- Confidence and sources: MEDIUM ([Yemek.com — İftar menüsü](https://yemek.com/ramazan/);
+  [Lezzet — İftar yemekleri](https://www.lezzet.com.tr/tarif/iftar-yemekleri));
+  register and catalog sources for the table centre; EDITORIAL for
+  staging. Sensitivity flag for Fernando carried over from the register.
+
+#### Celebration: Ramazan Bayramı family meal (Şeker Bayramı)
+- Type: calendar holiday (3 days; 2027: 9 to 11 March).
+- When: bayram morning is prayers, kissing elders' hands and a festive
+  breakfast (out of scope here); stage the **family lunch or dinner** at
+  the elders' home (midday or evening), or the afternoon visit at the
+  coffee table (golden-hour).
+- Gathering: children and grandchildren visiting parents and
+  grandparents, relatives coming and going; about 8 to 15 at the table;
+  home indoor. [MEDIUM — hand-kissing and visiting customs are widely
+  documented]
+- The spread: a bayram table typically has börek (often several kinds),
+  **buttered rice pilav** ("the bayram table's must"), a meat dish such
+  as hünkâr beğendi (braised meat on smoky aubergine purée) or et sote,
+  a green salad, and baklava for dessert (see catalog: Baklava (zone 6 —
+  Antep; national); Börek). Visitors are offered sweets, chocolate and
+  lokum from a dish, plus cologne, at the door. [MEDIUM — food-writer
+  and recipe-site sources agree; no institutional source] Hünkâr beğendi
+  has no catalog entry: a mound of pale, creamy aubergine-and-cheese
+  purée under a dark, glossy tomato-braised meat stew, on a 26cm plate;
+  added to CANDIDATE QUEUE. Shared vessels: 5 to 8.
+- Snapshot staging: **1 setting**: one plate with hünkâr beğendi and a
+  spoon of pilav, a börek tray and the pilav dish behind, a baklava tray
+  cropped at the edge. **2 settings**: two identical plates, the pilav
+  dish and meat pot between them. **Small group**: three or four
+  settings, all dishes crowded centrally. Coffee-table variant: a dish
+  of wrapped sweets and lokum and a small baklava plate on a living-room
+  coffee table, the hero in the midground (register entry). Cues: a
+  candy dish and a cologne bottle (unlabelled) on the sideboard;
+  visitors' shoes by the door soft in the background; extra chairs.
+  [EDITORIAL]
+- Decor and cues: the best tablecloth, the vitrin, everyone in good
+  clothes. Avoid: legible "İyi bayramlar" banners.
+- Never stage: Turkish coffee cups or tea glasses beside the hero; the
+  mosque prayer; money handed to children as the subject.
+- Confidence and sources: MEDIUM ([Arda'nın Mutfağı — Bayram ve sofra
+  ritüelleri](https://www.ardaninmutfagi.com/ardadan-yazilar/bayram-ve-sofra-rituelleri);
+  [Migros TV — Bayram gelenekleri](https://migrostv.migros.com.tr/hic-degismeyen-bayram-gelenekleri));
+  EDITORIAL for staging.
+
+#### Celebration: Kurban Bayramı family meal (Kurban Bayramı)
+- Type: calendar holiday (4 days; 2027: 16 to 19 May).
+- When: the first-day kavurma is traditionally a morning dish (see
+  catalog: Kavurma); this pass stages the **family midday or evening
+  meal** of the first days, when fresh meat dominates every table
+  (intake time midday or evening).
+- Gathering: extended family, about 8 to 15; home indoor, or home
+  outdoor at a garden or village house where meat is grilled. [EDITORIAL]
+- The spread: kavurma with buttered pilav (see catalog: Kavurma), grilled
+  meat or köfte (see catalog: Izgara köfte), a meat stew, salad, bread,
+  baklava. [HIGH for kavurma, register and catalog; MEDIUM for the rest]
+  Shared vessels: a kavurma pan or dish, the pilav dish, a salad bowl, a
+  bread basket, a baklava tray; about 5 to 7.
+- Snapshot staging: **1 setting**: one plate of kavurma and pilav (per the
+  catalog's composition), the kavurma pan cropped behind, a salad bowl
+  in frame. **2 settings**: two identical plates, the kavurma pan and
+  pilav dish between them. **Small group**: three or four settings, a
+  baklava tray at the far edge. Cues: more plates continuing out of
+  frame; a garden mangal smoking softly behind for the outdoor variant;
+  relatives blurred. [EDITORIAL]
+- Never stage: the sacrifice, the animal, carcasses, raw meat piles,
+  blood, knives in hero position (hard rule 3); ayran beside the hero.
+- Confidence and sources: HIGH for kavurma (catalog sources); MEDIUM for
+  the wider table; EDITORIAL for staging.
+
+#### Celebration: New Year's Eve dinner (Yılbaşı)
+- Type: calendar holiday (secular).
+- When: 31 December, from about 20:00 to midnight; intake time evening.
+- Gathering: family or friends at home, about 4 to 10; home indoor.
+  [EDITORIAL]
+- The spread: **hindi dolması** (whole roast turkey stuffed with spiced
+  rice pilaf, often with chestnuts and pomegranate molasses) is cited as
+  the centrepiece of the urban New Year's table, with the pilaf also
+  served alongside, plus meze-style cold dishes (see catalog: Meze, in
+  the family register), salads and a cake or dessert. Roast chicken is
+  the smaller-household version. [MEDIUM — Hürriyet Lezizz and Lezzet
+  recipe features; the register's LOW-MEDIUM note is upgraded for the
+  dish, not for prevalence] No catalog entry: the turkey reads as a whole
+  glossy amber-brown bird on a 40 to 45cm oval platter, pilaf spilling
+  from the cavity and heaped around it, pomegranate seeds scattered;
+  added to CANDIDATE QUEUE.
+- Snapshot staging: **1 setting**: one plate with turkey slices and
+  chestnut pilaf, the whole bird on its platter cropped behind, a meze
+  plate in frame. **2 settings**: two identical plates, the platter
+  between them. **Small group**: three or four settings round the
+  platter end, cold dishes filling the rest. Cues: a small decorated
+  New Year's tree (*yılbaşı ağacı*, secular here) soft behind; streamers;
+  the table leaving frame. [EDITORIAL]
+- Never stage: rakı, wine or champagne (a strong prior for this night);
+  a meyhane setting; the national lottery ticket legible.
+- Confidence and sources: MEDIUM ([Hürriyet Lezizz — Hindi dolması](https://www.hurriyet.com.tr/lezizz/hindi-dolmasi-nasil-yapilir-yilbasi-sofrasi-icin-hindi-tarifi-41702903);
+  [Lezzet — Yılbaşı hindi menüsü](https://www.lezzet.com.tr/lezzetten-haberler/yilbasi-hindi-menusu));
+  EDITORIAL for staging.
+
+#### Celebration: Wedding (düğün: village kazan wedding and salon wedding)
+- Type: life event.
+- When: summer and early autumn weekends; village weddings feed guests
+  at midday (midday), salon weddings run in the evening (evening).
+- Gathering: commonly cited at 200 to 450 guests, with salons of 150 to
+  200 the most booked. Two coexisting registers (§4.6): the **köy
+  düğünü**, with neighbours cooking in cauldrons and guests eating at long
+  tables in a garden, schoolyard or village square (other); and the
+  **salon düğünü** in a wedding hall with round tables (other), either
+  with a plated meal (*yemekli*) or without (*yemeksiz*: cake, soft drinks
+  and snacks only). [LOW-MEDIUM — wedding-salon and industry sites only]
+- The spread: village: **keşkek** (pounded wheat and meat, cooked for
+  hours in cauldrons and beaten to a thick, pale, stretchy porridge),
+  **etli pilav** (rice with meat chunks), a meat stew (*yahni*), with
+  pickles, bread and a dessert; salon: a starter, an ordövr plate, a
+  main and a dessert, or the wedding cake alone. [MEDIUM for village
+  dishes — Samsun and Konya local press, Trakya regional sources] Keşkek
+  and etli pilav have no catalog entries: keşkek reads as a pale beige,
+  smooth-stringy mound with a pool of red-pepper butter on top, served
+  on a plain plate; etli pilav as glossy white rice studded with brown
+  meat chunks, ladled from a cauldron about 80 to 100cm across (roughly
+  seven to eight can widths). Added to CANDIDATE QUEUE.
+- Snapshot staging: **1 setting** (village): one plain plate of etli pilav
+  and a spoon of keşkek on a long trestle table with a paper or oilcloth
+  cover, a bread pile beside, a cauldron steaming soft in the background.
+  **2 settings**: two identical plates side by side, a shared pickle
+  plate and bread between. **Small group**: three or four plates along
+  the trestle, the table running out of frame, blurred guests. Salon
+  variant: one plated main at a white-clothed round table, the next
+  table soft behind. Cues: the kazan and its wood fire behind; the long
+  table's vanishing point; strings of lights or a davul-zurna band
+  blurred far behind. [EDITORIAL]
+- Decor and cues: village gardens, plastic chairs, red ribbons; salons
+  with chandeliers. Avoid: Orientalist costume, legible banners.
+- Never stage: alcohol (some urban weddings serve it); ayran next to the
+  pilav (the real companion, here negated); gold being pinned on the
+  couple as the subject.
+- Confidence and sources: MEDIUM for food ([Samsun Canlı Haber — Çarşamba
+  düğün yemekleri](https://www.samsuncanlihaber.com/carsamba-dugun-yemekleri-gelenegi);
+  [Konya İmza — Etli düğün pilavı](https://konyaimza.com/konya/konyanin-geleneksel-lezzeti-etli-dugun-pilavi-tarifi-ve-hikayesi-26992h));
+  LOW-MEDIUM for headcount ([Düğün Kolay — Düğün salonu kaç kişilik](https://dugunkolay.com.tr/dugun-salonu-kac-kisilik-olmali/),
+  industry tier); EDITORIAL for staging.
+
+#### Celebration: Circumcision feast (sünnet düğünü)
+- Type: life event (a boy's coming-of-age rite; staging is the guests'
+  meal only).
+- When: usually summer, often a weekend; the feast is midday or evening.
+- Gathering: relatives and neighbours, dozens to a few hundred; a
+  garden, village square or rented salon (other), or a restaurant;
+  catering is common in cities. [MEDIUM — catering sources]
+- The spread: soup (mercimek or ezogelin), a meat or chicken dish with
+  rice or bulgur pilav (etli pilav, stew, grilled meat), and dessert
+  (baklava, Kemalpaşa, sütlaç); older village feasts served keşkek and
+  meat with chickpeas. [MEDIUM — catering menus and a regional folk-food
+  source agree] See catalog: Mercimek çorbası, Baklava, Compact sweets.
+- Snapshot staging: as the village or salon wedding: **1 setting**: a
+  soup bowl and a plate of etli pilav on a long or round table, a
+  dessert plate of baklava; **2 settings**: two identical settings;
+  **small group**: three or four settings with shared bread and salad.
+  Cues: blue-and-white or silver decorations, balloons, a decorated
+  throne-like chair for the boy soft and far in the background (never
+  sharp, never with the product); kazan or catering buffet behind.
+  [EDITORIAL]
+- Never stage: the boy honoree with the product; any medical or
+  procedure cue; ayran beside the hero; alcohol.
+- Confidence and sources: MEDIUM ([İkramla — Sünnet yemeği menüsü](https://www.ikramla.com.tr/sunnet-yemegi-menusu-nasil-olmali-5);
+  [Yerel Kültür — Sakarya Manavlarının kutlama yemekleri](https://yerelkultur.org/sakarya-manavlarinin-kutlama-yemekleri/));
+  EDITORIAL for staging.
+
+#### Celebration: Weekend mangal and piknik (family gathering)
+- Type: community or family gathering (recurring; spring to autumn).
+- When: weekend midday into late afternoon (midday or golden-hour).
+- Gathering: extended family or a few families together, about 6 to 15;
+  home outdoor (balcony, garden) or a park, forest picnic area or the
+  seaside (other). Piknik is a major weekend institution. [MEDIUM — not
+  independently re-checked; see ENVIRONMENT, Meal outdoors at home]
+- The spread: köfte, chicken wings and şiş from the mangal (see catalog:
+  Izgara köfte), grilled peppers and tomatoes, lavaş, çoban salatası (see
+  catalog), a dish of ezme or other cold meze (family register), fruit.
+  Shared vessels: a grilled-meat platter, salad bowl, bread pile, 2 to 3
+  small dishes.
+- Snapshot staging: **1 setting**: one plate with köfte, grilled pepper
+  and tomato on a folding table or a picnic cloth, lavaş beside, the meat
+  platter cropped. **2 settings**: two identical plates, the salad bowl
+  and lavaş between. **Small group**: three or four plates, the mangal
+  smoking soft behind. Cues: the mangal and smoke; other families'
+  picnic cloths blurred under trees; a thermos and çaydanlık would be
+  real but are kept out (rule 4). [EDITORIAL]
+- Never stage: beer; the samovar or tea setup beside the hero; legible
+  park signs.
+- Confidence and sources: MEDIUM (ENVIRONMENT section); EDITORIAL.
+
+#### Celebration: Birthday (doğum günü)
+- Type: life event.
+- When: afternoon or evening; children's parties at home or a play café
+  (golden-hour), adult birthdays as a family dinner or a café cake
+  (evening). [LOW — not verified this pass]
+- Gathering: family and friends, about 6 to 20; home indoor or a café
+  (restaurant). [LOW — not verified this pass]
+- The spread: a cream cake (*yaş pasta*) with candles is the centre;
+  around it börek, poğaça, small sandwiches, crisps, sometimes pizza.
+  [LOW — general knowledge, not verified this pass] See catalog: Börek.
+- Snapshot staging: **1 setting**: one dessert plate with a cake slice and
+  a piece of börek, the cake partly cropped. **2 settings**: two identical
+  plates, a börek tray between. **Small group**: plates at one end, the
+  cake with candles in the midground. Cues: balloons, a garland, blurred
+  guests. [EDITORIAL]
+- Never stage: a child as the drinker; tea glasses (a strong prior at
+  any Turkish table).
+- Confidence and sources: LOW — not verified this pass; EDITORIAL.
+
+---
+
+## GAME NIGHT
+
+The hard staging rules at the top of this file govern every entry: no
+pork; no alcohol or meyhane cues; Ramadan treated as a religious
+occasion (a match night in Ramadan is staged after iftar, nothing eaten
+in daylight); and **no çay or ayran beside the hero**. Tea is the most
+authentic drink at every format below (the derby tea tray, okey and
+tavla "over tea for hours") and is recorded here as real, but it stays
+out of frame unless the brief allows a named companion drink: negate the
+tulip glass and the çaydanlık by name in every prompt. Schema §5.8 also
+applies: screens, cards, boards and tiles are never legible; no crests,
+kits, sponsor marks or league logos; no betting slips, odds screens,
+betting apps, cash or scoring for money (okey is often played for
+stakes); party size is the place settings in frame, the crowd implied
+(§5.7); no identifiable children; a night kick-off is a night scene. The
+brief dictates the SKU (§5.4). This file had no earlier sports or games
+lines.
+
+### Watch parties
+
+Football is the viewing occasion, and the Fenerbahçe–Galatasaray derby
+is described as the biggest match in Türkiye [HIGH — Wikipedia,
+Hürriyet Daily News]; the national team and EuroLeague basketball draw
+national audiences too [LOW — not verified for basketball]. Home viewing
+with friends and family is the stageable default; the neighbourhood
+kahvehane showing the game is real but a male space. The signature
+viewing foods are **çekirdek** (roasted sunflower seeds) with a dish for
+the shells, crisps and kuruyemiş (mixed nuts), and lahmacun or pide
+delivery; Turkish food media and forum threads name "crisps, cola,
+çekirdek" as the classic match trio [LOW-MEDIUM — Yemek.com and Lezzet
+match-snack features, a CarrefourSA retailer blog, and Technopat forum
+threads, all found in one search this pass; recipe-media and retailer
+tier, flagged].
+
+#### Watch party: derby night at home (Fenerbahçe–Galatasaray, and Beşiktaş derbies)
+- When: two league derbies a season plus cup games, August to May; big
+  league games usually kick off in the evening, about 19:00 to 20:00
+  local time [LOW — not verified, model knowledge]. Intake time evening:
+  dark outside for most of the season, lamp and TV glow.
+- Gathering: family or 4 to 8 friends in the apartment salon; home
+  indoor (see ENVIRONMENT for the salon register). A household split
+  between the two clubs is a real dynamic; show it with neutral clothes,
+  never kits or club colours worn as uniforms.
+- The spread: a bowl of çekirdek with a small empty dish for the shells
+  and a scatter of split shells on the table; crisps and kuruyemiş in
+  bowls [LOW-MEDIUM — the search above]; lahmacun rolled or flat in
+  delivery boxes (see catalog: Lahmacun) and pide cut into strips on a
+  wooden board or in its box (see catalog: Pide); a cheese plate with
+  olives and crackers is a food-media alternative [LOW-MEDIUM — Yemek.com;
+  delivery dishes LOW — not verified].
+- Surface and environment: a low coffee table (*orta sehpa*) in front of
+  the sofa, a lace runner or plain cloth; the TV a soft green blur with no
+  score bug or channel mark; apartment salon with patterned rug and
+  curtains. The real-life tea tray with tulip glasses is the most
+  authentic detail and the one to keep out of frame (hard rule 4).
+- Snapshot staging: **1 setting**: one plate with a rolled lahmacun and a
+  lemon wedge on the coffee-table edge, the çekirdek bowl and shell dish
+  beside it. **2 settings**: two identical plates, the open lahmacun box
+  and the çekirdek bowl shared between them. **Small group**: three or four
+  plates round the table, more boxes and bowls than needed, blurred figures
+  on the sofa facing the screen (no more than about 2.5 faces, none sharp).
+- Never stage: çay glasses, the çaydanlık or ayran (negate by name); beer
+  (Efes is a strong prior for football); club crests, yellow-navy or
+  red-yellow kits as uniforms, sponsor marks; a legible screen; betting
+  slips or the state betting game's coupons; flares or fan violence.
+- Confidence and sources: HIGH for the derby's status ([Wikipedia — The
+  Intercontinental Derby](https://en.wikipedia.org/wiki/The_Intercontinental_Derby_(football));
+  [Hürriyet Daily News](https://www.hurriyetdailynews.com/all-eyes-on-intercontinental-derby-between-galatasaray-fenerbahce-169504));
+  LOW-MEDIUM for çekirdek, crisps and nuts ([Yemek.com — derby snacks](https://yemek.com/mac-icin-atistirmaliklar/);
+  [Lezzet — match snacks](https://www.lezzet.com.tr/lezzetten-haberler/mac-atistirmaliklari);
+  [CarrefourSA blog](https://www.carrefoursa.com/blog/dunya-kupasi-maclarinda-ne-yenir-evde-mac-keyfi-icin-atistirmalik-alisveris-listesi/);
+  [Technopat forum](https://www.technopat.net/sosyal/konu/mac-izlerken-en-cok-ne-yemekten-zevk-aliyorsunuz.2529609/));
+  LOW for kick-off times and delivery dishes; EDITORIAL for staging.
+
+#### Watch party: national-team night (milli maç)
+- When: qualifiers and tournament games, mostly evenings; tournament
+  summers in June and July [LOW — not verified].
+- Gathering: family or friends at home (home indoor, or a balcony in
+  summer, home outdoor); cafés and restaurant terraces with a screen
+  are the public form [LOW — not verified].
+- The spread: çiğ köfte wraps with lettuce leaves and lemon wedges on a
+  platter (see catalog: Çiğ köfte; the meat-free modern form, per that
+  entry), çekirdek and kuruyemiş in bowls, simit torn on a plate (see
+  catalog: Simit) [LOW — not verified, the notes' list].
+- Surface and environment: a coffee table or a balcony table with a
+  plastic cloth, summer dusk; a red paper garland or a cropped
+  crescent-and-star pattern at most, never a full flag (reviewer ruling,
+  §5.7).
+- Snapshot staging: **1 setting**: one plate with two çiğ köfte wraps and
+  a lemon wedge, the platter cropped beside it. **2 settings**: two
+  identical plates, the platter and a çekirdek bowl between them.
+  **Small group**: plates round the balcony table, a second platter
+  cropped, blurred figures toward the screen through the door.
+- Never stage: çay, ayran or beer; a full flag; national kits with crests
+  or sponsor marks; a legible screen.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+#### Watch party: neighbourhood café or kahvehane screening (food-led, tea out of frame)
+- When: evening league and derby games [LOW].
+- Gathering: the kahvehane is a male-dominated space where men watch on
+  a wall-mounted TV [LOW — not verified; the social-games notes describe
+  it as a male space]. Stage it either as an all-male café group of 2 to
+  3 at one small table, without tea, or as a mixed modern café; never a
+  crowded room. Venue: restaurant (café).
+- The spread: kaşarlı tost (a pressed grilled-cheese sandwich; the
+  sucuklu form uses beef sucuk, per hard rule 1) cut in halves on a small plate, simit (see catalog: Simit), a
+  bowl of çekirdek [LOW — not verified]. No catalog entry for tost (see
+  CANDIDATE QUEUE).
+- Surface and environment: small square tables, wooden chairs, a TV
+  high on the wall as a soft glow, a window onto the street at night.
+- Snapshot staging: **1 or 2 settings** at one small table, a plate of
+  tost each, the çekirdek bowl between them; other tables soft and empty
+  or with backs only. Small groups are better staged at home.
+- Never stage: tulip tea glasses on the table (the default in reality;
+  negate by name); okey tables with stakes in the background; a legible
+  screen or sign.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Okey (tile
+rummy) and tavla (backgammon) are played over tea for hours at the
+kahvehane and at home; 96% of people drink tea daily (TÜİK); an online
+okey app reports 50 million-plus users [MEDIUM — Journal of Ethnic Foods
+2022, Intern Network Turkey]. Tombala (a bingo-style numbers game) on
+New Year's Eve is a family custom [LOW — not verified]. The kahvehane is
+a male space and okey is often played for stakes, so the home and mixed
+café versions are staged.
+
+#### Game night: family okey at home (winter evening)
+- When: winter evenings and holidays at home; intake time evening
+  [MEDIUM / LOW — the notes' timing].
+- Gathering: four players with family onlookers in the salon; home
+  indoor.
+- The spread: a bowl of çekirdek, börek cut in squares on a plate (see
+  catalog: Börek), a fruit plate (mandarins, apples), kuruyemiş [LOW —
+  not verified; the notes' editorial spread].
+- Surface and environment: a square table or the dining table with a
+  felt cloth; the four wooden racks (*ıstaka*) with tiles turned so their
+  faces are unreadable; food on a side table or at the corners so it does
+  not cover the game; lamp light, a patterned rug.
+- Snapshot staging: **1 setting**: one small plate with a börek square at
+  the table corner, a rack and tiles soft in the foreground. **2
+  settings**: two identical small plates at adjacent corners, the
+  çekirdek bowl between them. **Small group**: four places round the
+  table, the fruit plate and börek tray on a side table cropped, an
+  onlooker as a soft shape behind.
+- Never stage: tulip tea glasses and the çaydanlık (on every real okey
+  table; negate by name); money, chips or score sheets for stakes;
+  legible tile faces as a scoring hand.
+- Confidence and sources: MEDIUM for popularity ([Journal of Ethnic Foods
+  2022 — tea and coffee in Turkey](https://journalofethnicfoods.biomedcentral.com/articles/10.1186/s42779-022-00124-9);
+  [Intern Network Turkey — tavla and okey](https://www.internnetworkturkey.com/2022/04/05/tavla-and-okey-turkish-board-games/));
+  LOW for the spread; EDITORIAL for staging.
+
+#### Game night: tavla at a café or garden table
+- When: afternoons and early evenings, all year; intake time golden-hour
+  [MEDIUM / LOW].
+- Gathering: two players and an onlooker; a mixed café or a home garden
+  or balcony table (home outdoor, restaurant), not the male kahvehane
+  [EDITORIAL].
+- The spread: simit on a plate (see catalog: Simit), a plate of white
+  cheese and olives, a small bowl of çekirdek [LOW — not verified].
+- Surface and environment: an inlaid wooden tavla board open on a small
+  café or garden table, dice mid-board, a vine or plane tree overhead,
+  golden late light.
+- Snapshot staging: **1 setting**: one plate with a simit beside the open
+  board. **2 settings**: two identical plates either side of the board,
+  the cheese plate at the edge. **Small group**: a third chair with a
+  plate, a second café table soft behind.
+- Never stage: tea glasses; money on the board; legible signage.
+- Confidence and sources: MEDIUM for the game, LOW for the spread;
+  EDITORIAL for staging.
+
+#### Game night: New Year's Eve tombala
+- When: 31 December, after dinner and before midnight; intake time
+  evening [LOW — not verified].
+- Gathering: the family or friends from the New Year's Eve entry (see
+  CELEBRATIONS: New Year's Eve dinner), 4 to 10, at the cleared dining
+  table; home indoor.
+- The spread: after the hindi dolması course: baklava on a tray (see
+  catalog: Baklava), mandarins in a bowl, kuruyemiş, the meze plates
+  still on the table (see catalog: Meze, family register) [LOW — the
+  notes' editorial spread].
+- Surface and environment: the dining table with a festive cloth, the
+  tombala cloth bag and numbered pieces with numbers unreadable, plain
+  cards with blank grids; the secular New Year's tree and streamers soft
+  behind.
+- Snapshot staging: **1 setting**: one dessert plate with a baklava piece
+  and a mandarin beside a blank tombala card. **2 settings**: two
+  identical dessert plates, the baklava tray between them. **Small
+  group**: plates round one end of the table, the bag in the middle,
+  blurred relatives behind.
+- Never stage: prizes of money or the national lottery ticket; rakı,
+  wine or champagne; legible numbers or cards; identifiable children.
+- Confidence and sources: LOW; EDITORIAL for staging.
 
 ---
 
@@ -1937,6 +2783,33 @@ entry]
 - **Compact entries** (testi kebabı, tantuni, cağ kebabı, sweets) would
   need full sourcing if a brief leans on them. Zones 2 (Aegean) and 7
   (Eastern Anatolia) are the thinnest.
+- **Celebrations pass (2026-10-01) open items.** Wedding headcounts
+  (200 to 450) come only from wedding-salon and industry sites. The
+  bayram-table menu rests on food-writer and recipe sites. The New Year's
+  hindi dolması is documented as a recipe-media centrepiece; how many
+  households actually serve it is unknown. The birthday entry is LOW
+  throughout (no searches spent). The weekend piknik entry relies on the
+  file's own unverified ENVIRONMENT note. TCCC Türkiye's own Ramadan and
+  bayram advertising practice is still not researched.
+- **Game-night pass (2026-10-01) open items.** One search this pass
+  (match-night snacks) put çekirdek, crisps and nuts at LOW-MEDIUM from
+  recipe media, a retailer blog and forums; everything else is LOW and
+  not verified: derby and Süper Lig kick-off times; lahmacun and pide
+  delivery as derby food; çiğ köfte for national-team nights; the
+  kahvehane screening and its tost and simit; okey, tavla and tombala
+  food spreads; New Year's Eve tombala as a custom; EuroLeague
+  basketball viewing. Tea at okey, tavla and the derby is recorded as
+  authentic and kept out of frame per hard rule 4.
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  (search summaries only, no pages read): salon details beyond the vitrin
+  and tulle curtains (protective table cover, chandelier) are LOW;
+  prevalence of enclosed glass balconies (cam balkon) is LOW-MEDIUM;
+  lokanta wall portraits and framed calligraphy as common fixtures are
+  model knowledge (EDITORIAL never-stage note); ocakbaşı, benmari, döner
+  grill and wedding-salon details rest on equipment-supplier and decorator
+  pages (commercial tier); regional wedding-salon differences LOW. İftar
+  staging was not touched.
 
 ## CANDIDATE QUEUE
 
@@ -1953,6 +2826,12 @@ entry]
    failure), mantı (dumpling-size failure) and the kahvaltı spread
    (tea-glass intrusion).
 5. Independent §8 audit of this file.
+6. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): keşkek; etli pilav (düğün pilavı); hünkâr beğendi;
+   hindi dolması (New Year's); yaş pasta (compact).
+7. Game-night foods with no catalog entry (game-night pass 2026-10-01):
+   çekirdek (sunflower seeds with a shell dish) and kuruyemiş as a compact
+   snack entry; kaşarlı tost (café register).
 
 ## RESEARCH LOG
 
@@ -1985,3 +2864,24 @@ entry]
   surfaced, and marked; ekşi sözlük and KizlarSoruyor treated as
   corroboration only, never as sole source.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (village
+  wedding food, salon wedding size and format, sünnet feast menus, iftar
+  invitation menus, bayram visits and table, New Year's Eve table).
+  Added CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register with
+  8 entries: iftar invitation, Ramazan Bayramı family meal, Kurban Bayramı
+  family meal, New Year's Eve dinner, wedding (village and salon), sünnet
+  feast, weekend mangal and piknik, birthday. Bayram mornings mentioned,
+  main meals staged, per the 2026-10-01 breakfast rule. WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 1 new
+  search (Turkish match-night snacks: Yemek.com, Lezzet, CarrefourSA,
+  Technopat). Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  three watch-party entries (derby night at home, national-team night,
+  neighbourhood café or kahvehane screening staged food-led with tea out
+  of frame) and three social game-night entries (family okey at home,
+  tavla at a café or garden table, New Year's Eve tombala).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  apartment salon dining table, apartment balcony, esnaf lokantası,
+  dönerci, kebapçı or ocakbaşı, wedding salon. İftar entries left as they
+  are. WebSearch only; no pages read at source.

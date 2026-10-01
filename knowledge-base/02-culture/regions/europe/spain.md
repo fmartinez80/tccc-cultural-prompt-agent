@@ -122,6 +122,349 @@ Module below. No beverage other than Coca-Cola is catalogued as a subject.
 | **Chiringuito (beach bar)** | Wooden deck or plastic tables on sand, reed/thatch shade, the sea behind. |
 | **Menú-del-día dining room** | A small table with a paper tablecloth, fast turnover, a set three-course sequence. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used Spanish staging venues: the
+piso living-dining room and kitchen, the chalet or village-house patio,
+the neighbourhood bar, the menú-del-día dining room, the plaza terraza,
+and the village fiesta's long tables. Default zone when none is named:
+an urban flat or neighbourhood bar in the Centre zone (zone 6), per
+ENVIRONMENT & STAGING SCENES. The file-wide rules hold in every profile:
+text only as unreadable colour patches (rule 1), the brief dictates the
+SKU (rule 2), no other drinks in frame including beer, wine, vermut and
+coffee (rule 3), nothing held in a hand (rule 4); plus no alcohol cues
+(no bottle shelves, taps or glasses behind bars), no brand marks, never a
+full flag, no identifiable children, no more than about 2.5 background
+faces and none sharp.
+
+#### Venue: Piso living-dining room and kitchen (home, indoor)
+- Use for: home indoor; casual lunch at about 14:00 to 15:00 (1, 2, 3),
+  late dinner, Nochebuena and Navidad at the grandparents' piso (table
+  extended), El Clásico at home; the national default home. 65.3% of
+  Spaniards live in flats, the highest share in the EU [HIGH — Eurostat via
+  idealista, see ENVIRONMENT].
+- Soft background (the core): what reads first is the light: roller
+  shutters (*persianas*) half-lowered over a balcony door or window,
+  throwing horizontal bars of bright light across a cool, shiny floor of
+  terrazzo, ceramic or porcelain tiles in beige, grey or speckled cream
+  [MEDIUM — ENVIRONMENT interior markers; tile-maker sources for terrazzo
+  and porcelain floors]. Behind the table in the *salón-comedor*: light
+  painted walls (white, cream, pale beige), a wall unit or sideboard with
+  family photos and a few ornaments, the TV as a dark rectangle, a sofa
+  edge, a framed print; through the balcony door, the wrought-iron or
+  aluminium balcony rail, a geranium pot, laundry on a rack, and the
+  façade of the block opposite in brick or render with its own persianas
+  and awnings (*toldos*, often green, orange or striped) [MEDIUM]. In the
+  kitchen version: wall tiles up to the ceiling or high on the wall
+  (white, cream or patterned), compact fitted units, a glazed laundry
+  gallery (*galería*) with a washing machine and a hanging line, an
+  orange butane cylinder in older kitchens [LOW for the butane cylinder,
+  declining]. Light: hard midday brightness filtered by persianas at
+  lunch; at dinner (21:00 to 22:30), a ceiling lamp or a warm pendant over
+  the table, blue dusk through the balcony in summer. Palette: cream and
+  white walls, warm beige floor sheen, dark wood or white furniture, green
+  of plants, the striped toldo. Signature shapes: the slatted persiana
+  with light bars, the balcony door with its iron rail, the tiled floor
+  sheen, the glazed galería, the wall unit with photos. Density: tidy,
+  clean, family-ornamented; grandparents' pisos fuller (doilies, a
+  display cabinet with the good glassware empty and soft, a clock).
+- Shell: a mid-rise block from the 1960s to the 2000s; flat ceilings,
+  sliding aluminium windows or wooden balcony doors with persianas [MEDIUM].
+- The table as set here: an extendable rectangular dining table, wood or
+  glass-topped; a tablecloth or an oilcloth (*hule*) in the kitchen; a
+  barra of bread directly on the cloth; the cruet set (oil and vinegar
+  cruets, salt); everyday white or patterned plates, a soup plate for
+  lentejas; a festive red or gold cloth at Christmas. In older homes, a
+  round *mesa camilla* with a long skirted cloth (historically over a
+  heater) [LOW — not verified this pass].
+- Subregional variants and the national default: Centre (zone 6): brick
+  block, terrazzo, persianas; Andalusia (zone 5): whiter walls, an
+  azulejo dado, deeper shade; Atlantic Northwest (zone 1): glazed
+  balconies (*galerías* on the façade), greyer light, wood floors;
+  Catalonia (zone 3): Eixample flats with hydraulic patterned floor
+  tiles and high ceilings; Valencia (zone 4): bright coastal light, a
+  paella pan on the wall or in the kitchen. National default: a Centre
+  zone piso with persianas, a tiled floor and a balcony.
+- Hallucination traps: a sunny rustic farmhouse with terracotta and
+  hanging copper pans in every flat; tourist kitsch (flamenco fans,
+  bull posters, castanets); Mexican decor (papel picado, cacti); an
+  Italian trattoria look; a US open-plan kitchen with an island; the
+  siesta cliché; a wine bottle or porrón on the table.
+- Never stage: wine, beer, vermut, coffee cups; legible labels or TV; a
+  full flag on the balcony (football tournament summers: a cropped
+  red-yellow pattern at most); religious images as a subject.
+- Prompt-ready line: "A Spanish piso at lunchtime: the table with a barra
+  of bread and a cruet set sharp in front, behind it half-lowered roller
+  shutters throwing bars of hard light across a shiny terrazzo floor, a
+  cream wall with a softly blurred sideboard and the iron rail of a small
+  balcony."
+- Confidence and sources: MEDIUM; one search, tile-maker sources only
+  ([Marazzi — terrazzo-effect floors](https://www.marazzi.es/blog/valorizar-los-suelos-de-terrazo-en-la-decoracion-moderna-ideas-con-gres-porcelanico/),
+  commercial tier) plus the ENVIRONMENT interior markers (MEDIUM and LOW,
+  carried from the scaffold). The mesa camilla and the grandparents' detail
+  are LOW.
+
+#### Venue: Chalet or village-house patio, with the balcony and azotea variants (home, outdoor)
+- Use for: home outdoor; the Sunday family paella (strongest in zone 4),
+  a summer lunch or late dinner, a birthday; 1 to small group as a
+  snapshot of 8 to 20. See ENVIRONMENT: Meal outdoors at home and
+  CELEBRATIONS: Sunday family paella.
+- Soft background (the core): a covered *porche* or a vine or
+  canvas-shaded pergola throwing dappled shade; a built-in brick or stone
+  barbecue (*barbacoa de obra*) with a chimney as a solid block at one
+  side, or a gas-ring paellero with the wide pan on its stand and a thin
+  haze of smoke; white or cream rendered walls of the house, terracotta
+  or ceramic tiled floor, potted geraniums and a lemon or orange tree,
+  a hedge or a whitewashed boundary wall; in an urbanización, the blue
+  rectangle of a community or private pool glinting far behind and the
+  rooftops of neighbouring chalets [MEDIUM — rental listings consistently
+  pair built-in barbecues, porches, pergolas and pools; LOW for exact
+  prevalence]. Light: high bright midday sun cut into hard-edged shade
+  under the porch; long warm late-afternoon light for the sobremesa;
+  summer dinner after 21:30 under string lights or a wall lamp. Palette:
+  whitewash and cream, terracotta, vine green, pool blue, the saffron
+  gold of paella. Signature shapes: the round paella pan on the table,
+  the built-in barbecue chimney, the pergola slats or vine canopy, plastic
+  or resin garden chairs, the pool's blue band.
+- Shell: a single-family chalet, adosado (terraced house) with a small
+  garden, or the family *casa del pueblo* with a courtyard [MEDIUM].
+- The table as set here: a long folding or resin table, or two pushed
+  together, under a plastic or cotton cloth; the paella pan centred on
+  a trivet, lemon wedges, a bread barra, a salad bowl; everyday plates or
+  eating straight from the pan in some families; resin chairs in white,
+  green or grey [MEDIUM — CELEBRATIONS entry].
+- Subregional variants and the national default: Valencia (zone 4):
+  orange groves or huerta beyond the wall, a wood-fired paellero. Andalusia
+  (zone 5): a whitewashed courtyard with an azulejo dado and geranium pots
+  on the walls. Centre: a village-house courtyard with stone and a
+  grapevine. Flats: the balcony (a bistro table on tiles, geraniums, a
+  toldo, no grill) or the shared roof terrace (*azotea*) with water
+  tanks and laundry lines. National default: a chalet porch with a vine
+  pergola and a built-in barbecue.
+- Hallucination traps: a Tuscan villa with cypress rows; Mexican hacienda
+  tiles and cacti; "everything-seafood" paella with lobsters as decor; a
+  US backyard deck with a big gas grill; sangría pitchers on the table
+  (the strongest prior).
+- Never stage: sangría, wine, beer, tinto de verano; legible labels;
+  identifiable children by the pool; a full flag.
+- Prompt-ready line: "A Spanish chalet porch at Sunday lunch: a paella pan
+  sharp on a long cloth-covered table, behind it dappled shade from a vine
+  pergola, a white rendered wall with geranium pots, a brick built-in
+  barbecue chimney and the blue glint of a pool, all softly blurred."
+- Confidence and sources: MEDIUM-LOW for the background (one search,
+  rental listings only: [Casas Rurales — houses with pool and barbecue near
+  Madrid](https://www.casasrurales.net/blog/10-casas-rurales-con-piscina-y-barbacoa-cerca-de-madrid),
+  commercial tier); MEDIUM for the paella occasion (CELEBRATIONS sources).
+
+#### Venue: Neighbourhood bar (*bar de barrio*, *bar de toda la vida*)
+- Use for: restaurant, indoor; a tapa or ración at the counter, a quick
+  pincho, LaLiga matchday (food-led only), solo or 2 to 3; the default
+  everyday Spanish venue [register above].
+- Soft background (the core): the long bar counter in stainless steel
+  or zinc with a curved front edge (marble or wood in older castizo bars),
+  its front often clad in tiles; on it, a glass refrigerated tapas display
+  case with trays of tortilla, ensaladilla, croquetas and boquerones as
+  soft colour blocks; a chrome napkin dispenser; behind the counter, a
+  wall of white or patterned tiles or a mirror, with shelves blurred to
+  abstract shapes (no bottle silhouettes, no taps, no coffee machine in
+  focus); legs of jamón hanging from a rail in many bars as dark
+  teardrop shapes; a TV high in a corner as a soft glow; tiled floor,
+  sometimes with paper napkins on it near the counter; wooden or chrome
+  high stools along the bar; a few small tables with marble or laminate
+  tops [MEDIUM — Revista Interiores on castizo bars (steel counters,
+  gresite tiles, wooden stools); the register above]. Light: cool-white
+  overhead fluorescent or LED with warm spots over the counter; daylight
+  through a glass front and door. Palette: stainless steel, white or
+  cream tile, warm wood, the gold of fried tapas. Signature shapes: the
+  curved steel counter edge, the glass display case, hanging jamón legs,
+  the high TV, the napkin dispenser. Density: busy, noisy, well-worn,
+  regulars. People cues: a waiter in a white shirt and black waistcoat
+  or a plain polo with an apron, blurred; regulars at the counter as
+  backs, within the limit.
+- Shell: a ground-floor unit of a residential block, a glass front with
+  a door, low ceiling with panel lights or fans [MEDIUM].
+- The table as set here: the counter itself, or a small marble or steel
+  table; small white plates and brown clay cazuelas, a plate of bread,
+  toothpicks, paper napkins from the dispenser; forks laid on the plate
+  [MEDIUM — the LaLiga entry].
+- Subregional variants and the national default: Basque Country (zone 2):
+  the pintxo bar, platters of composed bites along the counter with
+  toothpicks upright, a standing ledge; Granada, León, Jaén (free tapa
+  with a soft drink): the same bar, a small free plate beside the hero;
+  Andalusia: azulejo wainscot, barrels as tables (keep empty and plain,
+  or avoid since they read as wine); Madrid: a castizo tavern with dark
+  wood, tiled wainscot and marble tables (see register: Traditional
+  tavern). National default: a Centre zone steel-counter bar.
+- Hallucination traps: a Mexican cantina; a British pub; a dim "tapas
+  restaurant" abroad with Spanish flags, bullfight posters, fans and
+  flamenco dolls; wine racks and sherry casks as decor; a cocktail bar.
+- Never stage: cañas, beer taps, wine, vermut, coffee cups, bottle
+  shelves in focus, legible chalkboards, price cards or lottery tickets;
+  slot machines (*tragaperras*, a real bar fixture and a gambling cue);
+  club crests on the TV.
+- Prompt-ready line: "A Spanish neighbourhood bar: small plates of
+  croquetas and bravas sharp on a curved stainless-steel counter, behind
+  them a softly blurred glass tapas case, white tiled walls, hanging legs
+  of jamón and a TV glowing high in the corner."
+- Confidence and sources: MEDIUM; one search ([Revista Interiores — bares
+  de toda la vida](https://www.revistainteriores.es/tendencias/bueno-bonito-y-castizo-5-bares-toda-vida-para-comer-lujo-y-pillar-ideas-deco_9296))
+  plus the register and the LaLiga entry. The slot-machine note is LOW
+  (model knowledge).
+
+#### Venue: Menú-del-día dining room (*casa de comidas*, *restaurante de menú*)
+- Use for: restaurant, indoor; weekday lunch (about 14:00 to 15:30) with
+  primero, segundo and postre; 1 (a worker alone) or 2 to 3 colleagues;
+  the default casual sit-down restaurant [HIGH for the format, scenario
+  above].
+- Soft background (the core): a small, bright dining room behind or
+  beside a bar: rows of small square tables, each with a white paper
+  tablecloth (or red-and-white check cloth in castizo houses), close
+  together; walls with a tiled dado (white, blue-and-white or Andalusian
+  patterned tiles) and plain plaster above with framed old photographs,
+  paintings or plates; a menu board or a typed sheet on the wall (an
+  unreadable white patch); a TV in a corner; a doorway to the bar with a
+  waiter passing; a sideboard with stacked plates and bread baskets
+  [MEDIUM — esMadrid and eldiario.es on Madrid casas de comidas (tiled
+  walls, check cloths, marble bars, old photographs)]. Light: cool
+  overhead light plus daylight from the street window. Palette: white
+  paper, tile blue or green, warm wood, the beige of bread. Signature
+  shapes: the rows of small paper-clothed tables receding, the tiled
+  dado line, framed photographs, a bread basket on each table, the
+  waiter's white shirt. Density: fast turnover, full at 14:30, worn but
+  clean. People cues: workers in office or work clothes at other tables,
+  blurred, within the limit.
+- Shell: a ground-floor room behind a bar; terrazzo or tiled floor;
+  low ceiling with fans or panel lights [MEDIUM].
+- The table as set here: white paper tablecloth over cloth or bare,
+  a paper napkin, cutlery laid fork left knife right, a basket of sliced
+  barra, an oil-and-vinegar cruet, a salt shaker, thick white plates;
+  the primero then the segundo; a plain glass for the hero serve when the
+  brief allows (no wine or water bottle, per the scenario).
+- Subregional variants and the national default: Madrid casa de comidas
+  (check cloths, tiles, old photographs); Catalonia (a *menú* in a
+  plainer modern room); Andalusia (azulejos, ceiling fans); Basque (a
+  dining room behind a pintxo bar). National default: a small room with
+  paper cloths and a tiled dado.
+- Hallucination traps: a white-linen fine-dining room; a tourist
+  "paella and sangría" restaurant with photo menus and flags; Mexican
+  decor; bullfighting posters and heads as the default (some real
+  castizo houses have them; do not stage).
+- Never stage: wine bottles (the menú traditionally includes wine; the
+  strongest prior), water bottles, coffee, legible menus or prices,
+  bullfighting imagery.
+- Prompt-ready line: "A Spanish menú-del-día dining room at lunchtime: a
+  small table with a white paper cloth, a bread basket and a cruet sharp
+  in front, behind it rows of close-set tables, a blue-and-white tiled
+  dado and framed old photographs on cream walls, softly blurred."
+- Confidence and sources: MEDIUM; one search ([esMadrid — traditional
+  casa de comidas](https://www.esmadrid.com/en/traditional-casa-comidas);
+  [eldiario.es — Madrid casas de comidas that survive](https://www.eldiario.es/madrid/somos/caminando-por-madrid/casas-comidas-sobreviven-madrid-15-negocios-clasicos-3-nuevas-recomendaciones_132_12735813.html);
+  [Telemadrid — casas de comidas to neotabernas](https://www.telemadrid.es/experimenta-madrid/Ruta-de-sabores-por-Madrid-de-las-casas-de-comidas-mas-tradicionales-a-las-neotabernas-0-2708129176--20240919080000.html)).
+
+#### Venue: Plaza terraza (bar or café tables outdoors)
+- Use for: restaurant, outdoor, and the on-the-go register (a bocadillo
+  or a ración between errands); tapeo for 2 to 3, Selección tournament
+  night, a merienda; golden-hour and evening. The everyday outdoor
+  Spanish table [register above].
+- Soft background (the core): a stone or concrete paved plaza or a wide
+  pavement; more small square tables (aluminium, steel or resin, often
+  brushed silver or dark grey) with stackable aluminium or resin chairs
+  in rows receding; plain canvas parasols in cream, white or dark green
+  or a fixed awning (*toldo*) over the bar's frontage; behind, the bar's
+  glass front and the façades of the plaza (in the Centre, brick or
+  rendered three- to five-storey buildings with iron balconies and
+  persianas; arcades in a *plaza mayor*); plane or acacia trees, street
+  lamps, a church tower or fountain far off as a soft silhouette
+  [MEDIUM — hospitality-furniture suppliers on stackable aluminium chairs,
+  aluminium and resin tables, parasols and awnings; municipal terrace
+  rules on movable furniture]. Light: golden hour at 20:00 to 21:30 in
+  summer, long shadows across stone; blue hour with the lamps on.
+  Palette: honey stone, brushed aluminium, canvas cream, brick red, tree
+  green. Signature shapes: rows of small square tables and stackable
+  chairs, the parasol canopies, iron balconies above, the arcade arches.
+  People cues: blurred neighbours at other tables, a waiter with a tray,
+  within the limit.
+- Shell: open air; the plaza paving, the bar's frontage [MEDIUM].
+- The table as set here: a small square metal table, no cloth (a paper
+  placemat at most); small plates of tapas or raciones in the centre,
+  toothpicks, paper napkins from a dispenser, bread; for on the go, a
+  bocadillo in white paper or foil resting on the table or a stone
+  bench (rule 4) [MEDIUM].
+- Subregional variants and the national default: Andalusia (whitewash,
+  orange trees, hard sun and deep shade, awnings stretched across
+  streets); Basque and Galicia (greyer light, granite, a glazed
+  windbreak around the terrace); Catalonia (a rambla or Gothic quarter
+  square); Madrid (a plaza with brick façades). National default: a
+  Centre zone plaza terrace at golden hour.
+- Hallucination traps: Parisian bistro rattan chairs and marble
+  tables; Italian piazza clichés; landmark skylines (Sagrada Família,
+  the Alhambra) behind every table; sangría pitchers; flamenco
+  performers.
+- Never stage: beer, sangría, wine, vermut, coffee; branded parasols and
+  chairs (in reality often brewery-branded: render them plain); legible
+  signs; a full flag.
+- Prompt-ready line: "A Spanish plaza terraza at golden hour: small plates
+  of tapas on a brushed-aluminium table sharp in front, behind it rows of
+  stackable chairs and plain cream parasols softly blurred, a bar's glass
+  front and brick façades with iron balconies in warm low light."
+- Confidence and sources: MEDIUM-LOW; one search, supplier sources
+  ([Hevea — terrace furniture for bars](https://hevea.es/mesas-sillas-terraza-bar/);
+  [Ceuta — terrace and velador regulation](https://www.ceuta.es/gobiernodeceuta/images/stories/documentos/ordenanza_reguladora_terrazas_veladores_Comisi%C3%B3n_Informativa.pdf),
+  municipal tier). Brewery-branded parasols as common is LOW (model
+  knowledge).
+
+#### Venue: Village fiesta long tables (*cena popular*, *paella popular*) (other)
+- Use for: other (the village plaza or sports ground); summer fiestas,
+  especially August; 1 to small group as a snapshot of dozens to several
+  hundred (see CELEBRATIONS: Village fiesta communal dinner). The
+  signature Spanish large-gathering venue outside the home.
+- Soft background (the core): long trestle tables with white or coloured
+  paper tablecloths running away to a soft vanishing point in both
+  directions; white or green plastic chairs in long rows; strings of small
+  coloured pennant flags (*banderines*) zig-zagging overhead between
+  lamp posts and balconies; the plaza's façades with iron balconies and a
+  church tower silhouette (fine as background); the verbena stage at one
+  end with coloured stage lights as large soft bokeh; for a paella
+  popular, the giant pans on wood fires with smoke and figures stirring
+  far back; peña groups in matching coloured shirts as blurred colour
+  blocks (no legible text) [MEDIUM — CELEBRATIONS entry sources (municipal
+  fiesta programmes, local press); the search this pass found only
+  supplier pages]. Light: late golden hour for the paella cook-off;
+  after 21:30, warm string bulbs and stage colour against a deep blue
+  sky. Palette: paper white, plastic white or green, multicoloured
+  pennants, warm bulb amber, stage magenta and blue. Signature shapes:
+  the endless trestle line, plastic chairs, pennant strings, the church
+  tower, the giant pan.
+- Shell: open air; stone paving, asphalt or a sports-ground floor.
+- The table as set here: paper cloth on a trestle; plastic or paper
+  plates and cutlery; tortillas on plates, a bread bag, embutidos on
+  paper, a paella portion per plate; the hero product as the brief says.
+- Subregional variants and the national default: Valencia (zone 4):
+  giant paella over orange-wood fires; Centre and Aragón: cena popular
+  with each group's tortillas and embutidos; North: a sardine or
+  chorizo grill. National default: a village plaza with trestle tables
+  and pennants on an August night.
+- Hallucination traps: running of the bulls or bullring imagery; a
+  Mexican fiesta (papel picado, piñatas, sombreros); a fairground with
+  rides as the main frame; beer cups on every table; a religious
+  procession as the subject.
+- Never stage: the bar stall and its plastic beer cups, sangría or
+  kalimotxo; bull events; the patron saint's procession; legible peña
+  names; fireworks near the product; identifiable children.
+- Prompt-ready line: "A Spanish village fiesta dinner on an August
+  night: one paper plate of paella sharp on a paper-covered trestle table,
+  behind it the long table and rows of plastic chairs receding, strings of
+  coloured pennants overhead and the verbena stage lights blurred into
+  bokeh beneath a church tower."
+- Confidence and sources: MEDIUM for the occasion (CELEBRATIONS sources);
+  EDITORIAL for the background; one search this pass, no usable result.
+
 ---
 
 ## ZONE CHARACTERIZATION
@@ -652,6 +995,518 @@ recurring pattern, not a fixed annual date, except where marked fixed.
 The remaining festivals' dates are fixed calendar dates or well-
 established, uncontested annual traditions not individually re-searched
 this pass.
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+The FESTIVALS & SEASONAL OCCASIONS register above stays the calendar
+index; this section is the staging layer, per schema §5.7. File-wide rules
+1 to 5 apply to every entry, especially rule 3: Spanish celebrations carry
+cava, wine, beer and the after-meal liqueur in reality, and none may
+appear. The register's sensitivity column (no bulls, no processions, no
+product near fire) also applies.
+
+### How large gatherings work here
+
+- **Who gathers.** The extended family is the core unit and gatherings
+  run large: a Nochebuena table of 10 to 20 relatives is ordinary, and
+  life events are big (a First Communion averages about 50 guests in
+  consumer-association studies; a wedding about 116). Summer village
+  fiestas feed the whole village at a *cena popular*. [MEDIUM for the
+  communion and wedding figures, see entries; EDITORIAL for Nochebuena]
+- **Where (intake venues).** *Home indoor*: Nochebuena, Navidad,
+  Nochevieja and the Reyes merienda, usually the grandparents' piso,
+  with the living-room table extended. *Home outdoor*: the Sunday paella
+  at a chalet, village house or patio (see ENVIRONMENT, Meal outdoors at
+  home). *Restaurant*: First Communions almost always, and many
+  birthdays. *Other*: weddings at a *finca* or banquet venue; fiestas in
+  the village plaza on long trestle tables. [MEDIUM — Asociación
+  Española de Consumidores, bodas.net; EDITORIAL elsewhere]
+- **Table form and serving style.** One long table, often two tables
+  pushed together under one tablecloth, everyone seated. Home festive
+  meals are **shared from the centre**: platters of jamón, cheese and
+  seafood as *entrantes* for the whole table, then a main course plated
+  or carved at the table, then a tray of turrón and polvorones during a
+  long sobremesa. Paella is served from the pan at the table, and in
+  some families eaten straight from it. Weddings start with a standing
+  *cóctel* of small bites, then a seated banquet at round tables.
+  [MEDIUM — bodas.net; Sunday-paella sources; EDITORIAL]
+- **Plate and cutlery norms that differ from everyday.** A festive
+  tablecloth (often red or gold at Christmas), the good plates, a small
+  side plate for shellfish shells, seafood crackers and picks at
+  Christmas, small forks or toothpicks for jamón. Fork left, knife right
+  (see this file's place-setting override). [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most
+  authentic cues are: (1) the long table running out of frame with
+  shared *entrante* platters (jamón, seafood, cheese, croquetas) set
+  down the middle, more than the visible diners could finish; (2) the
+  late hour, warm lamp light and the remains of a long meal (shell
+  plates, a turrón tray, napkins dropped) that read as a sobremesa
+  going on beyond the frame; (3) extra folding chairs or a second,
+  mismatched table butted on. Blurred relatives stay within the
+  2.5-face limit. [EDITORIAL]
+
+#### Celebration: Christmas Eve and Christmas Day (Nochebuena, Navidad, Sant Esteve)
+- Type: calendar holiday.
+- When: Nochebuena dinner on 24 December, about 21:30 to midnight
+  (intake time evening); Christmas Day comida on 25 December, about 14:30
+  (midday); in Catalonia, a second big comida on 26 December (Sant
+  Esteve). [HIGH for dates; MEDIUM for hours, per the meal clock above]
+- Gathering: the extended family, about 10 to 20, at one home; home
+  indoor. [EDITORIAL; one chef family's ~20 is reported anecdotally]
+- The spread: *entrantes* first for the whole table: jamón (see catalog:
+  Jamón (serrano / ibérico) + pan con tomate), cured sausages, cheese,
+  croquetas (see catalog: Croquetas), and **seafood**: boiled red prawns
+  and langoustines on platters, crab. The main is most often seafood
+  (named by about 36% in an online-retailer survey) or **roast lamb**
+  (about 21%; suckling lamb or a leg, in an earthenware dish), with
+  turkey far behind (about 9%). [MEDIUM — Organizados.es survey via
+  Diario de Gastronomía, commercial tier] Regional mains: Catalonia's
+  *escudella i carn d'olla* (galets-pasta broth, then the boiled meats)
+  on Christmas Day and **canelones** (cannelloni filled with the leftover
+  meats, under béchamel and grated cheese) on Sant Esteve; cochinillo in
+  Castile. [HIGH for Catalan dishes — Bonviveur, Vilapress, several
+  agreeing sources] Sweets at the sobremesa: see catalog: Turrón and
+  polvorones (section E). A real table carries 6 to 10 shared platters.
+  No catalog entry exists for the Christmas seafood platter, roast lamb
+  (*cordero asado*), escudella or canelones; all added to CANDIDATE
+  QUEUE. The seafood platter reads as a 35 to 40cm oval platter of
+  glossy coral-red prawns (each about the can's height in length) and
+  langoustines in rows, lemon wedges; roast lamb as a golden, crackling-
+  skinned quarter in a 35cm earthenware *cazuela* with its juices.
+- Snapshot staging: **1 setting**: one plate with two red prawns and a
+  slice of jamón, a shell plate beside it, the seafood platter and jamón
+  plate cropped at the frame edge, a festive tablecloth. **2 settings**:
+  two identical plates of roast lamb with roast potatoes, the lamb
+  cazuela between them, the seafood platter partly cropped behind.
+  **Small group**: three or four settings at one end, entrante platters
+  crowding the centre, a turrón tray at the far edge. Cues: the table
+  running out of frame with more platters; a nativity *belén* or tree
+  blurred far behind (never in focus); late-night lamp light. [EDITORIAL]
+- Decor and cues: red or gold tablecloth, poinsettia (*flor de Pascua*),
+  the good glassware for water only. Avoid: US-style turkey dinners as
+  the default; snow kitsch.
+- Never stage: cava and the toast (the register's rule); wine bottles;
+  the King's televised speech legible on a screen; the belén as the
+  subject or with the product beside it.
+- Confidence and sources: MEDIUM to HIGH ([Diario de Gastronomía —
+  ¿Qué cenamos los españoles en Nochebuena?](https://diariodegastronomia.com/que-cenamos-los-espanoles-en-nochebuena/);
+  [eldiario.es — Comidas navideñas típicas por comunidades](https://www.eldiario.es/consumoclaro/comer/comidas-navidenas-tipicas-comunidades-autonomas_1_1183163.html);
+  [Bonviveur — Canelones de San Esteban](https://www.bonviveur.es/recetas/canelones-de-san-esteban);
+  [Vilapress — Sant Esteve](https://www.vilapress.cat/articulo/actualidad-general/2025-12-26/5714955-sant-esteve-fiesta-singular-calendario-catalan-celebramos-cual-tradicion));
+  EDITORIAL for staging.
+
+#### Celebration: New Year's Eve dinner (Nochevieja)
+- Type: calendar holiday.
+- When: 31 December, dinner from about 21:30, the 12 grapes at midnight
+  with the televised chimes; intake time evening.
+- Gathering: family or friends, about 6 to 15; home indoor. [EDITORIAL]
+- The spread: a dinner similar to Nochebuena (seafood, jamón, a roast
+  main), then **12 grapes** per person in a small bowl ready for
+  midnight; turrón and polvorones on the table. [HIGH for the grapes,
+  register; MEDIUM for the dinner, not separately searched this pass]
+- Snapshot staging: **1 setting**: a small bowl of 12 peeled or whole
+  green grapes in front of one plate, the can beside it, a turrón plate
+  and a cropped seafood platter behind. **2 settings**: two identical
+  grape bowls, the remains of dinner between. **Small group**: a row of
+  identical grape bowls continuing along the table beyond the frame,
+  the strongest crowd cue for this night. Cues: the grape-bowl row;
+  paper party hats and streamers; a TV glow far behind with no legible
+  screen. [EDITORIAL]
+- Decor and cues: gold and silver decor, streamers. Avoid: the red-
+  underwear custom (real, but off-brand); legible clock faces or year
+  numbers.
+- Never stage: the cava toast (the register's rule); fireworks near the
+  product.
+- Confidence and sources: HIGH for grapes (register); MEDIUM for dinner.
+
+#### Celebration: Three Kings merienda (Reyes, 5–6 January)
+- Type: calendar holiday.
+- When: the roscón is often eaten at breakfast on 6 January, which is
+  out of scope; stage it as the **afternoon merienda** on 5 or 6 January
+  (about 17:30 to 19:00; golden-hour into evening), per the register's
+  rule. Families also gather for the 6 January comida.
+- Gathering: grandparents, parents and children, about 6 to 12; home
+  indoor. [EDITORIAL]
+- The spread: see catalog: Roscón de Reyes (section E): one ring about
+  20 to 26cm, split and filled with whipped cream, candied fruit on top,
+  sliced into 4 to 5cm pieces; the hidden figurine is never shown. Hot
+  chocolate is the real companion and is out of frame (another drink).
+- Snapshot staging: **1 setting**: one dessert plate with a cream-filled
+  roscón slice, the cut ring on its board behind, the paper crown that
+  comes with it folded at the edge. **2 settings**: two identical slices,
+  the ring between them. **Small group**: slices at three or four
+  settings, a second (larger) roscón soft at the far end. Cues: the
+  gold paper crown; unwrapped gifts and wrapping paper on a sofa behind;
+  extra chairs. [EDITORIAL]
+- Decor and cues: wrapping paper, the paper crown. Avoid: the cabalgata
+  (parade) floats as the scene; children's faces sharp.
+- Never stage: hot chocolate or coffee cups in frame; a child as the
+  drinker.
+- Confidence and sources: MEDIUM (register and catalog entry); EDITORIAL
+  for staging.
+
+#### Celebration: Sunday family paella (comida familiar del domingo)
+- Type: community or family gathering (weekly; larger in summer).
+- When: Sunday comida, about 14:00 to 16:00, followed by a long
+  sobremesa; intake time midday (summer shade at a chalet reads
+  midday too).
+- Gathering: grandparents, adult children and grandchildren, about 6 to
+  14; home outdoor (chalet patio, village house, Valencian huerta) or
+  home indoor; a beach-town restaurant terrace is the restaurant
+  variant. [MEDIUM — Sunday paella sourcing; ENVIRONMENT scenarios]
+- The spread: the **paella** in its wide pan, cooked outdoors over a gas
+  paellero or wood fire and carried to the table (see catalog: Paella
+  and arroces; never silently seafood, never chorizo), preceded by a
+  few shared entrantes (see catalog: Aperitivo spread; a salad; jamón).
+  Paella is described as the typical Sunday family dish, sometimes eaten
+  straight from the pan. [MEDIUM — Fuerte Hoteles and food sources;
+  a La Fallera brand study (commercial) says three in four Spaniards see
+  paella as a dish that brings people together] Shared vessels: the pan
+  (about 36 to 48cm for 6 to 11 servings, 50 to 70cm for 11 to 20, per
+  the SPANISH VESSEL & SCALE REFERENCE), a salad
+  bowl, a bread basket, 2 or 3 entrante plates.
+- Snapshot staging: **1 setting**: one plate of paella with a lemon
+  wedge, the big pan cropped at the top edge on a trivet, a salad bowl
+  beside it. **2 settings**: two identical plates either side of the pan's
+  near edge. **Small group**: three or four settings round the near half
+  of the pan, the far half and the table soft and out of frame; or, in
+  the eat-from-the-pan register, wooden spoons resting on the pan rim
+  at each setting. Cues: the pan wider than the visible diners need; the
+  paellero and its gas ring soft in the background; a vine pergola or
+  awning shade; a pool edge or white wall. [EDITORIAL]
+- Decor and cues: oilcloth or cotton tablecloth, plastic or wooden
+  garden chairs, summer shade. Avoid: flamenco or bullfight props;
+  "tourist paella" with every seafood on top.
+- Never stage: wine, beer or tinto de verano (rule 3); the after-meal
+  liqueur at the sobremesa.
+- Confidence and sources: MEDIUM ([Fuerte Hoteles — Tipos de
+  paella](https://blog.fuertehoteles.com/comer-y-beber/recetas-de-paella-espanola/);
+  [Gastronomía y Moda — La paella, el plato que más une](https://gastronomiaymoda.com/la-paella-el-plato-que-mas-une-a-los-espanoles-el-85-cree-que-ayuda-a-reconciliarse-tras-un-conflicto/),
+  reporting a brand study); the Sunday-lunch framing is already
+  MEDIUM-HIGH in this file's ENVIRONMENT section.
+
+#### Celebration: Village fiesta communal dinner (fiestas del pueblo, cena popular)
+- Type: community or family gathering (summer, especially August).
+- When: evening, from about 21:30 into the verbena (intake time evening;
+  golden-hour for the paella cook-off in the late afternoon).
+- Gathering: the whole village and returning summer families, from
+  dozens to several hundred, at long trestle tables in the plaza or
+  sports ground (venue: other). Peñas (groups of friends in matching
+  shirts) sit together. Councils often supply tables, chairs and
+  firewood for a communal paella day. [MEDIUM — municipal fiesta
+  programmes and local press]
+- The spread: a **giant paella** (pans one to several metres across,
+  cooked over wood fires) served onto plates, or a *cena popular* where
+  each group brings tortillas, embutidos and salads; grilled sausages and
+  bocadillos at the stalls. See catalog: Paella and arroces; Tortilla de
+  patatas; Bocadillo family. [MEDIUM]
+- Snapshot staging: **1 setting**: one plastic or paper plate of paella
+  on a paper-covered trestle table, the can beside it, a tortilla on a
+  plate and a bread bag next to it, the table running away to a soft
+  vanishing point. **2 settings**: two identical plates side by side on
+  the trestle, shared tortilla between. **Small group**: three or four
+  plates on one stretch of the long table. Cues: the trestle table
+  leaving frame in both directions; strings of small coloured flags
+  overhead; the stage lights of the verbena far behind; blurred peña
+  shirts (no legible text). [EDITORIAL]
+- Decor and cues: paper tablecloths, plastic chairs, flag strings,
+  church-tower silhouette fine as background. Avoid: bull events (never),
+  legible peña names.
+- Never stage: the bar stall and its plastic beer cups; the procession
+  of the patron saint; fireworks near the product.
+- Confidence and sources: MEDIUM ([Objetivo Castilla-La Mancha — Verbena,
+  paella popular](https://objetivocastillalamancha.es/contenidos/verbena-paella-popular-conciertos-reconocimientos-recta-final-fiestas-jesus-perdon);
+  [La Marina — El Verger fiestas patronales](https://lamarina.eldiario.es/evento/el-verger-fiestas-patronales-festes-programacion-celebran-del-7-al-16-de-agosto/));
+  EDITORIAL for staging.
+
+#### Celebration: First Communion banquet (Primera Comunión)
+- Type: life event (religious milestone; staging is the meal only).
+- When: April to June weekends; a restaurant comida after the church
+  service, about 14:00 to 17:00 (intake time midday).
+- Gathering: about 20 to 60 guests, with about 50 a common reference in
+  consumer studies; the average total cost is put above €5,600, with the
+  banquet the largest item. A restaurant salon or a finca (restaurant).
+  [MEDIUM — Asociación Española de Consumidores study via El Debate and
+  its own release]
+- The spread: shared entrantes (jamón, croquetas, prawns, cheese; see
+  catalog: Jamón, Croquetas, Gambas al ajillo) then a plated main
+  (sirloin, lamb or fish), then a decorated communion cake. A children's
+  table with a simpler menu is common. [MEDIUM for the banquet format,
+  restaurant and consumer sources; EDITORIAL for the menu detail]
+- Snapshot staging: **1 setting**: one plated main on a white-clothed
+  round or long table, an entrante platter of jamón cropped beside,
+  a white-and-pastel flower centrepiece. **2 settings**: two identical
+  plates, the centrepiece between. **Small group**: three or four
+  settings, the entrante platters crowding the middle, a second table
+  soft behind. Cues: white table linen and pastel decor; blurred guests
+  in formal spring clothes; the cake table soft in the background. The
+  child honoree (about 8 to 10) is never shown with the product.
+  [EDITORIAL]
+- Decor and cues: white flowers, pastel ribbons. Avoid: the communion
+  dress or suit as the subject.
+- Never stage: the church service, chalice or host; wine; the child
+  honoree as the drinker.
+- Confidence and sources: MEDIUM ([El Debate — El coste de la Primera
+  Comunión supera los 5.600 euros](https://www.eldebate.com/economia/20250323/coste-primera-comunion-supera-5600-euros-media-llega-alcanzar-13500_279580.html);
+  [Asociación Española de Consumidores — nota de prensa](https://www.consumoenpositivo.es/nota-de-prensa/segun-estudio-de-la-asociacion-espanola-de-consumidores-una-comunion-media-supera-los-5600-euros/));
+  EDITORIAL for staging.
+
+#### Celebration: Wedding banquet (boda)
+- Type: life event.
+- When: May to October; the banquet is a late comida (about 15:00 to
+  18:00, golden-hour) or a cena (from about 21:30, evening), with dancing
+  and a late-night snack after.
+- Gathering: about 116 guests on average (bodas.net Informe del Sector
+  Nupcial 2025); a finca, hotel or banquet venue, round tables of about
+  10 (venue: other). [MEDIUM — bodas.net, an industry platform, flagged
+  per §6]
+- The spread: two stages. A standing **cóctel** of small bites (croquetas,
+  jamón carved at a station, small spoons, mini burgers, rice stations),
+  then a seated banquet: a starter, a fish and/or meat main, the wedding
+  cake. [MEDIUM — bodas.net]
+- Snapshot staging: **1 setting** (banquet): one plated main at a white-
+  clothed round table, a tall floral centrepiece partly cropped, a blank
+  menu card. **2 settings**: two identical plates on one arc of the
+  table. **Small group**: three or four settings, a second round table
+  soft behind. Cóctel variant: a small plate with two croquetas and a
+  jamón slice on a high table, the jamón-carving station blurred behind.
+  Cues: round-table curve leaving frame; string lights in a finca
+  courtyard; blurred guests in formal clothes. [EDITORIAL]
+- Decor and cues: olive-tree or bougainvillea finca settings, string
+  lights. Avoid: flamenco costume as the default.
+- Never stage: the open bar (*barra libre*), cava toasts, wine on the
+  table, the gin-tonic station.
+- Confidence and sources: MEDIUM ([bodas.net — Cuánto cuesta una boda en
+  España](https://www.bodas.net/articulos/cuanto-cuesta-casarse--c841);
+  [bodas.net — Cuánto cuesta un banquete](https://www.bodas.net/articulos/cuanto-cuesta-banquete-boda--c8700));
+  EDITORIAL for staging.
+
+#### Celebration: Birthday (cumpleaños)
+- Type: life event.
+- When: children's parties are an afternoon **merienda** (about 17:30 to
+  19:30, golden-hour); adult birthdays are a family comida at home or a
+  restaurant (midday) or a dinner out with friends (evening).
+  [LOW — not verified this pass; consistent with the meal clock]
+- Gathering: children's party: classmates at a play centre, park or
+  home, 10 to 25 children; family birthday: 6 to 12 at home or a
+  restaurant. [LOW — not verified this pass]
+- The spread: children's merienda: small sandwiches (*sándwiches de
+  jamón york y queso*), crisps (see catalog: Aperitivo spread), tortilla
+  pieces, sweets and a birthday cake; adult family comida: a shared
+  picoteo of entrantes then a main or a paella. [LOW — general
+  knowledge, not verified this pass]
+- Snapshot staging: **1 setting**: one paper plate with two sandwich
+  triangles, a wedge of tortilla and a few crisps on a party table, the
+  cake partly cropped. **2 settings**: two identical plates, a crisps
+  bowl and sandwich tray between. **Small group**: three or four plates,
+  the cake with candles in the midground. Cues: balloons, a paper
+  tablecloth, blurred guests (no sharp faces). [EDITORIAL]
+- Decor and cues: balloons, garlands. Avoid: legible name banners;
+  licensed characters.
+- Never stage: a child as the drinker; beer at an adult birthday.
+- Confidence and sources: LOW — not verified this pass (GAP LOG);
+  EDITORIAL for staging.
+
+---
+
+## GAME NIGHT
+
+Schema §5.8 and file-wide rules 1 to 5 apply to every entry: screens,
+cards, boards and tiles are never legible (rule 1); the brief dictates
+the SKU (rule 2); no other drinks in frame (rule 3: caña, wine, vermut,
+coffee and the after-meal liqueur are all real at these occasions);
+nothing held in a hand (rule 4). No crests, kits, sponsor marks or league
+logos; no betting slips, odds screens, betting apps or money on the
+table (sports betting is heavily advertised in Spain [LOW — not
+verified]); party size is the place settings in frame, the crowd implied
+(§5.7); no identifiable children; a 21:00 kick-off is a night scene.
+Existing lines this section builds on rather than repeats: the
+**Football in a bar** and **Stadium stands** rows in CROSS-CUTTING
+REGISTER: COCA-COLA MOMENTS (raciones and bocadillos at the bar; a
+bocadillo in foil and pipas in the stands), and catalog: F. Snacks, Pipas.
+
+### Watch parties
+
+Football is the viewing occasion, and Spain's distinctive form is the
+**neighbourhood bar**: 39% of fans (about 3.3 million) watch each
+matchday in bars and cafés, 84% of them men aged 25 to 64 [MEDIUM —
+Barlovento/PuroMarketing]. El Clásico is the peak league game (2.37
+million viewers and an 18.8% share on 10 May 2026 [MEDIUM — eldiario.es])
+and the Selección draws the biggest home and terraza audiences in
+tournament summers. Signature viewing foods are raciones on small plates
+at the bar (patatas bravas, croquetas, tortilla wedges), bocadillos,
+pipas, and a home picoteo of jamón, cheese and tortilla. Because Spanish
+dinner runs about 21:00 to 22:30 (GENERAL NORMS), a 21:00 match is the
+dinner itself.
+
+#### Watch party: LaLiga matchday at the neighbourhood bar
+- When: August to May, weekend afternoons and evenings; kick-offs are
+  spread across the day, with the prime slot at 21:00 [LOW — not
+  verified, model knowledge for the exact slots]. Intake time evening
+  (dinner time, artificial light, dark outside in winter; dusk in late
+  summer).
+- Gathering: the operator's party is 1 to 3 at the counter or a small
+  table; the bar around them is busy with regulars, mostly men [MEDIUM —
+  Barlovento]. Venue: restaurant (bar).
+- The spread: raciones on small white plates or in clay cazuelas on the
+  counter: patatas bravas (see catalog: Patatas bravas), croquetas (see
+  catalog: Croquetas), a tortilla wedge (see catalog: Tortilla de
+  patatas), a bocadillo cut in half (see catalog: Bocadillo family), a
+  free tapa of olives or crisps (see catalog: Aperitivo spread) [MEDIUM
+  — the existing Football in a bar row; specific raciones EDITORIAL].
+- Surface and environment: a steel or marble bar counter with paper
+  napkins (the dispenser blurred, per rule 1), a TV high on the wall as an
+  out-of-focus green glow, a plain scarf at most, tiled walls, warm
+  overhead light. Coca-Cola in a glass with ice and lemon is a real bar
+  serve if the brief allows a glass (see GAP LOG on its sourcing).
+- Snapshot staging: **1 setting**: one small plate of bravas and a
+  croqueta plate on the counter edge, the TV glow high and soft behind.
+  **2 settings**: two identical small plates, a shared cazuela of
+  croquetas between them. **Small group**: a small table with three
+  plates and two shared raciones, other tables and the counter soft
+  behind, blurred backs of heads toward the screen (no more than about
+  2.5 faces, none sharp).
+- Never stage: cañas, beer taps, wine, vermut or coffee cups on the
+  counter (the strongest priors; prompt "no beer, no other drinks"); a
+  legible screen, chalkboard or price card; club kits or crests;
+  betting terminals or apps. **The bar is drink-heavy in reality;
+  stage it only as this food-led, alcohol-free counter scene.**
+- Confidence and sources: MEDIUM for bar viewing ([PuroMarketing — TV in
+  bars during LaLiga](https://www.puromarketing.com/39/30792/social-media-bares-claves-para-anunciantes-lleguen-consumidores-durante-liga);
+  [Barlovento — football on TV](https://barloventocomunicacion.es/informes-barlovento/el-futbol-en-television-la-liga-de-las-audiencias/));
+  LOW for kick-off slots; EDITORIAL for staging.
+
+#### Watch party: El Clásico at home with friends
+- When: two league meetings a season plus cup games; the 10 May 2026
+  game was on a Sunday [MEDIUM — eldiario.es]. Evening kick-offs are
+  typical [LOW — not verified]; intake time evening.
+- Gathering: 4 to 8 friends or family in a piso living room; home
+  indoor. A young-adult flat-share is as plausible as a family home
+  (see ENVIRONMENT).
+- The spread: a picoteo on the coffee table: jamón on a plate (see
+  catalog: Jamón), cheese wedges, a tortilla cut into squares with
+  toothpicks (see catalog: Tortilla de patatas), crisps and olives (see
+  catalog: Aperitivo spread), a pizza delivery box [LOW — not verified;
+  the notes' editorial spread, consistent with the picoteo line in
+  ENVIRONMENT].
+- Surface and environment: a low coffee table or the extended dining
+  table turned toward the TV; shutters, a tiled floor, a sofa; the TV a
+  soft green blur. Fans of both clubs in one room is a real dynamic;
+  show it with neutral clothes, never kits.
+- Snapshot staging: **1 setting**: one small plate with two tortilla
+  squares and a slice of jamón at the coffee-table edge, the jamón plate
+  and an olive bowl beside it. **2 settings**: two identical plates, the
+  shared plates between them. **Small group**: three or four plates, more
+  shared plates than needed, the pizza box cropped, blurred figures on
+  the sofa facing the screen.
+- Never stage: either club's crest, colours worn as kits, or sponsor
+  marks; beer; a legible screen; betting apps.
+- Confidence and sources: MEDIUM for audience ([eldiario.es — Barcelona–Real
+  Madrid audience, 10 May 2026](https://www.eldiario.es/vertele/audiencias-tv/domingo-10-mayo-2026-barcelona-real-madrid-mas-visto-dia-2-millones-supervivientes-divide-maquillar-dato_1_13210479.html));
+  LOW for the spread; EDITORIAL for staging.
+
+#### Watch party: Selección tournament night (terraza or home)
+- When: June to July in Euro and World Cup years; evening games under a
+  late summer sunset (Madrid sunset about 21:00 to 21:50 in June, per
+  GENERAL NORMS), so a 21:00 kick-off starts at dusk and ends in the
+  dark. Games of the 2026 World Cup in North America landed in the
+  Spanish evening or late night [LOW — arithmetic].
+- Gathering: family or friends at home, or a group at a bar terraza with
+  a screen outside; big screens in plazas are reported for big games
+  [LOW — not verified]. Venue: home indoor or outdoor (patio, terrace),
+  restaurant (terraza).
+- The spread: as the Clásico picoteo at home, or raciones on the terraza
+  table (see the bar entry); summer additions: a gazpacho or salmorejo
+  (see catalog: Gazpacho vs. salmorejo), ensaladilla rusa (see catalog:
+  Ensaladilla rusa) [LOW — EDITORIAL].
+- Surface and environment: a square aluminium terraza table on a plaza
+  at blue hour, a screen soft and out of focus under an awning; or a
+  home terrace table with string lights. A red-and-yellow paper garland
+  or a cropped stripe at most; never a full flag (reviewer ruling,
+  §5.7).
+- Snapshot staging: **1 setting**: one small plate of ensaladilla and a
+  croqueta plate on the terraza table, the screen glow soft behind.
+  **2 settings**: two identical plates, two shared raciones between them.
+  **Small group**: three or four plates, a second table pushed against
+  the first, blurred figures facing the screen.
+- Never stage: beer, tinto de verano or other drinks on the terraza;
+  national kits with crests or sponsor marks; a legible screen;
+  identifiable children with face paint.
+- Confidence and sources: LOW for venues and spread; EDITORIAL for
+  staging.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. Card
+games (mus, brisca, tute) are played at the long sobremesa and in bars,
+with mus "very common in bars and competitions"; parchís and dominoes
+are the most-played tabletop games, mainly among older adults
+[LOW-MEDIUM — Spanish regional press]. The long sobremesa itself is
+enjoyed weekly by most people [MEDIUM — Mallorcadiario survey]. Bingo
+halls exist but are gambling and are not staged [LOW].
+
+#### Game night: cards at the sobremesa (mus, brisca, tute)
+- When: after Sunday or holiday lunch, at the sobremesa, about 16:00 to
+  18:00; intake time midday (the late Spanish lunch). Mus in a bar is
+  the golden-hour variant [MEDIUM — the notes' card-game timing].
+- Gathering: four players in pairs (mus and tute), with onlookers; family
+  at home (home indoor) or older men at a bar's marble table
+  (restaurant). Prefer the family-home version: it avoids the bar's
+  drinks and its male-only crowd.
+- The spread: the cleared lunch table's remnants: a bread basket, a fruit
+  bowl, a plate of turrón or polvorones in season (see catalog: E.
+  Desserts & festival sweets), a leftover tortilla wedge; at the bar,
+  olives, croquetas or bravas (see catalog: Croquetas, Patatas bravas)
+  [LOW — the notes' editorial spread; consistent with the Sobremesa at
+  home row in COCA-COLA MOMENTS].
+- Surface and environment: a tablecloth with crumbs, shutters half down
+  and slatted afternoon light; a Spanish-suit deck (generic card faces
+  are fine) with the cards fanned or face-down, never readable as a
+  hand; at the bar, a small marble table.
+- Snapshot staging: **1 setting**: one small plate with a slice of fruit
+  or a piece of turrón beside a face-down pile of cards. **2 settings**:
+  two identical small plates, the fruit bowl between them, cards in the
+  middle of the table. **Small group**: four places around a square of
+  table, the bread basket and dessert tray cropped, onlookers as soft
+  shapes behind.
+- Never stage: coffee cups, the after-meal liqueur or wine (rule 3; all
+  real at a sobremesa); money or stakes; printed brand decks; the bar
+  counter with beer.
+- Confidence and sources: LOW-MEDIUM ([El Periódico de Yecla — card
+  games](https://elperiodicodeyecla.com/juegos-de-cartas-mas-populares-espana/);
+  [Soria Noticias](https://sorianoticias.com/noticia/2023-08-22-estos-son-los-juegos-de-cartas-mas-populares-en-espana-103300);
+  [Mallorcadiario — sobremesa survey](https://www.mallorcadiario.com/tapas-sobremesa-y-siesta-asi-late-la-cultura-cotidiana-que-mas-seduce-y-resiste-en-espana));
+  EDITORIAL for staging.
+
+#### Game night: parchís or dominoes with the grandparents (merienda)
+- When: summer afternoons into evening on a terrace or patio, or a
+  winter afternoon at home; intake time golden-hour [LOW — not verified
+  for timing].
+- Gathering: grandparents with adult children or older neighbours, 2 to
+  4 players; home outdoor (terrace, patio, village house) or home indoor.
+  Older men at a bar or *hogar del jubilado* (seniors' centre) are the
+  public form [LOW].
+- The spread: a merienda: a bocadillo cut in pieces (see catalog:
+  Bocadillo family), a bowl of nuts or kikos (see catalog: F. Snacks,
+  Frutos secos), a fruit plate [LOW — the notes' editorial spread, which
+  also lists churros; they are left out here because this file keeps
+  churros in the off-by-default Morning Module].
+- Surface and environment: a plastic or wrought-iron terrace table, a
+  plain parchís board (four-colour cross, generic) or white dominoes
+  laid in a line; potted geraniums, a whitewashed wall, late sun.
+- Snapshot staging: **1 setting**: one plate with half a bocadillo beside
+  the domino line. **2 settings**: two identical plates, a nut bowl
+  between them, the board in the centre. **Small group**: four plates
+  round the table edge, the board in the middle, a second chair at the
+  frame edge.
+- Never stage: branded boards; money on the table; identifiable
+  grandchildren; beer or coffee.
+- Confidence and sources: LOW-MEDIUM for the games' popularity (regional
+  press); LOW for timing and spread; EDITORIAL for staging.
 
 ---
 
@@ -1939,6 +2794,33 @@ level, since none of these surfaced as contested or surprising.*
   schema** (per `country-file-schema.md` §4) if a future brief needs deep
   staging detail on any of them specifically.
 
+- **Celebrations pass (2026-10-01) open items.** The birthday entry is LOW
+  throughout (no searches spent; general knowledge). The Nochebuena main-
+  dish shares (seafood ~36%, lamb ~21%, turkey ~9%) come from one online-
+  retailer survey reported by Diario de Gastronomía, not a national
+  statistic. Headcounts for Nochebuena, Nochevieja, Reyes and the Sunday
+  paella are editorial. Communion (about 50 guests) and wedding (about
+  116) figures are consumer-association and industry-platform data read
+  in search summaries. The Nochevieja dinner menu beyond the grapes was
+  not separately verified.
+- **Game-night pass (2026-10-01) open items.** Not verified: LaLiga and
+  Clásico kick-off slots; big screens in plazas for Selección games; the
+  home picoteo and terraza spreads; the prevalence of sports betting;
+  the merienda spread and timing for parchís and dominoes. The bar-
+  viewing share (39%, 3.3 million) is Barlovento data read via
+  PuroMarketing; card-game popularity rests on Spanish regional press
+  (LOW-MEDIUM). The bar's Coca-Cola glass-with-ice-and-lemon serve is
+  still unsourced for Spain (see the brand-file note above).
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  (search summaries only, no pages read): piso interior markers still
+  rest on the scaffold (persianas, galería, butane cylinder) plus
+  tile-maker pages; the mesa camilla is LOW; chalet patio prevalence of
+  built-in barbecues and pools rests on rental listings; terraza furniture
+  on supplier pages, and brewery-branded parasols as common is LOW; the
+  village-fiesta background search returned nothing usable (background is
+  editorial on the CELEBRATIONS sources); slot machines in bars LOW.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on the 237mL Coca-Cola bottle's exact dimensions,
@@ -1958,6 +2840,14 @@ level, since none of these surfaced as contested or surprising.*
    image tests (two or more generations per prompt), starting with
    tortilla, paella, bravas, and croquetas — the four dishes this pass
    was able to verify most thoroughly.
+7. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): Christmas seafood platter (*mariscada*: red prawns,
+   langoustines, crab); roast lamb (*cordero asado* / lechazo) and
+   cochinillo; *escudella i carn d'olla* (zone 3); *canelones de Sant
+   Esteve* (zone 3); children's party merienda.
+8. Game-night foods with no catalog entry (game-night pass 2026-10-01):
+   home picoteo board (cheese wedges, tortilla squares on toothpicks) as a
+   compact entry; pizza delivery as eaten at home (no Spain entry yet).
 
 ## RESEARCH LOG
 
@@ -2047,3 +2937,26 @@ level, since none of these surfaced as contested or surprising.*
   spot-checks (pintxo/Basque-specificity, paella/Valencia-anchoring)
   the task specifically requested — see FILE ROLE & METHOD above and
   `DECISIONS.md`.
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (Nochebuena
+  main-dish survey, First Communion guests and cost, wedding guest
+  numbers, Sunday family paella, village fiesta communal dinners, Sant
+  Esteve canelones and escudella). Added CELEBRATIONS & LARGE GATHERINGS
+  after the FESTIVALS register with 8 entries: Nochebuena/Navidad/Sant
+  Esteve, Nochevieja, Reyes merienda, Sunday family paella, village
+  fiesta cena popular, First Communion, wedding, birthday. WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  three watch-party entries (LaLiga matchday at the neighbourhood bar,
+  staged food-led and alcohol-free; El Clásico at home; Selección
+  tournament night on a terraza or at home) and two social game-night
+  entries (cards at the sobremesa; parchís or dominoes with the
+  grandparents). Points to the existing Football in a bar and Stadium
+  stands rows and the Pipas entry rather than repeating them. Bingo halls
+  recorded as not staged.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 7
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table: piso
+  living-dining room and kitchen, chalet or village-house patio (balcony
+  and azotea variants), neighbourhood bar, menú-del-día dining room, plaza
+  terraza, village fiesta long tables. WebSearch only; no pages read at
+  source.

@@ -149,6 +149,374 @@ making a scene look unnatural.
 | **Pie-and-mash shop (East London-coded)** | White/green tiled walls, marble-topped tables, wooden bench seating, mirrors — a distinctive, well-documented register. Genericize any real named shop per §7.5. |
 | **Bakery-chain counter** | A high-street bakery selling sausage rolls, pasties, and other pastry snacks in paper bags — genericize the chain name. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used UK staging venues: the
+terraced or semi-detached kitchen-diner, the living room set up for a
+takeaway or watch party, the back garden patio, the gastropub, the
+traditional pub, and the chippy. Scotland's deltas (tenement kitchen,
+Scottish pub) are in `uk-scotland.md`. National default zone: an English
+town or city outside London (see ZONE CHARACTERIZATION). File-wide rules
+hold in every profile: nothing legible (chalkboards are the top UK trap,
+see VISUAL & PLATING NORMS), no alcohol cues (the beverage-leak note), no
+brand marks, never a full flag, no identifiable children, no more than
+about 2.5 background faces and none sharp; the brief dictates the SKU.
+
+#### Venue: Terraced or semi-detached kitchen-diner (home, indoor)
+- Use for: home indoor; casual lunch (1, 2, 3), dinner at home, Sunday
+  roast and Christmas or Easter at home (with the table extended); the
+  national default home interior. Terraced houses are the most common
+  English dwelling (29%), semi-detached close behind (25%) [HIGH — English
+  Housing Survey, see ENVIRONMENT & STAGING SCENES].
+- Soft background (the core): behind the table, a run of fitted kitchen
+  units reads as a long horizontal band: pale wood-effect, white gloss,
+  sage or grey Shaker doors, with a laminate or wood worktop carrying an
+  electric kettle, a toaster, a knife block, a fruit bowl and a few jars
+  as small rounded shapes [MEDIUM-HIGH — consistent with the kitchen-details
+  note in ENVIRONMENT]. Under the counter, the round glass door of a
+  front-loading washing machine is the signature British shape. A white
+  panel radiator sits under the window. The back window or glazed back door
+  (uPVC double glazing in white frames, or bi-fold or French doors in a
+  knocked-through or extended terrace) shows a narrow back garden as a
+  soft green and grey field: a wooden or panel fence, a shed roof, the
+  backs of the neighbouring terrace in red or brown brick
+  [MEDIUM — knock-through and rear-extension layouts per Real Homes and
+  homeowner forums; Wikipedia, byelaw terraced house]. In a knocked-through
+  Victorian terrace, a chimney breast or fireplace alcove can read on one
+  wall, sometimes painted a darker accent colour. Walls: off-white,
+  magnolia, light grey or a soft heritage colour. Fridge door with magnets
+  and a calendar (illegible), a wall clock, a tea towel over the oven door
+  handle. Light: grey-white diffuse daylight from the rear window most of
+  the year (overcast is the default), a warm ceiling spotlight grid or a
+  single pendant over the table in the evening, under-cabinet strip glow.
+  Palette: off-white, pale wood, sage or grey, stainless steel, the green
+  of the garden. Signature shapes: the kettle silhouette on the worktop,
+  the round washing-machine door, the white radiator under the window, the
+  rectangular fence-and-shed view through the glass. Density: lived-in and
+  slightly cluttered, modest, not a show kitchen [EDITORIAL]. People cues:
+  one blurred figure at the counter (making tea, at the hob) at most.
+- Shell: two-storey brick house; the kitchen at the back, often in a
+  narrow rear projection (the "back addition") or knocked through into the
+  dining room; low-to-standard ceilings with spotlights or a single
+  pendant; vinyl, laminate or tiled floor [MEDIUM].
+- The table as set here: a small rectangular or round wooden or white
+  table for four, bare or with placemats (cork or wipe-clean), a
+  tablecloth only for Sunday roast and festive meals; salt and pepper,
+  a bottle of brown or tomato sauce with the label turned away (see the
+  trademark list); everyday white or patterned stoneware plates;
+  mismatched or matching wooden or upholstered chairs, chair backs
+  cropped at the frame edge [EDITORIAL].
+- Subregional variants and the national default: northern towns and
+  Welsh valleys: smaller rear kitchen, stone or dark brick outside the
+  window, a back yard rather than a lawn. 1930s suburban semi: a separate
+  dining room with a bay window, a lawn and patio outside. London flat or
+  flatshare: a galley kitchen with a small table or a breakfast bar,
+  a balcony or other buildings through the window (see the Gen Z note).
+  Scotland: tenement flat, see `uk-scotland.md`. National default: a
+  modest kitchen-diner at the back of a brick terrace or semi, overcast
+  light, a narrow garden through the window.
+- Hallucination traps: a huge American open-plan kitchen with an island
+  and double-door fridge; a farmhouse Aga and copper pans in every
+  kitchen; chintz and "olde tea shop" twee; Union Jack tea towels and
+  mugs; a London skyline or red bus through the window; harsh golden sun
+  as the default; a US-style dishwasher-and-garbage-disposal layout with
+  no washing machine in the kitchen.
+- Never stage: wine bottles or glasses on the worktop or table; legible
+  calendar, fridge notes or jar labels; branded appliances or packaging.
+- Prompt-ready line: "A modest British terraced-house kitchen-diner: the
+  table sharp in front, behind it a soft run of sage fitted units with a
+  kettle on the worktop, a round front-loader door under the counter,
+  a white radiator below a double-glazed window and a narrow fenced garden
+  blurred in grey daylight."
+- Confidence and sources: MEDIUM overall; HIGH for the housing mix (EHS);
+  MEDIUM for knock-through and rear-extension layouts ([Real Homes —
+  terraced house design](https://www.realhomes.com/design/terraced-house-design);
+  [Wikipedia — Byelaw terraced house](https://en.wikipedia.org/wiki/Byelaw_terraced_house));
+  EDITORIAL for density and staging.
+
+#### Venue: Living room set up for a takeaway or watch party (home, indoor)
+- Use for: home indoor; Friday-night takeaway, England tournament night,
+  Premier League weekend, Six Nations, Christmas board games (see GAME
+  NIGHT); 1, 2 or a small group around a coffee table. The UK's top
+  tournament-viewing choice is at home with family [MEDIUM — Samsung UK
+  survey, see GAME NIGHT].
+- Soft background (the core): the TV on a low media unit or wall bracket
+  reads only as a soft rectangle of green or diffuse colour with no detail.
+  A two- or three-seat fabric sofa in grey, navy or oatmeal runs out of
+  frame with a throw and two or three cushions; blurred backs of heads
+  toward the screen within the people limit. Behind or beside: a chimney
+  breast with a simple fire surround or an electric fire, a mantelpiece
+  with a few soft objects (candles, cards, a clock); a white radiator; a
+  bay or double-glazed window with curtains or blinds, dark outside for an
+  evening game or grey daylight at a weekend lunchtime; a floor lamp or
+  table lamp with a fabric shade as the warm glow. Walls: off-white, grey
+  or a single darker feature wall; a framed print or mirror. Palette:
+  greys and oatmeal, warm lamp amber against the cool TV glow. Signature
+  shapes: the low coffee table with open pizza boxes and foil trays, the
+  sofa arm and cushions, the lamp's glowing shade, the TV's soft rectangle,
+  the radiator under the window. Density: modest and slightly cluttered
+  (remote, phone, a folded blanket) [EDITORIAL; consistent with GAME
+  NIGHT].
+- Shell: front room of a terrace or semi, often with a bay window; carpet
+  or laminate with a rug; standard ceiling with a pendant or ceiling light
+  switched off in favour of lamps at night [EDITORIAL].
+- The table as set here: a low wooden or white coffee table; takeaway
+  boxes and foil trays with lids off, poppadoms, a crisp bowl, side plates
+  or dinner plates on laps; kitchen roll instead of napkins; an extra dining
+  chair pulled in at the edge for a group [EDITORIAL].
+- Subregional variants and the national default: flatshare living room
+  (a smaller sofa, a mix of chairs, a laptop mirrored to the TV); Wales in
+  the Six Nations (a red-toned throw or plain red bunting at most).
+  National default: a terrace front room at night, lamp and TV glow.
+- Hallucination traps: a US "man cave" with a sectional sofa, recliners,
+  neon and a bar; a giant wall of screens; team flags draped across walls;
+  lager cans and multipacks on the coffee table (the strongest prior);
+  golden-hour light for a night kick-off.
+- Never stage: beer, crests, kits or sponsor marks, a legible screen or
+  score bug, betting apps or a sweepstake sheet with names and money, a
+  full St George's Cross or Union Jack, identifiable children.
+- Prompt-ready line: "A British front room at night: the coffee table
+  sharp with open takeaway boxes, behind it a grey fabric sofa running out
+  of frame, a warm table-lamp glow, a white radiator under curtained
+  windows and the TV only a soft green blur."
+- Confidence and sources: MEDIUM for home viewing (GAME NIGHT sources);
+  EDITORIAL for the room, consistent with ENVIRONMENT; no new search this
+  pass.
+
+#### Venue: Back garden patio (home, outdoor)
+- Use for: home outdoor; summer lunch or barbecue, garden birthday party,
+  a back-garden projector screening; 1 to small group; seasonal, weather
+  contingent. Not universal: 12% of GB households (21% in London) have no
+  garden [HIGH — ONS, see ENVIRONMENT].
+- Soft background (the core): a narrow, long rectangle bounded by
+  close-board or lap-panel wooden fences in orange-brown or painted
+  sage, grey or black, with climbing plants or a trellis; a small lawn,
+  sometimes patchy; a timber shed at the far end as a soft brown box; a
+  rotary washing line folded or a wheelie bin at the edge; the brick backs
+  and windows of the neighbouring terrace and the house's own back wall
+  with a uPVC door [MEDIUM — EDITORIAL from ENVIRONMENT and the meal-outdoors
+  scenario; garden-furniture retail sources]. The barbecue (charcoal kettle
+  or gas grill) as a dark rounded shape with a thin plume of smoke. Light:
+  overcast white sky as the default, soft shadowless light; a bright
+  summer day is real but seasonal; long June evenings give a low warm
+  light after 20:00; solar fairy lights or festoon lights along the fence
+  for an evening scene. Palette: green lawn and pots, brown fence, grey
+  paving, red or yellow brick. Signature shapes: the fence-panel grid, the
+  shed roof, the round parasol canopy, a kettle barbecue, the neighbours'
+  back windows.
+- Shell: grey or buff concrete or sandstone-effect paving slabs, or
+  composite or timber decking just outside the back door [MEDIUM].
+- The table as set here: a garden table in synthetic rattan (grey or
+  brown weave, glass top) or slatted wood, a parasol through the centre,
+  matching chairs or a rattan corner sofa; paper plates and napkins for
+  a barbecue, everyday plates for a lunch; ketchup and a bowl of salad
+  [MEDIUM — synthetic rattan is the common UK patio material because
+  natural rattan rots in damp, per retail guides, commercial tier].
+- Subregional variants and the national default: suburban semi: a wider
+  lawn and borders. Northern terrace: a paved back yard with a high brick
+  wall and a gate onto a back alley (ginnel). Flats: a balcony with no
+  grill (see the balcony-BBQ note). National default: a narrow fenced
+  terrace garden with a small patio under a grey-white sky.
+- Hallucination traps: a sprawling US backyard with a pool or a big
+  wooden deck and string of Edison bulbs; a manicured stately-home lawn
+  or English country garden with roses everywhere; Mediterranean sun and
+  terracotta; Union Jack bunting (plain bunting at most).
+- Never stage: beer cans or bottles in a cool box or on the table;
+  branded barbecue or garden furniture; a full flag; identifiable children
+  (a paddling pool or toys far back and out of focus at most).
+- Prompt-ready line: "A British back-garden patio under a soft grey sky:
+  the rattan-effect table sharp in front, behind it a blurred brown fence
+  with climbing plants, a small lawn, a shed roof and the brick backs of
+  neighbouring houses."
+- Confidence and sources: MEDIUM-LOW for specific furniture and fence
+  materials (retail sources, commercial tier: [Furniture in Fashion —
+  rattan for UK patios](https://www.furnitureinfashion.net/blog/best-rattan-garden-furniture-uk-patios/));
+  HIGH for garden access (ONS); EDITORIAL for staging.
+
+#### Venue: Gastropub
+- Use for: restaurant, indoor; weekend lunch, Sunday roast out, dinner,
+  birthday meal; 1, 2 or a small group. A real, more recent register (from
+  the 1990s), not the default; the traditional pub stays the default group
+  venue [HIGH, register above].
+- Soft background (the core): plaster walls in muted heritage colours
+  (sage, slate blue, deep green, off-white), often with a stretch of
+  exposed brick or stone; a large chalk blackboard on the wall or an easel,
+  always out of focus (a dark rectangle with pale illegible marks); the
+  bar counter as a warm horizontal band of dark or waxed wood, its back
+  shelves blurred into dark shapes with no bottles in focus; a fireplace
+  or wood-burning stove as a small orange glow with a basket of logs
+  beside it; framed prints or old maps, a shelf of old books or jars;
+  other scrubbed tables with mismatched chairs receding; a dog bed or water
+  bowl near the bar is a real, warm detail [MEDIUM — scrubbed tables,
+  blackboards, dark green walls, beams, flagstones and wood-burners per
+  Test. Taste. Repeat., Yahoo/Independent roast guide and Wikipedia
+  (gastropub); LOW for the dog bowl]. Light: by day, cool soft light from
+  small-paned sash or casement windows; by evening, warm low light from
+  wall sconces, simple pendant shades (enamel, glass or Edison-style
+  bulbs) and tea-light candles on the tables. Palette: muted green or blue,
+  dark waxed wood, warm amber. Signature shapes: the blackboard rectangle,
+  the long wooden bar band, the stove or hearth glow, small-paned window
+  grids, a mismatched chair back. Density: relaxed, half-full, well-worn
+  but cared for. People cues: staff in plain shirts and long dark aprons,
+  blurred; diners in casual weekend clothes, within the limit.
+- Shell: an 18th- or 19th-century pub, coaching inn or former farmhouse
+  refitted; flagstone or worn wide-board floors; exposed beams only in
+  genuinely old rural buildings; small-paned windows [MEDIUM].
+- The table as set here: bare scrubbed or oiled solid wood, no cloth;
+  cutlery laid directly or brought in a small tin or jar; paper or linen
+  napkin; salt and pepper mills; a small candle or a jar of flowers; food
+  on heavy plain plates, boards or slates, chips in a mini wire fry-basket
+  or enamel cup [HIGH for boards, slates and baskets, register above];
+  mismatched wooden chairs and an upholstered wall bench at the frame
+  edge.
+- Subregional variants and the national default: London: a Victorian
+  corner building, larger windows, a tiled or wooden bar front, more
+  painted panelling. Countryside (Cotswolds, Yorkshire, Devon): stone
+  walls, flagstones, beams, an inglenook fire. Scotland: see
+  `uk-scotland.md`. National default when none is named: a village or
+  market-town pub with muted plaster walls, scrubbed tables, a blackboard
+  and a fireplace.
+- Hallucination traps: Tudor black-and-white beams in every room; a Union
+  Jack; a red phone box or double-decker bus through the window; Irish-pub
+  clutter (enamel ads, Celtic signs); dark, gloomy "ye olde" lighting;
+  white tablecloths (that is a restaurant); fine-dining towers and foams.
+- Never stage: beer pumps, pump clips, pint or wine glasses, beer mats,
+  bottles behind the bar in focus, legible blackboard text, pub signs with
+  names. The bar is a soft band of wood only.
+- Prompt-ready line: "A relaxed British gastropub: a scrubbed oak table
+  with no cloth in sharp focus, behind it muted sage-green plaster walls,
+  a softly blurred chalk blackboard, the long dark band of a wooden bar
+  and the warm glow of a log burner."
+- Confidence and sources: MEDIUM overall; rewritten from the 2026-10-01
+  pilot plus one new search ([Test. Taste. Repeat. — the new wave of
+  gastropubs](https://goodfoodeveryday.substack.com/p/the-new-wave-of-gastropubs);
+  [Yahoo/Independent — best places for a roast](https://www.yahoo.com/news/15-best-places-roast-dinner-100000888.html);
+  [Wikipedia — Gastropub](https://en.wikipedia.org/wiki/Gastropub)).
+
+#### Venue: Traditional pub (the default group venue)
+- Use for: restaurant, indoor; weekday lunch, solo pub lunch, dinner,
+  Sunday roast out, food-led pub screening (see GAME NIGHT); all party
+  sizes. The national default for eating out in a group [HIGH].
+- Soft background (the core): dark-stained wood panelling to dado height
+  or full height, with plaster or patterned wallpaper above in deep red,
+  green or nicotine cream; partitions of panelling topped with etched or
+  frosted glass dividing snugs; brass wall lamps with small fabric or
+  frosted-glass shades as round warm glows; the long dark bar with a
+  brass foot rail as a heavy horizontal band, the bar back a dark blur
+  with no bottles, pumps or optics in focus; horse brasses, framed local
+  photographs, a mirror with gilt lettering made illegible; a dartboard
+  as a soft disc in some rooms; the patterned carpet (deep red, green or
+  blue, busy floral or geometric) where the frame dips low; in winter, an
+  open fire in a cast-iron grate [MEDIUM — panelling, etched glass,
+  patterned carpet, red velvet or leather banquettes, brass wall lights and
+  snugs per Fat Badgers pub-interior guide, The Victorian Emporium and
+  pub-culture sources]. Light: dim and warm; daylight only as a pale glow
+  through etched or frosted bay windows; amber lamp glows by evening. At
+  most one wall-mounted screen, high and soft, for a screening scene.
+  Palette: oxblood, bottle green, dark brown wood, brass gold. Signature
+  shapes: the etched-glass window with its pale glow, the brass lamp
+  glows along the panelling, the bar's horizontal band and foot rail, the
+  curve of a tufted banquette back, a small round table on a cast-iron
+  base. Density: well-worn, ring-marked, comfortable. People cues: a few
+  blurred regulars on stools at the bar (no glasses visible) or at a
+  far table, within the limit.
+- Shell: a Victorian or older building; low ceilings and beams in older
+  rural pubs, high ornate ceilings in city Victorian pubs; bay windows
+  with etched glass; carpet or worn floorboards [MEDIUM].
+- The table as set here: a small round or square dark-wood table, often
+  on a cast-iron base, bare with a few ring marks; cutlery rolled in a
+  paper napkin; sachets or a small caddy with ketchup, mustard, vinegar;
+  plain white oval or round plates; an upholstered banquette (red velvet,
+  green or oxblood leather) or a wooden stool at the edge.
+- Subregional variants and the national default: city Victorian "gin
+  palace" (ornate mirrors, carved wood, tiled lobby) in London, Liverpool,
+  Birmingham; rural inn (beams, stone fireplace, settles); northern
+  estate or town local (plainer, brighter, a pool table area kept out of
+  frame). Scotland: see `uk-scotland.md`. National default: a town pub
+  with dark panelling, patterned carpet, a banquette and brass lamps.
+- Hallucination traps: everything in the gastropub list; a sports-bar wall
+  of TVs; American booths with neon; Irish-pub memorabilia clutter;
+  Tudor beams in a city Victorian pub; a pub so dark the food cannot be
+  read.
+- Never stage: pumps, pump clips, pint glasses, optics, bottles behind the
+  bar, beer towels and mats, legible signs or mirror lettering. When the
+  brief allows a glass, the Coca-Cola pub serve is ice and a slice of lemon
+  (VISUAL & PLATING NORMS).
+- Prompt-ready line: "A traditional British pub corner: a small dark-wood
+  table in sharp focus, behind it an oxblood leather banquette against
+  dark wood panelling, round brass wall lamps glowing softly, etched-glass
+  windows as pale blurs and the long wooden bar a dark band in the
+  distance."
+- Confidence and sources: MEDIUM; rewritten from the 2026-10-01 pilot plus
+  one new search ([Fat Badgers — Pub interiors](https://www.fatbadgers.co.uk/britain/interior.htm);
+  [The Victorian Emporium — Victorian pub renovation](https://www.thevictorianemporium.com/publications/advice/article/10_essential_elements_of_victorian_pub_renovation);
+  [The Spaces — pub design](https://thespaces.com/pub-design-is-going-back-to-basics/)).
+
+#### Venue: Chippy (fish-and-chip shop, takeaway counter or small sit-in)
+- Use for: meal on the go (chips eaten from the paper outdoors) and
+  restaurant indoor (a small sit-in area); Friday-night takeaway pickup;
+  1 or 2. The UK's signature everyday hot takeaway (see catalog: Fish and
+  chips; Quick-Reference: Chippy).
+- Soft background (the core): the stainless-steel frying range along the
+  back or side as the dominant shape, a long gleaming block with lidded
+  fryer wells, a heated glass display cabinet holding battered fish and
+  sausages under warm lamp light, and a chip "scuttle" or chute; older
+  ranges have a coloured glass (vitrolite) or enamel front panel in green,
+  cream or blue [MEDIUM — frying-range manufacturers Mallinsons and Trevor
+  Howsam]. Walls: white or pale tiles, or a coloured tile band; a long
+  illuminated menu board high above the range (a bright pale rectangle,
+  always illegible). On the counter: the till, a stack of white paper and
+  cardboard boxes, a tall vinegar bottle and salt shaker as small upright
+  shapes, a pickled-egg or pickled-onion jar. Middle distance: a small
+  queue as blurred coats, the plate-glass shopfront with the street at
+  night (wet pavement reflections, streetlights as orange or white bokeh)
+  [MEDIUM — Wikipedia, fish-and-chip shop; Infatuation London guide for
+  sit-in Formica tables]. Light: bright, even, cool-white overhead
+  fluorescent or LED; the warm glow of the heated cabinet; night outside
+  the glass. Palette: stainless steel, white tile, golden batter, a strong
+  accent colour (blue, green or red). Signature shapes: the long steel
+  range with its lids, the lit warming cabinet, the high menu board, the
+  vinegar bottle, the paper-wrapped bundle. Density: functional, busy at
+  peak, a little worn. People cues: a fryer in a white jacket and cap or
+  a dark polo with an apron, blurred, plus one or two customers.
+- Shell: a high-street or parade shop unit with a large glass front; tiled
+  or vinyl floor; low suspended ceiling with panel lights [MEDIUM].
+- The table as set here: on the go, the paper-wrapped or boxed portion
+  resting on a wall or bench (per §7.5), a small wooden chip fork; sit-in,
+  a red, white or blue Formica-topped table with fixed chairs or a booth,
+  a vinegar bottle, salt shaker and ketchup in a squeeze bottle with no
+  label, plain white plates [MEDIUM].
+- Subregional variants and the national default: seaside chippy (blue
+  and white decor, a view of the promenade, gulls and railings through
+  the window); northern chippy (beef dripping, a sit-in café room, mushy
+  peas in polystyrene-free tubs); urban late-night chippy combined with
+  kebab and pizza. Northern Ireland and Scotland: chippy menus differ (see
+  `uk-scotland.md`, the NI callout). National default: a town high-street
+  chippy at early evening, bright tiles and a steel range.
+- Hallucination traps: an American diner with chrome stools and neon;
+  newspaper wrapping (banned for food contact; plain white paper only);
+  polystyrene trays (see the ban dates in the Quick-Reference); a pub or
+  restaurant with tablecloths; a "seaside" palette applied to every
+  inland shop; a branded fridge of soft drinks dominating the frame.
+- Never stage: a legible menu board, shop name or price list; branded
+  drinks fridges or cans other than the brief's SKU; beer.
+- Prompt-ready line: "A British chippy at dusk: a paper-wrapped portion of
+  fish and chips sharp on the counter, behind it a long gleaming stainless
+  frying range with lidded wells, a warm-lit glass cabinet of battered
+  fish, white tiles and a bright illegible menu board softly blurred."
+- Confidence and sources: MEDIUM overall; two searches ([Mallinsons —
+  frying ranges](https://mallinsonsofoldham.com/frying-ranges/);
+  [Trevor Howsam — vitrolite range](https://trevorhowsam.com/thb2040-acme-frying-range-stainless-steel-yellow-and-green-vitrilite/);
+  [Wikipedia — Fish-and-chip shop](https://en.wikipedia.org/wiki/Fish-and-chip_shop);
+  [The Infatuation — London fish and chips](https://www.theinfatuation.com/london/guides/best-fish-and-chips-london));
+  LOW for the pickled-egg jar and the regional variants (model knowledge,
+  not verified this pass).
 ---
 
 ## ZONE CHARACTERIZATION
@@ -481,6 +849,612 @@ paint colors, scrubbed wooden tables, mismatched chairs, food on boards
 and slates). The curry house is a strong second (see Quick-Reference
 table). Chain casual dining and peri-peri chicken restaurants are the
 Gen Z/young-group default alongside pubs (genericize names).
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Placement note: the UK file has no festivals register yet, so this section
+sits directly after ENVIRONMENT & STAGING SCENES, per schema §5.7. It
+doubles as the calendar index until a register is written (see GAP LOG).
+The party-size rule from §5.7 applies throughout: the place settings in
+frame are the operator's party; the gathering is implied.
+Scotland's deltas (Burns Night, Hogmanay and New Year's Day, the wedding
+ceilidh) are in `uk-scotland.md`.
+
+### How large gatherings work here
+
+- **Who gathers.** The core UK celebration unit is the extended family at
+  home: parents, adult children and their partners, grandparents, and
+  sometimes in-laws, typically around 6 to 12 people. One retailer-cited
+  survey puts the average Christmas table at about eight, rising to about
+  11 in Northern Ireland. [LOW — figure seen only in search-result
+  summaries of a commercial survey, original not identified this pass]
+  Weddings are the large outlier: Hitched's survey data, as reported by
+  wedding-industry sites, puts the average at roughly 80 day guests and
+  100 to 110 evening guests, with micro-weddings under 30 guests now a
+  real share. [MEDIUM — Hitched survey figures via secondary wedding-
+  industry sources, not read at source]
+- **Where (intake venues).** *Home indoor* is the default for Christmas,
+  Easter and the Sunday roast: a kitchen-diner or dining-room table,
+  often extended with a folding table or a desk chair pulled in.
+  *Restaurant* covers the pub Sunday roast and pub/restaurant birthday
+  meals. *Other* covers weddings (a hired venue, hotel function room,
+  barn or marquee) and Bonfire Night (a back garden or a community
+  display field). *Home outdoor* is a summer birthday or garden party.
+  [EDITORIAL, consistent with the scenario blocks above]
+- **Table form and serving style.** At home the table is one rectangular
+  table, everyone seated, served **family-style**: the host carves the
+  joint at the table or in the kitchen, and vegetable dishes, roast
+  potatoes and a gravy jug are passed around, with everyone on an
+  individual plate (see catalog: Sunday roast). Weddings use **round
+  tables of 8 to 10** with a plated, sequential "wedding breakfast"
+  (starter, main, dessert) served by caterers; a buffet is the evening
+  register. Children's birthdays and garden parties are buffet-style
+  on a single table. [MEDIUM for wedding service format, Hitched-derived
+  sources; EDITORIAL for the rest]
+- **Plate and cutlery norms that differ from everyday.** Christmas and
+  Easter bring out the "best" crockery, a tablecloth, and paper crackers
+  at each setting at Christmas. Cutlery stays Continental (fork left,
+  knife right, per GENERAL NORMS). Birthday and garden buffets switch to
+  paper plates and napkins. [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most authentic
+  UK cues for an implied crowd are: (1) the table running out of frame
+  with more serving dishes (roasting tin, two or three vegetable dishes,
+  gravy jug) than the visible diners need; (2) an extra mismatched chair
+  or a second, lower table pushed against the end; (3) occasion-specific
+  table clutter at the frame edge (pulled crackers and paper hats,
+  a birthday card row on a shelf, wedding table-number stand blurred).
+  Overcast window light or warm artificial light, never harsh sun, per
+  ENVIRONMENT. [EDITORIAL]
+
+#### Celebration: Sunday roast as the family gathering (Sunday lunch)
+- Type: community or family gathering (weekly; larger when relatives
+  visit).
+- When: Sunday, roughly 1 to 3pm; intake time midday. Larger family
+  roasts cluster around visits, birthdays and Mothering Sunday.
+  [HIGH for timing, see GENERAL NORMS]
+- Gathering: the household, often extended to grandparents or adult
+  children visiting, typically 4 to 8; home indoor (dining table or
+  kitchen-diner) or restaurant (a pub's Sunday menu, pre-plated, a long
+  table pushed together). [EDITORIAL]
+- The spread: see catalog: Sunday roast for the plate. Shared dishes on
+  a home table: the joint on a carving board or in its roasting tin,
+  one dish of roast potatoes, two or three vegetable dishes (carrots,
+  greens or broccoli, peas), a cauliflower cheese dish, a gravy jug and
+  the jarred condiment for the meat (horseradish, mint sauce, apple
+  sauce, English mustard). A real table carries about 5 to 7 shared
+  vessels. [HIGH for components, catalog entry; EDITORIAL for count]
+- Snapshot staging: **1 setting**: one full plate at the near end of the
+  table, the carving board with the cut joint and a gravy jug just behind
+  it, a vegetable dish cropped at the frame edge, and an empty-but-used
+  setting's chair back at the side. **2 settings**: two identical full
+  plates side by side or facing, the roasting tin and potato dish between
+  them, a second vegetable dish and the gravy jug, table continuing out
+  of frame. **Small group (3 to 4)**: plates around one end, all shared
+  vessels clustered in the middle, the far end of the table soft and out
+  of frame. Cues: more vegetable dishes than the visible diners need;
+  a child's chair or booster seat soft at the edge; window light from a
+  grey Sunday. [EDITORIAL]
+- Decor and cues: tablecloth or placemats, the everyday "good" plates,
+  a jar of mint sauce or horseradish with its lid off. Avoid: candelabra
+  and stately-home dining rooms; a herb-sprig garnish.
+- Never stage: wine or beer at the table (a strong prior here; prompt
+  "no wine glasses, no beer"); legible jar labels (genericize per
+  the trademark list).
+- Confidence and sources: HIGH for the meal itself (catalog entry and
+  GENERAL NORMS sources); EDITORIAL for headcount and staging.
+
+#### Celebration: Christmas dinner (Christmas Day, 25 December)
+- Type: calendar holiday.
+- When: Christmas Day, served early to mid-afternoon (commonly cited as
+  1 to 4pm); intake time midday, or golden-hour for a late-afternoon
+  dinner (winter light fades by about 4pm). [MEDIUM — timing range from
+  general sources; no YouGov figure found this pass]
+- Gathering: the extended family at one home, roughly 6 to 12 people
+  (see the ~8 average above, LOW); home indoor. [LOW for the figure]
+- The spread: a roast dinner built around **roast turkey** (on 57% of
+  British Christmas plates in YouGov's Big Survey on Christmas), with
+  **pigs in blankets** (small sausages wrapped in streaky bacon; on about
+  two-thirds of plates, and favourites in YouGov polling), roast
+  potatoes, Brussels sprouts, carrots and parsnips, stuffing, cranberry
+  sauce, bread sauce, and gravy. Christmas pudding (dark, domed, with a
+  sprig of holly) follows. [HIGH — YouGov Big Survey on Christmas and
+  YouGov best-Christmas-food polling] No turkey or pigs-in-blankets
+  catalog entry exists: **roast turkey** reads as a whole bird, deep
+  golden-brown glossy skin, on a large oval platter about 40 to 45cm
+  long, roughly four can-heights across; plated, 2 to 3 pale sliced
+  pieces. **Pigs in blankets** are finger-length (about 6 to 8cm, a
+  little over half the can's height), glossy brown bacon wrap, piled in
+  a small dish. Both added to CANDIDATE QUEUE. The rest of the plate
+  follows catalog: Sunday roast (roast potatoes, gravy, full-to-the-rim
+  look). A real Christmas table carries 6 to 9 shared vessels.
+  [EDITORIAL for sizes and count]
+- Snapshot staging: **1 setting**: one full plate (turkey slices, two pigs
+  in blankets, roast potatoes, sprouts, carrots and parsnips, gravy), a
+  pulled cracker and folded paper hat beside it, the turkey platter
+  cropped at the top edge, a sprout dish and gravy jug in the
+  midground. **2 settings**: two identical plates, the carved turkey
+  between them, pigs-in-blankets dish and roast-potato dish, cranberry
+  sauce in a small bowl, the table running out of frame. **Small group**:
+  three or four identical plates at one end, every shared dish crowded
+  into the middle, crackers and hats at each place. Cues: crackers and
+  paper hats at settings beyond the visible plates; a decorated tree
+  soft-focus in the background; extra chairs. [EDITORIAL]
+- Decor and cues: crackers, paper crowns, a red or white tablecloth,
+  fairy lights or a tree blurred behind, winter dark at the window by
+  late afternoon. Avoid: snow-scene kitsch, Union Jack anything, a
+  stately-home banquet.
+- Never stage: wine, champagne, sherry or a flaming brandy-lit pudding
+  (the flame comes from spirits; show the pudding unlit); religious
+  imagery (nativity scenes) as the subject.
+- Confidence and sources: HIGH for menu composition ([YouGov — The YouGov
+  Big Survey on Christmas: Christmas dinner](https://yougov.com/en-gb/articles/53593-the-yougov-big-survey-on-christmas-christmas-dinner);
+  [YouGov — What is the best Christmas food?](https://yougov.com/en-gb/articles/26343-best-christmas-food));
+  MEDIUM for timing; LOW for headcount.
+
+#### Celebration: Easter Sunday lunch (Easter Sunday)
+- Type: calendar holiday.
+- When: Easter Sunday (March or April), midday; intake time midday.
+- Gathering: family at home, similar to a large Sunday roast, about 4 to
+  10; home indoor, occasionally a pub. [EDITORIAL]
+- The spread: **roast lamb** is the meal most associated with Easter
+  Sunday, served as a roast dinner with mint sauce, roast potatoes and
+  spring vegetables (see catalog: Sunday roast for the plate; lamb is one
+  of its listed meats). Sweet items around the meal: **simnel cake** (a
+  light fruitcake covered in toasted marzipan, topped with 11 marzipan
+  balls) and **hot cross buns** (spiced currant buns with a pale cross,
+  more a Good Friday and teatime item). [MEDIUM — food-media and
+  caterer sources agree, no institutional source found] Simnel cake has
+  no catalog entry: a round cake about 20cm across (roughly three can
+  diameters), golden-brown toasted marzipan top, the ring of 11 small
+  balls; added to CANDIDATE QUEUE as a compact sweets item. Shared
+  vessels: about 5 to 7, as for a Sunday roast.
+- Snapshot staging: as the Sunday roast entry, with the lamb joint
+  (browned, pink when sliced) on the board and a jar of mint sauce in
+  frame. For a small group, the simnel cake can sit on a cake stand at
+  the far edge, partly cropped. Cues: a bowl of small foil-wrapped
+  chocolate eggs or a few daffodils in a jug; bright spring daylight,
+  still soft. [EDITORIAL]
+- Decor and cues: daffodils, pastel napkins. Avoid: oversized Easter
+  bunny props, US-style ham as the default centrepiece.
+- Never stage: church services, crosses or religious imagery as the
+  subject (the cross on a hot cross bun is fine as food); wine.
+- Confidence and sources: MEDIUM ([Gambero Rosso — Discover British
+  Easter treats](https://www.gamberorossointernational.com/news/food-news/easter-in-the-uk-hot-cross-buns-and-simnel-cake-2/);
+  [Fine Food Specialist — Hosting Easter dinner](https://www.finefoodspecialist.co.uk/blogs/blog/hosting-easter-dinner-heres-your-meat-guide));
+  EDITORIAL for staging.
+
+#### Celebration: Bonfire Night (Guy Fawkes Night, 5 November)
+- Type: calendar holiday (secular, community).
+- When: 5 November or the nearest weekend, after dark (about 5 to 8pm);
+  intake time evening.
+- Gathering: families and friends at a back-garden bonfire (home
+  outdoor), or a community fireworks display on a field or park (other),
+  with food eaten standing or on garden chairs. A garden party is about
+  6 to 20 people; displays are much larger. [EDITORIAL]
+- The spread: winter-warming, hand-held food. Documented traditional
+  items include **toffee apples**, **treacle toffee**, **parkin** (a soft,
+  sticky spiced oat-and-treacle cake, strongly Yorkshire and Northern),
+  **black peas** (Lancashire), **jacket potatoes** cooked in the embers,
+  hog roast, and in practice sausages and hot dogs. [HIGH for the list —
+  Wikipedia (Bonfire Night) and Love Food Hate Waste agree] See catalog:
+  Jacket potato (here wrapped in foil, eaten from a paper plate or the
+  foil); see catalog: Bangers and mash for the sausage (here in a soft
+  white bread roll). Parkin and toffee apples have no catalog entry:
+  **parkin** is cut in dark brown, slightly glossy squares about 5cm a
+  side (under the can's width); **toffee apples** are whole apples in a
+  glassy deep-red toffee shell on a wooden stick, about the can's
+  diameter or a little wider. Both added to CANDIDATE QUEUE. A garden
+  table carries 3 to 6 serving vessels: a foil tray of jacket potatoes,
+  a tray of sausages in rolls, a plate of parkin, toffee apples on a
+  board.
+- Snapshot staging: **1 setting**: a paper plate with a foil-split jacket
+  potato (butter, grated cheese or beans) on a garden table edge, the
+  can beside it, the foil tray cropped at the frame edge. **2 settings**:
+  two identical paper plates (sausage in a roll plus jacket potato), a
+  plate of parkin squares and a toffee apple between them. **Small
+  group**: three plates around one end of a garden table, foil trays and
+  the parkin plate in the middle. Cues: bonfire glow and a few sparks
+  soft in the background; people in coats, scarves and hats, blurred;
+  a sparkler trail in the distance. The can should carry the warm orange
+  firelight, not studio light. [EDITORIAL]
+- Decor and cues: coats and wool hats, garden fence and dark sky,
+  firelight. Avoid: daylight, summer clothes, US Fourth-of-July styling.
+- Never stage: the "Guy" effigy on the bonfire (an effigy burning, with
+  a historically anti-Catholic origin, and in Lewes and elsewhere other
+  effigies that court controversy); a child holding a lit firework near
+  the product; alcohol (mulled wine is common, keep it out).
+- Confidence and sources: HIGH for foods ([Wikipedia — Bonfire Night](https://en.wikipedia.org/wiki/Bonfire_Night);
+  [Love Food Hate Waste — Bonfire night feast ideas](https://www.lovefoodhatewaste.com/blog/7-bonfire-night-feast-ideas));
+  EDITORIAL for staging and the effigy rule.
+
+#### Celebration: Birthday party (children's party; adult birthday meal)
+- Type: life event.
+- When: any time of year; children's parties are usually weekend
+  midday or early afternoon (midday); adult birthdays are an evening
+  meal out (evening) or a garden party in summer (golden-hour).
+  [EDITORIAL]
+- Gathering: a children's party is often 10 to 30 children in a hired
+  church or community hall, soft-play centre, or the home; an adult
+  birthday is 4 to 12 at a pub, curry house or restaurant, or at home.
+  Map: home indoor, home outdoor, restaurant, other (hall). [EDITORIAL]
+- The spread: the children's party buffet on one long table: sandwiches
+  cut into triangles, sausage rolls (see catalog: Sausage roll), crisps
+  in bowls, cocktail sausages, carrot and cucumber sticks, fairy cakes,
+  jelly, and the birthday cake (a decorated sponge, often a character or
+  number cake). Adult meal out: see catalog: Curry-house dishes, or a
+  pub meal (see catalog: Pies, Fish and chips). [MEDIUM — widely known
+  UK party-food repertoire, not specifically sourced this pass]
+- Snapshot staging: **1 setting** (children's buffet): one paper plate
+  with two sandwich triangles, a sausage roll and a few crisps on a
+  long paper-covered table, the cake partly cropped at one end, bowls
+  of crisps behind. **2 settings**: two identical paper plates, a shared
+  platter of sandwiches and a bowl of crisps between them, a party
+  plate of fairy cakes. **Small group**: plates at one stretch of the
+  table with the cake (candles unlit or lit) in the midground. Cues:
+  balloons tied to a chair back, a paper tablecloth with a print,
+  blurred children behind (no sharp faces); keep the product with the
+  adult or teen cast, per TCCC's Responsible Marketing Policy (no
+  marketing to children under 13, as cited in `germany.md`). [EDITORIAL]
+- Decor and cues: balloons, bunting (plain coloured, not Union Jack),
+  party bags at the edge. Avoid: legible "Happy Birthday" banners with
+  names; licensed characters on the cake.
+- Never stage: a young child as the drinker of the hero product (TCCC
+  Responsible Marketing Policy, see `germany.md`); alcohol at an adult
+  party.
+- Confidence and sources: MEDIUM for repertoire; EDITORIAL for staging.
+
+#### Celebration: Wedding breakfast and evening reception (wedding)
+- Type: life event.
+- When: weddings cluster May to September; the "wedding breakfast" (the
+  meal after the ceremony, despite the name, not a morning meal) is
+  mid to late afternoon (golden-hour); the evening reception and buffet
+  follow (evening). [MEDIUM — the name and timing are widely documented]
+- Gathering: about 80 day guests and about 100 to 110 evening guests on
+  average (Hitched, via secondary sources); a hired venue (hotel, barn,
+  country house, marquee), round tables of 8 to 10. Venue mapping:
+  other. [MEDIUM]
+- The spread: the wedding breakfast is a plated three-course meal, often
+  a roast-style main (chicken breast, beef or lamb with potatoes and
+  vegetables), served by caterers; the evening buffet adds bacon or
+  sausage rolls, a hog roast, pizza or a cheese board. The tiered wedding
+  cake stands on its own table. [MEDIUM — wedding-industry sources]
+- Snapshot staging: **1 setting**: one plated main on a white charger at
+  a white-clothed round table, name card blank, the cake table blurred
+  behind. **2 settings**: two identical plated mains, the table's floral
+  centrepiece partly cropped, empty settings continuing round the table.
+  **Small group**: three or four settings on one arc of the round table,
+  a second round table soft in the background. Cues: the round table's
+  curve leaving frame; fairy lights or bunting in a barn; blurred
+  guests in formal clothes (no more than about 2.5 faces, none sharp).
+  For the evening buffet: a paper plate at a high table, the hog-roast
+  station soft behind. [EDITORIAL]
+- Decor and cues: white linen, floral centrepieces, chair covers or
+  wooden barn chairs. Avoid: the couple themselves as identifiable
+  subjects; legible table plans.
+- Never stage: champagne flutes, the toast, wine bottles on the table
+  (all real and a strong prior; prompt "no glasses other than the hero
+  serve"); the ceremony itself.
+- Confidence and sources: MEDIUM ([Party Houses — Wedding statistics UK](https://partyhouses.co.uk/wedding-statistics-uk/),
+  citing Hitched; [Weddings Hub — UK wedding statistics](https://weddingshub.co.uk/uk-wedding-statistics/);
+  both industry tier, flagged per §6); EDITORIAL for staging.
+
+#### Celebration: Eid al-Fitr and Eid al-Adha family meal (British Muslim communities)
+- Type: calendar holiday (community; dates move about 11 days earlier
+  each year).
+- When: Eid day; morning prayers and sweets come first (sheer khurma is
+  the first thing eaten by many South Asian-heritage families), then the
+  main **family lunch or dinner**, which is the staging target per this
+  pass's breakfast exclusion. Intake time midday or evening.
+- Gathering: extended family and visiting relatives, often 10 to 30 in
+  and out of the home through the day; home indoor (living room and
+  dining table both used), sometimes a restaurant or hall. Strongest in
+  Birmingham, Bradford, East London, Manchester, Leicester and Luton.
+  [MEDIUM]
+- The spread: for the largest UK Muslim communities (Pakistani,
+  Bangladeshi and Indian heritage), the centrepiece is a **biryani or
+  pulao** in a large platter, with karahi or a meat curry, kebabs or
+  samosas, raita and salad, then sweets (gulab jamun, sheer khurma,
+  mithai). Eid al-Adha centres on the sacrificed animal's meat (lamb,
+  goat or beef) cooked the same day. For staging the dishes, point to
+  `asia/pakistan.md` (FESTIVALS register and section G, Festive tables
+  and sweets), `asia/bangladesh.md` and `asia/india.md`; British versions
+  match their family-cooked forms rather than the curry-house menu. A
+  table carries 5 to 8 shared dishes. [MEDIUM — Wikipedia (Eid cuisine)
+  plus UK grocery and sweet-retailer sources, lower tier, flagged]
+- Snapshot staging: **1 setting**: one plate of biryani with a spoon of
+  raita on a dining table, the large biryani platter cropped at the
+  top edge, a plate of samosas and a sweets box in the midground.
+  **2 settings**: two identical plates, the biryani platter and a
+  karahi between them, a mithai box open behind. **Small group**: three
+  or four settings, every shared dish clustered in the middle. Cues:
+  more serving dishes than diners; an open box of mithai; relatives in
+  festive clothes blurred in the background; a UK living room (radiator,
+  double-glazed window) behind, so it reads as Britain and not South
+  Asia. [EDITORIAL]
+- Decor and cues: festive shalwar kameez or other best clothes, fairy
+  lights or "Eid Mubarak" bunting (illegible). Avoid: desert or
+  "Arabian" clichés for a South Asian-heritage family.
+- Never stage: pork or alcohol anywhere; prayer, mosque interiors or
+  the Qur'an; the animal sacrifice; Ramadan-day eating (see the source
+  country files' Ramadan rules).
+- Confidence and sources: MEDIUM ([Wikipedia — Eid cuisine](https://en.wikipedia.org/wiki/Eid_cuisine);
+  [Sunshine Snacks — What sweets do families enjoy on Eid in the UK](https://sunshinesnacks.co.uk/blogs/posts/what-sweets-do-families-enjoy-on-eid-in-the-uk),
+  a retailer, lower tier); EDITORIAL for staging.
+
+#### Celebration: Diwali family meal (British Hindu and Sikh communities)
+- Type: calendar holiday (community; October or November).
+- When: Diwali evening (intake time evening), after lighting diyas;
+  Leicester's Diwali lights are among the largest outside India.
+  [MEDIUM — widely reported; not re-searched this pass]
+- Gathering: extended family at home, about 8 to 20, with visits to
+  relatives and exchanges of sweet boxes; home indoor. [EDITORIAL]
+- The spread: a vegetarian-led family meal is common in Hindu households
+  (curries, dal, rice, puri, samosas, pakoras), with **mithai** (barfi,
+  ladoo, jalebi) as the signature food; Sikh families mark Bandi Chhor
+  Divas the same day with similar food. Point to `asia/india.md` for
+  dish staging. [MEDIUM — Diwali food norms are well documented in the
+  India file's sources; the UK-specific practice is LOW, not separately
+  verified this pass]
+- Snapshot staging: **1 setting**: a thali-style plate or dinner plate
+  with dal, a vegetable curry, rice and a puri, a mithai box open
+  beside it, a diya lit at the frame edge. **2 settings**: two identical
+  plates, a serving bowl of curry and a basket of puris between them.
+  **Small group**: settings at one end, sweets platter mid-table. Cues:
+  several lit diyas along a windowsill, string lights, an open sweet
+  box. [EDITORIAL]
+- Decor and cues: diyas, rangoli soft on the floor at the edge, best
+  clothes. Avoid: fireworks as the focus.
+- Never stage: beef; deities, shrines or puja as the subject; alcohol.
+- Confidence and sources: LOW to MEDIUM (see above); EDITORIAL for
+  staging. GAP LOG item added.
+
+---
+
+## GAME NIGHT
+
+Schema §5.8 applies throughout: screens, cards, boards and quiz sheets
+are never legible; no crests, kits, sponsor marks or league logos; no
+betting slips, odds screens, betting apps, cash or scoring for money
+(sports betting and bingo are both prominent in the UK); party size is
+the place settings in frame, the crowd implied (§5.7); no identifiable
+children; a late kick-off is a night scene. The brief dictates the SKU
+(§5.4). This file has no earlier sports or games lines to point to.
+Scotland's deltas (Scottish football, the Old Firm, Scotland at rugby)
+are in `uk-scotland.md`.
+
+### Watch parties
+
+Football is the main viewing occasion, with England tournament nights
+the biggest; Six Nations rugby (February to March) is the second format,
+and Test and white-ball cricket is a real but smaller summer audience
+(medium). The UK's top choice for watching a tournament is "at home with
+the family" (41%), though more than four in ten fans also watch their
+team's games in the pub [MEDIUM — Samsung UK survey; JOE]. The pub is
+fundamentally drinking-led, so home viewing is the default staging; the
+signature viewing foods are takeaway (pizza boxes, curry foil trays),
+crisps in bowls and sausage rolls.
+
+#### Watch party: England tournament night at home (World Cup, Euros)
+- When: June to July in tournament years (Euros and World Cup
+  alternate every two years). Group and knockout games in a European
+  tournament usually kick off 17:00 or 20:00 UK time, so the intake
+  time is golden-hour or evening; long June daylight means a 20:00
+  kick-off still has light outside at the start [LOW — not verified,
+  model knowledge for typical kick-off slots]. Games of a tournament
+  in the Americas (World Cup 2026) landed in the UK evening or late
+  night: stage a late-night kick-off as a night scene with TV glow and
+  a lamp, not golden hour.
+- Gathering: family or 4 to 8 friends in a living room; 41% watch
+  tournaments at home with family [MEDIUM — Samsung UK survey]. Venue:
+  home indoor; a back-garden screening on a projector is a real summer
+  variant (home outdoor) [EDITORIAL].
+- The spread: delivery and takeaway food, eaten from the boxes or
+  tipped onto plates: pizza in open cardboard boxes, curry in foil
+  trays with lids off and poppadoms (see catalog: Curry-house dishes),
+  fish and chips in paper (see catalog: Fish and chips), crisps in
+  bowls, a plate of sausage rolls (see catalog: Sausage roll) [MEDIUM —
+  takeaway and crisps per Samsung/Bar Magazine; specific dish mix
+  EDITORIAL, consistent with the Friday-night takeaway note in
+  ENVIRONMENT & STAGING SCENES].
+- Surface and environment: a low coffee table in front of the sofa;
+  a modest, slightly cluttered living room (radiator, double-glazed
+  window, a lamp); the TV a soft out-of-focus field of green with no
+  score bug or channel mark. Bunting in plain red and white or
+  generic colours at most; never a full St George's Cross or Union
+  Jack (reviewer ruling, §5.7).
+- Snapshot staging: **1 setting**: one plate with two pizza slices and
+  a few chips on the coffee-table edge, the open pizza box and a crisp
+  bowl beside it, the sofa running out of frame. **2 settings**: two
+  identical plates side by side on the coffee table, a curry tray and
+  the pizza box shared between them. **Small group**: three or four
+  plates around the table edge, more boxes and trays than the visible
+  diners could finish, blurred backs of heads toward the screen (no
+  more than about 2.5 faces, none sharp), an extra dining chair pulled
+  in.
+- Never stage: lager cans, pints or beer multipacks (the strongest
+  prior for this scene; prompt "no beer, no other drinks"); England or
+  club shirts with crests or sponsor marks; face paint on children;
+  a legible screen; betting apps or a sweepstake sheet with names and
+  money.
+- Confidence and sources: MEDIUM for home-with-family viewing and the
+  takeaway/crisps spread ([Samsung — how the UK plans to watch
+  football](https://news.samsung.com/global/infographic-this-is-how-the-uk-plans-to-watch-football);
+  [Bar Magazine — Sport, snacks and the British pub](https://barmagazine.co.uk/sport-snacks-and-the-british-pub/));
+  LOW for kick-off times; EDITORIAL for staging.
+
+#### Watch party: Premier League weekend at home
+- When: August to May. The traditional Saturday 15:00 kick-off is, as
+  generally understood, not shown live on UK television (the "3pm
+  blackout"), so home viewing centres on the televised slots:
+  Saturday 12:30 and 17:30, Sunday afternoon, and Monday or Friday
+  evening games [LOW — not verified, model knowledge]. Intake time
+  midday or golden-hour for weekend games; in winter a 17:30 game is
+  already dark outside, so stage it as evening.
+- Gathering: 2 to 6 friends or family members; home indoor. A flatshare
+  living room is as plausible as a family house (see the Gen Z note in
+  ENVIRONMENT & STAGING SCENES).
+- The spread: sausage rolls (see catalog: Sausage roll), crisps in a
+  bowl, sandwiches cut in halves or triangles on a plate, or a weekend
+  takeaway [MEDIUM — the notes rank this as the UK's second stageable
+  scene; crisps are 72% of pub sport snacking per Bar Magazine, a trade
+  source, flagged; home dish mix EDITORIAL].
+- Surface and environment: coffee table or a lap tray on the sofa;
+  overcast window light for a midday game, lamp and TV glow for a
+  winter evening; a scarf in plain colours (no crest) over the sofa
+  arm at most.
+- Snapshot staging: **1 setting**: one plate with a sausage roll and
+  a handful of crisps on the coffee table, the crisp bowl beside it.
+  **2 settings**: two identical plates, one shared crisp bowl and a
+  plate of sandwiches between them. **Small group**: three or four
+  plates, a second crisp bowl and an extra sausage-roll plate cropped
+  at the edge, blurred shapes on the sofa facing the screen.
+- Never stage: club crests, kits, sponsor marks; a legible screen;
+  beer; betting apps or accumulator slips (football betting is heavily
+  advertised in the UK) [LOW — not verified for prevalence].
+- Confidence and sources: LOW for broadcast slots; MEDIUM for the
+  crisps lead (Bar Magazine, trade tier); EDITORIAL for staging.
+
+#### Watch party: Six Nations rugby weekend
+- When: February to March, five weekends; Saturday afternoon games
+  (intake time midday or golden-hour; light goes by about 17:30 in
+  February, so a late game is evening) and some Friday-evening games
+  [LOW — not verified, model knowledge for the slots].
+- Gathering: family or friends at home, 4 to 8; strongest in Wales,
+  England and Scotland (see `uk-scotland.md`). Venue: home indoor.
+  Rugby clubhouse screenings exist but are bar-led [EDITORIAL].
+- The spread: hot pies or a pie cut into wedges (see catalog: Pies),
+  sausage rolls (see catalog: Sausage roll), Scotch eggs halved on a
+  board (see catalog: Scotch egg), a sharing board of cheese, ham and
+  pickle in the ploughman's style (see catalog: Ploughman's lunch)
+  [LOW — not verified; the notes list pies, sausage rolls and a sharing
+  board].
+- Surface and environment: coffee table or a kitchen-diner table turned
+  toward the TV; winter light, rain on the window, a radiator; the
+  screen a soft green blur. In Wales, a red-toned throw or plain red
+  bunting is the most a scene carries; never a full flag.
+- Snapshot staging: **1 setting**: one small plate with a pie wedge and
+  half a Scotch egg, the sharing board cropped beside it. **2
+  settings**: two identical plates, the board and a bowl of crisps
+  between them. **Small group**: plates around a coffee table, the
+  pie dish and a second board running out of frame, blurred figures
+  standing behind the sofa.
+- Never stage: national rugby shirts with crests or sponsors; beer and
+  the clubhouse bar; a legible screen.
+- Confidence and sources: LOW for food and timing (no source this
+  pass); the format itself is MEDIUM from the notes' rugby section;
+  EDITORIAL for staging.
+
+#### Watch party: pub screening (food-led form only)
+- When: any big game; evening for tournaments and midweek European
+  nights, midday or golden-hour for weekend league games.
+- Gathering: more than four in ten fans watch their team in the pub
+  [MEDIUM — Samsung UK survey; JOE]. Venue: restaurant (pub).
+- The spread: a pub meal at a table, not the bar: pub pie and chips
+  (see catalog: Pies), fish and chips (see catalog: Fish and chips),
+  a bowl of chips to share, crisps.
+- Surface and environment: a dark wooden pub table, patterned carpet,
+  a wall-mounted screen soft and out of focus high in the background
+  (see Quick-Reference: Traditional pub). The Coca-Cola pub serve is a
+  glass with ice and a slice of lemon, when the brief allows a glass
+  (see VISUAL & PLATING NORMS).
+- Snapshot staging: **1 or 2 settings** at a small table, plated pub
+  meals, the bar and other drinkers entirely out of frame or as soft
+  dark shapes. Small groups at a pub screen are hard to show without
+  drinkers; prefer the home entries above.
+- Never stage: pints, the bar back, taps or pump clips, beer mats with
+  marks, a crowded standing bar. **The pub screening is drinking-led
+  in reality; stage it only as this food-led, alcohol-free table
+  scene, or use a home entry instead.**
+- Confidence and sources: MEDIUM for pub viewing share; EDITORIAL for
+  the staging form.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**, but the
+best-known formats carry risks. The pub quiz runs about 22,000 times a
+week in roughly half of pubs and YouGov ranks it about the 10th most
+popular social activity (69% positive) [MEDIUM — Wikipedia, YouGov],
+but it is drinking-led; bingo is a gambling activity (in-person bingo
+3.3% of adults in the past four weeks; traditional clubs fell from 335
+to 248 between 2018 and 2024) [HIGH — Gambling Commission] and is not
+staged. Board games at Christmas are the safest high-popularity format.
+Video-game nights at home are real [LOW — not verified] and can follow
+the US pattern in `usa/us.md` if a brief asks.
+
+#### Game night: board games after Christmas dinner (and other holidays)
+- When: Christmas Day and Boxing Day afternoons into evening (intake
+  golden-hour; dark by about 16:00 in late December, so most scenes are
+  evening light), and holiday weekends [MEDIUM — notes rank this the
+  UK's top stageable game scene; timing EDITORIAL].
+- Gathering: the extended family from the Christmas entry (see
+  CELEBRATIONS: Christmas dinner), 4 to 10 people, at the cleared dining
+  table or around the living-room coffee table; home indoor.
+- The spread: a tin of chocolates, mince pies on a plate, a cheese board
+  with crackers, leftover turkey sandwiches later in the evening [LOW —
+  not verified, the notes' editorial spread]. No catalog entries yet
+  (see CANDIDATE QUEUE: festive sweets block).
+- Surface and environment: food on side plates and a separate board so
+  it does not cover the game; a generic board with abstract tiles or a
+  fanned pack of plain cards; paper crown hats, pulled crackers, fairy
+  lights and a tree soft in the corner.
+- Snapshot staging: **1 setting**: one side plate with a mince pie and
+  a wedge of cheese at the table edge, the generic board partly in frame.
+  **2 settings**: two identical side plates, the chocolate tin open
+  between them, dice and cards on the board. **Small group**: plates
+  round the edge of the coffee table, the cheese board cropped at one
+  end, blurred relatives on the sofa behind.
+- Never stage: licensed or branded games (Monopoly, Scrabble or Trivial
+  Pursuit layouts), legible cards or boards, money on the board, wine
+  or port glasses (a strong Christmas prior), identifiable children.
+- Confidence and sources: MEDIUM for the occasion, LOW for the spread;
+  EDITORIAL for staging.
+
+#### Game night: quiz night (church hall, charity, or home form only)
+- When: weeknights Tuesday to Thursday (Sunday in London), 19:30 to
+  22:00; intake time evening [MEDIUM — Wikipedia, tickts.co.uk].
+- Gathering: teams of 4 to 6 friends or colleagues at one table, several
+  teams across the room. Venue: other (a church or community hall
+  running a charity quiz, a school fundraiser) or home indoor (a home
+  quiz with the questions on the TV).
+- The spread: sausage rolls (see catalog: Sausage roll), crisps in
+  bowls, sandwiches on a platter; at home, a sharing platter of nibbles
+  [EDITORIAL; LOW — not verified].
+- Surface and environment: a folding table with a paper cloth in a hall
+  with strip or pendant lights, a quizmaster's microphone and speaker
+  blurred, a projector screen with an unreadable slide; at home, a
+  coffee table with a laptop mirrored to the TV as a soft glow.
+- Snapshot staging: **1 setting**: one paper plate with a sausage roll
+  and crisps beside a blank answer sheet and pencil. **2 settings**:
+  two identical plates, a shared crisp bowl, the answer sheet face-down
+  or illegible. **Small group**: a team table of four, other team
+  tables soft behind, the speaker blurred at the edge.
+- Never stage: the pub quiz in its pub form (**fundamentally
+  drinking-led; staged only as this hall or home form**); pints, wine,
+  a bar; legible questions, answer sheets or quiz brands; a cash prize.
+- Confidence and sources: MEDIUM for the format and timing ([Wikipedia
+  — Pub quiz](https://en.wikipedia.org/wiki/Pub_quiz); [YouGov — Pub quizzes](https://yougov.co.uk/topics/society/explore/activity/Pub_quizzes);
+  [tickts.co.uk guide](https://tickts.co.uk/blog/guide-to-uk-quiz-nights-pub-trivia?lang=en));
+  EDITORIAL for the non-drinking venue choice and staging.
+
+#### Game night: board-game café
+- When: weekend midday to evening; intake midday or evening [LOW — not
+  verified for UK specifically].
+- Gathering: 2 to 6 friends, often a young-adult cast; venue: restaurant
+  (café).
+- The spread: toasties cut in halves, chips or fries in a basket,
+  nachos to share [LOW — not verified, the notes' editorial spread].
+- Surface and environment: wooden café tables, shelves of game boxes
+  blurred behind with unreadable spines, warm pendant lights.
+- Snapshot staging: **1 or 2 settings**: a toastie on a plate at each
+  setting, the shared chip basket at the side so it does not cover the
+  generic board. **Small group**: four plates at the table edge, other
+  tables soft behind.
+- Never stage: branded games or legible boxes; beer (many cafés also
+  serve it).
+- Confidence and sources: LOW; the notes list board-game cafés for the
+  UK without a size figure. EDITORIAL for staging.
 
 ---
 
@@ -1437,6 +2411,37 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   additional verification pass beyond what's cited, since none turned up
   contested or surprising evidence worth a deeper dig.
 
+- **Celebrations pass (2026-10-01) open items.** No FESTIVALS & SEASONAL
+  OCCASIONS register exists yet; CELEBRATIONS & LARGE GATHERINGS stands in
+  as the calendar index until one is written. The Christmas-table
+  headcount (~8, ~11 in NI) comes from an unidentified commercial survey
+  seen only in search summaries (LOW). Christmas dinner timing (1 to 4pm)
+  has no YouGov figure behind it. Wedding guest numbers are Hitched data
+  read via secondary wedding-industry sites. UK-specific Eid and Diwali
+  table practice was not separately verified beyond lower-tier sources;
+  it leans on the asia/ country files. Children's party and wedding-menu
+  repertoires are general knowledge, MEDIUM at best.
+
+- **Game-night pass (2026-10-01) open items.** Not verified: typical UK
+  kick-off slots for tournament, Premier League and Six Nations games,
+  including the Saturday 3pm broadcast blackout (model knowledge, LOW);
+  the Six Nations home spread (pies, Scotch eggs, sharing board); the
+  Christmas board-game spread; home video-game nights; board-game café
+  prevalence and menus; prevalence of football betting. The crisps
+  figure (72% of pub sport snacking) is trade-press (Bar Magazine). The
+  41% home-with-family and pub-viewing figures are a Samsung consumer
+  survey and a JOE report, not read at source.
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  at source (search summaries only, no pages read): kitchen-diner fittings
+  (washing machine, kettle, radiator) rest on the existing ENVIRONMENT
+  note, not a new source; the living-room profile had no new search;
+  garden furniture and fence materials come from retail sites (commercial
+  tier); the gastropub dog bowl, chippy pickled-egg jars, vitrolite range
+  fronts as a common sight (not just a manufacturer offering) and the
+  chippy regional variants are LOW. Interior photo review of real
+  terraced kitchens, pubs and chippies would firm these up.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on Cornish Pasty Association / British Pie Awards
@@ -1458,6 +2463,20 @@ rather than promoted to its own file or deferred to a future Ireland file.**
    Spain contrast should be added when Spain is built.
 5. Independent §8 audit of this file (and `uk-scotland.md`) before either
    is treated as fully done, per the project's standing practice.
+
+6. Celebration dishes with no catalog entry yet (celebrations pass
+   2026-10-01): roast turkey Christmas plate (with pigs in blankets,
+   sprouts, parsnips, bread and cranberry sauce); pigs in blankets as a
+   compact entry; a compact British festive sweets block (Christmas
+   pudding, simnel cake, hot cross buns, parkin, toffee apples, treacle
+   toffee); children's party buffet (sandwich triangles, fairy cakes);
+   and a FESTIVALS & SEASONAL OCCASIONS register for this file.
+
+7. Viewing and game-night foods with no catalog entry yet (game-night
+   pass 2026-10-01): takeaway pizza as eaten at home (box, slices);
+   crisps in a bowl as a compact entry (blank-packet rule); British
+   sharing board / nibbles platter; toastie (café register); the festive
+   sweets block in item 6 also serves the Christmas board-game entry.
 
 ## RESEARCH LOG
 
@@ -1527,3 +2546,26 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   `uk-scotland.md`) and adding one narrow cross-reference line to `us.md`
   pointing here — see DECISIONS.md for the exact edit made and why it was
   kept minimal.
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (YouGov
+  Christmas dinner menu, Christmas timing/headcount, Bonfire Night foods,
+  Easter lunch, Hitched wedding guest numbers, British Eid/Diwali family
+  food). Added CELEBRATIONS & LARGE GATHERINGS after ENVIRONMENT & STAGING
+  SCENES (no festivals register exists) with 8 entries: Sunday roast as
+  the family gathering, Christmas dinner, Easter Sunday lunch, Bonfire
+  Night, birthday party, wedding breakfast/evening reception, Eid
+  al-Fitr/al-Adha family meal, Diwali family meal. WebSearch only; no
+  pages read at source.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  four watch-party entries (England tournament night at home, Premier
+  League weekend at home, Six Nations weekend, pub screening in a
+  food-led form only) and three social game-night entries (Christmas
+  board games, quiz night in hall or home form only, board-game café).
+  Bingo and the pub quiz in its pub form are recorded as not staged.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  terraced or semi kitchen-diner, living room for takeaway or watch party,
+  back garden patio, gastropub and traditional pub (both rewritten
+  background-first from the 2026-10-01 pilots), chippy. WebSearch only;
+  no pages read at source.

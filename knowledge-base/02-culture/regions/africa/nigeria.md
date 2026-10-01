@@ -214,6 +214,374 @@ the can. Background notes only where they prevent a visual error.
 | **Small-chops tray** | A round or rectangular foil or plastic tray with puff-puff, samosas, spring rolls, peppered gizzard or chicken on toothpicks — an event starter or a Friday office treat. |
 | **Northern compound meal (zone 6)** | A mat or low table in a shaded courtyard, a large enamel or aluminium bowl of tuwo, a bowl of miyan kuka, men and women often eating separately [LOW-MEDIUM — not independently re-checked]; strictly halal, no alcohol anywhere. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (background-first). The register table
+above stays as the index. Heading levels follow CELEBRATIONS & LARGE
+GATHERINGS (`##` section, `###` entries).
+
+**The settlement-register, tenement and buka framing is still PENDING
+HUMAN SIGN-OFF** (FILE ROLE & METHOD). These profiles use the file's
+sign-off-safe baseline (a tidy family flat or bungalow, a compound
+forecourt under a canopy, a clean busy buka framed as a beloved everyday
+institution, an owambe without money or alcohol). Where a register would
+change the background it is named as a **variant, described factually,
+not as a default**, and is not generated from until sign-off. The
+tenement (face-me-I-face-you) register gets no profile. The Ramadan/iftar
+call stays open; no profile is set in Ramadan daylight.
+
+Wave 1: the parlour and dining corner, the compound forecourt under a
+canopy, the buka, the suya spot, and the owambe under canopies or in an
+event hall. The viewing centre (GAME NIGHT) and the pepper-soup joint are
+left for a later wave.
+
+### Venue: Family parlour and dining corner (the "parlour", "sitting room")
+- **Use for:** home indoor; casual lunch for 1–3, dinner, Sunday family
+  lunch, Christmas and Sallah family meals, the Premier League and Super
+  Eagles watch parties, ludo and Whot. The national default home
+  interior, in a flat or a bungalow. [MEDIUM — the parlour, sofa set and
+  centre table as the core of Nigerian sitting rooms (Guardian Nigeria
+  "How the Nigerian living room has evolved"; furniture and POP-ceiling
+  trade sites); share of flat vs. bungalow not sourced, see GAP LOG]
+- **Soft background (the core):**
+  - *Back wall:* smooth painted plaster in cream, beige, pale peach or
+    light grey; framed **family and wedding portraits** in gold or dark
+    frames, a wall clock, a calendar (blank blur, never legible); a TV on
+    the wall or on a low console as a dark rectangle. [LOW-MEDIUM — not
+    independently re-checked; interior markers carried from General
+    environmental norms]
+  - *Ceiling (often in frame at a low angle):* a **POP (plaster of Paris)
+    ceiling** with a stepped tray, **recessed downlights** and often a
+    **chandelier** at its centre, plus a **ceiling fan**. Out of focus
+    this is a cluster of bright points and a white stepped edge.
+    [MEDIUM — POP ceiling with chandelier described as the visual
+    signature of a modern Nigerian sitting room (Guardian Nigeria; Vento
+    Furniture, Lead Interior Decor trade sites)]
+  - *Middle distance:* a large **sofa set** (three-seater plus armchairs,
+    fabric or leather-look, often in brown, cream or grey, sometimes with
+    throw cushions); the **centre table** (glass-topped or dark wood);
+    a glass-fronted cabinet with plates and ornaments; the dining table
+    beyond, with insulated **food flasks** (round lidded food warmers)
+    or a covered pot on it [food flasks LOW — not verified].
+  - *Light:* daylight through windows with **burglar-proof grilles** and
+    either **lace or heavy curtains** (older homes) or **blinds** (newer
+    homes), often a bright, slightly hazy tropical light; evening: cool
+    or warm LED downlights, the TV glow, a **rechargeable lamp** on a side
+    table for outages. [MEDIUM — blinds replacing thick curtains (Guardian
+    Nigeria); grilles and rechargeable lamp per General environmental
+    norms]
+  - *Palette:* cream and beige walls, glossy pale ceramic tiles, a darker
+    sofa, gold picture frames, flashes of bright print in cushions.
+  - *Signature shapes (3–5):* the POP ceiling edge with downlights or a
+    chandelier; the ceiling fan; the long sofa set; the glass centre
+    table; a window grille behind a lace curtain.
+  - *Density and wear:* tidy, furnished for receiving guests, slightly
+    formal; a plastic cover on a remote, a doily on the side table.
+    [EDITORIAL]
+  - *People cues:* one or two family members on the sofa, soft, no sharp
+    face.
+- **Shell:** a flat in a 2–4-storey block or a cement bungalow: **large
+  glossy ceramic floor tiles**, plastered and painted walls, POP ceiling,
+  aluminium or steel-framed windows with grilles. [LOW-MEDIUM — carried
+  from the estate and flat register descriptions]
+- **The table as set here:** the dining table with a **plastic or lace
+  tablecloth**; ceramic or glass plates; a spoon for rice, the right
+  hand for swallow, with **a small bowl of water for washing hands** (file
+  rule 5); swallow on its own plate, soup in a bowl; or the centre table
+  with side plates for snacks. Upholstered dining chairs. [MEDIUM — the
+  family-lunch register; rule 5]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos family flat or bungalow parlour with a
+  POP ceiling, tiles, sofa set and ceiling fan, in tropical daylight.
+  Southeast and Delta: the same, often a storey house with a larger
+  parlour; more Christian imagery (keep any wall text or religious art
+  illegible and out of the product's zone). North (zone 6): carpets or
+  rugs on the floor, floor cushions or low seating in some homes, more
+  modest decor; meals sometimes on a mat (Northern compound register).
+  Harmattan (Dec–Feb): a pale, dusty haze in the window light. *Register
+  variants (PENDING SIGN-OFF, factual only):* a gated-estate duplex with a
+  double-height parlour and marble-look tiles; a room-and-parlour flat
+  where the centre table is the dining table.
+- **Hallucination traps:** a placeless glass-and-marble showroom (the
+  file's sanitized over-correction); "tribal" masks, drums, carved
+  figures or animal skins as decor; an African-American US living room;
+  a Ghanaian or Kenyan interior presented as generic "African"; open
+  drains, generator smoke or flood water through the window (poverty
+  framing).
+- **Never stage:** beer, stout or palm wine; Chapman; legible
+  calendars, Bible verses, wall plaques, screens or packaging; fuel cans
+  (a generator is a cable at most); brand marks; a full flag;
+  identifiable children.
+- **Prompt-ready line:** "A Nigerian family parlour in soft focus: a
+  white stepped plaster ceiling with recessed lights and a ceiling fan,
+  cream walls with framed family portraits, a large sofa set and a glass
+  centre table, and bright tropical daylight through a lace curtain over
+  a window grille."
+- **Confidence and sources:** MEDIUM overall (Guardian Nigeria; POP and
+  furniture trade sites for the ceiling and centre table); colours,
+  food flasks and set dressing LOW or editorial. 1 search this pass.
+
+### Venue: Compound forecourt under a canopy (the "compound", the forecourt)
+- **Use for:** home outdoor; the family BBQ or get-together, naming
+  ceremonies, Christmas in the hometown, the after-party Whot game, a
+  Super Eagles night with the TV carried out; 1, 2 or a small group of
+  settings inside a gathering of 10–40 or more. The market's home
+  outdoor default. [LOW-MEDIUM — Meal outdoors at home scenario; not
+  independently re-checked]
+- **Soft background (the core):**
+  - *Back wall:* the **house front** (painted cement in cream, white,
+    peach or pale yellow, with grilled windows and a covered porch) or
+    the **compound wall**, plastered and painted, topped with spikes or
+    wire kept soft; a **metal gate** (sliding or swing, painted black,
+    grey or brown). [LOW-MEDIUM — estate register; not independently
+    re-checked]
+  - *Overhead:* a hired **party canopy**, a white or striped fabric roof
+    on metal poles, its scalloped fringe a strong shape at the top of the
+    frame. [MEDIUM — canopies, chairs and covers are standard party
+    hire in Lagos and Ibadan (Jiji listings; J & E Party Rentals)]
+  - *Middle distance:* rows of **white plastic chairs**, some with
+    covers; a charcoal grill with smoke; **coolers** (large insulated
+    food coolers) and covered pots on a side table; a **water tank on a
+    stand** or on the roof and a small **generator house** at the side as
+    soft block shapes; a parked car; a mango, plantain or palm tree.
+    [MEDIUM for interlocking pavers and water tanks as common features
+    (daibau.ng; general); generator housing per the estate register]
+  - *Light:* hard tropical daylight on the pavers with deep shade under
+    the canopy; golden-hour from about 17:30, short dusk (equatorial);
+    after dark, a bulb or floodlight on the house wall. Dry-season light
+    is the default (rainy-season caution in the scenario). [EDITORIAL]
+  - *Palette:* grey or terracotta **interlocking pavers**, cream walls,
+    white canopy, green foliage, the colour of guests' fabric.
+  - *Signature shapes (3–5):* the canopy fringe; rows of white chairs;
+    the gate; the water tank on its stand; a grill with smoke.
+  - *Density and wear:* busy and used, swept clean for guests.
+  - *People cues:* relatives in bright prints or matching fabric, soft,
+    within the background-people limit.
+- **Shell:** an open paved forecourt between the gate and the house, or
+  a yard; interlocking paving stones (the most popular outdoor flooring
+  in Nigeria [MEDIUM — daibau.ng]) or concrete.
+- **The table as set here:** a plastic party table with a cloth or a
+  plastic cover; plates of jollof, chicken and dodo; disposable plates
+  and plastic spoons at a big gathering; a cooler at the frame edge.
+  White plastic chairs. [LOW-MEDIUM; EDITORIAL]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos or Ibadan bungalow forecourt with
+  pavers, a canopy and white chairs. Southeast hometown at Christmas:
+  a larger family house, red laterite earth beyond the wall, green
+  hills. North (zone 6): a walled compound with a zaure entrance, sand or
+  beaten earth, a shade tree, mats rather than chairs. *Register
+  variants (PENDING SIGN-OFF, factual only):* a rural village compound
+  of zinc-roofed bungalows around an earth yard.
+- **Hallucination traps:** a US backyard with lawn and picket fence;
+  a South African braai with brick fireplace; savanna and acacias; an
+  unfinished building or rubble as "authentic"; a beach-party look.
+- **Never stage:** beer crates, stout, palm wine in calabashes or
+  jerrycans, Chapman mugs; sachet water; slaughter (goat, ram) or a live
+  animal near the product; printed banners with names; brand marks on
+  coolers or canopies; money spraying.
+- **Prompt-ready line:** "A Nigerian compound forecourt in soft focus: a
+  white party canopy with a scalloped fringe over grey interlocking
+  pavers, rows of white plastic chairs and a black metal gate in a cream
+  wall, a water tank on its stand and green plantain leaves beyond."
+- **Confidence and sources:** LOW-MEDIUM overall; canopies and pavers
+  MEDIUM (Jiji, J & E Party Rentals, daibau.ng); the rest carried from
+  the file's registers or editorial. 1 search this pass (plus the owambe
+  canopy search).
+
+### Venue: Buka / mama put (buka, bukka; mama put)
+- **Use for:** restaurant, indoor or semi-outdoor; weekday lunch, 1 or
+  2 people (Away from home 1 person), a small group of co-workers. The
+  default casual sit-down eating-out venue. **Framing PENDING HUMAN
+  SIGN-OFF — stage as busy, clean, beloved; never as a hardship
+  setting** (FILE ROLE & METHOD). [HIGH for the buka form — Demand
+  Africa, BusinessDay, All Nigerian Recipes, Guardian Nigeria "Abuja's
+  buka boom"]
+- **Soft background (the core):**
+  - *Back wall and counter:* the **food counter**: a row of wide
+    **aluminium pots and trays** (jollof, fried rice, white rice, beans),
+    a bowl of red stew, fried meat and chicken stacked, boiled eggs,
+    fried plantain, and the cook ladling; behind it, painted or tiled
+    walls, steam rising. [HIGH — Guardian Nigeria (trays of jollof and
+    fried rice, stew, meat stacked, plantain "catching the light");
+    Demand Africa (view of the hot cooking pot)]
+  - *Middle distance:* **wooden benches and tables**, or plastic chairs
+    around small tables; other diners as blurred backs; a ceiling fan or
+    standing fan; the open front to the street. [HIGH — Demand Africa:
+    shacks of roofing sheets with wooden benches and tables, or open
+    canopy tents with plastic chairs, or tarpaulin-and-roofing
+    structures]
+  - *Light:* bright daylight from the open front, **shade under a
+    corrugated roof or canopy**; steam and, where cooked on firewood, a
+    faint smoke haze catching the light; a fluorescent tube inside.
+    [MEDIUM — firewood cooking per Guardian Nigeria; light editorial]
+  - *Palette:* aluminium silver, red-orange stew and jollof, golden
+    plantain, wood brown, the green or blue of plastic chairs, painted
+    walls in pale blue, green or cream.
+  - *Signature shapes (3–5):* the row of wide silver pots; steam; the
+    cook's back and ladle; wooden benches; a canopy or roof edge with
+    the bright street beyond.
+  - *Density and wear:* busy, well-used and clean: scrubbed tables,
+    plastic or enamel plates in stacks.
+  - *People cues:* the cook (apron, headscarf or cap) and diners, soft,
+    within the background-people limit.
+- **Shell:** a street-front room, a roofing-sheet shed or a canopy on a
+  concrete pad; newer urban bukas are indoor rooms with tiled floors and
+  plastic furniture. [HIGH — Demand Africa; Guardian Nigeria on new
+  Abuja bukas]
+- **The table as set here:** a bare wooden or plastic table; a plate
+  (melamine, enamel or ceramic) of rice, beans and stew with assorted
+  meat, or amala with ewedu and gbegiri; a spoon; **a small bowl of water
+  for washing hands** for swallow (rule 5); a plastic napkin holder or
+  roll of tissue. Bench or plastic-chair edge in frame. [MEDIUM — buka
+  scenario; tableware LOW-MEDIUM]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos buka with a roofed front, wooden
+  benches and a counter of aluminium pots. Ibadan and Southwest: amala
+  spots, darker interiors, firewood smoke. Abuja: newer, indoor, tiled
+  "buka" restaurants. Southeast: canteens built around swallow
+  and soups. North: rice-and-stew and tuwo canteens with benches (not yet
+  profiled). [LOW-MEDIUM; EDITORIAL]
+- **Hallucination traps:** a generic Western café; a Ghanaian chop bar
+  with Ghanaian dishes (banku, kenkey); a sit-down "African restaurant"
+  of the diaspora with themed decor; open drains, flies, flood water or
+  a ragged shack (poverty framing); a buffet in a hotel.
+- **Never stage:** beer, stout, sachet water, a bar fridge with bottles;
+  hand-painted signs or menus that read; brand marks on the fridge,
+  umbrella or chairs; money changing hands.
+- **Prompt-ready line:** "A busy, clean Lagos buka at lunchtime in soft
+  focus: a counter of wide aluminium pots of jollof and stew with steam
+  rising, a cook ladling under a corrugated roof, wooden benches and a
+  bright street beyond the open front."
+- **Confidence and sources:** HIGH for the form (Demand Africa, Guardian
+  Nigeria, BusinessDay); palettes and tableware editorial. 1 search this
+  pass.
+
+### Venue: Suya spot (mai suya's stand)
+- **Use for:** on-the-go or "other", outdoor; the evening snack, after
+  work, 1–3 people; the BEVERAGE MOMENTS "Suya night" row. The national
+  default street venue: suya is now sold everywhere, not only in the
+  North. [HIGH — Wikipedia (Suya); Tasting Table; this file's registers]
+- **Soft background (the core):**
+  - *Back wall:* the night street: a dark, warm-toned field with a few
+    bulb glows, a lit kiosk or shop front, passing traffic as streaks and
+    bokeh, the yellow of a danfo far behind. [EDITORIAL]
+  - *Middle distance:* the **mai suya's stand**: a **wire grill over
+    glowing charcoal** on a wooden or metal stand or a cut-down drum,
+    rows of skewers of dark, spice-dusted meat; a **wooden board** with a
+    knife; a mound of yaji in a tray; sliced onions, tomato and cabbage;
+    sometimes a glass display box with hanging meat. The vendor in a
+    kaftan and cap, or a T-shirt, soft. [HIGH for stands on street corners
+    with coal-fired grills and evening trade — Tasting Table; Wikipedia;
+    the register's structure "wire grill on stand, spice mound, knife,
+    board"]
+  - *Light:* the **charcoal's orange glow** from below, smoke catching
+    it; a single **bare bulb** or a **hurricane or rechargeable lamp**
+    hung on the stand; the cooler, whiter light of a shop front. [MEDIUM
+    — register (bulb or lamp, charcoal glow); lamp type LOW]
+  - *Palette:* black night, ember orange, smoke grey, the reddish-brown
+    spice crust, white onion rings.
+  - *Signature shapes (3–5):* the glowing grill; smoke column; a hanging
+    bulb; the vendor's silhouette; car headlights as bokeh.
+  - *Density and wear:* busy street corner, worn but clean stand.
+  - *People cues:* the vendor and one or two customers as silhouettes.
+- **Shell:** a pavement or roadside corner, often near shops, a filling
+  station or a bar (exclude the bar); the stand sometimes under a small
+  zinc roof. [MEDIUM — register alcohol note: "often beside a bar —
+  exclude"]
+- **The table as set here:** no table: a **ledge**, a stool or the stand's
+  edge; suya on **plain, unprinted brown or white paper** (never
+  newspaper, rule 1), with onion, tomato and a pinch of yaji. [HIGH —
+  rule 1; first-party text finding]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos street-corner suya stand at night.
+  North (zone 6): the home of suya, with kilishi and balangu also on
+  sale; a roadside stand under a tree, harmattan haze at dusk. Abuja:
+  stands along wide avenues. Viewing centre: suya sold at the door
+  (GAME NIGHT).
+- **Hallucination traps:** a Turkish or Middle Eastern kebab shop with a
+  döner spit; Southeast Asian satay; American barbecue; newspaper
+  wrapping (strong prior); a bar with beer bottles behind the stand.
+- **Never stage:** newspaper or printed paper; beer, stout or a bar;
+  legible signs; brand marks; money on the ledge; pork.
+- **Prompt-ready line:** "A Nigerian suya stand at night in soft focus:
+  skewers of spice-dusted meat on a wire grill over glowing charcoal,
+  smoke lit orange, a bare bulb hanging over the vendor's silhouette, and
+  passing headlights blurred beyond."
+- **Confidence and sources:** HIGH for the form and night trade
+  (Wikipedia, Tasting Table, file registers); lamp type LOW. 1 search
+  this pass.
+
+### Venue: Owambe under canopies or in an event hall (owambe; "party")
+- **Use for:** "other"; wedding receptions, milestone birthdays, naming
+  ceremonies of well-off families, igba nkwu receptions; 1, 2 or a small
+  group of settings at one arc of a round table of 8–10 inside a crowd of
+  hundreds. The market's signature event venue. [HIGH for the owambe look
+  (OWAMBE register sources); MEDIUM for hire items — Lagos party-rental
+  firms (J & E Party Rentals, Eloquent Displays, Naphtali Rentals) list
+  marquee canopies, chiavari and white chairs, chair covers and round
+  banquet tables]
+- **Soft background (the core):**
+  - *Overhead and back wall:* **street or compound version:** rows of
+    **white canopies** (or marquee tents) with fringed edges, metal
+    poles, the sky between them; **hall version:** a large hall with a
+    POP ceiling, chandeliers, draped fabric and uplighting in the
+    celebrants' colours. The printed backdrop or stage is far behind and
+    illegible. [HIGH for white canopies — register; hall dressing
+    LOW-MEDIUM]
+  - *Middle distance:* other **round tables** with long cloths and
+    centrepieces; **chairs in covers** (white, gold or the event colour)
+    or white **chiavari** chairs; guests in **aso ebi**, one fabric
+    colour or print repeated across many people, women's **gele**
+    headwraps as tall sculpted silhouettes; waiters in matching uniforms
+    carrying plates; the band or DJ area as a dark cluster with lights.
+    [HIGH — aso ebi, gele, band/DJ (register); MEDIUM — chair covers and
+    chiavari (rental firms)]
+  - *Light:* under canopies: bright, even shade with hot sun beyond;
+    golden-hour as the party runs into evening; in a hall: warm
+    chandelier light and coloured uplights. [EDITORIAL]
+  - *Palette:* white canopy and linen dominated, with the **aso ebi
+    colour** (gold, wine, emerald, coral, lace) repeated through the
+    crowd as the key accent.
+  - *Signature shapes (3–5):* canopy roofs in rows; gele silhouettes;
+    covered chairs; round tables receding; a cooler or chafing dish at a
+    serving point.
+  - *Density and wear:* dense, festive, new: crisp covers, guests packed
+    table to table.
+  - *People cues:* guests as blurred colour and silhouettes, within the
+    background-people limit; no identifiable children.
+- **Shell:** a closed street or a compound with hired canopies on
+  tarmac or pavers, or an event hall with tiled floor. [HIGH — register;
+  How large gatherings work here]
+- **The table as set here:** a round table with a white or coloured
+  cloth; each guest's **plated meal** (two rices, protein, dodo, moi moi,
+  salad) on disposable or hired white plates; a plastic spoon or fork;
+  small chops in a small box first; serviettes. [MEDIUM — La Heiress via
+  How large gatherings work here]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos owambe under white canopies with covered
+  chairs and aso ebi guests. Southeast igba nkwu: a family compound with
+  canopies and a central space for the wine-carrying (rite never the
+  subject). North: weddings are more gender-separated, modest dress
+  (see the file's northern notes); halls in Kano or Kaduna. Hall
+  version for upscale Lagos and Abuja.
+- **Hallucination traps:** a Western white wedding with champagne; an
+  Indian wedding mandap; a Ghanaian kente-dominated look; "tribal"
+  costume; money raining over the table; a party backdrop with readable
+  names.
+- **Never stage:** money spraying or naira notes; beer, stout, palm wine,
+  Chapman mugs, sachet water; printed backdrop text; brand marks on
+  coolers, chairs or canopies; a full flag; identifiable children.
+- **Prompt-ready line:** "A Lagos owambe in soft focus: rows of white
+  canopies over round tables with white-covered chairs, guests in
+  matching gold aso ebi and tall gele headwraps as blurred silhouettes,
+  and waiters carrying plates between the tables in bright afternoon
+  shade."
+- **Confidence and sources:** HIGH for the canopy and aso ebi look
+  (register sources); MEDIUM for hire items (Lagos rental firms); hall
+  dressing LOW-MEDIUM. 1 search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -753,6 +1121,472 @@ Signs, price boards and printed wrapping blurred or plain (rule 1).
 | **New Yam Festival (Iri ji)** | Early August (end of rainy season) | Igbo communities, first yams offered and eaten | Roasted yam with palm-oil sauce, yam pottage | Low–fair | **Traditional and ritual elements (offering, elders, shrines) not a staging setting** [HIGH for timing/meaning — Wikipedia (via search), NICO] |
 | **Calabar Carnival** | 1–31 Dec; peak 26–30 Dec 2026, Parade of the Bands Mon 28 Dec 2026 [HIGH — Cross River State carnival site, Rio Times, Africanews] | Costumed bands, floats | Street food | Fair (crowd backdrop only) | Genericize bands; exclude alcohol |
 | **Weddings, naming, birthdays (owambe)** | Year-round, most on Saturdays [LOW-MEDIUM] | Canopies | Party food | **Excellent** | See OWAMBE register |
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). The frame shows
+only the operator's party (1, 2 or a small group of identical place
+settings) at one table or one stretch of a long table; the crowd is
+implied. This section deepens the OWAMBE & PARTY FOOD register and the
+FESTIVALS calendar above; it does not replace them. **The settlement-
+register and buka/tenement framing is still PENDING HUMAN SIGN-OFF** (FILE
+ROLE & METHOD); every entry below uses the sign-off-safe baseline (a tidy
+family home, a family compound forecourt under a canopy, or a hired event
+hall) and none depends on the pending registers. **Ramadan rules stand
+unchanged** (GENERAL NORMS: no daytime eating scenes in Muslim settings;
+iftar staging is an open editorial call flagged in the GAP LOG); iftar is
+not given a celebration entry here.
+
+### How large gatherings work here
+
+- **Who and how many.** Nigerian celebrations are big. Weddings, milestone
+  birthdays, naming ceremonies of well-off families and funerals of the
+  elderly are owambe-scale events; caterers advise planning for far more
+  guests than invited (food for about 700–800 when 500 are expected) and
+  using more than one caterer above about 400 guests [MEDIUM — La Heiress
+  Weddings, a Lagos wedding planner; tier 2–3]. A Christmas or Sallah
+  family day is smaller, roughly 10–40 across extended family and
+  visitors [LOW-MEDIUM — estimate].
+- **Where (intake venues).** "Other" for the big ones: an event hall, or
+  **canopies and rows of chairs on a street or in a compound forecourt**
+  (the owambe look, see register). Home outdoor: a compound or forecourt
+  under a canopy for naming ceremonies and Christmas in the village. Home
+  indoor: the parlour and dining table for Sallah and Christmas family
+  meals, with visitors coming and going.
+- **Table form.** Owambe: **round tables of 8–10** under canopies or in a
+  hall, covered in cloth with chair covers; food comes to the guest. Home
+  days: the dining table plus the parlour's centre table, plates handed
+  round; in the North, a mat or low table in the compound. [MEDIUM — the
+  owambe form is HIGH (register sources); home forms LOW-MEDIUM]
+- **Who serves.** At owambes, **caterers cook in bulk and waiters bring
+  each guest a plated meal**, rice carried from coolers; planners advise
+  25–30 waiters for 500 guests and disposable plates and cups to stretch
+  service [MEDIUM — La Heiress]. At home, the women of the family cook
+  and serve; guests are served before the household eats.
+- **Serving style.** Plated individual portions at events (one heaped
+  plate per guest: two rices, protein, dodo, moi moi, salad), small chops
+  in small boxes or on side plates first; family-style pots and platters
+  at home. Swallow and soup are served per person at home and at Igbo
+  and northern events.
+- **Plates and cutlery.** At events, disposable plastic or styrofoam
+  plates and plastic spoons and forks are common, or hired white crockery
+  at upscale halls; **a spoon for rice**, the right hand for swallow, a
+  hand-washing bowl for swallow meals. [LOW-MEDIUM — disposable plates
+  per La Heiress; rest not independently re-checked]
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  most authentic cues: (1) **aso ebi fabric** (one colour or print
+  repeated) on blurred guests behind, gele headwraps as silhouettes;
+  (2) **white canopy roof and rows of covered chairs** soft in the
+  background; (3) **a cooler or chafing dish at a serving point** soft
+  at the frame edge. The operator's table is a round table, so "the
+  visible stretch" is one arc of it.
+- **Never staged**: money spraying or naira notes near the product; the
+  drinks side (beer, stout, palm wine, Chapman mugs, sachet water); the
+  live band's printed backdrop; slaughter of rams, goats or cows (Sallah,
+  aqiqah naming, Christmas village goat); church or mosque interiors.
+
+### Celebration: Wedding reception (owambe)
+- Type: life event
+- When: year-round, mostly Saturdays; the reception follows a morning
+  church or nikkah ceremony and runs from early afternoon into evening.
+  Intake time: midday or golden-hour
+- Gathering: families, aso ebi groups, friends and community; commonly
+  several hundred, 500+ at big Lagos weddings [MEDIUM — La Heiress
+  planning figures; no survey]. Venue: other (event hall, or canopies on
+  a street or forecourt)
+- The spread: **party jollof** and **fried rice** (see catalog: Party
+  jollof rice; Nigerian fried rice), **dodo** (see catalog: Dodo), **moi
+  moi** (see catalog: Moi moi), fried or peppered chicken, beef or fish,
+  **Nigerian salad or coleslaw** (see catalog: Nigerian salad and
+  coleslaw); a **small chops** box first (see catalog: Small chops
+  platter); amala or pounded yam with soup at Yoruba weddings (see
+  catalog: Amala with abula; Pounded yam and egusi). The wedding cake is
+  a tall tiered white cake on its own table (no catalog entry; added to
+  the CANDIDATE QUEUE). Per guest table: no shared serving vessels beyond
+  a small-chops box and a napkin holder; the shared vessels are the
+  caterers' coolers and chafing dishes at the service point.
+  [HIGH for the party menu — OWAMBE register sources; service MEDIUM]
+- Snapshot staging: **1 setting** — one place at a round, cloth-covered
+  table: a heaped plate of jollof and fried rice with a chicken
+  drumstick, three dodo slices, a moi moi slab and a spoon of salad; a
+  small-chops box beside it; the table edge curves out of frame.
+  **2 settings** — two identical plates on one arc of the table, two
+  small-chops boxes, chair covers visible. **Small group (3–4)** — one
+  arc of the round table with four identical plates; the next round
+  table soft behind with aso ebi guests (no more than two faces, none
+  sharp); a waiter's tray or a chafing dish soft at the frame edge. If
+  the brief allows a multi-serve bottle, one sits at the table centre
+  (schema §5.7); otherwise the brief's single-serve at each place, as
+  the OWAMBE register says.
+- Decor and cues: aso ebi colour on blurred guests, gele silhouettes,
+  canopy roof, chair covers and sashes, a flower centrepiece kept low.
+  Avoid printed names, monograms and hashtags on backdrops (legible
+  text).
+- Never stage: money spraying, beer and stout crates, Chapman mugs,
+  palm wine, sachet water, the bride and groom as identifiable faces.
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+### Celebration: Igbo traditional wedding (igba nkwu / wine-carrying)
+- Type: life event
+- When: in the bride's family compound or hometown, often around the
+  Christmas and Easter homecoming seasons and on Saturdays. Intake time:
+  midday or golden-hour
+- Gathering: both extended families and the community; usually hundreds
+  [LOW-MEDIUM — estimate]. Venue: home outdoor (compound or village
+  square under canopies)
+- The spread: **abacha** (African salad) as a starter, **pepper soup**
+  (see catalog: Pepper soup), **nkwobi** (see catalog: Nkwobi and isi
+  ewu), **akpu/fufu or pounded yam with ofe onugbu or oha** (see catalog:
+  Swallows; Ofe onugbu and oha), **party jollof** (see catalog), and
+  sometimes **ukwa** (breadfruit). [MEDIUM — Pulse Nigeria on Igbo
+  traditional-wedding foods, Joy Ribbons and The Circular; tier 2–3]
+  Abacha has no full entry: pale cream shreds of dried cassava dressed in
+  orange-red palm-oil sauce with sliced garden egg, onion rings, ugba
+  slivers, a scatter of green leaves and a piece of fried fish, heaped on
+  a plate about two can-widths across (already in the GAP LOG and
+  CANDIDATE QUEUE).
+- Snapshot staging: **1 setting** — a plate of abacha with fish, or a
+  swallow on its plate with a bowl of ofe onugbu beside it and a hand-
+  washing bowl; a covered pot partly in frame. **2 settings** — two
+  swallow plates and soup bowls, a shared bowl of nkwobi between them.
+  **Small group** — one arc of a round table under a canopy with four
+  identical plates of jollof and abacha, a pepper-soup tureen at the
+  centre. Cues: george and wrapper fabrics and red coral beads on blurred
+  guests; a canopy roof; plastic chairs in rows behind.
+- Decor and cues: george wrappers, coral beads, red caps on elders (soft,
+  background). Avoid "tribal" costume, masks.
+- Never stage: **the wine-carrying rite itself** (the bride carrying palm
+  wine to the groom is the ceremony's core and is a drinking rite); palm
+  wine in calabashes or jerrycans; kola nut rites; money spraying.
+- Confidence and sources: food MEDIUM (sources above); headcount and
+  staging EDITORIAL.
+
+### Celebration: Naming ceremony (isomoloruko; suna in Hausa; iba nwa in Igbo)
+- Type: life event
+- When: traditionally the eighth day after birth (Yoruba; also the
+  seventh/eighth day in Muslim families), with the naming in the morning
+  and food served afterwards to visitors. Intake time: midday
+- Gathering: family, neighbours, church or mosque community; from about
+  20 at home to owambe scale [LOW-MEDIUM — estimate]. Venue: home indoor
+  or home outdoor (forecourt with a canopy)
+- The spread: **jollof rice with fried plantain and meat**, or **amala
+  with ewedu or egusi, pounded yam**, plenty of chicken and meat (see
+  catalog: Party jollof rice; Dodo; Amala with abula; Pounded yam and
+  egusi); small chops (see catalog: Small chops platter). [MEDIUM —
+  Pulse Nigeria naming-ceremony ideas and Wikipedia (Yoruba name) for the
+  eighth day; food from Pulse and tier-4 sources that agree]
+- Snapshot staging: **1 setting** — a plate of jollof, dodo and a piece
+  of chicken on a parlour centre table, a cooler's lid cropped at the
+  edge. **2 settings** — two plates on the dining table; between them a
+  covered pot of amala and a bowl of ewedu. **Small group** — four plates
+  at a forecourt table under a canopy, a small-chops tray in the middle;
+  women in matching fabric soft behind. Cues: a cooler or stacked
+  takeaway packs at the table edge; visitors' shoes or chairs at the door;
+  a canopy roof.
+- Decor and cues: soft family-colour fabrics, a canopy. Keep the baby
+  out of frame or unidentifiable (kid-adjacent scene, see GAP LOG).
+- Never stage: the naming rites (water, honey, kola, salt and other
+  symbolic items, prayers), the Muslim aqiqah ram slaughter, alcohol.
+- Confidence and sources: as tagged.
+
+### Celebration: Birthday party (milestone and children's)
+- Type: life event
+- When: any day, big ones on Saturdays; milestone birthdays (40th, 50th,
+  60th, 70th) are full owambes. Intake time: golden-hour or evening
+- Gathering: milestone: hundreds, as a wedding; a young adult's or
+  child's party: 15–50 at home [LOW-MEDIUM — estimate]. Venue: other
+  (hall or canopies) for milestones; home indoor or outdoor otherwise
+- The spread: the party plate (see the wedding entry), **small chops**
+  (see catalog: Small chops platter; Puff-puff; Meat pie), **chin chin**
+  in bowls (see catalog: Chin chin), and a birthday cake (no catalog
+  entry; added to the CANDIDATE QUEUE). [MEDIUM — party-food sources in
+  the OWAMBE register; birthday specifics not separately searched]
+- Snapshot staging: **1 setting** — a party plate and a small-chops box
+  at a decorated table; the cake on its stand cropped at the edge.
+  **2 settings** — two plates, a shared bowl of chin chin and a tray of
+  puff-puff. **Small group** — one arc of a round table with four plates
+  and a small-chops tray; balloons in plain colours and a soft canopy or
+  ceiling drape behind.
+- Decor and cues: plain balloons, a dessert table soft in the background.
+  Avoid numerals, names and printed banners (legible text).
+- Never stage: children as the target of the product (TCCC under-13
+  rule; a children's party needs reviewer clearance, see GAP LOG); money
+  spraying; alcohol.
+- Confidence and sources: MEDIUM for the food; staging EDITORIAL.
+
+### Celebration: Christmas and New Year at home and in the hometown
+- Type: calendar holiday
+- When: 25–26 December and 1 January; many families travel to their
+  hometowns or villages, especially to the Southeast. Main meal at
+  midday or afternoon. Intake time: midday
+- Gathering: extended family (grandparents, uncles, aunts, cousins) plus
+  neighbours dropping in; roughly 15–40 [LOW-MEDIUM — estimate]. Venue:
+  home indoor (parlour and dining table) or home outdoor (village
+  compound)
+- The spread: **jollof rice** with fried chicken, beef or **goat meat**
+  (see catalog: Party jollof rice), **fried rice**, **moi moi**, **dodo**,
+  **pounded yam with egusi** (see catalog: Nigerian fried rice; Moi moi;
+  Dodo; Pounded yam and egusi), Nigerian salad, goat **pepper soup** (see
+  catalog: Pepper soup); in the East, ofe owerri or other soups (no entry;
+  already in the GAP LOG). About 6–10 pots and platters. [HIGH for the
+  menu and the homecoming — Vanguard, Remitly, Commonwealth's Your
+  Commonwealth, and the FESTIVALS register converge]
+- Snapshot staging: **1 setting** — a plate of jollof and chicken with
+  dodo on the dining table; the jollof pot and a salad bowl cropped at
+  the edge. **2 settings** — two plates; between them a platter of fried
+  chicken and goat meat and a bowl of salad. **Small group** — the end of
+  the dining table with jollof, fried rice, chicken and moi moi platters
+  and a soup pot, a second table or the parlour's centre table with
+  more dishes soft behind. Cues: more pots than diners; plastic chairs
+  brought in from outside; a Christmas tree with lights soft in the
+  parlour or a village compound wall in harmattan haze.
+- Decor and cues: tinsel, a small tree, new clothes. Avoid snow and
+  northern-winter imagery.
+- Never stage: the goat or chicken before cooking; church interiors;
+  beer, stout or palm wine.
+- Confidence and sources: HIGH for the menu; headcount LOW-MEDIUM.
+
+### Celebration: Eid al-Fitr (Small Sallah)
+- Type: calendar holiday
+- When: the day after Ramadan ends (~9–10 March 2027, moon-dependent);
+  after Eid prayers in the morning, families eat, dress up and visit
+  relatives and neighbours through the day. Intake time: midday
+- Gathering: extended family and visitors, roughly 15–40 over the day
+  [LOW-MEDIUM — estimate]. Venue: home indoor (parlour) or home outdoor
+  (northern compound)
+- The spread: in the North, **tuwo shinkafa with miyan kuka or miyan
+  taushe** (see catalog: Tuwo shinkafa with miyan kuka), **masa** (see
+  catalog: Masa), fried meat; across Muslim homes everywhere, **jollof
+  and fried rice** with chicken or beef, and **chin chin** for visitors
+  (see catalog: Party jollof rice; Nigerian fried rice; Chin chin).
+  Miyan taushe has no entry: a thick orange pumpkin and groundnut soup
+  with spinach-like greens, served in a bowl beside the tuwo (added to
+  the CANDIDATE QUEUE). [MEDIUM — Daily Trust on Eid al-Fitr dishes and
+  Vanguard (May 2026) on Sallah foods; FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of jollof with fried meat on
+  a parlour centre table, a bowl of chin chin cropped at the edge.
+  **2 settings** — two tuwo mounds on plates with a shared bowl of miyan
+  kuka between them on a low table. **Small group** — the end of a
+  dining table or a mat with tuwo, soup bowls, a rice platter and a plate
+  of masa; visitors in embroidered robes soft in the doorway. Cues: more
+  bowls than diners; guests' sandals at the door; Sallah clothes on
+  blurred figures.
+- Decor and cues: new embroidered kaftans and babban riga, bright
+  wrappers and headscarves (blurred). Avoid mosque and prayer imagery and
+  Durbar horsemen beside the product.
+- Never stage: alcohol or pork anywhere; daytime eating during Ramadan;
+  the product near prayer.
+- Confidence and sources: as tagged.
+
+### Celebration: Eid el-Kabir (Big Sallah / Ileya)
+- Type: calendar holiday
+- When: 10 Dhul Hijja (~16 May 2027, moon-dependent); the ram is
+  sacrificed after morning prayers, and the meat is cooked and shared
+  through the day and the following days. Intake time: midday or evening
+- Gathering: extended family and neighbours, meat sent to relatives and
+  to non-Muslim neighbours too; roughly 15–40 at the table over the day
+  [LOW-MEDIUM — estimate]. Venue: home indoor or home outdoor
+- The spread: **ram meat** fried, in stew, in **pepper soup** and as
+  **ram suya** (see catalog: Pepper soup; Suya), with **jollof or fried
+  rice** (see catalog: Party jollof rice; Nigerian fried rice); in the
+  North, tuwo with miyan taushe or kuka (see catalog: Tuwo shinkafa with
+  miyan kuka). [HIGH — Vanguard (May 2026), Zikoko, Pulse and Wikipedia's
+  "Eid al-Adha in Nigeria" agree that ram meat is the centrepiece,
+  prepared fried, as suya and in pepper soup]
+- Snapshot staging: **1 setting** — a plate of jollof with two pieces of
+  fried ram meat and dodo; a platter of peppered ram cropped at the
+  edge. **2 settings** — two plates; between them a pepper-soup bowl and
+  a platter of ram suya with onion rings. **Small group** — four plates
+  at the end of a table or on a mat, platters of fried meat and suya,
+  a rice pot; a charcoal grill's smoke soft in the compound behind.
+  Cues: a grill's glow or smoke; extra platters of meat; plates covered
+  with foil for sending to neighbours.
+- Decor and cues: Sallah clothes, compound courtyard. Avoid live rams.
+- Never stage: **the sacrifice, a live or tethered ram, carcasses,
+  blood or raw meat piles** (FESTIVALS register rule); alcohol; pork.
+- Confidence and sources: HIGH for the menu; staging EDITORIAL.
+
+---
+
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8. The snapshot rule (§5.7) applies: the
+frame shows only the operator's party, and the crowd is implied. **The
+file-wide rules apply to every entry**: suya on plain unprinted paper,
+never newspaper (rule 1); no alcohol and no Chapman (rule 3); no pork
+(rule 4); no other drinks in frame (rule 5); nothing held in a hand (rule
+6). **The settlement-register and buka/tenement framing is still PENDING
+HUMAN SIGN-OFF**; entries use a tidy family parlour or a public viewing
+venue and depend on none of the pending registers. **The Ramadan/iftar
+editorial call stays open** (GAP LOG); no entry here is set in Ramadan
+daylight. This section expands the BEVERAGE MOMENTS line "Watching
+football at home" (small chops, suya, 1 L PET on a centre table); it does
+not replace it.
+
+### Watch parties
+
+Football is the national viewing occasion: English Premier League clubs
+(Arsenal, Chelsea and Manchester United have very large Nigerian
+followings [MEDIUM — Soccernet NG]), the Champions League, and the Super
+Eagles at AFCON and World Cup qualifiers. Viewing happens in two places:
+the **family parlour** around the TV, and the **viewing centre**, a
+paid room with benches, a TV or projector and a generator, where groups
+of roughly 30–150 mostly male fans watch European football [HIGH for the
+viewing-centre culture — Global Media Journal; headcount MEDIUM, same
+source]. The signature viewing foods are **suya**, **small chops**,
+roasted groundnuts and chin chin (`nigeria.md:734`).
+
+#### Watch party: Premier League afternoon in the parlour (football)
+- When: the EPL season, August to May; Saturday 15:00 UK games land at
+  about 15:00–16:00 WAT (**golden-hour** light through the window); late
+  Saturday and Sunday games and Champions League nights at about
+  20:00–21:00 WAT (**evening**: lamp and screen glow, dark window) [LOW —
+  time-zone arithmetic, not verified].
+- Gathering: family, or 3–6 friends or brothers and cousins [LOW-MEDIUM —
+  editorial estimate]. Venue: home indoor (the parlour).
+- The spread: a **small chops** tray of puff-puff, samosas, spring rolls
+  and peppered gizzard on toothpicks (see catalog: Small chops platter
+  (party starter); Puff-puff); **suya** on plain paper with sliced onion
+  and tomato (see catalog: Suya); a bowl of chin chin (see catalog: Chin
+  chin); roasted groundnuts in a small bowl (no entry; see CANDIDATE
+  QUEUE). [MEDIUM — `nigeria.md:734`; research notes]
+- Surface and environment: the **centre table** in front of a large sofa
+  set; ceramic floor tiles, a ceiling fan, lace curtains, a rechargeable
+  lamp on a side table; the TV a soft green field. A generator's presence
+  is a cable along the floor at most, never fuel cans (GENERAL NORMS).
+- Snapshot staging: **1 setting** — one side plate of small chops and
+  a glass on the centre table, the suya paper open beside it, the TV glow
+  behind. **2 settings** — two side plates; between them the small chops
+  tray and the suya. **Small group** — the centre table with the tray,
+  the suya, the chin chin bowl and four side plates; the sofa running out
+  of frame, two blurred heads toward the screen. If the brief allows a
+  multi-serve bottle, a 1 L PET stands on the centre table
+  (`nigeria.md:734`).
+- Never stage: club crests, shirts with sponsors, legible screens or
+  score bugs; sports-betting slips, betting apps, odds or a betting-shop
+  backdrop (betting sits very close to football in Nigeria [LOW — not
+  verified]); beer, stout or Chapman; suya on newspaper.
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+#### Watch party: the viewing centre (European football nights)
+- When: weekend afternoons and Champions League evenings, the big games
+  drawing the fullest rooms. Intake time: **golden-hour** or **evening**
+  (a night scene for a 20:00–21:00 WAT kick-off) [LOW — arithmetic].
+- Gathering: 30–150 fans, mostly young men, often split by club
+  allegiance [MEDIUM — Global Media Journal]. Venue: other (a viewing
+  centre: a hall, shop front or shed with benches, a TV or projector, a
+  generator outside).
+- The spread: what is sold at or just outside the door: **suya** on
+  paper from a mai suya nearby (see catalog: Suya), roasted groundnuts,
+  a meat pie or puff-puff (see catalog: Meat pie; Puff-puff) [LOW —
+  editorial; the notes stage "roasted groundnuts and suya on a ledge"].
+- Surface and environment: wooden benches in rows, a plank ledge or a
+  bench end used as a table; a projector beam or a TV high on a bracket
+  as a soft glow; a bare bulb or fluorescent tube; a cable on the floor
+  for the generator. **Stage the food, not the crowded room**
+  [EDITORIAL — notes].
+- Snapshot staging: **1 setting** — a suya paper and the hero on a plank
+  ledge at the end of a bench, the screen glow and the backs of blurred
+  heads behind. **2 settings** — two suya portions on the ledge side by
+  side. **Small group** — a short bench end with suya, a groundnut cone
+  and a meat pie for three or four, more benches running back toward the
+  screen. Keep the crowd as silhouettes (background-people limit).
+- Never stage: crests and jerseys, legible posters of fixtures or
+  prices, betting-shop branding or slips (often next door [LOW — not
+  verified]), alcohol of any kind, fights or crowd conflict (the source
+  studies conflict between rival fans; never the subject).
+- Confidence and sources: venue HIGH; food LOW; staging EDITORIAL.
+
+#### Watch party: Super Eagles night at home (AFCON and qualifiers)
+- When: AFCON (the Morocco edition ran December 2025 to January 2026
+  [LOW — not verified]) and World Cup qualifiers; evening kick-offs.
+  Intake time: **evening** [LOW — not verified].
+- Gathering: family and neighbours, 5–15, larger than an EPL afternoon
+  [LOW-MEDIUM — editorial]. Venue: home indoor (parlour and dining
+  table), or home outdoor (a compound forecourt with the TV carried out).
+- The spread: a real meal rather than snacks: **party jollof** with
+  peppered chicken and dodo (see catalog: Party jollof rice; Dodo (fried
+  ripe plantain)); small chops first (see catalog: Small chops platter).
+  Peppered chicken has no entry (see CANDIDATE QUEUE). [LOW — research
+  notes rank this scene; food not verified]
+- Surface and environment: the dining table plus the centre table, a
+  pot of jollof on a trivet, plates handed round; green-and-white paper
+  napkins or a plain green-and-white cushion as the most national colour
+  a scene carries.
+- Snapshot staging: **1 setting** — a plate of jollof, a chicken piece
+  and dodo on the centre table, the jollof pot cropped at the edge.
+  **2 settings** — two identical plates; between them the chicken platter.
+  **Small group** — four plates around the centre table with the jollof
+  pot, the chicken platter and the small chops tray; blurred figures
+  standing behind the sofa toward the TV glow.
+- Never stage: a full Nigerian flag (file rule: flags only for an
+  explicit Independence Day brief, and never full, schema §5.7); the
+  Super Eagles crest or kit; political or protest imagery; betting;
+  alcohol.
+- Confidence and sources: LOW for timing and food; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The basis:
+"every Nigerian household seems to own at least one Ludo board", and
+**Whot**, a shedding card game, is the national card game; **draughts**
+is also played [MEDIUM — Guardian Nigeria; Wikipedia "Whot!"]. FIFA
+video-game centres for young men are reported but not verified [LOW — not
+verified]; a home FIFA night is stageable only as the parlour entry
+above with a controller on the table and an abstract screen glow.
+Draughts at an outdoor "relaxation spot" is ranked third in the notes,
+but such spots usually sell beer; it gets no entry here.
+
+#### Game night: ludo in the parlour
+- When: evenings and weekend afternoons, at family gatherings and
+  holidays. Intake time: **evening** (or golden-hour) [LOW — editorial].
+- Gathering: 2–4 players, family or friends, with onlookers [LOW-MEDIUM
+  — editorial]. Venue: home indoor (parlour centre table or dining table).
+- The spread: puff-puff, chin chin and a small chops platter on a side
+  of the table so the board stays clear (see catalog: Puff-puff; Chin
+  chin; Small chops platter). [LOW — notes; pairing editorial]
+- Surface and environment: a plain wooden or painted ludo cross board in
+  the four primary colours, generic counters and two dice; the centre
+  table, a lace or plastic cloth, ceiling fan, lamp light in the evening.
+- Snapshot staging: **1 setting** — the board at one side of the table,
+  one side plate of puff-puff and a glass beside it. **2 settings** — two
+  players' plates at opposite sides of the board. **Small group** — four
+  side plates, one per colour, the chin chin bowl and the small chops
+  tray at the table end; a blurred onlooker on the sofa arm.
+- Never stage: a branded or licensed board, the Ludo King app on a
+  legible phone, money on the board; children's faces (a family game:
+  children may be implied only, schema §5.7).
+- Confidence and sources: ludo's ubiquity MEDIUM; staging EDITORIAL.
+
+#### Game night: Whot at a family gathering
+- When: at Christmas, Sallah and owambe-adjacent family days, after the
+  meal; evenings at home. Intake time: **golden-hour or evening** [LOW —
+  editorial].
+- Gathering: 3–6 players from the extended family, onlookers around
+  [LOW — editorial]. Venue: home indoor (parlour) or home outdoor
+  (compound forecourt under a canopy after a party).
+- The spread: party leftovers in their trays: **jollof and chicken**
+  (see catalog: Party jollof rice), dodo and moi moi (see catalog: Dodo;
+  Moi moi (steamed bean pudding)), small chops boxes (see catalog: Small
+  chops platter). [LOW — notes; not verified]
+- Surface and environment: a plastic party table or the centre table, a
+  draw pile and a discard pile; aso ebi fabric on blurred figures for a
+  party evening; canopy edge and covered chairs soft behind.
+- Snapshot staging: **1 setting** — a plate of jollof and chicken at the
+  table edge, cards fanned face-down beside it. **2 settings** — two
+  plates and two fanned hands of cards, the discard pile between.
+  **Small group** — four plates around the table, the jollof tray
+  cropped, the card piles at the centre; more chairs and blurred guests
+  behind.
+- Never stage: card faces that read (Whot cards carry numbers and
+  shapes; keep them face-down or blurred), the printed brand deck, money
+  or stakes, alcohol, money spraying.
+- Confidence and sources: Whot as the national card game MEDIUM; the
+  gathering pairing LOW; staging EDITORIAL.
 
 ---
 
@@ -1968,6 +2802,30 @@ norms unless tagged otherwise — see GAP LOG.*
   emirship dispute) — re-check before any Sallah brief.
 - **Fetch access**: ng.coca-colahellenic.com and canmaker.com blocked by
   the egress proxy; Wikipedia used via search snippets only.
+- **Celebrations pass (2026-10-01) open items.** Headcounts for
+  Christmas, Sallah, naming and birthday gatherings are editorial
+  estimates; the owambe figures come from one Lagos wedding planner (La
+  Heiress), not a survey. Birthday-party food and children's parties
+  were not separately searched, and a children's party needs a check
+  against TCCC's under-13 policy. Igbo traditional-wedding food rests on
+  Pulse and tier-3 wedding sites. Event plate and cutlery norms
+  (disposable vs. hired crockery) are LOW-MEDIUM.
+- **Game-night pass (2026-10-01) open items.** EPL, Champions League
+  and AFCON kick-off times in WAT are time-zone arithmetic; the AFCON
+  Morocco 2025–26 dates are not verified. Viewing-centre food, the
+  betting-shop proximity, and how pervasive sports betting is around
+  football are LOW (not verified). FIFA video-game centres and draughts
+  at relaxation spots are unverified. Ludo and Whot food pairings are
+  editorial. The viewing-centre gender mix comes from one academic study
+  (Global Media Journal).
+- **Venue-profile pass (2026-10-01) open items.** Unverified background
+  details: parlour wall colours, food flasks on the dining table, lace vs.
+  blinds by region and age; compound-forecourt layout (water tank,
+  generator house) beyond trade-site evidence; the suya stand's lamp type;
+  event-hall dressing; northern variants of every venue. All register
+  variants in VENUE PROFILES stay PENDING HUMAN SIGN-OFF with the
+  settlement-register and buka framing. Viewing centre and pepper-soup
+  joint not yet profiled (later wave).
 
 ## CANDIDATE QUEUE
 
@@ -1986,6 +2844,15 @@ norms unless tagged otherwise — see GAP LOG.*
    (chocolate drift).
 6. Add the missing entries in the Gap Log as briefs need them.
 7. Independent §8 audit.
+8. Celebration dishes without a full entry (2026-10-01 celebrations
+   pass): **miyan taushe** (northern pumpkin-groundnut soup, Sallah),
+   a shared **celebration cake** entry (tiered wedding cake, birthday
+   cake), **abacha** (already listed in the Gap Log; now needed by the
+   igba nkwu entry), **ofe owerri** (Christmas in the East), **ukwa**.
+9. Viewing foods without an entry (2026-10-01 game-night pass):
+   **roasted groundnuts** (in a cone or small bowl), **peppered
+   chicken** (Super Eagles night and party trays), and **shawarma**
+   (already in the Gap Log; Gen Z viewing and FIFA nights).
 
 ## RESEARCH LOG
 
@@ -2016,3 +2883,20 @@ norms unless tagged otherwise — see GAP LOG.*
   LOW evidence for the 50 cl glass bottle); recipe blogs used for sizes
   only where nothing better surfaced, and marked.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches** (naming
+  ceremony food; wedding guest numbers, caterers and service; Sallah
+  food in the North; Christmas homecoming food; igba nkwu food). Added
+  CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register: how
+  gatherings work plus 7 entries (owambe wedding reception, igba nkwu,
+  naming ceremony, birthday party, Christmas and New Year, Eid al-Fitr,
+  Eid el-Kabir). Settlement-register/buka framing and the Ramadan/iftar
+  editorial call left unresolved. No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: 3 watch-party entries
+  (Premier League afternoon in the parlour, the viewing centre, Super
+  Eagles night at home) and 2 social game-night entries (ludo in the
+  parlour, Whot at a family gathering; popularity medium). Settlement-
+  register/buka framing and the Ramadan/iftar call left untouched. No
+  subagents.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (family parlour and dining corner, compound forecourt under a canopy, buka, suya spot, owambe under canopies or in a hall). Sign-off-safe baseline used; register variants kept factual, framing not resolved; iftar untouched. No subagents.

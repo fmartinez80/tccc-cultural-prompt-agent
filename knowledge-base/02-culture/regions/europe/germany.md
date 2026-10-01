@@ -139,6 +139,362 @@ Schnitzel with Tomato Sauce](https://www.ddr-museum.de/en/blog/2016/hunters-schn
 | **Canteen / Mensa** | A tray line, plastic trays, white ceramic, a cutlery bin, a daily menu board — the everyday warm-lunch register for students and office workers. |
 | **Harbour kiosk (North)** | A fish-roll counter with a glass display case, gulls, container cranes in haze. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used German staging venues: the
+rented-apartment kitchen-dining corner, the apartment balcony (with the
+allotment as a variant), the traditional inn (*Wirtshaus* / *Gasthaus*),
+the Imbiss stand, the Döner shop and the Public Viewing fan mile.
+National default zone: this file has no single default region (see ZONE
+CHARACTERIZATION); when a brief names none, use a rented apartment in a
+mid-sized western German city and a non-Bavarian inn, and add Bavarian
+or northern detail only when a brief names the region (the Anti-Patterns
+caution). File-wide rules hold: the alcohol-exclusion rule (no beer, wine,
+alcohol-coded vessels even empty, beer crates, beer-garden mugs or
+mulled-wine mugs), nothing legible, no brand marks, never a full flag, no
+identifiable children, no more than about 2.5 background faces and none
+sharp; the brief dictates the SKU.
+
+#### Venue: Rented-apartment kitchen-dining corner (*Wohnküche* / *Essecke*) (home, indoor)
+- Use for: home indoor; casual lunch (1, 2, 3), Abendbrot or warm dinner,
+  Kaffee und Kuchen, Christmas Eve, Silvester raclette, Spieleabend; the
+  national default home interior. Apartments in multi-family buildings
+  are 54.8% of the housing stock and about 55% of households rent
+  [HIGH — Destatis, see GENERAL NORMS].
+- Soft background (the core): a fitted kitchen (*Einbauküche*) in an
+  L or a single run along one wall: matt white, light grey, beige or
+  wood-effect fronts with long bar handles, a laminate worktop, and above
+  it a strip of wall tiles (*Fliesenspiegel*) in white or pale squares
+  between worktop and wall cabinets [MEDIUM — kitchen-planning forums and
+  rental listings]. On the worktop: a kettle, a coffee machine (kept soft,
+  no cups in hero zone per the beverage scope), a bread bin or a wooden
+  bread board, a fruit bowl. A white panel radiator with a thermostat
+  knob under a large white uPVC tilt-and-turn window (*Dreh-Kipp-Fenster*),
+  often tilted open, with a pleated blind or a short sheer curtain; through
+  it, the façade of the building opposite (rendered in pale yellow,
+  white or grey with rows of identical windows and balconies) or a
+  courtyard tree [MEDIUM-HIGH for tilt-turn windows and radiators as
+  standard; EDITORIAL for the view]. In the dining corner: a pendant lamp
+  hung low over the table, a wall calendar or a framed print, a shelf
+  with a few plants and jars; in many homes a corner bench (*Eckbank*)
+  with cushions along two walls, more common in the south and in
+  older or rural households [LOW — not verified]. Light: cool, even
+  daylight from the big window by day; at Abendbrot (18:00 to 19:00) the
+  warm pool of the low pendant over the table with the window going blue,
+  dark by mid-afternoon in December. Palette: white and light grey, pale
+  wood (beech or oak veneer), green houseplants, warm pendant light.
+  Signature shapes: the tilt-turn window with its single central handle,
+  the white tile strip, the low pendant shade, the radiator with its
+  thermostat knob, the wooden bread board. Density: tidy and orderly but
+  lived-in; less clutter than a UK or US kitchen [EDITORIAL]. People cues:
+  one blurred figure at the counter at most.
+- Shell: either an *Altbau* flat (pre-1918: ceilings around 3 m or more,
+  stucco cornice, wooden floorboards, tall double casement windows, tiled
+  stove remnants) or, more often, a 1950s to 1970s post-war block (lower
+  ceilings, plain plaster, laminate or tiled floors); in the East, a
+  *Plattenbau* flat with a narrow kitchen [MEDIUM — ZONE
+  CHARACTERIZATION; EDITORIAL for proportions].
+- The table as set here: a wooden or white rectangular table for four;
+  for Abendbrot, wooden boards (*Frühstücksbrettchen*) at each place with
+  a knife, a bread basket, butter dish, cold cuts and cheese on a platter;
+  for lunch, plain white plates; a table runner or placemats; an oilcloth
+  (*Wachstuch*) only in older or rural kitchens; wooden chairs or the
+  Eckbank at the edge [MEDIUM — Abendbrot entry; EDITORIAL].
+- Subregional variants and the national default: Berlin, Hamburg, Leipzig
+  Altbau (high ceilings, floorboards, stucco, a tall double casement
+  window); East German Plattenbau (a narrow galley kitchen, sometimes a
+  hatch to the living room); Bavaria and the rural south (Eckbank, wood
+  panelling or a pine corner, a small crucifix corner kept out of frame);
+  North (red-brick building opposite). National default: a post-war or
+  Altbau rented flat, fitted kitchen with a tile strip, tilt-turn window
+  and a low pendant over the table.
+- Hallucination traps: an American open-plan kitchen with an island and
+  double-door fridge; Bavarian chalet pine and Dirndl-check everywhere;
+  a beer crate in the corner or bottles of beer on the table (the
+  returnable-crate realism cue must read as water or soft-drink bottles
+  only, or be left out); cuckoo clocks; a British kettle-and-washing-machine
+  layout (in Germany the washing machine more often sits in the bathroom).
+- Never stage: beer, wine or schnapps in any form; the DPG deposit symbol
+  legible; legible calendar or labels; a crucifix as a subject.
+- Prompt-ready line: "A German rented-apartment kitchen at Abendbrot: the
+  wooden table sharp under a low warm pendant, behind it a softly blurred
+  white fitted kitchen with a tiled splashback strip, a white radiator
+  under a tilt-and-turn window and the pale façade of the building
+  opposite in blue dusk."
+- Confidence and sources: MEDIUM; one search ([Küchen-Forum — kitchen in
+  an Altbau rental](https://www.kuechen-forum.de/forum/themen/kuechenplanung-in-mietwohnung-altbau.50220/);
+  [Küchen-Forum — L-kitchen with low window and radiator](https://www.kuechen-forum.de/forum/themen/l-kueche-mit-niedrigem-fenster-und-heizkoerper.5525/),
+  practitioner forums) plus GENERAL NORMS (Destatis); LOW for the Eckbank
+  prevalence and the washing-machine location (model knowledge).
+
+#### Venue: Apartment balcony (*Balkonien*), with the allotment variant (home, outdoor)
+- Use for: home outdoor; summer lunch or evening meal, a small Grillfest
+  (electric grill on a balcony where the lease allows; charcoal more often
+  in a garden or allotment), tournament game outdoors; 1, 2 or small
+  group (the allotment for larger groups). At least as representative as
+  a private garden, given tenure [MEDIUM, see ENVIRONMENT].
+- Soft background (the core): balcony boxes on the railing with red or
+  pink geraniums or petunias as bright soft blobs; a privacy screen of
+  bamboo matting, fabric panel, rattan-effect strip or frosted glass along
+  the railing or the side wall; the railing itself (steel bars, a concrete
+  parapet or frosted-glass panels); beyond, the courtyard trees and the
+  balconies and windows of the next block (a repeating grid of balconies
+  with their own plants and screens, pale render) [MEDIUM — Mieterverein
+  München, Mieterbund and DIY-chain balcony guides]. A clothes-drying rack
+  folded against the wall, a herb pot, solar string lights or a lantern
+  for evening. Light: summer evening light lasts past 21:00 in June; a
+  warm low sun on the façade opposite, or flat overcast light. Palette:
+  geranium red, green, pale render, grey concrete, natural wood. Signature
+  shapes: the flower box line along the railing, the bamboo screen, the
+  grid of neighbouring balconies, the folding bistro chair.
+- Shell: a 3 to 8 m² concrete balcony with tiles or wooden click tiles
+  and sometimes an outdoor rug [EDITORIAL].
+- The table as set here: a folding bistro table in wood or metal (or a
+  table hooked to the railing), two folding chairs; a wipe-clean or
+  cotton tablecloth; everyday plates, a bowl of potato or pasta salad
+  [MEDIUM].
+- Subregional variants and the national default: the allotment
+  (*Schrebergarten*): a neat hedged plot, lawn and vegetable beds, a small
+  wooden summer house (*Laube*) with a veranda, a patio table with an
+  oilcloth, a kettle grill, neighbouring plots' hedges and huts soft
+  behind (see the meal-outdoors scenario). Single-family house in the
+  suburbs or countryside: a paved terrace with a lawn and hedge. National
+  default: a city apartment balcony with geraniums and a bamboo screen.
+- Hallucination traps: an Alpine chalet balcony with carved wooden
+  balustrades and mountain views outside Bavaria; Mediterranean terracotta
+  and bougainvillea; a US deck with a huge gas grill; a beer bottle or
+  crate on the balcony floor.
+- Never stage: beer, wine, a beer crate; legible screens or labels;
+  a full flag on the railing (a cropped black-red-gold pattern at most in
+  tournament summers).
+- Prompt-ready line: "A German apartment balcony on a summer evening:
+  the small folding table sharp in front, behind it red geraniums in
+  railing boxes, a bamboo privacy screen and the softly blurred grid of
+  balconies on the pale block opposite."
+- Confidence and sources: MEDIUM; one search ([Mieterverein München —
+  Balkonien and garden](https://www.mieterverein-muenchen.de/balkonien-und-garten-das-ist-erlaubt/);
+  [Deutscher Mieterbund — balconies](https://mieterbund.de/aktuelles/meldungen/balkone-und-terrassen/);
+  [OBI — balcony](https://www.obi.de/magazin/garten/balkon), retail tier).
+
+#### Venue: Traditional inn (*Wirtshaus*, *Gasthaus*, *Gasthof*)
+- Use for: restaurant, indoor; weekend and Sunday lunch, a family
+  celebration in the side room (confirmation, communion, round birthday),
+  group dinner; 1 to small group. With the beer garden, the default German
+  group-meal venue [HIGH, register and scenario above]; the
+  alcohol-exclusion framing applies.
+- Soft background (the core): wood panelling to shoulder height or full
+  height in honey to dark-brown oak or pine, often also on the ceiling
+  in the south; a built-in bench running round the walls; brass or
+  wrought-iron wall lamps with small cloth or glass shades as warm round
+  glows along the panelling; framed old photographs and prints, a few
+  pewter plates or a shelf of jugs (no beer steins in focus); a large
+  tiled stove (*Kachelofen*) in green or cream glazed tiles in older or
+  southern inns as a soft bulky shape with a bench round it; the regulars'
+  table (*Stammtisch*) in the corner, sometimes marked by a wrought-iron
+  stand (illegible) [MEDIUM — Falstaff on the real Wirtshaus; erlebe.bayern
+  historic inns; Alps Magazine on the Tyrolean Stube]. The bar counter
+  (*Schanktisch*) as a dark wood block in the middle distance, with its
+  taps and glass racks fully out of frame or blurred to an abstract dark
+  band. In Bavaria and the Alps, antlers or a carved crucifix corner
+  (*Herrgottswinkel*) above the corner table; keep the crucifix out of
+  frame or so soft it cannot be read (religious imagery is never the
+  subject). Light: small leaded or plain windows with net curtains giving
+  soft daylight; warm low wall-lamp light and the stove glow in the
+  evening. Palette: honey and dark wood, cream plaster, green tile, red
+  or blue checks, brass. Signature shapes: the panelling line with its
+  row of lamp glows, the bulky tiled stove, the corner bench, the net
+  curtains in small windows, heavy square tables in rows.
+  Density: well-worn, clean, orderly, generations of use. People cues:
+  service staff in a white shirt and long dark apron (Dirndl only in a
+  Bavarian brief), blurred; families at other tables within the limit.
+- Shell: an old village or town-centre inn, often half-timbered or
+  rendered outside; plank or tiled floors; a beamed or panelled ceiling
+  [MEDIUM].
+- The table as set here: heavy square or rectangular solid-wood table,
+  bare scrubbed top in the south, or a white cloth with a coloured
+  runner, or blue or red check (*Bauernkaro*) in the Bavarian and rural
+  register; a cruet set, salt and pepper, a small flower vase or a menu
+  holder (illegible); cutlery in a napkin; thick white plates and oval
+  platters for roasts; wooden chairs with cut-out heart or pierced backs,
+  or the wall bench [MEDIUM — Bauernkaro and Wirtshaustisch sources;
+  catalog dish entries].
+- Subregional variants and the national default: Bavaria and Alpine
+  south (pine panelling, tiled stove, antlers, blue-white check,
+  Herrgottswinkel); Swabia and Baden (half-timber, green tiled stove,
+  red-white check); Rhineland Brauhaus (scrubbed long tables, dark wood,
+  big halls; the beer service must be entirely out of frame); North
+  (a brick *Gasthof* with white walls, dark wood, nautical prints near the
+  coast); East (a plain *Gaststätte* with wood and wall lamps). National
+  default: a town Gasthaus with honey-oak panelling, a wall bench, brass
+  lamps and white or check linen.
+- Hallucination traps: an Oktoberfest beer tent; Lederhosen and Dirndl
+  everywhere; giant beer steins and pretzels as decor; Alpine chalet views
+  through the window in a northern town; a cuckoo clock; American
+  "German restaurant" kitsch with flags.
+- Never stage: beer, steins, glasses, taps, beer mats, the bar's glass
+  racks, brewery signs or umbrellas; schnapps; legible menus or the
+  Stammtisch sign; a crucifix as subject.
+- Prompt-ready line: "A traditional German Gasthaus at Sunday lunch: a
+  heavy wooden table with a white cloth sharp in front, behind it
+  honey-oak panelling with a row of softly glowing brass wall lamps, a
+  built-in corner bench, net-curtained windows and a green tiled stove
+  blurred in the far corner."
+- Confidence and sources: MEDIUM; two searches ([Falstaff — what makes a
+  real Wirtshaus](https://www.falstaff.com/at/news/alles-wirt-gut-was-das-echte-wirtshaus-ausmacht-und-wo-man-es-heute-noch-findet);
+  [erlebe.bayern — historic Bavarian inns](https://erlebe.bayern/listicles/historische-wirtshaeuser-in-bayern/);
+  [Alps Magazine — Tiroler Stube](https://www.alps-magazine.com/tiroler-stube-heimeliges-unterm-hergottswinkel/);
+  [Servus Heimat — blue-check tablecloth](https://www.servusheimat.com/biergarten-tischdecke-blaukariert-klein.html),
+  retail tier); LOW for the northern and eastern variants.
+
+#### Venue: Imbiss stand (*Imbissbude*, *Pommesbude*) (street, on the go)
+- Use for: meal on the go and standing meal; Currywurst, Bratwurst im
+  Brötchen, Pommes; lunch, late night; 1 or 2. The default German street
+  venue [MEDIUM-HIGH, scenario above].
+- Soft background (the core): a small kiosk or stand (often around 8 m²
+  inside) with a wide service window or counter; behind it, the working
+  wall in stainless steel: a flat-top grill with sausages in rows, one or
+  two deep fryers, sauce pumps and squeeze bottles, a slicing machine
+  for Currywurst, steel extractor hood [MEDIUM — Ruhr Imbiss guides
+  describing grill, fryer, sauces and service window in about 8 m²]. Above
+  the window, a backlit menu board with photos (a bright rectangle, always
+  illegible) and a small awning or canopy in a plain colour. In front:
+  round stand-up high tables (*Stehtische*) at about 110 cm, sometimes a
+  beer-garden-style bench set (with nothing on it), under a covered
+  area; a bin, a napkin dispenser, a tray of disposable wooden forks.
+  Middle distance: the street, a tram or parking spaces, blurred
+  passers-by in jackets. Light: daylight under the awning for lunch; after
+  dark, the warm-white strip light inside the hatch and the backlit menu
+  glowing, street lamps as bokeh. Palette: stainless steel, white, the
+  red and yellow of ketchup, curry sauce and fries, a plain-coloured
+  awning. Signature shapes: the service hatch with a steel counter, the
+  sausages in rows on the grill, the round high table, the paper tray
+  with a small wooden fork, the lit menu rectangle.
+  Density: compact, busy at lunch and late night, well-used.
+- Shell: a freestanding kiosk, a trailer stand at a market, or a small
+  shopfront with a counter onto the pavement [MEDIUM].
+- The table as set here: a round high table, often with a small
+  cloth-free laminate top; a paper or cardboard tray with Currywurst cut
+  in slices under sauce and curry powder, Pommes with a stripe of
+  ketchup or mayonnaise, a small two-pronged wooden or plastic fork
+  (*Pommesgabel*), a paper napkin [HIGH — catalog: Currywurst, Pommes].
+- Subregional variants and the national default: Ruhr and Rhineland
+  (*Pommesbude*, the *Büdchen* kiosk, Pommes "rot-weiß" with mayo and
+  ketchup); Berlin (Currywurst without casing, an S-Bahn arch stand);
+  Bavaria (Leberkäse in a roll at a butcher's counter is the stronger
+  on-the-go register); North (Fischbrötchen at a harbour kiosk, see the
+  register). National default: a city Imbiss stand at lunchtime, steel
+  hatch and high tables.
+- Hallucination traps: an American food truck with graffiti and
+  craft-beer branding; a beer bottle on the high table (the strongest
+  prior); a Christmas market hut out of season; Bavarian decor at a
+  Ruhr stand.
+- Never stage: beer bottles, beer cups or beer signs; legible menu boards,
+  prices or stand names; branded sauce bottles or fridges.
+- Prompt-ready line: "A German Imbiss stand at lunchtime: a paper tray of
+  sliced Currywurst and fries with a small wooden fork sharp on a round
+  high table, behind it a softly blurred stainless-steel service hatch
+  with sausages on the grill, a glowing illegible menu board and a plain
+  awning."
+- Confidence and sources: MEDIUM; one search ([coolibri — Imbissbuden im
+  Pott](https://coolibri.de/magazin/imbissbuden-im-pott/);
+  [ruhr-guide — Kultimbisse](https://www.ruhr-guide.de/category/ausgehen/ausgehen-im-ruhrgebiet/kultimbisse/);
+  [Hähnchen Finke — top Currywurst stands](https://hahnfinke.de/top-currywurstbuden-ruhrgebiet-2025-haehnchen-finke-mehr/),
+  a business's own page) plus the catalog entries.
+
+#### Venue: Döner shop (*Dönerladen*, *Kebabladen*)
+- Use for: meal on the go (a Döner in flatbread half-wrapped in paper) or
+  a quick sit-in; lunch, late night; 1 to small group; the strongest
+  young and urban street register [MEDIUM-HIGH, scenario above; catalog:
+  Döner Kebab].
+- Soft background (the core): the vertical rotisserie spit (*Drehspieß*)
+  behind the counter as a tall, glowing, browned cone in front of the
+  orange-red heating panel, the strongest single shape; a long glass
+  salad counter (*Salatvitrine*) with steel trays of shredded lettuce,
+  red cabbage, tomato, onion, white sauces in rows; stacked flatbreads
+  and a contact grill to one side; a steel extractor hood; behind or
+  above, a large backlit photo menu (a bright illegible rectangle) and
+  wall tiles or panels in white, grey or a warm colour; a drinks cooler
+  with its glass door as a cool glow (contents blurred, no brands)
+  [MEDIUM for the equipment — business-setup and catering-supplier
+  sources; LOW for the decor palette, not described in sources found].
+  The sit-in area: a few small tables with laminate tops, chairs in
+  plastic or bentwood style, a mirror wall or framed photos of Turkish
+  landscapes, sometimes an evil-eye ornament (*nazar*) by the till.
+  Light: bright cool LED panels or fluorescent tubes; the warm glow of
+  the spit's heating element; at night, the shop window glowing onto the
+  street. Palette: steel, glass, white tile, the browned spit, the
+  green-red-white of the salad trays. Signature shapes: the meat cone
+  on its spit, the row of salad trays under curved glass, the stacked
+  flatbreads, the backlit menu panel.
+- Shell: a narrow ground-floor shop in a mixed-use street, glazed front,
+  tiled floor [EDITORIAL].
+- The table as set here: a small laminate table; the Döner in a paper
+  wrap on a paper square or a white plate, a Döner box in foil, napkins
+  from a steel dispenser, chilli flakes in a shaker [MEDIUM — catalog].
+- Subregional variants and the national default: Berlin (Kreuzberg-style
+  late-night shop, a queue, also Gemüsekebap); the same register runs
+  nationwide with little variation [EDITORIAL]. See `turkey.md` for the
+  different Turkish döner counter; do not mix them.
+- Hallucination traps: a Turkish-style restaurant with copper trays,
+  carpets and lanterns (an "Oriental" cliché); a Greek gyros taverna
+  look; Istanbul skyline murals as the default; the German Döner is a
+  German-Turkish fast-food register, not a Turkish restaurant.
+- Never stage: beer (some shops sell it); legible menu, prices or shop
+  name; branded drinks in the cooler; a full flag of any country.
+- Prompt-ready line: "A German Döner shop at night: a paper-wrapped Döner
+  sharp on a small counter, behind it the glowing browned meat cone on its
+  vertical spit, a softly blurred glass counter of salad trays and a
+  bright illegible backlit menu panel."
+- Confidence and sources: MEDIUM-LOW; one search, business and supplier
+  sources only ([myPOS — opening a Döner shop](https://www.mypos.com/de-de/blog/geschaftsratgeber/donerladen-eroeffnen-schritte-kosten-und-tipps);
+  [CPGASTRO — Döner salad counters](https://cpgastro.de/collections/salattische-saladetten),
+  commercial tier). Mirror walls, nazar and landscape photos are LOW.
+
+#### Venue: Public Viewing fan mile (other)
+- Use for: other (fan zone); tournament summers (Euro, World Cup); 1 to 4
+  at a high table as a snapshot of tens of thousands (see GAME NIGHT:
+  Public Viewing fan mile). The signature German watch-party venue.
+- Soft background (the core): a giant LED wall far behind as a bright
+  out-of-focus rectangle of green (no picture detail); between, a sea of
+  blurred backs of heads and raised arms, within the people limit for
+  faces; white or grey food-stall tents and wooden huts with awnings
+  along the sides, their lit counters as warm rectangles; string lights or
+  festoon lights overhead; a city square's façades, a park's trees or the
+  Olympiapark roof line beyond; crowd barriers and stand-up tables.
+  Light: golden-hour for a 15:00 or 18:00 kick-off, full night for 21:00
+  (LED glow on faces from the front, warm stall lights at the sides).
+  Palette: screen green, night blue, warm stall amber, flashes of
+  black-red-gold as scarves or face paint on adults (cropped, never a full
+  flag). Signature shapes: the screen rectangle, the crowd silhouette
+  line, the stall tents, round high tables [EDITORIAL, consistent with
+  GAME NIGHT; HIGH for fan-zone scale].
+- Shell: open air; paving stones, asphalt or trampled grass underfoot.
+- The table as set here: a round stand-up high table, sometimes with a
+  stretch cover; paper trays with Bratwurst in a roll, Pommes in a cone,
+  Currywurst with a wooden fork; paper napkins.
+- Subregional variants and the national default: Berlin (the fan mile
+  before the Brandenburg Gate; keep the landmark generic and soft per the
+  TRADEMARK & LANDMARK section), Munich (Olympiapark), Hamburg (Heiligengeistfeld) [LOW — not verified],
+  and smaller town squares with a screen at the town hall. National
+  default: a town square with a big screen and food stalls.
+- Hallucination traps: a beer-tent interior; tall beer cups on every
+  table; an American tailgate; stadium seating; legible sponsor banners.
+- Never stage: beer cups, beer stands, stacked deposit cups; kits with
+  crests or sponsor marks; a legible screen or banner; flares; face paint
+  on children; a full flag; identifiable children.
+- Prompt-ready line: "A German Public Viewing fan zone at night: a paper
+  tray with a Bratwurst roll sharp on a round high table, behind it a sea
+  of blurred heads, warm-lit food stalls under string lights and a giant
+  screen glowing as a soft green rectangle far away."
+- Confidence and sources: HIGH for scale, EDITORIAL for the background
+  (GAME NIGHT sources); no new search this pass.
+
 ---
 
 ## ZONE CHARACTERIZATION
@@ -539,6 +895,532 @@ roughly 13, per TCCC's own stated threshold) as the drinker in a St.
 Martin-procession or children's-birthday scene; frame family scenes on
 adults with the product. [CONFIDENCE: HIGH — grounded in TCCC's own public
 Responsible Marketing Policy, cited above]
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+The FESTIVAL & OCCASION CALENDAR above stays the calendar index; this
+section is the staging layer for each celebration, per schema §5.7. The
+alcohol-exclusion rule and the children and schools caution (both in FILE
+ROLE & METHOD) apply to every entry: German celebrations very often carry
+beer, wine or Sekt on the table in reality, and none may appear in frame.
+The beverage-scope rule also keeps coffee cups and pots out of every
+Kaffeetafel scene.
+
+### How large gatherings work here
+
+- **Who gathers.** Family celebrations are mostly the extended family plus
+  godparents and close friends: about 6 to 10 for Christmas, about 10 to
+  25 for a confirmation, communion or round-number birthday, and
+  roughly 40 to 80 for a wedding (survey figures vary, see the wedding
+  entry). Summer grilling gathers friends and neighbours, about 6 to 15.
+  [MEDIUM for wedding figures; EDITORIAL for the rest]
+- **Where (intake venues).** *Home indoor*: Christmas Eve, the Christmas
+  feast, Silvester raclette and the birthday Kaffeetafel, usually in the
+  living-dining room of a rented apartment (see ENVIRONMENT). *Restaurant*:
+  confirmations and communions very often book a family restaurant's
+  side room for lunch, and round-number birthdays do too. *Home outdoor*:
+  the summer Grillfest in a garden, allotment (*Schrebergarten*) or on a
+  balcony; park grilling is the public variant. *Other*: weddings in a
+  rented hall, country inn or estate. [MEDIUM — Känguru and restaurant
+  sources for communion venues; EDITORIAL elsewhere]
+- **Table form and serving style.** One long table, often two tables
+  pushed together with a white or seasonal tablecloth, everyone seated.
+  Home festive meals are served family-style from bowls and platters
+  (dumplings in a bowl, red cabbage in a bowl, the goose carved on a
+  platter). Restaurant celebrations are either a set plated menu or a
+  buffet. The **Kaffeetafel** (afternoon coffee-and-cake table) is the
+  signature German celebration format: several whole cakes (*Torten* and
+  sheet-cake squares) on cake stands and platters down the middle, cake
+  plates and cake forks at each seat, a bowl of whipped cream. Many
+  celebrations run in two parts: a midday meal, then the Kaffeetafel at
+  about 15:00. [MEDIUM-HIGH — Kaffee und Kuchen block above; Känguru;
+  deutschland-feiert.de]
+- **Plate and cutlery norms that differ from everyday.** The "good"
+  china and cloth napkins come out; cake forks and 19 to 20cm cake
+  plates for the Kaffeetafel; candles on the table at Christmas and
+  birthdays. At a Grillfest, plates are often everyday melamine or
+  paper, with a bread basket and bowls of salads. [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most authentic
+  German cues for an implied crowd are: (1) a long table with a white
+  cloth running out of frame, with a row of identical cake plates or
+  dinner plates continuing beyond the visible settings; (2) more whole
+  cakes or salad bowls than the visible diners could eat (two or three
+  Torten on stands for a Kaffeetafel; four or five salad bowls at a
+  Grillfest); (3) occasion-specific table decor at the frame edge (an
+  Advent wreath or candle arch, a birthday candle ring, a table-centre
+  flower arrangement). Blurred relatives in the background stay within
+  the 2.5-face limit. [EDITORIAL]
+
+#### Celebration: Christmas Eve dinner (Heiligabend, 24 December)
+- Type: calendar holiday.
+- When: 24 December, evening, after the Bescherung (gift-giving) or
+  before it; intake time evening (dark by about 16:30).
+- Gathering: the nuclear family, often with grandparents, about 4 to 8;
+  home indoor, at the dining table near the tree. [EDITORIAL]
+- The spread: the most common Christmas Eve dish is deliberately simple:
+  **Kartoffelsalat mit Würstchen** (potato salad with Wiener or
+  Frankfurter sausages), named by about a third of Germans in Statista's
+  2024 survey (36%) and in YouGov's (32%). [HIGH — Statista and YouGov
+  Deutschland, both 2024] See catalog: Kartoffelsalat (match the region:
+  vinegar style in the South, mayonnaise style in the North and East).
+  Sausages are heated whole, pale pink, about 15 to 20cm, in a pot or a
+  bowl; mustard on the table. Fish (carp, salmon) and raclette or fondue
+  are real alternatives. A real table carries 2 to 4 shared vessels: a
+  large bowl of potato salad, a dish or pot of sausages, mustard, a
+  bread basket. [EDITORIAL for counts]
+- Snapshot staging: **1 setting**: one plate with a heap of potato salad
+  and two sausages, a dab of mustard, the big potato-salad bowl and the
+  sausage dish just behind, a lit candle and a fir sprig. **2 settings**:
+  two identical plates, the potato-salad bowl between them, the sausage
+  dish and mustard jar, the tree's lights soft behind. **Small group**:
+  three or four plates at one end, both bowls central, a candle arch or
+  Advent wreath at the far edge. Cues: the decorated tree with warm
+  lights blurred in the background; wrapped gifts under it; extra
+  chairs. [EDITORIAL]
+- Decor and cues: real candles, straw stars, a wooden candle arch
+  (*Schwibbogen*, Erzgebirge style) on a windowsill. Avoid: an
+  American-style "Christmas dinner" with turkey; snow-globe kitsch.
+- Never stage: beer bottles or Sekt beside the potato salad (a strong
+  prior); church service or nativity scenes as the subject; a child as
+  the drinker.
+- Confidence and sources: HIGH for the dish ([Statista — Umfrage zum
+  Essen an den Weihnachtsfeiertagen 2024](https://de.statista.com/statistik/daten/studie/778023/umfrage/umfrage-in-deutschland-zum-essen-an-den-weihnachtsfeiertagen);
+  [YouGov Deutschland — Lieblingsgerichte der Deutschen zu Weihnachten](https://yougov.de/consumer/articles/51178-die-lieblingsgerichte-und-lieblingslebensmittel-der-deutschen-zu-weihnachten));
+  EDITORIAL for staging.
+
+#### Celebration: Christmas feast (1. und 2. Weihnachtsfeiertag, 25–26 December)
+- Type: calendar holiday.
+- When: 25 and/or 26 December, midday meal (about 12:00 to 14:00);
+  intake time midday. Families often split the two days between the two
+  sets of grandparents.
+- Gathering: extended family, about 6 to 12; home indoor (often the
+  grandparents' home). [EDITORIAL]
+- The spread: **roast goose** with red cabbage and potato dumplings is
+  the classic (see catalog: Roast goose (Christmas / St. Martin)), with
+  duck, Rinderrouladen (see catalog: Rinderrouladen) or Sauerbraten (see
+  catalog: Sauerbraten) as common alternatives; dumplings per catalog:
+  Knödel (dumplings). Dessert or the Kaffeetafel follows with Stollen and
+  Christmas biscuits. Shared vessels: the goose on a platter (carved,
+  legs separated), a bowl of dumplings, a bowl of red cabbage, a gravy
+  boat; about 4 to 6. [MEDIUM-HIGH — calendar row above; catalog entries]
+- Snapshot staging: **1 setting**: one plate with a goose leg, a dumpling
+  in gravy and red cabbage (per the catalog's prompt-ready line), the
+  goose platter cropped behind, the red-cabbage bowl in the midground.
+  **2 settings**: two identical plates, the carved goose between them,
+  dumpling bowl and gravy boat. **Small group**: three or four plates at
+  one end of the white-clothed table, all bowls central. Cues: a long
+  table leaving frame with more place settings; an Advent wreath or
+  candles; the tree blurred behind; winter window light at midday.
+  [EDITORIAL]
+- Decor and cues: white or red tablecloth, fir sprigs, candles, the good
+  china. Avoid: orange slices on the goose (an anti-pattern in the
+  catalog), an overly baroque banquet.
+- Never stage: red wine (the most common prior beside goose); church or
+  nativity imagery as the subject.
+- Confidence and sources: MEDIUM-HIGH (calendar sources and catalog
+  entries); EDITORIAL for staging.
+
+#### Celebration: New Year's Eve raclette (Silvester, 31 December)
+- Type: calendar holiday.
+- When: 31 December, a long evening meal from about 19:00, eaten slowly
+  until midnight; intake time evening.
+- Gathering: friends or family, about 4 to 8 around one table (a
+  raclette grill serves about 8); home indoor. [MEDIUM — the grill's
+  ~8 pans, catalog entry]
+- The spread: see catalog: New Year's Eve raclette (*Silvester*) for the
+  grill, pans, potatoes and bowls; fondue is the alternative. The table
+  carries the grill plus about 6 to 10 small bowls (potatoes, pickles,
+  sliced meats, peppers, mushrooms, onions, corn), more than any other
+  German occasion. [MEDIUM-HIGH — catalog entry]
+- Snapshot staging: **1 setting**: one small plate with two potatoes
+  under scraped cheese and a pan in hand-off position, the grill's
+  corner in frame, three small bowls behind. **2 settings**: two
+  identical plates either side of the grill's end, pans slid in at
+  angles. **Small group**: three or four plates around the grill, the
+  far side of the table and its bowls soft. Cues: more raclette pans
+  than visible diners (eight pans, four people visible); the grill's
+  cable running off the table; fireworks through the window, soft and
+  distant. [EDITORIAL]
+- Decor and cues: streamers, small table confetti, lucky-charm
+  decorations (four-leaf clover, chimney sweep, pig figures, a German
+  Silvester custom). Avoid: indoor fireworks, legible "2027" banners.
+- Never stage: Sekt glasses and the midnight toast; Feuerzangenbowle
+  (a rum-based punch); the lead-pouring custom is fine only without
+  any drink.
+- Confidence and sources: MEDIUM-HIGH (catalog entry); EDITORIAL for
+  staging and the lucky-charm cue [MEDIUM — common knowledge, not
+  searched this pass].
+
+#### Celebration: Easter Sunday lunch (Ostersonntag)
+- Type: calendar holiday.
+- When: Easter Sunday, midday (intake time midday); the Easter breakfast
+  or brunch earlier in the day is out of scope.
+- Gathering: extended family, about 6 to 12; home indoor, or a
+  restaurant lunch. [EDITORIAL]
+- The spread: **roast lamb** (leg or shoulder) is the traditional Easter
+  Sunday main, served with bread dumplings, potatoes or fried potatoes
+  and green beans; regional variants and other roasts are common. The
+  **Osterlamm** cake (a sponge cake baked in a lamb-shaped mould,
+  dusted with powdered sugar, about 20 to 25cm long, roughly twice the
+  can's height when standing) and a sweet yeast braid (*Osterzopf*)
+  belong to the afternoon Kaffeetafel. [MEDIUM — Hessen consumer portal
+  and German food sources] No roast-lamb or Osterlamm catalog entry
+  exists; added to CANDIDATE QUEUE. Roast lamb reads as a browned
+  joint, pink when sliced, on a carving board; see catalog: Knödel
+  (dumplings) for the sides. Shared vessels: 4 to 6.
+- Snapshot staging: **1 setting**: one plate with two lamb slices, a
+  dumpling, green beans and gravy, the carved joint on its board cropped
+  behind, a bowl of potatoes. **2 settings**: two identical plates, the
+  lamb board and a vegetable bowl between them, a small vase of spring
+  flowers. **Small group**: plates at one end, the Osterlamm cake on a
+  stand at the far end, partly cropped. Cues: a vase of branches hung
+  with painted eggs (*Osterstrauch*); a bowl of dyed eggs; bright spring
+  light. [EDITORIAL]
+- Decor and cues: the Easter-egg branch, pastel napkins. Avoid: US-style
+  Easter-bunny props.
+- Never stage: the church blessing of the Osterlamm cake; wine.
+- Confidence and sources: MEDIUM ([Verbraucherfenster Hessen — Das
+  Osterlamm](https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/das-osterlamm-traditionelle-leckerei-aus-der-backform);
+  [speisekarte.de — Das Osterlamm](https://www.speisekarte.de/blog/2025/04/11/das-osterlamm-bedeutung-brauch-zubereitung/));
+  EDITORIAL for staging.
+
+#### Celebration: Birthday Kaffeetafel and children's party (Geburtstag)
+- Type: life event.
+- When: the family birthday is an afternoon Kaffee und Kuchen at about
+  15:00, often moved to the weekend (intake time midday to golden-hour);
+  round-number adult birthdays (30, 50, 60) add an evening meal or a
+  restaurant booking (evening). [MEDIUM — deutschland-feiert.de]
+- Gathering: grandparents, parents, siblings and close friends, about 6
+  to 15 at home; children's parties are 6 to 12 children at home or a
+  play venue. Home indoor, home outdoor in summer. [MEDIUM]
+- The spread: the **Kaffeetafel**: two to four cakes chosen from the
+  catalog's Kaffee und Kuchen block (Black Forest cake, Käsekuchen,
+  plum cake, Streuselkuchen, Bienenstich), a whipped-cream bowl, the
+  birthday cake with candles. For a children's party, savoury basics
+  first (sausages, mini pizzas, hot dogs) then cake, muffins and waffles.
+  [MEDIUM — familie.de and lecker.de party-food articles; catalog block]
+- Snapshot staging: **1 setting**: one cake plate with a slice of Black
+  Forest cake and a cake fork, the whole Torte on a stand partly cropped
+  behind, a bowl of whipped cream; no coffee cup (beverage scope).
+  **2 settings**: two identical cake plates (same cake), a second cake
+  (plum cake squares) on a platter between them. **Small group**: three
+  or four settings, two or three cakes down the middle, the birthday
+  cake with a candle ring at the far end. Cues: a wooden birthday ring
+  with candles (*Geburtstagskranz*) in front of the honoree's seat;
+  flowers in a vase; a gift table soft at the edge. [EDITORIAL]
+- Decor and cues: patterned or lace tablecloth, the good cake service,
+  a garland. Avoid: legible name banners.
+- Never stage: coffee cups or pots (beverage scope); Sekt for the
+  toast; a child under about 13 as the drinker.
+- Confidence and sources: MEDIUM ([deutschland-feiert.de —
+  Geburtstagstraditionen](https://www.deutschland-feiert.de/geburtstage/geburtstagstraditionen/);
+  [familie.de — Essen zum Kindergeburtstag](https://www.familie.de/diy/rezepte/essen-zum-kindergeburtstag/));
+  EDITORIAL for staging.
+
+#### Celebration: Confirmation and First Communion (Konfirmation, Erstkommunion)
+- Type: life event (religious milestone; staging is the family meal only).
+- When: spring, from the Sunday after Easter through mid-May; a
+  restaurant lunch after the church service (intake time midday), then
+  Kaffee und Kuchen in the afternoon. [MEDIUM — Känguru]
+- Gathering: godparents, grandparents, aunts and uncles, about 10 to 25;
+  a family restaurant's side room (restaurant) or at home (home indoor),
+  sometimes catered. Restaurants book up months ahead in this season.
+  [MEDIUM — Känguru; restaurant event pages]
+- The spread: a set restaurant menu with a choice of pork, poultry or
+  fish mains (see catalog: Schweinsbraten, Rinderrouladen, Schnitzel
+  Wiener Art) or a hot buffet; afterwards the family's own cake buffet,
+  which some restaurants allow. [MEDIUM — Känguru; restaurant event
+  pages] Shared vessels at a buffet: chafing dishes in a row; at a set
+  menu, only bread baskets and the flower centrepiece.
+- Snapshot staging: **1 setting**: one plated main (Schweinsbraten with
+  a dumpling and gravy) on a white-clothed restaurant table, a small
+  spring-flower arrangement and a folded napkin, the table running on
+  out of frame with identical settings. **2 settings**: two identical
+  plates side by side on the long table, the bread basket between.
+  **Small group**: three or four settings on one stretch of the long
+  table; a second laid table soft behind. Cues: identical place settings
+  continuing beyond the frame; a white-and-green table runner or small
+  candles; blurred relatives in their best clothes. The honoree (aged
+  about 9 for communion, about 14 for confirmation) is never shown with
+  the product. [EDITORIAL]
+- Decor and cues: spring flowers, white table linen, a restaurant side
+  room with wood panelling. Avoid: the church interior, the baptismal
+  or communion candle as a prop next to the product.
+- Never stage: the service, crosses, chalices or the communion wafer;
+  wine at the table; the child honoree as the drinker.
+- Confidence and sources: MEDIUM ([Känguru — Kommunion und Konfirmation
+  richtig planen](https://www.kaenguru-online.de/themen/familienleben/kommunion-und-konfirmation-richtig-planen);
+  restaurant event pages, lower tier); EDITORIAL for staging.
+
+#### Celebration: Wedding (Hochzeit)
+- Type: life event.
+- When: May to September, Saturdays; the meal after the ceremony runs
+  from late afternoon into evening (golden-hour, then evening); the
+  Kaffeetafel with the wedding cake often comes first, in the afternoon.
+- Gathering: survey figures differ: about 65 to 82 guests in two
+  consumer surveys, while caterer enquiries average about 38 in a 2026
+  report; smaller weddings are clearly rising. A rented hall, country
+  inn or estate; long tables or round tables (venue: other). [MEDIUM —
+  Hochzeitsreport 2026 (Appinio survey, via gastgewerbe-magazin) and
+  wedding-industry pages, flagged per §6]
+- The spread: a hot **buffet** or a plated three-course menu, with roasts
+  (see catalog: Schweinsbraten, Sauerbraten), Spätzle (see catalog:
+  Käsespätzle), salads and a dessert buffet; the tiered wedding cake;
+  a late-night snack (Currywurst or Gulaschsuppe; see catalog: Currywurst)
+  is a common German wedding custom. [MEDIUM for buffet and cake;
+  LOW for the late-night snack, general knowledge]
+- Snapshot staging: **1 setting**: one plate from the buffet (roast
+  slices, Spätzle, salad) at a white-clothed long table, a flower
+  centrepiece partly cropped, a blank name card. **2 settings**: two
+  identical plates, the centrepiece between them, the row of settings
+  continuing. **Small group**: three or four settings, the buffet line
+  with chafing dishes soft in the background. Cues: long table out of
+  frame; buffet station soft behind; fairy lights or a barn interior.
+  [EDITORIAL]
+- Decor and cues: white linen, greenery runners, candles. Avoid: the
+  couple as identifiable subjects; legible seating plans.
+- Never stage: Sekt reception, wine, beer, the toast; the Polterabend
+  (a drinking-led eve-of-wedding party).
+- Confidence and sources: MEDIUM ([gastgewerbe-magazin — Hochzeitsreport
+  2026](https://gastgewerbe-magazin.de/hochzeitsreport-2026-kleiner-kreis-statt-grosser-show-welche-hochzeiten-die-deutschen-wirklich-moegen-72991);
+  [pureperfect-weddings — Zahlen & Fakten](https://pureperfect-weddings.de/hochzeit/zahlen-fakten-rund-um-das-thema-hochzeit/));
+  EDITORIAL for staging.
+
+#### Celebration: Summer Grillfest (Grillen with friends and neighbours)
+- Type: community or family gathering (recurring, May to September).
+- When: weekend afternoon into evening (golden-hour is the strongest
+  intake time; long light evenings to about 21:30 in June).
+- Gathering: friends, neighbours or the extended family, about 6 to 15;
+  home outdoor (garden, allotment, balcony) or a park (other). Grilling
+  is mass behaviour: about seven in ten Germans grilled in 2026 per
+  YouGov. [HIGH for prevalence — YouGov Deutschland Grillsaison-Bilanz
+  2026; MEDIUM for headcount, EDITORIAL]
+- The spread: bratwurst (see catalog: Bratwurst im Brötchen; Thüringer
+  or Nürnberger forms), marinated pork neck steaks (*Nackensteak*, the
+  most-searched grill cut), chicken, halloumi or vegetarian sausages;
+  shared salads that guests bring (see catalog: Kartoffelsalat; pasta
+  salad), a bread basket or baguette, ketchup, mustard, herb butter.
+  [MEDIUM-HIGH — YouGov; Statista; ENVIRONMENT outdoor scenario] Shared
+  vessels: 4 to 7 salad bowls plus a platter of grilled meat; a
+  Grillfest table carries more salads than any other occasion.
+- Snapshot staging: **1 setting**: one plate with a bratwurst, a spoon of
+  potato salad and pasta salad, a slice of baguette, on an oilcloth-
+  covered garden table; the grilled-meat platter and two salad bowls in
+  frame, cropped. **2 settings**: two identical plates, the salad bowls
+  and bread basket between them. **Small group**: three or four plates
+  at one end of a long garden table, the grill smoking soft in the
+  background. Cues: the grill and its smoke soft behind; a row of salad
+  bowls with cling film just lifted; a returnable crate at the edge
+  (empty or with the hero product only); hedged allotment plot or
+  balcony geraniums. [EDITORIAL]
+- Decor and cues: oilcloth tablecloth, folding chairs, string lights at
+  dusk. Avoid: beer garden settings, Oktoberfest dress.
+- Never stage: beer bottles or crates of beer (the strongest prior in
+  this scene; prompt "no beer, no bottles other than the hero product");
+  grill-master-with-beer clichés.
+- Confidence and sources: HIGH for prevalence ([YouGov Deutschland —
+  Grillsaison-Bilanz 2026](https://yougov.com/de-de/artikel/55433-grillsaison-bilanz-2026-fast-sieben-von-zehn-deutschen-haben-dieses-jahr-gegrillt));
+  MEDIUM for menu; EDITORIAL for staging.
+
+---
+
+## GAME NIGHT
+
+Schema §5.8 applies throughout: screens, cards, boards and tiles are
+never legible; no crests, kits, sponsor marks or league logos; no
+betting slips, odds screens, betting apps or money on the table; party
+size is the place settings in frame, the crowd implied (§5.7); no
+identifiable children; a late kick-off is a night scene. The
+alcohol-exclusion rule (FILE ROLE & METHOD) and the children and schools
+caution apply to every entry: beer is the default at every German
+football setting in reality, and none may appear in frame. The brief
+dictates the SKU (§5.4); the pairing matrix in COCA-COLA MARKET
+INTEGRATION already rates stadium and public viewing a strong fit (can
+or 0.5L PET). Existing lines this section builds on rather than repeats:
+the Sport settings line in ENVIRONMENT & STAGING SCENES (stadium
+concourse kiosk, public-viewing screen, amateur clubhouse kiosk), the
+"football terrace or public-viewing crowd" Coca-Cola-alone moment, and
+Gulaschsuppe as a stadium staple (catalog: Soups & Eintopf).
+
+### Watch parties
+
+Football is the viewing occasion: the Bundesliga weekend at home or in
+the Kneipe, and in tournament summers the national team at Public
+Viewing fan miles and at home with the grill. Euro 2024 fan zones held
+about 40,000 in Berlin and 25,000 in Munich [HIGH — The Local,
+muenchen.de, UEFA]. Signature viewing foods are Bratwurst in a roll with
+mustard, Pommes and Currywurst at the fan mile, and Knabberzeug (crisps,
+peanut puffs, salt sticks) in bowls plus Frikadellen at home. The
+stadium-concourse kiosk is already covered by the existing Sport line
+and needs no separate entry.
+
+#### Watch party: Public Viewing fan mile (Euro and World Cup summers)
+- When: June to July in tournament years. For a European-hosted
+  tournament, games kick off around 15:00, 18:00 and 21:00 local time
+  [LOW — not verified, model knowledge for Euro 2024 slots], so the
+  intake time is golden-hour or evening; a 21:00 kick-off ends in full
+  darkness, so the scene carries the LED wall's glow and string lights,
+  not golden hour. World Cup 2026 games from North America landed in the
+  German evening or late night [LOW — arithmetic].
+- Gathering: tens of thousands on a closed-off square, park or fan mile
+  (Berlin about 40,000; Munich Olympiapark about 25,000 for Euro 2024)
+  [HIGH]. The operator's party is 1 to 4 friends at a stand-up table.
+  Venue: other (fan zone).
+- The spread: Bratwurst in a roll with a stripe of mustard on a paper
+  tray (see catalog: Bratwurst im Brötchen), Pommes in a paper cone or
+  tray (see catalog: Pommes), Currywurst cut into slices with a wooden
+  fork (see catalog: Currywurst); fan-zone food stands are documented
+  [LOW-MEDIUM — fan-zone food noted by The Local; the specific dish mix
+  is not verified].
+- Surface and environment: a round stand-up high table (*Stehtisch*),
+  paper trays and napkins; a giant LED wall far behind as an
+  out-of-focus green field; string lights, food-stall awnings and the
+  backs of a crowd soft in the background; a plain black-red-gold scarf
+  or a cropped tricolour pattern at most, never a full flag (reviewer
+  ruling, §5.7).
+- Snapshot staging: **1 setting**: one paper tray with a Bratwurst roll
+  on the high table, the screen glow far behind. **2 settings**: two
+  identical trays side by side, a shared Pommes cone between them.
+  **Small group**: three or four trays round the high table, a second
+  high table soft behind, blurred backs of heads toward the screen (no
+  more than about 2.5 faces, none sharp).
+- Never stage: beer cups, beer stands, deposit beer cups stacked on the
+  table (the strongest prior in this scene; prompt "no beer, no cups
+  other than the hero product"); national or club kits with crests or
+  sponsor marks; face paint on children; a legible screen or sponsor
+  banner; flares or crowd crush.
+- Confidence and sources: HIGH for fan-zone scale ([The Local — Euro
+  2024 fan zones](https://www.thelocal.de/20240612/where-are-the-fan-zones-for-euro-2024-in-germany);
+  [muenchen.de — Fan Zone Olympiapark](https://www.muenchen.de/en/events/uefaeuro2024/fan-zone-munich-olympic-park-public-viewig-concerts));
+  LOW-MEDIUM for food; LOW for kick-off times; EDITORIAL for staging.
+
+#### Watch party: tournament game at home with the garden grill
+- When: tournament summers, an 18:00 or 21:00 kick-off with the grill lit
+  beforehand; intake time golden-hour for the grilling, evening for the
+  game itself [LOW — not verified; the notes rank it Germany's second
+  stageable scene].
+- Gathering: friends, neighbours or family, 4 to 10; home outdoor
+  (garden, allotment, balcony) with the TV carried out or seen through
+  the patio door, or a projector on a wall. Follows the summer
+  Grillfest pattern (see CELEBRATIONS: Summer Grillfest).
+- The spread: Grillwurst and Bratwurst (see catalog: Bratwurst im
+  Brötchen), potato salad (see catalog: Kartoffelsalat), Brezeln (see
+  catalog: Brezel), a bread basket, mustard and ketchup [LOW — not
+  verified for the viewing pairing; the grill menu is MEDIUM-HIGH per
+  the Grillfest entry].
+- Surface and environment: an oilcloth-covered garden table, folding
+  chairs, the grill smoking soft behind; a TV glow through the patio
+  door or a projector image on a white wall, unreadable; string lights at
+  dusk.
+- Snapshot staging: **1 setting**: one plate with a Bratwurst, a spoon of
+  potato salad and half a Brezel, the TV glow through the door behind.
+  **2 settings**: two identical plates, the sausage platter and salad
+  bowl between them. **Small group**: three or four plates at one end of
+  the garden table, extra salad bowls cropped, blurred figures facing
+  the screen.
+- Never stage: beer bottles or crates of beer (prompt "no beer, no
+  bottles other than the hero product"); kits with crests; a legible
+  screen.
+- Confidence and sources: LOW for the viewing-specific pairing; see the
+  Grillfest entry for the grill menu; EDITORIAL for staging.
+
+#### Watch party: Bundesliga Saturday on the sofa
+- When: August to May. The main Saturday kick-off is about 15:30, with
+  the top game about 18:30 [LOW — not verified, model knowledge];
+  intake time golden-hour for 15:30 (midday light in summer, near dusk
+  in winter) and evening for 18:30.
+- Gathering: 2 to 6 friends or family; home indoor, typically the
+  living room of a rented apartment (see ENVIRONMENT). The Kneipe
+  (neighbourhood pub) showing the game is the main public form and is
+  beer-led: stage the home version instead.
+- The spread: Knabberzeug in bowls: crisps (*Chips*), peanut puffs
+  (*Erdnussflips*), salt sticks; Frikadellen on a plate with mustard
+  (see catalog: Frikadelle); a pizza delivery box (see catalog:
+  Contemporary everyday food, Pizza) [LOW — not verified; the notes list
+  Chips, Flips and Frikadellen].
+- Surface and environment: a coffee table in front of the sofa; a
+  modest apartment living room; the TV a soft green blur with no score
+  bug or broadcaster mark; a plain scarf in club-neutral colours over
+  the sofa arm at most.
+- Snapshot staging: **1 setting**: one small plate with two Frikadellen
+  and mustard on the coffee table, a bowl of Flips beside it. **2
+  settings**: two identical plates, the snack bowls and an open pizza box
+  between them. **Small group**: plates round the coffee table, more snack
+  bowls than needed, blurred figures on the sofa running out of frame.
+- Never stage: beer bottles or crates; club crests, kits or sponsor
+  marks; a legible screen; betting apps.
+- Confidence and sources: LOW for timing and spread; EDITORIAL for
+  staging.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Germany
+has the highest board-game purchases per capita and SPIEL Essen drew
+about 220,000 visitors in 2025 [MEDIUM — Wikipedia, SPIEL]. The home
+*Spieleabend* (games evening) with Euro-style board games is the core
+format; Skat and Doppelkopf card games are traditional, often in the
+Kneipe [LOW — not verified]. The Kneipe card table is beer-led, so it is
+staged only as a home table.
+
+#### Game night: Spieleabend at home (board or card games)
+- When: weekend evening; intake time evening; winter is the strongest
+  season [EDITORIAL].
+- Gathering: 3 to 6 friends or a family across generations at the
+  dining table or coffee table; home indoor.
+- The spread: Knabberzeug in bowls (salt sticks, crisps, pretzel snacks),
+  a cheese and cold-cuts board with bread (see catalog: Abendbrot spread,
+  Obatzda & Brotzeit board); food on side plates and a separate board so
+  it does not cover the game [LOW — not verified; the notes' editorial
+  spread].
+- Surface and environment: a wooden dining table under a pendant lamp;
+  a generic board with abstract tiles, wooden meeples and dice, or a
+  fanned hand of plain cards for Skat or Doppelkopf; a shelf of game
+  boxes blurred behind with unreadable spines; candles or a lamp in
+  winter.
+- Snapshot staging: **1 setting**: one side plate with bread and cheese
+  at the table edge, a bowl of salt sticks, the board partly in frame.
+  **2 settings**: two identical side plates, the shared board between
+  them, dice and meeples on the game. **Small group**: four side plates
+  round the table, the cold-cuts board cropped at one end, blurred
+  players leaning in.
+- Never stage: licensed or branded games (Catan or other recognisable
+  boxes and boards, branded decks); legible cards or score pads; money
+  or stakes on the table (Skat is sometimes played for small stakes)
+  [LOW]; beer or wine glasses.
+- Confidence and sources: MEDIUM for popularity ([Wikipedia — Spiel](https://en.wikipedia.org/wiki/Spiel);
+  [IMARC Germany board games](https://www.imarcgroup.com/germany-board-games-market),
+  market-research tier, flagged); LOW for the spread; EDITORIAL for
+  staging.
+
+#### Game night: holiday games (Advent, Christmas and Silvester)
+- When: Advent and Christmas afternoons (golden-hour, dark by about
+  16:30 in December, so lamp and candle light) and New Year's Eve
+  (evening, through to midnight) [LOW — not verified for the pairing].
+- Gathering: the family from the Christmas and Silvester entries (see
+  CELEBRATIONS: Christmas feast; New Year's Eve raclette), 4 to 10;
+  home indoor.
+- The spread: Advent and Christmas: a tin of Plätzchen (Christmas
+  biscuits) and sliced Stollen (no catalog entry yet; see CANDIDATE
+  QUEUE item 7). Silvester: games played around or after the raclette
+  (see catalog: New Year's Eve raclette) [LOW — the notes flag the
+  raclette-and-games pairing as not verified].
+- Surface and environment: dining table with a seasonal cloth, an
+  Advent wreath or candle arch soft at the edge, a generic board game or
+  plain cards pushed to one end; for Silvester, the raclette grill in the
+  middle with the game beside it.
+- Snapshot staging: **1 setting**: one plate with two biscuits and a
+  slice of Stollen beside the board. **2 settings**: two identical plates,
+  the biscuit tin open between them. **Small group**: plates round one
+  end of the table, the raclette grill or the Stollen board cropped,
+  blurred relatives behind.
+- Never stage: Sekt, mulled wine or wine (strong priors at both
+  occasions); fireworks as the focus; branded games; money on the table;
+  identifiable children.
+- Confidence and sources: LOW for the pairings; EDITORIAL for staging.
 
 ---
 
@@ -2989,6 +3871,30 @@ copyrighted design.
 - **Returnable-crate storage as a domestic realism cue** is carried from
   the draft as a plausible, widely-recognized convention, not independently
   re-verified with a dedicated new source this pass.
+- **Celebrations pass (2026-10-01) open items.** Wedding guest numbers
+  conflict (about 38 in caterer enquiries vs. 65 to 82 in consumer
+  surveys); all are industry or survey-platform figures read only in
+  search summaries. Headcounts for Christmas, Easter, birthdays and
+  confirmations are editorial. The late-night wedding snack (Currywurst,
+  Gulaschsuppe) and the Silvester lucky-charm decor are general knowledge,
+  not searched. Easter Sunday lamb is documented by food and consumer-
+  portal sources; no survey of how many families actually eat it.
+- **Game-night pass (2026-10-01) open items.** Not verified: tournament
+  and Bundesliga kick-off slots (model knowledge); the fan-zone dish mix
+  beyond "food stands" (The Local); the home viewing snacks (Chips,
+  Flips, Frikadellen) and the garden-grill viewing pairing; Skat and
+  Doppelkopf in the Kneipe and whether stakes are common; the Silvester
+  raclette-plus-games pairing; the Spieleabend food spread. Board-game
+  purchase figures come partly from IMARC (market research, flagged).
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  (search summaries only, no pages read): Eckbank prevalence and the
+  washing machine sitting in the bathroom rather than the kitchen (model
+  knowledge, LOW); Döner-shop decor (mirror walls, nazar, landscape
+  photos) is LOW, equipment MEDIUM from supplier sources; northern and
+  eastern inn variants LOW; balcony furnishing rests on tenant-association
+  and DIY-chain guides; the Public Viewing background is editorial with
+  no new search; Hamburg's fan-zone site not verified.
 
 ## CANDIDATE QUEUE
 
@@ -3020,6 +3926,14 @@ copyrighted design.
    so every future country file inherits the citation rather than
    re-discovering it. Not done in this pass, to avoid colliding with the
    parallel Spain-file session's own edits to shared files.
+7. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): roast lamb (Easter); Osterlamm cake and Osterzopf
+   (compact sweets rows); Stollen and Christmas biscuits (compact rows);
+   Wiener/Frankfurter sausages as the Christmas Eve pairing (compact).
+8. Game-night viewing foods with no catalog entry (game-night pass
+   2026-10-01): Knabberzeug as a compact block (crisps, Erdnussflips,
+   salt sticks in bowls, blank packets); Plätzchen tin (also covered by
+   item 7's Christmas biscuits).
 
 ## RESEARCH LOG
 
@@ -3114,3 +4028,25 @@ copyrighted design.
   schema §7.5's naming convention) pointing back to it rather than
   duplicating it — the same "one authoritative location, not two
   overlapping lists" principle schema §4.3 applies to style-map entries.
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (Christmas
+  Eve dish surveys, communion/confirmation venues, wedding guest numbers,
+  grilling prevalence, Easter lunch and Osterlamm, birthday Kaffeetafel).
+  Added CELEBRATIONS & LARGE GATHERINGS after the FESTIVAL & OCCASION
+  CALENDAR with 8 entries: Christmas Eve, Christmas feast, Silvester
+  raclette, Easter Sunday lunch, birthday Kaffeetafel and children's
+  party, confirmation and First Communion, wedding, summer Grillfest.
+  WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  three watch-party entries (Public Viewing fan mile, tournament game at
+  home with the garden grill, Bundesliga Saturday on the sofa) and two
+  social game-night entries (Spieleabend at home, holiday games at
+  Advent, Christmas and Silvester). Points to the existing Sport settings
+  line and the stadium Gulaschsuppe row rather than repeating them. The
+  Kneipe (viewing and Skat) is staged only as a home version.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  rented-apartment kitchen-dining corner, balcony with allotment variant,
+  traditional inn, Imbiss stand, Döner shop, Public Viewing fan mile.
+  WebSearch only; no pages read at source.

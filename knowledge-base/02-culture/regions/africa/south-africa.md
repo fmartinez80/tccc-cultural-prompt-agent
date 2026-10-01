@@ -591,6 +591,8 @@ roughly the height of a small can); a mielie cob (~15–20 cm). [EDITORIAL]
 
 ### ENVIRONMENT & STAGING SCENES
 
+Full background-first profiles for the main venues: see VENUE PROFILES below (after GAME NIGHT).
+
 #### General environmental norms
 
 - **Climate and light (southern hemisphere; Christmas is midsummer):**
@@ -785,6 +787,485 @@ sahistory.org.za "Heritage day, Braai Day or Shaka Day"; eggbert.co.za
 "From Heritage day to Braai Day: A history"] All other dates: [LOW-MEDIUM —
 not independently re-checked this pass beyond Heritage Day/Braai Day].
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+#### CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). Heading levels
+match this file's other cross-cutting registers (`####` for the section,
+`#####` for its parts). The image shows only the operator's party (1, 2
+or a small group of identical place settings) at one stretch of a bigger
+table; the crowd is implied. **The settlement-register framing is still
+PENDING HUMAN SIGN-OFF** (see FILE ROLE & METHOD): every entry below is
+written to work in a register-neutral home garden, patio, dining room or
+hired hall, and names no township/suburb setting as its default.
+
+##### How large gatherings work here
+
+- **Who and how many.** Family and friends, often across generations.
+  A weekend braai or Sunday lunch is usually one household plus
+  relatives or neighbours, roughly 8–20 people; Christmas lunch and Eid
+  visiting days are similar or larger; weddings and big 21sts run from
+  about 80 to several hundred, and traditional weddings can draw a whole
+  extended family and neighbourhood. [LOW-MEDIUM — headcounts are
+  editorial estimates, not sourced; see GAP LOG]
+- **Where (intake venues).** Home outdoor is the default: a garden,
+  patio, yard or lapa around a braai, under a gazebo or a hired tent
+  for big days. Home indoor for winter Sunday lunch and for Eid. "Other"
+  for weddings and big 21sts: a hired hall, a marquee at the family
+  home, or a wedding venue. Restaurants are a minor register for
+  celebrations. [MEDIUM — braai and marquee settings are common
+  knowledge; marquee hire for large weddings is widely advertised
+  (Confetti, GL Events)]
+- **Table form.** Braai: meat comes off the fire onto a wooden board or
+  platter; salads and pap sit on a **side table or buffet** and guests
+  serve themselves, eating at a patio table, on garden chairs or with
+  plates on laps. Sunday and Christmas lunch: one long table, often two
+  tables pushed together, with bowls of sides down the middle. Weddings:
+  round or long tables in rows under the tent, with a buffet line.
+  [LOW-MEDIUM — not independently re-checked; consistent with VISUAL &
+  PLATING NORMS]
+- **Who serves.** At home, the hosts and family women plate or set out
+  the food and the braai-master (often a man) runs the fire. At
+  traditional weddings, the food is lined up buffet-style and **women
+  dish up for queued guests**, or large bowls go to each table to be
+  served by waiters or self-served. [MEDIUM — IOL Sunday Tribune and
+  Home-Dzine on South African wedding menus]
+- **Plates and cutlery.** Everyday plates heaped to the rim; at a
+  braai, sturdy or disposable plates and paper serviettes; at weddings,
+  hired white crockery or disposable plates. Pap and meat may be eaten
+  by hand in some households; salads and rice still need a fork on the
+  table (see GENERAL NORMS). [LOW-MEDIUM]
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  cues that read most South African: (1) **a braai fire or smoke soft in
+  the background** with a figure tending it (no sharp face); (2) **more
+  salad bowls than the visible diners could eat from**, in bright
+  "seven colours" tones (magenta beetroot, orange butternut, green
+  salad), partly cropped; (3) **the table or buffet running out of frame**
+  with a second table or gazebo edge soft behind. Midsummer light for
+  Christmas; low winter sun for a Highveld Sunday.
+- **Never staged at any gathering**: the drinking side (brandy and Coke,
+  beer, cider, umqombothi pots), ceremonial slaughter, ancestral rites,
+  funerals and "after-tears" gatherings (funerals are large and
+  food-centred but are mourning events, and after-tears is
+  alcohol-led). [EDITORIAL]
+
+##### Celebration: The weekend braai (braai / shisa nyama at home)
+- Type: community or family gathering
+- When: weekends year-round, busiest in spring and summer; fire lit
+  early afternoon, meat on one to two hours later; eating from late
+  afternoon. Intake time: golden-hour (or midday for a summer lunch braai)
+- Gathering: family, friends, neighbours; about 8–20 [LOW-MEDIUM —
+  estimate]. Venue: home outdoor (garden, patio or lapa; a complex's
+  communal braai for flat-dwellers)
+- The spread: a board or platter of **boerewors** coils, lamb chops,
+  chicken pieces and sosaties (see catalog: Boerewors; Braai platter);
+  **pap with chakalaka** or tomato-onion sous (see catalog: Pap);
+  **braaibroodjies** or garlic bread (see catalog: Braaibroodjie; Garlic
+  bread); **braaied mielies** (see catalog: Braaied mielies); three or
+  four salad bowls (see catalog H: Potato salad, Coleslaw, Beetroot
+  salad, Green salad). A real table carries about 6–9 serving vessels.
+  [MEDIUM — dishes as catalogued; vessel count EDITORIAL]
+- Snapshot staging: **1 setting** — a plate with one boerewors length,
+  a chop, a scoop of stiff pap with chakalaka and a spoon of potato
+  salad at the near corner of a patio table; the meat board and two
+  salad bowls cropped at the frame edge; the braai's smoke soft behind.
+  **2 settings** — two identical plates side by side on the long side of
+  the table; between them the board of meat and a bowl of chakalaka,
+  with the salad bowls running out of frame. **Small group (3–4)** —
+  the near end of the table with the board in the middle, pap pot and
+  four salad bowls, braaibroodjies stacked on a wooden board; a second
+  table or camping chairs soft behind. Cues for the wider gathering: the
+  fire and its tender in soft focus; more salad bowls than diners; a
+  stack of extra plates at the table edge. If the brief allows a
+  multi-serve bottle, it stands in the midground among the salads
+  (schema §5.7, `coca-cola-guidelines.md` §4.4).
+- Decor and cues: tongs on the braai ledge, a wooden board, paper
+  serviettes, a cooler box with blank lid (keep it closed; coolers read
+  as beer). Avoid: safari or "bush" props, flags, rugby kits.
+- Never stage: beer bottles, quarts, brandy, a cooler of drinks open in
+  frame; a TCCC product beside any glass that could read as a mixer.
+- Confidence and sources: MEDIUM for the braai format (GENERAL NORMS,
+  catalog sources); headcount LOW-MEDIUM (editorial); staging EDITORIAL.
+
+##### Celebration: Heritage Day / National Braai Day (24 September)
+- Type: calendar holiday
+- When: 24 September, early spring; daytime braai. Intake time: midday
+  or golden-hour
+- Gathering: family and friends, sometimes larger community or workplace
+  braais; similar size to a weekend braai or bigger. Venue: home outdoor,
+  or other (a park or community space)
+- The spread: the full weekend-braai spread above, often with a
+  deliberate heritage dish beside it: **potjiekos** in a three-legged
+  pot (see catalog: Potjiekos), **umngqusho** (see catalog: Umngqusho),
+  **ujeqe** (see catalog: Ujeqe / dombolo), or **bobotie** for a Cape
+  table (see catalog: Bobotie). [HIGH for the double identity of the day
+  and the braai — sahistory.org.za, eggbert.co.za, as in the FESTIVALS
+  register; heritage-dish choice EDITORIAL]
+- Snapshot staging: as the weekend braai, adding one heritage pot
+  partly in frame. **1 setting**: plate with boerewors, pap and
+  chakalaka, the potjie's black rim at the frame edge. **2 settings**:
+  two plates, the meat board and the potjie between them. **Small
+  group**: the end of a long table with the potjie, meat board and
+  salads; people in **heritage dress** soft in the background (a
+  patterned shweshwe print shirt or skirt, a beaded collar) as the
+  occasion cue, no more than two faces, none sharp.
+- Decor and cues: shweshwe print fabrics as a tablecloth or on blurred
+  guests; spring light, jacarandas on the Highveld. Avoid heritage dress
+  as costume or caricature; no "tribal" props.
+- Never stage: flags in hero position, political imagery, alcohol.
+- Confidence and sources: HIGH for the date and braai association
+  (sources above); dress and decor cues EDITORIAL.
+
+##### Celebration: Sunday family lunch (Sunday lunch; "seven colours")
+- Type: community or family gathering
+- When: Sundays, after church for many families; ~13:00–15:00. Intake
+  time: midday
+- Gathering: household plus visiting relatives, roughly 6–15 [LOW-MEDIUM
+  — estimate]. Venue: home indoor (dining room) or home outdoor (patio)
+- The spread: two coexisting registers (§4.6), see GENERAL NORMS.
+  **Seven colours**: rice or yellow rice, beetroot salad, butternut,
+  coleslaw, potato salad or three-bean salad, chakalaka, creamed
+  spinach or cabbage, with chicken or beef stew (see catalog H; Beef
+  stew / oxtail stew; Roast chicken). **Roast**: a roast chicken or
+  leg of lamb with roast potatoes and vegetables (see catalog: Roast
+  chicken / roast leg of lamb). Dessert: jelly and custard or malva (see
+  catalog J). A real table carries 7–10 bowls. [HIGH for the seven-colours
+  plate — Mail & Guardian, FinGlobal, MyKitchen, as cited in GENERAL
+  NORMS]
+- Snapshot staging: **1 setting** — one plate heaped to the rim with
+  small separate heaps of each colour around a piece of chicken; three
+  or four side bowls cropped beyond it. **2 settings** — two identical
+  plates; between them the roast platter or stew pot and a line of side
+  bowls running out of frame. **Small group** — the near end of a long
+  table with every side bowl in a row, the roast or stew in the middle,
+  a pudding dish waiting at the far edge. Cues: more bowls than diners;
+  a second table pushed against the first (a visible join or a second
+  cloth); a family photo or glass-fronted cabinet soft behind.
+- Decor and cues: a printed or white cloth, serving spoons in every
+  bowl, Sunday-best clothes on blurred figures. Avoid church interiors.
+- Never stage: alcohol; religious objects beside the product.
+- Confidence and sources: dish list HIGH (sources above); headcount and
+  staging EDITORIAL.
+
+##### Celebration: Christmas lunch (Christmas Day, midsummer)
+- Type: calendar holiday
+- When: 25 December, midsummer, midday into afternoon. Intake time:
+  midday
+- Gathering: extended family, often 10–25 [LOW-MEDIUM — estimate].
+  Venue: home outdoor (patio, garden, poolside) or home indoor (dining
+  room with doors open); some families go to the beach or braai instead
+- The spread: **glazed gammon** as the centrepiece (see catalog:
+  Christmas gammon), roast or braaied lamb (see catalog: Roast chicken /
+  roast leg of lamb), yellow rice, chakalaka, potato salad and other
+  cold salads, mielie bread (see catalog H); desserts **trifle**, malva
+  pudding or peppermint crisp tart (see catalog J). Many families braai
+  instead of a sit-down lunch (boerewors, chicken kebabs, lamb chops).
+  About 8–12 serving vessels. [HIGH — Culture Trip, Dineplan, Food For
+  Mzansi, The Citizen and Laughing Chefs converge on gammon, cold salads,
+  yellow rice and malva/peppermint crisp, and on the braai alternative]
+- Snapshot staging: **1 setting** — a plate with two gammon slices,
+  yellow rice and potato salad; the gammon platter's glazed edge and a
+  trifle bowl cropped at the frame edge. **2 settings** — two plates
+  facing across the table; the whole glazed gammon on its platter
+  between them, salad bowls running out of frame. **Small group** — the
+  end of a long outdoor table: gammon, a lamb platter, four salads, mielie
+  bread on a board, trifle in its glass bowl at the far side. Cues: the
+  table running out of frame on both sides; Christmas crackers or paper
+  hats on the plates; a pool or garden glare and a blurred figure behind.
+- Decor and cues: bright midsummer light, a light cloth, crackers,
+  tinsel or a small tree indoors. Avoid snow, fur, fireplaces and
+  northern-winter props (a common model error for an SA Christmas).
+- Never stage: wine, sparkling wine, beer, brandy; no gammon in any
+  Muslim-household scene.
+- Confidence and sources: HIGH for the menu (sources above);
+  headcount LOW-MEDIUM.
+
+##### Celebration: Eid ul-Fitr (Labarang) in Cape Malay and Durban Muslim homes
+- Type: calendar holiday
+- When: end of Ramadan (lunar; ~9–10 March 2027, moon-dependent). Eid
+  morning sweets and visiting, then a family lunch. Intake time: midday
+- Gathering: family, with relatives and neighbours visiting house to
+  house through the day; a lunch table of about 8–20 [LOW-MEDIUM —
+  estimate]. Venue: home indoor
+- The spread: **breyani** (see catalog: Breyani, Cape Malay or Durban
+  form by zone), with samoosas (see catalog: Samoosas), koesisters
+  (see catalog: Koeksisters vs. koesisters) and **Labarang mince pies**
+  and **dhaltjies** (chilli bites) on side plates (see catalog: Chilli
+  bites); a salad and a sambal. Food parcels (**barakat**) are packed
+  for guests to take home. Labarang mince pies have no catalog entry:
+  small round or crescent savoury pastries, golden and flaky, about the
+  can's width, filled with spiced mince, on a cake plate (added to the
+  CANDIDATE QUEUE). [MEDIUM — Cape Malay Cooking Delights (breyani for
+  Eid, weddings), Sunday Times (Labarang mince pies shared with
+  neighbours), Crush magazine (barakat), Wikipedia (koe'sister); breyani
+  as the Eid centrepiece also matches the FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of breyani with a boiled
+  egg half and crisp onions, a samoosa on the rim; the breyani dish and a
+  plate of koesisters cropped at the edge. **2 settings** — two plates;
+  between them the wide breyani dish and a tiered plate of mince pies and
+  samoosas. **Small group** — the end of a dining table with breyani, a
+  salad, a sambal bowl and a sweets plate; foil-covered barakat plates
+  stacked at the table edge (the visiting cue). Cues: barakat parcels;
+  guests in Eid clothes soft in a doorway; more sweet plates than diners.
+- Decor and cues: best tablecloth, new clothes, a lounge with family
+  photos. Avoid mosque, prayer and calligraphy imagery.
+- Never stage: alcohol anywhere; pork; the product near prayer. Ramadan
+  daytime eating is never staged.
+- Confidence and sources: as tagged above; headcount LOW-MEDIUM.
+
+##### Celebration: Wedding reception (traditional and church weddings)
+- Type: life event
+- When: mostly Saturdays, year-round, peaking in spring and summer; the
+  meal follows the ceremony from midday or afternoon. Intake time:
+  midday or golden-hour
+- Gathering: extended families and community; about 100 to several
+  hundred [LOW — estimate; marquee hire firms advertise tents for
+  several hundred guests, which supports the scale but not a typical
+  figure]. Venue: other (a marquee at the family home or a hired hall
+  or venue)
+- The spread: a standard menu of **starches (rice, pap and samp)**,
+  vegetables such as **beetroot and butternut**, **three or four salads
+  including potato salad and chakalaka**, and **red meat and chicken**
+  (see catalog: Pap; Umngqusho; H sides; Beef stew; Roast chicken). Food
+  is lined up buffet-style and women dish up for queued guests, or
+  large bowls go to each table. Cape Malay weddings serve breyani (see
+  catalog: Breyani); Durban Indian weddings serve curry and breyani.
+  A wedding cake stands on its own table. [MEDIUM — IOL Sunday Tribune
+  and Home-Dzine for the standard menu and service; Cape Malay Cooking
+  Delights for breyani]
+- Snapshot staging: **1 setting** — a place at a round table with hired
+  white crockery: a plate of rice and samp, beef stew, beetroot,
+  butternut and potato salad; a serving bowl of chakalaka cropped at the
+  edge. **2 settings** — two places at a round table, the shared bowls in
+  the centre partly in frame. **Small group** — one arc of a round table
+  with four settings and the centre bowls; other round tables soft behind
+  under the tent roof. Cues: tent fabric and draped ceiling; a buffet
+  line soft in the background; chair covers on empty chairs at the edge.
+- Decor and cues: chair covers and sashes, tent draping, floral
+  centrepieces kept low. Avoid legible names or dates on banners.
+- Never stage: umqombothi or any alcohol; the ceremonial slaughter,
+  umembeso/umabo gift-giving rites or ancestral elements (FESTIVALS:
+  traditional ceremonies not recommended); money or gifts near the
+  product.
+- Confidence and sources: menu MEDIUM (sources above); headcount LOW.
+
+##### Celebration: 21st birthday (the "key" party)
+- Type: life event
+- When: any time of year, often a Saturday afternoon or evening party.
+  Intake time: golden-hour or evening
+- Gathering: family and the birthday person's friends; often a large
+  party of 30–100 [LOW — estimate, not sourced]. Venue: home outdoor
+  (garden with a gazebo), or other (a hired venue)
+- The spread: the party is the occasion where a symbolic key is given,
+  "unlocking the door to the future" [MEDIUM — Travelstart; the key
+  custom is widely described in South African party sources]. The food
+  has no single fixed menu: a **braai** (see the weekend-braai entry) or
+  a catered buffet of chicken, rice, salads and finger food such as
+  samoosas and mini pies, plus a birthday cake [LOW — catering-listing
+  sources only; not verified]. The birthday cake has no catalog entry:
+  a round or square iced cake about twice the can's width, often with a
+  key-shaped topper (added to the CANDIDATE QUEUE as a shared celebration
+  cake entry).
+- Snapshot staging: **1 setting** — a plate with braai meat or chicken
+  and salads at the corner of a gazebo table; the cake on its stand
+  cropped at the frame edge. **2 settings** — two plates; between them a
+  platter of samoosas and the cake. **Small group** — a stretch of buffet
+  table with the cake, a chicken platter and salads, the guests' plates in
+  front. Cues: **a decorative key** (cake topper or a wall-hung key, no
+  numerals); fairy lights or balloons in plain colours; a gazebo edge and
+  blurred guests behind.
+- Decor and cues: plain balloons and lights. Avoid "21" numerals and
+  printed banners (legible text, file-wide rule 1).
+- Never stage: the drinks table, shots, beer, brandy; a TCCC product
+  near any spirits.
+- Confidence and sources: the key custom MEDIUM; food LOW; staging
+  EDITORIAL.
+
+---
+
+#### GAME NIGHT
+
+Per `country-file-schema.md` §5.8. Heading levels follow the
+CELEBRATIONS section above (`####` for the section, `#####` for its
+parts, `######` for entries). The snapshot rule (§5.7) applies: the frame
+shows only the operator's party, and the crowd is implied. **The
+settlement-register framing is still PENDING HUMAN SIGN-OFF** (FILE ROLE &
+METHOD): every entry is written for a register-neutral lounge, patio,
+garden or public venue. This section expands the existing one-line
+pointers in the BEVERAGE MOMENTS register ("Watching a match at home")
+and the FESTIVALS register ("Rugby / football / cricket"); it does not
+replace them.
+
+##### Watch parties
+
+Watching sport together is a high-popularity occasion here: Springbok
+rugby, PSL and English Premier League football (the Soweto derby above
+all), and Proteas cricket at a lower level. Most viewing happens at home,
+in the lounge or around a braai with the TV visible through the patio
+door; for big tournament finals, shopping malls, hotels and parks run
+free or ticketed fan parks [HIGH — IOL and Food & Home on the Rugby World
+Cup 2023 final: mall "fan malls", the free Durban ICC fan park, Loftus
+Park, hotel fan parks with a traditional braai and food stations]. The
+signature viewing foods are the braai, boerewors rolls, biltong and
+crisps (BEVERAGE MOMENTS register, "Watching a match at home"). Cricket is
+rated medium in the research notes and gets no entry of its own; use the
+rugby braai entry for a summer Test and add no new rule.
+
+###### Watch party: Springbok Test braai (rugby)
+- When: the Rugby Championship (roughly August to September) and home
+  Tests in July; end-of-year tour Tests in Europe in November; the next
+  Rugby World Cup is in Australia in October–November 2027 [LOW — not
+  verified]. Home Test kick-offs are usually late afternoon, so the braai
+  is lit in the early afternoon and food comes off the fire around kick-off
+  [LOW — not verified]. Intake time: **golden-hour**. Tests in Australia
+  or New Zealand land in the South African morning [LOW — time-zone
+  arithmetic]: breakfast is out of scope, so stage those as a **midday**
+  braai after the match, not a breakfast scene.
+- Gathering: family and friends, about 6–15 [LOW-MEDIUM — editorial
+  estimate]. Venue: home outdoor (patio, garden or lapa; a complex's
+  communal braai for flat-dwellers), with the TV in the lounge seen through
+  an open sliding door, or a portable screen under the patio roof.
+- The spread: a board of boerewors coils and chops off the grid (see
+  catalog: Boerewors (and the boerie roll); Braai platter (chops,
+  chicken, sosaties)); **pap and chakalaka** (see catalog: Pap (stywe pap,
+  krummelpap/phutu) + chakalaka / tomato-onion sous); boerie rolls stacked
+  on a tray; a bowl of biltong slices and a bowl of crisps for before
+  kick-off (see catalog I: Biltong (beef); Crisps and puffed corn snacks).
+  [MEDIUM — research notes (`south-africa.md:772`, Food & Home); spread per
+  this file's braai entries]
+- Surface and environment: the patio table or a garden table beside the
+  braai; the lounge coffee table for the snacks. Cues that read South
+  African: coals glowing in the built-in braai, a wooden meat board,
+  tongs on the ledge, winter-afternoon Highveld light (July–September is
+  dry winter and early spring), the TV a soft green glow through the
+  patio door. A green-and-gold scarf or cushion with no emblem is the
+  most team colour a scene carries.
+- Snapshot staging: **1 setting** — a plate with a boerie roll and a
+  spoon of chakalaka at the near corner of the patio table, the meat
+  board cropped at the edge, the TV glow soft through the door behind.
+  **2 settings** — two identical plates on the long side of the table;
+  between them the board and the biltong bowl. **Small group (3–4)** —
+  the near end of the table with the board, the pap pot, a stack of rolls
+  and the crisps bowl; camping chairs turned toward the lounge door and
+  the braai-master's back soft at the fire. Cues for the wider crowd:
+  extra chairs facing the screen, more rolls than diners, blurred figures
+  in green inside the lounge (no more than about 2.5 faces, none sharp).
+- Never stage: the Springbok emblem, a crested green-and-gold jersey,
+  sponsor marks, a legible screen or score; "Bokke and beer" specials,
+  beer buckets, cooler boxes open in frame, brandy and Coke (fan-park
+  promotion is often beer-led [HIGH — Food & Home]); a full South African
+  flag (a cropped flag-palette pattern soft in the background at most);
+  face paint as a cliché; betting slips or apps.
+- Confidence and sources: venue and fan-park facts HIGH (IOL, Food &
+  Home); home braai spread MEDIUM (file and notes); fixture months and
+  kick-off times LOW; staging EDITORIAL.
+
+###### Watch party: Soweto derby and Premier League at home (football)
+- When: PSL league weekends (season roughly August to May), with the
+  Soweto derby (Kaizer Chiefs v Orlando Pirates) the biggest club match
+  [LOW — derby named in the notes, not verified beyond that]; English
+  Premier League Saturday 15:00 UK games land at about 16:00–17:00 SAST
+  (**golden-hour**); Champions League nights at about 21:00–22:00 SAST
+  (**evening**, a night scene with lamp and screen glow); Bafana Bafana
+  internationals and AFCON evenings [LOW — time-zone arithmetic, not
+  verified].
+- Gathering: friends or family, 3–8, in the lounge [LOW-MEDIUM —
+  editorial estimate]. Venue: home indoor (lounge); a backyard braai for
+  a weekend derby.
+- The spread: crisps and puffed corn snacks in bowls, biltong and
+  droëwors on a board (see catalog I: Crisps and puffed corn snacks;
+  Biltong (beef); Droëwors); boerie rolls or a fried-chicken box (see
+  catalog: Boerewors (and the boerie roll); Fried chicken (plated and
+  boxed)); a kota or bunny chow from a takeaway for a Gauteng or Durban
+  brief (see catalog: Kota (spatlo); Bunny chow (KZN / Durban)). [MEDIUM
+  for crisps, biltong and wors (`south-africa.md:747`); takeaways LOW —
+  editorial]
+- Surface and environment: the lounge coffee table with the bowls and
+  board on it, a sofa running out of frame, a wall-mounted TV as a soft
+  green field; tiled floor, a kettle seen through to the open-plan
+  kitchen (GENERAL NORMS interior markers).
+- Snapshot staging: **1 setting** — one side plate with a boerie roll and
+  the crisps bowl on the coffee table, the TV glow behind. **2 settings**
+  — two side plates; between them the biltong board and the crisps bowl.
+  **Small group** — the coffee table with two snack bowls, the board,
+  a fried-chicken box opened flat and four side plates; the backs of two
+  heads on the sofa toward the screen, soft. A vuvuzela leaning in a
+  corner is a strong cue but reads as a cliché if centred; keep it soft
+  and peripheral [EDITORIAL].
+- Never stage: club crests or kits (Chiefs gold and black, Pirates skull
+  and crossbones are both legible marks), sponsor marks, legible screens;
+  beer, quarts or ciders; sports-betting slips, apps or odds (sports
+  betting is heavily advertised around football [LOW — not verified]).
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+###### Watch party: tournament final at a mall or hotel fan park
+- When: Rugby World Cup and big football finals; the 2023 RWC final was
+  an evening kick-off in France, a **late-evening** scene in South Africa
+  [LOW — time-zone arithmetic]. Fan parks open for the day, so midday or
+  golden-hour food is also plausible. Intake time: **midday, golden-hour
+  or evening** by kick-off.
+- Gathering: the operator's party of 1–4 inside a crowd of hundreds to
+  thousands. Venue: other (mall fan park, hotel lawn fan park, a city fan
+  park). [HIGH — IOL, Food & Home]
+- The spread: a boerie roll on a paper tray or a braai plate from a food
+  station (see catalog: Boerewors (and the boerie roll); Braai platter);
+  hotel fan parks advertised "a traditional braai" and food stations
+  [HIGH — Food & Home].
+- Surface and environment: a high standing table or a folding table on a
+  lawn or mall atrium floor; a big LED screen far behind as a soft green
+  rectangle, string lights, a crowd in green as blurred colour.
+- Snapshot staging: **1 setting** — one paper tray with a boerie roll at
+  the edge of a high table, the LED wall blurred far behind. **2
+  settings** — two trays side by side. **Small group** — a folding table
+  with four trays and a shared plate of chips; the crowd's backs soft
+  behind. Cues for the crowd: the screen glow, bunting in plain green and
+  gold, rows of chairs.
+- Never stage: the beer side of the fan park (beer tents, buckets,
+  branded cups), legible screens, sponsor boards, crests, named venues
+  (file rule on named stadiums), a full flag.
+- Confidence and sources: venue HIGH; food HIGH for "braai and food
+  stations", menu detail EDITORIAL.
+
+##### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The
+basis is **30 Seconds**, a South African word party game (1998) that is
+the national favourite, played after braais and on family evenings
+[MEDIUM — Wikipedia "30 Seconds (game)" and retailers, per the research
+notes]. Pub quizzes and dominoes are reported but not verified [LOW — not
+verified], so they get no entry; a pub quiz is drinking-led and would be
+staged only as a restaurant quiz with sharing platters and no alcohol.
+
+###### Game night: word party game after the braai (30 Seconds-style)
+- When: weekends after the braai; family evenings, Christmas holidays.
+  Intake time: **golden-hour into evening** [MEDIUM — notes].
+- Gathering: family or friends, 4–10, playing in two teams [LOW-MEDIUM —
+  editorial]. Venue: home outdoor (patio table after the braai) or home
+  indoor (lounge or dining table).
+- The spread: what is left of the braai pushed to one end (see catalog:
+  Boerewors (and the boerie roll); Braaibroodjie; Pap + chakalaka), a
+  bowl of biltong (see catalog I: Biltong (beef)) and, for an evening
+  indoors, koeksisters on a plate (see catalog: Koeksisters vs.
+  koesisters). [LOW — food pairings are editorial; the notes list
+  boerewors rolls, chakalaka, braaibroodjies, koeksisters and biltong]
+- Surface and environment: the patio table cleared at one end, plain
+  unprinted cards face-down in a small stack and a sand timer; patio
+  lights coming on, the braai coals dying soft behind. Indoors: the
+  dining table under a pendant light.
+- Snapshot staging: **1 setting** — one side plate with a braaibroodjie
+  and a glass, the card stack and timer beside it. **2 settings** — two
+  plates facing each other across the table end, the biltong bowl
+  between. **Small group** — four plates around the table end, the card
+  stack and timer at the centre, the leftover meat board cropped; extra
+  chairs and a blurred figure mid-gesture behind.
+- Never stage: the game's box, logo or printed cards (licensed product;
+  any readable word fails file-wide rule 1); a score pad with names;
+  beer, ciders or brandy on the table; playing for money.
+- Confidence and sources: 30 Seconds MEDIUM; food and staging EDITORIAL.
+
 ---
 
 #### OPTIONAL MODULE — MORNING OCCASIONS (off by default)
@@ -798,6 +1279,405 @@ Use only for an explicit morning business case; log each use.
   fit. [LOW-MEDIUM]
 - **Honesty note [EDITORIAL]:** a soft drink as a morning beverage is a
   brand proposition, not a documented norm.
+
+---
+
+#### VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (background-first). This file has no
+QUICK-REFERENCE register table, so the profiles sit here, after
+ENVIRONMENT & STAGING SCENES and its CELEBRATIONS and GAME NIGHT parts,
+at the same `####`/`#####` level. Heading levels follow those sections.
+
+**The settlement-register framing is still PENDING HUMAN SIGN-OFF**
+(FILE ROLE & METHOD). Every profile below is written for a
+register-neutral default that reads South African without saying
+"suburb" or "township". Where a register would change the background, it
+is named as a **variant, described factually, not as a default**, and is
+not to be generated from until the framing is confirmed. The caricature
+rules in General environmental norms apply to every profile.
+
+Wave 1 covers the five most-used venues: the home kitchen and lounge, the
+patio or lapa braai, the shisa nyama, the garage forecourt, and the
+celebration marquee. The fan park (GAME NIGHT) and the Durban curry
+house, Portuguese restaurant and Cape fish-and-chip shop (Away from home
+scenarios) are left for a later wave.
+
+##### Venue: Home kitchen and open-plan lounge (the "kitchen", the "lounge")
+- **Use for:** home indoor; casual lunch for 1–3, weekday supper,
+  Sunday lunch indoors in winter, Eid lunch, the football watch party in
+  the lounge. The national default home interior. Newer homes and flats
+  run kitchen, dining corner and lounge together as one open-plan room;
+  older homes have a separate kitchen with a hatch or doorway to the
+  dining room. [MEDIUM — open-plan layout with sliding doors to the patio
+  shown across South African home and design press (House and Garden SA,
+  homify SA); share of older vs. newer layouts not sourced]
+- **Soft background (the core):**
+  - *Back wall:* plastered walls painted in warm off-white, cream, pale
+    grey or a single muted feature wall; behind the kitchen counter a
+    band of **white or pale ceramic wall tiles** and a run of
+    **melamine or painted cupboards** (white, cream, light wood-look).
+    What hangs on it: a wall clock, one or two framed family photos or a
+    print, a calendar (blank blur, never legible). [LOW-MEDIUM — not
+    independently re-checked; consistent with General environmental
+    norms]
+  - *Middle distance:* the counter with an **electric kettle**, a
+    **bread bin** and a toaster as small pale shapes (these two are this
+    file's interior markers); a freestanding white or steel fridge with
+    a few magnets; through the open plan, the lounge: a large fabric or
+    leather-look **sofa**, a coffee table, a **wall-mounted TV** as a dark
+    rectangle or soft glow. In older homes, a **glass-fronted display
+    cabinet** with good plates and glass ornaments (never bottles) as a
+    tall dark shape with glints. [LOW-MEDIUM — interior markers carried
+    from General environmental norms]
+  - *Light:* strong, clean daylight through a large **aluminium-framed
+    sliding door** or window to the patio, often with **burglar bars**
+    as a thin grid of shadow lines (use sparingly; the file says security
+    reads heavily). Highveld winter midday: crisp, cool-white, long
+    shadows on the floor; Durban: hazy and soft; evening: warm LED
+    downlights or a single pendant over the table, a ceiling-mounted
+    light, the TV's cool glow. [MEDIUM — sliding doors and burglar bars
+    common in SA homes (House and Garden SA, burglar-bar suppliers);
+    light quality per this file's climate notes]
+  - *Palette:* warm neutrals (cream, beige, grey), large pale floor
+    tiles, a dark sofa, the green of the garden through the glass.
+  - *Signature shapes (3–5):* the bright rectangle of the sliding door
+    with garden green beyond; the kettle and bread bin on the counter;
+    the dark band of a wall-mounted TV; the tall glass cabinet (older
+    homes); large square floor tiles catching reflections.
+  - *Density and wear:* tidy and lived-in, not a showroom: a tea towel on
+    the oven handle, a fruit bowl, a school-bag-free surface (no
+    children). [EDITORIAL]
+  - *People cues:* at most one or two family members soft in the lounge
+    or at the counter, no sharp faces. [EDITORIAL]
+- **Shell:** single-storey brick house or a flat; **large glazed or
+  ceramic floor tiles** (beige, grey, cream) rather than wood; flat
+  plastered ceiling, sometimes a ceiling fan in KZN; aluminium-framed
+  windows and sliding doors. [LOW-MEDIUM — not independently re-checked;
+  tiled floors carried from General environmental norms]
+- **The table as set here:** a rectangular wooden or wood-look dining
+  table, often with a plastic or printed cloth on weekdays and a white
+  or best cloth on Sundays and Eid; plates heaped to the rim (VISUAL &
+  PLATING NORMS); a fork and knife, salt and pepper, a bottle of tomato
+  sauce or chutney kept off-brand and turned away (better: absent). Chair
+  edges: upholstered or wooden dining chairs. For the lounge watch
+  party, the coffee table holds bowls and boards (GAME NIGHT).
+  [LOW-MEDIUM; EDITORIAL]
+- **Subregional variants and the national default:** national default
+  when nothing is named: an open-plan kitchen and lounge in a brick
+  house, tiled floor, sliding door to a patio, Highveld light. Western
+  Cape: softer grey winter light, rain on the glass in winter. KZN: a
+  ceiling fan, lush green beyond the glass, humid haze. Cape Malay or
+  Durban Indian household (Eid, Diwali): best tablecloth, family photos
+  and a lounge set for visitors; never mosque, prayer or shrine objects
+  near the product. *Register variants (PENDING SIGN-OFF, factual only):*
+  a smaller house with a kitchen-lounge in one room and a counter used as
+  the table; a flat with a galley kitchen and a balcony door instead of a
+  patio door; an older farmhouse kitchen with a coal or wood stove and a
+  deep window. [EDITORIAL]
+- **Hallucination traps:** a placeless glossy "Scandinavian" or
+  American kitchen with an island and pendant trio and nothing South
+  African (the file's sanitized over-correction); "tribal" masks, carved
+  animals, zebra-skin rugs or wildlife prints as decor (safari cliché);
+  a UK terrace kitchen with a range cooker and small windows; snow or
+  fireplace props in a Christmas scene (midsummer); bare-brick poverty
+  framing as the default.
+- **Never stage:** brandy, wine or beer bottles on the counter or in the
+  cabinet; legible calendars, magnets, packaging or TV screens; brand
+  marks on the fridge, kettle or sauce bottles; a full South African flag;
+  identifiable children or school-uniform shapes.
+- **Prompt-ready line:** "A South African open-plan kitchen and lounge
+  in soft focus: cream walls and pale ceramic floor tiles, a kettle and
+  bread bin on the counter, a dark sofa and a wall-mounted TV beyond, and
+  bright Highveld daylight through an aluminium sliding door to a green
+  garden."
+- **Confidence and sources:** LOW-MEDIUM overall; layout and sliding
+  doors MEDIUM (House and Garden SA, homify SA, burglar-bar suppliers);
+  colours and fittings editorial. 1 search this pass.
+
+##### Venue: Patio or lapa braai (the "stoep", the "lapa", the braai area)
+- **Use for:** home outdoor; the weekend braai, Heritage Day, the
+  Springbok Test braai, Christmas lunch outdoors, the after-braai word
+  game; 1, 2 or a small group of settings inside a gathering of 8–20.
+  The market's signature home venue and the default for every
+  celebration staged at home. [HIGH for the braai as the default
+  gathering (CELEBRATIONS); MEDIUM for the lapa form (lapa builders'
+  sites)]
+- **Soft background (the core):**
+  - *Back wall:* the **built-in brick braai**, a waist-high brick or
+    plastered firebox with a grid and a **chimney hood** rising behind,
+    face-brick (red-brown, iron-spotted) or plastered and painted; in a
+    lapa, it sits in the lapa's back wall. A ledge beside it holds tongs,
+    a wooden board, a spray bottle. [MEDIUM — lapa builders (Bosazza,
+    Build-A-Lapa, Donkiz) describe the brick firebox, adjustable grid and
+    chimney in the back wall]
+  - *Overhead:* a **thatched lapa** roof (grey-gold thatch on round
+    gum-pole rafters, open on three sides) or a **patio roof** of
+    corrugated sheeting or a pergola with shade cloth. From inside the
+    frame this reads as a warm, textured ceiling edge and dark poles.
+    [MEDIUM — same sources; lapas are often open or semi-closed with a
+    back wall]
+  - *Middle distance:* the braai-master's back and arm at the grid,
+    smoke drifting; a second table or a row of **camping chairs**; a
+    gazebo edge for a big day; the garden: lawn (green in summer,
+    straw-brown on the Highveld in winter), a boundary wall with
+    creepers, a jacaranda in spring; a pool's blue glint in some homes
+    (optional, not default). [LOW-MEDIUM; EDITORIAL]
+  - *Light:* outdoor daylight under the roof edge: hard sun on the lawn
+    and soft shade at the table; golden-hour, the low sun through smoke
+    makes a warm haze; the **coals' orange glow** in the firebox; after
+    dark, a bulkhead light or a string of warm bulbs under the roof.
+    [EDITORIAL]
+  - *Palette:* red-brown face brick, grey-gold thatch, charcoal black,
+    lawn green or winter straw, ember orange.
+  - *Signature shapes (3–5):* the brick braai with its chimney hood; a
+    curl of smoke with a figure behind it; the thatch fringe or roof
+    edge; a row of salad bowls on a side table; camping chairs.
+  - *Density and wear:* well-used: soot on the firebox mouth, a stack of
+    wood or a bag of charcoal kept plain and unbranded, a tidy but
+    lived-in garden. [EDITORIAL]
+  - *People cues:* the braai-master and one or two guests, backs or
+    profiles in soft focus, within the background-people limit.
+- **Shell:** a covered patio attached to the house (tiled or brick-paved
+  floor, a sliding door back into the lounge, which is where the TV glow
+  comes from on match days) or a freestanding lapa (paved or screed
+  floor, about 4 × 4 m and up). [MEDIUM — lapa builders give 4 × 4 m as
+  the most common size]
+- **The table as set here:** a wooden patio table or a plastic or
+  folding table, often bare or with a plastic or shweshwe cloth; the
+  meat board, the pap pot and salad bowls in the middle; sturdy or
+  disposable plates and paper serviettes; plastic or steel garden
+  chairs. (CELEBRATIONS: How large gatherings work here.) [LOW-MEDIUM]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a covered patio with a built-in face-brick
+  braai and a lawn beyond, Highveld light. Thatched lapa: most typical
+  in Gauteng, Limpopo, North West and bushveld homes [LOW — not
+  verified]. Western Cape: a stoep with a view of mountains as a pale
+  blur (no named peak), wind; KZN: lush planting, humid haze. Karoo
+  farm: a deep stoep, a windmill far off. Flat: the complex's communal
+  braai under a small roof. *Register variants (PENDING SIGN-OFF, factual
+  only):* a yard braai on a drum or portable grill with plastic chairs
+  and a low wall. [EDITORIAL]
+- **Hallucination traps:** a US gas grill or kettle barbecue as the
+  default (South Africa is wood and charcoal); a Uruguayan parrilla
+  (the parrilla's angled grill and brasero) or an Argentine quincho;
+  safari lodge decor (animal skins, horns, bush-boma clichés); savanna
+  sunsets with acacias; an Australian deck with a beer esky.
+- **Never stage:** beer, brandy and cola, cider, quarts; an open cooler
+  box (closed and blank only); a full flag; rugby crests or kits; any
+  legible label on the charcoal bag or sauces.
+- **Prompt-ready line:** "A South African braai area in soft focus: a
+  face-brick built-in braai with a chimney hood and glowing coals under
+  a thatched roof edge, a figure turning meat behind drifting smoke, and
+  a sunlit lawn with camping chairs beyond."
+- **Confidence and sources:** MEDIUM overall (lapa and braai builders:
+  Bosazza Roofing, Build-A-Lapa, Donkiz; this file's braai entries);
+  colours and set dressing editorial. 1 search this pass.
+
+##### Venue: Shisa nyama (chisa nyama; buy-and-braai)
+- **Use for:** restaurant or "other", outdoor or semi-outdoor; weekend
+  lunch and late afternoon, 2–3 people (Away from home 2–3), Gen Z
+  "chill" sessions staged alcohol-free. This file names it the
+  **strongest everyday eat-out register**; it takes the place of a
+  "casual sit-down restaurant" here because no sit-down format is more
+  used in the file's evidence. [MEDIUM for the format — In Your Pocket
+  Johannesburg, Wikipedia, South African Tourism; "strongest everyday"
+  is this file's own MARKETS register judgement]
+- **Soft background (the core):**
+  - *Back wall:* the **butchery counter**: a glass-fronted chilled
+    display with trays of raw boerewors coils, chops and chicken (red and
+    pink blocks under white light), white wall tiles behind it, a person
+    in a white coat or apron. [HIGH for the attached butchery where
+    patrons choose meat — In Your Pocket, Wikipedia, South African
+    Tourism]
+  - *Middle distance:* the **braai station**: a long brick braai or
+    half-oil-drum grills with heaped coals, **smoke in a haze** over the
+    yard, a braai-man with long tongs. Beyond, plastic tables under
+    **awnings, gazebos or a corrugated-roof shelter**, and an open yard
+    or car park. [HIGH for plastic tables under awnings looking onto a
+    smoke-filled car park, and for oil-drum braais — In Your Pocket,
+    Wikipedia/South African Tourism; many venues are basic, some
+    upgraded]
+  - *Light:* bright afternoon sun outside the shade line, soft shade
+    under the awning; golden-hour sun through smoke is the signature
+    look; the butchery counter's cool white strip light; at dusk, bare
+    bulbs or floodlights over the yard. [EDITORIAL]
+  - *Palette:* white and red plastic furniture, grey smoke, charcoal
+    black, raw-meat red behind glass, corrugated silver or painted
+    walls, the sky.
+  - *Signature shapes (3–5):* drum braais with smoke columns; rows of
+    stacked plastic chairs and tables; the glass butchery counter; an
+    awning edge; parked cars as soft shapes.
+  - *Density and wear:* busy, used, sociable: smoke-stained walls,
+    scuffed plastic, but clean tables. Frame it as a lively weekend
+    institution (the file's caricature rule), not hardship.
+  - *People cues:* groups at other tables as blurred colour, the
+    braai-man's back; no more than about 2.5 faces, none sharp.
+- **Shell:** a butcher's shop with a yard: a small brick or block
+  building with a shop front, an open or roofed yard, concrete or paved
+  ground. Upgraded venues have a covered deck or a fixed roof.
+  [MEDIUM — In Your Pocket: "sometimes little more than a counter and an
+  oil-drum braai"]
+- **The table as set here:** a bare white or coloured plastic table; the
+  meat arrives on a **metal tray or wooden board** lined with paper, with
+  pap and chakalaka in polystyrene or plastic tubs or on the tray;
+  paper serviettes; eaten by hand and with plastic forks (MARKETS
+  register: "plastic tables, trays, hands and forks"). Plastic chairs at
+  the frame edge. [MEDIUM — file register; tray format consistent with
+  shisa nyama platter sources]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Gauteng shisa nyama with a butchery counter,
+  drum braais and plastic tables under an awning. Durban: the same form,
+  hazy humid light. Western Cape: a similar buy-and-braai, also called a
+  braai spot. Upmarket and mall versions have wooden decks and fixed
+  roofs. **Location framing is PENDING SIGN-OFF**: many shisa nyamas are
+  in townships; the profile is written so the background reads as the
+  venue (counter, drums, plastic tables, smoke) without staging the
+  street or neighbourhood around it. [EDITORIAL]
+- **Hallucination traps:** a US barbecue joint (smokers, brisket,
+  picnic tables with checked cloths); a Brazilian churrascaria with
+  skewers carried to the table; a generic food court; the beer side of
+  the venue (it is often alcohol-centric, per the MARKETS register);
+  shacks, dust and poverty as the default framing.
+- **Never stage:** beer crates, quarts, ciders, a bar fridge with
+  bottles, speakers with brand logos; legible price boards or meat
+  labels; branded umbrellas or chairs; sports-betting posters.
+- **Prompt-ready line:** "A South African shisa nyama in soft focus:
+  smoke drifting from oil-drum braais in a sunny yard, white plastic
+  tables under an awning, and a glass-fronted butchery counter with red
+  trays of meat behind."
+- **Confidence and sources:** MEDIUM-HIGH for the format (In Your Pocket
+  Johannesburg, Wikipedia, South African Tourism); light and palette
+  editorial. 1 search this pass.
+
+##### Venue: Garage forecourt and forecourt shop (the "garage")
+- **Use for:** on-the-go, 1 person (sometimes 2); the garage pie, a
+  quick lunch on a road trip or the commute; the BEVERAGE MOMENTS
+  "Garage forecourt" row. National default street / on-the-go venue
+  because it is register-neutral and nationwide. [MEDIUM — garage pie as
+  an icon kept in a warmer at the till (FinGlobal; PantsDownApronsOn);
+  forecourt retail growth (Daily Maverick 2026)]
+- **Soft background (the core):**
+  - *Back wall:* the **forecourt canopy** high overhead, a flat white or
+    grey slab with rows of flush lights; under it the **fuel pump
+    islands** as upright pale boxes with dark hoses, kept colourless and
+    unbranded. For an in-shop frame: the till counter with the **glass
+    pie warmer** (rows of golden pies under warm light), white tiled
+    floor, bright shelving as colour blur. [MEDIUM for the pie warmer at
+    the till — FinGlobal, PantsDownApronsOn]
+  - *Middle distance:* a parked car's bonnet (the hero surface, per the
+    on-the-go scenario), other cars as soft shapes, an **attendant** in
+    overalls by a pump (full-service forecourts are the South African
+    norm [MEDIUM — not independently re-checked this pass]); the shop's
+    glass front glowing; beyond the canopy, the road, a low wall, a tree
+    or Karoo scrub on a highway stop.
+  - *Light:* midday: hard sun on the apron, a deep shadow line under the
+    canopy. Evening and night: the canopy's **cool-white LED wash** and
+    the shop front's glow, car headlights as bokeh. [EDITORIAL]
+  - *Palette:* concrete grey, canopy white, black tarmac, chrome, the
+    golden brown of the pie, any car colour.
+  - *Signature shapes (3–5):* the canopy edge with light panels; pump
+    islands; a car bonnet; the glowing shop front; the pie warmer's glass
+    cabinet.
+  - *Density and wear:* clean, functional, commercial; oil marks on the
+    concrete.
+  - *People cues:* one attendant or a driver, soft, no sharp face.
+- **Shell:** an open concrete forecourt under a steel canopy, with a
+  glass-fronted convenience shop; larger highway sites add a food court.
+  [MEDIUM — Daily Maverick on forecourt retail]
+- **The table as set here:** no table: the **car bonnet**, a low wall or
+  a picnic bench at a highway stop. The pie in a **plain paper bag**
+  (pie in its foil tin or on the bag), a paper serviette. [MEDIUM — paper
+  bag per FinGlobal/PantsDownApronsOn and this file's on-the-go
+  scenario]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a town or city forecourt by day. Long-distance
+  N1/N3-style stop: a bigger site with a food court, Karoo or veld
+  beyond (genericize any route). For a farm-stall road stop, use the
+  padstal (on-the-go scenario), not the forecourt.
+- **Hallucination traps:** a US gas station with a convenience-store
+  slushie wall and hot dogs on rollers; self-service UK forecourt with no
+  attendants; a fuel brand's corporate colours on the canopy (Shell
+  yellow, Engen blue-red, BP green, Sasol, TotalEnergies, Astron); a
+  drive-thru as the default.
+- **Never stage:** fuel-brand marks or colour liveries, price boards
+  with numbers, legible pump displays, branded shop signage, car number
+  plates; alcohol or alcohol posters of any kind.
+- **Prompt-ready line:** "A South African garage forecourt in soft
+  focus: a flat white canopy with rows of lights, plain pump islands and
+  an attendant in overalls, a glowing shop front behind, and a garage pie
+  in a plain paper bag on a car bonnet in the foreground."
+- **Confidence and sources:** MEDIUM (FinGlobal, PantsDownApronsOn,
+  Daily Maverick); attendants carried as common knowledge, not
+  re-checked. 1 search this pass.
+
+##### Venue: Celebration marquee (wedding or party tent at the family home or a hired venue)
+- **Use for:** "other" or home outdoor; wedding receptions, big 21sts,
+  large family celebrations; 1, 2 or a small group of settings at one arc
+  of a round table inside a gathering of 80 to several hundred. The
+  signature event venue of the CELEBRATIONS section. [MEDIUM — marquee
+  and tent hire for weddings widely advertised (Boss Tents, Marquee Hire,
+  Cape Marquee); this file's wedding entry]
+- **Soft background (the core):**
+  - *Overhead and back wall:* white or ivory **tent fabric**, either
+    pole-and-peg or frame marquee walls with clear or arched windows, or
+    a stretch tent's curved sweeps of fabric; **draping**: swags of
+    white or coloured chiffon gathered from the ceiling centre, sometimes
+    fairy lights through it. [MEDIUM — SA tent suppliers list pole,
+    frame, clear-span and stretch tents and draping as standard hire]
+  - *Middle distance:* rows of **round tables** with long cloths, low
+    floral centrepieces; **chairs in white covers with coloured sashes**
+    (the family's colour) or Tiffany-style chairs; a **buffet line** with
+    chafing dishes and women serving queued guests (the file's wedding
+    service); a cake table. [MEDIUM — chair covers, Tiffany chairs, linen
+    and crockery hire (tent suppliers); buffet service per this file's
+    wedding entry (IOL, Home-Dzine)]
+  - *Light:* daylight diffused through white fabric (very even, slightly
+    warm); golden-hour, the open sides glow; evening, fairy lights and
+    chandeliers or uplights in the draping. [EDITORIAL]
+  - *Palette:* white and ivory dominated, with one or two accent colours
+    in sashes, napkins and flowers; at a traditional wedding, guests in
+    **shweshwe** prints or the couple's chosen fabric colour as blurred
+    pattern. [EDITORIAL; shweshwe cue carried from the Heritage Day entry]
+  - *Signature shapes (3–5):* the tent ceiling with fabric swags;
+    round tables in rows; covered chairs with bows; the buffet line's
+    steel chafing dishes; tent poles.
+  - *Density and wear:* new and dressed for the day: crisp linen, the
+    lawn underfoot or temporary flooring at the tent edge.
+  - *People cues:* guests as blurred colour at other tables or in the
+    buffet queue, within the background-people limit; no identifiable
+    children.
+- **Shell:** a hired tent on a lawn or yard at the family home, or a
+  hall or wedding venue with similar dressing; lawn, carpet or wooden
+  tent flooring. [MEDIUM — tent suppliers]
+- **The table as set here:** a long white cloth; hired white crockery
+  or disposable plates, steel cutlery, a folded napkin; the shared
+  bowls (chakalaka, beetroot, potato salad) in the centre when food goes
+  to each table. [MEDIUM — this file's wedding entry]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a white marquee on a lawn with draped ceiling,
+  round tables and sashed chairs. Cape Malay wedding: breyani at the
+  table, modest dress on blurred guests. Durban Indian wedding: a hall
+  with brighter colours and curry and breyani. Winelands wedding venues
+  exist but read alcohol-led; prefer the family marquee. *Register
+  variants (PENDING SIGN-OFF, factual only):* the same tent pitched in a
+  family yard on a residential street.
+- **Hallucination traps:** a US barn wedding with mason jars; a Western
+  church-hall buffet; "tribal" props, beaded costumes as caricature or
+  animal skins as decor; an Indian or Nigerian wedding look borrowed
+  wholesale (owambe aso ebi, mandap) for a generic SA wedding; champagne
+  towers.
+- **Never stage:** champagne, wine, umqombothi pots, any bar; banners
+  with names or dates; money or gifts near the product; ceremonial
+  slaughter or ancestral rites (FESTIVALS: traditional ceremonies not
+  recommended).
+- **Prompt-ready line:** "A South African wedding marquee in soft focus:
+  white tent fabric with swags of chiffon draping overhead, round tables
+  in rows with white-covered chairs tied with coloured sashes, and a
+  buffet line of steel chafing dishes glowing in diffused daylight."
+- **Confidence and sources:** MEDIUM (Boss Tents, Marquee Hire, Cape
+  Marquee; this file's wedding entry and its IOL/Home-Dzine sources);
+  colours editorial. 1 search this pass.
 
 ---
 
@@ -2650,6 +3530,33 @@ the Gap Log below.
   remain at the scaffold's own self-assessed confidence, converted one
   notch down per this pass's stated conversion rule (see METHOD NOTE) —
   not independently re-searched.
+- **Celebrations pass (2026-10-01) open items.** Headcounts for the
+  braai, Sunday lunch, Christmas, Eid, wedding and 21st entries are
+  editorial estimates, not sourced. The 21st-birthday food is LOW (only
+  catering listings; one search result's "crocodile and caterpillars"
+  claim came from a listicle and was not used). The wedding entry's menu
+  rests on two lifestyle sources (IOL, Home-Dzine); Xhosa, Sotho, Tswana
+  and Afrikaans wedding menus were not checked separately. Durban Indian
+  Eid and wedding tables were not searched. Funerals and after-tears
+  were excluded editorially; a reviewer should confirm.
+- **Game-night pass (2026-10-01) open items.** Springbok fixture months
+  and home kick-off times, PSL season and Soweto-derby timing, EPL and
+  Champions League times in SAST, and the 2027 Rugby World Cup's morning
+  slots are time-zone arithmetic or model knowledge [LOW — not verified].
+  Proteas cricket viewing food was not researched (rated medium, no
+  entry). Pub quizzes and dominoes as social games are LOW and
+  unverified; 30 Seconds rests on Wikipedia and retailers (MEDIUM). The
+  prevalence of sports-betting advertising around football is LOW. All
+  game-night headcounts and food pairings are editorial.
+- **Venue-profile pass (2026-10-01) open items.** Unverified background
+  details: kitchen colours, cupboard finishes and the share of open-plan
+  vs. older separate-kitchen layouts; thatched lapas as most typical in
+  Gauteng and the north; full-service forecourt attendants (common
+  knowledge, not re-checked); shisa nyama light and palette; marquee
+  accent colours. All register variants in VENUE PROFILES stay PENDING
+  HUMAN SIGN-OFF with the settlement-register framing. Fan park, Durban
+  curry house, Portuguese restaurant and Cape fish-and-chip shop not yet
+  profiled (later wave).
 
 ## CANDIDATE QUEUE
 1. Get a CCBSA/CCBA spec sheet or direct packaging measurement for the
@@ -2674,6 +3581,16 @@ the Gap Log below.
    coil, kota, bunny chow, stiff pap, gem squash, ujeqe, trinchado, and
    the game-vs-beef biltong pair (the newest and most texturally
    distinctive entries).
+8. Celebration dishes without a catalog entry (from the 2026-10-01
+   celebrations pass): **Labarang mince pies** (with dhaltjies already
+   covered by Chilli bites); a shared **celebration cake** entry (21st
+   key cake, wedding cake); a **wedding beef stew / "wedding meat"**
+   entry if the Beef stew entry proves too generic for wedding briefs.
+9. Viewing foods without an entry (2026-10-01 game-night pass): none
+   essential, since the boerie roll, biltong, droëwors, crisps and fried
+   chicken are all catalogued. If briefs ask, a **match-day snack
+   platter** (sausage rolls, mini pies, chicken wings) and a **fan-park
+   food-stall plate** could be added [LOW — not researched].
 
 ## RESEARCH LOG
 - **2026-09-24, first scaffold.** Written without web access after a
@@ -2735,6 +3652,24 @@ the Gap Log below.
   passes recorded and logged as itself a reusable finding: a
   well-disciplined, honestly self-tagged unverified scaffold is a
   genuinely efficient verification starting point.
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches**
+  (traditional wedding food and service; 21st-birthday key custom;
+  Christmas lunch menu; Cape Malay Labarang food; township wedding
+  marquee catering, which returned only tent-hire listings). Added
+  CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register, at this
+  file's `####` register level: how gatherings work plus 7 entries
+  (weekend braai, Heritage Day, Sunday lunch, Christmas lunch, Eid
+  ul-Fitr/Labarang, wedding reception, 21st birthday). Settlement-register
+  sign-off left unresolved; entries written register-neutral. No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS at the `####` level:
+  3 watch-party entries (Springbok Test braai, Soweto derby and Premier
+  League at home, tournament final at a fan park) and 1 social game-night
+  entry (word party game after the braai, 30 Seconds-style; popularity
+  medium). Settlement-register sign-off left untouched; entries written
+  register-neutral. No subagents.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (home kitchen and lounge, patio or lapa braai, shisa nyama, garage forecourt, celebration marquee). Written register-neutral; settlement-register variants kept as factual variants, sign-off not resolved. No subagents.
 
 ---
 

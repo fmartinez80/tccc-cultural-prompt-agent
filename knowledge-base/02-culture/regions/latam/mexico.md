@@ -162,6 +162,106 @@ notes only where they prevent a visual error.
 | **Family comida at home** | A dining table with an oilcloth (hule) or embroidered cloth, a tortilla basket or cloth-wrapped tortillas, a salsa in a molcajete, a shared pot or platter, a multi-serve bottle in the midground. |
 | **Carne asada at home (North)** | A backyard or carport with a charcoal grill, a plastic or folding table, flour and corn tortillas, grilled cebollitas and chiles, salsa, guacamole. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-used staging venues). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 4 (Centre, Mexico City and Puebla area) is the default; other zones are given as variants, and where a zone has no detail the Centre version applies [EDITORIAL]. File-wide rules 1–6 apply to every profile: nothing legible, no alcohol, no drinks but the hero, nothing held in a hand. The QUICK-REFERENCE table above stays as the short index.
+
+### Venue: Colonia house, kitchen-dining corner (casa en colonia: comedor y cocina)
+- **Use for:** home indoor; casual lunch for 1, 2 or 3, the light cena, Nochebuena and Sunday comida tables, the living-room side of a home watch party. The national default home: 73.2% of dwellings are a single house on its own lot (INEGI 2020; see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the staging default].
+- **Soft background (the core):**
+  - *Back wall:* smooth painted plaster in one flat warm or saturated colour (terracotta, mango yellow, salmon, pistachio green) or plain cream, with a slight satin sheen where the window light hits it. On it, kept small and soft: a paper wall calendar (an unreadable rectangle of colour), a small framed religious image or family photo, a round wall clock [MEDIUM — file interior markers, not individually re-checked].
+  - *Middle distance:* the compact kitchen through a wide doorway or open to the dining corner: a short run of white or wood-look laminate "cocina integral" units, a four-burner gas stove with a flat steel **comal** on one burner, a blender on the counter, and the **garrafón** (a 20 L water jug) on a stand or dispenser, which reads as a pale blue translucent cylinder. A dark-wood china cabinet (trinchador or vitrina) with glassware behind its doors often stands against the dining wall [MEDIUM — file markers; Homify and La Haus on the small social-housing kitchen; the trinchador is LOW — not verified].
+  - *Light:* daylight through an aluminium-framed window with a **wrought-iron grille**, often behind a sheer or lace curtain, so the window reads as a bright panel crossed by a soft dark grid. After dark: a cool-white ceiling fitting (round plafón or a fluorescent or LED tube, 4000–6500 K) that flattens the room, sometimes one warm bulb [MEDIUM for grilles (file exterior markers); LOW-MEDIUM for the cool ceiling light — not verified].
+  - *Palette:* the warm wall colour, glossy beige or off-white floor tile, dark wood or wood-look furniture, and the pattern of the hule.
+  - *Signature shapes (3–5):* the grille grid over the window; the blue garrafón cylinder; the comal disc on the stove; potted plants on the sill or floor; the dark mass of the china cabinet.
+  - *Density and wear:* lived-in and tidy, moderately full; a few things on every surface, not a showroom and not clutter.
+  - *People:* one blurred family member at the stove or passing the doorway, back or profile only.
+- **Shell:** a concrete-block house of one to three storeys; flat concrete slab ceiling (losa) painted white; glossy ceramic floor tiles (beige, white or stone-look) or polished cement in newer social housing, which is often delivered with cement floors and a 2 × 2 m kitchen [MEDIUM — Homify, La Haus on casas de interés social].
+- **The table as set here:** a rectangular wooden or wood-look table for 4–6 under a **patterned plastic oilcloth (hule)**, floral, fruit or checked; for occasions an embroidered cloth, sometimes under a clear plastic cover. Always on it: a napkin holder with thin paper napkins, a salt shaker, salsa in a **molcajete** or small bowl, a tortillero or cloth-wrapped tortillas, lime wedges. Plain ceramic or enamelled (peltre) plates and plain glass tumblers. Chair edges: wooden chairs or metal-framed chairs with vinyl seats [MEDIUM — consistent with the register table and GENERAL NORMS].
+- **Subregional variants and the national default:** Centre is the default. *North (zone 1):* larger open-plan rooms, a split air-conditioner high on the wall, flour tortillas on the table. *Gulf and Yucatán (zones 5, 7):* a ceiling fan as a soft blurred disc, louvred or larger windows, pastel walls; in Yucatán, hammock hooks on the wall. *Mexico City apartment (5.6% nationally):* the same table in a smaller open living-dining room with a narrower window and no grille on upper floors [EDITORIAL; LOW — not verified for the zone details].
+- **Hallucination traps:** hacienda beams and Talavera tile on every surface; sombreros, sarapes or a guitar hung on the wall; papel picado on an ordinary day; a Día de Muertos ofrenda; a US suburban kitchen with an island and stainless appliances; the yellow filter; poverty framing (bare block walls, exposed rebar indoors).
+- **Never stage:** agua fresca jugs, beer or any non-hero drink (rule 4); legible calendars, garrafón labels, appliance brands or fridge magnets; a religious image as the subject; identifiable children.
+- **Prompt-ready line:** "A tidy Mexican family house at midday: soft background of a terracotta-painted plaster wall, a bright window behind a black iron grille, a blurred compact kitchen with a steel comal on the gas stove and a pale blue water jug; in focus, a table with a floral plastic oilcloth, a stone molcajete and a cloth-wrapped stack of tortillas."
+- **Confidence and sources:** MEDIUM overall. Housing type HIGH (INEGI, as cited above); social-housing interior MEDIUM ([Homify — casas de interés social](https://www.homify.com.mx/libros_de_ideas/3788854/casas-de-interes-social-en-mexico-8-cosas-que-debes-debes-saber-en-cuanto-antes); [La Haus — casa de interés social](https://www.lahaus.mx/blog/comprar-vivienda/casa-de-interes-social-que-es-y-como-acceder-a-este-tipo-de-vivienda)); the rest from the file's interior markers; staging EDITORIAL. One search this pass.
+
+### Venue: Patio, carport or closed street under a tarp (patio o cochera con lona)
+- **Use for:** home outdoor; children's birthday taquiza, baptism and first-communion lunches, posada lotería, Fiestas Patrias night, Sunday comida spilling outside, family dominoes; parties of 1, 2 or a small group as a snapshot of 10–80 guests. The everyday-party venue for most of the country (see CELEBRATIONS: How large gatherings work here) [EDITORIAL synthesis; MEDIUM for tarps and rented furniture as a standard service].
+- **Soft background (the core):**
+  - *Overhead:* a stretched polyester **tarp (lona or toldo)** on metal poles, white, blue or striped, that glows translucent by day and puts a soft colour cast over the whole scene; for a fiesta, string lights and papel picado hung beneath it [MEDIUM — CDMX party-rental listings for toldos, lonas, tables and chairs].
+  - *Back wall:* the painted block perimeter wall (barda) of the lot or the house front, in a flat colour, with a **wrought-iron gate or a roll-up garage door**, potted plants in clay pots or reused tins along its foot.
+  - *Middle distance:* **rows of rented folding tables** under plain or coloured cloths and identical folding chairs (white plastic, or padded metal); the **taquiza line**: a long table of clay cazuelas and steel chafing pans with a cook behind it; for a birthday, a piñata silhouette and balloon clusters as soft colour [MEDIUM — rental and taquiza vendor offers, as cited in CELEBRATIONS].
+  - *Light:* by day, diffused light through the tarp (cool under blue, warm under white or yellow) with bright sky at the open edges; after dark, warm string lights and bare bulbs on a cable as bokeh dots, and a dark sky beyond.
+  - *Palette:* the tarp colour over everything, white or bright tablecloths, terracotta of the cazuelas, the painted wall colour.
+  - *Signature shapes (3–5):* the tarp ridge and its poles; the receding row of folding chairs; the line of round clay cazuelas; string-light dots; the iron gate.
+  - *Density and wear:* busy and crowded at a party; ordinary, slightly worn concrete or tile underfoot.
+  - *People:* one or two blurred guests seated at a far table or at the taquiza line, within the limit.
+- **Shell:** an open concrete or tiled patio, the carport at the front of the house, or the street in front of the house closed off with the tarp; no ceiling except the tarp.
+- **The table as set here:** a rented folding table with a **plastic tablecloth** (bright solid colours or a party print) or a hule; **disposable plates** (white foam or thick paper), plastic forks or none, paper napkins; salsas in plastic or clay bowls, a tortilla basket, limes. Chair edges: white plastic or folding metal chairs [MEDIUM — taquiza vendor menus list desechables; file CELEBRATIONS].
+- **Subregional variants and the national default:** Centre is the default. *North (zone 1):* a carport or backyard with a **half-barrel or kettle charcoal grill** smoking at the edge, cebollitas on the grate (see Scenario: Meal outdoors at home). *Azotea (roof terrace), dense colonias:* the black or beige **tinaco** water tank and a gas cylinder as soft shapes, a horizon of flat roofs, a strip of washing line kept minimal. *Towns:* a dirt or concrete yard with fruit trees; the same tarp and rented tables [EDITORIAL; MEDIUM for the northern carne asada, per the file].
+- **Hallucination traps:** a US backyard lawn with a picket fence; a Tex-Mex fiesta with sombreros, maracas and a cactus; mariachis in costume (only for an explicit fiesta brief, and never as the subject); a glamping or wedding-marquee look with fairy-light canopies and wooden crates; beer coolers.
+- **Never stage:** beer, tequila, ponche jarros or agua fresca jugs; legible banners or birthday names; licensed cartoon characters; branded coolers or furniture (stage unbranded red or white plastic); identifiable children, children near the product; a full flag at Fiestas Patrias (tricolour streamers only).
+- **Prompt-ready line:** "A Mexican family party under a stretched white tarp in a concrete patio: softly blurred rows of folding chairs, a line of clay cazuelas on a long table and warm string lights against a painted block wall with an iron gate; in focus, a folding table with a bright plastic cloth and disposable plates of tacos de guisado."
+- **Confidence and sources:** MEDIUM overall. Rentals: [Renta de Carpas CDMX — toldos](https://rentadecarpascdmx.com/renta-de-toldos-para-fiestas); [Alquiler para Fiestas — sillas y mesas](https://alquiler-para-fiestas.com.mx/renta-de-sillas-y-mesas.html) (tier 3, vendors); the patio and azotea markers from the file; staging EDITORIAL. One search this pass.
+
+### Venue: Fonda / comida corrida (fonda, fondita, cocina económica)
+- **Use for:** restaurant, indoor; the weekday comida (~14:00–16:00), 1 person, 2 or a small group of co-workers; small, family-run, near offices and markets. The default casual sit-down restaurant [HIGH — comida-corrida sources in Scenario: Away from home; Grupo Animal].
+- **Soft background (the core):**
+  - *Back wall:* painted walls, often a warm colour or two-tone with a tiled lower band; a **blackboard or handwritten card with the day's menu** (an unreadable field of chalk or marker strokes); clay pots, jarritos and large wooden spoons hung as decor; an old calendar as a soft rectangle [MEDIUM — Grupo Animal: menu board, plastic tablecloths, a TV and a fast cook as the "classic" fonda; pilot (Algarabía, Chilango)].
+  - *Middle distance:* the **cook at the back** working over big pots and cazuelas on a range, steam rising, sometimes behind a low counter or pass; other small tables with diners as blurred shapes.
+  - *Light:* daylight flooding in from the **open street front** (a bright, overexposed rectangle at one side of the frame); inside, fluorescent tubes or bare bulbs (cool to neutral); the **television high in a corner**, a soft bluish glow with no picture detail.
+  - *Palette:* the warm wall colour, the floral or checked plastic cloths repeating table after table, terracotta clay, the white steam.
+  - *Signature shapes (3–5):* the blackboard rectangle; the TV box high in the corner; the row of pots and steam at the back; the repeating patterned tablecloths; the bright street opening with the rolled-up metal shutter.
+  - *Density and wear:* compact, full and well-used; slightly worn but clean.
+  - *People:* the cook or a server in an apron (mandil), blurred; one or two diners at other tables, backs or profiles.
+- **Shell:** a narrow street-front room, often with a **roll-up metal shutter (cortina metálica)** open to the street; tiled floor or lower walls; a low ceiling with exposed fittings [MEDIUM — pilot].
+- **The table as set here:** a small square table with four simple metal or wooden chairs (folding chairs in busy fondas); a **plastic or oilcloth tablecloth**, often floral or checked; a napkin dispenser; red and green salsa in small bowls or a molcajete; limes; a tortilla basket with a cloth; **melamine or peltre plates**, the sopa aguada in a deep bowl [HIGH for plastic cloths (Grupo Animal; pilot citing Chilango); HIGH for the course sequence, per Scenario: Away from home].
+- **Subregional variants and the national default:** Mexico City is the default. *Market fondas (mercado comedor):* a counter with stools facing the cazuelas, a hanging lamp, produce stalls blurred behind (see the register table). *North:* bigger rooms, more flour tortillas. *Gulf, Yucatán:* ceiling fans and open sides in the heat [EDITORIAL; LOW — not verified for the zone details].
+- **Hallucination traps:** sombreros, piñatas and papel picado as everyday decor (fiesta and tourist cues); a cantina with bottles; brightly painted "tourist Mexican" restaurant interiors; Talavera everywhere; a white-tablecloth restaurant; a hipster chalkboard café.
+- **Never stage:** beer; agua fresca jugs in the hero zone (rule 4; the agua del día is real but kept out of frame); legible menu boards or prices; brand-name refrigerators or coolers; a legible TV picture.
+- **Prompt-ready line:** "A small Mexico City fonda at lunchtime: soft background of a warm-painted wall with a blurred chalk menu board and clay pots, a cook working over steaming pots at the back and bright daylight from the open street front; in focus, a square table with a floral plastic tablecloth, a napkin dispenser, salsas in small bowls and melamine plates."
+- **Confidence and sources:** MEDIUM-HIGH. Rewritten background-first from the 2026-10-01 pilot (one search there: Chilango, CDMX food guide, Algarabía); this pass added [Grupo Animal — ¿Qué es una fonda mexicana?](https://grupoanimal.mx/gastronomia/recetas/fonda-mexicana-historia-comida-corrida). One search this pass.
+
+### Venue: Street taco stand (puesto de tacos)
+- **Use for:** other / street; meal on the go for 1, a late-night taco stop for 2–3; midday and night. The default everyday street register and Mexico's strongest one (see Scenario: Meal on the go) [HIGH].
+- **Soft background (the core):**
+  - *Overhead and behind:* the stand's **tarp in pink, blue, orange or yellow** stretched over a metal frame, glowing with colour by day; the printed menu banner (lona) hung from it as an unreadable block of colour [MEDIUM — file street-food register; tarp and awning listed in stand-maker specs].
+  - *Middle distance:* the **stainless steel cart or counter** catching light in long highlights; the **trompo** for al pastor, a cone of red-orange meat glowing in front of its vertical gas burner with a pineapple on top; or a round **choricera** griddle with a domed centre steaming with suadero and longaniza; the taquero's back or hands as a blur [MEDIUM — stand-maker listings (comal, plancha, pastor oven, awning); Wikipedia on al pastor via search; choricera LOW — not verified].
+  - *Street beyond:* other stalls' tarps as colour blocks, a wall with hand-painted lettering (blurred, unreadable), parked cars, a corner shop's lit doorway, passers-by as soft shapes.
+  - *Light:* day, the coloured tarp light with bright street behind; night (stands peak ~22:00–03:00), **bare bulbs or a fluorescent tube hung from the frame**, the warm glow of the trompo burner, white-LED or sodium streetlights and car lights as bokeh [MEDIUM for the night peak (mexicocity-trip guide); bulbs LOW-MEDIUM — not verified].
+  - *Palette:* saturated tarp colour, steel, the red-orange of the trompo, green cilantro and lime.
+  - *Signature shapes (3–5):* the glowing trompo cone; the tarp edge overhead; the long steel counter; the row of plastic salsa bowls; low plastic stools.
+  - *Density and wear:* busy and lived-in; steel worn bright, stools stacked at one end.
+  - *People:* the taquero and one or two customers standing at the counter, blurred, faces turned away.
+- **Shell:** the sidewalk and a strip of street; no walls but the tarp and the city.
+- **The table as set here:** the stainless counter or a folding table: **plastic plates wrapped in a plastic bag** (plato con bolsa), plastic bowls of chopped onion and cilantro, lime wedges, radish slices, two or three salsas in bowls with spoons or squeeze bottles, a stack of thin paper napkins. Chair edges: low plastic stools [HIGH for bag-wrapped plates; MEDIUM for the rest, per the street-food register].
+- **Subregional variants and the national default:** Mexico City is the default (al pastor, suadero, tacos de canasta on a bicycle basket). *North:* flour tortillas and carne asada tacos on a mesquite or charcoal grill. *Zones 2 and 5:* seafood carts with tostadas and glass cocktail cups (see register). *Yucatán:* cochinita in the morning, outside scope [EDITORIAL].
+- **Hallucination traps:** a US food truck; Tex-Mex hard shells and yellow cheese; a neon taquería sign; mariachis, sombreros or luchador masks; a clean minimalist "Tulum" stall; tortilla chips in baskets; everyone holding a taco (rule 5).
+- **Never stage:** beer, any soft drink other than the hero, agua fresca jugs; legible menu banners, prices or painted wall text; branded coolers or the real branded red plastic furniture (stage unbranded red or white plastic); food in a hand.
+- **Prompt-ready line:** "A Mexico City taco stand at night: softly blurred pink tarp overhead, a glowing al pastor spit and the long highlights of a stainless steel counter, bare bulbs and street lights as warm bokeh; in focus, a bag-wrapped plastic plate of tacos beside bowls of onion, cilantro, lime and salsa on the counter edge."
+- **Confidence and sources:** MEDIUM-HIGH. [Mexico City Trip — guía de comida callejera](https://www.mexicocity-trip.com/es/guias/guia-comida-callejera-mexico/) (tier 4, night timing); [Dinnova Inox — carritos para tacos](https://www.dinnovainox.com.mx/tacos.html) (tier 3, stand fittings); the file's street-food register and Turismo CDMX guide. Two searches this pass.
+
+### Venue: Hired party hall (salón de fiestas / salón de eventos)
+- **Use for:** other; quinceañera and wedding banquets, children's birthdays in a salón infantil, larger baptism lunches; evening, sometimes afternoon; 1, 2 or a small group as a snapshot of 50–200 guests (see CELEBRATIONS) [MEDIUM — vendor and planning sources cited there].
+- **Soft background (the core):**
+  - *Back wall and ceiling:* a large rectangular hall; walls hidden behind **draped fabric** (white or the theme colour) or a backdrop curtain; a dropped ceiling with draped fabric swags, chandeliers or simple fittings [MEDIUM — rental package listings: manteles, cubremanteles, fundas, cortinas de fondo; draping LOW-MEDIUM — not verified].
+  - *Middle distance:* **round tables for 8–10** with floor-length cloths and a coloured overlay (cubremantel), **chairs in covers with sashes** (moños) in the theme colour, tall centrepieces; a parquet or laminate **dance floor** at the far end; a balloon arch; the candy table (mesa de dulces) and the tall cake as soft shapes [MEDIUM — salaslounge.mx rental package; quinceañera entry].
+  - *Light:* evening: dim, with **coloured LED washes** (purple, pink, blue) on the walls, moving dance-floor lights and a mirror ball scattering dots, and warmer light over the tables; candles in centrepieces. Afternoon salones infantiles are brightly lit [LOW-MEDIUM — not verified].
+  - *Palette:* white cloth plus one theme colour repeated on every overlay and sash; coloured light washes behind.
+  - *Signature shapes (3–5):* round tables receding in rows; the hourglass of covered chairs with bows; tall centrepieces; the glitter of dance-floor light dots; the balloon arch.
+  - *Density and wear:* dense and decorated, new-looking textiles over a worn hall.
+  - *People:* one or two blurred guests at a far table or a waiter in a black vest and white shirt, backs or profiles; the quinceañera herself never in the hero frame.
+- **Shell:** a purpose-built hall on a main road or in a garden venue; few windows (or curtained ones); tile or laminate floor.
+- **The table as set here:** a white floor-length cloth with a coloured overlay; a **charger plate** under a white china plate, folded cloth napkin, full cutlery; a tortilla or bread basket; plain glass tumblers (no wine glasses or flutes). Chair edge: a covered chair with a satin sash [MEDIUM — rental package; quinceañera entry].
+- **Subregional variants and the national default:** the central salón is the default. *Towns:* the family yard or street under a tarp instead (see the patio profile). *Upscale or garden venues and haciendas:* wooden "crossback" or chiavari chairs, long imperial tables, a garden or stone arcade behind [LOW — not verified].
+- **Hallucination traps:** a US hotel ballroom with carpet and a buffet station; a rustic barn wedding; open-bar bottles on every table (a real norm at many parties, exclude explicitly); champagne towers and toasts; banda or mariachi on stage as the subject; Catholic imagery from the Mass.
+- **Never stage:** bottles, wine glasses, flutes; the toast; legible names or initials on backdrops; the quinceañera, bride or children identifiable; DJ screens with text.
+- **Prompt-ready line:** "A Mexican salón de eventos at night: softly blurred round tables in white cloths with lilac overlays, chairs in covers with satin bows, tall centrepieces and dance-floor lights scattering coloured dots against draped walls; in focus, a plated serving of mole with rice on a charger plate and a folded cloth napkin."
+- **Confidence and sources:** MEDIUM for the furniture package ([Salas Lounge — renta de mesas redondas, mantel, cubremantel, fundas y moños](https://www.salaslounge.mx/producto/renta-de-mesas-redondas-de-banquete-juego-para-10-personas-mantel-cubre-mantel-fundas-y-monos/), tier 3); the rest LOW-MEDIUM and EDITORIAL. One search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -710,6 +810,638 @@ widespread — La Tempestad, ROC21; staging instruction EDITORIAL].
 - **Religious processions and pilgrimages** (e.g. 12 December, Virgin of
   Guadalupe): do not stage a TCCC product in or beside religious imagery
   or processions [EDITORIAL, same stance as `spain.md`'s Semana Santa].
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Built 2026-10-01 under `country-file-schema.md` §5.7 (the snapshot rule).
+The FESTIVALS register above stays as the calendar index; this section
+holds the staging. Party size is the place settings in frame, never the
+size of the event. The hero SKU always comes from the brief (§5.4).
+
+### How large gatherings work here
+
+- **Who gathers.** Mexican celebrations are extended-family events first:
+  grandparents, aunts and uncles, cousins, compadres and padrinos, then
+  friends and neighbours. Nine in ten Mexicans report eating Christmas
+  dinner with family (90.2% in a Consulta Mitofsky survey, as reported by
+  Infobae; 84.1% for New Year). [MEDIUM — one survey, 2013, reported
+  second-hand] Life events are large: an average wedding plans for about
+  140–146 guests (bodas.com.mx sector report), and a quinceañera
+  typically for 120–200, with intimate parties of 50–80 (PartyPass
+  planning guide). [MEDIUM for the wedding figure — industry survey with
+  commercial interest; LOW-MEDIUM for the quinceañera range — a single
+  planning-industry source]
+- **Where (intake venues).** Holiday dinners and Sunday comidas are
+  **home indoor** (the family house, often the grandparents'). Children's
+  birthdays, baptisms and first-communion lunches are **home outdoor**
+  (patio, yard, carport, azotea, or the street in front of the house
+  closed off with a tarp) or a rented **salón de fiestas** (map to
+  "other"). Weddings and quinceañeras are a **salón de eventos**, garden
+  venue or hacienda ("other"); in towns, a yard or street under a tarp
+  with rented tables. Restaurants host smaller milestones (a graduation
+  meal, a family birthday) but are not the default for the big events.
+  [EDITORIAL synthesis; MEDIUM for salones and taquiza services being
+  standard — multiple vendor sources]
+- **Table form.** At home: the dining table pushed against a second
+  table, both under one cloth or hule, with folding chairs brought in.
+  At parties: rows of **rented folding tables** (rectangular, or round
+  tables of 8–10) with plastic or metal folding chairs, white or coloured
+  tablecloths and sometimes chair covers at salones. [EDITORIAL; the
+  rented-furniture package is standard in vendor offers]
+- **Who serves and how.** Holiday dinners are family-style: platters and
+  cazuelas in the centre, the hostess and aunts serving plates from the
+  kitchen. Parties at home run on a **taquiza**: a buffet line of 5–10
+  guisados in clay cazuelas or steel chafing pans, with arroz, frijoles,
+  salsas, lime, nopales and a tortilla warmer, often staffed by a
+  caterer. [MEDIUM — taquiza vendor menus (comidasparafiestas.com.mx,
+  taquizas-adomicilio.com.mx), tier 3] Weddings default to a **plated
+  three-course banquet** (about 65% of couples choose served courses over
+  a buffet, per a wedding-planning source); in towns the banquet is mole
+  with chicken, arroz rojo and tamales. [LOW-MEDIUM — planning-industry
+  sources; the town mole banquet is reported by Vice and widely known]
+- **Plates and cutlery.** At home parties, **disposable plates** (white
+  foam or thick paper, sometimes coloured plastic) and plastic forks or
+  just tortillas are normal and authentic; the taquiza service itself
+  lists "desechables". Holiday dinners and salones use real china and
+  full cutlery. [MEDIUM for disposables at taquizas — vendor menus;
+  EDITORIAL for the rest]
+- **Snapshot-staging default for Mexico [EDITORIAL].** The three most
+  authentic crowd cues here are: (1) **more clay cazuelas than the
+  visible diners could use**, lids off and partly cropped; (2) **a tarp
+  or papel picado overhead with string lights**, soft, for home parties;
+  (3) **a long run of identical folding tables and chairs behind**,
+  soft, with one or two blurred guests. Use two of the three. Keep the
+  tablecloth plain or embroidered; avoid tourist-costume decor (see
+  ENVIRONMENT & STAGING SCENES caricature list).
+- **Product format.** When the brief allows a multi-serve bottle, the
+  implied gathering justifies a 2.5–3 L bottle in the midground of the
+  visible stretch (schema §5.7). Soft drinks are a real, expected part of
+  Mexican party tables ("refrescos al infinito" is how food writers
+  describe the classic children's party). [LOW-MEDIUM — one food-brand
+  blog] Exclude the other drinks Mexican party tables carry: jarras of
+  agua fresca, ponche, beer and tequila.
+
+#### Celebration: Fiestas Patrias night (Noche Mexicana, 15 September)
+- Type: calendar holiday
+- When: night of 15 September (the Grito at about 23:00) into the 16th;
+  the dinner runs ~20:00–midnight; intake time: **evening**.
+- Gathering: family plus friends and neighbours, roughly 10–30 at home;
+  **home indoor** or a **home outdoor** patio under a tarp; also
+  restaurant "noches mexicanas". [EDITORIAL headcount; HIGH that home
+  dinners dominate — see FESTIVALS sources: PROFECO, Infobae, El Universal]
+- The spread: a pot of **pozole** with its garnish plates (see catalog:
+  Pozole), **tostadas** and **sopes** (see catalog: Masa antojitos),
+  **tinga**, **enchiladas** (see catalog: Enchiladas), **tamales** (see
+  catalog: Tamales), **pambazos** (no catalog entry; see below), and in
+  Puebla season **chiles en nogada** (see catalog: Chiles en nogada).
+  A real table carries 5–8 serving vessels plus garnish bowls.
+  - **Pambazo** (no catalog entry): a soft white roll about 1.5 times the
+    can's height, dipped whole in a guajillo-chile sauce and griddled so
+    the outside is a soft, matte brick-red, filled with potato and
+    chorizo, shredded lettuce, crema and crumbled cheese; served on a
+    plate, eaten by hand. [MEDIUM — not individually re-checked this
+    pass; PROFECO lists pambazos among Grito dishes] Added to CANDIDATE
+    QUEUE.
+- Snapshot staging:
+  - **1 setting**: one bowl of pozole rojo with a pinch of garnish, a
+    small plate with two tostadas; behind it, cropped, the big pozole pot
+    and three or four garnish bowls (onion, radish, lime, oregano) that
+    clearly serve a crowd.
+  - **2 settings**: two identical pozole bowls facing each other across
+    the table end; between them a platter of sopes and tostadas de tinga
+    and a garnish tray; a cazuela of enchiladas cut off by the frame edge.
+  - **Small group (3–4)**: identical pozole bowls, a tostada plate each;
+    the centre runs out of frame with platters of antojitos and a tamal
+    basket.
+  - **Crowd cues**: green-white-red papel picado overhead, soft; a second
+    table with blurred guests behind; the pot on a portable burner at
+    the edge.
+- Decor and cues: tricolour paper streamers, papel picado, tricolour
+  paper flowers; night, warm string lights. Avoid sombreros, sarapes,
+  fake moustaches and mariachi costumes in frame unless briefed.
+- Never stage: tequila, beer, the Grito ceremony itself on a TV with
+  legible graphics; legible national flags or the eagle emblem in hero
+  position (soft tricolour colour fields only).
+- Confidence and sources: dishes HIGH (PROFECO, Infobae, El Universal,
+  Record, as cited in FESTIVALS); headcount and staging EDITORIAL.
+
+#### Celebration: Christmas Eve dinner (Cena de Nochebuena, 24 December)
+- Type: calendar holiday
+- When: 24 December; dinner late, often after 22:00, running to midnight;
+  intake time: **evening**. Posadas (16–24 December) are separate
+  neighbourhood parties with tamales and ponche; stage them like the
+  Fiestas Patrias night, without the tricolour.
+- Gathering: the extended family, ~10–25 at the grandparents' or a
+  sibling's house; **home indoor**. [MEDIUM that family dinner is near
+  universal — Consulta Mitofsky via Infobae; headcount EDITORIAL]
+- The spread: the centrepiece is **turkey** (pavo, the most common at
+  about 48% of families in a survey summarised by Infobae) or a **roast
+  pork leg** (pierna, about 16%) or loin; alongside, **bacalao a la
+  vizcaína** (salt cod stewed with tomato, olives, capers and potato,
+  especially central Mexico), **romeritos** in mole with shrimp
+  fritters (tortitas de camarón), **ensalada de Nochebuena** (beet,
+  apple, jícama, orange, peanut) or a creamy apple-and-walnut salad,
+  pasta salad, and **tamales** (see catalog: Tamales). A table carries
+  4–7 serving dishes. [HIGH for the dish set — Infobae, UNAM Global,
+  Conecta Tec, FESTIVALS sources; MEDIUM for the survey percentages,
+  attributed to unnamed polling houses] None of the centrepieces has a
+  catalog entry:
+  - **Pierna adobada / pierna al horno**: a whole roast pork leg, glossy
+    lacquered brown to brick-red, sliced partly, on a large oval platter
+    about three cans long, with pineapple or prune garnish. [MEDIUM —
+    not individually re-checked]
+  - **Bacalao a la vizcaína**: a red-orange tomato stew with flaked white
+    cod, green olives, capers and yellow güero chiles, in a deep platter
+    or clay cazuela; eaten in a bolillo or with a fork. [HIGH for the
+    ingredients — Infobae; visual MEDIUM]
+  - **Romeritos**: dark mole sauce clinging to thin green sprigs of
+    seepweed with round tortitas de camarón and potato, in a clay
+    cazuela. [HIGH for composition — Infobae; visual MEDIUM]
+  All three added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a china plate with a slice of pierna or turkey, a
+    spoon of romeritos and a spoon of bacalao, a bolillo on a side plate;
+    the carved pierna platter and the bacalao cazuela cropped at the
+    edge.
+  - **2 settings**: two identical plates; between them the turkey or
+    pierna platter (partly cropped), a salad bowl, a bread basket.
+  - **Small group**: identical plates on a red or white embroidered
+    cloth, the centre a row of platters running out of frame.
+  - **Crowd cues**: the table running out of frame on both sides; a
+    Christmas tree or nacimiento lights blurred behind (no religious
+    figures readable); extra chairs at the table edge.
+- Decor and cues: red or green cloth, a red nochebuena (poinsettia) pot,
+  candles, Christmas lights; evening interior light. Avoid snow imagery,
+  US-style stockings by a fireplace.
+- Never stage: ponche with piquete (spirit added), cider or wine bottles,
+  the nacimiento as the scene, Midnight Mass.
+- Confidence and sources: see above; [Infobae — cómo celebran los mexicanos la Navidad (2024)](https://www.infobae.com/mexico/2024/12/21/como-celebran-los-mexicanos-la-navidad-pinatas-regalos-y-fiestas-familiares/);
+  [UNAM Global — la cena de Navidad en el Valle de México](https://unamglobal.unam.mx/global_revista/la-cena-de-navidad-en-el-valle-de-mexico/).
+
+#### Celebration: Rosca de Reyes and Candelaria tamalada (6 January and 2 February)
+- Type: calendar holiday (paired: the figurine finder on 6 January hosts
+  the tamales on 2 February)
+- When: Reyes is an afternoon-into-evening merienda (~17:00–20:00);
+  Candelaria is a comida or early evening (~14:00–20:00). Intake time:
+  **golden-hour** for Reyes, **midday** or **evening** for Candelaria.
+- Gathering: family, office or friend groups, ~8–20; **home indoor**,
+  or an office table (map to "other"). [EDITORIAL]
+- The spread: Reyes: one large oval **rosca** (see catalog: Sweets,
+  Rosca de Reyes) on a board or tray, often 50–80 cm long for a big
+  family, sliced; hot chocolate is the traditional companion (not
+  staged). Candelaria: a **tamalera** or basket of mixed tamales — verde,
+  rojo, rajas, dulce (see catalog: Tamales) — sometimes oaxaqueños in
+  banana leaf; atole is the traditional companion (not staged). [HIGH for
+  the pairing — FESTIVALS sources; rosca length LOW, not checked]
+- Snapshot staging:
+  - **1 setting**: a small plate with a slice of rosca; the rest of the
+    ring cropped by the frame, its scale obvious against the can.
+  - **2 settings**: two plates with tamales opened on their husks; a
+    basket of husk-wrapped tamales in the centre, more than two people
+    could eat.
+  - **Small group**: identical plates, the rosca ring or the tamal basket
+    running out of frame.
+  - **Crowd cues**: the rosca's ring continuing beyond the frame; a
+    second steaming tamalera on the counter behind; a stack of extra
+    plates.
+- Decor and cues: plain home table, the plastic baby-figure is inside
+  the bread (never shown as a religious object). No Three Kings figures
+  as props.
+- Never stage: religious images, the Candelaria church blessing of the
+  Niño Dios figure.
+- Confidence and sources: HIGH for the customs (FESTIVALS sources);
+  staging EDITORIAL.
+
+#### Celebration: Children's birthday party (fiesta infantil)
+- Type: life event
+- When: weekend afternoon, ~14:00–19:00; intake time: **midday** or
+  **golden-hour**.
+- Gathering: the child's classmates plus the whole extended family:
+  30–80 people is common for a home party (adults outnumber children);
+  **home outdoor** (patio, yard, carport, closed street under a tarp) or
+  a salón de fiestas infantiles ("other"). [LOW — headcount not verified
+  this pass; EDITORIAL]
+- The spread: a **taquiza** of guisados in cazuelas (chicharrón en salsa
+  verde, tinga, papa con chorizo, rajas con crema, mole) with arroz,
+  frijoles, salsas and tortillas (see catalog: Tacos; Arroz rojo,
+  frijoles and the guisado plate), or a pozole pot (see catalog:
+  Pozole); a decorated **birthday cake** (pastel) with bright frosting;
+  **gelatinas** (jelly) in cups or a mould; candy from the piñata;
+  refrescos. [MEDIUM — taquiza vendor menus; LOW-MEDIUM for the cake,
+  gelatina and refresco picture — Productos Chata blog, tier 3/4]
+  - **Pastel de cumpleaños** (no catalog entry): a round or sheet cake,
+    often tres leches or chocolate, frosted in bright, sometimes neon
+    colours with a character theme, about two to three cans across.
+  - **Gelatina**: individual clear cups of red, green or layered milk
+    jelly (gelatina de mosaico, white with coloured cubes), or one
+    large ring mould. Both added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a disposable plate with two tacos de guisado and a
+    spoon of rice and beans, a gelatina cup beside it; two or three
+    cazuelas cropped behind.
+  - **2 settings**: two identical plates on a plastic tablecloth; a
+    tortilla basket and salsas between them; the cake on a separate
+    table, soft, in the background.
+  - **Small group**: identical plates along a folding table; the taquiza
+    line soft behind with its row of clay cazuelas.
+  - **Crowd cues**: a hanging piñata and balloons, out of focus; tarp
+    or papel picado overhead; rows of rented folding chairs.
+- Decor and cues: balloons, a themed banner (unreadable), plastic
+  tablecloths in bright colours, candy bags. Licensed cartoon characters
+  must stay generic and unrecognisable.
+- Never stage: recognisable licensed characters or readable names;
+  children as the hero subject near the product (keep children soft,
+  background only, per TCCC marketing-to-children norms [EDITORIAL —
+  confirm against TCCC policy]); beer for the adults.
+- Confidence and sources: [Productos Chata — platillos icónicos de fiesta infantil](https://productoschata.com/blog/sabores-que-crecieron-contigo-platillos-iconicos-de-fiesta-infantil/) (tier 3/4, a food brand's blog);
+  [Comidas para Fiestas — taquizas](https://www.comidasparafiestas.com.mx/taquizas-para-fiestas/) (tier 3, vendor).
+
+#### Celebration: Quinceañera (XV años)
+- Type: life event
+- When: Saturday evening; the banquet ~20:00–22:00 after the religious
+  service and the entrance; intake time: **evening**.
+- Gathering: 120–200 guests is typical, 50–80 for an intimate party;
+  about half family, then parents' friends, the girl's friends, padrinos
+  and chambelanes. **Salón de eventos** or garden venue ("other"); in
+  towns, the family yard or street under a tarp. Round tables of 8–10.
+  [LOW-MEDIUM — PartyPass planning guide, single tier-3 source]
+- The spread: in salones, a plated three-course banquet (a cream soup or
+  pasta, then pechuga rellena, pork medallion or similar with sides);
+  in towns, **mole with chicken, arroz rojo and tamales** (see catalog:
+  Moles; Tamales; Arroz rojo); **barbacoa** or **birria** are also
+  popular centrepieces (see catalog: Barbacoa; Birria). A tall
+  multi-tier cake and a candy table (mesa de dulces) stand apart.
+  [MEDIUM — Vice on the pueblo mole banquet; vendor menus for the salón
+  banquet]
+- Snapshot staging:
+  - **1 setting**: one plated portion of mole with chicken and a mound of
+    rice on a white charger plate, a folded napkin, full cutlery; the
+    edge of the round table and a centrepiece base cropped.
+  - **2 settings**: two identical plates side by side on the curve of a
+    round table; a tortilla basket and a bread basket shared.
+  - **Small group**: three or four identical plates around one arc of
+    the table; the floral centrepiece cropped at the top of frame.
+  - **Crowd cues**: further round tables with chair covers soft behind;
+    dance-floor lights as bokeh; a blurred guest or two.
+- Decor and cues: tablecloths and chair sashes in the quinceañera's
+  theme colour, tall centrepieces, balloon arches. Keep the girl and her
+  gown out of the hero frame or soft and faceless.
+- Never stage: the Mass, the crown or "last doll" ritual as the scene;
+  the toast; open bar bottles on the tables (a real norm at many
+  parties — exclude explicitly).
+- Confidence and sources: [PartyPass — lista de invitados para una quinceañera](https://www.partypass.mx/blog/lista-invitados-quinceanera);
+  [Vice — comer como quinceañera mexicana](https://www.vice.com/es/article/comer-como-quinceanera-mexicana-en-california/)
+  (written about California, cites Mexican town practice).
+
+#### Celebration: Wedding banquet (boda)
+- Type: life event
+- When: Saturday; banquet ~19:00–22:00 (evening) or ~15:00–18:00 for a
+  daytime garden or hacienda wedding; intake time: **evening** or
+  **golden-hour**.
+- Gathering: about 140–146 guests on average (bodas.com.mx sector
+  report); salón, garden, hacienda or beach venue ("other"); round or
+  long imperial tables. [MEDIUM — industry survey; the venue mix is
+  EDITORIAL]
+- The spread: a **plated three-course menu** is the standard (cream or
+  soup, a main of beef fillet, chicken breast or pork with sides,
+  dessert); a late-night **tornafiesta** snack of chilaquiles, tacos or
+  pozole (see catalog: Pozole; Tacos) after midnight is a known custom
+  (not verified this pass). Town weddings serve mole, rice, tamales or
+  barbacoa family-style. [MEDIUM for three courses — wedding-planning
+  sources; LOW for the tornafiesta]
+- Snapshot staging:
+  - **1 setting**: one plated main on a charger, full cutlery, folded
+    napkin, a bread roll on a side plate; the table edge and a candle or
+    centrepiece base cropped.
+  - **2 settings**: two identical plates side by side on a long imperial
+    table with a runner; a shared bread basket.
+  - **Small group**: identical plates along one stretch of the long
+    table, which runs out of frame both ways.
+  - **Crowd cues**: candles and greenery runners continuing out of
+    frame; string lights or a garden canopy overhead; blurred guests at
+    the far end.
+- Decor and cues: white or neutral linen, flowers, candles; the lazo
+  (wedding cord) and religious elements belong to the ceremony, not the
+  table.
+- Never stage: the church ceremony, the toast, wine or champagne glasses
+  at the setting (a real wedding table has them; remove every stemmed
+  glass), the bride and groom as the subject.
+- Confidence and sources: [bodas.com.mx — Informe del Sector Nupcial 2025](https://www.bodas.com.mx/articulos/organizacion-de-una-boda-datos-y-curiosidades-en-mexico--c10606);
+  [theww.mx — banquete servido vs buffet](https://theww.mx/blog/banquete-servido-vs-buffet-boda-mexico) (tier 3).
+
+#### Celebration: Baptism and first-communion lunch (bautizo, primera comunión)
+- Type: life event
+- When: Saturday or Sunday; the meal after the late-morning service,
+  ~14:00–18:00; intake time: **midday**.
+- Gathering: family, padrinos and friends, ~40–100; **home outdoor**
+  (yard or patio under a tarp) or a salón ("other"). [LOW — headcount
+  not verified]
+- The spread: a **taquiza** (5–10 guisados in cazuelas: mole, cochinita,
+  chicharrón en salsa verde, tinga, rajas, papa con chorizo) with arroz
+  with hard-boiled egg, refried beans, salsas, nopales, grilled
+  cebollitas and tortillas; or a single centrepiece such as **carnitas**
+  or **barbacoa** by the kilo (see catalog: Carnitas; Barbacoa;
+  Cochinita pibil); a white decorated cake. [MEDIUM — taquiza vendor
+  menus list bautizos and primera comunión explicitly]
+- Snapshot staging:
+  - **1 setting**: a plate with two or three tacos de guisado (different
+    guisados visible), rice and beans; three cazuelas cropped along the
+    back edge.
+  - **2 settings**: two identical plates on a white tablecloth; a
+    tortilla basket and a salsa molcajete between them.
+  - **Small group**: identical plates; the cazuela buffet line soft
+    behind.
+  - **Crowd cues**: white and pastel balloons or tulle; rented folding
+    tables with white cloths in rows; a carnitas pot or chafing pans at
+    the edge.
+- Decor and cues: white, pale blue or pale pink decor; white
+  tablecloths.
+- Never stage: the church rite, the baptismal font, rosaries or
+  religious figures on the table; the child in christening clothes as
+  the subject.
+- Confidence and sources: [Taquizas a Domicilio CDMX — taquizas para fiestas](https://www.taquizas-adomicilio.com.mx/taquizas-para-fiestas-infantiles/);
+  [Cocina Mestiza — cómo organizar la taquiza](https://cocinamestiza.com/como-organizar-taquiza-perfecta/) (tier 3/4).
+
+#### Celebration: Sunday family comida and the northern carne asada
+- Type: community or family gathering
+- When: Sunday, ~14:00–18:00; intake time: **midday** (indoors) or
+  **golden-hour** (yard).
+- Gathering: three generations, ~8–20, at the parents' or grandparents'
+  house; **home indoor** in most of the country, **home outdoor** in
+  zone 1 (North) where the weekend carne asada is the social
+  institution. [HIGH for the northern carne asada — see Meal outdoors at
+  home; headcount EDITORIAL]
+- The spread: central and southern Mexico: a big cazuela of mole,
+  pozole, barbacoa bought by the kilo, or carnitas (see catalog: Moles;
+  Pozole; Barbacoa; Carnitas), with arroz and frijoles. North: grilled
+  arrachera and thin-cut beef, cebollitas, chiles toreados, flour and
+  corn tortillas, guacamole, frijoles charros (see catalog: Carne asada &
+  flour tortillas; Guacamole). 4–6 shared vessels.
+- Snapshot staging:
+  - **1 setting**: one plate with a taco or a portion of the main; the
+    tortilla basket, salsa molcajete and a cazuela cropped.
+  - **2 settings**: two identical plates; between them a wooden board of
+    sliced arrachera (North) or a cazuela of mole, a tortilla basket.
+  - **Small group**: identical plates on a folding table under a tree
+    or carport; the grill smoking soft in the background (North).
+  - **Crowd cues**: the grill with more meat than the visible diners
+    need; extra folding chairs; a blurred relative at the grill.
+- Decor and cues: hule or plastic cloth, plastic or clay serving bowls,
+  unbranded plastic furniture.
+- Never stage: beer cans or a cooler full of beer (the strongest prior
+  for a carne asada scene); legible cooler branding.
+- Confidence and sources: see ENVIRONMENT & STAGING SCENES, Meal
+  outdoors at home; staging EDITORIAL.
+
+## GAME NIGHT
+
+Built 2026-10-01 under `country-file-schema.md` §5.8 from the
+cross-market game-night research notes (no new searches for this file).
+Party size is the place settings in frame (§5.7 snapshot rule); the hero
+SKU comes from the brief (§5.4). Screens, cards and boards are never
+legible; no crests, kits, sponsor or league marks; no gambling as the
+subject; no identifiable children; never a full flag. Beer, micheladas,
+tequila and the batanga are the default priors at every Mexican viewing
+table, so negate them in every prompt (file-wide rules 3–4).
+
+### Watch parties
+
+Football is the main viewing occasion (Liga MX, the Selección, the
+derbies such as América–Chivas), with boxing as the second national
+format and the NFL and Formula 1 as smaller followings. Most viewing is at
+home around a botana spread or a carne asada, and the public form that
+stages cleanly is the fan-zone food court: Mexico City's 2026 FIFA Fan
+Festival in the Zócalo sold no alcohol at all. Signature foods: botanas
+(tostadas, chicharrón, cacahuates, guacamole in a molcajete), tacos and
+tortas, and in the North the carne asada.
+
+#### Watch party: football at home (Selección and Liga MX)
+- When: Liga MX on weekend afternoons and evenings; Selección matches in
+  tournament summers (World Cup, Gold Cup, Copa América years) and
+  qualifier windows. Intake time: **golden-hour** for weekend afternoon
+  kick-offs, **evening** for night games. [LOW — not verified; the notes
+  map Latin American weekend afternoons to golden-hour; no Liga MX
+  schedule was checked]
+- Gathering: family or 4–8 friends in the living room, or the extended
+  family in the patio when a Sunday comida and a match coincide; **home
+  indoor** (living room) or **home outdoor** (patio, carport). [EDITORIAL,
+  following the notes' cross-market home-viewing pattern]
+- The spread: a **botana** spread on the centre table: tostadas with
+  toppings (see catalog: Masa antojitos — sopes, huaraches, tlacoyos,
+  gorditas, tostadas), chicharrón and chicharrones de harina with hot
+  sauce (see catalog: D. Snacks), cacahuates japoneses (coated peanuts)
+  and salted peanuts in small bowls, potato chips with salsa, **guacamole
+  in a molcajete** with totopos (see catalog: Guacamole with totopos;
+  elotes and esquites), then tacos or tortas for the meal (see catalog:
+  Tacos — the national format; Tortas). Plastic or clay bowls, a
+  tortillero, paper napkins. In zone 1 the patio carne asada replaces
+  the botana (see catalog: Carne asada & flour tortillas; and Celebration:
+  Sunday family comida and the northern carne asada). [LOW — not verified;
+  the notes list the botana spread as model knowledge]
+- Surface and environment: a low centre table (mesa de centro) in front
+  of the sofa, or a folding table with hule in the patio; the TV as a
+  soft green glow with no score bug or channel mark; green-white-red
+  paper streamers or a scarf in national colours with no emblem, soft;
+  tiled floor, painted plaster walls (see ENVIRONMENT & STAGING SCENES,
+  General environmental norms). It reads as Mexico through the
+  molcajete, the clay and plastic bowls, the hule and the house interior,
+  not through costume.
+- Snapshot staging:
+  - **1 setting**: one small plate with two tostadas and a spoon of
+    guacamole; the molcajete and a bowl of cacahuates cropped at the
+    edge of the centre table; the hero on the table; the TV glow soft
+    behind.
+  - **2 settings**: two identical plates side by side on the centre
+    table facing the screen; between them the molcajete, a bowl of
+    chicharrón and a bowl of totopos.
+  - **Small group (3–4)**: identical plates along the table edge;
+    bowls repeating and running out of frame; the sofa running out of
+    frame.
+  - **Crowd cues**: more bowls than the visible diners need; extra
+    folding chairs brought in; one or two blurred backs of heads toward
+    the screen.
+- Never stage: beer cans or bottles with lime, micheladas, a cooler of
+  beer; team crests, kits, Liga MX or federation marks; a legible TV
+  screen; betting apps or quinielas (football pools) on paper; a full
+  flag or the eagle emblem; sombreros or luchador masks as fan props.
+- Confidence and sources: overall LOW — model knowledge carried from the
+  research notes; football as a high-popularity viewing occasion in
+  Mexico per the notes' per-market table; staging EDITORIAL.
+
+#### Watch party: fan-zone food court (public viewing)
+- When: tournament summers; Mexico City's FIFA Fan Festival in the
+  Zócalo ran through the 2026 World Cup (11 June–19 July 2026), with
+  more than 100,000 people in the square for the final. Intake time:
+  **midday** or **evening**, following kick-off. [HIGH — mexicocityfwc26,
+  La Silla Rota, Informador]
+- Gathering: the operator's party of 1–4 at a food-court table inside a
+  crowd of tens of thousands (capacity about 55,000, ~2.2 million
+  cumulative visitors); **other: fan zone**. [HIGH for the capacity and
+  attendance — mexicocityfwc26, La Silla Rota; party size EDITORIAL]
+- The spread: street-stall food on paper or plastic plates and in
+  paper trays: **tacos al pastor** (see catalog: Tacos al pastor),
+  **esquites** in cups (see catalog: Guacamole with totopos; elotes and
+  esquites), **tortas** (see catalog: Tortas). [LOW — not verified; the
+  notes rank this scene but cite no menu source]
+- Surface and environment: a folding table or high standing table in a
+  food-court area; string lights or temporary lighting rigs; a giant
+  LED screen far behind as a soft field of colour; crowd as blurred
+  shapes. Keep the specific colonial façades of the Zócalo generic and
+  soft so the scene does not pin to a real venue.
+- Snapshot staging:
+  - **1 setting**: one paper tray of three tacos al pastor and a cup of
+    esquites on the table edge, the hero beside it; the screen glow and
+    blurred crowd far behind.
+  - **2 settings**: two identical trays facing each other across a
+    small folding table.
+  - **Small group**: identical trays on a longer shared table; more
+    tables and blurred backs beyond.
+  - **Crowd cues**: rows of tables running out of frame; blurred
+    figures (within the background-people limit) facing the distant
+    screen; temporary lighting.
+- Never stage: FIFA, tournament or sponsor marks on screens, signage,
+  cups or tables; legible screens; beer (the 2026 Zócalo fan fest sold
+  none, which makes the alcohol-free version authentic); face paint on
+  identifiable people; crowd crushes or flares.
+- Confidence and sources: event facts HIGH ([Mexico City FWC26 — FIFA
+  Fan Festival](https://www.mexicocityfwc26.com.mx/fifa-fan-festival);
+  [La Silla Rota](https://lasillarota.com/metropoli/2026/3/4/mundial-2026-asi-sera-el-fan-fest-del-zocalo-cdmx-588878.html);
+  [Informador](https://www.informador.mx/mexico/mundial-2026--fan-fest-del-zocalo-cdmx-luce-repleto-en-la-final-espana-argentina-asisten-mas-de-100-mil-aficionados-20260719-0116.html));
+  food LOW; staging EDITORIAL. The 2026 fan fest is over; use it as the
+  template for a future public screening, not as a current event.
+
+#### Watch party: boxing fight night (Canelo weekend, mid-September)
+- When: Canelo Álvarez has fought on Mexican Independence Day weekend
+  (mid-September) since 2010; families and friends gather for a carne
+  asada in the afternoon and watch the pay-per-view at night. Intake
+  time: **golden-hour** for the asado, then **late night** for the main
+  event (US main events land late in central Mexico [LOW — time-zone
+  arithmetic, not verified]). [MEDIUM — Boxing247, Round by Round Boxing]
+- Gathering: family and friends, about 6–15; **home outdoor** (patio,
+  carport, backyard grill) moving to **home indoor** (living room) for
+  the fight. Overlaps with the Fiestas Patrias night (see Celebration:
+  Fiestas Patrias night) in some years. [EDITORIAL headcount]
+- The spread: the afternoon is a **carne asada** — arrachera and thin-cut
+  beef, cebollitas, chiles toreados, flour and corn tortillas, guacamole,
+  frijoles charros (see catalog: Carne asada & flour tortillas;
+  Guacamole with totopos). At night, what is left moves to the centre
+  table as tacos and botanas.
+- Surface and environment: golden-hour: a folding table with a plastic
+  cloth beside a charcoal grill in a patio or carport. Late night: the
+  living room lit by a lamp and the soft glow of the TV (a dark, blurred
+  ring of light only), plates of tacos on the centre table, dark
+  windows.
+- Snapshot staging:
+  - **1 setting**: golden-hour: a plate with two carne asada tacos, the
+    board of sliced meat and the molcajete cropped, the grill smoking
+    soft behind. Late night: one plate on the centre table, TV glow
+    behind, a warm lamp.
+  - **2 settings**: two identical plates facing each other across the
+    patio table; between them the board of arrachera and the tortilla
+    basket.
+  - **Small group**: identical plates along a folding table; bowls
+    repeating out of frame; the grill with more meat than the diners
+    need.
+  - **Crowd cues**: extra plastic chairs; a blurred figure at the grill;
+    blurred backs of heads toward the screen at night.
+- Never stage: beer (the stated default at these gatherings: stage the
+  carne asada table only), fighters' faces or bodies on screen, blood,
+  belts or promoter logos, betting on the fight, cash.
+- Confidence and sources: the Canelo September tradition and the asado-
+  then-fight pattern MEDIUM ([Boxing247](https://www.boxing247.com/boxing-news/canelo-smith-heating-up/60781);
+  [Round by Round Boxing](https://roundbyroundboxing.com/news/canelo-alvarez-takes-back-mexican-independence-day/));
+  carne asada composition per the catalog entry; staging EDITORIAL.
+
+Smaller formats, no entries [LOW — not verified]: the NFL has a real
+Mexican following (regular-season games in Mexico City), mainly a
+Sunday home or carne asada scene; Formula 1's Mexico City Grand Prix
+(late October, ~400,000 weekend crowds) is watched at home in a
+brunch-style **midday** register (breakfast out of scope; stage it as a
+midday table); baseball is medium in the northern states. Stage any of
+these with the home-football template above.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high** —
+lotería is the posada game "while the food finishes cooking" and is
+played at fairs and family parties [MEDIUM — Press Democrat, Loco
+Gringo]; dominoes [LOW — not verified]; party karaoke [LOW — not
+verified]. Games are part of family gatherings rather than a set
+"night".
+
+#### Game night: lotería at a posada (and family parties)
+- When: posadas, 16–24 December, and fairs and family Sundays through
+  the year. Intake time: **evening**. [MEDIUM for posadas — Press
+  Democrat, Loco Gringo]
+- Gathering: neighbours and extended family, about 15–40, with the
+  caller (the "gritón") and players around folding tables; **home
+  outdoor** (patio, street in front of the house under a tarp) or a
+  neighbourhood courtyard ("other"). [EDITORIAL headcount]
+- The spread: **tamales** (see catalog: Tamales), **pozole** with its
+  garnish plates (see catalog: Pozole), tostadas (see catalog: Masa
+  antojitos), **buñuelos** (fried discs of dough with syrup or sugar,
+  no catalog entry; see CANDIDATE QUEUE). Ponche (warm fruit punch,
+  alcohol-free) in jarritos is authentic but is another drink: out of
+  frame unless the brief names it, and never "con piquete" (spiked).
+  Clay cazuelas, a tamal pot, disposable plates.
+- Surface and environment: rented folding tables with an oilcloth,
+  each player's **tabla** (picture board) with **pinto beans** as
+  markers; a deck of picture cards face down or soft. String lights and
+  papel picado under a tarp; a night sky; warm bulbs. The cards and
+  tablas carry only unreadable, generic picture art.
+- Snapshot staging:
+  - **1 setting**: a disposable plate with a tamal and a spoon of
+    pozole beside it, a tabla with scattered beans pushed to one side,
+    the hero; the tamal pot cropped.
+  - **2 settings**: two identical plates at a folding table, two tablas
+    between them with beans, a bowl of buñuelos.
+  - **Small group**: identical plates and tablas along one table that
+    runs out of frame.
+  - **Crowd cues**: more folding tables under the tarp behind, string
+    lights, blurred neighbours; the caller as a soft shape at the far
+    end.
+- Never stage: a publisher's lotería deck or its trademarked card art
+  (use generic unreadable picture cards); legible card names or numbers;
+  prize money or coins as stakes; ponche con piquete, beer; religious
+  imagery from the posada procession (the pilgrims, the nativity) as the
+  scene; identifiable children breaking a piñata.
+- Confidence and sources: lotería at posadas MEDIUM ([Press Democrat](https://www.pressdemocrat.com/article/specialsections/loteria-pinatas-help-latino-families-create-memories-that-last-a-lifetime/);
+  [Loco Gringo](https://www.locogringo.com/blog/activities/mexican-posadas-fun-guide-holiday-parties-mexico));
+  posada foods per the notes and FESTIVALS (tamales and ponche HIGH
+  there for Nochebuena); staging EDITORIAL.
+
+#### Game night: family dominoes on the patio
+- When: weekend afternoons, often after the Sunday comida. Intake time:
+  **golden-hour**. [LOW — not verified]
+- Gathering: four players with onlookers, older relatives and
+  neighbours; **home outdoor** (patio, carport, sidewalk table).
+  [LOW — not verified]
+- The spread: botanas in small bowls: cacahuates, chicharrón, tostadas
+  (see catalog: D. Snacks; Masa antojitos), fruit cups with lime and
+  chile powder (see catalog: D. Snacks). Food on a side table or the
+  table corner so the tiles keep their space.
+- Surface and environment: a plastic folding table or a square wooden
+  table, tiles face down or as generic ivory rectangles; late sun on a
+  painted wall, a potted plant, plastic chairs.
+- Snapshot staging:
+  - **1 setting**: a small plate of botana at the table corner, the hero
+    beside it, a few tiles soft in the foreground.
+  - **2 settings**: two plates at opposite corners, tiles in a line
+    between them, a bowl of cacahuates.
+  - **Small group**: four corners of a square table with tiles in the
+    middle; bowls on a side table.
+  - **Crowd cues**: a blurred onlooker standing; extra chairs.
+- Never stage: money or stakes; beer; scoring sheets with legible
+  numbers.
+- Confidence and sources: LOW — the notes list dominoes in Mexico as
+  model knowledge, not verified; staging EDITORIAL.
+
+Party karaoke (a speaker and microphone at birthday parties) is reported
+but not verified [LOW]; at most a background cue at an adult birthday
+taquiza (see How large gatherings work here), mics resting on a table, never
+held, no legible lyrics.
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
@@ -1713,6 +2445,31 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   is an editorial sensitivity call, not company policy — a reviewer
   should confirm it matches TCCC Mexico's own guidance.
 
+- **Celebrations pass (2026-10-01) open items.** Headcounts for the
+  children's birthday party, baptism/first-communion lunch, Fiestas
+  Patrias and Nochebuena dinners are editorial, not sourced; the
+  quinceañera range rests on one planning-industry source and the
+  wedding average on one industry survey. The Nochebuena dish
+  percentages are attributed to unnamed polling houses via Infobae. The
+  wedding tornafiesta, rosca length and the children-in-frame rule need
+  checking (the last against TCCC's own marketing-to-children policy).
+- **Game-night pass (2026-10-01) open items.** Only the Zócalo fan-fest
+  facts (HIGH) and the Canelo September weekend and lotería at posadas
+  (MEDIUM) are sourced. Unverified [LOW]: the home botana spread for
+  football, the fan-zone food menu, Liga MX kick-off times, the late-night
+  main-event time for fights, dominoes as a family pastime, party
+  karaoke, the NFL and F1 viewing registers and northern baseball.
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Background
+  details not verified this pass [LOW]: the dark-wood china cabinet
+  (trinchador) and the cool-white ceiling fitting in the colonia house;
+  zone variants for the house and the fonda (northern air-conditioning,
+  Gulf and Yucatán fans and hammock hooks); the choricera griddle and
+  bare-bulb lighting at taco stands; fabric draping, LED colour washes
+  and the upscale chair styles at salones de eventos. Tarps, rented
+  furniture and the salón furniture package rest on tier-3 vendor
+  listings only. Check all five prompt-ready lines in image tests.
+
 ## CANDIDATE QUEUE
 
 1. Reviewer decision on the Yucatán spinout and on the zone boundaries
@@ -1728,6 +2485,15 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
    zone 5 (Gulf) more deeply — it is the thinnest zone.
 5. Independent §8 audit of this file.
 6. A Mexico-specific Gen Z housing/living-arrangement source.
+7. Full dish entries for the celebration centrepieces described only
+   briefly in CELEBRATIONS & LARGE GATHERINGS: pambazo; pierna adobada /
+   pierna al horno; bacalao a la vizcaína; romeritos con tortitas de
+   camarón; pavo navideño; pastel de cumpleaños (tres leches) and
+   gelatinas; promote Rosca de Reyes from the compact Sweets list.
+8. Dish entries for game-night foods described only in GAME NIGHT:
+   the botana spread (cacahuates japoneses, chicharrón, tostadas with
+   toppings, papas with salsa) as one compact entry; buñuelos (posada
+   sweet); promote chicharrones de harina from the compact Snacks list.
 
 ## RESEARCH LOG
 
@@ -1762,3 +2528,22 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   round-ups (tier 4) were used only for sizes where nothing better
   surfaced, and are marked; TikTok results were ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches**, covering
+  quinceañera guest counts and banquet menus, taquiza service for
+  baptisms and children's parties, wedding guest averages and the
+  three-course banquet norm, Nochebuena dishes and the Mitofsky family
+  dinner figure, and the children's party table. Added CELEBRATIONS &
+  LARGE GATHERINGS with 8 entries; sources are mostly tier 3 (planning
+  and catering vendors) plus Infobae and UNAM Global, tagged accordingly.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three
+  watch-party entries (football at home, fan-zone food court, Canelo
+  fight night) plus a smaller-formats note, and two social game-night
+  entries (lotería at a posada, family dominoes).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  colonia house kitchen-dining corner, patio/carport under a tarp, fonda
+  (rewritten background-first from the pilot), street taco stand, and
+  the salón de eventos. Sources are mostly tier 3 (rental and stand
+  vendors) plus Grupo Animal and Homify; open items in GAP LOG.

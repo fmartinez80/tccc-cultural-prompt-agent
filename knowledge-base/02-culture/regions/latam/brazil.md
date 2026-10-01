@@ -194,6 +194,105 @@ culturally specific term is not guaranteed to render (§7.5).
 | **Almoço de família at home** | A table with a patterned plastic or cotton cloth, rice and beans in their pots or serving bowls, a salad bowl, farofa, a meat platter; a 2 L bottle in the midground. |
 | **Beach (Rio, Northeast)** | Sand, rented plastic chairs and parasols, a cooler, vendors walking the beach; a canga (printed sarong) spread on the sand; food resting on a folding table or the cooler lid. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-used staging venues). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 1 (São Paulo) is the default; other zones are variants, and where a zone has no detail the São Paulo version applies [EDITORIAL]. The lanchonete counter stands in as the on-the-go venue because Brazil's grab-and-go is counter-based (see Scenario: Meal on the go). File-wide rules apply throughout; beer (and the insulated beer sleeve), caipirinha and the boteco look are the strongest priors, so negate them in every prompt. The boteco is not profiled in this wave because it is drinking-led. The QUICK-REFERENCE table above stays as the short index.
+
+### Venue: Family house, kitchen-dining corner (casa: cozinha e copa)
+- **Use for:** home indoor; casual lunch for 1, 2 or 3, the lighter janta, the Saturday feijoada, the Christmas ceia, the living-room watch party. The national default: 84.8% of people live in houses (IBGE 2022); a middle-class São Paulo, Rio or Curitiba apartment is the co-equal urban variant (see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the default].
+- **Soft background (the core):**
+  - *Back wall:* the kitchen wall in **white or cream glazed ceramic tile (azulejo)** to head height or full height, often with a single decorative tile band; above it or in the copa (dining nook), plain white or pale painted walls; a wall clock, a small framed picture or a religious image kept small and soft [MEDIUM — Archtrends "10 itens típicos das casas brasileiras"; file interior markers].
+  - *Middle distance:* the compact kitchen: a white four- or six-burner gas stove with the **pressure cooker** (panela de pressão) and an aluminium rice pot on it; a granite or marble counter with a sink; the **clay water filter** (filtro de barro, a terracotta jar on a stand, or a white plastic purifier on the wall); a fridge; a dish rack of aluminium and plastic; potted plants on the window sill [MEDIUM — Archtrends on the clay filter and tiled kitchens; pressure cooker per file, not re-checked].
+  - *Light:* bright daylight through a **basculante window** (horizontal pivoting glass panes, often textured or frosted) behind a **steel grille**, so the window reads as a pale panel cut by horizontal bars; at night, a cool-white ceiling light (often a fluorescent or LED panel) and the TV glow from the next room [MEDIUM for basculante windows and grilles — Archtrends; LOW-MEDIUM for the cool ceiling light — not verified].
+  - *Palette:* white and cream tile, pale walls, grey granite, terracotta of the filter, the pattern of the tablecloth; the light is bright and slightly cool.
+  - *Signature shapes (3–5):* the grid of white wall tiles; the pressure cooker's silhouette on the stove; the terracotta filter jar; the barred basculante window; a ceiling fan as a blurred disc in warm zones.
+  - *Density and wear:* tidy, clean, busy surfaces; well-kept rather than new.
+  - *People:* one blurred family member at the stove or in the doorway.
+- **Shell:** a one- or two-storey masonry house behind a wall and gate, flat concrete-slab ceiling, **ceramic or porcelain tile floor** (beige, white or stone-look); an older house may have red cement or ceramic-shard (caquinhos) floors in the yard or service area [MEDIUM — Universo Retrô on caquinhos as a mid-century São Paulo marker; file markers].
+- **The table as set here:** a rectangular table for 4–6 with a **patterned plastic or cotton cloth** (floral, checked, fruit); **rice and beans in their pots on trivets or in serving bowls**, a salad bowl, a small bowl of farofa, a meat platter; everyday white or patterned ceramic plates, stainless cutlery (fork and knife), plain glasses. Chair edges: wooden or metal chairs with upholstered seats [MEDIUM — per register and scenarios].
+- **Subregional variants and the national default:** São Paulo house is the default. *Apartment (big coastal and southeastern cities):* the same table in a combined living-dining room with a sliding balcony door and the city's towers as grey-beige soft blocks. *Minas Gerais:* a **wood-burning stove (fogão a lenha)** in older or rural houses, whitewashed walls, blue or ochre frames. *North and Northeast:* ceiling fans, louvred windows, hammock hooks, brighter wall colours. *South:* a wood stove or heater in winter, the chimarrão kit kept out of frame [MEDIUM for Minas per zone table; LOW for other details — not verified].
+- **Hallucination traps:** Carnival decor or samba props; a Mexican or Spanish kitchen with Talavera tiles and terracotta pots (Hispanic conflation); a beach house view of a landmark hill; favela framing (bare brick, corrugated roofs) as the default; a US open-plan kitchen with an island.
+- **Never stage:** beer, caipirinha, the chimarrão gourd, guaraná or any other non-hero drink; legible packaging on the counter; a football shirt with a crest; a full flag.
+- **Prompt-ready line:** "A tidy Brazilian family kitchen at midday: soft background of white glazed wall tiles, a gas stove with a pressure cooker, a terracotta clay water filter and bright light through a barred, frosted pivoting window; in focus, a table with a patterned plastic cloth, rice and beans in their pots and a bowl of farofa."
+- **Confidence and sources:** MEDIUM. [Archtrends — 10 itens típicos das casas brasileiras](https://blog.archtrends.com/nostalgia/); [Universo Retrô — piso de caquinhos](https://universoretro.com.br/piso-de-caquinhos-das-casas-brasileiras-dos-anos-50-a-arquitetura-atual/) (tier 2–3 design press); housing HIGH (IBGE, as cited). One search this pass.
+
+### Venue: Covered barbecue terrace or laje (área de churrasqueira / laje)
+- **Use for:** home outdoor; the Sunday churrasco, Dia dos Pais, birthdays, the weekend-match churrasco, cards at the churrasco; 1, 2 or a small group as a snapshot of 8–25. The signature home-outdoor venue [HIGH for the home churrasco as the weekend ritual, per the file].
+- **Soft background (the core):**
+  - *Back wall:* the **built-in or pre-moulded concrete churrasqueira** with its chimney hood, often clad in **white or patterned tile, brick or granite**, skewers laid across it over glowing charcoal, thin smoke; beside it a **granite or tiled counter with a sink** [MEDIUM — Leroy Merlin and Archtrends on área de churrasqueira layouts: grill, counter with sink, table, often a TV].
+  - *Overhead:* a concrete slab or a tiled roof on the covered terrace, a **ceiling fan**; on a laje (flat roof slab), open sky instead, with a **blue or grey water tank (caixa d'água)** and neighbouring rooftops and walls as soft shapes.
+  - *Middle distance:* the long table running out of frame with **white plastic chairs**; the quintal (back yard) beyond the terrace: a tiled or cement floor, potted plants, a fruit tree, the house's boundary wall; a TV on a bracket under the roof for match days (a soft glow) [file scenario; LOW for the TV].
+  - *Light:* midday shade under the roof with bright yard beyond; golden-hour sun raking in; the orange glow of charcoal; at dusk, a bare bulb or tube under the roof.
+  - *Palette:* white tile, red brick or grey concrete, white plastic, green plants, bright sky.
+  - *Signature shapes (3–5):* the chimney-hooded grill with skewers; the ceiling fan; white plastic chairs; the water tank on a laje; the sink counter.
+  - *Density and wear:* busy, relaxed, lived-in; a slightly sooty grill.
+  - *People:* the churrasqueiro slicing at the grill and one or two relatives, blurred.
+- **Shell:** a covered terrace at the back of a house, or the roof slab of a self-built house (laje), or an apartment's varanda gourmet or the condominium grill area.
+- **The table as set here:** a long table, or two pushed together, with a **plastic or cotton cloth**; **a wooden board of sliced picanha and linguiça**, skewers resting on the board, bowls of farofa, vinagrete, white rice and maionese, garlic bread; everyday plates and cutlery, paper napkins [MEDIUM — per the churrasco celebration entry].
+- **Subregional variants and the national default:** the São Paulo house terrace is the default. *South (zone 4):* the gaúcho fogo de chão or a big brick grill with long skewers, more beef, chimarrão out of frame. *Laje (dense working-class neighbourhoods in SP and Rio):* open roof, water tank, hills or roofs behind. *Apartment varanda gourmet:* a compact grill and counter behind a glass railing, towers beyond [LOW — not verified for zone details].
+- **Hallucination traps:** an Argentine parrilla with a side brasero and V-bars; a US gas grill; a churrascaria waiter with a skewer; gaúcho costume outside zone 4; Copacabana in the background.
+- **Never stage:** beer bottles, cans or insulated beer sleeves (the strongest prior here), caipirinha, a beer cooler; football shirts with crests; a full flag (green-and-yellow bunting only).
+- **Prompt-ready line:** "A Brazilian Sunday churrasco on a covered back terrace: soft background of a white-tiled grill with skewers over glowing charcoal, a ceiling fan, white plastic chairs and a sunny yard with plants beyond; in focus, a plastic-clothed table with a wooden board of sliced picanha and bowls of farofa and vinagrete."
+- **Confidence and sources:** MEDIUM. [Leroy Merlin — área de churrasqueira](https://blog.leroymerlin.com.br/decoracao-para-area-de-churrasqueira/); [Archtrends — churrasqueira pré-moldada](https://blog.archtrends.com/churrasqueira-pre-moldada/) (tier 3); churrasco entry sources. One search this pass.
+
+### Venue: Pay-by-weight restaurant (restaurante por quilo)
+- **Use for:** restaurant, indoor; the weekday lunch for 1 (and colleagues, 2–3), 12:00–13:30; the default casual sit-down restaurant [HIGH for por quilo as an everyday lunch institution — see catalog entry].
+- **Soft background (the core):**
+  - *Back wall or focal point:* the **long hot buffet** of stainless trays under **tempered-glass sneeze guards** with LED strip light, steam rising, a row of serving spoons; rice, two bean pots, salads, pasta, stews and grilled meats as bands of white, brown, green and red; at the end, the **scale** on a counter (display blurred) [MEDIUM — ConnectPlug guide: buffets and displays, glass sneeze guards with LED, electric bain-maries, the scale].
+  - *Middle distance:* simple square tables in rows with diners in office clothes as blurred shapes; plain painted or tiled walls, a few framed prints or plants; a drinks fridge as a lit rectangle (brand panels blurred).
+  - *Light:* bright, even, cool-white fluorescent or LED ceiling light; daylight from street windows; the warmer glow of the heated buffet.
+  - *Palette:* stainless steel, white plates, the coloured bands of food, pale walls.
+  - *Signature shapes (3–5):* the glass-and-steel buffet line; steam over the trays; stacks of large white plates; rows of square tables; the scale.
+  - *Density and wear:* packed at 12:15, clean and functional, no décor statement.
+  - *People:* a queue at the buffet as soft backs, staff in caps and aprons, within the limit.
+- **Shell:** a ground-floor commercial room near offices, tiled floor, plain ceiling with light panels.
+- **The table as set here:** a small square table with a **plain, striped, polka-dot or checked cloth**, or a placemat on bare laminate; a napkin dispenser, salt, toothpicks, sometimes oil and vinegar; a **large white plate** built from the buffet; stainless cutlery, often wrapped in a paper napkin. Chair edges: simple wooden or metal chairs [MEDIUM — ConnectPlug on cloths; per register].
+- **Subregional variants and the national default:** São Paulo is the default (nationwide format, invented in Belo Horizonte). *Minas Gerais:* mineiro dishes on the buffet, a fogão a lenha on display in some. *North and Northeast:* a ceiling fan, regional dishes (carne de sol, macaxeira) [MEDIUM for the Minas origin per file; LOW for décor details].
+- **Hallucination traps:** a US all-you-can-eat buffet with sneeze guards in a mall chain look; a hotel breakfast buffet; a churrascaria rodízio with waiters carrying skewers; a canteen tray-line with plastic trays.
+- **Never stage:** beer or any non-hero drink on the table; the scale's legible display or price cards; brand marks on fridges or napkin dispensers.
+- **Prompt-ready line:** "A busy São Paulo pay-by-weight lunch restaurant: soft background of a long steaming buffet of stainless trays under glass sneeze guards, rows of simple tables with office workers and bright, even ceiling light; in focus, a large white plate of rice, beans, salad and grilled chicken on a checked tablecloth."
+- **Confidence and sources:** MEDIUM. [ConnectPlug — restaurante a quilo](https://blog.connectplug.com.br/restaurante-a-quilo/) (tier 3, a POS vendor's setup guide); catalog entry sources. One search this pass.
+
+### Venue: Lanchonete or padaria counter (balcão de lanchonete / padaria)
+- **Use for:** other / on the go; the 1-person snack or quick lunch, a coxinha or pão de queijo stop for 2; all day (the morning use is out of scope). The single most useful everyday register in the file [MEDIUM, per CROSS-CUTTING REGISTER].
+- **Soft background (the core):**
+  - *Back wall:* **ceramic wall tiles** (classic São Paulo padarias have yellow or cream tiles; newer ones white), shelves of loaves and packaged goods (labels blurred), a coffee machine as a chrome shape, a menu panel above as a blurred light box [MEDIUM — Época São Paulo supplement on classic padarias: yellow tiles, formica counters, swivel stools].
+  - *Middle distance:* the **heated glass display case (estufa)** of golden salgados (coxinhas, kibes, esfihas) lit warm from inside; the counter staff in caps and aprons; the bread display with **pão francês** in baskets; a refrigerated case of cakes.
+  - *Light:* the warm glow inside the estufa and bread display; cool-white overhead fluorescent or LED; daylight from the open street front with a roll-up door.
+  - *Palette:* golden-brown salgados, chrome and steel, cream or yellow tile, white light.
+  - *Signature shapes (3–5):* the glowing estufa; **round swivel stools fixed to the floor** along the counter; the long counter edge; baskets of pão francês; the chrome coffee machine.
+  - *Density and wear:* busy, clean, decades-old in classic padarias, brighter in newer ones.
+  - *People:* counter staff and one or two customers at the far end of the counter, blurred.
+- **Shell:** a corner or street-front shop with a wide opening to the street (roll-up door), tiled floor.
+- **The table as set here:** the **formica, steel or granite counter**: a small white plate or a paper napkin under the salgado, a **paper-napkin dispenser**, a bottle of chilli sauce or ketchup in a plain dispenser (no labels); the hero on the counter. Stool edges: chrome swivel stools with vinyl seats [MEDIUM — per register and Época SP].
+- **Subregional variants and the national default:** São Paulo padaria is the default. *Rio:* the lanchonete with a juice counter and fruit displayed (juices out of frame), a tiled boteco-style front. *Salvador (zone 5):* the acarajé tabuleiro replaces the counter (see register). *Belém (zone 7):* tacacá stalls [per file].
+- **Hallucination traps:** a US diner with booths and neon; a Parisian boulangerie; an American coffee-chain look; a Portuguese pastelaria with pastéis de nata as the focus.
+- **Never stage:** beer taps or bottles, juices or coffee cups beside the hero, legible light-box menus or price cards, branded fridges or packaging.
+- **Prompt-ready line:** "A classic São Paulo padaria counter: soft background of cream wall tiles, a warmly lit glass display case of golden coxinhas and esfihas, chrome swivel stools and baskets of bread rolls; in focus, a coxinha on a small white plate on a formica counter beside a paper-napkin dispenser."
+- **Confidence and sources:** MEDIUM. [Época São Paulo — 32 atrações (SPTuris PDF)](https://imprensa.spturis.com.br/wp-content/uploads/2012/05/RV-%C3%89poca-MSP-Suplemento.pdf) (tier 2); [Loja Sebem — balcão estufa](https://www.lojasebem.com.br/padaria-e-confeitaria/balcao-estufa/) (tier 3). One search this pass.
+
+### Venue: Party room (salão de festas do condomínio / casa de festas)
+- **Use for:** other; birthday parties (especially children's), baptism lunches, smaller wedding receptions; afternoon or early evening; 1, 2 or a small group as a snapshot of 30–80. Apartment dwellers use the condominium salão; families also hire a commercial casa de festas or buffet infantil (see CELEBRATIONS) [EDITORIAL; MEDIUM — not individually re-checked for the condominium room].
+- **Soft background (the core):**
+  - *Focal point:* the **mesa do bolo**, a decorated display table with the cake at the centre and rows of docinhos in coloured paper cases (forminhas), in front of a **round fabric panel** (currently fashionable) or a printed backdrop and an **organic balloon arch** in the theme colours [MEDIUM — Westwing and party-décor guides on the panel, balloon arches and the mesa do bolo].
+  - *Middle distance:* the guests' tables (square or round) with cloths in the theme colour, **white plastic or wooden chairs**; in a condominium room, a plain tiled hall with a kitchenette counter and large windows or glass doors onto the building's garden or pool; in a casa de festas, a play area with bright structures (no identifiable children, kept far and fully blurred).
+  - *Light:* condominium room: daylight from glass doors and cool ceiling light; casa de festas: warmer, more theatrical light with coloured spots.
+  - *Palette:* the theme colours repeated on balloons, panel and cloths over a neutral tiled room.
+  - *Signature shapes (3–5):* the balloon arch; the round panel; rows of docinhos; the tall cake; trays of salgados being carried.
+  - *Density and wear:* bright, festive, new-looking décor over a plain room.
+  - *People:* one or two blurred adults; a server in black with a tray.
+- **Shell:** a ground-floor or rooftop hall in an apartment building, or a commercial party house; porcelain tile floor.
+- **The table as set here:** a theme-coloured cloth; small **disposable plates and paper napkins** with mini salgados and brigadeiros; plastic forks for cake; disposable cups. Chair edges: white plastic chairs [MEDIUM — per birthday entry].
+- **Subregional variants and the national default:** the São Paulo condominium salão is the default for apartment dwellers; house dwellers hold the same party on the churrasqueira terrace (see that profile). Weddings use salões or country sítios with round tables [EDITORIAL].
+- **Hallucination traps:** a US party venue with a bouncy castle and pizza; a Mexican piñata; a quinceañera-style ballroom; Carnival decorations.
+- **Never stage:** beer for adults; readable names or ages on the panel; licensed characters; identifiable children or children near the product.
+- **Prompt-ready line:** "A Brazilian birthday party in a building's party room: soft background of an organic balloon arch in pastel colours around a round fabric panel, a table of rows of brigadeiros in coloured paper cases and the cake, white plastic chairs on a tiled floor; in focus, a small paper plate with mini coxinhas and brigadeiros."
+- **Confidence and sources:** MEDIUM. [Westwing — decoração de festa infantil](https://www.westwing.com.br/guiar/decoracao-de-festa-infantil/) (tier 3); birthday entry sources. One search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -709,6 +808,470 @@ that fit): cans or glass bottles, or a 1–2 L bottle with glasses.
 | **Réveillon (31 Dec)** | Annual | Lentils, grapes, pomegranate seeds for luck [LOW-MEDIUM — not searched] | White clothes on the beach at midnight; fireworks — keep product away from fireworks |
 | **Círio de Nazaré (Belém)** | Second Sunday of October — **11 Oct 2026, 10 Oct 2027** (calendar-computed; not searched) | Family lunch of pato no tucupi and maniçoba [MEDIUM — not re-checked] | **A major Catholic procession — never stage a product in or beside it**; stage the family lunch at home instead |
 | **Holy Week / Lent** | Easter 2026: 5 Apr; 2027: 28 Mar (calendar) | Fish, bacalhau on Good Friday [MEDIUM — not re-checked] | Do not stage a TCCC product in or beside religious processions [EDITORIAL] |
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Built 2026-10-01 under `country-file-schema.md` §5.7 (the snapshot rule).
+The FESTIVALS register above stays as the calendar index; this section
+holds the staging. Party size is the place settings in frame, never the
+size of the event. The hero SKU always comes from the brief (§5.4).
+
+### How large gatherings work here
+
+- **Who gathers.** The extended family first, with friends folded in;
+  Brazilian celebrations are home-centred. Surveys put Christmas with
+  family at about 91% (Brazil Panels, via Portal Making Of), with 84% of
+  one large employee sample planning the ceia at home; one survey splits
+  hosts as 46% at their own home, 17% at their parents' and 15% at other
+  relatives'. [HIGH that Christmas is overwhelmingly a family home event
+  — several independent surveys agree; the exact shares are MEDIUM]
+- **Size.** Holiday dinners and Sunday lunches: about 8–25. Children's
+  parties: 30–80, adults outnumbering children (caterer calculators
+  budget 10–12 salgados per adult, 6–8 per child). Weddings: planning
+  guides class 30–80 as small, 80–200 as medium and 200+ as large, with
+  100–150 the usual budgeting reference. [LOW-MEDIUM — planning and
+  catering vendors, tier 3; no national survey average found]
+- **Where (intake venues).** **Home indoor** (the family house or
+  apartment) for Christmas and Saturday feijoada; **home outdoor**
+  (quintal, covered terrace, varanda gourmet with a built-in grill) for
+  churrasco and birthdays; the **condominium party room** (salão de
+  festas) for apartment dwellers, and a commercial **casa de festas /
+  buffet infantil** for children's parties ("other"); salões, sítios and
+  chácaras (country plots) for weddings ("other"). [EDITORIAL; MEDIUM —
+  not individually re-checked for the condominium party room, uncontested]
+- **Table form.** Home: the dining table extended with a second table or
+  a plastic folding table under one cloth; extra plastic chairs.
+  Children's parties: the **mesa do bolo**, a decorated display table
+  with the cake at the centre and docinhos around it, separate from the
+  guests' tables. Weddings: round tables of 8–10. [MEDIUM for the mesa do
+  bolo — party-industry sources; rest EDITORIAL]
+- **Who serves and how.** Home holiday meals and feijoadas are served
+  **self-service from the table or the stove** (each person fills their
+  own plate), not plated by a host. Churrasco: the churrasqueiro slices
+  meat onto a board and hands it round. Children's parties: salgados
+  passed on trays by staff or set out; at a casa de festas, waiters
+  circulate. Weddings: a coquetel (circulating finger food), a
+  self-service buffet, food stations (ilhas gastronômicas) or a served
+  dinner. [MEDIUM — wedding and party vendors; EDITORIAL for home]
+- **Plates and cutlery.** Fork and knife at home meals (rice-and-beans
+  plates are eaten with a fork); at children's parties salgados and
+  docinhos are eaten by hand off paper napkins and small disposable
+  plates, cake on a small plate with a plastic fork. [EDITORIAL]
+- **Snapshot-staging default for Brazil [EDITORIAL].** The three most
+  authentic crowd cues: (1) **a crowded run of bowls on one table**
+  (rice, farofa, salad, vinagrete) more than the visible diners need,
+  partly cropped; (2) **the mesa do bolo or the churrasqueira soft
+  behind**; (3) **plastic chairs and a second table at the edge**, with
+  one or two blurred relatives. Use two of the three.
+- **Product format.** When the brief allows a multi-serve bottle, the
+  implied gathering justifies a 2 L or larger bottle in the midground of
+  the visible stretch (schema §5.7); 2 L sodas on the party table are
+  already a documented Brazilian norm (see Brigadeiro and the docinhos
+  table). Exclude beer, caipirinha, sparkling wine, quentão and fresh
+  juice jugs (rules 3–4), and name Fanta Guaraná or Kuat rather than a
+  generic "guaraná" (the Antarctica trap, ICONIC BEVERAGES).
+
+#### Celebration: Sunday churrasco (and Dia dos Pais)
+- Type: community or family gathering (Father's Day, second Sunday of
+  August, is its named calendar peak)
+- When: Sunday from ~12:00, eating through the afternoon; intake time:
+  **midday** or **golden-hour**.
+- Gathering: family and friends, ~8–25; **home outdoor** (back terrace,
+  quintal, varanda gourmet, condominium grill area). [HIGH for the
+  churrasco as the weekend and Father's Day ritual — see Meal outdoors at
+  home; headcount EDITORIAL]
+- The spread: skewers and a board of sliced picanha, linguiça and
+  chicken hearts (see catalog: Churrasco em casa — the home barbecue);
+  farofa, vinagrete, white rice, maionese (potato salad), pão de alho
+  (garlic bread). 5–7 shared vessels.
+- Snapshot staging:
+  - **1 setting**: one plate with sliced picanha, a spoon of farofa and
+    vinagrete, rice; the wooden board of sliced meat and the farofa bowl
+    cropped.
+  - **2 settings**: two identical plates; between them the board of
+    picanha and a skewer of linguiça, the vinagrete bowl.
+  - **Small group**: identical plates on a long table; bowls repeating
+    out of frame.
+  - **Crowd cues**: the churrasqueira glowing softly behind with skewers
+    still on; plastic chairs; a blurred figure slicing.
+- Decor and cues: tiled covered terrace, a ceiling fan, plants, a
+  plastic tablecloth. Avoid gaúcho costume outside zone 4 briefs.
+- Never stage: beer bottles or insulated beer sleeves (the strongest
+  prior here), caipirinha, a cooler of beer, football shirts with crests.
+- Confidence and sources: as in the catalog entry (Seara, Prezunic,
+  TudoGostoso).
+
+#### Celebration: Saturday feijoada with family or friends (feijoada de sábado)
+- Type: community or family gathering
+- When: Saturday lunch, ~13:00–17:00, a long and heavy meal; intake
+  time: **midday**.
+- Gathering: family and friends, ~8–20; **home indoor** or a terrace
+  (home outdoor); also feijoada parties at clubs and samba schools
+  ("other"). [HIGH for Saturday as feijoada day and its role as a
+  family lunch — pt.Wikipedia (via search), O Tempo, catalog sources;
+  headcount EDITORIAL]
+- The spread: the feijoada pot or the meats separated into bowls (see
+  catalog: Feijoada completa), with the five sides: white rice, couve,
+  farofa, torresmo and peeled orange slices. 6–8 vessels.
+- Snapshot staging:
+  - **1 setting**: one plate of rice, black beans with meat, couve,
+    farofa and two orange slices; the clay pot and the torresmo bowl
+    cropped.
+  - **2 settings**: two identical plates; between them the dark pot on a
+    trivet and the couve and farofa bowls.
+  - **Small group**: identical plates; a line of side bowls and a second
+    pot running out of frame.
+  - **Crowd cues**: a large pot still steaming on the stove behind; more
+    bowls than diners; extra chairs.
+- Decor and cues: a cotton cloth, clay and enamel vessels, daylight.
+- Never stage: caipirinha (the classic feijoada drink), beer, cachaça;
+  samba-school imagery with legible banners.
+- Confidence and sources: [pt.Wikipedia — Feijoada à brasileira](https://pt.wikipedia.org/wiki/Feijoada_%C3%A0_brasileira) (via search);
+  [O Tempo — curiosidades sobre feijoada (2025)](https://www.otempo.com.br/gastronomia/2025/6/3/apaixonado-por-feijoada-conheca-3-curiosidades-sobre-o-prato-mais-amado-do-brasil).
+
+#### Celebration: Festa junina / São João (June)
+- Type: calendar holiday (community festival)
+- When: June, around 13, 24 and 29 June; evening into night; intake
+  time: **evening**.
+- Gathering: neighbourhood, school, church and family festas, from a
+  family yard of ~20 to city arraiais of thousands; stage the family or
+  school arraial, **home outdoor** or a school yard ("other"). [HIGH for
+  the festival — see FESTIVALS; scale EDITORIAL]
+- The spread: the corn and peanut table (see catalog: Festa junina / São
+  João table): pamonha, canjica, milho cozido, bolo de milho, pipoca,
+  pé de moleque, paçoca. 5–7 small dishes.
+- Snapshot staging:
+  - **1 setting**: a small plate with a square of bolo de milho and an
+    opened pamonha; the cob platter and canjica bowl cropped.
+  - **2 settings**: two small plates on a checked cloth; a bowl of canjica
+    and a cob platter between them.
+  - **Small group**: identical plates; the dishes crowd the cloth and run
+    out of frame.
+  - **Crowd cues**: small triangular paper flags overhead; a bonfire
+    glow out of focus; stalls (barracas) soft behind.
+- Decor and cues: bandeirinhas, checked cloth, straw hats on a chair.
+  Not papel picado.
+- Never stage: quentão and vinho quente; fireworks near the product;
+  the saints' images or processions.
+- Confidence and sources: as in the catalog entry and FESTIVALS.
+
+#### Celebration: Christmas Eve supper and New Year's Eve (Ceia de Natal, Réveillon)
+- Type: calendar holiday
+- When: 24 December, the ceia about 21:00–midnight (in one survey 44%
+  eat before midnight and 27% wait for midnight); 31 December similar.
+  Midsummer heat. Intake time: **evening**.
+- Gathering: extended family, ~10–25, at home or the parents' or a
+  relative's house; **home indoor** with windows open, or a terrace.
+  [HIGH that it is a family home event; MEDIUM for the timing split —
+  one survey via Notícia Preta]
+- The spread: the ceia (see catalog: Ceia de Natal): roast turkey or
+  tender ham, arroz à grega, farofa, salpicão, bacalhau, rabanada and
+  panetone. Réveillon adds **lentils** and **grapes and pomegranate** for
+  luck [LOW-MEDIUM — not searched]. 6–9 vessels.
+- Snapshot staging:
+  - **1 setting**: a plate with a slice of turkey, arroz à grega, farofa
+    and salpicão; the turkey platter and the salpicão bowl cropped.
+  - **2 settings**: two identical plates; the turkey or ham platter
+    between them, partly cropped, rice and farofa bowls.
+  - **Small group**: identical plates; bowls and platters repeating along
+    the table and out of frame.
+  - **Crowd cues**: a small tree with lights soft behind; a second table
+    of sweets (rabanada, panetone); an open window and a fan.
+  - **Réveillon variant**: white tablecloth and white clothing (soft),
+    a lentil bowl and a grape bowl in the centre.
+- Decor and cues: red or white cloth, candles; summer night.
+- Never stage: sparkling wine and the midnight toast, fireworks with
+  bottles, the nativity scene or Midnight Mass; the beach réveillon
+  offerings to Iemanjá (a religious practice).
+- Confidence and sources: [IstoÉ Dinheiro — só 9% não vão passar o Natal com a família](https://istoedinheiro.com.br/so-9-dos-brasileiros-nao-vao-passar-o-natal-com-a-familia-diz-pesquisa);
+  [RealTime1 — 84% pretendem passar a ceia em casa](https://realtime1.com.br/natal-em-familia-84-dos-brasileiros-pretendem-passar-a-ceia-no-aconchego-do-lar/);
+  [Notícia Preta — ceia antes da meia-noite](https://noticiapreta.com.br/ceia-natal-antes-ou-meia-noite-pesquisa-brasileiros/);
+  catalog sources.
+
+#### Celebration: Birthday party (festa de aniversário, especially children's)
+- Type: life event
+- When: weekend afternoon or early evening, ~15:00–20:00; intake time:
+  **golden-hour** or **evening** indoors.
+- Gathering: 30–80 (family plus the child's friends; adults' birthdays
+  are smaller, often a churrasco or a pizza night); **home outdoor**,
+  condominium party room or a casa de festas ("other"). [LOW-MEDIUM —
+  inferred from caterer calculators; not a survey]
+- The spread: **salgadinhos** (mini coxinhas, kibes, risoles, bolinhas de
+  queijo, empadinhas — see catalog: Coxinha and the salgados counter),
+  **docinhos** (brigadeiro, beijinho, cajuzinho — see catalog: Brigadeiro
+  and the docinhos table), an informal main (mini hot dogs, small
+  sandwiches) and the **cake** (bolo), chocolate or white, cream-filled.
+  [HIGH for the salgados-docinhos-bolo structure — party-industry
+  sources (Pronto Socorro das Festas, Espaço Puzzle) consistent with the
+  catalog entry's Receitas Nestlé sources]
+  - **Bolo de aniversário** (no catalog entry): a rectangular or round
+    cake about three to four cans across, frosted in whipped cream or
+    chantilly with piped borders, often decorated in the party theme,
+    filled with brigadeiro, doce de leite or strawberry cream. Added to
+    CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a small paper plate with three mini salgados and two
+    brigadeiros in their forminhas; a tray of coxinhas cropped.
+  - **2 settings**: two identical small plates; a salgados tray between
+    them; the mesa do bolo soft behind with rows of docinhos.
+  - **Small group**: identical plates at a guests' table; trays passing
+    along it out of frame.
+  - **Crowd cues**: the decorated mesa do bolo with the cake and rows of
+    docinhos, soft; balloons and a themed panel (unreadable); plastic
+    chairs.
+- Decor and cues: balloon arches, themed panels, coloured forminhas.
+  Licensed characters generic and unrecognisable.
+- Never stage: readable names or licensed characters; children as the
+  hero subject near the product (keep children soft, background only
+  [EDITORIAL — confirm against TCCC marketing-to-children policy]);
+  beer for the adults.
+- Confidence and sources: [Espaço Puzzle — herança culinária da festa infantil](https://www.espacopuzzle.com.br/blog/saboreando-a-tradicao-heranca-culinaria-da-festa-infantil);
+  [Pronto Socorro das Festas — salgados para festa infantil](https://www.prontosocorrodasfestas.com.br/blog/categorias/artigos/salgados-para-festa-infantil-que-encantam) (tier 3).
+
+#### Celebration: Wedding reception (casamento)
+- Type: life event
+- When: Saturday evening (dinner ~21:00) or a daytime mini-wedding at a
+  sítio; intake time: **evening** or **golden-hour**.
+- Gathering: 80–200 is the "medium" wedding in planning guides, with
+  intimate weddings up to 100; salão, sítio, chácara or restaurant
+  ("other"). [LOW-MEDIUM — planning vendors (casar365, Lejour, Meu
+  Casar), tier 3]
+- The spread: a **coquetel** of circulating salgados, then a self-service
+  buffet, **ilhas gastronômicas** (food stations: risotto, pasta, a
+  carving station) or a served dinner; a **mesa de doces** of bem-casados
+  and docinhos in decorated forminhas, and the cake. [MEDIUM for the
+  service formats — vendor sources; MEDIUM for bem-casado as the wedding
+  sweet — not individually re-checked]
+  - **Bem-casado** (no catalog entry): two small round soft sponge
+    discs (~5 cm, about the can's width) sandwiching doce de leite or
+    custard, glazed in thin white sugar and wrapped in crepe paper or
+    tulle tied with a ribbon. Added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: one plate from the buffet or a served main on a
+    charger, full cutlery; the table edge and centrepiece base cropped.
+  - **2 settings**: two identical plates side by side on a round table.
+  - **Small group**: identical plates around one arc; or three or four
+    small dessert plates in front of the mesa de doces running out of
+    frame.
+  - **Crowd cues**: further round tables soft behind; the doces table
+    with rows of wrapped bem-casados; string lights at a sítio.
+- Decor and cues: white linen, flowers, string lights in trees.
+- Never stage: stemmed glasses at the setting, the toast, the open bar,
+  the ceremony; the bride and groom as subject.
+- Confidence and sources: [casar365 — quanto custa um casamento em 2026](https://casar365.com.br/quanto-custa-um-casamento/);
+  [Meu Casar — buffet de casamento](https://meucasar.com.br/blog/buffet-de-casamento-como-escolher-e-quanto-custa) (tier 3).
+
+#### Celebration: Baptism and first-communion lunch (batizado, primeira comunhão)
+- Type: life event
+- When: Sunday lunch after the morning service, ~13:00–17:00; intake
+  time: **midday**.
+- Gathering: family and godparents, ~20–50; **home** (indoor or
+  outdoor) or a restaurant ("restaurant"). [LOW — not verified this pass]
+- The spread: a churrasco (see catalog: Churrasco em casa), a family
+  lunch of lasagne, roast chicken, salpicão and rice, or a party table
+  of salgados and docinhos (see catalog: Coxinha and the salgados
+  counter; Brigadeiro and the docinhos table), then a white cake.
+  [LOW — model knowledge, not verified this pass]
+- Snapshot staging:
+  - **1 setting**: one plate of the lunch; a salpicão bowl and a platter
+    cropped.
+  - **2 settings**: two identical plates on a white cloth; dishes between.
+  - **Small group**: identical plates; bowls repeating out of frame.
+  - **Crowd cues**: white and pastel balloons; a white cake table soft
+    behind; extra chairs.
+- Decor and cues: white, pale blue, pale pink.
+- Never stage: the church rite, religious figures or rosaries on the
+  table.
+- Confidence and sources: LOW — not verified this pass.
+
+## GAME NIGHT
+
+Built 2026-10-01 under `country-file-schema.md` §5.8 from the
+cross-market game-night research notes (no new searches for this file).
+Party size is the place settings in frame (§5.7 snapshot rule); the hero
+SKU comes from the brief (§5.4). Screens, cards and boards are never
+legible; no crests, kits, sponsor or league marks (file-wide rule 1
+already covers football shirts and posters); no gambling as the subject;
+no identifiable children; never a full flag. Beer in insulated sleeves,
+caipirinha and the Samba em Berlim are the default priors at every
+Brazilian viewing table; negate them, and name Fanta Guaraná or Kuat
+rather than a generic "guaraná" (ICONIC BEVERAGES).
+
+### Watch parties
+
+Football is the national viewing occasion: Seleção matches stop work
+and fill homes and botecos, and the Brasileirão clássicos (Fla-Flu,
+Corinthians–Palmeiras and others) are weekly fixtures; Formula 1 at
+Interlagos is a smaller following. Viewing is mostly at home or on the
+laje, quintal or terrace around a churrasco or bowls of petiscos. The
+boteco is the classic public venue but is beer-led: stage it only in a
+food-led, alcohol-free form (porções on the table, beer explicitly
+excluded) or not at all. Signature foods: churrasco skewers on a board,
+coxinha, pastel, pão de queijo, mandioca frita and frango à passarinho.
+
+#### Watch party: Seleção match at home (petiscos in the living room)
+- When: World Cup and Copa América summers and qualifier windows. At the
+  2026 World Cup, Brazil's group games kicked off at 19:00 and 21:30
+  Brasília time, so the intake time is **evening** (a 21:30 kick-off is a
+  night scene: lamp and screen glow, dark windows). [HIGH — CNN Brasil,
+  Lance]
+- Gathering: family or 4–8 friends; **home indoor** (living room of a
+  house or apartment). [EDITORIAL]
+- The spread: **petiscos** in small bowls and plates: coxinhas and other
+  salgados (see catalog: Coxinha and the salgados counter), mini pastéis
+  (see catalog: Pastel de feira), pão de queijo (see catalog: Pão de
+  queijo), **mandioca frita** (fried cassava batons) and **frango à
+  passarinho** (small garlicky fried chicken pieces) — neither has a
+  catalog entry (see CANDIDATE QUEUE). [LOW — not verified; the notes
+  list the petisco spread as model knowledge]
+- Surface and environment: a low coffee table (mesa de centro) between
+  sofa and TV; tiled floor, pale walls, a ceiling fan (see ENVIRONMENT &
+  STAGING SCENES, interior markers); the TV a soft green glow with no
+  score bug; green-and-yellow paper bunting or a plain yellow cushion,
+  no crest, soft.
+- Snapshot staging:
+  - **1 setting**: a small plate with two coxinhas and a few cassava
+    batons; a bowl of pão de queijo cropped at the table edge; the hero;
+    TV glow behind.
+  - **2 settings**: two identical small plates side by side facing the
+    screen; bowls of petiscos between them.
+  - **Small group (3–4)**: identical plates along the coffee table;
+    bowls repeating out of frame; the sofa running out of frame.
+  - **Crowd cues**: more bowls than the visible diners need; extra
+    plastic chairs; blurred backs of heads toward the screen.
+- Never stage: beer bottles or cans in sleeves, caipirinha, a cooler;
+  CBF crest or the yellow shirt with marks; a full flag; betting apps
+  or bolão (pool) sheets; vuvuzelas or face paint on identifiable
+  people.
+- Confidence and sources: kick-off times HIGH ([CNN Brasil — jogos do
+  Brasil na Copa](https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/jogos-do-brasil-na-copa-veja-datas-horarios-e-onde-assistir-ao-vivo/);
+  [Lance — horários da Copa 2026](https://www.lance.com.br/lancepedia/horarios-da-copa-do-mundo-2026-no-brasil.html));
+  food LOW; staging EDITORIAL.
+
+#### Watch party: churrasco on the laje or quintal (weekend match)
+- When: weekend Seleção matches or clássicos in the afternoon. Intake
+  time: **golden-hour** (or **midday** for an early kick-off). [LOW —
+  not verified]
+- Gathering: family, friends and neighbours, about 8–20; **home outdoor**
+  (laje — the flat concrete roof slab — quintal, covered terrace,
+  condominium grill area), with a TV carried out or set on a shelf.
+  [LOW — not verified; the notes name the laje churrasco as model
+  knowledge]
+- The spread: skewers and a board of sliced picanha and linguiça, farofa,
+  vinagrete, pão de alho (see catalog: Churrasco em casa — the home
+  barbecue; and Celebration: Sunday churrasco for the full table).
+- Surface and environment: a long table with a plastic cloth; the
+  churrasqueira or a portable grill; green-and-yellow paper bunting
+  overhead (no crest, no flag); water tank and neighbouring roofs on a
+  laje; the TV as a soft glow under an awning.
+- Snapshot staging:
+  - **1 setting**: one plate with sliced picanha, farofa and vinagrete;
+    the board and farofa bowl cropped; the TV glow soft behind.
+  - **2 settings**: two identical plates facing each other; the board of
+    meat between them.
+  - **Small group**: identical plates along one side, angled toward the
+    screen; bowls repeating out of frame.
+  - **Crowd cues**: bunting running out of frame; plastic chairs; a
+    blurred figure at the grill.
+- Never stage: beer (the strongest prior here), caipirinha, a cooler of
+  beer; shirts or banners with crests; fireworks or flares.
+- Confidence and sources: LOW for the scene (research notes); churrasco
+  detail per the catalog entry; staging EDITORIAL.
+
+#### Watch party: weekday Seleção match at work
+- When: a weekday daytime match; at the 2026 World Cup a Monday 14:00
+  round-of-32 game fell in working hours and offices and botecos stopped
+  to watch. Intake time: **midday**. [HIGH for the schedule — CNN Brasil,
+  Lance]
+- Gathering: 2–8 colleagues; **other: office** (meeting room or pantry).
+  [EDITORIAL]
+- The spread: **salgadinhos** on a tray or in a party box — mini
+  coxinhas, kibes, risoles (see catalog: Coxinha and the salgados
+  counter), pão de queijo (see catalog: Pão de queijo); paper napkins,
+  small disposable plates. [LOW — not verified]
+- Surface and environment: a meeting-room table, a wall screen as soft
+  glow, office chairs turned toward it, daylight through blinds.
+- Snapshot staging:
+  - **1 setting**: one small plate of salgados at the table edge, the
+    hero, the tray cropped.
+  - **2 settings**: two plates side by side, the tray between.
+  - **Small group**: identical plates along the table; a second tray at
+    the edge.
+  - **Crowd cues**: empty chairs turned to the screen; blurred
+    colleagues standing at the back.
+- Never stage: company logos, laptops with readable screens, beer.
+- Confidence and sources: schedule HIGH (CNN Brasil, Lance); office
+  scene and food LOW; staging EDITORIAL.
+
+Formula 1 (Interlagos, November) is a medium following [LOW — not
+verified]; stage it with the home template above, with no team liveries,
+car numbers or sponsor marks.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high** —
+buraco, truco, tranca and dominoes are played at weekend churrascos and
+family gatherings, strongest among older generations; 10 July is Truco
+Day [MEDIUM — Megajogos, Jogos do Rei, Clube Paineiras]. Games are a
+regular part of family gatherings rather than a set "night". Home
+console nights are reported but not verified [LOW]; no entry.
+
+#### Game night: cards at the churrasco or the family table (buraco, truco, tranca)
+- When: weekend afternoons, at the churrasco or after Sunday lunch.
+  Intake time: **midday** into **golden-hour**. [MEDIUM — Megajogos,
+  Jogos do Rei, Clube Paineiras]
+- Gathering: four players in pairs (buraco and truco are 2v2) with
+  onlookers, often grandparents and adult relatives; **home outdoor**
+  (terrace beside the churrasqueira) or **home indoor** (dining table).
+  [MEDIUM]
+- The spread: at the churrasco: skewers on a cutting board, pão de alho,
+  farofa, pastel (see catalog: Churrasco em casa; Pastel de feira). At
+  the indoor family table: pão de queijo and a plain cake (bolo) for the
+  café da tarde (see catalog: Pão de queijo). Food on a side table or the
+  table end so the cards have space. [LOW — not verified]
+- Surface and environment: a side table or folding table on the covered
+  terrace, or the dining table with a cotton cloth; generic French-suit
+  cards face down or soft, a buraco rack or tray; ceiling fan, afternoon
+  light.
+- Snapshot staging:
+  - **1 setting**: a plate of churrasco or pão de queijo at the table
+    corner, the hero, a few cards face down.
+  - **2 settings**: two plates at opposite sides, cards between.
+  - **Small group**: four places around a square table, cards out of
+    focus; the board or the cake on a side table.
+  - **Crowd cues**: an onlooker's chair, blurred; the churrasqueira
+    behind; more chairs. Grandchildren may be implied far behind and
+    fully out of focus, never identifiable.
+- Never stage: money or stakes; beer, cachaça; chimarrão (zone 4) or
+  coffee beside the hero unless the brief allows it; branded decks.
+- Confidence and sources: [Megajogos — história do truco](https://blog.megajogos.com.br/historia-do-truco-um-jogo-de-tradicao-estrategia-e-muita-diversao/);
+  [Jogos do Rei — como o Brasil joga cartas](https://www.jogosdorei.com.br/blog/2026/09/29/como-o-brasil-joga-cartas/);
+  [Clube Paineiras — carteado](https://clubepaineiras.org.br/carteado/).
+  Format MEDIUM; menu LOW; staging EDITORIAL.
+
+#### Game night: dominoes in the praça or at the club
+- When: weekday and weekend afternoons. Intake time: **golden-hour**.
+  [LOW — not verified]
+- Gathering: four players with onlookers, mostly older men; **other:
+  public square** (praça) or a social club. [LOW — not verified]
+- The spread: pastel and coxinha on paper from a nearby lanchonete (see
+  catalog: Pastel de feira; Coxinha and the salgados counter). [LOW]
+- Surface and environment: a concrete or slatted park table under a
+  tree, or a club table; tiles face down or as generic rectangles; late
+  sun, pavement.
+- Snapshot staging:
+  - **1 setting**: one pastel on paper at the table corner, the hero,
+    tiles soft in front.
+  - **2 settings**: two pastéis at opposite corners, tiles between.
+  - **Small group**: four corners of the table, tiles in the middle.
+  - **Crowd cues**: a blurred onlooker standing; another table behind.
+- Never stage: money; beer (the boteco version is beer-led — stage the
+  praça or club instead); legible club or shop signage.
+- Confidence and sources: dominoes at clubs and botecos MEDIUM (Clube
+  Paineiras, Jogos do Rei); the praça scene and food LOW; staging
+  EDITORIAL.
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
@@ -2157,6 +2720,30 @@ named by the brief):**
   figure and the three majority-apartment municipalities.
 - **Religious-food sensitivity (acarajé, caruru)** is an editorial rule;
   a reviewer should confirm it matches TCCC Brazil's own guidance.
+- **Celebrations pass (2026-10-01) open items.** No national survey
+  average for wedding or children's-party guest counts (planning-vendor
+  brackets and caterer calculators only); churrasco, feijoada and
+  holiday headcounts are editorial; the baptism/first-communion entry is
+  unverified model knowledge (LOW); Réveillon luck foods still not
+  searched; bem-casado as the wedding sweet not individually checked.
+  The children-in-frame rule needs checking against TCCC's
+  marketing-to-children policy.
+- **Game-night pass (2026-10-01) open items.** Sourced: the 2026 World
+  Cup kick-off times and the weekday work stoppage (HIGH — CNN Brasil,
+  Lance); buraco, truco and dominoes at churrascos, clubs and botecos
+  (MEDIUM). Unverified [LOW]: the whole viewing-food spread (petiscos,
+  churrasco on the laje), Brasileirão kick-off times, the office scene,
+  praça dominoes, home console nights and F1 viewing.
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  this pass [LOW]: the cool-white ceiling light and the zone variants of
+  the family kitchen (North and Northeast fans and hammock hooks, the
+  southern wood stove); zone variants of the churrasco terrace (gaúcho
+  fogo de chão, laje, varanda gourmet) and the TV under the roof;
+  regional décor at por quilo restaurants; the casa de festas lighting.
+  The condominium party room as the apartment default is uncontested
+  but not searched. Por quilo, churrasqueira and party-décor details
+  rest on tier-3 vendor and décor guides. Check all five prompt-ready
+  lines in image tests.
 
 ## CANDIDATE QUEUE
 
@@ -2174,6 +2761,12 @@ named by the brief):**
    feijoada, coxinha and pastel — the entries with the clearest failure
    modes (Mexican conflation, dry beans, empanada crust).
 5. Independent §8 audit.
+6. Full dish entries for celebration items described only briefly in
+   CELEBRATIONS & LARGE GATHERINGS: bolo de aniversário; bem-casado;
+   salpicão and arroz à grega as standalone entries; Réveillon lentils.
+7. Dish entries for game-night petiscos described only in GAME NIGHT:
+   mandioca frita, frango à passarinho, pão de alho (churrasco side), and
+   a plain bolo for the café da tarde.
 
 ## RESEARCH LOG
 
@@ -2205,3 +2798,23 @@ named by the brief):**
   used only for sizes where nothing better surfaced, and marked; TikTok,
   Pinterest and Quora results ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches**, covering
+  wedding size brackets and service formats, the children's party table
+  and caterer quantities, Saturday feijoada as a family gathering, and
+  Christmas-at-home surveys (Brazil Panels, CNDL/SPC, employee sample).
+  Added CELEBRATIONS & LARGE GATHERINGS with 7 entries.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three
+  watch-party entries (Seleção at home with petiscos, churrasco on the
+  laje or quintal, weekday match at work) and two social game-night
+  entries (cards at the churrasco or family table, dominoes in the praça
+  or club).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  family house kitchen-dining corner, covered churrasqueira terrace or
+  laje, restaurante por quilo, lanchonete/padaria counter (the
+  on-the-go venue, since grab-and-go is counter-based), and the party
+  room (condominium salão / casa de festas). Sources: Archtrends,
+  Universo Retrô, Leroy Merlin, ConnectPlug, Época São Paulo, Westwing;
+  open items in GAP LOG.

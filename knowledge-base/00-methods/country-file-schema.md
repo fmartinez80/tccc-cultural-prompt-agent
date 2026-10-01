@@ -116,6 +116,12 @@ One file per country: `knowledge-base/02-culture/regions/{ou}/{country}.md`.
      ingredient-level facts above it don't, by themselves, tell you what a
      photo should look like.
    - **ENVIRONMENT & STAGING SCENES** — see §5.
+   - **CELEBRATIONS & LARGE GATHERINGS** — see §5.7. Mandatory in every
+     country file, directly after the festivals register.
+   - **GAME NIGHT** — see §5.8. Mandatory in every country file, directly
+     after CELEBRATIONS & LARGE GATHERINGS.
+   - **VENUE PROFILES** — see §5.9. Background-first profiles of the venues
+     the file stages, directly after the generic scene registers table.
    - **Dish catalog** (called "DISH CATALOG" for a single-file country,
      "TOP DISHES" or similar for a national index file) — see §4.
 5. **GAP LOG** — explicit, honest listing of what's unresolved, thin, or
@@ -453,6 +459,183 @@ as **mate** is documented as a beverage/ritual (ICONIC BEVERAGES or an
 equivalent section), not as a dish entry. It is not part of the default
 frame beside the hero (it is another drink); stage it only when a brief
 asks for the ritual.
+
+### 5.7 Celebrations and large gatherings: the snapshot rule
+
+Standing rule, set by the reviewer 2026-10-01. Celebrations get the same
+depth as everyday meals in every market, and party size is read as **the
+place settings in frame, not the size of the gathering**.
+
+- **The image is a snapshot of a bigger event.** A wedding, a Christmas
+  Eve dinner, an owambe or a Sunday asado can have 10 to 200 people. The
+  frame shows only the operator's party (1, 2 or a small group of place
+  settings) at one end or one stretch of a large table. The larger
+  gathering is **implied**, never counted out in place settings.
+- **How the frame implies the crowd** (use two or three cues, not all):
+  the table runs out of frame on one or both sides; more shared serving
+  vessels than the visible diners could eat from (the feast spread),
+  partly cropped; a second table or buffet line soft in the background;
+  decorations specific to the occasion; blurred guests behind, within the
+  background-people limit (no more than about 2.5 faces, none sharp);
+  extra chairs, stacked plates or a serving station at the edge.
+- **What stays the operator's party.** Every visible place setting is
+  identical (same plated portion, same SKU, same glass rule), exactly as
+  in an everyday scene. Shared platters belong to the whole table and are
+  not counted as anyone's plate. The tablescape composer's `feast-spread`
+  archetype is the layout for this.
+- **Product format.** The brief still dictates the SKU (§5.4). When the
+  brief allows a multi-serve bottle, the implied gathering justifies the
+  larger sizes in `coca-cola-guidelines.md` §4.4 (2.5 L to 3 L for a
+  festive spread), placed in the midground of the visible stretch.
+- **Every country file carries a CELEBRATIONS & LARGE GATHERINGS
+  section**, placed directly after the FESTIVALS & SEASONAL OCCASIONS
+  register (which stays as the short calendar index). It holds:
+  1. **How large gatherings work here**: who gathers, typical size, where
+     (home indoors, yard or roof, rented hall, restaurant private room,
+     street or community space), table form (one long table, round
+     tables, a buffet, a floor spread, a mat), who serves, the serving
+     style (family-style platters, buffet, sequential courses, a single
+     communal pot), and the cutlery and plate norms that differ from an
+     everyday meal.
+  2. **One entry per celebration**, covering calendar holidays, life
+     events (birthdays, weddings, baptisms, coming-of-age, graduations,
+     religious milestones) and recurring community or family gatherings
+     (the Sunday family lunch, a neighbourhood fiesta). Each entry uses
+     the template below.
+- **No identifiable children** (reviewer ruling 2026-10-01). Children
+  may be implied (a booster seat, a party hat on an empty chair, small
+  shapes far behind and fully out of focus), but no child's face is ever
+  recognisable, no child is near or holding the product, and a child
+  honoree (birthday child, baptism baby, first-communion child,
+  quinceañera or debut celebrant if under 18) is never shown. This
+  overrides any softer wording in a country file.
+- **Never a full flag** (reviewer ruling 2026-10-01), of any country,
+  anywhere in frame. Flag-palette paper goods, bunting or a partial,
+  cropped flag pattern soft in the background is the most a national
+  holiday scene carries.
+- **Out of scope**: drinking-led events or the drinking part of an event
+  (toasts, open bars, beer festivals) are never staged; religious rites
+  themselves (altars, prayer, processions) are never the scene; staging
+  stops at the meal around them, per the existing sensitivity rules in
+  each file.
+
+Celebration entry template:
+
+```
+#### Celebration: <name> (<local name>)
+- Type: calendar holiday | life event | community or family gathering
+- When: date or season; meal time and the intake time of day
+  (midday | golden-hour | evening)
+- Gathering: who, typical headcount, where (map to intake venue and
+  setting: home indoor/outdoor, restaurant, other)
+- The spread: centrepiece dish(es) and the shared dishes around it, each
+  linked to its DISH CATALOG entry where one exists; serving vessels;
+  how many serving dishes a real table carries
+- Snapshot staging: for 1, 2 and a small group of place settings, what
+  is in frame (the visible stretch of table, which shared vessels, the
+  plated portion per setting) and which cues imply the wider gathering
+- Decor and cues: authentic details; clichés to avoid
+- Never stage: sensitivities, alcohol, religious imagery, a full flag,
+  legible crests, identifiable children
+- Confidence and sources
+```
+
+### 5.8 Game night: watch parties and social game nights
+
+Standing rule, set by the reviewer 2026-10-01. The intake occasion
+`game-night` has two meanings, and every country file covers both in a
+**GAME NIGHT** section placed directly after CELEBRATIONS & LARGE
+GATHERINGS:
+
+1. **Watch parties**: people eating together while watching sport, at
+   home (living room, backyard) or in public (fan zone, viewing centre,
+   restaurant screening, tea stall or coffee stall, stadium concourse).
+   One entry per sport or occasion that is big in the market (a football
+   derby or tournament, cricket, rugby, basketball, boxing, the Super
+   Bowl), with: when (and the local kick-off time, since overseas leagues
+   land late at night or before dawn in many markets), who gathers and
+   how many, the venue, the spread and its vessels, the surface (often a
+   coffee table, low table or counter, not a dining table), environment
+   cues, snapshot staging for 1, 2 and a small group, and never-stage
+   notes.
+2. **Social game nights**: trivia, karaoke, board and card games,
+   mahjong, dominoes, lotería, video-game nights and similar, at home or
+   in public. Each file states how popular these are as an occasion to
+   gather and eat around (high / medium / low / niche, with the basis),
+   then gives one entry per format that is at least medium in the market.
+
+Rules for both:
+- **Screens, cards, boards and tiles are never legible.** A TV or
+  projector is a soft glow or an out-of-focus field of colour; no score
+  bug, channel logo, game title or player name. No team crests, kits,
+  sponsor marks or league logos. No licensed board games or branded
+  decks.
+- **No gambling as the subject.** No betting slips, odds screens, betting
+  apps, chips, cash on the table or scoring for money, even where the game
+  is usually played for stakes (mahjong, teen patti, okey, bingo).
+- **Drinking-led formats** (pub quiz, sports bar, izakaya viewing,
+  karaoke with beer towers, tailgates) are staged only in a food-led,
+  alcohol-free form, or not at all; each file says which.
+- The snapshot rule (§5.7) applies: party size is the place settings in
+  frame; a bigger crowd is implied (more chairs, a sofa running out of
+  frame, blurred backs of heads toward the screen, within the
+  background-people limit). **No identifiable children.**
+- The light follows the real time: a late-night kick-off is a night
+  scene (screen glow, a lamp), not golden hour.
+
+### 5.9 Venue profiles: what the soft background must show
+
+Standing rule, set by the reviewer 2026-10-01. The default camera look is
+a close-up hero: the table is sharp and the room falls into soft focus.
+What makes a scene credible is what reads in that soft background, so
+every venue a file stages gets a **venue profile**, and the profile is
+written background-first. The QUICK-REFERENCE: GENERIC SCENE REGISTERS
+table stays as the short index; profiles live in a **VENUE PROFILES**
+section directly after it (or after ENVIRONMENT & STAGING SCENES in files
+without that table).
+
+Rules:
+- **Hyperlocal first, then the national default.** Describe the venue as
+  it looks in the market's default zone and name what changes by
+  subregion. When a subregion has no detail, use the most common
+  interpretation for the country and say so.
+- **Background-first.** The soft-focus block is the core of the profile:
+  the back wall, the middle distance, the light sources that show as
+  glows or bokeh, the colour palette, and the 3–5 shapes that make the
+  room read as this venue and no other. Then the table as it is really
+  set there.
+- **Name the hallucination traps.** List what image models wrongly add
+  for this venue (tourist clichés, another country's version, a
+  generic "restaurant" look) so the prompt can negate them.
+- **Nothing legible** (signs, menus, boards, screens, packaging), no
+  alcohol cues, no brand marks, never a full flag, no identifiable
+  children, and the background-people limit (no more than about 2.5
+  faces, none sharp).
+
+Venue profile template:
+
+```
+#### Venue: <name> (<local name>)
+- Use for: intake venue and setting, occasions, party sizes; national
+  default or subregional variant; how common it is
+- Soft background (the core): back wall (material, colour, what hangs on
+  it); middle distance (counter, kitchen pass, shelves, other tables,
+  street through the window); light sources that read as glows or bokeh
+  (window, fittings, screens, candles) and their colour temperature by
+  time of day; the colour palette; the 3–5 signature shapes; density and
+  wear (new and sparse, or busy and well-worn); people cues within the
+  limit
+- Shell: building type, windows, floor, ceiling (as far as the frame
+  shows them)
+- The table as set here: surface (cloth, oilcloth, bare wood, steel,
+  melamine), what is always on it, the house tableware, chair or stool
+  edges in frame
+- Subregional variants and the national default
+- Hallucination traps: what to negate in the prompt
+- Never stage: alcohol cues, legible text, brand marks, market rules
+- Prompt-ready line: one sentence, background-led, usable as-is
+- Confidence and sources
+```
 
 ---
 

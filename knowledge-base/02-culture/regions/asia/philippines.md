@@ -231,6 +231,387 @@ size.
 | **Mall food court / fast-casual** | Bright, clean, plastic trays and paper liners — **always unbranded**; rice plates, fried chicken, spaghetti, burger steak; avoid any chain's colours. |
 | **Seaside grill / ihaw-ihaw** | Charcoal grill (ihawan) with skewers and whole fish, a nipa-shaded table, plates on banana leaf, a beach or fishing boats behind; daylight only (night grills read as inuman). |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies. The default camera keeps the table sharp and the
+room soft, so each profile leads with what the blurred background must
+show. First wave (2026-10-01): the five most-used staging venues. The
+QUICK-REFERENCE table above stays the short index; the sari-sari store,
+boodle fight, mall food court and seaside grill keep their register rows
+until a later wave. Hard rules 1–8 apply to every profile; in Filipino
+backgrounds the two traps that matter most are **religious objects**
+(the Last Supper picture, a Santo Niño, a home altar: hard rule 5) and
+**drinking cues** (beer and gin bottles, an inuman table: hard rule 4),
+because both are common in exactly these rooms.
+
+#### Venue: Concrete-house dining area (kainan / silid-kainan)
+- Use for: home indoor; casual lunch at home (1–3), dinner at home,
+  Noche Buena and Media Noche, the sala-side PBA and boxing watch
+  parties; 1, 2 or a small group. The national default: 87.6% of
+  occupied housing units are single houses, 60.4% with concrete, brick
+  or stone outer walls and 85.9% with metal roofs [HIGH — PSA 2020 CPH,
+  see ENVIRONMENT & STAGING SCENES]. The dining area is usually a corner
+  of one open living-dining room, not a separate room [EDITORIAL].
+- Soft background (the core): **back wall**: smooth painted plaster in
+  a light colour (cream, off-white, pale yellow, mint or peach), with a
+  **framed picture or wooden plaque of the Last Supper** above the table
+  as the classic fixture, framed graduation portraits and a wall clock
+  [MEDIUM — homify.ph "15 most common things inside a Filipino house";
+  Subli blog; file interior markers]. **The Last Supper and any Santo
+  Niño or altar shelf must be out of frame or melted into an
+  unreadable warm rectangle** (hard rule 5); framed photos stay as pale
+  blurred rectangles with no faces readable. **Middle distance**: the
+  kitchen counter or a doorway to the kitchen, with a **rice cooker**, a
+  dish rack of plates and a gas range with a small LPG tank; a
+  refrigerator as a tall pale block, often with magnets; a wooden or
+  glass display cabinet (platera) of "for guests" plates and glasses;
+  the sala's sofa set and TV cabinet at one side; plastic or rattan
+  storage at the edges [MEDIUM — homify.ph; file interior markers;
+  platera LOW — not verified]. **Light**: daylight through **jalousie
+  windows** (horizontal glass louvres) or sliding aluminium windows with
+  **decorative iron grilles**, which throw thin striped light; at night
+  a white fluorescent tube or LED ceiling light (cool white), sometimes
+  a small warm pendant over the table; a **stand fan** or ceiling fan as
+  a soft disc [MEDIUM — Real Living "parts of a Filipino house"
+  (jalousies); file markers]. **Palette**: light plaster, white or beige
+  glossy floor tiles, dark varnished wood or glass-top table, the
+  colour of the plastic or lace tablecloth, silver grilles. **Signature
+  shapes (pick 3–4)**: the horizontal slats of jalousie glass; the
+  scroll or geometric pattern of window grilles; the stand-fan disc; the
+  rice cooker; the long wall rectangle of the (blurred) Last Supper.
+  **Density and wear**: lived-in, family-sized, a little full (a
+  calendar, a plastic flower arrangement, folded laundry on a chair);
+  clean, never a slum or a showroom. **People cues**: one blurred
+  relative at the kitchen or on the sofa, within the limit.
+- Shell: a one- or two-storey concrete house, often in a subdivision or
+  a dense barangay street; ceramic tile floor; plywood or gypsum ceiling
+  about 2.6–2.8 m with a ceiling light; a front door with a steel
+  screen or grille; a metal roof that is not seen indoors [HIGH for
+  materials — PSA; EDITORIAL for heights].
+- The table as set here: a rectangular wooden table (narra-look
+  varnish) or a glass-topped table, often with a **clear plastic cover
+  over a lace or printed cloth**, or a printed vinyl cloth; monobloc or
+  wooden chairs; always on it: **rice** in a pot, bowl or on each plate
+  (hard rule 1), 2–3 ulam in ceramic or melamine bowls with serving
+  spoons, saucers of **sawsawan** (soy-calamansi, vinegar with chilli,
+  patis), spoon right and fork left on a flat plate, a paper-napkin
+  holder; a plastic food-cover dome (taklob) at the edge when food waits
+  [HIGH for spoon-fork and rice — hard rules; MEDIUM for plastic table
+  cover — file register; napkin holder and food cover LOW — not
+  verified]. House tableware: white Corelle-type or floral melamine
+  plates, steel spoons and forks.
+- Subregional variants and the national default: **Metro Manila
+  condo** (young professionals, couples; only 0.7% nationally): a
+  studio or one-bedroom, a two-seat table against a wall, a window
+  onto towers, laminate or tile floor. **Metro Manila townhouse**: a
+  narrow row house in a subdivision, the same interior on a smaller
+  footprint, a carport in front. **Provinces (Visayas, Mindanao, rural
+  Luzon)**: a wider house, half-concrete half-wood or wooden upper
+  floor, capiz or sliding wooden windows in older houses, banana and
+  coconut trees through the window. **Zone 7 (Bangsamoro)**: no
+  Christian imagery; framed Arabic calligraphy possible (unreadable or
+  out of frame); okir-pattern textile or carving as a colour accent
+  [LOW — not verified]. National default when nothing is named: the
+  Metro Manila concrete house above.
+- Hallucination traps: a nipa hut or bamboo stilt house as the default
+  home; a Spanish-colonial bahay na bato with capiz windows and narra
+  floors (heritage only: Vigan, Taal, Iloilo); a Japanese or Korean
+  apartment; a Thai or Balinese resort interior; chopsticks; a Western
+  suburban kitchen island; a poverty-coded informal-settlement room.
+- Never stage: the Last Supper, a crucifix, a Santo Niño or an altar
+  in readable form; a beer bottle, gin bottle or tagay glass anywhere;
+  a fast-food chain's bucket, box or paper bag (hard rule 7); legible
+  calendars, labels or TV screens.
+- Prompt-ready line: "A Filipino family table in a concrete house:
+  a glass-topped table with a clear plastic cover over a lace cloth,
+  cream plaster walls, a softly blurred kitchen counter with a rice
+  cooker behind, and daylight through jalousie glass louvres and a
+  patterned iron window grille."
+- Confidence and sources: MEDIUM-HIGH. 1 search (Filipino dining-room
+  interiors). PSA 2020 CPH; homify.ph; Subli blog; Real Living "46
+  parts of a Filipino house"; file ENVIRONMENT norms. Platera, napkin
+  holder, food cover and the zone 7 interior LOW — not verified.
+
+#### Venue: Carport or garage party set-up (handaan sa garahe)
+- Use for: home outdoor; birthdays, christening parties, fiestas
+  (open house), graduations, the outdoor PBA/Gilas and boxing watch
+  party, and the everyday front-porch meal; snapshot frames of 1, 2 or a
+  small group. **The default venue for big handaan** in the
+  CELEBRATIONS section, and the market's signature event venue at home
+  [MEDIUM — file CELEBRATIONS; party-rental listings (Jojie's, Party Hub,
+  Rentolab) offering rectangular and round tables, monobloc chairs with
+  covers and ribbons, tents and food warmers for birthdays, baptisms and
+  barangay fiestas].
+- Soft background (the core): the **carport of a concrete house** with
+  the car moved out: the house front as the back wall (painted plaster,
+  a window with iron grille, a front door with a steel screen), the
+  **steel gate** with vertical or patterned bars at the street side, and
+  overhead either the carport's corrugated or polycarbonate roof or a
+  **rented tent or tarpaulin** stretched on steel poles [MEDIUM — same
+  sources; file ENVIRONMENT "Outdoor eating spaces"]. **Middle
+  distance**: the **buffet table along the wall**, its skirting or cloth
+  hanging to the floor, a row of **foil trays or chafing dishes** with
+  lids, a pancit **bilao** (woven round tray lined with banana leaf),
+  a rice tray, and (outside zone 7) **a lechon on a banana-leaf tray at
+  the head of the table** as a glossy amber-brown shape; more rented
+  tables with **white or coloured cloths** and **white monobloc chairs**
+  (bare, or with fabric covers and ribbons) [MEDIUM — Jojie's monobloc
+  rental listing (covers and ribbons); file CELEBRATIONS crowd cues]. A
+  karaoke/videoke speaker box on a stand and a TV may sit at the side
+  (screen a soft colour field). **Overhead**: **banderitas** (strings of
+  small triangular plastic or paper flags in bright colours) criss-
+  crossing under the roof, or helium balloons in a cluster for a
+  birthday [MEDIUM — file CELEBRATIONS; banderitas common at fiestas,
+  not individually searched]. **Light**: by day, shade under the roof
+  with the street and the neighbours' house fronts over-exposed beyond
+  the gate; by evening, a fluorescent tube or a string of bulbs tied to
+  the tent frame, cool and warm mixed. **Palette**: white plastic
+  chairs, cloth in the party colour, silver foil and chafing-dish steel,
+  the green of banana leaf, the multicoloured banderitas, grey concrete.
+  **Signature shapes**: rows of white monobloc chair backs; chafing-dish
+  domes; the round bilao; the triangle chain of banderitas; the gate's
+  vertical bars. **Density and wear**: full and festive, temporary,
+  slightly improvised (an extension cord, a stack of spare chairs, a
+  cooler box at the edge with its lid shut). **People cues**: blurred
+  relatives at the next table or by the buffet, within the limit; no
+  children's faces, no celebrant child shown.
+- Shell: the concrete carport floor (often tiled or plain screed), the
+  house wall, the gate; a tent or tarp roof when the carport is too
+  small; overflow onto the street under a second tent in fiesta form.
+- The table as set here: a **rented rectangular or round table with a
+  plain white or coloured cloth**, sometimes skirted; monobloc chairs;
+  heavy paper or plastic plates at home parties, caterer's white china
+  when catered; rice on each plate; spoon and fork; paper napkins; a
+  roll of tissue; food on plates carried from the buffet (the guests
+  serve themselves) [MEDIUM — file CELEBRATIONS plate norms]. Chair
+  edges: white monobloc backs, sometimes with a satin ribbon.
+- Subregional variants and the national default: **Metro Manila**: a
+  townhouse carport, tight, the tent spilling into the subdivision
+  street. **Provinces**: a front yard with mango or banana trees, a
+  bamboo or nipa-roofed kubo pavilion beside the house, the fiesta
+  table running longer. **Zone 7**: no lechon and no pork dishes; kenduri
+  and wedding food is beef, chicken and fish; no alcohol cues at all
+  [EDITORIAL from hard rule 3]. National default when nothing is named:
+  a Metro Manila concrete-house carport with white monobloc chairs, a
+  foil-tray buffet and banderitas.
+- Hallucination traps: a Western backyard barbecue with a lawn and a
+  kettle grill; a Mexican fiesta (papel picado, piñata as decor,
+  sombreros); a beach-party set-up; a garden marquee with fairy lights
+  and wildflowers; a fast-food birthday party with a mascot.
+- Never stage: beer and gin bottles, a tagay glass, a cooler with
+  bottles showing (very common at real parties — negate explicitly); an
+  inuman table with pulutan at night; tarpaulin banners with names,
+  faces or ages (a heavy text prior); the celebrant child; a chain's
+  boxes or buckets.
+- Prompt-ready line: "A Filipino carport birthday party at midday: one
+  end of a rented table with a white cloth in the foreground, white
+  monobloc chairs, a softly blurred buffet of foil trays and chafing
+  dishes with a lechon on banana leaf along the house wall, and
+  colourful triangle bunting strung under the roof."
+- Confidence and sources: MEDIUM. 1 search (party rentals). Jojie's
+  Catering rental listings; Party Hub; Rentolab; Tent King (tier 3,
+  vendors); file CELEBRATIONS. Banderitas share and the videoke speaker
+  LOW — not verified this pass.
+
+#### Venue: Carinderia / turo-turo (karinderya)
+- Use for: restaurant indoor (or semi-outdoor); away-from-home lunch
+  for 1, meal on the go (rice meal at a counter), 2–3 co-workers or
+  students; the default casual sit-down eatery [MEDIUM — Wikipedia
+  "Carinderia"; file register].
+- Soft background (the core): the **turo-turo counter** dominates the
+  middle distance: a **glass-fronted display case** (or an open counter)
+  holding a row of **8–15 aluminium pots (kaldero) and stainless-steel
+  trays** of ready ulam, lids leaning against them, ladles standing in
+  the pots, a big **rice pot or rice cooker** at one end, steam rising
+  [MEDIUM — Wikipedia "Carinderia" (glass cases, metal trays, turo-turo
+  pointing); file register]. Behind the counter, an **open kitchen**:
+  a gas range with big pots, a tiled wall (white, green or blue tiles)
+  or painted plywood, a shelf (estante) of plates, cups and condiment
+  bottles (labels unreadable), a server in an apron and hairnet in blur.
+  **Walls**: painted plaster or plywood in a bright colour (green,
+  yellow, sky blue) or tiled to waist height; a **printed tarpaulin
+  menu** or a whiteboard of prices (always illegible), a calendar
+  [MEDIUM — file register; colours LOW — not verified]. **Front**:
+  often open to the street or a market aisle, so a band of daylight,
+  passing tricycles and a jeepney as blurred colour, overhead wires.
+  **Light**: daylight from the open front; inside, one or two white
+  fluorescent tubes, cool and flat; a wall fan or stand fan turning.
+  **Palette**: aluminium and steel greys, the browns, reds and greens of
+  the ulam in the trays, bright painted wall, white monobloc chairs, the
+  oilcloth pattern. **Signature shapes**: the row of pot rims and lids
+  behind glass; the long bench; monobloc chairs; the fluorescent tube;
+  the open-front daylight rectangle. **Density and wear**: humble, busy
+  at 11:30–13:00, scrubbed but worn (chipped paint, a scuffed concrete
+  floor). **People cues**: the server behind the counter and one diner
+  at the far end of the bench, blurred; no more than about 2.5 faces.
+- Shell: the ground floor or front room of a house, a market stall, or
+  a roadside lean-to with a metal roof; concrete or tiled floor; low
+  plywood ceiling or open metal roof [MEDIUM — Wikipedia "Carinderia"
+  (stalls, shacks, house fronts near markets, offices and schools)].
+- The table as set here: a **long table with a printed oilcloth or
+  plastic cover** (floral or checked), or a bare painted-plywood or
+  steel table, with **monobloc chairs or a long wooden bench
+  (bangko)**; on it: a steel cup of spoons and forks, a roll of tissue
+  or a napkin holder, bottles of vinegar, soy sauce and patis, a saucer
+  of chilli; the meal is **a plate of rice plus one or two ulam on
+  separate saucers or spooned beside the rice**, on plain white or
+  melamine plates, a bowl of free broth (sabaw) [MEDIUM — Wikipedia;
+  file register; free sabaw LOW — not verified]. Chair edges: white or
+  red monobloc backs, or the bench.
+- Subregional variants and the national default: **Metro Manila**:
+  near offices, jeepney stops and universities, open-front, crowded.
+  **Cebu and the Visayas**: the same form, with puso (hanging rice in
+  woven coconut-leaf pouches) and grilled items; **Iloilo / Bacolod**:
+  the chicken-inasal shop as the casual default, a charcoal grill at the
+  front. **Zone 7**: a halal carinderia with beef and chicken ulam, no
+  pork, no Christian images. National default when nothing is named: a
+  Metro Manila open-front carinderia.
+- Hallucination traps: a Singapore or Malaysian hawker centre (numbered
+  stalls under one roof); a Thai street stall with steel tables and a
+  four-jar caddy; a Western diner; a fast-food counter with a menu board
+  and uniform colours; a squalid, fly-blown poverty framing.
+- Never stage: beer bottles or a gin bottle on a table; a chest cooler
+  of branded bottles; the tarpaulin menu or prices legible; a santo or
+  altar shelf over the counter (common — out of frame).
+- Prompt-ready line: "A Manila carinderia at noon: a long table with a
+  floral oilcloth and a white monobloc chair in the foreground, a
+  softly blurred glass counter of aluminium pots and steel trays of
+  ulam with a steaming rice pot behind, under cool fluorescent light,
+  with daylight from the open street front."
+- Confidence and sources: MEDIUM. 2 searches (carinderia interiors in
+  English; karinderya terms in Tagalog). Wikipedia "Carinderia"; file
+  register and ENVIRONMENT norms. Wall colours and free sabaw LOW — not
+  verified.
+
+#### Venue: Fishball and ihaw-ihaw cart corner (fishbolan / ihawan sa kanto)
+- Use for: street / on-the-go; meal on the go (1), afternoon merienda,
+  a stop for 2; the default Filipino street venue [MEDIUM — walanglasa.ph
+  on the fishball vendor; Ang Sarap; file STREET FOOD register].
+- Soft background (the core): a **street corner (kanto) of a barangay**
+  in late afternoon: a wooden or steel **pushcart** with a large wok of
+  oil in the middle, **tall jars of dipping sauce** (sweet, spicy,
+  vinegar) along the ledge with spoons or ladles, a tray of skewers, and
+  a **big umbrella** over the cart, sometimes a ring light clipped to it
+  [MEDIUM — walanglasa.ph (wooden cart, wok, umbrella, ring lights);
+  Ang Sarap (tall sauce jars)]. In the middle distance: a **sari-sari
+  store window** with its iron grille (strips of sachets as blurred
+  colour, never readable), a parked **tricycle** with a sidecar, the
+  concrete house fronts and gates of the street, a tangle of **overhead
+  power lines** and a lamp post [MEDIUM — file ENVIRONMENT exterior
+  markers]. For the ihaw-ihaw form, a low charcoal grill of barbecue
+  sticks with a smoke haze. **Light**: late-afternoon gold or the white
+  overcast of the rainy season; at dusk the cart's bulb or ring light,
+  the sari-sari window's tube light, a streetlight's orange glow; keep
+  to daylight or dusk (night ihaw-ihaw reads as inuman — file register).
+  **Palette**: weathered wood or steel, the dark amber of sauces, the
+  orange of kwek-kwek, grey concrete, the bright colours of tricycle
+  sidecars and gates. **Signature shapes**: the umbrella dome; the wok
+  of bubbling oil; the row of tall sauce jars; the tricycle sidecar
+  silhouette; overhead wires. **Density and wear**: busy, worn, cheerful;
+  a small queue implied. **People cues**: the vendor (manong) in blur,
+  one or two customers at the cart edge; nobody sharp, nobody holding
+  food toward camera.
+- Shell: the street and kerb, a concrete pavement or the road edge;
+  open sky with wires.
+- The table as set here: no table: the food rests on the **cart ledge**
+  or a small shelf: fishballs, kikiam or kwek-kwek on bamboo sticks
+  laid on a paper plate or in a small plastic cup with sauce, a saucer
+  of banana cue or turon; for a sit-down, a low bench or monobloc chair
+  by the cart. Never in a hand (hard rule 8) [EDITORIAL].
+- Subregional variants and the national default: **Metro Manila**: the
+  fishball cart at a school gate, jeepney stop or LRT station.
+  **Cebu**: tuslob-buwa and ngohiong stalls [LOW — not verified].
+  **Zone 7**: pastil in banana leaf and satti stalls, no pork skewers.
+  National default when nothing is named: a Manila barangay corner with
+  a fishball cart.
+- Hallucination traps: a Thai soi with steel tables and plastic stools;
+  Bangkok or Hong Kong neon; a jeepney with legible route paintwork as
+  the hero backdrop; Vietnamese conical hats; a Western food truck.
+- Never stage: beer or gin at the grill; a sari-sari shelf with
+  cigarettes or alcohol in frame; legible sachets, price lists or
+  jeepney paint; licence plates; a chest cooler of branded bottles.
+- Prompt-ready line: "A Manila street-corner fishball cart in late
+  afternoon: skewers of fishballs on a paper plate on the cart ledge in
+  the foreground, a softly blurred wok of bubbling oil, tall jars of
+  amber dipping sauce and a big umbrella, with a sari-sari window, a
+  parked tricycle and overhead wires beyond."
+- Confidence and sources: MEDIUM. 1 search (fishball cart). walanglasa.ph
+  "Fishball street vendor"; Ang Sarap; Wikipedia "Fish ball"; file
+  STREET FOOD register. Cebu stalls LOW — not verified.
+
+#### Venue: Events place / function hall (events place / function room)
+- Use for: other or restaurant; debuts, weddings, christening lunches,
+  big birthdays and reunions in cities; snapshot frames of 1, 2 or a
+  small group at a round table. The catered alternative to the carport
+  for 100–200+ guests [MEDIUM — Event Nest debut catering guide;
+  Venuerific events-place and baptismal-venue listings; restaurant
+  function rooms (Booky)].
+- Soft background (the core): a **windowless or curtained hall**:
+  walls hidden by **fabric draping** (white, ivory or a theme colour,
+  gathered and lit from below), a ceiling swag of fabric or a cluster of
+  chandeliers or simple LED panels, a **stage with a backdrop** of
+  flowers, balloons or a themed panel at the far end (any name or
+  monogram unreadable) [MEDIUM — Venuerific and caterer listings;
+  draping colours LOW — not verified]. **Middle distance**: round
+  tables for 8–10 under **floor-length cloths**, **Tiffany chairs**
+  (clear acrylic or gold or white, with a cushion) or covered chairs
+  with sashes, centrepieces of flowers in low vases; the **buffet line**
+  along a side wall with skirted tables and rows of **roll-top chafing
+  dishes** catching light, uniformed servers behind it [MEDIUM — Quidos
+  and Cebu Food Trays catering inclusions (roll-top chafing dishes,
+  skirted buffet tables, Tiffany chairs with cushion)]. **Light**:
+  warm-white overhead light, coloured uplights on the drapes (pink,
+  violet, gold), the stage brighter; no daylight in most halls.
+  **Palette**: ivory and the theme colour, gold or chrome of chairs and
+  chafing dishes, white tablecloths, flower colours. **Signature
+  shapes**: rows of Tiffany chair backs (the vertical-spindle silhouette);
+  chafing-dish domes; tall floral centrepieces; draped fabric swags; the
+  bright stage rectangle. **Density and wear**: new-looking, polished,
+  rented; full tables. **People cues**: blurred guests in barong
+  Tagalog and dresses at the next table, servers in black and white,
+  within the limit; no debutante under 18, no child celebrant, no
+  identifiable children.
+- Shell: a purpose-built events hall, a hotel function room or a
+  restaurant function room; carpet or polished tile; drop ceiling.
+- The table as set here: a round table with a white floor-length cloth,
+  sometimes a coloured runner or overlay; each place a white charger or
+  dinner plate, spoon and fork (a knife only at hotel plated dinners),
+  a folded cloth napkin, a glass for the hero when the brief allows
+  one (no water goblet); the plates arrive filled from
+  the buffet (rice, a meat, a pasta, a vegetable); centrepiece in the
+  middle [MEDIUM — Event Nest; caterer listings; spoon-fork from hard
+  rule 2]. Chair edges: Tiffany chair backs with cushions.
+- Subregional variants and the national default: **Metro Manila**:
+  events places in Quezon City, Pasig and Parañaque; restaurant function
+  rooms for christenings. **Provinces**: the barangay hall, a parish
+  hall or a garden resort pavilion with a buffet, plainer décor
+  (monobloc chairs with covers). **Zone 7**: weddings in a hall or the
+  home compound, halal catering, no alcohol, okir motifs and gold-and-
+  green colours possible [LOW — not verified]. National default when
+  nothing is named: a Metro Manila events hall with draped walls, round
+  tables and a chafing-dish buffet.
+- Hallucination traps: a Western ballroom wedding with a champagne
+  tower and a bar; Chinese red-and-gold banquet décor (only for
+  Filipino-Chinese families); a beach-resort ceremony; an American prom
+  look for the debut.
+- Never stage: a bar, wine glasses, champagne flutes, a toasting moment;
+  the debutante's cotillion dance or "18 roses" with a minor; legible
+  backdrop names, monograms or welcome signs; a church interior or the
+  religious rite itself.
+- Prompt-ready line: "A place at a round table in a Filipino events
+  hall: a white floor-length cloth and a Tiffany chair in the
+  foreground, softly blurred ivory fabric drapes washed with pink
+  uplight, more round tables with flower centrepieces, and a row of
+  gleaming chafing dishes along the side wall."
+- Confidence and sources: MEDIUM. 1 search (events places). Venuerific;
+  Event Nest; Quidos Catering; Cebu Food Trays; Booky function-room
+  list (tier 3, vendors and listings). Drape colours and the zone 7
+  form LOW — not verified.
+
 ---
 
 ## TRUSTED CONTENT
@@ -843,6 +1224,518 @@ drafting (2026-10-01), dates to the end of 2026 are given where searched;
 - **Birthdays** — the children's party (spaghetti, fried chicken, hotdog-
   and-marshmallow skewers, cake, balloons) and the **"pancit for long
   life"** rule. A natural family-PET scene. [MEDIUM — not re-checked]
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Schema §5.7 applies: the frame shows only the operator's party (1, 2
+or a small group of place settings) at one stretch of a bigger table;
+the gathering is implied, never counted out. Hard rules 1–8 above all
+still apply, above all **hard rule 4**: no inuman, no pulutan-at-night
+composition (sisig, chicharon, kropek on a sizzling plate after dark),
+no beer, gin or rum anywhere, even at evening receptions where drinking
+is real; **hard rule 3**: no pork in zone 7 or beside Muslim-coded
+cues; **hard rule 5**: no product near a Santo Niño, altar, belen, church
+or procession.
+
+### How large gatherings work here
+
+- **Who gathers**: the extended clan (titos, titas, lolos, cousins),
+  godparents (ninongs and ninangs), neighbours, and at fiestas anyone who
+  walks in. Filipino social life runs on **handaan** (a feast prepared
+  for guests) or **salu-salo**: birthdays, fiestas, graduations,
+  christenings and holidays [MEDIUM — Barong World and Jojie's fiesta
+  guides (tier 4), consistent with factsanddetails and SunStar].
+- **Typical size**: a home birthday or christening is roughly 20–60
+  guests [LOW — not verified this pass]; a catered debut or wedding is
+  **100 to 200+**, with caterers splitting buffets above 200 [MEDIUM —
+  Event Nest debut and wedding guides (tier 3, vendor)]; a fiesta open
+  house has no count, people come and go all day [MEDIUM — SunStar,
+  factsanddetails].
+- **Where (intake venue)**: **home outdoor** is the default (a carport
+  or front yard turned into a party space with rented tables, monobloc
+  chairs and a tarpaulin or tent overhead; see ENVIRONMENT, Meal outdoors
+  at home); **home indoor** for Noche Buena and Media Noche; **restaurant**
+  (a function room or a Filipino restaurant) for christening and
+  birthday lunches in cities; **other** for weddings and debuts (a
+  hotel ballroom, events place, garden venue or barangay hall).
+- **Table form and serving style**: the **buffet** is the default for
+  any big handaan: a long table along a wall with foil trays or
+  chafing dishes, a lechon at the head, a rice tray, and guests sitting
+  at round or rectangular rented tables with their filled plates. A
+  standard catered buffet runs **rice (plain and garlic), two or three
+  meat dishes, one seafood, one vegetable, a pasta, a dessert spread**
+  [MEDIUM — Executive Gourmet and Event Nest (tier 3, vendors)]. Family
+  style at round tables is used for 80–150 guests [MEDIUM — Event Nest].
+  Noche Buena and Media Noche are one family table, everything at once.
+- **Who serves**: relatives and helpers at home (the cooks are often
+  aunts or a hired "kusinera"); caterer staff in uniform behind chafing
+  dishes at catered events; guests serve themselves.
+- **Plate and cutlery norms that differ**: still spoon and fork, no knife;
+  big events use caterers' white china or heavy paper and plastic plates
+  at home parties; rice is served by the scoop from a tray; take-home
+  "balot" (food wrapped for guests) is common [LOW — not verified].
+  [EDITORIAL]
+- **Snapshot staging default for the Philippines [EDITORIAL]**: the three
+  most authentic crowd cues here are (1) **a lechon on a banana-leaf tray
+  at the head of a buffet**, soft in the background or cropped at the
+  edge (outside zone 7); (2) **a row of foil trays or chafing dishes**
+  (pancit, spaghetti, lumpia, caldereta) running out of frame; (3)
+  **monobloc chairs, rented tables under a tarpaulin or tent, and
+  banderitas** (small triangular bunting) overhead, with no legible text
+  on any tarp or banner.
+
+#### Celebration: Town fiesta open house (pista)
+- Type: community or family gathering
+- When: the patron-saint day of each barangay or town, year-round with a
+  May peak (see register); the open house feeds people from late morning
+  to evening. Intake time of day: midday.
+- Gathering: the household's relatives, neighbours and "anyone who walks
+  through the door"; families save for months for it [MEDIUM — SunStar
+  "The tradition of fiestas", factsanddetails]. Count is open-ended,
+  dozens over a day [LOW]. Venue: home indoor (dining room) spilling to
+  home outdoor (carport buffet).
+- The spread: **lechon** as centrepiece (see catalog: Lechon; Luzon form
+  by default, Cebu form in the Visayas), **pancit** (see catalog:
+  Pancit), **kare-kare** (see catalog: Kare-kare), **menudo, caldereta or
+  afritada** (tomato stews; see catalog: Carinderia / turo-turo rice plate
+  for the menudo look; caldereta has no own entry, see CANDIDATE QUEUE),
+  **lumpia** (see catalog: Lumpia), **leche flan** and **puto** (see
+  catalog: Leche flan), rice. A real table carries 6–10 serving dishes.
+  [MEDIUM — SunStar, Jojie's, Amazing Food & Drink (tier 4)]
+- Snapshot staging: **1 setting** — a plate at the near end of the
+  dining table: rice mound, two chopped lechon pieces with skin, a
+  spoonful of pancit, a saucer of liver sauce; the pancit tray and a
+  caldereta dish partly in frame, the lechon platter cropped at the edge.
+  **2 settings** — two plates side by side at a corner, kare-kare with
+  bagoong, lumpia and pancit between them, leche flan cropped behind.
+  **Small group** — three or four plates along one side, the table
+  running out of frame with more trays. Crowd cues: banderitas in the
+  window or over the street outside; extra monobloc chairs; blurred
+  visitors at the carport buffet behind.
+- Decor and cues: plastic or lace tablecloth, banderitas, a festive
+  street through the doorway. Avoid: Spanish-colonial costume drama,
+  luau props.
+- Never stage: the procession, the patron-saint image or carroza; any
+  inuman bench of men with bottles (common at fiestas); pork beside
+  Muslim-coded cues.
+- Confidence and sources: MEDIUM (SunStar, factsanddetails, tier-4
+  guides); EDITORIAL composition.
+
+#### Celebration: Christmas Eve feast (Noche Buena)
+- Type: calendar holiday
+- When: 24 December toward midnight, after the evening Mass (see
+  register). Intake time of day: evening.
+- Gathering: the household and extended family, about 6–15 [LOW]. Venue:
+  home indoor.
+- The spread: see catalog: **Noche Buena table** (hamon, queso de bola,
+  Filipino spaghetti, fruit salad, leche flan, embutido, lechon if
+  affordable, pandesal or ensaymada). This entry adds only the snapshot
+  rule. 6–9 serving dishes.
+- Snapshot staging: **1 setting** — a plate with a slice of ham, a wedge
+  of queso de bola and a twirl of spaghetti; the glazed ham platter and
+  the red-wax cheese partly in frame, the fruit-salad bowl cropped.
+  **2 settings** — two plates at the table's near corner with ham,
+  cheese and spaghetti between them. **Small group** — four plates
+  along one side, the ring of dishes running out of frame. Crowd cues: a
+  glowing parol blurred in the window; Christmas lights bokeh; wrapped
+  gifts (no text) soft under a tree at the edge.
+- Decor and cues: warm light, parol, red-and-green tablecloth. Avoid:
+  snow, turkey, mistletoe.
+- Never stage: the belen or church; wine or brandy bottles; legible
+  greetings.
+- Confidence and sources: HIGH for the dishes (catalog sources); LOW for
+  headcount; EDITORIAL composition.
+
+#### Celebration: New Year's Eve feast (Media Noche)
+- Type: calendar holiday
+- When: 31 December toward midnight. Intake time of day: evening.
+- Gathering: household and extended family, 6–15 [LOW]. Venue: home
+  indoor, sometimes the carport.
+- The spread: Noche Buena leftovers and a fresh **pancit** for long life
+  (see catalog: Pancit), sticky rice cakes (**biko**, **tikoy**), and a
+  bowl or tray of **12 round fruits** (grapes, oranges, apples, melons,
+  pomelo) for prosperity [MEDIUM — register; not re-checked this pass].
+  Biko has no catalog entry: a dark caramel-brown sticky-rice cake with a
+  glossy latik (coconut-curd) top, cut into squares in a banana-leaf-lined
+  bilao ~40 cm across; each square about half the can's height across
+  (see CANDIDATE QUEUE). 5–8 serving dishes.
+- Snapshot staging: **1 setting** — a plate with pancit and a square of
+  biko; the fruit tray partly in frame, the pancit platter cropped.
+  **2 settings** — two plates, the fruit tray and pancit between them.
+  **Small group** — the table running out of frame with leftovers from
+  Christmas. Crowd cues: the round-fruit tray, polka-dot shirts on
+  blurred relatives, a window with distant light bokeh.
+- Decor and cues: polka dots, round fruit, coins in a bowl. Avoid:
+  fireworks near the product (hard rule; no torotot horns in focus).
+- Never stage: firecrackers, a drinking table.
+- Confidence and sources: MEDIUM (register, not re-checked); EDITORIAL.
+
+#### Celebration: Children's birthday party, including the first birthday (kaarawan)
+- Type: life event
+- When: afternoon, often a weekend; the first and seventh birthdays are
+  the big ones [LOW — not verified this pass]. Intake time of day: midday
+  or golden-hour.
+- Gathering: cousins, classmates, parents, godparents, 20–60 [LOW].
+  Venue: home outdoor (carport party) or restaurant (a function room).
+- The spread: **Filipino sweet spaghetti** with sliced red hotdogs and
+  grated cheese (see catalog: Filipino-style spaghetti), **fried chicken**
+  (see catalog: Filipino fried chicken), **pancit for long life** (see
+  catalog: Pancit), **lumpia shanghai** (see catalog: Lumpia), **hotdog-
+  and-marshmallow skewers** stuck into a pineapple or a cabbage, a
+  decorated cake, and sometimes **pork barbecue** (see catalog: Pork
+  barbecue skewers) [HIGH — Delish.ph, HuffPost, Wikipedia "Filipino
+  spaghetti" and "Pancit", USC Folklore Archive]. Hotdog-marshmallow
+  skewers have no catalog entry: short skewers alternating a red hotdog
+  chunk (2 cm, cut) and a pastel marshmallow, a dozen or more studding a
+  whole pineapple about 1.5 times the can's height (see CANDIDATE QUEUE).
+  6–8 serving dishes.
+- Snapshot staging: **1 setting** — a party plate with a twirl of
+  spaghetti, a fried drumstick and a spoon of pancit; the spaghetti tray
+  and the pineapple of skewers partly in frame. **2 settings** — two
+  plates on a kids' table, spaghetti tray and fried chicken between them,
+  the cake cropped at the edge. **Small group** — the foil-tray buffet
+  running out of frame. Crowd cues: balloons and paper bunting (no
+  letters legible); party hats; a blurred child or two behind.
+- Decor and cues: balloon arch, plastic tablecloth with a pattern (no
+  characters or licensed cartoons). Avoid: fast-food mascots and
+  branded party packs (hard rule 7).
+- Never stage: chain branding, licensed characters, alcohol for the
+  adults.
+- Confidence and sources: HIGH for the food (above); LOW for size.
+
+#### Celebration: Debut (18th birthday)
+- Type: life event (a girl's coming-of-age party at 18; boys' 21st is
+  smaller)
+- When: evening, after a formal programme (cotillion, the "18 roses"
+  dance). Intake time of day: evening.
+- Gathering: 100–200+ guests, formally dressed [MEDIUM — Event Nest
+  (tier 3)]. Venue: other (hotel ballroom, events place, garden venue) or
+  restaurant (function room).
+- The spread: a catered buffet: lechon, chicken barbecue, a pasta,
+  a seafood dish, beef caldereta or beef with mushroom, pancit, leche
+  flan and fruit salad [MEDIUM — Event Nest, Executive Gourmet (tier 3)].
+  See catalog: Lechon; Pork barbecue skewers; Pancit; Leche flan. Buffet
+  of 8–12 chafing dishes, round tables of 8–10 dressed in linen.
+- Snapshot staging: **1 setting** — a china plate with garlic rice, a
+  piece of lechon and a spoon of caldereta on a linen-covered round table,
+  napkin folded, a centrepiece of flowers partly in frame. **2 settings**
+  — two plates at the curve of a round table, the centrepiece between
+  them. **Small group** — a quarter of the round table. Crowd cues: the
+  curve of a round table for 10; chafing dishes of the buffet blurred
+  behind; fairy lights and draped fabric.
+- Decor and cues: pastel or gold theme, flowers, fairy lights. Avoid:
+  the debutante in focus; Western prom imagery.
+- Never stage: champagne or wine glasses on the table, a toast, an open
+  bar; legible name backdrops.
+- Confidence and sources: MEDIUM (vendor sources, tier 3); EDITORIAL.
+
+#### Celebration: Christening feast (binyag handaan)
+- Type: life event
+- When: lunch after the baptism Mass, often a Sunday. Intake time of day:
+  midday.
+- Gathering: parents, many godparents, relatives, 30–80 [LOW — not
+  verified]. Venue: home outdoor (carport) or restaurant (function room).
+- The spread: **lechon** "the undisputed king", **pancit** for the child's
+  long life, **kakanin** (biko, sapin-sapin) "so family bonds stay
+  sticky", **lumpia shanghai**, kare-kare, fried chicken or lechon manok,
+  grilled bangus and squid [MEDIUM — Event Nest baptism guide (tier 3),
+  masstimesph (tier 4)]. See catalog: Lechon; Pancit; Lumpia; Kare-kare;
+  Filipino fried chicken. A kakanin platter is not in the catalog yet
+  (already queued). 6–10 serving dishes.
+- Snapshot staging: **1 setting** — a plate with rice, lechon, pancit and
+  a slice of sapin-sapin; the pancit tray and a bilao of kakanin partly
+  in frame, the lechon cropped at the head of the buffet. **2 settings**
+  — two plates facing, kare-kare and lumpia between them. **Small group**
+  — one stretch of a rented table under a tent. Crowd cues: white and
+  pastel balloons; the lechon at the buffet head soft behind; stacked
+  plates at the buffet end.
+- Decor and cues: white, baby blue or pink theme; a small cake.
+- Never stage: the church, the baptismal font, a priest; religious
+  figures on the cake; alcohol.
+- Confidence and sources: MEDIUM (tier 3–4); EDITORIAL.
+
+#### Celebration: Wedding reception (kasalan)
+- Type: life event
+- When: lunch or dinner reception after the church ceremony. Intake time
+  of day: midday or evening.
+- Gathering: 100–200+ guests [MEDIUM — Event Nest]; in provinces the
+  whole barrio. Venue: other (events place, garden, barangay hall, or a
+  tent in a family yard: home outdoor).
+- The spread: a buffet of rice (plain and garlic), lechon, chicken
+  barbecue, beef caldereta, pancit canton or bihon, a seafood dish, a
+  vegetable, leche flan or fruit salad [MEDIUM — Executive Gourmet,
+  Event Nest, filipinowedding.com (tier 3)]. See catalog: Lechon; Pancit;
+  Pork barbecue skewers; Leche flan. 8–12 serving dishes.
+- Snapshot staging: as for the debut (round table, centrepiece, buffet
+  blurred) for a venue reception; as for the fiesta (rented tables, foil
+  trays, lechon at the buffet head) for a provincial yard reception.
+  Same 1 / 2 / small-group stretches. Crowd cues: round table curving out
+  of frame; floral centrepiece; buffet and lechon soft behind.
+- Decor and cues: white and sage or the couple's colours, capiz-shell
+  lanterns are a nice local cue. Avoid: the couple, the money dance.
+- Never stage: the church ceremony; a toast; beer or brandy on tables;
+  legible monograms.
+- Confidence and sources: MEDIUM (tier 3); EDITORIAL.
+
+#### Celebration: Eid'l Fitr feast, Bangsamoro and Muslim households (Hari Raya Puasa)
+- Type: calendar holiday
+- When: Eid'l Fitr (see register); after morning prayer, family visiting
+  and the feast run through midday. Intake time of day: midday.
+- Gathering: family and neighbours, 10–30 [LOW]. Venue: home indoor or
+  home outdoor (zone 7).
+- The spread: **tiyula itum** (see catalog), **beef rendang**, chicken
+  dishes, **pastil** (see catalog), **satti** in Zamboanga (see catalog),
+  **dodol** and **panyalam** sweets (no catalog entry, already queued),
+  rice. **Halal only: no pork, no alcohol anywhere.** [MEDIUM —
+  register, not re-checked]
+- Snapshot staging: **1 setting** — a plate with rice and a ladle of
+  tiyula itum, the soup tureen and a rendang dish partly in frame, a tray
+  of sweets cropped. **2 settings** — two plates on a low table or mat,
+  shared dishes between them. **Small group** — the spread running out of
+  frame. Crowd cues: festive dress (hijab, kopiah, malong patterns)
+  on blurred figures; stacked plates; a second tray of sweets.
+- Decor and cues: okir patterns on textiles; bright malong.
+- Never stage: prayer, a mosque interior, a Qur'an; pork; alcohol; the
+  hero as anything that breaks a fast (Ramadan rule in register).
+- Confidence and sources: MEDIUM (register); EDITORIAL.
+
+## GAME NIGHT
+
+Schema §5.8 applies, with the snapshot rule (§5.7). Hard rules 1–8
+above all still apply, above all **hard rule 4** (no inuman, no tagay,
+no pulutan-at-night composition: sisig, chicharon and kropek are the
+classic viewing and karaoke snacks precisely because they go with beer,
+so they stay out of every game-night frame), **hard rule 7** (fried
+chicken and spaghetti on plain plates, never a chain's bucket or box),
+**hard rule 6** (the iced-water pitcher, sago't gulaman and 3-in-1
+coffee are intruders) and **hard rule 3** (no pork in zone 7 or beside
+Muslim-coded cues). The brief dictates the SKU (§5.4). The file had no
+earlier sports or games lines; this section is new.
+
+### Watch parties
+
+Basketball is the national viewing sport: the PBA, the NBA and the
+Gilas national team, watched at home in the sala or on a TV set up
+outside a sari-sari store or under a barangay-court roof [HIGH for
+scale — Philstar/Cignal; venues LOW — not verified]. Boxing is the
+other big one, with the Pacquiao era as its peak. Football is
+low-medium here and volleyball has a following [LOW — not verified],
+so neither gets an entry. The non-drinking viewing spread is
+merienda: pancit in a bilao, lumpia, fried chicken, spaghetti, turon
+and banana cue [LOW — not verified].
+
+#### Watch party: PBA and Gilas basketball, evening
+- When: PBA conferences run most of the year; games are in the evening,
+  roughly 17:00–19:30 [LOW — not verified]; Gilas national-team games
+  in FIBA windows and tournaments. Intake time of day: **evening**
+  (golden-hour for an early tip-off). Scale: one PBA game drew 2.3
+  million viewers, peaking near 3 million (May 2026) [HIGH —
+  Philstar/Cignal]; about 40% of Filipinos follow basketball and 81% of
+  urban Filipinos call themselves fans [MEDIUM — asia-basket, survey
+  not named].
+- Gathering: the family at home, 4–8 people across generations, or
+  neighbours around a TV outside a sari-sari store or at the barangay
+  court [LOW — not verified]. Intake venue: home indoor (the sala), home
+  outdoor (carport, front of the house), other (barangay-court shelter,
+  stage the folding table at the edge only).
+- The spread: fried chicken on a plain platter, Filipino spaghetti, and
+  pancit in a bilao, all on one folding or sala table (see catalog:
+  Filipino fried chicken with rice and gravy; Filipino-style
+  spaghetti; Pancit); for a Gilas night, **lechon kawali** with rice
+  and a saucer of sawsawan (see catalog: Lechon kawali and crispy
+  pata) — staged as a family rice meal, not as pulutan. Rice in a pot
+  or on each plate (hard rule 1). Zone 7 or a Muslim brief: chicken,
+  beef or fish only.
+- Surface and environment: a glass-topped or wooden sala table, or a
+  **folding table** with a printed plastic cloth; monobloc chairs; the
+  TV on a wooden cabinet as a soft orange-and-wood-floor glow (a court
+  reads as warm colour, nothing legible); a stand fan; the barangay
+  court's roof and a hoop deeply out of focus for the outdoor form.
+- Snapshot staging: **1 setting** — a plate with rice, a fried drumstick
+  and a spoon of pancit, the pancit bilao and the spaghetti tray partly
+  cropped, the hero (from the brief) beside the plate, the TV glow
+  behind. **2 settings** — two plates side by side on the sofa side of
+  the sala table, fried chicken and pancit between them. **Small group
+  (3–4)** — the folding table running out of frame with more trays,
+  a midground PET when the brief allows one. Crowd cues: the backs of
+  blurred heads on a sofa toward the glow, extra monobloc chairs, a
+  stack of paper plates at the edge.
+- Never stage: beer (San Miguel, Red Horse "mucho" bottles), gin, rum
+  or any TCCC RTD can; sisig or chicharon on a sizzling plate at night;
+  PBA, NBA or FIBA logos, team names, jersey sponsors or a legible
+  score bug; a full flag on Gilas nights (a cropped red-blue-yellow
+  pattern at most); ending-number betting (a gambling-adjacent practice
+  around games [LOW — not verified]); chain-branded chicken buckets.
+- Confidence and sources: HIGH for audience scale (Philstar/Cignal,
+  May 2026); MEDIUM for fandom share (asia-basket); LOW — not verified
+  for times, venues and the spread; EDITORIAL composition.
+
+#### Watch party: NBA Finals (weekday morning in Manila; stage as midday)
+- When: June. US evening games land on **Philippine mornings, about
+  08:00–11:00**, so the NBA Finals are a real weekday-morning occasion
+  [LOW — not verified; time-zone arithmetic]. The Philippines ranks
+  2nd in Asia-Pacific for NBA League Pass subscriptions [MEDIUM —
+  asia-basket]. **Breakfast is out of scope** (standing ruling; morning
+  module off by default), so stage it as a **midday** scene: the game
+  running late into the morning and the table turning into lunch or
+  merienda, bright daylight. If a brief explicitly enables the morning
+  module, the authentic version is pandesal and 3-in-1 coffee (coffee
+  is an intruder; keep it out of frame).
+- Gathering: family members or 2–5 friends at home, people taking the
+  morning off or watching at the office pantry [LOW — not verified;
+  EDITORIAL]. Intake venue: home indoor.
+- The spread (midday version): pancit, lumpia shanghai and rice, or a
+  carinderia takeaway of two ulam decanted onto plates (see catalog:
+  Pancit; Lumpia; Carinderia / turo-turo rice plate).
+- Surface and environment: the sala table in daylight, jalousie
+  windows, a stand fan, the TV a soft glow; plates and rice pot pushed
+  toward the screen end of the table.
+- Snapshot staging: **1 setting** — a rice plate with a spoon of pancit
+  and two lumpia, the bilao cropped, the hero beside it. **2 settings**
+  — two plates facing the screen, a lumpia platter between them.
+  **Small group** — the table running out of frame. Crowd cues: a
+  blurred figure on the sofa arm, extra chairs turned toward the TV.
+- Never stage: NBA or team logos, jerseys or player faces on screen;
+  any legible score; alcohol; betting.
+- Confidence and sources: MEDIUM for League Pass rank (asia-basket);
+  LOW for timing and food; the midday staging is a scope decision per
+  the standing ruling, not a claim about how Filipinos watch.
+
+#### Watch party: big boxing fight, Sunday midday
+- When: US Saturday-night fights land on **Sunday midday** in Manila
+  [LOW — not verified]. Intake time of day: **midday**. The Pacquiao era
+  was the peak: the PNP reported zero crime in Metro Manila during the
+  12 rounds of Pacquiao–Mayweather (2015) [HIGH — Inquirer], and EDSA
+  traffic emptied during bouts [MEDIUM — Bloody Elbow]. With Pacquiao's
+  active career winding down, this is a nostalgic or peak-moment format;
+  current big fights still draw home viewing [EDITORIAL].
+- Gathering: family and neighbours at home, or a crowd in a town plaza,
+  gym, church hall or barangay hall with a big screen [LOW — not
+  verified]. Intake venue: home indoor, home outdoor (carport), other
+  (barangay hall: the operator's party at one folding table, the screen
+  a far glow).
+- The spread: a merienda-to-lunch spread: pancit, turon and banana cue,
+  fried chicken, rice (see catalog: Pancit; Turon and banana cue;
+  Filipino fried chicken with rice and gravy) [LOW — not verified].
+- Surface and environment: a folding table with a plastic cloth under a
+  carport tarpaulin, monobloc chairs, a stand fan, midday light; at a
+  hall, rows of monobloc chairs and a projector screen as a soft
+  rectangle of light.
+- Snapshot staging: **1 setting** — a plate with banana cue and a slice
+  of turon beside a spoon of pancit, the bilao cropped. **2 settings** —
+  two plates with pancit, turon and fried chicken between them.
+  **Small group** — the table running out of frame toward blurred rows
+  of chairs. Crowd cues: rows of chairs, backs of blurred heads (within
+  the background-people limit), a tarpaulin edge (no text).
+- Never stage: blood, fighters' faces, belts or promoter logos;
+  legible tarpaulins; betting on the fight; alcohol; a church interior
+  (a church-hall screening stages only the folding table, never the
+  sanctuary or religious images, hard rule 5).
+- Confidence and sources: HIGH for the zero-crime report (Inquirer);
+  MEDIUM for traffic (Bloody Elbow); LOW — not verified for venue,
+  timing and food.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Basis:
+videoke is described as part of "every gathering", with home machines
+near-universal [MEDIUM — Fun in the Philippines, DitoSaPilipinas];
+titas' afternoon mahjong is a standing habit [LOW — not verified for the
+Philippines specifically]; the Mobile Legends M7 world championship
+(January 2026) had an official watch party at the SM Mall of Asia Music
+Hall in Manila [MEDIUM — Moonton, Philstar]. Bingo and parlour games
+at Christmas parties and fiestas are common [LOW — not verified]; stage
+them, if briefed, inside the Noche Buena or fiesta entries in
+CELEBRATIONS, with no prizes or cash shown. Tong-its and pusoy card
+games are real but gambling-coded [LOW — not verified]; no entry.
+
+#### Game night: videoke at a birthday or fiesta (home)
+- When: birthdays, fiestas, Christmas and New Year, and a "slow Sunday
+  night"; often from **golden-hour** into evening and late night
+  [MEDIUM — Fun in the Philippines, DitoSaPilipinas]. Intake time of
+  day: golden-hour or evening.
+- Gathering: 10–40 family and neighbours [MEDIUM]; the frame holds the
+  operator's party only. Intake venue: home outdoor (porch, garage or
+  carport, the street under a tarp).
+- The spread: party trays of pancit, lumpia, Filipino spaghetti and pork
+  barbecue skewers, with lechon at bigger parties (see catalog: Pancit;
+  Lumpia; Filipino-style spaghetti; Pork barbecue skewers; Lechon)
+  [LOW — not verified; consistent with the Filipino-American party entry in
+  `usa/us-west-coast.md`].
+  Pulutan (sisig, chicharon) only appears with drinking: leave it out.
+- Surface and environment: a **folding table with a plastic cloth**
+  under a tarpaulin, monobloc chairs, banderitas overhead, the videoke
+  cabinet speaker and screen blurred in the background (the score
+  display a soft glow), a mic resting on the table, never held; string
+  lights after dark.
+- Snapshot staging: **1 setting** — a paper or plain plate with pancit,
+  a BBQ stick and two lumpia, the foil trays partly cropped, the hero
+  beside it, the speaker a blur. **2 settings** — two plates at the
+  table's corner, trays between them, a mic lying at the edge. **Small
+  group** — the table running out of frame with more trays. Crowd cues:
+  extra monobloc chairs, blurred guests near the videoke screen, a
+  second table soft behind.
+- Never stage: beer towers, bottle buckets, Red Horse "mucho" bottles,
+  a gin bottle passed in tagay; legible lyrics, song titles or machine
+  brands; a face singing into a mic near the camera; identifiable
+  children (birthday child never shown, §5.7).
+- Confidence and sources: MEDIUM (Fun in the Philippines,
+  DitoSaPilipinas 2025); food LOW; EDITORIAL composition.
+
+#### Game night: titas' mahjong merienda
+- When: weekend afternoons [LOW — not verified]. Intake time of day:
+  **golden-hour**.
+- Gathering: 4 at the table (aunts, family friends), relatives
+  drifting past. Intake venue: home indoor.
+- The spread: merienda on a **side table**, because the mahjong table
+  is full: pancit, puto and kakanin, turon (see catalog: Pancit; Turon
+  and banana cue; Leche flan for the kakanin-tray look) [LOW — not
+  verified]. Kakanin platter has no own entry (see CANDIDATE QUEUE).
+- Surface and environment: a square table with a green cloth, tiles
+  generic and unreadable; a side table with the merienda and the hero;
+  afternoon light through jalousie windows, a stand fan.
+- Snapshot staging: **1 setting** — the side table: a small plate of
+  pancit and a slice of puto, the hero, the mahjong table's edge soft
+  behind. **2 settings** — two small plates on the side table, a
+  kakanin tray between them. **Small group** — the corner of the
+  mahjong table with tiles blurred, the side table cropped. Crowd cues:
+  a fourth chair edge, a blurred figure passing, extra plates.
+- Never stage: money, chips or counting winnings (mahjong for money is
+  common); tile faces readable as a scoring hand; religious objects on
+  the wall behind (hard rule 5).
+- Confidence and sources: LOW — not verified for the Philippines (the
+  notes' mahjong sources cover China, Japan and the US); EDITORIAL
+  composition.
+
+#### Game night: Mobile Legends watch party or barkada mabar
+- When: weekend evenings and late night; the M-series world finals are
+  in January [MEDIUM — Moonton, Philstar]. Intake time of day:
+  **evening** (late night for long series: screen and phone glow, a
+  lamp).
+- Gathering: 2–6 friends (the barkada) playing together on phones
+  (mabar) at home or a café, or hundreds at a mall watch party such as
+  the M7 one at SM MOA Music Hall [MEDIUM — Moonton, Philstar]. Intake
+  venue: home indoor, restaurant (café), other (mall event hall, blur the
+  crowd).
+- The spread: fried chicken and spaghetti meals on plain plates, instant
+  noodles in bowls, milk tea (an intruder; the hero takes the drink slot)
+  (see catalog: Filipino fried chicken with rice and gravy;
+  Filipino-style spaghetti) [LOW — not verified].
+- Surface and environment: a coffee table or the floor around a low
+  table, phones lying face-down or glowing blurred, an RGB light strip,
+  the TV as abstract coloured light.
+- Snapshot staging: **1 setting** — a plate of fried chicken and rice
+  beside a face-down phone and the hero. **2 settings** — two plates on
+  a coffee table, two phones glowing blurred. **Small group** — the
+  table running out of frame, more plates. Crowd cues (watch party):
+  a dark hall with a big screen far behind, blurred backs of heads.
+- Never stage: game titles, logos, HUDs, hero characters or team names
+  on any screen; betting on matches; branded energy drinks; chain
+  packaging.
+- Confidence and sources: MEDIUM for the watch party and M7 (Moonton,
+  Philstar 2026); LOW for home mabar food; EDITORIAL composition.
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
@@ -2764,6 +3657,40 @@ Morning Module exception logged):**
   entry, Zamboanga curacha and knickerbocker, and lechon manok are
   missing.
 
+- **Celebrations pass (2026-10-01) open items**: headcounts for home
+  birthdays, christenings, Noche Buena, Media Noche and Eid feasts are
+  estimates (not verified); debut and wedding figures (100–200+) and the
+  standard buffet composition rest on caterer/vendor sites (tier 3, a
+  commercial interest); the "first and seventh birthdays are the big
+  ones" claim and take-home balot were not verified; the Eid'l Fitr
+  spread in zone 7 is carried from the register, not re-checked.
+  **Rule note**: evening receptions (debut, wedding, Noche Buena, Media
+  Noche) are staged at night; hard rule 4 is respected by keeping every
+  pulutan item and drinking cue out, not by moving them to daytime.
+
+- **Game-night pass (2026-10-01) open items**: PBA evening tip-off
+  times, NBA morning timing (arithmetic only), viewing venues (sari-sari
+  store TV, barangay court, plaza and church-hall fight screenings),
+  Sunday-midday fight timing, ending-number betting, the viewing and
+  videoke spreads, titas' mahjong as a Philippine habit (the notes'
+  mahjong sources cover China, Japan and the US), Christmas bingo and
+  parlour games, tong-its/pusoy, and volleyball and football as viewing
+  occasions are all not verified. The asia-basket fandom figures cite an
+  unnamed survey.
+
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items**: background
+  details not verified this pass: the platera display cabinet, napkin
+  holder and plastic food-cover dome on home tables; the zone 7 home,
+  carport and wedding-hall interiors (calligraphy, okir accents,
+  colours); how common banderitas and a videoke speaker are at carport
+  birthdays (as opposed to fiestas); carinderia wall colours and the
+  free bowl of sabaw; Cebu street stalls (tuslob-buwa, ngohiong); and
+  events-hall drape colours. The Last Supper as a dining-room fixture
+  rests on two home-décor sources (homify.ph, Subli; tier 3–4). The
+  sari-sari store, boodle fight, mall food court and seaside grill have
+  no profile yet (later wave).
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with seven zones (recommended)
@@ -2792,6 +3719,18 @@ Morning Module exception logged):**
    (Thai curry failure), halo-halo (bingsu failure) and the boodle fight
    (plates/cutlery intrusion).
 7. Independent §8 audit.
+
+8. **Celebrations pass additions (2026-10-01)**: catalog entries for
+   **caldereta / afritada** (beef tomato stew, fiesta and buffet staple),
+   **hotdog-and-marshmallow skewers** (children's party), **biko** (Media
+   Noche and christenings), **embutido**, and the catered **buffet line**
+   (chafing dishes, rice trays, lechon at the head) as a composition entry.
+
+9. **Game-night pass additions (2026-10-01)**: a **kakanin platter**
+   entry (already listed in item 5; now also needed for the mahjong
+   merienda), and a compact **merienda viewing spread** composition
+   (bilao of pancit, lumpia, fried chicken and spaghetti on a folding
+   table) as the non-drinking alternative to pulutan.
 
 ## RESEARCH LOG
 
@@ -2847,3 +3786,32 @@ Morning Module exception logged):**
   surfaced, and are marked. eBay collector listings, Threads posts,
   Scribd and Grokipedia results were used only as weak corroboration
   (LOW) or ignored.
+- **2026-10-01 celebrations pass (schema §5.7)**: 5 WebSearch queries
+  (debut catering; binyag handaan food; children's birthday party food;
+  wedding reception buffet; town fiesta open house). Added CELEBRATIONS &
+  LARGE GATHERINGS with 8 entries (town fiesta open house, Noche Buena,
+  Media Noche, children's birthday, debut, christening, wedding
+  reception, Eid'l Fitr in zone 7). Key sources: Delish.ph; HuffPost;
+  Wikipedia "Filipino spaghetti", "Pancit"; USC Folklore Archive; SunStar
+  "The tradition of fiestas"; factsanddetails; Event Nest and Executive
+  Gourmet (tier 3, caterers); masstimesph, Barong World, Jojie's (tier 4).
+  No subagents.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT with 3 watch-party entries (PBA and Gilas
+  basketball evening, NBA Finals staged as midday, big boxing fight on
+  Sunday midday) and 3 social game-night entries (home videoke, titas'
+  mahjong merienda, Mobile Legends watch party / mabar). Key sources
+  carried over: Philstar/Cignal (PBA ratings); Inquirer (PNP zero
+  crime); Bloody Elbow; asia-basket; Fun in the Philippines;
+  DitoSaPilipinas; Moonton; Philstar (M7). No subagents.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 6
+  searches.** Added VENUE PROFILES (concrete-house dining area with
+  condo, townhouse, provincial and zone 7 variants; carport or garage
+  party set-up, which doubles as the signature handaan venue;
+  carinderia / turo-turo; fishball and ihaw-ihaw cart corner; events
+  place / function hall). Key sources: PSA 2020 CPH (carried over);
+  homify.ph; Subli blog; Real Living; Wikipedia "Carinderia";
+  walanglasa.ph; Ang Sarap; Jojie's, Party Hub, Rentolab, Tent King,
+  Venuerific, Event Nest, Quidos, Cebu Food Trays, Booky (tier 3,
+  vendors and listings). No subagents.

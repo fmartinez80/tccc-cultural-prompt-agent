@@ -210,6 +210,311 @@ fried piyaju, the matte crumble of a bhorta, and real-world size.
 | **Iftar table** | Many small piles on plates and a big platter: dates, piyaju, beguni, alur chop, chola, muri, jilapi, haleem, fruit; laid out before sunset, untouched. See FESTIVALS. |
 | **Village courtyard (uthan)** | A packed-earth courtyard ringed by tin-roofed houses, banana and betel palms, a pond beyond; a low wooden stool, a pati (woven mat), food in aluminium or clay pots. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (background-first). The register table
+above stays as the index. Heading levels follow CELEBRATIONS & LARGE
+GATHERINGS (`##` section, `###` entries). The **hard staging rules** at
+the top of the file apply to every profile, above all: no cha, borhani,
+lassi, Rooh Afza, daab, sharbat or water jug beside the hero (rule 5); no
+legible Bangla script (rule 6). **The Ramadan/iftar staging rule stays
+open**; no profile is set at iftar.
+
+Wave 1: the Dhaka flat's drawing-dining room, the Dhaka rooftop
+(chhad), the kacchi house, the fuchka-chotpoti stand, and the
+community-centre wedding hall. The neighbourhood "hotel", the tong, the
+village courtyard (uthan) and the Chinese-Bangla restaurant are left for
+a later wave.
+
+### Venue: Dhaka flat drawing-dining room (drawing-dining; "dining")
+- **Use for:** home indoor; casual lunch for 1–3, the late family dinner
+  for 3–5, Friday lunch, Eid lunch, dawats, cricket at home, carrom and
+  ludo. The default home interior for a Dhaka brief (the file's fallback
+  zone); a village homestead is the statistical majority (see variants).
+  [MEDIUM — Dhaka renting and flat living per ENVIRONMENT; living and
+  dining combined in about 90% of small Dhaka flat layouts (Oakwood
+  Craft BD, a design firm, tier 3)]
+- **Soft background (the core):**
+  - *Back wall:* painted plaster in white, off-white, pale blue, mint or
+    cream, sometimes scuffed at chair height; a **showcase cabinet**
+    (glass-fronted wooden display unit) with crockery, glass sets and
+    souvenirs as a tall dark box with glints; a wall clock; curtains with
+    a **pelmet** over the window. [MEDIUM — showcase units, curtain and
+    pelmet, sofa set and centre table listed as traditional
+    drawing-room elements (Interior Ace BD); showcase per ENVIRONMENT]
+  - *Middle distance:* the **dining table pushed against a wall** with
+    plastic or wooden chairs; a **refrigerator** standing in the dining
+    area; a **wall-mounted washbasin** with a small mirror near the table
+    for hand-washing; through the open plan, a **sofa set** and centre
+    table with a TV on a wooden cabinet. [MEDIUM — ENVIRONMENT interior
+    markers, not independently re-checked; uncontested]
+  - *Light:* daylight through **window grilles** (every window), often
+    patterned iron, casting a grid; the **ceiling fan** always turning;
+    dinner (~21:00–22:00): warm white LED or a cool **tube light**
+    (both real; warm reads better, per the dinner scenario). Monsoon:
+    grey, soft, wet light. [MEDIUM — ENVIRONMENT]
+  - *Palette:* white or speckled floor tiles, pale walls, dark wood
+    furniture, a printed or plastic table cover in bright pattern.
+  - *Signature shapes (3–5):* the window grille's pattern against
+    light; the ceiling fan; the showcase cabinet; a fridge beside the
+    table; the washbasin with a mirror.
+  - *Density and wear:* crowded and lived-in: furniture close together,
+    a fitted plastic table cover, a fruit bowl, a calendar (blank blur).
+  - *People cues:* family members in salwar kameez, saree, panjabi or
+    lungi at home, soft, within the limit.
+- **Shell:** a flat in a 6–10-storey walk-up or lift block; **white or
+  speckled ceramic floor tiles** (or mosaic in older buildings); low
+  plastered ceilings; grilled windows and a small grilled balcony with
+  potted plants. [MEDIUM — ENVIRONMENT; Dhaka zone register]
+- **The table as set here:** a fitted **plastic or printed table cover**;
+  each person with a large **steel, melamine or white ceramic plate**; a
+  big bowl of white rice with a serving spoon; small bowls of dal, bhorta
+  and a vegetable; a fish or meat curry in the centre; a green chilli and
+  lemon wedge on the plate edge; all dishes at once. (The steel water jug
+  and glasses are real and always excluded.) [MEDIUM — Home rice meal
+  register]
+- **Subregional variants and the national default:** national default
+  for a Dhaka or city brief: a middle-class flat's drawing-dining room
+  as above. **No-city brief:** a village homestead is defensible (~68%
+  rural, 58.8% kancha houses): a tin-walled room or the uthan on a pati
+  mat (village register; a later-wave profile). Old Dhaka: an older
+  building with higher ceilings, wooden shutters and an iron balcony.
+  Sylhet: Londoni villas with larger, newer rooms. Hindu household
+  (Durga Puja, Boishakh): no beef on the table; a puja shelf is never
+  near the product. [EDITORIAL]
+- **Hallucination traps:** generic "India" (diyas, rangoli, a thali on
+  a banana leaf, naan, butter chicken, copper karahis); a Kolkata
+  colonial interior with red-oxide floors as the default; a Gulf
+  marble palace; disaster or slum framing; prayer mats or Qur'an stands
+  near the food.
+- **Never stage:** cha, borhani, Rooh Afza, sharbat, the water jug or
+  glasses beside the hero; legible Bangla text on calendars, packaging
+  or screens; alcohol; pork; brand marks; a full flag.
+- **Prompt-ready line:** "A Dhaka flat's drawing-dining room in soft
+  focus: pale painted walls and white floor tiles, a ceiling fan turning,
+  a glass-fronted showcase cabinet and a fridge beside the table, and
+  daylight through a patterned iron window grille."
+- **Confidence and sources:** MEDIUM (ENVIRONMENT markers; Interior Ace
+  BD, Oakwood Craft BD design firms); colours editorial. 1 search this
+  pass.
+
+### Venue: Dhaka rooftop (chhad; chhad-er bagan)
+- **Use for:** home outdoor; rooftop BBQ parties, winter evenings, Eid and
+  birthday gatherings, the World Cup football watch party on the roof;
+  1, 2 or a small group of settings inside a gathering of 6–30. The real
+  outdoor space of a Dhaka flat. [MEDIUM — rooftop BBQ parties and
+  rooftop gardens in Dhaka (The Daily Star "Planning a rooftop BBQ?" and
+  rooftop-gardening features)]
+- **Soft background (the core):**
+  - *Back wall:* the roof **parapet** (plastered, white or grey with damp
+    stains), **potted plants and rooftop-garden tubs** (bougainvillea,
+    chilli, lemon, papaya, drum planters), the **water tank** and the
+    stair-head room; **laundry lines** (taken down for guests or soft at
+    the edge). [MEDIUM — rooftops used for water tanks, drying clothes and
+    gardens (The Daily Star; rooftop garden studies)]
+  - *Middle distance:* neighbouring blocks at different heights, their
+    own tanks, potted plants and **tangled cables**; a charcoal grill with
+    chicken and kebab; plastic chairs; a projector or TV on a table for a
+    match night (soft glow). [LOW-MEDIUM — ENVIRONMENT exterior markers]
+  - *Light:* evening is the signature: **fairy lights** strung along the
+    parapet, a bulb by the stair door, the grill's glow, and the city's
+    lit windows and the haze of Dhaka's sky beyond; winter afternoon:
+    soft, hazy, smoggy gold. [EDITORIAL]
+  - *Palette:* dusk blue and grey haze, warm bulb gold, plant green,
+    terracotta pots, white and grey concrete.
+  - *Signature shapes (3–5):* potted plants along the parapet; the water
+    tank; neighbouring blocks with lit windows; a string of fairy lights;
+    the grill's smoke.
+  - *Density and wear:* weathered concrete, plants crowded, practical.
+  - *People cues:* relatives and neighbours as soft shapes, within the
+    limit; no identifiable children.
+- **Shell:** the flat concrete roof of a 6–10-storey block, shared by the
+  building's residents. [MEDIUM]
+- **The table as set here:** a folding or plastic table with a cloth, or a
+  mat; BBQ chicken, kebab, naan or paratha, salad (cucumber, onion,
+  tomato); melamine or disposable plates; plastic chairs. [LOW-MEDIUM]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka residential-block roof at dusk with
+  plants, fairy lights and a grill. Chattogram: hills and the port as
+  haze beyond. Village equivalent: the **uthan** courtyard (register;
+  later wave). Monsoon (June–Sept): wet surfaces, heavy sky; prefer
+  winter.
+- **Hallucination traps:** a luxury hotel rooftop bar with cocktails; a
+  New York rooftop with skyline icons; Indian Diwali diyas; a slum
+  skyline; kite festival scenes as default (Shakrain is an Old Dhaka
+  January event).
+- **Never stage:** cha or borhani beside the hero; legible signage on
+  neighbouring buildings; alcohol; minarets near the product (distant
+  blur at most); identifiable children.
+- **Prompt-ready line:** "A Dhaka apartment rooftop at dusk in soft
+  focus: potted plants along a weathered parapet, a water tank and a
+  string of warm fairy lights, smoke from a charcoal grill, and
+  neighbouring blocks with lit windows in the hazy sky beyond."
+- **Confidence and sources:** MEDIUM (The Daily Star; rooftop garden
+  studies); colours and set dressing editorial. 1 search this pass.
+
+### Venue: Kacchi house (kacchi biryani restaurant; kacchi ghor)
+- **Use for:** restaurant, indoor; lunch and dinner, 1 person (Away
+  from home 1) or 2–3; the default casual sit-down eat-out for a Dhaka
+  brief. [MEDIUM — register; TBS and Bangladesh Post best-kacchi
+  features name the format; interiors not described]
+- **Soft background (the core):**
+  - *Back wall and counter:* big **aluminium or copper deg pots** with
+    sealed lids on a counter or near the door, a cook lifting a lid or
+    serving with a wide flat ladle; the steaming rice and meat as pale
+    gold and brown; behind, **tiled walls** (white or patterned). [MEDIUM
+    — register; specific decor LOW — not described in sources found]
+  - *Middle distance:* rows of **steel or plastic chairs** and tables,
+    other diners eating with the right hand, **ceiling and wall fans**, a
+    washbasin on the wall, a cash counter; small and congested in Old
+    Dhaka originals, larger and air-conditioned in newer chains (keep the
+    chain look generic). [MEDIUM — Old Dhaka shops described as small and
+    congested (TBS); fans and tiles per register]
+  - *Light:* bright tube or LED light, the street's daylight at the
+    door; steam rising from the deg. [EDITORIAL]
+  - *Palette:* aluminium and copper, saffron-gold rice, white tile, steel.
+  - *Signature shapes (3–5):* the round deg with its lid; steam; rows of
+    steel chairs; a wall fan; the washbasin.
+  - *Density and wear:* busy, well-used, clean enough; older places
+    crowded and worn.
+  - *People cues:* the cook and diners as soft shapes, within the limit.
+- **Shell:** a street-front room in a busy lane or market, sometimes with
+  an upstairs dining room. [LOW-MEDIUM]
+- **The table as set here:** a steel-topped or laminate table; a plate
+  of kacchi with a mutton piece and a potato on top, a small salad of
+  cucumber, onion and green chilli; a steel plate or white ceramic;
+  sometimes a jali kebab or chicken roast on a side plate. **No borhani**
+  (it is always served; always excluded). [MEDIUM — register]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka kacchi house with degs at the front,
+  tiled walls and steel chairs. Old Dhaka (zone 2, authoritative for
+  biryani): smaller, older, crowded rooms; tehari and Haji-style
+  shops. Chattogram: mezbani beef restaurants instead. Sylhet: akhni.
+- **Hallucination traps:** a Hyderabadi or Lucknowi Indian biryani
+  restaurant look; a UK "Indian" curry house with tablecloths and wine;
+  orientalist brass lanterns; a dum seal of dough shown as a Moroccan
+  tagine.
+- **Never stage:** borhani, cha or water jugs beside the hero; legible
+  Bangla signage or menus; alcohol; brand marks.
+- **Prompt-ready line:** "A busy Dhaka kacchi house in soft focus: big
+  copper and aluminium deg pots steaming by the door, a cook lifting a
+  lid, white tiled walls, rows of steel chairs and a wall fan under bright
+  light."
+- **Confidence and sources:** MEDIUM for the format (register; TBS,
+  Bangladesh Post); interior decor LOW (no source described it). 1 search
+  this pass.
+
+### Venue: Fuchka-chotpoti stand (fuchka stall; fuchkawala)
+- **Use for:** on-the-go or "other", outdoor; late afternoon and evening
+  snacks, 1 person or friends (Away from home 2–3); the default street
+  venue (the tong is chai-led and excluded beside the hero). [HIGH for
+  fuchka as Dhaka's king of street food — TBS, Visit Bangladesh; stall
+  clusters by Dhanmondi Lake 15:00–22:00 (ratekom guide, tier 3)]
+- **Soft background (the core):**
+  - *Back wall:* the evening street or lakeside: trees, a railing, lit
+    stalls in a row, a few **cycle-rickshaws** with painted panels as
+    colour (text blurred), green **CNG auto-rickshaws** as shapes, street
+    lamps. [MEDIUM — Dhaka zone register; Dhanmondi lakeside stalls]
+  - *Middle distance:* the **cart or small stall**: a **glass box
+    stacked with puffed round fuchka shells**, a pot of warm chotpoti
+    (yellow peas), bowls of tamarind water, a bowl of grated egg, the
+    fuchkawala cracking shells; **plastic stools** and a low table.
+    [HIGH — register; TBS]
+  - *Light:* golden late afternoon or evening: a **bare bulb or LED tube**
+    on the cart, other stalls' lights as bokeh, rickshaw reflectors.
+    [EDITORIAL]
+  - *Palette:* the pale gold of shells, yellow peas, tamarind brown, the
+    blues and reds of plastic stools and plates, painted rickshaw colour.
+  - *Signature shapes (3–5):* the glass box of round shells; plastic
+    stools; a hanging bulb; rickshaws passing; a row of lit stalls.
+  - *Density and wear:* busy, cheerful, worn carts, clean plates.
+  - *People cues:* the vendor and a few customers, soft, within the
+    limit; students and couples are typical.
+- **Shell:** a pavement, lakeside walk or campus edge; the cart on
+  wheels or a fixed stall with a small awning.
+- **The table as set here:** a **melamine plate** of cracked fuchka
+  filled with pea-and-potato mash and grated egg, with a small bowl of
+  tamarind water; or a bowl of chotpoti; plastic stools at the frame
+  edge. [HIGH for the food form — street-food sources]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka fuchka cart by a lake or campus in the
+  evening. Bailey Road and Dhanmondi: fixed stalls and small shops with
+  seating. Chattogram and Sylhet: the same form. Winter: pitha stalls
+  beside it (bhapa pitha steam).
+- **Hallucination traps:** Indian pani puri (Mumbai) or Kolkata puchka
+  served one at a time with no egg; a Western food truck; newspaper
+  wrapping (legible); slum or flood framing; the Cox's Bazar beach as a
+  default.
+- **Never stage:** cha or tamarind water poured into a glass beside the
+  hero (the small bowl is part of the dish, kept beside the plate);
+  legible rickshaw art, cart signs or Bangla script; newspaper; alcohol.
+- **Prompt-ready line:** "A Dhaka fuchka stand at dusk in soft focus: a
+  glass box stacked with round puffed shells and a pot of yellow
+  chotpoti on a cart under a hanging bulb, plastic stools, and painted
+  cycle-rickshaws and lit stalls blurred beyond."
+- **Confidence and sources:** HIGH for the form (register; TBS, Visit
+  Bangladesh); street backdrop MEDIUM; light editorial. 1 search this
+  pass.
+
+### Venue: Community-centre wedding hall (community centre; convention hall)
+- **Use for:** "other"; wedding and walima/bou-bhat dinners, big
+  birthdays; 1, 2 or a small group of settings along a long table inside
+  a crowd of 300 to over 1,000. The market's signature event venue.
+  [MEDIUM — community centres hosting 500–1,500 guests with in-house
+  catering and stage decoration (Humayra, Prianka Community Center
+  listings); the shift to community centres (Global Voices, via this
+  file's gatherings section)]
+- **Soft background (the core):**
+  - *Overhead and back wall:* a large hall with a high ceiling,
+    **chandeliers** or rows of lights, fabric draping or flower garlands,
+    **fairy lights**; the **stage** far behind as a bright block of
+    flowers and backdrop (the couple never identifiable). [MEDIUM —
+    venue listings: high ceilings, lighting systems, customizable
+    stages]
+  - *Middle distance:* **long rows of tables with white cloths** (or
+    round tables), covered chairs; **waiters with catering buckets and
+    trays**, a **deg** soft at the edge; guests seated in **batches**
+    as tables fill and clear. [MEDIUM — gatherings section (Global
+    Voices, TBS); batch seating LOW-MEDIUM]
+  - *Light:* warm, bright interior light (evening events); colour
+    uplighting on the stage. [EDITORIAL]
+  - *Palette:* white cloths, red and gold wedding fabrics, marigold and
+    rose; guests in jamdani, silk sarees and panjabis as rich blur;
+    **yellow and orange** for gaye holud (daytime). [MEDIUM — wedding
+    entry]
+  - *Signature shapes (3–5):* the long white table receding; a waiter
+    with a bucket; chandeliers; the stage block; flower strings.
+  - *Density and wear:* crowded, festive, fast-moving.
+  - *People cues:* guests and waiters as soft shapes, within the limit;
+    no identifiable children.
+- **Shell:** a purpose-built community centre or convention hall, tiled
+  or carpeted, air-conditioned in newer venues. [MEDIUM — Prianka listing]
+- **The table as set here:** a long white cloth; a white plate, a bowl
+  and often a spoon and fork; kacchi or morog polao with a roast chicken
+  leg, jali kebab, salad; jorda or firni bowl. **No borhani.** [HIGH for
+  the menu — wedding entry]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka community centre with long white tables
+  and a flower-lit stage. Village or small-town wedding: a **shamiana**
+  (striped cloth tent) in a courtyard or lane. Chattogram: mezban-style
+  serving from buckets. Hindu wedding: different iconography; never near
+  the product.
+- **Hallucination traps:** an Indian Hindu wedding mandap, sacred fire
+  or sindoor in a Muslim wedding; a Western white wedding with champagne;
+  a Pakistani mehndi look; a luxury hotel ballroom as the default.
+- **Never stage:** borhani (rule 5), cha or water jugs beside the hero;
+  turmeric rites on people; legible names on banners or stage; alcohol;
+  identifiable children.
+- **Prompt-ready line:** "A Dhaka community-centre wedding hall in soft
+  focus: long tables with white cloths receding under chandeliers and
+  fairy lights, a waiter carrying a catering bucket, and a flower-banked
+  stage glowing far behind."
+- **Confidence and sources:** MEDIUM (community-centre listings; this
+  file's gatherings and wedding sources); colours editorial. 1 search
+  this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -846,6 +1151,428 @@ offer both to the brief-writer (§4.6). [EDITORIAL]
 - **Weddings** (biye, gaye holud): kacchi or morog polao with borhani,
   roast, rezala, firni or jorda in big catered spreads [MEDIUM — not
   independently re-checked].
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). The frame shows
+only the operator's party (1, 2 or a small group of identical place
+settings) at one stretch of a bigger table; the crowd is implied. **The
+hard staging rules at the top of this file apply to every entry**, and
+the **Ramadan/iftar staging rule stays exactly as open as it was**
+(editorial call flagged for Fernando, hard rule 4, FESTIVALS, GAP LOG).
+Nothing here resolves it.
+
+### How large gatherings work here
+
+- **Who and how many.** Celebrations are extended-family and community
+  affairs. Eid lunches and family dawats are commonly 10–30 people
+  [LOW-MEDIUM — estimate]; urban weddings run from about 300 to over
+  1,000 guests [LOW-MEDIUM — one tier-3 wedding source; plausible against
+  the hall-catering norm]; a Chattogram **mezban** can feed thousands
+  (3,000–4,000 at a rich household's mezban, five cows for such a crowd)
+  [HIGH — The Daily Star, Wikipedia "Mezban", Banglapedia, TBS].
+- **Where (intake venues).** Home indoor (the Dhaka flat's drawing-dining
+  room, extended) for Eid and dawats; home outdoor (the village uthan,
+  a rooftop, or a **shamiana** (cloth tent) pitched in a courtyard or lane)
+  for village weddings, mezbans and big family events; "other" for most
+  urban weddings, now held in **community centres and convention halls**
+  with professional caterers [MEDIUM — Global Voices on the shift to
+  community centres; The Daily Star on mezban settings].
+- **Table form.** At home, every dish on the table at once, shared from
+  the centre (GENERAL NORMS); for big home events, long tables under a
+  shamiana or a floor spread in villages. At community-centre weddings,
+  long rows of tables with white cloths, or round tables; guests sit in
+  shifts ("batches") as tables fill and clear. [LOW-MEDIUM — batch
+  seating is common knowledge, not independently re-checked]
+- **Who serves.** At home, the women of the family cook; guests are
+  served first, then elders. At weddings and mezbans, **caterers or
+  bawarchis (cooks) cook in degs** and waiters serve **plated portions
+  or ladle from buckets and trays at the table**. [MEDIUM — Global Voices,
+  TBS on Biye Bari; mezban serving form from The Daily Star]
+- **Plates and cutlery.** Wedding tables carry a white plate, a bowl and
+  often a spoon and fork; many guests still eat with the right hand.
+  Mezbans and village events may use steel or disposable plates.
+  [LOW-MEDIUM]
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  most authentic cues: (1) **a long table running out of frame** with a
+  white cloth, the next guest's plate edge visible; (2) **a deg or
+  catering buckets and a waiter's tray soft at the frame edge**; (3)
+  **festive fabric on blurred figures** (jamdani, Eid panjabis, wedding
+  red or holud yellow) or a shamiana's striped cloth roof. Dhaka's late
+  dinner hour means most wedding scenes are evening, warm interior light.
+- **Never staged**: animal sacrifice or live animals (Eid ul-Adha,
+  aqiqah); prayer, mosques, Qur'an; borhani, Rooh Afza, sharbat, cha or
+  water jugs beside the hero (hard rule 5: borhani is the near-automatic
+  wedding and kacchi drink); legible banners and Bangla script.
+
+### Celebration: Eid ul-Fitr lunch
+- Type: calendar holiday
+- When: ~10 March 2027 (moon). **Shemai and firni in the morning** for
+  visitors (mentioned, not staged as the main meal); the family lunch is
+  the main meal. Intake time: midday
+- Gathering: the family plus visiting relatives and neighbours moving
+  house to house; 10–30 over the day [LOW-MEDIUM — estimate]. Venue:
+  home indoor
+- The spread: **polao with chicken roast** at the heart of the plate,
+  with **shami kabab**, **korma** or **beef rezala**, sometimes beef
+  tehari or kacchi (see catalog: Morog polao; Chicken roast (biyebarir
+  roast); Gorur mangsho bhuna, rezala variant; Tehari; Kacchi biryani);
+  desserts **firni, jorda, payesh, shemai** (see catalog: Bakarkhani,
+  firni and jorda; Shemai). About 6–9 dishes. Shami kabab and korma have
+  no entries: shami kabab is a flat round minced-meat-and-lentil patty
+  about the can's width, browned on both sides; Bangladeshi chicken korma
+  is a pale ivory, ghee-glossed, yoghurt-and-onion gravy with whole
+  spices (both added to the CANDIDATE QUEUE). [HIGH for polao and roast
+  as the Eid core — Asia News Network (The Daily Star) "the iconic duo
+  that anchors Eid", with The Daily Star's Eid menu (polao or tehari,
+  korma or rezala, payesh) and the FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of polao with a roast
+  chicken leg and a shami kabab; the polao dish and the roast platter
+  cropped at the edge. **2 settings** — two identical plates; between them
+  the roast platter and a bowl of rezala. **Small group** — the end of
+  the dining table with polao, roast, rezala, kabab plate and salad, a
+  firni bowl waiting; a showcase cabinet and guests in new clothes soft
+  behind. Cues: more dishes than diners; extra chairs pulled from the
+  drawing room; small dessert bowls stacked.
+- Decor and cues: the best tablecloth, new panjabis and saris, mehndi on
+  hands resting at the table edge (no faces). Avoid mosque imagery.
+- Never stage: borhani or soft-drink-plus-borhani pairs (only the hero);
+  eidi cash; alcohol or pork.
+- Confidence and sources: as tagged.
+
+### Celebration: Eid ul-Adha (Qurbani Eid) meals
+- Type: calendar holiday
+- When: ~17 May 2027 and the days after; beef or mutton dishes from the
+  first day's afternoon. Intake time: midday or evening
+- Gathering: extended family and neighbours (meat is shared out in
+  thirds); 10–30 at the table [LOW-MEDIUM — estimate]. Venue: home
+  indoor; rooftop or courtyard in the evening
+- The spread: **beef** in quantity: **kala bhuna**, **rezala**, **beef
+  bhuna** with porota or polao, **kalijar bhuna** (liver), sometimes
+  nihari (see catalog: Kala bhuna; Gorur mangsho bhuna; Morog polao);
+  rice, dal and salad. About 6–8 dishes. [MEDIUM — FESTIVALS register,
+  not independently re-checked; uncontested]
+- Snapshot staging: **1 setting** — a plate of polao or rice with a
+  serving of near-black kala bhuna and salad; the bhuna bowl cropped.
+  **2 settings** — two plates; between them a kala bhuna bowl, a beef
+  rezala dish and a porota stack. **Small group** — the end of a table
+  with three beef dishes, polao, dal and salad, foil-covered plates
+  stacked at the edge for neighbours. Cues: the foil-covered shares;
+  more meat dishes than diners; a rooftop's string lights at dusk.
+- Decor and cues: as Eid ul-Fitr.
+- Never stage: the sacrifice, animals, street slaughter, blood, raw meat
+  (hard rule 4).
+- Confidence and sources: MEDIUM; staging EDITORIAL.
+
+### Celebration: Pohela Boishakh (Bengali New Year, 14 April)
+- Type: calendar holiday
+- When: 14 April (fixed). Morning songs and processions; the festive
+  meal is staged at **midday**, not as breakfast. Intake time: midday
+- Gathering: family and friends at home, or groups at melas and
+  restaurants; 6–20 [LOW — estimate]. Venue: home indoor, home outdoor
+  (rooftop), or restaurant (Boishakhi menus)
+- The spread: **panta bhat with fried ilish**, green chilli, onion, salt
+  and **several bhorta** (see catalog: Panta-ilish and ilish bhaja;
+  Bhorta platter), or the conservation-friendly variant with bhorta and
+  **fried shutki or eggs** (see catalog: Shutki); mela sweets **jilapi**,
+  murki and batasha (see catalog: Jilapi and shahi jilapi). Served in
+  clay sanki plates and small clay bowls. [HIGH for the dishes —
+  FESTIVALS register (Wikipedia "Pohela Boishakh", "Panta bhat"); the
+  midday staging time is EDITORIAL, chosen to keep the scene out of the
+  breakfast scope]
+- Snapshot staging: **1 setting** — a clay sanki of panta with an ilish
+  piece, chilli, onion and two bhorta mounds on a red-and-white cloth;
+  a clay bowl of more bhorta cropped. **2 settings** — two sankis;
+  between them a plate of fried ilish pieces and a row of bhorta bowls.
+  **Small group** — the end of a table or floor mat with four sankis,
+  bhorta bowls running out of frame, a jilapi plate. Cues: red-and-white
+  clothes on blurred figures; paper-craft masks or a mela stall soft in
+  the background; a long cloth running off frame.
+- Decor and cues: red-and-white saris and panjabis, alpona-style floor
+  patterns (no lettering), marigolds. Offer ilish and no-ilish variants
+  (FESTIVALS register).
+- Never stage: legible Bangla New Year greetings; procession floats
+  beside the product; political symbols.
+- Confidence and sources: as tagged.
+
+### Celebration: Wedding (biye, walima/bou-bhat; gaye holud)
+- Type: life event
+- When: peaks in winter (roughly November to February) [LOW — not
+  re-checked]; the wedding and reception dinners are in the evening.
+  Intake time: evening
+- Gathering: about 300 to over 1,000 in cities [LOW-MEDIUM — one tier-3
+  source]. Venue: other (community centre or convention hall), or home
+  outdoor (shamiana) in villages
+- The spread: **biyebarir khabar**: **kacchi biryani** or **morog polao**
+  (see catalog: Kacchi biryani; Morog polao), **biye barir roast** (see
+  catalog: Chicken roast (biyebarir roast)), **jali kebab**, **beef
+  rezala** (see catalog: Gorur mangsho bhuna, rezala variant), salad,
+  and **jorda or firni** (see catalog: Bakarkhani, firni and jorda);
+  borhani is always served and always excluded. Guests receive
+  portioned servings of roast; the bride and groom traditionally share a
+  whole chicken. [HIGH — Global Voices, TBS "Biye Bari", Yahoo/Tasting
+  Table on biye barir roast, Dhaka Tribune]. **Gaye holud** variant
+  (turmeric ceremony, daytime): trays of **mishti** (see catalog:
+  Mishti), **pitha** (see catalog: Pitha), fruit and the decorated whole
+  rui fish gift; chotpoti is often eaten [MEDIUM — Wikipedia "Gaye
+  holud", Banglapedia, tier-3 wedding sites].
+- Snapshot staging: **1 setting** — a place at a long white-clothed table:
+  a plate of kacchi with a mutton piece and potato, a roast chicken leg
+  on a side plate, salad; a jorda bowl cropped. **2 settings** — two
+  identical places side by side on the long table, the next guest's
+  plate edge visible beyond. **Small group** — four places along the
+  table; a waiter with a catering bucket and a deg soft behind; the
+  stage's flowers far in the background. Cues: the table running out of
+  frame on both sides; chafing dishes or a deg; festive fabric on
+  blurred guests. Gaye holud variant: daylight, yellow and orange
+  marigold decor, a mishti tray and pitha plate in front.
+- Decor and cues: marigold and rose strings, fairy lights, red and gold
+  fabrics. Avoid Hindu wedding iconography in a Muslim wedding scene.
+- Never stage: borhani (hard rule 5); the couple as identifiable faces;
+  turmeric-smearing rites on people; legible names on banners.
+- Confidence and sources: as tagged.
+
+### Celebration: Mezban (Chattogram community feast)
+- Type: community or family gathering
+- When: held for a death anniversary, a family milestone, a new
+  business or simply as hospitality [LOW-MEDIUM — occasions from
+  model knowledge, not confirmed in this pass's search snippets]; lunch.
+  Intake time: midday
+- Gathering: open to all comers; commonly thousands (3,000–5,000 at
+  large ones) [HIGH — sources above]. Venue: home outdoor (a shamiana in
+  a courtyard or field) or other (a community ground or hall)
+- The spread: steamed **white rice** and **mezbani beef** (see catalog:
+  Mezbani beef), with **chonar dal** (chana dal with beef fat chunks),
+  **nolar kanji** (beef bone-marrow soup) and **kala bhuna** (see
+  catalog: Kala bhuna; the Mezbani beef entry covers chonar dal and
+  nolar kanji). [HIGH — The Daily Star, Wikipedia "Mezban", TBS]
+- Snapshot staging: **1 setting** — a steel or white plate with a mound
+  of rice, a ladle of red, oily mezbani beef and a pool of chonar dal at
+  a long trestle table; the next plate's edge in frame. **2 settings** —
+  two plates side by side; a bucket of mezbani beef with a ladle
+  cropped at the edge. **Small group** — four plates along the table;
+  rows of further tables and the shamiana's striped roof soft behind.
+  Cues: tables running out of frame; serving buckets and degs; a large
+  crowd implied by empty chairs and a server's back, not by faces.
+- Decor and cues: plain shamiana, trestle tables, steel plates. A mezban
+  for a death anniversary is a memorial: keep the tone warm and
+  communal, never festive-party.
+- Never stage: the cattle; religious recitation (milad) that may precede
+  the meal; alcohol.
+- Confidence and sources: HIGH; staging EDITORIAL.
+
+### Celebration: Birthday party
+- Type: life event
+- When: evenings; at home, a rooftop or a restaurant. Intake time: evening
+- Gathering: family and friends, 10–40 [LOW — estimate, not searched].
+  Venue: home indoor, home outdoor (rooftop), or restaurant (a Chinese-
+  Bangla restaurant or kacchi house)
+- The spread: a cake (no entry; shared celebration-cake item in the
+  CANDIDATE QUEUE), with **kacchi** or **morog polao** and chicken roast
+  at home or delivered (see catalog: Kacchi biryani; Morog polao; Chicken
+  roast), or **Chinese-Bangla** dishes at a restaurant (see catalog:
+  Chinese-Bangla fried rice, chilli chicken and chicken corn soup).
+  [LOW — not searched this pass; built from the file's existing
+  restaurant and Gen Z registers]
+- Snapshot staging: **1 setting** — a plate of kacchi with roast on a
+  table, the cake cropped at the edge. **2 settings** — two plates; the
+  roast platter and a salad between them. **Small group** — the end of a
+  table with kacchi boxes opened onto a platter, a roast tray and the
+  cake; plain balloons soft behind.
+- Decor and cues: plain balloons; no numerals or names.
+- Never stage: children as the product's audience (TCCC under-13 rule);
+  borhani beside kacchi.
+- Confidence and sources: LOW; staging EDITORIAL.
+
+### Celebration: Iftar gathering (iftar party / community iftar)
+- Type: community or family gathering
+- When: Ramadan evenings (~9 Feb–9 Mar 2027), at sunset. Intake time:
+  golden-hour to evening
+- Gathering: relatives, friends, colleagues or a community; 10–50
+  [LOW — estimate]. Venue: home indoor, rooftop, or other (a hall or
+  office iftar)
+- The spread: the iftar spread (see catalog: Iftar spread; Haleem; Jilapi
+  and shahi jilapi), muri makha in one big bowl, fruit; at a party,
+  kebabs and chap. [HIGH — FESTIVALS register]
+- Snapshot staging: **apply the FESTIVALS register's five iftar staging
+  points exactly as written** (untouched table before sunset; hero never
+  the fast-breaker; dates and sharbat away from the hero; no religious
+  objects; editorial call, not TCCC Bangladesh policy). Within those:
+  **1 setting** — an empty plate with the spread in front; **2
+  settings** — two places, the muri makha bowl and a piyaju-beguni
+  platter between them; **small group** — a stretch of table with the
+  fried snacks, chola-muri and fruit running out of frame. The file's
+  own neutral alternative (an after-iftar evening snack table) needs no
+  new rule.
+- Never stage: eating before sunset; prayer imagery; sharbat or water
+  beside the hero. **Use only within whatever Fernando decides on the
+  open iftar question.**
+- Confidence and sources: food HIGH; staging pending sign-off.
+
+---
+
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8. The snapshot rule (§5.7) applies: the
+frame shows only the operator's party, and the crowd is implied. **The
+hard staging rules at the top of this file apply to every entry** (halal,
+no alcohol, Hindu-household beef rule, Ramadan, cha/borhani/Rooh Afza
+never beside the hero, no legible Bangla script, nothing in a hand).
+**The Ramadan/iftar staging rule stays exactly as open as it was**
+(hard rule 4, FESTIVALS, GAP LOG): any game-night scene in Ramadan is an
+after-iftar evening scene and is usable only within whatever Fernando
+decides. No existing line in this file covered sport or games before
+this pass.
+
+### Watch parties
+
+Two formats dominate: **cricket** (the national team and the
+Bangladesh Premier League), watched at home and at neighbourhood **tong**
+tea stalls [LOW — not verified], and **World Cup football**, where
+Bangladesh's Argentina and Brazil fandom fills public screens and
+apartment blocks: about 12,000 people watched on LED screens at Dhaka
+University, and neighbours hold overnight watch parties in apartment
+blocks [HIGH — AFP/France24 2022; Al Jazeera July 2026]. The signature
+viewing foods are jhalmuri, singara, chanachur and muri, with cha at the
+tong [LOW — not verified].
+
+#### Watch party: cricket at home and at the tong (national team, BPL)
+- When: the BPL, usually December to February in recent seasons, with
+  evening matches; national-team T20s in the evening, ODIs from early
+  afternoon [LOW — not verified]. Intake time: **golden-hour into
+  evening**; winter BPL evenings are cool and dark early.
+- Gathering: **home**: the family, 4–10 in a Dhaka flat's drawing-dining
+  room [LOW-MEDIUM — editorial]; **tong**: men and young men on the
+  bench, 4–12, around a small TV [LOW — not verified]. Venue: home indoor,
+  or other (tong tea stall).
+- The spread: **home**: **jhalmuri** in a big bowl (see catalog:
+  Jhalmuri), **singara** on a plate (see catalog: Singara and samosa),
+  chanachur in a bowl (no standalone entry; see CANDIDATE QUEUE), and for
+  a family match night **khichuri** or **kacchi** (see catalog: Khichuri;
+  Kacchi biryani) or **fuchka** from a cart (see catalog: Fuchka);
+  **tong**: singara and biscuits from the glass jars on the counter.
+  [LOW — notes]
+- Surface and environment: **home**: the dining table against the wall
+  or a low centre table, a fitted printed table cover, ceiling fan,
+  window grilles, the TV a soft green field. **Tong**: a wooden bench, a
+  small TV on a shelf, glass jars of biscuits, bananas hanging, a string
+  bulb at dusk. **Cha is the authentic tong drink but an intruder
+  drink**: keep the kettle and small glass cups out of frame or fully
+  soft, never beside the hero (hard rule 5; QUICK-REFERENCE "Tong").
+- Snapshot staging: **1 setting** — a small plate of two singara and a
+  paper cone of jhalmuri on plain paper, the hero beside them, the TV
+  glow behind. **2 settings** — two plates; the jhalmuri bowl between.
+  **Small group** — the centre table with the jhalmuri bowl, a singara
+  plate, the chanachur bowl and four small plates; blurred family figures
+  facing the screen. Tong variant: a short stretch of bench with two
+  singara plates and the hero, blurred backs toward the TV.
+- Never stage: the BCB crest, BPL franchise marks, kits with sponsors, a
+  legible screen; betting or fantasy apps; cha glasses beside the hero;
+  newspaper cones (use plain unprinted paper, SCALE REFERENCE).
+- Confidence and sources: LOW throughout (notes, not verified); staging
+  EDITORIAL.
+
+#### Watch party: World Cup night (Argentina and Brazil fandom)
+- When: the FIFA World Cup (June–July every four years) and Copa
+  América. Matches played in the Americas land between midnight and
+  dawn in Bangladesh; European evening kick-offs land around midnight to
+  03:00 [LOW — time-zone arithmetic]. Intake time: **late night**: a
+  night scene with dark windows, a lamp, screen glow and string lights.
+  A dawn final is breakfast-adjacent and out of scope; stage it as the
+  late-night watch, not a breakfast.
+- Gathering: **apartment block**: neighbours from several flats, 10–40,
+  on a rooftop or in a ground-floor parking area with a projector
+  [HIGH for overnight apartment parties — Al Jazeera July 2026;
+  headcount editorial]; **campus or public screen**: thousands [HIGH —
+  France24]. Venue: home outdoor (rooftop or the building's ground
+  floor), or other (campus LED screen).
+- The spread: chanachur and muri in big shared bowls, jhalmuri in paper
+  cones, singara (see catalog: Jhalmuri; Singara and samosa) [HIGH for
+  the overnight party format, food LOW — notes]; at a rooftop party,
+  khichuri or kacchi boxes ordered in (see catalog: Khichuri; Kacchi
+  biryani) [LOW — editorial].
+- Surface and environment: plastic chairs in rows, a folding table, a
+  projector beam on a white sheet or wall as a soft glow, string lights
+  along the parapet, rooftop water tanks as silhouettes; sky-blue-and-
+  white or yellow-and-green **bunting and paper streamers** as colour.
+  Giant Argentina and Brazil flags on rooftops are a real and famous
+  Bangladeshi sight, **but never a full flag** (schema §5.7): cropped
+  flag-palette bunting soft in the background is the most a scene
+  carries.
+- Snapshot staging: **1 setting** — a paper cone of jhalmuri and a
+  singara on a plate at the edge of a folding table, the projector glow
+  far behind. **2 settings** — two plates; a chanachur bowl between.
+  **Small group** — the folding table with the muri and chanachur bowls,
+  a singara platter and four plates; rows of plastic chairs and blurred
+  backs of heads toward the glow (background-people limit).
+- Never stage: a full flag of any country, crests, kits with sponsor
+  marks, Messi or Neymar faces or cut-outs (real people), legible
+  screens; fan clashes; betting; cha glasses beside the hero.
+- Confidence and sources: format HIGH (France24, Al Jazeera); timings and
+  food LOW; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The
+basis: **ludo** "may be the most played" board game and **carrom** is
+part of the culture, played at home, in para (neighbourhood) clubs and
+at tea-stall corners [MEDIUM — Financial Express BD; Sylhet Today].
+Cards are played too but are often gambling-coded and get no entry [LOW
+— not verified]. Iftar-then-games (piyaju, beguni, jilapi, muri) is
+listed in the notes at LOW and inherits the open iftar decision; this
+file's own neutral alternative, the after-iftar evening snack table,
+covers it without a new rule.
+
+#### Game night: family ludo at home
+- When: evenings at home, rainy-season and winter evenings, Eid
+  holidays. Intake time: **evening** [LOW — editorial].
+- Gathering: 2–4 players (siblings, cousins, parents), onlookers
+  [LOW-MEDIUM — editorial]. Venue: home indoor (the bed or a floor mat,
+  the dining table or the centre table in a Dhaka flat).
+- The spread: **muri makha** or **jhalmuri** in a bowl (see catalog:
+  Jhalmuri), chanachur, and in winter **pitha** on a plate (see catalog:
+  Pitha — bhapa, chitoi and patishapta) [LOW — notes list muri makha,
+  chanachur, pitha and tea; tea excluded].
+- Surface and environment: a plain wooden or card ludo board, generic
+  counters and a dice; a ceiling fan, window grilles, a tube light or a
+  warm lamp; a monsoon window with rain for a rainy evening.
+- Snapshot staging: **1 setting** — the board at one side, a small bowl
+  of jhalmuri and the hero beside it. **2 settings** — two small bowls at
+  opposite corners of the board. **Small group** — four small plates, one
+  by each colour, the muri bowl and a pitha plate at the edge; a blurred
+  onlooker on the bed's edge.
+- Never stage: a phone showing a ludo app legibly, a branded board,
+  money; children's faces (implied only, schema §5.7); cha cups beside
+  the hero.
+- Confidence and sources: ludo MEDIUM; food LOW; staging EDITORIAL.
+
+#### Game night: carrom in the para club or courtyard
+- When: late afternoons and evenings, all year; a winter-evening
+  favourite [LOW — not verified]. Intake time: **golden-hour** into
+  evening.
+- Gathering: 4 players in pairs, young men with onlookers in a para
+  club; family members in a village courtyard [MEDIUM for the venues —
+  Financial Express BD; headcount editorial]. Venue: other (para club
+  room or a corner by the tong) or home outdoor (village uthan, rooftop).
+- The spread: **singara** on a plate (see catalog: Singara and samosa),
+  chanachur, biscuits; the notes add cha in glasses, which is excluded
+  here (hard rule 5) [LOW — notes].
+- Surface and environment: a plain wooden carrom board on a stand under
+  a bare bulb or tube light, black and white coins and a striker, a
+  bench along the wall; a courtyard under trees at golden hour for the
+  village variant.
+- Snapshot staging: **1 setting** — one corner of the board with coins,
+  a stool beside it with a plate of singara and the hero. **2 settings**
+  — two plates on a bench by the board. **Small group** — the board with
+  stools on four sides, a bench with singara, chanachur and biscuits for
+  four; blurred onlookers against the wall.
+- Never stage: printed brand marks, money or stakes, cha glasses beside
+  the hero, legible club signs or posters.
+- Confidence and sources: carrom MEDIUM; food LOW; staging EDITORIAL.
 
 ---
 
@@ -2365,6 +3092,28 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   biryani). The Bengali course order in `india.md` is noted as a
   West-Bengal/formal pattern, not the everyday Bangladeshi table — a
   reading, not a correction.
+- **Celebrations pass (2026-10-01) open items.** Eid and dawat
+  headcounts are editorial estimates; the 300–1,000+ wedding figure is
+  from one tier-3 source. Wedding season months, batch seating, birthday
+  parties and Eid ul-Adha menus were not searched. Pohela Boishakh's
+  midday staging is an editorial choice to keep panta out of breakfast
+  scope; how many households eat panta at midday vs. morning is unknown.
+  The iftar-gathering entry inherits the open iftar decision.
+- **Game-night pass (2026-10-01) open items.** Cricket viewing at tongs
+  and homes, the BPL season and match times, and every viewing food are
+  LOW (research notes, not verified); only the World Cup public-screen
+  and overnight apartment-block formats are HIGH (France24, Al Jazeera).
+  World Cup and Copa América kick-off times in Dhaka are time-zone
+  arithmetic. Carrom's winter-evening timing, cards as gambling-coded,
+  and iftar-then-games are unverified; the last inherits the open iftar
+  decision. Ludo and carrom food pairings are editorial.
+- **Venue-profile pass (2026-10-01) open items.** Unverified background
+  details: kacchi-house interiors (no source described decor beyond
+  "small and congested" in Old Dhaka); the flat's wall colours and
+  washbasin placement beyond ENVIRONMENT; rooftop set dressing (cables,
+  plant types); fuchka-cart lighting; community-centre batch seating and
+  decor colours. Neighbourhood "hotel", tong, village uthan and
+  Chinese-Bangla restaurant not yet profiled (later wave).
 
 ## CANDIDATE QUEUE
 
@@ -2382,6 +3131,15 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
    failure), fuchka (pani puri failure), bhorta platter (hummus failure)
    and the iftar spread (sharbat/date intrusion; hero-as-fast-breaker).
 5. Independent §8 audit of this file.
+6. Celebration dishes without an entry (2026-10-01 celebrations pass):
+   **shami kabab**, **chicken korma** (Bangladeshi white korma), **jali
+   kebab**, a shared **celebration cake** entry; consider promoting
+   **rezala** from a variant line to its own entry.
+7. Viewing and game-night foods without an entry (2026-10-01
+   game-night pass): **chanachur** as a standalone bowl (now covered
+   only inside Jhalmuri), **muri makha** if it needs more than the
+   Iftar spread and Jhalmuri entries give, and **tong biscuits and
+   cake** (the glass-jar counter snacks).
 
 ## RESEARCH LOG
 
@@ -2418,3 +3176,18 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   cross-referenced; `europe/turkey.md` used as the structural model;
   `europe/uk.md` referenced for the British-Bangladeshi restaurant link.
   `asia/pakistan.md` was not opened or edited.
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches** (wedding
+  food and venues; Chattogram mezban scale and food; Eid lunch menu;
+  gaye holud food). Added CELEBRATIONS & LARGE GATHERINGS after the
+  FESTIVALS register: how gatherings work plus 7 entries (Eid ul-Fitr,
+  Eid ul-Adha, Pohela Boishakh, wedding with gaye holud variant, mezban,
+  birthday party, iftar gathering). The iftar staging rule was left open
+  for Fernando. No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: 2 watch-party entries
+  (cricket at home and at the tong; World Cup night) and 2 social
+  game-night entries (family ludo at home; carrom in the para club or
+  courtyard; popularity medium). The iftar staging rule left untouched.
+  No subagents.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (Dhaka flat drawing-dining room, Dhaka rooftop, kacchi house, fuchka-chotpoti stand, community-centre wedding hall). Iftar rule untouched. No subagents.
