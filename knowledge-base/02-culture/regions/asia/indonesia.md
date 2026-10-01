@@ -1230,6 +1230,203 @@ default entry here.
   without explicit sign-off; alcohol.
 - Confidence and sources: HIGH (form); EDITORIAL (staging).
 
+## GAME NIGHT
+
+Schema §5.8 applies, with the snapshot rule (§5.7). Hard rules 1–10
+above all still apply: **halal by default** (no pork, no alcohol,
+nothing that reads as either; the Bali and Christian-east exceptions
+only when briefed), **hard rule 9** (es teh manis, plain water, kopi
+tubruk in a glass and sealed plastic cups are the intruders; at a warung
+kopi the coffee glass is the authentic drink, so keep it out of frame
+unless the brief allows a companion), **hard rule 6 and the Ramadan
+guidance** for any match or game scene during the fasting month (no one
+eating or drinking in daylight; late-night viewing after tarawih is a
+night scene). The brief dictates the SKU (§5.4). The one-line register
+note (FESTIVALS, "Football and badminton on TV", nonton bareng at a
+warung kopi) is the stub this section expands.
+
+### Watch parties
+
+Football is the main viewing sport, led by the national team (Timnas)
+and followed by the English Premier League, with badminton the second
+national viewing sport at the Thomas and Uber Cup, the All England and
+the Indonesia Open. Viewing is strongly public: **nonton bareng
+(nobar)** at a warung kopi, a café, a mall atrium or the town square
+(alun-alun), often organised by the local government, and Timnas
+qualifiers kicking off at 00:15 WIB still filled town squares [HIGH —
+pemalangkab.go.id, Okezone, Krjogja]. Signature viewing foods are
+gorengan on paper, kacang rebus, instant noodles, martabak in a box and
+bakso from carts [LOW — not verified].
+
+#### Watch party: nobar at a warung kopi, late night (Timnas away games, EPL, Champions League)
+- When: EPL Saturday games at about **21:00–22:00 WIB**, Sunday big
+  games roughly 20:00–23:30 [MEDIUM — ThaiRanked, same time zone as
+  Bangkok]; Champions League about 02:00–03:00 [LOW — time-zone
+  arithmetic]; Timnas away qualifiers in the Gulf at **00:15 WIB**
+  [HIGH — pemalangkab.go.id]. Intake time of day: **evening, late
+  night**. Stage it as a night scene: a fluorescent tube or a bare bulb,
+  screen glow, dark street beyond the tarp; never golden hour.
+- Gathering: a few friends or neighbours on benches at the warkop, with
+  more viewers on plastic stools around a TV or a projector screen hung
+  under the awning [HIGH for warkop/café nobar — Krjogja; crowd make-up
+  LOW]. Warkop viewing skews male [LOW — not verified]; stage the
+  operator's party as briefed and keep the wider crowd blurred. Intake
+  venue: other (warung kopi / café).
+- The spread: gorengan heaped on paper or a rattan plate (see catalog:
+  Gorengan), a plate of instant mie goreng with a fried egg, no brand
+  (see catalog: Mie goreng), kacang rebus (boiled peanuts in their
+  shells) in a bowl with a shell dish, martabak in an opened box (see
+  catalog: Martabak manis; Martabak telur) [LOW — not verified].
+  Kacang rebus has no catalog entry (see CANDIDATE QUEUE).
+- Surface and environment: a **long wooden warung bench and table**,
+  plastic stools, an enamel or melamine plate, a jar of krupuk; the TV
+  mounted on a shelf or a projector cloth as a soft green glow; a tarp
+  roof, a hanging bulb, motorbikes parked in the dark beyond.
+- Snapshot staging: **1 setting** — one plate of mie goreng at the bench
+  end, a paper of gorengan and a bowl of kacang rebus partly cropped,
+  the hero (from the brief) beside it, the screen glow behind.
+  **2 settings** — two plates side by side facing the screen, gorengan
+  and peanuts shared between them. **Small group (3–4)** — the bench
+  table running out of frame, more gorengan than the visible diners
+  need, a martabak box at the edge. Crowd cues: blurred backs of heads
+  on stools toward the screen, extra stools, a second bench soft behind.
+- Never stage: alcohol of any kind; cigarettes and ashtrays (a real
+  warkop fixture, keep them out); betting or phones showing odds;
+  legible screens, crests, kits, sponsor marks, warung signage; kopi
+  tubruk and es teh glasses beside the hero; a full red-and-white flag
+  (a cropped red-white scarf or bunting at most).
+- Confidence and sources: HIGH for format and time (pemalangkab.go.id,
+  Krjogja); MEDIUM for EPL times (ThaiRanked); LOW — not verified for
+  the spread and crowd make-up; EDITORIAL composition.
+
+#### Watch party: Timnas nobar at the alun-alun or a mall atrium
+- When: home internationals and qualifiers, evening; mall nobar can
+  start at **golden-hour** for a late-afternoon kick-off (Okezone's mall
+  nobar for Indonesia vs Bahrain was billed for the afternoon, "sore
+  ini") [HIGH — Okezone, pemalangkab.go.id]. Intake time of day:
+  **evening** (town square) or **golden-hour** (mall).
+- Gathering: thousands in the square, organised by the local government
+  [HIGH — pemalangkab.go.id]; hundreds in a mall atrium [HIGH —
+  Okezone]. The frame holds the operator's party only: friends or a
+  family on a mat or at a food-cart table at the edge of the square, or
+  a café table at the edge of the atrium. Intake venue: other (fan zone
+  / town square / mall).
+- The spread: food from the carts ringing the square: **bakso** in a
+  bowl (see catalog: Bakso), **martabak** in a box (see catalog:
+  Martabak manis), sate Madura on a plate (see catalog: Sate Madura),
+  gorengan (see catalog: Gorengan) [LOW — not verified].
+- Surface and environment: a woven mat (tikar) on the grass, or a
+  plastic folding table with stools beside a gerobak cart; a big LED
+  screen far behind as a soft green rectangle; string lights and
+  red-white bunting; at a mall, polished floor, atrium balconies and a
+  big screen soft in the distance.
+- Snapshot staging: **1 setting** — a bowl of bakso and the hero on the
+  corner of a cart table, a martabak box cropped. **2 settings** — two
+  bowls on a mat, martabak and sate between them. **Small group** —
+  the mat running out of frame with more boxes. Crowd cues: blurred
+  heads and raised arms far behind (within the background-people
+  limit), the screen glow, bunting.
+- Never stage: a full flag; crests, kits, sponsor marks or a legible
+  screen; flares or crowd trouble; government banners or mall signage
+  with text; alcohol.
+- Confidence and sources: HIGH for the format (pemalangkab.go.id,
+  Okezone, Krjogja); LOW for the cart food; EDITORIAL composition.
+
+#### Watch party: badminton final at home
+- When: the Thomas and Uber Cup (even years, May), the All England
+  (March, evening in Indonesia), the Indonesia Open in Jakarta each
+  June; Asian tournaments are daytime, European ones daytime to evening
+  [LOW — not verified]. Intake time of day: **midday** to **evening**
+  depending on the venue. If it falls in Ramadan, stage it after dark.
+- Gathering: the family at home, 3–6 people, or a few neighbours on the
+  teras [LOW — not verified]. Intake venue: home indoor (living room)
+  or home outdoor (teras).
+- The spread: nasi goreng (see catalog: Nasi goreng), krupuk from a tin,
+  gorengan, teh manis (an intruder: the hero takes the drink slot)
+  [LOW — not verified].
+- Surface and environment: a low living-room table or a tikar on the
+  floor, a TV on a cabinet as a soft green-and-white court glow, a
+  standing fan, a tudung saji on the side.
+- Snapshot staging: **1 setting** — a plate of nasi goreng with a
+  fried egg and krupuk, a gorengan plate cropped, the hero beside it.
+  **2 settings** — two plates on the low table, krupuk tin between
+  them. **Small group** — the tikar running out of frame. Crowd cues:
+  a blurred relative on the sofa, extra plates, sandals by the door.
+- Never stage: federation or sponsor marks on shuttle tubes, shirts or
+  the screen; player faces; alcohol.
+- Confidence and sources: LOW — not verified (the notes rate Indonesia
+  high for badminton but cite no viewing source; the register line
+  covers it at LOW); EDITORIAL composition.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium-high**.
+Basis: **gaple** (dominoes) is social glue at the warung kopi, the
+neighbourhood guard post (pos ronda) and house terraces, and was
+declared a national sport (under ORADO) on 7 January 2026 [MEDIUM —
+GNFI, Times Indonesia; Bangka Pos]; **mabar** (main bareng, playing
+Mobile Legends together on phones) is a big youth habit, and the M7
+world championship was held in Jakarta in January 2026 [MEDIUM —
+Moonton]. Family karaoke rooms and family games on the terrace at
+Lebaran exist but are LOW — not verified, so they have no entries
+(Lebaran visits are staged under CELEBRATIONS).
+
+#### Game night: gaple at the warung kopi or on the house terrace
+- When: evenings; the night ronda (neighbourhood watch) runs late
+  [MEDIUM — Times Indonesia, GNFI]. Intake time of day: **evening**
+  (late night for the pos ronda).
+- Gathering: four players with onlookers, neighbours and friends;
+  traditionally men at the warkop and pos ronda, mixed family groups on
+  a house terrace, especially when relatives visit at Lebaran [LOW —
+  not verified for the mixed form; EDITORIAL]. Intake venue: other
+  (warung kopi, pos ronda) or home outdoor (teras).
+- The spread: gorengan on paper, kacang rebus, instant mie goreng with
+  no brand (see catalog: Gorengan; Mie goreng); kopi tubruk in glasses
+  is the real drink (an intruder, out of frame unless allowed)
+  [LOW — not verified].
+- Surface and environment: a wooden warung bench and table or a low
+  terrace table, dominoes face down or as blurred dark tiles with white
+  pips unreadable as a hand, a bare bulb or terrace lamp, a sarong or
+  peci on a blurred onlooker, the kentongan (slit drum) of a pos ronda
+  soft in the background.
+- Snapshot staging: **1 setting** — the corner of the table: a paper of
+  gorengan and the hero beside a row of face-down tiles. **2 settings**
+  — two places with a shared bowl of kacang rebus and tiles between
+  them. **Small group** — four sides of a small table, tiles in the
+  centre, the snacks on a side stool. Crowd cues: a blurred onlooker
+  leaning in behind, extra stools, the dark lane beyond.
+- Never stage: money, stakes or score-keeping for cash (gaple has a
+  gambling association in some regions, which the 2026 sport reform aims
+  to remove [MEDIUM — Times Indonesia framing]); cigarettes; alcohol;
+  legible warung signage.
+- Confidence and sources: MEDIUM — GNFI 2026, Times Indonesia (ORADO),
+  Bangka Pos (gaple at the warung kopi); food LOW; EDITORIAL
+  composition.
+
+#### Game night: mabar (Mobile Legends) at a café or at home
+- When: weekend evenings and late night; the M-series finals are in
+  January [MEDIUM — Moonton]. Intake time of day: **evening** (late
+  night: phone glow and a lamp).
+- Gathering: 2–6 friends, students and young workers, phones out, at a
+  café, a warmindo (instant-noodle warung) or a kos room [LOW — not
+  verified]. Intake venue: restaurant (café, warmindo) or home indoor.
+- The spread: mie goreng (see catalog: Mie goreng), fried chicken (see
+  catalog: Ayam geprek), es teh (an intruder: the hero takes the drink
+  slot) [LOW — not verified].
+- Surface and environment: a café table with concrete and plants, or a
+  warmindo bench; phones lying face down or glowing blurred, a
+  power-bank cable across the table; at home, a low table or floor
+  cushions and an RGB light strip.
+- Snapshot staging: **1 setting** — a plate of ayam geprek with rice
+  and sambal beside a face-down phone and the hero. **2 settings** —
+  two plates and two phones glowing blurred. **Small group** — the
+  table running out of frame with more plates. Crowd cues: another
+  table of players blurred behind.
+- Never stage: game titles, logos, HUDs, hero characters or team names
+  on any screen; betting on matches; branded energy drinks.
+- Confidence and sources: MEDIUM for the M7 in Jakarta (Moonton); LOW
+  for mabar food and venues; EDITORIAL composition.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene (or sahur);
@@ -2938,6 +3135,15 @@ conversation, not an approved scene.*
   ruling that they are allowed (schema §5.5). Resolved the same day: hard rule 8 now
   matches the ruling.
 
+- **Game-night pass (2026-10-01) open items**: the viewing spread
+  (gorengan, kacang rebus, instant noodles, martabak, bakso from carts),
+  the male skew of warkop viewing, badminton viewing times and home
+  habits, Champions League times (arithmetic only), the mixed-family
+  form of gaple on the terrace, gaple food, mabar food and venues,
+  family karaoke rooms, and Lebaran terrace games are all not verified.
+  Ramadan-month viewing (after tarawih, around sahur) was not
+  researched; the entries apply the existing editorial Ramadan rules.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with six zones (recommended) vs.
@@ -2971,6 +3177,11 @@ conversation, not an approved scene.*
    nasi berkat in besek** (aqiqah, selamatan), the **prasmanan + gubukan
    buffet** as a composition entry, and **ingkung** (whole Javanese
    ceremonial chicken).
+
+8. **Game-night pass additions (2026-10-01)**: a compact **kacang rebus**
+   entry (boiled peanuts in the shell, warkop and nobar snack) and
+   **Indomie / warmindo plate** (already among the GAP LOG's missing
+   dishes; now needed for nobar and mabar).
 
 ## RESEARCH LOG
 
@@ -3021,3 +3232,11 @@ conversation, not an approved scene.*
   Liputan6 (Idul Adha); weddingmarket.com, pernikahan.or.id, Jagarasa,
   djavacatering, cateringprasmanan (tier 3); aqiqah caterers (tier 3);
   Tokopedia/Cookpad/Lemon8 (tier 4, birthday tumpeng only). No subagents.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT with 3 watch-party entries (late-night nobar
+  at a warung kopi, Timnas nobar at the alun-alun or a mall atrium,
+  badminton final at home) and 2 social game-night entries (gaple at the
+  warung kopi or terrace, mabar Mobile Legends). Key sources carried
+  over: pemalangkab.go.id; Okezone; Krjogja; ThaiRanked; GNFI; Times
+  Indonesia; Bangka Pos; Moonton. No subagents.

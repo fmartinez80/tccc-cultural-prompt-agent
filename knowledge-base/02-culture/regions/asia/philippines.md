@@ -1120,6 +1120,242 @@ or procession.
   hero as anything that breaks a fast (Ramadan rule in register).
 - Confidence and sources: MEDIUM (register); EDITORIAL.
 
+## GAME NIGHT
+
+Schema §5.8 applies, with the snapshot rule (§5.7). Hard rules 1–8
+above all still apply, above all **hard rule 4** (no inuman, no tagay,
+no pulutan-at-night composition: sisig, chicharon and kropek are the
+classic viewing and karaoke snacks precisely because they go with beer,
+so they stay out of every game-night frame), **hard rule 7** (fried
+chicken and spaghetti on plain plates, never a chain's bucket or box),
+**hard rule 6** (the iced-water pitcher, sago't gulaman and 3-in-1
+coffee are intruders) and **hard rule 3** (no pork in zone 7 or beside
+Muslim-coded cues). The brief dictates the SKU (§5.4). The file had no
+earlier sports or games lines; this section is new.
+
+### Watch parties
+
+Basketball is the national viewing sport: the PBA, the NBA and the
+Gilas national team, watched at home in the sala or on a TV set up
+outside a sari-sari store or under a barangay-court roof [HIGH for
+scale — Philstar/Cignal; venues LOW — not verified]. Boxing is the
+other big one, with the Pacquiao era as its peak. Football is
+low-medium here and volleyball has a following [LOW — not verified],
+so neither gets an entry. The non-drinking viewing spread is
+merienda: pancit in a bilao, lumpia, fried chicken, spaghetti, turon
+and banana cue [LOW — not verified].
+
+#### Watch party: PBA and Gilas basketball, evening
+- When: PBA conferences run most of the year; games are in the evening,
+  roughly 17:00–19:30 [LOW — not verified]; Gilas national-team games
+  in FIBA windows and tournaments. Intake time of day: **evening**
+  (golden-hour for an early tip-off). Scale: one PBA game drew 2.3
+  million viewers, peaking near 3 million (May 2026) [HIGH —
+  Philstar/Cignal]; about 40% of Filipinos follow basketball and 81% of
+  urban Filipinos call themselves fans [MEDIUM — asia-basket, survey
+  not named].
+- Gathering: the family at home, 4–8 people across generations, or
+  neighbours around a TV outside a sari-sari store or at the barangay
+  court [LOW — not verified]. Intake venue: home indoor (the sala), home
+  outdoor (carport, front of the house), other (barangay-court shelter,
+  stage the folding table at the edge only).
+- The spread: fried chicken on a plain platter, Filipino spaghetti, and
+  pancit in a bilao, all on one folding or sala table (see catalog:
+  Filipino fried chicken with rice and gravy; Filipino-style
+  spaghetti; Pancit); for a Gilas night, **lechon kawali** with rice
+  and a saucer of sawsawan (see catalog: Lechon kawali and crispy
+  pata) — staged as a family rice meal, not as pulutan. Rice in a pot
+  or on each plate (hard rule 1). Zone 7 or a Muslim brief: chicken,
+  beef or fish only.
+- Surface and environment: a glass-topped or wooden sala table, or a
+  **folding table** with a printed plastic cloth; monobloc chairs; the
+  TV on a wooden cabinet as a soft orange-and-wood-floor glow (a court
+  reads as warm colour, nothing legible); a stand fan; the barangay
+  court's roof and a hoop deeply out of focus for the outdoor form.
+- Snapshot staging: **1 setting** — a plate with rice, a fried drumstick
+  and a spoon of pancit, the pancit bilao and the spaghetti tray partly
+  cropped, the hero (from the brief) beside the plate, the TV glow
+  behind. **2 settings** — two plates side by side on the sofa side of
+  the sala table, fried chicken and pancit between them. **Small group
+  (3–4)** — the folding table running out of frame with more trays,
+  a midground PET when the brief allows one. Crowd cues: the backs of
+  blurred heads on a sofa toward the glow, extra monobloc chairs, a
+  stack of paper plates at the edge.
+- Never stage: beer (San Miguel, Red Horse "mucho" bottles), gin, rum
+  or any TCCC RTD can; sisig or chicharon on a sizzling plate at night;
+  PBA, NBA or FIBA logos, team names, jersey sponsors or a legible
+  score bug; a full flag on Gilas nights (a cropped red-blue-yellow
+  pattern at most); ending-number betting (a gambling-adjacent practice
+  around games [LOW — not verified]); chain-branded chicken buckets.
+- Confidence and sources: HIGH for audience scale (Philstar/Cignal,
+  May 2026); MEDIUM for fandom share (asia-basket); LOW — not verified
+  for times, venues and the spread; EDITORIAL composition.
+
+#### Watch party: NBA Finals (weekday morning in Manila; stage as midday)
+- When: June. US evening games land on **Philippine mornings, about
+  08:00–11:00**, so the NBA Finals are a real weekday-morning occasion
+  [LOW — not verified; time-zone arithmetic]. The Philippines ranks
+  2nd in Asia-Pacific for NBA League Pass subscriptions [MEDIUM —
+  asia-basket]. **Breakfast is out of scope** (standing ruling; morning
+  module off by default), so stage it as a **midday** scene: the game
+  running late into the morning and the table turning into lunch or
+  merienda, bright daylight. If a brief explicitly enables the morning
+  module, the authentic version is pandesal and 3-in-1 coffee (coffee
+  is an intruder; keep it out of frame).
+- Gathering: family members or 2–5 friends at home, people taking the
+  morning off or watching at the office pantry [LOW — not verified;
+  EDITORIAL]. Intake venue: home indoor.
+- The spread (midday version): pancit, lumpia shanghai and rice, or a
+  carinderia takeaway of two ulam decanted onto plates (see catalog:
+  Pancit; Lumpia; Carinderia / turo-turo rice plate).
+- Surface and environment: the sala table in daylight, jalousie
+  windows, a stand fan, the TV a soft glow; plates and rice pot pushed
+  toward the screen end of the table.
+- Snapshot staging: **1 setting** — a rice plate with a spoon of pancit
+  and two lumpia, the bilao cropped, the hero beside it. **2 settings**
+  — two plates facing the screen, a lumpia platter between them.
+  **Small group** — the table running out of frame. Crowd cues: a
+  blurred figure on the sofa arm, extra chairs turned toward the TV.
+- Never stage: NBA or team logos, jerseys or player faces on screen;
+  any legible score; alcohol; betting.
+- Confidence and sources: MEDIUM for League Pass rank (asia-basket);
+  LOW for timing and food; the midday staging is a scope decision per
+  the standing ruling, not a claim about how Filipinos watch.
+
+#### Watch party: big boxing fight, Sunday midday
+- When: US Saturday-night fights land on **Sunday midday** in Manila
+  [LOW — not verified]. Intake time of day: **midday**. The Pacquiao era
+  was the peak: the PNP reported zero crime in Metro Manila during the
+  12 rounds of Pacquiao–Mayweather (2015) [HIGH — Inquirer], and EDSA
+  traffic emptied during bouts [MEDIUM — Bloody Elbow]. With Pacquiao's
+  active career winding down, this is a nostalgic or peak-moment format;
+  current big fights still draw home viewing [EDITORIAL].
+- Gathering: family and neighbours at home, or a crowd in a town plaza,
+  gym, church hall or barangay hall with a big screen [LOW — not
+  verified]. Intake venue: home indoor, home outdoor (carport), other
+  (barangay hall: the operator's party at one folding table, the screen
+  a far glow).
+- The spread: a merienda-to-lunch spread: pancit, turon and banana cue,
+  fried chicken, rice (see catalog: Pancit; Turon and banana cue;
+  Filipino fried chicken with rice and gravy) [LOW — not verified].
+- Surface and environment: a folding table with a plastic cloth under a
+  carport tarpaulin, monobloc chairs, a stand fan, midday light; at a
+  hall, rows of monobloc chairs and a projector screen as a soft
+  rectangle of light.
+- Snapshot staging: **1 setting** — a plate with banana cue and a slice
+  of turon beside a spoon of pancit, the bilao cropped. **2 settings** —
+  two plates with pancit, turon and fried chicken between them.
+  **Small group** — the table running out of frame toward blurred rows
+  of chairs. Crowd cues: rows of chairs, backs of blurred heads (within
+  the background-people limit), a tarpaulin edge (no text).
+- Never stage: blood, fighters' faces, belts or promoter logos;
+  legible tarpaulins; betting on the fight; alcohol; a church interior
+  (a church-hall screening stages only the folding table, never the
+  sanctuary or religious images, hard rule 5).
+- Confidence and sources: HIGH for the zero-crime report (Inquirer);
+  MEDIUM for traffic (Bloody Elbow); LOW — not verified for venue,
+  timing and food.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Basis:
+videoke is described as part of "every gathering", with home machines
+near-universal [MEDIUM — Fun in the Philippines, DitoSaPilipinas];
+titas' afternoon mahjong is a standing habit [LOW — not verified for the
+Philippines specifically]; the Mobile Legends M7 world championship
+(January 2026) had an official watch party at the SM Mall of Asia Music
+Hall in Manila [MEDIUM — Moonton, Philstar]. Bingo and parlour games
+at Christmas parties and fiestas are common [LOW — not verified]; stage
+them, if briefed, inside the Noche Buena or fiesta entries in
+CELEBRATIONS, with no prizes or cash shown. Tong-its and pusoy card
+games are real but gambling-coded [LOW — not verified]; no entry.
+
+#### Game night: videoke at a birthday or fiesta (home)
+- When: birthdays, fiestas, Christmas and New Year, and a "slow Sunday
+  night"; often from **golden-hour** into evening and late night
+  [MEDIUM — Fun in the Philippines, DitoSaPilipinas]. Intake time of
+  day: golden-hour or evening.
+- Gathering: 10–40 family and neighbours [MEDIUM]; the frame holds the
+  operator's party only. Intake venue: home outdoor (porch, garage or
+  carport, the street under a tarp).
+- The spread: party trays of pancit, lumpia, Filipino spaghetti and pork
+  barbecue skewers, with lechon at bigger parties (see catalog: Pancit;
+  Lumpia; Filipino-style spaghetti; Pork barbecue skewers; Lechon)
+  [LOW — not verified; consistent with the Filipino-American party entry in
+  `usa/us-west-coast.md`].
+  Pulutan (sisig, chicharon) only appears with drinking: leave it out.
+- Surface and environment: a **folding table with a plastic cloth**
+  under a tarpaulin, monobloc chairs, banderitas overhead, the videoke
+  cabinet speaker and screen blurred in the background (the score
+  display a soft glow), a mic resting on the table, never held; string
+  lights after dark.
+- Snapshot staging: **1 setting** — a paper or plain plate with pancit,
+  a BBQ stick and two lumpia, the foil trays partly cropped, the hero
+  beside it, the speaker a blur. **2 settings** — two plates at the
+  table's corner, trays between them, a mic lying at the edge. **Small
+  group** — the table running out of frame with more trays. Crowd cues:
+  extra monobloc chairs, blurred guests near the videoke screen, a
+  second table soft behind.
+- Never stage: beer towers, bottle buckets, Red Horse "mucho" bottles,
+  a gin bottle passed in tagay; legible lyrics, song titles or machine
+  brands; a face singing into a mic near the camera; identifiable
+  children (birthday child never shown, §5.7).
+- Confidence and sources: MEDIUM (Fun in the Philippines,
+  DitoSaPilipinas 2025); food LOW; EDITORIAL composition.
+
+#### Game night: titas' mahjong merienda
+- When: weekend afternoons [LOW — not verified]. Intake time of day:
+  **golden-hour**.
+- Gathering: 4 at the table (aunts, family friends), relatives
+  drifting past. Intake venue: home indoor.
+- The spread: merienda on a **side table**, because the mahjong table
+  is full: pancit, puto and kakanin, turon (see catalog: Pancit; Turon
+  and banana cue; Leche flan for the kakanin-tray look) [LOW — not
+  verified]. Kakanin platter has no own entry (see CANDIDATE QUEUE).
+- Surface and environment: a square table with a green cloth, tiles
+  generic and unreadable; a side table with the merienda and the hero;
+  afternoon light through jalousie windows, a stand fan.
+- Snapshot staging: **1 setting** — the side table: a small plate of
+  pancit and a slice of puto, the hero, the mahjong table's edge soft
+  behind. **2 settings** — two small plates on the side table, a
+  kakanin tray between them. **Small group** — the corner of the
+  mahjong table with tiles blurred, the side table cropped. Crowd cues:
+  a fourth chair edge, a blurred figure passing, extra plates.
+- Never stage: money, chips or counting winnings (mahjong for money is
+  common); tile faces readable as a scoring hand; religious objects on
+  the wall behind (hard rule 5).
+- Confidence and sources: LOW — not verified for the Philippines (the
+  notes' mahjong sources cover China, Japan and the US); EDITORIAL
+  composition.
+
+#### Game night: Mobile Legends watch party or barkada mabar
+- When: weekend evenings and late night; the M-series world finals are
+  in January [MEDIUM — Moonton, Philstar]. Intake time of day:
+  **evening** (late night for long series: screen and phone glow, a
+  lamp).
+- Gathering: 2–6 friends (the barkada) playing together on phones
+  (mabar) at home or a café, or hundreds at a mall watch party such as
+  the M7 one at SM MOA Music Hall [MEDIUM — Moonton, Philstar]. Intake
+  venue: home indoor, restaurant (café), other (mall event hall, blur the
+  crowd).
+- The spread: fried chicken and spaghetti meals on plain plates, instant
+  noodles in bowls, milk tea (an intruder; the hero takes the drink slot)
+  (see catalog: Filipino fried chicken with rice and gravy;
+  Filipino-style spaghetti) [LOW — not verified].
+- Surface and environment: a coffee table or the floor around a low
+  table, phones lying face-down or glowing blurred, an RGB light strip,
+  the TV as abstract coloured light.
+- Snapshot staging: **1 setting** — a plate of fried chicken and rice
+  beside a face-down phone and the hero. **2 settings** — two plates on
+  a coffee table, two phones glowing blurred. **Small group** — the
+  table running out of frame, more plates. Crowd cues (watch party):
+  a dark hall with a big screen far behind, blurred backs of heads.
+- Never stage: game titles, logos, HUDs, hero characters or team names
+  on any screen; betting on matches; branded energy drinks; chain
+  packaging.
+- Confidence and sources: MEDIUM for the watch party and M7 (Moonton,
+  Philstar 2026); LOW for home mabar food; EDITORIAL composition.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -3051,6 +3287,16 @@ Morning Module exception logged):**
   Noche) are staged at night; hard rule 4 is respected by keeping every
   pulutan item and drinking cue out, not by moving them to daytime.
 
+- **Game-night pass (2026-10-01) open items**: PBA evening tip-off
+  times, NBA morning timing (arithmetic only), viewing venues (sari-sari
+  store TV, barangay court, plaza and church-hall fight screenings),
+  Sunday-midday fight timing, ending-number betting, the viewing and
+  videoke spreads, titas' mahjong as a Philippine habit (the notes'
+  mahjong sources cover China, Japan and the US), Christmas bingo and
+  parlour games, tong-its/pusoy, and volleyball and football as viewing
+  occasions are all not verified. The asia-basket fandom figures cite an
+  unnamed survey.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with seven zones (recommended)
@@ -3085,6 +3331,12 @@ Morning Module exception logged):**
    **hotdog-and-marshmallow skewers** (children's party), **biko** (Media
    Noche and christenings), **embutido**, and the catered **buffet line**
    (chafing dishes, rice trays, lechon at the head) as a composition entry.
+
+9. **Game-night pass additions (2026-10-01)**: a **kakanin platter**
+   entry (already listed in item 5; now also needed for the mahjong
+   merienda), and a compact **merienda viewing spread** composition
+   (bilao of pancit, lumpia, fried chicken and spaghetti on a folding
+   table) as the non-drinking alternative to pulutan.
 
 ## RESEARCH LOG
 
@@ -3150,3 +3402,12 @@ Morning Module exception logged):**
   "The tradition of fiestas"; factsanddetails; Event Nest and Executive
   Gourmet (tier 3, caterers); masstimesph, Barong World, Jojie's (tier 4).
   No subagents.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT with 3 watch-party entries (PBA and Gilas
+  basketball evening, NBA Finals staged as midday, big boxing fight on
+  Sunday midday) and 3 social game-night entries (home videoke, titas'
+  mahjong merienda, Mobile Legends watch party / mabar). Key sources
+  carried over: Philstar/Cignal (PBA ratings); Inquirer (PNP zero
+  crime); Bloody Elbow; asia-basket; Fun in the Philippines;
+  DitoSaPilipinas; Moonton; Philstar (M7). No subagents.

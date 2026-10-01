@@ -1096,6 +1096,189 @@ images, altars, spirit houses or royal portraits) and hard rule 3
   "Happy Birthday" text on the cake.
 - Confidence and sources: LOW-MEDIUM (tier-4 guides); EDITORIAL.
 
+## GAME NIGHT
+
+Schema §5.8 applies, with the snapshot rule (§5.7). Hard rules 1–9
+above all still apply: hard rule 3 (halal and no alcohol in zone 5 and
+any Muslim household; moo ping and crispy pork swap to chicken, beef or
+seafood), hard rule 5 (no Buddha image, spirit house or royal portrait
+in frame, and the royal portrait often hangs in exactly the shop or
+living room where the TV is), hard rule 6 (no whisky "set", beer tower
+or ice bucket), hard rule 8 (iced water and cha yen are intruders).
+The brief dictates the SKU (§5.4). The existing one-line register note
+(FESTIVALS, "Football and Muay Thai on TV") is the stub this section
+expands.
+
+### Watch parties
+
+Football is the main viewing sport: the English Premier League lands
+late at night in Thailand, the Thai national team draws home viewing,
+and Muay Thai on TV is a home habit [MEDIUM for EPL timing — ThaiRanked;
+rest LOW — not verified]. The stageable form is **at home or at a
+street-food shop with a TV**, not the bar: bar viewing and Muay Thai
+stadiums are beer- and betting-led and are never staged [EDITORIAL;
+betting LOW — not verified]. Signature viewing foods are grilled meat
+and Isan dishes on a low table: moo ping, gai yang, som tam, larb,
+crispy pork, sticky rice [LOW — not verified].
+
+#### Watch party: English Premier League, late night (football)
+- When: August to May. Saturday 15:00 UK games land at about
+  **22:00 Bangkok**, Sunday big games run roughly 20:00–23:30, and
+  Champions League nights fall at about 02:00–03:00 [MEDIUM for EPL —
+  ThaiRanked; Champions League LOW — time-zone arithmetic]. Intake time
+  of day: **evening, late night**. Stage it as a night scene: screen
+  glow, a lamp or fluorescent tube, dark windows or a dark soi; never
+  golden hour.
+- Gathering: 2–6 friends or family at home (condo, townhouse, the space
+  in front of a shophouse), or a few friends at a street-food shop or
+  shophouse restaurant with a TV mounted high on the wall [EDITORIAL].
+  Intake venue: home indoor, home outdoor (front yard, shophouse
+  frontage), or restaurant (street-food shop). The sports bar is out
+  (drinking-led).
+- The spread: moo ping skewers on a plate or on their paper, gai yang
+  chopped on a plate with jaew, som tam on a plate, a bowl of larb,
+  crispy pork snacks, sticky rice in a kratip or small bags (see
+  catalog: Moo ping with sticky rice; Gai yang with sticky rice and
+  jaew; Som tam; Larb and nam tok; Khao moo daeng / moo krob). Takeaway
+  from a stall decanted onto melamine plates is the home norm
+  [LOW — not verified; EDITORIAL]. Halal briefs: gai ping (chicken
+  skewers), gai yang, beef larb, no crispy pork.
+- Surface and environment: a **low steel or Formica table**, or a floor
+  mat with cushions at home; at a shop, a steel table with plastic
+  stools and a condiment caddy. Ceiling fan, the TV a soft green glow
+  across the room, the night outside. What reads as Thailand: plastic
+  stools, melamine plates, the spoon-and-fork pair, sticky-rice baskets,
+  a glass of ice beside the hero.
+- Snapshot staging: **1 setting** — one plate with sticky rice and a
+  few pieces of gai yang, a skewer plate and som tam partly cropped, the
+  hero (from the brief) with a glass of ice, the TV a blurred glow
+  behind. **2 settings** — two plates side by side facing the screen
+  (both on one side of the low table), shared skewers, som tam and larb
+  between them. **Small group (3–4)** — the low table running out of
+  frame, more plates than the visible diners need, a midground PET when
+  the brief allows one. Crowd cues: the backs of one or two blurred
+  heads toward the glow, extra plastic stools, more kratips at the edge.
+- Never stage: beer, whisky sets, ice buckets with bottles; the sports
+  bar counter; betting slips, odds screens or phones showing betting
+  apps (football betting is a known sensitivity [LOW — not verified]);
+  legible screens, crests, kits, sponsor marks; a royal portrait or
+  Buddha shelf near the TV.
+- Confidence and sources: MEDIUM for timing (ThaiRanked, "where to
+  watch the Premier League in Bangkok"); LOW — not verified for the
+  spread, the home-versus-shop split and the betting note; EDITORIAL
+  composition.
+
+#### Watch party: Thai national team (football; also women's volleyball)
+- When: international windows and regional tournaments; kick-off times
+  vary, and home-region games are usually in the evening [LOW — not
+  verified]. Intake time of day: **evening**. The notes also list
+  volleyball as a big Thai viewing sport; the women's national team is
+  widely followed [LOW — not verified, no source this pass].
+- Gathering: family and friends at home, 4–8 people; national-colours
+  T-shirts without crests [EDITORIAL]. Intake venue: home indoor or home
+  outdoor (yard, under the stilted house in Isan).
+- The spread: the Isan home spread — larb, sticky rice, crispy pork, som
+  tam, gai yang (see catalog: Larb and nam tok; Som tam; Gai yang with
+  sticky rice and jaew; Khao moo daeng / moo krob). Halal briefs as
+  above.
+- Surface and environment: a low table or mat, a family kratip in the
+  centre, the TV glow, a fan; red-white-blue paper goods or a cropped
+  tricolour pattern soft in the background at most (never a full flag).
+- Snapshot staging: as for the EPL entry, at evening light. Crowd cues:
+  the table or mat running out of frame, blurred relatives on the sofa
+  behind, extra plates stacked.
+- Never stage: a full Thai flag; any royal portrait (often near the TV
+  in living rooms); alcohol; legible screens, crests, kits.
+- Confidence and sources: LOW — not verified (notes' ranked scene 2,
+  model knowledge); EDITORIAL composition.
+
+#### Watch party: Muay Thai on TV, weekend afternoon (home only)
+- When: weekend afternoons on TV at home [LOW — not verified]. Stadium
+  cards run most nights 21:00–24:00 [MEDIUM — travel guides], but the
+  stadium is never staged. Intake time of day: **midday** or
+  **golden-hour**.
+- Gathering: 2–5 family members or neighbours at home. Intake venue:
+  home indoor or home outdoor (front yard, carport, under the stilted
+  house).
+- The spread: afternoon snacks and a light meal: moo ping, a plate of
+  gai yang, som tam, sticky rice, fruit (see catalog: Moo ping with
+  sticky rice; Som tam; Gai yang with sticky rice and jaew)
+  [LOW — not verified; EDITORIAL].
+- Surface and environment: low table or mat in daylight, ceiling fan,
+  shoes outside the door, the TV a blurred glow in the corner.
+- Snapshot staging: **1 setting** — a plate and a small kratip, a
+  skewer plate cropped, the hero with a glass of ice. **2 settings** —
+  two places on a mat, som tam and gai yang between them. **Small
+  group** — the mat running out of frame. Crowd cues: a blurred figure
+  in a hammock or on a chair behind, extra stools.
+- Never stage: the stadium crowd; betting (integral to stadium culture
+  [LOW — not verified]); fighters' faces, blood, belt or promoter logos;
+  any legible screen.
+- Confidence and sources: MEDIUM for stadium times (travel guides,
+  per the research notes); LOW — not verified for the TV habit and food.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. Basis:
+karaoke is described as a social ritual, with private-room chains in
+malls and rural karaoke bars [LOW-MEDIUM — Thailandblog], and Bangkok
+has about 150 board-game cafés [MEDIUM — BKK Kids, Siam2nite]. Games are
+a regular part of going out with friends rather than a fixed weekly
+"night". Home mookata with cards or a board game is a plausible pairing
+but was not verified [LOW — not verified], so it has no entry.
+
+#### Game night: private karaoke room with friends
+- When: evenings, weekends especially [LOW — not verified]. Intake time
+  of day: **evening**.
+- Gathering: 3–10 friends, young adults or colleagues, in a private
+  room at a mall karaoke chain [LOW-MEDIUM — Thailandblog]. Intake
+  venue: other (karaoke room).
+- The spread: fried snacks (fries, fried chicken), som tam, grilled
+  pork on plates, a fruit plate, all on the room's low table (see
+  catalog: Som tam; Moo ping with sticky rice) [LOW]. Halal briefs swap
+  the pork for chicken.
+- Surface and environment: a low glass-top table with a sofa bench
+  around it, a big screen as a soft field of colour, coloured LED light,
+  two wireless mics resting on the table, never held.
+- Snapshot staging: **1 setting** — the corner of the low table: a
+  small plate, a plate of fried snacks and som tam cropped, the hero
+  with a glass of ice, a mic lying beside it. **2 settings** — two
+  places on the sofa bench, shared plates between them. **Small group**
+  — the table and sofa running out of frame, more plates. Crowd cues:
+  blurred shapes on the far sofa, a second mic, coloured light on the
+  walls.
+- Never stage: beer, whisky sets or ice buckets (karaoke and drinking
+  often go together); **rural karaoke bars with hostesses**, which are
+  seedy-coded (Thailandblog notes "dark practices"); legible lyrics,
+  song titles or machine brands; a face singing into a mic near the
+  camera.
+- Confidence and sources: LOW-MEDIUM — Thailandblog, "Karaoke in
+  Thailand"; food LOW; EDITORIAL composition.
+
+#### Game night: board-game café
+- When: weekend **midday** to **evening** [MEDIUM for the café scene —
+  BKK Kids, Siam2nite; timing EDITORIAL].
+- Gathering: 3–6 friends, students and young professionals, in
+  Bangkok. Intake venue: restaurant (café).
+- The spread: café food on side plates so the board stays clear:
+  fries, toasties, waffles; drinks in tall glasses (Thai milk tea and
+  bubble tea are the real defaults — intruders under hard rule 8; the
+  hero takes the drink slot) [MEDIUM for cafés; food LOW — not verified].
+  There is no catalog entry for café food (see CANDIDATE QUEUE).
+- Surface and environment: a wooden café table, shelves of game boxes
+  blurred behind (spines unreadable), a generic board with abstract
+  tiles, dice and wooden pieces, plants and concrete décor.
+- Snapshot staging: **1 setting** — one side plate of fries beside the
+  board edge, the hero (from the brief) and its glass, cards fanned face
+  down. **2 settings** — two places across the board, a shared plate of
+  fries and a waffle. **Small group** — the board in the centre, plates
+  at the corners, the table cropped. Crowd cues: another table of
+  players blurred behind, a full games shelf.
+- Never stage: licensed or branded games (no recognisable board
+  layouts); legible cards or rules; money.
+- Confidence and sources: MEDIUM — BKK Kids, Siam2nite (café count and
+  scene); LOW for the food; EDITORIAL composition.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2583,6 +2766,15 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   because both are common parts of Thai life; the entries stage only the
   guests' meal, after or apart from the monks.
 
+- **Game-night pass (2026-10-01) open items**: Muay Thai as a
+  weekend-afternoon TV habit, the viewing-food spread (moo ping, gai
+  yang, som tam, larb, crispy pork), home-versus-shop viewing, Thai
+  national-team kick-off times, women's volleyball as a viewing
+  occasion, the scale of football betting, karaoke-room menus and timing,
+  board-game café food, and home mookata with card or board games are
+  all not verified (model knowledge or editorial). Champions League
+  times are time-zone arithmetic only.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with five zones (recommended)
@@ -2614,6 +2806,12 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
    fish** (Chinese New Year offering dishes returned to the table),
    **mookata** (already listed above; now also needed for the birthday
    entry), and **khanom khai** (wedding egg cakes).
+
+9. **Game-night pass additions (2026-10-01)**: **mookata** (third
+   occasion now needing it), a **drinking-snack / grilled-skewer plate**
+   for late-night viewing (gai ping and crispy pork snack plates), and a
+   compact **Bangkok café plate** (fries, toastie, waffle) for the
+   board-game café entry.
 
 ## RESEARCH LOG
 
@@ -2657,3 +2855,9 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   Thailand Foundation (housewarming; New Year recipes); Michelin Guide;
   Charinya's Kitchen and Lion Brand (tier 4, Isan wedding); caterer menus
   (tier 3). No subagents.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT with 3 watch-party entries (EPL late night,
+  Thai national team, Muay Thai on TV at home) and 2 social game-night
+  entries (private karaoke room, board-game café). Key sources carried
+  over: ThaiRanked; Thailandblog; BKK Kids; Siam2nite. No subagents.
