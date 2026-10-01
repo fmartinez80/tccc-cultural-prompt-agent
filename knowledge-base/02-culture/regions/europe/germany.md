@@ -872,6 +872,202 @@ Kaffeetafel scene.
 
 ---
 
+## GAME NIGHT
+
+Schema §5.8 applies throughout: screens, cards, boards and tiles are
+never legible; no crests, kits, sponsor marks or league logos; no
+betting slips, odds screens, betting apps or money on the table; party
+size is the place settings in frame, the crowd implied (§5.7); no
+identifiable children; a late kick-off is a night scene. The
+alcohol-exclusion rule (FILE ROLE & METHOD) and the children and schools
+caution apply to every entry: beer is the default at every German
+football setting in reality, and none may appear in frame. The brief
+dictates the SKU (§5.4); the pairing matrix in COCA-COLA MARKET
+INTEGRATION already rates stadium and public viewing a strong fit (can
+or 0.5L PET). Existing lines this section builds on rather than repeats:
+the Sport settings line in ENVIRONMENT & STAGING SCENES (stadium
+concourse kiosk, public-viewing screen, amateur clubhouse kiosk), the
+"football terrace or public-viewing crowd" Coca-Cola-alone moment, and
+Gulaschsuppe as a stadium staple (catalog: Soups & Eintopf).
+
+### Watch parties
+
+Football is the viewing occasion: the Bundesliga weekend at home or in
+the Kneipe, and in tournament summers the national team at Public
+Viewing fan miles and at home with the grill. Euro 2024 fan zones held
+about 40,000 in Berlin and 25,000 in Munich [HIGH — The Local,
+muenchen.de, UEFA]. Signature viewing foods are Bratwurst in a roll with
+mustard, Pommes and Currywurst at the fan mile, and Knabberzeug (crisps,
+peanut puffs, salt sticks) in bowls plus Frikadellen at home. The
+stadium-concourse kiosk is already covered by the existing Sport line
+and needs no separate entry.
+
+#### Watch party: Public Viewing fan mile (Euro and World Cup summers)
+- When: June to July in tournament years. For a European-hosted
+  tournament, games kick off around 15:00, 18:00 and 21:00 local time
+  [LOW — not verified, model knowledge for Euro 2024 slots], so the
+  intake time is golden-hour or evening; a 21:00 kick-off ends in full
+  darkness, so the scene carries the LED wall's glow and string lights,
+  not golden hour. World Cup 2026 games from North America landed in the
+  German evening or late night [LOW — arithmetic].
+- Gathering: tens of thousands on a closed-off square, park or fan mile
+  (Berlin about 40,000; Munich Olympiapark about 25,000 for Euro 2024)
+  [HIGH]. The operator's party is 1 to 4 friends at a stand-up table.
+  Venue: other (fan zone).
+- The spread: Bratwurst in a roll with a stripe of mustard on a paper
+  tray (see catalog: Bratwurst im Brötchen), Pommes in a paper cone or
+  tray (see catalog: Pommes), Currywurst cut into slices with a wooden
+  fork (see catalog: Currywurst); fan-zone food stands are documented
+  [LOW-MEDIUM — fan-zone food noted by The Local; the specific dish mix
+  is not verified].
+- Surface and environment: a round stand-up high table (*Stehtisch*),
+  paper trays and napkins; a giant LED wall far behind as an
+  out-of-focus green field; string lights, food-stall awnings and the
+  backs of a crowd soft in the background; a plain black-red-gold scarf
+  or a cropped tricolour pattern at most, never a full flag (reviewer
+  ruling, §5.7).
+- Snapshot staging: **1 setting**: one paper tray with a Bratwurst roll
+  on the high table, the screen glow far behind. **2 settings**: two
+  identical trays side by side, a shared Pommes cone between them.
+  **Small group**: three or four trays round the high table, a second
+  high table soft behind, blurred backs of heads toward the screen (no
+  more than about 2.5 faces, none sharp).
+- Never stage: beer cups, beer stands, deposit beer cups stacked on the
+  table (the strongest prior in this scene; prompt "no beer, no cups
+  other than the hero product"); national or club kits with crests or
+  sponsor marks; face paint on children; a legible screen or sponsor
+  banner; flares or crowd crush.
+- Confidence and sources: HIGH for fan-zone scale ([The Local — Euro
+  2024 fan zones](https://www.thelocal.de/20240612/where-are-the-fan-zones-for-euro-2024-in-germany);
+  [muenchen.de — Fan Zone Olympiapark](https://www.muenchen.de/en/events/uefaeuro2024/fan-zone-munich-olympic-park-public-viewig-concerts));
+  LOW-MEDIUM for food; LOW for kick-off times; EDITORIAL for staging.
+
+#### Watch party: tournament game at home with the garden grill
+- When: tournament summers, an 18:00 or 21:00 kick-off with the grill lit
+  beforehand; intake time golden-hour for the grilling, evening for the
+  game itself [LOW — not verified; the notes rank it Germany's second
+  stageable scene].
+- Gathering: friends, neighbours or family, 4 to 10; home outdoor
+  (garden, allotment, balcony) with the TV carried out or seen through
+  the patio door, or a projector on a wall. Follows the summer
+  Grillfest pattern (see CELEBRATIONS: Summer Grillfest).
+- The spread: Grillwurst and Bratwurst (see catalog: Bratwurst im
+  Brötchen), potato salad (see catalog: Kartoffelsalat), Brezeln (see
+  catalog: Brezel), a bread basket, mustard and ketchup [LOW — not
+  verified for the viewing pairing; the grill menu is MEDIUM-HIGH per
+  the Grillfest entry].
+- Surface and environment: an oilcloth-covered garden table, folding
+  chairs, the grill smoking soft behind; a TV glow through the patio
+  door or a projector image on a white wall, unreadable; string lights at
+  dusk.
+- Snapshot staging: **1 setting**: one plate with a Bratwurst, a spoon of
+  potato salad and half a Brezel, the TV glow through the door behind.
+  **2 settings**: two identical plates, the sausage platter and salad
+  bowl between them. **Small group**: three or four plates at one end of
+  the garden table, extra salad bowls cropped, blurred figures facing
+  the screen.
+- Never stage: beer bottles or crates of beer (prompt "no beer, no
+  bottles other than the hero product"); kits with crests; a legible
+  screen.
+- Confidence and sources: LOW for the viewing-specific pairing; see the
+  Grillfest entry for the grill menu; EDITORIAL for staging.
+
+#### Watch party: Bundesliga Saturday on the sofa
+- When: August to May. The main Saturday kick-off is about 15:30, with
+  the top game about 18:30 [LOW — not verified, model knowledge];
+  intake time golden-hour for 15:30 (midday light in summer, near dusk
+  in winter) and evening for 18:30.
+- Gathering: 2 to 6 friends or family; home indoor, typically the
+  living room of a rented apartment (see ENVIRONMENT). The Kneipe
+  (neighbourhood pub) showing the game is the main public form and is
+  beer-led: stage the home version instead.
+- The spread: Knabberzeug in bowls: crisps (*Chips*), peanut puffs
+  (*Erdnussflips*), salt sticks; Frikadellen on a plate with mustard
+  (see catalog: Frikadelle); a pizza delivery box (see catalog:
+  Contemporary everyday food, Pizza) [LOW — not verified; the notes list
+  Chips, Flips and Frikadellen].
+- Surface and environment: a coffee table in front of the sofa; a
+  modest apartment living room; the TV a soft green blur with no score
+  bug or broadcaster mark; a plain scarf in club-neutral colours over
+  the sofa arm at most.
+- Snapshot staging: **1 setting**: one small plate with two Frikadellen
+  and mustard on the coffee table, a bowl of Flips beside it. **2
+  settings**: two identical plates, the snack bowls and an open pizza box
+  between them. **Small group**: plates round the coffee table, more snack
+  bowls than needed, blurred figures on the sofa running out of frame.
+- Never stage: beer bottles or crates; club crests, kits or sponsor
+  marks; a legible screen; betting apps.
+- Confidence and sources: LOW for timing and spread; EDITORIAL for
+  staging.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Germany
+has the highest board-game purchases per capita and SPIEL Essen drew
+about 220,000 visitors in 2025 [MEDIUM — Wikipedia, SPIEL]. The home
+*Spieleabend* (games evening) with Euro-style board games is the core
+format; Skat and Doppelkopf card games are traditional, often in the
+Kneipe [LOW — not verified]. The Kneipe card table is beer-led, so it is
+staged only as a home table.
+
+#### Game night: Spieleabend at home (board or card games)
+- When: weekend evening; intake time evening; winter is the strongest
+  season [EDITORIAL].
+- Gathering: 3 to 6 friends or a family across generations at the
+  dining table or coffee table; home indoor.
+- The spread: Knabberzeug in bowls (salt sticks, crisps, pretzel snacks),
+  a cheese and cold-cuts board with bread (see catalog: Abendbrot spread,
+  Obatzda & Brotzeit board); food on side plates and a separate board so
+  it does not cover the game [LOW — not verified; the notes' editorial
+  spread].
+- Surface and environment: a wooden dining table under a pendant lamp;
+  a generic board with abstract tiles, wooden meeples and dice, or a
+  fanned hand of plain cards for Skat or Doppelkopf; a shelf of game
+  boxes blurred behind with unreadable spines; candles or a lamp in
+  winter.
+- Snapshot staging: **1 setting**: one side plate with bread and cheese
+  at the table edge, a bowl of salt sticks, the board partly in frame.
+  **2 settings**: two identical side plates, the shared board between
+  them, dice and meeples on the game. **Small group**: four side plates
+  round the table, the cold-cuts board cropped at one end, blurred
+  players leaning in.
+- Never stage: licensed or branded games (Catan or other recognisable
+  boxes and boards, branded decks); legible cards or score pads; money
+  or stakes on the table (Skat is sometimes played for small stakes)
+  [LOW]; beer or wine glasses.
+- Confidence and sources: MEDIUM for popularity ([Wikipedia — Spiel](https://en.wikipedia.org/wiki/Spiel);
+  [IMARC Germany board games](https://www.imarcgroup.com/germany-board-games-market),
+  market-research tier, flagged); LOW for the spread; EDITORIAL for
+  staging.
+
+#### Game night: holiday games (Advent, Christmas and Silvester)
+- When: Advent and Christmas afternoons (golden-hour, dark by about
+  16:30 in December, so lamp and candle light) and New Year's Eve
+  (evening, through to midnight) [LOW — not verified for the pairing].
+- Gathering: the family from the Christmas and Silvester entries (see
+  CELEBRATIONS: Christmas feast; New Year's Eve raclette), 4 to 10;
+  home indoor.
+- The spread: Advent and Christmas: a tin of Plätzchen (Christmas
+  biscuits) and sliced Stollen (no catalog entry yet; see CANDIDATE
+  QUEUE item 7). Silvester: games played around or after the raclette
+  (see catalog: New Year's Eve raclette) [LOW — the notes flag the
+  raclette-and-games pairing as not verified].
+- Surface and environment: dining table with a seasonal cloth, an
+  Advent wreath or candle arch soft at the edge, a generic board game or
+  plain cards pushed to one end; for Silvester, the raclette grill in the
+  middle with the game beside it.
+- Snapshot staging: **1 setting**: one plate with two biscuits and a
+  slice of Stollen beside the board. **2 settings**: two identical plates,
+  the biscuit tin open between them. **Small group**: plates round one
+  end of the table, the raclette grill or the Stollen board cropped,
+  blurred relatives behind.
+- Never stage: Sekt, mulled wine or wine (strong priors at both
+  occasions); fireworks as the focus; branded games; money on the table;
+  identifiable children.
+- Confidence and sources: LOW for the pairings; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 **Scale note for every entry.** Per `coca-cola-guidelines.md` §3/§4.3, the
@@ -3327,6 +3523,13 @@ copyrighted design.
   Gulaschsuppe) and the Silvester lucky-charm decor are general knowledge,
   not searched. Easter Sunday lamb is documented by food and consumer-
   portal sources; no survey of how many families actually eat it.
+- **Game-night pass (2026-10-01) open items.** Not verified: tournament
+  and Bundesliga kick-off slots (model knowledge); the fan-zone dish mix
+  beyond "food stands" (The Local); the home viewing snacks (Chips,
+  Flips, Frikadellen) and the garden-grill viewing pairing; Skat and
+  Doppelkopf in the Kneipe and whether stakes are common; the Silvester
+  raclette-plus-games pairing; the Spieleabend food spread. Board-game
+  purchase figures come partly from IMARC (market research, flagged).
 
 ## CANDIDATE QUEUE
 
@@ -3362,6 +3565,10 @@ copyrighted design.
    2026-10-01): roast lamb (Easter); Osterlamm cake and Osterzopf
    (compact sweets rows); Stollen and Christmas biscuits (compact rows);
    Wiener/Frankfurter sausages as the Christmas Eve pairing (compact).
+8. Game-night viewing foods with no catalog entry (game-night pass
+   2026-10-01): Knabberzeug as a compact block (crisps, Erdnussflips,
+   salt sticks in bowls, blank packets); Plätzchen tin (also covered by
+   item 7's Christmas biscuits).
 
 ## RESEARCH LOG
 
@@ -3464,3 +3671,12 @@ copyrighted design.
   raclette, Easter Sunday lunch, birthday Kaffeetafel and children's
   party, confirmation and First Communion, wedding, summer Grillfest.
   WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  three watch-party entries (Public Viewing fan mile, tournament game at
+  home with the garden grill, Bundesliga Saturday on the sofa) and two
+  social game-night entries (Spieleabend at home, holiday games at
+  Advent, Christmas and Silvester). Points to the existing Sport settings
+  line and the stadium Gulaschsuppe row rather than repeating them. The
+  Kneipe (viewing and Skat) is staged only as a home version.

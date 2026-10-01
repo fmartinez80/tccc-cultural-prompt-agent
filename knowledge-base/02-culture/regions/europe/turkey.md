@@ -987,6 +987,205 @@ evening meal is what gets staged.
 
 ---
 
+## GAME NIGHT
+
+The hard staging rules at the top of this file govern every entry: no
+pork; no alcohol or meyhane cues; Ramadan treated as a religious
+occasion (a match night in Ramadan is staged after iftar, nothing eaten
+in daylight); and **no çay or ayran beside the hero**. Tea is the most
+authentic drink at every format below (the derby tea tray, okey and
+tavla "over tea for hours") and is recorded here as real, but it stays
+out of frame unless the brief allows a named companion drink: negate the
+tulip glass and the çaydanlık by name in every prompt. Schema §5.8 also
+applies: screens, cards, boards and tiles are never legible; no crests,
+kits, sponsor marks or league logos; no betting slips, odds screens,
+betting apps, cash or scoring for money (okey is often played for
+stakes); party size is the place settings in frame, the crowd implied
+(§5.7); no identifiable children; a night kick-off is a night scene. The
+brief dictates the SKU (§5.4). This file had no earlier sports or games
+lines.
+
+### Watch parties
+
+Football is the viewing occasion, and the Fenerbahçe–Galatasaray derby
+is described as the biggest match in Türkiye [HIGH — Wikipedia,
+Hürriyet Daily News]; the national team and EuroLeague basketball draw
+national audiences too [LOW — not verified for basketball]. Home viewing
+with friends and family is the stageable default; the neighbourhood
+kahvehane showing the game is real but a male space. The signature
+viewing foods are **çekirdek** (roasted sunflower seeds) with a dish for
+the shells, crisps and kuruyemiş (mixed nuts), and lahmacun or pide
+delivery; Turkish food media and forum threads name "crisps, cola,
+çekirdek" as the classic match trio [LOW-MEDIUM — Yemek.com and Lezzet
+match-snack features, a CarrefourSA retailer blog, and Technopat forum
+threads, all found in one search this pass; recipe-media and retailer
+tier, flagged].
+
+#### Watch party: derby night at home (Fenerbahçe–Galatasaray, and Beşiktaş derbies)
+- When: two league derbies a season plus cup games, August to May; big
+  league games usually kick off in the evening, about 19:00 to 20:00
+  local time [LOW — not verified, model knowledge]. Intake time evening:
+  dark outside for most of the season, lamp and TV glow.
+- Gathering: family or 4 to 8 friends in the apartment salon; home
+  indoor (see ENVIRONMENT for the salon register). A household split
+  between the two clubs is a real dynamic; show it with neutral clothes,
+  never kits or club colours worn as uniforms.
+- The spread: a bowl of çekirdek with a small empty dish for the shells
+  and a scatter of split shells on the table; crisps and kuruyemiş in
+  bowls [LOW-MEDIUM — the search above]; lahmacun rolled or flat in
+  delivery boxes (see catalog: Lahmacun) and pide cut into strips on a
+  wooden board or in its box (see catalog: Pide); a cheese plate with
+  olives and crackers is a food-media alternative [LOW-MEDIUM — Yemek.com;
+  delivery dishes LOW — not verified].
+- Surface and environment: a low coffee table (*orta sehpa*) in front of
+  the sofa, a lace runner or plain cloth; the TV a soft green blur with no
+  score bug or channel mark; apartment salon with patterned rug and
+  curtains. The real-life tea tray with tulip glasses is the most
+  authentic detail and the one to keep out of frame (hard rule 4).
+- Snapshot staging: **1 setting**: one plate with a rolled lahmacun and a
+  lemon wedge on the coffee-table edge, the çekirdek bowl and shell dish
+  beside it. **2 settings**: two identical plates, the open lahmacun box
+  and the çekirdek bowl shared between them. **Small group**: three or four
+  plates round the table, more boxes and bowls than needed, blurred figures
+  on the sofa facing the screen (no more than about 2.5 faces, none sharp).
+- Never stage: çay glasses, the çaydanlık or ayran (negate by name); beer
+  (Efes is a strong prior for football); club crests, yellow-navy or
+  red-yellow kits as uniforms, sponsor marks; a legible screen; betting
+  slips or the state betting game's coupons; flares or fan violence.
+- Confidence and sources: HIGH for the derby's status ([Wikipedia — The
+  Intercontinental Derby](https://en.wikipedia.org/wiki/The_Intercontinental_Derby_(football));
+  [Hürriyet Daily News](https://www.hurriyetdailynews.com/all-eyes-on-intercontinental-derby-between-galatasaray-fenerbahce-169504));
+  LOW-MEDIUM for çekirdek, crisps and nuts ([Yemek.com — derby snacks](https://yemek.com/mac-icin-atistirmaliklar/);
+  [Lezzet — match snacks](https://www.lezzet.com.tr/lezzetten-haberler/mac-atistirmaliklari);
+  [CarrefourSA blog](https://www.carrefoursa.com/blog/dunya-kupasi-maclarinda-ne-yenir-evde-mac-keyfi-icin-atistirmalik-alisveris-listesi/);
+  [Technopat forum](https://www.technopat.net/sosyal/konu/mac-izlerken-en-cok-ne-yemekten-zevk-aliyorsunuz.2529609/));
+  LOW for kick-off times and delivery dishes; EDITORIAL for staging.
+
+#### Watch party: national-team night (milli maç)
+- When: qualifiers and tournament games, mostly evenings; tournament
+  summers in June and July [LOW — not verified].
+- Gathering: family or friends at home (home indoor, or a balcony in
+  summer, home outdoor); cafés and restaurant terraces with a screen
+  are the public form [LOW — not verified].
+- The spread: çiğ köfte wraps with lettuce leaves and lemon wedges on a
+  platter (see catalog: Çiğ köfte; the meat-free modern form, per that
+  entry), çekirdek and kuruyemiş in bowls, simit torn on a plate (see
+  catalog: Simit) [LOW — not verified, the notes' list].
+- Surface and environment: a coffee table or a balcony table with a
+  plastic cloth, summer dusk; a red paper garland or a cropped
+  crescent-and-star pattern at most, never a full flag (reviewer ruling,
+  §5.7).
+- Snapshot staging: **1 setting**: one plate with two çiğ köfte wraps and
+  a lemon wedge, the platter cropped beside it. **2 settings**: two
+  identical plates, the platter and a çekirdek bowl between them.
+  **Small group**: plates round the balcony table, a second platter
+  cropped, blurred figures toward the screen through the door.
+- Never stage: çay, ayran or beer; a full flag; national kits with crests
+  or sponsor marks; a legible screen.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+#### Watch party: neighbourhood café or kahvehane screening (food-led, tea out of frame)
+- When: evening league and derby games [LOW].
+- Gathering: the kahvehane is a male-dominated space where men watch on
+  a wall-mounted TV [LOW — not verified; the social-games notes describe
+  it as a male space]. Stage it either as an all-male café group of 2 to
+  3 at one small table, without tea, or as a mixed modern café; never a
+  crowded room. Venue: restaurant (café).
+- The spread: kaşarlı tost (a pressed grilled-cheese sandwich; the
+  sucuklu form uses beef sucuk, per hard rule 1) cut in halves on a small plate, simit (see catalog: Simit), a
+  bowl of çekirdek [LOW — not verified]. No catalog entry for tost (see
+  CANDIDATE QUEUE).
+- Surface and environment: small square tables, wooden chairs, a TV
+  high on the wall as a soft glow, a window onto the street at night.
+- Snapshot staging: **1 or 2 settings** at one small table, a plate of
+  tost each, the çekirdek bowl between them; other tables soft and empty
+  or with backs only. Small groups are better staged at home.
+- Never stage: tulip tea glasses on the table (the default in reality;
+  negate by name); okey tables with stakes in the background; a legible
+  screen or sign.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**. Okey (tile
+rummy) and tavla (backgammon) are played over tea for hours at the
+kahvehane and at home; 96% of people drink tea daily (TÜİK); an online
+okey app reports 50 million-plus users [MEDIUM — Journal of Ethnic Foods
+2022, Intern Network Turkey]. Tombala (a bingo-style numbers game) on
+New Year's Eve is a family custom [LOW — not verified]. The kahvehane is
+a male space and okey is often played for stakes, so the home and mixed
+café versions are staged.
+
+#### Game night: family okey at home (winter evening)
+- When: winter evenings and holidays at home; intake time evening
+  [MEDIUM / LOW — the notes' timing].
+- Gathering: four players with family onlookers in the salon; home
+  indoor.
+- The spread: a bowl of çekirdek, börek cut in squares on a plate (see
+  catalog: Börek), a fruit plate (mandarins, apples), kuruyemiş [LOW —
+  not verified; the notes' editorial spread].
+- Surface and environment: a square table or the dining table with a
+  felt cloth; the four wooden racks (*ıstaka*) with tiles turned so their
+  faces are unreadable; food on a side table or at the corners so it does
+  not cover the game; lamp light, a patterned rug.
+- Snapshot staging: **1 setting**: one small plate with a börek square at
+  the table corner, a rack and tiles soft in the foreground. **2
+  settings**: two identical small plates at adjacent corners, the
+  çekirdek bowl between them. **Small group**: four places round the
+  table, the fruit plate and börek tray on a side table cropped, an
+  onlooker as a soft shape behind.
+- Never stage: tulip tea glasses and the çaydanlık (on every real okey
+  table; negate by name); money, chips or score sheets for stakes;
+  legible tile faces as a scoring hand.
+- Confidence and sources: MEDIUM for popularity ([Journal of Ethnic Foods
+  2022 — tea and coffee in Turkey](https://journalofethnicfoods.biomedcentral.com/articles/10.1186/s42779-022-00124-9);
+  [Intern Network Turkey — tavla and okey](https://www.internnetworkturkey.com/2022/04/05/tavla-and-okey-turkish-board-games/));
+  LOW for the spread; EDITORIAL for staging.
+
+#### Game night: tavla at a café or garden table
+- When: afternoons and early evenings, all year; intake time golden-hour
+  [MEDIUM / LOW].
+- Gathering: two players and an onlooker; a mixed café or a home garden
+  or balcony table (home outdoor, restaurant), not the male kahvehane
+  [EDITORIAL].
+- The spread: simit on a plate (see catalog: Simit), a plate of white
+  cheese and olives, a small bowl of çekirdek [LOW — not verified].
+- Surface and environment: an inlaid wooden tavla board open on a small
+  café or garden table, dice mid-board, a vine or plane tree overhead,
+  golden late light.
+- Snapshot staging: **1 setting**: one plate with a simit beside the open
+  board. **2 settings**: two identical plates either side of the board,
+  the cheese plate at the edge. **Small group**: a third chair with a
+  plate, a second café table soft behind.
+- Never stage: tea glasses; money on the board; legible signage.
+- Confidence and sources: MEDIUM for the game, LOW for the spread;
+  EDITORIAL for staging.
+
+#### Game night: New Year's Eve tombala
+- When: 31 December, after dinner and before midnight; intake time
+  evening [LOW — not verified].
+- Gathering: the family or friends from the New Year's Eve entry (see
+  CELEBRATIONS: New Year's Eve dinner), 4 to 10, at the cleared dining
+  table; home indoor.
+- The spread: after the hindi dolması course: baklava on a tray (see
+  catalog: Baklava), mandarins in a bowl, kuruyemiş, the meze plates
+  still on the table (see catalog: Meze, family register) [LOW — the
+  notes' editorial spread].
+- Surface and environment: the dining table with a festive cloth, the
+  tombala cloth bag and numbered pieces with numbers unreadable, plain
+  cards with blank grids; the secular New Year's tree and streamers soft
+  behind.
+- Snapshot staging: **1 setting**: one dessert plate with a baklava piece
+  and a mandarin beside a blank tombala card. **2 settings**: two
+  identical dessert plates, the baklava tray between them. **Small
+  group**: plates round one end of the table, the bag in the middle,
+  blurred relatives behind.
+- Never stage: prizes of money or the national lottery ticket; rakı,
+  wine or champagne; legible numbers or cards; identifiable children.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+---
+
 ## ZONE CALLOUTS (environment + dish pointers)
 
 1. **Istanbul & Marmara** — Apartment blocks, ferries, the water, simit
@@ -2249,6 +2448,15 @@ entry]
   throughout (no searches spent). The weekend piknik entry relies on the
   file's own unverified ENVIRONMENT note. TCCC Türkiye's own Ramadan and
   bayram advertising practice is still not researched.
+- **Game-night pass (2026-10-01) open items.** One search this pass
+  (match-night snacks) put çekirdek, crisps and nuts at LOW-MEDIUM from
+  recipe media, a retailer blog and forums; everything else is LOW and
+  not verified: derby and Süper Lig kick-off times; lahmacun and pide
+  delivery as derby food; çiğ köfte for national-team nights; the
+  kahvehane screening and its tost and simit; okey, tavla and tombala
+  food spreads; New Year's Eve tombala as a custom; EuroLeague
+  basketball viewing. Tea at okey, tavla and the derby is recorded as
+  authentic and kept out of frame per hard rule 4.
 
 ## CANDIDATE QUEUE
 
@@ -2268,6 +2476,9 @@ entry]
 6. Celebration dishes with no catalog entry (celebrations pass
    2026-10-01): keşkek; etli pilav (düğün pilavı); hünkâr beğendi;
    hindi dolması (New Year's); yaş pasta (compact).
+7. Game-night foods with no catalog entry (game-night pass 2026-10-01):
+   çekirdek (sunflower seeds with a shell dish) and kuruyemiş as a compact
+   snack entry; kaşarlı tost (café register).
 
 ## RESEARCH LOG
 
@@ -2308,3 +2519,11 @@ entry]
   family meal, New Year's Eve dinner, wedding (village and salon), sünnet
   feast, weekend mangal and piknik, birthday. Bayram mornings mentioned,
   main meals staged, per the 2026-10-01 breakfast rule. WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 1 new
+  search (Turkish match-night snacks: Yemek.com, Lezzet, CarrefourSA,
+  Technopat). Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  three watch-party entries (derby night at home, national-team night,
+  neighbourhood café or kahvehane screening staged food-led with tea out
+  of frame) and three social game-night entries (family okey at home,
+  tavla at a café or garden table, New Year's Eve tombala).

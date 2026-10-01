@@ -970,6 +970,203 @@ product near fire) also applies.
 
 ---
 
+## GAME NIGHT
+
+Schema §5.8 and file-wide rules 1 to 5 apply to every entry: screens,
+cards, boards and tiles are never legible (rule 1); the brief dictates
+the SKU (rule 2); no other drinks in frame (rule 3: caña, wine, vermut,
+coffee and the after-meal liqueur are all real at these occasions);
+nothing held in a hand (rule 4). No crests, kits, sponsor marks or league
+logos; no betting slips, odds screens, betting apps or money on the
+table (sports betting is heavily advertised in Spain [LOW — not
+verified]); party size is the place settings in frame, the crowd implied
+(§5.7); no identifiable children; a 21:00 kick-off is a night scene.
+Existing lines this section builds on rather than repeats: the
+**Football in a bar** and **Stadium stands** rows in CROSS-CUTTING
+REGISTER: COCA-COLA MOMENTS (raciones and bocadillos at the bar; a
+bocadillo in foil and pipas in the stands), and catalog: F. Snacks, Pipas.
+
+### Watch parties
+
+Football is the viewing occasion, and Spain's distinctive form is the
+**neighbourhood bar**: 39% of fans (about 3.3 million) watch each
+matchday in bars and cafés, 84% of them men aged 25 to 64 [MEDIUM —
+Barlovento/PuroMarketing]. El Clásico is the peak league game (2.37
+million viewers and an 18.8% share on 10 May 2026 [MEDIUM — eldiario.es])
+and the Selección draws the biggest home and terraza audiences in
+tournament summers. Signature viewing foods are raciones on small plates
+at the bar (patatas bravas, croquetas, tortilla wedges), bocadillos,
+pipas, and a home picoteo of jamón, cheese and tortilla. Because Spanish
+dinner runs about 21:00 to 22:30 (GENERAL NORMS), a 21:00 match is the
+dinner itself.
+
+#### Watch party: LaLiga matchday at the neighbourhood bar
+- When: August to May, weekend afternoons and evenings; kick-offs are
+  spread across the day, with the prime slot at 21:00 [LOW — not
+  verified, model knowledge for the exact slots]. Intake time evening
+  (dinner time, artificial light, dark outside in winter; dusk in late
+  summer).
+- Gathering: the operator's party is 1 to 3 at the counter or a small
+  table; the bar around them is busy with regulars, mostly men [MEDIUM —
+  Barlovento]. Venue: restaurant (bar).
+- The spread: raciones on small white plates or in clay cazuelas on the
+  counter: patatas bravas (see catalog: Patatas bravas), croquetas (see
+  catalog: Croquetas), a tortilla wedge (see catalog: Tortilla de
+  patatas), a bocadillo cut in half (see catalog: Bocadillo family), a
+  free tapa of olives or crisps (see catalog: Aperitivo spread) [MEDIUM
+  — the existing Football in a bar row; specific raciones EDITORIAL].
+- Surface and environment: a steel or marble bar counter with paper
+  napkins (the dispenser blurred, per rule 1), a TV high on the wall as an
+  out-of-focus green glow, a plain scarf at most, tiled walls, warm
+  overhead light. Coca-Cola in a glass with ice and lemon is a real bar
+  serve if the brief allows a glass (see GAP LOG on its sourcing).
+- Snapshot staging: **1 setting**: one small plate of bravas and a
+  croqueta plate on the counter edge, the TV glow high and soft behind.
+  **2 settings**: two identical small plates, a shared cazuela of
+  croquetas between them. **Small group**: a small table with three
+  plates and two shared raciones, other tables and the counter soft
+  behind, blurred backs of heads toward the screen (no more than about
+  2.5 faces, none sharp).
+- Never stage: cañas, beer taps, wine, vermut or coffee cups on the
+  counter (the strongest priors; prompt "no beer, no other drinks"); a
+  legible screen, chalkboard or price card; club kits or crests;
+  betting terminals or apps. **The bar is drink-heavy in reality;
+  stage it only as this food-led, alcohol-free counter scene.**
+- Confidence and sources: MEDIUM for bar viewing ([PuroMarketing — TV in
+  bars during LaLiga](https://www.puromarketing.com/39/30792/social-media-bares-claves-para-anunciantes-lleguen-consumidores-durante-liga);
+  [Barlovento — football on TV](https://barloventocomunicacion.es/informes-barlovento/el-futbol-en-television-la-liga-de-las-audiencias/));
+  LOW for kick-off slots; EDITORIAL for staging.
+
+#### Watch party: El Clásico at home with friends
+- When: two league meetings a season plus cup games; the 10 May 2026
+  game was on a Sunday [MEDIUM — eldiario.es]. Evening kick-offs are
+  typical [LOW — not verified]; intake time evening.
+- Gathering: 4 to 8 friends or family in a piso living room; home
+  indoor. A young-adult flat-share is as plausible as a family home
+  (see ENVIRONMENT).
+- The spread: a picoteo on the coffee table: jamón on a plate (see
+  catalog: Jamón), cheese wedges, a tortilla cut into squares with
+  toothpicks (see catalog: Tortilla de patatas), crisps and olives (see
+  catalog: Aperitivo spread), a pizza delivery box [LOW — not verified;
+  the notes' editorial spread, consistent with the picoteo line in
+  ENVIRONMENT].
+- Surface and environment: a low coffee table or the extended dining
+  table turned toward the TV; shutters, a tiled floor, a sofa; the TV a
+  soft green blur. Fans of both clubs in one room is a real dynamic;
+  show it with neutral clothes, never kits.
+- Snapshot staging: **1 setting**: one small plate with two tortilla
+  squares and a slice of jamón at the coffee-table edge, the jamón plate
+  and an olive bowl beside it. **2 settings**: two identical plates, the
+  shared plates between them. **Small group**: three or four plates, more
+  shared plates than needed, the pizza box cropped, blurred figures on
+  the sofa facing the screen.
+- Never stage: either club's crest, colours worn as kits, or sponsor
+  marks; beer; a legible screen; betting apps.
+- Confidence and sources: MEDIUM for audience ([eldiario.es — Barcelona–Real
+  Madrid audience, 10 May 2026](https://www.eldiario.es/vertele/audiencias-tv/domingo-10-mayo-2026-barcelona-real-madrid-mas-visto-dia-2-millones-supervivientes-divide-maquillar-dato_1_13210479.html));
+  LOW for the spread; EDITORIAL for staging.
+
+#### Watch party: Selección tournament night (terraza or home)
+- When: June to July in Euro and World Cup years; evening games under a
+  late summer sunset (Madrid sunset about 21:00 to 21:50 in June, per
+  GENERAL NORMS), so a 21:00 kick-off starts at dusk and ends in the
+  dark. Games of the 2026 World Cup in North America landed in the
+  Spanish evening or late night [LOW — arithmetic].
+- Gathering: family or friends at home, or a group at a bar terraza with
+  a screen outside; big screens in plazas are reported for big games
+  [LOW — not verified]. Venue: home indoor or outdoor (patio, terrace),
+  restaurant (terraza).
+- The spread: as the Clásico picoteo at home, or raciones on the terraza
+  table (see the bar entry); summer additions: a gazpacho or salmorejo
+  (see catalog: Gazpacho vs. salmorejo), ensaladilla rusa (see catalog:
+  Ensaladilla rusa) [LOW — EDITORIAL].
+- Surface and environment: a square aluminium terraza table on a plaza
+  at blue hour, a screen soft and out of focus under an awning; or a
+  home terrace table with string lights. A red-and-yellow paper garland
+  or a cropped stripe at most; never a full flag (reviewer ruling,
+  §5.7).
+- Snapshot staging: **1 setting**: one small plate of ensaladilla and a
+  croqueta plate on the terraza table, the screen glow soft behind.
+  **2 settings**: two identical plates, two shared raciones between them.
+  **Small group**: three or four plates, a second table pushed against
+  the first, blurred figures facing the screen.
+- Never stage: beer, tinto de verano or other drinks on the terraza;
+  national kits with crests or sponsor marks; a legible screen;
+  identifiable children with face paint.
+- Confidence and sources: LOW for venues and spread; EDITORIAL for
+  staging.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. Card
+games (mus, brisca, tute) are played at the long sobremesa and in bars,
+with mus "very common in bars and competitions"; parchís and dominoes
+are the most-played tabletop games, mainly among older adults
+[LOW-MEDIUM — Spanish regional press]. The long sobremesa itself is
+enjoyed weekly by most people [MEDIUM — Mallorcadiario survey]. Bingo
+halls exist but are gambling and are not staged [LOW].
+
+#### Game night: cards at the sobremesa (mus, brisca, tute)
+- When: after Sunday or holiday lunch, at the sobremesa, about 16:00 to
+  18:00; intake time midday (the late Spanish lunch). Mus in a bar is
+  the golden-hour variant [MEDIUM — the notes' card-game timing].
+- Gathering: four players in pairs (mus and tute), with onlookers; family
+  at home (home indoor) or older men at a bar's marble table
+  (restaurant). Prefer the family-home version: it avoids the bar's
+  drinks and its male-only crowd.
+- The spread: the cleared lunch table's remnants: a bread basket, a fruit
+  bowl, a plate of turrón or polvorones in season (see catalog: E.
+  Desserts & festival sweets), a leftover tortilla wedge; at the bar,
+  olives, croquetas or bravas (see catalog: Croquetas, Patatas bravas)
+  [LOW — the notes' editorial spread; consistent with the Sobremesa at
+  home row in COCA-COLA MOMENTS].
+- Surface and environment: a tablecloth with crumbs, shutters half down
+  and slatted afternoon light; a Spanish-suit deck (generic card faces
+  are fine) with the cards fanned or face-down, never readable as a
+  hand; at the bar, a small marble table.
+- Snapshot staging: **1 setting**: one small plate with a slice of fruit
+  or a piece of turrón beside a face-down pile of cards. **2 settings**:
+  two identical small plates, the fruit bowl between them, cards in the
+  middle of the table. **Small group**: four places around a square of
+  table, the bread basket and dessert tray cropped, onlookers as soft
+  shapes behind.
+- Never stage: coffee cups, the after-meal liqueur or wine (rule 3; all
+  real at a sobremesa); money or stakes; printed brand decks; the bar
+  counter with beer.
+- Confidence and sources: LOW-MEDIUM ([El Periódico de Yecla — card
+  games](https://elperiodicodeyecla.com/juegos-de-cartas-mas-populares-espana/);
+  [Soria Noticias](https://sorianoticias.com/noticia/2023-08-22-estos-son-los-juegos-de-cartas-mas-populares-en-espana-103300);
+  [Mallorcadiario — sobremesa survey](https://www.mallorcadiario.com/tapas-sobremesa-y-siesta-asi-late-la-cultura-cotidiana-que-mas-seduce-y-resiste-en-espana));
+  EDITORIAL for staging.
+
+#### Game night: parchís or dominoes with the grandparents (merienda)
+- When: summer afternoons into evening on a terrace or patio, or a
+  winter afternoon at home; intake time golden-hour [LOW — not verified
+  for timing].
+- Gathering: grandparents with adult children or older neighbours, 2 to
+  4 players; home outdoor (terrace, patio, village house) or home indoor.
+  Older men at a bar or *hogar del jubilado* (seniors' centre) are the
+  public form [LOW].
+- The spread: a merienda: a bocadillo cut in pieces (see catalog:
+  Bocadillo family), a bowl of nuts or kikos (see catalog: F. Snacks,
+  Frutos secos), a fruit plate [LOW — the notes' editorial spread, which
+  also lists churros; they are left out here because this file keeps
+  churros in the off-by-default Morning Module].
+- Surface and environment: a plastic or wrought-iron terrace table, a
+  plain parchís board (four-colour cross, generic) or white dominoes
+  laid in a line; potted geraniums, a whitewashed wall, late sun.
+- Snapshot staging: **1 setting**: one plate with half a bocadillo beside
+  the domino line. **2 settings**: two identical plates, a nut bowl
+  between them, the board in the centre. **Small group**: four plates
+  round the table edge, the board in the middle, a second chair at the
+  frame edge.
+- Never stage: branded boards; money on the table; identifiable
+  grandchildren; beer or coffee.
+- Confidence and sources: LOW-MEDIUM for the games' popularity (regional
+  press); LOW for timing and spread; EDITORIAL for staging.
+
+---
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 **Out of default scope.** Use only when a brief explicitly asks for a
@@ -2263,6 +2460,14 @@ level, since none of these surfaced as contested or surprising.*
   116) figures are consumer-association and industry-platform data read
   in search summaries. The Nochevieja dinner menu beyond the grapes was
   not separately verified.
+- **Game-night pass (2026-10-01) open items.** Not verified: LaLiga and
+  Clásico kick-off slots; big screens in plazas for Selección games; the
+  home picoteo and terraza spreads; the prevalence of sports betting;
+  the merienda spread and timing for parchís and dominoes. The bar-
+  viewing share (39%, 3.3 million) is Barlovento data read via
+  PuroMarketing; card-game popularity rests on Spanish regional press
+  (LOW-MEDIUM). The bar's Coca-Cola glass-with-ice-and-lemon serve is
+  still unsourced for Spain (see the brand-file note above).
 
 ## CANDIDATE QUEUE
 
@@ -2288,6 +2493,9 @@ level, since none of these surfaced as contested or surprising.*
    langoustines, crab); roast lamb (*cordero asado* / lechazo) and
    cochinillo; *escudella i carn d'olla* (zone 3); *canelones de Sant
    Esteve* (zone 3); children's party merienda.
+8. Game-night foods with no catalog entry (game-night pass 2026-10-01):
+   home picoteo board (cheese wedges, tortilla squares on toothpicks) as a
+   compact entry; pizza delivery as eaten at home (no Spain entry yet).
 
 ## RESEARCH LOG
 
@@ -2384,3 +2592,13 @@ level, since none of these surfaced as contested or surprising.*
   after the FESTIVALS register with 8 entries: Nochebuena/Navidad/Sant
   Esteve, Nochevieja, Reyes merienda, Sunday family paella, village
   fiesta cena popular, First Communion, wedding, birthday. WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  three watch-party entries (LaLiga matchday at the neighbourhood bar,
+  staged food-led and alcohol-free; El Clásico at home; Selección
+  tournament night on a terraza or at home) and two social game-night
+  entries (cards at the sobremesa; parchís or dominoes with the
+  grandparents). Points to the existing Football in a bar and Stadium
+  stands rows and the Pipas entry rather than repeating them. Bingo halls
+  recorded as not staged.

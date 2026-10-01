@@ -327,6 +327,48 @@ households. [MEDIUM — The Scotsman and general Hogmanay sources]
 
 ---
 
+## GAME NIGHT — regional deltas from `uk.md`
+
+`uk.md`'s GAME NIGHT section holds the national baseline (tournament
+nights at home, league weekends, Six Nations, the food-led pub form, and
+the social game nights) and applies in Scotland unchanged except for the
+two deltas below. The research notes carry no Scotland-specific sources,
+so everything here is model knowledge tagged LOW.
+
+#### Watch party: Scottish football at home (Scotland national team, Premiership)
+- When: Scotland qualifiers and tournament games (evening; June to July
+  in tournament years) and Scottish Premiership weekends, August to May
+  (midday or golden-hour; a winter 17:30 game is dark outside, stage it
+  as evening) [LOW — not verified].
+- Gathering and spread: as `uk.md`'s home entries, with the Scotch pie
+  as the signature viewing food (see catalog: Scotch pie), a fish supper
+  from the chippy (see `uk.md` catalog: Fish and chips, and this file's
+  "fish supper" terminology), crisps in a bowl. A tenement-flat living
+  room is the most Scotland-specific setting (see Quick-Reference:
+  Scottish urban tenement flat) [EDITORIAL].
+- Never stage: the Glasgow Celtic–Rangers ("Old Firm") rivalry in any
+  form. Its green-and-white and blue colours carry a sectarian charge,
+  so a scene must not use either palette as fan decor [LOW — not
+  verified, model knowledge; flagged for a human reviewer]. No full
+  Saltire (reviewer ruling, §5.7). Bovril, the half-time drink at the
+  ground, is an intruder brand and stays out of frame, along with
+  whisky and beer.
+- Confidence and sources: LOW; no Scotland-specific source this pass.
+
+#### Watch party: Scotland in the Six Nations
+- Delta only: as `uk.md`'s Six Nations entry. The Calcutta Cup game
+  against England is the Scottish peak [LOW — not verified]. The spread
+  can carry Scotch pies and a steak pie cut into wedges (see catalog:
+  Scotch pie; `uk.md` catalog: Pies). Plain navy throws or scarves at
+  most, no crest or full Saltire. Never stage: whisky, beer, the
+  Murrayfield crowd.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+Social game nights: no Scotland-specific delta found; `uk.md`'s entries
+apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
+
+---
+
 ## DISH CATALOG
 
 **Scale note**: as `uk.md`, the UK 330mL can (115.2mm/11.52cm tall,
@@ -588,6 +630,10 @@ households. [MEDIUM — The Scotsman and general Hogmanay sources]
   general knowledge only. Burns Supper running order rests on Burns Night
   guides and a food blog, not an institutional source. No headcount data
   for Burns Suppers or Hogmanay parties was found; figures are editorial.
+- **Game-night pass (2026-10-01) open items.** The Scottish deltas are
+  all LOW model knowledge: kick-off slots, the Scotch pie as the
+  home viewing food, the Calcutta Cup as the peak, and the Old Firm
+  sectarian-colours rule (flagged for a human reviewer).
 
 ## CANDIDATE QUEUE
 
@@ -602,6 +648,8 @@ households. [MEDIUM — The Scotsman and general Hogmanay sources]
    2026-10-01): New Year's Day steak pie (family dish); compact Scottish
    sweets block (cranachan, clootie dumpling, black bun, shortbread);
    stovies.
+5. Game-night viewing foods (2026-10-01): none missing beyond the
+   steak pie already queued in item 4.
 
 ## RESEARCH LOG
 
@@ -621,3 +669,9 @@ households. [MEDIUM — The Scotsman and general Hogmanay sources]
   regional-delta CELEBRATIONS & LARGE GATHERINGS section with 3 entries:
   Burns Night, Hogmanay and New Year's Day dinner, Scottish wedding and
   ceilidh. WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added a regional-delta GAME NIGHT section with 2 watch-party
+  entries (Scottish football at home with the Old Firm never-stage rule;
+  Scotland in the Six Nations) and a one-line note that social game
+  nights follow `uk.md`.

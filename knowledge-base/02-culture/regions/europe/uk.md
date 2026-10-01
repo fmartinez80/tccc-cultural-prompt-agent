@@ -844,6 +844,252 @@ ceilidh) are in `uk-scotland.md`.
 
 ---
 
+## GAME NIGHT
+
+Schema §5.8 applies throughout: screens, cards, boards and quiz sheets
+are never legible; no crests, kits, sponsor marks or league logos; no
+betting slips, odds screens, betting apps, cash or scoring for money
+(sports betting and bingo are both prominent in the UK); party size is
+the place settings in frame, the crowd implied (§5.7); no identifiable
+children; a late kick-off is a night scene. The brief dictates the SKU
+(§5.4). This file has no earlier sports or games lines to point to.
+Scotland's deltas (Scottish football, the Old Firm, Scotland at rugby)
+are in `uk-scotland.md`.
+
+### Watch parties
+
+Football is the main viewing occasion, with England tournament nights
+the biggest; Six Nations rugby (February to March) is the second format,
+and Test and white-ball cricket is a real but smaller summer audience
+(medium). The UK's top choice for watching a tournament is "at home with
+the family" (41%), though more than four in ten fans also watch their
+team's games in the pub [MEDIUM — Samsung UK survey; JOE]. The pub is
+fundamentally drinking-led, so home viewing is the default staging; the
+signature viewing foods are takeaway (pizza boxes, curry foil trays),
+crisps in bowls and sausage rolls.
+
+#### Watch party: England tournament night at home (World Cup, Euros)
+- When: June to July in tournament years (Euros and World Cup
+  alternate every two years). Group and knockout games in a European
+  tournament usually kick off 17:00 or 20:00 UK time, so the intake
+  time is golden-hour or evening; long June daylight means a 20:00
+  kick-off still has light outside at the start [LOW — not verified,
+  model knowledge for typical kick-off slots]. Games of a tournament
+  in the Americas (World Cup 2026) landed in the UK evening or late
+  night: stage a late-night kick-off as a night scene with TV glow and
+  a lamp, not golden hour.
+- Gathering: family or 4 to 8 friends in a living room; 41% watch
+  tournaments at home with family [MEDIUM — Samsung UK survey]. Venue:
+  home indoor; a back-garden screening on a projector is a real summer
+  variant (home outdoor) [EDITORIAL].
+- The spread: delivery and takeaway food, eaten from the boxes or
+  tipped onto plates: pizza in open cardboard boxes, curry in foil
+  trays with lids off and poppadoms (see catalog: Curry-house dishes),
+  fish and chips in paper (see catalog: Fish and chips), crisps in
+  bowls, a plate of sausage rolls (see catalog: Sausage roll) [MEDIUM —
+  takeaway and crisps per Samsung/Bar Magazine; specific dish mix
+  EDITORIAL, consistent with the Friday-night takeaway note in
+  ENVIRONMENT & STAGING SCENES].
+- Surface and environment: a low coffee table in front of the sofa;
+  a modest, slightly cluttered living room (radiator, double-glazed
+  window, a lamp); the TV a soft out-of-focus field of green with no
+  score bug or channel mark. Bunting in plain red and white or
+  generic colours at most; never a full St George's Cross or Union
+  Jack (reviewer ruling, §5.7).
+- Snapshot staging: **1 setting**: one plate with two pizza slices and
+  a few chips on the coffee-table edge, the open pizza box and a crisp
+  bowl beside it, the sofa running out of frame. **2 settings**: two
+  identical plates side by side on the coffee table, a curry tray and
+  the pizza box shared between them. **Small group**: three or four
+  plates around the table edge, more boxes and trays than the visible
+  diners could finish, blurred backs of heads toward the screen (no
+  more than about 2.5 faces, none sharp), an extra dining chair pulled
+  in.
+- Never stage: lager cans, pints or beer multipacks (the strongest
+  prior for this scene; prompt "no beer, no other drinks"); England or
+  club shirts with crests or sponsor marks; face paint on children;
+  a legible screen; betting apps or a sweepstake sheet with names and
+  money.
+- Confidence and sources: MEDIUM for home-with-family viewing and the
+  takeaway/crisps spread ([Samsung — how the UK plans to watch
+  football](https://news.samsung.com/global/infographic-this-is-how-the-uk-plans-to-watch-football);
+  [Bar Magazine — Sport, snacks and the British pub](https://barmagazine.co.uk/sport-snacks-and-the-british-pub/));
+  LOW for kick-off times; EDITORIAL for staging.
+
+#### Watch party: Premier League weekend at home
+- When: August to May. The traditional Saturday 15:00 kick-off is, as
+  generally understood, not shown live on UK television (the "3pm
+  blackout"), so home viewing centres on the televised slots:
+  Saturday 12:30 and 17:30, Sunday afternoon, and Monday or Friday
+  evening games [LOW — not verified, model knowledge]. Intake time
+  midday or golden-hour for weekend games; in winter a 17:30 game is
+  already dark outside, so stage it as evening.
+- Gathering: 2 to 6 friends or family members; home indoor. A flatshare
+  living room is as plausible as a family house (see the Gen Z note in
+  ENVIRONMENT & STAGING SCENES).
+- The spread: sausage rolls (see catalog: Sausage roll), crisps in a
+  bowl, sandwiches cut in halves or triangles on a plate, or a weekend
+  takeaway [MEDIUM — the notes rank this as the UK's second stageable
+  scene; crisps are 72% of pub sport snacking per Bar Magazine, a trade
+  source, flagged; home dish mix EDITORIAL].
+- Surface and environment: coffee table or a lap tray on the sofa;
+  overcast window light for a midday game, lamp and TV glow for a
+  winter evening; a scarf in plain colours (no crest) over the sofa
+  arm at most.
+- Snapshot staging: **1 setting**: one plate with a sausage roll and
+  a handful of crisps on the coffee table, the crisp bowl beside it.
+  **2 settings**: two identical plates, one shared crisp bowl and a
+  plate of sandwiches between them. **Small group**: three or four
+  plates, a second crisp bowl and an extra sausage-roll plate cropped
+  at the edge, blurred shapes on the sofa facing the screen.
+- Never stage: club crests, kits, sponsor marks; a legible screen;
+  beer; betting apps or accumulator slips (football betting is heavily
+  advertised in the UK) [LOW — not verified for prevalence].
+- Confidence and sources: LOW for broadcast slots; MEDIUM for the
+  crisps lead (Bar Magazine, trade tier); EDITORIAL for staging.
+
+#### Watch party: Six Nations rugby weekend
+- When: February to March, five weekends; Saturday afternoon games
+  (intake time midday or golden-hour; light goes by about 17:30 in
+  February, so a late game is evening) and some Friday-evening games
+  [LOW — not verified, model knowledge for the slots].
+- Gathering: family or friends at home, 4 to 8; strongest in Wales,
+  England and Scotland (see `uk-scotland.md`). Venue: home indoor.
+  Rugby clubhouse screenings exist but are bar-led [EDITORIAL].
+- The spread: hot pies or a pie cut into wedges (see catalog: Pies),
+  sausage rolls (see catalog: Sausage roll), Scotch eggs halved on a
+  board (see catalog: Scotch egg), a sharing board of cheese, ham and
+  pickle in the ploughman's style (see catalog: Ploughman's lunch)
+  [LOW — not verified; the notes list pies, sausage rolls and a sharing
+  board].
+- Surface and environment: coffee table or a kitchen-diner table turned
+  toward the TV; winter light, rain on the window, a radiator; the
+  screen a soft green blur. In Wales, a red-toned throw or plain red
+  bunting is the most a scene carries; never a full flag.
+- Snapshot staging: **1 setting**: one small plate with a pie wedge and
+  half a Scotch egg, the sharing board cropped beside it. **2
+  settings**: two identical plates, the board and a bowl of crisps
+  between them. **Small group**: plates around a coffee table, the
+  pie dish and a second board running out of frame, blurred figures
+  standing behind the sofa.
+- Never stage: national rugby shirts with crests or sponsors; beer and
+  the clubhouse bar; a legible screen.
+- Confidence and sources: LOW for food and timing (no source this
+  pass); the format itself is MEDIUM from the notes' rugby section;
+  EDITORIAL for staging.
+
+#### Watch party: pub screening (food-led form only)
+- When: any big game; evening for tournaments and midweek European
+  nights, midday or golden-hour for weekend league games.
+- Gathering: more than four in ten fans watch their team in the pub
+  [MEDIUM — Samsung UK survey; JOE]. Venue: restaurant (pub).
+- The spread: a pub meal at a table, not the bar: pub pie and chips
+  (see catalog: Pies), fish and chips (see catalog: Fish and chips),
+  a bowl of chips to share, crisps.
+- Surface and environment: a dark wooden pub table, patterned carpet,
+  a wall-mounted screen soft and out of focus high in the background
+  (see Quick-Reference: Traditional pub). The Coca-Cola pub serve is a
+  glass with ice and a slice of lemon, when the brief allows a glass
+  (see VISUAL & PLATING NORMS).
+- Snapshot staging: **1 or 2 settings** at a small table, plated pub
+  meals, the bar and other drinkers entirely out of frame or as soft
+  dark shapes. Small groups at a pub screen are hard to show without
+  drinkers; prefer the home entries above.
+- Never stage: pints, the bar back, taps or pump clips, beer mats with
+  marks, a crowded standing bar. **The pub screening is drinking-led
+  in reality; stage it only as this food-led, alcohol-free table
+  scene, or use a home entry instead.**
+- Confidence and sources: MEDIUM for pub viewing share; EDITORIAL for
+  the staging form.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **high**, but the
+best-known formats carry risks. The pub quiz runs about 22,000 times a
+week in roughly half of pubs and YouGov ranks it about the 10th most
+popular social activity (69% positive) [MEDIUM — Wikipedia, YouGov],
+but it is drinking-led; bingo is a gambling activity (in-person bingo
+3.3% of adults in the past four weeks; traditional clubs fell from 335
+to 248 between 2018 and 2024) [HIGH — Gambling Commission] and is not
+staged. Board games at Christmas are the safest high-popularity format.
+Video-game nights at home are real [LOW — not verified] and can follow
+the US pattern in `usa/us.md` if a brief asks.
+
+#### Game night: board games after Christmas dinner (and other holidays)
+- When: Christmas Day and Boxing Day afternoons into evening (intake
+  golden-hour; dark by about 16:00 in late December, so most scenes are
+  evening light), and holiday weekends [MEDIUM — notes rank this the
+  UK's top stageable game scene; timing EDITORIAL].
+- Gathering: the extended family from the Christmas entry (see
+  CELEBRATIONS: Christmas dinner), 4 to 10 people, at the cleared dining
+  table or around the living-room coffee table; home indoor.
+- The spread: a tin of chocolates, mince pies on a plate, a cheese board
+  with crackers, leftover turkey sandwiches later in the evening [LOW —
+  not verified, the notes' editorial spread]. No catalog entries yet
+  (see CANDIDATE QUEUE: festive sweets block).
+- Surface and environment: food on side plates and a separate board so
+  it does not cover the game; a generic board with abstract tiles or a
+  fanned pack of plain cards; paper crown hats, pulled crackers, fairy
+  lights and a tree soft in the corner.
+- Snapshot staging: **1 setting**: one side plate with a mince pie and
+  a wedge of cheese at the table edge, the generic board partly in frame.
+  **2 settings**: two identical side plates, the chocolate tin open
+  between them, dice and cards on the board. **Small group**: plates
+  round the edge of the coffee table, the cheese board cropped at one
+  end, blurred relatives on the sofa behind.
+- Never stage: licensed or branded games (Monopoly, Scrabble or Trivial
+  Pursuit layouts), legible cards or boards, money on the board, wine
+  or port glasses (a strong Christmas prior), identifiable children.
+- Confidence and sources: MEDIUM for the occasion, LOW for the spread;
+  EDITORIAL for staging.
+
+#### Game night: quiz night (church hall, charity, or home form only)
+- When: weeknights Tuesday to Thursday (Sunday in London), 19:30 to
+  22:00; intake time evening [MEDIUM — Wikipedia, tickts.co.uk].
+- Gathering: teams of 4 to 6 friends or colleagues at one table, several
+  teams across the room. Venue: other (a church or community hall
+  running a charity quiz, a school fundraiser) or home indoor (a home
+  quiz with the questions on the TV).
+- The spread: sausage rolls (see catalog: Sausage roll), crisps in
+  bowls, sandwiches on a platter; at home, a sharing platter of nibbles
+  [EDITORIAL; LOW — not verified].
+- Surface and environment: a folding table with a paper cloth in a hall
+  with strip or pendant lights, a quizmaster's microphone and speaker
+  blurred, a projector screen with an unreadable slide; at home, a
+  coffee table with a laptop mirrored to the TV as a soft glow.
+- Snapshot staging: **1 setting**: one paper plate with a sausage roll
+  and crisps beside a blank answer sheet and pencil. **2 settings**:
+  two identical plates, a shared crisp bowl, the answer sheet face-down
+  or illegible. **Small group**: a team table of four, other team
+  tables soft behind, the speaker blurred at the edge.
+- Never stage: the pub quiz in its pub form (**fundamentally
+  drinking-led; staged only as this hall or home form**); pints, wine,
+  a bar; legible questions, answer sheets or quiz brands; a cash prize.
+- Confidence and sources: MEDIUM for the format and timing ([Wikipedia
+  — Pub quiz](https://en.wikipedia.org/wiki/Pub_quiz); [YouGov — Pub quizzes](https://yougov.co.uk/topics/society/explore/activity/Pub_quizzes);
+  [tickts.co.uk guide](https://tickts.co.uk/blog/guide-to-uk-quiz-nights-pub-trivia?lang=en));
+  EDITORIAL for the non-drinking venue choice and staging.
+
+#### Game night: board-game café
+- When: weekend midday to evening; intake midday or evening [LOW — not
+  verified for UK specifically].
+- Gathering: 2 to 6 friends, often a young-adult cast; venue: restaurant
+  (café).
+- The spread: toasties cut in halves, chips or fries in a basket,
+  nachos to share [LOW — not verified, the notes' editorial spread].
+- Surface and environment: wooden café tables, shelves of game boxes
+  blurred behind with unreadable spines, warm pendant lights.
+- Snapshot staging: **1 or 2 settings**: a toastie on a plate at each
+  setting, the shared chip basket at the side so it does not cover the
+  generic board. **Small group**: four plates at the table edge, other
+  tables soft behind.
+- Never stage: branded games or legible boxes; beer (many cafés also
+  serve it).
+- Confidence and sources: LOW; the notes list board-game cafés for the
+  UK without a size figure. EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 **Scale note for every entry**: per `coca-cola-guidelines.md` §3/§4.3, the
@@ -1808,6 +2054,16 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   it leans on the asia/ country files. Children's party and wedding-menu
   repertoires are general knowledge, MEDIUM at best.
 
+- **Game-night pass (2026-10-01) open items.** Not verified: typical UK
+  kick-off slots for tournament, Premier League and Six Nations games,
+  including the Saturday 3pm broadcast blackout (model knowledge, LOW);
+  the Six Nations home spread (pies, Scotch eggs, sharing board); the
+  Christmas board-game spread; home video-game nights; board-game café
+  prevalence and menus; prevalence of football betting. The crisps
+  figure (72% of pub sport snacking) is trade-press (Bar Magazine). The
+  41% home-with-family and pub-viewing figures are a Samsung consumer
+  survey and a JOE report, not read at source.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on Cornish Pasty Association / British Pie Awards
@@ -1837,6 +2093,12 @@ rather than promoted to its own file or deferred to a future Ireland file.**
    pudding, simnel cake, hot cross buns, parkin, toffee apples, treacle
    toffee); children's party buffet (sandwich triangles, fairy cakes);
    and a FESTIVALS & SEASONAL OCCASIONS register for this file.
+
+7. Viewing and game-night foods with no catalog entry yet (game-night
+   pass 2026-10-01): takeaway pizza as eaten at home (box, slices);
+   crisps in a bowl as a compact entry (blank-packet rule); British
+   sharing board / nibbles platter; toastie (café register); the festive
+   sweets block in item 6 also serves the Christmas board-game entry.
 
 ## RESEARCH LOG
 
@@ -1915,3 +2177,11 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   Night, birthday party, wedding breakfast/evening reception, Eid
   al-Fitr/al-Adha family meal, Diwali family meal. WebSearch only; no
   pages read at source.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS with
+  four watch-party entries (England tournament night at home, Premier
+  League weekend at home, Six Nations weekend, pub screening in a
+  food-led form only) and three social game-night entries (Christmas
+  board games, quiz night in hall or home form only, board-game café).
+  Bingo and the pub quiz in its pub form are recorded as not staged.
