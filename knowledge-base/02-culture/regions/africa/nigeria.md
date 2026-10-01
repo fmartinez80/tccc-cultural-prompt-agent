@@ -214,6 +214,374 @@ the can. Background notes only where they prevent a visual error.
 | **Small-chops tray** | A round or rectangular foil or plastic tray with puff-puff, samosas, spring rolls, peppered gizzard or chicken on toothpicks — an event starter or a Friday office treat. |
 | **Northern compound meal (zone 6)** | A mat or low table in a shaded courtyard, a large enamel or aluminium bowl of tuwo, a bowl of miyan kuka, men and women often eating separately [LOW-MEDIUM — not independently re-checked]; strictly halal, no alcohol anywhere. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (background-first). The register table
+above stays as the index. Heading levels follow CELEBRATIONS & LARGE
+GATHERINGS (`##` section, `###` entries).
+
+**The settlement-register, tenement and buka framing is still PENDING
+HUMAN SIGN-OFF** (FILE ROLE & METHOD). These profiles use the file's
+sign-off-safe baseline (a tidy family flat or bungalow, a compound
+forecourt under a canopy, a clean busy buka framed as a beloved everyday
+institution, an owambe without money or alcohol). Where a register would
+change the background it is named as a **variant, described factually,
+not as a default**, and is not generated from until sign-off. The
+tenement (face-me-I-face-you) register gets no profile. The Ramadan/iftar
+call stays open; no profile is set in Ramadan daylight.
+
+Wave 1: the parlour and dining corner, the compound forecourt under a
+canopy, the buka, the suya spot, and the owambe under canopies or in an
+event hall. The viewing centre (GAME NIGHT) and the pepper-soup joint are
+left for a later wave.
+
+### Venue: Family parlour and dining corner (the "parlour", "sitting room")
+- **Use for:** home indoor; casual lunch for 1–3, dinner, Sunday family
+  lunch, Christmas and Sallah family meals, the Premier League and Super
+  Eagles watch parties, ludo and Whot. The national default home
+  interior, in a flat or a bungalow. [MEDIUM — the parlour, sofa set and
+  centre table as the core of Nigerian sitting rooms (Guardian Nigeria
+  "How the Nigerian living room has evolved"; furniture and POP-ceiling
+  trade sites); share of flat vs. bungalow not sourced, see GAP LOG]
+- **Soft background (the core):**
+  - *Back wall:* smooth painted plaster in cream, beige, pale peach or
+    light grey; framed **family and wedding portraits** in gold or dark
+    frames, a wall clock, a calendar (blank blur, never legible); a TV on
+    the wall or on a low console as a dark rectangle. [LOW-MEDIUM — not
+    independently re-checked; interior markers carried from General
+    environmental norms]
+  - *Ceiling (often in frame at a low angle):* a **POP (plaster of Paris)
+    ceiling** with a stepped tray, **recessed downlights** and often a
+    **chandelier** at its centre, plus a **ceiling fan**. Out of focus
+    this is a cluster of bright points and a white stepped edge.
+    [MEDIUM — POP ceiling with chandelier described as the visual
+    signature of a modern Nigerian sitting room (Guardian Nigeria; Vento
+    Furniture, Lead Interior Decor trade sites)]
+  - *Middle distance:* a large **sofa set** (three-seater plus armchairs,
+    fabric or leather-look, often in brown, cream or grey, sometimes with
+    throw cushions); the **centre table** (glass-topped or dark wood);
+    a glass-fronted cabinet with plates and ornaments; the dining table
+    beyond, with insulated **food flasks** (round lidded food warmers)
+    or a covered pot on it [food flasks LOW — not verified].
+  - *Light:* daylight through windows with **burglar-proof grilles** and
+    either **lace or heavy curtains** (older homes) or **blinds** (newer
+    homes), often a bright, slightly hazy tropical light; evening: cool
+    or warm LED downlights, the TV glow, a **rechargeable lamp** on a side
+    table for outages. [MEDIUM — blinds replacing thick curtains (Guardian
+    Nigeria); grilles and rechargeable lamp per General environmental
+    norms]
+  - *Palette:* cream and beige walls, glossy pale ceramic tiles, a darker
+    sofa, gold picture frames, flashes of bright print in cushions.
+  - *Signature shapes (3–5):* the POP ceiling edge with downlights or a
+    chandelier; the ceiling fan; the long sofa set; the glass centre
+    table; a window grille behind a lace curtain.
+  - *Density and wear:* tidy, furnished for receiving guests, slightly
+    formal; a plastic cover on a remote, a doily on the side table.
+    [EDITORIAL]
+  - *People cues:* one or two family members on the sofa, soft, no sharp
+    face.
+- **Shell:** a flat in a 2–4-storey block or a cement bungalow: **large
+  glossy ceramic floor tiles**, plastered and painted walls, POP ceiling,
+  aluminium or steel-framed windows with grilles. [LOW-MEDIUM — carried
+  from the estate and flat register descriptions]
+- **The table as set here:** the dining table with a **plastic or lace
+  tablecloth**; ceramic or glass plates; a spoon for rice, the right
+  hand for swallow, with **a small bowl of water for washing hands** (file
+  rule 5); swallow on its own plate, soup in a bowl; or the centre table
+  with side plates for snacks. Upholstered dining chairs. [MEDIUM — the
+  family-lunch register; rule 5]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos family flat or bungalow parlour with a
+  POP ceiling, tiles, sofa set and ceiling fan, in tropical daylight.
+  Southeast and Delta: the same, often a storey house with a larger
+  parlour; more Christian imagery (keep any wall text or religious art
+  illegible and out of the product's zone). North (zone 6): carpets or
+  rugs on the floor, floor cushions or low seating in some homes, more
+  modest decor; meals sometimes on a mat (Northern compound register).
+  Harmattan (Dec–Feb): a pale, dusty haze in the window light. *Register
+  variants (PENDING SIGN-OFF, factual only):* a gated-estate duplex with a
+  double-height parlour and marble-look tiles; a room-and-parlour flat
+  where the centre table is the dining table.
+- **Hallucination traps:** a placeless glass-and-marble showroom (the
+  file's sanitized over-correction); "tribal" masks, drums, carved
+  figures or animal skins as decor; an African-American US living room;
+  a Ghanaian or Kenyan interior presented as generic "African"; open
+  drains, generator smoke or flood water through the window (poverty
+  framing).
+- **Never stage:** beer, stout or palm wine; Chapman; legible
+  calendars, Bible verses, wall plaques, screens or packaging; fuel cans
+  (a generator is a cable at most); brand marks; a full flag;
+  identifiable children.
+- **Prompt-ready line:** "A Nigerian family parlour in soft focus: a
+  white stepped plaster ceiling with recessed lights and a ceiling fan,
+  cream walls with framed family portraits, a large sofa set and a glass
+  centre table, and bright tropical daylight through a lace curtain over
+  a window grille."
+- **Confidence and sources:** MEDIUM overall (Guardian Nigeria; POP and
+  furniture trade sites for the ceiling and centre table); colours,
+  food flasks and set dressing LOW or editorial. 1 search this pass.
+
+### Venue: Compound forecourt under a canopy (the "compound", the forecourt)
+- **Use for:** home outdoor; the family BBQ or get-together, naming
+  ceremonies, Christmas in the hometown, the after-party Whot game, a
+  Super Eagles night with the TV carried out; 1, 2 or a small group of
+  settings inside a gathering of 10–40 or more. The market's home
+  outdoor default. [LOW-MEDIUM — Meal outdoors at home scenario; not
+  independently re-checked]
+- **Soft background (the core):**
+  - *Back wall:* the **house front** (painted cement in cream, white,
+    peach or pale yellow, with grilled windows and a covered porch) or
+    the **compound wall**, plastered and painted, topped with spikes or
+    wire kept soft; a **metal gate** (sliding or swing, painted black,
+    grey or brown). [LOW-MEDIUM — estate register; not independently
+    re-checked]
+  - *Overhead:* a hired **party canopy**, a white or striped fabric roof
+    on metal poles, its scalloped fringe a strong shape at the top of the
+    frame. [MEDIUM — canopies, chairs and covers are standard party
+    hire in Lagos and Ibadan (Jiji listings; J & E Party Rentals)]
+  - *Middle distance:* rows of **white plastic chairs**, some with
+    covers; a charcoal grill with smoke; **coolers** (large insulated
+    food coolers) and covered pots on a side table; a **water tank on a
+    stand** or on the roof and a small **generator house** at the side as
+    soft block shapes; a parked car; a mango, plantain or palm tree.
+    [MEDIUM for interlocking pavers and water tanks as common features
+    (daibau.ng; general); generator housing per the estate register]
+  - *Light:* hard tropical daylight on the pavers with deep shade under
+    the canopy; golden-hour from about 17:30, short dusk (equatorial);
+    after dark, a bulb or floodlight on the house wall. Dry-season light
+    is the default (rainy-season caution in the scenario). [EDITORIAL]
+  - *Palette:* grey or terracotta **interlocking pavers**, cream walls,
+    white canopy, green foliage, the colour of guests' fabric.
+  - *Signature shapes (3–5):* the canopy fringe; rows of white chairs;
+    the gate; the water tank on its stand; a grill with smoke.
+  - *Density and wear:* busy and used, swept clean for guests.
+  - *People cues:* relatives in bright prints or matching fabric, soft,
+    within the background-people limit.
+- **Shell:** an open paved forecourt between the gate and the house, or
+  a yard; interlocking paving stones (the most popular outdoor flooring
+  in Nigeria [MEDIUM — daibau.ng]) or concrete.
+- **The table as set here:** a plastic party table with a cloth or a
+  plastic cover; plates of jollof, chicken and dodo; disposable plates
+  and plastic spoons at a big gathering; a cooler at the frame edge.
+  White plastic chairs. [LOW-MEDIUM; EDITORIAL]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos or Ibadan bungalow forecourt with
+  pavers, a canopy and white chairs. Southeast hometown at Christmas:
+  a larger family house, red laterite earth beyond the wall, green
+  hills. North (zone 6): a walled compound with a zaure entrance, sand or
+  beaten earth, a shade tree, mats rather than chairs. *Register
+  variants (PENDING SIGN-OFF, factual only):* a rural village compound
+  of zinc-roofed bungalows around an earth yard.
+- **Hallucination traps:** a US backyard with lawn and picket fence;
+  a South African braai with brick fireplace; savanna and acacias; an
+  unfinished building or rubble as "authentic"; a beach-party look.
+- **Never stage:** beer crates, stout, palm wine in calabashes or
+  jerrycans, Chapman mugs; sachet water; slaughter (goat, ram) or a live
+  animal near the product; printed banners with names; brand marks on
+  coolers or canopies; money spraying.
+- **Prompt-ready line:** "A Nigerian compound forecourt in soft focus: a
+  white party canopy with a scalloped fringe over grey interlocking
+  pavers, rows of white plastic chairs and a black metal gate in a cream
+  wall, a water tank on its stand and green plantain leaves beyond."
+- **Confidence and sources:** LOW-MEDIUM overall; canopies and pavers
+  MEDIUM (Jiji, J & E Party Rentals, daibau.ng); the rest carried from
+  the file's registers or editorial. 1 search this pass (plus the owambe
+  canopy search).
+
+### Venue: Buka / mama put (buka, bukka; mama put)
+- **Use for:** restaurant, indoor or semi-outdoor; weekday lunch, 1 or
+  2 people (Away from home 1 person), a small group of co-workers. The
+  default casual sit-down eating-out venue. **Framing PENDING HUMAN
+  SIGN-OFF — stage as busy, clean, beloved; never as a hardship
+  setting** (FILE ROLE & METHOD). [HIGH for the buka form — Demand
+  Africa, BusinessDay, All Nigerian Recipes, Guardian Nigeria "Abuja's
+  buka boom"]
+- **Soft background (the core):**
+  - *Back wall and counter:* the **food counter**: a row of wide
+    **aluminium pots and trays** (jollof, fried rice, white rice, beans),
+    a bowl of red stew, fried meat and chicken stacked, boiled eggs,
+    fried plantain, and the cook ladling; behind it, painted or tiled
+    walls, steam rising. [HIGH — Guardian Nigeria (trays of jollof and
+    fried rice, stew, meat stacked, plantain "catching the light");
+    Demand Africa (view of the hot cooking pot)]
+  - *Middle distance:* **wooden benches and tables**, or plastic chairs
+    around small tables; other diners as blurred backs; a ceiling fan or
+    standing fan; the open front to the street. [HIGH — Demand Africa:
+    shacks of roofing sheets with wooden benches and tables, or open
+    canopy tents with plastic chairs, or tarpaulin-and-roofing
+    structures]
+  - *Light:* bright daylight from the open front, **shade under a
+    corrugated roof or canopy**; steam and, where cooked on firewood, a
+    faint smoke haze catching the light; a fluorescent tube inside.
+    [MEDIUM — firewood cooking per Guardian Nigeria; light editorial]
+  - *Palette:* aluminium silver, red-orange stew and jollof, golden
+    plantain, wood brown, the green or blue of plastic chairs, painted
+    walls in pale blue, green or cream.
+  - *Signature shapes (3–5):* the row of wide silver pots; steam; the
+    cook's back and ladle; wooden benches; a canopy or roof edge with
+    the bright street beyond.
+  - *Density and wear:* busy, well-used and clean: scrubbed tables,
+    plastic or enamel plates in stacks.
+  - *People cues:* the cook (apron, headscarf or cap) and diners, soft,
+    within the background-people limit.
+- **Shell:** a street-front room, a roofing-sheet shed or a canopy on a
+  concrete pad; newer urban bukas are indoor rooms with tiled floors and
+  plastic furniture. [HIGH — Demand Africa; Guardian Nigeria on new
+  Abuja bukas]
+- **The table as set here:** a bare wooden or plastic table; a plate
+  (melamine, enamel or ceramic) of rice, beans and stew with assorted
+  meat, or amala with ewedu and gbegiri; a spoon; **a small bowl of water
+  for washing hands** for swallow (rule 5); a plastic napkin holder or
+  roll of tissue. Bench or plastic-chair edge in frame. [MEDIUM — buka
+  scenario; tableware LOW-MEDIUM]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos buka with a roofed front, wooden
+  benches and a counter of aluminium pots. Ibadan and Southwest: amala
+  spots, darker interiors, firewood smoke. Abuja: newer, indoor, tiled
+  "buka" restaurants. Southeast: canteens built around swallow
+  and soups. North: rice-and-stew and tuwo canteens with benches (not yet
+  profiled). [LOW-MEDIUM; EDITORIAL]
+- **Hallucination traps:** a generic Western café; a Ghanaian chop bar
+  with Ghanaian dishes (banku, kenkey); a sit-down "African restaurant"
+  of the diaspora with themed decor; open drains, flies, flood water or
+  a ragged shack (poverty framing); a buffet in a hotel.
+- **Never stage:** beer, stout, sachet water, a bar fridge with bottles;
+  hand-painted signs or menus that read; brand marks on the fridge,
+  umbrella or chairs; money changing hands.
+- **Prompt-ready line:** "A busy, clean Lagos buka at lunchtime in soft
+  focus: a counter of wide aluminium pots of jollof and stew with steam
+  rising, a cook ladling under a corrugated roof, wooden benches and a
+  bright street beyond the open front."
+- **Confidence and sources:** HIGH for the form (Demand Africa, Guardian
+  Nigeria, BusinessDay); palettes and tableware editorial. 1 search this
+  pass.
+
+### Venue: Suya spot (mai suya's stand)
+- **Use for:** on-the-go or "other", outdoor; the evening snack, after
+  work, 1–3 people; the BEVERAGE MOMENTS "Suya night" row. The national
+  default street venue: suya is now sold everywhere, not only in the
+  North. [HIGH — Wikipedia (Suya); Tasting Table; this file's registers]
+- **Soft background (the core):**
+  - *Back wall:* the night street: a dark, warm-toned field with a few
+    bulb glows, a lit kiosk or shop front, passing traffic as streaks and
+    bokeh, the yellow of a danfo far behind. [EDITORIAL]
+  - *Middle distance:* the **mai suya's stand**: a **wire grill over
+    glowing charcoal** on a wooden or metal stand or a cut-down drum,
+    rows of skewers of dark, spice-dusted meat; a **wooden board** with a
+    knife; a mound of yaji in a tray; sliced onions, tomato and cabbage;
+    sometimes a glass display box with hanging meat. The vendor in a
+    kaftan and cap, or a T-shirt, soft. [HIGH for stands on street corners
+    with coal-fired grills and evening trade — Tasting Table; Wikipedia;
+    the register's structure "wire grill on stand, spice mound, knife,
+    board"]
+  - *Light:* the **charcoal's orange glow** from below, smoke catching
+    it; a single **bare bulb** or a **hurricane or rechargeable lamp**
+    hung on the stand; the cooler, whiter light of a shop front. [MEDIUM
+    — register (bulb or lamp, charcoal glow); lamp type LOW]
+  - *Palette:* black night, ember orange, smoke grey, the reddish-brown
+    spice crust, white onion rings.
+  - *Signature shapes (3–5):* the glowing grill; smoke column; a hanging
+    bulb; the vendor's silhouette; car headlights as bokeh.
+  - *Density and wear:* busy street corner, worn but clean stand.
+  - *People cues:* the vendor and one or two customers as silhouettes.
+- **Shell:** a pavement or roadside corner, often near shops, a filling
+  station or a bar (exclude the bar); the stand sometimes under a small
+  zinc roof. [MEDIUM — register alcohol note: "often beside a bar —
+  exclude"]
+- **The table as set here:** no table: a **ledge**, a stool or the stand's
+  edge; suya on **plain, unprinted brown or white paper** (never
+  newspaper, rule 1), with onion, tomato and a pinch of yaji. [HIGH —
+  rule 1; first-party text finding]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos street-corner suya stand at night.
+  North (zone 6): the home of suya, with kilishi and balangu also on
+  sale; a roadside stand under a tree, harmattan haze at dusk. Abuja:
+  stands along wide avenues. Viewing centre: suya sold at the door
+  (GAME NIGHT).
+- **Hallucination traps:** a Turkish or Middle Eastern kebab shop with a
+  döner spit; Southeast Asian satay; American barbecue; newspaper
+  wrapping (strong prior); a bar with beer bottles behind the stand.
+- **Never stage:** newspaper or printed paper; beer, stout or a bar;
+  legible signs; brand marks; money on the ledge; pork.
+- **Prompt-ready line:** "A Nigerian suya stand at night in soft focus:
+  skewers of spice-dusted meat on a wire grill over glowing charcoal,
+  smoke lit orange, a bare bulb hanging over the vendor's silhouette, and
+  passing headlights blurred beyond."
+- **Confidence and sources:** HIGH for the form and night trade
+  (Wikipedia, Tasting Table, file registers); lamp type LOW. 1 search
+  this pass.
+
+### Venue: Owambe under canopies or in an event hall (owambe; "party")
+- **Use for:** "other"; wedding receptions, milestone birthdays, naming
+  ceremonies of well-off families, igba nkwu receptions; 1, 2 or a small
+  group of settings at one arc of a round table of 8–10 inside a crowd of
+  hundreds. The market's signature event venue. [HIGH for the owambe look
+  (OWAMBE register sources); MEDIUM for hire items — Lagos party-rental
+  firms (J & E Party Rentals, Eloquent Displays, Naphtali Rentals) list
+  marquee canopies, chiavari and white chairs, chair covers and round
+  banquet tables]
+- **Soft background (the core):**
+  - *Overhead and back wall:* **street or compound version:** rows of
+    **white canopies** (or marquee tents) with fringed edges, metal
+    poles, the sky between them; **hall version:** a large hall with a
+    POP ceiling, chandeliers, draped fabric and uplighting in the
+    celebrants' colours. The printed backdrop or stage is far behind and
+    illegible. [HIGH for white canopies — register; hall dressing
+    LOW-MEDIUM]
+  - *Middle distance:* other **round tables** with long cloths and
+    centrepieces; **chairs in covers** (white, gold or the event colour)
+    or white **chiavari** chairs; guests in **aso ebi**, one fabric
+    colour or print repeated across many people, women's **gele**
+    headwraps as tall sculpted silhouettes; waiters in matching uniforms
+    carrying plates; the band or DJ area as a dark cluster with lights.
+    [HIGH — aso ebi, gele, band/DJ (register); MEDIUM — chair covers and
+    chiavari (rental firms)]
+  - *Light:* under canopies: bright, even shade with hot sun beyond;
+    golden-hour as the party runs into evening; in a hall: warm
+    chandelier light and coloured uplights. [EDITORIAL]
+  - *Palette:* white canopy and linen dominated, with the **aso ebi
+    colour** (gold, wine, emerald, coral, lace) repeated through the
+    crowd as the key accent.
+  - *Signature shapes (3–5):* canopy roofs in rows; gele silhouettes;
+    covered chairs; round tables receding; a cooler or chafing dish at a
+    serving point.
+  - *Density and wear:* dense, festive, new: crisp covers, guests packed
+    table to table.
+  - *People cues:* guests as blurred colour and silhouettes, within the
+    background-people limit; no identifiable children.
+- **Shell:** a closed street or a compound with hired canopies on
+  tarmac or pavers, or an event hall with tiled floor. [HIGH — register;
+  How large gatherings work here]
+- **The table as set here:** a round table with a white or coloured
+  cloth; each guest's **plated meal** (two rices, protein, dodo, moi moi,
+  salad) on disposable or hired white plates; a plastic spoon or fork;
+  small chops in a small box first; serviettes. [MEDIUM — La Heiress via
+  How large gatherings work here]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lagos owambe under white canopies with covered
+  chairs and aso ebi guests. Southeast igba nkwu: a family compound with
+  canopies and a central space for the wine-carrying (rite never the
+  subject). North: weddings are more gender-separated, modest dress
+  (see the file's northern notes); halls in Kano or Kaduna. Hall
+  version for upscale Lagos and Abuja.
+- **Hallucination traps:** a Western white wedding with champagne; an
+  Indian wedding mandap; a Ghanaian kente-dominated look; "tribal"
+  costume; money raining over the table; a party backdrop with readable
+  names.
+- **Never stage:** money spraying or naira notes; beer, stout, palm wine,
+  Chapman mugs, sachet water; printed backdrop text; brand marks on
+  coolers, chairs or canopies; a full flag; identifiable children.
+- **Prompt-ready line:** "A Lagos owambe in soft focus: rows of white
+  canopies over round tables with white-covered chairs, guests in
+  matching gold aso ebi and tall gele headwraps as blurred silhouettes,
+  and waiters carrying plates between the tables in bright afternoon
+  shade."
+- **Confidence and sources:** HIGH for the canopy and aso ebi look
+  (register sources); MEDIUM for hire items (Lagos rental firms); hall
+  dressing LOW-MEDIUM. 1 search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2450,6 +2818,14 @@ norms unless tagged otherwise — see GAP LOG.*
   at relaxation spots are unverified. Ludo and Whot food pairings are
   editorial. The viewing-centre gender mix comes from one academic study
   (Global Media Journal).
+- **Venue-profile pass (2026-10-01) open items.** Unverified background
+  details: parlour wall colours, food flasks on the dining table, lace vs.
+  blinds by region and age; compound-forecourt layout (water tank,
+  generator house) beyond trade-site evidence; the suya stand's lamp type;
+  event-hall dressing; northern variants of every venue. All register
+  variants in VENUE PROFILES stay PENDING HUMAN SIGN-OFF with the
+  settlement-register and buka framing. Viewing centre and pepper-soup
+  joint not yet profiled (later wave).
 
 ## CANDIDATE QUEUE
 
@@ -2523,3 +2899,4 @@ norms unless tagged otherwise — see GAP LOG.*
   parlour, Whot at a family gathering; popularity medium). Settlement-
   register/buka framing and the Ramadan/iftar call left untouched. No
   subagents.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (family parlour and dining corner, compound forecourt under a canopy, buka, suya spot, owambe under canopies or in a hall). Sign-off-safe baseline used; register variants kept factual, framing not resolved; iftar untouched. No subagents.
