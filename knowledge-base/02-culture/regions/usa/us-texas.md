@@ -133,6 +133,38 @@ National celebrations (Thanksgiving, Fourth of July and Memorial/Labor Day cooko
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+The national entries in `us.md`'s GAME NIGHT section (Super Bowl and NFL Sunday at home, the alcohol-free college tailgate, NBA and March Madness, home board and card nights, trivia, video games, the mahjong revival) apply in Texas. This section adds only what is genuinely Texan. All `country-file-schema.md` §5.8 rules hold: nothing legible on screens, dominoes or scoreboards; no crests, kits or school names; no gambling; no alcohol; the snapshot rule; no identifiable children.
+
+### Watch parties
+
+Football is the Texas delta: high-school football on Friday nights and college football on Saturdays carry a weight the national entry does not, and the Texas spread swaps wings-and-pizza toward smoked brisket, queso and Frito pie. For a Mexican-American fight night with carne asada (mid-September), use `us-arizona.md`'s entry; it applies in South Texas too.
+
+#### Watch party: Texas high-school and college football (Friday night lights, game-day Saturday)
+- When: late August to early December. High school on Friday evenings, kick-off about 19:00 to 19:30, so the stands and concession scene is golden-hour sliding into evening under stadium lights. College football Saturdays at home or at a tailgate, midday to golden-hour; night games are evening. [LOW — not verified, kick-off times from model knowledge]
+- Gathering: Friday night is the town in the stands, with family and neighbours eating from the concession stand (other: stadium stands and concession window). Saturday is 6 to 20 friends and family in a living room or backyard (home indoor or outdoor), or a few cars' worth at a tailgate in a stadium lot (other: parking lot). [EDITORIAL]
+- The spread: Friday night: the walking Frito pie eaten straight from the opened single-serve bag with a plastic spoon (see catalog: Frito pie; the venue is already documented in ENVIRONMENT & STAGING SCENES above, the Friday-night-football bullet, and in QUICK-REFERENCE), nachos in a paper boat, a hot dog. Saturday at home or tailgate: sliced brisket and sausage on butcher paper (see catalog: Texas BBQ platter), a slow cooker or skillet of queso with a bowl of tortilla chips (see catalog: Chile con queso), a pot of chili (see catalog: Texas chili — "bowl of red"), breakfast tacos wrapped in foil for an early tailgate (see catalog: Breakfast taco; stage at midday, never as a morning plate). Texas brisket as the regional tailgate food is sourced [MEDIUM — KTXS regional tailgate guide]; the rest [LOW — not verified].
+- Surface and environment: Friday: aluminium bleacher bench or the concession counter, stadium lights flaring soft, a blurred field glow. Saturday home: a coffee table or kitchen island with the TV a soft colour field; tailgate: a folding table under a plain pop-up canopy, an open hatchback, a smoker or pit trailer hazed in the background, flat autumn light on asphalt.
+- Snapshot staging: **1 setting**: one Frito-pie bag with spoon held at the bleacher rail (hand only, or resting on the bench), the hero drink beside it, stadium lights blurred. **2 settings**: two identical paper plates of brisket slices, a spoon of beans and pickles on a folding table; the butcher-paper sheet of brisket cropped at the edge. **Small group**: identical plates around a coffee table or along one side of a tailgate table; queso skillet, chip bowl and brisket on paper in the middle, more than the visible group could eat. Crowd cues: blurred backs of heads toward the TV glow, more folding chairs, a second canopy soft behind, a crowd of out-of-focus shapes in the stands.
+- Never stage: school names, mascots, letter jackets with legible marks, team colours combined into a recognisable crest; band or cheer uniforms on minors; beer, coolers of cans, koozies (the tailgate is staged as a food table only); scoreboards or score bugs; any betting or pools. Minors in the stands appear only as distant, unfocused shapes.
+- Confidence and sources: MEDIUM for brisket as the Texas tailgate food [KTXS]; MEDIUM-HIGH for Frito pie at Friday-night games (existing sourcing, Texas Standard); kick-off times and the home spread LOW — not verified; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: high, as nationally (see `us.md`), with one Texas-specific format.
+
+#### Game night: Texas 42 dominoes (forty-two)
+- When: evenings after a family supper, Sunday afternoons, and holiday gatherings (Thanksgiving, Christmas). Intake time: golden-hour or evening. [MEDIUM — TSHA; times EDITORIAL]
+- Gathering: four players in two partnerships at one table, with relatives watching and waiting for the next game; at home (home indoor), a church or community hall, or a town tournament. Designated the official state domino game by the Legislature in 2011; invented in 1887 in Parker County by two boys whose Baptist community forbade cards. [HIGH — TSHA Handbook of Texas "Forty-two"; Wikipedia: 42 (dominoes)]
+- The spread: kept off the playing table on a side table or kitchen counter: pecan pie or a sheet cake, a plate of kolaches (see catalog: Kolaches / klobasnek), a bowl of queso and chips (see catalog: Chile con queso), or the leftovers of a family supper. [LOW — not verified; no source ties a menu to 42]
+- Surface and environment: a square card table or the kitchen table, dominoes (white with black pips, double-six set) shuffled face-down in the middle and stood on edge in front of each player; a lamp or warm overhead light; a farmhouse or suburban kitchen.
+- Snapshot staging: **1 setting**: the hero drink and a dessert plate at one corner of the table, a player's row of standing dominoes cropped beside it (backs to camera). **2 settings**: two identical plates and drinks at adjacent corners; face-down dominoes in the middle. **Small group**: four identical settings at the corners of a card table, the side table of food soft behind. Crowd cues: an extra chair pulled up by a watcher, a second table of players blurred in a hall, a coffee cup on the counter.
+- Never stage: money or score pads used for stakes; bar or tavern versions with beer (42 is also played in taverns; stage home or hall only); a written score sheet in focus (pips on the dominoes are fine; nothing written or printed is legible).
+- Confidence and sources: HIGH for the game's status and origin; LOW for food; EDITORIAL for staging. Source: [TSHA — Forty-two](https://www.tshaonline.org/handbook/entries/forty-two-domino-game); [Wikipedia: 42 (dominoes)](https://en.wikipedia.org/wiki/42_(dominoes)).
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Texas BBQ platter (full authoritative entry — supersedes `us.md`'s national-index BBQ pointer for Texas)
@@ -424,6 +456,7 @@ National celebrations (Thanksgiving, Fourth of July and Memorial/Labor Day cooko
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, TSHA, Texas Monthly, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Celebrations pass (2026-10-01): quinceañera headcount and buffet menus rest on caterer and budget-guide sources (commercial tier)**; no institutional or journalism source was found for typical Texas guest counts. Tamalada side dishes and Christmas Eve table counts are editorial.
 - **Juneteenth red-drink tradition conflicts with the hero-only drink rule**: the historical red soda is a non-TCCC brand. The entry resolves it by carrying the red cue in food; Fernando (2026-10-01) asked for the information so the team can decide; it is now in the entry. Open until the team rules.
+- **Game-night pass (2026-10-01)**: Texas football kick-off times and the home/tailgate spread beyond brisket are model knowledge [LOW — not verified]; no source ties a menu to Texas 42 dominoes. The Mexican-American fight-night entry lives in `us-arizona.md` and is pointed to, not duplicated.
 
 ---
 
@@ -436,6 +469,7 @@ National celebrations (Thanksgiving, Fourth of July and Memorial/Labor Day cooko
 5. **Priority 5**: Tighten the several real-world-size figures flagged MEDIUM/MEDIUM-HIGH above once the project's broader retroactive real-world-scale audit reaches this file.
 6. **Priority 6**: Texas toast, Blue Bell ice cream, and other Texas-associated foods not covered in this pass, if a future brief calls for them.
 7. **Celebrations pass (2026-10-01)**: Texas pork-in-red-chile tamales (full entry; currently borrowed from `us-new-mexico.md`'s Tamales), charro beans, and Tex-Mex Spanish rice as side entries.
+8. **Game-night pass (2026-10-01)**: nachos (stadium paper-boat style) as a viewing food; no new dish entries otherwise needed (brisket, queso, chili, Frito pie and breakfast tacos are already catalogued).
 
 ---
 
@@ -448,3 +482,4 @@ National celebrations (Thanksgiving, Fourth of July and Memorial/Labor Day cooko
 - **Total sources cited**: approximately 45 distinct URLs across roughly 25 search queries.
 - **Structural decision made during the merge into this canonical file (not part of the original research pass)**: the research surfaced a genuine open question — whether Texas BBQ's four-way regional split (especially barbacoa) warrants zone treatment inside this file the way Missouri & Kansas City got inside `us-midwest.md`. Resolved as: one file, no internal zone split, since Texas's internal variation (BBQ style, Tex-Mex intensity) stays within already-coherent dish families rather than carrying a second whole distinct cuisine identity the way St. Louis's Italian-American/German-American register did alongside Kansas City's barbecue. See FILE ROLE & METHOD above for the full reasoning.
 - **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (tamalada, quinceañera catering, Juneteenth food). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: Christmas Eve tamales/tamalada, quinceañera reception, Juneteenth cookout. WebSearch snippets only, no page reads.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market research notes (45 searches across all markets), 1 new search (Texas 42 dominoes: TSHA Handbook, Wikipedia).

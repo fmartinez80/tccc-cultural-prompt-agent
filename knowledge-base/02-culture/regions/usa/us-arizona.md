@@ -123,6 +123,29 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+The national entries in `us.md`'s GAME NIGHT section (Super Bowl and NFL Sunday at home, the alcohol-free college tailgate, NBA and March Madness, home board and card nights, trivia, video games, the mahjong revival) apply in Arizona. This section adds one Arizona entry, which also serves `us-texas.md` and `us-west-coast.md` for Mexican-American households. All `country-file-schema.md` §5.8 rules hold.
+
+### Watch parties
+
+The delta is the Mexican-American fight night: a backyard carne asada in the late afternoon that runs into a pay-per-view boxing card at night, Sonoran-style here (see the Carne asada gathering entry in CELEBRATIONS & LARGE GATHERINGS above for the table itself).
+
+#### Watch party: Fight-night carne asada (Mexican Independence weekend boxing)
+- When: the big card falls on Mexican Independence Day weekend in mid-September (a Mexican star has fought that weekend most years since 2010), plus other marquee Saturday bouts. The asada starts in the late afternoon and the main event comes on late; in Arizona (no daylight saving, so Pacific time in September) a main event around 20:00 to 21:00 ET lands about 17:00 to 18:00 local, but undercards and ring walks often push it later. Intake time: golden-hour for the asada, evening for the fight. [MEDIUM for the Independence-weekend tradition — Boxing247, Round by Round; local times LOW — arithmetic, not verified]
+- Gathering: extended family, compadres and friends, 10 to 30, in a backyard or carport with the TV wheeled out to the patio or set up in the living room (home outdoor and indoor). [EDITORIAL]
+- The spread: mesquite-grilled carne asada chopped on a board, large thin flour tortillas (see catalog: Sonoran-style flour tortilla), salsa in a molcajete, guacamole, grilled green onions and roasted chiles, beans, lime; Sonoran hot dogs off the same grill (see catalog: Sonoran hot dog); chips in a bowl. Bowls and a cutting board, not platters. [MEDIUM — Boxing247/Round by Round for carne asada with the fight; dishes per this file's Carne asada gathering entry]
+- Surface and environment: a long patio or folding table near the grill, then the coffee table or a TV cart on the patio after dark; mesquite smoke, string lights coming on, block-wall yard, the TV a soft colour field.
+- Snapshot staging: **1 setting**: a plate with two folded flour-tortilla tacos of carne asada and a grilled onion on the patio table, the hero drink beside it, the TV glow soft in the background. **2 settings**: two identical plates; the board of carne asada and the molcajete between them. **Small group**: identical plates along the patio table turned toward the screen; board, salsa, guacamole, tortillas in a cloth in the middle; chairs running out of frame. Crowd cues: blurred backs of heads toward the screen, the grill's smoke, a second table soft behind.
+- Never stage: blood, fighters' faces, belts, promoter or broadcaster logos, any legible screen; beer (the default drink at this gathering; keep only the hero); betting or pools; a full Mexican or US flag (green-white-red paper goods soft in the background is the limit).
+- Confidence and sources: MEDIUM for the tradition [Boxing247; Round by Round, carried from the cross-market research notes]; MEDIUM-HIGH for the food (this file's existing sourcing); local times LOW; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: high, as nationally; no Arizona-specific format found. The national entries apply.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Sonoran hot dog (full authoritative entry — supersedes `us.md`'s national-index Hot dog pointer for the Sonoran variant)
@@ -413,6 +436,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **No dedicated research pass was run on Yuma/southwestern Arizona agriculture (citrus, dates, leafy greens), Arizona's broader craft/beverage scene, or a deeper Phoenix-specific dining-culture pass beyond the Tucson/Phoenix contrast already documented** — plausible candidates for a future pass but out of scope for this specific assignment.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, Tucson Foodie, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Celebrations pass (2026-10-01): carne asada gathering headcount and Christmas side dishes (menudo, pozole, buñuelos) not verified this pass.** The Tohono O'odham saguaro harvest was checked and deliberately not staged (religious rite with ceremonial wine).
+- **Game-night pass (2026-10-01)**: fight-night carne asada rests on two boxing-press sources (Boxing247, Round by Round) carried from the cross-market notes; local main-event times are arithmetic [LOW]. No Arizona-specific social game format was found.
 
 ---
 
@@ -425,6 +449,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 5. **Priority 5**: Tighten the several real-world-size figures flagged MEDIUM/LOW-MEDIUM above once the project's broader retroactive real-world-scale audit reaches this file.
 6. **Priority 6**: A pass on Yuma-area agriculture, Arizona's broader beverage/craft scene, and a deeper Phoenix-specific dining-culture pass, if a future brief needs it.
 7. **Celebrations pass (2026-10-01)**: Sonoran carne asada (mesquite-grilled, chopped, with flour tortillas) and Sonoran red chile beef tamales as full entries.
+8. **Game-night pass (2026-10-01)**: Sonoran carne asada (already queued above) is the fight-night centrepiece; guacamole and grilled cebollitas as side entries.
 
 ---
 
@@ -437,3 +462,4 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **Total sources cited**: approximately 45 distinct URLs across roughly 25 search queries.
 - **Structural/naming decision made during the merge into this canonical file (not part of the original research pass)**: this file's research recommended renaming from `us-desert-southwest.md` to `us-arizona.md`, reversing `us.md`'s prior 2026-09-24 judgment call. Accepted during the merge on the strength of the evidence presented (nearly all content is checkably Arizona-bounded; real internal variance found that the prior judgment call didn't have in hand), consistent with this project's standing authorization to use judgment on regional-file naming/structure as research lands. `us.md` has been updated accordingly.
 - **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (Tucson Christmas tamales, Sonoran carne asada gatherings, saguaro harvest). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: carne asada gathering, Christmas Eve tamales; saguaro harvest checked and excluded. WebSearch snippets only.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market research notes (45 searches across all markets), 0 new searches.

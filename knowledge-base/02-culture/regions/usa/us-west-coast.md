@@ -137,6 +137,38 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+The national entries in `us.md`'s GAME NIGHT section (Super Bowl and NFL Sunday at home, the alcohol-free college tailgate, NBA and March Madness, home board and card nights, trivia, video games, the mahjong revival) apply on the West Coast. This section adds the two heritage-community formats that differ. All `country-file-schema.md` §5.8 rules hold: nothing legible on screens, lyrics or cards; no gambling; no alcohol; the snapshot rule; no identifiable children.
+
+### Watch parties
+
+No West Coast-specific format beyond the national entries. For a Mexican-American fight-night carne asada in Southern California, use `us-arizona.md`'s entry and swap the Sonoran table for this file's taquiza spread (see the Backyard taquiza party entry in CELEBRATIONS & LARGE GATHERINGS above).
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: high, as nationally, and higher inside Filipino-American and Mexican-American family gatherings, where a game is part of almost every party rather than a separate "night".
+
+#### Game night: Filipino-American videoke party (videoke, karaoke)
+- When: weekend birthdays, the debut, graduations, Christmas and New Year parties; the singing starts in the afternoon and runs into the night. Intake time: golden-hour into evening. [MEDIUM for the Philippine pattern — Fun in the Philippines, DitoSaPilipinas; LOW — not verified for its strength among Filipino-Americans, supported only by this file's existing party entry]
+- Gathering: the same 30 to 100 extended family and friends as the Filipino-American family party (see CELEBRATIONS & LARGE GATHERINGS above), in a garage, backyard or living room in the Bay Area, Los Angeles or San Diego (home indoor or outdoor). The machine and speakers are already a cue in that entry ("karaoke speakers soft in the background"). [EDITORIAL for headcount]
+- The spread: party trays in foil half-pans: pancit, lumpia, Filipino-style sweet spaghetti, BBQ pork sticks, lechon (no catalog entries for these yet; see CANDIDATE QUEUE and the forms described in the family-party entry above). Pulutan such as sisig and chicharon belongs to the drinking circle and is left out. [LOW — not verified, from the Philippines notes]
+- Surface and environment: folding tables with plastic cloths along the garage wall, the TV on a cart or console with the screen as a soft field of colour, a tall speaker cabinet and two microphones resting on the table, coloured LED or disco light, a balloon garland.
+- Snapshot staging: **1 setting**: a paper plate with rice, pancit, two lumpia and a BBQ stick on the folding table, the hero drink beside it, a microphone resting near the plate, the screen glowing out of focus. **2 settings**: two identical plates; a foil tray of lumpia and one of pancit between them. **Small group**: identical plates along the folding table; trays down the middle, partly cropped. Crowd cues: blurred figures near the screen (no sharp face), stacked monobloc chairs, a buffet line of foil trays behind, a birthday banner blurred.
+- Never stage: someone singing into the mic with a face toward camera; legible lyrics, song titles, score display or machine brand; beer, the shared-glass drinking circle (tagay) or pulutan plates; a child or debutante under 18 as the subject.
+- Confidence and sources: MEDIUM for videoke as a fixture of Filipino parties (Philippines sources); LOW for the US transfer beyond this file's line 124; EDITORIAL for staging.
+
+#### Game night: Lotería at a family gathering (lotería)
+- When: Christmas posadas (16–24 December) and family Sundays and birthdays; played "while the food finishes cooking". Intake time: evening for posadas, golden-hour for a family Sunday. [MEDIUM — Press Democrat (Sonoma County, on Latino families in California), Loco Gringo on Mexican posadas]
+- Gathering: Mexican-American extended family across generations, 8 to 20 around one or two tables, with a caller singing out the cards (home indoor or outdoor). [EDITORIAL]
+- The spread: tamales (see `us-new-mexico.md` catalog: Tamales for form), pozole in bowls, tostadas, buñuelos, and warm fruit ponche in mugs (alcohol-free; never ponche con piquete). [MEDIUM — from the Mexico notes; LOW — not verified for California households specifically]
+- Surface and environment: folding tables with an oilcloth, tablas (picture boards) with pinto beans or bottle caps as markers, a Christmas tree or papel picado soft behind, warm indoor light.
+- Snapshot staging: **1 setting**: a bowl of pozole or a plate with a tamale, the hero drink, and one tabla with a few beans on it, its pictures unreadable. **2 settings**: two identical settings and two tablas; a platter of tamales between them. **Small group**: identical settings around the table, tablas at each place, a pot of pozole cropped. Crowd cues: a blurred caller's hand holding a card (face-down or unreadable), extra chairs, a second table behind.
+- Never stage: a recognisable publisher's deck or card art (the classic decks are trademarked; use generic picture cards with unreadable art); prize money or coins as stakes; religious imagery in focus; any alcohol.
+- Confidence and sources: MEDIUM for lotería at posadas and Latino family gatherings [Press Democrat; Loco Gringo]; food LOW for the US; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: San Francisco sourdough bread (full authoritative entry — resolves `us.md`'s LOW-confidence "not fully researched" flag)
@@ -450,6 +482,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **No dedicated research pass was run on Northern California's Chinatown-anchored Cantonese-American food tradition as its own dish-level entry** (distinct from the already-documented national Chinese-American takeout entry in `us.md`) — flagged as a plausible future candidate if a brief needs San Francisco-Chinatown-specific depth beyond `us.md`'s existing national entry.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, Smithsonian, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Celebrations pass (2026-10-01): headcounts for Filipino-American and taquiza parties are editorial**; Filipino party sourcing is one academic folklore archive plus caterer pages; taquiza sourcing is L.A. Taco plus caterers. No LA Times-tier source found for the taquiza format.
+- **Game-night pass (2026-10-01)**: Filipino-American videoke rests on Philippines sources plus this file's own party entry; its strength in US households is not verified [LOW]. Lotería food in California households is carried from the Mexico notes [LOW]. Pulutan-is-drinking-led is [LOW — not verified].
 
 ---
 
@@ -463,6 +496,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 6. **Priority 6**: Flag for `us.md`'s own maintainers — its California roll entry needs a §4.5 real-world-scale field added in that file, not here.
 7. **Priority 7**: If the future `us-pacific-northwest.md` build ever surfaces a competing claim to West Coast coffee culture broadly, cross-check against this file's Oakland/Blue Bottle boundary flag.
 8. **Celebrations pass (2026-10-01)**: Lechon, pancit and lumpia (Filipino-American party trays); Cantonese whole steamed fish (banquet); al pastor tacos (taquiza). Overlaps the existing Cantonese-American Priority 2 item.
+9. **Game-night pass (2026-10-01)**: Filipino-style sweet spaghetti and BBQ pork sticks (videoke party trays), alongside the already-queued lechon, pancit and lumpia; pozole and buñuelos for lotería, or a pointer to another file's entries.
 
 ---
 
@@ -475,3 +509,4 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **Total sources cited**: approximately 55–60 distinct URLs across roughly 25 search queries.
 - **Structural decisions made during this file's own research/writing process**: (1) tested, rather than assumed, the NorCal/SoCal internal-variation question — found real, sourced variation, resolved via dish-level variant tables and zone callouts rather than a further file split, consistent with how Texas's BBQ-style variation and Arizona's Tucson/Phoenix gradient were handled; (2) treated the California burrito and Mission-style burrito as a genuine §4.2 regional-form-variation pair rather than either a single flattened "California burrito" entry or two unrelated dishes, since both share a dish family (burrito) but differ in construction by California sub-region in a way that would look visibly wrong if swapped; (3) did not duplicate `us.md`'s already-full, nationally-scoped California roll entry, adding only a cross-reference and flagging that file's own missing §4.5 field for its future audit; (4) did not recommend any change to this file's name — the `us-west-coast.md` vs. `us-california.md` naming question is treated as closed by the human reviewer's 2026-09-24 decision.
 - **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (SF Lunar New Year banquets, Filipino-American parties, LA taquizas). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: Lunar New Year banquet, Filipino-American family party, backyard taquiza. WebSearch snippets only.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market research notes (45 searches across all markets), 0 new searches.

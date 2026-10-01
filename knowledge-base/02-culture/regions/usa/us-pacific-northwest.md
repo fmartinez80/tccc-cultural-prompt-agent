@@ -134,6 +134,12 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+No genuine Pacific Northwest delta was found: the national entries in `us.md`'s GAME NIGHT section (watch parties and social game nights) apply. The only regional touch is the spread: NFL playoffs and the Super Bowl fall inside the Dungeness crab season, so a cracked crab platter (see catalog: Dungeness crab) or teriyaki containers (see catalog: Seattle-style teriyaki bowl) can stand in for wings, with overcast, rainy window light. [EDITORIAL; LOW — not verified as a documented game-day pattern]
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Dungeness crab (whole cooked/cracked)
@@ -369,6 +375,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **A real, documented but brand-safety-inappropriate sub-phenomenon of the Pacific Northwest drive-through espresso-stand format (a sexualized "bikini barista" variant) was found in research and deliberately excluded from this file entirely** — it is real and well-documented, but has no plausible legitimate role in a Coca-Cola brand-safety-conscious staging brief, and including it would risk exactly the kind of content this project's brand-safety rules exist to prevent. This exclusion is a judgment call, logged here for transparency rather than silently omitted.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, HistoryLink.org, CRITFC, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Celebrations pass (2026-10-01): crab-feed and home crab-dinner headcounts are editorial.** The lutefisk dinner is shared with the Upper Midwest; cross-check against `us-midwest.md` if that file adds one.
+- **Game-night pass (2026-10-01)**: no PNW-specific format was found; the crab-and-teriyaki spread swap for NFL playoffs is editorial [LOW — not verified].
 
 ## CANDIDATE QUEUE
 
@@ -380,6 +387,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 6. **Priority 6**: A possible future pass on Willamette Valley wine country's food-only dining register, in parallel to `us-west-coast.md`'s Napa/Sonoma treatment, if the project ever wants that specific parity — not part of this build's assigned scope.
 7. **Priority 7**: Now that all 13 planned US regional files exist, a project-level audit pass cross-checking `us.md`'s FILE ROLE & METHOD table and every other regional file's cross-references against the final 13-file structure, per `country-file-schema.md` §8's internal-consistency check.
 8. **Celebrations pass (2026-10-01)**: Lutefisk and Scandinavian meatballs as full entries (lefse is already queued under Priority 3).
+9. **Game-night pass (2026-10-01)**: none new; the game-day spread uses existing entries.
 
 ## RESEARCH LOG
 
@@ -390,3 +398,4 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **Total sources cited**: approximately 45–50 distinct URLs across roughly 25 search queries.
 - **Structural decisions made during this file's own research/writing process**: (1) tested, rather than assumed, the Washington/Oregon one-file-vs-two-files question — found a real gradient but resolved it as zone callouts within one file, consistent with how this project handled Texas's BBQ styles, Arizona's Tucson/Phoenix gradient, and California's NorCal/SoCal split, submitted as a research recommendation and **accepted by the orchestrating session**; (2) deliberately separated the mainstream/restaurant cedar-plank salmon entry from the traditional/ceremonial Indigenous salmon-bake entry, rather than blending them into one dish with an undifferentiated "regional variant" table, given the latter's genuine cultural/ceremonial weight — and added explicit staging-care guidance rather than treating it as an ordinary interchangeable style choice; (3) respected, rather than re-litigated or re-claimed, both of `us-west-coast.md`'s explicit Pacific-Northwest-boundary flags (the SF sourdough-bread-bowl chowder format; the Oakland/Blue Bottle Coffee origin); (4) declined to force a single default among Pacific Northwest clam chowder's three genuinely coexisting variants, per `country-file-schema.md` §4.6's caution against silently suppressing real options, logging the open question explicitly rather than guessing; (5) excluded lutefisk and the "bikini barista" espresso-stand variant as dish/environment candidates on staging-relevance and brand-safety grounds respectively, logging both exclusions explicitly rather than omitting them silently.
 - **2026-10-01 celebrations pass (schema §5.7)**: 2 searches (Dungeness crab feeds, Poulsbo/Seattle lutefisk dinners). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: crab feed and holiday crab dinner, lutefisk and meatball dinner; salmon bake pointed to its existing catalog entry. WebSearch snippets only.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market research notes (45 searches across all markets), 0 new searches.

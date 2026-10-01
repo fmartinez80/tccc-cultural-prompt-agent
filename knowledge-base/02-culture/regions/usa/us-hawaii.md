@@ -140,6 +140,29 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+The national entries in `us.md`'s GAME NIGHT section apply in Hawaii with one real difference: the clock. Hawaii has no daylight saving and sits five to six hours behind the East Coast, so mainland football lands in the morning and midday. All `country-file-schema.md` §5.8 rules hold: nothing legible on screens; no crests, kits or school names; no gambling; no alcohol; the snapshot rule; no identifiable children.
+
+### Watch parties
+
+Mainland NFL and college games are daytime viewing in Hawaii, watched at home or in a garage or carport with a potluck pupu spread rather than wings and pizza alone. The three-layer framing in FILE ROLE & METHOD applies: this is the local family layer, not the commercial luau.
+
+#### Watch party: Super Bowl and NFL at midday (football potluck)
+- When: NFL Sunday early games kick off at 07:00 HST (September to early November) or 08:00 HST (November onward), which is breakfast and out of scope; stage the late-afternoon ET window instead (10:25 or 11:25 HST) as a midday scene. Sunday night games start about 14:20 to 15:20 HST and Monday night games about 14:15 to 15:15 HST, both midday into golden-hour. The Super Bowl (about 18:30 ET) kicks off around 13:30 HST, so the party is a midday-to-golden-hour event, not an evening one. [LOW — time-zone arithmetic, not verified against published local schedules]
+- Gathering: family and friends, 10 to 30, in a living room, garage or carport with the TV pulled toward an open door (home indoor or outdoor). [EDITORIAL]
+- The spread: the potluck pupu table in foil pans: poke (see catalog: Poke — traditional Native Hawaiian, or the contemporary shoyu-ahi style), Spam musubi (see catalog: Spam musubi), chicken katsu (see catalog: Chicken katsu plate), kalua pig (see catalog: Kalua pig / imu earth-oven cooking) with rolls, teriyaki, mac salad (see catalog: Plate lunch), chili, wings, a rice cooker. [LOW — not verified as a documented game-day menu; dishes from this file's family potluck party entry, MEDIUM-HIGH there]
+- Surface and environment: a coffee table or folding table in the garage, slippers lined up at the door, daylight from an open garage or lanai, the TV a soft colour field; warm, humid late-morning to afternoon light, not screen-glow night.
+- Snapshot staging: **1 setting**: a paper plate with two Spam musubi, a scoop of poke and mac salad on the coffee table, the hero drink beside it, the TV glow soft behind in a daylit room. **2 settings**: two identical plates; a foil pan of katsu and a poke container between them. **Small group**: identical plates around a folding table in the garage; foil pans and a rice cooker down the middle, partly cropped. Crowd cues: blurred backs of heads toward the screen, more folding chairs, a cooler and slippers at the edge.
+- Never stage: team logos, jerseys, helmets or a legible screen; school names or crests for local high-school or university teams; beer coolers or cans; squares pools or any betting; a full US or Hawaii state flag; commercial luau props.
+- Confidence and sources: LOW — time-zone arithmetic and editorial staging; spread carried from this file's MEDIUM-HIGH potluck sourcing. Flag for a source on Hawaii game-day viewing.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: medium to high, as nationally [LOW — no Hawaii-specific source in the research notes]. Karaoke is commonly said to be a fixture of local family parties, reflecting the islands' Filipino and Japanese heritage, but this was not verified; until it is, use `us-west-coast.md`'s Filipino-American videoke entry only with explicit brief framing and stage it with this file's potluck spread. No separate entry.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Plate lunch (structural/format entry — cross-cutting, referenced by multiple entries below, parallel treatment to `us-arizona.md`'s Sonoran-flour-tortilla entry and `us-new-mexico.md`'s Hatch-chile entry)
@@ -627,6 +650,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **`us.md` currently has no dish-level pointers into any content in this file** (loco moco, plate lunch, Spam musubi, and so on) — flagged as a candidate for a future project-wide cross-reference audit now that all 13 US regional files exist, not fixed in this pass.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, Bishop Museum, Hawaiʻi Magazine, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Celebrations pass (2026-10-01): baby lūʻau headcount (100–300) and grad-party headcount rest on lifestyle sources or none (LOW).** Graduation lei sourcing is retailer/lifestyle tier, though consistent across many pages.
+- **Game-night pass (2026-10-01)**: all Hawaii kick-off times are time-zone arithmetic [LOW]; no source was found for a Hawaii game-day menu or for karaoke at local family parties (both LOW — not verified).
 
 ## CANDIDATE QUEUE
 
@@ -638,6 +662,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 6. **Priority 6**: A pass on any Hawaii-specific tableware/eating-custom conventions (this file did not find a Hawaii-specific override to `tableware-composition-reference.md`'s Western-default place-setting norms, beyond the plate-lunch tray/clamshell format and poi's traditional finger-eating convention already documented) to populate `tableware-composition-reference.md` §5's currently-placeholder United States row with Hawaii-specific detail, per that file's stated population plan.
 7. **Priority 7**: Now that all 13 planned US regional files exist, a project-level audit pass cross-checking `us.md`'s FILE ROLE & METHOD table and every other regional file's cross-references against the final 13-file structure, per `country-file-schema.md` §8's internal-consistency check — this file in particular should be checked for whether any of its content (loco moco, Spam musubi, plate lunch) warrants a new thin index-entry pointer being added to `us.md`, which currently has none pointing here.
 8. **Celebrations pass (2026-10-01)**: Chicken long rice, butter mochi, and Hawaii-style mac salad as a standalone entry (currently only inside Plate lunch).
+9. **Game-night pass (2026-10-01)**: none new beyond the already-queued mac salad, chicken long rice and butter mochi; the pupu spread uses existing entries.
 
 ## RESEARCH LOG
 
@@ -648,3 +673,4 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **Total sources cited**: approximately 55 distinct URLs across roughly 30 search queries.
 - **Structural decision made during this research pass**: this file recommends keeping Hawaii as a single file with the Oʻahu/neighbor-island gradient documented as an explicit callout rather than a further split — the same resolution `us-arizona.md` reached for its Tucson/Phoenix gradient and `us-new-mexico.md` reached for its north/south gradient, for the same reason (the variation found is one of density/commercial register, not a different dish grammar or cuisine family). **Accepted by the orchestrating session** on the strength of this reasoning, consistent with the project's established precedent for internal-gradient cases — logged in `DECISIONS.md`.
 - **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (baby lūʻau, potluck/pupu parties, graduation lei). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: baby lūʻau, graduation party with lei, family potluck party. WebSearch snippets only.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market research notes (45 searches across all markets), 0 new searches.

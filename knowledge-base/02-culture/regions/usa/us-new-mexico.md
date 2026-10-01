@@ -134,6 +134,12 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+No genuine New Mexico delta was found: the national entries in `us.md`'s GAME NIGHT section (watch parties and social game nights) apply. The only change is the spread, which leans on green chile: green chile cheeseburgers (see catalog: Green chile cheeseburger), Frito pie (see catalog: Frito pie) and a pot of green chile stew (see catalog: Green chile stew) in place of wings and pizza. [EDITORIAL; LOW — not verified as a documented game-day pattern]
+
+---
+
 ## DISH CATALOG
 
 ### Dish: New Mexican stacked enchiladas (full authoritative entry — supersedes `us.md`'s national-index Enchiladas pointer for the New Mexican variant; builds on, does not duplicate, `us.md`'s existing depth)
@@ -396,6 +402,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **No dedicated research pass was run on Albuquerque's or Las Cruces's broader restaurant/dining-out culture, New Mexico wine country (the Rio Grande Valley has one of the oldest wine-growing histories in North America, per passing mentions in sourcing not followed up this pass), or the state's green chile export/processing industry beyond the top-line USDA production figures cited above** — all plausible candidates for a future pass but out of scope for this file's specific assignment.
 - **Network egress was blocked for every direct page-fetch attempted this pass** (Wikipedia, USDA NASS, New Mexico Magazine, and all other domains) — consistent with every prior research round on this project. Every citation above relies on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.
 - **Celebrations pass (2026-10-01): Pueblo feast-day headcounts and the photography/alcohol visitor rules were not verified this pass**; feast-day menu sourcing is tourism/journalism tier, not Pueblo-authored. Christmas Eve headcount is editorial.
+- **Game-night pass (2026-10-01)**: no New Mexico-specific watch-party or social game format was found; the green-chile spread swap is editorial [LOW — not verified].
 
 ---
 
@@ -409,6 +416,7 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 6. **Priority 6**: A pass on New Mexico wine country and any other dishes/customs not covered in this pass, if a future brief calls for them.
 7. **Priority 7**: Cross-check this file's Frito pie entry against `us-texas.md`'s periodically, to confirm no unintentional drift or contradiction between the two states' accounts of the same contested origin dispute if either file is later revised.
 8. **Celebrations pass (2026-10-01)**: Chicharrones (New Mexico matanza style) and red chile (pork) stew as full entries.
+9. **Game-night pass (2026-10-01)**: none new; the game-day spread uses existing entries.
 
 ---
 
@@ -421,3 +429,4 @@ National celebrations and the national snapshot rule live in `us.md`'s CELEBRATI
 - **Total sources cited**: approximately 45 distinct URLs across roughly 25 search queries.
 - **Structural decision made during the merge into this canonical file**: the research recommended, and this merge confirms, keeping New Mexico as a single file with the northern/southern gradient documented as an explicit dish-level callout — the same resolution `us-texas.md` reached for its own internal variation, for the same reason (the variation stays within one coherent dish family rather than carrying a second whole distinct cuisine identity). See ZONE CHARACTERIZATION above for the full reasoning and CANDIDATE QUEUE item 1 for what would revisit this.
 - **2026-10-01 celebrations pass (schema §5.7)**: 3 searches (Christmas Eve menu and farolitos, Pueblo feast-day open houses, matanza). Added CELEBRATIONS & LARGE GATHERINGS regional deltas: Christmas Eve posole/tamales/biscochitos, Pueblo feast-day open house, matanza. WebSearch snippets only.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market research notes (45 searches across all markets), 0 new searches.
