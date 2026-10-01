@@ -3271,3 +3271,14 @@ Following the dining-scenario coverage audit
 4. **Thailand ordination and house-blessing feasts**: include when the
    occasion is a common part of local culture or something traditional
    marketing would point to. Both kept.
+
+## Fernando's direction on game night, 2026-10-01
+
+"There is game night as it pertains to watching a sporting event ... include
+detail and examine cultural trends, common components and environmental
+details ... for major global sports. Then there is ... trivia, karaoke, board
+game type of game night and other type of fun events, whether at home or in
+a public setting ... assess which markets for which this is a popular type
+of event." Research report:
+`/mnt/project-files/knowledge-base/scenario-coverage/game-night-report.md`.
+New schema §5.8 and a mandatory GAME NIGHT section in every country file.

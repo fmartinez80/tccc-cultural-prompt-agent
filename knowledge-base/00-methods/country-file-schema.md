@@ -118,6 +118,8 @@ One file per country: `knowledge-base/02-culture/regions/{ou}/{country}.md`.
    - **ENVIRONMENT & STAGING SCENES** — see §5.
    - **CELEBRATIONS & LARGE GATHERINGS** — see §5.7. Mandatory in every
      country file, directly after the festivals register.
+   - **GAME NIGHT** — see §5.8. Mandatory in every country file, directly
+     after CELEBRATIONS & LARGE GATHERINGS.
    - **Dish catalog** (called "DISH CATALOG" for a single-file country,
      "TOP DISHES" or similar for a national index file) — see §4.
 5. **GAP LOG** — explicit, honest listing of what's unresolved, thin, or
@@ -535,6 +537,49 @@ Celebration entry template:
   legible crests, identifiable children
 - Confidence and sources
 ```
+
+### 5.8 Game night: watch parties and social game nights
+
+Standing rule, set by the reviewer 2026-10-01. The intake occasion
+`game-night` has two meanings, and every country file covers both in a
+**GAME NIGHT** section placed directly after CELEBRATIONS & LARGE
+GATHERINGS:
+
+1. **Watch parties**: people eating together while watching sport, at
+   home (living room, backyard) or in public (fan zone, viewing centre,
+   restaurant screening, tea stall or coffee stall, stadium concourse).
+   One entry per sport or occasion that is big in the market (a football
+   derby or tournament, cricket, rugby, basketball, boxing, the Super
+   Bowl), with: when (and the local kick-off time, since overseas leagues
+   land late at night or before dawn in many markets), who gathers and
+   how many, the venue, the spread and its vessels, the surface (often a
+   coffee table, low table or counter, not a dining table), environment
+   cues, snapshot staging for 1, 2 and a small group, and never-stage
+   notes.
+2. **Social game nights**: trivia, karaoke, board and card games,
+   mahjong, dominoes, lotería, video-game nights and similar, at home or
+   in public. Each file states how popular these are as an occasion to
+   gather and eat around (high / medium / low / niche, with the basis),
+   then gives one entry per format that is at least medium in the market.
+
+Rules for both:
+- **Screens, cards, boards and tiles are never legible.** A TV or
+  projector is a soft glow or an out-of-focus field of colour; no score
+  bug, channel logo, game title or player name. No team crests, kits,
+  sponsor marks or league logos. No licensed board games or branded
+  decks.
+- **No gambling as the subject.** No betting slips, odds screens, betting
+  apps, chips, cash on the table or scoring for money, even where the game
+  is usually played for stakes (mahjong, teen patti, okey, bingo).
+- **Drinking-led formats** (pub quiz, sports bar, izakaya viewing,
+  karaoke with beer towers, tailgates) are staged only in a food-led,
+  alcohol-free form, or not at all; each file says which.
+- The snapshot rule (§5.7) applies: party size is the place settings in
+  frame; a bigger crowd is implied (more chairs, a sofa running out of
+  frame, blurred backs of heads toward the screen, within the
+  background-people limit). **No identifiable children.**
+- The light follows the real time: a late-night kick-off is a night
+  scene (screen glow, a lamp), not golden hour.
 
 ---
 
