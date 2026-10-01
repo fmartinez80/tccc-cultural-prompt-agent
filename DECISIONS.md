@@ -3189,3 +3189,31 @@ ordered by prominence. Spain's paella entry is the worked example.
 notes) and Mexico (all catalog entries) done the same day, following the
 recommended order while Fernando's rollout pick was pending. Remaining:
 Germany, South Africa, UK/Scotland, Uruguay and the US files.
+**Update 2026-10-01:** all remaining files back-filled (Fernando chose "all
+files in parallel"). Method: one research agent per disjoint file group,
+writing directly into its own files (additions only), instead of schema §9's
+"subagents write scratch files" — safe because no two agents shared a file,
+and each diff was checked as additions-only before commit. Where an agent
+found an older figure contradicted by a source, it used the sourced figure in
+the new block and logged the conflict rather than editing the old line.
+
+## Remaining roadmap markets built as first passes, 2026-09-27 to 2026-10-01
+
+**Trigger**: Fernando: "Continue to create new countries from our list until
+complete."
+
+**Decision**: Argentina, Brazil, Turkey, Nigeria, China, India, Japan,
+Thailand, Philippines, Pakistan, Bangladesh (and Indonesia, pending) built as
+single national files with internal zones, one research agent per country
+following `mexico.md`'s structure, §4.7 blocks on every dish and §5.4 (brief
+names the SKU). New region directory `asia/`. Each file's gap log lists the
+calls that need Fernando or a local TCCC team (spinouts, iftar/religious
+staging rules, alcohol RTDs sold by TCCC in some markets).
+
+**Cross-cutting finding**: guidelines §4.3's "non-US market ⇒ 330 mL can"
+holds for few of these markets. Found: Argentina 354, Brazil 350, Mexico 355,
+Japan 350, Thailand 325, Philippines 320, India 300, Pakistan 250,
+Bangladesh 250 mL; Nigeria and China sell sleek 330 mL cans alongside or
+instead of the standard shape. Recommended: replace the single default with a
+per-market can table in `coca-cola-guidelines.md` (not edited; awaiting the
+TCCC spec drop and Fernando's OK).
