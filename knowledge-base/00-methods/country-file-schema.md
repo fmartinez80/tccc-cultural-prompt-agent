@@ -120,6 +120,8 @@ One file per country: `knowledge-base/02-culture/regions/{ou}/{country}.md`.
      country file, directly after the festivals register.
    - **GAME NIGHT** — see §5.8. Mandatory in every country file, directly
      after CELEBRATIONS & LARGE GATHERINGS.
+   - **VENUE PROFILES** — see §5.9. Background-first profiles of the venues
+     the file stages, directly after the generic scene registers table.
    - **Dish catalog** (called "DISH CATALOG" for a single-file country,
      "TOP DISHES" or similar for a national index file) — see §4.
 5. **GAP LOG** — explicit, honest listing of what's unresolved, thin, or
@@ -580,6 +582,60 @@ Rules for both:
   background-people limit). **No identifiable children.**
 - The light follows the real time: a late-night kick-off is a night
   scene (screen glow, a lamp), not golden hour.
+
+### 5.9 Venue profiles: what the soft background must show
+
+Standing rule, set by the reviewer 2026-10-01. The default camera look is
+a close-up hero: the table is sharp and the room falls into soft focus.
+What makes a scene credible is what reads in that soft background, so
+every venue a file stages gets a **venue profile**, and the profile is
+written background-first. The QUICK-REFERENCE: GENERIC SCENE REGISTERS
+table stays as the short index; profiles live in a **VENUE PROFILES**
+section directly after it (or after ENVIRONMENT & STAGING SCENES in files
+without that table).
+
+Rules:
+- **Hyperlocal first, then the national default.** Describe the venue as
+  it looks in the market's default zone and name what changes by
+  subregion. When a subregion has no detail, use the most common
+  interpretation for the country and say so.
+- **Background-first.** The soft-focus block is the core of the profile:
+  the back wall, the middle distance, the light sources that show as
+  glows or bokeh, the colour palette, and the 3–5 shapes that make the
+  room read as this venue and no other. Then the table as it is really
+  set there.
+- **Name the hallucination traps.** List what image models wrongly add
+  for this venue (tourist clichés, another country's version, a
+  generic "restaurant" look) so the prompt can negate them.
+- **Nothing legible** (signs, menus, boards, screens, packaging), no
+  alcohol cues, no brand marks, never a full flag, no identifiable
+  children, and the background-people limit (no more than about 2.5
+  faces, none sharp).
+
+Venue profile template:
+
+```
+#### Venue: <name> (<local name>)
+- Use for: intake venue and setting, occasions, party sizes; national
+  default or subregional variant; how common it is
+- Soft background (the core): back wall (material, colour, what hangs on
+  it); middle distance (counter, kitchen pass, shelves, other tables,
+  street through the window); light sources that read as glows or bokeh
+  (window, fittings, screens, candles) and their colour temperature by
+  time of day; the colour palette; the 3–5 signature shapes; density and
+  wear (new and sparse, or busy and well-worn); people cues within the
+  limit
+- Shell: building type, windows, floor, ceiling (as far as the frame
+  shows them)
+- The table as set here: surface (cloth, oilcloth, bare wood, steel,
+  melamine), what is always on it, the house tableware, chair or stool
+  edges in frame
+- Subregional variants and the national default
+- Hallucination traps: what to negate in the prompt
+- Never stage: alcohol cues, legible text, brand marks, market rules
+- Prompt-ready line: one sentence, background-led, usable as-is
+- Confidence and sources
+```
 
 ---
 

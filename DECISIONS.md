@@ -3282,3 +3282,14 @@ a public setting ... assess which markets for which this is a popular type
 of event." Research report:
 `/mnt/project-files/knowledge-base/scenario-coverage/game-night-report.md`.
 New schema §5.8 and a mandatory GAME NIGHT section in every country file.
+
+## Fernando's direction on venue detail, 2026-10-01
+
+"Analyze each scenario of venue per region and work to strengthen the
+hyperlocal accuracy of its visual description to avoid hallucination or
+overgeneralization ... If details are absent for a particular subregion we
+may default to the most common interpretation based on the country." On the
+pilot (`/mnt/project-files/knowledge-base/venue-profiles/venue-profile-pilot.md`):
+"what I'm particularly focused on is what we see in that soft background
+that gives our scene credibility." Rollout choice A: the most-used venues
+per market first, the rest in a second pass. New schema §5.9.
