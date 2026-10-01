@@ -149,12 +149,11 @@ only where they prevent a visual error.
    this file's HERO PRODUCT SLOT generalizes the identical lesson to any
    TCCC brand and format. Per the orchestrating session's explicit
    instruction, `coca-cola-guidelines.md` itself is out of scope for this
-   pass and has not been rewritten, and this generalization is not being
-   back-ported to the UK/Germany/Spain files here — both are separate,
-   already-flagged future decisions.
+   pass and has not been rewritten. (The UK/Germany/Spain back-port was
+   done 2026-09-27 on the user's direction — see `DECISIONS.md`.)
 3. **No alcohol in any scene, ever.** Alcohol pairings are documented in
    ICONIC BEVERAGES as cultural context; they are never staged. Never show
-   a TCCC product as a mixer, beside a spirits bottle, or in cocktail
+   a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5), beside a spirits bottle, or in cocktail
    glassware. **This is the user's own explicit, deliberate "document
    everything, stage only what's safe" design, preserved exactly** — see
    ICONIC BEVERAGES for the full rule set and its grounding in TCCC's own
@@ -175,10 +174,10 @@ only where they prevent a visual error.
 
 Every scene carries one TCCC hero product, chosen by the brief — **this
 file never defaults to a fixed "the classic red Coca-Cola can."** This is
-the user's own explicit, deliberate design feature for this file (distinct
-from the UK/Germany/Spain files' red-can default, which is out of scope
-for this pass), preserved exactly as built and verified for internal
-consistency this pass rather than redesigned.
+the user's own explicit, deliberate design feature for this file, and
+since 2026-09-27 the project-wide rule: the brief dictates the SKU, never
+the region (the UK/Germany/Spain red-can defaults were removed the same
+day — see `DECISIONS.md`).
 
 **Template:**
 > [HERO PRODUCT]: {brand and variant exactly as named on pack}, in
@@ -193,7 +192,10 @@ consistency this pass rather than redesigned.
   variant in 2 of 3 generations (`coca-cola-guidelines.md` §1). The lesson
   applies to every brand: Original vs. Zero Sugar vs. Light; Fanta's
   several flavours; Sparletta's several flavours.
-- **Match format to register**, unless the brief overrides:
+- **The brief always names the SKU — never the region or this file**
+  (standing rule, 2026-09-27; see `DECISIONS.md`). If a brief names no
+  product, ask for one rather than inferring it. The register list below
+  is reference for whoever writes the brief, not a default:
   - on the go, forecourt, street: a can or small PET
   - shisa nyama, spaza counter, township yard: a returnable glass bottle
     or PET
@@ -332,7 +334,7 @@ market's specific mixer-leak risk (brandy-and-Coke), not an invented,
 market-specific restriction:
 1. **No alcohol in any scene.** No bottles, glasses, cans, pots, crates,
    bar taps or labels.
-2. **Never stage a TCCC product as a mixer** — no spirits bottle nearby, no
+2. **Never stage a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5)** — no spirits bottle nearby, no
    highball of dark liquid with ice unless the brief confirms it is the
    pure hero product poured, and then name it as such.
 3. **Venues whose default is alcohol** (taverns/shebeens, many shisa nyama
@@ -855,6 +857,39 @@ notch down, per that rule.*
   grill marks.
 - **Confidence:** [MEDIUM] core dish, not independently re-checked this
   pass beyond well-established common knowledge.
+- **Composition & proportions (§4.7) — a whole coil on a board, and one
+  boerie roll.**
+  - **What dominates:** **the sausage itself.** Coil shot: sausage ~70% of
+    the board's visible surface, bare wood ~30% (centre gap and between
+    turns). Roll shot: wors ~50%, roll ~35%, relish ~15%. [EDITORIAL]
+  - **Components:**
+
+    | Component | Real size | Count (board / one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Coil | Strand 2.5–3 cm thick (under half the can's width); coil 20–30 cm across; a 1 kg coil is roughly 1.5 m of sausage, 2–3 turns [EDITORIAL from the entry's scale] | 1 / — | Glossy brown, split at curves | Flat spiral, centre of board |
+    | Cut lengths | 10–12 cm (about the can's height) | 4–8 / 2–3 | Coarse pink-brown cut face, coriander flecks | Laid parallel beside the coil |
+    | Portion weight | **~200 g per adult when other meats are served; ~300 g when wors is the only meat** [MEDIUM — braaicalculator.com butcher rule of thumb] | — | — | — |
+    | Roll | 15–18 cm, soft, pale, split on top | — / 1 | Matte, faint flour | Wors protrudes 2–4 cm at each end |
+    | Relish | 1–2 tablespoons | — / 1 stripe | Glossy chunky red-orange | A stripe along the top of the wors, not smothering it |
+
+  - **Arrangement:** turns touching or ~1 cm apart; cut lengths parallel,
+    one cut face turned to camera.
+  - **Vessel fill & depth:** the coil covers the central half to two-thirds
+    of a 40–50 cm board; it is one strand high (~3 cm), never stacked.
+  - **Served portion:** 2–3 lengths beside a fist of pap on a 26–28 cm
+    plate — meat about a third of the plate. [EDITORIAL]
+  - **State cues:** casing glossy, fat beading at splits, char in irregular
+    patches, a faint haze of smoke.
+  - **Absent on purpose:** straight separate links, crosshatch grill marks,
+    US hot-dog toppings (mustard zigzag, pickle relish, crispy onions),
+    garnish sprigs, any beer or bottle.
+  - **Prompt-ready line:** "A thick, glossy, dark-brown farm sausage coiled
+    flat in one continuous spiral on a worn wooden board, each strand less
+    than half the can's width, the coil wider than a dinner plate; casing
+    blistered and split at the curves, fat beading, irregular char. Two
+    short lengths cut off beside it show a coarse pink-brown face flecked
+    with coriander seed. Bare wood between the turns. No straight links, no
+    grill stripes, no mustard."
 
 #### Braai platter (chops, chicken, sosaties)
 - **Lamb chops:** crisp, rendered, charred fat edges; cooked-through meat;
@@ -867,6 +902,36 @@ notch down, per that rule.*
   [LOW-MEDIUM]
 - **Vessel:** wooden board or platter (40–50 cm).
 - **Model failure:** US sauce-drenched ribs; Rioplatense asado cuts.
+- **Composition & proportions (§4.7) — a shared braai board, then one
+  plate.**
+  - **What dominates:** **meat, heaped.** Board ~85% covered: chops ~40%,
+    chicken ~35%, sosaties ~25%; little wood shows. [EDITORIAL]
+  - **Components:**
+
+    | Component | Real size | Count (board / one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Lamb chops | 10–12 cm across (about the can's height), ~1.5–2.5 cm thick [MEDIUM — braaiculture.com, tamarindnthyme.com]; SA braai-chop packs run ~500–550 g for roughly 4 chops [MEDIUM — BraaiBox, Sacks Butchery listings] | 6–10 / 1–2 | Crisp charred fat edge, coarse salt | Overlapping at one end of the board |
+    | Sosaties | Skewer 20–30 cm; **about 6 meat cubes (~3 cm), 2–3 onion pieces, 2 apricot halves per skewer** [MEDIUM — recipe consensus: Caroline's Cooking, A Seasoned Plate, FinGlobal (via search)] | 6–8 / 1 | Sticky dark glaze, charred cube edges | Laid parallel across one side |
+    | Braai chicken | Spatchcocked bird 30–35 cm, or pieces 10–15 cm | 1 bird or 8–10 pieces / 1–2 pieces | Lacquered, charred edges | The remaining third of the board |
+
+  - **Arrangement:** grouped by meat type in loose zones, pieces overlapping,
+    not fanned or garnished.
+  - **Vessel fill & depth:** a 40–50 cm board heaped 5–8 cm (about half the
+    can's height); meat juices pool on the wood.
+  - **Served portion:** one 26–28 cm plate: 1 chop, 1 sosatie or chicken
+    piece (meat ~half the plate), a fist of pap or potato salad, a spoon of
+    chakalaka or beetroot. [EDITORIAL]
+  - **State cues:** rendered crisp fat, sticky glaze, char, glistening
+    juices, no raw pink on chicken.
+  - **Absent on purpose:** sauce-drenched US ribs, chimichurri, crosshatch
+    marks, grilled-vegetable skewers, garnish, beer bottles.
+  - **Prompt-ready line:** "A worn wooden board heaped with braai meat: lamb
+    chops about the can's height across with crisp charred fat edges,
+    overlapping at one end; skewers of dark-glazed meat cubes threaded with
+    onion and dried apricot laid side by side; lacquered, char-edged chicken
+    pieces filling the rest. Little wood shows; juices pool at the edge.
+    Coarse salt, irregular char, no grill stripes, no sauce poured over, no
+    garnish."
 
 #### Rump steak and T-bone (braai and steakhouse)
 - **Texture:** dark seared crust with coarse salt and pepper; a thick white
@@ -875,6 +940,26 @@ notch down, per that rule.*
   half a 26–28 cm plate beside chips; T-bone ~25 cm, overhanging a plate.
 - **Serving (steakhouse):** with chips, onion rings or a baked potato, a
   small pepper or mushroom sauce in a ramekin (6–8 cm). [LOW-MEDIUM]
+- **Composition & proportions (§4.7) — one steakhouse plate.**
+  - **What dominates:** **the steak** ~45–50% of a 26–28 cm plate; chips
+    ~35–40%; sauce ramekin ~10%. [EDITORIAL]
+  - **Components:** rump ~15 × 10 × 2–3 cm, one per plate (the entry's
+    300 g); 1 cm fat cap along one edge; T-bone ~25 cm, overhanging the rim;
+    chips 20–30 pieces or 3–5 onion rings or one foil-wrapped baked potato;
+    one 6–8 cm ramekin (about the can's width) of pepper or mushroom sauce.
+  - **Arrangement:** steak angled on one side, chips heaped on the other,
+    ramekin at the rim; if cut, one slice pulled back to show pink.
+  - **Served portion:** one steak per diner; no sharing.
+  - **State cues:** dark glistening crust, small resting-juice pool, sauce
+    glossy in the ramekin (not poured over).
+  - **Absent on purpose:** sauce poured over the meat, crosshatch stripes,
+    herb-butter rosettes, garnish salad piles, red wine.
+  - **Prompt-ready line:** "On a white dinner plate, a thick rump steak
+    about the can's height long with a dark, salt-and-pepper crust and a
+    crisped white fat edge, one slice turned to show a pink centre; a heap
+    of golden chips beside it; a small ramekin, the can's width, of glossy
+    brown pepper sauce at the rim. Sauce kept in the ramekin; no grill
+    stripes, no garnish."
 
 #### Ostrich steak — new entry, added this pass (gap #3)
 - **Category:** Everyday-to-occasion; a distinctively South African red
@@ -911,6 +996,23 @@ notch down, per that rule.*
 - **Model failure:** a pale, poultry-like "ostrich" render (ostrich meat is
   red meat, not white); a beef steak with visible fat marbling (ostrich's
   leanness is the defining visual tell).
+- **Composition & proportions (§4.7) — one plated fillet.**
+  - **What dominates:** meat ~35–40% of a 26–28 cm plate; sides ~40%; bare
+    plate ~20%. [EDITORIAL]
+  - **Components:** one fillet 10–12 cm long, 2–3 cm thick (about the can's
+    height), whole or sliced into 4–5 medallions fanned; a side of chips,
+    mash or roast vegetables covering a third; optional ramekin of sauce.
+  - **Arrangement:** meat front-centre, sides behind; cut face to camera.
+  - **Served portion:** one fillet per diner.
+  - **State cues:** even brown sear, deep red to pink centre, a thin juice
+    film; almost no fat anywhere.
+  - **Absent on purpose:** fat cap, marbling, a bone, pale poultry-coloured
+    meat, feathers or any ostrich imagery, wine.
+  - **Prompt-ready line:** "On a white plate, a lean fillet steak about the
+    can's height long, sliced into five medallions fanned to show a
+    deep-red, fine-grained, almost fat-free interior under an even brown
+    sear; a side of chips and roast vegetables covering a third of the
+    plate behind it. No fat edge, no marbling, no bone, no garnish."
 
 #### Pork ribs (steakhouse and braai)
 - **Texture:** sticky, glossy, dark red-brown basting glaze, charred at the
@@ -918,6 +1020,23 @@ notch down, per that rule.*
 - **Scale:** a full rack ~25–30 cm, filling a 30 cm plate or board.
   [LOW-MEDIUM]
 - **Model failure:** US dry-rub brisket platter.
+- **Composition & proportions (§4.7) — one rack.**
+  - **What dominates:** ribs ~70–80% of the plate or board; chips or a side
+    ~20%. [EDITORIAL]
+  - **Components:** full rack 25–30 cm (over twice the can's height), 10–13
+    bones; a half rack of 5–6 bones is the lighter portion; chips alongside.
+  - **Arrangement:** rack whole, bone ends to one side, or cut into 2–3
+    sections leaning together.
+  - **Served portion:** half or full rack per diner. [EDITORIAL]
+  - **State cues:** sticky glossy glaze, charred edges, meat pulling from
+    the bone ends.
+  - **Absent on purpose:** dry-rub bark, brisket slices, coleslaw cups,
+    pickles, butcher paper, beer.
+  - **Prompt-ready line:** "A full rack of pork ribs, more than twice the
+    can's height long, filling a large plate, coated in a sticky, glossy,
+    dark red-brown basting glaze charred at the edges, meat pulling back
+    from the bone ends; a heap of golden chips at one side. No dry rub, no
+    brisket, no pickles, no paper lining."
 
 #### Braaibroodjie
 - **Form:** toasted sandwich (cheese, tomato, onion, chutney) grilled over
@@ -926,11 +1045,43 @@ notch down, per that rule.*
   char; glossy buttered surface; cheese oozing at the cut.
 - **Scale:** sliced bread ~11 × 11 cm, cut diagonally, stacked on a board.
 - **Model failure:** a panini; a pan-fried grilled cheese.
+- **Composition & proportions (§4.7) — a stack on a board.**
+  - **What dominates:** toast triangles ~90% of the frame's food; filling
+    shows only as thin bands at the cut. [EDITORIAL]
+  - **Components:** sandwich ~11 × 11 cm, 3–4 cm thick (about half the
+    can's height); cut diagonally into 2 triangles; filling bands 1–2 cm
+    (yellow cheese, red tomato, pale onion, dark chutney).
+  - **Arrangement:** 6–10 triangles stacked or leaning in two rows, cut faces
+    out.
+  - **Served portion:** one sandwich (2 triangles) on a plate or napkin
+    beside braai meat.
+  - **State cues:** dark grid-bar marks, butter gloss, cheese oozing at the
+    cut, light steam.
+  - **Absent on purpose:** panini ridges, lettuce, sesame, cocktail sticks.
+  - **Prompt-ready line:** "A stack of toasted sandwich triangles on a
+    wooden board, each about half the can's height thick, golden-brown with
+    dark bars from a wire grid and patches of char, buttery sheen; cut faces
+    show melted cheese oozing, red tomato and pale onion in thin bands. No
+    panini ridges, no lettuce."
 
 #### Roosterkoek
 - **Texture:** matte, floury crust with **charred grid stripes**; split to
   steaming soft white crumb; butter, jam or cheese.
 - **Scale:** ~8–10 cm across. [MEDIUM]
+- **Composition & proportions (§4.7) — a basket or board.**
+  - **What dominates:** bread; butter or jam only on the split one.
+  - **Components:** rolls 8–10 cm across, 4–5 cm tall; 8–12 per basket; one
+    split open with a pat of melting butter. Portion 1–2.
+  - **Arrangement:** piled loosely, a few tipped to show grid stripes.
+  - **State cues:** matte floury crust, charred stripes, steam from the
+    split crumb.
+  - **Absent on purpose:** seeds, glaze, oven-baked shine.
+  - **Prompt-ready line:** "A shallow basket of round griddle breads piled
+    loosely, each a little wider than the can and about half its height,
+    matte and floury with dark charred stripes from a wire grid; one split
+    open in front to show soft, steaming white crumb with a pat of butter
+    melting into it. Plain rustic bread, no seeds, no glaze, no shiny
+    crust."
 
 #### Garlic bread (braai)
 - **Form:** a baguette-style loaf sliced not quite through, garlic-herb
@@ -939,18 +1090,63 @@ notch down, per that rule.*
 - **Texture:** foil peeled back; golden crust; glistening herb-flecked
   butter pooling between slices.
 - **Scale:** ~30–40 cm loaf, wider than a dinner plate.
+- **Composition & proportions (§4.7) — one loaf in foil.**
+  - **What dominates:** the loaf; foil ~20% of frame around it.
+  - **Components:** loaf 30–40 cm; slices 2–3 cm apart, 12–16 slices, not
+    cut through; herb butter visible in every gap. Portion 1–2 torn slices.
+  - **Arrangement:** foil peeled back and crumpled at the sides, loaf
+    straight.
+  - **State cues:** golden crust, butter pooling in the foil, light steam.
+  - **Absent on purpose:** a cheese-pull topping, parsley piles, sliced
+    white-bread toast.
+  - **Prompt-ready line:** "A long baguette-style loaf, about three times
+    the can's height, sliced not quite through at even intervals, resting in
+    foil peeled back and crumpled at the sides; glistening herb-flecked
+    garlic butter visible in every gap and pooling in the foil, crust golden
+    and crisp, a little steam rising. No melted cheese on top, no parsley
+    pile, no garnish."
 
 #### Braaied mielies (corn on the cob)
 - **Texture:** yellow kernels with scattered **charred brown-black
   patches**, glistening with melted butter, salt flakes.
 - **Scale:** cob ~15–20 cm long, ~4–5 cm thick. [MEDIUM]
 - **Model failure:** pale boiled corn; neat grill stripes.
+- **Composition & proportions (§4.7) — a platter.**
+  - **What dominates:** yellow kernels ~80% of each cob; char patches ~20%.
+  - **Components:** cobs 15–20 cm long (about 1.5× the can's height), 4–5
+    cm thick; 6–8 on a platter; portion one cob or a half.
+  - **Arrangement:** laid parallel, husks removed or pulled back as handles.
+  - **State cues:** butter gloss, flaky salt, scattered brown-black char.
+  - **Absent on purpose:** Mexican elote toppings (mayo, crumbled cheese,
+    chilli powder, lime), neat grill stripes, pale boiled cobs.
+  - **Prompt-ready line:** "A platter of corn cobs, each about one and a
+    half times the can's height, laid side by side, yellow kernels
+    glistening with melted butter and flaky salt, with scattered charred
+    brown-black patches from open coals; husks pulled back on two. No mayo,
+    no cheese, no chilli powder, no grill stripes."
 
 #### Snoek braai (Western Cape)
 - **Texture:** silvery skin blistered and charred; white flaked flesh
   glossy with amber apricot-jam glaze.
 - **Scale:** butterflied fish ~60–80 cm, filling a grid or large board.
   [LOW-MEDIUM]
+- **Composition & proportions (§4.7) — the whole fish, then a portion.**
+  - **What dominates:** white flaked flesh ~70% of the butterflied fish;
+    blistered skin edges ~30%.
+  - **Components:** one butterflied fish 60–80 cm (six to seven cans long),
+    filling a grid or board; a portion is a flaked piece 8–12 cm on a plate
+    with a roosterkoek or sweet potato.
+  - **Arrangement:** flesh up, spine line down the centre.
+  - **State cues:** amber apricot-jam glaze glossy on the flesh, skin charred
+    at the edges, flakes separating.
+  - **Absent on purpose:** lemon-slice piles, herb garnish, fillets
+    served skinless.
+  - **Prompt-ready line:** "A whole long silvery fish butterflied open,
+    six to seven times the can's height, flesh up on a wire grid; white
+    flesh flaking and glossy with an amber apricot glaze, silvery skin
+    blistered and charred at the edges. Beside it, a plated flaked piece a
+    little longer than the can with a griddle bread. No lemon slices, no
+    garnish."
 
 #### Potjiekos
 - **Form:** layered stew slow-cooked, unstirred, in a three-legged potjie:
@@ -961,12 +1157,51 @@ notch down, per that rule.*
   above); plated over rice or pap on a 26–28 cm plate, covering about
   two-thirds.
 - **Model failure:** a stovetop Dutch oven; a stirred homogeneous stew.
+- **Composition & proportions (§4.7) — the open pot, then one plate.**
+  - **What dominates:** **in the pot, vegetables on top** (~70% of the
+    visible surface), gravy at the edges ~15%, meat only where spooned or at
+    the edge ~15% — meat sits at the bottom. [HIGH for meat first,
+    vegetables layered by cooking time, never stirred — Wikipedia
+    Potjiekos, Big5 Cookware, The Domestic Man (via search); shares
+    EDITORIAL]
+  - **Components:** bone-in meat 4–6 cm; potato halves 4–5 cm; carrot chunks
+    3–5 cm; butternut 4–5 cm; a cabbage wedge or green beans on top.
+  - **Vessel fill & depth:** pot filled to ~two-thirds; little liquid — just
+    enough to steam, vegetables release the rest [MEDIUM — same sources];
+    lid lifted or leaning against a leg.
+  - **Served portion:** ladled over rice or pap on a 26–28 cm plate: base
+    ~40%, 2–3 meat pieces and 3–4 vegetable chunks ~50%, gravy.
+    [EDITORIAL]
+  - **State cues:** steam from the open pot, glossy dark gravy at the edges,
+    soot on the pot.
+  - **Absent on purpose:** a homogeneous stirred stew, cream, parsley,
+    wine bottles or glasses (wine is a cooking ingredient only).
+  - **Prompt-ready line:** "A sooty matte-black three-legged cast-iron pot
+    over coals, lid lifted, steam rising; inside, distinct layers of whole
+    potato halves, orange carrot and butternut chunks and a cabbage wedge on
+    top, glossy dark gravy at the edges and a few bone-in meat pieces
+    showing where a ladle went in. Each chunk under half the can's height.
+    Not stirred; no cream, no garnish."
 
 #### Potbrood
 - **Form:** bread baked in a flat-bottomed potjie over coals. [LOW-MEDIUM]
 - **Texture:** a domed round loaf with a dark, rustic, slightly scorched
   crust and a soft crumb; torn, not sliced neatly.
 - **Scale:** ~25–30 cm across (the pot's diameter), ~10–12 cm tall.
+- **Composition & proportions (§4.7) — one loaf.**
+  - **What dominates:** crust ~70% (domed top); torn crumb ~30% once
+    broken.
+  - **Components:** loaf 25–30 cm across, 10–12 cm tall (about the can's
+    height); 3–4 torn chunks beside; butter pat.
+  - **State cues:** dark, slightly scorched rustic crust, steam from torn
+    crumb.
+  - **Absent on purpose:** scoring patterns, seeds, flour-dust art, neat
+    slices.
+  - **Prompt-ready line:** "A round domed loaf baked in a pot, as tall as
+    the can and about four times its width, sitting on a wooden board, with
+    a dark, rustic, slightly scorched crust; a few chunks torn off beside it
+    showing soft, steaming, open crumb and a pat of butter softening. No
+    scoring, no seeds, no flour patterns, no neat slices."
 
 ### B. Pap, steamed bread and traditional staples
 
@@ -983,6 +1218,29 @@ notch down, per that rule.*
   12–15 cm side bowl.
 - **Eating:** by hand or fork. [LOW-MEDIUM]
 - **Model failure:** mashed potato; grits; polenta.
+- **Composition & proportions (§4.7) — one braai or home plate.**
+  - **What dominates:** 26–28 cm plate: pap ~35–40%, meat ~35%, chakalaka
+    or sous ~15–20%, bare plate the rest. [EDITORIAL]
+  - **Components:**
+
+    | Component | Real size | Count (one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Stywe pap | Mound 8–10 cm across, 5–7 cm tall (about half the can's height) | 1–2 mounds | Matte bright white, faint spoon facets | Beside the meat, never under it |
+    | Krummelpap (alternative) | Loose heap 10–12 cm | 1 heap | Dry, grainy crumbs | Same place |
+    | Chakalaka | 2–3 tablespoons, a pool 8–10 cm; beans ~1 cm | 1 spoonful, or a 12–15 cm side bowl | Chunky orange-red; carrot, pepper, **baked beans** [MEDIUM — chakalaka recipe consensus: Immaculate Bites, Foodle Club, Oldways (via search)] | Against or partly over the pap edge |
+    | Meat | See boerewors / braai entries | 2–3 wors lengths or 1–2 chops | Charred | The other side of the plate |
+
+  - **Served portion:** chakalaka may be hot, warm or cold [MEDIUM — same
+    sources]; pap served hot.
+  - **State cues:** steam off the pap, slight sheen, chakalaka glossy.
+  - **Absent on purpose:** butter pat or gravy on the pap, herb garnish,
+    yellow colour (that reads as polenta), any hand holding the pap.
+  - **Prompt-ready line:** "On an enamel plate, a firm, smooth, matte white
+    mound of stiff maize porridge about half the can's height, with faint
+    spoon facets and a wisp of steam; beside it, two lengths of charred
+    coiled sausage; a spoonful of chunky orange-red relish with carrot,
+    pepper and small pale beans against the edge of the mound. No butter,
+    no gravy, no garnish."
 
 #### Pap tert (pap bake)
 - **Form:** layered pap with tomato-onion sauce and melted cheese, baked;
@@ -990,6 +1248,22 @@ notch down, per that rule.*
 - **Texture:** golden, bubbled cheese top; cut squares show white pap
   layers and red sauce bands.
 - **Scale:** 30 × 20 cm dish; squares ~8–10 cm.
+- **Composition & proportions (§4.7) — the dish, then one square.**
+  - **What dominates:** cheese top ~all of the dish's surface; cut face
+    white pap ~60%, red sauce ~25%, cheese ~15%. [EDITORIAL]
+  - **Components:** 30 × 20 cm dish, 6–8 squares; square 8–10 cm, ~5–6 cm
+    tall (half the can's height); two pap layers ~1.5–2 cm each, a
+    0.5–1 cm sauce band, 0.5 cm cheese crust.
+  - **Served portion:** one square beside braai meat.
+  - **State cues:** golden bubbled cheese with brown spots, clean layered
+    cut.
+  - **Absent on purpose:** pasta sheets, basil, béchamel.
+  - **Prompt-ready line:** "A square of baked maize-porridge bake, about
+    half the can's height, lifted onto a plate beside braai meat: a golden,
+    bubbled, brown-spotted cheese top over two firm white porridge layers
+    separated by a thin red band of tomato-onion sauce, clean straight cut
+    sides; the rest of the rectangular dish behind with one square missing.
+    No pasta, no basil."
 
 #### Ujeqe / dombolo (steamed bread and dumplings)
 - **Form:** ujeqe — a whole loaf steamed in a bowl or pot; dombolo —
@@ -1000,11 +1274,41 @@ notch down, per that rule.*
 - **Scale:** ujeqe loaf ~15–20 cm dome; dombolo ~8–10 cm each, several on
   a stew in a pot or plate.
 - **Model failure:** a baked, crusty loaf; a brioche.
+- **Composition & proportions (§4.7) — a loaf, or dumplings on stew.**
+  - **What dominates:** ujeqe — the pale bread itself; dombolo — dumplings
+    ~50% of the pot's surface, stew around them ~50%. [EDITORIAL]
+  - **Components:** ujeqe dome 15–20 cm, ~10 cm tall (just under the can's
+    height), 2–3 thick slices cut; dombolo 8–10 cm each (a bit wider than
+    the can), 4–6 on a pot of stew, 1–2 per plate.
+  - **Served portion:** 1–2 slices or dumplings beside stew on a plate.
+  - **State cues:** matte to faintly shiny skin, stew glossy at the
+    dumpling bases, steam.
+  - **Absent on purpose:** crust, scoring, seeds, flour dusting, a baked
+    brown loaf.
+  - **Prompt-ready line:** "A smooth, pale, crustless domed steamed loaf,
+    nearly as tall as the can, matte with a faint sheen; two thick slices
+    cut to show a dense, springy, fine white crumb; beside it a plate of
+    glossy brown stew with two pale round dumplings a little wider than the
+    can. No crust, no seeds, no flour dusting."
 
 #### Umngqusho (samp and beans)
 - **Texture:** pale, chunky broken maize kernels and speckled sugar beans,
   creamy but grainy. [MEDIUM]
 - **Scale:** a mound ~10–12 cm on a plate or in a 15–18 cm bowl.
+- **Composition & proportions (§4.7) — one plate or bowl.**
+  - **What dominates:** samp and beans in roughly equal share — recipes use
+    about **1:1 samp to sugar beans by weight** [MEDIUM — recipe consensus:
+    Easy South African Recipes, Women's Health SA (via search)].
+  - **Components:** samp pieces ~1 cm, white; sugar beans ~1.5 cm,
+    speckled pink-brown; mound 10–12 cm or a 15–18 cm bowl filled
+    two-thirds; often beside a stew or meat.
+  - **State cues:** creamy but grainy, a faint sheen, steam.
+  - **Absent on purpose:** herb garnish, tomato sauce, rice.
+  - **Prompt-ready line:** "A mound, about the can's height across, of pale
+    broken maize kernels mixed evenly with speckled pinkish-brown beans in
+    roughly equal amounts, creamy but grainy with a faint sheen and a wisp
+    of steam, on a plain plate beside a small portion of glossy stew. Humble
+    home food; no garnish, no tomato sauce, no rice."
 
 #### Dikgobe
 - **Form:** a Setswana/Sotho dish of samp or maize kernels with beans,
@@ -1012,17 +1316,49 @@ notch down, per that rule.*
 - **Texture:** firm, whole-looking kernels and beans; drier than
   umngqusho.
 - **Scale:** mound on a 26–28 cm plate, about a third of it.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** kernels and beans ~a third of a 26–28 cm plate;
+    meat, if included, 1–2 pieces 4–6 cm.
+  - **Components:** whole-looking kernels ~1 cm, beans ~1.5 cm, drier and
+    more separate than umngqusho.
+  - **Absent on purpose:** creamy sauce, garnish.
+  - **Prompt-ready line:** "A mound covering a third of a plate of firm,
+    whole-looking white maize kernels and brown beans, separate and fairly
+    dry rather than creamy, with one or two stewed meat pieces about half
+    the can's height resting beside it and a little gravy at their edge.
+    Plain home plate; no cream, no herbs, no garnish."
 
 #### Ting
 - **Form:** fermented sorghum porridge, slightly sour. [LOW-MEDIUM]
 - **Texture:** smooth to soft-stiff, **pinkish-brown to light brown**, matte.
 - **Scale:** mound ~8–10 cm beside meat or morogo.
 - **Model failure:** white maize pap (colour is the tell).
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** ting mound ~30% of the plate; meat or morogo the
+    rest.
+  - **Components:** mound 8–10 cm, ~5 cm tall; pinkish-brown matte.
+  - **Absent on purpose:** white pap colour, butter, milk poured over.
+  - **Prompt-ready line:** "A soft-stiff, matte, pinkish-brown mound of
+    fermented sorghum porridge, a bit wider than the can and about half its
+    height, with faint spoon marks, beside two pieces of stewed meat in
+    glossy gravy and a spoonful of dark wilted greens on a plain plate. The
+    porridge is brownish-pink, not white; no butter, no milk."
 
 #### Morogo (wild greens)
 - **Texture:** dark, glossy, soft-wilted leafy greens, sometimes with onion
   and tomato. [LOW-MEDIUM]
 - **Scale:** a heaped spoonful ~8 cm beside pap.
+- **Composition & proportions (§4.7) — as a side.**
+  - **What dominates:** greens ~15–20% of the plate, beside pap (~35%) and
+    meat.
+  - **Components:** a heaped spoonful ~8 cm (a little wider than the can);
+    wilted leaves 2–5 cm; onion and tomato flecks sparse.
+  - **Absent on purpose:** raw salad leaves, cream.
+  - **Prompt-ready line:** "A heaped spoonful of dark, glossy, soft-wilted
+    leafy greens, a little wider than the can, with a few flecks of onion
+    and tomato, sitting beside a smooth white maize-porridge mound and a
+    piece of stewed meat on a plain plate; greens take about a fifth of the
+    plate. No raw salad leaves, no cream, no garnish."
 
 ### C. Everyday mains
 
@@ -1039,12 +1375,45 @@ notch down, per that rule.*
   8 cm; bucket ~18–20 cm tall.
 - **Genericize:** chains.
 - **Model failure:** smooth breaded nuggets.
+- **Composition & proportions (§4.7) — box and plate.**
+  - **What dominates:** **chicken pieces** — box: chicken ~55%, chips ~35%,
+    roll ~10%; plate: chicken ~45%, pap or chips ~35%, chakalaka or slaw
+    ~20%. [EDITORIAL]
+  - **Components:** drumstick 12–15 cm and breast 12–15 cm (about the can's
+    height); thigh 8–10 cm; 2–3 pieces per portion; chips 15–25 pieces; one
+    soft roll 7–8 cm; slaw in a 10–12 cm pot.
+  - **Arrangement:** box — pieces piled on chips, lid open; plate — pieces
+    to one side.
+  - **Vessel fill & depth:** box 15 × 15 × 8 cm filled to the rim, a piece
+    leaning out; the can is taller than the box.
+  - **State cues:** craggy crust, oil sheen, grease spots on the cardboard.
+  - **Absent on purpose:** logos or printed boxes, dip pots, nuggets,
+    waffles, hot-sauce drizzle.
+  - **Prompt-ready line:** "An open plain cardboard box, shorter than the
+    can, filled to the rim: three pieces of fried chicken each about the
+    can's height, with thick, craggy, deeply golden crust and an oil sheen,
+    piled on thick chips, a soft white dinner roll tucked at the side,
+    grease spots on the cardboard. No logos, no dips, no nuggets."
 
 #### Peri-peri chicken (Portuguese-influenced)
 - **Texture:** blistered, charred skin; glossy red-orange basting pooling;
   chilli-flecked sauce. [MEDIUM]
 - **Scale:** a half chicken covers most of a 26–28 cm plate; quarter about
   a third.
+- **Composition & proportions (§4.7) — half or quarter chicken.**
+  - **What dominates:** half chicken ~60% of a 26–28 cm plate; quarter
+    ~35%; chips or rice the rest.
+  - **Components:** half chicken ~20–25 cm (about twice the can's height);
+    chips 15–25 pieces or a rice mound; a small ramekin of extra sauce.
+  - **State cues:** blistered, charred skin, red-orange basting pooling on
+    the plate.
+  - **Absent on purpose:** chain branding, garnish piles, cream sauces.
+  - **Prompt-ready line:** "Half a spatchcocked chicken, about twice the
+    can's height, covering most of a white plate, skin blistered and charred
+    in patches, glossy red-orange chilli basting pooling around it with
+    visible chilli flecks; a heap of golden chips at one side and a small
+    dish of extra sauce at the rim. No branding, no garnish, no cream
+    sauce."
 
 #### Chicken curry and mince curry (+ mince and rice)
 - **Variants (§4.6), verified this pass:** Durban-style (rich red, oily,
@@ -1061,6 +1430,22 @@ notch down, per that rule.*
   26–28 cm plate.
 - **Mince and rice:** glossy brown savoury mince with onion, carrot and
   peas beside or over rice — the same scale.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** rice ~45%, curry ~45%, bare plate ~10%.
+    [EDITORIAL]
+  - **Components:** bone-in chicken pieces 5–8 cm (about half the can's
+    height), 2–3 per plate; potato chunks 3–4 cm, 2–3; mince version — a
+    ladle of brown mince with small peas and carrot dice; gravy colour per
+    variant (Durban red, Cape Malay yellow, home medium).
+  - **Arrangement:** curry ladled over part of the rice; a rim of white rice
+    shows.
+  - **State cues:** gravy glossy (Durban: red oil slick), steam.
+  - **Absent on purpose:** cream swirl, coriander pile, naan, lime wedge.
+  - **Prompt-ready line:** "White rice covering most of a dinner plate,
+    with a ladle of curry spooned over one side: two or three bone-in
+    chicken pieces, each about half the can's height, and a few potato
+    chunks in glossy red-orange gravy with an oil slick; a rim of rice
+    showing. No cream, no herbs, no naan."
 
 #### Beef stew / oxtail stew
 - **Texture:** beef stew: chunky browned meat and potato in glossy dark
@@ -1069,6 +1454,18 @@ notch down, per that rule.*
 - **Scale:** oxtail pieces ~5–8 cm across; stew over pap or rice filling
   a 26–28 cm plate or a 22–24 cm deep plate. [LOW-MEDIUM]
 - **Serving:** with pap, rice or dombolo.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** pap or rice ~40%; stew ~50%.
+  - **Components:** oxtail rounds 5–8 cm, 3–4 per plate; or beef cubes
+    3–4 cm, 5–7; potato and carrot chunks.
+  - **State cues:** thick sticky gravy, fat sheen, meat falling from the
+    bone ring.
+  - **Absent on purpose:** parsley, cream, red wine.
+  - **Prompt-ready line:** "Three round cross-cut pieces of oxtail, each
+    about the can's width, meat falling away from a central bone ring, in
+    thick, sticky, dark-brown gravy with a fat sheen and a few carrot
+    chunks, beside a smooth white maize-porridge mound on a dinner plate;
+    steam rising. No parsley, no cream, no garnish."
 
 #### Frikkadels
 - **Form:** baked or fried meatballs/patties, often with gravy, mash or rice.
@@ -1076,35 +1473,100 @@ notch down, per that rule.*
 - **Texture:** browned, slightly craggy crust; dense, speckled interior.
 - **Scale:** ~6–7 cm diameter, ~3 cm thick; three or four on a plate.
 - **Model failure:** spaghetti and meatballs.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** meatballs ~30%, mash or rice ~35%, vegetables
+    ~20%, gravy the rest.
+  - **Components:** 3–4 frikkadels 6–7 cm across (about the can's width), 3
+    cm thick; gravy spooned partly over.
+  - **Absent on purpose:** spaghetti, tomato sauce, parsley.
+  - **Prompt-ready line:** "Three browned, slightly craggy meat patties,
+    each about the can's width and a quarter of its height, partly under
+    glossy brown gravy, beside a soft scoop of mashed potato and a spoon of
+    peas and carrots on a dinner plate; one patty cut to show a dense,
+    speckled interior. No spaghetti, no tomato sauce, no parsley."
 
 #### Chicken livers (peri-peri or creamy)
 - **Texture:** small glossy dark-brown pieces in a red-orange peri-peri or
   pale creamy sauce, with bread for dipping. [LOW-MEDIUM]
 - **Scale:** pieces ~3–5 cm; served in a small dish or skillet ~15 cm.
+- **Composition & proportions (§4.7) — one skillet.**
+  - **What dominates:** livers ~60% of the skillet surface, sauce ~40%;
+    bread beside.
+  - **Components:** pieces 3–5 cm, 10–15 in a ~15 cm skillet; sauce half
+    the depth; 2–3 pieces of bread or a roll.
+  - **State cues:** bubbling, glossy.
+  - **Absent on purpose:** pâté, herb garnish, wine.
+  - **Prompt-ready line:** "A small skillet, about twice the can's width, of
+    small glossy dark-brown chicken liver pieces, each under half the can's
+    width, half-submerged in bubbling red-orange chilli sauce with an oil
+    sheen; two pieces of torn soft white bread beside it, one dipped and
+    stained red. No herbs, no garnish, no pâté."
 
 #### Trotters and mogodu (tripe)
 - **Mogodu:** pale **honeycomb-textured** pieces in a glossy stew, with pap.
 - **Trotters:** gelatinous, glossy pieces in thick gravy.
 - **Scale:** pieces ~5–10 cm; stew on a 26–28 cm plate beside pap.
   [LOW-MEDIUM]
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** pap ~40%, tripe or trotters ~50%.
+  - **Components:** 4–6 pieces 5–10 cm; gravy glossy.
+  - **Absent on purpose:** garnish; any caricatured framing.
+  - **Prompt-ready line:** "Pale honeycomb-textured tripe pieces, each about
+    half the can's height, in a glossy light-brown stew with a thin fat
+    sheen, spooned beside a smooth, matte white maize-porridge mound on a
+    plain enamel plate; a little steam rising. Honest home food, plainly
+    plated; no garnish, no dramatic close-up."
 
 #### Cottage pie
 - **Texture:** golden-browned, fork-ridged mash top with crisp peaks;
   glossy brown mince beneath. [LOW-MEDIUM]
 - **Scale:** 30 × 20 cm oven dish; a scooped portion covers about a third of
   a plate.
+- **Composition & proportions (§4.7) — one scooped portion.**
+  - **What dominates:** mash top ~50%, mince ~50% on the cut face;
+    portion ~a third of the plate, vegetables ~20%.
+  - **Components:** 30 × 20 cm dish; mash ~3 cm over mince ~3–4 cm; peas
+    and carrots beside.
+  - **Absent on purpose:** lamb in place of beef mince, thick cheese crust,
+    garnish.
+  - **Prompt-ready line:** "A scooped portion of cottage pie, about half the
+    can's height, on a dinner plate: a golden, fork-ridged mashed-potato top
+    with crisp browned peaks over glossy brown mince, gravy seeping at the
+    base, beside a spoon of peas and carrots; the ovenproof dish behind with
+    a portion missing. No cheese crust, no garnish."
 
 #### Spaghetti bolognese
 - **Texture:** tangled spaghetti under a thick red-brown mince sauce,
   grated cheese.
 - **Scale:** mound filling about two-thirds of a 26–28 cm plate or a
   22–24 cm pasta bowl. [LOW-MEDIUM]
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** spaghetti ~55%, sauce ~35%, cheese ~5–10%.
+  - **Components:** mound ~2/3 of the plate, sauce ladled on the centre.
+  - **Absent on purpose:** meatballs, basil sprig.
+  - **Prompt-ready line:** "A tangle of spaghetti covering two-thirds of a
+    dinner plate, with thick red-brown mince sauce ladled on the centre so
+    pasta still shows around the edges, and a light scatter of grated yellow
+    cheese on top; a little steam. The sauce is chunky and meaty, not
+    smooth. No meatballs, no basil sprig."
 
 #### Roast chicken / roast leg of lamb (Sunday roast register)
 - **Texture:** chicken — golden, crackly skin; lamb — browned crust, pink
   slices, rosemary and garlic studs.
 - **Scale:** whole chicken ~20–25 cm on a 35–40 cm platter; lamb leg
   ~30–35 cm on a platter. [LOW-MEDIUM]
+- **Composition & proportions (§4.7) — the platter, then one plate.**
+  - **What dominates:** the roast on the platter ~60%, roast potatoes
+    ~30%. Plated: meat ~30%, then the Sunday sides in small heaps.
+  - **Components:** chicken 20–25 cm (about twice the can's height); lamb
+    leg 30–35 cm; 6–10 roast potatoes 4–6 cm; plated 2–3 slices.
+  - **Absent on purpose:** herb bouquets, wine.
+  - **Prompt-ready line:** "A whole roast chicken, about twice the can's
+    height, with golden, crackly skin on a large platter, ringed by
+    crisp-edged roast potatoes each about half the can's width; nearby, a
+    dinner plate with two slices and small separate heaps of orange
+    butternut, magenta beetroot and green beans. No herb bouquets, no
+    garnish."
 
 #### Christmas gammon
 - **Form:** a boiled then glazed ham, often scored in diamonds, studded with
@@ -1113,6 +1575,17 @@ notch down, per that rule.*
   pale pink cut slices.
 - **Scale:** whole gammon ~20–25 cm long on a 35–40 cm platter; slices
   ~12–15 cm.
+- **Composition & proportions (§4.7) — whole and sliced.**
+  - **What dominates:** glazed surface ~70% of the platter; pineapple
+    rings ~15%.
+  - **Components:** gammon 20–25 cm; diamond scoring 2–3 cm cells; 20–40
+    cloves; 4–6 pineapple rings; 2–3 slices 12–15 cm per plate.
+  - **Absent on purpose:** turkey, legible labels.
+  - **Prompt-ready line:** "A whole glazed gammon, about twice the can's
+    height, on a large platter, its glossy, sticky amber-brown glaze scored
+    in a diamond pattern and studded with cloves, a few pineapple rings
+    tucked around the base; three pale-pink slices fanned in front, each
+    about the can's height long. No garnish piles, no turkey."
 
 ### D. Street and township
 
@@ -1134,6 +1607,38 @@ notch down, per that rule.*
 - **Scale:** quarter loaf ~11 × 11 × 8 cm, overflowing; in paper or a
   cardboard tray.
 - **Model failure:** a sub or burger; a bunny chow.
+- **Composition & proportions (§4.7) — one standard kota.**
+  - **What dominates:** side view — the bread block ~50%, fillings spilling
+    above ~50%; top view — chips ~45%, polony/Russian ~25%, cheese ~15%,
+    atchar and sauces ~15%. [EDITORIAL]
+  - **Components:**
+
+    | Component | Real size | Count (one kota) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Quarter loaf | ~11 × 11 × 8 cm — about the can's width ×1.7, a little shorter than the can | 1 | Thin golden crust, soft pale walls ~1.5–2 cm thick, inner walls soaked orange-red | Base, hollowed |
+    | Slap chips | ~1.5–2 cm thick, soft | 15–25 | Pale gold, oily, bending | Piled 3–5 cm above the rim |
+    | Polony | Slices ~8–10 cm round | 1–2 | Glossy pink, curled edges | Draped over the chips |
+    | Russian / patty / fried egg (optional) | Russian ~15 cm, halved | 0–1 each | Pink-red casing | Laid across the top |
+    | Cheese | Processed slice | 1–2 | Melting orange-yellow | On top of the hot fillings |
+    | Atchar, tomato sauce, mayo | 1 spoonful each | — | Oily chilli-red; red and white stripes | Spooned over |
+
+    Layering (chips, then polony/Russian/egg, then cheese to melt, then
+    sauces; served in paper) [MEDIUM — IOL recipe feature 2026; Spatlo
+    (Wikipedia) (via search)]
+  - **Arrangement:** overflowing, lopsided, removed bread cap beside or
+    perched on top.
+  - **Vessel:** wrapped in paper or on a cardboard tray; one per person.
+  - **State cues:** cheese just melting, oil soaking into the bread walls,
+    steam.
+  - **Absent on purpose:** lettuce, a burger bun, sesame, cutlery, any hand
+    holding it, readable wrapper print.
+  - **Prompt-ready line:** "A hollowed quarter of a white loaf, a little
+    shorter than the can but nearly twice as wide, sitting in paper and
+    overflowing: soft pale-gold chips heaped above the rim, a curled slice
+    of glossy pink polony, a split pink-red sausage, a slice of cheese
+    melting over the top, a spoon of oily chilli-red pickle and streaks of
+    red and white sauce; inner bread walls soaked orange. No lettuce, no
+    bun, no cutlery."
 
 #### Bunny chow (KZN / Durban)
 - **Variants (§4.6):** mutton, chicken, beans; quarter, half or full loaf.
@@ -1161,6 +1666,33 @@ notch down, per that rule.*
 - **Scale:** quarter ~11 × 11 × 8 cm; half ~14–18 cm long; on a plate or
   paper.
 - **Model failure:** sourdough bowl with creamy soup; yellow korma.
+- **Composition & proportions (§4.7) — one quarter bunny.**
+  - **What dominates:** side view — bread ~60%; top view — curry ~80%,
+    bread rim ~20%. [EDITORIAL]
+  - **Components:**
+
+    | Component | Real size | Count (quarter) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Quarter loaf | ~11 × 11 × 8 cm; walls and base left **~2 cm thick** when hollowed [MEDIUM — recipe consensus, e.g. Mission Food, A Duck's Oven (via search)] | 1 | Soft white, thin golden crust, inner walls soaked red | Upright on plate or paper |
+    | Curry | Fills the cavity to the rim or slightly over | — | Loose, oily red-orange, whole spices | Inside, spilling at one corner |
+    | Meat | Bone-in pieces 4–5 cm | 2–3 showing | Dark, glossy | Half-sunk at the top |
+    | Potato | Chunks 3–4 cm | 1–2 | Stained orange | Half-sunk |
+    | Bread plug ("the virgin") | The removed block, ~7 × 7 × 5 cm | 1 | White crumb | On top or leaning beside [MEDIUM — Wikipedia Bunny chow, recipe sources (via search)] |
+    | Sambal | 2–3 tablespoons | 1 | Grated carrot, onion, green chilli | Small heap beside |
+
+  - **Served portion:** a quarter feeds one; a half (14–18 cm long) one
+    hungry diner or two.
+  - **State cues:** red oil slick at the top, gravy dripping down a crust
+    face, steam.
+  - **Absent on purpose:** sourdough or crusty round bread bowls, creamy or
+    yellow korma, yoghurt swirl, coriander pile, rice, cutlery, any hand.
+  - **Prompt-ready line:** "A hollowed quarter of a soft white loaf, a
+    little shorter than the can and nearly twice as wide, filled to the rim
+    with loose, oily, deep red-orange curry — two bone-in meat pieces and a
+    potato chunk half-sunk at the top, a red oil slick, whole spices — the
+    removed bread block leaning beside it and a small heap of grated
+    carrot-chilli sambal. Inner walls soaked red. No sourdough, no cream,
+    no cutlery."
 
 #### Gatsby (Cape Town)
 - **Form:** very long roll with slap chips and a filling (masala steak,
@@ -1173,6 +1705,27 @@ notch down, per that rule.*
   appears to reflect novelty/record-length examples rather than the
   everyday product).
 - **Model failure:** a US sub (no chips inside).
+- **Composition & proportions (§4.7) — one full roll cut to share.**
+  - **What dominates:** cross-section — chips ~40%, main filling ~30%,
+    bread ~20%, lettuce/tomato/sauce ~10%. [EDITORIAL]
+  - **Components:** full roll ~30 cm (nearly three cans long), **cut into
+    four pieces and shared by roughly four people** [MEDIUM — Gatsby
+    (sandwich) (Wikipedia) (via search)]; each piece ~8–12 cm; chips 1.5–2
+    cm thick packed inside; filling (masala steak strips, polony, calamari)
+    over the chips; shredded lettuce and tomato slices; sauce streaks.
+  - **Arrangement:** pieces in a row on paper, slightly separated, cut
+    faces to camera.
+  - **Served portion:** one piece per person.
+  - **State cues:** chips soft and vinegar-damp, sauce dripping, paper
+    oil-spotted.
+  - **Absent on purpose:** a US sub with no chips inside, sesame seeds,
+    toothpicks with flags, any hand.
+  - **Prompt-ready line:** "A long soft roll, nearly three times the can's
+    height, cut into four pieces laid in a row on oil-spotted paper, cut
+    faces toward the camera: each packed with soft pale chips topped with
+    strips of spiced red-brown steak, shredded lettuce and tomato slices,
+    sauce dripping down the side. Chips inside the bread are essential. No
+    sesame, no toothpicks."
 
 #### Prego roll (Portuguese-influenced)
 - **Form:** thin garlic-marinated steak in a soft Portuguese roll, often
@@ -1180,6 +1733,17 @@ notch down, per that rule.*
 - **Texture:** floury, lightly crusty roll; thin seared steak edges glossy
   with sauce.
 - **Scale:** roll ~12–14 cm across; chips alongside on a plate or in paper.
+- **Composition & proportions (§4.7) — one roll with chips.**
+  - **What dominates:** roll ~45%, chips ~45% of the plate or paper.
+  - **Components:** roll 12–14 cm across (about twice the can's width);
+    one thin steak 0.5–1 cm, edges protruding 1–2 cm; chips 15–25.
+  - **State cues:** sauce glossy at the steak edges, flour on the roll top.
+  - **Absent on purpose:** lettuce and tomato piles, cheese, sesame.
+  - **Prompt-ready line:** "A round floury Portuguese roll, about twice the
+    can's width, split and holding a thin seared steak whose edges stick out
+    glossy with red peri-peri sauce, the sauce soaking into the soft crumb;
+    on a plate beside a heap of golden chips. No lettuce, no tomato, no
+    cheese, no sesame seeds."
 
 #### Trinchado (Portuguese-influenced) — new entry, added this pass (gap #1)
 - **Category:** Everyday-to-occasion; a bar-snack/starter register as much
@@ -1218,6 +1782,20 @@ notch down, per that rule.*
   full stew); confusing it with a Spanish or generic "Portuguese" tapa —
   trinchado is specifically South African-Portuguese and not found on
   menus in Portugal itself.
+- **Composition & proportions (§4.7) — starter skillet, and a main.**
+  - **What dominates:** skillet — meat cubes ~60%, sauce ~35%, olives ~5%;
+    main — meat and sauce ~50% of the plate, fries ~50%. [EDITORIAL]
+  - **Components:** cubes 2–3 cm (about a third of the can's width), 12–18
+    in a 15–18 cm skillet; 3–6 olives; 3–4 pieces of bread beside.
+  - **Vessel fill & depth:** sauce half-covers the cubes.
+  - **State cues:** bubbling, glossy.
+  - **Absent on purpose:** wine glass or bottle (wine is a cooking
+    ingredient only), parsley pile, a large stew bowl.
+  - **Prompt-ready line:** "A small cast-iron skillet, about two and a half
+    times the can's width, of small glossy deep red-brown beef cubes
+    half-submerged in thick, bubbling chilli-red sauce flecked with garlic
+    and coarse chilli, a few dark olives; torn crusty bread beside it, one
+    piece dipped and stained red. No wine, no parsley, no large stew bowl."
 
 #### Vetkoek / amagwinya
 - **Form:** fried dough; vetkoek often filled with curried mince;
@@ -1225,12 +1803,44 @@ notch down, per that rule.*
 - **Texture:** puffed, deep golden-brown with a paler frying ring;
   slightly craggy; fluffy white inside.
 - **Scale:** ~10–12 cm across.
+- **Composition & proportions (§4.7) — a plate or paper of 2–3.**
+  - **What dominates:** the golden dough; filling only on the split one.
+  - **Components:** each 10–12 cm across, 4–6 cm tall; dough portions of
+    ~50 g, lightly flattened [MEDIUM — recipe sources, e.g. Taste,
+    African Food Network (via search)]; filled — split with 2–3
+    tablespoons of curried mince spilling from the opening.
+  - **Served portion:** 1–2 per person.
+  - **State cues:** oil sheen, paler frying line, fluffy white inside.
+  - **Absent on purpose:** glaze or sugar dusting (unless sweet with jam),
+    garnish, doughnut hole.
+  - **Prompt-ready line:** "Two puffed, deep golden-brown fried breads on
+    paper, each a little wider than the can, craggy with an oil sheen and a
+    paler ring around the middle; one split open to show fluffy white crumb
+    stuffed with brown curried mince spilling out of the opening. No glaze,
+    no sugar dusting, no garnish, not doughnuts."
 
 #### Slap chips and Cape fish and chips
 - **Texture:** soft, thick, pale-gold chips, oily and bending, vinegar-damp
   on the paper; crisp golden batter on hake or snoek. [MEDIUM]
 - **Scale:** chips ~1–1.5 cm thick; paper portion ~25 cm; fish fillet
   ~20–25 cm.
+- **Composition & proportions (§4.7) — one paper portion.**
+  - **What dominates:** chips ~60% of the open paper, fish ~35%.
+  - **Components:** chips **~1.5–2 cm thick** [MEDIUM — Tamarind n Thyme,
+    FinGlobal (via search)]; shop chip portions ~150–270 g [MEDIUM — Eat
+    Out Cape Town (via search)]; hake fillet 20–25 cm (about twice the can's
+    height), one per portion; paper ~25 cm.
+  - **Arrangement:** fish laid over one side of the chips heap.
+  - **State cues:** vinegar-damp translucent patches on the paper, salt,
+    chips soft and bending.
+  - **Absent on purpose:** crisp skinny fries, mushy peas, tartare pots,
+    legible newspaper print.
+  - **Prompt-ready line:** "Open white paper holding a heap of soft, thick,
+    pale-gold chips, each about a third of the can's width, oily and
+    bending, vinegar-damp translucent patches on the paper, a scatter of
+    salt; a fillet of fish in crisp golden batter about twice the can's
+    height laid across one side. No skinny fries, no mushy peas, no printed
+    paper."
 
 #### "Russian and chips" — new entry, added this pass (gap #5)
 - **Category:** Everyday takeaway; a standalone fish-and-chip-shop and
@@ -1274,16 +1884,46 @@ notch down, per that rule.*
   casing reads distinctly pink-red rather than a hot dog's tan-brown);
   confusing it with polony sliced into rounds (the Russian is a whole
   sausage, fried and slit, not sliced cold).
+- **Composition & proportions (§4.7) — one order.**
+  - **What dominates:** chips ~60%, sausage ~25%, tomato sauce ~5%.
+  - **Components:** one Russian 15–18 cm (about 1.5× the can's height),
+    whole or halved lengthwise; chips 1.5–2 cm thick; one stripe of tomato
+    sauce.
+  - **Absent on purpose:** a bun, a tan frankfurter, mustard.
+  - **Prompt-ready line:** "A plump, taut pink-red sausage about one and a
+    half times the can's height, with shallow diagonal frying slits, lying
+    on a bed of soft pale oily chips on white paper, a stripe of tomato
+    sauce along it and a scatter of salt. No bun, no mustard, not a tan hot
+    dog."
 
 #### Garage pie
 - **Texture:** flaky, golden, glossy puff pastry shedding flakes; glossy
   brown filling when broken. [MEDIUM]
 - **Scale:** ~10–12 cm round or oval, in a paper bag.
+- **Composition & proportions (§4.7) — one pie.**
+  - **What dominates:** pastry; filling only where broken.
+  - **Components:** one pie 10–12 cm (a bit shorter than the can is tall)
+    in a rolled-down paper bag; flakes shed on the bag.
+  - **Absent on purpose:** logos, legible bag print, sauce sachets.
+  - **Prompt-ready line:** "One flaky, glossy golden puff-pastry pie, a
+    little shorter than the can's height, sitting in a plain paper bag
+    rolled down at the top, broken open at one corner to show glossy brown
+    mince filling, loose pastry flakes scattered on the paper and table.
+    Plain unprinted bag; no logos, no sauce sachets."
 
 #### Street offal (walkie-talkies, smileys)
 - Chicken feet and heads; sheep's head. Real, but **high caricature risk as
   defaults** — document, don't lead with them. **Scale:** in a tray
   ~20 cm. [LOW-MEDIUM; EDITORIAL]
+- **Composition & proportions (§4.7) — only when the brief asks.** A ~20
+  cm tray with 4–6 chicken feet or heads, or a half sheep's head, beside a
+  pap mound (~40% of the tray). Never a default; no gore close-ups, no
+  caricature framing. [EDITORIAL] **Prompt-ready line:** "A small
+  plain takeaway tray, about twice the can's height across, with a smooth
+  white maize-porridge mound on one side and four grilled, spiced chicken
+  feet, each about half the can's height, glossy with red-brown sauce, on
+  the other; shot at table distance in daylight. Plain tray, no close-up
+  gore, no dramatic framing."
 
 ### E. Seafood
 
@@ -1293,11 +1933,32 @@ notch down, per that rule.*
   [LOW-MEDIUM]
 - **Scale:** fillet ~20–25 cm on a 26–30 cm plate, with chips or rice and
   salad.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** fillet ~40%, chips or rice ~35%, salad ~20%.
+  - **Components:** fillet 20–25 cm (about twice the can's height), one per
+    plate; one lemon wedge.
+  - **Absent on purpose:** herb garnish piles, tartare, white wine.
+  - **Prompt-ready line:** "A thick white fish fillet, about twice the can's
+    height, grilled with golden edges and a glossy lemon-butter sheen,
+    flakes just separating, on a white plate with golden chips on one side
+    and a small salad of lettuce, tomato and cucumber on the other, one
+    lemon wedge at the rim. No herb garnish, no tartare."
 
 #### West Coast rock lobster (crayfish)
 - **Texture:** halved, grilled; orange-red shell, charred edges, glossy
   white flesh with garlic butter. [LOW-MEDIUM]
 - **Scale:** halved body ~20–30 cm, filling a 30 cm plate.
+- **Composition & proportions (§4.7) — one halved lobster.**
+  - **What dominates:** the halved lobster ~70% of a 30 cm plate.
+  - **Components:** body 20–30 cm, halved lengthwise, flesh up; a small
+    side of rice or chips; garlic butter in a ramekin or on the flesh.
+  - **Absent on purpose:** **large claws** (a rock lobster has none),
+    garnish, white wine.
+  - **Prompt-ready line:** "A rock lobster halved lengthwise, about twice
+    the can's height, flesh up on a large plate, orange-red shell charred at
+    the edges, glossy white flesh with melting garlic butter pooling in the
+    shell; long thin antennae, no big claws; a small side of rice at one
+    edge. No garnish, no lemon pile."
 
 #### West Coast mussels — new entry, added this pass (gap #6)
 - **Category:** Occasion/coastal specialty; a genuine Western Cape dish,
@@ -1335,6 +1996,24 @@ notch down, per that rule.*
   shells); a French moules-marinière presented with no bread (the bread
   accompaniment is a consistent South African serving norm in the sources
   found).
+- **Composition & proportions (§4.7) — a communal pot, and one bowl.**
+  - **What dominates:** open black shells ~70% of the pot surface; broth
+    ~20%; herbs ~5%; bread beside. [EDITORIAL]
+  - **Components:** mussels 5–8 cm (about the can's width); **main portion
+    500–750 g in shell per person — roughly 20–30 mussels** [MEDIUM —
+    seafood portion guides, e.g. Stellinox (via search); count EDITORIAL];
+    a communal 25–30 cm pot holds 60–90; bread 3–5 torn pieces; empty-shell
+    bowl.
+  - **Vessel fill & depth:** mussels heaped above the broth, broth a third
+    of the pot's depth.
+  - **State cues:** steam, glossy flesh, cream broth.
+  - **Absent on purpose:** green-lipped shells, wine bottle or glass (wine
+    is a cooking ingredient only), fries, lemon piles.
+  - **Prompt-ready line:** "A wide pot, about four times the can's width,
+    heaped with opened blue-black mussels each about the can's width,
+    glossy orange-cream flesh showing, over a pale herb-flecked cream broth
+    a third of the way up; steam rising; torn crusty bread beside it, one
+    piece soaked. Plain dark shells, no green lips, no fries, no wine."
 
 #### LM-style prawns and grilled calamari (Portuguese-influenced)
 - **Texture:** large prawns grilled whole, shells red-orange and charred,
@@ -1342,15 +2021,48 @@ notch down, per that rule.*
   with light char. [LOW-MEDIUM]
 - **Scale:** prawns ~12–18 cm; a platter of prawns on 35–40 cm; calamari
   rings ~4–6 cm.
+- **Composition & proportions (§4.7) — platter and one plate.**
+  - **What dominates:** prawns ~70% of the platter; rice or chips ~25%.
+  - **Components:** prawns 12–18 cm (about the can's height or more), 8–12
+    per platter, 4–6 per portion; calamari rings 4–6 cm, 10–15 per portion;
+    1–2 lemon wedges; butter sauce in a ramekin.
+  - **Absent on purpose:** peeled cocktail prawns, garnish piles, wine.
+  - **Prompt-ready line:** "Large whole prawns, each about the can's
+    height, grilled with red-orange shells charred at the edges and glossy
+    with chilli-garlic butter, laid in rows on a platter beside lightly
+    charred calamari rings, rice at one side, a lemon wedge and a small dish
+    of melted butter. No peeled cocktail prawns."
 
 #### Fish cakes
 - **Texture:** golden, lightly crisp crust; flaked fish and potato inside.
   **Scale:** ~7–8 cm diameter, ~2.5 cm thick. [LOW-MEDIUM]
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** 2–3 fish cakes ~35%; chips or salad the rest.
+  - **Components:** each 7–8 cm (a little wider than the can), 2.5 cm
+    thick.
+  - **Absent on purpose:** sweet-chilli pots, Thai herbs.
+  - **Prompt-ready line:** "Three golden, lightly crisp round fish cakes,
+    each a little wider than the can and about a quarter of its height, one
+    broken to show flaked white fish and potato inside, on a dinner plate
+    beside a heap of chips and a small green salad. No sweet-chilli sauce,
+    no herbs, no garnish."
 
 #### Pickled fish (Easter, Cape Malay)
 - **Texture:** firm white fish chunks in a glossy curried yellow sauce with
   translucent onion rings; served cold with bread. [MEDIUM]
 - **Scale:** pieces ~6–8 cm in a 20–25 cm glass or ceramic dish.
+- **Composition & proportions (§4.7) — the dish, then a portion.**
+  - **What dominates:** fish ~50%, onion rings on top ~30%, yellow sauce
+    ~20%.
+  - **Components:** pieces 6–8 cm, 8–12 in a 20–25 cm dish; portion 2–3
+    pieces with buttered bread slices.
+  - **State cues:** cold, glossy, not steaming.
+  - **Absent on purpose:** steam, herb garnish, hot-curry oil slick.
+  - **Prompt-ready line:** "A glass dish of firm white fish chunks, each
+    about the can's width, in a glossy curried yellow sauce, layered with
+    translucent onion rings and a bay leaf on top; served cold, no steam;
+    beside it two slices of buttered white bread on a small plate. No
+    garnish, no oil slick."
 
 ### F. Cape Malay (Western Cape)
 
@@ -1361,11 +2073,37 @@ notch down, per that rule.*
 - **Scale:** 30 × 20 cm dish; square ~8–10 cm beside rice on a 26–28 cm
   plate.
 - **Model failure:** shepherd's pie; moussaka.
+- **Composition & proportions (§4.7) — one plated square.**
+  - **What dominates:** plate — yellow rice ~40%, bobotie square ~30%,
+    chutney and sambals ~15%. [EDITORIAL]
+  - **Components:** dish ~30 × 20 cm serves ~6 [MEDIUM — recipe consensus,
+    e.g. The Cinnamon Jar, Immaculate Bites (via search)]; square 8–10 cm
+    (a little wider than the can); custard ~1–1.5 cm over mince ~3–4 cm;
+    3–6 bay leaves on the whole dish, 0–1 on a portion (often removed
+    before serving [MEDIUM — same sources]); a spoon of chutney; sliced
+    banana or tomato-onion sambal optional.
+  - **State cues:** set golden custard with browned edges, moist mince.
+  - **Absent on purpose:** mashed-potato top, cheese crust, béchamel.
+  - **Prompt-ready line:** "A square of baked spiced mince a little wider
+    than the can, under a set, puffed golden-yellow egg custard with browned
+    edges and a curled dark-edged bay leaf, beside a mound of
+    turmeric-yellow rice with raisins and a spoon of chutney on a dinner
+    plate; the rest of the dish behind. No mashed potato, no cheese."
 
 #### Bredie (tomato; waterblommetjie)
 - **Texture:** bone-in lamb, thick glossy red-brown sauce (tomato);
   green, artichoke-like flower buds (waterblommetjie). [LOW-MEDIUM]
 - **Scale:** over rice, filling two-thirds of a 26–28 cm plate.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** rice ~40%, bredie ~45%.
+  - **Components:** bone-in lamb 5–7 cm, 3–4 per plate; potato 1–2;
+    waterblommetjie buds 3–5 cm, 5–8.
+  - **Absent on purpose:** parsley, cream.
+  - **Prompt-ready line:** "Bone-in lamb pieces, each about half the can's
+    height, and a potato chunk in a thick, glossy red-brown tomato sauce,
+    spooned over white rice so the stew fills two-thirds of a dinner plate
+    and a rim of rice shows; a little steam rising. Home-cooked, plainly
+    plated; no parsley, no cream."
 
 #### Denningvleis — new entry, added this pass (gap #2)
 - **Category:** Occasion/Sunday-table dish; one of Cape Malay cuisine's
@@ -1397,6 +2135,16 @@ notch down, per that rule.*
   distinctly glossier and more amber-toned, with a sweet-sour tamarind
   character rather than a savoury brown-gravy one); a bredie (denningvleis
   is sweet-sour and tamarind-based, not tomato- or waterblommetjie-based).
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** rice ~40%, stew ~45%.
+  - **Components:** lamb 4–6 cm, 4–5 pieces; 2–4 whole spices visible
+    (star anise, bay).
+  - **Absent on purpose:** tomato-red sauce, garnish.
+  - **Prompt-ready line:** "Lamb pieces, each about half the can's height,
+    in a glossy, deep brown-amber sweet-sour sauce with a visible sheen and
+    a star anise and bay leaf floating, spooned over white or yellow rice so
+    the stew fills two-thirds of a plate. Darker and more amber than a
+    tomato stew; no garnish."
 
 #### Breyani (Cape Malay and Durban — §4.6)
 - **Variants, verified this pass:** Cape Malay breyani (includes lentils —
@@ -1415,12 +2163,45 @@ notch down, per that rule.*
   meat pieces, fried onion, boiled egg halves, visible lentils.
 - **Scale:** served from a 30 cm pot; a mound filling most of a 26–28 cm
   plate, with a small bowl of sambal or dhal.
+- **Composition & proportions (§4.7) — the pot and one plate.**
+  - **What dominates:** **rice** ~65% of a plated mound; meat ~15%; potato
+    ~10%; egg ~5%; lentils and onion accents. [EDITORIAL]
+  - **Components:**
+
+    | Component | Real size | Count (pot / one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice | Long grains | — | Streaked yellow-orange and white | The base of the mound |
+    | Meat | Bone-in pieces 5–7 cm | 10–14 / 2–3 | Browned | Half-sunk in rice |
+    | Potato | Fried halves 4–5 cm | 8–12 / 1–2 | Golden edges | Half-sunk |
+    | Egg | Boiled, halved | 4–6 / 1 half | White and yolk | On top |
+    | Lentils | ~0.5 cm | Scattered | Brown | Through the rice |
+    | Fried onion | Thin threads | A scatter | Deep brown | On top |
+
+    Layering of rice, lentils, meat, potato and onion in one pot [HIGH —
+    Cape Town Magazine, Woolworths Taste, Cape Malay Cooking & Other
+    Delights (via search)]
+  - **Served portion:** a mound filling most of a 26–28 cm plate, a 10–12
+    cm bowl of sambal or dhal beside.
+  - **Absent on purpose:** raita, mint pile, naan, a flat "fried rice".
+  - **Prompt-ready line:** "A generous mound of long-grain rice streaked
+    yellow-orange and white filling most of a plate, with two bone-in meat
+    pieces and a fried potato half sunk into it, each about half the can's
+    height, half a boiled egg on top, small brown lentils and threads of
+    fried onion scattered through; a small bowl of sambal beside. No
+    raita, no naan."
 
 #### Akni
 - A spiced rice-and-meat dish lighter in colour than breyani, cooked in one
   pot, and distinguished from breyani specifically by the *absence* of
   lentils (per the breyani-vs-akni sourcing above). **Scale:** as breyani.
   [LOW-MEDIUM]
+- **Composition & proportions (§4.7)** — as the breyani block, but no
+  lentils and no egg; paler, more uniform rice (~70%) with meat pieces
+  5–7 cm (2–3 per portion). [EDITORIAL] **Prompt-ready line:** "A mound of
+  pale, lightly spiced rice filling most of a plate, grains separate and
+  evenly coloured, with two or three bone-in meat pieces about half the
+  can's height and a potato half sunk in it; a few whole spices visible; a
+  small bowl of sambal beside. No lentils, no egg, no orange streaks."
 
 #### Cape Malay roti and salomie
 - **Form:** soft, layered, flaky flatbread; the **salomie** is a roti
@@ -1429,6 +2210,17 @@ notch down, per that rule.*
   sheen; curry glossy at the open end.
 - **Scale:** roti ~20–25 cm diameter; salomie ~20 cm long × ~6–7 cm thick.
 - **Model failure:** a Mexican tortilla wrap (thin, pale, no layers).
+- **Composition & proportions (§4.7) — roti with curry, or a salomie.**
+  - **What dominates:** roti ~40% folded beside curry ~50%; salomie — the
+    wrap itself.
+  - **Components:** roti 20–25 cm, folded into quarters, 1–2 per portion;
+    salomie ~20 cm × 6–7 cm (about the can's width), cut diagonally once.
+  - **Absent on purpose:** thin pale tortillas, lettuce.
+  - **Prompt-ready line:** "A soft, flaky roti folded into quarters, golden
+    blistered patches and visible layers with a buttery sheen, beside a bowl
+    of glossy yellow-orange curry; next to it a roti-wrapped curry roll
+    about the can's width, cut on the diagonal with curry showing at the
+    open end. No thin tortilla, no lettuce."
 
 #### Koeksisters vs. koesisters (§4.6 — two different sweets) — cross-reference note added this pass (gap #7)
 - **Afrikaner koeksister, verified this pass:** a tight, braided/plaited
@@ -1461,10 +2253,37 @@ notch down, per that rule.*
   syrup-soaked Afrikaner koeksister and the oval, coconut-rolled, spiced
   Cape Malay koesister are visually and texturally distinct, not regional
   spelling variants of the same sweet.
+- **Composition & proportions (§4.7) — a plate of either.**
+  - **What dominates:** the pastries alone; no cream or garnish.
+  - **Components:** koeksister plait 8–10 cm (a bit shorter than the can);
+    recipes cut dough strips ~6–8 × 2.5–4 cm before plaiting [MEDIUM —
+    recipe consensus, e.g. Drizzle and Dip, Lovely Greens (via search)];
+    a batch is about 12. Koesister oval 8–10 cm, coconut-coated. Plate of
+    6–12; portion 1–2.
+  - **State cues:** koeksister glassy, syrup-lacquered, chilled; koesister
+    soft, matte, coconut-flecked.
+  - **Absent on purpose:** icing, sprinkles, cream; mixing both shapes on
+    one plate unless the brief asks.
+  - **Prompt-ready line:** "A small plate of eight tightly plaited golden
+    pastries, each a little shorter than the can, glassy and syrup-lacquered
+    with a crisp shell, stacked two deep, a little syrup pooling and
+    catching the light on the plate. Chilled, not steaming. No icing, no
+    sprinkles, no coconut, no cream."
 
 #### Samoosas
 - **Texture:** thin, crisp, blistered golden pastry, sharp folded corners.
   **Scale:** ~7–10 cm per side. [MEDIUM]
+- **Composition & proportions (§4.7) — a plate.**
+  - **What dominates:** pastry triangles; filling only where one is broken.
+  - **Components:** triangles 7–10 cm per side (about the can's width or
+    more); 6–12 on a plate, 3–4 per portion.
+  - **Absent on purpose:** thick, round, pleated Indian-style samosas,
+    heaps of dips.
+  - **Prompt-ready line:** "A plate of eight small, thin, crisp golden
+    pastry triangles, each about the can's width per side, with sharp folded
+    corners and a blistered surface, piled loosely; one broken open to show
+    a spiced mince filling. Thin flat triangles, not thick pleated pyramids;
+    no dips, no garnish."
 
 ### G. Durban and South African Indian (KZN)
 
@@ -1474,16 +2293,45 @@ notch down, per that rule.*
   entry above. Plated with rice, roti and sambal. [HIGH]
 - **Scale:** over rice filling two-thirds of a 26–28 cm plate; roti ~20 cm,
   folded.
+- **Composition & proportions (§4.7) — one plate.**
+  - **What dominates:** rice ~40%, curry ~45%, roti/sambal ~15%.
+  - **Components:** bone-in mutton 4–6 cm, 3–4 per plate; potato halves 1–2
+    (potatoes cook around the meat in the gravy; bone-in meat preferred
+    [MEDIUM — Durban curry recipe sources, e.g. Daryl's Kitchen, Easy South
+    African Recipes (via search)]); roti ~20 cm folded; 2 tablespoons of
+    tomato-onion sambal.
+  - **State cues:** red oil slick, steam.
+  - **Absent on purpose:** cream, yoghurt, naan, coriander piles.
+  - **Prompt-ready line:** "Bone-in mutton pieces, each about half the
+    can's height, and potato halves in loose, oily, deep red-orange curry
+    gravy with a red oil slick and whole spices, over white rice filling
+    two-thirds of a plate; a folded roti and a spoon of fresh tomato-onion
+    sambal at the side. No cream, no naan."
 
 #### Dhal
 - **Texture:** golden-yellow, loose to thick, a tempering of mustard seeds,
   curry leaves and chilli on top with an oil sheen. [LOW-MEDIUM]
 - **Scale:** a 12–15 cm side bowl.
+- **Composition & proportions (§4.7)** — a 12–15 cm side bowl filled
+  three-quarters; tempering (mustard seeds, 2–4 curry leaves) floats on
+  ~20% of the surface; beside rice or roti. Absent: cream swirl, herb pile.
+  [EDITORIAL] **Prompt-ready line:** "A small bowl, about twice the can's
+  width, three-quarters full of golden-yellow lentils, loose and smooth,
+  with a tempering of mustard seeds, a few curry leaves and dried chilli
+  floating in an oil sheen on top, beside white rice and a folded flaky
+  roti. No cream swirl, no herb pile."
 
 #### Chilli bites
 - **Texture:** small, craggy, golden fritters of chickpea-flour batter with
   onion and green chilli flecks. [MEDIUM]
 - **Scale:** ~4–6 cm; several in a paper bag or small bowl.
+- **Composition & proportions (§4.7)** — 6–10 fritters 4–6 cm (under the
+  can's width) in a paper bag or small bowl; 5–6 per portion. Absent: dips,
+  garnish. [EDITORIAL] **Prompt-ready line:** "A small bowl of craggy,
+  golden, crisp chickpea-flour fritters, each smaller than the can's width,
+  flecked with onion and green chilli, piled loosely to a low dome with two spilled beside
+  the bowl on a plain paper napkin. Irregular shapes, not neat balls. No
+  dipping sauce, no garnish."
 
 ### H. Sides and salads
 
@@ -1508,11 +2356,31 @@ colours" plate (now HIGH-confidence, see GENERAL NORMS) combines several.*
 | **Mielie bread** | Moist, dense, yellow loaf flecked with corn kernels | Loaf tin ~22 × 11 cm; slices ~2 cm | LOW-MEDIUM |
 | **Green salad** | Lettuce, tomato, cucumber, onion | 20–25 cm bowl | LOW-MEDIUM |
 
+- **Composition & proportions (§4.7) — sides, one line each.** Served
+  portion is ~a quarter of a 26–28 cm plate unless stated; buffet bowls
+  filled to a low dome. Absent across all: herb garnish sprigs, edible
+  flowers, dressing zigzags. [EDITORIAL]
+  - *Coleslaw*: shreds 3–5 mm wide; cabbage ~75%, carrot ~20%; a 2–3 tablespoon heap per plate.
+  - *Potato salad*: cubes 2–3 cm (about a third of the can's width); egg quarters 2–4 per bowl, chives a light scatter.
+  - *Beetroot salad*: dice ~1–1.5 cm or slices; onion rings ~10%; a magenta juice stain spreading on the plate.
+  - *Three-bean salad*: green bean pieces 3–4 cm ~40%, kidney ~30%, butter beans ~30%.
+  - *Carrot and pineapple salad*: fine grated carrot ~80%, pineapple bits ~1 cm ~20%.
+  - *Creamed spinach*: a spoon 6–8 cm across on the plate; bowl filled three-quarters.
+  - *Butternut*: 1–2 wedges 10–12 cm or one ~8 cm scoop of mash per plate.
+  - *Gem squash*: one half per plate, 8–10 cm (a little wider than the can), cut side up with a butter pool; sweetcorn optional, filling the hollow.
+  - *Pampoenkoekies*: 2–3 fritters 6–8 cm per plate, stacked slightly.
+  - *Roast potatoes*: 3–4 pieces 4–6 cm per plate.
+  - *Yellow rice*: a ~10 cm mound, raisins ~5% of the surface, one cinnamon stick in the bowl, not on every plate.
+  - *Chakalaka*: see the Pap block.
+  - *Mielie bread*: 1–2 slices ~2 cm thick; loaf with a few slices cut.
+  - *Green salad*: leaves ~60%, tomato wedges and cucumber ~30%, onion rings ~10%.
+
 ### I. Biltong and snacks
 
 - **Biltong (beef), the everyday default:** matte, dry, dark-maroon
   exterior; deep ruby cut face; coarse coriander and pepper; white fat
   edge. **Scale:** slices ~4–6 cm; slab ~15–25 cm on a board. [MEDIUM]
+  - *Composition & proportions (§4.7)*: on a board, one slab 15–25 cm (up to about twice the can's height) with 12–20 slices 4–6 cm (about half the can's height) fanned or heaped in front, ~2–3 mm thick; slices ~60% of the board's food, slab ~40%; a portion is a small bowl or paper cone of 10–15 slices. Absent: glossy jerky strips, sauces, packets with legible print. [EDITORIAL]
 - **Game biltong (springbok, kudu, and others) — §4.6 coexisting variant,
   added this pass (gap #4):** a real, commonly-sold, visually distinct
   parallel product line, not a niche curiosity — sold alongside beef
@@ -1532,6 +2400,7 @@ colours" plate (now HIGH-confidence, see GENERAL NORMS) combines several.*
   visual tell that distinguishes it, and a brief calling for springbok or
   kudu biltong should not default to the beef entry's redder, fattier
   appearance.
+  - *Composition & proportions (§4.7)*: same layout and counts as beef biltong (one slab, 12–20 slices fanned); the difference is colour and leanness — near-black maroon, fat edge absent or a thin line on under ~10% of slices. Absent: beef-red cut faces, thick fat rims. [EDITORIAL]
 - **Ostrich biltong — §4.6 coexisting variant, added this pass (gap #3):**
   a real, commonly-marketed South African biltong variant, produced
   commercially at scale (Klein Karoo International's own biltong
@@ -1545,31 +2414,41 @@ colours" plate (now HIGH-confidence, see GENERAL NORMS) combines several.*
   closer in redness to beef biltong than the notably darker game-biltong
   variants above, but this specific claim is this pass's own inference,
   not sourced, and should be verified before being treated as confirmed.
+  - *Composition & proportions (§4.7)*: as beef biltong in layout and counts (12–20 slices 4–6 cm); lean cut faces with no fat edge. Visual claim LOW per the entry. Absent: fat rims, any ostrich imagery. [EDITORIAL]
 - **Droëwors:** thin, wrinkled, dark dried sausage sticks. **Scale:**
   ~15–20 cm. [MEDIUM]
+  - *Composition & proportions (§4.7)*: 6–10 sticks 15–20 cm (about 1.5× the can's height), ~1 cm thick, laid parallel or standing in a cup; portion 2–3 sticks. Absent: plump fresh sausage, glossy casing. [EDITORIAL]
 - **Crisps and puffed corn snacks:** bright orange puffed-corn curls and
   crisps tipped into a bowl; packets blank. **Scale:** 15–18 cm bowl;
   snack pieces ~2–4 cm. [LOW-MEDIUM]
+  - *Composition & proportions (§4.7)*: a 15–18 cm bowl filled to a low dome; pieces 2–4 cm (under half the can's width), a few spilled on the table; one bowl shared. Absent: legible packets, dips. [EDITORIAL]
 - **Mopane worms:** dried or stewed, dark, spiky. **Scale:** ~5–7 cm each
   in a small bowl. High caricature risk; not a default. [LOW-MEDIUM]
+  - *Composition & proportions (§4.7)*: only on brief; 15–25 pieces 5–7 cm in a small ~12 cm bowl, often beside pap; worms fill the bowl ~80%. No close-up caricature framing. [EDITORIAL]
 
 ### J. Desserts
 - **Malva pudding:** spongy caramel-brown pudding soaked in buttery cream
   syrup; glossy sticky top, dark edges; custard or ice cream. **Scale:**
   30 × 20 cm dish; square ~8 cm in a bowl. [MEDIUM]
+  - *Composition & proportions (§4.7)*: one ~8 cm square (a little wider than the can), ~4–5 cm tall, in a bowl; pudding ~60% of the bowl's view, custard poured to pool around it ~35% (or one scoop of ice cream instead); sauce is poured over the hot pudding so the top is glossy, custard served separately [MEDIUM — Wikipedia Malva pudding, Simply Delicious (via search)]. Absent: whipped cream piles, berries, mint sprigs. [EDITORIAL]
 - **Melktert (milk tart):** thin pastry base, smooth pale custard ~2–3 cm
   deep, **cinnamon dusting**. **Scale, refined this pass:** 20–26 cm tart
   tin (see SCALE REFERENCE above); slice ~10 cm on a small plate. [MEDIUM]
+  - *Composition & proportions (§4.7)*: one wedge ~10 cm long (about the can's height), 1/8–1/10 of the tart, on a small plate; custard ~85% of the cut face, thin pastry base ~15%; cinnamon an even dusting, not a pile; the rest of the tart behind with a wedge missing. Absent: whipped cream, fruit, a caramelised top. [EDITORIAL]
 - **Peppermint crisp tart:** biscuit, caramel and cream layers under
   grated green-and-brown mint chocolate (genericize the chocolate brand).
   **Scale:** 30 × 20 cm dish; square ~8 cm. [LOW-MEDIUM]
+  - *Composition & proportions (§4.7)*: one ~8 cm square, ~6 cm tall (about half the can's height); cut face shows a thin biscuit base (~15%), caramel (~25%), cream (~50%), grated chocolate on top (~10%). Absent: branded wrappers, mint leaves. [EDITORIAL]
 - **Trifle (Christmas):** sponge, red jelly, yellow custard and cream in
   visible layers. **Scale:** 20–22 cm glass bowl, ~10–12 cm deep.
   [LOW-MEDIUM]
+  - *Composition & proportions (§4.7)*: the glass bowl shows 4 bands through the side — sponge ~25%, red jelly ~25%, yellow custard ~30%, cream ~20% on top; served portion is a scoop in a small bowl where the layers blur together. Absent: berries piled on top, sherry bottle. [EDITORIAL]
 - **Jelly and custard:** wobbly bright jelly cubes or set jelly with poured
   yellow custard. **Scale:** 12–15 cm bowl. [LOW-MEDIUM]
+  - *Composition & proportions (§4.7)*: a 12–15 cm bowl, jelly cubes 1.5–2 cm or a set layer ~60%, poured custard ~40% partly covering. Absent: whipped cream, garnish. [EDITORIAL]
 - **Hertzoggies:** small tartlets with apricot jam and a coconut-meringue
   top, lightly golden. **Scale:** ~5–6 cm. [LOW-MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 tartlets 5–6 cm (under the can's width) on a plate, portion 1–2; coconut-meringue top ~80% of each, jam barely visible. Absent: icing, cherries. [EDITORIAL]
 
 ---
 
@@ -1709,6 +2588,7 @@ the Gap Log below.
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
   expected in the coming days**, per the orchestrating session. Hold off on
   further WebSearch effort toward the pack-dimension gap below until it

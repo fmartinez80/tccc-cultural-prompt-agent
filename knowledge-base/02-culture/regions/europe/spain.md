@@ -90,9 +90,14 @@ Module below. No beverage other than Coca-Cola is catalogued as a subject.
    number, or brand mark in the output means reject or retouch. Blur
    instructions are known to fail on background signage regardless
    [`country-file-schema.md` §7.5, HIGH — first-party finding].
-2. **The can.** Always write "the classic red Coca-Cola can (original,
-   not Diet Coke or Coke Zero)." Its branding is composited in post,
-   never trusted from the generation (`coca-cola-guidelines.md` §1–§2).
+2. **The hero product comes from the brief, never from the region.**
+   The brief names the exact TCCC brand, variant and format; this file
+   never defaults to one (standing rule, 2026-09-27 — see `DECISIONS.md`;
+   it replaces this file's earlier red-can default). Write it with
+   `africa/south-africa.md`'s HERO PRODUCT SLOT template: name the variant exactly and negate the closest lookalike
+   (e.g. Original vs. Zero Sugar vs. Light). Its branding is composited in
+   post, never trusted from the generation (`coca-cola-guidelines.md`
+   §1–§2).
 3. **No other drinks in frame.** Spanish bar, terraza, and festival
    scenes carry strong training priors toward beer (caña), wine, vermut,
    sangría, tinto de verano, rebujito, cava, coffee, and fresh juice.
@@ -776,6 +781,36 @@ on-premise glass bottles (same §), and the vessel table above.*
   re-sourced this pass).
 - **Sources**: [Vaello Campos — ¿Cuál es la mejor sartén para hacer las
   tortillas jugosas y perfectas?](https://vaellocampos.com/cual-es-la-mejor-sarten-para-hacer-las-tortillas-jugosas-y-perfectas/); general Spanish tortilla-recipe/cookware sourcing.
+- **Composition & proportions (§4.7)** — whole tortilla, 24 cm pan.
+  - **What dominates**: **potato**, bound by egg. A purist ratio is about
+    1 kg peeled potato to 8 eggs (roughly 1 egg per 100 g cooked potato);
+    on a cut face, potato layers take roughly 60–70% of the area and egg
+    the rest; onion, if used, is a thin minority (~10%). [MEDIUM-HIGH —
+    El Español, Directo al Paladar, Hogarmanía agree on the ratios; the
+    cut-face shares are EDITORIAL]
+  - **Components**:
+
+    | Component | Size | Look | Where |
+    |---|---|---|---|
+    | Potato | Thin slices ~2–3 mm, or "chascada" (broken off with a twist of the knife, irregular edges) [HIGH — Hogarmanía]; pieces ~2–4 cm across | Soft, pale cream, stacked in layers; never crisp or fried-brown inside | Throughout, visible as layered strata on the cut face |
+    | Egg | — | Jugosa: glossy, loose, barely set yellow between the layers; cuajada: matte, fully set | Binding the layers; forming the golden outer skin |
+    | Onion (con cebolla) | Thin slivers, cooked soft | Translucent golden | Between potato layers, sparse |
+    | Olive oil | — | A light sheen on the surface | Surface only, no pools |
+
+  - **Arrangement**: a single thick cushion 3–5 cm tall, rounded tucked
+    edges; one wedge removed (see Staging).
+  - **Served portion**: a pincho wedge ~9–12 cm on its long edge, cut
+    face toward camera, on a small plate with a slice of bread or on bread.
+  - **State cues**: room temperature or just warm — no steam needed; the
+    jugosa centre may ooze slightly onto the plate.
+  - **Absent on purpose**: toppings of any kind, herbs, peppers, chorizo,
+    cheese, visible browned fried-potato crunch inside.
+  - **Prompt-ready line**: "A thick, round Spanish potato omelette about as
+    tall as a third of the can, smooth golden-amber outside with rounded,
+    tucked-under edges. A wedge is cut away to show the inside: many thin
+    layers of soft pale-cream potato slices held together by glossy,
+    barely set yellow egg that is just starting to ooze. No toppings, no
+    herbs, no vegetables on top."
 
 #### Croquetas
 
@@ -806,6 +841,27 @@ on-premise glass bottles (same §), and the vessel table above.*
   matte); panko-craggy coating; a uniform frozen-food look.
 - **Confusion**: Cuban and Latin American croquetas look similar (a
   shared form); no visual distinction claimed.
+- **Composition & proportions (§4.7)** — ración.
+  - **What dominates**: **béchamel**. Inside, a creamy béchamel makes up
+    most of the filling; the flavour ingredient (jamón, chicken, cod) is
+    small flecks or cubes, perhaps 15–25% of the cut face; the crumb shell
+    is a thin 1–2 mm skin. [EDITORIAL from recipe norms — MEDIUM]
+  - **Components**: croquetas ~3.5 cm long (cocktail ~15 g, standard
+    ~25–35 g) [MEDIUM — Croquetas Ricas]; jamón cubes ~3–5 mm, pink;
+    chicken shreds pale; breadcrumb fine, even, amber-gold.
+  - **Count**: ración 6–10 on a 22–26 cm oval, loosely heaped or in a row;
+    tapa 2–4.
+  - **Arrangement**: touching, slightly jumbled; one broken open to show
+    the cut face.
+  - **State cues**: a thin wisp of steam from the broken one; no oil
+    pooling on the plate.
+  - **Absent on purpose**: dipping sauces, ketchup, salad garnish, panko
+    texture, potato filling.
+  - **Prompt-ready line**: "Six small golden croquettes, each shorter than
+    half the can's height, with a fine, even, dry-crisp breadcrumb shell,
+    piled on a white oval plate. One is broken open: the inside is
+    mostly smooth, glossy ivory béchamel that slumps slightly, with only
+    small pink flecks of cured ham. No sauce, no garnish."
 
 #### Jamón (serrano / ibérico) + pan con tomate
 
@@ -843,6 +899,25 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Common model failure**: thick, pink, uniform machine-cut deli ham;
   Italian prosciutto (large rosy sheets); bread topped with chunky tomato
   like bruschetta.
+- **Composition & proportions (§4.7)** — ración de jamón.
+  - **What dominates**: thin slices of lean meat; each slice ~5–8 cm long,
+    near-translucent, with a rim or marbling of fat taking roughly 20–30%
+    of its area. [LOW-MEDIUM — slice size not independently re-searched]
+  - **Count and arrangement**: ~15–25 slices fanned in **a single
+    overlapping layer** covering a 22–26 cm plate edge to edge, no
+    stacking or folding into roses. [MEDIUM]
+  - **Pan con tomate alongside**: 2–4 slices of toasted bread, each ~10–12
+    cm, the tomato a thin coral-pink layer soaked into the crumb, not
+    chunks on top.
+  - **State cues**: fat glistening, slightly translucent at room
+    temperature; no condensation.
+  - **Absent on purpose**: melon, figs, cheese boards, herbs, thick
+    machine-cut deli slices.
+  - **Prompt-ready line**: "A white plate covered edge to edge by a single
+    overlapping layer of very thin, hand-carved slices of deep-red cured
+    ham, each shorter than the can is tall, with glistening ivory fat at
+    the edges and a few tiny white crystal specks. Beside it, toasted
+    bread rubbed with a thin coral-pink layer of tomato and olive oil."
 
 #### Patatas bravas
 
@@ -877,6 +952,29 @@ on-premise glass bottles (same §), and the vessel table above.*
   MEDIUM-HIGH]
 - **Common model failure**: uniform cubes, wedges, or fries; ketchup;
   sauce only on the side; chili flakes.
+- **Composition & proportions (§4.7)** — tapa and ración.
+  - **What dominates**: **potato** — roughly 75–85% of what is seen;
+    sauce covers the top third of the pile, not the whole of it; alioli
+    (Catalan variant) a smaller accent. [EDITORIAL]
+  - **Components**: potato chunks ~2–3 cm (recipes cite ~2 cm dice; bar
+    bravas are often rougher, irregular chunks) [MEDIUM — Consumer,
+    Wikipedia via search]; sauce spooned over, orange-red; alioli a dollop
+    or zigzag.
+  - **Count**: tapa (~50–100 g) ≈ 6–10 pieces on a small plate or
+    cazuelita; ración ≈ four times a tapa, ~25–40 pieces on a 20–24 cm
+    oval. [MEDIUM — Directo al Paladar on tapa weight and ración ratio]
+  - **Arrangement**: a loose low heap, sauce running down into gaps and
+    pooling slightly at the base; 2–4 toothpicks upright.
+  - **State cues**: steam faintly visible; crisp edges still dry where
+    the sauce hasn't reached.
+  - **Absent on purpose**: ketchup, chives, parsley, chilli flakes,
+    uniform cubes, wedges, fries, sauce only in a ramekin.
+  - **Prompt-ready line**: "A small white plate of fried potato chunks,
+    each about the width of a thumb joint, irregular with crackly golden
+    corners and fluffy white centres, in a loose low heap. Glossy
+    orange-red paprika sauce is spooned over the top and runs into the
+    gaps; a few toothpicks stand in the potatoes. Mostly potato; the
+    sauce covers only the top."
 
 #### Calamares — a la andaluza vs. a la romana (+ bocadillo de calamares)
 
@@ -902,6 +1000,28 @@ on-premise glass bottles (same §), and the vessel table above.*
   pale crumb and a crackly crust shedding flakes.
 - **Common model failure**: thick American breadcrumb onion-ring style;
   marinara dip.
+- **Composition & proportions (§4.7)** — ración and bocadillo.
+  - **What dominates**: squid rings, each ring ~1 cm thick (a finger's
+    width) and ~4–6 cm across; the coating is a thin skin (andaluza) or a
+    visibly thicker shell (romana), never more than ~2–3 mm. [MEDIUM —
+    Gallina Blanca and recipe sources on ring thickness]
+  - **Count**: ración ~15–25 rings heaped on an oval with 2 lemon wedges;
+    bocadillo ~10–15 rings (roughly 125–150 g of squid per roll).
+    [MEDIUM — recipe quantities 500–600 g for four bocadillos]
+  - **Arrangement**: rings tumbled and overlapping; in the bocadillo,
+    spilling out of both ends of the split barra.
+  - **Served portion**: **a Madrid bocadillo de calamares is plain — no
+    lettuce, no tomato, no sauce** (mayonnaise or alioli only as an
+    option, a squeeze of lemon at most). [MEDIUM-HIGH — Directo al
+    Paladar, Bonviveur]
+  - **State cues**: just-fried, dry-crisp coating; no grease pool.
+  - **Absent on purpose**: marinara or dipping sauce, parsley shower,
+    onion rings, thick breadcrumb coating, salad in the bocadillo.
+  - **Prompt-ready line (bocadillo)**: "A crusty baguette-style roll about
+    twice the can's height, split and overfilled with fried squid rings
+    about a finger thick in a thin pale-golden coating, rings spilling
+    out of both ends. Nothing else in the roll: no lettuce, no tomato,
+    no sauce. On white paper on a bar counter."
 
 #### Bocadillo family (incl. serranito, lomo con queso, montaditos)
 
@@ -933,6 +1053,23 @@ on-premise glass bottles (same §), and the vessel table above.*
   state where the other half goes (§7.5).
 - **Common model failure**: a soft sliced-bread sandwich; a US sub
   stacked high with lettuce; a pressed panini with grill stripes.
+- **Composition & proportions (§4.7)** — a standard bocadillo.
+  - **What dominates**: **bread**. On a cut face the barra's crust and
+    crumb take roughly 70–80% of the height; the filling is **one modest
+    layer ~1–2 cm thick** (jamón: 3–5 folded slices; tortilla: one
+    ~2 cm slab; lomo: 2–3 thin fillets). [EDITORIAL — consistent with
+    the "single modest layer" norm above]
+  - **Serranito**: from the bottom up — 2 slices of tomato, 1 thin pork
+    loin fillet, 1 whole fried green pepper opened flat, 2–3 slices of
+    jamón on top; fries on the side. [HIGH for composition, above]
+  - **State cues**: bread fresh and shattering, crumbs on the paper.
+  - **Absent on purpose**: lettuce, mayonnaise slathers, cheese slices
+    (except lomo con queso), stacked deli layers.
+  - **Prompt-ready line**: "Half of a crusty baguette-style sandwich, about
+    the can's height long, cut face toward the camera: a thick golden
+    crackly crust and pale open crumb with one thin layer of folded
+    deep-red cured ham, crust flakes scattered on the white paper beneath.
+    The other half is out of frame."
 
 #### Ensaladilla rusa
 
@@ -950,6 +1087,19 @@ on-premise glass bottles (same §), and the vessel table above.*
   side); Spain's version is tuna-forward.
 - **Common model failure**: a US mustard potato salad (yellow, chunky,
   celery).
+- **Composition & proportions (§4.7)** — tapa.
+  - **What dominates**: potato (roughly 60%), then mayonnaise binding
+    everything; carrot, peas and tuna are small visible accents (~10% each)
+    in ~5–8 mm dice. [EDITORIAL from recipe norms]
+  - **Toppings (choose one or two, sparse)**: 2–4 olives, 2–3 thin roasted
+    red pepper strips, a few tuna flakes or egg crumbs.
+  - **Served portion**: a mound ~8–10 cm across, ~3–4 cm high, smoothed or
+    forked, with 3–5 picos or regañás.
+  - **Absent on purpose**: celery, mustard yellow, large chunks, lettuce.
+  - **Prompt-ready line**: "A small smooth dome of creamy pale-ivory potato
+    salad on a small white plate, dotted with tiny cubes of orange carrot
+    and green peas, a glossy mayonnaise surface, two green olives and a
+    thin strip of red pepper on top, crunchy breadsticks alongside."
 
 #### Gambas al ajillo
 
@@ -969,6 +1119,20 @@ on-premise glass bottles (same §), and the vessel table above.*
   interior. [CONFIDENCE: MEDIUM-HIGH]
 - **Common model failure**: a plate of dry grilled shrimp; cream sauce;
   shrimp on skewers.
+- **Composition & proportions (§4.7)** — individual cazuela.
+  - **What dominates**: **olive oil and prawns together** — the oil fills
+    the cazuela to ~1–2 cm, and 8–12 peeled prawns (each ~5–7 cm when
+    curled) sit half-submerged; garlic slices (~10–15, 2 mm thick) and
+    1–2 guindilla rings are accents. [MEDIUM for counts — EDITORIAL from
+    recipe portions]
+  - **Arrangement**: prawns jumbled in a single layer, the golden oil
+    visible between them.
+  - **State cues**: sizzling — tiny bubbles at the rim, a haze of steam.
+  - **Absent on purpose**: shells and heads, cream, rice, skewers.
+  - **Prompt-ready line**: "A small round terracotta dish, glazed inside,
+    holding a shallow pool of bubbling golden olive oil with about ten
+    peeled, curled pink prawns half-submerged, thin golden garlic slices
+    and one dried red chilli ring; parsley flecks; bread beside it."
 
 #### Pimientos de Padrón
 
@@ -981,6 +1145,17 @@ on-premise glass bottles (same §), and the vessel table above.*
   wrinkled, with blackened-brown patches; slightly collapsed, stems
   intact; big white flaky salt crystals clinging to the skin.
 - **Common model failure**: large bell pepper strips; jalapeños.
+- **Composition & proportions (§4.7)** — ración.
+  - **What dominates**: the peppers — ~15–25 small peppers, each ~4–7 cm
+    (about half the can's height), heaped loosely; flaky salt a visible
+    white accent. [MEDIUM]
+  - **State cues**: glossy with oil, blistered, some blackened patches,
+    stems intact.
+  - **Absent on purpose**: large peppers, sliced peppers, sauces.
+  - **Prompt-ready line**: "A small oval plate heaped with about twenty
+    small green peppers, each about half the can's height, glossy,
+    blistered and wrinkled with blackened patches, stems on, scattered
+    with big white flakes of salt."
 
 #### Huevos rotos (huevos estrellados)
 
@@ -996,6 +1171,18 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Staging**: the moment just after the yolk breaks.
 - **Common model failure**: neat sunny-side-up eggs on toast; scrambled
   egg.
+- **Composition & proportions (§4.7)** — ración for two.
+  - **What dominates**: **fried potato** (roughly 60–70% of the visible
+    area) — thick-cut, ~1 cm batons or rough slices; 2 fried eggs lie on
+    top and are broken; 3–5 slices of jamón (or chistorra pieces) are
+    accents draped over. [EDITORIAL]
+  - **State cues**: yolk just broken and running in rivulets; whites
+    lacy-crisp at the edges; steam.
+  - **Absent on purpose**: toast, cheese, herbs, neat intact yolks.
+  - **Prompt-ready line**: "An oval plate of golden fried potatoes, cut
+    thick, topped with two fried eggs with lacy crisp brown edges whose
+    yolks have just been broken and run in glossy orange rivulets over
+    the potatoes, a few thin slices of cured ham draped on top."
 
 #### Albóndigas
 
@@ -1007,6 +1194,14 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Texture**: browned, slightly rough surfaces half-submerged in glossy
   sauce; sometimes peas or fried potato cubes alongside.
 - **Common model failure**: spaghetti and meatballs.
+- **Composition & proportions (§4.7)** — cazuela.
+  - **What dominates**: meatballs (~3–4 cm, 6–10 per cazuela) half-
+    submerged in sauce that fills the cazuela to about half their height.
+    [LOW-MEDIUM]
+  - **Absent on purpose**: pasta, grated cheese, herbs piled on top.
+  - **Prompt-ready line**: "A small terracotta dish of about eight browned,
+    slightly rough meatballs, each about half the can's width, half-
+    submerged in a glossy light-brown sauce, bread beside it."
 
 #### Aperitivo spread (olives, crisps, conservas, boquerones)
 
@@ -1027,6 +1222,16 @@ on-premise glass bottles (same §), and the vessel table above.*
   gherkin. [CONFIDENCE: MEDIUM]
 - **Scale**: small bowls ~8–12cm; tins ~10×7cm; fillets ~7–10cm.
   [CONFIDENCE: LOW-MEDIUM]
+- **Composition & proportions (§4.7)** — one drink's aperitivo.
+  - **What dominates**: **one or two small things only**: a small bowl
+    (~8–12 cm) of 8–12 olives, or a small bowl of crisps, or both; a tin
+    of conservas or a plate of 6–10 boquerones fillets is a separate,
+    ordered item. [EDITORIAL — the free aperitivo is small]
+  - **Absent on purpose**: a full spread of everything at once;
+    charcuterie boards; nuts in large quantities.
+  - **Prompt-ready line**: "A small white bowl of about ten glossy green
+    olives in a little brine and a small bowl of thin, pale-golden crisps
+    beside it, on a bar-table."
 
 ### B. Regional signatures
 
@@ -1080,6 +1285,65 @@ on-premise glass bottles (same §), and the vessel table above.*
   [CONFIDENCE: HIGH]
 - **Staging**: the pan on a trivet or board at the table's centre, spoons
   laid in it, a sector eaten away to show the socarrat.
+- **Composition & proportions (§4.7) — paella valenciana, a 4-person pan
+  (~38–40 cm).** Added 2026-09-27 after a test render drew the plated
+  portion as large chicken pieces and giant beans.
+  - **What dominates**: **rice is the dish.** Roughly 60–70% of the
+    visible surface is rice; meat roughly 20–25%; green beans and
+    garrofó together roughly 10–15%. The meat and beans are scattered
+    accents sitting in the rice, never a pile on top of it. [EDITORIAL
+    synthesis from the recipe sources below — shares are not measured]
+  - **Component table**:
+
+    | Component | Real size | Count (pan / one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice (bomba or similar round grain) | Raw grain ~5.2–5.8 mm long, ~2.2–2.5 mm wide; roughly doubles when cooked — each cooked grain well under 1 cm, plump, short and round-ended [HIGH for raw size — Gallina Blanca, Cultura Valenciana] | Thousands / a thin layer | Separate, loose grains, saffron gold to amber, a light oil gloss, drier and matte towards the rim | A thin even layer across the whole pan, **~1 cm deep (a finger's thickness)**, flat, never mounded [HIGH for thin layer, not stirred — Gastraval, Tú te lo guisas] |
+    | Chicken | Bone-in pieces ~4–6 cm, "not very large", no loose small bones [MEDIUM — recipe sources agree pieces are moderate and cleaned; exact cm is an inference] | ~8–10 / 2 | Skin browned golden to deep amber, matte-crisp in patches | **Half-sunk in the rice**, top third showing |
+    | Rabbit | Smaller bone-in pieces ~3–5 cm [LOW-MEDIUM] | ~6–8 / 1–2 | Paler, browned edges, lean | Half-sunk, scattered between chicken pieces |
+    | Ferraura (flat green bean) | Cut by hand into lengths of **two to three fingers (~4–6 cm)**, ~1.5–2 cm wide, flat [MEDIUM-HIGH — hola.com, UA blog] | ~20–30 / 5–7 | Olive to dull green (cooked, not bright blanched green), soft, slightly wrinkled | Lying flat on the rice surface, scattered |
+    | Garrofó (large flat white bean) | **~2.5 × 1.5 cm**, flat, not very rounded [MEDIUM — Colono Gourmet, Secofrut] — about a third of the can's diameter; **smaller than a chicken piece, not bean-stew sized** | ~25–40 / 5–8 | Ivory to pale cream, matte, skin slightly wrinkled | Scattered, half-sunk, a few on top |
+    | Tomato and pimentón | Grated, cooked into the base — **no visible tomato pieces** | — | Tints the rice a warmer amber-orange at the base | Invisible except as colour |
+    | Rosemary (optional, household custom) | One sprig ~10–15 cm | 0–1 / 0 | Dark green, needles intact | Laid on top at the end, then usually removed before serving [MEDIUM — custom varies by household] |
+    | Snails (optional, valid variant) | Shells ~2–3 cm | 0–20 / 0–5 | Brown-striped small shells | Scattered on top |
+
+  - **Arrangement**: meat and beans evenly scattered across the whole pan,
+    not grouped, not radial (radial prawns belong to paella de marisco).
+    Rice is visible between every piece — no piece touches the next over
+    more than a few centimetres. [EDITORIAL]
+  - **Vessel fill and depth**: the rice reaches roughly a third to half of
+    the 4–6 cm rim; the whole base is covered edge to edge; the pan rim and
+    both looped handles clearly visible. [MEDIUM]
+  - **Served portion vs. whole dish**: **in Valencia the family eats
+    straight from the pan** with spoons, each person from their own
+    wedge-shaped sector, no plates. [HIGH — Gastraval, Restaurante Casa
+    Ángel, Nurimar] Outside Valencia, or for a single-diner scene, one
+    portion on a flat plate is **a thin, low layer of rice covering most
+    of the plate, with about two small meat pieces, five or six green bean
+    pieces, a handful of garrofó, and one or two shards of socarrat** — not
+    a mound, not a pile of meat. [EDITORIAL portion synthesis]
+  - **State cues**: no liquid left on top; the surface dry and matte at the
+    edges, faintly glossy in the centre; socarrat darkening the base and
+    rim; a light wisp of steam if just off the fire. [HIGH for dry,
+    socarrat-finished rice]
+  - **Absent on purpose**: seafood, chorizo, peas, red pepper strips,
+    onion, hard-boiled egg, parsley garnish; **lemon wedges** (a non-
+    Valencian habit — lemon was traditionally for cleaning hands after
+    cooking over wood) [HIGH that lemon on the rice is not Valencian
+    tradition — Gastraval, Directo al Paladar]; any liquid broth pooling.
+  - **Prompt-ready line**: "A wide, shallow, two-handled steel paella pan
+    covered edge to edge in a thin, flat layer of separate saffron-gold
+    rice grains about a finger deep, dry on top with a dark caramelised
+    crust at the rim. Scattered sparsely through the rice and half-sunk in
+    it: a few small browned bone-in chicken and rabbit pieces, short flat
+    olive-green bean pieces, and flat ivory beans each about a third the
+    width of the can. Mostly rice; the meat and beans are small accents.
+    No seafood, no chorizo, no peas, no lemon."
+  - **Sources**: [Gastraval — paso a paso](https://gastraval.com/como-hacer-una-paella-valenciana-tradicional-paso-a-paso/);
+    [hola.com — paella valenciana de pollo y conejo](https://www.hola.com/cocina/recetas/2013112768369/paella-valenciana-conejo/);
+    [Tú te lo guisas — paella valenciana tradicional](https://tuteloguisas.com/paella-valenciana-tradicional/);
+    [Colono Gourmet — the garrofón](https://colonogourmet.at/en/blogs/elblogdeoche/der-garrofon-wesentliche-zutat-der-valencianischen-paella);
+    [Gallina Blanca — arroces para paella](https://www.gallinablanca.es/reportaje/arroces-indispensables-para-hacer-paella/);
+    [Restaurante Casa Ángel — cómo se come una paella](https://restaurantecasaangel.com/arroces/como-se-come-una-paella/).
 - **Common model failure**: a deep heaped mound of yellow rice; creamy,
   risotto-like texture; peas-and-chorizo "Spanish rice"; a tourist
   "everything" seafood tower; a black non-stick pan with a single handle.
@@ -1103,6 +1367,22 @@ on-premise glass bottles (same §), and the vessel table above.*
   glistening with oil — no bread. [CONFIDENCE: HIGH]
 - **Common model failure**: tiny formal canapés; generic "tapas" plates
   with no bread base.
+- **Composition & proportions (§4.7)** — a counter row and one plate.
+  - **What dominates**: **the topping**, which is taller than the bread:
+    a ~8–10 cm baguette slice ~1 cm thick carries a topping mound 3–5 cm
+    high that covers the whole slice to its edges; one toothpick through
+    the centre. [EDITORIAL from the scale above]
+  - **Count**: a diner's plate holds 2–3 pintxos; the counter behind holds
+    rows of 20–40 on platters. A gilda: one olive, one anchovy coiled
+    around, 2–3 guindillas, on an 8–10 cm stick.
+  - **Absent on purpose**: plated tapas without bread, formal canapé
+    piping, cocktail sticks with frills.
+  - **Prompt-ready line**: "On a small white plate on a bar counter, two
+    bite-size open sandwiches on thick slices of baguette, each piled
+    higher than the bread with a glossy topping (roasted red peppers and
+    a silvery anchovy; a creamy salt-cod spread), a toothpick through
+    each. Behind, softly out of focus, rows of similar bites along the
+    counter."
 
 #### Tarta de queso vasca (Basque burnt cheesecake)
 
@@ -1125,6 +1405,19 @@ on-premise glass bottles (same §), and the vessel table above.*
   crust); a burnt-looking failure.
 - **Genericize**: the named San Sebastián bar of origin — real, and
   useful as historical background, but never a prompt subject (§7.5).
+- **Composition & proportions (§4.7)** — a slice.
+  - **What dominates**: the creamy interior; the burnt top is a ~3–5 mm
+    near-black skin, no base or crust. [EDITORIAL]
+  - **Served portion**: one wedge ~1/8 of a 20–22 cm cake, ~6–8 cm tall
+    (a little over half the can's height), cut face to camera, crinkled
+    parchment left under or peeled back; nothing else on the plate.
+  - **Absent on purpose**: berry coulis, whipped cream, biscuit base,
+    icing sugar.
+  - **Prompt-ready line**: "One wedge of crustless cheesecake about half
+    the can's height, top deep caramel-black and blistered, sides
+    ruffled and bronzed from crumpled baking paper, the cut face pale
+    cream and very soft, sagging slightly at the centre. Plain white
+    plate, no sauce, no garnish."
 
 #### Pulpo á feira / a la gallega (zone 1)
 
@@ -1145,6 +1438,18 @@ on-premise glass bottles (same §), and the vessel table above.*
   beneath.
 - **Common model failure**: charred grilled tentacles with grill marks;
   a white ceramic plate.
+- **Composition & proportions (§4.7)** — one wooden plate.
+  - **What dominates**: octopus rounds (~1–1.5 cm thick, 2–4 cm across),
+    ~20–30 of them covering the plate in a single layer; cachelos
+    (potato slices) beneath if used, visible only at the edges; pimentón
+    and salt a surface dusting. [EDITORIAL for counts]
+  - **Absent on purpose**: grill marks, whole tentacles, lemon, parsley,
+    salad, ceramic plate.
+  - **Prompt-ready line**: "A round, oil-darkened wooden plate covered in
+    a single layer of octopus cut into thick coins, each about a third of
+    the can's width, purple-pink skin with pale suction-cup rims and
+    firm white centres, dusted unevenly with red paprika, coarse salt and
+    a pool of golden olive oil; toothpicks stuck in a few pieces."
 
 #### Empanada gallega (zone 1)
 
@@ -1159,6 +1464,15 @@ on-premise glass bottles (same §), and the vessel table above.*
   pepper sofrito.
 - **Common model failure**: small Argentine crimped hand pies ("empanada"
   means both).
+- **Composition & proportions (§4.7)** — one square.
+  - **What dominates**: the filling layer (~1.5–2 cm) between two thin
+    crusts (~5–8 mm each); a square ~8–10 cm on a plate or napkin.
+    [LOW-MEDIUM]
+  - **Absent on purpose**: crimped half-moon shapes, sauces.
+  - **Prompt-ready line**: "A square slice of a large flat Galician pie,
+    about the can's height across, thin golden egg-washed top crust with
+    a strip of dough decoration, the cut side showing a reddish, oily
+    onion-and-pepper filling with flakes of tuna between two thin crusts."
 
 #### Fabada asturiana (zone 1)
 
@@ -1172,6 +1486,18 @@ on-premise glass bottles (same §), and the vessel table above.*
   pork belly pale and wobbly.
 - **Common model failure**: small, dark, sweet US baked beans; a crusted
   cassoulet.
+- **Composition & proportions (§4.7)** — individual cazuela.
+  - **What dominates**: **beans** (~60–70% of the surface) — large
+    ivory fabes ~2.5–3 cm long; the compango (1–2 chorizo rounds or
+    chunks, 1 slice of morcilla, 1 piece of pork belly) sits on top as
+    accents or is served on a separate plate. Broth reaches just below the
+    top layer of beans. [EDITORIAL]
+  - **Absent on purpose**: tomato sauce, a crust, small dark beans.
+  - **Prompt-ready line**: "An earthenware bowl of large, plump, creamy
+    white beans, each nearly half the can's width, in a loose orange-
+    tinted broth with fat droplets, topped with a few glossy red chorizo
+    slices, a slice of near-black blood sausage and a piece of pork
+    belly."
 
 #### Cachopo (zone 1, Asturias)
 
@@ -1192,6 +1518,17 @@ on-premise glass bottles (same §), and the vessel table above.*
   cross-section shows thin pale meat, a pink jamón layer, and molten,
   stretching cheese.
 - **Common model failure**: a normal-size schnitzel.
+- **Composition & proportions (§4.7)** — one cachopo.
+  - **What dominates**: **the breaded cutlet itself**, ~30 cm+ long,
+    ~2–3 cm thick in total, overhanging a 26–28 cm plate; fries and 2–3
+    roasted pepper strips on a separate plate or tucked at one edge.
+    Cut face: thin pale veal top and bottom (~5 mm each), a pink jamón
+    layer, molten cheese. [MEDIUM for size, see above]
+  - **Absent on purpose**: sauces, salad heaps.
+  - **Prompt-ready line**: "A huge golden breaded cutlet, wider than the
+    dinner plate it sits on and about three cans across, cut open at one
+    end to show two thin layers of pale veal around pink cured ham and
+    stretching melted cheese; a pile of chips beside it."
 
 #### Cocido madrileño (zone 6)
 
@@ -1210,6 +1547,19 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Cross-file**: a shared ancestor of `uruguay.md`'s separately served
   puchero (§5.2).
 - **Common model failure**: a single bowl of mixed stew.
+- **Composition & proportions (§4.7)** — the three vuelcos.
+  - **Vuelco 1**: soup plate of clear golden broth with fine noodles, the
+    noodles filling about a third of the depth. **Vuelco 2**: platter of
+    chickpeas (the bulk, ~60%), with boiled potato, carrot and cabbage.
+    **Vuelco 3**: platter of meats — a chunk of beef shank, a piece of
+    chicken, 2–3 chorizo pieces, 2–3 morcilla slices, pork belly, a
+    tocino slab, a bone. [MEDIUM-HIGH for the three-part structure;
+    counts EDITORIAL]
+  - **Staging**: pick one vuelco per shot or show them in sequence; never
+    one bowl with everything mixed.
+  - **Prompt-ready line (vuelco 2)**: "An oval platter heaped mostly with
+    plump golden-beige chickpeas, with boiled potato halves, carrot
+    lengths and soft pale green cabbage beside them."
 
 #### Gazpacho vs. salmorejo (zone 5)
 
@@ -1228,6 +1578,17 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Scope note [EDITORIAL]**: gazpacho in a glass is food. Show a spoon,
   garnish, or croutons so it doesn't read as juice or a second drink.
 - **Common model failure**: hot tomato soup; chunky salsa.
+- **Composition & proportions (§4.7)**.
+  - **Gazpacho**: liquid fills a tumbler to ~80% (or a small ~100 mL
+    glass); garnish is tiny (~5 mm) dice of cucumber, pepper and bread on
+    a side plate or a spoonful on top — a small accent. [EDITORIAL]
+  - **Salmorejo**: a 12–15 cm bowl filled to ~1 cm below the rim; topping
+    is sparse — a spoonful of chopped egg and 3–5 small jamón shards
+    clustered in the centre, a thread of oil. [EDITORIAL]
+  - **Prompt-ready line (salmorejo)**: "A small shallow bowl of thick,
+    velvety deep-orange cold tomato cream holding spoon ridges, with a
+    small cluster of chopped hard-boiled egg and a few shards of cured
+    ham in the centre and a thin thread of olive oil."
 
 #### Pescaíto frito + espetos (zone 5)
 
@@ -1252,6 +1613,19 @@ on-premise glass bottles (same §), and the vessel table above.*
 - **Texture**: pescaíto coating thin, pale-gold, matte-crisp; tails and
   fins visibly crisp.
 - **Common model failure**: thick-battered UK-style fish; neat fillets.
+- **Composition & proportions (§4.7)**.
+  - **Pescaíto**: a mixed plate is mostly small whole fish (15–25
+    anchovies or small fish ~8–12 cm, often fanned by the tails) with a
+    few pieces of cuttlefish or squid; 1–2 lemon wedges; on a paper
+    cone or oval plate. [EDITORIAL]
+  - **Espeto**: one cane with 5–6 sardines (~15–18 cm each) threaded
+    through, laid on a plate; skins charred and blistered; coarse salt.
+    [MEDIUM]
+  - **Absent on purpose**: thick batter, tartar sauce, fillets.
+  - **Prompt-ready line (espeto)**: "A plate with five whole sardines
+    threaded crosswise on a thin cane, each a little longer than the can,
+    skins silver and blistered black in patches from wood fire, coarse
+    salt crystals, a beach behind softly out of focus."
 
 #### Torreznos (zone 6, Soria)
 
@@ -1270,6 +1644,14 @@ on-premise glass bottles (same §), and the vessel table above.*
   and pink-brown meat, visible from the side; a glistening edge.
   [CONFIDENCE: HIGH for the puffed-crust description]
 - **Common model failure**: flat bacon rashers.
+- **Composition & proportions (§4.7)** — a tapa.
+  - **What dominates**: the puffed crackling crown (~1–1.5 cm of the
+    height), over alternating bands of fat and meat; 3–5 strips on a
+    small plate, standing on their sides or lying. [EDITORIAL]
+  - **Prompt-ready line**: "Four thick strips of fried pork belly, each
+    about half the can's height, on a small plate, the skin puffed into a
+    blistered, glassy golden crackling crown over clear bands of pale fat
+    and pink-brown meat."
 
 #### Calçots (zone 3, winter–spring)
 
@@ -1283,6 +1665,14 @@ on-premise glass bottles (same §), and the vessel table above.*
   coarse, brick-orange, nutty sauce in a bowl.
 - **Staging**: bibs are authentic but add clutter; keep any wrapping
   newspaper unreadable. Beverage leak: exclude the porrón wine jug.
+- **Composition & proportions (§4.7)** — a calçotada serving.
+  - **What dominates**: a pile of 10–20 blackened calçots on a roof tile
+    or wrapped in paper; a bowl of romesco (~10–12 cm) is the only
+    accompaniment in frame; one or two shown peeled. [EDITORIAL]
+  - **Prompt-ready line**: "A curved terracotta roof tile piled with long
+    spring onions charred black and ashy, each about two cans long, one
+    peeled to its soft glossy white-and-pale-green centre, beside a bowl
+    of coarse brick-orange nut sauce."
 
 #### Serranito and flamenquín (zone 5, compact)
 
@@ -1291,6 +1681,14 @@ on-premise glass bottles (same §), and the vessel table above.*
   fried into a log ~15–25cm long, sliced into rounds that show a spiral;
   with chips and mayo. [CONFIDENCE: MEDIUM — not individually re-searched
   this pass]
+- **Composition & proportions (§4.7)** — flamenquín.
+  - **What dominates**: the breaded log; served as 4–6 rounds (~2–3 cm
+    thick, ~4–5 cm across) each showing the jamón-and-loin spiral, with
+    fries and a little mayonnaise. [EDITORIAL] Serranito: see Bocadillo
+    family.
+  - **Prompt-ready line**: "Five thick rounds cut from a golden breaded
+    pork roll, each about the can's width, the cut faces showing a
+    spiral of pale pork loin and pink cured ham, with fries beside them."
 
 ### C. Grill & meat (compact)
 
@@ -1302,21 +1700,27 @@ higher than general knowledge supports.*
 - **Chuletillas de cordero**: tiny lamb chops ~8–10cm with the bone,
   piled on a plate. Crisp charred fat edges, a pink centre, coarse salt;
   eaten by the bone. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 chops fanned or piled on a 26–28 cm plate, bones outward; meat ~60%, charred fat rim ~20%; 3–5 fried potato pieces or nothing else. Absent: mint sauce, garnish. [EDITORIAL]
 - **Pinchos morunos**: paprika- and spice-marinated pork cubes on a
   ~20–25cm metal skewer; orange-red, glossy, charred edges. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: one skewer of 5–7 cubes (~2–2.5 cm) per portion, laid on a small plate with a bread slice under the tip. Absent: vegetables between the cubes. [EDITORIAL]
 - **Secreto ibérico**: a marbled pork cut, grilled and sliced into
   strips; a deep brown sear over a juicy, pink-white marbled interior.
   [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 strips (~1.5 cm wide, 8–10 cm long) fanned on a plate, half the plate; fries or piquillo peppers on the other half. Absent: sauces. [EDITORIAL]
 - **Chistorra/txistorra**: a thin (~2cm) long orange-red sausage fried in
   coils or pieces; glossy, blistered skin; on a small plate or a bread
   slice. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one coil ~12–15 cm across or 6–8 finger-length pieces on a small plate or a bread slice; a thin oil pool. Absent: garnish. [EDITORIAL]
 - **Chorizo and morcilla a la brasa**: grilled sausages, charred and
   split; morcilla near-black, crumbly and rice- or onion-studded at the
   cut. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 2–4 sausages or split halves on a board, bread alongside; sausage ~70% of the board area, bread the rest. [EDITORIAL]
 - **Chorizo a la sidra (zone 1)**: chorizo pieces simmered in cider and
   served sizzling in a cazuela, red oil pooling. The cider is a cooking
   ingredient, not a drink in frame. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 thick chorizo rounds (~2–3 cm) half-submerged in red-orange oil and cider in a small cazuela; bread beside. Absent: a cider bottle or glass. [EDITORIAL]
 
 ### D. Menú del día plates (compact)
 
@@ -1326,23 +1730,31 @@ level, since none of these surfaced as contested or surprising.*
 - **Lentejas**: brown lentils in a loose, glossy, brick-brown broth with
   chorizo rounds and carrot pieces, in a 22–24cm soup plate. [CONFIDENCE:
   MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: lentils ~70% of the bowl surface; 3–5 chorizo rounds and a few carrot pieces as accents; broth just covering. Absent: cream, herbs. [EDITORIAL]
 - **Pisto**: a soft, jammy, glossy red stew of peppers, onion, courgette,
   and tomato, often topped with a fried egg. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: the vegetable stew covers the plate or cazuela in a loose layer; one fried egg on top as the single accent. Pieces ~1–1.5 cm dice, soft and jammy. [EDITORIAL]
 - **Merluza a la romana**: battered hake fillets, puffy, pale-gold and
   smooth, with lemon and salad. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 2–3 battered fillets (~10–12 cm) take half the plate; a small green-lettuce-and-tomato salad or fries the other half; 1 lemon wedge. [EDITORIAL]
 - **San Jacobo**: ham and cheese between thin breaded pork or ham slices,
   fried; a kid and Gen Z favourite. Golden crumb, cheese oozing at the
   cut. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one golden breaded rectangle ~10–12 cm, cut to show oozing cheese and ham; fries alongside take about half the plate. [EDITORIAL]
 - **Filete con patatas**: a thin fried beef or pork fillet with chips and
   a fried egg or salad. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one thin fillet covering about half a 26–28 cm plate, chips the other half, optionally one fried egg on the chips. [EDITORIAL]
 - **Flan**: a glossy, smooth, pale-custard cylinder ~7–9cm tall, amber
   caramel pooling around it, tiny air bubbles at the sides, on a small
   plate. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: one unmoulded flan (~7–9 cm tall, a little shorter than the can) centred on a small plate with a thin caramel pool around it; nothing else, or one rosette of cream. [EDITORIAL]
 - **Arroz con leche**: creamy rice pudding in a small bowl with a
   cinnamon-dusted surface, sometimes a strip of lemon peel. [CONFIDENCE:
   MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: a small bowl filled to ~1 cm below the rim; a dusting of cinnamon covers the surface; one strip of lemon peel at most. [EDITORIAL]
 - **Natillas**: pale-yellow custard in a bowl with a biscuit on top.
   [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: a small bowl of custard filled near the rim; one round biscuit (María) on top, half-sunk; a cinnamon dusting. [EDITORIAL]
 
 ### E. Desserts & festival sweets (compact)
 
@@ -1350,12 +1762,15 @@ level, since none of these surfaced as contested or surprising.*
   glassy amber burnt-sugar crust that cracks into shards when tapped,
   over smooth pale-yellow custard. [CONFIDENCE: MEDIUM-HIGH — not
   individually re-searched this pass]
+  - *Composition & proportions (§4.7)*: the whole cazuelita surface is the burnt-sugar crust (~2 mm), cracked in one or two places with a spoon; nothing on top. [EDITORIAL]
 - **Tarta de Santiago**: an almond cake ~20–24cm across and ~3–4cm tall;
   dense, moist, slightly grainy crumb; powdered-sugar top with a
   stencilled cross silhouette in bare cake. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: one wedge (~1/8) on a plate, powdered sugar top showing part of the cross stencil; no cream or fruit. [EDITORIAL]
 - **Torrijas (Semana Santa)**: thick slices of bread soaked and fried;
   golden, caramelized crust over a custardy, wobbly interior; a sugar-
   cinnamon crust or honey gloss. [CONFIDENCE: MEDIUM-HIGH]
+  - *Composition & proportions (§4.7)*: one or two thick slices (~3 cm) per plate, glossy with honey or crusted with sugar-cinnamon; no fruit or ice cream. [EDITORIAL]
 - **Roscón de Reyes — corrected downward this pass; the scaffold's own
   30–40cm figure ran too large.** A dedicated recipe source gives an
   individual roscón's diameter as roughly **15–25cm**, with 20cm a
@@ -1371,10 +1786,12 @@ level, since none of these surfaced as contested or surprising.*
   sourced correction, though from recipe/retail-tier sources rather than
   a single authoritative standard] [SOURCE: [Virutas de Limón — Roscón
   de Reyes tradicional](https://www.virutasdelimon.com/roscon-de-reyes/); aggregated commercial roscón-size retail listings]
+  - *Composition & proportions (§4.7)*: the whole ring on a board or a few ~4–5 cm slices showing the cream band; candied fruit spaced around the top, not covering it. [EDITORIAL]
 - **Turrón and polvorones**: soft Jijona turrón — beige, oily-grainy nut
   paste; hard Alicante turrón — white nougat studded with whole almonds;
   polvorones — small, crumbly, powdery shortbreads in twisted paper
   wrappers (wrapper text blurred). [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: a small plate with 4–6 turrón bars/pieces (~3 × 1.5 cm) and 3–4 wrapped polvorones; no bars stacked high. [EDITORIAL]
 - **Coca de Sant Joan (zone 3, 23 June) — corrected this pass.** A long,
   flat, oval brioche-like pastry with rounded corners, traditionally
   twice as long as it is wide; a dedicated recipe source gives a
@@ -1383,34 +1800,44 @@ level, since none of these surfaced as contested or surprising.*
   than the scaffold's own 40×15–20cm estimate**, corrected here. Glossy
   crust topped with candied fruit, pine nuts, and sugar; cut into slices.
   [CONFIDENCE: MEDIUM] [SOURCE: [Cocinatis — Coca de San Juan](https://www.cocinatis.com/receta/coca-de-san-juan.html); [Bonviveur — Coca de San Juan](https://www.bonviveur.es/recetas/coca-de-san-juan)]
+  - *Composition & proportions (§4.7)*: one long oval coca on a board, or 3–4 slices; candied fruit pieces spaced every few cm, pine nuts scattered, sugar crust visible between. [EDITORIAL]
 - **Panellets (1 November, zone 3)**: small marzipan balls ~3–4cm, rolled
   in pine nuts toasted golden. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: 6–10 small balls on a plate or in a paper tray, pine-nut coated; nothing else. [EDITORIAL]
 - **Castañas asadas**: roasted chestnuts with split, charred, glossy-
   brown shells showing golden flesh, in a paper cone. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: a paper cone holding ~10–12 chestnuts, a few split open; nothing else. [EDITORIAL]
 - **Buñuelos**: buñuelos de viento — small, hollow, puffy golden balls
   ~3–4cm, sugar-dusted; Fallas buñuelos de calabaza — irregular, knotty
   rings, crisp outside. The chocolate cup is excluded. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: 8–12 small puffs in a paper cone or on a plate, sugar dusting; the chocolate cup excluded. [EDITORIAL]
 - **Rosquillas de San Isidro**: "tontas" are plain golden rings; "listas"
   are glazed with yellow-and-white icing; ~6–8cm. [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: 4–6 rings on a plate or paper, tontas and listas mixed if asked. [EDITORIAL]
 
 ### F. Snacks (compact)
 
 - **Pipas**: sunflower seeds in black-and-white striped shells, from a
   small bag; eaten on benches and in stadiums. Authentic detail: a small
   pile of split, empty shells beside the bag. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: one small bag and a small pile of 20–40 split empty shells beside it on a bench or step. [EDITORIAL]
 - **Frutos secos**: salted almonds, peanuts, and kikos (big, puffed,
   golden, crunchy corn kernels) in paper cones or bowls. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: a small bowl or paper cone (~8–10 cm) holding one kind of nut; not a mixed platter. [EDITORIAL]
 - **Vasito de fruta**: pre-cut fruit in a clear cup with a small fork.
   Show the chunks and the fork so it doesn't read as juice. [CONFIDENCE:
   MEDIUM]
+  - *Composition & proportions (§4.7)*: a clear cup filled with ~2 cm chunks of 2–3 fruits, a small plastic fork standing in it. [EDITORIAL]
 - **Pollo asado**: a whole rotisserie chicken with bronzed, glossy,
   crackly skin in a crimped foil tray (~25×20cm), with golden potatoes.
   [CONFIDENCE: MEDIUM]
+  - *Composition & proportions (§4.7)*: one whole bronzed chicken fills the foil tray; potatoes (~3–4 cm) tucked around it take about a third of the tray. [EDITORIAL]
 - **Papas arrugadas con mojo (Canaries)**: small potatoes ~3–5cm with
   wrinkled skins and a dusty white salt crust; red mojo (brick-orange,
   oily) and green mojo (herby green) in small bowls. [CONFIDENCE: HIGH]
+  - *Composition & proportions (§4.7)*: 8–15 small potatoes on a plate (~70% of it); two small bowls of red and green mojo beside; the salt crust visible on every potato. [EDITORIAL]
 
 ---
 
@@ -1420,8 +1847,9 @@ level, since none of these surfaced as contested or surprising.*
 
 > A small square aluminium table on a stone plaza in a Spanish city at
 > golden hour on a summer evening, long warm shadows, plane trees behind.
-> On the table: the classic red Coca-Cola can (original, not Diet Coke or
-> Coke Zero), a standard 330ml can (11.52cm tall, 6.61cm diameter), beaded
+> On the table: {HERO PRODUCT from the brief — here, for illustration, a
+> Coca-Cola Original can, not Zero Sugar or Light}, a standard 330ml can
+> (11.52cm tall, 6.61cm diameter), beaded
 > with condensation, beside a plain glass with clear ice cubes and a thin
 > lemon slice. Next to it, a small white saucer about 13cm across holding
 > four plump, glossy green olives in brine and a few thin, pale-golden
@@ -1437,8 +1865,8 @@ level, since none of these surfaced as contested or surprising.*
 > irregular potato chunks about 3cm across with jagged, crackly golden
 > corners and fluffy white interiors, glossy orange-red paprika-based
 > sauce spooned over the top (no tomato in the sauce itself) — and a
-> small bread basket. Beside the plate: the classic red Coca-Cola can
-> (original, not Diet Coke or Coke Zero), a standard 330ml can. Behind,
+> small bread basket. Beside the plate: {HERO PRODUCT from the brief —
+> e.g. a Coca-Cola Original 330ml can, not Zero Sugar or Light}. Behind,
 > softly out of focus: fruit stacked in pyramids and hanging hams; stall
 > signs and price cards visible only as blurred, unreadable colour. No
 > juice cups, no other drinks. Nothing held in a hand.
@@ -1450,6 +1878,13 @@ level, since none of these surfaced as contested or surprising.*
 ---
 
 ## GAP LOG
+
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md`
+  §4.7) are mostly editorial synthesis.** Piece sizes are sourced where
+  tagged; counts and surface shares are reasoned from recipe quantities and
+  serving norms, tagged [EDITORIAL], and should be checked against image
+  tests — two or more generations per prompt-ready line — before being
+  treated as reliable.
 
 - **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
   expected in the coming days**, per the orchestrating session. Hold off on

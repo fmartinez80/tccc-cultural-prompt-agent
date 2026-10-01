@@ -111,6 +111,15 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A generic national "sourdough" loaf sold at a supermarket bakery elsewhere in the country — this file's own sourced position is that the tang/texture combination above is a genuinely distinguishable, checkable West Coast marker (sharper tang, more open/craggy crumb), not merely a marketing label, though the underlying bacterium is not literally geographically exclusive (see the honest caveat above).
 - Confidence: HIGH for the microbiology, tang/crumb characteristics, and cultural association; MEDIUM-HIGH for Boudin's specific 1849/miner-supplied-starter narrative.
 - Sources: [Wikipedia: Fructilactobacillus sanfranciscensis](https://en.wikipedia.org/wiki/Fructilactobacillus_sanfranciscensis); [KQED — What Makes San Francisco Sourdough Unique?](https://www.kqed.org/news/11401794/what-makes-san-francisco-sourdough-unique); [Boudin Bakery — Our History](https://boudinbakery.com/our-story/our-history/); [7x7 Bay Area — Boudin Bakery's 160-Year-Old Mother Dough](https://www.7x7.com/boudin-bakery-history-of-mother-dough-1786690805.html); [The Takeout — Sourdough Bread From San Francisco Is Built Different](https://www.thetakeout.com/2086169/sourdough-bread-san-francisco-difference/); [PopSci — The secret to San Francisco's famous sourdough](https://www.popsci.com/why-san-francisco-sourdough-tastes-so-good/)
+- Composition & proportions (§4.7) — one boule on a board, or one chowder bread bowl:
+  - What dominates: **the crust.** Whole-loaf view: dark, flour-dusted crust is ~85–90% of what shows; the pale open crumb appears only on one cut end and on 2–3 slices. Bread-bowl view: ivory chowder fills ~60% of the top view, the crust rim ~40%, the cut-off lid alongside. [EDITORIAL]
+  - Components: boule 13–20 cm across, 8–10 cm tall (this entry's §4.5 figures) — 2–3× the can's width, lower than the can; 1–3 score lines/an "ear" 8–12 cm long across the top; slices 1.5–2 cm thick, 0–3 cut, fanned forward; bread bowl 10–13 cm wide (about 1.5–2× the can's width), its lid 8–10 cm across leaning against it. [MEDIUM for loaf/bowl size per entry; counts EDITORIAL]
+  - Arrangement: loaf whole, or cut once near one end with 2–3 slices fanned forward; a few crumbs on the board; no knife held in a hand.
+  - Vessel fill/depth: boule takes ~60–70% of a 30–35 cm board; bread bowl filled to ~1 cm below its own rim, on a small plate.
+  - Served portion: a slice or torn chunk on a side plate, or one bread bowl per person.
+  - State cues: matte, crackly crust; flour caught in the score lines; crumb faintly moist; chowder steaming.
+  - Absent on purpose: seed or sesame toppings, butter rosettes, herb garnish, a glossy egg-washed crust, uniform sandwich-loaf slices.
+  - Prompt-ready line: "A round sourdough loaf about twice the can's width and a little over half its height, on a worn wooden board: thick, deeply browned, matte crust dusted with flour, one curling score line across the top. One end is cut, showing a pale cream crumb full of irregular large and small holes; two thick slices lean forward. A few crumbs on the board. No seeds, no butter, no herbs."
 
 ### Dish: Baja-style fish taco (full authoritative entry — supersedes `us.md`'s national-index Tacos pointer for the Baja-style variant)
 
@@ -127,6 +136,20 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A Tex-Mex hard-shell taco (`us-texas.md`) — ruled out by protein (ground beef, not fish), shell (fried corn shell vs. soft tortilla), and garnish (yellow cheese/sour cream/iceberg lettuce vs. cabbage/crema). A Sonoran hot dog or any Arizona Sonoran-Mexican dish (`us-arizona.md`) — ruled out entirely by format (not a hot dog) and by the complete absence of flour tortillas, which define the Arizona register instead.
 - Confidence: HIGH overall for construction and the San Diego popularization story; MEDIUM-HIGH for the specific San Diego-vs-Baja batter/fish-type distinction.
 - Sources: [San Diego Magazine — Ralph Rubio Is the Fish Taco King](https://sandiegomagazine.com/features/ralph-rubio-is-the-fish-taco-king/); [Rubio's — April 5 is Ralph Rubio Day in San Diego](https://rubios.com/april-5-is-ralph-rubio-day-in-san-diego/); [City Tacos SD — Best Fish Tacos in San Diego: Grilled vs. Fried Baja Style](https://citytacossd.com/best-fish-tacos-san-diego-grilled-vs-fried/); [San Diego Pepper Company — San Diego vs. Baja Fish Tacos](https://sdpeppercompany.com/san-diego-vs-baja-fish-tacos-whats-the-real-difference/); [Tijuana Flats — What Are Baja Fish Tacos?](https://www.tijuanaflats.com/blog/what-are-baja-fish-tacos)
+- Composition & proportions (§4.7) — an order of 2–3 battered (default) tacos:
+  - What dominates: per taco from above, **cabbage ~40%**, fish ~30% (golden batter visible at the ends and through the gaps), tortilla edge ~20%, crema/salsa ~10%. Two or three tacos take ~70% of a 23–26 cm plate or a paper boat; one lime wedge is the only extra. [EDITORIAL]
+  - Components:
+    - Tortilla: corn, 11–15 cm (entry), doubled — 2 per taco; soft, folded into a U, with char-blistered spots.
+    - Fish: **one battered plank per taco**, ~10 cm long, 2.5–4 cm wide, ~40–55 g — about the can's width wide and a little shorter than the tortilla. [MEDIUM — recipe consensus, Brian Lagerstrom / foodiecrush (via search)] Lies lengthwise in the fold, both ends visible.
+    - Cabbage: finely shredded raw, pale green-white, a loose crown 2–3 cm high over the fish.
+    - Crema: one thin zigzag across the cabbage.
+    - Salsa/pico: about a tablespoon, red and green flecks.
+    - Lime: 1 wedge per plate, ~5–6 cm.
+  - Arrangement: tacos side by side, open side up, leaning slightly on each other.
+  - Served portion: 2–3 tacos per person (entry).
+  - State cues: batter dry-crisp, not oily; cabbage crisp and bright; faint steam from the fish.
+  - Absent on purpose: yellow shredded cheese, iceberg lettuce, a sour-cream dollop, hard shells, flour tortillas, a guacamole mound, a rice-and-beans side (not default).
+  - Prompt-ready line: "Two small soft corn tortilla tacos, each about as wide as the can is tall, side by side on a white plate. In each, one finger-length piece of thin, craggy, deep-golden battered white fish under a loose mound of finely shredded raw pale cabbage, a thin zigzag of white crema and a spoonful of fresh salsa. One lime wedge. No cheese, no lettuce, no hard shells."
 
 ### Dish: Burrito — California burrito (San Diego) and Mission-style burrito (San Francisco), a genuine internal-California §4.2/§4.6 regional-form-variation pair
 
@@ -160,6 +183,23 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: The Mission-style burrito (this entry's own sibling, above) — the presence of visible fry pieces in cross-section and the paper (not foil) wrap are the two checkable differentiators. A generic Tex-Mex burrito (not independently documented in `us-texas.md` as a major anchor dish there) — ruled out by the fries alone, an ingredient with no Tex-Mex equivalent.
 - Confidence: HIGH for construction; MEDIUM for the exact inventor/restaurant claim, genuinely contested per the variant table above.
 - Sources: (as cited in the variant table above)
+- Composition & proportions (§4.7) — one burrito, cut:
+  - What dominates: uncut, the toasted tortilla is all that shows. **Cut face: carne asada ~35–40%, fries ~30%, melted cheese ~15%, guacamole/sour cream ~15%** — reasoned from home-recipe ratios of ~4 oz steak : 2 oz fries : 1 oz cheese per burrito [MEDIUM for the ratio — Cheat Day Design / Hilda's Kitchen (via search); shares EDITORIAL].
+  - Component table:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Burrito | 18–23 cm long, 6–9 cm thick (entry); restaurant versions weighed ~0.55–0.68 kg (1 lb 3 oz–1 lb 8 oz) at four San Diego shops [MEDIUM — Axios San Diego, Feb 2026 (via search)] | 1 per person | Flour tortilla toasted golden with brown griddle spots | Seam down on paper or a plate |
+    | Fries | ~1 cm thick, 3–7 cm pieces | ~10–15 visible in the cut face | Soft gold, a few crisp ends | Scattered through the filling, not a layer |
+    | Carne asada | Chopped, 1–2 cm bits | Many | Dark brown, charred edges | Throughout |
+    | Cheese | Melted strands | — | Yellow-orange | Binding fries and meat |
+    | Guacamole / sour cream | Smears | — | Pale green / white streaks | Near the centre |
+
+  - Arrangement: one half faces the camera cut side forward, the other half out of frame (entry's §7.5 rule); paper wrapper folded back.
+  - Served portion: one burrito per person; at most a small cup of salsa beside it.
+  - State cues: steam from the cut face, cheese pulling slightly, tortilla dry-toasted outside.
+  - Absent on purpose: rice, beans, foil, lettuce, a smothering sauce, a chip pile.
+  - Prompt-ready line: "One thick flour-tortilla burrito, about one and a half times the can's height long and about the can's width thick, toasted golden with brown griddle spots, cut in half; one half faces the camera on its paper wrapper. The cut face is a lumpy mix of chopped charred steak, soft golden French fry pieces and melted cheese, with streaks of guacamole and sour cream. No rice, no beans, no foil, no lettuce."
 
 #### Sub-entry: Mission-style burrito (San Francisco)
 
@@ -174,6 +214,14 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: The California burrito (this entry's own sibling, above) — the foil wrap and the absence of any fries are the two checkable differentiators. A generic nationally-sold fast-casual burrito (the Chipotle-style format this dish directly inspired, per the cultural-export note above) — a real, sourced lineage but a visually distinct, smaller-format, non-foil-wrapped sibling in its own right, not interchangeable with this dish for an explicitly San Francisco/Mission-set scene.
 - Confidence: HIGH for construction and the foil-wrap/size markers; MEDIUM for the exact inventor/restaurant claim, genuinely contested between the two most commonly cited taquerias.
 - Sources: (as cited in the variant table above)
+- Composition & proportions (§4.7) — one foil-wrapped burrito:
+  - What dominates: exterior — **foil ~60–70%** of the burrito's visible surface, exposed tortilla end ~30–40%. Cut face (if shown): rice ~30%, beans ~25%, meat ~25%, salsa/guacamole/sour cream/cheese ~20%. [EDITORIAL]
+  - Components: burrito 23–28 cm long, 7.5–10 cm thick (entry) — about twice the can's height; finished weight commonly ~340–450 g, with outliers near 0.9 kg; at least one claimant taqueria custom-makes a 13-inch (33 cm) tortilla [MEDIUM — SFGate "The Silver Torpedo", calpines.com (via search)]. Foil crinkled, peeled back 5–8 cm from one end. Rice grains orange-tinged; beans whole, ~1 cm; meat chopped into 1–2 cm pieces. [counts EDITORIAL]
+  - Arrangement: lying on a paper-lined tray, foil end peeled back; if cut, one half shows its horizontal layers, the other half out of frame.
+  - Served portion: one per person; at most a small cup of salsa.
+  - State cues: tortilla pale, soft and steamed (no griddle char), taut with no air gaps; foil shiny and wrinkled.
+  - Absent on purpose: fries, a griddle-toasted exterior, sauce or cheese on top, lettuce sticking out.
+  - Prompt-ready line: "A huge foil-wrapped burrito, about twice the can's height long and a bit wider than the can, lying on a paper-lined tray. Shiny crinkled foil peeled back from one end shows a pale, soft, steamed flour tortilla packed taut. The cut end reveals distinct layers: orange-tinged rice, whole beans, chopped grilled meat, flecks of salsa, guacamole and sour cream. No fries, no sauce on top."
 
 ### Dish: Cobb salad
 
@@ -190,6 +238,27 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A generic "chef's salad" (superficially similar composed-protein salad format, but a chef's salad typically uses julienned deli meats and cheese rather than the Cobb's specific chicken/bacon/blue-cheese/avocado combination, and does not carry the same strict row-by-row presentation convention as a defining, name-brand rule) — the specific six-ingredient list and the strict row presentation are the checkable differentiators.
 - Confidence: HIGH for composition and plating convention; MEDIUM for the precise embellishment details of the origin story.
 - Sources: [Tasting Table — How The Original Cobb Salad Was Invented](https://www.tastingtable.com/885626/how-the-original-cobb-salad-was-invented/); [Wikipedia: Cobb salad](https://en.wikipedia.org/wiki/Cobb_salad); [RecipeTin Eats — The mighty Cobb Salad](https://www.recipetineats.com/cobb-salad/); [Celebrate California — A Salad Born in Hollywood's Golden Age](https://celebratecalifornia.library.ca.gov/a-salad-born-in-hollywoods-golden-age/)
+- Composition & proportions (§4.7) — one entrée plate:
+  - What dominates: **toppings cover ~80–85% of the lettuce from above**, lettuce showing only at the rim; six rows of roughly equal width (~13–17% each) — no single topping dominates. [EDITORIAL]
+  - Component table (one serving):
+
+    | Component | Real size | Amount | Look | Where it sits |
+    |---|---|---|---|---|
+    | Chopped lettuce | 1–2 cm pieces | A bed 2–4 cm deep | Pale and mid green | Edge to edge underneath |
+    | Tomato | 1–1.5 cm dice | ~½ cup | Bright red | One row |
+    | Bacon | 0.5–1.5 cm crumbles | 2–4 strips' worth | Matte, crisp, red-brown | One row |
+    | Chicken | 1.5–2 cm dice | ~110–170 g (4–6 oz) | Pale golden-tan | One row |
+    | Egg | Chopped or sliced | 1–2 eggs | Yellow and white | One row |
+    | Avocado | 1.5 cm dice or thin slices | ~½ avocado | Bright pale green | One row |
+    | Blue cheese | 0.5–1.5 cm crumbles | ~30–55 g (1–2 oz) | White, blue-veined | One row |
+
+    [MEDIUM for amounts — per-serving recipe norms, Natasha's Kitchen / One Dish Kitchen (via search); sizes EDITORIAL]
+  - Arrangement: six parallel stripes, each 3–5 cm wide, running across the plate, contrasting colours adjacent.
+  - Vessel fill/depth: two-thirds to three-quarters of a 30 cm plate (entry), 4–6 cm high.
+  - Served portion: one plate per diner; vinaigrette (~60 mL) in a small ramekin beside it.
+  - State cues: crisp, dry-looking surface; avocado unbrowned; bacon matte, not greasy.
+  - Absent on purpose: croutons, a tossed mix, ranch poured over, shredded cheddar, corn or black beans, julienned deli meats.
+  - Prompt-ready line: "A wide white plate covered in chopped crisp lettuce, topped with six neat parallel stripes, each about half the can's width: diced red tomato, crumbled crisp bacon, diced pale golden chicken, chopped hard-boiled egg, diced green avocado and crumbled white-and-blue cheese. Lettuce peeks out only at the edges. A small ramekin of red-wine vinaigrette beside the plate. No croutons, nothing tossed together."
 
 ### Dish: French dip sandwich (a genuinely contested-origin LA dish, treated with the same honest-disclosure standard this project applies to the chimichanga, gyro, and Reuben)
 
@@ -206,6 +275,14 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A Philly cheesesteak (`us.md`'s existing entry, → `us-mid-atlantic.md`) — ruled out by the absence of any dipping jus and by the cheesesteak's chopped/griddled (not shaved-and-piled) meat preparation. An Italian beef sandwich (`us.md`'s existing entry, → `us-midwest.md`) — the closest confusable, since Chicago's Italian beef is also thin-shaved beef on a roll, sometimes "wet"-dipped in jus; the checkable differentiator is that Italian beef is customarily topped with sweet peppers or giardiniera and dipped by the kitchen before serving (no separate dip-it-yourself cup), while a French dip is served with its jus in a separate cup for the diner's own dipping and carries no pepper garnish as a defining feature.
 - Confidence: HIGH for the dish's composition and the genuinely unresolved origin dispute; MEDIUM for each restaurant's specific narrative detail.
 - Sources: [Snopes — French Dip Sandwich Origins](https://www.snopes.com/fact-check/french-dip/); [Wikipedia: French dip](https://en.wikipedia.org/wiki/French_dip); [Wikipedia: Philippe the Original](https://en.wikipedia.org/wiki/Philippe_the_Original); [Tasting Table — Who Really Invented The French Dip?](https://www.tastingtable.com/1896889/who-invented-french-dip-beef-sandwich-california-local/); [Chowhound — How LA's Oldest Eatery Helped Create One Of America's Most Iconic Sandwiches](https://www.chowhound.com/1922098/coles-los-angeles-french-dip-sandwich-history/)
+- Composition & proportions (§4.7) — one sandwich with its jus:
+  - What dominates: **the sandwich takes ~65–70% of the plate**, the jus cup ~15% of the setting. Side view of a half: bread ~55–60% of the height, meat ~40%. [EDITORIAL]
+  - Components: roll 15–20 cm long, 7.5–10 cm wide, sandwich 6–7.5 cm tall (entry), cut into 2 halves; beef ~115–170 g (4–6 oz) per sandwich, shaved 1–2 mm thin and folded loosely into a 2.5–4 cm layer; jus about ½ cup (~120 mL) per sandwich [MEDIUM — recipe norms, Sip and Feast and others (via search)], in a small cup or ramekin.
+  - Arrangement: one half cut face toward the camera, the other behind it or out of frame (entry rule); the jus cup beside the plate.
+  - Served portion: one sandwich (two halves) per person.
+  - State cues: cut edge darkened 1–2 cm deep where dipped, rest of crust dry and golden; jus steaming, translucent brown with a few fat beads.
+  - Absent on purpose: peppers or giardiniera, cheese sauce, thick gravy, a soaked-through roll, lettuce and tomato.
+  - Prompt-ready line: "A crusty golden French-roll sandwich, about one and a half times the can's height long and half its height tall, cut in half with one half facing the camera: thin shaved slices of reddish-brown roast beef piled loosely, the cut edge of the bread darkened where it soaked up juice. Beside it, a small cup of thin, clear brown beef jus, steaming. No peppers, no gravy, no lettuce."
 
 ### Dish: California-style drive-in/walk-up burger, "animal style" garnish convention (trademark-genericized per `country-file-schema.md` §7.5)
 
@@ -222,6 +299,14 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: `us.md`'s already-documented smashburger entry — ruled out by the mustard-grilled-patty technique and the specific pink-sauce/grilled-onion/extra-pickle combination, none of which are part of the smashburger's own defining technique (a hard smash for a lacy, crisp crust). The classic stacked cheeseburger (`us.md`) — ruled out by the same mustard-cooking and sauce/onion combination, which a plain classic cheeseburger does not carry by default.
 - Confidence: HIGH for the general phenomenon's California origin and construction; the exact founding chain and its own specific branding are deliberately not reproduced here per the genericization requirement.
 - Sources: [Fox News — In-N-Out says Animal Style burger started with a 1960s customer request](https://www.foxnews.com/food-drink/in-n-out-popular-burger-style-started-customer-request-decades-ago); [KTLA — What the 'secret menu' really looks like](https://ktla.com/news/consumer-business/the-secret-menu-of-in-n-out-burger-revealed/)
+- Composition & proportions (§4.7) — one burger in its paper wrap:
+  - What dominates: side profile — **bun ~45%**, patty with its mustard sear ~20%, pink spread + grilled onions + pickles together ~35%, visible mainly where they spill at the edge. [EDITORIAL]
+  - Components: bun ~10 cm across (about 1.5× the can's width), soft, lightly toasted; patty 7.5–9 cm (entry), ~1 cm thick, 1 (or 2); grilled onions chopped, a ~1 cm glossy brown layer; pickles 2–4 chips, 3–4 cm; spread drips ~0.5 cm past the bun edge. Whole burger ~6 cm tall — about half the can's height. [EDITORIAL; patty size LOW-MEDIUM per entry]
+  - Arrangement: half-wrapped in plain paper, front face showing the spill of sauce and onion.
+  - Served portion: one burger per person; fries in a paper tray are common alongside but not part of the convention. [EDITORIAL]
+  - State cues: glossy translucent onions, mottled dark caramelized patty edge, bun soft.
+  - Absent on purpose: a thick pub patty, a shiny brioche bun, bacon, a lacy smashburger crust, chain colours, logos or any printed text on the wrapper.
+  - Prompt-ready line: "A small, messy griddle burger, about one and a half times the can's width and half its height, half-wrapped in plain white paper. A thin beef patty with a mottled, dark, mustard-caramelized sear, glossy browned grilled onions, a few pickle slices and a pink tangy spread dripping just past the edge of the soft toasted bun. No bacon, no thick patty, no logos or printed text."
 
 ### Dish: Kogi-style Korean-Mexican fusion taco (a real, dated LA food-truck-movement origin)
 
@@ -238,6 +323,14 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A standard Cal-Mex or Tex-Mex beef taco — ruled out by the double-caramelized, glossy Korean-BBQ-style meat preparation (distinct from a plain grilled carne asada or ground beef filling) and by the napa-cabbage/scallion slaw, which has no equivalent in either Cal-Mex or Tex-Mex taco traditions. Barbacoa (`us-texas.md`) — ruled out by both protein preparation (grilled/caramelized short rib, not pit-cooked shredded beef) and by the presence of a crunchy slaw, absent from barbacoa entirely.
 - Confidence: HIGH for the origin history, construction, and LA food-truck-movement significance.
 - Sources: [Wikipedia: Kogi Korean BBQ](https://en.wikipedia.org/wiki/Kogi_Korean_BBQ); [Fast Company — How Roy Choi Built An Empire From One Beat-Up Taco Truck](https://www.fastcompany.com/3038398/how-roy-choi-built-a-food-empire-from-one-beat-up-taco-truck); [National Geographic — How One Korean Taco Truck Launched an $800 Million Industry](https://www.nationalgeographic.com/magazine/article/food-trucks-urban-trends-cuisine); [MasterClass — Roy Choi's Kogi Short Rib Tacos Recipe](https://www.masterclass.com/articles/korean-short-rib-tacos-recipe-by-roy-choi)
+- Composition & proportions (§4.7) — an order of 2–3 tacos:
+  - What dominates: per taco from above, **slaw ~45%**, meat ~30%, tortilla edge ~15%, relish and salsa ~10%. [EDITORIAL]
+  - Components: doubled corn tortillas 11–13 cm (entry) — about the can's height across; chopped short rib in 1–2 cm pieces, ~50–70 g per taco; slaw a loose crown 3–4 cm high of pale napa and green scallion shreds spilling over the edges; a spoonful of chopped cilantro-onion; a thin drizzle of red-orange salsa. [EDITORIAL]
+  - Arrangement: 2–3 tacos in a row in a paper tray or on foil, slaw overhanging.
+  - Served portion: 2–3 per order (entry).
+  - State cues: meat glossy and sticky; slaw crisp, not wilted; tortillas griddle-blistered.
+  - Absent on purpose: yellow cheese, sour cream, guacamole, iceberg lettuce, hard shells, rice.
+  - Prompt-ready line: "Two small doubled corn-tortilla tacos, each about as wide as the can is tall, side by side in a paper tray. Each holds chopped dark, glossy, sticky caramelized short rib, piled high with a loose crunchy slaw of pale napa cabbage and green scallion spilling over the edges, a scatter of chopped cilantro and onion and a thin drizzle of red-orange salsa. No cheese, no sour cream."
 
 ### Dish: Banh mi (Vietnamese-American, West Coast-concentrated)
 
@@ -254,6 +347,14 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A standard American deli sub or hoagie (`us.md`'s existing Bread Reference/Deli Culture sections) — ruled out by the specific pickled-vegetable/cilantro/chili garnish set, which has no deli-sandwich equivalent, and by the distinctly lighter, more fragile Vietnamese baguette versus a denser American sub roll.
 - Confidence: HIGH for construction and West Coast concentration; MEDIUM for the exact staging-relevance framing relative to Houston's own comparable Vietnamese-American population.
 - Sources: [Wikipedia: Bánh mì](https://en.wikipedia.org/wiki/B%C3%A1nh_m%C3%AC); [Full of Plants — Authentic Banh Mi Bread](https://fullofplants.com/how-to-make-banh-mi-vietnamese-baguette/); [Saveur — Inside a Banh Mi Sandwich](https://www.saveur.com/article/Kitchen/Banh-Mi-Sandwich-Ingredients); [Wikipedia: Little Saigon, Orange County](https://en.wikipedia.org/wiki/Little_Saigon,_Orange_County)
+- Composition & proportions (§4.7) — one sandwich:
+  - What dominates: side view — **bread ~60%**, filling ~40% (protein ~15%, pickled carrot/daikon ~10%, cucumber ~5%, cilantro ~5%, chili under 5%). From above, cilantro and pickle strands poke out along the split. [EDITORIAL]
+  - Components: baguette 18–20 cm long (entry), 6–7 cm wide, 5–7 cm tall, split along one side (hinged, not cut through); pickled carrot/daikon julienne 5–7 cm × ~3 mm, a 1–2 cm bundle; 2–3 cucumber spears ~10 cm; 3–5 cilantro sprigs; 3–6 chili rounds; pork or cold cuts layered ~1–1.5 cm with a pâté smear. [EDITORIAL]
+  - Arrangement: on paper or a small plate; if cut crosswise for display, one half shows its cross-section to the camera.
+  - Served portion: one sandwich per person.
+  - State cues: crackly crust with shatter lines and a few flakes on the paper; pickles moist.
+  - Absent on purpose: lettuce, tomato slices, cheese, a dense sub roll, sesame seeds.
+  - Prompt-ready line: "A light, pale-golden Vietnamese baguette sandwich about one and a half times the can's height long, split along its side, on white paper. The thin crackly crust shows small shatter lines and a few flakes. Bright orange-and-white pickled carrot and daikon strands, long pale cucumber spears, green cilantro sprigs and red chili slices poke out above layered pork. No lettuce, no tomato, no cheese."
 
 ### Dish: Pho (Vietnamese-American, West Coast-concentrated)
 
@@ -270,6 +371,15 @@ The West Coast/California file clears the "would swapping this region's norms in
 - Common confusion: A generic Chinese-American noodle soup (wonton soup, already documented in `us.md`'s Chinese-American takeout entry) — ruled out by pho's specific garnish-on-the-side service convention (absent from Chinese-American wonton soup, which is typically served fully composed) and by its specific broth-spice profile (star anise, charred onion/ginger) and larger bowl format.
 - Confidence: HIGH for the population-concentration facts and general construction/service convention; MEDIUM for the exact bowl-size figures and for any West-Coast-specific broth-style variation, which was not independently confirmed this pass.
 - Sources: [Wikipedia: Little Saigon, Orange County](https://en.wikipedia.org/wiki/Little_Saigon,_Orange_County); [CSUF News — Understanding Little Saigon](https://news.fullerton.edu/spotlight/csuf-economists-analyze-little-saigon-largest-vietnamese-community-outside-of-southeast-asia/); [HowdyKitchen — How Big is a Bowl of Pho?](https://howdykitchen.com/how-big-is-a-bowl-of-pho/)
+- Composition & proportions (§4.7) — one bowl with its garnish plate:
+  - What dominates: in the bowl from above, **broth surface ~40%**, meat ~25%, noodles showing ~20%, scallion/onion/cilantro ~15%. Garnish plate: sprouts ~50%, basil ~30%, lime and chili ~20%. [EDITORIAL]
+  - Components: bowl ~19 cm (7.5 in) wide, ~8 cm deep, holding ~600 mL (20 fl oz) broth [MEDIUM — HowdyKitchen (via search), consistent with entry]; ~170 g (6 oz) cooked rice noodles; ~115 g (4 oz) beef as 6–10 thin slices 5–8 cm across, partly submerged [MEDIUM — recipe/restaurant norms (via search)]; thin onion rings and scallion rounds; garnish plate 15–18 cm with a handful of bean sprouts, 2–3 basil sprigs, 1–2 lime wedges, 4–6 chili rounds. [counts EDITORIAL]
+  - Arrangement: beef fanned over the noodle mound on one side, scallion scattered; garnish plate beside the bowl; chopsticks and soup spoon resting on the table or a spoon rest.
+  - Vessel fill/depth: broth within ~1 cm of the rim (entry).
+  - Served portion: one bowl per person; one garnish plate per bowl or shared.
+  - State cues: steam; tiny fat beads on the broth; rare beef slices greying at the edges.
+  - Absent on purpose: garnish already piled into the bowl, cloudy or thick broth, hoisin or sriracha squiggles on top, egg, wontons.
+  - Prompt-ready line: "A large wide bowl, about three times the can's width, of clear light amber broth filled close to the rim, steam rising. Thin rice noodles beneath, a fan of thin pink-brown beef slices partly submerged, scattered green scallion and thin onion rings. Beside it, a small plate of bean sprouts, dark green basil sprigs, a lime wedge and red chili slices. No sauces on top, no egg."
 
 ### Dish/context: California cuisine plating register (cross-cutting aesthetic, not a single dish — parallel treatment to `us.md`'s grocery-store-sushi context entry)
 
@@ -284,6 +394,7 @@ The West Coast/California file clears the "would swapping this region's norms in
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **`us.md`'s existing California roll entry lacks the now-mandatory §4.5 real-world-scale field.** This is not a defect introduced by this file — `us.md`'s entry predates §4.5 being made a mandatory field project-wide (both files are dated 2026-09-24, but `country-file-schema.md`'s own text frames the real-world-scale requirement as newly added "after a beignet test generation came back oversized," i.e., a lesson learned partway through this project). Flagged here for `us.md`'s own future audit pass rather than fixed in this file, since the authoritative entry correctly lives there, not here, per the placement rule.
 - **The California burrito's and Mission-style burrito's exact inventor/originating-restaurant claims are each genuinely, permanently contested between multiple named claimants** — disclosed honestly in both entries rather than resolved, consistent with this project's treatment of the chimichanga and French dip disputes. Neither dispute is expected to resolve with better sourcing; flagged as inherently unresolvable rather than a research gap to close.
 - **A generic, region-unspecified "burrito" brief (naming neither San Diego nor San Francisco) has no established default in this file.** Unlike the BBQ platter's Central-Texas default or the fish taco's battered-and-fried default, this file does not pick a single default between the California burrito and the Mission-style burrito for a brief that specifies neither city — both are genuinely, comparably well-known nationally (via the Chipotle-lineage connection for Mission-style, and via West-Coast/Southern-California recognition for the California burrito), and picking one without a stronger tiebreaker risks exactly the silent-default problem `country-file-schema.md` §4.6 warns against. Flagged for human-reviewer judgment rather than resolved unilaterally.

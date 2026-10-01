@@ -150,6 +150,25 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: Large, thin, hand-tossed slice, crisp exterior/chewy interior, sturdy enough to hold toppings but soft enough to fold in half lengthwise; bright but not oversweet red tomato sauce; low-moisture mozzarella with a light golden-and-white mottled melt (not a uniform browned sheet); a thin, visible sheen of orange grease pooling on the surface is expected, not a flaw; occasional small blistered char spots; cut into large triangular wedges (never squared) from a full round pie — the triangular cut is the point-of-difference detail versus Jersey Shore boardwalk pizza's Sicilian-style square cut. [CONFIDENCE: HIGH]
 - Confidence: HIGH overall
 - Sources: [Flour & Coffee — The Authentic New York Pizza Slice](https://flourandcoffee.substack.com/p/authentic-new-york-pizza-slice-history-little-italy)
+- Composition & proportions (§4.7) — one slice at the counter, or the whole 18-inch pie at a table:
+  - What dominates: on a slice, the melted cheese-over-sauce surface is ~75–80% of the top area; the bare puffy crust rim ~15–20%; grease pools and char blisters are small accents under 5%. Plain cheese is the archetype; any topping is a brief's choice, not a default. [EDITORIAL]
+  - Components:
+
+    | Component | Real size | Count (pie / one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Whole pie | ~45 cm (18 in) across, cut into 8 wedges [MEDIUM-HIGH — Pizza Today, Slice blog (via search)] | 1 / — | Flat, round, even cheese coverage | On a round metal tray or cardboard round in the display case or at table centre |
+    | Slice | ~23 cm (9 in) tip to crust — **nearly two cans long**; ~18 cm across the crust end [MEDIUM — Pizza Today (via search)] | 8 / 1–2 | Thin, tip droops unless folded | On a thin white paper plate, often overhanging it |
+    | Base under toppings | Under ~0.5 cm thick [EDITORIAL] | — | Thin, pale underside with dark speckles | Beneath the cheese |
+    | Crust rim (cornicione) | ~2–3 cm wide, ~1.5–2 cm tall [EDITORIAL] | 1 band / 1 | Tan-golden, a few dark blisters | Only along the wide end |
+    | Cheese | A continuous 2–3 mm sheet [EDITORIAL] | — | Mottled white and pale gold | Covers sauce almost to the rim; sauce shows only in small gaps |
+    | Grease pools | ~1–2 cm each [EDITORIAL] | ~3–8 / slice | Glossy orange beads | Sitting on the cheese |
+
+  - Arrangement: whole pie cut radially into equal wedges, all cuts meeting at the centre; a slice is served point-in, crust-out.
+  - Vessel fill/depth: a slice nearly fills a ~23 cm paper plate, the tip reaching or crossing the rim; a whole pie fills its tray edge to edge.
+  - Served portion vs. whole dish: counter register = 1–2 slices per person on paper plates; sit-down register = whole pie at table centre, each diner lifting a wedge onto their own plate.
+  - State cues: glossy orange grease on the cheese, soft (not long-stringing) melt, a faint wisp of steam just after reheating.
+  - Absent on purpose: fresh basil piles, fresh-mozzarella rounds, a thick or deep-dish base, square cut, knife-and-fork place settings, sauce pooled on top.
+  - Prompt-ready line: "One large, thin triangular slice of plain cheese pizza on a white paper plate, nearly twice the can's height from tip to crust. Mottled white-and-golden melted cheese covers almost the whole slice, with small beads of glossy orange grease and a few brown blisters; a narrow puffy tan crust rim along the wide end. The thin tip droops slightly. No basil, no fresh mozzarella rounds, no square cut."
 
 #### Dish: Trenton tomato pie / New Jersey tomato pie
 - Category: Everyday to special-occasion (a specific city's sit-down pizzeria tradition)
@@ -159,6 +178,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Distinguished from ordinary NY-style or Neapolitan pizza specifically by this visible top-layer sauce, which a sauce-then-cheese pie never shows once baked.
 - Confidence: HIGH
 - Sources: [Wikipedia: Trenton tomato pie](https://en.wikipedia.org/wiki/Trenton_tomato_pie); [NJ Monthly — Trenton Tomato Pies Are Still A Staple of the New Jersey Pizza Scene](https://njmonthly.com/articles/eat-drink/the-original/); [Central Jersey — Sauce on Top](https://centraljersey.com/entertainment/trenton-tomato-pie/)
+- Composition & proportions (§4.7) — whole round pie at a sit-down table:
+  - What dominates: the red sauce ribbons on top, ~50–60% of the visible surface; the white cheese showing between the ribbons ~30–40%; the thin crust rim ~10%. The sauce reads as bands laid over the cheese, not a smooth red sheet under it. [EDITORIAL]
+  - Components: pie ~35–40 cm across, a thin low rim ~1.5 cm [EDITORIAL]; sauce ribbons ~2–4 cm wide, crushed-tomato texture visible; cheese as a flat pale layer beneath; cut into ~8 wedges. [EDITORIAL]
+  - Arrangement: sauce ribbons laid in loose parallel stripes or a spiral across the whole pie, cheese peeking through the gaps.
+  - Vessel fill/depth: fills its round metal tray edge to edge; flat, low profile.
+  - Served portion vs. whole dish: the pie at table centre; one portion is 2–3 wedges on a plain plate.
+  - State cues: crackly dry-edged crust, matte crushed tomato, only a faint sheen where cheese shows.
+  - Absent on purpose: a uniform cheese blanket hiding the sauce, heavy toppings, basil garnish, square cut.
+  - Prompt-ready line: "A whole thin round pizza pie on a metal tray, its surface striped with broad ribbons of chunky crushed red tomato sauce laid over a pale white cheese layer that peeks through between the stripes. A thin, crackly tan crust rim. Cut into eight wedges; one wedge on a plain white plate beside it, about one and a half times the can's height long. No basil, no cheese covering the sauce."
 
 #### Dish: Jersey Shore boardwalk pizza
 - Category: Everyday, strongly occasion-linked (summer/beach-vacation eating)
@@ -167,6 +195,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: Thin crust, sweet tomato sauce, mozzarella (sometimes cheddar), frequently cut into Sicilian-style squares rather than triangular wedges. Some stands use the same reversed cheese-under-sauce construction as Trenton tomato pie, with sauce applied in a swirling spiral pattern that stays visible on the finished slice — documented as one of the format's defining, most-photographed traits. Sold by the slice at high-volume walk-up boardwalk stands, not sit-down pizzerias.
 - Confidence: HIGH
 - Sources: [PMQ Pizza — Boardwalk Vibes](https://www.pmq.com/boardwalk-vibes-with-this-unique-pizza-style-lifes-a-beach-on-the-jersey-shore/); [Manco & Manco — History of Jersey Shore Boardwalk Pizza](https://mancospizza.com/history-of-jersey-shore-boardwalk-pizza/) — **note**: Manco & Manco is a real, specific, operating business; per `country-file-schema.md` §7.5, an image prompt should describe a generic boardwalk pizza stand, not name or replicate its storefront.
+- Composition & proportions (§4.7) — one or two pieces from a boardwalk stand:
+  - What dominates: cheese ~55–65% of a piece's top surface, the visible sauce swirl ~25–35%, crust edge ~10%. The swirl is a band running across the cheese, not a full sauce coat. [EDITORIAL]
+  - Components: square-cut pieces ~10–12 cm a side from a large round thin pie [EDITORIAL]; sauce swirl band ~2–3 cm wide; crust thin, rim low.
+  - Arrangement: on a whole pie the sauce forms one continuous spiral from centre to edge, so each piece shows a curved section of it.
+  - Vessel fill/depth: 1–2 pieces side by side on a thin white paper plate, filling most of it.
+  - Served portion vs. whole dish: 1–2 pieces per person, eaten standing at a rail or counter; the whole pie stays in the stand.
+  - State cues: hot, glossy cheese, a light grease sheen, sweet red sauce slightly glossy.
+  - Absent on purpose: wedge-shaped slices (use NY-style for that), toppings piles, basil, cutlery, legible stand signage.
+  - Prompt-ready line: "Two square pieces of thin-crust pizza side by side on a white paper plate, each about one and a half times the can's width across. Melted white-and-golden cheese covers most of each piece, crossed by a curving band of bright sweet red tomato sauce swirled on top of the cheese. Low thin crust edge. Resting on a weathered wooden boardwalk rail. No toppings, no basil, no wedge slices."
 
 ### NYC Metro & New Jersey — Hot dogs and street carts
 
@@ -181,6 +218,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be confused with a grilled/griddled hot dog (pale, evenly-cooked casing without char or grill marks is the defining visual difference) or a Nathan's Famous-style stand-grilled Coney Island hot dog (a different, stand-based, not independently researched this pass — flag for follow-up if a brief needs that distinction specifically).
 - Confidence: HIGH overall
 - Sources: [The Takeout](https://www.thetakeout.com/2188337/what-nyc-dirty-water-hot-dog-explained/); [Kitchen Encounters](https://www.bitchinfrommelanieskitchen.com/2021/10/the-history-behind-new-york-citys-dirty-water-hot-dogs.html)
+- Composition & proportions (§4.7) — one cart dog:
+  - What dominates: the soft pale bun ~50% of what shows; the frank ~25–30% (visible along the top slit and at both ends); toppings ~20–25% as a narrow strip along the top. [EDITORIAL]
+  - Components: frank ~15 cm long, ~2 cm wide — **a little longer than the can is tall** [EDITORIAL, standard frank size]; bun roughly the same length; sauerkraut a loose pale strip ~1 cm deep; onion sauce a thin red-brown ribbon; spicy brown mustard one zigzag line.
+  - Arrangement: toppings laid lengthwise along the frank; the frank's ends often poke slightly beyond the bun.
+  - Vessel fill/depth: nested in an open paper napkin or foil sleeve that covers the lower half of the bun.
+  - Served portion vs. whole dish: 1–2 dogs per person; if two, side by side in separate sleeves.
+  - State cues: moist, pale, evenly cooked casing with a slight wet sheen; soft steamed bun, no toasting.
+  - Absent on purpose: grill marks or char, toasted bun, green relish, Chicago-style tomato wedges and pickle spears, cheese, a plate.
+  - Prompt-ready line: "One plain boiled hot dog in a soft pale steamed bun, a little longer than the can is tall, nestled in an open white paper napkin on a steel cart ledge. The smooth, pale pink-brown frank has a moist sheen and no grill marks. Along its top: a loose strip of pale sauerkraut, a thin ribbon of red-brown onion sauce and a zigzag of spicy brown mustard. No relish, no cheese."
 
 #### Dish: NYC halal cart gyro
 - Category: Everyday, street-food/on-the-go
@@ -193,6 +239,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Historical/demographic context: Muslim immigrant vendors (predominantly Egypt, Bangladesh, Afghanistan) took over the street-cart trade in the late 1980s/1990s from Greek vendors, who had themselves succeeded Italian and German vendors. In 1990, 306 New Yorkers identifying as Italian/German first-generation immigrants worked as street vendors; by 2005, that number was zero, while vendors from Egypt, Bangladesh, and Afghanistan rose from 69 to 563 over the same period.
 - Confidence: HIGH for the sauce trio, wrap style, cart appearance, and demographic-shift data
 - Sources: [NYSF — White Sauce, Hot Sauce, Green Sauce](https://newyorkstreetfood.com/halal/nyc-halal-cart-sauce-guide/); [Wikipedia: Halal cart](https://en.wikipedia.org/wiki/Halal_cart); [Macaulay CUNY/OpenLab](https://openlab.macaulay.cuny.edu/nyfoodatlas/2025/05/15/more-than-chicken-over-rice-the-true-story-behind-nycs-halal-carts/)
+- Composition & proportions (§4.7) — one wrapped gyro:
+  - What dominates: the foil-wrapped cylinder is most of the object (~60–70%); only the peeled-back top end shows food — there, chopped meat ~50%, white sauce ~25%, lettuce/tomato ~25%. [EDITORIAL]
+  - Components: wrap ~20–25 cm long, ~6–7 cm thick — **about the can's width, and nearly twice its height** [EDITORIAL]; meat as small chopped pieces ~1–2 cm; white sauce as a thick drizzle; red sauce as a few thin streaks; shredded lettuce and 2–4 small tomato pieces at the opening.
+  - Arrangement: tightly rolled, closed at the bottom, foil peeled back 5–8 cm at the top to show the filling.
+  - Vessel fill/depth: lying on the cart ledge or on a napkin, no plate.
+  - Served portion vs. whole dish: one wrap per person.
+  - State cues: warm meat with a light oil gloss; white sauce glossy and slightly running; foil crinkled.
+  - Absent on purpose: an open folded pita (Greek-diner style), tzatziki cucumber chunks as the dominant sauce, fries inside, a plate, a hand holding it.
+  - Prompt-ready line: "A tightly rolled pita wrap about the can's width and nearly twice its height, wrapped in crinkled foil and resting on a steel cart ledge, the foil peeled back at the top. At the open end: small chopped pieces of browned, spiced chicken, a thick drizzle of glossy white sauce with a few thin red hot-sauce streaks, shredded lettuce and a few small tomato pieces. No plate, no fries."
 
 #### Dish: NYC halal cart chicken-and-rice platter
 - Category: Everyday, street-food/on-the-go — arguably the single most emblematic halal cart order, sold from the same carts with the same sauce trio as the gyro above
@@ -206,6 +261,26 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: A visually busy, high-contrast tray — golden-brown chicken, bright yellow rice, white sauce pooling and dripping in ribbons over both, red sauce in a smaller contrasting drizzle, pale green lettuce and red tomato pushed to one side, folded pita tucked against the tray's edge
 - Confidence: HIGH for composition and sauce description; MEDIUM for the specific origin-cart account
 - Sources: [Cravings Journal](https://cravingsjournal.com/chicken-over-rice-halal-cart-style-with-white-sauce/); [Chowhound](https://www.chowhound.com/1930735/nyc-halal-street-food-history/)
+- Composition & proportions (§4.7) — one platter (a single-person tray):
+  - What dominates: yellow rice ~45–50% of the tray (the entry's "roughly half"); chicken ~25–30%, piled on the rice; salad ~15% pushed to one side; pita ~5–10% at the edge. The sauces are lines across the top, not a covering. [EDITORIAL]
+  - Components:
+
+    | Component | Real size | Count (tray) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Tray | Foil tray or foam clamshell ~23 cm (9 in) across [EDITORIAL — common takeout size; not sourced for carts] | 1 | Silver foil or white foam, lid open | On a ledge, bench or table |
+    | Rice | Long grains; a layer ~3–4 cm deep [EDITORIAL] | Half the tray | Bright turmeric yellow-orange, separate grains | One half of the tray, the base for the chicken |
+    | Chicken | Bite-size chopped pieces ~1.5–2.5 cm [EDITORIAL] | ~20–30 pieces | Golden-brown with darker griddle edges | Heaped on the rice |
+    | Salad | Shredded lettuce, tomato dice ~1 cm | A small heap | Pale green, a few red cubes | Pushed to one side/corner |
+    | Pita | One round folded, or 2–4 triangles ~8 cm | 1 | Soft, pale, lightly griddled | Tucked against the tray edge |
+    | White sauce | Drizzle lines ~0.5–1 cm wide | 3–6 ribbons | Opaque, glossy | Over chicken and rice, pooling in places |
+    | Red sauce | Thin streaks | 2–4 | Orange-red | On top of the white, smaller |
+
+  - Arrangement: rice on one side or under everything, chicken piled on it, salad in a corner, pita along an edge; sauces zigzagged across the chicken and rice.
+  - Vessel fill/depth: food fills the tray to just below the rim, slightly mounded in the middle.
+  - Served portion vs. whole dish: one tray is one person's order, eaten from the tray with a plastic fork.
+  - State cues: a little steam, grease sheen on the chicken, white sauce glossy and starting to run into the rice.
+  - Absent on purpose: a ceramic plate, garnish sprigs, lemon wedges, hummus, falafel (unless the brief asks), a hand holding the fork.
+  - Prompt-ready line: "An open foil takeout tray about three and a half cans wide, half filled with bright turmeric-yellow rice heaped with small bite-size golden-brown chicken pieces. Glossy white sauce is drizzled across in thick ribbons with a few thinner red hot-sauce streaks. A small pile of shredded lettuce and diced tomato pushed to one corner; a folded soft pita tucked against the edge. A plastic fork rests in the rice."
 
 ### NYC Metro & New Jersey — Jewish deli and appetizing
 
@@ -218,6 +293,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - **Venue depth — the classic NYC delicatessen interior**: a long, store-length counter is the defining architectural feature, whole cured meats hanging above or behind it; countermen dressed in white hand-slice and weigh meat on a visible hanging scale; ordering historically runs on a meal-ticket system; simple Formica tables placed close together; walls hung with informal snapshots of regulars rather than art; unmodernized "old-school" aesthetic (aging paint, visible wear) is an authenticity marker, not neglect. Synthesized from documentation of one specific, real, still-operating business (Katz's Delicatessen, est. 1888) — cite for authenticity/history, but describe a generic classic NYC delicatessen interior in an actual prompt, not this specific business. [CONFIDENCE: MEDIUM-HIGH]
 - Confidence: HIGH for origin story and sandwich visual detail; MEDIUM-HIGH for deli-interior depth (single-example-concentrated sourcing)
 - Sources: [Tasting Table — How Pastrami Took Over New York City](https://www.tastingtable.com/1634988/why-pastrami-is-associated-with-new-york/); [Medium/KatzNostalgia — The History of Katz's Delicatessen](https://medium.com/get-lost-in-katzs-delicatessen/the-history-of-katz-delicatessen-c2b49cedfd4e); [Untapped New York — The History of the Jewish Deli in NYC](https://www.untappedcities.com/history-of-jewish-deli-nyc/)
+- Composition & proportions (§4.7) — one deli sandwich, cut in half:
+  - What dominates: meat is the sandwich — in the cut face, pastrami ~70–75% of the height, the two rye slices ~20–25% together, mustard a thin line. [EDITORIAL]
+  - Components: ~11–12 oz (~320–340 g) of meat per sandwich at the best-known deli [MEDIUM — Chef's Resource, Yelp Q&A (via search)]; rye slices ~12 × 10 cm, ~1 cm thick; meat stack ~7–10 cm tall — **roughly two-thirds of the can's height** [EDITORIAL]; each meat slice ~3–5 mm, visible fat rim and dark peppery crust edge.
+  - Arrangement: loosely stacked, folded hand-sliced meat, bulging past the bread edges; cut across the middle, the two halves leaning or one propped on the other, cut face toward camera.
+  - Vessel fill/depth: on a plain white oval plate or deli paper; the sandwich fills about two-thirds of the plate; a pickle spear or two alongside is common [EDITORIAL].
+  - Served portion vs. whole dish: one sandwich per person (often shared in reality, but staged as one).
+  - State cues: warm, moist meat with a slight sheen; rye soft, not toasted.
+  - Absent on purpose: lettuce, tomato, mayonnaise, cheese, toasted bread, fries heap, toothpick flags with text.
+  - Prompt-ready line: "A tall deli sandwich cut in half on a plain white oval plate, cut faces forward. Between two soft slices of seeded rye, a thick stack of hand-sliced pastrami about two-thirds the can's height, deep pink with dark peppery edges and white fat rims, bulging past the bread. A thin line of brown mustard. One green pickle spear beside it. No lettuce, no tomato, no cheese."
 
 #### Dish: Reuben sandwich
 - Category: Everyday to special-occasion
@@ -228,6 +312,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Venue variation: Same classic NYC delicatessen interior register as Pastrami on Rye above
 - Confidence: HIGH for composition; LOW for exact origin specifics
 - Sources: [National Geographic — Story Behind the Reuben Sandwich](https://www.nationalgeographic.com/travel/article/what-is-reuben-sandwich-the-story-behind-the-iconic-deli-staple); [Wikipedia: Reuben sandwich](https://en.wikipedia.org/wiki/Reuben_sandwich)
+- Composition & proportions (§4.7) — one grilled Reuben, cut in half:
+  - What dominates: in the cut face, corned beef ~50–55% of the height; sauerkraut ~15–20%; melted Swiss ~10%; the two grilled rye slices ~20%. [EDITORIAL]
+  - Components: rye slices ~12 × 10 cm, grilled golden with a crisp buttery surface; corned beef stack ~4–6 cm (lower than a pastrami-on-rye stack) [EDITORIAL]; sauerkraut a ~1 cm pale strand layer; Swiss a pale melting sheet drooping at the edges; a thin smear of dressing may show [EDITORIAL].
+  - Arrangement: layered and pressed, cut diagonally, halves offset to show the cut face.
+  - Vessel fill/depth: on a white plate, filling about half; a pickle spear and a few chips or fries optional.
+  - Served portion vs. whole dish: one sandwich per person.
+  - State cues: cheese visibly melting, bread toasted golden and slightly glossy with butter, a little steam.
+  - Absent on purpose: lettuce, tomato, raw white bread, cold cheese slices, a towering unpressed stack.
+  - Prompt-ready line: "A grilled sandwich cut diagonally on a white plate, cut faces forward. Golden, butter-crisp rye bread around a layer of pink corned beef about a third of the can's height, a thin layer of pale sauerkraut and white Swiss cheese melting and drooping over the edges. One pickle spear alongside. Warm, pressed, slightly steaming. No lettuce, no tomato."
 
 #### Dish: Knish
 - Category: Everyday (deli side dish, bakery item, historically a street-food item in its own right)
@@ -240,6 +333,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be rendered as a fried empanada or samosa (both have a folded, crimped-edge pastry seam and flakier, layered crust) — a knish's dough is a single, fully-enclosing casing without a crimped edge.
 - Confidence: HIGH for the two-form distinction and origin account; MEDIUM for the confusable-alternative note (editorial synthesis)
 - Sources: [Wikipedia: Knish](https://en.wikipedia.org/wiki/Knish); [Untapped New York — Yonah Schimmel Knish Bakery](https://www.untappedcities.com/yonah-schimmel-knishery-a-lower-east-side-eatery-since-the-late-1890s/)
+- Composition & proportions (§4.7) — one knish on a small plate or napkin:
+  - What dominates: one single, whole pastry; when cut, the pale potato filling is ~80% of the cross-section and the dough casing a thin ~3–5 mm shell. [EDITORIAL]
+  - Components: round baked — ~8–10 cm across, ~5–6 cm tall, a small top opening ~2 cm (optional); square fried — ~8 cm a side, ~3–4 cm thick — **each about the can's width** [EDITORIAL]; onion flecks in the filling.
+  - Arrangement: one knish, or one cut in half with the halves side by side showing the interior.
+  - Vessel fill/depth: fills the centre of a small white plate or sits on wax paper; plenty of empty plate around it.
+  - Served portion vs. whole dish: one per person as a snack or deli side.
+  - State cues: baked — soft, matte-golden top; fried — crisp, evenly golden, a faint oil sheen.
+  - Absent on purpose: crimped or folded edges (empanada/samosa), flaky laminated layers, sauces, garnish.
+  - Prompt-ready line: "One round baked knish on a small white plate, about the can's width and a little under half its height, with a smooth, soft, domed golden-brown dough shell and a small opening on top. Beside it, the other half cut open shows a thick, smooth, pale mashed-potato filling flecked with onion inside a thin casing. No crimped edge, no sauce, no garnish."
 
 #### Dish: NY-style bagel and bagel-and-lox
 - Category: Everyday (bagel alone) to a genuine weekend-brunch register (bagel-and-lox specifically)
@@ -251,6 +353,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be depicted as a smooth, glossy, machine-uniform grocery-store bagel (steamed, not boiled).
 - Confidence: HIGH for the bagel's form-changing status and the appetizing-store distinction; MEDIUM for the specific assembled bagel-and-lox visual synthesis
 - Sources: [Today.com — Al Roker explores the origins of bagels and lox](https://www.today.com/food/al-roker-explores-origins-bagels-lox-new-york-city-t241468); [Wikipedia: Russ & Daughters](https://en.wikipedia.org/wiki/Russ_%26_Daughters)
+- Composition & proportions (§4.7) — one bagel-and-lox, open-faced:
+  - What dominates: on each half, lox ~50% of the top surface, cream cheese ~30% (showing around and between the fish), red onion and capers ~10–15%; the bagel crust shows as a rim. [EDITORIAL]
+  - Components: bagel ~10–11 cm across, ~4–5 cm tall whole, hole ~2 cm [EDITORIAL]; cream cheese ~0.5–1 cm thick; lox 2–3 slices per half, each ~8 × 5 cm, draped and folded; red onion 3–6 paper-thin rings per half; capers 6–12 per half; tomato or cucumber (optional) 1 thin slice per half.
+  - Arrangement: two halves side by side, cut sides up; lox in loose folds, onion rings on top, capers scattered.
+  - Vessel fill/depth: two halves take up about two-thirds of a ~23–25 cm plate or a sheet of wax paper.
+  - Served portion vs. whole dish: one bagel (two halves) per person.
+  - State cues: glossy lox, matte cream cheese, bagel crust shiny and dark golden, room temperature.
+  - Absent on purpose: a closed sandwich, a flat uniform supermarket bagel, piled greens, dill sprigs heap, lemon wedges.
+  - Prompt-ready line: "Two open-faced halves of a glossy, dark golden bagel, each about one and a half times the can's width, on a white plate. Each half is spread with a thick even layer of white cream cheese and draped with loose folds of thin, translucent coral-pink smoked salmon, topped with a few paper-thin red onion rings and small dark capers. No lettuce, no dill, no lemon."
 
 ### NYC Metro & New Jersey — Sweets and soda-fountain culture
 
@@ -265,6 +376,14 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be depicted as a cream soda (a different, differently-flavored drink despite the similar name) or a chocolate milkshake (no ice cream, thin and highly carbonated rather than thick).
 - Confidence: HIGH for composition, NYC-specificity, and visual signature; MEDIUM for the origin account
 - Sources: [Chowhound — The History Of NYC's Whimsical Egg Cream Soda](https://www.chowhound.com/1493133/origin-nyc-egg-cream-soda/); [Untapped New York — The Origins of NYC's Famous Egg Cream](https://www.untappedcities.com/egg-cream-nyc/); [Grub Americana](https://grubamericana.com/2025/01/22/egg-cream-new-york-citys-iconic-beverage/)
+- Composition & proportions (§4.7) — one freshly made egg cream:
+  - What dominates: tan liquid body ~two-thirds of the glass height; white foam head ~one-third (per the entry). [HIGH, from the entry]
+  - Components: ~12 oz glass ~15–17 cm tall — **taller than the can** [EDITORIAL for height]; recipe proportions ~2–3½ tbsp chocolate syrup with milk and seltzer in roughly equal parts, the glass filled nearly to the rim [MEDIUM — The Kitchn, Food Network recipes (via search)]; foam head ~4–5 cm thick, domed 0–1 cm above the rim.
+  - Arrangement: one glass, a long spoon optional in or beside it.
+  - Vessel fill/depth: full to the rim; a thin dark syrup layer at the very bottom only if not fully stirred.
+  - State cues: fresh = tall, stiff, bubbly foam; a few minutes old = flatter, thinner head; condensation on the glass.
+  - Absent on purpose: whipped cream, ice cream scoop, cherry, chocolate drizzle, ice cubes, a straw bouquet.
+  - Prompt-ready line: "One tall footed soda-fountain glass, a little taller than the can, filled to the rim: a light tan chocolate-milk body in the lower two-thirds under a thick, bumpy, snow-white foam head filling the top third and doming just above the rim. Fine bubbles, light condensation on the glass, a long spoon beside it. No whipped cream, no cherry, no ice."
 
 #### Dish: Black-and-white cookie
 - Category: Everyday (bakery/deli-counter item, snack/dessert)
@@ -275,6 +394,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be depicted as a small, thin, crisp sandwich-style cookie, nor confused with the taller, rounder, frosted (not fondant-dipped) Utica "half-moon cookie."
 - Confidence: HIGH for the visual description and NYC association; MEDIUM for the specific 1902/Glaser's origin claim, given the contested Utica counter-claim
 - Sources: [Tasting Table — The Rich Origin Of NYC's Black And White Cookies](https://www.tastingtable.com/1114562/the-rich-origin-of-nycs-black-and-white-cookies/); [Untapped New York — The Mysterious Origins of the Black and White Cookie](https://www.untappedcities.com/mysterious-origins-black-and-white-cookie/)
+- Composition & proportions (§4.7) — one cookie:
+  - What dominates: the iced face is the whole image — white half ~50%, chocolate half ~50%, a thin pale cake edge ~1 cm visible around the side. [EDITORIAL]
+  - Components: ~11–13 cm (4.5–5 in) across for the classic large size — **about as wide as the can is tall** [MEDIUM — Smitten Kitchen, Kosher.com (via search)]; ~1.5–2 cm thick; icing ~2 mm.
+  - Arrangement: one cookie flat, iced side up, dividing line straight; optionally in a clear unprinted cellophane wrap.
+  - Vessel fill/depth: on wax paper, a napkin or a small plate that it nearly fills.
+  - Served portion vs. whole dish: one per person.
+  - State cues: icing set, smooth with a soft sheen, no cracks.
+  - Absent on purpose: sprinkles, drizzle, a half-moon dome with frosting swirls, visible label text.
+  - Prompt-ready line: "One large round flat cookie about as wide as the can is tall, lying iced-side up on white wax paper. Its face is split by a straight line down the middle into two equal halves: smooth glossy white fondant on one side, smooth glossy dark chocolate fondant on the other, over a pale soft cake edge. No sprinkles, no drizzle."
 
 #### Dish: New York cheesecake
 - Category: Everyday to special-occasion (a deli/diner dessert-case staple as much as a special-occasion dessert)
@@ -286,6 +414,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be depicted with fruit compote swirled through the filling itself (a topping added after baking is a real but secondary/Lindy's-specific variant), nor confused with a light, airy, soufflé-style Japanese cheesecake.
 - Confidence: HIGH overall
 - Sources: [Tori Avey — American Cakes: New York Cheesecake History and Recipe](https://toriavey.com/new-york-cheesecake-history-recipe/); [Wikipedia: Lindy's](https://en.wikipedia.org/wiki/Lindy%27s); [Wikipedia: Junior's](https://en.wikipedia.org/wiki/Junior%27s)
+- Composition & proportions (§4.7) — one slice on a plate:
+  - What dominates: the pale dense filling ~85–90% of the slice's cut-face height; the darker graham crust ~10–15%. [EDITORIAL]
+  - Components: whole cake ~23 cm (9 in) across, ~6–7 cm tall — **about half the can's height** [EDITORIAL]; slice ~1/10–1/12 of the cake, ~10–11 cm long on the side; crust ~0.5–1 cm.
+  - Arrangement: one wedge, point toward the viewer or side-on to show the clean cut face.
+  - Vessel fill/depth: centred on a white dessert plate with lots of empty plate around; a fork alongside.
+  - Served portion vs. whole dish: one slice per person; whole cake only in a deli dessert case.
+  - State cues: chilled, matte, clean smooth cut, top faintly golden.
+  - Absent on purpose: fruit compote on or in the filling (unless the brief asks for the variant), whipped cream, mint leaf, drizzle.
+  - Prompt-ready line: "One clean-cut wedge of plain New York cheesecake on a white dessert plate, about half the can's height, its smooth ivory top unadorned. The cut face shows a dense, creamy pale filling above a thin, darker tan graham-cracker crust. A fork beside the plate. No fruit topping, no whipped cream, no garnish."
 
 ### NYC Metro & New Jersey — Bodega culture
 
@@ -302,6 +439,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: **The defining, checkable difference from a Philly cheesesteak** is exactly this chopped/mixed-together preparation: a cheesesteak keeps thin-sliced steak as visible ribbons with cheese melted over/into them, while a chopped cheese is hand-chopped ground beef into a coarser, uniformly mixed filling — getting this backward would be a real, visible authenticity error. [CONFIDENCE: HIGH]
 - Confidence: HIGH overall, including the specific origin account
 - Sources: [America's Test Kitchen](https://www.americastestkitchen.com/articles/1925-east-harlem-s-chopped-cheese-sandwiches-are-a-bodega-classic); [Wikipedia: Chopped cheese](https://en.wikipedia.org/wiki/Chopped_cheese)
+- Composition & proportions (§4.7) — one sandwich, unwrapped and cut in half:
+  - What dominates: in the cut face, the marbled beef-onion-cheese filling ~55–60%; the roll ~30%; lettuce/tomato ~10–15%, mostly at the ends. [EDITORIAL]
+  - Components: hero roll ~20–25 cm — **about twice the can's height** [EDITORIAL]; ~½ lb (~225 g) ground beef per sandwich [MEDIUM — recipe sources (via search)]; filling ~4–5 cm deep; shredded lettuce and 2–3 tomato slices.
+  - Arrangement: two halves side by side on opened foil or wax paper, cut faces forward.
+  - Vessel fill/depth: the foil/paper opened flat under it, edges crumpled; no plate.
+  - Served portion vs. whole dish: one hero per person.
+  - State cues: glossy melted cheese strands through browned beef, steam, a streak of ketchup or mayo at the cut edge.
+  - Absent on purpose: visible sliced steak ribbons (cheesesteak), a separate cheese slice on top, peppers, a ceramic plate, a hand.
+  - Prompt-ready line: "A hero roll about twice the can's height, cut in half on opened crumpled foil on a bodega counter, cut faces forward. Inside, a thick coarse filling of chopped browned ground beef mixed with soft onion and strands of melted yellow-white cheese, shredded lettuce and tomato slices at the ends, a streak of ketchup at the edge. Steaming. No sliced steak, no peppers, no plate."
 
 ---
 
@@ -320,6 +466,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Most easily confused with NY-style pizza (also thin, hand-tossed, coal/deck-oven Italian-American) — the two decisive differentiators are (1) shape: oblong vs. round, and (2) cheese: apizza's plain default has no mozzarella at all vs. mozzarella as the NY-style default. Also confusable with generic "white pizza" (mozzarella-and-ricotta, no-tomato-sauce) — New Haven's white clam pie has no cheese-forward creamy base; "white" refers to the absence of tomato sauce, not a white cheese sauce. Also distinguished from Trenton tomato pie (reversed-construction but still a full-mozzarella, round pizzeria pie) by apizza's oblong shape and pecorino-forward (or sauceless clam) profile.
 - Confidence: HIGH overall for the style's defining traits; MEDIUM-HIGH for the specific clam-pie origin date/story
 - Sources: [Wikipedia: New Haven-style pizza](https://en.wikipedia.org/wiki/New_Haven-style_pizza); [New Haven Pizza School — Apizza History & Facts](https://www.newhavenpizzaschool.com/history); [Atlas Obscura/Gastro Obscura — Clam Apizza](https://www.atlasobscura.com/foods/clam-apizza-new-haven); [PMQ Pizza — The Mystique and Magic of New Haven-Style Pizza](https://www.pmq.com/the-mystique-and-magic-of-new-haven-style-pizza/); [New England.com — Ode to New Haven Pizza](https://newengland.com/travel/connecticut/ode-to-new-haven-pizza/); [Boston Magazine](https://www.bostonmagazine.com/restaurants/best-apizza-new-haven-connecticut/)
+- Composition & proportions (§4.7) — whole pie on a tray at table centre:
+  - What dominates: plain pie — thin tomato sauce ~80–85% of the surface, pecorino dusting a faint haze, the charred rim ~10–15%. White clam pie — oil-glossed pale dough ~60%, clam pieces ~25%, garlic/oregano flecks ~5%, charred rim ~10%. [EDITORIAL]
+  - Components: pie irregular oblong, roughly 40–55 cm long [EDITORIAL — sources say "usually much larger than you expect" (Goldbelly, via search), no measurement found]; rim ~1.5–2 cm, blackened in patches; pieces cut with shears ~8–15 cm, uneven; clams (clam pie) chopped ~1–2 cm, ~40–60 pieces per pie [EDITORIAL].
+  - Arrangement: pie cut into irregular triangles and rectangles on the tray; toppings evenly scattered edge to edge.
+  - Vessel fill/depth: fills a large, dull, well-worn metal tray almost to its edges; each diner has only a small paper plate or none.
+  - Served portion vs. whole dish: 2–3 irregular pieces per person, lifted straight from the shared tray.
+  - State cues: dry, crisp charred edges, blistered bubbles, a light oil sheen; no stretchy cheese.
+  - Absent on purpose: a mozzarella blanket on the plain pie, a round uniform shape, even wedge cuts, basil, clams in the shell.
+  - Prompt-ready line: "A large irregular oblong thin-crust pizza on a dull metal tray, several times the can's length, cut into uneven triangles and rectangles. Thin bright tomato sauce covers almost the whole surface under a faint dusting of grated hard cheese; the thin raised rim is blistered and charred black in patches. No melted mozzarella, no basil, no round shape."
 
 ### Southern New England — Lobster roll and chowder
 
@@ -337,6 +492,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Most easily confused with the Maine-style roll (glossy/warm vs. matte/chilled, no dressing vs. mayonnaise-coated are the checkable differentiators). A generic "seafood roll" or "shrimp roll" at the same shacks uses an identical bun/butter-or-mayo treatment with a different shellfish — the lobster meat itself (large pink-and-white chunks, distinct claw shape sometimes visible) is the confirming detail.
 - Confidence: HIGH for the core CT-vs-Maine distinction; MEDIUM for the Perry's/Milford origin specifics and seafood-shack venue framing
 - Sources: [The Culture Trip — A Brief History Of The Lobster Roll](https://theculturetrip.com/north-america/usa/massachusetts/articles/a-brief-history-of-the-lobster-roll); [Vital Choice — The Lobster Roll: A Look Inside the Bun](https://www.vitalchoice.com/articles/food-facts/history-of-the-lobster-roll)
+- Composition & proportions (§4.7) — one roll in a basket:
+  - What dominates: lobster meat ~60% of the view from above, heaped above the bun; the golden griddled bun ~35%; butter gloss is a finish, not a component. [EDITORIAL]
+  - Components: top-split bun ~15–18 cm long, ~6 cm wide — **about the can's width, a little longer than its height** [EDITORIAL]; ~3–4 oz (85–115 g) of meat per roll [MEDIUM — MaineGuide, Maine Shelled Lobster (via search)]; chunks ~2–4 cm, 1–2 recognisable claw pieces on top; chips or fries a loose pile beside.
+  - Arrangement: meat mounded 2–4 cm above the bun's top, claw pieces on top; roll lying lengthwise in the basket.
+  - Vessel fill/depth: roll along one side of a paper-lined basket; chips filling the other ~40%.
+  - Served portion vs. whole dish: one roll per person.
+  - State cues: glossy melted butter on the meat and a small pool at the bun base; bun sides toasted golden; a faint steam.
+  - Absent on purpose: mayonnaise, celery, lettuce, herbs pile, lemon wedge pile, a ceramic plate.
+  - Prompt-ready line: "A top-split bun about the can's width and a little longer than its height, griddled golden on its flat sides, heaped with large warm chunks of pink-and-white lobster meat, a claw piece on top, all glistening with melted butter pooling at the base. It lies in a paper-lined basket beside a loose pile of potato chips. No mayonnaise, no lettuce, no celery."
 
 #### Dish: Rhode Island-style clam chowder — third named variant, added alongside the existing New England-style and Manhattan-style entries in `us.md`'s Clam chowder dish
 *(Non-hierarchical per §4.6 — sits side-by-side with the other two named variants, not silently subordinated to either.)*
@@ -351,6 +515,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Most likely to be mistaken for a thin, under-seasoned, or "failed" New England chowder by anyone unfamiliar with the style, rather than recognized as its own deliberate tradition — the complete absence of dairy is the defining, intentional trait, not an omission. Distinct from a clarified, glass-clear consommé — some visible cloudiness/texture from potato and pork is expected and correct.
 - Confidence: HIGH that this is a real, distinct, well-documented third named style; MEDIUM for the exact 1888-cookbook origin date
 - Sources: see inline citations above
+- Composition & proportions (§4.7) — one cup or bowl:
+  - What dominates: the thin clear broth ~50% of the visible surface; potato cubes ~25%; clam pieces ~15%; salt pork/bacon bits and onion ~10%. [EDITORIAL]
+  - Components: cup ~6–8 oz, bowl ~12 oz or more [MEDIUM — restaurant menus, Red Lobster (via search)]; potato cubes ~1–1.5 cm; clam pieces ~1 cm, chewy, grey-tan; pork bits ~0.5 cm, few; onion soft translucent slivers.
+  - Arrangement: solids submerged and visible through the broth, a few breaking the surface.
+  - Vessel fill/depth: filled to ~1–1.5 cm below the rim; bowl on a plate beside a plate or basket of clam cakes.
+  - Served portion vs. whole dish: one cup or bowl per person, plus a shared clam-cake order.
+  - State cues: steam, a few small fat droplets on the surface, slight cloudiness.
+  - Absent on purpose: cream or milk whiteness, red tomato tint, parsley shower, a bread bowl, oyster crackers heap.
+  - Prompt-ready line: "A white ceramic bowl, a little wider than the can is tall, filled nearly to the rim with thin, clear, pale golden-grey broth. Small potato cubes, chopped clam pieces and a few tiny bits of salt pork are visible through it, some breaking the surface, with small fat droplets and light steam. Beside it, a paper-lined basket of golden fritters. No cream, no tomato, no parsley."
 
 ### Southern New England — Rhode Island dishes
 
@@ -368,6 +541,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Easily confused with a generic hush puppy or corn fritter — visible clam pieces and the specific pairing with RI clam chowder are the confirming details; distinguishable from a single large flattened clam-fritter patty (found in some other coastal US regions) by its small, individual, multiple-per-order form.
 - Confidence: HIGH for the dish's basic composition and RI-specificity; MEDIUM for the exact founding story, genuinely contested between two accounts
 - Sources: [National Geographic — Meet the Clam Cake](https://www.nationalgeographic.com/culture/article/meet-the-rhode-island-clam-cake); [Mashed — Rhode Island's Clam Cakes Are A State Icon](https://www.mashed.com/1780585/rhode-island-clam-cakes-explained/)
+- Composition & proportions (§4.7) — a half-dozen order:
+  - What dominates: the fritters themselves, ~70–80% of the basket's visible area, the paper liner the rest. [EDITORIAL]
+  - Components: each ~4–6.5 cm across — golf-ball to tennis-ball size depending on the shack — **roughly two-thirds to the full width of the can** [MEDIUM — RI Monthly (via search)]; sold by the half-dozen or dozen [MEDIUM — RI Monthly, National Geographic (via search)].
+  - Arrangement: loosely heaped, irregular shapes touching, one or two broken open to show clam-studded crumb.
+  - Vessel fill/depth: 6 fill a small paper-lined basket or paper bag mouth; 12 heap above its rim.
+  - Served portion vs. whole dish: a half-dozen per person or shared; paired with a cup of chowder.
+  - State cues: fresh from the fryer, craggy and dry-crisp, a faint grease spot on the paper.
+  - Absent on purpose: dipping-sauce cups, tartar sauce, lemon wedges, flat patties, smooth spheres.
+  - Prompt-ready line: "A small red-and-white paper-lined basket heaped with six craggy, irregular, deep golden-brown fritters, each about two-thirds the can's width, their bumpy crisp surfaces showing flecks of chopped clam; one broken open reveals a tender bready crumb studded with clam pieces. A faint grease spot on the paper. No dipping sauce, no lemon, no flat patties."
 
 #### Dish: Coffee milk (Rhode Island's official state drink)
 - Category: Everyday, all-ages beverage — closer to a household staple than a special-occasion treat
@@ -381,6 +563,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Chocolate milk (color/flavor are the distinguishing factors); occasionally confused by non-New-Englanders with an iced coffee drink, though coffee milk is milk-forward rather than coffee-forward.
 - Confidence: HIGH for state-drink status, the Autocrat/Eclipse history, and basic composition; MEDIUM for the origin-story reconciliation; LOW-MEDIUM for the color-vs-chocolate-milk visual claim
 - Sources: [Wikipedia: Coffee milk](https://en.wikipedia.org/wiki/Coffee_milk); [Rhode Tour — Autocrat: A Swallow Will Tell You](https://rhodetour.org/items/show/64); [Atlas Obscura/Gastro Obscura — Coffee Milk](https://www.atlasobscura.com/foods/coffee-milk-rhode-island)
+- Composition & proportions (§4.7) — one glass:
+  - What dominates: a single, uniform pale tan liquid filling the glass; nothing else. [EDITORIAL]
+  - Components: plain straight tumbler ~10–12 cm tall, ~7 cm wide — **about the can's size** [EDITORIAL]; filled to ~1–2 cm below the rim; colour uniform, no layers.
+  - Arrangement: one glass, alone, or beside a diner plate.
+  - Vessel fill/depth: ~85–90% full.
+  - Served portion vs. whole dish: one glass per person.
+  - State cues: cold, light condensation, opaque milky surface, no foam head.
+  - Absent on purpose: foam or whipped cream, ice-coffee ice cubes, a straw bouquet, visible syrup-bottle label, dark brown chocolate-milk colour.
+  - Prompt-ready line: "One plain clear glass tumbler, about the can's size, filled nearly to the rim with smooth, opaque, pale tan milk, the colour of coffee with plenty of cream, uniform from top to bottom with no foam. Light condensation beads on the glass. It stands on a diner counter. No whipped cream, no ice, no straw."
 
 #### Dish: Del's Frozen Lemonade
 - Category: Everyday, strongly seasonal (a specifically summer product; stands often closed in colder months)
@@ -394,6 +585,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Distinguishable from a generic slushie/Icee (carbonated, syrup-based, usually a more saturated artificial color and smoother ice-crystal texture) by its pale, slightly cloudy, pulp-flecked appearance and specifically lemon-only flavor register.
 - Confidence: HIGH for the basic product description and no-straw/spoon custom; MEDIUM for the exact 1840s Naples origin story
 - Sources: [Del's — The Del's Story](https://dels.com/the-dels-story/); [Tasting Table — The Italian Origins Of Rhode Island's Famous Frozen Lemonade](https://www.tastingtable.com/1823976/rhode-island-frozen-lemonade-origin/)
+- Composition & proportions (§4.7) — one cup:
+  - What dominates: the pale yellow slush fills the cup and domes slightly above it; the cup is the only other element. [EDITORIAL]
+  - Components: waxed paper cup ~9–11 cm tall — **a little shorter than the can** [EDITORIAL]; dome ~0.5–1 cm above the rim; pulp/rind flecks ~1–2 mm, scattered.
+  - Arrangement: one cup, upright, alone.
+  - Vessel fill/depth: filled to and slightly above the rim.
+  - Served portion vs. whole dish: one cup per person.
+  - State cues: frosty, slightly wet cup, the slush coarse and granular, beginning to melt at the edge.
+  - Absent on purpose: straw, spoon, whipped cream, garnish slice, legible cup print or logo, a hand squeezing the cup.
+  - Prompt-ready line: "One plain waxed paper cup, a little shorter than the can, standing on a picnic table, filled to the brim with coarse, opaque pale-yellow lemon slush that domes just above the rim, flecked with tiny bits of lemon pulp and rind. The cup is frosty and slightly wet. No straw, no spoon, no lemon slice, no print on the cup."
 
 #### Dish: Rhode Island pizza strips ("bakery pizza" / "party pizza" / "red strips")
 - Category: Everyday — a common lunch/snack item and a near-mandatory party-food staple at Rhode Island gatherings
@@ -410,6 +610,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Most likely confusable alternative is a plain cheese-free Sicilian-style pizza square (same rectangular-cut, thick-bread-base format) — the decisive differentiator is pizza strips' complete absence of cheese as the default (a true Sicilian slice conventionally includes cheese) and its bakery- rather than pizzeria-based, room-temperature serving convention.
 - Confidence: HIGH for the dish's current form and no-cheese default; MEDIUM for the specific refrigeration-driven origin causal story
 - Sources: [PMQ Pizza — The Rhode Island Red Strip](https://www.pmq.com/rhode-islands-red-strips/); [Red Sauce America — The History of Rhode Island's Pizza Strips](https://www.redsauceamerica.com/blog/the-history-of-rhode-islands-pizza-strips/)
+- Composition & proportions (§4.7) — a few strips from a bakery box:
+  - What dominates: the red-orange sauce-covered top ~85% of what shows from above; the thick pale bread edge ~15% from the side. [EDITORIAL]
+  - Components: strips ~12–15 cm long, ~5–7 cm wide, ~2.5–3 cm thick — **about the can's height long, and a bit under half its width** [EDITORIAL]; sauce layer ~3–5 mm; Romano flecks optional, sparse.
+  - Arrangement: strips laid in rows in an open bakery box or 2–3 overlapping on a napkin.
+  - Vessel fill/depth: box packed edge to edge; a portion of 2–3 strips on a paper plate.
+  - Served portion vs. whole dish: party register = a full box shared; one person takes 2–3 strips.
+  - State cues: room temperature, matte, slightly dry top, no steam.
+  - Absent on purpose: any melted cheese, toppings, basil, wedge shape, steam, glossy sheen.
+  - Prompt-ready line: "An open white bakery box packed with rows of rectangular strips of thick, pale, airy focaccia-like bread, each about the can's height long, coated edge to edge in a thick, matte, deep red-orange tomato sauce with a few tiny pale flecks of grated hard cheese. Room temperature, dry-looking, no steam. No melted cheese, no toppings, no basil."
 
 #### Dish: Awful Awful milkshake (Newport Creamery)
 - Category: Everyday treat, strongly tied to one specific, still-operating Rhode Island restaurant chain
@@ -423,6 +632,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Easily confused with any other large American milkshake — the confirming detail is the Newport Creamery-style setting (or a generic 1940s-American ice-cream-parlor register) plus the sheer 24-ounce-plus size.
 - Confidence: HIGH for the ownership/name history; LOW-MEDIUM for several presentation details (serving vessel material, whipped-cream/cherry garnish) not confirmed by a dedicated source
 - Sources: [Newport Creamery — History of Newport Creamery](https://www.newportcreamery.com/blog/history-of-newport-creamery-1928-to-today); [Wikipedia: Newport Creamery](https://en.wikipedia.org/wiki/Newport_Creamery)
+- Composition & proportions (§4.7) — one shake:
+  - What dominates: the tall cup of thick shake; the straw a thin vertical accent. [EDITORIAL]
+  - Components: 24 oz (~700 mL) serving [HIGH, from the entry's history]; a cup of that volume stands ~17–20 cm tall — **about one and a half times the can's height** [EDITORIAL]; shake surface domed up to ~1–2 cm above the rim in soft peaks; one wide straw.
+  - Arrangement: one cup, straw upright slightly off-centre.
+  - Vessel fill/depth: filled to or just above the rim.
+  - Served portion vs. whole dish: one per person.
+  - State cues: thick, matte, holding peaks; condensation on the cup; a drip down the side at most.
+  - Absent on purpose: whipped cream and cherry (unconfirmed — leave off by default), mix-in chunks, sprinkles, legible cup print.
+  - Prompt-ready line: "One very tall plain cup, about one and a half times the can's height, filled to the brim with a thick, matte chocolate milkshake rising in soft peaks just above the rim, one wide straw standing upright in it. Light condensation on the cup, a single drip down the side. On a soda-fountain counter. No whipped cream, no cherry, no sprinkles."
 
 ---
 
@@ -437,6 +655,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: See `us.md`'s authoritative entry for the roll itself. Added zone-specific staging: a weathered wooden picnic table (bare wood, not a tablecloth), a paper tray or red-and-white-checked liner, and a can of soda or small cup of melted butter on the side are authentic, low-clutter staging choices — only what this specific scene calls for, not every documented lobster-roll fact at once.
 - Confidence: HIGH for the core dish (inherited); MEDIUM for the shack-setting/side-dish detail
 - Sources: [The Maine Beaches — Lobster Shacks](https://themainebeaches.com/lobster-shacks/); [Maine Lobster Now — Lobster Side Dishes](https://www.mainelobsternow.com/blogs/resources/lobster-side-dishes)
+- Composition & proportions (§4.7) — one roll on a checked liner:
+  - What dominates: chilled lobster salad ~60% of the view from above, heaped above the bun; the pale golden bun ~35%; mayonnaise is a thin matte coating, never a visible dollop. [EDITORIAL]
+  - Components: top-split bun ~15–18 cm, ~6 cm wide — **about the can's width, a little longer than its height** [EDITORIAL]; ~3–4 oz (85–115 g) of meat per roll, roughly one lobster's worth [MEDIUM — MaineGuide, Maine Shelled Lobster (via search)]; chunks ~2–4 cm; chips a loose pile.
+  - Arrangement: meat mounded 2–4 cm above the bun, a claw or knuckle piece on top.
+  - Vessel fill/depth: roll along one side of a boat-shaped tray with a red-and-white checked liner; chips ~40% of the tray.
+  - Served portion vs. whole dish: one roll per person.
+  - State cues: cold, matte, creamy coating; no melted-butter shine; bun lightly toasted.
+  - Absent on purpose: melted-butter gloss, heavy lettuce frill, herb pile, visible mayonnaise dollop, lemon wedges, a ceramic plate.
+  - Prompt-ready line: "A top-split bun about the can's width and a little longer than its height, lightly toasted golden, heaped with cold chunks of pink-and-white lobster meat in a thin matte creamy coating, a claw piece on top. It sits in a boat-shaped tray on a red-and-white checked paper liner beside a pile of potato chips, on a weathered picnic table. No butter sheen, no lettuce."
 
 #### Dish: New England clam chowder (zone entry — expands `us.md`'s national index entry)
 *(Core facts — thick, cream-based, dates to 1700s New England settlers — already locked in at `us.md`; this entry adds serving vessel/garnish and setting detail.)*
@@ -447,6 +674,24 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: Pale ivory/off-white, thick, opaque broth; visible potato cubes and clam pieces suspended in the liquid rather than fully blended; a small scatter of pale, wheel-shaped oyster crackers floating on the surface or served in a small side dish is the single most checkable, zone-authentic garnish detail — its absence would not be an error, but its presence is a strong positive authenticity signal.
 - Confidence: HIGH for the core dish (inherited) and the oyster-cracker pairing; MEDIUM for serving-vessel and chowder-house-setting specifics
 - Sources: [The Kitchn — What Are Oyster Crackers?](https://www.thekitchn.com/whats-an-oyster-cracker-ingredient-intelligence-214858); [Boston.com — Union Oyster House turns 200](https://www.boston.com/food/restaurants/2026/07/03/union-oyster-house-americas-oldest-restaurant/)
+- Composition & proportions (§4.7) — one cup or bowl:
+  - What dominates: the thick ivory chowder surface ~70% of the view; potato and clam pieces breaking the surface ~15–20%; oyster crackers ~10%. [EDITORIAL]
+  - Components:
+
+    | Component | Real size | Count (bowl) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Chowder | Cup ~6–8 oz, bowl ~12–16 oz [MEDIUM — restaurant menus, Red Lobster, Yelp (via search)] | 1 | Thick, opaque ivory-white | Filled to ~1 cm below the rim |
+    | Potato cubes | ~1–1.5 cm | ~6–10 visible | Pale, soft-edged | Half-submerged |
+    | Clam pieces | ~0.5–1.5 cm | ~5–10 visible | Grey-tan, chewy | Half-submerged, scattered |
+    | Oyster crackers | ~1.5–2 cm wheels [EDITORIAL] | ~8–15 | Pale, dry, matte | Floating on top or in a side dish |
+    | Butter pat / herbs (optional) | Butter ~2 cm melting; a pinch of chives or parsley | 0–1 / sparse | Yellow pool; small green flecks | Centre of the surface |
+
+  - Arrangement: crackers scattered on one side of the surface, not covering it.
+  - Vessel fill/depth: white ceramic bowl or cup on an underplate, filled nearly full.
+  - Served portion vs. whole dish: one cup or bowl per person.
+  - State cues: steam, a few melted-butter droplets, thick enough to hold solids at the surface.
+  - Absent on purpose: bread bowl (a West Coast cue), bacon-bit heap, red tomato tint, thin broth, a cracker pile hiding the soup.
+  - Prompt-ready line: "A white ceramic bowl, a little wider than the can is tall, on a white underplate, filled nearly to the rim with thick, creamy, opaque ivory clam chowder. Soft potato cubes and small chopped clam pieces break the surface, with a small scatter of pale wheel-shaped oyster crackers floating on one side and a few melted-butter droplets. Light steam. No bread bowl, no tomato."
 
 ### Northern New England — New dishes
 
@@ -463,6 +708,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be confused with a generic canned "pork and beans," typically a thinner, paler, more tomato/ketchup-forward sauce rather than the dark, thick, molasses-based sauce that defines the Boston version.
 - Confidence: HIGH overall; MEDIUM for the brown-bread/frankfurter pairing specifically; LOW-MEDIUM for the maple-syrup Vermont variant
 - Sources: [Mental Floss](https://www.mentalfloss.com/food/boston-baked-beans-history); [Britannica](https://www.britannica.com/place/Why-Is-Boston-Called-Beantown); [Historic New England — Bean pot](https://www.historicnewengland.org/explore/collections-access/gusn/22866/); [New England Historical Society — A Brief, Mostly Nonmusical History of Baked Beans](https://newenglandhistoricalsociety.com/a-brief-mostly-nonmusical-history-of-baked-beans/)
+- Composition & proportions (§4.7) — the bean pot and one plated portion:
+  - What dominates: dark glossy beans ~85–90% of the visible surface in the pot; salt pork/bacon pieces ~10%. On a Saturday-supper plate: beans ~50%, frankfurters ~25%, brown bread ~25%. [EDITORIAL]
+  - Components: navy beans ~0.8–1 cm each [EDITORIAL]; bean pot ~15–20 cm tall — **a little taller than the can** — with a narrow neck ~10 cm [EDITORIAL]; salt-pork pieces ~2–3 cm; brown bread rounds ~8 cm across, ~1.5 cm thick [EDITORIAL]; frankfurters ~15 cm.
+  - Arrangement: plate — a scoop of beans (~1 cup) on one side, 1–2 franks alongside, 1–2 brown-bread rounds leaning on the beans.
+  - Vessel fill/depth: pot filled to just below the neck, lid off and beside it; beans on a plate spread slightly, sauce not running thin.
+  - Served portion vs. whole dish: the pot at table centre; one portion as above on a plain plate.
+  - State cues: syrupy gloss clinging to each bean, a darker crust on the surface in the pot, steam.
+  - Absent on purpose: thin pale tomato sauce (canned pork-and-beans look), mashed beans, garnish herbs.
+  - Prompt-ready line: "A plain white plate with a generous scoop of whole small white beans in a thick, glossy, dark molasses-brown sauce, a few pieces of salt pork mixed through, two browned frankfurters beside them and two round slices of dark brown bread leaning on the beans. Behind, a brown-glazed stoneware bean pot a little taller than the can, lid off. No thin tomato sauce, no herbs."
 
 #### Dish: Boston cream pie
 - Category: Special-occasion to everyday (a classic dessert, genuinely official at the state level)
@@ -472,6 +726,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: **The modern, standard version** — two layers of pale yellow cake sandwiching a thick vanilla pastry-cream/custard filling, topped with a smooth, dark, glossy chocolate glaze or ganache poured over the top and allowed to drip partway down the sides — no fondant, no almonds. **The historical original** differs — sponge cake (not yellow butter cake), custard-coated sides with toasted almond slivers, chocolate fondant rather than poured glaze — a real-but-superseded alternative, not the default rendering unless a brief specifically calls for the historical Parker House version. [CONFIDENCE: HIGH for the modern version's standard form; MEDIUM for the historical original's exact appearance]
 - Confidence: HIGH for state-dessert status and modern visual form; MEDIUM for the exact origin-chef/date and historical-original visual detail
 - Sources: [Tasting Table — Was Boston Cream Pie Actually Invented In Boston?](https://www.tastingtable.com/1018349/was-boston-cream-pie-actually-invented-in-boston/); [GBH — National Boston Cream Pie Day](https://www.wgbh.org/culture/2023-10-23/national-boston-cream-pie-day-celebrates-the-states-official-dessert); [The Boston Day Book — Origins and Evolution of Boston Cream Pie](https://thebostondaybook.com/history-of-boston-cream-pie/)
+- Composition & proportions (§4.7) — one slice (modern version):
+  - What dominates: in the cut face, the two pale cake layers ~60% of the height, the custard ~30%, the chocolate glaze ~10%; from above, the glaze is 100% of the top. [EDITORIAL]
+  - Components: whole cake ~23 cm across, ~8–9 cm tall — **about two-thirds of the can's height** [EDITORIAL]; each cake layer ~2.5–3 cm; custard ~2 cm; glaze ~3–5 mm with drips 1–3 cm down the side; slice ~1/8 of the cake.
+  - Arrangement: one wedge on its side or point forward, cut face to camera; whole cake on a stand in the background optional.
+  - Vessel fill/depth: centred on a white dessert plate, fork beside.
+  - Served portion vs. whole dish: one slice per person.
+  - State cues: glaze glossy and set, custard firm enough to hold a clean line, slight bulge at the cut.
+  - Absent on purpose: pie crust, whipped cream, fruit, sprinkles, almond coating (historical version only on request).
+  - Prompt-ready line: "One wedge of layered cake on a white plate, about two-thirds the can's height, cut face forward: two layers of pale yellow sponge sandwiching a thick band of smooth vanilla custard, topped with a glossy dark chocolate glaze that drips a little down the side. A fork beside the plate. No pie crust, no whipped cream, no fruit."
 
 #### Dish: Maine whoopie pie (origin genuinely contested — not resolved by this file)
 - Category: Everyday to special-occasion (bakery/roadside-stand staple)
@@ -482,6 +745,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: Should not be depicted as an actual pie (crust + filling) — the "pie" in the name is a naming quirk, not a description of its physical form.
 - Confidence: HIGH for the origin dispute itself being genuinely contested and unresolved; MEDIUM for the visual/compositional description; LOW for any specific origin date on either side
 - Sources: [Smithsonian Magazine — The Whoop-De-Do Over Whoopie Pies](https://www.smithsonianmag.com/arts-culture/the-whoop-de-do-over-whoopie-pies-65959441/); [Mental Floss — Makin' Whoopie: The Ongoing Debate](https://www.mentalfloss.com/article/85673/makin-whoopie-ongoing-debate-over-origin-whoopie-pie)
+- Composition & proportions (§4.7) — one whoopie pie:
+  - What dominates: the two dark chocolate cake rounds ~70% of the side view; the white filling band ~30%. [EDITORIAL]
+  - Components: ~7.5–10 cm (3–4 in) across — hamburger-size, **one and a quarter to one and a half times the can's width** [MEDIUM — New England Today, LobsterAnywhere, recipe sources (via search)]; ~5–6 cm tall; each cake round ~2 cm, filling ~1.5–2 cm, bulging slightly at the edge.
+  - Arrangement: one whole, or one plus a second cut in half to show the filling.
+  - Vessel fill/depth: on wax paper or a small plate, or in clear unprinted wrap.
+  - Served portion vs. whole dish: one per person.
+  - State cues: soft, slightly tacky matte cake tops; filling fluffy, not melting.
+  - Absent on purpose: pie crust, glaze, sprinkles, jam or custard filling, cookie-thin crisp halves.
+  - Prompt-ready line: "One whoopie pie on white wax paper, about one and a half times the can's width across and half its height: two soft, domed, matte dark-chocolate cake rounds sandwiching a thick band of fluffy bright-white marshmallow filling that bulges slightly at the edge. No glaze, no sprinkles, no pie crust."
 
 #### Dish: Maine wild blueberry pie
 - Category: Special-occasion to everyday (a genuinely official dessert, strongly seasonal to Maine's late-summer wild-blueberry harvest)
@@ -492,6 +764,15 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Visual/plating characteristics: A double-crust or lattice-top pie filled with whole small (noticeably smaller than a cultivated-blueberry pie's berries — roughly pea-sized rather than marble-sized) dark blue-purple berries in a thick, deep-purple, jammy filling; the smaller berry size and more intensely saturated purple color are the checkable visual differentiators. [CONFIDENCE: MEDIUM]
 - Confidence: HIGH for the wild-blueberry geographic/botanical distinction and state-dessert designation; MEDIUM for the specific visual/plating characterization
 - Sources: [Island Institute](https://www.islandinstitute.org/working-waterfront/the-science-history-and-business-of-the-maine-blueberry/); [Maine Secretary of State — State Dessert](https://www.maine.gov/sos/kids/about/symbols/dessert); [Farmers' Almanac — Maine Wild Blueberry Pie](https://www.farmersalmanac.com/maine-wild-blueberry-pie-24418)
+- Composition & proportions (§4.7) — one slice:
+  - What dominates: in the cut face, the dark purple berry filling ~65–70% of the height, the crusts ~30%; from above, the top crust (or lattice with purple showing through) covers most of the slice. [EDITORIAL]
+  - Components: pie ~23 cm across, ~3.5–4.5 cm deep [EDITORIAL]; slice ~1/8; berries ~0.5–1 cm, pea-sized, hundreds visible in the filling; crust ~4–6 mm, golden, flaky edge.
+  - Arrangement: one wedge on a plate, filling slumping very slightly at the cut, a few loose berries and a little juice on the plate.
+  - Vessel fill/depth: centred on a white plate; the rest of the pie in its dish behind, optional.
+  - Served portion vs. whole dish: one slice per person.
+  - State cues: glossy jammy filling, matte flaky crust, room temperature or slightly warm.
+  - Absent on purpose: large marble-size berries, a heap of whipped cream, mint sprig, powdered sugar.
+  - Prompt-ready line: "One wedge of double-crust pie on a white plate, a little under half the can's height, flaky golden crust top and bottom around a thick, glossy, deep blue-purple filling packed with tiny pea-size wild blueberries, a little purple juice spreading on the plate. No large berries, no whipped cream heap, no mint."
 
 #### Dish: New England boiled dinner (corned beef and cabbage)
 - Category: Special-occasion to everyday (a traditional cold-weather Saturday/Sunday dinner; corned beef and cabbage specifically is now also tied to St. Patrick's Day nationally)
@@ -505,11 +786,31 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 - Common confusion: The plain "corned beef and cabbage" framing (eaten nationally on St. Patrick's Day) is often visually simpler/narrower than the full "New England boiled dinner," which traditionally includes multiple root vegetables in the same pot.
 - Confidence: HIGH for the core dish and the red flannel hash leftover tradition; MEDIUM for the two-lineage origin framing and side-dish specifics
 - Sources: [Yankee Magazine — In Praise of the New England Boiled Dinner](https://newengland.com/food/main-dishes/new-england-boiled-dinner/); [Yankee Magazine — Classic New England Red Flannel Hash](https://newengland.com/food/classic-new-england-red-flannel-hash/); [Food Republic — What Is New England Boiled Dinner](https://www.foodrepublic.com/1394020/what-is-new-england-boiled-dinner-one-pot-flavor/)
+- Composition & proportions (§4.7) — family-style platter and one plated portion:
+  - What dominates: vegetables ~55–60% of the platter (cabbage the largest single element), sliced corned beef ~30–35%, parsley and mustard minor accents. [EDITORIAL]
+  - Components:
+
+    | Component | Real size | Count (platter / one plate) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Corned beef slices | ~10–15 cm long, ~5–8 mm thick [EDITORIAL] | ~8–12 / 2–3 | Grey-pink, pink-tinged edge, fat rim | Fanned in overlapping slices, centre or one side |
+    | Cabbage wedges | ~8–10 cm, core attached | 4–6 / 1 | Pale yellow-green, soft, translucent edges | Around the beef |
+    | Potatoes | Small whole ~5 cm or halves | 6–8 / 2 | Pale, matte | Around the edge |
+    | Carrots | Chunks ~5–7 cm | 6–10 / 2–3 | Muted orange | Tucked between |
+    | Turnip/rutabaga, parsnip | Chunks ~4–5 cm | 4–6 / 1–2 | Pale yellow-cream | Tucked between |
+    | Parsley | Chopped | A light sprinkle | Green flecks | Over the vegetables |
+
+  - Arrangement: beef fanned at the centre, vegetables ringed around it; on a plate, beef on one side, vegetables on the other.
+  - Vessel fill/depth: platter ~40 cm, covered to the rim; plate ~27 cm, about two-thirds covered.
+  - Served portion vs. whole dish: platter at table centre; one plate as in the table; mustard and horseradish in small dishes on the table.
+  - State cues: moist, matte, gentle steam; a thin film of cooking liquid at most.
+  - Absent on purpose: glossy glaze or gravy, bright blanched-green vegetables, beets on the boiled dinner (they belong to red flannel hash).
+  - Prompt-ready line: "A large white oval platter: overlapping slices of grey-pink corned beef with pink-tinged edges fanned in the centre, surrounded by soft pale yellow-green cabbage wedges, small whole boiled potatoes, muted orange carrot chunks and pale turnip pieces, lightly sprinkled with chopped parsley. Everything matte and gently steaming. A small dish of mustard beside it. No glossy sauce, no gravy, no beets."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across all three research passes** — en.wikipedia.org, britannica.com, smithsonianmag.com, newengland.com, statesymbolsusa.org, and others all returned blocked. Every citation to these domains was sourced from a WebSearch result snippet, not a full page read — consistent with every prior research round in this project. A reviewer with working fetch access should spot-check the Wikipedia and long-form-journalism citations in particular.
 - **New Jersey's everyday/statewide-default pizza style remains unresolved** — already an open item in `us.md`'s own Gap Log (the "Grandma-style" lead didn't hold up on a second check; no dedicated source establishes a generic statewide-default NJ pizzeria style distinct from Trenton tomato pie and Jersey Shore boardwalk pizza).
 - **Small-town CT/RI Main Street visual specifics**: not independently sourced beyond generic New England travel-writing language. A future pass should search for a dedicated architectural/historical-preservation source rather than travel-guide content.

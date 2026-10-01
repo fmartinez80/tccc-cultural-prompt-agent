@@ -220,6 +220,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Patty stays round and holds its shape; cooked to medium/medium-well with a juicy but not pink-dominant center at most US venues (contrast with steak doneness norms); toppings visible in distinct layers when cut in half for a photo.
 - Confidence: HIGH
 - Sources: [How to Eat Everything — Typology of American Hamburgers](https://howtoeateverything.substack.com/p/a-typology-of-american-hamburgers); [Gygi — Regular vs Smash Burger](https://www.gygiblog.com/blog/2023/07/03/regular-burger-vs-smash-burger/)
+- Composition & proportions (§4.7) — one burger [EDITORIAL throughout: sizes, counts and shares reasoned from standard US quarter-pound builds and serving norms, not web-verified this pass — see GAP LOG]:
+  - What dominates: in side view the bun is ~50% of the height (crown ~35%, heel ~15%), the patty ~20%, cheese and toppings together ~30%. From above, the sesame crown is nearly all you see.
+  - Components: bun 10–11 cm across (about 1.6× the can's width); whole burger 7–9 cm tall (about two-thirds the can's height). Patty 1, ~10–11 cm across, 1.2–1.8 cm thick, flush with or just past the bun edge. Cheese 1 slice, corners drooping 1–2 cm over the patty. Tomato 1 slice ~0.6 cm, red rim showing. Lettuce 1–2 leaf pieces, a ~1 cm ruffle peeking out. Pickles 2–3 chips ~3 cm. Onion 1–2 thin rings or none. Sesame seeds sparse, not a crust.
+  - Arrangement: one straight stack, not leaning; if cut in half, the two halves sit side by side, cut faces toward camera, each layer a distinct band.
+  - Vessel fill: in a paper-lined basket or on a ~26 cm plate the burger takes ~40% of the area; any side (fries are common but not part of this entry) stays on the other half.
+  - State cues: cheese soft and draped, not liquid; patty edge lightly glossy; cut face of the bun lightly toasted; no steam haze.
+  - Absent on purpose: a second patty, bacon, egg or avocado unless briefed; sauce dripping down the sides; a skyscraper stack; a lettuce "skirt" all round; a flag toothpick.
+  - Prompt-ready line: "One classic cheeseburger in a paper-lined basket, about two-thirds the can's height and one and a half times its width: a soft golden sesame bun, one round browned beef patty as wide as the bun, a single slice of yellow cheese melted over its edge, one tomato slice, a little crisp lettuce peeking out and a few pickle chips. A straight, neat stack, no drips, nothing extra."
 
 ##### Dish: Smashburger
 - Category: Everyday
@@ -230,6 +238,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: **Thin, wide, irregular (not perfectly round) patty with heavily browned, crisp, lacy dark-edged crust from the Maillard reaction** — the visual opposite of the classic burger's clean round shape and softer sear; typically stacked two or three thin patties high rather than one thick patty; minimal toppings (cheese, onion, pickle, a simple sauce) compared to a loaded classic burger.
 - Confidence: MEDIUM-HIGH for the technique/visual description; MEDIUM for the specific origin story
 - Sources: [Smashburger — What Is A Smash Burger](https://smashburger.com/news/what-is-a-smash-burger); [Daily Meal — Origins of the First Smash Burger](https://www.thedailymeal.com/1313846/first-smash-burger-origins/); [Tasting Table](https://www.tastingtable.com/1529315/smash-burgers-regular-comparison/)
+- Composition & proportions (§4.7) — one double smashburger [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: in side view the bun is ~55% of the height, the thin meat layers ~30%, cheese and toppings ~15%. The lacy dark crust ring at the patty edges is the focal point, not the height.
+  - Components: soft bun ~9–10 cm across; patties 2 (sometimes 3), each ~11–13 cm across and only 0.5–0.8 cm thick, so the dark lacy edge overhangs the bun by 1–2 cm; cheese 1 slice per patty, melted between them; pickles 2–4 chips; onion finely diced or thin-sliced, a small scatter; sauce a thin line. Whole burger 6–8 cm tall, about half the can's height.
+  - Arrangement: patties stacked slightly off-centre so the ragged edges fan out at different points; toppings minimal and low.
+  - Vessel fill: on paper or in a basket, the burger ~35–40% of the area.
+  - State cues: crust deep brown to near-black at the lace, glossy with rendered fat; cheese fully melted into the meat's crevices.
+  - Absent on purpose: a thick, perfectly round patty; lettuce-and-tomato stacks; grill marks; a tall burger.
+  - Prompt-ready line: "One smashburger on white paper, about half the can's height: a soft golden bun over two very thin, wide beef patties whose ragged, lacy, dark-brown crispy edges stick out past the bun on every side, yellow cheese melted between them, a few pickle chips and a little diced onion. Low and wide, glossy with fat, no lettuce, no tomato, no grill marks."
 
 ##### Dish: Turkey burger
 - Category: Everyday, often health-motivated substitution
@@ -239,6 +255,12 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Primary protein: Ground turkey (leaner, requires more added moisture/fat than beef to avoid drying out)
 - Visual/plating characteristics: Patty is typically paler gray-brown (not the deep reddish-brown of a beef patty) both raw and cooked, and has a less pronounced sear/crust than beef; often visibly thinner or drier-looking than a beef patty unless a fat-added recipe is used.
 - Confidence: LOW-MEDIUM — not deeply sourced this pass, description inferred from general cooking knowledge of ground turkey rather than a dedicated source; flag for review
+- Composition & proportions (§4.7) — one burger [EDITORIAL throughout; the entry itself is LOW-MEDIUM — see GAP LOG]:
+  - What dominates: same stack and proportions as the classic cheeseburger above (bun ~50% of height, patty ~20%, toppings ~30%); the only real difference is the patty's colour.
+  - Components: bun 10–11 cm; patty 1, ~10–11 cm across, 1.5–2 cm thick, pale grey-brown with a light sear only on the faces; lettuce 1–2 leaves, tomato 1 slice, red onion 1–2 rings optional; cheese optional (often white or none).
+  - State cues: patty surface slightly matte and firm-looking, not glossy or juicy; no pink centre.
+  - Absent on purpose: a deep reddish-brown beef-coloured patty or charred crust; bacon; thick sauce drips.
+  - Prompt-ready line: "One turkey burger on a white plate, about two-thirds the can's height and a little wider than it: a soft golden bun, one round pale grey-brown patty with only a light golden sear, a crisp leaf of green lettuce, one red tomato slice and a thin ring of red onion. Neat, straight stack, matte and fresh-looking, no bacon, no dripping sauce."
 
 ##### Dish: Fried chicken sandwich
 - Category: Everyday, currently a major national trend/category in its own right
@@ -250,6 +272,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Thick, craggy, deeply golden-brown breading with visible texture (not a smooth, thin coating); for Nashville hot specifically, a **cayenne-oil paste brushed onto the crust immediately after frying** gives the crust a distinctive reddish-orange sheen not present on mainstream fried chicken — the heat is baked into the crust itself, visually and texturally, not just added as a liquid sauce on top. [CONFIDENCE: HIGH for Nashville hot's crust-application method — direct, detailed sourcing]
 - Confidence: HIGH for the national trend and Nashville hot's specific technique; the underlying billion-dollar-category framing is well-corroborated
 - Sources: [Crimson Coward — History of Nashville Hot Chicken](https://www.crimsoncoward.com/blog/history-of-nashville-hot-chicken/); [CNBC — How Nashville Hot Chicken Became So Big](https://www.cnbc.com/2023/11/29/how-nashville-hot-chicken-became-so-big.html); [Wikipedia: Prince's Hot Chicken Shack](https://en.wikipedia.org/wiki/Prince%27s_Hot_Chicken_Shack)
+- Composition & proportions (§4.7) — one mainstream sandwich (Nashville hot → `us-south.md`) [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: in side view the fried fillet is ~40% of the height and the bun ~45%; pickles and sauce are thin accents (~15%). From the front, the craggy fillet overhanging the bun is the hero.
+  - Components: bun (brioche-style, glossy) ~10–11 cm across; fillet 1, irregular, ~12–15 cm across and 2–3 cm thick, overhanging the bun by 1–3 cm on one or two sides; pickle chips 3–5, ~3 cm, just under the crown; sauce a thin pale line (mayo-style); shredded slaw optional. Whole sandwich 9–11 cm tall, about three-quarters of the can's height.
+  - Arrangement: fillet slightly off-centre, uneven edge showing craggy breading; crown sitting a little tilted on the pickles.
+  - Vessel fill: in a basket or on paper, ~40% of the area.
+  - State cues: breading dry-crisp and deep golden with sharp peaks; bun shiny; no oil pooling.
+  - Absent on purpose: a smooth, thin, nugget-style coating; lettuce-and-tomato piles; grill marks; red Nashville sheen unless that variant is briefed.
+  - Prompt-ready line: "One fried chicken sandwich in a paper-lined basket, about three-quarters of the can's height: a shiny golden brioche bun around one thick, irregular fried chicken fillet with a deep golden, craggy, crackly breading that sticks out past the bun on one side, a few green pickle chips and a thin line of pale sauce under the top bun. No lettuce, no tomato."
 
 ##### Dish: Fried chicken — plated
 - Category: Everyday to special-occasion (a classic Sunday/family-meal dish)
@@ -258,6 +288,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Serving format: Plate (bone-in pieces, not a sandwich) — sibling entry to the fried chicken sandwich above, sharing a protein tradition but a completely different visual/serving context
 - Visual/plating characteristics: Bone-in pieces (breast, thigh, drumstick, wing) with the same craggy deep-golden-brown breading described above; served family-style on a platter or plated individually with sides (mashed potatoes, biscuits, greens) rather than in a bun.
 - Confidence: MEDIUM — general framing well-supported, plated-specific visual detail not independently sourced this pass beyond the shared breading description above; flag for review
+- Composition & proportions (§4.7) — family platter and one plate [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on the platter, chicken is ~90% (breading dominating the surface); on a single plate, chicken ~45%, sides ~40%, bare plate ~15%.
+  - Components: a whole bird cut into 8 pieces — breasts 2 (~12–15 cm, often halved), thighs 2 (~8–10 cm), drumsticks 2 (~10–12 cm, a little shorter than the can), wings 2 (~8–10 cm folded). One plate: 2 pieces (e.g. a thigh and a drumstick); mashed potatoes one scoop ~8 cm across with a small pool of gravy in a well; 1 biscuit ~7–8 cm across, 4–5 cm tall; greens a ~8 cm mound, dark and soft.
+  - Arrangement: platter pieces heaped loosely, bones pointing different ways; on a plate the chicken sits on one side, the sides grouped on the other, touching but not mixed.
+  - Vessel fill: an oval platter 35–40 cm mostly covered; a ~27 cm dinner plate ~85% covered.
+  - State cues: breading dry-crisp, deep golden-brown with darker ridges; a faint oil sheen on the paper or platter at most; biscuit tops golden and matte.
+  - Absent on purpose: sauce drizzled over the chicken; parsley or herb garnish; a waffle (chicken and waffles is a different dish); a branded bucket unless a fast-food scene is briefed.
+  - Prompt-ready line: "A white dinner plate with two pieces of Southern fried chicken, a thigh and a drumstick each a little shorter than the can, in deep golden-brown, craggy, crackly breading. Beside them a scoop of mashed potatoes with a small pool of brown gravy, one tall golden biscuit about the can's width and a small mound of dark, soft cooked greens. No sauce on the chicken, no garnish."
 
 #### Hot dog
 
@@ -368,6 +406,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Breaded, fried chicken cutlet topped with tomato sauce and melted/browned mozzarella and grated hard cheese, broiled briefly to finish — same "pizza-on-a-cutlet" layered visual established for Uruguay's milanesa napolitana entry, plated alongside pasta rather than on bread.
 - Confidence: HIGH
 - Sources: [Wikipedia: Chicken parmesan](https://en.wikipedia.org/wiki/Chicken_parmesan)
+- Composition & proportions (§4.7) — one restaurant plate [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: from above, the cutlet ~45% of the plate, spaghetti ~40%, bare rim ~15%. On the cutlet, melted cheese covers ~70–80% of the top, red sauce showing at the edges.
+  - Components: cutlet 1 (restaurants sometimes 2), pounded thin, ~18–22 cm long (about one and a half times the can's height) and 1–1.5 cm thick; mozzarella one continuous melted layer with browned blisters; tomato sauce a ribbon under and around the cutlet; spaghetti a twisted heap ~12–15 cm across and ~5 cm high, sauced on top; grated hard cheese a light dusting; basil 0–2 leaves.
+  - Arrangement: cutlet beside the pasta or lying partly across it; golden breading visible only at the cutlet's edges.
+  - Vessel fill: a 28–30 cm round or oval plate, ~85% covered.
+  - State cues: cheese soft and glossy with browned spots from the broiler; sauce thick, clinging; faint steam.
+  - Absent on purpose: fresh mozzarella rounds or a caprese look; a pile of basil; a side salad in the same plate; garlic bread unless briefed.
+  - Prompt-ready line: "A large white plate with one wide, thin breaded chicken cutlet about one and a half times the can's height, covered edge to edge in bubbling melted mozzarella with browned blisters and a ribbon of thick red tomato sauce, golden breading showing only at its edges. Beside it a twisted heap of spaghetti in red sauce with a light dusting of grated cheese. No salad, no basil pile."
 
 ##### Dish: Chicken Parm Hero/Sub
 - Category: Everyday
@@ -377,6 +423,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Sauce and cheese visibly soak into/onto the cut roll in a way that doesn't happen on a plate; roll structurally needs to be sturdy (a soft hoagie roll, not a delicate one) to avoid falling apart under the sauce.
 - Confidence: HIGH
 - Sources: [Tasting Table — Most Iconic Italian-American Sandwiches](https://www.tastingtable.com/2130506/most-iconic-italian-american-sandwiches/)
+- Composition & proportions (§4.7) — one hero, cut in half [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on the cut face, bread ~50%, chicken ~25%, sauce and cheese ~25%. From above, a blanket of browned melted cheese fills the split roll.
+  - Components: roll 1, a 25–30 cm "full" hero (about two and a half times the can's height) or a 15 cm half, 7–8 cm wide; cutlet 1–2, cut to fit or overhanging the roll ends by 1–2 cm; mozzarella melted over the top of the filling with browned spots; red sauce soaking into the crumb at the seam.
+  - Arrangement: cut on a slight diagonal, the two halves offset side by side on wax paper, cut faces toward camera.
+  - Vessel fill: wax paper or a long plate, sandwich ~60% of the area; nothing else needed.
+  - State cues: crust lightly crisp from the broiler; cheese glossy and stretched at the cut; sauce stains on the paper.
+  - Absent on purpose: lettuce, tomato slices, mayo; a neat dry deli-sandwich look.
+  - Prompt-ready line: "One chicken parm hero on wax paper, cut in half on a slight diagonal, each half about the can's height in length: a long, sturdy golden roll split open around breaded chicken cutlet, thick red tomato sauce soaking into the bread at the seam, and a blanket of melted, browned mozzarella on top. Cut faces toward camera, a few sauce stains on the paper. No lettuce, no tomato slices."
 
 ##### Dish: Spaghetti and Meatballs — plated
 - Category: Everyday
@@ -385,6 +439,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Serving format: Plate
 - Confidence: HIGH
 - Sources: [Wikipedia: Spaghetti and meatballs](https://en.wikipedia.org/wiki/Spaghetti_and_meatballs)
+- Composition & proportions (§4.7) — one plate [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: from above, spaghetti ~50%, red sauce ~30%, meatballs ~20%. The pasta is the base; meatballs are a cluster on top, not a pile.
+  - Components: spaghetti a twisted nest ~15–18 cm across, ~6 cm high; meatballs 3 (sometimes 4), each ~4–5 cm across (about two-thirds of the can's width), browned then sauced; tomato sauce ladled over the centre covering ~half the pasta, plain sauced strands showing at the edges; grated hard cheese a light dusting; basil or parsley 0–1 small leaf.
+  - Arrangement: meatballs grouped in the centre on top of the nest, touching each other, half-coated in sauce.
+  - Vessel fill: a 26–30 cm shallow pasta bowl or plate, ~70% covered, rim clear.
+  - State cues: sauce thick and glossy, not watery; a light steam; cheese dusting starting to soften.
+  - Absent on purpose: one giant meatball bigger than the can (a real restaurant novelty — only if briefed); a mound of cheese; meatballs scattered around the plate rim; garlic bread unless briefed.
+  - Prompt-ready line: "A wide white pasta bowl holding a twisted nest of spaghetti in glossy red tomato sauce, sauce ladled over the centre with plain sauced strands showing at the edges. On top in the middle, three browned meatballs each about two-thirds of the can's width, touching, half-coated in sauce, with a light dusting of grated cheese. Steaming gently. No basil pile, no extra cheese."
 
 ##### Dish: Meatball Sub/Hero
 - Category: Everyday
@@ -393,6 +455,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Serving format: Sandwich — meatballs and tomato sauce on a long roll, topped with melted mozzarella, broiled to finish, same visual logic as the chicken parm hero above
 - Confidence: HIGH
 - Sources: [Sip and Feast — Meatball Parm Hero](https://www.sipandfeast.com/meatball-parm-hero/)
+- Composition & proportions (§4.7) — one sub [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on the cut face, bread ~45%, meatballs ~35%, sauce and cheese ~20%.
+  - Components: roll 1, 15 cm (about the can's height plus a quarter) or 25–30 cm, 7–8 cm wide; meatballs ~4–5 cm across, 3 in a 15 cm roll or 5–6 in a footlong, often halved so they lie flat; melted mozzarella over the top with browned spots; red sauce pooling in the seam.
+  - Arrangement: meatballs (or halves) in one row end to end, round tops just showing under the cheese; cut in half, halves offset.
+  - Vessel fill: wax paper or a long plate, ~60% of the area.
+  - State cues: cheese glossy and stretched at the cut; sauce soaking into the crumb; crust lightly crisp.
+  - Absent on purpose: lettuce, tomato slices, raw onion; meatballs spilling out onto the plate.
+  - Prompt-ready line: "One meatball sub on wax paper, a little longer than the can's height, cut in half: a sturdy golden roll split open around a single row of round, browned meatballs each about two-thirds of the can's width, thick red tomato sauce pooling in the seam and soaking the bread, and melted mozzarella with browned spots over the top. No lettuce, no tomato."
 
 #### American deli culture
 
@@ -403,6 +473,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Serving format: Sandwich
 - Primary starch/accompaniment: Toasted white or wheat bread (not a specialty bread)
 - Confidence: MEDIUM — well-known but not deeply sourced this pass; flag for follow-up
+- Composition & proportions (§4.7) — one sandwich [EDITORIAL throughout; entry is thin — see GAP LOG]:
+  - What dominates: on the cut face, toast ~40%, bacon ~20%, lettuce ~20%, tomato ~20%; the three fillings read as three clean colour bands (brown, green, red).
+  - Components: toasted sandwich bread 2 slices, ~11–12 cm square, ~1.2 cm thick; bacon 3–5 strips, folded to fit, crisp ends poking 1–2 cm past the crust; lettuce 1–2 leaves with a ruffled edge showing; tomato 2 slices ~0.7 cm thick; mayo a thin sheen, not visible as a layer. Sandwich 5–7 cm tall, about half the can's height.
+  - Arrangement: cut on the diagonal, two triangles offset, cut faces toward camera.
+  - Vessel fill: a ~23–26 cm plate, sandwich ~50%; a handful of potato chips or a pickle spear optional on the other side.
+  - State cues: toast golden and dry; bacon crisp and rippled, deep red-brown; tomato juicy; lettuce fresh and crisp.
+  - Absent on purpose: cheese, avocado, egg, turkey (a club is a different sandwich); a third bread slice.
+  - Prompt-ready line: "A BLT on a white plate, cut on the diagonal into two triangles about half the can's height, cut faces toward camera: golden toasted white bread around three clean layers — crisp, rippled deep-red-brown bacon with ends poking out, a ruffled leaf of bright green lettuce and two thick juicy red tomato slices. A few potato chips beside it. No cheese, no third slice."
 
 ##### Dish: Turkey club sandwich
 - Category: Everyday
@@ -410,6 +488,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Regional form variation: None identified — nationally uniform
 - Serving format: Sandwich, distinctively triple-decker (three bread slices, two fillings layers), usually cut into triangles and held together with toothpicks/frilled picks — this triple-decker structure is the defining visual trait vs. a standard two-slice sandwich.
 - Confidence: MEDIUM — structural detail is common knowledge but not independently sourced this pass; flag for follow-up
+- Composition & proportions (§4.7) — one club [EDITORIAL throughout; entry is thin — see GAP LOG]:
+  - What dominates: on the cut face, toast ~40% (three slices), turkey ~25%, bacon ~10%, lettuce and tomato ~25%.
+  - Components: toast 3 slices, ~11–12 cm square; sliced turkey ~4–6 thin slices, folded, a ~1–1.5 cm layer; bacon 2–3 strips; lettuce 1 leaf; tomato 2 slices; mayo thin. Cut into 4 triangles, each 8–10 cm tall on its cut edge (about three-quarters of the can's height), each held by 1 frilled pick.
+  - Arrangement: 4 triangles standing on their points or crusts in a ring or a row, cut faces outward showing the two filling tiers split by the middle slice.
+  - Vessel fill: a ~26–28 cm plate; sandwich ~50% in the centre or one side; potato chips or fries and a pickle spear on the rest.
+  - State cues: toast golden and dry; turkey pale and moist; bacon crisp.
+  - Absent on purpose: a two-slice build (the third slice is the whole point); legible pick flags; cheese as a default.
+  - Prompt-ready line: "A turkey club on a white plate, cut into four tall triangles each about three-quarters of the can's height, standing in a ring with a colourful frilled pick in each. Every cut face shows three slices of golden toast with two tiers of filling: pale folded turkey, crisp bacon, green lettuce and red tomato. A small pile of potato chips and one pickle spear alongside."
 
 ##### Dish: Pastrami on rye
 - Category: Everyday to special-occasion (NYC Jewish deli tradition)
@@ -420,6 +506,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Meat is piled extremely high — often several inches thick — which is a genuine, documented NYC deli visual convention, not exaggeration; mustard is the traditional condiment, not mayonnaise.
 - Confidence: HIGH for the origin story and NYC association
 - Sources: [Tasting Table — How Pastrami Took Over New York City](https://www.tastingtable.com/1634988/why-pastrami-is-associated-with-new-york/); [Wikipedia: Pastrami on rye](https://en.wikipedia.org/wiki/Pastrami_on_rye)
+- Composition & proportions (§4.7) — one NYC-deli sandwich [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on the cut face, meat ~70–75% of the height, bread ~25%; the sandwich is a stack of meat with bread as thin caps.
+  - Components: rye 2 slices, ~12 × 10 cm, ~1 cm thick, pale crumb flecked with caraway seeds; pastrami hand-cut slices ~3–5 mm thick, folded and piled 6–10 cm high (roughly half to three-quarters of the can's height), deep pink-red with a black pepper-and-coriander rim and white fat edges; brown deli mustard a thin smear, visible at the edge.
+  - Arrangement: cut in half straight across, halves side by side or one leaning on the other, cut faces toward camera, meat slightly spilling from the sides.
+  - Vessel fill: a plain white oval or round plate, sandwich ~60%; a small dish of 2–4 pickle spears or halves beside it (a deli table custom).
+  - State cues: meat moist and glistening, fat translucent; bread soft, untoasted.
+  - Absent on purpose: mayonnaise, lettuce, tomato, cheese; toasted or pressed bread; neat machine-thin slices.
+  - Prompt-ready line: "A pastrami on rye on a plain white plate, cut in half with the cut faces toward camera: two thin slices of soft caraway-flecked rye capping a towering pile of hand-cut pastrami about half the can's height, deep pink-red with a peppery black rim and glistening white fat edges, a thin smear of brown mustard. A small dish of green pickle spears beside it. No lettuce, no cheese."
 
 ##### Dish: Reuben sandwich
 - Category: Everyday to special-occasion
@@ -429,6 +523,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Primary protein/composition: Hot corned beef, melted Swiss cheese, sauerkraut, on rye bread, typically grilled/pressed
 - Confidence: HIGH for composition; LOW for the exact origin story specifics
 - Sources: [National Geographic — Story Behind the Reuben Sandwich](https://www.nationalgeographic.com/travel/article/what-is-reuben-sandwich-the-story-behind-the-iconic-deli-staple); [Wikipedia: Reuben sandwich](https://en.wikipedia.org/wiki/Reuben_sandwich)
+- Composition & proportions (§4.7) — one sandwich [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on the cut face, corned beef ~40%, bread ~25%, sauerkraut ~20%, melted Swiss ~15%.
+  - Components: rye 2 slices, ~12 × 10 cm, grilled golden with a buttery sheen; corned beef thin slices piled 3–5 cm high, pink-red; sauerkraut a pale, stringy ~1 cm layer; Swiss 1–2 slices melted and draping from the edges; Russian-style dressing (standard on the sandwich, though not named in the entry above) a thin pinkish-orange line. Sandwich 5–7 cm tall, about half the can's height.
+  - Arrangement: cut on the diagonal, halves offset, cut faces toward camera, cheese stretching at the cut.
+  - Vessel fill: a ~26 cm plate, ~55%; pickle spear or fries optional.
+  - State cues: bread pressed flat and crisp; cheese glossy; kraut moist.
+  - Absent on purpose: lettuce, tomato; untoasted bread; grill-press stripes.
+  - Prompt-ready line: "A Reuben on a white plate, cut on the diagonal, about half the can's height: two slices of rye grilled golden and crisp with a buttery sheen, pressing a thick layer of thin pink corned beef, a pale layer of sauerkraut and white Swiss cheese melting down the sides, a thin line of pinkish dressing. Cut faces toward camera. No lettuce, no tomato."
 
 ##### Naming norm: Hoagie / Sub / Hero / Grinder
 - **This is a naming-regionalism, not a form-changing variation** — the sandwich itself (long roll, deli meats/cheeses, lettuce/tomato/onion, oil and vinegar or condiments) is largely the same; what changes by region is *what people call it*, which still matters for scene/dialogue authenticity even though it doesn't change the plating:
@@ -463,6 +565,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
   - **Historical/demographic context**: halal carts are a relatively recent evolution of NYC's street-vending trade, not the original form — Muslim immigrant vendors (predominantly from Egypt, Bangladesh, and Afghanistan) took over the street-cart trade in the late 1980s/1990s from Greek vendors, who had themselves earlier succeeded Italian and German vendors. Documented demographic shift: in 1990, 306 New Yorkers identifying as Italian/German first-generation immigrants worked as street vendors; by 2005, that number was zero, while vendors from Egypt, Bangladesh, and Afghanistan rose from 69 to 563 over the same period. [CONFIDENCE: HIGH — cited to city demographic data via an academic source] [SOURCE: [Macaulay CUNY/OpenLab — More Than Chicken Over Rice: The True Story Behind NYC's Halal Carts](https://openlab.macaulay.cuny.edu/nyfoodatlas/2025/05/15/more-than-chicken-over-rice-the-true-story-behind-nycs-halal-carts/)]
   - **Queens note**: Queens is broadly documented as one of NYC's most ethnically diverse boroughs, and immigrant-run food carts generally are a well-known feature of neighborhoods like Jackson Heights and Astoria — but the halal cart sourcing found this pass documents the phenomenon citywide, not with Queens-specific detail beyond that general diversity framing. Don't overstate a Queens-exclusive claim; flag for a dedicated borough-level source if one is needed. [CONFIDENCE: LOW for anything Queens-specific beyond general NYC borough diversity]
   - **Prompt-writing note**: the traditional street-cart umbrella brand (a specific commercial hot-dog-cart umbrella maker whose umbrellas became a general NYC cart fixture) is itself a trademarked product — per `country-file-schema.md` §7.5's landmark/trademark rule, describe it generically ("a yellow cart umbrella"), not by brand name, in an actual image prompt.
+- Composition & proportions (§4.7) — one Greek-American gyro (the halal-cart form's block belongs in `us-northeast.md`) [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: looking into the fold, meat ~50%, tomato and onion ~25%, tzatziki ~15%, pita edge ~10%.
+  - Components: pita 1, ~18–20 cm across (about one and a half times the can's height), soft, lightly griddled with golden spots, folded into a half-cone; meat thin shaved ribbons ~5–8 cm long, 2–3 cm wide, browned crisp edges, a generous heap; tomato 4–6 wedges or a scatter of dice; red or white onion thin slivers; tzatziki 1–2 thick white dollops or a band across the meat.
+  - Arrangement: wrapped at the base in a wax-paper or foil sleeve, open end upward, filling heaped above the pita edge.
+  - Vessel fill: on a plate or basket, the gyro laid on its side, ~40% of the area; fries optional beside it.
+  - State cues: meat glistening with fat, darker at the edges; tzatziki thick, not runny.
+  - Absent on purpose: fries stuffed inside; lettuce as a main layer; a tight burrito roll (that is the halal-cart form); chicken as a default.
+  - Prompt-ready line: "One gyro lying on its side in a paper-lined basket: a soft, golden-spotted pita about one and a half times the can's height folded around a generous heap of thin shaved meat ribbons with browned crispy edges, a few red tomato wedges, slivers of onion and a thick white dollop of tzatziki, the bottom wrapped in wax paper. No fries inside, no lettuce."
 
 #### Chinese-American
 
@@ -475,6 +585,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Orange/General Tso's chicken — battered, fried chicken pieces coated in a glossy, thick, caramelized orange-chili sauce (bright orange-red, not a thin glaze); fried rice — visibly separate grains (not mushy/clumped), flecked with egg, scallion, and small diced vegetables/protein; egg rolls — deep-fried to a uniform dark golden-brown, cylindrical, with a crackling (not soft) wrapper.
 - Confidence: MEDIUM-HIGH for the dish list; MEDIUM for the specific visual details, which are inferred from preparation description rather than a dedicated visual source
 - Sources: [NBC News — Data Reveals Most Popular Chinese Dish in America](https://www.nbcnews.com/news/amp/ncna299576); [Wikipedia: Orange chicken](https://en.wikipedia.org/wiki/Orange_chicken)
+- Composition & proportions (§4.7) — a takeout spread and one plated portion [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: in a spread, the white containers are a big share of the frame; on a plate, fried rice ~40%, orange/General Tso's chicken ~45%, an egg roll ~15%.
+  - Components: folded paper containers — pint ~9 cm tall, quart ~10–11 cm tall (a little shorter than the can), wire handle optional; orange/General Tso's chicken irregular chunks ~3–4 cm, ~12–18 per quart, a few broccoli florets (0–5) at most; fried rice filling a container to the brim, grains separate, with small egg flecks, peas/carrot dice and scallion; egg roll 1–2, ~12–14 cm long (about the can's height) and ~3–4 cm thick.
+  - Arrangement: 2–4 open containers clustered, flaps folded back, one plate or the open container eaten from; chopsticks or a plastic fork lying flat beside.
+  - Vessel fill: containers filled to the fold line or just above; on a plate, rice and chicken side by side, touching, egg roll on the rim side.
+  - State cues: chicken glaze thick and glossy, clinging, bright orange-red; egg roll wrapper blistered and crackly; faint steam from the rice.
+  - Absent on purpose: legible print on containers or fortune slips; chopsticks stuck upright in the rice; dragon or lantern décor; soy-sauce puddles.
+  - Prompt-ready line: "Three open white folded takeout containers, each a little shorter than the can, on a table: one heaped with glossy, sticky bright orange-red fried chicken chunks, one filled to the brim with separate-grained fried rice flecked with egg, peas and scallion, and beside them two crackly, blistered golden egg rolls about the can's height. Chopsticks lying flat. Plain unprinted containers, no décor."
 
 #### Indian-American
 
@@ -487,6 +605,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Thick, glossy, orange-to-brick-red sauce with visible cream/butter sheen; chunky (not shredded) chicken pieces; served in a metal or ceramic bowl/karahi with basmati rice and naan alongside. A claim that US versions run creamier/sweeter than versions in India is plausible but only LOW-MEDIUM sourced (food-blog tier, not a rigorous comparison) — flag for review. [SOURCE: [Savory Spice — Behind the Seasoning: Butter Chicken](https://www.savoryspiceshop.com/blogs/news/behind-the-seasoning-butter-chicken)]
 - Confidence: HIGH that these are the most iconic/ordered "curry" items on US Indian menus; MEDIUM-LOW on the specific creaminess/sweetness delta
 - Sources: [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/); [Wikipedia: Chicken tikka masala](https://en.wikipedia.org/wiki/Chicken_tikka_masala); [Mashed — The Untold Truth Of Chicken Tikka Masala](https://www.mashed.com/818775/the-untold-truth-of-chicken-tikka-masala/)
+- Composition & proportions (§4.7) — one curry order with rice and naan [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: in the curry bowl, sauce ~60% of the visible surface, chicken ~30%, cream swirl and cilantro ~10%. Across the whole spread, curry, rice and naan roughly equal thirds.
+  - Components: metal or ceramic bowl / karahi ~12–15 cm across (about twice the can's width), 5–7 cm deep, filled ~two-thirds; chicken boneless chunks ~3–4 cm, ~8–12 per bowl, half-submerged with charred tandoor edges; cream a thin swirl; cilantro a small pinch. Basmati a separate bowl or plate mound ~10–12 cm across, long separate white grains. Naan ~4 quarters in a basket (see Naan below).
+  - Arrangement: chicken evenly distributed, tops breaking the sauce surface; bowl centred, rice and naan flanking.
+  - Served portion: spooned onto the diner's plate beside rice — 3–4 chicken pieces and sauce edging into the rice.
+  - State cues: sauce thick, glossy, a butter sheen with tiny orange oil beads at the edge; light steam.
+  - Absent on purpose: shredded chicken; thin watery sauce; a big cilantro pile; curry poured over all the rice.
+  - Prompt-ready line: "A small copper-toned bowl about twice the can's width, two-thirds full of thick, glossy orange-red curry sauce with a buttery sheen and a thin cream swirl, chunks of chicken with charred edges half-sunk in it, a small pinch of cilantro. Beside it a mound of long-grain white basmati rice and a basket of torn, blistered naan pieces. Light steam. No shredded meat."
 
 ##### Dish: Naan (plain and garlic naan)
 - Category: Everyday — near-mandatory add-on to any Indian meal in the US
@@ -496,6 +622,13 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Plain naan — teardrop-shaped, pillowy, charred blistered spots from the tandoor wall, brushed with ghee. Garlic naan — same base, visibly flecked with chopped garlic and cilantro, glossier from butter. Served warm, folded/stacked in a small basket or bread plate.
 - Confidence: HIGH for the visual description and near-mandatory-order status; MEDIUM for the India-vs-US staple-status inversion
 - Sources: [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/)
+- Composition & proportions (§4.7) — one order [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: golden-beige bread surface ~70%, charred blisters ~15–20%, garlic and cilantro flecks (garlic naan) ~10%.
+  - Components: one naan, teardrop-shaped, ~25–30 cm long (about twice the can's height) and ~15–20 cm wide, 0.5–1 cm thick with puffed bubbles; charred spots 1–2 cm, a dozen or more; garlic finely chopped, evenly scattered; cilantro small torn flecks.
+  - Arrangement: usually cut into 4 wedges, overlapping in a small cloth- or paper-lined basket, or folded once on a bread plate.
+  - State cues: ghee/butter gloss, a faint steam when fresh; soft and pliable, never cracker-crisp.
+  - Absent on purpose: a round pita-like disc; uniform even browning with no char; heavy herb piles.
+  - Prompt-ready line: "A small lined basket with four overlapping wedges of soft, puffy naan, together about twice the can's height, golden-beige with a dozen dark charred blisters, glossy with melted butter and evenly flecked with chopped garlic and green cilantro. Faint steam rising from the folds. Soft, chewy and pliable, not crisp or cracker-like, and no pile of herbs on top."
 
 ##### Dish: Samosas
 - Category: Everyday (appetizer/starter)
@@ -506,6 +639,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Triangular, deep-fried golden-brown, blistered, flaky-crisp exterior; pale yellow-beige spiced potato-pea filling visible when cut. Almost always served with two dipping sauces — dark tamarind chutney and bright green cilantro-mint chutney.
 - Confidence: HIGH
 - Sources: [Saveur — Classic Indian Samosa](https://www.saveur.com/article/Recipes/Classic-Indian-Samosa/); [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/)
+- Composition & proportions (§4.7) — one appetizer order [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: the two golden pastries ~60% of the plate, chutneys ~25%, plate ~15%.
+  - Components: samosas 2 per order, plump three-sided pyramids ~8–10 cm on the long edge (about two-thirds of the can's height), flaky blistered crust; one cut open showing pale yellow potato cubes (~1 cm) and green peas; tamarind chutney dark brown, and cilantro-mint chutney bright green, each in a ~6 cm ramekin (about the can's width), or pooled side by side.
+  - Arrangement: samosas leaning on each other at the plate's centre, chutneys at the side.
+  - Vessel fill: a ~20–23 cm plate, ~85% used.
+  - State cues: pastry dry-crisp, blistered, matte; a wisp of steam from the cut one.
+  - Absent on purpose: flat spring-roll-like triangles; fork-crimped empanada edges; salad garnish.
+  - Prompt-ready line: "Two plump, three-sided golden samosas, each about two-thirds of the can's height, with flaky, blistered crust, leaning together on a small white plate; one is broken open to show pale yellow spiced potato and green peas. Beside them two small ramekins, each about the can's width: dark brown tamarind chutney and bright green mint-cilantro chutney. No salad garnish."
 
 ##### Dish: Biryani
 - Category: Everyday to special-occasion
@@ -515,6 +656,14 @@ authenticity error as getting the wrong bun would have been in Uruguay.
 - Visual/plating characteristics: Mounded, layered rice — basmati visibly streaked/marbled with saffron or turmeric (patchy yellow-orange next to plain white, not evenly colored, when made with traditional "dum" layering), studded with meat/vegetable pieces, caramelized fried onion, and whole spices (cinnamon stick, cardamom pods, bay leaf) visible on top; garnished with cilantro, sometimes a hard-boiled egg wedge or side of yogurt raita.
 - Confidence: MEDIUM — corroborated as a top-ordered dish across multiple sources, but no single authoritative ordering-data source the way the Chinese-American entry has GrubHub data
 - Sources: [Wikipedia: Biryani](https://en.wikipedia.org/wiki/Biryani); [Tasting Table — 15 Popular Dishes At Indian Restaurants In The US](https://www.tastingtable.com/1591939/most-popular-indian-dishes-us/)
+- Composition & proportions (§4.7) — one serving [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: rice ~70% of the visible surface (patchy saffron-orange and white), meat ~15–20%, fried onion ~5%, herbs and whole spices ~5%.
+  - Components: basmati long grains, separate; chicken 2–3 bone-in pieces ~5–7 cm or 5–8 boneless chunks ~3–4 cm, mostly half-buried; fried onion thin dark-brown crisp strands, a scatter; whole spices 1 cinnamon stick, 2–3 cardamom pods, 1 bay leaf; cilantro/mint a light scatter; half a hard-boiled egg optional; raita in a small bowl ~8–10 cm.
+  - Arrangement: rice mounded in a dome ~6–8 cm high, meat peeking out, onions and herbs on top.
+  - Vessel fill: a ~20–25 cm plate or a metal bowl, mound covering ~60–70% of the base.
+  - State cues: grains dry and fluffy, lightly glossy; light steam.
+  - Absent on purpose: uniform yellow rice; curry sauce pooling; peas and carrot dice (a pulao look).
+  - Prompt-ready line: "A domed mound of fluffy long-grain basmati rice on a white plate, patchy saffron orange and white, with a few pieces of chicken half-buried and peeking out, a scatter of dark crispy fried onion strands, a cinnamon stick and two green cardamom pods on top, and fresh herb leaves. A small bowl of white raita beside it, a little wider than the can. No sauce."
 
 ##### Regional prevalence note — Indian-American (prevalence-only, no regional-file pointer needed)
 Indian restaurants and Indian-American population concentrate measurably by state/metro rather than spreading evenly — the dish forms don't change, but how "expected" a scene featuring Indian food reads does, by location:
@@ -535,6 +684,14 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Confidence: HIGH for the structural description and mainstreaming role; MEDIUM for the exact invention story
 - Sources: [Wikipedia: California roll](https://en.wikipedia.org/wiki/California_roll); [History.com](https://www.history.com/articles/sushi-america-first-restaurant-california-rolls); [Britannica: California roll](https://www.britannica.com/topic/California-roll)
 - **Gap flagged by `us-west-coast.md`'s own research (2026-09-24): this entry has no §4.5 real-world-scale field** (a standard 6-8-piece roll's per-piece diameter, roughly comparable to a large coin/a half-dollar, and a full roll's plated footprint) — predates §4.5 being made mandatory project-wide. Candidate for this file's own future audit pass; not fixed here since `us-west-coast.md` correctly did not duplicate this nationally-uniform entry.
+- Composition & proportions (§4.7) — one roll, 8 pieces (also answers the missing §4.5 scale flag above) [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on each cut face, the white rice ring (with its roe or sesame coat) ~60%, the filling core ~30%, the thin dark nori line ~10%.
+  - Components: pieces 8, each ~4.5–5.5 cm across (a little less than the can's width) and ~2–2.5 cm thick (about a fifth of the can's height); core ~1.5–2 cm across — crab stick pink-white, avocado pale green, cucumber strip pale green; outer coat of orange tobiko or white sesame; pickled ginger a pink ~3 cm heap; wasabi one grape-sized ball; spicy-mayo dots optional.
+  - Arrangement: pieces in one row of 8 or two rows of 4 on a rectangular plate, cut faces up, slightly leaning; ginger and wasabi at one end.
+  - Vessel fill: a ~25 × 10 cm rectangular plate, ~70% covered; soy in a small separate dish.
+  - State cues: rice moist and faintly glossy; avocado bright, not browned.
+  - Absent on purpose: nori on the outside (this is inside-out); raw fish; a mountain of ginger; soy poured over the pieces.
+  - Prompt-ready line: "Eight pieces of California roll in two neat rows on a white rectangular plate, cut faces up, each round a little less than the can's width: an outer ring of white rice coated in bright orange roe, a thin dark seaweed line, and a centre of pink-white crab, pale green avocado and cucumber. A small pink heap of pickled ginger and a green dab of wasabi at one end."
 
 ##### Dish/context: Everyday "strip-mall" and grocery-store sushi (vs. omakase)
 - Category: Everyday — a context/format note as much as a dish entry, since it materially changes what a plausible "American sushi" scene looks like
@@ -544,6 +701,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Casual/strip-mall sushi restaurants and grocery-store sushi counters are ubiquitous and visually distinct from omakase — commonly anchor/secondary tenants in ordinary strip malls, menu dominated by cooked-and-invented rolls (California, spicy tuna, rainbow, dragon) rather than nigiri/sashimi-forward presentation. Prepackaged supermarket sushi became widespread from the mid-1980s (Advanced Fresh Concepts, founded 1986, credited with pioneering nationwide distribution) and is sold in clear plastic clamshells, pre-cut, refrigerated, with a small packet of soy sauce/wasabi/pickled ginger — the visual and contextual opposite of an omakase tasting-menu presentation (minimal decoration, fish-forward). A "casual/everyday" sushi brief should reference this register, not omakase.
 - Confidence: HIGH for the ubiquity/casual-vs-omakase distinction; MEDIUM for the specific 1986/Advanced Fresh Concepts detail (single source)
 - Sources: [TASTE — How America Warmed Up to Cold Grocery-Store Sushi](https://tastecooking.com/america-warmed-cold-grocery-store-sushi/); [History.com](https://www.history.com/articles/sushi-america-first-restaurant-california-rolls); [Smithsonian — Sushi Collection](https://americanhistory.si.edu/collections/object-groups/sushi-collection)
+- Composition & proportions (§4.7) — one grocery clamshell [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: the pieces fill ~80% of the tray; ginger and wasabi a corner ~10%; black tray base ~10%.
+  - Components: clear hinged clamshell with a black base, ~18–22 × 12–15 cm; pieces 8–10 (one roll of 8, sometimes plus 2 nigiri), same ~4.5–5.5 cm rounds as the California roll above, pressed snugly together; ginger a small pink heap; wasabi a pale green dab; soy sauce in a sealed packet or tiny fish-shaped bottle.
+  - Arrangement: two tight rows, cut faces up, packed with no gaps; lid open or closed but see-through.
+  - State cues: cold, slightly matte rice; faint condensation on the lid; nothing steaming.
+  - Absent on purpose: legible price labels or stickers; wooden boards, sushi-bar counter or chef; artful garnish.
+  - Prompt-ready line: "A clear plastic clamshell tray with a black base, about three times the can's width, lid open, packed tightly with two rows of inside-out sushi roll pieces, cut faces up, white rice with orange roe around pink and green centres. A small heap of pink pickled ginger and a dab of green wasabi in one corner, a sealed soy packet. Cold, faint condensation, no labels."
 
 #### Thai-American
 
@@ -557,6 +721,14 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Warm brownish-orange to reddish-orange noodles; garnished with a lime wedge, crushed peanuts on top, and a small pile of raw bean sprouts on the side rather than fully mixed in. **Sourced Americanization detail**: mainstream US pad thai often uses ketchup in place of or alongside traditional tamarind paste, producing a more saturated red-orange color and simpler sweetness than the more sour-forward, less-red traditional tamarind-and-palm-sugar version — directly analogous to the spaghetti-and-meatballs/Chinese-American framing elsewhere in this file, though here it's a documented deviation rather than a wholesale invention. [CONFIDENCE: MEDIUM — corroborated across multiple food-writing sources, no single high-authority source found this pass]
 - Confidence: HIGH for ordering prominence and government-campaign origin; MEDIUM for the ketchup/color detail
 - Sources: [Smithsonian Magazine](https://www.smithsonianmag.com/travel/the-surprising-history-of-pad-thai-180984625/); [The Takeout](https://www.thetakeout.com/grubhub-top-orders-most-delivered-foods-of-2022-1849894763/); [Mental Floss](https://www.mentalfloss.com/article/650530/pad-thai-food-history)
+- Composition & proportions (§4.7) — one plate [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: noodles ~70% of the visible surface, protein ~12%, bean sprouts ~8%, peanuts, egg and scallion together ~10%.
+  - Components: flat rice noodles ~5 mm wide, heaped ~6–8 cm high; protein — shrimp 4–6 (~5–6 cm curled) or chicken slices 8–12 (~3–4 cm) or tofu cubes ~1.5 cm, mostly tangled in; egg small scrambled bits through the noodles; scallion 3–5 cm lengths; crushed peanuts ~2 tablespoons, a small heap on top or side; bean sprouts raw, a small pile on the side (per the entry); lime wedge 1.
+  - Arrangement: noodle mound in the centre, protein distributed through it with a few pieces on top, sprouts, peanuts and lime grouped at the rim.
+  - Vessel fill: a ~26–30 cm plate, mound covering ~60%.
+  - State cues: noodles glossy, slightly sticky, reddish-orange (US ketchup-leaning) with a few darker wok-seared spots; light steam.
+  - Absent on purpose: soupy sauce; a mountain of cilantro or chilies; chopsticks stuck upright; broth.
+  - Prompt-ready line: "A white plate with a glossy heap of flat reddish-orange rice noodles about half the can's height, tangled with a few pink curled shrimp, bits of scrambled egg and short green scallion pieces. At the rim, a small pile of raw white bean sprouts, a little heap of crushed peanuts and one lime wedge. Lightly steaming, no sauce pooling."
 
 ##### Regional prevalence note — Thai-American (prevalence-only, no regional-file pointer needed)
 - Thai cuisine is frequently cited as one of the most popular Asian cuisines in the US and specifically associated with **on-premise (sit-down) dining**, as opposed to Chinese/Mexican food's stronger takeout association. [CONFIDENCE: MEDIUM — corroborated via secondary reporting citing NRA/Pew data; primary NRA study not directly read] [SOURCE: [Restaurant Business Online](https://www.restaurantbusinessonline.com/americans-embracing-global-flavors-menus-study-finds); [Pew Research Center](https://www.pewresearch.org/short-reads/2023/05/23/71-of-asian-restaurants-in-the-u-s-serve-chinese-japanese-or-thai-food/)]
@@ -575,6 +747,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Confidence: HIGH for basic ubiquity/format; MEDIUM for regional flavor-variant claims; LOW/contested for the origin legend
 - Origin note: The popular "George Crum invented the potato chip at Saratoga Springs in 1853" story is widely repeated, but historians have found no solid evidence for the specific anecdote, and a competing claimant (Catherine Wicks) and an even earlier 1849 reference exist — treat as popular legend, not verified history.
 - Sources: [Daily Meal — Regional Potato Chip Brands](https://www.thedailymeal.com/1875228/regional-potato-chip-brands-to-buy/); [Wikipedia: Dill pickle chips](https://en.wikipedia.org/wiki/Dill_pickle_chips); [History.com — Who Invented the Potato Chip?](https://www.history.com/articles/who-invented-potato-chip-saratoga); [JSTOR Daily — The Invented Potato Chip Myth](https://daily.jstor.org/story-invention-potato-chip-myth)
+- Composition & proportions (§4.7) — an open bag and a party bowl [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: chips only; in a bowl they fill ~100% of the view, heaped above the rim.
+  - Components: classic chips ~4–6 cm across (a little smaller than the can's width), ~1–1.5 mm thin, slightly curled; kettle chips 4–7 cm, thicker, folded and irregular; salt fine specks. A single-serve bag ~15–18 cm tall with chips showing at the torn mouth; a shared bowl ~20–25 cm across holds a few hundred chips.
+  - Arrangement: bowl mounded 3–5 cm above the rim; beside an open bag, 3–5 loose chips on the surface.
+  - State cues: dry, faintly oily sheen; pale gold (classic) or deeper amber (kettle).
+  - Absent on purpose: legible brand or flavour text on the bag; dips unless briefed (see Chips and dip); crumbs everywhere.
+  - Prompt-ready line: "A wide bowl, about three times the can's width, heaped above its rim with thin, pale golden, slightly curled potato chips, each a little smaller than the can's width, with a faint oily sheen and fine salt specks. Beside it an open, plain crinkled foil bag with chips showing at its mouth and three loose chips on the table. No logos, no dip."
 
 ##### Dish: Movie theater popcorn
 - Category: Everyday/occasion snack — tied specifically to the cinema-going environment, not a home-food item
@@ -586,6 +765,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Confidence: HIGH — the striped tub and concession context are well-documented and give one of the most checkable visual authenticity markers in this snack set
 - Historical note: Popcorn was actually banned from many respectable theaters in the silent-film/early-talkie era (1910s-late 1920s) as downmarket/messy; theater owners reversed course during the Depression (early-mid 1930s) when popcorn sales kept struggling theaters afloat. [CONFIDENCE: HIGH]
 - Sources: [Laughing Squid — History of Popcorn at Movie Theaters](https://laughingsquid.com/history-of-popcorn-at-movie-theaters/); [History.com — How Popcorn Became the Ultimate Movie Snack](https://www.history.com/articles/why-popcorn-is-movie-snack); [TIME — Novelty Popcorn Bucket Took Over Movies in 2024](https://time.com/7177639/novelty-popcorn-buckets-movie-theaters/)
+- Composition & proportions (§4.7) — one tub [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: the striped tub ~60% of the object's height, the overfilled popcorn dome ~40%.
+  - Components: tub a tapered red-and-white striped paper tub, medium ~18–25 cm tall (one and a half to two times the can's height), mouth ~15–18 cm; stripes 2.5–4 cm wide, vertical; popped kernels ~2–3 cm, butter-yellow tinted; dome rising 3–6 cm above the rim; a few (3–8) kernels fallen beside the tub.
+  - Arrangement: tub on a counter, seat armrest or cup-holder tray — not in a hand.
+  - State cues: kernels glossy with butter topping, some darker yellow patches, fine white salt specks.
+  - Absent on purpose: logos or film branding; caramel coating (that is kettle corn); a level fill; an avalanche of spilled popcorn.
+  - Prompt-ready line: "A tall, tapered red-and-white vertically striped paper popcorn tub, about one and a half times the can's height, overfilled with a rounded dome of fluffy popcorn rising well above the rim, kernels glossy and butter-yellow with fine white salt specks, a few kernels fallen beside it on the counter. Plain stripes, no logos."
 
 ##### Dish: Home popcorn (stovetop/microwave)
 - Category: Everyday snack — a distinct visual/contextual sibling to movie theater popcorn, same base food, different serving context
@@ -596,6 +782,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Similar kernel appearance to theater popcorn but a more matte, less uniformly glossy coating, served in smaller, level-filled, unpiled portions — this bowl-vs-tub, modest-vs-overfilled contrast is the main marker separating "home" from "movie theater" popcorn scenes.
 - Confidence: MEDIUM-HIGH for the historical timeline; MEDIUM for the specific visual contrast (partly inferred)
 - Sources: [Mashed — Microwave Popcorn vs. Stovetop Popcorn](https://www.mashed.com/1524540/microwave-popcorn-vs-stovetop-popcorn-guide/); [Wikipedia: Pop Secret](https://en.wikipedia.org/wiki/Pop_Secret)
+- Composition & proportions (§4.7) — one bowl or bag [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: popcorn fills the bowl level to just below or at the rim; bowl rim visible all round.
+  - Components: an ordinary household bowl ~20–25 cm across, ~10 cm deep; kernels ~2–3 cm, pale cream-white, matte with only a light butter sheen; a few unpopped kernels at the bottom; or a torn-open, expanded microwave bag ~20 cm wide with popcorn at its mouth; 2–5 loose kernels on the table.
+  - Arrangement: bowl on a coffee table or couch-side surface.
+  - State cues: matte, dry, slightly uneven colour; a wisp of steam only from a freshly opened bag.
+  - Absent on purpose: striped tub; heavy yellow glaze; legible bag printing.
+  - Prompt-ready line: "An ordinary ceramic bowl, about twice the can's height across, filled level to its rim with pale, matte, fluffy home-made popcorn with only a light butter sheen, a few loose kernels and one or two unpopped ones on the coffee table beside it. Modest and unpiled, a cosy living-room feel; no striped tub, no labels."
 
 ##### Dish: Kettle corn
 - Category: Occasion/venue-specific snack — fair, festival, and carnival culture
@@ -605,6 +798,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Shiny, semi-translucent sugar-glazed coating (sugar cooked into the kernel during popping, not dusted after) giving a light caramel-tinted sheen, distinct from movie/home popcorn's matte butter-salt finish; often mixed with some unpopped/caramelized kernel clusters; sold from large (traditionally copper) kettles visible to the customer.
 - Confidence: MEDIUM
 - Sources: [Wikipedia: Kettle corn](https://en.wikipedia.org/wiki/Kettle_corn); [Daily Meal — Kettle Corn's Origin Story](https://www.thedailymeal.com/1563492/origin-story-kettle-corn/)
+- Composition & proportions (§4.7) — one fair bag [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: popcorn fills the clear bag completely; the bag's volume is the story.
+  - Components: a large clear plastic bag ~40–60 cm tall (three to five times the can's height), knotted or twisted at the top; kernels ~2–3 cm with a thin glassy light-caramel sheen; clusters of 2–4 stuck-together kernels, perhaps 1 in 10; a few scorched darker spots.
+  - Arrangement: bag standing on a stall counter or picnic table; kettle out of focus behind.
+  - State cues: glossy, slightly translucent sugar shell; a faint salt sparkle.
+  - Absent on purpose: thick caramel-corn coating (deep brown, clumped); buttery yellow; legible stall signs.
+  - Prompt-ready line: "A large clear plastic bag, several times the can's height, packed full of kettle corn standing on a fair-stall counter: fluffy popcorn with a thin, glassy, light-caramel sugar sheen, a few small clusters of kernels stuck together and a faint salt sparkle. A big kettle soft and out of focus behind. No heavy caramel, no signs."
 
 ##### Dish: Soft pretzel
 - Category: Everyday snack, strongly city/street-vendor and mall-food-court coded
@@ -615,6 +815,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Classic symmetrical twisted-loop shape; glossy, deep golden-brown surface from a baking-soda or lye bath before baking (distinct from a plain baked-bread surface); coarse, unevenly-scattered salt crystals (not fine table salt); soft, dense, chewy interior. Standard dip in the Philadelphia/Mid-Atlantic tradition is yellow mustard.
 - Confidence: HIGH
 - Sources: [Encyclopedia of Greater Philadelphia — Pretzels](https://philadelphiaencyclopedia.org/essays/pretzels/); [Tasting Table — How the Philly Soft Pretzel Became a Unique Icon](https://www.tastingtable.com/995172/how-the-philly-soft-pretzel-became-a-unique-icon-of-the-city/)
+- Composition & proportions (§4.7) — one pretzel [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: the deep-brown glossy crust ~85% of the surface; salt crystals ~10%; the paler cracked "belly" split ~5%.
+  - Components: one twisted loop pretzel ~15–18 cm across (about one and a half times the can's height) with a rope ~3–4 cm thick; coarse salt crystals 2–4 mm, ~30–60 visible, unevenly scattered; yellow mustard a small paper cup or a streak on the wax paper.
+  - Arrangement: pretzel flat on wax paper or a napkin, mustard beside it.
+  - State cues: glossy mahogany crust, soft and slightly wrinkled where the rope crosses; faint steam if fresh.
+  - Absent on purpose: cheese sauce as default; cinnamon-sugar coating; fine table salt; a hand holding it.
+  - Prompt-ready line: "One large soft pretzel lying flat on wax paper, about one and a half times the can's height across: a thick twisted loop with a glossy deep mahogany-brown crust, a paler soft split along the rope, and coarse white salt crystals scattered unevenly on top. A small paper cup of bright yellow mustard beside it. No cheese sauce."
 
 ##### Dish: Hard pretzel (bagged)
 - Category: Everyday snack — a separate, nationally-distributed packaged category from the soft pretzel above, despite sharing an origin dough
@@ -625,6 +832,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Small, dense, uniformly dark golden-brown, hard and matte-surfaced (not glossy like the soft pretzel), dry brittle cracker-like texture, visible fine salt crystals; typically a smaller, tightly-wound twist, or rods/sticks/nuggets — much smaller and more uniform/mass-produced-looking than the large, irregular, hand-twisted soft pretzel.
 - Confidence: HIGH
 - Sources: [The Conversation — How the Pretzel Went from Soft to Hard](https://theconversation.com/how-the-pretzel-went-from-soft-to-hard-and-other-little-known-facts-about-one-of-the-worlds-favorite-snacks-95409); [PA Eats — PA Food Icons: Pretzels](https://www.paeats.org/feature/pa-food-icons-pretzels/)
+- Composition & proportions (§4.7) — a bowl or open bag [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: many small identical pretzels; in a bowl they fill it level or slightly heaped.
+  - Components: small twists ~4–6 cm across (a little smaller than the can's width) and ~0.5 cm thick, or rods ~10–15 cm × 0.5 cm, or bite-size nuggets ~2 cm; fine salt crystals 1–2 mm; bowl ~12–18 cm; open printed bag optional.
+  - Arrangement: jumbled, interlocked twists; 2–4 loose beside the bowl.
+  - State cues: dry, matte, hard, uniform dark golden-brown.
+  - Absent on purpose: glossy soft-pretzel crust; large hand-twisted shapes; legible bag text.
+  - Prompt-ready line: "A small bowl, about twice the can's width, filled with dozens of small, identical, crunchy pretzel twists, each a little smaller than the can's width, dry and matte, uniform dark golden-brown with fine salt crystals, a few loose twists on the table beside it. Hard, brittle and cracker-like; no soft pretzels, no labels."
 
 ##### Dish: Chips and dip (guacamole; sour-cream-based dip) — snack context
 - Category: Everyday/party snack — a **snack-context item, distinct from the meal-context nachos entry** (nachos are a shared restaurant/bar appetizer with melted cheese; chips-and-dip is cold, room-temperature, party/couch food with no melted cheese)
@@ -636,6 +850,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Guacamole — pale-to-medium green, visibly chunky (not puréed), often garnished with lime wedge/cilantro/diced tomato. Sour-cream dip — off-white/cream, thick enough to hold a dip-mark, visibly flecked with dried onion. Chips — triangular, pale golden, lightly char-speckled (tortilla) or standard potato-chip appearance.
 - Confidence: HIGH for both product-origin stories; MEDIUM for the "no regional variation" claim (asserted from absence of contrary evidence)
 - Sources: [Wikipedia: Tortilla chips](https://en.wikipedia.org/wiki/Tortilla_chips); [Wikipedia: French onion dip](https://en.wikipedia.org/wiki/French_onion_dip); [Daily Meal — You Can Thank Lipton for Chips and Dip](https://www.thedailymeal.com/1680744/lipton-invented-chips-and-dip-history/)
+- Composition & proportions (§4.7) — one shared chip-and-dip spread [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: from above, chips ~65%, dip ~30%, bowl rims ~5%.
+  - Components: tortilla chips triangles ~5–7 cm per side (about the can's width), a few dozen; or potato chips (see Potato chips above); dip bowl ~12–15 cm across, filled to a slight dome; guacamole with visible avocado chunks, 1 lime wedge and a few tomato dice or cilantro leaves at most; sour-cream dip off-white with dried onion flecks and a swirl or dip-mark.
+  - Arrangement: chips in a ring around a central dip bowl on a two-part tray or a wide platter ~30–35 cm; 1 chip resting in the dip; 2–3 chips with dip on their tips.
+  - State cues: guacamole bright green (not browned); chips dry and crisp; dip thick enough to hold a mark.
+  - Absent on purpose: melted cheese (that is nachos); salsa and queso as extra bowls unless briefed; a garnish pile.
+  - Prompt-ready line: "A wide chip-and-dip tray: a ring of pale golden tortilla-chip triangles, each about the can's width, around a central bowl of chunky, bright green guacamole mounded slightly above the rim, with one lime wedge and a few flecks of diced tomato. One chip rests in the dip. Dry, crisp chips; no melted cheese, no extra bowls."
 
 ##### Dish: Mozzarella sticks
 - Category: Everyday snack/appetizer — casual dining and bar-food staple, not home-cooking-first
@@ -647,6 +868,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Uniform cylindrical sticks, deep golden-brown, crisp breadcrumb exterior, with a defining **visible "cheese pull"** — molten interior cheese stretches into long strings when broken or bitten rather than breaking cleanly. This stretch effect is the single most diagnostic visual trait.
 - Confidence: HIGH for composition/cheese-pull signature; MEDIUM for the exact origin attribution
 - Sources: [The Takeout — The Origin of Mozzarella Sticks](https://www.thetakeout.com/1736727/origin-mozzarella-sticks-explained/); [U.S. Dairy — Who Invented Mozzarella Sticks?](https://www.usdairy.com/news-articles/the-long-history-of-the-mozzarella-stick)
+- Composition & proportions (§4.7) — one appetizer order [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: sticks ~70% of the plate, marinara ramekin ~20%, plate ~10%.
+  - Components: sticks 6 (5–8), each ~8–10 cm long (about three-quarters of the can's height) and ~2–2.5 cm thick, deep golden breadcrumb crust; marinara ramekin ~6–8 cm (about the can's width), red, smooth; one stick broken open with a white cheese pull ~5–10 cm; parsley flecks 0–few.
+  - Arrangement: sticks fanned or in a loose row/pile on a plate or in a paper-lined basket, ramekin to one side.
+  - State cues: crust crisp and dry, not greasy; melted cheese glossy and stretchy at the break; light steam.
+  - Absent on purpose: flat or square cheese pieces; a sauce drizzle over the sticks; many different dips.
+  - Prompt-ready line: "Six deep golden, crumb-coated mozzarella sticks, each about three-quarters of the can's height, fanned on a small plate beside a ramekin of smooth red marinara about the can's width. One stick is pulled apart in the middle, a long string of glossy melted white cheese stretching between the halves. Light steam. No sauce drizzled on top."
 
 ##### Dish: Ice cream sundae (soda fountain culture)
 - Category: Special-occasion to everyday dessert/snack — strong historical tie to American soda-fountain culture
@@ -658,6 +886,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Confidence: HIGH for composition/visual signature; MEDIUM for the glass-vessel description; LOW/contested for the specific origin town
 - Context note (informational, not a beverage-catalog entry): American soda fountains originated in early-to-mid-1800s pharmacies; Coca-Cola itself was invented by pharmacist John Pemberton and first served at Jacob's Pharmacy's soda fountain in Atlanta in 1886 — meaning the ice-cream-sundae-at-a-soda-fountain scene and Coca-Cola's own origin scene are historically the same venue type (a drugstore soda-fountain counter), useful staging context even though Coca-Cola itself stays outside this file's dish catalog. [CONFIDENCE: HIGH]
 - Sources: [Wikipedia: Sundae](https://en.wikipedia.org/wiki/Sundae); [Cornell Alumni Magazine — The Straight Scoop on the Origins of the Ice Cream Sundae](https://alumni.cornell.edu/cornellians/earle-sundae/); [Food & Drink Life — 2 Towns Have Been Fighting Over Who Invented the Ice Cream Sundae](https://fooddrinklife.com/who-invented-the-ice-cream-sundae/)
+- Composition & proportions (§4.7) — one classic sundae [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: in side view, glass and ice cream ~55%, whipped cream ~30%, sauce ~10%, the cherry a small ~5% accent at the top.
+  - Components: footed tulip sundae glass ~15–18 cm tall (a little taller than the can), bowl ~9–10 cm across; vanilla scoops 2, ~6 cm each; chocolate (or cherry) sauce 2–4 drips running down over the scoops and the inside of the glass; whipped cream one swirl ~5–7 cm tall; maraschino cherry 1, ~2–2.5 cm, stem up, centred; chopped nuts optional, a light scatter; long sundae spoon beside or in the glass.
+  - Arrangement: scoops stacked slightly above the glass rim, cream on top, cherry crowning.
+  - State cues: sauce glossy and still flowing; ice cream edges just starting to soften; slight condensation on the glass.
+  - Absent on purpose: more than one cherry; rainbow sprinkles, wafers or cookies unless briefed; a plain cereal bowl.
+  - Prompt-ready line: "A classic sundae in a footed, tulip-shaped glass a little taller than the can on a soda-fountain counter: two scoops of vanilla ice cream with glossy chocolate sauce running down in a few drips, topped by one tall swirl of whipped cream and a single bright red stemmed cherry in the centre. Slight condensation on the glass, a long spoon beside it. No sprinkles."
 
 ##### Dish: Candy bar / chocolate snack
 - Category: Everyday snack — kept brief; the notable content here is environmental/context-of-consumption rather than visual complexity of the object itself
@@ -668,6 +903,13 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Environment/context cues (as relevant to staging as the object itself): **Movie theater concessions** — sold at the same lobby counter as popcorn, often a lit glass-front case, added specifically to capture impulse purchases before showtime from the mid-20th century. **Vending machines** — a top-selling vending category nationally, dispensed via coin/card-operated glass-front machines with a spiral coil. **Checkout aisle** — a standard, deliberately-placed impulse item at eye/hand level beside the register, a distinct retail cue from a snack-aisle shelf. **Wartime symbolism** — candy bars (especially Hershey) became an internationally recognized symbol of American soldiers/liberation during and after WWII, sometimes used as informal currency — historical association only, not a current staging concern. [CONFIDENCE: MEDIUM for all environment cues — industry/trade and popular-history sourcing tier, not deep journalism]
 - Confidence: HIGH for Hershey/candy-bar origin history; MEDIUM for environment/context cues
 - Sources: [History.com — Why the Candy Bar Market Exploded After World War I](https://www.history.com/articles/wwi-1920s-chocolate-candy-boom); [American Heritage — Land of the Candy Bar](https://www.americanheritage.com/land-candy-bar)
+- Composition & proportions (§4.7) — one bar [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: the chocolate surface and its segment grid ~60%; the partly peeled wrapper ~40%.
+  - Components: one flat bar ~12–15 cm long (about the can's height), ~5–6 cm wide, ~0.8–1 cm thick, scored into ~12 segments; 1–2 segments broken off lying beside it; wrapper a plain, unbranded paper or foil sleeve folded back.
+  - Arrangement: flat on a table, counter or beside a vending-machine tray; not in a hand.
+  - State cues: satin gloss on the chocolate; crisp snapped edges.
+  - Absent on purpose: legible brand or wrapper design (this file does not catalog packaging); melted smears; a pile of assorted bars unless a checkout or vending scene is briefed.
+  - Prompt-ready line: "One milk-chocolate bar about the can's height lying flat on a table, its plain foil wrapper folded back to show a glossy satin surface scored into neat rectangular segments, two segments snapped off with clean edges lying beside it. A few small chocolate crumbs nearby. Unbranded wrapper, no text, no logo, no melted smears."
 
 #### Special-occasion (included despite the lunch/dinner/snack framing, per explicit direction)
 
@@ -681,6 +923,14 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Whole roasted turkey is the visual centerpiece, typically browned/glossy-skinned and presented whole (carved tableside or in the kitchen) rather than pre-sliced when first shown; the table itself is characteristically crowded with multiple serving dishes simultaneously, more so than an everyday dinner.
 - Confidence: HIGH for the national dish/side rankings (a proper polling source, not a travel blog) — a notably stronger evidentiary basis than most of this file's other prevalence claims
 - Sources: [YouGov — What America Eats on Thanksgiving](https://today.yougov.com/consumer/articles/26161-what-america-eats-thanksgiving-poll); [Yahoo/Creators — Most-Loved Thanksgiving Sides by State](https://creators.yahoo.com/lifestyle/story/americas-most-loved-thanksgiving-sides-by-state-according-to-recent-study-142228768.html)
+- Composition & proportions (§4.7) — the table and one plate [EDITORIAL throughout; the side-dish set follows the entry's YouGov ranking — see GAP LOG]:
+  - What dominates: on the table, the whole turkey is the single biggest object and the visual centre; serving dishes crowd around it, table surface ~20–30% visible. On a plate, no single component dominates: turkey ~25%, mashed potatoes ~20%, stuffing ~20%, the rest ~35%.
+  - Components: whole roast turkey (a 12–16 lb / 5.5–7 kg bird is the common size) ~35–40 cm long and ~20–25 cm tall (about twice the can's height) on a ~45–50 cm oval platter; serving dishes 5–7 (mashed potatoes, stuffing/dressing, rolls in a basket, cranberry sauce, sweet potatoes, green bean casserole where regionally apt), each ~20–25 cm; a gravy boat. One plate: 2–3 turkey slices ~1 cm thick and ~10–12 cm long, a scoop of mashed potatoes with gravy, a scoop of stuffing, a spoon of cranberry sauce (deep red, either ridged jellied slices or whole-berry), a spoon of sweet potato, a small portion of green beans, 1 dinner roll ~6–7 cm.
+  - Arrangement: turkey platter at the table's centre or head; dishes in a ring, touching; plates at each setting.
+  - Served portion: a plate ~27–30 cm filled nearly to the rim with small, separate, touching portions — never one giant slab of turkey.
+  - State cues: turkey skin glossy, deep golden-brown; gravy glossy; light steam over the dishes.
+  - Absent on purpose: wine glasses or any alcohol (staging rule); pilgrim or costume props; a cornucopia overload; pre-sliced deli turkey; an uncrowded, sparse table.
+  - Prompt-ready line: "A crowded family dinner table with a whole roast turkey at the centre, glossy deep golden-brown, about twice the can's height, on a large oval platter, surrounded by touching serving dishes: mashed potatoes, stuffing, a basket of dinner rolls, deep red cranberry sauce, orange sweet potatoes and green beans, plus a gravy boat. Plates filled with small separate portions. Light steam. No wine glasses."
 
 ##### Dish: Apple pie
 - Category: Special-occasion to everyday (dessert, but pairs naturally with a casual Coke-and-dessert scene per explicit direction to include it)
@@ -690,9 +940,17 @@ Indian restaurants and Indian-American population concentrate measurably by stat
 - Visual/plating characteristics: Lattice-top or full double-crust, golden-brown and flaky, visible chunky (not puréed) spiced apple filling when cut
 - Confidence: HIGH for the history/symbolism; LOW for the regional cheese-pairing detail (mentioned from general awareness, not sourced this pass — flag for removal or research)
 - Sources: [Food52 — Apple Pie Origin Story](https://food52.com/story/24688-apple-pie-origin-story); [Mental Floss — How Apple Pie Became Iconic](https://www.mentalfloss.com/article/627296/how-did-apple-pie-become-iconic-american-dessert)
+- Composition & proportions (§4.7) — whole pie and one slice [EDITORIAL throughout — see GAP LOG]:
+  - What dominates: on the slice's cut face, apple filling ~65–70% of the height, bottom crust ~15%, top crust ~15–20%. From above, the golden top crust (or lattice) is almost everything.
+  - Components: whole pie in a ~23 cm (9-inch) glass or ceramic dish with a fluted crimped edge, ~4–5 cm tall (about a third of the can's height), cut into 8 wedges; one slice ~11 cm long, ~4–5 cm tall at the crust end; apple slices ~5–8 mm thick, stacked in visible layers, pale gold to amber with cinnamon-flecked syrup; vanilla ice cream à la mode 1 scoop ~6 cm, beside or on the warm slice.
+  - Arrangement: slice on a ~20 cm dessert plate, point toward camera, cut face turned to show layers; the pie dish with a wedge missing behind it.
+  - State cues: crust flaky and matte-golden with a light sugar sparkle; filling glossy, holding its shape (not runny); ice cream just starting to melt at its base; light steam if warm.
+  - Absent on purpose: puréed or jam-like filling; heavy caramel drizzle; mint leaf garnish; a crumb-topped (Dutch) pie unless briefed.
+  - Prompt-ready line: "One wedge of apple pie on a small white dessert plate, about a third of the can's height, cut face turned to camera to show thick layers of glossy, pale-gold apple slices flecked with cinnamon between a flaky, golden, sugar-sparkled top crust and a thin bottom crust. A scoop of vanilla ice cream beside it, starting to melt. The rest of the pie, crimped edge and one wedge missing, behind."
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable. **In this file no web search was available when the blocks were written (the session's search budget was spent), so every size, count and share here is [EDITORIAL] and none is sourced yet.** Priority checks: pastrami stack height, California roll piece diameter, burger/bun sizes, popcorn tub dimensions. Thin index entries (hot dog, BBQ, pizza, tacos, enchiladas, chili, clam chowder, the city/region-specific sandwiches) and the halal-cart gyro form carry no block here; their regional files hold them.
 - **RESOLVED this pass (2026-09-24, via four parallel subagent research passes)**: Snacks (9 entries added), Tier 2 global cuisine (Indian-American, Sushi/Japanese-American, Thai-American added), New Mexican vs. Tex-Mex enchiladas/chile (added as a form-changing index entry), and a full regional-boundary validation pass (see FILE ROLE & METHOD above). Each is subject to the specific lower-confidence flags listed below, but the categories themselves are no longer unresearched.
 - **RESOLVED this pass (2026-09-24): ENVIRONMENT & STAGING SCENES section added and Gen Z-reweighted**, covering all six scenarios with real, sourced, quantified national data — including confirming the hypothesized drive-thru/on-the-go contrast with Uruguay (US: ~20% of meals eaten in a car, ~83% of fast-food orders off-premise; genuinely the mirror opposite of Uruguay's "grab-and-go barely exists" finding) and a second sharp, well-sourced contrast on dinner timing (US ~6:19pm peak vs. Uruguay's 9:30pm+ norm). A follow-up pass added Gen Z-specific defaults as co-equal alternatives to the original general/family-household framing (not a replacement) — roommate/shared housing as the statistical Gen Z default (only ~3.9% of Gen Z renters live completely alone), plus boomerang/parents'-house living, co-buying with friends, and multigenerational households as distinct non-traditional registers, all HIGH-to-MEDIUM-HIGH confidence. **Notable asymmetry surfaced by that pass, worth flagging on its own**: housing/living-arrangement claims turned out considerably better-sourced (Pew Research, Census/PUMS, NAR) than Gen Z decor-aesthetic claims (thrifted furniture is MEDIUM; "dopamine decor"/cluttercore and specific micro-aesthetics like "cottagecore" or "clean girl" are explicitly flagged LOW/"not confirmed as a purchasing pattern" — real as discussed design-media trends, not confirmed as furniture-buying behavior). Boba/bubble tea shops and aesthetic independent coffee shops were added as sourced Gen Z hangout-venue alternatives to the casual-dining-chain default; food halls and malls were researched but not added for insufficient/self-interested sourcing.
 - **RESOLVED (2026-09-24, human decision):** the regional-file list is now final at 13 files (see FILE ROLE & METHOD above) — New Mexico splits out from Arizona into its own `us-new-mexico.md` (the one addition the reviewer accepted from the research). All three research-recommended renames were reviewed and rejected: `us-desert-southwest.md`, `us-gulf-south.md`, and `us-west-coast.md` all keep their original names — the reviewer judged each broader label still fits the actual reach of the food culture involved (e.g., po'boys aren't confined to Louisiana in practice), even though the underlying distinctness evidence behind each file is not in dispute. **Lowcountry is also now resolved**: it folds into `us-south.md` as a labeled callout rather than becoming a 14th file, since the evidence for it was never independently stress-tested the way Appalachia/Florida/Louisiana's was — a hunch, not a verified finding. The regional-list question is fully closed; no open items remain on it.

@@ -101,6 +101,15 @@ Appalachia clears the "would swapping this region's norms into a neighboring reg
 - Common confusion: Should not be rendered as a thick chili (no tomato, no ground meat, no thick roux-based consistency) or as refried beans (beans stay whole, not mashed into a paste).
 - Confidence: HIGH overall for the dish's identity and cultural significance; MEDIUM for the specific pinto-vs-heirloom-bean origin timeline.
 - Sources: [What's Cooking America — Appalachian Soup Beans Recipe and History](https://whatscookingamerica.net/soup/appalachian-soupbeans.htm); [West Virginia Public Broadcasting — A Taste Of Home](https://wvpublic.org/story/arts-culture/a-taste-of-home-how-pinto-beans-and-cornbread-became-an-appalachian-tradition/)
+- **Composition & proportions (§4.7)** — one bowl, with cornbread.
+  - What dominates: whole beans ~70–75% of the surface; cloudy broth ~20% between and around them; raw onion topping ~5–10%. [EDITORIAL]
+  - Components: cooked pinto beans ~1.5 cm long (about a fingernail), hundreds per bowl; ham-hock meat or pork bits 1–3 cm, 0–2 visible; chopped raw onion (or ramps) ~0.5–1 cm, one heaped spoonful. [EDITORIAL]
+  - Arrangement: beans settled in the broth; onion in one small heap or scatter in the centre.
+  - Vessel fill/depth: plain bowl ~15 cm across, filled ~three-quarters; broth line just above the beans.
+  - Served portion vs. whole dish: ladled from the pot, one bowl per person, a cornbread wedge on a separate small plate. [EDITORIAL]
+  - State cues: cloudy, starchy broth; soft intact skins; light steam.
+  - Absent on purpose: tomato, ground meat, chili spice colour, cheese, sour cream, cilantro, mashed beans.
+  - Prompt-ready line: "A plain bowl three-quarters full of whole, soft, light-brown pinto beans, each about a fingernail long, sitting in a thin, cloudy, pale tan broth, with one small heap of chopped raw white onion on top and a sliver of pork at the edge. Light steam. A wedge of dark-crusted cornbread on a small plate beside it. No tomato, no meat chunks, no cheese."
 
 ### Dish: Appalachian skillet cornbread
 - Category: Everyday
@@ -113,6 +122,15 @@ Appalachia clears the "would swapping this region's norms into a neighboring reg
 - Common confusion: Should not be rendered as a sweet, cake-like cornbread or as a corn muffin.
 - Confidence: MEDIUM-HIGH for the visual/texture description; MEDIUM for how cleanly this is distinguishable from `us-south.md`'s own cornbread content, since the underlying tradition is explicitly shared rather than Appalachia-exclusive.
 - Sources: [Will Wander For Food — Southern Skillet Cornbread, No sugar, no flour](https://willwanderforfood.com/2016/03/05/southern-skillet-cornbread-no-sugar-no-flour/)
+- **Composition & proportions (§4.7)** — one skillet and one wedge.
+  - What dominates: cut wedge: pale golden coarse crumb ~70%, dark craggy bottom and edge crust ~30%. [EDITORIAL]
+  - Components: loaf ~23–26 cm across and ~3–4 cm tall (about a third of the can's height); 6–8 wedges or squares, ~10–12 cm on the long side; bottom crust 3–5 mm, dark golden to mahogany. [EDITORIAL]
+  - Arrangement: in the skillet with a wedge lifted out, or a wedge on a small plate beside the bean bowl.
+  - Vessel fill/depth: fills the skillet edge to edge.
+  - Served portion vs. whole dish: one wedge per person, broken by hand at the table; in the buttermilk custom, crumbled into a separate glass. [EDITORIAL]
+  - State cues: dry, crumbly cut face; cracked crust; no glaze.
+  - Absent on purpose: sugar sheen, honey, jalapeño, cheese, corn kernels, muffin shapes.
+  - Prompt-ready line: "A wedge of cornbread about a third of the can's height, on a small plate: a dense, coarse, crumbly pale golden interior over a dark mahogany, cracked, craggy bottom crust from a black cast-iron skillet, which sits behind it with the rest of the round loaf. Matte, dry, unglazed. No honey, no butter pile, no corn kernels."
 
 ### Paired-meal note: Soup beans and cornbread together
 Per this project's own practical rule against checklist-clutter (`country-file-schema.md` §7.5), this is documented as a plating/staging note rather than a third, redundant dish entry. When staged together — the region's single most representative everyday meal — the cornbread is typically served on a separate small plate/directly on the table (to be broken by hand and eaten alongside or crumbled directly into the bean broth) or, in the buttermilk-snack custom, crumbled into a separate glass of buttermilk as a different course entirely. A raw-onion or ramp topping, if used, goes on the beans, not the cornbread. The two items should be staged as a single, unified everyday meal rather than as two disconnected dishes that happen to share a table. [CONFIDENCE: MEDIUM-HIGH]
@@ -127,6 +145,15 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 - Common confusion: Should not be rendered as ordinary cooked fresh or canned green beans — the wrinkled, darker, matte-olive appearance is the specific, checkable difference.
 - Confidence: MEDIUM-HIGH for the dish's identity, preparation, and texture; MEDIUM for the specific origin-story details.
 - Sources: [Oak Spring Garden Foundation — Leather Britches: An Appalachian Culinary Tradition](https://www.osgf.org/blog/2021/10/13/leather-britches-an-appalachian-tradition); [Southern Exposure Seed Exchange — Preservation: Leather Britches](https://blog.southernexposure.com/2022/06/preservation-leather-britches/)
+- **Composition & proportions (§4.7)** — one side bowl.
+  - What dominates: wrinkled olive-brown pods ~85–90%; pork bits ~5–10%; a little cooking liquid at the base. [EDITORIAL]
+  - Components: pods whole or broken into ~5–8 cm lengths, ~1 cm wide, leathery-wrinkled; pork pieces 1–2 cm, 2–4 per bowl; bowl ~12–14 cm. [EDITORIAL]
+  - Arrangement: pods tangled loosely, lying in all directions.
+  - Vessel fill/depth: bowl two-thirds full; liquid ~0.5–1 cm.
+  - Served portion vs. whole dish: a side spoonful beside soup beans and cornbread, or one dish on a church-supper table. [EDITORIAL]
+  - State cues: soft, matte, slightly wet; warm.
+  - Absent on purpose: bright glossy green beans, almonds, bacon strips laid on top, drying thread still on the beans.
+  - Prompt-ready line: "A small bowl two-thirds full of soft, dried-then-simmered whole green bean pods, each about half the can's height, a dark matte olive-brown with deeply wrinkled, leathery skins, tangled loosely with a few small bits of pork and a little cooking liquid at the bottom. Nothing bright green, no almonds, no garnish."
 
 ### Dish: Ramps (wild leeks) — as a foraged ingredient and community-meal centerpiece
 - Category: Everyday (as a seasonal condiment/side) to special-occasion (the dedicated ramp supper/festival meal)
@@ -139,6 +166,15 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 - Common confusion: Should not be rendered as a scallion/green onion (thinner, uniformly tubular leaves) or a standard cultivated leek (much larger, paler, less pungent, cultivated rather than foraged).
 - Confidence: HIGH for the botanical/visual description and the festival culture; MEDIUM for the specific Cherokee-origin framing.
 - Sources: [Farmers' Almanac — What Are Ramps?](https://www.farmersalmanac.com/what-the-heck-are-ramps); [Practical Self Reliance — Ramps (Wild Leeks)](https://practicalselfreliance.com/ramps-wild-leeks/); [The Real WV — Ramp season returns](https://therealwv.com/2026/04/13/the-front-porch-its-ramp-season/); [Richwood Chamber of Commerce — Feast of the Ramson](https://www.richwoodchamberofcommerce.org/feast-of-the-ramson)
+- **Composition & proportions (§4.7)** — ramp-supper plate, and raw ramps.
+  - What dominates: fried plate: potatoes ~60–70%, wilted ramps ~20–30%, egg (if used) ~10%; on the full supper plate the ramps-and-potatoes portion is about a third, beans, cornbread and ham the rest. [EDITORIAL]
+  - Components: potato slices or chunks ~2–3 cm; ramp leaves wilted to ~5–10 cm, bulbs ~1–1.5 cm long; raw whole ramp ~15–25 cm long (longer than the can), bulb ~1 cm wide, leaf ~3–6 cm wide. [EDITORIAL — typical ramp sizes]
+  - Arrangement: fried ramps and potatoes as a single scoop on a plate or in a cast-iron skillet; raw ramps as a loose bunch, bulbs aligned.
+  - Vessel fill/depth: supper plate full, portions touching — cafeteria/potluck style.
+  - Served portion vs. whole dish: one heaped scoop per diner at a long shared table. [EDITORIAL]
+  - State cues: glossy dark-green wilted leaves, translucent bulbs, golden fried potato edges; bacon-fat sheen.
+  - Absent on purpose: cultivated leeks, scallions, microgreen garnish, fine-dining plating.
+  - Prompt-ready line: "A plate from a community ramp supper: a heaped scoop of golden fried potato chunks tossed with wilted glossy dark-green ramp leaves and small softened translucent white bulbs, shiny with bacon fat, beside a bowl of pinto beans, a square of cornbread and a slice of ham. A loose bunch of raw ramps, longer than the can, with purple-blushed bulbs, lies nearby."
 
 ### Dish: Pepperoni roll
 - Category: Everyday, strongly on-the-go/snack-coded
@@ -152,6 +188,15 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 - Common confusion: Should not be rendered as a stromboli or a cheese-pull-heavy pizza roll (both cheese-forward with a visible melted-cheese pull) unless the brief specifically calls for a modern cheese-added variant — the traditional form is plain bread and pepperoni only.
 - Confidence: HIGH overall.
 - Sources: [e-WV: The West Virginia Encyclopedia — Pepperoni Rolls](https://www.wvencyclopedia.org/entries/1778); [WDTV — House passes bill declaring Pepperoni Roll official food of West Virginia](https://www.wdtv.com/2021/04/06/house-passes-bill-declaring-pepperoni-roll-official-food-of-west-virginia/)
+- **Composition & proportions (§4.7)** — one to three rolls.
+  - What dominates: bread ~80–85% of the cross-section; pepperoni ~15–20%. [EDITORIAL]
+  - Components: **each roll ~14 × 6.4 cm (5½ × 2½ in)** — a little longer than the can is tall and about as wide as the can [MEDIUM — The Local Palate/ATK recipe norms (via search)]; **2–3 whole pepperoni sticks ~10–13 cm** (4–5 in) per roll, or folded slices [MEDIUM — same]; glossy crust.
+  - Arrangement: 1–3 rolls on a paper napkin or flattened paper bag; one broken or cut to show the pepperoni core and orange grease staining.
+  - Vessel fill/depth: not plated; napkin ~60% covered.
+  - Served portion vs. whole dish: one or two rolls is a snack/lunch portion; bakery bags of 6–12. [EDITORIAL]
+  - State cues: room temperature; egg-wash shine; orange-red grease specks in the crumb.
+  - Absent on purpose: melted cheese pull, marinara dip, peppers or herbs (unless the brief asks for the modern variant), a hand holding it.
+  - Prompt-ready line: "Two soft bread rolls on a paper napkin, each a little longer than the can is tall and about as wide, with a smooth, glossy golden-brown egg-washed crust. One is broken open: plain dense white crumb around two sticks of pepperoni, the bread stained orange-red with small spots of rendered fat. No cheese, no sauce, no garnish."
 
 ### Dish: Fried apple pie (fried pie / half-moon pie)
 - Category: Everyday to special-occasion (a farmhouse/homestead tradition, also sold at roadside stands and church suppers)
@@ -164,6 +209,15 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 - Common confusion: Should not be rendered as a baked (not fried) hand pie — the blistered, crisp-fried crust texture and the darker, jammier dried-apple filling are the two checkable differences.
 - Confidence: MEDIUM-HIGH for the visual/texture description; MEDIUM for how cleanly Appalachian-exclusive this dish is versus the broader South/Midwest tradition it shares.
 - Sources: [Due South — Discovering The Delicious Roots Of Fried Pies In Appalachia](https://duesouth.media/history-of-fried-pies-in-the-south/); [Blind Pig and The Acorn — Fried Apple Pies](https://blindpigandtheacorn.com/fried-apple-pies/)
+- **Composition & proportions (§4.7)** — one plate of pies.
+  - What dominates: blistered golden crust ~85–90% of what shows; dark filling only at a bite or cut. [EDITORIAL]
+  - Components: made from a **~12.7 cm (5 in) dough circle** [MEDIUM — Emeril, Eat the Love recipe norms (via search)], so each half-moon is ~13 cm along the straight edge (about the can's height) and ~6 cm deep, ~1.5–2 cm thick; crimped band ~1 cm; filling ~2 tablespoons; 3–6 pies on a plate. [EDITORIAL for counts]
+  - Arrangement: half-moons overlapping on a plate or on paper, one cut or bitten to show filling.
+  - Vessel fill/depth: plate ~60–70% covered.
+  - Served portion vs. whole dish: one or two pies per person. [EDITORIAL]
+  - State cues: crisp, small raised blisters; matte to lightly oily surface; filling jammy and dark.
+  - Absent on purpose: a white glaze drizzle (a real modern option, not the traditional default), ice cream, lattice top, fresh-apple chunks.
+  - Prompt-ready line: "Four half-moon fried pies on a plate, each about as long as the can is tall and half as deep, deep golden-brown with small crisp blisters and a fork-crimped curved edge. One is cut open to show a dark amber-brown, jammy dried-apple filling. No glaze, no ice cream, no lattice."
 
 ### Dish: Apple stack cake
 - Category: Special-occasion (traditionally a wedding cake and holiday dessert, not an everyday item) — included per the same "staging relevance over raw frequency" logic `us.md` uses for Thanksgiving dinner
@@ -176,6 +230,15 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 - Common confusion: Should not be rendered as a standard frosted American layer cake (icing, fewer/thicker layers, lighter sponge-like crumb) — the bare top, thin/dense layers, and dark visible filling between many distinct layers are the checkable differences.
 - Confidence: MEDIUM-HIGH for the visual/texture description and the wedding-tradition framing; MEDIUM for the exact historical origin dating.
 - Sources: [Wikipedia: Stack cake](https://en.wikipedia.org/wiki/Stack_cake); [Appalachian History — Dried Apple Stack Cake](https://www.appalachianhistory.net/2017/10/stack-cake.html); [The Kitchn — Apple Stack Cake Recipe](https://www.thekitchn.com/how-to-make-apple-stack-cake-240546)
+- **Composition & proportions (§4.7)** — whole cake and one slice.
+  - What dominates: slice cross-section: cake layers ~60–65%, dark apple filling ~35–40%, in clear stripes. [EDITORIAL]
+  - Components: cake ~23 cm (9 in) across; **6–8 layers, each ~0.6–1.3 cm (¼–½ in)** [MEDIUM — House of Nash Eats, Our State recipe norms (via search)]; filling ~0.5–1 cm between layers; total height ~8–12 cm (a little under the can's height); slice a narrow wedge ~11 cm long, ~5–7 cm at the back. [EDITORIAL for slice size]
+  - Arrangement: whole cake on a plain plate or stand with one wedge removed; the slice on its side on a small plate, stripes facing the camera.
+  - Vessel fill/depth: cake fills a 25–28 cm plate, rim showing.
+  - Served portion vs. whole dish: thin slices (12–16 per cake) because it is dense. [EDITORIAL]
+  - State cues: moist, cohesive, layers darkened at the edges; bare top.
+  - Absent on purpose: icing or frosting, fanned apple slices on top, whipped cream, a fluffy sponge crumb.
+  - Prompt-ready line: "A tall, bare-topped cake a little shorter than the can, with one narrow slice laid on its side on a small plate: seven thin, dense, pale golden-brown cake layers alternating with dark amber-brown spiced apple filling, the layer edges moist and darkened. The whole cake behind it shows the same stripes at its sides. No icing, no cream, no fruit garnish."
 
 ### Dish: West Virginia hot dog (slaw dog)
 - Category: Everyday
@@ -189,11 +252,21 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 - Common confusion: Should not be rendered as a Coney/Michigan-style dog (`us.md`'s national entry — beanless chili but no coleslaw, no onion-and-mustard-first layering) or a Chicago-style dog (celery salt, tomato, relish, sport peppers — no chili, no slaw at all). The coleslaw specifically is the single most reliable differentiator from every other regional hot dog style already documented in `us.md`.
 - Confidence: HIGH for the composition and layering; MEDIUM-HIGH for the specific historical-origin narrative.
 - Sources: [e-WV: The West Virginia Encyclopedia — Greeks](https://www.wvencyclopedia.org/entries/2097); [Southern Foodways Alliance — Slaw Abiding Citizens: A Quest for the West Virginia Hot Dog](https://www.southernfoodways.org/slaw-abiding-citizens-a-quest-for-the-west-virginia-hot-dog/)
+- **Composition & proportions (§4.7)** — one or two dogs.
+  - What dominates: side view: bun ~40%, slaw ~25–30%, chili ~20%, hot dog ~10% (visible at the ends). [EDITORIAL]
+  - Components: bun ~15 cm (a little longer than the can is tall); hot dog ~15 cm, ~2.5 cm thick; chili a thin ~0.5–1 cm layer; slaw ridge ~2–3 cm tall along the length; onion dice ~3–5 mm. [EDITORIAL]
+  - Arrangement: one or two dogs side by side in a paper tray or on wax paper, mustard-chili-onion under a continuous slaw ridge.
+  - Vessel fill/depth: tray ~70–80% covered.
+  - Served portion vs. whole dish: two dogs is a typical order. [EDITORIAL]
+  - State cues: glossy smooth chili; cold, creamy slaw against it; soft steamed bun.
+  - Absent on purpose: cheese, beans, ketchup, relish, tomato, pickle spear, celery salt, a hand holding it.
+  - Prompt-ready line: "Two hot dogs side by side in a paper tray, each bun a little longer than the can is tall, dressed in order: a streak of yellow mustard, small white onion dice, a thin glossy smooth reddish-brown beanless chili, then a continuous pale creamy coleslaw ridge on top. No cheese, no ketchup, no relish."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted this pass** — en.wikipedia.org, wvpublic.org, and others all returned blocked. Every citation to these domains was sourced from a WebSearch result snippet, not a full page read.
 - **Single-zone-vs-multi-zone triage for this file is a judgment call from one research pass, not an exhaustively validated conclusion** — a Central Appalachia (WV/eastern KY) vs. Southern Appalachia (western NC/northern GA) internal split is plausible and was not ruled out, only not found with strong-enough distinct evidence this pass to justify building it.
 - **Northern Georgia and Alabama's Appalachian-coded mountain areas were not deeply researched this pass** — the file's scope statement includes them per the assignment, but no dish or environment claim below was specifically sourced to that sub-area; everything sourced skews toward West Virginia, eastern Kentucky, and (for ramps/stack cake) western North Carolina/Virginia.

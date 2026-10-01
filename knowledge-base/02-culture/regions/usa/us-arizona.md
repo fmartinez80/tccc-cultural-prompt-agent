@@ -106,6 +106,14 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: The plain/national hot dog and the other regional styles already catalogued in `us.md` (Chicago, Coney, NY cart) — none of those are bacon-wrapped or served on a football-shaped bolillo bun, and none carry pinto beans. Not a Mexican-interior *hot dog estilo* served with a different topping set (this file did not find evidence of a distinct "Mexico City style" hot dog beyond the shared bacon-wrapping origin noted above) — flag for review if a future pass finds one.
 - Confidence: HIGH overall for construction, ingredients, and Tucson's institutional history; MEDIUM for the finished-size synthesis.
 - Sources: [CNN — Sonoran hot dogs: How this zesty, bacon-wrapped delight was born](https://www.cnn.com/travel/sonoran-hot-dogs-tucson-arizona); [Daily Beast — El Guero Canelo Serves Tucson's Most Mexcellent Hot Dog](https://www.thedailybeast.com/el-guero-canelo-serves-tucsons-most-mexcellent-hot-dog/); [America's Test Kitchen — Sonoran Hot Dogs](https://www.americastestkitchen.com/recipes/15789-sonoran-hot-dogs); [Daily Meal — What To Know Before Putting Together A Sonoran Hot Dog](https://www.thedailymeal.com/1640950/sonoran-hot-dogs-special-buns/); [Visit Tucson — Sonoran Dog Trail](https://www.visittucson.org/plan-your-visit/maps-and-guides/sonoran-dog-trail/); [Fast Food Club — Craving Real Sonoran Hot Dogs?](https://fastfoodclub.com/p/craving-real-sonoran-hot-dogs-these-9-tucson-stands-wrap-them-in-bacon-and-char-8fac7ffa/)
+- Composition & proportions (§4.7) — one hot dog in a paper boat:
+  - What dominates: from above, toppings ~55% of the top (tomato-onion ~25%, mayo-mustard-salsa lines ~20%, beans ~10%), bun ~35%, the bacon-wrapped frank ~10% visible; from the side the soft bun is the biggest mass. [EDITORIAL]
+  - Components: bolillo-style bun ~15 cm (per the entry; about one and a quarter times the can's height), ~7–8 cm wide, split on top not the side; bacon-wrapped 6-to-1 frank filling most of its length; pinto beans ~1–2 tbsp per dog [MEDIUM — Hey Grill Hey, America's Test Kitchen recipes (via search)], lining the base; diced tomato and onion ~0.5–1 cm, a generous strip; salsa a spoonful down the length; one yellow mustard stripe; one mayo zigzag. Optional: a roasted güero chile on the side. [EDITORIAL for shares]
+  - Arrangement: everything stacked along the bun's length in distinct bands, mayo zigzag on top.
+  - Vessel fill: paper boat or foil sheet ~20 cm; the dog fills its length.
+  - State cues: bacon glossy and streaky-crisp; bun soft and steamed, not toasted; toppings fresh and wet.
+  - Absent on purpose: a straight-sided supermarket bun, ketchup, relish, sport peppers or celery salt (Chicago), chili sauce (Coney), a hand holding it.
+  - Prompt-ready line: "One Sonoran hot dog in a paper boat: a soft, pale, football-shaped bolillo bun a little longer than the can's height, split on top, holding a bacon-wrapped frank with glossy, streaky, crisped bacon. Along its length, pinto beans at the base, a generous strip of diced red tomato and white onion, a spoon of green salsa, a thin yellow mustard stripe and a white mayonnaise zigzag on top. No ketchup."
 
 ### Dish: Sonoran-style flour tortilla (cross-cutting ingredient entry, not a standalone plated dish — referenced by multiple entries below, parallel treatment to `us-new-mexico.md`'s Hatch/Chimayó chile entry)
 
@@ -132,6 +140,14 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: A folded quesadilla (the primary confusable — the open-faced, never-folded presentation and the full edge-to-edge cheese coverage are the checkable differentiators) and nachos (individual chips rather than one whole tortilla).
 - Confidence: MEDIUM-HIGH overall for composition and Arizona-specific prevalence; MEDIUM for the precise mid-century origin timeline.
 - Sources: [Wikipedia: Arizona cheese crisp](https://en.wikipedia.org/wiki/Arizona_cheese_crisp); [Neighborhoods.com — What Is The Arizona Cheese Crisp](https://www.neighborhoods.com/blog/what-is-the-arizona-cheese-crisp-and-where-are-the-best-places-in-tucson-to-eat-it); [Foodigenous — The Arizona Cheese Crisp](https://www.foodigenous.com/post/the-arizona-cheese-crisp)
+- Composition & proportions (§4.7) — one whole crisp, cut:
+  - What dominates: melted cheese ~80% of the disc's surface; browned tortilla rim ~15%; chile flecks ~5% when present. [EDITORIAL]
+  - Components: tortilla 30–33 cm (12–13 in, per the entry; about five can-widths) — see notable corrections for a 14–16 in figure; cheese a thin, even melted layer; cut into 6–8 wedges (per the entry); diced green chile ~0.5–1 cm, scattered, optional; salsa in a small dish. [EDITORIAL for shares]
+  - Arrangement: flat, open-faced, on a metal pizza pan or raised stand; wedges cut but left in place, one pulled slightly out.
+  - Vessel fill: the disc nearly fills a 30–35 cm platter or pan.
+  - State cues: glossy cheese with small brown blistered spots; crisp, curled, bubbled rim; steam.
+  - Absent on purpose: a fold (quesadilla), separate chips, heavy toppings, sour cream and guacamole heaps (unless the loaded version is briefed).
+  - Prompt-ready line: "An Arizona cheese crisp on a round metal pizza pan: one huge, flat, open-faced flour tortilla about five times the can's width, covered edge to edge in glossy melted cheese with small brown blistered spots, its exposed rim crisped golden and curled. Cut into eight wedges left in place, one slightly pulled out, scattered with small flecks of green chile. A small bowl of salsa beside it."
 
 ### Dish: Carne seca and machaca
 
@@ -147,6 +163,13 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: `us-texas.md`'s barbacoa (moist, gelatinous, taco-format only) and `us-new-mexico.md`'s carne adovada (chile-sauce-coated, never dry) are the primary confusables — carne seca/machaca's defining, checkable trait is its dry, sun-dried origin and fine, fluffy shred, with no clinging sauce coating the meat itself.
 - Confidence: HIGH for technique, history, and composition.
 - Sources: [Wikipedia: Carne seca](https://en.wikipedia.org/wiki/Carne_seca); [Tucson Foodie — From Rooftops to Restaurants: Tucson's Carne Seca Legacy](https://tucsonfoodie.com/news/from-rooftops-to-restaurants-tucsons-carne-seca-legacy); [Willamette Week — Machaca Is the Best Burrito Filling Known to Man](https://www.wweek.com/restaurants/2017/05/01/machaca-is-the-best-burrito-filling-known-to-man-we-tried-to-make-it-at-home/); [Muy Bueno — Machaca con Huevo Recipe](https://muybuenoblog.com/machaca-con-huevo-machaca-with-eggs/)
+- Composition & proportions (§4.7) — machaca con huevo, served loose with tortillas:
+  - What dominates: on the plate, the egg-and-meat scramble ~45%, beans ~20%, folded flour tortillas ~25%, salsa ~10%. Within the scramble, egg curds ~50%, shredded meat ~40%, tomato/chile/onion ~10%. [EDITORIAL]
+  - Components: about ½ cup finely shredded carne seca per serving (per the entry); egg curds ~2–3 cm; tomato and chile dice ~0.5 cm; 2 thin Sonoran flour tortillas folded in quarters; refried beans a scoop. [EDITORIAL]
+  - Arrangement: scramble on one third of a 26–28 cm plate (per the entry), beans beside, tortillas on the rim or in a cloth.
+  - State cues: meat dry-looking, fine strands, deep reddish-brown; eggs soft and fluffy; steam.
+  - Absent on purpose: a saucy stew, moist pulled barbacoa, red chile coating, cheese blanket, a breakfast-table setting (scope).
+  - Prompt-ready line: "A plate of machaca con huevo: fine, fluffy, dry-looking strands of deep reddish-brown dried beef mixed through soft pale-yellow scrambled egg curds, with small flecks of tomato and green chile, covering about a third of the plate. A scoop of refried beans beside it and two thin, folded flour tortillas with brown blister spots. No sauce."
 
 ### Dish: Chimichanga (a real, dated, genuinely contested-origin dish — treated with the same honest-disclosure standard this project applies to the gyro, the Reuben, and toasted ravioli)
 
@@ -164,6 +187,14 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: An un-fried, soft burrito (`us.md` national content) — the fried, blistered, crisp-shattering shell is the clear, checkable differentiator. Not a chile relleno on its own (a whole stuffed chile, not a wrapped tortilla) — see next entry.
 - Confidence: MEDIUM-HIGH for composition and general description; the origin dispute is explicitly and permanently contested, not resolved, consistent with this project's treatment of similarly disputed dishes elsewhere.
 - Sources: [Zócalo Public Square — Who Invented the Chimichanga?](https://www.zocalopublicsquare.org/who-invented-the-chimichanga/); [Food Republic — Why The Origin Of Chimichangas Is So Complicated](https://www.foodrepublic.com/2176226/complicated-origins-of-chimichangas/); [Tucson.com — Chimichanga legend lands Tucson's El Charro on Smithsonian's map](https://tucson.com/life-entertainment/local/food-drink/article_90834e7f-d973-43d1-b0ff-256e205491d9.html); [Wikipedia: Chimichanga](https://en.wikipedia.org/wiki/Chimichanga); [Fox News — Will the Chimichanga be Named Arizona's Official Dish?](https://www.foxnews.com/food-drink/will-the-chimichanga-be-named-arizonas-official-dish.amp)
+- Composition & proportions (§4.7) — one restaurant plate:
+  - What dominates: the fried chimichanga ~40% of the plate, rice ~15%, beans ~15%, toppings ~20% (sour cream, guacamole, lettuce, tomato), sauce ~10%. [EDITORIAL]
+  - Components: chimichanga ~15–18 cm long (6–7 in, per the entry; about one and a third times the can's height), ~6–7 cm thick; served with rice, beans and sour cream, guacamole often on or beside it [MEDIUM — Phoenix and Tucson restaurant menus (via search)]; sour cream and guacamole each a ~5 cm dollop; shredded lettuce and diced tomato a small bed; red or green sauce over part of the shell. [EDITORIAL for shares]
+  - Arrangement: chimichanga diagonally across the plate's centre, sauce over one end only, dollops on top or at one side, rice and beans at the edges.
+  - Vessel fill: 26–28 cm plate ~85% covered.
+  - State cues: blistered, crisp deep-golden shell with small cracks; if cut, one half only, steaming, moist filling (per the entry's cut-food rule).
+  - Absent on purpose: a fully sauce-drowned shell, a soft unfried burrito, melted-cheese blanket over everything, cilantro piles, the second cut half in frame.
+  - Prompt-ready line: "A plate with one chimichanga laid diagonally, about one and a third times the can's height, a plump fried flour-tortilla parcel with a blistered, crisp deep-golden shell and small cracks, red sauce ladled over one end only. A dollop of sour cream and one of guacamole on a little shredded lettuce and diced tomato beside it; scoops of rice and refried beans at the edges."
 
 ### Dish: Chile relleno (Sonoran-style)
 
@@ -180,6 +211,13 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: A chimichanga (this file, above) — the chile relleno is a whole stuffed pepper with a puffy egg-batter coating, never a wrapped tortilla in its standalone form; the chile relleno burrito variant is the one point of overlap and should be depicted with the whole battered chile visible when unwrapped/cut, distinguishing it from a chimichanga's shredded-meat-or-bean filling.
 - Confidence: MEDIUM for Arizona-specific variants; MEDIUM-HIGH for the base dish's general composition.
 - Sources: [FamilyDestinationsGuide — The Chile Relleno Burrito At This Mom-And-Pop Restaurant In Arizona](https://familydestinationsguide.com/chile-relleno-burrito-arizona/); [Wikipedia: Chile relleno](https://en.wikipedia.org/wiki/Chile_relleno)
+- Composition & proportions (§4.7) — one plated relleno:
+  - What dominates: the battered chile ~35% of the plate, sauce ~15%, rice ~20%, beans ~20%, garnish ~10%. [EDITORIAL]
+  - Components: one chile ~10–13 cm (per the entry; a little under the can's height), ~5–6 cm wide battered; light tomato sauce spooned over; melted white cheese oozing at one end; rice and beans each a ~8 cm scoop. [EDITORIAL]
+  - Arrangement: relleno centred, stem end visible, sauce over its middle, sides around it.
+  - State cues: puffy, light golden, craggy egg batter; dark green blistered skin showing through thin spots; steam.
+  - Absent on purpose: deep-brown uniform crisp shell, a tortilla wrap (unless the burrito variant is briefed), yellow cheddar blanket, sour cream.
+  - Prompt-ready line: "One chile relleno on a white plate, a little shorter than the can's height: a whole roasted green chile, stem still on, in a puffy, light golden, craggy egg batter with dark blistered skin showing through in places, white cheese oozing from one end, a light tomato sauce spooned over its middle. Scoops of rice and pinto beans beside it; steam."
 
 ### Dish: Green corn tamales (Sonoran/Tucson-style)
 
@@ -196,6 +234,13 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: `us-new-mexico.md`'s Christmas-season tamale — the fresh, pale-green husk (vs. New Mexico's dried tan husk) and the different season (late summer vs. Christmas) are the checkable differentiators.
 - Confidence: HIGH for composition and seasonality; MEDIUM for exact size figures.
 - Sources: [Roadfood — Tucson Green Corn Tamales](https://roadfood.com/bests/tucson-green-corn-tamales); [Tucson.com — Big Jim: Green corn tamales](https://tucson.com/news/blogs/big-jim/article_7528c378-ea61-11e2-b6c7-001a4bcf887a.html)
+- Composition & proportions (§4.7) — one plate of two or three:
+  - What dominates: pale green husks ~50% of what shows, exposed pale masa ~40%, green chile and cheese ~10%. [EDITORIAL]
+  - Components: tamales ~10–15 cm long, ~4–5 cm thick (per the entry); 2–3 per plate, husks folded back; one split showing a green chile strip ~1–1.5 cm wide and melted cheese; salsa optional in a small dish. [EDITORIAL]
+  - Arrangement: side by side on a plate, the split one in front.
+  - State cues: husks fresh, moist, pale green; masa soft, moist, cream-yellow; steam.
+  - Absent on purpose: dried tan husks, red chile pork filling, posole pairing, a sauce blanket.
+  - Prompt-ready line: "Three green corn tamales side by side on a plate, each about the can's height, wrapped in fresh, moist, pale green corn husks folded back to show soft, cream-yellow fresh-corn masa. The front one is split open, showing a bright green chile strip and melted white cheese inside. Steam rising; a small dish of salsa beside the plate."
 
 ### Dish: Prickly pear syrup and candy
 
@@ -210,6 +255,13 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: Not a generic red-fruit (cherry, strawberry) syrup or candy — the distinctive magenta-fuchsia hue is the checkable differentiator; genuine prickly pear color does not read as a standard red.
 - Confidence: HIGH for the product's real, marketed existence and color; the state-symbol correction above is itself the most important, highest-confidence finding in this entry.
 - Sources: [Cactus Candy Company / Cheri's Desert Harvest — product listings](https://cherisdesertharvest.com/product/prickly-pear-cactus-candy/); [MyGlobalFlowers — Arizona's State Flower: Saguaro Cactus Blossom](https://myglobalflowers.com/blog/lifestyle/arizona-s-state-flower)
+- Composition & proportions (§4.7) — a small retail/snack still life:
+  - What dominates: the magenta colour of the syrup and candies ~70% of the food area; a cut fruit as a colour cue optional. [EDITORIAL]
+  - Components: candies ~2.5 cm squares (per the entry; about a third of the can's width), 8–12 loose or in plain wrappers; a small jar of syrup ~6–8 cm tall (about half the can's height) with a plain lid; optional one halved prickly pear fruit ~6–8 cm. [EDITORIAL]
+  - Arrangement: candies scattered in front of the jar on a small plate or board.
+  - State cues: syrup glossy and jewel-toned; candies matte, soft-chewy.
+  - Absent on purpose: legible labels, cocktails or alcohol (staging rule), generic red cherry colour, cactus spines on the food.
+  - Prompt-ready line: "A small still life of prickly pear treats on a wooden board: a short clear jar of glossy, jewel-toned magenta syrup about half the can's height, with a plain lid and no label, and a scattering of soft, matte, deep fuchsia jelly candies about a third of the can's width each in front of it, beside one halved prickly pear fruit. No labels, no drinks."
 
 ### Dish/ingredient: Tepary beans and saguaro fruit (Tohono O'odham heritage — ingredient entry, parallel to `us-new-mexico.md`'s Hatch chile treatment)
 
@@ -237,6 +289,13 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: `us-new-mexico.md`'s green chile stew (pork-based, potato-forward, no confirmed mutton tradition) and posole (hominy-based) — mutton as the primary protein, and the comparatively simple, less chile-forward broth, are the checkable differentiators.
 - Confidence: MEDIUM-HIGH for the dish's existence and general composition; sourcing tier is honestly disclosed as food-blog/enthusiast level, not tribally-authored or academic — see GAP LOG.
 - Sources: [Wikipedia: Eating culture of the Navajo Nation](https://en.wikipedia.org/wiki/Eating_culture_of_the_Navajo_Nation); [The Fancy Navajo — Mutton Stew Recipe](https://thefancynavajo.com/2019/03/06/fancy-navajo-mutton-stew-recipe/)
+- Composition & proportions (§4.7) — one bowl with fry bread:
+  - What dominates: clear broth ~45% of the visible surface, mutton chunks ~30%, vegetables ~25%. [EDITORIAL]
+  - Components: bowl 15–18 cm filled to ~1–2 cm below the rim (per the entry); mutton chunks or bone-in pieces ~3–5 cm, 4–6; potato ~2.5 cm cubes, a few; squash, onion or green chile pieces depending on household; one fry bread round alongside, torn or whole. [EDITORIAL]
+  - Arrangement: chunks half-submerged; fry bread on a plate beside the bowl.
+  - State cues: thin, clear, lightly fatty broth with fat droplets; steam.
+  - Absent on purpose: thick roux or heavy red chile, ground meat, beans, cheese, sour cream.
+  - Prompt-ready line: "A deep bowl of Navajo mutton stew filled almost to the rim: a thin, clear, savoury broth with small fat droplets, holding large chunks of mutton about half the can's width, some on the bone, with pieces of potato, squash and onion. Steam rising. Beside it, a round of golden fry bread on a plate."
 
 ### Dish: Navajo blue corn mush and kneel-down bread
 
@@ -252,6 +311,13 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: A standard yellow-cornmeal porridge/grits (the blue-gray color is the checkable differentiator for blue corn mush); a dried-masa tamale (`us-new-mexico.md`, this file's own green corn tamale entry above) for kneel-down bread — the softer, wetter, pudding-like (not firm, sliceable) texture is the checkable differentiator.
 - Confidence: MEDIUM-HIGH for both dishes' existence and general description; sourcing tier honestly disclosed as food-blog/enthusiast level, not tribally-authored or academic — see GAP LOG.
 - Sources: [Tastes From The Road — Blue Corn Mush](https://www.tastesfromtheroad.com/post/blue-corn-mush-a-taste-of-the-navajo-nation); [Episcopal Church — Traditional Diné Blue Maize Mush](https://www.episcopalchurch.org/evangelisminitiatives/traditional-dine-blue-maize-mush/); [CKBK/Betty Fussell — Navajo Kneel-Down Bread](https://app.ckbk.com/recipe/ihea12417c01s001r004/navajo-kneel-down-bread); [Santa Fe New Mexican — Comidas y Mas: Kneel Down Bread recipe](https://www.santafenewmexican.com/pasatiempo/comidas-y-mas-kneel-down-bread-recipe/article_32562c74-385e-11ee-a720-dbdff5e25ab9.html)
+- Composition & proportions (§4.7) — mush: one bowl; kneel-down bread: one or two unwrapped:
+  - What dominates: mush — the smooth blue-grey surface ~100% of the bowl; kneel-down bread — husk ~50%, exposed pudding ~50%. [EDITORIAL]
+  - Components: mush in a 15–18 cm bowl, filled to ~1–2 cm below the rim (per the entry), spoon-coating thick; kneel-down bread ~10–13 cm (per the entry's tamale comparison), husk opened on a plate. [EDITORIAL]
+  - Arrangement: shown separately unless a brief pairs them; mush plain, no toppings.
+  - State cues: mush matte, thick, a little steam; kneel-down bread moist, dense, slightly charred husk from ember baking.
+  - Absent on purpose: sweet toppings (berries, syrup, butter pats) on the mush, yellow or white cornmeal colour, a firm sliceable masa look.
+  - Prompt-ready line: "A deep bowl of Navajo blue corn mush filled almost to the rim, smooth, thick and matte, a distinctive blue-grey to lavender-grey, with a spoon resting on the rim and a little steam. Beside it, a kneel-down bread about the can's height, its slightly charred corn husk opened to show a moist, dense, pale blue-grey corn pudding. No sweet toppings."
 
 ### Dish: Navajo taco (fry bread) — Arizona-specific presence and the informal "state dish" claim
 
@@ -267,6 +333,14 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: `us-new-mexico.md`'s sopapilla — the flat-and-solid (Navajo taco) vs. hollow-and-puffed (sopapilla) distinction is the single clearest, most checkable marker, already established at HIGH confidence in `us-new-mexico.md` and directly applicable here. Not a hard-shell or soft Tex-Mex taco (`us-texas.md`) — no tortilla of any kind is used; the "shell" is fried bread dough itself.
 - Confidence: HIGH for the fry-bread-vs-sopapilla distinction (inherited); MEDIUM-HIGH for the dish's composition and the 1995 poll; the origin history is treated with explicit care given its difficult, sometimes ambivalently-regarded historical context.
 - Sources: [What's Cooking America — Indian Fry Bread and Indian Taco Recipe and History](https://whatscookingamerica.net/history/navajofrybread.htm); [Mental Floss — The Complicated History of Fry Bread](https://www.mentalfloss.com/article/637618/fry-bread-controversial-history); [Smithsonian Magazine — Frybread](https://www.smithsonianmag.com/arts-culture/frybread-79191/); [House of Nash Eats — Navajo Tacos (Indian Fry Bread)](https://houseofnasheats.com/navajo-tacos-indian-fry-bread/)
+- Composition & proportions (§4.7) — one plate:
+  - What dominates: from above, toppings ~65% of the disc (lettuce ~25%, beans or beef ~20%, cheese ~10%, tomato ~10%), golden fry bread rim ~35%. [EDITORIAL]
+  - Components: fry bread ~20–25 cm across (8–10 in, per the entry; about three to four can-widths) — see notable corrections for smaller home-recipe sizes — ~1–1.5 cm thick; beans or seasoned ground beef ~¾ cup, centred; shredded iceberg a mound; diced tomato ~1 cm; shredded cheddar a handful; optional green chile dice; sour cream optional. Recipes top it with beef, lettuce, tomato and cheddar in that order [MEDIUM — recipe sources (via search)].
+  - Arrangement: toppings piled in the centre, leaving a 3–4 cm bare golden rim of fry bread.
+  - Vessel fill: the fry bread nearly fills a 26–28 cm plate (per the entry).
+  - State cues: blistered, matte, golden fry bread; lettuce crisp; cheese not fully melted.
+  - Absent on purpose: a tortilla or taco shell, a hollow puffed sopapilla, folded construction, guacamole heaps, cilantro piles.
+  - Prompt-ready line: "A Navajo taco on a dinner plate: one large, flat, golden fry bread round about three times the can's width, blistered and matte, nearly filling the plate. Piled in the centre, seasoned beans and ground beef, then shredded iceberg lettuce, diced red tomato and shredded yellow cheddar, with a bare golden rim of fry bread showing all around. No tortilla."
 
 ### Dish: Hopi piki bread (brief entry — thin sourcing honestly flagged)
 
@@ -281,11 +355,19 @@ Arizona clears the "would swapping this region's norms into New Mexico or Texas 
 - Common confusion: Navajo blue corn mush or kneel-down bread (this file, above) — piki is a distinct, paper-thin, rolled sheet, not a porridge or a moist corn pudding; the extreme thinness and rolled presentation are the checkable differentiators.
 - Confidence: MEDIUM for existence and general description; LOW for exact finished dimensions — both flagged honestly rather than inflated, and this entry is deliberately kept brief given the thin sourcing tier reached.
 - Sources: [Atlas Obscura — The Ultra-Thin Blue Corn Bread at the Center of Hopi Weddings](https://www.atlasobscura.com/foods/piki-bread); [Edible Phoenix — The Art of Making Hopi Piki Bread](https://ediblephoenix.ediblecommunities.com/food-thought/the-art-of-making-hopi-piki-bread/)
+- Composition & proportions (§4.7) — a few rolls on a cloth or basket:
+  - What dominates: blue-grey rolled sheets ~100% of the food. [EDITORIAL]
+  - Components: sheets baked ~38–40 cm (15–16 in) across, then folded and rolled into slightly flattened rolls ~20–23 cm (8–9 in) long, "about the size of a corn cob" [MEDIUM — NHO News, The Food Dictator (via search)] — about one and three-quarters times the can's height — see notable corrections against the entry's thin-cigar anchor; 4–8 rolls stacked; one broken, showing papery layers. [EDITORIAL for counts]
+  - Arrangement: stacked neatly in a shallow basket or on a plain cloth.
+  - State cues: matte, papery, slightly translucent layers; brittle broken edges.
+  - Absent on purpose: tortilla-like thickness, crêpe gloss, fillings, sauces.
+  - Prompt-ready line: "A shallow woven basket holding six rolls of Hopi piki bread, each a slightly flattened roll about one and three-quarters of the can's height long and about the size of a corn cob, made of paper-thin, matte blue-grey layers; one roll broken open shows brittle, papery, slightly translucent sheets. Plain and dry, nothing else."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **Navajo/Hopi sourcing tier is honestly disclosed as food-blog/enthusiast level throughout this file, not tribally-authored or academic** — the same gap `us-new-mexico.md` flagged for its own Pueblo-bread entry. A future pass should specifically seek Navajo Nation government, Diné College, Hopi Cultural Preservation Office, or academic ethnographic sourcing before treating any of these origin/meaning claims as more settled than currently stated.
 - **The exact share of the Navajo Nation's total area located within Arizona specifically (vs. New Mexico and Utah) was not found this pass** — sourcing confirms the reservation spans all three states and that its largest urban/institutional presence is generally understood to be in northeastern Arizona, but no precise percentage breakdown by state was located.
 - **Which specific Navajo/Hopi dishes are most staging-relevant and distinctly Arizona-manifested (vs. equally present in the New Mexico or Utah portions of Navajo Nation) was not rigorously tested** — this file documents mutton stew, blue corn mush, kneel-down bread, and the Navajo taco as real and sourced, but did not find Arizona-specific (as opposed to reservation-wide) variation within any of them.

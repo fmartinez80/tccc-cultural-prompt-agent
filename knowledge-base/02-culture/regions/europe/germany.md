@@ -606,6 +606,29 @@ requirements; flagged explicitly here rather than left implicit.
 - Sources: general German-bakery sourcing aggregated across multiple food-
   culture references; not independently re-verified with a dedicated search
   this pass beyond general confirmation of the naming variation.
+- **Composition & proportions (§4.7)** — a basket at the table, and one
+  belegtes Brötchen.
+  - What dominates: the rolls themselves — crust ~80% of what is seen in a
+    basket; seeds and flour dust are surface accents. In a belegtes
+    Brötchen, bread ~70% of the silhouette, the filling a 1–2 cm band with
+    one lettuce frill showing at the edge. [EDITORIAL]
+  - Components: rolls ~9–11 cm across, 5–6 cm tall (per the entry) — a
+    little narrower than the can is tall; 5–8 rolls in a basket, 1–2 per
+    person on the side plate; a filled roll holds 2–3 folded slices of one
+    cold cut or cheese, one lettuce leaf, 2–3 cucumber or egg slices.
+    [EDITORIAL]
+  - Arrangement: basket loosely heaped, mixed types; on the plate one roll
+    split, butter in a small curl beside it.
+  - State cues: dry, matte, crackly crust; a few crust flakes and loose
+    seeds on the board or plate; no gloss.
+  - Absent on purpose: soft glossy burger buns, sesame-bun uniformity,
+    overstuffed deli layers, toothpicks, sauces dripping.
+  - Prompt-ready line: "A cloth-lined bread basket loosely filled with six
+    crusty German bread rolls, each a little shorter than the can is tall
+    and wider than it: plain split-top rolls with a paler ridge, one
+    densely seeded, one dark rye. Crust thin, dry and crackly, flaking onto
+    the table; a few loose seeds. One roll split on a small plate beside a
+    curl of butter. No soft buns, no glaze."
 
 #### Dish: Rye and mixed loaves (incl. Pumpernickel)
 
@@ -621,6 +644,25 @@ requirements; flagged explicitly here rather than left implicit.
 - Common confusion: A white sliced sandwich loaf — ruled out by the dark
   color and dense, moist crumb.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — slices on a board.
+  - What dominates: cut faces of crumb (~70% of the visible bread) over a
+    thin dark crust rim; the loaf end, if shown, is a secondary element.
+    [EDITORIAL]
+  - Components: slices 1–1.5 cm thick, 12–15 cm across (just longer than
+    the can is tall); Pumpernickel squares ~9 cm, ~0.7 cm thick (per the
+    entry); 4–6 slices fanned on a board, 1–2 per person. [EDITORIAL]
+  - Arrangement: slices fanned in an overlapping row beside the loaf heel;
+    a bread knife flat on the board; a few crumbs.
+  - State cues: moist, dense, matte crumb; flour dust on the crust; no
+    butter melt (cold bread).
+  - Absent on purpose: white sandwich bread, open airy holes, seeds piled
+    on top, spreads already applied unless an Abendbrot scene.
+  - Prompt-ready line: "Five thick slices of dark German rye bread fanned
+    in an overlapping row on a wooden board, each slice a little longer
+    than the can is tall and about a finger thick, with dense, moist,
+    fine-grained brown crumb and a thick dark cracked crust dusted with
+    flour. Two small near-black square pumpernickel slices beside them.
+    The cut loaf heel behind. A few crumbs; nothing spread on the bread."
 
 #### Dish: Abendbrot spread
 
@@ -643,6 +685,40 @@ requirements; flagged explicitly here rather than left implicit.
   convention, not independently re-verified with a dedicated dish-level
   source this pass beyond the broader Abendbrot-prevalence sourcing above.
 - Sources: [The Local — Is Germany falling out of love with Abendbrot?](https://www.thelocal.de/20220310/is-germany-falling-out-of-love-with-abendbrot)
+- **Composition & proportions (§4.7)** — one person's Brettchen within a
+  shared table.
+  - What dominates: bread and the table-centre plates of cold cuts and
+    cheese; on each person's board, one slice of bread takes ~50% of the
+    board, the topping a single layer on it. Vegetables are small accents.
+    [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (table / one board) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rye/mixed bread slices | 12–15 cm, 1–1.5 cm thick | 6–10 in a basket / 1–2 | Dense brown crumb | Basket centre; one slice on each board |
+    | Cold cuts (salami, ham, liver sausage) | Salami rounds ~6–8 cm; ham slices ~10 cm | ~15–25 slices on one plate / 2–3 | Fanned, one layer | Shared plate centre; one layer on the bread |
+    | Cheese (Gouda, Emmental) | Slices ~8–10 cm | ~8–12 / 1–2 | Pale yellow; Emmental with round holes | Shared plate |
+    | Gherkins | 8–10 cm (per entry) — a little shorter than the can | 4–6 in a small dish / 0–1 | Glossy, bumpy green | Small dish; halved on a board |
+    | Radishes | ~2.5 cm — about a third of the can's width | 6–10 / 2–3 | Red, white cut face | Small bowl |
+    | Tomato/cucumber slices | ~5–6 cm rounds | a small plateful / 2–4 | Wet cut faces | Side plate |
+    | Butter | block or dish | 1 | Pale, knife-marked | Butter dish centre |
+
+  - Arrangement: shared plates clustered at the table centre, each diner
+    with their own Brettchen and knife; everything cold, flat, orderly.
+  - Served portion: one open slice of bread with one topping on the board,
+    a radish and a gherkin half beside it — not a stacked sandwich.
+    [EDITORIAL]
+  - State cues: cold, no steam; a light sheen on the cut meats; fresh
+    moisture on the vegetable cuts.
+  - Absent on purpose: closed stacked sandwiches, hot dishes, garnish
+    piles, candles-and-wine dinner staging, coffee cups.
+  - Prompt-ready line: "A German cold-supper table: small wooden boards,
+    one per person, each with a single open slice of dark rye bread topped
+    with one layer of salami. At the centre, a plate of fanned salami, ham
+    and pale Emmental slices with round holes, a basket of sliced bread, a
+    butter dish, a small bowl of red radishes each about a third of the
+    can's width, and glossy gherkins a little shorter than the can. Cold, orderly,
+    no steam."
 
 #### Dish: Mettbrötchen (raw seasoned pork roll)
 
@@ -659,6 +735,26 @@ requirements; flagged explicitly here rather than left implicit.
   "spoiled food" read.
 - Confidence: MEDIUM — a genuine, real dish, not independently re-verified
   with new sourcing this pass.
+- **Composition & proportions (§4.7)** — two roll halves on a plate.
+  - What dominates: the pink Mett layer — ~70% of the visible top surface;
+    the roll's crust edge a thin golden ring; onion a scatter over ~20% of
+    the Mett. [EDITORIAL]
+  - Components: half rolls ~10 cm across (per entry), a little narrower
+    than the can is tall; Mett 1–1.5 cm deep, spread to the edge; onion
+    dice ~0.5 cm or 2–4 thin rings per half; a few black-pepper specks.
+    2 halves per serving. [EDITORIAL]
+  - Arrangement: two halves side by side on a small plate or board, the
+    Mett surface fork-ridged.
+  - State cues: fresh, cool, faint gloss on the Mett; crisp translucent
+    onion; bright clean light.
+  - Absent on purpose: any browning or cooking on the meat, lettuce, sauces,
+    cheese; dim moody light.
+  - Prompt-ready line: "Two halves of a crusty white bread roll, each a
+    little narrower than the can is tall, side by side on a small white
+    plate, each spread to the edge with a finger-thick layer of bright
+    rose-pink finely minced seasoned pork, its surface marked with fork
+    ridges. A light scatter of crisp white onion dice and black pepper
+    specks on top. Bright, clean daylight; nothing else on the plate."
 
 ### Street food & Imbiss
 
@@ -726,6 +822,37 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for the origin dispute and the casing/skinless variant
   distinction; MEDIUM for exact portion dimensions.
 - Sources: [Wikipedia: Currywurst](https://en.wikipedia.org/wiki/Currywurst); [Wikipedia: Herta Heuwer](https://en.wikipedia.org/wiki/Herta_Heuwer); [Hamburg Travel](https://www.hamburg-travel.com/blog/berlin-or-hamburg-who-invented-the-currywurst/); [doeatbetterexperience.com](https://doeatbetterexperience.com/blog/currywurst-berlin/); [Berlin Food Tour](https://www.berlinfoodtour.de/2025/02/04/berlin-currywurst-more-than-just-a-sausage/)
+- **Composition & proportions (§4.7)** — one Imbiss portion with fries.
+  - What dominates: sauce-coated sausage coins and fries share the tray
+    roughly half and half by area; sauce covers ~80% of the sausage coins;
+    curry dust is a patchy accent on top. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (one portion) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Sausage | ~170 g per portion [MEDIUM — cc-recke Mengenkalkulation (via search)]; coins ~1.5–2 cm thick, ~3 cm across (per entry) — about half the can's width | 8–12 coins | Pink cut faces, cased edges curled and grill-marked | One half of the tray, touching, slightly overlapping |
+    | Curry-ketchup sauce | ~3–5 tablespoons | 1 pour | Glossy red-brown, semi-thick | Over the coins, pooling in the corners |
+    | Curry powder | a dusting | — | Dry ochre patches | On top of the sauce |
+    | Fries | ~250 g portion [MEDIUM — cc-recke (via search)]; ~7–9 cm × ~1 cm (per entry) | ~30–40 | Golden, blistered | The other half of the tray, or a second tray |
+    | Mayonnaise (optional) | a piped ribbon | 1 | Thick pale ivory | On the fries only |
+    | Wooden fork | ~8 cm | 1 | Pale wood, two prongs | Standing upright in a coin |
+
+  - Vessel fill: the ~17×11 cm paper tray (250–400 mL Imbiss trays are the
+    standard size [MEDIUM — verpackungonline (via search)]) is full to the
+    rim with a slight heap; no food overflowing onto the table.
+  - Served portion: one tray per person; eaten from the tray on a standing
+    table. With a roll instead of fries: one plain roll beside the tray.
+  - State cues: faint steam; translucent grease spots on the paper; sauce
+    glossy, not dried.
+  - Absent on purpose: a whole unsliced sausage, a hot-dog bun, onions,
+    relish, sauerkraut, parsley, a plate with cutlery.
+  - Prompt-ready line: "A white paper tray about one and a half cans long,
+    filled: on one half, sliced grilled sausage coins, each about half the
+    can's width, drenched in glossy red-brown curry-ketchup sauce pooling
+    in the tray corners, dusted with patches of dry ochre curry powder, a
+    small two-pronged wooden fork standing in one piece. On the other half,
+    golden fries with a ribbon of thick pale mayonnaise. Grease spots on
+    the paper; faint steam."
 
 #### Dish: Döner Kebab (Turkish-German)
 
@@ -768,6 +895,35 @@ requirements; flagged explicitly here rather than left implicit.
 - Sources: general Turkish-German food-culture sourcing; not independently
   re-verified with a dedicated new search this pass beyond confirming its
   everyday, nationwide status is consistent with widely available reporting.
+- **Composition & proportions (§4.7)** — one flatbread-wedge Döner.
+  - What dominates: bread and meat. From the side, bread ~40% of the
+    silhouette, meat ~30%, salad ~20%, sauce ~10% — the meat is a thick
+    layer of thin ribbons, not chunks. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (one Döner) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Flatbread wedge | ~20–25 cm across the arc, 12–15 cm tall (per entry) — a little taller than the can, the arc about twice its height | 1 | Toasted, dimpled, sesame/nigella | Outer shell, split open at top |
+    | Shaved meat | ~145–250 g per standard Döner [MEDIUM — hot-doener-worms.de, pastaweb.de (via search)]; ribbons ~4–8 cm long, 1–3 mm thin | dozens of ribbons | Crisp brown edges, juicy paler centres | Lower half of the pocket, spilling to the opening |
+    | Lettuce, red cabbage, tomato, onion | Shreds 3–6 mm; tomato half-moons ~5 cm | a loose handful | Green, violet, red, white | Upper half, poking out of the opening |
+    | Garlic-yogurt sauce | ~2–3 tablespoons | 1–2 drizzles | Glossy white, streaked violet by the cabbage | Over the salad, dripping down one side |
+    | Chili sauce (optional) | a thin drizzle | 0–1 | Red | Over the white sauce |
+
+  - Arrangement: stuffed so the fillings crown the opening; the lower half
+    wrapped in paper or foil.
+  - Served portion: one Döner per person, standing on its paper on a tray
+    or small plate — not held.
+  - State cues: steam from the meat; sauce drips on the paper; toasted
+    bread still crisp at the corners.
+  - Absent on purpose: hands, a rolled pita (gyro), fries inside, cheese,
+    guacamole, lettuce heaped taller than the bread.
+  - Prompt-ready line: "One Turkish-German döner kebab standing upright on
+    its paper wrapper on a small tray: a toasted quarter-wedge of dimpled
+    flatbread speckled with sesame and black seeds, a little taller
+    than the can, split open and packed with thin curled ribbons of shaved
+    meat with crisp brown edges, crowned by shredded lettuce, violet red
+    cabbage and tomato. Glossy white garlic sauce drips down one side,
+    tinted violet. Steam rising."
 
 #### Dish: Bratwurst im Brötchen
 
@@ -808,6 +964,30 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for both PGI sausages' protected status and dimensions;
   MEDIUM for the generic-Bratwurst register.
 - Sources: [Wikipedia: Thuringian sausage](https://en.wikipedia.org/wiki/Thuringian_sausage); [GOV.UK](https://www.gov.uk/protected-food-drink-names/thuringer-rostbratwurst); [Wikipedia: Nürnberger Rostbratwurst](https://en.wikipedia.org/wiki/N%C3%BCrnberger_Rostbratwurst); [Find My Seidla](https://findmyseidla.de/en/blog/nuremberg-bratwurst)
+- **Composition & proportions (§4.7)** — one sausage in a roll (and the
+  Nürnberger plate).
+  - What dominates: the sausage — it is the longest element and the
+    visual centre; the roll frames its middle; mustard a single stripe.
+    [EDITORIAL]
+  - Components: roll 10–12 cm (per entry), about the can's height;
+    Thüringer 15–20 cm, overhanging each end by 3–5 cm; generic Bratwurst
+    ~2.5–3 cm thick; Nürnberger three 7–9 cm sausages inside one roll.
+    Plated Nürnberger: six on a pewter plate with sauerkraut [MEDIUM —
+    Wikipedia: Nürnberger Rostbratwurst (via search)]. Mustard: one stripe
+    ~1 cm wide along the sausage. [EDITORIAL]
+  - Arrangement: roll split along one side, sausage laid in, ends
+    protruding; on a paper napkin or small paper plate.
+  - State cues: glistening casing with dark grill stripes; faint charcoal
+    smoke in outdoor scenes; roll crust dry and matte.
+  - Absent on purpose: soft hot-dog bun, ketchup zigzag, relish, onions,
+    cheese, sauerkraut in the roll (sauerkraut only on the Nürnberger
+    plate), hands.
+  - Prompt-ready line: "One grilled bratwurst laid in a split crusty white
+    bread roll on a small paper plate. The roll is about the can's height;
+    the sausage is much longer, sticking out a thumb's width or more at
+    each end, its taut casing glistening with dark charcoal grill stripes.
+    A single stripe of mustard runs along the top. Crisp, matte roll crust
+    with airy crumb at the split. Nothing else in the roll."
 
 #### Dish: Pommes (fries)
 
@@ -822,6 +1002,27 @@ requirements; flagged explicitly here rather than left implicit.
   condiment cue and would read as a UK, not German, chip register.
 - Confidence: MEDIUM — a well-known everyday snack, not independently
   re-verified with new sourcing this pass.
+- **Composition & proportions (§4.7)** — one Imbiss portion.
+  - What dominates: fries ~85% of the tray surface; the condiment ribbon
+    ~10–15%, on top, not beside. [EDITORIAL]
+  - Components: ~250 g per portion [MEDIUM — cc-recke (via search)]; fries
+    ~7–9 cm × ~1 cm (per entry), a little shorter than the can; ~40–50
+    fries; mayonnaise and/or ketchup piped in 1–2 ribbons ("rot-weiß");
+    one small wooden fork.
+  - Arrangement: loosely heaped in the paper tray or cone, a few ends
+    standing up; condiment ribbons laid across the top.
+  - Vessel fill: tray filled to the rim with a low heap; cone filled to
+    the top.
+  - State cues: faint steam, salt grains visible, light gloss; mayo holds
+    its piped shape.
+  - Absent on purpose: malt vinegar, cheese sauce, gravy, herbs, crinkle
+    cut, skin-on wedges, a plate and cutlery.
+  - Prompt-ready line: "A white paper tray about one and a half cans long,
+    heaped with medium-cut golden fries, each a little shorter than the
+    can, lightly blistered and salted. Across the top, one thick ribbon of
+    pale ivory German mayonnaise that holds its piped shape and one ribbon
+    of glossy red ketchup. A small wooden fork stuck in the pile. Faint
+    steam; grease spots on the paper."
 
 #### Dish: Fischbrötchen
 
@@ -847,6 +1048,29 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM-HIGH — the North German regional attribution and the
   named-variant list are both well-corroborated general food-culture facts;
   exact dimensions are this file's own reasonable estimate.
+- **Composition & proportions (§4.7)** — one Bismarck Fischbrötchen.
+  - What dominates: the roll and the silver fillet — the fillet is the
+    visual hero at the opening, overhanging both ends; onion rings the main
+    accent. [EDITORIAL]
+  - Components: roll 14–16 cm (per entry), about one and a third cans
+    long; one Bismarck herring fillet with about half an onion in thin
+    rings [MEDIUM — Küchengötter recipe (via search)]; fillet ~2–3 cm wide,
+    overhanging 1–3 cm per end; 2–3 thin pickle slices; one lettuce leaf
+    edge; remoulade optional, one thin line.
+  - Arrangement: roll split from the side; lettuce under, fillet on top
+    skin side up, onion rings over the fillet.
+  - Served portion: one roll per person on a paper napkin or small paper
+    plate at a kiosk counter.
+  - State cues: silver skin with blue-green sheen; wet, glistening fillet;
+    crisp translucent onion; cool, not steaming.
+  - Absent on purpose: toasted buttered bun, warm seafood, heaped salad,
+    lemon wedge, hands.
+  - Prompt-ready line: "A crusty white bread roll a little longer than the
+    can is tall, split and filled with one whole pickled herring fillet,
+    silver-skinned with a blue-green sheen and firm ivory flesh, sticking
+    out past both ends of the roll. Thin translucent raw onion rings over
+    the fish, a frill of green lettuce and two pickle slices underneath.
+    On white paper at a harbour kiosk counter; cool, fresh, glistening."
 
 #### Dish: Leberkäse / Fleischkäse
 
@@ -866,6 +1090,28 @@ requirements; flagged explicitly here rather than left implicit.
   visibly overhangs the roll's crumb.
 - Confidence: MEDIUM — a well-known everyday Bavarian/southern German food,
   not independently re-verified with new sourcing this pass.
+- **Composition & proportions (§4.7)** — a Leberkässemmel, and the plate.
+  - What dominates: the meat-loaf slice — it is larger than the roll's cut
+    face and overhangs it; mustard a small accent. [EDITORIAL]
+  - Components: slice ~90–150 g; cut about little-finger thick (~1 cm) for
+    a Semmel, thumb thick (1.5–2 cm) when plated [MEDIUM —
+    lifehacks-alltag, kalorien-guide (via search)]; ~10 cm across (per
+    entry), a little narrower than the can is tall. Roll ~9–10 cm.
+    Mustard: one dollop or smear. Plate version: one thick slice, one
+    fried egg on top, potato salad covering a third of a 26–28 cm plate.
+    [EDITORIAL]
+  - Arrangement: slice folded or laid flat in the split roll, edges
+    showing all round.
+  - State cues: rising steam from a fresh cut; browned crust on the slice
+    edge; faint fat gloss.
+  - Absent on purpose: lettuce, cheese, ketchup, visible liver or cheese
+    in the meat, burger-style stacking.
+  - Prompt-ready line: "A crusty white bread roll, a little narrower than
+    the can is tall, split around a thick warm slice of German meat loaf
+    that overhangs the bread on every side: fine, uniform rosy-pink inside
+    with a deep-brown baked crust along its edge. A dollop of sweet brown
+    mustard on the meat. Steam rising from the cut. Nothing else in the
+    roll."
 
 #### Dish: Brezel (lye pretzel)
 
@@ -898,6 +1144,28 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for the Swabian/Bavarian shape distinction; MEDIUM for
   exact dimensions.
 - Sources: [The Daily Meal](https://www.thedailymeal.com/2062505/what-makes-bavarian-pretzels-different/); [My German Table](https://www.mygermantable.com/swabian-pretzels-schwabische-laugenbrezeln/)
+- **Composition & proportions (§4.7)** — one bakery pretzel (and a
+  Butterbrezel).
+  - What dominates: the lacquered brown crust — ~85% of the visible
+    surface; the pale split belly and salt crystals are accents.
+    [EDITORIAL]
+  - Components: bakery pretzel ~70–95 g, giant beer-garden pretzel up to
+    ~250 g [MEDIUM — personenwaage-online, fettrechner (via search)];
+    15–20 cm wide (per entry), about one and a half times the can's
+    height across; salt crystals 2–4 mm, ~20–40 scattered, mostly on the belly and arm joins;
+    Butterbrezel: a 3–5 mm butter layer. [EDITORIAL]
+  - Arrangement: one pretzel flat on a board or plate, 1–2 per person;
+    giant pretzel on a peg stand.
+  - State cues: satin sheen, fine crackle; a few loose salt crystals on the
+    board.
+  - Absent on purpose: cinnamon sugar, cheese dip, fine table salt, pale
+    soft crust, mixed Swabian and Bavarian shapes.
+  - Prompt-ready line: "One German lye pretzel lying flat on a wooden
+    board, about one and a half times the can's height across: deep
+    mahogany-brown lacquered crust with a satin sheen and fine crackle, thin crisp arms knotted over
+    a fat belly split open to show pale crumb. Coarse, opaque white salt
+    crystals scattered on the belly and knots, a few fallen on the board.
+    No dip, no sugar."
 
 #### Dish: Reibekuchen / Kartoffelpuffer (potato pancakes)
 
@@ -913,6 +1181,24 @@ requirements; flagged explicitly here rather than left implicit.
 - Common confusion: A uniform, machine-formed US hash-brown patty — ruled
   out by the lacy, irregular, shred-visible edges.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one market portion.
+  - What dominates: the pancakes — ~75% of the plate; apple sauce a single
+    dollop, ~15–20%. [EDITORIAL]
+  - Components: 3 pancakes is the usual market portion [LOW-MEDIUM — EAT
+    SMARTER (via search)]; each ~10–12 cm × ~1 cm (per entry), about the
+    can's height across; apple sauce ~3–4 tablespoons.
+  - Arrangement: three pancakes overlapping like shingles on an ~18 cm
+    paper plate; apple sauce dolloped on or beside the lower one.
+  - State cues: glistening oil on the surface, lacy dark tips, faint steam
+    in cold air; grease spots on the paper plate.
+  - Absent on purpose: uniform hash-brown patties, sour cream, chives,
+    smoked salmon (restaurant variant only), ketchup.
+  - Prompt-ready line: "Three fried grated-potato pancakes, each about the
+    can's height across and a finger thick, overlapping like shingles on a
+    small paper plate. Lacy, frizzled edges of individual potato shreds
+    browned almost dark at the tips; golden, slightly oily centres with
+    visible strands. One dollop of pale beige-gold, slightly grainy apple
+    sauce beside them. Faint steam; grease spots on the paper."
 
 #### Dish: Half roast chicken (*Hendl* / *Hähnchen* / East: "Broiler")
 
@@ -928,6 +1214,25 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM — a well-known everyday food, not independently
   re-verified with new sourcing this pass beyond the "Broiler" East German
   naming, which is well-attested general knowledge.
+- **Composition & proportions (§4.7)** — one half chicken.
+  - What dominates: the chicken — it takes ~70–80% of the plate; a roll
+    or fries is the only accent. [EDITORIAL]
+  - Components: half bird ~400–700 g [MEDIUM — beefbandits.de,
+    studenten365 (via search)]; ~20×12 cm (per entry), nearly twice the
+    can's height long; leg and breast both visible, skin side up. Side:
+    one plain roll, or a small heap of fries on a quarter of the plate.
+    [EDITORIAL]
+  - Arrangement: skin side up, leg angled out, breast towards the centre.
+  - State cues: glistening skin, a thin pool of spiced fat on the plate;
+    steam from the joint.
+  - Absent on purpose: carving on the plate, herb garnish, lemon, salad
+    heaps, barbecue sauce; beer mugs in a fair scene.
+  - Prompt-ready line: "One half roast chicken, skin side up, filling most
+    of a white plate and nearly twice the can's height long: lacquered,
+    burnished mahogany-gold skin, taut and crisp, tinted with paprika and
+    glistening with spiced fat, a thin fat pool around it. Leg angled out,
+    breast in the middle. One crusty white bread roll beside it. Steam
+    rising; no garnish."
 
 ### Schnitzel & pan-German classics
 
@@ -969,6 +1274,33 @@ requirements; flagged explicitly here rather than left implicit.
   before serving) — neither is the same visual presentation.
 - Confidence: HIGH for the naming rule; MEDIUM for exact dimensions.
 - Sources: [The Daily Meal](https://www.thedailymeal.com/1105865/wiener-schnitzels-ingredients-are-actually-defined-by-law/); [Wikipedia: Wiener schnitzel](https://en.wikipedia.org/wiki/Wiener_schnitzel)
+- **Composition & proportions (§4.7)** — one plated inn portion.
+  - What dominates: the cutlet — ~55–65% of a 28 cm plate, often reaching
+    or passing the rim; the side ~30–40%; the lemon wedge a small accent.
+    [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (one plate) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Breaded pork cutlet | 20–25 cm long, 0.5–0.8 cm thick (per entry) — about twice the can's height, thinner than a finger; a ~180 g portion is a common gastronomy size [LOW-MEDIUM — studenten365, FVZ product listing (via search)] | 1 (sometimes 2 smaller) | Wavy, blistered golden crumb lifting from the meat | Flat, covering one side and centre of the plate |
+    | Fries or Bratkartoffeln | Fries ~7–9 cm; potato coins ~4–5 cm, ~0.5 cm thick | a loose heap ~150–200 g [EDITORIAL] | Golden; coins browned with onion and bacon bits | The remaining third of the plate |
+    | Potato salad (alternative) | Slices 3–4 cm | a mound ~10 cm across | Glossy, vinegar-style | In a small side bowl or on the plate |
+    | Lemon wedge | ~5–6 cm | 1 | Bright yellow | On top of the cutlet, one end |
+
+  - Arrangement: cutlet laid flat, slightly off-centre; side heaped beside
+    it, not under it.
+  - Served portion: one cutlet per person; no sharing.
+  - State cues: dry, crisp crust with no sauce; a faint oil sheen on the
+    plate; very light steam.
+  - Absent on purpose: sauce or gravy (that is the sauced family), thick
+    craggy batter, panko, parsley piles, lingonberry jam unless an Austrian
+    scene, sauerkraut.
+  - Prompt-ready line: "One thin breaded pork cutlet, about twice the
+    can's height long and thinner than a finger, laid flat and hanging to
+    the rim of a white dinner plate. Its fine golden-to-amber crumb puffs
+    up in loose waves and blisters, lifting away from the pale meat. A
+    lemon wedge on one end. A loose heap of golden fries fills the other
+    third of the plate. Dry, crisp, no sauce."
 
 #### Dish: Sauced Schnitzel family (Jägerschnitzel, Rahmschnitzel, paprika schnitzel)
 
@@ -1011,6 +1343,28 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for the East/West Jägerschnitzel distinction; not
   independently verified for the paprika-schnitzel naming-sensitivity claim
   specifically (flagged in GAP LOG).
+- **Composition & proportions (§4.7)** — one plated Jägerschnitzel (West).
+  - What dominates: cutlet and sauce together ~60% of the plate, with the
+    sauce covering about half to two-thirds of the cutlet; side ~35%.
+    Mushrooms are an accent within the sauce. [EDITORIAL]
+  - Components: cutlet as the base entry (20–25 cm); sauce ~250 mL (per
+    entry) — about three-quarters of the can's volume; mushroom slices
+    ~3–4 cm, ~0.5 cm thick, ~10–15 in the sauce; paprika version: pepper
+    strips ~5 cm × 0.5 cm; side of fries, Spätzle or rice on a third of
+    the plate. East version: one breaded Jagdwurst slice ~9–10 cm across,
+    ~1 cm thick, tomato sauce, a heap of elbow macaroni. [EDITORIAL]
+  - Arrangement: sauce ladled over the middle of the cutlet, one end of the
+    crust left exposed and crisp; sauce pooling onto the plate.
+  - State cues: steam; sauce glossy; soaked crust soft where covered, crisp
+    at the free end.
+  - Absent on purpose: the old slur name in any caption; the cutlet fully
+    drowned; parsley piles; the East version outside an East context.
+  - Prompt-ready line: "A breaded pork cutlet about twice the can's height
+    long on a white dinner plate, the middle two-thirds covered by a
+    ladleful of creamy beige mushroom sauce with thin sliced brown
+    mushrooms, pooling onto the plate; one end of the golden crust left
+    exposed and crisp. A heap of golden fries fills the other third of the
+    plate. Steam rising; glossy sauce."
 
 #### Dish: Rinderrouladen
 
@@ -1027,6 +1381,27 @@ requirements; flagged explicitly here rather than left implicit.
   brown-gravy (not tomato-based) sauce and the mustard/pickle/bacon filling.
 - Confidence: MEDIUM — a well-known dish, not independently re-verified
   with new sourcing this pass.
+- **Composition & proportions (§4.7)** — one Sunday plate.
+  - What dominates: the beef roll and its gravy — ~40% of the plate; red
+    cabbage ~25%; dumpling ~20%; gravy pool ties them together.
+    [EDITORIAL]
+  - Components: one roll per person, ~150–200 g raw [MEDIUM — Fleisch ist
+    Kultur, Ludewig (via search)]; 10–14 cm × 4–5 cm (per entry), about
+    the can's height long and a little thinner than it; one potato
+    dumpling ~7–8 cm (per entry); red cabbage ~2 heaped tablespoons;
+    gravy ~4–6 tablespoons.
+  - Arrangement: roll whole, string or skewer still on, or cut in half
+    showing the spiral; dumpling and cabbage beside it; gravy over the
+    roll and pooling.
+  - State cues: glossy dark gravy; steam; cabbage glossy purple-red.
+  - Absent on purpose: tomato sauce, herb garnish, more than one roll per
+    person, mashed potato in place of the dumpling unless specified.
+  - Prompt-ready line: "One braised beef roll about the can's height long,
+    tied with gravy-darkened string, cut in half to show a spiral of beef
+    around a yellow mustard smear, bacon, onion and pale-green pickle,
+    lying in glossy dark-brown gravy on a white plate. Beside it one smooth
+    pale potato dumpling about the can's width and a smaller heap of
+    glossy purple-red cabbage. Steam rising."
 
 #### Dish: Sauerbraten
 
@@ -1055,6 +1430,26 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for the three regional variants; MEDIUM for exact
   dimensions.
 - Sources: [germany-shop.info](https://www.germany-shop.info/en/why-does-sauerbraten-taste-so-different-in-the-rhineland-compared-to-franconia-or-saxony/)
+- **Composition & proportions (§4.7)** — one plate, Rhenish default.
+  - What dominates: meat slices under sauce ~45% of the plate; dumplings
+    ~25%; red cabbage ~20%; raisins small dark accents in the sauce.
+    [EDITORIAL]
+  - Components: 2–3 slices ~1 cm × 10–12 cm (per entry), about the can's
+    height long; sauce ~5–6 tablespoons; 8–15 raisins visible; 1–2 potato
+    dumplings ~7 cm; red cabbage ~2 heaped tablespoons. Swabian: Spätzle
+    heap instead of dumplings. [EDITORIAL]
+  - Arrangement: slices overlapping in a fan, sauce spooned over them and
+    pooling; sides beside, not under.
+  - State cues: matte-velvety dark sauce; slight fraying on the meat grain;
+    steam.
+  - Absent on purpose: raisins in the Franconian version; pink medium-rare
+    meat; herb garnish.
+  - Prompt-ready line: "Three overlapping slices of fork-tender braised
+    beef, each about the can's height long, fanned on a white plate under
+    a thick, dark, matte-velvety sweet-sour sauce with plump dark raisins
+    suspended in it. One smooth pale potato dumpling, a little wider than
+    the can, and a small heap of glossy red cabbage beside. The meat grain
+    frays slightly. Steam rising; no garnish."
 
 #### Dish: Frikadelle / Bulette / Fleischpflanzerl / Fleischküchle
 
@@ -1074,6 +1469,26 @@ requirements; flagged explicitly here rather than left implicit.
   interior.
 - Confidence: MEDIUM — the naming variation is well-known general knowledge,
   not independently re-verified region by region this pass.
+- **Composition & proportions (§4.7)** — warm plate with potato salad, and
+  cold in a roll.
+  - What dominates: the patty on the plate ~35%, potato salad ~50%; mustard
+    a dab. In a roll, the patty fills the roll's cut face. [EDITORIAL]
+  - Components: 500 g mince makes about 8 patties [MEDIUM — mamas-rezepte
+    (via search)] — so ~80–100 g each with bread and egg; ~8–10 cm ×
+    ~2.5 cm (per entry), a little wider than the can; 1–2 per plate;
+    mustard one dab ~2 cm.
+  - Arrangement: patties side by side at the plate edge, potato salad
+    heaped next to them; one patty cut to show the coarse interior.
+  - State cues: warm version with a thin fat sheen and faint steam; cold
+    version matte, no steam.
+  - Absent on purpose: a burger bun, cheese, lettuce, flat uniform
+    machine-formed discs, ketchup.
+  - Prompt-ready line: "Two pan-fried meat patties, each a little wider
+    than the can and about a third of its width thick, at one side of a
+    white plate: craggy, uneven browning with darker crisp high points and
+    irregular edges; one cut open to show a coarse grey-brown interior
+    with onion bits. A mound of potato salad fills the rest of the plate;
+    a dab of mustard. No bun."
 
 #### Dish: Königsberger Klopse
 
@@ -1090,6 +1505,27 @@ requirements; flagged explicitly here rather than left implicit.
   (rather than a brown cream gravy).
 - Confidence: MEDIUM — a well-known classic dish, not independently
   re-verified with new sourcing this pass.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: pale meatballs and white sauce ~50% of the plate,
+    potatoes ~35%, beetroot ~10%; capers are small dark-green dots.
+    [EDITORIAL]
+  - Components: 2–3 Klopse per person (3–4 for hearty eaters), 30–80 g
+    each [MEDIUM — emmikochteinfach, tastybits (via search)]; ~5–6 cm
+    (per entry), a little narrower than the can; capers ~0.5 cm, ~10–20 in
+    the sauce; 3–4 boiled potatoes ~4–5 cm; beetroot a few slices or a
+    small dish.
+  - Arrangement: meatballs grouped, half-submerged in sauce that coats
+    them and pools; potatoes to one side.
+  - State cues: velvety ivory sauce; steam; matte unbrowned meatball
+    surfaces.
+  - Absent on purpose: any browning, brown gravy, lingonberry, herbs piled
+    on top, pasta.
+  - Prompt-ready line: "Three pale, soft, matte grey-beige poached
+    meatballs, each a little narrower than the can, sitting half-sunk in
+    a velvety ivory cream sauce dotted with small olive-green capers, on a
+    white plate. Three boiled potatoes beside them and a few glossy
+    magenta beetroot slices. The meatballs are not browned at all. Steam
+    rising."
 
 #### Dish: Kassler
 
@@ -1099,6 +1535,20 @@ requirements; flagged explicitly here rather than left implicit.
   smoky-bronze fat rim, a glossy cut face.
 - Real-world scale (§4.5): ~1.5–2cm × ~12cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: the chop ~35%, mashed potato ~30%, sauerkraut ~30%.
+    [EDITORIAL]
+  - Components: one chop ~1.5–2 cm × ~12 cm (per entry), about the can's
+    height long; sauerkraut ~3 heaped tablespoons, strands ~0.3 cm; mash a
+    smooth mound ~8–10 cm across. [EDITORIAL]
+  - Arrangement: chop leaning on the mash, sauerkraut heaped beside it.
+  - State cues: glossy cut face; steam from mash and sauerkraut.
+  - Absent on purpose: grill marks, gravy piles, herb garnish.
+  - Prompt-ready line: "One thick smoked-cured pork chop, about the can's
+    height long, uniform deep rose-pink with a thin smoky-bronze fat rim
+    and a glossy cut face, leaning against a smooth mound of mashed potato
+    on a white plate, with a heap of pale golden sauerkraut strands beside
+    it. Steam rising from the mash and sauerkraut. No garnish."
 
 ### Bavaria
 
@@ -1111,6 +1561,21 @@ requirements; flagged explicitly here rather than left implicit.
   juicy, and slightly fibrous; gravy pools around the dumpling.
 - Real-world scale (§4.5): Slices ~1.5cm thick; dumpling ~8cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: roast slices ~40%, dumpling ~25%, gravy pool ~25%;
+    cabbage salad (if any) an accent. [EDITORIAL]
+  - Components: 2 slices ~1.5 cm thick (per entry), ~10–12 cm long, each
+    with a crackling rim; 1 dumpling ~7–8 cm, 70–80 g large size [MEDIUM
+    — pastapalast (via search)]; gravy ~5–6 tablespoons.
+  - Arrangement: slices overlapping, crackling side up and dry; gravy
+    poured around, not over the crackling; dumpling in the gravy.
+  - State cues: crackling crisp and dry; gravy glossy; steam.
+  - Absent on purpose: gravy over the crackling, parsley piles, fries.
+  - Prompt-ready line: "Two thick slices of roast pork, each about the
+    can's height long, overlapping on a white plate, each crowned with a
+    rim of crisp, blistered, diamond-scored crackling kept dry above a
+    pool of glossy dark gravy. One smooth pale dumpling about the can's
+    width sits in the gravy beside them. Steam rising; no garnish."
 
 #### Dish: Schweinshaxe (roasted pork knuckle) — and its coexisting sibling, Eisbein
 
@@ -1131,6 +1596,25 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM — a well-known dish, not independently re-verified
   with new sourcing this pass beyond confirming the Haxe/Eisbein
   distinction is a real, standard one in German food writing.
+- **Composition & proportions (§4.7)** — one knuckle on a platter.
+  - What dominates: the knuckle — ~60% of a 32 cm oval platter; dumpling
+    and gravy the rest. [EDITORIAL]
+  - Components: one knuckle ~700–1000 g, about 600 g raw per portion
+    [MEDIUM — bayerische-spezialitaeten.net, Der Pfaröller (via search)];
+    18–22 cm long (per entry), nearly twice the can's height; bone
+    protruding 3–5 cm; 1–2 dumplings ~7–8 cm; gravy ~6–8 tablespoons;
+    optional small cabbage salad in a side bowl. [EDITORIAL]
+  - Arrangement: knuckle upright or on its side, bone end up; a knife
+    stabbed in vertically (optional); dumpling in the gravy pool.
+  - State cues: glassy, bubbled crackling; gravy glossy; steam.
+  - Absent on purpose: soft pale boiled skin (that is Eisbein), sauerkraut
+    by default, beer steins anywhere in frame.
+  - Prompt-ready line: "One whole roasted pork knuckle, nearly twice the
+    can's height, standing on a white oval platter with its bone jutting
+    up, the whole surface covered in glassy, blistered amber crackling
+    bubbled like popcorn. A smooth pale potato dumpling about the can's
+    width sits in a pool of glossy dark gravy beside it. A knife stands
+    upright in the meat. Steam rising."
 
 #### Dish: Knödel (dumplings)
 
@@ -1150,6 +1634,25 @@ requirements; flagged explicitly here rather than left implicit.
 - Real-world scale (§4.5): ~7–9cm spheres — roughly the diameter of a
   330mL can.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — as a side on a main-course plate.
+  - What dominates: on its plate a dumpling is ~20–25% of the surface —
+    a side, never the centre of a meat dish; with mushroom sauce
+    (Semmelknödel main), 2 dumplings are ~50% with sauce around them.
+    [EDITORIAL]
+  - Components: large dumplings ~70–80 g; Bavarian dumplings ~5–7 cm
+    across [MEDIUM — pastapalast, Wikipedia: Semmelknödel (via search)]
+    — about the can's width (see notable corrections: this entry's own
+    7–9 cm is larger than the can); 1–2 per plate. [EDITORIAL for count]
+  - Arrangement: seated in the gravy pool, top dry; Semmelknödel for a
+    main may be sliced into 1.5 cm rounds.
+  - State cues: satin sheen, faint steam; gravy glossy around the base.
+  - Absent on purpose: fried or browned dumplings, dumplings piled three
+    and more beside a roast, sauce poured over the whole top.
+  - Prompt-ready line: "One smooth, round, pale ivory potato dumpling about
+    the can's width, with a soft satin sheen, sitting in a pool of glossy
+    dark gravy at the side of a white plate, its top dry and unsauced.
+    Faint steam. It is a side, clearly smaller than the slice of roast
+    meat beside it, and there is only one."
 
 #### Dish: Weißwurst
 
@@ -1167,6 +1670,27 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM — a well-known Bavarian tradition; the before-noon
   eating custom is widely and consistently reported, not independently
   re-verified with a dedicated new source this pass.
+- **Composition & proportions (§4.7)** — one pair with Brezel.
+  - What dominates: the lidded bowl with two pale sausages ~50% of the
+    set; Brezel ~30%; mustard a small dollop. [EDITORIAL]
+  - Components: eaten as a pair; each 11–15 cm long, 3.5–4 cm diameter,
+    80–90 g [MEDIUM — Wurstakademie, Wikipedia: Weißwurst (via search)] —
+    about the can's height and a bit over half its width; bowl ~18 cm (per
+    entry), water to ~3/4; sweet mustard ~2 tablespoons on the plate; one
+    Brezel.
+  - Arrangement: two sausages in the bowl of hot water, lid tilted; a
+    small plate with sweet mustard and one sausage peeled open; Brezel
+    beside.
+  - State cues: steam from the water; slight gloss on the casing; parsley
+    flecks show through.
+  - Absent on purpose: grill marks, browning, yellow mustard, sauerkraut,
+    any afternoon or evening light cue, beer.
+  - Prompt-ready line: "Two pale grey-white sausages, each about the can's
+    height and a bit over half its width, lying in a steaming bowl of hot
+    water with its lid tilted. Beside it a small plate with a dollop of
+    sweet brown mustard and one sausage peeled open to show pale, fine
+    interior with green parsley flecks, and a dark lacquered pretzel with
+    coarse salt. Late-morning light."
 
 #### Dish: Obatzda & Brotzeit board
 
@@ -1180,6 +1704,28 @@ requirements; flagged explicitly here rather than left implicit.
   until it glistens.
 - Real-world scale (§4.5): Board ~40×25cm; Radi spiral ~15cm tall.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one shared board for 2–3.
+  - What dominates: bread and Brezel ~35% of the board; Obatzda mound
+    ~15%; cold cuts ~20%; Radi spiral ~15%; onion rings and chives small
+    accents. [EDITORIAL]
+  - Components: board ~40×25 cm (per entry); Obatzda mound ~8–10 cm
+    across, ~4 cm high — about the can's width; 1 Brezel; 3–4 rye slices;
+    8–12 cold-cut slices; Radi spiral ~15 cm tall (per entry), a bit
+    taller than the can; 6–10 raw onion rings; chives scattered.
+    [EDITORIAL]
+  - Arrangement: Obatzda at the centre, the Radi standing or lying
+    accordion-open at one end, bread and Brezel along one long side,
+    meats fanned along the other.
+  - State cues: cold; salt on the Radi glistening; Obatzda matte with
+    rough peaks.
+  - Absent on purpose: beer steins, crackers, grapes, crostini styling,
+    cheese cubes on picks.
+  - Prompt-ready line: "A long wooden board for sharing: at the centre a
+    rough-peaked mound of apricot-orange spiced cheese spread about the
+    can's width, topped with raw onion rings and chives. At one end a
+    salted white radish spiral a bit taller than the can, opened like an
+    accordion. Along one side a dark lacquered pretzel and slices of rye
+    bread, along the other fanned cold cuts. Cold, matte, rustic."
 
 #### Dish: Wurstsalat
 
@@ -1190,6 +1736,24 @@ requirements; flagged explicitly here rather than left implicit.
   strips wet with dressing; translucent onion; chives.
 - Real-world scale (§4.5): Deep plate ~22cm; strips ~5cm × 0.5cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one deep plate.
+  - What dominates: sausage strips ~65% of the surface; onion rings ~20%;
+    pickle and chives accents; a bread slice or roll on the side.
+    [EDITORIAL]
+  - Components: strips ~5 cm × 0.5 cm (per entry), under half the can's
+    height, ~150–200 g per plate [EDITORIAL]; 8–12 thin onion rings;
+    pickle strips ~10; chive scatter; Swiss version cheese strips ~30% of
+    the strips.
+  - Arrangement: loosely tossed, heaped slightly in the centre of a ~22 cm
+    deep plate; onion rings on top.
+  - Vessel fill: fills the plate's well, dressing pooling at the bottom.
+  - State cues: wet, glossy dressing; cold.
+  - Absent on purpose: lettuce base, mayonnaise, tomato, egg.
+  - Prompt-ready line: "A deep white plate heaped with thin pale-pink
+    sausage strips, each shorter than half the can's height, glossy and
+    wet with a clear vinegar dressing that pools at the bottom. Thin
+    translucent raw onion rings and pickle strips on top, a scatter of
+    chives. A slice of dark bread beside the plate. Cold, glistening."
 
 #### Dish: Steckerlfisch (fish on a stick)
 
@@ -1218,6 +1782,24 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for the fish-species prevalence claim and the Oktoberfest
   connection; MEDIUM for exact dimensions.
 - Sources: [Craft Beering](https://www.craftbeering.com/steckerlfisch/); [Wikipedia: Steckerlfisch](https://en.wikipedia.org/wiki/Steckerlfisch)
+- **Composition & proportions (§4.7)** — one fish on paper.
+  - What dominates: the whole fish — ~80% of the frame's food; paper and
+    stick the rest. [EDITORIAL]
+  - Components: fish 25–30 cm (per entry), about two and a half cans
+    long, one per person; stick 50–60 cm on the grill, usually removed or
+    shortened when served; one crusty roll or pretzel optional.
+    [EDITORIAL]
+  - Arrangement: fish lying on white paper on a wooden beer-garden table,
+    skin torn open at the thickest point to show white flesh.
+  - State cues: blistered charred-bronze skin; a light smoke haze in the
+    grill scene; flesh flaking.
+  - Absent on purpose: lemon slices, herbs, plate and cutlery, beer, hands.
+  - Prompt-ready line: "One whole grilled mackerel, about two and a half
+    cans long, lying on white paper on a wooden beer-garden table: its
+    skin blistered, crackled and charred bronze with a speckle of spice
+    rub, torn open at the thickest part to show flaky white flesh. A
+    wooden stick still runs through it lengthwise. Light smoke haze behind;
+    no lemon, no garnish."
 
 #### Dish: Schäufele (Franconia)
 
@@ -1227,6 +1809,21 @@ requirements; flagged explicitly here rather than left implicit.
   entry, meat collapsing around the bone.
 - Real-world scale (§4.5): ~15cm on a 28cm plate.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: the shoulder piece ~45%, dumpling(s) ~30%, gravy pool
+    ~20%. [EDITORIAL]
+  - Components: one piece ~15 cm (per entry), about the can's height and
+    a third; flat bone protruding 4–6 cm; 1–2 potato dumplings ~7 cm;
+    gravy ~6 tablespoons. [EDITORIAL]
+  - Arrangement: meat centre with the flat bone pointing up and out;
+    dumpling in the gravy; crackling dry on top.
+  - State cues: crisp crackling, meat collapsing at the bone; steam.
+  - Absent on purpose: sauerkraut by default, fries, garnish.
+  - Prompt-ready line: "A roasted pork shoulder piece a little taller than
+    the can, with a flat blade bone sticking up out of it, its top a crisp
+    blistered crackling and its meat collapsing around the bone, sitting
+    in a pool of glossy dark gravy on a white plate, with one smooth pale
+    potato dumpling about the can's width beside it. Steam rising."
 
 #### Dish: Dampfnudel
 
@@ -1237,6 +1834,22 @@ requirements; flagged explicitly here rather than left implicit.
   underneath from the pan. Vanilla sauce is pale yellow and pourable.
 - Real-world scale (§4.5): ~10–12cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one sweet serving.
+  - What dominates: the bun ~60% of the deep plate; vanilla sauce pool
+    ~40%. [EDITORIAL]
+  - Components: one bun ~10–12 cm (per entry), about the can's height
+    across and ~6–7 cm tall; vanilla sauce ~150 mL, about half the can's
+    volume. [EDITORIAL]
+  - Arrangement: bun crust-side down or turned to show the caramelised
+    base, sitting in a pool of sauce.
+  - State cues: steam from the pillowy top; sauce pourable.
+  - Absent on purpose: icing, fruit piles, cream rosettes.
+  - Prompt-ready line: "One large steamed yeast bun, about the can's height
+    across and half as tall, with a pillowy soft white top and a
+    caramelised, crisp golden-brown base, sitting in a pool of pale yellow
+    pourable vanilla sauce in a shallow white bowl, the sauce reaching a
+    third of the way up its sides. Steam rising from the top; no icing,
+    no fruit, nothing else."
 
 ### Baden-Württemberg
 
@@ -1267,6 +1880,29 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for lineage and cheese type; MEDIUM for exact
   dimensions.
 - Sources: [Wikipedia: Käsespätzle](https://en.wikipedia.org/wiki/K%C3%A4sesp%C3%A4tzle); [The Splendid Table](https://www.splendidtable.org/story/2024/11/08/ksesptzle-swabian-noodles-with-mountain-cheese-and-caramelized-onions)
+- **Composition & proportions (§4.7)** — the cast-iron pan, and one
+  portion.
+  - What dominates: Spätzle bound in cheese ~80% of the pan surface;
+    fried onions ~15–20% as a loose crown in the centre; browned cheese
+    patches at the pan edge. [EDITORIAL]
+  - Components: ~250–350 g cooked Spätzle and 50–100 g cheese per person
+    [MEDIUM — Stuttgarter Zeitung, pastapalast (via search)]; individual
+    Spätzle 3–5 cm (per entry), under half the can's height, irregular;
+    fried onion strands 3–6 cm, a loose handful; pan 18–20 cm (per entry)
+    for 1–2 people; green salad in a separate small bowl.
+  - Vessel fill: the pan filled level to ~1 cm below the rim, ~4–5 cm deep.
+  - Served portion: eaten from the pan or spooned onto a plate as a
+    loose heap, cheese strings trailing. [EDITORIAL]
+  - State cues: strings of molten cheese when lifted; steam; onions dark
+    and crisp, not wet.
+  - Absent on purpose: macaroni shapes, orange cheese sauce, breadcrumb
+    crust, bacon (unless specified), herbs piled on top.
+  - Prompt-ready line: "A black cast-iron pan, about three cans across,
+    filled level with irregular soft golden egg-noodle squiggles, each
+    shorter than half the can, bound in molten pale mountain cheese that
+    browns crisp at the pan edge. A loose crown of deep-brown crisp fried
+    onion strands on top. A spoon lifts a portion, trailing cheese
+    strings. Steam rising; a small green salad bowl beside."
 
 #### Dish: Maultaschen
 
@@ -1284,6 +1920,28 @@ requirements; flagged explicitly here rather than left implicit.
   out by the much larger rectangular size and the broth-or-pan-fried
   (never tomato-sauced) serving.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — in broth (default) and pan-fried.
+  - What dominates: in broth, the 2–3 pasta pockets ~60% of the soup
+    plate's surface, clear broth ~40%; pan-fried, the slices ~70% with egg
+    and onion ~30%. [EDITORIAL]
+  - Components: main-course Maultaschen ~10 cm long, 40–100 g; ~3 per
+    person; soup Maultaschen smaller, 20–40 g [MEDIUM — pastapalast, REWE
+    Lexikon (via search)]; ~8×10 cm (per entry), a little shorter than the
+    can; broth ~250 mL, about three-quarters of the can; chives ~1
+    teaspoon scattered.
+  - Arrangement: in broth, pockets side by side, half-submerged; pan-fried,
+    1.5 cm slices tumbled with scrambled-egg bits and onion.
+  - Vessel fill: the 22 cm soup plate filled to about 1 cm below the rim.
+  - State cues: fat droplets on the broth; steam; pan-fried slices browned
+    and crisp-edged.
+  - Absent on purpose: tomato sauce, grated parmesan, small crimped
+    ravioli, a creamy sauce.
+  - Prompt-ready line: "Three large rectangular pasta pockets, each a
+    little shorter than the can, lying half-submerged in clear golden-amber
+    broth in a white soup plate. The thin pale-yellow pasta shows a faint
+    green-and-pink filling through it; small golden fat droplets float on
+    the broth; a light scatter of chopped chives. Steam rising; potato
+    salad in a small bowl beside."
 
 #### Dish: Linsen mit Spätzle und Saitenwürstle
 
@@ -1294,6 +1952,21 @@ requirements; flagged explicitly here rather than left implicit.
   taut skin with a smoky pink-bronze color.
 - Real-world scale (§4.5): Sausages ~15×2cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one deep plate.
+  - What dominates: lentils ~50% of the surface, Spätzle ~30%, the two
+    sausages ~20% laid across the top. [EDITORIAL]
+  - Components: lentils ~3–4 mm each, a thick layer; Spätzle heap beside;
+    2 sausages ~15×2 cm (per entry), a bit longer than the can and about a
+    third of its width. [EDITORIAL]
+  - Arrangement: lentils and Spätzle side by side in the plate, the two
+    thin sausages crossed or parallel over them.
+  - State cues: glossy, thick matte sauce; steam.
+  - Absent on purpose: bacon cubes, herbs piled on top, bread bowls.
+  - Prompt-ready line: "A deep white plate half filled with glossy whole
+    brown lentils in a thick vinegary sauce, the other half with soft
+    golden egg noodles. Two thin smoked sausages, each a little longer than
+    the can and about a third its width, with taut pink-bronze skin, lie
+    across the top. Steam rising; nothing else."
 
 #### Dish: Schupfnudeln
 
@@ -1304,6 +1977,20 @@ requirements; flagged explicitly here rather than left implicit.
 - Real-world scale (§4.5): ~6–8cm × 1.5cm; a market pan can run
   80–100cm diameter.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one portion (market or home).
+  - What dominates: noodles ~60%, sauerkraut ~30%, bacon ~10%.
+    [EDITORIAL]
+  - Components: noodles ~6–8 cm × 1.5 cm (per entry), about half the can's
+    height; ~15–20 per portion; bacon cubes ~1 cm, ~10–15. [EDITORIAL]
+  - Arrangement: tossed together in a loose heap on a plate or paper bowl.
+  - State cues: golden pan-crisped patches; glossy sauerkraut; steam.
+  - Absent on purpose: cream sauce, cheese, herbs.
+  - Prompt-ready line: "A loose heap of finger-shaped potato noodles, each
+    about half the can's height with pointed ends, pale and dense with
+    golden pan-crisped patches, tangled with glossy pale sauerkraut
+    strands and small browned bacon cubes, in a paper bowl at a winter
+    market stall. The noodles dominate; the sauerkraut and bacon are
+    accents. Steam rising; nothing else."
 
 #### Dish: Flammkuchen
 
@@ -1333,6 +2020,27 @@ requirements; flagged explicitly here rather than left implicit.
   raised crust rim — the crust is uniformly cracker-thin edge to edge.
 - Confidence: HIGH for origin and form; MEDIUM for exact dimensions.
 - Sources: [Wikipedia: Flammekueche](https://en.wikipedia.org/wiki/Flammekueche)
+- **Composition & proportions (§4.7)** — one classic Flammkuchen on a
+  board.
+  - What dominates: the cream-covered base ~70% of the surface; bacon
+    ~15%; onion ~15%; the charred bare edge a thin ring. [EDITORIAL]
+  - Components: dough rolled 2–3 mm thin; 28–35 cm round or 40×30 cm
+    sheet; ~150 g bacon and 2 onions per Flammkuchen; ~1 cm edge left
+    bare [MEDIUM — emmikochteinfach, Swissmilk (via search)]; bacon strips
+    ~1–2 cm, ~40–60; onion half-rings ~3–4 cm. One Flammkuchen per person
+    or shared by two, cut into 8–12 pieces. [EDITORIAL]
+  - Arrangement: bacon and onion evenly scattered to within 1 cm of the
+    edge, no pile in the centre.
+  - State cues: charred black bubbles on the edge; cream matte with brown
+    spots; faint steam.
+  - Absent on purpose: tomato sauce, mozzarella strings, raised rim,
+    herbs piled on top, pineapple.
+  - Prompt-ready line: "A cracker-thin rectangular flatbread about four
+    cans long on a wooden board, spread edge to edge with matte white
+    crème fraîche browned in spots, scattered evenly with small pink-bronze
+    bacon strips and translucent to caramelised onion half-rings. The bare
+    edge is thin with charred black-brown blistered bubbles. Cut into
+    squares; no tomato, no cheese pull."
 
 #### Dish: Zwiebelkuchen (onion tart)
 
@@ -1347,6 +2055,21 @@ requirements; flagged explicitly here rather than left implicit.
   (*Federweißer*) in real life — never show it; Coca-Cola replaces it in
   frame per the standing rule.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one slice.
+  - What dominates: onion custard ~75% of the slice face; base ~15% as a
+    thin layer; bacon bits accents. [EDITORIAL]
+  - Components: slice ~10×10 cm, 3–4 cm tall (per entry), a little
+    shorter than the can; bacon bits ~0.5–1 cm, ~10–15 on top; caraway
+    seeds a scatter. One slice per person on a small plate. [EDITORIAL]
+  - Arrangement: slice on a small plate with the cut edge toward camera.
+  - State cues: warm; custard set but slightly jiggly; faint steam.
+  - Absent on purpose: new wine (Federweißer) or any glass of it, salad
+    garnish, cream.
+  - Prompt-ready line: "One square slice of German onion tart, a little
+    shorter than the can is tall across and about a third its height deep,
+    on a small plate: golden, set, slightly jiggly custard packed with soft
+    layered onions, speckled with caraway and small browned bacon bits,
+    over a thin base. Cut edge facing out; faint steam."
 
 ### North Germany
 
@@ -1383,6 +2106,23 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM-HIGH for origin and the genuine Hamburg/Bremen
   presentation variant; MEDIUM for exact dimensions.
 - Sources: [Wikipedia: Labskaus](https://en.wikipedia.org/wiki/Labskaus); [My Dinner](https://mydinner.co.uk/labskaus/)
+- **Composition & proportions (§4.7)** — one plate, beetroot-mixed.
+  - What dominates: the mash mound ~50% of the plate; fried egg on top
+    ~20%; rollmops and gherkin ~20%; beetroot (Bremen side version) ~10%.
+    [EDITORIAL]
+  - Components: mound ~12–15 cm (per entry), about one and a quarter cans
+    across; one fried egg ~10–12 cm on top; one rolled herring ~8–10 cm
+    with a wooden pick; one gherkin ~8–10 cm, whole or fanned. [EDITORIAL]
+  - Arrangement: mound centre, egg crowning it, herring and gherkin to one
+    side.
+  - State cues: glossy domed yolk; crisp lacy egg edges; mash coarse.
+  - Absent on purpose: smooth purée, herbs, a second egg, dim light.
+  - Prompt-ready line: "A coarse mound of speckled magenta-pink corned-beef
+    and potato mash, a little wider than the can is tall, in the centre of
+    a white plate, crowned by one fried egg with a glossy domed yolk and
+    crisp, lacy browned edges. Beside it a silver rolled pickled herring
+    about the can's height, pinned with a wooden pick, and one gherkin.
+    Natural daylight; tight framing."
 
 #### Dish: Grünkohl mit Pinkel
 
@@ -1395,6 +2135,21 @@ requirements; flagged explicitly here rather than left implicit.
   color. Small potatoes are sugar-glazed with a golden lacquer.
 - Real-world scale (§4.5): Pinkel ~15–20cm; potatoes ~3–4cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: stewed kale ~50% of the plate; sausages and Kassler
+    ~30%; potatoes ~20%. [EDITORIAL]
+  - Components: one Pinkel ~15–20 cm (per entry), longer than the can;
+    optional one Kassler slice; 4–6 small glazed potatoes ~3–4 cm, about
+    half the can's width. [EDITORIAL]
+  - Arrangement: kale heaped as the base, sausage and Kassler laid over
+    it, potatoes clustered at the side.
+  - State cues: fatty gloss on the kale; steam; potatoes lacquered.
+  - Absent on purpose: crisp kale leaves, kale salad, cream.
+  - Prompt-ready line: "A heap of finely chopped dark olive-green stewed
+    kale with a fatty gloss filling half a white plate, one long smoked
+    grain sausage a little longer than the can laid over it, cut to show a
+    crumbly grey-brown oat-textured face. A slice of rose-pink cured pork
+    beside, and a cluster of small golden sugar-glazed potatoes. Steam."
 
 #### Dish: Eisbein (Berlin/North Germany)
 
@@ -1409,6 +2164,20 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM — the Haxe/Eisbein distinction itself is well-attested
   general food-culture knowledge; not independently re-verified with a
   dedicated new source this pass beyond that general confirmation.
+- **Composition & proportions (§4.7)** — one knuckle on a platter.
+  - What dominates: the knuckle ~50% of the 32 cm platter; sauerkraut
+    ~25%; pea purée ~25%. [EDITORIAL]
+  - Components: knuckle ~15–20 cm (per entry), about one and a half cans
+    long; pea purée a mound ~8–10 cm; sauerkraut ~3 heaped tablespoons;
+    mustard a dab. [EDITORIAL]
+  - Arrangement: knuckle centre, purée and sauerkraut at either side.
+  - State cues: soft pale-pink wobbly skin, moist; steam.
+  - Absent on purpose: any crisp crackling, gravy, dumplings.
+  - Prompt-ready line: "One boiled pork knuckle, about one and a half cans
+    long, on a white oval platter: soft, pale-pink, wobbly skin and fat,
+    not crisp at all, the moist meat flaking at one side. A thick mound of
+    matte ochre-yellow pea purée holding spoon marks on one side, a heap of
+    pale sauerkraut on the other. Steam rising."
 
 #### Dish: Rote Grütze
 
@@ -1418,6 +2187,21 @@ requirements; flagged explicitly here rather than left implicit.
   berries; pale vanilla sauce swirls and pools on top.
 - Real-world scale (§4.5): Glass bowl ~10–12cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one glass bowl.
+  - What dominates: red compote ~75% of the visible bowl; vanilla sauce
+    ~25% as a pour on top. [EDITORIAL]
+  - Components: glass bowl ~10–12 cm (per entry), about the can's height
+    across; compote filling ~2/3 of the bowl; whole berries ~1–2 cm,
+    ~15–25 visible; vanilla sauce ~3–4 tablespoons. [EDITORIAL]
+  - Arrangement: sauce poured in the centre, spreading and swirling.
+  - State cues: cold, glossy; faint condensation on the glass.
+  - Absent on purpose: mint leaves, whipped-cream towers, cake.
+  - Prompt-ready line: "A small glass bowl about the can's height across,
+    two-thirds filled with glossy jewel-red, jelly-thick berry compote with
+    whole cherries and currants, pale vanilla sauce poured in the centre
+    and swirling into the red, a pale pool spreading toward the glass
+    edge. Faint condensation on the cold glass; a small spoon beside the
+    bowl. Cold and glossy; no mint, no cream tower, no garnish."
 
 ### Rhineland, Hesse, Palatinate
 
@@ -1430,6 +2214,21 @@ requirements; flagged explicitly here rather than left implicit.
   the mash is creamy with soft apple chunks.
 - Real-world scale (§4.5): Slices ~7–8cm × 1.5cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: potato-apple mash ~55%; blood-sausage slices ~30%;
+    fried onions ~15% on top. [EDITORIAL]
+  - Components: 3–4 slices ~7–8 cm × 1.5 cm (per entry), about the can's
+    width; onions a loose handful; mash mound ~12 cm. [EDITORIAL]
+  - Arrangement: mash as the base, sausage slices overlapping over it,
+    onions scattered on the slices.
+  - State cues: crisp browned slice crusts; steam.
+  - Absent on purpose: gravy, herbs, apple slices as garnish.
+  - Prompt-ready line: "A mound of creamy potato-and-apple mash with soft
+    apple chunks on a white plate, topped with three overlapping fried
+    slices of near-black-burgundy blood sausage, each about the can's
+    width, crisp and browned, showing white fat specks, and a loose tangle
+    of golden fried onions over the slices. The mash is the base; the
+    sausage sits on top. Steam; nothing else."
 
 #### Dish: Halve Hahn (Cologne)
 
@@ -1443,6 +2242,21 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: MEDIUM — the no-chicken naming fact is well-known, widely
   corroborated general knowledge, not independently re-verified with a
   dedicated new source this pass.
+- **Composition & proportions (§4.7)** — one serving.
+  - What dominates: the Gouda slab ~45% of the plate's food; rye roll
+    halves ~40%; onion and mustard accents. [EDITORIAL]
+  - Components: one half roll ~10 cm (per entry) buttered; cheese ~1.5 cm
+    thick (per entry), about a quarter of the can's width; 6–10 raw onion
+    rings; mustard a dab; often a small gherkin. [EDITORIAL]
+  - Arrangement: buttered roll half with the cheese slab on or beside it,
+    onion rings on top, mustard on the plate edge.
+  - State cues: cold; crumbly cheese edge.
+  - Absent on purpose: any chicken, lettuce, tomato, grilling.
+  - Prompt-ready line: "One buttered half of a floury rye roll, a little
+    narrower than the can is tall, with a thick slab of pale-yellow aged
+    Gouda with a crumbly cut edge on it, topped with raw onion rings, on a
+    small plate with a dab of mustard and a small gherkin. Cold, plain,
+    simple; no chicken, no meat, no lettuce."
 
 #### Dish: Grüne Soße (Frankfurt)
 
@@ -1455,6 +2269,22 @@ requirements; flagged explicitly here rather than left implicit.
 - Real-world scale (§4.5): Egg halves ~5cm; deep plate ~22cm.
 - Confidence: HIGH for the composition and the Maundy Thursday/EU-
   protection facts (see calendar entry); MEDIUM for exact dimensions.
+- **Composition & proportions (§4.7)** — one deep plate.
+  - What dominates: green sauce ~50% of the plate; potatoes ~30%; egg
+    halves ~20%. [EDITORIAL]
+  - Components: 2 eggs = 4 halves ~5 cm (per entry), a bit smaller than
+    the can's width; 4–6 boiled potatoes ~4–5 cm; sauce ~150–200 mL.
+    [EDITORIAL]
+  - Arrangement: sauce pooled in the deep plate, egg halves yolk-up in it,
+    potatoes at the side.
+  - State cues: cold sauce, thick, matte; warm potatoes may steam faintly.
+  - Absent on purpose: herb sprigs on top, meat, bread.
+  - Prompt-ready line: "A deep white plate with a thick pool of vivid
+    spring-green cold herb sauce, matte and finely speckled, with four
+    halved boiled eggs yolk-up in it, each a little smaller than the can's
+    width, and four small boiled potatoes, each about two-thirds of the can's
+    width, at the side. The green sauce dominates the plate. No herb
+    sprigs, no meat, no garnish."
 
 #### Dish: Handkäs mit Musik (Hesse)
 
@@ -1478,6 +2308,22 @@ requirements; flagged explicitly here rather than left implicit.
 - Confidence: HIGH for composition and cultural context; MEDIUM for exact
   dimensions.
 - Sources: [Atlas Obscura](https://www.atlasobscura.com/foods/handkase-mit-musik-handcheese-with-music); [culturecheesemag.com](https://culturecheesemag.com/travel/wheys-less-traveled/handkase-mit-musik/)
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: the cheese round(s) ~40% of the plate; onion
+    marinade ~30%; rye bread and butter ~30%. [EDITORIAL]
+  - Components: 1–2 cheeses ~6–8 cm × 2 cm (per entry), about the can's
+    width; onion dice ~0.5 cm, a heap over each; one rye slice, a butter
+    pat. [EDITORIAL]
+  - Arrangement: cheese centre, marinade spooned over it and pooling;
+    bread at the edge.
+  - State cues: glistening marinade; glassy rind.
+  - Absent on purpose: apple wine, its ribbed glass or stoneware jug, any
+    crackers.
+  - Prompt-ready line: "One small round sour-milk cheese about the can's
+    width on a plate, its amber, glassy, jelly-like surface glistening
+    under a spoonful of raw onion dice in a clear oil-and-vinegar
+    marinade that pools around it. A slice of dark rye bread and a pat of
+    butter at the plate's edge. No glass, jug or bottle anywhere."
 
 #### Dish: Saumagen (Palatinate)
 
@@ -1487,6 +2333,20 @@ requirements; flagged explicitly here rather than left implicit.
   pork, pale potato cubes, and orange carrot dice, with a browned crust.
 - Real-world scale (§4.5): ~2cm × ~12cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: two slices ~40%; mash ~30%; sauerkraut ~30%.
+    [EDITORIAL]
+  - Components: 2 slices ~2 cm × ~12 cm (per entry), about the can's
+    height across; mash and sauerkraut each ~3 heaped tablespoons.
+    [EDITORIAL]
+  - Arrangement: slices overlapping, cut face up, sides beside.
+  - State cues: browned crust; steam.
+  - Absent on purpose: visible stomach casing close-ups, gravy piles, wine.
+  - Prompt-ready line: "Two thick pan-browned slices of a stuffed pork
+    loaf, each about the can's height across, overlapping on a white plate,
+    their cut faces a mosaic of pink pork, pale potato cubes and orange
+    carrot dice, with a browned crust. A mound of mashed potato and a heap
+    of pale sauerkraut beside them. Steam rising; no gravy."
 
 ### East Germany
 
@@ -1500,6 +2360,20 @@ requirements; flagged explicitly here rather than left implicit.
   streak.
 - Real-world scale (§4.5): Bowl ~15–16cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one bowl.
+  - What dominates: brick-red broth ~55% of the surface; meat and pickle
+    pieces ~35%; sour cream and lemon ~10%. [EDITORIAL]
+  - Components: bowl ~15–16 cm (per entry); meat and sausage dice ~1–1.5
+    cm, ~20–30; pickle dice similar; one lemon slice ~5 cm; sour cream a
+    dollop ~3 cm. [EDITORIAL]
+  - Vessel fill: to ~1 cm below the rim.
+  - State cues: fat droplets; steam; sour cream starting to melt.
+  - Absent on purpose: herbs piled, bread bowls, cream swirled in.
+  - Prompt-ready line: "A bowl about two and a half cans across filled
+    near the rim with brick-red-to-orange sour soup, red-tinged fat
+    droplets on the surface, chunky diced sausage, meat and pickle pieces
+    breaking the surface, one thin lemon slice and a white sour-cream
+    dollop beginning to melt and streak. Steam rising; no herb pile."
 
 #### Dish: Leipziger Allerlei
 
@@ -1508,6 +2382,20 @@ requirements; flagged explicitly here rather than left implicit.
   sauce — bright green peas, orange carrot coins, pale asparagus pieces in
   a glossy butter sauce.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one side portion.
+  - What dominates: vegetables ~85%, butter sauce a gloss. Peas ~35%,
+    carrot ~30%, asparagus ~25%, other ~10%. [EDITORIAL]
+  - Components: peas ~0.8 cm; carrot coins ~2 cm; asparagus pieces ~3–4
+    cm. A heap ~10 cm across in a bowl or beside a main. [EDITORIAL]
+  - State cues: glossy butter sauce; steam.
+  - Absent on purpose: crayfish/morels unless specified, cream swirls,
+    herbs piled.
+  - Prompt-ready line: "A small heap of spring vegetables in a glossy
+    butter sauce, about the can's height across: bright green peas, orange
+    carrot coins about a third of the can's width, short pale asparagus
+    pieces and a few small cauliflower florets, all glistening and tender,
+    in a small white bowl beside a main-course plate. Steam rising; no
+    cream swirl, no garnish."
 
 #### Dish: Quarkkeulchen (Saxony)
 
@@ -1517,6 +2405,19 @@ requirements; flagged explicitly here rather than left implicit.
   pale interior, dusted with sugar.
 - Real-world scale (§4.5): ~7–8cm.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: pancakes ~75%; apple sauce or sugar ~25%.
+    [EDITORIAL]
+  - Components: 3–5 pancakes ~7–8 cm (per entry), a little wider than the
+    can, ~1.5 cm thick; apple sauce ~3 tablespoons. [EDITORIAL]
+  - Arrangement: overlapping in a row on a small plate.
+  - State cues: sugar dusting; faint steam.
+  - Absent on purpose: syrup, cream, berries.
+  - Prompt-ready line: "Four small pan-fried quark pancakes, each a little
+    wider than the can, overlapping in a row on a small plate: golden-brown lightly
+    crisp faces, soft pale insides, dusted with sugar, with a dollop of
+    pale beige-gold, slightly grainy apple sauce beside them. Warm, homely,
+    faint steam; no syrup, no cream, no berries."
 
 #### Dish: Ketwurst (East Berlin nostalgia, niche)
 
@@ -1526,6 +2427,18 @@ requirements; flagged explicitly here rather than left implicit.
   nostalgia item, not an everyday-relevance dish for most briefs.
 - Confidence: LOW-MEDIUM — carried from the draft without independent
   re-verification this pass.
+- **Composition & proportions (§4.7)** — one Ketwurst.
+  - What dominates: the long roll ~75%; the sausage end and ketchup sauce
+    at the opening ~25%. [EDITORIAL]
+  - Components: one long roll ~20 cm, nearly twice the can's height;
+    sausage inside, top end visible; sauce at the mouth. [EDITORIAL, LOW]
+  - State cues: warm; sauce glossy.
+  - Absent on purpose: a split hot-dog bun, toppings, hands.
+  - Prompt-ready line: "One long white bread roll, nearly twice the can's
+    height, hollowed out down the middle and standing in a paper napkin,
+    the end of a sausage and glossy red ketchup sauce showing at its open
+    top, on a small paper plate at an Imbiss counter. Pale, soft crust;
+    not split lengthwise like a hot-dog bun. No toppings, no hands."
 
 ### Seasonal specialities
 
@@ -1545,6 +2458,29 @@ requirements; flagged explicitly here rather than left implicit.
   during Spargelzeit; green should not be substituted as the everyday norm.
 - Confidence: HIGH for the seasonal framing (see calendar entry); MEDIUM
   for exact dimensions.
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: white spears ~50% of the plate; potatoes ~20%; ham
+    ~20%; sauce a ribbon over the spears' middles. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (one plate) | Look | Where it sits |
+    |---|---|---|---|---|
+    | White asparagus | ~500 g raw per person as a main, ~300–350 g after peeling; 8–10 spears as a main [MEDIUM — thomy.de, gaumenfreundin.de (via search)]; 18–22 cm × 1.5–2 cm (per entry) — nearly twice the can's height | 8–10 | Ivory, satin, closed tips | Laid parallel across the plate |
+    | New potatoes | ~4–5 cm | 4–6 | Pale yellow, parsley flecks optional | One side |
+    | Cured or cooked ham | folded slices ~10 cm | 3–4 | Ruby translucent folds (cured) or pale pink | The other side |
+    | Hollandaise or melted butter | ~4 tablespoons | 1 ribbon | Glossy pale butter-yellow | Across the middle of the spears; tips left clear |
+
+  - Arrangement: spears parallel, tips aligned one way; sauce ribbon across
+    the middle.
+  - State cues: moist sheen, faint steam.
+  - Absent on purpose: green asparagus as default, lemon slices, herb
+    piles, sauce drowning the tips.
+  - Prompt-ready line: "Nine thick white asparagus spears, each nearly
+    twice the can's height, laid parallel across a large white plate,
+    ivory and faintly translucent with closed tips, a ribbon of glossy
+    pale-yellow hollandaise across their middles. Small new potatoes on
+    one side, translucent ruby folds of cured ham on the other. Faint
+    steam."
 
 #### Dish: Kartoffelsalat (potato salad) — major regional variant
 
@@ -1567,6 +2503,23 @@ requirements; flagged explicitly here rather than left implicit.
   broadly and consistently documented across German food-culture sourcing,
   though not independently re-verified with a dedicated new search this
   pass beyond general confirmation.
+- **Composition & proportions (§4.7)** — one bowl, either variant.
+  - What dominates: potato slices ~85–90%; onion, chives, pickle accents
+    ~10–15%. [EDITORIAL]
+  - Components: slices 3–4 cm × 0.3–0.5 cm (per entry), about half the
+    can's width; bowl 14–16 cm, filled to the rim with a low mound;
+    side portion on a plate ~150–200 g. [EDITORIAL]
+  - Arrangement: loose mound; a serving spoon in the bowl.
+  - State cues: South — wet, glistening, broken edges; North — opaque
+    creamy coating. Cold or room temperature.
+  - Absent on purpose: potato cubes, mustard-yellow colour, celery,
+    paprika dust, hard-boiled egg halves on top (South).
+  - Prompt-ready line (South): "A white bowl about two cans across filled
+    to the rim with thin sliced waxy potatoes, each about half the can's
+    width, glossy and slightly translucent in a clear vinegar-broth
+    dressing, edges softened and broken, flecked with chopped chives and
+    fine onion, a serving spoon resting in it. Wet and glistening; no
+    mayonnaise, no cubes, no mustard-yellow colour."
 
 #### Soups & Eintopf (compact catalog)
 
@@ -1575,6 +2528,15 @@ requirements; flagged explicitly here rather than left implicit.
 | Erbsensuppe (pea soup) | Thick, matte olive-ochre soup with sausage coins and bacon cubes; served from a field-kitchen kettle at events | Deep plate 22cm; sausage slices ~2cm | MEDIUM |
 | Kartoffelsuppe | Creamy beige with soft potato and carrot cubes, sausage slices, marjoram flecks | Deep plate 22cm | MEDIUM |
 | Gulaschsuppe | Brick-red, paprika-oily surface, beef and pepper chunks; a stadium and market staple | Bowl ~15cm | MEDIUM |
+
+**Composition & proportions (§4.7), compact rows:**
+
+- Erbsensuppe
+  - *Composition & proportions (§4.7)*: thick soup ~75% of a 22 cm deep plate's surface; 4–6 sausage coins (~2 cm, under a third of the can's width) and 6–10 bacon cubes (~1 cm) as accents on top; filled to ~1 cm below the rim. Absent: cream swirl, croutons, herbs. [EDITORIAL]
+- Kartoffelsuppe
+  - *Composition & proportions (§4.7)*: creamy base ~70%; potato and carrot cubes (~1.5 cm) breaking the surface ~20%; 3–5 sausage slices ~10%; marjoram flecks. Absent: bacon bits, chive piles, bread bowl. [EDITORIAL]
+- Gulaschsuppe
+  - *Composition & proportions (§4.7)*: brick-red broth ~55% of a ~15 cm bowl; beef chunks (~2 cm, about a third of the can's width) 8–12 pieces and pepper pieces ~35%; paprika-oil sheen; one roll beside. Absent: sour cream dollop, noodles, herbs. [EDITORIAL]
 
 #### Dish: Roast goose (Christmas / St. Martin)
 
@@ -1585,6 +2547,22 @@ requirements; flagged explicitly here rather than left implicit.
   rendered-fat gloss; dark meat.
 - Real-world scale (§4.5): Leg ~20cm on a 28cm plate.
 - Confidence: MEDIUM.
+- **Composition & proportions (§4.7)** — one plated leg.
+  - What dominates: goose leg ~45%; dumplings ~25%; red cabbage ~25%.
+    [EDITORIAL]
+  - Components: one leg ~20 cm (per entry), almost twice the can's
+    height, on a 28 cm plate; 1–2 potato dumplings ~7 cm; red cabbage ~3
+    heaped tablespoons; gravy pool. Whole bird on a platter only for a
+    table-centre scene. [EDITORIAL]
+  - Arrangement: leg skin up, dumplings in gravy, cabbage beside.
+  - State cues: lacquered skin with fat gloss; steam.
+  - Absent on purpose: wine, orange slices, herb piles.
+  - Prompt-ready line: "One roasted goose leg, nearly twice the can's
+    height, skin up on a white plate: deep bronze, crisp, lacquered skin
+    glossy with rendered fat. A smooth pale potato dumpling in dark gravy
+    and a heap of glossy purple-red cabbage beside it. The leg is the
+    largest thing on the plate. Steam rising; no orange slices, no
+    herbs."
 
 #### Dish: New Year's Eve raclette (*Silvester*)
 
@@ -1606,6 +2584,25 @@ requirements; flagged explicitly here rather than left implicit.
   pans, each ~12×7cm.
 - Confidence: MEDIUM-HIGH for prevalence; MEDIUM for exact equipment
   dimensions.
+- **Composition & proportions (§4.7)** — the table.
+  - What dominates: the grill at the table centre and the shared bowls of
+    ingredients around it; each person's plate is small and mostly
+    potatoes with cheese. [EDITORIAL]
+  - Components: grill ~40×25 cm; ~8 pans ~12×7 cm (per entry); boiled
+    potatoes ~4–5 cm in a covered bowl; small bowls of pickles, sliced
+    meats, peppers, mushrooms; per plate: 2–3 potatoes, one pan-load of
+    cheese scraped over them. [EDITORIAL]
+  - Arrangement: grill centre, pans pushed in under it at angles; bowls
+    around; plates at each seat.
+  - State cues: bubbling, blistered cheese; steam from the potatoes.
+  - Absent on purpose: sparkling wine, fireworks indoors, readable text on
+    packaging.
+  - Prompt-ready line: "An electric tabletop raclette grill at the centre
+    of a home dinner table, about four cans long, with small nonstick pans
+    of bubbling, browned-blistered cheese slid in beneath it and meat and
+    vegetables on its top plate. Around it small bowls of boiled potatoes,
+    pickles and sliced meats; on a plate in front, two potatoes under
+    molten scraped cheese."
 
 ### Fair, festival & market snacks (compact catalog)
 
@@ -1621,6 +2618,29 @@ requirements; flagged explicitly here rather than left implicit.
 | Chocolate-dipped fruit (*Schokofrüchte*) | Strawberries, grapes, or banana on skewers, glossy chocolate dip with a white-chocolate drizzle | Skewer ~25cm | MEDIUM |
 | Crêpes | Thin, lacy-browned, folded into a paper cone, with a melting chocolate spread | Cone ~20cm | MEDIUM |
 | Berliner doughnut (Carnival, NYE) | Round, no hole, deep golden with a pale unfried ring around the equator, dusted with sugar or glazed; jam oozes from a side hole | ~8–9cm | MEDIUM |
+
+**Composition & proportions (§4.7), compact rows:**
+
+- Garlic mushrooms (*Champignonpfanne*)
+  - *Composition & proportions (§4.7)*: ~12–18 mushrooms (~3–4 cm, about half the can's width) filling a ~12 cm paper bowl; herb-garlic sauce a thick white dollop over the top third, not drowning them; one small wooden fork. Absent: parsley piles, bread bowls. [EDITORIAL]
+- Spiral potato (*Kartoffelspirale*)
+  - *Composition & proportions (§4.7)*: one continuous spiral ~25–30 cm (over twice the can's height) on one skewer, laid on a paper napkin or standing in a holder; paprika dust even; no dip. Absent: hands, cheese sauce. [EDITORIAL]
+- Langos
+  - *Composition & proportions (§4.7)*: one flatbread ~20–25 cm on a paper plate, bread ~50% of the visible surface; sour cream spread over the centre ~35%; grated cheese heaped over the cream ~15%; garlic brushed, not visible as pieces. Absent: tomato, ham, hands. [EDITORIAL]
+- Candied almonds (*gebrannte Mandeln*)
+  - *Composition & proportions (§4.7)*: one paper cone ~15 cm (a bit taller than the can) filled to the top with ~25–40 clumped almonds (~2 cm); a few on the table. Absent: legible stall signs, hands. [EDITORIAL]
+- Magenbrot
+  - *Composition & proportions (§4.7)*: ~15–25 glazed rhombuses (~4 cm, just over half the can's width) in a paper bag or cone, heaped; glaze glossy dark. Absent: icing drizzle, nuts on top. [EDITORIAL]
+- Gingerbread hearts (*Lebkuchenherz*)
+  - *Composition & proportions (§4.7)*: one heart 15–30 cm, hanging on its ribbon or laid flat; brown base ~70%, piped icing frills and lettering ~30% — lettering stays illegible. Absent: readable words, hands. [EDITORIAL]
+- Candy apple (*Paradiesapfel*)
+  - *Composition & proportions (§4.7)*: one apple ~8 cm (a bit wider than the can) fully sealed in glassy red candy, on a stick standing upright or laid on paper; nothing else. Absent: hands, sprinkles. [EDITORIAL]
+- Chocolate-dipped fruit (*Schokofrüchte*)
+  - *Composition & proportions (§4.7)*: one skewer ~25 cm (over twice the can's height) with 4–6 fruit pieces, chocolate covering ~70% of each with a white drizzle; laid on paper. Absent: hands, cream. [EDITORIAL]
+- Crêpes
+  - *Composition & proportions (§4.7)*: one crêpe folded into a paper cone ~20 cm; the crêpe edge ~70% of the visible surface, chocolate spread showing at the open top and oozing slightly ~30%. Absent: whipped cream towers, fruit piles, hands. [EDITORIAL]
+- Berliner doughnut
+  - *Composition & proportions (§4.7)*: 1–3 doughnuts ~8–9 cm (a bit wider than the can) on a plate or paper; one with a small jam ooze at the side hole; pale equator ring visible; sugar dusting or glaze. Absent: a hole in the middle, sprinkles. [EDITORIAL]
 
 **Note per schema §4.1's honesty norm**: Langos is a Hungarian import, not
 a native German dish — its inclusion here is honestly disclosed rather than
@@ -1646,6 +2666,25 @@ diet.
 | Plant-based currywurst/burgers | Canteens, urban | Visually resembles the meat version (see the Currywurst entry); canteen signage in German | As Currywurst entry above | MEDIUM |
 | Spaghettieis (Eiscafé snack) | Summer snack | **Invented in 1969 by Dario Fontanella, a then-17-year-old, at his family's ice cream shop in Mannheim** — confirmed this pass with a specific, sourced inventor and city, correcting the draft's own unsourced entry. [CONFIDENCE: HIGH] [SOURCE: [Smithsonian Magazine — How Germany's Spaghetti Ice Cream Came to Be](https://www.smithsonianmag.com/travel/how-germanys-spaghetti-ice-cream-came-to-be-180982461/)] Vanilla ice cream extruded into spaghetti-like strands (originally pushed through a Spätzle press) over whipped cream, topped with red strawberry sauce and white-chocolate shavings mimicking parmesan, in a glass coupe | Coupe ~15cm | HIGH for origin; MEDIUM for exact dimensions |
 
+**Composition & proportions (§4.7), compact rows:**
+
+- Pizza (Italian-German pizzeria)
+  - *Composition & proportions (§4.7)*: one ~30 cm pizza per person (about four and a half cans across), topping cover ~85% of the surface to a ~1.5 cm rim; ham pieces and pineapple chunks (~2 cm) scattered evenly, ~20–30 each. Absent: pizza cut into many slices on a board, rocket piles. [EDITORIAL]
+- Spaghetti Bolognese
+  - *Composition & proportions (§4.7)*: spaghetti nest ~60% of a deep plate, sauce ladled over the centre ~35%, grated cheese a light snow ~5%; no meatballs. Absent: basil sprig pile, meatballs, garlic bread. [EDITORIAL]
+- Gyros plate
+  - *Composition & proportions (§4.7)*: gyros heap ~40% of the 28–30 cm plate; fries or rice ~30%; tzatziki a large dollop ~10%; raw onion rings, lettuce and tomato garnish ~20%. Absent: pita wrap on the plate, feta blocks. [EDITORIAL]
+- Falafel wrap/plate
+  - *Composition & proportions (§4.7)*: plate: 4–6 balls (~4 cm, just over half the can's width), one broken open, ~40%; salad and tahini drizzle the rest. Wrap: one rolled wrap in paper, filling at the top. Absent: hands, hummus-bowl styling. [EDITORIAL]
+- Asia box
+  - *Composition & proportions (§4.7)*: box ~10×10×10 cm (about the can's width, a little shorter than its height), noodles or rice ~70% of the visible top, 5–8 vegetable/meat pieces ~25%, sesame seeds; chopsticks standing in. Absent: legible box print, fortune cookies. [EDITORIAL]
+- Lahmacun
+  - *Composition & proportions (§4.7)*: one ~30 cm thin round, the red meat smear covering ~90% to the edge; served rolled with a handful of lettuce, parsley and one lemon wedge, or flat with the salad on top. Absent: cheese, thick crust, hands. [EDITORIAL]
+- Plant-based currywurst/burgers
+  - *Composition & proportions (§4.7)*: as the Currywurst entry's block; canteen tray plate instead of a paper tray where the setting is a canteen; signage illegible. [EDITORIAL]
+- Spaghettieis
+  - *Composition & proportions (§4.7)*: vanilla "spaghetti" strands ~60% of the ~15 cm coupe's top; red strawberry sauce ~30% over the centre; white-chocolate shavings a light scatter; the cream underneath visible only at the edge. Absent: wafers, extra fruit, sprinkles. [EDITORIAL]
+
 ### Kaffee und Kuchen & sweets (compact catalog)
 
 **Serving norm**: cake plates 19–20cm, cake forks, a whipped-cream bowl,
@@ -1664,6 +2703,29 @@ often a lace or patterned tablecloth. **No coffee cups or pots in frame**
 | Kaiserschmarrn (Alpine hut) | Torn, fluffy, caramelized pancake pieces with golden edges, heavily powdered sugar, raisins, plum compote on the side, served in the pan | Pan ~24cm | MEDIUM |
 | Germknödel | A large, smooth, pale steamed yeast dumpling with a hidden plum-jam center, melted butter, and a grey-black poppy-seed-and-sugar snow | ~12cm | MEDIUM |
 | St. Martin bread figure (*Weckmann*/*Stutenkerl*) | A sweet yeast-dough figure, glossy egg-washed golden, with raisin eyes and buttons; a West-German lantern-season item | ~20–25cm | MEDIUM |
+
+**Composition & proportions (§4.7), compact rows:**
+
+- Black Forest cake
+  - *Composition & proportions (§4.7)*: one wedge per plate; a 26 cm torte is cut into ~16 pieces with a cream rosette and cherry per piece [MEDIUM — Dr. Oetker, lecker.de (via search)]; the cut face shows ~3 dark sponge layers and ~3 cream layers; chocolate curls cover the outside. A 19–20 cm cake plate, fork beside. Absent: coffee cups, extra cherries piled, sauces. [EDITORIAL for layer count]
+- Bienenstich
+  - *Composition & proportions (§4.7)*: one ~8×8 cm square; cut face ~50% vanilla cream, ~30% cake base, ~20% almond top. Absent: fruit, drizzle. [EDITORIAL]
+- Streuselkuchen
+  - *Composition & proportions (§4.7)*: one ~8×10 cm piece; crumb nuggets (~1–2 cm) cover ~95% of the top; base a thin layer. Absent: icing, fruit (unless a fruit variant). [EDITORIAL]
+- Plum cake (*Zwetschgendatschi*)
+  - *Composition & proportions (§4.7)*: one ~8×10 cm piece; 6–9 overlapping plum halves (~3–4 cm) cover the top in rows; thin base; optional whipped-cream dollop beside. Absent: streusel on the Bavarian classic unless specified. [EDITORIAL]
+- Käsekuchen
+  - *Composition & proportions (§4.7)*: one wedge 5–6 cm tall (half the can's height); filling ~85% of the cut face, thin base ~15%; no topping. Absent: fruit sauce, whipped cream, crumbly graham base. [EDITORIAL]
+- Apfelstrudel
+  - *Composition & proportions (§4.7)*: one ~8 cm slice laid on its side; apple filling ~70% of the cut face, pastry ~30%; vanilla sauce pool or one ice-cream scoop beside; powdered-sugar dusting. Absent: caramel sauce, mint. [EDITORIAL]
+- Franzbrötchen
+  - *Composition & proportions (§4.7)*: 1–2 pastries ~10–12 cm (about the can's height) on a plate or paper; visible laminated spiral, caramelised sugar sheen. Absent: icing, filling. [EDITORIAL]
+- Kaiserschmarrn
+  - *Composition & proportions (§4.7)*: torn pancake pieces (~3–5 cm) fill a ~24 cm pan to a loose heap; powdered sugar covers ~60% of the top; 10–20 raisins; plum compote in a small side bowl. Absent: whipped-cream towers, fresh berries. [EDITORIAL]
+- Germknödel
+  - *Composition & proportions (§4.7)*: one dumpling ~12 cm (about the can's height) in a deep plate; melted butter pool around it; poppy-seed sugar covers the top ~60%; one side broken to show dark jam. Absent: vanilla sauce by default, fruit. [EDITORIAL]
+- St. Martin bread figure (*Weckmann*/*Stutenkerl*)
+  - *Composition & proportions (§4.7)*: one figure ~20–25 cm (about twice the can's height) lying flat on a plate or paper; 2 raisin eyes, 2–4 raisin buttons. Absent: icing, faces piped in sugar, the clay pipe some bakeries add (a tobacco cue). [EDITORIAL]
 
 ### Variant summary (schema §4.6 quick reference)
 
@@ -1702,12 +2764,15 @@ can dimensions) rather than restating them.
 
 ### Brand anchor
 
-**Classic red Coca-Cola Original only** — not Zero Sugar, not Diet/Light.
-**Mezzo Mix (a real Coca-Cola Germany cola-orange product) is excluded from
-this file's scope** — this is a KB scope decision, not a factual claim
-about the product's existence or popularity, and carries no confidence tag.
-Competitor beverages and other cola-orange "Spezi"-type drinks are never
-shown.
+**The brief names the hero SKU — never this file, never the region.**
+(Standing rule, 2026-09-27 — see `DECISIONS.md`; it replaces this file's
+earlier "Classic red Coca-Cola Original only" anchor.) Any TCCC brand,
+variant or format the brief names is in scope, including Coca-Cola Zero
+Sugar, Light, and **Mezzo Mix** (a real Coca-Cola Germany cola-orange
+product, previously excluded here as a scope decision). Write the slot
+with `africa/south-africa.md`'s HERO PRODUCT SLOT template: name the variant exactly and negate the closest
+lookalike. Competitor beverages and non-TCCC cola-orange "Spezi"-type
+drinks are never shown.
 
 ### German/EU pack formats (scale anchors)
 
@@ -1744,8 +2809,9 @@ documented throughout this file are accurate context only. In every image:
    mulled-wine mugs, shot glasses.
 3. **No alcohol branding or infrastructure**: brewery signage, beer
    umbrellas, tap handles, bar backs, tent interiors.
-4. **Coca-Cola must never appear as a mixer.** Germany has real cola-beer
-   and cola-spirit mixed-drink traditions; never imply them.
+4. **Coca-Cola must never appear mixed with alcohol.** Germany has real
+   cola-beer and cola-spirit mixed-drink traditions; never imply them.
+   (Non-alcoholic TCCC-brand mixes are allowed, schema §5.5.)
 5. **Scene compensation**: in beer gardens, inns, folk festivals, wine
    festivals, and Christmas markets, frame on food, Coca-Cola, the people
    eating, and non-drinking details (stalls, lights, rides, the chestnut
@@ -1783,9 +2849,11 @@ documented throughout this file are accurate context only. In every image:
 
 Carried from the draft's own market-fit reasoning; none of these ratings
 are independently sourced surveys, and all remain editorial judgment calls
-about scene fit rather than measured consumer-preference data.
+about scene fit rather than measured consumer-preference data. **Reference
+for whoever writes the brief only** — the brief chooses the SKU; this
+table never overrides it or fills it in.
 
-| Context | Fit | Preferred format |
+| Context | Fit | Formats that fit the setting |
 |---|---|---|
 | Currywurst / fries / Döner / Imbiss | Strong | 330mL can or 0.5L PET |
 | Pizza / pasta / Gyros / Asia box | Strong | 0.33L glass or can |
@@ -1871,6 +2939,7 @@ copyrighted design.
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **PENDING UPDATE — an authoritative TCCC product-dimension/spec drop is
   expected in the coming days**, per the orchestrating session. Hold off on
   further WebSearch effort toward the pack-dimension gaps below until it

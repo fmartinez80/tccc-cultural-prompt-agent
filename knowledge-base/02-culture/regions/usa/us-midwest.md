@@ -230,6 +230,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted with ketchup, grill marks/char, or a plain white bun without poppy seeds. Should not be confused with the New York cart dog (`us-northeast.md`, boiled in seasoned brine, sauerkraut and onion sauce) or the Coney dog (below, topped with chili) — the Chicago dog carries no chili and no sauerkraut.
 - Confidence: HIGH overall
 - Sources: [Pequod's Pizza — What Is on a Chicago-Style Hot Dog?](https://pequodspizza.com/blog/what-is-on-chicago-style-hot-dog/); [Wikipedia: Chicago-style hot dog](https://en.wikipedia.org/wiki/Chicago-style_hot_dog); [The Takeout — Chicago's Hot Dogs Are Variations On A Theme](https://www.thetakeout.com/chicago-hot-dog-versions-vienna-history-1838264745/); [Time Out — The 7 Toppings of the Chicago Hot Dog](https://www.timeout.com/chicago/food-drink/the-7-toppings-of-the-chicago-hot-dog)
+- Composition & proportions (§4.7) — one dog in a paper boat [EDITORIAL unless tagged]:
+  - What dominates: from a three-quarter view the bun and frank are ~50% of the dog's area, the pickle spear ~20%, all other toppings together ~30%. Seven toppings, each a small distinct zone, none heaped.
+  - Components: frank 1, ~15 cm long (6 in, per the entry's HIGH sourcing), ~2.5 cm thick, ends showing just past the bun. Bun 1, same length, poppy seeds sparse. Dill pickle spear 1, ~12–15 cm, laid along one side of the dog. Tomato 2 wedges [MEDIUM — Wikipedia and recipe sources, via search], ~5–6 cm, tucked along the other side. Sport peppers 2–3 [MEDIUM — same, via search], ~3–4 cm, bright yellow-green, whole. Relish a ~1.5 cm-wide neon-green strip; onion a light scatter of ~0.5 cm dice; mustard one thin zigzag; celery salt faint specks.
+  - Arrangement: pickle spear and tomato wedges flank the frank lengthwise, so the dressed dog is wider than the bun; relish and onion sit on top of the frank.
+  - Vessel fill: a ~18–20 cm paper boat or an opened paper wrap; the dog fills ~80% of the boat's length.
+  - State cues: frank glossy from steaming, no char; bun soft and matte; tomato wedges moist.
+  - Absent on purpose: ketchup (bottle, streak or packet); grill marks; sauerkraut; chili; cheese; fries heaped on top; a toasted or plain seedless bun.
+  - Prompt-ready line: "One Chicago-style hot dog in a paper boat, a little longer than the can is tall: a soft pale bun sprinkled with poppy seeds, a glossy reddish-brown steamed frank, a thin yellow mustard zigzag, a strip of neon-green relish and a scatter of chopped white onion on top, two tomato wedges tucked along one side, a whole dill pickle spear along the other, two small yellow-green peppers, faint celery-salt specks. No ketchup, no grill marks."
 
 #### Dish: Chicago Italian beef (full authoritative entry — pulls forward and expands `us.md`'s existing index entry)
 - Category: Everyday
@@ -245,6 +253,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a dry sandwich (a defining trait is that "wet" is the default order, not an optional upgrade) or with deli-style thick-cut/cubed beef; should not be confused with a Philly cheesesteak (`us-mid-atlantic.md`, no cheese, no griddled onions mixed into the meat) or a French dip (thicker-cut beef, no giardiniera/sweet-pepper tradition).
 - Confidence: HIGH for composition, dip system, and topping options; MEDIUM-LOW for the specific single-inventor origin claim
 - Sources: [Choose Chicago — Italian Beef in Chicago](https://www.choosechicago.com/blog/dining/italian-beef-chicago/); [Chef Mike Hard — Wet, Sweet, Hot, Dipped: Classic Chicago Italian Beef Sandwich](https://www.chefmikehard.com/blog/wet-sweet-hot-dipped-classic-chicago-italian-beef-sandwich); [Red Sauce America — The History of Chicago's Italian Beef Sandwich](https://www.redsauceamerica.com/blog/the-history-of-chicagos-italian-beef-sandwich/)
+- Composition & proportions (§4.7) — one "wet" sandwich on opened foil [EDITORIAL unless tagged]:
+  - What dominates: in side view the roll is ~55% of the height, the tangle of beef ~35%, peppers or giardiniera ~10%. The roll is hinged, not cut through, and the beef spills past its ends by 1–2 cm.
+  - Components: roll 1, ~15–20 cm long (6–8 in) [MEDIUM — Wikipedia, via search], ~7–8 cm across — longer than the can is tall. Beef: dozens of shaved slices ~1–2 mm thick, loosely folded, ~85–150 g per sandwich (home recipes give 60–90 g; stand sandwiches read heavier) [EDITORIAL; home-recipe range via search]. Sweet peppers 3–6 soft strips ~1–1.5 cm wide, or giardiniera a line of ~0.5–1 cm pieces along the top of the meat.
+  - Arrangement: meat piled unevenly inside the hinge, taller in the middle; toppings laid along the meat, not spread over the bread.
+  - Vessel fill: the sandwich lies on opened foil or butcher paper ~30 cm across, a jus puddle 2–5 cm wide at one end.
+  - State cues: bread darkened and translucent with jus, especially the bottom and ends; beef glistening; a light wisp of steam.
+  - Absent on purpose: melted cheese (unless briefed); lettuce or tomato; a dry, crisp-toasted roll; a French-dip ramekin of jus as the default; neat stacked deli slices.
+  - Prompt-ready line: "An Italian beef sandwich lying on opened foil, a little longer than the can is tall: a long soft roll soaked dark and glistening with meat juices, hinged open around a loose, tangled pile of paper-thin seasoned beef slices with browned edges, a few soft pale-green pepper strips along the top, a small puddle of juice on the foil. Steam rising, no cheese, no lettuce."
 
 #### Dish: Chicago mild sauce, with South Side fried chicken and rib tips
 - Category: Everyday
@@ -257,6 +273,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with a standard Buffalo wing sauce (thinner, vinegar-forward, orange rather than red, never sweet) or a thick, clinging Kansas City-style BBQ sauce — mild sauce is thinner and glossier than KC sauce but sweeter and less vinegar-forward than Buffalo sauce.
 - Confidence: MEDIUM-HIGH for the sauce's composition and South Side origin; MEDIUM for the specific visual/consistency description
 - Sources: [Strangers Guide — The Gospel of Mild Sauce](https://strangersguide.com/articles/the-gospel-of-mild-sauce/); [InsideHook — Your Fried Chicken Is Begging for Chicago Mild Sauce](https://www.insidehook.com/food/chicago-mild-sauce-condiment-recipe); [Wikipedia: Mild sauce](https://en.wikipedia.org/wiki/Mild_sauce)
+- Composition & proportions (§4.7) — one chicken-shack order of wings or rib tips over fries [EDITORIAL throughout]:
+  - What dominates: the meat ~45% of the tray surface, fries ~40% as the bed, sauce ribbons ~10–15%. The sauce is a drizzle, not a flood; fries show between the ribbons.
+  - Components: fried wings 4–6 whole wings (~10–12 cm each), or rib tips ~8–12 irregular chunks ~3–5 cm; fries a bed of ~40–60 sticks; 1–2 slices of plain white bread under or beside the meat; mild sauce in 3–5 ribbons ~1 cm wide or in a ~5 cm plastic cup alongside.
+  - Arrangement: fries on the bottom, meat heaped over the centre, bread tucked at one end, sauce drizzled across the top.
+  - Vessel fill: a paper-lined tray or foam clamshell ~22×22 cm, filled to the edges, ~6–8 cm tall at the centre (about half the can's height).
+  - State cues: chicken crust craggy and dry-crisp except where sauce lies; sauce glossy and orange-red; fries golden, slightly limp under the sauce.
+  - Absent on purpose: thick dark KC sauce; Buffalo-orange coating; celery and ranch; a fully sauce-submerged tray; plated restaurant presentation.
+  - Prompt-ready line: "A paper-lined takeout tray piled with golden fries, crisp craggy fried chicken wings heaped over the centre, a slice of plain white bread tucked at one end, and glossy orange-red sweet sauce drizzled across in a few loose ribbons, fries showing between them. The pile stands about half the can's height. No celery, no ranch."
 
 #### Dish: Chicago deep-dish pizza (full authoritative entry — pulls forward and expands `us.md`'s national Pizza index entry's Chicago deep-dish pointer)
 - Category: Special-occasion/destination-dining more than an everyday local order (see tavern-style below for the everyday-local counterpart)
@@ -271,6 +295,15 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a thin, foldable slice — its own crust and cheese weight make this structurally impossible, a genuine physical fact worth treating as a hard constraint on the pose/composition of any generated image. Should not be confused with Chicago stuffed pizza (below — has a second dough layer between filling and top sauce, an even taller profile) or Detroit-style (below — rectangular, not round; caramelized cheese edge; airier crumb).
 - Confidence: HIGH across construction, cheese-under-sauce logic, and fork-and-knife serving format; MEDIUM-HIGH for exact modern size figures
 - Sources: [The Kitchn — The History of Chicago Deep-Dish Pizza](https://www.thekitchn.com/the-history-of-the-all-american-chicago-deep-dish-pie-227610); [Chicago Magazine — The Secret History of the Original Deep-Dish Crust](https://www.chicagomag.com/dining-drinking/the-secret-history-of-the-original-deep-dish-crust/); [Fox News — Chicago pizza is a deep-dish delight that can be eaten with a fork and knife](https://www.foxnews.com/food-drink/chicago-deep-dish-pizza-requires-knife-fork-eat-properly)
+- Composition & proportions (§4.7) — whole pie in its pan and one served slice:
+  - What dominates: from above, the tomato-sauce top covers ~80–85% of the pie, the crust wall ~10–15%, grated Parmesan specks the rest. At a cut face, crust ~25% of the height, cheese ~40%, filling (if any) ~10%, sauce ~25%. [EDITORIAL]
+  - Components: pan 1, ~23–36 cm across (9–14 in, per the entry), sides ~5–7.5 cm; crust wall rising ~4–5 cm, about a third of the can's height. Cheese layer ~1.5–2 cm; sauce layer ~1–1.5 cm with visible tomato pieces ~1–2 cm; sausage, when briefed, as a pressed layer under the sauce, not as crumbles on top. A large pie cuts into ~8 slices; one slice ~270 g (about 9.6 oz) [MEDIUM — CalorieKing, a Chicago chain's large deep-dish, via search].
+  - Arrangement: sauce spread evenly to the crust wall; one wedge lifted out onto a plate, leaving a gap in the pan.
+  - Vessel fill: the pie fills the pan edge to edge; the pan sits on a raised wire stand at the table centre.
+  - Served portion vs. whole dish: one wedge per plate, eaten with knife and fork, lying on its side or flat with the cut face showing the layers; cheese oozes 1–2 cm from the cut face. [EDITORIAL]
+  - State cues: sauce glossy, faint steam; crust edge golden and crisp, slightly oily from the pan.
+  - Absent on purpose: melted or browned cheese as the top layer; pepperoni rounds on top; a folded or hand-held slice; a basil-leaf pile; a thin foldable crust.
+  - Prompt-ready line: "A round deep pan of Chicago deep-dish pizza on a raised stand, one wedge lifted onto a white plate beside it: a golden, crisp crust wall about a third of the can's height, a chunky bright-red tomato sauce top with visible tomato pieces and a light sprinkle of grated cheese, and at the cut face thick bands of crust, pale melted cheese and sauce. Knife and fork beside the plate."
 
 #### Dish: Chicago stuffed pizza (genuine coexisting sibling to deep-dish, per `country-file-schema.md` §4.6 — not a variant name for the same dish)
 - Category: Special-occasion/destination-dining, same register as deep-dish
@@ -282,6 +315,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: The single most reliable, checkable way to distinguish stuffed pizza from deep-dish in a photo is this second dough layer at the cross-section — without a visible thin dough band between the filling and the top sauce, a cross-section is more likely showing deep-dish (or an unlabeled generic pizza) than genuine stuffed pizza.
 - Confidence: HIGH for the structural distinction; MEDIUM for the *scarciedda* ancestor-dish claim
 - Sources: [Giordano's — Deep-Dish Pizza vs. Stuffed Pizza: What's the Difference?](https://giordanos.com/deep-dish-pizza-vs-stuffed-pizza/); [2FoodTrippers — Beyond Stuffed: The 5 Styles of Chicago Pizza](https://www.2foodtrippers.com/chicago-pizza-styles/); [Real Deep Dish — Deep Dish 101, Lesson 3](https://www.realdeepdish.com/2011/12-29-deep-dish-101-lesson-3-chicago-pizza-styles-and-maybe-a-dough-recipe/) — note: a real, specific, trademarked business is the most-cited example; describe a generic Chicago stuffed-pizza restaurant in an actual prompt, per `country-file-schema.md` §7.5.
+- Composition & proportions (§4.7) — whole pie and one served slice [EDITORIAL throughout; heights reasoned from the entry's "deeper pan than deep-dish"]:
+  - What dominates: from above, sauce ~85% of the top, crust rim ~10–15%. At a cut face, cheese and filling ~50% of the height, bottom crust ~20%, the thin top-dough band ~5–8%, sauce ~20%.
+  - Components: pie ~25–35 cm across, ~6–8 cm tall at the cut face (about half the can's height); bottom crust ~1–1.5 cm; cheese/filling ~3–4 cm; top dough layer ~2–4 mm, pale and sheet-like; sauce ~1–1.5 cm. ~8 slices per pie.
+  - Arrangement and served portion: one wedge on a plate, cut face toward camera so the thin dough band between filling and sauce is readable; the rest of the pie in its pan behind.
+  - State cues: cheese pulls thickly at the cut face; sauce glossy; crust golden.
+  - Absent on purpose: cheese on top; a second thick bread-like crust on top (the top layer is thin); hand-held slices; toppings scattered on the sauce.
+  - Prompt-ready line: "A thick wedge of Chicago stuffed pizza on a white plate, about half the can's height, cut face toward the camera: a golden bottom crust, a deep band of melted cheese and filling, a thin pale sheet of dough above it, then chunky red tomato sauce on top. The rest of the round pie sits in its pan behind; knife and fork alongside."
 
 #### Dish: Chicago tavern-style pizza (the everyday-local counterpart to deep-dish and stuffed pizza — a genuine coexisting variant, per §4.6, not a lesser/informal version)
 - Category: Everyday — reported to be the pizza style Chicagoans actually eat most often, in contrast to deep-dish's tourist/special-occasion association
@@ -295,6 +335,15 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a New York-style thin slice (larger, foldable, chewier, cut into large triangular wedges, wider bare-crust rim) or as a cracker-thin St. Louis-style pizza (visually similar cracker-thin crust and square cut, but St. Louis-style uses Provel processed cheese and a slightly sweet sauce — see that entry below).
 - Confidence: HIGH for the structural/serving description; MEDIUM for the specific "outsells deep-dish" local-consumption claim
 - Sources: [Tasting Table — What's The Difference Between Chicago Deep Dish And Tavern-Style Pizza?](https://www.tastingtable.com/1613854/chicago-deep-dish-vs-tavern-style-pizza/); [The Takeout — What Sets Tavern-Style Pizza Apart From The Other Chicago Pies](https://www.thetakeout.com/1615994/tavern-style-pizza-chicago-explained/); [That Pizza Kitchen — Tavern-Style Pizza: The Crispy Cracker-Thin Chicago Classic](https://thatpizzakitchen.com/tavern-style-pizza-the-crispy-chicago-classic/)
+- Composition & proportions (§4.7) — whole pie on a tray and one diner's share:
+  - What dominates: melted cheese and toppings ~95% of the top, run to the edge; bare crust only as a hairline rim. [EDITORIAL]
+  - Components: pie ~30–36 cm; a 14-in pie party-cut with 3 cuts one way and 4 the other gives ~20 pieces [MEDIUM — Wordloaf / InsideHook, via search] — centre squares ~6–8 cm (roughly the can's width), edge pieces small irregular triangles. Crust ~3–5 mm thick. Sausage, when briefed, as ~1–2 cm raw-pinched crumbles scattered evenly, ~2–4 per square.
+  - Arrangement: the grid left assembled on the tray; one to three squares lifted onto small paper plates.
+  - Vessel fill: pie covers a round metal tray or screen edge to edge.
+  - Served portion vs. whole dish: 2–4 squares per person on a paper plate or napkin, eaten by hand (no hand in frame). [EDITORIAL]
+  - State cues: cheese browned in small spots, slightly oily; crust dry and rigid, edge pieces darker.
+  - Absent on purpose: large triangular wedges; a puffy or charred rim; fork and knife; a deep crust.
+  - Prompt-ready line: "A round, cracker-thin pizza on a metal tray, cut into a grid of small squares each about the can's width, cheese and sausage crumbles running right to the edge with lightly browned spots; the small triangular edge pieces darker and crisp. Two squares on a small paper plate beside it. No wedges, no puffy crust."
 
 #### Dish: Coney dog — Detroit-style (full authoritative entry — pulls forward and expands `us.md`'s national Hot dog index entry's Coney dog pointer)
 - Category: Everyday, with strong civic/identity significance in southeast Michigan
@@ -308,6 +357,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with a Cincinnati-style coney (a different Midwest coney tradition entirely — see the Ohio Valley zone below) or with the Flint-style coney below (visibly drier/looser chili, not wet and pooling); should not include sauerkraut (a New York cart dog trait) or Chicago-style vegetable toppings.
 - Confidence: HIGH for composition and the wet/soupy texture description; LOW-MEDIUM for the exact founding-year history
 - Sources: [Detroit Historical Society — Coney Dog](https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/coney-dog); [Detroit PBS — The History of Detroit's Famous Coney Dog](https://www.detroitpbs.org/news-media/one-detroit/coney-dog-history-one-detroit-detroit-remember-when-made-in-the-motor-city/); [Michigan Public — How Michigan Became the Coney Capital](https://www.michiganpublic.org/podcast/on-hand/2026-03-06/how-michigan-became-the-coney-capital)
+- Composition & proportions (§4.7) — one plate of two coneys [EDITORIAL throughout]:
+  - What dominates: from above the chili covers ~70% of each coney, onion ~15%, visible bun ~15%; the frank is mostly hidden.
+  - Components: coneys 2–3 per plate (per the entry); each ~15 cm long, bun ~5–6 cm wide; chili ~1–1.5 cm deep along the whole length, running over the bun edges; diced white onion ~0.5 cm pieces, a dense line down the centre; mustard a thin line, mostly under the chili.
+  - Arrangement: coneys side by side, parallel, on an oval diner plate ~28–30 cm; fries, when ordered, as a separate pile on the remaining third.
+  - Vessel fill: coneys take ~60% of the plate; chili drips pool 1–3 cm onto the plate.
+  - State cues: chili wet and glossy with rendered fat; light steam.
+  - Absent on purpose: beans; shredded cheese (a different order); sauerkraut; Chicago vegetables; ketchup; a dry crumbled chili mound (that is Flint).
+  - Prompt-ready line: "Two coney dogs side by side on an oval diner plate, each a little longer than the can is tall: soft steamed buns almost hidden under a glossy, soupy, fine-textured reddish-brown chili that runs over the edges and pools on the plate, a line of small diced white onion down the centre of each. No cheese, no beans."
 
 #### Dish: Coney dog — Flint-style (genuine coexisting sibling to Detroit-style, per `country-file-schema.md` §4.6 — a different Michigan register, not a lesser imitation)
 - Category: Everyday, with the same civic/identity significance in Flint and mid-Michigan that Detroit-style carries in Detroit
@@ -319,6 +376,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted with a wet, glossy, pooling chili sauce — that is specifically the Detroit-style marker and the primary, checkable point of difference between the two.
 - Confidence: HIGH for the dry/loose-vs-wet/soupy distinction; MEDIUM for finer recipe-level detail
 - Sources: [WITL — What's the Difference Between Flint-Style & Detroit-Style Coneys?](https://witl.com/detroit-flint-coneys/); [99 WFMK — Michigan Coney Islands: What's the Difference in the Styles?](https://99wfmk.com/michigan-coney-islands-whats-the-difference-in-the-styles/)
+- Composition & proportions (§4.7) — one plate of two coneys [EDITORIAL throughout]:
+  - What dominates: from above the dry chili mound covers ~60% of each coney, onion ~15%, visible bun and frank ends ~25%.
+  - Components: coneys 2–3 per plate; each ~15 cm; chili a loose mound ~2–3 cm tall of crumbles ~0.3–0.6 cm, sitting on the frank without spilling; diced onion scattered on top; mustard a visible yellow line at the edges.
+  - Arrangement: side by side on an oval plate; mound held within the bun's width.
+  - State cues: matte, crumbly chili, no gloss; no drips on the plate.
+  - Absent on purpose: wet glossy pooling chili (that is Detroit); beans; cheese; sauerkraut.
+  - Prompt-ready line: "Two coney dogs side by side on an oval diner plate, each a little longer than the can is tall: soft buns topped with a loose, dry mound of matte, crumbly seasoned ground beef held neatly on top of the frank, a scatter of diced white onion and a thin yellow mustard line. No sauce pooling, no cheese, no beans."
 
 #### Dish: Detroit-style pizza (full authoritative entry — pulls forward and expands `us.md`'s national Pizza index entry's Detroit-style pointer)
 - Category: Everyday to special-occasion
@@ -331,6 +395,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: **The dark caramelized cheese border is the single most reliable, checkable way to distinguish Detroit-style from Sicilian pizza**, which is also rectangular and pan-baked but does not have this deliberate edge-caramelization treatment. Should also not be confused with Chicago deep-dish (round, no rectangular cut, denser crumb) or stuffed pizza (round, second dough layer).
 - Confidence: HIGH — multiple independent, detailed, consistent sources on origin, pan size, and the frico-edge construction
 - Sources: [Pizza Today — Detroit Style Pizza: A Guide to Detroit Pizza](https://pizzatoday.com/topics/menu-development/detroit-style-pizza-a-guide-to-detroit-pizza/); [Wikipedia: Detroit-style pizza](https://en.wikipedia.org/wiki/Detroit-style_pizza)
+- Composition & proportions (§4.7) — whole pan and one served portion:
+  - What dominates: from above, pale melted cheese ~55%, red sauce stripes ~25–30%, the dark caramelized cheese border ~15%. [EDITORIAL]
+  - Components: pan 10×14 in (~25×36 cm, HIGH per entry), cut into 8 rectangles [MEDIUM — Detroit-style pizzeria menu, via search], each ~9×12 cm and ~3.5–5 cm tall (about a third of the can's height). Sauce 2–3 stripes ~2–3 cm wide running the pan's length. Frico border ~1–2 cm wide, lacy, dark brown to near-black. Pepperoni, when briefed, small cupped rounds ~3–4 cm, partly under the cheese.
+  - Arrangement: pieces left in the steel pan or lifted out onto a board, corner pieces (two dark edges) placed forward.
+  - Served portion vs. whole dish: 2 pieces per person on a plate, lying flat, one crisp edge toward camera. [EDITORIAL]
+  - State cues: crust underside golden-fried and oily; cheese glossy at centre; sauce stripes thick and matte-glossy.
+  - Absent on purpose: a round pie; wedge cuts; cheese on the rim with no darkening; sauce spread under the cheese; a thin crust.
+  - Prompt-ready line: "A dark blue-steel rectangular pan of thick square pizza cut into eight pieces, each about a third of the can's height: pale melted cheese with two wide stripes of red sauce along the top, and a crisp, lacy, deep-brown to almost black caramelized cheese edge around every outer side. Two corner pieces lifted onto a plate, golden-fried crust underside visible."
 
 #### Dish: Michigan Upper Peninsula pasty (a genuinely distinct Michigan sub-regional dish, immigrant-tied, with no overlap with Detroit/southeast Michigan's food identity)
 - Category: Everyday, with a specific, real statewide commemorative day (May 24, Michigan's official "National Pasty Day," declared in 1968 to mark the Mackinac Bridge's role connecting the Upper and Lower Peninsulas)
@@ -345,6 +417,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a Latin American empanada (smaller, thinner, more delicately crimped/fluted edge, often fried rather than baked) or a British Cornish pasty in its original UK form (the Michigan version has evolved its own regional character, e.g. the carrot substitution).
 - Confidence: HIGH for the immigrant origin, two-tradition (Cornish/Finnish) history, and the crimped-edge/portability detail; MEDIUM for the specific visual/texture synthesis
 - Sources: [Michigan Technological University — Pasties and Pickled Eggs](https://www.hu.mtu.edu/vup/pasty/history.htm); [NPR — In Michigan, The Pasty Isn't X-Rated](https://www.npr.org/sections/thesalt/2017/03/16/520129966/in-michigan-the-pasty-isnt-x-rated-its-a-portable-pie-with-history-baked-in); [A Healthier Michigan — What to Know About the Michigan Pasty](https://www.ahealthiermichigan.org/stories/community/the-history-of-an-up-north-staple-pasties)
+- Composition & proportions (§4.7) — one pasty, whole or cut:
+  - What dominates: whole, it is all crust — the plain top ~80% of its visible area, the crimped seam ~20%. Cut, the face shows ~60% filling chunks and ~40% crust. [EDITORIAL]
+  - Components: pasty 1 per person, a half-moon ~20–25 cm long (about twice the can's height), ~10–12 cm deep, ~5–6 cm tall; dough rolled to an 8–12 in circle before folding [MEDIUM — Upper Peninsula recipe sources, via search]; one guide gives a typical weight of about 2 lb [LOW-MEDIUM — Michigan4You, via search; likely the large end]. Crimp ~1.5–2 cm wide, rope-twisted. Filling dice ~1–1.5 cm cubes of beef, potato, rutabaga or carrot, onion.
+  - Arrangement: whole on wax paper, or on a plate cut in half with one half turned to show the chunky face.
+  - State cues: crust matte, pale golden, darker on the crimp; filling moist but not saucy; faint steam when cut.
+  - Absent on purpose: a glossy egg-washed finish with decorative cutouts; a delicate fork-crimped small empanada; peas; a gravy flood (a small side cup of gravy or ketchup only if briefed).
+  - Prompt-ready line: "One large half-moon pasty on white wax paper, about twice as long as the can is tall: a thick, matte, pale golden crust with a darker, rope-twisted crimped edge along the top. Beside it, the second half of a cut pasty shows large separate cubes of beef, potato and pale orange rutabaga with onion, moist but not saucy, with light steam."
 
 #### Dish: Wisconsin cheese curds (fresh and fried — two genuinely coexisting serving formats, per `country-file-schema.md` §4.4)
 - Category: Everyday, snack-category
@@ -359,6 +438,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: A fresh curd should not be confused with a small cube of fresh mozzarella (smoother, wetter/glossier, more uniform in shape) or with a fried mozzarella stick (a uniform, machine-extruded cylindrical shape with a fully liquid, stretchy interior when cut, versus a curd's smaller, irregular lump shape and only partially-melted interior).
 - Confidence: HIGH overall
 - Sources: [Gardners Wisconsin Cheese — Wisconsin Cheese Curds: History, Culture & Freshness](https://www.gardnerswisconsincheese.com/blogs/articles/wisconsin-cheese-curds-the-snack-that-built-a-dairy-empire); [Ramshackle Pantry — Authentic Wisconsin Fried Cheese Curds](https://ramshacklepantry.com/wisconsin-cheese-curds/); [Renard's Cheese — What Are Cheese Curds? (And Why Wisconsin's Are The Best)](https://www.renardscheese.com/blogs/lets-talk-cheese/what-are-cheese-curds-and-why-wisconsins-are-the-best)
+- Composition & proportions (§4.7) — one fried basket, and fresh curds:
+  - What dominates: fried curds ~85% of the basket view, the dipping cup ~15%. Fresh curds: all curd, no garnish. [EDITORIAL]
+  - Components: a standard serving is ~3–4 oz, about 10–15 curds [MEDIUM — Curd Creation, via search]; restaurant baskets run a little larger (~5 oz) [MEDIUM — a Wisconsin chain's listed size, via search]. Each fried curd ~2.5–4 cm (about half the can's width), irregular; fresh curds ~2.5–5 cm (per the entry). Ranch or marinara in 1 small cup ~5–6 cm across.
+  - Arrangement: fried curds heaped loosely in a paper-lined basket ~15–18 cm across, the cup tucked at one side; fresh curds tumbled in a clear bag or tub.
+  - State cues: batter craggy, deep golden, dry-looking with a slight oil sheen; one curd torn open with a short cheese stretch. Fresh curds matte and slightly rubbery.
+  - Absent on purpose: uniform cylindrical mozzarella sticks; sauce poured over the curds; parsley; smooth breadcrumb coating.
+  - Prompt-ready line: "A small paper-lined basket heaped with a dozen irregular fried cheese curds, each about half the can's width, with craggy deep-golden beer batter and a slight oil sheen, one torn open to show a short stretch of soft white cheese; a small cup of creamy white dip tucked at one side. No sticks, no garnish."
 
 #### Dish: Wisconsin Friday fish fry — fried perch or walleye plate
 - Category: Everyday, occasion-linked specifically to Friday evenings
@@ -372,6 +458,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted with a thick, steak-like fish cut (perch/walleye fillets are naturally thin and small) or a plain white-bread side (rye bread is the specific, checkable regional detail); should not be confused with a New England fried-clam or fried-seafood-basket plate (`us-northeast.md`, different fish species, no coleslaw-and-rye pairing).
 - Confidence: HIGH for the full plate composition and the three-cause history; MEDIUM for the exact visual crust-texture synthesis
 - Sources: [Travel Wisconsin — A Brief History of the Wisconsin Fish Fry](https://www.travelwisconsin.com/stories/a-brief-history-of-the-wisconsin-fish-fry); [OnMilwaukee — Thank Cod It's Fryday: The ultimate fish fry guide](https://onmilwaukee.com/articles/milwaukeefishfryguide); [Fox Valley Foodie — Beer Battered Perch](https://www.foxvalleyfoodie.com/beer-battered-perch-the-classic-wisconsin-fish-fry/)
+- Composition & proportions (§4.7) — one composed plate:
+  - What dominates: fried fish ~35% of the plate, fries or potato pancake ~30%, coleslaw ~15%, rye slice ~15%, lemon and tartar cup the rest. [EDITORIAL]
+  - Components: perch 2–3 pieces per plate (jumbo perch 2, standard 3) [MEDIUM — Wisconsin fish-fry listings, via search], each ~10–15 cm long (about the can's height), ~1–1.5 cm thick; walleye 1–2 larger fillets ~15–20 cm. Fries ~40–50 sticks or 2 potato pancakes ~9–10 cm. Coleslaw 1 scoop ~8 cm across or a small cup. Rye 1 slice, buttered, a few raw onion rings alongside. Tartar sauce 1 cup ~5 cm; lemon 1 wedge.
+  - Arrangement: fillets overlapping at the plate's centre-front, fries behind, slaw and rye on the sides.
+  - Vessel fill: an oval ~30–33 cm plate covered edge to edge.
+  - State cues: batter dry-crisp with small blisters; slaw glossy; butter visible on the rye.
+  - Absent on purpose: a thick fish steak; a single large fish; white sandwich bread; ketchup-drenched fries; malt vinegar bottle as a prop.
+  - Prompt-ready line: "An oval plate: three thin, elongated fillets of fried perch, each about the can's height, with a bumpy, blistered deep-golden beer batter, overlapping at the front; a pile of fries behind; a scoop of creamy pale coleslaw; one buttered slice of marbled rye with a few raw onion rings; a small cup of tartar sauce and a lemon wedge."
 
 #### Dish: Door County (Wisconsin) fish boil
 - Category: Special-occasion/destination-dining, tourism-linked, distinct from the everyday Friday-fish-fry entry above
@@ -384,6 +478,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with the everyday Wisconsin Friday fish fry above (different fish preparation — boiled, not battered/fried; different setting — outdoor communal event vs. indoor sit-down tavern plate; different sides) despite both being Wisconsin fish traditions.
 - Confidence: MEDIUM-HIGH for the tradition's history and the boil-over spectacle; MEDIUM for the specific plated-finish visual detail
 - Sources: [Destination Door County — The Door County Fish Boil](https://www.doorcounty.com/newsletter/the-door-county-fish-boil/); [Wikipedia: Fish boil](https://en.wikipedia.org/wiki/Fish_boil)
+- Composition & proportions (§4.7) — one served plate (the kettle scene is separate):
+  - What dominates: whitefish ~40% of the plate, potatoes ~35%, onion and sides the rest; everything pale — white, cream and red-skinned. [EDITORIAL]
+  - Components: whitefish 1–2 bone-in, skin-on steaks ~7–10 cm (about two-thirds of the can's height), opaque white and flaking; small red potatoes 3–5, ~4–5 cm, whole with skins split; small whole onion 0–1 ~5 cm. Melted butter poured over or in a cup, lemon wedge. Current Door County boils also serve coleslaw, rye or white bread and a slice of cherry pie [MEDIUM — Destination Door County / White Gull Inn, via search] — see the note under Absent.
+  - Arrangement: fish at the front, potatoes clustered behind; slaw and bread alongside on the table.
+  - State cues: steam rising; butter glossy in pools; fish skin grey-silver, flesh matte white.
+  - Absent on purpose: batter, breading, crisp browning, tartar sauce, fries. (The entry's line that fish-boil plates omit coleslaw and rye bread conflicts with the search results above; flagged, not rewritten.)
+  - Prompt-ready line: "A plate at an outdoor picnic table: two chunky bone-in steaks of boiled whitefish, opaque white and flaking, skin silver-grey, each about two-thirds of the can's height; four small whole red potatoes with split skins; melted butter glistening over everything and a lemon wedge; a little creamy coleslaw and a slice of dark rye bread beside it. Steam rising, nothing fried."
 
 #### Dish: Wisconsin supper club fare — relish tray and prime rib
 - Category: Special-occasion to everyday-weekly (Saturday prime rib specifically, per the documented weekly menu rhythm)
@@ -396,6 +497,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: A relish tray should not be depicted as a single crudité platter with one central dip (the Wisconsin version is specifically segmented, multi-item, not centered on a single dip bowl); prime rib should not be depicted uniformly well-done throughout (the pink medium-rare center is the standard, expected doneness).
 - Confidence: HIGH for the relish-tray composition and weekly-menu-rhythm framing; MEDIUM for the specific prime-rib doneness/visual synthesis
 - Sources: [Fast Food Club — The 6 Wisconsin Supper Clubs Where The Relish Tray And Brandy Old Fashioned Still Come First](https://fastfoodclub.com/p/the-6-wisconsin-supper-clubs-where-the-relish-tray-and-brandy-old-fashioned-still-come-first-f6407280/); [Red Circle Inn — What Exactly Is a Supper Club?](https://www.redcircleinn.com/post/what-exactly-is-a-supper-club-and-why-wisconsin-perfected-it)
+- Composition & proportions (§4.7) — relish tray, then one prime-rib plate [EDITORIAL throughout]:
+  - What dominates: relish tray — no single item dominates; 5–7 compartments each ~10–15% of the tray. Prime-rib plate — the slice ~50% of the plate, potato ~25%, the jus cup and any vegetable the rest.
+  - Components (tray): a divided tray or lazy-Susan ~30–35 cm; carrot and celery sticks 5–8 each, ~10 cm; radishes 4–6; pickled beet slices 6–8; kidney-bean salad, cottage cheese and cheese spread each a scoop ~6–8 cm; crackers or breadsticks in one section.
+  - Components (plate): prime rib 1 slice ~2.5–4 cm thick, ~15–20 cm across (wider than the can is tall), bone optional along one edge; au jus 1 cup ~7 cm; baked potato 1 (~12 cm, split, sour cream dollop) or a mashed-potato scoop.
+  - Arrangement: tray centred on the table between diners; later each diner's plate with the meat at the front.
+  - State cues: beef pink at centre with a dark seasoned crust ring; jus dark and clear; beets glossy.
+  - Absent on purpose: cocktails or brandy drinks (no alcohol in frame); a single dip bowl crudité platter; well-done grey beef; heavy garnish.
+  - Prompt-ready line: "On a dim wood table, a divided relish tray with separate small piles of carrot and celery sticks, radishes, glossy magenta pickled beets, a kidney-bean salad, cottage cheese and orange cheese spread. Beside it, a plate with one thick slice of prime rib wider than the can is tall, dark-crusted at the edge and pink inside, a split baked potato and a small cup of dark jus."
 
 #### Dish: Wisconsin butter burger
 - Category: Everyday
@@ -407,6 +516,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be visually indistinguishable from a plain classic cheeseburger — the toasted, glossy, butter-soaked bun surface is the one checkable, defining visual difference.
 - Confidence: MEDIUM-HIGH for the origin and construction; MEDIUM for the specific visual-gloss synthesis
 - Sources: [WIProud — Wisconsin's 'Butter Burger' origin story at Kroll's East in Green Bay](https://www.wiproud.com/news/wisconsin-news/wisconsins-butter-burger-origin-story-at-krolls-east-in-green-bay/); [Wikipedia: Butter burger](https://en.wikipedia.org/wiki/Butter_burger); [Logsday — Where Did the History of the Butter Burger Begin?](https://www.logsday.com/history-of-the-butter-burger-in-wisconsin)
+- Composition & proportions (§4.7) — one burger in a basket [EDITORIAL throughout]:
+  - What dominates: in side view the toasted bun ~60% of the height, patty ~20%, onions and butter ~20%.
+  - Components: bun ~10 cm across (about 1.5× the can's width), crown toasted glossy-golden on the cut face; patty 1 (or 2 for a double), ~10–11 cm, ~1 cm thick, thinner than a classic pub burger; butter 1 pat ~2×2 cm half-melted on the patty or a glossy film on the crown; sautéed onions a small soft pile; cheese 0–1 slice.
+  - Arrangement: straight stack; crown slightly ajar so the melting butter shows.
+  - Vessel fill: burger ~40% of a paper-lined basket; fries or curds on the other side if briefed.
+  - State cues: butter visibly wet and pooling at the patty edge; bun gloss.
+  - Absent on purpose: a thick gourmet patty; lettuce-tomato stack; bacon; sauce drips.
+  - Prompt-ready line: "One butter burger in a paper-lined basket, about half the can's height and one and a half times its width: a glossy, butter-toasted golden bun, its top lifted slightly to show a thin browned beef patty, a small pile of soft sautéed onions and a half-melted pat of butter pooling at the patty's edge. Simple, low, no lettuce or tomato."
 
 #### Dish: Minnesota hotdish (tater tot hotdish, the most common modern version)
 - Category: Everyday, with strong communal/occasion associations (church potlucks, family reunions, holiday meals)
@@ -420,6 +537,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a generic beef-and-vegetable stew (hotdish is baked, not stewed on the stovetop, and always has the browned tater-tot or similar starchy top layer as its defining visual marker) or as shepherd's pie (shepherd's pie's top layer is mashed potato, smooth and often piped/swirled, versus hotdish's distinctly separate, individually visible tater tots).
 - Confidence: HIGH for the origin/naming history and the tater-tot-topped modern form; MEDIUM for the specific visual-texture synthesis
 - Sources: [Today.com — What is hotdish? How the casserole became a Minnesota specialty](https://www.today.com/food/recipes/hotdish-minnesota-history-rcna166273); [Wikipedia: Hotdish](https://en.wikipedia.org/wiki/Hotdish); [Pip & Ebby — Minnesota Tater Tot Hotdish](https://pipandebby.com/pip-ebby/tater-tot-hotdish/)
+- Composition & proportions (§4.7) — the 9×13 dish and one served scoop:
+  - What dominates: from above, tater tots cover ~90% of the dish — the filling shows only at gaps and at a scooped corner. In a served scoop, filling ~60% of the volume, tots ~40%. [EDITORIAL]
+  - Components: dish 9×13 in (~23×33 cm, per the entry), glass or ceramic, ~5 cm deep. Tots ~2.5 cm long, ~2 cm wide (about a third of the can's width), ~70–90 in snug rows [EDITORIAL from a standard 2-lb bag]. Filling ~3–4 cm deep: ground beef crumbles, peas or corn kernels, beige cream-soup binder; cheese layer optional.
+  - Arrangement: tots in neat rows, edge to edge; one corner already scooped out, showing the beige filling and the glass side.
+  - Served portion vs. whole dish: a square scoop ~8×8 cm on a plate, 6–9 tots on top, filling slumping out of shape. [EDITORIAL]
+  - State cues: tot tops browned and crisp, darker at points; filling bubbling at the edges; light steam.
+  - Absent on purpose: mashed-potato top; loose stew; herb garnish; tots scattered randomly; a transferred serving platter.
+  - Prompt-ready line: "A 9-by-13 glass baking dish filled with neat rows of browned, crisp tater tots, each about a third of the can's width, a corner scooped out to show a thick, pale beige creamy filling of ground beef and peas bubbling at the glass edge. Beside it, one square scoop on a plate, tots on top, filling slumping. Light steam, no garnish."
 
 #### Dish: Juicy Lucy (Minneapolis)
 - Category: Everyday, with a strong local-pride/destination-dining association specifically tied to two named Minneapolis bars
@@ -433,6 +558,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: An uncut Juicy Lucy photographed whole, with no bite taken and no cross-section shown, does not visually communicate the dish at all and would be indistinguishable from any other cheeseburger — this is a genuine staging risk specific to this dish, and should be treated as effectively mandatory: any prompt for this dish needs either a bite or a cut cross-section to be recognizable as a Juicy Lucy rather than a plain cheeseburger.
 - Confidence: HIGH for the construction and the contested two-bar origin; HIGH (and load-bearing) for the "must be cut/bitten to be recognizable" staging note
 - Sources: [Star Tribune — The Juicy Lucy: Matt's Bar, 5-8 Club battling since 1950s](https://www.startribune.com/the-juicy-lucy-two-bars-battling-since-1950s-over-minnesota-s-famous-burger/429889883); [Wikipedia: Jucy Lucy](https://en.wikipedia.org/wiki/Jucy_Lucy); [Food Republic — Tracing The Origins Of The Juicy Lucy Burger](https://www.foodrepublic.com/2028704/origin-juicy-lucy-burger/)
+- Composition & proportions (§4.7) — one burger, cut or bitten [EDITORIAL unless tagged]:
+  - What dominates: at the cut face the patty ~40% of the height (thicker than a classic burger), bun ~50%, the molten cheese pool the visual focus at the patty's centre.
+  - Components: patty 1, ~11–12 cm across, ~2–2.5 cm thick; copycat recipes use about 1/3 lb of beef per burger [MEDIUM — recipe sources, via search]. Cheese pool ~3–5 cm wide at the cut centre, running 1–3 cm onto the paper. Bun ~10–11 cm. Onions and pickles few and flat.
+  - Arrangement: one half cut face forward; the other half out of frame (per the entry).
+  - Vessel fill: in a paper-lined basket or on a plain plate, the half-burger ~30% of the area; fries behind.
+  - State cues: cheese liquid and glossy, dripping; patty sear dark; a wisp of steam from the centre.
+  - Absent on purpose: cheese draped on top; an uncut whole burger; two halves stacked; a tall lettuce-tomato stack.
+  - Prompt-ready line: "Half of a cheese-stuffed burger in a paper-lined basket, cut face forward, about half the can's height: a soft bun around a thick, dark-seared beef patty with a pool of molten, glossy yellow-orange cheese running out of its centre onto the paper, a wisp of steam; fries behind. No cheese on top, the other half out of frame."
 
 ### Missouri & Kansas City
 
@@ -450,6 +583,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with plain chopped/pulled brisket (a wetter, shredded or roughly chopped texture with no distinct bark-vs-interior boundary, typically a lighter, less caramelized color) or with Texas-style brisket burnt ends, which in Texas practice are more often served drier, with a thinner or absent sauce glaze and a more pronounced dry dark bark all the way through — the KC version's heavier, glossier sauce glaze is the key differentiator. Also should not be confused with the pork belly burnt ends variant noted above (lighter pink-tan interior, not beef's deeper red-brown).
 - Confidence: HIGH overall for origin, technique, and visual description
 - Sources: [Going — Burnt Ends](https://www.going.com/guides/burnt-ends-kansas-city); [KCUR — Meet Henry Perry](https://www.kcur.org/arts-life/2021-02-13/kansas-city-barbecue-bbq-henry-perry-gates-arthur-bryants-history); [Wikipedia: Burnt ends](https://en.wikipedia.org/wiki/Burnt_ends); [Destination BBQ — Burnt Ends Explained](https://destination-bbq.com/glossary/burnt-ends/); [Food & Drink Life — Burnt ends used to get thrown away](https://fooddrinklife.com/burnt-ends-bbq-history/)
+- Composition & proportions (§4.7) — one plate/tray order:
+  - What dominates: burnt-end cubes ~65% of the tray, white bread ~20%, pickles and sauce cup ~15%.
+  - Components: cubes ~2.5 cm (1 in, HIGH per entry) — about a third of the can's width; a half-pound order gives roughly 12–18 cubes [EDITORIAL — restaurant portion weights not found in this pass's search]. White bread 1–2 slices underneath or at one end; dill pickle chips 4–6; sauce cup ~5 cm, optional.
+  - Arrangement: cubes piled loosely in a low heap, 2–3 cubes deep at the centre, some cut faces showing pink interior.
+  - Vessel fill: a paper-lined tray ~25×35 cm, food over ~60% of it.
+  - State cues: bark dark mahogany, glaze pooling lightly; fat glistening.
+  - Absent on purpose: charcoal-black cubes; shredded brisket; butcher paper with no sauce (Texas); coleslaw heaped on top; sauce drowning the cubes.
+  - Prompt-ready line: "A paper-lined tray with a loose, low heap of brisket burnt ends, each cube about a third of the can's width, dark mahogany bark with a light sticky glaze pooling underneath, a few cut faces showing pink, marbled interior; two slices of plain white bread tucked at one end and a few dill pickle chips. Unfussy, no garnish."
 
 #### Dish: Kansas City BBQ platter — full meat range (full authoritative entry — supersedes the `us.md` national-index bullet)
 - Category: Everyday to special-occasion
@@ -462,6 +603,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Side dishes: Cheesy corn (a KC-specific, cheese-sauced corn side), baked beans, coleslaw, and french fries all appear as common sides; white bread and pickles are near-universal and usually free rather than a paid side.
 - Confidence: HIGH overall
 - Sources: [Sonny's BBQ — Regional BBQ Styles](https://www.sonnysbbq.com/from-the-smoker/regional-bbq-styles); [America's Test Kitchen — KC-Style Barbecue Sauce](https://www.americastestkitchen.com/taste_tests/2551-why-we-love-kansas-city-style-barbecue-sauce); [Taste of Home — What Is Kansas City Barbecue?](https://www.tasteofhome.com/article/kansas-city-barbecue/); [Wikipedia: KC Masterpiece](https://en.wikipedia.org/wiki/KC_Masterpiece)
+- Composition & proportions (§4.7) — one two-to-three-meat plate [EDITORIAL throughout]:
+  - What dominates: meats ~55% of the tray, white bread ~15%, two sides in cups ~20%, pickles and sauce ~10%.
+  - Components: spare ribs 2–4 bones, each ~12–15 cm (a little longer than the can); brisket 3–4 slices ~12–15 cm × 0.6 cm, fanned; pulled pork or burnt ends a mound ~8–10 cm; sausage 3–5 coins ~3 cm. White bread 1–2 slices under the meat; pickle chips 4–6; sides (beans, cheesy corn, slaw, fries) in 2 cups ~8–10 cm; sauce in a small cup or bottle.
+  - Arrangement: meats grouped by type across the tray, bread peeking out beneath, side cups at the back.
+  - Vessel fill: a plain tray or oval plate ~30×40 cm, nearly full.
+  - State cues: sauce thick and glossy where brushed; brisket smoke ring pink; bark dark.
+  - Absent on purpose: butcher-paper Texas presentation with no sauce; thin vinegar sauce sheen; corn on the cob; garnish sprigs.
+  - Prompt-ready line: "A plain tray of Kansas City barbecue: two spare ribs a little longer than the can glazed with thick glossy dark-red sauce, three fanned slices of smoked brisket with a pink ring, a small mound of burnt ends, two slices of white bread peeking underneath, a few pickle chips, and two cups of baked beans and creamy cheesy corn at the back."
 
 #### Dish: St. Louis-style pizza (full authoritative entry — supersedes the `us.md` national-index bullet)
 - Category: Everyday
@@ -476,6 +625,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted with mozzarella's stringy cheese-pull when a slice is lifted or pulled apart — Provel stays put on the slice rather than stretching. Should not be cut into triangular wedges. Should not show a puffed, blistered, or charred crust edge — all three would misrepresent it as NY-style, Neapolitan, or Chicago deep-dish respectively. Also distinct from Detroit-style and Sicilian square-cut pizzas: St. Louis's crust is thin and cracker-crisp throughout, not thick, airy, and focaccia-like the way Detroit-style's pan-baked crust is; also distinct from Chicago tavern-style pizza (above), which is also thin/cracker-crisp and square-cut but uses regular mozzarella-forward cheese rather than Provel's specific melt behavior.
 - Confidence: HIGH overall
 - Sources: [Wikipedia: Imo's Pizza](https://en.wikipedia.org/wiki/Imo's_Pizza); [Wikipedia: St. Louis-style pizza](https://en.wikipedia.org/wiki/St._Louis%E2%80%93style_pizza); [Wikipedia: Provel cheese](https://en.wikipedia.org/wiki/Provel_cheese); [KCUR — St. Louis pizza is the style everyone loves to hate](https://www.kcur.org/arts-life/2022-11-30/st-louis-pizza-provel-imos-missouri); [The Kitchn — The Crispy, Golden, Cracker-Style Pizza](https://www.thekitchn.com/king-arthur-flour-st-louis-style-pizza-23076625)
+- Composition & proportions (§4.7) — whole pie and one diner's share:
+  - What dominates: Provel-covered surface ~95% of the pie, no bare rim. [EDITORIAL]
+  - Components: pie ~30–36 cm; squares ~5–10 cm per side — the entry says 2–3 in; Wikipedia gives 3–4 in [MEDIUM, via search; discrepancy flagged for review, entry text not changed] — so centre squares run roughly the can's width or a little more; ~16–20 pieces per large pie, edges as small irregular pieces. Crust ~3 mm. Toppings, when briefed, small and flat (thin pepperoni rounds ~3 cm, sausage bits ~1 cm).
+  - Arrangement: grid left assembled on the round tray; 3–4 squares lifted onto a plate.
+  - Served portion: 3–4 squares per person. [EDITORIAL]
+  - State cues: cheese smooth, glossy, lightly golden, not stretching; crust dry and flat.
+  - Absent on purpose: cheese strings; wedges; a puffed or charred rim; a deep crust.
+  - Prompt-ready line: "A round, cracker-thin pizza on a metal tray, cut into a grid of small squares about the can's width, a smooth, glossy, lightly golden melted cheese and slightly sweet red sauce running right to the edge with no crust rim; a few small edge pieces. Three squares on a plate in front, cheese sitting flat with no stretch."
 
 #### Dish: Toasted ravioli
 - Category: Everyday to special-occasion — a near-universal restaurant-appetizer item in St. Louis, distinct from a special-occasion-only dish
@@ -490,6 +647,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with mozzarella sticks (a solid cheese-only interior with a dramatic cheese-pull, no pasta wrapper) or with fried wontons/dumplings (a thinner, more translucent fried wrapper, typically a different filling and shape — Chinese-American, not Italian-American). The square-pillow shape and visible pasta-dough edge seam are the two fastest ways to rule out both.
 - Confidence: HIGH for the dish's existence, composition, and St. Louis origin; LOW/contested for the specific first-inventor claim
 - Sources: [Wikipedia: Toasted ravioli](https://en.wikipedia.org/wiki/Toasted_ravioli); [InsideHook — The Secret History of the St. Louis Treat Toasted Ravioli](https://www.insidehook.com/food/st-louis-treat-toasted-ravioli-recipe); [St. Louis Magazine — The best restaurants in St. Louis for toasted ravioli](https://www.stlmag.com/dining/the-best-restaurants-in-st-louis-for-toasted-ravioli/)
+- Composition & proportions (§4.7) — one shared appetizer plate:
+  - What dominates: ravioli ~75% of the plate, marinara ramekin ~15%, Parmesan and parsley dusting ~10%.
+  - Components: ravioli ~5 cm square (2 in, per the entry) — about three-quarters of the can's width; an appetizer order ~8–12 pieces [EDITORIAL]; a happy-hour hors d'oeuvre can be as few as 3 [MEDIUM — St. Louis Magazine, via search]. Marinara 1 ramekin ~6–7 cm. Parmesan a fine white dusting; parsley a few green flecks.
+  - Arrangement: pieces in a loose ring or cluster around the central ramekin, one broken open to show the filling.
+  - Vessel fill: a ~25 cm plate or a paper-lined basket, food over ~70%.
+  - State cues: breading dry, matte, golden-brown; a faint oil sheen at the crimped edges.
+  - Absent on purpose: mozzarella sticks; wontons; sauce poured over; boiled ravioli; heavy herb garnish.
+  - Prompt-ready line: "A plate of about ten square breaded ravioli, each about three-quarters of the can's width, fried to a dry, matte golden-brown and dusted with fine grated Parmesan and a few parsley flecks, arranged around a small ramekin of red marinara; one broken open to show a moist meat filling. Shared, unfussy, no sauce on top."
 
 #### Dish: Gooey butter cake
 - Category: Special-occasion to everyday dessert — a genuine St. Louis civic-identity dessert, served at both everyday bakeries/coffee shops and special occasions
@@ -504,6 +669,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with a standard coffee cake or crumb cake (a dry, crumbly streusel topping, not a glossy, soft, custard-like layer) or with cheesecake (fully sets to a firm, sliceable texture — gooey butter cake's middle layer should never look firm or hold a clean vertical cut edge).
 - Confidence: MEDIUM-HIGH for composition/texture; LOW/contested for the exact origin mechanics and inventor identity
 - Sources: [The Daily Meal](https://www.thedailymeal.com/1331544/confetti-gooey-butter-cake/); [Fodor's](https://www.fodors.com/world/north-america/usa/missouri/st-louis/experiences/news/theres-a-mystery-in-st-louis-who-invented-the-gooey-butter-cake); [Wikipedia: Gooey butter cake](https://en.wikipedia.org/wiki/Gooey_butter_cake)
+- Composition & proportions (§4.7) — one square on a plate, or the pan [EDITORIAL throughout]:
+  - What dominates: at the cut face the gooey layer ~55% of the height, the base ~35%, sugar dusting ~10%. From above it is almost all white powdered sugar over pale gold.
+  - Components: square ~5–7.5 cm (2–3 in, per the entry), ~3–4 cm tall (about a quarter to a third of the can's height); base ~1–1.5 cm; gooey layer ~1.5–2 cm; sugar a light uneven dusting. Full pan 9×13 in, ~15–24 squares.
+  - Arrangement: one square on a small plate, cut face toward camera, edges slumped.
+  - State cues: gooey layer glossy and soft, slightly spread onto the plate; top crackled pale gold under the sugar.
+  - Absent on purpose: frosting; whipped cream or ice cream; fruit; crumb topping; clean cheesecake-like edges.
+  - Prompt-ready line: "One small square of gooey butter cake on a white dessert plate, about a quarter of the can's height: a thin dense pale-golden base under a thick, glossy, soft pale-yellow custard layer that slumps slightly at the cut edge, the crackled top lightly and unevenly dusted with white powdered sugar. Nothing else on the plate."
 
 #### Dish: St. Louis pork steak
 - Category: Everyday — a backyard-grilling staple, comparable in everyday-ness to a hamburger or hot dog cookout, not a special-occasion dish
@@ -517,6 +689,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a boneless pork chop or a bone-in rib chop (different bone shape/position, and typically grilled quickly to a firm doneness rather than braised to fall-apart tenderness). Should not be sauced with a thick, sweet, KC-style barbecue sauce — the St. Louis sauce is thinner, more vinegar-forward, and beer-extended, giving a visibly less thick, less glossy-opaque coating than KC sauce.
 - Confidence: MEDIUM-HIGH for the dish's existence, cut, and sauce pairing; MEDIUM for the specific German-American lineage framing
 - Sources: [Palatable Pastime — St. Louis Barbecued Pork Steaks](https://palatablepastime.com/2019/05/20/st-louis-barbecued-pork-steaks/); [BarbecueBible.com — St. Louis Pork Steaks](https://barbecuebible.com/recipe/st-louis-pork-steaks/); [Wikipedia: Maull's barbecue sauce](https://en.wikipedia.org/wiki/Maull%27s_barbecue_sauce); [Chowhound — The St. Louis-Style Barbecue Sauce That's An American Treasure](https://www.chowhound.com/1728702/st-louis-barbecue-sauce-oldest-america/)
+- Composition & proportions (§4.7) — one backyard plate [EDITORIAL throughout]:
+  - What dominates: the pork steak ~50–55% of the plate, sides ~45%.
+  - Components: steak 1 per person, ~15–20 cm across (wider than the can is tall), ~1.5–2.5 cm thick; round bone ~2–3 cm near the centre. Sauce a thin glossy coating plus a small pool. Sides: baked beans a scoop ~8 cm, coleslaw a scoop, half an ear of corn or potato salad.
+  - Arrangement: steak at the front half of a paper or melamine plate, sides behind.
+  - State cues: grill-mark stripes still visible under a thin, reddish-brown, vinegary glaze; meat fork-tender, starting to pull apart at one edge.
+  - Absent on purpose: a thick, sweet KC-style lacquer; a boneless chop; a rib-edge chop bone; garnish.
+  - Prompt-ready line: "A backyard plate with one large pork shoulder steak, wider than the can is tall, a small round bone near its centre, grill stripes showing under a thin glossy reddish-brown tangy sauce that pools slightly, meat pulling apart at one edge; behind it a scoop of baked beans and a scoop of creamy coleslaw."
 
 #### Dish: St. Paul sandwich
 - Category: Everyday, lunch/takeout — a genuine local curiosity worth including for its unusual, well-sourced invention story and its Chinese-American cuisine lineage (a rarer combination in this KB)
@@ -530,6 +709,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be depicted as a plain omelet sandwich or a Denver sandwich (a similar but distinct Chinese-American-invented Western sandwich, not documented as originating in or being specific to Missouri) — the visible bean sprouts/vegetable texture within the patty is the key differentiator from a plain fried-egg patty.
 - Confidence: MEDIUM overall — the dish's existence, composition, and St. Louis-only status are well-corroborated across multiple sources; the exact inventor/naming story is not fully resolved
 - Sources: [KCUR](https://www.kcur.org/arts-life/2021-08-24/st-paul-sandwich-missouri-chinese-food); [Wikipedia: St. Paul sandwich](https://en.wikipedia.org/wiki/St._Paul_sandwich); [The Woks of Life](https://thewoksoflife.com/st-paul-sandwich/); [Foodigenous — The St Paul](https://www.foodigenous.com/post/the-st-paul-an-egg-foo-young-sandwich-with-the-geographically-ambiguous-name)
+- Composition & proportions (§4.7) — one sandwich, cut [EDITORIAL throughout]:
+  - What dominates: at the cut face, white bread ~45% of the height, the egg foo young patty ~40%, lettuce/tomato/pickle ~15%.
+  - Components: white bread 2 slices ~11–12 cm square; patty 1, ~10–12 cm oval, ~1.5–2 cm thick, bean sprouts and vegetable bits visible; lettuce 1 leaf, tomato 1–2 slices, dill pickle 3–4 slices; mayonnaise a thin white layer. Whole sandwich ~5–6 cm tall, under half the can's height.
+  - Arrangement: cut on the diagonal, one half propped on the other, cut faces showing the patty's sprout-studded interior.
+  - Vessel: on opened white wax paper or a plain plate.
+  - State cues: patty golden-brown on both faces, slightly oily; bread soft and untoasted.
+  - Absent on purpose: brown gravy; soy-sauce drizzle; chopsticks; a fried-egg or plain omelette look.
+  - Prompt-ready line: "A plain white-bread sandwich cut on the diagonal on white wax paper, under half the can's height: between the soft slices, a thick golden-brown egg patty studded with bean sprouts and small vegetable pieces, a leaf of lettuce, a tomato slice, a few dill pickle slices and a thin layer of mayonnaise. No gravy, no sauce."
 
 ### Ohio Valley
 
@@ -548,6 +735,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion — **a three-way comparison, not just two**: (1) **Texas chili** (`us-texas.md`, per `us.md`'s existing pointer) — a thick, chunky, standalone beanless beef stew eaten from a bowl with a spoon, no pasta, no cheese mound; (2) **generic/Midwestern chili con carne** (the thicker, chunkier, tomato-forward, bean-and-coarse-ground-beef stew most Americans picture by default when they hear "chili," typically eaten as a standalone bowl) — flagged here as a real, equally important confusable alternative even though it does not yet have its own sourced KB entry — Cincinnati chili's thin, spiced, pasta-topping form is the checkable differentiator against both. [CONFIDENCE: HIGH for the Texas-chili distinction; MEDIUM for the generic-chili-con-carne distinction, since that comparison point isn't itself a sourced KB entry yet]
 - Confidence: HIGH overall
 - Sources: [Wikipedia: Cincinnati chili](https://en.wikipedia.org/wiki/Cincinnati_chili); [Wikipedia: Kiradjieff brothers](https://en.wikipedia.org/wiki/Kiradjieff_brothers); [NKyTribune — Our Rich History: Cincinnati chili](https://nkytribune.com/2024/04/our-rich-history-cincinnati-chili-a-greek-immigrant-tradition-a-fun-food-that-really-caught-on/); [Tasting Table — Cincinnati vs Texas Chili](https://www.tastingtable.com/1648892/cincinnati-vs-texas-chili-difference/); [SoupAddict — Cincinnati Chili: How to Order It](https://soupaddict.com/cincinnati-chili/); [Culinary Hill — Cincinnati Chili](https://www.culinaryhill.com/cincinnati-chili/); [Local12 — 'Chili capital of the world'](https://local12.com/amazing-america/chili-capital-of-the-world-a-look-at-the-history-of-this-cincinnati-favorite-greek-parlor-coneys-ways-spices-history-skyline-gold-star-immigrants)
+- Composition & proportions (§4.7) — one three-way:
+  - What dominates: **from above, the shredded cheddar covers ~85–90% of the plate's food**; chili shows only as a reddish-brown ring at the edge (~10%); spaghetti barely visible. In side view, cheese ~50% of the height, chili and spaghetti ~50%. [EDITORIAL]
+  - Components: oval plate ~25×18 cm, shallow. Spaghetti a flat bed ~1–2 cm deep; foodservice recipes portion ~1 cup pasta and 4–6 oz of chili [MEDIUM — Foodservice Director / Hormel foodservice, via search]. Cheese: those recipes use 0.5–1 oz, but parlor three-ways are a taller "mound" (per the entry) — stage ~3–5 cm high, fine strands. Four-/five-way: onion ~0.5 cm dice or whole kidney beans as a layer under the cheese, peeking at the edges.
+  - Arrangement: cheese heaped over the whole oval, sloping to the rim; oyster crackers in a small bowl or packet alongside; hot-sauce bottle label unreadable.
+  - Vessel fill: food covers the whole plate floor, ~5–7 cm high at the centre (about half the can's height).
+  - State cues: cheese dry and fluffy on top, slightly softened at the base; chili glossy where it shows.
+  - Absent on purpose: a bowl of chunky chili; melted cheese sheet; sour cream; green onion; beans mixed through.
+  - Prompt-ready line: "A shallow oval plate almost entirely covered by a fluffy, bright-orange mound of finely shredded cheddar, about half the can's height at the centre, a thin glossy reddish-brown meat sauce showing only in a ring at the edges over spaghetti. A small bowl of oyster crackers beside it, fork on the side. No chunks, no sour cream."
 
 #### Dish: Cincinnati cheese coney (serving-format sibling of the "ways," per `country-file-schema.md` §4.4)
 - Category: Everyday
@@ -559,6 +754,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: A generic American chili dog (a thick, chunky, bean-inclusive chili spooned over a hot dog) is the most likely confusable alternative — the thin, spiced, Cincinnati-style sauce and the cheese-mound-not-melted-sheen finish are the checkable differentiators.
 - Confidence: HIGH for composition; MEDIUM for some individual visual-finish claims (steamed-bun convention specifically)
 - Sources: [How To Feed A Loon — Cincinnati Cheese Coneys](https://howtofeedaloon.com/cincinnati-cheese-coneys/); [AmazingRibs — The Cincinnati Cheese Coney](https://amazingribs.com/tested-recipes/hot-dog-recipes/cincinnati-cheese-coney-recipe/); [Wikipedia: Cincinnati chili](https://en.wikipedia.org/wiki/Cincinnati_chili)
+- Composition & proportions (§4.7) — one plate of two or three coneys [EDITORIAL throughout]:
+  - What dominates: from above, shredded cheddar covers ~80% of each coney; bun edges and frank ends the rest.
+  - Components: coneys small — each ~12–13 cm long (about the can's height), ~5 cm wide; 2–3 per plate. Cheese a mound ~2–3 cm tall along the length; chili a thin coat under it; onion a light scatter; mustard under the chili.
+  - Arrangement: side by side on an oval plate, cheese mounds spilling slightly onto the plate.
+  - State cues: bun soft and steam-compressed; cheese fluffy, not melted into a sheet.
+  - Absent on purpose: ketchup; relish; thick chunky chili; beans; a toasted bun.
+  - Prompt-ready line: "Two small coney hot dogs side by side on an oval plate, each about the can's height: soft steamed buns, a thin reddish-brown meat sauce and a tall fluffy mound of finely shredded orange cheddar covering each from end to end, a few flecks of diced onion, stray strands of cheese on the plate."
 
 #### Dish: Goetta
 - Category: Everyday — **traditionally a breakfast dish; flagged the same way `us-mid-atlantic.md` flags scrapple against `us.md`'s breakfast-exclusion scope.** Goetta clears the bar for inclusion here because it has a genuine, documented secondary presence as a lunch/snack/bar-food item — a "Goetta Reuben" (goetta substituted or combined with corned beef on a classic Reuben), a "Westsider" sandwich (goetta, egg, bacon, pepper jack, hot sauce on white bread), and goetta as a topping on burgers, pizza, and bar-appetizer "goetta bites" are all documented, current menu items in the Cincinnati area. Stage it as a snack/lunch/bar-food item per this file's scope, not a breakfast plate. [CONFIDENCE: MEDIUM for the lunch/snack-format claim specifically — sourced to regional food journalism and restaurant menus, not a quantified frequency study]
@@ -571,6 +773,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: **Scrapple (`us-mid-atlantic.md`) is the single most important confusable alternative** — both are chilled, sliced, pan-fried German-immigrant pork-and-grain loaves with a hard crisp crust over a soft interior, and depicting one as a stand-in for the other would be a real, visible-on-close-inspection error once the grain type is considered. Also should not be confused with a generic breakfast sausage patty (goetta's grain content and mash-like structure are visibly non-uniform, unlike a smooth ground-meat patty).
 - Confidence: HIGH for composition, origin, and the crisp-exterior/soft-interior structure; MEDIUM for the lunch/snack-format claim and for the exact visual comparison against scrapple
 - Sources: [Wikipedia: Goetta](https://en.wikipedia.org/wiki/Goetta); [NKyTribune — Gotta get goetta](https://nkytribune.com/2015/05/our-rich-history-gotta-get-goetta-whats-that-a-mystery-food-few-outside-our-region-ever-heard-of/); [Ohio Magazine — Goetta, the Unusual Breakfast Dish](https://www.ohiomagazine.com/food-drink/article/guide-to-goetta); [Cincinnati CityBeat — 25 Great Goetta Dishes](https://www.citybeat.com/cincinnati/25-great-goetta-dishes-from-cincinnati-restaurants/Slideshow/12272231); [Queen City Sausage — Queen City Goetta Reuben](https://www.queencitysausage.com/recipes-gallery/queen-sity-goetta-reuben)
+- Composition & proportions (§4.7) — a lunch/snack plate of slices, or a goetta sandwich [EDITORIAL throughout]:
+  - What dominates: on a plate, the slices ~70% of the food area, ketchup cup and any bread the rest. In a sandwich, goetta ~40% of the height.
+  - Components: slices 2–3, ~9×6 cm rectangles or half-moons, ~1–1.5 cm thick (about the can's width across); crust near-black at the edges. Ketchup 1 small cup. Sandwich form: goetta slice(s) on rye or white bread with cheese or egg, per the entry's menu examples.
+  - Arrangement: slices overlapping slightly, one broken open to show the oat-studded interior.
+  - State cues: crust hard, matte, crackly; interior soft, grey-brown, flecked with oats.
+  - Absent on purpose: a breakfast spread (eggs, toast, coffee) — this file stages it as lunch/snack; smooth sausage patties; syrup.
+  - Prompt-ready line: "Two thick rectangular slices of pan-fried goetta on a small plate, each about the can's width, overlapping: a hard, matte, deeply browned crust almost black at the edges, one slice broken open to show a soft, grainy grey-brown interior studded with small round oat pieces. A small cup of ketchup beside them."
 
 #### Dish: Buckeye candy
 - Category: Everyday snack, strongly seasonal/gift-giving-coded (especially around the winter holidays and Ohio State football season) but genuinely eaten year-round as a casual snack.
@@ -583,6 +792,13 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: A Reese's-style peanut butter cup (fully chocolate-covered, no exposed peanut-butter circle, a softer, less dense peanut-butter filling) is the most likely confusable alternative — the deliberately incomplete chocolate coating and the higher peanut-butter-to-chocolate ratio are the checkable differentiators.
 - Confidence: HIGH for composition/visual description; MEDIUM-HIGH for the specific 1964 origin story
 - Sources: [Wikipedia: Buckeye (candy)](https://en.wikipedia.org/wiki/Buckeye_(candy)); [Tasting Table — How Buckeyes Became A Staple Dessert For Ohio Natives](https://www.tastingtable.com/1755092/origin-ohio-buckeye-candy/); [Mashed — How Buckeye Candy Became The Quintessential Treat Of Ohio](https://www.mashed.com/1626395/origin-story-buckeyes-candy-ohio/)
+- Composition & proportions (§4.7) — a small plate of buckeyes [EDITORIAL throughout]:
+  - What dominates: chocolate ~75% of each candy's visible surface, the bare peanut-butter circle ~25%.
+  - Components: balls ~2.5 cm (1 in, per the entry) — about a third of the can's width; exposed circle ~1–1.5 cm; 5–9 on a small plate or in a tin of 12–20.
+  - Arrangement: a loose single layer or small pyramid, circles facing up and to camera.
+  - State cues: chocolate smooth with a soft sheen, a small flat foot where it set; fudge matte and slightly grainy.
+  - Absent on purpose: fully coated truffles; cups in paper liners; sprinkles or drizzle; melting.
+  - Prompt-ready line: "A small plate of seven round buckeye candies, each about a third of the can's width: smooth, softly glossy milk-chocolate shells with a clean circle of pale tan, matte peanut-butter fudge left bare on top, arranged in a loose single layer, each sitting on a small flat foot. Room temperature, no drizzle, no sprinkles, no paper cups."
 
 #### Dish: Cleveland Polish Boy
 - Category: Everyday
@@ -596,6 +812,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with a plain Chicago-style or Coney-style hot dog (above) — the fries-and-coleslaw-as-sandwich-filling construction, rather than any topping combination on a plain dog, is the defining, checkable difference; also distinct from a generic bratwurst-and-sauerkraut plate, which has no fries or coleslaw and is typically plated rather than handheld.
 - Confidence: MEDIUM-HIGH overall — consistent across multiple independent food-journalism and public-radio sources, though not corroborated by an institutional/primary source at the same tier as, e.g., the Reuben or gyro entries in `us.md`
 - Sources: [Wikipedia: Polish Boy](https://en.wikipedia.org/wiki/Polish_Boy); [Ideastream Public Media — Cleveland's sandwich? Say hello to the Polish Boy](https://www.ideastream.org/community/2024-12-27/clevelands-sandwich-say-hello-to-the-polish-boy); [Cleveland Scene — The Polish Boy: A Brief History](https://www.clevescene.com/food-drink/the-polish-boy-a-brief-history-4703188/)
+- Composition & proportions (§4.7) — one sandwich on foil [EDITORIAL unless tagged]:
+  - What dominates: in side view, fries and slaw together ~55% of the height, bun ~25%, sausage ~15% (mostly hidden), sauce ~5% but covering the fries.
+  - Components: kielbasa 1 link, ~15–20 cm, ~3 cm thick, grill-marked; bun a hot-dog bun or hoagie roll [MEDIUM — Wikipedia / Today, via search], barely closing; fries ~20–30 sticks piled on; BBQ sauce ladled over the fries; slaw a mound ~3–4 cm tall on top. Whole sandwich ~10–12 cm tall, close to the can's height.
+  - Arrangement: sausage in the bun, fries across it, sauce over them, slaw crowning; fries and slaw spilling onto the foil.
+  - Vessel: opened foil or a foam clamshell ~25 cm; a fork is plausible.
+  - State cues: sauce glossy and dripping; slaw wet and pale; sausage casing taut and charred.
+  - Absent on purpose: sauerkraut; mustard-only dressing; sides served separately; a neat closed bun.
+  - Prompt-ready line: "An overstuffed sandwich on opened foil, nearly as tall as the can: a soft bun barely holding a grill-marked kielbasa, buried under a pile of golden fries drenched in glossy dark-red barbecue sauce and crowned with a tall mound of pale, wet, creamy coleslaw, fries and slaw spilling onto the foil. No sauerkraut, nothing on the side."
 
 #### Dish: Indiana breaded pork tenderloin sandwich
 - Category: Everyday
@@ -611,6 +835,14 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with a standard breaded/fried chicken sandwich (`us.md`'s national Fried Chicken Sandwich entry) — the pounded, wide, thin, dramatically bun-overhanging silhouette of the tenderloin is the primary checkable differentiator against a fried chicken sandwich's thicker, bun-sized-or-smaller cutlet; also distinct from a German schnitzel plate (a knife-and-fork dish with no bun at all) despite the shared culinary ancestry.
 - Confidence: HIGH for the overhang/size signature and current cultural prominence; MEDIUM-HIGH for the specific 1908 origin claim
 - Sources: [Wikipedia: Pork tenderloin sandwich](https://en.wikipedia.org/wiki/Pork_tenderloin_sandwich); [Visit Indiana — This diner is where the breaded pork tenderloin originated](https://visitindiana.in.gov/blog/post/this-diner-is-where-the-breaded-pork-tenderloin-originated/); [InsideHook — An Indiana Pork Tenderloin Sandwich Recipe to Make at Home](https://www.insidehook.com/food/make-indianas-beloved-pork-tenderloin-sandwich); [Festival Country Indiana — The Top Hoosier Tenderloins](https://www.festivalcountryindiana.com/the-top-hoosier-tenderloins-and-the-full-story); [Uncultured Palate — This Food in History #21 Pork Tenderloin Sandwich](https://www.unculturedpalate.com/this-food-in-history/pork-tenderloin-sandwich)
+- Composition & proportions (§4.7) — one sandwich [HIGH for overhang, per entry; rest EDITORIAL]:
+  - What dominates: from above, the breaded cutlet ~70% of the visible area, the bun crown ~25% at the centre, toppings ~5% peeking out.
+  - Components: cutlet ~20–30 cm across (6–10+ in per entry) — two to two and a half times the can's height, ~0.3–0.6 cm thick, irregular; bun ~10 cm (standard), overhang ~7–10 cm each side; pickles 3–4 chips, onion, lettuce shreds, mustard/mayo mostly under the crown.
+  - Arrangement: cutlet flat, bun centred, crown on; edges slightly curled.
+  - Vessel fill: the cutlet overhangs a ~26 cm plate or fills a paper-lined basket; onion rings, if briefed, beside.
+  - State cues: breading craggy, golden, dry-crisp; slight oil sheen.
+  - Absent on purpose: a jumbo bun; a thick chicken-sandwich cutlet; a cutlet trimmed to the bun; knife-and-fork schnitzel plating.
+  - Prompt-ready line: "A breaded pork tenderloin sandwich on a white plate: a thin, craggy, golden fried cutlet more than twice as wide as the can is tall, flaring far past an ordinary soft round bun set in its centre, a few pickle chips and onion peeking from under the bun. The plate is almost hidden by the cutlet."
 
 #### Dish: Indiana sugar cream pie
 - Category: Everyday to special-occasion (an everyday "desperation pie" by origin, but also served at holidays/gatherings today)
@@ -624,11 +856,19 @@ This is the seventh regional file built under the 13-file US structure. It holds
 - Common confusion: Should not be confused with a generic vanilla custard pie or buttermilk pie (both real, coexisting American pie traditions with a similar pale, eggy-custard look) — sources don't offer a sharp, universally-agreed visual differentiator between sugar cream pie and buttermilk pie specifically, so this is flagged honestly as a real, unresolved look-alike pair rather than an invented distinction; the nutmeg-dusted top and the specific Indiana/Quaker origin story are the claim's real differentiators, not necessarily anything visually unique in a photograph. [CONFIDENCE: LOW-MEDIUM for the visual distinction from buttermilk pie specifically]
 - Confidence: HIGH for origin/history and composition; MEDIUM for the finished-slice visual specifics
 - Sources: [Food Republic — The Sweet History Of Indiana's Iconic Sugar Cream Pie](https://www.foodrepublic.com/1716323/sugar-cream-pie-history-indiana/); [Atlas Obscura — The Hoosier Specialty of Sugar Cream Pie](https://www.atlasobscura.com/foods/hoosier-desperation-sugar-cream-pie-indiana); [WRTV — National Pie Day: The history of Indiana's state pie](https://www.wrtv.com/lifestyle/food/national-pie-day-the-history-of-indianas-state-pie); [Wikipedia: Sugar cream pie](https://en.wikipedia.org/wiki/Sugar_cream_pie); [Indiana General Assembly — Senate Resolution 0059 (2009)](https://archive.iga.in.gov/2009/bills/SRESP/SR0059.html)
+- Composition & proportions (§4.7) — one slice, or the whole pie [EDITORIAL throughout]:
+  - What dominates: filling ~75% of the slice's visible area, crust ~25%.
+  - Components: pie 9 in (~23 cm); slice 1/8, ~11 cm long; filling ~2.5–3 cm deep (about a quarter of the can's height); crimped rim ~1.5 cm; nutmeg fine brown flecks over the top.
+  - Arrangement: slice on a small plate, tip toward camera, cut face showing smooth cream colour; whole pie behind, missing one slice.
+  - State cues: surface lightly browned in patches; filling soft-set, faint jiggle at the tip.
+  - Absent on purpose: whipped cream, meringue, ice cream, fruit, a lattice top.
+  - Prompt-ready line: "One slice of sugar cream pie on a small white plate, about a quarter of the can's height: a smooth, pale cream-coloured custard filling, lightly browned in patches and flecked with ground nutmeg, in a simple golden crust with a crimped edge. The rest of the pie behind, one slice missing. No whipped cream, no fruit."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **Real-world scale per `country-file-schema.md` §4.5 was included for most, but not literally every, dish entry in this file** — where the underlying research passes gave a concrete dimension (burnt ends' 1-inch cubes, St. Louis pizza's 2-3-inch squares, the Chicago hot dog's 6-inch frank, the tenderloin's bun-overhang comparison, etc.) it is stated explicitly; a small number of entries (Chicago mild sauce, the coney dogs, buckeye candy's size aside, goetta, the St. Paul sandwich) rely on general format/serving-vessel description rather than an explicit vessel-occupancy fraction. Flagged as a partial, not complete, application of the new rule — a future audit pass (already logged as an open item project-wide, per `DECISIONS.md`) should tighten these.
 - **The German Triangle overlap check was performed explicitly during this merge** (see FILE ROLE & METHOD above) — Cincinnati's, Milwaukee's, and St. Louis's German-heritage content was compared across all three source drafts and consolidated into one Midwest-wide TRUSTED CONTENT note rather than left duplicated three times or silently claimed as a differentiator by any single zone.
 - **Cincinnati chili's chocolate content is genuinely contested between sources**, not settled — flagged LOW-MEDIUM in the dish entry itself.

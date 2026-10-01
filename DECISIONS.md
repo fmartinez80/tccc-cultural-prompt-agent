@@ -3079,3 +3079,161 @@ Spain files — the hero-product-slot and iconic-beverages generalizations
 are not back-ported to those three files here; that remains a separate,
 future decision. Not committed or pushed, per the task's own instruction —
 left for the orchestrating session to review.
+
+## Mexico file built: fifth country, first pass without a separate scaffold, 2026-09-27
+
+**Why Mexico, why now.** Fernando asked to continue building out the
+missing regions. `market-roadmap.md` lists Mexico (#5) as the highest-
+priority "Not started" market after the US, UK, Germany and Spain, so it
+was taken next, in the roadmap's own order.
+
+**Structure: one file, seven zones — a recommendation, reviewer decides.**
+The §1.1 swap test found a national core that travels (tacos, quesadillas,
+enchiladas, tamales, tortas, pozole, the comida corrida) alongside a set of
+genuinely form-changing dishes (tortilla type by region, pozole colour,
+tamal wrappers, birria vs quesabirria) and strongly non-travelling
+environments. As with Spain, Germany and South Africa, these were handled
+as zone-coded variant entries inside one file rather than a US-style
+index-plus-regional split. **The Yucatán Peninsula is flagged as the most
+likely future spinout** (`mexico-yucatan.md`) — distinct Maya-rooted
+cuisine, formats and architecture — but not split, per §7: a human
+decision. Rejected alternative: a Mexico index plus 3–4 regional files
+from the start, which would have front-loaded structure before any brief
+has shown the one-file version is insufficient.
+
+**Hero product: follows `south-africa.md`'s HERO PRODUCT SLOT, not the
+UK/Germany/Spain red-can default.** South Africa's slot was the user's own
+deliberate design and is the most recent country pattern; Mexico has an
+unusually varied, register-coded pack landscape (355 mL returnable glass,
+600 mL PET, 2.5 L returnable, 355 mL and 235 mL cans) where a fixed red-can
+default would often be the wrong register. Same with ICONIC BEVERAGES:
+alcohol context documented (tequila-and-Coca-Cola cocktails, the batanga),
+never staged. This does not back-port anything to the UK/Germany/Spain
+files; that remains its own pending decision.
+
+**Genuine new finding for the brand file (not edited there):** Mexico is a
+355 mL-can market. `coca-cola-guidelines.md` §4.3 currently says to default
+any non-US market to the 330 mL can; for Mexico that would be wrong. Left
+as a Gap Log item for the brand file's planned overhaul and the expected
+TCCC spec drop, keeping this build's brand-file footprint at zero, as the
+Spain and South Africa builds did.
+
+**Sensitivity calls (editorial, flagged for review):** never stage or
+reference San Juan Chamula's ritual Coca-Cola use; never place the hero
+product on a Día de Muertos ofrenda (even though soft drinks genuinely
+appear on some); grade scenes neutrally to avoid the documented Hollywood
+"yellow filter" stereotype; stage unbranded plastic furniture even though
+Coca-Cola-branded red furniture is real and widespread (legible-logo rule).
+
+**Method difference, disclosed in the file:** earlier non-US files were
+verification passes over a separate tool-less scaffold. Mexico was drafted
+and verified in the same session (~35 WebSearch queries), with unverified
+model-knowledge claims tagged "not independently re-checked this pass".
+Wikipedia pages were blocked for direct reading by the egress proxy, so
+Wikipedia-derived claims rest on search snippets and say so.
+
+**Files touched**: `knowledge-base/02-culture/regions/latam/mexico.md`
+(new), `knowledge-base/00-methods/market-roadmap.md` (Mexico row).
+Not touched: `coca-cola-guidelines.md`, `country-file-schema.md`, other
+country files.
+
+## Standing rule: the brief dictates the hero SKU, never the region, 2026-09-27
+
+**Decided by Fernando** (reviewer), answering the Mexico PR's question:
+"brief dictates SKU. We should adjust UK and Spain as Brief should always
+dictate SKU and never by region." Also confirmed: the Yucatán stays a zone
+inside `mexico.md` (no `mexico-yucatan.md` spinout).
+
+**What changed:**
+- `country-file-schema.md` §5.4 (new): the rule, stated once for every
+  future file.
+- `europe/uk.md`: the meal-deal entry no longer prescribes the classic red
+  can; the brief names the SKU.
+- `europe/spain.md`: file-wide rule 2 ("The can.") replaced by the
+  brief-dictates-SKU rule; example prompts now show a `{HERO PRODUCT from
+  the brief}` placeholder with an illustrative fill.
+- `europe/germany.md`: the "Classic red Coca-Cola Original only" brand
+  anchor replaced; Zero Sugar, Light and Mezzo Mix (previously excluded as
+  a scope decision) are in scope when a brief names them; the pairing
+  matrix is relabelled as reference for the brief-writer, not a default.
+- `africa/south-africa.md` and `latam/mexico.md`: "match format to
+  register unless the brief overrides" reworded so the register list is
+  reference only, and a brief with no product triggers a question rather
+  than an inferred default.
+
+**Not changed:** `uk-scotland.md` (only a can scale note, no SKU default);
+US regional files (their can mentions are scale anchors, not SKU
+defaults); `coca-cola-guidelines.md` (its §4.4 register logic is generic,
+not regional, and the file has a separate overhaul pending — flagged
+there for that pass). Scale-anchor figures (330 mL can etc.) are untouched:
+they apply whenever the brief picks that format.
+
+## Standing rule: Composition & proportions block on every dish entry, 2026-09-27
+
+**Trigger**: Fernando reported that testing Spain showed too little detail
+when briefing a paella, and asked that KB files carry extremely detailed,
+nuanced information on each meal's textures and ingredients. The earlier
+paella test (branch `claude/upbeat-curie-2k9ion`, commit b643fcb) had
+already shown the concrete failure: with ingredients listed at equal
+weight, the plated portion rendered as large chicken pieces and giant
+beans.
+
+**Decision**: `country-file-schema.md` §4.7 (new) makes a Composition &
+proportions block mandatory on every dish entry: what dominates (rough
+surface/volume shares), a component table (real size, count per vessel and
+per portion, look, placement), arrangement, vessel fill, served portion vs
+whole dish, state cues, things absent on purpose, and a prompt-ready line
+ordered by prominence. Spain's paella entry is the worked example.
+
+**Back-fill progress**: Spain (all entries, compact sections as one-line
+notes) and Mexico (all catalog entries) done the same day, following the
+recommended order while Fernando's rollout pick was pending. Remaining:
+Germany, South Africa, UK/Scotland, Uruguay and the US files.
+**Update 2026-10-01:** all remaining files back-filled (Fernando chose "all
+files in parallel"). Method: one research agent per disjoint file group,
+writing directly into its own files (additions only), instead of schema §9's
+"subagents write scratch files" — safe because no two agents shared a file,
+and each diff was checked as additions-only before commit. Where an agent
+found an older figure contradicted by a source, it used the sourced figure in
+the new block and logged the conflict rather than editing the old line.
+
+## Remaining roadmap markets built as first passes, 2026-09-27 to 2026-10-01
+
+**Trigger**: Fernando: "Continue to create new countries from our list until
+complete."
+
+**Decision**: Argentina, Brazil, Turkey, Nigeria, China, India, Japan,
+Thailand, Philippines, Pakistan, Bangladesh and Indonesia built as
+single national files with internal zones, one research agent per country
+following `mexico.md`'s structure, §4.7 blocks on every dish and §5.4 (brief
+names the SKU). New region directory `asia/`. Each file's gap log lists the
+calls that need Fernando or a local TCCC team (spinouts, iftar/religious
+staging rules, alcohol RTDs sold by TCCC in some markets).
+
+**Cross-cutting finding**: guidelines §4.3's "non-US market ⇒ 330 mL can"
+holds for few of these markets. Found: Argentina 354, Brazil 350, Mexico 355,
+Japan 350, Thailand 325, Philippines 320, India 300, Pakistan 250,
+Bangladesh 250 mL; Nigeria and China sell sleek 330 mL cans alongside or
+instead of the standard shape. Recommended: replace the single default with a
+per-market can table in `coca-cola-guidelines.md` (not edited; awaiting the
+TCCC spec drop and Fernando's OK).
+
+## Fernando's rulings on open KB questions, 2026-10-01
+
+1. **Can sizes**: market-specific can information is coming from TCCC; no
+   edit to `coca-cola-guidelines.md` §4.3 until it arrives. The per-market
+   findings stay logged in each file's gap log.
+2. **TCCC-brand mixes**: "Include as Fanta is part of Coca-Cola portfolio.
+   Other TCCC brands are acceptable." New schema §5.5: non-alcoholic drinks
+   mixed from a TCCC brand (Indonesia's soda gembira, Fanta buka-puasa
+   mixes) and other TCCC brands named by the brief may be staged. Still
+   never: alcohol, a TCCC product mixed with alcohol, or a non-TCCC drink
+   beside the hero. The "never a TCCC product as a mixer" line in every
+   region file now reads "as a mixer with alcohol" with a §5.5 pointer;
+   Germany's rule 4 and Nigeria's Chapman note reworded to match (Chapman
+   stays unstaged because Angostura contains alcohol).
+3. **Mate**: "not a dish but a shared beverage/ritual." New schema §5.6.
+   `uruguay.md`'s entry retitled "Beverage ritual: Mate (not a dish)" (kept
+   in place so cross-references resolve) and its two scenario lines no
+   longer put mate in the default frame; `argentina.md`'s gap-log item
+   marked resolved.

@@ -264,6 +264,33 @@ everyday Glasgow or Edinburgh meal scene if used by default.
 - Sources: aggregated Scotch pie recipe/construction sourcing (Great
   British Recipes, Live Breathe Scotland, Scottish Scran); [Wikipedia:
   Scotch pie](https://en.wikipedia.org/wiki/Scotch_pie); [Wikipedia: Hot water crust pastry](https://en.wikipedia.org/wiki/Hot_water_crust_pastry)
+- Composition & proportions (§4.7) — one pie, plain or with a filled well.
+  Tin size, recess depth and vent restate this entry's MEDIUM-HIGH/HIGH
+  figures; counts and shares [EDITORIAL].
+  - What dominates: **the pastry case** — plain, the whole visible object is
+    pale-golden hot-water crust, the recessed lid ~5–6 cm across inside a
+    raised rim ~1 cm wide; filled, the topping covers the lid well only
+    (~40% of the top view), never spilling over the rim. [EDITORIAL]
+  - Components: pie ~8 cm across, ~4 cm tall — a little wider than the can,
+    about a third of its height; lid ~1 cm below the rim; central vent ~7–8
+    mm (this entry). Filling if cut: fine grey-brown minced meat, no chunks,
+    ~80% of the cut face. Topping: 2–3 spoonfuls of beans, mash or gravy in
+    the well. [MEDIUM-HIGH for case size — this entry; rest EDITORIAL]
+  - Count: one per person; at a counter, 2–4 in a row. [EDITORIAL]
+  - Arrangement: sitting upright on its flat base on a small plate or a
+    paper napkin; with sides, on a plate with the beans or mash in the well,
+    sometimes more beside it. [EDITORIAL]
+  - State cues: dry, matte-to-lightly-glossy crust, a faint grease spot on
+    paper; filling steams if cut. [EDITORIAL]
+  - Absent on purpose: a domed or flaky lid, crimped edges, a lattice,
+    egg-wash high gloss, a D-shaped pasty, legible football or bakery
+    branding.
+  - Prompt-ready line: "One small round straight-sided pie a little wider
+    than the can and about a third of its height, pale-golden firm biscuity
+    pastry with no flaky layers, its flat lid sunk about a centimetre below
+    a raised pastry rim, with one small steam hole in the centre, on a plain
+    paper napkin. Beside it, a second pie with baked beans spooned into the
+    recessed well. No domed lid, no crimp."
 
 #### Dish: Haggis, neeps, and tatties
 
@@ -320,6 +347,36 @@ everyday Glasgow or Edinburgh meal scene if used by default.
   single citation per claim, since this dish's composition is
   consistently and uncontroversially described across every source
   checked).
+- Composition & proportions (§4.7) — the everyday plate (three mounds).
+  Portion extent restates this entry's MEDIUM figure; mound sizes and shares
+  [EDITORIAL].
+  - What dominates: **three roughly equal mounds** — haggis ~35%, neeps
+    ~30%, tatties ~35% of the food; together they cover a third to half of
+    the 26–28 cm plate (this entry). Whisky-cream sauce, when used, is a
+    small pool or spoonful, not a coating. [EDITORIAL]
+  - Components: each mound ~8–10 cm across (a little wider than the can) and
+    ~4–5 cm high; haggis crumbly, dark brown-grey, finely even; neeps
+    orange, wet; tatties cream-white, drier. Ring-mould register: one ~8–9
+    cm stack of three layers ~6–8 cm tall (just over half the can's height).
+    [EDITORIAL]
+  - Arrangement: side by side in a row or a triangle, touching but not
+    blended; or haggis centred with the two mashes flanking. [EDITORIAL]
+  - Vessel fill: plenty of white plate showing — the portion is compact, not
+    full to the rim. [EDITORIAL]
+  - Served portion vs. whole dish: the ceremonial whole haggis (a round
+    casing roughly 15–20 cm, cut open on a platter) is a separate Burns
+    Night scene; each diner then gets the same three-mound plate.
+    [EDITORIAL]
+  - State cues: steam; neeps glistening with butter; haggis matte and
+    crumbly. [EDITORIAL]
+  - Absent on purpose: gravy over everything, sausage slices (black pudding
+    is a separate dish), herb garnish, tartan props, a whisky glass.
+  - Prompt-ready line: "On a white dinner plate, three separate soft mounds
+    side by side, each a little wider than the can: dark brown-grey crumbly
+    finely minced haggis, bright orange wet-looking mashed swede, and pale
+    cream-white mashed potato. The mounds touch but don't blend, with plenty
+    of plate showing around them. Light steam. No gravy, no garnish, no
+    tartan."
 
 #### Dish: Cullen skink
 
@@ -359,11 +416,38 @@ everyday Glasgow or Edinburgh meal scene if used by default.
 - Confidence: HIGH for origin and composition; MEDIUM-HIGH for visual
   detail.
 - Sources: [Wikipedia: Cullen skink](https://en.wikipedia.org/wiki/Cullen_skink)
+- Composition & proportions (§4.7) — one bowl, main portion. Fill level
+  restates this entry's vessel-fallback figure; piece sizes and shares
+  [EDITORIAL].
+  - What dominates: **the creamy broth** — ~60–70% of the visible surface;
+    pale-gold smoked haddock flakes ~15–20%; potato chunks ~10–15%; chives
+    or parsley a light scatter only. [EDITORIAL]
+  - Components: haddock flakes ~2–4 cm, 5–8 visible; potato chunks ~1.5–2 cm
+    (about a quarter of the can's width), 6–10 visible, half-submerged;
+    onion soft and barely seen; a slice of crusty bread beside the bowl.
+    [EDITORIAL]
+  - Vessel fill: filled to within ~1–2 cm of the rim (this entry); starter
+    bowl 15–18 cm, main bowl ~20–22 cm. [EDITORIAL]
+  - State cues: opaque, velvety, faint steam; a few butter-yellow flecks at
+    the surface. [EDITORIAL]
+  - Absent on purpose: clams, prawns, sweetcorn, bacon bits, a bread bowl, a
+    heavy cream swirl, a thin clear broth.
+  - Prompt-ready line: "A deep white bowl filled nearly to the rim with
+    thick, opaque, off-white creamy soup, faintly steaming; pale golden-tan
+    flakes of smoked fish and soft potato chunks each about a quarter of the
+    can's width sit half-sunk in it, with a light scatter of chopped chives
+    on top. A slice of crusty bread beside the bowl. No clams, no corn, no
+    bacon."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27,
+  `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece
+  sizes are sourced where tagged; counts and shares are reasoned from recipe
+  quantities and serving norms, tagged [EDITORIAL], and should be checked
+  against image tests before being treated as reliable.
 - **Rural/small-town Scottish architecture (harled render, slate roofs
   outside the tenement cities)** was carried forward from the scaffold
   without a dedicated new source this pass — flagged MEDIUM, not

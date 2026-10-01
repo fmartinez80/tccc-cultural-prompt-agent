@@ -185,6 +185,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Distinct from a fast-food/sandwich-format cutlet (`us.md`), which uses a thinner, more uniform crust; distinct from Nashville hot chicken (Tennessee zone), which adds a cayenne-oil paste after frying, giving a reddish-orange sheen this plain version never shows.
 - Confidence: HIGH for pan-fry technique and texture; MEDIUM for the layered origin narrative and family-style platter norm.
 - Sources: [Crimson Coward — The Fiery History of Southern Fried Chicken](https://www.crimsoncoward.com/blog/indulging-in-a-legacy-the-fiery-history-of-southern-fried-chicken/); [Southern Kitchen](https://www.southernkitchen.com/story/recipes/2021/07/22/southern-cast-iron-fried-chicken/8054404002/); [The Seasoned Mom — Crispy Fried Chicken Recipe](https://www.theseasonedmom.com/crispy-fried-chicken-recipe/)
+- **Composition & proportions (§4.7)** — family-style platter (one chicken) and one served plate.
+  - What dominates: **the crusted chicken is the dish.** On the platter, craggy golden-brown crust covers roughly 85–90% of what shows, platter visible only in gaps and at the rim. On a served plate, chicken is roughly 40–50% of the plate; each side takes its own smaller spot. [EDITORIAL]
+  - Components: one chicken cut into 8 pieces — 2 breasts (~12–15 cm long, about the can's height), 2 thighs (~9–11 cm), 2 drumsticks (~11–13 cm with bone), 2 wings (~9–10 cm folded); crust nubs and ridges 2–5 mm; pieces irregular, no two the same shape. [EDITORIAL — standard 8-piece cut; sizes reasoned from a ~1.5–2 kg bird]
+  - Arrangement: loosely piled one to two layers deep on a large oval platter (~35–40 cm), pieces overlapping at the edges, bone ends pointing in random directions — not fanned, not rowed. [EDITORIAL]
+  - Vessel fill/depth: platter ~75–85% covered, pile ~6–8 cm high (about half the can's height), rim showing all round.
+  - Served portion vs. whole dish: the platter is passed at the table; one plate holds **2 pieces** (e.g. a thigh and a drumstick) plus 2–3 sides in separate ~8–10 cm spots (greens, mashed potatoes with gravy, a biscuit or cornbread wedge). [EDITORIAL]
+  - State cues: dry, matte crust; no oil pooling on the platter; a faint wisp of steam if just fried.
+  - Absent on purpose: dipping sauces, honey drizzle, waffles, parsley garnish, fries, any cayenne-red sheen (that is Nashville hot), uniform tender or nugget shapes, a paper-towel lining on the serving platter.
+  - Prompt-ready line: "A large oval platter loosely piled with eight pieces of bone-in Southern pan-fried chicken — drumsticks, thighs, wings and breasts, the biggest breast about as long as the can is tall — each with a thick, craggy, matte golden-brown crust, darker on the side that sat in the skillet. Pieces overlap slightly; the platter rim shows. No sauce, no garnish, no fries. Separate bowls of dark greens and a skillet of cornbread sit nearby."
 
 #### Dish: Collard greens
 - Category: Everyday to special-occasion (Sunday dinner, holiday, and church-gathering staple as much as an everyday side)
@@ -198,6 +207,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Not a bright, crisp, lightly-sautéed or blanched leafy green (spinach, Swiss chard) — the long-cooked, dark, soft, pot-likker-bearing presentation is the checkable marker.
 - Confidence: HIGH for the finished dish's visual/textural description; MEDIUM for the origin narrative.
 - Sources: [Diva's Can Cook — Southern Collard Greens Recipe](https://divascancook.com/collard-greens-recipe/)
+- **Composition & proportions (§4.7)** — one side bowl.
+  - What dominates: dark olive greens ~80–85% of what shows; pot likker a thin pool at the edges ~10%; small pork pieces ~5–10%. [EDITORIAL]
+  - Components: torn/chopped leaf pieces ~3–6 cm, wilted into soft tangles; smoked pork shreds or ham-hock meat ~1–2 cm, 4–8 per bowl, dusky pink-brown; onion cooked down and invisible. [EDITORIAL]
+  - Arrangement: greens slumped in a loose mound, pork mixed through rather than laid on top.
+  - Vessel fill/depth: side bowl ~12–14 cm across, two-thirds full; likker ~1 cm deep, visible between the leaves at the rim.
+  - Served portion vs. whole dish: one bowl is one side portion (~1 cup); the pot stays in the kitchen or on the stove. [EDITORIAL]
+  - State cues: wet but matte leaves, light steam.
+  - Absent on purpose: a whole ham hock bone sitting on top, bright green or raw leaves, bacon strips laid across, lemon wedges, cream.
+  - Prompt-ready line: "A small bowl two-thirds full of soft, fully wilted collard greens in dark, muted olive tangles, each piece a few centimetres across, slumped in a shallow pool of thin, translucent brownish-green pot likker. A few shreds of smoked pork, each smaller than a thumbnail, are mixed through. Matte and wet, faintly steaming. No garnish, no bright green, no whole ham hock on top."
 
 #### Dish: Southern skillet cornbread
 - Category: Everyday — a near-universal bread accompaniment to a soul food or Southern meal
@@ -208,6 +226,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - **Visual/plating characteristics (texture/finish explicit)**: A **deep golden to amber-brown, distinctly darker and crisper bottom and edge crust** against a **paler, matte yellow interior crumb** — dense, fine, slightly coarse-grained (not the light, fluffy, open crumb of a sweeter cake-style cornbread), dry and slightly crumbly rather than moist and tender. No visible glaze or sweet sheen anywhere. [CONFIDENCE: MEDIUM-HIGH]
 - Common confusion: Not a sweet, cake-like, evenly pale golden muffin-style cornbread (the Northern/general-American default) — the darker, denser, less-sweet, cast-iron-crusted version is the checkable marker.
 - Confidence: HIGH for the sugar/texture North-South divide; MEDIUM for the deep-history origin narrative.
+- **Composition & proportions (§4.7)** — one skillet loaf and one wedge.
+  - What dominates: in the skillet, the golden top crust covers the whole surface; on a cut wedge, pale yellow crumb ~70% of the cut face, dark bottom/edge crust ~30%. [EDITORIAL]
+  - Components: loaf ~23–26 cm across (9–10-inch skillet) and ~3–4 cm tall (about a third of the can's height); 6–8 wedges, each ~10–12 cm on the long side; bottom crust 3–5 mm, amber to mahogany. [EDITORIAL — common skillet sizes]
+  - Arrangement: skillet on a trivet with 1–2 wedges cut and one lifted out, or a single wedge on a small plate beside greens or beans.
+  - Vessel fill/depth: fills the skillet edge to edge, top ~1–2 cm below the skillet rim.
+  - Served portion vs. whole dish: one wedge per person, eaten beside the meal; the skillet stays on the table.
+  - State cues: dry, slightly crumbly cut face; matte top; an optional single pat of butter just melting.
+  - Absent on purpose: honey glaze or sugar sheen, jalapeño or cheese flecks, whole corn kernels, muffin shapes, cake-like fluffy crumb.
+  - Prompt-ready line: "A black cast-iron skillet holding a round, flat cornbread about a third of the can's height, cut into wedges, one wedge lifted out to show a dense, fine, pale yellow crumb over a dark amber, crisp bottom crust. The top is matte golden with darker edges where it met the pan. No glaze, no honey, no corn kernels, no garnish."
 
 #### Dish: Soul food baked macaroni and cheese
 - Category: Special-occasion to everyday (a Sunday dinner and holiday staple, more elaborate than a quick everyday stovetop mac and cheese)
@@ -218,6 +245,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - **Visual/plating characteristics (texture/finish explicit)**: A **golden-brown, crisped, slightly blistered cheese crust** on top, dark-browned spots where cheese has caramelized, **visible yellow-orange cheese sauce oozing through cracks** at a cut square's edges. Interior shows a **dense, custard-set structure** — noodles held firmly in a thick, uniformly orange-yellow sauce, not loose or thinly sauced — with the dish's corners noticeably crispier and more deeply browned than the softer center. [CONFIDENCE: HIGH]
 - Common confusion: Not a smooth, uniformly creamy, no-browned-top stovetop mac and cheese, nor a thin, loose, sauce-coated pasta — the browned, crisped, custard-set baked structure is the defining marker.
 - Confidence: HIGH for composition and visual description; MEDIUM for the James Hemings origin narrative.
+- **Composition & proportions (§4.7)** — one baking dish and one served square.
+  - What dominates: top view: browned, blistered cheese crust over 100% of the dish; cut face: macaroni ~55–60%, set orange-yellow sauce ~40–45%. [EDITORIAL]
+  - Components: elbow macaroni ~2–3 cm arcs; rectangular baking dish ~23 × 33 cm, 5–6 cm deep; browned cheese spots 1–3 cm; squares ~7–8 cm across and ~5 cm tall (under half the can's height). [EDITORIAL — standard 9 × 13-inch dish]
+  - Arrangement: one corner already cut out of the dish, showing a clean, custard-set wall; corners visibly darker than the centre.
+  - Vessel fill/depth: filled to ~1 cm below the dish rim, flat top.
+  - Served portion vs. whole dish: one square or thick spoonful on the plate beside the main, holding its shape. [EDITORIAL]
+  - State cues: crisp browned corners, a little sauce oozing at the cut, a light wisp of steam.
+  - Absent on purpose: breadcrumb or panko topping, parsley, bacon bits, loose soupy sauce, shells or cavatappi pasta, a skillet-cheese-pull glamour shot.
+  - Prompt-ready line: "A rectangular baking dish of baked macaroni and cheese with a golden-brown, blistered cheese crust and darker, crisp corners; one square cut out beside it on a plate, about half the can's height, showing short elbow macaroni held firmly in a dense, custard-set orange-yellow sauce, a little sauce oozing at the cut edge. Faint steam. No breadcrumbs, no herbs, no bacon."
 
 #### Dish: Black-eyed peas (Deep South New Year's prevalence — see Carolinas & Lowcountry zone's Hoppin' John entry for the dish's full authoritative depth)
 - **This is the trimmed, cross-referencing entry per the merge decision noted in FILE ROLE & METHOD above.** Hoppin' John's own documented origin is Lowcountry, South Carolina (earliest known printed recipe: the 1847 cookbook *The Carolina Housewife*), not GA/AL/MS — see the Carolinas & Lowcountry zone below for the full dish entry, sourcing, and visual/texture detail. This zone's own finding, kept here, is narrower: black-eyed peas (with or without the full rice-and-peas Hoppin' John preparation) are a well-documented, widely eaten New Year's Day and soul food staple across the wider Deep South as well, not because this zone claims GA/AL/MS as the dish's origin point. [CONFIDENCE: HIGH for the Lowcountry origin; MEDIUM for how uniformly the full rice-and-peas preparation, versus plain black-eyed peas served separately, is eaten specifically in Georgia/Alabama/Mississippi as opposed to South Carolina — an open question, not resolved]
@@ -234,6 +270,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Visual/plating characteristics: See the zone-wide norm above — smoke-darkened golden-tan skin where sauce is thin/absent, opaque creamy-white sauce pooling in skin creases where coated, matte finish.
 - Common confusion: Must not be rendered with any red/brown/tomato-based BBQ sauce.
 - Confidence: HIGH overall.
+- **Composition & proportions (§4.7)** — one plate (half chicken).
+  - What dominates: chicken ~50–60% of the plate; white sauce ~10–15% (streaks on the skin and a small pool); sides the rest. [EDITORIAL]
+  - Components: half chicken ~20–25 cm long (about two can heights) or a leg quarter ~15 cm; sauce pools 2–5 cm, extra sauce in a small cup; coleslaw scoop ~8 cm; baked beans in a small cup; 1–2 slices white bread. [EDITORIAL]
+  - Arrangement: half chicken skin-up across the centre-left of a plate or paper-lined tray; sides grouped to the right.
+  - Vessel fill/depth: plate ~70–80% covered.
+  - Served portion vs. whole dish: a half chicken is one portion; for a group, halves or pieces are piled on a tray with a bowl of sauce for dunking. [EDITORIAL]
+  - State cues: matte smoke-tan skin with darker patches; sauce opaque off-white, flecked with black pepper, not glossy.
+  - Absent on purpose: any red or brown barbecue sauce, a fried crust, neat grill-stripe marks, green herb flecks that read as ranch.
+  - Prompt-ready line: "A half chicken, about twice the can's height in length, smoked to a matte golden-tan skin with darker smoky patches, lying on a plate, streaked and pooled with an opaque, off-white, pepper-flecked mayonnaise sauce that settles in the skin's creases. Beside it a small scoop of coleslaw, a cup of baked beans and a slice of white bread. No red sauce, no fried crust."
 
 #### Dish: Georgia peach cobbler
 - Category: Special-occasion to everyday (a defining Georgia dessert, served at gatherings and seasonal meals as much as an everyday treat)
@@ -244,6 +289,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - **Visual/plating characteristics (texture/finish explicit)**: The fruit filling shows **soft, broken-down, glistening peach slices in a thick, glossy, amber-to-orange syrupy juice**, visibly bubbling at the edges — a genuine doneness signal. The biscuit topping bakes to an **uneven, craggy, golden-brown surface** — the same craggy/nubbly finish family as this zone's fried chicken and cornbread — with a thin, **lightly crisp, slightly crackled sugar crust** over a **soft, tender, slightly moist interior crumb** just beneath. Where the topping only partially covers the fruit (correct and traditional, not a flaw), the glossy filling should be visible through the gaps. [CONFIDENCE: MEDIUM-HIGH]
 - Common confusion: Not a full, smooth, uniformly covering pastry double-crust (that reads as a peach pie), nor a smooth single cake layer with no craggy surface (a "dump cake," a real but different, less traditionally Southern variant).
 - Confidence: HIGH for the Georgia-peach identity and SFA documentation; MEDIUM-HIGH for the biscuit-topping visual/textural description.
+- **Composition & proportions (§4.7)** — baking dish and one served bowl.
+  - What dominates: in the dish, biscuit topping ~60–70% of the surface, glossy fruit and syrup ~30–40% showing through gaps; in a served bowl, fruit and syrup ~50%, biscuit ~35%, ice cream ~15%. [EDITORIAL]
+  - Components: peach slices ~6–8 cm long, 1–2 cm thick crescents, 5–8 per portion; biscuit dollops ~5–7 cm, irregular; one scoop vanilla ice cream ~5–6 cm (a bit narrower than the can); dish ~23 × 33 cm or a 25 cm skillet. [EDITORIAL]
+  - Arrangement: dollops spaced unevenly with syrup bubbling between them; in the bowl, a broken piece of biscuit leaning on soft fruit, ice cream on top or to one side.
+  - Vessel fill/depth: fruit fills the dish ~4–5 cm deep, topping rising 1–2 cm above the rim in places.
+  - Served portion vs. whole dish: spooned warm into a shallow bowl, about one cup of fruit with one or two pieces of topping. [EDITORIAL]
+  - State cues: bubbling amber syrup at the dish edges; ice cream just starting to melt into the syrup; light steam.
+  - Absent on purpose: lattice or full pastry crust, mint sprig, towering whipped cream, caramel drizzle, raw fresh peach halves on top.
+  - Prompt-ready line: "A shallow bowl of warm peach cobbler: soft, glistening peach slices in thick amber-orange syrup, topped with a broken piece of craggy golden-brown biscuit crust with a thin crackled sugar top, and one small scoop of vanilla ice cream, narrower than the can, beginning to melt into the syrup. Behind it the baking dish, syrup bubbling between uneven biscuit dollops. No lattice, no mint."
 
 #### Dish: Pimento cheese (spread) and pimento cheese sandwich (two serving formats of the same base dish, per §4.4)
 - Category: Everyday (spread/snack) to special-occasion/tradition-coded (the sandwich format, given its association with a well-known annual sporting event)
@@ -254,6 +308,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - **Visual/plating characteristics (texture/finish explicit)**: The spread is a **thick, coarse-textured, unevenly-flecked orange-pink mass** — pale yellow-orange shredded cheese studded with small, bright red-orange pimento pieces, bound in a glossy, slightly translucent mayonnaise coating giving a **soft sheen, not a dry or crumbly matte finish**. Texture reads **chunky/coarse rather than smoothly pureed** — individual cheese shreds and distinct pimento pieces should stay visually identifiable. In sandwich form, the spread sits in a distinct, even layer between two flat, pale slices of plain white bread. [CONFIDENCE: MEDIUM-HIGH]
 - Common confusion: Not a smooth, uniformly orange, processed cheese spread (a packaged cheese ball or cheese-in-a-jar product) — visibly chunky shreds and distinct pimento flecks are the checkable markers.
 - Confidence: HIGH for the origin-honesty finding and two-format distinction; MEDIUM-HIGH for the visual/textural description.
+- **Composition & proportions (§4.7)** — spread bowl, and one sandwich.
+  - What dominates: spread format: the orange-flecked spread in its bowl is ~40% of the board, crackers and celery the rest; sandwich format: bread ~65% of the cut face, spread layer ~35%. [EDITORIAL]
+  - Components: spread bowl ~10–12 cm, mounded slightly above the rim; cheese shreds ~1–2 cm long; pimento bits ~3–6 mm; 8–12 crackers (~5 cm) and 4–6 celery sticks (~10 cm) around it. Sandwich: two slices plain white bread ~11–12 cm square, spread layer ~1–1.5 cm thick, cut in half. [EDITORIAL]
+  - Arrangement: bowl at the centre of a small plate or board with crackers fanned round it; sandwich halves side by side or overlapping, one cut face forward.
+  - Vessel fill/depth: bowl full to slightly heaped.
+  - Served portion vs. whole dish: one sandwich (two halves) per person; the spread bowl is shared. [EDITORIAL]
+  - State cues: cold; soft mayonnaise sheen; bread soft, untoasted.
+  - Absent on purpose: toasting or grill marks, lettuce, tomato, crustless tea-sandwich trimming (unless the brief asks), any branded or tournament-style wrapper, smooth processed-cheese texture.
+  - Prompt-ready line: "A plain white-bread sandwich cut in half, each half shorter than the can, showing an even, finger-thick layer of coarse pimento cheese — pale orange cheddar shreds studded with small bright red pimento bits in a glossy mayonnaise bind. Beside it a small bowl of the same chunky spread with round crackers and celery sticks. Soft untoasted bread, no lettuce, no tomato, no wrapper."
 
 #### Dish: Mississippi Delta hot tamales (bonus entry — strong, well-sourced, genuinely iconic Deep South dish beyond the assigned list)
 - Category: Everyday to special-occasion (a genuine regional food-tourism destination dish, mapped by a dedicated "Hot Tamale Trail")
@@ -265,6 +328,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - **Visual/plating characteristics (texture/finish explicit)**: A **narrow, cylindrical shape**, distinctly smaller/slimmer than a typical Mexican tamale, the **cornmeal masa taking on a reddish-orange tint** from the spiced simmering liquid — a real, checkable color difference from a traditional Mexican tamale's paler, more uniform pale-yellow masa. The corn-husk wrapper shows visible staining from the same liquid when unwrapped. Texture is **dense and slightly wet/moist** rather than dry and fluffy. [CONFIDENCE: MEDIUM]
 - Common confusion: Not identical to a traditional Mexican tamale — smaller size, reddish-tinted masa, and wet/simmered (not dry-steamed) texture are the checkable differentiators; a genuine, distinct regional dish per §4.6, not a diluted import.
 - Confidence: HIGH for the dish's regional distinctness and SFA documentation; MEDIUM for the exact origin story and visual synthesis.
+- **Composition & proportions (§4.7)** — one order (half-dozen).
+  - What dominates: tamales ~70% of the tray; reddish cooking liquid ~20–30% pooled around them. [EDITORIAL]
+  - Components: each tamale **~15 cm long (6 in) — a little longer than the can is tall — and slim, ~2.5–3 cm thick** (under half the can's width), tubular [MEDIUM — Smithsonian, Chowhound (via search): ~6 in, tubular, smaller than Mexican]; corn husks stained orange-yellow; 3–6 per portion, commonly sold in bundles of 6 or 12 [EDITORIAL].
+  - Arrangement: laid side by side in a row in a shallow paper tray, bowl or on a plate; one or two with the husk peeled back to show reddish masa.
+  - Vessel fill/depth: liquid ~0.5–1 cm deep in the tray, tamales half-submerged.
+  - Served portion vs. whole dish: an order of 6 is one person's portion; bundles of 12 are taken home. [EDITORIAL]
+  - State cues: wet, glossy husks; reddish grease specks in the liquid; steam.
+  - Absent on purpose: salsa, sour cream, shredded cheese, rice and beans, banana leaves, fat plump Mexican-style tamales, dry fluffy masa.
+  - Prompt-ready line: "Six slim hot tamales in corn husks, each a little longer than the can is tall and less than half its width, lying side by side in a shallow paper tray, half-sunk in a thin reddish-orange spiced liquid. Two husks are peeled back to show dense, moist, rust-tinted cornmeal around seasoned meat. Husks stained orange and glossy; steam rising. No salsa, no cheese, no sour cream."
 
 ### Carolinas & Lowcountry
 
@@ -288,6 +360,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Most easily confused with Memphis-style barbecue (Tennessee zone) — Memphis is traditionally dry, rub-built bark, no integral sauce, versus every Carolina sub-style's sauce-soaked or sauce-dressed finish. Also confusable with Alabama's white sauce (mayonnaise base) and Kansas City's thick tomato-molasses sauce (`us.md`).
 - Confidence: HIGH overall for the four-sub-style structure and sauce-color/texture distinctions; MEDIUM for the coleslaw-dressing-style claim.
 - Sources: [Southern Kitchen — Carolina 'cue](https://www.southernkitchen.com/story/lifestyle/2021/08/10/whole-hog-guide-history-legacy-carolina-barbecue-sauces/5559222001/); [Tasting Table — North Vs South Carolina Barbecue](https://www.tastingtable.com/1672632/north-versus-south-carolina-barbecue-differences/); [Our State — Why Are There Two Styles of NC Barbecue?](https://www.ourstate.com/nc-barbecue-styles/); [BBQ Hub — An Introduction to South Carolina Barbecue](https://www.bbqhub.net/features/An-Introduction-to-South-Carolina-Barbecue)
+- **Composition & proportions (§4.7)** — one barbecue plate.
+  - What dominates: pork ~45–55% of the plate; coleslaw ~20–25%; hush puppies ~15–20%; bread/roll the rest. Sauce is absorbed or a light wash, not a pool. [EDITORIAL]
+  - Components: pork mound ~10–12 cm across, ~3–4 cm high (about a third of the can's height), ~150–200 g [EDITORIAL]; piece size by sub-style per this entry — Eastern NC fine chop ~0.6 cm, Lexington coarse chop ~2.5 cm with dark bark bits, SC pulled strands ~5–8 cm; slaw scoop ~8 cm (red/vinegar slaw in Lexington, pale or mustard-tinged elsewhere); hush puppies **finger-sized, ~6–8 cm long, ~2 cm thick**, 3–6 per plate [MEDIUM — Paupered Chef (via search): index-finger size].
+  - Arrangement: pork on one half of a divided plate or paper-lined tray; slaw and hush puppies each in their own section; a plain soft bun or roll alongside.
+  - Vessel fill/depth: plate ~80% covered, no stacking.
+  - Served portion vs. whole dish: one plate per person; family-style trays for gatherings. [EDITORIAL]
+  - State cues: pork moist with a light wet sheen; hush puppies matte golden-brown; a thin sauce bottle or cup on the table, label turned away.
+  - Absent on purpose: thick, glossy KC-style sauce, brisket slices, burnt ends, rib bones, pickle pile, Alabama white sauce.
+  - Prompt-ready line: "A paper-lined tray with a loose mound of finely chopped smoked pork, about a third of the can's height, pale pinkish-tan and moist with a thin clear vinegar sauce, flecked with a few dark bark bits. Beside it a scoop of coleslaw and four finger-sized golden-brown hush puppies, each about half the can's height; a plain soft roll at the edge. No thick sauce, no brisket."
 
 #### Dish: South Carolina barbecue hash and rice
 - Category: Everyday to special-occasion (a barbecue-restaurant side dish and a standalone community/fundraiser dish in its own right)
@@ -299,6 +380,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: The word "hash" strongly suggests the diced-and-fried corned-beef-and-potato dish common elsewhere in the US (already documented in `us-northeast.md`) — South Carolina barbecue hash is a completely different, wet, stewed, rice-paired dish with no potatoes and no pan-frying step.
 - Confidence: HIGH for the dish's existence, composition, and rice pairing; MEDIUM for the specific historical organ-meat-origin detail generalizing to modern versions.
 - Sources: [Robert F. Moss — The Story of Hash & Rice](https://robertfmoss.com/features/The-Story-of-South-Carolina-Hash-and-Rice)
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: white rice ~50% of the visible food; hash ~40%, ladled over the centre; plate the rest. [EDITORIAL]
+  - Components: rice mound ~1 cup, ~12 cm across; hash ~½–¾ cup, a thick brown gravy with meat pieces ~0.5–2 cm; nothing larger than a thumbnail. [EDITORIAL]
+  - Arrangement: hash ladled over the top of the rice mound, running down one side; rice edges stay white.
+  - Vessel fill/depth: plate ~50–60% covered; often a side spot on a barbecue plate beside pork and slaw.
+  - Served portion vs. whole dish: a side portion of rice with hash on a barbecue plate, or a full plate as a main at fundraisers. [EDITORIAL]
+  - State cues: thick, matte-to-slightly-glossy gravy; rice absorbing it at the edges; warm.
+  - Absent on purpose: potatoes, fried crispy hash, a fried egg, parsley, beans.
+  - Prompt-ready line: "A mound of plain white long-grain rice, about the can's width across, with a thick, coarse, dark reddish-brown pork hash ladled over its top and running down one side, small shreds of stewed meat visible throughout. The rice edges soak up the gravy while the far side stays white. No potatoes, no egg, no garnish."
 
 #### Dish: Shrimp and grits
 - Category: Everyday (historically) to special-occasion/destination-dining (in its modern restaurant form)
@@ -309,6 +399,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Not a generic shrimp scampi or shrimp pasta over rice or pasta instead of grits; not a stiff, sliceable grits "cake" (a different, valid, but distinct serving format).
 - Confidence: HIGH for core composition and the Bill Neal/Chapel Hill vs. Charleston-style regional-form distinction; MEDIUM for the deeper African-origin claim.
 - Sources: [The Local Palate — A Brief History of Shrimp and Grits](https://thelocalpalate.com/articles/shrimp-and-grits-history/); [Our State — Crook's Corner Shrimp & Grits](https://www.ourstate.com/crooks-corner-shrimp-and-grits-recipe/)
+- **Composition & proportions (§4.7)** — one plate or wide bowl.
+  - What dominates: grits ~50–60% of the surface; shrimp ~25–30%; sauce, pork bits and scallion ~15–20%. [EDITORIAL]
+  - Components: grits ~½–1 cup per serving [MEDIUM — recipe norms (via search)]; **6–10 shrimp per serving** [MEDIUM — Paula Deen and other recipes (via search)], each a curled C ~5–6 cm across (a bit narrower than the can); tasso/bacon bits ~1 cm; scallion rings 3–5 mm scattered sparsely; tomato bits in Lowcountry versions.
+  - Arrangement: shrimp clustered over the centre, half-nested in the grits; sauce pooling around rather than drowning the grits.
+  - Vessel fill/depth: wide shallow bowl ~22–25 cm; grits ~3 cm deep, slumping to the edges.
+  - Served portion vs. whole dish: individually plated; one plate is one portion.
+  - State cues: glossy, soft grits; seared shrimp; warm reddish-brown (Lowcountry) or pale, thin (Piedmont) sauce; light steam.
+  - Absent on purpose: pasta, rice, a stiff grit cake, piled parsley, lemon halves, melted cheese strings.
+  - Prompt-ready line: "A wide shallow bowl of glossy, soft, pale cream stone-ground grits slumping to the edges, with eight seared pink-and-gold shrimp, each a little narrower than the can, clustered and half-nested in the centre. A warm reddish-brown sauce with small bits of tomato and ham pools around them; a light scatter of thin scallion rings. Faint steam. No pasta, no cheese strings."
 
 #### Dish: She-crab soup
 - Category: Special-occasion to everyday (an iconic Charleston/Lowcountry restaurant dish; also made at home)
@@ -320,6 +419,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Most easily confused with a generic cream-of-crab soup, New England clam chowder, or a full crab bisque — the pale pink (not ivory-white) color from roe and the smoother, non-chunky texture are the confirming details.
 - Confidence: HIGH for origin story, core composition, and Charleston-specificity; MEDIUM-HIGH for the exact color/texture synthesis.
 - Sources: [Discover South Carolina — A Taste of SC: Just What Is She-Crab Soup](https://discoversouthcarolina.com/articles/a-taste-of-sc-just-what-is-she-crab-soup)
+- **Composition & proportions (§4.7)** — one cup or bowl.
+  - What dominates: smooth, pale pink-coral soup surface ~90–95%; crab flakes and roe/egg-yolk specks as small accents only. [EDITORIAL]
+  - Components: cup ~240 mL or bowl ~350 mL; crab flakes ~0.5–1.5 cm, 3–6 breaking the surface; roe (or grated yolk) as fine orange specks in a small central dusting. [EDITORIAL]
+  - Arrangement: flat surface, specks concentrated in the centre; cup on a saucer or small plate.
+  - Vessel fill/depth: filled to ~1 cm below the rim.
+  - Served portion vs. whole dish: a first-course cup or bowl per diner.
+  - State cues: velvety, opaque, slight sheen; light steam.
+  - Absent on purpose: a sherry bottle or glass (the sherry is already stirred in — keep alcohol out of frame), chunky vegetables, whole crab or shells, oyster-cracker piles, parsley.
+  - Prompt-ready line: "A white cup of smooth, velvety cream soup with a soft pale pink-coral tint, filled nearly to the rim, a few small flakes of white crab meat breaking the surface and a fine dusting of tiny orange roe specks in the centre. Light steam. No vegetables, no shells, no garnish sprigs."
 
 #### Dish: Hoppin' John (full authoritative entry — kept here per the merge decision noted in FILE ROLE & METHOD above; see the Deep South zone's shorter cross-reference entry for that zone's own New Year's prevalence)
 - Category: Everyday to special-occasion (a specific New Year's Day good-luck tradition, also eaten year-round)
@@ -332,6 +440,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Not plain "rice and beans" more broadly associated with other US regional or Latin American cuisines — the smoked pork, black-eyed-pea (not black bean, pinto, or red bean) variety, and New Year's ritual context are the confirming details. Also distinct from its close Lowcountry cousins red rice (tomato-based, no peas) and perloo/pilau (a broader category, often including seafood).
 - Confidence: HIGH for the Gullah Geechee origin, historical documentation, and New Year's tradition; MEDIUM-HIGH for the visual/texture synthesis.
 - Sources: [Spicewalla — The History of Hoppin' John](https://www.spicewallabrand.com/blogs/recipes/spice-advice-a-history-of-hoppin-john); [Farmers' Almanac — Hoppin' John Recipe](https://www.farmersalmanac.com/hoppin-john-for-new-years-luck)
+- **Composition & proportions (§4.7)** — one plate portion.
+  - What dominates: rice ~60–65%; black-eyed peas ~30%; pork bits ~5%. [EDITORIAL]
+  - Components: peas ~1 cm (about a thumbnail), cream with a black eye, evenly mixed; pork bits ~0.5–1.5 cm; portion ~1 cup, a loose mound ~10–12 cm across. [EDITORIAL]
+  - Arrangement: one scoop on the plate next to collard greens and a cornbread wedge (the New Year's trio).
+  - Vessel fill/depth: mound ~3–4 cm high, holding loosely.
+  - Served portion vs. whole dish: spooned from the pot onto each plate.
+  - State cues: moist, cohesive, matte; light grayish-tan cast.
+  - Absent on purpose: black or red beans, tomato sauce, cilantro, lime, sausage slices, a scallion pile.
+  - Prompt-ready line: "A loose mound of Hoppin' John, about the can's width across, beside dark collard greens and a cornbread wedge: tender pale rice with a light grayish-tan cast, evenly mixed with plump cream-coloured black-eyed peas, each about the size of a thumbnail, and small flecks of smoked pork. Moist and cohesive, not soupy. No beans of other colours, no tomato, no herbs."
 
 #### Dish: Charleston/Gullah red rice
 - Category: Everyday to special-occasion (a defining Lowcountry side dish and potluck/gathering staple)
@@ -343,6 +460,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Most easily confused with Cajun/Creole jambalaya (outside this file's scope) — typically wetter, often multi-protein, more heavily spiced; red rice is simpler, drier, and more purely a rice-tomato-pork dish.
 - Confidence: HIGH for the Gullah Geechee origin and core composition; MEDIUM for the specific dry/absorbed-liquid texture claim.
 - Sources: [The Washington Post — How to make red rice, a Lowcountry classic with deep roots](https://www.washingtonpost.com/food/2022/04/21/charleston-red-rice-recipe-gullah-geechee/)
+- **Composition & proportions (§4.7)** — one side portion.
+  - What dominates: reddish-orange rice ~85–90%; pork/sausage ~5–10%; onion and pepper flecks ~5%. [EDITORIAL]
+  - Components: sausage coins or half-moons ~1.5–2.5 cm, 3–6 per portion, or bacon bits ~1 cm; bell pepper and onion dice ~0.5 cm; portion ~1 cup, mound ~10–12 cm. [EDITORIAL]
+  - Arrangement: a scooped mound; pork scattered through, a few pieces on top.
+  - Vessel fill/depth: at a potluck, a casserole or pot filled nearly to the rim; on the plate, one mound.
+  - Served portion vs. whole dish: a side spoonful on a shared-meal plate. [EDITORIAL]
+  - State cues: dry, matte grains, evenly tinted; no liquid.
+  - Absent on purpose: shrimp or chicken (reads as jambalaya), pooled sauce, peas, cilantro.
+  - Prompt-ready line: "A mound of Lowcountry red rice, about the can's width across: separate, tender long grains evenly tinted a matte reddish-orange, with a few small coins of browned smoked sausage and tiny flecks of green pepper and onion through it. Dry and fluffy with no sauce pooling. No shrimp, no chicken, no herbs."
 
 #### Dish: Frogmore stew / Lowcountry boil
 - Category: Everyday to special-occasion (a communal, crowd-feeding dish — genuinely served at scale for large community gatherings)
@@ -354,6 +480,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Not a New England clam bake/boil (a different ingredient set — clams, lobster, corn, potatoes, no sausage — already implicit in `us-northeast.md`) or a Cajun crawfish boil (Louisiana, outside this file's scope, centered on crawfish and typically far spicier). The shrimp-sausage-corn-potato combination and newspaper-table presentation are the confirming details.
 - Confidence: HIGH for core composition and communal serving format; MEDIUM for the exact founding date and its relation to older Gullah communal-boil practice.
 - Sources: [Explore Beaufort SC — Frogmore Stew: A local Lowcountry tradition](https://explorebeaufortsc.com/frogmore-stew-a-local-lowcountry-tradition/); [Mashed — The History Of South Carolina's Iconic Frogmore Stew](https://www.mashed.com/1732967/frogmore-stew-history-south-carolina/)
+- **Composition & proportions (§4.7)** — a table for 8, and one person's share.
+  - What dominates: by area of the heap: shrimp ~35%, potatoes ~25%, corn ~20–25%, sausage ~15–20%. [EDITORIAL, from per-person norms below]
+  - Components: per person: **shrimp ~⅓–½ lb (~150–225 g), ~10–15 medium-large shrimp**, each ~6–8 cm curled; **corn ~1 ear broken in half**, each piece ~8–10 cm (a bit shorter than the can); **2–3 small potatoes** ~4–5 cm; **4–6 sausage pieces** ~3 cm across, 2–3 cm thick [MEDIUM — ATK, yourhomebasedmom and other boil guides (via search)].
+  - Arrangement: one low heap dumped in the centre of the covered table, pieces tumbled and mixed, not sorted or rowed; paper-towel rolls, small bowls of cocktail sauce and melted butter at the edge.
+  - Vessel fill/depth: for 8, a heap ~60–90 cm across and ~8–12 cm high on brown butcher paper or newspaper (text unreadable).
+  - Served portion vs. whole dish: eaten straight from the pile by hand; any plate is a small pile of a few shrimp, one corn piece, a potato and a few sausage rounds. [EDITORIAL]
+  - State cues: wet, glistening, steaming; spice dusting on shrimp and corn; paper darkening where liquid soaks in.
+  - Absent on purpose: lobster, clams, crawfish, heavy lemon-slice scatter, beer or any alcohol, legible newsprint, neat plated arrangement.
+  - Prompt-ready line: "A low, steaming heap poured onto a brown-paper-covered outdoor table: dozens of curled pink-orange shrimp, stubby corn-on-the-cob pieces a bit shorter than the can, small golden-skinned potatoes and dark reddish-brown sausage rounds, all glistening wet and dusted with spice, tumbled together. Paper soaked darker around the pile; paper towels and small bowls of sauce at the edge. No lobster, no crawfish."
 
 ### Tennessee
 
@@ -372,6 +507,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Common confusion: Should not be depicted with a smooth, glossy, uniformly orange-red sauce coating (that reads as a wing-sauce/Buffalo-style glaze, a thinner, more liquid finish) — the defining difference is the caked, granular, paste-based texture versus a poured liquid sauce.
 - Confidence: HIGH overall for the core dish identity, spice-paste mechanism, and white-bread/pickle serving convention; MEDIUM for finer visual-finish and heat-naming specifics.
 - Sources: [Wikipedia: Hot chicken](https://en.wikipedia.org/wiki/Hot_chicken); [Wikipedia: Prince's Hot Chicken Shack](https://en.wikipedia.org/wiki/Prince%27s_Hot_Chicken_Shack); [Oxford American — Some Like It Extra Hot](https://oxfordamerican.org/magazine/issue-49-spring-2005/some-like-it-extra-hot); [CNBC — How Nashville Hot Chicken Became So Big](https://www.cnbc.com/2023/11/29/how-nashville-hot-chicken-became-so-big.html)
+- **Composition & proportions (§4.7)** — one order (quarter or two thighs).
+  - What dominates: red-crusted chicken ~55–65% of the plate; white bread ~20–25%, mostly underneath; pickle chips ~5–10% on top. [EDITORIAL]
+  - Components: a quarter (leg and thigh, or breast and wing) or 2 bone-in thighs, each thigh ~10 cm (a little under the can's height); **2 slices plain white bread** ~11–12 cm square under the chicken [HIGH — this entry; recipe sources agree (via search)]; pickle chips ~2.5–3 cm, 3–6 on top; sides (slaw, beans) in separate small cups. [EDITORIAL for counts]
+  - Arrangement: bread laid flat or slightly overlapping on a plate or paper-lined tray; chicken stacked on the bread; pickles scattered over the top.
+  - Vessel fill/depth: chicken and bread cover ~60–70% of the plate.
+  - Served portion vs. whole dish: one order per person.
+  - State cues: moist, granular maroon crust; bread edges soaked orange-red; a small slick of red oil on the plate.
+  - Absent on purpose: ranch or blue-cheese dip, celery sticks, honey drizzle, waffles, a smooth glossy Buffalo-style glaze.
+  - Prompt-ready line: "Two bone-in fried chicken thighs, each a little shorter than the can, with a thick craggy crust coated in a deep brick-red cayenne paste that looks both oily and dusty-granular, stacked on two slices of plain white bread whose edges are soaked orange-red. A few round pickle chips sit on top. A small cup of coleslaw beside. No dip, no glossy sauce."
 
 ##### Dish: Nashville hot chicken sandwich (serving-format sibling — see `us.md`'s existing "Fried chicken sandwich" entry for the mainstream/non-Nashville-hot version's full national depth)
 - Category: Everyday, and now a major national fast-casual-chain category
@@ -379,6 +523,15 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 - Serving format: Sandwich/handheld — the genuine sibling to the plate format above, sharing the same protein/spice treatment but a completely different visual/consumption context (per `country-file-schema.md` §4.4).
 - Visual/plating characteristics: Same maroon-to-brick-red, moist-and-dusty spice-paste finish as the plate version, now on a boneless breast or thigh cutlet, stacked on a soft bun with pickle chips visible at the edge; when the sandwich is cut in half for a photo, only one half should be shown cut-face-forward, per `country-file-schema.md` §7.5's cut-sandwich-byproduct guidance.
 - Confidence: HIGH — this format is already well-established in `us.md`; this entry adds no new sourcing beyond confirming the crust/paste finish detail applies identically.
+- **Composition & proportions (§4.7)** — one sandwich.
+  - What dominates: side view: bun ~45%, chicken cutlet ~40%, pickles ~10%; the cutlet overhangs the bun by ~1–3 cm. [EDITORIAL]
+  - Components: soft bun ~10–12 cm across (about the can's height); boneless cutlet ~12–15 cm across, ~2–3 cm thick; 3–5 pickle chips ~2.5–3 cm. [EDITORIAL]
+  - Arrangement: on a paper-lined tray or plate; if cut, one half with cut face forward.
+  - Vessel fill/depth: sandwich ~40–50% of the tray; fries or slaw optional in the rest.
+  - Served portion vs. whole dish: one sandwich per person, resting on the tray — not held in a hand.
+  - State cues: same granular maroon crust as the plate version; a little red oil soaking the bottom bun.
+  - Absent on purpose: lettuce, tomato, cheese, a glossy Buffalo glaze, a hand holding it.
+  - Prompt-ready line: "A fried chicken sandwich on a paper-lined tray: a soft golden bun about the can's height across, with a thick craggy cutlet overhanging it by a finger's width all round, coated in a moist, granular brick-red cayenne paste, and a few round pickle chips peeking out. Red oil soaks into the bottom bun. No lettuce, no cheese."
 
 ##### Note: meat-and-three (venue/format note, not a single dish entry)
 Meat-and-three is a **restaurant format and venue register**, not a single named dish — see this zone's TRUSTED CONTENT and ENVIRONMENT & STAGING SCENES above for its origin (May Hosiery Mill, 1930s Nashville) and stageable detail (steam-table line, tray service, simple seating). Because the specific meat and vegetable choices vary meal to meal and restaurant to restaurant, it does not get its own single dish entry the way hot chicken does — a brief wanting a specific meat-and-three plate should specify which meat/sides, at which point the relevant existing dish entries elsewhere in this file or `us.md` apply. [CONFIDENCE: MEDIUM-HIGH for the format's existence and Nashville-specificity; not independently sourced for a specific "typical" meat/side combination — flag for review]
@@ -397,6 +550,15 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 - Common confusion: Not Texas brisket bark (also dark and crusted, but on a large flat beef cut, not a bone-in rib rack); not a wet/sauced Memphis or Kansas City rack (the glossy sauce sheen, entirely absent here, is the difference).
 - Confidence: HIGH for the dry/no-sauce identity and general bark appearance; MEDIUM for specific technique/origin claims as flagged.
 - Sources: [Wikipedia: Memphis-style barbecue](https://en.wikipedia.org/wiki/Memphis-style_barbecue); [Taste of Home — What Is Memphis-Style Barbecue?](https://www.tasteofhome.com/article/memphis-barbecue/); [AmazingRibs — A History of Memphis Barbecue](https://amazingribs.com/a-history-of-memphis-barbecue/)
+- **Composition & proportions (§4.7)** — one half-rack plate.
+  - What dominates: bark-crusted rib meat ~80–85% of the rack's visible surface, bone ends ~5%; the rack takes ~50–60% of the plate, sides the rest. [EDITORIAL]
+  - Components: full rack ~11–13 bones, half rack ~6; a half rack is ~20–25 cm long (about two can heights) and ~10–15 cm wide, ~3–4 cm thick; bone ends protrude ~1–2 cm; thin sauce in a small cup (~6 cm) on the side; slaw scoop and a cup of beans. [EDITORIAL — standard butcher counts; no sourced Memphis bone count found]
+  - Arrangement: rack lying meat-side up, whole or cut into 2–3 bone sections fanned slightly; one cut shows a pink smoke ring.
+  - Vessel fill/depth: plate or tray ~80% covered.
+  - Served portion vs. whole dish: a half rack is one portion; a full rack for a big appetite or to share. [EDITORIAL]
+  - State cues: completely matte, dry, crumbly bark; visible spice flecks; no drips.
+  - Absent on purpose: any glossy sauce on the meat, sauce drips, cornbread-and-corn-cob garnish piles, parsley.
+  - Prompt-ready line: "A half rack of pork ribs, about twice the can's height long, lying meat-side up on a plate, crusted with a completely matte, dry, crumbly dark reddish-brown spice bark flecked with visible paprika and herbs, bone ends poking out. One cut shows a thin pink smoke ring under the crust. A small cup of thin sauce and a scoop of coleslaw beside it. No gloss anywhere."
 
 ##### Dish: Memphis BBQ ribs — wet (serving/preparation sibling to the dry entry above)
 - Category: Everyday to special-occasion, a genuinely coexisting, non-hierarchical alternative to dry ribs per `country-file-schema.md` §4.6 — not a lesser or "for tourists" version.
@@ -404,6 +566,15 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 - Visual/plating characteristics: A glossy, wet-looking, deep reddish-brown to reddish-orange sauce visibly coats and clings to the rack, with sauce pooling and sometimes dripping at the tray's edges — the direct visual opposite of the dry rack's matte, unsauced surface. The sauce should read thinner and less thickly clinging than a Kansas City-style sauce, more likely to run/drip than sit in a thick, static coating.
 - Common confusion: Should not be rendered with the thick, very dark, heavily clinging sauce texture correct for Kansas City barbecue — Memphis wet sauce is thinner and more vinegar-forward.
 - Confidence: HIGH for the wet-style existing as a genuine, common Memphis alternative; MEDIUM for the specific sauce-thinness-vs-KC comparison.
+- **Composition & proportions (§4.7)** — one half-rack plate.
+  - What dominates: as the dry rack, but sauce coats ~100% of the top surface; pools and drips 2–5 cm at the tray edges. [EDITORIAL]
+  - Components: half rack ~6 bones, ~20–25 cm long; sauce layer thin (~1–2 mm), runny; slaw scoop and beans on the side. [EDITORIAL]
+  - Arrangement: meat-side up, whole or cut into bone sections.
+  - Vessel fill/depth: plate or tray ~80% covered.
+  - Served portion vs. whole dish: a half rack per person.
+  - State cues: wet, glossy reddish-brown; sauce running at the edges.
+  - Absent on purpose: a thick, dark, lacquered KC-style coat, charred black caramelisation, sesame seeds.
+  - Prompt-ready line: "A half rack of pork ribs, about twice the can's height long, meat-side up, brushed with a thin, glossy, reddish-brown tomato-vinegar barbecue sauce that runs down the sides and pools in small streaks on the tray. Bone ends poke out; one cut shows pink smoke ring. A scoop of coleslaw beside it. Not a thick dark lacquer."
 
 ##### Dish: Memphis-style pulled pork sandwich (full zone entry — the sandwich-format sibling within Memphis BBQ, pulling forward `us.md`'s existing "pulled pork sandwiches as the dominant menu item" note)
 - Category: Everyday — the most commonly ordered Memphis BBQ item per `us.md`'s existing sourcing
@@ -415,6 +586,15 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 - Common confusion: Not a plain pulled-pork sandwich with slaw served only as a side dish (legitimate in many other US regions/BBQ styles, but not the specific, documented Memphis assembly convention).
 - Confidence: HIGH for the core protein/format and coleslaw-on-top convention; MEDIUM for the exact Leonard's origin specifics.
 - Sources: [Wikipedia: Barbecue sandwich](https://en.wikipedia.org/wiki/Barbecue_sandwich); [The Speckled Palate — Memphis-Style BBQ Pulled Pork Sandwiches](https://www.thespeckledpalate.com/memphis-style-bbq-pulled-pork-sandwiches/)
+- **Composition & proportions (§4.7)** — one sandwich.
+  - What dominates: side view: bun ~35%, pork ~40–45%, slaw ~20–25%. [EDITORIAL]
+  - Components: plain soft white bun ~10–11 cm across (a bit under the can's height); pork ~120–170 g, a pile ~3–4 cm high of shreds 3–6 cm long with dark bark bits; slaw layer ~1.5–2 cm, overhanging the edge; a thin drizzle of sauce. [EDITORIAL] Leonard's-style assembly puts **slaw piled on top of the pork** [MEDIUM — Roadfood (via search)]; the entry's own text states both slaw-on-top and slaw-on-bottom-bun — flagged for review, not changed here.
+  - Arrangement: on wax paper or a plate; top bun slightly askew so slaw shows at the edge.
+  - Vessel fill/depth: sandwich ~40% of the plate; chips or beans optional.
+  - Served portion vs. whole dish: one sandwich per person, resting on paper — not held in a hand.
+  - State cues: moist pork; creamy pale slaw; sauce streaks reddish-orange.
+  - Absent on purpose: brioche or sesame bun, pickles, cheese, onion rings on the sandwich, slaw only as a side cup.
+  - Prompt-ready line: "A pulled pork sandwich on wax paper: a plain soft white bun a bit shorter than the can is tall, holding a loose pile of smoky pork shreds with dark, matte, spice-flecked bark bits, a thin drizzle of reddish-orange sauce, and a thick layer of pale, creamy, finely shredded coleslaw spilling out at the edge under the top bun. No cheese, no pickles."
 
 ##### Dish: Memphis BBQ spaghetti
 - Category: Everyday — a genuinely Memphis-original dish, not a generic Italian-American pasta dish with barbecue sauce added as an afterthought
@@ -425,6 +605,15 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 - Common confusion: Not spaghetti with barbecue sauce simply poured over otherwise-unchanged noodles — the noodles themselves take on the sauce's orange-red color throughout, and the sauce is a visibly more orange-toned blend, not a straightforward swap of marinara for barbecue sauce.
 - Confidence: MEDIUM-HIGH for the dish's existence, Memphis-specificity, and general composition; MEDIUM for the specific named-origin chain.
 - Sources: [Wikipedia: Barbecue spaghetti](https://en.wikipedia.org/wiki/Barbecue_spaghetti); [AmazingRibs — BBQ Spaghetti: A True Memphis Original](https://amazingribs.com/memphis-style-bbq-spaghetti/)
+- **Composition & proportions (§4.7)** — one side bowl.
+  - What dominates: orange-red coated noodles ~65–70%; pork shreds ~20–25%; sauce sheen throughout. [EDITORIAL]
+  - Components: commonly a side in a small bowl or cup ~10–12 cm across, ~1–1.5 cups; pork shreds 2–5 cm; spaghetti strands cut or broken shorter. [EDITORIAL]
+  - Arrangement: tangled heap, pork mixed through with a few shreds on top.
+  - Vessel fill/depth: bowl full to the rim, slightly mounded.
+  - Served portion vs. whole dish: one side cup beside a barbecue plate or sandwich; a larger bowl as a main. [EDITORIAL]
+  - State cues: glossy, wet-coated noodles; warm.
+  - Absent on purpose: parmesan, basil, meatballs, garlic bread, pale noodles with sauce ladled on top.
+  - Prompt-ready line: "A small bowl, a bit wider than the can, heaped with spaghetti fully coated in a glossy orange-red barbecue-tomato sauce, every strand tinted, with short shreds of smoked pork mixed through and a few on top. Served as a side beside a barbecue plate. No cheese, no herbs, no meatballs."
 
 ##### Dish: Memphis BBQ nachos
 - Category: Everyday/snack — a genuinely Memphis-associated BBQ-adjacent dish, distinct from generic Tex-Mex nachos
@@ -435,11 +624,21 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 - Common confusion: Not standard Tex-Mex nachos (ground beef, sour cream, Tex-Mex-style yellow-cheese queso) — smoked pork and a thin, tangy barbecue sauce are the checkable differentiators.
 - Confidence: MEDIUM — real and repeatedly documented as a genuine Memphis specialty, but resting on food-journalism/enthusiast-tier sourcing throughout.
 - Sources: [Memphis BBQ Guide — Best BBQ Nachos in Memphis](https://memphisbbqguide.co/dish/bbq-nachos)
+- **Composition & proportions (§4.7)** — one platter.
+  - What dominates: chips ~40–50% of what shows; melted cheese ~20–25%; pork ~20%; sauce drizzle ~5–10%; jalapeño ~5%. [EDITORIAL]
+  - Components: tortilla chip triangles ~6–8 cm, 30–40 per platter; pork shreds 3–6 cm; jalapeño rings ~2–3 cm, 8–15; platter or foil tray ~25–30 cm. [EDITORIAL]
+  - Arrangement: an uneven pile, toppings concentrated on the top layer; lower chips mostly bare.
+  - Vessel fill/depth: pile ~6–8 cm high (about half the can's height), covering the tray.
+  - Served portion vs. whole dish: one tray is shared by 2–3, or a stadium-size single portion. [EDITORIAL]
+  - State cues: glossy stretchy cheese where thickest; matte bark on pork; warm.
+  - Absent on purpose: ground beef, sour cream, guacamole, black beans, pico de gallo, lettuce, olives.
+  - Prompt-ready line: "A foil tray heaped about half the can's height with tortilla chips, the top layer covered in glossy melted cheese, dark smoky pulled-pork shreds with matte bark bits, a thin zigzag of reddish-orange barbecue sauce and bright green jalapeño rings; lower chips mostly bare. No sour cream, no guacamole, no ground beef, no beans."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across all three passes** (en.wikipedia.org, mississippiencyclopedia.org, southernfoodways.org, www.crimsoncoward.com) — consistent with every prior research round on this project. Every citation to these and other blocked domains relies on WebSearch's own result-snippet excerpting, not a full page read. A reviewer with working fetch access should spot-check the Wikipedia and Southern Foodways Alliance citations in particular.
 - **Gulf Coast Alabama and Mississippi (Mobile, AL; Biloxi/Gulfport, MS) were explicitly not researched in depth**, per the Deep South pass's own scope instructions. Available search evidence suggests this coastal strip is culinarily closer to Louisiana Creole/Cajun food than to the inland Deep South content documented here. **This is a real, flagged boundary question for whoever finalizes `us-gulf-south.md`** — not resolved here.
 - **Kentucky and Arkansas remain an open, unresearched question**, flagged but not decided — see FILE ROLE & METHOD and Candidate Queue.

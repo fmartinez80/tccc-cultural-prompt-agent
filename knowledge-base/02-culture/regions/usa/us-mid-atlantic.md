@@ -129,6 +129,23 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: **the chopped cheese sandwich (NYC, `us-northeast.md`) is the single most likely confusable alternative** — a cheesesteak keeps thin-sliced steak as visible ribbons with cheese melted over/into them, while a chopped cheese is hand-chopped ground beef mixed into a coarser, uniformly marbled filling. Getting this backward is a real, visible error either direction.
 - Confidence: HIGH overall
 - Sources: [Smithsonian — History of Five Uniquely American Sandwiches](https://www.smithsonianmag.com/history/history-five-uniquely-american-sandwiches-180967078/); [Charleys Cheesesteaks — The History of the Original Cheesesteak](https://www.charleys.com/blog/the-history-of-the-cheesesteak/); [Tasting Table — Does A Philly Cheesesteak Need To Have Whiz?](https://www.tastingtable.com/1437458/does-philly-cheesesteak-need-whiz-truth-myth/); [Guide to Philly — Pat's vs Geno's](https://guidetophilly.com/pats-vs-genos-rivalry-cheesesteak/); [Tasting Table — Pat's Vs Geno's Cheesesteaks](https://www.tastingtable.com/2092490/pats-vs-genos-cheesesteaks-difference/); [Tasting Table — The Best Bread For Cheesesteaks Is A Philadelphia Classic](https://www.tastingtable.com/2207574/best-bread-for-cheesesteaks-philadelphia-classic-amorosos/)
+- Composition & proportions (§4.7) — one cheesesteak, paper opened on the counter:
+  - What dominates: from above, the chopped-steak-and-cheese filling ~55–60% (heaped in the split), the roll ~40%; within the filling, browned steak ~70%, onions ~15–20%, cheese as a melded gloss ~10–15%. [EDITORIAL]
+  - Components:
+
+    | Component | Real size | Count (one sandwich) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Long roll | ~20–30 cm (8–12 in), ~7–8 cm wide — **about twice the can's height, a little wider than the can** [MEDIUM — recipe sources give 8–9 in; a 12 in long roll is also cited (via search)] | 1 | Thin, matte, lightly crisp crust, soft white crumb | Hinged, split along the side or top |
+    | Chopped steak | Small ribbons and bits ~1–3 cm; ~4–6 oz (115–170 g) in recipes, stand portions often more [MEDIUM — recipe sources (via search); stand amount EDITORIAL] | — | Grey-brown, well-done, a light grease sheen | Heaped 3–5 cm above the roll's hinge, spilling to the ends |
+    | Onions | Soft strands ~2–4 cm | — | Browned, translucent | Mixed through the meat |
+    | Cheese | Melted into the meat | — | Whiz: glossy orange-yellow; provolone/American: pale, melted threads | Melded through or draped over the top |
+
+  - Arrangement: one sandwich lying lengthwise, whole or cut in half with a cut end toward camera.
+  - Vessel fill/depth: on opened white paper or foil on a counter or picnic table; no plate.
+  - Served portion vs. whole dish: one sandwich per person.
+  - State cues: steam, glossy cheese, a grease stain spreading on the paper, the roll giving under the filling.
+  - Absent on purpose: green bell peppers and mushrooms (not the default), lettuce, tomato, mayonnaise, cold cheese slices, pink meat, a ceramic plate, a hand.
+  - Prompt-ready line: "A long soft Italian roll about twice the can's height, split and overfilled with a heap of chopped, grey-brown griddled steak mixed with soft browned onion strands and glossy melted cheese, spilling at both ends. It rests on opened white paper on a counter, steaming, a grease spot spreading on the paper. No peppers, no lettuce, no tomato, no plate."
 
 #### Dish: Philadelphia soft pretzel (expands `us.md`'s national "Soft pretzel" entry)
 - Category: Everyday snack, strongly city/street-vendor coded
@@ -140,6 +157,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be depicted with the tall, narrow, symmetrical twisted-loop shape of a generic mall-bakery or German-style pretzel — the flattened, wide, compressed shape is the checkable Philadelphia-specific differentiator.
 - Confidence: HIGH overall; MEDIUM for the single-company mechanization attribution
 - Sources: [Encyclopedia of Greater Philadelphia — Pretzels](https://philadelphiaencyclopedia.org/essays/pretzels/); [Pennsylvania Center for the Book — Pennsylvania's Twist](https://pabook.libraries.psu.edu/literary-cultural-heritage-map-pa/feature-articles/pennsylvanias-twist); [The Takeout — The Thing That Sets Philly Pretzels Apart](https://www.thetakeout.com/2064008/philadelphia-pretzel-unique-shape/)
+- Composition & proportions (§4.7) — a strip of pretzels, or one with mustard:
+  - What dominates: the glossy mahogany dough ~90% of each pretzel's surface; salt crystals a sparse white scatter; mustard a small accent. [EDITORIAL]
+  - Components: each pretzel ~15–20 cm (6–8 in) long — **about one and a half times the can's height** — and ~7–9 cm wide [MEDIUM for length — Constitutional Walking Tour, Witty in the City (via search); width EDITORIAL]; commonly baked and sold joined side by side in a strip of 5 [MEDIUM — Di Bruno Bros., Encyclopedia of Greater Philadelphia (via search)]; salt crystals ~2–3 mm, ~20–40 visible per pretzel.
+  - Arrangement: a strip of 3–5 joined figure-eights lying flat, or one pretzel torn off with a small paper cup of yellow mustard beside it.
+  - Vessel fill/depth: on a paper bag or wax paper; mustard cup ~4–5 cm across.
+  - Served portion vs. whole dish: 1–3 pretzels per person; strips of five sold for sharing.
+  - State cues: glossy crust, soft chewy give where torn, slightly flattened sides where they joined.
+  - Absent on purpose: tall symmetric loop shape, cheese dip, cinnamon sugar, butter sheen.
+  - Prompt-ready line: "A strip of four flat, wide figure-eight soft pretzels joined side by side on brown paper, each about one and a half times the can's height long, with a glossy deep golden-brown to mahogany crust and a sparse scatter of coarse white salt crystals; the soft squashed sides show where they baked together. A small paper cup of yellow mustard beside them. No cheese dip, no tall twisted loops."
 
 #### Dish: Scrapple
 - Category: Everyday — traditionally breakfast, but genuinely also a lunch/snack item in Philadelphia specifically (a "scrapple sandwich," scrapple at lunch counters). **Flagged since `us.md`'s overall scope excludes breakfast**: scrapple's lunch/snack presence is real but secondary; stage it as a snack/lunch item, not a breakfast-plate scene. [CONFIDENCE: MEDIUM for the lunch/snack-format claim specifically]
@@ -153,6 +179,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be depicted as a smooth, uniform breakfast sausage patty (no visible grain, uniform color) or corned beef hash (visible chunks of potato/meat rather than a smooth mush) — scrapple's fine, grainy, cornmeal-bound interior with visible pepper flecks is the confirming detail.
 - Confidence: HIGH overall for composition/preparation/texture; MEDIUM for the lunch/snack serving-format claim
 - Sources: [Taste Cooking — A Brief History of Pennsylvania Scrapple](https://tastecooking.com/brief-history-pennsylvania-scrapple/); [PA Eats — PA Food Icons: Scrapple](https://www.paeats.org/feature/pa-food-icons-scrapple/); [The Philadelphia Inquirer — Your complete guide to Pennsylvania's scrapple history](https://www.inquirer.com/philly-tips/best-scrapple-philadelphia-20210818.html); [Delaware Today — This Is the Cuisine That Defines Delaware](https://delawaretoday.com/food/delaware-cuisine/)
+- Composition & proportions (§4.7) — two or three slices, snack/lunch staging:
+  - What dominates: the dark fried crust faces ~70–80% of the view from above; the pale grainy interior shows only where a slice is cut or broken; ketchup a small accent. [EDITORIAL]
+  - Components: slices ~8–10 cm × 5–6 cm (loaf-pan cross-section), ~1–1.5 cm thick — **each about the can's width** [EDITORIAL, consistent with the entry's slice thickness]; ketchup pool ~4–5 cm.
+  - Arrangement: 2–3 slices overlapping on a small plate, one broken open to show the interior; or one slice in a split roll.
+  - Vessel fill/depth: a small diner plate about half covered.
+  - Served portion vs. whole dish: 2–3 slices per person.
+  - State cues: hard, matte, near-black crust; soft steaming interior; a little rendered fat on the plate.
+  - Absent on purpose: fried eggs, toast and breakfast-plate set (the entry stages it as snack/lunch), a smooth sausage-patty look, garnish.
+  - Prompt-ready line: "Three rectangular slices of pan-fried scrapple overlapping on a small white diner plate, each about the can's width and a finger thick, their faces a hard, matte, deeply browned-to-near-black crust with duller greyish-brown sides. One broken open shows a soft, coarse-grained grey-brown interior flecked with pepper. A small pool of ketchup beside them. No eggs, no toast."
 
 #### Dish: Philadelphia water ice
 - Category: Everyday, strongly seasonal (a summer treat)
@@ -165,6 +200,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Most easily confused with a slushie/Icee (more liquid, syrupy, sipped through a straw, more artificially saturated color, coarser/looser ice crystal) or a smoother, lighter national-grocery "Italian ice" — the denser, coarser-but-fine texture and spoon-only convention are the confirming details.
 - Confidence: HIGH for the basic description and spoon-not-straw convention; MEDIUM for the comparative-texture claims and the naming-origin question
 - Sources: [PA Eats — PA Food Icons: Water Ice](https://www.paeats.org/feature/pa-food-icons-water-ice/); [Tasting Table — What Exactly Is Philadelphia's Beloved Water Ice?](https://www.tastingtable.com/1398835/philadelphia-water-ice-different-italian/); [NPR — Water ice, Philly's classic summer cooler, gets hot across the country](https://www.npr.org/sections/thesalt/2016/08/10/489217423/water-ice-phillys-classic-summer-cooler-gets-hot-across-the-country)
+- Composition & proportions (§4.7) — one cup:
+  - What dominates: the single flat colour of the ice filling the cup; the cup and spoon are minor. [EDITORIAL]
+  - Components: small cup ~7–9 cm tall — **a little over half the can's height** — regular sizes larger [EDITORIAL]; ice domed ~0.5–1.5 cm above the rim; one small flat plastic spoon.
+  - Arrangement: one cup, spoon standing in the ice.
+  - Vessel fill/depth: filled to and mounded just above the rim.
+  - Served portion vs. whole dish: one cup per person.
+  - State cues: matte, finely granular, craggy scoop marks, starting to soften at the rim.
+  - Absent on purpose: straw, whipped cream, cherry, syrup drizzle, layered rainbow colours (unless the brief asks), translucent glassy ice.
+  - Prompt-ready line: "One small plain paper cup, a little over half the can's height, heaped just above the rim with dense, matte, finely granular cherry water ice in a saturated opaque deep red, craggy where it was scooped, a small flat plastic spoon standing in it. Slightly softening at the edge. No straw, no whipped cream, no syrup."
 
 #### Dish: Roast pork Italian sandwich (Philadelphia)
 - Category: Everyday — described by multiple food-journalism sources as a sandwich Philadelphians rank alongside, or even ahead of, the cheesesteak. [CONFIDENCE: MEDIUM — journalism-tier commentary, not a quantified survey]
@@ -177,6 +221,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Most easily confused with (1) a cold Italian sub/hoagie (this sandwich is hot, with melted cheese and gravy-moistened meat); (2) Chicago Italian beef (`us-northeast.md`) — Italian beef is fully dip-soaked/dripping with no cheese, while this sandwich is pork, always includes melted sharp provolone, and is only lightly moistened.
 - Confidence: HIGH for basic composition and current form; MEDIUM for the origin narrative and exact cut of pork
 - Sources: [The Splendid Table — Philadelphia Roast Pork Sandwiches](https://www.splendidtable.org/story/2018/05/03/philadelphia-roast-pork-sandwiches); [Visit Philadelphia — Roast Pork Sandwiches: Where to Find Philly's Cheesesteak Rival](https://www.visitphilly.com/articles/philadelphia/the-best-roast-pork-sandwiches-in-philadelphia/); [Red Sauce America — The History of Philadelphia's Italian Roast Pork Sandwich](https://www.redsauceamerica.com/blog/the-history-of-philadelphias-italian-roast-pork-sandwich/)
+- Composition & proportions (§4.7) — one sandwich, cut in half:
+  - What dominates: in the cut face, shaved pork ~55–60% of the height; roll ~25–30%; broccoli rabe ~10%; provolone a melted layer and drips ~5–10%. [EDITORIAL]
+  - Components: long seeded or plain roll ~20–30 cm — **about twice the can's height** [EDITORIAL]; pork slices ~2–3 mm, piled ~5–7 cm deep; rabe pieces ~3–5 cm, dark; provolone strings 1–3 cm drips at the cut.
+  - Arrangement: two halves side by side on paper, cut faces forward, pork and rabe spilling slightly.
+  - Vessel fill/depth: on white butcher paper; no plate.
+  - Served portion vs. whole dish: one sandwich per person.
+  - State cues: glistening gravy-darkened pork, a wet stain in the crumb's centre, melting cheese strings, steam.
+  - Absent on purpose: cold deli layers, lettuce, tomato, mayonnaise, bright-green blanched greens, a jus cup for dunking.
+  - Prompt-ready line: "A long Italian roll about twice the can's height, cut in half on white butcher paper, cut faces forward: a thick pile of thin-shaved, glistening grey-brown roast pork, dark sautéed broccoli rabe tucked through it, and sharp provolone melting into strings at the cut edge. The bread's centre is darkened by gravy. Steaming. No lettuce, no tomato, no mayonnaise."
 
 #### Dish: Philadelphia tomato pie
 **A genuinely separate tradition from Trenton tomato pie (`us-northeast.md`), not the same NJ tradition eaten in Philly too — verified explicitly, not assumed.**
@@ -189,6 +242,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: **Trenton tomato pie** is the single most important confusable alternative given the identical name — shape, cheese, crust, and temperature are all checkable differentiators. Also confusable with **Rhode Island pizza strips** (`us-northeast.md`, also cheese-free, room-temperature, bakery-sold, rectangular) — genuinely, honestly unresolved: no source found draws a sharp visual distinction between the two, flagged as a real look-alike pair rather than an invented differentiator.
 - Confidence: HIGH for the Philadelphia-vs-Trenton distinction; LOW-MEDIUM for distinguishing it from Rhode Island pizza strips
 - Sources: [Slice Pizza Blog — Trenton Tomato Pie vs. Philly Tomato Pie](https://blog.slicelife.com/trenton-tomato-pie-philly-pizza-difference/); [South Philly Review — Tomato Pie: A Guide to Philadelphia's Iconic Regional Pizza](https://southphillyreview.com/2026/07/27/tomato-pie-a-guide-to-philadelphias-iconic-regional-pizza/); [Encyclopedia of Greater Philadelphia — Tomato Pie](https://philadelphiaencyclopedia.org/essays/tomato-pie/)
+- Composition & proportions (§4.7) — squares from a bakery sheet:
+  - What dominates: the deep red sauce top ~90% of the view from above; the pale bread edge shows from the side. [EDITORIAL]
+  - Components: squares ~8–10 cm a side, ~3–4 cm thick — **about the can's width, a third of its height** [EDITORIAL]; sauce layer ~5 mm; grated hard cheese as sparse pale flecks.
+  - Arrangement: squares in rows in an open bakery box, or 2–3 on a paper plate, one turned to show the airy crumb.
+  - Vessel fill/depth: box packed edge to edge; paper plate about half covered.
+  - Served portion vs. whole dish: box shared at a party; 1–3 squares per person.
+  - State cues: room temperature, matte, no steam.
+  - Absent on purpose: any melted cheese, toppings, basil, a round shape, glossy sheen.
+  - Prompt-ready line: "Three square pieces of thick, pale, airy focaccia-like bread on a white paper plate, each about the can's width and a third of its height, coated edge to edge in a thick matte deep-red tomato sauce with a few tiny pale flecks of grated hard cheese. One piece turned on its side shows a soft open crumb. Room temperature. No melted cheese, no toppings."
 
 #### Dish: Capriotti's "Bobbie" sandwich (Delaware)
 - Category: Everyday, with a special-occasion/holiday-leftover flavor identity baked into the concept itself
@@ -201,6 +263,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Most easily confused with a generic homemade Thanksgiving-leftovers sandwich — the confirming detail is the sub/hoagie roll format and its status as a standing year-round menu item.
 - Confidence: HIGH overall
 - Sources: [Tasting Table — Delaware's The Bobbie Sandwich Is Packed With Thanksgiving Flavor](https://www.tastingtable.com/1697805/delaware-sandwich-bobbie-thanksgiving/); [Wikipedia: Capriotti's](https://en.wikipedia.org/wiki/Capriotti%27s)
+- Composition & proportions (§4.7) — one sub, cut in half:
+  - What dominates: in the cut face, shredded turkey ~45–50%, stuffing ~20–25%, cranberry sauce ~10–15%, roll ~20%; mayonnaise a thin pale line. [EDITORIAL]
+  - Components: sub roll ~20–30 cm — **about twice the can's height** [EDITORIAL]; filling ~6–8 cm deep; cranberry as a glossy ~1 cm band; stuffing as a coarse ~1.5–2 cm band.
+  - Arrangement: two halves side by side, cut faces forward, layers visible and irregular.
+  - Vessel fill/depth: on opened white deli paper; no plate.
+  - Served portion vs. whole dish: one sub per person.
+  - State cues: moist fibrous turkey, glossy jammy cranberry, soft roll.
+  - Absent on purpose: sliced deli turkey sheets, ridged canned cranberry rounds, lettuce, tomato, gravy, legible wrapper branding.
+  - Prompt-ready line: "A long soft sub roll about twice the can's height, cut in half on white deli paper, cut faces forward, packed with moist shredded pale turkey, a coarse light-brown band of bread stuffing and a glossy deep-red band of jammy cranberry sauce, a thin pale layer of mayonnaise binding them. Irregular, overstuffed layers. No lettuce, no sliced deli meat, no gravy."
 
 ### Chesapeake Bay
 
@@ -215,6 +286,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be depicted as a generic "seafood cake" or crab imperial (a related but structurally different creamy-sauced casserole, not independently researched to this file's standard) — the defining, checkable difference is the visible dominance of large, distinct lump chunks over any binder or filler.
 - Confidence: HIGH overall for composition, grading terminology, and the light-filler norm; MEDIUM for the origin narrative and sandwich format's prevalence
 - Sources: [Old Line Plate — Crab Cakes: True History Of](https://oldlineplate.com/crabcakes-true-history-of/); [Sizzlefish — A History of Maryland Crab Cakes](https://www.sizzlefish.com/blogs/news/a-history-of-maryland-crab-cakes); [Savory Simple — Broiled Jumbo Lump Maryland Crab Cakes](https://www.savorysimple.net/authentic-maryland-jumbo-lump-crab-cakes/)
+- Composition & proportions (§4.7) — plated (one or two cakes) and sandwich:
+  - What dominates: the crab cake(s) ~40–50% of the plate; side ~25–30%; lettuce bed, lemon and tartar ramekin ~20–25%. Inside the cake, lump crab is ~85–90% of the visible cut face, binder barely visible. [EDITORIAL]
+  - Components: cakes sold at ~5 oz and ~8 oz (~140–225 g) [MEDIUM — Costas Inn, Harbour House Crabs (via search)]; a 5 oz cake is ~7–8 cm across and ~4 cm tall — **about the can's width and a third of its height** (8 oz ~9–10 cm) [EDITORIAL]; lumps ~1.5–3 cm; tartar ramekin ~5–6 cm; lemon wedge 1.
+  - Arrangement: plated — cake(s) on 1–2 lettuce leaves, side (coleslaw, fries or corn) next to them, lemon and tartar at the rim. Sandwich — one cake on a soft round bun, a lettuce leaf, the cake's edge showing beyond the bun.
+  - Vessel fill/depth: white dinner plate ~27 cm, about two-thirds covered.
+  - Served portion vs. whole dish: 1–2 cakes per person.
+  - State cues: broiled — pale, barely tanned, domed; pan-fried — thin golden crust on the flat faces, pale sides; light Old Bay dusting either way; moist lumps at any break.
+  - Absent on purpose: a flat burger-shaped patty, deep char, fine uniform crumb, breadcrumb coating, heavy sauce pooling over the cake.
+  - Prompt-ready line: "Two domed crab cakes on crisp lettuce leaves on a white plate, each about the can's width and a third of its height, lightly golden with a thin crust and a dusting of reddish-orange seasoning; one broken open shows large distinct white lumps of crab with barely any binder. A lemon wedge and a small ramekin of tartar sauce at the rim. No char, no burger-flat patties."
 
 #### Dish: Steamed blue crabs (the Maryland crab feast)
 - Category: Special-occasion to everyday-in-season (a defining summer social ritual, priced/portioned as a group event)
@@ -229,6 +309,25 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a New England lobster bake/clambake (`us-northeast.md`) — a different shellfish, melted butter with no dry-seasoning register, and typically already-cracked shellfish rather than whole live-steamed crabs requiring mallets.
 - Confidence: HIGH overall for ritual format, tools, and Old Bay/color-change detail; MEDIUM for the brown-paper-vs-newspaper convention specifically
 - Sources: [Baltimore Magazine — How to Throw the Perfect Crab Feast](https://www.baltimoremagazine.com/section/fooddrink/how-to-throw-the-perfect-crab-feast/); [Cravin' Crabs — The Core of a Crab Feast](https://cravincrabs.com/the-core-of-a-crab-feast-exploring-what/); [Soul of America — Maryland Crab Tradition](https://www.soulofamerica.com/us-cities/annapolis/maryland-crab-tradition/); [McCormick — OLD BAY Steamed Blue Crabs](https://www.mccormick.com/blogs/old-bay-recipes/old-bay-steamed-blue-crabs)
+- Composition & proportions (§4.7) — a crab-feast table:
+  - What dominates: the pile of orange-red crabs ~50–60% of the table surface in frame; brown paper ~25–30% (with debris); corn, mallets and sides ~15%. [EDITORIAL]
+  - Components:
+
+    | Component | Real size | Count (table for 4 / one diner) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Steamed crab (#1 male) | Shell ~14–16 cm (5½–6¼ in) point to point — **a little wider than the can is tall** [MEDIUM — Cameron's Seafood (via search)]; ~20–23 cm with legs | ~2–4 dozen dumped / 4–8 in front of each diner [EDITORIAL] | Bright orange-red, Old Bay caked in joints | Heaped in the table's centre |
+    | Corn on the cob | Half or whole ears ~10–20 cm | 4–8 / 1–2 | Yellow, butter-glossy | At the pile's edge |
+    | Wooden mallets | ~25 cm | 1 per diner | Pale bare wood | Beside each place |
+    | Knives/picks | ~10 cm | 1 per diner | Small, plain | Beside mallets |
+    | Shell debris | Fragments 1–5 cm | Growing | Orange shell, white meat bits, yellow "mustard" | Scattered in front of each place |
+    | Butter/vinegar cups, extra Old Bay | Cups ~5 cm | 2–4 | — | Among the debris |
+
+  - Arrangement: crabs dumped in a loose central heap, legs interlocking; each place has a working area of cracked shells on the paper.
+  - Vessel fill/depth: no plates; brown paper covers the whole table.
+  - Served portion vs. whole dish: communal pile; each diner pulls crabs in front of them.
+  - State cues: moist shells, steam off the pile, damp seasoning-stained paper.
+  - Absent on purpose: lobster, clams, butter drenching, clean white plates, beer bottles or cans (alcohol rule), hands holding crabs up to camera, bibs with text.
+  - Prompt-ready line: "A long table covered in brown paper with a big central heap of steamed blue crabs, each shell a little wider than the can is tall, bright orange-red and caked with coarse reddish-orange seasoning in the joints. Around it: wooden mallets, small picks, half-ears of buttered corn, and scattered cracked shell fragments with seasoning dust staining the damp paper. Steam rising. No lobster, no plates."
 
 #### Dish: Soft-shell crab sandwich
 - Category: Everyday to special-occasion, strongly seasonal (late April through summer, molting season)
@@ -240,6 +339,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a whole steamed hard-shell crab (different shell texture/color, needs no mallet or picking tools) or a crab cake (processed picked meat, not a whole animal).
 - Confidence: HIGH for the Chesapeake-specificity and classic white-bread presentation; MEDIUM for the exact frying-vs-sautéing prevalence split
 - Sources: [Crab Place — Sautéed Soft-Shell Crab Sandwich](https://crabplace.com/sauteed-soft-shell-crab-sandwich/); [Cameron's Seafood — Maryland Soft Shell Crab Sandwich Recipe](https://www.cameronsseafood.com/blogs/recipes/soft-shell-crab-sandwich-recipe)
+- Composition & proportions (§4.7) — one sandwich:
+  - What dominates: the fried crab's splayed silhouette ~50% of the view from above (legs past the bread); the white bread ~40–45%; any lettuce or sauce a thin accent. [EDITORIAL]
+  - Components: crab ~10–13 cm (4–5 in, "hotel" to "prime" grades) point to point — **about the can's height**, legs reaching ~15–18 cm [MEDIUM — Virginia Seafood fact sheet (via search)]; white bread slices ~11–12 cm square [EDITORIAL]; legs overhang 2–4 cm on each side.
+  - Arrangement: one whole crab flat between two slices, top slice slightly offset or set beside to show the crab; legs splayed outward.
+  - Vessel fill/depth: on a white plate or paper-lined tray, nearly filling it; a few chips or a pickle optional.
+  - Served portion vs. whole dish: one sandwich (one crab) per person.
+  - State cues: crisp golden body, darker crisp leg tips, light oil on the paper.
+  - Absent on purpose: bun or hoagie roll, orange steamed shell, heavy lettuce/tomato stack, thick batter coating.
+  - Prompt-ready line: "A whole fried soft-shell crab about the can's height across, golden-brown and lightly crisp, lying flat on a slice of soft white bread with its thin darker crisp legs splayed out well beyond the bread's edges; the top slice set just askew. On a paper-lined tray. No bun, no orange steamed shell, no thick batter."
 
 #### Dish: Baltimore pit beef sandwich
 - Category: Everyday (a roadside-stand and cookout staple)
@@ -252,6 +360,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a generic deli roast-beef sandwich (uniformly gray-brown, no charred edge, served cold) or the Philly cheesesteak/Chicago Italian beef family (cooked-down or griddled meat rather than a rare-charred whole roast shaved to order, and neither uses horseradish-mayo as its signature sauce).
 - Confidence: HIGH for composition, sauce, and the char/pink-interior signature; MEDIUM for the exact origin decade
 - Sources: [America's Test Kitchen — Baltimore Pit Beef](https://www.americastestkitchen.com/recipes/6565-baltimore-pit-beef); [Sandwich Tribunal — Regional RBs: Maryland's Pit Beef](https://www.sandwichtribunal.com/2024/12/regional-rbs-marylands-pit-beef/)
+- Composition & proportions (§4.7) — one sandwich:
+  - What dominates: the pile of shaved pink beef ~60% of the side view, spilling past the roll; the kaiser roll ~30%; raw onion slice and sauce ~10%. [EDITORIAL]
+  - Components: ~6–8 oz (170–225 g) beef per sandwich [MEDIUM — Virtual Weber Bullet (via search)]; kaiser roll ~10–11 cm across — **about one and a half times the can's width** [EDITORIAL]; meat piled ~5–7 cm, paper-thin slices; one raw onion slice ~0.5–1 cm thick; sauce a thick smear.
+  - Arrangement: meat loosely folded and heaped, draping over the roll edge; onion slice on top, top half of roll leaning against or on the pile.
+  - Vessel fill/depth: in a foil wrap opened flat or on a paper plate; no ceramic plate.
+  - Served portion vs. whole dish: one sandwich per person.
+  - State cues: moist rosy slices, dark charred edge rings, warm but no steam from the onion.
+  - Absent on purpose: grey uniformly cooked beef, cheese, lettuce, gravy, jus cup, bbq sauce.
+  - Prompt-ready line: "A round crusty kaiser roll about one and a half times the can's width, heaped with paper-thin slices of rosy pink-red beef, each edged with a thin dark charred ring, piled loosely and spilling over the sides. A thick slice of raw white onion on top and a smear of thick off-white horseradish sauce. On opened foil. No cheese, no grey meat, no barbecue sauce."
 
 #### Dish: Washington DC half-smoke
 - Category: Everyday, strongly tied to a specific carryout-counter dining register
@@ -263,6 +380,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a Chicago-style, Coney, Sonoran, or NY cart hot dog (`us.md`) — the half-smoke's larger size, coarser natural-casing snap, and bean-free thick chili topping are the checkable differentiators.
 - Confidence: HIGH for core composition and topping convention; MEDIUM for the sausage's precise historical origin
 - Sources: [Washington.org — Everything You Need to Know About DC's Signature Dish](https://washington.org/visit-dc/dc-signature-half-smoke-all-you-need-to-know); [Food Republic — Why Are Washington DC Hot Dogs Called 'Half-Smoke'?](https://www.foodrepublic.com/1493996/why-washington-dc-hot-dogs-half-smoke/)
+- Composition & proportions (§4.7) — one half-smoke "all the way":
+  - What dominates: chili ~40% of the top view, the bun ~35%, the exposed sausage ends ~10–15%, onions and mustard ~10%. [EDITORIAL]
+  - Components: quarter-pound sausage, ~15–20 cm long, ~2.5–3.5 cm thick — **longer than the can is tall** [MEDIUM — half-smoke guides and a sausage-maker listing (via search); secondary-tier sourcing]; bun ~15 cm, sausage overhanging 1–3 cm each end; chili ~1–1.5 cm deep ladled over the middle; mustard one straight stripe; onions a scatter.
+  - Arrangement: sausage split and griddled, char streak along it, chili on top, onions over the chili, mustard stripe along the length.
+  - Vessel fill/depth: in a paper boat or open foam clamshell; no plate.
+  - Served portion vs. whole dish: one or two per person.
+  - State cues: glossy blistered casing, thick matte clinging chili, steam.
+  - Absent on purpose: beans in the chili, cheese, relish, ketchup, a standard thin hot dog.
+  - Prompt-ready line: "A thick coarse-ground smoked sausage, longer than the can is tall, split and griddled with a dark charred streak, its ends poking out of a soft bun in an open paper boat. Over it, a thick matte reddish-brown meat chili, a scatter of raw diced white onion and one straight stripe of bright yellow mustard, each topping distinct. No beans, no cheese, no relish."
 
 #### Dish/condiment: Mumbo sauce (DC carryout condiment)
 - Category: Everyday — a condiment distinct and iconic enough in DC food culture to warrant its own entry, the same logic that gave Tiger Sauce a dedicated callout above
@@ -273,6 +399,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a standard American red BBQ sauce (mumbo sauce is thinner, closer to a sweet-and-sour or plum-sauce consistency) or DC's half-smoke chili topping (glossy/smooth here vs. matte and visibly chunky with meat there).
 - Confidence: MEDIUM-HIGH for the visual/consistency description; MEDIUM for the Chicago-origin transmission story
 - Sources: [AFRO American Newspapers — From mambo sauce to half smokes](https://afro.com/from-mambo-sauce-to-half-smokes-d-c-culture-shines-through-its-staple-foods/); [AmazingRibs.com — The Backstory And Recipe For DC's Special Sauce](https://amazingribs.com/tested-recipes/other-fun-sauce-recipes/mumbo-sauce/)
+- Composition & proportions (§4.7) — on a carryout wings-and-fries order:
+  - What dominates: fried wings ~50% of the container, fries ~35–40%, the sauce ~10–15% — a glossy drizzle over about a third to half of the wing surface, not a drench. [EDITORIAL]
+  - Components: 4–6 wing pieces ~6–8 cm each — **about the can's width** [EDITORIAL]; fries a loose heap; sauce lines ~0.5–1 cm and small pools; optional side cup ~5 cm.
+  - Arrangement: wings on one side, fries on the other, sauce zigzagged over both.
+  - Vessel fill/depth: open foam clamshell ~23 cm, food to the rim.
+  - Served portion vs. whole dish: one clamshell per person.
+  - State cues: sauce glossy and wet on the matte craggy breading; a little pooling in the corners.
+  - Absent on purpose: thick dark smoky barbecue sauce, sauce soaking the crust soggy, sesame seeds, celery sticks and blue-cheese cups, legible container labels.
+  - Prompt-ready line: "An open white foam takeout clamshell with a pile of craggy, matte golden fried chicken wings, each about the can's width, beside a heap of fries. Glossy, smooth, translucent orange-red sauce is drizzled over the wings and part of the fries in wet ribbons, pooling slightly in the corners, the crisp breading still visible beneath. No dark barbecue sauce, no celery, no sesame."
 
 #### Dish: Smith Island cake (Maryland's official state dessert)
 - Category: Special-occasion, increasingly an everyday bakery item beyond the island itself
@@ -283,6 +418,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a standard American two-to-three-layer cake — the number of distinct thin layers visible in cross-section is the checkable difference.
 - Confidence: HIGH for state-dessert status and general construction; MEDIUM for the precise historical layer-count evolution
 - Sources: [Chesapeake Bay Magazine — The Secret History of Smith Island Cake](https://www.chesapeakebaymagazine.com/the-secret-history-of-smith-island-cake/); [Maryland State Archives — Smith Island Cake](https://msa.maryland.gov/msa/mdmanual/01glance/symbols/html/dessert.html); [Paste Magazine — The Enigmatic Origin of Maryland's Most Storied Dessert](https://www.pastemagazine.com/food/dessert/what-is-maryland-smith-island-cake)
+- Composition & proportions (§4.7) — one slice:
+  - What dominates: in the cut face, yellow cake ~65–70% of the height, chocolate icing ~30–35%, in fine alternating stripes; from outside, the dark icing coats 100%. [EDITORIAL]
+  - Components: whole cake ~23 cm (9 in) across, only ~7.5–10 cm (3–4 in) tall — **under the can's height** [MEDIUM — Sally's Baking Addiction (via search)]; most recipes 8–10 layers [MEDIUM — recipe sources (via search)]; each cake layer ~5–8 mm, icing ~2–3 mm; slice ~1/12, narrow.
+  - Arrangement: one narrow wedge on its side or point forward, stripes facing camera.
+  - Vessel fill/depth: centred on a small white plate with empty space around; a fork beside.
+  - Served portion vs. whole dish: one thin slice per person.
+  - State cues: fudge-like icing set and matte, fine moist crumb, crisp stripe lines.
+  - Absent on purpose: thick buttercream bands, 2–3 thick layers, sprinkles, fruit, whipped cream.
+  - Prompt-ready line: "One narrow wedge of layer cake on a small white plate, just under the can's height, its cut face striped with about nine thin, even, pale yellow cake layers alternating with thin dark chocolate fudge icing, the whole slice coated in the same matte dark icing. A fork beside it. No thick frosting, no sprinkles, no fruit."
 
 #### Dish: Smithfield ham / Virginia ham (Tidewater Virginia)
 - Category: Special-occasion (a traditional holiday-table dish) to everyday (as ham biscuits)
@@ -294,6 +438,15 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a generic pink, moist, glazed "holiday ham" — the dry, dark, dense, salty country-ham form is the defining difference. Should also not be confused with a generic fast-food breakfast biscuit — the ham biscuit's ham is thin-sliced and dark reddish-brown/aged-looking, not a thick, pale, griddled breakfast ham steak.
 - Confidence: HIGH for the legal/geographic designation and country-ham-vs-glazed-ham contrast; MEDIUM for the ham-biscuit's specific visual-proportion detail
 - Sources: [Virginia.org — The History Behind Virginia Ham](https://www.virginia.org/blog/post/virginia-ham-history/); [Southern Foodways Alliance — Ham to Ham Combat: The Tale of Two Smithfields](https://www.southernfoodways.org/ham-to-ham-combat-the-tale-of-two-smithfields/); [Garden & Gun — The History of Country Ham](https://gardenandgun.com/articles/history-country-ham/)
+- Composition & proportions (§4.7) — whole-ham platter or a ham-biscuit tray:
+  - What dominates: whole ham — the dark rind-covered ham ~60% of the platter, fanned thin slices ~40%. Ham biscuits — the golden biscuits ~80% of each piece, the ham a thin dark edge ~20%. [EDITORIAL]
+  - Components: whole ham ~30–40 cm long [EDITORIAL]; slices paper-thin ~1–3 mm, ~8–12 cm long; biscuits ~5–6 cm across — **a little under the can's width** — one thin slice each, ~8–12 on a tray [EDITORIAL].
+  - Arrangement: platter — ham at one end, slices overlapping in a fan; tray — biscuits in neat rows, ham peeking out the sides.
+  - Vessel fill/depth: platter mostly covered; tray filled edge to edge.
+  - Served portion vs. whole dish: holiday plate = 3–5 thin slices; party = 2–3 biscuits per person.
+  - State cues: dry, dense, matte surfaces; biscuits craggy and flaky, room temperature.
+  - Absent on purpose: glossy pink glaze, pineapple rings and cloves, thick ham steaks, a thick stack in the biscuit.
+  - Prompt-ready line: "A silver tray lined with rows of small golden-brown buttermilk biscuits, each a little under the can's width, split with a single paper-thin slice of dark reddish-brown cured ham peeking out at the edges, never overhanging much. The biscuits are craggy and flaky, the ham dry and matte, everything at room temperature. No glaze, no pineapple, no thick ham slices."
 
 #### Dish: Chesapeake oysters (raw bar / on the half shell)
 - Category: Everyday to special-occasion (a raw-bar staple; historically a cheap, everyday food, now often positioned as a more special/upscale order)
@@ -305,11 +458,21 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 - Common confusion: Should not be confused with a West Coast oyster variety (smaller, deeper-cupped, often more strongly flavored) — not independently confirmed as a specific visual comparison this pass, flagged as plausible but unconfirmed.
 - Confidence: HIGH for species identity, historical abundance, and general presentation; MEDIUM for the etymological claim and Chesapeake-vs-West-Coast visual comparison
 - Sources: [Virginia Museum of History & Culture — Oysters in Virginia](https://virginiahistory.org/learn/oysters-virginia); [Virginia.org — The Virginia Oyster: 400 Years of History](https://www.virginia.org/blog/post/virginia-oyster-history/); [Baltimore Sun — A brief history of oysters in the Chesapeake Bay](https://www.baltimoresun.com/2014/06/03/a-brief-history-of-oysters-in-the-chesapeake-bay-2/)
+- Composition & proportions (§4.7) — a dozen on the half shell:
+  - What dominates: the ring of rough grey shells ~50–60% of the platter; the white crushed ice showing between ~30–40%; lemon and sauce cup ~10%. [EDITORIAL]
+  - Components: shells ~7.5–11 cm (3–4½ in) hinge to bill — **a little over the can's width** [MEDIUM — Virginia Seafood fact sheets, oyster grading guides (via search)]; meat fills ~60–70% of the cup; platter ~30–35 cm round; 6 or 12 per order [EDITORIAL]; 2 lemon wedges; one small sauce cup ~5 cm.
+  - Arrangement: oysters in a ring on the ice, hinges toward the centre, sauce cup and lemon in the middle.
+  - Vessel fill/depth: ice heaped ~2–3 cm deep, filling the platter; shells nested into it.
+  - Served portion vs. whole dish: a dozen shared by two, or a half-dozen per person.
+  - State cues: glistening wet meat, liquor in each cup, ice crystals, slight melt.
+  - Absent on purpose: pearls, seaweed heaps, dry or shrivelled meat, grilled toppings, wine or beer glasses (alcohol rule), a hand lifting a shell.
+  - Prompt-ready line: "A round platter of bright white crushed ice with a ring of twelve raw oysters on the half shell, each rough grey-white shell a little longer than the can is wide, cupping a glistening pale grey-beige oyster in its own clear liquid. Two lemon wedges and a small cup of red cocktail sauce sit in the centre. No seaweed, no pearls, no toppings."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across both research passes** — confirmed directly against en.wikipedia.org. Every citation to Wikipedia and other blocked domains relies on WebSearch excerpting, not a full page read.
 - **Delaware's coastal/Delaware Bay food culture, independent of its Sussex-County/Pennsylvania-Dutch-adjacent identity, was not researched by either pass** — the Philadelphia/PA pass explicitly deferred it to the Chesapeake pass, and the Chesapeake pass's scope was Maryland/DC/Virginia only. A real gap between the two passes, not a covered topic — flagged for a future pass.
 - **Philadelphia tomato pie vs. Rhode Island pizza strips**: no source found that directly compares these two visually similar, cheese-free, room-temperature, rectangular bakery items — flagged honestly rather than inventing a differentiator.
