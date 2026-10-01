@@ -540,6 +540,336 @@ Martin-procession or children's-birthday scene; frame family scenes on
 adults with the product. [CONFIDENCE: HIGH — grounded in TCCC's own public
 Responsible Marketing Policy, cited above]
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+The FESTIVAL & OCCASION CALENDAR above stays the calendar index; this
+section is the staging layer for each celebration, per schema §5.7. The
+alcohol-exclusion rule and the children and schools caution (both in FILE
+ROLE & METHOD) apply to every entry: German celebrations very often carry
+beer, wine or Sekt on the table in reality, and none may appear in frame.
+The beverage-scope rule also keeps coffee cups and pots out of every
+Kaffeetafel scene.
+
+### How large gatherings work here
+
+- **Who gathers.** Family celebrations are mostly the extended family plus
+  godparents and close friends: about 6 to 10 for Christmas, about 10 to
+  25 for a confirmation, communion or round-number birthday, and
+  roughly 40 to 80 for a wedding (survey figures vary, see the wedding
+  entry). Summer grilling gathers friends and neighbours, about 6 to 15.
+  [MEDIUM for wedding figures; EDITORIAL for the rest]
+- **Where (intake venues).** *Home indoor*: Christmas Eve, the Christmas
+  feast, Silvester raclette and the birthday Kaffeetafel, usually in the
+  living-dining room of a rented apartment (see ENVIRONMENT). *Restaurant*:
+  confirmations and communions very often book a family restaurant's
+  side room for lunch, and round-number birthdays do too. *Home outdoor*:
+  the summer Grillfest in a garden, allotment (*Schrebergarten*) or on a
+  balcony; park grilling is the public variant. *Other*: weddings in a
+  rented hall, country inn or estate. [MEDIUM — Känguru and restaurant
+  sources for communion venues; EDITORIAL elsewhere]
+- **Table form and serving style.** One long table, often two tables
+  pushed together with a white or seasonal tablecloth, everyone seated.
+  Home festive meals are served family-style from bowls and platters
+  (dumplings in a bowl, red cabbage in a bowl, the goose carved on a
+  platter). Restaurant celebrations are either a set plated menu or a
+  buffet. The **Kaffeetafel** (afternoon coffee-and-cake table) is the
+  signature German celebration format: several whole cakes (*Torten* and
+  sheet-cake squares) on cake stands and platters down the middle, cake
+  plates and cake forks at each seat, a bowl of whipped cream. Many
+  celebrations run in two parts: a midday meal, then the Kaffeetafel at
+  about 15:00. [MEDIUM-HIGH — Kaffee und Kuchen block above; Känguru;
+  deutschland-feiert.de]
+- **Plate and cutlery norms that differ from everyday.** The "good"
+  china and cloth napkins come out; cake forks and 19 to 20cm cake
+  plates for the Kaffeetafel; candles on the table at Christmas and
+  birthdays. At a Grillfest, plates are often everyday melamine or
+  paper, with a bread basket and bowls of salads. [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most authentic
+  German cues for an implied crowd are: (1) a long table with a white
+  cloth running out of frame, with a row of identical cake plates or
+  dinner plates continuing beyond the visible settings; (2) more whole
+  cakes or salad bowls than the visible diners could eat (two or three
+  Torten on stands for a Kaffeetafel; four or five salad bowls at a
+  Grillfest); (3) occasion-specific table decor at the frame edge (an
+  Advent wreath or candle arch, a birthday candle ring, a table-centre
+  flower arrangement). Blurred relatives in the background stay within
+  the 2.5-face limit. [EDITORIAL]
+
+#### Celebration: Christmas Eve dinner (Heiligabend, 24 December)
+- Type: calendar holiday.
+- When: 24 December, evening, after the Bescherung (gift-giving) or
+  before it; intake time evening (dark by about 16:30).
+- Gathering: the nuclear family, often with grandparents, about 4 to 8;
+  home indoor, at the dining table near the tree. [EDITORIAL]
+- The spread: the most common Christmas Eve dish is deliberately simple:
+  **Kartoffelsalat mit Würstchen** (potato salad with Wiener or
+  Frankfurter sausages), named by about a third of Germans in Statista's
+  2024 survey (36%) and in YouGov's (32%). [HIGH — Statista and YouGov
+  Deutschland, both 2024] See catalog: Kartoffelsalat (match the region:
+  vinegar style in the South, mayonnaise style in the North and East).
+  Sausages are heated whole, pale pink, about 15 to 20cm, in a pot or a
+  bowl; mustard on the table. Fish (carp, salmon) and raclette or fondue
+  are real alternatives. A real table carries 2 to 4 shared vessels: a
+  large bowl of potato salad, a dish or pot of sausages, mustard, a
+  bread basket. [EDITORIAL for counts]
+- Snapshot staging: **1 setting**: one plate with a heap of potato salad
+  and two sausages, a dab of mustard, the big potato-salad bowl and the
+  sausage dish just behind, a lit candle and a fir sprig. **2 settings**:
+  two identical plates, the potato-salad bowl between them, the sausage
+  dish and mustard jar, the tree's lights soft behind. **Small group**:
+  three or four plates at one end, both bowls central, a candle arch or
+  Advent wreath at the far edge. Cues: the decorated tree with warm
+  lights blurred in the background; wrapped gifts under it; extra
+  chairs. [EDITORIAL]
+- Decor and cues: real candles, straw stars, a wooden candle arch
+  (*Schwibbogen*, Erzgebirge style) on a windowsill. Avoid: an
+  American-style "Christmas dinner" with turkey; snow-globe kitsch.
+- Never stage: beer bottles or Sekt beside the potato salad (a strong
+  prior); church service or nativity scenes as the subject; a child as
+  the drinker.
+- Confidence and sources: HIGH for the dish ([Statista — Umfrage zum
+  Essen an den Weihnachtsfeiertagen 2024](https://de.statista.com/statistik/daten/studie/778023/umfrage/umfrage-in-deutschland-zum-essen-an-den-weihnachtsfeiertagen);
+  [YouGov Deutschland — Lieblingsgerichte der Deutschen zu Weihnachten](https://yougov.de/consumer/articles/51178-die-lieblingsgerichte-und-lieblingslebensmittel-der-deutschen-zu-weihnachten));
+  EDITORIAL for staging.
+
+#### Celebration: Christmas feast (1. und 2. Weihnachtsfeiertag, 25–26 December)
+- Type: calendar holiday.
+- When: 25 and/or 26 December, midday meal (about 12:00 to 14:00);
+  intake time midday. Families often split the two days between the two
+  sets of grandparents.
+- Gathering: extended family, about 6 to 12; home indoor (often the
+  grandparents' home). [EDITORIAL]
+- The spread: **roast goose** with red cabbage and potato dumplings is
+  the classic (see catalog: Roast goose (Christmas / St. Martin)), with
+  duck, Rinderrouladen (see catalog: Rinderrouladen) or Sauerbraten (see
+  catalog: Sauerbraten) as common alternatives; dumplings per catalog:
+  Knödel (dumplings). Dessert or the Kaffeetafel follows with Stollen and
+  Christmas biscuits. Shared vessels: the goose on a platter (carved,
+  legs separated), a bowl of dumplings, a bowl of red cabbage, a gravy
+  boat; about 4 to 6. [MEDIUM-HIGH — calendar row above; catalog entries]
+- Snapshot staging: **1 setting**: one plate with a goose leg, a dumpling
+  in gravy and red cabbage (per the catalog's prompt-ready line), the
+  goose platter cropped behind, the red-cabbage bowl in the midground.
+  **2 settings**: two identical plates, the carved goose between them,
+  dumpling bowl and gravy boat. **Small group**: three or four plates at
+  one end of the white-clothed table, all bowls central. Cues: a long
+  table leaving frame with more place settings; an Advent wreath or
+  candles; the tree blurred behind; winter window light at midday.
+  [EDITORIAL]
+- Decor and cues: white or red tablecloth, fir sprigs, candles, the good
+  china. Avoid: orange slices on the goose (an anti-pattern in the
+  catalog), an overly baroque banquet.
+- Never stage: red wine (the most common prior beside goose); church or
+  nativity imagery as the subject.
+- Confidence and sources: MEDIUM-HIGH (calendar sources and catalog
+  entries); EDITORIAL for staging.
+
+#### Celebration: New Year's Eve raclette (Silvester, 31 December)
+- Type: calendar holiday.
+- When: 31 December, a long evening meal from about 19:00, eaten slowly
+  until midnight; intake time evening.
+- Gathering: friends or family, about 4 to 8 around one table (a
+  raclette grill serves about 8); home indoor. [MEDIUM — the grill's
+  ~8 pans, catalog entry]
+- The spread: see catalog: New Year's Eve raclette (*Silvester*) for the
+  grill, pans, potatoes and bowls; fondue is the alternative. The table
+  carries the grill plus about 6 to 10 small bowls (potatoes, pickles,
+  sliced meats, peppers, mushrooms, onions, corn), more than any other
+  German occasion. [MEDIUM-HIGH — catalog entry]
+- Snapshot staging: **1 setting**: one small plate with two potatoes
+  under scraped cheese and a pan in hand-off position, the grill's
+  corner in frame, three small bowls behind. **2 settings**: two
+  identical plates either side of the grill's end, pans slid in at
+  angles. **Small group**: three or four plates around the grill, the
+  far side of the table and its bowls soft. Cues: more raclette pans
+  than visible diners (eight pans, four people visible); the grill's
+  cable running off the table; fireworks through the window, soft and
+  distant. [EDITORIAL]
+- Decor and cues: streamers, small table confetti, lucky-charm
+  decorations (four-leaf clover, chimney sweep, pig figures, a German
+  Silvester custom). Avoid: indoor fireworks, legible "2027" banners.
+- Never stage: Sekt glasses and the midnight toast; Feuerzangenbowle
+  (a rum-based punch); the lead-pouring custom is fine only without
+  any drink.
+- Confidence and sources: MEDIUM-HIGH (catalog entry); EDITORIAL for
+  staging and the lucky-charm cue [MEDIUM — common knowledge, not
+  searched this pass].
+
+#### Celebration: Easter Sunday lunch (Ostersonntag)
+- Type: calendar holiday.
+- When: Easter Sunday, midday (intake time midday); the Easter breakfast
+  or brunch earlier in the day is out of scope.
+- Gathering: extended family, about 6 to 12; home indoor, or a
+  restaurant lunch. [EDITORIAL]
+- The spread: **roast lamb** (leg or shoulder) is the traditional Easter
+  Sunday main, served with bread dumplings, potatoes or fried potatoes
+  and green beans; regional variants and other roasts are common. The
+  **Osterlamm** cake (a sponge cake baked in a lamb-shaped mould,
+  dusted with powdered sugar, about 20 to 25cm long, roughly twice the
+  can's height when standing) and a sweet yeast braid (*Osterzopf*)
+  belong to the afternoon Kaffeetafel. [MEDIUM — Hessen consumer portal
+  and German food sources] No roast-lamb or Osterlamm catalog entry
+  exists; added to CANDIDATE QUEUE. Roast lamb reads as a browned
+  joint, pink when sliced, on a carving board; see catalog: Knödel
+  (dumplings) for the sides. Shared vessels: 4 to 6.
+- Snapshot staging: **1 setting**: one plate with two lamb slices, a
+  dumpling, green beans and gravy, the carved joint on its board cropped
+  behind, a bowl of potatoes. **2 settings**: two identical plates, the
+  lamb board and a vegetable bowl between them, a small vase of spring
+  flowers. **Small group**: plates at one end, the Osterlamm cake on a
+  stand at the far end, partly cropped. Cues: a vase of branches hung
+  with painted eggs (*Osterstrauch*); a bowl of dyed eggs; bright spring
+  light. [EDITORIAL]
+- Decor and cues: the Easter-egg branch, pastel napkins. Avoid: US-style
+  Easter-bunny props.
+- Never stage: the church blessing of the Osterlamm cake; wine.
+- Confidence and sources: MEDIUM ([Verbraucherfenster Hessen — Das
+  Osterlamm](https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/das-osterlamm-traditionelle-leckerei-aus-der-backform);
+  [speisekarte.de — Das Osterlamm](https://www.speisekarte.de/blog/2025/04/11/das-osterlamm-bedeutung-brauch-zubereitung/));
+  EDITORIAL for staging.
+
+#### Celebration: Birthday Kaffeetafel and children's party (Geburtstag)
+- Type: life event.
+- When: the family birthday is an afternoon Kaffee und Kuchen at about
+  15:00, often moved to the weekend (intake time midday to golden-hour);
+  round-number adult birthdays (30, 50, 60) add an evening meal or a
+  restaurant booking (evening). [MEDIUM — deutschland-feiert.de]
+- Gathering: grandparents, parents, siblings and close friends, about 6
+  to 15 at home; children's parties are 6 to 12 children at home or a
+  play venue. Home indoor, home outdoor in summer. [MEDIUM]
+- The spread: the **Kaffeetafel**: two to four cakes chosen from the
+  catalog's Kaffee und Kuchen block (Black Forest cake, Käsekuchen,
+  plum cake, Streuselkuchen, Bienenstich), a whipped-cream bowl, the
+  birthday cake with candles. For a children's party, savoury basics
+  first (sausages, mini pizzas, hot dogs) then cake, muffins and waffles.
+  [MEDIUM — familie.de and lecker.de party-food articles; catalog block]
+- Snapshot staging: **1 setting**: one cake plate with a slice of Black
+  Forest cake and a cake fork, the whole Torte on a stand partly cropped
+  behind, a bowl of whipped cream; no coffee cup (beverage scope).
+  **2 settings**: two identical cake plates (same cake), a second cake
+  (plum cake squares) on a platter between them. **Small group**: three
+  or four settings, two or three cakes down the middle, the birthday
+  cake with a candle ring at the far end. Cues: a wooden birthday ring
+  with candles (*Geburtstagskranz*) in front of the honoree's seat;
+  flowers in a vase; a gift table soft at the edge. [EDITORIAL]
+- Decor and cues: patterned or lace tablecloth, the good cake service,
+  a garland. Avoid: legible name banners.
+- Never stage: coffee cups or pots (beverage scope); Sekt for the
+  toast; a child under about 13 as the drinker.
+- Confidence and sources: MEDIUM ([deutschland-feiert.de —
+  Geburtstagstraditionen](https://www.deutschland-feiert.de/geburtstage/geburtstagstraditionen/);
+  [familie.de — Essen zum Kindergeburtstag](https://www.familie.de/diy/rezepte/essen-zum-kindergeburtstag/));
+  EDITORIAL for staging.
+
+#### Celebration: Confirmation and First Communion (Konfirmation, Erstkommunion)
+- Type: life event (religious milestone; staging is the family meal only).
+- When: spring, from the Sunday after Easter through mid-May; a
+  restaurant lunch after the church service (intake time midday), then
+  Kaffee und Kuchen in the afternoon. [MEDIUM — Känguru]
+- Gathering: godparents, grandparents, aunts and uncles, about 10 to 25;
+  a family restaurant's side room (restaurant) or at home (home indoor),
+  sometimes catered. Restaurants book up months ahead in this season.
+  [MEDIUM — Känguru; restaurant event pages]
+- The spread: a set restaurant menu with a choice of pork, poultry or
+  fish mains (see catalog: Schweinsbraten, Rinderrouladen, Schnitzel
+  Wiener Art) or a hot buffet; afterwards the family's own cake buffet,
+  which some restaurants allow. [MEDIUM — Känguru; restaurant event
+  pages] Shared vessels at a buffet: chafing dishes in a row; at a set
+  menu, only bread baskets and the flower centrepiece.
+- Snapshot staging: **1 setting**: one plated main (Schweinsbraten with
+  a dumpling and gravy) on a white-clothed restaurant table, a small
+  spring-flower arrangement and a folded napkin, the table running on
+  out of frame with identical settings. **2 settings**: two identical
+  plates side by side on the long table, the bread basket between.
+  **Small group**: three or four settings on one stretch of the long
+  table; a second laid table soft behind. Cues: identical place settings
+  continuing beyond the frame; a white-and-green table runner or small
+  candles; blurred relatives in their best clothes. The honoree (aged
+  about 9 for communion, about 14 for confirmation) is never shown with
+  the product. [EDITORIAL]
+- Decor and cues: spring flowers, white table linen, a restaurant side
+  room with wood panelling. Avoid: the church interior, the baptismal
+  or communion candle as a prop next to the product.
+- Never stage: the service, crosses, chalices or the communion wafer;
+  wine at the table; the child honoree as the drinker.
+- Confidence and sources: MEDIUM ([Känguru — Kommunion und Konfirmation
+  richtig planen](https://www.kaenguru-online.de/themen/familienleben/kommunion-und-konfirmation-richtig-planen);
+  restaurant event pages, lower tier); EDITORIAL for staging.
+
+#### Celebration: Wedding (Hochzeit)
+- Type: life event.
+- When: May to September, Saturdays; the meal after the ceremony runs
+  from late afternoon into evening (golden-hour, then evening); the
+  Kaffeetafel with the wedding cake often comes first, in the afternoon.
+- Gathering: survey figures differ: about 65 to 82 guests in two
+  consumer surveys, while caterer enquiries average about 38 in a 2026
+  report; smaller weddings are clearly rising. A rented hall, country
+  inn or estate; long tables or round tables (venue: other). [MEDIUM —
+  Hochzeitsreport 2026 (Appinio survey, via gastgewerbe-magazin) and
+  wedding-industry pages, flagged per §6]
+- The spread: a hot **buffet** or a plated three-course menu, with roasts
+  (see catalog: Schweinsbraten, Sauerbraten), Spätzle (see catalog:
+  Käsespätzle), salads and a dessert buffet; the tiered wedding cake;
+  a late-night snack (Currywurst or Gulaschsuppe; see catalog: Currywurst)
+  is a common German wedding custom. [MEDIUM for buffet and cake;
+  LOW for the late-night snack, general knowledge]
+- Snapshot staging: **1 setting**: one plate from the buffet (roast
+  slices, Spätzle, salad) at a white-clothed long table, a flower
+  centrepiece partly cropped, a blank name card. **2 settings**: two
+  identical plates, the centrepiece between them, the row of settings
+  continuing. **Small group**: three or four settings, the buffet line
+  with chafing dishes soft in the background. Cues: long table out of
+  frame; buffet station soft behind; fairy lights or a barn interior.
+  [EDITORIAL]
+- Decor and cues: white linen, greenery runners, candles. Avoid: the
+  couple as identifiable subjects; legible seating plans.
+- Never stage: Sekt reception, wine, beer, the toast; the Polterabend
+  (a drinking-led eve-of-wedding party).
+- Confidence and sources: MEDIUM ([gastgewerbe-magazin — Hochzeitsreport
+  2026](https://gastgewerbe-magazin.de/hochzeitsreport-2026-kleiner-kreis-statt-grosser-show-welche-hochzeiten-die-deutschen-wirklich-moegen-72991);
+  [pureperfect-weddings — Zahlen & Fakten](https://pureperfect-weddings.de/hochzeit/zahlen-fakten-rund-um-das-thema-hochzeit/));
+  EDITORIAL for staging.
+
+#### Celebration: Summer Grillfest (Grillen with friends and neighbours)
+- Type: community or family gathering (recurring, May to September).
+- When: weekend afternoon into evening (golden-hour is the strongest
+  intake time; long light evenings to about 21:30 in June).
+- Gathering: friends, neighbours or the extended family, about 6 to 15;
+  home outdoor (garden, allotment, balcony) or a park (other). Grilling
+  is mass behaviour: about seven in ten Germans grilled in 2026 per
+  YouGov. [HIGH for prevalence — YouGov Deutschland Grillsaison-Bilanz
+  2026; MEDIUM for headcount, EDITORIAL]
+- The spread: bratwurst (see catalog: Bratwurst im Brötchen; Thüringer
+  or Nürnberger forms), marinated pork neck steaks (*Nackensteak*, the
+  most-searched grill cut), chicken, halloumi or vegetarian sausages;
+  shared salads that guests bring (see catalog: Kartoffelsalat; pasta
+  salad), a bread basket or baguette, ketchup, mustard, herb butter.
+  [MEDIUM-HIGH — YouGov; Statista; ENVIRONMENT outdoor scenario] Shared
+  vessels: 4 to 7 salad bowls plus a platter of grilled meat; a
+  Grillfest table carries more salads than any other occasion.
+- Snapshot staging: **1 setting**: one plate with a bratwurst, a spoon of
+  potato salad and pasta salad, a slice of baguette, on an oilcloth-
+  covered garden table; the grilled-meat platter and two salad bowls in
+  frame, cropped. **2 settings**: two identical plates, the salad bowls
+  and bread basket between them. **Small group**: three or four plates
+  at one end of a long garden table, the grill smoking soft in the
+  background. Cues: the grill and its smoke soft behind; a row of salad
+  bowls with cling film just lifted; a returnable crate at the edge
+  (empty or with the hero product only); hedged allotment plot or
+  balcony geraniums. [EDITORIAL]
+- Decor and cues: oilcloth tablecloth, folding chairs, string lights at
+  dusk. Avoid: beer garden settings, Oktoberfest dress.
+- Never stage: beer bottles or crates of beer (the strongest prior in
+  this scene; prompt "no beer, no bottles other than the hero product");
+  grill-master-with-beer clichés.
+- Confidence and sources: HIGH for prevalence ([YouGov Deutschland —
+  Grillsaison-Bilanz 2026](https://yougov.com/de-de/artikel/55433-grillsaison-bilanz-2026-fast-sieben-von-zehn-deutschen-haben-dieses-jahr-gegrillt));
+  MEDIUM for menu; EDITORIAL for staging.
+
 ---
 
 ## DISH CATALOG
@@ -2989,6 +3319,14 @@ copyrighted design.
 - **Returnable-crate storage as a domestic realism cue** is carried from
   the draft as a plausible, widely-recognized convention, not independently
   re-verified with a dedicated new source this pass.
+- **Celebrations pass (2026-10-01) open items.** Wedding guest numbers
+  conflict (about 38 in caterer enquiries vs. 65 to 82 in consumer
+  surveys); all are industry or survey-platform figures read only in
+  search summaries. Headcounts for Christmas, Easter, birthdays and
+  confirmations are editorial. The late-night wedding snack (Currywurst,
+  Gulaschsuppe) and the Silvester lucky-charm decor are general knowledge,
+  not searched. Easter Sunday lamb is documented by food and consumer-
+  portal sources; no survey of how many families actually eat it.
 
 ## CANDIDATE QUEUE
 
@@ -3020,6 +3358,10 @@ copyrighted design.
    so every future country file inherits the citation rather than
    re-discovering it. Not done in this pass, to avoid colliding with the
    parallel Spain-file session's own edits to shared files.
+7. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): roast lamb (Easter); Osterlamm cake and Osterzopf
+   (compact sweets rows); Stollen and Christmas biscuits (compact rows);
+   Wiener/Frankfurter sausages as the Christmas Eve pairing (compact).
 
 ## RESEARCH LOG
 
@@ -3114,3 +3456,11 @@ copyrighted design.
   schema §7.5's naming convention) pointing back to it rather than
   duplicating it — the same "one authoritative location, not two
   overlapping lists" principle schema §4.3 applies to style-map entries.
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (Christmas
+  Eve dish surveys, communion/confirmation venues, wedding guest numbers,
+  grilling prevalence, Easter lunch and Osterlamm, birthday Kaffeetafel).
+  Added CELEBRATIONS & LARGE GATHERINGS after the FESTIVAL & OCCASION
+  CALENDAR with 8 entries: Christmas Eve, Christmas feast, Silvester
+  raclette, Easter Sunday lunch, birthday Kaffeetafel and children's
+  party, confirmation and First Communion, wedding, summer Grillfest.
+  WebSearch only.

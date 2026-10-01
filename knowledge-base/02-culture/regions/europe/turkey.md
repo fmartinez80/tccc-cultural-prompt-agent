@@ -681,6 +681,310 @@ past; the 2027 dates are the next ones a production would hit.
   beside a mosque, prayer rugs or Qur'an. [EDITORIAL, same stance as
   `spain.md`'s Semana Santa]
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+The FESTIVALS & SEASONAL OCCASIONS register above stays the calendar
+index; this section is the staging layer, per schema §5.7. The hard
+staging rules at the top of this file govern every entry: no pork, no
+alcohol or meyhane cues, Ramadan and bayram treated as religious
+occasions, and **no çay or ayran beside the hero** (both are on every
+real celebration table here and must be negated by name). Breakfast is
+in scope for this file generally, but this pass follows the 2026-10-01
+project rule: bayram mornings are mentioned, and the main midday or
+evening meal is what gets staged.
+
+### How large gatherings work here
+
+- **Who gathers.** The extended family, with elders at the centre:
+  bayram means visiting elders' homes in turn; iftar invitations (*iftar
+  daveti*) host relatives, neighbours and friends; life events scale up
+  fast. A family iftar or bayram meal is about 6 to 15; a sünnet (boys'
+  circumcision celebration) feeds dozens to a few hundred; a wedding is
+  commonly put at 200 to 450 guests by Turkish wedding-industry sites.
+  [LOW-MEDIUM for the wedding figure, industry sites only; EDITORIAL
+  for the rest]
+- **Where (intake venues).** *Home indoor*: iftar, bayram meals and New
+  Year's Eve in the apartment salon, the dining table extended or a
+  second table added (see ENVIRONMENT; average household now about 3,
+  so celebration tables are visibly larger than the household).
+  *Home outdoor*: the weekend mangal on a balcony or garden; *other*:
+  piknik in parks and by the sea, wedding salons (*düğün salonu*), village
+  squares and gardens for köy düğünü, municipal iftar tents. *Restaurant*:
+  hotel and restaurant iftar menus, some sünnet and birthday meals.
+  [MEDIUM — ENVIRONMENT section; wedding and catering sources]
+- **Table form and serving style.** Urban homes: one dining table with a
+  lace or patterned cloth, soup served individually first, then shared
+  mains, pilav and salad from the centre, each person on their own plate
+  (see GENERAL NORMS). Village and traditional: the **yer sofrası** (a
+  large round tray, *sini*, on a low stand or cloth on the floor, cushions
+  around) and long trestle tables. Communal events (köy düğünü, sünnet,
+  mevlit) are fed from **huge copper or steel cauldrons (*kazan*)** of
+  etli pilav, keşkek and stew cooked over wood fires by neighbours
+  working together (*imece*), ladled onto plates. Salon weddings serve a
+  plated menu (starter, ordövr plate, main, dessert) or no meal at all
+  (cake and soft drinks only). [MEDIUM — Samsun and Konya local press,
+  catering and wedding-salon sources]
+- **Plate and cutlery norms that differ from everyday.** Fork and spoon
+  remain the core pair; the "guest" china and the vitrin's glassware come
+  out; a soup bowl at every place for iftar. Cauldron food goes onto
+  disposable or plain white plates with a spoon. [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most authentic
+  cues: (1) a table crowded edge to edge with shared dishes, more than the
+  visible diners could eat (bread, pilav, a main, salad, börek, a sweets
+  tray), partly cropped; (2) an extra table or chairs from the kitchen
+  pushed on, or a second sofra soft in the background; (3) the occasion's
+  marker at the frame edge: dusk at the window for iftar, a sweets and
+  lokum dish on the coffee table for bayram, a kazan steaming in the
+  background for a communal event. Blurred relatives stay within the
+  2.5-face limit; headscarves and uncovered hair both appear naturally in
+  a mixed family. [EDITORIAL]
+
+#### Celebration: İftar invitation (iftar daveti)
+- Type: calendar holiday (religious month; nightly, with invitations
+  through the month).
+- When: at sunset during Ramazan (2027: 8 February to 8 March); intake
+  time evening (dusk). See the register for the call-to-prayer rule.
+- Gathering: the household plus invited relatives, neighbours or friends,
+  about 6 to 15; home indoor. Hotel and restaurant iftar menus and
+  municipal iftar tents are the out-of-home variants. [EDITORIAL;
+  register for the tents]
+- The spread: see catalog: Ramazan pidesi and the iftar table (national)
+  for the table centre (pide, mercimek soup, dates, the iftariyelik
+  plate). An invitation table adds more: a soup course (see catalog:
+  Mercimek çorbası; ezogelin is common), a meat-and-vegetable main with
+  rice or bulgur pilav, börek (see catalog: Börek), salad (see catalog:
+  Çoban salatası), and a dessert (güllaç or a milk pudding; see Compact
+  sweets). [MEDIUM — Yemek.com, lezzet.com.tr and catering menus agree on
+  soup, main, side, dessert] A guest table carries about 6 to 10 shared
+  dishes plus a soup bowl at each place.
+- Snapshot staging: **1 setting**: one untouched soup bowl and an empty
+  plate at the near end, the whole Ramazan pidesi and the dates plate in
+  the midground, the main-dish pot cropped at the edge. **2 settings**:
+  two identical untouched soup bowls, the pide between them, iftariyelik
+  plate and börek tray behind. **Small group**: three or four settings,
+  every shared dish crowding the centre, the table running out of frame
+  toward the window. Cues: dusk blue at the window, warm lamp light;
+  more soup bowls continuing beyond the frame; a second pide; extra
+  chairs. Nothing looks started, and the hero stands untouched in the
+  midground (never "the first sip"). [EDITORIAL, extending the register]
+- Decor and cues: the patterned tablecloth, the vitrin behind, a
+  crescent-shaped lantern at most (soft). Avoid: Orientalist lanterns and
+  hookahs.
+- Never stage: eating before sunset; water or tea glasses; prayer, the
+  Qur'an or a mosque interior; alcohol.
+- Confidence and sources: MEDIUM ([Yemek.com — İftar menüsü](https://yemek.com/ramazan/);
+  [Lezzet — İftar yemekleri](https://www.lezzet.com.tr/tarif/iftar-yemekleri));
+  register and catalog sources for the table centre; EDITORIAL for
+  staging. Sensitivity flag for Fernando carried over from the register.
+
+#### Celebration: Ramazan Bayramı family meal (Şeker Bayramı)
+- Type: calendar holiday (3 days; 2027: 9 to 11 March).
+- When: bayram morning is prayers, kissing elders' hands and a festive
+  breakfast (out of scope here); stage the **family lunch or dinner** at
+  the elders' home (midday or evening), or the afternoon visit at the
+  coffee table (golden-hour).
+- Gathering: children and grandchildren visiting parents and
+  grandparents, relatives coming and going; about 8 to 15 at the table;
+  home indoor. [MEDIUM — hand-kissing and visiting customs are widely
+  documented]
+- The spread: a bayram table typically has börek (often several kinds),
+  **buttered rice pilav** ("the bayram table's must"), a meat dish such
+  as hünkâr beğendi (braised meat on smoky aubergine purée) or et sote,
+  a green salad, and baklava for dessert (see catalog: Baklava (zone 6 —
+  Antep; national); Börek). Visitors are offered sweets, chocolate and
+  lokum from a dish, plus cologne, at the door. [MEDIUM — food-writer
+  and recipe-site sources agree; no institutional source] Hünkâr beğendi
+  has no catalog entry: a mound of pale, creamy aubergine-and-cheese
+  purée under a dark, glossy tomato-braised meat stew, on a 26cm plate;
+  added to CANDIDATE QUEUE. Shared vessels: 5 to 8.
+- Snapshot staging: **1 setting**: one plate with hünkâr beğendi and a
+  spoon of pilav, a börek tray and the pilav dish behind, a baklava tray
+  cropped at the edge. **2 settings**: two identical plates, the pilav
+  dish and meat pot between them. **Small group**: three or four
+  settings, all dishes crowded centrally. Coffee-table variant: a dish
+  of wrapped sweets and lokum and a small baklava plate on a living-room
+  coffee table, the hero in the midground (register entry). Cues: a
+  candy dish and a cologne bottle (unlabelled) on the sideboard;
+  visitors' shoes by the door soft in the background; extra chairs.
+  [EDITORIAL]
+- Decor and cues: the best tablecloth, the vitrin, everyone in good
+  clothes. Avoid: legible "İyi bayramlar" banners.
+- Never stage: Turkish coffee cups or tea glasses beside the hero; the
+  mosque prayer; money handed to children as the subject.
+- Confidence and sources: MEDIUM ([Arda'nın Mutfağı — Bayram ve sofra
+  ritüelleri](https://www.ardaninmutfagi.com/ardadan-yazilar/bayram-ve-sofra-rituelleri);
+  [Migros TV — Bayram gelenekleri](https://migrostv.migros.com.tr/hic-degismeyen-bayram-gelenekleri));
+  EDITORIAL for staging.
+
+#### Celebration: Kurban Bayramı family meal (Kurban Bayramı)
+- Type: calendar holiday (4 days; 2027: 16 to 19 May).
+- When: the first-day kavurma is traditionally a morning dish (see
+  catalog: Kavurma); this pass stages the **family midday or evening
+  meal** of the first days, when fresh meat dominates every table
+  (intake time midday or evening).
+- Gathering: extended family, about 8 to 15; home indoor, or home
+  outdoor at a garden or village house where meat is grilled. [EDITORIAL]
+- The spread: kavurma with buttered pilav (see catalog: Kavurma), grilled
+  meat or köfte (see catalog: Izgara köfte), a meat stew, salad, bread,
+  baklava. [HIGH for kavurma, register and catalog; MEDIUM for the rest]
+  Shared vessels: a kavurma pan or dish, the pilav dish, a salad bowl, a
+  bread basket, a baklava tray; about 5 to 7.
+- Snapshot staging: **1 setting**: one plate of kavurma and pilav (per the
+  catalog's composition), the kavurma pan cropped behind, a salad bowl
+  in frame. **2 settings**: two identical plates, the kavurma pan and
+  pilav dish between them. **Small group**: three or four settings, a
+  baklava tray at the far edge. Cues: more plates continuing out of
+  frame; a garden mangal smoking softly behind for the outdoor variant;
+  relatives blurred. [EDITORIAL]
+- Never stage: the sacrifice, the animal, carcasses, raw meat piles,
+  blood, knives in hero position (hard rule 3); ayran beside the hero.
+- Confidence and sources: HIGH for kavurma (catalog sources); MEDIUM for
+  the wider table; EDITORIAL for staging.
+
+#### Celebration: New Year's Eve dinner (Yılbaşı)
+- Type: calendar holiday (secular).
+- When: 31 December, from about 20:00 to midnight; intake time evening.
+- Gathering: family or friends at home, about 4 to 10; home indoor.
+  [EDITORIAL]
+- The spread: **hindi dolması** (whole roast turkey stuffed with spiced
+  rice pilaf, often with chestnuts and pomegranate molasses) is cited as
+  the centrepiece of the urban New Year's table, with the pilaf also
+  served alongside, plus meze-style cold dishes (see catalog: Meze, in
+  the family register), salads and a cake or dessert. Roast chicken is
+  the smaller-household version. [MEDIUM — Hürriyet Lezizz and Lezzet
+  recipe features; the register's LOW-MEDIUM note is upgraded for the
+  dish, not for prevalence] No catalog entry: the turkey reads as a whole
+  glossy amber-brown bird on a 40 to 45cm oval platter, pilaf spilling
+  from the cavity and heaped around it, pomegranate seeds scattered;
+  added to CANDIDATE QUEUE.
+- Snapshot staging: **1 setting**: one plate with turkey slices and
+  chestnut pilaf, the whole bird on its platter cropped behind, a meze
+  plate in frame. **2 settings**: two identical plates, the platter
+  between them. **Small group**: three or four settings round the
+  platter end, cold dishes filling the rest. Cues: a small decorated
+  New Year's tree (*yılbaşı ağacı*, secular here) soft behind; streamers;
+  the table leaving frame. [EDITORIAL]
+- Never stage: rakı, wine or champagne (a strong prior for this night);
+  a meyhane setting; the national lottery ticket legible.
+- Confidence and sources: MEDIUM ([Hürriyet Lezizz — Hindi dolması](https://www.hurriyet.com.tr/lezizz/hindi-dolmasi-nasil-yapilir-yilbasi-sofrasi-icin-hindi-tarifi-41702903);
+  [Lezzet — Yılbaşı hindi menüsü](https://www.lezzet.com.tr/lezzetten-haberler/yilbasi-hindi-menusu));
+  EDITORIAL for staging.
+
+#### Celebration: Wedding (düğün: village kazan wedding and salon wedding)
+- Type: life event.
+- When: summer and early autumn weekends; village weddings feed guests
+  at midday (midday), salon weddings run in the evening (evening).
+- Gathering: commonly cited at 200 to 450 guests, with salons of 150 to
+  200 the most booked. Two coexisting registers (§4.6): the **köy
+  düğünü**, with neighbours cooking in cauldrons and guests eating at long
+  tables in a garden, schoolyard or village square (other); and the
+  **salon düğünü** in a wedding hall with round tables (other), either
+  with a plated meal (*yemekli*) or without (*yemeksiz*: cake, soft drinks
+  and snacks only). [LOW-MEDIUM — wedding-salon and industry sites only]
+- The spread: village: **keşkek** (pounded wheat and meat, cooked for
+  hours in cauldrons and beaten to a thick, pale, stretchy porridge),
+  **etli pilav** (rice with meat chunks), a meat stew (*yahni*), with
+  pickles, bread and a dessert; salon: a starter, an ordövr plate, a
+  main and a dessert, or the wedding cake alone. [MEDIUM for village
+  dishes — Samsun and Konya local press, Trakya regional sources] Keşkek
+  and etli pilav have no catalog entries: keşkek reads as a pale beige,
+  smooth-stringy mound with a pool of red-pepper butter on top, served
+  on a plain plate; etli pilav as glossy white rice studded with brown
+  meat chunks, ladled from a cauldron about 80 to 100cm across (roughly
+  seven to eight can widths). Added to CANDIDATE QUEUE.
+- Snapshot staging: **1 setting** (village): one plain plate of etli pilav
+  and a spoon of keşkek on a long trestle table with a paper or oilcloth
+  cover, a bread pile beside, a cauldron steaming soft in the background.
+  **2 settings**: two identical plates side by side, a shared pickle
+  plate and bread between. **Small group**: three or four plates along
+  the trestle, the table running out of frame, blurred guests. Salon
+  variant: one plated main at a white-clothed round table, the next
+  table soft behind. Cues: the kazan and its wood fire behind; the long
+  table's vanishing point; strings of lights or a davul-zurna band
+  blurred far behind. [EDITORIAL]
+- Decor and cues: village gardens, plastic chairs, red ribbons; salons
+  with chandeliers. Avoid: Orientalist costume, legible banners.
+- Never stage: alcohol (some urban weddings serve it); ayran next to the
+  pilav (the real companion, here negated); gold being pinned on the
+  couple as the subject.
+- Confidence and sources: MEDIUM for food ([Samsun Canlı Haber — Çarşamba
+  düğün yemekleri](https://www.samsuncanlihaber.com/carsamba-dugun-yemekleri-gelenegi);
+  [Konya İmza — Etli düğün pilavı](https://konyaimza.com/konya/konyanin-geleneksel-lezzeti-etli-dugun-pilavi-tarifi-ve-hikayesi-26992h));
+  LOW-MEDIUM for headcount ([Düğün Kolay — Düğün salonu kaç kişilik](https://dugunkolay.com.tr/dugun-salonu-kac-kisilik-olmali/),
+  industry tier); EDITORIAL for staging.
+
+#### Celebration: Circumcision feast (sünnet düğünü)
+- Type: life event (a boy's coming-of-age rite; staging is the guests'
+  meal only).
+- When: usually summer, often a weekend; the feast is midday or evening.
+- Gathering: relatives and neighbours, dozens to a few hundred; a
+  garden, village square or rented salon (other), or a restaurant;
+  catering is common in cities. [MEDIUM — catering sources]
+- The spread: soup (mercimek or ezogelin), a meat or chicken dish with
+  rice or bulgur pilav (etli pilav, stew, grilled meat), and dessert
+  (baklava, Kemalpaşa, sütlaç); older village feasts served keşkek and
+  meat with chickpeas. [MEDIUM — catering menus and a regional folk-food
+  source agree] See catalog: Mercimek çorbası, Baklava, Compact sweets.
+- Snapshot staging: as the village or salon wedding: **1 setting**: a
+  soup bowl and a plate of etli pilav on a long or round table, a
+  dessert plate of baklava; **2 settings**: two identical settings;
+  **small group**: three or four settings with shared bread and salad.
+  Cues: blue-and-white or silver decorations, balloons, a decorated
+  throne-like chair for the boy soft and far in the background (never
+  sharp, never with the product); kazan or catering buffet behind.
+  [EDITORIAL]
+- Never stage: the boy honoree with the product; any medical or
+  procedure cue; ayran beside the hero; alcohol.
+- Confidence and sources: MEDIUM ([İkramla — Sünnet yemeği menüsü](https://www.ikramla.com.tr/sunnet-yemegi-menusu-nasil-olmali-5);
+  [Yerel Kültür — Sakarya Manavlarının kutlama yemekleri](https://yerelkultur.org/sakarya-manavlarinin-kutlama-yemekleri/));
+  EDITORIAL for staging.
+
+#### Celebration: Weekend mangal and piknik (family gathering)
+- Type: community or family gathering (recurring; spring to autumn).
+- When: weekend midday into late afternoon (midday or golden-hour).
+- Gathering: extended family or a few families together, about 6 to 15;
+  home outdoor (balcony, garden) or a park, forest picnic area or the
+  seaside (other). Piknik is a major weekend institution. [MEDIUM — not
+  independently re-checked; see ENVIRONMENT, Meal outdoors at home]
+- The spread: köfte, chicken wings and şiş from the mangal (see catalog:
+  Izgara köfte), grilled peppers and tomatoes, lavaş, çoban salatası (see
+  catalog), a dish of ezme or other cold meze (family register), fruit.
+  Shared vessels: a grilled-meat platter, salad bowl, bread pile, 2 to 3
+  small dishes.
+- Snapshot staging: **1 setting**: one plate with köfte, grilled pepper
+  and tomato on a folding table or a picnic cloth, lavaş beside, the meat
+  platter cropped. **2 settings**: two identical plates, the salad bowl
+  and lavaş between. **Small group**: three or four plates, the mangal
+  smoking soft behind. Cues: the mangal and smoke; other families'
+  picnic cloths blurred under trees; a thermos and çaydanlık would be
+  real but are kept out (rule 4). [EDITORIAL]
+- Never stage: beer; the samovar or tea setup beside the hero; legible
+  park signs.
+- Confidence and sources: MEDIUM (ENVIRONMENT section); EDITORIAL.
+
+#### Celebration: Birthday (doğum günü)
+- Type: life event.
+- When: afternoon or evening; children's parties at home or a play café
+  (golden-hour), adult birthdays as a family dinner or a café cake
+  (evening). [LOW — not verified this pass]
+- Gathering: family and friends, about 6 to 20; home indoor or a café
+  (restaurant). [LOW — not verified this pass]
+- The spread: a cream cake (*yaş pasta*) with candles is the centre;
+  around it börek, poğaça, small sandwiches, crisps, sometimes pizza.
+  [LOW — general knowledge, not verified this pass] See catalog: Börek.
+- Snapshot staging: **1 setting**: one dessert plate with a cake slice and
+  a piece of börek, the cake partly cropped. **2 settings**: two identical
+  plates, a börek tray between. **Small group**: plates at one end, the
+  cake with candles in the midground. Cues: balloons, a garland, blurred
+  guests. [EDITORIAL]
+- Never stage: a child as the drinker; tea glasses (a strong prior at
+  any Turkish table).
+- Confidence and sources: LOW — not verified this pass; EDITORIAL.
+
 ---
 
 ## ZONE CALLOUTS (environment + dish pointers)
@@ -1937,6 +2241,14 @@ entry]
 - **Compact entries** (testi kebabı, tantuni, cağ kebabı, sweets) would
   need full sourcing if a brief leans on them. Zones 2 (Aegean) and 7
   (Eastern Anatolia) are the thinnest.
+- **Celebrations pass (2026-10-01) open items.** Wedding headcounts
+  (200 to 450) come only from wedding-salon and industry sites. The
+  bayram-table menu rests on food-writer and recipe sites. The New Year's
+  hindi dolması is documented as a recipe-media centrepiece; how many
+  households actually serve it is unknown. The birthday entry is LOW
+  throughout (no searches spent). The weekend piknik entry relies on the
+  file's own unverified ENVIRONMENT note. TCCC Türkiye's own Ramadan and
+  bayram advertising practice is still not researched.
 
 ## CANDIDATE QUEUE
 
@@ -1953,6 +2265,9 @@ entry]
    failure), mantı (dumpling-size failure) and the kahvaltı spread
    (tea-glass intrusion).
 5. Independent §8 audit of this file.
+6. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): keşkek; etli pilav (düğün pilavı); hünkâr beğendi;
+   hindi dolması (New Year's); yaş pasta (compact).
 
 ## RESEARCH LOG
 
@@ -1985,3 +2300,11 @@ entry]
   surfaced, and marked; ekşi sözlük and KizlarSoruyor treated as
   corroboration only, never as sole source.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (village
+  wedding food, salon wedding size and format, sünnet feast menus, iftar
+  invitation menus, bayram visits and table, New Year's Eve table).
+  Added CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register with
+  8 entries: iftar invitation, Ramazan Bayramı family meal, Kurban Bayramı
+  family meal, New Year's Eve dinner, wedding (village and salon), sünnet
+  feast, weekend mangal and piknik, birthday. Bayram mornings mentioned,
+  main meals staged, per the 2026-10-01 breakfast rule. WebSearch only.

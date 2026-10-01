@@ -211,6 +211,122 @@ everyday Glasgow or Edinburgh meal scene if used by default.
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `uk.md`
+
+`uk.md`'s CELEBRATIONS & LARGE GATHERINGS section holds the national
+baseline (how UK gatherings work, the snapshot-staging cues, Christmas,
+Easter, Sunday roast, birthdays, weddings, Eid, Diwali). It applies in
+Scotland unchanged except for the entries below. This file has no
+festivals register, so the section sits after the environment deltas.
+Christmas in Scotland follows `uk.md`; historically Hogmanay outranked
+Christmas here, and New Year remains the bigger family occasion for many
+households. [MEDIUM — The Scotsman and general Hogmanay sources]
+
+#### Celebration: Burns Night (Burns Supper, 25 January)
+- Type: calendar holiday (community and family).
+- When: on or near 25 January, Robert Burns's birthday; evening meal;
+  intake time evening (it is fully dark by about 4:30pm in January).
+- Gathering: two registers. A formal club, society or workplace Burns
+  Supper in a hall or hotel function room (about 30 to 150, long or round
+  tables; venue: other), and a family or friends' supper at home (about
+  4 to 10; home indoor). Pubs and restaurants run Burns Night menus
+  (restaurant). [MEDIUM]
+- The spread: the formal running order is a soup starter (Scotch broth,
+  cock-a-leekie or Cullen skink; see catalog: Cullen skink), then the
+  haggis **piped in** on a large platter and addressed, then the main of
+  haggis, neeps and tatties (see catalog: Haggis, neeps, and tatties),
+  then a dessert (cranachan or clootie dumpling), then cheese and
+  oatcakes. [MEDIUM-HIGH — several Burns Night guides agree on the
+  order; no institutional source read this pass] Shared vessels: the whole
+  haggis on its platter, bowls of neeps and tatties, a soup tureen at a
+  home supper; about 3 to 5. Cranachan (layered whipped cream, raspberries
+  and toasted oats in a glass, about the can's height) and clootie
+  dumpling (a dark, domed, spiced pudding with a pale skin, sliced) have
+  no catalog entry; added to CANDIDATE QUEUE.
+- Snapshot staging: **1 setting**: one plate of haggis, neeps and tatties
+  in three mounds, the whole haggis on its platter (cut open, crumbly
+  dark interior spilling out) partly cropped beyond it, a bowl of neeps
+  in the midground. **2 settings**: two identical plates facing, the
+  haggis platter and both mash bowls between them. **Small group**: three
+  or four plates at one end of a long table, the platter mid-table, the
+  table running out of frame. Cues: a tartan table runner or sash (plain
+  sett, not a named clan crest); a blurred piper's shape or bagpipe drones
+  in the far background for the formal register; candles; a book of
+  poems closed on the table at the edge. [EDITORIAL]
+- Decor and cues: tartan accents, candlelight, a white tablecloth at a
+  formal supper. Avoid: "Braveheart" kilts-and-claymores kitsch, Highland
+  cattle props, Loch Ness imagery.
+- Never stage: whisky (the toasts, the dram poured over the haggis, the
+  whisky-cream sauce in a jug on the table); a Tipsy Laird or a whisky
+  bottle beside cranachan (show cranachan as a plain cream-and-raspberry
+  glass); legible clan crests or Saltire flags in hero position.
+- Confidence and sources: MEDIUM-HIGH for the running order ([Love From
+  Scotland — Burns Night](https://www.lovefromscotland.co.uk/scottish-traditions-burns-night-burns-supper/);
+  [Scottish Scran — Burns Night menu](https://scottishscran.com/burns-night-menu/),
+  a food blog, lower tier); EDITORIAL for staging.
+
+#### Celebration: Hogmanay and New Year's Day dinner (Hogmanay, Ne'erday)
+- Type: calendar holiday.
+- When: Hogmanay, 31 December, evening into midnight (intake time
+  evening), and the New Year's Day family dinner on 1 January, mid-
+  afternoon to early evening (intake time midday or evening).
+  Both 1 and 2 January are Scottish bank holidays. [HIGH — widely known]
+- Gathering: Hogmanay is a house party of family, friends and neighbours
+  (about 10 to 30, standing and seated; home indoor), with first-footing
+  visits after midnight; city street parties are a separate, drinking-led
+  register and are not staged. The New Year's Day dinner is the family at
+  one home (about 6 to 12; home indoor). [MEDIUM]
+- The spread: **steak pie** (or stew) is the central-belt Hogmanay and
+  New Year's Day dish, typically a large rectangular or oval dish of
+  braised beef under a puff-pastry lid, cut at the table, with mashed
+  potatoes, peas or carrots, and gravy. Sweet items: **black bun** (a
+  dense fruit cake fully encased in pastry, cut in thick slabs) and
+  **shortbread** (pale gold fingers or petticoat-tail wedges), also the
+  traditional first-footing gifts. [MEDIUM — The Scotsman and general
+  Hogmanay sources agree on steak pie, black bun and shortbread] For the
+  pie look, see `uk.md`'s catalog: Pies (here a whole family-size dish,
+  about 30cm long, roughly 2.5 can heights, golden puff lid, not an
+  individual pub pie). A New Year's Day steak pie entry is added to
+  CANDIDATE QUEUE.
+- Snapshot staging: **1 setting**: one plate with a square of steak pie
+  (puff lid on top, dark gravy-glossed beef), a mound of mash and peas,
+  the family pie dish cut open and partly cropped beyond, a plate of
+  shortbread at the edge. **2 settings**: two identical plates, the pie
+  dish and a mash bowl between them. **Small group**: three or four
+  plates at one end, the pie dish centre, a black-bun slab on a board at
+  the far end. Cues: winter dark outside a tenement sash window; coats
+  piled on a chair from visitors; extra chairs; a lump of coal or a tin
+  of shortbread as a first-footing gift on the sideboard. [EDITORIAL]
+- Decor and cues: a sandstone tenement interior (see ENVIRONMENT deltas),
+  fairy lights left over from Christmas. Avoid: street-party fireworks as
+  the frame; kilts at a family dinner.
+- Never stage: whisky (the first-footing dram is the most common prior;
+  prompt "no whisky, no glasses other than the hero serve"); midnight
+  toasts.
+- Confidence and sources: MEDIUM ([The Scotsman — Christmas and New Year
+  food and drink traditions in Scotland](https://www.scotsman.com/lifestyle/food-and-drink/christmas/christmas-and-new-year-food-and-drink-traditions-in-scotland-from-black-bun-to-whipkul-8992482);
+  [New World Encyclopedia — Hogmanay](https://www.newworldencyclopedia.org/entry/Hogmanay));
+  EDITORIAL for staging.
+
+#### Celebration: Scottish wedding and ceilidh (wedding delta)
+- Type: life event.
+- When and where: as `uk.md`'s wedding entry (plated meal, round tables,
+  hired venue), with an evening **ceilidh** (group folk dancing) as the
+  Scottish signature.
+- The spread: the plated meal often carries a Scottish course (a haggis
+  starter or "haggis, neeps and tatties" stack). A late-evening
+  **stovies** buffet (a pan of potatoes slow-cooked with onion and
+  leftover meat, served in bowls) is commonly cited as ceilidh food.
+  [LOW — not verified this pass; stated from general knowledge]
+- Snapshot staging: as `uk.md`'s wedding entry; for the evening, one bowl
+  of stovies at a high or side table, the stovies pan on a buffet soft
+  behind, blurred dancers in motion (no sharp faces). [EDITORIAL]
+- Never stage: the whisky toast or a quaich (a shallow two-handled
+  drinking cup used for whisky); legible clan crests.
+- Confidence and sources: LOW for the food delta; EDITORIAL for staging.
+
+---
+
 ## DISH CATALOG
 
 **Scale note**: as `uk.md`, the UK 330mL can (115.2mm/11.52cm tall,
@@ -467,6 +583,11 @@ everyday Glasgow or Edinburgh meal scene if used by default.
   addition but wasn't independently verified as common vs. rare this
   pass — treat as a real, optional, more-formal-register detail, not a
   default.
+- **Celebrations pass (2026-10-01) open items.** The Scottish wedding
+  food delta (stovies at the ceilidh, a haggis course) is LOW, from
+  general knowledge only. Burns Supper running order rests on Burns Night
+  guides and a food blog, not an institutional source. No headcount data
+  for Burns Suppers or Hogmanay parties was found; figures are editorial.
 
 ## CANDIDATE QUEUE
 
@@ -477,6 +598,10 @@ everyday Glasgow or Edinburgh meal scene if used by default.
    plausible institutional target).
 3. Independent §8 audit of this file alongside `uk.md`, per the project's
    standing practice, before either is treated as fully done.
+4. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): New Year's Day steak pie (family dish); compact Scottish
+   sweets block (cranachan, clootie dumpling, black bun, shortbread);
+   stovies.
 
 ## RESEARCH LOG
 
@@ -491,3 +616,8 @@ everyday Glasgow or Edinburgh meal scene if used by default.
   Cullen skink's origin and composition; and the Shish Mahal/Glasgow half
   of the chicken tikka masala dispute (cross-checked against `us.md`'s
   existing sourcing rather than re-derived from scratch).
+- **2026-10-01 celebrations pass (schema §5.7):** 2 searches (Burns
+  Supper running order; Hogmanay and New Year's Day food). Added a
+  regional-delta CELEBRATIONS & LARGE GATHERINGS section with 3 entries:
+  Burns Night, Hogmanay and New Year's Day dinner, Scottish wedding and
+  ceilidh. WebSearch only.

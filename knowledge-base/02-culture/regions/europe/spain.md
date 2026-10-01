@@ -653,6 +653,321 @@ The remaining festivals' dates are fixed calendar dates or well-
 established, uncontested annual traditions not individually re-searched
 this pass.
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+The FESTIVALS & SEASONAL OCCASIONS register above stays the calendar
+index; this section is the staging layer, per schema §5.7. File-wide rules
+1 to 5 apply to every entry, especially rule 3: Spanish celebrations carry
+cava, wine, beer and the after-meal liqueur in reality, and none may
+appear. The register's sensitivity column (no bulls, no processions, no
+product near fire) also applies.
+
+### How large gatherings work here
+
+- **Who gathers.** The extended family is the core unit and gatherings
+  run large: a Nochebuena table of 10 to 20 relatives is ordinary, and
+  life events are big (a First Communion averages about 50 guests in
+  consumer-association studies; a wedding about 116). Summer village
+  fiestas feed the whole village at a *cena popular*. [MEDIUM for the
+  communion and wedding figures, see entries; EDITORIAL for Nochebuena]
+- **Where (intake venues).** *Home indoor*: Nochebuena, Navidad,
+  Nochevieja and the Reyes merienda, usually the grandparents' piso,
+  with the living-room table extended. *Home outdoor*: the Sunday paella
+  at a chalet, village house or patio (see ENVIRONMENT, Meal outdoors at
+  home). *Restaurant*: First Communions almost always, and many
+  birthdays. *Other*: weddings at a *finca* or banquet venue; fiestas in
+  the village plaza on long trestle tables. [MEDIUM — Asociación
+  Española de Consumidores, bodas.net; EDITORIAL elsewhere]
+- **Table form and serving style.** One long table, often two tables
+  pushed together under one tablecloth, everyone seated. Home festive
+  meals are **shared from the centre**: platters of jamón, cheese and
+  seafood as *entrantes* for the whole table, then a main course plated
+  or carved at the table, then a tray of turrón and polvorones during a
+  long sobremesa. Paella is served from the pan at the table, and in
+  some families eaten straight from it. Weddings start with a standing
+  *cóctel* of small bites, then a seated banquet at round tables.
+  [MEDIUM — bodas.net; Sunday-paella sources; EDITORIAL]
+- **Plate and cutlery norms that differ from everyday.** A festive
+  tablecloth (often red or gold at Christmas), the good plates, a small
+  side plate for shellfish shells, seafood crackers and picks at
+  Christmas, small forks or toothpicks for jamón. Fork left, knife right
+  (see this file's place-setting override). [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most
+  authentic cues are: (1) the long table running out of frame with
+  shared *entrante* platters (jamón, seafood, cheese, croquetas) set
+  down the middle, more than the visible diners could finish; (2) the
+  late hour, warm lamp light and the remains of a long meal (shell
+  plates, a turrón tray, napkins dropped) that read as a sobremesa
+  going on beyond the frame; (3) extra folding chairs or a second,
+  mismatched table butted on. Blurred relatives stay within the
+  2.5-face limit. [EDITORIAL]
+
+#### Celebration: Christmas Eve and Christmas Day (Nochebuena, Navidad, Sant Esteve)
+- Type: calendar holiday.
+- When: Nochebuena dinner on 24 December, about 21:30 to midnight
+  (intake time evening); Christmas Day comida on 25 December, about 14:30
+  (midday); in Catalonia, a second big comida on 26 December (Sant
+  Esteve). [HIGH for dates; MEDIUM for hours, per the meal clock above]
+- Gathering: the extended family, about 10 to 20, at one home; home
+  indoor. [EDITORIAL; one chef family's ~20 is reported anecdotally]
+- The spread: *entrantes* first for the whole table: jamón (see catalog:
+  Jamón (serrano / ibérico) + pan con tomate), cured sausages, cheese,
+  croquetas (see catalog: Croquetas), and **seafood**: boiled red prawns
+  and langoustines on platters, crab. The main is most often seafood
+  (named by about 36% in an online-retailer survey) or **roast lamb**
+  (about 21%; suckling lamb or a leg, in an earthenware dish), with
+  turkey far behind (about 9%). [MEDIUM — Organizados.es survey via
+  Diario de Gastronomía, commercial tier] Regional mains: Catalonia's
+  *escudella i carn d'olla* (galets-pasta broth, then the boiled meats)
+  on Christmas Day and **canelones** (cannelloni filled with the leftover
+  meats, under béchamel and grated cheese) on Sant Esteve; cochinillo in
+  Castile. [HIGH for Catalan dishes — Bonviveur, Vilapress, several
+  agreeing sources] Sweets at the sobremesa: see catalog: Turrón and
+  polvorones (section E). A real table carries 6 to 10 shared platters.
+  No catalog entry exists for the Christmas seafood platter, roast lamb
+  (*cordero asado*), escudella or canelones; all added to CANDIDATE
+  QUEUE. The seafood platter reads as a 35 to 40cm oval platter of
+  glossy coral-red prawns (each about the can's height in length) and
+  langoustines in rows, lemon wedges; roast lamb as a golden, crackling-
+  skinned quarter in a 35cm earthenware *cazuela* with its juices.
+- Snapshot staging: **1 setting**: one plate with two red prawns and a
+  slice of jamón, a shell plate beside it, the seafood platter and jamón
+  plate cropped at the frame edge, a festive tablecloth. **2 settings**:
+  two identical plates of roast lamb with roast potatoes, the lamb
+  cazuela between them, the seafood platter partly cropped behind.
+  **Small group**: three or four settings at one end, entrante platters
+  crowding the centre, a turrón tray at the far edge. Cues: the table
+  running out of frame with more platters; a nativity *belén* or tree
+  blurred far behind (never in focus); late-night lamp light. [EDITORIAL]
+- Decor and cues: red or gold tablecloth, poinsettia (*flor de Pascua*),
+  the good glassware for water only. Avoid: US-style turkey dinners as
+  the default; snow kitsch.
+- Never stage: cava and the toast (the register's rule); wine bottles;
+  the King's televised speech legible on a screen; the belén as the
+  subject or with the product beside it.
+- Confidence and sources: MEDIUM to HIGH ([Diario de Gastronomía —
+  ¿Qué cenamos los españoles en Nochebuena?](https://diariodegastronomia.com/que-cenamos-los-espanoles-en-nochebuena/);
+  [eldiario.es — Comidas navideñas típicas por comunidades](https://www.eldiario.es/consumoclaro/comer/comidas-navidenas-tipicas-comunidades-autonomas_1_1183163.html);
+  [Bonviveur — Canelones de San Esteban](https://www.bonviveur.es/recetas/canelones-de-san-esteban);
+  [Vilapress — Sant Esteve](https://www.vilapress.cat/articulo/actualidad-general/2025-12-26/5714955-sant-esteve-fiesta-singular-calendario-catalan-celebramos-cual-tradicion));
+  EDITORIAL for staging.
+
+#### Celebration: New Year's Eve dinner (Nochevieja)
+- Type: calendar holiday.
+- When: 31 December, dinner from about 21:30, the 12 grapes at midnight
+  with the televised chimes; intake time evening.
+- Gathering: family or friends, about 6 to 15; home indoor. [EDITORIAL]
+- The spread: a dinner similar to Nochebuena (seafood, jamón, a roast
+  main), then **12 grapes** per person in a small bowl ready for
+  midnight; turrón and polvorones on the table. [HIGH for the grapes,
+  register; MEDIUM for the dinner, not separately searched this pass]
+- Snapshot staging: **1 setting**: a small bowl of 12 peeled or whole
+  green grapes in front of one plate, the can beside it, a turrón plate
+  and a cropped seafood platter behind. **2 settings**: two identical
+  grape bowls, the remains of dinner between. **Small group**: a row of
+  identical grape bowls continuing along the table beyond the frame,
+  the strongest crowd cue for this night. Cues: the grape-bowl row;
+  paper party hats and streamers; a TV glow far behind with no legible
+  screen. [EDITORIAL]
+- Decor and cues: gold and silver decor, streamers. Avoid: the red-
+  underwear custom (real, but off-brand); legible clock faces or year
+  numbers.
+- Never stage: the cava toast (the register's rule); fireworks near the
+  product.
+- Confidence and sources: HIGH for grapes (register); MEDIUM for dinner.
+
+#### Celebration: Three Kings merienda (Reyes, 5–6 January)
+- Type: calendar holiday.
+- When: the roscón is often eaten at breakfast on 6 January, which is
+  out of scope; stage it as the **afternoon merienda** on 5 or 6 January
+  (about 17:30 to 19:00; golden-hour into evening), per the register's
+  rule. Families also gather for the 6 January comida.
+- Gathering: grandparents, parents and children, about 6 to 12; home
+  indoor. [EDITORIAL]
+- The spread: see catalog: Roscón de Reyes (section E): one ring about
+  20 to 26cm, split and filled with whipped cream, candied fruit on top,
+  sliced into 4 to 5cm pieces; the hidden figurine is never shown. Hot
+  chocolate is the real companion and is out of frame (another drink).
+- Snapshot staging: **1 setting**: one dessert plate with a cream-filled
+  roscón slice, the cut ring on its board behind, the paper crown that
+  comes with it folded at the edge. **2 settings**: two identical slices,
+  the ring between them. **Small group**: slices at three or four
+  settings, a second (larger) roscón soft at the far end. Cues: the
+  gold paper crown; unwrapped gifts and wrapping paper on a sofa behind;
+  extra chairs. [EDITORIAL]
+- Decor and cues: wrapping paper, the paper crown. Avoid: the cabalgata
+  (parade) floats as the scene; children's faces sharp.
+- Never stage: hot chocolate or coffee cups in frame; a child as the
+  drinker.
+- Confidence and sources: MEDIUM (register and catalog entry); EDITORIAL
+  for staging.
+
+#### Celebration: Sunday family paella (comida familiar del domingo)
+- Type: community or family gathering (weekly; larger in summer).
+- When: Sunday comida, about 14:00 to 16:00, followed by a long
+  sobremesa; intake time midday (summer shade at a chalet reads
+  midday too).
+- Gathering: grandparents, adult children and grandchildren, about 6 to
+  14; home outdoor (chalet patio, village house, Valencian huerta) or
+  home indoor; a beach-town restaurant terrace is the restaurant
+  variant. [MEDIUM — Sunday paella sourcing; ENVIRONMENT scenarios]
+- The spread: the **paella** in its wide pan, cooked outdoors over a gas
+  paellero or wood fire and carried to the table (see catalog: Paella
+  and arroces; never silently seafood, never chorizo), preceded by a
+  few shared entrantes (see catalog: Aperitivo spread; a salad; jamón).
+  Paella is described as the typical Sunday family dish, sometimes eaten
+  straight from the pan. [MEDIUM — Fuerte Hoteles and food sources;
+  a La Fallera brand study (commercial) says three in four Spaniards see
+  paella as a dish that brings people together] Shared vessels: the pan
+  (about 36 to 48cm for 6 to 11 servings, 50 to 70cm for 11 to 20, per
+  the SPANISH VESSEL & SCALE REFERENCE), a salad
+  bowl, a bread basket, 2 or 3 entrante plates.
+- Snapshot staging: **1 setting**: one plate of paella with a lemon
+  wedge, the big pan cropped at the top edge on a trivet, a salad bowl
+  beside it. **2 settings**: two identical plates either side of the pan's
+  near edge. **Small group**: three or four settings round the near half
+  of the pan, the far half and the table soft and out of frame; or, in
+  the eat-from-the-pan register, wooden spoons resting on the pan rim
+  at each setting. Cues: the pan wider than the visible diners need; the
+  paellero and its gas ring soft in the background; a vine pergola or
+  awning shade; a pool edge or white wall. [EDITORIAL]
+- Decor and cues: oilcloth or cotton tablecloth, plastic or wooden
+  garden chairs, summer shade. Avoid: flamenco or bullfight props;
+  "tourist paella" with every seafood on top.
+- Never stage: wine, beer or tinto de verano (rule 3); the after-meal
+  liqueur at the sobremesa.
+- Confidence and sources: MEDIUM ([Fuerte Hoteles — Tipos de
+  paella](https://blog.fuertehoteles.com/comer-y-beber/recetas-de-paella-espanola/);
+  [Gastronomía y Moda — La paella, el plato que más une](https://gastronomiaymoda.com/la-paella-el-plato-que-mas-une-a-los-espanoles-el-85-cree-que-ayuda-a-reconciliarse-tras-un-conflicto/),
+  reporting a brand study); the Sunday-lunch framing is already
+  MEDIUM-HIGH in this file's ENVIRONMENT section.
+
+#### Celebration: Village fiesta communal dinner (fiestas del pueblo, cena popular)
+- Type: community or family gathering (summer, especially August).
+- When: evening, from about 21:30 into the verbena (intake time evening;
+  golden-hour for the paella cook-off in the late afternoon).
+- Gathering: the whole village and returning summer families, from
+  dozens to several hundred, at long trestle tables in the plaza or
+  sports ground (venue: other). Peñas (groups of friends in matching
+  shirts) sit together. Councils often supply tables, chairs and
+  firewood for a communal paella day. [MEDIUM — municipal fiesta
+  programmes and local press]
+- The spread: a **giant paella** (pans one to several metres across,
+  cooked over wood fires) served onto plates, or a *cena popular* where
+  each group brings tortillas, embutidos and salads; grilled sausages and
+  bocadillos at the stalls. See catalog: Paella and arroces; Tortilla de
+  patatas; Bocadillo family. [MEDIUM]
+- Snapshot staging: **1 setting**: one plastic or paper plate of paella
+  on a paper-covered trestle table, the can beside it, a tortilla on a
+  plate and a bread bag next to it, the table running away to a soft
+  vanishing point. **2 settings**: two identical plates side by side on
+  the trestle, shared tortilla between. **Small group**: three or four
+  plates on one stretch of the long table. Cues: the trestle table
+  leaving frame in both directions; strings of small coloured flags
+  overhead; the stage lights of the verbena far behind; blurred peña
+  shirts (no legible text). [EDITORIAL]
+- Decor and cues: paper tablecloths, plastic chairs, flag strings,
+  church-tower silhouette fine as background. Avoid: bull events (never),
+  legible peña names.
+- Never stage: the bar stall and its plastic beer cups; the procession
+  of the patron saint; fireworks near the product.
+- Confidence and sources: MEDIUM ([Objetivo Castilla-La Mancha — Verbena,
+  paella popular](https://objetivocastillalamancha.es/contenidos/verbena-paella-popular-conciertos-reconocimientos-recta-final-fiestas-jesus-perdon);
+  [La Marina — El Verger fiestas patronales](https://lamarina.eldiario.es/evento/el-verger-fiestas-patronales-festes-programacion-celebran-del-7-al-16-de-agosto/));
+  EDITORIAL for staging.
+
+#### Celebration: First Communion banquet (Primera Comunión)
+- Type: life event (religious milestone; staging is the meal only).
+- When: April to June weekends; a restaurant comida after the church
+  service, about 14:00 to 17:00 (intake time midday).
+- Gathering: about 20 to 60 guests, with about 50 a common reference in
+  consumer studies; the average total cost is put above €5,600, with the
+  banquet the largest item. A restaurant salon or a finca (restaurant).
+  [MEDIUM — Asociación Española de Consumidores study via El Debate and
+  its own release]
+- The spread: shared entrantes (jamón, croquetas, prawns, cheese; see
+  catalog: Jamón, Croquetas, Gambas al ajillo) then a plated main
+  (sirloin, lamb or fish), then a decorated communion cake. A children's
+  table with a simpler menu is common. [MEDIUM for the banquet format,
+  restaurant and consumer sources; EDITORIAL for the menu detail]
+- Snapshot staging: **1 setting**: one plated main on a white-clothed
+  round or long table, an entrante platter of jamón cropped beside,
+  a white-and-pastel flower centrepiece. **2 settings**: two identical
+  plates, the centrepiece between. **Small group**: three or four
+  settings, the entrante platters crowding the middle, a second table
+  soft behind. Cues: white table linen and pastel decor; blurred guests
+  in formal spring clothes; the cake table soft in the background. The
+  child honoree (about 8 to 10) is never shown with the product.
+  [EDITORIAL]
+- Decor and cues: white flowers, pastel ribbons. Avoid: the communion
+  dress or suit as the subject.
+- Never stage: the church service, chalice or host; wine; the child
+  honoree as the drinker.
+- Confidence and sources: MEDIUM ([El Debate — El coste de la Primera
+  Comunión supera los 5.600 euros](https://www.eldebate.com/economia/20250323/coste-primera-comunion-supera-5600-euros-media-llega-alcanzar-13500_279580.html);
+  [Asociación Española de Consumidores — nota de prensa](https://www.consumoenpositivo.es/nota-de-prensa/segun-estudio-de-la-asociacion-espanola-de-consumidores-una-comunion-media-supera-los-5600-euros/));
+  EDITORIAL for staging.
+
+#### Celebration: Wedding banquet (boda)
+- Type: life event.
+- When: May to October; the banquet is a late comida (about 15:00 to
+  18:00, golden-hour) or a cena (from about 21:30, evening), with dancing
+  and a late-night snack after.
+- Gathering: about 116 guests on average (bodas.net Informe del Sector
+  Nupcial 2025); a finca, hotel or banquet venue, round tables of about
+  10 (venue: other). [MEDIUM — bodas.net, an industry platform, flagged
+  per §6]
+- The spread: two stages. A standing **cóctel** of small bites (croquetas,
+  jamón carved at a station, small spoons, mini burgers, rice stations),
+  then a seated banquet: a starter, a fish and/or meat main, the wedding
+  cake. [MEDIUM — bodas.net]
+- Snapshot staging: **1 setting** (banquet): one plated main at a white-
+  clothed round table, a tall floral centrepiece partly cropped, a blank
+  menu card. **2 settings**: two identical plates on one arc of the
+  table. **Small group**: three or four settings, a second round table
+  soft behind. Cóctel variant: a small plate with two croquetas and a
+  jamón slice on a high table, the jamón-carving station blurred behind.
+  Cues: round-table curve leaving frame; string lights in a finca
+  courtyard; blurred guests in formal clothes. [EDITORIAL]
+- Decor and cues: olive-tree or bougainvillea finca settings, string
+  lights. Avoid: flamenco costume as the default.
+- Never stage: the open bar (*barra libre*), cava toasts, wine on the
+  table, the gin-tonic station.
+- Confidence and sources: MEDIUM ([bodas.net — Cuánto cuesta una boda en
+  España](https://www.bodas.net/articulos/cuanto-cuesta-casarse--c841);
+  [bodas.net — Cuánto cuesta un banquete](https://www.bodas.net/articulos/cuanto-cuesta-banquete-boda--c8700));
+  EDITORIAL for staging.
+
+#### Celebration: Birthday (cumpleaños)
+- Type: life event.
+- When: children's parties are an afternoon **merienda** (about 17:30 to
+  19:30, golden-hour); adult birthdays are a family comida at home or a
+  restaurant (midday) or a dinner out with friends (evening).
+  [LOW — not verified this pass; consistent with the meal clock]
+- Gathering: children's party: classmates at a play centre, park or
+  home, 10 to 25 children; family birthday: 6 to 12 at home or a
+  restaurant. [LOW — not verified this pass]
+- The spread: children's merienda: small sandwiches (*sándwiches de
+  jamón york y queso*), crisps (see catalog: Aperitivo spread), tortilla
+  pieces, sweets and a birthday cake; adult family comida: a shared
+  picoteo of entrantes then a main or a paella. [LOW — general
+  knowledge, not verified this pass]
+- Snapshot staging: **1 setting**: one paper plate with two sandwich
+  triangles, a wedge of tortilla and a few crisps on a party table, the
+  cake partly cropped. **2 settings**: two identical plates, a crisps
+  bowl and sandwich tray between. **Small group**: three or four plates,
+  the cake with candles in the midground. Cues: balloons, a paper
+  tablecloth, blurred guests (no sharp faces). [EDITORIAL]
+- Decor and cues: balloons, garlands. Avoid: legible name banners;
+  licensed characters.
+- Never stage: a child as the drinker; beer at an adult birthday.
+- Confidence and sources: LOW — not verified this pass (GAP LOG);
+  EDITORIAL for staging.
+
 ---
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
@@ -1939,6 +2254,16 @@ level, since none of these surfaced as contested or surprising.*
   schema** (per `country-file-schema.md` §4) if a future brief needs deep
   staging detail on any of them specifically.
 
+- **Celebrations pass (2026-10-01) open items.** The birthday entry is LOW
+  throughout (no searches spent; general knowledge). The Nochebuena main-
+  dish shares (seafood ~36%, lamb ~21%, turkey ~9%) come from one online-
+  retailer survey reported by Diario de Gastronomía, not a national
+  statistic. Headcounts for Nochebuena, Nochevieja, Reyes and the Sunday
+  paella are editorial. Communion (about 50 guests) and wedding (about
+  116) figures are consumer-association and industry-platform data read
+  in search summaries. The Nochevieja dinner menu beyond the grapes was
+  not separately verified.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on the 237mL Coca-Cola bottle's exact dimensions,
@@ -1958,6 +2283,11 @@ level, since none of these surfaced as contested or surprising.*
    image tests (two or more generations per prompt), starting with
    tortilla, paella, bravas, and croquetas — the four dishes this pass
    was able to verify most thoroughly.
+7. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): Christmas seafood platter (*mariscada*: red prawns,
+   langoustines, crab); roast lamb (*cordero asado* / lechazo) and
+   cochinillo; *escudella i carn d'olla* (zone 3); *canelones de Sant
+   Esteve* (zone 3); children's party merienda.
 
 ## RESEARCH LOG
 
@@ -2047,3 +2377,10 @@ level, since none of these surfaced as contested or surprising.*
   spot-checks (pintxo/Basque-specificity, paella/Valencia-anchoring)
   the task specifically requested — see FILE ROLE & METHOD above and
   `DECISIONS.md`.
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (Nochebuena
+  main-dish survey, First Communion guests and cost, wedding guest
+  numbers, Sunday family paella, village fiesta communal dinners, Sant
+  Esteve canelones and escudella). Added CELEBRATIONS & LARGE GATHERINGS
+  after the FESTIVALS register with 8 entries: Nochebuena/Navidad/Sant
+  Esteve, Nochevieja, Reyes merienda, Sunday family paella, village
+  fiesta cena popular, First Communion, wedding, birthday. WebSearch only.

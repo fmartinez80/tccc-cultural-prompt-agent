@@ -484,6 +484,366 @@ Gen Z/young-group default alongside pubs (genericize names).
 
 ---
 
+## CELEBRATIONS & LARGE GATHERINGS
+
+Placement note: the UK file has no festivals register yet, so this section
+sits directly after ENVIRONMENT & STAGING SCENES, per schema §5.7. It
+doubles as the calendar index until a register is written (see GAP LOG).
+The party-size rule from §5.7 applies throughout: the place settings in
+frame are the operator's party; the gathering is implied.
+Scotland's deltas (Burns Night, Hogmanay and New Year's Day, the wedding
+ceilidh) are in `uk-scotland.md`.
+
+### How large gatherings work here
+
+- **Who gathers.** The core UK celebration unit is the extended family at
+  home: parents, adult children and their partners, grandparents, and
+  sometimes in-laws, typically around 6 to 12 people. One retailer-cited
+  survey puts the average Christmas table at about eight, rising to about
+  11 in Northern Ireland. [LOW — figure seen only in search-result
+  summaries of a commercial survey, original not identified this pass]
+  Weddings are the large outlier: Hitched's survey data, as reported by
+  wedding-industry sites, puts the average at roughly 80 day guests and
+  100 to 110 evening guests, with micro-weddings under 30 guests now a
+  real share. [MEDIUM — Hitched survey figures via secondary wedding-
+  industry sources, not read at source]
+- **Where (intake venues).** *Home indoor* is the default for Christmas,
+  Easter and the Sunday roast: a kitchen-diner or dining-room table,
+  often extended with a folding table or a desk chair pulled in.
+  *Restaurant* covers the pub Sunday roast and pub/restaurant birthday
+  meals. *Other* covers weddings (a hired venue, hotel function room,
+  barn or marquee) and Bonfire Night (a back garden or a community
+  display field). *Home outdoor* is a summer birthday or garden party.
+  [EDITORIAL, consistent with the scenario blocks above]
+- **Table form and serving style.** At home the table is one rectangular
+  table, everyone seated, served **family-style**: the host carves the
+  joint at the table or in the kitchen, and vegetable dishes, roast
+  potatoes and a gravy jug are passed around, with everyone on an
+  individual plate (see catalog: Sunday roast). Weddings use **round
+  tables of 8 to 10** with a plated, sequential "wedding breakfast"
+  (starter, main, dessert) served by caterers; a buffet is the evening
+  register. Children's birthdays and garden parties are buffet-style
+  on a single table. [MEDIUM for wedding service format, Hitched-derived
+  sources; EDITORIAL for the rest]
+- **Plate and cutlery norms that differ from everyday.** Christmas and
+  Easter bring out the "best" crockery, a tablecloth, and paper crackers
+  at each setting at Christmas. Cutlery stays Continental (fork left,
+  knife right, per GENERAL NORMS). Birthday and garden buffets switch to
+  paper plates and napkins. [EDITORIAL]
+- **Snapshot-staging default for this market.** The three most authentic
+  UK cues for an implied crowd are: (1) the table running out of frame
+  with more serving dishes (roasting tin, two or three vegetable dishes,
+  gravy jug) than the visible diners need; (2) an extra mismatched chair
+  or a second, lower table pushed against the end; (3) occasion-specific
+  table clutter at the frame edge (pulled crackers and paper hats,
+  a birthday card row on a shelf, wedding table-number stand blurred).
+  Overcast window light or warm artificial light, never harsh sun, per
+  ENVIRONMENT. [EDITORIAL]
+
+#### Celebration: Sunday roast as the family gathering (Sunday lunch)
+- Type: community or family gathering (weekly; larger when relatives
+  visit).
+- When: Sunday, roughly 1 to 3pm; intake time midday. Larger family
+  roasts cluster around visits, birthdays and Mothering Sunday.
+  [HIGH for timing, see GENERAL NORMS]
+- Gathering: the household, often extended to grandparents or adult
+  children visiting, typically 4 to 8; home indoor (dining table or
+  kitchen-diner) or restaurant (a pub's Sunday menu, pre-plated, a long
+  table pushed together). [EDITORIAL]
+- The spread: see catalog: Sunday roast for the plate. Shared dishes on
+  a home table: the joint on a carving board or in its roasting tin,
+  one dish of roast potatoes, two or three vegetable dishes (carrots,
+  greens or broccoli, peas), a cauliflower cheese dish, a gravy jug and
+  the jarred condiment for the meat (horseradish, mint sauce, apple
+  sauce, English mustard). A real table carries about 5 to 7 shared
+  vessels. [HIGH for components, catalog entry; EDITORIAL for count]
+- Snapshot staging: **1 setting**: one full plate at the near end of the
+  table, the carving board with the cut joint and a gravy jug just behind
+  it, a vegetable dish cropped at the frame edge, and an empty-but-used
+  setting's chair back at the side. **2 settings**: two identical full
+  plates side by side or facing, the roasting tin and potato dish between
+  them, a second vegetable dish and the gravy jug, table continuing out
+  of frame. **Small group (3 to 4)**: plates around one end, all shared
+  vessels clustered in the middle, the far end of the table soft and out
+  of frame. Cues: more vegetable dishes than the visible diners need;
+  a child's chair or booster seat soft at the edge; window light from a
+  grey Sunday. [EDITORIAL]
+- Decor and cues: tablecloth or placemats, the everyday "good" plates,
+  a jar of mint sauce or horseradish with its lid off. Avoid: candelabra
+  and stately-home dining rooms; a herb-sprig garnish.
+- Never stage: wine or beer at the table (a strong prior here; prompt
+  "no wine glasses, no beer"); legible jar labels (genericize per
+  the trademark list).
+- Confidence and sources: HIGH for the meal itself (catalog entry and
+  GENERAL NORMS sources); EDITORIAL for headcount and staging.
+
+#### Celebration: Christmas dinner (Christmas Day, 25 December)
+- Type: calendar holiday.
+- When: Christmas Day, served early to mid-afternoon (commonly cited as
+  1 to 4pm); intake time midday, or golden-hour for a late-afternoon
+  dinner (winter light fades by about 4pm). [MEDIUM — timing range from
+  general sources; no YouGov figure found this pass]
+- Gathering: the extended family at one home, roughly 6 to 12 people
+  (see the ~8 average above, LOW); home indoor. [LOW for the figure]
+- The spread: a roast dinner built around **roast turkey** (on 57% of
+  British Christmas plates in YouGov's Big Survey on Christmas), with
+  **pigs in blankets** (small sausages wrapped in streaky bacon; on about
+  two-thirds of plates, and favourites in YouGov polling), roast
+  potatoes, Brussels sprouts, carrots and parsnips, stuffing, cranberry
+  sauce, bread sauce, and gravy. Christmas pudding (dark, domed, with a
+  sprig of holly) follows. [HIGH — YouGov Big Survey on Christmas and
+  YouGov best-Christmas-food polling] No turkey or pigs-in-blankets
+  catalog entry exists: **roast turkey** reads as a whole bird, deep
+  golden-brown glossy skin, on a large oval platter about 40 to 45cm
+  long, roughly four can-heights across; plated, 2 to 3 pale sliced
+  pieces. **Pigs in blankets** are finger-length (about 6 to 8cm, a
+  little over half the can's height), glossy brown bacon wrap, piled in
+  a small dish. Both added to CANDIDATE QUEUE. The rest of the plate
+  follows catalog: Sunday roast (roast potatoes, gravy, full-to-the-rim
+  look). A real Christmas table carries 6 to 9 shared vessels.
+  [EDITORIAL for sizes and count]
+- Snapshot staging: **1 setting**: one full plate (turkey slices, two pigs
+  in blankets, roast potatoes, sprouts, carrots and parsnips, gravy), a
+  pulled cracker and folded paper hat beside it, the turkey platter
+  cropped at the top edge, a sprout dish and gravy jug in the
+  midground. **2 settings**: two identical plates, the carved turkey
+  between them, pigs-in-blankets dish and roast-potato dish, cranberry
+  sauce in a small bowl, the table running out of frame. **Small group**:
+  three or four identical plates at one end, every shared dish crowded
+  into the middle, crackers and hats at each place. Cues: crackers and
+  paper hats at settings beyond the visible plates; a decorated tree
+  soft-focus in the background; extra chairs. [EDITORIAL]
+- Decor and cues: crackers, paper crowns, a red or white tablecloth,
+  fairy lights or a tree blurred behind, winter dark at the window by
+  late afternoon. Avoid: snow-scene kitsch, Union Jack anything, a
+  stately-home banquet.
+- Never stage: wine, champagne, sherry or a flaming brandy-lit pudding
+  (the flame comes from spirits; show the pudding unlit); religious
+  imagery (nativity scenes) as the subject.
+- Confidence and sources: HIGH for menu composition ([YouGov — The YouGov
+  Big Survey on Christmas: Christmas dinner](https://yougov.com/en-gb/articles/53593-the-yougov-big-survey-on-christmas-christmas-dinner);
+  [YouGov — What is the best Christmas food?](https://yougov.com/en-gb/articles/26343-best-christmas-food));
+  MEDIUM for timing; LOW for headcount.
+
+#### Celebration: Easter Sunday lunch (Easter Sunday)
+- Type: calendar holiday.
+- When: Easter Sunday (March or April), midday; intake time midday.
+- Gathering: family at home, similar to a large Sunday roast, about 4 to
+  10; home indoor, occasionally a pub. [EDITORIAL]
+- The spread: **roast lamb** is the meal most associated with Easter
+  Sunday, served as a roast dinner with mint sauce, roast potatoes and
+  spring vegetables (see catalog: Sunday roast for the plate; lamb is one
+  of its listed meats). Sweet items around the meal: **simnel cake** (a
+  light fruitcake covered in toasted marzipan, topped with 11 marzipan
+  balls) and **hot cross buns** (spiced currant buns with a pale cross,
+  more a Good Friday and teatime item). [MEDIUM — food-media and
+  caterer sources agree, no institutional source found] Simnel cake has
+  no catalog entry: a round cake about 20cm across (roughly three can
+  diameters), golden-brown toasted marzipan top, the ring of 11 small
+  balls; added to CANDIDATE QUEUE as a compact sweets item. Shared
+  vessels: about 5 to 7, as for a Sunday roast.
+- Snapshot staging: as the Sunday roast entry, with the lamb joint
+  (browned, pink when sliced) on the board and a jar of mint sauce in
+  frame. For a small group, the simnel cake can sit on a cake stand at
+  the far edge, partly cropped. Cues: a bowl of small foil-wrapped
+  chocolate eggs or a few daffodils in a jug; bright spring daylight,
+  still soft. [EDITORIAL]
+- Decor and cues: daffodils, pastel napkins. Avoid: oversized Easter
+  bunny props, US-style ham as the default centrepiece.
+- Never stage: church services, crosses or religious imagery as the
+  subject (the cross on a hot cross bun is fine as food); wine.
+- Confidence and sources: MEDIUM ([Gambero Rosso — Discover British
+  Easter treats](https://www.gamberorossointernational.com/news/food-news/easter-in-the-uk-hot-cross-buns-and-simnel-cake-2/);
+  [Fine Food Specialist — Hosting Easter dinner](https://www.finefoodspecialist.co.uk/blogs/blog/hosting-easter-dinner-heres-your-meat-guide));
+  EDITORIAL for staging.
+
+#### Celebration: Bonfire Night (Guy Fawkes Night, 5 November)
+- Type: calendar holiday (secular, community).
+- When: 5 November or the nearest weekend, after dark (about 5 to 8pm);
+  intake time evening.
+- Gathering: families and friends at a back-garden bonfire (home
+  outdoor), or a community fireworks display on a field or park (other),
+  with food eaten standing or on garden chairs. A garden party is about
+  6 to 20 people; displays are much larger. [EDITORIAL]
+- The spread: winter-warming, hand-held food. Documented traditional
+  items include **toffee apples**, **treacle toffee**, **parkin** (a soft,
+  sticky spiced oat-and-treacle cake, strongly Yorkshire and Northern),
+  **black peas** (Lancashire), **jacket potatoes** cooked in the embers,
+  hog roast, and in practice sausages and hot dogs. [HIGH for the list —
+  Wikipedia (Bonfire Night) and Love Food Hate Waste agree] See catalog:
+  Jacket potato (here wrapped in foil, eaten from a paper plate or the
+  foil); see catalog: Bangers and mash for the sausage (here in a soft
+  white bread roll). Parkin and toffee apples have no catalog entry:
+  **parkin** is cut in dark brown, slightly glossy squares about 5cm a
+  side (under the can's width); **toffee apples** are whole apples in a
+  glassy deep-red toffee shell on a wooden stick, about the can's
+  diameter or a little wider. Both added to CANDIDATE QUEUE. A garden
+  table carries 3 to 6 serving vessels: a foil tray of jacket potatoes,
+  a tray of sausages in rolls, a plate of parkin, toffee apples on a
+  board.
+- Snapshot staging: **1 setting**: a paper plate with a foil-split jacket
+  potato (butter, grated cheese or beans) on a garden table edge, the
+  can beside it, the foil tray cropped at the frame edge. **2 settings**:
+  two identical paper plates (sausage in a roll plus jacket potato), a
+  plate of parkin squares and a toffee apple between them. **Small
+  group**: three plates around one end of a garden table, foil trays and
+  the parkin plate in the middle. Cues: bonfire glow and a few sparks
+  soft in the background; people in coats, scarves and hats, blurred;
+  a sparkler trail in the distance. The can should carry the warm orange
+  firelight, not studio light. [EDITORIAL]
+- Decor and cues: coats and wool hats, garden fence and dark sky,
+  firelight. Avoid: daylight, summer clothes, US Fourth-of-July styling.
+- Never stage: the "Guy" effigy on the bonfire (an effigy burning, with
+  a historically anti-Catholic origin, and in Lewes and elsewhere other
+  effigies that court controversy); a child holding a lit firework near
+  the product; alcohol (mulled wine is common, keep it out).
+- Confidence and sources: HIGH for foods ([Wikipedia — Bonfire Night](https://en.wikipedia.org/wiki/Bonfire_Night);
+  [Love Food Hate Waste — Bonfire night feast ideas](https://www.lovefoodhatewaste.com/blog/7-bonfire-night-feast-ideas));
+  EDITORIAL for staging and the effigy rule.
+
+#### Celebration: Birthday party (children's party; adult birthday meal)
+- Type: life event.
+- When: any time of year; children's parties are usually weekend
+  midday or early afternoon (midday); adult birthdays are an evening
+  meal out (evening) or a garden party in summer (golden-hour).
+  [EDITORIAL]
+- Gathering: a children's party is often 10 to 30 children in a hired
+  church or community hall, soft-play centre, or the home; an adult
+  birthday is 4 to 12 at a pub, curry house or restaurant, or at home.
+  Map: home indoor, home outdoor, restaurant, other (hall). [EDITORIAL]
+- The spread: the children's party buffet on one long table: sandwiches
+  cut into triangles, sausage rolls (see catalog: Sausage roll), crisps
+  in bowls, cocktail sausages, carrot and cucumber sticks, fairy cakes,
+  jelly, and the birthday cake (a decorated sponge, often a character or
+  number cake). Adult meal out: see catalog: Curry-house dishes, or a
+  pub meal (see catalog: Pies, Fish and chips). [MEDIUM — widely known
+  UK party-food repertoire, not specifically sourced this pass]
+- Snapshot staging: **1 setting** (children's buffet): one paper plate
+  with two sandwich triangles, a sausage roll and a few crisps on a
+  long paper-covered table, the cake partly cropped at one end, bowls
+  of crisps behind. **2 settings**: two identical paper plates, a shared
+  platter of sandwiches and a bowl of crisps between them, a party
+  plate of fairy cakes. **Small group**: plates at one stretch of the
+  table with the cake (candles unlit or lit) in the midground. Cues:
+  balloons tied to a chair back, a paper tablecloth with a print,
+  blurred children behind (no sharp faces); keep the product with the
+  adult or teen cast, per TCCC's Responsible Marketing Policy (no
+  marketing to children under 13, as cited in `germany.md`). [EDITORIAL]
+- Decor and cues: balloons, bunting (plain coloured, not Union Jack),
+  party bags at the edge. Avoid: legible "Happy Birthday" banners with
+  names; licensed characters on the cake.
+- Never stage: a young child as the drinker of the hero product (TCCC
+  Responsible Marketing Policy, see `germany.md`); alcohol at an adult
+  party.
+- Confidence and sources: MEDIUM for repertoire; EDITORIAL for staging.
+
+#### Celebration: Wedding breakfast and evening reception (wedding)
+- Type: life event.
+- When: weddings cluster May to September; the "wedding breakfast" (the
+  meal after the ceremony, despite the name, not a morning meal) is
+  mid to late afternoon (golden-hour); the evening reception and buffet
+  follow (evening). [MEDIUM — the name and timing are widely documented]
+- Gathering: about 80 day guests and about 100 to 110 evening guests on
+  average (Hitched, via secondary sources); a hired venue (hotel, barn,
+  country house, marquee), round tables of 8 to 10. Venue mapping:
+  other. [MEDIUM]
+- The spread: the wedding breakfast is a plated three-course meal, often
+  a roast-style main (chicken breast, beef or lamb with potatoes and
+  vegetables), served by caterers; the evening buffet adds bacon or
+  sausage rolls, a hog roast, pizza or a cheese board. The tiered wedding
+  cake stands on its own table. [MEDIUM — wedding-industry sources]
+- Snapshot staging: **1 setting**: one plated main on a white charger at
+  a white-clothed round table, name card blank, the cake table blurred
+  behind. **2 settings**: two identical plated mains, the table's floral
+  centrepiece partly cropped, empty settings continuing round the table.
+  **Small group**: three or four settings on one arc of the round table,
+  a second round table soft in the background. Cues: the round table's
+  curve leaving frame; fairy lights or bunting in a barn; blurred
+  guests in formal clothes (no more than about 2.5 faces, none sharp).
+  For the evening buffet: a paper plate at a high table, the hog-roast
+  station soft behind. [EDITORIAL]
+- Decor and cues: white linen, floral centrepieces, chair covers or
+  wooden barn chairs. Avoid: the couple themselves as identifiable
+  subjects; legible table plans.
+- Never stage: champagne flutes, the toast, wine bottles on the table
+  (all real and a strong prior; prompt "no glasses other than the hero
+  serve"); the ceremony itself.
+- Confidence and sources: MEDIUM ([Party Houses — Wedding statistics UK](https://partyhouses.co.uk/wedding-statistics-uk/),
+  citing Hitched; [Weddings Hub — UK wedding statistics](https://weddingshub.co.uk/uk-wedding-statistics/);
+  both industry tier, flagged per §6); EDITORIAL for staging.
+
+#### Celebration: Eid al-Fitr and Eid al-Adha family meal (British Muslim communities)
+- Type: calendar holiday (community; dates move about 11 days earlier
+  each year).
+- When: Eid day; morning prayers and sweets come first (sheer khurma is
+  the first thing eaten by many South Asian-heritage families), then the
+  main **family lunch or dinner**, which is the staging target per this
+  pass's breakfast exclusion. Intake time midday or evening.
+- Gathering: extended family and visiting relatives, often 10 to 30 in
+  and out of the home through the day; home indoor (living room and
+  dining table both used), sometimes a restaurant or hall. Strongest in
+  Birmingham, Bradford, East London, Manchester, Leicester and Luton.
+  [MEDIUM]
+- The spread: for the largest UK Muslim communities (Pakistani,
+  Bangladeshi and Indian heritage), the centrepiece is a **biryani or
+  pulao** in a large platter, with karahi or a meat curry, kebabs or
+  samosas, raita and salad, then sweets (gulab jamun, sheer khurma,
+  mithai). Eid al-Adha centres on the sacrificed animal's meat (lamb,
+  goat or beef) cooked the same day. For staging the dishes, point to
+  `asia/pakistan.md` (FESTIVALS register and section G, Festive tables
+  and sweets), `asia/bangladesh.md` and `asia/india.md`; British versions
+  match their family-cooked forms rather than the curry-house menu. A
+  table carries 5 to 8 shared dishes. [MEDIUM — Wikipedia (Eid cuisine)
+  plus UK grocery and sweet-retailer sources, lower tier, flagged]
+- Snapshot staging: **1 setting**: one plate of biryani with a spoon of
+  raita on a dining table, the large biryani platter cropped at the
+  top edge, a plate of samosas and a sweets box in the midground.
+  **2 settings**: two identical plates, the biryani platter and a
+  karahi between them, a mithai box open behind. **Small group**: three
+  or four settings, every shared dish clustered in the middle. Cues:
+  more serving dishes than diners; an open box of mithai; relatives in
+  festive clothes blurred in the background; a UK living room (radiator,
+  double-glazed window) behind, so it reads as Britain and not South
+  Asia. [EDITORIAL]
+- Decor and cues: festive shalwar kameez or other best clothes, fairy
+  lights or "Eid Mubarak" bunting (illegible). Avoid: desert or
+  "Arabian" clichés for a South Asian-heritage family.
+- Never stage: pork or alcohol anywhere; prayer, mosque interiors or
+  the Qur'an; the animal sacrifice; Ramadan-day eating (see the source
+  country files' Ramadan rules).
+- Confidence and sources: MEDIUM ([Wikipedia — Eid cuisine](https://en.wikipedia.org/wiki/Eid_cuisine);
+  [Sunshine Snacks — What sweets do families enjoy on Eid in the UK](https://sunshinesnacks.co.uk/blogs/posts/what-sweets-do-families-enjoy-on-eid-in-the-uk),
+  a retailer, lower tier); EDITORIAL for staging.
+
+#### Celebration: Diwali family meal (British Hindu and Sikh communities)
+- Type: calendar holiday (community; October or November).
+- When: Diwali evening (intake time evening), after lighting diyas;
+  Leicester's Diwali lights are among the largest outside India.
+  [MEDIUM — widely reported; not re-searched this pass]
+- Gathering: extended family at home, about 8 to 20, with visits to
+  relatives and exchanges of sweet boxes; home indoor. [EDITORIAL]
+- The spread: a vegetarian-led family meal is common in Hindu households
+  (curries, dal, rice, puri, samosas, pakoras), with **mithai** (barfi,
+  ladoo, jalebi) as the signature food; Sikh families mark Bandi Chhor
+  Divas the same day with similar food. Point to `asia/india.md` for
+  dish staging. [MEDIUM — Diwali food norms are well documented in the
+  India file's sources; the UK-specific practice is LOW, not separately
+  verified this pass]
+- Snapshot staging: **1 setting**: a thali-style plate or dinner plate
+  with dal, a vegetable curry, rice and a puri, a mithai box open
+  beside it, a diya lit at the frame edge. **2 settings**: two identical
+  plates, a serving bowl of curry and a basket of puris between them.
+  **Small group**: settings at one end, sweets platter mid-table. Cues:
+  several lit diyas along a windowsill, string lights, an open sweet
+  box. [EDITORIAL]
+- Decor and cues: diyas, rangoli soft on the floor at the edge, best
+  clothes. Avoid: fireworks as the focus.
+- Never stage: beef; deities, shrines or puja as the subject; alcohol.
+- Confidence and sources: LOW to MEDIUM (see above); EDITORIAL for
+  staging. GAP LOG item added.
+
+---
+
 ## DISH CATALOG
 
 **Scale note for every entry**: per `coca-cola-guidelines.md` §3/§4.3, the
@@ -1437,6 +1797,17 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   additional verification pass beyond what's cited, since none turned up
   contested or surprising evidence worth a deeper dig.
 
+- **Celebrations pass (2026-10-01) open items.** No FESTIVALS & SEASONAL
+  OCCASIONS register exists yet; CELEBRATIONS & LARGE GATHERINGS stands in
+  as the calendar index until one is written. The Christmas-table
+  headcount (~8, ~11 in NI) comes from an unidentified commercial survey
+  seen only in search summaries (LOW). Christmas dinner timing (1 to 4pm)
+  has no YouGov figure behind it. Wedding guest numbers are Hitched data
+  read via secondary wedding-industry sites. UK-specific Eid and Diwali
+  table practice was not separately verified beyond lower-tier sources;
+  it leans on the asia/ country files. Children's party and wedding-menu
+  repertoires are general knowledge, MEDIUM at best.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on Cornish Pasty Association / British Pie Awards
@@ -1458,6 +1829,14 @@ rather than promoted to its own file or deferred to a future Ireland file.**
    Spain contrast should be added when Spain is built.
 5. Independent §8 audit of this file (and `uk-scotland.md`) before either
    is treated as fully done, per the project's standing practice.
+
+6. Celebration dishes with no catalog entry yet (celebrations pass
+   2026-10-01): roast turkey Christmas plate (with pigs in blankets,
+   sprouts, parsnips, bread and cranberry sauce); pigs in blankets as a
+   compact entry; a compact British festive sweets block (Christmas
+   pudding, simnel cake, hot cross buns, parkin, toffee apples, treacle
+   toffee); children's party buffet (sandwich triangles, fairy cakes);
+   and a FESTIVALS & SEASONAL OCCASIONS register for this file.
 
 ## RESEARCH LOG
 
@@ -1527,3 +1906,12 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   `uk-scotland.md`) and adding one narrow cross-reference line to `us.md`
   pointing here — see DECISIONS.md for the exact edit made and why it was
   kept minimal.
+- **2026-10-01 celebrations pass (schema §5.7):** 6 searches (YouGov
+  Christmas dinner menu, Christmas timing/headcount, Bonfire Night foods,
+  Easter lunch, Hitched wedding guest numbers, British Eid/Diwali family
+  food). Added CELEBRATIONS & LARGE GATHERINGS after ENVIRONMENT & STAGING
+  SCENES (no festivals register exists) with 8 entries: Sunday roast as
+  the family gathering, Christmas dinner, Easter Sunday lunch, Bonfire
+  Night, birthday party, wedding breakfast/evening reception, Eid
+  al-Fitr/al-Adha family meal, Diwali family meal. WebSearch only; no
+  pages read at source.
