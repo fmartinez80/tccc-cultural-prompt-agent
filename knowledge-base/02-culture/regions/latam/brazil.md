@@ -710,6 +710,283 @@ that fit): cans or glass bottles, or a 1–2 L bottle with glasses.
 | **Círio de Nazaré (Belém)** | Second Sunday of October — **11 Oct 2026, 10 Oct 2027** (calendar-computed; not searched) | Family lunch of pato no tucupi and maniçoba [MEDIUM — not re-checked] | **A major Catholic procession — never stage a product in or beside it**; stage the family lunch at home instead |
 | **Holy Week / Lent** | Easter 2026: 5 Apr; 2027: 28 Mar (calendar) | Fish, bacalhau on Good Friday [MEDIUM — not re-checked] | Do not stage a TCCC product in or beside religious processions [EDITORIAL] |
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Built 2026-10-01 under `country-file-schema.md` §5.7 (the snapshot rule).
+The FESTIVALS register above stays as the calendar index; this section
+holds the staging. Party size is the place settings in frame, never the
+size of the event. The hero SKU always comes from the brief (§5.4).
+
+### How large gatherings work here
+
+- **Who gathers.** The extended family first, with friends folded in;
+  Brazilian celebrations are home-centred. Surveys put Christmas with
+  family at about 91% (Brazil Panels, via Portal Making Of), with 84% of
+  one large employee sample planning the ceia at home; one survey splits
+  hosts as 46% at their own home, 17% at their parents' and 15% at other
+  relatives'. [HIGH that Christmas is overwhelmingly a family home event
+  — several independent surveys agree; the exact shares are MEDIUM]
+- **Size.** Holiday dinners and Sunday lunches: about 8–25. Children's
+  parties: 30–80, adults outnumbering children (caterer calculators
+  budget 10–12 salgados per adult, 6–8 per child). Weddings: planning
+  guides class 30–80 as small, 80–200 as medium and 200+ as large, with
+  100–150 the usual budgeting reference. [LOW-MEDIUM — planning and
+  catering vendors, tier 3; no national survey average found]
+- **Where (intake venues).** **Home indoor** (the family house or
+  apartment) for Christmas and Saturday feijoada; **home outdoor**
+  (quintal, covered terrace, varanda gourmet with a built-in grill) for
+  churrasco and birthdays; the **condominium party room** (salão de
+  festas) for apartment dwellers, and a commercial **casa de festas /
+  buffet infantil** for children's parties ("other"); salões, sítios and
+  chácaras (country plots) for weddings ("other"). [EDITORIAL; MEDIUM —
+  not individually re-checked for the condominium party room, uncontested]
+- **Table form.** Home: the dining table extended with a second table or
+  a plastic folding table under one cloth; extra plastic chairs.
+  Children's parties: the **mesa do bolo**, a decorated display table
+  with the cake at the centre and docinhos around it, separate from the
+  guests' tables. Weddings: round tables of 8–10. [MEDIUM for the mesa do
+  bolo — party-industry sources; rest EDITORIAL]
+- **Who serves and how.** Home holiday meals and feijoadas are served
+  **self-service from the table or the stove** (each person fills their
+  own plate), not plated by a host. Churrasco: the churrasqueiro slices
+  meat onto a board and hands it round. Children's parties: salgados
+  passed on trays by staff or set out; at a casa de festas, waiters
+  circulate. Weddings: a coquetel (circulating finger food), a
+  self-service buffet, food stations (ilhas gastronômicas) or a served
+  dinner. [MEDIUM — wedding and party vendors; EDITORIAL for home]
+- **Plates and cutlery.** Fork and knife at home meals (rice-and-beans
+  plates are eaten with a fork); at children's parties salgados and
+  docinhos are eaten by hand off paper napkins and small disposable
+  plates, cake on a small plate with a plastic fork. [EDITORIAL]
+- **Snapshot-staging default for Brazil [EDITORIAL].** The three most
+  authentic crowd cues: (1) **a crowded run of bowls on one table**
+  (rice, farofa, salad, vinagrete) more than the visible diners need,
+  partly cropped; (2) **the mesa do bolo or the churrasqueira soft
+  behind**; (3) **plastic chairs and a second table at the edge**, with
+  one or two blurred relatives. Use two of the three.
+- **Product format.** When the brief allows a multi-serve bottle, the
+  implied gathering justifies a 2 L or larger bottle in the midground of
+  the visible stretch (schema §5.7); 2 L sodas on the party table are
+  already a documented Brazilian norm (see Brigadeiro and the docinhos
+  table). Exclude beer, caipirinha, sparkling wine, quentão and fresh
+  juice jugs (rules 3–4), and name Fanta Guaraná or Kuat rather than a
+  generic "guaraná" (the Antarctica trap, ICONIC BEVERAGES).
+
+#### Celebration: Sunday churrasco (and Dia dos Pais)
+- Type: community or family gathering (Father's Day, second Sunday of
+  August, is its named calendar peak)
+- When: Sunday from ~12:00, eating through the afternoon; intake time:
+  **midday** or **golden-hour**.
+- Gathering: family and friends, ~8–25; **home outdoor** (back terrace,
+  quintal, varanda gourmet, condominium grill area). [HIGH for the
+  churrasco as the weekend and Father's Day ritual — see Meal outdoors at
+  home; headcount EDITORIAL]
+- The spread: skewers and a board of sliced picanha, linguiça and
+  chicken hearts (see catalog: Churrasco em casa — the home barbecue);
+  farofa, vinagrete, white rice, maionese (potato salad), pão de alho
+  (garlic bread). 5–7 shared vessels.
+- Snapshot staging:
+  - **1 setting**: one plate with sliced picanha, a spoon of farofa and
+    vinagrete, rice; the wooden board of sliced meat and the farofa bowl
+    cropped.
+  - **2 settings**: two identical plates; between them the board of
+    picanha and a skewer of linguiça, the vinagrete bowl.
+  - **Small group**: identical plates on a long table; bowls repeating
+    out of frame.
+  - **Crowd cues**: the churrasqueira glowing softly behind with skewers
+    still on; plastic chairs; a blurred figure slicing.
+- Decor and cues: tiled covered terrace, a ceiling fan, plants, a
+  plastic tablecloth. Avoid gaúcho costume outside zone 4 briefs.
+- Never stage: beer bottles or insulated beer sleeves (the strongest
+  prior here), caipirinha, a cooler of beer, football shirts with crests.
+- Confidence and sources: as in the catalog entry (Seara, Prezunic,
+  TudoGostoso).
+
+#### Celebration: Saturday feijoada with family or friends (feijoada de sábado)
+- Type: community or family gathering
+- When: Saturday lunch, ~13:00–17:00, a long and heavy meal; intake
+  time: **midday**.
+- Gathering: family and friends, ~8–20; **home indoor** or a terrace
+  (home outdoor); also feijoada parties at clubs and samba schools
+  ("other"). [HIGH for Saturday as feijoada day and its role as a
+  family lunch — pt.Wikipedia (via search), O Tempo, catalog sources;
+  headcount EDITORIAL]
+- The spread: the feijoada pot or the meats separated into bowls (see
+  catalog: Feijoada completa), with the five sides: white rice, couve,
+  farofa, torresmo and peeled orange slices. 6–8 vessels.
+- Snapshot staging:
+  - **1 setting**: one plate of rice, black beans with meat, couve,
+    farofa and two orange slices; the clay pot and the torresmo bowl
+    cropped.
+  - **2 settings**: two identical plates; between them the dark pot on a
+    trivet and the couve and farofa bowls.
+  - **Small group**: identical plates; a line of side bowls and a second
+    pot running out of frame.
+  - **Crowd cues**: a large pot still steaming on the stove behind; more
+    bowls than diners; extra chairs.
+- Decor and cues: a cotton cloth, clay and enamel vessels, daylight.
+- Never stage: caipirinha (the classic feijoada drink), beer, cachaça;
+  samba-school imagery with legible banners.
+- Confidence and sources: [pt.Wikipedia — Feijoada à brasileira](https://pt.wikipedia.org/wiki/Feijoada_%C3%A0_brasileira) (via search);
+  [O Tempo — curiosidades sobre feijoada (2025)](https://www.otempo.com.br/gastronomia/2025/6/3/apaixonado-por-feijoada-conheca-3-curiosidades-sobre-o-prato-mais-amado-do-brasil).
+
+#### Celebration: Festa junina / São João (June)
+- Type: calendar holiday (community festival)
+- When: June, around 13, 24 and 29 June; evening into night; intake
+  time: **evening**.
+- Gathering: neighbourhood, school, church and family festas, from a
+  family yard of ~20 to city arraiais of thousands; stage the family or
+  school arraial, **home outdoor** or a school yard ("other"). [HIGH for
+  the festival — see FESTIVALS; scale EDITORIAL]
+- The spread: the corn and peanut table (see catalog: Festa junina / São
+  João table): pamonha, canjica, milho cozido, bolo de milho, pipoca,
+  pé de moleque, paçoca. 5–7 small dishes.
+- Snapshot staging:
+  - **1 setting**: a small plate with a square of bolo de milho and an
+    opened pamonha; the cob platter and canjica bowl cropped.
+  - **2 settings**: two small plates on a checked cloth; a bowl of canjica
+    and a cob platter between them.
+  - **Small group**: identical plates; the dishes crowd the cloth and run
+    out of frame.
+  - **Crowd cues**: small triangular paper flags overhead; a bonfire
+    glow out of focus; stalls (barracas) soft behind.
+- Decor and cues: bandeirinhas, checked cloth, straw hats on a chair.
+  Not papel picado.
+- Never stage: quentão and vinho quente; fireworks near the product;
+  the saints' images or processions.
+- Confidence and sources: as in the catalog entry and FESTIVALS.
+
+#### Celebration: Christmas Eve supper and New Year's Eve (Ceia de Natal, Réveillon)
+- Type: calendar holiday
+- When: 24 December, the ceia about 21:00–midnight (in one survey 44%
+  eat before midnight and 27% wait for midnight); 31 December similar.
+  Midsummer heat. Intake time: **evening**.
+- Gathering: extended family, ~10–25, at home or the parents' or a
+  relative's house; **home indoor** with windows open, or a terrace.
+  [HIGH that it is a family home event; MEDIUM for the timing split —
+  one survey via Notícia Preta]
+- The spread: the ceia (see catalog: Ceia de Natal): roast turkey or
+  tender ham, arroz à grega, farofa, salpicão, bacalhau, rabanada and
+  panetone. Réveillon adds **lentils** and **grapes and pomegranate** for
+  luck [LOW-MEDIUM — not searched]. 6–9 vessels.
+- Snapshot staging:
+  - **1 setting**: a plate with a slice of turkey, arroz à grega, farofa
+    and salpicão; the turkey platter and the salpicão bowl cropped.
+  - **2 settings**: two identical plates; the turkey or ham platter
+    between them, partly cropped, rice and farofa bowls.
+  - **Small group**: identical plates; bowls and platters repeating along
+    the table and out of frame.
+  - **Crowd cues**: a small tree with lights soft behind; a second table
+    of sweets (rabanada, panetone); an open window and a fan.
+  - **Réveillon variant**: white tablecloth and white clothing (soft),
+    a lentil bowl and a grape bowl in the centre.
+- Decor and cues: red or white cloth, candles; summer night.
+- Never stage: sparkling wine and the midnight toast, fireworks with
+  bottles, the nativity scene or Midnight Mass; the beach réveillon
+  offerings to Iemanjá (a religious practice).
+- Confidence and sources: [IstoÉ Dinheiro — só 9% não vão passar o Natal com a família](https://istoedinheiro.com.br/so-9-dos-brasileiros-nao-vao-passar-o-natal-com-a-familia-diz-pesquisa);
+  [RealTime1 — 84% pretendem passar a ceia em casa](https://realtime1.com.br/natal-em-familia-84-dos-brasileiros-pretendem-passar-a-ceia-no-aconchego-do-lar/);
+  [Notícia Preta — ceia antes da meia-noite](https://noticiapreta.com.br/ceia-natal-antes-ou-meia-noite-pesquisa-brasileiros/);
+  catalog sources.
+
+#### Celebration: Birthday party (festa de aniversário, especially children's)
+- Type: life event
+- When: weekend afternoon or early evening, ~15:00–20:00; intake time:
+  **golden-hour** or **evening** indoors.
+- Gathering: 30–80 (family plus the child's friends; adults' birthdays
+  are smaller, often a churrasco or a pizza night); **home outdoor**,
+  condominium party room or a casa de festas ("other"). [LOW-MEDIUM —
+  inferred from caterer calculators; not a survey]
+- The spread: **salgadinhos** (mini coxinhas, kibes, risoles, bolinhas de
+  queijo, empadinhas — see catalog: Coxinha and the salgados counter),
+  **docinhos** (brigadeiro, beijinho, cajuzinho — see catalog: Brigadeiro
+  and the docinhos table), an informal main (mini hot dogs, small
+  sandwiches) and the **cake** (bolo), chocolate or white, cream-filled.
+  [HIGH for the salgados-docinhos-bolo structure — party-industry
+  sources (Pronto Socorro das Festas, Espaço Puzzle) consistent with the
+  catalog entry's Receitas Nestlé sources]
+  - **Bolo de aniversário** (no catalog entry): a rectangular or round
+    cake about three to four cans across, frosted in whipped cream or
+    chantilly with piped borders, often decorated in the party theme,
+    filled with brigadeiro, doce de leite or strawberry cream. Added to
+    CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a small paper plate with three mini salgados and two
+    brigadeiros in their forminhas; a tray of coxinhas cropped.
+  - **2 settings**: two identical small plates; a salgados tray between
+    them; the mesa do bolo soft behind with rows of docinhos.
+  - **Small group**: identical plates at a guests' table; trays passing
+    along it out of frame.
+  - **Crowd cues**: the decorated mesa do bolo with the cake and rows of
+    docinhos, soft; balloons and a themed panel (unreadable); plastic
+    chairs.
+- Decor and cues: balloon arches, themed panels, coloured forminhas.
+  Licensed characters generic and unrecognisable.
+- Never stage: readable names or licensed characters; children as the
+  hero subject near the product (keep children soft, background only
+  [EDITORIAL — confirm against TCCC marketing-to-children policy]);
+  beer for the adults.
+- Confidence and sources: [Espaço Puzzle — herança culinária da festa infantil](https://www.espacopuzzle.com.br/blog/saboreando-a-tradicao-heranca-culinaria-da-festa-infantil);
+  [Pronto Socorro das Festas — salgados para festa infantil](https://www.prontosocorrodasfestas.com.br/blog/categorias/artigos/salgados-para-festa-infantil-que-encantam) (tier 3).
+
+#### Celebration: Wedding reception (casamento)
+- Type: life event
+- When: Saturday evening (dinner ~21:00) or a daytime mini-wedding at a
+  sítio; intake time: **evening** or **golden-hour**.
+- Gathering: 80–200 is the "medium" wedding in planning guides, with
+  intimate weddings up to 100; salão, sítio, chácara or restaurant
+  ("other"). [LOW-MEDIUM — planning vendors (casar365, Lejour, Meu
+  Casar), tier 3]
+- The spread: a **coquetel** of circulating salgados, then a self-service
+  buffet, **ilhas gastronômicas** (food stations: risotto, pasta, a
+  carving station) or a served dinner; a **mesa de doces** of bem-casados
+  and docinhos in decorated forminhas, and the cake. [MEDIUM for the
+  service formats — vendor sources; MEDIUM for bem-casado as the wedding
+  sweet — not individually re-checked]
+  - **Bem-casado** (no catalog entry): two small round soft sponge
+    discs (~5 cm, about the can's width) sandwiching doce de leite or
+    custard, glazed in thin white sugar and wrapped in crepe paper or
+    tulle tied with a ribbon. Added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: one plate from the buffet or a served main on a
+    charger, full cutlery; the table edge and centrepiece base cropped.
+  - **2 settings**: two identical plates side by side on a round table.
+  - **Small group**: identical plates around one arc; or three or four
+    small dessert plates in front of the mesa de doces running out of
+    frame.
+  - **Crowd cues**: further round tables soft behind; the doces table
+    with rows of wrapped bem-casados; string lights at a sítio.
+- Decor and cues: white linen, flowers, string lights in trees.
+- Never stage: stemmed glasses at the setting, the toast, the open bar,
+  the ceremony; the bride and groom as subject.
+- Confidence and sources: [casar365 — quanto custa um casamento em 2026](https://casar365.com.br/quanto-custa-um-casamento/);
+  [Meu Casar — buffet de casamento](https://meucasar.com.br/blog/buffet-de-casamento-como-escolher-e-quanto-custa) (tier 3).
+
+#### Celebration: Baptism and first-communion lunch (batizado, primeira comunhão)
+- Type: life event
+- When: Sunday lunch after the morning service, ~13:00–17:00; intake
+  time: **midday**.
+- Gathering: family and godparents, ~20–50; **home** (indoor or
+  outdoor) or a restaurant ("restaurant"). [LOW — not verified this pass]
+- The spread: a churrasco (see catalog: Churrasco em casa), a family
+  lunch of lasagne, roast chicken, salpicão and rice, or a party table
+  of salgados and docinhos (see catalog: Coxinha and the salgados
+  counter; Brigadeiro and the docinhos table), then a white cake.
+  [LOW — model knowledge, not verified this pass]
+- Snapshot staging:
+  - **1 setting**: one plate of the lunch; a salpicão bowl and a platter
+    cropped.
+  - **2 settings**: two identical plates on a white cloth; dishes between.
+  - **Small group**: identical plates; bowls repeating out of frame.
+  - **Crowd cues**: white and pastel balloons; a white cake table soft
+    behind; extra chairs.
+- Decor and cues: white, pale blue, pale pink.
+- Never stage: the church rite, religious figures or rosaries on the
+  table.
+- Confidence and sources: LOW — not verified this pass.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2157,6 +2434,14 @@ named by the brief):**
   figure and the three majority-apartment municipalities.
 - **Religious-food sensitivity (acarajé, caruru)** is an editorial rule;
   a reviewer should confirm it matches TCCC Brazil's own guidance.
+- **Celebrations pass (2026-10-01) open items.** No national survey
+  average for wedding or children's-party guest counts (planning-vendor
+  brackets and caterer calculators only); churrasco, feijoada and
+  holiday headcounts are editorial; the baptism/first-communion entry is
+  unverified model knowledge (LOW); Réveillon luck foods still not
+  searched; bem-casado as the wedding sweet not individually checked.
+  The children-in-frame rule needs checking against TCCC's
+  marketing-to-children policy.
 
 ## CANDIDATE QUEUE
 
@@ -2174,6 +2459,9 @@ named by the brief):**
    feijoada, coxinha and pastel — the entries with the clearest failure
    modes (Mexican conflation, dry beans, empanada crust).
 5. Independent §8 audit.
+6. Full dish entries for celebration items described only briefly in
+   CELEBRATIONS & LARGE GATHERINGS: bolo de aniversário; bem-casado;
+   salpicão and arroz à grega as standalone entries; Réveillon lentils.
 
 ## RESEARCH LOG
 
@@ -2205,3 +2493,8 @@ named by the brief):**
   used only for sizes where nothing better surfaced, and marked; TikTok,
   Pinterest and Quora results ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches**, covering
+  wedding size brackets and service formats, the children's party table
+  and caterer quantities, Saturday feijoada as a family gathering, and
+  Christmas-at-home surveys (Brazil Panels, CNDL/SPC, employee sample).
+  Added CELEBRATIONS & LARGE GATHERINGS with 7 entries.

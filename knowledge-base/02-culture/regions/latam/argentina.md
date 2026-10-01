@@ -728,6 +728,283 @@ veterans and fallen) are solemn national days — never a festive or
 branded food moment. Do not stage a TCCC product beside the national
 flag in hero position, religious processions, or the Malvinas.
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Built 2026-10-01 under `country-file-schema.md` §5.7 (the snapshot rule).
+The FESTIVALS register above stays as the calendar index; this section
+holds the staging. Party size is the place settings in frame, never the
+size of the event. The hero SKU always comes from the brief (§5.4).
+
+### How large gatherings work here
+
+- **Who gathers.** Family and friends in roughly equal weight: the
+  weekend asado is as often a friends' event as a family one. In a 2022
+  survey reported by Infobae, about 85% of respondents host asados for
+  family and friends (52.9% habitually), and the most common group size
+  was **6–10 people (32.9%)**, followed by **more than 15 (27.8%)**,
+  11–15 (20.4%) and under 5 (17.4%). [MEDIUM — one survey, reported by
+  Infobae] **Economic context**: a 2024 survey reported by Infobae found
+  eight in ten Argentines had cut back on or stopped asados for cost
+  reasons. [MEDIUM — one survey] Stage gatherings as ordinary and
+  modest, not lavish [EDITORIAL].
+- **Life events are mid-sized to large.** Wedding budgets are quoted for
+  about 100–150 guests, with 70–120 described as a mid-sized wedding and
+  120–250 as large (El Cronista, Ámbito, wedding-budget guides). Fiestas
+  de 15 are planned on the same catering model. [LOW-MEDIUM — no single
+  survey average was found; these are budget-guide brackets]
+- **Where (intake venues).** Asados, birthdays and Christmas: **home
+  outdoor** (patio, quincho, garden, terrace) or **home indoor** in
+  winter and in CABA flats. Weddings and fiestas de 15: a rented
+  **salón** or quinta (country house) with catering ("other"). Children's
+  birthdays: home, or a rented **salón de fiestas infantiles** or play
+  centre ("other"). Restaurant private rooms host smaller milestones.
+  [EDITORIAL; MEDIUM for salones and catering being the standard — vendor
+  and press sources]
+- **Table form.** At home: one **long table**, often two tables end to
+  end, or the quincho's built-in long table with benches; plastic or
+  folding chairs added. At salones: round tables of 10, plus a head table
+  or the honoured person's table. [EDITORIAL]
+- **Who serves and how.** At an asado, **the asador** (traditionally a
+  man of the house, increasingly anyone) carves on a board and hands
+  pieces down the table; sides sit in bowls along the table. At salones,
+  waiters (mozos) serve a sequence: recepción (standing finger food),
+  entrada, plato principal, postre, then a **mesa dulce** (dessert
+  buffet), the cake and a late-night **fin de fiesta** snack. [MEDIUM —
+  Ámbito and catering vendors list this sequence]
+- **Plates and cutlery.** Home asado: everyday ceramic plates and steak
+  knives, often mismatched; disposable plates and cups appear at big
+  birthdays. Salones: white china, full cutlery, cloth napkins.
+  [EDITORIAL]
+- **Snapshot-staging default for Argentina [EDITORIAL].** The three most
+  authentic crowd cues: (1) **a wooden board of carved meat bigger than
+  the visible diners could finish**, with several bread baskets and
+  salad bowls running down the table; (2) **the parrilla soft in the
+  background** with more meat still on the grate; (3) **the long table
+  running out of frame** with mismatched chairs. Use two of the three.
+  For salón events, swap (2) for round tables with white cloths soft
+  behind.
+- **Product format.** When the brief allows a multi-serve bottle, the
+  implied gathering justifies a 2.25 L or larger bottle in the midground
+  of the visible stretch (schema §5.7). Remove every wine glass, beer
+  bottle, fernet glass, cut plastic bottle used as a jug, the soda siphon
+  and the mate kit (file-wide rules 3–4); at a real Argentine party all
+  of these are present, so negate them explicitly.
+
+#### Celebration: Weekend family or friends' asado (asado del domingo)
+- Type: community or family gathering
+- When: Sunday (or Saturday) midday, eating from ~13:30, sobremesa until
+  17:00 or later; intake time: **midday** (also **golden-hour** for
+  summer evening asados).
+- Gathering: 6–15 typically, often more; **home outdoor** (patio,
+  quincho, garden), in winter the quincho or indoors. [MEDIUM — Infobae
+  survey above]
+- The spread: the full home asado (see catalog: Asado — the home
+  parrillada) with choripán and achuras first (see catalog: Choripán;
+  Achuras), provoleta (see catalog: Provoleta), then tira and vacío
+  carved on a board; bread baskets, chimichurri and salsa criolla bowls,
+  ensalada mixta and ensalada rusa. 5–8 shared vessels on a long table.
+  The Sunday alternative in many families is **pasta** (see catalog:
+  Pasta del domingo — ravioles con tuco). See also CROSS-CUTTING REGISTER:
+  ASADO & PARRILLA for the order.
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of asado de tira and a piece of
+    vacío, a spoon of salad; the carving board cropped at the edge, a
+    bread basket and a chimichurri bowl.
+  - **2 settings**: two identical plates facing each other; between them
+    the board of carved meat (partly cropped), a salad bowl and bread.
+  - **Small group (3–4)**: identical plates along one side; boards,
+    salads and bread repeating down the table and out of frame.
+  - **Crowd cues**: the parrilla smoking softly behind with meat still
+    on it; extra chairs; a blurred figure at the grill.
+- Decor and cues: checked or plain cloth, or bare wood; mismatched
+  plates; a quincho's brick walls; summer shade or winter sun. Avoid
+  gaucho costume, football shirts on everyone.
+- Never stage: wine, beer, fernet, mate, the soda siphon; a gas grill
+  with flames.
+- Confidence and sources: [Infobae — encuesta sobre el asado (2022)](https://www.infobae.com/tendencias/2022/03/09/asado-una-encuesta-revelo-que-carnes-cortes-y-achuras-eligen-los-argentinos/);
+  [Infobae — ocho de cada 10 redujeron los asados (2024)](https://www.infobae.com/economia/2024/09/10/ocho-de-cada-10-argentinos-redujeron-o-eliminaron-los-asados/);
+  asado sources as in the catalog entry.
+
+#### Celebration: Christmas Eve and New Year's Eve (Nochebuena, Año Nuevo)
+- Type: calendar holiday
+- When: 24 and 31 December; dinner ~21:30–23:30, midnight toast and
+  fireworks, sweets after midnight; midsummer heat. Intake time:
+  **evening** (night, warm string lights).
+- Gathering: extended family, ~10–25; **home outdoor** (patio, garden,
+  terrace) or **home indoor** with windows open. [EDITORIAL headcount;
+  HIGH for the cold-table, patio, midsummer norm — Infobae, La Nación]
+- The spread: the cold table (see catalog: Christmas table — vitel toné,
+  matambre arrollado, pan dulce): vitel toné, matambre arrollado,
+  ensalada rusa, pionono rolls, often a cold roast or a whole asado
+  added; after midnight pan dulce, turrón and garrapiñadas on a tray.
+  A table carries 5–8 platters.
+- Snapshot staging:
+  - **1 setting**: a plate with two slices of vitel toné, a round of
+    matambre and a spoon of ensalada rusa; the vitel toné platter and a
+    pionono roll cropped.
+  - **2 settings**: two identical plates; between them the vitel toné
+    platter and the matambre board; pan dulce soft behind.
+  - **Small group**: identical plates on a white or red cloth; platters
+    repeating down the table.
+  - **Crowd cues**: string lights in a tree; the table running out of
+    frame; a second table with the sweets tray soft behind.
+- Decor and cues: a small artificial tree indoors, red cloth, candles in
+  jars, summer night. Avoid snow, fireplaces and winter clothing.
+- Never stage: cider, sparkling wine, the midnight toast, fireworks with
+  bottles; the nativity scene.
+- Confidence and sources: as in the catalog entry (Infobae, La Capital,
+  La Nación, Directo al Paladar).
+
+#### Celebration: Patriotic holidays — 25 de Mayo and 9 de Julio (locro and empanadas)
+- Type: calendar holiday
+- When: 25 May and 9 July (autumn and midwinter); midday comida; intake
+  time: **midday**.
+- Gathering: family at home, ~8–20, or community **peñas** and town
+  squares serving locro from big pots (map to "other"). [HIGH for the
+  menu and the community pots — FESTIVALS sources: La Nación, El
+  Cronista, EPU]
+- The spread: **locro** (see catalog: Locro) in deep bowls with its red
+  quiquirimichi oil on top, **empanadas** (see catalog: Empanadas), and
+  **pastelitos criollos** with quince or sweet potato for dessert (see
+  catalog: Pastelitos criollos). 3–5 shared vessels: the locro pot, an
+  empanada tray, a pastelitos plate.
+- Snapshot staging:
+  - **1 setting**: one deep bowl of locro with a red oil spoonful, a
+    small plate with one empanada; the big pot and an empanada tray
+    cropped.
+  - **2 settings**: two identical locro bowls; a tray of empanadas
+    between them, more than two people would eat.
+  - **Small group**: identical bowls on a winter table; the steaming
+    pot on a trivet in the centre, half out of frame.
+  - **Crowd cues**: a large aluminium pot on a burner behind; a second
+    tray of pastelitos; cockades or light-blue-and-white paper bunting,
+    soft.
+- Decor and cues: winter light, wool, a kitchen with steam; light blue
+  and white bunting only as soft colour.
+- Never stage: the national flag or coat of arms legible or in hero
+  position; wine in the peña.
+- Confidence and sources: as in FESTIVALS and the Locro entry.
+
+#### Celebration: Children's birthday party (cumpleaños infantil)
+- Type: life event
+- When: weekend afternoon, ~16:00–19:00 (merienda time); intake time:
+  **golden-hour** or **midday** indoors.
+- Gathering: the child's classmates and family, 20–50; **home indoor or
+  outdoor**, or a salón de fiestas infantiles ("other"). [LOW —
+  headcount not verified]
+- The spread: the classic snack table: **sándwiches de miga** (see
+  catalog: Sándwiches de miga), small cocktail empanadas (see catalog:
+  Empanadas), pizza squares (see catalog: Pizza porteña), **panchos**
+  (hot dogs), chizitos, papas fritas and palitos salados in bowls, and
+  the **birthday cake**. [MEDIUM — La Nación on birthday-party food;
+  language-school descriptions of the "traditional" party]
+  - **Torta de cumpleaños** (no catalog entry): typically a round
+    sponge (bizcochuelo) layered with dulce de leche and frosted with
+    whipped cream or coloured fondant, about two to three cans across,
+    candles on top. Added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a disposable plate with two triangle sándwiches de
+    miga, a pizza square and a mini empanada; a big tray of miga
+    sandwiches and a bowl of chizitos cropped.
+  - **2 settings**: two identical plates; between them a tray of miga
+    sandwiches stacked in rows and a bowl of snacks; the cake soft
+    behind.
+  - **Small group**: identical plates; trays repeating down a table
+    covered in a coloured paper cloth.
+  - **Crowd cues**: balloons and a themed garland (unreadable); a stack
+    of paper cups; the cake on a separate table.
+- Decor and cues: balloons, paper tablecloths, a piñata is less central
+  than in Mexico. Licensed characters generic and unrecognisable.
+- Never stage: readable names or licensed characters; children as the
+  hero subject near the product (keep children soft, background only
+  [EDITORIAL — confirm against TCCC marketing-to-children policy]).
+- Confidence and sources: [La Nación — fiestas de cumpleaños y sobrepeso infantil (2025)](https://www.lanacion.com.ar/sociedad/alerta-nutricion-el-riesgoso-vinculo-entre-las-fiestas-de-cumpleanos-y-el-sobrepeso-infantil-nid15062025/);
+  [Easy Argentine Spanish — un tradicional cumpleaños infantil argentino](https://easyargentinespanish.com/un-tradicional-cumpleanos-infantil-argentino/) (tier 4).
+
+#### Celebration: Fiesta de 15 (quince años)
+- Type: life event
+- When: Friday or Saturday night; dinner ~22:00–00:00, dancing until
+  dawn, fin de fiesta ~04:00; intake time: **evening**.
+- Gathering: family plus the girl's school friends, often 100–200;
+  rented salón or quinta ("other"), round tables of 10. [LOW-MEDIUM —
+  catering brackets, no survey]
+- The spread: recepción finger food (empanaditas, miga sandwiches,
+  small brochettes), an entrada, a plated main (pasta, chicken, beef
+  with sides; informal versions are a "pizza party", "pasta party" or
+  "asado party"), dessert, a **mesa dulce** (tarts, lemon pie, mousse,
+  cheesecake, cupcakes) and the cake; the **fin de fiesta** is panchos
+  with papas pay (shoestring crisps) or hamburgers. [MEDIUM — catering
+  vendors and inolvidables15.com, tier 3]
+- Snapshot staging:
+  - **1 setting**: one plated main on white china at a round table,
+    full cutlery, folded napkin; the centrepiece base cropped.
+  - **2 settings**: two identical plates on the curve of the table; a
+    bread basket shared.
+  - **Small group**: identical plates around one arc; or a mesa dulce
+    stretch with three or four dessert plates in front of a dessert
+    table running out of frame.
+  - **Crowd cues**: dance-floor lights as bokeh; more round tables soft
+    behind; balloon or floral arches.
+- Decor and cues: themed colours, tall centrepieces; the girl out of the
+  hero frame or soft and faceless.
+- Never stage: the barra de tragos (drinks bar), the toast, fernet;
+  the waltz or candle ceremony as the scene.
+- Confidence and sources: [Inolvidables 15 — menús para tu fiesta](https://www.inolvidables15.com/blog-asado-party-pizza-party-catering-informal-para-fiestas-122.htm);
+  [Inolvidables 15 — mesa dulce](https://www.inolvidables15.com/blog-mesa-dulce-para-fiestas-de-15-y-casamientos-postres-tortas-helados-12.htm) (tier 3).
+
+#### Celebration: Wedding party (casamiento)
+- Type: life event
+- When: Friday or Saturday night (dinner ~22:00, party to 05:00), or a
+  daytime civil-wedding lunch; intake time: **evening** or **midday**.
+- Gathering: about 100–150 guests is the usual planning bracket;
+  salón, quinta, estancia or bodega venue ("other"). [LOW-MEDIUM — El
+  Cronista, Ámbito and budget guides; no survey average]
+- The spread: recepción, entrada, plato principal, postre, mesa dulce,
+  the cake and a fin de fiesta; asado or a parrilla station is a common
+  main at quintas; a daytime civil wedding often has a **lunch**
+  (finger-food only). [MEDIUM — Ámbito, casamientos.com.ar]
+- Snapshot staging:
+  - **1 setting**: one plated main (e.g. a beef medallion with potatoes)
+    on a charger, full cutlery; the table edge and candles cropped.
+  - **2 settings**: two identical plates side by side; a shared bread
+    basket.
+  - **Small group**: identical plates on a long table under a pergola or
+    in a galpón (barn); the table runs out of frame both ways.
+  - **Crowd cues**: string lights or a garden canopy; a parrilla station
+    soft behind; blurred guests at the far end.
+- Decor and cues: white linen, greenery runners, candles; quinta or
+  estancia setting.
+- Never stage: wine and champagne glasses at the setting (remove all
+  stemware), the toast, the barra de tragos, a bodega's barrels; the
+  church or civil ceremony.
+- Confidence and sources: [Ámbito — precios para fiesta de casamiento](https://www.ambito.com/finanzas/precios-fiesta-casamiento-3-opciones-segun-tu-bolsillo-n5685967);
+  [El Cronista — cuánto cuesta casarse en 2026](https://www.cronista.com/informacion-gral/boda-imposible-cuanto-cuesta-casarse-en-argentina-en-2026-y-como-hacer-para-gastar-poco/);
+  [casamientos.com.ar — lunch para el casamiento](https://www.casamientos.com.ar/articulos/servicio-de-lunch-para-un-casamiento-por-civil--c5634).
+
+#### Celebration: Baptism and first-communion lunch (bautismo, primera comunión)
+- Type: life event
+- When: Sunday after the late-morning service, ~13:30–17:00; intake
+  time: **midday**.
+- Gathering: family and godparents, ~20–50; **home outdoor** or a
+  restaurant or parrilla ("restaurant"). [LOW — not verified this pass]
+- The spread: most often an **asado** (see catalog: Asado) or a
+  **lunch** of finger food (sándwiches de miga, empanadas, tartas — see
+  catalog: Sándwiches de miga; Empanadas; Tarta pascualina and tartas),
+  then a white cake. [LOW — model knowledge, not verified this pass]
+- Snapshot staging:
+  - **1 setting**: one plate with asado or with miga sandwiches and a
+    tarta slice; a board or tray cropped.
+  - **2 settings**: two identical plates on a white cloth; trays between.
+  - **Small group**: identical plates; trays and bread repeating out of
+    frame.
+  - **Crowd cues**: white or pastel balloons; the parrilla soft behind;
+    extra chairs.
+- Decor and cues: white and pastel decor.
+- Never stage: the church rite, religious figures, rosaries on the table.
+- Confidence and sources: LOW — not verified this pass.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2167,6 +2444,13 @@ brief names the SKU):**
 - **No TCCC OU code**; bottler territories only partly confirmed.
 - **Sensitivity calls** (24 March, 2 April, flag, Malvinas) are
   editorial, not company policy.
+- **Celebrations pass (2026-10-01) open items.** No survey average was
+  found for wedding or fiesta de 15 guest counts (budget-guide brackets
+  only); children's birthday, baptism and Christmas headcounts are
+  editorial; the baptism/communion entry is unverified model knowledge
+  (LOW). The asado group-size survey (Infobae 2022) does not name its
+  sample in the snippet. The children-in-frame rule needs checking
+  against TCCC's marketing-to-children policy.
 
 ## CANDIDATE QUEUE
 
@@ -2186,6 +2470,10 @@ brief names the SKU):**
 6. Update `market-roadmap.md` (Argentina row) and
    `tableware-composition-reference.md` (Argentina row) — not touched
    this pass per the brief.
+7. Full dish entries for celebration items described only briefly in
+   CELEBRATIONS & LARGE GATHERINGS: torta de cumpleaños (bizcochuelo
+   with dulce de leche); panchos and the fin-de-fiesta plate; mesa dulce
+   (lemon pie, mousse); pionono.
 
 ## RESEARCH LOG
 
@@ -2219,3 +2507,8 @@ brief names the SKU):**
   for sizes where nothing better surfaced; TikTok/Instagram/Facebook
   results ignored.
 - **No subagents were used.** No existing file was edited.
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches**, covering
+  fiesta de 15 menus and the catering sequence, wedding guest brackets
+  and menus (two searches; no survey average found), the children's
+  birthday table, and asado frequency and group size (Infobae 2022 and
+  2024 surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries.

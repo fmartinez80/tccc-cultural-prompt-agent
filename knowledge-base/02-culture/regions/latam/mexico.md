@@ -711,6 +711,390 @@ widespread — La Tempestad, ROC21; staging instruction EDITORIAL].
   Guadalupe): do not stage a TCCC product in or beside religious imagery
   or processions [EDITORIAL, same stance as `spain.md`'s Semana Santa].
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Built 2026-10-01 under `country-file-schema.md` §5.7 (the snapshot rule).
+The FESTIVALS register above stays as the calendar index; this section
+holds the staging. Party size is the place settings in frame, never the
+size of the event. The hero SKU always comes from the brief (§5.4).
+
+### How large gatherings work here
+
+- **Who gathers.** Mexican celebrations are extended-family events first:
+  grandparents, aunts and uncles, cousins, compadres and padrinos, then
+  friends and neighbours. Nine in ten Mexicans report eating Christmas
+  dinner with family (90.2% in a Consulta Mitofsky survey, as reported by
+  Infobae; 84.1% for New Year). [MEDIUM — one survey, 2013, reported
+  second-hand] Life events are large: an average wedding plans for about
+  140–146 guests (bodas.com.mx sector report), and a quinceañera
+  typically for 120–200, with intimate parties of 50–80 (PartyPass
+  planning guide). [MEDIUM for the wedding figure — industry survey with
+  commercial interest; LOW-MEDIUM for the quinceañera range — a single
+  planning-industry source]
+- **Where (intake venues).** Holiday dinners and Sunday comidas are
+  **home indoor** (the family house, often the grandparents'). Children's
+  birthdays, baptisms and first-communion lunches are **home outdoor**
+  (patio, yard, carport, azotea, or the street in front of the house
+  closed off with a tarp) or a rented **salón de fiestas** (map to
+  "other"). Weddings and quinceañeras are a **salón de eventos**, garden
+  venue or hacienda ("other"); in towns, a yard or street under a tarp
+  with rented tables. Restaurants host smaller milestones (a graduation
+  meal, a family birthday) but are not the default for the big events.
+  [EDITORIAL synthesis; MEDIUM for salones and taquiza services being
+  standard — multiple vendor sources]
+- **Table form.** At home: the dining table pushed against a second
+  table, both under one cloth or hule, with folding chairs brought in.
+  At parties: rows of **rented folding tables** (rectangular, or round
+  tables of 8–10) with plastic or metal folding chairs, white or coloured
+  tablecloths and sometimes chair covers at salones. [EDITORIAL; the
+  rented-furniture package is standard in vendor offers]
+- **Who serves and how.** Holiday dinners are family-style: platters and
+  cazuelas in the centre, the hostess and aunts serving plates from the
+  kitchen. Parties at home run on a **taquiza**: a buffet line of 5–10
+  guisados in clay cazuelas or steel chafing pans, with arroz, frijoles,
+  salsas, lime, nopales and a tortilla warmer, often staffed by a
+  caterer. [MEDIUM — taquiza vendor menus (comidasparafiestas.com.mx,
+  taquizas-adomicilio.com.mx), tier 3] Weddings default to a **plated
+  three-course banquet** (about 65% of couples choose served courses over
+  a buffet, per a wedding-planning source); in towns the banquet is mole
+  with chicken, arroz rojo and tamales. [LOW-MEDIUM — planning-industry
+  sources; the town mole banquet is reported by Vice and widely known]
+- **Plates and cutlery.** At home parties, **disposable plates** (white
+  foam or thick paper, sometimes coloured plastic) and plastic forks or
+  just tortillas are normal and authentic; the taquiza service itself
+  lists "desechables". Holiday dinners and salones use real china and
+  full cutlery. [MEDIUM for disposables at taquizas — vendor menus;
+  EDITORIAL for the rest]
+- **Snapshot-staging default for Mexico [EDITORIAL].** The three most
+  authentic crowd cues here are: (1) **more clay cazuelas than the
+  visible diners could use**, lids off and partly cropped; (2) **a tarp
+  or papel picado overhead with string lights**, soft, for home parties;
+  (3) **a long run of identical folding tables and chairs behind**,
+  soft, with one or two blurred guests. Use two of the three. Keep the
+  tablecloth plain or embroidered; avoid tourist-costume decor (see
+  ENVIRONMENT & STAGING SCENES caricature list).
+- **Product format.** When the brief allows a multi-serve bottle, the
+  implied gathering justifies a 2.5–3 L bottle in the midground of the
+  visible stretch (schema §5.7). Soft drinks are a real, expected part of
+  Mexican party tables ("refrescos al infinito" is how food writers
+  describe the classic children's party). [LOW-MEDIUM — one food-brand
+  blog] Exclude the other drinks Mexican party tables carry: jarras of
+  agua fresca, ponche, beer and tequila.
+
+#### Celebration: Fiestas Patrias night (Noche Mexicana, 15 September)
+- Type: calendar holiday
+- When: night of 15 September (the Grito at about 23:00) into the 16th;
+  the dinner runs ~20:00–midnight; intake time: **evening**.
+- Gathering: family plus friends and neighbours, roughly 10–30 at home;
+  **home indoor** or a **home outdoor** patio under a tarp; also
+  restaurant "noches mexicanas". [EDITORIAL headcount; HIGH that home
+  dinners dominate — see FESTIVALS sources: PROFECO, Infobae, El Universal]
+- The spread: a pot of **pozole** with its garnish plates (see catalog:
+  Pozole), **tostadas** and **sopes** (see catalog: Masa antojitos),
+  **tinga**, **enchiladas** (see catalog: Enchiladas), **tamales** (see
+  catalog: Tamales), **pambazos** (no catalog entry; see below), and in
+  Puebla season **chiles en nogada** (see catalog: Chiles en nogada).
+  A real table carries 5–8 serving vessels plus garnish bowls.
+  - **Pambazo** (no catalog entry): a soft white roll about 1.5 times the
+    can's height, dipped whole in a guajillo-chile sauce and griddled so
+    the outside is a soft, matte brick-red, filled with potato and
+    chorizo, shredded lettuce, crema and crumbled cheese; served on a
+    plate, eaten by hand. [MEDIUM — not individually re-checked this
+    pass; PROFECO lists pambazos among Grito dishes] Added to CANDIDATE
+    QUEUE.
+- Snapshot staging:
+  - **1 setting**: one bowl of pozole rojo with a pinch of garnish, a
+    small plate with two tostadas; behind it, cropped, the big pozole pot
+    and three or four garnish bowls (onion, radish, lime, oregano) that
+    clearly serve a crowd.
+  - **2 settings**: two identical pozole bowls facing each other across
+    the table end; between them a platter of sopes and tostadas de tinga
+    and a garnish tray; a cazuela of enchiladas cut off by the frame edge.
+  - **Small group (3–4)**: identical pozole bowls, a tostada plate each;
+    the centre runs out of frame with platters of antojitos and a tamal
+    basket.
+  - **Crowd cues**: green-white-red papel picado overhead, soft; a second
+    table with blurred guests behind; the pot on a portable burner at
+    the edge.
+- Decor and cues: tricolour paper streamers, papel picado, tricolour
+  paper flowers; night, warm string lights. Avoid sombreros, sarapes,
+  fake moustaches and mariachi costumes in frame unless briefed.
+- Never stage: tequila, beer, the Grito ceremony itself on a TV with
+  legible graphics; legible national flags or the eagle emblem in hero
+  position (soft tricolour colour fields only).
+- Confidence and sources: dishes HIGH (PROFECO, Infobae, El Universal,
+  Record, as cited in FESTIVALS); headcount and staging EDITORIAL.
+
+#### Celebration: Christmas Eve dinner (Cena de Nochebuena, 24 December)
+- Type: calendar holiday
+- When: 24 December; dinner late, often after 22:00, running to midnight;
+  intake time: **evening**. Posadas (16–24 December) are separate
+  neighbourhood parties with tamales and ponche; stage them like the
+  Fiestas Patrias night, without the tricolour.
+- Gathering: the extended family, ~10–25 at the grandparents' or a
+  sibling's house; **home indoor**. [MEDIUM that family dinner is near
+  universal — Consulta Mitofsky via Infobae; headcount EDITORIAL]
+- The spread: the centrepiece is **turkey** (pavo, the most common at
+  about 48% of families in a survey summarised by Infobae) or a **roast
+  pork leg** (pierna, about 16%) or loin; alongside, **bacalao a la
+  vizcaína** (salt cod stewed with tomato, olives, capers and potato,
+  especially central Mexico), **romeritos** in mole with shrimp
+  fritters (tortitas de camarón), **ensalada de Nochebuena** (beet,
+  apple, jícama, orange, peanut) or a creamy apple-and-walnut salad,
+  pasta salad, and **tamales** (see catalog: Tamales). A table carries
+  4–7 serving dishes. [HIGH for the dish set — Infobae, UNAM Global,
+  Conecta Tec, FESTIVALS sources; MEDIUM for the survey percentages,
+  attributed to unnamed polling houses] None of the centrepieces has a
+  catalog entry:
+  - **Pierna adobada / pierna al horno**: a whole roast pork leg, glossy
+    lacquered brown to brick-red, sliced partly, on a large oval platter
+    about three cans long, with pineapple or prune garnish. [MEDIUM —
+    not individually re-checked]
+  - **Bacalao a la vizcaína**: a red-orange tomato stew with flaked white
+    cod, green olives, capers and yellow güero chiles, in a deep platter
+    or clay cazuela; eaten in a bolillo or with a fork. [HIGH for the
+    ingredients — Infobae; visual MEDIUM]
+  - **Romeritos**: dark mole sauce clinging to thin green sprigs of
+    seepweed with round tortitas de camarón and potato, in a clay
+    cazuela. [HIGH for composition — Infobae; visual MEDIUM]
+  All three added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a china plate with a slice of pierna or turkey, a
+    spoon of romeritos and a spoon of bacalao, a bolillo on a side plate;
+    the carved pierna platter and the bacalao cazuela cropped at the
+    edge.
+  - **2 settings**: two identical plates; between them the turkey or
+    pierna platter (partly cropped), a salad bowl, a bread basket.
+  - **Small group**: identical plates on a red or white embroidered
+    cloth, the centre a row of platters running out of frame.
+  - **Crowd cues**: the table running out of frame on both sides; a
+    Christmas tree or nacimiento lights blurred behind (no religious
+    figures readable); extra chairs at the table edge.
+- Decor and cues: red or green cloth, a red nochebuena (poinsettia) pot,
+  candles, Christmas lights; evening interior light. Avoid snow imagery,
+  US-style stockings by a fireplace.
+- Never stage: ponche with piquete (spirit added), cider or wine bottles,
+  the nacimiento as the scene, Midnight Mass.
+- Confidence and sources: see above; [Infobae — cómo celebran los mexicanos la Navidad (2024)](https://www.infobae.com/mexico/2024/12/21/como-celebran-los-mexicanos-la-navidad-pinatas-regalos-y-fiestas-familiares/);
+  [UNAM Global — la cena de Navidad en el Valle de México](https://unamglobal.unam.mx/global_revista/la-cena-de-navidad-en-el-valle-de-mexico/).
+
+#### Celebration: Rosca de Reyes and Candelaria tamalada (6 January and 2 February)
+- Type: calendar holiday (paired: the figurine finder on 6 January hosts
+  the tamales on 2 February)
+- When: Reyes is an afternoon-into-evening merienda (~17:00–20:00);
+  Candelaria is a comida or early evening (~14:00–20:00). Intake time:
+  **golden-hour** for Reyes, **midday** or **evening** for Candelaria.
+- Gathering: family, office or friend groups, ~8–20; **home indoor**,
+  or an office table (map to "other"). [EDITORIAL]
+- The spread: Reyes: one large oval **rosca** (see catalog: Sweets,
+  Rosca de Reyes) on a board or tray, often 50–80 cm long for a big
+  family, sliced; hot chocolate is the traditional companion (not
+  staged). Candelaria: a **tamalera** or basket of mixed tamales — verde,
+  rojo, rajas, dulce (see catalog: Tamales) — sometimes oaxaqueños in
+  banana leaf; atole is the traditional companion (not staged). [HIGH for
+  the pairing — FESTIVALS sources; rosca length LOW, not checked]
+- Snapshot staging:
+  - **1 setting**: a small plate with a slice of rosca; the rest of the
+    ring cropped by the frame, its scale obvious against the can.
+  - **2 settings**: two plates with tamales opened on their husks; a
+    basket of husk-wrapped tamales in the centre, more than two people
+    could eat.
+  - **Small group**: identical plates, the rosca ring or the tamal basket
+    running out of frame.
+  - **Crowd cues**: the rosca's ring continuing beyond the frame; a
+    second steaming tamalera on the counter behind; a stack of extra
+    plates.
+- Decor and cues: plain home table, the plastic baby-figure is inside
+  the bread (never shown as a religious object). No Three Kings figures
+  as props.
+- Never stage: religious images, the Candelaria church blessing of the
+  Niño Dios figure.
+- Confidence and sources: HIGH for the customs (FESTIVALS sources);
+  staging EDITORIAL.
+
+#### Celebration: Children's birthday party (fiesta infantil)
+- Type: life event
+- When: weekend afternoon, ~14:00–19:00; intake time: **midday** or
+  **golden-hour**.
+- Gathering: the child's classmates plus the whole extended family:
+  30–80 people is common for a home party (adults outnumber children);
+  **home outdoor** (patio, yard, carport, closed street under a tarp) or
+  a salón de fiestas infantiles ("other"). [LOW — headcount not verified
+  this pass; EDITORIAL]
+- The spread: a **taquiza** of guisados in cazuelas (chicharrón en salsa
+  verde, tinga, papa con chorizo, rajas con crema, mole) with arroz,
+  frijoles, salsas and tortillas (see catalog: Tacos; Arroz rojo,
+  frijoles and the guisado plate), or a pozole pot (see catalog:
+  Pozole); a decorated **birthday cake** (pastel) with bright frosting;
+  **gelatinas** (jelly) in cups or a mould; candy from the piñata;
+  refrescos. [MEDIUM — taquiza vendor menus; LOW-MEDIUM for the cake,
+  gelatina and refresco picture — Productos Chata blog, tier 3/4]
+  - **Pastel de cumpleaños** (no catalog entry): a round or sheet cake,
+    often tres leches or chocolate, frosted in bright, sometimes neon
+    colours with a character theme, about two to three cans across.
+  - **Gelatina**: individual clear cups of red, green or layered milk
+    jelly (gelatina de mosaico, white with coloured cubes), or one
+    large ring mould. Both added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a disposable plate with two tacos de guisado and a
+    spoon of rice and beans, a gelatina cup beside it; two or three
+    cazuelas cropped behind.
+  - **2 settings**: two identical plates on a plastic tablecloth; a
+    tortilla basket and salsas between them; the cake on a separate
+    table, soft, in the background.
+  - **Small group**: identical plates along a folding table; the taquiza
+    line soft behind with its row of clay cazuelas.
+  - **Crowd cues**: a hanging piñata and balloons, out of focus; tarp
+    or papel picado overhead; rows of rented folding chairs.
+- Decor and cues: balloons, a themed banner (unreadable), plastic
+  tablecloths in bright colours, candy bags. Licensed cartoon characters
+  must stay generic and unrecognisable.
+- Never stage: recognisable licensed characters or readable names;
+  children as the hero subject near the product (keep children soft,
+  background only, per TCCC marketing-to-children norms [EDITORIAL —
+  confirm against TCCC policy]); beer for the adults.
+- Confidence and sources: [Productos Chata — platillos icónicos de fiesta infantil](https://productoschata.com/blog/sabores-que-crecieron-contigo-platillos-iconicos-de-fiesta-infantil/) (tier 3/4, a food brand's blog);
+  [Comidas para Fiestas — taquizas](https://www.comidasparafiestas.com.mx/taquizas-para-fiestas/) (tier 3, vendor).
+
+#### Celebration: Quinceañera (XV años)
+- Type: life event
+- When: Saturday evening; the banquet ~20:00–22:00 after the religious
+  service and the entrance; intake time: **evening**.
+- Gathering: 120–200 guests is typical, 50–80 for an intimate party;
+  about half family, then parents' friends, the girl's friends, padrinos
+  and chambelanes. **Salón de eventos** or garden venue ("other"); in
+  towns, the family yard or street under a tarp. Round tables of 8–10.
+  [LOW-MEDIUM — PartyPass planning guide, single tier-3 source]
+- The spread: in salones, a plated three-course banquet (a cream soup or
+  pasta, then pechuga rellena, pork medallion or similar with sides);
+  in towns, **mole with chicken, arroz rojo and tamales** (see catalog:
+  Moles; Tamales; Arroz rojo); **barbacoa** or **birria** are also
+  popular centrepieces (see catalog: Barbacoa; Birria). A tall
+  multi-tier cake and a candy table (mesa de dulces) stand apart.
+  [MEDIUM — Vice on the pueblo mole banquet; vendor menus for the salón
+  banquet]
+- Snapshot staging:
+  - **1 setting**: one plated portion of mole with chicken and a mound of
+    rice on a white charger plate, a folded napkin, full cutlery; the
+    edge of the round table and a centrepiece base cropped.
+  - **2 settings**: two identical plates side by side on the curve of a
+    round table; a tortilla basket and a bread basket shared.
+  - **Small group**: three or four identical plates around one arc of
+    the table; the floral centrepiece cropped at the top of frame.
+  - **Crowd cues**: further round tables with chair covers soft behind;
+    dance-floor lights as bokeh; a blurred guest or two.
+- Decor and cues: tablecloths and chair sashes in the quinceañera's
+  theme colour, tall centrepieces, balloon arches. Keep the girl and her
+  gown out of the hero frame or soft and faceless.
+- Never stage: the Mass, the crown or "last doll" ritual as the scene;
+  the toast; open bar bottles on the tables (a real norm at many
+  parties — exclude explicitly).
+- Confidence and sources: [PartyPass — lista de invitados para una quinceañera](https://www.partypass.mx/blog/lista-invitados-quinceanera);
+  [Vice — comer como quinceañera mexicana](https://www.vice.com/es/article/comer-como-quinceanera-mexicana-en-california/)
+  (written about California, cites Mexican town practice).
+
+#### Celebration: Wedding banquet (boda)
+- Type: life event
+- When: Saturday; banquet ~19:00–22:00 (evening) or ~15:00–18:00 for a
+  daytime garden or hacienda wedding; intake time: **evening** or
+  **golden-hour**.
+- Gathering: about 140–146 guests on average (bodas.com.mx sector
+  report); salón, garden, hacienda or beach venue ("other"); round or
+  long imperial tables. [MEDIUM — industry survey; the venue mix is
+  EDITORIAL]
+- The spread: a **plated three-course menu** is the standard (cream or
+  soup, a main of beef fillet, chicken breast or pork with sides,
+  dessert); a late-night **tornafiesta** snack of chilaquiles, tacos or
+  pozole (see catalog: Pozole; Tacos) after midnight is a known custom
+  (not verified this pass). Town weddings serve mole, rice, tamales or
+  barbacoa family-style. [MEDIUM for three courses — wedding-planning
+  sources; LOW for the tornafiesta]
+- Snapshot staging:
+  - **1 setting**: one plated main on a charger, full cutlery, folded
+    napkin, a bread roll on a side plate; the table edge and a candle or
+    centrepiece base cropped.
+  - **2 settings**: two identical plates side by side on a long imperial
+    table with a runner; a shared bread basket.
+  - **Small group**: identical plates along one stretch of the long
+    table, which runs out of frame both ways.
+  - **Crowd cues**: candles and greenery runners continuing out of
+    frame; string lights or a garden canopy overhead; blurred guests at
+    the far end.
+- Decor and cues: white or neutral linen, flowers, candles; the lazo
+  (wedding cord) and religious elements belong to the ceremony, not the
+  table.
+- Never stage: the church ceremony, the toast, wine or champagne glasses
+  at the setting (a real wedding table has them; remove every stemmed
+  glass), the bride and groom as the subject.
+- Confidence and sources: [bodas.com.mx — Informe del Sector Nupcial 2025](https://www.bodas.com.mx/articulos/organizacion-de-una-boda-datos-y-curiosidades-en-mexico--c10606);
+  [theww.mx — banquete servido vs buffet](https://theww.mx/blog/banquete-servido-vs-buffet-boda-mexico) (tier 3).
+
+#### Celebration: Baptism and first-communion lunch (bautizo, primera comunión)
+- Type: life event
+- When: Saturday or Sunday; the meal after the late-morning service,
+  ~14:00–18:00; intake time: **midday**.
+- Gathering: family, padrinos and friends, ~40–100; **home outdoor**
+  (yard or patio under a tarp) or a salón ("other"). [LOW — headcount
+  not verified]
+- The spread: a **taquiza** (5–10 guisados in cazuelas: mole, cochinita,
+  chicharrón en salsa verde, tinga, rajas, papa con chorizo) with arroz
+  with hard-boiled egg, refried beans, salsas, nopales, grilled
+  cebollitas and tortillas; or a single centrepiece such as **carnitas**
+  or **barbacoa** by the kilo (see catalog: Carnitas; Barbacoa;
+  Cochinita pibil); a white decorated cake. [MEDIUM — taquiza vendor
+  menus list bautizos and primera comunión explicitly]
+- Snapshot staging:
+  - **1 setting**: a plate with two or three tacos de guisado (different
+    guisados visible), rice and beans; three cazuelas cropped along the
+    back edge.
+  - **2 settings**: two identical plates on a white tablecloth; a
+    tortilla basket and a salsa molcajete between them.
+  - **Small group**: identical plates; the cazuela buffet line soft
+    behind.
+  - **Crowd cues**: white and pastel balloons or tulle; rented folding
+    tables with white cloths in rows; a carnitas pot or chafing pans at
+    the edge.
+- Decor and cues: white, pale blue or pale pink decor; white
+  tablecloths.
+- Never stage: the church rite, the baptismal font, rosaries or
+  religious figures on the table; the child in christening clothes as
+  the subject.
+- Confidence and sources: [Taquizas a Domicilio CDMX — taquizas para fiestas](https://www.taquizas-adomicilio.com.mx/taquizas-para-fiestas-infantiles/);
+  [Cocina Mestiza — cómo organizar la taquiza](https://cocinamestiza.com/como-organizar-taquiza-perfecta/) (tier 3/4).
+
+#### Celebration: Sunday family comida and the northern carne asada
+- Type: community or family gathering
+- When: Sunday, ~14:00–18:00; intake time: **midday** (indoors) or
+  **golden-hour** (yard).
+- Gathering: three generations, ~8–20, at the parents' or grandparents'
+  house; **home indoor** in most of the country, **home outdoor** in
+  zone 1 (North) where the weekend carne asada is the social
+  institution. [HIGH for the northern carne asada — see Meal outdoors at
+  home; headcount EDITORIAL]
+- The spread: central and southern Mexico: a big cazuela of mole,
+  pozole, barbacoa bought by the kilo, or carnitas (see catalog: Moles;
+  Pozole; Barbacoa; Carnitas), with arroz and frijoles. North: grilled
+  arrachera and thin-cut beef, cebollitas, chiles toreados, flour and
+  corn tortillas, guacamole, frijoles charros (see catalog: Carne asada &
+  flour tortillas; Guacamole). 4–6 shared vessels.
+- Snapshot staging:
+  - **1 setting**: one plate with a taco or a portion of the main; the
+    tortilla basket, salsa molcajete and a cazuela cropped.
+  - **2 settings**: two identical plates; between them a wooden board of
+    sliced arrachera (North) or a cazuela of mole, a tortilla basket.
+  - **Small group**: identical plates on a folding table under a tree
+    or carport; the grill smoking soft in the background (North).
+  - **Crowd cues**: the grill with more meat than the visible diners
+    need; extra folding chairs; a blurred relative at the grill.
+- Decor and cues: hule or plastic cloth, plastic or clay serving bowls,
+  unbranded plastic furniture.
+- Never stage: beer cans or a cooler full of beer (the strongest prior
+  for a carne asada scene); legible cooler branding.
+- Confidence and sources: see ENVIRONMENT & STAGING SCENES, Meal
+  outdoors at home; staging EDITORIAL.
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -1713,6 +2097,15 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   is an editorial sensitivity call, not company policy — a reviewer
   should confirm it matches TCCC Mexico's own guidance.
 
+- **Celebrations pass (2026-10-01) open items.** Headcounts for the
+  children's birthday party, baptism/first-communion lunch, Fiestas
+  Patrias and Nochebuena dinners are editorial, not sourced; the
+  quinceañera range rests on one planning-industry source and the
+  wedding average on one industry survey. The Nochebuena dish
+  percentages are attributed to unnamed polling houses via Infobae. The
+  wedding tornafiesta, rosca length and the children-in-frame rule need
+  checking (the last against TCCC's own marketing-to-children policy).
+
 ## CANDIDATE QUEUE
 
 1. Reviewer decision on the Yucatán spinout and on the zone boundaries
@@ -1728,6 +2121,11 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
    zone 5 (Gulf) more deeply — it is the thinnest zone.
 5. Independent §8 audit of this file.
 6. A Mexico-specific Gen Z housing/living-arrangement source.
+7. Full dish entries for the celebration centrepieces described only
+   briefly in CELEBRATIONS & LARGE GATHERINGS: pambazo; pierna adobada /
+   pierna al horno; bacalao a la vizcaína; romeritos con tortitas de
+   camarón; pavo navideño; pastel de cumpleaños (tres leches) and
+   gelatinas; promote Rosca de Reyes from the compact Sweets list.
 
 ## RESEARCH LOG
 
@@ -1762,3 +2160,10 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   round-ups (tier 4) were used only for sizes where nothing better
   surfaced, and are marked; TikTok results were ignored.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches**, covering
+  quinceañera guest counts and banquet menus, taquiza service for
+  baptisms and children's parties, wedding guest averages and the
+  three-course banquet norm, Nochebuena dishes and the Mitofsky family
+  dinner figure, and the children's party table. Added CELEBRATIONS &
+  LARGE GATHERINGS with 8 entries; sources are mostly tier 3 (planning
+  and catering vendors) plus Infobae and UNAM Global, tagged accordingly.

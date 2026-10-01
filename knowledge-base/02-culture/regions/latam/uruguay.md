@@ -117,6 +117,94 @@ I specifically checked the three plausible fault lines the brief named:
 
 
 
+### CELEBRATIONS & LARGE GATHERINGS
+
+(Added 2026-10-01 under `country-file-schema.md` §5.7, the snapshot rule. This pilot file has no festivals register, so the section sits after ENVIRONMENT & STAGING SCENES. Party size is the place settings in frame, never the size of the event. The hero SKU always comes from the brief (§5.4). Alcohol is never staged, nor the drinking part of an event, and mate stays out of the frame unless a brief asks for the ritual (§5.5, §5.6).)
+
+#### How large gatherings work here
+
+- **Who gathers and how big.** Celebrations are family-and-friends events built on the same asado culture as the everyday weekend (see REGION-WIDE NORMS). A home gathering runs from about 8 to 25 people; life-event parties in salones are typically 50–150, and venue and catering offers in Uruguay commonly scale from about 15 to 300 guests, with packages priced for 50. [CONFIDENCE: LOW-MEDIUM — the home range is EDITORIAL; the event range is inferred from vendor listings, not a survey] [SOURCE: [TuFiesta.com.uy — salones y catering](https://www.tufiesta.com.uy/fiestas-y-eventos/catering-gastronomia/montevideo); [ineventos.com — restaurantes para eventos](https://www.ineventos.com/uy/restaurantes)]
+- **A secular calendar.** Uruguay's 1919 law secularising public holidays renamed 25 December the **Día (officially Fiesta) de la Familia**, 6 January the **Día de los Niños** and Holy Week the **Semana de Turismo**. Families still hold a Christmas Eve dinner with a tree; the official framing is family, not religion. [CONFIDENCE: HIGH — LARED21, Cadena 3 and several regional outlets agree] [SOURCE: [LARED21 — Día de la Familia en Uruguay](https://www.lr21.com.uy/placer/1473355-dia-de-la-familia-uruguay-navidad-25-diciembre); [Cadena 3 — por qué Uruguay no celebra la Navidad](https://www.cadena3.com/noticia/mundo/por-que-uruguay-no-celebra-la-navidad-y-que-festeja-el-25-de-diciembre_501937)] Staging consequence [EDITORIAL]: a family-table framing with a tree soft behind fits Uruguay better than religious Christmas imagery.
+- **Where (intake venues).** **Home outdoor** is the default: the quincho, a patio or the building's shared parrillero (see Meal outdoors at home). **Home indoor** for winter Sunday lunches. Life events use a rented **salón de fiestas** or a restaurant or hotel ("other" or "restaurant"). [CONFIDENCE: MEDIUM — consistent with the quincho and parrillero findings above and vendor listings]
+- **Table form, serving and plates.** One long table at home (two tables end to end under one cloth when needed), family-style: the asador carves onto a shared wooden board, chimichurri in small dishes, a bread basket (see REGION-WIDE NORMS). For a Christmas Eve table, dishes are shared out among relatives and friends to prepare, so the table is a spread of many home-made platters rather than one host's menu. [CONFIDENCE: MEDIUM — Bodega Garzón and cocina-uruguaya.com on the shared Christmas table; the rest restates sourced norms above] Salón events use round tables and waiter service, with a catering menu of cold and hot finger food (bocados), cheese and cold-cut boards, pasta or paella, then a cake. [CONFIDENCE: LOW-MEDIUM — vendor listings]
+- **Snapshot-staging default for Uruguay [EDITORIAL].** The most authentic crowd cues: (1) **a wooden asado board larger than the visible diners need**, with bread baskets and chimichurri dishes repeating down the table; (2) **the quincho's parrilla soft behind**, embers glowing; (3) **the long table running out of frame** under the quincho roof. Use two of the three. Keep the muted, temperate Southern-European palette described in ENVIRONMENT & STAGING SCENES; avoid tropical colour and gaucho costume.
+- **Product format.** When the brief allows a multi-serve bottle, the implied gathering justifies the larger festive sizes in the midground of the visible stretch (schema §5.7). Remove every wine glass, beer bottle, cider or sparkling-wine bottle, and the mate kit; at a real Uruguayan gathering all of these are present, so negate them explicitly.
+
+#### Celebration: Weekend family asado (and the winter Sunday pasta or puchero)
+- Type: community or family gathering
+- When: Saturday or Sunday midday, a four-to-five-hour meal with sobremesa; intake time: **midday** (also **golden-hour** for summer evenings). In winter the Sunday table moves indoors to pasta or puchero.
+- Gathering: family and friends, about 8–20; **home outdoor** (quincho, patio, building parrillero) or **home indoor** in winter. [CONFIDENCE: HIGH for the asado as the weekend family ritual — see REGION-WIDE NORMS; headcount EDITORIAL]
+- The spread: tira, vacío and colita de cuadril on a wooden board, with chorizo, morcilla and choripán first (see Dish: Asado; Dish: Chorizo y morcilla / Choripán), chimichurri, a bread basket and salads. Winter alternative: ravioles or tallarines con tuco (see Dish: Pasta) or puchero with its meats and vegetables in separate dishes (see Dish: Puchero). Dessert may be a chajá (see Dish: Chajá). 4–7 shared vessels.
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of asado de tira and a piece of vacío; the wooden board and a chimichurri dish cropped at the edge, a bread basket.
+  - **2 settings**: two identical plates facing each other; the board of carved meat between them, partly cropped, with bread and chimichurri.
+  - **Small group (3–4)**: identical plates along one side; boards, bread baskets and salad bowls repeating down the table and out of frame.
+  - **Crowd cues**: the parrilla soft behind under the quincho roof with meat still on the round-rod grate; extra chairs; a blurred figure at the grill.
+- Decor and cues: eucalyptus beams, brick, a plain or checked cloth; temperate light.
+- Never stage: wine, beer, mate, a gas grill with flames, crosshatch grill marks.
+- Confidence and sources: as in Dish: Asado and REGION-WIDE NORMS (La Gran Uruguaya, Bodega Garzón, INAC); staging EDITORIAL.
+
+#### Celebration: Christmas Eve and New Year's Eve (Nochebuena / Fiesta de la Familia, Fin de Año)
+- Type: calendar holiday
+- When: 24 and 31 December, dinner from about 21:30 to midnight, sweets after midnight; midsummer. Intake time: **evening**.
+- Gathering: extended family and friends, about 10–25, each bringing a dish; **home outdoor** (patio, quincho, garden) or **home indoor** with windows open. [CONFIDENCE: MEDIUM — the shared-preparation custom per Bodega Garzón; headcount EDITORIAL]
+- The spread: the **asado** is often the main dish of Christmas Eve dinner; alongside it, **lechón** (roast suckling pig, crisp-skinned), **lengua a la vinagreta** (tongue in vinaigrette), **vitel toné**, **matambre**, **ensalada rusa**, **huevos rellenos** (stuffed eggs), empanadas and fruit salad; then pan dulce. [CONFIDENCE: MEDIUM-HIGH — Bodega Garzón and cocina-uruguaya.com agree on the core dishes; Billiken corroborates regionally] [SOURCE: [Bodega Garzón — platos típicos de Navidad](https://bodegagarzon.com/es/blog/platos-tipicos-navidad/); [cocina-uruguaya.com — la gastronomía uruguaya en Navidad](https://www.cocina-uruguaya.com/articulos/la-gastronomia-uruguaya-en-navidad)] None of these festive dishes has a dish entry in this file. Brief visuals: **lechón** — a whole or half suckling pig with glassy, blistered amber-brown skin on a large tray about four to five cans long, partly carved; **vitel toné** — thin cold beef slices fully covered in a smooth pale-beige tuna-caper sauce on an oval platter (see `argentina.md`, Christmas table, for a full entry on the shared dish); **lengua a la vinagreta** — thin pale-grey slices under a chopped onion, red pepper and parsley vinaigrette; **ensalada rusa** — a pale bowl of diced potato, carrot and peas in mayonnaise. All added to CANDIDATE QUEUE. [CONFIDENCE: visuals MEDIUM — inferred from the dish descriptions, not a dedicated visual source]
+- Snapshot staging:
+  - **1 setting**: a plate with a slice of lechón or asado, a spoon of ensalada rusa and a stuffed egg; the lechón tray and the vitel toné platter cropped.
+  - **2 settings**: two identical plates; between them the vitel toné platter and a bowl of ensalada rusa, the lechón tray half out of frame.
+  - **Small group**: identical plates on a white or red cloth; platters repeating down the table.
+  - **Crowd cues**: string lights in a tree or along the quincho; a second table with pan dulce and fruit salad soft behind; the table running out of frame.
+- Decor and cues: a tree soft in the background, candles in jars, summer night. No snow or winter décor.
+- Never stage: cider, sparkling wine, clericó (wine fruit punch), the midnight toast, fireworks with bottles; nativity scenes.
+- Confidence and sources: see above; Día de la Familia per LARED21 and Cadena 3.
+
+#### Celebration: Children's birthday party (cumpleaños infantil)
+- Type: life event
+- When: weekend afternoon, about 16:00–19:00 (merienda time); intake time: **golden-hour**, or indoor daylight.
+- Gathering: classmates and family, about 20–50; **home** (indoor or outdoor) or a rented salón infantil ("other"). [CONFIDENCE: LOW — headcount not verified]
+- The spread: **sándwiches olímpicos** (triple-layer miga sandwiches with ham, cheese, egg, tomato, lettuce, red pepper and mayonnaise), sándwiches de miga, **pizzetas** or rectangular pizza (see Dish: Pizza a la piedra), small empanadas, snacks in bowls, and a **chajá** as the birthday cake (see Dish: Chajá). [CONFIDENCE: LOW-MEDIUM — Bonviveur (Spanish food media) on olímpicos and chajá at birthdays; Directo al Paladar on chajá at birthdays and family gatherings; not a Uruguay-specific party source] [SOURCE: [Bonviveur — recetas típicas de Uruguay](https://bonviveur.com/es/recetas/lista/cocina-uruguaya/); [Directo al Paladar — tarta chajá](https://www.directoalpaladar.com/postres/tarta-chaja-uruguaya-postre-esponjoso-rio-plata)]
+  - **Sándwich olímpico** (no dish entry): crustless white sandwich bread in three layers, cut into squares or triangles, the cut face showing stripes of pink ham, yellow cheese, egg and green lettuce; each piece about the can's width. Added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a small plate with two olímpico triangles and a pizzeta; a tray of olímpicos cropped.
+  - **2 settings**: two identical small plates; a tray of sandwiches between them; the chajá soft on a separate table.
+  - **Small group**: identical plates on a paper tablecloth; trays repeating out of frame.
+  - **Crowd cues**: balloons and a themed garland (unreadable); a stack of paper cups; the cake table soft behind.
+- Decor and cues: balloons, paper tablecloths; generic, unrecognisable characters only.
+- Never stage: readable names or licensed characters; children as the hero subject near the product (keep children soft, background only [EDITORIAL — confirm against TCCC marketing-to-children policy]).
+- Confidence and sources: see above.
+
+#### Celebration: Fiesta de 15 (cumpleaños de 15)
+- Type: life event
+- When: Friday or Saturday night, dinner about 22:00, dancing until late; intake time: **evening**.
+- Gathering: family and the girl's friends; salones listed for fiestas de 15 range from about 60 guests upward (one Montevideo salón is listed with a 60-guest capacity); rented salón ("other"), round tables. [CONFIDENCE: LOW-MEDIUM — vendor listings only] [SOURCE: [TuFiesta.com.uy — salones para cumpleaños de 15 en Montevideo](https://www.tufiesta.com.uy/cumple-15/salones-fiestas/montevideo)]
+- The spread: a catering sequence of cold and hot bocados and cheese and cold-cut boards (tablas de quesos y fiambres), a main of pasta or paella, the cake and a late-night snack. [CONFIDENCE: LOW-MEDIUM — vendor listings; the Argentine fiesta de 15 sequence in `argentina.md` is likely close but not verified for Uruguay]
+- Snapshot staging:
+  - **1 setting**: one plated main at a round table on white linen, full cutlery; the centrepiece base cropped.
+  - **2 settings**: two identical plates on the curve of the table; a bread basket shared.
+  - **Small group**: identical plates around one arc; or a stretch of a tabla de quesos y fiambres running out of frame with three or four small plates.
+  - **Crowd cues**: dance-floor lights as bokeh; more round tables soft behind.
+- Decor and cues: theme colours, centrepieces; the girl out of the hero frame or soft and faceless.
+- Never stage: the drinks bar, the toast, the waltz as the scene.
+- Confidence and sources: see above.
+
+#### Celebration: Wedding party (casamiento)
+- Type: life event
+- When: Friday or Saturday night, or a daytime celebration at a chacra or estancia; intake time: **evening** or **golden-hour**.
+- Gathering: venues advertise capacities from about 15 to 300; salón, chacra, estancia, hotel or restaurant ("other" or "restaurant"). [CONFIDENCE: LOW-MEDIUM — vendor listings; no survey average found]
+- The spread: a recepción of bocados and cheese and cold-cut boards, then a main (an asado or parrilla station is a natural fit at a chacra; pasta or a plated main in a salón), dessert and cake. [CONFIDENCE: LOW-MEDIUM — vendor listings; asado at chacra weddings EDITORIAL]
+- Snapshot staging:
+  - **1 setting**: one plated main on a charger with full cutlery; the table edge and a candle cropped.
+  - **2 settings**: two identical plates side by side on a long table under a canopy.
+  - **Small group**: identical plates along one stretch of a long table that runs out of frame both ways.
+  - **Crowd cues**: string lights; a parrilla station soft behind; blurred guests at the far end.
+- Decor and cues: white linen, greenery, candles; countryside light at a chacra.
+- Never stage: stemmed glasses at the setting, wine, the toast, the ceremony.
+- Confidence and sources: see above.
+
+### DISH CATALOG
+
+(Heading added 2026-10-01 so the dish entries below are not read as part of CELEBRATIONS & LARGE GATHERINGS; the entries themselves are unchanged.)
+
 #### Dish: Asado
 - Category: Special-occasion / weekly ritual (weekend family gathering; also sold at parrilla restaurants as an everyday menu item)
 - Primary protein: Beef — specifically named cuts: asado de tira (short ribs), vacío (flank), colita de cuadril (rump cap/tri-tip), pulpón; chorizo and morcilla (blood sausage) as accompaniments; chotos (grilled calf/cow small intestine) and pamplonas (rolled stuffed meat) as additional items
@@ -372,9 +460,14 @@ I specifically checked the three plausible fault lines the brief named:
 - **Centro de Fotografía de Montevideo (CdF) is a confirmed, real municipal photo archive (1860s–present) that is a strong candidate for future image-based research on this file**, and is flagged here rather than pursued further in this pass: since 2020 it has released rights-freed high-resolution access to its historical archive for collective use, which would let a future pass reference specific real, dated, described photographs of Montevideo domestic/street life directly, rather than relying on general architecture commentary. Not used for specific claims in this version — flagged as a concrete next step. [SOURCE: [Centro de Fotografía de Montevideo](https://cdf.montevideo.gub.uy/)]
 - **Neighborhood-specificity tension not fully resolved.** The brief asked for cultural cues that don't pin to one neighborhood but also avoid caricature. The sourcing available skews toward describing distinctive, named things (Art Deco Pocitos, specific historic bars) precisely because those are what gets written about — the "ordinary, unremarkable" register the brief actually wants is logically the harder thing to find dedicated sources for. The guidance given leans on the assistant's synthesis of the *contrast* between the named/distinctive examples and what they imply about the more ordinary baseline, not on a direct source describing "an ordinary Montevideo apartment."
 
+- **Celebrations pass (2026-10-01) open items.** All headcounts in CELEBRATIONS & LARGE GATHERINGS are editorial or inferred from vendor listings (no Uruguayan survey found); the children's party foods (sándwich olímpico, chajá as birthday cake) rest on non-Uruguayan food media; the fiesta de 15 and wedding menus rest on vendor listings and may simply mirror Argentina's. The children-in-frame rule needs checking against TCCC's marketing-to-children policy. A `### DISH CATALOG` heading was added above the dish entries so they do not nest under the new section.
+
 ## CANDIDATE QUEUE
 
-(Empty — reserved for future automated gap-fill passes.)
+(Reserved for future gap-fill passes.)
+
+1. Dish entries for the festive items described only briefly in CELEBRATIONS & LARGE GATHERINGS: lechón (Christmas roast suckling pig), vitel toné (see `argentina.md` for the shared dish), lengua a la vinagreta, ensalada rusa, huevos rellenos, sándwich olímpico.
+2. A short FESTIVALS & SEASONAL OCCASIONS register (Carnaval, Semana de Turismo and the Semana Criolla, Día de la Familia, Fin de Año, Noche de la Nostalgia, Ñoquis del 29) to sit above CELEBRATIONS as the calendar index.
 
 ## RESEARCH LOG
 
@@ -408,3 +501,4 @@ I specifically checked the three plausible fault lines the brief named:
 - **2026-09-21 visual/plating + bread-specificity pass (second post-draft human review):** The reviewer asked whether plating/visual-aesthetic specifications (grilling style, color, texture, shape) should be included, and separately flagged that generic bread references ("bread bun," "bread roll") should be replaced with locally-specific named breads. Added a new VISUAL & PLATING NORMS subsection under TRUSTED CONTENT plus a "Visual/plating characteristics" field on every dish catalog entry; researched and named Uruguay's specific bread repertoire (flauta, felipe, marsellés, pan de campo, pan catalán, pan tortuga, galleta) via a dedicated Wikipedia list and Uruguayan press, and corrected the generic bread references in the Chivito (pan catalán), Milanesa al pan (pan flauta/felipe), and Choripán (pan tortuga/pan flauta) entries accordingly. See DECISIONS.md for the full judgment-call record, including which visual claims are well-sourced vs. inferred.
 - **2026-09-21 environment/staging-scenes sourcing-upgrade pass (fourth post-draft human review):** The reviewer asked how to gain trusted material for environment/staging detail given the section's thin sourcing, specifically without downloading or licensing imagery — targeting text descriptions and trends associated with real photography/listings rather than the assets themselves. Re-ran research targeting three text-adjacent-to-real-imagery source types: architecture portals publishing real, named projects in professional prose (ArchDaily), real estate listing copy describing real, currently-listed homes (infocasas.com.uy), and municipal photo-archive metadata (Centro de Fotografía de Montevideo, identified as a resource for a future pass). This surfaced one genuine correction (apartment terraces commonly include a parrillero grill — the earlier draft wrongly implied apartment dwellers mostly lack outdoor-grill access) and one well-sourced addition (monoambientes/studio apartments as a real, statistically-documented, growing housing category, directly relevant to the 1-person home scenarios). Updated the housing-type norm, the "meal outdoors at home" scenario, and the "casual lunch at home — 1 person" scenario accordingly. See DECISIONS.md for the full record.
 - **2026-09-21 environment/staging-scenes pass (third post-draft human review):** The reviewer asked for the file to cover the physical environments meals take place in, mapped specifically to Coca-Cola's standard staging scenarios (casual lunch at home for 1/2/3 people, dinner at home, an outdoor meal at home, a solo on-the-go meal, and away-from-home dining for 1 vs. 2-3 people), including architecture, materials, and outdoor-scene detail — plus guidance on cultural cues that avoid both flag-waving specificity and caricature. Added a new ENVIRONMENT & STAGING SCENES subsection covering general architectural/material norms (temperate climate, three coexisting housing types, muted material palette) and each of the six requested scenarios individually. This section is honestly the thinnest-sourced of the three expansion passes — several scenario-level judgment calls (which housing type fits which household size, the late-dinner lighting implication, the caricature-avoidance guidance itself) are the assistant's own synthesis rather than directly sourced claims, and are labeled as such inline and in the Gap Log. See DECISIONS.md for the full judgment-call record.
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches**, covering the Uruguayan Christmas table (Bodega Garzón, cocina-uruguaya.com), the Día de la Familia secular naming (LARED21, Cadena 3), children's birthday foods, and salón and catering offers for fiestas de 15 and weddings (vendor listings only). Added CELEBRATIONS & LARGE GATHERINGS with 5 entries after ENVIRONMENT & STAGING SCENES.
