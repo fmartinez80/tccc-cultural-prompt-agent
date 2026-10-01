@@ -122,6 +122,349 @@ Module below. No beverage other than Coca-Cola is catalogued as a subject.
 | **Chiringuito (beach bar)** | Wooden deck or plastic tables on sand, reed/thatch shade, the sea behind. |
 | **Menú-del-día dining room** | A small table with a paper tablecloth, fast turnover, a set three-course sequence. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used Spanish staging venues: the
+piso living-dining room and kitchen, the chalet or village-house patio,
+the neighbourhood bar, the menú-del-día dining room, the plaza terraza,
+and the village fiesta's long tables. Default zone when none is named:
+an urban flat or neighbourhood bar in the Centre zone (zone 6), per
+ENVIRONMENT & STAGING SCENES. The file-wide rules hold in every profile:
+text only as unreadable colour patches (rule 1), the brief dictates the
+SKU (rule 2), no other drinks in frame including beer, wine, vermut and
+coffee (rule 3), nothing held in a hand (rule 4); plus no alcohol cues
+(no bottle shelves, taps or glasses behind bars), no brand marks, never a
+full flag, no identifiable children, no more than about 2.5 background
+faces and none sharp.
+
+#### Venue: Piso living-dining room and kitchen (home, indoor)
+- Use for: home indoor; casual lunch at about 14:00 to 15:00 (1, 2, 3),
+  late dinner, Nochebuena and Navidad at the grandparents' piso (table
+  extended), El Clásico at home; the national default home. 65.3% of
+  Spaniards live in flats, the highest share in the EU [HIGH — Eurostat via
+  idealista, see ENVIRONMENT].
+- Soft background (the core): what reads first is the light: roller
+  shutters (*persianas*) half-lowered over a balcony door or window,
+  throwing horizontal bars of bright light across a cool, shiny floor of
+  terrazzo, ceramic or porcelain tiles in beige, grey or speckled cream
+  [MEDIUM — ENVIRONMENT interior markers; tile-maker sources for terrazzo
+  and porcelain floors]. Behind the table in the *salón-comedor*: light
+  painted walls (white, cream, pale beige), a wall unit or sideboard with
+  family photos and a few ornaments, the TV as a dark rectangle, a sofa
+  edge, a framed print; through the balcony door, the wrought-iron or
+  aluminium balcony rail, a geranium pot, laundry on a rack, and the
+  façade of the block opposite in brick or render with its own persianas
+  and awnings (*toldos*, often green, orange or striped) [MEDIUM]. In the
+  kitchen version: wall tiles up to the ceiling or high on the wall
+  (white, cream or patterned), compact fitted units, a glazed laundry
+  gallery (*galería*) with a washing machine and a hanging line, an
+  orange butane cylinder in older kitchens [LOW for the butane cylinder,
+  declining]. Light: hard midday brightness filtered by persianas at
+  lunch; at dinner (21:00 to 22:30), a ceiling lamp or a warm pendant over
+  the table, blue dusk through the balcony in summer. Palette: cream and
+  white walls, warm beige floor sheen, dark wood or white furniture, green
+  of plants, the striped toldo. Signature shapes: the slatted persiana
+  with light bars, the balcony door with its iron rail, the tiled floor
+  sheen, the glazed galería, the wall unit with photos. Density: tidy,
+  clean, family-ornamented; grandparents' pisos fuller (doilies, a
+  display cabinet with the good glassware empty and soft, a clock).
+- Shell: a mid-rise block from the 1960s to the 2000s; flat ceilings,
+  sliding aluminium windows or wooden balcony doors with persianas [MEDIUM].
+- The table as set here: an extendable rectangular dining table, wood or
+  glass-topped; a tablecloth or an oilcloth (*hule*) in the kitchen; a
+  barra of bread directly on the cloth; the cruet set (oil and vinegar
+  cruets, salt); everyday white or patterned plates, a soup plate for
+  lentejas; a festive red or gold cloth at Christmas. In older homes, a
+  round *mesa camilla* with a long skirted cloth (historically over a
+  heater) [LOW — not verified this pass].
+- Subregional variants and the national default: Centre (zone 6): brick
+  block, terrazzo, persianas; Andalusia (zone 5): whiter walls, an
+  azulejo dado, deeper shade; Atlantic Northwest (zone 1): glazed
+  balconies (*galerías* on the façade), greyer light, wood floors;
+  Catalonia (zone 3): Eixample flats with hydraulic patterned floor
+  tiles and high ceilings; Valencia (zone 4): bright coastal light, a
+  paella pan on the wall or in the kitchen. National default: a Centre
+  zone piso with persianas, a tiled floor and a balcony.
+- Hallucination traps: a sunny rustic farmhouse with terracotta and
+  hanging copper pans in every flat; tourist kitsch (flamenco fans,
+  bull posters, castanets); Mexican decor (papel picado, cacti); an
+  Italian trattoria look; a US open-plan kitchen with an island; the
+  siesta cliché; a wine bottle or porrón on the table.
+- Never stage: wine, beer, vermut, coffee cups; legible labels or TV; a
+  full flag on the balcony (football tournament summers: a cropped
+  red-yellow pattern at most); religious images as a subject.
+- Prompt-ready line: "A Spanish piso at lunchtime: the table with a barra
+  of bread and a cruet set sharp in front, behind it half-lowered roller
+  shutters throwing bars of hard light across a shiny terrazzo floor, a
+  cream wall with a softly blurred sideboard and the iron rail of a small
+  balcony."
+- Confidence and sources: MEDIUM; one search, tile-maker sources only
+  ([Marazzi — terrazzo-effect floors](https://www.marazzi.es/blog/valorizar-los-suelos-de-terrazo-en-la-decoracion-moderna-ideas-con-gres-porcelanico/),
+  commercial tier) plus the ENVIRONMENT interior markers (MEDIUM and LOW,
+  carried from the scaffold). The mesa camilla and the grandparents' detail
+  are LOW.
+
+#### Venue: Chalet or village-house patio, with the balcony and azotea variants (home, outdoor)
+- Use for: home outdoor; the Sunday family paella (strongest in zone 4),
+  a summer lunch or late dinner, a birthday; 1 to small group as a
+  snapshot of 8 to 20. See ENVIRONMENT: Meal outdoors at home and
+  CELEBRATIONS: Sunday family paella.
+- Soft background (the core): a covered *porche* or a vine or
+  canvas-shaded pergola throwing dappled shade; a built-in brick or stone
+  barbecue (*barbacoa de obra*) with a chimney as a solid block at one
+  side, or a gas-ring paellero with the wide pan on its stand and a thin
+  haze of smoke; white or cream rendered walls of the house, terracotta
+  or ceramic tiled floor, potted geraniums and a lemon or orange tree,
+  a hedge or a whitewashed boundary wall; in an urbanización, the blue
+  rectangle of a community or private pool glinting far behind and the
+  rooftops of neighbouring chalets [MEDIUM — rental listings consistently
+  pair built-in barbecues, porches, pergolas and pools; LOW for exact
+  prevalence]. Light: high bright midday sun cut into hard-edged shade
+  under the porch; long warm late-afternoon light for the sobremesa;
+  summer dinner after 21:30 under string lights or a wall lamp. Palette:
+  whitewash and cream, terracotta, vine green, pool blue, the saffron
+  gold of paella. Signature shapes: the round paella pan on the table,
+  the built-in barbecue chimney, the pergola slats or vine canopy, plastic
+  or resin garden chairs, the pool's blue band.
+- Shell: a single-family chalet, adosado (terraced house) with a small
+  garden, or the family *casa del pueblo* with a courtyard [MEDIUM].
+- The table as set here: a long folding or resin table, or two pushed
+  together, under a plastic or cotton cloth; the paella pan centred on
+  a trivet, lemon wedges, a bread barra, a salad bowl; everyday plates or
+  eating straight from the pan in some families; resin chairs in white,
+  green or grey [MEDIUM — CELEBRATIONS entry].
+- Subregional variants and the national default: Valencia (zone 4):
+  orange groves or huerta beyond the wall, a wood-fired paellero. Andalusia
+  (zone 5): a whitewashed courtyard with an azulejo dado and geranium pots
+  on the walls. Centre: a village-house courtyard with stone and a
+  grapevine. Flats: the balcony (a bistro table on tiles, geraniums, a
+  toldo, no grill) or the shared roof terrace (*azotea*) with water
+  tanks and laundry lines. National default: a chalet porch with a vine
+  pergola and a built-in barbecue.
+- Hallucination traps: a Tuscan villa with cypress rows; Mexican hacienda
+  tiles and cacti; "everything-seafood" paella with lobsters as decor; a
+  US backyard deck with a big gas grill; sangría pitchers on the table
+  (the strongest prior).
+- Never stage: sangría, wine, beer, tinto de verano; legible labels;
+  identifiable children by the pool; a full flag.
+- Prompt-ready line: "A Spanish chalet porch at Sunday lunch: a paella pan
+  sharp on a long cloth-covered table, behind it dappled shade from a vine
+  pergola, a white rendered wall with geranium pots, a brick built-in
+  barbecue chimney and the blue glint of a pool, all softly blurred."
+- Confidence and sources: MEDIUM-LOW for the background (one search,
+  rental listings only: [Casas Rurales — houses with pool and barbecue near
+  Madrid](https://www.casasrurales.net/blog/10-casas-rurales-con-piscina-y-barbacoa-cerca-de-madrid),
+  commercial tier); MEDIUM for the paella occasion (CELEBRATIONS sources).
+
+#### Venue: Neighbourhood bar (*bar de barrio*, *bar de toda la vida*)
+- Use for: restaurant, indoor; a tapa or ración at the counter, a quick
+  pincho, LaLiga matchday (food-led only), solo or 2 to 3; the default
+  everyday Spanish venue [register above].
+- Soft background (the core): the long bar counter in stainless steel
+  or zinc with a curved front edge (marble or wood in older castizo bars),
+  its front often clad in tiles; on it, a glass refrigerated tapas display
+  case with trays of tortilla, ensaladilla, croquetas and boquerones as
+  soft colour blocks; a chrome napkin dispenser; behind the counter, a
+  wall of white or patterned tiles or a mirror, with shelves blurred to
+  abstract shapes (no bottle silhouettes, no taps, no coffee machine in
+  focus); legs of jamón hanging from a rail in many bars as dark
+  teardrop shapes; a TV high in a corner as a soft glow; tiled floor,
+  sometimes with paper napkins on it near the counter; wooden or chrome
+  high stools along the bar; a few small tables with marble or laminate
+  tops [MEDIUM — Revista Interiores on castizo bars (steel counters,
+  gresite tiles, wooden stools); the register above]. Light: cool-white
+  overhead fluorescent or LED with warm spots over the counter; daylight
+  through a glass front and door. Palette: stainless steel, white or
+  cream tile, warm wood, the gold of fried tapas. Signature shapes: the
+  curved steel counter edge, the glass display case, hanging jamón legs,
+  the high TV, the napkin dispenser. Density: busy, noisy, well-worn,
+  regulars. People cues: a waiter in a white shirt and black waistcoat
+  or a plain polo with an apron, blurred; regulars at the counter as
+  backs, within the limit.
+- Shell: a ground-floor unit of a residential block, a glass front with
+  a door, low ceiling with panel lights or fans [MEDIUM].
+- The table as set here: the counter itself, or a small marble or steel
+  table; small white plates and brown clay cazuelas, a plate of bread,
+  toothpicks, paper napkins from the dispenser; forks laid on the plate
+  [MEDIUM — the LaLiga entry].
+- Subregional variants and the national default: Basque Country (zone 2):
+  the pintxo bar, platters of composed bites along the counter with
+  toothpicks upright, a standing ledge; Granada, León, Jaén (free tapa
+  with a soft drink): the same bar, a small free plate beside the hero;
+  Andalusia: azulejo wainscot, barrels as tables (keep empty and plain,
+  or avoid since they read as wine); Madrid: a castizo tavern with dark
+  wood, tiled wainscot and marble tables (see register: Traditional
+  tavern). National default: a Centre zone steel-counter bar.
+- Hallucination traps: a Mexican cantina; a British pub; a dim "tapas
+  restaurant" abroad with Spanish flags, bullfight posters, fans and
+  flamenco dolls; wine racks and sherry casks as decor; a cocktail bar.
+- Never stage: cañas, beer taps, wine, vermut, coffee cups, bottle
+  shelves in focus, legible chalkboards, price cards or lottery tickets;
+  slot machines (*tragaperras*, a real bar fixture and a gambling cue);
+  club crests on the TV.
+- Prompt-ready line: "A Spanish neighbourhood bar: small plates of
+  croquetas and bravas sharp on a curved stainless-steel counter, behind
+  them a softly blurred glass tapas case, white tiled walls, hanging legs
+  of jamón and a TV glowing high in the corner."
+- Confidence and sources: MEDIUM; one search ([Revista Interiores — bares
+  de toda la vida](https://www.revistainteriores.es/tendencias/bueno-bonito-y-castizo-5-bares-toda-vida-para-comer-lujo-y-pillar-ideas-deco_9296))
+  plus the register and the LaLiga entry. The slot-machine note is LOW
+  (model knowledge).
+
+#### Venue: Menú-del-día dining room (*casa de comidas*, *restaurante de menú*)
+- Use for: restaurant, indoor; weekday lunch (about 14:00 to 15:30) with
+  primero, segundo and postre; 1 (a worker alone) or 2 to 3 colleagues;
+  the default casual sit-down restaurant [HIGH for the format, scenario
+  above].
+- Soft background (the core): a small, bright dining room behind or
+  beside a bar: rows of small square tables, each with a white paper
+  tablecloth (or red-and-white check cloth in castizo houses), close
+  together; walls with a tiled dado (white, blue-and-white or Andalusian
+  patterned tiles) and plain plaster above with framed old photographs,
+  paintings or plates; a menu board or a typed sheet on the wall (an
+  unreadable white patch); a TV in a corner; a doorway to the bar with a
+  waiter passing; a sideboard with stacked plates and bread baskets
+  [MEDIUM — esMadrid and eldiario.es on Madrid casas de comidas (tiled
+  walls, check cloths, marble bars, old photographs)]. Light: cool
+  overhead light plus daylight from the street window. Palette: white
+  paper, tile blue or green, warm wood, the beige of bread. Signature
+  shapes: the rows of small paper-clothed tables receding, the tiled
+  dado line, framed photographs, a bread basket on each table, the
+  waiter's white shirt. Density: fast turnover, full at 14:30, worn but
+  clean. People cues: workers in office or work clothes at other tables,
+  blurred, within the limit.
+- Shell: a ground-floor room behind a bar; terrazzo or tiled floor;
+  low ceiling with fans or panel lights [MEDIUM].
+- The table as set here: white paper tablecloth over cloth or bare,
+  a paper napkin, cutlery laid fork left knife right, a basket of sliced
+  barra, an oil-and-vinegar cruet, a salt shaker, thick white plates;
+  the primero then the segundo; a plain glass for the hero serve when the
+  brief allows (no wine or water bottle, per the scenario).
+- Subregional variants and the national default: Madrid casa de comidas
+  (check cloths, tiles, old photographs); Catalonia (a *menú* in a
+  plainer modern room); Andalusia (azulejos, ceiling fans); Basque (a
+  dining room behind a pintxo bar). National default: a small room with
+  paper cloths and a tiled dado.
+- Hallucination traps: a white-linen fine-dining room; a tourist
+  "paella and sangría" restaurant with photo menus and flags; Mexican
+  decor; bullfighting posters and heads as the default (some real
+  castizo houses have them; do not stage).
+- Never stage: wine bottles (the menú traditionally includes wine; the
+  strongest prior), water bottles, coffee, legible menus or prices,
+  bullfighting imagery.
+- Prompt-ready line: "A Spanish menú-del-día dining room at lunchtime: a
+  small table with a white paper cloth, a bread basket and a cruet sharp
+  in front, behind it rows of close-set tables, a blue-and-white tiled
+  dado and framed old photographs on cream walls, softly blurred."
+- Confidence and sources: MEDIUM; one search ([esMadrid — traditional
+  casa de comidas](https://www.esmadrid.com/en/traditional-casa-comidas);
+  [eldiario.es — Madrid casas de comidas that survive](https://www.eldiario.es/madrid/somos/caminando-por-madrid/casas-comidas-sobreviven-madrid-15-negocios-clasicos-3-nuevas-recomendaciones_132_12735813.html);
+  [Telemadrid — casas de comidas to neotabernas](https://www.telemadrid.es/experimenta-madrid/Ruta-de-sabores-por-Madrid-de-las-casas-de-comidas-mas-tradicionales-a-las-neotabernas-0-2708129176--20240919080000.html)).
+
+#### Venue: Plaza terraza (bar or café tables outdoors)
+- Use for: restaurant, outdoor, and the on-the-go register (a bocadillo
+  or a ración between errands); tapeo for 2 to 3, Selección tournament
+  night, a merienda; golden-hour and evening. The everyday outdoor
+  Spanish table [register above].
+- Soft background (the core): a stone or concrete paved plaza or a wide
+  pavement; more small square tables (aluminium, steel or resin, often
+  brushed silver or dark grey) with stackable aluminium or resin chairs
+  in rows receding; plain canvas parasols in cream, white or dark green
+  or a fixed awning (*toldo*) over the bar's frontage; behind, the bar's
+  glass front and the façades of the plaza (in the Centre, brick or
+  rendered three- to five-storey buildings with iron balconies and
+  persianas; arcades in a *plaza mayor*); plane or acacia trees, street
+  lamps, a church tower or fountain far off as a soft silhouette
+  [MEDIUM — hospitality-furniture suppliers on stackable aluminium chairs,
+  aluminium and resin tables, parasols and awnings; municipal terrace
+  rules on movable furniture]. Light: golden hour at 20:00 to 21:30 in
+  summer, long shadows across stone; blue hour with the lamps on.
+  Palette: honey stone, brushed aluminium, canvas cream, brick red, tree
+  green. Signature shapes: rows of small square tables and stackable
+  chairs, the parasol canopies, iron balconies above, the arcade arches.
+  People cues: blurred neighbours at other tables, a waiter with a tray,
+  within the limit.
+- Shell: open air; the plaza paving, the bar's frontage [MEDIUM].
+- The table as set here: a small square metal table, no cloth (a paper
+  placemat at most); small plates of tapas or raciones in the centre,
+  toothpicks, paper napkins from a dispenser, bread; for on the go, a
+  bocadillo in white paper or foil resting on the table or a stone
+  bench (rule 4) [MEDIUM].
+- Subregional variants and the national default: Andalusia (whitewash,
+  orange trees, hard sun and deep shade, awnings stretched across
+  streets); Basque and Galicia (greyer light, granite, a glazed
+  windbreak around the terrace); Catalonia (a rambla or Gothic quarter
+  square); Madrid (a plaza with brick façades). National default: a
+  Centre zone plaza terrace at golden hour.
+- Hallucination traps: Parisian bistro rattan chairs and marble
+  tables; Italian piazza clichés; landmark skylines (Sagrada Família,
+  the Alhambra) behind every table; sangría pitchers; flamenco
+  performers.
+- Never stage: beer, sangría, wine, vermut, coffee; branded parasols and
+  chairs (in reality often brewery-branded: render them plain); legible
+  signs; a full flag.
+- Prompt-ready line: "A Spanish plaza terraza at golden hour: small plates
+  of tapas on a brushed-aluminium table sharp in front, behind it rows of
+  stackable chairs and plain cream parasols softly blurred, a bar's glass
+  front and brick façades with iron balconies in warm low light."
+- Confidence and sources: MEDIUM-LOW; one search, supplier sources
+  ([Hevea — terrace furniture for bars](https://hevea.es/mesas-sillas-terraza-bar/);
+  [Ceuta — terrace and velador regulation](https://www.ceuta.es/gobiernodeceuta/images/stories/documentos/ordenanza_reguladora_terrazas_veladores_Comisi%C3%B3n_Informativa.pdf),
+  municipal tier). Brewery-branded parasols as common is LOW (model
+  knowledge).
+
+#### Venue: Village fiesta long tables (*cena popular*, *paella popular*) (other)
+- Use for: other (the village plaza or sports ground); summer fiestas,
+  especially August; 1 to small group as a snapshot of dozens to several
+  hundred (see CELEBRATIONS: Village fiesta communal dinner). The
+  signature Spanish large-gathering venue outside the home.
+- Soft background (the core): long trestle tables with white or coloured
+  paper tablecloths running away to a soft vanishing point in both
+  directions; white or green plastic chairs in long rows; strings of small
+  coloured pennant flags (*banderines*) zig-zagging overhead between
+  lamp posts and balconies; the plaza's façades with iron balconies and a
+  church tower silhouette (fine as background); the verbena stage at one
+  end with coloured stage lights as large soft bokeh; for a paella
+  popular, the giant pans on wood fires with smoke and figures stirring
+  far back; peña groups in matching coloured shirts as blurred colour
+  blocks (no legible text) [MEDIUM — CELEBRATIONS entry sources (municipal
+  fiesta programmes, local press); the search this pass found only
+  supplier pages]. Light: late golden hour for the paella cook-off;
+  after 21:30, warm string bulbs and stage colour against a deep blue
+  sky. Palette: paper white, plastic white or green, multicoloured
+  pennants, warm bulb amber, stage magenta and blue. Signature shapes:
+  the endless trestle line, plastic chairs, pennant strings, the church
+  tower, the giant pan.
+- Shell: open air; stone paving, asphalt or a sports-ground floor.
+- The table as set here: paper cloth on a trestle; plastic or paper
+  plates and cutlery; tortillas on plates, a bread bag, embutidos on
+  paper, a paella portion per plate; the hero product as the brief says.
+- Subregional variants and the national default: Valencia (zone 4):
+  giant paella over orange-wood fires; Centre and Aragón: cena popular
+  with each group's tortillas and embutidos; North: a sardine or
+  chorizo grill. National default: a village plaza with trestle tables
+  and pennants on an August night.
+- Hallucination traps: running of the bulls or bullring imagery; a
+  Mexican fiesta (papel picado, piñatas, sombreros); a fairground with
+  rides as the main frame; beer cups on every table; a religious
+  procession as the subject.
+- Never stage: the bar stall and its plastic beer cups, sangría or
+  kalimotxo; bull events; the patron saint's procession; legible peña
+  names; fireworks near the product; identifiable children.
+- Prompt-ready line: "A Spanish village fiesta dinner on an August
+  night: one paper plate of paella sharp on a paper-covered trestle table,
+  behind it the long table and rows of plastic chairs receding, strings of
+  coloured pennants overhead and the verbena stage lights blurred into
+  bokeh beneath a church tower."
+- Confidence and sources: MEDIUM for the occasion (CELEBRATIONS sources);
+  EDITORIAL for the background; one search this pass, no usable result.
+
 ---
 
 ## ZONE CHARACTERIZATION
@@ -2469,6 +2812,15 @@ level, since none of these surfaced as contested or surprising.*
   (LOW-MEDIUM). The bar's Coca-Cola glass-with-ice-and-lemon serve is
   still unsourced for Spain (see the brand-file note above).
 
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  (search summaries only, no pages read): piso interior markers still
+  rest on the scaffold (persianas, galería, butane cylinder) plus
+  tile-maker pages; the mesa camilla is LOW; chalet patio prevalence of
+  built-in barbecues and pools rests on rental listings; terraza furniture
+  on supplier pages, and brewery-branded parasols as common is LOW; the
+  village-fiesta background search returned nothing usable (background is
+  editorial on the CELEBRATIONS sources); slot machines in bars LOW.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on the 237mL Coca-Cola bottle's exact dimensions,
@@ -2602,3 +2954,9 @@ level, since none of these surfaced as contested or surprising.*
   grandparents). Points to the existing Football in a bar and Stadium
   stands rows and the Pipas entry rather than repeating them. Bingo halls
   recorded as not staged.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 7
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table: piso
+  living-dining room and kitchen, chalet or village-house patio (balcony
+  and azotea variants), neighbourhood bar, menú-del-día dining room, plaza
+  terraza, village fiesta long tables. WebSearch only; no pages read at
+  source.

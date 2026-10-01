@@ -149,6 +149,374 @@ making a scene look unnatural.
 | **Pie-and-mash shop (East London-coded)** | White/green tiled walls, marble-topped tables, wooden bench seating, mirrors — a distinctive, well-documented register. Genericize any real named shop per §7.5. |
 | **Bakery-chain counter** | A high-street bakery selling sausage rolls, pasties, and other pastry snacks in paper bags — genericize the chain name. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used UK staging venues: the
+terraced or semi-detached kitchen-diner, the living room set up for a
+takeaway or watch party, the back garden patio, the gastropub, the
+traditional pub, and the chippy. Scotland's deltas (tenement kitchen,
+Scottish pub) are in `uk-scotland.md`. National default zone: an English
+town or city outside London (see ZONE CHARACTERIZATION). File-wide rules
+hold in every profile: nothing legible (chalkboards are the top UK trap,
+see VISUAL & PLATING NORMS), no alcohol cues (the beverage-leak note), no
+brand marks, never a full flag, no identifiable children, no more than
+about 2.5 background faces and none sharp; the brief dictates the SKU.
+
+#### Venue: Terraced or semi-detached kitchen-diner (home, indoor)
+- Use for: home indoor; casual lunch (1, 2, 3), dinner at home, Sunday
+  roast and Christmas or Easter at home (with the table extended); the
+  national default home interior. Terraced houses are the most common
+  English dwelling (29%), semi-detached close behind (25%) [HIGH — English
+  Housing Survey, see ENVIRONMENT & STAGING SCENES].
+- Soft background (the core): behind the table, a run of fitted kitchen
+  units reads as a long horizontal band: pale wood-effect, white gloss,
+  sage or grey Shaker doors, with a laminate or wood worktop carrying an
+  electric kettle, a toaster, a knife block, a fruit bowl and a few jars
+  as small rounded shapes [MEDIUM-HIGH — consistent with the kitchen-details
+  note in ENVIRONMENT]. Under the counter, the round glass door of a
+  front-loading washing machine is the signature British shape. A white
+  panel radiator sits under the window. The back window or glazed back door
+  (uPVC double glazing in white frames, or bi-fold or French doors in a
+  knocked-through or extended terrace) shows a narrow back garden as a
+  soft green and grey field: a wooden or panel fence, a shed roof, the
+  backs of the neighbouring terrace in red or brown brick
+  [MEDIUM — knock-through and rear-extension layouts per Real Homes and
+  homeowner forums; Wikipedia, byelaw terraced house]. In a knocked-through
+  Victorian terrace, a chimney breast or fireplace alcove can read on one
+  wall, sometimes painted a darker accent colour. Walls: off-white,
+  magnolia, light grey or a soft heritage colour. Fridge door with magnets
+  and a calendar (illegible), a wall clock, a tea towel over the oven door
+  handle. Light: grey-white diffuse daylight from the rear window most of
+  the year (overcast is the default), a warm ceiling spotlight grid or a
+  single pendant over the table in the evening, under-cabinet strip glow.
+  Palette: off-white, pale wood, sage or grey, stainless steel, the green
+  of the garden. Signature shapes: the kettle silhouette on the worktop,
+  the round washing-machine door, the white radiator under the window, the
+  rectangular fence-and-shed view through the glass. Density: lived-in and
+  slightly cluttered, modest, not a show kitchen [EDITORIAL]. People cues:
+  one blurred figure at the counter (making tea, at the hob) at most.
+- Shell: two-storey brick house; the kitchen at the back, often in a
+  narrow rear projection (the "back addition") or knocked through into the
+  dining room; low-to-standard ceilings with spotlights or a single
+  pendant; vinyl, laminate or tiled floor [MEDIUM].
+- The table as set here: a small rectangular or round wooden or white
+  table for four, bare or with placemats (cork or wipe-clean), a
+  tablecloth only for Sunday roast and festive meals; salt and pepper,
+  a bottle of brown or tomato sauce with the label turned away (see the
+  trademark list); everyday white or patterned stoneware plates;
+  mismatched or matching wooden or upholstered chairs, chair backs
+  cropped at the frame edge [EDITORIAL].
+- Subregional variants and the national default: northern towns and
+  Welsh valleys: smaller rear kitchen, stone or dark brick outside the
+  window, a back yard rather than a lawn. 1930s suburban semi: a separate
+  dining room with a bay window, a lawn and patio outside. London flat or
+  flatshare: a galley kitchen with a small table or a breakfast bar,
+  a balcony or other buildings through the window (see the Gen Z note).
+  Scotland: tenement flat, see `uk-scotland.md`. National default: a
+  modest kitchen-diner at the back of a brick terrace or semi, overcast
+  light, a narrow garden through the window.
+- Hallucination traps: a huge American open-plan kitchen with an island
+  and double-door fridge; a farmhouse Aga and copper pans in every
+  kitchen; chintz and "olde tea shop" twee; Union Jack tea towels and
+  mugs; a London skyline or red bus through the window; harsh golden sun
+  as the default; a US-style dishwasher-and-garbage-disposal layout with
+  no washing machine in the kitchen.
+- Never stage: wine bottles or glasses on the worktop or table; legible
+  calendar, fridge notes or jar labels; branded appliances or packaging.
+- Prompt-ready line: "A modest British terraced-house kitchen-diner: the
+  table sharp in front, behind it a soft run of sage fitted units with a
+  kettle on the worktop, a round front-loader door under the counter,
+  a white radiator below a double-glazed window and a narrow fenced garden
+  blurred in grey daylight."
+- Confidence and sources: MEDIUM overall; HIGH for the housing mix (EHS);
+  MEDIUM for knock-through and rear-extension layouts ([Real Homes —
+  terraced house design](https://www.realhomes.com/design/terraced-house-design);
+  [Wikipedia — Byelaw terraced house](https://en.wikipedia.org/wiki/Byelaw_terraced_house));
+  EDITORIAL for density and staging.
+
+#### Venue: Living room set up for a takeaway or watch party (home, indoor)
+- Use for: home indoor; Friday-night takeaway, England tournament night,
+  Premier League weekend, Six Nations, Christmas board games (see GAME
+  NIGHT); 1, 2 or a small group around a coffee table. The UK's top
+  tournament-viewing choice is at home with family [MEDIUM — Samsung UK
+  survey, see GAME NIGHT].
+- Soft background (the core): the TV on a low media unit or wall bracket
+  reads only as a soft rectangle of green or diffuse colour with no detail.
+  A two- or three-seat fabric sofa in grey, navy or oatmeal runs out of
+  frame with a throw and two or three cushions; blurred backs of heads
+  toward the screen within the people limit. Behind or beside: a chimney
+  breast with a simple fire surround or an electric fire, a mantelpiece
+  with a few soft objects (candles, cards, a clock); a white radiator; a
+  bay or double-glazed window with curtains or blinds, dark outside for an
+  evening game or grey daylight at a weekend lunchtime; a floor lamp or
+  table lamp with a fabric shade as the warm glow. Walls: off-white, grey
+  or a single darker feature wall; a framed print or mirror. Palette:
+  greys and oatmeal, warm lamp amber against the cool TV glow. Signature
+  shapes: the low coffee table with open pizza boxes and foil trays, the
+  sofa arm and cushions, the lamp's glowing shade, the TV's soft rectangle,
+  the radiator under the window. Density: modest and slightly cluttered
+  (remote, phone, a folded blanket) [EDITORIAL; consistent with GAME
+  NIGHT].
+- Shell: front room of a terrace or semi, often with a bay window; carpet
+  or laminate with a rug; standard ceiling with a pendant or ceiling light
+  switched off in favour of lamps at night [EDITORIAL].
+- The table as set here: a low wooden or white coffee table; takeaway
+  boxes and foil trays with lids off, poppadoms, a crisp bowl, side plates
+  or dinner plates on laps; kitchen roll instead of napkins; an extra dining
+  chair pulled in at the edge for a group [EDITORIAL].
+- Subregional variants and the national default: flatshare living room
+  (a smaller sofa, a mix of chairs, a laptop mirrored to the TV); Wales in
+  the Six Nations (a red-toned throw or plain red bunting at most).
+  National default: a terrace front room at night, lamp and TV glow.
+- Hallucination traps: a US "man cave" with a sectional sofa, recliners,
+  neon and a bar; a giant wall of screens; team flags draped across walls;
+  lager cans and multipacks on the coffee table (the strongest prior);
+  golden-hour light for a night kick-off.
+- Never stage: beer, crests, kits or sponsor marks, a legible screen or
+  score bug, betting apps or a sweepstake sheet with names and money, a
+  full St George's Cross or Union Jack, identifiable children.
+- Prompt-ready line: "A British front room at night: the coffee table
+  sharp with open takeaway boxes, behind it a grey fabric sofa running out
+  of frame, a warm table-lamp glow, a white radiator under curtained
+  windows and the TV only a soft green blur."
+- Confidence and sources: MEDIUM for home viewing (GAME NIGHT sources);
+  EDITORIAL for the room, consistent with ENVIRONMENT; no new search this
+  pass.
+
+#### Venue: Back garden patio (home, outdoor)
+- Use for: home outdoor; summer lunch or barbecue, garden birthday party,
+  a back-garden projector screening; 1 to small group; seasonal, weather
+  contingent. Not universal: 12% of GB households (21% in London) have no
+  garden [HIGH — ONS, see ENVIRONMENT].
+- Soft background (the core): a narrow, long rectangle bounded by
+  close-board or lap-panel wooden fences in orange-brown or painted
+  sage, grey or black, with climbing plants or a trellis; a small lawn,
+  sometimes patchy; a timber shed at the far end as a soft brown box; a
+  rotary washing line folded or a wheelie bin at the edge; the brick backs
+  and windows of the neighbouring terrace and the house's own back wall
+  with a uPVC door [MEDIUM — EDITORIAL from ENVIRONMENT and the meal-outdoors
+  scenario; garden-furniture retail sources]. The barbecue (charcoal kettle
+  or gas grill) as a dark rounded shape with a thin plume of smoke. Light:
+  overcast white sky as the default, soft shadowless light; a bright
+  summer day is real but seasonal; long June evenings give a low warm
+  light after 20:00; solar fairy lights or festoon lights along the fence
+  for an evening scene. Palette: green lawn and pots, brown fence, grey
+  paving, red or yellow brick. Signature shapes: the fence-panel grid, the
+  shed roof, the round parasol canopy, a kettle barbecue, the neighbours'
+  back windows.
+- Shell: grey or buff concrete or sandstone-effect paving slabs, or
+  composite or timber decking just outside the back door [MEDIUM].
+- The table as set here: a garden table in synthetic rattan (grey or
+  brown weave, glass top) or slatted wood, a parasol through the centre,
+  matching chairs or a rattan corner sofa; paper plates and napkins for
+  a barbecue, everyday plates for a lunch; ketchup and a bowl of salad
+  [MEDIUM — synthetic rattan is the common UK patio material because
+  natural rattan rots in damp, per retail guides, commercial tier].
+- Subregional variants and the national default: suburban semi: a wider
+  lawn and borders. Northern terrace: a paved back yard with a high brick
+  wall and a gate onto a back alley (ginnel). Flats: a balcony with no
+  grill (see the balcony-BBQ note). National default: a narrow fenced
+  terrace garden with a small patio under a grey-white sky.
+- Hallucination traps: a sprawling US backyard with a pool or a big
+  wooden deck and string of Edison bulbs; a manicured stately-home lawn
+  or English country garden with roses everywhere; Mediterranean sun and
+  terracotta; Union Jack bunting (plain bunting at most).
+- Never stage: beer cans or bottles in a cool box or on the table;
+  branded barbecue or garden furniture; a full flag; identifiable children
+  (a paddling pool or toys far back and out of focus at most).
+- Prompt-ready line: "A British back-garden patio under a soft grey sky:
+  the rattan-effect table sharp in front, behind it a blurred brown fence
+  with climbing plants, a small lawn, a shed roof and the brick backs of
+  neighbouring houses."
+- Confidence and sources: MEDIUM-LOW for specific furniture and fence
+  materials (retail sources, commercial tier: [Furniture in Fashion —
+  rattan for UK patios](https://www.furnitureinfashion.net/blog/best-rattan-garden-furniture-uk-patios/));
+  HIGH for garden access (ONS); EDITORIAL for staging.
+
+#### Venue: Gastropub
+- Use for: restaurant, indoor; weekend lunch, Sunday roast out, dinner,
+  birthday meal; 1, 2 or a small group. A real, more recent register (from
+  the 1990s), not the default; the traditional pub stays the default group
+  venue [HIGH, register above].
+- Soft background (the core): plaster walls in muted heritage colours
+  (sage, slate blue, deep green, off-white), often with a stretch of
+  exposed brick or stone; a large chalk blackboard on the wall or an easel,
+  always out of focus (a dark rectangle with pale illegible marks); the
+  bar counter as a warm horizontal band of dark or waxed wood, its back
+  shelves blurred into dark shapes with no bottles in focus; a fireplace
+  or wood-burning stove as a small orange glow with a basket of logs
+  beside it; framed prints or old maps, a shelf of old books or jars;
+  other scrubbed tables with mismatched chairs receding; a dog bed or water
+  bowl near the bar is a real, warm detail [MEDIUM — scrubbed tables,
+  blackboards, dark green walls, beams, flagstones and wood-burners per
+  Test. Taste. Repeat., Yahoo/Independent roast guide and Wikipedia
+  (gastropub); LOW for the dog bowl]. Light: by day, cool soft light from
+  small-paned sash or casement windows; by evening, warm low light from
+  wall sconces, simple pendant shades (enamel, glass or Edison-style
+  bulbs) and tea-light candles on the tables. Palette: muted green or blue,
+  dark waxed wood, warm amber. Signature shapes: the blackboard rectangle,
+  the long wooden bar band, the stove or hearth glow, small-paned window
+  grids, a mismatched chair back. Density: relaxed, half-full, well-worn
+  but cared for. People cues: staff in plain shirts and long dark aprons,
+  blurred; diners in casual weekend clothes, within the limit.
+- Shell: an 18th- or 19th-century pub, coaching inn or former farmhouse
+  refitted; flagstone or worn wide-board floors; exposed beams only in
+  genuinely old rural buildings; small-paned windows [MEDIUM].
+- The table as set here: bare scrubbed or oiled solid wood, no cloth;
+  cutlery laid directly or brought in a small tin or jar; paper or linen
+  napkin; salt and pepper mills; a small candle or a jar of flowers; food
+  on heavy plain plates, boards or slates, chips in a mini wire fry-basket
+  or enamel cup [HIGH for boards, slates and baskets, register above];
+  mismatched wooden chairs and an upholstered wall bench at the frame
+  edge.
+- Subregional variants and the national default: London: a Victorian
+  corner building, larger windows, a tiled or wooden bar front, more
+  painted panelling. Countryside (Cotswolds, Yorkshire, Devon): stone
+  walls, flagstones, beams, an inglenook fire. Scotland: see
+  `uk-scotland.md`. National default when none is named: a village or
+  market-town pub with muted plaster walls, scrubbed tables, a blackboard
+  and a fireplace.
+- Hallucination traps: Tudor black-and-white beams in every room; a Union
+  Jack; a red phone box or double-decker bus through the window; Irish-pub
+  clutter (enamel ads, Celtic signs); dark, gloomy "ye olde" lighting;
+  white tablecloths (that is a restaurant); fine-dining towers and foams.
+- Never stage: beer pumps, pump clips, pint or wine glasses, beer mats,
+  bottles behind the bar in focus, legible blackboard text, pub signs with
+  names. The bar is a soft band of wood only.
+- Prompt-ready line: "A relaxed British gastropub: a scrubbed oak table
+  with no cloth in sharp focus, behind it muted sage-green plaster walls,
+  a softly blurred chalk blackboard, the long dark band of a wooden bar
+  and the warm glow of a log burner."
+- Confidence and sources: MEDIUM overall; rewritten from the 2026-10-01
+  pilot plus one new search ([Test. Taste. Repeat. — the new wave of
+  gastropubs](https://goodfoodeveryday.substack.com/p/the-new-wave-of-gastropubs);
+  [Yahoo/Independent — best places for a roast](https://www.yahoo.com/news/15-best-places-roast-dinner-100000888.html);
+  [Wikipedia — Gastropub](https://en.wikipedia.org/wiki/Gastropub)).
+
+#### Venue: Traditional pub (the default group venue)
+- Use for: restaurant, indoor; weekday lunch, solo pub lunch, dinner,
+  Sunday roast out, food-led pub screening (see GAME NIGHT); all party
+  sizes. The national default for eating out in a group [HIGH].
+- Soft background (the core): dark-stained wood panelling to dado height
+  or full height, with plaster or patterned wallpaper above in deep red,
+  green or nicotine cream; partitions of panelling topped with etched or
+  frosted glass dividing snugs; brass wall lamps with small fabric or
+  frosted-glass shades as round warm glows; the long dark bar with a
+  brass foot rail as a heavy horizontal band, the bar back a dark blur
+  with no bottles, pumps or optics in focus; horse brasses, framed local
+  photographs, a mirror with gilt lettering made illegible; a dartboard
+  as a soft disc in some rooms; the patterned carpet (deep red, green or
+  blue, busy floral or geometric) where the frame dips low; in winter, an
+  open fire in a cast-iron grate [MEDIUM — panelling, etched glass,
+  patterned carpet, red velvet or leather banquettes, brass wall lights and
+  snugs per Fat Badgers pub-interior guide, The Victorian Emporium and
+  pub-culture sources]. Light: dim and warm; daylight only as a pale glow
+  through etched or frosted bay windows; amber lamp glows by evening. At
+  most one wall-mounted screen, high and soft, for a screening scene.
+  Palette: oxblood, bottle green, dark brown wood, brass gold. Signature
+  shapes: the etched-glass window with its pale glow, the brass lamp
+  glows along the panelling, the bar's horizontal band and foot rail, the
+  curve of a tufted banquette back, a small round table on a cast-iron
+  base. Density: well-worn, ring-marked, comfortable. People cues: a few
+  blurred regulars on stools at the bar (no glasses visible) or at a
+  far table, within the limit.
+- Shell: a Victorian or older building; low ceilings and beams in older
+  rural pubs, high ornate ceilings in city Victorian pubs; bay windows
+  with etched glass; carpet or worn floorboards [MEDIUM].
+- The table as set here: a small round or square dark-wood table, often
+  on a cast-iron base, bare with a few ring marks; cutlery rolled in a
+  paper napkin; sachets or a small caddy with ketchup, mustard, vinegar;
+  plain white oval or round plates; an upholstered banquette (red velvet,
+  green or oxblood leather) or a wooden stool at the edge.
+- Subregional variants and the national default: city Victorian "gin
+  palace" (ornate mirrors, carved wood, tiled lobby) in London, Liverpool,
+  Birmingham; rural inn (beams, stone fireplace, settles); northern
+  estate or town local (plainer, brighter, a pool table area kept out of
+  frame). Scotland: see `uk-scotland.md`. National default: a town pub
+  with dark panelling, patterned carpet, a banquette and brass lamps.
+- Hallucination traps: everything in the gastropub list; a sports-bar wall
+  of TVs; American booths with neon; Irish-pub memorabilia clutter;
+  Tudor beams in a city Victorian pub; a pub so dark the food cannot be
+  read.
+- Never stage: pumps, pump clips, pint glasses, optics, bottles behind the
+  bar, beer towels and mats, legible signs or mirror lettering. When the
+  brief allows a glass, the Coca-Cola pub serve is ice and a slice of lemon
+  (VISUAL & PLATING NORMS).
+- Prompt-ready line: "A traditional British pub corner: a small dark-wood
+  table in sharp focus, behind it an oxblood leather banquette against
+  dark wood panelling, round brass wall lamps glowing softly, etched-glass
+  windows as pale blurs and the long wooden bar a dark band in the
+  distance."
+- Confidence and sources: MEDIUM; rewritten from the 2026-10-01 pilot plus
+  one new search ([Fat Badgers — Pub interiors](https://www.fatbadgers.co.uk/britain/interior.htm);
+  [The Victorian Emporium — Victorian pub renovation](https://www.thevictorianemporium.com/publications/advice/article/10_essential_elements_of_victorian_pub_renovation);
+  [The Spaces — pub design](https://thespaces.com/pub-design-is-going-back-to-basics/)).
+
+#### Venue: Chippy (fish-and-chip shop, takeaway counter or small sit-in)
+- Use for: meal on the go (chips eaten from the paper outdoors) and
+  restaurant indoor (a small sit-in area); Friday-night takeaway pickup;
+  1 or 2. The UK's signature everyday hot takeaway (see catalog: Fish and
+  chips; Quick-Reference: Chippy).
+- Soft background (the core): the stainless-steel frying range along the
+  back or side as the dominant shape, a long gleaming block with lidded
+  fryer wells, a heated glass display cabinet holding battered fish and
+  sausages under warm lamp light, and a chip "scuttle" or chute; older
+  ranges have a coloured glass (vitrolite) or enamel front panel in green,
+  cream or blue [MEDIUM — frying-range manufacturers Mallinsons and Trevor
+  Howsam]. Walls: white or pale tiles, or a coloured tile band; a long
+  illuminated menu board high above the range (a bright pale rectangle,
+  always illegible). On the counter: the till, a stack of white paper and
+  cardboard boxes, a tall vinegar bottle and salt shaker as small upright
+  shapes, a pickled-egg or pickled-onion jar. Middle distance: a small
+  queue as blurred coats, the plate-glass shopfront with the street at
+  night (wet pavement reflections, streetlights as orange or white bokeh)
+  [MEDIUM — Wikipedia, fish-and-chip shop; Infatuation London guide for
+  sit-in Formica tables]. Light: bright, even, cool-white overhead
+  fluorescent or LED; the warm glow of the heated cabinet; night outside
+  the glass. Palette: stainless steel, white tile, golden batter, a strong
+  accent colour (blue, green or red). Signature shapes: the long steel
+  range with its lids, the lit warming cabinet, the high menu board, the
+  vinegar bottle, the paper-wrapped bundle. Density: functional, busy at
+  peak, a little worn. People cues: a fryer in a white jacket and cap or
+  a dark polo with an apron, blurred, plus one or two customers.
+- Shell: a high-street or parade shop unit with a large glass front; tiled
+  or vinyl floor; low suspended ceiling with panel lights [MEDIUM].
+- The table as set here: on the go, the paper-wrapped or boxed portion
+  resting on a wall or bench (per §7.5), a small wooden chip fork; sit-in,
+  a red, white or blue Formica-topped table with fixed chairs or a booth,
+  a vinegar bottle, salt shaker and ketchup in a squeeze bottle with no
+  label, plain white plates [MEDIUM].
+- Subregional variants and the national default: seaside chippy (blue
+  and white decor, a view of the promenade, gulls and railings through
+  the window); northern chippy (beef dripping, a sit-in café room, mushy
+  peas in polystyrene-free tubs); urban late-night chippy combined with
+  kebab and pizza. Northern Ireland and Scotland: chippy menus differ (see
+  `uk-scotland.md`, the NI callout). National default: a town high-street
+  chippy at early evening, bright tiles and a steel range.
+- Hallucination traps: an American diner with chrome stools and neon;
+  newspaper wrapping (banned for food contact; plain white paper only);
+  polystyrene trays (see the ban dates in the Quick-Reference); a pub or
+  restaurant with tablecloths; a "seaside" palette applied to every
+  inland shop; a branded fridge of soft drinks dominating the frame.
+- Never stage: a legible menu board, shop name or price list; branded
+  drinks fridges or cans other than the brief's SKU; beer.
+- Prompt-ready line: "A British chippy at dusk: a paper-wrapped portion of
+  fish and chips sharp on the counter, behind it a long gleaming stainless
+  frying range with lidded wells, a warm-lit glass cabinet of battered
+  fish, white tiles and a bright illegible menu board softly blurred."
+- Confidence and sources: MEDIUM overall; two searches ([Mallinsons —
+  frying ranges](https://mallinsonsofoldham.com/frying-ranges/);
+  [Trevor Howsam — vitrolite range](https://trevorhowsam.com/thb2040-acme-frying-range-stainless-steel-yellow-and-green-vitrilite/);
+  [Wikipedia — Fish-and-chip shop](https://en.wikipedia.org/wiki/Fish-and-chip_shop);
+  [The Infatuation — London fish and chips](https://www.theinfatuation.com/london/guides/best-fish-and-chips-london));
+  LOW for the pickled-egg jar and the regional variants (model knowledge,
+  not verified this pass).
 ---
 
 ## ZONE CHARACTERIZATION
@@ -2064,6 +2432,16 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   41% home-with-family and pub-viewing figures are a Samsung consumer
   survey and a JOE report, not read at source.
 
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  at source (search summaries only, no pages read): kitchen-diner fittings
+  (washing machine, kettle, radiator) rest on the existing ENVIRONMENT
+  note, not a new source; the living-room profile had no new search;
+  garden furniture and fence materials come from retail sites (commercial
+  tier); the gastropub dog bowl, chippy pickled-egg jars, vitrolite range
+  fronts as a common sight (not just a manufacturer offering) and the
+  chippy regional variants are LOW. Interior photo review of real
+  terraced kitchens, pubs and chippies would firm these up.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on Cornish Pasty Association / British Pie Awards
@@ -2185,3 +2563,9 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   food-led form only) and three social game-night entries (Christmas
   board games, quiz night in hall or home form only, board-game café).
   Bingo and the pub quiz in its pub form are recorded as not staged.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  terraced or semi kitchen-diner, living room for takeaway or watch party,
+  back garden patio, gastropub and traditional pub (both rewritten
+  background-first from the 2026-10-01 pilots), chippy. WebSearch only;
+  no pages read at source.

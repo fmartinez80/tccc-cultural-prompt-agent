@@ -187,6 +187,349 @@ char, crust, crumb, how butter or yoghurt sits, and real-world size.
 | **Home kahvaltı** | The table covered edge to edge with small plates: cheeses, olives, tomatoes and cucumbers, jam, honey with kaymak, eggs; a pan of menemen or sucuklu yumurta in the centre. |
 | **Seaside / ferry-side** | Istanbul waterfront, İzmir Kordon or an Aegean harbour: balık ekmek, midye dolma, simit on a bench or railing. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies: the default camera is a close-up hero (sharp table,
+soft room), so each profile leads with what reads in the soft background.
+Wave 1 (2026-10-01) covers the six most-used Turkish staging venues: the
+apartment salon dining table, the apartment balcony, the esnaf lokantası,
+the dönerci, the kebapçı or ocakbaşı, and the wedding salon (*düğün
+salonu*). Default zone when none is named: zone 1, Istanbul, at the
+everyday register (see Default when no zone is named). The hard staging
+rules hold in every profile: halal table, no alcohol and never a meyhane
+look (rule 2), çay and ayran never beside the hero (rule 4), nothing
+legible, nothing held in a hand, no drinks other than the hero; plus no
+brand marks, never a full flag, no identifiable children, no more than
+about 2.5 background faces and none sharp. Mosques stay distant and never
+frame the hero (ENVIRONMENT). İftar staging is not changed by this pass:
+the salon profile below gives the room only, and the CELEBRATIONS: İftar
+entry governs the occasion.
+
+#### Venue: Apartment salon dining table (home, indoor)
+- Use for: home indoor; the family dinner at about 19:00 to 20:00 (3 to
+  5), weekend lunch, bayram meals, New Year's Eve, derby night (the
+  coffee-table end of the same room); the national default home.
+  Only about 29% of households live in one- or two-storey buildings
+  [HIGH for the storey figures, TÜİK; MEDIUM for the apartment inference,
+  see ENVIRONMENT].
+- Soft background (the core): the *salon* is a combined living-dining
+  room: behind the table, a glass-fronted display cabinet (*vitrin*) of
+  dark or white lacquered wood holding the guest tea sets, crystal bowls
+  and ornaments as soft glints behind glass; a sideboard or console with
+  a framed family photo and a doily; a large window or balcony door
+  dressed in white tulle sheers (*tül perde*) under heavier coloured
+  side curtains, so daylight arrives as a bright, milky, diffused glow
+  [MEDIUM — Turkish home-decor guides list the dining table, chairs,
+  console and vitrin as the dining set, and tulle curtains; ENVIRONMENT
+  interior markers]. Further back, the living end: a sofa set (*koltuk
+  takımı*) with cushions, a large machine-made rug in red, beige or blue
+  patterns on laminate or tiled floor, the TV on a unit as a dark
+  rectangle, a ceiling chandelier or a flush ceiling lamp. Through the
+  window: the balconies and windows of the block opposite, awnings,
+  satellite dishes, a strip of sky. Light: milky tulle-filtered daylight
+  at lunch; at dinner, a cool-white or warm ceiling lamp or chandelier
+  over the table, dusk blue at the window. Palette: cream and beige walls,
+  dark wood or white furniture, the red or blue of the rug, white tulle,
+  crystal glints. Signature shapes: the vitrin's glass doors with stacked
+  tea sets, the tulle-veiled window, the chandelier, the patterned rug,
+  the sofa set. Density: tidy, hospitable, well-kept; slippers at the
+  door; more ornaments in older households. People cues: blurred family
+  members, headscarves and uncovered hair both natural in a mixed family,
+  within the limit.
+- Shell: a flat in a 5- to 8-storey concrete block, about 97 m² on average
+  now [MEDIUM — TÜİK via press]; plastered walls, laminate or ceramic
+  floor, PVC windows [EDITORIAL].
+- The table as set here: a rectangular dining table with a lace, embroidered
+  or patterned cloth, sometimes a clear protective cover over it; soup in
+  individual bowls first; shared mains, pilav and salad in the centre; a
+  basket of sliced white bread or pide; fork and spoon as the core pair;
+  upholstered dining chairs at the edge [HIGH for the family-together
+  dinner, Ipsos; MEDIUM for cloth and service, ENVIRONMENT and GENERAL
+  NORMS].
+- Subregional variants and the national default: Istanbul (smaller
+  flats, a glimpse of hillside streets or water at most, never a mosque
+  framing the hero); Aegean (bright light, a balcony door open, olive
+  green and white); Southeast (larger families, courtyard houses in Mardin
+  or Urfa stone, the *yer sofrası* floor tray as a coexisting register,
+  see CELEBRATIONS); Black Sea (wooden houses, mist at the window); Central
+  Anatolia (modern Ankara blocks, dry light). National default: an
+  Istanbul apartment salon with a vitrin, tulle curtains and a patterned
+  cloth.
+- Hallucination traps: an Orientalist salon with floor cushions, hanging
+  mosaic lanterns, brass trays and hookahs everywhere; carpets on every
+  surface; a Greek or Arab interior; a showroom-minimal Scandinavian flat;
+  çay glasses on the table (the strongest prior).
+- Never stage: çay glasses or çaydanlık in frame, ayran, alcohol of any
+  kind; framed religious calligraphy or prayer items as a subject (keep
+  out of frame or unreadable) [EDITORIAL]; legible TV; a full flag;
+  pork-looking cold cuts.
+- Prompt-ready line: "A Turkish apartment salon at dinner: the
+  lace-clothed table with soup bowls and a bread basket sharp in front,
+  behind it a softly blurred glass-fronted vitrin of tea sets, white tulle
+  curtains glowing with dusk light and a patterned rug under a sofa set."
+- Confidence and sources: MEDIUM; one search ([Doğtaş — dining room
+  decoration](https://www.dogtas.com/yemek-odasi-dekorasyonu);
+  [Boyner MAG — dining room ideas](https://www.boyner.com.tr/mag/5-oneriyle-yemek-odasi-dekorasyon-fikirleri),
+  retail tier) plus ENVIRONMENT; LOW for the protective table cover and
+  the chandelier as common (model knowledge).
+
+#### Venue: Apartment balcony (home, outdoor)
+- Use for: home outdoor; a summer lunch or dinner for 1 to 3, a small
+  mangal where the building allows, weekend breakfast-lunch (breakfast
+  itself is out of scope); very common and genuinely used [MEDIUM,
+  ENVIRONMENT].
+- Soft background (the core): an aluminium or iron railing, often with a
+  solid lower panel; pots of geraniums, petunias, basil, mint and a
+  pepper or tomato plant along the rail and on the floor; a fabric awning
+  (*tente*) overhead in orange, green, blue or stripes, casting tinted
+  shade; many balconies are enclosed with sliding glass panels (*cam
+  balkon*), which put reflections and frame lines in the background
+  [LOW-MEDIUM — Turkish retail decor guides cover open and closed
+  balconies; prevalence not verified]; a laundry rack or line with
+  clothes, a small storage cabinet, a doormat; beyond, the next block's
+  balconies with their own awnings, plants and satellite dishes, rooftop
+  solar water heaters on the skyline in the south and west, a slice of
+  sea or hills in some cities. Light: bright direct sun filtered by the
+  awning's colour at midday; long warm evening light in summer. Palette:
+  awning orange or green, terracotta and plastic pots, white or beige
+  concrete, laundry colours. Signature shapes: the awning's scalloped
+  edge, the railing with pots, the grid of balconies opposite, satellite
+  dishes, solar heater tanks on roofs.
+- Shell: a 4 to 8 m² concrete balcony with ceramic tiles [EDITORIAL].
+- The table as set here: a small folding table or a plastic garden table
+  with a cotton or oilcloth cover, two or three folding or plastic chairs,
+  a cushion; everyday plates; for a mangal, a small charcoal grill in
+  the corner, lavaş on a plate, grilled peppers and tomatoes [MEDIUM,
+  scenario above].
+- Subregional variants and the national default: Aegean and
+  Mediterranean (bougainvillea, citrus, sea glimpses, strong sun); Black
+  Sea (mist, green slopes, a covered balcony); Istanbul (dense blocks,
+  a cam balkon); a garden or *müstakil ev* yard in villages and small
+  towns, with fruit trees and a low wall. National default: an Istanbul
+  block balcony with an awning, pots and the grid of balconies opposite.
+- Hallucination traps: a Greek-island whitewash-and-blue-dome terrace;
+  Cappadocian balloons or the Bosphorus Bridge as every backdrop;
+  Orientalist lanterns and kilims everywhere; a çay glass on the rail.
+- Never stage: çay, ayran, alcohol; legible signs; a full flag (common on
+  real balconies on national days: cropped red pattern at most); a
+  mosque framing the hero.
+- Prompt-ready line: "A Turkish apartment balcony on a summer evening:
+  the small clothed table sharp in front, behind it pots of geraniums and
+  basil along a railing, an orange awning glowing in low sun and the
+  softly blurred balconies, awnings and satellite dishes of the block
+  opposite."
+- Confidence and sources: MEDIUM-LOW; one search ([Koçtaş — balcony
+  decoration ideas](https://blog.koctas.com.tr/balkon-dekorasyonu-fikirleri/);
+  [LC Waikiki — open and closed balconies](https://www.lcw.com/blog/balkon-dekorasyonu-acik-ve-kapali-balkonlar-icin-oneriler/),
+  retail tier) plus ENVIRONMENT exterior markers.
+
+#### Venue: Esnaf lokantası (tradesmen's canteen)
+- Use for: restaurant, indoor; weekday lunch at about 12:00 to 13:30; 1 (a
+  worker alone) or 2 to 3 colleagues; the default casual sit-down
+  restaurant [register above; catalog: Kuru fasulye & pilav].
+- Soft background (the core): the steam table (*benmari*) along the front
+  or side, a long stainless-steel counter with a glass sneeze guard and
+  rows of deep steel trays and pots of stews, beans, pilav, vegetables in
+  olive oil and soups, steam rising, under warm display lights; ladles
+  standing in the pots; a cook or server in a white jacket and cap behind
+  it, blurred [MEDIUM — Turkish catering-equipment suppliers on benmari
+  counters; Hürriyet Lezizz and food-media lists of lokanta dishes]. The
+  dining room: Formica or laminate-topped tables close together, mirrors
+  on the walls that double the room, artificial flowers in pots, framed
+  old photographs of the shop or the city; a cooler and a bread rack near
+  the door; a TV high in a corner [MEDIUM for Formica tables, wall mirrors
+  and hanging artificial flowers — food-media description of classic
+  Istanbul lokantas (Nefis Yemek Tarifleri)]. Light: bright overhead
+  fluorescent or LED, warm lamps over the steam table, daylight from the
+  street window. Palette: stainless steel, white, the orange-red of
+  tomato stews and beans, the beige of pilav, mirror glints. Signature
+  shapes: the long steam table with its rows of trays and rising steam,
+  the wall mirrors, close-set small tables, the bread basket on each
+  table. Density: full and fast at noon, plain, clean, a little worn.
+  People cues: workers and shopkeepers at other tables, the server
+  carrying a tray, blurred, within the limit.
+- Shell: a ground-floor shop in a commercial street or near a market;
+  tiled floor; low ceiling [MEDIUM].
+- The table as set here: a Formica or laminate table, sometimes with a
+  paper cover; small steel or melamine plates of the chosen dishes
+  (kuru fasulye, pilav, a salad, pickles in a small bowl); a basket of
+  sliced white bread; a salt, pepper and red-pepper-flake set; paper
+  napkins; no water glass or ayran beside the hero [MEDIUM — register,
+  catalog].
+- Subregional variants and the national default: Istanbul (Eminönü,
+  Karaköy and Kadıköy lokantas, many dishes, older décor); Ankara
+  (government-worker lokantas); the Southeast (more grills alongside
+  stews); a newer chain-like canteen with a tray line (do not stage as a
+  chain). National default: an Istanbul neighbourhood lokanta at noon.
+- Hallucination traps: an Orientalist restaurant with lanterns and floor
+  cushions; a Greek taverna; a cafeteria with branded trays; a meyhane
+  meze table (hard rule 2); a European bistro.
+- Never stage: ayran, çay, alcohol; a legible menu board or price list;
+  portraits or framed religious calligraphy readable on the wall (both
+  real fixtures; keep unreadable or out of frame) [EDITORIAL]; a full
+  flag; branded coolers.
+- Prompt-ready line: "An Istanbul esnaf lokantası at noon: a plate of kuru
+  fasulye with pilav and a bread basket sharp on a Formica table, behind
+  it a softly blurred stainless steam table of stew trays with rising
+  steam, mirrored walls and close-set tables under bright light."
+- Confidence and sources: MEDIUM; one search ([Nefis Yemek Tarifleri —
+  Istanbul esnaf lokantaları](https://www.nefisyemektarifleri.com/blog/istanbul-esnaf-lokantalari/);
+  [Hürriyet Lezizz — esnaf lokantası dishes](https://www.hurriyet.com.tr/lezizz/galeri-esnaf-lokantasi-yemekleri-hangileri-iste-esnaf-lokantasi-denince-akla-ilk-gelenler-41880044);
+  [Web Mutfak — benmari counters](https://www.webmutfak.com.tr/benmari-ve-yemek-tezgahlari-pmk5),
+  commercial tier).
+
+#### Venue: Dönerci (street döner shop)
+- Use for: meal on the go and standing meal; döner ekmek arası or dürüm on
+  its paper on the ledge; lunch, evening, late night; 1 or 2. The default
+  street venue [register above; catalog: Döner].
+- Soft background (the core): the vertical döner cone turning in front
+  of its upright gas or charcoal heating panel, behind or inside a glass
+  surround, browned and glistening, the single strongest shape; the
+  usta's long thin knife; a steel counter with trays of chopped tomato,
+  onion with parsley and sumac, pickles, fries, stacked half-loaves of
+  bread and lavaş [MEDIUM — register; industrial-kitchen suppliers on
+  glazed and open döner grills]. The shop is often tiny, with a shelf
+  ledge along the wall or window for eating standing, a few stools, white
+  or pale tiled walls, a menu panel above (illegible), a cooler glowing
+  by the door (contents blurred, no brands) [MEDIUM — Istanbul food
+  guides describe tiny shops where customers eat standing]. Through the
+  open front: the street, a passing crowd, shop lights. Light: warm glow
+  from the döner's heating panel, bright overhead light, daylight or
+  street lights through the open front. Palette: browned meat, steel,
+  white tile, tomato red, parsley green. Signature shapes: the turning
+  meat cone and its heating panel, the long knife, the stack of bread,
+  the standing ledge.
+- Shell: a narrow street-front shop, often fully open to the pavement
+  [EDITORIAL].
+- The table as set here: a steel or wood standing ledge; the döner in
+  half a loaf or a dürüm wrapped in paper, resting on the ledge; a small
+  plate of pickles and pickled peppers; paper napkins [MEDIUM — catalog].
+- Subregional variants and the national default: Istanbul (tiny
+  standing shops, chicken and meat döner side by side); Erzurum's
+  horizontal cağ kebabı is a different spit (see catalog: Cağ kebabı,
+  do not substitute); Bursa's İskender is a sit-down dish (see catalog).
+  National default: an Istanbul street dönerci at lunchtime.
+- Hallucination traps: the German Döner shop look (big backlit photo
+  menus, salad-bar vitrine of many sauces, the German-Turkish fast-food
+  register in `germany.md`); a Greek gyros stand with pita and tzatziki;
+  an Arab shawarma shop with garlic sauce and Arabic signage; an ayran
+  cup beside the döner (the strongest prior).
+- Never stage: ayran, çay, alcohol; legible menu or shop name; branded
+  coolers; held in a hand.
+- Prompt-ready line: "An Istanbul dönerci at lunchtime: a döner in half a
+  loaf on its paper sharp on a steel standing ledge, behind it the glowing
+  browned meat cone turning before its heating panel, stacked bread and
+  trays of tomato and onion softly blurred."
+- Confidence and sources: MEDIUM; one search ([Ofix — Istanbul's best
+  dönercis](https://www.ofix.com/isdunyasi/istanbulun-en-iyi-5-donercisi-doner-dedektifinin-haritasi/);
+  [Harbi Yiyorum — Istanbul dönercileri](https://harbiyiyorum.com/istanbulun-en-iyi-donercileri/);
+  [İnoksan — döner grills](https://www.inoksanshop.com.tr/en/Doner-Ocaklari),
+  commercial tier) plus the register and catalog.
+
+#### Venue: Kebapçı / ocakbaşı
+- Use for: restaurant, indoor; dinner or weekend lunch for 2 to 3 or a
+  family group; a solo Adana portion at the ocakbaşı counter; the default
+  group restaurant [register above; catalog: Adana kebab, Izgara köfte,
+  Meze].
+- Soft background (the core): the charcoal grill (*ocakbaşı*) as the
+  room's centre: a long trough of glowing coals under a big hood
+  (*davlumbaz*), often in hammered copper, with a marble or granite
+  counter round the grill where guests sit facing the grill master; long
+  flat skewers of minced meat, chicken wings and peppers over the coals,
+  smoke and orange coal glow; a refrigerated display of skewered meats
+  [MEDIUM — copper ocakbaşı manufacturers describe the copper hood,
+  marble or granite counter and centred grill]. The dining room: tables
+  with plain white or coloured cloths, sometimes with a paper cover;
+  walls of stone, brick, wood or plaster with framed photographs; staff in
+  white shirts and dark aprons or vests. Light: the warm orange coal glow
+  and the copper hood catching it; warm pendant or spot lights over
+  tables; evening dark outside. Palette: copper, coal orange, marble
+  white, red pepper and tomato, lavaş beige. Signature shapes: the copper
+  hood, the grill's coal line with skewers, the marble counter edge, stacked
+  lavaş in a basket.
+- Shell: a street-front restaurant, sometimes two floors; tiled or stone
+  floor [EDITORIAL].
+- The table as set here: a white or coloured cloth; lavaş stacked in a
+  basket or under the kebab; plates of sumac onion with parsley, roasted
+  peppers and tomatoes, lemon halves; small meze plates (acılı ezme,
+  haydari, çoban salatası); oval steel or white plates for the kebab
+  [HIGH for the garnish set, register and catalog].
+- Subregional variants and the national default: Adana and Mersin (zone
+  3): a busy, bright kebab hall with an open grill; Gaziantep and Urfa
+  (zone 6): stone interiors, a copper hood, liver and aubergine kebabs on
+  the grill; Istanbul: ocakbaşı counters in Beyoğlu, Kadıköy and Kumkapı
+  neighbourhoods. National default: an Istanbul ocakbaşı with a copper hood
+  and a marble counter.
+- Hallucination traps: the meyhane look (tall narrow glasses, an ice
+  bucket, white cheese and melon on small plates, a meze-crowded table at
+  night: hard rule 2); an Arab grill house; Greek souvlaki; Orientalist
+  lanterns; ayran in copper cups (the real companion, negated).
+- Never stage: rakı, beer, ayran, çay; legible signs; skewers held in a
+  hand; raw meat piles.
+- Prompt-ready line: "A Turkish ocakbaşı in the evening: an Adana kebab on
+  lavaş with sumac onion and grilled peppers sharp on a white cloth,
+  behind it the orange glow of a charcoal grill under a hammered-copper
+  hood, skewers over the coals and a marble counter softly blurred."
+- Confidence and sources: MEDIUM; one search ([Bakır Sarayı — copper
+  ocakbaşı with counter](https://www.bakirsarayi.com/tezgahli-bakir-ocakbasi/);
+  [Mutfak Merkezi — kebab-house copper grill with hood](https://www.mutfakmerkezi.com/urunler/kebapci-tipi-davlumbazli-bakir-ocakbasi-izgarasi-detail),
+  commercial tier) plus the register.
+
+#### Venue: Wedding salon (*düğün salonu*) (other)
+- Use for: other; the salon wedding (evening), also used for sünnet
+  feasts and engagement parties; 1 to small group as a snapshot of 150
+  to 450 (see CELEBRATIONS: Wedding, salon register). The village kazan
+  wedding is the coexisting outdoor register and is covered in that
+  entry.
+- Soft background (the core): a large hall of round tables for 8 to 10
+  under white or coloured cloths, chairs in fitted white or coloured
+  covers with sashes and bows (*sandalye giydirme*), receding in rows;
+  crystal chandeliers and LED-lit false ceilings overhead as clusters of
+  bright bokeh; a raised stage or dance floor (*pist*) at the far end
+  with columns, arches, flower arrangements and moving coloured LED
+  lights; a seated couple's table on the stage far away, out of focus;
+  a musicians' corner with speakers [MEDIUM — Turkish wedding-salon
+  decorators and furniture suppliers on round tables, chair covers,
+  chandeliers, columned stages and LED lighting]. Light: evening; warm
+  chandelier glow plus coloured LED washes (pink, purple, blue) from the
+  stage. Palette: white cloth, gold or silver chair sashes, crystal,
+  stage magenta and blue. Signature shapes: the round tables with
+  covered chairs, the chandeliers, the columned stage and arch, the dance
+  floor's light. People cues: blurred guests in evening wear,
+  headscarves and uncovered hair both natural, dancers' shapes far behind,
+  within the limit; no identifiable children (relevant at sünnet feasts).
+- Shell: a purpose-built hall or a hotel ballroom; polished floor or
+  carpet; no windows or curtained windows [EDITORIAL].
+- The table as set here: a white cloth; for a *yemekli* wedding, a plated
+  starter or ordövr plate and a main at each place; for a *yemeksiz*
+  wedding, a slice of cake, a small plate of snacks and the hero soft
+  drink; a small flower centrepiece, a table number (illegible).
+- Subregional variants and the national default: Istanbul and the west
+  (hotel ballrooms, more plated menus); Central Anatolia and the
+  Southeast (bigger halls, many yemeksiz weddings, more dancing, halay
+  lines blurred far behind) [LOW — not verified]; village weddings move
+  outdoors to long trestles and cauldrons (see CELEBRATIONS). National
+  default: a city wedding salon with round tables, covered chairs and a
+  lit stage.
+- Hallucination traps: Orientalist costume, belly dancers; a Western
+  church wedding; champagne towers and wine glasses on every table; gold
+  being pinned on the couple as the subject; legible banners with names.
+- Never stage: alcohol (some urban weddings serve it), ayran; legible
+  names, banners or table numbers; gold pinning as the subject;
+  identifiable children; a full flag.
+- Prompt-ready line: "A Turkish wedding salon at night: one plated main
+  sharp on a white-clothed round table, behind it rows of round tables
+  with white-covered chairs and gold sashes, crystal chandeliers as bright
+  bokeh and a columned stage glowing pink and blue far behind."
+- Confidence and sources: MEDIUM-LOW; one search, decorator and supplier
+  sources ([Barış Organizasyon — wedding salon decoration](https://barisorganizasyon.com/blogdetay/dugun-salonu-dekorasyonu.html);
+  [Kamış Hasır — wedding salon decoration guide](https://www.kamishasir.com/blog/dugun-salonu-dekorasyon-onerileri),
+  commercial tier) plus CELEBRATIONS.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2458,6 +2801,16 @@ entry]
   basketball viewing. Tea at okey, tavla and the derby is recorded as
   authentic and kept out of frame per hard rule 4.
 
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  (search summaries only, no pages read): salon details beyond the vitrin
+  and tulle curtains (protective table cover, chandelier) are LOW;
+  prevalence of enclosed glass balconies (cam balkon) is LOW-MEDIUM;
+  lokanta wall portraits and framed calligraphy as common fixtures are
+  model knowledge (EDITORIAL never-stage note); ocakbaşı, benmari, döner
+  grill and wedding-salon details rest on equipment-supplier and decorator
+  pages (commercial tier); regional wedding-salon differences LOW. İftar
+  staging was not touched.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: breakfast in scope; the Southeast spinout;
@@ -2527,3 +2880,8 @@ entry]
   neighbourhood café or kahvehane screening staged food-led with tea out
   of frame) and three social game-night entries (family okey at home,
   tavla at a café or garden table, New Year's Eve tombala).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  apartment salon dining table, apartment balcony, esnaf lokantası,
+  dönerci, kebapçı or ocakbaşı, wedding salon. İftar entries left as they
+  are. WebSearch only; no pages read at source.
