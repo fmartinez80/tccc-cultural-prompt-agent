@@ -234,6 +234,359 @@ can (12.2 cm tall, 6.6 cm diameter).
 | **Festival (matsuri) yatai** | Rows of stalls with striped or red-white awnings, paper lanterns (blank), yakisoba on a big griddle, takoyaki pans, kakigōri, candied apples; yukata-clad crowds, evening light. |
 | **Hanami** | Blue plastic tarps under cherry trees, stacked bento boxes, onigiri, dango skewers, pale pink petals falling. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (wave 1, 2026-10-01): the default
+camera is a close-up hero, so each profile leads with what must read in
+the **soft background**. The register table above stays the index. The
+national default zone is **zone 1, Tokyo** (see Default when no zone is
+named). Every Japan hard rule applies: no alcohol (Lemon-Dou included),
+**no izakaya register**, no ohiya water glass, yunomi, teapot or
+mugicha jug beside the hero, chopsticks on a rest and never upright,
+nothing on or beside a butsudan or kamidana, no legible text (noren,
+menu strips, ticket machines, packaging). **Swap from the brief's
+default list**: the home outdoor space (engawa, balcony, garden BBQ) is
+EDITORIAL and not surveyed in this file, so it is replaced by the
+**tatami room (washitsu)**, which the celebrations and game-night
+sections use far more; the ramen counter is added because it is the
+file's second default 1-person venue. Konbini eat-in, family restaurant
+(famiresu) and the okonomiyaki teppan are queued for wave 2.
+
+#### Venue: Tokyo apartment LDK dining table (マンションのダイニング)
+
+- Use for: home indoor; casual lunch (1–3), dinner at home, nabe night,
+  Christmas Eve, child's birthday (no identifiable children), NPB and
+  football watch parties; all party sizes. The zone-1 default (71.6% of
+  Tokyo dwellings are multi-unit; see General environmental norms).
+  [HIGH for the housing basis; EDITORIAL default]
+- Soft background (the core): **back wall** of white or pale-grey vinyl
+  wallpaper (クロス, faint texture), almost bare: a wall clock, a
+  calendar (blur), one small framed print or a children's drawing (no
+  child). **Middle distance**: the **counter-style kitchen** (対面
+  キッチン) behind a waist-high counter with a few objects on it (rice
+  cooker, a dish rack, a small plant), white or wood-grain cabinet
+  doors, a stainless range hood; or, the other way, the living side of
+  the LDK with a low sofa, a low TV board and a flat TV (dark or a soft
+  glow), and a **balcony sliding window** (掃き出し窓) with lace and
+  plain curtains, laundry pole beyond (out of focus). **Light**: a
+  **pendant lamp** over the dining table (warm 2700–3000 K; fabric,
+  paper or simple metal shade) pooling light on the table while the
+  room falls darker; or a round flush **LED ceiling light** (シーリング
+  ライト, cool-white) in more ordinary homes; daylight from the balcony
+  window. **Palette**: white walls, **light oak or walnut-tone
+  flooring** (フローリング), pale wood furniture, white and earth-tone
+  ceramics, small green plants. **Signature shapes**: the counter-kitchen
+  opening with a range hood; the balcony sliding window with two-layer
+  curtains; the pendant lamp; a round flush ceiling light; a low
+  wooden TV board. **Density and wear**: compact, tidy, many small
+  useful objects, 生活感 (lived-in feel) around the kitchen; never
+  showroom-empty, never cluttered. **People**: a blurred figure at the
+  kitchen counter, within the limit. [MEDIUM — LDK layout, pendant over
+  the dining table and wood flooring in Japanese housing and renovation
+  sources (Zero Renovation, sumica, Freedom, RoomClip); counter kitchen,
+  ceiling light and curtains LOW-MEDIUM — general knowledge, consistent
+  with this file's interior markers]
+- Shell: a reinforced-concrete mansion block (or a two-storey apāto),
+  aluminium sash windows, wood-look floor, flat white ceiling about
+  2.4 m; small rooms.
+- The table as set here: a small four-seat wooden table (often 120–135
+  cm), bare wood or with a cloth or place mats; for dinner, the
+  ichijū-sansai layout (rice bowl front-left, soup bowl front-right, main
+  back-right), many small mismatched ceramic dishes, chopsticks on
+  hashioki; a soy-sauce cruet. Wooden chair backs at frame edge. [HIGH
+  for the layout per Dinner at home; table size EDITORIAL]
+- Subregional variants and the national default: **suburbs and regional
+  cities** — detached house: larger LDK, often a tatami corner opening
+  off it; **Kansai** — same, a takoyaki plate in the cupboard; **Hokkaidō**
+  — double-glazed windows, an oil or gas heater, bigger rooms; **Okinawa**
+  — concrete house, louvred windows, bright light. **Gen Z** — a 1K
+  studio with a low table and floor cushion (General environmental
+  norms). Default: the Tokyo LDK above.
+- Hallucination traps: shōji screens, tatami and a kimono in a modern
+  flat; a ryokan or kaiseki interior; neon-cyberpunk views from the
+  window; Mount Fuji through the window; a Chinese lazy Susan; an
+  American open kitchen with a huge island; minimalist showroom emptiness.
+- Never stage: mugicha jug, teapot, yunomi; beer or chūhai cans (same
+  silhouette as the hero); a butsudan; legible calendar, packaging or TV;
+  identifiable children.
+- Prompt-ready line: "A compact Tokyo apartment dining table at dinner
+  under a warm pendant lamp: rice, miso soup and small ceramic dishes,
+  with a softly blurred counter kitchen, white walls, pale wood flooring
+  and a curtained balcony window behind."
+- Confidence and sources: MEDIUM; 1 search (Japanese housing and
+  interior sites) plus General environmental norms.
+
+#### Venue: Tatami room with a low table (和室, 座卓)
+
+- Use for: home indoor; New Year osechi, Obon relatives' gathering,
+  Hinamatsuri and Shichi-Go-San family meals, Koshien and sumo at home,
+  home mahjong; 2 to a small group, the snapshot of a larger family.
+  Common in detached houses (the 52.7% majority nationally) and in
+  grandparents' homes; increasingly rare in new urban flats. [MEDIUM —
+  How large gatherings work here; decline of the washitsu per nippon.com]
+- Soft background (the core): **walls and openings**: **fusuma**
+  sliding doors (plain cream or a muted painted pattern) and **shōji**
+  (white paper in a fine wooden lattice) glowing with daylight; earth-
+  or sand-coloured plaster walls; a **tokonoma** alcove with a hanging
+  scroll (an ink landscape or flower; **never legible calligraphy**) and
+  a vase of seasonal flowers. **Middle distance**: the rest of the
+  **tatami** floor (pale green-gold, aged to straw), **zabuton** cushions
+  around the low table, a second low table pushed against the first for
+  a gathering, a wooden chest or a TV in the corner (Koshien and sumo
+  scenes), an open shōji to the **engawa** and garden in summer with an
+  electric fan and wind chime. **Light**: soft diffuse daylight through
+  shōji is the signature; at night a square or round paper-shaded
+  ceiling lamp or a flush LED light, warm-white; New Year adds a
+  kagami-mochi on a shelf, March the hina doll tiers (soft, at one
+  side). **Palette**: tatami green-gold, pale wood, cream paper, earth
+  plaster, dark lacquer red and black at celebrations. **Signature
+  shapes**: the grid of shōji; tatami edge bindings (dark cloth strips);
+  square zabuton; the tokonoma alcove; the low dark-wood table. **Density
+  and wear**: calm, uncluttered, a little old-fashioned (grandparents'
+  house), well kept. **People**: blurred relatives at the far end of the
+  table, within about 2.5 faces, none sharp. **The butsudan often stands
+  in this room: frame away from it** (hard rule 4). [MEDIUM — tatami,
+  tokonoma with scroll and flowers, shōji, zadaku and zabuton per
+  ja.wikipedia 和室, Daiwa House, wa-nokurashi; lamp types and decor LOW]
+- Shell: a 6- or 8-mat room in a wooden detached house; sliding doors
+  on two or more sides; wooden ceiling boards; engawa beyond the shōji.
+- The table as set here: a rectangular low table (座卓, ~60×90 cm to
+  ~90×150 cm) in dark wood or lacquer finish, sometimes with a cloth;
+  celebration tables add lacquer jūbako, a sushi-oke, small plates
+  (torizara), iwai-bashi in paper sleeves (blur); everyday chabudai
+  meals use the ichijū-sansai bowls. Zabuton edges at the frame bottom.
+  [MEDIUM]
+- Subregional variants and the national default: **Kyoto** — machiya
+  rooms, darker wood, a small courtyard garden through the opening;
+  **Tōhoku/Hokuriku farmhouses** — large rooms joined into one by
+  removing fusuma; **winter everywhere** — a **kotatsu** (low table with
+  a quilt) replaces the zadaku; **Okinawa** — tatami rooms open to a
+  veranda, red-tile roofs outside. Default: a suburban or regional
+  detached house's 6- or 8-mat washitsu.
+- Hallucination traps: a ryokan suite or tea-ceremony room; kimono on
+  everyone; geisha; cherry blossoms outside out of season; a samurai
+  armour or katana display; legible calligraphy scroll; a Korean ondol
+  room with metal chopsticks; Chinese red-lacquer decor.
+- Never stage: the butsudan, Obon offerings or kamidana near the hero;
+  sake, beer or toasts; legible scrolls or cards; identifiable children
+  (Shichi-Go-San and Hinamatsuri honorees never shown).
+- Prompt-ready line: "A family tatami room in soft daylight: a dark
+  low table with lacquer boxes and small plates, square cushions on the
+  tatami, and glowing shōji screens and a tokonoma alcove with a
+  flower vase softly blurred behind."
+- Confidence and sources: MEDIUM; 1 search (ja.wikipedia, nippon.com,
+  Daiwa House, wa-nokurashi) plus the celebrations section.
+
+#### Venue: Neighbourhood teishoku shop (定食屋, 食堂)
+
+- Use for: restaurant indoor; 1 person at a restaurant (the default
+  weekday lunch), 2–3 colleagues; 1 to a small group. National
+  default for a quick sit-down meal. [EDITORIAL; register row
+  "Teishoku shop"]
+- Soft background (the core): **back wall** of cream plaster or wood
+  panelling with **menu strips** (短冊, rows of vertical paper or wood
+  tags) and taped-up handwritten specials: always illegible, render as
+  rhythmic pale vertical bars; a wall-mounted TV high in a corner (soft
+  glow); a calendar; a **noren** half-curtain over the kitchen doorway
+  (plain indigo or white; no characters). **Middle distance**: the
+  **kitchen counter** with a pass and a cook in white, steam from a rice
+  pot and miso pot, a stack of trays; a few **small four-seat tables**
+  with laminate or wood tops; red or green vinyl-padded chairs or
+  stools; in older shops a raised **zashiki** tatami section. **Light**:
+  bright and even: fluorescent or LED panels (neutral-white), daylight
+  from a sliding glass front door; Shōwa-retro shops have warm lantern-
+  style pendants. **Palette**: wood browns, cream walls, red or green
+  vinyl, white trays and ceramics, indigo noren. **Signature shapes**:
+  vertical menu strips; the noren over the kitchen door; the pass with
+  stacked trays; small square tables in rows; a wall TV in the corner.
+  **Density and wear**: plain, used for decades, very clean; a solo
+  diner is normal. **People**: a blurred salaryman or worker at another
+  table, within the limit. [MEDIUM — worn tables and chairs, menus on
+  the walls, counter plus tables plus zashiki, lantern lights in Shōwa-
+  retro shops per Kyoto Side, Kinarino, store-design sources; TV and
+  noren LOW-MEDIUM — general knowledge]
+- Shell: a ground-floor unit with a sliding glass door, sometimes a
+  shopping-street (shōtengai) front; tiled or vinyl floor; low ceiling.
+- The table as set here: a rectangular **tray** per diner with rice,
+  miso soup, the main with shredded cabbage, a small side, pickles;
+  chopsticks on the tray front; a table caddy of soy sauce, shichimi and
+  toothpicks (no readable labels); a self-serve water jug or a glass
+  of ohiya (exclude). [HIGH for the tray per Teishoku catalog entry;
+  caddy MEDIUM]
+- Subregional variants and the national default: **Osaka** — 大衆食堂
+  with display cases of small plates to pick up; **university and office
+  canteens** — bigger, brighter, plastic trays; **Kagawa** — the
+  self-service udon shop replaces the teishoku shop for lunch;
+  **chain gyūdon and teishoku shops** — never reproduce a chain's look
+  (orange signage, branded counters). Default: the Tokyo neighbourhood
+  teishoku shop above.
+- Hallucination traps: an izakaya (red lanterns, beer mugs, sake bottles
+  on shelves); a sushi counter; a fine-dining kaiseki room; legible
+  Japanese menu strips; neon; plastic food samples in sharp focus with
+  readable price tags.
+- Never stage: water glass, jug or tea; beer; legible menu strips,
+  calendars, TV or ticket machine; chain branding.
+- Prompt-ready line: "A neighbourhood Japanese teishoku shop at
+  lunchtime: a tray set of rice, miso soup and ginger pork on a worn
+  wooden table, with softly blurred rows of pale vertical menu strips,
+  an indigo noren over the kitchen door and a cook at the steamy pass
+  behind."
+- Confidence and sources: MEDIUM; 1 search (Kyoto Side, Kinarino,
+  Tabelog lists, store-design guide) plus the register.
+
+#### Venue: Ramen shop counter (ラーメン屋)
+
+- Use for: restaurant indoor; 1 person at a restaurant, 2 friends; 1–2.
+  National, with regional styles; Tokyo shōyu is the default. [EDITORIAL;
+  register row "Ramen shop"]
+- Soft background (the core): **back plane** is the **open kitchen**
+  across the counter: tall stainless **stockpots** (寸胴) steaming, a
+  **noodle boiler** with mesh baskets, a cook in a black or white T-shirt
+  and headband or cap working behind the raised counter ledge, ladles,
+  stacked bowls. **Back wall** of the kitchen in stainless steel or
+  white tile; the dining side in **dark wood or black** finishes or
+  plain **white wood** (natural style). **Middle distance**: the row of
+  **counter stools**, the next diner's bowl on the ledge (blurred), a
+  self-serve water dispenser (exclude), the **ticket machine** by the
+  door as a pale box with rows of buttons (blurred, no text). **Light**:
+  warm downlights over the counter catching the steam; the kitchen
+  brighter and cooler; dim, steamy, close. **Palette**: dark wood or
+  black, stainless steel, white steam, rich broth browns, the red or
+  black of a bowl rim. **Signature shapes**: steaming stockpots; the
+  raised counter ledge; the row of stools; mesh noodle baskets; a
+  ticket-machine box near the door. **Density and wear**: small (often
+  8–15 seats), busy at lunch, worn wood. **People**: one blurred cook,
+  one blurred diner at the counter. [MEDIUM — wood-grain counter,
+  stockpots with taps, noodle boilers, ticket machine near the entrance,
+  black or white-wood palettes per Japanese shop-design sources (Ideal
+  Shop, Tenpo Naisoh, ak-co); seat count and staff dress LOW]
+- Shell: a narrow street-front unit, sliding door, noren (blank) at the
+  entrance; tiled floor; low ceiling with an extractor hood.
+- The table as set here: the bowl sits on the **raised counter ledge**
+  or the counter in front of the diner; a condiment caddy (pepper,
+  garlic, chilli oil; blurred labels); a canister of disposable
+  chopsticks or reusable ones; a renge spoon in the bowl; a box of
+  tissues. [MEDIUM]
+- Subregional variants and the national default: **Fukuoka (zone 5)** —
+  tonkotsu shops, louder, white milky broth, single-booth counters in
+  some; the riverside **yatai** at early evening for ramen only (see
+  the Street food register); **Sapporo** — miso ramen, bigger rooms,
+  winter steam; **Kyoto/Osaka** — similar counters. Default: the Tokyo
+  shōyu counter above.
+- Hallucination traps: a Chinese noodle shop (zone-7 noodle pulling,
+  chilli-oil jars); an izakaya with lanterns and beer; neon-cyberpunk
+  alleys outside; anime posters; a ramen bowl with a whole soft egg
+  floating in a Western "ramen bar".
+- Never stage: beer, water glass or dispenser, tea; legible ticket
+  machine, menu or noren characters; chain branding.
+- Prompt-ready line: "A small Tokyo ramen counter: a steaming bowl of
+  shōyu ramen on a dark wooden ledge, and beyond it a softly blurred open
+  kitchen of tall stainless stockpots, rising steam and a cook in a
+  headband under warm downlights."
+- Confidence and sources: MEDIUM; 1 search (shop-design sources) plus
+  the register and the Ramen catalog entry.
+
+#### Venue: Summer festival stalls (夏祭りの屋台)
+
+- Use for: street / on the go; matsuri evenings, summer outings; 1 to
+  a small group; also the hanami variant in spring. The street-food
+  venue Japan actually stages (everyday street eating is not the norm;
+  see Meal on the go). [MEDIUM — Festival yatai register; FESTIVALS]
+- Soft background (the core): **rows of stalls** under **tents with
+  red-and-white or striped awnings** and **red-and-white curtains**
+  (紅白幕), each with a big **iron griddle** of yakisoba or a takoyaki
+  pan, steam and smoke rising; **chōchin paper lanterns** strung
+  overhead in lines (blank, no characters), glowing warm orange-white.
+  **Middle distance**: a slow crowd in **yukata** (indigo, white, floral
+  prints) as blurred colour, shrine trees or a street of shops beyond
+  (no torii framed as backdrop), a kakigōri stall's colourful syrup
+  bottles as small blurred jewels. **Light**: dusk into night: deep
+  blue sky, the warm lantern line, bare bulbs and LED tubes in stalls,
+  griddle glow; strong warm bokeh. **Palette**: red and white,
+  lantern orange, indigo yukata, night blue, steam white. **Signature
+  shapes**: the lantern line; striped awnings; a griddle's dark flat
+  rectangle with steam; yukata silhouettes; plastic tray packs on a
+  ledge. **Density and wear**: festive, crowded but orderly. **People**:
+  blurred yukata figures, within about 2.5 faces, none sharp; no
+  identifiable children. [MEDIUM — lanterns at night, red-white
+  curtains, linked tents, yakisoba on a griddle per Japanese event and
+  festival-food sources (enjoytokyo, event-tent suppliers, gyojisyoku-
+  hyakka); yukata crowd per the register]
+- Shell: a shrine approach or a closed street; tents on poles; asphalt
+  or gravel underfoot.
+- The table as set here: no table: food on its **clear plastic tray**
+  (yakisoba, takoyaki with a toothpick) on a stall's **standing ledge**,
+  a folding table in a rest area, or a bench; disposable chopsticks;
+  paper napkin. Never in hand. [MEDIUM]
+- Subregional variants and the national default: **Fukuoka** — permanent
+  riverside yatai (ramen only, early evening; see register); **hanami**
+  — daytime, blue tarps under cherry trees, stacked bento (register row
+  "Hanami"); **Osaka** — takoyaki stands in shōtengai arcades year-round;
+  **Aomori Nebuta / Tokushima Awa Odori** — festival floats far behind
+  (blurred). Default: a summer shrine matsuri evening.
+- Hallucination traps: Chinese New Year red lanterns with gold
+  characters; Taiwanese or Thai night markets; neon-cyberpunk streets;
+  a torii or pagoda framed behind the hero; fireworks in every frame;
+  geisha.
+- Never stage: beer stalls and cups (very common); legible stall banners,
+  noren or lanterns with characters; prices; food held in a hand;
+  identifiable children; shrine ritual or mikoshi as the subject.
+- Prompt-ready line: "A Japanese summer festival at dusk: a clear tray
+  of yakisoba on a stall ledge, and behind it a softly blurred line of
+  glowing paper lanterns, red-and-white striped awnings, griddle steam
+  and passing figures in indigo yukata."
+- Confidence and sources: MEDIUM; 1 search (Japanese festival and event
+  sources) plus the Festival yatai register.
+
+#### Venue: Karaoke box room (カラオケボックス)
+
+- Use for: other; game night with friends (food-led, alcohol-free only),
+  student afternoons, office groups; 1 to a small group (3–8 in the
+  room). The file's signature social-game venue. [MEDIUM — Game night:
+  Karaoke box with friends]
+- Soft background (the core): **back wall** of patterned wallpaper or
+  dark panelling with the **large screen** (soft field of colour; lyrics
+  unreadable) and speakers; **middle distance**: the **vinyl or fabric
+  sofa bench** running along the walls (often red, black, or brown),
+  a jacket over the arm, the song-picker tablet face-down, microphones
+  resting on the table; in themed rooms a **mirror ball** or LED strips.
+  **Light**: dim, adjustable room light (dimmer switch) plus the
+  screen's shifting glow and coloured LED wash (magenta, blue); small
+  bright points from the tablet and mic stand. **Palette**: dark walls,
+  saturated screen colours, red or black vinyl, glossy table top.
+  **Signature shapes**: the sofa bench wrapping round a low table; the
+  big glowing screen; microphones in a tray; a mirror ball dot pattern
+  on the walls (themed rooms only). **Density and wear**: small, enclosed,
+  slightly worn chain-room finish. **People**: a blurred standing figure
+  by the screen with no face, within the limit. [MEDIUM — sofas along
+  the walls facing a table, dimmable lighting, red carpets in luxury
+  rooms, mirror balls in some rooms per ja.wikipedia カラオケボックス and
+  shop-design sources; colour wash LOW]
+- Shell: a windowless small room in a multi-floor karaoke building;
+  carpet or vinyl floor; low ceiling; a glass panel in the door.
+- The table as set here: a **low glass-top or laminate table**;
+  room-service plates (karaage, fries, edamame, pizza, takoyaki, honey
+  toast); small plates; two microphones; a menu folder face-down
+  (blurred). [LOW — Game night entry; food not verified]
+- Subregional variants and the national default: the same nationally;
+  **party rooms** for larger groups with a small stage; **solo karaoke
+  (hitokara)** booths for one. Default: a standard 4–6-person room.
+- Hallucination traps: a Western karaoke bar stage; a nightclub; a
+  Korean noraebang with soju; neon-cyberpunk décor; legible lyrics.
+- Never stage: beer mugs, chūhai, Lemon-Dou, highball glasses, the
+  nomihoudai drinks bar; legible lyrics, song titles, chain or machine
+  brand; a microphone held toward camera; water or tea glasses.
+- Prompt-ready line: "A Japanese karaoke room with friends: small plates
+  of karaage and fries on a glossy low table beside two resting
+  microphones, a red vinyl sofa bench and a big softly glowing screen
+  washing the dim room in magenta and blue behind."
+- Confidence and sources: MEDIUM; 1 search (ja.wikipedia, karaoke shop-
+  design sources) plus the Game night entry.
+
 ---
 
 ## TRUSTED CONTENT
@@ -3070,6 +3423,16 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
   board-game market figure is from a market-research seller (IMARC).
   WBC 2026 ratings were not found. No WebSearch was run in this pass.
 
+- **Venue-profile pass (2026-10-01, wave 1) open items**: unverified
+  background details: the apartment's counter kitchen, flush ceiling
+  light and two-layer curtains; tatami-room lamp types, seasonal decor
+  placement and how often the butsudan shares the room; the teishoku
+  shop's wall TV and noren; ramen-shop seat counts and staff dress;
+  karaoke-room colour wash and room-service food; all subregional
+  variants. Home outdoor (engawa, balcony, garden BBQ) was not profiled
+  (EDITORIAL in this file, not surveyed); konbini eat-in, famiresu and
+  the okonomiyaki teppan are queued for wave 2.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: Okinawa spinout; izakaya exclusion; Lemon-Dou
@@ -3141,3 +3504,4 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
 - **No subagents were used.**
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries, all Japanese-language (Zexy 2024 wedding guest count; Obon relatives' food; Shichi-Go-San meal and venue; Hinamatsuri dishes; children's birthday menus; New Year osechi family and purchase surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year, Obon, Hinamatsuri, hanami, Shichi-Go-San, child's birthday, wedding reception) plus a Christmas Eve pointer to its catalog entry. Sources: Zexy/Recruit, Benesse, Kyoto Culinary Art College, MATCHA, HANKYU FOOD, HugKum, food-media and consumer-survey releases (commercial, flagged).
 - **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 4 watch-party entries (Koshien at home, NPB night game at home, national-team football at home, sumo afternoon) and 3 social game-night entries (karaoke box staged food-led and alcohol-free, board-game café, home no-stakes mahjong); watch parties rated medium, social game nights medium-high.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches (all Japanese-language: mansion LDK, washitsu and zabuton, Shōwa teishoku shop, ramen-shop interior, summer-festival yatai, karaoke-box room). Sources were ja.wikipedia, nippon.com, Daiwa House, housing/renovation and shop-design sites, festival and event pages (tier 1–4); home outdoor swapped for the tatami room.
