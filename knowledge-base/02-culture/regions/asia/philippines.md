@@ -76,7 +76,7 @@ the others are documented in ICONIC BEVERAGES.
    **ready-to-drink "Jack Daniel's & Coca-Cola" and "Absolut & Sprite"
    cans have been sold in the Philippines** (2023 and 2024 launches)
    [MEDIUM — Manila Millennial, Inquirer, Ilonggo Tech Blog via search
-   titles]. **Never stage a TCCC product as a mixer, never beside a beer
+   titles]. **Never stage a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5), never beside a beer
    bottle or a gin bottle, never at an inuman, and never stage a
    pulutan spread (sisig, chicharon, kropek on a sizzling plate at
    night) in a way that reads as a drinking session.**
@@ -206,7 +206,7 @@ size.
 2. **The hero product is a TCCC beverage named by the brief** (HERO
    PRODUCT SLOT). Branding is composited in post
    (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, never a TCCC product as a mixer.
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely
    intruders in the negative: water pitchers and glasses, sago't

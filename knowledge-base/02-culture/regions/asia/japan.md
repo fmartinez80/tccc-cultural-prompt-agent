@@ -70,7 +70,7 @@ morning-only. The only beverage staged is the hero TCCC product.
 5. **General project rules**: no legible text anywhere (Japanese scenes
    are dense with signage, noren curtains with characters, menu strips on
    walls, and packaging, so expect to fight this); nothing held in a
-   hand; no drink other than the hero; never a TCCC product as a mixer.
+   hand; no drink other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 6. **No dietary hard rule of the halal or beef-avoidance kind applies.**
    Pork, beef, chicken and seafood are all everyday. Pork is the default
    curry meat in the east, and katsu and ramen chāshū are pork. Two
@@ -206,7 +206,7 @@ can (12.2 cm tall, 6.6 cm diameter).
    kanji. Ask for "plain unmarked fabric" and "blank paper strips".
 2. **The hero product is a TCCC beverage chosen per brief** (HERO PRODUCT
    SLOT). Branding is composited in post (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, and never a TCCC product as a mixer.
+3. **No alcohol in any scene**, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
    No izakaya drinking cues (hard rule 2). No Lemon-Dou.
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely

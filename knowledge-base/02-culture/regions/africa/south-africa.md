@@ -153,7 +153,7 @@ only where they prevent a visual error.
    done 2026-09-27 on the user's direction — see `DECISIONS.md`.)
 3. **No alcohol in any scene, ever.** Alcohol pairings are documented in
    ICONIC BEVERAGES as cultural context; they are never staged. Never show
-   a TCCC product as a mixer, beside a spirits bottle, or in cocktail
+   a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5), beside a spirits bottle, or in cocktail
    glassware. **This is the user's own explicit, deliberate "document
    everything, stage only what's safe" design, preserved exactly** — see
    ICONIC BEVERAGES for the full rule set and its grounding in TCCC's own
@@ -334,7 +334,7 @@ market's specific mixer-leak risk (brandy-and-Coke), not an invented,
 market-specific restriction:
 1. **No alcohol in any scene.** No bottles, glasses, cans, pots, crates,
    bar taps or labels.
-2. **Never stage a TCCC product as a mixer** — no spirits bottle nearby, no
+2. **Never stage a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5)** — no spirits bottle nearby, no
    highball of dark liquid with ice unless the brief confirms it is the
    pure hero product poured, and then name it as such.
 3. **Venues whose default is alcohol** (taverns/shebeens, many shisa nyama

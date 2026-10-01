@@ -3217,3 +3217,23 @@ Bangladesh 250 mL; Nigeria and China sell sleek 330 mL cans alongside or
 instead of the standard shape. Recommended: replace the single default with a
 per-market can table in `coca-cola-guidelines.md` (not edited; awaiting the
 TCCC spec drop and Fernando's OK).
+
+## Fernando's rulings on open KB questions, 2026-10-01
+
+1. **Can sizes**: market-specific can information is coming from TCCC; no
+   edit to `coca-cola-guidelines.md` §4.3 until it arrives. The per-market
+   findings stay logged in each file's gap log.
+2. **TCCC-brand mixes**: "Include as Fanta is part of Coca-Cola portfolio.
+   Other TCCC brands are acceptable." New schema §5.5: non-alcoholic drinks
+   mixed from a TCCC brand (Indonesia's soda gembira, Fanta buka-puasa
+   mixes) and other TCCC brands named by the brief may be staged. Still
+   never: alcohol, a TCCC product mixed with alcohol, or a non-TCCC drink
+   beside the hero. The "never a TCCC product as a mixer" line in every
+   region file now reads "as a mixer with alcohol" with a §5.5 pointer;
+   Germany's rule 4 and Nigeria's Chapman note reworded to match (Chapman
+   stays unstaged because Angostura contains alcohol).
+3. **Mate**: "not a dish but a shared beverage/ritual." New schema §5.6.
+   `uruguay.md`'s entry retitled "Beverage ritual: Mate (not a dish)" (kept
+   in place so cross-references resolve) and its two scenario lines no
+   longer put mate in the default frame; `argentina.md`'s gap-log item
+   marked resolved.

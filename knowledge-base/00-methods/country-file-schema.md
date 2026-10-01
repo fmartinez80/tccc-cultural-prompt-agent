@@ -436,6 +436,24 @@ which fit a given setting, as reference for whoever writes the brief, but
 never as a default. If a brief names no product, ask for one rather than
 inferring it.
 
+### 5.5 TCCC-brand mixes and other TCCC brands
+
+Standing rule, set by the reviewer 2026-10-01: Fanta and the rest of the
+TCCC portfolio are in scope. **Non-alcoholic drinks mixed from a TCCC
+brand** (e.g. Indonesia's soda gembira, Fanta Ramadan mix recipes) may be
+staged when the brief calls for them, and **other TCCC brands** may appear
+when the brief names them. Still never: alcohol in any scene, a TCCC
+product mixed with alcohol (cola-and-spirit, Fernet con Coca, alcoholic
+Chapman, TCCC's own alcoholic RTDs), or a non-TCCC drink beside the hero.
+
+### 5.6 Shared beverage rituals are not dishes
+
+Standing rule, set by the reviewer 2026-10-01: a shared drink ritual such
+as **mate** is documented as a beverage/ritual (ICONIC BEVERAGES or an
+equivalent section), not as a dish entry. It is not part of the default
+frame beside the hero (it is another drink); stage it only when a brief
+asks for the ritual.
+
 ---
 
 ## 6. Sourcing and confidence discipline

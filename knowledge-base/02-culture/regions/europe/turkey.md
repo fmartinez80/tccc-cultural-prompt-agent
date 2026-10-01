@@ -59,7 +59,7 @@ staged; the others are documented in ICONIC BEVERAGES.
    glass to every breakfast and a copper cup of ayran to every kebab
    unless told not to. Exclude them by name.
 5. **General project rules**: no legible text anywhere; nothing held in a
-   hand; no drinks other than the hero; never a TCCC product as a mixer.
+   hand; no drinks other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### Structural decision: one file, seven zones (recommendation — reviewer has final say)
 
@@ -163,7 +163,7 @@ char, crust, crumb, how butter or yoghurt sits, and real-world size.
    prior toward shop signage — expect to fight it.
 2. **The hero product is a TCCC beverage chosen per brief** (HERO PRODUCT
    SLOT). Branding is composited in post (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, never a TCCC product as a mixer, and no
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5), and no
    meyhane setting (see hard rule 2).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely

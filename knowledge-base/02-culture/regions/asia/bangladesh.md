@@ -57,7 +57,7 @@ underlying claims are tagged in their entries]
    clubs [HIGH — The Daily Star, Dhaka Tribune, New Age, Movendi]. Alcohol
    is socially invisible at an ordinary Bangladeshi table. No beer, wine,
    spirits, bar counters, hotel-bar settings, or toddy/tari (palm wine)
-   pots in any scene; never a TCCC product as a mixer.
+   pots in any scene; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 3. **Hindu households (~8%) avoid beef.** A brief that names a Hindu
    family, a Durga Puja or Pohela Boishakh-at-a-Hindu-home scene, or a
    Hindu sweet shop must carry **no beef** (fish, mutton/goat, chicken
@@ -81,7 +81,7 @@ underlying claims are tagged in their entries]
 6. **General project rules**: no legible text anywhere (Bangla script
    shop signs, rickshaw art lettering, newspaper wrapping, cinema
    posters — all blurred to colour); nothing held in a hand; no drinks
-   other than the hero; never a TCCC product as a mixer.
+   other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### Structural decision: one file, six zones (recommendation — reviewer has final say)
 
@@ -180,7 +180,7 @@ fried piyaju, the matte crumble of a bhorta, and real-world size.
 2. **The hero product is a TCCC beverage named by the brief** (HERO
    PRODUCT SLOT). Branding is composited in post
    (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, never a TCCC product as a mixer (hard
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5) (hard
    rule 2).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely

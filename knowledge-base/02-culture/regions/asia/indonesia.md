@@ -98,7 +98,7 @@ product is staged; the others are documented in ICONIC BEVERAGES.
    and rice) sit on Balinese pavements, shop steps and dashboards — **never
    step the product onto, beside or behind one**; keep them out of frame.
    [EDITORIAL; canang ubiquity MEDIUM — not independently re-checked]
-8. **No alcohol staged, and never a TCCC product as a mixer.** Bintang
+8. **No alcohol staged, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).** Bintang
    beer, arak Bali, tuak (palm wine) and Manado **cap tikus** exist (see
    ICONIC BEVERAGES). **Also never as a non-alcoholic mixer**: **soda
    gembira** (Fanta poured over sweetened condensed milk) is a beloved
@@ -113,7 +113,7 @@ product is staged; the others are documented in ICONIC BEVERAGES.
 10. **General project rules**: no legible text anywhere (Latin-script
     Bahasa signs and banners, Arabic script, Javanese/Balinese script,
     Chinese characters included); nothing held in a hand; no drinks other
-    than the hero; never a TCCC product as a mixer.
+    than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### Structural decision: one file, six zones (recommendation — reviewer has final say)
 
@@ -226,8 +226,9 @@ and real-world size.
 2. **The hero product is a TCCC beverage named by the brief** (HERO
    PRODUCT SLOT). Branding is composited in post
    (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, never a TCCC product as a mixer (including
-   soda gembira).
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
+   Soda gembira and TCCC Indonesia's Fanta buka-puasa mixes may be staged
+   when the brief calls for them (Fernando, 2026-10-01).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely
    intruders in the negative: a tall glass of es teh manis with ice, a
@@ -409,9 +410,8 @@ allows a named companion):**
   drink, jelly and basil seeds; 300 mothers at a "Mix-Master" event;
   3,250 mixed servings at mosques and markets in Bekasi, Surabaya,
   Banjarmasin) [HIGH — coca-cola.com/id media centre, Suara Merdeka,
-  infobrand, ladiestory]. **This conflicts with the project rule "never a
-  TCCC product as a mixer"** (written with alcohol in mind) — **not
-  staged by this file; logged for Fernando** (GAP LOG).
+  infobrand, ladiestory]. **Stageable** (Fernando, 2026-10-01: Fanta is part of the TCCC portfolio; non-alcoholic
+  TCCC-brand mixes are allowed, schema §5.5) when the brief names it.
 
 **Alcohol context (never staged):**
 
@@ -2583,13 +2583,11 @@ conversation, not an approved scene.*
   not found.** Not edited in the guidelines.
 - **Blocked source**: cocacolaep.com/en-id (egress proxy). Variant and
   pack claims from it are "(via search)" and should be re-read directly.
-- **Contradiction with the project rule "never a TCCC product as a
-  mixer"**: TCCC Indonesia's own Ramadan marketing (Fanta Fruit Punch
-  "Mix-Perience", 300-mother "Mix-Master" event, mixed servings at
-  mosques and markets) and the national drink **soda gembira** present
-  Fanta as a non-alcoholic mixer. The project rule appears written for
-  alcohol; **Fernando should decide whether non-alcoholic mixes are
-  allowed in Indonesia**. This file stages none.
+- **Resolved 2026-10-01 — non-alcoholic mixes**: TCCC Indonesia's own
+  Ramadan marketing (Fanta Fruit Punch "Mix-Perience") and the national
+  drink **soda gembira** present Fanta as a non-alcoholic mixer. Fernando
+  ruled these in scope: Fanta is part of the TCCC portfolio and other TCCC
+  brands are acceptable (schema §5.5). Still never mixed with alcohol.
 - **Buka puasa staging rules are editorial**, not sourced from any TCCC
   Indonesia guidance or Islamic authority. The "never the first item
   breaking the fast" principle is from the brief and general practice
@@ -2637,8 +2635,8 @@ conversation, not an approved scene.*
 
 1. **Fernando decisions**: (a) one file with six zones (recommended) vs.
    spinning out **Bali** and/or **West Sumatra (Padang)**; (b) breakfast
-   in the off-by-default morning module; (c) the **non-alcoholic mixer
-   question** (soda gembira, Fanta Mix-Perience); (d) the **buka puasa
+   in the off-by-default morning module; (c) ~~the non-alcoholic mixer
+   question~~ resolved 2026-10-01: allowed (schema §5.5); (d) the **buka puasa
    staging rules** — approve, change, or gate behind TCCC Indonesia; (e)
    the halal-default / briefed-only-pork stance for Bali and the
    Christian east.

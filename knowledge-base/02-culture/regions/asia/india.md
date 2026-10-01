@@ -81,7 +81,7 @@ ICONIC BEVERAGES.
    in shot. Never show a left hand near the food. [EDITORIAL]
 5. **No alcohol staged, and states with prohibition exist.** Gujarat,
    Bihar and Nagaland prohibit alcohol [MEDIUM — not independently
-   re-checked this pass]. **Never stage a TCCC product as a mixer**
+   re-checked this pass]. **Never stage a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5)**
    (whisky-cola and rum-cola are real Indian drinks — see ICONIC
    BEVERAGES) and never in a bar or "permit room" setting.
 6. **Chai, lassi, chaas, filter coffee and the steel water tumbler are
@@ -96,7 +96,7 @@ ICONIC BEVERAGES.
    Semana Santa and `turkey.md`'s mosques]
 8. **General project rules**: no legible text anywhere (Devanagari,
    Tamil, Bengali and other scripts included); nothing held in a hand; no
-   drinks other than the hero; never a TCCC product as a mixer.
+   drinks other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### Structural decision: one file, nine zones — with a split recommended for review
 
@@ -197,7 +197,7 @@ pools in a katori, and real-world size.
 2. **The hero product is a TCCC beverage named by the brief** (HERO
    PRODUCT SLOT). Branding is composited in post
    (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, never a TCCC product as a mixer.
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely
    intruders in the negative: steel water tumblers, chai glasses, clay

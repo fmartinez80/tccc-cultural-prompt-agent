@@ -153,7 +153,7 @@ culturally specific term is not guaranteed to render (§7.5).
 2. **The hero product is the TCCC beverage the brief names** — never a
    regional default. Branding is composited in post, never trusted from
    the generation (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene, ever, and never a TCCC product as a mixer.**
+3. **No alcohol in any scene, ever, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).**
    Brazil has a named cachaça-and-Coca-Cola drink (the Samba em Berlim)
    and beer is the strongest prior for a churrasco, boteco or beach scene
    — see ICONIC BEVERAGES; exclude explicitly.

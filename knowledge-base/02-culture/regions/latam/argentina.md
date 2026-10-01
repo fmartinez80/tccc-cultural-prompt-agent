@@ -143,7 +143,7 @@ Background notes only where they prevent a visual error.
    HERO PRODUCT SLOT with the exact product, variant and format. Branding
    is composited in post, never trusted from the generation
    (`coca-cola-guidelines.md` §1–2). If the brief names no product, ask.
-3. **No alcohol in any scene, ever, and never a TCCC product as a mixer.**
+3. **No alcohol in any scene, ever, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).**
    Argentina has the single most famous Coca-Cola mixed drink in Latin
    America — **fernet con Coca** — documented in ICONIC BEVERAGES as
    context, **never staged, never implied** (no tall glass of dark cola
@@ -153,9 +153,8 @@ Background notes only where they prevent a visual error.
    explicitly allows a named non-alcoholic companion. **This includes
    mate** (gourd, bombilla, thermos) and the glass **soda siphon** on a
    bodegón table — both are strong priors for "Argentina" and both must
-   be negated explicitly. (Contrast: `uruguay.md` catalogues mate as a
-   dish entry; this file keeps it in ICONIC BEVERAGES under rule 4 — see
-   GAP LOG.)
+   be negated explicitly. (Mate is a shared beverage/ritual, not a dish —
+   Fernando, 2026-10-01, schema §5.6; `uruguay.md` now matches.)
 5. **Nothing held in a hand.** Stage food and product resting on a
    surface, even for hand-eaten choripán, empanadas and sandwiches
    (`country-file-schema.md` §7.5).
@@ -2150,11 +2149,10 @@ brief names the SKU):**
   the 350 cc returnable glass bottle, 1 L/1.25 L returnable glass, and
   PET formats have no heights. The reported discontinuation of the 2 L
   returnable in Arca's northern territory is unconfirmed.
-- **Mate staging inconsistency with `uruguay.md`.** Uruguay catalogues
-  mate as a dish entry with visual guidance; this file (and the standing
-  "no other drinks in frame" rule) keeps it in ICONIC BEVERAGES only.
-  Reviewer should decide whether mate is ever stageable as a named
-  non-alcoholic companion, and align both files.
+- **Resolved 2026-10-01 — mate**: Fernando ruled mate a shared
+  beverage/ritual, not a dish (schema §5.6). Both this file and
+  `uruguay.md` now keep it out of the default frame; stage the ritual only
+  when a brief asks for it.
 - **Merienda scope** (treated here as an in-scope snack occasion) is a
   judgment call the reviewer should confirm.
 - **TCCC's own public link to fernet con Coca** (a co-branded
@@ -2173,7 +2171,7 @@ brief names the SKU):**
 ## CANDIDATE QUEUE
 
 1. Reviewer decisions: NOA spinout (not triggered), merienda scope, the
-   mate-staging alignment with `uruguay.md`, the fernet/RTD policy check.
+   the fernet/RTD policy check.
 2. Once the TCCC spec drop lands: Argentine 354 mL can, 350 cc glass,
    1.25 L returnable glass and PET dimensions into
    `coca-cola-guidelines.md` §4.3, and the §4.3 330 mL rule reworded.

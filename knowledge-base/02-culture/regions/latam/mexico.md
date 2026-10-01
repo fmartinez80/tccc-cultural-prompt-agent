@@ -133,7 +133,7 @@ notes only where they prevent a visual error.
    is composited in post, never trusted from the generation
    (`coca-cola-guidelines.md` §1–2).
 3. **No alcohol in any scene, ever**, and never show a TCCC product as a
-   mixer. Mexico has specific, well-known Coca-Cola cocktails (the
+   mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5). Mexico has specific, well-known Coca-Cola cocktails (the
    batanga and charro negro, tequila with Coca-Cola) — documented in
    ICONIC BEVERAGES as context, never staged. This follows the same rule
    `germany.md` and `south-africa.md` ground in TCCC's public Responsible

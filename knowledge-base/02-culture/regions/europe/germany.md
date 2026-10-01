@@ -2809,8 +2809,9 @@ documented throughout this file are accurate context only. In every image:
    mulled-wine mugs, shot glasses.
 3. **No alcohol branding or infrastructure**: brewery signage, beer
    umbrellas, tap handles, bar backs, tent interiors.
-4. **Coca-Cola must never appear as a mixer.** Germany has real cola-beer
-   and cola-spirit mixed-drink traditions; never imply them.
+4. **Coca-Cola must never appear mixed with alcohol.** Germany has real
+   cola-beer and cola-spirit mixed-drink traditions; never imply them.
+   (Non-alcoholic TCCC-brand mixes are allowed, schema §5.5.)
 5. **Scene compensation**: in beer gardens, inns, folk festivals, wine
    festivals, and Christmas markets, frame on food, Coca-Cola, the people
    eating, and non-drinking details (stalls, lights, rides, the chestnut

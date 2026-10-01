@@ -77,7 +77,7 @@ ICONIC BEVERAGES.
    [MEDIUM for practice — not independently re-checked this pass;
    EDITORIAL rule]. A spirit house in a garden or outside a shop is real
    and common; keep it out of frame rather than in the background.
-6. **No alcohol staged, and never a TCCC product as a mixer.** Thai
+6. **No alcohol staged, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).** Thai
    whisky/rum-and-Coke ("SangSom and Coke" in a bucket, beer towers) is
    a real drinking habit (see ICONIC BEVERAGES); keep every TCCC product
    away from bar tables, ice buckets with bottles, and beach-bar setups.
@@ -95,7 +95,7 @@ ICONIC BEVERAGES.
    with the hero poured into it reads local; no second drink.
 9. **General project rules**: no legible text anywhere (Thai script,
    Malay/Jawi script, Chinese characters included); nothing held in a
-   hand; no drinks other than the hero; never a TCCC product as a mixer.
+   hand; no drinks other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### Structural decision: one file, five zones (recommendation — reviewer has final say)
 
@@ -196,7 +196,7 @@ and real-world size.
 2. **The hero product is a TCCC beverage named by the brief** (HERO
    PRODUCT SLOT). Branding is composited in post
    (`coca-cola-guidelines.md` §1–2).
-3. **No alcohol in any scene**, never a TCCC product as a mixer.
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely
    intruders in the negative: a plastic water jug, ribbed plastic

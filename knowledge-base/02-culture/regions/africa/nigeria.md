@@ -183,7 +183,7 @@ the can. Background notes only where they prevent a visual error.
    is composited in post, never trusted from the generation
    (`coca-cola-guidelines.md` §1–2).
 3. **No alcohol in any scene, ever**, and never show a TCCC product as a
-   mixer. In the North this is also the law in the sharia states. Party
+   mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5). In the North this is also the law in the sharia states. Party
    and bar scenes in the South carry strong priors toward lager and stout
    bottles, palm wine in calabashes or jerrycans, and **Chapman** in big
    mugs — exclude them explicitly. Chapman is itself mixed from Fanta and
@@ -301,8 +301,9 @@ named companion):**
   without alcohol" but can take vodka or rum, and Angostura itself
   contains alcohol. [HIGH — Wikipedia (via search), Food52, Yummy Medley,
   All Nigerian Recipes, Dash of Jazz converge] **Document only — never
-  staged**, for three reasons: it uses TCCC products as mixers (file-wide
-  rule 3), Angostura adds alcohol content, and it is a second drink. Flag
+  staged**, because Angostura adds alcohol content (a TCCC product mixed
+  with alcohol, file-wide rule 3) and it is a second drink. (Non-alcoholic
+  TCCC-brand mixes are otherwise allowed, schema §5.5.) Flag
   for Fernando: whether a TCCC-sanctioned Chapman execution exists in
   Nigeria (a "Fanta Chapman" product was recalled from model knowledge but
   **could not be verified** — search budget exhausted; see GAP LOG).
@@ -336,7 +337,7 @@ named companion):**
 and Responsible Alcohol Marketing policies as `south-africa.md` documents):
 1. **No alcohol in any scene**: no bottles, crates, calabashes of palm
    wine, jerrycans, bar taps or labels.
-2. **Never stage a TCCC product as a mixer** — including Chapman: no big
+2. **Never stage a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5)** — including Chapman: no big
    mug with ice, fruit and cucumber beside a Fanta or Sprite.
 3. **Venues whose default is alcohol** (bars, "joints", beer parlours,
    many evening pepper-soup spots, the drinks side of an owambe): either

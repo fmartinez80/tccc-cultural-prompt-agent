@@ -44,7 +44,7 @@ product is staged; the others are documented in ICONIC BEVERAGES.
    (est. 1860) operates but may not advertise alcohol domestically
    [HIGH — Express Tribune, Dawn, NPR, The World (PRX) agree]. Alcohol is
    therefore documented in ICONIC BEVERAGES only as the reason it is
-   absent. Never a TCCC product as a mixer.
+   absent. Never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 3. **Ramadan, iftar and the two Eids are religious occasions.** No
    eating or drinking scene is set in Ramadan daylight. **At iftar the
    hero product is never staged as the first thing that breaks the fast**
@@ -178,7 +178,7 @@ nihari), char, crust, crumb, steam, and real-world size.
    PRODUCT SLOT). Branding is composited in post
    (`coca-cola-guidelines.md` §1–2).
 3. **No alcohol in any scene** (hard rule 2); never a TCCC product as a
-   mixer.
+   mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely
    intruders in the negative: cups of milky chai, small glasses of green
@@ -354,7 +354,7 @@ allows a named companion):**
   Express Tribune, Dawn, NPR (2025–26), The World]. There is no drinking
   culture to depict in mainstream food scenes; the only rule this
   creates is negative: **no bottle, glass or bar cue that reads as
-  alcohol**, and never a TCCC product as a mixer.
+  alcohol**, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### GENERAL NORMS
 

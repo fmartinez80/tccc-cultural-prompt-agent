@@ -54,7 +54,7 @@ Fernando]
    toasts of 干杯) and beer (Tsingtao, Snow) are real and documented in
    ICONIC BEVERAGES only. A model will put green beer bottles on every
    shaokao (skewer) table and every hot-pot table unless told not to —
-   negate them by name. Never a TCCC product as a mixer.
+   negate them by name. Never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 4. **Halal settings are halal.** In a Hui or Uyghur (清真, qīngzhēn)
    restaurant — Lanzhou beef noodles, Xi'an Muslim-quarter beef or lamb
    rou jia mo, Xinjiang polo, dapanji, lamb skewers in zone 7 — **no pork
@@ -80,7 +80,7 @@ Fernando]
    costume or folklore tableaux. [EDITORIAL — sensitivity flagged for
    Fernando]
 8. **General project rules**: no legible text anywhere; nothing held in a
-   hand; no drinks other than the hero; never a TCCC product as a mixer.
+   hand; no drinks other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 
 ### Structural decision: one file, eight zones (recommendation — reviewer has final say)
 
@@ -196,7 +196,7 @@ size relative to the can.
    PRODUCT SLOT). Branding is composited in post (`coca-cola-guidelines.md`
    §1–2).
 3. **No alcohol in any scene** (hard rule 3); never a TCCC product as a
-   mixer.
+   mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
 4. **No drinks in frame other than the hero product** unless the brief
    explicitly allows a named non-alcoholic companion. Name the likely
    intruders in the negative: teapots and small tea cups, glass tea
