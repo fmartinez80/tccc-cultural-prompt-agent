@@ -135,6 +135,15 @@ South Florida clears the same distinctness test on independently corroborated ca
 - Common confusion: Should not be confused with a generic Italian sub/hoagie — Cuban bread is lighter, softer-crumbed, and the sandwich is always pressed hot, never served cold/unpressed. Should not be confused with a Miami-style Cuban sandwich if a brief specifically names Tampa (no salami in Miami's version) or vice versa.
 - Confidence: HIGH overall.
 - Sources: [Wikipedia: Cuban sandwich](https://en.wikipedia.org/wiki/Cuban_sandwich); [La Segunda Bakery — How We Bake History](https://www.lasegundabakery.com/our-story); [Tasting Table — You Don't Need A Panini Press To Make Warm Cuban Sandwiches](https://www.tastingtable.com/1415224/no-panini-press-warm-cuban-sandwiches/)
+- **Composition & proportions (§4.7)** — one sandwich, cut.
+  - What dominates: cut face: pressed bread ~50–55% of the height; roast pork ~15–20%; ham ~10–15%; salami (Tampa only) ~5–10%; Swiss, pickle and mustard as thin lines. [EDITORIAL]
+  - Components: **sandwich ~20–30 cm long (8–12 in), cut on the diagonal into two halves** [MEDIUM — Wikipedia: Cuban sandwich (via search)], each half ~10–15 cm; pressed height ~3–4 cm (about a third of the can's height); width ~7–8 cm (a little wider than the can); 2–4 lengthwise pickle slices; 3–4 folded salami slices in Tampa's version. [EDITORIAL for layer counts]
+  - Arrangement: two diagonal halves on wax paper or a plate, one leaning on the other with its cut face forward.
+  - Vessel fill/depth: halves cover ~50–60% of the plate or paper.
+  - Served portion vs. whole dish: one whole sandwich (both halves) per person.
+  - State cues: smooth, evenly toasted, flattened crust; cheese melted and squeezed out at the edges; warm.
+  - Absent on purpose: ridged grill-press marks, lettuce, tomato, mayonnaise, onion, salami in a Miami-labelled scene, a hand holding it.
+  - Prompt-ready line: "Two diagonal halves of a pressed Cuban sandwich on wax paper, each about the can's height long and a third of its height tall, with a smooth, flat, golden-brown toasted crust. The cut face shows thin stacked layers: pale roast pork, pink ham, a thin band of salami, melted white Swiss cheese oozing at the edges, a pickle slice and a line of yellow mustard. No grill ridges, no lettuce."
 
 #### Dish: Minorcan clam chowder (St. Augustine, datil pepper)
 - Category: Everyday to special-occasion (a signature, civic-identity dish for St. Augustine specifically, comparable in local pride to the Cuban sandwich's Tampa status)
@@ -148,6 +157,15 @@ South Florida clears the same distinctness test on independently corroborated ca
 - Common confusion: Should not be rendered as a pale, cream-based New England-style chowder or a thin, brothy Manhattan-style chowder — more tomato-saturated in color and thicker/chunkier than either.
 - Confidence: HIGH for origin, geography, and composition.
 - Sources: [Authentic Florida — Authentic Minorcan Clam Chowder Recipe](https://authenticflorida.com/authentic-minorcan-clam-chowder-recipe/); [Wikipedia: Datil pepper](https://en.wikipedia.org/wiki/Datil_pepper)
+- **Composition & proportions (§4.7)** — one bowl.
+  - What dominates: vegetable and clam pieces ~40–50% of what shows; thick red-orange broth ~50–60%. [EDITORIAL]
+  - Components: potato, carrot, onion and green-pepper dice ~1–1.5 cm; chopped clam pieces ~0.5–1.5 cm; bowl ~14–16 cm; crackers or bread alongside if any. [EDITORIAL]
+  - Arrangement: chunks evenly suspended, a few breaking the surface.
+  - Vessel fill/depth: filled to ~1 cm below the rim.
+  - Served portion vs. whole dish: ladled from the pot, one bowl per diner.
+  - State cues: opaque, matte-to-slightly glossy red-orange; small orange fat droplets; steam.
+  - Absent on purpose: cream swirl or dairy sheen, whole clams in shells on top, bread bowl, bacon strips, parsley piles, visible whole peppers.
+  - Prompt-ready line: "A bowl of thick, opaque, deep red-orange tomato chowder filled nearly to the rim, crowded with small diced potato, carrot and green pepper and chopped clam pieces, each smaller than a thumbnail, a few breaking the surface, tiny orange oil droplets on top, steam rising. No cream, no shells, no garnish."
 
 #### Dish: Tampa deviled crab (Ybor City)
 - Category: Everyday — a working-class street-food/lunch-counter item historically, still a genuine local specialty today
@@ -160,6 +178,15 @@ South Florida clears the same distinctness test on independently corroborated ca
 - Common confusion: Should not be rendered as a round, flat Maryland-style crab cake or as a plain fried hush puppy.
 - Confidence: HIGH for composition, shape, and Ybor City community origin; LOW-MEDIUM for the specific 1920-strike founding story.
 - Sources: [La Segunda Bakery — Exploring Food Traditions in Ybor City](https://www.lasegundabakery.com/blog/exploring-food-traditions-in-ybor-city)
+- **Composition & proportions (§4.7)** — one or two crabs.
+  - What dominates: craggy breadcrumb crust ~90% of the exterior; filling only at a broken end. [EDITORIAL]
+  - Components: each **~10–15 cm long (4–6 in), elongated football shape**, ~5–6 cm thick at the middle [MEDIUM — Tampa Magazine and deviled-crab guides (via search)] — about the can's height long and roughly its width; 1–2 per portion.
+  - Arrangement: on wax paper or a small plate, one broken open to show the filling.
+  - Vessel fill/depth: plate ~40–50% covered.
+  - Served portion vs. whole dish: one crab is a snack; two a lunch. [EDITORIAL]
+  - State cues: deep golden-brown, dry-crisp crust; moist orange-red filling with green and white flecks; warm.
+  - Absent on purpose: a flat round crab-cake patty, crab-shell serving, tartar sauce, lemon, salad bed.
+  - Prompt-ready line: "Two football-shaped croquettes on wax paper, each about as long as the can is tall and about as wide, pointed at one end, with a deep golden-brown, craggy breadcrumb crust. One is broken open to show a moist, chunky, orange-red crab filling flecked with small bits of green pepper and onion. No sauce, no lemon, no salad."
 
 #### Dish: Apalachicola oysters (raw bar)
 - Category: Everyday to special-occasion — a genuine regional-pride dish for the Florida Panhandle's "Forgotten Coast"
@@ -172,6 +199,15 @@ South Florida clears the same distinctness test on independently corroborated ca
 - Common confusion: Should not be confused with a Gulf/Chesapeake blue crab or a Maine/Northeast oyster presentation already documented elsewhere in this KB.
 - Confidence: HIGH for the Apalachicola Bay history/identity and the fishery-collapse timeline; MEDIUM for the specific raw-bar visual/serving-vessel description.
 - Sources: [Oyster Encyclopedia — Apalachicola Oysters](https://oysterencyclopedia.com/encyclopedia/apalachicola-oysters/)
+- **Composition & proportions (§4.7)** — one dozen on ice.
+  - What dominates: oysters ~50% of the tray; crushed ice ~40%; condiments ~10%. [EDITORIAL]
+  - Components: shells **~7.5–10 cm long** (3-in legal harvest minimum) [MEDIUM — Oyster Tasting Guide, WFSU (via search)] — about two-thirds the can's height; 12 per dozen; small ramekins (~6 cm) of cocktail sauce and mignonette; 2–3 lemon wedges; a few saltine crackers.
+  - Arrangement: a ring on crushed ice in a round metal tray ~30–35 cm, hinges out, sauces in the centre.
+  - Vessel fill/depth: ice heaped ~3–5 cm deep; tray fully covered.
+  - Served portion vs. whole dish: a dozen for one or two people; a half-dozen as a starter. [EDITORIAL]
+  - State cues: wet, glossy oysters in their liquor; frosty ice; cold.
+  - Absent on purpose: beer, wine or any alcohol, caviar, seaweed piles, chargrilled and raw oysters mixed on one tray.
+  - Prompt-ready line: "A round metal tray of crushed ice with twelve raw oysters on the half shell set in a ring, each rough grey-white shell about two-thirds the can's height, cradling a glossy, translucent grey-beige oyster in a little clear liquor. Small cups of red cocktail sauce and mignonette in the centre, lemon wedges and a few saltines at the edge."
 
 #### Dish note: Stone crab claws — a real but secondary North Florida presence (see South Florida/Floribbean zone for the full authoritative entry)
 Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horseshoe Beach) is documented since at least the 1920s, historically sold only locally before the dish's wider popularity. This is real and long-standing, but not this region's own claim to fame the way it is in South Florida (Joe's Stone Crab's Miami Beach origin story, and Monroe County/the Keys plus Collier County/Everglades City together accounting for roughly 52% of the documented statewide harvest) — see the full entry below for composition, seasonality, and visual/plating detail, all of which apply identically regardless of where the crab was caught. [CONFIDENCE: HIGH for the South Florida-dominant geography and origin story; MEDIUM for the North Florida/Big Bend presence being real but secondary] [SOURCE: [UF/IFAS — Follow the Big Bend Shellfish Trail](https://blogs.ifas.ufl.edu/ncbs/2019/02/08/big-bend-shellfish-trail/)]
@@ -188,6 +224,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be rendered with a thin, uniform, finely-flaked fillet (more characteristic of a generic fast-food fish sandwich). A blackened grouper sandwich should not be confused with a plain grilled fish sandwich (no dark spice crust) or an actually-burnt fillet.
 - Confidence: MEDIUM-HIGH overall — the dish's regional identity and two-preparation-variant structure are well-corroborated; the exact origin story is contested/unverifiable as noted above.
 - Sources: [Chowhound — This Fish Sandwich Is One Of Florida's Signature Seafood Dishes](https://www.chowhound.com/2108967/grouper-sandwich-florida-seafood-staple/); [TasteAtlas — Grouper Sandwich](https://www.tasteatlas.com/grouper-sandwich)
+- **Composition & proportions (§4.7)** — one sandwich plate.
+  - What dominates: side view: bun ~40%, fillet ~35–40% (overhanging the bun ~2–4 cm), lettuce and tomato ~20%. [EDITORIAL]
+  - Components: fillet ~15–18 cm long and ~2–3 cm thick — longer than the can is tall; bun ~11–12 cm; 1 lettuce leaf, 1–2 tomato slices; tartar in a small cup; 1 lemon wedge; fries, chips or slaw on the side. [EDITORIAL]
+  - Arrangement: open-faced or closed on a plate or paper-lined basket, fillet sticking out both sides.
+  - Vessel fill/depth: sandwich ~50% of the plate, side ~40%.
+  - Served portion vs. whole dish: one sandwich per person, resting on the plate.
+  - State cues: fried: even golden crisp coat; blackened: matte near-black spice crust; interior large, moist white flakes if cut.
+  - Absent on purpose: cheese, a thin square fast-food patty, a hand holding it.
+  - Prompt-ready line: "A fried grouper sandwich on a plate: a thick white fish fillet, longer than the can is tall, in an even golden-brown crisp coating, overhanging a soft bun on both sides, with a lettuce leaf and a tomato slice; a cut edge shows large, moist, opaque white flakes. A small cup of tartar sauce, a lemon wedge and a pile of fries beside it. No cheese."
 
 ### South Florida / Floribbean
 
@@ -201,6 +246,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: should not be conflated with a generic "Caribbean restaurant" or a Cuban-Miami cafeteria register — Floribbean is specifically a chef-driven, composed fine-dining register with fruit-forward brightness.
 - Confidence: HIGH for the movement's existence, causal drivers, and named chefs; MEDIUM for the specific illustrative-dish visual detail.
 - Sources: [Tasting Table — What Is 'Floribbean' Cuisine And How Did It Come About?](https://www.tastingtable.com/1226720/what-is-floribbean-cuisine-and-how-did-it-come-about/)
+- **Composition & proportions (§4.7)** — the illustrative grilled mahi-mahi with mango salsa, one plate.
+  - What dominates: fish ~40–45% of the plate; salsa ~15–20%; rice or other starch ~20% if used; plate showing ~15–20%. [EDITORIAL]
+  - Components: fillet ~12–15 cm long, ~2–3 cm thick (~150–200 g), 3–5 grill stripes; salsa dice ~0.8–1.2 cm, about half a cup; a few cilantro leaves. [EDITORIAL]
+  - Arrangement: fillet centred or slightly off-centre; salsa spooned to one side, spilling onto one edge of the fish, not covering it.
+  - Vessel fill/depth: large white plate ~60% covered.
+  - Served portion vs. whole dish: individually plated; one fillet per diner.
+  - State cues: matte, flaky, opaque fish; wet, bright raw salsa.
+  - Absent on purpose: heavy cream or butter sauce, fried coating, tiki props, hibiscus flowers, cocktails.
+  - Prompt-ready line: "A white plate with a pale, opaque grilled mahi-mahi fillet, about the can's height long, marked with a few light char stripes, and a half-cup spoon of fresh, bright diced mango, red pepper and red onion salsa with a few cilantro leaves spilling onto one edge of the fish. Matte flaky fish, wet raw salsa. No cream sauce, no tropical props."
 
 #### Dish: Ropa vieja
 - Category: Everyday to special-occasion (widely described as Cuba's national dish, and a Cuban-Miami restaurant/home staple)
@@ -214,6 +268,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be confused with **Chicago Italian beef** (`us-northeast.md`) or **Baltimore pit beef** (`us-mid-atlantic.md`) — both are sliced or shaved whole cuts, not long-braised-and-shredded strands, and neither carries ropa vieja's tomato-pepper-olive sauce.
 - Confidence: HIGH for composition, visual appearance, and Cuban-national-dish status; MEDIUM for the precise Spain-to-Cuba origin chain.
 - Sources: [Wikipedia: Ropa vieja](https://en.wikipedia.org/wiki/Ropa_vieja); [Ball & Chain — Cuban Cuisine Guide](https://ballandchainmiami.com/cuban-cuisine/)
+- **Composition & proportions (§4.7)** — one plate with rice, beans and plantains.
+  - What dominates: rice ~35%; ropa vieja ~35%; black beans ~15–20%; plantains ~10–15%. [EDITORIAL]
+  - Components: beef strands ~5–10 cm long, ~0.5 cm thick; bell pepper strips ~5–7 × 1 cm, 4–8; whole green olives ~1.5–2 cm, 3–6; white rice ~1 cup mound; maduros ~8–10 cm diagonal slices, 3–4, or tostones ~6–7 cm discs. [EDITORIAL]
+  - Arrangement: rice and ropa vieja side by side, touching; beans ladled over part of the rice or in a small bowl; plantains along one edge.
+  - Vessel fill/depth: oval plate ~85–90% covered.
+  - Served portion vs. whole dish: one full plate per diner at a Cuban restaurant; at home served from a pot. [EDITORIAL]
+  - State cues: glossy clinging sauce around matte shredded beef; caramelised dark edges on maduros.
+  - Absent on purpose: tortillas, cheese, sour cream, cilantro heaps, lime wedges, a solid slab of beef.
+  - Prompt-ready line: "An oval plate: a heap of long, loose, matte shreds of braised beef in a thick glossy red-orange tomato sauce with strips of red and green pepper, onion and a few green olives, beside a mound of white rice with black beans ladled over one side and three caramelised sweet plantain slices, each about half the can's height. No tortillas, no cheese."
 
 #### Dish: Frita Cubana (Cuban frita, "Miami's Cuban burger")
 - Category: Everyday — a genuinely Miami-specific fast/casual staple
@@ -227,6 +290,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be confused with a standard American cheeseburger or smashburger (`us.md`) — the shoestring-potato topping inside the bun, the softer Cuban-bread roll, and the absence of American cheese/lettuce/tomato are the checkable differentiators.
 - Confidence: HIGH overall for composition and Miami-specificity; MEDIUM for the exact 1920s Havana origin story.
 - Sources: [Burger Beast — Frita Cubana: History, Recipe & Best Fritas in Miami](https://burgerbeast.com/frita-cubana/); [Tasting Table — The Frita Cubana: A Cuban Burger Piled High With Crunchy Potatoes](https://www.tastingtable.com/1454132/frita-cubana-burger-explained/)
+- **Composition & proportions (§4.7)** — one frita.
+  - What dominates: side view: bun ~45%, shoestring potatoes ~25–30%, patty ~15–20%, onions ~5%. [EDITORIAL]
+  - Components: patty thin, ~1 cm, ~10–12 cm across — about the can's height — pressed from a golf-ball-size portion [MEDIUM for golf-ball portions and thin patty — recipe sources (via search); diameter EDITORIAL]; round Cuban roll ~10–11 cm; potato sticks ~3 mm wide (⅛ in) [MEDIUM — recipe sources (via search)], 3–6 cm long, pile ~2–3 cm high.
+  - Arrangement: on wax paper or a plate, potato sticks spilling out over the bun's edges.
+  - Vessel fill/depth: sandwich ~40–50% of the paper.
+  - Served portion vs. whole dish: one or two fritas per person.
+  - State cues: dry crisp potato sticks; matte, well-done reddish-brown patty; soft onions.
+  - Absent on purpose: cheese, lettuce, tomato, pickles, sesame bun, a thick round burger patty, a hand holding it.
+  - Prompt-ready line: "A Cuban frita on wax paper: a soft round Cuban roll about the can's height across, holding a thin, loose, spiced reddish-brown meat patty, soft browned onions, and a heap of crisp, dry, thread-thin golden potato sticks spilling over the bun's edges. No cheese, no lettuce, no tomato, no pickles, no sesame seeds."
 
 #### Dish: Medianoche
 - Category: Everyday to special-occasion — traditionally a late-night snack after dancing/nightlife, now available all-day
@@ -237,6 +309,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: **The Cuban sandwich itself is the single most important confusable alternative**, given identical fillings — bread color, size/shape, and crumb texture are the confirming details; getting this backward is a real, visible authenticity error, the same way Trenton vs. Philadelphia tomato pie is in `us-mid-atlantic.md`.
 - Confidence: HIGH for the bread distinction and shared-filling relationship; MEDIUM for the specific "after dancing/nightlife" origin-of-name story.
 - Sources: [Tasting Table — The Difference Between Cuban Sandwiches And Medianoches Is All In The Bread](https://www.tastingtable.com/1463941/difference-cuban-sandwich-medianoche-bread/)
+- **Composition & proportions (§4.7)** — one sandwich, cut.
+  - What dominates: as the Cuban sandwich — bread ~50–55% of the cut height, pork and ham ~30%, cheese, pickle, mustard thin lines. [EDITORIAL]
+  - Components: roll ~15–20 cm long (smaller than a Cuban loaf), pressed to ~3–4 cm high, cut diagonally into two halves ~8–10 cm each. [EDITORIAL]
+  - Arrangement: two halves on wax paper, cut face forward.
+  - Vessel fill/depth: halves cover ~40% of the plate.
+  - Served portion vs. whole dish: one sandwich per person.
+  - State cues: warmer golden, softer eggy bread; browned crisp at the press contact.
+  - Absent on purpose: long pale Cuban-bread loaf, lettuce, tomato, grill ridges, a hand.
+  - Prompt-ready line: "Two halves of a small pressed medianoche on wax paper, each a bit shorter than the can is tall, on soft, slightly sweet, warm-golden egg bread, flattened and crisped where the press met it. Cut faces show thin layers of roast pork, ham, melted Swiss cheese, pickle and yellow mustard. No lettuce, no grill ridges."
 
 #### Dish: Pastelito de guayaba y queso (guava-and-cheese Cuban pastry)
 - Category: Everyday snack — a bakery-counter item, not a restaurant-plated dish
@@ -247,6 +328,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be confused with an empanada (single-layer, crimped-edge dough, not laminated/flaky puff pastry) or a plain guava pastelito (single pink filling, no white cream-cheese layer).
 - Confidence: MEDIUM-HIGH for composition and visual description; MEDIUM for the specific Miami-origin claim.
 - Sources: [Food52 — The Guava & Cream Cheese Pastry That Stole Miami's Heart](https://food52.com/story/24055-guava-cream-cheese-pastries-pastelitos-miami)
+- **Composition & proportions (§4.7)** — one or two pastries.
+  - What dominates: flaky golden pastry ~85% of what shows; guava and cheese only at a cut or bite. [EDITORIAL]
+  - Components: **~10 cm (4 in) square** or rectangle [MEDIUM — recipe norms (via search)] — about four-fifths the can's height — puffed ~2.5–4 cm high; filling layers ~0.5–1 cm each; coarse sugar crystals on top.
+  - Arrangement: 1–2 on a small plate or wax paper; one cut to show pink and white fillings; a tray of 6–12 in a glass case as background.
+  - Vessel fill/depth: small plate ~50% covered.
+  - Served portion vs. whole dish: one or two pastries with a coffee. [EDITORIAL]
+  - State cues: shiny egg wash, shattering flakes on the plate.
+  - Absent on purpose: powdered sugar, icing drizzle, fruit garnish, crimped empanada edges.
+  - Prompt-ready line: "Two square puff pastries on a small plate, each about four-fifths the can's height across, puffed and flaky with a shiny deep golden egg-washed top and coarse sugar crystals. One is cut open: a thick band of glossy deep pink-red guava paste beside a smooth matte white layer of sweet cream cheese, flaky shards on the plate. No icing, no powdered sugar."
 
 #### Dish: Key lime pie (full authoritative entry, per the merge decision in FILE ROLE & METHOD above)
 - Category: Everyday to special-occasion — Florida's official state pie, but also an everyday dessert item at casual restaurants throughout South Florida and the Keys
@@ -259,6 +349,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be depicted with a bright, saturated green filling — this is the primary, well-documented, checkable authenticity error for this specific dish.
 - Confidence: HIGH for composition, the pale-yellow-not-green color fact, and the condensed-milk causal story; MEDIUM for the specific competing origin-story details.
 - Sources: [Wikipedia: Key lime pie](https://en.wikipedia.org/wiki/Key_lime_pie); [Food Republic — The Debated Origins Of Florida's Iconic Key Lime Pie](https://www.foodrepublic.com/1681878/key-lime-pie-origins-florida/); [Tasting Table — In Florida, Color Tells You Everything About Key Lime Pie](https://www.tastingtable.com/2108311/real-florida-key-lime-pie-color-difference-meaning/)
+- **Composition & proportions (§4.7)** — one slice (and whole pie).
+  - What dominates: slice cut face: pale yellow filling ~50–60%; topping ~25–35%; crust ~10–15%. [EDITORIAL]
+  - Components: pie ~23 cm (9 in); **graham crust ~6 mm (¼ in)** [MEDIUM — recipe norms (via search)]; filling ~2.5–3 cm deep; whipped-cream dollop ~3–4 cm or meringue ~3–5 cm tall; slice one-eighth, ~11 cm long side. [EDITORIAL]
+  - Arrangement: slice on a small plate, point toward the camera; optional whole pie with a wedge missing behind.
+  - Vessel fill/depth: slice covers ~40% of a dessert plate.
+  - Served portion vs. whole dish: one slice per person.
+  - State cues: cold, set, smooth filling; matte crumbly crust; meringue peaks browned or cream soft and matte.
+  - Absent on purpose: any green filling, heavy zest piles, lime slices fanned on top, drizzled sauces.
+  - Prompt-ready line: "A slice of pie on a small plate, point forward, a little shorter than the can: a thin, matte, crumbly tan graham-cracker crust under a smooth, dense, set filling of pale creamy yellow — not green — about two fingers deep, topped with glossy toasted meringue with browned peaks. No green colouring, no sauce, no lime slices."
 
 #### Dish: Stone crab claws (full authoritative entry, per the merge decision in FILE ROLE & METHOD above — see the North Florida zone's own cross-reference note for its real but secondary Big Bend/Cedar Key presence)
 - Category: Special-occasion/seasonal delicacy — priced and marketed as a premium, seasonal item, not an everyday dish
@@ -272,6 +371,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be confused with a Maryland crab cake or steamed blue crab (`us-mid-atlantic.md`) — a different species, different cooking/seasoning conventions, and (for the crab cake specifically) processed/formed meat rather than a whole intact claw. Should not be depicted with the claw's raw dull-brown color, or served hot — this is always a cold dish.
 - Confidence: HIGH overall for harvesting regulation, presentation, sauce composition, and the raw-to-cooked color transformation.
 - Sources: [Fine Dining Lovers — Joe's Stone Crab's Famous Mustard Sauce Recipe](https://www.finedininglovers.com/explore/recipes/joes-stone-crabs-famous-mustard-sauce); [Key Largo Fisheries — How to Eat Stone Crab: A Step-by-Step Guide](https://www.keylargofisheries.com/blogs/seafood-made-simple/how-to-eat-stone-crab-a-step-by-step-guide)
+- **Composition & proportions (§4.7)** — one serving on ice.
+  - What dominates: orange-red claws ~60%; crushed ice ~30%; sauce and lemon ~10%. [EDITORIAL]
+  - Components: claw grades: **medium ~7–8 claws/lb, large ~4–5, jumbo ~3–4, colossal ~2** [HIGH — Key Largo Fisheries, Billy's Stone Crab and other sizing guides agree (via search)]; a large claw ~9–12 cm long, roughly the can's height [EDITORIAL]; portion ~1 lb (4–6 large claws) [EDITORIAL]; mustard-sauce ramekin ~6–7 cm; 1–2 lemon wedges.
+  - Arrangement: claws on crushed ice on a platter, black tips pointing out, cracks facing up, ramekin in the centre.
+  - Vessel fill/depth: ice ~3–5 cm deep; platter ~70% covered.
+  - Served portion vs. whole dish: one pound per diner in a restaurant; shared platters at home. [EDITORIAL]
+  - State cues: chilled, glossy, wet shells; firm white meat visible at the cracks.
+  - Absent on purpose: melted butter, steam, whole crabs, raw dull-brown shells, cocktail sauce as the main sauce.
+  - Prompt-ready line: "Five cooked stone crab claws on crushed ice, each about as long as the can is tall, their glossy bright orange-red shells with black tips already cracked to show dense, firm white meat. A small ramekin of smooth pale tan mustard sauce and a lemon wedge in the centre. Cold, wet and glistening, no steam, no butter."
 
 #### Dish: Conch fritters
 - Category: Everyday snack/appetizer — a Key West/Keys-specific staple, described by multiple sources as one of the two most recognizable dishes of Key West cuisine (alongside key lime pie)
@@ -284,6 +392,15 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be depicted as a plain hush puppy (uniform interior, no visible seafood or vegetable flecks) — the visible minced-conch/vegetable texture inside is the confirming detail.
 - Confidence: MEDIUM-HIGH for composition, visual description, and Bahamian origin; MEDIUM for the specific dipping-sauce convention.
 - Sources: [Food Republic — The Iconic Florida Dish That Has Bahamian Roots](https://www.foodrepublic.com/2010099/iconic-florida-dish-bahamian-roots-conch-fritters/)
+- **Composition & proportions (§4.7)** — one order.
+  - What dominates: fritters ~60–70% of the plate; dipping sauce ~10–15%. [EDITORIAL]
+  - Components: **6 fritters per order, each golf-ball size (~4–4.5 cm)** [MEDIUM — Miami New Times, Key West fritter guides (via search)] — about two-thirds the can's width; irregular rounds; one sauce ramekin ~6 cm; a lime or lemon wedge.
+  - Arrangement: loosely heaped on a small plate or paper-lined basket, ramekin beside; one broken open.
+  - Vessel fill/depth: plate ~60–70% covered.
+  - Served portion vs. whole dish: one order shared as an appetizer.
+  - State cues: deep golden-brown, craggy, dry-crisp; moist flecked interior.
+  - Absent on purpose: conch shell props, salad bed, smooth uniform spheres, cocktails.
+  - Prompt-ready line: "Six irregular fried fritters, each about the size of a golf ball, heaped in a paper-lined basket, deep golden-brown and craggy with small bits breaking the surface. One is broken open to show a moist, dense interior flecked with minced conch and diced pepper. A small cup of creamy dipping sauce and a lime wedge beside them. No shell props, no salad."
 
 #### Dish: Griot (fried pork) with pikliz (Little Haiti)
 - Category: Everyday to special-occasion — a Haitian culinary staple with strong presence in Miami's Little Haiti specifically, per multiple sources describing the neighborhood as "Miami's undisputed capital for Caribbean food"
@@ -296,11 +413,21 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 - Common confusion: Should not be confused with a generic fried pork chop or Southern-fried pork (no equivalent to pikliz as an accompaniment) or with the frita/Cuban-Miami dishes above (a genuinely separate immigrant-community food tradition).
 - Confidence: MEDIUM-HIGH for composition and the simmer-then-fry method; MEDIUM for the specific serving-vessel/plating-arrangement detail, which was not independently sourced to the same depth as this file's Cuban-Miami entries.
 - Sources: [Norman Van Aken — A Word On Food: Griot](https://normanvanaken1.substack.com/p/a-word-on-food-griot); [The Sunshine Republic — The Haitian Community in Florida](https://thesunshinerepublic.com/2025/03/31/the-haitian-community-in-florida-culture-and-contributions/)
+- **Composition & proportions (§4.7)** — one plate.
+  - What dominates: pork ~40%; rice ~25–30%; pikliz ~15%; fried plantain ~15%. [EDITORIAL]
+  - Components: pork chunks **~4–5 cm after frying**, cut from ~4–5 cm (1½–2 in) raw pieces that shrink [MEDIUM — recipe sources (via search)], 6–10 per plate; bannann peze (fried flattened green plantain) ~6–8 cm discs, 3–5, a common pairing [MEDIUM — recipe sources (via search)]; pikliz ~½ cup, shreds 3–6 cm; rice (plain or with beans) ~1 cup. [EDITORIAL for counts]
+  - Arrangement: pork piled on one side, rice beside it, plantains leaning at the edge, pikliz in a small heap or cup.
+  - Vessel fill/depth: plate ~85–90% covered.
+  - Served portion vs. whole dish: one full plate per diner.
+  - State cues: matte, craggy, dark-golden pork; wet, glossy, crisp pikliz.
+  - Absent on purpose: gravy, barbecue sauce, uniform pork cutlets, parsley garnish.
+  - Prompt-ready line: "A plate of Haitian griot: eight craggy, deeply browned, matte fried pork chunks, each about half the can's width, piled beside a mound of rice and three flattened fried green plantain discs; a small heap of pikliz — crisp pale cabbage and orange carrot shreds flecked with red chile, wet with clear vinegar brine — at the edge. No gravy, no garnish."
 
 ---
 
 ## GAP LOG
 
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
 - **WebFetch (direct page reads) was blocked by network egress for every domain attempted across both passes** — en.wikipedia.org and deepsouthmag.com specifically confirmed blocked. Every citation to these domains relies on WebSearch's own result-snippet excerpting, not a full page read.
 - **Florida Cracker cuisine (swamp cabbage/hearts of palm, cane syrup, wild game) is real and sourced but was not written up as a full dish entry** — the sourcing found is tourism/heritage-tier rather than deep enough for a full HIGH-confidence visual/plating entry.
 - **Moros y cristianos vs. congrí's relative prevalence specifically in Miami** was not confirmed to this file's standard — the beans-and-rice pairing itself is solid, but which named variant actually dominates in Miami restaurants specifically is a single-source-tier synthesis.
