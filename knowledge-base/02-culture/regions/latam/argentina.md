@@ -185,6 +185,123 @@ Background notes only where they prevent a visual error.
 | **Rotisería takeaway** | Glass counter of empanadas, tartas, milanesas and roast chicken; food packed in foil trays and paper. |
 | **NOA peña / comedor** | Adobe walls, rustic wooden tables, clay bowls of locro, empanadas salteñas from a clay oven, humitas in husks. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used staging venues; the bodegón and the neighbourhood parrilla are both kept because the scenarios use both as defaults). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 1 (Buenos Aires) is the default; other zones are variants, and where a zone has no detail the Buenos Aires version applies [EDITORIAL]. File-wide rules apply throughout; at Argentine tables the wine glass, the soda siphon, fernet, beer and the mate kit are all real priors, so negate them in every prompt. The QUICK-REFERENCE table above stays as the short index.
+
+### Venue: Buenos Aires flat, kitchen-dining corner (departamento porteño)
+- **Use for:** home indoor; casual lunch for 1, 2 or 3, the late cena (~21:00–22:00), the Sunday pasta lunch, Christmas in a CABA flat, the living-room watch party. The default home for a zone 1 CABA scene; a conurbano or provincial scene uses the brick-house variant below (76.7% of dwellings nationally are houses; see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the default].
+- **Soft background (the core):**
+  - *Back wall:* smooth plaster painted white or off-white (sometimes a pale warm grey), a few framed prints or family photos, a wall clock; in older buildings a high ceiling with a simple cornice line. Little colour on the walls: Buenos Aires interiors read pale and neutral, the warmth coming from the wood floor and furniture [MEDIUM — file house-type notes; LOW for the pale palette — not verified].
+  - *Middle distance:* a **tall French window or balcony door** with **wooden roller shutters (persianas de madera)** half-raised, giving a bright horizontal band above a dark slatted band; through it, the narrow balcony rail with potted plants and the facade of the building opposite as a soft grey wall with more balconies. Through a doorway, the small kitchen: tiled walls (white or cream ceramic), a marble or granite counter, a gas cooker, a few pans hanging [MEDIUM — property listings for older CABA flats: pinotea or parquet floors, wooden "barrio" shutters, front balcony, tiled kitchen with marble counter].
+  - *Light:* side daylight from the balcony door, softened by the shutter slats into thin stripes; at cena, a **warm pendant lamp low over the table** or a ceiling fitting, plus the cool flicker of a TV in a corner (screen unreadable) [EDITORIAL; LOW — not verified].
+  - *Palette:* honey-brown wood floor, white walls, grey city light, dark wood furniture.
+  - *Signature shapes (3–5):* the tall window with its slatted shutter; the balcony rail with plants; parquet or plank floor lines running to the wall; a dark wooden sideboard; the TV glow.
+  - *Density and wear:* lived-in, moderately full, well-kept older finishes rather than new ones.
+  - *People:* one blurred family member or flatmate at the kitchen doorway.
+- **Shell:** a 1950s–70s concrete block or an older French or Italian-style building; **parquet or pine plank (pinotea) floors**; tall wooden shutters; a narrow galley kitchen [MEDIUM — property listings; file notes].
+- **The table as set here:** a rectangular or round wooden table by the window, a plain or lightly patterned cloth or bare wood with individual mats; a **bread basket**, salt, olive oil and vinegar cruets, a jug of water kept out of frame; plain white plates, everyday stainless cutlery, plain glass tumblers. Chair edges: wooden or upholstered dining chairs [EDITORIAL; MEDIUM for bread at every meal, per GENERAL NORMS].
+- **Subregional variants and the national default:** *Conurbano and provincial brick house (the national default outside CABA):* a dining corner with ceramic floor tiles, a window onto the back patio and the parrilla, aluminium window frames with roller shutters (persianas de PVC), more colour on the walls. *PH / casa chorizo:* patterned cement tiles (mosaicos calcáreos) and a long tiled patio of potted plants through the door (shared with `uruguay.md`). *Patagonia:* wood-lined walls and a wood stove. *NOA:* thick whitewashed adobe walls, small deep windows [MEDIUM for PH tiles per file; LOW for the zone details — not verified].
+- **Hallucination traps:** "Buenos Aires is Paris" Belle Époque salons as the default home; tango posters, bandoneóns or gaucho gear on the walls; football shirts and flags on every wall; mate gourd and thermos on the table; a US open kitchen with an island.
+- **Never stage:** wine bottles or glasses, the soda siphon, the mate kit; legible TV screens; crests or scarves with marks; a full flag.
+- **Prompt-ready line:** "A Buenos Aires apartment at dinner time: soft background of white plaster walls, a tall balcony door with half-raised wooden shutters and plants on the rail, honey-coloured parquet and a warm pendant lamp; in focus, a wooden table with a bread basket and white plates of milanesa and puré."
+- **Confidence and sources:** MEDIUM. [Argenprop — CABA flats listings](https://www.argenprop.com/departamentos/venta/villa-del-parque/2-ambientes/dolares-75000-100000) (tier 3, listing descriptions for pinotea and parquet floors, wooden shutters, tiled kitchens); house types from the file; staging EDITORIAL. One search this pass.
+
+### Venue: Patio or quincho with the brick parrilla (patio / quincho)
+- **Use for:** home outdoor; the weekend asado, Christmas and New Year in summer, the asado before the match, truco after the asado, birthdays; 1, 2 or a small group as a snapshot of 6–15 or more. The signature venue of the file: the celebrations and game-night sections stage more scenes here than anywhere else [HIGH for the asado as the weekend ritual, per the file; EDITORIAL for the ranking].
+- **Soft background (the core):**
+  - *Back wall:* the **built-in brick parrilla** at waist height with its tall brick chimney hood, a **side brasero** glowing orange, the V-bar grate with cuts laid out, thin blue-grey smoke; exposed red brick or brick-and-cement walls around it, often with brick work counters (mesadas) [HIGH for the rig, per CROSS-CUTTING REGISTER: ASADO & PARRILLA; MEDIUM — La Nación, Homify and Para Ti on brick parrillas and quinchos].
+  - *Overhead:* the quincho roof: **eucalyptus or wooden posts and beams**, with cane (cañizo) under the roof, or translucent polycarbonate sheet letting in light; ceramic tiles or sheet metal on simpler builds; a ceiling fan in the north [MEDIUM — Homify, Para Ti; fan LOW].
+  - *Middle distance:* the long table running away from camera with **mismatched chairs or wooden benches**; the garden or tiled patio beyond the open sides: a strip of lawn, a lemon tree or a vine pergola (parral), a brick or rendered boundary wall, a plastic chair or two; the asador's back at the grill as a blur.
+  - *Light:* midday: bright open-sided light with the roof throwing the table into soft shade, the brasero as a warm orange glow; summer evening: golden low sun through the open side, then a single warm bulb or string of lights under the roof.
+  - *Palette:* red brick, honey wood, white smoke, green garden, the orange of the embers.
+  - *Signature shapes (3–5):* the brick chimney hood; the grate with meat; the glow of the brasero; roof beams; the long table with a run of bread baskets and salad bowls.
+  - *Density and wear:* well-used and comfortable; soot on the brick, worn wood.
+  - *People:* the asador at the grill and one or two guests at the far end, blurred.
+- **Shell:** a roofed outdoor room open on one or more sides, or a roofed patio (galería) attached to the house, with a tiled or cement floor [MEDIUM — Homify, La Nación].
+- **The table as set here:** a checked or plain cloth, or bare wood; **a wooden board of carved meat**, bread baskets, bowls of chimichurri and salsa criolla, a mixed salad and a potato salad; everyday ceramic plates and **wooden-handled steak knives**, often mismatched; paper napkins. Chair edges: wooden benches or folding and plastic chairs [MEDIUM — per the file's asado register and celebration entry].
+- **Subregional variants and the national default:** the conurbano or zone 2 patio is the default for any asado brief (per Default when no zone is named). *CABA:* a smaller tiled PH patio or a **balcony or terrace parrilla** in a newer tower, a steel grill against a city backdrop (a secondary register). *Cuyo:* the table under a vine pergola with poplars and the Andes beyond. *Patagonia:* a whole lamb on an iron cross (asador) leaning over embers; wood and stone. *NEA:* a ceiling fan, tierra colorada and dense green [per file scenario; LOW for zone details].
+- **Hallucination traps:** a US gas barbecue or kettle grill with flames licking the meat; a Brazilian churrascaria skewer service; gauchos in bombachas and boinas; an estancia with horses as the default; lavish catering décor.
+- **Never stage:** wine glasses and bottles, beer, fernet with cola, cut plastic bottles used as jugs, the soda siphon, the mate kit; legible club colours or crests; a full flag.
+- **Prompt-ready line:** "An Argentine weekend asado under a quincho roof: soft background of a sooty red-brick parrilla with a glowing ember box, thin smoke over meat on the grate, eucalyptus roof beams and a green garden beyond; in focus, the end of a long wooden table with a board of carved meat, a bread basket and bowls of chimichurri."
+- **Confidence and sources:** MEDIUM-HIGH. [Homify — quinchos](https://www.homify.com.ar/libros_de_ideas/6060372/quinchos-todo-lo-que-tenes-que-saber-para-disenar-ese-rinconcito-100-argentino); [La Nación — ideas de parrillas](https://www.lanacion.com.ar/lifestyle/17-ideas-de-parrillas-para-tu-casa-nid2105525/); [Para Ti — quincho perfecto](https://parati.com.ar/todo-lo-que-necesitas-para-tener-un-quincho-perfecto/amp) (tier 2–3 design press); rig per the ASADO register. One search this pass.
+
+### Venue: Bodegón porteño
+- **Use for:** restaurant, indoor; the 2–3-person table, Sunday family lunch out, a weeknight cena; oversized shared portions. The signature casual sit-down restaurant of Buenos Aires [HIGH for the aesthetic, per Scenario: Away from home — 2–3 people].
+- **Soft background (the core):**
+  - *Back wall:* **exposed brick or dark wood panelling**, crowded with **black-and-white photographs** of old Buenos Aires and football or tango memorabilia (kept generic and soft); **old mirrors with curved frames**; wooden **shelves of preserves (conservas) and tins**; in many, **cured hams and sausages hanging from the ceiling** over the counter [MEDIUM — Ámbito on new and classic bodegones: checked cloths, checkered floor, exposed brick, walls of photos, shelves of conservas, hanging hams, curved mirrors, wooden side bar].
+  - *Middle distance:* a long **dark wooden counter (barra)** as a warm horizontal band; an old wooden cold cabinet; other tables close together with diners as blurred shapes; a **waiter in white shirt and black apron** crossing the frame.
+  - *Light:* warm, slightly dim: globe pendants or old ceiling fittings, warm light bouncing off mirrors; daylight from a corner window at lunch.
+  - *Palette:* red-and-white checks, black-and-white floor, dark wood, red brick, sepia photographs.
+  - *Signature shapes (3–5):* the **checkerboard floor**; hanging hams; the dark wooden counter; the photo-covered wall; curved mirrors.
+  - *Density and wear:* busy, packed, decades of wear; nothing new-looking.
+  - *People:* the waiter and one or two diners, blurred, within the limit.
+- **Shell:** a corner building from the late 19th or early 20th century, high ceiling, tall windows, a black-and-white checkerboard tile floor [MEDIUM — Ámbito; La Nación on an 1880 corner bodegón].
+- **The table as set here:** a **white cloth with a red-and-white checked cloth over it** (or the checked cloth alone); a bread basket, salt, oil and vinegar cruets; **oversized milanesas or pasta on oval stainless-steel or tin platters** set in the middle and shared; plain white plates; heavy stainless cutlery. Chair edges: bentwood or simple wooden chairs [HIGH for checked cloths and oval platters, per the file; MEDIUM for the double cloth — Ámbito].
+- **Subregional variants and the national default:** Buenos Aires is the default and the bodegón is chiefly a porteño form; Rosario, La Plata and Córdoba have their own versions in the same style. *Cantina (La Boca, Italian roots):* the same with more Italian-flag colours and pasta (keep flags out). *New-wave bodegones (Palermo):* the same look, cleaner, brighter, newer wood [EDITORIAL; LOW — not verified for regional versions].
+- **Hallucination traps:** the Spanish bodegón still-life painting (the word means both); a Spanish tapas bar with legs of jamón ibérico on a stand and bar stools; an Italian-American red-sauce trattoria with Chianti flasks; tango dancers; wine racks as the back wall.
+- **Never stage:** the **soda siphon**, wine bottles, the **penguin-shaped wine jug (pingüino)**, wine glasses, beer; bottles on the shelves (shelves hold jars and tins only); legible menus, chalkboards or photo captions; club crests.
+- **Prompt-ready line:** "A classic Buenos Aires bodegón: soft background of a black-and-white checkerboard floor, a long dark wooden counter under hanging cured hams, exposed brick hung with old black-and-white photographs and a curved mirror; in focus, a red-and-white checked tablecloth with an oversized milanesa napolitana on an oval steel platter and a bread basket."
+- **Confidence and sources:** MEDIUM-HIGH. [Ámbito — nueva apertura en Palermo](https://www.ambito.com/lifestyle/nueva-apertura-palermo-un-bodegon-cocina-portena-y-porciones-abundantes-n6268037); [Ámbito — bodegones y cantinas](https://www.ambito.com/uruguay/bodegones-y-cantinas-el-sabor-la-tradicion-portena-n6262943); [La Nación — de posta a bodegón](https://www.lanacion.com.ar/buenos-aires/de-posta-a-bodegon-la-esquina-de-1880-que-frecuento-la-bohemia-arrabalera-y-ahora-apuesta-a-la-nid13052022/); plus canal26 and Pipol as cited in the scenario. One search this pass.
+
+### Venue: Neighbourhood parrilla (parrilla de barrio)
+- **Use for:** restaurant, indoor; the 1-person lunch (bife de chorizo), a parrillada for 2–3, weekend family meals. The everyday steak restaurant [MEDIUM — per Scenario: Away from home — 1 person].
+- **Soft background (the core):**
+  - *Back wall or focal point:* the **grill station in view**: a large steel parrilla behind glass or a low wall, the **parrillero** in a white shirt or apron working it, embers glowing and thin smoke, a stainless hood over it; cuts on the grate as dark shapes; in some, a glass-fronted cold cabinet of aged meat [MEDIUM — Time Out and the file's register row].
+  - *Middle distance:* tables close together; **waiters in white shirts and black trousers, older ones in bow ties**; plain painted or wood-panelled walls with a few framed photos or a mounted clock; the corner window to the street.
+  - *Light:* warm-white interior light, the orange glow of the grill; daylight from street windows at lunch.
+  - *Palette:* white cloths, dark wood, steel, the orange of embers, the brown of grilled meat.
+  - *Signature shapes (3–5):* the glowing grill behind glass; the steel hood; rows of white-clothed tables; the white-shirted waiter; the stack of bread baskets.
+  - *Density and wear:* busy and plain; function over décor.
+  - *People:* the parrillero's back and one waiter, blurred.
+- **Shell:** a street-corner or mid-block room with large windows, tiled floor, plain ceiling with simple fittings.
+- **The table as set here:** **white cloth, often with white paper laid over it**, or in the plainest places a paper cloth on a plastic or wooden table; a bread basket, a bowl of **chimichurri**, salt; **wooden-handled serrated steak knives**; plain white plates; a **parrillita** (small table-top brazier) for a mixed grill for two or more [MEDIUM — Time Out Buenos Aires (white cloths, bow-tied waiters; paper cloths and plastic tables in the cheapest); per register row].
+- **Subregional variants and the national default:** Buenos Aires is the default. *Roadside parrillas in zones 2 and 3:* larger, rustic, a big open grill, wooden beams, a garden. *Patagonia:* a lamb on the iron cross in a glassed-in fire pit (asador criollo) as the focal point [LOW — not verified].
+- **Hallucination traps:** a US steakhouse with leather booths and dark moody lighting; a Brazilian churrascaria with passadores and skewers; a tourist "tango show" parrilla; flames leaping on a gas grill; gaucho décor.
+- **Never stage:** wine bottles in ice buckets, wine glasses on the cloth, the soda siphon; legible menus or price boards; brand logos on the grill hood.
+- **Prompt-ready line:** "A Buenos Aires neighbourhood parrilla at lunchtime: soft background of a steel grill glowing with embers behind glass, a white-shirted grill cook and white-clothed tables close together; in focus, a white cloth with a bife de chorizo, a wooden-handled steak knife, a bread basket and a small bowl of chimichurri."
+- **Confidence and sources:** MEDIUM. [Time Out — mejores parrillas de Buenos Aires](https://www.timeout.com/es/buenos-aires/restaurantes/mejores-parrillas-carnes); [Time Out — parrillitas de barrio](https://www.timeout.com/es/buenos-aires/parrillitas-barrio-asado-carne); register row. One search this pass.
+
+### Venue: Choripán cart on the Costanera or outside the cancha (carrito)
+- **Use for:** other / street; meal on the go for 1, a stop for 2–3, the pre-match carrito; afternoon and evening. A real but thinner street register than Mexico's [MEDIUM — per Scenario: Meal on the go].
+- **Soft background (the core):**
+  - *The cart itself:* a boxy steel food cart with a **striped awning** (the Costanera Sur's current carts are brown outside, white inside, with white-and-yellow striped awnings), a **flat grill** with chorizos and bondiola smoking, a counter lined with **rows of glass jars** of chimichurri, salsa criolla and pickled vegetables; a drinks fridge as a lit rectangle (brand panels blurred) [HIGH for the Costanera Sur cart design — Buenos Aires City Government; MEDIUM for the jar rows — travel and blog sources].
+  - *Middle distance:* other carts in a row as repeating striped awnings; **folding tables and plastic chairs** beside the carts; on the Costanera, a riverside rail and the reeds and lagoons of the ecological reserve as soft green and brown; outside a stadium, the concrete mass of the stand and the crowd as blur.
+  - *Light:* afternoon sun or golden hour on the promenade; at night, fluorescent tubes inside the cart, streetlights and stadium floodlights as large white bokeh.
+  - *Palette:* steel, striped awning colours, green reeds, brown-grey river sky.
+  - *Signature shapes (3–5):* the striped awning; the row of condiment jars; smoke over the flat grill; the riverside rail or stadium floodlight towers; folding tables.
+  - *Density and wear:* busy on weekends; worn but clean.
+  - *People:* the cart cook in an apron and one or two customers queueing, blurred, backs turned.
+- **Shell:** the open promenade, sidewalk or stadium surroundings.
+- **The table as set here:** the cart's steel counter or a folding table: the choripán on a paper napkin or in a paper sleeve, spoons in the chimichurri and criolla jars, a stack of paper napkins [MEDIUM].
+- **Subregional variants and the national default:** the Costanera Sur (Buenos Aires) is the default. *Outside the cancha:* a rougher steel cart or a half-drum grill on the sidewalk. *Rosario, Córdoba and provincial ferias:* the same in a plaza or riverside [LOW — not verified].
+- **Hallucination traps:** a US hot-dog cart; a Mexican taco stand with a coloured tarp; a gourmet food truck with graffiti art; club banners and flares.
+- **Never stage:** beer, fernet; legible menus, price boards or fridge brand panels; club colours with crests; police lines; food in a hand.
+- **Prompt-ready line:** "A choripán cart on the Buenos Aires riverside: soft background of a white-and-yellow striped awning, smoke over a flat grill, a row of chimichurri jars catching the light and reeds along the river under a grey-blue sky; in focus, a choripán on a paper napkin on the steel counter."
+- **Confidence and sources:** MEDIUM-HIGH. [Buenos Aires Ciudad — carritos más modernos en la Costanera Sur](https://buenosaires.gob.ar/noticias/carritos-mas-modernos-y-seguros-en-la-costanera-sur); [Burrita de viaje — Carritos Costanera Sur](https://burritadeviaje.com/carritos-costanera-sur/) (tier 4). One search this pass.
+
+### Venue: Hired party hall (salón de fiestas)
+- **Use for:** other; fiesta de 15 and wedding dinners (~22:00 onward), the mesa dulce, children's birthdays in a salón infantil; 1, 2 or a small group as a snapshot of 100–200 [LOW-MEDIUM — catering brackets, per CELEBRATIONS].
+- **Soft background (the core):**
+  - *Walls and ceiling:* **light fabric draped across the ceiling and walls** in the theme colour, lit from below; perimeter LED uplights washing the walls in colour [MEDIUM — ineventos and inolvidables15 salón listings: fabric on ceilings and walls, perimeter lights, robotic lighting, haze on the dance floor].
+  - *Middle distance:* **round tables of 10** in strong-coloured or white cloths with runners, **chairs dressed with bows**; centrepieces of **low candles in glass with coloured crystals** or tall arrangements; the **dance floor** with haze, laser dots and moving lights; a large screen or LED wall as a soft field of colour; the mesa dulce as a lit table of small desserts.
+  - *Light:* warm light over the tables, coloured and moving light everywhere else; it is a late-night scene.
+  - *Palette:* white cloths plus one theme colour, deep coloured light behind.
+  - *Signature shapes (3–5):* round tables receding; candle clusters; laser and moving-light dots in haze; the bright mesa dulce; draped fabric swags.
+  - *Density and wear:* dense, decorated, new-looking.
+  - *People:* one or two blurred guests or a waiter (mozo) in black, backs or profiles; the quinceañera or couple never in the hero frame.
+- **Shell:** a purpose-built hall in the conurbano or a quinta (country house) with a garden; few or covered windows.
+- **The table as set here:** cloth and runner; white china, full cutlery, cloth napkin; a bread basket; plain tumblers (no wine glasses). Chair edge: a dressed chair with a bow [MEDIUM — per celebration entries].
+- **Subregional variants and the national default:** the conurbano salón is the default. *Quinta:* tables under a marquee or on a lawn with string lights and trees. *Provinces:* the same model at smaller scale [EDITORIAL].
+- **Hallucination traps:** a US hotel ballroom; a Mexican quinceañera with charro or mariachi cues; a rustic barn wedding; an open bar with bottles in view.
+- **Never stage:** the barra de tragos, bottles, wine glasses or flutes, the toast, fernet; legible names on screens or backdrops; identifiable minors.
+- **Prompt-ready line:** "An Argentine salón de fiestas late at night: soft background of fabric draped from the ceiling in deep violet light, round tables with candle clusters in glass and moving dance-floor lights in a faint haze; in focus, a white plate with a plated main, full cutlery and a folded cloth napkin."
+- **Confidence and sources:** MEDIUM for the salón package ([ineventos — temáticas fiesta de 15](https://www.ineventos.com/ar/blog/3-tematicas-musicales-para-la-fiesta-de-15.html); [Inolvidables 15 — salones de fiesta](https://www.inolvidables15.com/servicios-para-fiesta/Salones-de-Fiesta.html), tier 3); staging EDITORIAL. One search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2652,6 +2769,15 @@ brief names the SKU):**
   and cafés (MEDIUM). Unverified [LOW]: kick-off times and intake
   mapping, the carrito-outside-the-cancha scene, any menu tied to truco,
   generala and chinchón, and porotos (beans) as truco score counters.
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  this pass [LOW]: the pale, neutral palette of porteño flat interiors,
+  the pendant lamp over the table, and all zone variants for the flat
+  and the quincho (Cuyo, Patagonia, NEA, NOA details); regional bodegón
+  versions; roadside and Patagonian parrillas; the carrito outside the
+  cancha (the Costanera Sur cart design is HIGH, the stadium version is
+  not); the salón's light and décor rest on tier-3 vendor listings only.
+  The flat's interior relies on property-listing descriptions. Check all
+  six prompt-ready lines in image tests.
 
 ## CANDIDATE QUEUE
 
@@ -2722,3 +2848,10 @@ brief names the SKU):**
   watch-party entries (Selección at home with picada, asado before the
   match, choripán outside the cancha) and two truco entries (after the
   asado; merienda or café).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  Buenos Aires flat kitchen-dining corner, patio/quincho with the brick
+  parrilla, bodegón porteño, neighbourhood parrilla, choripán carrito,
+  and the salón de fiestas. Sources: Ámbito, La Nación, Time Out, Homify,
+  Para Ti, the Buenos Aires City Government, property listings and
+  salón vendors; open items in GAP LOG.

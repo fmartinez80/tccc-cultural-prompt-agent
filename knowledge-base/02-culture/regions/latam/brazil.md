@@ -194,6 +194,105 @@ culturally specific term is not guaranteed to render (§7.5).
 | **Almoço de família at home** | A table with a patterned plastic or cotton cloth, rice and beans in their pots or serving bowls, a salad bowl, farofa, a meat platter; a 2 L bottle in the midground. |
 | **Beach (Rio, Northeast)** | Sand, rented plastic chairs and parasols, a cooler, vendors walking the beach; a canga (printed sarong) spread on the sand; food resting on a folding table or the cooler lid. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-used staging venues). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 1 (São Paulo) is the default; other zones are variants, and where a zone has no detail the São Paulo version applies [EDITORIAL]. The lanchonete counter stands in as the on-the-go venue because Brazil's grab-and-go is counter-based (see Scenario: Meal on the go). File-wide rules apply throughout; beer (and the insulated beer sleeve), caipirinha and the boteco look are the strongest priors, so negate them in every prompt. The boteco is not profiled in this wave because it is drinking-led. The QUICK-REFERENCE table above stays as the short index.
+
+### Venue: Family house, kitchen-dining corner (casa: cozinha e copa)
+- **Use for:** home indoor; casual lunch for 1, 2 or 3, the lighter janta, the Saturday feijoada, the Christmas ceia, the living-room watch party. The national default: 84.8% of people live in houses (IBGE 2022); a middle-class São Paulo, Rio or Curitiba apartment is the co-equal urban variant (see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the default].
+- **Soft background (the core):**
+  - *Back wall:* the kitchen wall in **white or cream glazed ceramic tile (azulejo)** to head height or full height, often with a single decorative tile band; above it or in the copa (dining nook), plain white or pale painted walls; a wall clock, a small framed picture or a religious image kept small and soft [MEDIUM — Archtrends "10 itens típicos das casas brasileiras"; file interior markers].
+  - *Middle distance:* the compact kitchen: a white four- or six-burner gas stove with the **pressure cooker** (panela de pressão) and an aluminium rice pot on it; a granite or marble counter with a sink; the **clay water filter** (filtro de barro, a terracotta jar on a stand, or a white plastic purifier on the wall); a fridge; a dish rack of aluminium and plastic; potted plants on the window sill [MEDIUM — Archtrends on the clay filter and tiled kitchens; pressure cooker per file, not re-checked].
+  - *Light:* bright daylight through a **basculante window** (horizontal pivoting glass panes, often textured or frosted) behind a **steel grille**, so the window reads as a pale panel cut by horizontal bars; at night, a cool-white ceiling light (often a fluorescent or LED panel) and the TV glow from the next room [MEDIUM for basculante windows and grilles — Archtrends; LOW-MEDIUM for the cool ceiling light — not verified].
+  - *Palette:* white and cream tile, pale walls, grey granite, terracotta of the filter, the pattern of the tablecloth; the light is bright and slightly cool.
+  - *Signature shapes (3–5):* the grid of white wall tiles; the pressure cooker's silhouette on the stove; the terracotta filter jar; the barred basculante window; a ceiling fan as a blurred disc in warm zones.
+  - *Density and wear:* tidy, clean, busy surfaces; well-kept rather than new.
+  - *People:* one blurred family member at the stove or in the doorway.
+- **Shell:** a one- or two-storey masonry house behind a wall and gate, flat concrete-slab ceiling, **ceramic or porcelain tile floor** (beige, white or stone-look); an older house may have red cement or ceramic-shard (caquinhos) floors in the yard or service area [MEDIUM — Universo Retrô on caquinhos as a mid-century São Paulo marker; file markers].
+- **The table as set here:** a rectangular table for 4–6 with a **patterned plastic or cotton cloth** (floral, checked, fruit); **rice and beans in their pots on trivets or in serving bowls**, a salad bowl, a small bowl of farofa, a meat platter; everyday white or patterned ceramic plates, stainless cutlery (fork and knife), plain glasses. Chair edges: wooden or metal chairs with upholstered seats [MEDIUM — per register and scenarios].
+- **Subregional variants and the national default:** São Paulo house is the default. *Apartment (big coastal and southeastern cities):* the same table in a combined living-dining room with a sliding balcony door and the city's towers as grey-beige soft blocks. *Minas Gerais:* a **wood-burning stove (fogão a lenha)** in older or rural houses, whitewashed walls, blue or ochre frames. *North and Northeast:* ceiling fans, louvred windows, hammock hooks, brighter wall colours. *South:* a wood stove or heater in winter, the chimarrão kit kept out of frame [MEDIUM for Minas per zone table; LOW for other details — not verified].
+- **Hallucination traps:** Carnival decor or samba props; a Mexican or Spanish kitchen with Talavera tiles and terracotta pots (Hispanic conflation); a beach house view of a landmark hill; favela framing (bare brick, corrugated roofs) as the default; a US open-plan kitchen with an island.
+- **Never stage:** beer, caipirinha, the chimarrão gourd, guaraná or any other non-hero drink; legible packaging on the counter; a football shirt with a crest; a full flag.
+- **Prompt-ready line:** "A tidy Brazilian family kitchen at midday: soft background of white glazed wall tiles, a gas stove with a pressure cooker, a terracotta clay water filter and bright light through a barred, frosted pivoting window; in focus, a table with a patterned plastic cloth, rice and beans in their pots and a bowl of farofa."
+- **Confidence and sources:** MEDIUM. [Archtrends — 10 itens típicos das casas brasileiras](https://blog.archtrends.com/nostalgia/); [Universo Retrô — piso de caquinhos](https://universoretro.com.br/piso-de-caquinhos-das-casas-brasileiras-dos-anos-50-a-arquitetura-atual/) (tier 2–3 design press); housing HIGH (IBGE, as cited). One search this pass.
+
+### Venue: Covered barbecue terrace or laje (área de churrasqueira / laje)
+- **Use for:** home outdoor; the Sunday churrasco, Dia dos Pais, birthdays, the weekend-match churrasco, cards at the churrasco; 1, 2 or a small group as a snapshot of 8–25. The signature home-outdoor venue [HIGH for the home churrasco as the weekend ritual, per the file].
+- **Soft background (the core):**
+  - *Back wall:* the **built-in or pre-moulded concrete churrasqueira** with its chimney hood, often clad in **white or patterned tile, brick or granite**, skewers laid across it over glowing charcoal, thin smoke; beside it a **granite or tiled counter with a sink** [MEDIUM — Leroy Merlin and Archtrends on área de churrasqueira layouts: grill, counter with sink, table, often a TV].
+  - *Overhead:* a concrete slab or a tiled roof on the covered terrace, a **ceiling fan**; on a laje (flat roof slab), open sky instead, with a **blue or grey water tank (caixa d'água)** and neighbouring rooftops and walls as soft shapes.
+  - *Middle distance:* the long table running out of frame with **white plastic chairs**; the quintal (back yard) beyond the terrace: a tiled or cement floor, potted plants, a fruit tree, the house's boundary wall; a TV on a bracket under the roof for match days (a soft glow) [file scenario; LOW for the TV].
+  - *Light:* midday shade under the roof with bright yard beyond; golden-hour sun raking in; the orange glow of charcoal; at dusk, a bare bulb or tube under the roof.
+  - *Palette:* white tile, red brick or grey concrete, white plastic, green plants, bright sky.
+  - *Signature shapes (3–5):* the chimney-hooded grill with skewers; the ceiling fan; white plastic chairs; the water tank on a laje; the sink counter.
+  - *Density and wear:* busy, relaxed, lived-in; a slightly sooty grill.
+  - *People:* the churrasqueiro slicing at the grill and one or two relatives, blurred.
+- **Shell:** a covered terrace at the back of a house, or the roof slab of a self-built house (laje), or an apartment's varanda gourmet or the condominium grill area.
+- **The table as set here:** a long table, or two pushed together, with a **plastic or cotton cloth**; **a wooden board of sliced picanha and linguiça**, skewers resting on the board, bowls of farofa, vinagrete, white rice and maionese, garlic bread; everyday plates and cutlery, paper napkins [MEDIUM — per the churrasco celebration entry].
+- **Subregional variants and the national default:** the São Paulo house terrace is the default. *South (zone 4):* the gaúcho fogo de chão or a big brick grill with long skewers, more beef, chimarrão out of frame. *Laje (dense working-class neighbourhoods in SP and Rio):* open roof, water tank, hills or roofs behind. *Apartment varanda gourmet:* a compact grill and counter behind a glass railing, towers beyond [LOW — not verified for zone details].
+- **Hallucination traps:** an Argentine parrilla with a side brasero and V-bars; a US gas grill; a churrascaria waiter with a skewer; gaúcho costume outside zone 4; Copacabana in the background.
+- **Never stage:** beer bottles, cans or insulated beer sleeves (the strongest prior here), caipirinha, a beer cooler; football shirts with crests; a full flag (green-and-yellow bunting only).
+- **Prompt-ready line:** "A Brazilian Sunday churrasco on a covered back terrace: soft background of a white-tiled grill with skewers over glowing charcoal, a ceiling fan, white plastic chairs and a sunny yard with plants beyond; in focus, a plastic-clothed table with a wooden board of sliced picanha and bowls of farofa and vinagrete."
+- **Confidence and sources:** MEDIUM. [Leroy Merlin — área de churrasqueira](https://blog.leroymerlin.com.br/decoracao-para-area-de-churrasqueira/); [Archtrends — churrasqueira pré-moldada](https://blog.archtrends.com/churrasqueira-pre-moldada/) (tier 3); churrasco entry sources. One search this pass.
+
+### Venue: Pay-by-weight restaurant (restaurante por quilo)
+- **Use for:** restaurant, indoor; the weekday lunch for 1 (and colleagues, 2–3), 12:00–13:30; the default casual sit-down restaurant [HIGH for por quilo as an everyday lunch institution — see catalog entry].
+- **Soft background (the core):**
+  - *Back wall or focal point:* the **long hot buffet** of stainless trays under **tempered-glass sneeze guards** with LED strip light, steam rising, a row of serving spoons; rice, two bean pots, salads, pasta, stews and grilled meats as bands of white, brown, green and red; at the end, the **scale** on a counter (display blurred) [MEDIUM — ConnectPlug guide: buffets and displays, glass sneeze guards with LED, electric bain-maries, the scale].
+  - *Middle distance:* simple square tables in rows with diners in office clothes as blurred shapes; plain painted or tiled walls, a few framed prints or plants; a drinks fridge as a lit rectangle (brand panels blurred).
+  - *Light:* bright, even, cool-white fluorescent or LED ceiling light; daylight from street windows; the warmer glow of the heated buffet.
+  - *Palette:* stainless steel, white plates, the coloured bands of food, pale walls.
+  - *Signature shapes (3–5):* the glass-and-steel buffet line; steam over the trays; stacks of large white plates; rows of square tables; the scale.
+  - *Density and wear:* packed at 12:15, clean and functional, no décor statement.
+  - *People:* a queue at the buffet as soft backs, staff in caps and aprons, within the limit.
+- **Shell:** a ground-floor commercial room near offices, tiled floor, plain ceiling with light panels.
+- **The table as set here:** a small square table with a **plain, striped, polka-dot or checked cloth**, or a placemat on bare laminate; a napkin dispenser, salt, toothpicks, sometimes oil and vinegar; a **large white plate** built from the buffet; stainless cutlery, often wrapped in a paper napkin. Chair edges: simple wooden or metal chairs [MEDIUM — ConnectPlug on cloths; per register].
+- **Subregional variants and the national default:** São Paulo is the default (nationwide format, invented in Belo Horizonte). *Minas Gerais:* mineiro dishes on the buffet, a fogão a lenha on display in some. *North and Northeast:* a ceiling fan, regional dishes (carne de sol, macaxeira) [MEDIUM for the Minas origin per file; LOW for décor details].
+- **Hallucination traps:** a US all-you-can-eat buffet with sneeze guards in a mall chain look; a hotel breakfast buffet; a churrascaria rodízio with waiters carrying skewers; a canteen tray-line with plastic trays.
+- **Never stage:** beer or any non-hero drink on the table; the scale's legible display or price cards; brand marks on fridges or napkin dispensers.
+- **Prompt-ready line:** "A busy São Paulo pay-by-weight lunch restaurant: soft background of a long steaming buffet of stainless trays under glass sneeze guards, rows of simple tables with office workers and bright, even ceiling light; in focus, a large white plate of rice, beans, salad and grilled chicken on a checked tablecloth."
+- **Confidence and sources:** MEDIUM. [ConnectPlug — restaurante a quilo](https://blog.connectplug.com.br/restaurante-a-quilo/) (tier 3, a POS vendor's setup guide); catalog entry sources. One search this pass.
+
+### Venue: Lanchonete or padaria counter (balcão de lanchonete / padaria)
+- **Use for:** other / on the go; the 1-person snack or quick lunch, a coxinha or pão de queijo stop for 2; all day (the morning use is out of scope). The single most useful everyday register in the file [MEDIUM, per CROSS-CUTTING REGISTER].
+- **Soft background (the core):**
+  - *Back wall:* **ceramic wall tiles** (classic São Paulo padarias have yellow or cream tiles; newer ones white), shelves of loaves and packaged goods (labels blurred), a coffee machine as a chrome shape, a menu panel above as a blurred light box [MEDIUM — Época São Paulo supplement on classic padarias: yellow tiles, formica counters, swivel stools].
+  - *Middle distance:* the **heated glass display case (estufa)** of golden salgados (coxinhas, kibes, esfihas) lit warm from inside; the counter staff in caps and aprons; the bread display with **pão francês** in baskets; a refrigerated case of cakes.
+  - *Light:* the warm glow inside the estufa and bread display; cool-white overhead fluorescent or LED; daylight from the open street front with a roll-up door.
+  - *Palette:* golden-brown salgados, chrome and steel, cream or yellow tile, white light.
+  - *Signature shapes (3–5):* the glowing estufa; **round swivel stools fixed to the floor** along the counter; the long counter edge; baskets of pão francês; the chrome coffee machine.
+  - *Density and wear:* busy, clean, decades-old in classic padarias, brighter in newer ones.
+  - *People:* counter staff and one or two customers at the far end of the counter, blurred.
+- **Shell:** a corner or street-front shop with a wide opening to the street (roll-up door), tiled floor.
+- **The table as set here:** the **formica, steel or granite counter**: a small white plate or a paper napkin under the salgado, a **paper-napkin dispenser**, a bottle of chilli sauce or ketchup in a plain dispenser (no labels); the hero on the counter. Stool edges: chrome swivel stools with vinyl seats [MEDIUM — per register and Época SP].
+- **Subregional variants and the national default:** São Paulo padaria is the default. *Rio:* the lanchonete with a juice counter and fruit displayed (juices out of frame), a tiled boteco-style front. *Salvador (zone 5):* the acarajé tabuleiro replaces the counter (see register). *Belém (zone 7):* tacacá stalls [per file].
+- **Hallucination traps:** a US diner with booths and neon; a Parisian boulangerie; an American coffee-chain look; a Portuguese pastelaria with pastéis de nata as the focus.
+- **Never stage:** beer taps or bottles, juices or coffee cups beside the hero, legible light-box menus or price cards, branded fridges or packaging.
+- **Prompt-ready line:** "A classic São Paulo padaria counter: soft background of cream wall tiles, a warmly lit glass display case of golden coxinhas and esfihas, chrome swivel stools and baskets of bread rolls; in focus, a coxinha on a small white plate on a formica counter beside a paper-napkin dispenser."
+- **Confidence and sources:** MEDIUM. [Época São Paulo — 32 atrações (SPTuris PDF)](https://imprensa.spturis.com.br/wp-content/uploads/2012/05/RV-%C3%89poca-MSP-Suplemento.pdf) (tier 2); [Loja Sebem — balcão estufa](https://www.lojasebem.com.br/padaria-e-confeitaria/balcao-estufa/) (tier 3). One search this pass.
+
+### Venue: Party room (salão de festas do condomínio / casa de festas)
+- **Use for:** other; birthday parties (especially children's), baptism lunches, smaller wedding receptions; afternoon or early evening; 1, 2 or a small group as a snapshot of 30–80. Apartment dwellers use the condominium salão; families also hire a commercial casa de festas or buffet infantil (see CELEBRATIONS) [EDITORIAL; MEDIUM — not individually re-checked for the condominium room].
+- **Soft background (the core):**
+  - *Focal point:* the **mesa do bolo**, a decorated display table with the cake at the centre and rows of docinhos in coloured paper cases (forminhas), in front of a **round fabric panel** (currently fashionable) or a printed backdrop and an **organic balloon arch** in the theme colours [MEDIUM — Westwing and party-décor guides on the panel, balloon arches and the mesa do bolo].
+  - *Middle distance:* the guests' tables (square or round) with cloths in the theme colour, **white plastic or wooden chairs**; in a condominium room, a plain tiled hall with a kitchenette counter and large windows or glass doors onto the building's garden or pool; in a casa de festas, a play area with bright structures (no identifiable children, kept far and fully blurred).
+  - *Light:* condominium room: daylight from glass doors and cool ceiling light; casa de festas: warmer, more theatrical light with coloured spots.
+  - *Palette:* the theme colours repeated on balloons, panel and cloths over a neutral tiled room.
+  - *Signature shapes (3–5):* the balloon arch; the round panel; rows of docinhos; the tall cake; trays of salgados being carried.
+  - *Density and wear:* bright, festive, new-looking décor over a plain room.
+  - *People:* one or two blurred adults; a server in black with a tray.
+- **Shell:** a ground-floor or rooftop hall in an apartment building, or a commercial party house; porcelain tile floor.
+- **The table as set here:** a theme-coloured cloth; small **disposable plates and paper napkins** with mini salgados and brigadeiros; plastic forks for cake; disposable cups. Chair edges: white plastic chairs [MEDIUM — per birthday entry].
+- **Subregional variants and the national default:** the São Paulo condominium salão is the default for apartment dwellers; house dwellers hold the same party on the churrasqueira terrace (see that profile). Weddings use salões or country sítios with round tables [EDITORIAL].
+- **Hallucination traps:** a US party venue with a bouncy castle and pizza; a Mexican piñata; a quinceañera-style ballroom; Carnival decorations.
+- **Never stage:** beer for adults; readable names or ages on the panel; licensed characters; identifiable children or children near the product.
+- **Prompt-ready line:** "A Brazilian birthday party in a building's party room: soft background of an organic balloon arch in pastel colours around a round fabric panel, a table of rows of brigadeiros in coloured paper cases and the cake, white plastic chairs on a tiled floor; in focus, a small paper plate with mini coxinhas and brigadeiros."
+- **Confidence and sources:** MEDIUM. [Westwing — decoração de festa infantil](https://www.westwing.com.br/guiar/decoracao-de-festa-infantil/) (tier 3); birthday entry sources. One search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2635,6 +2734,16 @@ named by the brief):**
   (MEDIUM). Unverified [LOW]: the whole viewing-food spread (petiscos,
   churrasco on the laje), Brasileirão kick-off times, the office scene,
   praça dominoes, home console nights and F1 viewing.
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified
+  this pass [LOW]: the cool-white ceiling light and the zone variants of
+  the family kitchen (North and Northeast fans and hammock hooks, the
+  southern wood stove); zone variants of the churrasco terrace (gaúcho
+  fogo de chão, laje, varanda gourmet) and the TV under the roof;
+  regional décor at por quilo restaurants; the casa de festas lighting.
+  The condominium party room as the apartment default is uncontested
+  but not searched. Por quilo, churrasqueira and party-décor details
+  rest on tier-3 vendor and décor guides. Check all five prompt-ready
+  lines in image tests.
 
 ## CANDIDATE QUEUE
 
@@ -2701,3 +2810,11 @@ named by the brief):**
   laje or quintal, weekday match at work) and two social game-night
   entries (cards at the churrasco or family table, dominoes in the praça
   or club).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5
+  searches.** Added VENUE PROFILES after the QUICK-REFERENCE table:
+  family house kitchen-dining corner, covered churrasqueira terrace or
+  laje, restaurante por quilo, lanchonete/padaria counter (the
+  on-the-go venue, since grab-and-go is counter-based), and the party
+  room (condominium salão / casa de festas). Sources: Archtrends,
+  Universo Retrô, Leroy Merlin, ConnectPlug, Época São Paulo, Westwing;
+  open items in GAP LOG.
