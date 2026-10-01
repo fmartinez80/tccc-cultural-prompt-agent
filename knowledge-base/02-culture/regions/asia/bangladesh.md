@@ -1110,6 +1110,167 @@ Nothing here resolves it.
 
 ---
 
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8. The snapshot rule (§5.7) applies: the
+frame shows only the operator's party, and the crowd is implied. **The
+hard staging rules at the top of this file apply to every entry** (halal,
+no alcohol, Hindu-household beef rule, Ramadan, cha/borhani/Rooh Afza
+never beside the hero, no legible Bangla script, nothing in a hand).
+**The Ramadan/iftar staging rule stays exactly as open as it was**
+(hard rule 4, FESTIVALS, GAP LOG): any game-night scene in Ramadan is an
+after-iftar evening scene and is usable only within whatever Fernando
+decides. No existing line in this file covered sport or games before
+this pass.
+
+### Watch parties
+
+Two formats dominate: **cricket** (the national team and the
+Bangladesh Premier League), watched at home and at neighbourhood **tong**
+tea stalls [LOW — not verified], and **World Cup football**, where
+Bangladesh's Argentina and Brazil fandom fills public screens and
+apartment blocks: about 12,000 people watched on LED screens at Dhaka
+University, and neighbours hold overnight watch parties in apartment
+blocks [HIGH — AFP/France24 2022; Al Jazeera July 2026]. The signature
+viewing foods are jhalmuri, singara, chanachur and muri, with cha at the
+tong [LOW — not verified].
+
+#### Watch party: cricket at home and at the tong (national team, BPL)
+- When: the BPL, usually December to February in recent seasons, with
+  evening matches; national-team T20s in the evening, ODIs from early
+  afternoon [LOW — not verified]. Intake time: **golden-hour into
+  evening**; winter BPL evenings are cool and dark early.
+- Gathering: **home**: the family, 4–10 in a Dhaka flat's drawing-dining
+  room [LOW-MEDIUM — editorial]; **tong**: men and young men on the
+  bench, 4–12, around a small TV [LOW — not verified]. Venue: home indoor,
+  or other (tong tea stall).
+- The spread: **home**: **jhalmuri** in a big bowl (see catalog:
+  Jhalmuri), **singara** on a plate (see catalog: Singara and samosa),
+  chanachur in a bowl (no standalone entry; see CANDIDATE QUEUE), and for
+  a family match night **khichuri** or **kacchi** (see catalog: Khichuri;
+  Kacchi biryani) or **fuchka** from a cart (see catalog: Fuchka);
+  **tong**: singara and biscuits from the glass jars on the counter.
+  [LOW — notes]
+- Surface and environment: **home**: the dining table against the wall
+  or a low centre table, a fitted printed table cover, ceiling fan,
+  window grilles, the TV a soft green field. **Tong**: a wooden bench, a
+  small TV on a shelf, glass jars of biscuits, bananas hanging, a string
+  bulb at dusk. **Cha is the authentic tong drink but an intruder
+  drink**: keep the kettle and small glass cups out of frame or fully
+  soft, never beside the hero (hard rule 5; QUICK-REFERENCE "Tong").
+- Snapshot staging: **1 setting** — a small plate of two singara and a
+  paper cone of jhalmuri on plain paper, the hero beside them, the TV
+  glow behind. **2 settings** — two plates; the jhalmuri bowl between.
+  **Small group** — the centre table with the jhalmuri bowl, a singara
+  plate, the chanachur bowl and four small plates; blurred family figures
+  facing the screen. Tong variant: a short stretch of bench with two
+  singara plates and the hero, blurred backs toward the TV.
+- Never stage: the BCB crest, BPL franchise marks, kits with sponsors, a
+  legible screen; betting or fantasy apps; cha glasses beside the hero;
+  newspaper cones (use plain unprinted paper, SCALE REFERENCE).
+- Confidence and sources: LOW throughout (notes, not verified); staging
+  EDITORIAL.
+
+#### Watch party: World Cup night (Argentina and Brazil fandom)
+- When: the FIFA World Cup (June–July every four years) and Copa
+  América. Matches played in the Americas land between midnight and
+  dawn in Bangladesh; European evening kick-offs land around midnight to
+  03:00 [LOW — time-zone arithmetic]. Intake time: **late night**: a
+  night scene with dark windows, a lamp, screen glow and string lights.
+  A dawn final is breakfast-adjacent and out of scope; stage it as the
+  late-night watch, not a breakfast.
+- Gathering: **apartment block**: neighbours from several flats, 10–40,
+  on a rooftop or in a ground-floor parking area with a projector
+  [HIGH for overnight apartment parties — Al Jazeera July 2026;
+  headcount editorial]; **campus or public screen**: thousands [HIGH —
+  France24]. Venue: home outdoor (rooftop or the building's ground
+  floor), or other (campus LED screen).
+- The spread: chanachur and muri in big shared bowls, jhalmuri in paper
+  cones, singara (see catalog: Jhalmuri; Singara and samosa) [HIGH for
+  the overnight party format, food LOW — notes]; at a rooftop party,
+  khichuri or kacchi boxes ordered in (see catalog: Khichuri; Kacchi
+  biryani) [LOW — editorial].
+- Surface and environment: plastic chairs in rows, a folding table, a
+  projector beam on a white sheet or wall as a soft glow, string lights
+  along the parapet, rooftop water tanks as silhouettes; sky-blue-and-
+  white or yellow-and-green **bunting and paper streamers** as colour.
+  Giant Argentina and Brazil flags on rooftops are a real and famous
+  Bangladeshi sight, **but never a full flag** (schema §5.7): cropped
+  flag-palette bunting soft in the background is the most a scene
+  carries.
+- Snapshot staging: **1 setting** — a paper cone of jhalmuri and a
+  singara on a plate at the edge of a folding table, the projector glow
+  far behind. **2 settings** — two plates; a chanachur bowl between.
+  **Small group** — the folding table with the muri and chanachur bowls,
+  a singara platter and four plates; rows of plastic chairs and blurred
+  backs of heads toward the glow (background-people limit).
+- Never stage: a full flag of any country, crests, kits with sponsor
+  marks, Messi or Neymar faces or cut-outs (real people), legible
+  screens; fan clashes; betting; cha glasses beside the hero.
+- Confidence and sources: format HIGH (France24, Al Jazeera); timings and
+  food LOW; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The
+basis: **ludo** "may be the most played" board game and **carrom** is
+part of the culture, played at home, in para (neighbourhood) clubs and
+at tea-stall corners [MEDIUM — Financial Express BD; Sylhet Today].
+Cards are played too but are often gambling-coded and get no entry [LOW
+— not verified]. Iftar-then-games (piyaju, beguni, jilapi, muri) is
+listed in the notes at LOW and inherits the open iftar decision; this
+file's own neutral alternative, the after-iftar evening snack table,
+covers it without a new rule.
+
+#### Game night: family ludo at home
+- When: evenings at home, rainy-season and winter evenings, Eid
+  holidays. Intake time: **evening** [LOW — editorial].
+- Gathering: 2–4 players (siblings, cousins, parents), onlookers
+  [LOW-MEDIUM — editorial]. Venue: home indoor (the bed or a floor mat,
+  the dining table or the centre table in a Dhaka flat).
+- The spread: **muri makha** or **jhalmuri** in a bowl (see catalog:
+  Jhalmuri), chanachur, and in winter **pitha** on a plate (see catalog:
+  Pitha — bhapa, chitoi and patishapta) [LOW — notes list muri makha,
+  chanachur, pitha and tea; tea excluded].
+- Surface and environment: a plain wooden or card ludo board, generic
+  counters and a dice; a ceiling fan, window grilles, a tube light or a
+  warm lamp; a monsoon window with rain for a rainy evening.
+- Snapshot staging: **1 setting** — the board at one side, a small bowl
+  of jhalmuri and the hero beside it. **2 settings** — two small bowls at
+  opposite corners of the board. **Small group** — four small plates, one
+  by each colour, the muri bowl and a pitha plate at the edge; a blurred
+  onlooker on the bed's edge.
+- Never stage: a phone showing a ludo app legibly, a branded board,
+  money; children's faces (implied only, schema §5.7); cha cups beside
+  the hero.
+- Confidence and sources: ludo MEDIUM; food LOW; staging EDITORIAL.
+
+#### Game night: carrom in the para club or courtyard
+- When: late afternoons and evenings, all year; a winter-evening
+  favourite [LOW — not verified]. Intake time: **golden-hour** into
+  evening.
+- Gathering: 4 players in pairs, young men with onlookers in a para
+  club; family members in a village courtyard [MEDIUM for the venues —
+  Financial Express BD; headcount editorial]. Venue: other (para club
+  room or a corner by the tong) or home outdoor (village uthan, rooftop).
+- The spread: **singara** on a plate (see catalog: Singara and samosa),
+  chanachur, biscuits; the notes add cha in glasses, which is excluded
+  here (hard rule 5) [LOW — notes].
+- Surface and environment: a plain wooden carrom board on a stand under
+  a bare bulb or tube light, black and white coins and a striker, a
+  bench along the wall; a courtyard under trees at golden hour for the
+  village variant.
+- Snapshot staging: **1 setting** — one corner of the board with coins,
+  a stool beside it with a plate of singara and the hero. **2 settings**
+  — two plates on a bench by the board. **Small group** — the board with
+  stools on four sides, a bench with singara, chanachur and biscuits for
+  four; blurred onlookers against the wall.
+- Never stage: printed brand marks, money or stakes, cha glasses beside
+  the hero, legible club signs or posters.
+- Confidence and sources: carrom MEDIUM; food LOW; staging EDITORIAL.
+
+---
+
 ## ZONE CALLOUTS (environment + dish pointers)
 
 1. **Dhaka (metro)** — Flats with grilled balconies, rooftops, rickshaw
@@ -2633,6 +2794,14 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   midday staging is an editorial choice to keep panta out of breakfast
   scope; how many households eat panta at midday vs. morning is unknown.
   The iftar-gathering entry inherits the open iftar decision.
+- **Game-night pass (2026-10-01) open items.** Cricket viewing at tongs
+  and homes, the BPL season and match times, and every viewing food are
+  LOW (research notes, not verified); only the World Cup public-screen
+  and overnight apartment-block formats are HIGH (France24, Al Jazeera).
+  World Cup and Copa América kick-off times in Dhaka are time-zone
+  arithmetic. Carrom's winter-evening timing, cards as gambling-coded,
+  and iftar-then-games are unverified; the last inherits the open iftar
+  decision. Ludo and carrom food pairings are editorial.
 
 ## CANDIDATE QUEUE
 
@@ -2654,6 +2823,11 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
    **shami kabab**, **chicken korma** (Bangladeshi white korma), **jali
    kebab**, a shared **celebration cake** entry; consider promoting
    **rezala** from a variant line to its own entry.
+7. Viewing and game-night foods without an entry (2026-10-01
+   game-night pass): **chanachur** as a standalone bowl (now covered
+   only inside Jhalmuri), **muri makha** if it needs more than the
+   Iftar spread and Jhalmuri entries give, and **tong biscuits and
+   cake** (the glass-jar counter snacks).
 
 ## RESEARCH LOG
 
@@ -2697,3 +2871,10 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   Eid ul-Adha, Pohela Boishakh, wedding with gaye holud variant, mezban,
   birthday party, iftar gathering). The iftar staging rule was left open
   for Fernando. No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: 2 watch-party entries
+  (cricket at home and at the tong; World Cup night) and 2 social
+  game-night entries (family ludo at home; carrom in the para club or
+  courtyard; popularity medium). The iftar staging rule left untouched.
+  No subagents.

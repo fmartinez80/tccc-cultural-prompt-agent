@@ -1084,6 +1084,188 @@ hired hall, and names no township/suburb setting as its default.
 
 ---
 
+#### GAME NIGHT
+
+Per `country-file-schema.md` §5.8. Heading levels follow the
+CELEBRATIONS section above (`####` for the section, `#####` for its
+parts, `######` for entries). The snapshot rule (§5.7) applies: the frame
+shows only the operator's party, and the crowd is implied. **The
+settlement-register framing is still PENDING HUMAN SIGN-OFF** (FILE ROLE &
+METHOD): every entry is written for a register-neutral lounge, patio,
+garden or public venue. This section expands the existing one-line
+pointers in the BEVERAGE MOMENTS register ("Watching a match at home")
+and the FESTIVALS register ("Rugby / football / cricket"); it does not
+replace them.
+
+##### Watch parties
+
+Watching sport together is a high-popularity occasion here: Springbok
+rugby, PSL and English Premier League football (the Soweto derby above
+all), and Proteas cricket at a lower level. Most viewing happens at home,
+in the lounge or around a braai with the TV visible through the patio
+door; for big tournament finals, shopping malls, hotels and parks run
+free or ticketed fan parks [HIGH — IOL and Food & Home on the Rugby World
+Cup 2023 final: mall "fan malls", the free Durban ICC fan park, Loftus
+Park, hotel fan parks with a traditional braai and food stations]. The
+signature viewing foods are the braai, boerewors rolls, biltong and
+crisps (BEVERAGE MOMENTS register, "Watching a match at home"). Cricket is
+rated medium in the research notes and gets no entry of its own; use the
+rugby braai entry for a summer Test and add no new rule.
+
+###### Watch party: Springbok Test braai (rugby)
+- When: the Rugby Championship (roughly August to September) and home
+  Tests in July; end-of-year tour Tests in Europe in November; the next
+  Rugby World Cup is in Australia in October–November 2027 [LOW — not
+  verified]. Home Test kick-offs are usually late afternoon, so the braai
+  is lit in the early afternoon and food comes off the fire around kick-off
+  [LOW — not verified]. Intake time: **golden-hour**. Tests in Australia
+  or New Zealand land in the South African morning [LOW — time-zone
+  arithmetic]: breakfast is out of scope, so stage those as a **midday**
+  braai after the match, not a breakfast scene.
+- Gathering: family and friends, about 6–15 [LOW-MEDIUM — editorial
+  estimate]. Venue: home outdoor (patio, garden or lapa; a complex's
+  communal braai for flat-dwellers), with the TV in the lounge seen through
+  an open sliding door, or a portable screen under the patio roof.
+- The spread: a board of boerewors coils and chops off the grid (see
+  catalog: Boerewors (and the boerie roll); Braai platter (chops,
+  chicken, sosaties)); **pap and chakalaka** (see catalog: Pap (stywe pap,
+  krummelpap/phutu) + chakalaka / tomato-onion sous); boerie rolls stacked
+  on a tray; a bowl of biltong slices and a bowl of crisps for before
+  kick-off (see catalog I: Biltong (beef); Crisps and puffed corn snacks).
+  [MEDIUM — research notes (`south-africa.md:772`, Food & Home); spread per
+  this file's braai entries]
+- Surface and environment: the patio table or a garden table beside the
+  braai; the lounge coffee table for the snacks. Cues that read South
+  African: coals glowing in the built-in braai, a wooden meat board,
+  tongs on the ledge, winter-afternoon Highveld light (July–September is
+  dry winter and early spring), the TV a soft green glow through the
+  patio door. A green-and-gold scarf or cushion with no emblem is the
+  most team colour a scene carries.
+- Snapshot staging: **1 setting** — a plate with a boerie roll and a
+  spoon of chakalaka at the near corner of the patio table, the meat
+  board cropped at the edge, the TV glow soft through the door behind.
+  **2 settings** — two identical plates on the long side of the table;
+  between them the board and the biltong bowl. **Small group (3–4)** —
+  the near end of the table with the board, the pap pot, a stack of rolls
+  and the crisps bowl; camping chairs turned toward the lounge door and
+  the braai-master's back soft at the fire. Cues for the wider crowd:
+  extra chairs facing the screen, more rolls than diners, blurred figures
+  in green inside the lounge (no more than about 2.5 faces, none sharp).
+- Never stage: the Springbok emblem, a crested green-and-gold jersey,
+  sponsor marks, a legible screen or score; "Bokke and beer" specials,
+  beer buckets, cooler boxes open in frame, brandy and Coke (fan-park
+  promotion is often beer-led [HIGH — Food & Home]); a full South African
+  flag (a cropped flag-palette pattern soft in the background at most);
+  face paint as a cliché; betting slips or apps.
+- Confidence and sources: venue and fan-park facts HIGH (IOL, Food &
+  Home); home braai spread MEDIUM (file and notes); fixture months and
+  kick-off times LOW; staging EDITORIAL.
+
+###### Watch party: Soweto derby and Premier League at home (football)
+- When: PSL league weekends (season roughly August to May), with the
+  Soweto derby (Kaizer Chiefs v Orlando Pirates) the biggest club match
+  [LOW — derby named in the notes, not verified beyond that]; English
+  Premier League Saturday 15:00 UK games land at about 16:00–17:00 SAST
+  (**golden-hour**); Champions League nights at about 21:00–22:00 SAST
+  (**evening**, a night scene with lamp and screen glow); Bafana Bafana
+  internationals and AFCON evenings [LOW — time-zone arithmetic, not
+  verified].
+- Gathering: friends or family, 3–8, in the lounge [LOW-MEDIUM —
+  editorial estimate]. Venue: home indoor (lounge); a backyard braai for
+  a weekend derby.
+- The spread: crisps and puffed corn snacks in bowls, biltong and
+  droëwors on a board (see catalog I: Crisps and puffed corn snacks;
+  Biltong (beef); Droëwors); boerie rolls or a fried-chicken box (see
+  catalog: Boerewors (and the boerie roll); Fried chicken (plated and
+  boxed)); a kota or bunny chow from a takeaway for a Gauteng or Durban
+  brief (see catalog: Kota (spatlo); Bunny chow (KZN / Durban)). [MEDIUM
+  for crisps, biltong and wors (`south-africa.md:747`); takeaways LOW —
+  editorial]
+- Surface and environment: the lounge coffee table with the bowls and
+  board on it, a sofa running out of frame, a wall-mounted TV as a soft
+  green field; tiled floor, a kettle seen through to the open-plan
+  kitchen (GENERAL NORMS interior markers).
+- Snapshot staging: **1 setting** — one side plate with a boerie roll and
+  the crisps bowl on the coffee table, the TV glow behind. **2 settings**
+  — two side plates; between them the biltong board and the crisps bowl.
+  **Small group** — the coffee table with two snack bowls, the board,
+  a fried-chicken box opened flat and four side plates; the backs of two
+  heads on the sofa toward the screen, soft. A vuvuzela leaning in a
+  corner is a strong cue but reads as a cliché if centred; keep it soft
+  and peripheral [EDITORIAL].
+- Never stage: club crests or kits (Chiefs gold and black, Pirates skull
+  and crossbones are both legible marks), sponsor marks, legible screens;
+  beer, quarts or ciders; sports-betting slips, apps or odds (sports
+  betting is heavily advertised around football [LOW — not verified]).
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+###### Watch party: tournament final at a mall or hotel fan park
+- When: Rugby World Cup and big football finals; the 2023 RWC final was
+  an evening kick-off in France, a **late-evening** scene in South Africa
+  [LOW — time-zone arithmetic]. Fan parks open for the day, so midday or
+  golden-hour food is also plausible. Intake time: **midday, golden-hour
+  or evening** by kick-off.
+- Gathering: the operator's party of 1–4 inside a crowd of hundreds to
+  thousands. Venue: other (mall fan park, hotel lawn fan park, a city fan
+  park). [HIGH — IOL, Food & Home]
+- The spread: a boerie roll on a paper tray or a braai plate from a food
+  station (see catalog: Boerewors (and the boerie roll); Braai platter);
+  hotel fan parks advertised "a traditional braai" and food stations
+  [HIGH — Food & Home].
+- Surface and environment: a high standing table or a folding table on a
+  lawn or mall atrium floor; a big LED screen far behind as a soft green
+  rectangle, string lights, a crowd in green as blurred colour.
+- Snapshot staging: **1 setting** — one paper tray with a boerie roll at
+  the edge of a high table, the LED wall blurred far behind. **2
+  settings** — two trays side by side. **Small group** — a folding table
+  with four trays and a shared plate of chips; the crowd's backs soft
+  behind. Cues for the crowd: the screen glow, bunting in plain green and
+  gold, rows of chairs.
+- Never stage: the beer side of the fan park (beer tents, buckets,
+  branded cups), legible screens, sponsor boards, crests, named venues
+  (file rule on named stadiums), a full flag.
+- Confidence and sources: venue HIGH; food HIGH for "braai and food
+  stations", menu detail EDITORIAL.
+
+##### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The
+basis is **30 Seconds**, a South African word party game (1998) that is
+the national favourite, played after braais and on family evenings
+[MEDIUM — Wikipedia "30 Seconds (game)" and retailers, per the research
+notes]. Pub quizzes and dominoes are reported but not verified [LOW — not
+verified], so they get no entry; a pub quiz is drinking-led and would be
+staged only as a restaurant quiz with sharing platters and no alcohol.
+
+###### Game night: word party game after the braai (30 Seconds-style)
+- When: weekends after the braai; family evenings, Christmas holidays.
+  Intake time: **golden-hour into evening** [MEDIUM — notes].
+- Gathering: family or friends, 4–10, playing in two teams [LOW-MEDIUM —
+  editorial]. Venue: home outdoor (patio table after the braai) or home
+  indoor (lounge or dining table).
+- The spread: what is left of the braai pushed to one end (see catalog:
+  Boerewors (and the boerie roll); Braaibroodjie; Pap + chakalaka), a
+  bowl of biltong (see catalog I: Biltong (beef)) and, for an evening
+  indoors, koeksisters on a plate (see catalog: Koeksisters vs.
+  koesisters). [LOW — food pairings are editorial; the notes list
+  boerewors rolls, chakalaka, braaibroodjies, koeksisters and biltong]
+- Surface and environment: the patio table cleared at one end, plain
+  unprinted cards face-down in a small stack and a sand timer; patio
+  lights coming on, the braai coals dying soft behind. Indoors: the
+  dining table under a pendant light.
+- Snapshot staging: **1 setting** — one side plate with a braaibroodjie
+  and a glass, the card stack and timer beside it. **2 settings** — two
+  plates facing each other across the table end, the biltong bowl
+  between. **Small group** — four plates around the table end, the card
+  stack and timer at the centre, the leftover meat board cropped; extra
+  chairs and a blurred figure mid-gesture behind.
+- Never stage: the game's box, logo or printed cards (licensed product;
+  any readable word fails file-wide rule 1); a score pad with names;
+  beer, ciders or brandy on the table; playing for money.
+- Confidence and sources: 30 Seconds MEDIUM; food and staging EDITORIAL.
+
+---
+
 #### OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only for an explicit morning business case; log each use.
@@ -2956,6 +3138,15 @@ the Gap Log below.
   and Afrikaans wedding menus were not checked separately. Durban Indian
   Eid and wedding tables were not searched. Funerals and after-tears
   were excluded editorially; a reviewer should confirm.
+- **Game-night pass (2026-10-01) open items.** Springbok fixture months
+  and home kick-off times, PSL season and Soweto-derby timing, EPL and
+  Champions League times in SAST, and the 2027 Rugby World Cup's morning
+  slots are time-zone arithmetic or model knowledge [LOW — not verified].
+  Proteas cricket viewing food was not researched (rated medium, no
+  entry). Pub quizzes and dominoes as social games are LOW and
+  unverified; 30 Seconds rests on Wikipedia and retailers (MEDIUM). The
+  prevalence of sports-betting advertising around football is LOW. All
+  game-night headcounts and food pairings are editorial.
 
 ## CANDIDATE QUEUE
 1. Get a CCBSA/CCBA spec sheet or direct packaging measurement for the
@@ -2985,6 +3176,11 @@ the Gap Log below.
    covered by Chilli bites); a shared **celebration cake** entry (21st
    key cake, wedding cake); a **wedding beef stew / "wedding meat"**
    entry if the Beef stew entry proves too generic for wedding briefs.
+9. Viewing foods without an entry (2026-10-01 game-night pass): none
+   essential, since the boerie roll, biltong, droëwors, crisps and fried
+   chicken are all catalogued. If briefs ask, a **match-day snack
+   platter** (sausage rolls, mini pies, chicken wings) and a **fan-park
+   food-stall plate** could be added [LOW — not researched].
 
 ## RESEARCH LOG
 - **2026-09-24, first scaffold.** Written without web access after a
@@ -3055,6 +3251,14 @@ the Gap Log below.
   (weekend braai, Heritage Day, Sunday lunch, Christmas lunch, Eid
   ul-Fitr/Labarang, wedding reception, 21st birthday). Settlement-register
   sign-off left unresolved; entries written register-neutral. No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS at the `####` level:
+  3 watch-party entries (Springbok Test braai, Soweto derby and Premier
+  League at home, tournament final at a fan park) and 1 social game-night
+  entry (word party game after the braai, 30 Seconds-style; popularity
+  medium). Settlement-register sign-off left untouched; entries written
+  register-neutral. No subagents.
 
 ---
 

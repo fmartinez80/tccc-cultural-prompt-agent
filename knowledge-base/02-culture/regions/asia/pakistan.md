@@ -990,6 +990,174 @@ whatever that decision allows.
 
 ---
 
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8. The snapshot rule (§5.7) applies: the
+frame shows only the operator's party, and the crowd is implied. **The
+hard staging rules at the top of this file apply to every entry** (halal,
+no alcohol, Ramadan, chai/lassi/Rooh Afza never beside the hero, nothing
+in a hand, no legible text, no religious objects). **The iftar staging
+rule and the consumer-boycott note stay exactly as open as they were**
+(HERO PRODUCT SLOT, FESTIVALS, CELEBRATIONS): any game-night scene that
+falls in Ramadan is an after-iftar scene and is usable only within
+whatever Fernando / TCCC Pakistan decides. No existing line in this file
+covered sport or games before this pass.
+
+### Watch parties
+
+Cricket is the viewing occasion; football is low outside the World Cup
+[research notes]. For the India–Pakistan T20 World Cup match in February
+2026 (18:30 local), Pakistanis watched at **roadside tea stalls with
+small TVs**, men on wooden benches, plastic chairs or squatting; at
+**upscale eateries with big screens** for young groups and families; and
+in **extended-family living rooms with snacks and biryani feasts**, while
+delivery riders stopped to watch [HIGH — Al Jazeera, Feb 2026]. The
+signature viewing foods are biryani, pakoras, samosas, chaat and BBQ
+tikka [HIGH for biryani, Al Jazeera; the rest LOW — not verified].
+
+#### Watch party: India–Pakistan and big internationals at home (cricket)
+- When: ICC tournaments and India–Pakistan matches (now played only at
+  ICC events and neutral venues [LOW — not verified]); day-night ODIs
+  and T20s usually start mid-afternoon or early evening Pakistan time,
+  the February 2026 match at 18:30 [HIGH for that match — Al Jazeera;
+  general timings LOW]. Intake time: **golden-hour into evening**; a
+  tournament in a far time zone can run into late night (stage it as a
+  night scene: dark windows, lamp, screen glow).
+- Gathering: the joint family plus cousins and neighbours, 8–20 for a
+  big match [LOW-MEDIUM — editorial estimate; households average 6.3
+  persons, 2023 Census]. Venue: home indoor (drawing room or TV lounge).
+- The spread: **biryani** on a large platter as the centrepiece (see
+  catalog: Karachi biryani), raita; **pakoras and samosas** on a
+  platter (see catalog: Pakora; Samosa); **chana chaat**
+  or **fruit chaat** in a glass bowl (see catalog: Chana chaat; Fruit
+  chaat); for a later evening, BBQ **chicken tikka** or **seekh kebab**
+  with naan from the local grill (see catalog: Chicken tikka; Seekh
+  kebab; Tandoori roti and naan). [HIGH for biryani — Al Jazeera; rest
+  LOW — notes]
+- Surface and environment: a **glass centre table** or low table in
+  front of a sofa set, a floor **dastarkhwan** when the room is full;
+  melamine or steel plates, the biryani in a large dish; ceiling fan,
+  tiled floor, a showcase cabinet behind, the TV a soft green field.
+- Snapshot staging: **1 setting** — a plate of biryani with raita on the
+  centre table, the pakora platter cropped at the edge, the TV glow
+  behind. **2 settings** — two identical plates; between them the
+  pakora platter and the chaat bowl. **Small group** — the end of a
+  dastarkhwan or the centre table with the biryani platter, pakoras,
+  samosas and chaat, four plates; floor cushions and blurred family
+  figures facing the screen. If the brief allows a multi-serve bottle, a
+  1.5 L or 2.25 L PET stands among the shared dishes (HERO PRODUCT SLOT).
+- Never stage: the PCB or ICC marks, team jerseys with sponsors, a
+  legible score or scorecard; **India–Pakistan political imagery**,
+  burnt flags or a full flag (green-and-white bunting soft in the
+  background at most); fantasy-cricket or betting apps on a phone
+  (gambling-adjacent [LOW — not verified]); chai cups or Rooh Afza beside
+  the hero (hard rule 4).
+- Confidence and sources: venue and biryani HIGH (Al Jazeera); timings
+  and the wider spread LOW; staging EDITORIAL.
+
+#### Watch party: PSL evening at the chai dhaba or a restaurant screen (cricket)
+- When: the Pakistan Super League, played in spring in recent seasons
+  (between February and May) [LOW — not verified], with evening matches;
+  also any national-team match. Intake time: **evening** (dusk to night).
+  If a PSL or international match falls in Ramadan, the scene is after
+  iftar and inherits the open iftar decision; no daytime eating scene.
+- Gathering: **dhaba**: men and young men, 4–15 around a small TV;
+  **restaurant**: a group of young friends or a family, 4–8, in a family
+  hall with a big screen [HIGH — Al Jazeera]. Venue: other (roadside
+  chai stall or dhaba) or restaurant.
+- The spread: **dhaba**: samosas and pakoras on a steel tray (see
+  catalog: Samosa; Pakora), a bun kebab in Karachi (see catalog: Bun
+  kebab); **restaurant**: BBQ tikka and seekh with naan, chaat (see
+  catalog: Chicken tikka; Seekh kebab; Tandoori roti and naan; Chana
+  chaat). [MEDIUM — the notes' ranked Pakistan scenes; food LOW]
+- Surface and environment: **dhaba**: wooden benches or a charpai, a
+  plastic table, a small TV on a shelf or bracket, string bulbs at dusk,
+  the big kettle soft at the back. **Chai is the authentic drink here**
+  (the notes stage chai glasses), **but it is an intruder drink**: keep
+  cups and kettle out of frame or fully soft and never beside the hero
+  (hard rule 4; QUICK-REFERENCE "Chai dhaba/kiosk"). **Restaurant**: a
+  family-hall table, a big screen as a soft rectangle on the wall,
+  grill smoke beyond a glass partition.
+- Snapshot staging: **1 setting** — a steel plate of two samosas and
+  chutney on the bench end, the hero beside it, the TV glow on the shelf
+  behind. **2 settings** — two plates on the plastic table. **Small
+  group** — the table with a samosa-and-pakora tray for four and the
+  hero; blurred men on the benches facing the TV. Restaurant variant:
+  four plates of tikka and naan, the naan basket and chaat bowl between,
+  the screen glow behind.
+- Never stage: chai glasses or the kettle beside the hero; PSL franchise
+  logos, kits, legible screens; betting or fantasy apps; mixed-gender
+  crowding at a male dhaba (choose the restaurant family hall for a
+  mixed group) [EDITORIAL].
+- Confidence and sources: formats HIGH (Al Jazeera); PSL months and food
+  LOW; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The
+basis: **ludo** (board and phone app) is the most popular board game,
+with **carrom** and family card games alongside, and families were
+reported playing ludo after iftar [MEDIUM — Arab News Pakistan, 2020;
+this is a lockdown-era story, so after-iftar ludo is plausible, not an
+established tradition]. Cards (teen patti, rummy) are often played for
+money and get no entry; stage a mehndi-night card game only as a snack
+table with blurred cards and no stakes, if at all [LOW — not verified].
+
+#### Game night: ludo with family
+- When: evenings at home; winter evenings; Eid holidays; the
+  **after-iftar** variant (dates, pakoras, samosas, fruit chaat) is the
+  notes' first-ranked scene but **inherits the open iftar decision**: use
+  it only if Fernando / TCCC Pakistan clears Ramadan scenes, and then
+  apply the FESTIVALS iftar points that still fit after the fast is
+  broken (the hero never beside the dates or framed as the fast-breaker;
+  Rooh Afza, water jugs and chai out of frame; no religious objects).
+  Intake time: **evening**.
+- Gathering: 2–4 players (cousins, siblings, parents), onlookers
+  [LOW-MEDIUM — editorial]. Venue: home indoor (floor dastarkhwan, a
+  takht or the dining table).
+- The spread: pakoras and samosas (see catalog: Pakora; Samosa), fruit
+  chaat or chana chaat (see catalog: Fruit chaat; Chana chaat), a bowl
+  of nimko (no entry; see CANDIDATE QUEUE), on a tray beside the board.
+  [LOW — notes; pairing editorial]
+- Surface and environment: a plain wooden ludo board on a floor cloth
+  or the dining table, generic counters and a dice; cushions, a ceiling
+  fan, warm lamp light; winter shawls on blurred figures in December.
+- Snapshot staging: **1 setting** — the board at one side, a small plate
+  of pakoras and the hero beside it. **2 settings** — two plates at
+  opposite corners of the board. **Small group** — four small plates, one
+  by each colour, the chaat bowl and the pakora tray at the edge; a
+  blurred onlooker on a cushion.
+- Never stage: a phone showing the ludo app legibly, a branded board,
+  money; children's faces (implied only, schema §5.7); Rooh Afza or chai
+  beside the hero.
+- Confidence and sources: ludo's popularity MEDIUM (one source, 2020);
+  after-iftar framing LOW and pending; staging EDITORIAL.
+
+#### Game night: carrom with cousins
+- When: weekend afternoons and evenings, family gatherings. Intake time:
+  **golden-hour** [LOW — notes].
+- Gathering: 4 players in pairs, with onlookers [LOW-MEDIUM — editorial].
+  Venue: home indoor (drawing room or veranda), home outdoor (courtyard
+  or roof).
+- The spread: nimko and biscuits on a plate, samosas (see catalog:
+  Samosa), on a side table because the carrom board fills the frame
+  centre [LOW — the notes list chai, nimko and biscuits; chai is
+  excluded here].
+- Surface and environment: a plain wooden carrom board on a stand or on
+  a low table, black and white coins and a striker, the four corner
+  pockets; courtyard or roof light at golden hour, a charpai at the edge.
+- Snapshot staging: **1 setting** — one corner of the board with the
+  coins, a side table with a plate of nimko and the hero. **2 settings**
+  — two plates on the side table. **Small group** — the board with
+  four stools or cushions at its sides, the side table with nimko,
+  biscuits and samosas for four; blurred onlookers behind.
+- Never stage: printed brand marks on the board, money, chai cups beside
+  the hero.
+- Confidence and sources: carrom MEDIUM (notes); food LOW; staging
+  EDITORIAL.
+
+---
+
 ## ZONE CALLOUTS (environment + dish pointers)
 
 1. **Punjab — Lahore & the plains** (default) — Brick and plaster houses,
@@ -2447,6 +2615,15 @@ No green tea glasses, no legible signage."
   how often it is followed is unknown (Dawn reports violations); no
   equivalent rule was checked for Sindh, KP or Islamabad. The Ramadan,
   Eid and aqiqah entries inherit the open iftar/boycott decision.
+- **Game-night pass (2026-10-01) open items.** PSL season months,
+  general match start times and the India–Pakistan neutral-venue
+  arrangement are model knowledge [LOW — not verified]; only the
+  February 2026 match time (18:30) and the three viewing venues are HIGH
+  (Al Jazeera). Viewing foods other than biryani are LOW. Fantasy and
+  betting-app prevalence is LOW. After-iftar ludo rests on one 2020
+  lockdown-era story (Arab News Pakistan) and inherits the open iftar
+  decision; carrom and the mehndi card game are unverified. Football
+  viewing was not researched (rated low).
 
 ## CANDIDATE QUEUE
 
@@ -2468,6 +2645,11 @@ No green tea glasses, no legible signage."
    **shami kebab**, **zarda**, a shared **celebration cake** entry, and
    wedding desserts **shahi tukray** and **gulab jamun** in full (the
    latter is compact under Mithai).
+7. Viewing and game-night foods without an entry (2026-10-01
+   game-night pass): **nimko** (the savoury mix bowl at ludo, carrom
+   and match nights), **raita** if briefs need it at full depth, and the
+   restaurant **BBQ platter** (tikka, seekh, boti on one tray) as a
+   shared-platter variant.
 
 ## RESEARCH LOG
 
@@ -2513,3 +2695,11 @@ No green tea glasses, no legible signage."
   wedding dinner with mehndi variant, aqiqah dawat, dawat and birthday).
   The iftar staging rule and boycott note were left open for Fernando.
   No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: 2 watch-party entries
+  (India–Pakistan and big internationals at home; PSL evening at the
+  chai dhaba or a restaurant screen) and 2 social game-night entries
+  (ludo with family, carrom with cousins; popularity medium). The iftar
+  staging rule and boycott note left untouched; the after-iftar ludo
+  variant is gated on them. No subagents.

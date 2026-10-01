@@ -1044,6 +1044,184 @@ not given a celebration entry here.
 
 ---
 
+## GAME NIGHT
+
+Per `country-file-schema.md` §5.8. The snapshot rule (§5.7) applies: the
+frame shows only the operator's party, and the crowd is implied. **The
+file-wide rules apply to every entry**: suya on plain unprinted paper,
+never newspaper (rule 1); no alcohol and no Chapman (rule 3); no pork
+(rule 4); no other drinks in frame (rule 5); nothing held in a hand (rule
+6). **The settlement-register and buka/tenement framing is still PENDING
+HUMAN SIGN-OFF**; entries use a tidy family parlour or a public viewing
+venue and depend on none of the pending registers. **The Ramadan/iftar
+editorial call stays open** (GAP LOG); no entry here is set in Ramadan
+daylight. This section expands the BEVERAGE MOMENTS line "Watching
+football at home" (small chops, suya, 1 L PET on a centre table); it does
+not replace it.
+
+### Watch parties
+
+Football is the national viewing occasion: English Premier League clubs
+(Arsenal, Chelsea and Manchester United have very large Nigerian
+followings [MEDIUM — Soccernet NG]), the Champions League, and the Super
+Eagles at AFCON and World Cup qualifiers. Viewing happens in two places:
+the **family parlour** around the TV, and the **viewing centre**, a
+paid room with benches, a TV or projector and a generator, where groups
+of roughly 30–150 mostly male fans watch European football [HIGH for the
+viewing-centre culture — Global Media Journal; headcount MEDIUM, same
+source]. The signature viewing foods are **suya**, **small chops**,
+roasted groundnuts and chin chin (`nigeria.md:734`).
+
+#### Watch party: Premier League afternoon in the parlour (football)
+- When: the EPL season, August to May; Saturday 15:00 UK games land at
+  about 15:00–16:00 WAT (**golden-hour** light through the window); late
+  Saturday and Sunday games and Champions League nights at about
+  20:00–21:00 WAT (**evening**: lamp and screen glow, dark window) [LOW —
+  time-zone arithmetic, not verified].
+- Gathering: family, or 3–6 friends or brothers and cousins [LOW-MEDIUM —
+  editorial estimate]. Venue: home indoor (the parlour).
+- The spread: a **small chops** tray of puff-puff, samosas, spring rolls
+  and peppered gizzard on toothpicks (see catalog: Small chops platter
+  (party starter); Puff-puff); **suya** on plain paper with sliced onion
+  and tomato (see catalog: Suya); a bowl of chin chin (see catalog: Chin
+  chin); roasted groundnuts in a small bowl (no entry; see CANDIDATE
+  QUEUE). [MEDIUM — `nigeria.md:734`; research notes]
+- Surface and environment: the **centre table** in front of a large sofa
+  set; ceramic floor tiles, a ceiling fan, lace curtains, a rechargeable
+  lamp on a side table; the TV a soft green field. A generator's presence
+  is a cable along the floor at most, never fuel cans (GENERAL NORMS).
+- Snapshot staging: **1 setting** — one side plate of small chops and
+  a glass on the centre table, the suya paper open beside it, the TV glow
+  behind. **2 settings** — two side plates; between them the small chops
+  tray and the suya. **Small group** — the centre table with the tray,
+  the suya, the chin chin bowl and four side plates; the sofa running out
+  of frame, two blurred heads toward the screen. If the brief allows a
+  multi-serve bottle, a 1 L PET stands on the centre table
+  (`nigeria.md:734`).
+- Never stage: club crests, shirts with sponsors, legible screens or
+  score bugs; sports-betting slips, betting apps, odds or a betting-shop
+  backdrop (betting sits very close to football in Nigeria [LOW — not
+  verified]); beer, stout or Chapman; suya on newspaper.
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+#### Watch party: the viewing centre (European football nights)
+- When: weekend afternoons and Champions League evenings, the big games
+  drawing the fullest rooms. Intake time: **golden-hour** or **evening**
+  (a night scene for a 20:00–21:00 WAT kick-off) [LOW — arithmetic].
+- Gathering: 30–150 fans, mostly young men, often split by club
+  allegiance [MEDIUM — Global Media Journal]. Venue: other (a viewing
+  centre: a hall, shop front or shed with benches, a TV or projector, a
+  generator outside).
+- The spread: what is sold at or just outside the door: **suya** on
+  paper from a mai suya nearby (see catalog: Suya), roasted groundnuts,
+  a meat pie or puff-puff (see catalog: Meat pie; Puff-puff) [LOW —
+  editorial; the notes stage "roasted groundnuts and suya on a ledge"].
+- Surface and environment: wooden benches in rows, a plank ledge or a
+  bench end used as a table; a projector beam or a TV high on a bracket
+  as a soft glow; a bare bulb or fluorescent tube; a cable on the floor
+  for the generator. **Stage the food, not the crowded room**
+  [EDITORIAL — notes].
+- Snapshot staging: **1 setting** — a suya paper and the hero on a plank
+  ledge at the end of a bench, the screen glow and the backs of blurred
+  heads behind. **2 settings** — two suya portions on the ledge side by
+  side. **Small group** — a short bench end with suya, a groundnut cone
+  and a meat pie for three or four, more benches running back toward the
+  screen. Keep the crowd as silhouettes (background-people limit).
+- Never stage: crests and jerseys, legible posters of fixtures or
+  prices, betting-shop branding or slips (often next door [LOW — not
+  verified]), alcohol of any kind, fights or crowd conflict (the source
+  studies conflict between rival fans; never the subject).
+- Confidence and sources: venue HIGH; food LOW; staging EDITORIAL.
+
+#### Watch party: Super Eagles night at home (AFCON and qualifiers)
+- When: AFCON (the Morocco edition ran December 2025 to January 2026
+  [LOW — not verified]) and World Cup qualifiers; evening kick-offs.
+  Intake time: **evening** [LOW — not verified].
+- Gathering: family and neighbours, 5–15, larger than an EPL afternoon
+  [LOW-MEDIUM — editorial]. Venue: home indoor (parlour and dining
+  table), or home outdoor (a compound forecourt with the TV carried out).
+- The spread: a real meal rather than snacks: **party jollof** with
+  peppered chicken and dodo (see catalog: Party jollof rice; Dodo (fried
+  ripe plantain)); small chops first (see catalog: Small chops platter).
+  Peppered chicken has no entry (see CANDIDATE QUEUE). [LOW — research
+  notes rank this scene; food not verified]
+- Surface and environment: the dining table plus the centre table, a
+  pot of jollof on a trivet, plates handed round; green-and-white paper
+  napkins or a plain green-and-white cushion as the most national colour
+  a scene carries.
+- Snapshot staging: **1 setting** — a plate of jollof, a chicken piece
+  and dodo on the centre table, the jollof pot cropped at the edge.
+  **2 settings** — two identical plates; between them the chicken platter.
+  **Small group** — four plates around the centre table with the jollof
+  pot, the chicken platter and the small chops tray; blurred figures
+  standing behind the sofa toward the TV glow.
+- Never stage: a full Nigerian flag (file rule: flags only for an
+  explicit Independence Day brief, and never full, schema §5.7); the
+  Super Eagles crest or kit; political or protest imagery; betting;
+  alcohol.
+- Confidence and sources: LOW for timing and food; staging EDITORIAL.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. The basis:
+"every Nigerian household seems to own at least one Ludo board", and
+**Whot**, a shedding card game, is the national card game; **draughts**
+is also played [MEDIUM — Guardian Nigeria; Wikipedia "Whot!"]. FIFA
+video-game centres for young men are reported but not verified [LOW — not
+verified]; a home FIFA night is stageable only as the parlour entry
+above with a controller on the table and an abstract screen glow.
+Draughts at an outdoor "relaxation spot" is ranked third in the notes,
+but such spots usually sell beer; it gets no entry here.
+
+#### Game night: ludo in the parlour
+- When: evenings and weekend afternoons, at family gatherings and
+  holidays. Intake time: **evening** (or golden-hour) [LOW — editorial].
+- Gathering: 2–4 players, family or friends, with onlookers [LOW-MEDIUM
+  — editorial]. Venue: home indoor (parlour centre table or dining table).
+- The spread: puff-puff, chin chin and a small chops platter on a side
+  of the table so the board stays clear (see catalog: Puff-puff; Chin
+  chin; Small chops platter). [LOW — notes; pairing editorial]
+- Surface and environment: a plain wooden or painted ludo cross board in
+  the four primary colours, generic counters and two dice; the centre
+  table, a lace or plastic cloth, ceiling fan, lamp light in the evening.
+- Snapshot staging: **1 setting** — the board at one side of the table,
+  one side plate of puff-puff and a glass beside it. **2 settings** — two
+  players' plates at opposite sides of the board. **Small group** — four
+  side plates, one per colour, the chin chin bowl and the small chops
+  tray at the table end; a blurred onlooker on the sofa arm.
+- Never stage: a branded or licensed board, the Ludo King app on a
+  legible phone, money on the board; children's faces (a family game:
+  children may be implied only, schema §5.7).
+- Confidence and sources: ludo's ubiquity MEDIUM; staging EDITORIAL.
+
+#### Game night: Whot at a family gathering
+- When: at Christmas, Sallah and owambe-adjacent family days, after the
+  meal; evenings at home. Intake time: **golden-hour or evening** [LOW —
+  editorial].
+- Gathering: 3–6 players from the extended family, onlookers around
+  [LOW — editorial]. Venue: home indoor (parlour) or home outdoor
+  (compound forecourt under a canopy after a party).
+- The spread: party leftovers in their trays: **jollof and chicken**
+  (see catalog: Party jollof rice), dodo and moi moi (see catalog: Dodo;
+  Moi moi (steamed bean pudding)), small chops boxes (see catalog: Small
+  chops platter). [LOW — notes; not verified]
+- Surface and environment: a plastic party table or the centre table, a
+  draw pile and a discard pile; aso ebi fabric on blurred figures for a
+  party evening; canopy edge and covered chairs soft behind.
+- Snapshot staging: **1 setting** — a plate of jollof and chicken at the
+  table edge, cards fanned face-down beside it. **2 settings** — two
+  plates and two fanned hands of cards, the discard pile between.
+  **Small group** — four plates around the table, the jollof tray
+  cropped, the card piles at the centre; more chairs and blurred guests
+  behind.
+- Never stage: card faces that read (Whot cards carry numbers and
+  shapes; keep them face-down or blurred), the printed brand deck, money
+  or stakes, alcohol, money spraying.
+- Confidence and sources: Whot as the national card game MEDIUM; the
+  gathering pairing LOW; staging EDITORIAL.
+
+---
+
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
 
 Use only when a brief explicitly asks for a morning scene; log the scope
@@ -2264,6 +2442,14 @@ norms unless tagged otherwise — see GAP LOG.*
   against TCCC's under-13 policy. Igbo traditional-wedding food rests on
   Pulse and tier-3 wedding sites. Event plate and cutlery norms
   (disposable vs. hired crockery) are LOW-MEDIUM.
+- **Game-night pass (2026-10-01) open items.** EPL, Champions League
+  and AFCON kick-off times in WAT are time-zone arithmetic; the AFCON
+  Morocco 2025–26 dates are not verified. Viewing-centre food, the
+  betting-shop proximity, and how pervasive sports betting is around
+  football are LOW (not verified). FIFA video-game centres and draughts
+  at relaxation spots are unverified. Ludo and Whot food pairings are
+  editorial. The viewing-centre gender mix comes from one academic study
+  (Global Media Journal).
 
 ## CANDIDATE QUEUE
 
@@ -2287,6 +2473,10 @@ norms unless tagged otherwise — see GAP LOG.*
    a shared **celebration cake** entry (tiered wedding cake, birthday
    cake), **abacha** (already listed in the Gap Log; now needed by the
    igba nkwu entry), **ofe owerri** (Christmas in the East), **ukwa**.
+9. Viewing foods without an entry (2026-10-01 game-night pass):
+   **roasted groundnuts** (in a cone or small bowl), **peppered
+   chicken** (Super Eagles night and party trays), and **shawarma**
+   (already in the Gap Log; Gen Z viewing and FIFA nights).
 
 ## RESEARCH LOG
 
@@ -2325,3 +2515,11 @@ norms unless tagged otherwise — see GAP LOG.*
   naming ceremony, birthday party, Christmas and New Year, Eid al-Fitr,
   Eid el-Kabir). Settlement-register/buka framing and the Ramadan/iftar
   editorial call left unresolved. No subagents.
+- 2026-10-01 game-night pass (schema §5.8): built from the cross-market
+  research notes (45 searches across all markets), 0 new searches. Added
+  GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: 3 watch-party entries
+  (Premier League afternoon in the parlour, the viewing centre, Super
+  Eagles night at home) and 2 social game-night entries (ludo in the
+  parlour, Whot at a family gathering; popularity medium). Settlement-
+  register/buka framing and the Ramadan/iftar call left untouched. No
+  subagents.
