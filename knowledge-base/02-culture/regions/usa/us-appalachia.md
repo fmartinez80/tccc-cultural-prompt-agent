@@ -134,6 +134,12 @@ Appalachia clears the "would swapping this region's norms into a neighboring reg
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8.) No researched regional delta: the national entries in `us.md` GAME NIGHT apply (college football tailgates and Sunday NFL at home above all). Where a brief names the place, swap the snack table for this file's own handheld foods, which travel well to a tailgate or sit on a coffee table: see catalog: **Pepperoni roll** and **West Virginia hot dog (slaw dog)**. Kentucky college basketball as a March home-viewing occasion is plausible but unverified [LOW — not verified]; use `us.md`'s **NBA playoffs and March Madness** entry.
+
+---
+
 ## DISH CATALOG
 
 ### Dish: Soup beans (pinto beans)
@@ -315,6 +321,7 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01):** no regional game-night delta researched; Kentucky college basketball viewing and pepperoni rolls at tailgates are [LOW — not verified].
 - **Celebrations pass (2026-10-01) open items:** headcounts for Decoration Day, ramp suppers and apple-butter stirrings are editorial; the Decoration Day menu's Appalachian items and the apple-butter day's shared meal are inferred from this file's church-dinner sources and common practice; the stack-cake wedding-layer custom is lore, possibly apocryphal.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -342,6 +349,7 @@ Per this project's own practical rule against checklist-clutter (`country-file-s
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 0 new searches. Added a short GAME NIGHT section (national entries apply; pepperoni roll and slaw dog as the regional snack swap).
 - **2026-10-01 celebrations pass (schema §5.7):** 3 searches (Decoration Day, apple-butter stirring, stack-cake wedding lore). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: Decoration Day and dinner on the grounds, spring ramp supper, apple-butter stirring; general church homecoming points to `us-south.md`. Search snippets only.
 
 - **2026-09-24, single research pass** built this file's entire initial content, following `country-file-schema.md`'s methodology and using `us.md`, `us-northeast.md`, and `us-mid-atlantic.md` as structural/depth models. This file departs from those files' internal-zone structure per an explicit single-zone finding — see FILE ROLE & METHOD above.

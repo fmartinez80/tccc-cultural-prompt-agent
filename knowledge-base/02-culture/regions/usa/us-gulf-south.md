@@ -197,6 +197,24 @@ This coast clears the distinctness test against inland Deep South (`us-south.md`
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8. The national entries in `us.md` GAME NIGHT apply; the delta is the **pot-cooked tailgate and watch-party spread**, which replaces burgers and wings with gumbo, jambalaya and boudin. Party size means the place settings in frame.)
+
+#### Watch party: LSU Saturday or Saints Sunday (gumbo-and-jambalaya tailgate and home party)
+- When: college Saturdays and NFL Sundays, September to January [LOW — not verified]. Stage **midday** or **golden-hour** for a tailgate (hot, humid early-season light); LSU's night games make **evening** a strong option, with tent lights and a pot steaming under them [LOW — not verified].
+- Gathering: family and friends, 10 to 30 around a big pot, among thousands in the lots [EDITORIAL]. Venue: **other**: stadium lots and campus grounds under canopies; **home indoor or outdoor** for an away game or a Saints Sunday.
+- The spread: Louisiana gumbo and jambalaya are the regional tailgate signature [MEDIUM — KTXS, best college tailgate foods by region, via the research notes], cooked in large black cast-iron or aluminium pots on propane burners; boudin and boudin balls as handheld snacks [LOW — not verified]. Link: see catalog: **Cajun jambalaya ("brown jambalaya")** or **Jambalaya (Creole/"red" style)** (Cajun brown is the likelier tailgate pot in Acadiana and Baton Rouge [LOW — not verified]), **Cajun gumbo** or **Gumbo (Creole/New Orleans style)**, **Boudin (boudin blanc)**, **Boudin balls**. Served in foam or paper bowls and on paper plates. In spring (crawfish season), a March Madness watch can run alongside a crawfish boil: see CELEBRATIONS: **Crawfish boil** [LOW — not verified].
+- Surface and environment: a folding table under a canopy, a big pot on a burner at the frame edge with a long paddle, a stack of foam bowls, a rice cooker; humid haze, live oaks.
+- Snapshot staging:
+  - **1 setting:** a foam bowl of jambalaya or gumbo over rice with a plastic spoon, two boudin balls on a paper plate beside it. In frame: the rim of the big pot cropped. Cues: the canopy leg, steam, blurred tents behind.
+  - **2 settings:** two identical bowls on the folding table, a tray of boudin links cut into sections between them. Cues: the pot and paddle at the frame edge; folding chairs.
+  - **Small group (3 to 4 settings):** a stretch of table with identical bowls, the pot and a rice cooker cropped at the side; more canopies receding.
+- Never stage: as `us.md` GAME NIGHT; purple-and-gold or black-and-gold schemes that read as a specific team, fleur-de-lis team marks, school names; beer and daiquiris (both common); open flame near people in the foreground.
+- Confidence and sources: gumbo/jambalaya as the regional tailgate food [MEDIUM — KTXS via the research notes]; pots, boudin, timing and crawfish pairing [LOW — not verified]; staging [EDITORIAL].
+
+---
+
 ## DISH CATALOG
 
 ### New Orleans / Louisiana Creole
@@ -731,6 +749,7 @@ These dishes are genuinely served and identified with this coast specifically �
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01) open items:** gumbo/jambalaya at tailgates is MEDIUM (KTXS via the research notes); the brown-vs-red jambalaya choice for tailgates, boudin as a tailgate snack, LSU night-game timing and the crawfish-boil-plus-March-Madness pairing are [LOW — not verified].
 - **Celebrations pass (2026-10-01) open items:** crawfish-boil, king-cake-party, parade-picnic and boucherie headcounts are editorial; the parade-picnic food list is inferred (sources confirm picnics and BBQs, not specific dishes); the crawfish dip and boil side dishes are common practice, not verified; New Orleans Réveillon dinners and Christmas Eve bonfires on the levee were not checked this pass.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -764,6 +783,7 @@ These dishes are genuinely served and identified with this coast specifically �
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT regional deltas: 1 entry (LSU Saturday or Saints Sunday, gumbo-and-jambalaya tailgate and home party).
 - **2026-10-01 celebrations pass (schema §5.7):** 2 searches (boucherie, Mardi Gras parade picnic and king cake party); the crawfish boil reused the existing ENVIRONMENT register and catalog sources. Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: crawfish boil, Carnival season (king cake party and parade-route picnic), boucherie. Search snippets only.
 
 - **2026-09-24, three parallel subagent research passes** built this file's content: New Orleans/Louisiana Creole; Cajun/Acadiana; and Mississippi & Alabama Gulf Coast. All three read `country-file-schema.md`, `us.md`, and at least one prior regional file first, pulled forward (not re-researched) `us.md`'s existing po'boy pointer, and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.

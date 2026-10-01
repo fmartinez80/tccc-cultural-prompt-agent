@@ -186,6 +186,12 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8.) No genuine regional delta found: the national watch-party and social game-night entries in `us.md` GAME NIGHT apply unchanged (NFL Sunday and the Super Bowl at home, college and pro football, home board-game, trivia, video-game and mahjong nights), with this file's housing and light registers (ENVIRONMENT & STAGING SCENES) and local pizza (see catalog: **New York-style pizza**, **New Haven apizza**) swapped in where a brief names the place. A long-standing Jewish-American women's mahjong tradition in the New York area is plausible but unverified [LOW — not verified]; use `us.md`'s **Mahjong night** entry if a brief asks for it.
+
+---
+
 ## DISH CATALOG
 
 ### NYC Metro & New Jersey — Pizza
@@ -859,6 +865,7 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01):** no regional game-night delta was researched; the New York-area Jewish-American mahjong tradition is unverified [LOW].
 - **Celebrations pass (2026-10-01) open items:** clambake, Seven Fishes and Sunday-dinner headcounts are editorial; the Seven Fishes dish list and the Sunday gravy detail rest partly on lifestyle and recipe-blog sources; not checked this pass whether Jewish holiday dinners (Rosh Hashanah, a Passover meal outside the seder rite) or Portuguese feasts in RI/southeastern MA deserve their own regional entries.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -892,6 +899,7 @@ Per the typical-use note above, these are the broadly-reusable, non-neighborhood
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 0 new searches. Added a one-line GAME NIGHT section (national entries apply; no researched delta).
 - **2026-10-01 celebrations pass (schema §5.7):** 3 searches (clambake, Feast of the Seven Fishes, Sunday gravy). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: New England clambake, Feast of the Seven Fishes, Italian-American Sunday dinner. Search snippets only, no full page reads.
 
 - **2026-09-24, three parallel subagent research passes** built this file's initial content, one per internal zone (NYC Metro & New Jersey; Southern New England; Northern New England), following the same parallel-subagent-plus-hand-merge pattern used for `us.md`'s original buildout. Each pass read `country-file-schema.md`, `us.md`, and `uruguay.md` first, and was instructed to pull forward (not re-research) any dish content `us.md` already pointed to this file, research genuinely new dishes/environment detail for its assigned zone, and write a standalone scratch draft for hand review rather than edit any KB file directly.

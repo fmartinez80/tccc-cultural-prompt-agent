@@ -227,6 +227,26 @@ This zone clears the distinctness test on food-identity grounds that are indepen
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8. The national entries in `us.md` GAME NIGHT apply. The one big regional delta is **SEC college football Saturday**, which outweighs the NFL as the region's viewing occasion and has its own tailgate register. Party size means the place settings in frame.)
+
+#### Watch party: SEC college football Saturday (tailgate and home)
+- When: Saturdays, September to November, plus bowl games; tailgates run for hours before kick-off [LOW — not verified]. Stage **midday** or **golden-hour** (warm, humid early-autumn light; oaks and magnolias on Deep South campuses); a night game is an **evening** scene under tent lights.
+- Gathering: families, alumni and friends, 10 to 30 per tent among tens of thousands on campus [EDITORIAL]. Venue: **other**: a campus lawn or quad under canopy tents, or a stadium lot; at home, the living room for an away game. The best-known example is the Grove at Ole Miss, a 10-acre lawn of oak, elm and magnolia where tailgating began in the 1950s and many tents carry fine china, silver, candelabras and even chandeliers [HIGH — Wikipedia "The Grove (Ole Miss)"; Saveur; Food Network]. Open flames and grills are not allowed in the Grove, so food there is brought or catered [MEDIUM — Wikipedia, tailgate guides].
+- The spread: Southern party food rather than the national grill-and-burger table: fried chicken, barbecue and pulled pork, chili, shrimp, catfish, and hors d'oeuvres [MEDIUM — Wikipedia and Food Network on the Grove], plus pimento cheese and deviled eggs [LOW — not verified]. Link: see catalog: **Southern fried chicken — plated** (here cold, piled on a platter), **Pimento cheese (spread) and pimento cheese sandwich**, **Carolina barbecue (pork)**, **Memphis-style pulled pork sandwich**; deviled eggs are in `us.md`'s CANDIDATE QUEUE with a visual anchor in its Easter entry. Vessels: silver or china platters, a tiered tray, a chafing dish, a cake stand, on a clothed table.
+- Surface and environment: a folding table dressed with a tablecloth, a floral arrangement and real serving pieces under a canopy tent; a chandelier or candelabra hanging in the tent (the Grove register); large trees and dappled shade; other tents receding. Game-day dress (sundresses, button-downs) on blurred figures is a real cue [LOW — not verified].
+- Snapshot staging:
+  - **1 setting:** a sturdy plate with a fried chicken thigh, a pimento cheese finger sandwich and two deviled-egg halves on the clothed table edge. In frame: the silver platter of chicken cropped, a bud vase. Cues: the tent pole and a chandelier at the top edge; blurred tents behind under trees.
+  - **2 settings:** two identical plates; between them the chicken platter and a pimento cheese tray. Cues: a second table with a chafing dish soft behind; dappled light.
+  - **Small group (3 to 4 settings):** a stretch of the dressed table with identical plates, three platters cropped at the sides. Cues: candelabra, more tents receding, blurred guests standing with plates.
+- Never stage: as `us.md` GAME NIGHT; school names, mascots, crests or a full school colour scheme (red and navy; crimson and white; orange and white; purple and gold read as specific schools: use neutral linens); the Lyceum or any named campus building as a recognisable backdrop; bourbon, beer or cocktails (common in the tents); a recognisable student or celebrity.
+- Confidence and sources: the Grove's scale, history and tent decor [HIGH — Wikipedia; Saveur; Food Network]; Grove food list [MEDIUM]; pimento cheese, deviled eggs, dress and timing [LOW — not verified]; staging [EDITORIAL]. High-school Friday-night football is also large across the South [LOW — not verified]; its strongest documented form is Texas (see `us-texas.md`).
+
+**Sources for this section:** [Wikipedia — The Grove (Ole Miss)](https://en.wikipedia.org/wiki/The_Grove_(Ole_Miss)); [Saveur — Tailgating at Ole Miss](https://www.saveur.com/article/Travels/Tailgating-At-Ole-Miss); [Food Network — Over-the-top Ole Miss tailgating party](https://www.foodnetwork.com/holidays-and-parties/packages/tailgating/incredible-tailgating-ole-miss); [Sports Illustrated — The Grove at Ole Miss tailgating tips](https://www.si.com/college/olemiss/football/the-grove-at-ole-miss-tailgating-tips-for-college-football-s-best-gameday-01j6gghwgzh5). One search, snippets only.
+
+---
+
 ## DISH CATALOG
 
 ### Deep South
@@ -700,6 +720,7 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01) open items:** pimento cheese and deviled eggs as tailgate foods, game-day dress, SEC kick-off and tailgate timing, and Southern high-school Friday-night football are [LOW — not verified]; the Grove food list is MEDIUM (Wikipedia/Food Network).
 - **Celebrations pass (2026-10-01) open items:** headcounts for Sunday dinner, homecoming, pig pickin' and oyster roast are editorial; pig-pickin' sides and the oyster roast's chili/hot-dog side table are common practice, not verified; not checked whether Juneteenth (strongest in Texas, see `us-texas.md`) or Tennessee-specific gatherings need entries here.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -717,6 +738,7 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 game-night pass:** deviled eggs (also queued in `us.md`); tailgate fried-chicken platter served cold (a serving-state note for the existing fried chicken entry).
 - **Added by the 2026-10-01 celebrations pass:** roasted cluster oysters (Lowcountry oyster roast); hushpuppies; banana pudding; chicken and dumplings; candied yams.
 
 1. **Kentucky and Arkansas** — real, citable "Southern BBQ belt" evidence exists (Kentucky's Hot Brown sandwich, 1926; Arkansas's own internally split BBQ sauce styles) but neither state has been researched in depth; a dedicated validation pass should decide whether either belongs in this file, a different file, or neither.
@@ -731,6 +753,7 @@ Meat-and-three is a **restaurant format and venue register**, not a single named
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 1 new searches. Added GAME NIGHT regional deltas: 1 entry (SEC college football Saturday, tailgate and home, with the Grove at Ole Miss as the documented archetype). Search: Ole Miss Grove tailgating (Wikipedia, Saveur, Food Network, SI).
 - **2026-10-01 celebrations pass (schema §5.7):** 3 searches (pig pickin', Lowcountry oyster roast, church homecoming / dinner on the grounds). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 4 entries: Sunday dinner, church homecoming and dinner on the grounds, pig pickin', Lowcountry oyster roast; New Year's Day points to the Hoppin' John entry. Search snippets only.
 
 - **2026-09-24, three parallel subagent research passes** built this file's content: Deep South (Georgia, Alabama, Mississippi), Carolinas & Lowcountry (North Carolina, South Carolina, coastal Georgia), and Tennessee (Nashville and Memphis). All three read `country-file-schema.md`, `us.md`, and `us-northeast.md` first, pulled forward (not re-researched) `us.md`'s existing pointers (classic fried chicken, Carolina barbecue, Nashville hot chicken, Memphis BBQ), and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.

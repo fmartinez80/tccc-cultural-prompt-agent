@@ -274,6 +274,36 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8. The national entries in `us.md` GAME NIGHT apply. The deltas are the **cold-weather Packers and Bears tailgate and Sunday**, with brats and cheese in place of burgers, and the **euchre card night**. Party size means the place settings in frame.)
+
+#### Watch party: Packers or Bears Sunday (Lambeau-lot tailgate and home)
+- When: NFL Sundays, September to January; late-season games are cold, often below freezing and sometimes snowy [MEDIUM — ESPN, Acme Packing Company]. Stage **midday** (flat, white winter light) or **golden-hour** for the late game; **evening** for night games.
+- Gathering: friends and family, 6 to 20 at a tailgate around a grill, or 2 to 10 at home [EDITORIAL]. Venue: **other**: the stadium parking lot (Lambeau Field in Green Bay is the archetype: tailgating there is described as a Wisconsin rite of passage) [MEDIUM — Acme Packing Company; Islands]; **home indoor** in a den or a finished basement with the TV.
+- The spread: **grilled bratwurst** is the tailgate staple, with cheese and cheese curds [MEDIUM — ESPN, Acme Packing Company, americatailgating guide]; brats come in a bun with mustard and onions (sauerkraut optional), often simmered in a pan on the grill [LOW — not verified]. Link: see catalog: **Wisconsin cheese curds** (fresh, in a bag or bowl, for a tailgate); **brat** has no catalog entry: a coarse, pale-to-golden pork sausage ~15–18 cm long and ~3 cm thick, grill-marked and slightly split, in a hoagie-style or brat bun a little shorter than the sausage, with brown mustard and soft onions (see CANDIDATE QUEUE). For Chicago, swap in see catalog: **Chicago Italian beef** or **Chicago-style hot dog**, and **Chicago tavern-style pizza** for a home party [LOW — not verified as game-day foods]. A home party in Wisconsin can carry a hotdish (see catalog: **Minnesota hotdish**) [LOW].
+- Surface and environment: a portable grill steaming in cold air, a foil pan of brats on its edge, a folding table, people in parkas, knit hats and gloves (no logos), breath visible, snowbanks or frosted grass at the lot edge; at home, a wood-panelled or finished-basement den with a sectional and a TV glow.
+- Snapshot staging:
+  - **1 setting:** a paper plate with one brat in a bun and a small pile of cheese curds on the folding table, a gloved hand at the edge. In frame: the foil pan cropped, the grill edge steaming. Cues: other tailgates and parked cars soft behind in grey winter light.
+  - **2 settings:** two identical plates on the table; the pan of brats and a mustard bottle between them. Cues: two camp chairs with blankets; breath in the air.
+  - **Small group (3 to 4 settings):** a stretch of table with identical plates, the brat pan and a bowl of curds cropped; a figure at the grill in a parka, soft.
+- Never stage: as `us.md` GAME NIGHT; "cheesehead" foam hats (a trademarked product and a team marker); green-and-gold or navy-and-orange schemes that read as the Packers or Bears; beer (the real default, and brats are often simmered in it: show the pan without cans); the stadium's legible signage.
+- Confidence and sources: Lambeau tailgating, brats, cheese and cold [MEDIUM — ESPN; Acme Packing Company; Islands; americatailgating.com (last-resort tier)]; brat build and Chicago and hotdish swaps [LOW — not verified]; staging [EDITORIAL].
+
+#### Game night: Euchre card night
+- Popularity in the region: plausibly **medium** in Michigan, Indiana, Ohio and Wisconsin, where euchre is a common family and social card game [LOW — not verified, model knowledge; no source this pass].
+- When: weekend or weeknight **evening**; holiday afternoons after the family meal (**golden-hour**).
+- Gathering: 4 players in two partnerships, family or friends; church and community-hall euchre tournaments also exist [LOW]. Venue: **home indoor** (kitchen or dining table) or **other** (a community hall).
+- The spread: kitchen-table snacks: chips and dip, a relish or veggie tray, bars and cookies (see `us.md` catalog: **Potato chips**, **Chips and dip**) [LOW — not verified].
+- Surface and environment: a kitchen table with a plain deck (euchre uses a short deck, no branding visible), cards face-down, a pencil and a paper score pad (unreadable); overhead pendant light.
+- Snapshot staging: **1 or 2 settings:** small plates with chips and a bar at the table edge beside face-down hands; **small group:** four places around the table, a snack bowl in the centre, cropped; cues are a blurred onlooker.
+- Never stage: money, stakes or a tournament prize; legible cards or score pads; beer.
+- Confidence and sources: [LOW — not verified]; staging [EDITORIAL].
+
+**Sources for this section:** [ESPN — Packers fans take on chilling cold weather at Lambeau Field](https://www.espn.com/nfl/playoffs07/news/story?id=3205908); [Acme Packing Company — Experience a Lambeau Field tailgate](https://www.acmepackingcompany.com/2021/9/29/22639014/nfl-tailgating-lambeau-field-packers); [Islands — Tailgating at Lambeau Field](https://www.islands.com/1756711/tailgating-historic-stadium-lambeau-field-every-american-football-fan-bucket-list-midwest-wisconsin/); [America Tailgating — Tailgating at Lambeau Field (guide, last-resort tier)](https://americatailgating.com/tailgating-at-lambeau-field/). One search, snippets only.
+
+---
+
 ## DISH CATALOG
 
 ### Chicago & Great Lakes
@@ -930,6 +960,7 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01) open items:** the brat build (bun, mustard, onions, beer-simmered pan), Chicago game-day foods and hotdish at Wisconsin game parties are [LOW — not verified]; euchre as a medium-popularity regional card night is entirely model knowledge [LOW — not verified], flagged for a search.
 - **Celebrations pass (2026-10-01) open items:** the graduation open house's Upper Midwest concentration and menu rest on Patch plus forum/lifestyle sources (weak tier); open-house, potluck headcounts editorial; Jell-O salad and ham buns at potlucks are common practice, not verified; Polish-American Wigilia (Christmas Eve, Chicago/Milwaukee/Detroit) and Kansas City/St. Louis-specific gatherings were not researched this pass (search budget spent) and are candidates for a follow-up.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -956,6 +987,7 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 game-night pass:** Wisconsin grilled bratwurst (brat in a bun; visual anchor in GAME NIGHT).
 - **Added by the 2026-10-01 celebrations pass:** lutefisk; lefse; Scandinavian meatballs in gravy; sloppy joe / shredded-beef sandwich (open-house roaster); Midwest bars (Scotcheroos, lemon bars); Jell-O salad; Polish Wigilia table (pierogi, barszcz, fish) for research.
 
 1. **Priority 1 (methodology)**: Include this file in the future retroactive real-world-scale audit pass already logged in `DECISIONS.md`, tightening the handful of entries flagged above that rely on format/vessel description rather than an explicit occupancy fraction.
@@ -973,6 +1005,7 @@ This is the seventh regional file built under the 13-file US structure. It holds
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 1 new searches. Added GAME NIGHT regional deltas: 2 entries (Packers or Bears Sunday with the cold-weather Lambeau-lot brat tailgate; euchre card night, LOW). Search: Lambeau Field tailgating and brats (ESPN, Acme Packing Company, Islands).
 - **2026-10-01 celebrations pass (schema §5.7):** 3 searches (Upper Midwest graduation open house, Lutheran lutefisk suppers, Lenten parish fish fries). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 4 entries: Lenten parish fish fry, graduation open house, Lutheran lutefisk and meatball supper, church-basement potluck. Search snippets only.
 
 - **Method**: Three parallel Claude subagent research passes, each WebSearch-only — WebFetch/direct page reads were blocked by network egress for every domain attempted, consistent with every prior research round on this project. All citations rely on WebSearch's own result-snippet synthesis, not a directly-read full page, per `country-file-schema.md` §6's disclosure requirement.

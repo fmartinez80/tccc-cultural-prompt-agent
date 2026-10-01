@@ -158,6 +158,21 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8. The national entries in `us.md` GAME NIGHT apply; this section only swaps the spread where the region's own foods replace the national wing-and-dip table. Party size means the place settings in frame.)
+
+#### Watch party: Eagles or Ravens Sunday at home (regional spread swap)
+- When: NFL Sundays, September to January, as in `us.md` (**NFL Sunday at home**): **midday** or **golden-hour** for the 13:00 and 16:25 ET games, **evening** for night games [LOW — not verified].
+- Gathering: 2 to 10 at home, as nationally [EDITORIAL]. Venue: **home indoor** (Philadelphia rowhouse living room, suburban den) or, in Maryland's early season, **home outdoor** on a deck.
+- The spread: the national wings and dips stay, but a brief that names the place can swap in: in Philadelphia, a **party hoagie** or hoagie tray (sub rolls cut into sections on a long platter; see `us.md` **Naming norm: Hoagie / Sub / Hero / Grinder**), soft pretzels (see catalog: **Philadelphia soft pretzel**) and cheesesteaks (see catalog: **Philly cheesesteak**); in Maryland, steamed crabs in early-season games (September to October overlaps crab season; see catalog: **Steamed blue crabs (the Maryland crab feast)** and CELEBRATIONS: **Maryland crab feast** for the paper-covered table) or a hot crab dip with crackers or bread [LOW — not verified; no source this pass ties these foods to game day]. **Crab dip** has no catalog entry: a shallow round baking dish of creamy, pale cream-coloured dip dense with shredded crab, under a browned cheese crust dusted orange with Old Bay, with crackers or toasted bread rounds around it [EDITORIAL; see CANDIDATE QUEUE].
+- Surface and environment: coffee table in a narrow rowhouse living room (Philadelphia) or a deck table with brown kraft paper and mallets (Maryland crabs); TV glow; autumn light.
+- Snapshot staging: **1 or 2 settings:** paper plates with a hoagie section and a soft pretzel each, the long hoagie tray partly cropped; or two places at a paper-covered table with crabs and mallets, the crab pile cropped, TV glow through a sliding door. **Small group:** identical plates around the tray or crab pile, cropped; cues as in `us.md`.
+- Never stage: as `us.md` GAME NIGHT (no crests, jerseys, legible screens, betting, alcohol); team colour pairs that read as a specific team (midnight green with silver; purple with black and gold) in full; beer with crabs (the real default, see the crab-feast entry).
+- Confidence and sources: [LOW — not verified, model knowledge; regional foods from this file's own catalog entries]; staging [EDITORIAL].
+
+---
+
 ## DISH CATALOG
 
 ### Philadelphia & Pennsylvania
@@ -521,6 +536,7 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01) open items:** no source ties the hoagie tray, soft pretzels, crabs or crab dip to game day; all [LOW — not verified]; kick-off times LOW.
 - **Celebrations pass (2026-10-01) open items:** backyard crab-feast and stuffed-ham table headcounts are editorial; the fire-company chicken's vinegar-and-oil baste is from common practice, not verified; not checked whether a Pennsylvania Dutch wedding or church-supper register (chicken corn soup, chicken and waffles) deserves its own entry.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -538,6 +554,7 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ## CANDIDATE QUEUE
 
+- **Added by the 2026-10-01 game-night pass:** Maryland hot crab dip; party hoagie / hoagie tray (as a dish entry, beyond `us.md`'s naming norm).
 - **Added by the 2026-10-01 celebrations pass:** fire-company barbecued half chicken; Southern Maryland stuffed ham; Maryland crab soup.
 
 1. Delaware's own coastal/Delaware Bay food culture, independent of its Pennsylvania-Dutch overlap.
@@ -551,6 +568,7 @@ The clearest anchor is the Chesapeake blue crab itself as a defined regional ide
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT regional deltas: 1 entry (Eagles or Ravens Sunday, regional spread swap: party hoagie, soft pretzels, cheesesteaks, steamed crabs, crab dip).
 - **2026-10-01 celebrations pass (schema §5.7):** 3 searches (Maryland crab-feast fundraisers, PA fire-company chicken barbecue, Southern Maryland stuffed ham). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: Maryland crab feast, fire company chicken barbecue, Southern Maryland stuffed-ham holiday table; Philadelphia's Seven Fishes and Sunday gravy point to `us-northeast.md`. Search snippets only.
 
 - **2026-09-24, two parallel subagent research passes** built this file's content: Pennsylvania/Philadelphia/Delaware, and Maryland/DC/Virginia (Chesapeake Bay). Both read `country-file-schema.md`, `us.md`, and `us-northeast.md` first, pulled forward (not re-researched) the one existing `us.md` pointer (Philly cheesesteak), and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.

@@ -165,6 +165,21 @@ South Florida clears the same distinctness test on independently corroborated ca
 
 ---
 
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8. The national watch-party entries in `us.md` GAME NIGHT apply to Florida (college football in Gainesville, Tallahassee and Miami; NFL at home). The regional delta is a social game: **Cuban-American dominoes** in South Florida. Party size means the place settings in frame.)
+
+#### Game night: Cuban-American dominoes (park table and backyard)
+- When: afternoons into early evening, all year: **golden-hour** [MEDIUM-LOW — research notes; EDITORIAL]. At family gatherings, the dominoes table runs after the meal into the **evening** (see CELEBRATIONS: **Nochebuena**, which already places a dominoes table soft in the background).
+- Gathering: four players (often two pairs) with onlookers. Two registers: the public park table at Máximo Gómez Park ("Domino Park") on Calle Ocho in Little Havana, where the players are mostly older men [LOW — not verified this pass]; and a family table in a backyard, carport or patio during a party, which is mixed and the better staging default [EDITORIAL]. Venue: **other** (park) or **home outdoor**.
+- The spread: Cuban bakery snacks on paper or a small tray: pastelitos and croquetas (see catalog: **Pastelito de guayaba y queso**; croquetas are in this file's CANDIDATE QUEUE with a visual anchor in CELEBRATIONS: **Cuban-American family party**), with cafecito in small cups [research notes; LOW for the pairing]. **Cafecito is an intruder drink**: authentic, but kept out of frame unless the brief allows a companion drink.
+- Surface and environment: a square table (slatted park table under a pergola, or a folding table on a patio), dominoes face-down or in lines with pips soft and unreadable as a scoring position; palms, a lanai screen, warm late light.
+- Snapshot staging: **1 setting:** one player's edge of the table: a few tiles standing, a paper napkin with a pastelito and a croqueta. **2 settings:** two players' corners with identical napkins of pastries, the line of played tiles between them. **Small group:** the full table with four players' hands at the edges (faces soft or out of frame), a bakery tray on a side table; cues are a blurred onlooker and party string lights.
+- Never stage: money or stakes; legible bakery branding; cigars (a Little Havana cliché, and tobacco); beer or rum; a Havana-nostalgia set (vintage cars, cigar shops); identifying a real park's signage or murals in a legible way.
+- Confidence and sources: dominoes as a Cuban-American cue [MEDIUM — research notes, consistent with this file's Nochebuena entry]; Domino Park and its demographic [LOW — not verified this pass]; food pairing [LOW]; staging [EDITORIAL].
+
+---
+
 ## DISH CATALOG
 
 ### North Florida
@@ -476,6 +491,7 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 
 ## GAP LOG
 
+- **Game-night pass (2026-10-01) open items:** Máximo Gómez (Domino Park) details and its mostly-older-male demographic, and the pastelito/croqueta/cafecito pairing with dominoes, are [LOW — not verified]; dominoes as a Cuban-American cue rests on the research notes plus this file's Nochebuena entry.
 - **Celebrations pass (2026-10-01) open items:** Nochebuena headcount editorial; quinceañera headcount, timing and service style rest on Miami venue marketing (commercially self-interested), not an independent source; Cuban party size rests on one enthusiast site; Haitian gatherings (soup joumou on 1 January is often a morning meal, so out of scope unless a later meal is documented) and North Florida-specific gatherings (fish fries, mullet festivals) were not checked this pass.
 
 - **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
@@ -502,6 +518,7 @@ Commercial stone-crabbing in the Big Bend region (Cedar Key, Steinhatchee, Horse
 
 ## RESEARCH LOG
 
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT regional deltas: 1 entry (Cuban-American dominoes, park table and backyard).
 - **2026-10-01 celebrations pass (schema §5.7):** 2 searches (Nochebuena and lechón, Miami quinceañera and party trays). Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: Nochebuena, quinceañera, Cuban-American family party and the party tray. Search snippets only.
 
 - **2026-09-24, two parallel subagent research passes** built this file's content: North Florida (Panhandle, Jacksonville, Tallahassee, Gainesville, Tampa/St. Petersburg) and South Florida/Floribbean (Miami, the Keys, Little Haiti). Both read `country-file-schema.md`, `us.md`, `us-northeast.md`, and `us-mid-atlantic.md` first, pulled forward (not re-researched) `us.md`'s existing Cuban sandwich pointer, and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.
