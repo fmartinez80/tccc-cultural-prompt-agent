@@ -738,6 +738,256 @@ the next ones a production would hit.
   **summer** (May–Aug, 40 °C+ in the plains) brings mangoes, lassi,
   falooda. [LOW-MEDIUM — not re-checked]
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). The frame shows
+only the operator's party (1, 2 or a small group of identical place
+settings) at one stretch of a long table or dastarkhwan; the crowd is
+implied. **The hard staging rules at the top of this file apply to every
+entry**, and two items stay exactly as open as they were: **the iftar
+staging rule and the consumer-boycott note** (HERO PRODUCT SLOT,
+FESTIVALS) are pending Fernando / TCCC Pakistan. Nothing here resolves
+them; the Ramadan, Eid and aqiqah entries are usable only within
+whatever that decision allows.
+
+### How large gatherings work here
+
+- **Who and how many.** Households are already large (6.3 persons on
+  average, 2023 Census — see ENVIRONMENT), so a family celebration means
+  the joint family plus relatives: an Eid lunch or a dawat for guests is
+  commonly 10–30 people; weddings run to hundreds, with separate events
+  (mehndi, baraat, walima) on different days. [HIGH for household size;
+  gathering sizes LOW-MEDIUM — estimates, not sourced]
+- **Where (intake venues).** Home indoor (drawing room and dining room)
+  for Eid, dawats and aqiqah; home outdoor (**roof or courtyard**) for
+  the Eid ul-Adha BBQ and winter gatherings; "other" for weddings, held
+  in **marquees and wedding halls** (shadi halls) or a shamiana tent in
+  a street or lawn. Restaurants' family halls host birthdays and smaller
+  dawats.
+- **Table form.** At home, the dining table extended with a second table,
+  or a long **dastarkhwan** on the floor when guests outnumber chairs
+  (see GENERAL NORMS). Weddings: round tables of 8–10 in a hall or
+  marquee with a **buffet line** of chafing dishes, or food served to
+  tables from degs. [MEDIUM — dastarkhwan HIGH (Wikipedia, Vittles);
+  wedding buffet form from caterer sources, tier 3]
+- **Who serves.** At home, the women of the family cook, hosts serve
+  guests first and press second helpings; men often eat in a separate
+  room or sitting at large gatherings in conservative families. At
+  weddings, caterers cook in **degs** and waiters run the buffet or
+  serve tables. [LOW-MEDIUM — not independently re-checked]
+- **Serving style.** Family-style: everything on the table at once, rice
+  on a platter, salans in dishes, naan or roti in a basket or hot pot,
+  raita and salad on the side. No courses except dessert after.
+- **Plates and cutlery.** At home the everyday right-hand-and-roti
+  norm holds, with spoons for rice; at weddings, hired white crockery
+  with a spoon and fork. A water jug and tumblers are on every real table
+  (excluded, hard rule 4).
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  most authentic cues: (1) **a long table or dastarkhwan running out of
+  frame**, with more dishes than the visible diners need (a platter of
+  biryani, two salans, a naan basket, raita, salad); (2) **a deg or a
+  row of chafing dishes soft in the background** for big events; (3)
+  **embroidered or festive shalwar kameez and dupattas on blurred
+  figures**, or wedding lights (strings of fairy lights on a facade).
+- **Never staged**: animal sacrifice (Eid ul-Adha, aqiqah), live animals,
+  carcasses or raw meat; prayer, mosques, Qur'an or calligraphy; dancing
+  that mixes unrelated men and women; money garlands or cash near the
+  product (legible notes); Rooh Afza, chai, water jugs and lassi beside
+  the hero.
+
+### Celebration: Eid ul-Fitr family lunch and dinner (Meethi Eid)
+- Type: calendar holiday
+- When: ~9–10 March 2027 (Ruet-e-Hilal sighting); **sheer khurma in the
+  morning** for visitors, then the main family meal at lunch or dinner.
+  Breakfast sweets are mentioned, the main meal is staged. Intake time:
+  midday or evening
+- Gathering: the joint family plus visiting relatives; 10–30 over the day
+  [LOW-MEDIUM — estimate]. Venue: home indoor (drawing room and dining
+  table, or a dastarkhwan)
+- The spread: **biryani** as the centrepiece the family builds the table
+  around (see catalog: Biryani index; Karachi biryani), **chicken or
+  mutton qorma** (see catalog: Chicken (or mutton) qorma), shami kebab,
+  chicken roast, sometimes nihari or haleem (see catalog: Nihari;
+  Haleem), naan (see catalog: Tandoori roti and naan), raita and salad;
+  desserts **sheer khurma, kheer and mithai** (see catalog: Sheer
+  khurma; Kheer; Mithai). About 7–10 serving dishes. Shami kebab has no
+  entry: flat round patties of minced meat and chana daal, about the
+  can's width, browned on both faces, stacked on a plate (added to the
+  CANDIDATE QUEUE). [MEDIUM — Tea for Turmeric, Hamariweb and Pakistani
+  Eid menu guides agree on biryani, qorma, shami kebab, roast, kheer and
+  mithai; tier 3–4; sheer khurma per the FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of biryani with a qorma
+  piece and a shami kebab at the near corner of the table; the biryani
+  platter and the naan basket cropped at the edge. **2 settings** — two
+  identical plates; between them the qorma dish, raita and a salad
+  plate, the table running out of frame. **Small group** — the end of an
+  extended table or dastarkhwan: biryani platter, qorma, shami kebabs,
+  naan basket, raita, salad, a sheer khurma bowl waiting at the far end.
+  Cues: more dishes than diners; new embroidered clothes and mehndi-
+  patterned hands resting on the table edge (no faces); a glass centre
+  table with a mithai box (blank lid) soft in the drawing room behind.
+- Decor and cues: best tablecloth, new clothes, bangles on blurred
+  figures. Avoid prayer and mosque imagery; no eidi cash in frame.
+- Never stage: the product as an Eid-morning item (sheer khurma is the
+  morning dish); chai, Rooh Afza, water jugs; alcohol or pork.
+- Confidence and sources: as tagged.
+
+### Celebration: Eid ul-Adha family meals and roof BBQ (Bakra Eid)
+- Type: calendar holiday
+- When: ~16–17 May 2027 and the two days after; **kaleji on the first
+  morning**, biryani at lunch, **BBQ in the evening**. Intake time:
+  midday (lunch) or evening (BBQ)
+- Gathering: joint family, relatives, neighbours receiving shares of
+  meat; 10–30 [LOW-MEDIUM — estimate]. Venue: home indoor (lunch) or home
+  outdoor (roof or courtyard BBQ)
+- The spread: lunch: **biryani**, **qorma**, **karahi** (see catalog:
+  Karachi biryani; Chicken (or mutton) qorma; Chicken karahi or Peshawari
+  namak mandi karahi by zone), naan, raita; evening BBQ: **seekh kebab,
+  tikka and boti, chapli kebab** (see catalog: Seekh kebab; Chicken
+  tikka; Chapli kebab), naan, salad and chutney. Kaleji (see catalog: Tawa
+  kaleji) is the morning dish and is mentioned, not staged as the main
+  meal. [MEDIUM-HIGH — FESTIVALS register (Hinz Cooking, Express Tribune,
+  24NewsHD)]
+- Snapshot staging: **1 setting** — a plate of seekh kebab, two naan
+  pieces and onion-and-chilli salad on a roof table at dusk; a skewer
+  platter cropped at the edge. **2 settings** — two identical plates;
+  between them a platter of seekh and tikka and a raita bowl. **Small
+  group** — the end of a long roof table with platters of kebabs, a naan
+  basket and salad; a charcoal angeethi's glow and smoke soft behind,
+  string lights. Cues: grill smoke; charpais and plastic chairs at the
+  edge; a stack of foil-covered plates (meat shares for neighbours).
+- Decor and cues: roof string lights, charpai, winter shawls or summer
+  heat haze by season (the 2027 date falls in hot May).
+- Never stage: the sacrifice, cattle markets, animals tethered outside,
+  carcasses, blood, meat piles (hard rule 3).
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+### Celebration: Iftar dawat (an iftar party for relatives or friends)
+- Type: community or family gathering
+- When: evenings of Ramadan (~8–9 Feb to ~9 Mar 2027), at sunset.
+  Intake time: golden-hour to evening (dusk blue at the window)
+- Gathering: hosts invite relatives, neighbours or friends; 10–30
+  [LOW-MEDIUM — estimate; iftar parties are common but no figure was
+  found]. Venue: home indoor (dastarkhwan or extended dining table) or
+  home outdoor (lawn or roof)
+- The spread: dates in a small bowl; **pakoras and samosas** (see
+  catalog: Pakora; Samosa), **fruit chaat** (see catalog: Fruit chaat),
+  **chana chaat** (see catalog: Chana chaat), **dahi baray** (see
+  catalog: Dahi baray), then a main such as biryani or haleem (see
+  catalog: Karachi biryani; Haleem). [HIGH for the items and order —
+  FESTIVALS register]
+- Snapshot staging: **apply the FESTIVALS register's five iftar staging
+  points exactly as written** (untouched table before sunset; the hero
+  never the fast-breaker and never beside the dates; Rooh Afza, water and
+  chai out of frame; no religious objects; this is an editorial call, not
+  TCCC Pakistan policy). Within those: **1 setting** — one place on a
+  dastarkhwan with an empty plate and the snack dishes in front;
+  **2 settings** — two places, a pakora platter and a fruit chaat bowl
+  between them; **small group** — a stretch of dastarkhwan with pakoras,
+  samosas, fruit chaat, chana chaat and dahi baray running out of frame.
+  Cues: the cloth running off both sides; more snack platters than
+  diners; cushions and blurred seated figures at the far end.
+- Decor and cues: dusk light, a lamp just lit. Avoid lanterns-and-
+  crescent clichés.
+- Never stage: any eating or drinking before sunset; prayer; the product
+  as the fast-breaker. **Use only if Fernando / TCCC Pakistan clears
+  Ramadan scenes** (boycott note, HERO PRODUCT SLOT).
+- Confidence and sources: food HIGH; staging pending sign-off.
+
+### Celebration: Wedding dinner (baraat and walima; mehndi)
+- Type: life event
+- When: wedding season peaks in the cooler months (roughly October to
+  March) [LOW — not re-checked]; mehndi, baraat and walima on separate
+  days, with dinner in the evening. **In Punjab the law requires
+  wedding functions at public venues to end by 10 pm.** Intake time:
+  evening
+- Gathering: several hundred guests is common [LOW-MEDIUM — estimate].
+  Venue: other (marquee, wedding hall, or a shamiana on a lawn or street)
+- The spread: typically **two main dishes: qorma (chicken or beef) and
+  biryani or pulao**, with naan, salad and raita, and a dessert such as
+  **kheer, zarda, gulab jamun, firni or shahi tukray**; bigger menus add
+  karahi, tikka and kebabs (see catalog: Chicken (or mutton) qorma;
+  Karachi biryani; Kabuli pulao; Tandoori roti and naan; Kheer; Mithai;
+  Chicken karahi; Seekh kebab). **Punjab Marriage Functions Act 2016**:
+  at a public venue only **"one dish"** may be served, defined as one
+  salan, one rice dish, one salad, hot and cold drinks, roti and naan,
+  and one sweet dish; enforcement is uneven and violations are reported
+  in the press. A Punjab wedding scene should therefore show one salan,
+  one rice, naan, salad and one sweet, not a buffet of ten. Zarda has no
+  entry: sweet saffron-yellow rice with raisins, nuts and colourful
+  candied fruit, served from a platter (added to the CANDIDATE QUEUE).
+  [HIGH for the Act's text — ILO NATLEX copy of the Act, The Tribune
+  (India), Dawn; menu MEDIUM — Shadiyana, caterer menus, tier 3]
+- Snapshot staging: **1 setting** — a place at a round table with white
+  crockery: a plate of biryani with a qorma piece, a naan quarter and
+  salad; the table's centre dishes cropped. **2 settings** — two places;
+  a naan basket and a raita bowl between them. **Small group** — one arc
+  of a round table with four plates; the buffet line of chafing dishes
+  soft behind, or a deg on its stand. Cues: marquee draping and fairy
+  lights; chair covers; blurred guests in formal shalwar kameez and
+  embroidered dupattas. Mehndi variant: yellow-and-green decor, marigold
+  strings, floor cushions.
+- Decor and cues: lights, flowers, stage soft in the far background (no
+  couple as identifiable faces). Avoid Indian wedding iconography (sacred
+  fire, sindoor).
+- Never stage: mixed-gender dancing near the product, money garlands,
+  alcohol; a Punjab hall buffet that breaks the one-dish rule.
+- Confidence and sources: as tagged.
+
+### Celebration: Aqiqah dawat (birth celebration)
+- Type: life event
+- When: traditionally the seventh day after birth, or later; a lunch or
+  dinner. Intake time: midday or evening
+- Gathering: relatives and neighbours; 15–50 [LOW — estimate]. Venue:
+  home indoor or home outdoor (courtyard), sometimes a restaurant hall
+- The spread: the aqiqah goat (one for a girl, two for a boy) is
+  sacrificed and the meat is shared among family, friends and the poor;
+  families either host a meal or distribute the meat. The meal is
+  usually **biryani** with a qorma or salan, naan, raita and a sweet (see
+  catalog: Karachi biryani; Chicken (or mutton) qorma; Kheer). [MEDIUM —
+  IslamQA and charity aqiqah pages for the practice; biryani as the
+  usual dish from one tier-4 source and general practice]
+- Snapshot staging: **1 setting** — a plate of mutton biryani with raita
+  on the dining table, the biryani platter cropped. **2 settings** — two
+  plates, a qorma dish and a naan basket between them. **Small group** —
+  a dastarkhwan stretch with the biryani platter, qorma, raita, salad and
+  a kheer bowl; foil-wrapped meat shares stacked at the edge.
+- Decor and cues: simple; the baby out of frame (kid-adjacent).
+- Never stage: the sacrifice or the animals; religious rites.
+- Confidence and sources: as tagged.
+
+### Celebration: Dawat (inviting guests for dinner) and birthday parties
+- Type: community or family gathering (dawat); life event (birthday)
+- When: dawats any evening, especially weekends, at the late Pakistani
+  dinner hour (~20:30–21:30); birthdays in the evening. Intake time:
+  evening
+- Gathering: dawat: invited relatives or friends, 8–20; birthday: family
+  and friends, 10–40, at home or a restaurant's family hall [LOW —
+  estimates]. Venue: home indoor; restaurant for some birthdays
+- The spread: a dawat menu has a dessert, roti or naan with a curry, a
+  kebab or tikka, a rice main such as biryani, and a salad (see catalog:
+  Chicken karahi; Seekh kebab; Chicken tikka; Karachi biryani; Tandoori
+  roti and naan; Kheer). Birthdays add a cake (no entry; shared
+  celebration-cake item in the CANDIDATE QUEUE) and often fast-food
+  items such as pizza or zinger burgers. [MEDIUM for the dawat structure
+  — Hamariweb and TastyDen dawat menus, tier 4; birthday LOW — not
+  searched]
+- Snapshot staging: **1 setting** — a place at the dining table with
+  biryani, a seekh kebab and salad; the karahi dish cropped. **2
+  settings** — two plates, the karahi and a naan basket between them.
+  **Small group** — the end of the table with karahi, biryani, kebabs,
+  raita and salad, a dessert bowl at the far side; a drawing room with
+  guests soft behind. Birthday variant: a cake on a side table, plain
+  balloons, no numerals or names.
+- Decor and cues: the best crockery and tablecloth (dawats show the
+  hosts' care), a showcase cabinet behind.
+- Never stage: chai service beside the hero; legible birthday text.
+- Confidence and sources: as tagged.
+
 ---
 
 ## ZONE CALLOUTS (environment + dish pointers)
@@ -2189,6 +2439,14 @@ No green tea glasses, no legible signage."
   ethnic labels in prompts. [EDITORIAL]
 - **Breakfast scope** (Morning Module off by default) needs Fernando's
   decision.
+- **Celebrations pass (2026-10-01) open items.** All gathering
+  headcounts are editorial estimates. Wedding season months, the
+  men's/women's seating split at large gatherings, mehndi food and
+  birthday parties were not searched. Aqiqah's usual menu rests on one
+  tier-4 source. The Punjab one-dish rule is HIGH for the law's text but
+  how often it is followed is unknown (Dawn reports violations); no
+  equivalent rule was checked for Sindh, KP or Islamabad. The Ramadan,
+  Eid and aqiqah entries inherit the open iftar/boycott decision.
 
 ## CANDIDATE QUEUE
 
@@ -2206,6 +2464,10 @@ No green tea glasses, no legible signage."
    haleem (hummus failure), namak mandi karahi (red-curry failure),
    bun kebab (burger failure), and the iftar table (Rooh Afza intrusion).
 5. Independent §8 audit of this file.
+6. Celebration dishes without an entry (2026-10-01 celebrations pass):
+   **shami kebab**, **zarda**, a shared **celebration cake** entry, and
+   wedding desserts **shahi tukray** and **gulab jamun** in full (the
+   latter is compact under Mithai).
 
 ## RESEARCH LOG
 
@@ -2243,3 +2505,11 @@ No green tea glasses, no legible signage."
   sheer khurma and Eid dates; nothing here contradicts it (Karachi
   biryani is documented as a different form, not a correction).
   `turkey.md` read for structure and the shared CCI bottler note.
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches** (Punjab
+  Marriage Functions Act one-dish rule and 10 pm limit; wedding menus;
+  aqiqah practice and food; Eid ul-Fitr lunch and dawat menus). Added
+  CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register: how
+  gatherings work plus 6 entries (Eid ul-Fitr, Eid ul-Adha, iftar dawat,
+  wedding dinner with mehndi variant, aqiqah dawat, dawat and birthday).
+  The iftar staging rule and boycott note were left open for Fernando.
+  No subagents.

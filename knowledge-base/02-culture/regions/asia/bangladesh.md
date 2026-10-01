@@ -847,6 +847,267 @@ offer both to the brief-writer (§4.6). [EDITORIAL]
   roast, rezala, firni or jorda in big catered spreads [MEDIUM — not
   independently re-checked].
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). The frame shows
+only the operator's party (1, 2 or a small group of identical place
+settings) at one stretch of a bigger table; the crowd is implied. **The
+hard staging rules at the top of this file apply to every entry**, and
+the **Ramadan/iftar staging rule stays exactly as open as it was**
+(editorial call flagged for Fernando, hard rule 4, FESTIVALS, GAP LOG).
+Nothing here resolves it.
+
+### How large gatherings work here
+
+- **Who and how many.** Celebrations are extended-family and community
+  affairs. Eid lunches and family dawats are commonly 10–30 people
+  [LOW-MEDIUM — estimate]; urban weddings run from about 300 to over
+  1,000 guests [LOW-MEDIUM — one tier-3 wedding source; plausible against
+  the hall-catering norm]; a Chattogram **mezban** can feed thousands
+  (3,000–4,000 at a rich household's mezban, five cows for such a crowd)
+  [HIGH — The Daily Star, Wikipedia "Mezban", Banglapedia, TBS].
+- **Where (intake venues).** Home indoor (the Dhaka flat's drawing-dining
+  room, extended) for Eid and dawats; home outdoor (the village uthan,
+  a rooftop, or a **shamiana** (cloth tent) pitched in a courtyard or lane)
+  for village weddings, mezbans and big family events; "other" for most
+  urban weddings, now held in **community centres and convention halls**
+  with professional caterers [MEDIUM — Global Voices on the shift to
+  community centres; The Daily Star on mezban settings].
+- **Table form.** At home, every dish on the table at once, shared from
+  the centre (GENERAL NORMS); for big home events, long tables under a
+  shamiana or a floor spread in villages. At community-centre weddings,
+  long rows of tables with white cloths, or round tables; guests sit in
+  shifts ("batches") as tables fill and clear. [LOW-MEDIUM — batch
+  seating is common knowledge, not independently re-checked]
+- **Who serves.** At home, the women of the family cook; guests are
+  served first, then elders. At weddings and mezbans, **caterers or
+  bawarchis (cooks) cook in degs** and waiters serve **plated portions
+  or ladle from buckets and trays at the table**. [MEDIUM — Global Voices,
+  TBS on Biye Bari; mezban serving form from The Daily Star]
+- **Plates and cutlery.** Wedding tables carry a white plate, a bowl and
+  often a spoon and fork; many guests still eat with the right hand.
+  Mezbans and village events may use steel or disposable plates.
+  [LOW-MEDIUM]
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  most authentic cues: (1) **a long table running out of frame** with a
+  white cloth, the next guest's plate edge visible; (2) **a deg or
+  catering buckets and a waiter's tray soft at the frame edge**; (3)
+  **festive fabric on blurred figures** (jamdani, Eid panjabis, wedding
+  red or holud yellow) or a shamiana's striped cloth roof. Dhaka's late
+  dinner hour means most wedding scenes are evening, warm interior light.
+- **Never staged**: animal sacrifice or live animals (Eid ul-Adha,
+  aqiqah); prayer, mosques, Qur'an; borhani, Rooh Afza, sharbat, cha or
+  water jugs beside the hero (hard rule 5: borhani is the near-automatic
+  wedding and kacchi drink); legible banners and Bangla script.
+
+### Celebration: Eid ul-Fitr lunch
+- Type: calendar holiday
+- When: ~10 March 2027 (moon). **Shemai and firni in the morning** for
+  visitors (mentioned, not staged as the main meal); the family lunch is
+  the main meal. Intake time: midday
+- Gathering: the family plus visiting relatives and neighbours moving
+  house to house; 10–30 over the day [LOW-MEDIUM — estimate]. Venue:
+  home indoor
+- The spread: **polao with chicken roast** at the heart of the plate,
+  with **shami kabab**, **korma** or **beef rezala**, sometimes beef
+  tehari or kacchi (see catalog: Morog polao; Chicken roast (biyebarir
+  roast); Gorur mangsho bhuna, rezala variant; Tehari; Kacchi biryani);
+  desserts **firni, jorda, payesh, shemai** (see catalog: Bakarkhani,
+  firni and jorda; Shemai). About 6–9 dishes. Shami kabab and korma have
+  no entries: shami kabab is a flat round minced-meat-and-lentil patty
+  about the can's width, browned on both sides; Bangladeshi chicken korma
+  is a pale ivory, ghee-glossed, yoghurt-and-onion gravy with whole
+  spices (both added to the CANDIDATE QUEUE). [HIGH for polao and roast
+  as the Eid core — Asia News Network (The Daily Star) "the iconic duo
+  that anchors Eid", with The Daily Star's Eid menu (polao or tehari,
+  korma or rezala, payesh) and the FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of polao with a roast
+  chicken leg and a shami kabab; the polao dish and the roast platter
+  cropped at the edge. **2 settings** — two identical plates; between them
+  the roast platter and a bowl of rezala. **Small group** — the end of
+  the dining table with polao, roast, rezala, kabab plate and salad, a
+  firni bowl waiting; a showcase cabinet and guests in new clothes soft
+  behind. Cues: more dishes than diners; extra chairs pulled from the
+  drawing room; small dessert bowls stacked.
+- Decor and cues: the best tablecloth, new panjabis and saris, mehndi on
+  hands resting at the table edge (no faces). Avoid mosque imagery.
+- Never stage: borhani or soft-drink-plus-borhani pairs (only the hero);
+  eidi cash; alcohol or pork.
+- Confidence and sources: as tagged.
+
+### Celebration: Eid ul-Adha (Qurbani Eid) meals
+- Type: calendar holiday
+- When: ~17 May 2027 and the days after; beef or mutton dishes from the
+  first day's afternoon. Intake time: midday or evening
+- Gathering: extended family and neighbours (meat is shared out in
+  thirds); 10–30 at the table [LOW-MEDIUM — estimate]. Venue: home
+  indoor; rooftop or courtyard in the evening
+- The spread: **beef** in quantity: **kala bhuna**, **rezala**, **beef
+  bhuna** with porota or polao, **kalijar bhuna** (liver), sometimes
+  nihari (see catalog: Kala bhuna; Gorur mangsho bhuna; Morog polao);
+  rice, dal and salad. About 6–8 dishes. [MEDIUM — FESTIVALS register,
+  not independently re-checked; uncontested]
+- Snapshot staging: **1 setting** — a plate of polao or rice with a
+  serving of near-black kala bhuna and salad; the bhuna bowl cropped.
+  **2 settings** — two plates; between them a kala bhuna bowl, a beef
+  rezala dish and a porota stack. **Small group** — the end of a table
+  with three beef dishes, polao, dal and salad, foil-covered plates
+  stacked at the edge for neighbours. Cues: the foil-covered shares;
+  more meat dishes than diners; a rooftop's string lights at dusk.
+- Decor and cues: as Eid ul-Fitr.
+- Never stage: the sacrifice, animals, street slaughter, blood, raw meat
+  (hard rule 4).
+- Confidence and sources: MEDIUM; staging EDITORIAL.
+
+### Celebration: Pohela Boishakh (Bengali New Year, 14 April)
+- Type: calendar holiday
+- When: 14 April (fixed). Morning songs and processions; the festive
+  meal is staged at **midday**, not as breakfast. Intake time: midday
+- Gathering: family and friends at home, or groups at melas and
+  restaurants; 6–20 [LOW — estimate]. Venue: home indoor, home outdoor
+  (rooftop), or restaurant (Boishakhi menus)
+- The spread: **panta bhat with fried ilish**, green chilli, onion, salt
+  and **several bhorta** (see catalog: Panta-ilish and ilish bhaja;
+  Bhorta platter), or the conservation-friendly variant with bhorta and
+  **fried shutki or eggs** (see catalog: Shutki); mela sweets **jilapi**,
+  murki and batasha (see catalog: Jilapi and shahi jilapi). Served in
+  clay sanki plates and small clay bowls. [HIGH for the dishes —
+  FESTIVALS register (Wikipedia "Pohela Boishakh", "Panta bhat"); the
+  midday staging time is EDITORIAL, chosen to keep the scene out of the
+  breakfast scope]
+- Snapshot staging: **1 setting** — a clay sanki of panta with an ilish
+  piece, chilli, onion and two bhorta mounds on a red-and-white cloth;
+  a clay bowl of more bhorta cropped. **2 settings** — two sankis;
+  between them a plate of fried ilish pieces and a row of bhorta bowls.
+  **Small group** — the end of a table or floor mat with four sankis,
+  bhorta bowls running out of frame, a jilapi plate. Cues: red-and-white
+  clothes on blurred figures; paper-craft masks or a mela stall soft in
+  the background; a long cloth running off frame.
+- Decor and cues: red-and-white saris and panjabis, alpona-style floor
+  patterns (no lettering), marigolds. Offer ilish and no-ilish variants
+  (FESTIVALS register).
+- Never stage: legible Bangla New Year greetings; procession floats
+  beside the product; political symbols.
+- Confidence and sources: as tagged.
+
+### Celebration: Wedding (biye, walima/bou-bhat; gaye holud)
+- Type: life event
+- When: peaks in winter (roughly November to February) [LOW — not
+  re-checked]; the wedding and reception dinners are in the evening.
+  Intake time: evening
+- Gathering: about 300 to over 1,000 in cities [LOW-MEDIUM — one tier-3
+  source]. Venue: other (community centre or convention hall), or home
+  outdoor (shamiana) in villages
+- The spread: **biyebarir khabar**: **kacchi biryani** or **morog polao**
+  (see catalog: Kacchi biryani; Morog polao), **biye barir roast** (see
+  catalog: Chicken roast (biyebarir roast)), **jali kebab**, **beef
+  rezala** (see catalog: Gorur mangsho bhuna, rezala variant), salad,
+  and **jorda or firni** (see catalog: Bakarkhani, firni and jorda);
+  borhani is always served and always excluded. Guests receive
+  portioned servings of roast; the bride and groom traditionally share a
+  whole chicken. [HIGH — Global Voices, TBS "Biye Bari", Yahoo/Tasting
+  Table on biye barir roast, Dhaka Tribune]. **Gaye holud** variant
+  (turmeric ceremony, daytime): trays of **mishti** (see catalog:
+  Mishti), **pitha** (see catalog: Pitha), fruit and the decorated whole
+  rui fish gift; chotpoti is often eaten [MEDIUM — Wikipedia "Gaye
+  holud", Banglapedia, tier-3 wedding sites].
+- Snapshot staging: **1 setting** — a place at a long white-clothed table:
+  a plate of kacchi with a mutton piece and potato, a roast chicken leg
+  on a side plate, salad; a jorda bowl cropped. **2 settings** — two
+  identical places side by side on the long table, the next guest's
+  plate edge visible beyond. **Small group** — four places along the
+  table; a waiter with a catering bucket and a deg soft behind; the
+  stage's flowers far in the background. Cues: the table running out of
+  frame on both sides; chafing dishes or a deg; festive fabric on
+  blurred guests. Gaye holud variant: daylight, yellow and orange
+  marigold decor, a mishti tray and pitha plate in front.
+- Decor and cues: marigold and rose strings, fairy lights, red and gold
+  fabrics. Avoid Hindu wedding iconography in a Muslim wedding scene.
+- Never stage: borhani (hard rule 5); the couple as identifiable faces;
+  turmeric-smearing rites on people; legible names on banners.
+- Confidence and sources: as tagged.
+
+### Celebration: Mezban (Chattogram community feast)
+- Type: community or family gathering
+- When: held for a death anniversary, a family milestone, a new
+  business or simply as hospitality [LOW-MEDIUM — occasions from
+  model knowledge, not confirmed in this pass's search snippets]; lunch.
+  Intake time: midday
+- Gathering: open to all comers; commonly thousands (3,000–5,000 at
+  large ones) [HIGH — sources above]. Venue: home outdoor (a shamiana in
+  a courtyard or field) or other (a community ground or hall)
+- The spread: steamed **white rice** and **mezbani beef** (see catalog:
+  Mezbani beef), with **chonar dal** (chana dal with beef fat chunks),
+  **nolar kanji** (beef bone-marrow soup) and **kala bhuna** (see
+  catalog: Kala bhuna; the Mezbani beef entry covers chonar dal and
+  nolar kanji). [HIGH — The Daily Star, Wikipedia "Mezban", TBS]
+- Snapshot staging: **1 setting** — a steel or white plate with a mound
+  of rice, a ladle of red, oily mezbani beef and a pool of chonar dal at
+  a long trestle table; the next plate's edge in frame. **2 settings** —
+  two plates side by side; a bucket of mezbani beef with a ladle
+  cropped at the edge. **Small group** — four plates along the table;
+  rows of further tables and the shamiana's striped roof soft behind.
+  Cues: tables running out of frame; serving buckets and degs; a large
+  crowd implied by empty chairs and a server's back, not by faces.
+- Decor and cues: plain shamiana, trestle tables, steel plates. A mezban
+  for a death anniversary is a memorial: keep the tone warm and
+  communal, never festive-party.
+- Never stage: the cattle; religious recitation (milad) that may precede
+  the meal; alcohol.
+- Confidence and sources: HIGH; staging EDITORIAL.
+
+### Celebration: Birthday party
+- Type: life event
+- When: evenings; at home, a rooftop or a restaurant. Intake time: evening
+- Gathering: family and friends, 10–40 [LOW — estimate, not searched].
+  Venue: home indoor, home outdoor (rooftop), or restaurant (a Chinese-
+  Bangla restaurant or kacchi house)
+- The spread: a cake (no entry; shared celebration-cake item in the
+  CANDIDATE QUEUE), with **kacchi** or **morog polao** and chicken roast
+  at home or delivered (see catalog: Kacchi biryani; Morog polao; Chicken
+  roast), or **Chinese-Bangla** dishes at a restaurant (see catalog:
+  Chinese-Bangla fried rice, chilli chicken and chicken corn soup).
+  [LOW — not searched this pass; built from the file's existing
+  restaurant and Gen Z registers]
+- Snapshot staging: **1 setting** — a plate of kacchi with roast on a
+  table, the cake cropped at the edge. **2 settings** — two plates; the
+  roast platter and a salad between them. **Small group** — the end of a
+  table with kacchi boxes opened onto a platter, a roast tray and the
+  cake; plain balloons soft behind.
+- Decor and cues: plain balloons; no numerals or names.
+- Never stage: children as the product's audience (TCCC under-13 rule);
+  borhani beside kacchi.
+- Confidence and sources: LOW; staging EDITORIAL.
+
+### Celebration: Iftar gathering (iftar party / community iftar)
+- Type: community or family gathering
+- When: Ramadan evenings (~9 Feb–9 Mar 2027), at sunset. Intake time:
+  golden-hour to evening
+- Gathering: relatives, friends, colleagues or a community; 10–50
+  [LOW — estimate]. Venue: home indoor, rooftop, or other (a hall or
+  office iftar)
+- The spread: the iftar spread (see catalog: Iftar spread; Haleem; Jilapi
+  and shahi jilapi), muri makha in one big bowl, fruit; at a party,
+  kebabs and chap. [HIGH — FESTIVALS register]
+- Snapshot staging: **apply the FESTIVALS register's five iftar staging
+  points exactly as written** (untouched table before sunset; hero never
+  the fast-breaker; dates and sharbat away from the hero; no religious
+  objects; editorial call, not TCCC Bangladesh policy). Within those:
+  **1 setting** — an empty plate with the spread in front; **2
+  settings** — two places, the muri makha bowl and a piyaju-beguni
+  platter between them; **small group** — a stretch of table with the
+  fried snacks, chola-muri and fruit running out of frame. The file's
+  own neutral alternative (an after-iftar evening snack table) needs no
+  new rule.
+- Never stage: eating before sunset; prayer imagery; sharbat or water
+  beside the hero. **Use only within whatever Fernando decides on the
+  open iftar question.**
+- Confidence and sources: food HIGH; staging pending sign-off.
+
 ---
 
 ## ZONE CALLOUTS (environment + dish pointers)
@@ -2365,6 +2626,13 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   biryani). The Bengali course order in `india.md` is noted as a
   West-Bengal/formal pattern, not the everyday Bangladeshi table — a
   reading, not a correction.
+- **Celebrations pass (2026-10-01) open items.** Eid and dawat
+  headcounts are editorial estimates; the 300–1,000+ wedding figure is
+  from one tier-3 source. Wedding season months, batch seating, birthday
+  parties and Eid ul-Adha menus were not searched. Pohela Boishakh's
+  midday staging is an editorial choice to keep panta out of breakfast
+  scope; how many households eat panta at midday vs. morning is unknown.
+  The iftar-gathering entry inherits the open iftar decision.
 
 ## CANDIDATE QUEUE
 
@@ -2382,6 +2650,10 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
    failure), fuchka (pani puri failure), bhorta platter (hummus failure)
    and the iftar spread (sharbat/date intrusion; hero-as-fast-breaker).
 5. Independent §8 audit of this file.
+6. Celebration dishes without an entry (2026-10-01 celebrations pass):
+   **shami kabab**, **chicken korma** (Bangladeshi white korma), **jali
+   kebab**, a shared **celebration cake** entry; consider promoting
+   **rezala** from a variant line to its own entry.
 
 ## RESEARCH LOG
 
@@ -2418,3 +2690,10 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   cross-referenced; `europe/turkey.md` used as the structural model;
   `europe/uk.md` referenced for the British-Bangladeshi restaurant link.
   `asia/pakistan.md` was not opened or edited.
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches** (wedding
+  food and venues; Chattogram mezban scale and food; Eid lunch menu;
+  gaye holud food). Added CELEBRATIONS & LARGE GATHERINGS after the
+  FESTIVALS register: how gatherings work plus 7 entries (Eid ul-Fitr,
+  Eid ul-Adha, Pohela Boishakh, wedding with gaye holud variant, mezban,
+  birthday party, iftar gathering). The iftar staging rule was left open
+  for Fernando. No subagents.

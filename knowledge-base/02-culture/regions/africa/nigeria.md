@@ -754,6 +754,294 @@ Signs, price boards and printed wrapping blurred or plain (rule 1).
 | **Calabar Carnival** | 1–31 Dec; peak 26–30 Dec 2026, Parade of the Bands Mon 28 Dec 2026 [HIGH — Cross River State carnival site, Rio Times, Africanews] | Costumed bands, floats | Street food | Fair (crowd backdrop only) | Genericize bands; exclude alcohol |
 | **Weddings, naming, birthdays (owambe)** | Year-round, most on Saturdays [LOW-MEDIUM] | Canopies | Party food | **Excellent** | See OWAMBE register |
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). The frame shows
+only the operator's party (1, 2 or a small group of identical place
+settings) at one table or one stretch of a long table; the crowd is
+implied. This section deepens the OWAMBE & PARTY FOOD register and the
+FESTIVALS calendar above; it does not replace them. **The settlement-
+register and buka/tenement framing is still PENDING HUMAN SIGN-OFF** (FILE
+ROLE & METHOD); every entry below uses the sign-off-safe baseline (a tidy
+family home, a family compound forecourt under a canopy, or a hired event
+hall) and none depends on the pending registers. **Ramadan rules stand
+unchanged** (GENERAL NORMS: no daytime eating scenes in Muslim settings;
+iftar staging is an open editorial call flagged in the GAP LOG); iftar is
+not given a celebration entry here.
+
+### How large gatherings work here
+
+- **Who and how many.** Nigerian celebrations are big. Weddings, milestone
+  birthdays, naming ceremonies of well-off families and funerals of the
+  elderly are owambe-scale events; caterers advise planning for far more
+  guests than invited (food for about 700–800 when 500 are expected) and
+  using more than one caterer above about 400 guests [MEDIUM — La Heiress
+  Weddings, a Lagos wedding planner; tier 2–3]. A Christmas or Sallah
+  family day is smaller, roughly 10–40 across extended family and
+  visitors [LOW-MEDIUM — estimate].
+- **Where (intake venues).** "Other" for the big ones: an event hall, or
+  **canopies and rows of chairs on a street or in a compound forecourt**
+  (the owambe look, see register). Home outdoor: a compound or forecourt
+  under a canopy for naming ceremonies and Christmas in the village. Home
+  indoor: the parlour and dining table for Sallah and Christmas family
+  meals, with visitors coming and going.
+- **Table form.** Owambe: **round tables of 8–10** under canopies or in a
+  hall, covered in cloth with chair covers; food comes to the guest. Home
+  days: the dining table plus the parlour's centre table, plates handed
+  round; in the North, a mat or low table in the compound. [MEDIUM — the
+  owambe form is HIGH (register sources); home forms LOW-MEDIUM]
+- **Who serves.** At owambes, **caterers cook in bulk and waiters bring
+  each guest a plated meal**, rice carried from coolers; planners advise
+  25–30 waiters for 500 guests and disposable plates and cups to stretch
+  service [MEDIUM — La Heiress]. At home, the women of the family cook
+  and serve; guests are served before the household eats.
+- **Serving style.** Plated individual portions at events (one heaped
+  plate per guest: two rices, protein, dodo, moi moi, salad), small chops
+  in small boxes or on side plates first; family-style pots and platters
+  at home. Swallow and soup are served per person at home and at Igbo
+  and northern events.
+- **Plates and cutlery.** At events, disposable plastic or styrofoam
+  plates and plastic spoons and forks are common, or hired white crockery
+  at upscale halls; **a spoon for rice**, the right hand for swallow, a
+  hand-washing bowl for swallow meals. [LOW-MEDIUM — disposable plates
+  per La Heiress; rest not independently re-checked]
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  most authentic cues: (1) **aso ebi fabric** (one colour or print
+  repeated) on blurred guests behind, gele headwraps as silhouettes;
+  (2) **white canopy roof and rows of covered chairs** soft in the
+  background; (3) **a cooler or chafing dish at a serving point** soft
+  at the frame edge. The operator's table is a round table, so "the
+  visible stretch" is one arc of it.
+- **Never staged**: money spraying or naira notes near the product; the
+  drinks side (beer, stout, palm wine, Chapman mugs, sachet water); the
+  live band's printed backdrop; slaughter of rams, goats or cows (Sallah,
+  aqiqah naming, Christmas village goat); church or mosque interiors.
+
+### Celebration: Wedding reception (owambe)
+- Type: life event
+- When: year-round, mostly Saturdays; the reception follows a morning
+  church or nikkah ceremony and runs from early afternoon into evening.
+  Intake time: midday or golden-hour
+- Gathering: families, aso ebi groups, friends and community; commonly
+  several hundred, 500+ at big Lagos weddings [MEDIUM — La Heiress
+  planning figures; no survey]. Venue: other (event hall, or canopies on
+  a street or forecourt)
+- The spread: **party jollof** and **fried rice** (see catalog: Party
+  jollof rice; Nigerian fried rice), **dodo** (see catalog: Dodo), **moi
+  moi** (see catalog: Moi moi), fried or peppered chicken, beef or fish,
+  **Nigerian salad or coleslaw** (see catalog: Nigerian salad and
+  coleslaw); a **small chops** box first (see catalog: Small chops
+  platter); amala or pounded yam with soup at Yoruba weddings (see
+  catalog: Amala with abula; Pounded yam and egusi). The wedding cake is
+  a tall tiered white cake on its own table (no catalog entry; added to
+  the CANDIDATE QUEUE). Per guest table: no shared serving vessels beyond
+  a small-chops box and a napkin holder; the shared vessels are the
+  caterers' coolers and chafing dishes at the service point.
+  [HIGH for the party menu — OWAMBE register sources; service MEDIUM]
+- Snapshot staging: **1 setting** — one place at a round, cloth-covered
+  table: a heaped plate of jollof and fried rice with a chicken
+  drumstick, three dodo slices, a moi moi slab and a spoon of salad; a
+  small-chops box beside it; the table edge curves out of frame.
+  **2 settings** — two identical plates on one arc of the table, two
+  small-chops boxes, chair covers visible. **Small group (3–4)** — one
+  arc of the round table with four identical plates; the next round
+  table soft behind with aso ebi guests (no more than two faces, none
+  sharp); a waiter's tray or a chafing dish soft at the frame edge. If
+  the brief allows a multi-serve bottle, one sits at the table centre
+  (schema §5.7); otherwise the brief's single-serve at each place, as
+  the OWAMBE register says.
+- Decor and cues: aso ebi colour on blurred guests, gele silhouettes,
+  canopy roof, chair covers and sashes, a flower centrepiece kept low.
+  Avoid printed names, monograms and hashtags on backdrops (legible
+  text).
+- Never stage: money spraying, beer and stout crates, Chapman mugs,
+  palm wine, sachet water, the bride and groom as identifiable faces.
+- Confidence and sources: as tagged; staging EDITORIAL.
+
+### Celebration: Igbo traditional wedding (igba nkwu / wine-carrying)
+- Type: life event
+- When: in the bride's family compound or hometown, often around the
+  Christmas and Easter homecoming seasons and on Saturdays. Intake time:
+  midday or golden-hour
+- Gathering: both extended families and the community; usually hundreds
+  [LOW-MEDIUM — estimate]. Venue: home outdoor (compound or village
+  square under canopies)
+- The spread: **abacha** (African salad) as a starter, **pepper soup**
+  (see catalog: Pepper soup), **nkwobi** (see catalog: Nkwobi and isi
+  ewu), **akpu/fufu or pounded yam with ofe onugbu or oha** (see catalog:
+  Swallows; Ofe onugbu and oha), **party jollof** (see catalog), and
+  sometimes **ukwa** (breadfruit). [MEDIUM — Pulse Nigeria on Igbo
+  traditional-wedding foods, Joy Ribbons and The Circular; tier 2–3]
+  Abacha has no full entry: pale cream shreds of dried cassava dressed in
+  orange-red palm-oil sauce with sliced garden egg, onion rings, ugba
+  slivers, a scatter of green leaves and a piece of fried fish, heaped on
+  a plate about two can-widths across (already in the GAP LOG and
+  CANDIDATE QUEUE).
+- Snapshot staging: **1 setting** — a plate of abacha with fish, or a
+  swallow on its plate with a bowl of ofe onugbu beside it and a hand-
+  washing bowl; a covered pot partly in frame. **2 settings** — two
+  swallow plates and soup bowls, a shared bowl of nkwobi between them.
+  **Small group** — one arc of a round table under a canopy with four
+  identical plates of jollof and abacha, a pepper-soup tureen at the
+  centre. Cues: george and wrapper fabrics and red coral beads on blurred
+  guests; a canopy roof; plastic chairs in rows behind.
+- Decor and cues: george wrappers, coral beads, red caps on elders (soft,
+  background). Avoid "tribal" costume, masks.
+- Never stage: **the wine-carrying rite itself** (the bride carrying palm
+  wine to the groom is the ceremony's core and is a drinking rite); palm
+  wine in calabashes or jerrycans; kola nut rites; money spraying.
+- Confidence and sources: food MEDIUM (sources above); headcount and
+  staging EDITORIAL.
+
+### Celebration: Naming ceremony (isomoloruko; suna in Hausa; iba nwa in Igbo)
+- Type: life event
+- When: traditionally the eighth day after birth (Yoruba; also the
+  seventh/eighth day in Muslim families), with the naming in the morning
+  and food served afterwards to visitors. Intake time: midday
+- Gathering: family, neighbours, church or mosque community; from about
+  20 at home to owambe scale [LOW-MEDIUM — estimate]. Venue: home indoor
+  or home outdoor (forecourt with a canopy)
+- The spread: **jollof rice with fried plantain and meat**, or **amala
+  with ewedu or egusi, pounded yam**, plenty of chicken and meat (see
+  catalog: Party jollof rice; Dodo; Amala with abula; Pounded yam and
+  egusi); small chops (see catalog: Small chops platter). [MEDIUM —
+  Pulse Nigeria naming-ceremony ideas and Wikipedia (Yoruba name) for the
+  eighth day; food from Pulse and tier-4 sources that agree]
+- Snapshot staging: **1 setting** — a plate of jollof, dodo and a piece
+  of chicken on a parlour centre table, a cooler's lid cropped at the
+  edge. **2 settings** — two plates on the dining table; between them a
+  covered pot of amala and a bowl of ewedu. **Small group** — four plates
+  at a forecourt table under a canopy, a small-chops tray in the middle;
+  women in matching fabric soft behind. Cues: a cooler or stacked
+  takeaway packs at the table edge; visitors' shoes or chairs at the door;
+  a canopy roof.
+- Decor and cues: soft family-colour fabrics, a canopy. Keep the baby
+  out of frame or unidentifiable (kid-adjacent scene, see GAP LOG).
+- Never stage: the naming rites (water, honey, kola, salt and other
+  symbolic items, prayers), the Muslim aqiqah ram slaughter, alcohol.
+- Confidence and sources: as tagged.
+
+### Celebration: Birthday party (milestone and children's)
+- Type: life event
+- When: any day, big ones on Saturdays; milestone birthdays (40th, 50th,
+  60th, 70th) are full owambes. Intake time: golden-hour or evening
+- Gathering: milestone: hundreds, as a wedding; a young adult's or
+  child's party: 15–50 at home [LOW-MEDIUM — estimate]. Venue: other
+  (hall or canopies) for milestones; home indoor or outdoor otherwise
+- The spread: the party plate (see the wedding entry), **small chops**
+  (see catalog: Small chops platter; Puff-puff; Meat pie), **chin chin**
+  in bowls (see catalog: Chin chin), and a birthday cake (no catalog
+  entry; added to the CANDIDATE QUEUE). [MEDIUM — party-food sources in
+  the OWAMBE register; birthday specifics not separately searched]
+- Snapshot staging: **1 setting** — a party plate and a small-chops box
+  at a decorated table; the cake on its stand cropped at the edge.
+  **2 settings** — two plates, a shared bowl of chin chin and a tray of
+  puff-puff. **Small group** — one arc of a round table with four plates
+  and a small-chops tray; balloons in plain colours and a soft canopy or
+  ceiling drape behind.
+- Decor and cues: plain balloons, a dessert table soft in the background.
+  Avoid numerals, names and printed banners (legible text).
+- Never stage: children as the target of the product (TCCC under-13
+  rule; a children's party needs reviewer clearance, see GAP LOG); money
+  spraying; alcohol.
+- Confidence and sources: MEDIUM for the food; staging EDITORIAL.
+
+### Celebration: Christmas and New Year at home and in the hometown
+- Type: calendar holiday
+- When: 25–26 December and 1 January; many families travel to their
+  hometowns or villages, especially to the Southeast. Main meal at
+  midday or afternoon. Intake time: midday
+- Gathering: extended family (grandparents, uncles, aunts, cousins) plus
+  neighbours dropping in; roughly 15–40 [LOW-MEDIUM — estimate]. Venue:
+  home indoor (parlour and dining table) or home outdoor (village
+  compound)
+- The spread: **jollof rice** with fried chicken, beef or **goat meat**
+  (see catalog: Party jollof rice), **fried rice**, **moi moi**, **dodo**,
+  **pounded yam with egusi** (see catalog: Nigerian fried rice; Moi moi;
+  Dodo; Pounded yam and egusi), Nigerian salad, goat **pepper soup** (see
+  catalog: Pepper soup); in the East, ofe owerri or other soups (no entry;
+  already in the GAP LOG). About 6–10 pots and platters. [HIGH for the
+  menu and the homecoming — Vanguard, Remitly, Commonwealth's Your
+  Commonwealth, and the FESTIVALS register converge]
+- Snapshot staging: **1 setting** — a plate of jollof and chicken with
+  dodo on the dining table; the jollof pot and a salad bowl cropped at
+  the edge. **2 settings** — two plates; between them a platter of fried
+  chicken and goat meat and a bowl of salad. **Small group** — the end of
+  the dining table with jollof, fried rice, chicken and moi moi platters
+  and a soup pot, a second table or the parlour's centre table with
+  more dishes soft behind. Cues: more pots than diners; plastic chairs
+  brought in from outside; a Christmas tree with lights soft in the
+  parlour or a village compound wall in harmattan haze.
+- Decor and cues: tinsel, a small tree, new clothes. Avoid snow and
+  northern-winter imagery.
+- Never stage: the goat or chicken before cooking; church interiors;
+  beer, stout or palm wine.
+- Confidence and sources: HIGH for the menu; headcount LOW-MEDIUM.
+
+### Celebration: Eid al-Fitr (Small Sallah)
+- Type: calendar holiday
+- When: the day after Ramadan ends (~9–10 March 2027, moon-dependent);
+  after Eid prayers in the morning, families eat, dress up and visit
+  relatives and neighbours through the day. Intake time: midday
+- Gathering: extended family and visitors, roughly 15–40 over the day
+  [LOW-MEDIUM — estimate]. Venue: home indoor (parlour) or home outdoor
+  (northern compound)
+- The spread: in the North, **tuwo shinkafa with miyan kuka or miyan
+  taushe** (see catalog: Tuwo shinkafa with miyan kuka), **masa** (see
+  catalog: Masa), fried meat; across Muslim homes everywhere, **jollof
+  and fried rice** with chicken or beef, and **chin chin** for visitors
+  (see catalog: Party jollof rice; Nigerian fried rice; Chin chin).
+  Miyan taushe has no entry: a thick orange pumpkin and groundnut soup
+  with spinach-like greens, served in a bowl beside the tuwo (added to
+  the CANDIDATE QUEUE). [MEDIUM — Daily Trust on Eid al-Fitr dishes and
+  Vanguard (May 2026) on Sallah foods; FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of jollof with fried meat on
+  a parlour centre table, a bowl of chin chin cropped at the edge.
+  **2 settings** — two tuwo mounds on plates with a shared bowl of miyan
+  kuka between them on a low table. **Small group** — the end of a
+  dining table or a mat with tuwo, soup bowls, a rice platter and a plate
+  of masa; visitors in embroidered robes soft in the doorway. Cues: more
+  bowls than diners; guests' sandals at the door; Sallah clothes on
+  blurred figures.
+- Decor and cues: new embroidered kaftans and babban riga, bright
+  wrappers and headscarves (blurred). Avoid mosque and prayer imagery and
+  Durbar horsemen beside the product.
+- Never stage: alcohol or pork anywhere; daytime eating during Ramadan;
+  the product near prayer.
+- Confidence and sources: as tagged.
+
+### Celebration: Eid el-Kabir (Big Sallah / Ileya)
+- Type: calendar holiday
+- When: 10 Dhul Hijja (~16 May 2027, moon-dependent); the ram is
+  sacrificed after morning prayers, and the meat is cooked and shared
+  through the day and the following days. Intake time: midday or evening
+- Gathering: extended family and neighbours, meat sent to relatives and
+  to non-Muslim neighbours too; roughly 15–40 at the table over the day
+  [LOW-MEDIUM — estimate]. Venue: home indoor or home outdoor
+- The spread: **ram meat** fried, in stew, in **pepper soup** and as
+  **ram suya** (see catalog: Pepper soup; Suya), with **jollof or fried
+  rice** (see catalog: Party jollof rice; Nigerian fried rice); in the
+  North, tuwo with miyan taushe or kuka (see catalog: Tuwo shinkafa with
+  miyan kuka). [HIGH — Vanguard (May 2026), Zikoko, Pulse and Wikipedia's
+  "Eid al-Adha in Nigeria" agree that ram meat is the centrepiece,
+  prepared fried, as suya and in pepper soup]
+- Snapshot staging: **1 setting** — a plate of jollof with two pieces of
+  fried ram meat and dodo; a platter of peppered ram cropped at the
+  edge. **2 settings** — two plates; between them a pepper-soup bowl and
+  a platter of ram suya with onion rings. **Small group** — four plates
+  at the end of a table or on a mat, platters of fried meat and suya,
+  a rice pot; a charcoal grill's smoke soft in the compound behind.
+  Cues: a grill's glow or smoke; extra platters of meat; plates covered
+  with foil for sending to neighbours.
+- Decor and cues: Sallah clothes, compound courtyard. Avoid live rams.
+- Never stage: **the sacrifice, a live or tethered ram, carcasses,
+  blood or raw meat piles** (FESTIVALS register rule); alcohol; pork.
+- Confidence and sources: HIGH for the menu; staging EDITORIAL.
+
 ---
 
 ## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
@@ -1968,6 +2256,14 @@ norms unless tagged otherwise — see GAP LOG.*
   emirship dispute) — re-check before any Sallah brief.
 - **Fetch access**: ng.coca-colahellenic.com and canmaker.com blocked by
   the egress proxy; Wikipedia used via search snippets only.
+- **Celebrations pass (2026-10-01) open items.** Headcounts for
+  Christmas, Sallah, naming and birthday gatherings are editorial
+  estimates; the owambe figures come from one Lagos wedding planner (La
+  Heiress), not a survey. Birthday-party food and children's parties
+  were not separately searched, and a children's party needs a check
+  against TCCC's under-13 policy. Igbo traditional-wedding food rests on
+  Pulse and tier-3 wedding sites. Event plate and cutlery norms
+  (disposable vs. hired crockery) are LOW-MEDIUM.
 
 ## CANDIDATE QUEUE
 
@@ -1986,6 +2282,11 @@ norms unless tagged otherwise — see GAP LOG.*
    (chocolate drift).
 6. Add the missing entries in the Gap Log as briefs need them.
 7. Independent §8 audit.
+8. Celebration dishes without a full entry (2026-10-01 celebrations
+   pass): **miyan taushe** (northern pumpkin-groundnut soup, Sallah),
+   a shared **celebration cake** entry (tiered wedding cake, birthday
+   cake), **abacha** (already listed in the Gap Log; now needed by the
+   igba nkwu entry), **ofe owerri** (Christmas in the East), **ukwa**.
 
 ## RESEARCH LOG
 
@@ -2016,3 +2317,11 @@ norms unless tagged otherwise — see GAP LOG.*
   LOW evidence for the 50 cl glass bottle); recipe blogs used for sizes
   only where nothing better surfaced, and marked.
 - **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches** (naming
+  ceremony food; wedding guest numbers, caterers and service; Sallah
+  food in the North; Christmas homecoming food; igba nkwu food). Added
+  CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register: how
+  gatherings work plus 7 entries (owambe wedding reception, igba nkwu,
+  naming ceremony, birthday party, Christmas and New Year, Eid al-Fitr,
+  Eid el-Kabir). Settlement-register/buka framing and the Ramadan/iftar
+  editorial call left unresolved. No subagents.

@@ -785,6 +785,303 @@ sahistory.org.za "Heritage day, Braai Day or Shaka Day"; eggbert.co.za
 "From Heritage day to Braai Day: A history"] All other dates: [LOW-MEDIUM —
 not independently re-checked this pass beyond Heritage Day/Braai Day].
 
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+---
+
+#### CELEBRATIONS & LARGE GATHERINGS
+
+Per `country-file-schema.md` §5.7 (the snapshot rule). Heading levels
+match this file's other cross-cutting registers (`####` for the section,
+`#####` for its parts). The image shows only the operator's party (1, 2
+or a small group of identical place settings) at one stretch of a bigger
+table; the crowd is implied. **The settlement-register framing is still
+PENDING HUMAN SIGN-OFF** (see FILE ROLE & METHOD): every entry below is
+written to work in a register-neutral home garden, patio, dining room or
+hired hall, and names no township/suburb setting as its default.
+
+##### How large gatherings work here
+
+- **Who and how many.** Family and friends, often across generations.
+  A weekend braai or Sunday lunch is usually one household plus
+  relatives or neighbours, roughly 8–20 people; Christmas lunch and Eid
+  visiting days are similar or larger; weddings and big 21sts run from
+  about 80 to several hundred, and traditional weddings can draw a whole
+  extended family and neighbourhood. [LOW-MEDIUM — headcounts are
+  editorial estimates, not sourced; see GAP LOG]
+- **Where (intake venues).** Home outdoor is the default: a garden,
+  patio, yard or lapa around a braai, under a gazebo or a hired tent
+  for big days. Home indoor for winter Sunday lunch and for Eid. "Other"
+  for weddings and big 21sts: a hired hall, a marquee at the family
+  home, or a wedding venue. Restaurants are a minor register for
+  celebrations. [MEDIUM — braai and marquee settings are common
+  knowledge; marquee hire for large weddings is widely advertised
+  (Confetti, GL Events)]
+- **Table form.** Braai: meat comes off the fire onto a wooden board or
+  platter; salads and pap sit on a **side table or buffet** and guests
+  serve themselves, eating at a patio table, on garden chairs or with
+  plates on laps. Sunday and Christmas lunch: one long table, often two
+  tables pushed together, with bowls of sides down the middle. Weddings:
+  round or long tables in rows under the tent, with a buffet line.
+  [LOW-MEDIUM — not independently re-checked; consistent with VISUAL &
+  PLATING NORMS]
+- **Who serves.** At home, the hosts and family women plate or set out
+  the food and the braai-master (often a man) runs the fire. At
+  traditional weddings, the food is lined up buffet-style and **women
+  dish up for queued guests**, or large bowls go to each table to be
+  served by waiters or self-served. [MEDIUM — IOL Sunday Tribune and
+  Home-Dzine on South African wedding menus]
+- **Plates and cutlery.** Everyday plates heaped to the rim; at a
+  braai, sturdy or disposable plates and paper serviettes; at weddings,
+  hired white crockery or disposable plates. Pap and meat may be eaten
+  by hand in some households; salads and rice still need a fork on the
+  table (see GENERAL NORMS). [LOW-MEDIUM]
+- **Snapshot-staging default for this market [EDITORIAL].** The three
+  cues that read most South African: (1) **a braai fire or smoke soft in
+  the background** with a figure tending it (no sharp face); (2) **more
+  salad bowls than the visible diners could eat from**, in bright
+  "seven colours" tones (magenta beetroot, orange butternut, green
+  salad), partly cropped; (3) **the table or buffet running out of frame**
+  with a second table or gazebo edge soft behind. Midsummer light for
+  Christmas; low winter sun for a Highveld Sunday.
+- **Never staged at any gathering**: the drinking side (brandy and Coke,
+  beer, cider, umqombothi pots), ceremonial slaughter, ancestral rites,
+  funerals and "after-tears" gatherings (funerals are large and
+  food-centred but are mourning events, and after-tears is
+  alcohol-led). [EDITORIAL]
+
+##### Celebration: The weekend braai (braai / shisa nyama at home)
+- Type: community or family gathering
+- When: weekends year-round, busiest in spring and summer; fire lit
+  early afternoon, meat on one to two hours later; eating from late
+  afternoon. Intake time: golden-hour (or midday for a summer lunch braai)
+- Gathering: family, friends, neighbours; about 8–20 [LOW-MEDIUM —
+  estimate]. Venue: home outdoor (garden, patio or lapa; a complex's
+  communal braai for flat-dwellers)
+- The spread: a board or platter of **boerewors** coils, lamb chops,
+  chicken pieces and sosaties (see catalog: Boerewors; Braai platter);
+  **pap with chakalaka** or tomato-onion sous (see catalog: Pap);
+  **braaibroodjies** or garlic bread (see catalog: Braaibroodjie; Garlic
+  bread); **braaied mielies** (see catalog: Braaied mielies); three or
+  four salad bowls (see catalog H: Potato salad, Coleslaw, Beetroot
+  salad, Green salad). A real table carries about 6–9 serving vessels.
+  [MEDIUM — dishes as catalogued; vessel count EDITORIAL]
+- Snapshot staging: **1 setting** — a plate with one boerewors length,
+  a chop, a scoop of stiff pap with chakalaka and a spoon of potato
+  salad at the near corner of a patio table; the meat board and two
+  salad bowls cropped at the frame edge; the braai's smoke soft behind.
+  **2 settings** — two identical plates side by side on the long side of
+  the table; between them the board of meat and a bowl of chakalaka,
+  with the salad bowls running out of frame. **Small group (3–4)** —
+  the near end of the table with the board in the middle, pap pot and
+  four salad bowls, braaibroodjies stacked on a wooden board; a second
+  table or camping chairs soft behind. Cues for the wider gathering: the
+  fire and its tender in soft focus; more salad bowls than diners; a
+  stack of extra plates at the table edge. If the brief allows a
+  multi-serve bottle, it stands in the midground among the salads
+  (schema §5.7, `coca-cola-guidelines.md` §4.4).
+- Decor and cues: tongs on the braai ledge, a wooden board, paper
+  serviettes, a cooler box with blank lid (keep it closed; coolers read
+  as beer). Avoid: safari or "bush" props, flags, rugby kits.
+- Never stage: beer bottles, quarts, brandy, a cooler of drinks open in
+  frame; a TCCC product beside any glass that could read as a mixer.
+- Confidence and sources: MEDIUM for the braai format (GENERAL NORMS,
+  catalog sources); headcount LOW-MEDIUM (editorial); staging EDITORIAL.
+
+##### Celebration: Heritage Day / National Braai Day (24 September)
+- Type: calendar holiday
+- When: 24 September, early spring; daytime braai. Intake time: midday
+  or golden-hour
+- Gathering: family and friends, sometimes larger community or workplace
+  braais; similar size to a weekend braai or bigger. Venue: home outdoor,
+  or other (a park or community space)
+- The spread: the full weekend-braai spread above, often with a
+  deliberate heritage dish beside it: **potjiekos** in a three-legged
+  pot (see catalog: Potjiekos), **umngqusho** (see catalog: Umngqusho),
+  **ujeqe** (see catalog: Ujeqe / dombolo), or **bobotie** for a Cape
+  table (see catalog: Bobotie). [HIGH for the double identity of the day
+  and the braai — sahistory.org.za, eggbert.co.za, as in the FESTIVALS
+  register; heritage-dish choice EDITORIAL]
+- Snapshot staging: as the weekend braai, adding one heritage pot
+  partly in frame. **1 setting**: plate with boerewors, pap and
+  chakalaka, the potjie's black rim at the frame edge. **2 settings**:
+  two plates, the meat board and the potjie between them. **Small
+  group**: the end of a long table with the potjie, meat board and
+  salads; people in **heritage dress** soft in the background (a
+  patterned shweshwe print shirt or skirt, a beaded collar) as the
+  occasion cue, no more than two faces, none sharp.
+- Decor and cues: shweshwe print fabrics as a tablecloth or on blurred
+  guests; spring light, jacarandas on the Highveld. Avoid heritage dress
+  as costume or caricature; no "tribal" props.
+- Never stage: flags in hero position, political imagery, alcohol.
+- Confidence and sources: HIGH for the date and braai association
+  (sources above); dress and decor cues EDITORIAL.
+
+##### Celebration: Sunday family lunch (Sunday lunch; "seven colours")
+- Type: community or family gathering
+- When: Sundays, after church for many families; ~13:00–15:00. Intake
+  time: midday
+- Gathering: household plus visiting relatives, roughly 6–15 [LOW-MEDIUM
+  — estimate]. Venue: home indoor (dining room) or home outdoor (patio)
+- The spread: two coexisting registers (§4.6), see GENERAL NORMS.
+  **Seven colours**: rice or yellow rice, beetroot salad, butternut,
+  coleslaw, potato salad or three-bean salad, chakalaka, creamed
+  spinach or cabbage, with chicken or beef stew (see catalog H; Beef
+  stew / oxtail stew; Roast chicken). **Roast**: a roast chicken or
+  leg of lamb with roast potatoes and vegetables (see catalog: Roast
+  chicken / roast leg of lamb). Dessert: jelly and custard or malva (see
+  catalog J). A real table carries 7–10 bowls. [HIGH for the seven-colours
+  plate — Mail & Guardian, FinGlobal, MyKitchen, as cited in GENERAL
+  NORMS]
+- Snapshot staging: **1 setting** — one plate heaped to the rim with
+  small separate heaps of each colour around a piece of chicken; three
+  or four side bowls cropped beyond it. **2 settings** — two identical
+  plates; between them the roast platter or stew pot and a line of side
+  bowls running out of frame. **Small group** — the near end of a long
+  table with every side bowl in a row, the roast or stew in the middle,
+  a pudding dish waiting at the far edge. Cues: more bowls than diners;
+  a second table pushed against the first (a visible join or a second
+  cloth); a family photo or glass-fronted cabinet soft behind.
+- Decor and cues: a printed or white cloth, serving spoons in every
+  bowl, Sunday-best clothes on blurred figures. Avoid church interiors.
+- Never stage: alcohol; religious objects beside the product.
+- Confidence and sources: dish list HIGH (sources above); headcount and
+  staging EDITORIAL.
+
+##### Celebration: Christmas lunch (Christmas Day, midsummer)
+- Type: calendar holiday
+- When: 25 December, midsummer, midday into afternoon. Intake time:
+  midday
+- Gathering: extended family, often 10–25 [LOW-MEDIUM — estimate].
+  Venue: home outdoor (patio, garden, poolside) or home indoor (dining
+  room with doors open); some families go to the beach or braai instead
+- The spread: **glazed gammon** as the centrepiece (see catalog:
+  Christmas gammon), roast or braaied lamb (see catalog: Roast chicken /
+  roast leg of lamb), yellow rice, chakalaka, potato salad and other
+  cold salads, mielie bread (see catalog H); desserts **trifle**, malva
+  pudding or peppermint crisp tart (see catalog J). Many families braai
+  instead of a sit-down lunch (boerewors, chicken kebabs, lamb chops).
+  About 8–12 serving vessels. [HIGH — Culture Trip, Dineplan, Food For
+  Mzansi, The Citizen and Laughing Chefs converge on gammon, cold salads,
+  yellow rice and malva/peppermint crisp, and on the braai alternative]
+- Snapshot staging: **1 setting** — a plate with two gammon slices,
+  yellow rice and potato salad; the gammon platter's glazed edge and a
+  trifle bowl cropped at the frame edge. **2 settings** — two plates
+  facing across the table; the whole glazed gammon on its platter
+  between them, salad bowls running out of frame. **Small group** — the
+  end of a long outdoor table: gammon, a lamb platter, four salads, mielie
+  bread on a board, trifle in its glass bowl at the far side. Cues: the
+  table running out of frame on both sides; Christmas crackers or paper
+  hats on the plates; a pool or garden glare and a blurred figure behind.
+- Decor and cues: bright midsummer light, a light cloth, crackers,
+  tinsel or a small tree indoors. Avoid snow, fur, fireplaces and
+  northern-winter props (a common model error for an SA Christmas).
+- Never stage: wine, sparkling wine, beer, brandy; no gammon in any
+  Muslim-household scene.
+- Confidence and sources: HIGH for the menu (sources above);
+  headcount LOW-MEDIUM.
+
+##### Celebration: Eid ul-Fitr (Labarang) in Cape Malay and Durban Muslim homes
+- Type: calendar holiday
+- When: end of Ramadan (lunar; ~9–10 March 2027, moon-dependent). Eid
+  morning sweets and visiting, then a family lunch. Intake time: midday
+- Gathering: family, with relatives and neighbours visiting house to
+  house through the day; a lunch table of about 8–20 [LOW-MEDIUM —
+  estimate]. Venue: home indoor
+- The spread: **breyani** (see catalog: Breyani, Cape Malay or Durban
+  form by zone), with samoosas (see catalog: Samoosas), koesisters
+  (see catalog: Koeksisters vs. koesisters) and **Labarang mince pies**
+  and **dhaltjies** (chilli bites) on side plates (see catalog: Chilli
+  bites); a salad and a sambal. Food parcels (**barakat**) are packed
+  for guests to take home. Labarang mince pies have no catalog entry:
+  small round or crescent savoury pastries, golden and flaky, about the
+  can's width, filled with spiced mince, on a cake plate (added to the
+  CANDIDATE QUEUE). [MEDIUM — Cape Malay Cooking Delights (breyani for
+  Eid, weddings), Sunday Times (Labarang mince pies shared with
+  neighbours), Crush magazine (barakat), Wikipedia (koe'sister); breyani
+  as the Eid centrepiece also matches the FESTIVALS register]
+- Snapshot staging: **1 setting** — a plate of breyani with a boiled
+  egg half and crisp onions, a samoosa on the rim; the breyani dish and a
+  plate of koesisters cropped at the edge. **2 settings** — two plates;
+  between them the wide breyani dish and a tiered plate of mince pies and
+  samoosas. **Small group** — the end of a dining table with breyani, a
+  salad, a sambal bowl and a sweets plate; foil-covered barakat plates
+  stacked at the table edge (the visiting cue). Cues: barakat parcels;
+  guests in Eid clothes soft in a doorway; more sweet plates than diners.
+- Decor and cues: best tablecloth, new clothes, a lounge with family
+  photos. Avoid mosque, prayer and calligraphy imagery.
+- Never stage: alcohol anywhere; pork; the product near prayer. Ramadan
+  daytime eating is never staged.
+- Confidence and sources: as tagged above; headcount LOW-MEDIUM.
+
+##### Celebration: Wedding reception (traditional and church weddings)
+- Type: life event
+- When: mostly Saturdays, year-round, peaking in spring and summer; the
+  meal follows the ceremony from midday or afternoon. Intake time:
+  midday or golden-hour
+- Gathering: extended families and community; about 100 to several
+  hundred [LOW — estimate; marquee hire firms advertise tents for
+  several hundred guests, which supports the scale but not a typical
+  figure]. Venue: other (a marquee at the family home or a hired hall
+  or venue)
+- The spread: a standard menu of **starches (rice, pap and samp)**,
+  vegetables such as **beetroot and butternut**, **three or four salads
+  including potato salad and chakalaka**, and **red meat and chicken**
+  (see catalog: Pap; Umngqusho; H sides; Beef stew; Roast chicken). Food
+  is lined up buffet-style and women dish up for queued guests, or
+  large bowls go to each table. Cape Malay weddings serve breyani (see
+  catalog: Breyani); Durban Indian weddings serve curry and breyani.
+  A wedding cake stands on its own table. [MEDIUM — IOL Sunday Tribune
+  and Home-Dzine for the standard menu and service; Cape Malay Cooking
+  Delights for breyani]
+- Snapshot staging: **1 setting** — a place at a round table with hired
+  white crockery: a plate of rice and samp, beef stew, beetroot,
+  butternut and potato salad; a serving bowl of chakalaka cropped at the
+  edge. **2 settings** — two places at a round table, the shared bowls in
+  the centre partly in frame. **Small group** — one arc of a round table
+  with four settings and the centre bowls; other round tables soft behind
+  under the tent roof. Cues: tent fabric and draped ceiling; a buffet
+  line soft in the background; chair covers on empty chairs at the edge.
+- Decor and cues: chair covers and sashes, tent draping, floral
+  centrepieces kept low. Avoid legible names or dates on banners.
+- Never stage: umqombothi or any alcohol; the ceremonial slaughter,
+  umembeso/umabo gift-giving rites or ancestral elements (FESTIVALS:
+  traditional ceremonies not recommended); money or gifts near the
+  product.
+- Confidence and sources: menu MEDIUM (sources above); headcount LOW.
+
+##### Celebration: 21st birthday (the "key" party)
+- Type: life event
+- When: any time of year, often a Saturday afternoon or evening party.
+  Intake time: golden-hour or evening
+- Gathering: family and the birthday person's friends; often a large
+  party of 30–100 [LOW — estimate, not sourced]. Venue: home outdoor
+  (garden with a gazebo), or other (a hired venue)
+- The spread: the party is the occasion where a symbolic key is given,
+  "unlocking the door to the future" [MEDIUM — Travelstart; the key
+  custom is widely described in South African party sources]. The food
+  has no single fixed menu: a **braai** (see the weekend-braai entry) or
+  a catered buffet of chicken, rice, salads and finger food such as
+  samoosas and mini pies, plus a birthday cake [LOW — catering-listing
+  sources only; not verified]. The birthday cake has no catalog entry:
+  a round or square iced cake about twice the can's width, often with a
+  key-shaped topper (added to the CANDIDATE QUEUE as a shared celebration
+  cake entry).
+- Snapshot staging: **1 setting** — a plate with braai meat or chicken
+  and salads at the corner of a gazebo table; the cake on its stand
+  cropped at the frame edge. **2 settings** — two plates; between them a
+  platter of samoosas and the cake. **Small group** — a stretch of buffet
+  table with the cake, a chicken platter and salads, the guests' plates in
+  front. Cues: **a decorative key** (cake topper or a wall-hung key, no
+  numerals); fairy lights or balloons in plain colours; a gazebo edge and
+  blurred guests behind.
+- Decor and cues: plain balloons and lights. Avoid "21" numerals and
+  printed banners (legible text, file-wide rule 1).
+- Never stage: the drinks table, shots, beer, brandy; a TCCC product
+  near any spirits.
+- Confidence and sources: the key custom MEDIUM; food LOW; staging
+  EDITORIAL.
+
 ---
 
 #### OPTIONAL MODULE — MORNING OCCASIONS (off by default)
@@ -2650,6 +2947,15 @@ the Gap Log below.
   remain at the scaffold's own self-assessed confidence, converted one
   notch down per this pass's stated conversion rule (see METHOD NOTE) —
   not independently re-searched.
+- **Celebrations pass (2026-10-01) open items.** Headcounts for the
+  braai, Sunday lunch, Christmas, Eid, wedding and 21st entries are
+  editorial estimates, not sourced. The 21st-birthday food is LOW (only
+  catering listings; one search result's "crocodile and caterpillars"
+  claim came from a listicle and was not used). The wedding entry's menu
+  rests on two lifestyle sources (IOL, Home-Dzine); Xhosa, Sotho, Tswana
+  and Afrikaans wedding menus were not checked separately. Durban Indian
+  Eid and wedding tables were not searched. Funerals and after-tears
+  were excluded editorially; a reviewer should confirm.
 
 ## CANDIDATE QUEUE
 1. Get a CCBSA/CCBA spec sheet or direct packaging measurement for the
@@ -2674,6 +2980,11 @@ the Gap Log below.
    coil, kota, bunny chow, stiff pap, gem squash, ujeqe, trinchado, and
    the game-vs-beef biltong pair (the newest and most texturally
    distinctive entries).
+8. Celebration dishes without a catalog entry (from the 2026-10-01
+   celebrations pass): **Labarang mince pies** (with dhaltjies already
+   covered by Chilli bites); a shared **celebration cake** entry (21st
+   key cake, wedding cake); a **wedding beef stew / "wedding meat"**
+   entry if the Beef stew entry proves too generic for wedding briefs.
 
 ## RESEARCH LOG
 - **2026-09-24, first scaffold.** Written without web access after a
@@ -2735,6 +3046,15 @@ the Gap Log below.
   passes recorded and logged as itself a reusable finding: a
   well-disciplined, honestly self-tagged unverified scaffold is a
   genuinely efficient verification starting point.
+- **2026-10-01 celebrations pass (schema §5.7): 5 searches**
+  (traditional wedding food and service; 21st-birthday key custom;
+  Christmas lunch menu; Cape Malay Labarang food; township wedding
+  marquee catering, which returned only tent-hire listings). Added
+  CELEBRATIONS & LARGE GATHERINGS after the FESTIVALS register, at this
+  file's `####` register level: how gatherings work plus 7 entries
+  (weekend braai, Heritage Day, Sunday lunch, Christmas lunch, Eid
+  ul-Fitr/Labarang, wedding reception, 21st birthday). Settlement-register
+  sign-off left unresolved; entries written register-neutral. No subagents.
 
 ---
 
