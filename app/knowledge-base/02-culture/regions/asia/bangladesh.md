@@ -210,6 +210,311 @@ fried piyaju, the matte crumble of a bhorta, and real-world size.
 | **Iftar table** | Many small piles on plates and a big platter: dates, piyaju, beguni, alur chop, chola, muri, jilapi, haleem, fruit; laid out before sunset, untouched. See FESTIVALS. |
 | **Village courtyard (uthan)** | A packed-earth courtyard ringed by tin-roofed houses, banana and betel palms, a pond beyond; a low wooden stool, a pati (woven mat), food in aluminium or clay pots. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (background-first). The register table
+above stays as the index. Heading levels follow CELEBRATIONS & LARGE
+GATHERINGS (`##` section, `###` entries). The **hard staging rules** at
+the top of the file apply to every profile, above all: no cha, borhani,
+lassi, Rooh Afza, daab, sharbat or water jug beside the hero (rule 5); no
+legible Bangla script (rule 6). **The Ramadan/iftar staging rule stays
+open**; no profile is set at iftar.
+
+Wave 1: the Dhaka flat's drawing-dining room, the Dhaka rooftop
+(chhad), the kacchi house, the fuchka-chotpoti stand, and the
+community-centre wedding hall. The neighbourhood "hotel", the tong, the
+village courtyard (uthan) and the Chinese-Bangla restaurant are left for
+a later wave.
+
+### Venue: Dhaka flat drawing-dining room (drawing-dining; "dining")
+- **Use for:** home indoor; casual lunch for 1–3, the late family dinner
+  for 3–5, Friday lunch, Eid lunch, dawats, cricket at home, carrom and
+  ludo. The default home interior for a Dhaka brief (the file's fallback
+  zone); a village homestead is the statistical majority (see variants).
+  [MEDIUM — Dhaka renting and flat living per ENVIRONMENT; living and
+  dining combined in about 90% of small Dhaka flat layouts (Oakwood
+  Craft BD, a design firm, tier 3)]
+- **Soft background (the core):**
+  - *Back wall:* painted plaster in white, off-white, pale blue, mint or
+    cream, sometimes scuffed at chair height; a **showcase cabinet**
+    (glass-fronted wooden display unit) with crockery, glass sets and
+    souvenirs as a tall dark box with glints; a wall clock; curtains with
+    a **pelmet** over the window. [MEDIUM — showcase units, curtain and
+    pelmet, sofa set and centre table listed as traditional
+    drawing-room elements (Interior Ace BD); showcase per ENVIRONMENT]
+  - *Middle distance:* the **dining table pushed against a wall** with
+    plastic or wooden chairs; a **refrigerator** standing in the dining
+    area; a **wall-mounted washbasin** with a small mirror near the table
+    for hand-washing; through the open plan, a **sofa set** and centre
+    table with a TV on a wooden cabinet. [MEDIUM — ENVIRONMENT interior
+    markers, not independently re-checked; uncontested]
+  - *Light:* daylight through **window grilles** (every window), often
+    patterned iron, casting a grid; the **ceiling fan** always turning;
+    dinner (~21:00–22:00): warm white LED or a cool **tube light**
+    (both real; warm reads better, per the dinner scenario). Monsoon:
+    grey, soft, wet light. [MEDIUM — ENVIRONMENT]
+  - *Palette:* white or speckled floor tiles, pale walls, dark wood
+    furniture, a printed or plastic table cover in bright pattern.
+  - *Signature shapes (3–5):* the window grille's pattern against
+    light; the ceiling fan; the showcase cabinet; a fridge beside the
+    table; the washbasin with a mirror.
+  - *Density and wear:* crowded and lived-in: furniture close together,
+    a fitted plastic table cover, a fruit bowl, a calendar (blank blur).
+  - *People cues:* family members in salwar kameez, saree, panjabi or
+    lungi at home, soft, within the limit.
+- **Shell:** a flat in a 6–10-storey walk-up or lift block; **white or
+  speckled ceramic floor tiles** (or mosaic in older buildings); low
+  plastered ceilings; grilled windows and a small grilled balcony with
+  potted plants. [MEDIUM — ENVIRONMENT; Dhaka zone register]
+- **The table as set here:** a fitted **plastic or printed table cover**;
+  each person with a large **steel, melamine or white ceramic plate**; a
+  big bowl of white rice with a serving spoon; small bowls of dal, bhorta
+  and a vegetable; a fish or meat curry in the centre; a green chilli and
+  lemon wedge on the plate edge; all dishes at once. (The steel water jug
+  and glasses are real and always excluded.) [MEDIUM — Home rice meal
+  register]
+- **Subregional variants and the national default:** national default
+  for a Dhaka or city brief: a middle-class flat's drawing-dining room
+  as above. **No-city brief:** a village homestead is defensible (~68%
+  rural, 58.8% kancha houses): a tin-walled room or the uthan on a pati
+  mat (village register; a later-wave profile). Old Dhaka: an older
+  building with higher ceilings, wooden shutters and an iron balcony.
+  Sylhet: Londoni villas with larger, newer rooms. Hindu household
+  (Durga Puja, Boishakh): no beef on the table; a puja shelf is never
+  near the product. [EDITORIAL]
+- **Hallucination traps:** generic "India" (diyas, rangoli, a thali on
+  a banana leaf, naan, butter chicken, copper karahis); a Kolkata
+  colonial interior with red-oxide floors as the default; a Gulf
+  marble palace; disaster or slum framing; prayer mats or Qur'an stands
+  near the food.
+- **Never stage:** cha, borhani, Rooh Afza, sharbat, the water jug or
+  glasses beside the hero; legible Bangla text on calendars, packaging
+  or screens; alcohol; pork; brand marks; a full flag.
+- **Prompt-ready line:** "A Dhaka flat's drawing-dining room in soft
+  focus: pale painted walls and white floor tiles, a ceiling fan turning,
+  a glass-fronted showcase cabinet and a fridge beside the table, and
+  daylight through a patterned iron window grille."
+- **Confidence and sources:** MEDIUM (ENVIRONMENT markers; Interior Ace
+  BD, Oakwood Craft BD design firms); colours editorial. 1 search this
+  pass.
+
+### Venue: Dhaka rooftop (chhad; chhad-er bagan)
+- **Use for:** home outdoor; rooftop BBQ parties, winter evenings, Eid and
+  birthday gatherings, the World Cup football watch party on the roof;
+  1, 2 or a small group of settings inside a gathering of 6–30. The real
+  outdoor space of a Dhaka flat. [MEDIUM — rooftop BBQ parties and
+  rooftop gardens in Dhaka (The Daily Star "Planning a rooftop BBQ?" and
+  rooftop-gardening features)]
+- **Soft background (the core):**
+  - *Back wall:* the roof **parapet** (plastered, white or grey with damp
+    stains), **potted plants and rooftop-garden tubs** (bougainvillea,
+    chilli, lemon, papaya, drum planters), the **water tank** and the
+    stair-head room; **laundry lines** (taken down for guests or soft at
+    the edge). [MEDIUM — rooftops used for water tanks, drying clothes and
+    gardens (The Daily Star; rooftop garden studies)]
+  - *Middle distance:* neighbouring blocks at different heights, their
+    own tanks, potted plants and **tangled cables**; a charcoal grill with
+    chicken and kebab; plastic chairs; a projector or TV on a table for a
+    match night (soft glow). [LOW-MEDIUM — ENVIRONMENT exterior markers]
+  - *Light:* evening is the signature: **fairy lights** strung along the
+    parapet, a bulb by the stair door, the grill's glow, and the city's
+    lit windows and the haze of Dhaka's sky beyond; winter afternoon:
+    soft, hazy, smoggy gold. [EDITORIAL]
+  - *Palette:* dusk blue and grey haze, warm bulb gold, plant green,
+    terracotta pots, white and grey concrete.
+  - *Signature shapes (3–5):* potted plants along the parapet; the water
+    tank; neighbouring blocks with lit windows; a string of fairy lights;
+    the grill's smoke.
+  - *Density and wear:* weathered concrete, plants crowded, practical.
+  - *People cues:* relatives and neighbours as soft shapes, within the
+    limit; no identifiable children.
+- **Shell:** the flat concrete roof of a 6–10-storey block, shared by the
+  building's residents. [MEDIUM]
+- **The table as set here:** a folding or plastic table with a cloth, or a
+  mat; BBQ chicken, kebab, naan or paratha, salad (cucumber, onion,
+  tomato); melamine or disposable plates; plastic chairs. [LOW-MEDIUM]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka residential-block roof at dusk with
+  plants, fairy lights and a grill. Chattogram: hills and the port as
+  haze beyond. Village equivalent: the **uthan** courtyard (register;
+  later wave). Monsoon (June–Sept): wet surfaces, heavy sky; prefer
+  winter.
+- **Hallucination traps:** a luxury hotel rooftop bar with cocktails; a
+  New York rooftop with skyline icons; Indian Diwali diyas; a slum
+  skyline; kite festival scenes as default (Shakrain is an Old Dhaka
+  January event).
+- **Never stage:** cha or borhani beside the hero; legible signage on
+  neighbouring buildings; alcohol; minarets near the product (distant
+  blur at most); identifiable children.
+- **Prompt-ready line:** "A Dhaka apartment rooftop at dusk in soft
+  focus: potted plants along a weathered parapet, a water tank and a
+  string of warm fairy lights, smoke from a charcoal grill, and
+  neighbouring blocks with lit windows in the hazy sky beyond."
+- **Confidence and sources:** MEDIUM (The Daily Star; rooftop garden
+  studies); colours and set dressing editorial. 1 search this pass.
+
+### Venue: Kacchi house (kacchi biryani restaurant; kacchi ghor)
+- **Use for:** restaurant, indoor; lunch and dinner, 1 person (Away
+  from home 1) or 2–3; the default casual sit-down eat-out for a Dhaka
+  brief. [MEDIUM — register; TBS and Bangladesh Post best-kacchi
+  features name the format; interiors not described]
+- **Soft background (the core):**
+  - *Back wall and counter:* big **aluminium or copper deg pots** with
+    sealed lids on a counter or near the door, a cook lifting a lid or
+    serving with a wide flat ladle; the steaming rice and meat as pale
+    gold and brown; behind, **tiled walls** (white or patterned). [MEDIUM
+    — register; specific decor LOW — not described in sources found]
+  - *Middle distance:* rows of **steel or plastic chairs** and tables,
+    other diners eating with the right hand, **ceiling and wall fans**, a
+    washbasin on the wall, a cash counter; small and congested in Old
+    Dhaka originals, larger and air-conditioned in newer chains (keep the
+    chain look generic). [MEDIUM — Old Dhaka shops described as small and
+    congested (TBS); fans and tiles per register]
+  - *Light:* bright tube or LED light, the street's daylight at the
+    door; steam rising from the deg. [EDITORIAL]
+  - *Palette:* aluminium and copper, saffron-gold rice, white tile, steel.
+  - *Signature shapes (3–5):* the round deg with its lid; steam; rows of
+    steel chairs; a wall fan; the washbasin.
+  - *Density and wear:* busy, well-used, clean enough; older places
+    crowded and worn.
+  - *People cues:* the cook and diners as soft shapes, within the limit.
+- **Shell:** a street-front room in a busy lane or market, sometimes with
+  an upstairs dining room. [LOW-MEDIUM]
+- **The table as set here:** a steel-topped or laminate table; a plate
+  of kacchi with a mutton piece and a potato on top, a small salad of
+  cucumber, onion and green chilli; a steel plate or white ceramic;
+  sometimes a jali kebab or chicken roast on a side plate. **No borhani**
+  (it is always served; always excluded). [MEDIUM — register]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka kacchi house with degs at the front,
+  tiled walls and steel chairs. Old Dhaka (zone 2, authoritative for
+  biryani): smaller, older, crowded rooms; tehari and Haji-style
+  shops. Chattogram: mezbani beef restaurants instead. Sylhet: akhni.
+- **Hallucination traps:** a Hyderabadi or Lucknowi Indian biryani
+  restaurant look; a UK "Indian" curry house with tablecloths and wine;
+  orientalist brass lanterns; a dum seal of dough shown as a Moroccan
+  tagine.
+- **Never stage:** borhani, cha or water jugs beside the hero; legible
+  Bangla signage or menus; alcohol; brand marks.
+- **Prompt-ready line:** "A busy Dhaka kacchi house in soft focus: big
+  copper and aluminium deg pots steaming by the door, a cook lifting a
+  lid, white tiled walls, rows of steel chairs and a wall fan under bright
+  light."
+- **Confidence and sources:** MEDIUM for the format (register; TBS,
+  Bangladesh Post); interior decor LOW (no source described it). 1 search
+  this pass.
+
+### Venue: Fuchka-chotpoti stand (fuchka stall; fuchkawala)
+- **Use for:** on-the-go or "other", outdoor; late afternoon and evening
+  snacks, 1 person or friends (Away from home 2–3); the default street
+  venue (the tong is chai-led and excluded beside the hero). [HIGH for
+  fuchka as Dhaka's king of street food — TBS, Visit Bangladesh; stall
+  clusters by Dhanmondi Lake 15:00–22:00 (ratekom guide, tier 3)]
+- **Soft background (the core):**
+  - *Back wall:* the evening street or lakeside: trees, a railing, lit
+    stalls in a row, a few **cycle-rickshaws** with painted panels as
+    colour (text blurred), green **CNG auto-rickshaws** as shapes, street
+    lamps. [MEDIUM — Dhaka zone register; Dhanmondi lakeside stalls]
+  - *Middle distance:* the **cart or small stall**: a **glass box
+    stacked with puffed round fuchka shells**, a pot of warm chotpoti
+    (yellow peas), bowls of tamarind water, a bowl of grated egg, the
+    fuchkawala cracking shells; **plastic stools** and a low table.
+    [HIGH — register; TBS]
+  - *Light:* golden late afternoon or evening: a **bare bulb or LED tube**
+    on the cart, other stalls' lights as bokeh, rickshaw reflectors.
+    [EDITORIAL]
+  - *Palette:* the pale gold of shells, yellow peas, tamarind brown, the
+    blues and reds of plastic stools and plates, painted rickshaw colour.
+  - *Signature shapes (3–5):* the glass box of round shells; plastic
+    stools; a hanging bulb; rickshaws passing; a row of lit stalls.
+  - *Density and wear:* busy, cheerful, worn carts, clean plates.
+  - *People cues:* the vendor and a few customers, soft, within the
+    limit; students and couples are typical.
+- **Shell:** a pavement, lakeside walk or campus edge; the cart on
+  wheels or a fixed stall with a small awning.
+- **The table as set here:** a **melamine plate** of cracked fuchka
+  filled with pea-and-potato mash and grated egg, with a small bowl of
+  tamarind water; or a bowl of chotpoti; plastic stools at the frame
+  edge. [HIGH for the food form — street-food sources]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka fuchka cart by a lake or campus in the
+  evening. Bailey Road and Dhanmondi: fixed stalls and small shops with
+  seating. Chattogram and Sylhet: the same form. Winter: pitha stalls
+  beside it (bhapa pitha steam).
+- **Hallucination traps:** Indian pani puri (Mumbai) or Kolkata puchka
+  served one at a time with no egg; a Western food truck; newspaper
+  wrapping (legible); slum or flood framing; the Cox's Bazar beach as a
+  default.
+- **Never stage:** cha or tamarind water poured into a glass beside the
+  hero (the small bowl is part of the dish, kept beside the plate);
+  legible rickshaw art, cart signs or Bangla script; newspaper; alcohol.
+- **Prompt-ready line:** "A Dhaka fuchka stand at dusk in soft focus: a
+  glass box stacked with round puffed shells and a pot of yellow
+  chotpoti on a cart under a hanging bulb, plastic stools, and painted
+  cycle-rickshaws and lit stalls blurred beyond."
+- **Confidence and sources:** HIGH for the form (register; TBS, Visit
+  Bangladesh); street backdrop MEDIUM; light editorial. 1 search this
+  pass.
+
+### Venue: Community-centre wedding hall (community centre; convention hall)
+- **Use for:** "other"; wedding and walima/bou-bhat dinners, big
+  birthdays; 1, 2 or a small group of settings along a long table inside
+  a crowd of 300 to over 1,000. The market's signature event venue.
+  [MEDIUM — community centres hosting 500–1,500 guests with in-house
+  catering and stage decoration (Humayra, Prianka Community Center
+  listings); the shift to community centres (Global Voices, via this
+  file's gatherings section)]
+- **Soft background (the core):**
+  - *Overhead and back wall:* a large hall with a high ceiling,
+    **chandeliers** or rows of lights, fabric draping or flower garlands,
+    **fairy lights**; the **stage** far behind as a bright block of
+    flowers and backdrop (the couple never identifiable). [MEDIUM —
+    venue listings: high ceilings, lighting systems, customizable
+    stages]
+  - *Middle distance:* **long rows of tables with white cloths** (or
+    round tables), covered chairs; **waiters with catering buckets and
+    trays**, a **deg** soft at the edge; guests seated in **batches**
+    as tables fill and clear. [MEDIUM — gatherings section (Global
+    Voices, TBS); batch seating LOW-MEDIUM]
+  - *Light:* warm, bright interior light (evening events); colour
+    uplighting on the stage. [EDITORIAL]
+  - *Palette:* white cloths, red and gold wedding fabrics, marigold and
+    rose; guests in jamdani, silk sarees and panjabis as rich blur;
+    **yellow and orange** for gaye holud (daytime). [MEDIUM — wedding
+    entry]
+  - *Signature shapes (3–5):* the long white table receding; a waiter
+    with a bucket; chandeliers; the stage block; flower strings.
+  - *Density and wear:* crowded, festive, fast-moving.
+  - *People cues:* guests and waiters as soft shapes, within the limit;
+    no identifiable children.
+- **Shell:** a purpose-built community centre or convention hall, tiled
+  or carpeted, air-conditioned in newer venues. [MEDIUM — Prianka listing]
+- **The table as set here:** a long white cloth; a white plate, a bowl
+  and often a spoon and fork; kacchi or morog polao with a roast chicken
+  leg, jali kebab, salad; jorda or firni bowl. **No borhani.** [HIGH for
+  the menu — wedding entry]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Dhaka community centre with long white tables
+  and a flower-lit stage. Village or small-town wedding: a **shamiana**
+  (striped cloth tent) in a courtyard or lane. Chattogram: mezban-style
+  serving from buckets. Hindu wedding: different iconography; never near
+  the product.
+- **Hallucination traps:** an Indian Hindu wedding mandap, sacred fire
+  or sindoor in a Muslim wedding; a Western white wedding with champagne;
+  a Pakistani mehndi look; a luxury hotel ballroom as the default.
+- **Never stage:** borhani (rule 5), cha or water jugs beside the hero;
+  turmeric rites on people; legible names on banners or stage; alcohol;
+  identifiable children.
+- **Prompt-ready line:** "A Dhaka community-centre wedding hall in soft
+  focus: long tables with white cloths receding under chandeliers and
+  fairy lights, a waiter carrying a catering bucket, and a flower-banked
+  stage glowing far behind."
+- **Confidence and sources:** MEDIUM (community-centre listings; this
+  file's gatherings and wedding sources); colours editorial. 1 search
+  this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2802,6 +3107,13 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   arithmetic. Carrom's winter-evening timing, cards as gambling-coded,
   and iftar-then-games are unverified; the last inherits the open iftar
   decision. Ludo and carrom food pairings are editorial.
+- **Venue-profile pass (2026-10-01) open items.** Unverified background
+  details: kacchi-house interiors (no source described decor beyond
+  "small and congested" in Old Dhaka); the flat's wall colours and
+  washbasin placement beyond ENVIRONMENT; rooftop set dressing (cables,
+  plant types); fuchka-cart lighting; community-centre batch seating and
+  decor colours. Neighbourhood "hotel", tong, village uthan and
+  Chinese-Bangla restaurant not yet profiled (later wave).
 
 ## CANDIDATE QUEUE
 
@@ -2878,3 +3190,4 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   game-night entries (family ludo at home; carrom in the para club or
   courtyard; popularity medium). The iftar staging rule left untouched.
   No subagents.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (Dhaka flat drawing-dining room, Dhaka rooftop, kacchi house, fuchka-chotpoti stand, community-centre wedding hall). Iftar rule untouched. No subagents.

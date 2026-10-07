@@ -30,6 +30,17 @@ unless checked — this is a gap list, not a status report of what's done.
   human decision on apartheid-era sensitivity, not a research gap
 
 ### A2. Cross-market standing gaps
+- [ ] **Venue profiles (schema §5.9), wave 1** — written 2026-10-01:
+  135 background-first profiles, 5–6 per country file (the
+  everyday home, home outdoor space, casual sit-down restaurant, street
+  venue and signature event venue), a 6-venue national set in us.md and
+  2 per US regional file. About 140 searches, snippet-level only; much
+  of the room detail rests on supplier, decorator and listing pages
+  (tagged commercial, mostly MEDIUM/LOW; each file's GAP LOG lists the
+  unverified items). No prompt-ready line has been image-tested yet.
+  Wave 2 (the remaining register venues, queued in each file) not
+  started. Reviewer checks: TX and NM local restaurants replace the
+  national casual sit-down profile; ZA/NG register variants stay pending.
 - [ ] **Game night (schema §5.8)** — first pass written 2026-10-01 for
   every country and US regional file (watch parties and social game
   nights, about 120 entries), built from a 45-search cross-market study

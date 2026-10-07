@@ -256,6 +256,394 @@ and real-world size.
 | **Home meal (Java)** | A dining table with a plastic-patterned or lace tablecloth, a **rice pot or rice cooker**, 2–4 lauk-pauk in serving bowls (a vegetable dish, a fried protein, tempeh/tofu), a saucer of sambal, a jar or tin of krupuk, plates and spoon-and-fork per person, a **tudung saji** (woven or plastic food cover dome) nearby. |
 | **Mall food court / café** | Air-conditioned, tidy, melamine or white china; a coffee-shop register (kopi susu) for young adults — es kopi susu is an intruder. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies. The default camera keeps the table sharp and the
+room soft, so each profile leads with what the blurred background must
+show. First wave (2026-10-01): the five most-used staging venues. The
+QUICK-REFERENCE table above stays the short index; the angkringan,
+rumah makan Padang, lesehan, mall food court, warung kopi and gedung
+wedding hall keep their register rows and scenario text until a later
+wave. Hard rules 1–10 apply to every profile: **halal by default** (no
+pork, no alcohol, nothing that reads as either), religious objects out
+of frame (hard rule 7), and **es teh manis, the water glass and the
+galon dispenser as the intruders** (hard rule 9). Iftar and buka puasa
+staging stays under the flagged FESTIVALS guidance (hard rule 6); these
+profiles do not resolve it.
+
+#### Venue: Perumahan row-house living-dining room (ruang tamu dan ruang makan, rumah tipe 36)
+- Use for: home indoor; casual lunch at home (1–3), dinner at home,
+  Lebaran open house (dining-table and carpet forms), syukuran, the
+  home watch party; 1, 2 or a small group. The national default: a
+  landed single- or two-storey row house in a perumahan housing estate
+  (Jabodetabek in zone 1) [MEDIUM — JLL and BPS figures in ENVIRONMENT &
+  STAGING SCENES; EDITORIAL default]. The **type 36** (36 m² built, two
+  bedrooms) is the most popular starter type, and its living room,
+  family room and dining room are **one open space without partitions**
+  [MEDIUM — 99.co, BTN Properti, Brighton "rumah tipe 36" guides
+  (tier 3, property portals)].
+- Soft background (the core): because the room is one open space, the
+  background is the **other half of the same room**: the sala end with a
+  **low sofa set** (wooden frame with cushions, or a fabric L-sofa), a
+  **wall-mounted TV** or TV on a low cabinet as a dark rectangle or soft
+  glow, and a doorway or archway to the kitchen at the back with a
+  **rice cooker** on the counter. **Walls**: smooth plaster in white,
+  cream, pale grey or a soft pastel, with a **wall clock**, framed
+  family or wedding photos and (in Muslim homes) a framed **Arabic
+  calligraphy** panel or a Kaaba picture, which must be **out of frame
+  or an unreadable gold-and-dark rectangle** (hard rule 7) [MEDIUM —
+  file interior markers; EDITORIAL]. **Middle distance**: the **galon
+  water dispenser** (a large blue-tinted bottle upside down on a white
+  stand) as a strong, recognisable shape — keep it soft and away from
+  the hero (hard rule 9); a glass-fronted cabinet (lemari) of plates and
+  souvenirs; a standing fan; a prayer mat folded on a shelf (out of
+  frame). **Light**: daylight through **nako louvred glass** or
+  aluminium-frame windows with **teralis** iron bars, often with a thin
+  net curtain; at night a white LED or fluorescent ceiling light (cool
+  white) and the TV's glow; a wall split-AC unit as a pale bar or a fan
+  [MEDIUM — file interior markers]. **Palette**: white or cream walls,
+  **glossy white or marble-pattern ceramic floor tiles** (40–60 cm), dark
+  brown varnished wood or a glass table top, the pattern of a plastic or
+  lace tablecloth, the blue of the galon [MEDIUM — Brighton "marble
+  pattern ceramic"; file markers]. **Signature shapes (pick 3–4)**: the
+  galon dispenser; the **tudung saji** dome (woven rattan or coloured
+  plastic) on the table or nearby; the teralis pattern against bright
+  window light; the sofa set's low backs; the AC bar or fan disc.
+  **Density and wear**: compact and lived-in, neat but full (a
+  calendar, a plastic flower vase, a motorbike helmet by the door, a
+  rack of shoes outside); never a showroom or a slum. **People cues**:
+  one blurred relative on the sofa (a hijab or peci is normal and
+  welcome soft in the background), within the limit; no children's
+  faces.
+- Shell: a brick-and-plaster row house, 6–7 m wide, a front terrace and
+  carport behind a steel gate (see the teras profile); ceramic tile
+  floor throughout; gypsum or plywood ceiling about 2.8–3 m; red clay or
+  metal roof tiles not seen indoors [MEDIUM — property guides; file
+  exterior markers].
+- The table as set here: a rectangular wooden or glass-topped dining
+  table for four to six, often with a **printed plastic or lace
+  tablecloth**; wooden or plastic chairs; always on it: **rice** in the
+  rice-cooker pot or a bowl (hard rule 4), 2–4 lauk in serving bowls
+  (a vegetable dish, a fried protein, tempeh or tofu), a saucer or
+  cobek of **sambal**, a jar or tin of **krupuk** (2–4 pieces on a plate),
+  plates with **spoon right and fork left**, a **tudung saji** at the
+  edge [HIGH for spoon-fork and rice — hard rules; MEDIUM for tudung saji
+  and tablecloth — file register]. On the floor-mat form (Lebaran,
+  syukuran), a **carpet or tikar** with dishes in a line and jars of kue
+  kering. House tableware: white or floral melamine or china plates,
+  steel spoons. Chair edges: dark wood or plastic.
+- Subregional variants and the national default: **Jakarta apartment**
+  (young professionals): a small high-rise unit with a two-seat table,
+  laminate or tile, towers outside. **Kos room** (students and young
+  workers): see ENVIRONMENT Gen Z lens. **Central Java / Yogyakarta**:
+  more wood, a joglo-style pendopo in larger homes, batik cloth.
+  **West Sumatra**: Minang carved-wood details in older homes. **Bali**:
+  a family compound pavilion (bale) instead of a closed room; shrines
+  out of frame. **Manado, Papua, NTT**: a crucifix or Christian picture
+  replaces the calligraphy (also out of frame). National default when
+  nothing is named: the Jabodetabek type-36 row house above.
+- Hallucination traps: a Balinese resort villa (carved teak, frangipani,
+  open-air bathroom) as the everyday home; a Javanese palace interior
+  with gamelan and gilded carving; a Malaysian or Thai house; a
+  Japanese apartment; a Western open kitchen with an island; pork or a
+  wine glass; an "exotic" thatched hut.
+- Never stage: calligraphy, a Qur'an, a prayer mat, a crucifix or a
+  shrine in readable form beside the product; es teh manis, a water
+  glass or the galon beside the hero; legible calendars, labels, TV
+  screens; delivery bags with green branding.
+- Prompt-ready line: "A Jakarta row-house dining table with a printed
+  plastic tablecloth and a rattan food-cover dome, glossy white ceramic
+  floor tiles, cream walls, a softly blurred low sofa and wall TV in the
+  open living area behind, and daylight through louvred glass windows
+  with iron bars."
+- Confidence and sources: MEDIUM. 1 search (type-36 house interiors).
+  99.co, BTN Properti, Brighton, SMS Perkasa property guides (tier 3);
+  file ENVIRONMENT norms and register. Kaaba picture and the lemari
+  display cabinet LOW — not verified.
+
+#### Venue: Front terrace (teras rumah)
+- Use for: home outdoor; casual lunch or afternoon meal outdoors,
+  receiving neighbours, part of the Lebaran open house, small
+  syukuran, a home viewing on a TV carried out; 1, 2 or a small group.
+  The everyday home-outdoor space in perumahan and kampung houses
+  [MEDIUM — file ENVIRONMENT "Outdoor eating is everyday"; Liputan6 and
+  Dekoruma terrace-design guides].
+- Soft background (the core): the frame looks **out from the terrace**
+  or along it. **Out**: the **steel gate and fence** (vertical bars,
+  often painted black, green or white, sometimes with a wavy or
+  geometric top), the **carport** with a parked motorbike or small car,
+  and across the narrow estate street the neighbours' identical house
+  fronts, gates and potted plants, over-exposed in daylight; overhead
+  cables and a lamp post. **Along**: the house wall (plaster in a light
+  colour, sometimes stone-clad around the door), a window with teralis
+  bars, the front door [MEDIUM — Liputan6 terrace and carport designs;
+  file exterior markers]. **Middle distance**: **potted plants** in a
+  row or cluster (snake plants, monstera, crotons, bougainvillea,
+  philodendron), a bench or a pair of **cast-iron or rattan terrace
+  chairs** with a small table, a shoe rack, a cage with a songbird in
+  some homes [MEDIUM — Liputan6 and filmaria (cast-iron sets, pots);
+  songbird cage LOW — not verified]. **Light**: deep shade under the
+  roof overhang against a very bright street, tropical noon; at golden
+  hour warm low light across the gate; at night a wall lamp or a bare
+  bulb by the door, the street dark beyond. **Palette**: light plaster,
+  grey or patterned ceramic terrace tiles, black or green steel, many
+  greens, the red of clay roof tiles on the houses opposite.
+  **Signature shapes**: the gate's vertical bars; the clay-tile roof
+  edges opposite; the motorbike silhouette; potted plants in a row; the
+  terrace chairs. **Density and wear**: tidy and lived-in, swept daily.
+  **People cues**: a blurred neighbour passing beyond the gate, one
+  relative on a chair; within the limit.
+- Shell: a roofed concrete platform 2–3 m deep along the house front,
+  tiled, one or two steps above the carport; the house roof overhang or
+  a polycarbonate canopy above.
+- The table as set here: a small terrace table (cast iron, rattan or
+  wood) or a **tikar mat** on the tiles; a plate of rice with lauk,
+  sambal, krupuk; a plate of gorengan or kue for an afternoon visit;
+  spoon and fork; a tudung saji if food waits. Chair edges: cast-iron
+  scrollwork or rattan.
+- Subregional variants and the national default: **Kampung lane
+  (Jakarta, Surabaya)**: a narrower teras opening straight onto a 1–3 m
+  gang, motorbikes passing, no carport. **Rural Java**: a wider house
+  front with a **bale-bale** (bamboo or wooden daybed) under a mango
+  tree, red clay roof tiles, rice fields beyond. **Sundanese uplands**:
+  a **saung** (bamboo gazebo) in the yard. **Bali**: the bale inside a
+  family compound, carved brick and stone (shrines out of frame).
+  **Sulawesi / Manado**: the verandah of a wooden stilt house (rumah
+  panggung). National default when nothing is named: a Jabodetabek
+  perumahan terrace behind a steel gate.
+- Hallucination traps: a resort patio with loungers and an infinity
+  pool; a Western backyard with a lawn and a barbecue grill (Indonesians
+  buy sate rather than grill at home — file §5.2 note); a Bali
+  rice-terrace view in a Jakarta scene; temple umbrellas and canang as
+  generic décor.
+- Never stage: canang sari, shrines or a mosque in focus beside the
+  product; licence plates; legible house numbers or estate signs; a
+  flag (a cropped red-white bunting strip at most, in August).
+- Prompt-ready line: "Lunch on a shaded Jakarta house terrace: a small
+  cast-iron table on patterned tiles in the foreground, a row of potted
+  plants, a parked motorbike and a black steel gate softly blurred
+  behind, with bright neighbouring house fronts and clay-tile roofs
+  beyond."
+- Confidence and sources: MEDIUM. 1 search (terrace and carport
+  design). Liputan6; Dekoruma; filmaria; Fimela (village terraces); file
+  ENVIRONMENT norms. Songbird cage and bale-bale frequency LOW — not
+  verified.
+
+#### Venue: Warteg (warung Tegal)
+- Use for: restaurant indoor; away-from-home lunch for 1 (the Jakarta
+  working lunch), 2–3 co-workers; the default casual sit-down eatery
+  in zone 1, with the general warung as the national form [MEDIUM —
+  file register; CNBC Indonesia and Beautynesia on warteg layout].
+- Soft background (the core): the **etalase** dominates: a long
+  **glass-fronted display case** running the width of the room, behind
+  it **15–30 shallow trays and enamel or steel bowls** of ready lauk
+  (tempeh orek, sayur lodeh, telur balado, ikan goreng, perkedel, tahu,
+  sambal goreng) as a mosaic of browns, reds, greens and yellows, a big
+  rice container or rice cooker at one end, a stack of plates on top of
+  the glass [HIGH — CNBC Indonesia and Beautynesia (glass display with
+  dishes, tables and benches around it); file register]. Behind the
+  case, the server in blur and a back wall of **white or cream ceramic
+  tiles**, a shelf of jars of krupuk and kerupuk tins, a kettle, a wall
+  clock and a calendar (unreadable). **Room**: narrow, the **long table
+  and long wooden bench (bangku panjang)** running parallel to the
+  glass so diners sit facing the food, often **two doors** onto the
+  street [MEDIUM — CNBC Indonesia "why warteg have two doors";
+  Beautynesia (long bench as a symbol of equality)]. Painted plaster
+  above the tiles (often blue, green or white), a wall fan.
+  **Light**: bright white **fluorescent tubes** across the ceiling, flat
+  and cool; daylight from the open doors with the street (motorbikes,
+  a gang) over-exposed [MEDIUM — file register "bright tube light"].
+  **Palette**: white tile and glass, the warm mosaic of lauk behind
+  glass, varnished wood of the bench, the blue or green paint, steel.
+  **Signature shapes**: the long glass counter; the trays behind it;
+  the long bench; the fluorescent tubes; the two bright door openings.
+  **Density and wear**: busy at noon, modest, wiped-clean surfaces,
+  worn bench edges. **People cues**: the server behind the glass and
+  one diner further along the bench, blurred; no more than about 2.5
+  faces.
+- Shell: a small ground-floor shop unit or the front of a house, 3–5 m
+  wide; ceramic tile floor; low plaster ceiling; a front with wide
+  doorways or a folding steel shutter.
+- The table as set here: the **long wooden or Formica-topped table**
+  against the glass, with the bench; on it: a steel or plastic caddy of
+  **spoons and forks**, a box of tissues, bottles of kecap manis and
+  sambal, a jar of krupuk, sometimes a **kobokan** finger bowl; the meal
+  is **one plate of rice with three chosen lauk spooned on**, plus a dab
+  of sambal and 2–4 krupuk, on a white or patterned melamine or enamel
+  plate [MEDIUM — file register and hard rules 3–5]. Chair edges: the
+  bench, or plastic stools.
+- Subregional variants and the national default: **Warung (all
+  zones)**: a smaller family eatery, often with a tarp or tin awning,
+  plain tables and benches, a smaller etalase. **Central Java /
+  Yogyakarta**: the angkringan at night and gudeg warung by day (see
+  register). **East Java**: soto and rawon warung with a big pot at the
+  front. **West Sumatra and nationwide**: the rumah makan Padang (see
+  register; window stacked with dish pyramids, hidang service).
+  **Bali**: warung nasi campur, halal or not per hard rule 2; canang on
+  the counter must stay out of frame. National default when nothing is
+  named: the Jakarta warteg above.
+- Hallucination traps: a Singapore or Malaysian hawker centre; a
+  Thai shophouse with steel tables and a four-jar caddy; a Bali
+  tourist café with bamboo walls and smoothie bowls; a chain fast-food
+  counter; a filthy or fly-ridden framing.
+- Never stage: es teh manis glasses on the table (the default warteg
+  drink — negate it); cigarettes and ashtrays; legible price lists,
+  menus or the warteg name; pork; a calligraphy panel beside the hero.
+- Prompt-ready line: "A Jakarta warteg at noon: a plate of rice with
+  three lauk on a long wooden table in the foreground, a softly blurred
+  glass display case of trays of ready dishes and a white-tiled back
+  wall behind, under bright fluorescent tubes, with a long wooden bench
+  and daylight from the open doorway."
+- Confidence and sources: MEDIUM-HIGH. 1 search (warteg interiors, in
+  Indonesian). CNBC Indonesia; Beautynesia; Liputan6 and Merdeka
+  warung-design features; file register. Wall paint colours LOW — not
+  verified.
+
+#### Venue: Kaki lima cart at night (gerobak kaki lima)
+- Use for: street / on-the-go; meal on the go (1), away-from-home dinner
+  for 2–3 (nasi goreng, bakso, sate, martabak), late-night snack,
+  street-side viewing; the default Indonesian street venue [MEDIUM —
+  detik on nasi goreng gerobak; file register and STREET FOOD].
+- Soft background (the core): a **pavement or street edge at night**:
+  the **gerobak** (wheeled wooden or aluminium cart) in the middle
+  distance with a **glass case** on top (raw ingredients, noodles,
+  bakso in a steaming pot, eggs stacked), a **wok over a roaring gas
+  flame** with a blue LPG canister below, a **tarp awning or tent**
+  (often in a strong single colour, printed with the dish name —
+  **unreadable**) stretched on poles, and a **single bare bulb or
+  battery lamp** hanging from the cart roof as a warm point of light
+  [MEDIUM — detik; Kompas and IDN Times kaki lima features (carts,
+  tarp tents, plastic tables and stools, lamp light); file register].
+  Beyond: **parked motorbikes** as dark shapes with chrome glints, shop
+  fronts with roll-down shutters closed for the night, a **lit
+  minimarket front** as a large soft white glow (no logo), overhead
+  cables, other carts' bulbs as warm bokeh down the street. **Light**:
+  warm tungsten points and the blue gas flame against a dark street;
+  the wok's smoke and steam lit from below; passing headlights as
+  streaks. **Palette**: dark blue night, warm amber bulbs, the
+  tarp's saturated colour, steel and glass, white steam. **Signature
+  shapes**: the cart's glass box with its bulb; the wok and flame; the
+  tarp edge; low plastic stools; motorbikes. **Density and wear**: busy
+  and cheerful, practical (a bucket of water, a stack of plates, a
+  crate). **People cues**: the vendor at the wok in blur (T-shirt,
+  sometimes a towel on the shoulder), one or two customers on stools;
+  nobody sharp.
+- Shell: the pavement, kerb or the edge of a car park; asphalt or
+  paving; open night sky or the tarp.
+- The table as set here: a small **plastic or folding steel table**
+  or a **long wooden bench** with a plank table under the tarp, with
+  **plastic stools**; on it: a plate of nasi goreng with a fried egg,
+  cucumber slices and 2–4 krupuk on a melamine plate, spoon and fork; a
+  jar of krupuk and bottles of kecap and sambal; for bakso, a bowl with
+  a porcelain spoon and a condiment set (sambal, kecap, vinegar)
+  [MEDIUM — file register; EDITORIAL]. Never in a hand.
+- Subregional variants and the national default: **Yogyakarta / Solo**:
+  the angkringan cart with clay kettles and a lesehan mat (see
+  register). **Bandung**: siomay and batagor carts by day. **Madura /
+  East Java**: sate Madura stalls with a narrow charcoal grill and a
+  woven fan. **Evening pavement tents (warung tenda / pecel lele)**:
+  painted tarp walls (unreadable), rattan plates, kobokan. National
+  default when nothing is named: a Jakarta nasi goreng cart at night.
+- Hallucination traps: Bangkok soi stalls (steel tables, four-jar
+  caddy, Thai script); a Singapore hawker centre; Khao San-style neon;
+  a night market with Chinese lanterns; a Western food truck; the "tek-
+  tek" vendor carrying the wok on a shoulder pole as décor.
+- Never stage: alcohol (none in frame even in Bali); cigarettes;
+  legible tarp text, menus or minimarket signs; licence plates; es teh
+  or kopi glasses on the table.
+- Prompt-ready line: "A Jakarta nasi goreng cart at night: a plate of
+  fried rice with a fried egg and krupuk on a small plastic table in the
+  foreground, a softly blurred wooden cart with a lit glass case, a wok
+  flaring over blue gas flame and a single hanging bulb under a
+  coloured tarp, with parked motorbikes and warm stall bokeh beyond."
+- Confidence and sources: MEDIUM. 1 search (nasi goreng gerobak, in
+  Indonesian). detik "Saat nasi goreng gerobak..."; Kompas; IDN Times;
+  file register and STREET FOOD. Lamp types today (bare bulb vs.
+  kerosene, which the sources mention for earlier decades) LOW.
+
+#### Venue: Hajatan tent with prasmanan and gubukan (tenda hajatan)
+- Use for: home outdoor (tent over the yard or the gang lane) or other;
+  wedding resepsi, khitanan, aqiqah, syukuran, 17 August neighbourhood
+  meals; snapshot frames of 1, 2 or a small group. The signature
+  Indonesian event venue in the CELEBRATIONS section [HIGH for
+  prasmanan with gubukan — weddingmarket, djavacatering, pernikahan.or.id,
+  Jagarasa (carried over from CELEBRATIONS)].
+- Soft background (the core): the **inside of a rented tent** over a
+  yard or lane: a fabric **plafon** (pleated or swagged ceiling cloth,
+  often white, cream, or in the family's theme colour such as gold,
+  maroon or sage) hiding the steel frame, with **rumbai** (fringed or
+  scalloped valances) along the edges and fabric wrapped around the
+  poles [MEDIUM — Indonesian tent-décor makers and rental listings
+  (Lestari Global Industri, Cahaya Tenda, NS Tenda, PestaHub): plafon
+  tenda, rumbai tenda, chair covers, table covers, background walls].
+  **Middle distance**: rows of **futura or chitose chairs in fitted
+  covers** (white with a coloured sash or bow) facing a **pelaminan**
+  (the couple's decorated stage with a floral backdrop) at the far end,
+  soft and bright; the **prasmanan line**: skirted tables with a row of
+  **stainless chafing dishes** with domed lids; and **gubukan**: small
+  decorated stalls styled as little huts or joglo pavilions, each with
+  one food (bakso, soto, sate, siomay) and steam rising [MEDIUM — same
+  sources; HIGH for gubukan form]. **Light**: by day, diffuse light
+  through the fabric, warm-tinted by the colour of the plafon, the
+  yard or lane over-exposed at the open sides; by evening, chandeliers
+  or bulb strings hung from the frame, warm white, coloured light on
+  the pelaminan. **Palette**: the theme colour and white or cream,
+  chrome of chafing dishes and chairs, flower colours, the green of
+  janur (young coconut-leaf decorations) at the entrance in Java.
+  **Signature shapes**: swagged ceiling cloth; scalloped rumbai;
+  covered chairs with bows in rows; the pyramid roofs of gubukan; the
+  bright floral pelaminan. **Density and wear**: temporary, full, the
+  neighbourhood packed in. **People cues**: blurred guests in batik
+  shirts, kebaya and hijab at the edge or queuing at a gubukan, staff
+  in uniform behind chafing dishes; within the limit; no children's
+  faces; the couple not as a recognisable subject.
+- Shell: an open-sided tent on the yard, the gang lane or a field; the
+  floor is concrete, asphalt or a laid carpet; urban weddings move to a
+  gedung (rented hall) with the same chairs, buffet and pelaminan
+  [MEDIUM — file CELEBRATIONS].
+- The table as set here: hajatan guests often eat standing or on the
+  covered chairs, so stage a **small round or rectangular guest table
+  with a skirted cover** at the edge of the tent, or the end of the
+  family's table; a white caterer plate with rice, a lauk, a vegetable
+  and krupuk; spoon and fork; a bowl from a gubukan (bakso or soto); a
+  **nasi kotak** or **besek** stack at the frame edge for the take-home
+  cue [MEDIUM — file CELEBRATIONS]. **Negate the sealed plastic water
+  cup**, the standard hajatan drink (hard rule 9). Chair edges: the
+  covered chair backs with sashes.
+- Subregional variants and the national default: **Kampung Java**: the
+  tent blocking the gang, neighbours cooking (rewang) in big pots at the
+  back, janur decorations at the entrance. **West Sumatra / Minang**:
+  gold-and-red textiles and a Minang pelaminan. **Bali**: Hindu wedding
+  form in the family compound, penjor bamboo poles outside (shrines out
+  of frame; pork only if the brief names it). **Batak, Manado, NTT,
+  Papua**: church-linked celebrations with the same tent form.
+  National default when nothing is named: a white-and-gold tent over a
+  Jabodetabek yard with covered chairs, a chafing-dish prasmanan and two
+  or three gubukan.
+- Hallucination traps: a Western garden marquee with fairy lights and a
+  champagne tower; Indian wedding mandap décor; Chinese red lanterns;
+  a Bali beach wedding with a bar; a Malaysian kenduri (similar but not
+  the default here).
+- Never stage: any alcohol; the akad nikah ceremony, prayer or a
+  mosque interior (stage the reception meal only); legible names,
+  initials or "Selamat Menempuh Hidup Baru" banners; a full
+  red-and-white flag (17 August: cropped bunting at most); the
+  khitanan boy or any identifiable child.
+- Prompt-ready line: "A guest's plate at an Indonesian hajatan: a
+  skirted table in the foreground under a white-and-gold rental tent
+  with swagged ceiling cloth and scalloped fringes, rows of covered
+  chairs with bows, a gleaming line of chafing dishes and a small
+  thatched-roof food stall with rising steam softly blurred behind."
+- Confidence and sources: MEDIUM. 1 search (tent décor, in
+  Indonesian) plus the CELEBRATIONS sources. Lestari Global Industri,
+  Cahaya Tenda, NS Tenda, PestaHub, persewaanalatpesta (tier 3,
+  vendors). Theme-colour palette and the regional variants LOW — not
+  verified as shares.
+
 ---
 
 ## TRUSTED CONTENT
@@ -3144,6 +3532,18 @@ conversation, not an approved scene.*
   Ramadan-month viewing (after tarawih, around sahur) was not
   researched; the entries apply the existing editorial Ramadan rules.
 
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items**: background
+  details not verified this pass: the Kaaba picture and the lemari
+  display cabinet in living rooms; songbird cages and bale-bale on
+  terraces; warteg wall paint colours; whether cart lighting today is
+  mostly bare bulbs or battery LED (sources describe kerosene lamps for
+  earlier decades); hajatan tent theme colours as shares; the regional
+  variants (Minang, Bali, Batak, Manado) of the home, terrace and tent.
+  The type-36 open-plan layout rests on property-portal guides (tier 3).
+  The angkringan, rumah makan Padang, lesehan, mall food court, warung
+  kopi and gedung hall have no profile yet (later wave).
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with six zones (recommended) vs.
@@ -3240,3 +3640,14 @@ conversation, not an approved scene.*
   warung kopi or terrace, mabar Mobile Legends). Key sources carried
   over: pemalangkab.go.id; Okezone; Krjogja; ThaiRanked; GNFI; Times
   Indonesia; Bangka Pos; Moonton. No subagents.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5
+  searches.** Added VENUE PROFILES (perumahan row-house living-dining
+  room, type 36, with apartment, kos and regional variants; front
+  terrace; warteg with the general warung as the national form; kaki
+  lima cart at night; hajatan tent with prasmanan and gubukan). Key
+  sources: CNBC Indonesia and Beautynesia (warteg layout); Liputan6,
+  Merdeka, Dekoruma, Fimela, filmaria (design features); 99.co, BTN
+  Properti, Brighton (tier 3, property portals); detik, Kompas, IDN
+  Times (kaki lima); Lestari Global Industri, Cahaya Tenda, NS Tenda,
+  PestaHub (tier 3, tent vendors). Iftar staging left pending as
+  flagged. No subagents.

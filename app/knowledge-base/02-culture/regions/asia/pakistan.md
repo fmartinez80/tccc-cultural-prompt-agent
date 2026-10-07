@@ -202,6 +202,331 @@ nihari), char, crust, crumb, steam, and real-world size.
 | **Iftar table (Ramadan)** | Dates in a small bowl, a large platter of pakoras, samosas, fruit chaat in a glass bowl, dahi baray, chana chaat, all untouched; dusk at the window. |
 | **Chai dhaba/kiosk** | Small stall with a big kettle on a gas ring, stacked cups, benches — **documented, not staged with a TCCC product beside chai**. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+## VENUE PROFILES
+
+Per `country-file-schema.md` §5.9 (background-first). The register table
+above stays as the index. Heading levels follow CELEBRATIONS & LARGE
+GATHERINGS (`##` section, `###` entries). The **hard staging rules** at
+the top of the file apply to every profile, above all: no chai, lassi,
+Rooh Afza or water jug beside the hero (rule 4); no calligraphy, Qur'an
+or prayer objects near the product (rule 6). **The iftar staging rule and
+the consumer-boycott note stay open**; no profile is set at iftar.
+
+Wave 1: the house drawing and dining room, the roof (chhat) BBQ, the
+karahi/tikka restaurant, the GT Road dhaba, and the wedding marquee or
+shadi hall. The food street, the chai dhaba (GAME NIGHT) and the Karachi
+apartment are left for a later wave.
+
+### Venue: House drawing room and dining room, Lahore (drawing room, "dining")
+- **Use for:** home indoor; casual lunch for 1–3, the family dinner for
+  5–8, Eid lunch, dawats, the cricket watch party in the drawing room or
+  TV lounge, ludo and carrom. The national default home interior: a
+  house in Punjab (Karachi's default is an apartment, see variants).
+  [HIGH for house over flat in Punjab, household size — 2023 Census via
+  ENVIRONMENT; MEDIUM for interiors — furniture and interior-design
+  trade sources]
+- **Soft background (the core):**
+  - *Back wall:* plastered walls in **white, cream, beige or warm grey**;
+    a large **decorative wall clock**, a framed print or mirror, heavy
+    **curtains** (often in two layers, sheer and patterned) on a tall
+    window. Calligraphy panels are common in real homes but are legible
+    text and religious; keep them out (hard rule 6). [MEDIUM — light
+    neutral palettes recommended for Lahore drawing rooms (Mohkam
+    Furnishers); interior markers per ENVIRONMENT]
+  - *Middle distance:* the drawing room's **sofa set**: an L-shaped sofa
+    or a formal 3+2+1 set in velvet or fabric, often with carved wood
+    frames in older homes, cushions; a **glass-topped centre table**; a
+    TV on a console. In the dining room: a **water dispenser or fridge**
+    against the wall, a sideboard with crockery. [MEDIUM — L-shaped and
+    3+2+1 sets as the backbone of Pakistani drawing rooms (Mohkam
+    Furnishers); centre table and dispenser per ENVIRONMENT, LOW-MEDIUM]
+  - *Light:* daylight through a window with a **metal grille**, softened
+    by curtains; the **ceiling fan** turning (nearly universal); dinner
+    (~20:30–21:30) is a night scene: warm overhead light or a chandelier
+    in better-off homes, tube lights in plainer ones. Winter: a **gas
+    heater** glowing low by the wall. [MEDIUM — ceiling fans per design
+    sources and ENVIRONMENT; dinner time MEDIUM]
+  - *Palette:* cream and beige walls, **white or grey marble or
+    marble-chip (terrazzo) floors** with a patterned rug, a deep-coloured
+    sofa (maroon, brown, teal), dark wood.
+  - *Signature shapes (3–5):* the ceiling fan's blades; the long sofa
+    with cushions; the glass centre table; heavy curtains at a tall
+    window; the polished stone floor with a rug.
+  - *Density and wear:* tidy and slightly formal in the drawing room
+    (kept for guests); the dining room lived-in: a **clear plastic
+    cover** over the printed tablecloth, the hot pot, a fruit bowl.
+  - *People cues:* family members in shalwar kameez and dupattas, soft,
+    within the background-people limit.
+- **Shell:** a two- or three-storey flat-roofed brick and plaster house
+  (a 5- or 10-marla plot); marble, terrazzo or tile floors; high
+  ceilings; steel or wood-framed windows with grilles. [MEDIUM — marble
+  flooring per Lahore design sources; plot sizes and floors carried from
+  ENVIRONMENT]
+- **The table as set here:** a rectangular wooden dining table with a
+  **printed cloth under clear plastic**; ceramic or melamine plates; a
+  **hot pot** (insulated casserole) of roti; salan in a dish, raita, a
+  salad plate of cucumber, tomato and onion; spoons for rice. Upholstered
+  dining chairs. Or the **dastarkhwan** variant: a printed cotton or
+  plastic cloth on a floor rug, plates around it. (Home dinner and
+  Dastarkhwan registers.) [MEDIUM — registers]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lahore house's dining room with the drawing
+  room soft beyond, marble floor, ceiling fan, cream walls. Karachi: an
+  **apartment** in a block, smaller rooms, an AC unit on the wall, a
+  balcony door with sea haze. Islamabad: newer detached houses, larger
+  windows onto green lawns. Peshawar and KP: floor seating on carpets
+  and floor cushions more common, a courtyard beyond. Quetta: carpets,
+  floor cushions, a gas heater. North: timber ceilings, a stove at the
+  centre of the room. [LOW-MEDIUM; EDITORIAL]
+- **Hallucination traps:** India conflation (a puja corner, Hindu
+  iconography, a thali on a banana leaf, a sari); orientalist hanging
+  lanterns, hookahs and Moroccan poufs; a UK "curry house" with copper
+  balti dishes and tea lights; a placeless Gulf palace interior; chai
+  cups and a water jug on every table (models add them).
+- **Never stage:** chai, lassi, Rooh Afza, water jug or tumblers beside
+  the hero; legible calligraphy, Qur'an or prayer mat near the product;
+  alcohol; pork; brand marks; legible screens; a full flag.
+- **Prompt-ready line:** "A Lahore family dining room in soft focus:
+  cream walls and a polished white marble floor with a patterned rug, a
+  ceiling fan turning, heavy curtains at a tall grilled window, and a
+  velvet sofa set in the drawing room beyond."
+- **Confidence and sources:** MEDIUM (2023 Census via this file; Mohkam
+  Furnishers and Lahore interior-design sources; ENVIRONMENT markers);
+  colours editorial. 1 search this pass.
+
+### Venue: Roof BBQ (chhat; roof of a house)
+- **Use for:** home outdoor; the Eid ul-Adha BBQ, winter-night family
+  BBQs, winter-sun lunches (as a daytime variant), birthday and dawat
+  evenings; 1, 2 or a small group of settings inside a gathering of
+  10–30. The market's home outdoor default. [MEDIUM — Eid BBQ nights per
+  this file's Eid sources; roof setting carried from ENVIRONMENT]
+- **Soft background (the core):**
+  - *Back wall:* the **roof parapet**: a waist-high plastered brick wall,
+    sometimes with a jali (pierced) pattern, painted white or cream and
+    weathered; **water tanks** (black plastic or concrete) on stands; a
+    stair-tower door (mumty); neighbouring flat roofs at different
+    heights with their own tanks and dish antennas. [LOW-MEDIUM —
+    ENVIRONMENT exterior markers; not re-checked]
+  - *Middle distance:* the **angeethi** or a long charcoal grill with
+    seekh skewers and tikka, smoke drifting; a karahi on a gas ring;
+    **charpais** and plastic chairs; a rug or durrie on the floor.
+    [MEDIUM — angeethi on Lahore rooftops in winter and string lights
+    (rooftop venue guides; Paklite)]
+  - *Light:* night is the signature: **strings of warm fairy lights**
+    along the parapet or overhead; the grill's ember glow; a bare bulb
+    by the stair door; the city as scattered warm and white points
+    beyond. Daytime winter-sun variant: hazy pale-gold Punjab sun, birds
+    in the sky.
+    [MEDIUM — string lights as a Pakistani rooftop staple (Paklite)]
+  - *Palette:* night blue-black, warm bulb gold, ember orange, white
+    parapet, the woven colours of charpai rope.
+  - *Signature shapes (3–5):* the parapet line with fairy lights; a
+    charpai's rope weave; the smoking angeethi; water tanks against the
+    sky; neighbouring roofs.
+  - *Density and wear:* used and practical: a swept concrete or tiled
+    roof, a broom in the corner, laundry lines taken down for guests.
+  - *People cues:* the man at the grill and relatives in shawls (winter)
+    as soft shapes, within the limit.
+- **Shell:** the flat roof of a two- or three-storey house, concrete or
+  tiled, with a parapet; in older Lahore, roofs abut each other.
+- **The table as set here:** a folding or plastic table, or a durrie on
+  the floor with a dastarkhwan; seekh and tikka on a platter with naan,
+  onion rings, lemon wedges, green chutney and raita; steel or melamine
+  plates. Charpai or plastic-chair edge in frame. [LOW-MEDIUM; EDITORIAL]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lahore house roof at night with fairy lights
+  and an angeethi. Karachi: the apartment-block roof or a lawn; sea
+  breeze, less winter. Peshawar and KP: the **courtyard (sehan)** rather
+  than the roof. Islamabad: the lawn. **Eid ul-Adha:** never any animal,
+  carcass or raw meat in view (hard rule 3).
+- **Hallucination traps:** a US backyard grill and deck; Indian Diwali
+  diyas and rangoli; a hotel rooftop lounge with cocktails; Mughal
+  monuments as a backdrop (no Badshahi Mosque behind the hero);
+  kite-flying as the scene (this file does not cover Basant; its legal
+  status was not checked) [LOW — not verified].
+- **Never stage:** sacrificial animals or meat in raw piles; chai or
+  Rooh Afza beside the hero; legible signage on neighbouring buildings;
+  alcohol; a minaret near the product (distant blur at most).
+- **Prompt-ready line:** "A Lahore rooftop at night in soft focus: warm
+  fairy lights strung along a white parapet, smoke rising from a
+  charcoal angeethi, a rope charpai and black water tanks against the
+  dark sky, and the city's lights scattered beyond."
+- **Confidence and sources:** MEDIUM (Paklite, Lahore rooftop venue
+  guides, this file's Eid sources); roof architecture LOW-MEDIUM. 1
+  search this pass.
+
+### Venue: Karahi/tikka restaurant (karahi restaurant; "family hall")
+- **Use for:** restaurant, indoor or open-front; dinner and late lunch,
+  2–3 people or a family; the everyday urban eat-out. The national
+  default casual sit-down restaurant. [MEDIUM — register; Away from home
+  2–3 scenario]
+- **Soft background (the core):**
+  - *Back wall:* the **open kitchen line** at the front or side: rows of
+    blackened **karahis on high gas flames**, a cook tossing tomatoes and
+    chicken, flames and steam; a **tandoor** with a naan-maker; a charcoal
+    grill with tikka and seekh. Inside, walls of **ceramic tiles**,
+    painted plaster or mirror panels, a framed picture. [LOW — not
+    verified this pass (the search returned diaspora branches only);
+    karahi on flame and tandoor per the file's registers]
+  - *Middle distance:* other tables of families and groups; waiters in
+    plain shirts or uniform waistcoats carrying karahis on stands; a
+    **family hall** partitioned from the men's or open seating; a cash
+    counter as a soft block. [LOW-MEDIUM — family sections per GENERAL
+    NORMS]
+  - *Light:* bright **white tube lights or LED panels** inside (these
+    places are brightly lit, not moody) [LOW — not verified]; the orange
+    of gas flames at the kitchen line; open-front versions: night street
+    with bulbs and smoke.
+  - *Palette:* white tile and bright light, black karahi iron, flame
+    orange, tomato-red gravy, green chilli.
+  - *Signature shapes (3–5):* the row of karahis on flames; steam and
+    smoke; the tandoor's round mouth; tables in rows; a karahi on its
+    stand at the next table.
+  - *Density and wear:* busy, loud, clean, well-used.
+  - *People cues:* families and groups in shalwar kameez, soft, within
+    the limit.
+- **Shell:** a street-front restaurant, often on two floors, with the
+  kitchen at the street; tiled floors. [LOW — not verified]
+- **The table as set here:** a tiled or laminate table, sometimes with a
+  plastic cover; the **karahi brought to the table in its own pan on a
+  stand**; naan in a basket; a plate of sliced onion, lemon and green
+  chilli; raita in a small bowl; steel or melamine plates and spoons.
+  [MEDIUM — register]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lahore karahi restaurant with an open kitchen
+  line and a bright family hall. Peshawar: Namak Mandi karahi in lamb
+  fat, a plainer room, men-only seating more common, carpets and floor
+  seating upstairs in some places. Islamabad and Rawalpindi: highway
+  karahi spots and newer family restaurants. Karachi: the same form plus
+  BBQ houses. [LOW-MEDIUM]
+- **Hallucination traps:** a UK or US "Pakistani/Indian restaurant" with
+  white tablecloths, copper balti dishes, wine glasses and sitar
+  posters; an Indian dhaba with Hindu iconography; moody dark lighting
+  with candles; a Turkish kebab house.
+- **Never stage:** chai, lassi, Rooh Afza or water jugs beside the hero;
+  legible menus, boards or price lists; brand marks on fridges or
+  chairs; calligraphy near the product; alcohol.
+- **Prompt-ready line:** "A busy Lahore karahi restaurant in soft
+  focus: a row of black karahis over high gas flames with steam rising
+  at the open kitchen, a naan-maker at the tandoor, and bright white
+  light over tiled walls and family tables."
+- **Confidence and sources:** LOW-MEDIUM; the search found no usable
+  Lahore interior description; built from the file's register and
+  scenarios. 1 search this pass.
+
+### Venue: GT Road dhaba (dhaba; truck stop)
+- **Use for:** restaurant or on-the-go, outdoor; lunch or dinner on a
+  journey, 1 person (Away from home 1 person) or 2–3; the market's
+  default roadside venue. [HIGH — Wikipedia (Dhaba), Roads & Kingdoms,
+  Smithsonian]
+- **Soft background (the core):**
+  - *Back wall:* the **tandoor**, a clay oven set in a brick or mud
+    plinth, a man slapping dough inside it; a **karahi on a high flame**;
+    big aluminium degs; a low brick or mud-plastered structure with a
+    **corrugated-iron or reed awning**. [HIGH — dhabas centred on a
+    tandoor, historically mud structures with charpai (Wikipedia, Roads &
+    Kingdoms); register]
+  - *Middle distance:* **charpais** (rope-strung cots) used as seats,
+    with a low table or a plank across them; plastic chairs; parked
+    **trucks** with their elaborate painted panels, wooden frames,
+    metalwork and hanging chains as a glittering colour field (lettering
+    blurred). [HIGH for truck art at dhabas — Atlas Obscura, The Wire;
+    keep all painted text illegible]
+  - *Light:* hard daylight with **dust haze** in the plains; shade under
+    the awning; at night, bare bulbs and a tube light, truck headlights
+    as bokeh, the tandoor's glow. [EDITORIAL]
+  - *Palette:* dust-beige, brick and mud brown, steel, the jewel colours
+    of truck art, the rope colours of charpais.
+  - *Signature shapes (3–5):* the tandoor's mouth with a figure; charpai
+    rope weave; painted truck panels; a karahi on flame; the awning edge.
+  - *Density and wear:* rough, functional, well-used; clean plates.
+  - *People cues:* drivers and the cook, men in shalwar kameez, soft,
+    within the limit; men-only is realistic.
+- **Shell:** a roadside lot beside the highway, packed earth or concrete,
+  a low building and awning. [HIGH — Wikipedia (Dhaba)]
+- **The table as set here:** the charpai or a low table; **large steel
+  plates**; daal and a small karahi; roti in a cloth-lined basket; a plate
+  of onion and green chilli. [HIGH — register and scenario sources]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a GT Road dhaba in the Punjab plains. KP and
+  the north: dhabas on mountain roads with river and slopes behind.
+  Motorway service areas: modern food courts (not a dhaba). The **chai
+  dhaba** is a separate venue (GAME NIGHT), never staged with chai
+  beside the hero.
+- **Hallucination traps:** an Indian Punjabi dhaba with Sikh or Hindu
+  iconography, a turbaned Sikh cook, "Amritsari" signage; a US truck
+  stop diner; a desert with camels (orientalist); poverty framing.
+- **Never stage:** chai glasses or the kettle beside the hero; legible
+  truck lettering, number plates or signs; alcohol; brand marks.
+- **Prompt-ready line:** "A Punjab roadside dhaba in soft focus: a cook
+  at a clay tandoor under a corrugated awning, rope charpais in dusty
+  daylight, and a parked truck's brightly painted panels glittering
+  beyond."
+- **Confidence and sources:** HIGH for the form (Wikipedia, Roads &
+  Kingdoms, Atlas Obscura); light and palette editorial. 1 search this
+  pass.
+
+### Venue: Wedding marquee or shadi hall (marquee, shadi hall)
+- **Use for:** "other"; baraat and walima dinners, mehndi; 1, 2 or a
+  small group of settings at one arc of a round table inside a crowd of
+  hundreds. The market's signature event venue. [MEDIUM — Lahore
+  marquee and hall listings and decor guides (Peony Events, Tulips
+  Events, Altuaam); this file's wedding entry]
+- **Soft background (the core):**
+  - *Overhead and back wall:* the marquee's draped **fabric ceiling**
+    (white, ivory or coloured swags) or a hall's ceiling with **crystal
+    chandeliers**; a **fairy-light canopy** of warm-white bulbs in a
+    mesh, especially at mehndi and outdoor events; floral ceilings in
+    newer venues. [MEDIUM — Altuaam, Tulips Events]
+  - *Middle distance:* rows of **round tables** with cloths and covered
+    chairs; the **stage** far behind as a bright, flower-banked block
+    with uplighting (the couple never identifiable); the **buffet line**
+    of chafing dishes or degs on stands; waiters in uniform. [MEDIUM —
+    decor guides; buffet per the wedding entry]
+  - *Light:* warm, bright and layered: chandeliers, fairy lights, LED
+    uplights in pink, gold or blue; evening only (Punjab functions end by
+    10 pm). [MEDIUM — 10 pm limit HIGH per the wedding entry]
+  - *Palette:* white and gold with the event colour (red and gold for
+    baraat, **yellow, green and marigold orange for mehndi**, pastels or
+    silver for walima); guests' embroidered clothes as rich blur.
+  - *Signature shapes (3–5):* chandelier or fairy-light canopy; the
+    bright stage block; round tables receding; chafing dishes; marigold
+    strings (mehndi).
+  - *Density and wear:* dressed, glossy, crowded.
+  - *People cues:* guests in formal shalwar kameez and embroidered
+    dupattas, soft, within the limit; men and women may sit in separate
+    sections in conservative families.
+- **Shell:** a purpose-built marquee (a permanent tent-like hall) or a
+  banquet hall, carpeted or tiled; a shamiana on a lawn or street for
+  home weddings. [MEDIUM — venue listings]
+- **The table as set here:** a round table with a cloth; hired white
+  crockery, spoon and fork; a plate of biryani or pulao with a qorma
+  piece, naan, salad; in Punjab, **one salan, one rice, one sweet**
+  (Marriage Functions Act, wedding entry). [HIGH for the Act; menu MEDIUM]
+- **Subregional variants and the national default:** national default
+  when nothing is named: a Lahore marquee with draped ceiling, fairy
+  lights and round tables. Karachi: banquet halls and lawns. Mehndi:
+  floor cushions, yellow-green decor, marigolds. KP and Balochistan:
+  more gender-separated halls. Home weddings: a **shamiana** (printed
+  tent cloth, often red-and-white or multicoloured patchwork) on a lawn
+  or closed street, with the house facade strung with lights.
+- **Hallucination traps:** Indian wedding iconography (sacred fire,
+  mandap, sindoor, garlands of money); a Western white wedding with
+  champagne; a ten-dish buffet in a Punjab hall (breaks the one-dish
+  rule); mixed-gender dancing as the scene.
+- **Never stage:** money garlands or cash; alcohol; mixed-gender dancing
+  near the product; Rooh Afza or soft-drink cups other than the hero;
+  banners with names; identifiable children.
+- **Prompt-ready line:** "A Lahore wedding marquee at night in soft
+  focus: draped fabric ceiling with a canopy of warm fairy lights and
+  crystal chandeliers, round tables with covered chairs receding, and a
+  flower-banked stage glowing far behind."
+- **Confidence and sources:** MEDIUM (Lahore venue and decor guides;
+  this file's wedding entry and the Act); colours by event editorial. 1
+  search this pass.
+
 ---
 
 ## TRUSTED CONTENT
@@ -2624,6 +2949,13 @@ No green tea glasses, no legible signage."
   lockdown-era story (Arab News Pakistan) and inherits the open iftar
   decision; carrom and the mehndi card game are unverified. Football
   viewing was not researched (rated low).
+- **Venue-profile pass (2026-10-01) open items.** Unverified background
+  details: the karahi restaurant's interior (bright tube lighting, tiled
+  walls, two-floor layout; the search returned only diaspora branches);
+  roof architecture (parapet, mumty, tank placement); dining-room
+  fittings beyond trade-site evidence; regional variants for Peshawar,
+  Quetta and the North; shamiana colours. Food street, chai dhaba and
+  Karachi apartment not yet profiled (later wave).
 
 ## CANDIDATE QUEUE
 
@@ -2703,3 +3035,4 @@ No green tea glasses, no legible signage."
   (ludo with family, carrom with cousins; popularity medium). The iftar
   staging rule and boycott note left untouched; the after-iftar ludo
   variant is gated on them. No subagents.
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (house drawing and dining room, roof BBQ, karahi/tikka restaurant, GT Road dhaba, wedding marquee or shadi hall). Iftar rule and boycott note untouched. No subagents.

@@ -59,6 +59,229 @@ item, not confined to a morning meal.
 | **Burns Night / haggis-serving occasion** | A special-occasion register (25 January) — haggis presented whole before being cut, with a more ceremonial framing than its everyday pub/chip-shop appearance; use only when a brief specifically calls for the occasion, not as haggis's only register. |
 | **Football-ground/bakery snack counter** | A walk-up counter or high-street bakery selling the Scotch pie (see entry) as a hot snack, distinct from a sit-down meal. |
 
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES — regional deltas from `uk.md`
+
+Schema §5.9 applies. `uk.md`'s VENUE PROFILES hold the national baseline
+(kitchen-diner, living room for takeaway or watch party, back garden,
+gastropub, traditional pub, chippy) and apply in Scotland except where a
+profile below replaces or amends them. Wave 1 (2026-10-01): five profiles
+for the most Scotland-specific staged venues. Default zone: urban central
+belt (Glasgow or Edinburgh), per ZONE CHARACTERIZATION; when a brief names
+Scotland but no city, use the Glasgow-or-Edinburgh tenement reading for
+homes and `uk.md`'s national default for everything not covered here.
+File-wide rules hold: nothing legible, no alcohol cues (whisky is the
+Scotland-specific prior), no brand marks, never a full Saltire, no
+identifiable children, no more than about 2.5 background faces, none
+sharp; the brief dictates the SKU.
+
+#### Venue: Sandstone tenement flat kitchen (home, indoor)
+- Use for: home indoor; casual lunch, dinner, Hogmanay and New Year's Day
+  dinner, a Burns supper at home, Scottish football at home (the living
+  room of the same flat); 1 to small group. Replaces `uk.md`'s
+  kitchen-diner as the Scotland default home interior in the cities
+  [HIGH for tenements as the dominant historic urban type, see ENVIRONMENT
+  deltas].
+- Soft background (the core): what reads first is height: ceilings of
+  about 2.7 to 3 m, so the back wall shows a band of plain plaster above
+  the units and a moulded cornice line at the top; one tall timber sash
+  window dominates a wall, painted white, with deep stone reveals and
+  a view onto the back court (a shared green or paved yard, washing
+  lines, the rear walls of the opposite tenement block in red or honey
+  sandstone with rows of identical sash windows) [MEDIUM-HIGH — NTS
+  tenement guide; Glasgow kitchen-fitter guides on long, narrow kitchens
+  with one dominant sash window]. The kitchen is often long and narrow,
+  units along one wall; an old bed recess (an alcove from floor to
+  ceiling) is commonly reused as a dining nook or for a fridge and
+  shelves, so the table can sit framed by the recess [MEDIUM — NTS
+  Tenement House; British Listed Buildings]. Kettle, toaster and
+  front-loading washing machine as in `uk.md`. A white cast-iron or
+  panel radiator under the sash. Light: tall, cool, grey-white northern
+  daylight through the sash, falling off fast into the room; in winter
+  dark by about 15:45 to 16:00, so evening scenes are lamp and pendant
+  light against a black window with lit windows of the opposite block as
+  small warm rectangles. Palette: off-white walls, honey or red stone
+  through the glass, painted timber, pale wood floor. Signature shapes:
+  the tall sash with its horizontal glazing bar, the cornice line, the
+  stone back-court wall with grid of windows, the deep window reveal.
+  Density: lived-in, often a shared flat for a young cast.
+- Shell: 1840 to 1920 sandstone tenement, three or four storeys, flat
+  reached by a shared close and common stair; original pine floorboards
+  or later vinyl; high ceilings with cornicing [HIGH, ENVIRONMENT deltas].
+- The table as set here: as `uk.md`'s kitchen-diner (a small wooden or
+  white table, placemats or bare, everyday stoneware); for Hogmanay or
+  Burns, a cloth and the good plates (see CELEBRATIONS).
+- Subregional variants and the national default: Glasgow: red sandstone
+  back courts. Edinburgh: paler honey or grey stone, maindoor flats on the
+  ground floor. Aberdeen: grey granite (not verified this pass). Rural and
+  small-town Scotland: a harled (roughcast) cottage or modern semi; use
+  `uk.md`'s kitchen-diner with grey hills or harled walls through the
+  window [MEDIUM, see GAP LOG].
+- Hallucination traps: an English brick terrace with a fenced lawn; a
+  stone castle or baronial hall interior; tartan everywhere in an
+  everyday kitchen; Highland cattle or lochs through a city window;
+  low-ceilinged cottage beams in a tenement.
+- Never stage: whisky bottles or glasses; legible notices; a full
+  Saltire.
+- Prompt-ready line: "A Glasgow tenement flat kitchen: the table sharp in
+  front, behind it a tall white sash window with deep stone reveals
+  showing a red-sandstone back court, high plaster walls under a cornice
+  and grey northern daylight, all softly blurred."
+- Confidence and sources: MEDIUM-HIGH; one search ([NTS — exploring
+  Glasgow tenements](https://www.nts.org.uk/stories/a-guide-to-exploring-glasgow-tenements);
+  [Kitchen Fitters Glasgow — small tenement kitchens](https://kitchenfittersglasgow.com/guides/small-kitchen-ideas-tenement),
+  trade tier; [British Listed Buildings — The Tenement House](https://britishlistedbuildings.co.uk/200402839-the-tenement-house-flat-12-145-buccleuch-street-glasgow-glasgow))
+  plus the ENVIRONMENT delta sources.
+
+#### Venue: Scottish chippy (delta to `uk.md` chippy)
+- Use for: meal on the go and small sit-in; a fish supper; 1 or 2. As
+  `uk.md`'s chippy profile in every background element (steel range,
+  heated cabinet, tiles, high illegible menu board, night street through
+  the glass).
+- Soft background (the core), delta only: on the counter, a chippy-sauce
+  bottle or pump dispenser of thinned brown sauce sits beside the vinegar
+  bottle (Edinburgh salt-and-sauce), with the label turned away
+  [HIGH — Quick-Reference above]; in the warming cabinet, haddock rather
+  than cod, plus deep-fried pies and battered sausages, and in some shops
+  a battered haggis or black pudding [MEDIUM, catalog]. Outside the glass:
+  a sandstone tenement street at night, the shop at street level beneath
+  three or four storeys of flats, wet pavement, cool-white street lights.
+- Hallucination traps: as `uk.md`; plus a deep-fried chocolate bar as the
+  hero (a novelty cliché), tartan or bagpipe decor in the shop.
+- Never stage: as `uk.md`; Irn-Bru-style or other branded soft-drink
+  fridges and cans (intruder brands).
+- Prompt-ready line: "An Edinburgh chippy at night: a fish supper in white
+  paper sharp on the counter beside a vinegar bottle and a sauce bottle,
+  behind it a blurred stainless frying range, a warm-lit cabinet of
+  battered haddock and the dark tenement street through the glass."
+- Confidence and sources: MEDIUM; no new search (uses this file's sourced
+  chippy and salt-and-sauce entries).
+
+#### Venue: Scotch-pie bakery counter (street, on the go)
+- Use for: meal on the go; a hot Scotch pie or bridie bought at a
+  high-street bakery and eaten outside or carried; Scottish football
+  match day on the way to a game; 1. Scotland's most distinctive daytime
+  on-the-go venue (see Quick-Reference: Football-ground/bakery snack
+  counter; catalog: Scotch pie).
+- Soft background (the core): a long glass-fronted counter with heated
+  and chilled sections: rows of pale, straight-sided round pies with
+  their raised rims, sausage rolls, bridies (D-shaped pasties), filled
+  rolls, and above or behind on wooden or steel shelving, trays of
+  morning rolls, plain loaves and cream cakes, tablet and empire biscuits
+  as small coloured shapes; a hot cabinet's warm glow; white or pale
+  tiled walls; a hand-written price card on each tray (illegible);
+  staff in white or pastel tabards and hairnets; a short queue of
+  blurred coats [LOW — not verified at source: the search found pie-shop
+  guides naming Glasgow family bakers but no description of the counter
+  layout; built from the Scotch pie catalog entry and general knowledge].
+  Light: bright cool shop lighting, the warm cabinet glow; outside the
+  shop glass, a grey high street. Palette: golden pastry, white tile,
+  glass and steel, pastel tabards. Signature shapes: stacked rows of round
+  straight-walled pies, the glass counter curve, the paper bag.
+- Shell: a small high-street or parade unit with a large shop window;
+  family bakery more than chain (genericize any chain look) [EDITORIAL].
+- The table as set here: none; the pie in a small paper bag or on a paper
+  napkin, held over a wall or bench per §7.5, or eaten from the hand on
+  a cold street, breath visible in winter.
+- Subregional variants and the national default: Glasgow and the west
+  (morning rolls, Scotch pies); Forfar and Angus (bridies); football
+  grounds (a kiosk hatch with pies in foil trays, the stand roof blurred;
+  never crests or sponsor boards). National default: a town high-street
+  family bakery at midday.
+- Hallucination traps: an English chain-bakery look with corporate
+  branding; a French pâtisserie; a pie as a big pub-style pie with a
+  domed lid (the Scotch pie is small, straight-sided, with a recessed
+  lid).
+- Never stage: chain branding, legible price cards, Bovril or other
+  intruder drinks, club crests at a ground.
+- Prompt-ready line: "A Scottish high-street bakery at midday: a hot
+  Scotch pie in a paper bag sharp in the foreground, behind it a softly
+  blurred glass counter with rows of round straight-sided pies, trays of
+  rolls on shelving and white tiled walls."
+- Confidence and sources: LOW for the counter (one search, no layout
+  description: [GlasgowWorld — traditional pie shops](https://www.glasgowworld.com/lifestyle/food-and-drink/6-of-the-best-traditional-old-school-pie-shops-in-glasgow-including-alex-fergusons-favourite-4833627));
+  HIGH for the pie itself (catalog).
+
+#### Venue: Scottish traditional pub (delta to `uk.md` traditional pub)
+- Use for: restaurant, indoor; pub lunch, a Burns Night pub menu, a
+  food-led screening (see `uk.md` GAME NIGHT); 1 to small group. As
+  `uk.md`'s traditional pub, with Scottish fittings.
+- Soft background (the core), delta only: the signature is the
+  **gantry**, a tall carved dark-wood fitting behind the bar, often with
+  a mirrored centrepiece, and in many Victorian and Edwardian pubs an
+  **island bar** in the middle of the room with its superstructure rising
+  toward a richly plastered ceiling; painted tile murals, a mosaic or
+  marble floor and a panelled dado in the grand city pubs [MEDIUM —
+  CAMRA Scotland real heritage pubs guide; Culture Trip and pub-history
+  sources]. In the frame, the gantry must read only as dark carved wood
+  and soft mirror glints: real gantries hold spirit casks and bottles and
+  carry advertising mirrors, all of which must be out of focus to the
+  point of abstraction or cropped out. Outside the windows: a sandstone
+  street. Palette: mahogany, brass, cream and oxblood tile.
+- Hallucination traps: as `uk.md`; plus tartan carpet and stag heads
+  everywhere (a hotel-lounge cliché), a whisky wall as the backdrop,
+  bagpipes on the wall.
+- Never stage: spirit casks, whisky bottles, optics, the dram, advertising
+  mirrors with legible names; as `uk.md`.
+- Prompt-ready line: "A Victorian Scottish pub: a small dark table sharp
+  in front, behind it the tall carved mahogany gantry of an island bar
+  reduced to a warm dark blur with soft mirror glints, cream-and-oxblood
+  tiles and brass lamp glows."
+- Confidence and sources: MEDIUM; one search ([CAMRA — Scotland real
+  heritage pubs guide](https://camra-phg.s3-eu-west-1.amazonaws.com/pub_guides/Scotland.pdf);
+  [Culture Trip — traditional pubs in Edinburgh](https://theculturetrip.com/europe/united-kingdom/scotland/articles/best-traditional-pubs-edinburgh)).
+
+#### Venue: Burns Supper in a hall or function room (other)
+- Use for: other (community hall, club, hotel function room); Burns Night
+  formal supper; 1, 2 or a small group as a snapshot of 30 to 150 guests
+  (see CELEBRATIONS: Burns Night).
+- Soft background (the core): long trestle or round tables receding under
+  white cloths with tartan runners or tartan cloths, so the middle
+  distance is a repeating pattern of white and muted tartan bands with
+  candle flames as small warm bokeh points; tall tapered candles in
+  candlesticks or candelabra; small arrangements of heather or thistles
+  in baskets or jars [MEDIUM — Lochcarron and Scotland Shop Burns Night
+  guides (retail tier); village-hall newsletter account of heather and
+  tartan]. Behind: a village hall's painted or timber-clad walls with
+  a small stage at the far end (curtains drawn), or a hotel function
+  room's patterned carpet and chandeliers; a blurred piper's shape or
+  bagpipe drones at the far end; guests in a mix of kilts and evening
+  wear as blurred dark shapes with flashes of tartan. Light: evening,
+  dark outside the tall windows; warm candlelight on the tables against
+  cooler hall lighting or warm chandelier glow. Palette: white linen,
+  muted tartans (green, navy, red), candle amber. Signature shapes: the
+  long candle-lit table running out of frame, the tartan runner, the
+  domed haggis on its platter, heather sprigs, the drone silhouettes of
+  the pipes.
+- Shell: a community or church hall (high ceiling, wooden floor, stacked
+  chairs at the edge) or a hotel function room [EDITORIAL].
+- The table as set here: white cloth, tartan runner, full cutlery for a
+  three- or four-course meal, a side plate with oatcakes, the haggis
+  platter mid-table, the hero serve per the brief; a closed poetry book
+  at the edge (see CELEBRATIONS).
+- Subregional variants and the national default: a home Burns supper
+  uses the tenement kitchen profile with a tartan runner and candles.
+  National default: a village or community hall supper.
+- Hallucination traps: castle banqueting halls with suits of armour;
+  "Braveheart" claymores and face paint; Highland cattle and Loch Ness
+  motifs; clan crests and full Saltires as decor; tartan applied to every
+  surface.
+- Never stage: whisky (glasses at every place, the dram poured over the
+  haggis, a quaich, a bottle on the table); legible clan crests, menus or
+  place cards; a full Saltire; identifiable children.
+- Prompt-ready line: "A Burns Supper in a Scottish village hall at night:
+  one plated haggis, neeps and tatties sharp at the near end, behind it a
+  long white-clothed table with a tartan runner and candle flames
+  receding into soft bokeh, heather sprigs and the blurred drones of a
+  piper far behind."
+- Confidence and sources: MEDIUM-LOW; one search, retail-tier decor
+  guides ([Lochcarron — throwing a Burns Supper](https://www.lochcarron.co.uk/our-journal/our-guide-to-throwing-a-burns-supper/);
+  [ScotlandShop — Burns Night table](http://www.scotlandshop.com/c-80-the-burns-night-table.aspx?locale=en-US));
+  EDITORIAL for staging.
+
 ---
 
 ## ZONE CHARACTERIZATION
@@ -635,6 +858,13 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   home viewing food, the Calcutta Cup as the peak, and the Old Firm
   sectarian-colours rule (flagged for a human reviewer).
 
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** The
+  Scotch-pie bakery counter layout is LOW (no source described it); the
+  Burns Supper hall decor rests on retail-tier guides; Aberdeen granite
+  and the rural harled-cottage kitchen variant are not verified; the
+  Scottish pub gantry and island bar are MEDIUM (CAMRA heritage guide via
+  search summary). No pages read at source.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated Aberdeen/Dundee/Highlands callout, if a future pass finds
@@ -675,3 +905,8 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   entries (Scottish football at home with the Old Firm never-stage rule;
   Scotland in the Six Nations) and a one-line note that social game
   nights follow `uk.md`.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 4
+  searches.** Added VENUE PROFILES (regional deltas from `uk.md`) after
+  the QUICK-REFERENCE table: tenement flat kitchen, Scottish chippy
+  (delta), Scotch-pie bakery counter, Scottish traditional pub (delta),
+  Burns Supper hall. WebSearch only.
