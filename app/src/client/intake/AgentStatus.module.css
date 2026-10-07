@@ -1,0 +1,33 @@
+.retryRow {
+  margin-top: 10px;
+}
+
+.cardsWrap {
+  container-type: inline-size;
+}
+
+/* Same grid as the option cards (ui/ChoiceCard). */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+@container (max-width: 520px) {
+  .cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Same stack as the list-layout option rows. */
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.rows > * {
+  border-radius: var(--app-card-radius);
+}

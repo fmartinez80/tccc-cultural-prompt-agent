@@ -1,0 +1,70 @@
+{
+  "$comment": "Camera presets. Operators pick a plain-language look; the lens, aperture and focus behind it are hidden. Technical values are PLACEHOLDERS until the team settles the final lenses. The structure is final. Earlier draft values (50mm f/2.8, 35mm f/1.4, 15mm ultra-wide) are in git history, commit 1520fc2.",
+  "version": "0.1-placeholder",
+
+  "model_framing": {
+    "$comment": "Field-of-view factor for the proxy handed to the image model. Tried 1.25 to offset Nano Banana 2 drawing objects larger than their shapes; it had no effect (the model sizes the front plate at about 43% of the frame regardless), so it is back to 1 and the prompt states the scale in real-world terms instead (story.ts scaleSentence).",
+    "widen": 1
+  },
+
+  "look": {
+    "$comment": "One dropdown. Each preset bundles lens + aperture + focus so users never choose an f-stop. The lens and the film look are stated once by the photodocumentary sentence (story.ts filmSentence, using focal_length_mm), so a final prompt here covers only aperture, focus and food texture.",
+    "default": "close-hero",
+    "options": [
+      {
+        "id": "close-hero",
+        "label": "Close-up hero",
+        "help": "Tight on the meal and the bottle, background melts away.",
+        "prompt": "Shot at f/2.0, sharp focus on the foreground elements on the table, with crisp edge detail on the beverage bottle and plated food. Smooth, rapid focus fall-off softly blurring the background immediately past the table edge. Food looks real and freshly made: natural textures, visible char, crumbs, moisture and small imperfections, with soft natural highlights, never glossy, waxy or plastic-looking.",
+        "hidden": { "focal_length_mm": 50, "aperture": "f/2.0", "focus": "the whole table setting, including the Coca-Cola product; blur begins just past the table's far edge", "focus_distance_m": "auto" },
+        "status": "final"
+      },
+      {
+        "id": "table-context",
+        "label": "Table in context",
+        "help": "The whole table setting, with a hint of the room or place around it.",
+        "prompt": "[TABLE_CONTEXT_PROMPT]",
+        "hidden": { "focal_length_mm": 35, "aperture": "TBD", "focus": "main dish and bottle (and glass, when present)", "focus_distance_m": "auto" },
+        "status": "placeholder"
+      },
+      {
+        "id": "wide-scene",
+        "label": "Wide scene",
+        "help": "The meal inside its environment: street, patio, restaurant.",
+        "prompt": "[WIDE_SCENE_PROMPT]",
+        "hidden": { "focal_length_mm": 15, "aperture": "TBD", "focus": "main dish and bottle (and glass, when present)", "focus_distance_m": "auto" },
+        "constraints": { "sku_min_distance_from_frame_edge_pct": 15 },
+        "status": "placeholder"
+      }
+    ]
+  },
+
+  "angle": {
+    "default": "diners-eye",
+    "options": [
+      { "id": "low",        "label": "Low, near eye level",   "prompt": "[LOW_ANGLE_PROMPT]",        "hidden": { "pitch_deg": 15 }, "status": "placeholder" },
+      { "id": "diners-eye", "label": "Diner's eye (default)", "prompt": "[DINERS_EYE_ANGLE_PROMPT]", "hidden": { "pitch_deg": 30 }, "status": "placeholder" },
+      { "id": "high",       "label": "Looking down",          "prompt": "[HIGH_ANGLE_PROMPT]",       "hidden": { "pitch_deg": 45 }, "status": "placeholder" }
+    ],
+
+    "recommendations": {
+      "$comment": "Recommended angle by entree, shown on the Camera step and preselected until the operator picks one. Dish words are checked first (whole words, any case, plurals included) against the hero dish and the chosen preparation; the first rule with a matching word wins. When no word matches, the agent's food silhouette (Preparation massClass) and the main vessel (Plating vessel) decide, in rule order. Nothing matching means the default angle.",
+      "rules": [
+        {
+          "angle": "low",
+          "reason": "Tall, layered food reads best from low, nearly at profile, so the camera sees its height and every layer.",
+          "match": ["burger", "hamburger", "cheeseburger", "sandwich", "sub", "hoagie", "torta", "bocadillo", "panini", "club", "toastie", "butty", "bap", "banh mi", "taco", "burrito", "kebab", "doner", "gyro", "shawarma", "arepa", "stack", "pancake", "layer cake", "sliders"],
+          "massClass": ["stacked"]
+        },
+        {
+          "angle": "high",
+          "reason": "Soups, stews and bowls read best from above, looking down into the bowl so the surface, broth and toppings show.",
+          "match": ["soup", "stew", "broth", "ramen", "pho", "laksa", "chowder", "bisque", "gumbo", "goulash", "curry", "dal", "dhal", "congee", "porridge", "chili", "pozole", "menudo", "caldo", "sopa", "bowl", "poke", "bibimbap", "salad", "pizza", "paella", "risotto"],
+          "vessels": ["bowl", "large-bowl", "casserole", "paellera"]
+        }
+      ]
+    }
+  },
+
+  "prompt_order": ["scene_genre", "subject", "angle", "look", "lighting", "sku_light"]
+}

@@ -1,0 +1,23 @@
+{
+  "$comment": "Dishware variety rules (team style guide). Country files document each vessel's type and size, but rarely its material or color, and tableware-composition-reference.md §5 (regional overrides) is still a placeholder, so without this the image model defaults every bowl and ramekin to plain white. The agent gives every vessel a vesselStyle following these rules; the story states it next to the vessel's size. When a country file documents a tableware tradition, it wins over these defaults.",
+  "version": "0.1",
+  "rules": [
+    "Never default to plain white. Side bowls, small bowls, ramekins and sauce boats are never plain white or off-white.",
+    "The main plate may be plain white or cream only when the knowledge base documents it for this kind of place (for example a formal restaurant); otherwise give it a colored, speckled, reactive or patterned glaze, or a natural material.",
+    "Mix it up across the table: at least two different materials or colors, and no more than two pieces in the same glaze. Pieces should look like they belong together, not like a matched catalog set.",
+    "Draw on the region's own tableware and craft traditions when the knowledge base names them (for example Talavera, terracotta cazuelas, enamelware, lacquer, woven baskets). If it doesn't, choose something plausible for the place and say it is general knowledge.",
+    "Match the venue: at home, everyday pieces that feel collected over time; at a restaurant, the house set, in a color; on the go, the real disposable or street-food container (paper boat, foil, kraft tray, melamine).",
+    "Keep colors from competing with the Coca-Cola red: no saturated red or orange tableware. Earthy tones, blues, greens, cream-speckled stoneware, charcoal, natural wood, enamel and woven fibers all work.",
+    "Matte or satin finishes only, never high-gloss (glossy glaze throws hot spots under studio light)."
+  ],
+  "examples": [
+    "speckled oatmeal stoneware with a darker brown rim",
+    "hand-painted blue-and-white Talavera",
+    "glazed terracotta, unglazed on the outside",
+    "sage-green matte ceramic",
+    "charcoal reactive-glaze stoneware",
+    "speckled blue enamelware with a navy rim",
+    "pale olive-wood",
+    "kraft paper boat"
+  ]
+}

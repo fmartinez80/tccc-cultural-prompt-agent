@@ -1,0 +1,16 @@
+.section {
+  margin-bottom: 24px;
+}
+
+.title {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: var(--bay-text);
+}
+
+.description {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--bay-text-3);
+}

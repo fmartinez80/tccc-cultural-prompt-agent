@@ -1,0 +1,150 @@
+.card {
+  position: absolute;
+  width: 340px;
+  background: var(--neo-card);
+  border: var(--neo-border);
+  border-radius: var(--bay-r-md);
+  box-shadow: var(--neo-shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.card[data-selected] {
+  box-shadow: var(--neo-shadow), 0 0 0 3px var(--neo-selected);
+}
+
+.card[data-dimmed] {
+  opacity: 0.6;
+}
+
+.card[data-dimmed] .header {
+  background: var(--neo-hatch), var(--neo-paper);
+}
+
+.card[data-collapsed] .header {
+  border-bottom: none;
+  border-radius: var(--bay-r-md);
+}
+
+.toggle {
+  display: flex;
+  flex-shrink: 0;
+  margin: -4px -4px -4px -6px;
+}
+
+.body[hidden] {
+  display: none;
+}
+
+.card[data-dragging] {
+  box-shadow: var(--neo-shadow-active);
+  z-index: 5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-bottom: var(--neo-border);
+  cursor: grab;
+  border-radius: calc(var(--bay-r-md) - 3px) calc(var(--bay-r-md) - 3px) 0 0;
+  background: var(--neo-paper);
+  user-select: none;
+  touch-action: none;
+}
+
+.card[data-selected] .header {
+  background: var(--neo-selected);
+}
+
+.card[data-selected] :is(.title, .grip) {
+  color: var(--neo-on-selected);
+}
+
+.header:active {
+  cursor: grabbing;
+}
+
+.header:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: -3px;
+}
+
+.grip {
+  color: var(--neo-ink);
+  flex-shrink: 0;
+}
+
+.headText {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+  flex: 1;
+}
+
+.chip {
+  align-self: flex-start;
+  font-family: var(--bay-font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--neo-ink);
+  background: var(--neo-card);
+  border: var(--neo-border-thin);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+
+.title {
+  font-family: var(--app-font-head);
+  font-size: 13px;
+  letter-spacing: -0.01em;
+  color: var(--neo-ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badges {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.badge {
+  font-family: var(--bay-font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: var(--neo-border-thin);
+  background: var(--neo-hover);
+  color: var(--neo-ink);
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.body {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note {
+  margin: 0;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-3);
+}

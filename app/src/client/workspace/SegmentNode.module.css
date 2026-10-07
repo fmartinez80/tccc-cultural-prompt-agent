@@ -1,0 +1,141 @@
+.previewBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.previewFrame {
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  background: var(--bay-bg-subtle);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.previewButtonFrame {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  cursor: zoom-in;
+  background: none;
+}
+
+.previewButtonFrame:focus-visible {
+  outline: 2px solid var(--bay-border-focus);
+  outline-offset: 2px;
+}
+
+.previewImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.emptyPreview,
+.broken {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-4);
+}
+
+.statusLine {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.spinner {
+  animation: workspace-spin 0.9s linear infinite;
+}
+
+@keyframes workspace-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.previewImgContain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: var(--neo-card);
+}
+
+.uploadBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: var(--neo-border-thin);
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.uploadThumb {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: contain;
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+}
+
+.uploadName {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-2);
+}
+
+.uploadHint {
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--bay-text-3);
+}
+
+.uploadThumbButton {
+  display: inline-flex;
+  padding: 0;
+  border: 0;
+  background: none;
+  border-radius: var(--app-panel-radius, 4px);
+  cursor: zoom-in;
+  flex-shrink: 0;
+}
+
+.uploadThumbButton:focus-visible {
+  outline: 2px solid var(--bay-border-focus);
+  outline-offset: 2px;
+}

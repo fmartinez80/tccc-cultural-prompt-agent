@@ -1,0 +1,30 @@
+.viewport {
+  position: relative;
+  overflow: hidden;
+  border: var(--neo-border);
+  border-radius: var(--bay-r-md);
+  background: var(--neo-paper);
+  height: max(560px, calc(100vh - 220px));
+  touch-action: none;
+  cursor: default;
+}
+
+.viewport[data-panning] {
+  cursor: grabbing;
+}
+
+.world {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  background-image: radial-gradient(circle, var(--bay-border-hair) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+.marquee {
+  position: absolute;
+  border: 2px dashed var(--neo-ink);
+  background: color-mix(in srgb, var(--neo-selected) 12%, transparent);
+  pointer-events: none;
+}

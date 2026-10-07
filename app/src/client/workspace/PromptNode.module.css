@@ -1,0 +1,21 @@
+.count {
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.refs {
+  margin: 0;
+  padding-left: 18px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-2);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.codeWrap {
+  max-height: 220px;
+  overflow: auto;
+}

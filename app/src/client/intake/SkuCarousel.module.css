@@ -1,0 +1,136 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  min-height: 0;
+}
+
+/* Matches the Select/TextInput field labels. */
+.label {
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bay-text);
+}
+
+/* Fills the rest of the grid area, so its bottom edge lines up with the Occasion field's. */
+.frame {
+  position: relative;
+  flex: 1;
+  min-height: 180px;
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 36px;
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  color: var(--bay-text);
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background: var(--bay-bg-subtle);
+}
+
+.arrow:focus-visible,
+.dot:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: -3px;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 0;
+  padding: 10px 0 8px;
+}
+
+.picture {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture img,
+.silhouette {
+  height: 100%;
+  max-height: 220px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.silhouette {
+  fill: none;
+  stroke: var(--neo-ink);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+.name {
+  padding-top: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Hangs below the frame, outside the layout, so it never pushes the frame's bottom edge. */
+.dots {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+/* 18px hit area around a 6px dot. */
+.dot {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dot::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  border: 1px solid var(--neo-ink);
+}
+
+.dot[data-current]::after {
+  background: var(--neo-ink);
+}
+
+.empty {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border: 2px dashed var(--neo-ink);
+  border-radius: var(--bay-r-sm);
+  color: var(--bay-text-3);
+  font-size: 13px;
+  text-align: center;
+}

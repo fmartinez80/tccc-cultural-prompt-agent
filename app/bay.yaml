@@ -1,0 +1,94 @@
+name: tablescape-intake
+version: 1
+title: Scene Composer
+
+features:
+  webapp-runway-api: {}
+  runway-api:
+    env: production
+  bay-sdk: {}
+  storage:
+    type: s3
+installable: false
+
+# All options below are optional.
+
+# What this app does
+description: Guided intake that plans culturally grounded Coca-Cola meal scenes
+  — layout proxies, scene story and image prompts
+
+# Free-text label shown by `bay list` and matched by launcher search. It does not set the launcher category.
+# group: ml-tools
+
+# Emoji icon shown in the launcher
+# icon: 🚀
+
+# Brand color for the launcher card (6-digit hex)
+# color: "#5B7FE7"
+
+# Set false to stop this app appearing as installable to the dock
+# installable: false
+
+# Set true for a Runway-ported, pre-built app (shown in the cell's Store instead of the customer's own apps)
+# store: true
+
+# App type: 'app' (HTTP, default) or 'job' (scheduled CronJob)
+# type: job
+
+# Schedule (cron, UTC) — required when type: job
+# job:
+#   schedule: "0 9 * * 1-5"
+
+# Port the container listens on (default: 3000)
+# port: 8080
+
+# Health check probe configuration
+# healthCheck:
+#   path: /healthz
+#   disabled: false
+
+# Pin each browser to one instance (realtime/SSE apps)
+# routing:
+#   stickySessions: true
+
+# Run exactly one instance (apps that can't run concurrently; accepts downtime)
+# singleReplica: true
+
+# Who can access: everyone, private, public, or { users: [...], groups: [...] }
+# visibility: everyone
+
+# GitHub repo (owner/repo format)
+# repo: runwayml/my-app
+
+# Per-app cloud identity: AWS, GCP, CoreWeave object storage
+# infra:
+#   iamRole: true
+#   caios: true
+
+# Per-pod CPU/memory burst ceiling (no default CPU limit; default memory 8Gi; max 8 cores / 32Gi)
+# resources:
+#   cpu: 4
+#   memory: 8Gi
+
+# Deploy hooks. `release` runs as a one-shot Job in your image before each rollout.
+# deploy:
+#   release: node_modules/.bin/tsx node_modules/typeorm/cli.js migration:run -d typeorm.config.ts
+
+# Internet-facing app (public, no Twingate). Requires approval, CI-only deploys, no shared db/storage.
+# internetFacing: true
+
+# Require Runway sign-in at the edge (internetFacing only). Implies runway-api with env: production.
+# runwayAuth: required
+
+# Limit edge Runway sign-in to these email domains (requires runwayAuth: required).
+# runwayAuthEmailDomains:
+#   - acme.com
+
+# Custom hostnames (in addition to <app>.ext.runwayml.com). Each must be approved separately.
+# domains:
+#   - app.runwayml.com
+
+# Internal apps this external app may call over M2M (internetFacing only).
+# egress:
+#   internalApps:
+#     - paper-tracker

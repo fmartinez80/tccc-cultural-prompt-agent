@@ -1,0 +1,148 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-family: var(--app-font-head);
+  font-size: 18px;
+  color: var(--bay-text);
+}
+
+.sectionHint {
+  margin: 0;
+  font-size: 13px;
+  color: var(--bay-text-3);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border: var(--neo-border);
+  border-radius: var(--bay-r-md);
+  overflow: hidden;
+}
+
+.groupLabel {
+  padding: 10px 16px;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bay-text-4);
+  background: var(--bay-bg-subtle);
+  border-bottom: var(--neo-border-thin);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  background: var(--neo-card);
+  border-bottom: var(--neo-border-thin);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.rowTop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.fileHeading {
+  font-family: var(--bay-font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bay-text);
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  border: var(--neo-border-thin);
+  border-radius: 999px;
+}
+
+.status[data-status='proposed'] {
+  background: var(--neo-amber);
+  color: var(--neo-ink);
+}
+
+.status[data-status='approved'] {
+  background: var(--bay-ok-bg);
+  color: var(--bay-ok-fg);
+}
+
+.status[data-status='rejected'] {
+  background: var(--bay-bg-sunken);
+  color: var(--bay-text-3);
+}
+
+.rationale {
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.meta {
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.confirmRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--bay-text-2);
+}
+
+.editArea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.unsaved {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--neo-ink);
+  border: var(--neo-border-thin);
+  border-radius: 999px;
+  background: var(--neo-hatch), var(--neo-amber);
+}
+
+.empty {
+  padding: 16px;
+  font-size: 13px;
+  color: var(--bay-text-3);
+  border: var(--neo-border);
+  border-radius: var(--bay-r-md);
+  background: var(--neo-card);
+}

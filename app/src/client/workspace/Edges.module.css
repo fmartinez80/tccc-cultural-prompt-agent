@@ -1,0 +1,33 @@
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.edge {
+  fill: none;
+  stroke: var(--neo-ink);
+  stroke-width: 2.5;
+}
+
+.edge[data-variant='reference'] {
+  stroke: var(--neo-ink);
+  stroke-dasharray: 7 5;
+}
+
+.edge[data-dashed] {
+  stroke-dasharray: 5 5;
+  opacity: 0.5;
+}
+
+.port {
+  fill: var(--neo-card);
+  stroke: var(--neo-ink);
+  stroke-width: 2;
+}
+
+.port[data-variant='reference'] {
+  fill: var(--neo-cta);
+}

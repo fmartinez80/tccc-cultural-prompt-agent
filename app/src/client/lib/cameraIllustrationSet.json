@@ -1,0 +1,47 @@
+{
+  "close-hero|low": {
+    "focalMm": 50,
+    "pitchDeg": 15,
+    "src": "/camera/close-hero__low.png"
+  },
+  "close-hero|diners-eye": {
+    "focalMm": 50,
+    "pitchDeg": 30,
+    "src": "/camera/close-hero__diners-eye.png"
+  },
+  "close-hero|high": {
+    "focalMm": 50,
+    "pitchDeg": 45,
+    "src": "/camera/close-hero__high.png"
+  },
+  "table-context|low": {
+    "focalMm": 35,
+    "pitchDeg": 15,
+    "src": "/camera/table-context__low.png"
+  },
+  "table-context|diners-eye": {
+    "focalMm": 35,
+    "pitchDeg": 30,
+    "src": "/camera/table-context__diners-eye.png"
+  },
+  "table-context|high": {
+    "focalMm": 35,
+    "pitchDeg": 45,
+    "src": "/camera/table-context__high.png"
+  },
+  "wide-scene|low": {
+    "focalMm": 15,
+    "pitchDeg": 15,
+    "src": "/camera/wide-scene__low.png"
+  },
+  "wide-scene|diners-eye": {
+    "focalMm": 15,
+    "pitchDeg": 30,
+    "src": "/camera/wide-scene__diners-eye.png"
+  },
+  "wide-scene|high": {
+    "focalMm": 15,
+    "pitchDeg": 45,
+    "src": "/camera/wide-scene__high.png"
+  }
+}

@@ -1,0 +1,135 @@
+.accordion {
+  position: relative;
+  border: var(--neo-border-thin);
+  background: var(--neo-card);
+}
+
+.accordion + .accordion {
+  margin-top: -2px;
+}
+
+.accordion:last-of-type {
+  box-shadow: var(--neo-shadow);
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 16px 20px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary:hover {
+  background: var(--neo-hover);
+}
+
+.summary:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: -3px;
+}
+
+.accordion[open] {
+  position: relative;
+  z-index: 1;
+}
+
+.accordion[open] > .summary {
+  background: var(--neo-hover);
+}
+
+.accordion[open] > .summary:hover {
+  background: var(--neo-cta);
+}
+
+.icon {
+  display: flex;
+  color: var(--bay-text-2);
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  /* The title keeps room to sit on one line; buttons wrap below before it squeezes. */
+  flex: 1 1 200px;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--app-font-head);
+  font-size: 15px;
+  font-weight: var(--app-weight-headline);
+  line-height: 1.25;
+  color: var(--bay-text);
+}
+
+.subtitle {
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--bay-text-2);
+  white-space: nowrap;
+}
+
+.chevronCircle {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--neo-ink);
+  color: var(--bay-text-2);
+  background: var(--neo-card);
+}
+
+.accordion[open] > .summary .chevronCircle {
+  background: var(--neo-ink);
+  border-color: var(--neo-ink);
+  color: var(--neo-card);
+}
+
+.body {
+  padding: 16px 20px 20px;
+  background: var(--neo-card);
+  border-top: var(--neo-border-thin);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--bay-text-2);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  /* Stays right-aligned when it wraps under the title. */
+  margin-left: auto;
+}
+
+@media (max-width: 560px) {
+  .summary {
+    flex-wrap: wrap;
+  }
+
+  .actions {
+    order: 10;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

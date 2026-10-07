@@ -1,0 +1,59 @@
+.alert {
+  display: flex;
+  gap: 10px;
+  padding: 14px 16px;
+  border: var(--neo-border);
+  border-radius: var(--bay-r-sm);
+  box-shadow: var(--neo-shadow-sm);
+  background: var(--neo-card);
+  color: var(--bay-text-2);
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--neo-ink);
+}
+
+.body {
+  min-width: 0;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: var(--app-weight-subhead);
+  color: var(--bay-text);
+}
+
+.content {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 2px;
+  color: var(--bay-text-2);
+}
+
+.content a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.err {
+  background: var(--bay-err-bg);
+}
+
+.warn {
+  background: var(--neo-hover);
+}
+
+/* The warning triangle keeps the amber, as a fill inside its black outline. */
+.warn .icon {
+  fill: var(--neo-amber);
+}
+
+.info {
+  background: var(--neo-card);
+}
+
+.ok {
+  background: var(--bay-ok-bg);
+}

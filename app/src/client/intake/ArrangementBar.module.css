@@ -1,0 +1,162 @@
+/* The arrangement, accent and 3D layout controls above the sketch. */
+.bar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px 16px;
+  margin: 16px 0 20px;
+  border: var(--neo-border-thin);
+  border-radius: var(--app-panel-radius, var(--bay-r-md));
+  background: var(--neo-card);
+  box-shadow: var(--neo-shadow-sm);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.label {
+  min-width: 96px;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--bay-text-3);
+}
+
+.value {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  color: var(--bay-text);
+}
+
+.hint {
+  margin: -4px 0 0;
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.thumb {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 168px;
+  padding: 6px;
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  background: var(--bay-surface, var(--neo-card));
+  color: var(--bay-text-2);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease;
+}
+
+.thumb > img,
+.thumb > div {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.thumb:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--neo-shadow-sm);
+}
+
+.thumb:focus-visible {
+  outline: 2px solid var(--bay-accent, currentColor);
+  outline-offset: 2px;
+}
+
+.thumb[aria-pressed='true'] {
+  border: var(--neo-border);
+  box-shadow: var(--neo-shadow-sm);
+  color: var(--bay-text);
+}
+
+.thumb:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.thumbLabel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.best {
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: var(--neo-border-thin);
+  font-family: var(--bay-font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.layout3d {
+  margin: 0;
+}
+
+.layout3d > img,
+.layout3d > div {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--bay-r-sm);
+  border: var(--neo-border-thin);
+}
+
+.caption {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--bay-text-2);
+}
+
+/* Doubled to outrank the shared dialog width, whichever stylesheet loads last. */
+.accentDialog.accentDialog {
+  width: min(880px, 100%);
+}
+
+@media (max-width: 720px) {
+  .thumb {
+    width: calc(50% - 5px);
+  }
+
+  .label {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .caption {
+    flex-direction: column;
+  }
+}

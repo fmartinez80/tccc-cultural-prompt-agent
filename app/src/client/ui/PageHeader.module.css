@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.text {
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.05;
+  color: var(--bay-text);
+}
+
+.description {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--bay-text-3);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}

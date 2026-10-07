@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "cultural-agent-steps",
+      "purpose": "Suggest the preparation, plating, sides, surface and accent options (and the combined plating check in Express mode) from the knowledge base",
+      "alias": "claude_api"
+    },
+    {
+      "id": "scene-story",
+      "purpose": "Write the scene story and label texts, and check it for cultural accuracy",
+      "alias": "claude_api"
+    },
+    {
+      "id": "element-turnaround",
+      "purpose": "Render each element's prompt segment as a three-view turnaround (profile, 30° down, top down) on white to check food detail",
+      "alias": "gemini_3_1_flash_image"
+    },
+    {
+      "id": "layout-sketch",
+      "purpose": "Draw the picked layout as a detailed black-and-white pencil sketch of the finished scene, through the photo's camera, on Sketch review",
+      "alias": "gemini_3_1_flash_image"
+    },
+    {
+      "id": "workspace-nano-banana-pro",
+      "purpose": "Generate the final scene from the layout proxy and the story's prompt segments on the Story & image step, and preview individual elements in the node workspace",
+      "alias": "gemini_3_pro"
+    }
+  ]
+}

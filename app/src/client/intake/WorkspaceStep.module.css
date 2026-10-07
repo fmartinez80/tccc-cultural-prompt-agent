@@ -1,0 +1,70 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.zoomGroup {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-md);
+  padding: 2px;
+}
+
+.zoomLabel {
+  min-width: 44px;
+  text-align: center;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.divider {
+  width: 1px;
+  height: 22px;
+  background: var(--bay-border);
+}
+
+.spacer {
+  flex: 1;
+}
+
+.saved {
+  font-size: 12px;
+  color: var(--bay-text-3);
+  white-space: nowrap;
+}
+
+.flash {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--bay-accent-fg);
+  background: var(--neo-hover);
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  padding: 4px 10px;
+  white-space: nowrap;
+}
+
+.footer {
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--bay-text-4);
+}
+
+@media (max-width: 720px) {
+  .toolbar {
+    justify-content: flex-start;
+  }
+  .spacer {
+    display: none;
+  }
+}

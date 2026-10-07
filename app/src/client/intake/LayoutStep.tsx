@@ -1,0 +1,197 @@
+// The step between Camera and the sketch, done for the operator: when the item
+// count is even it adds the suggested accent (the plain paper napkin on the go),
+// composes the layouts and picks the top-ranked one, then Sketch review takes
+// over. The other arrangements and the accent are changed from the sketch
+// (ArrangementBar). Only a failure or a table nothing fits stops here.
+
+import { ArrowLeft, RotateCw } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+
+import type { RuleEffects } from '../../api.ts';
+import type { Selections } from '../../shared/spec.ts';
+import type { AccentChoice, Decision } from '../../shared/types.ts';
+import { recordDuration, useProgress } from '../lib/progress.ts';
+import { useAgentTask } from '../lib/useAgentTask.ts';
+import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { trpc } from '../trpc.ts';
+import { Alert } from '../ui/Alert.tsx';
+import { Button } from '../ui/Button.tsx';
+import { EmptyState } from '../ui/EmptyState.tsx';
+import { ProgressBar } from '../ui/ProgressBar.tsx';
+import { SkeletonBlock } from '../ui/Skeleton.tsx';
+import { AgentStatus } from './AgentStatus.tsx';
+import type { Brief, ComposeResult } from './types.ts';
+import styles from './LayoutStep.module.css';
+
+/** The selections the solver composes with: an accent/napkin left over from a rules change that no longer calls for one is ignored. */
+export function composeSelections(sel: Selections, needsAccent: boolean | undefined): Selections {
+  return { ...sel, accent: needsAccent ? sel.accent : null, napkin: needsAccent ? !!sel.napkin : false };
+}
+
+export function PrepareLayout({
+  brief,
+  sel,
+  rules,
+  accentDecision,
+  onAccentDecision,
+  onAccent,
+  onNapkin,
+  compose,
+  onCompose,
+  onPick,
+  onBack,
+}: {
+  brief: Brief;
+  sel: Selections;
+  rules: RuleEffects | null;
+  accentDecision: Decision<AccentChoice> | null;
+  onAccentDecision: (d: Decision<AccentChoice>) => void;
+  onAccent: (v: AccentChoice | null) => void;
+  onNapkin: () => void;
+  compose: ComposeResult | null;
+  onCompose: (c: ComposeResult) => void;
+  onPick: (i: number) => void;
+  /** Back to the Camera step, where a wider look usually makes room. */
+  onBack: () => void;
+}) {
+  const needsAccent = rules?.needsAccent;
+  const onTheGo = sel.scene?.venue === 'on-the-go';
+  const accentAnswered = needsAccent === false || sel.accent !== undefined;
+
+  // 1. The accent: on the go the plain paper napkin, elsewhere the cultural agent's suggestion.
+  const accentTask = useAgentTask('accent');
+  const onSignedIn = useOnRunwaySignedIn();
+  const askAccent = () => accentTask.run({ brief, selections: sel });
+  const askedRef = useRef(false);
+  useEffect(() => {
+    if (!rules || accentAnswered || askedRef.current) return;
+    askedRef.current = true;
+    if (onTheGo) onNapkin();
+    else if (!accentDecision) askAccent();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rules, accentAnswered]);
+  // Once per answer: the parent's callback is a fresh function each render.
+  useEffect(() => {
+    if (accentTask.result?.kind === 'accent') onAccentDecision(accentTask.result.decision);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [accentTask.result]);
+  useEffect(() => {
+    if (accentAnswered || onTheGo || !accentDecision) return;
+    onAccent(accentDecision.options[0]?.value ?? null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [accentDecision, accentAnswered]);
+
+  // 2. Compose, then take the top-ranked layout.
+  const composeMutation = trpc.compose.useMutation();
+  const [composeStart, setComposeStart] = useState<number | null>(null);
+  const runCompose = () => {
+    const begun = Date.now();
+    setComposeStart(begun);
+    composeMutation.mutate(
+      { brief, selections: composeSelections(sel, needsAccent) },
+      {
+        onSuccess: (c) => {
+          recordDuration('compose', begun);
+          onCompose(c);
+        },
+      },
+    );
+  };
+  useEffect(() => {
+    if (rules && accentAnswered && !compose && !composeMutation.isPending) runCompose();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rules, accentAnswered, compose]);
+  // Fresh layouts (or a draft saved with none picked): take the top-ranked one.
+  useEffect(() => {
+    if (compose?.options.length) onPick(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [compose]);
+
+  const composeProgress = useProgress('compose', composeMutation.isPending ? composeStart : null);
+  const accentFailed = accentTask.status === 'error';
+
+  const intro = (
+    <>
+      <h1>Review the sketch</h1>
+      <p>Picking the best layout for this table. The sketch starts drawing as soon as it's ready, and you can try other arrangements from there.</p>
+    </>
+  );
+
+  if (compose && compose.options.length === 0) {
+    return (
+      <section>
+        {intro}
+        <EmptyState
+          title="No layout fits these items"
+          hint={
+            <>
+              Even after moving the supporting items around, something still overlaps. A smaller serving vessel, one fewer side or condiment, or a
+              different camera angle usually fixes it.
+              {sel.scene?.party === '2' && (
+                <> Two place settings need more of the table in frame, so try a wider camera look (table-context or wide-scene) first.</>
+              )}
+              <details className={styles.why}>
+                <summary>What didn't fit</summary>
+                {compose.infeasible.map((f) => (
+                  <div key={f.archetype}>
+                    {f.archetype}: {f.reason}
+                  </div>
+                ))}
+              </details>
+            </>
+          }
+          action={
+            <Button icon={<ArrowLeft size={16} aria-hidden />} onPress={onBack}>
+              Back to Camera
+            </Button>
+          }
+        />
+      </section>
+    );
+  }
+
+  return (
+    <section>
+      {intro}
+      <div className={styles.prepStatus} aria-live="polite">
+        {composeMutation.isError ? (
+          <Alert tone="error" title="Couldn't compose a layout">
+            {composeMutation.error.message}
+            <div className={styles.retryRow}>
+              <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={runCompose}>
+                Try again
+              </Button>
+            </div>
+          </Alert>
+        ) : !rules ? (
+          <p className={styles.prepText}>Checking what the table needs…</p>
+        ) : !accentAnswered ? (
+          <>
+            <AgentStatus
+              status={accentTask.status}
+              timing={accentTask.timing}
+              agentError={accentTask.agentError}
+              trpcError={accentTask.trpcError}
+              workingLabel="The table has an even number of items, so the cultural agent is picking a small accent"
+              onSignedIn={() => onSignedIn(askAccent)}
+              onRetry={askAccent}
+              skeletonCards={0}
+            />
+            {accentFailed && (
+              <div className={styles.retryRow}>
+                <Button size="sm" onPress={() => onAccent(null)}>
+                  Continue without an accent
+                </Button>
+              </div>
+            )}
+          </>
+        ) : (
+          <ProgressBar label="Composing the layout" progress={composeProgress ?? { percent: 0, secondsLeft: null, estimated: true }} />
+        )}
+      </div>
+      <div className={styles.prepFrame}>
+        <SkeletonBlock height="100%" />
+      </div>
+    </section>
+  );
+}

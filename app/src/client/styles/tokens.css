@@ -1,0 +1,109 @@
+/**
+ * App-level design tokens, layered over `@runway/bay-react/tokens.css`
+ * (imported first in main.tsx). That file only ships the small shared set —
+ * text/border/canvas/radii/motion/avatar-palette vars — so everything else
+ * this app's UI needs is defined here instead.
+ *
+ * Neo-brutalist "poster grid" (design.md; reference uploads/design-reference.png):
+ * retro paper canvas, white cards, pitch-black text, 3px black borders, hard
+ * offset shadows with no blur, light grey for hover/press, mid grey for
+ * primary buttons, Coca-Cola red (white text) for what is selected, warm
+ * amber + black hatching for "Change". Amber is only ever a fill behind black
+ * text, never a text colour.
+ *
+ * The app ships light-only. `@runway/bay-react` keys its own dark ramp off
+ * `data-theme="dark"`, so the same block re-asserts the light values under
+ * that attribute: whatever writes it, the app never flips to light text on
+ * light surfaces.
+ */
+
+:root,
+:root[data-theme='dark'] {
+  /* --- Neo-brutalist primitives --- */
+  --neo-ink: #000000;
+  --neo-paper: #f4f1ea;
+  --neo-card: #ffffff;
+  /* The user's palette (2026-10-06): grey hover, Coca-Cola red selected, grey primary buttons. */
+  /* Hover/press on anything clickable ("actively selecting"). Black text on top. */
+  --neo-hover: #e5e5e5;
+  /* Primary call-to-action buttons. Black text on top. */
+  --neo-cta: #a7a7a7;
+  /* Selected: the choice that stays on (cards, chips, segments, the current step). White text on top. */
+  --neo-selected: #e7223a;
+  --neo-selected-hover: #c91a30;
+  --neo-on-selected: #ffffff;
+  /* "Change" (Sketch review and anything marked to change). Always with --neo-hatch. */
+  --neo-amber: #ffcc33;
+  --neo-hatch: repeating-linear-gradient(-45deg, rgb(0 0 0 / 0.55) 0 1.5px, transparent 1.5px 6px);
+  --neo-border-w: 3px;
+  --neo-border: 3px solid var(--neo-ink);
+  /* Rows, inputs, pills and other dense parts. */
+  --neo-border-thin: 2px solid var(--neo-ink);
+  /* Hard drop-shadow colour (user, 2026-10-06): dusty rose #cc9999, not the ink black. */
+  --neo-shadow-color: #cc9999;
+  --neo-shadow: 5px 5px 0 var(--neo-shadow-color);
+  --neo-shadow-sm: 3px 3px 0 var(--neo-shadow-color);
+  --neo-shadow-active: 1px 1px 0 var(--neo-shadow-color);
+  /* Pressed: push down-right by the shadow it loses. */
+  --neo-press: translate(4px, 4px);
+  --neo-press-sm: translate(2px, 2px);
+
+  /* --- Type --- */
+  /* Archivo Black ships one weight; never ask it for bold (font-synthesis is off). */
+  --app-font-head: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+  --bay-font-sans:
+    'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+    sans-serif;
+  /* Labels, step numbers, tags, IDs, prompts and JSON. */
+  --bay-font-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --app-weight-text: 400;
+  --app-weight-subhead: 700;
+  /* Headlines use --app-font-head at its only weight. */
+  --app-weight-headline: 400;
+
+  /* --- Shared tokens, remapped --- */
+  --bay-text: #000000;
+  --bay-text-2: #1c1c1c;
+  --bay-text-3: #45433f;
+  --bay-text-4: #77746d;
+  --bay-text-on-accent: #ffffff;
+  --bay-bg-surface: var(--neo-card);
+  --bay-bg-canvas: var(--neo-paper);
+  --bay-bg-subtle: #faf8f3;
+  --bay-bg-sunken: #ebe7dc;
+  --bay-border: var(--neo-ink);
+  --bay-border-hair: #c9c4b8;
+  --bay-border-strong: var(--neo-ink);
+  --bay-border-focus: var(--neo-ink);
+  /* Ink: the safe default wherever the old dark-gray accent was a fill or a text colour.
+     Primary buttons, hover and selected states use the --neo-* fills explicitly. */
+  --bay-accent: var(--neo-ink);
+  --bay-accent-hover: #262626;
+  --bay-accent-soft: var(--neo-hover);
+  --bay-accent-fg: var(--neo-ink);
+  --bay-accent-rgb: 0, 0, 0;
+  /* The old orange highlight: ink as a text/border colour, the hover grey as the soft fill. */
+  --app-highlight: var(--neo-ink);
+  --app-highlight-hover: #262626;
+  --app-highlight-soft: var(--neo-hover);
+  /* Small, hard corners; pills (999px) and circles (50%) stay round. */
+  --bay-r-xs: 3px;
+  --bay-r-sm: 4px;
+  --bay-r-md: 4px;
+  --bay-r-lg: 6px;
+  --bay-r-xl: 6px;
+  --app-panel-radius: var(--bay-r-sm);
+  --app-window-radius: var(--bay-r-lg);
+  --app-card-radius: var(--bay-r-sm);
+  /* Status: flat fills, black border from the component. */
+  --bay-ok-bg: #c8f0d4;
+  --bay-ok-fg: #0b4d2c;
+  --bay-warn-bg: var(--neo-amber);
+  --bay-warn-fg: #000000;
+  --bay-err-bg: #ffd1cc;
+  --bay-err-fg: #8f1409;
+  --bay-info-bg: #ffffff;
+  --bay-info-fg: #000000;
+  --bay-shadow-1: var(--neo-shadow-sm);
+  --bay-shadow-pop: var(--neo-shadow);
+}

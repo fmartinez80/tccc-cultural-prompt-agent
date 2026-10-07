@@ -1,0 +1,39 @@
+.frame {
+  border: var(--neo-border-thin);
+  padding: 0;
+  cursor: zoom-in;
+  border-radius: var(--bay-r-sm);
+  overflow: hidden;
+  background: none;
+}
+
+.frame:focus-visible {
+  outline: 2px solid var(--bay-border-focus);
+  outline-offset: 2px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-3);
+}
+
+.spinner {
+  animation: workspace-spin 0.9s linear infinite;
+}
+
+@keyframes workspace-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,48 @@
+.block {
+  position: relative;
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  border: var(--neo-border-thin);
+}
+
+.pre {
+  margin: 0;
+  padding: 16px 44px 16px 16px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--bay-font-mono);
+  font-size: 12.5px;
+  line-height: 1.44;
+  color: var(--bay-text);
+  max-height: 360px;
+  overflow: auto;
+}
+
+.copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border: 2px solid var(--neo-ink);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bay-text-2);
+  cursor: pointer;
+}
+
+.copy[data-hovered] {
+  background: var(--neo-hover);
+  color: var(--neo-ink);
+}
+
+.copy[data-focus-visible] {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}

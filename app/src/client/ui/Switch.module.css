@@ -1,0 +1,52 @@
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--bay-text-2);
+}
+
+.track {
+  display: inline-flex;
+  align-items: center;
+  width: 36px;
+  height: 20px;
+  padding: 2px;
+  border-radius: var(--bay-r-pill);
+  border: 2px solid var(--neo-ink);
+  background: var(--neo-card);
+  transition: background var(--bay-dur) var(--bay-ease);
+  flex-shrink: 0;
+}
+
+.switch[data-selected] .track {
+  background: var(--neo-selected);
+}
+
+.switch[data-selected] .thumb {
+  background: var(--neo-on-selected);
+}
+
+.thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--neo-ink);
+  transform: translateX(0);
+  transition: transform var(--bay-dur) var(--bay-ease);
+}
+
+.switch[data-selected] .thumb {
+  transform: translateX(16px);
+}
+
+.switch[data-focus-visible] .track {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+.switch[data-disabled] {
+  opacity: 0.5;
+  cursor: default;
+}

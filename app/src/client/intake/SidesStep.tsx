@@ -1,0 +1,95 @@
+import { useEffect } from 'react';
+
+import type { Decision, SidesChoice } from '../../shared/types.ts';
+import type { Selections } from '../../shared/spec.ts';
+import { useAgentTask } from '../lib/useAgentTask.ts';
+import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { DecisionStep } from './DecisionStep.tsx';
+import { keepCustom, useCustomOption } from './useCustomOption.ts';
+import { vesselLine } from './optionText.ts';
+import type { Brief } from './types.ts';
+
+export function SidesStep({
+  brief,
+  sel,
+  decision,
+  selected,
+  clearsNote,
+  onDecision,
+  onPick,
+  onNext,
+}: {
+  brief: Brief;
+  sel: Selections;
+  decision: Decision<SidesChoice> | null;
+  selected: SidesChoice | undefined;
+  clearsNote: string | null;
+  onDecision: (d: Decision<SidesChoice>) => void;
+  onPick: (v: SidesChoice) => void;
+  onNext: () => void;
+}) {
+  const task = useAgentTask('sides');
+  const onSignedIn = useOnRunwaySignedIn();
+
+  const load = () => task.run({ brief, selections: sel });
+
+  useEffect(() => {
+    if (!decision) load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (task.result?.kind === 'sides') onDecision(keepCustom(task.result.decision, decision));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [task.result, onDecision]);
+
+  const custom = useCustomOption<SidesChoice>({
+    kind: 'sides',
+    brief,
+    sel,
+    decision,
+    onDecision,
+    onPick,
+    describe: (v) =>
+      `${v.label} — ${v.accompaniments.map((a) => `${a.name} (${a.role}, ${a.vessel}${a.vesselStyle ? `, ${a.vesselStyle}` : ''})`).join('; ')}`,
+    extract: (r) => (r.kind === 'sides' ? r.decision.options[0] : undefined),
+  });
+
+  useEffect(() => {
+    if (decision?.status === 'resolved' && !selected) onPick(decision.options[0]!.value);
+  }, [decision, selected, onPick]);
+
+  return (
+    <DecisionStep<SidesChoice>
+      title="Sides and accompaniments"
+      intro={
+        brief.sideDishRequest
+          ? `Including your request for ${brief.sideDishRequest} where it fits.`
+          : 'What this dish is usually served with here.'
+      }
+      clearsNote={clearsNote}
+      status={task.status}
+      timing={task.timing}
+      agentError={task.agentError}
+      trpcError={task.trpcError}
+      workingLabel="The cultural agent is checking the usual sides"
+      decision={decision}
+      selected={selected}
+      isSame={(a, b) => a.label === b.label}
+      renderOption={(v) => ({
+        label: v.label,
+        summary: v.detail || v.accompaniments.map((a) => a.name).join(' · ') || 'No sides',
+        facts: v.accompaniments.map((a) => ({
+          label: a.name,
+          value: `${a.role} · ${vesselLine(a.vessel, a.vesselStyle)}${a.service === 'shared' ? ' · shared' : ''}`,
+        })),
+      })}
+      onPick={onPick}
+      onAskAgain={load}
+      onSignedIn={() => onSignedIn(load)}
+      onNext={onNext}
+      custom={custom}
+      customExample={'Like A, but swap one side for a simple green salad'}
+    />
+  );
+}
