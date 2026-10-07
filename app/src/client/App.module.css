@@ -14,7 +14,7 @@
 /* The logo, unboxed, at the left of the header row (same line as Learning, Start over and the name). */
 .logoImg {
   display: block;
-  height: 49.5px;
+  height: 62px; /* 49.5px + 25% */
   width: auto;
   max-width: 100%;
 }
@@ -227,7 +227,7 @@
     position: static;
   }
   .logoImg {
-    height: 38.5px;
+    height: 48px; /* 38.5px + 25% */
   }
   .rail {
     flex-direction: row;
