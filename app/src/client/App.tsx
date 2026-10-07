@@ -30,7 +30,7 @@ import { setActiveBrief } from './lib/activeBrief.ts';
 import { signOut } from './lib/auth.ts';
 import { LearningPage } from './learning/LearningPage.tsx';
 import { MyScenesPage } from './studio/MyScenesPage.tsx';
-import { HomePage } from './studio/HomePage.tsx';
+import { HomePage, InsightsPage, WhatsNewPage } from './studio/HomePage.tsx';
 import { SnapshotPage } from './studio/SnapshotPage.tsx';
 import { SkusPage } from './skus/SkusPage.tsx';
 import styles from './App.module.css';
@@ -40,6 +40,8 @@ import styles from './App.module.css';
 const VIEW_HASH = {
   home: '',
   compose: '#compose',
+  insights: '#insights',
+  whatsNew: '#whats-new',
   snapshot: '#snapshot',
   mine: '#my-projects',
   skus: '#skus',
@@ -393,6 +395,8 @@ export function App() {
   const draftInProgress = draft.step !== 'brief' || !!draft.brief.heroDish.trim();
   const menuItems = [
     ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
+    { id: 'insights', label: 'Insights', current: view === 'insights' },
+    { id: 'whatsNew', label: "What's New", current: view === 'whatsNew' },
     { id: 'snapshot', label: 'Global Snapshot', current: view === 'snapshot' },
     { id: 'mine', label: 'My Projects', current: view === 'mine' },
     { id: 'skus', label: 'Adding SKUs', current: view === 'skus' },
@@ -469,7 +473,6 @@ export function App() {
         <ErrorBoundary label="studio">
           <HomePage
             name={profile.data?.name ?? ''}
-            onSnapshot={() => openView('snapshot')}
             draftInProgress={draftInProgress}
             onContinue={() => openView('compose')}
             onNewScene={() => {
@@ -477,6 +480,14 @@ export function App() {
               openView('compose');
             }}
           />
+        </ErrorBoundary>
+      ) : view === 'insights' ? (
+        <ErrorBoundary label="insights">
+          <InsightsPage onSnapshot={() => openView('snapshot')} />
+        </ErrorBoundary>
+      ) : view === 'whatsNew' ? (
+        <ErrorBoundary label="what's new">
+          <WhatsNewPage />
         </ErrorBoundary>
       ) : view === 'snapshot' ? (
         <ErrorBoundary label="global snapshot">

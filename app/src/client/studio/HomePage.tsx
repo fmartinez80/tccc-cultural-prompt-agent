@@ -1,6 +1,6 @@
-// The home screen everyone lands on after signing in: the welcome and its features, how it works, the team's
-// most popular meals and regions, highlights from the knowledge base, the way
-// into a new scene, and a carousel of the latest scenes.
+// The home screen everyone lands on after signing in (the welcome and its
+// features, how it works, the way into a new scene, a carousel of the latest
+// scenes), plus the Insights and What's New pages.
 
 import { ArrowRight, Images } from 'lucide-react';
 import { useState } from 'react';
@@ -18,6 +18,7 @@ import { SkeletonBlock, SkeletonText } from '../ui/Skeleton.tsx';
 import { HowItWorks, Intro, Roadmap } from './HomeExtras.tsx';
 import { SceneGallery } from './SceneGallery.tsx';
 import { BarList } from './SnapshotPage.tsx';
+import home from './home.module.css';
 import styles from './studio.module.css';
 
 type HomePageProps = {
@@ -95,40 +96,6 @@ function ProjectData({ onSnapshot }: { onSnapshot: () => void }) {
   );
 }
 
-function RecentlyAdded() {
-  const query = trpc.kbHighlights.useQuery(undefined, { staleTime: 10 * 60_000 });
-  const data = query.data;
-  const fmt = (d: string) => new Date(`${d}T00:00:00Z`).toLocaleDateString(undefined, { day: 'numeric', month: 'short', timeZone: 'UTC' });
-  return (
-    <section className={styles.plain} aria-label="Recently added">
-      <h2 className={styles.panelTitle}>Recently Added</h2>
-      {query.isError && <p className={styles.muted}>{query.error.message}</p>}
-      {query.isLoading && <SkeletonText rows={4} />}
-      {data && (
-        <ul className={styles.bullets}>
-          <li>
-            <strong>{data.markets}</strong> markets and <strong>{data.regions}</strong> regional guides in the knowledge base
-          </li>
-          <li>
-            <strong>{data.skus}</strong> products in the shared inventory
-          </li>
-          {data.recent.length > 0 && (
-            <li>
-              Latest guides:{' '}
-              {data.recent.map((r, i) => (
-                <span key={r.label}>
-                  {i > 0 && ', '}
-                  {r.label} <span className={styles.barSub}>({fmt(r.date)})</span>
-                </span>
-              ))}
-            </li>
-          )}
-        </ul>
-      )}
-    </section>
-  );
-}
-
 function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePageProps, 'draftInProgress' | 'onNewScene' | 'onContinue'>) {
   const [confirming, setConfirming] = useState(false);
   return (
@@ -171,7 +138,7 @@ function Gallery() {
   const query = trpc.studio.useQuery(undefined, { refetchInterval: 60_000 });
   return (
     <section className={styles.panel} aria-label="Gallery">
-      <h2 className={styles.panelTitle}>Gallery</h2>
+      <h2 className={styles.titleBar}>Gallery</h2>
       {query.isLoading && <SkeletonBlock height={180} />}
       {query.data &&
         (query.data.recent.length ? (
@@ -183,18 +150,33 @@ function Gallery() {
   );
 }
 
-export function HomePage({ draftInProgress, onNewScene, onContinue, onSnapshot }: HomePageProps) {
+export function HomePage({ draftInProgress, onNewScene, onContinue }: Omit<HomePageProps, 'onSnapshot'>) {
   return (
     <div className={styles.page}>
       <Intro />
       <HowItWorks />
-      <div className={styles.homeGrid}>
-        <ProjectData onSnapshot={onSnapshot} />
-        <RecentlyAdded />
-        <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
-      </div>
+      <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
       <Gallery />
+    </div>
+  );
+}
+
+/** Insights: the team's most popular meals and regions, and scenes by occasion. */
+export function InsightsPage({ onSnapshot }: { onSnapshot: () => void }) {
+  return (
+    <div className={styles.page}>
+      <h1 className={home.pageTitle}>Insights</h1>
+      <ProjectData onSnapshot={onSnapshot} />
       <Occasions />
+    </div>
+  );
+}
+
+/** What's New: the product roadmap. */
+export function WhatsNewPage() {
+  return (
+    <div className={styles.page}>
+      <h1 className={home.pageTitle}>What's New</h1>
       <Roadmap />
     </div>
   );

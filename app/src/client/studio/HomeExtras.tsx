@@ -1,19 +1,18 @@
 // Home-screen modules: the welcome with its three illustrated features, "How
 // It Works" (the six steps), and the product roadmap.
 
-import { CheckCheck, ChefHat, ClipboardList, Eye, MapPin, Salad } from 'lucide-react';
 
 import { ProductsIllustration, SeasoningIllustration, WorkflowIllustration } from './Illustrations.tsx';
 import { ROADMAP } from './roadmap.ts';
 import styles from './home.module.css';
 
 const STEPS = [
-  { icon: ClipboardList, title: 'Set the brief', text: 'A few requirements: market, region, product, hero meal and occasion.' },
-  { icon: MapPin, title: 'Time & place', text: 'Where and when the meal happens: home, restaurant, street, celebration.' },
-  { icon: ChefHat, title: 'The meal', text: 'How the dish is prepared and plated in that market.' },
-  { icon: Salad, title: 'The sides', text: 'What is served with it, from sides to condiments.' },
-  { icon: Eye, title: 'Camera & sketch', text: 'Pick the angle and review a sketch before the final image.' },
-  { icon: CheckCheck, title: 'Check your work', text: 'Get the scene with a cultural accuracy check, and come back to review it later.' },
+  { title: 'Set the brief', text: 'A few requirements: market, region, product, hero meal and occasion.' },
+  { title: 'Time & place', text: 'Where and when the meal happens: home, restaurant, street, celebration.' },
+  { title: 'The meal', text: 'How the dish is prepared and plated in that market.' },
+  { title: 'The sides', text: 'What is served with it, from sides to condiments.' },
+  { title: 'Camera & sketch', text: 'Pick the angle and review a sketch before the final image.' },
+  { title: 'Check your work', text: 'Get the scene with a cultural accuracy check, and come back to review it later.' },
 ];
 
 const FEATURES = [
@@ -67,12 +66,13 @@ export function HowItWorks() {
       <ol className={styles.steps}>
         {STEPS.map((s, i) => (
           <li key={s.title} className={styles.step}>
-            <span className={styles.stepNo} aria-hidden>
-              {i + 1}
-            </span>
-            <s.icon size={28} aria-hidden className={styles.stepIcon} />
-            <strong className={styles.stepTitle}>{s.title}</strong>
-            <span className={styles.stepText}>{s.text}</span>
+            <div className={styles.stepHead}>
+              <span className={styles.stepNo} aria-hidden>
+                {i + 1}
+              </span>
+              <strong className={styles.stepTitle}>{s.title}</strong>
+            </div>
+            <p className={styles.stepText}>{s.text}</p>
           </li>
         ))}
       </ol>

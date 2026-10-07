@@ -1,7 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 21px;
 }
 
 .stats {
@@ -421,6 +421,9 @@
 .getStarted {
   flex-direction: column;
   justify-content: center;
+  align-self: center;
+  width: min(100%, 640px);
+  padding: 24px;
   text-align: center;
   background: var(--neo-selected);
   color: var(--neo-on-selected);
@@ -430,9 +433,18 @@
   justify-content: center;
 }
 
-/* Recently Added sits straight on the page background: no card. */
-.plain {
-  padding: 16px 4px;
+/* A module title centred on a small bar in the drop-shadow colour. */
+.titleBar {
+  align-self: center;
+  width: fit-content;
+  margin: 0 auto 14px;
+  padding: 4px 18px;
+  background: var(--neo-shadow-color);
+  border: var(--neo-border-thin);
+  font-family: var(--app-font-head);
+  font-weight: var(--app-weight-headline);
+  font-size: 22.5px;
+  text-align: center;
 }
 
 .getStartedText {

@@ -60,14 +60,22 @@
 }
 
 .step {
-  min-height: 190px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  padding: 14px 12px;
   background: var(--neo-card);
   border: var(--neo-border);
   box-shadow: var(--neo-shadow-sm);
+}
+
+/* Solid header like the current Roadmap phase: number and title. */
+.stepHead {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  background: var(--neo-selected);
+  color: var(--neo-on-selected);
+  border-bottom: var(--neo-border);
 }
 
 .stepNo {
@@ -76,19 +84,19 @@
   line-height: 1;
 }
 
-.stepIcon {
-  flex-shrink: 0;
-  color: var(--neo-selected);
-}
-
 .stepTitle {
-  font-size: 15px;
+  font-family: var(--app-font-head);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.15;
 }
 
 .stepText {
-  color: var(--bay-text-3);
-  font-size: 13px;
-  line-height: 1.4;
+  margin: 0;
+  padding: 10px 12px 14px;
+  color: var(--bay-text-2);
+  font-size: 14px;
+  line-height: 1.45;
 }
 
 .note {
@@ -178,8 +186,10 @@
   text-align: center;
 }
 
-.introTitle {
-  margin: 0;
+.introTitle,
+.pageTitle {
+  margin: 5px 0 0;
+  text-align: center;
   font-family: var(--app-font-head);
   font-weight: 400;
   font-size: clamp(32px, 5vw, 52px);
@@ -251,8 +261,3 @@
   }
 }
 
-@media (max-width: 600px) {
-  .step {
-    min-height: 0;
-  }
-}
