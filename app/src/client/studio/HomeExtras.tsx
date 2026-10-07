@@ -67,10 +67,10 @@ export function HowItWorks() {
       <ol className={styles.steps}>
         {STEPS.map((s, i) => (
           <li key={s.title} className={styles.step}>
+            <span className={styles.stepNo} aria-hidden>
+              {i + 1}
+            </span>
             <div className={styles.stepHead}>
-              <span className={styles.stepNo} aria-hidden>
-                {i + 1}
-              </span>
               <strong className={styles.stepTitle}>{s.title}</strong>
             </div>
             <p className={styles.stepText}>{s.text}</p>
