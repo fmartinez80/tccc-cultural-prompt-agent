@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-top: 8px;
+  margin-top: 43px; /* with the page gap, about 64px above the title */
 }
 
 .howTitle {
@@ -202,7 +202,7 @@
 
 .introTitle,
 .pageTitle {
-  margin: 5px 0 0;
+  margin: 64px 0 0;
   text-align: center;
   font-family: var(--app-font-head);
   font-weight: 400;

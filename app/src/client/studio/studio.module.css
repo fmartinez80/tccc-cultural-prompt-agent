@@ -423,6 +423,7 @@
   justify-content: center;
   align-self: center;
   width: min(100%, 640px);
+  margin-top: 43px; /* with the page gap, about 64px of space above */
   padding: 24px;
   text-align: center;
   background: var(--neo-selected);
@@ -433,17 +434,16 @@
   justify-content: center;
 }
 
-/* A module title centred on a small bar in the drop-shadow colour. */
+/* A module header: full-width bar in the select-state grey, title centred. */
 .titleBar {
-  align-self: center;
-  width: fit-content;
-  margin: 0 auto 14px;
-  padding: 4px 18px;
-  background: var(--neo-shadow-color);
-  border: var(--neo-border-thin);
+  margin: -16px -16px 16px;
+  padding: 12px 16px;
+  background: var(--neo-hover);
+  border-bottom: var(--neo-border);
   font-family: var(--app-font-head);
   font-weight: var(--app-weight-headline);
-  font-size: 22.5px;
+  font-size: 28px;
+  line-height: 1.1;
   text-align: center;
 }
 
