@@ -422,7 +422,7 @@ export function WorkspaceStep({
 
   return (
     <section>
-      <h1>Node workspace</h1>
+      <h1>Node Workspace</h1>
       <p>Dial in each part of the prompt, preview elements with Nano Banana Pro, then generate the scene.</p>
 
       <div className={styles.toolbar}>

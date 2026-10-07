@@ -7,14 +7,14 @@ import type { TextTask } from './gemini.ts';
 import { dishRecords, getLearningDoc, mergeLearnDrafts } from './feedback.ts';
 import { keywords, knowledgeBlock } from './knowledge.ts';
 import { mediaUrl } from './store.ts';
-import { LearnAnswer, TAG_LABELS, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
+import { LearnAnswer, TAG_LABELS, WORKING_TAG_IDS, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
 
 /** Runs on the same Gemini Pro model as the story and image check. */
 const MODEL = 'pro';
 
 const PROMPT_CAP = 48_000;
 
-const INSTRUCTIONS = `You are the learning agent behind a food-and-table image generation pipeline for The Coca-Cola Company. An operator rates generated scene images (usable / usable with fixes / unusable), tags what's wrong, and sometimes runs an automatic check. Your job is to read a dish's accumulated feedback next to its knowledge-base excerpt and work out what keeps going wrong and why.
+const INSTRUCTIONS = `You are the learning agent behind a food-and-table image generation pipeline for The Coca-Cola Company. An operator rates generated scene images (usable / usable with fixes / unusable), votes each element "working" or "needs work", tags what's working and what's wrong, and sometimes runs an automatic check. Your job is to read a dish's accumulated feedback next to its knowledge-base excerpt and work out what keeps going wrong and why.
 
 For each recurring failure, diagnose it as exactly one of:
 - kb-missing: the knowledge base doesn't cover this at all.
@@ -27,6 +27,8 @@ Write lessons: short, actionable corrections per element (MAIN, SIDE_1, SKU, SCE
 Propose a knowledge-base edit ONLY when the diagnosis is kb-missing or kb-wrong — never for prompt-lost or model-ignored (those are prompting fixes, not knowledge-base ones). Each edit targets an exact "file" (the file name shown in the knowledge excerpt, e.g. "argentina.md") and an exact "heading" copied verbatim from that excerpt — the heading of the section the edit's text gets appended to. "text" is the Markdown to append (a sentence or short paragraph, in the voice of the surrounding file); "rationale" says why, in one sentence; sourceFeedback lists the feedback ids. If no section in the excerpt fits, still name the closest heading and say so in the rationale.
 
 "summary" is a few plain sentences: what keeps going wrong for this dish overall, in a food stylist's words.
+
+Protect what works: elements and qualities operators keep voting "working" are the recipe to keep. Never write a lesson or edit that would change them; when a fix touches one, say in the lesson to keep what's already working about it. Name what's consistently working in the summary too.
 
 Don't invent problems: an element with no complaints across the feedback needs no lesson. If nothing recurs, return empty lessons and kbEdits with a summary saying so.`;
 
@@ -51,13 +53,17 @@ function formatChecks(r: FeedbackRecord): string {
 }
 
 function formatRecord(r: FeedbackRecord, maxPromptChars: number): string {
-  const tags = r.tags.map((t) => TAG_LABELS[t] ?? t).join(', ') || '(none)';
+  const label = (t: string) => TAG_LABELS[t] ?? t;
+  const good = r.tags.filter((t) => WORKING_TAG_IDS.has(t)).map(label).join(', ') || '(none)';
+  const tags = r.tags.filter((t) => !WORKING_TAG_IDS.has(t)).map(label).join(', ') || '(none)';
   const prompt = r.prompt.length > maxPromptChars ? `${r.prompt.slice(0, maxPromptChars)} …(truncated)` : r.prompt;
   return [
     `- id: ${r.id}`,
     `  verdict: ${r.verdict}`,
-    `  elements: ${r.elements.join(', ') || '(none)'}`,
-    `  tags: ${tags}`,
+    `  voted working: ${r.working?.join(', ') || '(none)'}`,
+    `  voted needs work: ${r.elements.join(', ') || '(none)'}`,
+    `  what's working: ${good}`,
+    `  what's wrong: ${tags}`,
     `  note: ${r.note.trim() || '(none)'}`,
     `  choices: ${formatChoices(r)}`,
     `  automatic check: ${formatChecks(r)}`,

@@ -3,6 +3,8 @@
 // the full composition is generated. The profile view is made first; the other
 // two take it as image 1 so all three show the same object.
 
+import { withoutHands } from "./rules";
+
 /** Nano Banana 2 (GEMINI_IMAGE_FAST). */
 export const TURNAROUND_MODEL = "fast" as const;
 export const TURNAROUND_ASPECT_RATIO = "4:3" as const;
@@ -36,12 +38,12 @@ export function turnaroundPrompt(segmentText: string, view: TurnaroundView, with
   const v = TURNAROUND_VIEWS.find((x) => x.id === view)!;
   return [
     "Create a studio reference photograph of one element for a food-styling turnaround sheet.",
-    `The element: ${segmentText}`,
+    `The element: ${withoutHands(segmentText)}`,
     withReference
       ? "Image 1 shows this same element from the side. Keep it identical: the same pieces and count, cut, sauce, garnish, colors and container. Only the camera angle changes."
       : "",
     v.camera,
-    "Show only this element, whole and centered with a comfortable margin, on a seamless pure white background that continues under it. Light it evenly from every side with large soft lights so it casts no shadows and has no dark sides, only a faint contact line where it touches the surface. Sharp focus across the whole element and true-to-life color, so every ingredient, texture and garnish reads clearly. No props, no table, and no text or labels in the image.",
+    "Show only this element, whole and centered with a comfortable margin, on a seamless pure white background that continues under it. Light it evenly from every side with large soft lights so it casts no shadows and has no dark sides, only a faint contact line where it touches the surface. Sharp focus across the whole element and true-to-life color, so every ingredient, texture and garnish reads clearly. No props, no table, no hands or people, and no text or labels in the image.",
   ]
     .filter(Boolean)
     .join("\n\n");

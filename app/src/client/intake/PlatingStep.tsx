@@ -60,14 +60,14 @@ export function PlatingStep({
 
   return (
     <DecisionStep<PlatingChoice>
-      title="How is it served?"
+      title="How Is It Served?"
       intro="The most common way this dish reaches the table."
       clearsNote={clearsNote}
       status={task.status}
       timing={task.timing}
       agentError={task.agentError}
       trpcError={task.trpcError}
-      workingLabel="The cultural agent is checking how this dish is plated"
+      workingLabel="We are pulling options to best serve this dish."
       decision={decision}
       selected={selected}
       isSame={(a, b) => a.label === b.label}

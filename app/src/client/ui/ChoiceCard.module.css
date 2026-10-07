@@ -543,3 +543,30 @@
     gap: 2px;
   }
 }
+
+/* ---- Inline details (list rows inside a dialog) ---- */
+
+.rowDetails {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 760px;
+  padding: 12px;
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  color: var(--bay-text);
+  cursor: auto;
+}
+
+.row[data-selected] .rowDetails :is(dt, .dialogText, .dialogSection h3) {
+  color: var(--bay-text-2);
+}
+
+.moreChevron {
+  transition: transform var(--bay-dur) var(--bay-ease);
+}
+
+.moreChevron[data-open] {
+  transform: rotate(90deg);
+}

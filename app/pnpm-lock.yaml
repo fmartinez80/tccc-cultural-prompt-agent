@@ -26,6 +26,9 @@ importers:
       '@trpc/server':
         specifier: ^11.17.0
         version: 11.19.0(typescript@5.9.3)
+      fflate:
+        specifier: 0.8.3
+        version: 0.8.3
       flag-icons:
         specifier: ^7.5.0
         version: 7.5.0

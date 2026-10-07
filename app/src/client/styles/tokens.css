@@ -22,8 +22,12 @@
   /* The user's palette (2026-10-06): grey hover, Coca-Cola red selected, grey primary buttons. */
   /* Hover/press on anything clickable ("actively selecting"). Black text on top. */
   --neo-hover: #e5e5e5;
-  /* Primary call-to-action buttons. Black text on top. */
+  /* Grey fills: progress bars, open accordions, workspace edges. Black text on top. */
   --neo-cta: #a7a7a7;
+  /* Primary call-to-action buttons (2026-10-07: calm charcoal, picked by the user). White text on top. */
+  --neo-cta-button: #2b2b2b;
+  --neo-cta-button-hover: #454545;
+  --neo-on-cta-button: #ffffff;
   /* Selected: the choice that stays on (cards, chips, segments, the current step). White text on top. */
   --neo-selected: #e7223a;
   --neo-selected-hover: #c91a30;

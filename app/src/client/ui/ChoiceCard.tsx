@@ -41,6 +41,8 @@ export type ChoiceCardGroupProps = {
   options: ChoiceCardOption[];
   /** `grid`: three image-friendly cards per row. `list`: full-width rows with a check box, for text-only options. */
   layout?: 'grid' | 'list' | undefined;
+  /** List layout only: "More details" expands under the row instead of opening a dialog (for groups already inside a dialog). */
+  detailsInline?: boolean | undefined;
   className?: string | undefined;
 };
 
@@ -61,9 +63,12 @@ export function ChoiceCardGroup({
   onChange,
   options,
   layout = 'grid',
+  detailsInline = false,
   className,
 }: ChoiceCardGroupProps) {
   const [openId, setOpenId] = useState<string | null>(null);
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+  const inline = detailsInline && layout === 'list';
   const open = options.find((o) => o.id === openId) ?? null;
 
   return (
@@ -91,20 +96,38 @@ export function ChoiceCardGroup({
                         {o.badge && <span className={styles.pill}>{o.badge}</span>}
                       </div>
                       {o.summary && <div className={styles.rowSummary}>{o.summary}</div>}
+                      {inline && expandedId === o.id && o.details && (
+                        <div className={styles.rowDetails} id={`details-${o.id}`}>
+                          <DetailsBody details={o.details} />
+                        </div>
+                      )}
                     </>
                   )}
                 </Radio>
-                {more && (
-                  <button
-                    type="button"
-                    className={styles.moreLink}
-                    onClick={() => setOpenId(o.id)}
-                    aria-label={`More details${typeof o.label === 'string' ? `: ${o.label}` : ''}`}
-                  >
-                    More details
-                    <ChevronRight size={14} aria-hidden />
-                  </button>
-                )}
+                {more &&
+                  (inline ? (
+                    <button
+                      type="button"
+                      className={styles.moreLink}
+                      aria-expanded={expandedId === o.id}
+                      aria-controls={`details-${o.id}`}
+                      onClick={() => setExpandedId(expandedId === o.id ? null : o.id)}
+                      aria-label={`${expandedId === o.id ? 'Fewer details' : 'More details'}${typeof o.label === 'string' ? `: ${o.label}` : ''}`}
+                    >
+                      {expandedId === o.id ? 'Fewer details' : 'More details'}
+                      <ChevronRight size={14} aria-hidden className={styles.moreChevron} data-open={expandedId === o.id || undefined} />
+                    </button>
+                  ) : (
+                    <button
+                      type="button"
+                      className={styles.moreLink}
+                      onClick={() => setOpenId(o.id)}
+                      aria-label={`More details${typeof o.label === 'string' ? `: ${o.label}` : ''}`}
+                    >
+                      More details
+                      <ChevronRight size={14} aria-hidden />
+                    </button>
+                  ))}
               </div>
             );
           }
@@ -166,33 +189,7 @@ export function ChoiceCardGroup({
                 {open.media && <div className={styles.dialogMedia}>{open.media}</div>}
                 {open.details?.actions && <div className={styles.dialogMediaActions}>{open.details.actions}</div>}
                 {open.summary && <p className={styles.dialogSummary}>{open.summary}</p>}
-                {open.details?.body && <p className={styles.dialogText}>{open.details.body}</p>}
-                {!!open.details?.facts?.length && (
-                  <dl className={styles.facts}>
-                    {open.details.facts.map((f) => (
-                      <div key={f.label} className={styles.fact}>
-                        <dt>{f.label}</dt>
-                        <dd>{f.value}</dd>
-                      </div>
-                    ))}
-                  </dl>
-                )}
-                {open.details?.rationale && (
-                  <section className={styles.dialogSection}>
-                    <h3>Why this option</h3>
-                    <p className={styles.dialogText}>{open.details.rationale}</p>
-                  </section>
-                )}
-                {!!open.details?.sources?.length && (
-                  <section className={styles.dialogSection}>
-                    <h3>Knowledge-base sources</h3>
-                    <ul className={styles.sources}>
-                      {open.details.sources.map((s) => (
-                        <li key={s}>{s}</li>
-                      ))}
-                    </ul>
-                  </section>
-                )}
+                {open.details && <DetailsBody details={open.details} />}
               </div>
               <div className={styles.dialogActions}>
                 <Button variant="default" onPress={() => setOpenId(null)}>
@@ -215,6 +212,41 @@ export function ChoiceCardGroup({
         </Dialog>
       </Modal>
     </RadioGroup>
+  );
+}
+
+/** The details beyond the summary: shared by the dialog and the inline (in-dialog) expansion. */
+function DetailsBody({ details }: { details: ChoiceCardDetails }) {
+  return (
+    <>
+      {details.body && <p className={styles.dialogText}>{details.body}</p>}
+      {!!details.facts?.length && (
+        <dl className={styles.facts}>
+          {details.facts.map((f) => (
+            <div key={f.label} className={styles.fact}>
+              <dt>{f.label}</dt>
+              <dd>{f.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+      {details.rationale && (
+        <section className={styles.dialogSection}>
+          <h3>Why This Option</h3>
+          <p className={styles.dialogText}>{details.rationale}</p>
+        </section>
+      )}
+      {!!details.sources?.length && (
+        <section className={styles.dialogSection}>
+          <h3>Knowledge-Base Sources</h3>
+          <ul className={styles.sources}>
+            {details.sources.map((s) => (
+              <li key={s}>{s}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </>
   );
 }
 

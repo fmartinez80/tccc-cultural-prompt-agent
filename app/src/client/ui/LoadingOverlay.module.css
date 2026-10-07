@@ -23,6 +23,29 @@
   box-shadow: var(--neo-shadow);
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--app-font-head);
+  font-weight: var(--app-weight-headline);
+  font-size: 18px;
+  line-height: 1.15;
+  color: var(--bay-text);
+}
+
+.message {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--bay-text-2);
+}
+
 .label {
   margin: 0;
   font-family: var(--app-font-head);

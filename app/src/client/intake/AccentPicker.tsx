@@ -58,6 +58,7 @@ export function AccentPicker({
   onPick,
   napkin,
   onNapkin,
+  inDialog = false,
 }: {
   brief: Brief;
   sel: Selections;
@@ -71,6 +72,8 @@ export function AccentPicker({
   /** On the go only (other venues already set a napkin): a plain paper napkin as the third item. */
   napkin: boolean;
   onNapkin: () => void;
+  /** Inside the Change-accent dialog: the dialog carries the title, and details open in place rather than in a second dialog. */
+  inDialog?: boolean;
 }) {
   const napkinOffer = sel.scene?.venue === 'on-the-go';
   // Dish and drink with nothing else: the tight lockup is a complete layout on its own.
@@ -99,8 +102,12 @@ export function AccentPicker({
   }, [task.result]);
 
   return (
-    <section className={styles.accentPicker}>
-      <h2>{dishAndDrink ? 'Dish and drink, or a third item' : 'One small accent'}</h2>
+    <section className={inDialog ? `${styles.accentPicker} ${styles.accentPickerInDialog}` : styles.accentPicker}>
+      {inDialog ? (
+        <h3 className={styles.accentQuestion}>{dishAndDrink ? 'Dish and Drink, or a Third Item?' : 'One Small Accent'}</h3>
+      ) : (
+        <h2>{dishAndDrink ? 'Dish and Drink, or a Third Item' : 'One Small Accent'}</h2>
+      )}
       <p>
         {dishAndDrink
           ? 'Your dish and the Coca-Cola make a complete layout on their own. Add a plain paper napkin or a small accent for a third item, or keep it at two.'
@@ -108,7 +115,7 @@ export function AccentPicker({
       </p>
       <div className={styles.composition}>
         <div className={styles.compositionList}>
-          <h3>Already on the table{items ? ` · ${items.length} items` : ''}</h3>
+          <h3>Already on the Table{items ? ` · ${items.length} items` : ''}</h3>
           {items ? (
             <ul className={styles.tableItems}>
               {items.map((item, i) => (
@@ -131,6 +138,7 @@ export function AccentPicker({
         <div className={styles.compositionOptions}>
           <ChoiceCardGroup
             layout="list"
+            detailsInline={inDialog}
             aria-label="Accent"
             value={cardValue}
             onChange={(id) => {

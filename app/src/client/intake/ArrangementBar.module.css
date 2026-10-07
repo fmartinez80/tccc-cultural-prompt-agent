@@ -1,25 +1,17 @@
-/* The arrangement, accent and 3D layout controls above the sketch. */
+/* The side panel beside the sketch: layout guide, arrangements, accent. */
 .bar {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
+  min-width: 0;
   padding: 14px 16px;
-  margin: 16px 0 20px;
   border: var(--neo-border-thin);
   border-radius: var(--app-panel-radius, var(--bay-r-md));
   background: var(--neo-card);
   box-shadow: var(--neo-shadow-sm);
 }
 
-.row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px 12px;
-}
-
 .label {
-  min-width: 96px;
   font-family: var(--bay-font-mono);
   font-size: 11px;
   font-weight: 700;
@@ -36,25 +28,152 @@
 }
 
 .hint {
-  margin: -4px 0 0;
+  margin: 0;
   font-size: 12px;
+  line-height: 1.35;
   color: var(--bay-text-3);
 }
 
-.thumbs {
+.guide {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+
+.guideHead {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+/* Spans the panel edge to edge. */
+.previewTitle {
+  margin: 0;
+  padding-bottom: 6px;
+  border-bottom: var(--neo-border);
+  font-family: var(--app-font-head);
+  font-size: 26px;
+  font-weight: var(--app-weight-headline);
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--bay-text);
+}
+
+/* One line: long archetype names truncate instead of wrapping. */
+.guideLine {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  min-height: 22px;
+}
+
+.guideName {
   flex: 1;
   min-width: 0;
+  overflow: hidden;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--bay-text-2);
+}
+
+/* Always three lines tall, clamped, so the panel never jumps between arrangements. */
+.rationale {
+  display: -webkit-box;
+  height: calc(3 * 1.4em);
+  margin: 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--bay-text);
+}
+
+.rationaleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.rationale[data-expanded] {
+  display: block;
+  height: auto;
+  -webkit-line-clamp: unset;
+  line-clamp: none;
+}
+
+.more {
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: var(--bay-text);
+  cursor: pointer;
+}
+
+.more:hover {
+  color: var(--neo-selected);
+}
+
+.more:focus-visible {
+  outline: 2px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+.guideImage {
+  aspect-ratio: 16 / 9;
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  overflow: hidden;
+}
+
+.guideImage > img,
+.guideImage > div {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Previewing another arrangement: a dashed frame says it isn't the one in use yet. */
+.guide[data-preview] .guideImage {
+  border-style: dashed;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
 }
 
 .thumb {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  width: 168px;
-  padding: 6px;
+  gap: 4px;
+  min-width: 0;
+  padding: 4px;
   border: var(--neo-border-thin);
   border-radius: var(--bay-r-sm);
   background: var(--bay-surface, var(--neo-card));
@@ -73,7 +192,7 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 .thumb:hover:not(:disabled) {
@@ -87,9 +206,10 @@
 }
 
 .thumb[aria-pressed='true'] {
-  border: var(--neo-border);
+  border: var(--neo-border-w) solid var(--neo-selected);
+  background: var(--neo-selected);
   box-shadow: var(--neo-shadow-sm);
-  color: var(--bay-text);
+  color: var(--neo-on-selected);
 }
 
 .thumb:disabled {
@@ -101,62 +221,72 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 4px 6px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3;
 }
 
-.best {
-  padding: 1px 6px;
+.inUse {
+  flex: none;
+  padding: 1px 5px;
   border-radius: 999px;
-  border: var(--neo-border-thin);
+  background: var(--neo-ink);
+  color: var(--neo-card);
   font-family: var(--bay-font-mono);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
-.layout3d {
-  margin: 0;
-}
-
-.layout3d > img,
-.layout3d > div {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: var(--bay-r-sm);
-  border: var(--neo-border-thin);
-}
-
-.caption {
+.accentRow {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 8px;
-  font-size: 13px;
-  color: var(--bay-text-2);
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--bay-border-hair, var(--bay-border));
 }
 
-/* Doubled to outrank the shared dialog width, whichever stylesheet loads last. */
+/* The accent dialog: title and actions stay put, the options scroll between them.
+   Doubled to outrank the shared dialog rules, whichever stylesheet loads last. */
 .accentDialog.accentDialog {
   width: min(880px, 100%);
+  max-height: min(90vh, 860px);
+  padding: 0;
+  gap: 0;
+  overflow: hidden;
+}
+
+.accentHead {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 24px 16px;
+  border-bottom: 1px solid var(--bay-border-hair, var(--bay-border));
+}
+
+.accentBody {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 20px 24px;
+}
+
+.accentFoot.accentFoot {
+  margin: 0;
+  padding: 16px 24px;
+  border-top: 1px solid var(--bay-border-hair, var(--bay-border));
+  background: var(--neo-card);
 }
 
 @media (max-width: 720px) {
-  .thumb {
-    width: calc(50% - 5px);
-  }
-
-  .label {
-    min-width: 0;
-    width: 100%;
-  }
-
-  .caption {
-    flex-direction: column;
+  .accentHead,
+  .accentBody,
+  .accentFoot.accentFoot {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

@@ -36,7 +36,7 @@ import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
 import { CopyButton, triggerDownload } from '../ui/DownloadCopy.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
-import { ProgressBar } from '../ui/ProgressBar.tsx';
+import { ProgressRing } from '../ui/ProgressRing.tsx';
 import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { Select } from '../ui/Select.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
@@ -274,12 +274,19 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
     <div className={styles.hero}>
       <div className={styles.stage}>
         {running ? (
-          <div className={styles.grid} data-single={count === 1 || undefined}>
-            {Array.from({ length: count }, (_, i) => (
-              <div key={i} className={styles.skeleton} style={{ aspectRatio: ratio }}>
-                <SkeletonBlock height="100%" />
-              </div>
-            ))}
+          <div className={styles.pending}>
+            <div className={styles.grid} data-single={count === 1 || undefined}>
+              {Array.from({ length: count }, (_, i) => (
+                <div key={i} className={styles.skeleton} style={{ aspectRatio: ratio }}>
+                  <SkeletonBlock height="100%" />
+                </div>
+              ))}
+            </div>
+            <ProgressRing
+              label={`Generating ${count > 1 ? `${count} images` : 'the scene'} with ${WORKSPACE_MODEL_LABEL}`}
+              progress={progress}
+              status={preparing ? 'Uploading the layout image…' : 'Starting…'}
+            />
           </div>
         ) : latest ? (
           <div className={styles.grid} data-single={latest.urls.length === 1 || undefined}>
@@ -315,19 +322,6 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
           </div>
         )}
       </div>
-
-      {running &&
-        (progress ? (
-          <ProgressBar
-            size="sm"
-            label={`Generating ${count > 1 ? `${count} images` : 'the scene'} with ${WORKSPACE_MODEL_LABEL}`}
-            progress={progress}
-          />
-        ) : (
-          <span className={styles.statusLine} role="status" aria-live="polite">
-            {preparing ? 'Uploading the layout image…' : 'Starting…'}
-          </span>
-        ))}
 
       {!running && gen.proxyStatus === 'error' && gen.proxyError && (
         <Alert tone="error" title="Couldn't upload the layout image">

@@ -81,6 +81,27 @@ export function LearningPage() {
     }
   };
 
+  const [zipPending, setZipPending] = useState(false);
+  const downloadKbZip = async () => {
+    setDownloadError(null);
+    setZipPending(true);
+    try {
+      const res = await fetch('/api/knowledge-base.zip');
+      if (!res.ok) {
+        const body = (await res.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(body?.error ?? `The server answered with HTTP ${res.status}.`);
+      }
+      const name = /filename="([^"]+)"/.exec(res.headers.get('Content-Disposition') ?? '')?.[1] ?? 'knowledge-base.zip';
+      const blobUrl = URL.createObjectURL(await res.blob());
+      triggerDownload(name, blobUrl);
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 10_000);
+    } catch (err) {
+      setDownloadError(`Couldn't download the knowledge base — ${err instanceof Error ? err.message : String(err)}`);
+    } finally {
+      setZipPending(false);
+    }
+  };
+
   return (
     <div className={styles.page}>
       <PageHeader
@@ -108,6 +129,15 @@ export function LearningPage() {
             </Button>
             <Button size="sm" variant="ghost" icon={<Download size={14} aria-hidden />} onPress={downloadKbMarkdown}>
               Download approved knowledge-base edits (.md)
+            </Button>
+            <Button
+              size="sm"
+              variant="ghost"
+              icon={<Download size={14} aria-hidden />}
+              onPress={downloadKbZip}
+              loading={zipPending}
+            >
+              Download full knowledge base (.zip)
             </Button>
           </>
         }

@@ -8,7 +8,7 @@ import { Button } from './Button.tsx';
 
 export function triggerDownload(name: string, data: string, type = 'text/plain') {
   const a = document.createElement('a');
-  a.href = data.startsWith('data:') ? data : URL.createObjectURL(new Blob([data], { type }));
+  a.href = data.startsWith('data:') || data.startsWith('blob:') ? data : URL.createObjectURL(new Blob([data], { type }));
   a.download = name;
   a.click();
 }

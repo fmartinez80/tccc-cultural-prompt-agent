@@ -134,7 +134,7 @@ export function KbEditsSection({ dishKey, edits }: { dishKey: string; edits: KbE
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.sectionTitle}>Knowledge-base edits</h2>
+      <h2 className={styles.sectionTitle}>Knowledge-Base Edits</h2>
       <p className={styles.sectionHint}>
         Approved edits are added to the knowledge base the agents read, and can be downloaded to merge into the source files.
       </p>

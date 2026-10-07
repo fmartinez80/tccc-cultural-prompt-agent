@@ -5,7 +5,7 @@
 // from the picked options alone (there is no story yet at this step).
 
 import { onTheGoSurfaceRule } from "./registry";
-import { foodStylingRules } from "./rules";
+import { NO_HANDS_RULE, foodStylingRules, withoutHands } from "./rules";
 import { storyFacts } from "./story";
 import type { Blueprint, SceneSpec } from "./types";
 import { environmentBrief } from "./venues";
@@ -37,7 +37,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
   const facts = storyFacts(spec, bp);
   const objects = facts.labels.map((l) => {
     const text = l.fixedText ?? `${objectText(spec, bp, l.label, l.what)} Served in ${l.vessel}.`;
-    return `- ${l.label} (${l.where}): ${text}`;
+    return `- ${l.label} (${l.where}): ${withoutHands(text)}`;
   });
   const dishes = foodStylingRules([spec.heroDish, JSON.stringify({ entree: spec.entree, accompaniments: spec.accompaniments })]);
   const place = environmentBrief(spec.scene);
@@ -45,6 +45,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
   return [
     "Turn image 1 into a detailed black-and-white pencil sketch of the finished scene: the art director's pre-visualization drawing of a food photograph, showing exactly where everything lands in the final frame.",
     "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines.",
+    `A still life with no one in it. ${NO_HANDS_RULE}`,
     `Camera: ${facts.lookSentence} ${facts.angleSentence} ${facts.scaleSentence}`,
     "Draw the food in detail, as it will look in the photograph from this camera: its real shapes, pieces and portions, how it is stacked or spread on its vessel, the garnish, the texture (crumb, char, crisp edges, sauce, steam). Draw each vessel's real shape and rim, the cutlery and the napkin folds, and the Coca-Cola product's real silhouette with only a hint of its script logo.",
     `Objects (${facts.labels.length}, and only these):`,
@@ -55,6 +56,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     `Shade the forms with the light of the photograph: ${facts.lightingSentence}`,
     "Style: graphite pencil and fine ink line on plain white paper, confident contour lines with light hatching and cross-hatching for shadow and volume, like a storyboard or food-styling concept drawing.",
     "Strictly monochrome: black and grey pencil on white only, with no color anywhere. Ignore the colors of image 1. Do not tint the drink, the Coca-Cola red, the food, the sauces, the garnish, the table or the paper: everything, the Coca-Cola product and its label included, is drawn in the same pencil greys, and the paper stays pure white.",
-    "No people or hands, no text, numbers, labels, arrows or annotations anywhere in the drawing.",
+    "No text, numbers, labels, arrows or annotations anywhere in the drawing.",
+    NO_HANDS_RULE,
   ].join("\n");
 }

@@ -87,6 +87,7 @@ export function DecisionStep<T>({
         agentError={agentError}
         trpcError={trpcError}
         workingLabel={workingLabel}
+        workingTitle={typeof title === 'string' ? title : undefined}
         overlay
         onSignedIn={onSignedIn}
         onRetry={onAskAgain}

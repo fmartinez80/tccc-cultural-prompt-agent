@@ -9,7 +9,7 @@
 // their heading path so the agent can still cite "spain.md › DISH CATALOG › …".
 
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
-import { basename, join } from 'node:path';
+import { basename, join, relative, sep } from 'node:path';
 
 export const KNOWLEDGE_DIR = process.env.KNOWLEDGE_DIR || 'knowledge-base';
 
@@ -144,12 +144,8 @@ function applyOverlayToFile(file: KbFile, edits: KbOverlayEdit[]): string {
 
 let cached: KnowledgeBase | null = null;
 
-export function loadKnowledge(): KnowledgeBase {
-  if (cached) return cached;
-  if (!existsSync(KNOWLEDGE_DIR)) {
-    cached = { available: false, source: '', countries: [], references: [] };
-    return cached;
-  }
+/** Every markdown file on disk with the approved-edit overlay applied — exactly what the agents read. */
+function readKnowledgeFiles(): KbFile[] {
   const files = walk(KNOWLEDGE_DIR).map((p) => ({
     path: p,
     file: basename(p),
@@ -161,6 +157,24 @@ export function loadKnowledge(): KnowledgeBase {
       if (edits.length) f.text = applyOverlayToFile(f, edits);
     }
   }
+  return files;
+}
+
+/** The whole knowledge base for download: paths relative to the knowledge-base folder, overlay applied. */
+export function knowledgeExport(): Array<{ path: string; text: string }> {
+  if (!existsSync(KNOWLEDGE_DIR)) return [];
+  return readKnowledgeFiles()
+    .map((f) => ({ path: relative(KNOWLEDGE_DIR, f.path).split(sep).join('/'), text: f.text }))
+    .sort((a, b) => a.path.localeCompare(b.path));
+}
+
+export function loadKnowledge(): KnowledgeBase {
+  if (cached) return cached;
+  if (!existsSync(KNOWLEDGE_DIR)) {
+    cached = { available: false, source: '', countries: [], references: [] };
+    return cached;
+  }
+  const files = readKnowledgeFiles();
   const countries: CountryEntry[] = [];
   const regional: Array<{ fm: Record<string, string>; f: KbFile }> = [];
   for (const f of files) {

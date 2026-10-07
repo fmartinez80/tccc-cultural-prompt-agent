@@ -61,7 +61,7 @@ export function SidesStep({
 
   return (
     <DecisionStep<SidesChoice>
-      title="Sides and accompaniments"
+      title="Sides and Accompaniments"
       intro={
         brief.sideDishRequest
           ? `Including your request for ${brief.sideDishRequest} where it fits.`
@@ -72,7 +72,7 @@ export function SidesStep({
       timing={task.timing}
       agentError={task.agentError}
       trpcError={task.trpcError}
-      workingLabel="The cultural agent is checking the usual sides"
+      workingLabel="Pulling together some side dishes, condiments and accompaniments to go with your main dish."
       decision={decision}
       selected={selected}
       isSame={(a, b) => a.label === b.label}

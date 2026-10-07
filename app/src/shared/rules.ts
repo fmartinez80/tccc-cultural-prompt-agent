@@ -72,6 +72,26 @@ export const DEFAULT_ANGLE = cameraOptions.angle.default;
 /** Field-of-view factor for the proxy sent to the image model (see camera-options.json). */
 export const MODEL_FRAMING_WIDEN: number = cameraOptions.model_framing.widen;
 
+/**
+ * Spec, for now: no hands or people anywhere in any picture (sketch, turnarounds, photograph).
+ * One wording for every prompt, so the rule can't drift between them.
+ */
+export const NO_HANDS_RULE =
+  "No hands, fingers, arms or people anywhere in the image: nobody at the table, no figures or passers-by in the background, and nothing held, lifted, picked up or bitten. Every item rests on its vessel or on the surface.";
+
+/**
+ * Agent-written food text sometimes calls a dish "handheld" or "eaten by hand" (empanadas, tacos,
+ * sandwiches); those words alone pull a hand into the picture, so image prompts drop them.
+ */
+export function withoutHands(text: string): string {
+  return text
+    .replace(/\bhand[- ]?held\b/gi, "finger-food")
+    .replace(/,?\s*\b(?:held|eaten|picked up|served)\s+(?:in|by|with)\s+(?:the\s+|one\s+|a\s+)?hands?\b/gi, "")
+    .replace(/\s+([,.;])/g, "$1")
+    .replace(/,([.;])/g, "$1")
+    .replace(/ {2,}/g, " ");
+}
+
 export function lookById(id: string): LookOption {
   return LOOKS.find((l) => l.id === id) ?? LOOKS[0];
 }
@@ -116,8 +136,9 @@ export interface LightingPreset {
 
 export function selectLighting(scene: SceneSpec["scene"]): LightingPreset {
   const presets = lightingPresets.presets as Record<string, Omit<LightingPreset, "id">>;
-  const forced = (lightingPresets.default_preset as { preset: string | null } | null)?.preset;
-  if (forced) return { id: forced, ...presets[forced] };
+  const def = lightingPresets.default_preset as { preset: string | null; except_times?: string[] } | null;
+  const forced = def?.preset;
+  if (forced && !def?.except_times?.includes(scene.time)) return { id: forced, ...presets[forced] };
   for (const row of lightingPresets.select) {
     const venueOk = row.venue === "*" || row.venue === scene.venue || (Array.isArray(row.venue) && row.venue.includes(scene.venue));
     if (row.setting === scene.setting && venueOk && row.time.includes(scene.time)) {

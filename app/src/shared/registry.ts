@@ -232,6 +232,19 @@ export const SURFACES: Record<Surface, SurfaceDef> = {
   "street-ledge": { width: 1.6, depth: 0.45, narrow: true, promptText: "a wide street-side ledge" },
 };
 
+// No round tables (user, 2026-10-06): the layout guide draws a rectangular top and the image model copies it,
+// so a "round" table in the text never comes through and the sketch and photo disagree.
+export const RECTANGULAR_TABLE_RULE =
+  "The tabletop is rectangular with straight edges, as in image 1, never round or oval.";
+
+/** Drops "round", "circular" or "oval" from a table description ("a small round café table" -> "a small café table"). */
+export function withoutRoundTable(text: string): string {
+  return text
+    .replace(/\b(?:round|circular|oval)(?:[- ]topped)?\s+(?=(?:(?!(?:on|in|at|of|by|with|beside|near|next|and)\b)[^\s,.;]+\s+){0,3}(?:table|tabletop|top)s?\b)/gi, "")
+    .replace(/\b([Aa])n (?=[b-df-hj-np-tv-z])/g, "$1 ")
+    .replace(/ {2,}/g, " ");
+}
+
 // On the go, the food sits on a table-like surface (user, 2026-10-06): picnic tables, small park tables, counter
 // tops and wide ledges. A bench is fine where it's culturally normal, but only as one option beside a table, never
 // the only one. Nothing else people sit on, and never a lap or the ground.

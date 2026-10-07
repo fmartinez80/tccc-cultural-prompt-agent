@@ -155,7 +155,7 @@
   color: var(--neo-ink);
   border: var(--neo-border-thin);
   border-radius: 999px;
-  background: var(--neo-hatch), var(--neo-amber);
+  background: var(--neo-amber);
 }
 
 .addForm {

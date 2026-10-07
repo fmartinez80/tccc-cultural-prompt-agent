@@ -25,7 +25,7 @@ import { isForbidden } from '../lib/useTurnarounds.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
-import { ProgressBar } from '../ui/ProgressBar.tsx';
+import { ProgressRing } from '../ui/ProgressRing.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
 import { TextArea } from '../ui/TextArea.tsx';
 import { TextInput } from '../ui/TextInput.tsx';
@@ -124,7 +124,7 @@ export function ReviewStep({
   /** The detailed sketch, when one was drawn (for any layout; only this layout's is shown). */
   detail: DetailSketch | null;
   onDetail: (d: DetailSketch) => void;
-  /** The arrangement and accent controls, told whether a sketch is drawing (switching then would orphan that draw). */
+  /** The side panel beside the sketch (layout guide, arrangements, accent), told whether a sketch is drawing (switching then would orphan that draw). */
   arrangement?: (drawing: boolean) => ReactNode;
   onNext: () => void;
 }) {
@@ -365,7 +365,7 @@ export function ReviewStep({
 
   return (
     <section>
-      <h1>Review the sketch</h1>
+      <h1>Review the Sketch</h1>
       <p>
         This is the scene sketched in pencil through the camera you picked: the food, dishes and drinks where they will land in the photo. Click an item
         or its number to mark what is working and what isn't, and add anything else the scene needs. Your notes go into the scene description and the image prompt
@@ -378,12 +378,10 @@ export function ReviewStep({
         </Alert>
       )}
 
-      {arrangement?.(drawing)}
-
       <div className={styles.detailBar} aria-live="polite">
         {drawing ? (
           showDetail ? (
-            <ProgressBar label="Redrawing the sketch" progress={progress ?? { percent: 0, secondsLeft: null, estimated: true }} />
+            <p className={styles.detailText}>Redrawing the sketch. The current one stays until the new one is ready.</p>
           ) : (
             <p className={styles.detailText}>You can start marking items while the sketch draws.</p>
           )
@@ -433,7 +431,7 @@ export function ReviewStep({
         )}
       </div>
 
-      <div className={styles.layoutGrid}>
+      <div className={styles.compare}>
         <div className={styles.frameCol}>
         <div className={styles.frame}>
           {showDetail ? (
@@ -455,11 +453,7 @@ export function ReviewStep({
             <SkeletonBlock height="100%" />
           )}
           {sketch && <canvas className={styles.overlay} ref={overlayRef} aria-hidden />}
-          {drawing && !showDetail && (
-            <div className={styles.drawingCard}>
-              <ProgressBar label="Drawing the sketch" progress={progress ?? { percent: 0, secondsLeft: null, estimated: true }} />
-            </div>
-          )}
+          {drawing && <ProgressRing label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'} progress={progress ?? null} />}
           {sketch && (
             <div
               className={styles.hitArea}
@@ -508,6 +502,10 @@ export function ReviewStep({
         </div>
         </div>
 
+        {arrangement?.(drawing)}
+      </div>
+
+      <div className={styles.layoutGrid}>
         <div className={styles.itemsCol}>
         <h2 className={styles.sectionTitle}>Items</h2>
         <ol className={styles.items}>
@@ -619,9 +617,9 @@ export function ReviewStep({
           })}
         </ol>
       </div>
-      </div>
 
-      <h2 className={styles.sectionTitle}>Notes for the whole scene</h2>
+      <div className={styles.notesCol}>
+      <h2 className={styles.sectionTitle}>Notes for the Whole Scene</h2>
       <TextArea
         aria-label="Notes for the whole scene"
         placeholder="Anything that isn't one item's placement: the environment, the mood, the light, a dish swap. E.g. make it feel like a busy Saturday market stall."
@@ -637,7 +635,7 @@ export function ReviewStep({
       )}
 
       <div className={styles.preview} aria-live="polite">
-        <h3 className={styles.previewTitle}>What changes in the prompt</h3>
+        <h3 className={styles.previewTitle}>What Changes in the Prompt</h3>
         {adjustments.length === 0 && directions.length === 0 ? (
           <p className={styles.previewEmpty}>Nothing yet. Unmarked items are described just as the sketch shows them.</p>
         ) : (
@@ -665,6 +663,8 @@ export function ReviewStep({
           </>
         )}
       </div>
+      </div>
+      </div>
 
       <StepActions>
         {detail && !expired && detailStale && !drawing && pending.length > 0 && (
@@ -680,7 +680,7 @@ export function ReviewStep({
       <Modal isOpen={confirmRedraw} onOpenChange={setConfirmRedraw} isDismissable className={styles.modalOverlay}>
         <Dialog className={styles.dialog}>
           <Heading slot="title" className={styles.dialogTitle}>
-            {pending.length ? `Redraw with ${pendingText}?` : 'Draw the same sketch again?'}
+            {pending.length ? `Redraw with ${pending.length === 1 ? "1 Edit" : `${pending.length} Edits`}?` : 'Draw the Same Sketch Again?'}
           </Heading>
           <p className={styles.dialogText}>
             Each redraw counts toward your monthly limit ({SKETCH_MODEL_LABEL}), so make all your edits first and redraw once.

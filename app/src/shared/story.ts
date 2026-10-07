@@ -4,8 +4,8 @@
 // in the proxy PNG to its text.
 
 import { z } from "zod";
-import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase } from "./registry";
-import { type LightingPreset, angleById, angleSentence, glassRules, lookById, lookSentence, selectLighting, skuLightSentence } from "./rules";
+import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, RECTANGULAR_TABLE_RULE, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase, withoutRoundTable } from "./registry";
+import { type LightingPreset, NO_HANDS_RULE, angleById, angleSentence, glassRules, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
 import { sceneItems } from "./scene";
 import type { Blueprint, SceneSpec, Vessel } from "./types";
 import { venueType } from "./venues";
@@ -208,7 +208,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     framingSentence: hasPartner
       ? "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background. The second place setting sits further back or to the side as a secondary element, and may be partly cropped at the frame's edge."
       : "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background.",
-    surfaceText: spec.scene.surfaceText || SURFACES[spec.scene.surface].promptText,
+    surfaceText: withoutRoundTable(spec.scene.surfaceText || SURFACES[spec.scene.surface].promptText),
     servingSentence: serving,
     labels: bp.primitives.map((p) => {
       const base = { label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), ...labelVessel(spec, p.proxy, p.role, styles.get(p.id)) };
@@ -224,7 +224,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
-    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either; no hands or people at the table.`,
+    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either. ${NO_HANDS_RULE}`,
   };
 }
 
@@ -292,7 +292,7 @@ function scaleSentence(bp: Blueprint): string {
 }
 
 export function labelText(story: Story, l: StoryFacts["labels"][number]): string {
-  return l.fixedText ?? story.labelSegments.find((x) => x.label === l.label)?.text ?? `${l.what}, on ${l.vessel}.`;
+  return l.fixedText ?? withoutHands(story.labelSegments.find((x) => x.label === l.label)?.text ?? `${l.what}, on ${l.vessel}.`);
 }
 
 /** Color direction per lighting warmth, so the prompt names the color treatment on its own line. */
@@ -341,6 +341,7 @@ export function compositionSegments(story: Story, facts: StoryFacts): Compositio
       text: [
         facts.proxyInstruction,
         facts.scaleSentence,
+        RECTANGULAR_TABLE_RULE,
         facts.adjustments?.length
           ? `Adjustments to the layout guide (these take priority over the shapes for the items named):\n- ${facts.adjustments.join("\n- ")}`
           : "",
@@ -372,7 +373,7 @@ export function compositionSegments(story: Story, facts: StoryFacts): Compositio
       title: "Background + table",
       note: `Not a shape: the tabletop (${facts.surfaceText}) and the place around and behind it`,
       fixed: false,
-      text: story.segments.environmentalOverview,
+      text: withoutRoundTable(story.segments.environmentalOverview),
     },
     {
       key: "camera",

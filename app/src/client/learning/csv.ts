@@ -13,7 +13,7 @@ function csvCell(value: string): string {
   return /[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
 }
 
-const CSV_HEADERS = ['id', 'createdAt', 'by', 'country', 'heroDish', 'verdict', 'tags', 'elements', 'note', 'image', 'prompt'];
+const CSV_HEADERS = ['id', 'createdAt', 'by', 'country', 'heroDish', 'verdict', 'tags', 'working', 'elements', 'note', 'image', 'prompt'];
 
 /** One row per record, newest-first order preserved from the input. */
 export function recordsToCsv(records: ExportableRecord[]): string {
@@ -27,6 +27,7 @@ export function recordsToCsv(records: ExportableRecord[]): string {
       r.brief.heroDish,
       r.verdict,
       r.tags.join(';'),
+      (r.working ?? []).join(';'),
       r.elements.join(';'),
       r.note,
       image,

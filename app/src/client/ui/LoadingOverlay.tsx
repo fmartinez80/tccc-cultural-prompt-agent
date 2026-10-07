@@ -34,12 +34,15 @@ function useCountUp(target: number): number {
 
 export function LoadingOverlay({
   open,
+  title,
   label,
   percent,
   failed = false,
 }: {
   /** The work is running. Keep the overlay mounted after it stops so it can finish at 100%. */
   open: boolean;
+  /** The step being prepared ("Sides and Accompaniments"), shown above the message. */
+  title?: string;
   label: string;
   /** 0-99 while running; null before the first estimate. */
   percent: number | null;
@@ -79,7 +82,10 @@ export function LoadingOverlay({
           </div>
           <img className={styles.outline} src="/loading-bottle-outline.png" alt="" draggable={false} />
         </div>
-        <p className={styles.label}>{label}</p>
+        <div className={styles.text}>
+          {title && <p className={styles.title}>{title}</p>}
+          <p className={title ? styles.message : styles.label}>{label}</p>
+        </div>
         <p className={styles.percent} aria-label={`${shown} percent`}>
           {shown}%
         </p>

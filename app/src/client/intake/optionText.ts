@@ -34,3 +34,11 @@ export function countryPhrase(label: string): string {
   const needsThe = /^(united |czech |dominican |central african )|republic|kingdom|emirates|islands$|^netherlands$|^philippines$|^bahamas$|^maldives$|^gambia$/i;
   return needsThe.test(label.trim()) && !/^the /i.test(label.trim()) ? `the ${label.trim()}` : label.trim();
 }
+
+/** "Montevideo, Uruguay" from a region and country label, or just the country; "this country" before one is picked. */
+export function placeName(countryLabel: string, regionLabel?: string): string {
+  const country = countryLabel.trim();
+  if (!country) return 'this country';
+  const region = regionLabel?.trim();
+  return region ? `${region}, ${countryPhrase(country)}` : countryPhrase(country);
+}

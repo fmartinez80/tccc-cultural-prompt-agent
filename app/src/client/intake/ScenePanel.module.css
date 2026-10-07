@@ -19,6 +19,11 @@
   box-shadow: var(--neo-shadow);
 }
 
+/* The placeholders while the scene renders, with the progress ring centered over them. */
+.pending {
+  position: relative;
+}
+
 .skeleton {
   display: flex;
   border-radius: var(--bay-r-sm);

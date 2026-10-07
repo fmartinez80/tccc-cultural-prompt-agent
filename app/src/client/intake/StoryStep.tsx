@@ -236,7 +236,7 @@ export function StoryStep({
 
   return (
     <section>
-      <h1>Story &amp; scene</h1>
+      <h1>Story &amp; Scene</h1>
       <p>
         The agent writes the scene story, then {WORKSPACE_MODEL_LABEL} renders it from the labeled proxy and the story's prompt segments.
         Edit any segment below and generate again.
@@ -256,7 +256,8 @@ export function StoryStep({
           timing={storyTask.timing}
           agentError={storyTask.agentError}
           trpcError={storyTask.trpcError}
-          workingLabel="The agent is writing the scene story"
+          workingLabel="We are writing up a detailed summary of your scene. This will help us validate what is and what isn’t working in your composition."
+          workingTitle="Scene Story"
           overlay
           onSignedIn={() => onSignedIn(() => generateStory())}
           onRetry={() => generateStory()}
@@ -283,7 +284,7 @@ export function StoryStep({
           )}
         </section>
 
-        <Group title="Cultural & visual authentication">
+        <Group title="Cultural & Visual Authentication">
           <Accordion
             title="Design guides & cultural authenticity checklist"
             meta={story ? checksMeta : <span className={styles.statusMuted}>Waiting for the story</span>}
@@ -291,7 +292,7 @@ export function StoryStep({
             <div className={styles.checksBody}>
               <section>
                 <div className={styles.blockHead}>
-                  <h3 className={styles.blockLabel}>Cultural accuracy</h3>
+                  <h3 className={styles.blockLabel}>Cultural Accuracy</h3>
                   <Button
                     variant={validation ? 'default' : 'primary'}
                     size="sm"
@@ -341,13 +342,13 @@ export function StoryStep({
               </section>
 
               <section>
-                <h3 className={styles.blockLabel}>Generated image</h3>
+                <h3 className={styles.blockLabel}>Generated Image</h3>
                 <SceneImageCheck gen={gen} />
               </section>
 
               <section>
                 <div className={styles.blockHead}>
-                  <h3 className={styles.blockLabel}>Layout rules</h3>
+                  <h3 className={styles.blockLabel}>Layout Rules</h3>
                   <DownloadButton label="layout rules" onPress={() => triggerDownload(`${slug}-rule-checks.txt`, rulesText)} />
                 </div>
                 <ul className={styles.ruleList}>

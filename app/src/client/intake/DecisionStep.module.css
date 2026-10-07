@@ -156,6 +156,23 @@
   margin-top: 0;
 }
 
+/* In the Change-accent dialog: no divider, and the list scrolls with the options (no sticky offset from the page header). */
+.accentPickerInDialog {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.accentPickerInDialog .compositionList {
+  position: static;
+}
+
+.accentQuestion {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: var(--app-weight-subhead);
+}
+
 .accentPicker .compositionList h3 {
   margin: 0;
   font-size: 15px;

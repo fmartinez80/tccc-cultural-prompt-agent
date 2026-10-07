@@ -118,11 +118,14 @@ interface Variant {
 }
 
 const VARIANTS: Record<Archetype, Variant[]> = {
-  // Team reference: side back-left, condiment front-left, drink back-right.
+  // Team reference: side back-left, condiment level with the plate on its left, drink back-right.
+  // Nothing sits in front of the hero dish (H3), so condiments and accents stay at 180° or behind.
   "triangle-loop": [
-    { condAngle: 208, accentAngle: 172, sideAngle: 142 },
-    { condAngle: 200, accentAngle: 165, sideAngle: 150 },
-    { condAngle: 218, accentAngle: 178, sideAngle: 135 },
+    { condAngle: 178, accentAngle: 155, sideAngle: 125 },
+    { condAngle: 175, accentAngle: 150, sideAngle: 118 },
+    { condAngle: 180, accentAngle: 160, sideAngle: 132 },
+    // Crowded left (two or more sides): the accent tucks in straight behind the plate instead.
+    { condAngle: 180, accentAngle: 98, sideAngle: 145 },
   ],
   "crescent-arc": [
     { condAngle: 92, accentAngle: 150 },
@@ -141,7 +144,7 @@ const VARIANTS: Record<Archetype, Variant[]> = {
   ],
   "feast-spread": [
     { condAngle: 100, accentAngle: 175 },
-    { condAngle: 130, accentAngle: 185 },
+    { condAngle: 130, accentAngle: 178 },
     { condAngle: 85, accentAngle: 165 },
   ],
   // Dish and drink only: the drink just off the plate's right edge, a touch behind its center.
@@ -251,8 +254,11 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
       list.forEach((c, k) => {
         const dist = rim + 0.04 + r(c);
         const step = (2 * Math.asin(Math.min(1, (2 * r(c) + 0.02) / (2 * dist))) * 180) / Math.PI;
-        const offset = k === 0 ? 0 : Math.ceil(k / 2) * step * (k % 2 ? -1 : 1);
-        pos.set(c.label, polar(anchor, angle + offset, dist));
+        const offsets = list.map((_, k) => (k === 0 ? 0 : Math.ceil(k / 2) * step * (k % 2 ? -1 : 1)));
+        // Around the entree the fan never swings past 180° into the space in front of it (H3):
+        // the whole cluster turns back instead.
+        const back = partner === "MAIN" ? Math.max(0, angle + Math.max(...offsets) - 180) : 0;
+        pos.set(c.label, polar(anchor, angle + offsets[k]! - back, dist));
       });
     }
   };
@@ -260,8 +266,8 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
   switch (archetype) {
     case "triangle-loop": {
       // The team's preferred reference: a depth triangle around the plate with the
-      // side dish back-left, the condiment front-left and the drink back-right.
-      const angles = [v.sideAngle ?? 142, 115, 165, 100];
+      // side dish back-left, the condiment level on its left and the drink back-right.
+      const angles = [v.sideAngle ?? 125, v.sideAngle && v.sideAngle > 140 ? 65 : 95, 150, 75];
       sides.forEach((s, k) => pos.set(s.label, polar(P, angles[k % 4], R + 0.035 + r(s) + Math.floor(k / 4) * 0.12)));
       condCluster(v.condAngle);
       break;
@@ -328,7 +334,7 @@ function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Arche
     case "across-offset":
     case "corner": {
       // Two place settings: shared dishes fill the open zone beside/between the settings, never in front of MAIN (H3).
-      const angles = [200, 160, 220, 140];
+      const angles = [160, 180, 140, 120];
       sides.forEach((s, k) => pos.set(s.label, polar(P, angles[k % 4], R + 0.12 + r(s) + Math.floor(k / 4) * 0.12)));
       condCluster(v.condAngle);
       break;
@@ -421,7 +427,8 @@ function candidateSpots(p: Placed, main: Placed, placed: Placed[] = []): Anchor[
     angles = range(0, 85, 7.5);
     gaps = range(0.02, 0.26, 0.03);
   } else if (k === "condiment" || k === "accent") {
-    angles = range(0, 345, 15);
+    // Around the entree: beside or behind it, never in front (H3). Around a side dish: anywhere.
+    angles = partner ? range(0, 345, 15) : range(-15, 195, 15);
     gaps = [0.03, 0.045, 0.06, 0.075];
   } else if (k === "napkin-set" || k === "main") {
     return [];
@@ -784,14 +791,15 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
     detail: far.length ? `outside 1-3 in of their dish: ${far.map((c) => c.item.label).join(", ")}` : cond.length ? "condiments within 1-3 in of their dish" : "no condiments",
     offenders: movable(far.map((c) => c.item.label)),
   });
-  // Depth hierarchy (coca-cola-guidelines.md §4.2, tableware reference §1): supporting
-  // dishes sit in the midground, never in front of the entree; nothing in front of the SKU.
-  const forward = placed.filter((p) => ["side", "shared-side", "bread", "shared-hero"].includes(p.item.kind) && p.d < main.d - 0.02);
+  // Depth hierarchy (coca-cola-guidelines.md §4.2, tableware reference §1): nothing stands in
+  // front of the hero dish — supporting dishes, condiments and accents sit beside or behind it.
+  // Only the flat napkin set and a second diner's own setting may come forward.
+  const forward = placed.filter((p) => ["side", "shared-side", "bread", "shared-hero", "condiment", "accent"].includes(p.item.kind) && p.d < main.d - 0.02);
   out.push({
     id: "H3",
     name: "Depth hierarchy",
     pass: forward.length === 0,
-    detail: forward.length ? `in front of the entree: ${forward.map((p) => p.item.label).join(", ")}` : "supporting dishes sit at or behind the entree",
+    detail: forward.length ? `in front of the hero dish: ${forward.map((p) => p.item.label).join(", ")}` : "nothing sits in front of the hero dish",
     offenders: movable(forward.map((p) => p.item.label)),
   });
   const n = placed.length;

@@ -1,7 +1,7 @@
 // Image feedback and what the app learns from it.
 //
-// An operator rates a generated scene image (verdict, quick tags, the parts
-// that are wrong, a note). Each rating is saved with the prompt and choices it
+// An operator rates a generated scene image (verdict, what's working, quick
+// tags, a thumbs up or down on each part, a note). Each rating is saved with the prompt and choices it
 // came from, grouped by country + hero dish. From a dish's feedback the agent
 // drafts lessons (short corrections fed into later prompts once a person
 // confirms them) and knowledge-base edits (appended to a section of a .md file
@@ -17,6 +17,20 @@ export const VERDICT_LABELS: Record<Verdict, string> = {
   fixes: 'Usable with fixes',
   unusable: 'Unusable',
 };
+
+/** Positive quick tags: what the image gets right, so the learning agent keeps doing it. */
+export const WORKING_TAGS: Array<{ id: string; label: string }> = [
+  { id: 'authentic', label: 'Culturally authentic' },
+  { id: 'appetizing', label: 'Looks delicious' },
+  { id: 'product-right', label: 'Product looks right' },
+  { id: 'great-lighting', label: 'Great lighting' },
+  { id: 'strong-composition', label: 'Strong composition' },
+  { id: 'follows-layout', label: 'Follows the layout' },
+  { id: 'photoreal', label: 'Photoreal' },
+  { id: 'right-setting', label: 'Right setting and mood' },
+];
+
+export const WORKING_TAG_IDS: ReadonlySet<string> = new Set(WORKING_TAGS.map((t) => t.id));
 
 export const FEEDBACK_TAGS: Array<{ group: string; tags: Array<{ id: string; label: string }> }> = [
   {
@@ -65,7 +79,7 @@ export const FEEDBACK_TAGS: Array<{ group: string; tags: Array<{ id: string; lab
   },
 ];
 
-export const TAG_LABELS: Record<string, string> = Object.fromEntries(FEEDBACK_TAGS.flatMap((g) => g.tags.map((t) => [t.id, t.label])));
+export const TAG_LABELS: Record<string, string> = Object.fromEntries([...WORKING_TAGS, ...FEEDBACK_TAGS.flatMap((g) => g.tags)].map((t) => [t.id, t.label]));
 
 /** Element chip for issues about the whole picture rather than one node. */
 export const SCENE_ELEMENT = 'SCENE';
@@ -103,8 +117,10 @@ export const FeedbackInput = z.object({
   imageUrl: z.string().min(1).max(500),
   verdict: Verdict,
   tags: z.array(z.string().max(40)).max(30),
-  /** Node chips the feedback is about (MAIN, SIDE_1, SKU, …, or SCENE). */
+  /** Node chips voted "needs work" (MAIN, SIDE_1, SKU, …, or SCENE). */
   elements: z.array(z.string().max(64)).max(20),
+  /** Node chips voted "working"; absent on ratings saved before votes existed. */
+  working: z.array(z.string().max(64)).max(20).optional(),
   note: z.string().max(2000),
   prompt: z.string().max(20_000),
   model: z.string().max(80),

@@ -1,7 +1,7 @@
 // Intake answers → SceneSpec. Shared by the browser (to show rule effects as
 // the operator goes) and the server (to compose and write the story).
 
-import { SKU_CATALOG, seatLikeSurface } from "./registry";
+import { SKU_CATALOG, seatLikeSurface, withoutRoundTable } from "./registry";
 import { glassRule, timeFromOccasion } from "./rules";
 import { venueType } from "./venues";
 import type { AccentChoice, IntakeInput, Occasion, PlatingChoice, PrepChoice, SceneSpec, SidesChoice, SkuInfo, Surface } from "./types";
@@ -71,7 +71,7 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
       time,
       surface: sel.scene.surface ?? (shared ? undefined : place?.surface) ?? defaultSurface(venue, sel.scene.party, shared),
       // A seat, step or the ground chosen before the table rule falls back to the surface's own description.
-      surfaceText: (seatLikeSurface(sel.scene.surfaceText) ? undefined : sel.scene.surfaceText) ?? place?.surfaceText,
+      surfaceText: (seatLikeSurface(sel.scene.surfaceText) ? undefined : sel.scene.surfaceText && withoutRoundTable(sel.scene.surfaceText)) ?? place?.surfaceText,
       venueType: place?.id,
       environmentNote: sel.scene.environmentNote?.trim() || undefined,
     },

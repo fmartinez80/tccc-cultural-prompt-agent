@@ -7,7 +7,7 @@
 
 import { z } from 'zod';
 import tablewareStyle from '../../rules/tableware-style.json';
-import { ON_THE_GO_SURFACE_RULE, benchSurface, onTheGoSurfaceRule, seatLikeSurface } from '../shared/registry.ts';
+import { ON_THE_GO_SURFACE_RULE, benchSurface, onTheGoSurfaceRule, seatLikeSurface, withoutRoundTable } from '../shared/registry.ts';
 import { foodStylingRules } from '../shared/rules.ts';
 import { environmentBrief, venueType } from '../shared/venues.ts';
 import type { TextTask } from './gemini.ts';
@@ -68,6 +68,8 @@ How to work:
 - Vessels must come from the allowed vocabulary: ${Vessel.options.join(', ')}. Pick the closest one and put the exact wording in promptText. A condiment served from its own container uses that container's shape: condiment-bottle for a bottle (malt vinegar, hot sauce, ketchup), shaker for salt, pepper or spice, jar for mustard, chutney or pickles; ramekin, small-bowl and sauce-boat are only for condiments spooned into a dish.
 - Every vessel gets a vesselStyle: its material, color and finish. Follow the dishware rules below.
 - The Coca-Cola product is always the only drink in the scene; never suggest another beverage.
+- Tables are never round, circular or oval: describe a square or rectangular table with straight edges, in every option, surface and "Table:" description.
+- No hands or people appear in any image. Even for food eaten by hand (empanadas, tacos, sandwiches, slices), describe it resting on its vessel or the surface; never write "handheld", "held", "in hand", "picked up" or "bitten", and never place a person, diner or passer-by in a scene or environment description.
 
 Dishware rules (the country files give each vessel's type and size but rarely its look, so without these every bowl comes out plain white):
 ${tablewareStyle.rules.map((r) => `- ${r}`).join('\n')}
@@ -529,6 +531,7 @@ function benchNotAlone(d: Decision<SurfaceChoice>): Decision<SurfaceChoice> {
   const isBench = (v: SurfaceChoice) => v.surface === 'bench' || benchSurface(`${v.label} ${v.promptText}`);
   const kept = d.options
     .filter((o) => !seatLikeSurface(`${o.value.label} ${o.value.promptText}`))
+    .map((o) => ({ ...o, value: { ...o.value, label: withoutRoundTable(o.value.label).replace(/^./, (c) => c.toUpperCase()), detail: withoutRoundTable(o.value.detail), promptText: withoutRoundTable(o.value.promptText) } }))
     .map((o) => (isBench(o.value) ? { ...o, value: { ...o.value, surface: 'bench' as const } } : o));
   const tables = kept.filter((o) => !isBench(o.value));
   const benches = kept.filter((o) => isBench(o.value));

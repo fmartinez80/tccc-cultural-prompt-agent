@@ -30,7 +30,7 @@ export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b:
   if (config.isPending) {
     return (
       <section>
-        <h1>Let&rsquo;s make a scene</h1>
+        <h1>Let&rsquo;s Make a Scene</h1>
         <p>
           Based on your brief, tell us your country, SKU, hero meal and occasion. <strong>Scene&nbsp;Composer</strong> takes it from there, one question at a time. Pick
           preparation, plating and sides, then place the table and confirm the shot.
@@ -43,7 +43,7 @@ export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b:
   if (config.isError) {
     return (
       <section>
-        <h1>Let&rsquo;s make a scene</h1>
+        <h1>Let&rsquo;s Make a Scene</h1>
         <Alert tone="error" title="Couldn't load the country and product catalog">
           {config.error.message}
         </Alert>
@@ -58,7 +58,7 @@ export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b:
 
   return (
     <section>
-      <h1>Let&rsquo;s make a scene</h1>
+      <h1>Let&rsquo;s Make a Scene</h1>
       <p>
         Based on your brief, tell us your country, SKU, hero meal and occasion. Scene Composer takes it from there, one question at a
         time. Pick preparation, plating and sides, then place the table and confirm the shot.

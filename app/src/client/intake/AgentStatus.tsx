@@ -25,6 +25,7 @@ export function AgentStatus({
   agentError,
   trpcError,
   workingLabel,
+  workingTitle,
   onSignedIn,
   onRetry,
   skeletonCards = 0,
@@ -36,6 +37,8 @@ export function AgentStatus({
   agentError: string | null;
   trpcError: unknown;
   workingLabel: string;
+  /** Heading above the message in the loading modal (overlay only). */
+  workingTitle?: string;
   onSignedIn: () => void;
   onRetry: () => void;
   /** Number of skeleton option cards to show while pending, shaped like the real ones. */
@@ -50,7 +53,7 @@ export function AgentStatus({
   return (
     <>
       {/* Always mounted (in the same place) so it can top up to 100% when the task finishes. */}
-      {overlay && <LoadingOverlay open={busy} label={workingLabel} percent={progress?.percent ?? null} failed={status === 'error'} />}
+      {overlay && <LoadingOverlay open={busy} title={workingTitle} label={workingLabel} percent={progress?.percent ?? null} failed={status === 'error'} />}
       <StatusBody
         status={status}
         agentError={agentError}

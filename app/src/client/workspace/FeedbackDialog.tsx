@@ -1,13 +1,13 @@
-// The feedback dialog: rate one generated scene image (verdict, quick tags,
-// what's wrong, a note), optionally keeping the automatic check's findings,
-// and send it to the Learning page.
+// The feedback dialog: rate one generated scene image (verdict, what's working,
+// what needs work, a thumbs up or down on each element, a note), optionally
+// keeping the automatic check's findings, and send it to the Learning page.
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { Download, ThumbsDown, X } from 'lucide-react';
+import { CheckCheck, Download, ThumbsDown, ThumbsUp, X } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 
-import { FEEDBACK_TAGS, SCENE_ELEMENT, VERDICT_LABELS, Verdict, type FeedbackInput } from '../../shared/feedback.ts';
+import { FEEDBACK_TAGS, SCENE_ELEMENT, VERDICT_LABELS, Verdict, WORKING_TAGS, type FeedbackInput } from '../../shared/feedback.ts';
 import type { SceneSpec } from '../../shared/types.ts';
 import { venueType } from '../../shared/venues.ts';
 import type { WsResult } from '../../shared/workspace.ts';
@@ -23,6 +23,12 @@ import { TextArea } from '../ui/TextArea.tsx';
 import styles from './FeedbackDialog.module.css';
 
 const NOTE_MAX = 2000;
+
+type Vote = 'working' | 'needs-work';
+
+function elementName(el: string): string {
+  return el === SCENE_ELEMENT ? 'Whole scene' : el;
+}
 
 function toggle<T>(set: Set<T>, value: T): Set<T> {
   const next = new Set(set);
@@ -83,7 +89,8 @@ export function FeedbackDialog({
 }) {
   const [verdict, setVerdict] = useState<Verdict | null>(null);
   const [tags, setTags] = useState<Set<string>>(new Set());
-  const [elementsSel, setElementsSel] = useState<Set<string>>(new Set());
+  // One vote per element: working, needs work, or not voted (absent).
+  const [votes, setVotes] = useState<Map<string, Vote>>(new Map());
   const [note, setNote] = useState('');
   const [includeCheck, setIncludeCheck] = useState(true);
   const prevKeyRef = useRef<string | null>(null);
@@ -100,12 +107,28 @@ export function FeedbackDialog({
     prevKeyRef.current = key;
     setVerdict(checkForImage?.pass === false ? 'unusable' : null);
     setTags(new Set());
-    setElementsSel(new Set(checkForImage?.issues.filter((i) => i.severity === 'major').map((i) => i.element) ?? []));
+    setVotes(new Map(checkForImage?.issues.filter((i) => i.severity === 'major').map((i) => [i.element, 'needs-work' as const]) ?? []));
     setNote('');
     setIncludeCheck(!!checkForImage);
     // Resetting the form is tied to a new (result, image) target, not to every change of the check itself.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key]);
+
+  const vote = (el: string, v: Vote) =>
+    setVotes((prev) => {
+      const next = new Map(prev);
+      if (next.get(el) === v) next.delete(el);
+      else next.set(el, v);
+      return next;
+    });
+  const votedWith = (v: Vote) => [...votes].filter(([, x]) => x === v).map(([el]) => el);
+  const markRestWorking = () =>
+    setVotes((prev) => {
+      const next = new Map(prev);
+      for (const el of allElements) if (!next.has(el)) next.set(el, 'working');
+      return next;
+    });
+  const unvoted = allElements.filter((el) => !votes.has(el)).length;
 
   const submit = trpc.feedbackSubmit.useMutation({
     onSuccess: (res, variables) => {
@@ -122,7 +145,8 @@ export function FeedbackDialog({
       imageUrl,
       verdict,
       tags: Array.from(tags),
-      elements: Array.from(elementsSel),
+      elements: votedWith('needs-work'),
+      working: votedWith('working'),
       note: note.trim(),
       prompt: result.prompt,
       model,
@@ -163,7 +187,7 @@ export function FeedbackDialog({
           <>
             <div className={styles.head}>
               <Heading slot="title" className={styles.title}>
-                Image {imageIndex} of this scene
+                Image {imageIndex} of This Scene
               </Heading>
               <Button size="sm" variant="ghost" icon={<X size={16} aria-hidden />} aria-label="Close" onPress={onClose} />
             </div>
@@ -205,7 +229,71 @@ export function FeedbackDialog({
                 </section>
 
                 <section className={styles.field}>
-                  <span className={styles.fieldLabel}>Quick tags</span>
+                  <span className={styles.fieldLabel}>What&rsquo;s working</span>
+                  <div className={styles.chipRow}>
+                    {WORKING_TAGS.map((t) => {
+                      const active = tags.has(t.id);
+                      return (
+                        <button
+                          key={t.id}
+                          type="button"
+                          className={styles.chip}
+                          data-tone="good"
+                          aria-pressed={active}
+                          data-active={active || undefined}
+                          onClick={() => setTags((prev) => toggle(prev, t.id))}
+                        >
+                          {t.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </section>
+
+                <section className={styles.field}>
+                  <div className={styles.voteHead}>
+                    <span className={styles.fieldLabel}>Vote on each element</span>
+                    <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} disabled={unvoted === 0} onPress={markRestWorking}>
+                      {votes.size === 0 ? 'All working' : 'Rest working'}
+                    </Button>
+                  </div>
+                  <p className={styles.hint}>Thumbs up what came out right, thumbs down what needs work. Both teach the next prompts.</p>
+                  <ul className={styles.voteList}>
+                    {allElements.map((el) => {
+                      const v = votes.get(el);
+                      return (
+                        <li key={el} className={styles.voteRow} data-vote={v}>
+                          <span className={styles.voteName}>{elementName(el)}</span>
+                          <button
+                            type="button"
+                            className={styles.voteBtn}
+                            data-kind="working"
+                            aria-pressed={v === 'working'}
+                            aria-label={`${elementName(el)} is working`}
+                            title="Working"
+                            onClick={() => vote(el, 'working')}
+                          >
+                            <ThumbsUp size={15} aria-hidden />
+                          </button>
+                          <button
+                            type="button"
+                            className={styles.voteBtn}
+                            data-kind="needs-work"
+                            aria-pressed={v === 'needs-work'}
+                            aria-label={`${elementName(el)} needs work`}
+                            title="Needs work"
+                            onClick={() => vote(el, 'needs-work')}
+                          >
+                            <ThumbsDown size={15} aria-hidden />
+                          </button>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </section>
+
+                <section className={styles.field}>
+                  <span className={styles.fieldLabel}>What needs work</span>
                   <div className={styles.tagGroups}>
                     {FEEDBACK_TAGS.map((group) => (
                       <div key={group.group} className={styles.tagGroup}>
@@ -229,27 +317,6 @@ export function FeedbackDialog({
                         </div>
                       </div>
                     ))}
-                  </div>
-                </section>
-
-                <section className={styles.field}>
-                  <span className={styles.fieldLabel}>What&rsquo;s wrong</span>
-                  <div className={styles.chipRow}>
-                    {allElements.map((el) => {
-                      const active = elementsSel.has(el);
-                      return (
-                        <button
-                          key={el}
-                          type="button"
-                          className={styles.chip}
-                          aria-pressed={active}
-                          data-active={active || undefined}
-                          onClick={() => setElementsSel((prev) => toggle(prev, el))}
-                        >
-                          {el}
-                        </button>
-                      );
-                    })}
                   </div>
                 </section>
 

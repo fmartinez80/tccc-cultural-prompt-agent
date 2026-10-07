@@ -1,10 +1,13 @@
 import { randomUUID } from 'node:crypto';
 
 import Router from '@koa/router';
+import { strToU8, zipSync } from 'fflate';
 import type Koa from 'koa';
 
 import { env } from './server/env.ts';
 import { mediaUrl, putFile } from './server/store.ts';
+import { refreshKbOverlay } from './server/feedback.ts';
+import { knowledgeExport } from './server/knowledge.ts';
 
 /**
  * The one boundary literal for raw routes. `mountApi`'s router prefix, the
@@ -107,6 +110,26 @@ export function mountApi(app: Koa) {
     const path = `uploads/${user.id}/${randomUUID()}.${ext}`;
     await putFile(path, new Uint8Array(Buffer.concat(chunks)), type);
     ctx.body = { url: mediaUrl(path) };
+  });
+
+  // The whole knowledge base as a zip of its markdown files, with approved
+  // Learning edits merged in — the files exactly as the agents read them.
+  api.get('/knowledge-base.zip', async (ctx) => {
+    if (!ctx.state.user) return ctx.throw(401, 'Sign in to continue.');
+    await refreshKbOverlay();
+    const files = knowledgeExport();
+    if (!files.length) {
+      ctx.status = 404;
+      ctx.body = { error: 'The knowledge base is not bundled with this build.' };
+      return;
+    }
+    const entries: Record<string, Uint8Array> = {};
+    for (const f of files) entries[`knowledge-base/${f.path}`] = strToU8(f.text);
+    const date = new Date().toISOString().slice(0, 10);
+    ctx.set('Content-Disposition', `attachment; filename="knowledge-base-${date}.zip"`);
+    ctx.set('Cache-Control', 'no-store');
+    ctx.type = 'application/zip';
+    ctx.body = Buffer.from(zipSync(entries, { level: 6 }));
   });
 
   // The gate wraps `await next()` rather than terminating, so middleware

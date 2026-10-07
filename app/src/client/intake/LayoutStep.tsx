@@ -112,7 +112,7 @@ export function PrepareLayout({
 
   const intro = (
     <>
-      <h1>Review the sketch</h1>
+      <h1>Review the Sketch</h1>
       <p>Picking the best layout for this table. The sketch starts drawing as soon as it's ready, and you can try other arrangements from there.</p>
     </>
   );
