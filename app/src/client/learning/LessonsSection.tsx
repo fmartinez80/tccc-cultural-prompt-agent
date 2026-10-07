@@ -4,7 +4,7 @@
 import { useMemo, useState } from 'react';
 
 import { DIAGNOSIS_LABELS, SCENE_ELEMENT, type FeedbackView, type Lesson } from '../../shared/feedback.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { trpc } from '../trpc.ts';
 import { Accordion } from '../ui/Accordion.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -25,7 +25,7 @@ function elementLabel(element: string): string {
 
 function LessonRow({ dishKey, lesson }: { dishKey: string; lesson: Lesson }) {
   const utils = trpc.useUtils();
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const [confirmingRetire, setConfirmingRetire] = useState(false);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(lesson.text);
@@ -127,7 +127,7 @@ function LessonRow({ dishKey, lesson }: { dishKey: string; lesson: Lesson }) {
 
 export function LessonsSection({ dishKey, lessons, records }: { dishKey: string; lessons: Lesson[]; records: FeedbackView[] }) {
   const utils = trpc.useUtils();
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const [addElement, setAddElement] = useState<string | null>(null);
   const [addText, setAddText] = useState('');
 

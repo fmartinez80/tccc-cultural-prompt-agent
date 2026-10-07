@@ -1,34 +1,16 @@
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
-import { bayDevErrorPanel } from './src/dev/error-panel-plugin.ts';
-import { bayPendingImports } from './src/dev/pending-imports-plugin.ts';
-import { bayPreviewBridge } from './src/dev/preview-bridge-plugin.ts';
-
-const apiPort = process.env['BAY_API_PORT'] ?? '3001';
+// `pnpm dev` runs the API (tsx watch src/index.ts) on API_PORT and Vite on
+// 5173; Vite forwards the API's paths to it.
+const apiPort = process.env['API_PORT'] ?? '3001';
 
 export default defineConfig({
-  plugins: [
-    react(),
-    bayPendingImports(),
-    bayDevErrorPanel(),
-    bayPreviewBridge(),
-  ],
+  plugins: [react()],
   server: {
-    /* bay-studio: server.host/allowedHosts/hmr patched for preview */
-    host: true,
-    allowedHosts: ['.vml.any.runwayml.com'],
-    hmr: { clientPort: 443, protocol: 'wss', overlay: false },
     strictPort: true,
     proxy: {
       '/trpc': `http://localhost:${apiPort}`,
-      '/__bay': `http://localhost:${apiPort}`,
-      // Raw (non-tRPC) Koa routes must be listed here or the browser hits
-      // Vite's SPA fallback instead of the API process under `bay dev` /
-      // Studio preview. Mirrors the `webapp` shape's generated config
-      // (packages/cli/src/commands/add.ts). Serve new raw Koa routes under
-      // `/api/…` — it's already proxied. Only a genuinely new top-level
-      // prefix (not `/trpc`, `/__bay`, `/api`, `/media`) needs a new entry.
       '/api': `http://localhost:${apiPort}`,
       '/media': `http://localhost:${apiPort}`,
     },

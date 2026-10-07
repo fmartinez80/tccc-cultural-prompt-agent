@@ -19,7 +19,7 @@ type PaletteKey = (typeof PALETTE_KEYS)[number];
 /**
  * Deterministically hash a name to one of the avatar palette slots, so the
  * same name always gets the same color. Backed by `--bay-app-<key>-bg`/`-fg`
- * CSS vars shipped in `@runway/bay-react/tokens.css`.
+ * CSS vars in `styles/tokens.css`.
  */
 export function paletteForName(name: string): PaletteKey {
   let h = 0;

@@ -1,10 +1,10 @@
 // One dish's feedback, lessons and knowledge-base edits.
 
-import { SignInPrompt, signInRequiredFrom } from '@runway/bay-react/runway-sign-in';
+import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
 import { ArrowLeft } from 'lucide-react';
 
 import type { DishSummary } from '../../shared/feedback.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { useProgress } from '../lib/progress.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
@@ -25,7 +25,7 @@ function isForbidden(err: unknown): boolean {
 
 function LearnPanel({ dishKey, recordsCount }: { dishKey: string; recordsCount: number }) {
   const run = useLearnRun(dishKey);
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const busy = run.status === 'starting' || run.status === 'polling';
   const progress = useProgress(LEARN_TIMING_KEY, busy ? run.startedAt : null, run.reported);
   const signIn = run.status === 'error' ? signInRequiredFrom(run.trpcError) : null;
@@ -41,7 +41,7 @@ function LearnPanel({ dishKey, recordsCount }: { dishKey: string; recordsCount: 
           <p className={styles.learnHelp}>
             {recordsCount === 0
               ? 'Rate at least one image for this dish first.'
-              : "Runs on the signed-in Runway account and spends its credits."}
+              : 'Runs the learning agent (Gemini Pro) over this dish’s ratings.'}
           </p>
         </div>
       </div>
@@ -50,15 +50,13 @@ function LearnPanel({ dishKey, recordsCount }: { dishKey: string; recordsCount: 
 
       {run.status === 'error' && signIn && (
         <SignInPrompt
-          reauth={signIn.reauth}
           onSignedIn={() => onSignedIn(() => run.run())}
-          description="Drafting lessons runs on your own Runway account and uses your own credits."
         />
       )}
 
       {run.status === 'error' && !signIn && (
-        <Alert tone="error" title={forbidden ? "This needs a model your plan can't run" : "The learning agent couldn't answer"}>
-          {run.learnError ?? (forbidden ? 'Upgrade the signed-in Runway account’s plan to draft lessons.' : 'Something went wrong. Try again.')}
+        <Alert tone="error" title={forbidden ? "This isn't available to you" : "The learning agent couldn't answer"}>
+          {run.learnError ?? 'Something went wrong. Try again.'}
           {!forbidden && (
             <div className={styles.retryRow}>
               <Button size="sm" onPress={() => run.run()}>

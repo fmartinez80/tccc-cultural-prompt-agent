@@ -2,7 +2,7 @@
 // what's wrong, a note), optionally keeping the automatic check's findings,
 // and send it to the Learning page.
 
-import { SignInPrompt, signInRequiredFrom } from '@runway/bay-react/runway-sign-in';
+import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
 import { Download, ThumbsDown, X } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
@@ -13,7 +13,7 @@ import { venueType } from '../../shared/venues.ts';
 import type { WsResult } from '../../shared/workspace.ts';
 import type { Brief } from '../intake/types.ts';
 import { vesselLine } from '../intake/optionText.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -112,7 +112,7 @@ export function FeedbackDialog({
       onSaved(variables.imageIndex, { id: res.id, verdict: variables.verdict, at: Date.now() });
     },
   });
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
 
   const buildInput = (): FeedbackInput | null => {
     if (!result || !verdict) return null;
@@ -274,7 +274,6 @@ export function FeedbackDialog({
 
                 {signIn ? (
                   <SignInPrompt
-                    reauth={signIn.reauth}
                     onSignedIn={() => onSignedIn(handleSubmit)}
                     description="Feedback is saved under your own sign-in."
                   />

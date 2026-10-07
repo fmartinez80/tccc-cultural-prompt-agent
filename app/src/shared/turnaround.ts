@@ -3,7 +3,8 @@
 // the full composition is generated. The profile view is made first; the other
 // two take it as image 1 so all three show the same object.
 
-export const TURNAROUND_MODEL = "gemini_3_1_flash_image" as const;
+/** Nano Banana 2 (GEMINI_IMAGE_FAST). */
+export const TURNAROUND_MODEL = "fast" as const;
 export const TURNAROUND_ASPECT_RATIO = "4:3" as const;
 export const TURNAROUND_IMAGE_SIZE = "1K" as const;
 

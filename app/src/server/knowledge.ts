@@ -2,10 +2,9 @@
 // carry `country:` front matter; regional files carry `region:` and
 // `parent_file:`. The brand and tableware references apply to every market.
 //
-// The reference build put every file whole into Claude's system prompt. Here
-// the agent runs as a Runway `claude_api` task, whose prompt is capped at
-// 48,000 characters, while a single country file is 80-190k. So each call gets
-// a budgeted excerpt: the files are split at their headings and the sections
+// A single country file is 80-190k characters, and sending it whole on every
+// agent call would be slow and costly. So each call gets a budgeted excerpt
+// (48,000 characters by default): the files are split at their headings and the sections
 // most relevant to the dish and the step are kept, in document order, with
 // their heading path so the agent can still cite "spain.md › DISH CATALOG › …".
 

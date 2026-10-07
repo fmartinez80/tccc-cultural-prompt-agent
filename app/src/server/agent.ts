@@ -1,16 +1,16 @@
-// The Food Stylist — Regional Expert. Each intake step becomes one Runway
-// `claude_api` task: the instructions and a budgeted knowledge-base excerpt go
+// The Food Stylist — Regional Expert. Each intake step becomes one Gemini
+// text call: the instructions and a budgeted knowledge-base excerpt go
 // in the system prompt, the brief + choices + task in the prompt, and the
 // answer comes back as JSON matching the step's schema. Submitting and
 // parsing are separate so the browser polls the task instead of holding one
 // request open for the whole generation.
 
 import { z } from 'zod';
-import type { ClaudeApiTaskOptions } from '@runway/bay/runway';
 import tablewareStyle from '../../rules/tableware-style.json';
 import { ON_THE_GO_SURFACE_RULE, benchSurface, onTheGoSurfaceRule, seatLikeSurface } from '../shared/registry.ts';
 import { foodStylingRules } from '../shared/rules.ts';
 import { environmentBrief, venueType } from '../shared/venues.ts';
+import type { TextTask } from './gemini.ts';
 import { keywords, knowledgeBlock, loadKnowledge, type ContextFocus } from './knowledge.ts';
 import type { Selections } from '../shared/spec.ts';
 import type { PromptLesson } from '../shared/feedback.ts';
@@ -31,10 +31,10 @@ import {
   type Venue,
 } from '../shared/types.ts';
 
-/** Decision steps run on Sonnet (fast, many calls); the story, its check and the image check on Opus. */
-export const MODELS = {
-  step: 'claude-sonnet-5',
-  story: 'claude-opus-5',
+/** Decision steps run on Gemini Flash (fast, many calls); the story, its check and the image check on Gemini Pro. */
+const MODELS = {
+  step: 'fast',
+  story: 'pro',
 } as const;
 
 const PROMPT_CAP = 48_000;
@@ -330,8 +330,8 @@ The exact prompt the images were generated from (the operator may have edited it
 ${prompt}`;
 }
 
-/** The claude_api options for one step. Throws when the request is incomplete. */
-export function buildTask(req: AgentRequest): ClaudeApiTaskOptions {
+/** The Gemini call for one step. Throws when the request is incomplete. */
+export function buildTask(req: AgentRequest): TextTask {
   const brief = toBrief(req.brief);
   const sel = req.selections ?? {};
   let task: string;
@@ -417,7 +417,7 @@ export function buildTask(req: AgentRequest): ClaudeApiTaskOptions {
     system_prompt: `${INSTRUCTIONS}\n\n${kb.text}`,
     prompt,
     temperature: req.kind === 'validate' || req.kind === 'imageCheck' ? 0.2 : 0.6,
-    // Generous: a cut-off answer is unreadable JSON. Kept well under the 12k cap so it finishes inside 120 s.
+    // Generous: a cut-off answer is unreadable JSON.
     max_output_tokens: req.kind === 'story' ? 8000 : req.kind === 'imageCheck' ? 4000 : big ? 3000 : 6000,
     ...(req.kind === 'imageCheck' && req.imageUrls ? { images: req.imageUrls.map((url) => ({ url })) } : {}),
   };
@@ -486,7 +486,7 @@ function extractJson(text: string): unknown {
  * schema, the broken text, no knowledge base. Sent once, automatically, before
  * the operator sees an error.
  */
-export function repairTask(kind: AgentKind, text: string, problem: string): ClaudeApiTaskOptions {
+export function repairTask(kind: AgentKind, text: string, problem: string): TextTask {
   const budget = PROMPT_CAP - 4_000;
   const broken = text.length > budget ? text.slice(0, budget) : text;
   return {
@@ -523,7 +523,7 @@ function toDecision<V>(step: StepName, value: z.ZodType<V>, raw: unknown): Decis
       rationale: o.sources.length ? `${o.rationale} (Sources: ${o.sources.join('; ')})` : o.rationale,
       value: value.parse(o.value),
     })),
-    source: 'claude',
+    source: 'agent',
   };
 }
 

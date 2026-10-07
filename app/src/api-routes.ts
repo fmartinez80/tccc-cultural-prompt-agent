@@ -1,5 +1,10 @@
+import { randomUUID } from 'node:crypto';
+
 import Router from '@koa/router';
 import type Koa from 'koa';
+
+import { env } from './server/env.ts';
+import { mediaUrl, putFile } from './server/store.ts';
 
 /**
  * The one boundary literal for raw routes. `mountApi`'s router prefix, the
@@ -9,18 +14,9 @@ import type Koa from 'koa';
  */
 export const API_PREFIX = '/api';
 
-// Raw (non-tRPC) Koa routes live here, under `/api` — that prefix is already
-// proxied by the dev server (see `vite.config.ts`), so a route added here
-// works under `bay dev` and Studio preview with no extra config. `index.ts`
-// must mount this before the static fallback (`mountStaticFallback` below),
-// whose production catch-all answers anything that reaches it. They sit in
-// their own module rather than in `routes.ts` because `bay add webapp-runway-api` keeps an app's existing
-// `routes.ts` as-is, and the rewritten `index.ts` has to import `mountApi`
-// from a file the template always owns.
-//
-// There is no body-parsing middleware: the tRPC adapter reads `ctx.req`
-// itself, so a global parser would leave it nothing to read. Use
-// `readJsonBody(ctx)` from `./api-body.ts` instead.
+// Raw (non-tRPC) Koa routes live here, under `/api`: the browser's public
+// config and binary image uploads. `index.ts` mounts this before the static
+// fallback. The dev server proxies `/api` (see `vite.config.ts`).
 export function isApiPath(path: string): boolean {
   // Normalize the way the router does before comparing. `@koa/router` matches
   // case-insensitively and treats a trailing slash as optional, so a literal
@@ -51,9 +47,7 @@ const staticAnswers = new WeakSet<Koa.Context>();
  * Mounts the static middleware with a provenance marker wrapped around it:
  * whatever it answers (a file out of `dist/`, or the SPA shell from its
  * catch-all) is recorded, which is what lets the gate below tell the SPA
- * fallback apart from a real handler's answer without reaching into
- * `routes.ts` — a file `bay add webapp-runway-api` preserves as the app wrote
- * it.
+ * fallback apart from a real handler's answer.
  *
  * It takes the mount as an argument rather than being a separate `app.use`
  * line on purpose: a bare marker records everything mounted below it, so a
@@ -86,42 +80,49 @@ export function mountStaticFallback(app: Koa, mount: (app: Koa) => void) {
 export function mountApi(app: Koa) {
   const api = new Router({ prefix: API_PREFIX });
 
-  // Uncomment (and add the `readJsonBody` import from './api-body.ts'):
-  // api.post('/echo', async (ctx) => {
-  //   const body = await readJsonBody<{ message: string }>(ctx);
-  //   ctx.body = { echoed: body.message };
-  // });
-  //
-  // A raw route that spends the visitor's Runway credits goes behind
-  // `requireRunwayUser()` (from '@runway/bay/runway'), the raw-route twin of
-  // `signedInProcedure` in src/trpc.ts — without a session it answers
-  // `401 { error: 'sign_in_required', reauth }`, which `<SignInPrompt>` on
-  // the client turns into a popup sign-in:
-  // api.post('/generate', requireRunwayUser(), async (ctx) => {
-  //   const body = await readJsonBody<{ prompt: string }>(ctx);
-  //   const task = await ctx.state.runway!.runTask('gemini_image', {
-  //     text_prompt: body.prompt,
-  //   });
-  //   ctx.body = { artifacts: task.artifacts };
-  // });
+  // What the browser needs to start a magic-link sign-in. The anon key is
+  // public by design: every table has row-level security with no policies.
+  api.get('/config', (ctx) => {
+    ctx.body = { supabaseUrl: env.supabaseUrl, supabaseAnonKey: env.supabaseAnonKey };
+  });
 
-  // The gate wraps `await next()` rather than terminating, so middleware you
-  // mount after `mountApi(app)` (an upload mount, an SSE handler, `bay add
-  // agent`'s router) still sees `/api` requests — and its answer is final.
+  // An image the browser made or picked (the layout proxy, a reference), sent
+  // as raw bytes rather than base64 text inside JSON. Stored under the user's
+  // uploads; the answer is its `/media/` URL.
+  api.post('/upload', async (ctx) => {
+    const user = ctx.state.user;
+    if (!user) return ctx.throw(401, 'Sign in to continue.');
+    const type = ctx.request.type.toLowerCase();
+    const ext = UPLOAD_TYPES[type];
+    if (!ext) ctx.throw(415, 'Use a PNG, JPEG or WebP image.');
+    const chunks: Buffer[] = [];
+    let total = 0;
+    for await (const chunk of ctx.req) {
+      const buf: Buffer = typeof chunk === 'string' ? Buffer.from(chunk) : chunk;
+      total += buf.length;
+      if (total > MAX_UPLOAD_BYTES) ctx.throw(413, 'That image is larger than 4 MB; use a smaller one.');
+      chunks.push(buf);
+    }
+    if (!total) ctx.throw(400, 'The image was empty.');
+    const path = `uploads/${user.id}/${randomUUID()}.${ext}`;
+    await putFile(path, new Uint8Array(Buffer.concat(chunks)), type);
+    ctx.body = { url: mediaUrl(path) };
+  });
+
+  // The gate wraps `await next()` rather than terminating, so middleware
+  // mounted after `mountApi(app)` still sees `/api` requests.
   app.use(apiJsonGate(api));
   app.use(api.routes());
 }
+
+const UPLOAD_TYPES: Record<string, string> = { 'image/png': 'png', 'image/jpeg': 'jpg', 'image/webp': 'webp' };
+const MAX_UPLOAD_BYTES = 4 * 1024 * 1024;
 
 /**
  * Keeps `/api` JSON-only: an unmatched or wrong-method API request comes back
  * as a JSON 404/405 instead of the SPA shell with a 200 (which makes a
  * caller's `res.json()` choke on `<!doctype html>` and an uptime check report
  * a healthy route that does not exist).
- *
- * It lives here, not in `mountStatic`, because `bay add webapp-runway-api`
- * preserves an app's existing `src/routes.ts` — a guard there would be absent
- * from every app scaffolded before it was written, while this file is always
- * the template's own.
  *
  * It decides 405-vs-404 from `api`'s own route table only, and only once
  * nothing else has answered, so a downstream handler's own status is never

@@ -28,7 +28,7 @@ export function mountStatic(app: Koa) {
   const distDir = path.resolve(import.meta.dirname, '..', 'dist');
   if (!existsSync(path.join(distDir, 'index.html'))) {
     console.warn(
-      '[bay] dist/index.html not found — skipping static file serving. Run your build step first.'
+      '[static] dist/index.html not found — skipping static file serving. Run your build step first.'
     );
     return;
   }

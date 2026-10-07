@@ -1,5 +1,5 @@
 // The layout proxy: image 1 for every scene generation. Shown at once
-// (rendered client-side), uploaded to Runway lazily the first time a scene
+// (rendered client-side), uploaded lazily the first time a scene
 // is generated.
 
 import { CircleCheck, LoaderCircle } from 'lucide-react';

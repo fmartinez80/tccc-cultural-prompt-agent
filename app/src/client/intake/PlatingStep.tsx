@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 
 import type { Decision, PlatingChoice } from '../../shared/types.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import type { Selections } from '../../shared/spec.ts';
 import { DecisionStep } from './DecisionStep.tsx';
 import { keepCustom, useCustomOption } from './useCustomOption.ts';
-import { vesselLine, vesselName } from './optionText.ts';
+import { vesselName } from './optionText.ts';
 import type { Brief } from './types.ts';
 
 export function PlatingStep({
@@ -29,7 +29,7 @@ export function PlatingStep({
   onNext: () => void;
 }) {
   const task = useAgentTask('plating');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
 
   const load = () => task.run({ brief, selections: sel });
 

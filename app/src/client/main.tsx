@@ -1,4 +1,3 @@
-import '@runway/bay-react/tokens.css';
 import './styles/tokens.css';
 import './styles/global.css';
 
@@ -7,6 +6,9 @@ import { httpBatchLink } from '@trpc/client';
 import { createRoot } from 'react-dom/client';
 
 import { App } from './App.tsx';
+import { LoginPage } from './auth/LoginPage.tsx';
+import { activeBriefHeader } from './lib/activeBrief.ts';
+import { useAuth } from './lib/auth.ts';
 import { trpc } from './trpc.ts';
 import { ErrorBoundary } from './ui/ErrorBoundary.tsx';
 
@@ -36,6 +38,11 @@ const trpcClient = trpc.createClient({
       // never overflows the request URL.
       methodOverride: 'POST',
       fetch: readableFetch,
+      // The brief being worked on, so each generated image is filed under its country and dish.
+      headers: () => {
+        const brief = activeBriefHeader();
+        return brief ? { 'x-scene-brief': brief } : {};
+      },
     }),
   ],
 });
@@ -43,11 +50,20 @@ const trpcClient = trpc.createClient({
 const root = document.getElementById('root');
 if (!root) throw new Error('Missing #root element');
 
+/** The app for invited, signed-in users; the magic-link page for everyone else. */
+function AuthGate() {
+  const auth = useAuth();
+  // A single quick request (the sign-in config); show nothing rather than a flash of the login page.
+  if (auth.status === 'loading') return null;
+  if (auth.status === 'signed-out') return <LoginPage error={auth.error} />;
+  return <App />;
+}
+
 createRoot(root).render(
   <ErrorBoundary>
     <trpc.Provider client={trpcClient} queryClient={queryClient}>
       <QueryClientProvider client={queryClient}>
-        <App />
+        <AuthGate />
       </QueryClientProvider>
     </trpc.Provider>
   </ErrorBoundary>

@@ -19,8 +19,8 @@ import {
   type WsSegment,
 } from '../../shared/workspace.ts';
 import { prepareImage } from '../lib/prepareImage.ts';
+import { uploadImage } from '../lib/uploadImage.ts';
 import { isForbidden, type LiveTask } from '../lib/useWorkspaceTasks.ts';
-import { trpc } from '../trpc.ts';
 import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -65,7 +65,6 @@ export function SegmentNode({
   const baselineRef = useRef<string | null>(null);
   const [broken, setBroken] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
-  const utils = trpc.useUtils();
   const [uploadStarted, setUploadStarted] = useState<number | null>(null);
   const uploadBusy = uploadStarted !== null;
   const uploadProgress = useProgress('image-upload', uploadStarted);
@@ -123,12 +122,10 @@ export function SegmentNode({
     const timer = setTimeout(() => abort.abort(), UPLOAD_TIMEOUT_MS);
     try {
       const dataUrl = await prepareImage(file);
-      const { url } = await utils.client.workspaceImageUpload
-        .mutate({ dataUrl, name: file.name }, { signal: abort.signal })
-        .catch((err: unknown) => {
-          if (abort.signal.aborted) throw new Error(`The upload didn't finish within ${UPLOAD_TIMEOUT_MS / 1000} seconds. Add the image again.`);
-          throw err;
-        });
+      const { url } = await uploadImage(dataUrl, abort.signal).catch((err: unknown) => {
+        if (abort.signal.aborted) throw new Error(`The upload didn't finish within ${UPLOAD_TIMEOUT_MS / 1000} seconds. Add the image again.`);
+        throw err;
+      });
       recordDuration('image-upload', begun);
       history.record((w) => ({
         ...w,
@@ -273,7 +270,7 @@ export function SegmentNode({
                     type="button"
                     className={styles.uploadThumbButton}
                     onClick={() => ctx.openLightbox(upload.url, `${seg.chip}: your image`)}
-                    aria-label={`View your ${seg.chip} image as uploaded to Runway`}
+                    aria-label={`View your ${seg.chip} image as uploaded`}
                   >
                     <img className={styles.uploadThumb} src={upload.url} alt="" onError={() => setBroken(upload.url)} />
                   </button>
@@ -322,20 +319,20 @@ export function SegmentNode({
                 {uploadBusy ? 'Uploading…' : 'Add your own image'}
               </Button>
             )}
-            {uploadBusy && uploadProgress && <ProgressBar size="sm" label="Uploading your image to Runway" progress={uploadProgress} />}
+            {uploadBusy && uploadProgress && <ProgressBar size="sm" label="Uploading your image" progress={uploadProgress} />}
             {!uploadBusy && upload && (
               <span className={styles.statusLine} role="status">
                 {broken === upload.url
                   ? 'This upload has expired. Add the image again.'
                   : !active
-                    ? 'Uploaded to Runway. Not sent to the scene while this node is bypassed.'
+                    ? 'Uploaded. Not sent to the scene while this node is bypassed.'
                     : ws.useAsRef[seg.key] === false
-                      ? 'Uploaded to Runway. Not sent to the scene: "Use as reference" is off.'
+                      ? 'Uploaded. Not sent to the scene: "Use as reference" is off.'
                       : sentAs?.source === 'upload'
-                        ? `Uploaded to Runway. Your image goes to the scene as image ${sentAs.n}.`
+                        ? `Uploaded. Your image goes to the scene as image ${sentAs.n}.`
                         : sentAs
-                          ? `Uploaded to Runway. The preview made from it goes to the scene as image ${sentAs.n}.`
-                          : 'Uploaded to Runway.'}
+                          ? `Uploaded. The preview made from it goes to the scene as image ${sentAs.n}.`
+                          : 'Uploaded.'}
               </span>
             )}
             {uploadError && (

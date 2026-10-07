@@ -32,9 +32,10 @@ import {
   type WsResult,
   type WsSegment,
 } from '../../shared/workspace.ts';
-import { renderProxy } from '../lib/renderProxy.ts';
+import { MODEL_PROXY_WIDTH, renderProxy } from '../lib/renderProxy.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { uploadImage } from '../lib/uploadImage.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { type WorkspaceTaskInput, useWorkspaceTasks } from '../lib/useWorkspaceTasks.ts';
 import { trpc } from '../trpc.ts';
 import { Button } from '../ui/Button.tsx';
@@ -169,7 +170,7 @@ export function WorkspaceStep({
   const proxyDataUrl = useMemo(
     () =>
       renderProxy(option.blueprint, compose.lighting, {
-        width: 1920,
+        width: MODEL_PROXY_WIDTH,
         widen: MODEL_FRAMING_WIDEN,
       }),
     [option, compose.lighting],
@@ -187,9 +188,7 @@ export function WorkspaceStep({
     setProxyError(null);
     try {
       // Reuse the already-rendered proxy image rather than rendering it again.
-      const { url } = await utils.client.workspaceProxyUpload.mutate({
-        png: proxyDataUrl,
-      });
+      const { url } = await uploadImage(proxyDataUrl);
       updateWorkspace((w) => ({
         ...w,
         proxy: { key: proxyKey, url, at: Date.now() },
@@ -264,7 +263,7 @@ export function WorkspaceStep({
   // The image check: Claude compares a scene result with the story and the
   // prompt it came from. Runs on its own after every generation; one at a time.
   const checkTask = useAgentTask('imageCheck');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const [checkingId, setCheckingId] = useState<string | null>(null);
   const checkRun = useRef(checkTask.run);
   checkRun.current = checkTask.run;

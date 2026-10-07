@@ -8,7 +8,7 @@
 // else is generated, and a redraw shows the changes. The traced line drawing is
 // only shown while the detailed sketch can't be (failed, plan-gated or expired).
 
-import { SignInPrompt, signInRequiredFrom } from '@runway/bay-react/runway-sign-in';
+import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
 import { ArrowRight, Check, CheckCheck, Download, PencilLine, RotateCw, Sparkles } from 'lucide-react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from 'react';
@@ -19,7 +19,8 @@ import { SKETCH_MODEL_LABEL, sketchChanges, sketchPrompt } from '../../shared/sk
 import type { LayoutOption } from '../../shared/solver.ts';
 import type { Blueprint } from '../../shared/types.ts';
 import { recordDuration, useProgress } from '../lib/progress.ts';
-import { renderProxy, renderSketch, type Sketch } from '../lib/renderProxy.ts';
+import { MODEL_PROXY_WIDTH, renderProxy, renderSketch, type Sketch } from '../lib/renderProxy.ts';
+import { uploadImage } from '../lib/uploadImage.ts';
 import { isForbidden } from '../lib/useTurnarounds.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
@@ -98,7 +99,7 @@ async function greyscalePng(url: string): Promise<Blob> {
 
 function errorText(err: unknown): string {
   const code = typeof err === 'object' && err && 'data' in err ? (err as { data?: { code?: string } }).data?.code : undefined;
-  if (code === 'TOO_MANY_REQUESTS') return 'Your Runway account is running as many tasks as it can at once. Wait for one to finish, then draw again.';
+  if (code === 'TOO_MANY_REQUESTS') return 'Gemini is busy right now. Wait a moment, then draw again.';
   return err instanceof Error ? err.message : String(err);
 }
 
@@ -155,7 +156,6 @@ export function ReviewStep({
     };
   }, []);
   useEffect(() => setExpired(false), [detail?.url]);
-  const upload = trpc.workspaceProxyUpload.useMutation();
   const start = trpc.sketchStart.useMutation();
   const poll = trpc.turnaroundPoll.useMutation();
 
@@ -289,8 +289,8 @@ export function ReviewStep({
       let taskId = resume?.taskId;
       if (!taskId) {
         // Image 1 is the same labeled proxy, at the same framing, that the photograph is made from.
-        const png = renderProxy(bp, compose.lighting, { width: 1920, widen: MODEL_FRAMING_WIDEN });
-        const { url: proxyUrl } = await upload.mutateAsync({ png });
+        const png = renderProxy(bp, compose.lighting, { width: MODEL_PROXY_WIDTH, widen: MODEL_FRAMING_WIDEN });
+        const { url: proxyUrl } = await uploadImage(png);
         taskId = (await start.mutateAsync({ prompt, proxyUrl })).taskId;
         writePending({ layout: signature, prompt, taskId, startedAt, edits: drawn });
       }
@@ -390,14 +390,12 @@ export function ReviewStep({
         ) : run?.error ? (
           signIn ? (
             <SignInPrompt
-              reauth={signIn.reauth}
               onSignedIn={() => void drawDetail()}
-              description="The sketch runs on your own Runway account and uses your own credits."
             />
           ) : (
-            <Alert tone="error" title={forbidden ? `Your plan can't run ${SKETCH_MODEL_LABEL}` : "Couldn't draw the sketch"}>
+            <Alert tone="error" title={forbidden ? 'Monthly limit reached' : "Couldn't draw the sketch"}>
               {forbidden ? (
-                `The signed-in Runway account's plan doesn't include ${SKETCH_MODEL_LABEL}, so the detailed sketch can't be drawn. The outline drawing below still shows where each item sits.`
+                `${run.error} The outline drawing below still shows where each item sits.`
               ) : (
                 <span className={styles.errorBody}>
                   {run.error} The outline drawing below shows where each item sits until it can be drawn.
@@ -412,12 +410,12 @@ export function ReviewStep({
           <div className={styles.detailRow}>
             <p className={styles.detailText}>
               {!detail
-                ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, on your Runway credits).`
+                ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, counted toward your monthly limit).`
                 : expired
                   ? 'The sketch has expired. Draw it again to see it; the outline drawing shows where each item sits meanwhile.'
                   : detailStale
                     ? pending.length
-                      ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw uses your Runway credits.`
+                      ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw counts toward your monthly limit.`
                       : 'The sketch was drawn from an earlier version of the prompt. Redraw it to bring it up to date.'
                     : changes.length
                       ? 'The sketch includes your changes.'
@@ -685,7 +683,7 @@ export function ReviewStep({
             {pending.length ? `Redraw with ${pendingText}?` : 'Draw the same sketch again?'}
           </Heading>
           <p className={styles.dialogText}>
-            Each redraw uses your Runway credits ({SKETCH_MODEL_LABEL}), so make all your edits first and redraw once.
+            Each redraw counts toward your monthly limit ({SKETCH_MODEL_LABEL}), so make all your edits first and redraw once.
           </p>
           {pending.length > 0 ? (
             <>

@@ -176,7 +176,7 @@ export interface Decision<T> {
   /** options[0] is the suggested one (A). */
   /** "custom" is the operator's own version, built by the agent from their description. */
   options: Array<{ id: "A" | "B" | "C" | "custom"; suggested: boolean; rationale: string; value: T }>;
-  source: "claude" | "sample";
+  source: "agent" | "sample";
 }
 
 // ---------------------------------------------------------------------------

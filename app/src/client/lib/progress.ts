@@ -1,8 +1,7 @@
-// Percent complete and time left for the app's waits. The cultural agent
-// (claude_api) reports no progress, so most waits are estimated from how long
-// the same kind of job took the last few times in this browser, with a
-// starting guess per job. When Runway does report progress (image models
-// sometimes do), that number wins.
+// Percent complete and time left for the app's waits. Gemini reports no
+// progress, so waits are estimated from how long the same kind of job took
+// the last few times in this browser, with a starting guess per job. When a
+// job does report progress, that number wins.
 
 import { useEffect, useState } from 'react';
 

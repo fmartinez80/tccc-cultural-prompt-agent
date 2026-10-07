@@ -99,8 +99,8 @@ export const FeedbackInput = z.object({
   /** The workspace result (one Generate scene run) and the 1-based image within it. */
   resultId: z.string().min(1).max(80),
   imageIndex: z.number().int().min(1).max(4),
-  /** The Runway artifact URL; the server copies the image into the app's storage. */
-  imageUrl: z.string().url(),
+  /** The generated image's `/media/` URL. */
+  imageUrl: z.string().min(1).max(500),
   verdict: Verdict,
   tags: z.array(z.string().max(40)).max(30),
   /** Node chips the feedback is about (MAIN, SIDE_1, SKU, …, or SCENE). */
@@ -136,7 +136,7 @@ export interface FeedbackRecord extends FeedbackInput {
   createdAt: number;
   by: { email: string; name: string };
   dishKey: string;
-  /** Storage key of the saved copy of the image. */
+  /** Storage path of the rated image (under generations/ or uploads/). */
   imageKey: string;
 }
 

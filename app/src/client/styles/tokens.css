@@ -1,8 +1,6 @@
 /**
- * App-level design tokens, layered over `@runway/bay-react/tokens.css`
- * (imported first in main.tsx). That file only ships the small shared set —
- * text/border/canvas/radii/motion/avatar-palette vars — so everything else
- * this app's UI needs is defined here instead.
+ * App-level design tokens. The `--bay-*` names are kept from the Runway
+ * template the app started from; every one the UI uses is defined here.
  *
  * Neo-brutalist "poster grid" (design.md; reference uploads/design-reference.png):
  * retro paper canvas, white cards, pitch-black text, 3px black borders, hard
@@ -11,10 +9,8 @@
  * amber + black hatching for "Change". Amber is only ever a fill behind black
  * text, never a text colour.
  *
- * The app ships light-only. `@runway/bay-react` keys its own dark ramp off
- * `data-theme="dark"`, so the same block re-asserts the light values under
- * that attribute: whatever writes it, the app never flips to light text on
- * light surfaces.
+ * The app ships light-only: the same block re-asserts the light values under
+ * `data-theme="dark"`, so the app never flips to light text on light surfaces.
  */
 
 :root,
@@ -106,4 +102,30 @@
   --bay-info-fg: #000000;
   --bay-shadow-1: var(--neo-shadow-sm);
   --bay-shadow-pop: var(--neo-shadow);
+
+  /* Motion, pill radius and surface (were supplied by the Runway package). */
+  --bay-dur: 140ms;
+  --bay-ease: cubic-bezier(0.2, 0, 0, 1);
+  --bay-r-pill: 999px;
+  --bay-surface: var(--neo-card);
+
+  /* Avatar palette: initials on a soft fill, keyed by name (ui/Avatar.tsx). */
+  --bay-app-mint-bg: #c8f0d4;
+  --bay-app-mint-fg: #0b4d2c;
+  --bay-app-pink-bg: #ffd6e8;
+  --bay-app-pink-fg: #7a1440;
+  --bay-app-purple-bg: #e3d9ff;
+  --bay-app-purple-fg: #3b2087;
+  --bay-app-sky-bg: #d3ecff;
+  --bay-app-sky-fg: #0b3f6b;
+  --bay-app-amber-bg: #ffe7b3;
+  --bay-app-amber-fg: #5c3a00;
+  --bay-app-red-bg: #ffd1cc;
+  --bay-app-red-fg: #8f1409;
+  --bay-app-lime-bg: #e4f5c2;
+  --bay-app-lime-fg: #344d05;
+  --bay-app-cyan-bg: #c9f2f2;
+  --bay-app-cyan-fg: #0a4a4a;
+  --bay-app-slate-bg: #e2e5ea;
+  --bay-app-slate-fg: #26303d;
 }

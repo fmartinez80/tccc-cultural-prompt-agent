@@ -4,7 +4,7 @@
 import { useState } from 'react';
 
 import type { KbEdit } from '../../shared/feedback.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { trpc } from '../trpc.ts';
 import { Accordion } from '../ui/Accordion.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -22,7 +22,7 @@ const STATUS_LABEL: Record<KbEdit['status'], string> = {
 
 function KbEditRow({ dishKey, edit }: { dishKey: string; edit: KbEdit }) {
   const utils = trpc.useUtils();
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const [confirmingReject, setConfirmingReject] = useState(false);
   const [editing, setEditing] = useState(false);
   const [draftHeading, setDraftHeading] = useState(edit.heading);

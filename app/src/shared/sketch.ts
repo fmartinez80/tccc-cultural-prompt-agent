@@ -10,7 +10,8 @@ import { storyFacts } from "./story";
 import type { Blueprint, SceneSpec } from "./types";
 import { environmentBrief } from "./venues";
 
-export const SKETCH_MODEL = "gemini_3_1_flash_image" as const;
+/** Nano Banana 2 (GEMINI_IMAGE_FAST). */
+export const SKETCH_MODEL = "fast" as const;
 export const SKETCH_MODEL_LABEL = "Nano Banana 2";
 export const SKETCH_ASPECT_RATIO = "16:9" as const;
 export const SKETCH_IMAGE_SIZE = "2K" as const;

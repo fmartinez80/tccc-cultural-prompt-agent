@@ -5,7 +5,7 @@ import type { RuleEffects } from '../../api.ts';
 import type { Selections } from '../../shared/spec.ts';
 import type { Decision, SceneSpec, SurfaceChoice } from '../../shared/types.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
 import { ChoiceCardGroup, splitSources } from '../ui/ChoiceCard.tsx';
@@ -79,7 +79,7 @@ export function SceneStep({
   const time: SceneSpec['scene']['time'] | undefined = scene.time ?? rules?.timeFromOccasion ?? undefined;
   const venueRule = rules?.venues.find((v) => v.venue === scene.venue);
   const surfaceTask = useAgentTask('surface');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
 
   const loadSurface = () => surfaceTask.run({ brief, selections: sel });
 

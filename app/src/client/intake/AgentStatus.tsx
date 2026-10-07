@@ -2,7 +2,7 @@
 // while its decision task runs, shared so sign-in/forbidden handling stays
 // consistent everywhere it's needed.
 
-import { SignInPrompt, signInRequiredFrom } from '@runway/bay-react/runway-sign-in';
+import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
 
 import { type Progress, useProgress } from '../lib/progress.ts';
 import type { AgentTaskStatus, TaskTiming } from '../lib/useAgentTask.ts';
@@ -113,17 +113,15 @@ function StatusBody({
   if (signIn) {
     return (
       <SignInPrompt
-        reauth={signIn.reauth}
         onSignedIn={onSignedIn}
-        description="Cultural agent calls run on your own Runway account and use your own credits."
       />
     );
   }
 
   const forbidden = isForbidden(trpcError);
   return (
-    <Alert tone="error" title={forbidden ? "This step needs a model your plan can't run" : "The cultural agent couldn't answer"}>
-      {agentError ?? (forbidden ? 'Upgrade the signed-in Runway account’s plan to use this step.' : 'Something went wrong. Try again.')}
+    <Alert tone="error" title={forbidden ? "This step isn't available to you" : "The cultural agent couldn't answer"}>
+      {agentError ?? 'Something went wrong. Try again.'}
       {!forbidden && (
         <div className={styles.retryRow}>
           <Button size="sm" onPress={onRetry}>

@@ -1,7 +1,7 @@
 // Sketch review's arrangement controls: the best-ranked layout is picked for the
 // operator (PrepareLayout in LayoutStep.tsx), and this is where they try another
 // one, change the accent, or look at the 3D layout picture the sketch is drawn from.
-// Anything that draws a new sketch asks first, since that spends Runway credits.
+// Anything that draws a new sketch asks first, since that counts toward the monthly limit.
 
 import { Download, Pencil, RotateCw } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -177,7 +177,7 @@ export function ArrangementBar({
             Switch to arrangement {confirmPick !== null ? OPTION_LETTERS[confirmPick] : ''}?
           </Heading>
           <p className={dialog.dialogText}>
-            A new pencil sketch is drawn for it, which uses your Runway credits ({SKETCH_MODEL_LABEL}). Your Working and Change marks on this sketch
+            A new pencil sketch is drawn for it, which counts toward your monthly limit ({SKETCH_MODEL_LABEL}). Your Working and Change marks on this sketch
             don't carry over.
           </p>
           {confirmPick !== null && <p className={dialog.dialogText}>{options[confirmPick]!.blueprint.layout_meta.rationale}</p>}
@@ -203,7 +203,7 @@ export function ArrangementBar({
             Change the accent
           </Heading>
           <p className={dialog.dialogText}>
-            A different accent re-arranges the table and draws a new sketch, which uses your Runway credits ({SKETCH_MODEL_LABEL}). Your marks on
+            A different accent re-arranges the table and draws a new sketch, which counts toward your monthly limit ({SKETCH_MODEL_LABEL}). Your marks on
             this sketch don't carry over.
           </p>
           <AccentPicker

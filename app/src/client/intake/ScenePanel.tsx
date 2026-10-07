@@ -28,7 +28,8 @@ import {
 } from '../../shared/workspace.ts';
 import { useProgress } from '../lib/progress.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { uploadImage } from '../lib/uploadImage.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { isForbidden, useWorkspaceTasks } from '../lib/useWorkspaceTasks.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
@@ -82,7 +83,7 @@ export function useSceneGenerator(input: SceneGeneratorInput) {
   const utils = trpc.useUtils();
   const optionsQuery = trpc.workspaceOptions.useQuery();
   const tasks = useWorkspaceTasks();
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const wsRef = useRef(ws);
   wsRef.current = ws;
 
@@ -97,7 +98,7 @@ export function useSceneGenerator(input: SceneGeneratorInput) {
     setProxyStatus('uploading');
     setProxyError(null);
     try {
-      const { url } = await utils.client.workspaceProxyUpload.mutate({ png: proxyDataUrl });
+      const { url } = await uploadImage(proxyDataUrl);
       updateWorkspace((w) => ({ ...w, proxy: { key: proxyKey, url, at: Date.now() } }));
       setProxyStatus('idle');
       return url;
@@ -410,7 +411,7 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
                 <TriangleAlert size={12} aria-hidden /> The proxy is {PROXY_ASPECT_RATIO}, so the layout will be reframed to fit.{' '}
               </>
             )}
-            {WORKSPACE_MODEL_LABEL} on your Runway account
+            {WORKSPACE_MODEL_LABEL}, counted toward your monthly limit
             {edited > 0 ? ` · uses your edits to ${edited} segment${edited > 1 ? 's' : ''}` : ''}
             {sending.length > 0 ? ` · plus ${sending.join(', ')}` : ''}
           </p>

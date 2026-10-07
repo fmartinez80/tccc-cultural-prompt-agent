@@ -14,9 +14,9 @@ import {
   type WorkspaceState,
   type WsSegment,
 } from '../../shared/workspace.ts';
-import { renderProxy } from '../lib/renderProxy.ts';
+import { MODEL_PROXY_WIDTH, renderProxy } from '../lib/renderProxy.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { savedUrls, useTurnarounds } from '../lib/useTurnarounds.ts';
 import { Accordion } from '../ui/Accordion.tsx';
 import { Alert } from '../ui/Alert.tsx';
@@ -67,7 +67,7 @@ export function StoryStep({
 }) {
   const storyTask = useAgentTask('story');
   const validateTask = useAgentTask('validate');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const sku = compose.spec.sku;
   const turnaround = useTurnarounds(onTurnaroundView, { ...(sku.gtin ? { skuId: sku.id } : {}), glass: sku.glass, high: false });
 
@@ -110,7 +110,7 @@ export function StoryStep({
   const proxy = useMemo(
     () =>
       renderProxy(option.blueprint, compose.lighting, {
-        width: 1920,
+        width: MODEL_PROXY_WIDTH,
         widen: MODEL_FRAMING_WIDEN,
       }),
     [option, compose.lighting],

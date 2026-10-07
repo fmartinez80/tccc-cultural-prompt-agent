@@ -8,9 +8,12 @@ import { compositionSegments, type ImageCheck, type Story, type StoryFacts } fro
 import { turnaroundPrompt } from './turnaround.ts';
 import type { SceneSpec } from './types.ts';
 
-export const WORKSPACE_MODEL = 'gemini_3_pro' as const;
+/** Nano Banana Pro (GEMINI_IMAGE_PRO). */
+export const WORKSPACE_MODEL = 'pro' as const;
 export const WORKSPACE_MODEL_LABEL = 'Nano Banana Pro';
 export const WORKSPACE_IMAGE_SIZES = ['1K', '2K', '4K'] as const;
+/** The aspect ratios Nano Banana Pro offers on the Gemini API. */
+export const WORKSPACE_ASPECT_RATIOS = ['1:1', '2:3', '3:2', '3:4', '4:3', '4:5', '5:4', '9:16', '16:9', '21:9'] as const;
 export type WorkspaceImageSize = (typeof WORKSPACE_IMAGE_SIZES)[number];
 /** Nano Banana Pro takes up to 14 reference images; image 1 is always the proxy. */
 export const WORKSPACE_MAX_REFERENCES = 14;

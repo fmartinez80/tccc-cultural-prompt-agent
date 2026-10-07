@@ -9,7 +9,7 @@ import type { AgentResult } from '../../api.ts';
 import type { Selections } from '../../shared/spec.ts';
 import type { Decision, StepName } from '../../shared/types.ts';
 import { useAgentTask, type TaskTiming } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import type { Brief } from './types.ts';
 
 type Option<T> = Decision<T>['options'][number];
@@ -54,7 +54,7 @@ export function useCustomOption<T>({
 }): CustomOptionState {
   // One option instead of three: timed separately from the step's own call.
   const task = useAgentTask(kind, `agent:${kind}:custom`);
-  const signIn = useOnRunwaySignedIn();
+  const signIn = useOnSignedIn();
   const [text, setText] = useState('');
 
   const submit = () => {
@@ -73,7 +73,7 @@ export function useCustomOption<T>({
     const o = extract(task.result);
     if (!o) return;
     const own: Option<T> = { id: 'custom', suggested: false, rationale: o.rationale, value: o.value };
-    const base: Decision<T> = decision ?? { step: kind, status: 'choose', options: [], source: 'claude' };
+    const base: Decision<T> = decision ?? { step: kind, status: 'choose', options: [], source: 'agent' };
     onDecision({ ...base, options: [...base.options.filter((x) => x.id !== 'custom'), own] });
     onPick(o.value);
     task.reset();

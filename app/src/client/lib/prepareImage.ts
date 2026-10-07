@@ -2,7 +2,7 @@
 // stays small: at most 2048 px on the long edge. PNG and WebP keep their
 // transparency (a cut-out product shot stays cut out); JPEG stays JPEG.
 
-const MAX_EDGE = 2048;
+const MAX_EDGE = 1600;
 const MAX_FILE_BYTES = 25 * 1024 * 1024;
 const TYPES = ['image/png', 'image/jpeg', 'image/webp'];
 

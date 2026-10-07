@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import type { Decision, SidesChoice } from '../../shared/types.ts';
 import type { Selections } from '../../shared/spec.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { DecisionStep } from './DecisionStep.tsx';
 import { keepCustom, useCustomOption } from './useCustomOption.ts';
 import { vesselLine } from './optionText.ts';
@@ -29,7 +29,7 @@ export function SidesStep({
   onNext: () => void;
 }) {
   const task = useAgentTask('sides');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
 
   const load = () => task.run({ brief, selections: sel });
 

@@ -9,7 +9,6 @@ import {
   Separator,
 } from 'react-aria-components';
 
-import { deriveHomeUrl } from '../lib/deriveHomeUrl.ts';
 import { Avatar } from './Avatar.tsx';
 import styles from './UserMenu.module.css';
 
@@ -22,12 +21,7 @@ export type UserMenuProps = {
   avatarUrl?: string | null | undefined;
   /** Called when "Sign out" is selected. Omit to hide that item. */
   onSignOut?: (() => void) | undefined;
-  /**
-   * URL of the deployment's app launcher. Pass the injected
-   * `BAY_ORCHESTRATOR_URL` apex for an exact target; omit to derive it from
-   * the current hostname ({@link deriveHomeUrl}); pass `null` to hide the item
-   * entirely.
-   */
+  /** URL for a "Back to home" link; omit or pass `null` to hide the item. */
   homeUrl?: string | null | undefined;
   /** Label for the launcher link. Defaults to `"Back to home"`. */
   homeLabel?: string | undefined;
@@ -35,8 +29,7 @@ export type UserMenuProps = {
 
 /**
  * A navbar identity chip — avatar + name — with a menu carrying an optional
- * "Back to home" launcher link (see {@link UserMenuProps.homeUrl}) and an
- * optional sign-out.
+ * "Back to home" link and an optional sign-out.
  */
 export function UserMenu({
   name,
@@ -46,9 +39,7 @@ export function UserMenu({
   homeUrl,
   homeLabel = 'Back to home',
 }: UserMenuProps): ReactNode {
-  // `undefined` derives from the hostname; `null` hides the item; a string
-  // (e.g. the injected BAY_ORCHESTRATOR_URL apex) is used verbatim.
-  const home = homeUrl === undefined ? deriveHomeUrl() : homeUrl;
+  const home = homeUrl ?? null;
 
   const chip = (
     <span className={styles.chip}>

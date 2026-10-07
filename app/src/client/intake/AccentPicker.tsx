@@ -4,7 +4,7 @@ import type { ItemKind } from '../../shared/scene.ts';
 import type { AccentChoice, Decision } from '../../shared/types.ts';
 import type { Selections } from '../../shared/spec.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { ChoiceCardGroup, splitSources } from '../ui/ChoiceCard.tsx';
 import { vesselLine } from './optionText.ts';
 import { SkeletonText } from '../ui/Skeleton.tsx';
@@ -84,7 +84,7 @@ export function AccentPicker({
         : null;
   const skipLabel = dishAndDrink ? 'Keep dish and drink only' : 'Skip the accent';
   const task = useAgentTask('accent');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const load = () => task.run({ brief, selections: sel });
 
   useEffect(() => {

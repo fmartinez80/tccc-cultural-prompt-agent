@@ -288,6 +288,12 @@ function disposeScene(scene: THREE.Scene) {
   });
 }
 
+/**
+ * Width of the proxy sent to the image model. It is only a layout guide, so
+ * 1280 px is plenty and keeps the upload small (flat shapes compress well).
+ */
+export const MODEL_PROXY_WIDTH = 1280;
+
 /** Render the proxy to a PNG data URL (16:9). */
 export function renderProxy(bp: Blueprint, lighting: LightingPreset, opts: RenderOptions = {}): string {
   const width = opts.width ?? 1920;

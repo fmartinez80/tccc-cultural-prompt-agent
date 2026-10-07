@@ -2,15 +2,15 @@
 // drafts lessons and knowledge-base edits for a person to confirm.
 
 import { z } from 'zod';
-import type { ClaudeApiTaskOptions } from '@runway/bay/runway';
-import { presignGet } from '@runway/bay/storage';
 
+import type { TextTask } from './gemini.ts';
 import { dishRecords, getLearningDoc, mergeLearnDrafts } from './feedback.ts';
 import { keywords, knowledgeBlock } from './knowledge.ts';
+import { mediaUrl } from './store.ts';
 import { LearnAnswer, TAG_LABELS, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
 
-/** The reference build's agent runs on the same reasoning-tier model as the story and image check. */
-const MODEL = 'claude-opus-5';
+/** Runs on the same Gemini Pro model as the story and image check. */
+const MODEL = 'pro';
 
 const PROMPT_CAP = 48_000;
 
@@ -79,23 +79,13 @@ function buildFeedbackList(records: FeedbackRecord[], budget: number): string {
   return lines.join('\n');
 }
 
-/** Up to 6 presigned URLs for the worst-rated images, skipping any that can't be presigned. */
-async function buildImages(records: FeedbackRecord[]): Promise<Array<{ url: string }>> {
-  const images: Array<{ url: string }> = [];
-  for (const r of records) {
-    if (images.length >= 6) break;
-    try {
-      const url = await presignGet(r.imageKey, { expiresIn: 1800 });
-      images.push({ url });
-    } catch {
-      // Presigning isn't available (or failed) for this object — skip it rather than fail the task.
-    }
-  }
-  return images;
+/** The worst-rated images (up to 6), as the app's own `/media/` URLs the model call reads. */
+function buildImages(records: FeedbackRecord[]): Array<{ url: string }> {
+  return records.slice(0, 6).map((r) => ({ url: mediaUrl(r.imageKey) }));
 }
 
-/** The claude_api options for a learn run over this dish's feedback. Throws (readable message) when there is no feedback. */
-export async function buildLearnTask(dishKey: string): Promise<ClaudeApiTaskOptions> {
+/** The Gemini call for a learn run over this dish's feedback. Throws (readable message) when there is no feedback. */
+export async function buildLearnTask(dishKey: string): Promise<TextTask> {
   const records = await dishRecords(dishKey);
   if (!records.length) {
     throw new Error('There is no feedback for this dish yet — rate a few generated images first.');
@@ -135,7 +125,7 @@ export async function buildLearnTask(dishKey: string): Promise<ClaudeApiTaskOpti
   const kb = knowledgeBlock({ country, region: undefined, focus: 'imageCheck', words, budget: kbBudget });
 
   const prompt = `${header}${feedbackListText}\n\n${schemaText}`;
-  const images = await buildImages(prioritized);
+  const images = buildImages(prioritized);
 
   return {
     name: 'tablescape-learn',

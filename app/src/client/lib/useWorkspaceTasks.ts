@@ -16,7 +16,7 @@ export interface LiveTask {
   startedAt: number | null;
   /** Learned-duration key for the progress bar, e.g. "workspace:scene:4:2K". */
   timingKey: string;
-  /** 0-1 when Runway reports progress; null otherwise. */
+  /** 0-1 when progress is known; null otherwise (the bar estimates). */
   progress: number | null;
   error: string | null;
   /** The raw failure, so the UI can tell a sign-in or plan problem from the rest. */

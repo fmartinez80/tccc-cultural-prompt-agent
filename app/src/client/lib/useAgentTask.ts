@@ -1,7 +1,7 @@
 // Submit-now, poll-from-a-status-endpoint client for one agent step.
 // `agentStart` returns a task id immediately; `agentPoll` is called on an
-// interval until the task is done. Two-phase because the underlying Runway
-// task can take 10-90s, well past what a single request should hold open.
+// interval until the task is done. Two-phase because the underlying Gemini
+// call can take 10-90s, well past what a single request should hold open.
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 
@@ -39,7 +39,7 @@ export interface TaskTiming {
   /** Learned-duration key, e.g. "agent:prep". */
   key: string;
   startedAt: number | null;
-  /** 0-1 when Runway reports progress; null otherwise. */
+  /** 0-1 when progress is known; null otherwise (the bar estimates). */
   reported: number | null;
 }
 

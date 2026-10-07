@@ -12,7 +12,7 @@ import type { Selections } from '../../shared/spec.ts';
 import type { AccentChoice, Decision } from '../../shared/types.ts';
 import { recordDuration, useProgress } from '../lib/progress.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -60,7 +60,7 @@ export function PrepareLayout({
 
   // 1. The accent: on the go the plain paper napkin, elsewhere the cultural agent's suggestion.
   const accentTask = useAgentTask('accent');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const askAccent = () => accentTask.run({ brief, selections: sel });
   const askedRef = useRef(false);
   useEffect(() => {

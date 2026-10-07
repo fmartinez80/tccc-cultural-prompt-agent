@@ -12,7 +12,7 @@ import type { Decision, ExpressChoice } from '../../shared/types.ts';
 import { recordDuration } from '../lib/progress.ts';
 import { renderProxy } from '../lib/renderProxy.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
-import { useOnRunwaySignedIn } from '../lib/useOnRunwaySignedIn.ts';
+import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -58,7 +58,7 @@ export function ExpressStep({
   onNext: () => void;
 }) {
   const task = useAgentTask('express');
-  const onSignedIn = useOnRunwaySignedIn();
+  const onSignedIn = useOnSignedIn();
   const composeMutation = trpc.compose.useMutation();
   const [images, setImages] = useState<string[] | null>(null);
 

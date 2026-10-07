@@ -1,14 +1,14 @@
-// Image feedback storage, lessons and knowledge-base edits, kept in the app's
-// own S3 prefix (`features.storage`).
+// Image feedback storage, lessons and knowledge-base edits, kept as JSON
+// documents in Postgres (src/server/store.ts).
 //
-// Storage layout (all keys relative to the app's S3 prefix):
-//   feedback/<dishKey>/<createdAt>-<id>.json   — one FeedbackRecord
-//   feedback-images/<dishKey>/<id>.<ext>       — the saved copy of the rated image
-//   learning/<dishKey>.json                    — one LearningDoc, written through documentStore's CAS
+// Layout (collection / key):
+//   feedback / <dishKey>/<createdAt>-<id>.json   — one FeedbackRecord
+//   learning / <dishKey>.json                    — one LearningDoc, written through documentStore's CAS
+// The rated image itself stays where it was generated (its storage path is the record's imageKey).
 
 import { randomUUID } from 'node:crypto';
 
-import { documentStore, putObject } from '../storage.ts';
+import { documentStore, mediaPath, mediaUrl } from './store.ts';
 import {
   dishKey,
   type DishSummary,
@@ -32,22 +32,6 @@ export interface Actor {
 const feedbackStore = documentStore<FeedbackRecord>({ prefix: 'feedback/' });
 const learningStore = documentStore<LearningDoc>({ prefix: 'learning/' });
 
-const MAX_IMAGE_BYTES = 15 * 1024 * 1024;
-const FETCH_TIMEOUT_MS = 20_000;
-
-const EXT_BY_TYPE: Record<string, string> = {
-  'image/png': 'png',
-  'image/jpeg': 'jpg',
-  'image/jpg': 'jpg',
-  'image/webp': 'webp',
-  'image/gif': 'gif',
-  'image/avif': 'avif',
-};
-
-function extFor(contentType: string): string {
-  return EXT_BY_TYPE[contentType] ?? 'jpg';
-}
-
 function titleCase(s: string): string {
   return s
     .replace(/[-_]+/g, ' ')
@@ -55,40 +39,12 @@ function titleCase(s: string): string {
     .trim();
 }
 
-/** Fetches `url` server-side and returns its bytes, enforcing it is really an image and not too large. */
-async function fetchImageCopy(url: string): Promise<{ bytes: Uint8Array; contentType: string }> {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
-  let res: Response;
-  try {
-    res = await fetch(url, { signal: controller.signal });
-  } catch (err) {
-    const reason = err instanceof Error && err.name === 'AbortError' ? 'it took too long to respond' : (err instanceof Error ? err.message : String(err));
-    throw new Error(`Couldn't copy the image — ${reason}. The generated image link may have expired; download it and try again.`);
-  } finally {
-    clearTimeout(timer);
-  }
-  if (!res.ok) {
-    throw new Error(`Couldn't copy the image — the link answered with ${res.status}. The generated image link may have expired; download it and try again.`);
-  }
-  const contentType = res.headers.get('content-type')?.split(';')[0]?.trim().toLowerCase() || '';
-  if (!contentType.startsWith('image/')) {
-    throw new Error("Couldn't copy the image — the link didn't point at an image. Download it and try again.");
-  }
-  const buf = await res.arrayBuffer();
-  if (buf.byteLength > MAX_IMAGE_BYTES) {
-    throw new Error("Couldn't copy the image — it is larger than 15 MB. Download it and try again.");
-  }
-  return { bytes: new Uint8Array(buf), contentType };
-}
-
-/** Save one rating: copies the image into storage, writes the record. */
+/** Save one rating against an image the app generated. */
 export async function submitFeedback(input: FeedbackInput, by: Actor): Promise<{ id: string; dishKey: string }> {
   const key = dishKey(input.brief.country, input.brief.heroDish);
   const id = randomUUID();
-  const { bytes, contentType } = await fetchImageCopy(input.imageUrl);
-  const imageKey = `feedback-images/${key}/${id}.${extFor(contentType)}`;
-  await putObject(imageKey, bytes, { contentType });
+  const imageKey = mediaPath(input.imageUrl);
+  if (!imageKey) throw new Error('Only images generated in this app can be rated.');
   const createdAt = Date.now();
   const record: FeedbackRecord = { ...input, id, createdAt, by, dishKey: key, imageKey };
   await feedbackStore.put(`${key}/${createdAt}-${id}.json`, record);
@@ -98,9 +54,7 @@ export async function submitFeedback(input: FeedbackInput, by: Actor): Promise<{
 
 /** Every record saved for one dish, in no particular order. */
 export async function dishRecords(key: string): Promise<FeedbackRecord[]> {
-  const keys = await feedbackStore.list(`${key}/`);
-  const stored = await Promise.all(keys.map((k) => feedbackStore.get(k)));
-  return stored.filter((s): s is NonNullable<typeof s> => s !== null).map((s) => s.value);
+  return feedbackStore.values(`${key}/`);
 }
 
 /** The dish's learning document, or null when nothing has been learned yet. */
@@ -150,12 +104,9 @@ interface DishAcc {
 }
 
 async function buildDishSummaries(): Promise<DishSummary[]> {
-  const [feedbackKeys, learningKeys] = await Promise.all([feedbackStore.list(), learningStore.list()]);
-  const records = await Promise.all(feedbackKeys.map((k) => feedbackStore.get(k)));
+  const [records, learningDocs] = await Promise.all([feedbackStore.values(), learningStore.values()]);
   const accByDish = new Map<string, DishAcc>();
-  for (const stored of records) {
-    if (!stored) continue;
-    const r = stored.value;
+  for (const r of records) {
     let acc = accByDish.get(r.dishKey);
     if (!acc) {
       acc = {
@@ -178,22 +129,20 @@ async function buildDishSummaries(): Promise<DishSummary[]> {
     if (r.createdAt > acc.lastAt) acc.lastAt = r.createdAt;
   }
 
-  const learningDocs = await Promise.all(learningKeys.map((k) => learningStore.get(k)));
   const learningByDish = new Map<string, LearningDoc>();
-  for (const stored of learningDocs) {
-    if (!stored) continue;
-    learningByDish.set(stored.value.dishKey, stored.value);
-    if (!accByDish.has(stored.value.dishKey)) {
-      accByDish.set(stored.value.dishKey, {
-        dishKey: stored.value.dishKey,
-        country: stored.value.country,
-        countryLabel: stored.value.countryLabel,
-        heroDish: stored.value.heroDish,
+  for (const doc of learningDocs) {
+    learningByDish.set(doc.dishKey, doc);
+    if (!accByDish.has(doc.dishKey)) {
+      accByDish.set(doc.dishKey, {
+        dishKey: doc.dishKey,
+        country: doc.country,
+        countryLabel: doc.countryLabel,
+        heroDish: doc.heroDish,
         total: 0,
         usable: 0,
         fixes: 0,
         unusable: 0,
-        lastAt: stored.value.updatedAt,
+        lastAt: doc.updatedAt,
       });
     }
   }
@@ -233,17 +182,14 @@ export async function listDishes(): Promise<DishSummary[]> {
 export async function dishFeedback(key: string): Promise<{ records: FeedbackView[]; learning: LearningDoc | null }> {
   const records = await dishRecords(key);
   records.sort((a, b) => b.createdAt - a.createdAt);
-  const views: FeedbackView[] = records.map((r) => ({ ...r, image: `/media/${r.imageKey}` }));
+  const views: FeedbackView[] = records.map((r) => ({ ...r, image: mediaUrl(r.imageKey) }));
   const learning = await getLearningDoc(key);
   return { records: views, learning };
 }
 
 /** Raw records for export; every dish when `key` is omitted. */
 export async function exportFeedback(key?: string): Promise<FeedbackRecord[]> {
-  if (key) return dishRecords(key);
-  const keys = await feedbackStore.list();
-  const stored = await Promise.all(keys.map((k) => feedbackStore.get(k)));
-  return stored.filter((s): s is NonNullable<typeof s> => s !== null).map((s) => s.value);
+  return key ? dishRecords(key) : feedbackStore.values();
 }
 
 /** Confirmed lessons for this country + hero dish, as the agents receive them. Never throws (returns [] on failure). */
@@ -447,13 +393,11 @@ export async function mergeLearnDrafts(
 
 /** Every approved knowledge-base edit as one Markdown document to merge into the source repo. */
 export async function approvedEditsMarkdown(): Promise<string> {
-  const keys = await learningStore.list();
-  const docs = await Promise.all(keys.map((k) => learningStore.get(k)));
+  const docs = await learningStore.values();
   const edits: Array<{ doc: LearningDoc; edit: KbEdit }> = [];
-  for (const stored of docs) {
-    if (!stored) continue;
-    for (const edit of stored.value.kbEdits) {
-      if (edit.status === 'approved') edits.push({ doc: stored.value, edit });
+  for (const doc of docs) {
+    for (const edit of doc.kbEdits) {
+      if (edit.status === 'approved') edits.push({ doc, edit });
     }
   }
   if (!edits.length) {
@@ -498,12 +442,10 @@ export async function approvedEditsMarkdown(): Promise<string> {
 /** Rebuilds the knowledge-base overlay (every approved edit, across every dish) that agents' prompts read. Never throws. */
 export async function refreshKbOverlay(): Promise<void> {
   try {
-    const keys = await learningStore.list();
-    const docs = await Promise.all(keys.map((k) => learningStore.get(k)));
+    const docs = await learningStore.values();
     const edits: KbOverlayEdit[] = [];
-    for (const stored of docs) {
-      if (!stored) continue;
-      for (const edit of stored.value.kbEdits) {
+    for (const doc of docs) {
+      for (const edit of doc.kbEdits) {
         if (edit.status === 'approved') edits.push({ file: edit.file, heading: edit.heading, text: edit.text });
       }
     }
