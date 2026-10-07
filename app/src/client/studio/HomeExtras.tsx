@@ -1,9 +1,9 @@
-// Two home-screen modules: "How it works" (a visual overview of the steps for
-// new users, which can be folded away) and the product roadmap.
+// Home-screen modules: the welcome with its three illustrated features, "How
+// It Works" (the six steps), and the product roadmap.
 
 import { CheckCheck, ChefHat, ClipboardList, Eye, MapPin, Salad } from 'lucide-react';
-import { useState } from 'react';
 
+import { ProductsIllustration, SeasoningIllustration, WorkflowIllustration } from './Illustrations.tsx';
 import { ROADMAP } from './roadmap.ts';
 import styles from './home.module.css';
 
@@ -16,36 +16,25 @@ const STEPS = [
   { icon: CheckCheck, title: 'Check your work', text: 'Get the scene with a cultural accuracy check, and come back to review it later.' },
 ];
 
-const FOLD_KEY = 'scene-composer:how-it-works-folded';
-
-function readFolded(): boolean {
-  try {
-    return localStorage.getItem(FOLD_KEY) === '1';
-  } catch {
-    return false;
-  }
-}
-
-const INTRO_POINTS: Array<{ title: string; text: string }> = [
+const FEATURES = [
   {
-    title: 'Real products, real-world scale',
+    Art: ProductsIllustration,
+    title: 'Real Products, Real-World Scale',
     text: 'Select your exact Coca-Cola SKU and automatically lock in true-to-life dimensions, so food portions, glasses, and packaging are always perfectly proportioned.',
   },
   {
-    title: 'Get the local details right',
+    Art: SeasoningIllustration,
+    title: 'Get the Local Details Right',
     text: 'Pairs regional meals with the right plates, napkins, and dining habits so your scene looks genuine to locals.',
   },
   {
-    title: 'Arrange and preview in 3D',
-    text: 'Tweak your table setup on screen, check a quick pencil sketch of your camera view, and adjust details before creating your image.',
-  },
-  {
-    title: 'Fast results or deep flexibility',
+    Art: WorkflowIllustration,
+    title: 'Fast Results or Deep Flexibility',
     text: 'Generate a finished photo in minutes, or jump into the node workspace to pull out individual scene segments and prompts to use in your own creative workflow.',
   },
 ];
 
-/** The welcome copy at the top of home (Fernando, 2026-10-07). */
+/** The welcome at the top of home: headline, pitch and three illustrated features (Fernando's layout, 2026-10-07). */
 export function Intro() {
   return (
     <section className={styles.intro} aria-label="About Scene Composer">
@@ -55,11 +44,14 @@ export function Intro() {
         design vibrant, authentic Coca-Cola meal scenes in minutes. Pick your market, select your product SKU, choose your
         menu, and build your scene with confidence.
       </p>
-      <h2 className={styles.title}>How It Works</h2>
-      <ul className={styles.introPoints}>
-        {INTRO_POINTS.map((p) => (
-          <li key={p.title}>
-            <strong>{p.title}:</strong> {p.text}
+      <ul className={styles.features}>
+        {FEATURES.map(({ Art, title, text }) => (
+          <li key={title} className={styles.feature}>
+            <div className={styles.art}>
+              <Art />
+            </div>
+            <strong className={styles.featureTitle}>{title}</strong>
+            <span className={styles.featureText}>{text}</span>
           </li>
         ))}
       </ul>
@@ -67,46 +59,28 @@ export function Intro() {
   );
 }
 
+/** The six steps as tiles under a centred heading, with the knowledge-base note. */
 export function HowItWorks() {
-  const [folded, setFolded] = useState(readFolded);
-  const toggle = () => {
-    const next = !folded;
-    setFolded(next);
-    try {
-      localStorage.setItem(FOLD_KEY, next ? '1' : '0');
-    } catch {
-      // Private mode: the panel just reopens next visit.
-    }
-  };
   return (
-    <section className={styles.module} aria-label="How it works">
-      <div className={styles.head}>
-        <h2 className={styles.title}>How it works</h2>
-        <button type="button" className={styles.fold} onClick={toggle} aria-expanded={!folded}>
-          {folded ? 'Show' : 'Hide'}
-        </button>
-      </div>
-      {!folded && (
-        <>
-          <ol className={styles.steps}>
-            {STEPS.map((s, i) => (
-              <li key={s.title} className={styles.step}>
-                <span className={styles.stepNo} aria-hidden>
-                  {i + 1}
-                </span>
-                <s.icon size={28} aria-hidden className={styles.stepIcon} />
-                <strong className={styles.stepTitle}>{s.title}</strong>
-                <span className={styles.stepText}>{s.text}</span>
-              </li>
-            ))}
-          </ol>
-          <p className={styles.note}>
-            At every step, the cultural knowledge base suggests options and explains them,
-            <br />
-            so you can make informed decisions about regions you may not know well.
-          </p>
-        </>
-      )}
+    <section className={styles.how} aria-label="How it works">
+      <h2 className={styles.howTitle}>How It Works</h2>
+      <ol className={styles.steps}>
+        {STEPS.map((s, i) => (
+          <li key={s.title} className={styles.step}>
+            <span className={styles.stepNo} aria-hidden>
+              {i + 1}
+            </span>
+            <s.icon size={28} aria-hidden className={styles.stepIcon} />
+            <strong className={styles.stepTitle}>{s.title}</strong>
+            <span className={styles.stepText}>{s.text}</span>
+          </li>
+        ))}
+      </ol>
+      <p className={styles.note}>
+        At every step, the cultural knowledge base suggests options and explains them,
+        <br />
+        so you can make informed decisions about regions you may not know well.
+      </p>
     </section>
   );
 }

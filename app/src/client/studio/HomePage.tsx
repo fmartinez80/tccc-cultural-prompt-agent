@@ -1,4 +1,4 @@
-// The home screen everyone lands on after signing in: the welcome copy, a greeting, the team's
+// The home screen everyone lands on after signing in: the welcome and its features, how it works, the team's
 // most popular meals and regions, highlights from the knowledge base, the way
 // into a new scene, and a carousel of the latest scenes.
 
@@ -183,12 +183,10 @@ function Gallery() {
   );
 }
 
-export function HomePage({ name, draftInProgress, onNewScene, onContinue, onSnapshot }: HomePageProps) {
-  const first = name.split(/[\s.@_]/)[0] ?? '';
+export function HomePage({ draftInProgress, onNewScene, onContinue, onSnapshot }: HomePageProps) {
   return (
     <div className={styles.page}>
       <Intro />
-      <h2 className={styles.welcome}>Welcome{first ? `, ${first.charAt(0).toUpperCase()}${first.slice(1)}` : ''}</h2>
       <HowItWorks />
       <div className={styles.homeGrid}>
         <ProjectData onSnapshot={onSnapshot} />
