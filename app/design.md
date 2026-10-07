@@ -22,7 +22,7 @@ same change. The visual reference the user picked is
    means "Change" and is **always** layered with `--neo-hatch` black stripes
    (and a pencil icon where there is room). Grey and amber are only ever
    fills behind black text — never a text colour.
-3. **Poster type.** Headings are Archivo Black, sentence case, tight
+3. **Poster type.** Headings are Tilt Warp, sentence case, tight
    (`--app-font-head`, one weight: never set bold on it; `font-synthesis` is
    off). A step's `<h1>` is `clamp(32px, 4.2vw, 56px)`, line-height 1.0.
    Paragraphs are Space Grotesk (`--bay-font-sans`, 400/500/700). Labels,
@@ -55,7 +55,7 @@ All colours, borders, shadows and type come from custom properties in
 | Fills | `--neo-hover` (hover/press), `--neo-cta` (primary buttons), `--neo-selected` / `--neo-selected-hover` + `--neo-on-selected` text (selected), `--neo-amber` + `--neo-hatch` (Change) |
 | Legacy aliases | `--bay-accent` and `--app-highlight` are ink (text/borders); `--bay-accent-soft` and `--app-highlight-soft` are the hover grey (fills) |
 | Status | `--bay-ok-*` pale green, warning alerts light grey (#e5e5e5) with an amber-filled triangle icon, `--bay-err-*` pale red, `--bay-info-*` white — black border from the component, via `Alert` |
-| Fonts | Loaded in `index.html`: Archivo Black, Space Grotesk 400/500/700, Space Mono 400/700 |
+| Fonts | Loaded in `index.html`: Tilt Warp, Space Grotesk 400/500/700, Space Mono 400/700 |
 
 The app ships light-only. The `data-theme='dark'` selector in `tokens.css`
 re-asserts the light values so nothing picks up a dark ramp. The `--bay-*`
@@ -68,7 +68,7 @@ sits directly on the paper canvas.
 
 - **Header row**: the logo (unboxed) at the left, Learning / Start over / the user's name at the right, on one tight line aligned with the page column.
 - **Step rail** (sticky, left): one
-  bordered stack of rows — big step number in Archivo Black, step name,
+  bordered stack of rows — big step number in Tilt Warp, step name,
   a check on completed steps; the current step is a solid red row with
   white text, hover is light grey. An
   unreachable step is disabled. "Draft saved" sits below in Space Mono. On
@@ -94,7 +94,7 @@ Built on `react-aria-components` and styled with a sibling
 
 | Component | Use it for | Notes |
 | --- | --- | --- |
-| `Button` | Every clickable action | `variant` `primary` (mid grey, Archivo Black uppercase) / `default` (white, bordered) / `ghost`; `size` `md` (3px border, 5px shadow) / `sm` (2px, 3px shadow); `icon`, `loading`, `onPress`. No `autoFocus` prop |
+| `Button` | Every clickable action | `variant` `primary` (mid grey, Tilt Warp uppercase) / `default` (white, bordered) / `ghost`; `size` `md` (3px border, 5px shadow) / `sm` (2px, 3px shadow); `icon`, `loading`, `onPress`. No `autoFocus` prop |
 | `TextInput`, `TextArea` | Single/multi-line text | White, 2px border, no shadow; `onPressEnter` submits |
 | `Select` | Country / region / SKU / occasion dropdowns | Popover is a bordered card with the full shadow |
 | `ChoiceCardGroup` | Mutually exclusive option cards | White card, 3px border + shadow; hover/press = light grey, selected = red with white text; "More details" is a white Space Mono pill that opens the detail dialog |

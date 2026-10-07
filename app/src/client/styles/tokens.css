@@ -45,8 +45,8 @@
   --neo-press-sm: translate(2px, 2px);
 
   /* --- Type --- */
-  /* Archivo Black ships one weight; never ask it for bold (font-synthesis is off). */
-  --app-font-head: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+  /* Tilt Warp ships one weight; never ask it for bold (font-synthesis is off). */
+  --app-font-head: 'Tilt Warp', 'Arial Black', Impact, sans-serif;
   --bay-font-sans:
     'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
     sans-serif;

@@ -1,4 +1,4 @@
-/* Fonts (Archivo Black, Space Grotesk, Space Mono) load from index.html. */
+/* Fonts (Tilt Warp, Space Grotesk, Space Mono) load from index.html. */
 
 *,
 *::before,
@@ -7,7 +7,7 @@
 }
 
 html {
-  /* Archivo Black has one weight: never fake a bold or italic. */
+  /* Tilt Warp has one weight: never fake a bold or italic. */
   font-synthesis: none;
 }
 

@@ -35,7 +35,7 @@
   margin: 0 0 4px;
 }
 
-/* h4 isn't forced into the Archivo Black headline face, so it can take a bold weight; h3 (which is) relies on the global rule instead. */
+/* h4 isn't forced into the Tilt Warp headline face, so it can take a bold weight; h3 (which is) relies on the global rule instead. */
 h4.blockLabel {
   font-weight: 700;
 }
