@@ -17,6 +17,8 @@ export type ButtonProps = {
   'aria-label'?: string | undefined;
   /** For a button that shows or hides a panel. */
   'aria-expanded'?: boolean | undefined;
+  /** For a nav link that points at the current page. */
+  'aria-current'?: 'page' | undefined;
   className?: string | undefined;
   children?: ReactNode | undefined;
 };
@@ -32,6 +34,7 @@ export function Button({
   type = 'button',
   'aria-label': ariaLabel,
   'aria-expanded': ariaExpanded,
+  'aria-current': ariaCurrent,
   className,
   children,
 }: ButtonProps) {
@@ -44,6 +47,7 @@ export function Button({
       aria-busy={loading || undefined}
       aria-label={ariaLabel}
       aria-expanded={ariaExpanded}
+      aria-current={ariaCurrent}
       onPress={onPress}
       className={[
         styles.button,

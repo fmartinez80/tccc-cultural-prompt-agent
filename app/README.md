@@ -52,13 +52,12 @@ results.
 - Knowledge base: `knowledge-base/` (Markdown, copied from the reference repo); rules: `rules/*.json`.
 - Solver, prompts and registry: `src/shared/`; agent + KB excerpting: `src/server/`; API: `src/api.ts`.
 
-Besides the composer, signed-in people see:
-
-- **Studio** (`#studio`): shared activity for the whole team: scenes and images to date, the countries and regions
-  being visualized, the top dishes and occasions, a 12-week activity chart and a gallery of the latest scenes.
-- **My scenes** (`#my-scenes`): the person's own generations and how much of their monthly limit is left.
-- **Learning** (`#learning`): ratings, lessons and knowledge-base edits per dish. Anyone can rate; only admins approve.
-- **Admin** (`#admin`, admins only): invite people by email, set roles and each person's monthly limits, remove access.
+Signed-in people land on **Studio**, the home screen (the Prod X logo always returns there): shared activity for the
+whole team (scenes and images to date, the countries and regions being visualized, top dishes and occasions, a 12-week
+activity chart and a gallery of the latest scenes) and a **Build a new scene** button that opens the composer
+(`#compose`). The header keeps only **My scenes** (`#my-scenes`: the person's own generations and how much of their
+monthly limit is left) and, for admins, **Admin** (`#admin`), which has two tabs: People (invite by email, roles,
+monthly limits, remove access) and Learning (`#admin/learning`: ratings, lessons and knowledge-base edits per dish).
 
 ## How it runs
 

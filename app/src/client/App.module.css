@@ -257,3 +257,25 @@
     font-size: 28px;
   }
 }
+
+/* The logo goes home (the shared dashboard). */
+.logoLink {
+  display: block;
+  color: inherit;
+}
+
+.logoLink:focus-visible {
+  outline: var(--neo-border-thin);
+  outline-offset: 4px;
+}
+
+/* The current page's nav link is underlined. */
+.navLink[aria-current='page'] {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+.adminTabs {
+  margin-bottom: 16px;
+}

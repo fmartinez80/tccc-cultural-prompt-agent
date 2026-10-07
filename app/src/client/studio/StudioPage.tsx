@@ -1,13 +1,14 @@
 // The shared Studio: which regions are being visualized, a light view of
 // activity, and the latest scenes from everyone.
 
-import { Images } from 'lucide-react';
+import { ArrowRight, Images, Plus } from 'lucide-react';
+import { useState } from 'react';
 
 import type { StudioData } from '../../api.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
+import { Button } from '../ui/Button.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
-import { PageHeader } from '../ui/PageHeader.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
 import { SceneGallery } from './SceneGallery.tsx';
 import styles from './studio.module.css';
@@ -77,12 +78,57 @@ function Weekly({ weeks }: { weeks: StudioData['weekly'] }) {
   );
 }
 
-export function StudioPage() {
+/** The home screen's call to action. Starting a new scene clears the draft, so with one in progress it asks first. */
+function NewScene({ draftInProgress, onNewScene, onContinue }: StudioPageProps) {
+  const [confirming, setConfirming] = useState(false);
+  return (
+    <section className={styles.hero} aria-label="Build a scene">
+      <div className={styles.heroText}>
+        <h1 className={styles.heroTitle}>Studio</h1>
+        <p className={styles.heroLead}>What the team is visualizing: regions, dishes, activity and the latest scenes.</p>
+      </div>
+      <div className={styles.heroActions}>
+        {confirming ? (
+          <>
+            <span className={styles.heroConfirm}>This clears the scene you're working on.</span>
+            <Button onPress={() => setConfirming(false)}>Cancel</Button>
+            <Button variant="primary" onPress={onNewScene}>
+              Start new
+            </Button>
+          </>
+        ) : (
+          <>
+            {draftInProgress && (
+              <Button icon={<ArrowRight size={16} aria-hidden />} onPress={onContinue}>
+                Continue your scene
+              </Button>
+            )}
+            <Button
+              variant="primary"
+              icon={<Plus size={16} aria-hidden />}
+              onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}
+            >
+              Build a new scene
+            </Button>
+          </>
+        )}
+      </div>
+    </section>
+  );
+}
+
+type StudioPageProps = {
+  draftInProgress: boolean;
+  onNewScene: () => void;
+  onContinue: () => void;
+};
+
+export function StudioPage(props: StudioPageProps) {
   const query = trpc.studio.useQuery(undefined, { refetchInterval: 60_000 });
   const data = query.data;
   return (
     <div className={styles.page}>
-      <PageHeader title="Studio" description="What the team is visualizing: regions, dishes, activity and the latest scenes." />
+      <NewScene {...props} />
       {query.isError && (
         <Alert tone="error" title="Couldn't load the studio">
           {query.error.message}

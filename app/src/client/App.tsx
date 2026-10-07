@@ -1,4 +1,4 @@
-import { ArrowLeft, Check, GraduationCap, Images, LayoutDashboard, RotateCcw, Shield } from 'lucide-react';
+import { Check, RotateCcw } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
 import { layoutKey, sketchKey } from '../shared/review.ts';
@@ -9,6 +9,7 @@ import { trpc } from './trpc.ts';
 import { Alert } from './ui/Alert.tsx';
 import { Button } from './ui/Button.tsx';
 import { EmptyState } from './ui/EmptyState.tsx';
+import { SegmentedControl } from './ui/SegmentedControl.tsx';
 import { ErrorBoundary } from './ui/ErrorBoundary.tsx';
 import { BriefStep } from './intake/BriefStep.tsx';
 import { CameraStep } from './intake/CameraStep.tsx';
@@ -32,22 +33,36 @@ import { MyScenesPage } from './studio/MyScenesPage.tsx';
 import { StudioPage } from './studio/StudioPage.tsx';
 import styles from './App.module.css';
 
-/** The pages besides the intake, each at its own `#hash`. */
-const PAGES = {
-  studio: { hash: '#studio', label: 'Studio', icon: LayoutDashboard },
-  mine: { hash: '#my-scenes', label: 'My scenes', icon: Images },
-  learning: { hash: '#learning', label: 'Learning', icon: GraduationCap },
-  admin: { hash: '#admin', label: 'Admin', icon: Shield },
+/** Every top-level view, each at its own `#hash` so a reload or a shared link
+ * lands back on the same page. Home (the shared dashboard) has none. */
+const VIEW_HASH = {
+  home: '',
+  compose: '#compose',
+  mine: '#my-scenes',
+  admin: '#admin',
+  learning: '#admin/learning',
 } as const;
-type View = 'intake' | keyof typeof PAGES;
+type View = keyof typeof VIEW_HASH;
 
-/** Which top-level view is showing: driven by `location.hash`, so a reload or
- * a shared link lands back on the same page. The intake's own state lives
- * in `useIntake()` below regardless of which view is rendered, so switching
- * views never resets the draft. */
+/** Hashes from earlier versions of the app. */
+const OLD_HASH: Record<string, View> = { '#studio': 'home', '#learning': 'learning' };
+
+/** The intake's own state lives in `useIntake()` regardless of which view is
+ * rendered, so switching views never resets the draft. */
 function viewFromHash(): View {
-  const hit = (Object.keys(PAGES) as Array<keyof typeof PAGES>).find((k) => PAGES[k].hash === window.location.hash);
-  return hit ?? 'intake';
+  const hash = window.location.hash;
+  const hit = (Object.keys(VIEW_HASH) as View[]).find((k) => VIEW_HASH[k] && VIEW_HASH[k] === hash);
+  return hit ?? OLD_HASH[hash] ?? 'home';
+}
+
+function openView(view: View) {
+  if (VIEW_HASH[view]) {
+    window.location.hash = VIEW_HASH[view];
+  } else {
+    // Clears the hash without leaving a trailing "#" in the address bar.
+    window.history.pushState(null, '', window.location.pathname + window.location.search);
+    window.dispatchEvent(new HashChangeEvent('hashchange'));
+  }
 }
 
 const STEP_META: Record<StepId, { label: string }> = {
@@ -135,7 +150,7 @@ export function App() {
     };
   }, [view]);
 
-  const rulesQuery = trpc.rules.useQuery({ brief: draft.brief, selections: draft.sel }, { enabled: !!draft.brief.skuId && view === 'intake' });
+  const rulesQuery = trpc.rules.useQuery({ brief: draft.brief, selections: draft.sel }, { enabled: !!draft.brief.skuId && view === 'compose' });
   const rules = rulesQuery.data ?? null;
 
   const canVisit = (id: StepId): boolean => {
@@ -370,39 +385,47 @@ export function App() {
     }
   };
 
-  const openPage = (page: keyof typeof PAGES) => {
-    window.location.hash = PAGES[page].hash;
-  };
-  const backToScene = () => {
-    // Clears the hash without leaving a trailing "#" in the address bar.
-    window.history.replaceState(null, '', window.location.pathname + window.location.search);
-    setView('intake');
-  };
   const isAdmin = profile.data?.role === 'admin';
-  const pageLinks = (Object.keys(PAGES) as Array<keyof typeof PAGES>)
-    .filter((k) => k !== view && (k !== 'admin' || isAdmin))
-    .map((k) => {
-      const Icon = PAGES[k].icon;
-      return (
-        <Button key={k} variant="ghost" size="sm" icon={<Icon size={14} aria-hidden />} onPress={() => openPage(k)}>
-          {PAGES[k].label}
-        </Button>
-      );
-    });
+  const draftInProgress = draft.step !== 'brief' || !!draft.brief.heroDish.trim();
+  const navLink = (target: View, label: string) => (
+    <Button
+      key={target}
+      variant="ghost"
+      size="sm"
+      onPress={() => openView(target)}
+      aria-current={view === target || (target === 'admin' && view === 'learning') ? 'page' : undefined}
+      className={styles.navLink}
+    >
+      {label}
+    </Button>
+  );
+  const navLinks = (
+    <>
+      {navLink('mine', 'My scenes')}
+      {isAdmin && navLink('admin', 'Admin')}
+    </>
+  );
 
   return (
     <AppShell
-      title={<img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />}
+      title={
+        <a
+          href="/"
+          className={styles.logoLink}
+          aria-label="Prod X home"
+          onClick={(e) => {
+            e.preventDefault();
+            openView('home');
+          }}
+        >
+          <img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />
+        </a>
+      }
       user={profile.data ?? undefined}
       onSignOut={() => void signOut()}
       actions={
-        view !== 'intake' ? (
-          <>
-            <Button variant="ghost" size="sm" icon={<ArrowLeft size={14} aria-hidden />} onPress={backToScene}>
-              Back to the scene
-            </Button>
-            {pageLinks}
-          </>
+        view !== 'compose' ? (
+          navLinks
         ) : confirmingReset ? (
           <div className={styles.confirmRow}>
             <span className={styles.confirmText}>Start over and clear the whole draft?</span>
@@ -422,30 +445,49 @@ export function App() {
           </div>
         ) : (
           <>
-            {pageLinks}
             <Button variant="ghost" size="sm" icon={<RotateCcw size={14} aria-hidden />} onPress={() => setConfirmingReset(true)}>
               Start over
             </Button>
+            {navLinks}
           </>
         )
       }
-      maxWidth={view === 'intake' ? 1360 : 1200}
+      maxWidth={view === 'compose' ? 1360 : 1200}
     >
-      {view === 'learning' ? (
-        <ErrorBoundary label="learning page">
-          <LearningPage />
+      {view === 'admin' || view === 'learning' ? (
+        <ErrorBoundary label="admin">
+          {isAdmin ? (
+            <>
+              <SegmentedControl
+                aria-label="Admin section"
+                className={styles.adminTabs}
+                value={view}
+                onChange={(v) => openView(v as View)}
+                options={[
+                  { value: 'admin', label: 'People' },
+                  { value: 'learning', label: 'Learning' },
+                ]}
+              />
+              {view === 'admin' ? <AdminPage selfEmail={profile.data?.email ?? ''} /> : <LearningPage />}
+            </>
+          ) : (
+            <EmptyState title="Only admins can open this page." />
+          )}
         </ErrorBoundary>
-      ) : view === 'studio' ? (
+      ) : view === 'home' ? (
         <ErrorBoundary label="studio">
-          <StudioPage />
+          <StudioPage
+            draftInProgress={draftInProgress}
+            onContinue={() => openView('compose')}
+            onNewScene={() => {
+              startOver();
+              openView('compose');
+            }}
+          />
         </ErrorBoundary>
       ) : view === 'mine' ? (
         <ErrorBoundary label="my scenes">
-          <MyScenesPage onNewScene={backToScene} />
-        </ErrorBoundary>
-      ) : view === 'admin' ? (
-        <ErrorBoundary label="admin">
-          {isAdmin ? <AdminPage selfEmail={profile.data?.email ?? ''} /> : <EmptyState title="Only admins can open this page." />}
+          <MyScenesPage onNewScene={() => openView('compose')} />
         </ErrorBoundary>
       ) : (
         <div className={styles.layout} data-wide={draft.step === 'workspace' || undefined}>
