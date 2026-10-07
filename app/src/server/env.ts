@@ -36,6 +36,8 @@ export const env = {
     .split(',')
     .map((e) => e.trim().toLowerCase())
     .filter(Boolean),
+  /** Shared team access code; when set, people can sign in with it instead of an emailed link. */
+  accessCode: (process.env['ACCESS_CODE'] ?? '').trim(),
   /** Public URL of the app, for invite and magic-link redirects. */
   appUrl: process.env['APP_URL'] || '',
   /** Defaults for a new user's monthly limits (admins can change each user's). */

@@ -26,6 +26,47 @@ function readFolded(): boolean {
   }
 }
 
+const INTRO_POINTS: Array<{ title: string; text: string }> = [
+  {
+    title: 'Real products, real-world scale',
+    text: 'Select your exact Coca-Cola SKU and automatically lock in true-to-life dimensions, so food portions, glasses, and packaging are always perfectly proportioned.',
+  },
+  {
+    title: 'Get the local details right',
+    text: 'Pairs regional meals with the right plates, napkins, and dining habits so your scene looks genuine to locals.',
+  },
+  {
+    title: 'Arrange and preview in 3D',
+    text: 'Tweak your table setup on screen, check a quick pencil sketch of your camera view, and adjust details before creating your image.',
+  },
+  {
+    title: 'Fast results or deep flexibility',
+    text: 'Generate a finished photo in minutes, or jump into the node workspace to pull out individual scene segments and prompts to use in your own creative workflow.',
+  },
+];
+
+/** The welcome copy at the top of home (Fernando, 2026-10-07). */
+export function Intro() {
+  return (
+    <section className={styles.intro} aria-label="About Scene Composer">
+      <h1 className={styles.introTitle}>Welcome to ProdX Scene Composer</h1>
+      <p className={styles.introPitch}>
+        Setting the table for great brand stories just got a whole lot easier! ProdX Scene Composer helps creative teams
+        design vibrant, authentic Coca-Cola meal scenes in minutes. Pick your market, select your product SKU, choose your
+        menu, and build your scene with confidence.
+      </p>
+      <h2 className={styles.title}>How It Works</h2>
+      <ul className={styles.introPoints}>
+        {INTRO_POINTS.map((p) => (
+          <li key={p.title}>
+            <strong>{p.title}:</strong> {p.text}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 export function HowItWorks() {
   const [folded, setFolded] = useState(readFolded);
   const toggle = () => {

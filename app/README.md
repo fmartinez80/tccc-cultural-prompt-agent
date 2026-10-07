@@ -91,6 +91,7 @@ live only in the host's secret store (Heroku's Config Vars) or a local `.env.loc
 | `SUPABASE_ANON_KEY` | yes | Supabase publishable key (`sb_publishable_...`, or the legacy anon key); the browser uses it to sign in |
 | `SUPABASE_SERVICE_ROLE_KEY` | yes | Supabase secret key (`sb_secret_...`, or the legacy service_role key); server only, never share it |
 | `ADMIN_EMAILS` | yes | Comma-separated emails that are always admins (the first admin) |
+| `ACCESS_CODE` | no | Team access code. When set, the sign-in page asks for work email + this code and sends no email; a new email gets a member account. Leave empty for invite-only magic links. |
 | `APP_URL` | yes | Public URL of the app, e.g. `https://scene-composer-xxxx.herokuapp.com`; magic links return here |
 | `SUPABASE_BUCKET` | no | Storage bucket, default `scene-composer` |
 | `DEFAULT_SCENE_LIMIT` / `DEFAULT_IMAGE_LIMIT` | no | A new person's monthly limits, default 50 scenes / 300 other images |

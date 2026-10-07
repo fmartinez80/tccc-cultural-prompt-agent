@@ -6,6 +6,7 @@ import type Koa from 'koa';
 
 import { env } from './server/env.ts';
 import { mediaUrl, putFile } from './server/store.ts';
+import { allowTry, codeLoginToken, codeMatches, CodeLoginError } from './server/codeLogin.ts';
 import { refreshKbOverlay } from './server/feedback.ts';
 import { knowledgeExport } from './server/knowledge.ts';
 
@@ -86,7 +87,35 @@ export function mountApi(app: Koa) {
   // What the browser needs to start a magic-link sign-in. The anon key is
   // public by design: every table has row-level security with no policies.
   api.get('/config', (ctx) => {
-    ctx.body = { supabaseUrl: env.supabaseUrl, supabaseAnonKey: env.supabaseAnonKey };
+    ctx.body = { supabaseUrl: env.supabaseUrl, supabaseAnonKey: env.supabaseAnonKey, codeLogin: Boolean(env.accessCode) };
+  });
+
+  // Sign in with the team access code (see src/server/codeLogin.ts). Answers a
+  // one-time token the browser exchanges for a session; no email is sent.
+  api.post('/code-login', async (ctx) => {
+    if (!env.accessCode) return ctx.throw(404, 'Access-code sign-in is turned off.');
+    if (!allowTry(ctx.ip)) return ctx.throw(429, 'Too many tries. Wait ten minutes and try again.');
+    let raw = '';
+    for await (const chunk of ctx.req) {
+      raw += String(chunk);
+      if (raw.length > 2000) return ctx.throw(413, 'Request too large.');
+    }
+    let body: { email?: unknown; code?: unknown };
+    try {
+      body = JSON.parse(raw) as typeof body;
+    } catch {
+      return ctx.throw(400, 'Send JSON.');
+    }
+    const email = typeof body.email === 'string' ? body.email.trim().toLowerCase() : '';
+    const code = typeof body.code === 'string' ? body.code : '';
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || email.length > 200) return ctx.throw(400, 'Enter your full email address.');
+    if (!codeMatches(code)) return ctx.throw(403, "That access code isn't right.");
+    try {
+      ctx.body = await codeLoginToken(email);
+    } catch (err) {
+      if (err instanceof CodeLoginError) return ctx.throw(400, err.message);
+      throw err;
+    }
   });
 
   // An image the browser made or picked (the layout proxy, a reference), sent

@@ -7,21 +7,59 @@ import { useEffect, useState } from 'react';
 
 const COOKIE = 'sc_session';
 
+interface PublicConfig {
+  supabaseUrl: string;
+  supabaseAnonKey: string;
+  /** The server has a team access code set, so sign-in can skip email. */
+  codeLogin?: boolean;
+}
+
+let configPromise: Promise<PublicConfig> | null = null;
 let clientPromise: Promise<SupabaseClient> | null = null;
+
+function publicConfig(): Promise<PublicConfig> {
+  configPromise ??= fetch('/api/config')
+    .then((res) => {
+      if (!res.ok) throw new Error(`The app's server didn't answer (HTTP ${res.status}).`);
+      return res.json() as Promise<PublicConfig>;
+    })
+    .catch((err: unknown) => {
+      configPromise = null;
+      throw err;
+    });
+  return configPromise;
+}
 
 /** The browser's Supabase client, configured from the server (`/api/config`). */
 export function supabase(): Promise<SupabaseClient> {
-  clientPromise ??= fetch('/api/config')
-    .then((res) => {
-      if (!res.ok) throw new Error(`The app's server didn't answer (HTTP ${res.status}).`);
-      return res.json() as Promise<{ supabaseUrl: string; supabaseAnonKey: string }>;
-    })
+  clientPromise ??= publicConfig()
     .then(({ supabaseUrl, supabaseAnonKey }) => createClient(supabaseUrl, supabaseAnonKey))
     .catch((err: unknown) => {
       clientPromise = null;
       throw err;
     });
   return clientPromise;
+}
+
+/** Whether the sign-in page offers the team access code. */
+export async function codeLoginEnabled(): Promise<boolean> {
+  return Boolean((await publicConfig()).codeLogin);
+}
+
+/** Signs in with the team access code: no email is sent (see src/server/codeLogin.ts). */
+export async function signInWithCode(email: string, code: string): Promise<void> {
+  const res = await fetch('/api/code-login', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ email, code }),
+  });
+  const body = (await res.json().catch(() => null)) as { tokenHash?: string; type?: 'magiclink' | 'invite'; error?: string } | null;
+  if (!res.ok || !body?.tokenHash || !body.type) {
+    throw new Error(body?.error ?? `The app's server didn't answer properly (HTTP ${res.status}). Wait a few seconds and try again.`);
+  }
+  const sb = await supabase();
+  const { error } = await sb.auth.verifyOtp({ token_hash: body.tokenHash, type: body.type });
+  if (error) throw new Error(/banned/i.test(error.message) ? 'Your access was removed. Ask an admin.' : error.message);
 }
 
 function writeCookie(session: Session | null): void {
