@@ -261,3 +261,7 @@
   }
 }
 
+
+.introPitch strong {
+  color: var(--bay-text);
+}
