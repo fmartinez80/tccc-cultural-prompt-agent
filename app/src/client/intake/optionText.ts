@@ -3,12 +3,6 @@
 import { VESSEL_SHORT } from '../../shared/registry.ts';
 import type { Vessel } from '../../shared/types.ts';
 
-/** The first sentence, for a card subhead. */
-export function firstSentence(text: string): string {
-  const m = text.trim().match(/^[\s\S]*?[.!?](?=\s|$)/);
-  return (m ? m[0] : text).trim();
-}
-
 /** "Paella pan" */
 export function vesselName(v: Vessel): string {
   const s = VESSEL_SHORT[v] ?? v;

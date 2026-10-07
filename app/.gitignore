@@ -1,16 +1,11 @@
-# Secrets and env files — never commit these.
+# Secrets and env files: never commit these.
 .env
 .env.*
 !.env.example
 *.pem
 *.key
 *.p12
-twingate.json
 *-service-key.json
-
-# Bay-internal
-.bay/
-bay.zip
 
 # OS / editor
 .DS_Store
@@ -22,33 +17,7 @@ bay.zip
 node_modules/
 .pnpm-store/
 dist/
-.build/
 *.tsbuildinfo
 npm-debug.log*
 pnpm-debug.log*
-yarn-debug.log*
-
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-
-# Rust (Cargo.lock is intentionally committed)
-target/
-
-# Coverage / logs
-coverage/
-.nyc_output/
 *.log
-
-# bay-studio: internal session files, not part of the app
-events.jsonl
-.bay-studio-install.json
-.claude-config/
-.bay-studio-deploy-state.json
-.bay-studio-last-deploy.json
-.bay-prewarm/

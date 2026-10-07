@@ -41,7 +41,7 @@ export function useCustomOption<T>({
   describe,
   extract,
 }: {
-  kind: Extract<StepName, 'prep' | 'plating' | 'sides' | 'express'>;
+  kind: Extract<StepName, 'prep' | 'plating' | 'sides'>;
   brief: Brief;
   sel?: Selections | undefined;
   decision: Decision<T> | null;

@@ -58,8 +58,8 @@ All colours, borders, shadows and type come from custom properties in
 | Fonts | Loaded in `index.html`: Archivo Black, Space Grotesk 400/500/700, Space Mono 400/700 |
 
 The app ships light-only. The `data-theme='dark'` selector in `tokens.css`
-re-asserts the light values only because `@runway/bay-react` keys its own
-dark ramp off that attribute.
+re-asserts the light values so nothing picks up a dark ramp. The `--bay-*`
+names are kept from the original build; `tokens.css` defines all of them.
 
 ## 3. Layout
 
@@ -109,9 +109,9 @@ Built on `react-aria-components` and styled with a sibling
 | `EmptyState` | A region with nothing in it yet | Heading + hint + optional action |
 | `ErrorBoundary` | Around the rail and the step independently | |
 
-`SignInPrompt` (`@runway/bay-react/runway-sign-in`) comes from outside,
-rendered by `src/client/intake/AgentStatus.tsx` when an agent call needs a
-Runway sign-in.
+`SignInPrompt` (`src/client/lib/signIn.tsx`) is rendered when a call finds
+the session expired; its Reconnect button refreshes the magic-link session.
+Signing in itself is `src/client/auth/LoginPage.tsx`.
 
 ### 4.2 Icons: `lucide-react`
 
@@ -131,7 +131,7 @@ header, 14 in `sm` buttons and chips). Never emoji. In use here: `ClipboardList`
 
 Visuals are icons, client-rendered three.js proxies
 (`src/client/lib/renderProxy.ts`), the camera illustrations in
-`public/camera/`, the logo and the loading bottle, and the Runway-generated
+`public/camera/`, the logo and the loading bottle, and the Gemini-generated
 sketches and scenes. Images sit in a 2–3px black frame.
 
 ## 5. Rules
@@ -148,9 +148,9 @@ native `<button>`s (not react-aria) are the one exception and use ordinary
 
 - Every agent-backed step (prep, plating, sides, surface, accent, story,
   validate) shows a status line naming what the agent is doing plus elapsed
-  seconds, and 2–3 skeleton option cards, for the whole 10–90s a Runway task
+  seconds, and 2–3 skeleton option cards, for the whole 10–90s a model call
   can take.
-- A sign-in requirement renders `SignInPrompt`; a plan denial (`FORBIDDEN`)
+- A sign-in requirement renders `SignInPrompt`; a monthly-limit or permission denial (`FORBIDDEN`)
   renders a terminal `Alert` with no retry action; anything else renders an
   `Alert` with the server's own message and keeps the action armed.
 - Changing an answer that has downstream choices already made shows an
@@ -219,7 +219,7 @@ Step 10: the composition prompt as an editable, node-based canvas — a
 pannable/zoomable viewport (drag empty canvas to pan, ctrl/cmd+scroll to
 zoom, toolbar zoom in/out/fit) holding absolutely positioned cards wired by
 an SVG bezier layer underneath. Node types: **Proxy** (image 1, uploaded to
-Runway lazily on first scene generation), **Segment** (one per prompt
+storage lazily on first scene generation), **Segment** (one per prompt
 segment — editable text, a bypass `Switch`, and for objects/the environment
 a Nano Banana Pro preview that can feed the scene as a reference image),
 **Prompt** (the exact assembled prompt as a read-only `CodeBlock` plus the

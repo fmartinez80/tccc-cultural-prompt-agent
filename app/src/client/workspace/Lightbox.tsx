@@ -2,6 +2,7 @@
 // Download button next to the close button.
 
 import { Download, MessageSquareWarning, X } from 'lucide-react';
+import type { ReactNode } from 'react';
 import { Dialog, Modal } from 'react-aria-components';
 
 import { Button } from '../ui/Button.tsx';
@@ -13,6 +14,8 @@ export interface LightboxState {
   alt: string;
   /** Present only when this image is a rated scene result; opens the feedback dialog. */
   rate?: () => void;
+  /** Shown under the image (the gallery puts the brief and prompt here). */
+  caption?: ReactNode;
 }
 
 async function download(src: string, alt: string) {
@@ -62,6 +65,7 @@ export function Lightbox({ state, onClose }: { state: LightboxState | null; onCl
             <div className={styles.imgWrap}>
               <img className={styles.img} src={state.src} alt={state.alt} />
             </div>
+            {state.caption}
           </>
         )}
       </Dialog>

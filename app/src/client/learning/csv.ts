@@ -37,7 +37,3 @@ export function recordsToCsv(records: ExportableRecord[]): string {
   });
   return [CSV_HEADERS.join(','), ...rows].join('\r\n');
 }
-
-export function recordsToJson(records: ExportableRecord[]): string {
-  return JSON.stringify(records, null, 2);
-}

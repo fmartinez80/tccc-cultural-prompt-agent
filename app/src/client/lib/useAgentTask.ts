@@ -13,7 +13,7 @@ import type { Brief } from '../intake/types.ts';
 import { trpc } from '../trpc.ts';
 import { recordDuration } from './progress.ts';
 
-export type AgentKind = 'prep' | 'plating' | 'sides' | 'surface' | 'accent' | 'express' | 'story' | 'validate' | 'imageCheck';
+export type AgentKind = 'prep' | 'plating' | 'sides' | 'surface' | 'accent' | 'story' | 'validate' | 'imageCheck';
 
 export type AgentTaskStatus = 'idle' | 'starting' | 'polling' | 'done' | 'error';
 

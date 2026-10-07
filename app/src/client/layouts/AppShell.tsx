@@ -15,6 +15,8 @@ export type AppShellProps = {
   /** Centred in the header; `title` then sits at the left. */
   logo?: React.ReactNode | undefined;
   user?: AppShellUser | undefined;
+  /** Shows "Sign out" in the user menu. */
+  onSignOut?: (() => void) | undefined;
   actions?: React.ReactNode;
   maxWidth?: number;
   /**
@@ -44,6 +46,7 @@ export function AppShell({
   title,
   logo,
   user,
+  onSignOut,
   actions,
   maxWidth = 960,
   fillViewport = false,
@@ -66,6 +69,7 @@ export function AppShell({
                 name={user.name}
                 email={user.email}
                 avatarUrl={user.avatarUrl}
+                onSignOut={onSignOut}
               />
             )}
           </div>

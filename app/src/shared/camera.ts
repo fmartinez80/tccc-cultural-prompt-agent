@@ -116,16 +116,6 @@ export function boxWidth(b: { x0: number; x1: number }): number {
   return b.x1 - b.x0;
 }
 
-/** Horizontal overlap of two boxes as a fraction of `of`'s width. */
-export function horizontalOverlapFraction(a: ScreenBox, of: ScreenBox): number {
-  const ov = Math.min(a.x1, of.x1) - Math.max(a.x0, of.x0);
-  return ov <= 0 ? 0 : ov / Math.max(1e-6, boxWidth(of));
-}
-
-export function boxesIntersect(a: { x0: number; y0: number; x1: number; y1: number }, b: { x0: number; y0: number; x1: number; y1: number }): boolean {
-  return a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
-}
-
 // ---------------------------------------------------------------------------
 // Silhouettes: convex outlines of the projected vessel and its food mound.
 // Used for occlusion and logo-clearance checks (bounding boxes overstate them).

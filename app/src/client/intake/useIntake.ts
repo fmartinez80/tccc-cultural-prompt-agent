@@ -6,12 +6,11 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import type { Selections } from '../../shared/spec.ts';
-import { DEFAULT_ANGLE, DEFAULT_LOOK } from '../../shared/rules.ts';
-import type { Decision, ExpressChoice, StepName } from '../../shared/types.ts';
+import type { Decision, StepName } from '../../shared/types.ts';
 import type { LayoutReview } from '../../shared/review.ts';
 import type { Validation } from '../../shared/story.ts';
 import { EMPTY_WORKSPACE, type WorkspaceState } from '../../shared/workspace.ts';
-import type { Brief, ComposeResult, IntakeMode, StepId, StoryState } from './types.ts';
+import type { Brief, ComposeResult, StepId, StoryState } from './types.ts';
 import { EMPTY_BRIEF } from './types.ts';
 
 const STORAGE_KEY = 'tablescape-intake:draft:v1';
@@ -82,8 +81,6 @@ function sceneChange(d: Draft, scene: Scene): Draft {
 }
 
 export interface Draft {
-  /** Guided (every decision) or Express (dish + side, straight to the scene). */
-  mode: IntakeMode;
   step: StepId;
   brief: Brief;
   sel: Selections;
@@ -123,7 +120,6 @@ export interface SavedTurnaround {
 const MAX_SKETCHES = 8;
 
 const EMPTY_DRAFT: Draft = {
-  mode: 'guided',
   step: 'brief',
   brief: EMPTY_BRIEF,
   sel: {},
@@ -146,15 +142,15 @@ function loadDraft(): Draft {
     if (!raw) return EMPTY_DRAFT;
     const rawParsed = JSON.parse(raw) as Record<string, unknown>;
     const parsed = rawParsed as Partial<Draft>;
-    // Old drafts saved on the since-removed 'accent' or 'layout' steps land on Sketch review, which now composes and picks the layout itself.
+    // Old drafts saved on the since-removed 'accent' or 'layout' steps land on Sketch review, which now composes and picks the layout itself;
+    // one left on the removed Express step restarts at the brief.
     const rawStep = typeof rawParsed.step === 'string' ? rawParsed.step : undefined;
-    const step = (rawStep === 'accent' || rawStep === 'layout' ? 'review' : rawStep) as StepId | undefined;
+    const step = (rawStep === 'accent' || rawStep === 'layout' ? 'review' : rawStep === 'express' ? 'brief' : rawStep) as StepId | undefined;
+    const { mode: _mode, ...saved } = parsed as Partial<Draft> & { mode?: unknown };
     return {
       ...EMPTY_DRAFT,
-      ...parsed,
-      // Express is switched off for now: every draft runs guided, and one left on the Express step restarts at the brief.
-      mode: 'guided',
-      step: (step === 'express' ? 'brief' : step) ?? EMPTY_DRAFT.step,
+      ...saved,
+      step: step ?? EMPTY_DRAFT.step,
       brief: { ...EMPTY_BRIEF, ...parsed.brief },
       turnarounds: parsed.turnarounds ?? {},
       sketch: parsed.sketch ?? null,
@@ -199,7 +195,6 @@ export function useIntake() {
 
   const setBrief = useCallback((brief: Brief) => {
     setDraft((d) => ({
-      mode: d.mode,
       step: d.step,
       brief,
       // A new hero dish gets its own recommended angle (Camera step), so the old camera choice goes.
@@ -214,62 +209,6 @@ export function useIntake() {
       sketches: {},
       workspace: { ...freshSegments(d.workspace), proxy: null },
       review: null,
-    }));
-  }, []);
-
-  const setMode = useCallback((mode: IntakeMode) => {
-    setDraft((d) => ({ ...d, mode }));
-  }, []);
-
-  /**
-   * Brief(Express) → Continue. Sets the scene straight from the venue/party
-   * answer (no separate Scene step) and jumps to the Express step. If the
-   * brief and venue/party match what's already there and an express decision
-   * exists, nothing is cleared — Back then Continue doesn't throw work away.
-   */
-  const startExpress = useCallback((brief: Brief, opts: { venue: Scene['venue']; party: Scene['party'] }) => {
-    setDraft((d) => {
-      const scene = d.sel.scene;
-      const unchanged = JSON.stringify(d.brief) === JSON.stringify(brief) && scene?.venue === opts.venue && scene?.party === opts.party;
-      if (unchanged && d.decisions.express) {
-        return { ...d, mode: 'express', step: 'express' };
-      }
-      return {
-        mode: 'express',
-        step: 'express',
-        brief,
-        sel: {
-          scene: { setting: opts.venue === 'on-the-go' ? 'outdoor' : 'indoor', venue: opts.venue, party: opts.party },
-          camera: { look: DEFAULT_LOOK, angle: DEFAULT_ANGLE },
-        },
-        decisions: {},
-        compose: null,
-        picked: null,
-        story: null,
-        validation: null,
-        turnarounds: {},
-        sketch: null,
-        sketches: {},
-        workspace: { ...freshSegments(d.workspace), proxy: null },
-        review: null,
-      };
-    });
-  }, []);
-
-  /**
-   * Express's one agent call answers prep, plating and sides together.
-   * Scene, camera and glass stay; decisions stay (the express decision itself
-   * isn't touched here — `setDecision('express', …)` records it).
-   */
-  const pickExpress = useCallback((v: ExpressChoice) => {
-    setDraft((d) => ({
-      ...d,
-      sel: { ...d.sel, prep: v.prep, plating: v.plating, sides: v.sides, accent: null, napkin: false },
-      compose: null,
-      picked: null,
-      story: null,
-      validation: null,
-      workspace: { ...freshSegments(d.workspace), proxy: null },
     }));
   }, []);
 
@@ -408,8 +347,7 @@ export function useIntake() {
 
   const startOver = useCallback(() => {
     skipNextSaveFlash.current = true;
-    // Keeps the mode the operator was working in.
-    setDraft((d) => ({ ...EMPTY_DRAFT, mode: d.mode }));
+    setDraft(EMPTY_DRAFT);
   }, []);
 
   return {
@@ -417,9 +355,6 @@ export function useIntake() {
     saved,
     setStep,
     setBrief,
-    setMode,
-    startExpress,
-    pickExpress,
     choose,
     setPlace,
     describeClears,

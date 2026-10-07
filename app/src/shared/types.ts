@@ -150,14 +150,6 @@ export const SurfaceChoice = z.object({
 });
 export type SurfaceChoice = z.infer<typeof SurfaceChoice>;
 
-/** Express mode: the preparation, plating and sides decided in one agent call. */
-export const ExpressChoice = z.object({
-  prep: PrepChoice,
-  plating: PlatingChoice,
-  sides: SidesChoice,
-});
-export type ExpressChoice = z.infer<typeof ExpressChoice>;
-
 export const AccentChoice = z.object({
   label: z.string(),
   detail: z.string(),
@@ -168,7 +160,7 @@ export const AccentChoice = z.object({
 });
 export type AccentChoice = z.infer<typeof AccentChoice>;
 
-export type StepName = "prep" | "plating" | "sides" | "surface" | "accent" | "express";
+export type StepName = "prep" | "plating" | "sides" | "surface" | "accent";
 
 export interface Decision<T> {
   step: StepName;

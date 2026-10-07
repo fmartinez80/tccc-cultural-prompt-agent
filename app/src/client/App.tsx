@@ -1,9 +1,9 @@
-import { ArrowLeft, Check, GraduationCap, RotateCcw } from 'lucide-react';
+import { ArrowLeft, Check, GraduationCap, Images, LayoutDashboard, RotateCcw, Shield } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
 import { layoutKey, sketchKey } from '../shared/review.ts';
 import type { LayoutOption } from '../shared/solver.ts';
-import type { AccentChoice, Decision, ExpressChoice, PlatingChoice, PrepChoice, SidesChoice, SurfaceChoice } from '../shared/types.ts';
+import type { AccentChoice, Decision, PlatingChoice, PrepChoice, SidesChoice, SurfaceChoice } from '../shared/types.ts';
 import { AppShell } from './layouts/AppShell.tsx';
 import { trpc } from './trpc.ts';
 import { Alert } from './ui/Alert.tsx';
@@ -12,7 +12,6 @@ import { EmptyState } from './ui/EmptyState.tsx';
 import { ErrorBoundary } from './ui/ErrorBoundary.tsx';
 import { BriefStep } from './intake/BriefStep.tsx';
 import { CameraStep } from './intake/CameraStep.tsx';
-import { ExpressStep } from './intake/ExpressStep.tsx';
 import { ArrangementBar } from './intake/ArrangementBar.tsx';
 import { PrepareLayout } from './intake/LayoutStep.tsx';
 import { PlatingStep } from './intake/PlatingStep.tsx';
@@ -21,21 +20,34 @@ import { ReviewStep } from './intake/ReviewStep.tsx';
 import { SceneStep } from './intake/SceneStep.tsx';
 import { SidesStep } from './intake/SidesStep.tsx';
 import { StoryStep } from './intake/StoryStep.tsx';
-import { STEP_ORDERS, briefOk, type StepId } from './intake/types.ts';
+import { STEP_ORDER, briefOk, type StepId } from './intake/types.ts';
 import { useIntake } from './intake/useIntake.ts';
 import { WorkspaceStep } from './intake/WorkspaceStep.tsx';
 import { StepBackContext } from './intake/StepActions.tsx';
+import { AdminPage } from './admin/AdminPage.tsx';
+import { setActiveBrief } from './lib/activeBrief.ts';
+import { signOut } from './lib/auth.ts';
 import { LearningPage } from './learning/LearningPage.tsx';
+import { MyScenesPage } from './studio/MyScenesPage.tsx';
+import { StudioPage } from './studio/StudioPage.tsx';
 import styles from './App.module.css';
 
-const LEARNING_HASH = '#learning';
+/** The pages besides the intake, each at its own `#hash`. */
+const PAGES = {
+  studio: { hash: '#studio', label: 'Studio', icon: LayoutDashboard },
+  mine: { hash: '#my-scenes', label: 'My scenes', icon: Images },
+  learning: { hash: '#learning', label: 'Learning', icon: GraduationCap },
+  admin: { hash: '#admin', label: 'Admin', icon: Shield },
+} as const;
+type View = 'intake' | keyof typeof PAGES;
 
 /** Which top-level view is showing: driven by `location.hash`, so a reload or
- * a shared link lands back on the Learning page. The intake's own state lives
+ * a shared link lands back on the same page. The intake's own state lives
  * in `useIntake()` below regardless of which view is rendered, so switching
  * views never resets the draft. */
-function viewFromHash(): 'intake' | 'learning' {
-  return window.location.hash === LEARNING_HASH ? 'learning' : 'intake';
+function viewFromHash(): View {
+  const hit = (Object.keys(PAGES) as Array<keyof typeof PAGES>).find((k) => PAGES[k].hash === window.location.hash);
+  return hit ?? 'intake';
 }
 
 const STEP_META: Record<StepId, { label: string }> = {
@@ -47,7 +59,6 @@ const STEP_META: Record<StepId, { label: string }> = {
   camera: { label: 'Camera' },
   layout: { label: 'Layout' },
   review: { label: 'Sketch review' },
-  express: { label: 'Plating & layout' },
   story: { label: 'Story & scene' },
   workspace: { label: 'Node workspace' },
 };
@@ -59,8 +70,6 @@ export function App() {
     saved,
     setStep,
     setBrief,
-    startExpress,
-    pickExpress,
     choose,
     setPlace,
     describeClears,
@@ -76,7 +85,21 @@ export function App() {
     startOver,
   } = useIntake();
   const [confirmingReset, setConfirmingReset] = useState(false);
-  const [view, setView] = useState<'intake' | 'learning'>(viewFromHash);
+  const [view, setView] = useState<View>(viewFromHash);
+  const config = trpc.config.useQuery();
+
+  // Every generated image is filed under the brief being worked on (Studio and My scenes read it).
+  useEffect(() => {
+    const b = draft.brief;
+    setActiveBrief({
+      country: b.country,
+      countryLabel: config.data?.countries.find((c) => c.id === b.country)?.label,
+      region: b.region,
+      heroDish: b.heroDish,
+      occasion: b.occasion,
+      skuId: b.skuId,
+    });
+  }, [draft.brief, config.data]);
 
   useEffect(() => {
     const onHashChange = () => setView(viewFromHash());
@@ -132,8 +155,6 @@ export function App() {
       case 'layout':
         // Removed: Sketch review composes and picks the layout itself.
         return false;
-      case 'express':
-        return draft.mode === 'express' && briefOk(draft.brief) && !!draft.sel.scene;
       case 'review':
         // Sketch review composes and picks the layout itself, so the camera is all it needs.
         return !!draft.sel.camera && !!draft.sel.scene;
@@ -144,7 +165,7 @@ export function App() {
     }
   };
 
-  const stepOrder = STEP_ORDERS[draft.mode];
+  const stepOrder = STEP_ORDER;
   // The node workspace sits outside the rail; it goes back to Story & scene.
   const currentIndex = draft.step === 'workspace' ? stepOrder.length : stepOrder.indexOf(draft.step);
 
@@ -164,10 +185,7 @@ export function App() {
         return (
           <BriefStep
             brief={draft.brief}
-            mode={draft.mode}
-            scene={draft.sel.scene}
             onSave={setBrief}
-            onStartExpress={startExpress}
             onNext={() => setStep('scene')}
           />
         );
@@ -302,16 +320,8 @@ export function App() {
           return (
             <EmptyState
               title="Pick a layout first"
-              hint={
-                draft.mode === 'express'
-                  ? 'Go back to Plating & layout and choose one of the proposed tablescapes.'
-                  : 'Go to Sketch review, which picks the best layout for this table.'
-              }
-              action={
-                <Button onPress={() => setStep(draft.mode === 'express' ? 'express' : 'review')}>
-                  {draft.mode === 'express' ? 'Go to Plating & layout' : 'Go to Sketch review'}
-                </Button>
-              }
+              hint="Go to Sketch review, which picks the best layout for this table."
+              action={<Button onPress={() => setStep('review')}>Go to Sketch review</Button>}
             />
           );
         }
@@ -333,22 +343,6 @@ export function App() {
           />
         );
       }
-
-      case 'express':
-        return (
-          <ExpressStep
-            brief={draft.brief}
-            sel={draft.sel}
-            decision={(draft.decisions.express as Decision<ExpressChoice> | undefined) ?? null}
-            compose={draft.compose}
-            picked={draft.picked}
-            onDecision={(d) => setDecision('express', d)}
-            onPick={pickExpress}
-            onCompose={setCompose}
-            onPickLayout={setPicked}
-            onNext={() => setStep('story')}
-          />
-        );
 
       case 'workspace': {
         const option = draft.compose && draft.picked !== null ? draft.compose.options[draft.picked] : undefined;
@@ -376,24 +370,39 @@ export function App() {
     }
   };
 
-  const goToLearning = () => {
-    window.location.hash = LEARNING_HASH;
+  const openPage = (page: keyof typeof PAGES) => {
+    window.location.hash = PAGES[page].hash;
   };
-  const leaveLearning = () => {
+  const backToScene = () => {
     // Clears the hash without leaving a trailing "#" in the address bar.
     window.history.replaceState(null, '', window.location.pathname + window.location.search);
     setView('intake');
   };
+  const isAdmin = profile.data?.role === 'admin';
+  const pageLinks = (Object.keys(PAGES) as Array<keyof typeof PAGES>)
+    .filter((k) => k !== view && (k !== 'admin' || isAdmin))
+    .map((k) => {
+      const Icon = PAGES[k].icon;
+      return (
+        <Button key={k} variant="ghost" size="sm" icon={<Icon size={14} aria-hidden />} onPress={() => openPage(k)}>
+          {PAGES[k].label}
+        </Button>
+      );
+    });
 
   return (
     <AppShell
       title={<img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />}
       user={profile.data ?? undefined}
+      onSignOut={() => void signOut()}
       actions={
-        view === 'learning' ? (
-          <Button variant="ghost" size="sm" icon={<ArrowLeft size={14} aria-hidden />} onPress={leaveLearning}>
-            Back to the scene
-          </Button>
+        view !== 'intake' ? (
+          <>
+            <Button variant="ghost" size="sm" icon={<ArrowLeft size={14} aria-hidden />} onPress={backToScene}>
+              Back to the scene
+            </Button>
+            {pageLinks}
+          </>
         ) : confirmingReset ? (
           <div className={styles.confirmRow}>
             <span className={styles.confirmText}>Start over and clear the whole draft?</span>
@@ -413,20 +422,30 @@ export function App() {
           </div>
         ) : (
           <>
-            <Button variant="ghost" size="sm" icon={<GraduationCap size={14} aria-hidden />} onPress={goToLearning}>
-              Learning
-            </Button>
+            {pageLinks}
             <Button variant="ghost" size="sm" icon={<RotateCcw size={14} aria-hidden />} onPress={() => setConfirmingReset(true)}>
               Start over
             </Button>
           </>
         )
       }
-      maxWidth={view === 'learning' ? 1200 : 1360}
+      maxWidth={view === 'intake' ? 1360 : 1200}
     >
       {view === 'learning' ? (
         <ErrorBoundary label="learning page">
           <LearningPage />
+        </ErrorBoundary>
+      ) : view === 'studio' ? (
+        <ErrorBoundary label="studio">
+          <StudioPage />
+        </ErrorBoundary>
+      ) : view === 'mine' ? (
+        <ErrorBoundary label="my scenes">
+          <MyScenesPage onNewScene={backToScene} />
+        </ErrorBoundary>
+      ) : view === 'admin' ? (
+        <ErrorBoundary label="admin">
+          {isAdmin ? <AdminPage selfEmail={profile.data?.email ?? ''} /> : <EmptyState title="Only admins can open this page." />}
         </ErrorBoundary>
       ) : (
         <div className={styles.layout} data-wide={draft.step === 'workspace' || undefined}>

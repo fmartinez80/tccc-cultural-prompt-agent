@@ -17,7 +17,6 @@ import type { PromptLesson } from '../shared/feedback.ts';
 import { ImageCheck, Story, Validation, foodLabels, storyFacts } from '../shared/story.ts';
 import {
   AccentChoice,
-  ExpressChoice,
   IntakeInput,
   PlatingChoice,
   PrepChoice,
@@ -125,12 +124,6 @@ const STEP_TASKS: Record<StepName, (sel: Selections) => string> = {
     `This is a meal on the go. The food always sits on a surface, never in a hand. ${ON_THE_GO_SURFACE_RULE} This overrides the knowledge base where it mentions eating on steps or a railing. Suggest the surfaces that fit this dish and country: surface "picnic-table" (a picnic table, benches attached is fine), "park-table" (a small park or café-style outdoor table), "counter-top" (a counter top, window bar or high table), "food-truck-counter" or "street-ledge" (a wide ledge, deep enough to hold the meal). A bench (surface "bench") may be one of the options only when the knowledge base shows people here commonly eat this on a bench; it is never option A and never the only option, so always answer "choose" with at least one table-like option first.`,
   accent: () =>
     'The composition needs one more small table item to make the count odd. Suggest small accents that genuinely belong with this meal here (a condiment, garnish, or lime dish in a ramekin, small bowl or sauce boat). Never a drink, never something the knowledge base says to avoid.',
-  express: (sel) =>
-    `The operator already knows the hero dish${sel.scene ? '' : ' and, if given, the side dish'}. In one go, return how it is prepared, how it is most commonly served here (entree plate, wrapped in foil, basket, cutting board, and so on), and the side dish set. For a plate, use "plate" (28 cm entree) by default and "lunch-plate" (23 cm) when the main is a small, delicate protein or a compact stack, so the food fills the plate; never an oversized charger.${
-      sel.scene
-        ? venueFit(sel, 'plating')
-        : ' Use service "shared" only when the dish is typically served family-style from one large vessel on the table (a whole roast, a pizza, a paella pan); the scene then shows that vessel plus one plated portion.'
-    } Keep the sides table simple: the requested side dish (or one customary side when none was requested) plus at most one or two condiments that customarily come with it; nothing else. If a side dish was requested, include it even when it is unusual here, and say why in the rationale; otherwise use the customary side.${venueFit(sel, 'sides')}`,
 };
 
 const STEP_VALUES = {
@@ -139,7 +132,6 @@ const STEP_VALUES = {
   sides: SidesChoice,
   surface: SurfaceChoice,
   accent: AccentChoice,
-  express: ExpressChoice,
 } as const;
 
 function decisionSchema<T extends z.ZodType>(value: T) {
@@ -379,9 +371,9 @@ export function buildTask(req: AgentRequest): TextTask {
   } else {
     const custom = req.custom?.trim();
     const lessonsForStep =
-      req.kind === 'prep' || req.kind === 'plating' || req.kind === 'sides' || req.kind === 'express' ? lessonsBlock(req.lessons) : '';
+      req.kind === 'prep' || req.kind === 'plating' || req.kind === 'sides' ? lessonsBlock(req.lessons) : '';
     const dishRules =
-      req.kind === 'prep' || req.kind === 'plating' || req.kind === 'sides' || req.kind === 'express'
+      req.kind === 'prep' || req.kind === 'plating' || req.kind === 'sides'
         ? dishRulesBlock([brief.heroDish, brief.sideDishRequest, custom, JSON.stringify({ prep: sel.prep, plating: sel.plating, sides: sel.sides })])
         : '';
     task = `Step: ${req.kind}\n${STEP_TASKS[req.kind](sel)}${custom ? `\n\n${customTask(custom, req.shownOptions)}` : ''}${dishRules}${lessonsForStep}`;
@@ -505,7 +497,6 @@ export type AgentResult =
   | { kind: 'sides'; decision: Decision<SidesChoice> }
   | { kind: 'surface'; decision: Decision<SurfaceChoice> }
   | { kind: 'accent'; decision: Decision<AccentChoice> }
-  | { kind: 'express'; decision: Decision<ExpressChoice> }
   | { kind: 'story'; story: Story }
   | { kind: 'validate'; validation: Validation }
   | { kind: 'imageCheck'; check: ImageCheck };
@@ -590,7 +581,5 @@ export function parseAnswer(kind: AgentKind, text: string): AgentResult {
       return { kind, decision: benchNotAlone(toDecision(kind, SurfaceChoice, raw)) };
     case 'accent':
       return { kind, decision: toDecision(kind, AccentChoice, raw) };
-    case 'express':
-      return { kind, decision: toDecision(kind, ExpressChoice, raw) };
   }
 }

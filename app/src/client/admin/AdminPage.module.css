@@ -1,0 +1,94 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.invite {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 16px;
+  background: var(--neo-card);
+  border: var(--neo-border);
+  box-shadow: var(--neo-shadow-sm);
+}
+
+.invite > :first-child {
+  flex: 1 1 260px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--neo-card);
+  border: var(--neo-border);
+}
+
+.table th,
+.table td {
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--bay-border-hair);
+}
+
+.table th {
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.num {
+  font-family: var(--bay-font-mono);
+  white-space: nowrap;
+}
+
+.limit {
+  width: 64px;
+  padding: 4px 6px;
+  font: inherit;
+  border: var(--neo-border-thin);
+  background: var(--neo-card);
+}
+
+.select {
+  padding: 4px 6px;
+  font: inherit;
+  border: var(--neo-border-thin);
+  background: var(--neo-card);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.muted {
+  color: var(--bay-text-3);
+  font-size: 13px;
+}
+
+.error {
+  flex-basis: 100%;
+  color: var(--bay-err-fg);
+  font-size: 13px;
+}
+
+@media (max-width: 720px) {
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    display: block;
+    border-bottom: var(--neo-border-thin);
+  }
+  .table td {
+    display: block;
+    border: 0;
+  }
+}

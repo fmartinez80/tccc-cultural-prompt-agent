@@ -3,10 +3,7 @@ import type { LightingPreset } from '../../shared/rules.ts';
 import type { IntakeInput, SceneSpec } from '../../shared/types.ts';
 import type { Story, StoryFacts } from '../../shared/story.ts';
 
-export type StepId = 'brief' | 'prep' | 'plating' | 'sides' | 'scene' | 'camera' | 'layout' | 'review' | 'express' | 'story' | 'workspace';
-
-/** Guided: every decision, one step at a time. Express: dish + side → verify plating → simple proxy → story & image. */
-export type IntakeMode = 'guided' | 'express';
+export type StepId = 'brief' | 'prep' | 'plating' | 'sides' | 'scene' | 'camera' | 'layout' | 'review' | 'story' | 'workspace';
 
 /** The brief plus the country's display label, kept alongside it so every
  * later screen (and the agent prompt) can show/send a name instead of an id. */
@@ -45,13 +42,10 @@ export interface StoryState {
 }
 
 /**
- * The steps shown in the rail, per mode. The node workspace is not a step: it
- * opens from Story & scene as an optional advanced view.
+ * The steps shown in the rail. The node workspace is not a step: it opens
+ * from Story & scene as an optional advanced view.
  */
-export const STEP_ORDERS: Record<IntakeMode, StepId[]> = {
-  guided: ['brief', 'scene', 'prep', 'plating', 'sides', 'camera', 'review', 'story'],
-  express: ['brief', 'express', 'story'],
-};
+export const STEP_ORDER: StepId[] = ['brief', 'scene', 'prep', 'plating', 'sides', 'camera', 'review', 'story'];
 
 export const OCCASION_LABELS: Record<string, string> = {
   breakfast: 'Breakfast',

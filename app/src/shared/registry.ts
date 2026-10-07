@@ -266,9 +266,3 @@ export function footprintRadius(p: ProxyDef): number {
   return Math.max(p.width ?? 0, p.depth ?? 0) / 2;
 }
 
-/** Shared-side size units for the Feast Spread budget (test values). */
-export function sharedSideUnits(v: Vessel): number {
-  if (v === "small-bowl" || v === "ramekin") return 0.5;
-  if (v === "large-bowl" || v === "casserole" || v === "platter") return 2;
-  return 1;
-}

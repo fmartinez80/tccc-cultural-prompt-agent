@@ -138,7 +138,6 @@ const AgentKindInput = z.enum([
   'sides',
   'surface',
   'accent',
-  'express',
   'story',
   'validate',
   'imageCheck',

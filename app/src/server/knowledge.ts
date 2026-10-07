@@ -284,7 +284,6 @@ export type ContextFocus =
   | 'sides'
   | 'surface'
   | 'accent'
-  | 'express'
   | 'story'
   | 'validate'
   | 'imageCheck';
@@ -296,8 +295,6 @@ const FOCUS: Record<ContextFocus, RegExp> = {
   sides: /side|accompan|condiment|bread|vessel|plating|serv|tableware/i,
   surface: /on the go|street|outdoor|environment|staging|picnic|scenario/i,
   accent: /condiment|garnish|accompan|side|avoid|never/i,
-  // Express asks for plating and sides together; it reads the same sections plating does.
-  express: /vessel|scale|plating|serv|tableware|visual/i,
   story: /environment|staging|scenario|visual|plating|texture|prompt|model failure|wording|avoid|never/i,
   validate: /avoid|never|rule|norm|brand|unconfirmed|model failure/i,
   imageCheck: /dish catalog|variant|preparation|visual|texture|plating|model failure|avoid|never/i,
