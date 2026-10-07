@@ -20,6 +20,11 @@
   font-size: 18px;
 }
 
+/* Roadmap headings run 25% larger than the other modules'. */
+.roadmapTitle {
+  font-size: 22.5px;
+}
+
 .fold {
   padding: 0;
   background: none;
@@ -111,7 +116,7 @@
 .phaseTitle {
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .phaseLabel {

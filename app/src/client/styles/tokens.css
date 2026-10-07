@@ -37,12 +37,12 @@
   --neo-border-thin: 2px solid var(--neo-ink);
   /* Hard drop-shadow colour (user, 2026-10-06): dusty rose #cc9999, not the ink black. */
   --neo-shadow-color: #cc9999;
-  --neo-shadow: 5px 5px 0 var(--neo-shadow-color);
-  --neo-shadow-sm: 3px 3px 0 var(--neo-shadow-color);
-  --neo-shadow-active: 1px 1px 0 var(--neo-shadow-color);
+  --neo-shadow: 6.25px 6.25px 0 var(--neo-shadow-color);
+  --neo-shadow-sm: 3.75px 3.75px 0 var(--neo-shadow-color);
+  --neo-shadow-active: 1.25px 1.25px 0 var(--neo-shadow-color);
   /* Pressed: push down-right by the shadow it loses. */
-  --neo-press: translate(4px, 4px);
-  --neo-press-sm: translate(2px, 2px);
+  --neo-press: translate(5px, 5px);
+  --neo-press-sm: translate(2.5px, 2.5px);
 
   /* --- Type --- */
   /* Tilt Warp ships one weight; never ask it for bold (font-synthesis is off). */

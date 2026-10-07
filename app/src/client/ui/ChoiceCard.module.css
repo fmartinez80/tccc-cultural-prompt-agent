@@ -59,7 +59,7 @@
 
 .card[data-hovered]:not([data-disabled]) {
   transform: translate(-2px, -2px);
-  box-shadow: 7px 7px 0 var(--neo-shadow-color);
+  box-shadow: 8.75px 8.75px 0 var(--neo-shadow-color);
 }
 
 .card[data-focus-visible] {
@@ -236,7 +236,7 @@
 
 .row[data-hovered]:not([data-disabled]) {
   transform: translate(-2px, -2px);
-  box-shadow: 7px 7px 0 var(--neo-shadow-color);
+  box-shadow: 8.75px 8.75px 0 var(--neo-shadow-color);
 }
 
 .row[data-focus-visible] {

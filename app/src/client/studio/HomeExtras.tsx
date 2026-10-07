@@ -73,7 +73,7 @@ export function Roadmap() {
   return (
     <section className={styles.module} aria-label="Roadmap">
       <div className={styles.head}>
-        <h2 className={styles.title}>Roadmap</h2>
+        <h2 className={`${styles.title} ${styles.roadmapTitle}`}>Roadmap</h2>
       </div>
       <ol className={styles.phases}>
         {ROADMAP.map((p) => (
