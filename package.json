@@ -1,0 +1,12 @@
+{
+  "name": "scene-composer-heroku",
+  "private": true,
+  "description": "Heroku entry point: the app itself lives in app/.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "heroku-postbuild": "cd app && npx --yes pnpm@10 install --frozen-lockfile --prod=false && npx --yes pnpm@10 run build",
+    "start": "cd app && node --import tsx src/index.ts"
+  }
+}

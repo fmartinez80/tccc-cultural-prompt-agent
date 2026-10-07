@@ -72,10 +72,10 @@ One Node process (Koa + tRPC) serves the API and the built React app.
 | Database | Supabase Postgres: `profiles`, `generations`, `documents` (`supabase/schema.sql`) |
 | Generated and uploaded images | Supabase Storage, private bucket `scene-composer`, served via `/media/...` to signed-in users only |
 | Product photos and knowledge base | This repo: `references/`, `knowledge-base/`, `rules/` |
-| Hosting | Render (Docker web service, `render.yaml` at the repo root) |
+| Hosting | Heroku (Node, one web dyno; `package.json` and `Procfile` at the repo root build and start `app/`) |
 
 Every model call uses one Google API key, read from the `GEMINI_API_KEY` environment variable. Keys and other secrets
-live only in the host's secret store (Render's Environment tab) or a local `.env.local`, never in the repo.
+live only in the host's secret store (Heroku's Config Vars) or a local `.env.local`, never in the repo.
 
 ## Configuration
 
@@ -86,7 +86,7 @@ live only in the host's secret store (Render's Environment tab) or a local `.env
 | `SUPABASE_ANON_KEY` | yes | Supabase publishable key (`sb_publishable_...`, or the legacy anon key); the browser uses it to sign in |
 | `SUPABASE_SERVICE_ROLE_KEY` | yes | Supabase secret key (`sb_secret_...`, or the legacy service_role key); server only, never share it |
 | `ADMIN_EMAILS` | yes | Comma-separated emails that are always admins (the first admin) |
-| `APP_URL` | yes | Public URL of the app, e.g. `https://scene-composer.onrender.com`; magic links return here |
+| `APP_URL` | yes | Public URL of the app, e.g. `https://scene-composer-xxxx.herokuapp.com`; magic links return here |
 | `SUPABASE_BUCKET` | no | Storage bucket, default `scene-composer` |
 | `DEFAULT_SCENE_LIMIT` / `DEFAULT_IMAGE_LIMIT` | no | A new person's monthly limits, default 50 scenes / 300 other images |
 | `GEMINI_TEXT_FAST` / `GEMINI_TEXT_PRO` | no | Text model IDs, default `gemini-3-flash-preview` / `gemini-3.1-pro-preview` |
@@ -106,13 +106,18 @@ live only in the host's secret store (Render's Environment tab) or a local `.env
    rate-limited and meant for testing).
 6. Copy the Project URL, the publishable key and a secret key from Project settings → API Keys.
 
-### Render
+### Heroku
 
-1. New → Blueprint → pick this repository. Render reads `render.yaml` and creates the `scene-composer` web service.
-2. Fill in the secrets it asks for (the table above). Deploy.
-3. Keep it at one instance: jobs in progress are held in memory.
-4. Sign in with an `ADMIN_EMAILS` address. Supabase sends that first magic link only after you invite yourself once:
+1. New → Create new app. Any name; it becomes the address (`<name>-xxxx.herokuapp.com`).
+2. Deploy tab → Deployment method: GitHub → connect this repository → pick the branch → Deploy Branch (or Enable
+   Automatic Deploys). Heroku builds from the root `package.json`, which installs and builds `app/`.
+3. Settings tab → Reveal Config Vars → add the variables in the table above. Set `APP_URL` to the app's address
+   (Settings → Domains) and add it to Supabase's Site URL and Redirect URLs.
+4. Resources tab: one **Basic** dyno (Eco sleeps when idle). Keep it at one dyno: jobs in progress are held in memory.
+5. Sign in with an `ADMIN_EMAILS` address. Supabase sends that first magic link only after you invite yourself once:
    Supabase dashboard → Authentication → Users → Invite user. After that, invite everyone else from the app's Admin page.
+
+The `Dockerfile` also runs the app on any Docker host if you move off Heroku later.
 
 ## Local development
 
