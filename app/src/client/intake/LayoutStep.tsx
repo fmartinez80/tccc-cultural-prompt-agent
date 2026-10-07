@@ -128,7 +128,7 @@ export function PrepareLayout({
               Even after moving the supporting items around, something still overlaps. A smaller serving vessel, one fewer side or condiment, or a
               different camera angle usually fixes it.
               {sel.scene?.party === '2' && (
-                <> Two place settings need more of the table in frame, so try a wider camera look (table-context or wide-scene) first.</>
+                <> Two place settings need more of the table in frame, so try the Looking down angle first.</>
               )}
               <details className={styles.why}>
                 <summary>What didn't fit</summary>

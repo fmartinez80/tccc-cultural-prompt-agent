@@ -108,7 +108,21 @@ export function lookSentence(look: LookOption, drinks: string): string {
 }
 export function angleSentence(angle: AngleOption): string {
   if (!angle.prompt.startsWith("[")) return angle.prompt;
-  return `Camera angled about ${angle.hidden.pitch_deg} degrees down toward the table, from the diner's side.`;
+  const pitch = angle.hidden.pitch_deg;
+  // Where the camera's eye level (the horizon) falls in the frame, for the locked lens on a 24 mm-tall frame.
+  const halfFov = Math.atan(12 / (LOOKS[0]?.hidden.focal_length_mm ?? 50));
+  const fromTop = 0.5 - Math.tan((pitch * Math.PI) / 180) / (2 * Math.tan(halfFov));
+  const eyeLine =
+    fromTop >= 0.05
+      ? `the horizon (the camera's eye level) sits about ${Math.round(fromTop * 100)}% down from the top of the frame`
+      : fromTop >= -0.4
+        ? "the horizon (the camera's eye level) sits just above the top edge of the frame"
+        : "the horizon (the camera's eye level) is well above the frame, so the room behind is seen from above";
+  return (
+    `One camera, from a seated diner's eye height, tilted about ${pitch} degrees down toward the table; ${eyeLine}. ` +
+    "Draw the room, walls, furniture and background from this same camera height and tilt, so their lines meet the same eye level as the table's; never draw the room from a different, standing viewpoint. " +
+    "The table is an ordinary dining table at its real size and height, not enlarged or tipped up toward the camera."
+  );
 }
 
 // ---------------------------------------------------------------------------

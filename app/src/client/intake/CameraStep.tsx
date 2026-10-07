@@ -2,12 +2,10 @@ import { ArrowRight, Lightbulb } from 'lucide-react';
 
 import { recommendAngle } from '../../shared/rules.ts';
 import type { Selections } from '../../shared/spec.ts';
-import { useCameraIllustration } from '../lib/cameraIllustrations.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
-import { ChoiceCardGroup } from '../ui/ChoiceCard.tsx';
-import { SkeletonBlock, SkeletonText } from '../ui/Skeleton.tsx';
+import { SkeletonText } from '../ui/Skeleton.tsx';
 import { AnglePicker } from './AnglePicker.tsx';
 import styles from './CameraStep.module.css';
 import sceneStyles from './SceneStep.module.css';
@@ -52,26 +50,11 @@ export function CameraStep({
   // Until the operator picks, the recommended angle is the selection.
   const cam = sel.camera ?? { ...cfg.defaults, angle: recAngle ? recAngle.id : cfg.defaults.angle };
   const selectedLook = cfg.looks.find((l) => l.id === cam.look);
-  const selectedAngle = cfg.angles.find((a) => a.id === cam.angle);
 
   return (
     <section>
       <h1>Camera</h1>
-      <p>Pick a look and an angle. The lens and aperture behind each look are handled for you.</p>
-      <div className={sceneStyles.field}>
-        <ChoiceCardGroup
-          label="Look"
-          value={cam.look}
-          onChange={(look) => onCamera({ ...cam, look })}
-          options={cfg.looks.map((l) => ({
-            id: l.id,
-            value: l.id,
-            label: l.label,
-            summary: l.help,
-            media: <LookIllustration lookId={l.id} focalMm={l.focalMm} angleId={cam.angle} pitchDeg={selectedAngle?.pitchDeg} label={l.label} />,
-          }))}
-        />
-      </div>
+      <p>Pick an angle. The lens and focus are handled for you.</p>
       <div className={sceneStyles.field}>
         <label className={sceneStyles.fieldLabel}>Angle</label>
         {rec && recAngle && (
@@ -118,24 +101,4 @@ export function CameraStep({
       </StepActions>
     </section>
   );
-}
-
-function LookIllustration({
-  lookId,
-  focalMm,
-  angleId,
-  pitchDeg,
-  label,
-}: {
-  lookId: string;
-  focalMm?: number;
-  angleId: string;
-  pitchDeg?: number;
-  label: string;
-}) {
-  const state = useCameraIllustration(lookId, angleId, focalMm, pitchDeg);
-
-  if (state.status === 'loading') return <SkeletonBlock height="100%" />;
-  if (state.status === 'error') return <div className={sceneStyles.hint}>Illustration unavailable</div>;
-  return <img src={state.url} alt={`${label} framing`} />;
 }
