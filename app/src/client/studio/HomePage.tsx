@@ -100,7 +100,7 @@ function RecentlyAdded() {
   const data = query.data;
   const fmt = (d: string) => new Date(`${d}T00:00:00Z`).toLocaleDateString(undefined, { day: 'numeric', month: 'short', timeZone: 'UTC' });
   return (
-    <section className={styles.panel} aria-label="Recently added">
+    <section className={styles.plain} aria-label="Recently added">
       <h2 className={styles.panelTitle}>Recently Added</h2>
       {query.isError && <p className={styles.muted}>{query.error.message}</p>}
       {query.isLoading && <SkeletonText rows={4} />}

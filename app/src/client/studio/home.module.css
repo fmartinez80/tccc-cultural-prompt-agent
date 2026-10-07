@@ -17,11 +17,6 @@
   margin: 0;
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 18px;
-}
-
-/* Roadmap headings run 25% larger than the other modules'. */
-.roadmapTitle {
   font-size: 22.5px;
 }
 
@@ -80,7 +75,9 @@
 }
 
 .note {
-  margin: 12px 0 0;
+  margin: 14px auto 0;
+  max-width: 62ch;
+  text-align: center;
   color: var(--bay-text-2);
 }
 
