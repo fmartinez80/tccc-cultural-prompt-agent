@@ -7,6 +7,7 @@ import type { ReactNode } from 'react';
 import type { StudioData } from '../../api.ts';
 import { OCCASION_LABELS } from '../intake/types.ts';
 import { Flag } from '../lib/flags.tsx';
+import { titleCase } from '../lib/titleCase.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
@@ -130,7 +131,7 @@ export function SnapshotPage() {
               title="Most-visualized dishes"
               rows={data.topDishes.map((d) => ({
                 key: `${d.countryId}-${d.dish}`,
-                label: d.dish,
+                label: titleCase(d.dish),
                 sub: d.country,
                 icon: <Flag country={d.countryId} label={d.country} />,
                 value: d.scenes,

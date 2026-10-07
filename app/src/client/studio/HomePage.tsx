@@ -8,6 +8,7 @@ import { useState } from 'react';
 import type { StudioData } from '../../api.ts';
 import { OCCASION_LABELS } from '../intake/types.ts';
 import { Flag } from '../lib/flags.tsx';
+import { titleCase } from '../lib/titleCase.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -77,7 +78,7 @@ function ProjectData({ onSnapshot }: { onSnapshot: () => void }) {
               by === 'meals'
                 ? data.topDishes.slice(0, 6).map((d) => ({
                     key: `${d.countryId}-${d.dish}`,
-                    label: d.dish,
+                    label: titleCase(d.dish),
                     sub: d.country,
                     icon: <Flag country={d.countryId} label={d.country} />,
                     value: d.scenes,
@@ -137,17 +138,15 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
           <span className={styles.heroConfirm}>This clears the scene you're working on.</span>
           <div className={styles.heroActions}>
             <Button onPress={() => setConfirming(false)}>Cancel</Button>
-            <Button variant="primary" onPress={onNewScene}>
-              Start new
-            </Button>
+            <Button onPress={onNewScene}>Start new</Button>
           </div>
         </>
       ) : (
         <>
-          <p className={styles.muted}>Build a culturally grounded scene from a brief.</p>
+          <p className={styles.getStartedText}>Build a culturally grounded scene from a brief.</p>
           <div className={styles.heroActions}>
             {draftInProgress && <Button onPress={onContinue}>Continue your scene</Button>}
-            <Button variant="primary" onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
+            <Button onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
               Get Started
             </Button>
           </div>

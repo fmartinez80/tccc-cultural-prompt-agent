@@ -6,11 +6,17 @@ import { useRef, useState } from 'react';
 
 import type { SceneCard } from '../../api.ts';
 import { OCCASION_LABELS } from '../intake/types.ts';
+import { Flag } from '../lib/flags.tsx';
+import { titleCase } from '../lib/titleCase.ts';
 import { Lightbox, type LightboxState } from '../workspace/Lightbox.tsx';
 import styles from './studio.module.css';
 
 function when(iso: string): string {
   return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+function dishName(s: SceneCard): string {
+  return s.heroDish ? titleCase(s.heroDish) : 'Untitled scene';
 }
 
 function place(s: SceneCard): string {
@@ -30,16 +36,19 @@ export function SceneGallery({ scenes, showBy, layout = 'grid' }: { scenes: Scen
               <button
                 type="button"
                 className={styles.thumbButton}
-                onClick={() => setOpen({ src, alt: s.heroDish ?? 'Scene', caption: <Caption scene={s} showBy={showBy} /> })}
+                onClick={() => setOpen({ src, alt: dishName(s), caption: <Caption scene={s} showBy={showBy} /> })}
               >
-                <img src={src} alt={`${s.heroDish ?? 'Scene'}, ${place(s)}`} loading="lazy" className={styles.thumb} />
+                <img src={src} alt={`${dishName(s)}, ${place(s)}`} loading="lazy" className={styles.thumb} />
               </button>
               <div className={styles.cardBody}>
-                <strong className={styles.dish}>{s.heroDish ?? 'Untitled scene'}</strong>
-                <span className={styles.meta}>{place(s)}</span>
+                <div className={styles.cardTitleRow}>
+                  <strong className={styles.dish}>{dishName(s)}</strong>
+                  {s.country && <Flag country={s.country} label={s.countryLabel ?? s.country} />}
+                </div>
                 <span className={styles.meta}>
                   {showBy && s.by ? `${s.by} · ` : ''}
                   {when(s.createdAt)}
+                  {s.takes > 1 ? ` · ${s.takes} takes` : ''}
                 </span>
               </div>
             </li>
@@ -70,7 +79,7 @@ export function SceneGallery({ scenes, showBy, layout = 'grid' }: { scenes: Scen
 function Caption({ scene, showBy }: { scene: SceneCard; showBy: boolean }) {
   return (
     <div className={styles.caption}>
-      <strong>{scene.heroDish ?? 'Scene'}</strong> · {place(scene)}
+      <strong>{dishName(scene)}</strong> · {place(scene)}
       {scene.occasion ? ` · ${OCCASION_LABELS[scene.occasion] ?? scene.occasion}` : ''} · {when(scene.createdAt)}
       {showBy && scene.by ? ` · ${scene.by}` : ''}
       {scene.prompt && (

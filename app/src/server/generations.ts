@@ -171,6 +171,8 @@ export interface SceneCard {
   skuId: string | null;
   createdAt: string;
   by: string | null;
+  /** Images of this same meal by the same person; the gallery shows only the newest. */
+  takes: number;
 }
 
 function toCard(r: GenerationRow): SceneCard {
@@ -186,8 +188,31 @@ function toCard(r: GenerationRow): SceneCard {
     occasion: r.occasion,
     skuId: r.sku_id,
     createdAt: r.created_at,
-    by: r.profiles ? r.profiles.name || r.profiles.email : null,
+    by: r.profiles ? r.profiles.name || r.profiles.email.split('@')[0]! : null,
+    takes: (r.image_paths ?? []).length || 1,
   };
+}
+
+/**
+ * The gallery shows one card per meal per person (same country, region, dish
+ * and occasion), using the newest image, so ten takes of one dish don't fill
+ * it. `rows` must be newest first.
+ */
+function latestTakes(rows: GenerationRow[], limit: number): SceneCard[] {
+  const groups = new Map<string, SceneCard>();
+  for (const r of rows) {
+    const key = [r.user_id, r.country, r.region, r.hero_dish?.trim().toLowerCase(), r.occasion].join('|');
+    const takes = (r.image_paths ?? []).length || 1;
+    const seen = groups.get(key);
+    if (seen) {
+      seen.takes += takes;
+      continue;
+    }
+    if (groups.size >= limit) continue;
+    const card = toCard(r);
+    groups.set(key, { ...card, images: card.images.slice(0, 1) });
+  }
+  return [...groups.values()];
 }
 
 /** One user's finished generations, newest first. */
@@ -278,7 +303,7 @@ export async function studioData(): Promise<StudioData> {
     topDishes: [...dishes.values()].sort((a, b) => b.scenes - a.scenes).slice(0, 10),
     byOccasion: [...occasions].map(([occasion, scenes]) => ({ occasion, scenes })).sort((a, b) => b.scenes - a.scenes),
     weekly: [...weeks].map(([ws, v]) => ({ weekStart: ws, scenes: v.scenes, people: v.people.size })),
-    recent: rows.slice(0, 24).map(toCard),
+    recent: latestTakes(rows, 24),
   };
 }
 
