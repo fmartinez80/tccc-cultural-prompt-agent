@@ -2,8 +2,11 @@
 // activity, and the latest scenes from everyone.
 
 import { Images } from 'lucide-react';
+import type { ReactNode } from 'react';
 
 import type { StudioData } from '../../api.ts';
+import { OCCASION_LABELS } from '../intake/types.ts';
+import { Flag } from '../lib/flags.tsx';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
@@ -27,7 +30,7 @@ export function BarList({
   title,
   bare = false,
 }: {
-  rows: Array<{ key: string; label: string; sub?: string; value: number }>;
+  rows: Array<{ key: string; label: string; sub?: string; icon?: ReactNode; value: number }>;
   title: string;
   /** No panel or heading of its own: for a list inside another panel. */
   bare?: boolean;
@@ -41,7 +44,10 @@ export function BarList({
           {rows.map((r) => (
             <li key={r.key} className={styles.barRow} title={`${r.label}: ${r.value} scene${r.value === 1 ? '' : 's'}`}>
               <span className={styles.barLabel}>
-                {r.label}
+                <span className={styles.barName}>
+                  {r.icon}
+                  {r.label}
+                </span>
                 {r.sub && <span className={styles.barSub}>{r.sub}</span>}
               </span>
               <span className={styles.barTrack}>
@@ -114,6 +120,7 @@ export function SnapshotPage() {
               rows={data.byCountry.map((c) => ({
                 key: c.country,
                 label: c.label,
+                icon: <Flag country={c.country} label={c.label} />,
                 ...(c.regions.length ? { sub: c.regions.slice(0, 3).map((r) => `${r.region} ${r.scenes}`).join(' · ') } : {}),
                 value: c.scenes,
               }))}
@@ -121,9 +128,15 @@ export function SnapshotPage() {
             <Weekly weeks={data.weekly} />
             <BarList
               title="Most-visualized dishes"
-              rows={data.topDishes.map((d) => ({ key: `${d.country}-${d.dish}`, label: d.dish, sub: d.country, value: d.scenes }))}
+              rows={data.topDishes.map((d) => ({
+                key: `${d.countryId}-${d.dish}`,
+                label: d.dish,
+                sub: d.country,
+                icon: <Flag country={d.countryId} label={d.country} />,
+                value: d.scenes,
+              }))}
             />
-            <BarList title="By occasion" rows={data.byOccasion.map((o) => ({ key: o.occasion, label: o.occasion, value: o.scenes }))} />
+            <BarList title="By occasion" rows={data.byOccasion.map((o) => ({ key: o.occasion, label: OCCASION_LABELS[o.occasion] ?? o.occasion, value: o.scenes }))} />
           </div>
           <h2 className={styles.sectionTitle}>Recent scenes</h2>
           {data.recent.length ? (

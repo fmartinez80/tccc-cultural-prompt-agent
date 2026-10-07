@@ -177,6 +177,8 @@
 
 .thumbButton {
   display: block;
+  width: 100%;
+  overflow: hidden;
   padding: 0;
   border: 0;
   border-bottom: var(--neo-border);
@@ -399,4 +401,11 @@
   .welcome {
     font-size: 30px;
   }
+}
+
+.barName {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
 }

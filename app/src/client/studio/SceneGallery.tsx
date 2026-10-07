@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useRef, useState } from 'react';
 
 import type { SceneCard } from '../../api.ts';
+import { OCCASION_LABELS } from '../intake/types.ts';
 import { Lightbox, type LightboxState } from '../workspace/Lightbox.tsx';
 import styles from './studio.module.css';
 
@@ -70,7 +71,7 @@ function Caption({ scene, showBy }: { scene: SceneCard; showBy: boolean }) {
   return (
     <div className={styles.caption}>
       <strong>{scene.heroDish ?? 'Scene'}</strong> · {place(scene)}
-      {scene.occasion ? ` · ${scene.occasion}` : ''} · {when(scene.createdAt)}
+      {scene.occasion ? ` · ${OCCASION_LABELS[scene.occasion] ?? scene.occasion}` : ''} · {when(scene.createdAt)}
       {showBy && scene.by ? ` · ${scene.by}` : ''}
       {scene.prompt && (
         <details className={styles.prompt}>

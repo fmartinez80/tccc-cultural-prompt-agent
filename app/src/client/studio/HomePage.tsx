@@ -6,6 +6,8 @@ import { ArrowRight, Images } from 'lucide-react';
 import { useState } from 'react';
 
 import type { StudioData } from '../../api.ts';
+import { OCCASION_LABELS } from '../intake/types.ts';
+import { Flag } from '../lib/flags.tsx';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
@@ -30,8 +32,8 @@ function regionRows(data: StudioData) {
     const inRegions = c.regions.reduce((n, r) => n + r.scenes, 0);
     const rest = c.scenes - inRegions;
     return [
-      ...c.regions.map((r) => ({ key: `${c.country}-${r.region}`, label: r.region, sub: c.label, value: r.scenes })),
-      ...(rest > 0 ? [{ key: c.country, label: c.label, value: rest }] : []),
+      ...c.regions.map((r) => ({ key: `${c.country}-${r.region}`, label: r.region, sub: c.label, icon: <Flag country={c.country} label={c.label} />, value: r.scenes })),
+      ...(rest > 0 ? [{ key: c.country, label: c.label, icon: <Flag country={c.country} label={c.label} />, value: rest }] : []),
     ];
   });
   return rows.sort((a, b) => b.value - a.value).slice(0, 6);
@@ -72,7 +74,13 @@ function ProjectData({ onSnapshot }: { onSnapshot: () => void }) {
             title={by === 'meals' ? 'Most popular meals' : 'Most popular regions'}
             rows={
               by === 'meals'
-                ? data.topDishes.slice(0, 6).map((d) => ({ key: `${d.country}-${d.dish}`, label: d.dish, sub: d.country, value: d.scenes }))
+                ? data.topDishes.slice(0, 6).map((d) => ({
+                    key: `${d.countryId}-${d.dish}`,
+                    label: d.dish,
+                    sub: d.country,
+                    icon: <Flag country={d.countryId} label={d.country} />,
+                    value: d.scenes,
+                  }))
                 : regionRows(data)
             }
           />
@@ -148,6 +156,17 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
   );
 }
 
+function Occasions() {
+  const query = trpc.studio.useQuery(undefined, { refetchInterval: 60_000 });
+  const rows = (query.data?.byOccasion ?? []).map((o) => ({ key: o.occasion, label: OCCASION_LABELS[o.occasion] ?? o.occasion, value: o.scenes }));
+  return (
+    <section className={styles.panel} aria-label="Occasions">
+      <h2 className={styles.panelTitle}>Occasions</h2>
+      {query.isLoading ? <SkeletonText rows={3} /> : <BarList bare title="Scenes by occasion" rows={rows} />}
+    </section>
+  );
+}
+
 function Gallery() {
   const query = trpc.studio.useQuery(undefined, { refetchInterval: 60_000 });
   return (
@@ -175,6 +194,7 @@ export function HomePage({ name, draftInProgress, onNewScene, onContinue, onSnap
         <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
       </div>
       <Gallery />
+      <Occasions />
     </div>
   );
 }

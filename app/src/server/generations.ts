@@ -207,7 +207,7 @@ export async function myGenerations(userId: string, kinds: GenerationKind[], lim
 export interface StudioData {
   totals: { scenes: number; countries: number; people: number };
   byCountry: Array<{ country: string; label: string; scenes: number; regions: Array<{ region: string; scenes: number }> }>;
-  topDishes: Array<{ dish: string; country: string; scenes: number }>;
+  topDishes: Array<{ dish: string; country: string; countryId: string; scenes: number }>;
   byOccasion: Array<{ occasion: string; scenes: number }>;
   weekly: Array<{ weekStart: string; scenes: number; people: number }>;
   recent: SceneCard[];
@@ -233,7 +233,7 @@ export async function studioData(): Promise<StudioData> {
   const rows = (data ?? []) as GenerationRow[];
 
   const countries = new Map<string, { label: string; scenes: number; regions: Map<string, number> }>();
-  const dishes = new Map<string, { dish: string; country: string; scenes: number }>();
+  const dishes = new Map<string, { dish: string; country: string; countryId: string; scenes: number }>();
   const occasions = new Map<string, number>();
   const people = new Set<string>();
   for (const r of rows) {
@@ -245,7 +245,7 @@ export async function studioData(): Promise<StudioData> {
     countries.set(c, entry);
     if (r.hero_dish) {
       const k = `${c}|${r.hero_dish.toLowerCase()}`;
-      const d = dishes.get(k) ?? { dish: r.hero_dish, country: entry.label, scenes: 0 };
+      const d = dishes.get(k) ?? { dish: r.hero_dish, country: entry.label, countryId: c, scenes: 0 };
       d.scenes++;
       dishes.set(k, d);
     }
