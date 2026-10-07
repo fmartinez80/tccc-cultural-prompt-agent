@@ -92,3 +92,13 @@
     border: 0;
   }
 }
+
+.nameInput {
+  width: 100%;
+  min-width: 140px;
+  padding: 4px 6px;
+  border: var(--neo-border-thin);
+  font: inherit;
+  font-weight: 700;
+  background: var(--neo-card);
+}

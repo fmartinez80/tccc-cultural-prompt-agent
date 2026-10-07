@@ -14,20 +14,21 @@ import styles from './AdminPage.module.css';
 
 function MemberLine({ m, isSelf }: { m: MemberRow; isSelf: boolean }) {
   const utils = trpc.useUtils();
+  const [name, setName] = useState(m.name);
   const [scene, setScene] = useState(String(m.sceneLimit));
   const [image, setImage] = useState(String(m.imageLimit));
   const [confirmRemove, setConfirmRemove] = useState(false);
   const refresh = () => void utils.adminMembers.invalidate();
   const update = trpc.adminSetMember.useMutation({ onSuccess: refresh });
   const remove = trpc.adminRemove.useMutation({ onSuccess: refresh });
-  const changed = scene !== String(m.sceneLimit) || image !== String(m.imageLimit);
+  const changed = name.trim() !== m.name || scene !== String(m.sceneLimit) || image !== String(m.imageLimit);
   const valid = /^\d+$/.test(scene) && /^\d+$/.test(image);
   const error = update.error ?? remove.error;
 
   return (
     <tr>
       <td>
-        <strong>{m.name}</strong>
+        <input className={styles.nameInput} value={name} onChange={(e) => setName(e.target.value)} aria-label={`Name for ${m.email}`} maxLength={80} />
         <div className={styles.muted}>{m.email}</div>
       </td>
       <td>
@@ -55,7 +56,7 @@ function MemberLine({ m, isSelf }: { m: MemberRow; isSelf: boolean }) {
             variant="primary"
             disabled={!valid}
             loading={update.isPending}
-            onPress={() => update.mutate({ id: m.id, sceneLimit: Number(scene), imageLimit: Number(image) })}
+            onPress={() => update.mutate({ id: m.id, name: name.trim(), sceneLimit: Number(scene), imageLimit: Number(image) })}
           >
             Save
           </Button>
@@ -85,9 +86,12 @@ export function AdminPage({ selfEmail }: { selfEmail: string }) {
   const members = trpc.adminMembers.useQuery();
   const utils = trpc.useUtils();
   const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const sendInvite = () => invite.mutate({ email, ...(name.trim() ? { name: name.trim() } : {}) });
   const invite = trpc.adminInvite.useMutation({
     onSuccess: () => {
       setEmail('');
+      setName('');
       void utils.adminMembers.invalidate();
     },
   });
@@ -95,12 +99,13 @@ export function AdminPage({ selfEmail }: { selfEmail: string }) {
   return (
     <div className={styles.page}>
       <PageHeader
-        title="Admin"
-        description="Invite people and set their monthly limits. Limits reset on the 1st of each month (UTC)."
+        title="People"
+        description="Invite people, set their names and monthly limits. Limits reset on the 1st of each month (UTC)."
       />
       <section className={styles.invite} aria-label="Invite someone">
-        <TextInput type="email" label="Invite by email" value={email} onChange={setEmail} onPressEnter={() => invite.mutate({ email })} />
-        <Button variant="primary" loading={invite.isPending} disabled={!email.includes('@')} onPress={() => invite.mutate({ email })}>
+        <TextInput type="email" label="Invite by email" value={email} onChange={setEmail} onPressEnter={sendInvite} />
+        <TextInput label="Name (optional)" value={name} onChange={setName} onPressEnter={sendInvite} />
+        <Button variant="primary" loading={invite.isPending} disabled={!email.includes('@')} onPress={sendInvite}>
           Send invite
         </Button>
       </section>

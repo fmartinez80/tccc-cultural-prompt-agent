@@ -256,39 +256,6 @@
   cursor: pointer;
 }
 
-/* Home screen header: the title and the "Build a new scene" call to action. */
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px 24px;
-  padding: 24px;
-  background: var(--neo-card);
-  border: var(--neo-border);
-  box-shadow: var(--neo-shadow);
-}
-
-.heroText {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  min-width: 0;
-}
-
-.heroTitle {
-  margin: 0;
-  font-family: var(--app-font-head);
-  font-size: 40px;
-  line-height: 1;
-  font-weight: 400;
-}
-
-.heroLead {
-  margin: 0;
-  color: var(--bay-text-3);
-}
-
 .heroActions {
   display: flex;
   flex-wrap: wrap;
@@ -300,11 +267,136 @@
   font-weight: 700;
 }
 
+/* Gallery as a carousel: one row of cards that scrolls sideways, arrows either side. */
+.carousel {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.carouselTrack {
+  list-style: none;
+  margin: 0;
+  padding: 4px 6px 10px 2px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, calc((100% - 48px) / 4));
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.carouselTrack > li {
+  scroll-snap-align: start;
+}
+
+.carouselArrow {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--neo-ink);
+  cursor: pointer;
+}
+
+.carouselArrow:hover {
+  background: var(--neo-hover);
+}
+
+.carouselArrow:focus-visible {
+  outline: var(--neo-border-thin);
+}
+
 @media (max-width: 640px) {
-  .hero {
-    padding: 16px;
+  .carousel {
+    grid-template-columns: minmax(0, 1fr);
   }
-  .heroTitle {
+  .carouselArrow {
+    display: none;
+  }
+}
+
+/* Home screen (matches Fernando's mockup): welcome, data + highlights + get started, gallery. */
+.welcome {
+  margin: 8px 0 4px;
+  font-family: var(--app-font-head);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.05;
+}
+
+.homeGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  gap: 16px;
+}
+
+.homeData {
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panelHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.panelHead .panelTitle {
+  margin: 0;
+}
+
+.bullets {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  line-height: 1.4;
+}
+
+.getStarted {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.textLink {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding: 0;
+  background: none;
+  border: 0;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .homeGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .homeData {
+    grid-row: auto;
+  }
+  .welcome {
     font-size: 30px;
   }
 }

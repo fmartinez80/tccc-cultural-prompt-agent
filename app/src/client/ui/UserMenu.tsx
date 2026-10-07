@@ -1,82 +1,52 @@
-import { ArrowLeft } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import type { ReactNode } from 'react';
-import {
-  Button,
-  Menu,
-  MenuItem,
-  MenuTrigger,
-  Popover,
-  Separator,
-} from 'react-aria-components';
+import { Button, Menu, MenuItem, MenuTrigger, Popover, Separator } from 'react-aria-components';
 
-import { Avatar } from './Avatar.tsx';
 import styles from './UserMenu.module.css';
 
-export type UserMenuProps = {
-  /** Display name shown next to the avatar. */
-  name: string;
-  /** Shown (disabled) at the top of the menu, when present. */
-  email?: string | undefined;
-  /** Profile picture URL. Falls back to initials via {@link Avatar}. */
-  avatarUrl?: string | null | undefined;
-  /** Called when "Sign out" is selected. Omit to hide that item. */
-  onSignOut?: (() => void) | undefined;
-  /** URL for a "Back to home" link; omit or pass `null` to hide the item. */
-  homeUrl?: string | null | undefined;
-  /** Label for the launcher link. Defaults to `"Back to home"`. */
-  homeLabel?: string | undefined;
+export type UserMenuItem = {
+  id: string;
+  label: string;
+  /** Marks the page currently showing. */
+  current?: boolean | undefined;
 };
 
-/**
- * A navbar identity chip — avatar + name — with a menu carrying an optional
- * "Back to home" link and an optional sign-out.
- */
-export function UserMenu({
-  name,
-  email,
-  avatarUrl,
-  onSignOut,
-  homeUrl,
-  homeLabel = 'Back to home',
-}: UserMenuProps): ReactNode {
-  const home = homeUrl ?? null;
+export type UserMenuProps = {
+  /** The signed-in person's email: the menu's label. */
+  email: string;
+  /** The app's pages, in order. */
+  items?: UserMenuItem[] | undefined;
+  onAction?: ((id: string) => void) | undefined;
+  /** Shows "Log out" under the pages. */
+  onSignOut?: (() => void) | undefined;
+};
 
-  const chip = (
-    <span className={styles.chip}>
-      <Avatar name={name} src={avatarUrl} size={28} />
-      <span className={styles.name}>{name}</span>
-    </span>
-  );
-
-  if (!home && !email && !onSignOut) return chip;
-
+/** The header's only navigation: the signed-in email as a dropdown of the app's pages, then Log out. */
+export function UserMenu({ email, items = [], onAction, onSignOut }: UserMenuProps): ReactNode {
   return (
     <MenuTrigger>
-      <Button className={styles.trigger}>{chip}</Button>
+      <Button className={styles.trigger}>
+        <span className={styles.name}>{email}</span>
+        <ChevronDown size={16} aria-hidden />
+      </Button>
       <Popover placement="bottom end" offset={6} className={styles.popover}>
         <Menu
           className={styles.menu}
+          aria-label="Pages"
           onAction={(key) => {
             if (key === 'sign-out') onSignOut?.();
+            else onAction?.(String(key));
           }}
         >
-          {home && (
-            <MenuItem id="home" href={home} className={styles.item}>
-              <ArrowLeft size={14} aria-hidden />
-              {homeLabel}
+          {items.map((item) => (
+            <MenuItem key={item.id} id={item.id} className={styles.item} data-current={item.current || undefined}>
+              {item.label}
             </MenuItem>
-          )}
-          {email && (
-            <MenuItem id="email" isDisabled className={styles.email}>
-              {email}
-            </MenuItem>
-          )}
-          {(home || email) && onSignOut && (
-            <Separator className={styles.separator} />
-          )}
+          ))}
+          {items.length > 0 && onSignOut && <Separator className={styles.separator} />}
           {onSignOut && (
-            <MenuItem id="sign-out" className={styles.item}>
-              Sign out
+            <MenuItem id="sign-out" className={styles.signOut}>
+              Log out
             </MenuItem>
           )}
         </Menu>

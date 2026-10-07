@@ -1,7 +1,7 @@
 import type React from 'react';
 
 import { ErrorBoundary } from '../ui/ErrorBoundary.tsx';
-import { UserMenu } from '../ui/UserMenu.tsx';
+import { UserMenu, type UserMenuItem } from '../ui/UserMenu.tsx';
 import styles from './AppShell.module.css';
 
 export type AppShellUser = {
@@ -15,8 +15,11 @@ export type AppShellProps = {
   /** Centred in the header; `title` then sits at the left. */
   logo?: React.ReactNode | undefined;
   user?: AppShellUser | undefined;
-  /** Shows "Sign out" in the user menu. */
+  /** Shows "Log out" in the user menu. */
   onSignOut?: (() => void) | undefined;
+  /** The app's pages, listed in the user menu. */
+  menuItems?: UserMenuItem[] | undefined;
+  onMenuAction?: ((id: string) => void) | undefined;
   actions?: React.ReactNode;
   maxWidth?: number;
   /**
@@ -34,7 +37,7 @@ export type AppShellProps = {
    * unused. For a page whose own top-level chrome (a chat sidebar, a nav
    * rail) already covers the app title and wants to own the very top of the
    * viewport instead of sitting below a second header. The user plumbing
-   * stays available regardless: `<UserMenu>` and `<Avatar>`
+   * stays available regardless: `<UserMenu>`
    * (`src/client/ui/`) are plain components, usable anywhere in the tree,
    * not just inside this header.
    */
@@ -47,6 +50,8 @@ export function AppShell({
   logo,
   user,
   onSignOut,
+  menuItems,
+  onMenuAction,
   actions,
   maxWidth = 960,
   fillViewport = false,
@@ -65,12 +70,7 @@ export function AppShell({
           <div className={styles.actions}>
             {actions}
             {user && (
-              <UserMenu
-                name={user.name}
-                email={user.email}
-                avatarUrl={user.avatarUrl}
-                onSignOut={onSignOut}
-              />
+              <UserMenu email={user.email} items={menuItems} onAction={onMenuAction} onSignOut={onSignOut} />
             )}
           </div>
         </header>

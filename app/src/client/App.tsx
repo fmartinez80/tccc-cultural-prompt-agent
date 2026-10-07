@@ -30,7 +30,9 @@ import { setActiveBrief } from './lib/activeBrief.ts';
 import { signOut } from './lib/auth.ts';
 import { LearningPage } from './learning/LearningPage.tsx';
 import { MyScenesPage } from './studio/MyScenesPage.tsx';
-import { StudioPage } from './studio/StudioPage.tsx';
+import { HomePage } from './studio/HomePage.tsx';
+import { SnapshotPage } from './studio/SnapshotPage.tsx';
+import { SkusPage } from './skus/SkusPage.tsx';
 import styles from './App.module.css';
 
 /** Every top-level view, each at its own `#hash` so a reload or a shared link
@@ -38,14 +40,16 @@ import styles from './App.module.css';
 const VIEW_HASH = {
   home: '',
   compose: '#compose',
-  mine: '#my-scenes',
+  snapshot: '#snapshot',
+  mine: '#my-projects',
+  skus: '#skus',
   admin: '#admin',
   learning: '#admin/learning',
 } as const;
 type View = keyof typeof VIEW_HASH;
 
 /** Hashes from earlier versions of the app. */
-const OLD_HASH: Record<string, View> = { '#studio': 'home', '#learning': 'learning' };
+const OLD_HASH: Record<string, View> = { '#studio': 'home', '#learning': 'learning', '#my-scenes': 'mine' };
 
 /** The intake's own state lives in `useIntake()` regardless of which view is
  * rendered, so switching views never resets the draft. */
@@ -387,24 +391,12 @@ export function App() {
 
   const isAdmin = profile.data?.role === 'admin';
   const draftInProgress = draft.step !== 'brief' || !!draft.brief.heroDish.trim();
-  const navLink = (target: View, label: string) => (
-    <Button
-      key={target}
-      variant="ghost"
-      size="sm"
-      onPress={() => openView(target)}
-      aria-current={view === target || (target === 'admin' && view === 'learning') ? 'page' : undefined}
-      className={styles.navLink}
-    >
-      {label}
-    </Button>
-  );
-  const navLinks = (
-    <>
-      {navLink('mine', 'My scenes')}
-      {isAdmin && navLink('admin', 'Admin')}
-    </>
-  );
+  const menuItems = [
+    ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
+    { id: 'snapshot', label: 'Global Snapshot', current: view === 'snapshot' },
+    { id: 'mine', label: 'My Projects', current: view === 'mine' },
+    { id: 'skus', label: 'Adding SKUs', current: view === 'skus' },
+  ];
 
   return (
     <AppShell
@@ -423,10 +415,10 @@ export function App() {
       }
       user={profile.data ?? undefined}
       onSignOut={() => void signOut()}
+      menuItems={menuItems}
+      onMenuAction={(id) => openView(id as View)}
       actions={
-        view !== 'compose' ? (
-          navLinks
-        ) : confirmingReset ? (
+        view !== 'compose' ? null : confirmingReset ? (
           <div className={styles.confirmRow}>
             <span className={styles.confirmText}>Start over and clear the whole draft?</span>
             <Button size="sm" onPress={() => setConfirmingReset(false)}>
@@ -448,7 +440,6 @@ export function App() {
             <Button variant="ghost" size="sm" icon={<RotateCcw size={14} aria-hidden />} onPress={() => setConfirmingReset(true)}>
               Start over
             </Button>
-            {navLinks}
           </>
         )
       }
@@ -476,7 +467,9 @@ export function App() {
         </ErrorBoundary>
       ) : view === 'home' ? (
         <ErrorBoundary label="studio">
-          <StudioPage
+          <HomePage
+            name={profile.data?.name ?? ''}
+            onSnapshot={() => openView('snapshot')}
             draftInProgress={draftInProgress}
             onContinue={() => openView('compose')}
             onNewScene={() => {
@@ -484,6 +477,14 @@ export function App() {
               openView('compose');
             }}
           />
+        </ErrorBoundary>
+      ) : view === 'snapshot' ? (
+        <ErrorBoundary label="global snapshot">
+          <SnapshotPage />
+        </ErrorBoundary>
+      ) : view === 'skus' ? (
+        <ErrorBoundary label="SKUs">
+          <SkusPage />
         </ErrorBoundary>
       ) : view === 'mine' ? (
         <ErrorBoundary label="my scenes">

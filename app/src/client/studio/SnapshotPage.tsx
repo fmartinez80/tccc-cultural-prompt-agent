@@ -1,19 +1,18 @@
-// The shared Studio: which regions are being visualized, a light view of
+// The global snapshot: which regions are being visualized, a light view of
 // activity, and the latest scenes from everyone.
 
-import { ArrowRight, Images, Plus } from 'lucide-react';
-import { useState } from 'react';
+import { Images } from 'lucide-react';
 
 import type { StudioData } from '../../api.ts';
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
-import { Button } from '../ui/Button.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
+import { PageHeader } from '../ui/PageHeader.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
 import { SceneGallery } from './SceneGallery.tsx';
 import styles from './studio.module.css';
 
-function Stat({ value, label }: { value: number; label: string }) {
+export function Stat({ value, label }: { value: number; label: string }) {
   return (
     <div className={styles.stat}>
       <span className={styles.statValue}>{value.toLocaleString()}</span>
@@ -23,12 +22,19 @@ function Stat({ value, label }: { value: number; label: string }) {
 }
 
 /** Horizontal bars, one per row, scaled to the largest value. Each row is labeled with its number. */
-function BarList({ rows, title }: { rows: Array<{ key: string; label: string; sub?: string; value: number }>; title: string }) {
+export function BarList({
+  rows,
+  title,
+  bare = false,
+}: {
+  rows: Array<{ key: string; label: string; sub?: string; value: number }>;
+  title: string;
+  /** No panel or heading of its own: for a list inside another panel. */
+  bare?: boolean;
+}) {
   const max = Math.max(1, ...rows.map((r) => r.value));
-  return (
-    <section className={styles.panel} aria-label={title}>
-      <h2 className={styles.panelTitle}>{title}</h2>
-      {rows.length === 0 ? (
+  const list =
+      rows.length === 0 ? (
         <p className={styles.muted}>Nothing yet.</p>
       ) : (
         <ol className={styles.bars}>
@@ -45,13 +51,18 @@ function BarList({ rows, title }: { rows: Array<{ key: string; label: string; su
             </li>
           ))}
         </ol>
-      )}
+      );
+  if (bare) return <div aria-label={title}>{list}</div>;
+  return (
+    <section className={styles.panel} aria-label={title}>
+      <h2 className={styles.panelTitle}>{title}</h2>
+      {list}
     </section>
   );
 }
 
 /** Scenes per week for the last 12 weeks, as columns; hover a column for its numbers. */
-function Weekly({ weeks }: { weeks: StudioData['weekly'] }) {
+export function Weekly({ weeks }: { weeks: StudioData['weekly'] }) {
   const max = Math.max(1, ...weeks.map((w) => w.scenes));
   const fmt = (d: string) => new Date(`${d}T00:00:00Z`).toLocaleDateString(undefined, { day: 'numeric', month: 'short', timeZone: 'UTC' });
   return (
@@ -78,59 +89,14 @@ function Weekly({ weeks }: { weeks: StudioData['weekly'] }) {
   );
 }
 
-/** The home screen's call to action. Starting a new scene clears the draft, so with one in progress it asks first. */
-function NewScene({ draftInProgress, onNewScene, onContinue }: StudioPageProps) {
-  const [confirming, setConfirming] = useState(false);
-  return (
-    <section className={styles.hero} aria-label="Build a scene">
-      <div className={styles.heroText}>
-        <h1 className={styles.heroTitle}>Studio</h1>
-        <p className={styles.heroLead}>What the team is visualizing: regions, dishes, activity and the latest scenes.</p>
-      </div>
-      <div className={styles.heroActions}>
-        {confirming ? (
-          <>
-            <span className={styles.heroConfirm}>This clears the scene you're working on.</span>
-            <Button onPress={() => setConfirming(false)}>Cancel</Button>
-            <Button variant="primary" onPress={onNewScene}>
-              Start new
-            </Button>
-          </>
-        ) : (
-          <>
-            {draftInProgress && (
-              <Button icon={<ArrowRight size={16} aria-hidden />} onPress={onContinue}>
-                Continue your scene
-              </Button>
-            )}
-            <Button
-              variant="primary"
-              icon={<Plus size={16} aria-hidden />}
-              onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}
-            >
-              Build a new scene
-            </Button>
-          </>
-        )}
-      </div>
-    </section>
-  );
-}
-
-type StudioPageProps = {
-  draftInProgress: boolean;
-  onNewScene: () => void;
-  onContinue: () => void;
-};
-
-export function StudioPage(props: StudioPageProps) {
+export function SnapshotPage() {
   const query = trpc.studio.useQuery(undefined, { refetchInterval: 60_000 });
   const data = query.data;
   return (
     <div className={styles.page}>
-      <NewScene {...props} />
+      <PageHeader title="Global snapshot" description="What the whole team is visualizing: regions, dishes, occasions, activity and the latest scenes." />
       {query.isError && (
-        <Alert tone="error" title="Couldn't load the studio">
+        <Alert tone="error" title="Couldn't load the snapshot">
           {query.error.message}
         </Alert>
       )}

@@ -52,12 +52,18 @@ results.
 - Knowledge base: `knowledge-base/` (Markdown, copied from the reference repo); rules: `rules/*.json`.
 - Solver, prompts and registry: `src/shared/`; agent + KB excerpting: `src/server/`; API: `src/api.ts`.
 
-Signed-in people land on **Studio**, the home screen (the Prod X logo always returns there): shared activity for the
-whole team (scenes and images to date, the countries and regions being visualized, top dishes and occasions, a 12-week
-activity chart and a gallery of the latest scenes) and a **Build a new scene** button that opens the composer
-(`#compose`). The header keeps only **My scenes** (`#my-scenes`: the person's own generations and how much of their
-monthly limit is left) and, for admins, **Admin** (`#admin`), which has two tabs: People (invite by email, roles,
-monthly limits, remove access) and Learning (`#admin/learning`: ratings, lessons and knowledge-base edits per dish).
+Signed-in people land on the **home** dashboard (the Prod X logo always returns there): a welcome, **Project Data**
+(the team's most popular meals or regions), **Recently Added** (what the knowledge base covers and its newest country
+and regional guides, read from each file's `date_drafted`), **Get Started** (opens the composer at `#compose`) and a
+**Gallery** carousel of the latest scenes. The header holds only the logo, the signed-in email (a dropdown with Admin,
+Global Snapshot, My Projects, Adding SKUs and Log out) and, while composing, Start over.
+
+- **Global Snapshot** (`#snapshot`): the full shared view: countries and regions, dishes, occasions, a 12-week chart
+  and every recent scene.
+- **My Projects** (`#my-projects`): the person's own generations and how much of their monthly limit is left.
+- **Adding SKUs** (`#skus`): the shared product inventory and how to add a product.
+- **Admin** (`#admin`, admins only): People (invite with an optional name, names, roles, monthly limits, remove
+  access) and Learning (`#admin/learning`: ratings, lessons and knowledge-base edits per dish).
 
 ## How it runs
 

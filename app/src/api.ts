@@ -36,6 +36,7 @@ import {
 } from './server/feedback.ts';
 import { buildLearnTask, mergeLearnAnswer } from './server/learn.ts';
 import { loadKnowledge } from './server/knowledge.ts';
+import { kbHighlights } from './server/insights.ts';
 import { glassReferenceLine, pouredGlass, productElement, skuReferenceLines, skuShots, type SkuShot } from './server/references.ts';
 import { SKU_CATALOG } from './shared/registry.ts';
 import {
@@ -88,6 +89,7 @@ import { adminProcedure, publicProcedure, router, signedInProcedure } from './tr
 
 export type { AgentResult } from './server/agent.ts';
 export type { SceneCard, StudioData, MemberRow } from './server/generations.ts';
+export type { KbHighlights } from './server/insights.ts';
 
 /** The signed-in user, as the browser sees them. */
 export interface AppProfile {
@@ -744,6 +746,9 @@ export const AppRouter = router({
     }),
 
   /** The shared dashboard: regions being visualized, activity, recent scenes from everyone. */
+  /** What the knowledge base covers and its latest additions, for the home screen. */
+  kbHighlights: signedInProcedure.query(() => kbHighlights()),
+
   studio: signedInProcedure.query(async () => {
     try {
       return await studioData();
@@ -763,10 +768,12 @@ export const AppRouter = router({
 
   /** Invite someone by email: they get a sign-in link and can use the app from then on. */
   adminInvite: adminProcedure
-    .input(z.object({ email: z.string().trim().toLowerCase().email().max(200) }))
+    .input(z.object({ email: z.string().trim().toLowerCase().email().max(200), name: z.string().trim().max(80).optional() }))
     .mutation(async ({ input }) => {
-      const redirectTo = env.appUrl || undefined;
-      const { error } = await db().auth.admin.inviteUserByEmail(input.email, redirectTo ? { redirectTo } : undefined);
+      const { error } = await db().auth.admin.inviteUserByEmail(input.email, {
+        ...(env.appUrl ? { redirectTo: env.appUrl } : {}),
+        ...(input.name ? { data: { full_name: input.name } } : {}),
+      });
       if (error) throw new TRPCError({ code: 'BAD_REQUEST', message: `Couldn't invite ${input.email}: ${error.message}` });
       return { ok: true };
     }),
@@ -777,6 +784,7 @@ export const AppRouter = router({
       z.object({
         id: z.string().uuid(),
         role: z.enum(['admin', 'member']).optional(),
+        name: z.string().trim().max(80).optional(),
         sceneLimit: z.number().int().min(0).max(100_000).optional(),
         imageLimit: z.number().int().min(0).max(100_000).optional(),
       })
@@ -787,6 +795,7 @@ export const AppRouter = router({
       }
       const patch: Record<string, unknown> = {};
       if (input.role) patch['role'] = input.role;
+      if (input.name !== undefined) patch['name'] = input.name || null;
       if (input.sceneLimit !== undefined) patch['scene_limit'] = input.sceneLimit;
       if (input.imageLimit !== undefined) patch['image_limit'] = input.imageLimit;
       const { error } = await db().from('profiles').update(patch).eq('id', input.id);

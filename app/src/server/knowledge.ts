@@ -44,7 +44,7 @@ function walk(dir: string): string[] {
   return out;
 }
 
-function frontMatter(text: string): Record<string, string> {
+export function frontMatter(text: string): Record<string, string> {
   const m = text.match(/^---\n([\s\S]*?)\n---/);
   const fm: Record<string, string> = {};
   if (!m?.[1]) return fm;

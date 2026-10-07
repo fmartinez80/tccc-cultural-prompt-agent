@@ -36,7 +36,7 @@ export function MyScenesPage({ onNewScene }: { onNewScene: () => void }) {
   const usage = trpc.usage.useQuery();
   return (
     <div className={styles.page}>
-      <PageHeader title="My scenes" description="Everything you've generated. Click an image to see it large with its prompt." />
+      <PageHeader title="My projects" description="Everything you've generated. Click an image to see it large with its prompt." />
       {usage.data && (
         <div className={styles.meters} aria-label="This month">
           <Meter used={usage.data.scenes} limit={usage.data.sceneLimit} label="scenes this month" />
