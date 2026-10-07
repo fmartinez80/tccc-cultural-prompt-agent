@@ -14,6 +14,7 @@ import { Button } from '../ui/Button.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
 import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { SkeletonBlock, SkeletonText } from '../ui/Skeleton.tsx';
+import { HowItWorks, Roadmap } from './HomeExtras.tsx';
 import { SceneGallery } from './SceneGallery.tsx';
 import { BarList } from './SnapshotPage.tsx';
 import styles from './studio.module.css';
@@ -188,6 +189,7 @@ export function HomePage({ name, draftInProgress, onNewScene, onContinue, onSnap
   return (
     <div className={styles.page}>
       <h1 className={styles.welcome}>Welcome{first ? `, ${first.charAt(0).toUpperCase()}${first.slice(1)}` : ''}</h1>
+      <HowItWorks />
       <div className={styles.homeGrid}>
         <ProjectData onSnapshot={onSnapshot} />
         <RecentlyAdded />
@@ -195,6 +197,7 @@ export function HomePage({ name, draftInProgress, onNewScene, onContinue, onSnap
       </div>
       <Gallery />
       <Occasions />
+      <Roadmap />
     </div>
   );
 }
