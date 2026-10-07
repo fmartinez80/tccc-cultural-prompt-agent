@@ -83,8 +83,8 @@ live only in the host's secret store (Render's Environment tab) or a local `.env
 |---|---|---|
 | `GEMINI_API_KEY` | yes | Google AI Studio / Gemini API key (works on `generativelanguage.googleapis.com`, not Vertex) |
 | `SUPABASE_URL` | yes | Supabase project URL (Project settings → API) |
-| `SUPABASE_ANON_KEY` | yes | Supabase anon (publishable) key; the browser uses it to sign in |
-| `SUPABASE_SERVICE_ROLE_KEY` | yes | Supabase service-role key; server only |
+| `SUPABASE_ANON_KEY` | yes | Supabase publishable key (`sb_publishable_...`, or the legacy anon key); the browser uses it to sign in |
+| `SUPABASE_SERVICE_ROLE_KEY` | yes | Supabase secret key (`sb_secret_...`, or the legacy service_role key); server only, never share it |
 | `ADMIN_EMAILS` | yes | Comma-separated emails that are always admins (the first admin) |
 | `APP_URL` | yes | Public URL of the app, e.g. `https://scene-composer.onrender.com`; magic links return here |
 | `SUPABASE_BUCKET` | no | Storage bucket, default `scene-composer` |
@@ -104,7 +104,7 @@ live only in the host's secret store (Render's Environment tab) or a local `.env
    `http://localhost:5173/**` for local work) to Redirect URLs.
 5. Optional: Authentication → Emails → SMTP to send magic links from your own domain (Supabase's built-in mailer is
    rate-limited and meant for testing).
-6. Copy the project URL, anon key and service-role key from Project settings → API.
+6. Copy the Project URL, the publishable key and a secret key from Project settings → API Keys.
 
 ### Render
 
