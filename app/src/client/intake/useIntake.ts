@@ -99,6 +99,8 @@ export interface Draft {
   workspace: WorkspaceState;
   /** The sketch review of the picked layout; ignored once a different layout is picked (see layoutKey). */
   review: LayoutReview | null;
+  /** Names this session, so My Projects can reopen it from any scene it produced (see useSessionSync). */
+  sessionId: string;
 }
 
 /**
@@ -133,34 +135,48 @@ const EMPTY_DRAFT: Draft = {
   sketches: {},
   workspace: EMPTY_WORKSPACE,
   review: null,
+  sessionId: '',
 };
+
+function newSessionId(): string {
+  return typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+}
+
+function freshDraft(): Draft {
+  return { ...EMPTY_DRAFT, sessionId: newSessionId() };
+}
 
 function loadDraft(): Draft {
   if (typeof window === 'undefined') return EMPTY_DRAFT;
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return EMPTY_DRAFT;
-    const rawParsed = JSON.parse(raw) as Record<string, unknown>;
-    const parsed = rawParsed as Partial<Draft>;
-    // Old drafts saved on the since-removed 'accent' or 'layout' steps land on Sketch review, which now composes and picks the layout itself;
-    // one left on the removed Express step restarts at the brief.
-    const rawStep = typeof rawParsed.step === 'string' ? rawParsed.step : undefined;
-    const step = (rawStep === 'accent' || rawStep === 'layout' ? 'review' : rawStep === 'express' ? 'brief' : rawStep) as StepId | undefined;
-    const { mode: _mode, ...saved } = parsed as Partial<Draft> & { mode?: unknown };
-    return {
-      ...EMPTY_DRAFT,
-      ...saved,
-      step: step ?? EMPTY_DRAFT.step,
-      brief: { ...EMPTY_BRIEF, ...parsed.brief },
-      turnarounds: parsed.turnarounds ?? {},
-      sketch: parsed.sketch ?? null,
-      sketches: parsed.sketches ?? {},
-      review: parsed.review ?? null,
-      workspace: { ...EMPTY_WORKSPACE, ...parsed.workspace },
-    };
+    if (!raw) return freshDraft();
+    return normalizeDraft(JSON.parse(raw) as Record<string, unknown>);
   } catch {
-    return EMPTY_DRAFT;
+    return freshDraft();
   }
+}
+
+/** A saved draft (from this browser, or a session reopened from My Projects) brought up to the current shape. */
+export function normalizeDraft(rawParsed: Record<string, unknown>): Draft {
+  const parsed = rawParsed as Partial<Draft>;
+  // Old drafts saved on the since-removed 'accent' or 'layout' steps land on Sketch review, which now composes and picks the layout itself;
+  // one left on the removed Express step restarts at the brief.
+  const rawStep = typeof rawParsed.step === 'string' ? rawParsed.step : undefined;
+  const step = (rawStep === 'accent' || rawStep === 'layout' ? 'review' : rawStep === 'express' ? 'brief' : rawStep) as StepId | undefined;
+  const { mode: _mode, ...saved } = parsed as Partial<Draft> & { mode?: unknown };
+  return {
+    ...EMPTY_DRAFT,
+    ...saved,
+    step: step ?? EMPTY_DRAFT.step,
+    brief: { ...EMPTY_BRIEF, ...parsed.brief },
+    turnarounds: parsed.turnarounds ?? {},
+    sketch: parsed.sketch ?? null,
+    sketches: parsed.sketches ?? {},
+    review: parsed.review ?? null,
+    workspace: { ...EMPTY_WORKSPACE, ...parsed.workspace },
+    sessionId: typeof parsed.sessionId === 'string' && parsed.sessionId ? parsed.sessionId : newSessionId(),
+  };
 }
 
 export function useIntake() {
@@ -209,6 +225,7 @@ export function useIntake() {
       sketches: {},
       workspace: { ...freshSegments(d.workspace), proxy: null },
       review: null,
+      sessionId: d.sessionId,
     }));
   }, []);
 
@@ -347,7 +364,13 @@ export function useIntake() {
 
   const startOver = useCallback(() => {
     skipNextSaveFlash.current = true;
-    setDraft(EMPTY_DRAFT);
+    setDraft(freshDraft());
+  }, []);
+
+  /** Replaces the draft with a session reopened from My Projects. */
+  const restoreSession = useCallback((saved: Record<string, unknown>) => {
+    skipNextSaveFlash.current = true;
+    setDraft(normalizeDraft(saved));
   }, []);
 
   return {
@@ -368,5 +391,6 @@ export function useIntake() {
     setTurnaroundView,
     updateWorkspace,
     startOver,
+    restoreSession,
   };
 }

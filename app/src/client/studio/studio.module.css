@@ -215,6 +215,12 @@
   font-size: 14px;
 }
 
+.captionNote {
+  margin: 0 0 8px;
+  font-size: 13px;
+  color: var(--bay-text-3);
+}
+
 .prompt summary {
   margin-top: 8px;
   cursor: pointer;

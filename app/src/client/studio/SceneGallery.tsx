@@ -1,5 +1,6 @@
 // A grid of generated scenes: image, dish, place, who made it and when.
-// Clicking a card opens it large with its brief and prompt.
+// Clicking a card opens it large with its brief and prompt, or, where the page
+// passes onOpenScene (My Projects), reopens the whole session it came from.
 
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useRef, useState } from 'react';
@@ -24,8 +25,29 @@ function place(s: SceneCard): string {
 }
 
 /** `grid` wraps every card; `carousel` is one row that scrolls sideways with arrow buttons. */
-export function SceneGallery({ scenes, showBy, layout = 'grid' }: { scenes: SceneCard[]; showBy: boolean; layout?: 'grid' | 'carousel' }) {
+export function SceneGallery({
+  scenes,
+  showBy,
+  layout = 'grid',
+  onOpenScene,
+}: {
+  scenes: SceneCard[];
+  showBy: boolean;
+  layout?: 'grid' | 'carousel';
+  /** Tries to reopen the scene's session; resolves false when there is none, and the image opens large instead. */
+  onOpenScene?: (scene: SceneCard) => Promise<boolean>;
+}) {
   const [open, setOpen] = useState<LightboxState | null>(null);
+  const [opening, setOpening] = useState<string | null>(null);
+  const show = async (s: SceneCard, src: string) => {
+    if (onOpenScene) {
+      setOpening(s.id);
+      const reopened = await onOpenScene(s).catch(() => false);
+      setOpening(null);
+      if (reopened) return;
+    }
+    setOpen({ src, alt: dishName(s), caption: <Caption scene={s} showBy={showBy} noSession={!!onOpenScene && s.kind === 'scene'} /> });
+  };
   const track = useRef<HTMLUListElement>(null);
   const scroll = (dir: -1 | 1) => track.current?.scrollBy({ left: dir * track.current.clientWidth * 0.9, behavior: 'smooth' });
   const list = (
@@ -36,7 +58,9 @@ export function SceneGallery({ scenes, showBy, layout = 'grid' }: { scenes: Scen
               <button
                 type="button"
                 className={styles.thumbButton}
-                onClick={() => setOpen({ src, alt: dishName(s), caption: <Caption scene={s} showBy={showBy} /> })}
+                aria-busy={opening === s.id || undefined}
+                disabled={opening !== null}
+                onClick={() => void show(s, src)}
               >
                 <img src={src} alt={`${dishName(s)}, ${place(s)}`} loading="lazy" className={styles.thumb} />
               </button>
@@ -76,9 +100,10 @@ export function SceneGallery({ scenes, showBy, layout = 'grid' }: { scenes: Scen
   );
 }
 
-function Caption({ scene, showBy }: { scene: SceneCard; showBy: boolean }) {
+function Caption({ scene, showBy, noSession }: { scene: SceneCard; showBy: boolean; noSession?: boolean }) {
   return (
     <div className={styles.caption}>
+      {noSession && <p className={styles.captionNote}>This scene was made before whole sessions were saved, so only the image and prompt are kept.</p>}
       <strong>{dishName(scene)}</strong> · {place(scene)}
       {scene.occasion ? ` · ${OCCASION_LABELS[scene.occasion] ?? scene.occasion}` : ''} · {when(scene.createdAt)}
       {showBy && scene.by ? ` · ${scene.by}` : ''}

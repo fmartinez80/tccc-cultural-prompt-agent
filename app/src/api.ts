@@ -85,6 +85,7 @@ import {
   type Blueprint,
   type SceneSpec,
 } from './shared/types.ts';
+import { SessionTooLargeError, loadSession, saveSession } from './server/sessions.ts';
 import { adminProcedure, publicProcedure, router, signedInProcedure } from './trpc.ts';
 
 export type { AgentResult } from './server/agent.ts';
@@ -744,6 +745,22 @@ export const AppRouter = router({
         storageError(err, 'load your scenes');
       }
     }),
+
+  /** Keeps the whole composer session, so My Projects can reopen it from any scene it produced. */
+  saveSession: signedInProcedure
+    .input(z.object({ sessionId: z.string(), draft: z.record(z.string(), z.unknown()), generationIds: z.array(z.string()).max(200) }))
+    .mutation(async ({ ctx, input }) => {
+      try {
+        await saveSession(ctx.user.id, input.sessionId, input.draft, input.generationIds);
+        return { ok: true };
+      } catch (err) {
+        if (err instanceof SessionTooLargeError) throw new TRPCError({ code: 'PAYLOAD_TOO_LARGE', message: err.message });
+        storageError(err, 'save this session');
+      }
+    }),
+
+  /** The session one of the user's scenes came from, or null for scenes made before sessions were kept. */
+  sessionFor: signedInProcedure.input(z.object({ generationId: z.string() })).query(({ ctx, input }) => loadSession(ctx.user.id, input.generationId)),
 
   /** The shared dashboard: regions being visualized, activity, recent scenes from everyone. */
   /** What the knowledge base covers and its latest additions, for the home screen. */

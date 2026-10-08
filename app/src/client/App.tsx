@@ -23,6 +23,7 @@ import { SidesStep } from './intake/SidesStep.tsx';
 import { StoryStep } from './intake/StoryStep.tsx';
 import { STEP_ORDER, briefOk, type StepId } from './intake/types.ts';
 import { useIntake } from './intake/useIntake.ts';
+import { useSessionSync } from './intake/useSessionSync.ts';
 import { WorkspaceOverlay } from './intake/WorkspaceOverlay.tsx';
 import { WorkspaceStep } from './intake/WorkspaceStep.tsx';
 import { StepBackContext } from './intake/StepActions.tsx';
@@ -105,7 +106,9 @@ export function App() {
     setTurnaroundView,
     updateWorkspace,
     startOver,
+    restoreSession,
   } = useIntake();
+  useSessionSync(draft);
   const [confirmingReset, setConfirmingReset] = useState(false);
   const [view, setView] = useState<View>(viewFromHash);
   const config = trpc.config.useQuery();
@@ -500,7 +503,15 @@ export function App() {
         </ErrorBoundary>
       ) : view === 'mine' ? (
         <ErrorBoundary label="my scenes">
-          <MyScenesPage onNewScene={() => openView('compose')} />
+          <MyScenesPage
+            onNewScene={() => openView('compose')}
+            currentSessionId={draft.sessionId}
+            draftInProgress={draftInProgress}
+            onOpenSession={(saved) => {
+              restoreSession(saved);
+              openView('compose');
+            }}
+          />
         </ErrorBoundary>
       ) : (
         <div className={styles.layout}>
