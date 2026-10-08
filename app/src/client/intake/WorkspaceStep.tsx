@@ -421,8 +421,8 @@ export function WorkspaceStep({
   }, [handleGenerateScene, history, selected, allSegments, geometry]);
 
   return (
-    <section>
-      <h1>Node Workspace</h1>
+    <section className={styles.root}>
+      <h1 className={styles.title}>Node Workspace</h1>
       <p>Dial in each part of the prompt, preview elements with Nano Banana Pro, then generate the scene.</p>
 
       <div className={styles.toolbar}>
@@ -494,87 +494,89 @@ export function WorkspaceStep({
         <ShortcutsHint />
       </div>
 
-      <Canvas
-        ref={canvasRef}
-        view={view}
-        onViewChange={setView}
-        selected={selected}
-        onSelectedChange={setSelected}
-        geometry={geometry}
-        edges={edges}
-        worldWidth={worldWidth}
-        worldHeight={worldHeight}
-        onMove={(updates) =>
-          history.record((w) => ({
-            ...w,
-            positions: { ...w.positions, ...updates },
-          }))
-        }
-        registerHeight={registerHeight}
-        isCollapsed={isCollapsed}
-        onToggleCollapsed={toggleCollapsed}
-        lightbox={lightbox}
-        onOpenLightbox={(src, alt, rate) => setLightbox({ src, alt, rate })}
-        onCloseLightbox={() => setLightbox(null)}
-      >
-        <ProxyNode
-          x={geometry[PROXY_NODE_ID]!.x}
-          y={geometry[PROXY_NODE_ID]!.y}
-          proxyDataUrl={proxyDataUrl}
-          uploadStatus={proxyDisplayStatus}
-          uploadError={proxyError}
-        />
-        {allSegments.map((seg) => (
-          <SegmentNode
-            key={seg.key}
-            seg={seg}
-            allSegments={allSegments}
-            ws={ws}
-            x={geometry[seg.key]!.x}
-            y={geometry[seg.key]!.y}
-            history={history}
-            updateWorkspace={updateWorkspace}
-            live={tasks.live[seg.key]}
-            onPreview={() => handlePreviewSegment(seg)}
-            onFlash={showFlash}
+      <div className={styles.canvasArea}>
+        <Canvas
+          ref={canvasRef}
+          view={view}
+          onViewChange={setView}
+          selected={selected}
+          onSelectedChange={setSelected}
+          geometry={geometry}
+          edges={edges}
+          worldWidth={worldWidth}
+          worldHeight={worldHeight}
+          onMove={(updates) =>
+            history.record((w) => ({
+              ...w,
+              positions: { ...w.positions, ...updates },
+            }))
+          }
+          registerHeight={registerHeight}
+          isCollapsed={isCollapsed}
+          onToggleCollapsed={toggleCollapsed}
+          lightbox={lightbox}
+          onOpenLightbox={(src, alt, rate) => setLightbox({ src, alt, rate })}
+          onCloseLightbox={() => setLightbox(null)}
+        >
+          <ProxyNode
+            x={geometry[PROXY_NODE_ID]!.x}
+            y={geometry[PROXY_NODE_ID]!.y}
+            proxyDataUrl={proxyDataUrl}
+            uploadStatus={proxyDisplayStatus}
+            uploadError={proxyError}
           />
-        ))}
-        <PromptNode x={geometry[PROMPT_NODE_ID]!.x} y={geometry[PROMPT_NODE_ID]!.y} allSegments={allSegments} ws={ws} />
-        <GenerateNode
-          x={geometry[GENERATE_NODE_ID]!.x}
-          y={geometry[GENERATE_NODE_ID]!.y}
-          ws={ws}
-          history={history}
-          options={workspaceOptionsQuery.data ?? null}
-          live={tasks.live.scene}
-          preparing={proxyStatus === 'uploading'}
-          prepareError={proxyStatus === 'error' ? proxyError : null}
-          onGenerate={() => void handleGenerateScene()}
-          slug={slug}
-          leftOut={allSegments.filter((s) => staleReference(s, ws, allSegments)).map((s) => s.chip)}
-          sending={sceneReferences(allSegments, ws).map(referenceLabel)}
-          brandConflicts={brandConflicts(allSegments, ws)}
-          check={{
-            status: checkTask.status,
-            timing: checkTask.timing,
-            agentError: checkTask.agentError,
-            trpcError: checkTask.trpcError,
-            resultId: checkingId,
-          }}
-          onCheck={checkById}
-          onApplyFixes={handleApplyFixes}
-          onCheckSignedIn={(id) => void onSignedIn(() => checkById(id))}
-          onRate={(imageIndex) => {
-            const latest = ws.results[0];
-            if (latest) setFeedbackTarget({ resultId: latest.id, imageIndex });
-          }}
-          feedbackFlash={feedbackFlash}
-          onDismissFeedbackFlash={() => setFeedbackFlash(null)}
-          onOpenLearning={() => {
-            window.location.hash = 'learning';
-          }}
-        />
-      </Canvas>
+          {allSegments.map((seg) => (
+            <SegmentNode
+              key={seg.key}
+              seg={seg}
+              allSegments={allSegments}
+              ws={ws}
+              x={geometry[seg.key]!.x}
+              y={geometry[seg.key]!.y}
+              history={history}
+              updateWorkspace={updateWorkspace}
+              live={tasks.live[seg.key]}
+              onPreview={() => handlePreviewSegment(seg)}
+              onFlash={showFlash}
+            />
+          ))}
+          <PromptNode x={geometry[PROMPT_NODE_ID]!.x} y={geometry[PROMPT_NODE_ID]!.y} allSegments={allSegments} ws={ws} />
+          <GenerateNode
+            x={geometry[GENERATE_NODE_ID]!.x}
+            y={geometry[GENERATE_NODE_ID]!.y}
+            ws={ws}
+            history={history}
+            options={workspaceOptionsQuery.data ?? null}
+            live={tasks.live.scene}
+            preparing={proxyStatus === 'uploading'}
+            prepareError={proxyStatus === 'error' ? proxyError : null}
+            onGenerate={() => void handleGenerateScene()}
+            slug={slug}
+            leftOut={allSegments.filter((s) => staleReference(s, ws, allSegments)).map((s) => s.chip)}
+            sending={sceneReferences(allSegments, ws).map(referenceLabel)}
+            brandConflicts={brandConflicts(allSegments, ws)}
+            check={{
+              status: checkTask.status,
+              timing: checkTask.timing,
+              agentError: checkTask.agentError,
+              trpcError: checkTask.trpcError,
+              resultId: checkingId,
+            }}
+            onCheck={checkById}
+            onApplyFixes={handleApplyFixes}
+            onCheckSignedIn={(id) => void onSignedIn(() => checkById(id))}
+            onRate={(imageIndex) => {
+              const latest = ws.results[0];
+              if (latest) setFeedbackTarget({ resultId: latest.id, imageIndex });
+            }}
+            feedbackFlash={feedbackFlash}
+            onDismissFeedbackFlash={() => setFeedbackFlash(null)}
+            onOpenLearning={() => {
+              window.location.hash = 'learning';
+            }}
+          />
+        </Canvas>
+      </div>
 
       <p className={styles.footer}>
         Drag a node's header to move it, shift-click to select more than one. Ctrl/Cmd+Enter generates the scene from anywhere.

@@ -4,7 +4,8 @@
   border: var(--neo-border);
   border-radius: var(--bay-r-md);
   background: var(--neo-paper);
-  height: max(560px, calc(100vh - 220px));
+  flex: 1;
+  min-height: 320px;
   touch-action: none;
   cursor: default;
 }

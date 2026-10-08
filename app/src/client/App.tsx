@@ -23,6 +23,7 @@ import { SidesStep } from './intake/SidesStep.tsx';
 import { StoryStep } from './intake/StoryStep.tsx';
 import { STEP_ORDER, briefOk, type StepId } from './intake/types.ts';
 import { useIntake } from './intake/useIntake.ts';
+import { WorkspaceOverlay } from './intake/WorkspaceOverlay.tsx';
 import { WorkspaceStep } from './intake/WorkspaceStep.tsx';
 import { StepBackContext } from './intake/StepActions.tsx';
 import { AdminPage } from './admin/AdminPage.tsx';
@@ -200,8 +201,8 @@ export function App() {
   // A review only counts for the layout it was made on.
   const reviewFor = (option: LayoutOption) => (draft.review && draft.review.key === layoutKey(option.blueprint) ? draft.review : null);
 
-  const renderStep = () => {
-    switch (draft.step) {
+  const renderStep = (step: typeof draft.step) => {
+    switch (step) {
       case 'brief':
         return (
           <BriefStep
@@ -502,13 +503,14 @@ export function App() {
           <MyScenesPage onNewScene={() => openView('compose')} />
         </ErrorBoundary>
       ) : (
-        <div className={styles.layout} data-wide={draft.step === 'workspace' || undefined}>
+        <div className={styles.layout}>
           <div className={styles.railColumn}>
             <ErrorBoundary label="step navigation">
               <nav className={styles.rail} aria-label="Intake steps">
                 {stepOrder.map((id, i) => {
                   const meta = STEP_META[id];
-                  const isActive = id === draft.step;
+                  // The node workspace opens over Story & scene, so that step stays current.
+                  const isActive = id === (draft.step === 'workspace' ? 'story' : draft.step);
                   const isDone = i < currentIndex;
                   const reachable = canVisit(id);
                   return (
@@ -548,11 +550,14 @@ export function App() {
                 {rulesQuery.error.message}
               </Alert>
             )}
-            <ErrorBoundary label={STEP_META[draft.step].label.toLowerCase()}>
+            <ErrorBoundary label={STEP_META[draft.step === 'workspace' ? 'story' : draft.step].label.toLowerCase()}>
               <StepBackContext.Provider value={back}>
                 <div ref={stepBodyRef} className={styles.stepBody}>
-                  {renderStep()}
+                  {renderStep(draft.step === 'workspace' ? 'story' : draft.step)}
                 </div>
+                <WorkspaceOverlay isOpen={draft.step === 'workspace'} onClose={() => setStep('story')}>
+                  <ErrorBoundary label="node workspace">{draft.step === 'workspace' && renderStep('workspace')}</ErrorBoundary>
+                </WorkspaceOverlay>
               </StepBackContext.Provider>
             </ErrorBoundary>
           </main>
