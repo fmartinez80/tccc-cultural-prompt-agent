@@ -1333,36 +1333,99 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     wrapper."
 
 #### Dish: Broast / crispy fried chicken (بروستد)
-- Category: Fast food; evening, family takeaway, delivery.
-- Cuisine lineage: "broasted" pressure-fried chicken is the Gulf and Iraqi
-  fried-chicken standard; Iraqis also call fried chicken "Kentucky".
-  [MEDIUM — Middle East Eye; Iraqi broast menus abroad]
-- Authentic preparation: bone-in pieces (thigh, drumstick, breast, wing)
-  marinated with garlic and spices, coated in seasoned flour and
-  pressure-fried (broast) or deep-fried until deep golden. Served with
-  fries, garlic sauce (toum), pickles and a bun or samoon, sometimes a
-  chili dip. [MEDIUM — menus]
-- Serving vessel: a wire basket (as in the briefing), a paper-lined tray,
-  or a plain box at home; dip in a small black or steel pot.
-- Visual/plating characteristics: 4–5 deep golden bone-in pieces with a
-  rough, crunchy crust, a few loose crumbs on the table, a small pot of
-  red chili sauce or white garlic sauce. [HIGH — briefing archive frame]
-- Real-world scale (§4.5): drumstick ~12cm; basket ~20×12cm.
-- Common confusion: not Korean glazed chicken, not chicken nuggets.
+- Category: Fast food; lunch, evening, late night, family takeaway and
+  delivery. Dedicated broast shops are a street-corner fixture in Baghdad
+  and Basra, alongside "Kentucky"-style chains. [MEDIUM — OpenSooq Iraq
+  broast-restaurant guides; Middle East Eye 2023; TripAdvisor Baghdad]
+- Cuisine lineage: "broasted" pressure-fried chicken (Gulf and Iraqi
+  standard, in the style of the Saudi chains) next to American open-fried
+  crispy chicken. Iraqis call fried chicken "Kentucky" whoever makes it.
+- Serving format: a meal built from pieces. Pick one style and one cut
+  set per scene (tables below). This is where scenes get their variety.
+
+**Three styles, three textures (the core distinction):**
+
+| Style | How it's made | Texture to prompt | Colour |
+|---|---|---|---|
+| **Broast (original)** — the Iraqi default | Bone-in pieces marinated (garlic, lemon, salt, pepper, paprika), dredged in a thin seasoned flour, pressure-fried in a sealed fryer | Thin, tight, shell-like crust that hugs the meat with only small bumps; skin reads crisp and slightly blistered; meat very juicy, clear juice at the cut; less oily look | Even mid-to-deep golden brown |
+| **Crispy ("Kentucky" style)** | Double-dipped in seasoned flour (often with a wet dip between), open-fried | Thick, shaggy, craggy crust with deep crevices and flakes that break off, loose crumbs on the board, very crunchy | Deep golden with darker tips |
+| **Spicy** | Either of the above with chili and paprika in marinade and coating | As its base style, with red-orange specks through the crust | Golden orange to reddish brown |
+
+[MEDIUM for the broast-vs-open-fried difference — pressure-frying sources
+(Wikipedia: Pressure frying; trade and recipe sites); EDITORIAL for
+marinade detail; the briefing's archive frame shows the crispy style]
+
+**Cuts and what each looks like:**
+
+| Cut | Size and shape | Visual tell |
+|---|---|---|
+| Drumstick | ~12cm, club shape, bone knuckle showing | The most recognisable piece, put it front |
+| Thigh | ~9×8cm, rounded block | Thickest crust, darkest colour |
+| Breast (half, on the bone) | ~12×8cm, wedge with a rib edge | Pale juicy meat when bitten or cut |
+| Wing | ~10cm in a V, or split into drumette and flat | Thin pieces, crust very crisp at the tips |
+| Strips / tenders | ~10×3cm, flat fingers | Boneless, even crumb, in rows |
+| Bites | 2–4cm nuggets | Used in Rizo-style bowls and kids' meals |
+| Fillet | whole thigh or breast, ~12cm | The zinger sandwich filling |
+
+**How it's ordered (the scene unit):**
+- **Solo:** a two- or three-piece meal (drumstick + thigh, or 3 strips)
+  with fries, one samoon or a small bun, a cup of garlic sauce (toum,
+  white and whipped), pickles (cucumber, pink turnip), sometimes
+  coleslaw. [MEDIUM — menus]
+- **Two people:** half a chicken (4 pieces: drumstick, thigh, wing,
+  breast) with fries, samoon and sauces; or a mixed box of pieces and
+  strips.
+- **Family or friends:** a whole chicken (8 pieces) plus strips and wings
+  tipped onto a tray lined with plain paper, a heap of fries, 2–3
+  samoon, several sauce cups (garlic, chili, ketchup). A Baghdad chicken
+  shop's posted meal: half chicken with sides, samoon, sauces and a
+  drink. [MEDIUM — TikTok shop post via search; menus]
+- Condiments are always on the side in small cups, never poured on.
+  The meal is eaten by hand: pieces pulled apart, dipped in garlic sauce,
+  stuffed into torn samoon with pickles.
+
+- Serving vessel: a steel wire basket (as in the briefing), a paper-lined
+  steel tray, a plain cardboard box with the lid open at home, or a
+  plastic oval plate in a broast shop.
+- Visual/plating characteristics: depends on the style above. Always
+  show at least one drumstick for recognition, a mix of cut shapes (not
+  identical pieces), steam, and a white sauce cup for the Iraqi garlic
+  sauce. [HIGH for what the briefing shows; MEDIUM for the rest]
+- Real-world scale (§4.5): drumstick ~12cm (about half the bottle
+  height); basket ~20×12cm; samoon ~22cm.
+- Common confusion: not Korean glazed chicken (no gloss, no sesame), not
+  nuggets-only, not Southern US with biscuits and gravy, not a chain
+  bucket.
 - Confidence: MEDIUM.
-- Sources: Middle East Eye; London Iraqi broast menu (Deliveroo);
-  briefing archive.
+- Sources: Middle East Eye 2023; Wikipedia: Pressure frying; broast vs
+  fried chicken explainers (Pasturebird, Albaik India); OpenSooq Iraq
+  broast guides; Sumaq Iraqi Charcoal Grill menu (crispy chicken on fries
+  with garlic sauce, pickles and coleslaw); London Iraqi broast menu
+  (Deliveroo); briefing archive frame.
 - Composition & proportions (§4.7) [EDITORIAL]:
-  - What dominates: **chicken** ~80%, sauce pot ~10%, crumbs ~10%.
-  - Components: 4–5 pieces; one sauce pot ~7cm; optional pickles and a
-    few fries.
-  - Arrangement: pieces heaped in the basket, sauce pot in front.
-  - State cues: crunchy crust, oil sheen, steam.
-  - Absent on purpose: chain bucket, glaze, sesame.
-  - Prompt-ready line: "Four or five deep-golden bone-in fried chicken
-    pieces with rough crunchy crust heaped in a small steel wire basket, a
-    black pot of red chili sauce in front and a few crumbs on the wood,
-    the basket about the bottle's height long. No bucket, no logos."
+  - What dominates: **chicken** ~60%, fries ~20%, bread ~10%, sauces and
+    pickles ~10% (solo or pair meal). For the basket-only archive look:
+    chicken ~80%, sauce pot ~10%, crumbs ~10%.
+  - Components: per the ordering unit above; sauce cups ~6cm; 4–6 pickle
+    slices.
+  - Arrangement: pieces heaped with the drumstick on top facing camera;
+    fries beside, not under; sauce cups at the front edge; samoon at the
+    back.
+  - State cues: steam, oil glint on the crust, a bitten or torn piece
+    showing juicy white meat (optional), crumbs on the paper.
+  - Absent on purpose: chain bucket or box print, glaze, sesame, gravy,
+    biscuits, pork.
+  - Prompt-ready line (broast, two people): "Half a pressure-fried
+    broast chicken, four bone-in pieces with a thin, tight, even golden
+    crust and juicy meat, heaped on plain paper in a steel tray with a
+    pile of fries, a diamond-shaped samoon loaf, a small cup of white
+    garlic sauce and pickled cucumber and pink turnip, the drumstick
+    about half the bottle's height. No bucket, no logos."
+  - Prompt-ready line (crispy, archive look): "Four or five deep-golden
+    bone-in fried chicken pieces with a thick, craggy, flaky crust heaped
+    in a small steel wire basket, a black pot of red chili sauce in front
+    and a few crumbs on the wood, the basket about the bottle's height
+    long. No bucket, no logos."
 
 #### Dish: Pizza, Iraqi pizzeria style (بيتزا)
 - Category: Casual dining and delivery; evening, friends and families.
@@ -1507,3 +1570,9 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   concept), Wanderlog (Graffiti Burger, Family Mall), Johnny Rockets 2023
   release. Written up as five chain and shop looks under the burger shop
   venue profile. Descriptive only, with no trade dress.
+- **2026-10-09, fried chicken detail** (Fernando asked for texture and
+  pieces). WebSearch on pressure-frying vs open-frying, Iraqi and Gulf
+  broast menus, and Arabic broast-restaurant guides for Baghdad and Basra.
+  Rewrote the broast entry around three styles, seven cuts and three
+  ordering units. Iraq-specific cut preferences were not found;
+  ordering units are taken from menus and are MEDIUM.
