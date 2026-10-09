@@ -1,0 +1,169 @@
+{
+  "_note": "Real-world sizes in meters. Sources: knowledge-base/00-methods/tableware-composition-reference.md (vessels), knowledge-base/01-brand/coca-cola-guidelines.md s4.3 (SKU, provisional pending TCCC spec drop), region files for serving vessels. Pivot is bottom-center; footprint is the shape seen from above.",
+  "table-rect-4top": {
+    "kind": "table",
+    "w": 1.2,
+    "d": 0.8,
+    "h": 0.04,
+    "source": "home dining table, 4-top; not in KB"
+  },
+  "bottle-contour-330": {
+    "kind": "bottle",
+    "diameter": 0.062,
+    "h": 0.205,
+    "source": "coca-cola-guidelines s4.3: 200-210mm x 60-65mm, 330mL"
+  },
+  "table-2top": {
+    "kind": "table",
+    "w": 0.75,
+    "d": 0.75,
+    "h": 0.04,
+    "source": "common 2-top (30in square); not in KB"
+  },
+  "plate-round": {
+    "kind": "plate",
+    "diameter": 0.27,
+    "h": 0.025,
+    "source": "tableware ref s2: standard entree plate 26-28cm (default)"
+  },
+  "plate-rect": {
+    "kind": "rectPlate",
+    "w": 0.3,
+    "d": 0.2,
+    "h": 0.02,
+    "source": "tableware ref s2: rectangular 28-32 x 18-22cm; us-midwest: KC meat on oval/rect plate or tray"
+  },
+  "paper-wrap": {
+    "kind": "sheet",
+    "w": 0.32,
+    "d": 0.26,
+    "h": 0.004,
+    "source": "us-mid-atlantic: cheesesteak is handheld, no plated sibling; staged resting on its wrapper"
+  },
+  "board-wood": {
+    "kind": "board",
+    "w": 0.35,
+    "d": 0.2,
+    "h": 0.02,
+    "source": "tableware ref s2 cutting board 30-35 x 20cm; uruguay.md: served on a wooden board"
+  },
+  "paper-butcher": {
+    "kind": "sheet",
+    "w": 0.32,
+    "d": 0.22,
+    "h": 0.003,
+    "source": "Fernando blueprint scene 1: cheesesteak rests on butcher paper"
+  },
+  "basket-entree": {
+    "kind": "basket",
+    "w": 0.24,
+    "d": 0.16,
+    "h": 0.06,
+    "source": "paper-lined serving basket for an entree, only when the blueprint asks (basket); size assumed"
+  },
+  "basket-fries": {
+    "kind": "basket",
+    "w": 0.16,
+    "d": 0.12,
+    "h": 0.06,
+    "source": "Fernando blueprint scene 3: fries basket; size assumed"
+  },
+  "glass-contour": {
+    "kind": "glass",
+    "diameter": 0.095,
+    "h": 0.172,
+    "source": "coca-cola-guidelines s4.3: contour glass 171-173mm tall, 95mm top"
+  },
+  "ramekin-small": {
+    "kind": "ramekin",
+    "diameter": 0.06,
+    "h": 0.035,
+    "source": "tableware ref s2: condiment ramekin 6-8cm"
+  },
+  "bowl-side-small": {
+    "kind": "bowl",
+    "diameter": 0.13,
+    "h": 0.06,
+    "source": "tableware ref s2: small side bowl 12-15cm"
+  },
+  "bowl-side-medium": {
+    "kind": "bowl",
+    "diameter": 0.16,
+    "h": 0.07,
+    "source": "tableware ref s2: medium side bowl 15-18cm"
+  },
+  "ramekin": {
+    "kind": "ramekin",
+    "diameter": 0.07,
+    "h": 0.04,
+    "source": "tableware ref s2: condiment ramekin 6-8cm; uruguay.md: chimichurri in its own small dish"
+  },
+  "phone": {
+    "kind": "slab",
+    "w": 0.147,
+    "d": 0.071,
+    "h": 0.008,
+    "source": "typical smartphone 147 x 71 x 8mm"
+  },
+  "food-hoagie": {
+    "kind": "roll",
+    "length": 0.25,
+    "diameter": 0.075,
+    "source": "us-mid-atlantic: hoagie roll, assumed ~10in"
+  },
+  "food-bun-sandwich": {
+    "kind": "bun",
+    "diameter": 0.11,
+    "h": 0.09,
+    "source": "us-midwest: pulled pork piled high on a soft white bun"
+  },
+  "food-choripan": {
+    "kind": "roll",
+    "length": 0.18,
+    "diameter": 0.065,
+    "source": "uruguay.md: pan flauta segment 15-20cm"
+  },
+  "food-fries": {
+    "kind": "fries",
+    "h": 0.06,
+    "source": "mound in bowl"
+  },
+  "food-mound": {
+    "kind": "mound",
+    "h": 0.035,
+    "source": "slaw / sauce mound"
+  },
+  "bowl-entree": {
+    "kind": "bowl",
+    "diameter": 0.2,
+    "h": 0.08,
+    "source": "entree bowl ~20cm; tableware ref s2 lists side bowls 12-18cm, entree bowl assumed"
+  },
+  "carrier-tray": {
+    "kind": "trayPlain",
+    "w": 0.4,
+    "d": 0.3,
+    "h": 0.015,
+    "source": "serving tray under a vessel; assumed ~40 x 30cm"
+  },
+  "carrier-board": {
+    "kind": "board",
+    "w": 0.45,
+    "d": 0.28,
+    "h": 0.025,
+    "source": "large board under a vessel; tableware ref s2 boards 30-35cm, larger assumed for a carrier"
+  },
+  "carrier-paper": {
+    "kind": "sheet",
+    "w": 0.42,
+    "d": 0.32,
+    "h": 0.003,
+    "source": "butcher paper sheet under a vessel; assumed"
+  },
+  "portion-small": {
+    "kind": "portion",
+    "diameter": 0.09,
+    "h": 0.0,
+    "source": "a side served straight on the plate, no dish (Fernando 2026-09-27: plate holds entree + two small sides)"
+  }
+}
