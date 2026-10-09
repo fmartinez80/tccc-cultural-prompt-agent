@@ -338,6 +338,60 @@ kebab venues above already cover masgouf, kebab and mashawi.
   street lights through the glass."
 - Confidence and sources: MEDIUM for the category facts; LOW-MEDIUM for
   the interior.
+- Chain and shop types, and how each looks (added 2026-10-09). Iraq's
+  fast food comes in five looks. Pick one per scene and stage it as a
+  generic place, never a named one:
+  1. **International chain outlets** (Baghdad and Erbil): KFC and Pizza
+     Hut, which share one building on Jamia Street in Baghdad and a Family
+     Mall unit, plus a drive-through near Erbil airport; Burger King,
+     Hardee's, Johnny Rockets (first Iraq branch 2023), Cinnabon. A
+     visitor described the Baghdad KFC as "much more modern" than UK
+     outlets. Visually: big glass fronts, bright even light, clean
+     counters, tidy booth and table rows, a global standard fit-out. Rizo
+     and the Zinger come from here. Stage only as a "bright modern
+     fast-food interior". Never use the chains' trade dress: no red-and-
+     white stripes, no bucket shapes, no mascot portraits, no house
+     colour blocks that read as one brand. [MEDIUM — Travel Tramp; The
+     National 2023; Middle East Eye 2023; Johnny Rockets press release]
+  2. **Local themed burger concepts** (Baghdad has ~200 local burger
+     shops, often with English names): the look is a deliberate theme. The
+     sources describe a New York diner revival in Mansour (stone walls,
+     posters of jazz and film icons, flat screens, crooner music, iPad
+     ordering), retro 1980s smash-burger shops (Yarmouk branch of an Erbil
+     concept), and graffiti-wall burger shops in Erbil. Visually: one
+     strong feature wall (stone, graffiti mural, framed posters with
+     nothing legible), dark ceilings, Edison or neon light, and a counter
+     with a steel griddle. This is the closest real match for the burger
+     and zinger frames in the briefing. [MEDIUM — The National on Burger
+     Joint; Iraqi News on the 80s concept; Wanderlog on Graffiti Burger;
+     San Diego Reader 2023]
+  3. **Family fried-chicken halls**: large, often two-storey dining rooms
+     with extended families and groups of teenagers, sometimes an indoor
+     play area. Bright, busy, practical. Off by default (people and
+     children rules); use only as an empty, soft background of table rows.
+     [MEDIUM — AP 2012 on a Jadriya chicken chain; dated]
+  4. **Mall food courts** (Mansour Mall and Baghdad Mall in Baghdad, Family
+     Mall in Erbil): shared seating under high ceilings, a row of lit
+     counters, international and local food side by side. Use for
+     families and weekends. [MEDIUM — mall reviews; TripAdvisor]
+  5. **Neighbourhood takeaway and delivery shops** (the briefing's Rizo,
+     Zinger and burger references come from shops like these): small
+     counters, with much of the trade by delivery app. Their own social
+     posts set the visual language a Baghdad viewer knows: the dish very
+     close up on a flat bold red or near-black backdrop, a wooden board or
+     a round printed bowl, sauce cups, smoke or sparks added. For the app,
+     use the food styling (sauce zigzags, glossy buns, overflowing crisp
+     coating) on a plain bowl or board, and the house-look table rather
+     than the flat poster backdrop. [HIGH for what the briefing shows;
+     LOW for shop counts]
+- Food styling across all five: portions read generous; sauces are bold
+  and visible (zigzags of orange chili mayo and white garlic sauce, a
+  pink or brown burger sauce in a cup); buns are glossy and domed; fried
+  coatings are shaggy and deep golden-orange. Fries come alongside, in
+  cones or loose on the board. Rizo at the chain is described as crispy
+  boneless chicken in sweet-and-spicy sauce on saffron-yellow rice, and
+  one reviewer called the chain portion small. Local versions in the
+  briefing pile the sauce on more heavily. [MEDIUM]
 
 #### Venue: Falafel and kass sandwich counter (street, day and night)
 - Use for: meal on the go; 1–2; any hour, peaks at lunch and late night.
@@ -1446,3 +1500,10 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   summaries were checked against the briefing's food references where
   possible; claims are tagged no higher than MEDIUM unless the briefing
   itself shows it.
+- **2026-10-09, chain look follow-up** (Fernando asked how these chains
+  look). WebSearch on Baghdad and Erbil fast-food interiors: The National
+  (Burger Joint; 2023 American chains), Travel Tramp (KFC/Pizza Hut Jamia
+  Street), AP 2012 (Jadriya chicken hall), Iraqi News (80s smash-burger
+  concept), Wanderlog (Graffiti Burger, Family Mall), Johnny Rockets 2023
+  release. Written up as five chain and shop looks under the burger shop
+  venue profile. Descriptive only, with no trade dress.
