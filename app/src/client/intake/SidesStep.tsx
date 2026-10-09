@@ -41,7 +41,7 @@ export function SidesStep({
   useEffect(() => {
     if (task.result?.kind === 'sides') onDecision(keepCustom(task.result.decision, decision));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [task.result, onDecision]);
+  }, [task.result]);
 
   const custom = useCustomOption<SidesChoice>({
     kind: 'sides',

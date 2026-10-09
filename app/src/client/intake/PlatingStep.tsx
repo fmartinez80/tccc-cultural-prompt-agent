@@ -41,7 +41,7 @@ export function PlatingStep({
   useEffect(() => {
     if (task.result?.kind === 'plating') onDecision(keepCustom(task.result.decision, decision));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [task.result, onDecision]);
+  }, [task.result]);
 
   const custom = useCustomOption<PlatingChoice>({
     kind: 'plating',

@@ -108,7 +108,9 @@ export function SceneStep({
 
   useEffect(() => {
     if (surfaceTask.result?.kind === 'surface') onSurfaceDecision(surfaceTask.result.decision);
-  }, [surfaceTask.result, onSurfaceDecision]);
+    // Apply each answer once: the parent passes a new callback on every render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [surfaceTask.result]);
 
   useEffect(() => {
     if (surfaceDecision?.status === 'resolved' && !scene.surface) {
