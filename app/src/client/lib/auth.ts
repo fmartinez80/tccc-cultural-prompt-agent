@@ -12,6 +12,8 @@ interface PublicConfig {
   supabaseAnonKey: string;
   /** The server has a team access code set, so sign-in can skip email. */
   codeLogin?: boolean;
+  /** Set on non-production copies (e.g. "Staging"); shown as a header badge. */
+  envLabel?: string;
 }
 
 let configPromise: Promise<PublicConfig> | null = null;
@@ -39,6 +41,11 @@ export function supabase(): Promise<SupabaseClient> {
       throw err;
     });
   return clientPromise;
+}
+
+/** The environment badge text ("Staging"), or "" on production. */
+export async function envLabel(): Promise<string> {
+  return (await publicConfig()).envLabel ?? '';
 }
 
 /** Whether the sign-in page offers the team access code. */

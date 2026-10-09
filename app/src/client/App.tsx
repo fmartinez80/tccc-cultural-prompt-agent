@@ -29,7 +29,7 @@ import { WorkspaceStep } from './intake/WorkspaceStep.tsx';
 import { StepBackContext } from './intake/StepActions.tsx';
 import { AdminPage } from './admin/AdminPage.tsx';
 import { setActiveBrief } from './lib/activeBrief.ts';
-import { signOut } from './lib/auth.ts';
+import { envLabel, signOut } from './lib/auth.ts';
 import { LearningPage } from './learning/LearningPage.tsx';
 import { MyScenesPage } from './studio/MyScenesPage.tsx';
 import { HomePage, InsightsPage, WhatsNewPage } from './studio/HomePage.tsx';
@@ -111,6 +111,15 @@ export function App() {
   useSessionSync(draft);
   const [confirmingReset, setConfirmingReset] = useState(false);
   const [view, setView] = useState<View>(viewFromHash);
+  const [envBadge, setEnvBadge] = useState('');
+  useEffect(() => {
+    void envLabel()
+      .then((label) => {
+        setEnvBadge(label);
+        if (label && !document.title.startsWith(`[${label}]`)) document.title = `[${label}] ${document.title}`;
+      })
+      .catch(() => {});
+  }, []);
   const config = trpc.config.useQuery();
 
   // Every generated image is filed under the brief being worked on (Studio and My scenes read it).
@@ -419,6 +428,7 @@ export function App() {
           }}
         >
           <img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />
+          {envBadge && <span className={styles.envBadge}>{envBadge}</span>}
         </a>
       }
       user={profile.data ?? undefined}

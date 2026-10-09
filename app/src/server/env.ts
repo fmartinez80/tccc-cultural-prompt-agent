@@ -38,6 +38,8 @@ export const env = {
     .filter(Boolean),
   /** Shared team access code; when set, people can sign in with it instead of an emailed link. */
   accessCode: (process.env['ACCESS_CODE'] ?? '').trim(),
+  /** Shown as a badge in the header and the tab title (e.g. "Staging"); empty on production. */
+  envLabel: (process.env['APP_ENV_LABEL'] ?? '').trim(),
   /** Public URL of the app, for invite and magic-link redirects. */
   appUrl: process.env['APP_URL'] || '',
   /** Defaults for a new user's monthly limits (admins can change each user's). */
