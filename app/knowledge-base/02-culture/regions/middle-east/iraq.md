@@ -1111,8 +1111,9 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
 #### Dish: Mashawi mixed grill tray (مشاوي)
 - Category: Shared grill; family dinner, Friday, groups, delivery.
 - Cuisine lineage: Iraqi grill (shared mixed grill).
-- Authentic preparation: kebab (above), lamb tikka (cubes of marinated
-  lamb, classically alternating with tail fat), chicken tikka (cubes
+- Authentic preparation: kebab (above), lamb tikka (lamb chunks buried in
+  sliced onion and salt for a couple of hours, no colour marinade,
+  threaded two meat to one cube of tail fat), chicken tikka (cubes
   marinated in yogurt, lemon, garlic and paprika, orange-red), sometimes
   lamb liver, heart or kidney, and grilled chicken wings, all over
   charcoal. Whole tomatoes, onions and green peppers are grilled beside
@@ -1155,6 +1156,51 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     logs, cubes of dark lamb tikka and orange-red chicken tikka, ringed by
     blistered tomatoes, grilled green peppers, small charred onions,
     magenta pickled turnip and lemon wedges. No slate board."
+
+- Deeper detail (added 2026-10-09): **each item on the tray, its texture
+  and colour.** Mashawi looks right when each meat reads differently:
+
+| Item | Shape and size | Texture | Colour |
+|---|---|---|---|
+| Lamb kebab | Long finger pressed flat on a wide skewer, ~20×3cm, ripples from fingers | Coarse open grain, juicy, crusted ridges, fat beading | Deep brown with black char on ridges |
+| Lamb tikka | Irregular 3–4cm chunks; tail-fat cubes between them | Seared crust, pink-grey inside, fat cubes translucent and crisp-edged | Brown-grey meat, golden fat |
+| Chicken tikka | 3–4cm cubes | Smooth, plump, lightly charred corners | Orange-red (paprika, tomato or saffron marinade) |
+| Chicken kebab | Like lamb kebab but paler | Finer, smoother grain | Golden beige with orange tint |
+| Lamb liver | Thin 4–5cm slices or cubes | Firm, glossy, slightly crumbly, small char spots | Dark mahogany to purple-brown |
+| Heart / kidney | Halved hearts, kidney slices | Dense, smooth, cut faces | Dark red-brown |
+| Wings | Whole or split, ~10cm | Crisp blistered skin | Golden-orange with char |
+| Grilled tomato | Whole, ~6cm | Skin split, blistered and slumped | Red with black patches |
+| Grilled onion | Small whole onions or halves | Soft, layered, charred outer skin | Pale with black char |
+| Grilled green chili / pepper | Long finger chili or bell-pepper rings | Blistered, collapsed | Bright green with black blisters |
+
+  [MEDIUM — Iraqi tikka and kebab recipes (How to Make a Kebab; Hungry
+  Paprikas); Kabab Erbil; Iraqi Family Cookbook (liver); briefing
+  references for colours]
+- **Regional note:** Erbil kebab is advertised as coarse, hand-minced, no
+  bread or binder; Baghdad kebab is judged on char against juice and
+  pressed into long thin fingers. Both look knobbly, never smooth like a
+  sausage. [LOW-MEDIUM — one restaurant and one recipe site]
+- **Ordering units:**
+  - **Solo:** one plate, one kebab skewer plus one tikka skewer (or 2
+    kebab) on a round of bread with one grilled tomato, onion-parsley and
+    pickles. Two to three skewers is a hearty single portion.
+  - **Two people:** a mixed grill of about eight skewers (kebab, lamb
+    tikka, chicken tikka, chicken kebab) on a 35–40cm round tray.
+  - **Family / friends:** one or two 45–50cm trays, kebab and tikka
+    heaped in bands with liver or wings added, bread under everything,
+    side bowls of hummus, jajik, salad and pickles, extra bread stacked.
+    [MEDIUM — Kabab Erbil Dubai "mixed grill for two = eight skewers";
+    recipe serving counts; EDITORIAL for trays]
+- **Prompt lines by unit:**
+  - Solo: "A round tannour flatbread on a white plate with one knobbly
+    dark-brown lamb kebab, one skewer's worth of seared lamb tikka chunks
+    with golden tail-fat cubes, a blistered grilled tomato and a heap of
+    sumac onion and parsley. No slate, no rice."
+  - Family: "Two large round steel trays lined with flatbread, piled with
+    bands of charred lamb kebab, seared lamb tikka with golden fat cubes,
+    orange-red chicken tikka and dark glossy liver slices, ringed with
+    blistered tomatoes, green chilies, charred small onions and magenta
+    turnip pickles, small bowls of hummus and salad around them."
 
 #### Dish: Iraqi mandi (مندي)
 - Category: Restaurant and delivery favourite; lunch, dinner, gatherings.
@@ -1207,6 +1253,45 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     top, lemon halves and whole green chilies around it, a small bowl of
     red chili-tomato sauce beside, the tray about one and a half bottle
     heights across. No biryani layers, no curry."
+
+- Deeper detail (added 2026-10-09): **what's on the tray, by order.**
+  Baghdad mandi menus sell by the half chicken (the most-ordered item),
+  the whole chicken, a lamb plate, lamb by the half or whole kilo, a
+  mixed tray (half chicken plus half kilo lamb), and a house platter
+  with lamb, half a chicken and several rice types; kabsa often sits on
+  the same menu. [MEDIUM-HIGH — Khan Mandi Karrada and Karbala, Mandi
+  Al-Yaman Qadisiyah (Baly delivery app); a Basra (Zubair) mandi shop
+  post]
+
+| Meat | Look | Texture |
+|---|---|---|
+| Chicken half or whole | Spatchcocked, skin-up, legs splayed | Skin taut and lacquered, red-brown to mahogany with darker smoke patches; meat falls off the bone |
+| Lamb pieces (by the kilo) | Bone-in chunks, shank or shoulder pieces | Fat rendered and glistening, edges darkened, meat soft and pulling apart in strands |
+| Lamb shank | One whole shank, bone out | Glossy brown, collapsing |
+
+  **Rice:** long basmati grains, separate and dry-glossy, in a mix of
+  white and yellow or orange grains (saffron, turmeric or hawaij colour
+  added in patches, not all through), often with fried onion, raisins or
+  toasted nuts on top. Not uniformly red (that reads as kabsa) and not
+  layered (that reads as biryani). [MEDIUM — mandi vs kabsa guides;
+  recipes]
+- **Ordering units:**
+  - **Solo:** half a chicken on a ~30cm round steel plate of rice, with a
+    lemon half and green chili, a small cup of red sahawiq and a cup of
+    laban (yogurt).
+  - **Two people:** a whole chicken, or a mixed tray (half chicken plus
+    lamb pieces), on a 40cm tray, two sauce cups, a small salad.
+  - **Family:** one or two 50cm trays heaped with rice, lamb pieces and
+    chicken halves together, several sauce and yogurt cups, salad, thin
+    bread, eaten from the tray with spoons or by hand, often on the floor
+    seating.
+- Prompt line (mixed tray, two people): "A round steel tray about twice
+  the bottle's height across, heaped with long separate basmati grains
+  in white and saffron-yellow patches, topped with a lacquered red-brown
+  smoked half chicken and glistening bone-in lamb pieces, fried onions
+  and raisins scattered on the rice, lemon halves and green chilies at
+  the rim, cups of red chili sauce and white yogurt beside. No biryani
+  layers."
 
 #### Dish: Rizo rice bowl (ريزو)
 - Category: Modern fast food; lunch and late night, delivery.
@@ -1331,6 +1416,35 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     with crisp lacy edges, a thick red tomato slice and green lettuce,
     with a small steel cup of pink house sauce beside it. No bacon, no
     wrapper."
+
+- Deeper detail (added 2026-10-09): **burger styles in Iraq**, so
+  scenes vary:
+
+| Style | Patty | Bun and build | Texture cues |
+|---|---|---|---|
+| **Smash double** (the current trend; "smash" shops on delivery apps in Baghdad) | Two ~11cm patties ~0.6cm thick, pressed on the griddle | Glossy brioche or potato bun, melted cheese between patties, pickles, house sauce | Lacy, dark-brown crisp edges, cheese draped and melting |
+| **Thick flame-grilled** (fresh Iraqi beef; Mansour) | One ~12cm patty ~2cm thick | Sesame bun, lettuce, tomato, red onion, cheese | Grill marks or flame char, juicy domed patty |
+| **Smoked brisket** | Sliced or pulled smoked beef | Brioche, sauce, pickles | Pink smoke ring, shreds |
+| **Crispy chicken** (zinger) | Fried thigh or breast fillet | Sesame bun, lettuce, mayo | Shaggy golden crust past the bun edge |
+| **Neighbourhood-named** (local menus) | Any of the above | Topped with grilled onion and tomato, or grilled aubergine slices | Soft charred vegetables on top |
+
+  [MEDIUM — Talabat Iraq smash-burger listings; Burger Makers Iraq
+  (Mansour, fresh Iraqi beef, flame-grilled, brisket burger); OpenSooq
+  Baghdad burger guide (Cowboy, Khan, Mr Burger, Firefly as typical
+  English names); San Diego Reader on neighbourhood-named burgers]
+- **Sauces:** a pink or orange "house" sauce (mayo, ketchup, pickle) is
+  the default, plus garlic mayo and a brown or smoky barbecue sauce, in
+  small steel or paper cups. Cheese is orange cheddar-style slices.
+- **Ordering units:** solo = one burger, fries and a sauce cup on a
+  board; two people = two different burgers (for example smash double
+  and crispy chicken) sharing one basket of fries; friends = 3–4 burgers
+  in wax paper on a large board or open delivery boxes with loaded fries
+  (cheese sauce, jalapeño, chopped beef). [EDITORIAL from menus]
+- Prompt line (smash, solo): "A double smash burger about half the
+  bottle's height in a glossy golden bun, two thin patties with lacy
+  dark crisp edges and melted orange cheese draping between them,
+  pickles and a smear of pink house sauce, on a pale wooden board with a
+  cone of fries and a small steel sauce cup. No bacon, no logos."
 
 #### Dish: Broast / crispy fried chicken (بروستد)
 - Category: Fast food; lunch, evening, late night, family takeaway and
@@ -1576,3 +1690,9 @@ marinade detail; the briefing's archive frame shows the crispy style]
   Rewrote the broast entry around three styles, seven cuts and three
   ordering units. Iraq-specific cut preferences were not found;
   ordering units are taken from menus and are MEDIUM.
+- **2026-10-09, mashawi, burger and mandi detail.** WebSearch on Iraqi
+  tikka and kebab recipes (lamb tikka is salt and onion only, with tail
+  fat; Erbil vs Baghdad kebab), liver recipes, Baghdad smash and burger
+  shops (Talabat, Burger Makers, OpenSooq guide), and Baghdad, Karbala and
+  Basra mandi menus on Baly. Added item-by-item texture tables, style
+  tables and solo, two-person and family ordering units to all three.
