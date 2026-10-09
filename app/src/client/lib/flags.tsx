@@ -19,6 +19,7 @@ import flag_th from 'flag-icons/flags/4x3/th.svg';
 import flag_tr from 'flag-icons/flags/4x3/tr.svg';
 import flag_us from 'flag-icons/flags/4x3/us.svg';
 import flag_uy from 'flag-icons/flags/4x3/uy.svg';
+import flag_iq from 'flag-icons/flags/4x3/iq.svg';
 import flag_za from 'flag-icons/flags/4x3/za.svg';
 
 const FLAGS: Record<string, string> = {
@@ -41,6 +42,7 @@ const FLAGS: Record<string, string> = {
   united_kingdom: flag_gb,
   united_states: flag_us,
   uruguay: flag_uy,
+  iraq: flag_iq,
 };
 
 /** A small flag for a knowledge-base country id; nothing for an unknown one. */
