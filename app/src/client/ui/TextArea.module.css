@@ -1,0 +1,46 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bay-text);
+  margin-bottom: 6px;
+}
+
+.textarea {
+  width: 100%;
+  background: var(--neo-card);
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-sm);
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--bay-text);
+  resize: vertical;
+}
+
+.textarea::placeholder {
+  color: var(--bay-text-4);
+}
+
+.textarea:hover:not([data-disabled]) {
+  border-color: var(--neo-ink);
+}
+
+.textarea[data-focused] {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 1px;
+  border-color: var(--neo-ink);
+}
+
+.textarea[data-disabled] {
+  opacity: 0.6;
+}

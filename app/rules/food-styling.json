@@ -1,0 +1,23 @@
+{
+  "$comment": "Dish-specific food-styling standards (team style guide). A dish's rules apply whenever one of its `match` phrases appears in the brief or the chosen preparation, plating or sides (whole words, any case). The agent gets the matching rules at every food step, when writing the story labels, when validating the story and when checking generated images. 'Chips' alone does not trigger the fries rules: UK chip-shop chips are thick, soft and vinegar-damp (uk.md), not crisp fries.",
+  "version": "0.1",
+  "dishes": [
+    {
+      "id": "fish-and-chips",
+      "label": "Fish and chips",
+      "match": ["fish and chips", "fish & chips", "fish 'n' chips", "fish n chips", "fish supper", "fish-and-chips"],
+      "rules": ["A lemon slice or wedge is tucked directly onto the side of the platter or plate, against the fish."]
+    },
+    {
+      "id": "french-fries",
+      "label": "French fries",
+      "match": ["fries", "french fries", "frites", "pommes frites", "papas fritas", "batatas fritas", "patatas fritas"],
+      "rules": [
+        "The fries are irregular, never perfectly identical: slightly different lengths and thicknesses, a few shorter pieces, ends cut naturally, like real hand-cut or freshly fried potatoes.",
+        "Appearance: evenly golden brown, with a rigid, straight shape that holds upright without wilting. No dark burnt spots and no greasy sheen.",
+        "Texture: a delicate, crisp crust that yields instantly to a soft, pillowy or creamy center, never gummy, pasty or hollow.",
+        "Flavor: a clean, savory potato taste with a rich, toasty note from the oil, balanced by a sharp dusting of fine salt (show it as fine salt grains visible on the surface)."
+      ]
+    }
+  ]
+}

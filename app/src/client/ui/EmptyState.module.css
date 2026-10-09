@@ -1,0 +1,35 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 40px 24px;
+  text-align: center;
+  border: 2px dashed var(--neo-ink);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+}
+
+.icon {
+  display: flex;
+  color: var(--bay-text-4);
+  margin-bottom: 4px;
+}
+
+.title {
+  font-family: var(--app-font-head);
+  font-size: 16px;
+  color: var(--bay-text);
+}
+
+.hint {
+  font-size: 13px;
+  color: var(--bay-text-3);
+  max-width: 420px;
+  line-height: 1.4;
+}
+
+.action {
+  margin-top: 10px;
+}

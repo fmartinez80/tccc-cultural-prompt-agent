@@ -1,0 +1,62 @@
+{
+  "_note": "Test-build rules. Sources: composition doc 2 (30 deg, 50% table horizon, odd/even, depth bands, condiment 1-3in), knowledge base tableware ref s7 (spacing, margins), plan 2a (SKU on diner's right).",
+  "camera": {
+    "elevationDeg": 20,
+    "focalMm": 50,
+    "sensorWidthMm": 36,
+    "aspect": [
+      16,
+      9
+    ],
+    "yawDeg": 22,
+    "closer": {
+      "_note": "Fernando 2026-09-27: 20 deg instead of 30, and about 25% closer than the 30 deg framing. The distance is 25% under the tightest 30 deg fit; at that distance the rear table edge lands at 46-50% of frame height, above some blueprint clamps (0.42-0.48), so tableHorizonMax here replaces the blueprint clamp. Set it to null to keep the blueprint clamps (the camera then stops as close as they allow, about 12-17% closer).",
+      "by": 0.25,
+      "fromElevationDeg": 30,
+      "tableHorizonMax": 0.5
+    }
+  },
+  "tableHorizonMax": 0.5,
+  "tableHorizonMinPreferred": 0.36,
+  "minGapM": 0.015,
+  "tableEdgeMarginM": 0.03,
+  "dishFrontMarginM": 0.05,
+  "condimentGapM": {
+    "min": 0.0254,
+    "max": 0.0762
+  },
+  "frameMargin": {
+    "hero": {
+      "side": 0.06,
+      "bottom": 0.04,
+      "top": 0.04
+    },
+    "other": {
+      "side": 0.02,
+      "bottom": 0.02,
+      "top": 0.02
+    }
+  },
+  "maxOcclusion": {
+    "SKU": 0.05,
+    "DISH": 0.15,
+    "other": 0.2
+  },
+  "visualMassTarget": {
+    "layer1": 0.5,
+    "layer2": 0.3,
+    "layer3": 0.2
+  },
+  "oddEven": {
+    "inject": {
+      "role": "accent",
+      "vessel": "ramekin",
+      "pairedWith": "DISH"
+    }
+  },
+  "placeSetting": {
+    "_note": "Fernando 2026-09-27: DISH near the diner's front edge; everything else a contained set around it, never spread across the table or near the other edges.",
+    "maxReachM": 0.4,
+    "otherEdgeClearanceM": 0.1
+  }
+}

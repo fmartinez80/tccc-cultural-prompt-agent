@@ -1,0 +1,91 @@
+{
+  "_note": "Serving stacks (Fernando, 2026-09-27): what the entree is served in (vessel), whether that sits on something (carrier), and what else each one holds. Default is a plate with no carrier, so a tray or large rectangle is never the default. `holds` is the full capacity of each vessel or carrier, the entree (or vessel) included; real sizes are checked too.",
+  "defaults": {
+    "vessel": "plate",
+    "carrier": null
+  },
+  "gapOnStackM": 0.02,
+  "vessels": {
+    "plate": {
+      "registry": "plate-round",
+      "holds": {
+        "ENTREE": 1,
+        "SMALL_SIDE": 2,
+        "CONDIMENT": 2
+      },
+      "_why": "Fernando 2026-09-27: a plate holds an entree plus up to two small sides."
+    },
+    "bowl": {
+      "registry": "bowl-entree",
+      "holds": {
+        "ENTREE": 1
+      }
+    },
+    "basket": {
+      "registry": "basket-entree",
+      "holds": {
+        "ENTREE": 1,
+        "SMALL_SIDE": 1,
+        "CONDIMENT": 1
+      }
+    },
+    "board": {
+      "registry": "board-wood",
+      "holds": {
+        "ENTREE": 1,
+        "SIDE": 1,
+        "CONDIMENT": 2
+      },
+      "_why": "An entree plus one side (any size, small ones included) and up to two condiments; real size decides the rest (35 x 20 cm)."
+    },
+    "paper_wrap": {
+      "registry": "paper-butcher",
+      "holds": {
+        "ENTREE": 1,
+        "CONDIMENT": 1
+      }
+    }
+  },
+  "carriers": {
+    "tray": {
+      "registry": "carrier-tray",
+      "canCarry": [
+        "plate",
+        "bowl",
+        "basket",
+        "paper_wrap"
+      ],
+      "holds": {
+        "VESSEL": 1,
+        "SIDE": 1,
+        "CONDIMENT": 2
+      }
+    },
+    "board": {
+      "registry": "carrier-board",
+      "canCarry": [
+        "plate",
+        "bowl"
+      ],
+      "holds": {
+        "VESSEL": 1,
+        "SIDE": 1,
+        "CONDIMENT": 2
+      }
+    },
+    "butcher_paper": {
+      "registry": "carrier-paper",
+      "canCarry": [
+        "plate",
+        "basket"
+      ],
+      "holds": {
+        "VESSEL": 1,
+        "SIDE": 1,
+        "CONDIMENT": 2
+      }
+    }
+  },
+  "smallSideMaxM": 0.1,
+  "_smallSide": "A small side is a side served straight on the vessel (a portion) or in a dish no wider than smallSideMaxM. Where a host allows SIDE, small sides count against it too."
+}

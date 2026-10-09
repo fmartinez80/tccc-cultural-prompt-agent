@@ -1,0 +1,80 @@
+/* Fonts (Tilt Warp, Space Grotesk, Space Mono) load from index.html. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Tilt Warp has one weight: never fake a bold or italic. */
+  font-synthesis: none;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--bay-font-sans);
+  font-weight: var(--app-weight-text);
+  line-height: 1.25;
+  color: var(--bay-text);
+  background: var(--bay-bg-canvas);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings as poster type. Components size them; this sets the face. */
+h1,
+h2,
+h3 {
+  font-family: var(--app-font-head);
+  font-weight: var(--app-weight-headline);
+  letter-spacing: -0.01em;
+  line-height: 1.02;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+b,
+strong {
+  font-weight: var(--app-weight-subhead);
+}
+
+code {
+  font-family: var(--bay-font-mono);
+  font-size: 0.92em;
+  padding: 1px 4px;
+  border: 1px solid var(--neo-ink);
+  border-radius: var(--bay-r-xs);
+  background: var(--bay-bg-subtle);
+}
+
+:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--neo-hover);
+  color: var(--neo-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

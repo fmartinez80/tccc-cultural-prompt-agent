@@ -1,0 +1,186 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  /* Paper scrim, not a dark one: the card's black border and hard shadow show, like the step rail. */
+  background: rgb(244 241 234 / 0.8);
+  animation: fadeIn 160ms ease-out;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: min(88vw, 320px);
+  padding: 24px 24px 20px;
+  background: var(--neo-card);
+  border: var(--neo-border);
+  border-radius: 0;
+  box-shadow: var(--neo-shadow);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--app-font-head);
+  font-weight: var(--app-weight-headline);
+  font-size: 18px;
+  line-height: 1.15;
+  color: var(--bay-text);
+}
+
+.message {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--bay-text-2);
+}
+
+.label {
+  margin: 0;
+  font-family: var(--app-font-head);
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--bay-text);
+}
+
+.percent {
+  margin: -8px 0 0;
+  font-family: var(--bay-font-mono);
+  font-size: 22px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  color: var(--bay-text);
+}
+
+/* The contour bottle (traced from the brand line art): a cola fill rises inside
+   the bottle's silhouette, under the outline and its logo. */
+.bottle {
+  --cola: #e41e2b;
+  position: relative;
+  height: 132px;
+  aspect-ratio: 136 / 443;
+}
+
+.liquidMask {
+  position: absolute;
+  inset: 0;
+  -webkit-mask: url('/loading-bottle-mask.png') center / 100% 100% no-repeat;
+  mask: url('/loading-bottle-mask.png') center / 100% 100% no-repeat;
+}
+
+.liquid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, #b3121c, var(--cola));
+  transition: height 600ms ease-out;
+}
+
+/* A gently rolling surface on top of the cola. */
+.wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -4px;
+  height: 5px;
+  background: radial-gradient(circle at 50% 100%, var(--cola) 68%, transparent 70%) 0 0 / 10px 5px repeat-x;
+  animation: wave 1.2s linear infinite;
+}
+
+.bubble {
+  position: absolute;
+  bottom: 2px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  animation: bubble 1.8s ease-in infinite;
+}
+
+.bubble:nth-of-type(2) {
+  left: 30%;
+}
+
+.bubble:nth-of-type(3) {
+  left: 58%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.6s;
+}
+
+.bubble:nth-of-type(4) {
+  left: 44%;
+  animation-delay: 1.1s;
+  animation-duration: 2.2s;
+}
+
+.bubble:nth-of-type(5) {
+  left: 70%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 0.3s;
+  animation-duration: 1.5s;
+}
+
+.outline {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+@keyframes wave {
+  to {
+    background-position-x: 10px;
+  }
+}
+
+@keyframes bubble {
+  /* Rise from the bottom to just under the surface, wherever the surface is. */
+  0% {
+    bottom: 2px;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    bottom: calc(100% - 4px);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backdrop {
+    animation: none;
+  }
+  .wave,
+  .bubble {
+    animation: none;
+  }
+  .liquid {
+    transition: none;
+  }
+}

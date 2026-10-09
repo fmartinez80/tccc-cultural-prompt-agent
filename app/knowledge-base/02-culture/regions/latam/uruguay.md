@@ -1,0 +1,784 @@
+---
+country: uruguay
+ou: latam
+status: DRAFT — PILOT, NEEDS SME/HUMAN REVIEW
+research_method: Claude web research
+date_drafted: 2026-09-21
+---
+
+## SUB-REGION TRIAGE DECISION
+
+**Decision: NO structural split. One national reference file (`uruguay.md`) is sufficient.**
+
+**Reasoning:**
+
+Uruguay is frequently described in culinary sources as unusually homogeneous for a Latin American country, and this is attributed to *why* it's homogeneous, not just asserted: its cuisine is a product of late-19th/early-20th-century Spanish and Italian immigration overlaid on a small, flat, cattle-ranching territory, rather than of deep pre-existing regional/indigenous food traditions that might have produced lasting internal splits. Multiple independent sources make this same causal point — "Uruguayan gastronomy is a result of immigration, rather than local Amerindian cuisine" ([Wikipedia: Uruguayan cuisine](https://en.wikipedia.org/wiki/Uruguayan_cuisine); corroborated in the same terms by [World Food and Wine](https://www.worldfoodwine.com/food-in-uruguay)) — and that Spanish-then-Italian sequence produced the same core repertoire (asado, milanesa, pizza/faina, pasta) nationwide. [CONFIDENCE: MEDIUM-HIGH — 2 independent sources with the same specific causal claim]
+
+I specifically checked the three plausible fault lines the brief named:
+
+1. **Montevideo/coastal vs. interior "campo"** — This is the one genuine, repeatedly-documented distinction, but sources describe it as an *emphasis* difference, not a structural one: the interior is described as "the kingdom of cattle and giant asados" with asado as an "experience unto itself," while Montevideo (as a coastal capital) has "a plentiful supply of fresh fish" and more fusion/international dining, and coastal towns show more Spanish-style seafood dishes like paella. Nowhere did I find a claim that the *underlying dish set or dishware/table customs* differ — only that beef-centrality is more intense/exclusive in the campo and seafood is more present on the coast. [CONFIDENCE: MEDIUM — 1 detailed source ([thingstodoinuruguay.com](https://thingstodoinuruguay.com/food-culture/)) making this specific point, corroborated more loosely by [chefspencil.com](https://www.chefspencil.com/top-25-foods-in-uruguay/) and [worldfoodwine.com](https://www.worldfoodwine.com/food-in-uruguay)] This is treated as a **callout**, not a split (see REGION-WIDE NORMS).
+
+2. **Brazil-border influence (Rivera/Chuy)** — Real and documented, but localized to specific border towns, not a national sub-region. Rivera "blends Uruguayan traditions with Brazilian flavors," and Chuy's food scene shows Brazilian churrasco-grilling influence and cachaça-based drinks alongside mate ([Barry's Borderpoints](https://barrysborderpoints.com/country-visits/uruguay/chuy-chui/); [humbo.com](https://humbo.com/uy/rivera)). This is a narrow, town-scale hybridization at the literal international border, not a distinct Uruguayan culinary region comparable to what "sub-region" splitting is meant to catch (i.e., it wouldn't be visibly wrong to apply mainstream Uruguayan norms to 95%+ of the country's territory and population, including Montevideo where the vast majority of the population and of any plausible photography use case sits). [CONFIDENCE: MEDIUM — travel-guide sources, not culinary/academic ones; flagged as thin evidence] Treated as a **minor callout**, not a split.
+
+3. **Afro-Uruguayan tradition** — Well-documented as a major cultural force (candombe drumming, Carnival — UNESCO-recognized), but I could not find sourced evidence of a *distinct Afro-Uruguayan culinary/dish tradition* comparable to, e.g., Afro-Brazilian cuisine (feijoada, moqueca) or Afro-Colombian coastal cuisine. Search results returned rich material on candombe as music/dance/community history (drums, Carnival, Barrio Sur) but explicitly did not surface Afro-Uruguayan *food* practices. [CONFIDENCE: this is a genuine gap, not a negative finding — see GAP LOG. Not confirmed by available sources — flag for review.]
+
+**Conclusion:** Uruguay does not show the kind of dish-set/dishware/table-custom divergence that drove sub-region splits in Turkey/USA. The triage method correctly identifies this as a "no split" case: there is one dominant, immigration-derived national culinary identity (beef/asado, milanesa, pizza-and-faina, mate, Italian-Spanish desserts) applied with a coastal/interior emphasis shift and a narrow border-town hybridization, neither of which rises to "would look visibly inauthentic if swapped." **Confidence in this triage conclusion: MEDIUM-HIGH.** The main residual risk is the Afro-Uruguayan food-tradition gap — if a human reviewer with local knowledge identifies a real, distinct Afro-Uruguayan dish tradition, that would be the one finding that could revise this triage.
+
+---
+
+## TRUSTED CONTENT
+
+### REGION-WIDE NORMS
+
+- **Outdoor/asado grilling culture is a genuine national norm, not a stylistic option.** Weekend family asados are described as a core social ritual lasting "four to five hours," built around a wood-fired **parrilla** with a side **brasero** (ember box) that a dedicated **asador** tends. [CONFIDENCE: HIGH] [SOURCE: [La Gran Uruguaya](https://www.lagranuruguaya.com/blog/art-of-uruguayan-asado); [Bodega Garzón](https://bodegagarzon.com/en/blog/uruguay-asado/)]
+- **Table setting is broadly European/Continental in formal contexts**: bread is served from a shared basket (canasta/panera) placed on the table, not on individual bread plates; Continental style is used (fork in left hand, knife in right); hands stay visible above the table; utensils are placed parallel, tines north, to signal "finished." [CONFIDENCE: MEDIUM] [SOURCE: bread-basket detail corrected per direct SME/market knowledge (2026-09-21 review) — see DECISIONS.md; general bread-basket norm corroborated regionally by [La Nación — paneras de Buenos Aires](https://www.lanacion.com.ar/revista-lugares/restaurantes-el-top-9-de-las-paneras-mas-tentadoras-de-buenos-aires-nid03102021/), though a Uruguay-specific dedicated source was not found — flag for further review; remaining Continental-style claims from [Etiquette Scholar — Uruguay Dining Etiquette](https://www.etiquettescholar.com/dining_etiquette/table-etiquette/sa_table_manners/uruguayan.html)]
+- **On-table condiments/sauces**: Chimichurri (fresh parsley, oregano, garlic, olive oil, red wine vinegar, chili flakes) is a near-ubiquitous standing table condiment, not limited to asado — it is conventionally served in its own small dish (ramekin-sized), placed on the table for diners to spoon onto meat themselves, rather than pre-applied by the cook. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Café Delites — Authentic Chimichurri (Uruguay & Argentina)](https://cafedelites.com/authentic-chimichurri-uruguay-argentina/); [Eat Flavorly](https://www.eatflavorly.com/eatflavorly-chimichurri-spotlight-flavors-of-argentina-and-uruguay/)]
+- **Meals run long and social ("sobremesa")**: lingering at the table after eating, typically over shared mate, is a named, valued custom rather than incidental. [CONFIDENCE: MEDIUM] [SOURCE: [Etiquette Scholar](https://www.etiquettescholar.com/dining_etiquette/table-etiquette/sa_table_manners/uruguayan.html); corroborated by [real-estate-uruguay.com](https://real-estate-uruguay.com/dining-etiquette-in-uruguay-what-you-should-know/)]
+- **Asado/parrillada serving style is family-style/shared**, built around a communal grill and shared cuts (asado de tira, vacío, colita de cuadril, plus offal like chotos and rolled pamplonas), rather than individually pre-plated portions; wooden serving boards ("tablas de madera") are a common asado-specific serving vessel, sold and used specifically for this purpose. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [La Gran Uruguaya](https://www.lagranuruguaya.com/blog/art-of-uruguayan-asado); [BBQ Uruguay product category](https://bbq.com.uy/etiqueta-producto/tabla-de-madera-para-asado/)]
+- **Mate is the dominant everyday beverage ritual and is genuinely national in scale**: an estimated ~85% of Uruguayan adults drink mate, often carried and consumed in public throughout the day (not confined to the home), using a **mate** (gourd, also called *cuia*/*porongo*/*guampa*), a metal **bombilla** (filter straw), and a **termo** (thermos) carried together. Uruguay is cited as drinking more yerba mate per capita than any other country. [CONFIDENCE: HIGH — multiple independent, detailed sources] [SOURCE: [Adrian Wilson/Shared Soup](https://sharedsoup.substack.com/p/mate-culture-uruguays-beloved-national); [Wikipedia: Uruguayan cuisine](https://en.wikipedia.org/wiki/Uruguayan_cuisine)]
+- **Mate etiquette is specific and non-optional if depicting the ritual**: one **cebador** (server) prepares and pours for the group from a single shared gourd, drinks the (weakest/least desirable) first round themself, then passes the same gourd/bombilla counterclockwise around the circle; the bombilla is never stirred or wiped by other drinkers; "gracias" signals you are done, not thanks for a single round. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Shared Soup](https://sharedsoup.substack.com/p/mate-culture-uruguays-beloved-national); [Heretic Yerba](https://www.hereticyerba.com/blogs/learn-about-yerba-mate/rituals-and-traditions-the-culture-of-sharing-yerba-mate)]
+- **Coastal/interior emphasis callout (not a structural split):** Montevideo and coastal towns show more seafood presence and international/fusion dining; the interior "campo" is more exclusively beef/asado-centered and is described as where asado is at its most intense/traditional. [CONFIDENCE: MEDIUM] [SOURCE: [thingstodoinuruguay.com](https://thingstodoinuruguay.com/food-culture/)]
+- **Immigrant-derived European base**: Uruguayan food culture is explicitly a fusion of Spanish and Italian (plus lesser Portuguese/French) traditions carried by 19th–20th century immigration, not an indigenous-rooted cuisine — this is the explanatory backbone for why asado/milanesa/pizza-faina/pasta all read as "core Uruguayan" despite European origins. An estimated 60% of Uruguayans have Spanish ancestry and 40% Italian. [CONFIDENCE: HIGH] [SOURCE: [Wikipedia: Uruguayan cuisine](https://en.wikipedia.org/wiki/Uruguayan_cuisine); [italiani.it](https://en.italiani.it/Argentine-and-Uruguay-the-fusion-cuisine-of-Italian-immigration/)]
+- **Breakfast is light and not a major structured meal** — typically café con leche with a medialuna (butter- or lard-based) or a few bizcochos; this is a genuinely thin area in available sources (see GAP LOG). [CONFIDENCE: MEDIUM] [SOURCE: [Guru'Guay](https://www.guruguay.com/es/el-desayuno-no-es-grande-en-uruguay/)]
+- **Table bread is a named, varied basket — not a single generic "bread roll."** A Uruguayan bread basket typically draws from a specific, named repertoire: **flauta** (a Uruguay-specific term for a baguette-style loaf), **felipe** (a bolillo-style joined roll, thicker/shorter than a flauta), **pan marsellés** (a denser loaf with its crust dusted/coated in maize flour before baking — visually distinct, mottled yellow-flecked crust), **pan de campo** (rustic, crispy-crusted country loaf, traditionally made with beef fat/tallow), **pan catalán** (soft-crumb, faintly sweet white roll, used for chivitos and reinforced sandwiches — not a hamburger bun or brioche), **pan tortuga** (a specific bread roll used for hamburgers/sausages, distinct from sandwich bread), and **galleta** (a cracker-like drier bread). None of these should be rendered as a generic soft white burger bun or a French/Vienna-style baguette identical to European bread — the visual/textural distinctions (crust color, crumb density, shape) are part of what reads as authentically Uruguayan vs. generic "bread." [CONFIDENCE: MEDIUM-HIGH — a dedicated Wikipedia list corroborated by Uruguayan press coverage of preferred breads, though full visual/textural detail per bread type was not independently verified for each entry] [SOURCE: [Wikipedia: List of Uruguayan breads](https://en.wikipedia.org/wiki/List_of_Uruguayan_breads); [Subrayado — panes preferidos por los uruguayos](https://www.subrayado.com.uy/ximena-torres-presenta-la-seleccion-los-panes-preferidos-los-uruguayos-n805538); [El Observador — El pan nuestro de cada día](https://www.elobservador.com.uy/nota/el-pan-nuestro-de-cada-dia-201561000)]
+
+### VISUAL & PLATING NORMS
+
+(This section exists specifically to support authenticity checks on generated food photography — plating, color, texture, and shape, as distinct from the ingredient/custom facts above.)
+
+- **Asado doneness and color: golden-brown and seared, not blackened; pink-centered, not gray.** Uruguayan/Río de la Plata grilling technique explicitly aims for a golden (dorado) seared crust achieved via a strong initial sear over embers, then slower, controlled cooking — the goal is browning without burning. The most common serving point is "a punto"/"jugoso": tender and distinctly pink at the center, not the uniform gray-brown of a well-done cut. A fully blackened/charred exterior or a uniformly gray-brown cross-section would both read as inauthentic to the Uruguayan preference. [CONFIDENCE: MEDIUM-HIGH — includes INAC (Uruguay's national meat institute), a primary/authoritative Uruguayan source] [SOURCE: [INAC Uruguay — Asado a las brasas/Asado ventana](https://www.inac.uy/innovaportal/v/12201/17/innova.front/uruguay-asado-a-las-brasas_-asado-ventana); [serargentino.com — puntos de cocción](https://www.serargentino.com/argentina/a-punto-jugoso-o-cocido-cual-es-el-mejor-punto-de-coccion-del-asado) (Argentina-sourced description of the shared Río de la Plata doneness preference — treat as corroborating, not Uruguay-exclusive)]
+- **Grill-mark pattern: mottled/uneven char, not crisp parallel crosshatch stripes.** Uruguayan asado grills more commonly use round-rod grates (vs. Argentina's V-grooved grates), and the heat source is glowing wood embers shoveled beneath the grate rather than a direct gas or charcoal-bed flame. The resulting surface char reads as irregular and ember-flecked rather than the bold, evenly-spaced crosshatch sear lines that AI image generation defaults toward (a look more associated with American BBQ grill-pan/grate imagery). This is a specific, actionable authenticity flag: bold uniform grill-stripe patterns should be treated as a likely inauthenticity signal for Uruguayan asado. [CONFIDENCE: MEDIUM — single detailed comparative source; flag for corroboration] [SOURCE: [Scoolinary — Diferencias asado argentino y uruguayo](https://blog.scoolinary.com/conoces-las-diferencias-entre-el-asado-argentino-y-el-uruguayo)]
+- **Asado plating is rustic and communal, not individually composed.** Cuts are served whole or in large sections directly off the grill onto a shared wooden board or metal platter — not portioned into a single clean cut with a sauce swoosh and garnish in the modern fine-dining style. Chimichurri appears as a rough-chopped, visibly herb-flecked green sauce in its own small dish, not a smooth purée. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [La Gran Uruguaya](https://www.lagranuruguaya.com/blog/art-of-uruguayan-asado); [Café Delites — Chimichurri](https://cafedelites.com/authentic-chimichurri-uruguay-argentina/)]
+- **Chivito's defining visual trait is height/stacking, not flatness.** Sources repeatedly describe it as piled so high it's difficult to bite into — the visual should show a tall, multi-layer cross-section (steak, ham, melted cheese, egg if canadiense, vegetables) rather than a flat, thin sandwich. [CONFIDENCE: HIGH] [SOURCE: [The Kitchn](https://www.thekitchn.com/uruguays-amazing-national-dish-127270)]
+- **Milanesa a la napolitana has a distinctive layered, "pizza-on-a-cutlet" top surface**: golden-brown crispy breaded crust visible at the edges, topped with a visibly separate layer of red tomato sauce, pink ham, and gratinated (browned/bubbled at the edges, not uniformly melted-smooth) mozzarella — the contrast between the crisp fried edge and the wet, oven-browned topping is the defining visual. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Paulina Cocina — Milanesa Napolitana](https://www.paulinacocina.net/milanesa-napolitana-receta-y-apreciaciones-personales/5917)]
+- **Chajá is visually layered and pale, not dark or chocolate-toned.** Cross-sections (or individual cup servings) show distinct horizontal bands of pale sponge cake, white whipped cream, diced peach (pale orange), and broken meringue shards (off-white, jagged, not smooth); the exterior is fully coated in white whipped cream and topped with more broken meringue pieces and peach slices — it should never read as a smooth-iced cake or a uniform brown/caramel-colored dessert (that would be confusable with a plain dulce-de-leche cake). [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Laylita — Postre/Torta Chajá](https://www.laylita.com/recetas/postre-torta-chaja/)]
+- **Pizza a la piedra is a medium-thick, rectangular-cut pizza — not thin/round Neapolitan-style, not thick Chicago deep-dish.** Dough thickness runs roughly 4-9mm before rising further in the oven; a full pizza is baked as a large rectangle (roughly 35-40cm x 60-70cm for a two-person size) and cut into rectangular portions, not triangular wedges. Cheese coverage is moderate, not the heavy, molten cheese-pull look common in American pizza marketing imagery. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Wikipedia (ES): Pizza a la pala](https://es.wikipedia.org/wiki/Pizza_a_la_pala); [Vinómanos](https://vinomanos.com/2020/08/receta-de-pizza-media-masa-y-a-la-piedra/)]
+- **Overall regional color/texture palette**: golden-brown seared/roasted meat tones and pale bread crumb dominate savory dishes; desserts trend toward pale cream, caramel-brown dulce de leche, and meringue-white rather than bright or saturated colors; mate's visual signature is the yellow-green loose herb visible at the gourd's rim under hot water, not a clear brewed tea. [CONFIDENCE: MEDIUM — synthesized across multiple dish-level sources above rather than a single dedicated source; flag for review]
+
+### ENVIRONMENT & STAGING SCENES
+
+(This section maps Uruguay-specific detail onto Coca-Cola's standard photography staging scenarios: casual lunch at home for 1/2/3 people, dinner at home, an outdoor meal at home, a solo on-the-go meal, and away-from-home dining for 1 person vs. 2-3 people. It covers architecture, materials, and setting — as distinct from the food-level detail above.)
+
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+#### General environmental norms (apply across all scenarios below)
+
+- **Climate and light: temperate with four distinct seasons — not tropical.** Uruguay is the only South American country situated entirely within a temperate climate zone (annual average ~17.5°C in Montevideo, clearly differentiated seasons, moderate year-round rainfall). This matters directly for authenticity: palm trees, intense saturated tropical light, or a permanent "beach vacation" register would misrepresent the country — Uruguayan light and landscape should read as closer to temperate Southern Europe than to tropical Latin America. [CONFIDENCE: HIGH] [SOURCE: [Wikipedia (ES): Clima de Uruguay](https://es.wikipedia.org/wiki/Clima_de_Uruguay)]
+- **Housing stock is a mix of four real, coexisting types — not one default.** (1) Early-20th-century Art Deco and Belle Époque-influenced apartment buildings, common in central Montevideo, with high ceilings, plasterwork, large windows, and decorative wrought-iron balcony railings; (2) the historic "casa chorizo"/"casa de patio" typology — a narrow rectangular house with rooms arranged along one side of a central interior patio, dating from the late 19th/early 20th century and still lived in today (a real, documented example: FGM Arquitectos' "Urban House," a renovated 1930s one-level house on an 8.66m-wide lot in Montevideo's Cordón neighborhood, originally built around two interior courtyards); (3) modern apartment towers, especially in coastal areas; and (4) **monoambientes** — single-room studio apartments where kitchen, eating, sleeping, and living functions share one undivided space, often separated only by a shelving unit or half-wall rather than a real room division. Monoambientes are a specifically *growing, currently-documented* category, not a marginal one: Uruguayan press reports more than 2,200 subsidized/"promoted" monoambiente units built since 2020 alone (average price over US$92,200), and this housing type is where a meaningful share of young solo urban professionals actually live. None of these four should be treated as the single default — which one fits depends on the household being depicted. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [dare2go — Art Deco Montevideo](https://dare2go.com/art-deco-buildings-in-montevideo/); [Wikipedia: Casa chorizo](https://en.wikipedia.org/wiki/Casa_chorizo); [ArchDaily — Urban House / FGM Arquitectos](https://www.archdaily.com/775442/urban-house-fgm-arquitectos); [real-estate-in-uruguay.com](https://www.realestate-in-uruguay.com/blog/montevideo-interior-renaissance-8-trends/); [El Observador — proponen eliminar los monoambientes](https://www.elobservador.com.uy/economia-y-empresas/proponen-eliminar-los-monoambientes-la-tipologia-crecimiento-que-ya-supera-las-2200-unidades-construidas-n6035694); [El Observador — la vida en 25m²](https://www.elobservador.com.uy/nota/la-vida-en-25m-que-implica-vivir-en-un-monoambiente-en-montevideo--202381116410)]
+- **Materials read as modest and durable, in muted earth tones — not saturated or ornamental.** Local hardwoods, granite, and brick appear as honest structural/thermal materials rather than decorative flourish; exterior plaster/stucco runs in cream, ochre, and terracotta tones rather than the bright saturated colors associated with tropical Latin American street scenes; geometric hydraulic floor tiles ("mosaicos") and Portuguese-style ceramic (mayólica) accents appear in older buildings and traditional bars specifically, not as a universal household default. Wrought iron is used decoratively on balcony railings (a Belle Époque/French-influenced detail), not as defensive window security bars. [CONFIDENCE: MEDIUM] [SOURCE: [La Casa Uruguaya (ORT Universidad)](https://www.lacasauruguaya.com/arquitectura/); [la diaria — histórico bar](https://ladiaria.com.uy/cotidiana/articulo/2020/1/tradicional-de-estreno-el-historico-bar-montevideo-al-sur/)]
+- **Caricature-avoidance guidance (editorial judgment, not a sourced factual claim — flag for review):** Based on the architecture and materials sourcing above, Uruguay's visual register sits closer to a modest Southern European influence (Spanish/Italian/French provincial, muted palette, temperate light) than to the "tropical Latin America" shorthand many generic prompts or generic AI generation default to (saturated colors, palm fronds, market-stall visual chaos, defensive window grilles). It should equally avoid over-correcting into a rural gaucho cliché (ponchos, open campfire, dirt roads) for urban/domestic scenes — that register belongs specifically to the interior "campo" context noted in the triage section, not to a default Montevideo home, apartment, or neighborhood restaurant. Similarly, avoid anchoring every "at home" scene to one iconic, internationally-recognizable neighborhood (e.g., Pocitos' Art Deco beachfront towers) — that neighborhood-specific look is real but should be treated as one option among several ordinary, unremarkable residential settings, not the required default, unless a specific neighborhood is asked for.
+
+#### Scenario: Casual lunch at home, indoors — 1 person
+
+- Likely setting: Two genuine, distinct options rather than one default. For a young solo urban professional, a **monoambiente** (single-room studio) is now a real, well-documented, and growing housing category — eating happens in the same undivided room as sleeping/working, with the kitchen area often separated only by a shelving unit rather than a wall (see updated housing-type norm above). For other solo households, a modest separate apartment kitchen or small "comedor diario" (everyday/casual eating nook, distinct from a formal comedor) is equally plausible. [CONFIDENCE: MEDIUM-HIGH for the monoambiente option specifically (multiple Uruguayan press sources with real statistics and a documented resident account); MEDIUM for which option is more representative of "1 person" in general, since that depends on age/income not established here]
+- Table/seating: In a monoambiente, likely a small desk/table doing double duty rather than a dedicated dining table; in a separate-kitchen apartment, could plausibly be eaten at a kitchen counter/small table rather than a formal dining room, given the scale of a solo casual meal.
+- Likely dish pairing: An everyday dish from the catalog above — milanesa, a simple pasta, or pastel de carne — rather than a special-occasion dish like a full asado or puchero.
+- A strong, authentic detail in life (not in the default frame): mate at the table even for a solo weekday lunch, given how central and constant mate consumption is across the day (see the Mate beverage-ritual entry below). It is another drink, so it appears only when a brief asks for the ritual (schema §5.6).
+
+#### Scenario: Casual lunch at home, indoors — 2 people
+
+- Same everyday comedor diario / kitchen-table setting as the 1-person scenario, scaled to a small table set for two with matching everyday tableware — not the more elaborate table setting reserved for a special-occasion dinner.
+- The shared table-condiment norm applies here too: a small dish of chimichurri or other condiment placed on the table if the dish calls for it, plus a bread basket, rather than food arriving pre-dressed.
+
+#### Scenario: Casual lunch at home, indoors — 3 people
+
+- Same everyday register as the 1- and 2-person scenarios, just scaled up — a fuller table but still within the "casual lunch," not the multi-hour, special-occasion register of a full weekend asado.
+- If a family/household of 3 is depicted, a Sunday pasta lunch (tallarines/ravioles con tuco) is a well-sourced, authentic anchor for this specific group size and occasion type (see Pasta dish entry above), as opposed to defaulting to asado for every multi-person scene.
+
+#### Scenario: Dinner at home, indoors
+
+- **Timing matters for lighting authenticity**: dinner in Uruguay conventionally starts quite late — sources describe dinner as rarely appearing before 9:30pm. A literal, time-accurate dinner-at-home scene should reflect interior artificial lighting appropriate to a late evening, not daylight through windows. [CONFIDENCE: MEDIUM — single source, travel-guide-level; flag for corroboration] [SOURCE: [Go Backpacking — Uruguayan Food](https://gobackpacking.com/travel-guides/uruguay/uruguayan-food-typical-traditional-cuisine/)]
+- More elaborate/lingering than a casual lunch: this is where the "sobremesa" norm (lingering at the table after eating, typically over shared mate — see REGION-WIDE NORMS above) is most likely to visibly apply.
+- Authentic dish anchors: a Sunday-night pasta dinner, a puchero in colder months, or a home-style milanesa napolitana — all everyday-to-Sunday register dishes documented above, rather than defaulting to a restaurant-style dish for a home setting.
+
+#### Scenario: Meal outdoors at home
+
+- **The defining Uruguayan architectural answer to this scenario is the "quincho"**: a covered outdoor structure attached to or near the house, purpose-built for cooking and eating asado and for family/social gatherings. Construction is typically simple — eucalyptus or wood columns and beams, a roof of thatch, French tile, corrugated metal, or (in modern builds) polycarbonate sheeting for light without rain — housing a built-in grill/parrilla plus a table and chairs. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Wikipedia (ES): Quincho (asador)](https://es.wikipedia.org/wiki/Quincho_(asador))]
+- **Correction (2026-09-21): apartment living does not mean no outdoor-grill access — real estate listing data shows the opposite is common.** An earlier draft of this section assumed apartment dwellers would mostly lack quincho-equivalent access; actual current Montevideo apartment listings contradict that. It is a routine, explicitly advertised feature for both private units and shared building amenities to include a **parrillero** (built-in grill): listings describe private "terraza con parrillero" (grill terrace) attached to individual apartments, and separately, shared building amenities including a **SUM** (sala de usos múltiples — multipurpose room) with its own parrillero and often a rooftop/terrace location with panoramic views, available to all residents. So the authentic apartment-dwelling version of "meal outdoors at home" is not "this doesn't apply" — it is a private balcony/terrace grill (smaller-scale, more intimate) or a shared building rooftop terrace with a communal grill (larger-scale, semi-public, shared with other residents), and both are real, current, and commonly marketed features rather than rare exceptions. The freestanding house-and-yard quincho remains the more elaborate, multi-hour version; the apartment terrace/SUM parrillero is the equally-authentic, smaller-scale everyday version. [CONFIDENCE: MEDIUM-HIGH — based on multiple current real estate listings on Uruguay's leading property portal, which is primary market evidence rather than editorial commentary, though not a statistical claim about what percentage of buildings have this feature] [SOURCE: [infocasas.com.uy — apartamento 2 dormitorios, terraza y SUM con parrillero](https://www.infocasas.com.uy/venta-de-apartamento-2-dormitorios-terraza-y-sum-con-parrillero/186159075); aggregated from multiple current infocasas.com.uy Montevideo apartment listings describing private and shared parrillero terraces]
+- Alternative, older-housing-stock version: the "casa chorizo"/casa de patio's central interior patio (see housing-type norm above) is itself a genuine, historically-documented outdoor-at-home eating space, distinct from a quincho/yard and worth considering for a more urban, older-neighborhood register.
+- Table settings: family-style/shared, per the asado serving-style norm and Visual & Plating notes documented above (shared wooden board, communal grill visible, chimichurri in its own small dish).
+
+#### Scenario: Meal on the go — 1 person
+
+- **This is the scenario most likely to be over-imported from a different (e.g., US) food culture — flag carefully.** One source states plainly that "the concept of grab-and-go barely exists in Uruguay," citing the long, fixed lunch (roughly 1-4pm) and late dinner (rarely before 9:30pm) windows as evidence that meals are scheduled and social rather than rushed. A generic "coffee and a pastry eaten while walking fast" American-style trope is not well-supported by available sources for an ordinary lunch or dinner. [CONFIDENCE: MEDIUM — single source, but a specific and plausible claim consistent with the sobremesa/long-meal norms documented elsewhere in this file] [SOURCE: [Go Backpacking — Uruguayan Food](https://gobackpacking.com/travel-guides/uruguay/uruguayan-food-typical-traditional-cuisine/)]
+- **The most authentic "on the go" image available in the sources is mate itself**: the termo tucked under one arm and the gourd carried/sipped while walking, at the beach, in a park, or between errands — this is repeatedly documented as a genuine, all-day, in-public practice (see the Mate beverage-ritual entry; staged only when a brief asks for it, schema §5.6), and is a far stronger authenticity anchor than a to-go coffee cup.
+- **A secondary, genuinely-documented on-the-go option is the "carrito"**: a fixed or mobile street food cart/stall (originating near Estadio Centenario, now found in various Montevideo locations) selling choripán, hamburguesas, panchos (Uruguayan hot dogs, made with the sausage in a pan de Viena bun, often protruding past the bun's ends), and baurú — eaten standing at or near the cart rather than seated. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Wikipedia (ES): Carrito (Uruguay)](https://es.wikipedia.org/wiki/Carrito_(Uruguay)); [TasteAtlas — Pancho](https://www.tasteatlas.com/pancho)]
+- Chivito is also cited as commonly eaten as street/on-the-go food, though this sits in some tension with the "grab-and-go barely exists" claim above — flagged as an area where sources are not fully consistent; treat "quick, standing, or walking" as the more defensible authenticity cue than "rushed."
+
+#### Scenario: Away from home — 1 person at a restaurant/cafe
+
+- **"Cafetear" (having coffee, often solo) is a well-documented Rioplatense custom, including standing at the bar counter ("parado")** — historically cheaper than sitting at a table, and described as a decades-long habit for some regular customers who never sit down at all. This is a strong, specific authenticity anchor for a solo café scene, as an alternative to seated solo dining. [CONFIDENCE: MEDIUM] [SOURCE: [Infobae — Cafetines](https://www.infobae.com/sociedad/2025/02/23/cafetines-de-buenos-aires-un-pequeno-lugar-escondido-en-el-centro-en-el-que-ni-siquiera-hay-espacio-para-instalar-una-bacha/) (describes the shared Rioplatense custom; corroborated for Montevideo specifically by references to Café Sorocabana and traditional Montevideo bars in the same source set)]
+- Traditional café/bar interior materials (for the seated or standing-at-bar version): geometric hydraulic floor tiles, a long wood-and-marble counter, terracotta-toned tile accents, high glass display cases for pastries. Do not depict a specific named, real historic bar (e.g., Bar Facal) as if staging IS that exact venue — draw on the general traditional-bar register these sources document, not a literal recreation of one real business. [CONFIDENCE: MEDIUM] [SOURCE: [la diaria — histórico bar](https://ladiaria.com.uy/cotidiana/articulo/2020/1/tradicional-de-estreno-el-historico-bar-montevideo-al-sur/); [Wikipedia: Bar Facal](https://en.wikipedia.org/wiki/Bar_Facal) (background only, not for literal recreation)]
+- A modern alternative also exists and is equally authentic for a contemporary setting: third-wave/specialty coffee shops have grown in Montevideo, offering a more contemporary counter-and-small-table register than the traditional bar. [CONFIDENCE: LOW-MEDIUM — single source, not deeply corroborated; flag for review] [SOURCE: [Perfect Daily Grind — tiendas de café tercera ola en Uruguay](https://perfectdailygrind.com/es/2018/05/22/conoce-las-tiendas-de-cafe-que-sirven-la-tercera-ola-en-uruguay/)]
+
+#### Scenario: Away from home — 2-3 people at a restaurant/cafe
+
+- **The default authentic register is a modest, unpretentious neighborhood parrilla — not an upscale steakhouse.** Descriptions of real Montevideo parrillas repeatedly use language like "a diminutive neighborhood joint," "modestly sized dining room with simple and welcoming décor," and "simple tables, friendly service" — a substantial bar area alongside a handful of dining tables is a recurring feature. Upscale/tourist-oriented parrillas also exist but should be treated as one option, not the default. [CONFIDENCE: MEDIUM — travel/review-site sourcing rather than architectural documentation; flag for corroboration] [SOURCE: descriptions aggregated from review coverage of representative Montevideo parrillas, e.g. [urubus.com.uy — mejores parrillas](https://urubus.com.uy/blog/mejores-parrillas-en-montevideo/)]
+- Table/serving norms carry over directly from the asado/parrillada norms documented above: family-style shared platters or boards, chimichurri in its own small dish, simple everyday tableware rather than fine-dining place settings, for a 2-3 person casual meal out.
+- As with the 1-person scenario, avoid anchoring this to one specific named real venue or one specific iconic neighborhood as if it were the required setting — the "modest neighborhood joint" register is documented as common across Montevideo generally, not tied to one location.
+
+### VENUE PROFILES
+
+(Added 2026-10-01 under `country-file-schema.md` §5.9, wave 1: the six most-used staging venues. This file has no QUICK-REFERENCE register table, so the profiles sit directly after ENVIRONMENT & STAGING SCENES and expand its scenarios. The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Montevideo is the default; the interior and the coast are variants, and where a place has no detail the Montevideo version applies [EDITORIAL]. Alcohol is never staged, the mate kit stays out of frame unless a brief asks for the ritual (§5.6), and every Uruguayan table carries a strong prior for wine, beer and mate, so negate them in every prompt. Keep the temperate, muted Southern-European palette from General environmental norms throughout.)
+
+#### Venue: Montevideo apartment, kitchen and everyday dining corner (apartamento: cocina y comedor diario)
+- **Use for:** home indoor; casual lunch for 1, 2 or 3, the late dinner (rarely before 21:30), the winter Sunday pasta or puchero, the living-room watch party. Montevideo's mixed housing stock has no single default (see General environmental norms); this profile uses an ordinary mid-century or older apartment as the everyday version, with the monoambiente and the casa de patio as variants [EDITORIAL].
+- **Soft background (the core):**
+  - *Back wall:* plain plaster painted white, cream or a muted warm tone; a few framed prints or family photos; in older buildings a high ceiling with a simple moulding. Muted, not saturated [CONFIDENCE: MEDIUM — per the materials norm above].
+  - *Middle distance:* a window or balcony door with an **aluminium-framed roller shutter (cortina de enrollar)** half-down, so the window reads as a bright band above dark slats; in older flats a **decorative wrought-iron balcony rail**, not a security grille; the defined kitchen through a doorway with tiled walls and a gas cooker; in many living-dining rooms a **wood-burning stove (estufa a leña)** as a dark iron box with a black flue, glowing in winter [CONFIDENCE: MEDIUM — InfoCasas listings for Pocitos and Cordón describe parquet floors, monoblock roller shutters, living-dining rooms with a wood-stove installation and a comedor diario; wrought-iron balconies per the housing norm above].
+  - *Light:* soft, temperate daylight (often grey-white, never tropical) from the side; at dinner, a warm pendant or ceiling lamp and the stove's orange glow in winter; the TV as a soft cool glow in the living area [EDITORIAL; LOW for the pendant — not verified].
+  - *Palette:* honey parquet, cream walls, grey sky light, dark wood furniture, black iron of the stove.
+  - *Signature shapes (3–5):* the half-lowered roller shutter; the wood stove and flue; parquet lines; the wrought-iron balcony rail; a bread basket on the table edge.
+  - *Density and wear:* modest, tidy and lived-in; durable older finishes.
+  - *People:* one blurred family member at the kitchen doorway.
+- **Shell:** a three-to-ten-storey apartment building from the early to mid 20th century or later; **parquet floors**; ceramic-tiled kitchen; aluminium windows with roller shutters [CONFIDENCE: MEDIUM — InfoCasas listings].
+- **The table as set here:** a rectangular wooden table or a small table in the comedor diario; a plain or lightly patterned cloth or bare wood; a **bread basket of named breads** (flauta, felipe, marsellés; see REGION-WIDE NORMS), chimichurri in a small dish if the dish calls for it, salt, oil and vinegar; plain white everyday plates, Continental cutlery, plain glass tumblers. Chair edges: simple wooden chairs [CONFIDENCE: MEDIUM — restates sourced norms above].
+- **Subregional variants and the national default:** Montevideo apartment is the default. *Monoambiente (young solo professionals):* one room, a small table doubling as a desk, the kitchenette behind a shelving unit or half-wall. *Casa de patio / casa chorizo (Cordón, older barrios):* a long room opening onto a tiled interior patio with plants, hydraulic floor tiles. *Coastal towers (Pocitos, Punta del Este):* larger glass and a grey-blue river or sea horizon, but do not make the Pocitos beachfront the default. *Interior towns:* a one-storey house, a bigger kitchen, the wood stove more central [per housing norm; LOW for interior details — not verified].
+- **Hallucination traps:** tropical colours, palm fronds, saturated light; defensive window grilles (a Mexico and Brazil marker, not a Montevideo default); gaucho décor in a city flat; "Buenos Aires is Paris" Belle Époque salons; mate kit on the table.
+- **Never stage:** the mate gourd and thermos (unless briefed), wine or beer; legible TV screens; football crests; a full flag.
+- **Prompt-ready line:** "A modest Montevideo apartment at dinner time: soft background of cream plaster walls, a half-lowered roller shutter over the window, honey parquet and a black wood-burning stove glowing in the corner; in focus, a wooden table with a basket of crusty flauta bread and plates of milanesa."
+- **Confidence and sources:** MEDIUM. [InfoCasas — apartamentos en Pocitos](https://www.infocasas.com.uy/venta/apartamentos/montevideo/pocitos); [InfoCasas — apartamentos en Cordón](https://www.infocasas.com.uy/venta/apartamentos/montevideo/cordon) (tier 3, property listings); housing and materials norms as cited above. One search this pass.
+
+#### Venue: Quincho, barbacoa or building parrillero
+- **Use for:** home outdoor; the weekend family asado, Christmas Eve and New Year in summer, the asado before a match, truco after the asado, birthdays; 1, 2 or a small group as a snapshot of 8–25. The default venue for celebrations and game nights in this file [CONFIDENCE: HIGH for the asado as the weekend ritual, per REGION-WIDE NORMS].
+- **Soft background (the core):**
+  - *Back wall:* the **brick parrillero**: a brick hearth at waist height with a **hood and chimney**, the **firewood basket (brasero)** where the wood burns down to embers, embers shovelled under a **round-rod grate** (not V-grooved), cuts laid out, a thin blue-grey haze; a brick or tiled counter with a sink beside it [CONFIDENCE: MEDIUM — parrillero construction guide (Scribd) and InfoCasas listings for "parrillero o barbacoa"; round-rod grate per VISUAL & PLATING NORMS].
+  - *Overhead:* eucalyptus or wooden posts and beams under a roof of thatch, French tile, corrugated metal or translucent polycarbonate (see Meal outdoors at home); in the house version often a closed room with large windows, called a **barbacoa** in Uruguay [CONFIDENCE: MEDIUM — Wikipedia (ES) Quincho; InfoCasas uses "parrillero o barbacoa" as one listing category; the room-sense of "barbacoa" is LOW-MEDIUM — inferred from listing usage].
+  - *Middle distance:* the long table running away from camera with wooden chairs or benches; through the open side or windows, a green garden lawn, a hedge or eucalyptus trees, a low wall; in the building version (SUM or rooftop parrillero), glass railings and the city's roofs and the grey-blue horizon of the Río de la Plata.
+  - *Light:* soft temperate midday light under the roof, the orange glow of embers; summer golden hour (late sunsets, around 20:00–20:30 [LOW — not verified]); in winter the asado moves into the closed barbacoa with its windows.
+  - *Palette:* red brick, honey wood, green garden, muted grey-blue sky, orange embers.
+  - *Signature shapes (3–5):* the brick hood and chimney; the brasero glowing at the side; the round-rod grate with meat; roof beams; a wooden board on the long table.
+  - *Density and wear:* comfortable, soot-darkened brick, used every weekend.
+  - *People:* the asador at the grill and one or two relatives, blurred.
+- **Shell:** a covered outdoor structure or closed grill room attached to a house; or a building's shared rooftop or SUM (multipurpose room) with its own parrillero; brick or tiled floor.
+- **The table as set here:** a long table, cloth or bare wood; a **wooden asado board** with cuts served whole or in large sections, chimichurri in small dishes, a bread basket, salads; everyday plates, steak knives. Chair edges: wooden chairs or benches [CONFIDENCE: MEDIUM-HIGH — per REGION-WIDE NORMS].
+- **Subregional variants and the national default:** the Montevideo house quincho is the default. *Apartment:* a private terrace parrillero (smaller, a steel or brick grill against a glass rail) or the building's rooftop SUM. *Interior campo:* an open quincho with thatch, larger fire, estancia landscape behind (only for a campo brief). *Coast:* a summer house quincho with pines and dunes [per Meal outdoors at home; LOW for coast details].
+- **Hallucination traps:** Argentine V-grooved grates; bold crosshatch grill marks; a US gas grill or kettle; gaucho ponchos and an open campfire in a city scene; palm trees.
+- **Never stage:** wine glasses and bottles, beer, cider or sparkling wine at New Year; the mate kit; club crests; a full flag.
+- **Prompt-ready line:** "A Uruguayan weekend asado in a quincho: soft background of a brick parrillero with a hood and chimney, wood burning down in the side basket, meat on a round-rod grate and a green garden beyond the eucalyptus posts; in focus, a long table with a wooden board of asado, a bread basket and a small dish of chimichurri."
+- **Confidence and sources:** MEDIUM. [InfoCasas — casas con parrillero o barbacoa](https://www.infocasas.com.uy/venta/casas/con-parrillero-o-barbacoa/pagina20); [Scribd — parrillero barbacoa a la uruguaya](https://es.scribd.com/doc/120803102/parrillero-barbacoa-a-la-uruguaya) (tier 4, a construction guide); quincho and grate claims as cited above. One search this pass.
+
+#### Venue: Neighbourhood parrilla (parrillada de barrio)
+- **Use for:** restaurant, indoor; the 2–3-person meal out (the file's default register), also 1 person at lunch; modest and unpretentious, not an upscale steakhouse [CONFIDENCE: MEDIUM — per Scenario: Away from home — 2–3 people].
+- **Soft background (the core):**
+  - *Back wall or focal point:* the **wood-fired parrilla in view**: a large brick or steel grill with a hood, the brasero of burning wood beside it, embers raked under round-rod grates, cuts and chorizos laid out, the parrillero at work; painted brick walls with a few framed photos [CONFIDENCE: MEDIUM — Urubus on Montevideo parrillas: wood fire rather than industrial, simple tables, painted brick; El Palenque's white-linen tables as the more formal end].
+  - *Middle distance:* a **substantial bar area** (a wooden counter as a warm horizontal band; shelves behind it soft, no bottles) beside a handful of tables; other diners as blurred shapes; the street through the window, or tables on the sidewalk in the simplest places.
+  - *Light:* warm interior light, the orange glow of the fire; daylight through the street windows at lunch.
+  - *Palette:* painted or bare brick, dark wood, white or plain cloths, orange embers.
+  - *Signature shapes (3–5):* the glowing wood fire; the grill hood; the bar counter; simple tables close together; a bread basket and chimichurri dish.
+  - *Density and wear:* small, busy, well-worn and simple.
+  - *People:* the parrillero and a waiter, blurred.
+- **Shell:** a corner or street-front room, tiled floor, plain ceiling.
+- **The table as set here:** simple tables, white cloth in the more traditional ones or bare wood or paper in the plainest; **cuts on a wooden board or metal platter** (parrillada), chimichurri in its own small dish, a bread basket; plain plates, steak knives. Chair edges: simple wooden chairs [CONFIDENCE: MEDIUM — per scenario and Urubus].
+- **Subregional variants and the national default:** Montevideo is the default. *Mercado del Puerto style:* grills under a market hall's iron roof with counter seating (do not recreate the specific real market). *Interior towns:* a larger roadside parrilla with a big open grill [LOW — not verified].
+- **Hallucination traps:** an upscale steakhouse with leather booths; a Brazilian churrascaria; a tourist parrilla with gaucho décor; Argentine V-grates; bold crosshatch grill marks.
+- **Never stage:** wine bottles or glasses, beer, bottles behind the bar; legible menus or price boards; a specific real named venue.
+- **Prompt-ready line:** "A modest Montevideo neighbourhood parrilla: soft background of a wood fire glowing under a brick grill hood, a wooden bar counter and painted brick walls, simple tables close together; in focus, a wooden board of grilled asado de tira and chorizo with a small dish of chimichurri and a bread basket."
+- **Confidence and sources:** MEDIUM. [Urubus — mejores parrillas en Montevideo](https://urubus.com.uy/blog/mejores-parrillas-en-montevideo/) (tier 3–4); scenario sources. One search this pass.
+
+#### Venue: Street food cart (carrito)
+- **Use for:** other / street; meal on the go for 1, a stop for 2–3, the pre-match carrito; evening and night. The documented on-the-go food venue in a country where grab-and-go is thin (see Scenario: Meal on the go) [CONFIDENCE: MEDIUM-HIGH, per scenario].
+- **Soft background (the core):**
+  - *The cart itself:* a **fixed trailer-style food cart** (most are now fixed, not mobile), metal-clad, with a serving hatch and a counter shelf; inside, a **flat griddle (plancha) and grill** with chorizos, burgers and panchos sizzling; a lit menu panel above as an unreadable glow [CONFIDENCE: MEDIUM-HIGH — Wikipedia (ES) Carrito (Uruguay): a fast-food trailer for choripán, hamburgers, panchos and baurú; began outside the Estadio Centenario about 40 years ago; now mostly fixed].
+  - *Middle distance:* a few **plastic stools or a high ledge**, the sidewalk, parked cars, a plane-tree-lined street; outside the stadium, the dark mass of the stand and floodlights.
+  - *Light:* night: a fluorescent tube in the hatch as a cool-white rectangle, the warmer glow of the griddle, streetlights and floodlights as bokeh.
+  - *Palette:* steel and white panels, the cool hatch light, dark street, warm griddle.
+  - *Signature shapes (3–5):* the bright serving hatch; the griddle with sausages; the counter shelf; a stool or two; floodlight towers.
+  - *Density and wear:* busy late at night and on match days; worn, functional.
+  - *People:* the cook in the hatch and one or two customers, blurred.
+- **Shell:** the sidewalk, a plaza edge or stadium surroundings.
+- **The table as set here:** the cart's counter shelf: the **choripán, pancho (sausage protruding from a pan de Viena bun) or chivito** on a paper napkin or in a paper sleeve or foil, squeeze bottles of sauces (no labels), napkins [CONFIDENCE: MEDIUM — per scenario; chivito availability at carts is limited by regulation (Wikipedia via search)].
+- **Subregional variants and the national default:** Montevideo is the default. *Outside the Estadio Centenario:* the original setting, crowd and floodlights. *Interior towns and the coast in summer:* the same carts by plazas and on the rambla [LOW — not verified].
+- **Hallucination traps:** a US hot-dog stand or gourmet food truck; a Mexican taco stand with a coloured tarp; an Argentine Costanera cart with striped awnings (close, but not this); a chivito drawn as a flat thin sandwich.
+- **Never stage:** beer; legible menu panels or prices; club colours with crests; food in a hand; the specific historic stadium cart.
+- **Prompt-ready line:** "A Montevideo street food cart at night: soft background of a bright serving hatch with sausages on a flat griddle, a plastic stool on the sidewalk and street lights as bokeh along a tree-lined street; in focus, a choripán on a paper napkin on the cart's counter shelf."
+- **Confidence and sources:** MEDIUM-HIGH. [Wikipedia (ES) — Carrito (Uruguay)](https://es.wikipedia.org/wiki/Carrito_(Uruguay)) (via search); [El Observador — el carrito del Estadio Centenario](https://www.elobservador.com.uy/nota/que-paso-con-el-historico-carrito-del-estadio-centenario-su-dueno-aclaro-por-que-lo-quitaron-2023816155426). One search this pass.
+
+#### Venue: Traditional café-bar (bar tradicional / boliche)
+- **Use for:** restaurant, indoor; the 1-person café scene, seated or standing at the counter (cafetear "parado"); an afternoon snack; a merienda with cards for 2–4 [CONFIDENCE: MEDIUM — per Scenario: Away from home — 1 person].
+- **Soft background (the core):**
+  - *Back wall:* **dark wood shelving from floor to ceiling** behind the counter (keep it holding cups, jars and tins, never bottles); **blue-and-yellow Portuguese-style majolica tiles** on the lower walls; old framed photographs [CONFIDENCE: MEDIUM — la diaria on Montevideo al Sur: long wood-and-marble counter, geometric floor tiles, majolica baseboards, tall display cabinets, dark wood shelving floor to ceiling; Montevideo Portal on heritage bars].
+  - *Middle distance:* the **long wood-and-marble counter** as a pale stone band on a dark wood base; **tall glass display cases** of pastries and sandwiches; a chrome espresso machine; a waiter in a white shirt.
+  - *Light:* warm, slightly dim interior; daylight from big street windows; globe or period fittings.
+  - *Palette:* dark wood, white-grey marble, blue and yellow tile, terracotta, warm light.
+  - *Signature shapes (3–5):* the marble counter edge; floor-to-ceiling shelving; the tall vitrina; **geometric hydraulic floor tiles**; bentwood chairs.
+  - *Density and wear:* old, patinated, regulars' place; not restored to shine.
+  - *People:* a waiter and one regular at the counter, blurred.
+- **Shell:** an early-20th-century corner building, high ceiling, big windows, hydraulic tile floor.
+- **The table as set here:** a small **marble-top table** with a cast-iron base or a wooden one; a small plate with a sandwich, a chivito al plato or bizcochos (morning use out of scope); a napkin dispenser; the hero on the table. Chair edges: bentwood chairs [CONFIDENCE: MEDIUM — la diaria; scenario].
+- **Subregional variants and the national default:** Montevideo is the default. *Specialty coffee shops:* a bright, contemporary counter, light wood and concrete, as the modern alternative (per scenario, LOW-MEDIUM). *Interior towns:* a plainer boliche, formica tables, a TV high in the corner (screen unreadable) [LOW — not verified].
+- **Hallucination traps:** a Parisian café with a red awning; a Spanish tapas bar; an American coffee chain; a recreation of a specific real historic bar.
+- **Never stage:** bottles on the shelves, wine or beer glasses, the grappa-miel bottle; coffee cups beside the hero unless briefed; legible signs.
+- **Prompt-ready line:** "A traditional Montevideo café-bar: soft background of a long marble counter on a dark wood base, floor-to-ceiling wooden shelves, blue-and-yellow tiles on the lower walls and a geometric tile floor; in focus, a small marble-top table with a sandwich on a white plate beside the hero."
+- **Confidence and sources:** MEDIUM. [la diaria — el histórico bar Montevideo al Sur](https://ladiaria.com.uy/cotidiana/articulo/2020/1/tradicional-de-estreno-el-historico-bar-montevideo-al-sur/); [Montevideo Portal — bares patrimoniales](https://www.montevideo.com.uy/Beat/Bares-patrimoniales-la-importancia-de-la-identidad-gastronomica-de-Montevideo-uc930094). One search this pass.
+
+#### Venue: Hired party hall (salón de fiestas)
+- **Use for:** other; fiesta de 15, weddings and adult birthdays in a salón; children's birthdays in a salón infantil; evening; 1, 2 or a small group as a snapshot of 50–150 (see CELEBRATIONS) [CONFIDENCE: LOW-MEDIUM — vendor listings].
+- **Soft background (the core):**
+  - *Room:* a mid-sized hall, often for about 100 guests, in a converted house or purpose-built room; many have an **outdoor area and their own parrillero**; walls plain or draped [CONFIDENCE: LOW-MEDIUM — TuFiesta listings for Montevideo salones: dance floors with professional sound and light, LED floors, tables and linens, air conditioning, parrilleros, reception and outdoor areas].
+  - *Middle distance:* round tables in cloths with centrepieces; a **dance floor**, sometimes an **LED floor**, with coloured lights; a catering table of bocados and cold-cut boards; the cake on its own table.
+  - *Light:* evening; warm light over tables, coloured LED and moving lights on the dance floor as bokeh.
+  - *Palette:* white or theme-coloured linen, coloured light, a neutral room.
+  - *Signature shapes (3–5):* round tables; the lit dance floor; centrepieces; the cake table; an air-conditioning unit or the door to the outdoor area.
+  - *Density and wear:* moderately decorated, smaller and plainer than Mexican or Argentine salones [EDITORIAL].
+  - *People:* one or two blurred guests or a waiter; the celebrant never in the hero frame.
+- **Shell:** a single hall with a reception area and an exterior space.
+- **The table as set here:** cloth, white plates, full cutlery, cloth napkin; boards of cheese and cold cuts or plated pasta; plain tumblers. Chair edge: a plain or covered banquet chair [CONFIDENCE: LOW-MEDIUM — per celebration entries].
+- **Subregional variants and the national default:** Montevideo is the default. *Chacras and estancias:* a marquee or a ranch building with lawns. *Hotels and restaurants:* smaller private rooms [per wedding entry].
+- **Hallucination traps:** a Mexican quinceañera ballroom; a US hotel ballroom; an open bar; tropical décor.
+- **Never stage:** bottles, wine glasses, flutes, the toast; legible names; identifiable minors.
+- **Prompt-ready line:** "A Montevideo salón de fiestas in the evening: soft background of round tables with white cloths and simple centrepieces and a lit dance floor glowing in coloured LED light; in focus, a white plate with a serving of pasta, full cutlery and a folded napkin."
+- **Confidence and sources:** LOW-MEDIUM. [TuFiesta — salones para cumpleaños de 15 en Montevideo](https://www.tufiesta.com.uy/cumple-15/salones-fiestas/montevideo); [TuFiesta — La Casa de Paseos](https://www.tufiesta.com.uy/la-casa-de-paseos-salones-de-fiestas) (tier 3, vendor directory). One search this pass.
+
+### CELEBRATIONS & LARGE GATHERINGS
+
+(Added 2026-10-01 under `country-file-schema.md` §5.7, the snapshot rule. This pilot file has no festivals register, so the section sits after ENVIRONMENT & STAGING SCENES. Party size is the place settings in frame, never the size of the event. The hero SKU always comes from the brief (§5.4). Alcohol is never staged, nor the drinking part of an event, and mate stays out of the frame unless a brief asks for the ritual (§5.5, §5.6).)
+
+#### How large gatherings work here
+
+- **Who gathers and how big.** Celebrations are family-and-friends events built on the same asado culture as the everyday weekend (see REGION-WIDE NORMS). A home gathering runs from about 8 to 25 people; life-event parties in salones are typically 50–150, and venue and catering offers in Uruguay commonly scale from about 15 to 300 guests, with packages priced for 50. [CONFIDENCE: LOW-MEDIUM — the home range is EDITORIAL; the event range is inferred from vendor listings, not a survey] [SOURCE: [TuFiesta.com.uy — salones y catering](https://www.tufiesta.com.uy/fiestas-y-eventos/catering-gastronomia/montevideo); [ineventos.com — restaurantes para eventos](https://www.ineventos.com/uy/restaurantes)]
+- **A secular calendar.** Uruguay's 1919 law secularising public holidays renamed 25 December the **Día (officially Fiesta) de la Familia**, 6 January the **Día de los Niños** and Holy Week the **Semana de Turismo**. Families still hold a Christmas Eve dinner with a tree; the official framing is family, not religion. [CONFIDENCE: HIGH — LARED21, Cadena 3 and several regional outlets agree] [SOURCE: [LARED21 — Día de la Familia en Uruguay](https://www.lr21.com.uy/placer/1473355-dia-de-la-familia-uruguay-navidad-25-diciembre); [Cadena 3 — por qué Uruguay no celebra la Navidad](https://www.cadena3.com/noticia/mundo/por-que-uruguay-no-celebra-la-navidad-y-que-festeja-el-25-de-diciembre_501937)] Staging consequence [EDITORIAL]: a family-table framing with a tree soft behind fits Uruguay better than religious Christmas imagery.
+- **Where (intake venues).** **Home outdoor** is the default: the quincho, a patio or the building's shared parrillero (see Meal outdoors at home). **Home indoor** for winter Sunday lunches. Life events use a rented **salón de fiestas** or a restaurant or hotel ("other" or "restaurant"). [CONFIDENCE: MEDIUM — consistent with the quincho and parrillero findings above and vendor listings]
+- **Table form, serving and plates.** One long table at home (two tables end to end under one cloth when needed), family-style: the asador carves onto a shared wooden board, chimichurri in small dishes, a bread basket (see REGION-WIDE NORMS). For a Christmas Eve table, dishes are shared out among relatives and friends to prepare, so the table is a spread of many home-made platters rather than one host's menu. [CONFIDENCE: MEDIUM — Bodega Garzón and cocina-uruguaya.com on the shared Christmas table; the rest restates sourced norms above] Salón events use round tables and waiter service, with a catering menu of cold and hot finger food (bocados), cheese and cold-cut boards, pasta or paella, then a cake. [CONFIDENCE: LOW-MEDIUM — vendor listings]
+- **Snapshot-staging default for Uruguay [EDITORIAL].** The most authentic crowd cues: (1) **a wooden asado board larger than the visible diners need**, with bread baskets and chimichurri dishes repeating down the table; (2) **the quincho's parrilla soft behind**, embers glowing; (3) **the long table running out of frame** under the quincho roof. Use two of the three. Keep the muted, temperate Southern-European palette described in ENVIRONMENT & STAGING SCENES; avoid tropical colour and gaucho costume.
+- **Product format.** When the brief allows a multi-serve bottle, the implied gathering justifies the larger festive sizes in the midground of the visible stretch (schema §5.7). Remove every wine glass, beer bottle, cider or sparkling-wine bottle, and the mate kit; at a real Uruguayan gathering all of these are present, so negate them explicitly.
+
+#### Celebration: Weekend family asado (and the winter Sunday pasta or puchero)
+- Type: community or family gathering
+- When: Saturday or Sunday midday, a four-to-five-hour meal with sobremesa; intake time: **midday** (also **golden-hour** for summer evenings). In winter the Sunday table moves indoors to pasta or puchero.
+- Gathering: family and friends, about 8–20; **home outdoor** (quincho, patio, building parrillero) or **home indoor** in winter. [CONFIDENCE: HIGH for the asado as the weekend family ritual — see REGION-WIDE NORMS; headcount EDITORIAL]
+- The spread: tira, vacío and colita de cuadril on a wooden board, with chorizo, morcilla and choripán first (see Dish: Asado; Dish: Chorizo y morcilla / Choripán), chimichurri, a bread basket and salads. Winter alternative: ravioles or tallarines con tuco (see Dish: Pasta) or puchero with its meats and vegetables in separate dishes (see Dish: Puchero). Dessert may be a chajá (see Dish: Chajá). 4–7 shared vessels.
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of asado de tira and a piece of vacío; the wooden board and a chimichurri dish cropped at the edge, a bread basket.
+  - **2 settings**: two identical plates facing each other; the board of carved meat between them, partly cropped, with bread and chimichurri.
+  - **Small group (3–4)**: identical plates along one side; boards, bread baskets and salad bowls repeating down the table and out of frame.
+  - **Crowd cues**: the parrilla soft behind under the quincho roof with meat still on the round-rod grate; extra chairs; a blurred figure at the grill.
+- Decor and cues: eucalyptus beams, brick, a plain or checked cloth; temperate light.
+- Never stage: wine, beer, mate, a gas grill with flames, crosshatch grill marks.
+- Confidence and sources: as in Dish: Asado and REGION-WIDE NORMS (La Gran Uruguaya, Bodega Garzón, INAC); staging EDITORIAL.
+
+#### Celebration: Christmas Eve and New Year's Eve (Nochebuena / Fiesta de la Familia, Fin de Año)
+- Type: calendar holiday
+- When: 24 and 31 December, dinner from about 21:30 to midnight, sweets after midnight; midsummer. Intake time: **evening**.
+- Gathering: extended family and friends, about 10–25, each bringing a dish; **home outdoor** (patio, quincho, garden) or **home indoor** with windows open. [CONFIDENCE: MEDIUM — the shared-preparation custom per Bodega Garzón; headcount EDITORIAL]
+- The spread: the **asado** is often the main dish of Christmas Eve dinner; alongside it, **lechón** (roast suckling pig, crisp-skinned), **lengua a la vinagreta** (tongue in vinaigrette), **vitel toné**, **matambre**, **ensalada rusa**, **huevos rellenos** (stuffed eggs), empanadas and fruit salad; then pan dulce. [CONFIDENCE: MEDIUM-HIGH — Bodega Garzón and cocina-uruguaya.com agree on the core dishes; Billiken corroborates regionally] [SOURCE: [Bodega Garzón — platos típicos de Navidad](https://bodegagarzon.com/es/blog/platos-tipicos-navidad/); [cocina-uruguaya.com — la gastronomía uruguaya en Navidad](https://www.cocina-uruguaya.com/articulos/la-gastronomia-uruguaya-en-navidad)] None of these festive dishes has a dish entry in this file. Brief visuals: **lechón** — a whole or half suckling pig with glassy, blistered amber-brown skin on a large tray about four to five cans long, partly carved; **vitel toné** — thin cold beef slices fully covered in a smooth pale-beige tuna-caper sauce on an oval platter (see `argentina.md`, Christmas table, for a full entry on the shared dish); **lengua a la vinagreta** — thin pale-grey slices under a chopped onion, red pepper and parsley vinaigrette; **ensalada rusa** — a pale bowl of diced potato, carrot and peas in mayonnaise. All added to CANDIDATE QUEUE. [CONFIDENCE: visuals MEDIUM — inferred from the dish descriptions, not a dedicated visual source]
+- Snapshot staging:
+  - **1 setting**: a plate with a slice of lechón or asado, a spoon of ensalada rusa and a stuffed egg; the lechón tray and the vitel toné platter cropped.
+  - **2 settings**: two identical plates; between them the vitel toné platter and a bowl of ensalada rusa, the lechón tray half out of frame.
+  - **Small group**: identical plates on a white or red cloth; platters repeating down the table.
+  - **Crowd cues**: string lights in a tree or along the quincho; a second table with pan dulce and fruit salad soft behind; the table running out of frame.
+- Decor and cues: a tree soft in the background, candles in jars, summer night. No snow or winter décor.
+- Never stage: cider, sparkling wine, clericó (wine fruit punch), the midnight toast, fireworks with bottles; nativity scenes.
+- Confidence and sources: see above; Día de la Familia per LARED21 and Cadena 3.
+
+#### Celebration: Children's birthday party (cumpleaños infantil)
+- Type: life event
+- When: weekend afternoon, about 16:00–19:00 (merienda time); intake time: **golden-hour**, or indoor daylight.
+- Gathering: classmates and family, about 20–50; **home** (indoor or outdoor) or a rented salón infantil ("other"). [CONFIDENCE: LOW — headcount not verified]
+- The spread: **sándwiches olímpicos** (triple-layer miga sandwiches with ham, cheese, egg, tomato, lettuce, red pepper and mayonnaise), sándwiches de miga, **pizzetas** or rectangular pizza (see Dish: Pizza a la piedra), small empanadas, snacks in bowls, and a **chajá** as the birthday cake (see Dish: Chajá). [CONFIDENCE: LOW-MEDIUM — Bonviveur (Spanish food media) on olímpicos and chajá at birthdays; Directo al Paladar on chajá at birthdays and family gatherings; not a Uruguay-specific party source] [SOURCE: [Bonviveur — recetas típicas de Uruguay](https://bonviveur.com/es/recetas/lista/cocina-uruguaya/); [Directo al Paladar — tarta chajá](https://www.directoalpaladar.com/postres/tarta-chaja-uruguaya-postre-esponjoso-rio-plata)]
+  - **Sándwich olímpico** (no dish entry): crustless white sandwich bread in three layers, cut into squares or triangles, the cut face showing stripes of pink ham, yellow cheese, egg and green lettuce; each piece about the can's width. Added to CANDIDATE QUEUE.
+- Snapshot staging:
+  - **1 setting**: a small plate with two olímpico triangles and a pizzeta; a tray of olímpicos cropped.
+  - **2 settings**: two identical small plates; a tray of sandwiches between them; the chajá soft on a separate table.
+  - **Small group**: identical plates on a paper tablecloth; trays repeating out of frame.
+  - **Crowd cues**: balloons and a themed garland (unreadable); a stack of paper cups; the cake table soft behind.
+- Decor and cues: balloons, paper tablecloths; generic, unrecognisable characters only.
+- Never stage: readable names or licensed characters; children as the hero subject near the product (keep children soft, background only [EDITORIAL — confirm against TCCC marketing-to-children policy]).
+- Confidence and sources: see above.
+
+#### Celebration: Fiesta de 15 (cumpleaños de 15)
+- Type: life event
+- When: Friday or Saturday night, dinner about 22:00, dancing until late; intake time: **evening**.
+- Gathering: family and the girl's friends; salones listed for fiestas de 15 range from about 60 guests upward (one Montevideo salón is listed with a 60-guest capacity); rented salón ("other"), round tables. [CONFIDENCE: LOW-MEDIUM — vendor listings only] [SOURCE: [TuFiesta.com.uy — salones para cumpleaños de 15 en Montevideo](https://www.tufiesta.com.uy/cumple-15/salones-fiestas/montevideo)]
+- The spread: a catering sequence of cold and hot bocados and cheese and cold-cut boards (tablas de quesos y fiambres), a main of pasta or paella, the cake and a late-night snack. [CONFIDENCE: LOW-MEDIUM — vendor listings; the Argentine fiesta de 15 sequence in `argentina.md` is likely close but not verified for Uruguay]
+- Snapshot staging:
+  - **1 setting**: one plated main at a round table on white linen, full cutlery; the centrepiece base cropped.
+  - **2 settings**: two identical plates on the curve of the table; a bread basket shared.
+  - **Small group**: identical plates around one arc; or a stretch of a tabla de quesos y fiambres running out of frame with three or four small plates.
+  - **Crowd cues**: dance-floor lights as bokeh; more round tables soft behind.
+- Decor and cues: theme colours, centrepieces; the girl out of the hero frame or soft and faceless.
+- Never stage: the drinks bar, the toast, the waltz as the scene.
+- Confidence and sources: see above.
+
+#### Celebration: Wedding party (casamiento)
+- Type: life event
+- When: Friday or Saturday night, or a daytime celebration at a chacra or estancia; intake time: **evening** or **golden-hour**.
+- Gathering: venues advertise capacities from about 15 to 300; salón, chacra, estancia, hotel or restaurant ("other" or "restaurant"). [CONFIDENCE: LOW-MEDIUM — vendor listings; no survey average found]
+- The spread: a recepción of bocados and cheese and cold-cut boards, then a main (an asado or parrilla station is a natural fit at a chacra; pasta or a plated main in a salón), dessert and cake. [CONFIDENCE: LOW-MEDIUM — vendor listings; asado at chacra weddings EDITORIAL]
+- Snapshot staging:
+  - **1 setting**: one plated main on a charger with full cutlery; the table edge and a candle cropped.
+  - **2 settings**: two identical plates side by side on a long table under a canopy.
+  - **Small group**: identical plates along one stretch of a long table that runs out of frame both ways.
+  - **Crowd cues**: string lights; a parrilla station soft behind; blurred guests at the far end.
+- Decor and cues: white linen, greenery, candles; countryside light at a chacra.
+- Never stage: stemmed glasses at the setting, wine, the toast, the ceremony.
+- Confidence and sources: see above.
+
+### GAME NIGHT
+
+(Added 2026-10-01 under `country-file-schema.md` §5.8, from the
+cross-market game-night research notes; no new searches for this file.
+Headings step down one level to match CELEBRATIONS & LARGE GATHERINGS.
+Party size is the place settings in frame (§5.7). The hero SKU comes
+from the brief (§5.4). Screens, cards and boards are never legible; no
+crests, kits, sponsor or league marks; no gambling as the subject; no
+identifiable children; never a full flag. Alcohol is never staged, and
+**mate stays out of frame** unless a brief asks for the ritual (§5.6):
+the research notes suggest "a mate gourd on the side" at a Celeste
+asado, which is authentic but conflicts with this rule, so it is
+dropped here.)
+
+#### Watch parties
+
+Football's primacy in Uruguay is uncontested — the Celeste (national
+team) and the Peñarol–Nacional clásico above all — but no Uruguay-specific
+viewing data was found in the research pass, so everything below is
+[LOW — not verified] apart from the facts it borrows from this file's own
+sourced entries. Viewing is assumed to be home-centred, around the asado
+or a pizzería order, with choripán off the carrito outside the stadium as
+the public form.
+
+##### Watch party: Celeste match at home with an asado
+- When: Celeste matches in World Cup and Copa América summers and in
+  qualifier windows; a weekend afternoon match is a **golden-hour**
+  scene, a night match **evening**. [LOW — not verified; no kick-off data
+  checked]
+- Gathering: family or friends, about 6–15; **home outdoor** (quincho,
+  patio, the building's parrillero) with the TV under the quincho roof
+  or visible through a window. [LOW — not verified]
+- The spread: the asado: tira, vacío, chorizo and morcilla, chimichurri,
+  a bread basket and salads (see Dish: Asado; Dish: Chorizo y morcilla /
+  Choripán; and Celebration: Weekend family asado for the full table).
+- Surface and environment: the long quincho table; the parrilla with its
+  round-rod grate and brasero soft behind; a TV as a soft glow,
+  unreadable; a sky-blue scarf with no crest over a chair, soft. Muted,
+  temperate Southern-European palette (see ENVIRONMENT & STAGING
+  SCENES).
+- Snapshot staging:
+  - **1 setting**: one plate with a strip of tira and a choripán, the
+    wooden board and chimichurri dish cropped; the TV glow soft behind.
+  - **2 settings**: two identical plates facing each other; the board of
+    carved meat between them.
+  - **Small group (3–4)**: identical plates along one side, angled toward
+    the screen; boards and bread baskets repeating out of frame.
+  - **Crowd cues**: the parrilla with meat still on it; extra chairs; a
+    blurred figure at the grill.
+- Never stage: mate kit, wine, beer; AUF crest or the national shirt with
+  marks; a full flag; betting; crosshatch grill marks or a gas grill.
+- Confidence and sources: scene LOW (research notes, model knowledge);
+  asado detail per Dish: Asado (La Gran Uruguaya, Bodega Garzón, INAC);
+  staging EDITORIAL.
+
+##### Watch party: clásico night at home (pizza and fainá, chivitos)
+- When: the Peñarol–Nacional clásico and big league nights; intake time
+  **evening**. [LOW — not verified]
+- Gathering: 3–6 friends or family in the living room; **home indoor**.
+  [LOW — not verified]
+- The spread: rectangular pizza a la piedra with fainá from the pizzería
+  (see Dish: Pizza a la piedra (with faina)), chivitos al plato or in
+  the bread, cut in halves (see Dish: Chivito). Delivery boxes or a
+  wooden board. [LOW — not verified]
+- Surface and environment: a coffee table or the dining table, a lamp,
+  the TV as a soft glow, dark windows; a modest flat (see ENVIRONMENT &
+  STAGING SCENES for the apartment register).
+- Snapshot staging:
+  - **1 setting**: one plate with a rectangle of pizza and a slice of
+    fainá on top, the hero, the pizza board cropped.
+  - **2 settings**: two identical plates side by side facing the screen,
+    the board between them.
+  - **Small group**: identical plates along the coffee table; a second
+    board and a halved chivito at the edge.
+  - **Crowd cues**: more pizza than the visible diners need; extra
+    chairs; blurred backs of heads.
+- Never stage: club crests or the yellow-and-black or white shirts with
+  marks; beer; mate; legible pizzería boxes.
+- Confidence and sources: LOW (research notes); dish visuals per the
+  catalog entries; staging EDITORIAL.
+
+##### Watch party: choripán outside the stadium
+- When: before matches, weekend afternoons and evenings; **golden-hour**
+  or **evening**. [LOW — not verified]
+- Gathering: 1–3 people at a carrito; **other: street / stadium
+  surroundings**. The carrito tradition began near Estadio Centenario
+  (see Scenario: Meal on the go — 1 person).
+- The spread: choripán and panchos off the carrito grill (see Dish:
+  Chorizo y morcilla / Choripán); chivito al pan as an alternative (see
+  Dish: Chivito).
+- Surface and environment: the carrito's counter or a ledge; the
+  stadium a soft mass behind; floodlights at dusk.
+- Snapshot staging:
+  - **1 setting**: one choripán on paper on the counter beside the hero.
+  - **2 settings**: two side by side on the counter.
+  - **Small group**: three on the counter; blurred figures queueing.
+  - **Crowd cues**: a blurred crowd toward the stadium, floodlight glow.
+- Never stage: crests, banners with words, flares, police lines, beer.
+- Confidence and sources: the carrito's origin near Estadio Centenario
+  per Scenario: Meal on the go — 1 person (Wikipedia: Carrito (Uruguay));
+  match-day scene LOW.
+
+#### Social game nights
+
+Popularity as an occasion to gather and eat around: **high** — truco
+(Uruguayan rules) is "one of the most popular card games", played at
+home and at the asado, with championships at neighbourhood clubs and
+bars that post sign-ups [MEDIUM — pagat, Wikipedia ES].
+
+##### Game night: truco after the asado
+- When: the sobremesa of the weekend asado; intake time **midday** into
+  **golden-hour**. [MEDIUM for truco at the asado — pagat, Wikipedia ES]
+- Gathering: four players in pairs (2v2), sometimes six, with
+  onlookers; **home outdoor** (quincho, patio). [MEDIUM for the pairs
+  format — pagat]
+- The spread: what is left of the asado: chorizo and a board with a
+  piece of morcilla, bread, salads (see Dish: Asado; Dish: Chorizo y
+  morcilla / Choripán). [LOW — no source tied a menu to truco]
+- Surface and environment: the wooden quincho table, plates pushed
+  aside; a Spanish-suit deck (generic, unreadable art) face down or
+  soft; eucalyptus beams, brick, temperate afternoon light.
+- Snapshot staging:
+  - **1 setting**: one plate with leftover asado and bread at the table
+    edge, the hero, a few cards face down.
+  - **2 settings**: two plates at opposite sides, cards between, the
+    board in the middle.
+  - **Small group**: four places around the table, cards out of focus.
+  - **Crowd cues**: an onlooker's chair pulled up, blurred; the parrilla
+    cooling behind.
+- Never stage: mate (the real sobremesa drink — Region-wide norms),
+  wine, beer; money or stakes; branded decks.
+- Confidence and sources: [pagat — Uruguayan Truco](https://www.pagat.com/put/truco_ur.html);
+  [Wikipedia ES — Truco uruguayo](https://recursos.mec.edu.py/kiwix/wikipedia_es_all_maxi/A/Truco_uruguayo);
+  menu LOW; staging EDITORIAL.
+
+##### Game night: club truco championship night (and merienda truco)
+- When: club or bar championship evenings (**evening**); at home at
+  merienda (**golden-hour**). [MEDIUM that bars and clubs run
+  championships — pagat, Wikipedia ES; LOW for the merienda slot]
+- Gathering: tables of four at a neighbourhood club (**other**) or a
+  modest bar (**restaurant**); family at home for merienda.
+- The spread: club night: chivitos and pizza by the rectangle with
+  fainá (see Dish: Chivito; Dish: Pizza a la piedra (with faina)).
+  Merienda: bizcochos and pastries on a plate, or torta frita on a rainy
+  day (see Dish: Torta frita); no catalog entry for bizcochos (see
+  CANDIDATE QUEUE). [LOW — not verified]
+- Surface and environment: club: plain tables in a hall with fluorescent
+  or warm light, other tables of players soft behind. Home: the kitchen
+  table with an oilcloth.
+- Snapshot staging:
+  - **1 setting**: one plate with a halved chivito or a pizza rectangle,
+    the hero, cards face down beside it.
+  - **2 settings**: two plates at a club table, cards between.
+  - **Small group**: four places at a square table; more tables of
+    players behind.
+  - **Crowd cues**: rows of tables running out of frame; blurred players.
+- Never stage: the drinking side of the bar (pitchers, beer, grappamiel);
+  prize money, sign-up sheets or scoreboards with legible names; mate
+  at the merienda table.
+- Confidence and sources: as above (pagat, Wikipedia ES); the bar
+  format is staged as a food-led, alcohol-free club table [EDITORIAL].
+
+### DISH CATALOG
+
+(Heading added 2026-10-01 so the dish entries below are not read as part of CELEBRATIONS & LARGE GATHERINGS; the entries themselves are unchanged.)
+
+#### Dish: Asado
+- Category: Special-occasion / weekly ritual (weekend family gathering; also sold at parrilla restaurants as an everyday menu item)
+- Primary protein: Beef — specifically named cuts: asado de tira (short ribs), vacío (flank), colita de cuadril (rump cap/tri-tip), pulpón; chorizo and morcilla (blood sausage) as accompaniments; chotos (grilled calf/cow small intestine) and pamplonas (rolled stuffed meat) as additional items
+- Primary starch/accompaniment: Crusty bread; salads are secondary
+- Side dishes/condiments: Chimichurri sauce; grilled vegetables
+- Serving vessel: Shared wooden board ("tabla de madera") or platter off the parrilla; individual plates for eating
+- Venue variation: Home weekend asado is a multi-hour, multi-course social event; parrilla restaurants (e.g., Mercado del Puerto in Montevideo) serve it as a standing menu item, often faster-paced
+- Utensils/eating customs: Knife and fork; asador (grill tender) manages cooking and carving, distinct social role from those eating
+- Visual/plating characteristics: Golden-brown, ember-seared exterior (not blackened); pink, not gray, cross-section at the typical "a punto" doneness; mottled/uneven char from round-rod grates rather than crisp parallel grill-stripe marks; served whole/in large sections on a shared wooden board, not individually plated; chimichurri visibly rough-chopped and herb-flecked in its own small dish, not a smooth sauce. See VISUAL & PLATING NORMS above for sourcing.
+- Common confusion: Frequently conflated with Argentine asado and Brazilian churrasco. Documented distinctions: Uruguayan grills commonly use round rods vs. Argentina's V-grooved grates; Uruguayan asado favors the tira (strip) cut vs. Argentina's bife de chorizo preference; Uruguayan asado more commonly includes offal/organ meats (choto) than Brazilian churrasco, which is skewer-based (churrasqueira) rather than horizontal-grate cooking and is seasoned differently (garlic/lime/cilantro/cumin marinades vs. Uruguay's salt-only minimalism).
+- Confidence: HIGH for core practice and cuts; MEDIUM for the specific Uruguay-vs-Argentina grill-shape/cut-preference claims (fewer, less rigorous sources)
+- Sources: [La Gran Uruguaya](https://www.lagranuruguaya.com/blog/art-of-uruguayan-asado); [Bodega Garzón](https://bodegagarzon.com/en/blog/uruguay-asado/); [Scoolinary — Diferencias asado argentino y uruguayo](https://blog.scoolinary.com/conoces-las-diferencias-entre-el-asado-argentino-y-el-uruguayo); [The Argentine Asado — Asado vs Churrasco vs BBQ](https://theargentineasado.com/blog/asado-vs-churrasco-vs-bbq/)
+- Composition & proportions (§4.7) — a shared board for 4 and one diner's plate. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **beef** — ~65–75% of the board; chorizo and morcilla ~15–20%; offal (chotos, if present) ~5–10%. Bread sits in its own basket, chimichurri in its own small dish; salads are secondary and off the board. [EDITORIAL]
+  - Component table:
+
+    | Component | Real size | Count (board for 4 / one plate) | Look | Where it sits |
+    |---|---|---|---|---|
+    | Asado de tira | Cross-cut rib strips ~4–6 cm wide, ~15–25 cm long, showing 3–4 small bone cross-sections ~1–2 cm each [EDITORIAL] | 3–5 strips / 1 strip | Golden-brown seared fat, pink meat between the bones | Laid side by side across the board |
+    | Vacío or colita de cuadril | A piece ~20–25 cm, sliced across into ~1.5–2 cm slices [EDITORIAL] | 1 piece / 1–2 slices | Golden crust, pink a punto interior | Partly sliced, slices fanned at one end |
+    | Chorizo | ~12–15 cm long, ~3 cm wide — about the can's height, half its width [EDITORIAL] | 3–4 / ½–1 | Charred, split, blistered casing | Along one edge of the board |
+    | Morcilla | Similar length, a little thicker; cut in ~5 cm pieces [EDITORIAL] | 2 / 1 piece | Near-black casing | Beside the chorizos |
+    | Chimichurri | Small dish ~8–10 cm [EDITORIAL] | 1 | Rough-chopped green herbs in oil | Next to the board, not poured over |
+    | Bread | Flauta pieces in a basket | 1 basket | Crusty, pale crumb | On the table, not on the board |
+
+  - Arrangement: cuts laid whole or in large sections, loosely grouped by type, some touching; wood of the board visible at the edges (~15–20%). [EDITORIAL]
+  - Vessel fill: a wooden board ~40–50 × 25–30 cm about 80% covered; the meat lies flat, one layer, not heaped. [EDITORIAL]
+  - Served portion vs. whole dish: each diner takes onto their own plate one tira strip, one or two slices of vacío and half a chorizo, with bread from the basket and a spoonful of chimichurri — mostly meat, no starch mound. [EDITORIAL]
+  - State cues: faint smoke or heat shimmer, meat juices glistening on the board, fat edges golden not blackened (entry). [EDITORIAL]
+  - Absent on purpose: skewers (churrasco), crosshatch grill stripes, BBQ sauce, corn on the cob, a steakhouse plated steak with garnish, wine bottles or glasses.
+  - Prompt-ready line: "A large wooden board covered in a single flat layer of grilled beef: several cross-cut short-rib strips each about twice the can's height, with golden-seared fat and small bone rounds, a thick flank piece sliced to show a pink centre, and a few split, charred sausages about the can's height with near-black blood sausage beside them. A small dish of rough-chopped green chimichurri and a bread basket sit next to the board. No skewers, no grill stripes, no sauce."
+
+#### Dish: Chivito
+- Category: Everyday (also treated as the national dish/emblem)
+- Primary protein: Thin, tenderized grilled beef steak (churrasco cut), plus ham
+- Primary starch/accompaniment: Pan catalán — a soft-crumb, faintly sweet white bread roll, buttered and toasted; not a hamburger bun, brioche, or plain white sandwich bread
+- Side dishes/condiments: Melted mozzarella, tomato, lettuce, mayonnaise; the "chivito canadiense" variant adds bacon, fried egg, peppers, onions, olives and is typically served with a side of french fries and Russian salad (ensalada rusa)
+- Serving vessel: Plate, often with fries served alongside on the same plate
+- Venue variation: Ubiquitous at casual restaurants and bars nationwide; home versions and countless personal variations exist ("as many variations as there are people who make it")
+- Utensils/eating customs: The sandwich itself is hand-held (chivito al pan is documented as eaten by hand, no cutlery), though the "canadiense" loaded version is often eaten with knife and fork due to height/toppings. **This describes the sandwich only, not the full plate**: a fork is still practically necessary at the table when the meal includes ensalada rusa (a mayo-bound potato/carrot/pea salad, documented as a common accompaniment) — that side cannot reasonably be eaten by hand regardless of how the sandwich itself is eaten. A table/place setting for chivito al pan should include a fork for the side even when the sandwich is depicted being picked up or already hand-eaten. [CONFIDENCE: HIGH for the logic — eating a mayo-based salad by hand is not a real practice anywhere this file has evidence for; MEDIUM for treating this as a generalizable rule beyond this specific side, since it wasn't independently sourced as a stated norm, only reasoned from the documented components]
+- Visual/plating characteristics: Defining trait is height/stacking — a tall, multi-layer cross-section (steak, ham, melted cheese, egg if canadiense, vegetables) that is genuinely difficult to bite into, not a flat, thin sandwich; melted cheese should appear soft/draped rather than gratinated-crisp. See VISUAL & PLATING NORMS above.
+- Common confusion: Sources give conflicting founding details — most attribute it to Antonio Carbonaro at "El Mejillón" in Punta del Este, but disagree on the year (1944 vs. 1946) and on the origin story (an Argentine tourist asking for goat meat, vs. a woman from northern Argentina ordering for a child). Not confirmed by available sources which exact story/date is correct — flag for review. It is also commonly confused with **choripán** by non-Uruguayans; the key distinction is chivito = steak sandwich with many toppings, choripán = simple grilled-chorizo-and-chimichurri sandwich (an Argentine invention also eaten in Uruguay).
+- Confidence: HIGH that chivito is Uruguay's signature sandwich/national dish and for its typical composition; LOW on the exact founding date/story
+- Sources: [Guru'Guay — history of the chivito](https://www.guruguay.com/uruguay-chivito/); [The Culture Trip](https://theculturetrip.com/south-america/uruguay/articles/a-brief-history-of-uruguays-chivito); [Wikipedia: Chivito (sandwich)](https://en.wikipedia.org/wiki/Chivito_(sandwich)); [Where Is My Spoon — Choripán](https://whereismyspoon.co/choripan-chorizo-and-chimichurri-sandwich-uruguayan-food/); [The Kitchn — stacking/height](https://www.thekitchn.com/uruguays-amazing-national-dish-127270); pan catalán identification from [Wikipedia: List of Uruguayan breads](https://en.wikipedia.org/wiki/List_of_Uruguayan_breads)
+- Composition & proportions (§4.7) — one chivito al pan plate with fries and ensalada rusa. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **the tall sandwich and the fries** — sandwich ~40% of the plate, fries ~40%, ensalada rusa ~15%; in the sandwich's cross-section the filling stack is ~60–70% of the height, the bread ~30–40%. [EDITORIAL]
+  - Components: round pan catalán roll ~12–14 cm across (about twice the can's width); stack ~9–12 cm tall (close to the can's height) with a thin steak ~0.5–1 cm, 1–2 ham slices, melted mozzarella draped, 1–2 tomato slices, lettuce leaves, mayonnaise; a fried egg if canadiense; fries ~0.8–1 cm thick, a heap of ~25–40; ensalada rusa one scoop ~8 cm. [EDITORIAL]
+  - Arrangement: sandwich whole or cut in half with the cut face turned out, fries heaped beside it, salad scoop at the plate edge; fork at the setting (see Utensils). [EDITORIAL]
+  - Vessel fill: the plate (~28–30 cm) nearly full; fries touching the rim. [EDITORIAL]
+  - State cues: cheese soft and draping over the steak edge, egg yolk glossy, fries golden and dry. [EDITORIAL]
+  - Absent on purpose: a hamburger bun or brioche, a burger patty, chimichurri (not a chivito condiment — see GAP LOG), toothpick flag, onion rings, a flat thin sandwich.
+  - Prompt-ready line: "A tall steak sandwich in a soft round white roll about twice the can's width, stacked nearly as high as the can, cut in half to show layers of thin grilled beef, pink ham, soft draped melted cheese, a fried egg, tomato and lettuce, on a white plate beside a heap of golden fries and a scoop of pale potato-and-pea mayonnaise salad. No burger patty, no brioche, no chimichurri."
+
+#### Dish: Milanesa (al pan / a la napolitana)
+- Category: Everyday
+- Primary protein: Thin breaded, pan-fried beef cutlet (schnitzel-style)
+- Primary starch/accompaniment: As "milanesa al pan"/"refuerzo de milanesa" — pan flauta (Uruguayan baguette-style bread) or pan felipe (a bolillo-style roll), cut as a short baton, not a soft burger bun; as "napolitana" — served plated, no bread
+- Side dishes/condiments: Napolitana version is topped with tomato sauce, ham, and gratinated mozzarella and oven-finished, pizza-style; sandwich version adds sliced tomato, lettuce, and sometimes onion, ham, cheese, or egg
+- Serving vessel: Sandwich version wrapped/handheld; napolitana version on a plate, typically with a side (fries or salad)
+- Venue variation: Home-cooked staple and casual-restaurant menu item in both forms; a 2018 Uruguayan consumer survey found the sandwich form preferred by 43% vs. 31% for napolitana
+- Utensils/eating customs: Sandwich eaten by hand; napolitana eaten with knife and fork
+- Visual/plating characteristics: Napolitana shows a layered "pizza-on-a-cutlet" top surface — golden-brown crispy breaded edges visible around a distinctly separate layer of red tomato sauce, pink ham, and gratinated (browned/bubbled at the edges, not uniformly smooth-melted) mozzarella. Sandwich version shows the breaded cutlet's crisp texture at the exposed edge of the bread. See VISUAL & PLATING NORMS above.
+- Common confusion: Milanesa napolitana is widely misattributed to Naples/Italy, but sources trace it to a Buenos Aires restaurant named "Nápoli" in the 20th century — it is a Río de la Plata (Argentina/Uruguay-shared) creation, not an Italian import, and Uruguayans and Argentines both claim/serve it, which is the specific confusion point to watch for. **Structural limitation, not a research gap (2026-09-24 audit): this dish is genuinely shared Río de la Plata heritage — eaten, cooked, and claimed by both Uruguay and Argentina — not exclusively Uruguayan to begin with.** No amount of further research should be expected to produce a "provably Uruguayan, not Argentine" visual distinction, because that distinction likely doesn't exist as a real, consistent difference between the two countries' versions. This entry should be used to confirm "authentically Río de la Plata milanesa napolitana, not a generic breaded cutlet or an Italian import" — not to arbitrate a Uruguay-vs-Argentina attribution, which this dish doesn't support either way.
+- Confidence: HIGH for the two serving forms and their relative popularity; MEDIUM for the Napolitana origin story
+- Sources: [Canal26 — vecinas pero diferentes](https://www.canal26.com/recetas/2026/05/09/vecinas-pero-diferentes-el-detalle-culinario-que-separa-a-la-milanesa-uruguaya-de-la-argentina/); [Jamón y Eso](https://jamonyeso.uy/milanesa-napolitana-la-preferida-de-los-uruguayos/); [Wikipedia (ES): Milanesa napolitana](https://es.wikipedia.org/wiki/Milanesa_napolitana); [Paulina Cocina — visual](https://www.paulinacocina.net/milanesa-napolitana-receta-y-apreciaciones-personales/5917); bread identification from [Wikipedia: List of Uruguayan breads](https://en.wikipedia.org/wiki/List_of_Uruguayan_breads)
+- Composition & proportions (§4.7) — napolitana plate; sandwich form noted. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates (napolitana): **the topped cutlet** — ~55–60% of the plate; fries or salad ~40%. On the cutlet, the topping covers ~80–85% of the surface, leaving a ~1–2 cm golden breaded rim. [EDITORIAL]
+  - Components: one cutlet ~20–25 cm long, ~0.8–1.2 cm thick with crumb (roughly twice the can's height, about a finger thick); topping of tomato sauce, 1–2 ham slices, mozzarella gratinated in browned patches; fries heap ~30–40 pieces. [EDITORIAL]
+  - Sandwich form (al pan): a flauta baton ~20–25 cm with the cutlet protruding 1–3 cm at the sides; tomato and lettuce thin inside; cutlet ~50% of the cross-section height. [EDITORIAL]
+  - Vessel fill: the cutlet reaches or overhangs the rim of a 26–28 cm plate. [EDITORIAL]
+  - State cues: cheese bubbled and browned at edges, sauce glossy, crumb crisp and dry at the rim. [EDITORIAL]
+  - Absent on purpose: pasta or spaghetti on the side (Italian-American chicken parm), basil leaves, heavy sauce pooling on the plate, a soft burger bun.
+  - Prompt-ready line: "One wide, thin breaded beef cutlet about twice the can's height, its golden crisp crumb edge showing all round, topped with red tomato sauce, pink ham and melted mozzarella browned and bubbled in patches, covering most of a white dinner plate, with a heap of golden fries beside it. No pasta, no basil, no sauce pooling."
+
+#### Dish: Pastel de carne (Uruguayan meat pie)
+- Category: Everyday (home cooking, rotisería/rotisserie takeaway staple)
+- Primary protein: Ground beef (carne picada)
+- Primary starch/accompaniment: Mashed potato (puré) top and bottom layers — the distinctly Uruguayan version is described as having no dough/pastry crust, just a puree casing
+- Side dishes/condiments: Olives and raisins mixed into the meat filling (cited as the specific feature that distinguishes the classic Uruguayan version from other countries' meat pies), grated cheese, breadcrumbs and butter on top before baking
+- Serving vessel: Baking dish (fuente), served from the dish or plated in squares
+- Venue variation: Very common at rotiserías (takeaway/prepared-food shops) sold by the portion, as well as home-cooked
+- Utensils/eating customs: Knife and fork
+- Visual/plating characteristics: No visible pastry crust or lattice (a common confusion point vs. other countries' "meat pie" imagery, e.g. British/Australian meat pies, which do have a pastry shell) — the entire exterior is a smooth mashed-potato surface, browned and lightly crisped on top from baking/broiling, with breadcrumbs and melted cheese creating a mottled golden-brown top layer; cutting into it reveals the potato layers sandwiching a visibly chunky, dark-brown ground-beef filling studded with olives and raisins. Not confirmed by a dedicated visual-focused source — inferred from recipe/preparation descriptions; flag for review.
+- Common confusion: Not confirmed by available sources — no specific documented confusion with an Argentine or Brazilian equivalent was found in this research pass; flag for review with SME.
+- Confidence: MEDIUM (multiple recipe/food-culture sources agree on composition, but no long-form journalistic or academic source was found)
+- Sources: [Caras y Caretas](https://www.carasycaretas.com.uy/un-clasico-pastel-carne-picada-n63203); [cocina-uruguaya.com](https://www.cocina-uruguaya.com/recetas/plato-principal/pastel-de-carne-al-graten)
+- Composition & proportions (§4.7) — the baking dish and one square portion. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **puré** — top view ~100% browned potato with cheese and crumbs; in the cut face, potato layers ~55–60% of the height, the dark meat layer ~40–45%, olives and raisins sparse accents. [EDITORIAL]
+  - Components: square portion ~8–10 cm (a bit wider than the can) and ~5–7 cm tall (about half the can's height); bottom puré ~1.5–2 cm, meat ~2–3 cm, top puré ~1.5–2 cm; olive pieces ~1–2 cm, 1–3 visible; raisins ~1 cm, 3–6 visible. [EDITORIAL]
+  - Vessel fill: a rectangular fuente ~30 × 20 cm filled to near the rim; one or two squares cut out to show the layers. [EDITORIAL]
+  - Served portion: one square on a plate, often with a simple lettuce-and-tomato salad beside it (~30% of the plate). [EDITORIAL]
+  - State cues: mottled golden crust with melted cheese spots; the cut edge soft, steaming. [EDITORIAL]
+  - Absent on purpose: pastry crust or lattice, a pie tin, gravy, piped rosettes, peas and carrots in the filling (shepherd's pie cue).
+  - Prompt-ready line: "A square portion about half the can's height, cut from a baking dish: a smooth mashed-potato layer on the bottom, a chunky dark-brown ground-beef filling in the middle with a few green olive pieces and small dark raisins, and more mashed potato on top, its surface browned and mottled with melted cheese and breadcrumbs. On a plain plate. No pastry, no gravy."
+
+#### Beverage ritual: Mate (not a dish)
+- Classification (Fernando, 2026-10-01): mate is a **shared beverage/ritual, not a dish** (schema §5.6). It is documented here for authenticity, but it is another drink, so it is not part of the default frame beside the hero; stage the ritual only when a brief asks for it. Kept in this position so existing cross-references still resolve.
+- Category: Everyday, region-wide, multiple-times-daily
+- Primary protein: N/A (beverage)
+- Primary starch/accompaniment: N/A — but conventionally paired with torta frita on rainy days, or bizcochos
+- Side dishes/condiments: Yerba mate (the herb itself, from Ilex paraguariensis); hot (not boiling) water
+- Serving vessel: The **mate** (gourd — also called *cuia*, *porongo*, or *guampa* depending on material/region), traditionally a dried calabash but also made of wood, metal, or horn; a metal **bombilla** (filter straw, historically silver, now often stainless steel); a **termo** (thermos) carried alongside
+- Venue variation: Consumed at home, in public spaces (parks, beaches, streets), and in workplaces alike — carried around all day rather than confined to a table setting
+- Utensils/eating customs: Strictly one shared bombilla and gourd passed around a circle; a single **cebador** prepares and pours for everyone, drinking the bitter first round themselves; recipients do not stir or wipe the bombilla; saying "gracias" signals you're finished, not a thank-you for that round
+- Visual/plating characteristics: Loose, coarsely-ground yellow-green yerba fills the gourd nearly to the rim (not a submerged tea bag or fully dissolved powder); the metal bombilla's spoon-shaped filter end sits visibly angled against the packed yerba; the termo is typically carried tucked under one arm rather than left stationary on a table. The gourd itself should read as a genuine calabash, wood, or metal vessel — not a mug, cup, or generic teacup. See VISUAL & PLATING NORMS above.
+- Common confusion: Mate is often assumed to be primarily an Argentine custom by outsiders; per-capita consumption sources indicate Uruguay drinks more yerba mate per capita than any other country, including Argentina — an important correction if the reference is used to avoid mislabeling mate as "just Argentine."
+- Confidence: HIGH — well corroborated across multiple sources including the etiquette specifics
+- Sources: [Adrian Wilson/Shared Soup](https://sharedsoup.substack.com/p/mate-culture-uruguays-beloved-national); [Wikipedia: Uruguayan cuisine](https://en.wikipedia.org/wiki/Uruguayan_cuisine); [Heretic Yerba](https://www.hereticyerba.com/blogs/learn-about-yerba-mate/rituals-and-traditions-the-culture-of-sharing-yerba-mate)
+- Composition & proportions (§4.7) — one gourd set at rest on a table (no hands in frame). Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **the gourd and the termo** as objects; inside the gourd, yerba fills ~90% of the opening, sloped to one side with a small wet hollow where the bombilla enters. [EDITORIAL from this entry's 'nearly to the rim']
+  - Components: gourd ~8–10 cm tall and ~7–9 cm wide (a little shorter than the can, about its width); bombilla ~15–20 cm, rising ~8–12 cm above the rim, angled; termo ~30–35 cm tall (about three cans); yerba coarse yellow-green, fine dust at the edges. Optional: a plate of 3–5 torta frita or bizcochos. [EDITORIAL]
+  - Count: one gourd, one bombilla, one termo for the whole group. [EDITORIAL — from the entry's one-shared-gourd etiquette]
+  - Arrangement: gourd and termo side by side, the termo standing upright; the bombilla leaning away from the termo. [EDITORIAL]
+  - State cues: yerba damp and darker around the bombilla; a faint wisp of steam; no liquid visible above the yerba. [EDITORIAL]
+  - Absent on purpose: a mug, teacup or glass; tea bags; several gourds for several people; sugar cubes; legible thermos branding.
+  - Prompt-ready line: "A round dried-calabash gourd a little shorter than the can and about as wide, packed almost to the rim with coarse, damp yellow-green loose yerba sloped to one side, a slim metal straw angled out of it, standing on a wooden table beside an upright steel thermos about three times the can's height. A faint wisp of steam. No mug, no tea bag, no legible logos."
+
+#### Dish: Torta frita
+- Category: Everyday, specifically occasion-linked (rainy days)
+- Primary protein: None
+- Primary starch/accompaniment: Fried dough (flour, fat, warm water, salt) — described as similar to a light funnel cake/fritter
+- Side dishes/condiments: Dusted with sugar; always paired with mate
+- Serving vessel: Informal — plate or napkin, eaten warm/fresh
+- Venue variation: Home-fried, also sold street-side/informally, especially on rainy days
+- Utensils/eating customs: Eaten by hand, hot and fresh
+- Visual/plating characteristics: Flat, irregular, hand-stretched discs (not uniform circles like a doughnut) with a puffed, blistered, golden-brown fried surface; often has a slit or docked center to prevent uneven puffing; dusted with a visible light coating of white sugar, not glazed or iced. Not confirmed by a dedicated visual source — inferred from recipe/preparation descriptions; flag for review.
+- Common confusion: Not confirmed by available sources to have a distinct Argentine/Brazilian confusion point beyond the fact that the same rain-torta frita-mate association is also reported in Argentina, meaning the ritual itself (not just the dish) is shared cross-border rather than uniquely Uruguayan — worth noting so it isn't overclaimed as Uruguay-exclusive.
+- Confidence: HIGH for the dish and the rain association; MEDIUM for the gaucho-rainwater origin legend specifically
+- Sources: [Descubrí Montevideo](https://www.descubrimontevideo.uy/las-tortas-fritas); [amec.com.uy](https://amec.com.uy/blog/cultura/el-origen-de-la-torta-frita/); [Todo Uruguay](https://www.todouruguay.net/lluvia-mate-y-tortas-fritas/)
+- Composition & proportions (§4.7) — one plate for the mate round. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **the fried discs** — near 100% of the food; sugar a light dusting covering ~30–50% of each top, never a coat. [EDITORIAL]
+  - Components: irregular discs ~12–15 cm across (about twice the can's width) and ~0.8–1.5 cm thick, each with one central slit or hole ~1–2 cm; 4–6 on a plate, overlapping or loosely stacked. [EDITORIAL]
+  - Arrangement: slumped, overlapping stack on a plate or paper napkin, the mate set beside. [EDITORIAL]
+  - State cues: puffed blisters, golden-brown with paler edges, a faint oil sheen, faint steam; rain-streaked window is an optional scene cue. [EDITORIAL]
+  - Absent on purpose: glaze or icing, powdered-sugar snow, dipping sauces, uniform round doughnuts, jam.
+  - Prompt-ready line: "A loose stack of four or five flat, irregular hand-stretched fried dough rounds, each about twice the can's width and a finger thick, puffed and blistered golden-brown with a small slit in the centre, lightly dusted with white sugar, on a plain plate beside a mate gourd. Faint steam, a slight oil sheen. No glaze, no icing, no jam."
+
+#### Dish: Pizza a la piedra (with faina)
+- Category: Everyday
+- Primary protein: None (cheese-topped flatbread); figazza variant uses onion/pepper/olives instead of tomato sauce
+- Primary starch/accompaniment: Medium-thick rectangular pizza dough, wood-fired
+- Side dishes/condiments: Served alongside **faina** — a thin, crisp chickpea-flour flatbread, often eaten "a caballo" (layered on top of the pizza slice) rather than as a separate item
+- Serving vessel: Cut into rectangular portions, typically served on a simple plate or directly on paper at a mostrador (counter)
+- Venue variation: A defining feature of Montevideo pizzerías specifically (legacy of heavy Italian immigration — 20% of Montevideo's population was Italian by the early 20th century); casual, counter-service social custom among friends
+- Utensils/eating customs: Eaten by hand, standing at the counter or seated casually
+- Visual/plating characteristics: Medium-thick, rectangular-cut pizza (dough roughly 4-9mm before final rise) — not thin/round Neapolitan-style, not thick Chicago deep-dish; cut into rectangular portions, never triangular wedges; cheese coverage is moderate and even, not the heavy, dripping cheese-pull look common in American pizza imagery; faina, when served "a caballo," appears as a distinct pale-yellow, thin, dense layer on top of the pizza slice rather than a separate side item. See VISUAL & PLATING NORMS above.
+- Common confusion: The "a caballo" (faina on top of pizza) combination is a specifically Río de la Plata practice; sources did not distinguish a separate Argentine-vs-Uruguayan version of this specific combination, so no confusion point beyond general Italian-immigrant-cuisine overlap with Argentina was confirmed — flag for review. **Structural limitation, not a research gap (2026-09-24 audit): pizza a la piedra is well-distinguished from Neapolitan and Chicago-style pizza (see Visual/plating characteristics above), but it is genuinely shared Río de la Plata heritage — enjoyed in both Uruguay and Argentina, not exclusively Uruguayan.** As with milanesa napolitana above, no further research pass should be expected to produce a "provably Uruguayan, not Argentine" distinction, because it likely doesn't exist as a real difference between the two countries' versions. This entry should be used to confirm "authentically Río de la Plata pizza a la piedra" — not to arbitrate a Uruguay-vs-Argentina attribution.
+- Confidence: MEDIUM-HIGH for the dish, its Italian-immigration origin, and the "a caballo" custom
+- Sources: [lamanodepablo.com](https://lamanodepablo.com/la-pizza-rectangular-y-sus-origenes/); [Cocina del Uruguay](https://cocinacaseradeluruguay.wordpress.com/2020/11/29/pizza-y-faina-uruguay/); [Saveur — 7 Essential Street Snacks in Montevideo](https://www.saveur.com/seven-snacks-in-montevideo-uruguay/)
+- Composition & proportions (§4.7) — counter portions, one 'a caballo'. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **the rectangular slices** — cheese covering ~85–90% of each slice's top with a ~1 cm crust edge; a caballo, the faina covers ~80–100% of the pizza slice. [EDITORIAL]
+  - Components: pizza portion ~10–12 × 8–10 cm (about the can's height by more than its width), ~1–1.5 cm thick baked (dough 4–9 mm before rise, per this entry); faina portion similar size, ~0.5–1 cm thick, pale yellow with browned freckles; 1–3 portions per person. [EDITORIAL]
+  - Arrangement: portions side by side on a plain plate or a sheet of paper on the counter; the a caballo portion stacked faina-on-pizza. [EDITORIAL]
+  - State cues: cheese melted and set, not stretching; faint oil sheen; faina's top blistered. [EDITORIAL]
+  - Absent on purpose: triangular wedges, a round whole pie, pepperoni, dripping cheese pulls, basil leaves, a pizza box with print.
+  - Prompt-ready line: "On a sheet of plain paper on a counter, two rectangular pizza portions each about the can's height long, medium-thick with a golden crust edge and an even, moderate layer of melted cheese; one has a thin, pale-yellow chickpea flatbread slice of the same size laid flat on top. No triangles, no cheese pull, no toppings piled high."
+
+#### Dish: Puchero
+- Category: Special-occasion / cold-weather Sunday family meal
+- Primary protein: Beef (bola de lomo/beef ball cut) plus sausages
+- Primary starch/accompaniment: Potatoes and sweet potatoes (boiled separately)
+- Side dishes/condiments: Carrot, cabbage, turnip, celery, squash, corn — vegetables and meats conventionally served in separate dishes from the broth rather than all together in one bowl
+- Serving vessel: Broth served as a soup course; meats and vegetables plated separately afterward (per cocina-uruguaya.com's described method)
+- Venue variation: Predominantly a home/family dish, especially in colder months; less commonly a restaurant menu staple compared to asado or chivito
+- Utensils/eating customs: Spoon for broth; knife and fork for the meat/vegetable course
+- Visual/plating characteristics: Clear, pale-golden broth (not thick or opaque like a cream soup) served first, distinctly separate from the meat/vegetable course that follows — the second course shows whole or large-cut pieces of beef, sausage, and multiple distinct vegetable colors (orange carrot, pale potato/sweet potato, green cabbage) arranged rather than diced into a single homogenous stew bowl. Not confirmed by a dedicated visual source — inferred from preparation descriptions; flag for review.
+- Common confusion: Puchero is explicitly framed as a Río de la Plata regional variant of the broader Spanish/Latin American puchero/cocido/sancocho family (also found in Colombia, Ecuador, Dominican Republic, Venezuela, Puerto Rico), with the Río de la Plata version distinguished mainly by using more meat than the original Spanish peasant dish — the practical confusion risk is treating it as generic "stew" rather than this specific meat-forward, broth-plus-separately-served-solids format.
+- Confidence: MEDIUM (recipe-site corroboration; no long-form journalistic/academic source found)
+- Sources: [Wikipedia: Puchero](https://en.wikipedia.org/wiki/Puchero); [Montevideo Gastronómico](https://gastronomia.montevideo.com.uy/Gastronomia/Puchero-nada-mejor-para-combatir-el-frio-uc65720); [Tuti Fruti](https://tutifruti.com.uy/puchero-uruguayo-y-20-consejos)
+- Composition & proportions (§4.7) — the second course platter, plus the broth course. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates (platter): **meat and large vegetable pieces in roughly equal area** — beef ~30%, sausages ~10–15%, potato and sweet potato ~25%, carrot, squash, cabbage and corn ~30%. The broth is a separate bowl course, not under the solids. [EDITORIAL]
+  - Components: beef chunks ~8–10 cm (larger than the can's width), 2–4 per platter; sausages whole or halved ~10–12 cm; potatoes and sweet potatoes halved ~6–8 cm; carrots halved lengthwise; a cabbage wedge; corn cob pieces ~5–7 cm; squash wedges. One plate: one beef piece, a piece of sausage, 3–5 vegetable pieces. [EDITORIAL]
+  - Arrangement: pieces grouped by colour around a large oval platter, not diced or mixed. [EDITORIAL]
+  - Broth course: a soup plate ~22 cm filled two-thirds with clear pale-golden broth, a few fat droplets on the surface. [EDITORIAL]
+  - State cues: steam, moist glistening surfaces, soft-edged boiled vegetables (not roasted). [EDITORIAL]
+  - Absent on purpose: a single mixed stew bowl, thick gravy, chilli, herb garnish, rice.
+  - Prompt-ready line: "A large oval platter of boiled meats and vegetables grouped in distinct pieces: chunks of beef wider than the can, halved sausages, halved potatoes and orange sweet potatoes, carrot halves, a wedge of green cabbage, short pieces of corn cob and squash, all moist and steaming. Beside it, a soup plate two-thirds full of clear pale-golden broth. No mixed stew, no gravy, no garnish."
+
+#### Dish: Chorizo y morcilla / Choripán (asado accompaniment)
+- Category: Everyday / asado accompaniment
+- Primary protein: Pork chorizo (grilled sausage); morcilla (blood sausage — comes in sweet and savory versions in the Río de la Plata region)
+- Primary starch/accompaniment: When served as choripán — either pan tortuga (a bread roll specifically used for sausages/hamburgers) or an individual-portion segment of pan flauta (roughly 15-20cm, crusty exterior with a soft, airy crumb), not a soft hot-dog-style bun
+- Side dishes/condiments: Chimichurri sauce
+- Serving vessel: Grilled directly on the parrilla, served on bread or on the shared asado board
+- Venue variation: Standard opening course of a home or restaurant asado, often eaten first while the main cuts continue cooking
+- Utensils/eating customs: Eaten by hand as a sandwich (choripán) or by knife/fork off the board
+- Visual/plating characteristics: Sausage casing shows dark grill-char striping and split/blistered skin from direct grilling; morcilla dulce has a visibly darker, near-black casing; chorizo cut open reveals a coarse-ground, visibly fatty pink-red interior, not a smooth, uniform hot-dog-style filling. See VISUAL & PLATING NORMS above.
+- Common confusion: Choripán itself is documented as an Argentine invention also widely eaten in Uruguay (and Brazil and Chile) — it should not be presented as Uruguay-original, only as a shared, commonly-eaten item within a Uruguayan asado. Morcilla dulce (sweet blood sausage) is a specifically Río de la Plata variant that may be unfamiliar/confusable to those expecting only savory blood sausage.
+- Confidence: MEDIUM-HIGH for role within asado; MEDIUM for the sweet-morcilla specifics
+- Sources: [Select Latin America](https://www.selectlatinamerica.co.uk/uruguay/guide-uruguayan-food/); [Wikipedia: Choripán](https://en.wikipedia.org/wiki/Chorip%C3%A1n); [ArgentineAsado.com — Morcilla](https://argentineasado.com/morcilla/); bread identification from [Wikipedia: List of Uruguayan breads](https://en.wikipedia.org/wiki/List_of_Uruguayan_breads) and [choripan.com.ar — el mejor pan para choripán](https://choripan.com.ar/guias/el-mejor-pan-para-choripan/)
+- Composition & proportions (§4.7) — one choripán and the board portion. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates (choripán): **bread and sausage about equally** — bread ~55% of the side view, sausage ~35%, chimichurri ~10% spooned on top. [EDITORIAL]
+  - Components: pan flauta segment ~15–20 cm (this entry) or a pan tortuga ~12 cm; one chorizo ~12–15 cm long, ~3 cm wide, whole or split lengthwise, ends sometimes poking out; chimichurri ~1 tablespoon. Board: 2–4 chorizos and 1–2 morcillas cut into ~5 cm pieces. [EDITORIAL]
+  - Arrangement: sandwich lying on a board or napkin, cut side up; board pieces in a row. [EDITORIAL]
+  - State cues: char-striped, blistered casing; juices soaking the crumb; chimichurri oil glistening. [EDITORIAL]
+  - Absent on purpose: a soft hot-dog bun, ketchup, mustard, cheese, fries in the sandwich.
+  - Prompt-ready line: "A length of crusty baguette-style bread about one and a half times the can's height, split open around one grilled pork sausage about the can's height with a charred, blistered, split casing and a coarse pink interior, a spoonful of rough-chopped green herb-and-oil sauce on top, on a wooden board. No hot-dog bun, no ketchup, no mustard."
+
+#### Dish: Chajá
+- Category: Special-occasion / celebratory dessert (also sold everyday at confiterías)
+- Primary protein: N/A
+- Primary starch/accompaniment: Sponge cake (bizcochuelo) base
+- Side dishes/condiments: Whipped cream, meringue, dulce de leche, and peaches (fresh or canned), layered
+- Serving vessel: Cut in slices from a whole cake, typically plated individually for serving
+- Venue variation: Originated at a specific confitería (Confitería Las Familias, Paysandú, 1927) and remains strongly associated with Paysandú specifically, though it has since spread nationwide and is now sold in bakeries/confiterías across Uruguay
+- Utensils/eating customs: Fork
+- Visual/plating characteristics: Pale and layered, never dark or chocolate-toned — a cross-section (or individual cup serving) shows distinct horizontal bands of pale sponge cake, white whipped cream, diced peach (pale orange), and broken meringue shards (off-white, jagged); the full exterior is coated in white whipped cream and topped with more broken meringue and peach slices. A smooth-iced, uniformly brown/caramel-colored, or single-color dessert would misrepresent it. See VISUAL & PLATING NORMS above.
+- Common confusion: Not confirmed to be commonly mistaken for an Argentine or Brazilian dessert in available sources — it is consistently identified as distinctly Uruguayan, including in international "best desserts" coverage; the more relevant caution is regional-origin flattening (treating it as generically "Uruguayan" without noting its specific Paysandú origin, which the Paysandú department itself has protected as patrimonial heritage).
+- Confidence: HIGH for origin story and composition (multiple corroborating sources with consistent details, including named creator, place, and date)
+- Sources: [Canal26 — historia de la torta Chajá](https://www.canal26.com/historia/2026/06/13/la-historia-de-la-torta-chaja-como-nacio-el-postre-uruguayo-mas-esponjoso-que-conquisto-el-rio-de-la-plata/); [SWI swissinfo.ch](https://www.swissinfo.ch/spa/chaj%C3%A1-el-postre-uruguayo-que-vuela-entre-los-mejores-del-mundo/48272490); [Wikipedia (ES): Chajá (postre)](https://es.wikipedia.org/wiki/Chaj%C3%A1_(postre)); [Laylita — visual layering](https://www.laylita.com/recetas/postre-torta-chaja/)
+- Composition & proportions (§4.7) — one plated slice. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **white cream and meringue** — the outside is ~90% white cream and meringue shards; the cross-section is ~40% pale sponge, ~35% cream, ~15% peach, with meringue shards and any dulce de leche as thin accents. [EDITORIAL]
+  - Components: slice ~10–12 cm tall (about the can's height) and ~8–10 cm deep at the back; 2–3 sponge bands ~1.5–2 cm; cream layers ~1 cm; peach cubes ~1–1.5 cm; meringue shards 1–3 cm on top and sides; 2–3 peach slices on top. [EDITORIAL]
+  - Arrangement: one wedge on its side or upright on a small plate, the cut face towards the camera; a few meringue crumbs on the plate. [EDITORIAL]
+  - State cues: cream matte and soft-edged; peach glossy; meringue dry, chalky, jagged. [EDITORIAL]
+  - Absent on purpose: chocolate, a smooth glaze, caramel drizzles, berries, mint leaves, piped rosettes.
+  - Prompt-ready line: "One tall wedge of a pale layered cake about the can's height on a small white plate, cut face forward: horizontal bands of pale sponge, white whipped cream and small pale-orange peach cubes, the whole outside coated in white cream and covered in jagged off-white meringue shards with a few glossy peach slices on top. No chocolate, no glaze, no berries."
+
+#### Dish: Pasta (tallarines/ravioles con tuco; Ñoquis del 29)
+- Category: Everyday, with two distinct occasion-linked customs layered on top: Sunday family lunch (ravioles/tallarines) and the 29th-of-the-month ritual (ñoquis)
+- Primary protein: None inherent to the pasta itself; caruso sauce (a Uruguayan cream-based sauce for stuffed pasta) and bolognese add meat/ham
+- Primary starch/accompaniment: Pasta itself is the starch — simple forms (tallarines, fusilli, farfalle) and stuffed forms (ravioles, capeletis/cappelletti, agnolotti, sorrentinos, tortellini, ñoquis)
+- Side dishes/condiments: Tuco (tomato sauce) is the default for ravioles/tallarines; also served with bolognese, pesto, salsa blanca (cheese/cream sauce), or caruso for stuffed pastas
+- Serving vessel: Plate, typically with sauce ladled over or tossed through rather than served on the side
+- Venue variation: A defining home-cooked Sunday tradition (ravioles/tallarines con tuco, especially in winter when an outdoor asado isn't practical) as well as a restaurant-menu staple; on the 29th of every month, gnocchi appears on the menu of "all restaurants in the country" as well as being cooked at home
+- Utensils/eating customs: Knife and fork (fork alone for smaller stuffed shapes); the Ñoquis del 29 custom includes placing money (a bill or coin) under the plate before serving, a ritual specifically meant to invite prosperity for the coming month
+- Visual/plating characteristics: Tuco is a rustic, visibly chunky red tomato sauce (not smooth/uniform like a jarred pasta sauce), generously coating the pasta rather than pooled to one side; ñoquis are small, soft, irregularly-shaped potato dumplings (not uniform machine-cut shapes) usually shown with visible fork-ridge indentations; stuffed pastas (ravioles, capeletis) show a visible sealed-edge crimp. Not confirmed by a dedicated visual source — inferred from preparation descriptions; flag for review.
+- Common confusion: Pasta's centrality is easy for outsiders to miss because it isn't as visually "national-symbol" coded as asado or chivito, but sourcing is explicit that Italian immigration made pasta as everyday-foundational as beef — tallarines specifically traced to Piedmontese immigrants, stuffed pastas (ravioles, capeletis, tortelines) to Emilia-Romagna and Tuscany. The Ñoquis del 29 custom itself is shared across Argentina, Uruguay, Brazil, and Paraguay (all major Italian-immigration destinations), so it should not be presented as Uruguay-exclusive, only as a genuinely and currently practiced Uruguayan custom.
+- Confidence: HIGH for the Sunday-pasta and Ñoquis del 29 customs and their Italian-immigration roots (multiple independent sources including a Uruguayan newspaper and Wikipedia ES); MEDIUM for the specific sauce-pairing conventions
+- Sources: [El Observador — de cómo los fideos se hicieron imprescindibles](https://www.elobservador.com.uy/nota/de-como-los-fideos-se-hicieron-imprescindibles-201268000); [Wikipedia (ES): Ñoquis del 29](https://es.wikipedia.org/wiki/%C3%91oquis_del_29); [la diaria — Tradición del 29](https://ladiaria.com.uy/cotidiana/articulo/2026/8/tradicion-del-29/); [cocina-uruguaya.com — Ñoquis el 29](https://www.cocina-uruguaya.com/articulos/noquis-el-29-una-tradicion-uruguaya); [La Gran Uruguaya — Día de Ñoquis](https://www.lagranuruguaya.com/blog/dia-de-noquis-monthly-tradition)
+- Composition & proportions (§4.7) — one plate each of ravioles con tuco and ñoquis. Scale reference: 330 mL can, 11.5 cm tall, 6.6 cm wide. No new sourcing this pass; sizes, counts and shares are [EDITORIAL] unless they restate this entry's own tagged facts.
+  - What dominates: **pasta** ~55–65% of the visible surface, tuco coating ~35–45%; grated cheese a light dusting only. [EDITORIAL]
+  - Components: ravioles ~4–5 cm squares (about two-thirds the can's width), 12–16 per plate; ñoquis ~2–3 cm, 25–35 per plate; tallarines a loose nest ~15 cm across; tuco chunky with visible tomato and onion pieces. [EDITORIAL]
+  - Arrangement: pasta in a low mound, sauce ladled over the top and running into the gaps, some pasta edges uncovered. [EDITORIAL]
+  - Vessel fill: deep plate or wide pasta plate ~24–27 cm, food covering ~60–70% of the well. [EDITORIAL]
+  - State cues: glossy sauce, steam, soft pillowy ñoquis with fork ridges. [EDITORIAL]
+  - Absent on purpose: basil leaves, meatballs, a parmesan wedge, sauce served on the side; for the 29th, any banknote in frame beyond an unreadable edge under the plate.
+  - Prompt-ready line: "A deep white plate with a low mound of small soft potato gnocchi, each about a third of the can's width and marked with fork ridges, generously coated in a rustic, chunky red tomato sauce with visible pieces of tomato and onion, a light dusting of grated cheese on top. Steam rising. No basil, no meatballs, no sauce on the side."
+
+## GAP LOG
+
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
+- **2026-09-24 real-world prompt test — table-setting extras (napkins, condiment caddy, utensils) for a casual-restaurant chivito scene.** Surfaced by actually generating an image from this file's Chivito entry and reviewing it: the file said nothing about napkins or table condiment caddies for this scenario, and its utensils field described only the sandwich, not the full plate. Two dedicated searches found no Uruguay-specific source on napkins or condiment caddies. Findings, corrected once during this same discussion (see below): **Utensils — a fork is required at the table, just not for the sandwich itself.** The sandwich (chivito al pan) is genuinely hand-eaten per a confirming source, but the same plate's documented accompaniment, ensalada rusa (a mayo-bound potato/carrot/pea salad), cannot be eaten by hand — a first pass at this finding wrongly concluded "no cutlery needed" by only checking the sandwich's own eating custom and not the full plate's other documented components. Fixed directly in the Chivito entry's Utensils field. Chivito al plato (a separate bunless, knife-and-fork presentation with its own mixed salad of tomato/lettuce/onion, in addition to the fries and ensalada rusa already documented) is a real, distinct dish variant not currently in this file — flagged as a possible future addition. **Napkins**: unconfirmed by any Uruguay-specific source; a napkin dispenser or folded stack is a plausible staging inference given how messy the dish is documented as being, but should not be presented as a sourced fact if added. **Table condiments**: unconfirmed either way, and weaker than the napkin case — the sandwich already comes dressed with mayo inside, so there's no functional parallel to asado's diner-applied chimichurri. **Staging principle from this discussion, worth keeping in mind for any prompt drawn from this file**: a documented detail existing somewhere in this file does not mean it belongs in every scene drawn from it. Chimichurri is a real, sourced general table-condiment norm — but it is not documented as a chivito accompaniment specifically, and reflexively adding it to a chivito scene "because it's in the file" would be over-indexing on local color at the cost of a clean, natural-looking shot. Authenticity markers should be selected for what the specific scene actually needs (checked component by component, as the utensils correction above shows is necessary), not checklist-included from everything the file happens to document.
+- **2026-09-24 independent photorealism audit**: an audit specifically testing whether this file could brief an image-generation system to an unmistakable, region-true result found the file overall READY, with one limitation now explicitly flagged in the two affected entries: Milanesa napolitana and Pizza a la piedra are both well-distinguished from other countries' versions of similar dishes (Italian, American) but the file cannot prove "Uruguayan, not Argentine" for these two specifically. **This is a structural fact about the dishes themselves, not a research gap awaiting a stronger source**: both are genuinely shared Río de la Plata heritage, eaten and claimed by Uruguay and Argentina alike, not exclusively Uruguayan to begin with — so no future research pass should be expected to resolve this into a provable national attribution, because that distinction likely doesn't exist as a real difference between the two countries' versions. The entries now state this outright rather than framing it as unfinished research. The audit separately confirmed no mismatch anywhere in the file between confidence tags and how authoritatively entries are written (a specific strength, called out as a model other files in this project should match).
+- **Breakfast/desayuno**: Sources consistently agree breakfast is light (café con leche + medialuna/bizcochos) but there is very little depth beyond this — no strong source on regional variation, weekday-vs-weekend differences, or dishware/serving conventions specific to breakfast. Treated as thin; do not over-specify breakfast scenes beyond what's stated above.
+- **Afro-Uruguayan culinary tradition**: Candombe and Afro-Uruguayan culture generally are well-documented (music, Carnival, UNESCO recognition), but no source in this research pass identified specific Afro-Uruguayan *dishes*, ingredients, or food customs distinct from the mainstream European-immigrant-derived cuisine. This is flagged as an open question rather than a negative finding — a human reviewer with local knowledge should confirm whether this is a genuine absence or a research gap.
+- **Border-region (Rivera/Chuy) food specifics**: Confirmed that Brazilian influence exists in these towns, but sourcing was limited to general travel-guide sites, not culinary/journalistic depth. Specific dishes unique to these border towns were not found.
+- **Dishware materials/aesthetics region-wide**: I found named serving vessels for specific dishes (asado boards, mate gourds) but no consolidated source describing everyday household dishware materials/aesthetic norms (e.g., ceramic vs. enamelware prevalence) for Uruguay specifically. Not confirmed by available sources — flag for review.
+- **Utensil norms beyond Continental style**: Confirmed Continental (fork-left/knife-right) style for formal dining via one dedicated etiquette source; did not find corroboration from a second independent source, so this is MEDIUM, not HIGH, confidence.
+- **Exact chivito founding story/date**: Sources conflict (1944 vs. 1946; differing customer stories). Flagged explicitly in the dish entry rather than resolved by assumption.
+- **Visual/plating detail for several dishes (pastel de carne, torta frita, puchero, pasta) is inferred from preparation/recipe descriptions rather than a source that discusses appearance directly.** This is flagged inline on each affected entry as "not confirmed by a dedicated visual source." The asado doneness/grill-mark claims and the chivito/milanesa/chajá/pizza visual claims rest on stronger, more explicit sourcing (including INAC Uruguay, the national meat institute, for asado) and are treated as more reliable than the inferred ones. A photography-literal reviewer (someone who can look at real dish photos, not just read about them) would add the most value here.
+- **Environment/staging scenes were the thinnest-sourced new section in this file; a 2026-09-21 follow-up pass improved several claims but not all.** The follow-up shifted from general architecture commentary to primary market/documentary evidence — real current apartment listings (infocasas.com.uy) and real-project architectural documentation (ArchDaily) — which corrected one real error (apartment terraces commonly include a parrillero; the earlier draft wrongly implied apartment dwellers mostly lack grill access) and added a well-sourced, statistically-grounded housing category (monoambientes, via multiple El Observador articles with real figures). Remaining weak points: which housing type is actually most representative for a given household size/age/income is still not independently confirmed (flagged inline); the late-dinner lighting implication and the "grab-and-go barely exists" claim (in tension with chivito being cited elsewhere as street food) remain single-source, travel-guide-level; and the "avoid caricature" guidance remains the assistant's own editorial synthesis, not a sourced claim. This section would still benefit from SME review before the food-level sections, but less urgently than before this pass.
+- **Centro de Fotografía de Montevideo (CdF) is a confirmed, real municipal photo archive (1860s–present) that is a strong candidate for future image-based research on this file**, and is flagged here rather than pursued further in this pass: since 2020 it has released rights-freed high-resolution access to its historical archive for collective use, which would let a future pass reference specific real, dated, described photographs of Montevideo domestic/street life directly, rather than relying on general architecture commentary. Not used for specific claims in this version — flagged as a concrete next step. [SOURCE: [Centro de Fotografía de Montevideo](https://cdf.montevideo.gub.uy/)]
+- **Neighborhood-specificity tension not fully resolved.** The brief asked for cultural cues that don't pin to one neighborhood but also avoid caricature. The sourcing available skews toward describing distinctive, named things (Art Deco Pocitos, specific historic bars) precisely because those are what gets written about — the "ordinary, unremarkable" register the brief actually wants is logically the harder thing to find dedicated sources for. The guidance given leans on the assistant's synthesis of the *contrast* between the named/distinctive examples and what they imply about the more ordinary baseline, not on a direct source describing "an ordinary Montevideo apartment."
+
+- **Celebrations pass (2026-10-01) open items.** All headcounts in CELEBRATIONS & LARGE GATHERINGS are editorial or inferred from vendor listings (no Uruguayan survey found); the children's party foods (sándwich olímpico, chajá as birthday cake) rest on non-Uruguayan food media; the fiesta de 15 and wedding menus rest on vendor listings and may simply mirror Argentina's. The children-in-frame rule needs checking against TCCC's marketing-to-children policy. A `### DISH CATALOG` heading was added above the dish entries so they do not nest under the new section.
+- **Game-night pass (2026-10-01) open items.** No Uruguay-specific viewing data was found by the cross-market research: the Celeste asado, clásico pizza night and stadium choripán scenes, kick-off times and every game-night menu are [LOW — not verified]. Truco's popularity and club championships are MEDIUM (pagat, Wikipedia ES). Rule conflict noted: the research notes put a mate gourd beside the Celeste asado; dropped under §5.6.
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified this pass [LOW]: the pendant lamp in the Montevideo apartment, interior-town house details, coastal quincho details and summer sunset times; the room-sense of "barbacoa" is inferred from property-listing usage (LOW-MEDIUM); Mercado del Puerto-style and roadside parrilla variants; carts on the coast and in interior towns; plainer interior boliches; the salón profile rests on one vendor directory (TuFiesta). The apartment and quincho details lean on InfoCasas listings. Check all six prompt-ready lines in image tests.
+
+## CANDIDATE QUEUE
+
+(Reserved for future gap-fill passes.)
+
+1. Dish entries for the festive items described only briefly in CELEBRATIONS & LARGE GATHERINGS: lechón (Christmas roast suckling pig), vitel toné (see `argentina.md` for the shared dish), lengua a la vinagreta, ensalada rusa, huevos rellenos, sándwich olímpico.
+2. A short FESTIVALS & SEASONAL OCCASIONS register (Carnaval, Semana de Turismo and the Semana Criolla, Día de la Familia, Fin de Año, Noche de la Nostalgia, Ñoquis del 29) to sit above CELEBRATIONS as the calendar index.
+3. Dish entry for **bizcochos** (the merienda and breakfast pastries) and a compact entry for **panchos** from the carrito, both referenced in GAME NIGHT; a Uruguay-specific viewing-food source for football.
+
+## RESEARCH LOG
+
+- **Total sources consulted:** ~58 search queries returning distinct source sets (includes a 2026-09-21 correction pass, a 2026-09-21 visual/plating + bread-specificity expansion pass, and a 2026-09-21 environment/staging-scenes expansion pass, all triggered by SME/human review); approximately 48 unique sources were directly cited above.
+- **Sources used and their general type:**
+  - Long-form travel/food journalism: The Culture Trip, Guru'Guay, National Geographic (found via search, not directly fetched — see note below), Saveur, italiani.it, The Kitchn, Go Backpacking
+  - Encyclopedic/reference: Wikipedia (English and Spanish) — Uruguayan cuisine, Cuisine of Montevideo, Chivito (sandwich), Puchero, Choripán, Milanesa napolitana, Chajá (postre), List of Uruguayan breads, Pizza a la pala, Ñoquis del 29, Casa chorizo, Quincho (asador), Carrito (Uruguay), Clima de Uruguay
+  - Primary/institutional: INAC Uruguay (Instituto Nacional de Carnes — Uruguay's national meat institute) for asado grilling technique
+  - Dedicated cultural/etiquette reference: Etiquette Scholar (Uruguay Dining Etiquette)
+  - Architecture/design: dare2go (Art Deco Montevideo), La Casa Uruguaya (Universidad ORT Uruguay architecture program), real-estate-in-uruguay.com, ArchDaily (real, named, professionally-documented residential projects — used as primary architectural-project evidence, not general commentary)
+  - Primary market listing data (used as evidence of current, real housing features — not editorial commentary): infocasas.com.uy (Uruguay's leading property portal) apartment listings
+  - Uruguayan press reporting with statistics (monoambientes): El Observador (multiple articles), montevideo.com.uy
+  - Municipal institution (identified as a resource, not yet used for specific image-based claims): Centro de Fotografía de Montevideo (CdF)
+  - Uruguayan local food-culture sites: cocina-uruguaya.com, Cocina del Uruguay (blog), Descubrí Montevideo, Montevideo Gastronómico, Tuti Fruti, Jamón y Eso, amec.com.uy, todouruguay.net, somosdeaca.uy, Subrayado (Uruguayan TV/news)
+  - Uruguayan/regional news with cultural-history angle: Canal26, SWI swissinfo.ch, LARED21, El Observador (Uruguay), la diaria (Uruguay)
+  - Specialist/topical blogs and recipe sites (visual/preparation detail): La Gran Uruguaya, Bodega Garzón, Shared Soup (Substack), Heretic Yerba, Barry's Borderpoints, Scoolinary, The Argentine Asado, Café Delites, Eat Flavorly, Paulina Cocina, Laylita, Vinómanos, serargentino.com, choripan.com.ar
+  - Restaurant/venue review coverage (used cautiously, for register/atmosphere only, not as primary cultural sourcing): urubus.com.uy, Infobae (cafetines), Perfect Daily Grind
+- **Sources considered but excluded, and why:**
+  - **Grokipedia** — excluded entirely; it is an AI-generated reference work, not a citable primary or editorial source, and was not used for any claim despite appearing in search results.
+  - Generic SEO listicles (e.g., internationalliving.com "30 Favorite Foods," thingstodoinuruguay.com used sparingly and only for the one specific coastal/interior claim it made with some specificity, thekitchn.com) were deprioritized per the brief's instruction and used only where no better source existed or to corroborate a claim already supported elsewhere.
+  - Recipe-only sites (Cookidoo, Cookpad, individual food-blog recipes) were used only for structural/compositional detail on pastel de carne and puchero where no long-form journalism was found, and are flagged as MEDIUM rather than HIGH confidence as a result.
+- **Note on access limitations:** Direct page-fetching (WebFetch) to en.wikipedia.org, nationalgeographic.com, and chefspencil.com was blocked by this environment's network egress policy during this research session. All citations to these and other domains rely on the search tool's own retrieval and excerpting rather than a direct full-page fetch by the assistant. This is disclosed for transparency; the excerpted content was specific and consistent enough across repeated queries to be used, but a reviewer with direct access should spot-check the Wikipedia citations in particular.
+- **Fields/claims flagged LOW confidence or unconfirmed — explicit list:**
+  - Chivito's exact founding year and origin anecdote (1944 vs. 1946; two different customer stories)
+  - Whether a distinct Afro-Uruguayan culinary tradition exists (open gap, not a confirmed absence)
+  - Pastel de carne's and Puchero's "common confusion" fields (no source found; explicitly marked "not confirmed" rather than guessed)
+  - Household dishware material/aesthetic norms region-wide (no consolidated source found)
+  - Second-source corroboration for Continental utensil-style claim (single source only)
+  - Bread-service format (basket vs. tablecloth vs. plate): a Uruguay-specific dedicated source was not found even after the 2026-09-21 correction; the basket claim rests on direct SME/market knowledge plus generic regional (Argentina-focused) corroboration, not a Uruguay-specific citation — flag for a stronger source if one is later found
+- **2026-09-21 correction pass (post-draft human review):** The first draft incorrectly stated bread was placed directly on the tablecloth (based on a single generic, non-Uruguay-specific etiquette source); this was corrected to reflect bread-basket service per direct reviewer knowledge of the market. Two omissions were also fixed: an on-table condiments/sauces norm (chimichurri) was added to REGION-WIDE NORMS, and a full Pasta dish entry (Sunday ravioles/tallarines con tuco; Ñoquis del 29) was added to the DISH CATALOG — pasta had been named in the triage reasoning as part of Uruguay's "core repertoire" but was not previously given its own catalog entry, an internal inconsistency the reviewer's question surfaced. See DECISIONS.md for the full judgment-call record.
+- **2026-09-21 visual/plating + bread-specificity pass (second post-draft human review):** The reviewer asked whether plating/visual-aesthetic specifications (grilling style, color, texture, shape) should be included, and separately flagged that generic bread references ("bread bun," "bread roll") should be replaced with locally-specific named breads. Added a new VISUAL & PLATING NORMS subsection under TRUSTED CONTENT plus a "Visual/plating characteristics" field on every dish catalog entry; researched and named Uruguay's specific bread repertoire (flauta, felipe, marsellés, pan de campo, pan catalán, pan tortuga, galleta) via a dedicated Wikipedia list and Uruguayan press, and corrected the generic bread references in the Chivito (pan catalán), Milanesa al pan (pan flauta/felipe), and Choripán (pan tortuga/pan flauta) entries accordingly. See DECISIONS.md for the full judgment-call record, including which visual claims are well-sourced vs. inferred.
+- **2026-09-21 environment/staging-scenes sourcing-upgrade pass (fourth post-draft human review):** The reviewer asked how to gain trusted material for environment/staging detail given the section's thin sourcing, specifically without downloading or licensing imagery — targeting text descriptions and trends associated with real photography/listings rather than the assets themselves. Re-ran research targeting three text-adjacent-to-real-imagery source types: architecture portals publishing real, named projects in professional prose (ArchDaily), real estate listing copy describing real, currently-listed homes (infocasas.com.uy), and municipal photo-archive metadata (Centro de Fotografía de Montevideo, identified as a resource for a future pass). This surfaced one genuine correction (apartment terraces commonly include a parrillero grill — the earlier draft wrongly implied apartment dwellers mostly lack outdoor-grill access) and one well-sourced addition (monoambientes/studio apartments as a real, statistically-documented, growing housing category, directly relevant to the 1-person home scenarios). Updated the housing-type norm, the "meal outdoors at home" scenario, and the "casual lunch at home — 1 person" scenario accordingly. See DECISIONS.md for the full record.
+- **2026-09-21 environment/staging-scenes pass (third post-draft human review):** The reviewer asked for the file to cover the physical environments meals take place in, mapped specifically to Coca-Cola's standard staging scenarios (casual lunch at home for 1/2/3 people, dinner at home, an outdoor meal at home, a solo on-the-go meal, and away-from-home dining for 1 vs. 2-3 people), including architecture, materials, and outdoor-scene detail — plus guidance on cultural cues that avoid both flag-waving specificity and caricature. Added a new ENVIRONMENT & STAGING SCENES subsection covering general architectural/material norms (temperate climate, three coexisting housing types, muted material palette) and each of the six requested scenarios individually. This section is honestly the thinnest-sourced of the three expansion passes — several scenario-level judgment calls (which housing type fits which household size, the late-dinner lighting implication, the caricature-avoidance guidance itself) are the assistant's own synthesis rather than directly sourced claims, and are labeled as such inline and in the Gap Log. See DECISIONS.md for the full judgment-call record.
+- **2026-10-01 celebrations pass (schema §5.7): 4 searches**, covering the Uruguayan Christmas table (Bodega Garzón, cocina-uruguaya.com), the Día de la Familia secular naming (LARED21, Cadena 3), children's birthday foods, and salón and catering offers for fiestas de 15 and weddings (vendor listings only). Added CELEBRATIONS & LARGE GATHERINGS with 5 entries after ENVIRONMENT & STAGING SCENES.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three watch-party entries (Celeste match with an asado, clásico night with pizza and fainá or chivitos, choripán outside the stadium), all LOW, and two truco entries (after the asado; club championship and merienda).
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches.** Added VENUE PROFILES after ENVIRONMENT & STAGING SCENES (the file has no register table) and a pointer line at the top of that section: Montevideo apartment kitchen and comedor diario, quincho/barbacoa/building parrillero, neighbourhood parrilla, carrito, traditional café-bar, and the salón de fiestas. Sources: InfoCasas listings, a parrillero construction guide, Urubus, Wikipedia (ES) Carrito (via search), El Observador, la diaria, Montevideo Portal, TuFiesta; open items in GAP LOG.

@@ -1,0 +1,15 @@
+{
+  "$comment": "Photography plate spec (team style guide). Sizes chosen so the plate never overpowers the frame: oversized chargers (32+ cm) make normal portions look tiny and leave empty glaze for light to reflect off. Only use a charger for an intentional wide table scene. The solver uses use_cm for the proxy; the prompt states use_cm and the attributes below.",
+  "version": "0.1",
+  "plates": {
+    "plate":      { "label": "Entree / main dish",            "range_cm": [27, 29], "use_cm": 28, "noun": "round entree plate" },
+    "lunch-plate": { "label": "Salad / lunch plate (smaller mains)", "range_cm": [22, 24], "use_cm": 23, "noun": "round lunch plate", "when": "A small, delicate protein or a compact stack: the smaller plate makes the food look bountiful and fill the frame." },
+    "side-plate": { "label": "Appetizer / side plate",        "range_cm": [18, 20], "use_cm": 19, "noun": "round side plate", "when": "Side portions, single desserts, or bread flanking the main." }
+  },
+  "attributes": {
+    "rim_width_cm": { "value": [1.5, 2.5], "alt": "coupe (rimless)", "why": "Wide rims push the food into a small area in the middle; a narrow rim or coupe gives the food the most surface." },
+    "lip_height_cm": { "value": [1.5, 2.0], "why": "High lips throw harsh shadows onto the food under side light or backlight." },
+    "finish": { "value": "matte or satin, never high-gloss", "why": "Glossy glaze gets blinding white hot spots under studio light." }
+  },
+  "prompt": "with a narrow rim (or rimless coupe), a low, flat profile and a matte or satin glaze, never glossy"
+}

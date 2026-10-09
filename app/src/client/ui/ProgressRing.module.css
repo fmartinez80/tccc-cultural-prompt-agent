@@ -1,0 +1,84 @@
+/* Fills the positioned frame it sits in and centers the ring over the placeholder. */
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  pointer-events: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  max-width: min(320px, 100%);
+  text-align: center;
+}
+
+/* Lets the fill animate between percent updates instead of jumping. Inherited so the
+   ring's ::before, which draws the fill, sees the value set on the ring. */
+@property --p {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+/* A grey track that fills clockwise in red from the top as the percent rises; the percent sits in the opening. */
+.ring {
+  --ring: 12px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 88px;
+  aspect-ratio: 1;
+  margin-bottom: 6px;
+  border-radius: 50%;
+  transition: --p 0.5s linear;
+}
+
+.ring::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(var(--neo-selected) calc(var(--p) * 1%), var(--neo-hover) 0);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - var(--ring)), #000 calc(100% - var(--ring) + 1px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - var(--ring)), #000 calc(100% - var(--ring) + 1px));
+}
+
+/* Positioned so it paints above the ring's ::before. */
+.percent {
+  position: relative;
+  font-family: var(--bay-font-mono);
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  color: var(--bay-text);
+}
+
+.label {
+  margin: 0;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--bay-text-2);
+}
+
+.meta {
+  margin: 0;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--bay-text-3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ring {
+    transition: none;
+  }
+}

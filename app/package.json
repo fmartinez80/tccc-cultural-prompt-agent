@@ -1,0 +1,42 @@
+{
+  "name": "scene-composer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"PORT=3001 tsx watch --env-file-if-exists=.env.local src/index.ts\" \"vite\"",
+    "start": "tsx src/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@koa/router": "^15.5.0",
+    "@supabase/supabase-js": "^2.58.0",
+    "@tanstack/react-query": "^5.100.10",
+    "@trpc/client": "^11.17.0",
+    "@trpc/react-query": "^11.17.0",
+    "@trpc/server": "^11.17.0",
+    "fflate": "0.8.3",
+    "flag-icons": "^7.5.0",
+    "koa": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "lucide-react": "1.28.0",
+    "react": "^19.2.6",
+    "react-aria-components": "1.20.0",
+    "react-dom": "^19.2.6",
+    "three": "^0.186.1",
+    "tsx": "4.22.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^3.0.2",
+    "@types/koa-static": "^4.0.4",
+    "@types/node": "^25.7.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^4",
+    "concurrently": "^9.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^6"
+  }
+}

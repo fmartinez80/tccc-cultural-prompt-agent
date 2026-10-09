@@ -1,0 +1,572 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  container-type: inline-size;
+}
+
+.groupLabel {
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bay-text-2);
+}
+
+/* Always three equal columns: one option, three options, or a fourth "your
+   version" wrapping to the next row all keep the same card width. Cards in a
+   row stretch to the tallest one, so the full description always shows. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@container (max-width: 520px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.cell {
+  position: relative;
+  display: flex;
+}
+
+.card {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-height: 168px;
+  padding: 24px 20px;
+  border: var(--neo-border);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  text-align: center;
+  cursor: pointer;
+  box-shadow: var(--neo-shadow);
+  transition: transform var(--bay-dur) var(--bay-ease), box-shadow var(--bay-dur) var(--bay-ease), background var(--bay-dur) var(--bay-ease);
+}
+
+/* Room for the "More details" button pinned to the bottom of the card. */
+.card[data-more] {
+  padding-bottom: 48px;
+}
+
+.card[data-hovered]:not([data-disabled]) {
+  transform: translate(-2px, -2px);
+  box-shadow: 8.75px 8.75px 0 var(--neo-shadow-color);
+}
+
+.card[data-focus-visible] {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+/* Actively selecting (hover, press) = light grey; selected = red with white text. */
+.card[data-hovered]:not([data-disabled]):not([data-selected]),
+.card[data-pressed]:not([data-selected]) {
+  background: var(--neo-hover);
+}
+
+.card[data-selected] {
+  background: var(--neo-selected);
+  color: var(--neo-on-selected);
+}
+
+.card[data-selected][data-hovered]:not([data-disabled]) {
+  background: var(--neo-selected-hover);
+}
+
+.card[data-selected] :is(.cardTitle, .cardSummary) {
+  color: var(--neo-on-selected);
+}
+
+.card[data-selected] .check {
+  background: var(--neo-card);
+}
+
+.card[data-disabled] {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.cardMedia {
+  align-self: stretch;
+  margin: -24px -20px 4px;
+  border-bottom: var(--neo-border);
+  overflow: hidden;
+  line-height: 0;
+  aspect-ratio: 16 / 9;
+  background: var(--bay-bg-sunken);
+}
+
+.cardMedia img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 14px;
+}
+
+.badge {
+  display: inline-flex;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--neo-ink);
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--neo-card);
+}
+
+.check {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid var(--neo-ink);
+  background: var(--neo-card);
+  color: var(--neo-ink);
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: var(--app-weight-subhead);
+  line-height: 20px;
+  color: var(--bay-text);
+}
+
+.cardSummary {
+  font-size: 13px;
+  font-weight: var(--app-weight-text);
+  line-height: 17px;
+  color: var(--bay-text-3);
+}
+
+.more {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 14px;
+  border: 2px solid var(--neo-ink);
+  border-radius: var(--bay-r-pill);
+  background: var(--neo-card);
+  font: inherit;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--neo-ink);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.more:hover {
+  background: var(--neo-hover);
+}
+
+.more:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 1px;
+}
+
+/* ---- List layout: full-width rows for text-only options ---- */
+
+/* One indent shared by the box column and everything under the title, so the
+   title, description and "More details" all start on the same left edge. */
+.list {
+  --row-pad-x: 28px;
+  --row-pad-y: 24px;
+  --row-box: 22px;
+  --row-gap: 18px;
+  --row-indent: calc(var(--row-pad-x) + var(--row-box) + var(--row-gap));
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.row {
+  position: relative;
+  flex: 1;
+  display: grid;
+  grid-template-columns: var(--row-box) minmax(0, 1fr);
+  column-gap: var(--row-gap);
+  row-gap: 12px;
+  align-items: start;
+  padding: var(--row-pad-y) var(--row-pad-x);
+  border: var(--neo-border);
+  border-radius: var(--app-card-radius);
+  background: var(--neo-card);
+  box-shadow: var(--neo-shadow);
+  /* The row is a <label>; reset what the step's label rule (App.module.css) sets. */
+  font-weight: var(--app-weight-text);
+  color: var(--bay-text-3);
+  cursor: pointer;
+  transition: transform var(--bay-dur) var(--bay-ease), box-shadow var(--bay-dur) var(--bay-ease), background var(--bay-dur) var(--bay-ease);
+}
+
+/* Room for the "More details" link under the description. */
+.row[data-more] {
+  padding-bottom: calc(var(--row-pad-y) + 32px);
+}
+
+.row[data-hovered]:not([data-disabled]) {
+  transform: translate(-2px, -2px);
+  box-shadow: 8.75px 8.75px 0 var(--neo-shadow-color);
+}
+
+.row[data-focus-visible] {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+.row[data-hovered]:not([data-disabled]):not([data-selected]),
+.row[data-pressed]:not([data-selected]) {
+  background: var(--neo-hover);
+}
+
+.row[data-selected] {
+  background: var(--neo-selected);
+  color: var(--neo-on-selected);
+}
+
+.row[data-selected][data-hovered]:not([data-disabled]) {
+  background: var(--neo-selected-hover);
+}
+
+.row[data-selected] :is(.rowTitle, .rowSummary) {
+  color: var(--neo-on-selected);
+}
+
+/* The link sits over the row (a sibling of the Radio), so it follows the row's state. */
+.cell:has(.row[data-selected]) .moreLink {
+  color: var(--neo-on-selected);
+}
+
+.row[data-disabled] {
+  cursor: default;
+  opacity: 0.55;
+}
+
+/* Centred on the title's first line (24px line, 22px box). */
+.box {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  place-items: center;
+  width: var(--row-box);
+  height: var(--row-box);
+  margin-top: 1px;
+  border: 2px solid var(--neo-ink);
+  border-radius: var(--bay-r-md);
+  background: var(--neo-card);
+  color: var(--neo-ink);
+  transition: background var(--bay-dur) var(--bay-ease);
+}
+
+.row[data-selected] .box {
+  background: var(--neo-card);
+}
+
+.rowHead {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+
+.rowTitle {
+  flex: 1 1 280px;
+  min-width: 0;
+  max-width: 640px;
+  font-size: 20px;
+  font-weight: var(--app-weight-subhead);
+  line-height: 24px;
+  color: var(--bay-text);
+}
+
+/* Outlined pill, sitting on the title's first line. */
+.pill {
+  flex-shrink: 0;
+  margin-top: 1px;
+  padding: 3px 12px;
+  border: 2px solid var(--neo-ink);
+  border-radius: 999px;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--neo-ink);
+  background: var(--neo-card);
+}
+
+.rowSummary {
+  grid-column: 2;
+  max-width: 760px;
+  font-size: 15px;
+  font-weight: var(--app-weight-text);
+  line-height: 22px;
+  color: var(--bay-text-3);
+}
+
+/* A sibling of the radio (so it doesn't select the row), pinned on the
+   description's left edge. */
+.moreLink {
+  position: absolute;
+  left: var(--row-indent);
+  bottom: var(--row-pad-y);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 0;
+  border: none;
+  border-bottom: 2px solid currentColor;
+  background: none;
+  font: inherit;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bay-text-2);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.moreLink:hover {
+  color: var(--neo-ink);
+}
+
+.moreLink:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+@media (max-width: 520px) {
+  .list {
+    --row-pad-x: 16px;
+    --row-pad-y: 18px;
+    --row-gap: 12px;
+  }
+
+  .rowTitle {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .box {
+    margin-top: 0;
+  }
+}
+
+/* ---- Details dialog ---- */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  width: min(560px, 100%);
+  max-height: min(86vh, 760px);
+  border-radius: var(--bay-r-lg);
+  border: var(--neo-border);
+  background: var(--neo-card);
+  box-shadow: var(--neo-shadow);
+  outline: none;
+}
+
+.dialogHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 24px 24px 12px;
+}
+
+.dialogTitle {
+  margin: 4px 0 0;
+  font-family: var(--app-font-head);
+  font-size: 22px;
+  font-weight: var(--app-weight-headline);
+  line-height: 1.05;
+  color: var(--bay-text);
+}
+
+.dialogBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 24px 16px;
+  overflow-y: auto;
+}
+
+.dialogBody > * {
+  /* The body scrolls; without this the image box shrinks to fit and crops the picture. */
+  flex-shrink: 0;
+}
+
+/* Dialogs with a picture (layouts) get room to show it whole. */
+.dialogWide {
+  width: min(960px, 100%);
+  max-height: 92vh;
+}
+
+.dialogMediaActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: -6px;
+}
+
+.dialogMedia {
+  border-radius: var(--bay-r-md);
+  overflow: hidden;
+  line-height: 0;
+  border: var(--neo-border-thin);
+}
+
+.dialogMedia img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.dialogSummary {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--bay-text);
+}
+
+.dialogText {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--bay-text-2);
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 0;
+  border-top: var(--neo-border-thin);
+}
+
+.fact {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--bay-border-hair);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.fact dt {
+  color: var(--bay-text-3);
+}
+
+.fact dd {
+  margin: 0;
+  color: var(--bay-text);
+}
+
+.dialogSection h3 {
+  margin: 0 0 6px;
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bay-text);
+}
+
+.sources {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--bay-text-2);
+}
+
+.dialogActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 24px 20px;
+  border-top: var(--neo-border-thin);
+}
+
+@media (max-width: 520px) {
+  .fact {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+}
+
+/* ---- Inline details (list rows inside a dialog) ---- */
+
+.rowDetails {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 760px;
+  padding: 12px;
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  color: var(--bay-text);
+  cursor: auto;
+}
+
+.row[data-selected] .rowDetails :is(dt, .dialogText, .dialogSection h3) {
+  color: var(--bay-text-2);
+}
+
+.moreChevron {
+  transition: transform var(--bay-dur) var(--bay-ease);
+}
+
+.moreChevron[data-open] {
+  transform: rotate(90deg);
+}

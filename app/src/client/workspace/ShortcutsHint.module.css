@@ -1,0 +1,39 @@
+.wrap {
+  position: relative;
+}
+
+.panel {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  z-index: 20;
+  width: 260px;
+  background: var(--neo-card);
+  border: var(--neo-border);
+  border-radius: var(--bay-r-md);
+  box-shadow: var(--neo-shadow);
+  padding: 12px 14px;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--bay-text-2);
+  padding: 3px 0;
+}
+
+.key {
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--bay-text);
+  background: var(--neo-card);
+  border: var(--neo-border-thin);
+  box-shadow: var(--neo-shadow-sm);
+  border-radius: var(--bay-r-sm);
+  padding: 1px 6px;
+  white-space: nowrap;
+}

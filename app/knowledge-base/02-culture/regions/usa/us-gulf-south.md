@@ -1,0 +1,826 @@
+---
+region: us-gulf-south
+parent_file: us.md (national index — see FILE ROLE & METHOD there for the overall US structure)
+status: DRAFT — NEEDS SME/HUMAN REVIEW — SIXTH REGIONAL FILE, BUILT FROM THREE PARALLEL SUBAGENT RESEARCH PASSES
+research_method: Claude web research (three parallel subagent passes, WebSearch only — WebFetch/direct page reads were blocked by network egress for every domain attempted, consistent with every prior research round on this project)
+date_drafted: 2026-09-24
+---
+
+## FILE ROLE & METHOD
+
+This is the sixth regional file built under the 13-file US structure. `us.md` records that a research-recommended rename to `us-louisiana.md` was rejected on reviewer judgment — the file's anchor dishes (the po'boy especially) are not confined to Louisiana in practice even though they originated there, so "Gulf South" better reflects the file's actual reach. It holds full, authoritative depth for `us.md`'s one existing pointer (the po'boy) plus a large body of genuinely new dishes researched specifically for this file.
+
+**Internal structure — three zones, one file**, decided by hand after all three research passes completed:
+
+1. **New Orleans / Louisiana Creole** — the urban, French/Spanish/African/Caribbean-influenced half of Louisiana's food identity, historically centered on New Orleans.
+2. **Cajun / Acadiana** — rural southern and southwestern Louisiana, the Acadian-descended tradition, officially recognized as the 22-parish Acadiana region.
+3. **Mississippi & Alabama Gulf Coast** — Mobile, AL and the Mississippi Sound towns (Biloxi, Gulfport, Ocean Springs, Pascagoula, Bayou La Batre), a real gap this file closes: `us-south.md`'s Deep South zone explicitly flagged that it did not research this coastal strip because available (search-snippet-only) evidence suggested it reads culinarily closer to Louisiana Creole/Cajun food than to inland Deep South content. A dedicated pass confirmed this, and found the coast is neither "just Deep South" nor "just New Orleans in another state," but its own three-layer hybrid (see that zone's own characterization).
+
+**Cross-zone questions surfaced by multiple passes, resolved here rather than left open:**
+
+1. **Gumbo** is claimed by all three zones with real, sourced differences. Creole (New Orleans) and Cajun (Acadiana) gumbo are kept as two full, coexisting entries per `country-file-schema.md` §4.6 — a genuine, non-hierarchical fork (tomato use, roux darkness, protein emphasis), not resolved into one default. The Gulf Coast AL/MS pass's own gumbo research found no sourced visual differentiator from Creole gumbo specifically, and flagged its entry for a merge-check; its content is kept as a short, historically distinct cross-reference (Mobile's own claimed pre-New-Orleans gumbo history is real and worth preserving) rather than a third full, visually-duplicative entry — the same resolution pattern used for Hoppin' John in `us-south.md`.
+2. **Jambalaya** has the same real Creole ("red," tomato-based)/Cajun ("brown," tomato-free) fork, kept as two full, coexisting entries for the same reason. `us-south.md`'s own Deep South-zone red rice entry already points forward to "Cajun/Creole jambalaya" as outside its scope — this file is that pointer's destination, closing the loop.
+3. **Crawfish étouffée** is authoritatively Cajun (it originated in Breaux Bridge, Acadiana, in the 1920s); the Creole/New Orleans pass explicitly declined to research it and deferred to the Cajun pass, so only one full entry exists here, with the Creole variant's real, sourced differences (darker roux, tomato, sometimes cream) noted inside that entry rather than duplicated.
+4. **King cake** stays a single full entry in the New Orleans/Creole zone — the Cajun/Acadiana pass explicitly declined to claim it as its own, finding its origin is Creole New Orleans-specific with only a secondary, derivative Cajun Country bakery variant (simpler, less sweet, more bread-forward), which is noted as a short addendum inside that entry rather than a competing one.
+5. **Trout meunière, oysters Rockefeller, and oysters Bienville** are real, imported, locally-embraced dishes on the Mississippi/Alabama Gulf Coast, but that pass's own research explicitly found no visually distinct coastal form and deferred full authoritative depth to the New Orleans/Creole pass, per `country-file-schema.md` §4.3's placement rule. Trout meunière and oysters Rockefeller keep their full entries in the New Orleans/Creole zone (oysters Bienville gets a new full entry there too, since neither pass had researched it as deeply as the other two); the Gulf Coast zone keeps a short cross-reference documenting the real, sourced import mechanism and one honestly-flagged local-naming curiosity (a Mobile restaurant's "redfish Bienville," LOW confidence) rather than duplicating the dish depth.
+6. **The "holy trinity" (onion, celery, bell pepper)** is documented once, Gulf-South-wide, in the TRUSTED CONTENT below, with each zone's differing *treatment* of it (oil/lard vs. butter, tomato vs. no tomato) stated as the actual point of distinction rather than each zone re-deriving the same base ingredient list from scratch.
+
+**Scope inherited from `us.md`**: lunch, dinner, and snacks only (breakfast excluded); inclusion by staging relevance, not raw consumption frequency. Beignets were explicitly checked against the breakfast exclusion and clear it — New Orleans sources describe them as an anytime food (dessert, afternoon snack, "midnight snack," available 24 hours at some venues), so they are staged as a snack/dessert scene, not breakfast. Cuban coffee and other beverage-adjacent venue context is noted only where directly relevant to a dish's staging, never catalogued as its own entry.
+
+**Typical use note** (carried forward from the five prior regional files' own calibration): expect the realistic use case to skew toward general, archetypal scenes — a po'boy counter, a crawfish boil, a Gulf Coast raw bar — more than hyper-local block-level staging.
+
+---
+
+## QUICK-REFERENCE: GENERIC SCENE REGISTERS
+
+| Generic scene type | What to draw on |
+|---|---|
+| **New Orleans po'boy shop/counter** | A no-frills, brightly lit counter-service sandwich shop — order counter, sandwiches wrapped in butcher paper, simple booth or table seating. Genericized per the trademark-avoidance rule. |
+| **Creole fine-dining restaurant** | A white-tablecloth, French-service-tradition dining room — formally attired waitstaff, dark wood or antique mirrors, a French-Creole menu — genericized from real 19th-century-founded restaurants. |
+| **French Quarter courtyard/balcony exterior** | Wrought-iron balconies over a narrow street, shuttered French doors, a private interior courtyard behind a street-facing masonry wall — a Spanish-colonial-era built form, not generic "Old South plantation" imagery. |
+| **Backyard/community crawfish boil** | A newspaper-covered table piled with bright-red boiled crawfish, corn, potatoes, and sausage, eaten by hand — a distinct, seasonal (spring) communal register, not a plated dish. |
+| **Gas-station/meat-market boudin counter** | A convenience-store or dedicated meat-market counter with a steam table or rice cooker holding fresh boudin links — a sharp "meal on the go" contrast to the national car-centric default, in the same spirit as Appalachia's pepperoni-roll finding. |
+| **Rural Cajun country restaurant / dance hall** | A plain wood-frame or cinderblock roadside restaurant — unpretentious, food- and music-not-decor register, boiled seafood and fried platters — genuinely distinct from a New Orleans French Quarter register. |
+| **Gulf Coast seafood house / raw bar** | A casual, oyster-bar-forward register (walk-up raw bar, fried-seafood combo platters, hushpuppies and slaw) — leans fried/oil-marinated, distinct from Chesapeake's steamed-and-dusted register and New England's steamed-and-buttered register. |
+| **West Indies salad / cold marinated crab lunch** | A chilled, oil-and-vinegar (never mayonnaise) blue-crab dish, genuinely Mobile-specific. Do not substitute a mayo-based crab salad or a Maryland-style crab cake. |
+| **Working shrimp-boat harbor** | Bayou La Batre and Biloxi's Back Bay/Point Cadet — weathered wooden and steel trawlers, rigged outrigger nets, working docks — a real, still-active industry, not a nostalgia set. |
+
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+## VENUE PROFILES
+
+(Added 2026-10-01 per `country-file-schema.md` §5.9, wave 1. Two profiles of this file's most distinctive staged venues, written as deltas from the national profiles in `us.md` VENUE PROFILES; anything not stated here follows the national profile. The Creole fine-dining room, French Quarter courtyard, boudin counter, Cajun country restaurant, Gulf Coast seafood house and shrimp harbor remain register rows for a later wave. Rules as nationally: nothing legible, no alcohol cues, no brand marks, never a full flag, no identifiable children, no more than about 2.5 background faces, none sharp.)
+
+#### Venue: Backyard or carport crawfish boil (home outdoor)
+- Use for: home outdoor (also church grounds or a company lot); spring weekends, roughly January to June, peak around Lent and Easter; 1 to small group at a paper-covered table (see register table, ENVIRONMENT: Cajun / Acadiana, CELEBRATIONS: Crawfish boil, catalog: **Boiled crawfish**). Replaces `us.md`'s backyard-deck profile for a Louisiana spring gathering: the boil rig, not a grill, is the centrepiece.
+- Soft background (the core): **back wall:** the boil station a few metres off: a tall aluminium or stainless pot (around 80 quarts) with a perforated basket insert on a low, wide propane burner, a long paddle leaning against it, a cloud of steam; a large ice chest or metal washtub beside it (lid shut) and mesh sacks of live crawfish on the ground [MEDIUM — crawfish-boil hosting guides (Tasting Table, Louisiana Kitchen & Culture, Cajun recipe sites): 80-qt pot with strainer basket, high-pressure propane burner, ice chests or washtub, paddle, newspaper-covered tables]. Behind that, the house: a carport or open garage with its posts, a raised-slab brick ranch or a raised cottage on piers, or a chain-link-fenced yard. **Middle distance:** one or more long folding tables or a purpose-built crawfish table (plywood or plastic with raised edges and a centre drain hole) covered in newspaper or butcher paper with the red pile running down the middle; folding chairs and camping chairs; paper-towel rolls on stands; a plastic sack of lemons. **Glows and bokeh:** humid spring daylight: bright overcast or soft sun through live-oak or pecan leaves with Spanish moss in south Louisiana; the steam plume backlit as a white haze; at golden hour, warm low sun through the steam; carport fluorescent tube as a pale line if it runs into dusk. **Palette:** bright brick-red crawfish, yellow corn, pale potatoes, steel-gray pot, newspaper gray-white (never legible), green lawn and oak, faded concrete of the carport. **Signature shapes:** the tall cylinder of the pot on its squat burner with steam; the long red mound on paper; a big rectangular ice chest; carport posts and a flat roof edge; live oak branches. **Density and wear:** relaxed and messy: shell piles at each place, wet paper, an empty mesh sack, kids' bikes out of frame; generational yard furniture. **People cues:** a figure in silhouette lifting the basket out (soft), blurred guests leaning over the table peeling, no face sharp.
+- Shell: outdoors: a carport, driveway or backyard of a brick ranch or raised house in Acadiana or suburban New Orleans; flat land.
+- The table as set here: newspaper or kraft paper over folding tables (or the crawfish table itself); no plates for most, or a paper plate or tray per person; paper towels; a small cup of crawfish dip; corn halves, red potatoes, sausage, garlic heads among the crawfish; a roll of paper towels as the napkin.
+- Subregional variants and the national default: Acadiana (prairie or bayou; see ENVIRONMENT landscape note) and Baton Rouge (default); New Orleans (smaller yards, shotgun-house backs, the boil in a driveway); Mississippi and Alabama Gulf Coast boil shrimp or crabs the same way. Default for "a Louisiana crawfish boil": a newspaper-covered folding table piled with red crawfish under a carport, a propane boil pot steaming behind and live oaks beyond.
+- Hallucination traps: alligators, airboats, swamp-tour props, men in waders, "Cajun" accent signage; Mardi Gras masks and beads at a spring boil; a Lowcountry boil on a dock (see `us-south.md`); a Maryland crab feast (mallets, Old Bay tins; see `us-mid-atlantic.md`); lobsters; a gas grill as centrepiece.
+- Never stage: beer (near-universal at real boils; the open ice chest of cans is the giveaway, so lids shut), legible newspaper headlines, seasoning brand labels, team colours that read as a specific team (see GAME NIGHT), hands holding a crawfish up to camera (anti-hand-holding rule).
+- Prompt-ready line: "A Louisiana backyard crawfish boil softly behind the table: a tall steel boil pot steaming on a propane burner under a carport, a shut ice chest beside it, newspaper-covered folding tables and live oaks with Spanish moss in hazy spring light."
+- Confidence and sources: MEDIUM-HIGH. Equipment and table [MEDIUM — hosting guides (Tasting Table plus recipe and vendor sites, low tier)]; format [HIGH — 64 Parishes and catalog sources, see CELEBRATIONS]; house types [HIGH — see ENVIRONMENT]; light and palette [EDITORIAL]. One search.
+
+#### Venue: New Orleans neighborhood po'boy shop (counter-service and corner-bar forms)
+- Use for: restaurant, indoor; lunch above all, 1 to small group; po'boys, red beans on Monday, a cup of gumbo (see register table and ENVIRONMENT: New Orleans / Louisiana Creole; catalog: **Po'boy**). Two real forms: the bright, no-frills counter shop (the register-table default) and the old corner-bar po'boy shop with a few tables.
+- Soft background (the core): **back wall:** the open sandwich counter: a long counter where po'boys are dressed to order, loaves of light French bread stacked or in bags, a deep fryer and a flat-top behind, butcher paper on a roll, a hand-lettered or plastic-letter menu board above (never legible). In the corner-bar form: worn wood paneling, photographs and memorabilia taped and framed on every surface (local sports heroes, famous visitors, old shop photos as a patchwork of small rectangles), black vinyl barstools at a counter [MEDIUM — Wikipedia: Domilise's Restaurant and 2foodtrippers: corner-bar charm, worn floor tiles, wood paneling, black vinyl stools, photos taped on the walls, an open po-boy counter you queue at]. **Middle distance:** a handful of small tables (Formica or wood) with mismatched chairs; a drinks cooler (soft, contents and labels not visible); a line of customers at the counter as blurred backs; a ceiling fan. **Glows and bokeh:** the counter-shop form is evenly bright (fluorescent, white walls); the corner-bar form is dimmer and browner, lit by a few fixtures and the street door; front windows or an open door onto a sunny Uptown or Mid-City corner with a shotgun house or a corner-store facade beyond; a ceiling fan's slow blur. **Palette:** counter shop: white walls, stainless, red and white accents; corner bar: dark wood paneling, yellowed photos, worn black-and-white or red floor tiles, black vinyl; in both, golden fried shrimp and oyster tones, white butcher paper. **Signature shapes:** the long counter with stacked French loaves; a wall collage of small photos; a slowly turning ceiling fan; small square tables; a bright doorway onto the street. **Density and wear:** timeworn and crowded at lunch, small (a handful of tables); nothing curated. **People cues:** a counter worker in a T-shirt and apron dressing a loaf (soft), two or three backs in line.
+- Shell: corner building in a residential neighbourhood, often a converted corner store or bar on the ground floor of a two-storey frame building with a gallery overhead; tile or linoleum floor; pressed-tin or plain ceiling [LOW — not verified].
+- The table as set here: the po'boy unwrapped on its butcher paper or on a plain plate or plastic basket, cut in half; paper napkins, a bottle of Louisiana-style hot sauce (label unreadable), ketchup; chips in a bag (unbranded) or fries; a plastic cup of pickles optional; chair edges in frame.
+- Subregional variants and the national default: Uptown and Mid-City corner shops (default); suburban Metairie and the Northshore (strip-mall counter shops); Cajun country (po'boys from gas-station and plate-lunch counters; see boudin counter register). Default for "a New Orleans po'boy shop": a small corner shop with an open sandwich counter of stacked French loaves, wood paneling covered in taped photos and a few small tables near a sunny doorway.
+- Hallucination traps: the French Quarter (wrought-iron balconies, Bourbon Street, jazz musicians at the door) as every New Orleans backdrop; Mardi Gras masks, beads and purple-green-gold everywhere; voodoo shop props; a Cajun dance hall; a Philadelphia hoagie or NYC deli look; a sub-sandwich chain counter.
+- Never stage: the bar's bottles, beer taps or neon beer signs (in the corner-bar form, crop the bar to a soft wood band with nothing on it); legible menu boards, photos of real, recognisable people (sports stars, celebrities) in focus, team logos (the Saints' fleur-de-lis mark), hot-sauce brands.
+- Prompt-ready line: "A neighborhood New Orleans po'boy shop softly behind the table: an open sandwich counter with stacked loaves of French bread, worn wood paneling covered in small taped-up photographs, a slow ceiling fan and a bright doorway onto a sunny residential corner."
+- Confidence and sources: MEDIUM. Corner-bar form [MEDIUM — Wikipedia: Domilise's Restaurant, 2foodtrippers, Michelin guide listing]; bright counter form [see register table and ENVIRONMENT]; shell and light [LOW/EDITORIAL]. One search.
+
+**Sources for this section:** [Tasting Table — Your guide to hosting a crawfish boil](https://www.tastingtable.com/1170741/your-guide-to-hosting-a-crawfish-boil/); [Louisiana Kitchen & Culture — Louisiana crawfish boil](https://louisiana.kitchenandculture.com/recipes/louisiana-crawfish-boil); [Blackberry Babe — How to host a Louisiana crawfish boil (recipe blog, low tier)](https://blackberrybabe.com/2016/05/03/authentic-louisiana-crawfish-boil/); [Wikipedia — Domilise's Restaurant](https://en.wikipedia.org/wiki/Domilise%27s_Restaurant); [2foodtrippers — Best po' boys in New Orleans](https://www.2foodtrippers.com/best-po-boy-in-new-orleans/). Search snippets only.
+
+---
+
+## ZONE CHARACTERIZATIONS
+
+### New Orleans / Louisiana Creole
+
+New Orleans/Creole food culture clears the "would swapping this zone's norms into Cajun/Acadiana or Deep South content look visibly wrong" test on multiple independent, causally-explained grounds. New Orleans was founded by the French in 1718, ceded to Spain in 1762 (Spanish rule until 1803), and over nearly 300 years absorbed successive waves of settlement from France, Spain, West Africa, the Caribbean (notably a large Saint-Domingue/Haitian refugee wave), the Canary Islands, Germany, and Italy — a dense, urban, port-city, multi-ethnic layering with no equivalent in rural Acadiana's settlement story. "Creole" itself is a term whose meaning shifted with this history: it originally denoted people of French/European descent born in the colony, later expanding to include people of mixed French, Spanish, African, and Caribbean heritage, including a free-people-of-color artisan class unique to New Orleans. This class's kitchens — and critically, the enslaved and free African and Caribbean cooks who staffed them — are what most sources credit as the primary shaping hands of Creole cuisine itself. [CONFIDENCE: HIGH] [SOURCE: [Historic New Orleans Collection — What's the Difference Between Cajun and Creole?](https://hnoc.org/publishing/first-draft/whats-difference-between-cajun-and-creole-or-there-one)] The urban/rural axis is the cleanest single dividing line sources reach for: Creole is New Orleans's port-city, cosmopolitan cuisine (tomatoes and other imported/traded ingredients were easy to get at a major port, hence Creole gumbo's and jambalaya's tomato use); Cajun is Acadiana's rural, one-pot, home-kitchen cuisine built on what a farming/trapping/fishing household had on hand. A distinct, causally-explained built environment reinforces the split: French Quarter architecture is a directly Spanish colonial legacy — two catastrophic fires (1788, 1795) during Spanish rule forced rebuilding in masonry, brick, and wrought iron, with a fire-safety building code pushing street-facing walls to the property line and outdoor living space to a private rear courtyard.
+
+**What this zone characterization is not claiming**: New Orleans/Creole food is not internally uniform either — a Creole fine-dining register (white-tablecloth, French-service tradition) and an everyday po'boy-counter/red-beans-Monday register are both genuinely part of this zone's identity. **Caricature-avoidance note**: not every New Orleans scene should default to Bourbon Street/French Quarter tourist imagery — the city's residential neighborhoods (Creole cottages, shotgun houses, the Garden District, Bywater, Treme) are equally authentic settings.
+
+### Cajun / Acadiana
+
+Cajun/Acadiana culture is distinct from New Orleans/Creole on causal, not just nominal, grounds. Le Grand Dérangement — the British Crown's forced expulsion of the French-speaking Acadian population from Nova Scotia beginning in 1755 — scattered roughly 10,000–13,000 Acadians across the British colonies, England, France, the Caribbean, and elsewhere. Louisiana resettlement began in 1764 and continued through 1788, and crucially, these refugees were granted land along the bayous and river prairies **above New Orleans, not settled in the city itself.** [CONFIDENCE: HIGH] [SOURCE: [Acadian Memorial — Acadian Immigration Into South Louisiana, 1764–1785](https://acadianmemorial.org/acadian-immigration-into-south-louisiana-1764-1785/)] This rural-vs-urban settlement split is the causal root of the whole cuisine/culture distinction: Cajuns developed a rural agrarian material culture in the bayou/prairie country, while Creole identity developed in cosmopolitan, multi-ethnic New Orleans. The two populations also developed genuinely separate French dialects along the same urban/rural line, and the region carries its own official geographic designation: **Acadiana**, 22 parishes formally recognized by the Louisiana State Legislature in 1971. [CONFIDENCE: HIGH] [SOURCE: [Wikipedia: Acadiana](https://en.wikipedia.org/wiki/Acadiana)] The result: Creole cuisine blends French technique with Caribbean and African influence via cosmopolitan port kitchens (tomato-based gumbo, red jambalaya, butter-based roux); Cajun cuisine reflects rural, land- and bayou-based traditions (crawfish boils, boudin, dark-roux gumbo, oil/lard-based cooking).
+
+**What this zone is not claiming**: Acadiana is not a food-culturally uniform monolith — prairie Cajun country (rice/crawfish farming, around Crowley/Eunice) and bayou/coastal Cajun country (Houma, Terrebonne, closer to the working Gulf fishing economy) are two real sub-registers a future pass could split further; not attempted here. **Caricature-avoidance note**: not every Acadiana scene should default to a crawfish boil or a bayou dock — Lafayette and the region's other small cities have ordinary suburban housing and daily life consistent with `us.md`'s national baseline.
+
+### Mississippi & Alabama Gulf Coast
+
+This coast clears the distinctness test against inland Deep South (`us-south.md`) on causal grounds, and clears a second, more interesting test: it is not merely "New Orleans Creole food served in another state." Three independent lines of evidence support this. First, genuine settlement/colonial-history independence from New Orleans, in places predating it: Mobile was founded in 1702 as the first capital of French colonial Louisiana — 16 years before New Orleans (1718) — and hosted the first documented Mardi Gras celebration in North America (1703, with continuous celebration from roughly 1710 to 1860, predating New Orleans's own Mardi Gras by over a century); multiple sources describe gumbo itself as having developed on the Gulf Coast, including Mobile, independent of and prior to New Orleans's existence as a city. [CONFIDENCE: HIGH for Mobile's founding and Mardi Gras precedence; MEDIUM for gumbo's Mobile-predates-New-Orleans framing specifically] [SOURCE: [Wikipedia: History of Mobile, Alabama](https://en.wikipedia.org/wiki/History_of_Mobile,_Alabama); [HISTORY — First Mardi Gras: Not in New Orleans?](https://www.history.com/articles/first-mardi-gras-mobile-alabama-new-orleans)] Second, a real, documented Creole-cuisine import — exactly the mechanism `us-south.md` flagged, now independently re-confirmed: the Mississippi Encyclopedia's "Gulf Coast Cuisine" entry states that wealthy New Orleans vacationers brought their Creole recipes and refined dining tastes to this coast, naming trout meunière, oysters Rockefeller, oysters Bienville, and crawfish étouffée specifically. [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Mississippi Encyclopedia — Gulf Coast Cuisine](https://mississippiencyclopedia.org/entries/gulf-coast-cuisine/)] Third, locally-invented dishes, industries, and natural phenomena with no New Orleans equivalent at all: West Indies salad and fried crab claws (both invented in 1947 at one Mobile-area restaurant), Royal Red shrimp (an Alabama-specific deep-water species), the Mobile Bay Jubilee (a rare natural phenomenon occurring reliably in only two places on Earth), and Biloxi's own sequential immigrant-labor history (Croatian/Dalmatian oystermen from ~1880, then Vietnamese-American shrimpers from the late 1970s) — a different composition from New Orleans's own immigrant history.
+
+**What this zone characterization is not claiming**: this is not "New Orleans Creole food in another state," nor is it culturally uniform with inland Alabama/Mississippi. Not every dish here is equally coast-original: West Indies salad and fried crab claws are coast-original; gumbo is claimed as coast-original by MEDIUM-tier sources with a genuine independent history but is not visually distinct from Louisiana's versions; trout meunière/oysters Bienville/Rockefeller are honestly labeled as Creole imports, real and locally embraced, not local inventions. **Caricature-avoidance note**: not every Mobile or Biloxi/Gulfport scene should default to a seafood house or Mardi Gras register — ordinary suburban and small-city housing along this coast (much of it rebuilt post-Katrina in Mississippi specifically) follows `us.md`'s national baseline just as often.
+
+---
+
+## TRUSTED CONTENT
+
+### Gulf-South-wide
+
+- **The "holy trinity" (onion, celery, bell pepper) is the shared aromatic base of Cajun and Creole cooking alike, but the two traditions treat it differently, and that treatment — not the vegetables themselves — is the real point of distinction.** Cajun cooking sautés the trinity in oil or lard, omits tomato, and produces a smokier, earthier result; Creole cooking more often uses butter and incorporates tomato, reflecting New Orleans's city-kitchen, port-access register. Garlic is frequently added as a fourth element. [CONFIDENCE: HIGH] [SOURCE: [Explore Louisiana — The Holy Trinity of Cajun Cooking](https://www.explorelouisiana.com/culinary/recipes/behold-holy-trinity-cajun-cooking)]
+- **Tomato use is the single most reliable checkable marker distinguishing Creole from Cajun preparations of a shared-name dish** (gumbo, jambalaya) — Creole versions more often include it, tracing to New Orleans's port-city access to imported/traded tomatoes; Cajun rural-Acadiana versions are more often tomato-free. A real, sourced pattern, not an absolute rule. [CONFIDENCE: HIGH]
+- **Filé powder (ground dried sassafras leaves) is a real, distinct thickening/flavoring agent, added at the table or off the heat, never simmered** — simmering causes it to turn stringy/ropey. Not every gumbo uses filé; roux-thickened and filé-finished gumbo are two real, coexisting methods. [CONFIDENCE: HIGH]
+
+### New Orleans / Louisiana Creole
+
+- **New Orleans French bread is a genuinely distinct bread, not a generic baguette or Italian sub roll** — made with a higher water/lower flour ratio, giving an unusually light, airy, cottony crumb and a thin, crackly-crisp crust that shatters into flakes. [CONFIDENCE: HIGH] [SOURCE: [Explore Louisiana — Po'Boys](https://www.explorelouisiana.com/articles/poboys-louisianas-most-famous-sandwich)]
+- **Rice is the near-universal starch base for wet/saucy Creole mains** (gumbo, jambalaya's rice component, shrimp Creole, red beans) — always plain white steamed rice, mounded in the bowl/plate rather than mixed loosely throughout (gumbo specifically is ladled around a central mound, not stirred together before serving). [CONFIDENCE: MEDIUM-HIGH]
+
+### Cajun / Acadiana
+
+- **Roux is a defining Cajun technique with a visually trackable color progression**: white → blond → "peanut butter" → "copper penny" → milk-chocolate brown → dark/bittersweet-chocolate brown, achieved by slowly, continuously stirring flour into hot oil or lard, with darker stages taking 45–60+ minutes. Cajun cooking favors the darker end of this scale for its smoky depth — a genuinely different visual/flavor target than a Creole gumbo's typically lighter blond-to-medium roux. [CONFIDENCE: HIGH]
+- **Cajun seasoning blends are a genuine, branded, widely-recognized table/pantry norm** — Tony Chachere's (founded 1972, Opelousas, Acadiana) and Zatarain's are the most commonly cited named brands. **Prompt-writing note**: describe a generic seasoning canister/shaker rather than reproducing a specific brand's label design. [CONFIDENCE: MEDIUM-HIGH]
+- **Crawfish are seasonal**, with the boiling/eating season running roughly February through June and peaking March–May — a real, checkable constraint on any crawfish-boil staging. [CONFIDENCE: HIGH]
+
+### Mississippi & Alabama Gulf Coast
+
+- **Gulf shrimp and Gulf oysters are the coast's structural protein, not an occasional seafood option** — Biloxi was self-described as "The Seafood Capital of the World" by the turn of the 20th century; by 1930, Biloxi canneries alone had packed 20,000,000 cans of oysters and shrimp. [CONFIDENCE: HIGH] [SOURCE: [Mississippi History Now — The Seafood Industry in Biloxi](https://www.mshistorynow.mdah.ms.gov/issue/the-seafood-industry-in-biloxi-its-early-history-1848-1930)]
+- **Two distinct, sequential immigrant communities layer onto this coast's seafood workforce and foodways**, both genuinely Gulf-Coast-specific: a Croatian/Dalmatian ("Slavonian") oystering community from roughly 1880 onward (the Slavonian Lodge founded 1913 in Biloxi), and a Vietnamese-American shrimping community that settled East Biloxi's Point Cadet and Back Bay from the late 1970s onward as refugees. Both communities are predominantly Catholic and both participate in Biloxi's annual Blessing of the Fleet (begun 1929). [CONFIDENCE: MEDIUM-HIGH] [SOURCE: [Biloxi Historical Society — Seafood](https://biloxihistoricalsociety.org/seafood)]
+- **The Mobile Bay Jubilee is a real, rare, geographically narrow natural phenomenon** — oxygen-poor bottom water forces flounder, eels, blue crab, and shrimp into the shallows along Mobile Bay's upper eastern shore on warm, still summer nights; residents rush to the water with washtubs, gigs, and nets. First documented mention: 1867. [CONFIDENCE: HIGH] [SOURCE: [Alabama Cooperative Extension System — The Jubilee Phenomenon](https://www.aces.edu/blog/topics/aquaculture/the-jubilee-phenomenon/)]
+- **Mobile's Mardi Gras is a genuinely distinct celebration from New Orleans's, not a smaller copy** — same core French-Catholic Carnival tradition and king-cake custom, but Mobile's mystic societies adopted MoonPies as their signature parade throw (roughly half a million thrown per season, alongside beads). **Important nuance**: the MoonPie itself is a Chattanooga, Tennessee product, not a Gulf Coast-invented food — only the local custom of throwing it during Carnival is Mobile-specific. [CONFIDENCE: HIGH]
+- **A claim found and explicitly not carried forward**: a tourism-tier source stated "about 70% of the domestic shrimp and oyster production comes from the Mississippi Sound" — this could not be corroborated, and contradicts Mississippi State University Extension data (Mississippi at roughly 0.13% of total US seafood-industry sales value). Flagged as a likely exaggeration, not used elsewhere in this file.
+
+---
+
+## VISUAL & PLATING NORMS
+
+### New Orleans / Louisiana Creole
+
+- **Dark roux color is this zone's single most checkable "doneness" marker for gumbo and some étouffée.** A properly cooked Creole/dark roux reads as a deep, glossy, even brown — "between peanut butter and dark chocolate." A pale, light-tan roux is a real, visible error.
+- **Gumbo's finished-bowl look**: a dark reddish-brown to deep mahogany broth (tomato, when present, tints rather than dominates), visibly flecked with the holy trinity's diced vegetables and pieces of protein, ladled around — not stirred into — a central mound of white rice sitting slightly proud of the broth's surface.
+- **The po'boy's bread is the zone's most important texture/finish tell** — see the Po'boy entry below; a dense, chewy, Italian-sub-style crust is one of the most common and checkable authenticity failures for this zone's signature dish.
+- **Melted-cheese and sauce finishes lean glossy/wet rather than dry** — debris gravy soaking into a roast beef po'boy, gravy pooling under shrimp Creole's rice, and a dark roux's own sheen are all part of a consistent "wet, glossy, sauce-forward" visual identity.
+
+### Cajun / Acadiana
+
+- **Dark, saturated brown is this zone's signature palette** — the deep milk-chocolate-to-bittersweet-chocolate roux color anchors gumbo, étouffée, and other stews; Cajun ("brown") jambalaya gets its color from browned meat and caramelized vegetables rather than tomato. A brief specifying "Cajun" should read distinctly browner and less red than one specifying "Creole" on these particular dishes.
+- **Bright, saturated red is the crawfish boil's signature color note** — crawfish shells turn vivid red when boiled, set against yellow corn on the cob, red-skinned potatoes, and sliced smoked sausage.
+- **Rustic, communal, family-style presentation is the norm for this zone's most staging-relevant dishes** — a crawfish boil is dumped directly onto a newspaper-covered table for everyone to eat by hand, not individually plated.
+
+### Mississippi & Alabama Gulf Coast
+
+- **This coast's seafood register leans fried and oil-marinated**, in real, checkable contrast to Chesapeake's steamed-and-dry-seasoned register (`us-mid-atlantic.md`) and New England's steamed-and-butter register (`us-northeast.md`). West Indies salad is the coast's one signature cold, oil-and-vinegar register — glistening, translucent-looking crab lumps, never a thick, opaque mayonnaise coating. These two registers (hot-fried vs. cold-marinated) should not be blended in a single scene without a specific reason to.
+- **Honesty flag, not an invented distinction**: raw Gulf oysters on the half shell follow the same general presentation convention as Chesapeake's and Apalachicola's (`us-florida.md`) — this pass did not find a strong, independently sourced visual differentiator between the species as served on this coast versus elsewhere.
+
+---
+
+## ENVIRONMENT & STAGING SCENES — zone deltas from `us.md`'s national baseline
+
+### New Orleans / Louisiana Creole
+
+- **French Quarter exterior architecture** is a real, sourced, Spanish-colonial-driven built environment: cantilevered or lacy cast-iron balconies overhang narrow streets; ground-floor facades sit flush to the property line with shuttered French doors; a private interior courtyard sits behind and is not visible from the street. [CONFIDENCE: HIGH]
+- **Two genuinely distinct residential vernaculars** are both more representative of ordinary New Orleans life than French Quarter commercial architecture: the **shotgun house** (narrow, one room wide, rooms in a single file front-to-back, raised on brick piers) and the **Creole cottage** (low, steep roofline, built close to the sidewalk, historically without an interior hallway). [CONFIDENCE: HIGH]
+- **The po'boy shop/counter register**: a plain, brightly lit, no-frills counter-service sandwich shop; sandwiches assembled to order and wrapped in butcher paper. **Per the trademark rule**, describe the generic category, never a specific business.
+- **The Creole fine-dining register**: white tablecloths, formally dressed waitstaff, dark wood, antique mirrors, a printed menu, a slower multi-course pace, genericized from real 19th-century-founded restaurants.
+- **Jazz-adjacent dining ("jazz brunch") is a real, sourced, distinctly New Orleans register, best treated as a lunch/early-afternoon scene, not breakfast** — a small 3-to-5-piece combo playing softer background music in a dining room or courtyard, distinct from a full brass-band parade register.
+- **The Monday red-beans-at-home scene** is a genuine, well-sourced home-cooking register — an everyday kitchen, a pot simmering for hours, unhurried and informal.
+
+### Cajun / Acadiana
+
+- **The crawfish boil is arguably the single most staging-relevant Cajun/Acadiana scene and deserves treatment as its own environment register, not folded into a plated-dish entry.** Live crawfish, corn, red-skinned potatoes, and smoked sausage are boiled together with cayenne-forward seasoning, then dumped directly onto a table covered in newspaper or butcher paper — not plated individually. Setting: typically a backyard, driveway, or open outdoor space with folding tables, ice chests, and casual seating — no grill is the centerpiece; a large propane boiling pot/burner rig is. **Per the anti-hand-holding rule**, show hands actively engaged with crawfish resting on the table/pile, not a single crawfish held up in isolation. [CONFIDENCE: HIGH]
+- **The gas-station/meat-market boudin counter is a genuine, sharp "meal on the go" contrast to the national car-centric default**, in the same spirit as Appalachia's pepperoni-roll gas-station finding — fresh boudin sold hot, ready-to-eat, at gas stations and convenience stores as much as dedicated meat markets, historically because early vendors lacking their own storefronts rented counter space at a filling station. A glass-front warming case or steam table/rice-cooker warmer holds coiled links, often alongside cracklins. [CONFIDENCE: HIGH] [SOURCE: [Smithsonian Magazine — Find Out Why Boudin Is Louisiana's Most Famous Sausage](https://www.smithsonianmag.com/travel/louisiana-boudin-180960105/)] Scott, Louisiana holds the legislatively-designated "Boudin Capital of the World" title (2012); LaPlace, Louisiana holds a parallel "Andouille Capital of the World" designation. **Prompt-writing note**: cite these for authenticity, describe a generic Acadiana gas-station or meat-market counter in an actual prompt.
+- **The rural Cajun country restaurant / dance hall register**: a plain, unpretentious wood-frame or cinderblock roadside building serving boiled crawfish (seasonally), fried seafood platters, and gumbo, food- and hospitality-forward rather than decor-forward. The Cajun dance hall ("fais do-do") is a related, distinct historical/social institution — rustic, barn-like wooden ballrooms hosting live Cajun/zydeco music — more useful as background/atmosphere context than a primary food-staging scenario. [CONFIDENCE: MEDIUM]
+- **Landscape note**: prairie Acadiana (rice fields, flat farmland, crawfish ponds) and bayou/coastal Acadiana (cypress, Spanish moss, marsh) are two real, visually distinct sub-registers of "rural Cajun country" — a generic backdrop can draw on either.
+
+### Mississippi & Alabama Gulf Coast
+
+- **The Gulf Coast seafood house/raw bar is this zone's single most distinct "away from home" register**, genuinely different from Chesapeake's crab house or Apalachicola's raw bar (`us-florida.md`): less mallet-and-picking-tool-driven, more oriented around a walk-up raw bar plus a fried-seafood-combo-platter kitchen. A real, sourced interior-decor convention exists at longstanding Mobile oyster bars specifically: walls densely covered in hand-lettered signs, humorous sayings, and memorabilia. **Prompt-writing note**: describe the generic category, kept unreadable per the no-legible-text rule, never a specific named business. [CONFIDENCE: MEDIUM-HIGH]
+- **A working shrimp-boat harbor is a real, distinct, non-restaurant staging register specific to this coast** — Bayou La Batre and Biloxi's Back Bay/Point Cadet remain active shrimping harbors: weathered wooden and steel trawlers with rigged outrigger booms, working docks, ordinary working-waterfront clutter, not a nostalgia set. [CONFIDENCE: HIGH]
+- **The Mobile Bay Jubilee offers a genuinely unique, rare, non-restaurant outdoor foodways scene**: a shallow bay shoreline at dawn or under a full moon, residents wading in with washtubs, gigs, and nets — a rare event, not a daily-occurrence staging default.
+- **Mobile's historic downtown offers a genuine French/Spanish colonial architectural register, distinct from but visually related to New Orleans's French Quarter** — Creole-cottage-type buildings and a reconstructed colonial-era fort amid cobblestone streets. **Prompt-writing note**: describe the generic category, take care not to render this as a duplicate of the French Quarter specifically. [CONFIDENCE: MEDIUM-HIGH]
+- **A post-1990s casino-resort dining register is real and coastal-Mississippi-specific (Biloxi/Gulfport)**, with no Alabama-coast equivalent at this scale — a large-scale hotel buffet or steakhouse setting, layered on top of, not replacing, the older seafood-shack register. [CONFIDENCE: HIGH for the economic facts; MEDIUM for the specific dining-register visual detail]
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.7. The national layer, including how US large gatherings work and the Thanksgiving, Fourth of July, Christmas, Easter, birthday, graduation, wedding and baby-shower entries, lives in `us.md`'s CELEBRATIONS & LARGE GATHERINGS section and applies here unchanged. This file has no festivals register, so this section sits after ENVIRONMENT & STAGING SCENES; the crawfish boil already has its own register there (Cajun / Acadiana) and is deepened below, not restated. Party size means the place settings in frame, never the size of the gathering.)
+
+**What differs from the national "how gatherings work" block:** Gulf South gatherings are built around a **single big pot or a pour-out**: a crawfish or seafood boil dumped on a paper-covered table, a gumbo or jambalaya pot ladled onto rice, a boucherie's pork dishes. Paper plates and bare hands are normal; the shared vessel is the pot or the table itself rather than a ring of casseroles. The Carnival season (Epiphany to Fat Tuesday) adds a second calendar layer that exists nowhere else in the US. Seasonal timing matters: crawfish boils run roughly January to June, peaking in spring; gumbo weather is autumn and winter. [EDITORIAL, grounded in the ENVIRONMENT register and catalog sources]
+
+#### Celebration: Crawfish boil
+- Type: community or family gathering (spring; also birthdays, graduations, church and company parties)
+- When: roughly January to June, peaking around Lent and Easter, Saturdays and Sundays from early afternoon. Intake time of day: **midday** or **golden-hour**, outdoors.
+- Gathering: family, friends, neighbours or co-workers, ~15 to 60 [EDITORIAL]. Venue: home outdoor (backyard, driveway, carport) or other (church grounds, a park, a company lot). See ENVIRONMENT, Cajun / Acadiana, for the setting.
+- The spread: see catalog: **Boiled crawfish** for the pile and its composition block (crawfish, corn, red potatoes, smoked sausage, garlic heads, lemon). Around it: sometimes a dip (a mayonnaise-ketchup "crawfish dip"), saltines, and for non-eaters hot dogs or a pot of jambalaya (see catalog: **Cajun jambalaya ("brown jambalaya")**). Vessels: the big aluminium boil pot and basket on a propane burner, plastic tubs or a purpose-built crawfish table with a centre drain; one long pile per table.
+- Snapshot staging:
+  - **1 setting:** a stretch of paper-covered folding table with the red pile running through, one place's area with a small heap of peeled tails and empty shells, a half-cob of corn and a red potato in front. In frame: a roll of paper towels and a small cup of dip. Cues: the pile runs out of frame both ways; the propane burner and pot with steam soft behind.
+  - **2 settings:** two places across the pile, each with its own shell heap, the pile between them. Cues: a second table soft behind; blurred figures leaning in to peel (no faces sharp).
+  - **Small group (3 to 4 settings):** a full table width with identical shell heaps at each place and a fresh basket just dumped in the middle with steam. Cues: a figure in silhouette lifting the basket; folding chairs; live oak or carport post at the frame edge.
+- Decor and cues: newspaper or butcher paper (no legible text), paper-towel rolls, a propane rig, a plastic sack of lemons, an ice chest with its lid shut. Clichés to avoid: alligators or swamp-tour props, "Cajun" accent signage, a man in waders.
+- Never stage: beer (near-universal at real boils; the open ice chest full of cans is the most common giveaway, so keep coolers shut or out of frame); hands holding a crawfish up to camera (anti-hand-holding rule, as in the catalog entry); the head-sucking gesture in hero position.
+- Confidence and sources: [HIGH for the format — 64 Parishes and the catalog sources]; headcount and side dishes [EDITORIAL].
+
+#### Celebration: Carnival season — king cake party and the parade-route picnic
+- Type: calendar holiday (season from 6 January, Twelfth Night, to Fat Tuesday, the day before Ash Wednesday)
+- When: weekends and weeknights through the season. Two scenes: a **king cake party** at home, school or office (any time of day; stage a **midday** or afternoon scene), and the **parade-route picnic** where families claim a spot hours before a parade (afternoon into **golden-hour**). Fat Tuesday itself is the peak.
+- Gathering: king cake party: family, friends or co-workers, ~6 to 20, with whoever gets the baby buying the next cake [HIGH for the custom — catalog sources]; parade picnic: multi-family groups along St. Charles Avenue and other Uptown routes, with ladders, folding chairs and picnic baskets; the Uptown route is described as family-friendly [MEDIUM — New Orleans & Company, Time Out]. Venue: home indoor or office; other (the street's neutral ground for the picnic). Mobile has its own older Carnival, with MoonPies thrown from floats (see TRUSTED CONTENT, Mississippi & Alabama Gulf Coast).
+- The spread: see catalog: **King cake** for the cake and its slice. Party: the king cake on its board or opened box, plus whatever the host serves (a pot of red beans or gumbo for an evening party; see catalog: **Red beans and rice**, **Gumbo (Creole/New Orleans style)**). Parade picnic: fried chicken in a bucket or foil tray, po'boys cut into sections (see catalog: **Po'boy**), muffuletta wedges (see catalog: **Muffuletta**), chips, and king cake [MEDIUM — New Orleans & Company and Time Out note picnics and BBQs; the specific foods are EDITORIAL].
+- Snapshot staging:
+  - **1 setting (king cake party):** a small paper plate with one king cake slice, its yellow crumb and cinnamon swirl showing. In frame: the ring with one wedge gone, purple-green-gold sugar bands, partly cropped. Cues: a strand of purple, green and gold beads on the table edge (one, not a pile); blurred co-workers or family behind.
+  - **2 settings (parade picnic):** a folding table or cooler-lid surface: two identical paper plates with fried chicken and a po'boy section each; a tray of muffuletta wedges and the king cake box corner between them. Cues: a parade ladder with a seat box at the frame edge; beads hanging from an oak branch; a soft crowd line far behind.
+  - **Small group (3 to 4 settings):** a stretch of picnic table or folding table on the neutral ground with identical plates, the chicken tray and king cake in the middle, cropped. Cues: folding chairs in a row; live oaks with beads; a float's colours blurred in the far distance.
+- Decor and cues: purple, green and gold; a few beads; live oaks on St. Charles; ladders. Clichés to avoid: masks and feathers on everyone, Bourbon Street, bead-throwing excess, any nudity or "flashing" association (never).
+- Never stage: drinking (go-cups, beer, daiquiris; the French Quarter party register is drinking-led and out of scope); Ash Wednesday or any religious element; legible krewe names or emblems; the plastic baby in a way that suggests a choking hazard to a child.
+- Confidence and sources: king cake custom [HIGH]; parade picnic [MEDIUM]; foods and headcounts [EDITORIAL].
+
+#### Celebration: Boucherie (communal hog cooking day)
+- Type: community or family gathering (traditionally late autumn and winter; now also a festival format)
+- When: historically cold-weather months, starting before dawn; the shared meal is late morning to midday. Intake time of day: **midday**.
+- Gathering: neighbouring families sharing the work and the meat (traditionally rotating whose hog was used), now also community festivals; ~20 to 80 [EDITORIAL]. Venue: home outdoor (a farmyard or large backyard) or other (a festival ground, a church). Acadiana and southeast Louisiana [HIGH — Smithsonian Folklife Festival 1985 program, TravelMag, Rouses Markets, Lafayette Travel].
+- The spread: nose-to-tail pork dishes cooked on site in big black iron pots: cracklins (gratons) fried in a cast-iron cauldron, boudin blanc and boudin rouge, backbone stew, pork rice-and-gravy, hog's head cheese, with white rice and bread [HIGH — same sources]. See catalog: **Boudin (boudin blanc)**, **Cracklins (gratons)**, **Andouille sausage**. **Backbone stew** has no catalog entry: a dark brown, roux-based gravy with bone-in pork backbone pieces, spooned over a mound of white rice in a shallow bowl or on a plate (see CANDIDATE QUEUE).
+- Snapshot staging:
+  - **1 setting:** a plate with a scoop of white rice under backbone stew, a link of boudin, a few cracklins. In frame: a paper sack of cracklins and the edge of a black iron pot on a burner. Cues: steam and woodsmoke; the long table running out of frame; blurred neighbours at the pots.
+  - **2 settings:** two identical plates on a picnic table; a pan of boudin links and a sack of cracklins between them. Cues: a cast-iron cauldron with a long paddle soft behind; a barn or oak.
+  - **Small group (3 to 4 settings):** a stretch of table with identical plates, a rice pot and a stew pot cropped at the sides. Cues: more people around the outdoor cooking station (soft); folding chairs.
+- Decor and cues: black iron pots and cauldrons, long paddles, butane burners, a farmyard. Clichés to avoid: a hog with an apple in its mouth, swamp props.
+- Never stage: the slaughter, carcass, blood or butchering (crop strictly to cooked food); alcohol.
+- Confidence and sources: tradition and dishes [HIGH — Smithsonian Folklife program, TravelMag, Rouses, Lafayette Travel]; headcount [EDITORIAL].
+
+**Sources for this section:** [64 Parishes — Crawfish boils](https://64parishes.org/entry/crawfish-boils); [New Orleans & Company — Ultimate Mardi Gras guide](https://www.neworleans.com/events/holidays-seasonal/mardi-gras/the-ultimate-mardi-gras-guide/); [New Orleans & Company — King cakes](https://www.neworleans.com/events/holidays-seasonal/mardi-gras/king-cakes/); [Time Out — Guide to New Orleans Mardi Gras](https://www.timeout.com/new-orleans/a-guide-to-new-orleans-mardi-gras); [Smithsonian Folklife Festival 1985 program book (PDF)](https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1985_05.pdf); [TravelMag — Louisiana's community boucherie](https://www.travelmag.com/one-pig-becomes-an-entire-feast-at-louisianas-old-school-community-boucherie/); [Rouses Markets — Boucherie & charcuterie](https://www.rouses.com/about/blog/boucherie-charcuterie/); [Lafayette Travel — Cajun pork specialties](https://www.lafayettetravel.com/blog/stories/post/a-primer-on-unpronounceable-foodstuffs/).
+
+---
+
+## GAME NIGHT — regional deltas from `us.md`
+
+(Added 2026-10-01 per `country-file-schema.md` §5.8. The national entries in `us.md` GAME NIGHT apply; the delta is the **pot-cooked tailgate and watch-party spread**, which replaces burgers and wings with gumbo, jambalaya and boudin. Party size means the place settings in frame.)
+
+#### Watch party: LSU Saturday or Saints Sunday (gumbo-and-jambalaya tailgate and home party)
+- When: college Saturdays and NFL Sundays, September to January [LOW — not verified]. Stage **midday** or **golden-hour** for a tailgate (hot, humid early-season light); LSU's night games make **evening** a strong option, with tent lights and a pot steaming under them [LOW — not verified].
+- Gathering: family and friends, 10 to 30 around a big pot, among thousands in the lots [EDITORIAL]. Venue: **other**: stadium lots and campus grounds under canopies; **home indoor or outdoor** for an away game or a Saints Sunday.
+- The spread: Louisiana gumbo and jambalaya are the regional tailgate signature [MEDIUM — KTXS, best college tailgate foods by region, via the research notes], cooked in large black cast-iron or aluminium pots on propane burners; boudin and boudin balls as handheld snacks [LOW — not verified]. Link: see catalog: **Cajun jambalaya ("brown jambalaya")** or **Jambalaya (Creole/"red" style)** (Cajun brown is the likelier tailgate pot in Acadiana and Baton Rouge [LOW — not verified]), **Cajun gumbo** or **Gumbo (Creole/New Orleans style)**, **Boudin (boudin blanc)**, **Boudin balls**. Served in foam or paper bowls and on paper plates. In spring (crawfish season), a March Madness watch can run alongside a crawfish boil: see CELEBRATIONS: **Crawfish boil** [LOW — not verified].
+- Surface and environment: a folding table under a canopy, a big pot on a burner at the frame edge with a long paddle, a stack of foam bowls, a rice cooker; humid haze, live oaks.
+- Snapshot staging:
+  - **1 setting:** a foam bowl of jambalaya or gumbo over rice with a plastic spoon, two boudin balls on a paper plate beside it. In frame: the rim of the big pot cropped. Cues: the canopy leg, steam, blurred tents behind.
+  - **2 settings:** two identical bowls on the folding table, a tray of boudin links cut into sections between them. Cues: the pot and paddle at the frame edge; folding chairs.
+  - **Small group (3 to 4 settings):** a stretch of table with identical bowls, the pot and a rice cooker cropped at the side; more canopies receding.
+- Never stage: as `us.md` GAME NIGHT; purple-and-gold or black-and-gold schemes that read as a specific team, fleur-de-lis team marks, school names; beer and daiquiris (both common); open flame near people in the foreground.
+- Confidence and sources: gumbo/jambalaya as the regional tailgate food [MEDIUM — KTXS via the research notes]; pots, boudin, timing and crawfish pairing [LOW — not verified]; staging [EDITORIAL].
+
+---
+
+## DISH CATALOG
+
+### New Orleans / Louisiana Creole
+
+#### Dish: Po'boy (full authoritative entry — pulls forward and substantially expands `us.md`'s index entry)
+- Category: Everyday
+- Cuisine lineage: Native-Louisiana/Creole-tradition — a working-class New Orleans invention, not French or Italian despite the French-bread vehicle.
+- Regional form variation: Native to New Orleans; sold nationally today as a general "po'boy" concept, but the authentic form is tied specifically to New Orleans French bread — depicting it on a generic sub/hoagie roll would be a real, checkable authenticity error.
+- History: Widely credited to brothers Bennie and Clovis Martin, former streetcar conductors who opened Martin Brothers' Coffee Stand and Restaurant in the French Market in 1922. During the New Orleans streetcar workers' strike beginning July 1, 1929, the Martin brothers fed striking workers a cheap sandwich of gravy and roast-beef scraps on French bread; kitchen staff would announce "here comes another poor boy" when a striking worker arrived. **Flag**: the story wasn't documented in the local press until roughly 40 years after the strike — the broad strokes are well-corroborated, the precise anecdote is a beloved, possibly embellished oral tradition. [CONFIDENCE: MEDIUM-HIGH]
+- Two coexisting, non-hierarchical primary forms per §4.6: **Roast beef po'boy ("dressed")** — thinly sliced or shredded roast beef, served "wet," soaked in "debris gravy" (pan drippings plus loose meat scraps). **Fried seafood po'boy** — fried shrimp, oysters, or catfish, breaded (often cornmeal-forward) and deep-fried, piled generously into the same bread. [CONFIDENCE: HIGH]
+- The "dressed" convention: shredded iceberg lettuce, sliced tomato, and pickles layered against the filling, with mayonnaise as the standard condiment (not oil-and-vinegar, which would misidentify it as a generic Italian sub). Ordering "undressed" is a real, understood alternative, not the default. [CONFIDENCE: HIGH]
+- Primary starch/accompaniment: New Orleans French bread specifically — see TRUSTED CONTENT above.
+- Visual/plating characteristics: **The bread is the single most checkable, highest-priority visual/texture detail.** Distinctly lighter, airier, less chewy than a standard baguette or Italian sub roll — a thin, crisp, flaky crust that visibly shatters when bitten, over an unusually light, open, almost cottony crumb. Roast beef version: meat deeply saturated and glistening with dark brown gravy, often visibly soaking through and darkening the bottom half of the bread; shredded, irregular meat texture. Fried seafood version: individual pieces show a craggy, deep golden-brown, cornmeal-textured crust, piled generously, often visibly overflowing the bread's edges.
+- Common confusion: A hoagie/sub/hero/grinder (`us.md`'s naming-regionalism entry) is the primary confusable — the bread is the confirming detail. A muffuletta (below) is a second confusable given both are New Orleans sandwiches, but the round Sicilian loaf and cold composition are unmistakably different.
+- Confidence: HIGH overall for composition, bread, and dressed convention; MEDIUM-HIGH for the precise origin anecdote.
+- Sources: [Explore Louisiana — Po'Boys](https://www.explorelouisiana.com/articles/poboys-louisianas-most-famous-sandwich); [64 Parishes — Po-Boy Sandwich](https://64parishes.org/entry/po-boy-sandwich); [Sucktheheads — Meat of the Matter: New Orleans' Roast Beef Po-Boys](https://sucktheheads.com/meat-of-the-matter-new-orleans-roast-beef-po-boys/)
+- Composition & proportions (§4.7) — one fried-shrimp po'boy, regular length, cut in two (roast beef variant noted):
+  - What dominates: from the side the bread is ~45% of the height, the filling ~40%, the dressing ~15%; from above, shrimp spilling out of the split loaf is the main visual. Roast beef: dark, wet shredded meat and gravy ~50% of the cut face. [EDITORIAL]
+  - Components: the full New Orleans loaf is ~76–81 cm (30–32 in); sandwiches are sold as halves, a ~38 cm (15 in) standard, quarters and shorter "shorties" [MEDIUM — 64 Parishes, Parkway Bakery history, The Fresh Loaf (via search)]. A regular single order ~25–30 cm, cut into two halves each slightly longer than the can's height; loaf ~7–8 cm wide. Fried shrimp ~3–4 cm each (about half the can's width), 12–20 per sandwich, cornmeal crust. Shredded iceberg a thin 1 cm band; tomato 3–4 thin slices; pickle chips 3–5; mayonnaise a thin smear, not dripping. [EDITORIAL for counts]
+  - Arrangement: shrimp piled loosely along the whole length, several tumbling past the bread's cut edge; the two halves side by side or slightly offset, cut faces toward camera.
+  - Vessel fill: unrolled butcher paper or a paper-lined tray; the sandwich takes ~50–60% of the paper, a few loose shrimp and crust flakes on it.
+  - State cues: crust dry and shattering, flakes on the paper; fried shrimp matte-crisp, no oil puddle. Roast beef: gravy soaking and darkening the bottom half of the bread, a glossy drip on the paper.
+  - Absent on purpose: a dense sub roll, sesame seeds, oil-and-vinegar, deli-cheese slices, toothpick flags, fries piled on the paper, a neat closed sandwich hiding the filling.
+  - Prompt-ready line: "One fried-shrimp po'boy cut into two halves on white butcher paper, each half a little longer than the can's height. A light French loaf with a thin, crackly crust shedding flakes, split and overflowing with golden cornmeal-crusted shrimp, each about half the can's width, tumbling past the edges. A thin band of shredded lettuce, a few tomato slices and pickle chips, a little mayonnaise. Crust flakes on the paper; nothing else."
+
+#### Dish: Muffuletta
+- Category: Everyday, though its large size makes it a common shared/split order
+- Cuisine lineage: Sicilian-American immigrant tradition, New Orleans-developed — genuinely distinct from a po'boy, not a regional variant of it.
+- History: Most commonly credited to Lupo Salvatore, a Sicilian immigrant who ran Central Grocery on Decatur Street starting around 1906. Sicilian farmers and dockworkers at the nearby French Market bought Italian cold cuts, cheese, and olive salad separately along with a round Sicilian sesame-seed loaf, eating the components awkwardly by hand; Salvatore is credited with combining them into a single sandwich. [CONFIDENCE: MEDIUM-HIGH — primarily sourced to the founding family's own oral history]
+- Primary protein/composition: Italian cold cuts (salami, ham, mortadella) layered with provolone and/or mozzarella.
+- The defining ingredient: **olive salad** — a coarsely chopped mix of green and black olives, celery, cauliflower, carrot, garlic, and herbs in olive oil, spread generously on both cut sides; its juice soaking into the bread is considered essential, not a garnish. [CONFIDENCE: HIGH]
+- Primary starch/accompaniment: A round, flat, sesame-seed-crusted Sicilian-style loaf roughly 9–10 inches across — spongier and less crackly than New Orleans French bread. Traditionally served at room temperature, not toasted/hot.
+- Visual/plating characteristics: A round, flat loaf cut horizontally, layered with visibly distinct rounds of cold cuts and cheese, topped with a chunky, glistening, oil-sheened olive salad whose juices visibly stain the bread's cut face. Cut into wedges (like a pizza) rather than halved lengthwise, exposing a round rather than elongated cross-section — a strong, checkable visual differentiator from every other sandwich in this file.
+- Common confusion: Most easily confused with a po'boy — the round loaf, cold filling, and room-temperature serving are all checkable differentiators.
+- Confidence: HIGH for composition and distinguishing detail; MEDIUM-HIGH for the origin narrative.
+- Sources: [64 Parishes — Muffuletta Sandwich](https://64parishes.org/entry/muffuletta-sandwich); [The Local Palate — The Story Behind the Muffuletta Sandwich](https://thelocalpalate.com/articles/muffuletta-sandwich-new-orleans-history/)
+- Composition & proportions (§4.7) — the whole round, cut into quarters, one quarter served:
+  - What dominates: in cross-section bread ~45% of the height, cold cuts and cheese ~35%, olive salad ~20%; from above, the sesame crown dominates. [EDITORIAL]
+  - Components: loaf ~23–25 cm across (per the entry; about three and a half can-widths), ~7–9 cm tall when filled (about two-thirds the can's height); cut into 4 wedges, one wedge a usual single portion — a whole round is sold as feeding 2–4, sometimes 6 [MEDIUM — gumbopages, recipe sources (via search)]. Meats: 6–10 thin folded layers of salami, ham and mortadella; provolone 2–3 thin layers. Olive salad: chopped pieces ~0.5–1.5 cm (olive halves, celery, carrot, cauliflower florets), oil-glossed. Sesame seeds dense on the crown. [EDITORIAL for counts]
+  - Arrangement: wedges point inward like a cut pie; one wedge pulled slightly out, cut face toward camera showing distinct bands.
+  - Vessel fill: butcher paper or a plain board; the round takes ~60% of the frame's food area.
+  - Served portion: one quarter wedge on paper, ~12 cm on the long side, the rest of the round behind it.
+  - State cues: room temperature, no steam, no grill marks; oil from the olive salad darkening the cut faces of the bread.
+  - Absent on purpose: an elongated sub loaf, lettuce, tomato, toasting or melted cheese, a heap of olive salad on top, sauce drips.
+  - Prompt-ready line: "One quarter wedge of a round muffuletta on white butcher paper, the rest of the round loaf behind it, about three and a half can-widths across and two-thirds the can's height. Soft sesame-crusted bread; thin folded layers of pink salami, ham and mortadella with pale provolone; a chunky, oil-glossed chopped olive salad soaking the cut faces. Room temperature, no steam, no lettuce, no melted cheese."
+
+#### Dish: Gumbo (Creole/New Orleans style) — one of two coexisting entries, see the Cajun/Acadiana zone's own Cajun gumbo entry for the other
+- Category: Everyday to special-occasion (a Sunday/holiday dish as much as an everyday one)
+- Cuisine lineage: Louisiana Creole-tradition, itself a fusion — West African okra-based stews, French roux technique, Native American (Choctaw) filé use, and Caribbean influence are all commonly cited contributing threads. [CONFIDENCE: MEDIUM-HIGH]
+- Regional form variation: **A genuine §4.6 coexisting-choice case with Cajun gumbo, not resolved to a single default.**
+
+| Attribute | Creole gumbo (this entry) | Cajun gumbo (Acadiana zone, below) |
+|---|---|---|
+| Tomato | Commonly includes tomato | Typically tomato-free |
+| Roux tradition | Often lighter, sometimes butter-based | Very dark, typically oil- or lard-based |
+| Protein emphasis | Leans toward seafood (shrimp, crab, oysters) | Leans toward chicken/andouille, often spicier |
+| Okra vs. filé | Both traditions use okra and/or filé; not a clean either/or split by tradition |  |
+
+  [CONFIDENCE: MEDIUM — a consistently reported comparison across food-culture sources, though no single heavyweight institutional source isolates this exact multi-point comparison]
+- Serving format: Bowl, always with rice.
+- Primary protein/composition: Varies by version — seafood gumbo (shrimp, crab, oysters), chicken and sausage (often andouille), or a combination ("gumbo ya-ya").
+- Thickening method — two real, coexisting traditions per §4.6: a **dark roux** and/or **filé powder** (added off the heat or at the table, never simmered) and/or **okra** itself. Not every gumbo uses all three. [CONFIDENCE: HIGH]
+- Side dishes/condiments: Hot sauce and additional filé powder at the table; potato salad is a documented, if regionally contested, side in some New Orleans households (a scoop sometimes placed directly into the bowl) — real but not verified as majority practice. [CONFIDENCE: MEDIUM]
+- Visual/plating characteristics: A dark reddish-brown to mahogany broth (tomato, when present, tints rather than dominates the color), visibly flecked with diced holy-trinity vegetables and chunks of protein, ladled around a central mound of white rice sitting proud of the broth. **Texture/finish**: the roux's glossy sheen should be visible on the surface; okra pieces, when present, appear as small green rounds/discs; shrimp/crab/oyster pieces should look plump and just-cooked, not translucent/raw or shriveled/overcooked.
+- Common confusion: **Jambalaya** (below) — gumbo's rice is added separately to a wet, ladled soup/stew, while jambalaya's rice cooks directly in the pot, giving a drier, more unified texture. **Cajun gumbo** — the tomato-vs-no-tomato and protein-emphasis differences are the primary checkable markers, though both are legitimately "gumbo." **Mississippi/Alabama Gulf Coast gumbo** (see that zone's cross-reference below) is a third, real, historically distinct tradition with no independently sourced visual difference from this entry.
+- Confidence: HIGH for the Creole-specific description overall; MEDIUM for the exact Creole/Cajun differentiation specifics.
+- Sources: [Wikipedia: Gumbo](https://en.wikipedia.org/wiki/Gumbo); [Cajun Food Tours — Cajun Gumbo vs Creole Gumbo](https://www.cajunfoodtours.com/blog/what-is-the-difference-between-cajun-gumbo-and-creole-gumbo/)
+- Composition & proportions (§4.7) — one bowl, seafood version:
+  - What dominates: broth ~55% of the visible surface, the rice mound ~20–25%, shrimp and other protein ~15%, okra and diced vegetables the rest. [EDITORIAL]
+  - Components: bowl 15–18 cm (wide soup bowl). Rice ½–¾ cup cooked per bowl against 1½–2 cups of gumbo [MEDIUM — Flourfacts, AmyCooksEats (via search)] — a domed scoop ~6–7 cm across, about the can's width. Shrimp ~3–4 cm curled, 4–6 visible; crab 0–1 body section or claw; okra rounds ~1–1.5 cm, 4–8; diced trinity ~0.5 cm flecks. Chicken-and-andouille version: andouille coins ~2–2.5 cm, 4–6; chicken pieces ~2–3 cm. [EDITORIAL for counts]
+  - Arrangement: the rice mound in the centre; broth ladled around it, not over it; pieces scattered around the rice, half-submerged.
+  - Vessel fill: broth ~1.5–2 cm below the rim; rim fully visible.
+  - State cues: glossy roux sheen, light steam; shrimp just opaque.
+  - Absent on purpose: potato salad (unless briefed), a heap of filé or herbs on top, corn, beans, cheese, a crust of bread floating, rice stirred through.
+  - Prompt-ready line: "A wide bowl of Creole seafood gumbo: dark reddish-brown, glossy broth about two centimetres below the rim, with a small domed scoop of white rice in the centre, about the can's width across, sitting slightly proud. A few plump pink shrimp, each about half the can's width, some small green okra rounds and flecks of diced pepper and celery break the surface around the rice. Light steam."
+
+#### Dish: Jambalaya (Creole/"red" style) — one of two coexisting entries, see the Cajun/Acadiana zone's own "brown" jambalaya entry for the other
+- Category: Everyday to special-occasion
+- Cuisine lineage: Louisiana Creole-tradition, drawing comparison to West African jollof rice/thieboudienne and Spanish paella's technique of cooking rice directly with meat/seafood in one pot. [CONFIDENCE: MEDIUM]
+- Regional form variation: **Form-changing between Creole and Cajun traditions.** Creole/"red" jambalaya (this entry) includes tomatoes, giving a distinctly red-tinted rice, a lighter/brighter/more acidic flavor profile, and more commonly features seafood, reflecting the city's port access. [CONFIDENCE: HIGH]
+- Serving format: Plate/bowl, always rice-forward, a genuinely different texture from gumbo.
+- Primary protein/composition: Commonly a mix — andouille or other smoked sausage, chicken, and/or shrimp — cooked with the holy trinity and tomato, then rice added and cooked directly in the same pot/liquid.
+- Visual/plating characteristics: A markedly drier, more unified dish than gumbo — the rice itself is visibly tinted a warm reddish-orange from the tomato and paprika/cayenne seasoning (not a separate white rice with sauce ladled over), with pieces of sausage, chicken, and/or shrimp distributed throughout. **Texture/finish**: individual rice grains should be visible and largely separate (not mushy or risotto-like), each grain lightly stained reddish-orange; sausage pieces show a browned, slightly glossy cut surface; shrimp should look plump and just-opaque.
+- Common confusion: **Gumbo** — jambalaya's rice is cooked directly in the pot (dry, unified, no separate broth) while gumbo's rice is added separately to a wet, ladled stew. **Cajun/"brown" jambalaya** — the tomato-driven red-orange color vs. a browned, tomato-free, darker-brown color is the primary checkable marker.
+- Confidence: HIGH for the Creole/red-jambalaya composition; MEDIUM for the West African/paella lineage claim.
+- Sources: [Tasting Table — What's The Difference Between Creole And Cajun Jambalaya](https://www.tastingtable.com/1427674/difference-creole-cajun-jambalaya/)
+- Composition & proportions (§4.7) — one served plate (pot noted):
+  - What dominates: reddish-orange rice ~65–70% of the visible surface; sausage ~12–15%; chicken ~8–10%; shrimp ~5–10%; pepper and green onion flecks the rest. [EDITORIAL]
+  - Components: long-grain rice, separate grains. Smoked sausage/andouille coins or half-moons ~2–2.5 cm, 5–7 per portion; chicken bite pieces ~2–3 cm, 4–6; shrimp ~3–4 cm, 3–5; diced bell pepper ~0.5–1 cm flecks; green onion rings sprinkled. [EDITORIAL]
+  - Arrangement: pieces mixed evenly through the rice, a few resting on top; never a pile of meat on a rice bed.
+  - Vessel fill: a mounded portion ~12–15 cm across, ~4–5 cm high, on a 26 cm plate or in a wide bowl, ~half the plate showing. In the pot (cast-iron Dutch oven), rice fills it to ~two-thirds, flat, a spoon in it.
+  - State cues: grains glossy-moist, not wet; light steam; no liquid pooling.
+  - Absent on purpose: separate white rice, ladled sauce, a crust/socarrat, mussels or clams, peas, saffron-yellow rice, cheese.
+  - Prompt-ready line: "A mounded portion of Creole jambalaya on a white plate, about twice the can's width across: separate long grains of rice tinted reddish-orange, mixed evenly with browned sausage coins about a third of the can's width, small pieces of chicken and a few plump pink shrimp, flecked with green pepper and sliced green onion. Light steam, no sauce pooling, no separate rice."
+
+#### Dish: Shrimp Creole
+- Category: Everyday to special-occasion
+- Cuisine lineage: Louisiana Creole-tradition, drawing on French, Spanish, and African influences.
+- Regional form variation: Not documented as form-changing — no widely-documented Cajun sibling under the same name.
+- Serving format: Plate/bowl, served over rice.
+- Primary protein/composition: Gulf shrimp, simmered in a tomato-based sauce built on the holy trinity plus garlic and Creole seasoning — the tomato base is the dish's defining, checkable trait.
+- Visual/plating characteristics: A vivid, saturated red-orange tomato sauce (brighter and more purely tomato-red than gumbo's darker roux-driven broth), visibly studded with pink, plump, just-cooked shrimp and flecks of diced holy-trinity vegetables, ladled over a mound of white rice. **Texture/finish**: the sauce should look glossy and slightly thick, with the shrimp's pink color and slight curl indicating correct doneness — overcooked shrimp would appear tightly curled and rubbery-looking.
+- Common confusion: **Shrimp étouffée** (Cajun/Acadiana zone, below) — étouffée is roux-based (a pale-to-medium blond roux, not tomato), giving an opaque, pale orange-brown, creamier sauce rather than shrimp Creole's clear, bright tomato-red sauce. **Gumbo** — a more distant confusable given its dark brown/mahogany broth and always-separate rice mound.
+- Confidence: HIGH for composition and tomato-base distinguishing detail.
+- Sources: [Beyond Gumbo — New Orleans Shrimp Creole](https://beyondgumbo.com/2021/02/21/new-orleans-shrimp-creole/)
+- Composition & proportions (§4.7) — one plate:
+  - What dominates: red tomato sauce ~45% of the visible surface, white rice ~35%, shrimp ~20%. [EDITORIAL]
+  - Components: rice a mound ~10–12 cm across (about one and a half can-widths), ~¾–1 cup; shrimp ~4–5 cm curled, 6–10 per portion; diced trinity ~0.5–1 cm; optional pinch of chopped parsley or green onion. [EDITORIAL]
+  - Arrangement: sauce spooned over and around one side of the rice mound, shrimp sitting in the sauce, white rice still visible on top.
+  - Vessel fill: wide shallow bowl or 26 cm plate, food covering ~60%.
+  - State cues: glossy, slightly thick sauce; shrimp pink with a loose curl; steam.
+  - Absent on purpose: a dark roux-brown sauce, cream, cheese, pasta, sausage (that is jambalaya), heavy herb garnish.
+  - Prompt-ready line: "A wide white bowl with a mound of fluffy white rice about one and a half times the can's width, half covered by a glossy, bright tomato-red sauce flecked with diced green pepper, onion and celery. Six or seven plump pink shrimp, each about two-thirds of the can's width, sit loosely curled in the sauce. A pinch of sliced green onion; light steam."
+
+#### Dish: Red beans and rice
+- Category: Everyday, with a specific, strongly sourced weekly-ritual identity (Monday)
+- Cuisine lineage: Louisiana Creole-tradition, an economical home-kitchen dish with deep working-class New Orleans roots.
+- **The Monday tradition**: Monday was traditionally household laundry day; dried red beans were set to soak Sunday night, and the ham bone/scraps left over from Sunday dinner were saved to season the pot, which could simmer largely unattended all day. The custom persists today in homes, restaurants, and even some schools. [CONFIDENCE: HIGH] [SOURCE: [64 Parishes — Red Beans and Rice](https://64parishes.org/entry/red-beans-and-rice)]
+- **Louis Armstrong association**: Armstrong repeatedly named red beans and rice a lifelong favorite tied to his childhood, and signed personal letters "Red beans and ricely yours." [CONFIDENCE: HIGH] [SOURCE: [Louis Armstrong House Museum](https://www.louisarmstronghouse.org/west-end-blog/dinner-date-with-red-beans-rice/)]
+- Primary protein/composition: Red kidney beans, slow-simmered with the holy trinity, seasoned with a ham bone/scraps and/or smoked sausage, until the beans break down into a thick, creamy consistency.
+- Visual/plating characteristics: A thick, deep maroon-brown, creamy-textured bean mass — not a thin, brothy bean soup — many beans visibly broken down into a smooth, starchy binding sauce around beans still mostly whole, plus visible chunks of ham or sliced sausage. Ladled over white rice, with a distinctly thicker, less liquid, more matte sauce than gumbo's broth.
+- Common confusion: Not a generic canned-bean side dish (thinner, more uniform, less visibly long-simmered).
+- Confidence: HIGH for the Monday tradition, Armstrong association, and general composition.
+- Sources: [64 Parishes — Red Beans and Rice](https://64parishes.org/entry/red-beans-and-rice)
+- Composition & proportions (§4.7) — one plate or bowl:
+  - What dominates: the creamy bean mass ~55% of the visible surface, white rice ~30%, sausage ~15%. [EDITORIAL]
+  - Components: kidney beans ~1.5 cm, many broken into the sauce; rice ~¾–1 cup, a mound ~10 cm; smoked sausage 3–5 coins ~2.5–3 cm, or one grilled link half ~10 cm laid alongside (a common restaurant serve); ham bits ~1–2 cm, a few; green onion pinch optional. [EDITORIAL]
+  - Arrangement: beans ladled over half of the rice mound, rice showing on the other half; sausage on top or alongside.
+  - Vessel fill: wide bowl or 26 cm plate, food ~60%.
+  - State cues: thick, matte, creamy; a little steam; no thin liquid at the edges.
+  - Absent on purpose: a thin bean soup, black or pinto beans, cheese, sour cream, cornbread pile, cilantro.
+  - Prompt-ready line: "A wide bowl of New Orleans red beans and rice: a mound of white rice about one and a half times the can's width, half covered by a thick, creamy, maroon-brown mass of slow-cooked red beans, many broken down into the sauce, with a few smoked sausage coins about half the can's width and small bits of ham. Matte and thick, a light wisp of steam."
+
+#### Dish: Oysters Rockefeller
+- Category: Special-occasion/restaurant-appetizer register, a real, dated, still-served dish
+- Cuisine lineage: Louisiana Creole fine-dining tradition.
+- History: Created in 1899 by Jules Alciatore at Antoine's Restaurant in the French Quarter (Antoine's founded 1840, one of the oldest continuously operating restaurants in the US), reportedly devised to substitute for imported Burgundy snails. Named for John D. Rockefeller because of the sauce's richness. Antoine's has kept its exact recipe secret; most other versions are informed reconstructions with spinach, breadcrumbs, and hard cheese, though Antoine's own recipe is widely reported not to contain spinach (an unresolved debate). [CONFIDENCE: HIGH for the founding facts; LOW-MEDIUM for the exact recipe composition]
+- Primary protein/composition: Fresh oysters on the half shell, topped with a rich green herb-and-butter sauce and baked or broiled until the topping browns.
+- Visual/plating characteristics: Oyster half-shells arranged radially on a plate, each cradling a plump oyster fully hidden beneath a thick, deep green, slightly glossy baked topping showing light browning/blistering at the high points from broiling. **Texture/finish**: small, scattered darker-brown scorched spots against the deep green base — an all-over uniform green with zero browning would read as underbaked.
+- Common confusion: Not a raw oyster (no topping, translucent flesh fully visible). **Oysters Bienville** (below) — a cream-and-shrimp-based topping rather than a green herb-based one.
+- Confidence: HIGH for founding history; LOW-MEDIUM for exact recipe composition.
+- Sources: [Wikipedia: Oysters Rockefeller](https://en.wikipedia.org/wiki/Oysters_Rockefeller); [Antoine's Restaurant — official history](https://antoines.com/new-orleans-oldest-restaurant-was-an-anthony-bourdain-favorite-that-invented-oysters-rockefeller)
+- Composition & proportions (§4.7) — one order of six:
+  - What dominates: the green topping ~55% of the visible surface, shells ~25%, rock-salt bed ~20%. [EDITORIAL]
+  - Components: 6 half-shells per order (a common restaurant half dozen; 2–3 per person as an appetizer [MEDIUM — recipe guides (via search)]); shells ~8–10 cm long (about three-quarters of the can's height); topping mounded ~1–1.5 cm, covering the oyster completely; a lemon wedge optional. Served on a bed of coarse rock salt that props the shells level [MEDIUM — recipe sources (via search)]. [EDITORIAL for count]
+  - Arrangement: radial, hinges toward the centre, on a ~25–28 cm round metal plate or pan.
+  - Vessel fill: shells cover ~75% of the plate; white salt visible between them.
+  - State cues: browned, blistered high points; a light sizzle-sheen of butter; faint steam.
+  - Absent on purpose: visible raw oyster meat, cheese strings, bacon bits, a parsley pile, cocktail sauce.
+  - Prompt-ready line: "Six baked oysters on the half shell arranged in a ring on a bed of coarse white rock salt in a round metal plate, each rough grey shell about three-quarters of the can's height. Each oyster is fully hidden under a mounded, deep green, glossy herb-butter topping with small browned, blistered spots. Faint steam, white salt showing between the shells, one lemon wedge."
+
+#### Dish: Oysters Bienville
+- Category: Special-occasion/restaurant-appetizer register, a real sibling to oysters Rockefeller in the same New Orleans baked-oyster tradition
+- Cuisine lineage: Louisiana Creole fine-dining tradition, named for Jean-Baptiste Le Moyne de Bienville, the French colonial founder of both Mobile (1702) and New Orleans (1718) — a namesake choice honoring the region's colonial founder rather than a literal ingredient.
+- Serving format: Plate — oysters on the half shell, a small-plate/appetizer course, always paired conceptually with Rockefeller as the two most commonly offered baked-oyster preparations on a Creole menu.
+- Primary composition: Oysters on the half shell under a shrimp-based cream sauce studded with mushrooms and peppers, topped with a breadcrumb-and-cheese gratin crust, baked or broiled.
+- Visual/plating characteristics: A pale, creamy, ivory-to-light-tan sauce visibly studded with small pieces of shrimp and mushroom, topped with a browned, gratin-style breadcrumb-and-cheese crust — the direct visual opposite of Rockefeller's dark green herb top. **Texture/finish**: the gratin top should show an even, golden-brown, lightly crisped surface, distinct from Rockefeller's darker, more blistered green top.
+- Common confusion: **Oysters Rockefeller** is the single most important confusable — the pale creamy gratin top versus Rockefeller's dark green herb-butter top is the defining, checkable difference. Neither should be confused with a raw or plain-baked oyster.
+- Confidence: MEDIUM-HIGH for composition and visual description; the exact origin/dating story was not independently researched to the same depth as Rockefeller's.
+- Sources: [Wikipedia: Oysters Bienville](https://en.wikipedia.org/wiki/Oysters_Bienville)
+- Composition & proportions (§4.7) — one order of six:
+  - What dominates: pale golden gratin topping ~55% of the visible surface, shells ~25%, rock salt ~20%. [EDITORIAL]
+  - Components: as Rockefeller — 6 shells ~8–10 cm on rock salt; topping ~1–1.5 cm thick; small shrimp and mushroom pieces ~0.5–1 cm just visible at the edges; a lemon wedge optional. [EDITORIAL]
+  - Arrangement: radial on a ~25–28 cm round plate.
+  - State cues: even golden-brown crisped crust, creamy sauce bubbling at the edges; faint steam.
+  - Absent on purpose: green herb topping (that is Rockefeller), whole shrimp on top, melted-cheese strings, parsley pile.
+  - Prompt-ready line: "Six baked oysters on the half shell in a ring on coarse white rock salt in a round metal plate, each grey shell about three-quarters of the can's height, each topped with a pale ivory cream sauce flecked with tiny bits of shrimp and mushroom under an even golden-brown breadcrumb-and-cheese crust, bubbling slightly at the edges. Faint steam, one lemon wedge."
+
+#### Dish: Trout meunière amandine
+- Category: Everyday to special-occasion — a signature Creole restaurant dish, notably associated with a milestone-dining custom
+- Cuisine lineage: Louisiana Creole-tradition, an explicit fusion of two French techniques (meunière — floured and pan-fried in butter — and amandine — garnished with almonds) applied to a distinctly local Gulf fish.
+- Regional form variation: Not form-changing; the fish itself may vary (speckled trout most classically, but redfish, pompano, flounder, or drum are documented substitutes).
+- Primary protein: A Gulf fish fillet, floured and pan-fried in butter until golden, finished with a lemon-butter sauce, browned/toasted sliced almonds, and chopped parsley.
+- Cultural note: A specific, sourced New Orleans family custom associates this dish with celebrating a teenager's 16th birthday at a fine-dining Creole restaurant — evidence of the dish's cultural weight, not something to depict literally. [CONFIDENCE: MEDIUM]
+- Visual/plating characteristics: A whole or large fish fillet, pan-fried to an even, deep golden-brown crust on both sides (from butter and flour dredge, not heavy breading), plated whole rather than cut into pieces; a glossy, pale golden lemon-butter sauce pooled around and over the fish; toasted almond slivers scattered visibly on top. **Texture/finish**: the fish's surface should look thin-crusted and matte-to-lightly-glossy, not thickly breaded or deep-fried craggy — a delicate, pan-seared finish rather than a deep-fried one.
+- Common confusion: Not a deep-fried fish fillet (this file's po'boy filling register) — the thin, butter-pan-fried crust and visible almond-and-lemon-butter garnish are the confirming details.
+- Confidence: HIGH for composition and technique; MEDIUM for the birthday-custom detail.
+- Sources: [Eat Your World — Poisson Meunière in Louisiana](https://eatyourworld.com/destinations/united-states/louisiana/new-orleans/what-to-eat/poisson-meuniere/)
+- Composition & proportions (§4.7) — one plate:
+  - What dominates: the fish fillet ~45% of the plate, sauce pool ~15%, almonds ~10% of the fish's surface; the rest is bare plate. [EDITORIAL]
+  - Components: one fillet ~18–22 cm long (about one and a half times the can's height), ~7–9 cm wide, ~1.5–2 cm thick; sliced almonds ~1.5 cm, 20–30 scattered on top; lemon-butter sauce a thin pool; chopped parsley a small sprinkle; lemon wedge 0–1. [EDITORIAL]
+  - Arrangement: fillet diagonally across the plate's centre, almonds over its top, sauce around it.
+  - Vessel fill: 28 cm white plate; at most one small side (e.g. a few green beans) or none.
+  - State cues: thin, even golden crust; glossy butter; light steam.
+  - Absent on purpose: heavy breading, deep-fried craggy crust, whole almonds, a heap of vegetables, crab meat topping unless briefed.
+  - Prompt-ready line: "A single pan-fried speckled trout fillet laid diagonally on a white dinner plate, about one and a half times the can's height in length, with a thin, even golden-brown crust. Toasted sliced almonds scattered over the top, a thin pool of glossy pale-golden lemon butter around it, a little chopped parsley, one lemon wedge. Plenty of white plate showing; light steam."
+
+#### Dish: Beignets
+- Category: Everyday snack/dessert — explicitly checked against this file's breakfast-exclusion scope; New Orleans sources consistently describe beignets as an anytime food, so this stages as an afternoon or evening café scene, not a breakfast plate. [CONFIDENCE: HIGH]
+- Cuisine lineage: French colonial origin, adapted and popularized in New Orleans's Creole café culture.
+- Venue register: A French Quarter/French Market-style open-air café — marble-topped tables, a striped awning, café tables under an open pavilion roof — genericized per the trademark rule from real, still-operating 1862-founded venues.
+- Primary composition: A square of deep-fried yeasted dough (no hole, unlike a ring doughnut), puffed and hollow-ish inside.
+- **Size — a genuine scale-anchor gap in this KB's original research, added after a test-generation review found the dish was being rendered oversized.** Café du Monde-style copycat recipes converge on cutting the dough into roughly **3-inch squares** before frying (comparable to a standard Post-it note or playing card), rolled to about **1/8–1/4 inch thick** (pancake- or sugar-cookie-batter thickness). No source gives an exact post-fry measurement, but dough this thin roughly doubling-to-tripling in a hot fry puts a puffed beignet at roughly **1.5–2 inches thick** — closer to a thick slice of toast than a tall dinner roll or biscuit. **This is a flatter, more cushion-like pillow than a rendered beignet tends to default to** — a beignet should read distinctly shorter than half the height of a standard 12 fl oz Coca-Cola can (4.83in/12.3cm) when staged beside one, not comparable to or taller than half the can. [CONFIDENCE: MEDIUM-HIGH for the pre-fry 3-inch-square/dough-thickness figures, converging across multiple Café du Monde copycat-recipe sources; LOW-MEDIUM for the post-fry thickness, which is this file's own inference from typical dough-puffing behavior, not an independently sourced measurement] [SOURCE: convergent Café du Monde copycat-recipe sources, e.g. [Your Homebased Mom — Cafe Du Monde Beignets Recipe](https://www.yourhomebasedmom.com/cafe-du-monde-beignets/); [The Food Hacker — Cafe Du Monde Beignets copycat recipe](https://topsecretrecipes.com/foodhackerblog/cafe-du-monde-beignets/)]
+- Side dishes/condiments: Served three to an order, generously and heavily dusted with powdered sugar — a thick, defining layer, not a light dusting.
+- Visual/plating characteristics: Roughly square or rectangular pillows of fried dough, irregular and puffed/domed rather than perfectly geometric, with deep golden-brown fried surface visible at the edges where sugar doesn't fully obscure it. **A real beignet's footprint (roughly 3 inches square, per the Size note above) should stay recognizably flatter and squarer than a large, rounded dinner roll or biscuit — three beignets on a standard dinner plate should leave visible plate showing around them, not cover most of the plate's surface.** **Texture/finish**: the powdered sugar coating should be thick, matte-white, and visibly heaping/mounded; an under-sugared beignet is a real, checkable authenticity miss. Cut open, the interior is light, airy, with irregular large air pockets, distinct from a cake doughnut's denser crumb.
+- Common confusion: Not a plain doughnut (no hole, square/rectangular rather than ring-shaped) or a funnel cake (a discrete puffed square, not a tangled lattice of thin fried batter).
+- Confidence: HIGH overall.
+- Sources: [Big Easy Magazine — The History of Beignets](https://bigeasymagazine.com/2025/04/18/all-things-beignet-the-history-of-beignets-and-cafe-du-monde-along-with-todays-variations-and-celebrations/)
+- Composition & proportions (§4.7) — one order of three:
+  - What dominates: powdered sugar ~70% of the visible surface of the beignets; golden fried dough shows only at the edges and sides. [EDITORIAL]
+  - Components: 3 beignets (per the entry), each ~7–8 cm square (a little wider than the can) and ~4–5 cm thick (well under half the can's height); sugar heaped ~0.5–1 cm on top and drifting onto the plate.
+  - Arrangement: piled loosely, one leaning on another, on a small white plate; plate visible around them.
+  - Vessel fill: beignets cover ~50–60% of a ~20–23 cm plate.
+  - State cues: warm, faint steam from a torn one; sugar matte and powdery; no oil sheen.
+  - Absent on purpose: a doughnut hole, glaze, chocolate or fruit sauce, berries, mint sprigs, tall dinner-roll shapes.
+  - Prompt-ready line: "Three square beignets loosely piled on a small white plate, each a little wider than the can and well under half its height, puffy irregular pillows of fried dough buried under a thick, matte heap of powdered sugar that drifts onto the plate. Golden-brown fried edges show at the sides. Plate visible around them; nothing else on the plate."
+
+#### Dish: Bananas Foster
+- Category: Special-occasion-coded but genuinely staging-relevant — a real, dated, tableside-prepared restaurant dessert whose visual drama (tableside flambé) makes it a strong staging candidate.
+- Cuisine lineage: Louisiana Creole fine-dining tradition — a specific, single-restaurant, dated invention.
+- History: Created in 1951 at Brennan's restaurant in the French Quarter. Founder Owen Brennan asked chef Paul Blangé to create a dish using surplus bananas (New Orleans was a major banana-import port) ahead of a dinner honoring Richard Foster, chairman of the New Orleans Crime Commission — named for him. [CONFIDENCE: HIGH]
+- Primary composition: Bananas sautéed in butter and brown sugar, combined with banana liqueur and dark rum, then flambéed tableside before being spooned over vanilla ice cream.
+- Visual/plating characteristics: Glossy, deep amber-brown caramelized sauce coating soft, browned banana halves or slices, visibly softened and slightly collapsed from heat; a scoop of vanilla ice cream sitting in or beside the sauce, glistening and melting at the edges. **The tableside flambé is the dish's single most staging-distinctive moment**: a visible blue-and-orange flame briefly rising from the pan — a genuine, controlled cooking-alcohol burn (lower, more blue-tinged), not a large bonfire-style flame. **Texture/finish**: banana pieces should look soft and glossy, not caramelized to a hard/candied shell.
+- Common confusion: Not a generic caramelized-banana dessert or banana split — the rum-butter-brown-sugar sauce and (when depicted) the tableside flambé are the confirming details.
+- Confidence: HIGH overall for history and composition.
+- Sources: [Wikipedia: Bananas Foster](https://en.wikipedia.org/wiki/Bananas_Foster); [Brennan's Restaurant — Bananas Foster](https://www.brennansneworleans.com/recipes/bananas-foster/)
+- Composition & proportions (§4.7) — one plated serving (tableside flambé noted):
+  - What dominates: banana pieces and caramel sauce ~60% of the dish, ice cream ~30%. [EDITORIAL]
+  - Components: one banana, halved lengthwise and crosswise — 4 pieces ~8–10 cm (about three-quarters of the can's height), soft and browned; amber sauce a pool ~1 cm deep; vanilla ice cream 1–2 scoops ~5–6 cm. [EDITORIAL]
+  - Arrangement: banana pieces fanned against the ice cream, sauce spooned over both, pooling in the dish.
+  - Vessel fill: a ~18–20 cm shallow dessert dish or plate, food ~60%. Tableside: a shallow copper or steel pan ~25 cm with a low blue-orange flame over the bananas.
+  - State cues: glossy sauce; ice cream melting at its edges.
+  - Absent on purpose: liquor bottles or glasses (staging rule), a tall bonfire flame, whipped cream, nuts, chocolate, banana-split styling.
+  - Prompt-ready line: "A shallow white dessert dish with four soft, browned banana pieces, each about three-quarters of the can's height, glazed in a glossy deep amber brown-sugar butter sauce that pools in the dish, leaning against a scoop of vanilla ice cream melting at its edges. Plain and warm, no whipped cream, no nuts."
+
+#### Dish: King cake
+- Category: Special-occasion/seasonal — tied specifically to the Mardi Gras season (Epiphany through Fat Tuesday), included per the same staging-relevance logic that cleared Thanksgiving dinner in `us.md` despite its own low-frequency, compressed seasonal window.
+- Cuisine lineage: Louisiana Creole-tradition, adapted from a French Twelfth Night tradition (the Epiphany "galette des rois") blended with a Spanish tradition of hosting a grand ball on Twelfth Night — a direct product of New Orleans's French-then-Spanish colonial layering.
+- **A secondary, derivative Cajun Country variant exists**, per the Cajun/Acadiana pass's own research: simpler, less sweet, and more bread-forward than the New Orleans version — real, but not an independent Acadiana invention, so it is noted here rather than given a competing entry.
+- Serving format: A ring/wreath-shaped cake, sliced and shared communally.
+- Primary composition: A brioche-like, cinnamon-flavored pastry, formed into a ring, topped with a sweet glaze.
+- The three colors: purple (justice), green (faith), and gold (power), applied as bands or sections of colored sugar around the ring — a specific, checkable, non-substitutable visual signature. [CONFIDENCE: HIGH]
+- The hidden trinket: a tiny plastic baby figurine (originally a dried bean, before a Depression-era New Orleans bakery is credited with switching to a plastic baby) baked or pressed into the cake; whoever's slice contains it is traditionally obligated to buy or host the next king cake. [CONFIDENCE: MEDIUM-HIGH]
+- Visual/plating characteristics: A large ring/wreath shape, generously and coarsely coated in large-grained purple, green, and gold decorative sugar in alternating or banded sections. When sliced, the interior crumb is soft, enriched, and slightly yellow, similar to a brioche or coffee-cake crumb, sometimes with a cinnamon-sugar swirl visible in cross-section.
+- Common confusion: Not a generic cinnamon coffee cake or Danish ring pastry — the specific three-color sugar decoration is the primary, unambiguous confirming detail.
+- Confidence: HIGH for the colors, shape, and hidden-trinket custom; MEDIUM for finer historical attribution.
+- Sources: [Reader's Digest — What Is a King Cake?](https://www.rd.com/article/what-is-king-cake/); [New Orleans & Company — Inside The Mardi Gras King Cake Tradition](https://www.neworleans.com/events/holidays-seasonal/mardi-gras/king-cakes/)
+- Composition & proportions (§4.7) — the whole cake and one slice:
+  - What dominates: coloured sugar ~80% of the top surface — purple, green and gold in roughly equal bands; glaze shows between. [EDITORIAL]
+  - Components: ring or oval ~25 cm across (about 10 in; about four can-widths), ring band ~7–8 cm wide, ~5–7 cm tall (about half the can's height) [MEDIUM — recipe and bakery sources (via search)]; serves ~10–15, cut into ~5–7 cm (2–3 in) pieces [MEDIUM — same]. Sugar coarse, large grains. Plastic baby ~3 cm, usually hidden inside or placed separately — at most one, and optional.
+  - Arrangement: bands alternate around the ring in sections; one slice cut out, laid in front, showing soft yellow crumb and a cinnamon swirl.
+  - Vessel fill: on a board, tray or opened plain bakery box; cake ~70% of the surface.
+  - State cues: glaze glossy under the sugar; crumb soft, slightly pulled.
+  - Absent on purpose: legible box text, candles, piles of beads on the cake, frosting rosettes, a flat sheet-cake shape.
+  - Prompt-ready line: "A ring-shaped king cake about four times the can's width across and half its height, its top thickly coated in coarse purple, green and gold sugar in alternating bands over a glossy glaze. One slice about half the can's height wide is cut out and laid in front, showing a soft, slightly yellow brioche crumb with a cinnamon swirl. Plain board, no candles, no beads."
+
+### Cajun / Acadiana
+
+#### Dish: Cajun gumbo — one of two coexisting entries, see the New Orleans/Creole zone's own Creole gumbo entry above for the full comparison table
+- Category: Everyday to special-occasion
+- Cuisine lineage: Louisiana-native-tradition, a fusion shared with Creole gumbo; the two traditions diverge in execution, not origin.
+- Regional form variation: Built on a very dark roux — cooked slowly to a milk-chocolate-to-bittersweet-chocolate-brown color — giving smoky, nutty depth; typically oil or lard rather than butter; **omits tomato**; commonly a chicken-and-andouille-sausage gumbo ("brown" gumbo) as the everyday default, though seafood versions exist too; filé powder, when used, is sprinkled at the table, never cooked into the base.
+- Serving format: Plate/bowl — a stew ladled over a mound of white rice.
+- Primary protein/composition: Chicken and andouille sausage (the everyday default) or seafood; the roux plus the holy trinity form the stew's body.
+- Visual/plating characteristics: Deep, opaque, milk-chocolate-to-bittersweet-chocolate brown liquid, glossy from the roux's oil content, thick enough to visibly coat the back of a spoon; visible chunks of chicken, coins of dark-casing andouille, and softened trinity vegetables suspended throughout; a mound of plain white rice, its bright white a strong contrast against the dark stew. No red/orange tomato tones anywhere in an authentic Cajun version.
+- Common confusion: **Creole gumbo** reads visually lighter/redder and more likely foregrounds shellfish. Not a generic "Southern stew" or brown gravy dish.
+- Confidence: HIGH for the Cajun-vs-Creole roux/tomato/protein distinction; MEDIUM for the specific visual-plating synthesis.
+- Sources: [Cajun Food Tours — Cajun Gumbo vs Creole Gumbo](https://www.cajunfoodtours.com/blog/what-is-the-difference-between-cajun-gumbo-and-creole-gumbo/)
+- Composition & proportions (§4.7) — one bowl, chicken and andouille:
+  - What dominates: dark broth ~55% of the visible surface, rice mound ~20–25%, chicken and sausage ~20%. [EDITORIAL]
+  - Components: bowl 15–18 cm; rice ½–¾ cup, a mound ~6–7 cm (about the can's width) [MEDIUM — Flourfacts, AmyCooksEats (via search)]; andouille coins ~2–2.5 cm, 4–6 visible; chicken chunks or bone-in pieces ~2–4 cm, 3–5; trinity flecks; green onion pinch optional. [EDITORIAL for counts]
+  - Arrangement: rice in the centre, stew around it, pieces half-submerged.
+  - Vessel fill: broth ~1.5–2 cm below the rim.
+  - State cues: glossy, oil-sheened dark surface; steam.
+  - Absent on purpose: any tomato red, shrimp heaps, filé cooked in as visible green clumps, potato salad unless briefed, cheese.
+  - Prompt-ready line: "A wide bowl of Cajun chicken and andouille gumbo: an opaque, glossy, very dark chocolate-brown stew about two centimetres below the rim, a small domed scoop of bright white rice about the can's width in the centre, with dark-cased sausage coins about a third of the can's width and tender chicken chunks half-submerged around it. Steam, no red tones."
+
+#### Dish: Cajun jambalaya ("brown jambalaya") — one of two coexisting entries, see the New Orleans/Creole zone's own "red" jambalaya entry above
+- Category: Everyday to special-occasion
+- Cuisine lineage: Louisiana-native-tradition, drawing on Spanish paella technique adapted with local ingredients.
+- Regional form variation: Omits tomato entirely; gets its brown color from deeply browned meat and caramelized vegetables; more strongly associated with rural Acadiana. Tomatoes were less available/practical the further one traveled into rural Louisiana — a plausible, sourced explanation for the rural/urban split.
+- Serving format: Plate/bowl, a one-pot rice dish — the rice is integral to and cooked within the dish itself, not served over a separate rice bed the way gumbo is.
+- Primary protein/composition: Chicken, andouille or other smoked sausage, and/or shrimp, browned first; long-grain white rice cooked directly in the resulting seasoned stock; the holy trinity plus garlic.
+- Visual/plating characteristics: Rice grains stay **fluffy, separate, and distinct** in a deep, uniform brown color throughout every grain — the color comes from the rice having cooked in browned-meat stock, not from a sauce poured over white rice afterward. Visible pieces of browned meat and sausage coins distributed evenly through the rice; flecks of red and green bell pepper provide the only strong color contrast. No red/orange tomato-based tint anywhere in an authentic version.
+- Common confusion: **Creole/red jambalaya** — the tomato-driven red-orange tint versus uniform brown is the clearest differentiator. **Paella** — a wider, shallower pan, a crisp bottom socarrat layer, often saffron and decoratively arranged shellfish; jambalaya is a home-style one-pot dish with meat mixed throughout, no socarrat convention.
+- Confidence: HIGH for the Cajun-vs-Creole tomato/color distinction; MEDIUM for the visual/texture synthesis.
+- Sources: [Gallier NOLA — Creole vs Cajun Jambalaya](https://galliernola.com/creole-cuisine/creole-jambalaya-vs-cajun-jambalaya-whats-the-difference/)
+- Composition & proportions (§4.7) — one served plate (pot noted):
+  - What dominates: brown rice ~70% of the visible surface, sausage ~15%, chicken ~10%, pepper and onion flecks ~5%. [EDITORIAL]
+  - Components: sausage coins ~2–2.5 cm, 5–7 per portion; browned chicken pieces ~2–3 cm, 4–6; red and green pepper flecks ~0.5–1 cm; green onion rings. [EDITORIAL]
+  - Arrangement: evenly mixed through; never meat piled on top.
+  - Vessel fill: a mound ~12–15 cm on a 26 cm plate; in the black cast-iron pot, rice two-thirds full, flat.
+  - State cues: fluffy, separate grains; steam; no liquid.
+  - Absent on purpose: any tomato tint, socarrat crust, radial seafood, white rice, sauce.
+  - Prompt-ready line: "A mounded portion of Cajun brown jambalaya on a white plate, about twice the can's width across: fluffy, separate grains of rice evenly stained a deep brown, mixed with browned smoked sausage coins about a third of the can's width and small pieces of browned chicken, with only flecks of red and green pepper and sliced green onion for colour. Steam; no red tomato tone."
+
+#### Dish: Boiled crawfish (see the crawfish boil ENVIRONMENT register above for the full social/event context)
+- Category: Everyday to special-occasion, strongly seasonal (spring)
+- Cuisine lineage: Louisiana-native-tradition, with documented Native American Gulf Coast roots (boiling shellfish over open fires) predating the Acadian arrival, adapted by Acadian settlers after 1755.
+- Serving format: Communal/family-style, poured directly onto a covered table — no individual plating.
+- Primary protein/composition: Whole boiled crawfish, boiled together with corn on the cob, red-skinned potatoes, and smoked sausage in a large pot of heavily cayenne-seasoned water.
+- Visual/plating characteristics: A large communal mound of vivid, saturated red crawfish shells (the color change from a live crawfish's dull greenish-brown to bright red is itself a genuine, checkable cooked/raw marker), interspersed with bright yellow corn segments, potatoes softened and stained slightly reddish-orange, and browned coins of sliced sausage — all glistening from the boil's seasoned oil/butter, piled directly on plain newsprint or brown paper, no plates or silverware visible in an authentic communal-boil scene.
+- Common confusion: Not a Lowcountry shrimp boil/Frogmore stew (`us-south.md`, built around shrimp, typically less aggressively spiced) or a New England clam bake (a different shellfish and cooking method) — the whole, shell-on, hand-peeled crawfish and cayenne-forward seasoning intensity are the confirming details.
+- Confidence: HIGH overall for the format, seasonality, and color-change detail.
+- Sources: [64 Parishes — Crawfish Boils](https://64parishes.org/entry/crawfish-boils)
+- Composition & proportions (§4.7) — a communal pile on the table:
+  - What dominates: red crawfish ~75% of the pile, corn ~10%, potatoes ~8%, sausage ~5%, a few garlic heads or lemon halves. [EDITORIAL]
+  - Components: whole crawfish ~8–12 cm (about two-thirds to most of the can's height), dozens to hundreds; planned at roughly 3–5 lb per person, less for novices [MEDIUM — Tasting Table, 30AEATS (via search)]; corn half-cobs ~8–10 cm, ~1 per person; small red potatoes ~4–5 cm, 1–2 per person; sausage chunks ~3–4 cm. [EDITORIAL for shares]
+  - Arrangement: one long, low mound down the table's centre, ~10–15 cm high; corn and potatoes scattered through, not in a separate pile; shells accumulating at the edges.
+  - Vessel fill: no plates — the pile covers ~half of a newspaper- or butcher-paper-covered folding table.
+  - State cues: shells glossy and wet, seasoning specks; a little steam.
+  - Absent on purpose: plates, cutlery, lobster or crab, a single crawfish held up to camera (anti-hand-holding rule), legible newspaper text, a bucket-served restaurant look.
+  - Prompt-ready line: "A long, low pile of bright red boiled crawfish poured down the middle of a paper-covered outdoor table, each crawfish about two-thirds of the can's height, glossy and flecked with seasoning, with yellow corn half-cobs, small red potatoes and chunks of smoked sausage scattered through the pile. Empty shells at the edges, a little steam, no plates, paper print unreadable."
+
+#### Dish: Crawfish étouffée (authoritative entry — the Creole/New Orleans pass explicitly deferred this dish to Acadiana)
+- Category: Everyday to special-occasion
+- Cuisine lineage: Louisiana-native-tradition, the French "smothering" (étouffer) technique — credited to the Hebert Hotel in Breaux Bridge, St. Martin Parish (legislatively designated the "Crawfish Capital of the World"), in the 1920s. [CONFIDENCE: MEDIUM-HIGH]
+- Regional form variation: The Cajun/Acadiana-country version (this entry) uses a light-to-medium ("blonde") roux, lard or oil rather than butter, and **omits tomato**. By the 1950s the dish had spread to New Orleans, where Creole kitchens developed a darker-roux, tomato- (and sometimes cream-) added adaptation — a real, sourced variant, noted here rather than given a full competing entry since the dish's origin is specifically Acadian.
+- Serving format: Plate/bowl, served over rice, a thicker, more sauce-like consistency than gumbo, with no filé powder tradition.
+- Primary protein/composition: Crawfish tail meat, simmered in a butter-or-lard-and-flour roux base with the holy trinity, garlic, and Cajun seasoning until thickened into a rich, clinging gravy.
+- Visual/plating characteristics: A thick, glossy, light-to-medium tan-brown gravy (lighter than gumbo's dark-chocolate roux) clinging heavily to visible pink-orange crawfish tail meat, ladled over white rice; the sauce should coat and cling rather than pool thinly, and show no red/orange tomato tint in the Cajun version.
+- Common confusion: A Creole-style étouffée (darker roux, tomato-added, sometimes cream-enriched) reads visibly more reddish-tinted. Crawfish/shrimp gumbo is thinner, more soup-like, uses a much darker roux, and traditionally finishes with filé powder.
+- Confidence: MEDIUM-HIGH for the origin account and Cajun/Creole roux-and-tomato distinction; MEDIUM for the visual-plating synthesis.
+- Sources: [Cajun Food Tours — What Is Crawfish Étouffée?](https://www.cajunfoodtours.com/blog/what-is-crawfish-etouffee-ingredients-history-and-recipe/)
+- Composition & proportions (§4.7) — one plate or bowl:
+  - What dominates: gravy with tails ~65% of the visible surface, rice ~30%, green onion ~5%. [EDITORIAL]
+  - Components: rice a mound ~10 cm, ~¾ cup; crawfish tails ~2–3 cm curled, dense — 30–45 per portion (about ¼–⅓ lb tail meat); diced trinity ~0.5 cm; sliced green onion sprinkle. [EDITORIAL]
+  - Arrangement: étouffée spooned over most of the rice, a rim of white rice showing on one side.
+  - Vessel fill: wide bowl or 26 cm plate, food ~60%.
+  - State cues: thick, clinging, glossy; steam.
+  - Absent on purpose: red tomato tint (Cajun version), cream swirls, a thin soupy look, whole crawfish with heads, cheese.
+  - Prompt-ready line: "A wide bowl with a mound of white rice about one and a half times the can's width, mostly covered by a thick, glossy, light tan-brown gravy packed with small curled pink-orange crawfish tails, each less than half the can's width, flecked with diced pepper and celery, a rim of rice showing on one side, finished with sliced green onion. Steam; no tomato red."
+
+#### Dish: Boudin (boudin blanc)
+- Category: Everyday — a genuine "meal on the go"/snack staple, not a special-occasion dish
+- Cuisine lineage: Louisiana-native-tradition with direct French roots (the word is an Anglo-Norman term for sausage), brought by Acadian settlers and transformed through a documented "Creolization" process incorporating Native American, Spanish, Afro-Caribbean, and German practices into a pork-exclusive, rice-based, cayenne-forward form distinct from French boudin. [CONFIDENCE: HIGH] [SOURCE: [64 Parishes — Boudin](https://64parishes.org/entry/boudin)]
+- Regional form variation: **Two named, coexisting sub-styles per §4.6, one dominant and one rare**: **boudin blanc** (this entry's full depth — the staple boudin of Acadiana, the vast majority of boudin sold today) and **boudin rouge** ("red"/blood boudin) — the same base with pork blood added, historically the original boucherie-tradition form, now a genuinely rare specialty item due to health regulations on transporting raw blood, produced by only a small number of meat markets. **Default when unspecified**: boudin blanc, reflecting boudin rouge's genuine current rarity. [CONFIDENCE: HIGH]
+- Serving format: Handheld/snack — typically eaten by squeezing or biting the filling directly out of the casing; also sold loose/uncased by weight.
+- Primary protein/composition: Cooked pork and pork liver, mixed with cooked rice (roughly 30–40% of the filling), green onion, and cayenne pepper, stuffed into natural hog casing and steamed or simmered (not smoked, unlike andouille).
+- Visual/plating characteristics: A soft, elastic, somewhat translucent-tan natural casing (not taut, shiny, or uniformly firm the way a smoked link sausage is) encasing a loose, crumbly, pale-gray-to-tan filling with visible individual grains of rice and flecks of green onion — pork liver content gives the filling its grayish tone and grainy texture. The filling should visibly crumble or fall apart somewhat when the casing is cut or squeezed open, not hold a firm, dense shape.
+- Common confusion: Not a standard American breakfast sausage or bratwurst (dense, uniform, fine-ground, no visible rice, a firmer casing) or andouille (smoked, dark-casinged, coarse chopped-meat texture, no rice at all).
+- Confidence: HIGH overall.
+- Sources: [Smithsonian Magazine — Find Out Why Boudin Is Louisiana's Most Famous Sausage](https://www.smithsonianmag.com/travel/louisiana-boudin-180960105/); [64 Parishes — Boudin](https://64parishes.org/entry/boudin)
+- Composition & proportions (§4.7) — one link at a counter:
+  - What dominates: the link itself ~80% of the food; the squeezed-out filling ~20%. [EDITORIAL]
+  - Components: a standard link ~15–20 cm, curved, ~3.5 cm thick (link length is producer-specific; casings are cut ~30 cm for stuffing, and "party links" run only ~5–6 cm, about 8 per lb [MEDIUM — Best Stop, Poche's listings, UL Press (via search)]); filling rice-flecked, grey-tan. [EDITORIAL for standard link size]
+  - Arrangement: one link on butcher paper or in a paper boat, one end bitten or squeezed open, a small mound of crumbly filling beside it; 2–3 cracklins alongside optional.
+  - Vessel fill: link takes ~half a small paper tray.
+  - State cues: casing soft, slightly translucent, moist; a wisp of steam.
+  - Absent on purpose: a bun, grill marks, a taut shiny casing, mustard piles, a plated restaurant setup.
+  - Prompt-ready line: "One curved link of Louisiana boudin on white butcher paper, a little longer than the can's height and about half its width thick, its soft, slightly translucent tan casing split open at one end where a small mound of loose, crumbly, grey-tan pork-and-rice filling flecked with green onion spills out. A wisp of steam, a few cracklins beside it, no bun."
+
+#### Dish: Boudin balls
+- Category: Everyday snack/appetizer
+- Cuisine lineage: Louisiana-native-tradition, a modern preparation built directly on boudin — same filling, different form factor, a genuine serving-format sibling per `country-file-schema.md` §4.4.
+- Serving format: Snack/appetizer, handheld, typically served with a dipping sauce (remoulade or spicy mustard).
+- Primary protein/composition: Boudin filling removed from its casing, rolled into balls, breaded, and deep-fried.
+- Visual/plating characteristics: A round, uniformly golden-brown, deep-fried exterior with a craggy, slightly bumpy breaded crust — a completely different exterior from link boudin's soft, pale, natural-casing look. Cut or bitten open, the same grayish, rice-flecked, crumbly interior as link boudin is visible — the crust should read crisp and craggy, the interior soft, moist, and crumbly.
+- Common confusion: Not a plain fried arancini (a firmer, cheese-or-ragù-centered Italian dish) or a hush puppy (cornmeal-based, no meat filling) — the visible rice-grain-and-meat filling and the grayish pork-liver color are the confirming details.
+- Confidence: HIGH overall.
+- Sources: [The Kitchn — Easy Fried Boudin Balls Recipe](https://www.thekitchn.com/boudin-balls-recipe-23481160)
+- Composition & proportions (§4.7) — one appetizer order:
+  - What dominates: golden balls ~80% of the food, dipping sauce ~15%. [EDITORIAL]
+  - Components: balls ~4–5 cm (golf-ball size, about two-thirds of the can's width), 6–8 per order; one broken open; remoulade or spicy mustard in a ~6 cm ramekin. [EDITORIAL]
+  - Arrangement: loosely piled in a paper-lined basket or on a small plate, ramekin beside.
+  - State cues: craggy, crisp, dry surface; steam from the broken one; no grease pool.
+  - Absent on purpose: cheese ooze, marinara, a parsley garnish pile, smooth perfect spheres.
+  - Prompt-ready line: "Six round boudin balls in a paper-lined basket, each about two-thirds of the can's width, with a craggy, deep golden fried crust. One is broken open, showing a soft, grey-tan interior of pork and rice flecked with green onion, steam rising. A small ramekin of pinkish remoulade beside them."
+
+#### Dish: Andouille sausage
+- Category: Everyday — primarily an ingredient/component (gumbo, jambalaya) but also eaten standalone as a snack or plate item
+- Cuisine lineage: A sausage form with French origins, but Cajun andouille is a distinct Louisiana-specific development — also a shared ingredient heavily used in New Orleans Creole cooking.
+- Regional form variation: Prevalence/quality-anchoring only — LaPlace, Louisiana (just outside Acadiana's 22-parish boundary) is legislatively branded the "Andouille Capital of the World" (proclaimed 1970s, an annual Andouille Festival since 1972) and widely cited as producing the standard-bearer version. [CONFIDENCE: HIGH for the designation]
+- Primary protein/composition: Pork (butt or shank meat and fat), seasoned with salt, cracked black pepper, and garlic, stuffed into casing and smoked over pecan wood and sugarcane for up to 7–8 hours at a low temperature.
+- Visual/plating characteristics: A dark, deeply smoked exterior casing (noticeably darker/browner than boudin's pale natural casing) encasing a **coarse, chunky grind** — closer in texture to chopped/cubed ham than a finely-ground kielbasa — visible as distinct small chunks of meat and fat when sliced into coins. When pan-seared or grilled standalone, the exterior develops a further deep brown-to-blackened sear on top of the already-dark smoked casing.
+- Common confusion: Not boudin (smoked, dark-cased, coarse-ground, no rice, vs. boudin's unsmoked, pale-cased, rice-based composition) or a generic kielbasa/Polish sausage (finer, more uniform grind, milder smoke).
+- Confidence: HIGH for composition and texture.
+- Sources: [Camellia Brand — All About Andouille](https://www.camelliabrand.com/all-about-andouille/)
+- Composition & proportions (§4.7) — standalone, seared and sliced on a board:
+  - What dominates: sausage ~85%; bread or mustard minor. [EDITORIAL]
+  - Components: a link ~15–20 cm, ~3.5–4 cm thick (about half to two-thirds of the can's width); sliced into coins ~1 cm thick, 8–12 fanned, plus one uncut end; a small mustard dish optional; saltines or bread optional. [EDITORIAL]
+  - Arrangement: coins fanned in a row beside the link's remaining end on a wooden board.
+  - State cues: dark, smoky casing with a seared edge; cut faces showing coarse chunks of meat and fat, slightly glossy.
+  - Absent on purpose: rice in the filling, fine uniform grind, ketchup, peppers-and-onions sandwich styling.
+  - Prompt-ready line: "A smoked andouille sausage on a wooden board, the uncut end about half the can's width thick, the rest sliced into a fanned row of coins about a finger's width thick. The casing is dark, smoky brown with seared edges; the cut faces show a coarse, chunky mosaic of pink pork and white fat, slightly glossy. A small dish of coarse mustard."
+
+#### Dish: Cracklins (gratons)
+- Category: Everyday snack, strongly tied to a communal cooking tradition (the boucherie, communal hog butchering)
+- Cuisine lineage: Louisiana-native-tradition; the Cajun French term "gratons" is used interchangeably with the English "cracklins."
+- Serving format: Snack, handheld, eaten out of a bag or paper tray, often alongside boudin at the same gas-station/meat-market counter.
+- Primary protein/composition: Pork skin with attached layers of fat and some meat, cut into cube-sized pieces and deep-fried in hot hog lard until the fat renders out and the pieces "float, crack, and pop" in the fryer.
+- Visual/plating characteristics: Irregular, roughly cube-shaped or knobby pieces with a **deeply golden-to-dark-brown, craggy, bubbled/blistered exterior** — the surface should show visible small bubbles, ridges, and irregular texture, not a smooth or uniform surface — often with a visible thin, crisp, almost shattering skin layer over a small amount of tender meat/fat beneath. Pieces vary noticeably in size and shape.
+- Common confusion: Not plain fried pork rinds/chicharrones (a commercial, more uniform, airy, puffed snack made from skin alone with a much lighter, more brittle texture) — cracklins retain visible fat and sometimes meat, giving a denser, chewier bite and a craggier surface.
+- Confidence: HIGH overall.
+- Sources: [Acadiana Table — Cajun Cracklins](https://acadianatable.com/2023/11/13/cajun-cracklins/)
+- Composition & proportions (§4.7) — one paper bag or tray:
+  - What dominates: cracklins ~100% — a single-component snack.
+  - Components: irregular cubes ~2–4 cm (a third to half of the can's width), 20–40 in a paper boat or open bag (~½ lb); a few smaller crumbs; seasoning specks. [EDITORIAL]
+  - Arrangement: heaped loosely, pieces of varying size and shade, bag top folded open.
+  - State cues: blistered, crackly skin, a light grease spot on the paper.
+  - Absent on purpose: uniform puffed pork rinds, dipping sauces, garnish, legible bag print.
+  - Prompt-ready line: "A loose heap of Cajun cracklins in a plain open paper bag, irregular knobby cubes from a third to half of the can's width, each with a blistered, bubbled, deep golden-to-dark-brown skin layer over a little dense fat and meat, dusted with red seasoning. A grease spot on the paper; no sauce."
+
+#### Dish: Corn maque choux
+- Category: Everyday side dish
+- Cuisine lineage: A fusion of Native American (a corn dish sometimes described as a Southern relative of succotash) and early European settler influence; both Cajun and Creole versions are documented.
+- Regional form variation: The base Cajun version uses fresh corn, onion, bell pepper, and Cajun seasoning sautéed in bacon grease; a Creole version adds tomato; further "dressed-up" versions add bacon, andouille, or crawfish. [CONFIDENCE: MEDIUM]
+- Primary composition: Fresh corn kernels cut from the cob, sautéed with onion and bell pepper (and often celery) in bacon grease or lard, then briefly stewed with a small amount of stock.
+- Visual/plating characteristics: A loose, slightly glossy sauté of bright yellow corn kernels flecked with small pieces of green bell pepper and translucent softened onion, with a light sheen from the cooking fat — a much lighter, brighter yellow-dominant palette than this zone's dark-roux dishes, with no red tomato coloring in the Cajun version.
+- Common confusion: Not a Creole maque choux that includes tomato (a redder-tinted version), nor plain buttered corn/succotash (the trinity aromatics and light stewed-down consistency are the confirming details).
+- Confidence: MEDIUM overall — this entry rests on recipe-blog-tier sourcing only, the project's lowest-preferred tier, flagged rather than presented with unearned authority.
+- Sources: [Flavor Mosaic — Maque Choux (A Cajun Corn Side Dish)](https://flavormosaic.com/maque-choux/) (recipe-blog tier)
+- Composition & proportions (§4.7) — one side bowl:
+  - What dominates: yellow corn ~75%, green pepper ~10–15%, onion ~10%. [EDITORIAL]
+  - Components: kernels ~0.8–1 cm; bell pepper dice ~0.5–1 cm; onion translucent dice; green onion sprinkle optional; bacon bits only in dressed-up versions. [EDITORIAL]
+  - Arrangement: loose, evenly mixed, slightly mounded.
+  - Vessel fill: a 12–15 cm side bowl filled to ~1 cm below the rim, or a scoop on a dinner plate as a side.
+  - State cues: light fat sheen, a little creamy corn milk binding; steam.
+  - Absent on purpose: tomato (Cajun version), corn on the cob, cream sauce, cheese, red pepper dominance.
+  - Prompt-ready line: "A small white side bowl filled almost to the rim with corn maque choux: bright yellow corn kernels lightly bound and glossy, flecked with small pieces of green bell pepper and soft translucent onion, a little sliced green onion on top. Each kernel is tiny beside the can, under a seventh of its width. Light steam, no tomato, no cheese, no cream."
+
+### Mississippi & Alabama Gulf Coast
+
+#### Dish: West Indies salad
+- Category: Everyday to special-occasion (a genuine local-lunch staple, also a "ladies' lunch"/dinner-party dish per some sourcing)
+- Cuisine lineage: Native-Gulf-Coast-tradition, Mobile-specific — despite the name, has no actual West Indies/Caribbean culinary lineage; the name was chosen to evoke the islands, not to describe a real transmission route.
+- History: Created in 1947 by restaurateur William "Bill" Bayley Sr. at Bayley's Steak House on Dauphin Island Parkway south of Mobile (closed 2022 after 50+ years). Bayley, inspired by a simple oil-and-vinegar lobster salad he encountered in the Cayman Islands while a Merchant Marine steward, recreated it using fresh Gulf blue crabmeat. Kept a closely guarded restaurant secret until published in the Junior League of Mobile's 1964 cookbook, *Recipe Jubilee*. [CONFIDENCE: HIGH]
+- Serving format: Plate/bowl only — a cold composed salad, never a sandwich or handheld format.
+- Primary protein: Fresh Gulf blue crab meat (lump or claw), kept in whole, separated lumps — never shredded or mashed.
+- Side dishes/condiments: **No mayonnaise at all** — the dressing is vegetable oil, cider vinegar, and ice water, plus finely diced onion. Assembled in distinct layers and refrigerated to marinate 2–12 hours before serving.
+- Visual/plating characteristics: Distinct, separated white-to-pale-ivory lumps of crabmeat, glistening and slightly translucent at the edges from the oil-and-vinegar marinade — never a uniform, opaque, thickly-coated look. Finely diced onion visible throughout as small, pale, translucent flecks. **Texture/finish**: the crab should look wet/glossy rather than dry, but the coating is thin and clinging, not a thick sauce pooling at the bottom of the bowl.
+- Common confusion: **The single most important confusable alternative is any mayonnaise-based crab salad or a Maryland-style crab cake mixture (`us-mid-atlantic.md`)** — the complete absence of mayonnaise, egg, or breading is the defining difference. Not ceviche (the crabmeat is already fully cooked before marinating).
+- Confidence: HIGH overall.
+- Sources: [Wikipedia: West Indies salad](https://en.wikipedia.org/wiki/West_Indies_salad); [Eat Alabama Seafood — West Indies Salad Puts Alabama Seafood Restaurant on the Culinary Map](https://eatalabamaseafood.com/articles/story/west-indies-salad-bayleys-seafood-restaurant.html)
+- Composition & proportions (§4.7) — one bowl with crackers:
+  - What dominates: crab lumps ~85% of the visible surface; onion flecks ~10%; marinade shine. [EDITORIAL]
+  - Components: lumps ~1.5–3 cm (a quarter to half of the can's width); onion dice ~3–5 mm; marinade a thin glaze, a few millimetres pooled at most. Eaten from a small bowl with saltine crackers — "the true way to serve it is in a bowl" — or on butter lettuce [MEDIUM — FOX10, 30AEATS, The Kitchn (via search)]. Saltines 4–6 alongside. [EDITORIAL for counts]
+  - Arrangement: loosely heaped lumps; saltines fanned on a small side plate or the bowl's underliner.
+  - Vessel fill: a 12–15 cm glass or white bowl, filled to ~1–2 cm below the rim.
+  - State cues: cold, glistening, slightly translucent edges; no steam.
+  - Absent on purpose: mayonnaise, celery, egg, breading, paprika dusting, a crab-cake form.
+  - Prompt-ready line: "A small chilled glass bowl heaped with West Indies salad: loose, separate lumps of white blue-crab meat, each a quarter to half of the can's width, glistening under a thin oil-and-vinegar marinade, flecked with tiny pieces of translucent white onion. Four saltine crackers fanned beside the bowl. Cold, no mayonnaise, no garnish."
+
+#### Dish: Fried Gulf crab claws
+- Category: Everyday (a bar/appetizer staple) to special-occasion (a seafood-platter component)
+- Cuisine lineage: Native-Gulf-Coast-tradition, Mobile-specific.
+- Regional form variation: **Two genuine, coexisting preparations per §4.6**: (1) **fried** — the original, invented form, breaded and deep-fried whole; (2) **marinated/chilled** — a newer preparation (e.g., in a corn vinaigrette with shaved red onion), served cold. A brief should specify which, or default to the fried version as historically original.
+- History: Invented at Bayley's Steak House (same restaurant/era as West Indies salad) — Bill Bayley Sr. began breading and frying blue crab claws rather than discarding them, as other Gulf Coast restaurants of the time did. [CONFIDENCE: MEDIUM-HIGH]
+- Primary protein: Blue crab claws (the pincer segment), shell left partly on as a handle.
+- Visual/plating characteristics: **Fried version**: a cluster of golden-brown, craggy-breaded claws piled on a plate, each claw's white cartilage/shell "handle" visible protruding from the fried breading — a genuinely different silhouette from a whole soft-shell crab (`us-mid-atlantic.md`) or a plain unbreaded chilled claw. **Marinated version**: glossy, wet-looking claws with visible flecks of diced onion and herb, no breading at all.
+- Common confusion: Not a whole fried soft-shell crab — the claw-only form with a visible shell "handle" is the checkable difference. The fried and marinated preparations should not be conflated with each other.
+- Confidence: MEDIUM-HIGH for the origin and fried form.
+- Sources: [Only In Your State — Fried Crab Claws Were Invented In Mobile, Alabama](https://www.onlyinyourstate.com/food/alabama/iconic-food-invented-al)
+- Composition & proportions (§4.7) — one appetizer order, fried:
+  - What dominates: golden breaded claws ~80%; sauce ramekin ~10%; lemon ~10%. [EDITORIAL]
+  - Components: claws ~6–7 cm long overall (about half the can's height): a breaded meat bulb ~3–4 cm plus a 2–3 cm shell handle. As an appetizer, ~4–8 claws per person [MEDIUM — Grits and Pinecones, crab-claw retailers (via search)]; one order 10–12 piled. Cocktail sauce or remoulade ramekin ~6 cm; 1–2 lemon wedges. [EDITORIAL for order count]
+  - Arrangement: piled in a paper-lined basket, handles pointing outward and up.
+  - State cues: craggy, crisp, matte crust; no oil pool.
+  - Absent on purpose: whole crabs, soft-shell crab, heavy parsley, mixing in marinated claws.
+  - Prompt-ready line: "A paper-lined basket piled with about a dozen fried blue-crab claws, each about half the can's height, the plump meat end in a craggy, golden-brown breading and a bare red-and-white shell tip sticking out as a handle. A small ramekin of red cocktail sauce and a lemon wedge alongside. Crisp and dry, no garnish."
+
+#### Dish note: Gulf Coast seafood gumbo — a real, historically distinct tradition; see the New Orleans/Creole and Cajun/Acadiana zones above for the dish's full authoritative visual/plating depth
+This coast has its own claimed gumbo history, independent of and by some accounts predating New Orleans's: multiple Mobile-focused food-history sources state people were eating gumbo in Mobile "long before New Orleans existed," built on the same causal narrative usually told about New Orleans (French roux, African okra and enslaved cooks brought to Mobile starting 1719, Choctaw filé). [CONFIDENCE: MEDIUM — corroborated across two regional food-history sources, neither academic or primary-archival] This zone's own research found **no sourced visual differentiator** between a Gulf Coast seafood gumbo (shrimp, crab, oysters, a French-style roux, thickened with okra or filé, never both in the same pot) and the Creole/New Orleans gumbo entry above — an honest absence-of-evidence finding, not an invented uniformity claim. Sources: [Mobile Bay Magazine — Gumbo: Africans and Creoles on the Gulf Coast](https://mobilebaymag.com/gumbo-africans-and-creoles-on-the-gulf-coast/); [Mississippi Encyclopedia — Gulf Coast Cuisine](https://mississippiencyclopedia.org/entries/gulf-coast-cuisine/)
+
+#### Dish: Boiled Gulf shrimp (peel-and-eat)
+- Category: Everyday to special-occasion (a casual communal favorite; also served at seafood boils/gatherings)
+- Cuisine lineage: Native-Gulf-Coast-tradition.
+- Regional form variation: Prevalence-only — Gulf shrimp specifically (warm-water, larger, meatier than farm-raised or cold-water shrimp per multiple sources) is the coast's own preferred variety.
+- Primary protein: Whole Gulf shrimp (head-off shell-on most common for retail/restaurant service; head-on also documented for home/dockside preparation), boiled in a seasoned, cayenne-and-salt-forward liquid.
+- Side dishes/condiments: Cocktail sauce is the standard dip; melted butter and lemon are common alternatives; served with saltine crackers in many casual settings.
+- Visual/plating characteristics: Shells are a pale pink-to-coral color once cooked (a sharp contrast to raw shrimp's translucent gray-blue), with visible dark seasoning residue clinging to the shell; shrimp curled into a tight "C" shape, piled loosely and glistening slightly from the cooking liquid. **Texture/finish**: the shell should look matte-to-slightly-glossy and intact (unpeeled) as the default presentation.
+- Common confusion: Not fried shrimp (a completely different golden-breaded, dry finish) or a chilled shrimp cocktail arranged in a formal ring (a more restrained, upscale presentation than this coast's looser, pile-style casual serving).
+- Confidence: MEDIUM-HIGH for composition and general presentation.
+- Sources: [Mississippi Seafood — Recipes](https://msseafood.com/recipes/)
+- Composition & proportions (§4.7) — one order (about one pound), peel-and-eat:
+  - What dominates: shell-on shrimp ~85%; sauce, lemon and crackers ~15%. [EDITORIAL]
+  - Components: shrimp curled into a C ~5–6 cm across (roughly 21–30 per lb, a common size; about the can's width), ~20–25 per pound order; cocktail sauce ramekin ~6–7 cm; 2 lemon wedges; saltines 4–8. [EDITORIAL]
+  - Arrangement: piled loosely on a tray, butcher paper or a platter; an empty-shells bowl optional.
+  - Vessel fill: pile ~20 cm across on a 30–35 cm tray.
+  - State cues: glistening, seasoning specks on the shells; a little steam if hot.
+  - Absent on purpose: peeled shrimp-cocktail rings on a glass, breading, a lemon-and-parsley garnish crown.
+  - Prompt-ready line: "A loose pile of boiled Gulf shrimp, shells on, on a paper-lined tray, each curled into a tight C about the can's width across, pale pink-to-coral shells glistening and dusted with dark red seasoning. A small ramekin of red cocktail sauce, two lemon wedges and a few saltine crackers at the side. No peeled shrimp, no breading."
+
+#### Dish: Fried Gulf seafood combo platter
+- Category: Everyday to special-occasion (a defining "away from home" order at any Gulf Coast seafood house)
+- Cuisine lineage: Native-Gulf-Coast-tradition (Southern fried-seafood tradition applied to Gulf-specific catch).
+- Primary protein: Fried shrimp (tails often left on), fried oysters, a fried white fish fillet (flounder commonly named), and often a stuffed crab or fried crab claws as an additional component.
+- Primary starch/accompaniment: Hushpuppies (deep-fried cornmeal balls) are a near-universal accompaniment; french fries are also common.
+- Side dishes/condiments: Coleslaw (creamy, mayo-based) and cocktail or tartar sauce are standard; some versions include a cup of gumbo as a starter component.
+- Visual/plating characteristics: Each fried component shows a distinctly craggy, deep golden-brown crust — cornmeal- or cracker-meal-based breading gives a coarser, more matte, slightly bumpy texture than a smooth wheat-batter fry. Pieces are visually distinguishable by shape and size: shrimp small and curled with a visible tail flag, oysters irregular and slightly flattened, fish fillets larger and more uniformly rectangular, hushpuppies small dense round-to-oblong balls with a rougher crust. **Texture/finish**: cut or broken open, each item's interior should read as opaque white and moist — never pink/translucent at the center.
+- Common confusion: Not a New England fried-clam basket (`us-northeast.md`, different shellfish, no hushpuppies) or a single-item fried-fish sandwich — the multi-component platter format and hushpuppy pairing are the checkable Gulf/Southern-coastal markers.
+- Confidence: MEDIUM-HIGH for composition and general visual description.
+- Sources: [The Original Oyster House](https://www.originaloysterhouse.com/we-are-the-place-for-seafood-platters/)
+- Composition & proportions (§4.7) — one platter:
+  - What dominates: fried seafood ~55–60% of the platter, fries ~20%, hushpuppies ~10%, slaw and sauces ~10–15%. [EDITORIAL]
+  - Components: shrimp ~6–8 cm with tail, 5–7; oysters ~4–5 cm, 4–6; one fish fillet ~12–15 cm (about the can's height); hushpuppies ~4–5 cm, 3–4; fries a handful; coleslaw in a ~8 cm cup; tartar and cocktail sauce ramekins; lemon wedge. [EDITORIAL]
+  - Arrangement: fillet at the back, shrimp and oysters fanned in front, hushpuppies at one end, fries at the other, cups on the side.
+  - Vessel fill: an oval platter ~30–35 cm, nearly full, crowded but each item distinguishable.
+  - State cues: coarse cornmeal crust, matte and dry; no grease pool; a little steam.
+  - Absent on purpose: clams, lobster, batter-smooth crust, a towering pile, parsley sprigs.
+  - Prompt-ready line: "An oval platter of fried Gulf seafood: one golden fish fillet about the can's height across the back, curled fried shrimp with tail fins and craggy fried oysters in front, three round hushpuppies about two-thirds of the can's width at one end and a handful of fries at the other, all in a coarse, matte cornmeal crust. A cup of creamy coleslaw and small ramekins of tartar and cocktail sauce beside it."
+
+#### Dish: Raw Gulf oysters on the half shell
+- Category: Everyday to special-occasion (a raw-bar staple; historically inexpensive, still commonly ordered by the dozen)
+- Cuisine lineage: Native-Gulf-Coast-tradition (*Crassostrea virginica*, the same Eastern oyster species documented in `us-mid-atlantic.md`'s Chesapeake entry, here from Gulf/Mississippi Sound waters).
+- Side dishes/condiments: Cocktail sauce, hot sauce, saltine crackers, and lemon wedges are standard; longstanding Mobile oyster bars are historically noted for offering oysters "fried, stewed, and nude" (raw) — a real, sourced local phrase for the three standard preparations.
+- Visual/plating characteristics: Each oyster shows a pale, grayish-beige, glistening, slightly translucent-at-the-edges body sitting in the deep, cupped half of a rough, ridged, dull grayish-white-to-brown shell, nested in bright white crushed ice. **Texture/finish**: the meat should look wet/glistening and slightly firm-but-yielding, never dry or shriveled — freshness itself is a visual cue.
+- Common confusion: **Not confidently distinguishable in appearance from Chesapeake (`us-mid-atlantic.md`) or other Atlantic/Gulf *C. virginica* oysters** — an honest absence-of-evidence finding; the confirming detail for a Gulf Coast scene is context (setting, other dishes on the table, regional seasoning), not the oyster's own appearance.
+- Confidence: MEDIUM-HIGH for general presentation and the "fried, stewed, and nude" phrase; LOW for any Gulf-specific visual differentiator.
+- Sources: [Bienville Bites Food Tour — Wintzell's Oyster House: The Story Behind Mobile's Oldest Oyster Bar](https://bienvillebitesfoodtour.com/blog/wintzells-oyster-house-mobile/)
+- Composition & proportions (§4.7) — one dozen on ice:
+  - What dominates: shells and oysters ~70% of the tray, ice ~25%, sauce cup and lemons ~5%. [EDITORIAL]
+  - Components: 12 shells ~8–10 cm (about three-quarters of the can's height); a cocktail-sauce cup ~6 cm in the centre; 2–3 lemon wedges; saltine packets alongside. [EDITORIAL]
+  - Arrangement: radial on crushed ice, hinges toward the centre.
+  - Vessel fill: a ~35–40 cm round metal tray, ice mounded ~3–4 cm.
+  - State cues: oysters wet, glistening in their liquor; ice glinting; cold.
+  - Absent on purpose: mignonette (not this coast's default), caviar or herb garnish, legible packet print.
+  - Prompt-ready line: "A dozen raw oysters on the half shell set in a ring on mounded crushed ice in a round metal tray, each rough grey-brown shell about three-quarters of the can's height, each holding a plump, glistening, pale grey-beige oyster in its liquor. A small cup of red cocktail sauce in the centre, lemon wedges and unprinted saltine packets beside. Cold and wet."
+
+#### Dish: Royal Red shrimp
+- Category: Special-occasion to everyday-when-in-season (a prized, less everyday-available item than standard Gulf shrimp)
+- Cuisine lineage: Native-Gulf-Coast-tradition, Alabama-specific — "unique to the Gulf states" and most associated with Alabama's coast.
+- History: A deep-water shrimp species (*Pleoticus robustus*) living at roughly 800–2,100 feet depth, first identified as commercially viable via a federal deep-water trawl survey in the 1960s; commercial catching began in the 1970s but stayed niche, growing in chef/culinary popularity from the mid-1990s onward. Sourced by only a small number of specially-equipped boats able to travel up to 60 miles offshore. [CONFIDENCE: MEDIUM-HIGH]
+- Primary protein: The shrimp itself, notably larger and more richly reddish-orange in raw color than standard Gulf white/brown shrimp — a real, checkable pre-cooking difference, not just a marketing name.
+- Side dishes/condiments: Melted butter is the standard, simple accompaniment, reinforcing a "lobster of the Gulf" comparison.
+- Visual/plating characteristics: Raw, the shrimp already shows a deep, saturated reddish-orange-to-pink shell color (unlike standard Gulf shrimp's translucent gray-brown raw color) — cooking deepens this further to a rich coral-red. Noticeably larger and plumper than standard Gulf shrimp. Presented simply — a small pile of shell-on, curled shrimp with a ramekin of melted butter, not heavily sauced or breaded.
+- Common confusion: Not standard Gulf shrimp of any preparation — the pre-cooking reddish-orange shell color and larger size are the checkable differentiators.
+- Confidence: HIGH for the species facts and history; MEDIUM-HIGH for the visual color/size differentiators.
+- Sources: [Chowhound — How Royal Red Shrimp Earned Its 'Lobster Of The Gulf' Reputation](https://www.chowhound.com/2119830/royal-red-shrimp-lobster-of-the-gulf/)
+- Composition & proportions (§4.7) — one served pile:
+  - What dominates: coral-red shrimp ~85%, melted butter ramekin ~10%, lemon ~5%. [EDITORIAL]
+  - Components: whole shell-on shrimp sold at roughly 10–25 per lb, i.e. large to jumbo [MEDIUM — seafood retailer listings (via search)]; each ~10–12 cm straight, curled ~6–7 cm (about the can's width); 8–12 per serving; a ~6 cm ramekin of melted butter; a lemon wedge. [EDITORIAL for serving count]
+  - Arrangement: a small loose pile in a shallow bowl or on a plate, ramekin beside.
+  - State cues: shells glossy, a little steam; butter glossy yellow.
+  - Absent on purpose: breading, cocktail-sauce dominance, heavy seasoning crust, grilled skewers.
+  - Prompt-ready line: "A small loose pile of boiled Royal Red shrimp in a shallow white bowl, shells on, each plump shrimp loosely curled and about the can's width across, with a deep, glossy coral-red shell. A small ramekin of melted golden butter and one lemon wedge beside them. Light steam; simple, no sauce, no breading."
+
+#### Dish note: Creole-influenced coastal plated seafood (trout meunière, oysters Rockefeller, oysters Bienville) — real, documented, imported dishes; see the New Orleans/Creole zone above for the full authoritative entries
+These dishes are genuinely served and identified with this coast specifically — not just assumed by proximity — via the sourced import mechanism described in this zone's own characterization above (wealthy New Orleans vacationers bringing Creole recipes and refined dining tastes to Gulf Coast resort towns). This zone's own research found no evidence these dishes look visually different here than in New Orleans; they are the same dishes, imported and locally embraced rather than locally reinvented, so their full authoritative depth lives with the New Orleans/Creole entries above rather than being duplicated here. **One local-naming curiosity, flagged LOW confidence rather than presented as confirmed**: at least one long-running Mobile restaurant serves a dish named "redfish Bienville," a menu-naming choice that plausibly nods to Jean-Baptiste Le Moyne de Bienville, Mobile's own founder, rather than only echoing the New Orleans dish tradition — asserted only at menu-listing tier, not independently confirmed. Sources: [Mississippi Encyclopedia — Gulf Coast Cuisine](https://mississippiencyclopedia.org/entries/gulf-coast-cuisine/)
+
+---
+
+## GAP LOG
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items:** crawfish-boil equipment detail rests on hosting guides and recipe/vendor sites (low tier); the po'boy corner-bar form is drawn from one documented shop (Domilise's) and generalised; po'boy shop shell (pressed-tin ceilings, gallery overhead) not verified; light and palette editorial. Creole fine dining, courtyard, boudin counter, Cajun country restaurant, seafood house and shrimp harbor still need profiles (later wave).
+- **Game-night pass (2026-10-01) open items:** gumbo/jambalaya at tailgates is MEDIUM (KTXS via the research notes); the brown-vs-red jambalaya choice for tailgates, boudin as a tailgate snack, LSU night-game timing and the crawfish-boil-plus-March-Madness pairing are [LOW — not verified].
+- **Celebrations pass (2026-10-01) open items:** crawfish-boil, king-cake-party, parade-picnic and boucherie headcounts are editorial; the parade-picnic food list is inferred (sources confirm picnics and BBQs, not specific dishes); the crawfish dip and boil side dishes are common practice, not verified; New Orleans Réveillon dinners and Christmas Eve bonfires on the levee were not checked this pass.
+
+- **Composition & proportions blocks (added 2026-09-27, `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece sizes are sourced where tagged; counts and shares are reasoned from recipe quantities and serving norms, tagged [EDITORIAL], and should be checked against image tests before being treated as reliable.
+- **WebFetch (direct page reads) was blocked by network egress for every domain attempted across all three passes** (en.wikipedia.org, 64parishes.org, mississippiencyclopedia.org, smithsonianmag.com, and others). Every citation to these domains relies on WebSearch's own result-snippet excerpting, not a full page read.
+- **The Gumbo/jambalaya/étouffée Creole-vs-Cajun "default when unspecified" question is explicitly left unresolved** by all three passes, per `country-file-schema.md` §4.6 — a genuine editorial/product decision for a human reviewer, not a research gap to fill with a guess.
+- **Potato salad in gumbo** (New Orleans zone) is a real but debated New Orleans-area custom, not independently verified as majority practice — flagged MEDIUM confidence.
+- **Boucherie (communal hog butchering)**, the historical origin event for boudin/andouille/cracklins, surfaced repeatedly but was not researched as its own ENVIRONMENT entry — now much rarer as a lived practice than as a festival reenactment, judged lower staging-priority than the crawfish boil and boudin-counter registers actually written up.
+- **Boudin rouge (blood boudin)** is documented as genuinely rare/hard-to-find today, sourced to one specific named meat market as one of few still producing it commercially — flagged as MEDIUM-confidence rarity, not written up as its own full entry given how niche it currently is.
+- **Corn maque choux** rests on recipe-blog-tier sourcing only, the project's lowest-preferred tier — flagged for a future pass to find a stronger source.
+- **Prairie vs. bayou/coastal Acadiana as two distinct sub-registers** is a reasonable geographic synthesis, not an independently sourced claim that food culture itself meaningfully differs between the two sub-areas.
+- **The "70% of domestic shrimp and oyster production from the Mississippi Sound" statistic was found and explicitly not carried forward** — it contradicts Mississippi State University Extension's own economic-contribution data.
+- **The exact founding date of the first Mardi Gras in Mobile is contested (1699 vs. 1703)** — both figures appear across otherwise-reputable sources; this file uses 1703 as the more consistently cited date but flags the alternative honestly.
+- **No sourced visual differentiator was found between Gulf Coast raw oysters and Chesapeake/other Atlantic *C. virginica* oysters** — an honest absence-of-evidence finding, not a claimed uniformity across the whole KB.
+- **Point Cadet's and Bayou La Batre's Vietnamese-American shrimping communities' own specific foodways/fusion dishes were not researched to full dish-entry depth** — the settlement/labor history is well-sourced, but no specific fusion dish was found with sufficient visual/plating sourcing for a full entry.
+- **Mississippi Coast Croatian/Slavic ("Slavonian") foodways beyond the oyster-industry labor history were not researched to full dish-entry depth.**
+- **Shrimp and grits is served on this coast but this pass could not confirm it as historically native to Alabama/Mississippi specifically**, as distinct from its well-documented Lowcountry (SC/GA) origin (`us-south.md`) — not written up as a full coast-original entry, to avoid overstating a local-origin claim.
+- **Turtle soup and bread pudding with whiskey sauce** (New Orleans zone) are real, commonly-cited New Orleans Creole dishes not researched this round — dropped for time per the "quality over quantity" instruction.
+
+## CANDIDATE QUEUE
+
+- **Added by the 2026-10-01 celebrations pass:** backbone stew (pork, roux gravy, over rice); hog's head cheese; crawfish dip.
+
+1. Get a human/reviewer decision on the Creole-vs-Cajun "default when unspecified" question for gumbo and jambalaya, the same "research recommends, human decides" pattern used elsewhere in this project.
+2. Research oysters Bienville's own dating/origin story to the same depth as oysters Rockefeller's.
+3. A stronger, non-recipe-blog source for corn maque choux's history and Cajun-vs-Creole treatment.
+4. Deeper research into whether prairie Acadiana and bayou/coastal Acadiana have independently documented sub-regional food differences.
+5. Vietnamese-American and Croatian/Slavonian Gulf Coast fusion dishes as their own dedicated, visually-sourced entries.
+6. Direct resolution of the 1699-vs-1703 Mobile Mardi Gras founding-date discrepancy against an academic/archival source.
+7. A dedicated visual-comparison pass between Gulf Coast, Chesapeake, and Apalachicola raw oysters, now that all three files exist.
+8. Turtle soup and bread pudding with whiskey sauce as candidate additional New Orleans entries.
+
+## RESEARCH LOG
+
+- 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 2 profiles, 2 searches. Added VENUE PROFILES after the register table: backyard or carport crawfish boil; New Orleans neighborhood po'boy shop (counter and corner-bar forms). Sources: Tasting Table, Louisiana Kitchen & Culture, Wikipedia (Domilise's), 2foodtrippers; search snippets only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT regional deltas: 1 entry (LSU Saturday or Saints Sunday, gumbo-and-jambalaya tailgate and home party).
+- **2026-10-01 celebrations pass (schema §5.7):** 2 searches (boucherie, Mardi Gras parade picnic and king cake party); the crawfish boil reused the existing ENVIRONMENT register and catalog sources. Added CELEBRATIONS & LARGE GATHERINGS — regional deltas from `us.md` with 3 entries: crawfish boil, Carnival season (king cake party and parade-route picnic), boucherie. Search snippets only.
+
+- **2026-09-24, three parallel subagent research passes** built this file's content: New Orleans/Louisiana Creole; Cajun/Acadiana; and Mississippi & Alabama Gulf Coast. All three read `country-file-schema.md`, `us.md`, and at least one prior regional file first, pulled forward (not re-researched) `us.md`'s existing po'boy pointer, and disclosed the same WebFetch/network-egress limitation as every prior research round on this project.
+- **The gumbo and jambalaya Creole/Cajun forks were kept as two full, coexisting entries each**, per `country-file-schema.md` §4.6, exactly as both passes recommended — not collapsed into one default.
+- **The Gulf Coast AL/MS gumbo and Creole-plated-seafood (trout meunière/oysters Rockefeller/Bienville) entries were trimmed to cross-references** pointing to the New Orleans/Creole zone's full entries, following the same resolution pattern used for Hoppin' John in `us-south.md` — that pass's own research found no sourced visual differentiator from the Creole versions and explicitly flagged this for the merge.
+- **King cake was kept as a single full entry in the New Orleans/Creole zone**, per the Cajun/Acadiana pass's own explicit deference; its Cajun Country bakery variant is noted as an addendum inside that entry.
+- **Oysters Bienville was written as a new full entry in the New Orleans/Creole zone**, since neither original pass had researched it in as much depth as oysters Rockefeller, but a Gulf-South-wide dish family needed all three siblings (Rockefeller, Bienville, trout meunière) documented consistently.
+- Total sourcing this round: approximately 17 (New Orleans/Creole) + 20 (Cajun/Acadiana) + 24 (Mississippi & Alabama Gulf Coast) ≈ 61 tool-uses across the three subagent passes, with roughly 90+ distinct sources cited across the merged file.

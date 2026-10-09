@@ -1,0 +1,186 @@
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--bay-border-hair, var(--bay-border));
+}
+
+.customWrap {
+  container-type: inline-size;
+  margin-top: 16px;
+}
+
+/* Side by side: title and hint on the left, the entry on the right. */
+.custom {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 24px;
+  align-items: start;
+  padding: 20px;
+  border: 3px dashed var(--neo-ink);
+  border-radius: var(--app-card-radius);
+  background: var(--bay-bg-subtle);
+}
+
+@container (max-width: 600px) {
+  .custom {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+}
+
+.customIntro {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.customForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.customHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: var(--app-weight-subhead);
+  color: var(--bay-text);
+}
+
+/* Beats the step-wide paragraph style, which is sized for intros. */
+.customIntro .customHint {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--bay-text-3);
+}
+
+.customActions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.customKeys {
+  font-size: 12px;
+  color: var(--bay-text-3, var(--bay-text-2));
+}
+
+@media (max-width: 640px) {
+  .customKeys {
+    display: none;
+  }
+}
+
+/* "No accent needed": a green check ahead of the subhead. */
+.okLine {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.okIcon {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--bay-ok-fg);
+}
+
+/* Accent step: what's on the table (left) beside the accent options (right, half width). */
+.composition {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .composition {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+}
+
+.compositionList {
+  position: sticky;
+  top: calc(var(--app-step-head-h, 0px) + 16px);
+}
+
+.tableItems {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tableItems li {
+  padding-left: 2px;
+}
+
+.tableItems li::marker {
+  color: var(--bay-text-3);
+}
+
+.tableKind {
+  display: block;
+  font-size: 12px;
+  font-weight: var(--app-weight-subhead);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--bay-text-3);
+}
+
+.tableName {
+  display: block;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--bay-text);
+}
+
+/* Accent decision embedded at the top of the Layout step. */
+.accentPicker {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--bay-border-hair, var(--bay-border));
+}
+
+.accentPicker h2 {
+  margin-top: 0;
+}
+
+/* In the Change-accent dialog: no divider, and the list scrolls with the options (no sticky offset from the page header). */
+.accentPickerInDialog {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.accentPickerInDialog .compositionList {
+  position: static;
+}
+
+.accentQuestion {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: var(--app-weight-subhead);
+}
+
+.accentPicker .compositionList h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: var(--app-weight-subhead);
+}
+
+.compositionOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

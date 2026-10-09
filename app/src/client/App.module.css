@@ -1,0 +1,275 @@
+.layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+/* The rail and the "Draft saved" line under it stay in view while the page scrolls. */
+.railColumn {
+  position: sticky;
+  top: 16px;
+}
+
+/* The logo, unboxed, at the left of the header row (same line as Learning, Start over and the name). */
+.logoImg {
+  display: block;
+  height: 62px; /* 49.5px + 25% */
+  width: auto;
+  max-width: 100%;
+}
+
+/* Step navigation: a stack of bordered rows (poster-grid style), not a
+   timeline. Each row is a big step number + label; the current step is a
+   solid red fill with white text; completed steps show a check on the right. */
+.rail {
+  display: flex;
+  flex-direction: column;
+  border: var(--neo-border);
+  background: var(--neo-card);
+  box-shadow: var(--neo-shadow);
+}
+
+.savedRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 18px;
+  margin-top: 12px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--bay-text-2);
+}
+
+.savedIcon {
+  color: var(--neo-ink);
+}
+
+.railItem {
+  position: relative;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 0;
+  border-bottom: var(--neo-border-thin);
+  background: none;
+  font: inherit;
+  text-align: left;
+  color: var(--bay-text);
+  cursor: pointer;
+}
+
+.railItem:last-child {
+  border-bottom: 0;
+}
+
+.railNumber {
+  font-family: var(--app-font-head);
+  font-size: 22px;
+  line-height: 1;
+  color: inherit;
+}
+
+.railLabel {
+  font-family: var(--bay-font-sans);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+  color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.railCheck {
+  flex-shrink: 0;
+  color: var(--neo-ink);
+}
+
+.railItem:disabled {
+  cursor: default;
+  color: var(--bay-text-4);
+}
+
+.railItem:not(:disabled):not([data-active]):hover {
+  background: var(--neo-hover);
+}
+
+.railItem[data-active] {
+  background: var(--neo-selected);
+  color: var(--neo-on-selected);
+}
+
+.railItem[data-active] .railCheck {
+  color: var(--neo-on-selected);
+}
+
+.railItem[data-active] .railLabel {
+  font-weight: 700;
+}
+
+.railItem:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: -3px;
+  position: relative;
+  z-index: 1;
+}
+
+.panel {
+  /* No card around the step: content sits directly on the paper canvas. */
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  min-height: calc(100vh - 56px - 2 * 28px - 32px);
+}
+
+/* Each step's <section> fills the panel so its action bar can sit at the bottom. */
+.stepBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.stepBody > section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flex children don't collapse margins: the intro's bottom margin already
+   spaces the first thing after it. */
+.stepBody > section > p:first-of-type + * {
+  margin-top: 0;
+}
+
+/* Material type scale for every step's own <h1>/<p>/<h2>/<h3> — scoped to
+   this wrapper so step components can stay plain semantic markup. */
+.stepBody h1 {
+  margin: 0 0 16px;
+  font-size: clamp(32px, 4.2vw, 56px);
+  font-weight: var(--app-weight-headline);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--bay-text);
+}
+
+/* The step's headline is a frozen band: it stays at the top of the window and
+   the step scrolls up behind it. Its height is published as
+   --app-step-head-h (App.tsx) so other sticky parts sit below it. The side
+   bleed covers card shadows that poke past the column. */
+.stepBody > section > h1 {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  /* Pulled up by the rail's sticky offset (16px) plus the font's space above the caps,
+     so the cap line meets the rail's top border both before and after scrolling. */
+  margin: calc(-16px - 0.09em) -10px 0;
+  padding: 16px 10px 10px;
+  background: var(--bay-bg-canvas);
+}
+
+/* A note (Alert) sitting right above the step's options keeps clear of them. */
+.stepBody > section > [data-app-alert]:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.stepBody > section > p:first-of-type {
+  margin: 0 0 28px;
+  max-width: 640px;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--bay-text-3);
+}
+
+.stepBody p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--bay-text-2);
+}
+
+.stepBody h2 {
+  font-size: 16px;
+  font-weight: var(--app-weight-subhead);
+  line-height: 20px;
+  margin: 0 0 8px;
+}
+
+.stepBody h3 {
+  font-size: 14px;
+  font-weight: var(--app-weight-subhead);
+  margin: 16px 0 8px;
+}
+
+.confirmRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.confirmText {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bay-text-2);
+}
+
+@media (max-width: 720px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  /* On a phone the rail runs across the top as a horizontal strip instead. */
+  .railColumn {
+    position: static;
+  }
+  .logoImg {
+    height: 48px; /* 38.5px + 25% */
+  }
+  .rail {
+    flex-direction: row;
+    overflow-x: auto;
+    border: 0;
+    box-shadow: none;
+    background: none;
+    gap: 10px;
+  }
+  .railItem {
+    flex: 0 0 auto;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+    min-width: 0;
+    padding: 10px 14px;
+    border: var(--neo-border-thin);
+    border-radius: var(--bay-r-sm);
+    box-shadow: var(--neo-shadow-sm);
+    white-space: nowrap;
+  }
+  .railItem:focus-visible {
+    outline-offset: 2px;
+  }
+  .stepBody > section > h1 {
+    margin-top: 0;
+    padding: 12px 10px 8px;
+    font-size: 28px;
+  }
+}
+
+/* The logo goes home (the shared dashboard). */
+.logoLink {
+  display: block;
+  color: inherit;
+}
+
+.logoLink:focus-visible {
+  outline: var(--neo-border-thin);
+  outline-offset: 4px;
+}
+
+
+.adminTabs {
+  margin-bottom: 16px;
+}

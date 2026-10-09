@@ -1,0 +1,912 @@
+---
+region: uk-scotland
+parent_file: uk.md (national index — see FILE ROLE & METHOD there for the
+  overall UK structure and why Scotland, alone among the UK's nations, got
+  its own file)
+status: DRAFT — NEEDS SME/HUMAN REVIEW — FIRST UK REGIONAL FILE
+research_method: Claude web research (WebSearch only — WebFetch/direct page
+  reads were blocked by network egress for every domain attempted, consistent
+  with every prior research round on this project)
+date_drafted: 2026-09-24
+---
+
+## FILE ROLE & METHOD
+
+This is Scotland's regional file, the first (and, per `uk.md`'s structural
+decision, currently only) UK regional file. `uk.md`'s FILE ROLE & METHOD
+section records why Scotland specifically cleared the split bar that
+Wales and Northern Ireland didn't: a distinct dish set (haggis/neeps/
+tatties, the Scotch pie, Cullen skink) with no equivalent presence in an
+everyday English repertoire; distinct, staging-relevant vocabulary ("fish
+supper," Edinburgh's "salt and sauce") that changes what a scene should be
+captioned as; and a genuinely distinct dominant urban housing type
+(sandstone tenements with a shared "close") that has no English
+equivalent at all — three independent axes, where a typical US regional
+split in this project has usually cleared one or two.
+
+This file holds full, authoritative depth for `uk.md`'s pointers on:
+
+1. **Fish and chips, Scotland-specific detail** — haddock-over-cod
+   preference, dripping-frying tradition, "fish supper" terminology, and
+   Edinburgh's "salt and sauce."
+2. **Chicken tikka masala's Glasgow origin claim** — `uk.md` documents the
+   dispute itself (Glasgow vs. Delhi, and Robin Cook's 2001 speech,
+   cross-referenced from `us.md`); this file adds the Glasgow half's own
+   specific, sourced texture, since Shish Mahal is a Glasgow restaurant
+   and the invention anecdote belongs to Scottish food history
+   specifically.
+
+It also adds Scotland-native dishes with no UK-wide variant and therefore
+no `uk.md` pointer at all: the Scotch pie, haggis with neeps and tatties,
+and Cullen skink.
+
+**Scope inherited from `uk.md`**: lunch, dinner, and snacks only
+(breakfast excluded — this rules out the full Scottish breakfast). Haggis
+with neeps and tatties clears this exclusion on the same all-day/multi-
+occasion logic this project has used elsewhere (`us-texas.md`'s breakfast
+tacos, `us-new-mexico.md`'s biscochitos): it is a special-occasion dish
+(Burns Night, 25 January) but also a genuine year-round pub and chip-shop
+item, not confined to a morning meal.
+
+---
+
+## QUICK-REFERENCE: GENERIC SCENE REGISTERS
+
+| Generic scene type | What to draw on |
+|---|---|
+| **Scottish chippy (takeaway)** | The same walk-up chip-shop register as `uk.md`'s national baseline, but haddock is the shop's own default fish (not an "ask for it" option the way it is in England), and the condiment counter carries a chippy-sauce bottle/dispenser alongside vinegar — genuinely thinned brown sauce, not a garnish. |
+| **Scottish urban tenement flat** | A sandstone building entered through a shared stone "close" (stairwell), reached via a common stair rather than an individual front door for upper-floor flats — a genuinely different domestic register from an English brick terrace, and the strongest single visual marker that a scene is Scotland-set. |
+| **Burns Night / haggis-serving occasion** | A special-occasion register (25 January) — haggis presented whole before being cut, with a more ceremonial framing than its everyday pub/chip-shop appearance; use only when a brief specifically calls for the occasion, not as haggis's only register. |
+| **Football-ground/bakery snack counter** | A walk-up counter or high-street bakery selling the Scotch pie (see entry) as a hot snack, distinct from a sit-down meal. |
+
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES — regional deltas from `uk.md`
+
+Schema §5.9 applies. `uk.md`'s VENUE PROFILES hold the national baseline
+(kitchen-diner, living room for takeaway or watch party, back garden,
+gastropub, traditional pub, chippy) and apply in Scotland except where a
+profile below replaces or amends them. Wave 1 (2026-10-01): five profiles
+for the most Scotland-specific staged venues. Default zone: urban central
+belt (Glasgow or Edinburgh), per ZONE CHARACTERIZATION; when a brief names
+Scotland but no city, use the Glasgow-or-Edinburgh tenement reading for
+homes and `uk.md`'s national default for everything not covered here.
+File-wide rules hold: nothing legible, no alcohol cues (whisky is the
+Scotland-specific prior), no brand marks, never a full Saltire, no
+identifiable children, no more than about 2.5 background faces, none
+sharp; the brief dictates the SKU.
+
+#### Venue: Sandstone tenement flat kitchen (home, indoor)
+- Use for: home indoor; casual lunch, dinner, Hogmanay and New Year's Day
+  dinner, a Burns supper at home, Scottish football at home (the living
+  room of the same flat); 1 to small group. Replaces `uk.md`'s
+  kitchen-diner as the Scotland default home interior in the cities
+  [HIGH for tenements as the dominant historic urban type, see ENVIRONMENT
+  deltas].
+- Soft background (the core): what reads first is height: ceilings of
+  about 2.7 to 3 m, so the back wall shows a band of plain plaster above
+  the units and a moulded cornice line at the top; one tall timber sash
+  window dominates a wall, painted white, with deep stone reveals and
+  a view onto the back court (a shared green or paved yard, washing
+  lines, the rear walls of the opposite tenement block in red or honey
+  sandstone with rows of identical sash windows) [MEDIUM-HIGH — NTS
+  tenement guide; Glasgow kitchen-fitter guides on long, narrow kitchens
+  with one dominant sash window]. The kitchen is often long and narrow,
+  units along one wall; an old bed recess (an alcove from floor to
+  ceiling) is commonly reused as a dining nook or for a fridge and
+  shelves, so the table can sit framed by the recess [MEDIUM — NTS
+  Tenement House; British Listed Buildings]. Kettle, toaster and
+  front-loading washing machine as in `uk.md`. A white cast-iron or
+  panel radiator under the sash. Light: tall, cool, grey-white northern
+  daylight through the sash, falling off fast into the room; in winter
+  dark by about 15:45 to 16:00, so evening scenes are lamp and pendant
+  light against a black window with lit windows of the opposite block as
+  small warm rectangles. Palette: off-white walls, honey or red stone
+  through the glass, painted timber, pale wood floor. Signature shapes:
+  the tall sash with its horizontal glazing bar, the cornice line, the
+  stone back-court wall with grid of windows, the deep window reveal.
+  Density: lived-in, often a shared flat for a young cast.
+- Shell: 1840 to 1920 sandstone tenement, three or four storeys, flat
+  reached by a shared close and common stair; original pine floorboards
+  or later vinyl; high ceilings with cornicing [HIGH, ENVIRONMENT deltas].
+- The table as set here: as `uk.md`'s kitchen-diner (a small wooden or
+  white table, placemats or bare, everyday stoneware); for Hogmanay or
+  Burns, a cloth and the good plates (see CELEBRATIONS).
+- Subregional variants and the national default: Glasgow: red sandstone
+  back courts. Edinburgh: paler honey or grey stone, maindoor flats on the
+  ground floor. Aberdeen: grey granite (not verified this pass). Rural and
+  small-town Scotland: a harled (roughcast) cottage or modern semi; use
+  `uk.md`'s kitchen-diner with grey hills or harled walls through the
+  window [MEDIUM, see GAP LOG].
+- Hallucination traps: an English brick terrace with a fenced lawn; a
+  stone castle or baronial hall interior; tartan everywhere in an
+  everyday kitchen; Highland cattle or lochs through a city window;
+  low-ceilinged cottage beams in a tenement.
+- Never stage: whisky bottles or glasses; legible notices; a full
+  Saltire.
+- Prompt-ready line: "A Glasgow tenement flat kitchen: the table sharp in
+  front, behind it a tall white sash window with deep stone reveals
+  showing a red-sandstone back court, high plaster walls under a cornice
+  and grey northern daylight, all softly blurred."
+- Confidence and sources: MEDIUM-HIGH; one search ([NTS — exploring
+  Glasgow tenements](https://www.nts.org.uk/stories/a-guide-to-exploring-glasgow-tenements);
+  [Kitchen Fitters Glasgow — small tenement kitchens](https://kitchenfittersglasgow.com/guides/small-kitchen-ideas-tenement),
+  trade tier; [British Listed Buildings — The Tenement House](https://britishlistedbuildings.co.uk/200402839-the-tenement-house-flat-12-145-buccleuch-street-glasgow-glasgow))
+  plus the ENVIRONMENT delta sources.
+
+#### Venue: Scottish chippy (delta to `uk.md` chippy)
+- Use for: meal on the go and small sit-in; a fish supper; 1 or 2. As
+  `uk.md`'s chippy profile in every background element (steel range,
+  heated cabinet, tiles, high illegible menu board, night street through
+  the glass).
+- Soft background (the core), delta only: on the counter, a chippy-sauce
+  bottle or pump dispenser of thinned brown sauce sits beside the vinegar
+  bottle (Edinburgh salt-and-sauce), with the label turned away
+  [HIGH — Quick-Reference above]; in the warming cabinet, haddock rather
+  than cod, plus deep-fried pies and battered sausages, and in some shops
+  a battered haggis or black pudding [MEDIUM, catalog]. Outside the glass:
+  a sandstone tenement street at night, the shop at street level beneath
+  three or four storeys of flats, wet pavement, cool-white street lights.
+- Hallucination traps: as `uk.md`; plus a deep-fried chocolate bar as the
+  hero (a novelty cliché), tartan or bagpipe decor in the shop.
+- Never stage: as `uk.md`; Irn-Bru-style or other branded soft-drink
+  fridges and cans (intruder brands).
+- Prompt-ready line: "An Edinburgh chippy at night: a fish supper in white
+  paper sharp on the counter beside a vinegar bottle and a sauce bottle,
+  behind it a blurred stainless frying range, a warm-lit cabinet of
+  battered haddock and the dark tenement street through the glass."
+- Confidence and sources: MEDIUM; no new search (uses this file's sourced
+  chippy and salt-and-sauce entries).
+
+#### Venue: Scotch-pie bakery counter (street, on the go)
+- Use for: meal on the go; a hot Scotch pie or bridie bought at a
+  high-street bakery and eaten outside or carried; Scottish football
+  match day on the way to a game; 1. Scotland's most distinctive daytime
+  on-the-go venue (see Quick-Reference: Football-ground/bakery snack
+  counter; catalog: Scotch pie).
+- Soft background (the core): a long glass-fronted counter with heated
+  and chilled sections: rows of pale, straight-sided round pies with
+  their raised rims, sausage rolls, bridies (D-shaped pasties), filled
+  rolls, and above or behind on wooden or steel shelving, trays of
+  morning rolls, plain loaves and cream cakes, tablet and empire biscuits
+  as small coloured shapes; a hot cabinet's warm glow; white or pale
+  tiled walls; a hand-written price card on each tray (illegible);
+  staff in white or pastel tabards and hairnets; a short queue of
+  blurred coats [LOW — not verified at source: the search found pie-shop
+  guides naming Glasgow family bakers but no description of the counter
+  layout; built from the Scotch pie catalog entry and general knowledge].
+  Light: bright cool shop lighting, the warm cabinet glow; outside the
+  shop glass, a grey high street. Palette: golden pastry, white tile,
+  glass and steel, pastel tabards. Signature shapes: stacked rows of round
+  straight-walled pies, the glass counter curve, the paper bag.
+- Shell: a small high-street or parade unit with a large shop window;
+  family bakery more than chain (genericize any chain look) [EDITORIAL].
+- The table as set here: none; the pie in a small paper bag or on a paper
+  napkin, held over a wall or bench per §7.5, or eaten from the hand on
+  a cold street, breath visible in winter.
+- Subregional variants and the national default: Glasgow and the west
+  (morning rolls, Scotch pies); Forfar and Angus (bridies); football
+  grounds (a kiosk hatch with pies in foil trays, the stand roof blurred;
+  never crests or sponsor boards). National default: a town high-street
+  family bakery at midday.
+- Hallucination traps: an English chain-bakery look with corporate
+  branding; a French pâtisserie; a pie as a big pub-style pie with a
+  domed lid (the Scotch pie is small, straight-sided, with a recessed
+  lid).
+- Never stage: chain branding, legible price cards, Bovril or other
+  intruder drinks, club crests at a ground.
+- Prompt-ready line: "A Scottish high-street bakery at midday: a hot
+  Scotch pie in a paper bag sharp in the foreground, behind it a softly
+  blurred glass counter with rows of round straight-sided pies, trays of
+  rolls on shelving and white tiled walls."
+- Confidence and sources: LOW for the counter (one search, no layout
+  description: [GlasgowWorld — traditional pie shops](https://www.glasgowworld.com/lifestyle/food-and-drink/6-of-the-best-traditional-old-school-pie-shops-in-glasgow-including-alex-fergusons-favourite-4833627));
+  HIGH for the pie itself (catalog).
+
+#### Venue: Scottish traditional pub (delta to `uk.md` traditional pub)
+- Use for: restaurant, indoor; pub lunch, a Burns Night pub menu, a
+  food-led screening (see `uk.md` GAME NIGHT); 1 to small group. As
+  `uk.md`'s traditional pub, with Scottish fittings.
+- Soft background (the core), delta only: the signature is the
+  **gantry**, a tall carved dark-wood fitting behind the bar, often with
+  a mirrored centrepiece, and in many Victorian and Edwardian pubs an
+  **island bar** in the middle of the room with its superstructure rising
+  toward a richly plastered ceiling; painted tile murals, a mosaic or
+  marble floor and a panelled dado in the grand city pubs [MEDIUM —
+  CAMRA Scotland real heritage pubs guide; Culture Trip and pub-history
+  sources]. In the frame, the gantry must read only as dark carved wood
+  and soft mirror glints: real gantries hold spirit casks and bottles and
+  carry advertising mirrors, all of which must be out of focus to the
+  point of abstraction or cropped out. Outside the windows: a sandstone
+  street. Palette: mahogany, brass, cream and oxblood tile.
+- Hallucination traps: as `uk.md`; plus tartan carpet and stag heads
+  everywhere (a hotel-lounge cliché), a whisky wall as the backdrop,
+  bagpipes on the wall.
+- Never stage: spirit casks, whisky bottles, optics, the dram, advertising
+  mirrors with legible names; as `uk.md`.
+- Prompt-ready line: "A Victorian Scottish pub: a small dark table sharp
+  in front, behind it the tall carved mahogany gantry of an island bar
+  reduced to a warm dark blur with soft mirror glints, cream-and-oxblood
+  tiles and brass lamp glows."
+- Confidence and sources: MEDIUM; one search ([CAMRA — Scotland real
+  heritage pubs guide](https://camra-phg.s3-eu-west-1.amazonaws.com/pub_guides/Scotland.pdf);
+  [Culture Trip — traditional pubs in Edinburgh](https://theculturetrip.com/europe/united-kingdom/scotland/articles/best-traditional-pubs-edinburgh)).
+
+#### Venue: Burns Supper in a hall or function room (other)
+- Use for: other (community hall, club, hotel function room); Burns Night
+  formal supper; 1, 2 or a small group as a snapshot of 30 to 150 guests
+  (see CELEBRATIONS: Burns Night).
+- Soft background (the core): long trestle or round tables receding under
+  white cloths with tartan runners or tartan cloths, so the middle
+  distance is a repeating pattern of white and muted tartan bands with
+  candle flames as small warm bokeh points; tall tapered candles in
+  candlesticks or candelabra; small arrangements of heather or thistles
+  in baskets or jars [MEDIUM — Lochcarron and Scotland Shop Burns Night
+  guides (retail tier); village-hall newsletter account of heather and
+  tartan]. Behind: a village hall's painted or timber-clad walls with
+  a small stage at the far end (curtains drawn), or a hotel function
+  room's patterned carpet and chandeliers; a blurred piper's shape or
+  bagpipe drones at the far end; guests in a mix of kilts and evening
+  wear as blurred dark shapes with flashes of tartan. Light: evening,
+  dark outside the tall windows; warm candlelight on the tables against
+  cooler hall lighting or warm chandelier glow. Palette: white linen,
+  muted tartans (green, navy, red), candle amber. Signature shapes: the
+  long candle-lit table running out of frame, the tartan runner, the
+  domed haggis on its platter, heather sprigs, the drone silhouettes of
+  the pipes.
+- Shell: a community or church hall (high ceiling, wooden floor, stacked
+  chairs at the edge) or a hotel function room [EDITORIAL].
+- The table as set here: white cloth, tartan runner, full cutlery for a
+  three- or four-course meal, a side plate with oatcakes, the haggis
+  platter mid-table, the hero serve per the brief; a closed poetry book
+  at the edge (see CELEBRATIONS).
+- Subregional variants and the national default: a home Burns supper
+  uses the tenement kitchen profile with a tartan runner and candles.
+  National default: a village or community hall supper.
+- Hallucination traps: castle banqueting halls with suits of armour;
+  "Braveheart" claymores and face paint; Highland cattle and Loch Ness
+  motifs; clan crests and full Saltires as decor; tartan applied to every
+  surface.
+- Never stage: whisky (glasses at every place, the dram poured over the
+  haggis, a quaich, a bottle on the table); legible clan crests, menus or
+  place cards; a full Saltire; identifiable children.
+- Prompt-ready line: "A Burns Supper in a Scottish village hall at night:
+  one plated haggis, neeps and tatties sharp at the near end, behind it a
+  long white-clothed table with a tartan runner and candle flames
+  receding into soft bokeh, heather sprigs and the blurred drones of a
+  piper far behind."
+- Confidence and sources: MEDIUM-LOW; one search, retail-tier decor
+  guides ([Lochcarron — throwing a Burns Supper](https://www.lochcarron.co.uk/our-journal/our-guide-to-throwing-a-burns-supper/);
+  [ScotlandShop — Burns Night table](http://www.scotlandshop.com/c-80-the-burns-night-table.aspx?locale=en-US));
+  EDITORIAL for staging.
+
+---
+
+## ZONE CHARACTERIZATION
+
+Scotland clears the "would swapping this nation's norms into England look
+visibly wrong" test on food, vocabulary, and architecture simultaneously —
+see `uk.md`'s FILE ROLE & METHOD for the full evidence and reasoning; not
+re-derived here.
+
+**A genuine causal thread ties the food and the architecture together,
+worth stating directly rather than treating them as two unrelated
+facts.** Scotland's independent legal, educational, and municipal
+institutions survived the 1707 Act of Union, and its major cities
+industrialized on their own trajectory (Glasgow's shipbuilding and heavy
+industry, in particular) rather than following an English urban-growth
+pattern — the sandstone tenement, built at scale specifically to house an
+industrializing Glasgow's working population from the mid-19th century,
+is a direct architectural product of that separate path, not a stylistic
+variant of the English terrace. [CONFIDENCE: MEDIUM — this file's own
+synthesis connecting well-documented individual facts (tenement
+construction dates, Glasgow's industrial history) rather than a single
+source stating the causal link directly]
+
+**What this zone characterization is not claiming.** Scotland is not
+internally uniform — Glasgow and Edinburgh's tenement traditions differ in
+detail (see Environment section below), the Highlands and Islands have
+their own distinct rural character not covered in depth here given this
+file's lunch/dinner/snack, largely urban-leaning staging scope, and
+Aberdeen/Dundee have their own local food identities not fully explored
+in this pass. **Caricature-avoidance note (editorial judgment, not a
+sourced claim)**: no tartan, bagpipes, Highland cattle, or "deep-fried
+Mars bar" shorthand as default dressing for an ordinary Scottish urban
+scene — these are real cultural touchpoints in narrow contexts (Highland
+tourism, novelty/tabloid food stories) but would badly overrepresent an
+everyday Glasgow or Edinburgh meal scene if used by default.
+
+---
+
+## TRUSTED CONTENT
+
+- **"Fish supper" is the near-universal Scottish term for fish and chips
+  bought from a chip shop, not a synonym used interchangeably with the
+  English "fish and chips."** A "single" (or "single fish supper") means
+  chips alone, without fish — a real, checkable naming convention that
+  changes what a brief asking for "a fish supper" should actually depict.
+  [CONFIDENCE: HIGH]
+- **Haddock, not cod, is the Scottish chip-shop default** — see `uk.md`'s
+  fish-and-chips entry for the shared sourced mechanism (haddock's faster
+  spoilage kept it a northern/Scottish preference in the pre-refrigeration
+  era, while cod traveled well enough to become England's southern
+  default). In Scottish chippies, asking for cod instead of haddock is
+  reported to draw "a raised eyebrow" in some shops — haddock is the
+  unmarked, default choice here, unlike in most of England where it's the
+  reverse. [CONFIDENCE: MEDIUM-HIGH]
+- **Beef dripping is the traditional Scottish frying fat**, producing a
+  darker, crisper chip with a more savory depth than a vegetable-oil-
+  fried chip, though many modern chippers (here as elsewhere) have
+  switched to vegetable oil. [CONFIDENCE: MEDIUM]
+- **Edinburgh's "salt and sauce" is a real, specific, genuinely
+  Edinburgh-identified condiment convention, not a generic description of
+  "adding sauce."** The base is a thin brown sauce (a Glasgow-based
+  company's product is the most commonly cited base for Edinburgh chip
+  shops specifically), diluted with water or vinegar to a much thinner
+  consistency than a table-bottle brown sauce like HP — the exact ratio
+  is contested even among chip-shop owners themselves (roughly two-thirds
+  sauce to one-third water is one commonly cited formula), so this file
+  documents "what it is," not a single locked recipe. It's applied
+  alongside or instead of plain vinegar, not as a rare or occasional
+  choice. [CONFIDENCE: MEDIUM-HIGH for the sauce's existence and general
+  composition; LOW for any single exact ratio] [SOURCE: [The Scotsman —
+  Watch how Edinburgh's famous chippy sauce is made](https://www.edinburghnews.scotsman.com/news/people/watch-how-edinburghs-famous-chippy-sauce-is-made-and-discover-its-glasgow-origins-4692923); [HuffPost UK — Scottish People Want You To Know There's A Better Condiment Than Salt And Vinegar](https://www.huffingtonpost.co.uk/entry/chippy-sauce-explained-recipe_uk_67444e19e4b04cfaefbbff4c)]
+- **Chicken tikka masala's Glasgow claim, in full** — this file's own
+  depth for the dispute `uk.md` and `us.md` both document more compactly.
+  Multiple sources credit the dish's invention to Ali Ahmed Aslam, a
+  Pakistani-Scottish chef, at the Shish Mahal restaurant in Glasgow in
+  the 1970s: he reportedly improvised a tomato-and-cream sauce (built
+  from canned tomato soup and spices) after a customer complained his
+  chicken was too dry. It was declared "Britain's true national dish" by
+  UK Foreign Secretary Robin Cook in a 2001 speech. A competing claim,
+  from the Moti Mahal restaurant family, places a similar dish in Delhi
+  as early as 1947, derived from the more confidently Delhi-originated
+  butter chicken (murgh makhani) of the 1950s. [CONFIDENCE: HIGH for the
+  dispute existing and being genuinely unresolved; MEDIUM for which
+  specific account is correct — same tier `us.md` already applies]
+  [SOURCE: [Wikipedia: Chicken tikka masala](https://en.wikipedia.org/wiki/Chicken_tikka_masala); [CNN — Inventor of the UK's "true national dish" dies at 77](https://www.cnn.com/travel/article/ali-ahmed-aslam-chicken-tikka-masala-glasgow)]
+
+### VISUAL & PLATING NORMS
+
+- **Scottish chip-shop visual norms are identical to `uk.md`'s national
+  baseline** (batter/chip texture, mushy-pea color) with one substitution:
+  haddock's flake structure and slightly grayer-white flesh (vs. cod's
+  brighter, larger flakes) is the checkable species difference when a
+  fillet is broken open. [CONFIDENCE: MEDIUM]
+- **Salt-and-sauce chips show a visibly wetter, thinner, more translucent
+  brown coating than a plate dressed with a thick table-bottle brown
+  sauce** — the dilution is the checkable visual difference, not just a
+  flavor note.
+- **Haggis's visual signature is a dark, coarse, crumbly, uniformly
+  brown-grey texture** — with no large distinguishable chunks of meat
+  (it's a finely chopped/minced preparation), served hot, typically
+  spooned or sliced from its casing rather than presented whole at an
+  everyday meal (the whole, uncased presentation belongs to the Burns
+  Night ceremonial register specifically — see the Quick-Reference
+  table). [CONFIDENCE: MEDIUM]
+- **Neeps (mashed swede) and tatties (mashed potato) are visually and
+  color-distinct from each other and should not be conflated**: neeps
+  are a genuine orange, softer and wetter-looking than a standard mash;
+  tatties are pale cream-white, drier-looking, and closer to an English
+  mash in texture. [CONFIDENCE: HIGH]
+
+### ENVIRONMENT & STAGING SCENES — zone deltas from `uk.md`'s national baseline
+
+- **Housing: sandstone tenement flats are Scotland's dominant historic
+  urban housing type, and the single strongest "this is Scotland, not
+  England" visual marker available in this file.** Multi-story buildings
+  of red, beige, or grey sandstone, mostly built 1840–1920, holding
+  multiple flats per floor and accessed via a shared stone stairwell
+  known as a "close." **Glasgow and Edinburgh differ in a specific,
+  checkable detail worth using deliberately**: in Glasgow, every flat —
+  ground floor included — is accessed via the shared close/common stair,
+  so a Glasgow tenement typically shows a single front door at street
+  level; in Edinburgh, ground-floor flats traditionally have their own
+  individual street doors ("maindoor flats"), with only the upper floors
+  sharing the close — so an Edinburgh tenement typically shows three
+  doors across its façade, a Glasgow one shows one. Stone color also
+  differs: Glasgow's tenements lean toward red sandstone, Edinburgh's
+  toward paler yellow/white hues. [CONFIDENCE: HIGH]
+  [SOURCE: [Vanilla Square — A History of Glasgow's Tenements](https://vanillasquare.co.uk/history-glasgows-tenements/); [Engine Shed — Exploring tenement building details: a walk around Edinburgh](https://blog.engineshed.scot/2020/12/22/exploring-tenement-building-details-around-edinburgh/)]
+  Interior details (per the same sourcing): high ceilings, large sash
+  windows, and — in better-preserved or restored buildings — decorative
+  wrought-iron stair banisters, period tiling, and stained glass on the
+  communal stairwell itself, a shared/communal architectural detail with
+  no equivalent in an English terrace's private hallway.
+- **Rural/small-town Scotland uses harled (roughcast) render and slate
+  roofs** outside the sandstone-tenement cities — carried forward from
+  the scaffold's own flag as a real, plausible pattern, though this pass
+  did not find a dedicated architectural source beyond general awareness;
+  flagged MEDIUM, not independently re-verified this pass.
+- **General climate note**: Scotland's higher latitude sharpens `uk.md`'s
+  own seasonal-light point — summer evenings run later (sunset noticeably
+  after 21:00 in June in Edinburgh/Glasgow, later still further north)
+  and winter days are shorter and darker than in southern England. Use
+  this when a brief specifies a Scottish setting and a season.
+- **Away-from-home dining**: the chippy and the pub carry over directly
+  from `uk.md`'s national baseline, with the vocabulary/condiment
+  substitutions above. No additional Scotland-specific venue register was
+  found strong enough to warrant its own entry this pass beyond the
+  football-ground/bakery Scotch-pie counter noted in the Quick-Reference
+  table.
+
+---
+
+## CELEBRATIONS & LARGE GATHERINGS — regional deltas from `uk.md`
+
+`uk.md`'s CELEBRATIONS & LARGE GATHERINGS section holds the national
+baseline (how UK gatherings work, the snapshot-staging cues, Christmas,
+Easter, Sunday roast, birthdays, weddings, Eid, Diwali). It applies in
+Scotland unchanged except for the entries below. This file has no
+festivals register, so the section sits after the environment deltas.
+Christmas in Scotland follows `uk.md`; historically Hogmanay outranked
+Christmas here, and New Year remains the bigger family occasion for many
+households. [MEDIUM — The Scotsman and general Hogmanay sources]
+
+#### Celebration: Burns Night (Burns Supper, 25 January)
+- Type: calendar holiday (community and family).
+- When: on or near 25 January, Robert Burns's birthday; evening meal;
+  intake time evening (it is fully dark by about 4:30pm in January).
+- Gathering: two registers. A formal club, society or workplace Burns
+  Supper in a hall or hotel function room (about 30 to 150, long or round
+  tables; venue: other), and a family or friends' supper at home (about
+  4 to 10; home indoor). Pubs and restaurants run Burns Night menus
+  (restaurant). [MEDIUM]
+- The spread: the formal running order is a soup starter (Scotch broth,
+  cock-a-leekie or Cullen skink; see catalog: Cullen skink), then the
+  haggis **piped in** on a large platter and addressed, then the main of
+  haggis, neeps and tatties (see catalog: Haggis, neeps, and tatties),
+  then a dessert (cranachan or clootie dumpling), then cheese and
+  oatcakes. [MEDIUM-HIGH — several Burns Night guides agree on the
+  order; no institutional source read this pass] Shared vessels: the whole
+  haggis on its platter, bowls of neeps and tatties, a soup tureen at a
+  home supper; about 3 to 5. Cranachan (layered whipped cream, raspberries
+  and toasted oats in a glass, about the can's height) and clootie
+  dumpling (a dark, domed, spiced pudding with a pale skin, sliced) have
+  no catalog entry; added to CANDIDATE QUEUE.
+- Snapshot staging: **1 setting**: one plate of haggis, neeps and tatties
+  in three mounds, the whole haggis on its platter (cut open, crumbly
+  dark interior spilling out) partly cropped beyond it, a bowl of neeps
+  in the midground. **2 settings**: two identical plates facing, the
+  haggis platter and both mash bowls between them. **Small group**: three
+  or four plates at one end of a long table, the platter mid-table, the
+  table running out of frame. Cues: a tartan table runner or sash (plain
+  sett, not a named clan crest); a blurred piper's shape or bagpipe drones
+  in the far background for the formal register; candles; a book of
+  poems closed on the table at the edge. [EDITORIAL]
+- Decor and cues: tartan accents, candlelight, a white tablecloth at a
+  formal supper. Avoid: "Braveheart" kilts-and-claymores kitsch, Highland
+  cattle props, Loch Ness imagery.
+- Never stage: whisky (the toasts, the dram poured over the haggis, the
+  whisky-cream sauce in a jug on the table); a Tipsy Laird or a whisky
+  bottle beside cranachan (show cranachan as a plain cream-and-raspberry
+  glass); legible clan crests or Saltire flags in hero position.
+- Confidence and sources: MEDIUM-HIGH for the running order ([Love From
+  Scotland — Burns Night](https://www.lovefromscotland.co.uk/scottish-traditions-burns-night-burns-supper/);
+  [Scottish Scran — Burns Night menu](https://scottishscran.com/burns-night-menu/),
+  a food blog, lower tier); EDITORIAL for staging.
+
+#### Celebration: Hogmanay and New Year's Day dinner (Hogmanay, Ne'erday)
+- Type: calendar holiday.
+- When: Hogmanay, 31 December, evening into midnight (intake time
+  evening), and the New Year's Day family dinner on 1 January, mid-
+  afternoon to early evening (intake time midday or evening).
+  Both 1 and 2 January are Scottish bank holidays. [HIGH — widely known]
+- Gathering: Hogmanay is a house party of family, friends and neighbours
+  (about 10 to 30, standing and seated; home indoor), with first-footing
+  visits after midnight; city street parties are a separate, drinking-led
+  register and are not staged. The New Year's Day dinner is the family at
+  one home (about 6 to 12; home indoor). [MEDIUM]
+- The spread: **steak pie** (or stew) is the central-belt Hogmanay and
+  New Year's Day dish, typically a large rectangular or oval dish of
+  braised beef under a puff-pastry lid, cut at the table, with mashed
+  potatoes, peas or carrots, and gravy. Sweet items: **black bun** (a
+  dense fruit cake fully encased in pastry, cut in thick slabs) and
+  **shortbread** (pale gold fingers or petticoat-tail wedges), also the
+  traditional first-footing gifts. [MEDIUM — The Scotsman and general
+  Hogmanay sources agree on steak pie, black bun and shortbread] For the
+  pie look, see `uk.md`'s catalog: Pies (here a whole family-size dish,
+  about 30cm long, roughly 2.5 can heights, golden puff lid, not an
+  individual pub pie). A New Year's Day steak pie entry is added to
+  CANDIDATE QUEUE.
+- Snapshot staging: **1 setting**: one plate with a square of steak pie
+  (puff lid on top, dark gravy-glossed beef), a mound of mash and peas,
+  the family pie dish cut open and partly cropped beyond, a plate of
+  shortbread at the edge. **2 settings**: two identical plates, the pie
+  dish and a mash bowl between them. **Small group**: three or four
+  plates at one end, the pie dish centre, a black-bun slab on a board at
+  the far end. Cues: winter dark outside a tenement sash window; coats
+  piled on a chair from visitors; extra chairs; a lump of coal or a tin
+  of shortbread as a first-footing gift on the sideboard. [EDITORIAL]
+- Decor and cues: a sandstone tenement interior (see ENVIRONMENT deltas),
+  fairy lights left over from Christmas. Avoid: street-party fireworks as
+  the frame; kilts at a family dinner.
+- Never stage: whisky (the first-footing dram is the most common prior;
+  prompt "no whisky, no glasses other than the hero serve"); midnight
+  toasts.
+- Confidence and sources: MEDIUM ([The Scotsman — Christmas and New Year
+  food and drink traditions in Scotland](https://www.scotsman.com/lifestyle/food-and-drink/christmas/christmas-and-new-year-food-and-drink-traditions-in-scotland-from-black-bun-to-whipkul-8992482);
+  [New World Encyclopedia — Hogmanay](https://www.newworldencyclopedia.org/entry/Hogmanay));
+  EDITORIAL for staging.
+
+#### Celebration: Scottish wedding and ceilidh (wedding delta)
+- Type: life event.
+- When and where: as `uk.md`'s wedding entry (plated meal, round tables,
+  hired venue), with an evening **ceilidh** (group folk dancing) as the
+  Scottish signature.
+- The spread: the plated meal often carries a Scottish course (a haggis
+  starter or "haggis, neeps and tatties" stack). A late-evening
+  **stovies** buffet (a pan of potatoes slow-cooked with onion and
+  leftover meat, served in bowls) is commonly cited as ceilidh food.
+  [LOW — not verified this pass; stated from general knowledge]
+- Snapshot staging: as `uk.md`'s wedding entry; for the evening, one bowl
+  of stovies at a high or side table, the stovies pan on a buffet soft
+  behind, blurred dancers in motion (no sharp faces). [EDITORIAL]
+- Never stage: the whisky toast or a quaich (a shallow two-handled
+  drinking cup used for whisky); legible clan crests.
+- Confidence and sources: LOW for the food delta; EDITORIAL for staging.
+
+---
+
+## GAME NIGHT — regional deltas from `uk.md`
+
+`uk.md`'s GAME NIGHT section holds the national baseline (tournament
+nights at home, league weekends, Six Nations, the food-led pub form, and
+the social game nights) and applies in Scotland unchanged except for the
+two deltas below. The research notes carry no Scotland-specific sources,
+so everything here is model knowledge tagged LOW.
+
+#### Watch party: Scottish football at home (Scotland national team, Premiership)
+- When: Scotland qualifiers and tournament games (evening; June to July
+  in tournament years) and Scottish Premiership weekends, August to May
+  (midday or golden-hour; a winter 17:30 game is dark outside, stage it
+  as evening) [LOW — not verified].
+- Gathering and spread: as `uk.md`'s home entries, with the Scotch pie
+  as the signature viewing food (see catalog: Scotch pie), a fish supper
+  from the chippy (see `uk.md` catalog: Fish and chips, and this file's
+  "fish supper" terminology), crisps in a bowl. A tenement-flat living
+  room is the most Scotland-specific setting (see Quick-Reference:
+  Scottish urban tenement flat) [EDITORIAL].
+- Never stage: the Glasgow Celtic–Rangers ("Old Firm") rivalry in any
+  form. Its green-and-white and blue colours carry a sectarian charge,
+  so a scene must not use either palette as fan decor [LOW — not
+  verified, model knowledge; flagged for a human reviewer]. No full
+  Saltire (reviewer ruling, §5.7). Bovril, the half-time drink at the
+  ground, is an intruder brand and stays out of frame, along with
+  whisky and beer.
+- Confidence and sources: LOW; no Scotland-specific source this pass.
+
+#### Watch party: Scotland in the Six Nations
+- Delta only: as `uk.md`'s Six Nations entry. The Calcutta Cup game
+  against England is the Scottish peak [LOW — not verified]. The spread
+  can carry Scotch pies and a steak pie cut into wedges (see catalog:
+  Scotch pie; `uk.md` catalog: Pies). Plain navy throws or scarves at
+  most, no crest or full Saltire. Never stage: whisky, beer, the
+  Murrayfield crowd.
+- Confidence and sources: LOW; EDITORIAL for staging.
+
+Social game nights: no Scotland-specific delta found; `uk.md`'s entries
+apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
+
+---
+
+## DISH CATALOG
+
+**Scale note**: as `uk.md`, the UK 330mL can (115.2mm/11.52cm tall,
+66.1mm/6.61cm diameter) is the scale anchor for every entry below.
+
+#### Dish: Scotch pie
+
+- Category: Everyday snack; football-ground and bakery-counter staple.
+- Cuisine lineage: Native Scottish.
+- Regional form variation: None — Scotland-specific, no UK-wide variant.
+- Serving format: Handheld or with accompaniments spooned into its own
+  recessed lid (see below) — a genuinely distinctive construction, not a
+  standard pie shape.
+- Primary protein: Traditionally mutton, though modern versions are often
+  beef or a beef/lamb mix; the pastry itself is hot-water-crust, not
+  shortcrust or puff.
+- Side dishes/condiments: Often served with beans, mashed potato, or
+  gravy spooned directly into the pie's own recessed lid-well rather than
+  plated alongside it — a real, checkable, distinctively Scottish serving
+  convention.
+- Serving vessel: The pie's own straight-sided tin/pastry shell functions
+  as its serving vessel when sold hot from a counter; also served on a
+  plate.
+- Utensils: Handheld when eaten plain; fork when eaten with a topping in
+  the well.
+- Real-world scale (§4.5): Baked in a round, straight-sided tin roughly
+  **8cm in diameter and 4cm high** — smaller across than the can is tall,
+  and close to the can's own 6.61cm diameter but slightly larger.
+  [CONFIDENCE: MEDIUM-HIGH — a specific, repeatedly-cited dimension across
+  multiple recipe sources] [SOURCE: aggregated Scotch pie recipe/
+  construction sourcing, corroborated across multiple independent
+  sites]
+- Visual/plating characteristics: A pale-golden, firm, biscuity crust
+  with no flakiness or visible layering (hot-water-crust pastry, distinct
+  from shortcrust or puff) — **the single most checkable construction
+  detail: the flat top "lid" sits recessed roughly 1cm below the pie's
+  own raised outer pastry rim**, forming a visible well around a small
+  central steam-vent hole (roughly 7–8mm across) — this recessed-lid
+  silhouette is unlike any English pub pie or the Cornish pasty and
+  should read as visually distinct even before any topping is added.
+  When the well is filled (beans, mash, or gravy), the topping sits
+  visibly inside that recess, not mounded on top of a flat pie surface.
+  [CONFIDENCE: HIGH for the recessed-lid construction — specific,
+  consistent across multiple sources]
+- Common confusion: An English/pub pie (fully domed or flat-topped, no
+  recessed well, usually shortcrust or puff, not hot-water-crust); the
+  Cornish pasty (D-shaped, side-crimped, no tin, no recessed lid at all —
+  structurally unrelated).
+- Confidence: HIGH for construction and the recessed-lid detail; MEDIUM
+  for exact dimensions.
+- Sources: aggregated Scotch pie recipe/construction sourcing (Great
+  British Recipes, Live Breathe Scotland, Scottish Scran); [Wikipedia:
+  Scotch pie](https://en.wikipedia.org/wiki/Scotch_pie); [Wikipedia: Hot water crust pastry](https://en.wikipedia.org/wiki/Hot_water_crust_pastry)
+- Composition & proportions (§4.7) — one pie, plain or with a filled well.
+  Tin size, recess depth and vent restate this entry's MEDIUM-HIGH/HIGH
+  figures; counts and shares [EDITORIAL].
+  - What dominates: **the pastry case** — plain, the whole visible object is
+    pale-golden hot-water crust, the recessed lid ~5–6 cm across inside a
+    raised rim ~1 cm wide; filled, the topping covers the lid well only
+    (~40% of the top view), never spilling over the rim. [EDITORIAL]
+  - Components: pie ~8 cm across, ~4 cm tall — a little wider than the can,
+    about a third of its height; lid ~1 cm below the rim; central vent ~7–8
+    mm (this entry). Filling if cut: fine grey-brown minced meat, no chunks,
+    ~80% of the cut face. Topping: 2–3 spoonfuls of beans, mash or gravy in
+    the well. [MEDIUM-HIGH for case size — this entry; rest EDITORIAL]
+  - Count: one per person; at a counter, 2–4 in a row. [EDITORIAL]
+  - Arrangement: sitting upright on its flat base on a small plate or a
+    paper napkin; with sides, on a plate with the beans or mash in the well,
+    sometimes more beside it. [EDITORIAL]
+  - State cues: dry, matte-to-lightly-glossy crust, a faint grease spot on
+    paper; filling steams if cut. [EDITORIAL]
+  - Absent on purpose: a domed or flaky lid, crimped edges, a lattice,
+    egg-wash high gloss, a D-shaped pasty, legible football or bakery
+    branding.
+  - Prompt-ready line: "One small round straight-sided pie a little wider
+    than the can and about a third of its height, pale-golden firm biscuity
+    pastry with no flaky layers, its flat lid sunk about a centimetre below
+    a raised pastry rim, with one small steam hole in the centre, on a plain
+    paper napkin. Beside it, a second pie with baked beans spooned into the
+    recessed well. No domed lid, no crimp."
+
+#### Dish: Haggis, neeps, and tatties
+
+- Category: Special-occasion (Burns Night, 25 January) and everyday
+  (pubs, chip shops, year-round) — both registers are genuine, per the
+  scope note in FILE ROLE & METHOD above.
+- Cuisine lineage: Native Scottish.
+- Regional form variation: None — Scotland's own national dish, no
+  UK-wide variant exists to point elsewhere.
+- Primary protein: Haggis itself — traditionally sheep's "pluck" (heart,
+  liver, and lungs), minced and mixed with oatmeal, suet, onion, and
+  seasoning, traditionally stuffed into a sheep's stomach lining (natural
+  casing), though artificial casings are common today.
+- Side dishes/condiments: Neeps (mashed swede, seasoned, often with
+  butter) and tatties (mashed potato) — the "neeps and tatties" pairing
+  is essentially non-negotiable, not an optional side. A whisky-cream
+  sauce is a common restaurant-register addition, not a traditional
+  everyday one.
+- Serving format: Everyday — spooned onto a plate in three portions
+  (haggis, neeps, tatties) side by side, or with haggis mounded centrally
+  and the two mashes flanking it. Ceremonial (Burns Night) — the haggis
+  is brought to the table whole, in its casing, and cut open at the table
+  as part of the "Address to a Haggis" recitation, a specific ritual not
+  replicated in the everyday register.
+- Serving vessel: Standard entree plate (26–28cm) for the everyday
+  register; a larger serving platter for the ceremonial whole-haggis
+  presentation.
+- Visual/plating characteristics: **Haggis** — dark brown-grey, coarse,
+  crumbly, uniformly textured (no large distinguishable meat chunks —
+  the mincing is fine and even), served hot. **Neeps** — a genuine
+  orange, soft, wet-looking mash, distinctly more saturated in color and
+  wetter in texture than tatties. **Tatties** — pale cream-white, drier,
+  closer to a standard English mash in appearance. The three should read
+  as three visually distinct mounds/piles, not blended together on the
+  plate. A restaurant/gastropub register sometimes presents the dish
+  stacked in a ring mould rather than three separate mounds — a real,
+  more formal alternative register, not the everyday default.
+  [CONFIDENCE: HIGH]
+- Real-world scale (§4.5): A restaurant/home portion typically fills
+  roughly a third to a half of a 26–28cm plate across the three
+  components combined; lock the plate dimension from
+  `tableware-composition-reference.md` §2 as the primary scale reference,
+  since haggis itself has no fixed unit shape or size the way a pie or
+  sandwich does. [CONFIDENCE: MEDIUM — reasonable vessel-fallback
+  application per §4.5]
+- Common confusion: Not black pudding (a separate, sausage-shaped blood
+  sausage, sliced into discs — a different dish entirely, sometimes
+  served alongside haggis at a special "Burns Night" spread but not the
+  same food); not a generic minced-meat pie filling.
+- Confidence: HIGH for composition and the Burns Night ceremonial
+  register; MEDIUM for everyday-portion scale.
+- Sources: general Scottish-cuisine sourcing (Will Fly for Food,
+  VisitScotland, Scotland.org — genericized/aggregated rather than a
+  single citation per claim, since this dish's composition is
+  consistently and uncontroversially described across every source
+  checked).
+- Composition & proportions (§4.7) — the everyday plate (three mounds).
+  Portion extent restates this entry's MEDIUM figure; mound sizes and shares
+  [EDITORIAL].
+  - What dominates: **three roughly equal mounds** — haggis ~35%, neeps
+    ~30%, tatties ~35% of the food; together they cover a third to half of
+    the 26–28 cm plate (this entry). Whisky-cream sauce, when used, is a
+    small pool or spoonful, not a coating. [EDITORIAL]
+  - Components: each mound ~8–10 cm across (a little wider than the can) and
+    ~4–5 cm high; haggis crumbly, dark brown-grey, finely even; neeps
+    orange, wet; tatties cream-white, drier. Ring-mould register: one ~8–9
+    cm stack of three layers ~6–8 cm tall (just over half the can's height).
+    [EDITORIAL]
+  - Arrangement: side by side in a row or a triangle, touching but not
+    blended; or haggis centred with the two mashes flanking. [EDITORIAL]
+  - Vessel fill: plenty of white plate showing — the portion is compact, not
+    full to the rim. [EDITORIAL]
+  - Served portion vs. whole dish: the ceremonial whole haggis (a round
+    casing roughly 15–20 cm, cut open on a platter) is a separate Burns
+    Night scene; each diner then gets the same three-mound plate.
+    [EDITORIAL]
+  - State cues: steam; neeps glistening with butter; haggis matte and
+    crumbly. [EDITORIAL]
+  - Absent on purpose: gravy over everything, sausage slices (black pudding
+    is a separate dish), herb garnish, tartan props, a whisky glass.
+  - Prompt-ready line: "On a white dinner plate, three separate soft mounds
+    side by side, each a little wider than the can: dark brown-grey crumbly
+    finely minced haggis, bright orange wet-looking mashed swede, and pale
+    cream-white mashed potato. The mounds touch but don't blend, with plenty
+    of plate showing around them. Light steam. No gravy, no garnish, no
+    tartan."
+
+#### Dish: Cullen skink
+
+- Category: Everyday — a starter/side or a full bowl-meal, at cafés,
+  pubs, and restaurants across Scotland, not confined to its originating
+  coastal town.
+- Cuisine lineage: Native Scottish, specifically originating in Cullen, a
+  small coastal town in Moray on Scotland's northeast coast, though now
+  served nationwide from seaside cafés to formal hotel dining rooms.
+  [CONFIDENCE: HIGH] [SOURCE: [Wikipedia: Cullen skink](https://en.wikipedia.org/wiki/Cullen_skink)]
+- Regional form variation: None — Scotland-specific, no UK-wide variant.
+- Primary protein/composition: Smoked haddock, potato, and onion, in a
+  milk- or cream-based broth — thick rather than thin/clear.
+- Side dishes/condiments: Crusty bread is a common accompaniment; often
+  finished with a scatter of chopped chives or parsley.
+- Serving format: Bowl — a starter/side portion or a full main-course
+  bowl.
+- Serving vessel: A deep individual bowl, per
+  `tableware-composition-reference.md` §2's side-bowl-medium dimension
+  (15–18cm) for a starter, or a larger soup bowl for a main-course
+  portion.
+- Visual/plating characteristics: A pale, creamy, opaque, off-white
+  broth (not a clear or brothy soup) with visible flakes of pale-gold
+  smoked haddock and soft chunks of potato suspended throughout — the
+  smoked haddock's pale golden-tan color (from the smoking process) is
+  the checkable visual marker distinguishing it from a plain white-fish
+  chowder. [CONFIDENCE: MEDIUM-HIGH]
+- Real-world scale (§4.5): Per the vessel fallback, a main-course bowl
+  should be filled to within roughly 1–2cm of the rim, thick enough with
+  visible solid pieces (haddock flakes, potato chunks) that it doesn't
+  read as a thin, clear broth.
+- Common confusion: A generic New England-style clam/fish chowder (a
+  similar cream-based, thick-broth family) — the defining, checkable
+  difference is Cullen skink's specific use of *smoked* haddock (giving
+  the broth a pale golden tint and a smoky note) rather than clams or
+  unsmoked white fish.
+- Confidence: HIGH for origin and composition; MEDIUM-HIGH for visual
+  detail.
+- Sources: [Wikipedia: Cullen skink](https://en.wikipedia.org/wiki/Cullen_skink)
+- Composition & proportions (§4.7) — one bowl, main portion. Fill level
+  restates this entry's vessel-fallback figure; piece sizes and shares
+  [EDITORIAL].
+  - What dominates: **the creamy broth** — ~60–70% of the visible surface;
+    pale-gold smoked haddock flakes ~15–20%; potato chunks ~10–15%; chives
+    or parsley a light scatter only. [EDITORIAL]
+  - Components: haddock flakes ~2–4 cm, 5–8 visible; potato chunks ~1.5–2 cm
+    (about a quarter of the can's width), 6–10 visible, half-submerged;
+    onion soft and barely seen; a slice of crusty bread beside the bowl.
+    [EDITORIAL]
+  - Vessel fill: filled to within ~1–2 cm of the rim (this entry); starter
+    bowl 15–18 cm, main bowl ~20–22 cm. [EDITORIAL]
+  - State cues: opaque, velvety, faint steam; a few butter-yellow flecks at
+    the surface. [EDITORIAL]
+  - Absent on purpose: clams, prawns, sweetcorn, bacon bits, a bread bowl, a
+    heavy cream swirl, a thin clear broth.
+  - Prompt-ready line: "A deep white bowl filled nearly to the rim with
+    thick, opaque, off-white creamy soup, faintly steaming; pale golden-tan
+    flakes of smoked fish and soft potato chunks each about a quarter of the
+    can's width sit half-sunk in it, with a light scatter of chopped chives
+    on top. A slice of crusty bread beside the bowl. No clams, no corn, no
+    bacon."
+
+---
+
+## GAP LOG
+
+- **Composition & proportions blocks (added 2026-09-27,
+  `country-file-schema.md` §4.7) are mostly editorial synthesis.** Piece
+  sizes are sourced where tagged; counts and shares are reasoned from recipe
+  quantities and serving norms, tagged [EDITORIAL], and should be checked
+  against image tests before being treated as reliable.
+- **Rural/small-town Scottish architecture (harled render, slate roofs
+  outside the tenement cities)** was carried forward from the scaffold
+  without a dedicated new source this pass — flagged MEDIUM, not
+  independently re-verified.
+- **No dedicated dish content for Aberdeen, Dundee, or the Highlands and
+  Islands specifically** — this file's scope stayed close to what the
+  scaffold flagged (Glasgow/Edinburgh-centric urban Scotland, plus the
+  Scotland-wide dishes), consistent with this file's largely urban
+  staging-relevance focus. A future pass could check whether Aberdeen
+  (e.g., the "Aberdeen buttery"/rowie) or Dundee (marmalade, though
+  arguably out of this file's lunch/dinner/snack scope) clear the bar for
+  their own callouts.
+- **The exact salt-and-sauce ratio remains genuinely contested** even
+  among sourced chip-shop accounts — documented as a real dispute rather
+  than resolved to one number.
+- **Whisky sauce with haggis** is documented as a real restaurant-register
+  addition but wasn't independently verified as common vs. rare this
+  pass — treat as a real, optional, more-formal-register detail, not a
+  default.
+- **Celebrations pass (2026-10-01) open items.** The Scottish wedding
+  food delta (stovies at the ceilidh, a haggis course) is LOW, from
+  general knowledge only. Burns Supper running order rests on Burns Night
+  guides and a food blog, not an institutional source. No headcount data
+  for Burns Suppers or Hogmanay parties was found; figures are editorial.
+- **Game-night pass (2026-10-01) open items.** The Scottish deltas are
+  all LOW model knowledge: kick-off slots, the Scotch pie as the
+  home viewing food, the Calcutta Cup as the peak, and the Old Firm
+  sectarian-colours rule (flagged for a human reviewer).
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items.** The
+  Scotch-pie bakery counter layout is LOW (no source described it); the
+  Burns Supper hall decor rests on retail-tier guides; Aberdeen granite
+  and the rural harled-cottage kitchen variant are not verified; the
+  Scottish pub gantry and island bar are MEDIUM (CAMRA heritage guide via
+  search summary). No pages read at source.
+
+## CANDIDATE QUEUE
+
+1. A dedicated Aberdeen/Dundee/Highlands callout, if a future pass finds
+   staging-relevant dish content beyond what's already covered.
+2. Verification of the harled-render/rural-Scotland architecture claim
+   against a dedicated source (Historic Environment Scotland is a
+   plausible institutional target).
+3. Independent §8 audit of this file alongside `uk.md`, per the project's
+   standing practice, before either is treated as fully done.
+4. Celebration dishes with no catalog entry (celebrations pass
+   2026-10-01): New Year's Day steak pie (family dish); compact Scottish
+   sweets block (cranachan, clootie dumpling, black bun, shortbread);
+   stovies.
+5. Game-night viewing foods (2026-10-01): none missing beyond the
+   steak pie already queued in item 4.
+
+## RESEARCH LOG
+
+- **2026-09-24, first pass.** Built as part of the same verification-and-
+  merge session that produced `uk.md` — see that file's own Research Log
+  for the shared session-level method note (WebSearch only; WebFetch
+  blocked by network egress for every domain attempted). Dedicated
+  searches for this file specifically covered: Glasgow/Edinburgh tenement
+  architecture and the close/maindoor-flat distinction; "fish supper" and
+  Edinburgh "salt and sauce" terminology; Scotch pie construction and
+  dimensions; haggis/neeps/tatties composition and Burns Night context;
+  Cullen skink's origin and composition; and the Shish Mahal/Glasgow half
+  of the chicken tikka masala dispute (cross-checked against `us.md`'s
+  existing sourcing rather than re-derived from scratch).
+- **2026-10-01 celebrations pass (schema §5.7):** 2 searches (Burns
+  Supper running order; Hogmanay and New Year's Day food). Added a
+  regional-delta CELEBRATIONS & LARGE GATHERINGS section with 3 entries:
+  Burns Night, Hogmanay and New Year's Day dinner, Scottish wedding and
+  ceilidh. WebSearch only.
+- **2026-10-01 game-night pass (schema §5.8):** built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added a regional-delta GAME NIGHT section with 2 watch-party
+  entries (Scottish football at home with the Old Firm never-stage rule;
+  Scotland in the Six Nations) and a one-line note that social game
+  nights follow `uk.md`.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 4
+  searches.** Added VENUE PROFILES (regional deltas from `uk.md`) after
+  the QUICK-REFERENCE table: tenement flat kitchen, Scottish chippy
+  (delta), Scotch-pie bakery counter, Scottish traditional pub (delta),
+  Burns Supper hall. WebSearch only.

@@ -1,0 +1,39 @@
+{
+  "$comment": "SKU size, venue and glass rules. Owned by the Operating Unit's brand rules. Large SKUs (1 L and up) are shared bottles, require a glass and appear only at home. Glasses never appear on the go. Otherwise the operator's intake Y/N (sku.glass) decides.",
+  "status": "active",
+  "version": "0.3",
+
+  "glass": {
+    "id": "bell-glass",
+    "label": "GLASS",
+    "description": "Branded bell-shaped Coca-Cola glass, poured from the SKU, with or without ice.",
+    "fill": "Always filled to the top: the cola comes right up to just below the rim, never half-full or partly poured.",
+    "fill_prompt": "filled to the top with Coca-Cola, the cola just below the rim"
+  },
+
+  "large_sku": {
+    "sku_volume_ml_at_least": 1000,
+    "shared": true,
+    "$shared": "One bottle for the table, placed in the center third between the place settings. Each diner has their own glass when glasses are in the scene.",
+    "allowed_venues": ["home"],
+    "$venues": "Large SKUs never appear on the go or at restaurants. The intake hides those venues (or the large SKUs) when the other is chosen."
+  },
+
+  "glass_rules": [
+    { "when": { "venue": "on-the-go" },               "glass": "never",    "$note": "Glass question hidden, answer N." },
+    { "when": { "sku_volume_ml_at_least": 1000 },     "glass": "required", "$note": "Glass question answered Y and locked. Large SKUs are home-only, so this never meets the on-the-go rule." },
+    { "when": "otherwise",                            "glass": "optional", "$note": "Operator's intake Y/N, default N." }
+  ],
+
+  "per_diner": {
+    "$comment": "Every place setting stays identical: when glasses are in the scene, each diner gets one.",
+    "glass_per_diner": true
+  },
+
+  "matrix": {
+    "$comment": "Resulting combinations.",
+    "home":       { "sku_under_1L": "glass optional",                        "sku_1L_and_up": "shared bottle; glass required" },
+    "restaurant": { "sku_under_1L": "glass optional",                        "sku_1L_and_up": "not allowed" },
+    "on-the-go":  { "sku_under_1L": "no glass",                              "sku_1L_and_up": "not allowed" }
+  }
+}

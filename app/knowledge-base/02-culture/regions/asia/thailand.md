@@ -1,0 +1,3287 @@
+---
+country: thailand
+ou: Not confirmed. TCCC reports Thailand inside its Asia Pacific segment; the internal operating-unit code was not searched or confirmed this pass (same standing caveat as every other started market, see `market-roadmap.md`). What this pass did confirm: **Coca-Cola (Thailand) Limited works with two local bottlers — ThaiNamthip Limited (all regions except the South) and Haad Thip Public Company Limited (the 14 southern provinces, plant in Surat Thani)** [HIGH — Haad Thip newsroom, AmCham Thailand member profile, Wikipedia "HaadThip", Krones reference article agree].
+status: DRAFT — NEEDS SME/HUMAN REVIEW. First pass, built directly with WebSearch verification of the load-bearing claims (34 of a ~40-search budget). Unchecked claims are tagged as such (see METHOD NOTE and GAP LOG).
+research_method: Claude web research (WebSearch; a direct page read of thainamthip.co.th was blocked by the network egress proxy, so ThaiNamthip product-page claims rest on search-result snippets and are marked "(via search)" — disclosed per `country-file-schema.md` §6). Structure follows `asia/india.md` and `europe/turkey.md` (the most recent complete files), which follow `latam/mexico.md`; the HERO PRODUCT SLOT and ICONIC BEVERAGES sections follow `africa/south-africa.md`.
+date_drafted: 2026-10-01
+---
+
+# Thailand
+
+## FILE ROLE & METHOD
+
+This file is Thailand's country file: a single national staging brief
+with five labeled internal zones. One TCCC hero beverage per scene (named
+by the brief — see HERO PRODUCT SLOT), staged against real Thai dishes,
+vessels and settings, with the full drinks landscape — Thai iced tea,
+oliang, fresh juices, coconut water, and alcohol — documented as context
+even where a drink is never itself staged.
+
+**Scope.** Lunch, dinner, snacks and street food are in scope (project
+default). **Street breakfast (moo ping with sticky rice, jok, patongko)
+sits in an OPTIONAL MORNING MODULE, off by default**, the same pattern as
+`brazil.md` and `india.md` — a scope call **flagged for Fernando's
+confirmation** (§1.2; log in `DECISIONS.md`). Moo ping is also an
+all-day street snack, so it appears in the main catalog. No beverage
+other than the hero TCCC product is staged; the others are documented in
+ICONIC BEVERAGES.
+
+### Hard staging rules specific to Thailand (read before any scene)
+
+1. **Spoon and fork, never knife; chopsticks only for noodles.** The
+   Thai table eats with a **spoon in the right hand and a fork in the
+   left**; the fork only pushes food onto the spoon and does not go into
+   the mouth [HIGH — siam.recipes, ImportFood, mythailand.blog,
+   allpointseast agree]. **No table knife** at a Thai meal. **Chopsticks
+   belong only to noodle soups and Chinese-Thai noodle dishes** (boat
+   noodles, kuay teow, khao soi is eaten with spoon and chopsticks)
+   [MEDIUM — "put down the chopsticks" sources; noodle exception not
+   independently re-checked]. **Sticky rice is eaten with the fingers**
+   (rolled into a small ball) in Isan and the North — show it in its
+   basket or bag, never a hand in shot.
+2. **Shared dishes in the centre, one plate of rice per person.**
+   Everything arrives at once; each diner has their own plate of rice
+   and takes a spoonful or two from the shared dishes with a **serving
+   spoon** [HIGH — same sources]. A "Thai dinner" staged as one composed
+   Western entrée per person is wrong unless it is a one-plate dish
+   (aahaan jaan diao — kra pao rice, khao man gai, pad thai, noodle soup).
+3. **Halal is a hard rule in the Deep South and any Muslim household.**
+   Muslims are a majority in **Pattani, Yala, Narathiwat and Satun**
+   (Narathiwat and Pattani each over 80% Muslim in the 2000 census, ~90%
+   across the three border provinces; mostly ethnic Malay, Malay-speaking)
+   [HIGH — Wikipedia "Nationality, religion, and language data for the
+   provinces of Thailand", "Patani Malays", "Islam in Thailand"; Melbourne
+   Asia Review]. Muslim communities also live across the upper South
+   (Krabi, Songkhla, Phuket, Phang Nga) and in Bangkok [MEDIUM — not
+   independently re-checked]. **Rules**: a zone-5 (Deep South) scene or
+   any brief naming a Muslim household carries **no pork in any form**
+   (no moo ping, moo krob, khao kha moo, pork mince in kra pao, pork
+   blood in noodle broth, sai ua, naem) and **no alcohol anywhere in
+   frame**; proteins are chicken, beef, goat, fish, prawn, squid. The
+   green halal mark on packaging is text — keep it unreadable.
+   **Ramadan** shifts eating to after sunset (see FESTIVALS).
+4. **Pork is the everyday meat everywhere else — don't sanitise it.**
+   Outside Muslim contexts, pork (moo) is Thailand's default meat: moo
+   ping, moo krob, khao kha moo, minced pork kra pao, pork balls in
+   noodle soup. A Bangkok street scene with only chicken is a model
+   default, not authenticity. The brief decides; when a brief names no
+   meat and no zone, **chicken or pork both read correctly in zones 1–4**
+   [EDITORIAL].
+5. **Buddhist and royal imagery are off limits beside the product.** No
+   TCCC product on or beside a Buddha image, spirit house (saan phra
+   phum), temple altar, monk's alms bowl, monk, or any image of the King
+   or royal family; Buddha images are not décor. Thailand's lèse-majesté
+   law (Article 112) makes any royal reference legally sensitive, and a
+   portrait of the King is common in homes, shops and restaurants —
+   **keep every wall portrait out of frame or unrecognisably blurred**
+   [MEDIUM for practice — not independently re-checked this pass;
+   EDITORIAL rule]. A spirit house in a garden or outside a shop is real
+   and common; keep it out of frame rather than in the background.
+6. **No alcohol staged, and never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).** Thai
+   whisky/rum-and-Coke ("SangSom and Coke" in a bucket, beer towers) is
+   a real drinking habit (see ICONIC BEVERAGES); keep every TCCC product
+   away from bar tables, ice buckets with bottles, and beach-bar setups.
+7. **The Vegetarian Festival (Thetsakan Kin Je) is vegan and
+   alliums-free.** A Kin Je scene carries **no meat, fish, egg, dairy,
+   garlic, onion or chives**; the yellow flag with red characters marks
+   jay food [MEDIUM — Phuket festival guides; not re-checked in depth].
+   The flag is text — keep it out of frame or unreadable.
+8. **Water, iced tea and other drinks are intruders.** A Thai table
+   reliably has **a jug of water and plastic tumblers or glasses full of
+   ice**; street stalls hand out a free glass of iced water; Thai iced
+   tea (cha yen), oliang and fresh juice are everywhere. Name them in
+   the negative. **Ice in a glass is itself a Thai norm** (soft drinks
+   are drunk over ice) — when the brief allows a glass, a glass of ice
+   with the hero poured into it reads local; no second drink.
+9. **General project rules**: no legible text anywhere (Thai script,
+   Malay/Jawi script, Chinese characters included); nothing held in a
+   hand; no drinks other than the hero; never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
+
+### Structural decision: one file, five zones (recommendation — reviewer has final say)
+
+The `country-file-schema.md` §1.1 swap test, applied with this pass's
+evidence:
+
+- **A real national core exists.** Bangkok/Central street and one-plate
+  dishes — pad kra pao, khao man gai, pad thai, tom yum, green curry,
+  boat noodles, moo ping, mango sticky rice — are sold across the
+  country's cities and read correctly anywhere. Som tam and gai yang
+  from Isan are now national street food too.
+- **The staple and the plate change by region.** Central and the South
+  eat **jasmine rice** on individual plates with spoon and fork; **Isan
+  and the North eat glutinous sticky rice** from a woven bamboo basket
+  (kratip) by hand; the North serves **khan tok** (a low round tray
+  table) at feasts; the Deep South eats **khao mok, roti and Malay
+  curries** without pork. Swapping an Isan sticky-rice basket into a
+  Bangkok office lunch, or moo krob into a Pattani lunch, is a visible
+  error.
+- **Several dishes are form-changing or region-locked**: khao soi
+  (North only as an everyday dish), som tam (Thai/Bangkok sweet-sour vs.
+  Isan/Lao pla ra style), gaeng tai pla and khao yam (South), sai ua and
+  nam prik noom (North).
+- **The environment changes**: a Bangkok condo or shophouse; a Chiang
+  Mai teak house or wooden-front townhouse with mountains behind; an
+  Isan stilted house with a shaded space beneath and rice paddies; a
+  Phuket Sino-Portuguese shophouse; a Pattani house with a mosque dome
+  on the skyline.
+
+**Recommendation: one file with five zones** (the Spain/Türkiye/Mexico
+pattern), not a US-style split. The national core is stronger than
+India's and the zone differences are manageable as callouts and
+form-changing entries. **A recommendation for the reviewer, not a
+decision** (§7).
+
+### Zones (one scheme, used throughout)
+
+| # | Zone | Covers | Visual register |
+|---|---|---|---|
+| 1 | **Bangkok & Central Plains** (default) | Bangkok, Nonthaburi, Ayutthaya, Nakhon Pathom, Samut Prakan; the eastern seaboard (Chonburi, Pattaya, Rayong) noted | Jasmine rice and one-plate dishes, street food capital; condo towers, shophouses, canal (khlong) houses, sois with food carts, BTS/MRT viaducts |
+| 2 | **North (Lanna)** | Chiang Mai, Chiang Rai, Lampang, Nan, Mae Hong Son | Sticky rice, khao soi, sai ua, nam prik noom and nam prik ong, gaeng hang lay, khan tok; teak houses, mountains, cool-season haze, temples with tiered roofs |
+| 3 | **Northeast (Isan)** | Khon Kaen, Udon Thani, Ubon Ratchathani, Nakhon Ratchasima (Korat) | Sticky rice in kratip baskets, som tam (pla ra), larb, nam tok, gai yang, grilled fish; stilted houses, rice paddies, roadside grill stalls |
+| 4 | **South — upper and Andaman** | Phuket, Krabi, Surat Thani, Nakhon Si Thammarat, Songkhla/Hat Yai, Trang | Very hot curries (gaeng tai pla, gaeng som), khao yam, kua kling, seafood, Hokkien-Peranakan Phuket food (mee hokkien, dim sum breakfast), roti; Sino-Portuguese shophouses, rubber and palm plantations, beaches |
+| 5 | **Deep South (Malay-Muslim)** | Pattani, Yala, Narathiwat, Satun | Halal only: khao mok gai, nasi kerabu-type rice, roti, Malay curries, satay, khao yam; mosques, wooden Malay houses, songkok and hijab in the soft background |
+
+Zone boundaries are a staging convenience, not a claim about identity.
+Hat Yai and Krabi have large Muslim communities and sit on the zone 4/5
+line: **any zone-4 brief that names a Muslim family follows zone-5
+halal rules.** [EDITORIAL]
+
+### Default when no zone is named
+
+Fall back to **zone 1 (Bangkok) at the everyday register**: a one-plate
+lunch (kra pao rice with a fried egg, or khao man gai) at a shophouse
+restaurant or a soi street stall with stainless-steel tables and plastic
+stools; at home, a Bangkok condo or townhouse table with two or three
+shared dishes and a plate of jasmine rice per person. [EDITORIAL
+fallback — not a sourced "most typical Thailand" claim; Isan, the most
+populous region, would argue for sticky rice and som tam]
+
+---
+
+## METHOD NOTE (read first)
+
+**Build method, this pass.** Drafted directly from model knowledge and
+checked with 34 WebSearch queries (of a ~40-search budget),
+prioritising the claims a scene visibly depends on: pack formats and the
+bottler split, housing, table etiquette, Muslim South, dish forms and
+sizes, and 2026/2027 festival dates. Tags mean:
+
+- **[HIGH] / [MEDIUM] / [LOW]** — schema §6 tags earned this pass (HIGH =
+  2+ independent corroborating sources; MEDIUM = 1 credible source).
+- **[… — not independently re-checked this pass]** — model knowledge that
+  is uncontested general culinary or cultural knowledge but was not
+  individually searched. Plausible, not verified.
+- **[EDITORIAL]** — a judgment call (defaults, portion counts, surface
+  shares, caricature-avoidance guidance), never a factual claim.
+- **[HIGH — first-party test]** — this project's own image-generation
+  findings (`coca-cola-guidelines.md` §1, `country-file-schema.md` §7.5).
+  **No Thailand-specific image tests have been run.**
+- **"(via search)"** — the source page itself was blocked by the egress
+  proxy; the claim rests on the search-result snippet.
+
+**Writing principle.** Describe what the camera sees: the lacy, blistered
+brown skirt of a Thai fried egg, the oil-red slick on a jungle curry, the
+matte translucence of sticky rice, the pale gloss of poached chicken skin,
+and real-world size.
+
+**File-wide rules for every scene built from this file:**
+
+1. **Text as atmosphere.** Shop signs, menu boards on the wall, the
+   printed paper that street food is wrapped in, condiment-bottle labels,
+   7-Eleven bags and delivery-app bags appear only as heavily blurred,
+   unreadable colour. Any readable word, number or brand mark means
+   reject or retouch. Blur instructions are known to fail [HIGH —
+   first-party test; `country-file-schema.md` §7.5]. Bangkok sois carry a
+   heavy signage prior — frame tight.
+2. **The hero product is a TCCC beverage named by the brief** (HERO
+   PRODUCT SLOT). Branding is composited in post
+   (`coca-cola-guidelines.md` §1–2).
+3. **No alcohol in any scene**, never a TCCC product as a mixer with alcohol (non-alcoholic TCCC-brand mixes are allowed, schema §5.5).
+4. **No drinks in frame other than the hero product** unless the brief
+   explicitly allows a named non-alcoholic companion. Name the likely
+   intruders in the negative: a plastic water jug, ribbed plastic
+   tumblers of iced water, orange Thai iced tea in a plastic cup or bag,
+   oliang, coconuts with straws, fruit shakes.
+5. **Nothing held in a hand.** Moo ping, sticky rice, roti and street
+   snacks rest on a plate, banana leaf, paper tray, plastic bag laid on
+   a counter, or stall ledge (`country-file-schema.md` §7.5).
+6. **Halal, pork, Buddhist/royal imagery and Kin Je rules** (hard rules
+   3–7) apply to every scene.
+
+---
+
+## QUICK-REFERENCE: GENERIC SCENE REGISTERS
+
+| Generic scene type | What to draw on |
+|---|---|
+| **Soi street stall (Bangkok)** | A wheeled cart with a glass display case, a wok on a gas burner, stainless-steel folding tables and red or blue plastic stools on the pavement, a steel condiment caddy (krueang prung) with four small jars: chilli flakes, sugar, fish sauce with chilli, chilli vinegar; melamine plates; tight framing. |
+| **Shophouse restaurant (raan aahaan taam sang)** | Open-fronted ground floor of a 3–4 storey concrete shophouse, tiled floor, steel tables, fluorescent tubes, a fridge with a glass door (blurred), wok station at the front; dishes cooked to order on melamine or white china plates. |
+| **Khao gaeng (curry-over-rice) shop** | A row of 10–20 metal trays or pots of ready curries and stir-fries behind glass; the diner points, a ladle of one or two over a plate of rice. |
+| **Isan grill-and-som-tam stall** | A charcoal grill with spatchcocked chickens clamped in bamboo, a clay mortar (krok) and wooden pestle for som tam, woven bamboo sticky-rice baskets, plates of raw cabbage and long beans. |
+| **Home meal (Central)** | A low or regular table, three or four shared dishes in the middle (a curry, a stir-fry, a fried egg or omelette, a soup), a lidded rice cooker on the side, a plate of rice and spoon-and-fork per person; often a mat on the floor in older homes. |
+| **Northern khan tok** | Diners seated on the floor around a low round lacquered or rattan tray table holding small bowls of nam prik, gaeng hang lay, sai ua, pork crackling, raw and steamed vegetables, and kratip baskets of sticky rice. |
+| **Night market** | Rows of lit stalls under canopies, food in clear plastic boxes and paper trays, shared folding tables; warm bulb light, bokeh; never legible signage. |
+| **Mall food court** | A big air-conditioned hall, stall counters with steel trays, melamine plates and bowls, a coupon/card system (keep unreadable); everyday urban lunch. |
+
+Full background-first profiles for the main venues: see VENUE PROFILES below.
+
+---
+
+## VENUE PROFILES
+
+Schema §5.9 applies. The default camera keeps the table sharp and the
+room soft, so each profile leads with what the blurred background must
+show. First wave (2026-10-01): the five most-used staging venues. The
+QUICK-REFERENCE table above stays the short index; the night market,
+khao gaeng shop, food court, khan tok and karaoke room keep their
+register rows and scenario text until a later wave. Hard rules 1–9 apply
+to every profile; hard rule 5 (no Buddha image, spirit house or royal
+portrait in frame) is the trap that matters most in Thai backgrounds,
+because all three are common in exactly these rooms.
+
+#### Venue: Bangkok townhouse living-dining room (baan tao-hao / tuek thaew)
+- Use for: home indoor; casual lunch at home (1–3), dinner at home, the
+  family side of Chinese New Year and house-blessing meals, the EPL and
+  national-team watch party; 1, 2 or a small group. The Bangkok family
+  default (townhouses and shophouses were ~18% of the national stock, far
+  more in the capital's inner rings) [MEDIUM — JICA housing survey via
+  search, see ENVIRONMENT & STAGING SCENES]; the condo and the detached
+  house are the variants below.
+- Soft background (the core): a narrow, deep ground-floor room seen
+  lengthwise, so the background is the **far end of a long room**: the
+  open kitchen or a pantry counter at the back, a white or beige
+  tiled splashback and a steel sink catching light, a lidded electric
+  rice cooker and a thermos-type hot-water pot on the counter as small
+  pale domes [MEDIUM for the ground-floor living-dining-kitchen layout
+  and white granite or grey tile floors — Living Asean townhouse
+  features; appliances MEDIUM, file interior markers]. **Back and side
+  walls**: smooth plaster painted off-white, cream or pale green, bare
+  except for a wall clock, a calendar from a local shop (text
+  unreadable) and framed family photos; a high shelf with a Buddha image
+  or a royal portrait is common and must be **out of frame or turned
+  into an unreadable warm smudge** (hard rule 5) [MEDIUM — file norms;
+  EDITORIAL]. **Middle distance**: a refrigerator (white or silver) as
+  a tall pale block, a stair rising along one side wall with a steel or
+  wooden handrail, a low wooden or rattan sofa set and the TV cabinet,
+  a stand fan, a glass-fronted display cabinet of plates and glasses.
+  **Light**: daylight from the street end through the folding steel
+  grille (pratu yuet) and an aluminium-frame glass door, so the front is
+  bright and the back darker; by night a white fluorescent tube or LED
+  panel on the ceiling (cool, 5000–6500 K look), the TV glow, and a
+  slowly turning ceiling fan as a soft disc [MEDIUM for fan, AC and
+  fluorescent — file interior markers; EDITORIAL for colour
+  temperature]. **Palette**: off-white walls, beige or grey glazed floor
+  tile with a sheen, dark lacquered wood or walnut-tone furniture,
+  silver appliances, the cool white of the tube. **Signature shapes
+  (pick 3–4)**: the split-AC unit high on the wall as a pale horizontal
+  bar; the ceiling-fan disc; the rice cooker's dome; the diagonal of the
+  staircase; the vertical lines of the folding steel grille at the
+  street end. **Density and wear**: lived-in and tidy, a little crowded
+  (plastic storage boxes, a shoe rack outside the door, a motorbike
+  helmet on a shelf); not a showroom. **People cues**: at most one
+  blurred relative on the sofa or at the kitchen counter, in house
+  clothes; no children's faces.
+- Shell: 3–4 storey reinforced-concrete row house, 4–5 m wide; glazed
+  ceramic or granite-look floor tiles; plaster ceiling about 2.8–3 m,
+  with a fan and a single tube or panel light; louvred or sliding
+  aluminium windows with mosquito screen at the rear [MEDIUM — Living
+  Asean; factsanddetails "suburban concrete town houses"].
+- The table as set here: a rectangular wooden or Formica-topped dining
+  table for four to six, sometimes covered with a clear plastic sheet
+  over a cloth, or a glass top; four wooden or steel chairs; or, in older
+  homes, a mat on the floor and a low table. Always on it: shared dishes
+  in the middle with serving spoons, one plate of rice per person,
+  spoon and fork, a saucer of prik nam pla, a box of tissues in a
+  plastic holder; a stainless or plastic lid cover (fly cover) nearby
+  [MEDIUM for structure — hard rule 2; tissue box and fly cover LOW —
+  not verified]. House tableware: white china or patterned melamine
+  plates, small bowls, steel spoons. Chair edges: dark wood backs or
+  steel-tube frames.
+- Subregional variants and the national default: **Bangkok condo**
+  (young adults, singles, couples): a 25–35 m² unit, laminate or tiled
+  floor, a galley kitchenette against the balcony door, a two-seat table
+  or a low table with floor cushions, a sliding glass door to a narrow
+  balcony with an AC compressor and drying rack, the city or another
+  tower soft beyond [MEDIUM — Beyond Decor condo guide (tier 3); file
+  ENVIRONMENT norms]. **Detached house** (the default outside central
+  Bangkok, ~73% of national stock): a wider single-storey or two-storey
+  room, a garden or carport through the window. **North**: more wood
+  (teak panelling, wooden floors). **Deep South**: no Buddha shelf;
+  framed Arabic calligraphy is common and must stay unreadable or out of
+  frame [LOW — not verified]. National default when nothing is named:
+  the Bangkok townhouse above.
+- Hallucination traps: a teak "Thai-style" resort interior with carved
+  panels and silk cushions; orchids and lotus flowers on every surface;
+  a Buddha statue as décor; a golden temple through the window; a
+  Japanese or Korean minimalist apartment (tatami, low hinoki table);
+  Western open-plan suburban kitchens with an island; dark moody
+  lighting (Thai homes are bright and evenly lit).
+- Never stage: a Buddha image, spirit house or royal portrait in frame;
+  a whisky bottle, beer or soda-water set on the table or cabinet;
+  legible calendars, TV screens, packaging.
+- Prompt-ready line: "A Bangkok townhouse dining table under a cool
+  white ceiling light, off-white plaster walls and a glossy beige tiled
+  floor, a softly blurred kitchen counter with a rice-cooker dome and a
+  steel sink at the back, a wall AC unit and a ceiling fan as pale soft
+  shapes, and daylight from the folding steel street grille behind."
+- Confidence and sources: MEDIUM overall. 2 searches (Thai townhouse
+  interiors; Bangkok condo units). Living Asean townhouse features;
+  factsanddetails.com "Homes in Thailand"; Beyond Decor (tier 3); file
+  ENVIRONMENT norms. Tissue box, fly cover and Deep South calligraphy
+  LOW — not verified.
+
+#### Venue: Front yard and under-house space (laan baan / tai thun)
+- Use for: home outdoor; meal outdoors at home, Songkran homecoming,
+  mookata at home, village feasts before the tent goes up, the
+  national-team and Muay Thai watch parties; 1, 2 or a small group.
+  The default home-outdoor venue outside central Bangkok; the Isan tai
+  thun is its most distinctive form [MEDIUM — file ENVIRONMENT norms;
+  tai thun use for eating and resting below].
+- Soft background (the core): **Isan / rural form**: the shaded space
+  under a raised house, so the frame is **dark above, bright beyond**:
+  the underside of the wooden floor and beams as a dark band at the top,
+  thick square concrete or timber posts in rhythm across the middle
+  distance, and beyond them a **bright, over-exposed yard** in green and
+  dusty ochre (banana leaves, a mango tree, a fence of concrete posts and
+  wire, rice paddies at the far edge in the countryside) [MEDIUM — the
+  tai thun as a cool shaded space for eating, resting, weaving and
+  storing tools: Living Asean; Wikipedia "Traditional Thai house"]. In
+  the middle distance: a hammock slung between two posts, a raised
+  bamboo or wooden platform bed (taeng) used for sitting and eating, a
+  parked motorbike, stacked plastic chairs, a large glazed water jar
+  (ong), a small charcoal clay stove (tao) with a faint smoke haze
+  [MEDIUM for hammock and storage — same sources and file norms; taeng,
+  ong and tao MEDIUM — not individually re-checked; uncontested].
+  **Light**: hard tropical daylight outside, cool shade inside; at
+  golden hour a warm low raking light across the yard; at night a bare
+  bulb or one fluorescent tube strapped to a post, insects in the glow.
+  **Palette**: grey-brown timber and grey concrete, red-brown laterite
+  earth, saturated leaf green, the primary colours of plastic chairs and
+  basins. **Signature shapes**: the dark underside of the floor; the row
+  of posts; the hammock's curve; the bright rectangle of yard; the
+  platform bed. **Density and wear**: practical and well used, some
+  clutter at the edges (baskets, a broom, a rice sack), swept earth or a
+  rough concrete pad. **People cues**: one or two blurred relatives on
+  the platform or in the hammock, within the limit.
+  **Central / Bangkok-suburb form**: a front yard or carport of a
+  detached or townhouse home: a concrete or tiled forecourt, a steel
+  gate with vertical bars, potted plants (bougainvillea, crotons) along
+  the wall, the car or motorbike pushed aside, the street soft beyond
+  the gate.
+- Shell: open on three or four sides; floor is packed earth, concrete
+  screed or tile; the "ceiling" is the house floor 2–2.5 m above
+  [MEDIUM — Living Asean; EDITORIAL for heights].
+- The table as set here: a mat (woven plastic or reed) on the concrete
+  with a low table, or the platform bed, or a folding steel table with
+  plastic stools; shared dishes in bowls and on melamine plates, a family
+  kratip of sticky rice in Isan, som tam on a plate, gai yang chopped on
+  a plate, raw cabbage and long beans, jaew in a small bowl; spoon and
+  fork. A mookata dome on a charcoal bucket when the brief names it.
+  Chair edges: plastic stools in red, blue or green.
+- Subregional variants and the national default: **Isan**: the tai
+  thun with paddies. **North**: a wooden house on lower stilts or a
+  townhouse forecourt, mountains in haze at the far edge. **South and
+  Deep South**: a wooden Malay house on stilts with a steep roof in zone
+  5; coconut palms and rubber trees beyond. **Bangkok**: the shophouse
+  frontage on the soi (see the street stall profile for that look).
+  National default when nothing is named: a detached-house front yard
+  with a concrete pad, potted plants, a steel gate and a mat or low
+  table, in shade.
+- Hallucination traps: an elephant, longtail boat or golden temple in
+  the distance; a bamboo resort sala with white cushions; a Western
+  barbecue grill and lawn furniture; jungle-tour scenery; a
+  dirt-poor, exoticised hut (the file's caricature-avoidance rule).
+- Never stage: a spirit house (stands in most yards — keep out of
+  frame); beer or whisky sets beside the mookata; a full Thai flag; any
+  legible sign on the gate.
+- Prompt-ready line: "Lunch in the cool shade beneath a raised Isan
+  wooden house: a low table on a woven mat, dark floor beams overhead,
+  a row of soft square posts and a hammock in the middle distance, and
+  a bright blurred yard of banana leaves and dusty red earth beyond."
+- Confidence and sources: MEDIUM. 1 search (tai thun use). Living
+  Asean; Thailand Foundation "Ruean Thai"; Wikipedia "Traditional Thai
+  house"; file ENVIRONMENT norms. Platform bed, water jar and clay stove
+  not individually re-checked.
+
+#### Venue: Shophouse restaurant (raan aahaan taam sang / raan khao)
+- Use for: restaurant indoor; away-from-home lunch for 1, dinner for
+  2–3, birthdays in small groups, the street-food-shop watch party; the
+  default casual sit-down restaurant in every Thai city [MEDIUM — file
+  register; Atlas Obscura and travelfish descriptions below].
+- Soft background (the core): an **open-fronted** ground-floor room, so
+  one side of the frame is the street. **Back wall**: glossy wall tiles
+  (white, cream or pale blue, sometimes granite-look) to head height
+  or full height, painted plaster above, with a few framed newspaper or
+  magazine clippings and old photos as small pale rectangles, a wall
+  clock and a TV mounted high in a corner as a soft bluish glow [HIGH
+  for tiled or granite walls, steel furniture and fluorescent light —
+  Atlas Obscura on Gai Tord Jae Kee ("glossy granite", "stainless steel
+  furniture and fluorescent lighting") and Wattana Panich ("tiled walls,
+  faded news clippings, and fluorescent lights"); travelfish market
+  eateries]. **Middle distance**: the **cooking station at the front by
+  the street** — a wok on a high-flame gas burner, a glass-fronted
+  aluminium cart or display case of raw ingredients, steam; a tall
+  glass-door drinks fridge as a cold, bright rectangle (contents and
+  brand fully blurred); stacks of melamine plates and steel bowls on a
+  shelf; other steel tables with a few blurred diners [MEDIUM — file
+  register; Atlas Obscura]. **Light**: rows of bare white fluorescent
+  tubes on the ceiling (cool, flat, even), plus daylight spilling from
+  the open front; at night the room glows white against a dark soi; one
+  or two wall fans or ceiling fans turning. **Palette**: cool white
+  light, glossy white or pale tile, brushed stainless steel, the red or
+  blue of plastic stools, the orange flame and steam at the wok.
+  **Signature shapes**: the band of white tile behind; the long lines of
+  fluorescent tubes; the wok's flame and steam cloud at the front; the
+  tall glowing fridge; the steel tables receding in rows. **Density and
+  wear**: busy at noon, functional and scrubbed but well worn (chipped
+  tiles, a scuffed floor, cables along the wall). **People cues**: a
+  cook at the wok in a T-shirt and apron, seen from behind or in blur;
+  one or two diners at a far table; no more than about 2.5 faces.
+- Shell: the ground floor of a 3–4 storey concrete shophouse, 4–5 m
+  wide, a roll-up steel shutter or folding grille pushed back to open
+  the whole front; terrazzo or ceramic-tile floor; a plain plaster
+  ceiling with tubes and fans [MEDIUM — file register and ENVIRONMENT
+  norms].
+- The table as set here: **bare stainless-steel table** (or a
+  Formica top with a steel edge); always on it: the four-jar condiment
+  caddy (chilli flakes, sugar, fish sauce with chilli, chilli vinegar), a
+  steel cup holding spoons, forks and chopsticks, a roll or box of pink
+  or white tissue paper; the house tableware is melamine plates
+  (white, or with a green or blue pattern) and steel or melamine noodle
+  bowls with porcelain soup spoons. Chair edges: steel chairs or
+  plastic stools [HIGH for caddy and spoon-fork — file GENERAL NORMS;
+  tissue roll MEDIUM — not independently re-checked].
+- Subregional variants and the national default: **Bangkok Chinatown
+  and old town**: older Chinese-Thai rooms with marble-topped tables,
+  wooden chairs and dark wood shelving. **Chiang Mai**: the khao soi
+  shop, often in a wooden-front townhouse or an open-sided shed with
+  wooden tables. **Phuket and the South**: Sino-Portuguese shophouses
+  with arcaded five-foot ways, pastel facades, patterned cement floor
+  tiles. **Deep South**: a halal shop (roti, khao mok) with a green
+  colour accent; Arabic calligraphy stays unreadable. National default
+  when nothing is named: the Bangkok tiled shophouse room above.
+- Hallucination traps: a dark-wood "Thai restaurant" abroad with
+  carved elephants, silk table runners, orchids and gold Buddha statues;
+  a trendy café with Edison bulbs and exposed brick; white tablecloths;
+  a Chinese restaurant with red lanterns everywhere (only in Chinatown,
+  and then as soft colour); a beer-branded fridge or umbrella.
+- Never stage: beer bottles on tables, a beer tower, whisky sets;
+  legible menus on the wall (Thai script, prices); branded fridges; the
+  royal portrait or a Buddha shelf (common in shops — out of frame).
+- Prompt-ready line: "A Bangkok shophouse restaurant at lunchtime: a
+  bare stainless-steel table with a four-jar condiment caddy, glossy
+  white wall tiles and rows of cool fluorescent tubes softly blurred
+  behind, and the steam and orange flame of a wok station at the open
+  street front."
+- Confidence and sources: MEDIUM-HIGH. 1 search (shophouse
+  interiors). Atlas Obscura "Essential places to eat in Bangkok"
+  (Gai Tord Jae Kee, Wattana Panich); travelfish Nang Loeng market;
+  file register and GENERAL NORMS.
+
+#### Venue: Soi street stall (raan khaang thang)
+- Use for: street / on-the-go and pavement sit-down; meal on the go
+  (1), away-from-home lunch (1–2), late-night food, a few friends with a
+  TV at a stall; the default Thai street venue [HIGH — travelfish Silom
+  Soi 20; Roadbook; Design Inquiry on Bangkok street vendors; file
+  STREET FOOD register].
+- Soft background (the core): the **soi itself** behind the stall:
+  a row of 3–4 storey concrete shophouse fronts with their roll-up
+  shutters, a tangle of **overhead electric cables** sagging across the
+  street, parked motorbikes as dark shapes along the kerb, and the
+  vendor's own set-up in the middle distance: a **wheeled cart with a
+  glass display case** (raw ingredients, or hanging poached chickens
+  for khao man gai), a wok on a gas burner with a blue LPG tank below,
+  a large steel pot of broth with steam, a striped or plain tarpaulin
+  or a big umbrella overhead [MEDIUM — Design Inquiry; travelfish;
+  file register and ENVIRONMENT norms]. Other steel tables and plastic
+  stools spread along the pavement, a few blurred diners hunched over
+  bowls. **Light by day**: bright, hazy, often white-sky; the
+  umbrella or tarp gives a soft coloured shade (blue, red, green) on the
+  table. **Light by night**: a bare bulb or fluorescent tube clipped to
+  the cart, the glass case lit from inside, warm and white spots against
+  a dark soi, and **bokeh** from motorbike headlights and shop fronts
+  [MEDIUM — night market and soi descriptions above; EDITORIAL colour].
+  **Palette**: brushed steel, the primary red and blue of plastic
+  stools, grey concrete, the white of steam, warm tungsten points at
+  night. **Signature shapes**: the cart's glass box; the overhead cable
+  tangle; the umbrella or tarp edge; low plastic stools; the steam
+  plume. **Density and wear**: busy, cramped and clean enough; kerb
+  wear, a bucket of washing water by the cart, a stack of stools.
+  **People cues**: the vendor in blur at the cart (apron, sometimes a
+  cap), one or two diners at the next table, a passing motorbike as a
+  streak; nobody sharp.
+- Shell: the pavement and the kerb; a concrete or brick-paved surface;
+  open sky or the tarp overhead.
+- The table as set here: a small **folding stainless-steel table**
+  (often square, about 60 × 60 cm) with low plastic stools; the
+  four-jar caddy, a steel cutlery cup, a roll of tissue; one dish on a
+  melamine plate, or a noodle bowl with a porcelain spoon and
+  chopsticks; a saucer of prik nam pla. Grab-and-go food sits on paper,
+  banana leaf, or a plastic bag laid flat on the cart ledge, never in a
+  hand [HIGH for steel tables and plastic stools — travelfish, Roadbook,
+  khaosanroad.com guides; caddy from file norms].
+- Subregional variants and the national default: **Isan and roadside
+  provinces**: the grill-and-som-tam stall (charcoal grill with chickens
+  in bamboo clamps, the clay krok), with wooden benches and a corrugated
+  roof. **Chiang Mai**: stalls under old trees, cooler blue evenings in
+  the cool season. **Deep South**: halal roti and satay carts, a
+  mosque dome possible far behind (soft, never as a hero). National
+  default when nothing is named: a Bangkok soi stall by day, tightly
+  framed.
+- Hallucination traps: Khao San Road neon and backpackers; a floating
+  market with boats; tuk-tuks lined up as décor; a "hawker centre"
+  (Singapore/Malaysia: numbered stalls under one roof); a Vietnamese
+  street scene (conical hats, tiny blue stools with knee-high tables
+  everywhere, French-colonial yellow walls); fried insects as the
+  default; filthy or chaotic framing.
+- Never stage: legible stall signs, menus or LINE/Grab stickers; beer
+  bottles on neighbouring tables; branded umbrellas or coolers;
+  motorbike number plates; a spirit house or shrine on the pavement.
+- Prompt-ready line: "A Bangkok soi stall: a small stainless-steel
+  folding table with a four-jar condiment caddy and a red plastic stool
+  in the foreground, a softly blurred food cart with a glass display case
+  and a steaming pot behind, concrete shophouse fronts and a tangle of
+  overhead cables beyond."
+- Confidence and sources: HIGH for the steel-table-and-stool set,
+  MEDIUM for the soi background. 1 search (stall set-up). Travelfish
+  Silom Soi 20; Roadbook; khaosanroad.com (tier 4); Design Inquiry
+  "Make/Do: Street vendors and Bangkok urban space".
+
+#### Venue: Party tent with Chinese tables (tent ngan liang / to jeen)
+- Use for: other (rented tent over a yard, soi or temple ground) or
+  restaurant/hall; wedding feast, ordination, house-blessing lunch, big
+  birthdays, Songkran and village gatherings at scale; snapshot frames
+  of 1, 2 or a small group. The signature Thai event venue in the
+  CELEBRATIONS section [MEDIUM — Bangkok Post "Modern-Day Ordination"
+  for round tables of 8–10; tent-and-Chinese-table rental listings
+  below].
+- Soft background (the core): the **inside of a steel-frame rental
+  tent**: white or pale fabric roof panels sagging slightly between
+  **steel poles**, often with **pleated or gathered drapes** (white,
+  or with coloured swags in pink, gold, purple or light blue) along the
+  roof edges and wrapped around the poles [MEDIUM — Thai tent and
+  catering rental listings (tentplk, nakorntoh, sawsamsai) offering
+  tents, white-topped tables, Chinese tables, chair covers, pleated
+  drape fabric and water-mist fans]. **Middle distance**: more **round
+  tables for ten** under white or coloured cloths, folding steel chairs
+  or banquet chairs with fabric covers (white with a coloured sash),
+  receding in a grid; a big **water-mist fan** or standing fans as round
+  shapes; at the far edge a stage or backdrop with fabric and flowers,
+  and (village form) the **cooking station**: rows of large aluminium
+  pots, big woks on gas rings, a trestle table of plates, steam and
+  helpers. **Light**: by day, diffuse white light through the fabric,
+  everything slightly bright and low-contrast, the yard or soi
+  over-exposed at the tent's open sides; by evening, strings of bare
+  bulbs or fluorescent tubes tied to the poles, warm-white and
+  cool-white mixed, coloured light on the stage. **Palette**: white
+  fabric and cloth, the chosen accent colour, chrome poles, the steel
+  of pots, green of the yard at the edges. **Signature shapes**: the
+  tent roof's soft triangle peaks; poles with gathered drapes; the
+  circles of round tables; covered chairs with bows; a row of big pots.
+  **Density and wear**: temporary and full: crowded chairs, tables
+  laden, plastic crates stacked at the edge. **People cues**: blurred
+  guests at the next table (backs and shoulders), caterer staff in
+  white or black shirts carrying platters, within the limit; no
+  children's faces, no monks in frame.
+- Shell: an open-sided tent on the yard, soi or a temple ground's open
+  hall area; the floor is concrete, earth or a laid tarpaulin; urban
+  banquets move into a hotel or rented hall (carpet, chandeliers, a
+  stage) [MEDIUM — same sources; EDITORIAL].
+- The table as set here: a round table for about ten with a white or
+  coloured cloth, often a **lazy Susan** in the middle; each place a
+  small plate, a small bowl with a porcelain spoon, spoon and fork,
+  a glass for the hero when the brief allows one, a paper napkin; 2–4 courses at a time on platters
+  (a whole fish, a stir-fry, a soup tureen, fried rice); in the village
+  form, long folding tables with melamine plates, kratips and bowls
+  instead [MEDIUM — CELEBRATIONS section; Sawsamsai catering menu
+  (tier 3)]. Chair edges: the fabric-covered backs with sashes.
+- Subregional variants and the national default: **Village and Isan**:
+  the tent over the house yard, long tables or a mix of round and long,
+  the cooking pots in view. **Urban**: a hotel or rented hall, carpet,
+  round tables, a backdrop. **Deep South (Muslim weddings, kenduri)**:
+  the same tent form, halal food, no alcohol at all, guests in songkok
+  and hijab soft in the background [LOW — not verified]. National
+  default when nothing is named: the white tent over a yard with round
+  tables for ten.
+- Hallucination traps: a Western garden-wedding marquee with fairy
+  lights, wildflower centrepieces and a champagne tower; Chinese red
+  lanterns and dragons everywhere (Thai-Chinese families may use red
+  and gold accents, but the default is white with a pastel accent);
+  an Indian shamiana; temple interiors with gilded walls; elephants
+  at the entrance.
+- Never stage: monks, the water-pouring ceremony or an altar (stage the
+  guests' meal only); whisky bottles and soda on the round table, beer
+  crates, ice buckets (very common at village parties — negate them
+  explicitly); legible banners with names and dates; a royal portrait
+  at the stage.
+- Prompt-ready line: "One stretch of a round banquet table for ten
+  under a white rental party tent in a Thai yard, steel poles wrapped in
+  pleated pastel drapes, more cloth-covered round tables and sashed
+  chairs receding softly behind, and a blurred row of big steaming pots
+  at the far edge."
+- Confidence and sources: MEDIUM. 2 searches (one English, one Thai:
+  โต๊ะจีน เต็นท์ งานแต่ง). Bangkok Post (round tables); tentplk.com,
+  nakorntoh.com, sawsamsaicatering.com rental and catering listings
+  (tier 3); drape colour palette and the Deep South form LOW — not
+  verified as a share of events.
+
+---
+
+## TRUSTED CONTENT
+
+### HERO PRODUCT SLOT
+
+Every scene carries one TCCC hero product, **named by the brief**. This
+file uses `south-africa.md`'s generalised slot; since 2026-09-27 that is
+the project-wide rule (the brief dictates the SKU, never the region — see
+`DECISIONS.md` and `country-file-schema.md` §5.4). **If a brief names no
+product, ask for one.** Nothing below is a default.
+
+**Template:**
+> [HERO PRODUCT]: {brand and variant exactly as named on pack}, in
+> {format and size}, {dominant pack colour and material cue},
+> {negated lookalikes}. {Position: standing upright on the surface,
+> label facing camera or turned slightly}. Pack text will be composited
+> in post.
+
+**Rules:**
+- **Name the variant; negate the closest lookalike.** Thailand has a
+  variant set of its own: **Coke Original Taste**, **Coke Original Taste
+  Less Sugar**, **Coke Zero (Zero Sugar)**, **Coke Light**, and **Coke
+  Zero Zero** (zero sugar, zero caffeine — launched in Thailand as its
+  Southeast Asia debut) [HIGH that all five are current product pages —
+  thainamthip.co.th product URLs and the Haad Thip newsroom release, via
+  search]. An unspecified "Coca-Cola can" rendered as the wrong variant
+  in 2 of 3 generations [HIGH — first-party test,
+  `coca-cola-guidelines.md` §1]. **The Original vs. Original Less Sugar
+  distinction is a brief decision; pack colours of the Less Sugar
+  variant were not confirmed this pass** [LOW] — check the current pack.
+- **Also negate the local competitors.** **Pepsi** (Suntory PepsiCo
+  Thailand, ~39% share and targeting 40% in 2025) and **est Cola**
+  (ThaiBev's Sermsuk, ~8.6% share Feb 2023–Jan 2024); in 2020 Coca-Cola
+  held ~58% of carbonated drinks, with Coke 37% and Fanta 14.3% at brand
+  level [MEDIUM-HIGH — Mini Me Insights, Krungsri Research industry
+  outlook, Wikipedia "Est Cola"; shares from different years and
+  methods — treat as direction, not a current number]. Always state "not
+  Pepsi, not est, not any other cola brand".
+- **Thailand is a 325 mL-can market — not 330 mL, not 355 mL.** Makro
+  and Tops list **Coke Original, Coke Zero and Coke Light as 325 mL cans
+  in 6-packs** (~฿79–81 per six) [HIGH — makro.pro (three listings),
+  makroclick, tops.co.th, econthailand agree]; ThaiNamthip's own product
+  pages list 325 mL for Coke Light, Less Sugar and Zero Zero (via
+  search). **This contradicts `coca-cola-guidelines.md` §4.3's "default
+  to 330 mL for any non-US market"** — the fourth market (after Mexico
+  355, Brazil 350, India 300) to break it. Logged in the GAP LOG; not
+  edited here.
+- **The 325 mL can's dimensions are NOT confirmed.** No source gave its
+  height. It almost certainly shares the standard **~66 mm** body
+  diameter (202 end) with a body a few mm shorter than the 330 mL can's
+  115.2 mm [LOW — inference from can-size references; no Thai spec
+  found]. **Working anchor for this file's prompt lines: "the can",
+  treated as ~11.5 cm tall and ~6.6 cm wide [LOW — provisional]**;
+  confirm against a real can before any production run, and use a plate
+  or bowl as the second anchor (see SCALE REFERENCE).
+- **ThaiNamthip's Coke Original Taste page (via search) lists 180, 245,
+  250, 280, 295, 300, 330, 375 and 500 mL** without saying which size is
+  which format; this probably mixes glass, PET and can SKUs including
+  vending or regional ones [LOW — snippet only; format per size
+  unresolved]. Treat only the retail-confirmed formats below as current.
+- **Formats confirmed current in Thailand this pass** (reference for
+  whoever writes the brief — never a default):
+  - **Cans**: **325 mL** (standard, 6-packs) [HIGH]; a 245 mL can or
+    sleek can is possible from the product-page list [LOW].
+  - **Returnable glass**: **250 mL**, sold in crates of 24 (Big C,
+    Sahathai) and 12 (Supplybunny, for restaurants), ~฿12–14 a bottle,
+    with a deposit per crate [HIGH — Big C, makro.pro (250 mL × 12),
+    Gourmet Market, Sahathai, Supplybunny listings]. **Haad Thip opened
+    an ฿800-million glass line and put Coke, Fanta and Sprite back in
+    returnable glass in the South from late 2024** [MEDIUM-HIGH — Haad
+    Thip 2024 results release; smartkarma/Asian Century Stocks].
+    **Glass is the street-stall, shophouse and khao gaeng register** —
+    the small contour bottle beside a plate of rice with a glass of ice
+    is a strong Thai picture [EDITORIAL].
+  - **PET**: **300 mL, 450 mL, 510 mL, 1 L, 1.25 L, 1.5 L**; 1 L in 100%
+    rPET since Oct 2023, 300 and 510 mL added in rPET later [HIGH for 1 L,
+    300, 510 — ThaiNamthip/Coca-Cola Thailand rPET release, thaipr.net,
+    newswit; MEDIUM for 450 mL and 1.25 L — Thai export-wholesaler
+    listings (thaibynature); 1.5 L LOW-MEDIUM — product page via search
+    for the Less Sugar variant]. **Note: no 500 mL PET was confirmed in
+    retail** (the personal sizes found are 450 and 510 mL — another
+    mismatch with `coca-cola-guidelines.md` §4.4's "500mL").
+  - **Fountain** (bag-in-box) exists for restaurants and food courts
+    [MEDIUM — ThaiNamthip 65-year release, via search]; a fountain cup
+    carries printed branding — avoid.
+- **Which formats fit which setting** (reference only, not a default):
+  - street stall, shophouse, khao gaeng, noodle shop, som tam stall: a
+    **250 mL returnable glass bottle** beside a **glass of ice**, or a
+    325 mL can
+  - 7-Eleven / on the go / office desk: a 325 mL can, a 300 or 450 mL PET
+  - family dinner, Songkran gathering, mookata or party table: a **1.25
+    or 1.5 L PET** in the midground with a glass of ice at each place
+  - restaurant: a glass bottle or can, poured over ice into a plain glass
+- **One hero product per scene** unless the brief asks for several.
+
+**Slot sketches (verify local pack details before a production run):**
+
+| Brief calls for | Slot wording |
+|---|---|
+| Coca-Cola Original Taste, can | "a Coca-Cola Original Taste 325 ml can, red aluminium, standard width, not Zero Sugar or Light, not Pepsi, not est, not any other cola brand" (height unconfirmed — see above) |
+| Coca-Cola Original, glass | "a small 250 ml Coca-Cola contour glass bottle, clear glass showing the dark cola, crown cap, beside a plain glass of ice" (bottle height unconfirmed) |
+| Coke Zero / Coke Light | "a Coke Zero 325 ml can, black" / "a Coke Light 325 ml can, silver" — negate the red Original |
+| Coke Zero Zero | name it exactly; pack colours not confirmed this pass [LOW] |
+| Coca-Cola, family PET | "a 1.5-litre Coca-Cola Original plastic bottle in the midground, red label, a plain glass of ice cubes and cola at each place" |
+| Fanta / Sprite / Schweppes / A&W / Minute Maid / Namthip water | name flavour and pack colour; negate the nearest lookalike (Fanta strawberry and green "fruit punch" style flavours are a Thai favourite — not confirmed this pass, LOW) [portfolio HIGH — Haad Thip product list] |
+
+### ICONIC BEVERAGES (documented context — staging rules follow)
+
+This section records the real Thai drinks landscape, including alcohol,
+and restricts only what is staged — the same design `south-africa.md`
+uses.
+
+**TCCC Thailand portfolio — the brands a brief may name.** Coca-Cola
+(Original Taste, Original Taste Less Sugar, Zero, Light, Zero Zero),
+Fanta, Sprite, Schweppes, A&W Root Beer, Minute Maid, and **Namthip**
+drinking water [HIGH — Haad Thip product list; ThaiNamthip product URLs
+via search]. **ThaiNamthip** has bottled Coca-Cola in Thailand for 65
+years (marked 2024–25) [HIGH — Bangkok Post, plas-pack].
+
+**Competitors to negate**: **Pepsi**, 7UP, Mirinda (Suntory PepsiCo);
+**est Cola** and **est Play** (Sermsuk/ThaiBev) [HIGH for est —
+Wikipedia "Est Cola", bangkokhasyou]; **Big Cola** (AJE) [not
+re-checked]; energy drinks (Carabao Dang, M-150, Krating Daeng) are the
+everyday working-man drink and a heavy prior at roadside stalls [MEDIUM —
+not independently re-checked].
+
+**Non-alcoholic context (never beside the hero; staged only if a brief
+allows a named companion):**
+
+- **Cha yen (Thai iced tea)** — strong black tea, bright orange from
+  the tea mix, sweetened condensed and evaporated milk poured over
+  crushed ice in a tall plastic cup or a tied plastic bag with a straw;
+  **cha manao** (iced lemon tea), **oliang** (sweet black iced coffee),
+  **kafae yen** (iced milky coffee) [MEDIUM — not independently
+  re-checked; uncontested]. **The most likely intruder in any street or
+  café scene** — its orange colour is a strong model prior for "Thai".
+- **Iced water** — a plastic jug and ribbed plastic or glass tumblers of
+  ice at nearly every restaurant and home meal; stalls serve it free.
+  **Negate it.**
+- **Fresh coconut** (young, trimmed white husk with a straw), **fruit
+  shakes** (watermelon, mango), **nam manao** (lime juice), **nam
+  krajiap** (roselle), **nam bai toey** (pandan), **nam lamyai** (longan)
+  [MEDIUM — not independently re-checked].
+- **Drinking soft drinks over ice** — street vendors famously pour a
+  bottle into a plastic bag of crushed ice with a straw for takeaway
+  [MEDIUM — widely reported; not independently re-checked]. **Never
+  stage the bagged-soda version** (it implies the product decanted out
+  of its pack and reads as a hand-held item); a glass of ice beside the
+  bottle carries the same local cue.
+
+**Alcohol context (never staged):**
+
+- **Beer** — Singha (Boon Rawd), Chang (ThaiBev), Leo; drunk over ice
+  in Thailand. **Thai whisky and rum** — SangSom (a rum, marketed as
+  whisky) and Hong Thong, often mixed with soda or **Coca-Cola in
+  buckets** at beach parties and with ice, soda and a cola at a
+  restaurant table ("set"). **Lao khao** (rice spirit) in Isan villages
+  [MEDIUM — not independently re-checked this pass]. Reason to keep
+  every TCCC product away from any "set" of whisky, soda and ice, any
+  beer tower, and any beach-bucket scene.
+- **Sales limits**: alcohol sales are legally restricted to set hours
+  (11:00–14:00 and 17:00–24:00) and banned on major Buddhist holy days
+  [MEDIUM — not independently re-checked this pass; the hours were
+  reviewed in 2025 — check current rules].
+- **Muslim South**: alcohol is absent from Muslim tables entirely
+  (hard rule 3).
+
+### GENERAL NORMS
+
+**Meal pattern — when, and who.**
+
+| Occasion | Typical time | Confidence |
+|---|---|---|
+| Breakfast | ~07:00–08:00 — often bought on the street on the way to work or school (moo ping and sticky rice, jok, patongko and soy milk) | MEDIUM — Remitly (tier 3), Nation Thailand blog |
+| **Lunch** | **~12:00–13:00** — usually **one rice or noodle dish** (aahaan jaan diao), at a stall, food court or canteen | MEDIUM — Remitly, Hua Hin Thai Cooking Academy, Thaiger consistent (tier 3–4) |
+| Snacks | through the day — "six to seven times a day is not uncommon"; fruit with chilli-salt, grilled skewers, fried snacks, desserts | MEDIUM — same sources |
+| **Dinner** | **~18:00–20:00** — the main meal, several shared dishes with rice, family at home or a group at a restaurant | MEDIUM — same sources |
+
+**§5.2 contrast**: Thailand's dinner (~18:00–20:00) is early — like
+Türkiye's and the US's, far earlier than Spain's or India's 21:00. Dishes
+are interchangeable across meals; the same kra pao plate is breakfast,
+lunch or a late-night meal. A Thai dinner scene is dusk-to-early-night,
+lit by a ceiling fluorescent or a warm pendant. [MEDIUM direction;
+EDITORIAL staging]
+
+**Table norms:**
+- **One plate of rice per person, shared dishes in the middle**; serve
+  yourself a spoonful or two at a time with a serving spoon, rather than
+  heaping a plate [HIGH — siam.recipes, tagthai, ImportFood,
+  mythailand.blog].
+- **Balance**: a home or restaurant set for 2–4 aims for contrast —
+  typically a **curry or soup (gaeng/tom)**, a **stir-fry (pad)**, a
+  **salad (yam/som tam)**, a **fried or grilled item (kai jiao, fried
+  fish)**, and a **nam prik** (chilli dip) with vegetables [MEDIUM — not
+  independently re-checked; standard description of a Thai meal].
+- **Rice**: jasmine rice (khao hom mali) in Central, the South and in
+  cities everywhere; **sticky rice (khao niao) in Isan and the North**,
+  served in a **kratip** (lidded woven bamboo basket: a personal one is
+  ~7.5 cm/3 in, a family one ~14 cm wide × 15 cm tall) and eaten with the
+  fingers [MEDIUM — kratip vendor listings (tier 3) for sizes; practice
+  not independently re-checked; uncontested].
+- **Condiment caddy (krueang prung)**: four small jars on every noodle
+  and street-food table — dried chilli flakes, white sugar, fish sauce
+  with sliced chilli (prik nam pla), chilli in vinegar — plus ground
+  peanuts at noodle shops [MEDIUM — not independently re-checked;
+  uncontested]. **Prik nam pla** in a small saucer comes with nearly
+  every rice plate.
+- **Cutlery**: spoon and fork, laid on the plate or in a steel cup of
+  cutlery on the table; chopsticks and a porcelain soup spoon for
+  noodles; no knife. Food is cut into bite-size pieces in the kitchen.
+  [HIGH for spoon-fork; MEDIUM for noodle chopsticks]
+- **Fresh vegetables on the side**: raw cabbage wedge, long beans,
+  cucumber slices, Thai basil, with som tam, larb, nam prik and khao man
+  gai. [MEDIUM — not re-checked]
+- **Floor seating**: eating on a mat on the floor is real in older and
+  rural homes and at khan tok; urban homes use a table. [MEDIUM — not
+  re-checked]
+
+### SCALE REFERENCE — THAILAND
+
+**Product anchors.**
+
+| Format | Size | Confidence |
+|---|---|---|
+| **325 mL can** (standard) | **Dimensions not confirmed**; working anchor ~11.5 cm tall × 6.6 cm wide [LOW] | HIGH (format); LOW (dimensions) |
+| 250 mL returnable glass (contour) | Current; height not confirmed (a small contour bottle, roughly the can's height plus its neck — LOW) | HIGH (format) |
+| 300 / 450 / 510 mL PET | Current personal PET | HIGH (300, 510); MEDIUM (450) |
+| 1 / 1.25 / 1.5 L PET | Current multi-serve | HIGH (1 L); MEDIUM (1.25 L); LOW-MEDIUM (1.5 L) |
+
+Sources: [Makro PRO — Coke Original 325 ml × 6](https://www.makro.pro/th/p/177800-7497563209923);
+[Tops — Coke can 325 ml pack 6](https://www.tops.co.th/th/coke-325ml-pack-6-8851959632017);
+[Makroclick — Coke 325 ml × 6](https://www.makroclick.com/th/products/177750-coke-soft-drink-original-325-ml-x-6-cans);
+[Big C — Coke 250 ml × 24](https://www.bigc.co.th/product/coke-original-soft-drink-250-ml-24-bottles8851959222010.596);
+[Supplybunny — Coca-Cola 250 ml crate of 12](https://www.supplybunny.com/en/products/thailand-coca-cola-250ml-bottle-12-bottles-per-crate);
+[Coca-Cola Thailand / ThaiNamthip — 100% rPET bottles](https://www.thaipr.net/en/business_en/3478401);
+[thaibynature — Coke 450 ml](https://www.thaibynature.com/export/coke-fanta-sprite-450ml);
+[Haad Thip — 2024 results and glass line](https://www.haadthip.com/en/newsroom/company-news/137440/haadthip-reports-2024-results-sales-grow-by-4-surpassing-8-billion-baht-southern-economy-expected-to-drive-continued-growth-in-2025);
+[ThaiNamthip — Coke Original Taste](https://www.thainamthip.co.th/en/product/coke-original-taste) (via search).
+
+**Scale honesty.** The can's height is provisional, so every
+prompt-ready line below gives **two anchors**: the can and a plate or
+bowl. The 325 mL can is close enough to the 330 mL can (115.2 × 66.1 mm)
+that "relative to the can" phrases will hold within a few millimetres.
+[EDITORIAL]
+
+**Food and table scale anchors.**
+
+| Item | Real size | Relative to the can (~11.5 cm working) | Confidence |
+|---|---|---|---|
+| Rice plate (melamine or china, one-plate dish) | ~23–25 cm round, shallow, slightly raised rim | about twice the can's height across | LOW — not re-checked |
+| Noodle bowl (standard) | ~15–18 cm across, ~7–8 cm deep | 1.5 can-heights across | LOW — not re-checked |
+| **Boat-noodle bowl (small)** | **~10–12 cm across** — the bite-size bowls served in stacks at Victory Monument (~฿15 each) | about the can's height across, shallower than the can's width | MEDIUM (bowl concept and price — eatingthaifood, hungryinthailand, Mommy Sammy; diameter LOW) |
+| **Kratip (personal)** | **~7.5 cm (3 in) wide and tall**, holds ~½ cup sticky rice | as wide as the can, two-thirds its height | MEDIUM (vendor listings) |
+| Kratip (family) | ~14 cm wide × 15 cm tall closed | a little taller than the can, twice as wide | MEDIUM (vendor listing) |
+| Moo ping skewer | ~20–25 cm bamboo stick, meat ~10–12 cm along it, slices ~3 cm wide | the meat is as long as the can is tall | LOW — not re-checked |
+| Thai fried egg (khai dao) | ~10–12 cm across with its frilled skirt | about the can's height across | LOW — not re-checked |
+| Clay som tam mortar (krok) | ~20–25 cm across the rim | twice the can's height | LOW — not re-checked |
+| Mango sticky rice serving | half a mango, cheek ~10–12 cm long, sliced; a mound of rice ~8 cm | the mango cheek as long as the can is tall | LOW — not re-checked |
+| Gai yang half chicken | ~20–25 cm, spatchcocked | twice the can's height | LOW — not re-checked |
+| Khan tok tray table | ~60–80 cm across, ~20–30 cm high | — | LOW — not re-checked |
+
+**Vessels.**
+
+| Vessel | Look | Confidence |
+|---|---|---|
+| **Melamine plates and bowls** | The street and food-court default: white, pale green, or white with a printed pattern rim (patterns kept vague) | MEDIUM — not re-checked; uncontested |
+| **White china plate** | Shophouse and home default for one-plate dishes | MEDIUM — not re-checked |
+| **Kratip** | Lidded woven-bamboo cylinder, pale straw, a string loop; sometimes on a woven foot | HIGH (form) |
+| **Krok and saak** | Tall unglazed clay mortar (or wooden) with a wooden pestle, for som tam | MEDIUM — not re-checked |
+| **Huad (rice-steaming basket)** | Conical woven bamboo basket set over a pot to steam sticky rice — kitchen, not table | MEDIUM — not re-checked |
+| **Steel condiment caddy** | Four small glass jars with steel lids and tiny spoons in a wire rack | MEDIUM — not re-checked |
+| **Banana leaf / pandan** | Wrapping for khanom, grilled items; folded into cups (krathong) for desserts | MEDIUM — not re-checked |
+| **Stainless tiffin (pinto)** | Stacked round steel tins with a carrying handle — home-packed lunches, monks' alms | MEDIUM — not re-checked |
+| **Clay pot (mor din)** | For tom yum or jim jum (Isan hot pot) at the table, over a charcoal burner | LOW-MEDIUM — not re-checked |
+| **Mookata pan** | A domed grill plate with a moat for broth, over a charcoal bucket — the Thai-Korean barbecue that is a big group-dinner register | LOW-MEDIUM — not re-checked |
+
+### TEXTURE LEXICON (use in prompts)
+
+| Surface | Use | Avoid |
+|---|---|---|
+| Jasmine rice | "fluffy, glossy white long-grain rice, slightly clinging, steaming, pressed into a neat dome" | "sticky rice," "sushi rice," "fried rice" |
+| Sticky rice | "opaque white, matte-to-pearly glutinous rice in a clumped mass, grains soft and fused, slightly translucent at the edges" | "rice pudding," "sushi," "mochi" |
+| Thai fried egg (khai dao) | "egg deep-fried in a wok of hot oil: a puffed, lacy, crisp brown frilled edge, white bubbled and blistered, runny glossy yolk" | "sunny-side-up diner egg," "smooth white edge" |
+| Green curry | "thin, glossy, pale olive-green coconut curry with a speckled film of green-tinted oil on the surface, small round green eggplants, Thai basil" | "thick green soup," "pesto," "spinach purée" |
+| Red/panang curry | "rich, thick orange-red coconut sauce, beads of red oil at the edge, thin slices of meat, shredded kaffir lime leaf" | "tomato soup," "Indian curry with cream swirl" |
+| Tom yum | "clear or creamy orange-red hot-sour broth with an oil sheen, chunks of lemongrass, galangal slices, torn lime leaves, mushrooms, whole prawns" | "tomato soup," "miso soup" |
+| Som tam | "shreds of crisp pale-green unripe papaya, glossy with a thin dressing, halved cherry tomatoes, long beans, crushed peanuts, flecks of red chilli" | "coleslaw," "cucumber salad," "carrot salad" |
+| Moo krob | "pork belly with a blistered, puffed, glassy-crisp golden skin over white fat layers and pink-tan meat" | "bacon," "roast pork with soft skin" |
+| Poached chicken (khao man gai) | "pale, smooth, glossy poached chicken skin, tender white meat sliced in neat strips" | "roast chicken," "browned skin" |
+| Wok char (pad see ew, kra pao) | "dark caramelised edges, a smoky wok sheen, slightly charred spots" | "dry," "pale," "saucy stew" |
+
+The most common model failures for Thai food: **everything rendered as
+green curry or pad thai**; **chopsticks at a rice meal**; **Western knife
+and fork**; **a lime wedge, carved carrot flower or orchid on every
+plate** (resort-restaurant garnish); **a red-and-gold "Thai restaurant"
+interior with elephants and Buddha statues**; **pad thai in a takeout
+box**; **sticky rice served on a plate like jasmine rice**. Negate them
+explicitly. [EDITORIAL]
+
+### VISUAL & PLATING NORMS
+
+- **Palette**: the white of jasmine rice and melamine; chilli red and
+  fresh green (basil, coriander, spring onion, lime leaf, long beans);
+  coconut-curry olive-green and orange-red; caramel-brown of wok-fried
+  noodles and grilled meat; the pale straw of bamboo baskets and the
+  bright green of banana leaf. [EDITORIAL]
+- **Home and street food is plain**: food spooned onto the plate, a few
+  coriander or basil leaves, a fried egg on top, a cucumber slice or two
+  and a small saucer of prik nam pla at the side. **No carved-vegetable
+  garnish** outside of a hotel or royal-cuisine restaurant. [EDITORIAL]
+- **Bite-size pieces**: everything arrives already cut to eat with a
+  spoon — no whole steaks, no large chicken breasts. [MEDIUM — follows
+  from the no-knife norm; not independently re-checked]
+- **Freshness cues**: steam off rice and broth; oil shimmer and a
+  crackled edge on the fried egg; char on grilled skewers; condensation
+  on the bottle or can and on the glass of ice. [EDITORIAL]
+- **Grade neutrally.** Avoid the golden-hour "temple and longtail boat"
+  postcard grade and teal-orange beach grade. Use the zone's real
+  light: hard white tropical midday, the grey-violet of a monsoon
+  afternoon (May–October), the soft hazy blue of a northern cool season,
+  warm fluorescent-and-bulb mix at night markets. [EDITORIAL]
+
+### ENVIRONMENT & STAGING SCENES
+
+#### General environmental norms
+
+- **Thailand lives mostly in houses, but Bangkok is moving into
+  condos.** The 2010 census stock: **detached houses ~73% of housing
+  units, townhouses/shophouses ~18%, condominiums and apartments ~9%**
+  [MEDIUM — JICA housing-sector survey citing the 2010 census, via
+  search; no 2020 census breakdown was found]. New supply has swung hard
+  the other way: **in 2020 condominiums were ~86% of new Bangkok-area
+  market supply** against 8% detached and 6% townhouses [LOW-MEDIUM —
+  single market figure via search, the market not the stock]. **So**: a
+  **condo** (a 25–35 m² unit with a small balcony, a two-seat table or a
+  low table on the floor) is the natural young-adult and single-person
+  Bangkok default; a **townhouse or shophouse** (narrow, 3–4 storeys, a
+  roll-up grille at street level) is the Bangkok family default; a
+  **detached house** with a yard is the default everywhere outside
+  central Bangkok. [EDITORIAL inference from the figures]
+  [SOURCE: [JICA — Data collection survey on housing sector in Thailand](https://openjicareport.jica.go.jp/pdf/1000013801.pdf) (via search)]
+- **§5.2 contrast**: like Mexico and India, a house-majority country —
+  unlike Türkiye or Spain — with a sharp capital-city condo exception.
+- **Interior markers (pick one or two per scene)**: glazed ceramic floor
+  tiles (white, beige or terracotta) or polished wood in older homes; a
+  ceiling fan and a wall split-AC unit; louvered or sliding aluminium
+  windows with mosquito screens; a lidded electric rice cooker on the
+  counter or floor; a low wooden or Formica table, or a mat on the
+  floor; plastic stools; a fridge in the main room; shoes left outside
+  the door (homes are shoes-off). A shelf with a Buddha image or a royal
+  portrait is common — **keep it out of frame** (hard rule 5). [MEDIUM —
+  uncontested general knowledge, not individually re-checked]
+- **Exterior markers**: Bangkok — condo towers, the elevated BTS
+  viaduct, tangled overhead cables, shophouse rows, sois lined with food
+  carts and motorbikes; North — teak houses and wooden-front townhouses,
+  mountains in haze; Isan — **houses on stilts with a shaded open space
+  underneath** used for eating and resting, rice paddies, a hammock;
+  South — Sino-Portuguese shophouses with arcades (Phuket Old Town),
+  rubber and oil-palm plantations, beaches; Deep South — wooden Malay
+  houses with steep roofs and carved eaves, mosques. **Spirit houses**
+  stand outside most homes and shops — keep out of frame. [MEDIUM — not
+  individually re-checked]
+- **Outdoor eating is everyday**: the space under an Isan stilted house,
+  a front-yard table, the pavement in front of a shophouse, a balcony.
+  [MEDIUM — not re-checked]
+- **Gen Z lens (§5.3)**: young adults in Bangkok rent small condos or
+  dorm-style apartments, eat out or order via delivery apps (Grab Food,
+  LINE MAN — never legible), and run on 7-Eleven meals (ready meals,
+  toasties) [LOW-MEDIUM — not independently re-checked]. Stage a
+  young adult at a low table in a compact condo with floor cushions, a
+  laptop, string lights and delivery food on plates; or a café with
+  concrete-and-plants décor — neither a chaotic dorm nor a showroom.
+- **Caricature avoidance [EDITORIAL]**:
+  - **Postcard Thailand**: longtail boats, elephants, golden temples,
+    a floating market and an orchid on every plate as the default.
+  - **Resort Thailand**: every scene a beach bar or an infinity pool.
+  - **Party Thailand**: buckets, full-moon parties, Khao San Road neon —
+    alcohol-coded and off brief.
+  - **Poverty/exotic Thailand**: insects and durian as the "authentic"
+    default; dirt-floor scenes.
+  - **Monolith Thailand**: green curry and pad thai regardless of zone;
+    Bangkok street food in a Chiang Mai or Pattani scene.
+  - The ordinary baseline is a busy, clean soi stall, a shophouse
+    restaurant, a mall food court, and a tidy townhouse or condo table.
+
+#### Scenario: Casual lunch at home — 1 person
+
+Midday daylight, a ceiling fan, a small table or the kitchen counter:
+**one-plate lunch** — kra pao with a fried egg on rice, a plate of khao
+pad (fried rice) with cucumber and lime, or leftover curry spooned over
+rice from the rice cooker; a spoon and fork; a saucer of prik nam pla.
+**Isan/North**: a personal kratip of sticky rice with som tam or a nam
+prik and vegetables. **Deep South**: khao mok gai or rice with a Malay
+chicken curry. Hero (from the brief; formats that fit): a 325 mL can or a
+250 mL glass bottle with a glass of ice beside the plate. Gen Z: a
+delivered dish decanted onto a plate on a low condo table. [EDITORIAL]
+
+#### Scenario: Casual lunch at home — 2 people
+
+Two plates of rice, two shared dishes between them (a stir-fry such as
+pad pak boong or pad kra pao, and a kai jiao — Thai omelette — or a
+soup); or two bowls of noodle soup. Spoon-and-fork at each place.
+Hero (from the brief; formats that fit): two cans or two glass bottles
+with glasses of ice, or a 1 L PET. No water jug. [EDITORIAL]
+
+#### Scenario: Casual lunch at home — 3 people
+
+A **weekend family lunch** on a table or a floor mat: a curry (green or
+massaman), a stir-fry, a fried fish or omelette, a nam prik with raw
+and boiled vegetables, a bowl of rice per person from the rice cooker;
+in Isan, som tam, larb, gai yang and a family kratip of sticky rice in
+the centre. Hero (from the brief; formats that fit): a 1.25 or 1.5 L PET
+in the midground with a glass of ice at each place. [EDITORIAL]
+
+#### Scenario: Dinner at home, indoors
+
+**The main family meal** (~18:30–19:30): 3–5 people around a table or a
+mat, four or five shared dishes (a soup such as tom yum or tom jued, a
+curry, a stir-fry, a yam salad, a fried item), rice plates, a warm
+pendant or fluorescent ceiling light, the TV glow and a fan in the soft
+background. Hero (from the brief; formats that fit): a 1.5 L PET in the
+midground with glasses of ice. [MEDIUM for the timing; EDITORIAL
+composition]
+
+#### Scenario: Meal outdoors at home
+
+- **Under the stilted house (Isan) or in the front yard**: a low table
+  or a mat, gai yang and grilled fish from a small charcoal grill, som
+  tam pounded in a krok, sticky rice baskets, raw vegetables. [MEDIUM —
+  not re-checked]
+- **Mookata at home**: a domed grill-and-broth pan over a charcoal
+  bucket on a low table, plates of thin-sliced pork, squid, vegetables
+  and glass noodles — a popular group meal, also at restaurants
+  [LOW-MEDIUM — not re-checked]. **Halal briefs swap to chicken, beef
+  and seafood.** Never with beer on the table.
+- **Songkran or family gathering in the yard** — see FESTIVALS.
+- **§5.2 contrast**: like Mexico's carne asada and unlike India, Thailand
+  has a real everyday grill culture (gai yang, moo ping, mookata) — but
+  it is street-and-stall first, not a backyard ritual like the braai.
+
+#### Scenario: Meal on the go — 1 person
+
+**Moo ping** skewers and a small bag of sticky rice on a stall ledge;
+**a plate of kra pao** at a pavement stall with steel table and plastic
+stool; a **7-Eleven toastie** or ready meal on a bench (packaging
+unreadable); **khao man gai** on a melamine plate at a shophouse
+counter; **roti** on paper at a cart. Hero (from the brief; formats that
+fit): a 325 mL can, a 450 mL PET, or a 250 mL glass bottle on the
+counter. **§5.2 contrast**: like Mexico, India and Türkiye, street food
+is the everyday on-the-go meal, not a novelty. [MEDIUM — uncontested;
+EDITORIAL composition]
+
+#### Scenario: Away from home — 1 person at a restaurant/café
+
+A **shophouse restaurant** at 12:15: a single plate (pad see ew, khao
+kha moo, kra pao) on a steel table, condiment caddy beside it; a
+**noodle shop**: a bowl of kuay teow with a porcelain spoon and
+chopsticks; a **mall food court**: melamine plate, bright and tidy; a
+**Chiang Mai** khao soi shop. Hero: a glass bottle with a glass of ice,
+or a can. [EDITORIAL]
+
+#### Scenario: Away from home — 2–3 people
+
+Friends or family at a **casual restaurant or night market**: shared
+dishes in the middle — tom yum goong, a curry, a whole fried or steamed
+fish, som tam, gai yang, rice plates; or a **boat-noodle shop** with a
+growing stack of small empty bowls; or a **mookata** restaurant. Hero:
+two or three glass bottles or cans with glasses of ice, or a 1.25 L PET.
+No beer, no ice bucket. [EDITORIAL]
+
+---
+
+## CROSS-CUTTING REGISTER: STREET FOOD
+
+- **Aahaan taam sang (made-to-order) stalls** — a wok and a glass case
+  of raw ingredients; kra pao, pad see ew, khao pad, rad na, made in
+  minutes. [MEDIUM — not re-checked; uncontested]
+- **Khao man gai and khao kha moo stalls** — a glass case with whole
+  poached chickens or braised pork legs hanging or stacked; a chopper
+  and board. [MEDIUM — not re-checked]
+- **Grill carts** — moo ping, gai yang, luk chin (meatballs), sai krok
+  Isan (fermented sausage) over charcoal [HIGH for moo ping street
+  breakfast — Wikipedia "Mu ping", Marion's Kitchen, hungryinthailand].
+- **Som tam stalls** — the clay krok, a basket of shredded papaya,
+  long beans, tomatoes, limes and chillies [MEDIUM].
+- **Noodle carts and shops** — kuay teow nam sai / nam tok / tom yum,
+  with the four-jar caddy; boat-noodle shops with small bowls [HIGH for
+  boat noodles — eatingthaifood, hungryinthailand, Mommy Sammy].
+- **Dessert and fruit carts** — mango sticky rice (April–June peak),
+  cut fruit in plastic bags with chilli-salt, roti with banana and
+  condensed milk, khanom krok [MEDIUM — not re-checked].
+- **Halal street food** — roti, satay, khao mok gai, mataba; in Bangkok
+  around mosques and in the South everywhere [MEDIUM — not re-checked].
+- **Staging**: food on a melamine plate, banana leaf, paper tray or a
+  plastic bag laid flat on a counter; never in a hand; frame tight to
+  avoid signage, crowds and motorbikes. Street food is shown clean and
+  bright. [EDITORIAL]
+
+## CROSS-CUTTING REGISTER: FESTIVALS & SEASONAL OCCASIONS
+
+Thai Buddhist festivals follow the lunar calendar (Loy Krathong, Makha
+Bucha, Visakha Bucha); Songkran is fixed by the solar calendar; the
+Vegetarian Festival follows the Chinese lunar calendar; Muslim festivals
+follow the Hijri calendar. As of drafting (2026-10-01), the Vegetarian
+Festival 2026 is days away.
+
+| Occasion | 2026 | 2027 | Where | Confidence |
+|---|---|---|---|---|
+| **Chinese New Year (Trut Jin)** | 17 Feb 2026 (not searched) | ~6 Feb 2027 (not searched) | Bangkok Yaowarat, Phuket, Chinese-Thai families nationwide | LOW — not searched |
+| **Ramadan** | began ~19 Feb 2026 | **~8 Feb – ~9 Mar 2027** (moon) | Deep South (zone 5), Muslim communities everywhere | MEDIUM — carried from `india.md`'s IslamicFinder search; moon-dependent; Thai sighting not checked |
+| **Eid al-Fitr (Hari Raya Puasa)** | ~20–21 Mar 2026 | **~10 Mar 2027** (moon) | Zone 5, Muslim communities | MEDIUM — as above |
+| **Songkran** (Thai New Year) | 13–15 Apr | **Tue 13 – Thu 15 Apr 2027** (offices close ~11–17 Apr) | Nationwide; biggest in Chiang Mai and Bangkok | HIGH — fixed date; visitthailandtoday, thailandforall, timeanddate listing |
+| **Mango season** | Apr–Jun | Apr–Jun | Nationwide — mango sticky rice peak | MEDIUM — not re-checked |
+| **Vegetarian Festival (Kin Je)** | **10–18 Oct 2026** (pole raised 9 Oct) | **~29 Sep – 7 Oct 2027** (projected; shrines confirm weeks ahead) | Phuket above all; Bangkok Yaowarat, Trang, Hat Yai | HIGH for 2026 (phuket101, evephuket, thaiholidayguide; one source says 9–19 Oct); LOW-MEDIUM for 2027 (one agent guide, projected) |
+| **Loy Krathong** | **Tue 24 Nov 2026** (full moon, 12th lunar month) | **~Sun 14 Nov 2027** (one source) | Nationwide; Sukhothai; Chiang Mai with Yi Peng sky lanterns | HIGH for 2026 (phuket101, everythingbkk, bangkok-spirit); MEDIUM for 2027 |
+| **New Year (31 Dec)** | — | — | Family dinner, countdown; mookata and seafood | EDITORIAL |
+
+- **Songkran** — water splashing in the streets (water guns, buckets,
+  white powder paste), **rot nam dam hua** (pouring scented water over
+  elders' hands), merit-making at temples, and **families returning to
+  their home provinces** — the year's largest internal migration
+  [HIGH — TAT Newsroom, visitthailandtoday, watcharees]. Food: **khao
+  chae** (rice in chilled jasmine-scented water with side dishes) is the
+  Songkran signature in Central/royal cuisine; family meals of som tam,
+  larb, nam tok, grilled meats and Thai sweets [MEDIUM — Patra
+  Porcelain, watcharees, Chef Ko (tier 3–4)]. **Staging**: the family
+  table in the shade of a yard or under a stilted house, people in
+  floral shirts, damp clothes, a water gun and silver bowl softly in the
+  background; **never water splashing onto the product**, never the
+  elders' blessing ritual itself, never alcohol (Songkran road-accident
+  campaigns make drinking a sensitive theme). [EDITORIAL]
+- **Loy Krathong** — krathongs (floats of banana trunk and banana-leaf
+  folds with flowers, a candle and incense) set on rivers and ponds under
+  the full moon; Yi Peng lanterns in Chiang Mai [HIGH for the ritual —
+  multiple guides]. **Staging**: a riverside or night-market food scene
+  with krathongs and lantern light as bokeh; **never the product on or
+  beside a krathong** (it is an offering) [EDITORIAL]. Food: night-market
+  snacks, grilled skewers, khanom.
+- **Vegetarian Festival (Kin Je)** — nine days of jay food (vegan, no
+  alliums) in white clothes; yellow flags on jay stalls; mock meats, tofu,
+  stir-fried vegetables, jay noodles; Phuket's shrine processions include
+  face-piercing rituals [MEDIUM — Phuket festival guides]. **Staging**: a
+  jay food stall or a family's jay meal, white clothing; **never the
+  processions, piercings or shrine altars**; hard rule 7 on ingredients.
+- **Ramadan and Eid (Hari Raya)** — zone 5: iftar after sunset with
+  dates, **bubur** (rice porridge), **kanom** and Malay curries; Eid
+  visits with ketupat, rendang-style beef, khao mok. **Staging**: the
+  table just before iftar, untouched; the hero never framed as the drink
+  that breaks the fast; family in festive Malay dress softly in the
+  background. [MEDIUM — not independently re-checked]
+- **Chinese New Year** — Chinese-Thai families (a large share of
+  Bangkok): offering tables of whole boiled chicken, roast pork and
+  fruit (**never stage the offering table**), then a family meal.
+  [LOW-MEDIUM — not re-checked]
+- **Buddhist holy days** (Makha Bucha, Visakha Bucha, Asahna Bucha and
+  Khao Phansa): temple visits, merit-making; alcohol sales banned
+  [MEDIUM — not re-checked]. Stage no product at a temple.
+- **Football and Muay Thai on TV** — watching with friends and snacks is
+  a genuine occasion; no team kit, logos or betting slips legible.
+  [LOW — not re-checked]
+
+Full staging for each celebration: see CELEBRATIONS & LARGE GATHERINGS below.
+
+## CELEBRATIONS & LARGE GATHERINGS
+
+Schema §5.7 applies: the frame shows only the operator's party (1, 2
+or a small group of place settings) at one stretch of a bigger table;
+the gathering is implied, never counted out. Hard rules 1–9 above all
+still apply, especially hard rule 5 (no product near monks, Buddha
+images, altars, spirit houses or royal portraits) and hard rule 3
+(halal in zone 5 and any Muslim household).
+
+### How large gatherings work here
+
+- **Who gathers**: the extended family first, then neighbours, the
+  village or the soi, colleagues and friends. Many big events have a
+  merit-making (tham bun) part with monks in the morning and a meal for
+  guests after; the meal is the stageable part. [HIGH for the
+  monks-then-guests order — Thailand Foundation "Thai Housewarming
+  Ceremony", thaiworldview "New House", templeofthai]
+- **Typical size**: a Songkran or Chinese New Year family meal is
+  roughly 8–20 people at the family home [LOW — not verified this pass;
+  EDITORIAL estimate]; a village wedding or ordination runs to **over a
+  hundred guests** [MEDIUM — Charinya's Kitchen / Lion Brand Isan
+  wedding accounts, tier 4]; a catered urban wedding or ordination is
+  counted in **round tables of 8–10** [MEDIUM — Bangkok Post "Modern-Day
+  Ordination"].
+- **Where (intake venue)**: **home outdoor** is the default for village
+  and family events (the yard, the shaded space under an Isan stilted
+  house, a rented party tent with steel-frame roof over the yard or the
+  soi); **home indoor** for small family meals in Bangkok townhouses and
+  condos; **restaurant** for urban birthdays, Chinese New Year dinners and
+  hotel or restaurant wedding banquets; **other**: a temple hall or
+  village community hall for ordination and some weddings (stage the
+  dining tables only, never the temple interior).
+- **Table forms (two that matter)**:
+  1. **The "Chinese table" (to jeen)**: round tables for about 10 under a
+     tent or in a hall, white or coloured cloth, often a lazy Susan, and
+     courses brought by caterers one after another. It is the standard
+     catered form for urban weddings, ordinations and big birthdays
+     [MEDIUM — Bangkok Post; Pago Hotel Phuket and caterer menus (tier
+     3); round-tables-of-10 norm from general Chinese-banquet sources,
+     not Thai-specific].
+  2. **The home or village spread**: long folding tables or mats with
+     the Thai shared-dish structure scaled up — big bowls and platters,
+     everything at once, sticky rice in kratips in Isan and the North,
+     jasmine rice from big rice pots elsewhere (see catalog: Thai shared
+     home dinner). Relatives and neighbours cook on site in big woks and
+     pots [MEDIUM — Isan wedding accounts above].
+- **Who serves**: relatives and neighbours (village), caterer staff in
+  uniform (Chinese table), the host family (home meals).
+- **Plate and cutlery norms that differ**: party plates are often
+  matching white caterer china or melamine; at a Chinese table each place
+  has a small plate, a small bowl with a porcelain spoon, and spoon and
+  fork (chopsticks may appear at Thai-Chinese banquets); still no knife.
+  Village feasts use melamine plates, small bowls and sticky-rice baskets.
+  [EDITORIAL; LOW — not verified this pass]
+- **Snapshot staging default for Thailand [EDITORIAL]**: the three most
+  authentic crowd cues here are (1) **the edge of a round table for 10**
+  with more courses on it than the visible diners could eat, the table
+  curving out of frame; (2) **the steel poles and fabric of a party tent**
+  (often white or with coloured drapes) with plastic or banquet chairs
+  soft behind; (3) **a second round table or a row of big pots and woks**
+  at a cooking station blurred in the background. For home and village
+  meals, swap (1) for a long table or mat running out of frame with
+  several kratips and bowls along it.
+
+#### Celebration: Songkran family homecoming meal (Songkran)
+- Type: calendar holiday
+- When: 13–15 April (see register for dates). The big family meal is
+  midday or early afternoon; intake time of day: midday (golden-hour
+  for a late lunch in the yard).
+- Gathering: families return to their home provinces (the year's largest
+  internal migration), so three generations at the family house; roughly
+  10–20 people [HIGH for the homecoming — TAT Newsroom (cited in
+  register); headcount LOW — not verified this pass]. Venue: home
+  outdoor (yard, under the stilted house) or home indoor.
+- The spread: in Isan and the North, som tam, larb and nam tok, gai
+  yang, grilled fish and family kratips of sticky rice (see catalog: Som
+  tam; Larb and nam tok; Gai yang with sticky rice and jaew); in Central
+  homes a curry, a stir-fry, a soup and rice plates (see catalog: Thai
+  shared home dinner; Green curry), with **khao chae** as the Central
+  Songkran signature (see catalog: Khao chae) and mango sticky rice
+  for dessert at mango-season peak (see catalog: Mango sticky rice).
+  A real table carries about 6–10 shared dishes. [MEDIUM — register
+  sources; dish count EDITORIAL]
+- Snapshot staging: **1 setting** — one end of a long table or mat in
+  shade: a plate of jasmine rice or a personal kratip, a spoonful of
+  larb at the plate's edge, a bowl of som tam and a plate of gai yang
+  partly cropped beside it, a family kratip and a second som tam plate
+  cut by the frame edge. **2 settings** — two rice plates or kratips
+  facing across the table, between them som tam, larb, gai yang and a
+  nam prik with vegetables, two more bowls cropped at the far edge.
+  **Small group (3–4)** — the shared dishes cluster in the middle with
+  the table running out of frame on one side; extra kratips and stacked
+  plates at the edge. Crowd cues: table running out of frame; a silver
+  bowl and a water gun softly on a chair; floral shirts and damp
+  clothes on blurred relatives behind (no sharp faces).
+- Decor and cues: floral shirts, a silver bowl of jasmine water, shade
+  from a mango tree, damp concrete. Clichés to avoid: tourists in water
+  fights on Khao San Road, foam parties, elephants.
+- Never stage: water splashing on the product; the rot nam dam hua
+  blessing of elders; a temple or Buddha image; beer, whisky "sets" or
+  ice buckets (Songkran drink-driving campaigns make alcohol a sensitive
+  theme).
+- Confidence and sources: HIGH for the homecoming (TAT Newsroom,
+  visitthailandtoday); MEDIUM for food (Patra Porcelain, watcharees, Chef
+  Ko, tier 3–4); EDITORIAL composition.
+
+#### Celebration: Chinese New Year family meal (Trut Jin)
+- Type: calendar holiday
+- When: Lunar New Year (see register). Families make offerings to
+  ancestors and gods first (wai), then eat the offered dishes together;
+  intake time of day: midday (the offering day is usually daytime) or
+  evening for a reunion dinner.
+- Gathering: Chinese-Thai relatives reunite at the main family home;
+  about 8–15 people [MEDIUM for the reunion — Thailand Foundation; size
+  LOW — not verified]. Venue: home indoor (Bangkok shophouse or
+  townhouse) or restaurant (a Chinese restaurant's round table).
+- The spread: the offered dishes come back to the table — a **whole
+  poached chicken** chopped and laid back in shape, **roast or braised
+  pork** (see catalog: Khao moo daeng / moo krob for the crispy-pork
+  look), a **whole steamed fish**, glass noodles or long noodles,
+  stir-fried greens, and fruit (oranges, pomelo); rice in bowls.
+  [MEDIUM — Thailand Foundation, Michelin Guide "Lunar New Year food
+  traditions around Asia"] Whole chicken in shape, whole fish and the
+  Thai-Chinese banquet table have no catalog entry yet (see CANDIDATE
+  QUEUE). Look: the poached chicken is pale golden-yellow, glossy, on a
+  white oval platter about three times the can's width; the steamed fish
+  lies whole on an oval plate in a thin soy-and-ginger sauce with
+  spring onion and coriander. About 6–8 serving dishes.
+- Snapshot staging: **1 setting** — a small plate, a rice bowl with a
+  porcelain spoon and chopsticks or spoon and fork, a few pieces of
+  chicken on the rice; the chicken platter and the fish plate partly in
+  frame, a bowl of oranges cropped at the edge. **2 settings** — two
+  bowls at the curve of a round table, chicken, fish, pork and greens on
+  a lazy Susan between them, two more dishes cut off by the frame.
+  **Small group** — four places at one arc of a round table for 10, the
+  table curving out of frame. Crowd cues: the curve of a large round
+  table; red paper lanterns and a bowl of mandarin oranges soft behind;
+  stacked bowls and spare chairs at the edge.
+- Decor and cues: red clothing, red lanterns (no characters legible),
+  mandarin oranges, a red-and-gold tablecloth. Avoid: dragon dance in
+  focus, firecrackers, red envelopes with legible text.
+- Never stage: the ancestor or gods offering table, incense, joss paper;
+  any Chinese characters legible; alcohol.
+- Confidence and sources: MEDIUM — Thailand Foundation "Thai recipes for
+  your New Year feast", Michelin Guide; meal timing EDITORIAL.
+
+#### Celebration: Hari Raya feast, Deep South and Muslim households (Hari Raya Puasa / Eid al-Fitr)
+- Type: calendar holiday
+- When: Eid al-Fitr (see register). Morning prayer and visits; the
+  feast and open-house visiting run from late morning through the day.
+  Stage the midday visiting meal, not the morning sweets; intake time
+  of day: midday.
+- Gathering: family and neighbours visiting house to house, 10–30
+  people over the day [LOW — not verified this pass]. Venue: home indoor
+  (living-room floor or table) or home outdoor (verandah of a wooden
+  Malay house).
+- The spread: rice or **ketupat**-style pressed rice, Malay chicken or
+  beef curries, **khao mok gai** (see catalog: Khao mok gai), roti with
+  curry (see catalog: Roti), satay and gai golek (see catalog: Satay and
+  gai golek), plus sweets and cakes. About 5–8 serving dishes. **Halal
+  only; no pork; no alcohol.** [MEDIUM — register entry, not
+  independently re-checked]
+- Snapshot staging: **1 setting** — a plate of rice with a ladle of
+  chicken curry, the curry bowl and a plate of satay partly cropped; a
+  tray of cakes at the frame edge. **2 settings** — two plates on a floor
+  mat or low table with curry, khao mok and satay between them.
+  **Small group** — the spread continuing out of frame on a long mat.
+  Crowd cues: festive Malay dress (baju kurung, songkok) on blurred
+  figures; extra plates stacked; a second tray of cakes behind.
+- Decor and cues: songket or bright satin clothing, a wooden house
+  interior. Avoid: Middle-Eastern lanterns and crescent props.
+- Never stage: prayer, a mosque interior, a Qur'an or prayer mat near
+  the product; pork; alcohol; Jawi script legible. Zone 5 sign-off
+  question in the GAP LOG still applies.
+- Confidence and sources: MEDIUM (register); EDITORIAL composition.
+
+#### Celebration: Wedding feast (ngan taeng)
+- Type: life event
+- When: year-round, auspicious dates; the morning has monks and the
+  water-pouring blessing, the guests' meal follows at midday, and the
+  evening reception is the urban banquet. Intake time of day: midday
+  (village) or evening (banquet).
+- Gathering: **village/Isan form**: over a hundred guests, relatives and
+  neighbours cooking on site the day before and from dawn, a tent over
+  the yard, food also packed in bags for guests who leave early [MEDIUM —
+  Charinya's Kitchen, Lion Brand (tier 4)]. **Urban form**: a catered
+  Chinese-table banquet at a hotel, restaurant or rented hall, round
+  tables for about 10, headcount in the hundreds [MEDIUM — caterer menus
+  (Pago Hotel Phuket, Sawsamsai catering); headcount LOW]. Venue: home
+  outdoor (tent) or restaurant/other (hall).
+- The spread: **village**: larb moo, beef salad, som tam, a big pot of
+  tom yum, pork-bone soup, grilled pork neck with jaew, steamed herbal
+  fish, sticky rice (see catalog: Larb and nam tok; Som tam; Tom yum
+  goong; Gai yang with sticky rice and jaew) [MEDIUM — same Isan
+  sources]. **Banquet**: a sequence of courses on the lazy Susan — a
+  fruit or seafood salad, roast duck or chicken, a whole fish, stir-fried
+  mixed vegetables, a soup, fried rice, then a dessert; Thai-Chinese
+  families may serve **khanom khai** (small baked egg cakes, golden,
+  domed) because rising cakes stand for a rising married life [MEDIUM —
+  caterer menus (tier 3); khanom khai: Wikipedia "Khanom khai"]. A
+  village table carries 5–8 bowls; a banquet table shows 2–4 courses at
+  a time.
+- Snapshot staging: **1 setting** — village: a melamine plate with a
+  spoonful of larb beside sticky rice, a kratip, bowls of tom yum and
+  som tam partly cropped, the long table running out of frame. Banquet:
+  a small plate, a soup bowl and spoon, a fish platter and a vegetable
+  platter on the lazy Susan, the table curving away. **2 settings** —
+  two places side by side on the table's curve or across a village
+  table, three or four shared dishes between them, more cropped.
+  **Small group** — a quarter of a round table for 10, or one stretch
+  of the village table. Crowd cues: tent poles and white drapes; a
+  second round table soft behind; a cooking station with large aluminium
+  pots blurred at the edge (village).
+- Decor and cues: pink, white or pastel drapes, flower garlands
+  (malai) on the head table in the soft background, banquet chairs with
+  covers. Avoid: Western white-cake-and-champagne staging; the
+  head-table couple in focus.
+- Never stage: the water-pouring rite (rot nam sang), monks, the
+  phuang malai on the couple; any toast, beer crates or whisky bottles
+  on banquet tables (a real fixture: keep them off the table entirely);
+  legible names on backdrops.
+- Confidence and sources: MEDIUM (sources above); EDITORIAL composition.
+
+#### Celebration: Ordination feast (ngan buat)
+- Type: life event (a young man entering the monkhood, often for a
+  Buddhist Lent; a major merit-making event for his parents)
+- When: often just before Buddhist Lent (Khao Phansa, July) and in the
+  dry season; guests are fed all day on the eve and the day itself.
+  Intake time of day: midday or evening.
+- Gathering: relatives, the whole village or neighbourhood; village
+  ordinations are often shared by two or three candidates' families to
+  split the cost; modern ones hire caterers for **Chinese-table round
+  tables of 8–10** [HIGH — Bangkok Post "Modern-Day Ordination",
+  thaiworldview "Ordination", Wikipedia "Naga ordination"]. Venue: home
+  outdoor (tent in the yard or soi) or other (a temple's open hall: stage
+  the dining tables only).
+- The spread: the village or banquet forms as for the wedding (above),
+  regional dishes in the North and Isan (see catalog: Khan tok set for
+  Lanna feasts). About 5–8 serving dishes.
+- Snapshot staging: as for the wedding, with the same 1 / 2 /
+  small-group stretches. Crowd cues: the tent, round tables soft
+  behind, big cooking pots at the edge. **Keep it a family meal; the
+  candidate (shaved head, white robe) and monks never appear.**
+- Decor and cues: tent, banquet chairs, a sound system and a dance
+  troupe exist but stay out of frame.
+- Never stage: the candidate, monks, the procession, the ordination
+  hall, any Buddha image (hard rule 5); alcohol, which is common at
+  village ordination parties and must stay off the table.
+- Confidence and sources: HIGH for the gathering and catering form
+  (sources above); EDITORIAL for staging. Included per Fernando's
+  2026-10-01 test (include when the occasion is a common part of local
+  culture or something traditional marketing would point to): temporary
+  ordination of young men is a widespread Thai rite of passage, and the
+  guests' feast is the stageable part.
+
+#### Celebration: House-blessing lunch (tham bun ban)
+- Type: community or family gathering (housewarming and merit-making)
+- When: any auspicious day; monks chant and eat before noon, then leave,
+  and **only then do guests and the household eat**. Intake time of day:
+  midday.
+- Gathering: family, neighbours and friends, roughly 15–40 people [HIGH
+  for the sequence — Thailand Foundation, thaiworldview, templeofthai;
+  headcount LOW — not verified]. Venue: home indoor (the new house's
+  main room, often on mats) and home outdoor (yard or carport).
+- The spread: the Thai shared-dish table at scale: two curries
+  (green, massaman), a stir-fry, a soup, fried fish or omelette, fruit
+  and Thai sweets, rice from a big pot (see catalog: Thai shared home
+  dinner; Green curry; Massaman curry; Tom kha gai). 6–10 serving dishes.
+  [EDITORIAL]
+- Snapshot staging: **1 setting** — a rice plate on a mat or table with
+  a spoonful of curry, curry bowl and stir-fry plate partly in frame, a
+  fruit platter cropped. **2 settings** — two rice plates facing, four
+  shared dishes between them. **Small group** — mats or tables running
+  out of frame with more bowls. Crowd cues: a row of shoes outside the
+  open door; blurred guests seated on mats behind; stacked plates.
+- Decor and cues: a bright new tiled room, white sai sin thread may be
+  strung along the ceiling (keep it soft and incidental).
+- Never stage: monks, the altar or Buddha image, offerings to monks; no
+  product before the monks have left (the scene is after). Alcohol off
+  frame.
+- Confidence and sources: HIGH (sequence); EDITORIAL (spread).
+
+#### Celebration: Birthday dinner (wan koet)
+- Type: life event
+- When: the evening of the birthday, often after a morning merit-making
+  visit to a temple (not staged); intake time of day: evening.
+- Gathering: family or friends, 4–12 people; at home, or at a
+  restaurant — **mookata** (grill-and-broth) and shabu restaurants are a
+  common birthday choice for groups [LOW-MEDIUM — Bangkok group-dining
+  guides (tier 4)]; a cream birthday cake from a bakery with candles.
+  Venue: home indoor or restaurant.
+- The spread: either the Thai shared dinner (see catalog: Thai shared
+  home dinner; Tom yum goong; whole fried fish) or a mookata dome on a
+  charcoal bucket with plates of sliced pork, seafood, vegetables and
+  glass noodles (mookata has no catalog entry yet; see CANDIDATE QUEUE),
+  plus the cake. **Halal briefs swap pork for chicken and seafood.**
+- Snapshot staging: **1 setting** — a plate with rice and a spoonful of
+  a curry or stir-fry, two shared dishes partly in frame, the cake
+  cropped at the edge. **2 settings** — the cake between two places
+  with two shared dishes. **Small group** — the mookata dome in the
+  centre with raw-ingredient plates around it, more plates cropped.
+  Crowd cues: candles on a cake, a folded gift bag (no text), a second
+  table of friends soft behind (restaurant).
+- Decor and cues: balloons at home; restaurant fluorescent light.
+  Avoid: Western fine-dining.
+- Never stage: beer bottles or towers (a mookata cliché); legible
+  "Happy Birthday" text on the cake.
+- Confidence and sources: LOW-MEDIUM (tier-4 guides); EDITORIAL.
+
+## GAME NIGHT
+
+Schema §5.8 applies, with the snapshot rule (§5.7). Hard rules 1–9
+above all still apply: hard rule 3 (halal and no alcohol in zone 5 and
+any Muslim household; moo ping and crispy pork swap to chicken, beef or
+seafood), hard rule 5 (no Buddha image, spirit house or royal portrait
+in frame, and the royal portrait often hangs in exactly the shop or
+living room where the TV is), hard rule 6 (no whisky "set", beer tower
+or ice bucket), hard rule 8 (iced water and cha yen are intruders).
+The brief dictates the SKU (§5.4). The existing one-line register note
+(FESTIVALS, "Football and Muay Thai on TV") is the stub this section
+expands.
+
+### Watch parties
+
+Football is the main viewing sport: the English Premier League lands
+late at night in Thailand, the Thai national team draws home viewing,
+and Muay Thai on TV is a home habit [MEDIUM for EPL timing — ThaiRanked;
+rest LOW — not verified]. The stageable form is **at home or at a
+street-food shop with a TV**, not the bar: bar viewing and Muay Thai
+stadiums are beer- and betting-led and are never staged [EDITORIAL;
+betting LOW — not verified]. Signature viewing foods are grilled meat
+and Isan dishes on a low table: moo ping, gai yang, som tam, larb,
+crispy pork, sticky rice [LOW — not verified].
+
+#### Watch party: English Premier League, late night (football)
+- When: August to May. Saturday 15:00 UK games land at about
+  **22:00 Bangkok**, Sunday big games run roughly 20:00–23:30, and
+  Champions League nights fall at about 02:00–03:00 [MEDIUM for EPL —
+  ThaiRanked; Champions League LOW — time-zone arithmetic]. Intake time
+  of day: **evening, late night**. Stage it as a night scene: screen
+  glow, a lamp or fluorescent tube, dark windows or a dark soi; never
+  golden hour.
+- Gathering: 2–6 friends or family at home (condo, townhouse, the space
+  in front of a shophouse), or a few friends at a street-food shop or
+  shophouse restaurant with a TV mounted high on the wall [EDITORIAL].
+  Intake venue: home indoor, home outdoor (front yard, shophouse
+  frontage), or restaurant (street-food shop). The sports bar is out
+  (drinking-led).
+- The spread: moo ping skewers on a plate or on their paper, gai yang
+  chopped on a plate with jaew, som tam on a plate, a bowl of larb,
+  crispy pork snacks, sticky rice in a kratip or small bags (see
+  catalog: Moo ping with sticky rice; Gai yang with sticky rice and
+  jaew; Som tam; Larb and nam tok; Khao moo daeng / moo krob). Takeaway
+  from a stall decanted onto melamine plates is the home norm
+  [LOW — not verified; EDITORIAL]. Halal briefs: gai ping (chicken
+  skewers), gai yang, beef larb, no crispy pork.
+- Surface and environment: a **low steel or Formica table**, or a floor
+  mat with cushions at home; at a shop, a steel table with plastic
+  stools and a condiment caddy. Ceiling fan, the TV a soft green glow
+  across the room, the night outside. What reads as Thailand: plastic
+  stools, melamine plates, the spoon-and-fork pair, sticky-rice baskets,
+  a glass of ice beside the hero.
+- Snapshot staging: **1 setting** — one plate with sticky rice and a
+  few pieces of gai yang, a skewer plate and som tam partly cropped, the
+  hero (from the brief) with a glass of ice, the TV a blurred glow
+  behind. **2 settings** — two plates side by side facing the screen
+  (both on one side of the low table), shared skewers, som tam and larb
+  between them. **Small group (3–4)** — the low table running out of
+  frame, more plates than the visible diners need, a midground PET when
+  the brief allows one. Crowd cues: the backs of one or two blurred
+  heads toward the glow, extra plastic stools, more kratips at the edge.
+- Never stage: beer, whisky sets, ice buckets with bottles; the sports
+  bar counter; betting slips, odds screens or phones showing betting
+  apps (football betting is a known sensitivity [LOW — not verified]);
+  legible screens, crests, kits, sponsor marks; a royal portrait or
+  Buddha shelf near the TV.
+- Confidence and sources: MEDIUM for timing (ThaiRanked, "where to
+  watch the Premier League in Bangkok"); LOW — not verified for the
+  spread, the home-versus-shop split and the betting note; EDITORIAL
+  composition.
+
+#### Watch party: Thai national team (football; also women's volleyball)
+- When: international windows and regional tournaments; kick-off times
+  vary, and home-region games are usually in the evening [LOW — not
+  verified]. Intake time of day: **evening**. The notes also list
+  volleyball as a big Thai viewing sport; the women's national team is
+  widely followed [LOW — not verified, no source this pass].
+- Gathering: family and friends at home, 4–8 people; national-colours
+  T-shirts without crests [EDITORIAL]. Intake venue: home indoor or home
+  outdoor (yard, under the stilted house in Isan).
+- The spread: the Isan home spread — larb, sticky rice, crispy pork, som
+  tam, gai yang (see catalog: Larb and nam tok; Som tam; Gai yang with
+  sticky rice and jaew; Khao moo daeng / moo krob). Halal briefs as
+  above.
+- Surface and environment: a low table or mat, a family kratip in the
+  centre, the TV glow, a fan; red-white-blue paper goods or a cropped
+  tricolour pattern soft in the background at most (never a full flag).
+- Snapshot staging: as for the EPL entry, at evening light. Crowd cues:
+  the table or mat running out of frame, blurred relatives on the sofa
+  behind, extra plates stacked.
+- Never stage: a full Thai flag; any royal portrait (often near the TV
+  in living rooms); alcohol; legible screens, crests, kits.
+- Confidence and sources: LOW — not verified (notes' ranked scene 2,
+  model knowledge); EDITORIAL composition.
+
+#### Watch party: Muay Thai on TV, weekend afternoon (home only)
+- When: weekend afternoons on TV at home [LOW — not verified]. Stadium
+  cards run most nights 21:00–24:00 [MEDIUM — travel guides], but the
+  stadium is never staged. Intake time of day: **midday** or
+  **golden-hour**.
+- Gathering: 2–5 family members or neighbours at home. Intake venue:
+  home indoor or home outdoor (front yard, carport, under the stilted
+  house).
+- The spread: afternoon snacks and a light meal: moo ping, a plate of
+  gai yang, som tam, sticky rice, fruit (see catalog: Moo ping with
+  sticky rice; Som tam; Gai yang with sticky rice and jaew)
+  [LOW — not verified; EDITORIAL].
+- Surface and environment: low table or mat in daylight, ceiling fan,
+  shoes outside the door, the TV a blurred glow in the corner.
+- Snapshot staging: **1 setting** — a plate and a small kratip, a
+  skewer plate cropped, the hero with a glass of ice. **2 settings** —
+  two places on a mat, som tam and gai yang between them. **Small
+  group** — the mat running out of frame. Crowd cues: a blurred figure
+  in a hammock or on a chair behind, extra stools.
+- Never stage: the stadium crowd; betting (integral to stadium culture
+  [LOW — not verified]); fighters' faces, blood, belt or promoter logos;
+  any legible screen.
+- Confidence and sources: MEDIUM for stadium times (travel guides,
+  per the research notes); LOW — not verified for the TV habit and food.
+
+### Social game nights
+
+Popularity as an occasion to gather and eat around: **medium**. Basis:
+karaoke is described as a social ritual, with private-room chains in
+malls and rural karaoke bars [LOW-MEDIUM — Thailandblog], and Bangkok
+has about 150 board-game cafés [MEDIUM — BKK Kids, Siam2nite]. Games are
+a regular part of going out with friends rather than a fixed weekly
+"night". Home mookata with cards or a board game is a plausible pairing
+but was not verified [LOW — not verified], so it has no entry.
+
+#### Game night: private karaoke room with friends
+- When: evenings, weekends especially [LOW — not verified]. Intake time
+  of day: **evening**.
+- Gathering: 3–10 friends, young adults or colleagues, in a private
+  room at a mall karaoke chain [LOW-MEDIUM — Thailandblog]. Intake
+  venue: other (karaoke room).
+- The spread: fried snacks (fries, fried chicken), som tam, grilled
+  pork on plates, a fruit plate, all on the room's low table (see
+  catalog: Som tam; Moo ping with sticky rice) [LOW]. Halal briefs swap
+  the pork for chicken.
+- Surface and environment: a low glass-top table with a sofa bench
+  around it, a big screen as a soft field of colour, coloured LED light,
+  two wireless mics resting on the table, never held.
+- Snapshot staging: **1 setting** — the corner of the low table: a
+  small plate, a plate of fried snacks and som tam cropped, the hero
+  with a glass of ice, a mic lying beside it. **2 settings** — two
+  places on the sofa bench, shared plates between them. **Small group**
+  — the table and sofa running out of frame, more plates. Crowd cues:
+  blurred shapes on the far sofa, a second mic, coloured light on the
+  walls.
+- Never stage: beer, whisky sets or ice buckets (karaoke and drinking
+  often go together); **rural karaoke bars with hostesses**, which are
+  seedy-coded (Thailandblog notes "dark practices"); legible lyrics,
+  song titles or machine brands; a face singing into a mic near the
+  camera.
+- Confidence and sources: LOW-MEDIUM — Thailandblog, "Karaoke in
+  Thailand"; food LOW; EDITORIAL composition.
+
+#### Game night: board-game café
+- When: weekend **midday** to **evening** [MEDIUM for the café scene —
+  BKK Kids, Siam2nite; timing EDITORIAL].
+- Gathering: 3–6 friends, students and young professionals, in
+  Bangkok. Intake venue: restaurant (café).
+- The spread: café food on side plates so the board stays clear:
+  fries, toasties, waffles; drinks in tall glasses (Thai milk tea and
+  bubble tea are the real defaults — intruders under hard rule 8; the
+  hero takes the drink slot) [MEDIUM for cafés; food LOW — not verified].
+  There is no catalog entry for café food (see CANDIDATE QUEUE).
+- Surface and environment: a wooden café table, shelves of game boxes
+  blurred behind (spines unreadable), a generic board with abstract
+  tiles, dice and wooden pieces, plants and concrete décor.
+- Snapshot staging: **1 setting** — one side plate of fries beside the
+  board edge, the hero (from the brief) and its glass, cards fanned face
+  down. **2 settings** — two places across the board, a shared plate of
+  fries and a waffle. **Small group** — the board in the centre, plates
+  at the corners, the table cropped. Crowd cues: another table of
+  players blurred behind, a full games shelf.
+- Never stage: licensed or branded games (no recognisable board
+  layouts); legible cards or rules; money.
+- Confidence and sources: MEDIUM — BKK Kids, Siam2nite (café count and
+  scene); LOW for the food; EDITORIAL composition.
+
+## OPTIONAL MODULE — MORNING OCCASIONS (off by default)
+
+Use only when a brief explicitly asks for a morning scene; log the scope
+exception in `DECISIONS.md`. Entries in the catalog: **Jok** (rice
+congee), **Patongko** (fried dough), plus **Moo ping** (also all-day).
+Coffee, cha yen and warm soy milk (nam tao hu) are the morning drinks
+and a real prior — exclude them from any hero scene. Alms-giving to
+monks at dawn is a real morning sight; **never stage it with a product**.
+
+---
+
+## ZONE CALLOUTS (environment + dish pointers)
+
+1. **Bangkok & Central Plains (default)** — condo towers, shophouse
+   rows, sois with carts, khlong-side wooden houses, mall food courts,
+   Yaowarat (Chinatown) at night. One-plate dishes, curries, noodle
+   culture, royal-cuisine restaurants; Ayutthaya boat noodles; the
+   eastern seaboard (Chonburi, Rayong) adds seafood.
+   → catalog: Pad kra pao; Khao man gai; Pad thai; Pad see ew; Khao kha
+   moo; Moo krob / khao moo daeng; Green curry; Massaman; Panang; Tom
+   yum goong; Tom kha gai; Boat noodles; Kuay teow nam sai; Khao pad;
+   Kai jiao; Hoy tod; Mango sticky rice; Khao chae; Jok; Patongko.
+2. **North (Lanna)** — teak houses, temples with sweeping tiered roofs,
+   mountains, cool-season haze (and burning-season smog Feb–Apr — avoid
+   unless briefed). Sticky rice, khao soi, sai ua, nam prik noom and nam
+   prik ong with pork crackling (khaep moo), gaeng hang lay, khanom jeen
+   nam ngiao; **khan tok** dinners.
+   → catalog: Khao soi; Khan tok set (sai ua, nam prik noom, gaeng hang
+   lay).
+3. **Northeast (Isan)** — stilted houses, paddies, roadside grill
+   stalls; the most populous region. **Pla ra** (fermented fish) gives
+   Isan food its funk; sticky rice in kratip; som tam, larb, nam tok,
+   gai yang, grilled fish (pla pao, salt-crusted), sai krok Isan.
+   → catalog: Som tam (Isan form); Gai yang; Larb and nam tok; Sticky
+   rice (basket).
+4. **South (upper and Andaman)** — Sino-Portuguese shophouses (Phuket),
+   plantations, beaches, fishing piers. The hottest curries in Thailand,
+   yellow with fresh turmeric: gaeng tai pla, gaeng som (gaeng lueang),
+   kua kling; khao yam rice salad; Phuket Hokkien noodles and dim sum
+   breakfast; khanom jeen with curries; roti everywhere.
+   → catalog: Gaeng som / gaeng tai pla; Kua kling; Khao yam; Roti;
+   Mee hokkien (compact).
+5. **Deep South (Malay-Muslim)** — wooden Malay houses, mosques, markets
+   with hijab and songkok in the soft background; **halal only, no pork,
+   no alcohol** (hard rule 3). Khao mok gai, nasi kerabu-style blue rice
+   (khao yam), roti and mataba, Malay curries (gulai), satay with peanut
+   sauce, ayam percik-style grilled chicken (gai golek).
+   → catalog: Khao mok gai; Roti; Khao yam; Satay (compact); Gai golek
+   (compact).
+   **Spinout candidate**: zone 5 is a distinct Malay-Muslim food system
+   with close ties to northern Malaysia; if a Malaysia file is built,
+   cross-reference it.
+
+---
+## DISH CATALOG
+
+*Fields per `country-file-schema.md` §4.5: category · halal status
+(Thailand-specific, mandatory: **pork** / **halal-adaptable** / **halal**)
+· lineage · variants (§4.6, with a default when unspecified) · format
+(§4.4) · vessel & scale · texture & finish · staging · model failure /
+confusion · confidence · sources · **Composition & proportions (§4.7)**.
+Scale anchors: **the can** (325 mL, provisional ~11.5 cm tall, ~6.6 cm
+wide — see SCALE REFERENCE) plus a vessel. Surface shares and counts in
+the §4.7 blocks are editorial synthesis from recipes and serving norms
+unless tagged otherwise — they need image tests.*
+
+### A. Bangkok and Central — one-plate dishes and street food
+
+#### Pad kra pao with khai dao (stir-fried holy basil over rice, fried egg)
+
+- **Category**: Everyday — the default one-plate lunch; also a late-night
+  meal. **Halal status**: pork by default (moo sap, minced pork);
+  **halal-adaptable** with chicken (gai), beef or seafood.
+- **Lineage**: Central Thai street food; a relatively recent dish, said
+  to have appeared on Thai streets only ~50 years ago [MEDIUM —
+  Malay Mail/grantourismo via search; dating is folklore-grade].
+- **Variants (§4.6)**: protein — **minced pork (default)**, minced
+  chicken, sliced beef, crispy pork belly (kra pao moo krob), seafood;
+  with or without **khai dao**. Long beans and onion are a common but
+  disputed addition (purists object). **Default when unspecified**:
+  minced pork, with khai dao. [EDITORIAL]
+- **Format**: one plate (rad khao — "over rice").
+- **Vessel & scale**: a white china or melamine plate ~23–25 cm; a
+  domed mound of rice ~12 cm across, the kra pao spooned beside or over
+  it, the egg ~10–12 cm across laid on top [LOW — not sourced].
+- **Texture & finish**: mince in small crumbly clumps, dark brown and
+  glossy with oyster and soy sauce, flecked with red and green bird's-eye
+  chilli rings and garlic bits; **holy basil wilted, dark green, small
+  serrated leaves** (not big glossy Italian basil); **khai dao deep-fried
+  in a wok of hot oil — crisp, lacy, blistered brown edges, puffed white,
+  runny yolk** [HIGH for the egg's crisp edges and runny yolk —
+  hungryinthailand, cooking-therapy, grantourismo, Malay Mail].
+- **Side**: a small saucer of **prik nam pla** (fish sauce with sliced
+  chilli and garlic) [MEDIUM — not re-checked].
+- **Model failure**: a smooth, round diner sunny-side-up egg; Italian
+  basil; a "Thai basil chicken" with bell peppers and onions in a
+  brown sauce (US takeout version); chopsticks.
+- **Confidence**: HIGH (form and egg); MEDIUM (plate sizes LOW).
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: rice ~45% of the visible plate, kra pao ~30%,
+    fried egg ~20%, chilli-fish-sauce saucer ~5%. [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Jasmine rice | dome ~12 cm across, 5 cm high | 1 | Glossy white, slightly clinging grains | Centre-left, pressed from a bowl |
+    | Kra pao mince | clumps 0.5–1.5 cm | ~150 g heap | Dark glossy brown, chilli rings 5 mm, a little sauce pooling | Right half, against the rice |
+    | Holy basil | leaves 2–3 cm | 10–15 | Wilted, dark green, a few crisp-fried | Through the mince |
+    | Khai dao | 10–12 cm across, yolk 4 cm | 1 | Lacy crisp brown frill, blistered white, glossy orange yolk | Laid on top of the rice, slightly overlapping the mince |
+    | Prik nam pla | saucer 7–8 cm | 1 | Clear amber liquid, red and green chilli rings, garlic slices | Beside the plate, upper right |
+    | Spoon and fork | — | 1 each | Stainless | Resting on the plate rim, spoon right |
+
+  - **Arrangement**: rice and mince side by side, the egg crowning the
+    rice; white rice still visible at the left edge.
+  - **Vessel fill**: food covers ~70% of the plate; a clean rim shows.
+  - **Served portion vs. whole**: this is the whole one-person dish.
+  - **State cues**: steam from the rice; oil shimmer on the egg's frill;
+    sauce gloss on the mince.
+  - **Absent on purpose**: bell peppers, onions in large chunks, Italian
+    basil, cucumber carving, chopsticks, knife, iced water.
+  - **Prompt-ready line**: "A white plate about twice the can's height
+    across: a neat dome of glossy white jasmine rice, beside it a heap of
+    dark, glossy stir-fried minced pork with red and green chilli rings
+    and wilted small dark-green holy basil leaves; on top of the rice a
+    wok-fried egg about as wide as the can is tall, its edges puffed,
+    lacy and crisp brown, the yolk runny orange; a spoon and fork on the
+    rim; a small saucer of fish sauce with chilli rings beside it."
+
+#### Khao man gai (poached chicken over chicken-fat rice)
+
+- **Category**: Everyday — lunch and breakfast-to-lunch at stalls.
+  **Halal status**: **halal-adaptable** (chicken; Muslim stalls exist);
+  the fried-chicken version (khao man gai tod) is common too.
+- **Lineage**: Thai form of **Hainanese chicken rice** (Chinese-Thai)
+  [HIGH — Hot Thai Kitchen, SheSimmers, go2-thailand, thaifoodguide].
+- **Form**: sliced poached chicken over rice cooked in chicken broth and
+  chicken fat with garlic and ginger; a **fermented soybean (tao jiao),
+  ginger, garlic and chilli sauce** on the side; **a small bowl of clear
+  chicken soup** (often with winter melon); **cucumber slices**;
+  coriander [HIGH — same sources].
+- **Confusable**: Singapore/Malaysian chicken rice (chilli sauce, dark
+  soy and ginger paste as three separate dips) — **the Thai marker is
+  the single brown soybean-ginger sauce**.
+- **Vessel & scale**: white or melamine plate ~23 cm; soup in a small
+  bowl ~10 cm; sauce in a saucer ~7 cm. At stalls, whole poached
+  chickens hang in a glass case.
+- **Texture & finish**: chicken skin **pale ivory-yellow, smooth,
+  glossy, never browned**; meat white and moist, sliced across in 1–1.5
+  cm strips with skin on; rice faintly yellow-beige, glossy, each grain
+  separate; sauce thick, murky brown with visible soybean bits, ginger
+  shreds and chilli rings; cucumber pale green half-moons.
+- **Model failure**: roast chicken with brown skin; white rice; chilli
+  sauce red; a big chicken breast unsliced.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: rice ~50%, sliced chicken ~35%, cucumber and
+    coriander ~10%, (sauce and soup sit off the plate). [EDITORIAL]
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Chicken-fat rice | dome ~12 cm, 5 cm high | 1 | Glossy, pale beige-yellow, separate grains | Centre |
+    | Poached chicken | strips 6–7 × 1–1.5 cm | 7–9 | Pale glossy skin on top, white meat | Fanned in a row across the rice |
+    | Cucumber | slices ~3 cm, 3 mm thick | 4–6 | Pale green rind, translucent flesh | Along the plate edge |
+    | Coriander | sprigs ~4 cm | 1–2 | Fresh green | On the chicken |
+    | Tao jiao sauce | saucer ~7 cm | 1 | Murky brown, soybean bits, ginger shreds, chilli rings | Beside the plate |
+    | Clear soup | bowl ~10 cm | 1 | Pale gold clear broth, a cube or two of translucent winter melon, spring onion | Beside the plate |
+
+  - **Arrangement**: chicken fanned overlapping across the rice dome,
+    cucumber at one side.
+  - **Vessel fill**: ~65% of the plate.
+  - **Served portion vs. whole**: one person; the whole bird stays in
+    the stall case.
+  - **State cues**: steam from the soup; gloss on the chicken skin; no
+    char anywhere.
+  - **Absent on purpose**: browned/roasted skin, soy-sauce glaze, red
+    chilli sauce, a whole leg, chopsticks.
+  - **Prompt-ready line**: "A plate about twice the can's height across:
+    a dome of glossy, faintly golden rice topped with a fan of sliced
+    poached chicken, each strip about half the can's height long, with
+    smooth pale ivory skin and moist white meat, no browning; cucumber
+    slices at the edge and a sprig of coriander; beside it a small
+    saucer of murky brown soybean-ginger-chilli sauce and a small bowl of
+    clear golden broth."
+
+#### Khao kha moo (braised pork leg over rice)
+
+- **Category**: Everyday — lunch and dinner one-plate. **Halal status**:
+  **pork** — never in zone 5 or a Muslim brief.
+- **Lineage**: Teochew Chinese-Thai [HIGH — Wikipedia "Khao kha mu",
+  hungryinthailand, Simply Suwanee].
+- **Form**: pork leg braised with five-spice, star anise, cinnamon and
+  soy until meltingly tender, sliced over rice with a **halved braised
+  egg**, **pickled mustard greens**, **blanched Chinese kale (kana)**,
+  braising liquid spooned over, and a **chilli-garlic-vinegar sauce** on
+  the side; a raw garlic clove and a bird's-eye chilli often added
+  [HIGH — same sources].
+- **Vessel & scale**: plate ~23 cm; at stalls the leg sits in a deep
+  pot of dark braise.
+- **Texture & finish**: pork slices with a **thick band of glossy,
+  wobbly, dark mahogany skin and translucent fat** over brown meat;
+  braising liquid dark brown, glossy, soaking into the rice edge; egg
+  white stained tan-brown, yolk pale yellow; mustard greens olive-green,
+  chopped; kana bright green.
+- **Model failure**: pulled pork; a roast ham slice; a single fat
+  slab; pink meat.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: rice ~45%, pork ~30%, greens ~15%, egg ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice | mound ~12 cm | 1 | White, the edge stained brown by braise | Left two-thirds |
+    | Pork leg slices | ~5 × 3 cm, 1 cm thick | 6–8 | Mahogany glossy skin, translucent fat, brown meat | Overlapping over the rice |
+    | Braised egg | halved, ~5 cm | 2 halves | Tan-brown white, pale yellow yolk | Beside the pork |
+    | Pickled mustard greens | chopped ~1–2 cm | a spoonful | Olive green, wet | Plate edge |
+    | Chinese kale | stems 6–8 cm | 2–3 | Bright green, glossy | Plate edge |
+    | Braising liquid | — | 2 spoons | Dark glossy brown | Over the pork and rice |
+    | Chilli vinegar | saucer | 1 | Pale, with green/red chilli and garlic bits | Beside the plate |
+
+  - **Arrangement**: pork shingled over the rice, egg halves and greens
+    in a cluster at one side.
+  - **Vessel fill**: ~70%.
+  - **State cues**: braise glistening; skin gelatinous and shiny.
+  - **Absent on purpose**: crackling-crisp skin (that is moo krob),
+    barbecue sauce, coleslaw.
+  - **Prompt-ready line**: "A white plate about twice the can's height
+    across: white rice stained brown at the edge by dark glossy braising
+    juice, covered with overlapping slices of slow-braised pork leg, each
+    slice half the can's height long, with a wobbly shining mahogany
+    skin and translucent fat over brown meat; two halves of a tan-brown
+    braised egg, a spoonful of chopped olive-green pickled mustard greens
+    and bright green blanched kale; a saucer of chilli vinegar beside it."
+
+#### Khao moo daeng / moo krob (red barbecue pork and crispy pork belly over rice)
+
+- **Category**: Everyday one-plate. **Halal status**: **pork**.
+- **Lineage**: Chinese-Thai (Cantonese/Teochew roast-meat shops)
+  [MEDIUM — not independently re-checked].
+- **Form**: sliced red-rimmed char siu-style pork (moo daeng) and
+  crispy pork belly (moo krob), sliced Chinese sausage and half a boiled
+  egg over rice, **a thick sweet red-brown gravy poured over**,
+  cucumber, spring onion; dark sweet soy and chilli vinegar on the side.
+- **Texture & finish**: moo daeng **red-edged** (food colouring),
+  pink-tan inside; moo krob **puffed, blistered, glassy-crisp golden
+  skin over white fat and pink meat layers**, cut in 2 cm strips; gravy
+  glossy, translucent red-brown, coating the rice.
+- **Model failure**: bacon, Western roast pork with soft skin, BBQ ribs.
+- **Confidence**: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: rice ~45%, meats ~35%, gravy ~10%, egg/cucumber
+    ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice | mound ~12 cm | 1 | White under a gravy veil | Base |
+    | Moo daeng | slices 4–5 × 3 cm, 5 mm thick | 5–6 | Red rim, pink-tan centre | Shingled on the left of the rice |
+    | Moo krob | strips 4 × 2 cm | 4–5 | Blistered golden skin, white/pink layers | Right of the rice |
+    | Chinese sausage (kun chiang) | slices 3 cm, diagonal | 3–4 | Deep red-brown, glossy fat dots | Edge |
+    | Boiled egg | half, ~5 cm | 1 | White, yolk set | Edge |
+    | Red gravy | — | a ladle | Glossy translucent red-brown | Over the meat and rice |
+    | Cucumber | slices 3 cm | 3–4 | Pale green | Plate edge |
+
+  - **Arrangement**: two meats side by side across the top of the rice,
+    gravy over both.
+  - **State cues**: gravy glistening; moo krob skin still crackly-dry
+    where the gravy hasn't reached.
+  - **Absent on purpose**: barbecue sauce, coleslaw, chopsticks, knife.
+  - **Prompt-ready line**: "A plate about twice the can's height across:
+    white rice under a glossy translucent red-brown gravy, topped on one
+    side with thin slices of red-rimmed barbecue pork and on the other
+    with strips of pork belly whose golden skin is blistered and
+    glass-crisp over white fat layers; a few diagonal slices of dark-red
+    sweet sausage, half a boiled egg and cucumber slices at the edge."
+
+#### Pad thai
+
+- **Category**: Everyday street and restaurant dish; a national symbol.
+  **Halal status**: **halal-adaptable** (default prawn or tofu-and-dried
+  shrimp; no pork in the classic form).
+- **Lineage**: Central Thai, promoted as a national dish in the 1930s–40s
+  (Phibun era) [MEDIUM — Wikipedia "Pad thai" via search; history not
+  read in full].
+- **Form**: thin flat rice noodles (sen chan/sen lek) stir-fried with
+  tamarind, palm sugar and fish sauce, egg, firm tofu cubes, dried
+  shrimp, preserved radish, garlic chives and bean sprouts, with fresh
+  prawns; **lime wedge, ground roasted peanuts, chilli flakes, extra
+  bean sprouts, garlic chives and often a raw banana-flower wedge served
+  on the side** [HIGH — Wikipedia, ImportFood, ThaiTable, Hot Thai
+  Kitchen]. Street vendors may serve it on a banana leaf; a thin egg
+  net or omelette wrap (pad thai hor kai) is a variant.
+- **Variants (§4.6)**: **pad thai goong sod** (fresh prawns, default
+  restaurant); **pad thai jay/tofu** (street default); **hor kai**
+  (wrapped in egg); **goong mae nam** (big river prawns, Ayutthaya).
+- **Texture & finish**: noodles **pale tan to light orange-brown**,
+  slick, slightly translucent, a few caramelised dark edges; egg in
+  scrambled yellow ribbons; tofu golden-brown cubes; prawns coral-pink,
+  curled; chives cut in 3–4 cm lengths, bright green.
+- **Model failure**: **deep orange-red ketchup noodles** (Western
+  restaurant), a takeout box, chopsticks stuck in, chicken chunks and
+  broccoli, peanuts heaped on top instead of on the side.
+- **Confidence**: HIGH (form); MEDIUM (history).
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: noodles ~60%, side vegetables/peanuts/lime ~20%,
+    prawns/tofu/egg ~20%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice noodles | strands ~5 mm wide | a mound ~15 cm across, 5 cm high | Pale tan-orange, glossy, tangled | Centre |
+    | Prawns | ~6–7 cm curled | 3–4 | Coral-pink, tails on | Resting on top |
+    | Tofu | cubes ~1 cm | 8–10 | Golden-brown | Mixed through |
+    | Egg | ribbons 2–3 cm | — | Yellow, lightly browned | Mixed through |
+    | Garlic chives | lengths 3–4 cm | 10–15 | Bright green | Mixed through |
+    | Bean sprouts (raw, side) | 4–5 cm | a small heap | Crisp white | Plate edge |
+    | Peanuts | ground | a spoonful | Tan crumbs | Small heap at the edge |
+    | Lime | wedge ~5 cm | 1 | Green rind | Edge |
+    | Banana flower (optional) | wedge ~6 cm | 1 | Pale purple-cream | Edge |
+
+  - **Arrangement**: a loose mound, garnishes in small separate heaps
+    around one side.
+  - **Vessel fill**: ~70% of a ~25 cm plate.
+  - **State cues**: wok gloss; light steam; sprouts raw and crisp.
+  - **Absent on purpose**: red ketchup sauce, broccoli, takeout box,
+    chopsticks, cilantro mountain.
+  - **Prompt-ready line**: "A plate about twice the can's height across:
+    a loose tangle of glossy flat rice noodles, pale tan with orange-brown
+    caramelised edges, mixed with scrambled egg ribbons, small golden tofu
+    cubes and bright green chive lengths, three curled coral prawns on
+    top; at one side small separate heaps of raw bean sprouts and ground
+    peanuts and a lime wedge. Spoon and fork only."
+
+#### Pad see ew (wide noodles with dark soy and Chinese kale) — compact
+
+- **Category**: Everyday one-plate. **Halal status**: pork default
+  (sliced pork), **halal-adaptable** (chicken).
+- **Lineage**: Chinese-Thai [MEDIUM — not re-checked].
+- **Form**: wide fresh rice noodles (sen yai) stir-fried with dark sweet
+  soy, egg, Chinese kale and sliced pork or chicken; chilli vinegar on
+  the table.
+- **Texture**: noodles **broad (2–3 cm), soft, dark brown-glossy with
+  charred spots**; kale stems bright green; egg in browned bits.
+- **Model failure**: lo mein, thin noodles, pale noodles.
+- **Composition & proportions (§4.7)**: noodles ~65%, kale ~20%, meat
+  ~10%, egg ~5%; noodles 2–3 cm wide × 6–8 cm, ~20 ribbons; kale stems
+  5–7 cm, 4–6 pieces; meat slices 3 cm, 6–8; a loose mound filling ~70%
+  of a 23–25 cm plate; wok-charred spots; **absent**: bean sprouts,
+  thin noodles, chopsticks. **Prompt line**: "A plate about twice the
+  can's height across, heaped with broad, flat, soft rice noodles about
+  a can's width long, glossy dark brown with charred spots, tossed with
+  bright green kale stems, thin slices of pork and browned bits of egg."
+  [EDITORIAL]
+
+#### Khao pad (Thai fried rice) — compact
+
+- **Category**: Everyday one-plate. **Halal status**: halal-adaptable
+  (prawn, chicken, crab); pork common.
+- **Form**: jasmine rice fried with egg, onion, tomato wedges and
+  protein; served with **cucumber slices, a lime wedge, spring onion**
+  and prik nam pla [MEDIUM — not re-checked].
+- **Texture**: pale golden, not soy-dark; separate grains; egg bits;
+  soft tomato.
+- **Model failure**: dark Chinese takeout fried rice with peas and
+  carrots; pineapple-boat fried rice as default.
+- **Composition & proportions (§4.7)**: rice ~75%, cucumber/lime ~15%,
+  protein ~10%; a domed mound ~14 cm, prawns 3–4, tomato wedges 2–3;
+  cucumber 4–5 slices; fills ~60% of a 23 cm plate; **absent**: peas,
+  carrots, soy-dark colour. **Prompt line**: "A dome of pale golden fried
+  jasmine rice about the can's height across with flecks of egg, soft
+  tomato wedges and three pink prawns, cucumber slices and a lime wedge
+  at the edge." [EDITORIAL]
+
+#### Kai jiao (Thai omelette over rice) — compact
+
+- **Category**: Everyday — the cheapest home and stall plate. **Halal
+  status**: halal (plain) or pork (with minced pork, kai jiao moo sap).
+- **Form**: beaten eggs with fish sauce poured into very hot oil so they
+  puff into a **thick, golden, frilly, crisp-edged omelette**, laid on
+  rice; Sriracha-style chilli sauce on the side [MEDIUM — not
+  re-checked].
+- **Composition & proportions (§4.7)**: omelette ~50%, rice ~45%,
+  sauce ~5%; omelette ~13–15 cm round, 2–3 cm thick, one; puffy, deep
+  golden, crisp ragged brown edges; on top of a rice mound; fills ~70%
+  of the plate; **absent**: folded French omelette, fillings oozing,
+  cheese. **Prompt line**: "On a plate of white rice, a single puffy,
+  deep-golden Thai omelette a bit wider than the can is tall and two or
+  three centimetres thick, its edges crisp, ragged and brown from hot
+  oil." [EDITORIAL]
+
+#### Boat noodles (kuay teow reua)
+
+- **Category**: Everyday — lunch and snack. **Halal status**: **pork or
+  beef with pig's blood** — never in zone 5 or a Muslim brief (beef
+  boat noodles still use blood; halal versions exist but are not the
+  default).
+- **Lineage**: Central Thai, sold from boats on the canals of Rangsit
+  and Ayutthaya; today shops around **Victory Monument (Bangkok)**
+  serve **small, bite-size bowls (~฿15)**, a habit from the boats where
+  small bowls didn't spill; diners eat many and **stack the empty bowls
+  on the table** [HIGH — eatingthaifood, hungryinthailand, Mommy Sammy,
+  seasonedtraveller].
+- **Form**: thin rice noodles (sen lek) or other noodles in a **dark,
+  rich broth thickened with pig's or cow's blood**, with sliced meat,
+  meatballs, liver, morning glory, bean sprouts, fried garlic, crispy
+  pork rind (kaeb moo), basil [HIGH — same sources].
+- **Vessel & scale**: small ceramic or melamine bowl **~10–12 cm** across
+  (bowl diameter LOW — not sourced) with a short porcelain spoon and
+  chopsticks; empty bowls stacked in columns of 5–15.
+- **Texture & finish**: broth **opaque, very dark brown, slightly
+  thick**, oil sheen; noodles pale; meat slices thin, grey-brown; morning
+  glory dark green; crackling puffed and pale gold.
+- **Model failure**: big pho bowl with clear broth and herbs plate;
+  ramen.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one small bowl and a stack.
+  - **What dominates**: in the frame, the **stack of empty bowls and 2–3
+    full bowls**; in each bowl, broth ~50%, noodles ~25%, toppings ~25%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Small bowl | ~10–12 cm, ~5 cm deep | 2–3 full | White or patterned melamine (pattern vague) | Front |
+    | Broth | — | fills to 1 cm below rim | Opaque dark brown, oil beads | In bowl |
+    | Noodles | thin, 2–3 mm | a small nest | Pale, half-submerged | Centre |
+    | Sliced meat | 3–4 cm thin slices | 3–4 | Grey-brown | On the noodles |
+    | Meatballs | ~2 cm | 1–2 | Pale grey, smooth | Half-submerged |
+    | Morning glory / sprouts | 3–5 cm | a few | Dark green, white | Tucked at the side |
+    | Pork crackling | ~3 cm pieces | 1–2 | Puffed pale gold | On top |
+    | Empty bowls | same | 8–15 | Stacked in 1–2 columns | Behind |
+
+  - **Arrangement**: full bowls in front, the stack behind; porcelain
+    spoon resting in a bowl.
+  - **State cues**: steam; crackling still crisp.
+  - **Absent on purpose**: lime and herb plate (pho), ramen egg, big bowl.
+  - **Prompt-ready line**: "Two small bowls of noodle soup, each about the
+    can's height across and shallower than the can is wide, filled with
+    opaque, very dark brown broth over a small nest of thin rice noodles,
+    a few thin slices of beef, a meatball, dark green morning glory and a
+    puffed golden piece of pork crackling; behind them a stack of a dozen
+    empty bowls of the same size."
+
+#### Kuay teow nam sai (clear noodle soup) — compact
+
+- **Category**: Everyday. **Halal status**: pork default (pork balls,
+  minced pork); halal-adaptable (chicken, beef, fish balls).
+- **Form**: rice noodles (choice of sen lek, sen yai, sen mee, ba mee egg
+  noodles) in clear pork or chicken broth with fish or pork balls,
+  sliced meat, bean sprouts, spring onion, coriander, fried garlic; the
+  diner seasons from the four-jar caddy [MEDIUM — not re-checked].
+- **Composition & proportions (§4.7)**: broth ~45%, noodles ~30%,
+  toppings ~25%; bowl ~16–18 cm, broth to 1.5 cm below the rim; balls
+  ~2.5 cm × 4, slices × 4–5; a pinch of fried garlic, coriander leaves;
+  steam; **absent**: herb plate, lime, chilli oil slick. **Prompt line**:
+  "A noodle bowl about one and a half times the can's height across:
+  clear pale-gold broth over thin rice noodles, four pale round fish
+  balls, a few slices of pork, bean sprouts, chopped spring onion and
+  golden fried garlic; a porcelain spoon and chopsticks laid across."
+  [EDITORIAL]
+
+#### Moo ping with sticky rice (grilled pork skewers)
+
+- **Category**: Everyday — street breakfast and all-day snack.
+  **Halal status**: **pork** — never in zone 5 or a Muslim brief
+  (gai ping/chicken skewers are the halal-adaptable swap).
+- **Lineage**: Central/Bangkok street food; **moo** = pork, **ping** =
+  grilled; marinated in coconut milk, garlic, coriander root, white
+  pepper, soy, oyster sauce and palm sugar; always with **a small bag of
+  sticky rice**; ~฿5–10 a skewer [HIGH — Wikipedia "Mu ping", Marion's
+  Kitchen, Hot Thai Kitchen, hungryinthailand, theworldofstreetfood].
+- **Vessel & scale**: bamboo skewers ~20–25 cm, meat ~10–12 cm along
+  each, thin slices bunched on; sticky rice in a small clear plastic bag
+  or banana leaf (~10 × 8 cm), or a personal kratip at home [LOW for
+  sizes — not sourced].
+- **Texture & finish**: meat **caramelised, mahogany-brown with darker
+  charred edges and fat ribbons**, glossy from basting with coconut
+  milk; sticky rice opaque white, clumped.
+- **Model failure**: Western kebab with vegetables; yakitori; satay
+  with peanut sauce.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one street portion (3 skewers).
+  - **What dominates**: skewered pork ~55%, sticky rice ~40%, chilli
+    sauce ~5% (optional jaew).
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Moo ping skewers | 20–25 cm stick, meat 10–12 cm × 3 cm | 3 | Mahogany-brown, charred edges, glossy fat | Laid parallel on a plate, paper tray or banana leaf |
+    | Sticky rice | a fist-sized clump ~8–10 cm | 1 | Opaque white, matte-pearly | In a small knotted clear bag laid flat, or on the leaf |
+    | Jaew (optional) | small bag or saucer | 1 | Dark red-brown, chilli flakes | Beside |
+
+  - **Arrangement**: skewers side by side, sticks pointing the same way.
+  - **State cues**: wisp of charcoal smoke; glossy baste.
+  - **Absent on purpose**: peppers and onions on the skewer, peanut sauce,
+    a hand.
+  - **Prompt-ready line**: "On a banana leaf on a stall ledge: three
+    bamboo skewers of thinly sliced grilled pork, the meat on each about
+    as long as the can is tall, caramelised mahogany-brown with charred
+    edges and glossy fat, laid side by side; beside them a fist-sized
+    clump of matte white sticky rice in a small clear plastic bag laid
+    flat. No vegetables on the skewers, no peanut sauce."
+
+### B. Curries, soups and the shared table
+
+#### Green curry (gaeng khiao wan)
+
+- **Category**: Everyday shared dish at home and in khao gaeng shops;
+  restaurant staple. **Halal status**: **halal-adaptable** (chicken is
+  the default; beef and fish balls common; pork possible).
+- **Lineage**: Central Thai. "Khiao wan" — "sweet green" — refers to the
+  **pale** green colour, not sweetness [HIGH — National Geographic,
+  Wikipedia "Green curry", High Heel Gourmet].
+- **Form**: green-chilli paste fried in coconut cream **until the oil
+  splits**, then coconut milk, chicken, **Thai round eggplants and pea
+  eggplants**, kaffir lime leaves, Thai sweet basil, sliced red chilli;
+  **beads of oil on the surface are the authenticity marker** [HIGH —
+  National Geographic, High Heel Gourmet, asiaundiscovered]. Eaten with
+  jasmine rice or **khanom jeen** (fermented rice vermicelli).
+- **Vessel & scale**: shared bowl ~16–18 cm at home; at a khao gaeng
+  shop ladled over a plate of rice.
+- **Texture & finish**: **thin, soupy (not thick), pale olive-to-jade
+  green**, speckled with darker paste, a mottled film of green-tinted
+  oil; chicken in thin bite-size slices; round eggplants quartered,
+  white-flesh with pale green skin; pea eggplants like small green
+  marbles; basil bright green.
+- **Model failure**: thick bright-green purée; Indian saag; a cream
+  swirl; chicken in big chunks; carrots and bell peppers.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — shared bowl beside rice plates.
+  - **What dominates**: curry liquid ~55% of the bowl surface, chicken
+    ~20%, eggplants ~15%, basil/chilli ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Curry | — | fills bowl to ~2 cm below rim | Thin pale olive-green, oil beads and film | Base |
+    | Chicken | slices ~3 × 2 cm, 5 mm | 10–14 | Pale, tinged green | Half-submerged |
+    | Thai eggplant | quarters ~3 cm | 6–8 | White flesh, pale green skin | Half-submerged |
+    | Pea eggplant | ~1 cm spheres | 8–12 | Dark green, glossy | Floating in small clusters |
+    | Kaffir lime leaf | torn ~3 cm | 3–4 | Dark glossy green | Floating |
+    | Thai basil | leaves 2–4 cm | 8–10 | Bright green, some purple stems | On top |
+    | Red chilli | long slices 4 cm | 4–6 | Red | On top |
+
+  - **Arrangement**: pieces scattered, liquid visible between them.
+  - **Served portion vs. whole**: one or two spoonfuls ladled beside the
+    rice on each diner's plate, mostly liquid with 2–3 pieces.
+  - **State cues**: steam; oil beads catching the light.
+  - **Absent on purpose**: cream swirl, bell pepper, carrots, peas,
+    cashews, naan, chopsticks.
+  - **Prompt-ready line**: "A bowl about one and a half times the can's
+    height across, filled with a thin, soupy, pale olive-green coconut
+    curry, a mottled film of green-tinted oil beads on the surface, thin
+    slices of chicken, quartered small white-and-green eggplants and
+    clusters of marble-sized green pea eggplants half-submerged, torn
+    lime leaves, bright Thai basil and long red chilli slices on top."
+
+#### Massaman curry
+
+- **Category**: Special-occasion and restaurant dish; home for guests.
+  **Halal status**: **halal by origin** (Muslim-Thai dish); chicken or
+  beef default; pork rare [HIGH — Wikipedia "Massaman curry",
+  Wiktionary, thaifoodmaster].
+- **Lineage**: Thai-Muslim, via Persian/Malay influence; cardamom,
+  cinnamon, cloves, star anise; potatoes, onion, roasted peanuts,
+  tamarind, palm sugar [HIGH — same sources].
+- **Vessel & scale**: shared bowl ~16–18 cm.
+- **Texture & finish**: **thick, glossy, warm orange-brown**, red oil
+  pooling at the edge; **chunks of beef or chicken on the bone** (larger
+  than other Thai curries — 4–5 cm, cut by the cook, falling apart);
+  **whole potato pieces** golden and soft; whole roasted peanuts; a
+  cinnamon stick and cardamom pods visible; slivers of fried shallot.
+- **Model failure**: Indian korma with cream; Japanese curry (brown
+  roux); peanut satay sauce.
+- **Confidence**: HIGH (ingredients); MEDIUM (piece sizes — editorial).
+- **Composition & proportions (§4.7)** — shared bowl.
+  - **What dominates**: sauce ~45%, meat ~25%, potato ~20%, peanuts and
+    whole spices ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Sauce | — | ~3/4 of bowl depth | Thick, glossy orange-brown, red oil at rim | Base |
+    | Beef chunks / chicken leg | 4–5 cm / one drumstick-thigh | 4–5 / 2 | Dark brown, tender, fibres separating | Half-submerged |
+    | Potato | chunks 3–4 cm | 4–5 | Golden-yellow, soft edges | Half-submerged |
+    | Peanuts | whole ~1 cm | 15–20 | Tan, roasted | Scattered on top |
+    | Cinnamon stick / cardamom | 6 cm / 1.5 cm | 1 / 2–3 | Brown bark, pale green-tan pods | On the surface |
+    | Fried shallot | slivers | a pinch | Crisp brown | On top |
+
+  - **State cues**: thick gloss, oil ring, light steam.
+  - **Absent on purpose**: cream drizzle, coriander mountain, naan,
+    carrots, peas.
+  - **Prompt-ready line**: "A bowl about one and a half times the can's
+    height across with a thick, glossy, warm orange-brown curry, a ring
+    of red oil at the edge, four chunks of tender braised beef and four
+    soft golden potato chunks each about half the can's width, whole
+    roasted peanuts, a cinnamon stick and two cardamom pods on the
+    surface, crisp fried shallot slivers on top."
+
+#### Tom yum goong (hot-sour prawn soup)
+
+- **Category**: Everyday at home; restaurant favourite; shared.
+  **Halal status**: **halal** (prawn) — confirm no pork stock.
+- **Lineage**: Central Thai; UNESCO-inscribed as intangible cultural
+  heritage (2024) [MEDIUM — not independently re-checked this pass].
+- **Variants (§4.6)**: **nam sai** (clear, orange-red from chilli oil)
+  vs. **nam khon** (creamy, with evaporated milk or coconut milk —
+  opaque orange) — both current; **default: nam khon** in Bangkok
+  restaurants, nam sai at home. [EDITORIAL — not independently
+  re-checked]
+- **Vessel & scale**: shared bowl ~18 cm, or a **charcoal-heated
+  aluminium hot pot with a central chimney** (mor fai) in restaurants.
+- **Texture & finish**: broth **orange-red, oil-slicked**, lemongrass
+  stalks bruised in 4–5 cm lengths, galangal slices pale and woody,
+  torn lime leaves, straw or oyster mushrooms, whole prawns (head-on,
+  shell-off, tail-on), coriander, crushed bird's-eye chillies.
+- **Model failure**: tomato soup; laksa with noodles; Western prawn
+  bisque.
+- **Confidence**: MEDIUM-HIGH.
+- **Composition & proportions (§4.7)** — shared bowl.
+  - **What dominates**: broth ~55%, prawns ~20%, mushrooms ~15%, herbs
+    ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Broth | — | to 2 cm below rim | Orange-red, oil sheen (or opaque creamy orange) | Base |
+    | Prawns | 8–10 cm with head | 5–6 | Coral-orange, heads on | Half-submerged around the bowl |
+    | Mushrooms | halves ~3 cm | 8–10 | Pale grey-white | Floating |
+    | Lemongrass | 4–5 cm lengths | 3–4 | Pale yellow-green, bruised | Floating |
+    | Galangal | slices 3 cm, 3 mm | 3–4 | Pale cream, fibrous | Floating |
+    | Lime leaves, chillies, coriander | 2–4 cm | a few | Green, red | On top |
+
+  - **Served portion vs. whole**: ladled into a small bowl per diner or
+    spooned over rice.
+  - **State cues**: strong steam; oil beads.
+  - **Absent on purpose**: tomatoes as the base, noodles, cream swirl.
+  - **Prompt-ready line**: "A bowl about one and a half times the can's
+    height across of steaming orange-red hot-and-sour broth with an oil
+    sheen, five head-on coral prawns about two-thirds the can's height
+    long, halved pale mushrooms, bruised lemongrass lengths, pale
+    galangal slices, torn lime leaves, crushed red chillies and
+    coriander leaves."
+
+#### Tom kha gai (chicken in galangal coconut soup) — compact
+
+- **Category**: Everyday shared soup. **Halal status**:
+  halal-adaptable (chicken).
+- **Form**: coconut-milk soup with galangal, lemongrass, lime leaves,
+  mushrooms, chicken, lime juice, chilli; **creamy ivory-white**, a
+  faint orange chilli-oil sheen [MEDIUM — not re-checked].
+- **Composition & proportions (§4.7)**: broth ~60%, chicken ~20%,
+  mushrooms ~10%, aromatics ~10%; bowl ~16–18 cm; chicken slices 3 cm ×
+  10; mushrooms × 8; galangal × 4, lemongrass × 3; steaming, ivory with
+  red oil dots; **absent**: thick chowder texture, cream swirl, noodles.
+  **Prompt line**: "A bowl about one and a half times the can's height
+  across of steaming ivory-white coconut soup with tiny orange oil
+  beads, thin chicken slices, pale mushrooms, slices of woody galangal,
+  lemongrass lengths, torn lime leaves and a few coriander leaves."
+  [EDITORIAL]
+
+#### Thai shared home dinner (rice plates and four dishes — Central)
+
+- **Category**: Everyday — the home dinner; the Thai equivalent of
+  India's home thali. **Halal status**: follows its dishes.
+- **Form**: a plate of jasmine rice per person and **four or five shared
+  dishes** in the middle — a curry or soup, a stir-fry (pad pak boong
+  fai daeng — morning glory with garlic and chilli; or pad kra pao), a
+  salad or nam prik with vegetables, a fried item (kai jiao, fried fish);
+  a lidded electric rice cooker; serving spoons in each dish [HIGH for
+  the shared-dish and own-rice-plate structure — siam.recipes, tagthai,
+  ImportFood; dish choice EDITORIAL].
+- **Vessel & scale**: mismatched white china and melamine bowls and
+  plates, 16–25 cm; individual rice plates ~20–23 cm.
+- **Model failure**: one composed plate per person; chopsticks; a
+  "Thai restaurant" carved-vegetable spread; candles and orchids.
+- **Confidence**: HIGH (structure); EDITORIAL (dishes).
+- **Composition & proportions (§4.7)** — table for 3 seen from above at
+  a 45° angle.
+  - **What dominates**: the **shared dishes cluster (~50% of table
+    area)**, rice plates ~30%, table surface ~20%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice plates | ~20–23 cm, rice mound ~10 cm | 3 | White rice, spoon and fork on each | One at each place |
+    | Green curry bowl | ~16–18 cm | 1 | See green curry | Centre |
+    | Pad pak boong | oval plate ~25 cm | 1 | Glossy bright-green hollow stems 6–8 cm, garlic, red chilli | Centre left |
+    | Kai jiao | ~15 cm round, on a plate | 1 | Puffy golden, crisp edges | Centre right |
+    | Nam prik + vegetables | saucer ~8 cm + plate | 1 + 1 | Brick-red chilli paste; cucumber, long beans 8 cm, cabbage wedge | Front of centre |
+    | Serving spoons | — | 1 per dish | Stainless | In each dish |
+    | Rice cooker | ~25 cm | 1 | White or pastel, lid closed | Side table or floor, soft |
+
+  - **Arrangement**: shared dishes touching in a tight cluster, rice
+    plates around them.
+  - **Served portion vs. whole**: each plate has rice plus one or two
+    spoonfuls of a single dish at its edge, not a heaped sampler.
+  - **State cues**: steam from the rice and curry.
+  - **Absent on purpose**: chopsticks, knives, a carved-vegetable
+    garnish, a water jug and tumblers, beer bottles.
+  - **Prompt-ready line**: "Seen at an angle over a home table: in the
+    centre four shared dishes touching — a bowl of thin pale-green
+    coconut curry, an oval plate of glossy stir-fried morning glory with
+    garlic and red chilli, a puffy golden omelette and a small saucer of
+    red chilli paste with cucumber and long beans — each with a steel
+    serving spoon; three plates of white rice with a spoon and fork,
+    one with a spoonful of curry at its edge."
+
+### C. Isan (Northeast)
+
+#### Som tam (green papaya salad) — form-changing (§4.3 / §4.6)
+
+- **Category**: Everyday — national street food, Isan staple.
+  **Halal status**: **halal-adaptable** — but **pla ra** and **poo
+  dong** (salted field crab) are not usually halal-certified; halal
+  stalls make som tam Thai.
+- **Lineage**: Lao/Isan origin; Isan is ethnically and culturally Lao
+  [HIGH — Wikipedia "Green papaya salad", "Comparison of Lao and
+  Isan", smilethaitours, generationvoyage].
+- **Variants (§4.6)** — two coexisting forms, choose by zone:
+  - **Som tam Thai** (Bangkok/Central): **sweeter, with dried shrimp and
+    roasted peanuts, no fermented fish**; clearer, golden-brown
+    dressing [HIGH — same sources].
+  - **Som tam Lao / som tam pla ra / tam pu pla ra** (Isan): **no
+    peanuts, with pla ra (fermented fish sauce) and often salted crab**;
+    **murkier, darker grey-brown dressing**, saltier, sourer, funkier
+    [HIGH — same sources].
+  - **Default when unspecified**: **som tam Thai in zone 1 and with
+    jasmine-rice meals; som tam pla ra in zone 3 and whenever sticky
+    rice and gai yang are on the table.** [EDITORIAL]
+  - Tam variants (tam sua with khanom jeen, tam mamuang with green mango,
+    tam taeng with cucumber) exist — not re-checked.
+- **Vessel & scale**: pounded in a **clay or wooden krok (~20–25 cm rim)**
+  with a wooden pestle; served on a plate ~20–23 cm or a shallow bowl.
+- **Texture & finish**: **fine pale-green to translucent-white papaya
+  shreds ~10 cm long, 2–3 mm thick**, crisp, glossy with dressing; long
+  beans in 4 cm lengths, bruised; cherry tomatoes halved, juice
+  bleeding; bird's-eye chilli bits; **peanuts and orange dried shrimp
+  on top (Thai)**; a dark pooled dressing and a cracked salted crab
+  (pla ra version). Served with **raw cabbage wedge, long beans, Thai
+  basil** and sticky rice.
+- **Model failure**: coleslaw with mayonnaise; carrot salad; a neat
+  ring-moulded salad; Vietnamese gỏi đu đủ with beef jerky and herbs.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one plate (Thai form; pla ra
+  differences noted).
+  - **What dominates**: papaya shreds ~65%, beans and tomato ~20%,
+    peanuts/shrimp ~10% (Thai) or crab ~10% (pla ra), dressing ~5%
+    pooling.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Papaya shreds | 8–10 cm × 2–3 mm | a loose heap ~13 cm across, 5 cm high | Pale green-white, translucent, glossy | Centre |
+    | Long beans | 4 cm lengths | 6–8 | Bruised green | Through the heap |
+    | Cherry tomatoes | halves ~2 cm | 4–6 | Red, juicy | Through and on top |
+    | Peanuts (Thai) | whole 1 cm | 10–15 | Tan, roasted | On top |
+    | Dried shrimp (Thai) | 1.5 cm | 8–10 | Orange-pink | On top |
+    | Salted crab (pla ra) | ~5 cm, quartered | 1 | Dark, cracked shell | On top |
+    | Dressing | — | a shallow pool | Golden-brown (Thai) / murky grey-brown (pla ra) | Pooled underneath |
+    | Raw cabbage wedge | ~8 cm | 1 | Pale green | Beside |
+    | Long beans (raw) | 15–20 cm | 2–3 | Green | Beside |
+
+  - **Arrangement**: an untidy heap, not moulded; dressing pooling.
+  - **Served portion vs. whole**: shared on the table; each diner takes
+    a forkful onto their rice or eats with sticky rice.
+  - **State cues**: wet sheen, juice running from tomatoes.
+  - **Absent on purpose**: mayonnaise, carrot-dominant shreds, mint and
+    beef jerky (Vietnamese), lettuce cup, peanuts on the pla ra version.
+  - **Prompt-ready line (Thai)**: "On a plate about twice the can's
+    height across, an untidy heap of fine, crisp, glossy pale-green
+    shredded green papaya, each shred about as long as the can is tall,
+    with bruised long-bean pieces and halved cherry tomatoes bleeding
+    juice, roasted peanuts and small orange dried shrimp on top, a
+    golden-brown dressing pooling underneath; a raw cabbage wedge and two
+    long beans beside it." **(Pla ra: "…no peanuts, a murky grey-brown
+    dressing and a cracked small dark salted crab on top.")**
+
+#### Gai yang with sticky rice and jaew (Isan grilled chicken)
+
+- **Category**: Everyday — Isan staple, national street food; the
+  default pairing with som tam and sticky rice. **Halal status**:
+  **halal-adaptable** (chicken; halal gai yang stalls exist in the
+  South).
+- **Lineage**: Isan origin, now national; famous regional styles
+  (Khao Suan Kwang, Wichian Buri) not re-checked [HIGH for Isan origin —
+  Hot Thai Kitchen, Rachel Cooks Thai, Woks of Life, delicious].
+- **Form**: whole **spatchcocked chicken** marinated in garlic, white
+  pepper and coriander root, **clamped flat between split bamboo
+  sticks** and grilled slowly over charcoal; cut into pieces and served
+  with **nam jim jaew** (dried-chilli, lime, fish-sauce dip thickened with
+  **toasted rice powder**) and sticky rice [HIGH — same sources plus
+  openspicebox].
+- **Vessel & scale**: half a chicken ~20–25 cm long, chopped into 6–8
+  bone-in pieces on a plate ~25 cm; jaew in a saucer ~8 cm; sticky rice
+  in a kratip.
+- **Texture & finish**: skin **deep golden-brown to mahogany, taut and
+  slightly crisp with char stripes from the bamboo clamp**, meat white
+  and juicy; jaew **dark brick-red, thin, flecked with chilli flakes
+  and sandy toasted-rice grains**, green onion and coriander.
+- **Model failure**: American BBQ chicken with red sauce; tandoori
+  chicken (red); rotisserie chicken whole.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one shared plate with
+  accompaniments.
+  - **What dominates**: chicken pieces ~55%, sticky rice basket ~25%,
+    jaew and vegetables ~20%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Gai yang pieces | 6–9 cm bone-in | 6–8 (half a bird) | Mahogany-golden skin, char lines, juicy white meat | Piled on a plate |
+    | Kratip with sticky rice | ~7.5 cm (personal) or ~14 cm (family) | 1 per person or 1 shared | Straw bamboo, lid tilted, white rice showing | Beside the plate |
+    | Jaew | saucer ~8 cm | 1 | Brick-red, chilli flakes, sandy rice powder | Front |
+    | Raw vegetables | cabbage wedge 8 cm, beans 15 cm, basil | a small plate | Greens | Beside |
+
+  - **Arrangement**: pieces piled loosely, skin side up.
+  - **State cues**: thin charcoal smoke; fat glistening.
+  - **Absent on purpose**: BBQ sauce, coleslaw, fries, knife and fork
+    (sticky-rice meals are eaten by hand; a spoon only for som tam).
+  - **Prompt-ready line**: "A plate about twice the can's height across
+    piled with bone-in pieces of charcoal-grilled chicken, each about
+    two-thirds the can's height, the skin taut, mahogany-golden with dark
+    grill stripes, the meat white and juicy; a small saucer of thin
+    brick-red chilli dip speckled with toasted rice powder; a lidded
+    woven bamboo basket about as wide as the can, lid tilted to show
+    white sticky rice."
+
+#### Larb and nam tok (minced and sliced meat salads)
+
+- **Category**: Everyday Isan; national. **Halal status**: pork default
+  (larb moo, nam tok moo); **halal-adaptable** (chicken, beef).
+- **Lineage**: Lao/Isan [MEDIUM — not independently re-checked;
+  uncontested].
+- **Variants (§4.6)**: **larb** — minced meat; **nam tok** — grilled meat
+  sliced in strips ("waterfall", for the juices); both dressed with lime,
+  fish sauce, dried chilli, **toasted rice powder**, shallots, mint,
+  sawtooth coriander. **Default: larb moo** (zone 3), **larb gai** if
+  halal or unspecified-protein in zone 1 [EDITORIAL].
+- **Texture & finish**: mince **crumbly, grey-brown flecked with red
+  chilli and sandy toasted-rice grains**, glistening with lime; shallot
+  slivers purple-white; **mint leaves fresh green**; nam tok slices
+  pink-centred to brown, charred edges.
+- **Model failure**: taco meat; Chinese lettuce wraps with hoisin;
+  bolognese.
+- **Confidence**: MEDIUM.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: meat ~65%, herbs ~20%, shallots ~10%, chilli/rice
+    powder ~5% as specks.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Larb mince / nam tok slices | crumbs 0.5 cm / strips 5 × 1.5 cm | a heap ~12 cm / 10–12 strips | Grey-brown, chilli and rice-powder specks / pink-brown, charred edges | Centre |
+    | Mint, sawtooth coriander | 1–3 cm leaves / 8 cm blades | a generous handful | Bright green | Mixed and on top |
+    | Shallot slivers | 2 cm | 10–15 | Purple-white | Through |
+    | Raw vegetables | cabbage wedge, long beans, cucumber | 3–5 pieces | Fresh green | Beside |
+
+  - **State cues**: wet lime gloss.
+  - **Absent on purpose**: lettuce cups, hoisin, tortillas, tomato.
+  - **Prompt-ready line**: "A plate about twice the can's height across
+    with a heap of crumbly minced pork salad, grey-brown flecked with red
+    chilli and sandy toasted-rice grains, glistening with lime, tossed
+    with purple shallot slivers and lots of fresh mint and long
+    sawtooth-coriander leaves; a raw cabbage wedge and long beans beside."
+
+### D. North (Lanna)
+
+#### Khao soi (Chiang Mai curry noodle soup)
+
+- **Category**: Everyday — zone 2 signature; sold in Bangkok too.
+  **Halal status**: **halal-adaptable — and often halal by origin**:
+  Chiang Mai's khao soi has Chinese-Muslim (Chin Haw) roots and many of
+  its famous shops are Muslim; chicken or beef is the default [MEDIUM
+  for the Chin Haw link — not independently re-checked; pork versions
+  exist].
+- **Form**: **wheat-and-egg noodles** in a coconut-milk curry broth
+  (curry powder, turmeric, black cardamom, ginger), **topped with a nest
+  of the same noodles deep-fried crisp**; a **chicken drumstick** (or
+  beef); served with **pickled mustard greens, shallot wedges, a lime
+  wedge and roasted chilli paste** on a side saucer [HIGH — Wikipedia
+  "Khao soi", hungryinthailand, Hot Thai Kitchen, Simply Suwanee].
+- **Variants (§4.6)**: Chiang Mai coconut-curry khao soi (default) vs.
+  the clear-broth Lao/Chiang Rai **khao soi** (rice noodles, tomato-pork
+  sauce — a different dish that shares the name) [MEDIUM — not
+  re-checked]. **Default: Chiang Mai coconut curry.**
+- **Vessel & scale**: bowl ~16–18 cm, often patterned (the rooster bowl
+  is a Thai classic — keep pattern vague); side saucer with three or four
+  condiments.
+- **Texture & finish**: broth **rich ochre-orange, creamy, with a red
+  chilli-oil sheen**; soft flat yellow egg noodles under; **crisp golden
+  noodle nest on top, wiry and curled**; drumstick braised brown,
+  half-submerged; coriander and spring onion.
+- **Model failure**: laksa (Malaysian, with tofu puffs, prawns, bean
+  sprouts); ramen; green curry with noodles.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one bowl.
+  - **What dominates**: broth surface ~45%, crispy-noodle nest ~25%,
+    drumstick ~20%, herbs ~10%; condiments on the saucer.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Broth | — | to ~2 cm below rim | Ochre-orange, creamy, red oil sheen | Base |
+    | Soft egg noodles | flat ~5 mm | a nest | Yellow, soft | Submerged, visible at the edges |
+    | Crispy noodles | nest ~8 cm across, 3 cm high | 1 | Golden, wiry, crisp | Crowning the centre |
+    | Chicken drumstick | ~10–12 cm | 1 | Braised, tan-brown, bone end out | Half-submerged at one side |
+    | Coriander, spring onion | 1–2 cm | a pinch | Green | On top |
+    | Side saucer | ~12 cm | 1 | Pickled mustard greens (olive), shallot wedges (purple), lime wedge, dark-red chilli paste | Beside the bowl |
+
+  - **State cues**: steam; crispy nest still dry on top.
+  - **Absent on purpose**: tofu puffs, prawns, bean sprouts (laksa),
+    ramen egg, chopsticks-only (show spoon and chopsticks).
+  - **Prompt-ready line**: "A bowl about one and a half times the can's
+    height across filled with rich, creamy, ochre-orange curry broth with
+    a red oil sheen, soft yellow egg noodles beneath, a tangled nest of
+    golden crisp-fried noodles in the centre, a braised chicken drumstick
+    about the can's height long half-submerged, coriander on top; beside
+    it a small saucer of pickled mustard greens, purple shallot wedges, a
+    lime wedge and dark-red chilli paste."
+
+#### Khan tok set (sai ua, nam prik noom, khaep moo, gaeng hang lay)
+
+- **Category**: Special occasion — a Lanna feast for guests and
+  festivals; the components are everyday Northern food. **Halal
+  status**: **pork** (all four components) — no halal default.
+- **Lineage**: Lanna (Northern Thai); khan tok = a **low, round wooden
+  tray table with legs**, diners seated on the floor [HIGH — siam.recipes,
+  Fan Club Thailand, live-less-ordinary, tielandtothailand].
+- **Form**: sticky rice in kratips plus small bowls of **sai ua** (herb
+  sausage: pork, dried chilli, lemongrass, kaffir lime leaf, galangal,
+  charcoal-grilled), **nam prik noom** (pale-green grilled-chilli dip),
+  **nam prik ong** (red pork-and-tomato dip), **khaep moo** (puffed
+  pork crackling), **gaeng hang lay** (Burmese-influenced mild pork-belly
+  curry with ginger and peanuts), steamed and raw vegetables [HIGH — same
+  sources].
+- **Vessel & scale**: khan tok ~60–80 cm across, ~20–30 cm high (LOW —
+  not sourced); small bowls ~8–12 cm.
+- **Texture & finish**: sai ua **coiled, dark mahogany casing, cut in
+  1 cm diagonal coins showing a coarse, orange-red, herb-flecked
+  interior**; nam prik noom **pale khaki-green, coarse, fibrous**; nam
+  prik ong **orange-red, chunky with minced pork**; khaep moo **puffed,
+  pale golden, airy, crackly, 5–8 cm pieces**; gaeng hang lay **dark
+  reddish-brown, glossy, chunks of pork belly with gelatinous fat,
+  ginger slivers**.
+- **Model failure**: a Western sausage platter; Indian thali; cocktail
+  sausages.
+- **Confidence**: HIGH (components); LOW (tray sizes).
+- **Composition & proportions (§4.7)** — one khan tok tray for 3–4.
+  - **What dominates**: the tray holds 6–8 small bowls; sticky-rice
+    baskets ~25% of the tray, sai ua plate ~15%, khaep moo ~15% (bulky
+    and pale), curry ~15%, dips ~15%, vegetables ~15%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Khan tok | ~70 cm round | 1 | Dark lacquered wood or rattan | Base, on a floor mat |
+    | Kratips | ~7.5 cm | 1 per diner | Straw bamboo | Around the rim |
+    | Sai ua | coins 4 cm, 1 cm thick | 12–15 | Mahogany casing, orange-red coarse interior | Small plate |
+    | Nam prik noom | bowl ~8 cm | 1 | Pale khaki-green, coarse | Centre |
+    | Nam prik ong | bowl ~8 cm | 1 | Orange-red, chunky | Centre |
+    | Khaep moo | 5–8 cm pieces | 8–10 | Puffed pale gold, airy | Small plate or bowl |
+    | Gaeng hang lay | bowl ~12 cm | 1 | Dark red-brown, pork belly 3 cm chunks × 6, ginger | Centre |
+    | Vegetables | cucumber, long beans, cabbage, steamed pumpkin | a plate | Greens, orange | Edge |
+
+  - **Arrangement**: small bowls packed on the round tray, baskets at the
+    rim near each diner.
+  - **State cues**: sausage sliced, juices; curry glossy.
+  - **Absent on purpose**: chairs at the tray, alcohol, chopsticks,
+    traditional dancers in focus.
+  - **Prompt-ready line**: "A low round dark-wood tray table about six
+    can-heights across on a floor mat, crowded with small bowls: pale
+    khaki-green chilli dip, chunky orange-red pork-tomato dip, glossy
+    dark red-brown pork-belly curry with ginger slivers, a plate of
+    coin-sliced grilled herb sausage with a coarse orange-red interior, a
+    pile of airy puffed golden pork crackling, raw cucumber and long
+    beans; small lidded woven bamboo sticky-rice baskets, each about the
+    can's width, around the rim."
+
+### E. South and Deep South
+
+#### Gaeng tai pla and gaeng som with rice (southern curries)
+
+- **Category**: Everyday — zone 4 home and khao gaeng shop food.
+  **Halal status**: **halal** in content (fish, vegetables) when made
+  without pork; check shrimp paste and kitchen.
+- **Lineage**: Southern Thai, around Nakhon Si Thammarat and Phuket;
+  **gaeng tai pla** is built on fermented fish-innards sauce (tai pla)
+  with turmeric, fresh and dried chilli, shrimp paste, lemongrass,
+  galangal — **one of the most pungent and fiery dishes in Thai
+  cuisine**, eaten with rice and fresh vegetables to temper it [HIGH —
+  Wikipedia "Kaeng tai pla", thailandblog.nl, foodof, thailandknowledge].
+  **Gaeng som / gaeng lueang** (sour yellow curry) is the South's
+  turmeric-yellow, tamarind-sour fish curry with green papaya, bamboo
+  shoot or morning glory [MEDIUM — not independently re-checked].
+- **Variants (§4.6)**: gaeng tai pla (murky dark ochre, chunky with
+  eggplant, pumpkin, bamboo shoot, grilled fish flakes) vs. gaeng som
+  (thin, clear-ish bright turmeric yellow, fish chunks). **Default:
+  gaeng som** (more legible on camera). [EDITORIAL]
+- **Served with**: a plate of rice per person and a **big plate of
+  fresh raw vegetables and herbs (phak got)** — cucumber, long beans,
+  cabbage, sator beans, young leaves — the Southern table's signature
+  [MEDIUM — not re-checked].
+- **Texture & finish**: gaeng som **thin, bright turmeric-yellow, no
+  coconut**, pieces of white fish and pale green papaya strips; gaeng tai
+  pla **murky ochre-brown, flecked**, chunky vegetables.
+- **Model failure**: Indian fish curry with coconut; green curry; a
+  creamy yellow Japanese curry.
+- **Confidence**: HIGH (gaeng tai pla); MEDIUM (gaeng som).
+- **Composition & proportions (§4.7)** — shared bowl, rice and
+  vegetable plate.
+  - **What dominates**: curry bowl ~40% of the frame, vegetable plate
+    ~35%, rice plates ~25%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Gaeng som | bowl ~16 cm, to 2 cm below rim | 1 | Thin bright turmeric-yellow, no oil film | Centre |
+    | Fish chunks | ~4 cm | 5–6 | White, skin-on | Half-submerged |
+    | Green papaya strips / bamboo shoot | 5 × 1 cm | 10–12 | Pale green / ivory | Submerged |
+    | Phak got vegetable plate | ~25 cm oval | 1 | Cucumber, long beans 15 cm, cabbage wedge, sator pods, leaves | Beside |
+    | Rice plates | ~20 cm | 2–3 | White | At places |
+
+  - **State cues**: steam; the yellow broth catches light.
+  - **Absent on purpose**: coconut milk, cream, naan, pork.
+  - **Prompt-ready line**: "A bowl about one and a half times the can's
+    height across of thin, bright turmeric-yellow sour fish curry, no
+    coconut, with chunks of white fish and pale green papaya strips
+    showing beneath the surface; beside it an oval plate heaped with raw
+    vegetables — cucumber, long beans as long as one and a half cans,
+    a cabbage wedge and green sator bean pods — and plates of white rice."
+
+#### Kua kling (dry-fried southern curry) — compact
+
+- **Category**: Everyday South. **Halal status**: pork default
+  (moo), halal-adaptable (chicken, beef).
+- **Form**: minced meat dry-fried with a hot southern curry paste and
+  fresh turmeric until no liquid remains, shredded kaffir lime leaves on
+  top; eaten with rice and raw vegetables [MEDIUM — not independently
+  re-checked; kua kling paste mentioned via search].
+- **Composition & proportions (§4.7)**: mince ~75%, lime-leaf threads
+  ~10%, vegetables beside ~15%; a heap ~10 cm on a small plate; crumbs
+  0.3–0.8 cm, **dry, reddish-ochre, oil-glossy, no sauce**, hair-thin
+  green lime-leaf threads; **absent**: gravy, coconut, beans. **Prompt
+  line**: "A small plate with a heap, about the can's height across, of
+  dry, crumbly reddish-ochre minced meat glossy with spiced oil and no
+  sauce, topped with hair-thin shreds of dark green lime leaf; raw
+  cucumber and long beans beside." [EDITORIAL]
+
+#### Khao yam (southern rice salad)
+
+- **Category**: Everyday — breakfast-to-lunch in the South; health
+  dish. **Halal status**: **halal** (common at halal kitchens).
+- **Lineage**: Southern Thai (and northern Malaysian nasi kerabu
+  kinship); dressing of **nam budu** — fermented-fish sauce cooked with
+  palm sugar into a dark sweet-salty syrup [HIGH — Hot Thai Kitchen,
+  Splendid Table, The Phuket News, islandseeker].
+- **Form**: a mound of rice — **plain white or tinted blue with
+  butterfly-pea flower** — ringed by **small separate piles** of finely
+  sliced lemongrass, kaffir lime leaf, long beans, bean sprouts, toasted
+  grated coconut, pomelo segments or green mango, dried shrimp powder,
+  chilli flakes and herbs; budu dressing poured on at the table and
+  tossed [HIGH — same sources].
+- **Variants (§4.6)**: white rice (everyday) vs. **blue rice** (festive,
+  and the Deep South/Pattani look). **Default: blue rice in zone 5,
+  white elsewhere.** [EDITORIAL]
+- **Texture & finish**: rice matte, separate; piles fine, crisp, mostly
+  green and white with pink pomelo, golden toasted coconut and orange
+  shrimp floss; budu **dark brown, glossy, syrupy** in a small bowl.
+- **Model failure**: a poke bowl; a grain salad with quinoa; sushi.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one plate before tossing.
+  - **What dominates**: rice ~35% (centre), the ring of piles ~55%,
+    budu bowl ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Rice | mound ~10 cm | 1 | Matte white or pale-to-deep blue | Centre |
+    | Toasted coconut | pile ~4 cm | 1 | Golden-tan flakes | Ring |
+    | Shrimp floss | pile ~4 cm | 1 | Orange-pink powder | Ring |
+    | Lemongrass / lime leaf | hair-thin slivers | 1 pile each | Pale yellow-green / dark green | Ring |
+    | Long beans | 5 mm rounds | 1 pile | Green | Ring |
+    | Bean sprouts | 3–4 cm | 1 pile | White | Ring |
+    | Pomelo | segments 2–3 cm | 1 pile | Pink, juicy | Ring |
+    | Chilli flakes, lime | — | a pinch, a wedge | Red, green | Ring |
+    | Budu | bowl ~7 cm | 1 | Dark glossy brown syrup | Beside |
+
+  - **Arrangement**: radial — rice centre, 7–9 neat piles around it.
+  - **State cues**: fresh, dry, crisp — no steam.
+  - **Absent on purpose**: raw fish, avocado, sesame, soy sauce.
+  - **Prompt-ready line**: "A plate about twice the can's height across:
+    a small dome of matte blue-tinted rice in the centre, ringed by small
+    separate piles of golden toasted coconut, orange shrimp floss,
+    hair-thin lemongrass and lime-leaf slivers, sliced long beans, bean
+    sprouts and pink pomelo segments, a lime wedge; beside it a small
+    bowl of dark glossy brown syrupy sauce."
+
+#### Khao mok gai (Thai-Muslim chicken biryani)
+
+- **Category**: Everyday — Thai-Muslim staple; zone 5 default and sold
+  nationwide at halal shops. **Halal status**: **halal**.
+- **Lineage**: Thai-Muslim, Southern origin, Indian/Persian roots;
+  "rice buried chicken" [HIGH — Hot Thai Kitchen, Viet World Kitchen,
+  The Spicery, nomadette, theworldofstreetfood].
+- **Form**: **turmeric-yellow rice** cooked with spiced chicken
+  (turmeric, curry powder, yoghurt marinade); the chicken bone-in, or
+  marinated and **deep-fried crisp** (Southern style); **crispy fried
+  shallots** on top; **a bright green sweet-sour mint-chilli sauce (nam
+  jim)** in a saucer; **sliced cucumber**; often a small bowl of clear
+  chicken soup [HIGH — same sources].
+- **Confusable**: Indian biryani (layered, saffron-and-white patches,
+  raita, boiled egg). **Thai markers**: uniformly **yellow** rice, the
+  **green sweet-sour sauce**, cucumber, fried shallots, a plain plate.
+- **Vessel & scale**: plate ~23 cm; drumstick-thigh ~12–15 cm.
+- **Texture & finish**: rice **bright turmeric-yellow, fluffy, separate,
+  a few raisins possible**; chicken **golden-brown, either braised yellow
+  or crisp-fried with a crackly crust**; shallots crisp, dark gold; sauce
+  vivid green, translucent with mint flecks.
+- **Model failure**: Indian biryani in a handi; paella; Chinese fried
+  rice.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: yellow rice ~55%, chicken ~25%, cucumber ~10%,
+    shallots ~5%, sauce ~5% (saucer).
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Yellow rice | mound ~13 cm, 5 cm high | 1 | Bright turmeric-yellow, fluffy | Centre-left |
+    | Chicken leg (thigh-drumstick) | ~12–15 cm | 1 | Golden-brown, crisp-fried crust or braised yellow | Laid against the rice, right |
+    | Fried shallots | slivers 1 cm | a generous pinch | Dark gold, crisp | Over rice and chicken |
+    | Cucumber | slices 3 cm | 4–5 | Pale green | Edge |
+    | Green sauce | saucer ~7 cm | 1 | Vivid translucent green, mint flecks | Beside |
+    | Clear soup (optional) | bowl ~10 cm | 1 | Pale gold | Beside |
+
+  - **State cues**: steam; crust crackly.
+  - **Absent on purpose**: boiled egg, raita, saffron-white patches,
+    a handi, pork, alcohol.
+  - **Prompt-ready line**: "A white plate about twice the can's height
+    across: a fluffy mound of bright turmeric-yellow rice, a fried chicken
+    leg about the can's height long with a crackly golden-brown crust
+    resting against it, crisp dark-gold fried shallots scattered over
+    both, cucumber slices at the edge; beside it a small saucer of vivid
+    translucent green mint-chilli sauce."
+
+#### Roti (Thai-Muslim fried flatbread) — street sweet and curry roti
+
+- **Category**: Everyday — street snack nationwide (sweet), breakfast
+  in the South (with curry). **Halal status**: **halal** (Muslim
+  vendors).
+- **Lineage**: South Asian–Malay Muslim, via the South [MEDIUM — not
+  independently re-checked; uncontested].
+- **Variants (§4.6)**: **roti gluay** (street sweet — stretched dough
+  wrapped around banana and egg, fried in butter or margarine on a flat
+  griddle, cut into squares, **drizzled with sweetened condensed milk
+  and sugar**; served on paper) vs. **roti gaeng** (South — plain flaky
+  roti with a bowl of Malay chicken or beef curry). **Default: roti
+  gluay in zones 1–3; roti gaeng in zones 4–5.** [EDITORIAL]
+- **Texture & finish**: roti **crisp golden-brown blistered outside,
+  flaky layers**; sweet version cut in ~4 cm squares, a white zig-zag of
+  condensed milk, sugar crystals, soft banana inside; curry roti torn,
+  layered, with an orange-brown curry with oil sheen.
+- **Model failure**: crêpe with Nutella; Indian paratha with sabzi;
+  naan.
+- **Confidence**: MEDIUM.
+- **Composition & proportions (§4.7)** — roti gluay on paper.
+  - **What dominates**: roti squares ~85%, condensed milk ~10%, sugar ~5%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Roti squares | ~4 × 4 cm, 1.5 cm thick | 9–12 | Crisp golden-brown, blistered, flaky | Heaped on a square of paper on a plate or ledge |
+    | Banana | slices visible in cut sides | — | Soft pale yellow | Inside |
+    | Condensed milk | thin drizzle | zig-zag | Glossy white | Over the top |
+    | Sugar | crystals | a sprinkle | White sparkle | On top |
+    | Wooden skewer / toothpick | ~10 cm | 1 | Pale wood | Stuck in one square |
+
+  - **State cues**: buttery gloss; milk just poured.
+  - **Absent on purpose**: chocolate spread, whipped cream, fruit
+    garnish, a hand.
+  - **Prompt-ready line**: "On a square of plain paper on a counter, a
+    small heap of crisp, blistered golden-brown fried flatbread cut into
+    squares each about half the can's width, soft banana showing at the
+    cut edges, a glossy white zig-zag of condensed milk and a sprinkle
+    of sugar on top, one wooden toothpick stuck in."
+
+#### Satay and gai golek (Deep South grills) — compact
+
+- **Category**: Everyday street — zone 5 and Bangkok halal stalls.
+  **Halal status**: **halal** (chicken, beef).
+- **Form**: **satay** — small turmeric-marinated skewers grilled over
+  charcoal, with a **peanut sauce** and **ajad** (cucumber-shallot-chilli
+  relish in sweet vinegar) and toast squares in Bangkok; **gai golek /
+  ayam percik** — grilled chicken basted with a red spiced coconut sauce
+  [MEDIUM — not independently re-checked].
+- **Composition & proportions (§4.7)**: skewers ~55%, peanut sauce
+  ~25%, ajad ~20%; skewers ~15–18 cm with meat ~6–8 cm, × 8–10, **yellow-
+  tinged, charred**; peanut sauce orange-brown, thick, in a bowl ~8 cm;
+  ajad pale-green cucumber cubes 1 cm with red chilli and shallot in
+  clear syrup in a saucer; **absent**: pork (moo satay is a Bangkok
+  Chinese-Thai variant — not in zone 5), beer. **Prompt line**: "Ten
+  short bamboo skewers of yellow-tinged chicken, the meat on each about
+  half the can's height, charred at the edges, fanned on a plate; a
+  small bowl of thick orange-brown peanut sauce and a saucer of diced
+  cucumber with red chilli and shallot in clear syrup." [EDITORIAL]
+
+### F. Sweets and festival tables
+
+#### Mango sticky rice (khao niao mamuang)
+
+- **Category**: Everyday sweet and street dessert; **peaks in mango
+  season, April–May** (Songkran) [HIGH — eatingthaifood, Hot Thai
+  Kitchen, Rachel Cooks Thai, 196flavors]. **Halal status**: **halal**.
+- **Form**: steamed glutinous rice soaked in sweetened coconut cream,
+  served beside **sliced ripe yellow mango** (nam dok mai or ok rong
+  varieties), topped with a **thick salted coconut cream** and
+  **crispy fried yellow mung beans** [HIGH — same sources plus America's
+  Test Kitchen].
+- **Vessel & scale**: plate ~18–20 cm, or a clear plastic box / banana-
+  leaf tray at a street stall.
+- **Texture & finish**: sticky rice **glossy, pearly white (or blue from
+  butterfly pea, or a pandan-green variant), grains plump and fused**,
+  slightly translucent; mango **deep golden-yellow, satiny, sliced
+  crosswise into 1.5 cm slices from a whole cheek**; coconut cream
+  **thick, ivory, pooled** on the rice; mung beans **tiny crisp golden
+  specks**.
+- **Model failure**: mango cubes in a parfait; rice pudding in a bowl;
+  scored "hedgehog" mango; white jasmine rice.
+- **Confidence**: HIGH.
+- **Composition & proportions (§4.7)** — one plate.
+  - **What dominates**: mango ~50%, sticky rice ~40%, coconut cream ~8%,
+    mung beans ~2% as specks.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Mango cheek, sliced | cheek ~10–12 cm long, 6 cm wide; slices 1.5 cm | 1 cheek (half a mango) in 6–8 slices, fanned | Deep golden-yellow, satiny wet | Right side |
+    | Sticky rice | mound ~8 cm, 4 cm high | 1 | Glossy pearly white, fused grains | Left side |
+    | Salted coconut cream | ~2 tbsp | 1 pool | Thick ivory | Over the rice, running down one side |
+    | Mung beans | 3–4 mm | a pinch | Crisp golden specks | On the cream |
+
+  - **Arrangement**: rice and mango side by side, mango fanned along the
+    rice; plate visible around.
+  - **Vessel fill**: ~60%.
+  - **State cues**: mango wet and glossy; cream just poured; rice warm.
+  - **Absent on purpose**: mint sprig, cubed mango, sesame seeds, ice
+    cream, chopsticks.
+  - **Prompt-ready line**: "A small plate: a fanned half mango sliced
+    crosswise, deep golden-yellow and satiny, the cheek about as long
+    as the can is tall, beside a mound of glossy, pearly-white sticky
+    rice about two-thirds the can's height across, thick ivory coconut
+    cream poured over the rice and running down its side, a pinch of
+    tiny crisp golden mung beans on top."
+
+#### Khao chae (Songkran chilled jasmine-water rice) — compact
+
+- **Category**: Seasonal (April, Songkran); Central/royal-cuisine
+  register. **Halal status**: side dishes often include pork (stuffed
+  shallots, sweet shredded pork) — not a halal default.
+- **Form**: rice in **chilled water scented with jasmine flowers**
+  (sometimes ice) in a bowl, with several **small separate side dishes**:
+  fried shrimp-paste balls, stuffed shallots and peppers, sweet shredded
+  pork or fish, pickled radish fried with egg; carved raw vegetables
+  [HIGH for the dish — Patra Porcelain, watcharees, Chef Ko; side-dish
+  list MEDIUM].
+- **Composition & proportions (§4.7)**: rice-in-water bowl ~40%, side
+  dishes ~50%, vegetables ~10%; bowl ~12–14 cm, rice settled under clear
+  water to 1 cm below rim, a few small white jasmine flowers and ice
+  chips floating; 4–5 side dishes on small saucers ~8 cm, each 3–5 small
+  golden-brown fried pieces ~2–3 cm; **this is the one dish where carved
+  vegetables are correct**; **absent**: soy sauce, chopsticks. **Prompt
+  line**: "A bowl about the can's height across of white rice under
+  clear chilled water with ice chips and a few tiny white jasmine
+  flowers floating; around it small saucers of golden fried balls and
+  stuffed shallots, each piece about a third of the can's width, and a
+  few finely carved raw vegetables." [EDITORIAL]
+
+#### Vegetarian Festival jay plate (Kin Je) — compact
+
+- **Category**: Seasonal (9th Chinese lunar month; Phuket, Bangkok
+  Yaowarat, Trang). **Halal status**: no meat at all (vegan).
+- **Form**: **jay** food — no meat, fish, eggs, dairy, garlic, onion,
+  chives; stalls marked by **yellow flags**; tofu, mock meats (soy
+  "pork," "fish," "duck"), stir-fried vegetables, jay curries and noodles
+  over rice [MEDIUM — Phuket festival guides (phuket101, thailandhighlights,
+  evephuket); ingredient rules not independently re-checked].
+- **Composition & proportions (§4.7)**: rice ~45%, two jay toppings ~45%,
+  greens ~10%; khao gaeng-style plate ~23 cm; mock-meat slices 3–4 cm ×
+  6, tofu cubes 2 cm × 8, stir-fried greens a spoonful; brown glossy soy
+  sauces, golden fried tofu; **absent**: egg, any visible garlic or
+  onion, meat, fish sauce saucer (swap to soy). **Prompt line**: "A plate
+  of white rice with two vegetarian toppings ladled beside it — glossy
+  brown slices of soy mock meat about a third of the can's height, and
+  golden fried tofu cubes with stir-fried greens; no egg, no meat, no
+  onion or garlic visible." [EDITORIAL]
+
+### G. Morning Module (off by default)
+
+#### Jok (rice congee)
+
+- **Category**: Breakfast (and late night). **Halal status**: pork
+  default (pork balls, minced pork); halal-adaptable (chicken, fish).
+- **Lineage**: Chinese-Thai [MEDIUM — not independently re-checked].
+- **Form**: rice cooked down to a **smooth, thick, almost glue-like
+  porridge** (broken grains, no visible grains — unlike khao tom, a
+  loose rice soup with whole grains), with **pork balls**, often a
+  **raw or soft egg** cracked in, ginger julienne, spring onion, fried
+  garlic, white pepper, patongko on the side [MEDIUM — not re-checked].
+- **Texture & finish**: **thick, smooth, matte white-cream**, a slight
+  skin; pork balls pale grey; egg yolk orange; ginger pale gold shreds.
+- **Model failure**: Western porridge with fruit; khao tom with whole
+  grains; risotto.
+- **Confidence**: MEDIUM.
+- **Composition & proportions (§4.7)** — one bowl.
+  - **What dominates**: congee ~75%, pork balls ~10%, egg ~5%, garnish
+    ~10%.
+  - **Component table**:
+
+    | Component | Real size | Count | Look | Where it sits |
+    |---|---|---|---|---|
+    | Jok | bowl ~14–16 cm, to 1.5 cm below rim | 1 | Thick, smooth, matte cream-white | Base |
+    | Pork balls | ~2.5 cm | 4–5 | Pale grey, irregular | Half-submerged |
+    | Egg (soft) | yolk ~3.5 cm | 1 | Orange yolk, white just set at the edge | Centre |
+    | Ginger julienne | 3 cm shreds | a pinch | Pale gold | On top |
+    | Spring onion, fried garlic, pepper | — | a pinch each | Green rings, golden bits, grey specks | On top |
+    | Patongko (optional) | see below | 2–3 pieces | Golden | Beside or dipped |
+
+  - **State cues**: thick steam, a sheen of skin forming.
+  - **Absent on purpose**: fruit, milk, whole rice grains, chopsticks
+    (porcelain spoon only).
+  - **Prompt-ready line**: "A bowl about one and a half times the can's
+    height across filled with thick, smooth, matte cream-white rice
+    porridge with no visible grains, four pale pork balls half-sunk in
+    it, a soft egg with an orange yolk in the centre, pale gold ginger
+    shreds, spring onion rings and golden fried garlic on top; a
+    porcelain spoon resting in it."
+
+#### Patongko (Thai fried dough) — compact
+
+- **Category**: Breakfast street snack. **Halal status**: halal
+  (plain dough; sold by Muslim and non-Muslim vendors).
+- **Form**: small **paired (X- or butterfly-shaped) fried dough sticks**,
+  smaller and puffier than Chinese youtiao, eaten with warm soy milk,
+  jok, or a **pandan custard (sangkaya) dip** or condensed milk
+  [MEDIUM — not re-checked].
+- **Composition & proportions (§4.7)**: dough ~85%, dip ~15%; each piece
+  ~8–10 cm long, two joined lobes, puffed, **crisp golden-brown, blistered,
+  hollow-airy**, × 5–6 in a paper-lined basket or bag laid flat; a saucer
+  of **bright green pandan custard**; **absent**: powdered sugar, churro
+  ridges, a soy-milk cup. **Prompt line**: "Five puffy, crisp,
+  golden-brown fried dough twins, each about two-thirds the can's height
+  long, blistered and airy, in a paper-lined basket, with a small saucer
+  of bright green pandan custard." [EDITORIAL]
+
+---
+
+## EXAMPLE PROMPT LANGUAGE (illustrative — not validated by any image test)
+
+**Kra pao lunch at a Bangkok soi stall, 1 person, zone 1 (hero named by
+the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
+> Eye-level photograph at a pavement food stall in a Bangkok side street,
+> bright overcast midday light, a stainless-steel table, the stall's wok
+> and glass case softly out of focus behind. On a white plate about
+> twice the bottle's height across: a neat dome of glossy jasmine rice
+> crowned with a wok-fried egg, its edges puffed, lacy and crisp brown,
+> the yolk runny; beside it a heap of dark glossy stir-fried minced pork
+> with chilli rings and wilted small holy basil leaves; a spoon and fork
+> on the rim and a saucer of fish sauce with chilli rings. Beside the
+> plate: a small Coca-Cola Original Taste glass bottle, clear contoured
+> glass showing the dark cola, crown cap, and a plain glass of ice cubes.
+> Not Zero Sugar, not Pepsi, not est, not any other cola brand. No water
+> jug, no iced tea, no other drinks; no legible text or signage anywhere;
+> nothing held in a hand; neutral colour grading. Pack text will be
+> composited in post.
+
+**Isan family lunch under a stilted house, 3 people, zone 3 (hero: a
+1.5 L PET, as named by the brief):**
+> Daylight in the shaded open space beneath a raised wooden house, rice
+> paddies bright beyond, a woven mat on a low wooden platform. In the
+> centre: a plate piled with charcoal-grilled chicken pieces with taut
+> mahogany skin and grill stripes, an untidy heap of shredded green
+> papaya salad with a murky dressing and a small dark salted crab, a
+> plate of crumbly minced-pork salad with mint, a saucer of brick-red
+> chilli dip with toasted rice powder, raw cabbage and long beans; three
+> small lidded woven bamboo baskets of sticky rice, each about the
+> width of a soda can. In the midground a 1.5-litre Coca-Cola Original
+> Taste plastic bottle, red label, and a plain glass of ice and cola at
+> each place. No beer, no water jug, no other drinks; no legible text;
+> nothing held in a hand; no knives.
+
+*Before use: run at least two generations per prompt
+(`country-file-schema.md` §7.5) and apply this file's confidence tags.
+**Confirm the 325 mL can's height before any can prompt.***
+
+**Khao mok gai in Pattani, 1 person, zone 5, halal (hero: a Coke Zero
+325 mL can, as named by the brief):**
+> Eye-level photograph at a small, clean family restaurant in southern
+> Thailand, warm late-morning light, a plain tiled wall softly out of
+> focus. On a white plate: a fluffy mound of bright turmeric-yellow rice,
+> a crisp golden-brown fried chicken leg about the can's height long,
+> crisp dark-gold fried shallots, cucumber slices; a small saucer of
+> vivid green mint-chilli sauce. Beside the plate: a Coke Zero 325 ml
+> can, black aluminium, not the red Original, not Pepsi, not any other
+> cola brand. No pork, no alcohol, no water jug, no tea, no other drinks;
+> no legible text or signage anywhere; nothing held in a hand; neutral
+> colour grading. Pack text will be composited in post.
+
+---
+
+## GAP LOG
+
+- **Composition & proportions blocks (§4.7) are mostly editorial
+  synthesis.** Piece sizes are sourced only where tagged (kratip sizes
+  from vendors, boat-noodle bowl concept); counts, surface shares and most
+  piece sizes (plates, bowls, eggs, skewers, chicken pieces, mango,
+  sausage, roti) are reasoned from recipes and serving norms and must be
+  checked against two or more image generations per prompt-ready line.
+  The compact entries carry one-paragraph §4.7 blocks, not full tables.
+- **The 325 mL can's dimensions are unknown.** Every "relative to the
+  can" phrase uses a provisional ~11.5 × 6.6 cm anchor. A real can or the
+  TCCC spec drop flagged in `coca-cola-guidelines.md` settles it.
+- **Contradiction with `coca-cola-guidelines.md` §4.3.** Its rule
+  "default to the 330 mL can for any non-US market" does not fit
+  Thailand, a **325 mL** can market (Makro, Tops, ThaiNamthip pages).
+  That makes four markets that break it (Mexico 355, Brazil 350, India
+  300, Thailand 325). Also §4.4's "500mL" personal bottle: Thailand's
+  confirmed personal PETs are **300, 450 and 510 mL**. And §4.3's generic
+  330 mL contour glass bottle: Thailand's current returnable glass is
+  **250 mL**. Not edited here.
+- **ThaiNamthip's size list (180–500 mL) for Coke Original Taste** came
+  through a search snippet without formats; which sizes are cans, glass
+  or PET, and whether a 245 mL can or a sleek can is current, is
+  unresolved.
+- **Variant naming**: the relationship between "Coke Original Taste" and
+  "Coke Original Taste Less Sugar" (whether the red-can Original was
+  reformulated for Thailand's sugar-based excise tax, and how the two
+  packs differ visually) was not researched. **Pack colours for Coke Zero
+  Zero and the Less Sugar variant are not confirmed.**
+- **Blocked source**: thainamthip.co.th (egress proxy). Product claims
+  from it are marked "(via search)".
+- **Housing**: the stock split (73% detached / 18% townhouse / 9% condo
+  and apartment) is the 2010 census via a JICA report snippet; no 2020
+  census breakdown was found. The 86% condo figure is new supply in one
+  year, not stock.
+- **Festival dates**: Loy Krathong 2027 (14 Nov) rests on one source;
+  the 2027 Vegetarian Festival (29 Sep – 7 Oct) is a projection; Chinese
+  New Year 2026/2027 was not searched; Ramadan/Eid 2027 dates are
+  carried from `india.md`'s search and depend on Thailand's own moon
+  sighting (Chularatchamontri announcement).
+- **Not searched this pass** (tagged "not independently re-checked"):
+  Buddhist/royal imagery practice and lèse-majesté framing, alcohol sale
+  hours (reviewed in 2025 — current rule unknown), tom yum's UNESCO
+  listing, pad thai history beyond a snippet, khao soi's Chin Haw link,
+  kua kling, gaeng som, jok, patongko, roti, satay, Kin Je ingredient
+  rules, mookata, Gen Z housing, chopsticks-for-noodles norm, plate and
+  bowl sizes, iced-soda-in-a-bag practice, energy-drink prior, Fanta
+  flavour colours.
+- **No Thailand entry in `tableware-composition-reference.md`** (its row
+  says "Not started"; it already flags spoon-and-fork as expected — now
+  confirmed HIGH here). The kratip and plate sizes here could seed it.
+- **Sensitive framing that needs a reviewer**: the Deep South (zone 5)
+  is the site of a long-running insurgency; this file stages ordinary
+  food and family scenes only and should never imply conflict or
+  security imagery — **TCCC Thailand / Haad Thip should confirm whether
+  zone-5 scenes are wanted at all**. Also the royal-portrait and
+  Buddha-image exclusions, the halal rules, and the "pork is normal —
+  don't sanitise it" stance. All are editorial and should be checked
+  against TCCC Thailand's own guidance.
+- **Missing dishes**: hoy tod (oyster omelette), rad na, yen ta fo,
+  khanom jeen nam ngiao, sai krok Isan, pla pao (salt-crusted fish),
+  jim jum hot pot, mookata (as an entry), Phuket mee hokkien and dim sum,
+  khanom krok, Thai desserts (bua loy, khanom chan), fruit with
+  chilli-salt.
+
+- **Celebrations pass (2026-10-01) open items**: headcounts for Songkran,
+  Chinese New Year, Hari Raya, house-blessing and birthday gatherings are
+  editorial estimates (not verified); the village-wedding "over a
+  hundred guests" figure rests on two tier-4 first-hand accounts; the
+  round-table-of-10 banquet norm is sourced for ordinations (Bangkok
+  Post) but only from general Chinese-banquet sources for weddings;
+  banquet place-setting details (chopsticks at Thai-Chinese banquets)
+  and the Hari Raya spread in zone 5 were not verified. **Resolved
+  2026-10-01 (Fernando)**: ordination and house-blessing feasts are kept
+  because both are common parts of Thai life; the entries stage only the
+  guests' meal, after or apart from the monks.
+
+- **Game-night pass (2026-10-01) open items**: Muay Thai as a
+  weekend-afternoon TV habit, the viewing-food spread (moo ping, gai
+  yang, som tam, larb, crispy pork), home-versus-shop viewing, Thai
+  national-team kick-off times, women's volleyball as a viewing
+  occasion, the scale of football betting, karaoke-room menus and timing,
+  board-game café food, and home mookata with card or board games are
+  all not verified (model knowledge or editorial). Champions League
+  times are time-zone arithmetic only.
+
+- **Venue-profile pass, wave 1 (2026-10-01) open items**: background
+  details not verified this pass: the tissue box and fly cover on home
+  tables; framed Arabic calligraphy in Deep South homes and shops; the
+  taeng platform bed, ong water jar and tao clay stove under the tai
+  thun (uncontested but not individually searched); colour temperature
+  of tube lighting (editorial); the pastel drape palette and how often
+  tents carry coloured swags versus plain white; the Deep South
+  wedding-tent form and its décor. The townhouse-share figure for
+  Bangkok specifically (as opposed to the national 18%) was not found.
+  The night market, khao gaeng shop, food court, khan tok and karaoke
+  room have no profile yet (later wave).
+
+## CANDIDATE QUEUE
+
+1. **Fernando decisions**: (a) one file with five zones (recommended)
+   vs. any split; (b) street breakfast in the off-by-default morning
+   module; (c) zone 5 (Deep South) — keep, gate behind a TCCC Thailand
+   sign-off, or spin out with a future Malaysia file; (d) the
+   royal/Buddhist imagery exclusions and the pork stance.
+2. Confirm the 325 mL can's height and silhouette and the 250 mL glass
+   bottle's height, then re-check every "relative to the can" phrase.
+   Add Thailand's formats to `coca-cola-guidelines.md` §4.3 once the spec
+   drop lands; reword the 330 mL rule (now four exceptions).
+3. Resolve Coke Original Taste vs. Original Taste Less Sugar (pack look,
+   which one is the everyday red can) and the Zero Zero pack colours.
+4. Confirm Loy Krathong 2027, Vegetarian Festival 2027, Chinese New Year
+   2027 and Thai Ramadan/Eid 2027 dates closer to the time.
+5. Re-check the unsearched claims listed in the GAP LOG, then add the
+   missing dishes (hoy tod, rad na, yen ta fo, khanom jeen nam ngiao,
+   pla pao, mookata, Phuket mee hokkien).
+6. Image tests (two or more generations each), starting with kra pao
+   (diner-egg failure), khao man gai (roast-skin failure), som tam
+   (coleslaw failure, Thai vs pla ra), boat noodles (pho-bowl failure),
+   khao soi (laksa failure), mango sticky rice (cubed-mango failure) and
+   the shared home dinner (one-plate-per-person and chopsticks failure).
+7. Independent §8 audit.
+
+8. **Celebrations pass additions (2026-10-01)**: full catalog entries for
+   the **Thai-Chinese banquet table (to jeen)** (course sequence, round
+   table for 10, lazy Susan), **whole poached chicken and whole steamed
+   fish** (Chinese New Year offering dishes returned to the table),
+   **mookata** (already listed above; now also needed for the birthday
+   entry), and **khanom khai** (wedding egg cakes).
+
+9. **Game-night pass additions (2026-10-01)**: **mookata** (third
+   occasion now needing it), a **drinking-snack / grilled-skewer plate**
+   for late-night viewing (gai ping and crispy pork snack plates), and a
+   compact **Bangkok café plate** (fries, toastie, waffle) for the
+   board-game café entry.
+
+## RESEARCH LOG
+
+- **2026-10-01, first pass (this file).** Built directly, with no
+  separate scaffold, writing the file in appended sections. 34 WebSearch
+  queries and 1 WebFetch attempt (thainamthip.co.th — blocked by the
+  egress proxy). Topics searched:
+  - **Packs and brand**: 325 mL can (ThaiNamthip product pages via
+    search; Makro, Tops, Makroclick listings in Thai); 250 mL returnable
+    glass (Big C, Makro, Gourmet Market, Sahathai, Supplybunny); PET
+    sizes and the rPET programme (1 L, 300, 450, 510 mL, 1.25 L);
+    ThaiNamthip Coke Original Taste size list; sleek/245 mL can (not
+    resolved); 325 mL can dimensions (not found); Haad Thip (14 southern
+    provinces, glass line, portfolio); market shares (Pepsi, est,
+    Coca-Cola).
+  - **Culture and society**: table etiquette (spoon right, fork left,
+    shared dishes, own rice plate); meal times; housing stock (2010
+    census via JICA; NSO survey not found); Muslim population of the
+    southern provinces.
+  - **Vessels**: kratip sizes.
+  - **Dishes**: pad kra pao and khai dao; boat noodles; moo ping;
+    khao man gai; som tam Thai vs Lao/pla ra; khao soi; mango sticky
+    rice; khao mok gai; khao yam and budu; gai yang and jaew; gaeng tai
+    pla and kua kling; khao kha moo; pad thai; khan tok, sai ua, nam
+    prik noom/ong, gaeng hang lay, khaep moo; green curry and massaman.
+  - **Festivals**: Loy Krathong 2026/2027; Vegetarian Festival
+    2026/2027; Songkran 2027 and its food (khao chae).
+- **Sources down-weighted**: tier-4 recipe blogs, vendor listings,
+  export-wholesaler listings and travel-guide date pages were used only
+  where nothing better surfaced, and are marked. Grokipedia, Quora and
+  Medium results were ignored or used only as corroboration.
+- **No subagents were used.**
+- **2026-10-01 celebrations pass (schema §5.7)**: 7 WebSearch queries
+  (Thai wedding banquet round tables; ordination feast; Thai-Chinese
+  wedding table menus; house-blessing meal sequence; Chinese New Year
+  family meal; birthday group dining; Isan village wedding food). Added
+  CELEBRATIONS & LARGE GATHERINGS with 7 entries (Songkran homecoming,
+  Chinese New Year, Hari Raya in zone 5, wedding, ordination,
+  house-blessing lunch, birthday). Key sources: Bangkok Post "Modern-Day
+  Ordination"; thaiworldview; Wikipedia "Naga ordination", "Khanom khai";
+  Thailand Foundation (housewarming; New Year recipes); Michelin Guide;
+  Charinya's Kitchen and Lion Brand (tier 4, Isan wedding); caterer menus
+  (tier 3). No subagents.
+- **2026-10-01 game-night pass (schema §5.8)**: built from the
+  cross-market research notes (45 searches across all markets), 0 new
+  searches. Added GAME NIGHT with 3 watch-party entries (EPL late night,
+  Thai national team, Muay Thai on TV at home) and 2 social game-night
+  entries (private karaoke room, board-game café). Key sources carried
+  over: ThaiRanked; Thailandblog; BKK Kids; Siam2nite. No subagents.
+- **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 7
+  searches.** Added VENUE PROFILES (Bangkok townhouse living-dining room
+  with condo and detached-house variants; front yard and tai thun;
+  shophouse restaurant; soi street stall; party tent with Chinese
+  tables). Key sources: Atlas Obscura (Gai Tord Jae Kee, Wattana
+  Panich interiors); travelfish; Roadbook; Design Inquiry "Make/Do";
+  Living Asean; Thailand Foundation "Ruean Thai"; Wikipedia
+  "Traditional Thai house"; factsanddetails.com; Beyond Decor (tier 3);
+  Thai tent and catering rental listings (tentplk, nakorntoh,
+  sawsamsai; tier 3). No subagents.
