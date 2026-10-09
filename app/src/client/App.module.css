@@ -273,3 +273,22 @@
 .adminTabs {
   margin-bottom: 16px;
 }
+
+/* Non-production copies (APP_ENV_LABEL, e.g. "Staging") wear a badge so nobody mistakes them for the live app. */
+.logoLink:has(.envBadge) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.envBadge {
+  padding: 4px 10px;
+  border: 2px solid currentColor;
+  background: #ffd23f;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}

@@ -90,6 +90,7 @@ live only in the host's secret store (Heroku's Config Vars) or a local `.env.loc
 | `SUPABASE_URL` | yes | Supabase project URL (Project settings → API) |
 | `SUPABASE_ANON_KEY` | yes | Supabase publishable key (`sb_publishable_...`, or the legacy anon key); the browser uses it to sign in |
 | `SUPABASE_SERVICE_ROLE_KEY` | yes | Supabase secret key (`sb_secret_...`, or the legacy service_role key); server only, never share it |
+| `APP_ENV_LABEL` | no | Badge text for a non-production copy, e.g. `Staging`. Leave unset on the live app. |
 | `ADMIN_EMAILS` | yes | Comma-separated emails that are always admins (the first admin) |
 | `ACCESS_CODE` | no | Team access code. When set, the sign-in page asks for work email + this code and sends no email; a new email gets a member account. Leave empty for invite-only magic links. |
 | `APP_URL` | yes | Public URL of the app, e.g. `https://scene-composer-xxxx.herokuapp.com`; magic links return here |
@@ -124,6 +125,15 @@ live only in the host's secret store (Heroku's Config Vars) or a local `.env.loc
    Supabase dashboard → Authentication → Users → Invite user. After that, invite everyone else from the app's Admin page.
 
 The `Dockerfile` also runs the app on any Docker host if you move off Heroku later.
+
+## Staging copy
+
+A second Heroku app runs the `staging` branch, so UX ideas can be tried without touching the live app.
+
+- **Code:** branch `staging`. Try ideas there; merge to `main` what should go live.
+- **Heroku:** a second app (for example `prodx-scene-composer-staging`) deploying the `staging` branch, with the same Config Vars as production plus `APP_ENV_LABEL=Staging`, which puts a yellow STAGING badge in the header and the tab title. Set its own `APP_URL`.
+- **Supabase:** a second project set up the same way (schema, auth URLs and keys), so staging tests never mix into the live gallery, limits or sessions. Sharing the production project also works, but then staging scenes show up in the live gallery and count toward people's limits.
+- **Gemini:** the same key is fine. Staging usage is billed alongside production.
 
 ## Local development
 

@@ -87,7 +87,7 @@ export function mountApi(app: Koa) {
   // What the browser needs to start a magic-link sign-in. The anon key is
   // public by design: every table has row-level security with no policies.
   api.get('/config', (ctx) => {
-    ctx.body = { supabaseUrl: env.supabaseUrl, supabaseAnonKey: env.supabaseAnonKey, codeLogin: Boolean(env.accessCode) };
+    ctx.body = { supabaseUrl: env.supabaseUrl, supabaseAnonKey: env.supabaseAnonKey, codeLogin: Boolean(env.accessCode), envLabel: env.envLabel };
   });
 
   // Sign in with the team access code (see src/server/codeLogin.ts). Answers a
