@@ -49,13 +49,15 @@
 }
 
 .card[data-selected] {
-  border: var(--neo-border);
-  background: var(--neo-selected);
+  border: var(--neo-selected-border);
+  background: var(--neo-selected-soft);
   box-shadow: var(--neo-shadow-sm);
 }
 
-.card[data-selected] .label {
+.card[data-selected] .check {
   color: var(--neo-on-selected);
+  background: var(--neo-selected);
+  border-color: var(--neo-selected);
 }
 
 .media {

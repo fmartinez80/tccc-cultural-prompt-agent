@@ -41,3 +41,20 @@
 .modeSwitch {
   margin-top: 16px;
 }
+
+/* The session contract, right above the entry CTA. */
+section > p.sessionLine {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 65ch;
+  margin: 28px 0 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--bay-text-2);
+}
+
+.sessionIcon {
+  flex: none;
+  margin-top: 3px;
+}

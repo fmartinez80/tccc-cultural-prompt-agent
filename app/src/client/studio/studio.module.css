@@ -194,6 +194,73 @@
   object-fit: cover;
 }
 
+/* Loading: a shimmer, with the picture faded in once it arrives. */
+.thumbButton[data-loading] {
+  background: linear-gradient(90deg, var(--bay-bg-sunken) 25%, var(--bay-bg-subtle) 50%, var(--bay-bg-sunken) 75%);
+  background-size: 200% 100%;
+  animation: thumbShimmer 1.4s ease-in-out infinite;
+}
+
+.thumbButton[data-loading] .thumb {
+  opacity: 0;
+}
+
+.thumb {
+  transition: opacity 200ms ease-out;
+}
+
+@keyframes thumbShimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thumbButton[data-loading] {
+    animation: none;
+  }
+}
+
+.thumbError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  aspect-ratio: 16 / 9;
+  padding: 8px;
+  border-bottom: var(--neo-border);
+  background: var(--bay-bg-subtle);
+  font-size: 14px;
+  color: var(--bay-text-2);
+  text-align: center;
+}
+
+.retry {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: var(--neo-border-thin);
+  background: var(--neo-card);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.retry:hover {
+  background: var(--neo-hover);
+}
+
+.retry:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
 .cardBody {
   display: flex;
   flex-direction: column;
@@ -429,7 +496,8 @@
   justify-content: center;
   align-self: center;
   width: min(100%, 640px);
-  margin-top: 43px; /* with the page gap, about 64px of space above */
+  /* Directly under the hero paragraph, so the way in is above the fold. */
+  margin-top: 4px;
   padding: 24px;
   text-align: center;
   background: var(--neo-selected);
@@ -451,6 +519,23 @@
   font-size: 28px;
   line-height: 1.1;
   text-align: center;
+}
+
+.sessionLine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  max-width: 52ch;
+  margin: 4px 0 0;
+  font-size: 15px;
+  line-height: 21px;
+  color: var(--neo-on-selected);
+}
+
+.sessionLine svg {
+  flex: none;
+  margin-top: 2px;
 }
 
 .getStartedText {

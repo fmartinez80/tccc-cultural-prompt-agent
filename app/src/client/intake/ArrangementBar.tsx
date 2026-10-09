@@ -4,7 +4,7 @@
 // operator (PrepareLayout in LayoutStep.tsx). Pressing an arrangement previews it in
 // the layout guide; Draw switches to it, with a note that it counts toward the monthly limit.
 
-import { Pencil, RotateCw } from "lucide-react";
+import { Check, Columns2, Pencil, RotateCw } from "lucide-react";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Dialog, Heading, Modal } from "react-aria-components";
 
@@ -61,6 +61,9 @@ export function ArrangementBar({
   // The arrangement shown in the layout guide before switching to it; null shows the picked one.
   const [preview, setPreview] = useState<number | null>(null);
   const [accentOpen, setAccentOpen] = useState(false);
+  // Side-by-side compare of the drawn arrangement and the one being previewed, large.
+  const [comparing, setComparing] = useState(false);
+  const [bigPicked, setBigPicked] = useState<string | null>(null);
   const [answer, setAnswer] = useState<AccentAnswer | null>(null);
 
   const onTheGo = sel.scene?.venue === "on-the-go";
@@ -116,6 +119,17 @@ export function ArrangementBar({
     return () => cancelAnimationFrame(frame);
   }, [bp, compose.lighting]);
 
+  // The drawn arrangement at full size, for the compare view.
+  useEffect(() => {
+    if (!comparing) return;
+    setBigPicked(
+      renderProxy(options[picked]!.blueprint, compose.lighting, {
+        width: 960,
+        widen: MODEL_FRAMING_WIDEN,
+      }),
+    );
+  }, [comparing, options, picked, compose.lighting]);
+
   const accentLine =
     sel.accent?.label ??
     (sel.napkin && onTheGo ? "Plain paper napkin" : "None");
@@ -160,16 +174,36 @@ export function ArrangementBar({
             )}
           </span>
         </figcaption>
-        <div className={styles.guideImage}>
-          {big ? (
-            <img
-              src={big}
-              alt={`3D layout guide of arrangement ${OPTION_LETTERS[shown]}, the shapes the sketch is drawn from`}
-            />
-          ) : (
-            <SkeletonBlock height="100%" />
-          )}
-        </div>
+        {previewing ? (
+          // A/B: the drawn arrangement and the one being previewed, side by side.
+          <div className={styles.compare}>
+            {[picked, shown].map((i) => (
+              <figure key={i} className={styles.compareCell}>
+                <div className={styles.guideImage} data-preview={i === shown || undefined}>
+                  {thumbs?.[i] ? (
+                    <img src={thumbs[i]} alt={`3D layout guide of arrangement ${OPTION_LETTERS[i]}`} />
+                  ) : (
+                    <SkeletonBlock height="100%" />
+                  )}
+                </div>
+                <figcaption className={styles.compareCaption}>
+                  {OPTION_LETTERS[i]} · {i === picked ? "drawn" : "preview"}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        ) : (
+          <div className={styles.guideImage}>
+            {big ? (
+              <img
+                src={big}
+                alt={`3D layout guide of arrangement ${OPTION_LETTERS[shown]}, the shapes the sketch is drawn from`}
+              />
+            ) : (
+              <SkeletonBlock height="100%" />
+            )}
+          </div>
+        )}
         {/* Clamped to a fixed number of lines so switching arrangements never changes the panel's height; Read more opens it up. */}
         <div className={styles.rationaleWrap}>
           <p
@@ -205,7 +239,7 @@ export function ArrangementBar({
                 type="button"
                 className={styles.thumb}
                 aria-pressed={i === shown}
-                aria-label={`Preview arrangement ${OPTION_LETTERS[i]}: ${o.blueprint.layout_meta.archetype}${i === 0 ? ", best fit" : ""}${i === picked ? ", drawn" : ""}`}
+                aria-label={`Preview arrangement ${OPTION_LETTERS[i]}: ${o.blueprint.layout_meta.archetype}${i === 0 ? ", recommended" : ""}${i === picked ? ", drawn" : ""}`}
                 title={o.blueprint.layout_meta.rationale}
                 onClick={() => setPreview(i === picked ? null : i)}
               >
@@ -214,10 +248,19 @@ export function ArrangementBar({
                 ) : (
                   <SkeletonBlock height="100%" />
                 )}
-                <span className={styles.thumbLabel}>{OPTION_LETTERS[i]}</span>
+                <span className={styles.thumbLabel}>
+                  {i === picked && <Check size={12} strokeWidth={3} aria-hidden className={styles.thumbCheck} />}
+                  {OPTION_LETTERS[i]}
+                  {i === 0 && <span className={styles.recTag}>Recommended</span>}
+                </span>
               </button>
             ))}
           </div>
+          {previewing && (
+            <Button size="sm" icon={<Columns2 size={14} aria-hidden />} onPress={() => setComparing(true)}>
+              Compare {OPTION_LETTERS[picked]} and {OPTION_LETTERS[preview]} side by side
+            </Button>
+          )}
           <Button
             variant="primary"
             icon={<RotateCw size={16} aria-hidden />}
@@ -264,6 +307,58 @@ export function ArrangementBar({
           {compose.notes.join(" ")}
         </Alert>
       )}
+
+      <Modal
+        isOpen={comparing && previewing}
+        onOpenChange={setComparing}
+        isDismissable
+        className={dialog.modalOverlay}
+      >
+        <Dialog className={`${dialog.dialog} ${styles.compareDialog}`}>
+          <Heading slot="title" className={dialog.dialogTitle}>
+            Compare {OPTION_LETTERS[picked]} and {preview !== null ? OPTION_LETTERS[preview] : ""}
+          </Heading>
+          <div className={styles.compareLarge}>
+            {preview !== null &&
+              [picked, preview].map((i) => (
+                <figure key={i} className={styles.compareCell}>
+                  <div className={styles.guideImage} data-preview={i === preview || undefined}>
+                    {(i === picked ? bigPicked : big) ? (
+                      <img
+                        src={(i === picked ? bigPicked : big)!}
+                        alt={`3D layout guide of arrangement ${OPTION_LETTERS[i]}`}
+                      />
+                    ) : (
+                      <SkeletonBlock height="100%" />
+                    )}
+                  </div>
+                  <figcaption className={styles.compareText}>
+                    <strong>
+                      {OPTION_LETTERS[i]} · {options[i]!.blueprint.layout_meta.archetype}
+                      {i === picked ? " (drawn)" : ""}
+                      {i === 0 ? " · recommended" : ""}
+                    </strong>
+                    <span>{options[i]!.blueprint.layout_meta.rationale}</span>
+                  </figcaption>
+                </figure>
+              ))}
+          </div>
+          <div className={dialog.dialogActions}>
+            <Button onPress={() => setComparing(false)}>Keep {OPTION_LETTERS[picked]}</Button>
+            <Button
+              variant="primary"
+              icon={<RotateCw size={16} aria-hidden />}
+              disabled={drawing}
+              onPress={() => {
+                setComparing(false);
+                switchTo();
+              }}
+            >
+              {preview !== null && hasSketch(preview) ? `Use ${OPTION_LETTERS[preview]}` : `Draw ${preview !== null ? OPTION_LETTERS[preview] : ""}`}
+            </Button>
+          </div>
+        </Dialog>
+      </Modal>
 
       <Modal
         isOpen={accentOpen}

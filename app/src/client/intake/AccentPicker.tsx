@@ -190,7 +190,7 @@ export function AccentPicker({
                   ],
                   ...splitSources(o.rationale),
                 },
-                badge: decision!.options.length > 1 && o.suggested ? 'Suggested' : undefined,
+                badge: decision!.options.length > 1 && o.suggested ? 'Recommended' : undefined,
               })),
             ]}
           />

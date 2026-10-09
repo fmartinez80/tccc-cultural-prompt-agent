@@ -29,7 +29,7 @@ import { ProgressRing } from '../ui/ProgressRing.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
 import { TextArea } from '../ui/TextArea.tsx';
 import { TextInput } from '../ui/TextInput.tsx';
-import { StepActions } from './StepActions.tsx';
+import { ActionChip, StepActions } from './StepActions.tsx';
 import type { ComposeResult } from './types.ts';
 import type { Draft } from './useIntake.ts';
 import styles from './ReviewStep.module.css';
@@ -453,7 +453,7 @@ export function ReviewStep({
             <SkeletonBlock height="100%" />
           )}
           {sketch && <canvas className={styles.overlay} ref={overlayRef} aria-hidden />}
-          {drawing && <ProgressRing label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'} progress={progress ?? null} />}
+          {drawing && <ProgressRing label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'} progress={progress ?? null} note="Safe to leave: it keeps drawing and is here when you come back." />}
           {sketch && (
             <div
               className={styles.hitArea}
@@ -488,9 +488,6 @@ export function ReviewStep({
         </div>
 
         <div className={styles.toolbar}>
-          <span className={styles.tally}>
-            {counts.keep} working · {counts.change} to change{unmarked ? ` · ${unmarked} unmarked` : ''}
-          </span>
           <div className={styles.toolbarActions}>
             <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} onPress={markAllWorking} disabled={unmarked === 0}>
               Mark the rest working
@@ -672,6 +669,9 @@ export function ReviewStep({
             Redraw with {pendingText}
           </Button>
         )}
+        <ActionChip label={`Sketch marks: ${counts.keep} working, ${counts.change} to change, ${unmarked} unmarked`}>
+          {counts.keep} working · {counts.change} to change · {unmarked} unmarked
+        </ActionChip>
         <Button variant="primary" iconEnd={<ArrowRight size={16} aria-hidden />} onPress={onNext}>
           {hasStory ? 'Continue to the scene' : 'Create the scene'}
         </Button>

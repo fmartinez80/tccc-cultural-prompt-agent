@@ -8,9 +8,9 @@ import { type Progress, useProgress } from '../lib/progress.ts';
 import type { AgentTaskStatus, TaskTiming } from '../lib/useAgentTask.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
-import { LoadingOverlay } from '../ui/LoadingOverlay.tsx';
 import { ProgressBar } from '../ui/ProgressBar.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
+import { WaitCard } from '../ui/WaitCard.tsx';
 import styles from './AgentStatus.module.css';
 
 function isForbidden(err: unknown): boolean {
@@ -25,35 +25,37 @@ export function AgentStatus({
   agentError,
   trpcError,
   workingLabel,
-  workingTitle,
+  phase,
   onSignedIn,
   onRetry,
   skeletonCards = 0,
   skeletonLayout = 'grid',
-  overlay = false,
+  card = false,
+  leaveNote,
 }: {
   status: AgentTaskStatus;
   timing: TaskTiming;
   agentError: string | null;
   trpcError: unknown;
   workingLabel: string;
-  /** Heading above the message in the loading modal (overlay only). */
-  workingTitle?: string;
+  /** What's happening in a few words ("Finding authentic sides…"), the wait card's headline (card only). */
+  phase?: string;
   onSignedIn: () => void;
   onRetry: () => void;
   /** Number of skeleton option cards to show while pending, shaped like the real ones. */
   skeletonCards?: number;
   /** Match the option group's layout: three cards in a row, or stacked full-width rows. */
   skeletonLayout?: 'grid' | 'list';
-  /** The whole step is waiting on this: show the loading modal over the page instead of an inline progress bar. */
-  overlay?: boolean;
+  /** The whole step is waiting on this: show the wait card (phase, time left, safe to leave) instead of a slim progress bar. */
+  card?: boolean;
+  /** Replaces the wait card's "safe to leave" line. */
+  leaveNote?: string;
 }) {
   const busy = status === 'starting' || status === 'polling';
   const progress = useProgress(timing.key, busy ? timing.startedAt : null, timing.reported);
   return (
     <>
-      {/* Always mounted (in the same place) so it can top up to 100% when the task finishes. */}
-      {overlay && <LoadingOverlay open={busy} title={workingTitle} label={workingLabel} percent={progress?.percent ?? null} failed={status === 'error'} />}
+      {card && busy && <WaitCard phase={phase ?? workingLabel} detail={phase ? workingLabel : undefined} progress={progress} note={leaveNote} />}
       <StatusBody
         status={status}
         agentError={agentError}
@@ -63,7 +65,7 @@ export function AgentStatus({
         onRetry={onRetry}
         skeletonCards={skeletonCards}
         skeletonLayout={skeletonLayout}
-        progress={overlay ? null : progress}
+        progress={card ? null : progress}
       />
     </>
   );
@@ -88,7 +90,7 @@ function StatusBody({
   onRetry: () => void;
   skeletonCards: number;
   skeletonLayout: 'grid' | 'list';
-  /** Inline progress bar; null when the loading modal shows the progress instead. */
+  /** Inline progress bar; null when the wait card shows the progress instead. */
   progress: Progress | null;
 }) {
   const busy = status === 'starting' || status === 'polling';

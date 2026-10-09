@@ -37,14 +37,83 @@
   min-height: 18px;
   margin-top: 12px;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  font-size: 13px;
+  letter-spacing: 0.02em;
   color: var(--bay-text-2);
 }
 
 .savedIcon {
   color: var(--neo-ink);
+}
+
+/* A fresh save: the check pops once. */
+.savedRow[data-flash] .savedIcon {
+  animation: savedPop 600ms var(--bay-ease);
+}
+
+@keyframes savedPop {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.35);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .savedRow[data-flash] .savedIcon {
+    animation: none;
+  }
+}
+
+/* Start over: a quiet text button, not a peer of the step's actions. */
+.textButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 4px;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--bay-text-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.textButton {
+  white-space: nowrap;
+}
+
+/* On a phone the header keeps only the icon (the button keeps its name). */
+@media (max-width: 480px) {
+  .textButtonLabel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .textButton {
+    padding: 8px;
+  }
+}
+
+.textButton:hover {
+  color: var(--neo-ink);
+}
+
+.textButton:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
 }
 
 .railItem {
@@ -151,6 +220,8 @@
    this wrapper so step components can stay plain semantic markup. */
 .stepBody h1 {
   margin: 0 0 16px;
+  overflow-wrap: break-word;
+  text-wrap: balance;
   font-size: clamp(32px, 4.2vw, 56px);
   font-weight: var(--app-weight-headline);
   line-height: 1;
@@ -180,7 +251,7 @@
 
 .stepBody > section > p:first-of-type {
   margin: 0 0 28px;
-  max-width: 640px;
+  max-width: 65ch;
   font-size: 16px;
   line-height: 22px;
   color: var(--bay-text-3);
@@ -188,8 +259,9 @@
 
 .stepBody p {
   margin: 0 0 12px;
-  font-size: 14px;
-  line-height: 20px;
+  max-width: 65ch;
+  font-size: 16px;
+  line-height: 24px;
   color: var(--bay-text-2);
 }
 
@@ -206,17 +278,6 @@
   margin: 16px 0 8px;
 }
 
-.confirmRow {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.confirmText {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--bay-text-2);
-}
 
 @media (max-width: 720px) {
   .layout {

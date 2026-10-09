@@ -1,18 +1,28 @@
-import { ArrowRight } from 'lucide-react';
+import { Clock } from 'lucide-react';
 import { useState } from 'react';
 
 import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
-import { Button } from '../ui/Button.tsx';
 import { Select } from '../ui/Select.tsx';
 import { SkeletonText } from '../ui/Skeleton.tsx';
 import { TextInput } from '../ui/TextInput.tsx';
-import { briefOk, OCCASION_LABELS, type Brief } from './types.ts';
+import { briefOk, OCCASION_LABELS, SESSION_LINE, type Brief } from './types.ts';
 import styles from './BriefStep.module.css';
 import { SkuCarousel } from './SkuCarousel.tsx';
-import { StepActions } from './StepActions.tsx';
+import { ContinueButton, StepActions, type Blocked } from './StepActions.tsx';
 
 const OTHER_REGION = '__other';
+
+
+const focusById = (id: string) => () => document.getElementById(id)?.focus();
+
+/** The first required field still empty, named so Continue can say what it needs. */
+function missingInput(b: Brief): Blocked | null {
+  if (!b.country) return { reason: 'Choose a country to continue.', focus: focusById('brief-country') };
+  if (!b.skuId) return { reason: 'Pick a product to continue.' };
+  if (!b.heroDish.trim()) return { reason: 'Add a hero dish to continue.', focus: focusById('brief-hero-dish') };
+  return null;
+}
 
 export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b: Brief) => void; onNext: () => void }) {
   const config = trpc.config.useQuery();
@@ -65,6 +75,7 @@ export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b:
       </p>
       <div className={styles.grid}>
         <Select
+          id="brief-country"
           label="Country"
           value={b.country || null}
           onChange={(country) => {
@@ -130,6 +141,7 @@ export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b:
           />
         </div>
         <TextInput
+          id="brief-hero-dish"
           label="Hero dish"
           value={b.heroDish}
           onChange={(heroDish) => set({ heroDish })}
@@ -153,15 +165,12 @@ export function BriefStep({ brief, onSave, onNext }: { brief: Brief; onSave: (b:
           }))}
         />
       </div>
+      <p className={styles.sessionLine}>
+        <Clock size={16} aria-hidden className={styles.sessionIcon} />
+        {SESSION_LINE}
+      </p>
       <StepActions>
-        <Button
-          variant="primary"
-          iconEnd={<ArrowRight size={16} aria-hidden />}
-          disabled={!briefOk(b)}
-          onPress={submit}
-        >
-          Continue
-        </Button>
+        <ContinueButton blocked={missingInput(b)} onPress={submit} />
       </StepActions>
     </section>
   );

@@ -72,6 +72,7 @@ export function SidesStep({
       timing={task.timing}
       agentError={task.agentError}
       trpcError={task.trpcError}
+      phase="Finding authentic sides…"
       workingLabel="Pulling together some side dishes, condiments and accompaniments to go with your main dish."
       decision={decision}
       selected={selected}

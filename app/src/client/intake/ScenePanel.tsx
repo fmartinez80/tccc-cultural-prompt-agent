@@ -283,9 +283,10 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
               ))}
             </div>
             <ProgressRing
-              label={`Generating ${count > 1 ? `${count} images` : 'the scene'} with ${WORKSPACE_MODEL_LABEL}`}
+              label={`${story && !latest && !older.length ? 'Step 2 of 2: m' : 'M'}aking ${count > 1 ? `${count} images` : 'the photo'} with ${WORKSPACE_MODEL_LABEL}`}
               progress={progress}
               status={preparing ? 'Uploading the layout image…' : 'Starting…'}
+              note="Safe to leave: it keeps going and lands in My Projects."
             />
           </div>
         ) : latest ? (
@@ -310,6 +311,12 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
             ))}
           </div>
         ) : (
+          !story ? (
+            // The story is being written: the photo's frame, waiting.
+            <div className={styles.skeleton} style={{ aspectRatio: ratio }} aria-hidden>
+              <SkeletonBlock height="100%" />
+            </div>
+          ) : (
           <div className={styles.empty} style={{ aspectRatio: ratio }}>
             <EmptyState
               title={story ? 'No scene yet' : 'Waiting for the story'}
@@ -320,6 +327,7 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
               }
             />
           </div>
+          )
         )}
       </div>
 

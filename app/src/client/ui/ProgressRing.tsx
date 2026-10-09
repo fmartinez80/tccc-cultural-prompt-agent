@@ -14,12 +14,15 @@ export function ProgressRing({
   label,
   progress,
   status,
+  note,
 }: {
   label: string;
   /** null before the job reports or has an estimate: an empty ring with no number. */
   progress: Progress | null;
   /** Replaces the time-left line, e.g. "Uploading the layout image…" before the job starts. */
   status?: string;
+  /** A line under the time left, e.g. that it's safe to leave. */
+  note?: string | undefined;
 }) {
   const left = progress ? timeLeftText(progress) : (status ?? 'Starting…');
   return (
@@ -42,6 +45,7 @@ export function ProgressRing({
         <p className={styles.meta} aria-hidden>
           {left}
         </p>
+        {note && <p className={styles.note}>{note}</p>}
       </div>
     </div>
   );

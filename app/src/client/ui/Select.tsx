@@ -22,6 +22,8 @@ export type SelectProps = {
   placeholder?: string | undefined;
   disabled?: boolean | undefined;
   className?: string | undefined;
+  /** The trigger's id, so a step can focus it. */
+  id?: string | undefined;
 };
 
 /** A dropdown select built on react-aria's Select/ListBox/Popover trio. */
@@ -34,6 +36,7 @@ export function Select({
   placeholder = 'Select…',
   disabled = false,
   className,
+  id,
 }: SelectProps) {
   return (
     <AriaSelect
@@ -45,7 +48,7 @@ export function Select({
       className={[styles.field, className].filter(Boolean).join(' ')}
     >
       {label && <Label className={styles.label}>{label}</Label>}
-      <AriaButton className={styles.trigger}>
+      <AriaButton id={id} className={styles.trigger}>
         <SelectValue className={styles.value} />
         <ChevronDown size={16} className={styles.chevron} aria-hidden />
       </AriaButton>

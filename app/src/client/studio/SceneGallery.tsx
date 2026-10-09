@@ -2,7 +2,7 @@
 // Clicking a card opens it large with its brief and prompt, or, where the page
 // passes onOpenScene (My Projects), reopens the whole session it came from.
 
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ImageOff, RotateCw } from 'lucide-react';
 import { useRef, useState } from 'react';
 
 import type { SceneCard } from '../../api.ts';
@@ -55,15 +55,13 @@ export function SceneGallery({
         {scenes.flatMap((s) =>
           s.images.map((src, i) => (
             <li key={`${s.id}-${i}`} className={styles.card}>
-              <button
-                type="button"
-                className={styles.thumbButton}
-                aria-busy={opening === s.id || undefined}
+              <GalleryThumb
+                src={src}
+                alt={`Gallery item: ${dishName(s)}${s.by ? `, ${s.by}` : ''}`}
+                busy={opening === s.id}
                 disabled={opening !== null}
-                onClick={() => void show(s, src)}
-              >
-                <img src={src} alt={`${dishName(s)}, ${place(s)}`} loading="lazy" className={styles.thumb} />
-              </button>
+                onOpen={() => void show(s, src)}
+              />
               <div className={styles.cardBody}>
                 <div className={styles.cardTitleRow}>
                   <strong className={styles.dish}>{dishName(s)}</strong>
@@ -84,11 +82,11 @@ export function SceneGallery({
     <>
       {layout === 'carousel' ? (
         <div className={styles.carousel}>
-          <button type="button" className={styles.carouselArrow} aria-label="Previous scenes" onClick={() => scroll(-1)}>
+          <button type="button" className={styles.carouselArrow} aria-label="Previous scenes" title="Previous scenes" onClick={() => scroll(-1)}>
             <ArrowLeft size={28} aria-hidden />
           </button>
           {list}
-          <button type="button" className={styles.carouselArrow} aria-label="More scenes" onClick={() => scroll(1)}>
+          <button type="button" className={styles.carouselArrow} aria-label="Next scenes" title="Next scenes" onClick={() => scroll(1)}>
             <ArrowRight size={28} aria-hidden />
           </button>
         </div>
@@ -97,6 +95,67 @@ export function SceneGallery({
       )}
       <Lightbox state={open} onClose={() => setOpen(null)} />
     </>
+  );
+}
+
+/**
+ * One gallery picture: a shimmer while it loads, and a plain "couldn't load"
+ * with a retry when the stored image doesn't come back (instead of an empty
+ * beige box).
+ */
+function GalleryThumb({
+  src,
+  alt,
+  busy,
+  disabled,
+  onOpen,
+}: {
+  src: string;
+  alt: string;
+  busy: boolean;
+  disabled: boolean;
+  onOpen: () => void;
+}) {
+  const [state, setState] = useState<'loading' | 'loaded' | 'error'>('loading');
+  const [attempt, setAttempt] = useState(0);
+  const url = attempt ? `${src}${src.includes('?') ? '&' : '?'}retry=${attempt}` : src;
+  if (state === 'error') {
+    return (
+      <div className={styles.thumbError} role="group" aria-label={`${alt}, couldn't load`}>
+        <ImageOff size={22} aria-hidden />
+        <span>Couldn't load this image.</span>
+        <button
+          type="button"
+          className={styles.retry}
+          onClick={() => {
+            setState('loading');
+            setAttempt((n) => n + 1);
+          }}
+        >
+          <RotateCw size={14} aria-hidden />
+          Try again
+        </button>
+      </div>
+    );
+  }
+  return (
+    <button
+      type="button"
+      className={styles.thumbButton}
+      data-loading={state === 'loading' || undefined}
+      aria-busy={busy || undefined}
+      disabled={disabled}
+      onClick={onOpen}
+    >
+      <img
+        src={url}
+        alt={alt}
+        loading="lazy"
+        className={styles.thumb}
+        onLoad={() => setState('loaded')}
+        onError={() => setState('error')}
+      />
+    </button>
   );
 }
 

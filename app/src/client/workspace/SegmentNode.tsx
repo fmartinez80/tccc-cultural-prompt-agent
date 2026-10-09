@@ -169,6 +169,7 @@ export function SegmentNode({
       note={seg.note}
       dimmed={!active}
       ariaLabel={`${seg.chip}, ${seg.title} node`}
+      copyText={text}
       badges={
         <>
           {edited && <Badge>Edited</Badge>}

@@ -15,14 +15,15 @@
     box-shadow var(--bay-dur) var(--bay-ease);
 }
 
-.button[data-disabled] {
+.button[data-disabled],
+.button[data-blocked] {
   opacity: 0.5;
   box-shadow: none;
   transform: none;
   cursor: not-allowed;
 }
 
-.button[data-pressed]:not([data-disabled]) {
+.button[data-pressed]:not([data-disabled]):not([data-blocked]) {
   transform: var(--neo-press-sm);
   box-shadow: var(--neo-shadow-active) !important;
 }
@@ -72,7 +73,7 @@
   letter-spacing: 0.02em;
 }
 
-.primary[data-hovered]:not([data-disabled]) {
+.primary[data-hovered]:not([data-disabled]):not([data-blocked]) {
   background: var(--neo-cta-button-hover);
 }
 

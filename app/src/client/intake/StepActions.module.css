@@ -37,3 +37,72 @@
 .right {
   margin-left: auto;
 }
+
+.continue {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* The reason a primary action is blocked, right beside it. */
+.blockedHint {
+  max-width: 34ch;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: right;
+  color: var(--bay-text-2);
+}
+
+.blockedHint[data-attempt] {
+  animation: nudge 360ms var(--bay-ease);
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: var(--neo-border-thin);
+  border-radius: var(--bay-r-pill);
+  background: var(--neo-card);
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: var(--bay-text);
+}
+
+@media (max-width: 720px) {
+  .bar {
+    flex-wrap: wrap;
+  }
+  .continue {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .blockedHint {
+    flex-basis: 100%;
+    max-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blockedHint[data-attempt] {
+    animation: none;
+  }
+}

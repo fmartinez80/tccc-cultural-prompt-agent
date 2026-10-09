@@ -2,11 +2,11 @@
 // features, how it works, the way into a new scene, a carousel of the latest
 // scenes), plus the Insights and What's New pages.
 
-import { ArrowRight, Images } from 'lucide-react';
+import { ArrowRight, Clock, Images } from 'lucide-react';
 import { useState } from 'react';
 
 import type { StudioData } from '../../api.ts';
-import { OCCASION_LABELS } from '../intake/types.ts';
+import { OCCASION_LABELS, SESSION_LINE } from '../intake/types.ts';
 import { Flag } from '../lib/flags.tsx';
 import { titleCase } from '../lib/titleCase.ts';
 import { trpc } from '../trpc.ts';
@@ -15,7 +15,7 @@ import { Button } from '../ui/Button.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
 import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { SkeletonBlock, SkeletonText } from '../ui/Skeleton.tsx';
-import { HowItWorks, Intro, Roadmap } from './HomeExtras.tsx';
+import { Features, HowItWorks, Intro, Roadmap } from './HomeExtras.tsx';
 import { SceneGallery } from './SceneGallery.tsx';
 import { BarList } from './SnapshotPage.tsx';
 import home from './home.module.css';
@@ -114,9 +114,13 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
           <div className={styles.heroActions}>
             {draftInProgress && <Button onPress={onContinue}>Continue your scene</Button>}
             <Button onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
-              Get Started
+              {draftInProgress ? 'Start a new scene' : 'Get Started'}
             </Button>
           </div>
+          <p className={styles.sessionLine}>
+            <Clock size={16} aria-hidden />
+            {SESSION_LINE}
+          </p>
         </>
       )}
     </section>
@@ -154,8 +158,9 @@ export function HomePage({ draftInProgress, onNewScene, onContinue }: Omit<HomeP
   return (
     <div className={styles.page}>
       <Intro />
-      <HowItWorks />
       <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
+      <Features />
+      <HowItWorks />
       <Gallery />
     </div>
   );
