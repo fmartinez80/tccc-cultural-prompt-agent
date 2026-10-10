@@ -67,6 +67,7 @@ export const FEEDBACK_TAGS: Array<{ group: string; tags: Array<{ id: string; lab
       { id: 'lighting', label: 'Lighting' },
       { id: 'camera', label: 'Camera or framing' },
       { id: 'color', label: 'Color or white balance' },
+      { id: 'wrong-perspective', label: 'Table angle or perspective wrong' },
       { id: 'ignores-layout', label: "Doesn't follow the layout" },
     ],
   },
@@ -76,6 +77,7 @@ export const FEEDBACK_TAGS: Array<{ group: string; tags: Array<{ id: string; lab
       { id: 'ai-artifacts', label: 'AI artifacts' },
       { id: 'impossible', label: 'Physically impossible' },
       { id: 'not-authentic', label: 'Not culturally authentic' },
+      { id: 'proxy-labels', label: 'Proxy labels added' },
     ],
   },
 ];
@@ -100,15 +102,43 @@ export interface RatedElement {
 
 /** Issue tags offered under an element voted "needs work", by kind. Every id is in FEEDBACK_TAGS. */
 export const ELEMENT_ISSUE_TAGS: Record<ElementKind, string[]> = {
-  food: ['wrong-preparation', 'wrong-size', 'wrong-vessel', 'other-dish', 'unappetizing', 'missing-items', 'extra-items'],
-  product: ['wrong-pack', 'logo-distorted', 'product-placement', 'extra-items', 'missing-items'],
-  table: ['wrong-cutlery', 'wrong-props', 'extra-items', 'missing-items'],
-  environment: ['wrong-venue', 'wrong-props', 'not-authentic', 'ai-artifacts'],
-  camera: ['camera', 'ignores-layout'],
+  food: ['wrong-preparation', 'wrong-size', 'wrong-vessel', 'other-dish', 'unappetizing', 'missing-items', 'extra-items', 'proxy-labels'],
+  product: ['wrong-pack', 'logo-distorted', 'product-placement', 'extra-items', 'missing-items', 'proxy-labels'],
+  table: ['wrong-cutlery', 'wrong-props', 'extra-items', 'missing-items', 'wrong-perspective', 'proxy-labels'],
+  environment: ['wrong-venue', 'wrong-props', 'wrong-perspective', 'not-authentic', 'ai-artifacts', 'proxy-labels'],
+  camera: ['camera', 'wrong-perspective', 'ignores-layout'],
   lighting: ['lighting'],
   color: ['color'],
-  scene: ['ai-artifacts', 'impossible', 'not-authentic', 'ignores-layout', 'extra-items', 'missing-items'],
+  scene: ['proxy-labels', 'wrong-perspective', 'ai-artifacts', 'impossible', 'not-authentic', 'ignores-layout', 'extra-items', 'missing-items'],
 };
+
+/** Ratings of 1 to 5; 4 and 5 count as working, 3 and below as needs work. */
+export const RATING_WORKING_MIN = 4;
+export const RATING_LABELS: Record<number, string> = { 1: 'Wrong', 2: 'Poor', 3: 'Okay', 4: 'Good', 5: 'Great' };
+
+/**
+ * Where an element's look came from in the generation: only the prompt text, an image the app
+ * made (a node preview, the product photo, the poured-glass reference) or the operator's own upload.
+ * It separates "the prompt described it wrong" from "the model ignored the reference".
+ */
+export const ElementSource = z.enum(['prompt', 'preview', 'product', 'upload']);
+export type ElementSource = z.infer<typeof ElementSource>;
+
+export const SOURCE_LABELS: Record<ElementSource, string> = {
+  prompt: 'Prompt only',
+  preview: 'Preview image',
+  product: 'Product photo',
+  upload: 'Your image',
+};
+
+/** From a result's reference list ("SIDE_1 (your image)", "SKU (product photo)") to each chip's source. */
+export function elementSource(references: string[], chip: string): ElementSource {
+  const ref = references.find((r) => r.startsWith(`${chip} (`));
+  if (!ref) return 'prompt';
+  if (ref.includes('(your image)')) return 'upload';
+  if (ref.includes('(preview)')) return 'preview';
+  return 'product';
+}
 
 /** A voted chip in plain words: the saved item name when the rating has one ("White rice"), else the chip. */
 export function elementLabel(chip: string, names?: Record<string, string>): string {
@@ -159,6 +189,10 @@ export const FeedbackInput = z.object({
   elementTags: z.record(z.string().max(64), z.array(z.string().max(40)).max(12)).optional(),
   /** A short note per element voted "needs work" ("the rice should be yellow"). */
   elementNotes: z.record(z.string().max(64), z.string().max(300)).optional(),
+  /** The 1–5 rating per element; `working` and `elements` are derived from it. */
+  elementRatings: z.record(z.string().max(64), z.number().int().min(1).max(5)).optional(),
+  /** What each rated element was generated from: prompt text only, or a reference image. */
+  elementSources: z.record(z.string().max(64), ElementSource).optional(),
   note: z.string().max(2000),
   prompt: z.string().max(20_000),
   model: z.string().max(80),

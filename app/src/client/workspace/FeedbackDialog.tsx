@@ -1,22 +1,27 @@
 // The feedback dialog: rate one generated scene image. An overall verdict, then a
-// good / needs-work vote on each element, named by what it is ("White rice", not
-// SIDE_1). An element that needs work opens its own issue tags and a short note,
+// 1–5 rating of each element, named by what it is ("White rice", not SIDE_1) and
+// marked with what it was generated from (prompt only, a preview, the product photo
+// or the operator's own image). An element rated 3 or lower opens its own issue tags and a short note,
 // so the learning agent knows exactly which item went wrong and how. Optional
 // strengths and a note close it. The automatic check's findings show under the
 // element they name and can be kept with the rating.
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { Check, Download, ThumbsDown, ThumbsUp, X } from 'lucide-react';
+import { Check, Download, X } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 
 import {
   ELEMENT_ISSUE_TAGS,
+  RATING_LABELS,
+  RATING_WORKING_MIN,
   SCENE_ELEMENT,
+  SOURCE_LABELS,
   TAG_LABELS,
   VERDICT_LABELS,
   Verdict,
   WORKING_TAGS,
+  elementSource,
   type FeedbackInput,
   type RatedElement,
 } from '../../shared/feedback.ts';
@@ -32,7 +37,8 @@ import styles from './FeedbackDialog.module.css';
 const NOTE_MAX = 2000;
 const ELEMENT_NOTE_MAX = 300;
 
-type Vote = 'working' | 'needs-work';
+const RATINGS = [1, 2, 3, 4, 5] as const;
+const HAS_SOURCE = new Set<RatedElement['kind']>(['food', 'product', 'table', 'environment']);
 
 const VERDICT_HELP: Record<Verdict, string> = {
   usable: 'Ready to use as is',
@@ -104,8 +110,8 @@ export function FeedbackDialog({
 }) {
   const [verdict, setVerdict] = useState<Verdict | null>(null);
   const [strengths, setStrengths] = useState<Set<string>>(new Set());
-  // One vote per element: working, needs work, or not voted (absent).
-  const [votes, setVotes] = useState<Map<string, Vote>>(new Map());
+  // One 1–5 rating per element; absent until rated.
+  const [ratings, setRatings] = useState<Map<string, number>>(new Map());
   const [issueTags, setIssueTags] = useState<Map<string, Set<string>>>(new Map());
   const [elementNotes, setElementNotes] = useState<Map<string, string>>(new Map());
   const [note, setNote] = useState('');
@@ -128,7 +134,8 @@ export function FeedbackDialog({
     prevKeyRef.current = key;
     setVerdict(checkForImage?.pass === false ? 'unusable' : null);
     setStrengths(new Set());
-    setVotes(new Map(checkForImage?.issues.filter((i) => i.severity === 'major').map((i) => [i.element, 'needs-work' as const]) ?? []));
+    // The check's major issues start their element at 2 (Poor), so the issue tags are already open.
+    setRatings(new Map(checkForImage?.issues.filter((i) => i.severity === 'major').map((i) => [i.element, 2]) ?? []));
     setIssueTags(new Map());
     setElementNotes(new Map());
     setNote('');
@@ -137,21 +144,22 @@ export function FeedbackDialog({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key]);
 
-  const vote = (el: string, v: Vote) =>
-    setVotes((prev) => {
+  const rate = (el: string, n: number) =>
+    setRatings((prev) => {
       const next = new Map(prev);
-      if (next.get(el) === v) next.delete(el);
-      else next.set(el, v);
+      if (next.get(el) === n) next.delete(el);
+      else next.set(el, n);
       return next;
     });
-  const votedWith = (v: Vote) => allElements.filter((el) => votes.get(el.id) === v).map((el) => el.id);
-  const markRestWorking = () =>
-    setVotes((prev) => {
+  const needsWork = (id: string) => (ratings.get(id) ?? 5) < RATING_WORKING_MIN;
+  const rateRestFive = () =>
+    setRatings((prev) => {
       const next = new Map(prev);
-      for (const el of allElements) if (!next.has(el.id)) next.set(el.id, 'working');
+      for (const el of allElements) if (!next.has(el.id)) next.set(el.id, 5);
       return next;
     });
-  const rated = allElements.filter((el) => votes.has(el.id)).length;
+  const rated = allElements.filter((el) => ratings.has(el.id)).length;
+  const sourceOf = (id: string) => elementSource(result?.references ?? [], id);
 
   const submit = trpc.feedbackSubmit.useMutation({
     onSuccess: (res, variables) => {
@@ -162,10 +170,11 @@ export function FeedbackDialog({
 
   const buildInput = (): FeedbackInput | null => {
     if (!result || !verdict) return null;
-    const needsWork = votedWith('needs-work');
+    const ratedIds = allElements.filter((el) => ratings.has(el.id)).map((el) => el.id);
+    const low = ratedIds.filter(needsWork);
     const elTags: Record<string, string[]> = {};
     const elNotes: Record<string, string> = {};
-    for (const id of needsWork) {
+    for (const id of low) {
       const t = [...(issueTags.get(id) ?? [])];
       if (t.length) elTags[id] = t;
       const n = (elementNotes.get(id) ?? '').trim();
@@ -179,9 +188,13 @@ export function FeedbackDialog({
       verdict,
       // Strengths plus every element's issue tags, so older readers of `tags` still see them.
       tags: [...strengths, ...issueUnion].slice(0, 30),
-      elements: needsWork,
-      working: votedWith('working'),
-      elementNames: Object.fromEntries(allElements.filter((el) => votes.has(el.id)).map((el) => [el.id, el.name.slice(0, 200)])),
+      elements: low,
+      working: ratedIds.filter((id) => !needsWork(id)),
+      elementRatings: Object.fromEntries(ratedIds.map((id) => [id, ratings.get(id)!])),
+      elementSources: Object.fromEntries(
+        allElements.filter((el) => ratings.has(el.id) && HAS_SOURCE.has(el.kind)).map((el) => [el.id, sourceOf(el.id)]),
+      ),
+      elementNames: Object.fromEntries(allElements.filter((el) => ratings.has(el.id)).map((el) => [el.id, el.name.slice(0, 200)])),
       elementTags: Object.keys(elTags).length ? elTags : undefined,
       elementNotes: Object.keys(elNotes).length ? elNotes : undefined,
       note: note.trim(),
@@ -310,10 +323,14 @@ export function FeedbackDialog({
                     <span className={styles.progress}>
                       {rated} of {allElements.length} rated
                     </span>
-                    <button type="button" className={styles.linkBtn} disabled={rated === allElements.length} onClick={markRestWorking}>
-                      <Check size={14} aria-hidden /> {rated === 0 ? 'Mark all good' : 'Mark the rest good'}
+                    <button type="button" className={styles.linkBtn} disabled={rated === allElements.length} onClick={rateRestFive}>
+                      <Check size={14} aria-hidden /> {rated === 0 ? 'Rate all 5' : 'Rate the rest 5'}
                     </button>
                   </div>
+                  <p className={styles.hint}>
+                    1 is wrong, 5 is great. A 3 or lower opens the issues for that item. The tag beside each item shows what it was
+                    generated from: the prompt alone, or a reference image.
+                  </p>
                   {GROUPS.map((g) => {
                     const items = allElements.filter((el) => g.kinds.includes(el.kind));
                     if (!items.length) return null;
@@ -322,35 +339,42 @@ export function FeedbackDialog({
                         <h4 className={styles.groupTitle}>{g.title}</h4>
                         <ul className={styles.rows}>
                           {items.map((el) => {
-                            const v = votes.get(el.id);
+                            const r = ratings.get(el.id);
+                            const low = r !== undefined && r < RATING_WORKING_MIN;
                             const issues = checkIssuesFor(el.id);
                             const picked = issueTags.get(el.id) ?? new Set<string>();
+                            // Only items and the background can carry a reference image; camera, light and color are always prompt text.
+                            const source = HAS_SOURCE.has(el.kind) ? sourceOf(el.id) : null;
                             return (
-                              <li key={el.id} className={styles.row} data-vote={v}>
+                              <li key={el.id} className={styles.row} data-low={low || undefined}>
                                 <div className={styles.rowMain}>
                                   <div className={styles.rowText}>
                                     <span className={styles.rowName}>{el.name}</span>
-                                    <span className={styles.rowRole}>{el.role}</span>
+                                    <span className={styles.rowRole}>
+                                      {el.role}
+                                      {source && (
+                                        <span className={styles.source} data-source={source} title="What this item was generated from">
+                                          {SOURCE_LABELS[source]}
+                                        </span>
+                                      )}
+                                    </span>
                                   </div>
-                                  <div className={styles.voteGroup} role="group" aria-label={el.name}>
-                                    <button
-                                      type="button"
-                                      className={styles.voteBtn}
-                                      data-kind="working"
-                                      aria-pressed={v === 'working'}
-                                      onClick={() => vote(el.id, 'working')}
-                                    >
-                                      <ThumbsUp size={14} aria-hidden /> Good
-                                    </button>
-                                    <button
-                                      type="button"
-                                      className={styles.voteBtn}
-                                      data-kind="needs-work"
-                                      aria-pressed={v === 'needs-work'}
-                                      onClick={() => vote(el.id, 'needs-work')}
-                                    >
-                                      <ThumbsDown size={14} aria-hidden /> Needs work
-                                    </button>
+                                  <div className={styles.scale} role="radiogroup" aria-label={`Rate ${el.name}, 1 to 5`}>
+                                    {RATINGS.map((n) => (
+                                      <button
+                                        key={n}
+                                        type="button"
+                                        role="radio"
+                                        aria-checked={r === n}
+                                        aria-label={`${n}, ${RATING_LABELS[n]}`}
+                                        title={RATING_LABELS[n]}
+                                        className={styles.scaleBtn}
+                                        data-low={n < RATING_WORKING_MIN || undefined}
+                                        onClick={() => rate(el.id, n)}
+                                      >
+                                        {n}
+                                      </button>
+                                    ))}
                                   </div>
                                 </div>
                                 {issues.length > 0 && (
@@ -365,7 +389,7 @@ export function FeedbackDialog({
                                     ))}
                                   </ul>
                                 )}
-                                {v === 'needs-work' && (
+                                {low && (
                                   <div className={styles.detail}>
                                     <div className={styles.tags}>
                                       {ELEMENT_ISSUE_TAGS[el.kind].map((t) => (

@@ -4,7 +4,7 @@
 import { Download, ThumbsDown, ThumbsUp } from 'lucide-react';
 import { useState } from 'react';
 
-import { TAG_LABELS, VERDICT_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackView } from '../../shared/feedback.ts';
+import { SOURCE_LABELS, TAG_LABELS, VERDICT_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackView } from '../../shared/feedback.ts';
 import { trpc } from '../trpc.ts';
 import { Accordion } from '../ui/Accordion.tsx';
 import { Alert } from '../ui/Alert.tsx';
@@ -13,6 +13,15 @@ import { CopyButton, triggerDownload } from '../ui/DownloadCopy.tsx';
 import { recordsToCsv } from './csv.ts';
 import { ImageModal } from './ImageModal.tsx';
 import styles from './FeedbackSection.module.css';
+
+/** "Green salad 2/5 · your image": the item, its 1–5 rating and its source, when the rating has them. */
+function ratedLabel(record: FeedbackView, el: string): string {
+  const rating = record.elementRatings?.[el];
+  const source = record.elementSources?.[el];
+  return [elementLabel(el, record.elementNames) + (rating ? ` ${rating}/5` : ''), source && source !== 'prompt' ? SOURCE_LABELS[source].toLowerCase() : '']
+    .filter(Boolean)
+    .join(' · ');
+}
 
 /** Item names saved with the ratings, newest last so they win: "SIDE_1" → "White rice". */
 function namesFrom(records: FeedbackView[]): Record<string, string> {
@@ -99,8 +108,8 @@ function FeedbackCard({ record, onEnlarge }: { record: FeedbackView; onEnlarge: 
             </span>
           ))}
         </div>
-        {(record.working?.length ?? 0) > 0 && <div className={styles.meta}>Working: {record.working!.map((el) => elementLabel(el, record.elementNames)).join(', ')}</div>}
-        {record.elements.length > 0 && <div className={styles.meta}>Needs work: {record.elements.map((el) => elementLabel(el, record.elementNames)).join(', ')}</div>}
+        {(record.working?.length ?? 0) > 0 && <div className={styles.meta}>Working: {record.working!.map((el) => ratedLabel(record, el)).join(', ')}</div>}
+        {record.elements.length > 0 && <div className={styles.meta}>Needs work: {record.elements.map((el) => ratedLabel(record, el)).join(', ')}</div>}
         {record.elements
           .filter((el) => record.elementTags?.[el]?.length || record.elementNotes?.[el])
           .map((el) => (
