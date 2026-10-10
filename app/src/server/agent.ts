@@ -243,6 +243,20 @@ The operator's description: ${JSON.stringify(custom)}
 Return status "resolved" with exactly one option that realizes their description as closely as the allowed vocabulary permits. If they refer to a shown option ("like B, but…"), start from it and change only what they asked. Keep their wording in the label where you can. If what they ask for is unusual in this region or conflicts with a knowledge-base rule, still build it, but say so plainly at the start of the rationale.`;
 }
 
+/**
+ * The venue and occasion are the operator's choices. Without this the story agent can follow the
+ * knowledge base instead (e.g. paella is a Sunday lunch at home in Spain) and move a restaurant
+ * dinner to a home table.
+ */
+function placeAndOccasionFacts(spec: SceneSpec): string {
+  const place = venueType(spec.scene.venue, spec.scene.venueType);
+  const where =
+    spec.scene.venue === 'on-the-go' ? 'eaten on the go' : spec.scene.venue === 'home' ? 'at home' : 'in a restaurant';
+  const occasion = spec.occasion.replace(/-/g, ' ');
+  return `- Place: ${where}${place ? ` (${place.label})` : ''}, the operator's choice. The scene summary, brief summary and Background all read as ${where}; never move the meal to another kind of place, even when the knowledge base links this dish to a different one.
+- Occasion: ${occasion}, the operator's choice. Keep it even when the dish is more typical at another meal; if that matters, say so in a cultural note instead of changing it.`;
+}
+
 function storyTask(spec: SceneSpec, bp: Blueprint, notes?: string[], directions?: string[]): string {
   const facts = storyFacts(spec, bp);
   return `Write the scene story for the image team.
@@ -251,6 +265,7 @@ Scene spec:
 ${JSON.stringify({ scene: spec.scene, sku: spec.sku, entree: spec.entree, accompaniments: spec.accompaniments, accent: spec.accent, napkinSet: spec.napkinSet }, null, 1)}
 
 Fixed facts (use these, do not contradict them):
+${placeAndOccasionFacts(spec)}
 - Surface: ${facts.surfaceText}${onTheGoSurfaceRule(spec.scene) ? `\n- On the go: ${onTheGoSurfaceRule(spec.scene)}` : ''}${environmentBrief(spec.scene) ? `\n- Environment brief (build the Background from this): ${environmentBrief(spec.scene)}` : ''}
 - Lighting: ${facts.lightingSentence}
 - Light on the product: ${facts.skuLightSentence}
@@ -285,6 +300,9 @@ function validateTask(spec: SceneSpec, fullStory: Story): string {
   // The brief summary only abbreviates the detailed one; validation reads the detailed summary.
   const { briefSummary: _brief, ...story } = fullStory;
   return `Check this scene story for cultural authenticity and consistency before any image is generated. Check it against the knowledge base (country file, regional file, brand and tableware references) and against the brief. Fail it only for real problems: a wrong dish or variant for this region, a broken cultural or brand rule, a side or vessel that doesn't belong, an inconsistency between segments, or a claim the knowledge base marks as unconfirmed presented as fact. Each note names the problem and what to change.
+
+The place and occasion are the operator's choices, not problems: never ask to change them. A story that moves the meal away from them (say, from a restaurant to a home) fails, with a note to put it back.
+${placeAndOccasionFacts(spec)}
 
 Story:
 ${JSON.stringify(story, null, 1)}

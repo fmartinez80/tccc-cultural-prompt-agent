@@ -1,4 +1,3 @@
-import { ArrowRight } from 'lucide-react';
 import { useEffect } from 'react';
 
 import type { RuleEffects } from '../../api.ts';
@@ -7,7 +6,6 @@ import type { Decision, SceneSpec, SurfaceChoice } from '../../shared/types.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
 import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
 import { Alert } from '../ui/Alert.tsx';
-import { Button } from '../ui/Button.tsx';
 import { ChoiceCardGroup, splitSources } from '../ui/ChoiceCard.tsx';
 import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { Select } from '../ui/Select.tsx';
@@ -16,7 +14,7 @@ import { VENUE_TYPES } from '../../shared/venues.ts';
 import { AgentStatus } from './AgentStatus.tsx';
 import { TIME_LABELS, type Brief } from './types.ts';
 import styles from './SceneStep.module.css';
-import { StepActions } from './StepActions.tsx';
+import { ContinueButton, StepActions } from './StepActions.tsx';
 
 type Scene = NonNullable<Selections['scene']>;
 
@@ -113,8 +111,9 @@ export function SceneStep({
   }, [surfaceTask.result]);
 
   useEffect(() => {
-    if (surfaceDecision?.status === 'resolved' && !scene.surface) {
-      const v = surfaceDecision.options[0]!.value;
+    // The recommended surface is the answer until the operator picks another.
+    if (surfaceDecision && !scene.surface) {
+      const v = (surfaceDecision.options.find((o) => o.suggested) ?? surfaceDecision.options[0]!).value;
       update({ surface: v.surface, surfaceText: v.promptText });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -223,8 +222,9 @@ export function SceneStep({
             timing={surfaceTask.timing}
             agentError={surfaceTask.agentError}
             trpcError={surfaceTask.trpcError}
-            workingLabel="The cultural agent is picking a surface"
-            overlay
+            workingLabel="The cultural agent is picking the table or counter people eat at."
+            phase="Finding where people eat this on the go…"
+            card
             onSignedIn={() => onSignedIn(loadSurface)}
             onRetry={loadSurface}
             skeletonCards={3}
@@ -257,7 +257,7 @@ export function SceneStep({
                   facts: [{ label: 'In the image', value: o.value.promptText }],
                   ...splitSources(o.rationale),
                 },
-                badge: surfaceDecision.options.length > 1 && o.suggested ? 'Suggested' : undefined,
+                badge: surfaceDecision.options.length > 1 && o.suggested ? 'Recommended' : undefined,
               }))}
             />
           )}
@@ -286,9 +286,16 @@ export function SceneStep({
       </div>
 
       <StepActions>
-        <Button variant="primary" iconEnd={<ArrowRight size={16} aria-hidden />} disabled={!sel.scene || needSurface} onPress={onNext}>
-          Continue
-        </Button>
+        <ContinueButton
+          blocked={
+            !sel.scene
+              ? { reason: 'Setting up the scene…' }
+              : needSurface
+                ? { reason: surfaceTask.status === 'error' ? "The surfaces didn't load. Try again above." : 'The dining surface is on its way. Continue picks the recommended one.' }
+                : null
+          }
+          onPress={onNext}
+        />
       </StepActions>
     </section>
   );

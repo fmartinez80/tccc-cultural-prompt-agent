@@ -44,6 +44,14 @@ export function Intro() {
         <strong>ProdX Scene Composer</strong> helps creative teams design vibrant, authentic Coca-Cola meal scenes in minutes. Pick your market, select your product SKU, choose your
         menu, and build your scene with confidence.
       </p>
+    </section>
+  );
+}
+
+/** The three illustrated features, under the way into a new scene. */
+export function Features() {
+  return (
+    <section aria-label="What it does">
       <ul className={styles.features}>
         {FEATURES.map(({ Art, title, text }) => (
           <li key={title} className={styles.feature}>

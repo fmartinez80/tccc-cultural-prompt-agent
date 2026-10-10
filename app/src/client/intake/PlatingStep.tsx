@@ -67,6 +67,7 @@ export function PlatingStep({
       timing={task.timing}
       agentError={task.agentError}
       trpcError={task.trpcError}
+      phase="Finding the most common way this dish reaches the table…"
       workingLabel="We are pulling options to best serve this dish."
       decision={decision}
       selected={selected}

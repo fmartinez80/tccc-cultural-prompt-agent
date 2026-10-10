@@ -76,6 +76,7 @@ export function PrepStep({
       timing={task.timing}
       agentError={task.agentError}
       trpcError={task.trpcError}
+      phase={`Finding how ${brief.heroDish || 'the dish'} ${isOrAre(brief.heroDish || 'the dish')} made in ${placeName(brief.countryLabel, regionLabel)}…`}
       workingLabel={`Gathering options to show how to best prepare your meal in ${placeName(brief.countryLabel, regionLabel)}.`}
       decision={decision}
       selected={selected}

@@ -15,7 +15,32 @@
   gap: 2px;
 }
 
+.countRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+/* Collapsed by default: the first few lines, fading out. */
 .codeWrap {
-  max-height: 220px;
+  position: relative;
+  max-height: 120px;
+  overflow: hidden;
+}
+
+.codeWrap:not([data-open])::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgb(255 255 255 / 0), var(--neo-card));
+}
+
+.codeWrap[data-open] {
+  max-height: 480px;
   overflow: auto;
 }

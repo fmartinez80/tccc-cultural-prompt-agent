@@ -14,6 +14,17 @@ import type { Brief, ComposeResult, StepId, StoryState } from './types.ts';
 import { EMPTY_BRIEF } from './types.ts';
 
 const STORAGE_KEY = 'tablescape-intake:draft:v1';
+/** When the draft was last written, for the "Saved 2:14 PM" line. */
+const SAVED_AT_KEY = 'tablescape-intake:saved-at:v1';
+
+function loadSavedAt(): number | null {
+  try {
+    const n = Number(window.localStorage.getItem(SAVED_AT_KEY));
+    return n > 0 ? n : null;
+  } catch {
+    return null;
+  }
+}
 const SAVED_FLASH_MS = 1500;
 
 /**
@@ -182,6 +193,7 @@ export function normalizeDraft(rawParsed: Record<string, unknown>): Draft {
 export function useIntake() {
   const [draft, setDraft] = useState<Draft>(loadDraft);
   const [saved, setSaved] = useState(false);
+  const [savedAt, setSavedAt] = useState<number | null>(loadSavedAt);
   const flashRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const skipNextSaveFlash = useRef(true);
 
@@ -198,6 +210,13 @@ export function useIntake() {
       skipNextSaveFlash.current = false;
       return;
     }
+    const now = Date.now();
+    try {
+      window.localStorage.setItem(SAVED_AT_KEY, String(now));
+    } catch {
+      // as above
+    }
+    setSavedAt(now);
     setSaved(true);
     if (flashRef.current) clearTimeout(flashRef.current);
     flashRef.current = setTimeout(() => setSaved(false), SAVED_FLASH_MS);
@@ -376,6 +395,7 @@ export function useIntake() {
   return {
     draft,
     saved,
+    savedAt,
     setStep,
     setBrief,
     choose,

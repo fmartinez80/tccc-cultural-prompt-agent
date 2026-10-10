@@ -4,8 +4,8 @@
 // cards but embed differently, so they compose ChoiceCardGroup directly
 // instead of this wrapper.
 
-import { ArrowRight, PencilLine, RotateCcw, Sparkles } from 'lucide-react';
-import type { ReactNode } from 'react';
+import { PencilLine, RotateCcw, Sparkles } from 'lucide-react';
+import { useEffect, type ReactNode } from 'react';
 
 import type { Decision } from '../../shared/types.ts';
 import type { AgentTaskStatus, TaskTiming } from '../lib/useAgentTask.ts';
@@ -16,7 +16,7 @@ import { TextArea } from '../ui/TextArea.tsx';
 import { AgentStatus } from './AgentStatus.tsx';
 import styles from './DecisionStep.module.css';
 import type { CustomOptionState } from './useCustomOption.ts';
-import { StepActions } from './StepActions.tsx';
+import { ContinueButton, StepActions } from './StepActions.tsx';
 
 export interface DecisionStepProps<T> {
   title: ReactNode;
@@ -27,6 +27,8 @@ export interface DecisionStepProps<T> {
   agentError: string | null;
   trpcError: unknown;
   workingLabel: string;
+  /** The wait card's headline, e.g. "Finding authentic sides…". */
+  phase: string;
   decision: Decision<T> | null;
   selected: T | undefined;
   isSame: (a: T, b: T) => boolean;
@@ -57,6 +59,7 @@ export function DecisionStep<T>({
   agentError,
   trpcError,
   workingLabel,
+  phase,
   decision,
   selected,
   isSame,
@@ -71,6 +74,15 @@ export function DecisionStep<T>({
 }: DecisionStepProps<T>) {
   const isBusy = status === 'starting' || status === 'polling';
   const selectedId = selected !== undefined ? (decision?.options.find((o) => isSame(o.value, selected))?.id ?? null) : null;
+
+  // The recommended option is the answer until the operator picks another, so Continue always moves on.
+  useEffect(() => {
+    if (decision && selected === undefined) {
+      const rec = decision.options.find((o) => o.suggested) ?? decision.options[0];
+      if (rec) onPick(rec.value);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [decision, selected]);
 
   return (
     <section>
@@ -87,8 +99,8 @@ export function DecisionStep<T>({
         agentError={agentError}
         trpcError={trpcError}
         workingLabel={workingLabel}
-        workingTitle={typeof title === 'string' ? title : undefined}
-        overlay
+        phase={phase}
+        card
         onSignedIn={onSignedIn}
         onRetry={onAskAgain}
         skeletonCards={3}
@@ -123,7 +135,7 @@ export function DecisionStep<T>({
                   rationale: why.rationale,
                   sources: why.sources,
                 },
-                badge: o.id === 'custom' ? 'Your version' : decision.options.length > 1 && o.suggested ? 'Suggested' : undefined,
+                badge: o.id === 'custom' ? 'Your version' : decision.options.length > 1 && o.suggested ? 'Recommended' : undefined,
               };
             })}
           />
@@ -140,9 +152,16 @@ export function DecisionStep<T>({
             Ask again
           </Button>
         )}
-        <Button variant="primary" iconEnd={<ArrowRight size={16} aria-hidden />} disabled={!selected} onPress={onNext}>
+        <ContinueButton
+          blocked={
+            selected
+              ? null
+              : { reason: status === 'error' ? "The options didn't load. Try again above." : 'The options are on their way. Continue picks the recommended one.' }
+          }
+          onPress={onNext}
+        >
           {nextLabel}
-        </Button>
+        </ContinueButton>
       </StepActions>
     </section>
   );
@@ -184,7 +203,6 @@ export function CustomOption({ custom, example }: { custom: CustomOptionState; e
           agentError={custom.agentError}
           trpcError={custom.trpcError}
           workingLabel="The cultural agent is building your version"
-          overlay
           onSignedIn={custom.onSignedIn}
           onRetry={custom.submit}
           skeletonCards={1}

@@ -73,21 +73,26 @@
   background: var(--neo-hover);
 }
 
+/* Selected (one pattern for every option card): 2px brand-red border, light red
+   fill, red check. The 1px the thinner border frees goes to padding, so nothing shifts. */
 .card[data-selected] {
-  background: var(--neo-selected);
-  color: var(--neo-on-selected);
+  border: var(--neo-selected-border);
+  padding: 25px 21px;
+  background: var(--neo-selected-soft);
 }
 
-.card[data-selected][data-hovered]:not([data-disabled]) {
-  background: var(--neo-selected-hover);
+.card[data-selected][data-more] {
+  padding-bottom: 49px;
 }
 
-.card[data-selected] :is(.cardTitle, .cardSummary) {
-  color: var(--neo-on-selected);
+.card[data-selected] .cardMedia {
+  margin: -25px -21px 4px;
 }
 
 .card[data-selected] .check {
-  background: var(--neo-card);
+  background: var(--neo-selected);
+  border-color: var(--neo-selected);
+  color: var(--neo-on-selected);
 }
 
 .card[data-disabled] {
@@ -156,9 +161,9 @@
 }
 
 .cardSummary {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: var(--app-weight-text);
-  line-height: 17px;
+  line-height: 20px;
   color: var(--bay-text-3);
 }
 
@@ -250,21 +255,13 @@
 }
 
 .row[data-selected] {
-  background: var(--neo-selected);
-  color: var(--neo-on-selected);
+  border: var(--neo-selected-border);
+  padding: calc(var(--row-pad-y) + 1px) calc(var(--row-pad-x) + 1px);
+  background: var(--neo-selected-soft);
 }
 
-.row[data-selected][data-hovered]:not([data-disabled]) {
-  background: var(--neo-selected-hover);
-}
-
-.row[data-selected] :is(.rowTitle, .rowSummary) {
-  color: var(--neo-on-selected);
-}
-
-/* The link sits over the row (a sibling of the Radio), so it follows the row's state. */
-.cell:has(.row[data-selected]) .moreLink {
-  color: var(--neo-on-selected);
+.row[data-selected][data-more] {
+  padding-bottom: calc(var(--row-pad-y) + 33px);
 }
 
 .row[data-disabled] {
@@ -289,7 +286,9 @@
 }
 
 .row[data-selected] .box {
-  background: var(--neo-card);
+  background: var(--neo-selected);
+  border-color: var(--neo-selected);
+  color: var(--neo-on-selected);
 }
 
 .rowHead {
@@ -332,8 +331,8 @@
 
 .rowSummary {
   grid-column: 2;
-  max-width: 760px;
-  font-size: 15px;
+  max-width: 65ch;
+  font-size: 16px;
   font-weight: var(--app-weight-text);
   line-height: 22px;
   color: var(--bay-text-3);
@@ -559,9 +558,6 @@
   cursor: auto;
 }
 
-.row[data-selected] .rowDetails :is(dt, .dialogText, .dialogSection h3) {
-  color: var(--bay-text-2);
-}
 
 .moreChevron {
   transition: transform var(--bay-dur) var(--bay-ease);

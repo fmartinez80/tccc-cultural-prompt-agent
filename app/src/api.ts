@@ -253,8 +253,34 @@ function addProductReferences(
 /** Option-step answers depend only on their prompt, so the same brief and picks reuse a saved answer. */
 const agentCache = documentStore<{ text: string; at: number }>({ prefix: 'agent-cache/' });
 const CACHEABLE_KINDS = new Set(['prep', 'plating', 'sides', 'surface', 'accent']);
-/** Job id → cache key, for answers to save once they parse. */
-const pendingCacheKeys = new Map<string, string>();
+/**
+ * User + prompt → the job answering it, so a person who leaves a step while the
+ * agent works (or reloads) gets the same answer when they come back instead of
+ * starting the wait over. Jobs live in memory for a few hours (jobs.ts).
+ */
+const agentJobs = new Map<string, string>();
+/** Job id → its `agentJobs` key; dropped once the answer has been collected, so asking again really asks again. */
+const agentJobKeys = new Map<string, string>();
+
+function trackAgentJob(own: string, taskId: string): void {
+  agentJobs.set(own, taskId);
+  agentJobKeys.set(taskId, own);
+  if (agentJobKeys.size > 1000) {
+    for (const [id, k] of agentJobKeys) {
+      if (!getJob(id, k.slice(0, k.indexOf(':')))) {
+        agentJobKeys.delete(id);
+        if (agentJobs.get(k) === id) agentJobs.delete(k);
+      }
+    }
+  }
+}
+
+function collectedAgentJob(taskId: string): void {
+  const own = agentJobKeys.get(taskId);
+  if (!own) return;
+  agentJobKeys.delete(taskId);
+  if (agentJobs.get(own) === taskId) agentJobs.delete(own);
+}
 
 function cacheKeyFor(task: TextTask): string {
   return createHash('sha256').update(`${task.model}\n${task.system_prompt}\n${task.prompt}`).digest('hex');
@@ -422,15 +448,32 @@ export const AppRouter = router({
         // Lessons the team confirmed for this dish go into every agent step.
         const lessons = await confirmedLessons(input.brief.country, input.brief.heroDish);
         const task = buildTask({ ...input, lessons });
+        const key = cacheKeyFor(task);
+        const own = `${ctx.user.id}:${input.kind}:${key}`;
+        // The same question is still being answered, or was answered after the person left: pick that job back up.
+        const running = agentJobs.get(own);
+        const job = running ? getJob<string>(running, ctx.user.id) : null;
+        if (running && job && job.status !== 'failed') return { taskId: running };
         if (CACHEABLE_KINDS.has(input.kind) && !input.custom?.trim()) {
-          const key = cacheKeyFor(task);
           const hit = await agentCache.get(key).catch(() => null);
           if (hit) return { taskId: doneJob(ctx.user.id, hit.value.text) };
-          const taskId = startJob(ctx.user.id, () => generateText(task));
-          pendingCacheKeys.set(taskId, key);
+          const taskId = startJob(ctx.user.id, async () => {
+            const text = await generateText(task);
+            // Saved as soon as it lands, even if the person has left the step: their answer is waiting when they return.
+            try {
+              parseAnswer(input.kind, text);
+              void agentCache.put(key, { text, at: Date.now() }).catch(() => undefined);
+            } catch {
+              // Unreadable: agentPoll repairs it when someone collects it.
+            }
+            return text;
+          });
+          trackAgentJob(own, taskId);
           return { taskId };
         }
-        return { taskId: startJob(ctx.user.id, () => generateText(task)) };
+        const taskId = startJob(ctx.user.id, () => generateText(task));
+        trackAgentJob(own, taskId);
+        return { taskId };
       } catch (err) {
         modelError(err);
       }
@@ -444,21 +487,15 @@ export const AppRouter = router({
         const job = getJob<string>(input.taskId, ctx.user.id);
         if (!job) return { done: true, error: 'The cultural agent lost track of this answer (the app restarted). Ask again.' };
         if (job.status === 'running') return { done: false, progress: null };
+        collectedAgentJob(input.taskId);
         if (job.status === 'failed') {
-          pendingCacheKeys.delete(input.taskId);
           return { done: true, error: `The cultural agent failed: ${job.error}` };
         }
         const text = job.result;
         try {
           const result = parseAnswer(input.kind, text);
-          const cacheKey = pendingCacheKeys.get(input.taskId);
-          if (cacheKey) {
-            pendingCacheKeys.delete(input.taskId);
-            void agentCache.put(cacheKey, { text, at: Date.now() }).catch(() => undefined);
-          }
           return { done: true, result };
         } catch (err) {
-          pendingCacheKeys.delete(input.taskId);
           const message = err instanceof Error ? err.message : String(err);
           console.warn(
             `[agent] ${input.kind} answer unreadable (task ${input.taskId}${input.repair ? ', repair' : ''}): ${message} — ${text.length} chars, ends ${JSON.stringify(text.slice(-160))}`

@@ -3,8 +3,8 @@
 // the window on long steps and sits at the bottom of the panel on short ones,
 // so Continue is always in the same corner.
 
-import { ArrowLeft } from 'lucide-react';
-import { createContext, useContext, type ReactNode } from 'react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { createContext, useContext, useId, useState, type ReactNode } from 'react';
 
 import { Button } from '../ui/Button.tsx';
 import styles from './StepActions.module.css';
@@ -29,5 +29,68 @@ export function StepActions({ children }: { children?: ReactNode }) {
         <div className={styles.right}>{children}</div>
       </div>
     </>
+  );
+}
+
+/** Why the primary action can't run yet, and where the missing input is. */
+export interface Blocked {
+  /** Names the missing input, e.g. "Add a hero dish to continue." */
+  reason: string;
+  /** Moves focus to that input when Continue is pressed anyway. */
+  focus?: (() => void) | undefined;
+}
+
+/**
+ * The step's primary action. When something legitimately stops it, it stays
+ * focusable (`aria-disabled`) with the reason right beside it, and pressing it
+ * anyway moves focus to the missing input instead of doing nothing.
+ */
+export function ContinueButton({
+  children = 'Continue',
+  icon,
+  iconEnd = <ArrowRight size={16} aria-hidden />,
+  blocked,
+  onPress,
+}: {
+  children?: ReactNode;
+  icon?: ReactNode;
+  iconEnd?: ReactNode;
+  blocked?: Blocked | null | undefined;
+  onPress: () => void;
+}) {
+  const hintId = useId();
+  // Bumped on each blocked press so the reason flashes again.
+  const [attempt, setAttempt] = useState(0);
+  return (
+    <span className={styles.continue}>
+      {blocked && (
+        <span id={hintId} key={attempt} className={styles.blockedHint} data-attempt={attempt > 0 || undefined} role="status">
+          {blocked.reason}
+        </span>
+      )}
+      <Button
+        variant="primary"
+        icon={icon}
+        iconEnd={iconEnd}
+        blocked={!!blocked}
+        aria-describedby={blocked ? hintId : undefined}
+        onPress={() => {
+          if (!blocked) return onPress();
+          setAttempt((n) => n + 1);
+          blocked.focus?.();
+        }}
+      >
+        {children}
+      </Button>
+    </span>
+  );
+}
+
+/** A small status chip that sits beside the primary action, e.g. the sketch review tally. */
+export function ActionChip({ children, label }: { children: ReactNode; label?: string }) {
+  return (
+    <span className={styles.chip} aria-label={label}>
+      {children}
+    </span>
   );
 }

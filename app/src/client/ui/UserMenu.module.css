@@ -42,7 +42,28 @@
   outline-offset: 2px;
 }
 
+.icon {
+  display: none;
+  flex: none;
+}
+
+/* On a phone the email gives way to an icon, so the header never overlaps the logo. */
+@media (max-width: 720px) {
+  .icon {
+    display: block;
+  }
+  .name {
+    display: none;
+  }
+  .trigger {
+    padding: 8px 10px;
+  }
+}
+
+/* Right-aligned under the trigger (placement bottom end), above the sticky step headline, never wider than the screen. */
 .popover {
+  z-index: 60;
+  max-width: min(320px, calc(100vw - 32px));
   background: var(--neo-card);
   border: var(--neo-border);
   border-radius: var(--bay-r-md);

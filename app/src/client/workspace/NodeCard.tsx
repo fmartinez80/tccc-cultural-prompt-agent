@@ -7,6 +7,7 @@ import type { KeyboardEvent, PointerEvent, ReactNode } from 'react';
 import { useEffect, useRef } from 'react';
 
 import { Button } from '../ui/Button.tsx';
+import { CopyButton } from '../ui/CopyButton.tsx';
 import { useCanvasContext } from './context.ts';
 import styles from './NodeCard.module.css';
 
@@ -21,6 +22,7 @@ export function NodeCard({
   actions,
   dimmed = false,
   ariaLabel,
+  copyText,
   children,
 }: {
   id: string;
@@ -33,6 +35,8 @@ export function NodeCard({
   actions?: ReactNode | undefined;
   dimmed?: boolean | undefined;
   ariaLabel: string;
+  /** The node's text, for its Copy button. */
+  copyText?: string | undefined;
   children: ReactNode;
 }) {
   const ctx = useCanvasContext();
@@ -123,8 +127,9 @@ export function NodeCard({
           <span className={styles.title}>{title}</span>
         </div>
         {badges && <div className={styles.badges}>{badges}</div>}
-        {actions && (
-          <div className={styles.actions} onPointerDown={(e) => e.stopPropagation()}>
+        {(actions || copyText !== undefined) && (
+          <div className={styles.actions} onPointerDown={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
+            {copyText !== undefined && <CopyButton compact text={copyText} label={`${chip} text`} />}
             {actions}
           </div>
         )}

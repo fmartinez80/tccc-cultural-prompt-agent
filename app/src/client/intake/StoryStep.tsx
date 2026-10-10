@@ -249,19 +249,19 @@ export function StoryStep({
       )}
 
       <div className={styles.accordionStack}>
-        <SceneHero gen={gen} slug={slug} />
-
         <AgentStatus
           status={storyTask.status}
           timing={storyTask.timing}
           agentError={storyTask.agentError}
           trpcError={storyTask.trpcError}
-          workingLabel="We are writing up a detailed summary of your scene. This will help us validate what is and what isn’t working in your composition."
-          workingTitle="Scene Story"
-          overlay
+          phase="Step 1 of 2: writing the scene story…"
+          workingLabel="A detailed summary of your scene, used to check what is and isn’t working. The photo starts on its own as soon as it’s written."
+          card
           onSignedIn={() => onSignedIn(() => generateStory())}
           onRetry={() => generateStory()}
         />
+
+        <SceneHero gen={gen} slug={slug} />
 
         <section className={styles.brief} aria-labelledby="brief-summary">
           <h2 id="brief-summary" className={styles.briefLabel}>

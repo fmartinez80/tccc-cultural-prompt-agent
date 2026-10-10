@@ -15,6 +15,8 @@ export type TextInputProps = {
   maxLength?: number | undefined;
   onPressEnter?: (() => void) | undefined;
   className?: string | undefined;
+  /** The input's id, so a step can focus it (e.g. when Continue needs it filled). */
+  id?: string | undefined;
 };
 
 export function TextInput({
@@ -29,6 +31,7 @@ export function TextInput({
   maxLength,
   onPressEnter,
   className,
+  id,
 }: TextInputProps) {
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key !== 'Enter') return;
@@ -53,6 +56,7 @@ export function TextInput({
     >
       {label && <Label className={styles.label}>{label}</Label>}
       <Input
+        id={id}
         placeholder={placeholder}
         autoFocus={autoFocus}
         maxLength={maxLength}

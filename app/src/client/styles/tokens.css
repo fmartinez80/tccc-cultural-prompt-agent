@@ -32,6 +32,10 @@
   --neo-selected: #e7223a;
   --neo-selected-hover: #c91a30;
   --neo-on-selected: #ffffff;
+  /* Selected option cards (2026-10-09, one pattern everywhere): a 2px brand-red border,
+     this light red fill, black text and a red check. Solid red stays for the current step and chips. */
+  --neo-selected-soft: #fdeced;
+  --neo-selected-border: 2px solid var(--neo-selected);
   /* "Change" (Sketch review and anything marked to change). Always with --neo-hatch. */
   --neo-amber: #ffcc33;
   --neo-hatch: repeating-linear-gradient(-45deg, rgb(0 0 0 / 0.55) 0 1.5px, transparent 1.5px 6px);
@@ -65,7 +69,7 @@
   --bay-text: #000000;
   --bay-text-2: #1c1c1c;
   --bay-text-3: #45433f;
-  --bay-text-4: #77746d;
+  --bay-text-4: #6b6861;
   --bay-text-on-accent: #ffffff;
   --bay-bg-surface: var(--neo-card);
   --bay-bg-canvas: var(--neo-paper);

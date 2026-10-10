@@ -1,4 +1,4 @@
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, UserRound } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { Button, Menu, MenuItem, MenuTrigger, Popover, Separator } from 'react-aria-components';
 
@@ -25,7 +25,8 @@ export type UserMenuProps = {
 export function UserMenu({ email, items = [], onAction, onSignOut }: UserMenuProps): ReactNode {
   return (
     <MenuTrigger>
-      <Button className={styles.trigger}>
+      <Button className={styles.trigger} aria-label={`Account menu, ${email}`}>
+        <UserRound size={18} aria-hidden className={styles.icon} />
         <span className={styles.name}>{email}</span>
         <ChevronDown size={16} aria-hidden />
       </Button>

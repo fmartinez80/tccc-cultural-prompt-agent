@@ -20,6 +20,13 @@ export const EMPTY_BRIEF: Brief = {
   occasion: 'dinner',
 };
 
+/**
+ * The session contract, shown beside the entry points (Brief and home). The
+ * waits add up to about 5 minutes (progress.ts starting guesses); reading and
+ * picking take the rest.
+ */
+export const SESSION_LINE = 'About 10–15 minutes from brief to finished image. Saved as you go: step away anytime and pick up where you left off.';
+
 export function briefOk(b: Brief): boolean {
   return !!(b.country && b.skuId && b.heroDish.trim() && b.occasion);
 }

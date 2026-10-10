@@ -17,8 +17,11 @@ same change. The visual reference the user picked is
    *actively selecting*: the hover/press state of anything you can pick. Mid
    grey `--neo-cta` (`#a7a7a7`) is the primary call-to-action button.
    Coca-Cola red `--neo-selected` (`#e7223a`, user-picked) with white text (`--neo-on-selected`) means *selected*: the
-   chosen card, segment, chip, dropdown item, the current step, the selected
-   node and sketch item. Amber `--neo-amber` (`#ffcc33`)
+   segment, chip, dropdown item, the current step, the selected
+   node and sketch item. A selected **option card** (decision rows, angle
+   cards, arrangement thumbnails) is one pattern everywhere: a 2px red
+   border (`--neo-selected-border`), the light red fill `--neo-selected-soft`,
+   black text and a red check. Amber `--neo-amber` (`#ffcc33`)
    means "Change" and is **always** layered with `--neo-hatch` black stripes
    (and a pencil icon where there is room). Grey and amber are only ever
    fills behind black text — never a text colour.
@@ -97,14 +100,16 @@ Built on `react-aria-components` and styled with a sibling
 | `Button` | Every clickable action | `variant` `primary` (mid grey, Tilt Warp uppercase) / `default` (white, bordered) / `ghost`; `size` `md` (3px border, 5px shadow) / `sm` (2px, 3px shadow); `icon`, `loading`, `onPress`. No `autoFocus` prop |
 | `TextInput`, `TextArea` | Single/multi-line text | White, 2px border, no shadow; `onPressEnter` submits |
 | `Select` | Country / region / SKU / occasion dropdowns | Popover is a bordered card with the full shadow |
-| `ChoiceCardGroup` | Mutually exclusive option cards | White card, 3px border + shadow; hover/press = light grey, selected = red with white text; "More details" is a white Space Mono pill that opens the detail dialog |
+| `ChoiceCardGroup` | Mutually exclusive option cards | White card, 3px border + shadow; hover/press = light grey; selected = 2px red border, light red fill, red check; the agent's pick is badged "Recommended" and preselected; "More details" is a white Space Mono pill that opens the detail dialog |
 | `Accordion` | Collapsible sections | Bordered stack; the open row has a light grey header |
 | `SegmentedControl` | Chip-style single-select rows | Bordered pills; hover = light grey, selected = red |
 | `Switch` | One on/off toggle | Bordered track |
 | `CodeBlock` | Prompts and JSON | White, 2px border, Space Mono, copy button with "Copied" feedback |
 | `Alert` | Inline outcome the user must read | `tone` `error`/`warning`/`info`/`success` |
 | `ProgressBar` | Long generations | Bordered track, mid grey fill |
-| `LoadingOverlay` | A whole step waiting on content | The Coca-Cola bottle filling with cola on a bordered white card |
+| `WaitCard` | A whole step waiting on generated content (via `AgentStatus card`) | Inline card: the Coca-Cola bottle filling, the phase in plain words, time left (never a bare percent) and a "safe to leave" line; skeletons of the incoming content sit under it |
+| `ConfirmDialog` | Confirming an action that throws work away (Start over) | Bordered dialog, Cancel + primary confirm |
+| `CopyButton` | Copying any text (workspace nodes) | "Copy" → "Copied" for 1.6s; `compact` is icon-only until pressed |
 | `SkeletonText`, `SkeletonBlock` | Loading, shaped like the content | |
 | `EmptyState` | A region with nothing in it yet | Heading + hint + optional action |
 | `ErrorBoundary` | Around the rail and the step independently | |
@@ -147,9 +152,22 @@ native `<button>`s (not react-aria) are the one exception and use ordinary
 ### 5.2 Feedback and copy
 
 - Every agent-backed step (prep, plating, sides, surface, accent, story,
-  validate) shows a status line naming what the agent is doing plus elapsed
-  seconds, and 2–3 skeleton option cards, for the whole 10–90s a model call
-  can take.
+  validate) shows what the agent is doing and the time left, and 2–3 skeleton
+  option cards, for the whole 10–90s a model call can take. Whole-step waits
+  use the `WaitCard` (phase, time left, "safe to leave"); image frames use
+  `ProgressRing` with the time left under the percent. No wait shows a
+  percent without the time next to it.
+- Leaving mid-wait is safe: the server hands a returning person the same
+  agent job (`agentStart` reattaches to an uncollected job for the same
+  prompt), option answers are cached as soon as they land, and images finish
+  into My Projects.
+- Option steps preselect the recommended option, so Continue always moves on.
+  A primary action that is legitimately blocked uses `ContinueButton`
+  (`StepActions.tsx`): `aria-disabled`, the missing input named right beside
+  it, and pressing it moves focus to that input.
+- The rail shows "Saved 2:14 PM" (the last autosave) with a check that pops on
+  each save; Start over is a text button that asks first when the draft has
+  content.
 - A sign-in requirement renders `SignInPrompt`; a monthly-limit or permission denial (`FORBIDDEN`)
   renders a terminal `Alert` with no retry action; anything else renders an
   `Alert` with the server's own message and keeps the action armed.

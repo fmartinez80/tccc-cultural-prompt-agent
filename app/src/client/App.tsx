@@ -8,6 +8,7 @@ import { AppShell } from './layouts/AppShell.tsx';
 import { trpc } from './trpc.ts';
 import { Alert } from './ui/Alert.tsx';
 import { Button } from './ui/Button.tsx';
+import { ConfirmDialog } from './ui/ConfirmDialog.tsx';
 import { EmptyState } from './ui/EmptyState.tsx';
 import { SegmentedControl } from './ui/SegmentedControl.tsx';
 import { ErrorBoundary } from './ui/ErrorBoundary.tsx';
@@ -91,6 +92,7 @@ export function App() {
   const {
     draft,
     saved,
+    savedAt,
     setStep,
     setBrief,
     choose,
@@ -436,28 +438,30 @@ export function App() {
       menuItems={menuItems}
       onMenuAction={(id) => openView(id as View)}
       actions={
-        view !== 'compose' ? null : confirmingReset ? (
-          <div className={styles.confirmRow}>
-            <span className={styles.confirmText}>Start over and clear the whole draft?</span>
-            <Button size="sm" onPress={() => setConfirmingReset(false)}>
-              Cancel
-            </Button>
-            <Button
-              size="sm"
-              variant="primary"
-              onPress={() => {
+        view !== 'compose' ? null : (
+          <>
+            <button
+              type="button"
+              className={styles.textButton}
+              aria-label="Start over"
+              onClick={() => (draftInProgress ? setConfirmingReset(true) : startOver())}
+            >
+              <RotateCcw size={14} aria-hidden />
+              <span className={styles.textButtonLabel}>Start over</span>
+            </button>
+            <ConfirmDialog
+              isOpen={confirmingReset}
+              title="Start over?"
+              confirmLabel="Start over"
+              cancelLabel="Keep my scene"
+              onCancel={() => setConfirmingReset(false)}
+              onConfirm={() => {
                 startOver();
                 setConfirmingReset(false);
               }}
             >
-              Start over
-            </Button>
-          </div>
-        ) : (
-          <>
-            <Button variant="ghost" size="sm" icon={<RotateCcw size={14} aria-hidden />} onPress={() => setConfirmingReset(true)}>
-              Start over
-            </Button>
+              <p>This clears the brief and every choice in this draft. Scenes you already made stay in My Projects.</p>
+            </ConfirmDialog>
           </>
         )
       }
@@ -555,11 +559,11 @@ export function App() {
                 })}
               </nav>
             </ErrorBoundary>
-            <div className={styles.savedRow} role="status">
-              {saved && (
+            <div className={styles.savedRow} role="status" data-flash={saved || undefined}>
+              {savedAt && draftInProgress && (
                 <>
-                  <Check size={12} className={styles.savedIcon} aria-hidden />
-                  Draft saved
+                  <Check size={14} className={styles.savedIcon} aria-hidden />
+                  Saved {new Date(savedAt).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}
                 </>
               )}
             </div>
