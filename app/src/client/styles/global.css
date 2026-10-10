@@ -19,7 +19,13 @@ body,
   padding: 0;
 }
 
+/* The staging band (ui/EnvBand.tsx) is fixed at the top; everything else starts below it. */
+:root.has-env-band {
+  --env-band-h: 100px;
+}
+
 body {
+  padding-top: var(--env-band-h, 0px);
   font-family: var(--bay-font-sans);
   font-weight: var(--app-weight-text);
   line-height: 1.25;
