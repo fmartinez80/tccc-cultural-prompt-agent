@@ -5,7 +5,7 @@
 
 import { z } from "zod";
 import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, RECTANGULAR_TABLE_RULE, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase, withoutRoundTable } from "./registry";
-import { type LightingPreset, NO_HANDS_RULE, angleById, angleSentence, depthById, glassRules, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
+import { BACKGROUND_PEOPLE_RULE, type LightingPreset, angleById, angleSentence, depthById, glassRules, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
 import { sceneItems } from "./scene";
 import type { Blueprint, SceneSpec, Vessel } from "./types";
 import { venueType } from "./venues";
@@ -224,7 +224,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
-    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either. ${NO_HANDS_RULE}`,
+    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either. ${BACKGROUND_PEOPLE_RULE}`,
   };
 }
 

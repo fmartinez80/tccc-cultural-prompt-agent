@@ -96,6 +96,15 @@ export const NO_HANDS_RULE =
   "No hands, fingers, arms or people anywhere in the image: nobody at the table, no figures or passers-by in the background, and nothing held, lifted, picked up or bitten. Every item rests on its vessel or on the surface.";
 
 /**
+ * The final photograph only (Fernando, 2026-10-10): people may appear far behind the table as
+ * soft, unrecognizable shapes, which the depth-of-field blur supports. Hands and anyone at the
+ * table stay out. The sketch and turnarounds keep NO_HANDS_RULE.
+ */
+export const BACKGROUND_PEOPLE_RULE =
+  "No hands, fingers or arms anywhere in the image and nobody at the table: nothing held, lifted, picked up or bitten, and every item rests on its vessel or on the surface. " +
+  "The background may hold one or two people far behind the table, only as soft, out-of-focus shapes: no visible face, features or detail that could make anyone recognizable, nobody looking toward the camera, and no children.";
+
+/**
  * Agent-written food text sometimes calls a dish "handheld" or "eaten by hand" (empanadas, tacos,
  * sandwiches); those words alone pull a hand into the picture, so image prompts drop them.
  */

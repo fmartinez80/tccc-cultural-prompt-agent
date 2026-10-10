@@ -24,7 +24,7 @@
   },
 
   "depth_of_field": {
-    "$comment": "How much of the picture is sharp (Fernando, 2026-10-10, staging). One fixed preset for every scene for now; the structure is a list so it can become a picker later (scene spec camera.depth). Was f/2.0 with rapid fall-off, which left parts of the plate soft and turned the room into a wash. The aperture is named once, then described in words, since image models read f-numbers as style hints. {drinks} is filled in by rules.ts lookSentence. No ISO or shutter speed: they change nothing in a generated image. No foreground props or people: the layout fixes what is on the table, and Phase 1 allows no people.",
+    "$comment": "How much of the picture is sharp (Fernando, 2026-10-10, staging). One fixed preset for every scene for now; the structure is a list so it can become a picker later (scene spec camera.depth). Was f/2.0 with rapid fall-off, which left parts of the plate soft and turned the room into a wash. The aperture is named once, then described in words, since image models read f-numbers as style hints. {drinks} is filled in by rules.ts lookSentence. No ISO or shutter speed: they change nothing in a generated image. No foreground props: the layout fixes what is on the table. The soft background also keeps any background people unrecognizable (rules.ts BACKGROUND_PEOPLE_RULE).",
     "default": "table-sharp",
     "options": [
       {
