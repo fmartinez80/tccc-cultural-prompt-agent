@@ -111,11 +111,9 @@ export function App() {
   useSessionSync(draft);
   const [confirmingReset, setConfirmingReset] = useState(false);
   const [view, setView] = useState<View>(viewFromHash);
-  const [envBadge, setEnvBadge] = useState('');
   useEffect(() => {
     void envLabel()
       .then((label) => {
-        setEnvBadge(label);
         if (label && !document.title.startsWith(`[${label}]`)) document.title = `[${label}] ${document.title}`;
       })
       .catch(() => {});
@@ -428,7 +426,6 @@ export function App() {
           }}
         >
           <img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />
-          {envBadge && <span className={styles.envBadge}>{envBadge}</span>}
         </a>
       }
       user={profile.data ?? undefined}
