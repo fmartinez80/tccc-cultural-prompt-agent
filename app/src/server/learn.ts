@@ -7,7 +7,7 @@ import type { TextTask } from './gemini.ts';
 import { dishRecords, getLearningDoc, mergeLearnDrafts } from './feedback.ts';
 import { keywords, knowledgeBlock } from './knowledge.ts';
 import { mediaUrl } from './store.ts';
-import { LearnAnswer, TAG_LABELS, WORKING_TAG_IDS, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
+import { LearnAnswer, TAG_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
 
 /** Runs on the same Gemini Pro model as the story and image check. */
 const MODEL = 'pro';
@@ -54,14 +54,19 @@ function formatChecks(r: FeedbackRecord): string {
 
 function formatRecord(r: FeedbackRecord, maxPromptChars: number): string {
   const label = (t: string) => TAG_LABELS[t] ?? t;
+  // "SIDE_1 (white rice)": the node chip the prompt uses, plus what the item actually is.
+  const named = (el: string) => (r.elementNames?.[el] ? `${el} (${elementLabel(el, r.elementNames)})` : elementLabel(el));
   const good = r.tags.filter((t) => WORKING_TAG_IDS.has(t)).map(label).join(', ') || '(none)';
   const tags = r.tags.filter((t) => !WORKING_TAG_IDS.has(t)).map(label).join(', ') || '(none)';
   const prompt = r.prompt.length > maxPromptChars ? `${r.prompt.slice(0, maxPromptChars)} …(truncated)` : r.prompt;
   return [
     `- id: ${r.id}`,
     `  verdict: ${r.verdict}`,
-    `  voted working: ${r.working?.join(', ') || '(none)'}`,
-    `  voted needs work: ${r.elements.join(', ') || '(none)'}`,
+    `  voted working: ${(r.working ?? []).map(named).join(', ') || '(none)'}`,
+    `  voted needs work: ${r.elements.map(named).join(', ') || '(none)'}`,
+    ...r.elements
+      .filter((el) => r.elementTags?.[el]?.length || r.elementNotes?.[el])
+      .map((el) => `  ${named(el)} needs: ${[...(r.elementTags?.[el] ?? []).map(label), r.elementNotes?.[el] ? `"${r.elementNotes[el]}"` : ''].filter(Boolean).join('; ')}`),
     `  what's working: ${good}`,
     `  what's wrong: ${tags}`,
     `  note: ${r.note.trim() || '(none)'}`,

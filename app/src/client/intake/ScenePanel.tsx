@@ -13,7 +13,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { LayoutOption } from '../../shared/solver.ts';
 import {
   assembleWorkspacePrompt,
-  checkElements,
+  checkElements, ratedElements,
   checkFixEdits,
   PROXY_ASPECT_RATIO,
   PROXY_URL_MAX_AGE_MS,
@@ -436,7 +436,7 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
         <FeedbackDialog
           result={feedbackTarget ? (ws.results.find((r) => r.id === feedbackTarget.resultId) ?? null) : null}
           imageIndex={feedbackTarget?.imageIndex ?? 1}
-          elements={checkElements(segments, ws)}
+          elements={ratedElements(segments, ws)}
           brief={brief}
           spec={compose.spec}
           model={WORKSPACE_MODEL_LABEL}

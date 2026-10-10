@@ -66,6 +66,7 @@ export const FEEDBACK_TAGS: Array<{ group: string; tags: Array<{ id: string; lab
       { id: 'wrong-venue', label: 'Wrong venue or setting' },
       { id: 'lighting', label: 'Lighting' },
       { id: 'camera', label: 'Camera or framing' },
+      { id: 'color', label: 'Color or white balance' },
       { id: 'ignores-layout', label: "Doesn't follow the layout" },
     ],
   },
@@ -83,6 +84,37 @@ export const TAG_LABELS: Record<string, string> = Object.fromEntries([...WORKING
 
 /** Element chip for issues about the whole picture rather than one node. */
 export const SCENE_ELEMENT = 'SCENE';
+
+/** What a rated element is, which decides the issue tags offered when it needs work. */
+export type ElementKind = 'food' | 'product' | 'table' | 'environment' | 'camera' | 'lighting' | 'color' | 'scene';
+
+/** One element the operator can rate, named by what it is ("White rice"), not its node chip ("SIDE_1"). */
+export interface RatedElement {
+  /** The node chip (MAIN, SIDE_1, SKU, ENVIRONMENT, …, or SCENE): the key the image check and learning use. */
+  id: string;
+  name: string;
+  /** Its role in plain words ("Side", "Main dish"). */
+  role: string;
+  kind: ElementKind;
+}
+
+/** Issue tags offered under an element voted "needs work", by kind. Every id is in FEEDBACK_TAGS. */
+export const ELEMENT_ISSUE_TAGS: Record<ElementKind, string[]> = {
+  food: ['wrong-preparation', 'wrong-size', 'wrong-vessel', 'other-dish', 'unappetizing', 'missing-items', 'extra-items'],
+  product: ['wrong-pack', 'logo-distorted', 'product-placement', 'extra-items', 'missing-items'],
+  table: ['wrong-cutlery', 'wrong-props', 'extra-items', 'missing-items'],
+  environment: ['wrong-venue', 'wrong-props', 'not-authentic', 'ai-artifacts'],
+  camera: ['camera', 'ignores-layout'],
+  lighting: ['lighting'],
+  color: ['color'],
+  scene: ['ai-artifacts', 'impossible', 'not-authentic', 'ignores-layout', 'extra-items', 'missing-items'],
+};
+
+/** A voted chip in plain words: the saved item name when the rating has one ("White rice"), else the chip. */
+export function elementLabel(chip: string, names?: Record<string, string>): string {
+  if (chip === SCENE_ELEMENT) return 'Whole image';
+  return names?.[chip] ?? chip;
+}
 
 const fold = (s: string) =>
   s
@@ -121,6 +153,12 @@ export const FeedbackInput = z.object({
   elements: z.array(z.string().max(64)).max(20),
   /** Node chips voted "working"; absent on ratings saved before votes existed. */
   working: z.array(z.string().max(64)).max(20).optional(),
+  /** What each voted chip is ("SIDE_1" → "White rice"); absent on older ratings. */
+  elementNames: z.record(z.string().max(64), z.string().max(200)).optional(),
+  /** Issue tags picked under each element voted "needs work". */
+  elementTags: z.record(z.string().max(64), z.array(z.string().max(40)).max(12)).optional(),
+  /** A short note per element voted "needs work" ("the rice should be yellow"). */
+  elementNotes: z.record(z.string().max(64), z.string().max(300)).optional(),
   note: z.string().max(2000),
   prompt: z.string().max(20_000),
   model: z.string().max(80),
