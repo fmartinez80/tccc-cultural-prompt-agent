@@ -21,7 +21,7 @@ body,
 
 /* The staging band (ui/EnvBand.tsx) is fixed at the top; everything else starts below it. */
 :root.has-env-band {
-  --env-band-h: 100px;
+  --env-band-h: 50px;
 }
 
 body {
