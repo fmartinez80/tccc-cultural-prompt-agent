@@ -14,9 +14,26 @@
       {
         "id": "close-hero",
         "label": "Close-up hero",
-        "help": "Tight on the meal and the bottle, background melts away.",
-        "prompt": "Shot at f/2.0, sharp focus on the foreground elements on the table, with crisp edge detail on the beverage bottle and plated food. Smooth, rapid focus fall-off softly blurring the background immediately past the table edge. Food looks real and freshly made: natural textures, visible char, crumbs, moisture and small imperfections, with soft natural highlights, never glossy, waxy or plastic-looking.",
-        "hidden": { "focal_length_mm": 50, "aperture": "f/2.0", "focus": "the whole table setting, including the Coca-Cola product; blur begins just past the table's far edge", "focus_distance_m": "auto" },
+        "help": "Tight on the meal and the bottle, the place behind soft but recognizable.",
+        "prompt": "[CLOSE_HERO_PROMPT]",
+        "texture": "Food looks real and freshly made: natural textures, visible char, crumbs, moisture and small imperfections, with soft natural highlights, never glossy, waxy or plastic-looking.",
+        "hidden": { "focal_length_mm": 50, "aperture": "f/5.6", "focus": "the front of the main dish; the whole table setting, including the Coca-Cola product, stays sharp; the room behind is soft but recognizable", "focus_distance_m": "auto" },
+        "status": "final"
+      }
+    ]
+  },
+
+  "depth_of_field": {
+    "$comment": "How much of the picture is sharp (Fernando, 2026-10-10, staging). One fixed preset for every scene for now; the structure is a list so it can become a picker later (scene spec camera.depth). Was f/2.0 with rapid fall-off, which left parts of the plate soft and turned the room into a wash. The aperture is named once, then described in words, since image models read f-numbers as style hints. {drinks} is filled in by rules.ts lookSentence. No ISO or shutter speed: they change nothing in a generated image. No foreground props or people: the layout fixes what is on the table, and Phase 1 allows no people.",
+    "default": "table-sharp",
+    "options": [
+      {
+        "id": "table-sharp",
+        "label": "Table sharp, room soft",
+        "help": "The whole meal and the bottle sharp, the place behind soft but still recognizable.",
+        "aperture": "f/5.6",
+        "focus": "Moderate depth of field, as at about f/5.6, with focus set on the front of the main dish. The whole table setting is sharp from the near table edge to the far side of the plate: every dish, its garnish and {drinks}, crisp down to the label and the rim.",
+        "layers": "The picture reads in three planes: the near edge of the table in front, the meal and the Coca-Cola product sharp in the middle, and the room behind in a soft, creamy blur that still keeps the recognizable shapes, colors and light of the place, never a featureless wash.",
         "status": "final"
       }
     ]
@@ -50,5 +67,5 @@
     }
   },
 
-  "prompt_order": ["scene_genre", "subject", "angle", "look", "lighting", "sku_light"]
+  "prompt_order": ["scene_genre", "subject", "angle", "look", "depth_of_field", "lighting", "sku_light"]
 }

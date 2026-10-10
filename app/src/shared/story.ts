@@ -5,7 +5,7 @@
 
 import { z } from "zod";
 import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, RECTANGULAR_TABLE_RULE, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase, withoutRoundTable } from "./registry";
-import { type LightingPreset, NO_HANDS_RULE, angleById, angleSentence, glassRules, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
+import { type LightingPreset, NO_HANDS_RULE, angleById, angleSentence, depthById, glassRules, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
 import { sceneItems } from "./scene";
 import type { Blueprint, SceneSpec, Vessel } from "./types";
 import { venueType } from "./venues";
@@ -203,7 +203,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     colorSentence: COLOR_BY_WARMTH[lighting.warmth],
     filmSentence: filmSentence(spec, lighting),
     skuLightSentence: skuLightSentence(spec.sku, spec.sku.glass, lighting.warmth),
-    lookSentence: lookSentence(lookById(spec.camera.look), drinks),
+    lookSentence: lookSentence(lookById(spec.camera.look), drinks, depthById(spec.camera.depth)),
     angleSentence: angleSentence(angleById(spec.camera.angle)),
     framingSentence: hasPartner
       ? "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background. The second place setting sits further back or to the side as a secondary element, and may be partly cropped at the frame's edge."

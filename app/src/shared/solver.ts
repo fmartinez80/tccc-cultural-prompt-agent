@@ -7,7 +7,7 @@
 
 import { clipConvex, makeCameraParams, overlapArea, polyArea, Projector, rectPoly, screenBox, silhouette, type Poly, type ScreenBox } from "./camera";
 import { bottleClearance, footprintRadius, SURFACES } from "./registry";
-import { angleById, lookById } from "./rules";
+import { angleById, depthById, lookById } from "./rules";
 import layoutPreferences from "../../rules/layout-preferences.json";
 import { isMultiServe, sceneItems, type ItemSpec } from "./scene";
 import type { Blueprint, CameraParams, Primitive, RuleResult, SceneSpec } from "./types";
@@ -1043,7 +1043,6 @@ function toBlueprint(
       screen_bbox: { x0: +b.x0.toFixed(4), y0: +b.y0.toFixed(4), x1: +b.x1.toFixed(4), y1: +b.y1.toFixed(4) },
     };
   });
-  const look = lookById(spec.camera.look);
   const info = ARCHETYPE_INFO[archetype];
   const span = (() => {
     const hs = heroLabels(placed).map((l) => fit.boxes.get(l)!);
@@ -1055,7 +1054,7 @@ function toBlueprint(
   void main;
   return {
     canvas_metadata: { aspect_ratio: "16:9", shopper_zone: "Impulse" },
-    camera_spec: { pitch_angle_degrees: fit.cam.pitchDeg, focal_length_mm: fit.cam.focalLengthMm, aperture: look.hidden.aperture },
+    camera_spec: { pitch_angle_degrees: fit.cam.pitchDeg, focal_length_mm: fit.cam.focalLengthMm, aperture: depthById(spec.camera.depth).aperture },
     horizon_clamp: { max_table_rear_y_normalized: +fit.rearY.toFixed(4) },
     visual_mass_distribution: { primary_co_heroes_pct: 50, secondary_sides_pct: 30, tertiary_accents_pct: 20 },
     primitives: prims,
