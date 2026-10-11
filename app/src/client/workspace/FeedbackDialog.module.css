@@ -313,9 +313,7 @@
 .verdicts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  border: 1px solid var(--fb-line);
-  border-radius: var(--bay-r-sm);
-  overflow: hidden;
+  gap: 8px;
 }
 
 .verdict {
@@ -323,15 +321,13 @@
   gap: 2px;
   padding: 10px 14px;
   text-align: left;
-  border: 0;
+  border: 1px solid var(--fb-line);
+  border-radius: var(--bay-r-sm);
   background: var(--neo-card);
   color: var(--fb-text);
   cursor: pointer;
 }
 
-.verdict + .verdict {
-  border-left: 1px solid var(--fb-line);
-}
 
 .verdict:hover {
   background: var(--neo-hover);
@@ -367,7 +363,7 @@
 /* Items: one outlined table per group, a 1–5 scale at the right of each row. */
 .group {
   display: grid;
-  gap: 6px;
+  gap: 8px;
 }
 
 .groupTitle {
@@ -380,23 +376,22 @@
 }
 
 .rows {
+  display: grid;
+  gap: 8px;
   margin: 0;
   padding: 0;
   list-style: none;
-  border: 1px solid var(--fb-line);
-  border-radius: var(--bay-r-sm);
-  overflow: hidden;
 }
 
 .row {
   display: grid;
   gap: 10px;
   padding: 10px 12px;
+  border: 1px solid var(--fb-line);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
 }
 
-.row + .row {
-  border-top: 1px solid var(--fb-hair);
-}
 
 .row[data-low] {
   background: var(--fb-bad-bg);
@@ -411,7 +406,68 @@
 .rowText {
   display: grid;
   min-width: 0;
+}
+
+/* The item's header: chevron, name and role open and close its module. */
+.rowToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
   margin-right: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.chevron {
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+  transition: transform 120ms ease;
+}
+
+.row[data-open] .chevron {
+  transform: none;
+}
+
+.scored {
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+}
+
+.itemBody {
+  display: grid;
+  gap: 12px;
+  padding: 10px 0 2px 24px;
+  border-top: 1px solid var(--fb-hair);
+}
+
+.qualities {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.quality {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.detailTitle {
+  font-family: var(--bay-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .rowName {
@@ -461,6 +517,15 @@
   border: 1px solid var(--fb-line);
   border-radius: var(--bay-r-sm);
   overflow: hidden;
+}
+
+.scale[data-small] {
+  grid-template-columns: repeat(5, 26px);
+}
+
+.scale[data-small] .scaleBtn {
+  height: 26px;
+  font-size: 12px;
 }
 
 .scaleBtn {
@@ -609,9 +674,8 @@
     grid-template-columns: 1fr;
   }
 
-  .verdict + .verdict {
-    border-left: 0;
-    border-top: 1px solid var(--fb-line);
+  .qualities {
+    grid-template-columns: 1fr;
   }
 
   .rowMain {

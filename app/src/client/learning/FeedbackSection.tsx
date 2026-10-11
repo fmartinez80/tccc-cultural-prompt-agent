@@ -4,7 +4,7 @@
 import { Download, ThumbsDown, ThumbsUp } from 'lucide-react';
 import { useState } from 'react';
 
-import { SOURCE_LABELS, TAG_LABELS, VERDICT_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackView } from '../../shared/feedback.ts';
+import { QUALITY_LABELS, SOURCE_LABELS, TAG_LABELS, VERDICT_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackView } from '../../shared/feedback.ts';
 import { trpc } from '../trpc.ts';
 import { Accordion } from '../ui/Accordion.tsx';
 import { Alert } from '../ui/Alert.tsx';
@@ -117,6 +117,11 @@ function FeedbackCard({ record, onEnlarge }: { record: FeedbackView; onEnlarge: 
               {elementLabel(el, record.elementNames)}: {[...(record.elementTags?.[el] ?? []).map((t) => TAG_LABELS[t] ?? t), record.elementNotes?.[el]].filter(Boolean).join(' · ')}
             </div>
           ))}
+        {Object.entries(record.elementQualities ?? {}).map(([el, q]) => (
+          <div key={`q-${el}`} className={styles.meta}>
+            {elementLabel(el, record.elementNames)}: {Object.entries(q).map(([id, n]) => `${QUALITY_LABELS[id] ?? id} ${n}/5`).join(' · ')}
+          </div>
+        ))}
         {record.note && <p className={styles.note}>{record.note}</p>}
         {choices && <p className={styles.choices}>{choices}</p>}
         <div className={styles.meta}>
