@@ -10,6 +10,7 @@ import { LoginPage } from './auth/LoginPage.tsx';
 import { activeBriefHeader } from './lib/activeBrief.ts';
 import { useAuth } from './lib/auth.ts';
 import { trpc } from './trpc.ts';
+import { EnvBand } from './ui/EnvBand.tsx';
 import { ErrorBoundary } from './ui/ErrorBoundary.tsx';
 
 // While the app's server restarts (or a gateway answers in its place) the
@@ -63,6 +64,7 @@ createRoot(root).render(
   <ErrorBoundary>
     <trpc.Provider client={trpcClient} queryClient={queryClient}>
       <QueryClientProvider client={queryClient}>
+        <EnvBand />
         <AuthGate />
       </QueryClientProvider>
     </trpc.Provider>

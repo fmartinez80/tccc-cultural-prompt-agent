@@ -8,7 +8,7 @@
 /* The rail and the "Draft saved" line under it stay in view while the page scrolls. */
 .railColumn {
   position: sticky;
-  top: 16px;
+  top: calc(var(--env-band-h, 0px) + 16px);
 }
 
 /* The logo, unboxed, at the left of the header row (same line as Learning, Start over and the name). */
@@ -164,7 +164,7 @@
    bleed covers card shadows that poke past the column. */
 .stepBody > section > h1 {
   position: sticky;
-  top: 0;
+  top: var(--env-band-h, 0px);
   z-index: 30;
   /* Pulled up by the rail's sticky offset (16px) plus the font's space above the caps,
      so the cap line meets the rail's top border both before and after scrolling. */
@@ -274,21 +274,3 @@
   margin-bottom: 16px;
 }
 
-/* Non-production copies (APP_ENV_LABEL, e.g. "Staging") wear a badge so nobody mistakes them for the live app. */
-.logoLink:has(.envBadge) {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.envBadge {
-  padding: 4px 10px;
-  border: 2px solid currentColor;
-  background: #ffd23f;
-  font-family: 'Space Mono', monospace;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-decoration: none;
-}

@@ -109,7 +109,7 @@
 
 .compositionList {
   position: sticky;
-  top: calc(var(--app-step-head-h, 0px) + 16px);
+  top: calc(var(--env-band-h, 0px) + var(--app-step-head-h, 0px) + 16px);
 }
 
 .tableItems {

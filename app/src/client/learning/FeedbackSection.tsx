@@ -4,7 +4,7 @@
 import { Download, ThumbsDown, ThumbsUp } from 'lucide-react';
 import { useState } from 'react';
 
-import { SCENE_ELEMENT, TAG_LABELS, VERDICT_LABELS, WORKING_TAG_IDS, type FeedbackView } from '../../shared/feedback.ts';
+import { QUALITY_LABELS, SOURCE_LABELS, TAG_LABELS, VERDICT_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackView } from '../../shared/feedback.ts';
 import { trpc } from '../trpc.ts';
 import { Accordion } from '../ui/Accordion.tsx';
 import { Alert } from '../ui/Alert.tsx';
@@ -14,8 +14,18 @@ import { recordsToCsv } from './csv.ts';
 import { ImageModal } from './ImageModal.tsx';
 import styles from './FeedbackSection.module.css';
 
-function elementLabel(element: string): string {
-  return element === SCENE_ELEMENT ? 'Whole scene' : element;
+/** "Green salad 2/5 · your image": the item, its 1–5 rating and its source, when the rating has them. */
+function ratedLabel(record: FeedbackView, el: string): string {
+  const rating = record.elementRatings?.[el];
+  const source = record.elementSources?.[el];
+  return [elementLabel(el, record.elementNames) + (rating ? ` ${rating}/5` : ''), source && source !== 'prompt' ? SOURCE_LABELS[source].toLowerCase() : '']
+    .filter(Boolean)
+    .join(' · ');
+}
+
+/** Item names saved with the ratings, newest last so they win: "SIDE_1" → "White rice". */
+function namesFrom(records: FeedbackView[]): Record<string, string> {
+  return Object.assign({}, ...[...records].sort((a, b) => a.createdAt - b.createdAt).map((r) => r.elementNames ?? {}));
 }
 
 function choicesSummary(choices: FeedbackView['choices']): string {
@@ -42,6 +52,7 @@ function workingTags(records: FeedbackView[]): Array<{ id: string; n: number }> 
 
 function VoteSummary({ records }: { records: FeedbackView[] }) {
   const tally = voteTally(records);
+  const names = namesFrom(records);
   const good = workingTags(records);
   if (!tally.length && !good.length) {
     return <p className={styles.voteEmpty}>No element votes yet. Rate an image and give each element a thumbs up or down; the totals show here.</p>;
@@ -62,7 +73,7 @@ function VoteSummary({ records }: { records: FeedbackView[] }) {
         <ul className={styles.voteGrid} aria-label="Element votes">
           {tally.map((v) => (
             <li key={v.element} className={styles.voteItem}>
-              <span className={styles.voteName}>{elementLabel(v.element)}</span>
+              <span className={styles.voteName}>{elementLabel(v.element, names)}</span>
               <span className={styles.voteBar} aria-hidden>
                 <span className={styles.voteUp} style={{ flexGrow: v.up }} />
                 <span className={styles.voteDown} style={{ flexGrow: v.down }} />
@@ -97,8 +108,20 @@ function FeedbackCard({ record, onEnlarge }: { record: FeedbackView; onEnlarge: 
             </span>
           ))}
         </div>
-        {(record.working?.length ?? 0) > 0 && <div className={styles.meta}>Working: {record.working!.map(elementLabel).join(', ')}</div>}
-        {record.elements.length > 0 && <div className={styles.meta}>Needs work: {record.elements.map(elementLabel).join(', ')}</div>}
+        {(record.working?.length ?? 0) > 0 && <div className={styles.meta}>Working: {record.working!.map((el) => ratedLabel(record, el)).join(', ')}</div>}
+        {record.elements.length > 0 && <div className={styles.meta}>Needs work: {record.elements.map((el) => ratedLabel(record, el)).join(', ')}</div>}
+        {record.elements
+          .filter((el) => record.elementTags?.[el]?.length || record.elementNotes?.[el])
+          .map((el) => (
+            <div key={el} className={styles.meta}>
+              {elementLabel(el, record.elementNames)}: {[...(record.elementTags?.[el] ?? []).map((t) => TAG_LABELS[t] ?? t), record.elementNotes?.[el]].filter(Boolean).join(' · ')}
+            </div>
+          ))}
+        {Object.entries(record.elementQualities ?? {}).map(([el, q]) => (
+          <div key={`q-${el}`} className={styles.meta}>
+            {elementLabel(el, record.elementNames)}: {Object.entries(q).map(([id, n]) => `${QUALITY_LABELS[id] ?? id} ${n}/5`).join(' · ')}
+          </div>
+        ))}
         {record.note && <p className={styles.note}>{record.note}</p>}
         {choices && <p className={styles.choices}>{choices}</p>}
         <div className={styles.meta}>
@@ -112,7 +135,7 @@ function FeedbackCard({ record, onEnlarge }: { record: FeedbackView; onEnlarge: 
             {record.check.issues.map((issue, i) => (
               <div key={i} className={styles.issue}>
                 <div className={styles.issueTitle}>
-                  {elementLabel(issue.element)} · {issue.severity}
+                  {elementLabel(issue.element, record.elementNames)} · {issue.severity}
                 </div>
                 <div>Expected: {issue.expected}</div>
                 <div>Seen: {issue.seen}</div>

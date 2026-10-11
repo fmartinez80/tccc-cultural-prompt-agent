@@ -12,8 +12,22 @@ export interface LookOption {
   label: string;
   help: string;
   prompt: string;
+  /** Food texture sentence, closing the look's prompt line. */
+  texture?: string;
   hidden: { focal_length_mm: number; aperture: string; focus: string; focus_distance_m: number | string };
   constraints?: { sku_min_distance_from_frame_edge_pct?: number };
+  status?: string;
+}
+/** How much of the picture is sharp; one preset for now (camera-options.json depth_of_field). */
+export interface DepthOption {
+  id: string;
+  label: string;
+  help: string;
+  aperture: string;
+  /** Where focus sits and what stays sharp; "{drinks}" is replaced with the product phrase. */
+  focus: string;
+  /** Foreground, hero and background planes, in words. */
+  layers: string;
   status?: string;
 }
 export interface AngleOption {
@@ -67,7 +81,9 @@ export function recommendAngle(entree: {
 
 export const LOOKS: LookOption[] = cameraOptions.look.options as LookOption[];
 export const ANGLES: AngleOption[] = cameraOptions.angle.options as AngleOption[];
+export const DEPTHS: DepthOption[] = cameraOptions.depth_of_field.options as DepthOption[];
 export const DEFAULT_LOOK = cameraOptions.look.default;
+export const DEFAULT_DEPTH = cameraOptions.depth_of_field.default;
 export const DEFAULT_ANGLE = cameraOptions.angle.default;
 /** Field-of-view factor for the proxy sent to the image model (see camera-options.json). */
 export const MODEL_FRAMING_WIDEN: number = cameraOptions.model_framing.widen;
@@ -78,6 +94,15 @@ export const MODEL_FRAMING_WIDEN: number = cameraOptions.model_framing.widen;
  */
 export const NO_HANDS_RULE =
   "No hands, fingers, arms or people anywhere in the image: nobody at the table, no figures or passers-by in the background, and nothing held, lifted, picked up or bitten. Every item rests on its vessel or on the surface.";
+
+/**
+ * The final photograph only (Fernando, 2026-10-10): people may appear far behind the table as
+ * soft, unrecognizable shapes, which the depth-of-field blur supports. Hands and anyone at the
+ * table stay out. The sketch and turnarounds keep NO_HANDS_RULE.
+ */
+export const BACKGROUND_PEOPLE_RULE =
+  "No hands, fingers or arms anywhere in the image and nobody at the table: nothing held, lifted, picked up or bitten, and every item rests on its vessel or on the surface. " +
+  "The background may hold one or two people far behind the table, only as soft, out-of-focus shapes: no visible face, features or detail that could make anyone recognizable, nobody looking toward the camera, and no children.";
 
 /**
  * Agent-written food text sometimes calls a dish "handheld" or "eaten by hand" (empanadas, tacos,
@@ -95,16 +120,21 @@ export function withoutHands(text: string): string {
 export function lookById(id: string): LookOption {
   return LOOKS.find((l) => l.id === id) ?? LOOKS[0];
 }
+export function depthById(id: string | undefined): DepthOption {
+  return DEPTHS.find((d) => d.id === (id ?? DEFAULT_DEPTH)) ?? DEPTHS[0];
+}
 export function angleById(id: string): AngleOption {
   return ANGLES.find((a) => a.id === id) ?? ANGLES[0];
 }
 
-/** Placeholder prompt text ("[CLOSE_HERO_PROMPT]") is replaced by a sentence built from the hidden values. */
-export function lookSentence(look: LookOption, drinks: string): string {
+/**
+ * Placeholder prompt text ("[CLOSE_HERO_PROMPT]") is replaced by the depth-of-field preset's
+ * focus and layer sentences, then the look's food texture sentence.
+ */
+export function lookSentence(look: LookOption, drinks: string, depth: DepthOption = depthById(undefined)): string {
   if (!look.prompt.startsWith("[")) return look.prompt;
   // The lens itself is named by the film sentence (story.ts filmSentence).
-  const ap = look.hidden.aperture === "TBD" ? "" : `Shot at ${look.hidden.aperture}, with `;
-  return ap ? `${ap}the main dish and ${drinks} in sharp focus.` : `The main dish and ${drinks} in sharp focus.`;
+  return [depth.focus.replaceAll("{drinks}", drinks), depth.layers, look.texture].filter(Boolean).join(" ");
 }
 export function angleSentence(angle: AngleOption): string {
   if (!angle.prompt.startsWith("[")) return angle.prompt;
