@@ -112,6 +112,20 @@ export const ELEMENT_ISSUE_TAGS: Record<ElementKind, string[]> = {
   scene: ['proxy-labels', 'wrong-perspective', 'ai-artifacts', 'impossible', 'not-authentic', 'ignores-layout', 'extra-items', 'missing-items'],
 };
 
+/**
+ * The same qualities rated 1–5 inside every item's module, so high marks say what to keep
+ * and carry into weaker items, not only what went wrong. Any can be skipped when it doesn't apply.
+ */
+export const QUALITIES: Array<{ id: string; label: string }> = [
+  { id: 'accuracy', label: 'Matches the brief' },
+  { id: 'authentic', label: 'Culturally authentic' },
+  { id: 'appeal', label: 'Looks appealing' },
+  { id: 'realism', label: 'Photoreal' },
+  { id: 'placement', label: 'Placement and scale' },
+  { id: 'lighting', label: 'Lighting' },
+];
+export const QUALITY_LABELS: Record<string, string> = Object.fromEntries(QUALITIES.map((q) => [q.id, q.label]));
+
 /** Ratings of 1 to 5; 4 and 5 count as working, 3 and below as needs work. */
 export const RATING_WORKING_MIN = 4;
 export const RATING_LABELS: Record<number, string> = { 1: 'Wrong', 2: 'Poor', 3: 'Okay', 4: 'Good', 5: 'Great' };
@@ -191,6 +205,8 @@ export const FeedbackInput = z.object({
   elementNotes: z.record(z.string().max(64), z.string().max(300)).optional(),
   /** The 1–5 rating per element; `working` and `elements` are derived from it. */
   elementRatings: z.record(z.string().max(64), z.number().int().min(1).max(5)).optional(),
+  /** Per element, the 1–5 rating of each quality the operator scored (QUALITIES ids). */
+  elementQualities: z.record(z.string().max(64), z.record(z.string().max(40), z.number().int().min(1).max(5))).optional(),
   /** What each rated element was generated from: prompt text only, or a reference image. */
   elementSources: z.record(z.string().max(64), ElementSource).optional(),
   note: z.string().max(2000),

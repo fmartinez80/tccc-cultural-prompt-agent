@@ -7,12 +7,13 @@
 // element they name and can be kept with the rating.
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { Check, Download, X } from 'lucide-react';
+import { Check, ChevronDown, Download, X } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 
 import {
   ELEMENT_ISSUE_TAGS,
+  QUALITIES,
   RATING_LABELS,
   RATING_WORKING_MIN,
   SCENE_ELEMENT,
@@ -79,6 +80,29 @@ function summarizeChoices(spec: SceneSpec): FeedbackInput['choices'] {
   };
 }
 
+/** A 1–5 scale; picking the chosen number again clears it. */
+function Scale({ label, value, onPick, small }: { label: string; value: number | undefined; onPick: (n: number) => void; small?: boolean }) {
+  return (
+    <div className={styles.scale} data-small={small || undefined} role="radiogroup" aria-label={`${label}, 1 to 5`}>
+      {RATINGS.map((n) => (
+        <button
+          key={n}
+          type="button"
+          role="radio"
+          aria-checked={value === n}
+          aria-label={`${n}, ${RATING_LABELS[n]}`}
+          title={RATING_LABELS[n]}
+          className={styles.scaleBtn}
+          data-low={n < RATING_WORKING_MIN || undefined}
+          onClick={() => onPick(n)}
+        >
+          {n}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 const GROUPS: Array<{ title: string; kinds: RatedElement['kind'][] }> = [
   { title: 'On the table', kinds: ['food', 'product', 'table'] },
   { title: 'Scene', kinds: ['environment', 'camera', 'lighting', 'color', 'scene'] },
@@ -112,6 +136,9 @@ export function FeedbackDialog({
   const [strengths, setStrengths] = useState<Set<string>>(new Set());
   // One 1–5 rating per element; absent until rated.
   const [ratings, setRatings] = useState<Map<string, number>>(new Map());
+  // Per element, the 1–5 score of each quality; and which item modules are open.
+  const [qualities, setQualities] = useState<Map<string, Map<string, number>>>(new Map());
+  const [open, setOpen] = useState<Set<string>>(new Set());
   const [issueTags, setIssueTags] = useState<Map<string, Set<string>>>(new Map());
   const [elementNotes, setElementNotes] = useState<Map<string, string>>(new Map());
   const [note, setNote] = useState('');
@@ -136,6 +163,8 @@ export function FeedbackDialog({
     setStrengths(new Set());
     // The check's major issues start their element at 2 (Poor), so the issue tags are already open.
     setRatings(new Map(checkForImage?.issues.filter((i) => i.severity === 'major').map((i) => [i.element, 2]) ?? []));
+    setQualities(new Map());
+    setOpen(new Set(checkForImage?.issues.filter((i) => i.severity === 'major').map((i) => i.element) ?? []));
     setIssueTags(new Map());
     setElementNotes(new Map());
     setNote('');
@@ -144,11 +173,23 @@ export function FeedbackDialog({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key]);
 
-  const rate = (el: string, n: number) =>
+  const rate = (el: string, n: number) => {
     setRatings((prev) => {
       const next = new Map(prev);
       if (next.get(el) === n) next.delete(el);
       else next.set(el, n);
+      return next;
+    });
+    // A low score opens the item so its issues and qualities are in view.
+    if (n < RATING_WORKING_MIN) setOpen((prev) => new Set(prev).add(el));
+  };
+  const rateQuality = (el: string, q: string, n: number) =>
+    setQualities((prev) => {
+      const next = new Map(prev);
+      const mine = new Map(next.get(el));
+      if (mine.get(q) === n) mine.delete(q);
+      else mine.set(q, n);
+      next.set(el, mine);
       return next;
     });
   const needsWork = (id: string) => (ratings.get(id) ?? 5) < RATING_WORKING_MIN;
@@ -195,6 +236,11 @@ export function FeedbackDialog({
         allElements.filter((el) => ratings.has(el.id) && HAS_SOURCE.has(el.kind)).map((el) => [el.id, sourceOf(el.id)]),
       ),
       elementNames: Object.fromEntries(allElements.filter((el) => ratings.has(el.id)).map((el) => [el.id, el.name.slice(0, 200)])),
+      elementQualities: (() => {
+        const out: Record<string, Record<string, number>> = {};
+        for (const [id, m] of qualities) if (m.size) out[id] = Object.fromEntries(m);
+        return Object.keys(out).length ? out : undefined;
+      })(),
       elementTags: Object.keys(elTags).length ? elTags : undefined,
       elementNotes: Object.keys(elNotes).length ? elNotes : undefined,
       note: note.trim(),
@@ -328,8 +374,9 @@ export function FeedbackDialog({
                     </button>
                   </div>
                   <p className={styles.hint}>
-                    1 is wrong, 5 is great. A 3 or lower opens the issues for that item. The tag beside each item shows what it was
-                    generated from: the prompt alone, or a reference image.
+                    Score each item 1 (wrong) to 5 (great). Open an item to score the same qualities for every item, so its strengths
+                    can be carried to weaker ones. A 3 or lower also opens its issues. The tag shows whether it came from the prompt or a
+                    reference image.
                   </p>
                   {GROUPS.map((g) => {
                     const items = allElements.filter((el) => g.kinds.includes(el.kind));
@@ -345,38 +392,45 @@ export function FeedbackDialog({
                             const picked = issueTags.get(el.id) ?? new Set<string>();
                             // Only items and the background can carry a reference image; camera, light and color are always prompt text.
                             const source = HAS_SOURCE.has(el.kind) ? sourceOf(el.id) : null;
+                            const isOpen = open.has(el.id);
+                            const qs = qualities.get(el.id) ?? new Map<string, number>();
+                            const scored = qs.size;
                             return (
-                              <li key={el.id} className={styles.row} data-low={low || undefined}>
+                              <li key={el.id} className={styles.row} data-low={low || undefined} data-open={isOpen || undefined}>
                                 <div className={styles.rowMain}>
-                                  <div className={styles.rowText}>
-                                    <span className={styles.rowName}>{el.name}</span>
-                                    <span className={styles.rowRole}>
-                                      {el.role}
-                                      {source && (
-                                        <span className={styles.source} data-source={source} title="What this item was generated from">
-                                          {SOURCE_LABELS[source]}
-                                        </span>
-                                      )}
+                                  <button
+                                    type="button"
+                                    className={styles.rowToggle}
+                                    aria-expanded={isOpen}
+                                    aria-controls={`fb-item-${el.id}`}
+                                    onClick={() => setOpen((prev) => toggle(prev, el.id))}
+                                  >
+                                    <ChevronDown size={16} aria-hidden className={styles.chevron} />
+                                    <span className={styles.rowText}>
+                                      <span className={styles.rowName}>{el.name}</span>
+                                      <span className={styles.rowRole}>
+                                        {el.role}
+                                        {source && (
+                                          <span className={styles.source} data-source={source} title="What this item was generated from">
+                                            {SOURCE_LABELS[source]}
+                                          </span>
+                                        )}
+                                        {scored > 0 && !isOpen && <span className={styles.scored}>{scored} qualities scored</span>}
+                                      </span>
                                     </span>
-                                  </div>
-                                  <div className={styles.scale} role="radiogroup" aria-label={`Rate ${el.name}, 1 to 5`}>
-                                    {RATINGS.map((n) => (
-                                      <button
-                                        key={n}
-                                        type="button"
-                                        role="radio"
-                                        aria-checked={r === n}
-                                        aria-label={`${n}, ${RATING_LABELS[n]}`}
-                                        title={RATING_LABELS[n]}
-                                        className={styles.scaleBtn}
-                                        data-low={n < RATING_WORKING_MIN || undefined}
-                                        onClick={() => rate(el.id, n)}
-                                      >
-                                        {n}
-                                      </button>
-                                    ))}
-                                  </div>
+                                  </button>
+                                  <Scale label={`Overall rating for ${el.name}`} value={r} onPick={(n) => rate(el.id, n)} />
                                 </div>
+                                {isOpen && (
+                                  <div id={`fb-item-${el.id}`} className={styles.itemBody}>
+                                    <ul className={styles.qualities} aria-label={`Qualities of ${el.name}`}>
+                                      {QUALITIES.map((q) => (
+                                        <li key={q.id} className={styles.quality}>
+                                          <span>{q.label}</span>
+                                          <Scale small label={`${q.label} for ${el.name}`} value={qs.get(q.id)} onPick={(n) => rateQuality(el.id, q.id, n)} />
+                                        </li>
+                                      ))}
+                                    </ul>
                                 {issues.length > 0 && (
                                   <ul className={styles.checkIssues}>
                                     {issues.map((i, n) => (
@@ -391,6 +445,7 @@ export function FeedbackDialog({
                                 )}
                                 {low && (
                                   <div className={styles.detail}>
+                                    <span className={styles.detailTitle}>What&rsquo;s wrong</span>
                                     <div className={styles.tags}>
                                       {ELEMENT_ISSUE_TAGS[el.kind].map((t) => (
                                         <button
@@ -416,6 +471,8 @@ export function FeedbackDialog({
                                         setElementNotes((prev) => new Map(prev).set(el.id, value));
                                       }}
                                     />
+                                  </div>
+                                )}
                                   </div>
                                 )}
                               </li>

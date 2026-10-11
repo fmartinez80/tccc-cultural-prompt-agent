@@ -7,14 +7,14 @@ import type { TextTask } from './gemini.ts';
 import { dishRecords, getLearningDoc, mergeLearnDrafts } from './feedback.ts';
 import { keywords, knowledgeBlock } from './knowledge.ts';
 import { mediaUrl } from './store.ts';
-import { LearnAnswer, SOURCE_LABELS, TAG_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
+import { LearnAnswer, QUALITY_LABELS, SOURCE_LABELS, TAG_LABELS, WORKING_TAG_IDS, elementLabel, type FeedbackRecord, type LearningDoc } from '../shared/feedback.ts';
 
 /** Runs on the same Gemini Pro model as the story and image check. */
 const MODEL = 'pro';
 
 const PROMPT_CAP = 48_000;
 
-const INSTRUCTIONS = `You are the learning agent behind a food-and-table image generation pipeline for The Coca-Cola Company. An operator rates generated scene images (usable / usable with fixes / unusable), rates each element 1 to 5 (4–5 count as "working", 3 or lower as "needs work"; each element also says whether it came from the prompt alone or from a reference image, so a miss on a reference-based element usually points to the reference image or the model not following it, rather than the prompt text), tags what's working and what's wrong, and sometimes runs an automatic check. Your job is to read a dish's accumulated feedback next to its knowledge-base excerpt and work out what keeps going wrong and why.
+const INSTRUCTIONS = `You are the learning agent behind a food-and-table image generation pipeline for The Coca-Cola Company. An operator rates generated scene images (usable / usable with fixes / unusable), rates each element 1 to 5 (4–5 count as "working", 3 or lower as "needs work"; each element also says whether it came from the prompt alone or from a reference image, so a miss on a reference-based element usually points to the reference image or the model not following it, rather than the prompt text), scores the same qualities 1 to 5 inside each element (matches the brief, culturally authentic, looks appealing, photoreal, placement and scale, lighting: a high score on one element is something to carry over to elements that score low on it), tags what's working and what's wrong, and sometimes runs an automatic check. Your job is to read a dish's accumulated feedback next to its knowledge-base excerpt and work out what keeps going wrong and why.
 
 For each recurring failure, diagnose it as exactly one of:
 - kb-missing: the knowledge base doesn't cover this at all.
@@ -74,6 +74,9 @@ function formatRecord(r: FeedbackRecord, maxPromptChars: number): string {
     ...r.elements
       .filter((el) => r.elementTags?.[el]?.length || r.elementNotes?.[el])
       .map((el) => `  ${named(el)} needs: ${[...(r.elementTags?.[el] ?? []).map(label), r.elementNotes?.[el] ? `"${r.elementNotes[el]}"` : ''].filter(Boolean).join('; ')}`),
+    ...Object.entries(r.elementQualities ?? {}).map(
+      ([el, q]) => `  ${named(el)} qualities: ${Object.entries(q).map(([id, n]) => `${QUALITY_LABELS[id] ?? id} ${n}/5`).join(', ')}`,
+    ),
     `  what's working: ${good}`,
     `  what's wrong: ${tags}`,
     `  note: ${r.note.trim() || '(none)'}`,
