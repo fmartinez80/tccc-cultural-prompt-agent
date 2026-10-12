@@ -19,7 +19,7 @@ import {
   replacementUpload,
   previewStale,
   brandConflicts,
-  checkElements,
+  checkElements, ratedElements,
   checkFixEdits,
   referenceLabel,
   sceneReferences,
@@ -585,7 +585,7 @@ export function WorkspaceStep({
       <FeedbackDialog
         result={feedbackTarget ? ws.results.find((r) => r.id === feedbackTarget.resultId) ?? null : null}
         imageIndex={feedbackTarget?.imageIndex ?? 1}
-        elements={checkElements(allSegments, ws)}
+        elements={ratedElements(allSegments, ws)}
         brief={brief}
         spec={compose.spec}
         model={WORKSPACE_MODEL_LABEL}

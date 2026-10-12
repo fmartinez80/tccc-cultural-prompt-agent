@@ -3,7 +3,7 @@
 // color split into their own nodes), the assembled prompt, and the scene
 // generator. Every generation point here uses Nano Banana Pro.
 
-import type { Verdict } from './feedback.ts';
+import { SCENE_ELEMENT, type ElementKind, type RatedElement, type Verdict } from './feedback.ts';
 import { compositionSegments, type ImageCheck, type Story, type StoryFacts } from './story.ts';
 import { turnaroundPrompt } from './turnaround.ts';
 import type { SceneSpec } from './types.ts';
@@ -387,6 +387,33 @@ export function assembleWorkspacePrompt(all: WsSegment[], ws: WorkspaceState): s
 /** Node names the image check may attribute an issue to: every node the prompt draws from. */
 export function checkElements(all: WsSegment[], ws: WorkspaceState): string[] {
   return all.filter((s) => s.kind !== 'guide' && isActive(s, ws)).map((s) => s.chip);
+}
+
+const ROLE_BY_PREFIX: Array<[RegExp, string, ElementKind]> = [
+  [/^MAIN_2$/, "Second diner's dish", 'food'],
+  [/^MAIN/, 'Main dish', 'food'],
+  [/^SHARED/, 'Shared dish', 'food'],
+  [/^SIDE/, 'Side', 'food'],
+  [/^(SAUCE|CONDIMENT|DIP)/, 'Sauce or condiment', 'food'],
+  [/^SKU/, 'Coca-Cola product', 'product'],
+  [/^GLASS/, 'Glass', 'product'],
+  [/^(NAPKIN|CUTLERY)/, 'Table setting', 'table'],
+];
+
+/** The elements an operator rates on a generated image, named by what they are, plus the whole image. */
+export function ratedElements(all: WsSegment[], ws: WorkspaceState): RatedElement[] {
+  const out: RatedElement[] = [];
+  for (const s of all) {
+    if (s.kind === 'guide' || s.kind === 'exclusions' || !isActive(s, ws)) continue;
+    if (s.kind === 'object') {
+      const [, role, kind] = ROLE_BY_PREFIX.find(([re]) => re.test(s.chip)) ?? [null, 'Item', 'food' as const];
+      const name = s.title.trim() || s.chip;
+      out.push({ id: s.chip, name: name.charAt(0).toUpperCase() + name.slice(1), role, kind });
+    } else if (s.kind === 'environment') out.push({ id: s.chip, name: 'Background and table', role: 'Environment', kind: 'environment' });
+    else out.push({ id: s.chip, name: s.title, role: s.note, kind: s.kind });
+  }
+  out.push({ id: SCENE_ELEMENT, name: 'Whole image', role: 'Anything not tied to one item', kind: 'scene' });
+  return out;
 }
 
 type CheckIssue = ImageCheck['images'][number]['issues'][number];

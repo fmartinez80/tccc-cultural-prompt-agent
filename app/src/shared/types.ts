@@ -209,7 +209,8 @@ export interface SceneSpec {
     /** The operator's own description of the environment. */
     environmentNote?: string;
   };
-  camera: { look: string; angle: string };
+  /** depth: a depth_of_field preset id (camera-options.json); unset means the default. */
+  camera: { look: string; angle: string; depth?: string };
   sku: SkuInfo & { glass: boolean };
   entree: { name: string; prep: PrepChoice; plating: PlatingChoice };
   accompaniments: Accompaniment[];

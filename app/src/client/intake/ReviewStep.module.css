@@ -462,7 +462,7 @@
 /* Redraw confirmation. */
 .modalOverlay {
   position: fixed;
-  inset: 0;
+  inset: var(--env-band-h, 0px) 0 0 0;
   z-index: 100;
   display: grid;
   place-items: center;
