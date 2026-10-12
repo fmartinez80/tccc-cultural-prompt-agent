@@ -149,6 +149,13 @@ export const SKU_CATALOG: Array<SkuInfo & { shortName: string; markets?: string[
     displayName: "Coca-Cola Original Taste 1.75 L plastic bottle", package: "pet-bottle", volumeMl: 1750, heightM: 0.316, radiusM: 0.0488, markets: ["iraq"],
     appearance: "large clear plastic bottle with a red screw cap, a long body with tall vertical grooves above and below the label and a five-lobed base, filled to the shoulder with cola, a red wrap label around the middle carrying the white Coca-Cola script logo with ORIGINAL TASTE beneath it and a white wave with a red and pink stepped geometric pattern below",
   },
+  // Iraq only, also keyed by its front-of-pack artwork code (REN-2607-00852_FOP.png, 2026-10-12) until a GTIN arrives.
+  // 21.5 cm tall, 6.1 cm across the base.
+  {
+    id: "coke-iraq-400ml-pet", gtin: "REN-2607-00852", shortName: "400 mL plastic bottle (Iraq)",
+    displayName: "Coca-Cola Original Taste 400 mL plastic bottle", package: "pet-bottle", volumeMl: 400, heightM: 0.215, radiusM: 0.0305, markets: ["iraq"],
+    appearance: "clear plastic bottle with a red ribbed screw cap, filled to the shoulder with cola, a red wrap label around the upper body carrying the white Coca-Cola script logo with ORIGINAL TASTE beneath it, and below the label a moulded lower body with rows of round dimples on one side and an embossed Coca-Cola script panel, ending in a five-lobed base",
+  },
   // Retired provisional sizes (coca-cola-guidelines.md §4.3), hidden from the brief.
   { id: "coke-original-330ml-glass", shortName: "330 mL contour glass bottle", displayName: "Coca-Cola Original Taste 330 mL contour glass bottle", package: "contour-glass-bottle", volumeMl: 330, retired: true },
   { id: "coke-original-350ml-glass-es", shortName: "350 mL returnable glass (Spain)", displayName: "Coca-Cola Original Taste 350 mL returnable glass bottle (Spain on-premise)", package: "contour-glass-bottle", volumeMl: 350, markets: ["spain"], retired: true },
