@@ -724,6 +724,12 @@ just a one-off for this project.
   component listed in the entry (mains, sides, condiments) and ask what it
   specifically requires, rather than inferring the whole scene's needs from
   the single most prominent item.
+  The same applies the other way: a handheld dish (falafel, a wrap, a
+  sandwich) must not get a fork and knife just because the place setting
+  has them by default. Cutlery is decided per meal, item by item; the rule
+  and its examples live in `tableware-composition-reference.md` §3. Every
+  dish entry's "Utensils/eating customs" field should say plainly when the
+  dish is eaten by hand or with bread.
 - **A source-accurate culinary term in the KB entry is not guaranteed to
   translate into a correct image-model render — test it, don't assume a
   named correction "took" after one generation.** This project named a

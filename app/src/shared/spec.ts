@@ -88,7 +88,8 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
             napkinShape: "rect",
             material: venue === "restaurant" ? "polyester" : "cotton",
             size: DINNER_NAPKIN_OCCASIONS.includes(brief.occasion) ? "dinner" : "luncheon",
-            cutlery: ["fork", "knife"],
+            // Older saved sessions have no cutlery answer; they keep the Western default.
+            cutlery: sel.sides.cutlery ?? ["fork", "knife"],
             targets: "MAIN",
           },
     accent: sel.accent ?? null,
