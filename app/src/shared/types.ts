@@ -135,10 +135,17 @@ export const Accompaniment = z.object({
 });
 export type Accompaniment = z.infer<typeof Accompaniment>;
 
+export const Cutlery = z.enum(["fork", "knife", "spoon"]);
+export type Cutlery = z.infer<typeof Cutlery>;
+
 export const SidesChoice = z.object({
   label: z.string(),
   detail: z.string(),
   accompaniments: z.array(Accompaniment),
+  cutlery: z
+    .array(Cutlery)
+    .optional()
+    .describe("The utensils on the diner's napkin for this whole meal, following tableware reference §3: empty when everything is eaten by hand or with bread"),
 });
 export type SidesChoice = z.infer<typeof SidesChoice>;
 
