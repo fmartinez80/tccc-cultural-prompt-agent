@@ -9,11 +9,11 @@
 // only shown while the detailed sketch can't be (failed, plan-gated or expired).
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { ArrowRight, Check, CheckCheck, Download, PencilLine, RotateCw, Sparkles } from 'lucide-react';
+import { ArrowRight, Check, CheckCheck, Download, Move, PencilLine, RotateCw, Sparkles } from 'lucide-react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 
-import { PLACEMENT_REASONS, emptyReview, sketchKey, reviewAdjustments, reviewCounts, reviewDirections, type ItemReview, type LayoutReview } from '../../shared/review.ts';
+import { PLACEMENT_REASONS, emptyReview, layoutKey, sketchKey, reviewAdjustments, reviewCounts, reviewDirections, type ItemReview, type LayoutReview } from '../../shared/review.ts';
 import { MODEL_FRAMING_WIDEN } from '../../shared/rules.ts';
 import { SKETCH_MODEL_LABEL, sketchChanges, sketchPrompt } from '../../shared/sketch.ts';
 import type { LayoutOption } from '../../shared/solver.ts';
@@ -29,6 +29,7 @@ import { ProgressRing } from '../ui/ProgressRing.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
 import { TextArea } from '../ui/TextArea.tsx';
 import { TextInput } from '../ui/TextInput.tsx';
+import { SketchEditor } from './SketchEditor.tsx';
 import { StepActions } from './StepActions.tsx';
 import type { ComposeResult } from './types.ts';
 import type { Draft } from './useIntake.ts';
@@ -112,10 +113,16 @@ export function ReviewStep({
   detail: savedDetail,
   onDetail,
   arrangement,
+  sourceName,
+  onEditLayout,
   onNext,
 }: {
   compose: ComposeResult;
   option: LayoutOption;
+  /** How this arrangement is named in an edit of it, e.g. "arrangement A". */
+  sourceName: string;
+  /** Saves an edit from the sketch editor as a new arrangement and switches to it. */
+  onEditLayout: (edit: { blueprint: Blueprint; styleUrl: string | undefined; review: LayoutReview }) => void;
   /** Null when there is no review yet for this layout. */
   review: LayoutReview | null;
   onReview: (r: LayoutReview) => void;
@@ -137,6 +144,7 @@ export function ReviewStep({
   /** Items whose Change editor is open; a Change that's been confirmed with Done folds to one line. */
   const [editing, setEditing] = useState<ReadonlySet<string>>(() => new Set());
   const [confirmRedraw, setConfirmRedraw] = useState(false);
+  const [editOpen, setEditOpen] = useState(false);
   const overlayRef = useRef<HTMLCanvasElement>(null);
   const rowRefs = useRef<Array<HTMLLIElement | null>>([]);
 
@@ -263,7 +271,9 @@ export function ReviewStep({
   const directions = useMemo(() => reviewDirections(review, bp), [review, bp]);
   const counts = reviewCounts(review);
   const changes = useMemo(() => sketchChanges(adjustments, directions), [adjustments, directions]);
-  const detailPrompt = useMemo(() => sketchPrompt(compose.spec, bp, changes), [compose.spec, bp, changes]);
+  // An edited arrangement is drawn in the style of the sketch it was edited on (image 2).
+  const styleUrl = option.edit?.styleUrl;
+  const detailPrompt = useMemo(() => sketchPrompt(compose.spec, bp, changes, { restyle: !!styleUrl }), [compose.spec, bp, changes, styleUrl]);
   const detailStale = !!detail && detail.prompt !== detailPrompt;
 
   // What the next redraw adds, one line per edit that differs from the sketch on screen.
@@ -291,7 +301,7 @@ export function ReviewStep({
         // Image 1 is the same labeled proxy, at the same framing, that the photograph is made from.
         const png = renderProxy(bp, compose.lighting, { width: MODEL_PROXY_WIDTH, widen: MODEL_FRAMING_WIDEN });
         const { url: proxyUrl } = await uploadImage(png);
-        taskId = (await start.mutateAsync({ prompt, proxyUrl })).taskId;
+        taskId = (await start.mutateAsync({ prompt, proxyUrl, ...(styleUrl ? { styleUrl } : {}) })).taskId;
         writePending({ layout: signature, prompt, taskId, startedAt, edits: drawn });
       }
       const deadline = startedAt + POLL_TIMEOUT_MS;
@@ -362,6 +372,27 @@ export function ReviewStep({
 
   // The long explanation sits behind a link so the sketch lands in the first screen.
   const [howOpen, setHowOpen] = useState(false);
+
+  /** The edited layout becomes a new arrangement; marks on items that stayed put carry over, and so do the scene notes. */
+  const saveEdit = (edited: Blueprint) => {
+    setEditOpen(false);
+    const items: Record<string, ItemReview> = {};
+    for (const p of edited.primitives) {
+      const r = review.items[p.id];
+      const was = bp.primitives.find((q) => q.id === p.id);
+      if (!r || !was) continue;
+      const moved = was.world.x !== p.world.x || was.world.d !== p.world.d;
+      if (!moved) items[p.id] = r;
+      // A moved item keeps its note about the dish, not its placement reasons.
+      else if (r.note.trim()) items[p.id] = { ...r, reasons: [] };
+    }
+    onEditLayout({
+      blueprint: edited,
+      styleUrl: showDetail ? detail.url : styleUrl,
+      review: { key: layoutKey(edited), items, notes: review.notes },
+    });
+  };
+
   const signIn = run?.error ? signInRequiredFrom(run.cause) : null;
   const forbidden = run?.error ? isForbidden(run.cause) : false;
 
@@ -443,8 +474,11 @@ export function ReviewStep({
           })}
         </div>
 
-        {/* Under the sketch: draw it again on the right; its status line and any note below. */}
+        {/* Under the sketch: change it by hand on the left, draw it again on the right; its status line and any note below. */}
         <div className={styles.toolbar}>
+          <Button size="sm" icon={<Move size={14} aria-hidden />} onPress={() => setEditOpen(true)} disabled={!sketch || drawing}>
+            Edit sketch
+          </Button>
           <Button
             size="sm"
             variant={!detail || expired ? 'primary' : 'default'}
@@ -672,7 +706,7 @@ export function ReviewStep({
       </div>
       </div>
 
-      <StepActions>
+      <StepActions pinned={false}>
         {detail && !expired && detailStale && !drawing && pending.length > 0 && (
           <Button icon={<RotateCw size={16} aria-hidden />} onPress={() => setConfirmRedraw(true)}>
             Redraw with {pendingText}
@@ -682,6 +716,16 @@ export function ReviewStep({
           {hasStory ? 'Continue to the scene' : 'Create the scene'}
         </Button>
       </StepActions>
+
+      <SketchEditor
+        isOpen={editOpen}
+        onClose={() => setEditOpen(false)}
+        blueprint={bp}
+        spec={compose.spec}
+        lighting={compose.lighting}
+        sourceName={sourceName}
+        onSave={saveEdit}
+      />
 
       <Modal isOpen={confirmRedraw} onOpenChange={setConfirmRedraw} isDismissable className={styles.modalOverlay}>
         <Dialog className={styles.dialog}>

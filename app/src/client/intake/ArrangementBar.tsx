@@ -22,7 +22,8 @@ import type { Brief, ComposeResult } from "./types.ts";
 import styles from "./ArrangementBar.module.css";
 import dialog from "./ReviewStep.module.css";
 
-const OPTION_LETTERS = ["A", "B", "C"];
+// Up to three from the solver, then the art director's edits (one per arrangement).
+export const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
 
 type AccentAnswer = { accent: AccentChoice | null; napkin: boolean };
 
