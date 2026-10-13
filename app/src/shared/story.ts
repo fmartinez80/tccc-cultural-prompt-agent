@@ -224,7 +224,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
-    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either. ${BACKGROUND_PEOPLE_RULE}`,
+    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${BACKGROUND_PEOPLE_RULE}`,
   };
 }
 

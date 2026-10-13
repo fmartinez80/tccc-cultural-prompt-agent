@@ -78,6 +78,13 @@ This file holds the reusable, brand-agnostic composition rules and vessel dimens
 ## 3. Place-setting structure
 
 - **Standard layout**: entree plate anchors the setting; drink at top right of the entree plate; napkin + utensils clustered to the right of the plate. Utensils always sit on top of the folded napkin.
+- **Cutlery is decided per meal, never added by default.** Before placing any utensil, check two things: how this culture eats this dish, and what each item on the table needs. Fork and knife are only the Western default for plated food that is cut at the table.
+  - **Handheld food gets no cutlery.** Falafel (loose or in bread), shawarma and other wraps, sandwiches, burgers, tacos, pizza slices, fried chicken pieces, kebab in bread, samosas and empanadas are eaten by hand: the napkin stays, with nothing on it.
+  - **Food eaten with bread or the hand gets no cutlery**, where that is how people here eat it (for example scooping with flatbread, or rice and stew eaten with the right hand). Follow the country file's eating customs.
+  - **Use the local utensil, not the Western pair.** Spoon and fork where rice is eaten that way (for example Thailand, the Philippines), a spoon alone for rice, soups and stews where that is the custom.
+  - **Walk every item on the table, not only the main** (see `country-file-schema.md` §7.5). A handheld main next to a side that needs a fork (a mayo potato salad, a rice dish) still gets that one utensil. A dip, sauce or pickle eaten with the main by hand needs nothing.
+  - **When the country file is silent**, judge from the dish itself: if most people would pick it up, show no cutlery. Say in the rationale that it was a judgement, not a sourced fact.
+  - A falafel scene in Iraq with a fork and knife on the napkin is the failure this rule exists to stop.
 - **Hero place setting**: foreground/midground, anchored in the vertical center third, larger/closer to the viewer.
 - **Second place setting** (if a brief calls for more than one diner): background, on the *opposite* side of the table from the hero setting — depth, not width. This uses depth rather than creating horizontal clutter, and keeps the hero setting uncontested for attention.
 

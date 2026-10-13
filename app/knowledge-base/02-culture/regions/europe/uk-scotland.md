@@ -187,7 +187,8 @@ sharp; the brief dictates the SKU.
   napkin, held over a wall or bench per §7.5, or eaten from the hand on
   a cold street, breath visible in winter.
 - Subregional variants and the national default: Glasgow and the west
-  (morning rolls, Scotch pies); Forfar and Angus (bridies); football
+  (morning rolls, Scotch pies); Forfar and Angus (bridies, see Dish:
+  Forfar bridie); Aberdeen (butteries, see Dish: Aberdeen buttery); football
   grounds (a kiosk hatch with pies in foil trays, the stand roof blurred;
   never crests or sponsor boards). National default: a town high-street
   family bakery at midday.
@@ -539,14 +540,16 @@ households. [MEDIUM — The Scotsman and general Hogmanay sources]
 - The spread: the plated meal often carries a Scottish course (a haggis
   starter or "haggis, neeps and tatties" stack). A late-evening
   **stovies** buffet (a pan of potatoes slow-cooked with onion and
-  leftover meat, served in bowls) is commonly cited as ceilidh food.
-  [LOW — not verified this pass; stated from general knowledge]
+  leftover meat, served in bowls, with oatcakes) is the classic ceilidh
+  food; see Dish: Stovies. [MEDIUM-HIGH for the dish (Wikipedia: Stovies);
+  its place at weddings is common knowledge, not separately sourced]
 - Snapshot staging: as `uk.md`'s wedding entry; for the evening, one bowl
   of stovies at a high or side table, the stovies pan on a buffet soft
   behind, blurred dancers in motion (no sharp faces). [EDITORIAL]
 - Never stage: the whisky toast or a quaich (a shallow two-handled
   drinking cup used for whisky); legible clan crests.
-- Confidence and sources: LOW for the food delta; EDITORIAL for staging.
+- Confidence and sources: MEDIUM-HIGH for the stovies (catalog entry);
+  LOW for the haggis course; EDITORIAL for staging.
 
 ---
 
@@ -820,6 +823,185 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
     on top. A slice of crusty bread beside the bowl. No clams, no corn, no
     bacon."
 
+#### Dish: Aberdeen buttery (rowie)
+
+- Category: Everyday bakery item: a breakfast or tea-time roll, also eaten
+  on the go; Aberdeen and the northeast.
+- Cuisine lineage: Native Scottish, from Aberdeen. Also called a rowie or
+  Aberdeen roll. A popular origin story ties its high fat content to
+  fishermen who needed bread that kept for about two weeks at sea.
+  [CONFIDENCE: HIGH for the city of origin and the ingredients; MEDIUM for
+  the fishermen story] [SOURCE: [Wikipedia: Buttery (bread)](https://en.wikipedia.org/wiki/Buttery_(bread)),
+  citing BBC Food, The Guardian (2018) and the Press and Journal]
+- Regional form variation: Aberdeen-specific; there is no UK-wide variant.
+  This entry stands in for a separate Aberdeen callout (Candidate Queue
+  item 1).
+- Primary protein/composition: flour, lard and butter, yeast, salt and a
+  little sugar, laminated like a pastry. Modern commercial versions often
+  use palm or vegetable oil; note it, but never stage it as a claim.
+  [HIGH]
+- Side dishes/condiments: eaten plain, split and toasted, or with butter
+  or jam, usually with a cup of tea.
+- Serving format: one or two per person, whole or split.
+- Serving vessel: a small side plate, or plain bakery paper.
+- Visual/plating characteristics: squat, round and flaky, layered like a
+  croissant but flatter and saltier; pale gold to deep gold, with an
+  uneven, craggy top and visible layers where it is torn or cut. [HIGH for
+  the form]
+- Real-world scale (§4.5): palm-sized, about 1.5 times the can's diameter
+  across (~10 cm), so smaller across than the can is tall. [MEDIUM: inferred
+  from bakery norms; flag for SME check and image test]
+- Common confusion: a croissant (it has no crescent shape and no sweet egg
+  gloss); a Scottish morning roll (soft white bread, no layers); a scone.
+- Confidence: HIGH for origin and composition; MEDIUM for size and the
+  origin story.
+- Sources: [Wikipedia: Buttery (bread)](https://en.wikipedia.org/wiki/Buttery_(bread))
+- Composition & proportions (§4.7): one or two rolls on a small plate or
+  paper. [EDITORIAL unless tagged]
+  - What dominates: **the pastry itself**, ~60% of the top view; the rest is
+    plate or paper, plus butter or jam if shown.
+  - Components: the roll ~10 cm across; if split, the cut face shows tight
+    flaky layers.
+  - State cues: craggy, golden, lightly toasted if split; a little
+    greasy sheen, never a glaze.
+  - Absent on purpose: a crescent shape, sweet glaze or sugar, legible
+    bakery branding.
+  - Prompt-ready line: "One squat round flaky savoury roll about
+    one-and-a-half can-widths across, pale-golden craggy layered crust,
+    split and lightly toasted, on plain paper. No crescent shape, no sweet
+    glaze."
+
+#### Dish: Forfar bridie
+
+- Category: Everyday snack and lunch; a bakery-counter hero alongside the
+  Scotch pie (see Venue: Scotch-pie bakery counter).
+- Cuisine lineage: Native Scottish, from Forfar in Angus, credited to a
+  Forfar baker in the 1850s. The name is linked either to a horseshoe-shaped
+  wedding-menu pasty or to a seller, Margaret Bridie of Glamis; both
+  accounts are recorded as contested. [MEDIUM-HIGH] [SOURCE: [Wikipedia: Bridie](https://en.wikipedia.org/wiki/Bridie),
+  citing Gow (1981) and McLaren Bakers]
+- Regional form variation: shortcrust is the Forfar tradition; flaky
+  pastry elsewhere in Scotland is a substitution.
+- Primary protein/composition: minced steak with butter and beef suet,
+  salt and pepper, sometimes onion. Bakers' code: one hole on top means
+  plain, two holes means with onion (the same convention as the Scotch
+  pie). [HIGH]
+- Side dishes/condiments: none needed; eaten as is, sometimes with brown
+  sauce.
+- Serving format: one per person, whole.
+- Serving vessel: a paper bag or plain paper; a small plate at home.
+- Visual/plating characteristics: a D-shaped turnover folded into a
+  semicircle, crimped along the curved edge, with one or two small steam
+  holes on top; matte golden-brown shortcrust with no flaky layers. [HIGH]
+- Real-world scale (§4.5): ~15–20 cm long (about 1.5 times the can's
+  height) and 3–4 cm thick. [MEDIUM: flag for SME check and image test]
+- Common confusion: a Cornish pasty (crimped along the side, different
+  filling); a Scotch pie (round, straight-sided, with a recessed lid).
+- Confidence: HIGH for construction and the hole code; MEDIUM-HIGH for
+  origin; MEDIUM for size.
+- Sources: [Wikipedia: Bridie](https://en.wikipedia.org/wiki/Bridie)
+- Composition & proportions (§4.7): one bridie on paper. [EDITORIAL unless
+  tagged]
+  - What dominates: **the pasty**, ~55–65% of the top view.
+  - Components: one D-shaped pasty ~15–20 cm long; one or two steam holes;
+    crimp along the curve only.
+  - State cues: matte, dry-baked golden-brown crust, maybe a little
+    darker at the crimp; no egg-wash gloss.
+  - Absent on purpose: flaky layers, a domed round pie, a side crimp,
+    legible bakery branding.
+  - Prompt-ready line: "One D-shaped golden-brown shortcrust pasty about
+    one-and-a-half can-heights long, crimped curved edge, one small steam
+    hole on top, on paper. No flaky layers, no domed pie."
+
+#### Dish: Stovies
+
+- Category: Everyday and celebration: a home dish, and the classic
+  late-evening ceilidh buffet food (see Celebration: Scottish wedding and
+  ceilidh).
+- Cuisine lineage: Native Scottish. Potatoes slowly "stoved" (stewed) in
+  fat, from the French étuvé (braised). Meat-free stovies are sometimes
+  called "barfit" and stovies with meat "high-heelers"; use these as
+  vocabulary notes only, never in prompts. [HIGH] [SOURCE: [Wikipedia: Stovies](https://en.wikipedia.org/wiki/Stovies),
+  citing McNeill, The Scots Kitchen (1929), the Concise Scots Dictionary
+  and the SWRI Cookery Book]
+- Regional form variation: recipes vary by family; the meat is often
+  leftovers from a roast.
+- Primary protein/composition: potatoes cooked slowly with fat (lard,
+  dripping or butter) and a little water, milk or stock, usually with
+  onion, often with leftover meat. [HIGH]
+- Side dishes/condiments: oatcakes (the Scotland-specific cue), cold meat,
+  sometimes pickled beetroot. [MEDIUM-HIGH]
+- Serving format: individual bowls; at a ceilidh, served from a large pan
+  on a buffet.
+- Serving vessel: a deep bowl.
+- Visual/plating characteristics: soft, collapsing potato chunks with
+  translucent onion and shreds of meat, glossy with fat, pale gold; not
+  browned or crisp. [MEDIUM-HIGH]
+- Real-world scale (§4.5): the bowl filled to 1–2 cm below the rim.
+- Common confusion: roast or sautéed potatoes (stovies are never crisp);
+  Irish stew (no clear broth); hash (not fried brown).
+- Confidence: HIGH for composition; MEDIUM-HIGH for serving and visual
+  detail.
+- Sources: [Wikipedia: Stovies](https://en.wikipedia.org/wiki/Stovies)
+- Composition & proportions (§4.7): one deep bowl, with two oatcakes
+  beside it. [EDITORIAL unless tagged]
+  - What dominates: **the potato mass**, ~70% of the bowl's surface; onion
+    and meat shreds woven through it.
+  - Components: potato chunks ~2–4 cm, softened and slumping; two oatcakes
+    (round, ~7 cm, rough oat texture) on the side.
+  - Vessel fill: 1–2 cm below the rim.
+  - State cues: wet, slumped, glossy with fat, pale gold.
+  - Absent on purpose: crisp or browned edges, a gravy pool, herb garnish.
+  - Prompt-ready line: "A deep bowl filled almost to the rim with soft,
+    slumped pale-gold potato chunks, translucent onion and shreds of meat,
+    glossy and moist, with two round oatcakes beside it. No crisp edges, no
+    gravy, no herbs."
+
+#### Dish: Compact Scottish sweets block (cranachan, clootie dumpling, black bun, shortbread)
+
+- Category: Celebration sweets for Burns Night, Hogmanay, Christmas and
+  weddings. Kept as one compact entry because they appear as supporting
+  items in a celebration snapshot, never as the hero dish.
+- **Cranachan:** layers of whipped cream, raspberries, and toasted oats
+  soaked in whisky and honey, in a tall dessert glass about the can's
+  height. Older forms used crowdie (a soft fresh cheese). Traditionally
+  assembled at the table from separate dishes. Staging rule: show it as a
+  plain cream, raspberry and oat glass. The whisky is real but is never
+  staged or named in a prompt. [HIGH] [SOURCE: [Wikipedia: Cranachan](https://en.wikipedia.org/wiki/Cranachan),
+  citing The Guardian, The Scotsman and BBC Good Food]
+- **Clootie dumpling:** flour, breadcrumbs, dried fruit (currants,
+  raisins, sultanas), suet, sugar, spice and milk, tied in a floured cloth
+  (the "clootie"), boiled for hours, then dried by a fire or in an oven.
+  A dark domed pudding with a pale, floury skin and a dense fruit
+  interior, served in slices. [HIGH] [SOURCE: [Wikipedia: Clootie dumpling](https://en.wikipedia.org/wiki/Clootie_dumpling)]
+- **Black bun:** a dense fruit cake (raisins, currants, almonds, peel,
+  allspice, ginger, cinnamon, pepper) fully enclosed in pastry. It began as
+  a Twelfth Night cake in the era of Mary, Queen of Scots; after the
+  Reformation it moved to Hogmanay, as a first-footing gift meaning the
+  household "shall not go hungry". A cut slice shows the dark fruit
+  inside the pale pastry shell. A form of it is also found in
+  Appalachia; cross-reference only. [HIGH] [SOURCE: [Wikipedia: Black bun](https://en.wikipedia.org/wiki/Black_bun),
+  citing BBC Food and The Hogmanay Companion]
+- **Shortbread:** 1 part sugar, 2 parts butter, 3 to 4 parts flour, no
+  raising agent; crumbly, "short" texture. Shapes: petticoat-tail wedges
+  cut from a circle, rounds, or fingers ~2 cm wide; docked with a fork or
+  moulded; pale gold and matte, sometimes with a sugared edge. [HIGH]
+  [SOURCE: [Wikipedia: Shortbread](https://en.wikipedia.org/wiki/Shortbread),
+  citing the Oxford Companion to Food and McNeill]
+- Confidence: HIGH for composition and occasion; sizes and shares are
+  EDITORIAL.
+- Composition & proportions (§4.7) per item. [EDITORIAL]
+  - Cranachan: a tall glass about the can's height, showing white, red and
+    toasted-oat layers.
+  - Clootie dumpling: one thick dark slice with a moist crumb and a pale
+    skin edge.
+  - Black bun: one thick slab showing the pastry rim around a dark fruit
+    centre.
+  - Shortbread: 2 to 3 pale fingers or one wedge, with clean edges and fork
+    dots.
+  - Absent on purpose: chocolate drizzle, icing, tartan props, legible
+    tins or packaging, whisky bottles or glasses.
+
 ---
 
 ## GAP LOG
@@ -833,8 +1015,9 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   outside the tenement cities)** was carried forward from the scaffold
   without a dedicated new source this pass — flagged MEDIUM, not
   independently re-verified.
-- **No dedicated dish content for Aberdeen, Dundee, or the Highlands and
-  Islands specifically** — this file's scope stayed close to what the
+- **Aberdeen is now covered by Dish: Aberdeen buttery (2026-10-09). There
+  is still no dedicated dish content for Dundee or the Highlands and
+  Islands** — this file's scope stayed close to what the
   scaffold flagged (Glasgow/Edinburgh-centric urban Scotland, plus the
   Scotland-wide dishes), consistent with this file's largely urban
   staging-relevance focus. A future pass could check whether Aberdeen
@@ -848,15 +1031,21 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   addition but wasn't independently verified as common vs. rare this
   pass — treat as a real, optional, more-formal-register detail, not a
   default.
-- **Celebrations pass (2026-10-01) open items.** The Scottish wedding
-  food delta (stovies at the ceilidh, a haggis course) is LOW, from
-  general knowledge only. Burns Supper running order rests on Burns Night
+- **Celebrations pass (2026-10-01) open items.** Stovies were upgraded to
+  MEDIUM-HIGH on 2026-10-09 (sourced catalog entry); the haggis course at
+  weddings is still LOW, from general knowledge only. Burns Supper running order rests on Burns Night
   guides and a food blog, not an institutional source. No headcount data
   for Burns Suppers or Hogmanay parties was found; figures are editorial.
 - **Game-night pass (2026-10-01) open items.** The Scottish deltas are
   all LOW model knowledge: kick-off slots, the Scotch pie as the
   home viewing food, the Calcutta Cup as the peak, and the Old Firm
   sectarian-colours rule (flagged for a human reviewer).
+
+- **Research pack (2026-10-09) open items.** The sizes for the buttery
+  (~10 cm across) and the bridie (15–20 cm long) are MEDIUM, inferred from
+  bakery norms. They need SME sign-off and an image test (§7.5, at least 2
+  generations) before being treated as reliable. The sweets block's sizes
+  and shares are EDITORIAL.
 
 - **Venue-profile pass, wave 1 (2026-10-01) open items.** The
   Scotch-pie bakery counter layout is LOW (no source described it); the
@@ -867,17 +1056,17 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
 
 ## CANDIDATE QUEUE
 
-1. A dedicated Aberdeen/Dundee/Highlands callout, if a future pass finds
-   staging-relevant dish content beyond what's already covered.
+1. A dedicated Dundee/Highlands callout, if a future pass finds
+   staging-relevant dish content beyond what's already covered. (Aberdeen
+   closed 2026-10-09 by Dish: Aberdeen buttery.)
 2. Verification of the harled-render/rural-Scotland architecture claim
    against a dedicated source (Historic Environment Scotland is a
    plausible institutional target).
 3. Independent §8 audit of this file alongside `uk.md`, per the project's
    standing practice, before either is treated as fully done.
 4. Celebration dishes with no catalog entry (celebrations pass
-   2026-10-01): New Year's Day steak pie (family dish); compact Scottish
-   sweets block (cranachan, clootie dumpling, black bun, shortbread);
-   stovies.
+   2026-10-01): New Year's Day steak pie (family dish). (The sweets block
+   and stovies were added 2026-10-09.)
 5. Game-night viewing foods (2026-10-01): none missing beyond the
    steak pie already queued in item 4.
 
@@ -910,3 +1099,14 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   the QUICK-REFERENCE table: tenement flat kitchen, Scottish chippy
   (delta), Scotch-pie bakery counter, Scottish traditional pub (delta),
   Burns Supper hall. WebSearch only.
+- **2026-10-09 research pack (from Fernando's research agent).** Added
+  4 catalog entries: Aberdeen buttery (closes the Aberdeen part of
+  Candidate Queue item 1), Forfar bridie (the hero for the bakery-counter
+  venue), Stovies (lifts the wedding food delta from LOW to MEDIUM-HIGH)
+  and a compact Scottish sweets block (closes the sweets part of item 4).
+  Text only, paraphrased from Wikipedia (encyclopedic tier per schema §6),
+  cross-checked against the BBC Food and Guardian citations given there; no
+  images kept. Still open: SME sign-off, image tests of the sizes, and the
+  LOW/EDITORIAL items in the Gap Log (rural architecture, bakery-counter
+  layout, Burns running order, game-night kick-offs, the Old Firm rule,
+  headcounts), to be reviewed by a person.

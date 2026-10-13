@@ -82,7 +82,7 @@ export function SidesStep({
         facts: v.accompaniments.map((a) => ({
           label: a.name,
           value: `${a.role} · ${vesselLine(a.vessel, a.vesselStyle)}${a.service === 'shared' ? ' · shared' : ''}`,
-        })),
+        })).concat(v.cutlery ? [{ label: 'Cutlery', value: v.cutlery.length ? v.cutlery.join(' and ') : 'None, eaten by hand' }] : []),
       })}
       onPick={onPick}
       onAskAgain={load}
