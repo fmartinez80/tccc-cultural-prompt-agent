@@ -17,7 +17,7 @@ import { trpc } from '../trpc.ts';
 import { Alert } from '../ui/Alert.tsx';
 import { Button } from '../ui/Button.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
-import { ProgressBar } from '../ui/ProgressBar.tsx';
+import { ProgressRing } from '../ui/ProgressRing.tsx';
 import { SkeletonBlock } from '../ui/Skeleton.tsx';
 import { AgentStatus } from './AgentStatus.tsx';
 import type { Brief, ComposeResult } from './types.ts';
@@ -109,6 +109,8 @@ export function PrepareLayout({
 
   const composeProgress = useProgress('compose', composeMutation.isPending ? composeStart : null);
   const accentFailed = accentTask.status === 'error';
+  const accentBusy = accentTask.status === 'starting' || accentTask.status === 'polling';
+  const accentProgress = useProgress(accentTask.timing.key, accentBusy ? accentTask.timing.startedAt : null, accentTask.timing.reported);
 
   const intro = (
     <>
@@ -153,44 +155,52 @@ export function PrepareLayout({
   return (
     <section>
       {intro}
-      <div className={styles.prepStatus} aria-live="polite">
-        {composeMutation.isError ? (
-          <Alert tone="error" title="Couldn't compose a layout">
-            {composeMutation.error.message}
-            <div className={styles.retryRow}>
-              <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={runCompose}>
-                Try again
-              </Button>
-            </div>
-          </Alert>
-        ) : !rules ? (
-          <p className={styles.prepText}>Checking what the table needs…</p>
-        ) : !accentAnswered ? (
-          <>
-            <AgentStatus
-              status={accentTask.status}
-              timing={accentTask.timing}
-              agentError={accentTask.agentError}
-              trpcError={accentTask.trpcError}
-              workingLabel="The table has an even number of items, so the cultural agent is picking a small accent"
-              onSignedIn={() => onSignedIn(askAccent)}
-              onRetry={askAccent}
-              skeletonCards={0}
-            />
-            {accentFailed && (
+      {/* Errors and sign-in sit above the frame; every wait shows as the ring inside it, like the sketch's own. */}
+      {(composeMutation.isError || (rules && !accentAnswered && !accentBusy && accentTask.status !== 'idle')) && (
+        <div className={styles.prepStatus} aria-live="polite">
+          {composeMutation.isError ? (
+            <Alert tone="error" title="Couldn't compose a layout">
+              {composeMutation.error.message}
               <div className={styles.retryRow}>
-                <Button size="sm" onPress={() => onAccent(null)}>
-                  Continue without an accent
+                <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={runCompose}>
+                  Try again
                 </Button>
               </div>
-            )}
-          </>
-        ) : (
-          <ProgressBar label="Composing the layout" progress={composeProgress ?? { percent: 0, secondsLeft: null, estimated: true }} />
-        )}
-      </div>
+            </Alert>
+          ) : (
+            <>
+              <AgentStatus
+                status={accentTask.status}
+                timing={accentTask.timing}
+                agentError={accentTask.agentError}
+                trpcError={accentTask.trpcError}
+                workingLabel="The table has an even number of items, so the cultural agent is picking a small accent"
+                onSignedIn={() => onSignedIn(askAccent)}
+                onRetry={askAccent}
+                skeletonCards={0}
+              />
+              {accentFailed && (
+                <div className={styles.retryRow}>
+                  <Button size="sm" onPress={() => onAccent(null)}>
+                    Continue without an accent
+                  </Button>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      )}
       <div className={styles.prepFrame}>
         <SkeletonBlock height="100%" />
+        {composeMutation.isError ? null : !rules ? (
+          <ProgressRing label="Checking what the table needs" progress={null} />
+        ) : !accentAnswered ? (
+          accentBusy || accentTask.status === 'idle' ? (
+            <ProgressRing label="Picking a small accent: the table has an even number of items" progress={accentProgress ?? null} />
+          ) : null
+        ) : (
+          <ProgressRing label="Composing the layout" progress={composeProgress ?? { percent: 0, secondsLeft: null, estimated: true }} />
+        )}
       </div>
     </section>
   );

@@ -93,15 +93,12 @@
 
 /* The short "preparing" stage before Sketch review takes over. */
 .prepStatus {
-  margin: 16px 0;
-}
-
-.prepText {
-  margin: 0;
-  color: var(--bay-text-2);
+  margin-top: 16px;
 }
 
 .prepFrame {
+  position: relative;
+  margin-top: 16px;
   aspect-ratio: 16 / 9;
   width: 100%;
 }

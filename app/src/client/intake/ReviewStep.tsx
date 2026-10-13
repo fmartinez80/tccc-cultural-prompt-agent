@@ -477,7 +477,13 @@ export function ReviewStep({
             <SkeletonBlock height="100%" />
           )}
           {sketch && <canvas className={styles.overlay} ref={overlayRef} aria-hidden />}
-          {drawing && <ProgressRing label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'} progress={progress ?? null} />}
+          {drawing && (
+            <ProgressRing
+              label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'}
+              progress={progress ?? null}
+              hint={showDetail ? 'The current sketch stays until the new one is ready.' : 'You can start marking items while the sketch draws.'}
+            />
+          )}
           {sketch && (
             <div
               className={styles.hitArea}
@@ -534,13 +540,7 @@ export function ReviewStep({
           )}
 
           <div className={styles.detailBar} aria-live="polite">
-            {drawing ? (
-              showDetail ? (
-                <p className={styles.detailText}>Redrawing the sketch. The current one stays until the new one is ready.</p>
-              ) : (
-                <p className={styles.detailText}>You can start marking items while the sketch draws.</p>
-              )
-            ) : run?.error ? (
+            {drawing ? null : run?.error ? (
               signIn ? (
                 <SignInPrompt
                   onSignedIn={() => void drawDetail()}
