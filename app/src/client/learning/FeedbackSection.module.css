@@ -84,7 +84,7 @@
   align-items: center;
   padding: 2px 8px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -112,7 +112,7 @@
   align-items: center;
   padding: 2px 8px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   border: var(--neo-border-thin);
   border-radius: 999px;
   background: var(--neo-card);
@@ -121,7 +121,7 @@
 
 .meta {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -133,7 +133,7 @@
 
 .choices {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -156,7 +156,7 @@
 .issue {
   padding: 8px 0;
   border-bottom: var(--neo-border-thin);
-  font-size: 12px;
+  font-size: var(--app-text-min);
 }
 
 .issue:last-child {
@@ -196,7 +196,7 @@
 
 .votesLabel {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -228,7 +228,7 @@
 .voteName {
   overflow: hidden;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -256,7 +256,7 @@
   align-items: center;
   gap: 3px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-variant-numeric: tabular-nums;
   color: var(--bay-text-2);
 }

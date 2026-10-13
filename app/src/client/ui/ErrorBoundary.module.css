@@ -24,7 +24,7 @@
 .summary {
   cursor: pointer;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -33,7 +33,7 @@
   max-height: 180px;
   overflow: auto;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   line-height: 1.35;
   white-space: pre-wrap;
   word-break: break-word;

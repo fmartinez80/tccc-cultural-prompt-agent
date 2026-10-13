@@ -42,7 +42,7 @@
   align-items: center;
   gap: 6px;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-4);
 }
 
@@ -51,7 +51,7 @@
   align-items: center;
   gap: 6px;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -115,12 +115,12 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-2);
 }
 
 .uploadHint {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   line-height: 1.35;
   color: var(--bay-text-3);
 }

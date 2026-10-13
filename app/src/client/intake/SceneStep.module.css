@@ -8,7 +8,7 @@
 /* Field labels: short names in Space Mono caps, the same as every form control's label. */
 .fieldLabel {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -17,7 +17,7 @@
 
 .hint {
   margin-top: 4px;
-  font-size: 12.5px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 

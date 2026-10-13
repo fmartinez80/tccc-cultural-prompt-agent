@@ -60,6 +60,8 @@
   --app-weight-text: 400;
   --app-weight-subhead: 700;
   --app-weight-headline: 700;
+  /* Smallest text size. The UI is zoomed to 90%, so 13.5px renders at about 12px on screen (desktop only). */
+  --app-text-min: 13.5px;
 
   /* --- Shared tokens, remapped --- */
   --bay-text: #0b1f4b;

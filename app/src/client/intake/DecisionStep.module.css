@@ -69,7 +69,7 @@
 }
 
 .customKeys {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3, var(--bay-text-2));
 }
 
@@ -131,7 +131,7 @@
 
 .tableKind {
   display: block;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: var(--app-weight-subhead);
   letter-spacing: 0.04em;
   text-transform: uppercase;
