@@ -24,8 +24,8 @@
   --fb-warn: #8a5a00;
   --fb-accent: var(--neo-cta-button);
 
-  width: min(96vw, 1040px);
-  max-height: calc(100vh - var(--env-band-h, 0px) - 48px);
+  width: min(96vw / var(--ui-zoom, 1), 1040px);
+  max-height: calc(100vh / var(--ui-zoom, 1) - var(--env-band-h, 0px) - 48px);
   display: flex;
   flex-direction: column;
   background: var(--neo-card);

@@ -154,8 +154,8 @@ export function HomePage({ draftInProgress, onNewScene, onContinue }: Omit<HomeP
   return (
     <div className={styles.page}>
       <Intro />
-      <HowItWorks />
       <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
+      <HowItWorks />
       <Gallery />
     </div>
   );

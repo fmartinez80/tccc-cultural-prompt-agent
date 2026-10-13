@@ -6,7 +6,15 @@
   box-sizing: border-box;
 }
 
+/* The whole UI draws at 90%: at 100% the pages read too large.
+   Viewport units inside a zoomed page shrink too, so stylesheets divide vh
+   (and vw used for widths) by --ui-zoom, and pointer maths uses lib/uiZoom.ts. */
+:root {
+  --ui-zoom: 0.9;
+}
+
 html {
+  zoom: var(--ui-zoom);
   /* Tilt Warp has one weight: never fake a bold or italic. */
   font-synthesis: none;
 }
@@ -14,7 +22,7 @@ html {
 html,
 body,
 #root {
-  min-height: 100vh;
+  min-height: calc(100vh / var(--ui-zoom, 1));
   margin: 0;
   padding: 0;
 }

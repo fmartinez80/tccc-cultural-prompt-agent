@@ -1,5 +1,5 @@
 .page {
-  min-height: calc(100vh - var(--env-band-h, 0px));
+  min-height: calc(100vh / var(--ui-zoom, 1) - var(--env-band-h, 0px));
   display: grid;
   place-items: center;
   padding: 24px 16px;

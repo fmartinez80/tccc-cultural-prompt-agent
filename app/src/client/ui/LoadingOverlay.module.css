@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  width: min(88vw, 320px);
+  width: min(88vw / var(--ui-zoom, 1), 320px);
   padding: 24px 24px 20px;
   background: var(--neo-card);
   border: var(--neo-border);

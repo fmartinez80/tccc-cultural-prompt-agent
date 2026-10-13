@@ -9,6 +9,7 @@ import {
   SelectValue,
 } from 'react-aria-components';
 
+import { overlayLayer } from '../lib/uiZoom.ts';
 import styles from './Select.module.css';
 
 export type SelectOption = { id: string; label: string; disabled?: boolean | undefined };
@@ -49,7 +50,7 @@ export function Select({
         <SelectValue className={styles.value} />
         <ChevronDown size={16} className={styles.chevron} aria-hidden />
       </AriaButton>
-      <Popover className={styles.popover}>
+      <Popover className={styles.popover} UNSTABLE_portalContainer={overlayLayer()}>
         <ListBox className={styles.listbox} items={options}>
           {(o: SelectOption) => (
             <ListBoxItem id={o.id} textValue={o.label} isDisabled={o.disabled} className={styles.item}>
