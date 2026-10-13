@@ -376,7 +376,7 @@ export function assembleWorkspacePrompt(all: WsSegment[], ws: WorkspaceState): s
             ({ r, n }) =>
               `Image ${n} is the exact item to place at ${r.seg.chip}: copy its type, shape, proportions, colors, materials and any label artwork from image ${n}. It takes priority over every other line of this prompt that names or describes the ${r.seg.chip} item differently, including product names, packaging and the shape drawn at ${r.seg.chip} in image 1, which only marks its position and size.`,
           ),
-        'Match each referenced element to its image: the same pieces and count, cut, sauce, garnish, colors and container, placed where its shape sits in image 1 and lit by this scene’s light.',
+        'Match each referenced element to its image: the same pieces and count, cut, sauce, garnish, colors and container, placed where it sits in image 1 and lit by this scene’s light.',
         'Where an element’s description above asks for a detail its image does not show, follow the description for that detail.',
       ].join(' ')
     : '';

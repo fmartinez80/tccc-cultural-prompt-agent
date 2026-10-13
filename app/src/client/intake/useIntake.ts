@@ -92,7 +92,7 @@ export interface Draft {
   /** Generated turnaround views per proxy label, tied to the segment text they were made from. */
   turnarounds: Record<string, SavedTurnaround>;
   /** The detailed sketch on Sketch review, tied to the layout (its signature), the prompt it was drawn from and the review edits in it (by item id, 'scene' for the notes). */
-  sketch: { url: string; prompt: string; at: number; layout?: string; edits?: Record<string, string> } | null;
+  sketch: { url: string; prompt: string; at: number; layout?: string; edits?: Record<string, string>; /** Where each item landed in the drawing (0..1), found after it was drawn. */ boxes?: Record<string, { x0: number; y0: number; x1: number; y1: number } | null> } | null;
   /** Every recent detailed sketch by its layout key (see sketchKey), so switching back to an arrangement on Sketch review doesn't redraw it. */
   sketches: Record<string, NonNullable<Draft['sketch']>>;
   /** The node workspace (step 10): segment edits, previews, scene settings and results. */
