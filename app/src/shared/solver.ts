@@ -582,20 +582,42 @@ function inHeroZone(boxes: Map<string, ScreenBox>, heroes: string[]): boolean {
   return heroes.every((l) => l === "MAIN" || inThird(l, boxes.get(l)!));
 }
 
-function fitCamera(placed: Placed[], D: number, focal: number, pitch: number, targetSpan: number): Fit | null {
+/** Per-angle framing on top of the pitch (camera-options.json angle.hidden). */
+interface Framing {
+  /** Moves the camera this share of its fitted distance from the table's front edge (Low: 0.5). */
+  setback_scale?: number;
+  /** Lowest the table's front edge may sit in the frame (0 = bottom edge). Unset: the front edge may fall below the frame. */
+  front_edge_min_y?: number;
+  /** Highest the table's rear edge, and every item's base, may sit in the frame. Unset: 0.5, the horizon clamp (H1, H2). */
+  rear_edge_max_y?: number;
+}
+
+const rearLimit = (f: Framing) => f.rear_edge_max_y ?? 0.5;
+
+function fitCamera(placed: Placed[], D: number, focal: number, pitch: number, targetSpan: number, framing: Framing = {}): Fit | null {
   const heroes = heroLabels(placed);
   const heroPlaced = placed.filter((p) => heroes.includes(p.item.label));
-  let best: { fit: Fit; score: number } | null = null;
   const xs = heroPlaced.flatMap((p) => [p.x - radiusOf(p), p.x + radiusOf(p)]);
-  let tx0 = (Math.min(...xs) + Math.max(...xs)) / 2;
+  const tx0 = (Math.min(...xs) + Math.max(...xs)) / 2;
+  const rearMax = rearLimit(framing);
+  const frontMin = framing.front_edge_min_y;
+  const cosP = Math.cos((pitch * Math.PI) / 180);
+  // The camera aims at or behind the table's rear edge; when the front edge has to show, it may aim into the table.
+  const tdMin = frontMin === undefined ? D : 0.3 * D;
 
-  for (let td = D; td <= D + 0.6; td += 0.05) {
-    for (let dist = 0.3; dist <= 8; dist *= 1.04) {
-      let tx = tx0;
-      let cam = makeCameraParams(focal, pitch, tx, td, dist);
-      let { boxes, proj } = project(placed, cam);
-      const main = placed.find((p) => p.item.kind === "main")!;
-      const perMeter = () => (proj.project(main.x + 1, 0, main.d).x - proj.project(main.x - 1, 0, main.d).x) / 2;
+  /**
+   * The camera aimed at depth td from `dist` away, or null when a framing rule fails. Without `fixedX`
+   * the hero group is re-centred; with it (the distance refinement) the aim stays put and the heroes
+   * must already sit in the center third.
+   */
+  const frame = (td: number, dist: number, fixedX?: number): { fit: Fit; score: number } | null => {
+    const strict = fixedX !== undefined;
+    let tx = fixedX ?? tx0;
+    let cam = makeCameraParams(focal, pitch, tx, td, dist);
+    let { boxes, proj } = project(placed, cam);
+    const main = placed.find((p) => p.item.kind === "main")!;
+    const perMeter = () => (proj.project(main.x + 1, 0, main.d).x - proj.project(main.x - 1, 0, main.d).x) / 2;
+    if (!strict) {
       // Re-center the hero group horizontally (two passes are enough).
       for (let it = 0; it < 2; it++) {
         const u = unionBox(heroes.map((l) => boxes.get(l)!));
@@ -612,42 +634,49 @@ function fitCamera(placed: Placed[], D: number, focal: number, pitch: number, ta
         cam = makeCameraParams(focal, pitch, tx, td, dist);
         ({ boxes, proj } = project(placed, cam));
       }
-      const u = unionBox(heroes.map((l) => boxes.get(l)!));
-      const rearY = proj.project(tx, 0, D).y;
-      const mainBox = boxes.get("MAIN")!;
-      if (rearY > 0.5 + 1e-6) continue;
-      if (mainBox.y0 < MAIN_BOTTOM_MARGIN) continue;
-      // Every base, and every low item in full, stays in the lower half (H2).
-      if (placed.some((p) => (p.item.def.tall ? boxes.get(p.item.label)!.y0 : boxes.get(p.item.label)!.y1) > 0.5)) continue;
-      if (u.y1 > 0.97) continue;
-      const span = u.x1 - u.x0;
-      // Prefer framings that keep the heroes in the center third; widen a little rather than fail H14.
-      const score = -Math.abs(span - targetSpan) - 0.3 * (0.5 - rearY) - (inHeroZone(boxes, heroes) ? 0 : 1);
-      if (!best || score > best.score) best = { fit: { cam, boxes, sils: new Map(), rearY }, score };
     }
-  }
+    const u = unionBox(heroes.map((l) => boxes.get(l)!));
+    const rearY = proj.project(tx, 0, D).y;
+    if (rearY > rearMax + 1e-6) return null;
+    if (boxes.get("MAIN")!.y0 < MAIN_BOTTOM_MARGIN) return null;
+    if (frontMin !== undefined && proj.project(tx, 0, 0).y < frontMin) return null;
+    // Every base, and every low item in full, stays below the rear-edge limit (H2).
+    if (placed.some((p) => (p.item.def.tall ? boxes.get(p.item.label)!.y0 : boxes.get(p.item.label)!.y1) > rearMax)) return null;
+    if (u.y1 > 0.97) return null;
+    if (strict && !inHeroZone(boxes, heroes)) return null;
+    // Prefer framings that keep the heroes in the center third; widen a little rather than fail H14.
+    const score = -Math.abs(u.x1 - u.x0 - targetSpan) - 0.3 * (rearMax - rearY) - (inHeroZone(boxes, heroes) ? 0 : 1);
+    return { fit: { cam, boxes, sils: new Map(), rearY }, score };
+  };
+
+  let best: { fit: Fit; score: number } | null = null;
+  const keep = (c: { fit: Fit; score: number } | null) => {
+    if (c && (!best || c.score > best.score)) best = c;
+  };
+  for (let td = tdMin; td <= D + 0.6; td += 0.05) for (let dist = 0.3; dist <= 8; dist *= 1.04) keep(frame(td, dist));
   if (!best) return null;
   // Refine the distance in 0.5% steps around the coarse optimum.
-  {
-    const c0 = best.fit.cam;
-    const tdBest = -c0.target[2];
-    const d0 = Math.hypot(c0.position[0] - c0.target[0], c0.position[1] - c0.target[1], c0.position[2] - c0.target[2]);
-    for (let f = 0.94; f <= 1.06; f += 0.005) {
-      const dist = d0 * f;
-      const cam = makeCameraParams(focal, pitch, c0.target[0], tdBest, dist);
-      const { boxes, proj } = project(placed, cam);
-      const u = unionBox(heroes.map((l) => boxes.get(l)!));
-      const rearY = proj.project(c0.target[0], 0, D).y;
-      if (rearY > 0.5 + 1e-6 || boxes.get("MAIN")!.y0 < MAIN_BOTTOM_MARGIN || u.y1 > 0.97) continue;
-      if (placed.some((p) => (p.item.def.tall ? boxes.get(p.item.label)!.y0 : boxes.get(p.item.label)!.y1) > 0.5)) continue;
-      if (!inHeroZone(boxes, heroes)) continue;
-      const score = -Math.abs(u.x1 - u.x0 - targetSpan) - 0.3 * (0.5 - rearY);
-      if (score > best.score) best = { fit: { cam, boxes, sils: new Map(), rearY }, score };
+  const c0 = (best as { fit: Fit }).fit.cam;
+  const tdBest = -c0.target[2];
+  const d0 = Math.hypot(c0.position[0] - c0.target[0], c0.position[1] - c0.target[1], c0.position[2] - c0.target[2]);
+  for (let f = 0.94; f <= 1.06; f += 0.005) keep(frame(tdBest, d0 * f, c0.target[0]));
+  if (framing.setback_scale !== undefined) {
+    // Bring the camera this much closer to the table's front edge (z = 0), then re-aim, deeper or
+    // shallower, to frame the heroes again. When the meal and drink no longer fit the center third
+    // (H14) that close, step back in 5% steps until they do.
+    const fitted = best as { fit: Fit; score: number };
+    const setback0 = fitted.fit.cam.position[2];
+    for (let k = framing.setback_scale; k < 1 + 1e-9; k += 0.05) {
+      best = null;
+      for (let td = tdMin; td <= D + 1.2; td += 0.01) keep(frame(td, (setback0 * k + td) / cosP));
+      if (best && inHeroZone((best as { fit: Fit }).fit.boxes, heroes)) break;
     }
+    best ??= fitted;
   }
-  const proj = new Projector(best.fit.cam);
-  for (const p of placed) best.fit.sils.set(p.item.label, silhouette(proj, p.item.def, p.x, p.d, p.yaw, p.item.extraHeight));
-  return best.fit;
+  const fit = (best as { fit: Fit }).fit;
+  const proj = new Projector(fit.cam);
+  for (const p of placed) fit.sils.set(p.item.label, silhouette(proj, p.item.def, p.x, p.d, p.yaw, p.item.extraHeight));
+  return fit;
 }
 
 // ---------------------------------------------------------------------------
@@ -713,11 +742,12 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
   const sku = get("SKU");
   const heroes = heroLabels(placed);
 
-  out.push({ id: "H1", name: "Horizon clamp", pass: fit.rearY <= 0.5 + 1e-6, detail: `table rear edge at y = ${fit.rearY.toFixed(3)} (≤ 0.50)` });
+  const rearMax = rearLimit(angleById(spec.camera.angle).hidden);
+  out.push({ id: "H1", name: "Horizon clamp", pass: fit.rearY <= rearMax + 1e-6, detail: `table rear edge at y = ${fit.rearY.toFixed(3)} (≤ ${rearMax.toFixed(2)})` });
 
   const low = placed.filter((p) => !p.item.def.tall);
-  const lowOver = low.filter((p) => B.get(p.item.label)!.y1 > 0.5);
-  const baseOver = placed.filter((p) => B.get(p.item.label)!.y0 > 0.5);
+  const lowOver = low.filter((p) => B.get(p.item.label)!.y1 > rearMax);
+  const baseOver = placed.filter((p) => B.get(p.item.label)!.y0 > rearMax);
   out.push({
     id: "H2",
     name: "Table zone",
@@ -868,7 +898,7 @@ function score(placed: Placed[], fit: Fit, archetype: Archetype, targetSpan: num
   const terms: Record<string, number> = {};
   terms.heroSpan = Math.max(0, 1 - Math.abs(span - targetSpan) / targetSpan);
   terms.phiAnchors = Math.max(0, 1 - (Math.abs((mb.x0 + mb.x1) / 2 - 0.4) + Math.abs((sb.x0 + sb.x1) / 2 - 0.6)) * 2);
-  terms.horizonUse = Math.max(0, 1 - (0.5 - fit.rearY) * 4);
+  terms.horizonUse = Math.max(0, Math.min(1, 1 - (0.5 - fit.rearY) * 4));
   let cx = 0,
     tot = 0;
   for (const p of placed) {
@@ -973,8 +1003,10 @@ function solveVariant(spec: SceneSpec, items: ItemSpec[], archetype: Archetype, 
   // Push the whole setting toward the back of the table, like a photographer
   // would: the empty front of the table then falls below the frame, and the
   // table's rear edge (the horizon) sits just behind the rearmost item.
+  // An angle that shows the table's front edge keeps the setting at the diner's edge instead.
   const rear = Math.max(...placed.map((p) => p.d + radiusOf(p)));
-  const shift = Math.max(0, D - REAR_MARGIN - rear);
+  const showsFront = angleById(spec.camera.angle).hidden.front_edge_min_y !== undefined;
+  const shift = showsFront ? 0 : Math.max(0, D - REAR_MARGIN - rear);
   for (const p of placed) p.d += shift;
   const main = placed.find((p) => p.item.kind === "main")!;
 
@@ -983,7 +1015,7 @@ function solveVariant(spec: SceneSpec, items: ItemSpec[], archetype: Archetype, 
   const hasL2 = items.some((i) => i.layer === "Layer_2_Secondary_Side");
   const spans = layoutPreferences.hero_span_target;
   const targetSpan = hasL2 ? spans.with_sides : spans.meal_and_drink_only;
-  const fit = fitCamera(placed, D, look.hidden.focal_length_mm, angle.hidden.pitch_deg, targetSpan);
+  const fit = fitCamera(placed, D, look.hidden.focal_length_mm, angle.hidden.pitch_deg, targetSpan, angle.hidden);
   if (!fit) return "no camera position keeps the table in the lower half with the entree in frame";
 
   let rules = checkRules(placed, fit, spec);
