@@ -7,7 +7,7 @@
 
 import * as THREE from 'three';
 import { Projector, toThreeCamera } from '../../shared/camera.ts';
-import { BELL_GLASS, VESSELS, napkinDef, type ProxyDef } from '../../shared/registry.ts';
+import { primitiveDef } from '../../shared/layoutEdit.ts';
 import type { LightingPreset } from '../../shared/rules.ts';
 import type { Blueprint, Primitive } from '../../shared/types.ts';
 
@@ -62,17 +62,6 @@ function lathe(profile: Array<[number, number]>, r: number, h: number): THREE.Bu
   );
 }
 
-function defFor(p: Primitive): ProxyDef {
-  if (p.role === 'glass' || p.role === 'partner-glass') return BELL_GLASS;
-  if (p.role === 'napkin-set' || p.role === 'partner-napkin') return napkinDef(p.footprint ?? 'rect', p.proxy.includes('-dinner') ? 'dinner' : 'luncheon');
-  if (p.role === 'sku' || p.role === 'partner-sku') {
-    // Rebuild from the blueprint's dimensions (the SKU proxy key is catalog-specific).
-    const kind = p.proxy.includes('can') ? 'lathe-can' : 'lathe-bottle';
-    return { kind, radius: p.dimensions.width / 2, height: p.dimensions.height, tall: true };
-  }
-  return VESSELS[p.proxy as keyof typeof VESSELS] ?? { kind: 'cylinder', radius: p.dimensions.width / 2, height: p.dimensions.height };
-}
-
 function mesh(geo: THREE.BufferGeometry, color: string, opts: { opacity?: number } = {}): THREE.Mesh {
   const mat = new THREE.MeshStandardMaterial({ color, roughness: 0.75, metalness: 0, transparent: opts.opacity !== undefined, opacity: opts.opacity ?? 1 });
   const m = new THREE.Mesh(geo, mat);
@@ -83,7 +72,7 @@ function mesh(geo: THREE.BufferGeometry, color: string, opts: { opacity?: number
 
 function buildItem(p: Primitive): THREE.Object3D {
   const g = new THREE.Group();
-  const def = defFor(p);
+  const def = primitiveDef(p);
   const color = ROLE_COLORS[p.role] ?? '#999';
   const vesselH = def.height;
   const foodH = Math.max(0, p.dimensions.height - vesselH);

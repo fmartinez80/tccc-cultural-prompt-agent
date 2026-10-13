@@ -1,6 +1,7 @@
 import { Check, RotateCcw } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 
+import { specForLayout } from '../shared/layoutEdit.ts';
 import { layoutKey, reviewFacts, sketchKey } from '../shared/review.ts';
 import type { LayoutOption } from '../shared/solver.ts';
 import type { AccentChoice, Decision, PlatingChoice, PrepChoice, SidesChoice, SurfaceChoice } from '../shared/types.ts';
@@ -13,7 +14,7 @@ import { SegmentedControl } from './ui/SegmentedControl.tsx';
 import { ErrorBoundary } from './ui/ErrorBoundary.tsx';
 import { BriefStep } from './intake/BriefStep.tsx';
 import { CameraStep } from './intake/CameraStep.tsx';
-import { ArrangementBar } from './intake/ArrangementBar.tsx';
+import { ArrangementBar, OPTION_LETTERS } from './intake/ArrangementBar.tsx';
 import { PrepareLayout } from './intake/LayoutStep.tsx';
 import { PlatingStep } from './intake/PlatingStep.tsx';
 import { PrepStep } from './intake/PrepStep.tsx';
@@ -21,7 +22,7 @@ import { ReviewStep } from './intake/ReviewStep.tsx';
 import { SceneStep } from './intake/SceneStep.tsx';
 import { SidesStep } from './intake/SidesStep.tsx';
 import { StoryStep } from './intake/StoryStep.tsx';
-import { STEP_ORDER, briefOk, type StepId } from './intake/types.ts';
+import { STEP_ORDER, briefOk, type ComposeResult, type StepId } from './intake/types.ts';
 import { useIntake } from './intake/useIntake.ts';
 import { useSessionSync } from './intake/useSessionSync.ts';
 import { WorkspaceOverlay } from './intake/WorkspaceOverlay.tsx';
@@ -86,6 +87,21 @@ const STEP_META: Record<StepId, { label: string }> = {
   workspace: { label: 'Node workspace' },
 };
 
+/**
+ * An arrangement edited in the sketch editor may have left dishes out: the steps after it
+ * see the spec as that layout shows it, so the story and prompts never bring them back.
+ */
+const editedCompose = new WeakMap<LayoutOption, { from: ComposeResult; result: ComposeResult }>();
+function composeFor(compose: ComposeResult, option: LayoutOption): ComposeResult {
+  if (!option.edit) return compose;
+  const hit = editedCompose.get(option);
+  if (hit && hit.from === compose) return hit.result;
+  const spec = specForLayout(compose.spec, option.blueprint);
+  const result = spec === compose.spec ? compose : { ...compose, spec };
+  editedCompose.set(option, { from: compose, result });
+  return result;
+}
+
 export function App() {
   const profile = trpc.profile.useQuery();
   const {
@@ -101,6 +117,7 @@ export function App() {
     setPicked,
     setStory,
     setReview,
+    addEditedLayout,
     setSketch,
     setValidation,
     setTurnaroundView,
@@ -328,8 +345,12 @@ export function App() {
           <ReviewStep
             // A fresh step per arrangement: its marks, selection and sketch run belong to that layout.
             key={key}
-            compose={compose}
+            compose={composeFor(compose, option)}
             option={option}
+            sourceName={`arrangement ${OPTION_LETTERS[option.edit?.from ?? draft.picked!]}`}
+            onEditLayout={({ blueprint, styleUrl, review }) =>
+              addEditedLayout({ archetype: option.archetype, blueprint, edit: { from: option.edit?.from ?? draft.picked!, styleUrl } }, review)
+            }
             review={reviewFor(option)}
             onReview={setReview}
             detail={draft.sketches[key] ?? draft.sketch}
@@ -370,7 +391,7 @@ export function App() {
         return (
           <StoryStep
             brief={draft.brief}
-            compose={draft.compose}
+            compose={composeFor(draft.compose, option)}
             option={option}
             review={reviewFor(option)}
             sketch={sketchFor(option)}
@@ -401,7 +422,7 @@ export function App() {
         return (
           <WorkspaceStep
             brief={draft.brief}
-            compose={draft.compose}
+            compose={composeFor(draft.compose, option)}
             option={option}
             story={live!}
             ws={draft.workspace}

@@ -34,7 +34,8 @@ export interface AngleOption {
   id: string;
   label: string;
   prompt: string;
-  hidden: { pitch_deg: number };
+  /** Framing on top of the pitch; see solver.ts Framing. */
+  hidden: { pitch_deg: number; setback_scale?: number; front_edge_min_y?: number; rear_edge_max_y?: number };
   status?: string;
 }
 
