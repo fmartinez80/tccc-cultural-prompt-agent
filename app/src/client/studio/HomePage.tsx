@@ -105,7 +105,7 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
           <span className={styles.heroConfirm}>This clears the scene you're working on.</span>
           <div className={styles.heroActions}>
             <Button onPress={() => setConfirming(false)}>Cancel</Button>
-            <Button onPress={onNewScene}>Start new</Button>
+            <Button variant="primary" onPress={onNewScene}>Start new</Button>
           </div>
         </>
       ) : (
@@ -113,7 +113,7 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
           <p className={styles.getStartedText}>Build a culturally grounded scene in minutes.</p>
           <div className={styles.heroActions}>
             {draftInProgress && <Button onPress={onContinue}>Continue your scene</Button>}
-            <Button onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
+            <Button variant="primary" onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
               Get Started
             </Button>
           </div>

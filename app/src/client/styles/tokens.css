@@ -2,12 +2,14 @@
  * App-level design tokens. The `--bay-*` names are kept from the Runway
  * template the app started from; every one the UI uses is defined here.
  *
- * Neo-brutalist "poster grid" (design.md; reference uploads/design-reference.png):
- * retro paper canvas, white cards, pitch-black text, 3px black borders, hard
- * offset shadows with no blur, light grey for hover/press, mid grey for
- * primary buttons, Coca-Cola red (white text) for what is selected, warm
- * amber + black hatching for "Change". Amber is only ever a fill behind black
- * text, never a text colour.
+ * Navy outline look (2026-10-13, drawn from the Maverick design system):
+ * one navy (#0B1F4B, the Scene Composer logo colour) for text, outlines and
+ * icons on a cool off-white page; white cards with navy outlines and hard
+ * offset shadows in pale navy (kept from the neo-brutalist look at the
+ * user's request); one orange, with a navy label, for the button that starts
+ * work; indigo for what is selected; red only for errors, never a highlight;
+ * warm amber + hatching for "Change". Bold titles in Hanken Grotesk,
+ * DM Mono for labels and machine text.
  *
  * The app ships light-only: the same block re-asserts the light values under
  * `data-theme="dark"`, so the app never flips to light text on light surfaces.
@@ -16,75 +18,73 @@
 :root,
 :root[data-theme='dark'] {
   /* --- Neo-brutalist primitives --- */
-  --neo-ink: #000000;
-  --neo-paper: #f4f1ea;
+  --neo-ink: #0b1f4b;
+  --neo-paper: #f3f5f9;
   --neo-card: #ffffff;
-  /* The user's palette (2026-10-06): grey hover, Coca-Cola red selected, grey primary buttons. */
-  /* Hover/press on anything clickable ("actively selecting"). Black text on top. */
-  --neo-hover: #e5e5e5;
-  /* Grey fills: progress bars, open accordions, workspace edges. Black text on top. */
-  --neo-cta: #a7a7a7;
-  /* Primary call-to-action buttons (2026-10-07: calm charcoal, picked by the user). White text on top. */
-  --neo-cta-button: #2b2b2b;
-  --neo-cta-button-hover: #454545;
-  --neo-on-cta-button: #ffffff;
+  /* Hover/press on anything clickable ("actively selecting"). Navy text on top. */
+  --neo-hover: #e8ecf3;
+  /* Pale fills: progress bars, open accordions, workspace edges. Navy text on top. */
+  --neo-cta: #c3cadc;
+  /* The one action (user, 2026-10-13: Maverick's orange, never red). Navy label on top (5.4:1). */
+  --neo-cta-button: #ff6400;
+  --neo-cta-button-hover: #e55a00;
+  --neo-on-cta-button: #0b1f4b;
   /* Selected: the choice that stays on (cards, chips, segments, the current step). White text on top. */
-  --neo-selected: #e7223a;
-  --neo-selected-hover: #c91a30;
+  --neo-selected: #2f4bb0;
+  --neo-selected-hover: #263e95;
   --neo-on-selected: #ffffff;
   /* "Change" (Sketch review and anything marked to change). Always with --neo-hatch. */
   --neo-amber: #ffcc33;
-  --neo-hatch: repeating-linear-gradient(-45deg, rgb(0 0 0 / 0.55) 0 1.5px, transparent 1.5px 6px);
-  --neo-border-w: 3px;
-  --neo-border: 3px solid var(--neo-ink);
+  --neo-hatch: repeating-linear-gradient(-45deg, rgb(11 31 75 / 0.55) 0 1.5px, transparent 1.5px 6px);
+  --neo-border-w: 2px;
+  --neo-border: 2px solid var(--neo-ink);
   /* Rows, inputs, pills and other dense parts. */
-  --neo-border-thin: 2px solid var(--neo-ink);
-  /* Hard drop-shadow colour (user, 2026-10-06): dusty rose #cc9999, not the ink black. */
-  --neo-shadow-color: #cc9999;
-  --neo-shadow: 6.25px 6.25px 0 var(--neo-shadow-color);
-  --neo-shadow-sm: 3.75px 3.75px 0 var(--neo-shadow-color);
-  --neo-shadow-active: 1.25px 1.25px 0 var(--neo-shadow-color);
+  --neo-border-thin: 1.5px solid var(--neo-ink);
+  /* Hard drop-shadow colour: pale navy (was dusty rose #cc9999 with the red palette). */
+  --neo-shadow-color: #b9c2dc;
+  --neo-shadow: 5px 5px 0 var(--neo-shadow-color);
+  --neo-shadow-sm: 3px 3px 0 var(--neo-shadow-color);
+  --neo-shadow-active: 1px 1px 0 var(--neo-shadow-color);
   /* Pressed: push down-right by the shadow it loses. */
-  --neo-press: translate(5px, 5px);
-  --neo-press-sm: translate(2.5px, 2.5px);
+  --neo-press: translate(4px, 4px);
+  --neo-press-sm: translate(2px, 2px);
 
   /* --- Type --- */
-  /* Tilt Warp ships one weight; never ask it for bold (font-synthesis is off). */
-  --app-font-head: 'Tilt Warp', 'Arial Black', Impact, sans-serif;
+  /* One family for what people read; titles in its bold (user, 2026-10-13). */
+  --app-font-head: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
   --bay-font-sans:
-    'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+    'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
     sans-serif;
   /* Labels, step numbers, tags, IDs, prompts and JSON. */
-  --bay-font-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --bay-font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   --app-weight-text: 400;
   --app-weight-subhead: 700;
-  /* Headlines use --app-font-head at its only weight. */
-  --app-weight-headline: 400;
+  --app-weight-headline: 700;
 
   /* --- Shared tokens, remapped --- */
-  --bay-text: #000000;
-  --bay-text-2: #1c1c1c;
-  --bay-text-3: #45433f;
-  --bay-text-4: #77746d;
+  --bay-text: #0b1f4b;
+  --bay-text-2: #233766;
+  --bay-text-3: #3a4870;
+  --bay-text-4: #58648a;
   --bay-text-on-accent: #ffffff;
   --bay-bg-surface: var(--neo-card);
   --bay-bg-canvas: var(--neo-paper);
-  --bay-bg-subtle: #faf8f3;
-  --bay-bg-sunken: #ebe7dc;
+  --bay-bg-subtle: #f7f8fb;
+  --bay-bg-sunken: #e8ecf3;
   --bay-border: var(--neo-ink);
-  --bay-border-hair: #c9c4b8;
+  --bay-border-hair: #dfe4ee;
   --bay-border-strong: var(--neo-ink);
   --bay-border-focus: var(--neo-ink);
   /* Ink: the safe default wherever the old dark-gray accent was a fill or a text colour.
      Primary buttons, hover and selected states use the --neo-* fills explicitly. */
   --bay-accent: var(--neo-ink);
-  --bay-accent-hover: #262626;
+  --bay-accent-hover: #233766;
   --bay-accent-soft: var(--neo-hover);
   --bay-accent-fg: var(--neo-ink);
-  --bay-accent-rgb: 0, 0, 0;
+  --bay-accent-rgb: 11, 31, 75;
   /* The old orange highlight: ink as a text/border colour, the hover grey as the soft fill. */
   --app-highlight: var(--neo-ink);
-  --app-highlight-hover: #262626;
+  --app-highlight-hover: #233766;
   --app-highlight-soft: var(--neo-hover);
   /* Small, hard corners; pills (999px) and circles (50%) stay round. */
   --bay-r-xs: 3px;
@@ -99,11 +99,11 @@
   --bay-ok-bg: #c8f0d4;
   --bay-ok-fg: #0b4d2c;
   --bay-warn-bg: var(--neo-amber);
-  --bay-warn-fg: #000000;
+  --bay-warn-fg: #0b1f4b;
   --bay-err-bg: #ffd1cc;
   --bay-err-fg: #8f1409;
   --bay-info-bg: #ffffff;
-  --bay-info-fg: #000000;
+  --bay-info-fg: #0b1f4b;
   --bay-shadow-1: var(--neo-shadow-sm);
   --bay-shadow-pop: var(--neo-shadow);
 

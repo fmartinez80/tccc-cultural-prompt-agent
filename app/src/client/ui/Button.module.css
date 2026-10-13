@@ -5,7 +5,8 @@
   gap: 6px;
   font-family: var(--bay-font-sans);
   font-weight: var(--app-weight-subhead);
-  border-radius: var(--bay-r-sm);
+  /* Every button is a pill (Maverick rule); cards keep 4px corners. */
+  border-radius: var(--bay-r-pill);
   border: var(--neo-border-thin);
   cursor: pointer;
   transition:
@@ -68,8 +69,6 @@
   color: var(--neo-on-cta-button);
   font-family: var(--app-font-head);
   font-weight: var(--app-weight-headline);
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
 
 .primary[data-hovered]:not([data-disabled]) {
@@ -81,8 +80,6 @@
   border-color: var(--neo-ink);
   color: var(--bay-text);
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
 }
 
 .default[data-hovered]:not([data-disabled]) {

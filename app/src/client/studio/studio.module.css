@@ -333,7 +333,7 @@
 .welcome {
   margin: 8px 0 4px;
   font-family: var(--app-font-head);
-  font-weight: 400;
+  font-weight: var(--app-weight-headline);
   font-size: 40px;
   line-height: 1.05;
 }
@@ -432,8 +432,9 @@
   margin-top: 43px; /* with the page gap, 64px below the intro, matching the 64px above How It Works */
   padding: 24px;
   text-align: center;
-  background: var(--neo-selected);
-  color: var(--neo-on-selected);
+  /* A white card like the others; the orange button is the one action. */
+  background: var(--neo-card);
+  color: var(--bay-text);
 }
 
 .getStarted .heroActions {

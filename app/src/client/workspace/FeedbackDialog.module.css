@@ -1,4 +1,4 @@
-/* The rating dialog: the site's fonts (Tilt Warp titles, Space Grotesk text, Space Mono labels)
+/* The rating dialog: the site's fonts (bold Hanken Grotesk titles and text, DM Mono labels)
    on a plain grid of thin ink outlines, without the neo-brutalist shadows (Fernando, 2026-10-10). */
 
 .overlay {
@@ -13,13 +13,13 @@
 
 .dialog {
   --fb-text: var(--bay-text);
-  --fb-muted: #5f5b52;
+  --fb-muted: var(--bay-text-4);
   --fb-line: var(--neo-ink);
   --fb-hair: var(--bay-border-hair);
   --fb-soft: var(--bay-bg-subtle);
   --fb-good: var(--bay-ok-fg);
   --fb-good-bg: var(--bay-ok-bg);
-  --fb-bad: var(--neo-selected);
+  --fb-bad: var(--bay-err-fg);
   --fb-bad-bg: #fdecee;
   --fb-warn: #8a5a00;
   --fb-accent: var(--neo-cta-button);
@@ -100,7 +100,7 @@
 .btn {
   padding: 9px 18px;
   border: 1px solid var(--fb-line);
-  border-radius: var(--bay-r-sm);
+  border-radius: var(--bay-r-pill);
   background: var(--neo-card);
   color: var(--fb-text);
   font-family: var(--bay-font-mono) !important;
