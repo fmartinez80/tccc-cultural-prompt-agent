@@ -110,7 +110,7 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
         </>
       ) : (
         <>
-          <p className={styles.getStartedText}>Build a culturally grounded scene from a brief.</p>
+          <p className={styles.getStartedText}>Build a culturally grounded scene in minutes.</p>
           <div className={styles.heroActions}>
             {draftInProgress && <Button onPress={onContinue}>Continue your scene</Button>}
             <Button onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
