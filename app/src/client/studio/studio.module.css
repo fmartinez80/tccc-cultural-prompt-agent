@@ -429,7 +429,7 @@
   justify-content: center;
   align-self: center;
   width: min(100%, 640px);
-  margin-top: 43px; /* with the page gap, about 64px of space above */
+  margin-block: 43px; /* with the page gap, 64px above and below, so it sits centred between How It Works and the Gallery */
   padding: 24px;
   text-align: center;
   background: var(--neo-selected);
