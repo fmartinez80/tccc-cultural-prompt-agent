@@ -1,4 +1,4 @@
-/* Fonts (Tilt Warp, Space Grotesk, Space Mono) load from index.html. */
+/* Fonts (Hanken Grotesk, DM Mono) load from index.html. */
 
 *,
 *::before,
@@ -15,7 +15,7 @@
 
 html {
   zoom: var(--ui-zoom);
-  /* Tilt Warp has one weight: never fake a bold or italic. */
+  /* Only the loaded weights render: never fake a bold or italic. */
   font-synthesis: none;
 }
 

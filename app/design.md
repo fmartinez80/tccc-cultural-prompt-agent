@@ -3,42 +3,46 @@
 How this app looks, which building blocks it is made of, and the rules a UI
 change has to follow. Read this before adding or restyling anything under
 `src/client/`. Where this file and the code disagree, fix one of them in the
-same change. The visual reference the user picked is
-`uploads/design-reference.png` ("Poster grid").
+same change. The look started from
+`uploads/design-reference.png` ("Poster grid") and moved to the navy, orange and indigo rules below on 2026-10-13.
 
 ## 1. Principles
 
-1. **Neo-brutalist poster grid.** Retro paper canvas, white cards, pitch-black
-   text. Every panel, card, button and dialog has a 3px black border and a
-   hard offset shadow with no blur (`5px 5px 0`). No gradients, no soft
-   shadows, no translucency except modal backdrops. Corners are small
-   (3–6px); only pills and circles go round.
-2. **Four fills, one ink.** Light grey `--neo-hover` (`#e5e5e5`) means
-   *actively selecting*: the hover/press state of anything you can pick. Mid
-   grey `--neo-cta` (`#a7a7a7`) is the primary call-to-action button.
-   Coca-Cola red `--neo-selected` (`#e7223a`, user-picked) with white text (`--neo-on-selected`) means *selected*: the
-   chosen card, segment, chip, dropdown item, the current step, the selected
-   node and sketch item. Amber `--neo-amber` (`#ffcc33`)
-   means "Change" and is **always** layered with `--neo-hatch` black stripes
-   (and a pencil icon where there is room). Grey and amber are only ever
-   fills behind black text — never a text colour.
-3. **Poster type.** Headings are Tilt Warp, sentence case, tight
-   (`--app-font-head`, one weight: never set bold on it; `font-synthesis` is
-   off). A step's `<h1>` is `clamp(32px, 4.2vw, 56px)`, line-height 1.0.
-   Paragraphs are Space Grotesk (`--bay-font-sans`, 400/500/700). Labels,
-   step numbers, tags, IDs, prompts and JSON are Space Mono
-   (`--bay-font-mono`). Every field label is the same: Space Mono 12px bold
-   caps, black, a short name only ("Time of day", "Dining surface") — never an
-   explanation; that goes in a hint line under the control if it is needed.
+1. **Navy outlined cards.** (2026-10-13, rules drawn from the Maverick design
+   system.) A cool off-white page, white cards, navy (`#0b1f4b`, the Scene
+   Composer logo colour) for text, outlines and icons. Every panel, card,
+   button and dialog has a 2px navy outline and a hard pale-navy offset shadow
+   with no blur (`5px 5px 0`), kept from the earlier neo-brutalist look at the
+   user's request. No gradients, no soft shadows, no translucency except modal
+   backdrops. Cards have small corners (4–6px); every button is a pill.
+2. **One action, one selection, one ink.** Orange `--neo-cta-button`
+   (`#ff6400`, navy label) is the one action: the primary button that starts
+   or moves the work on (Get Started, Continue, Generate). Red is never a
+   highlight; it is for errors only. Indigo `--neo-selected` (`#2f4bb0`) with
+   white text (`--neo-on-selected`) means *selected*: the chosen card,
+   segment, chip, dropdown item, the current step, the selected node and
+   sketch item. Pale navy `--neo-hover` (`#e8ecf3`) means *actively
+   selecting*: the hover/press state of anything you can pick. Amber
+   `--neo-amber` (`#ffcc33`) means "Change" and is **always** layered with
+   `--neo-hatch` navy stripes (and a pencil icon where there is room). Pale
+   fills and amber sit behind navy text — never a text colour.
+3. **Bold titles.** Headings are Hanken Grotesk Bold 700, sentence case,
+   tight (`--app-font-head`, `--app-weight-headline`). A step's `<h1>` is
+   `clamp(32px, 4.2vw, 56px)`, line-height 1.0. Paragraphs are Hanken Grotesk
+   (`--bay-font-sans`, 400/500/700). Labels, step numbers, tags, IDs, prompts
+   and JSON are DM Mono (`--bay-font-mono`). Every field label is the same:
+   DM Mono 12px caps, navy, a short name only ("Time of day", "Dining
+   surface") — never an explanation; that goes in a hint line under the
+   control if it is needed. Buttons are sentence case.
 4. **Tactile.** Clickable things press: `transform: var(--neo-press)` with
    `box-shadow: var(--neo-shadow-active)` (small controls use
-   `--neo-press-sm`). Hover on any button fills it light grey.
+   `--neo-press-sm`). Hover on any button fills it pale navy (orange buttons go a darker orange).
 5. **Feedback is inline and plain.** Status lines name what the agent is
    doing and for how long; errors are an `Alert` next to what failed, in one
    sentence, naming the next step. Loading is a skeleton shaped like the real
    content, never a bare spinner.
 6. **Everything works from the keyboard and reads to a screen reader.**
-   Focus is a 3px black outline (`global.css`); never remove it.
+   Focus is a 3px navy outline (`global.css`); never remove it.
 
 ## 2. Foundations
 
@@ -47,15 +51,15 @@ All colours, borders, shadows and type come from custom properties in
 
 | Facet | Value |
 | --- | --- |
-| Canvas | `--neo-paper` / `--bay-bg-canvas` `#f4f1ea`; `--bay-bg-sunken` `#ebe7dc`, `--bay-bg-subtle` `#faf8f3` |
+| Canvas | `--neo-paper` / `--bay-bg-canvas` `#f3f5f9`; `--bay-bg-sunken` `#e8ecf3`, `--bay-bg-subtle` `#f7f8fb` |
 | Surfaces | `--neo-card` / `--bay-bg-surface` `#ffffff` |
-| Text | `--bay-text` `#000`, `-2` `#1c1c1c`, `-3` `#45433f` (hints, intro copy), `-4` `#77746d` (disabled, placeholders) |
-| Borders | `--neo-border` (3px ink) for panels, cards, buttons, dialogs; `--neo-border-thin` (2px) for rows, inputs, pills, chips; `--bay-border-hair` `#c9c4b8` only for faint dividers and canvas grids |
-| Shadows | `--neo-shadow` (5px), `--neo-shadow-sm` (3px, small buttons, change rows), `--neo-shadow-active` (pressed). Inputs, pills and anything inside a node card get no shadow |
-| Fills | `--neo-hover` (hover/press), `--neo-cta` (primary buttons), `--neo-selected` / `--neo-selected-hover` + `--neo-on-selected` text (selected), `--neo-amber` + `--neo-hatch` (Change) |
-| Legacy aliases | `--bay-accent` and `--app-highlight` are ink (text/borders); `--bay-accent-soft` and `--app-highlight-soft` are the hover grey (fills) |
-| Status | `--bay-ok-*` pale green, warning alerts light grey (#e5e5e5) with an amber-filled triangle icon, `--bay-err-*` pale red, `--bay-info-*` white — black border from the component, via `Alert` |
-| Fonts | Loaded in `index.html`: Tilt Warp, Space Grotesk 400/500/700, Space Mono 400/700 |
+| Text | `--bay-text` `#0b1f4b`, `-2` `#233766`, `-3` `#3a4870` (hints, intro copy), `-4` `#58648a` (disabled, placeholders) |
+| Borders | `--neo-border` (2px navy) for panels, cards, buttons, dialogs; `--neo-border-thin` (1.5px) for rows, inputs, pills, chips; `--bay-border-hair` `#dfe4ee` only for faint dividers and canvas grids |
+| Shadows | `--neo-shadow` (5px), `--neo-shadow-sm` (3px, small buttons, change rows), `--neo-shadow-active` (pressed), all in pale navy `#b9c2dc`. Inputs, pills and anything inside a node card get no shadow |
+| Fills | `--neo-hover` (hover/press), `--neo-cta-button` + `--neo-on-cta-button` (orange primary buttons), `--neo-cta` (pale progress fills), `--neo-selected` / `--neo-selected-hover` + `--neo-on-selected` text (selected), `--neo-amber` + `--neo-hatch` (Change) |
+| Legacy aliases | `--bay-accent` and `--app-highlight` are navy ink (text/borders); `--bay-accent-soft` and `--app-highlight-soft` are the hover fill |
+| Status | `--bay-ok-*` pale green, warning alerts pale navy (`--neo-hover`) with an amber-filled triangle icon, `--bay-err-*` pale red, `--bay-info-*` white — navy border from the component, via `Alert` |
+| Fonts | Loaded in `index.html`: Hanken Grotesk 400/500/700, DM Mono 400/500 |
 
 The app ships light-only. The `data-theme='dark'` selector in `tokens.css`
 re-asserts the light values so nothing picks up a dark ramp. The `--bay-*`
@@ -68,10 +72,10 @@ sits directly on the paper canvas.
 
 - **Header row**: the logo (unboxed) at the left, Learning / Start over / the user's name at the right, on one tight line aligned with the page column.
 - **Step rail** (sticky, left): one
-  bordered stack of rows — big step number in Tilt Warp, step name,
-  a check on completed steps; the current step is a solid red row with
-  white text, hover is light grey. An
-  unreachable step is disabled. "Draft saved" sits below in Space Mono. On
+  bordered stack of rows — big step number in the headline face, step name,
+  a check on completed steps; the current step is a solid indigo row with
+  white text, hover is pale navy. An
+  unreachable step is disabled. "Draft saved" sits below in DM Mono. On
   narrow screens the rail becomes a horizontal scroller above the step.
 - **Step** (the main column): the step's own sentence-case `<h1>` as a frozen
   band (sticky at the top, paper background, no rule under it; the step
@@ -94,16 +98,16 @@ Built on `react-aria-components` and styled with a sibling
 
 | Component | Use it for | Notes |
 | --- | --- | --- |
-| `Button` | Every clickable action | `variant` `primary` (mid grey, Tilt Warp uppercase) / `default` (white, bordered) / `ghost`; `size` `md` (3px border, 5px shadow) / `sm` (2px, 3px shadow); `icon`, `loading`, `onPress`. No `autoFocus` prop |
+| `Button` | Every clickable action | `variant` `primary` (orange pill, navy bold label) / `default` (white pill, outlined) / `ghost`; `size` `md` (2px outline, 5px shadow) / `sm` (2px, 3px shadow); `icon`, `loading`, `onPress`. No `autoFocus` prop |
 | `TextInput`, `TextArea` | Single/multi-line text | White, 2px border, no shadow; `onPressEnter` submits |
 | `Select` | Country / region / SKU / occasion dropdowns | Popover is a bordered card with the full shadow |
-| `ChoiceCardGroup` | Mutually exclusive option cards | White card, 3px border + shadow; hover/press = light grey, selected = red with white text; "More details" is a white Space Mono pill that opens the detail dialog |
-| `Accordion` | Collapsible sections | Bordered stack; the open row has a light grey header |
-| `SegmentedControl` | Chip-style single-select rows | Bordered pills; hover = light grey, selected = red |
+| `ChoiceCardGroup` | Mutually exclusive option cards | White card, 2px navy outline + shadow; hover/press = pale navy, selected = indigo with white text; "More details" is a white DM Mono pill that opens the detail dialog |
+| `Accordion` | Collapsible sections | Bordered stack; the open row has a pale navy header |
+| `SegmentedControl` | Chip-style single-select rows | Bordered pills; hover = pale navy, selected = indigo |
 | `Switch` | One on/off toggle | Bordered track |
-| `CodeBlock` | Prompts and JSON | White, 2px border, Space Mono, copy button with "Copied" feedback |
+| `CodeBlock` | Prompts and JSON | White, outlined, DM Mono, copy button with "Copied" feedback |
 | `Alert` | Inline outcome the user must read | `tone` `error`/`warning`/`info`/`success` |
-| `ProgressBar` | Long generations | Bordered track, mid grey fill |
+| `ProgressBar` | Long generations | Bordered track, pale navy fill |
 | `LoadingOverlay` | A whole step waiting on content | The Coca-Cola bottle filling with cola on a bordered white card |
 | `SkeletonText`, `SkeletonBlock` | Loading, shaped like the content | |
 | `EmptyState` | A region with nothing in it yet | Heading + hint + optional action |
@@ -132,7 +136,7 @@ header, 14 in `sm` buttons and chips). Never emoji. In use here: `ClipboardList`
 Visuals are icons, client-rendered three.js proxies
 (`src/client/lib/renderProxy.ts`), the camera illustrations in
 `public/camera/`, the logo and the loading bottle, and the Gemini-generated
-sketches and scenes. Images sit in a 2–3px black frame.
+sketches and scenes. Images sit in a 2px navy frame.
 
 ## 5. Rules
 

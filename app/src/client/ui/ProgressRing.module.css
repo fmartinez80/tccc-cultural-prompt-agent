@@ -26,7 +26,7 @@
   initial-value: 0;
 }
 
-/* A grey track that fills clockwise in red from the top as the percent rises; the percent sits in the opening. */
+/* A grey track that fills clockwise in the selected indigo from the top as the percent rises; the percent sits in the opening. */
 .ring {
   --ring: 12px;
   position: relative;

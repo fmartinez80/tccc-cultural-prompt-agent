@@ -67,7 +67,7 @@
   outline-offset: 2px;
 }
 
-/* Actively selecting (hover, press) = light grey; selected = red with white text. */
+/* Actively selecting (hover, press) = light grey; selected = indigo with white text. */
 .card[data-hovered]:not([data-disabled]):not([data-selected]),
 .card[data-pressed]:not([data-selected]) {
   background: var(--neo-hover);
