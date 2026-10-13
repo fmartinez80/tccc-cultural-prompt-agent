@@ -19,7 +19,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  max-width: min(320px, 60vw);
+  max-width: min(320px, 60vw / var(--ui-zoom, 1));
   font-family: var(--bay-font-sans);
   font-size: 13px;
   font-weight: 700;
@@ -47,7 +47,7 @@
   border: var(--neo-border);
   border-radius: var(--bay-r-md);
   box-shadow: var(--neo-shadow);
-  min-width: 240px;
+  min-width: calc(240px * var(--ui-zoom, 1));
   padding: 4px;
 }
 
@@ -68,6 +68,7 @@
 
 .menu {
   outline: none;
+  zoom: var(--ui-zoom, 1); /* the popover sits outside the page zoom (lib/uiZoom.ts overlayLayer) */
 }
 
 .item {

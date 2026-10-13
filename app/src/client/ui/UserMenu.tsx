@@ -2,6 +2,7 @@ import { ChevronDown } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { Button, Menu, MenuItem, MenuTrigger, Popover, Separator } from 'react-aria-components';
 
+import { overlayLayer } from '../lib/uiZoom.ts';
 import styles from './UserMenu.module.css';
 
 export type UserMenuItem = {
@@ -29,7 +30,7 @@ export function UserMenu({ email, items = [], onAction, onSignOut }: UserMenuPro
         <span className={styles.name}>{email}</span>
         <ChevronDown size={16} aria-hidden />
       </Button>
-      <Popover placement="bottom end" offset={6} className={styles.popover}>
+      <Popover placement="bottom end" offset={6} className={styles.popover} UNSTABLE_portalContainer={overlayLayer()}>
         <Menu
           className={styles.menu}
           aria-label="Pages"

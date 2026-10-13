@@ -73,7 +73,7 @@
 
 .popover {
   min-width: var(--trigger-width);
-  max-height: 320px;
+  max-height: calc(320px * var(--ui-zoom, 1));
   overflow: auto;
   padding: 4px;
   border: var(--neo-border);
@@ -87,6 +87,7 @@
   flex-direction: column;
   gap: 1px;
   outline: none;
+  zoom: var(--ui-zoom, 1); /* the popover sits outside the page zoom (lib/uiZoom.ts overlayLayer) */
 }
 
 .item {

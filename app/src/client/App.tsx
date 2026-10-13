@@ -416,6 +416,8 @@ export function App() {
   const isAdmin = profile.data?.role === 'admin';
   const draftInProgress = draft.step !== 'brief' || !!draft.brief.heroDish.trim();
   const menuItems = [
+    // Opens the scene builder. Unlike the homepage button it never clears a draft in progress, since a menu can't ask first.
+    { id: 'compose', label: 'Get Started', current: view === 'compose' },
     ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
     { id: 'insights', label: 'Insights', current: view === 'insights' },
     { id: 'whatsNew', label: "What's New", current: view === 'whatsNew' },
