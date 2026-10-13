@@ -8,10 +8,10 @@ import { NodeCard } from './NodeCard.tsx';
 import { PROMPT_NODE_ID } from './layout.ts';
 import styles from './PromptNode.module.css';
 
-export function PromptNode({ x, y, allSegments, ws }: { x: number; y: number; allSegments: WsSegment[]; ws: WorkspaceState }) {
+export function PromptNode({ x, y, allSegments, ws, sketch }: { x: number; y: number; allSegments: WsSegment[]; ws: WorkspaceState; sketch?: boolean }) {
   const prompt = assembleWorkspacePrompt(allSegments, ws);
   const refs = sceneReferences(allSegments, ws);
-  const refLines = ['Image 1: layout proxy', ...refs.map((r, i) => `Image ${i + 2}: ${referenceLabel(r)}`)];
+  const refLines = [sketch ? 'Image 1: approved sketch' : 'Image 1: layout proxy', ...refs.map((r, i) => `Image ${i + 2}: ${referenceLabel(r)}`)];
 
   return (
     <NodeCard id={PROMPT_NODE_ID} x={x} y={y} chip="PROMPT" title="Assembled prompt" ariaLabel="Assembled prompt node">

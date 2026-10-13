@@ -28,9 +28,9 @@ import { TextArea } from '../ui/TextArea.tsx';
 import { AgentStatus } from './AgentStatus.tsx';
 import { imageCheckStatus, SceneHero, SceneImageCheck, useSceneGenerator } from './ScenePanel.tsx';
 import { TurnaroundRow } from './TurnaroundRow.tsx';
-import { reviewAdjustments, reviewDirections, type LayoutReview } from '../../shared/review.ts';
+import { reviewDirections, reviewFacts, type LayoutReview } from '../../shared/review.ts';
 import { OCCASION_LABELS, type Brief, type ComposeResult, type StoryState } from './types.ts';
-import type { SavedTurnaround } from './useIntake.ts';
+import type { Draft, SavedTurnaround } from './useIntake.ts';
 import styles from './StoryStep.module.css';
 import { StepActions } from './StepActions.tsx';
 
@@ -39,6 +39,7 @@ export function StoryStep({
   compose,
   option,
   review,
+  sketch,
   story,
   validation,
   onStory,
@@ -54,6 +55,8 @@ export function StoryStep({
   option: LayoutOption;
   /** The sketch review: its directions go to the story agent, its placement changes into the layout guide. */
   review: LayoutReview | null;
+  /** This layout's detailed sketch, when one was drawn: the approved plan, image 1 for the photograph. */
+  sketch: Draft['sketch'];
   story: StoryState | null;
   validation: Validation | null;
   onStory: (s: StoryState) => void;
@@ -88,7 +91,7 @@ export function StoryStep({
 
   useEffect(() => {
     if (storyTask.result?.kind === 'story') {
-      const facts = { ...storyFacts(compose.spec, option.blueprint), adjustments: reviewAdjustments(review, option.blueprint) };
+      const facts = { ...storyFacts(compose.spec, option.blueprint), ...reviewFacts(review, option.blueprint, sketch) };
       const prompt = assemblePrompt(storyTask.result.story, facts);
       const swapPrompt = productSwapPrompt(compose.spec, facts);
       onStory({ story: storyTask.result.story, facts, prompt, swapPrompt });
@@ -190,7 +193,15 @@ export function StoryStep({
   });
 
   // The proxy lives with the LAYOUT GUIDE segment, the text that tells the image model how to read it.
-  const proxyFigure = (
+  const sketchUrl = story?.facts.layoutSketch?.url;
+  const proxyFigure = sketchUrl ? (
+    <figure className={styles.proxyFigure}>
+      <img className={styles.proxy} src={sketchUrl} alt="The approved pencil sketch: image 1 for the scene prompt" />
+      <figcaption className={styles.proxyCaption}>
+        <span className={styles.caption}>Approved sketch · image 1 for the scene prompt</span>
+      </figcaption>
+    </figure>
+  ) : (
     <figure className={styles.proxyFigure}>
       <img className={styles.proxy} src={proxy} alt="Labeled proxy template: image 1 for the scene prompt" />
       <figcaption className={styles.proxyCaption}>
@@ -238,7 +249,7 @@ export function StoryStep({
     <section>
       <h1>Story &amp; Scene</h1>
       <p>
-        The agent writes the scene story, then {WORKSPACE_MODEL_LABEL} renders it from the labeled proxy and the story's prompt segments.
+        The agent writes the scene story, then {WORKSPACE_MODEL_LABEL} renders it from {sketchUrl ? 'your approved sketch' : 'the labeled proxy'} and the story's prompt segments.
         Edit any segment below and generate again.
       </p>
 

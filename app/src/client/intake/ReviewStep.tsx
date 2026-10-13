@@ -13,7 +13,7 @@ import { ArrowRight, Check, CheckCheck, Download, PencilLine, RotateCw, Sparkles
 import { Dialog, Heading, Modal } from 'react-aria-components';
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 
-import { PLACEMENT_REASONS, emptyReview, sketchKey, reviewAdjustments, reviewCounts, reviewDirections, type ItemReview, type LayoutReview } from '../../shared/review.ts';
+import { PLACEMENT_REASONS, changeSummary, emptyReview, sketchEdits, sketchKey, reviewAdjustments, reviewCounts, reviewDirections, reviewFacts, type ItemReview, type LayoutReview } from '../../shared/review.ts';
 import { MODEL_FRAMING_WIDEN } from '../../shared/rules.ts';
 import { SKETCH_MODEL_LABEL, sketchChanges, sketchPrompt } from '../../shared/sketch.ts';
 import type { LayoutOption } from '../../shared/solver.ts';
@@ -63,26 +63,6 @@ function writePending(p: Pending | null) {
   } catch {
     // Session storage is unavailable (private mode): a revisit mid-draw simply draws again.
   }
-}
-
-/** An item's Change, in words: the placement reasons and the note. Empty when nothing is picked yet. */
-function changeSummary(r: ItemReview): string {
-  const reasons = r.reasons.map((id) => PLACEMENT_REASONS.find((x) => x.id === id)?.label).filter(Boolean);
-  const note = r.note.trim();
-  return [reasons.join(', '), note && `"${note}"`].filter(Boolean).join(' · ');
-}
-
-/** The review edits that change the sketch, by item id ('scene' for the scene notes). Keeps don't change it. */
-function sketchEdits(review: LayoutReview, bp: Blueprint): Record<string, string> {
-  const out: Record<string, string> = {};
-  bp.primitives.forEach((p, i) => {
-    const r = review.items[p.id];
-    const summary = r?.verdict === 'change' ? changeSummary(r) : '';
-    if (summary) out[p.id] = `${i + 1}. ${p.component_name}: ${summary}`;
-  });
-  const notes = review.notes.trim();
-  if (notes) out['scene'] = `Whole scene: "${notes}"`;
-  return out;
 }
 
 /** The detailed sketch as a PNG, forced to greyscale in case the model let any color through. */
@@ -136,6 +116,7 @@ export function ReviewStep({
   const [hover, setHover] = useState<number | null>(null);
   /** Items whose Change editor is open; a Change that's been confirmed with Done folds to one line. */
   const [editing, setEditing] = useState<ReadonlySet<string>>(() => new Set());
+  const [howOpen, setHowOpen] = useState(false);
   const [confirmRedraw, setConfirmRedraw] = useState(false);
   const overlayRef = useRef<HTMLCanvasElement>(null);
   const rowRefs = useRef<Array<HTMLLIElement | null>>([]);
@@ -157,6 +138,46 @@ export function ReviewStep({
   }, []);
   useEffect(() => setExpired(false), [detail?.url]);
   const start = trpc.sketchStart.useMutation();
+  const locate = trpc.sketchLocate.useMutation();
+  // Once a sketch is drawn, find where it put each item, so the markers sit on the drawing.
+  // Saved with the sketch; a failed lookup leaves the planned positions in place.
+  const locatedFor = useRef<string | null>(null);
+  useEffect(() => {
+    if (!detail || detail.boxes || locatedFor.current === detail.url) return;
+    locatedFor.current = detail.url;
+    const items = bp.primitives.map((p) => ({ id: p.id, name: p.component_name }));
+    locate
+      .mutateAsync({ url: detail.url, items })
+      .then((r) => {
+        if (aliveRef.current) onDetail({ ...detail, boxes: r.boxes });
+      })
+      .catch(() => {
+        // keep the planned positions
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- once per drawn sketch
+  }, [detail?.url, detail?.boxes]);
+  // On the drawn sketch, items are where the drawing put them; otherwise where the layout plans them.
+  const boxes = showDetail ? detail.boxes : undefined;
+  const boxAt = (fx: number, fy: number): number | null => {
+    if (!boxes) return null;
+    let best: number | null = null;
+    let bestArea = Infinity;
+    bp.primitives.forEach((p, i) => {
+      const b = boxes[p.id];
+      if (!b || fx < b.x0 || fx > b.x1 || fy < b.y0 || fy > b.y1) return;
+      const area = (b.x1 - b.x0) * (b.y1 - b.y0);
+      if (area < bestArea) {
+        bestArea = area;
+        best = i;
+      }
+    });
+    return best;
+  };
+  const anchors = bp.primitives.map((p, i) => {
+    if (!boxes) return sketch?.anchors[i] ?? null;
+    const b = boxes[p.id];
+    return b ? { x: (b.x0 + b.x1) / 2, y: b.y0 + (b.y1 - b.y0) * 0.45 } : null;
+  });
   const poll = trpc.turnaroundPoll.useMutation();
 
   // Drawn after the first paint so the skeleton shows while the CPU traces the lines.
@@ -182,6 +203,24 @@ export function ReviewStep({
     canvas.width = width;
     canvas.height = height;
     const ctx = canvas.getContext('2d')!;
+    if (boxes) {
+      // The drawn sketch: highlight each item's found box.
+      ctx.clearRect(0, 0, width, height);
+      bp.primitives.forEach((p, i) => {
+        const b = boxes[p.id];
+        if (!b) return;
+        const change = review.items[p.id]?.verdict === 'change';
+        const on = selected === i || hover === i;
+        if (!change && !on) return;
+        const [x, y, w, h] = [b.x0 * width, b.y0 * height, (b.x1 - b.x0) * width, (b.y1 - b.y0) * height];
+        ctx.fillStyle = change ? `rgba(255, 204, 51, ${on ? 0.4 : 0.28})` : selected === i ? 'rgba(231, 34, 58, 0.22)' : 'rgba(120, 120, 120, 0.2)';
+        ctx.fillRect(x, y, w, h);
+        ctx.lineWidth = Math.max(2, width / 500);
+        ctx.strokeStyle = change ? 'rgba(0, 0, 0, 0.7)' : selected === i ? 'rgba(231, 34, 58, 0.9)' : 'rgba(80, 80, 80, 0.7)';
+        ctx.strokeRect(x, y, w, h);
+      });
+      return;
+    }
     const img = ctx.createImageData(width, height);
     const change = bp.primitives.map((p) => review.items[p.id]?.verdict === 'change');
     const picked = selected === null ? -1 : selected + 1;
@@ -214,9 +253,13 @@ export function ReviewStep({
       }
     }
     ctx.putImageData(img, 0, 0);
-  }, [sketch, review.items, selected, hover, bp]);
+  }, [sketch, boxes, review.items, selected, hover, bp]);
 
   const itemAt = (e: MouseEvent<HTMLElement>): number | null => {
+    if (boxes) {
+      const r = e.currentTarget.getBoundingClientRect();
+      return boxAt((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height);
+    }
     if (!sketch) return null;
     const r = e.currentTarget.getBoundingClientRect();
     const x = Math.floor(((e.clientX - r.left) / r.width) * sketch.width);
@@ -265,6 +308,8 @@ export function ReviewStep({
   const changes = useMemo(() => sketchChanges(adjustments, directions), [adjustments, directions]);
   const detailPrompt = useMemo(() => sketchPrompt(compose.spec, bp, changes), [compose.spec, bp, changes]);
   const detailStale = !!detail && detail.prompt !== detailPrompt;
+  // With a sketch, the edits it doesn't show yet go into the photo prompt word for word.
+  const photoChanges = useMemo(() => reviewFacts(review, bp, detail).directorChanges, [review, bp, detail]);
 
   // What the next redraw adds, one line per edit that differs from the sketch on screen.
   const edits = useMemo(() => sketchEdits(review, bp), [review, bp]);
@@ -366,70 +411,19 @@ export function ReviewStep({
   return (
     <section>
       <h1>Review the Sketch</h1>
-      <p>
-        This is the scene sketched in pencil through the camera you picked: the food, dishes and drinks where they will land in the photo. Click an item
-        or its number to mark what is working and what isn't, and add anything else the scene needs. Your notes go into the scene description and the image prompt
-        before the photograph is made.
+      <p className={styles.lede}>
+        The photo is made from this sketch. Mark each item Working or Change, then approve.{' '}
+        <button type="button" className={styles.howLink} aria-expanded={howOpen} onClick={() => setHowOpen((v) => !v)}>
+          {howOpen ? 'Hide how this works' : 'How this works'}
+        </button>
       </p>
-
-      {hasStory && (
-        <Alert tone="info" title="This layout already has a scene">
-          Changing anything here rewrites the scene when you continue.
-        </Alert>
+      {howOpen && (
+        <p className={styles.how}>
+          This is the scene sketched in pencil through the camera you picked: the food, dishes and drinks where they will land in the photo. Click an item
+          or its number to mark what is working and what isn't, and add anything else the scene needs. Approve the sketch and the photograph keeps its camera,
+          framing and placement. Edits made after the sketch was drawn either redraw it, or go straight into the photo prompt with Approve with changes.
+        </p>
       )}
-
-      <div className={styles.detailBar} aria-live="polite">
-        {drawing ? (
-          showDetail ? (
-            <p className={styles.detailText}>Redrawing the sketch. The current one stays until the new one is ready.</p>
-          ) : (
-            <p className={styles.detailText}>You can start marking items while the sketch draws.</p>
-          )
-        ) : run?.error ? (
-          signIn ? (
-            <SignInPrompt
-              onSignedIn={() => void drawDetail()}
-            />
-          ) : (
-            <Alert tone="error" title={forbidden ? 'Monthly limit reached' : "Couldn't draw the sketch"}>
-              {forbidden ? (
-                `${run.error} The outline drawing below still shows where each item sits.`
-              ) : (
-                <span className={styles.errorBody}>
-                  {run.error} The outline drawing below shows where each item sits until it can be drawn.
-                  <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={() => void drawDetail()}>
-                    Try again
-                  </Button>
-                </span>
-              )}
-            </Alert>
-          )
-        ) : (
-          <div className={styles.detailRow}>
-            <p className={styles.detailText}>
-              {!detail
-                ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, counted toward your monthly limit).`
-                : expired
-                  ? 'The sketch has expired. Draw it again to see it; the outline drawing shows where each item sits meanwhile.'
-                  : detailStale
-                    ? pending.length
-                      ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw counts toward your monthly limit.`
-                      : 'The sketch was drawn from an earlier version of the prompt. Redraw it to bring it up to date.'
-                    : changes.length
-                      ? 'The sketch includes your changes.'
-                      : 'The sketch is up to date with this layout.'}
-            </p>
-            <Button
-              size="sm"
-              variant={!detail || expired ? 'primary' : detailStale ? 'default' : 'ghost'}
-              icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
-              onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
-            >
-              {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Draw again'}
-            </Button>
-          </div>
-        )}
-      </div>
 
       <div className={styles.compare}>
         <div className={styles.frameCol}>
@@ -464,7 +458,7 @@ export function ReviewStep({
               onClick={(e) => select(itemAt(e))}
             />
           )}
-          {sketch?.anchors.map((a, i) => {
+          {sketch && anchors.map((a, i) => {
             const p = bp.primitives[i]!;
             if (!a) return null;
             const verdict = review.items[p.id]?.verdict;
@@ -500,6 +494,64 @@ export function ReviewStep({
             </Button>
           </div>
         </div>
+          {hasStory && (
+            <Alert tone="info" title="This layout already has a scene">
+              Changing anything here rewrites the scene when you continue.
+            </Alert>
+          )}
+
+          <div className={styles.detailBar} aria-live="polite">
+            {drawing ? (
+              showDetail ? (
+                <p className={styles.detailText}>Redrawing the sketch. The current one stays until the new one is ready.</p>
+              ) : (
+                <p className={styles.detailText}>You can start marking items while the sketch draws.</p>
+              )
+            ) : run?.error ? (
+              signIn ? (
+                <SignInPrompt
+                  onSignedIn={() => void drawDetail()}
+                />
+              ) : (
+                <Alert tone="error" title={forbidden ? 'Monthly limit reached' : "Couldn't draw the sketch"}>
+                  {forbidden ? (
+                    `${run.error} The outline drawing below still shows where each item sits.`
+                  ) : (
+                    <span className={styles.errorBody}>
+                      {run.error} The outline drawing below shows where each item sits until it can be drawn.
+                      <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={() => void drawDetail()}>
+                        Try again
+                      </Button>
+                    </span>
+                  )}
+                </Alert>
+              )
+            ) : (
+              <div className={styles.detailRow}>
+                <p className={styles.detailText}>
+                  {!detail
+                    ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, counted toward your monthly limit).`
+                    : expired
+                      ? 'The sketch has expired. Draw it again to see it; the outline drawing shows where each item sits meanwhile.'
+                      : detailStale
+                        ? pending.length
+                          ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw counts toward your monthly limit.`
+                          : 'The sketch was drawn from an earlier version of the prompt. Redraw it to bring it up to date.'
+                        : changes.length
+                          ? 'The sketch includes your changes.'
+                          : 'The sketch is up to date with this layout.'}
+                </p>
+                <Button
+                  size="sm"
+                  variant={!detail || expired ? 'primary' : detailStale ? 'default' : 'ghost'}
+                  icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
+                  onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
+                >
+                  {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Draw again'}
+                </Button>
+              </div>
+            )}
+          </div>
         </div>
 
         {arrangement?.(drawing)}
@@ -511,7 +563,7 @@ export function ReviewStep({
         <ol className={styles.items}>
           {bp.primitives.map((p, i) => {
             const r = review.items[p.id];
-            const hidden = sketch && !sketch.anchors[i];
+            const hidden = sketch && !anchors[i];
             return (
               <li
                 key={p.id}
@@ -533,7 +585,7 @@ export function ReviewStep({
                       <span className={styles.itemTitle}>{p.component_name}</span>
                       <span className={styles.itemMeta}>
                         {p.id}
-                        {hidden ? ' · not visible from this camera' : ''}
+                        {hidden ? (boxes ? ' · not found in the sketch' : ' · not visible from this camera') : ''}
                       </span>
                     </span>
                   </button>
@@ -636,7 +688,24 @@ export function ReviewStep({
 
       <div className={styles.preview} aria-live="polite">
         <h3 className={styles.previewTitle}>What Changes in the Prompt</h3>
-        {adjustments.length === 0 && directions.length === 0 ? (
+        {showDetail ? (
+          <>
+            <p className={styles.previewEmpty}>
+              The photo is made from this sketch, so it keeps the sketch's camera, framing and placement.
+              {photoChanges.length ? ' Approve with changes to add the edits below without redrawing.' : ''}
+            </p>
+            {photoChanges.length > 0 && (
+              <div className={styles.previewBlock}>
+                <span className={styles.previewLabel}>Not in the sketch yet: added to the photo prompt word for word</span>
+                <ul>
+                  {photoChanges.map((l) => (
+                    <li key={l}>{l}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </>
+        ) : adjustments.length === 0 && directions.length === 0 ? (
           <p className={styles.previewEmpty}>Nothing yet. Unmarked items are described just as the sketch shows them.</p>
         ) : (
           <>
@@ -673,7 +742,7 @@ export function ReviewStep({
           </Button>
         )}
         <Button variant="primary" iconEnd={<ArrowRight size={16} aria-hidden />} onPress={onNext}>
-          {hasStory ? 'Continue to the scene' : 'Create the scene'}
+          {showDetail && pending.length ? 'Approve with changes' : showDetail ? 'Approve the sketch' : hasStory ? 'Continue to the scene' : 'Create the scene'}
         </Button>
       </StepActions>
 

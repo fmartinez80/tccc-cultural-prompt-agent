@@ -5,7 +5,7 @@
 
 import { z } from "zod";
 import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, RECTANGULAR_TABLE_RULE, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase, withoutRoundTable } from "./registry";
-import { BACKGROUND_PEOPLE_RULE, type LightingPreset, angleById, angleSentence, depthById, glassRules, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
+import { BACKGROUND_PEOPLE_RULE, type LightingPreset, angleById, angleSentence, depthById, glassRules, isLargeSku, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
 import { sceneItems } from "./scene";
 import type { Blueprint, SceneSpec, Vessel } from "./types";
 import { venueType } from "./venues";
@@ -96,6 +96,11 @@ export interface StoryFacts {
   scaleSentence: string;
   /** The art director's placement changes from the sketch review; they amend the layout guide. */
   adjustments?: string[];
+  /** The approved sketch for this layout, when there is one: it replaces the proxy as image 1. */
+  layoutSketch?: { url: string };
+  /** The art director's changes in their own words, applied on top of image 1: with a sketch, only
+   * the ones it doesn't show yet ("approved with changes"); without one, all of them. */
+  directorChanges?: string[];
   /** Closes the image prompt. */
   exclusions: string;
 }
@@ -108,6 +113,19 @@ export function foodLabels(facts: StoryFacts): StoryFacts["labels"] {
 /** Centimeters to the nearest half (a 12 in plate reads 30.5 cm). */
 function cm(m: number): number {
   return Math.round(m * 200) / 2;
+}
+
+/**
+ * A single-serve drink with no glass beside it is ready to drink: the can's tab is open, or the
+ * bottle is uncapped with its cap lying beside it (part of the drink, not an extra object). A
+ * shared bottle or one served with a glass stays closed.
+ */
+function openingText(spec: SceneSpec): string {
+  const open = !spec.sku.glass && !isLargeSku(spec.sku);
+  if (spec.sku.package === "can") return open ? "Opened, its tab pulled up, no straw." : "Unopened, no straw.";
+  if (!open) return "Capped, no straw.";
+  const cap = spec.sku.package === "contour-glass-bottle" ? "its red crown cap lying upside down" : "its red screw cap lying on its side";
+  return `Opened: no cap on the neck, ${cap} on the table right beside the bottle's base (the cap is part of the bottle, not another object), no straw. Where its description or product photo shows the cap on, this overrides it: the cap is off.`;
 }
 
 function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: string): { vessel: string; fixedText?: string } {
@@ -125,7 +143,7 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
     const label = spec.sku.appearance
       ? `It is a ${spec.sku.appearance}; print nothing on it beyond that real label`
       : `${spec.sku.package === "can" ? "The can shows the white Coca-Cola script logo on red" : "A solid red label band wraps the middle of the bottle, with the white Coca-Cola script logo"}; print no other words, sizes or descriptions on it`;
-    const text = `exactly one ${shape}, about ${h} cm tall, standing upright and facing the camera straight on so the full logo reads, ${cold}. ${spec.sku.package === "can" ? "Unopened, no straw." : "Capped, no straw."} ${label}.${isPartnerDrink ? " This is the second diner's own, a duplicate of the other one." : ""}`;
+    const text = `exactly one ${shape}, about ${h} cm tall, standing upright and facing the camera straight on so the full logo reads, ${cold}. ${openingText(spec)} ${label}.${isPartnerDrink ? " This is the second diner's own, a duplicate of the other one." : ""}`;
     return { vessel: `the ${spec.sku.displayName}, about ${h} cm tall${isPartnerDrink ? " (the second diner's)" : ""}`, fixedText: text[0].toUpperCase() + text.slice(1) };
   }
   if (proxy === "bell-glass") {
@@ -324,6 +342,19 @@ export interface CompositionSegment {
   text: string;
 }
 
+/**
+ * Opens the prompt when image 1 is the art director's approved pencil sketch: the photo copies
+ * its camera, framing, table angle and placement exactly, and takes color and detail from the text.
+ */
+export function sketchInstruction(facts: StoryFacts): string {
+  const which = facts.labels.map((l) => `${l.label} is the ${l.what}, ${l.where}`).join("; ");
+  return [
+    "Turn image 1 into a full-color photograph. Image 1 is the art director's approved pencil sketch of this exact photograph: keep the same camera position, height and angle, the same lens and framing, the same table edges and table angle, and every object exactly where and as large as it is drawn. Do not zoom in, crop, re-center, straighten or tilt the table, and do not add, move or remove objects.",
+    "Take only the composition from the sketch: the colors, materials, food detail, light and the Coca-Cola label come from the descriptions below and the reference photos, never from the sketch's grey pencil. Leave no pencil lines, hatching or paper texture.",
+    `The labels below name the objects in the sketch: ${which}.`,
+  ].join(" ");
+}
+
 export function compositionSegments(story: Story, facts: StoryFacts): CompositionSegment[] {
   const camera = [
     { label: "Camera", text: [facts.filmSentence, facts.angleSentence, facts.lookSentence].filter(Boolean).join(" ") },
@@ -339,11 +370,15 @@ export function compositionSegments(story: Story, facts: StoryFacts): Compositio
       note: "Keep every shape's position and size; states the real-world scale",
       fixed: true,
       text: [
-        facts.proxyInstruction,
-        facts.scaleSentence,
+        facts.layoutSketch ? sketchInstruction(facts) : facts.proxyInstruction,
+        // The sketch already fixes how big everything is in the frame; the planned scale would contradict it.
+        facts.layoutSketch ? "" : facts.scaleSentence,
         RECTANGULAR_TABLE_RULE,
-        facts.adjustments?.length
+        !facts.layoutSketch && facts.adjustments?.length
           ? `Adjustments to the layout guide (these take priority over the shapes for the items named):\n- ${facts.adjustments.join("\n- ")}`
+          : "",
+        facts.directorChanges?.length
+          ? `The art director's changes${facts.layoutSketch ? " to the sketch" : ""}. They override image 1 and every other line of this prompt, including the fixed descriptions of the product and the table setting:\n- ${facts.directorChanges.join("\n- ")}`
           : "",
       ]
         .filter(Boolean)

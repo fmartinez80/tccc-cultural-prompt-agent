@@ -174,6 +174,28 @@ export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene
   floor.userData.part = 'floor';
   scene.add(floor);
 
+  // The table reads as a real table, not a slab in a void: a darker edge band (apron) and legs
+  // under the corners, and a back wall a few metres behind, so the image models see the table's
+  // edges and angle and the room's depth instead of inventing them.
+  const apron = new THREE.Mesh(new THREE.BoxGeometry(W - 0.02, 0.06, D - 0.02), new THREE.MeshStandardMaterial({ color: '#c9c6bf', roughness: 0.9 }));
+  apron.position.set(0, -0.07, -D / 2);
+  apron.userData.part = 'table';
+  scene.add(apron);
+  const legMat = new THREE.MeshStandardMaterial({ color: '#b5b1a8', roughness: 0.9 });
+  for (const lx of [-W / 2 + 0.05, W / 2 - 0.05]) {
+    for (const ld of [0.05, D - 0.05]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.71, 0.05), legMat);
+      leg.position.set(lx, -0.04 - 0.355, -ld);
+      leg.userData.part = 'room';
+      scene.add(leg);
+    }
+  }
+  // Unlit, so it reads as one flat wall whatever the light preset.
+  const wall = new THREE.Mesh(new THREE.PlaneGeometry(40, 8), new THREE.MeshBasicMaterial({ color: '#b4b6b9' }));
+  wall.position.set(0, 3.25, -(D + 2.4));
+  wall.userData.part = 'room';
+  scene.add(wall);
+
   bp.primitives.forEach((p, i) => {
     const item = buildItem(p);
     // 1-based, so the sketch's hit map can keep 0 for the table and background.
@@ -369,7 +391,7 @@ export function renderSketch(bp: Blueprint, lighting: LightingPreset, opts: { wi
   const itemOfMesh: number[] = [0];
   scene.traverse((o) => {
     if (!(o instanceof THREE.Mesh)) return;
-    if (o.userData.part === 'floor') {
+    if (o.userData.part === 'floor' || o.userData.part === 'room') {
       o.visible = false;
       return;
     }
