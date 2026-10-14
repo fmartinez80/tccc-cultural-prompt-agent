@@ -9,7 +9,7 @@
 /* Matches the Select/TextInput field labels. */
 .label {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -91,19 +91,18 @@
 /* Hangs below the frame, outside the layout, so it never pushes the frame's bottom edge. */
 .dots {
   position: absolute;
-  top: calc(100% + 4px);
+  top: calc(100% - 1px);
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  gap: 2px;
 }
 
-/* 18px hit area around a 6px dot. */
+/* 28px hit area (about 25px on screen at 90% zoom) around a 6px dot. */
 .dot {
   position: relative;
-  width: 18px;
-  height: 18px;
+  width: 28px;
+  height: 28px;
   padding: 0;
   border: 0;
   background: transparent;
@@ -113,7 +112,7 @@
 .dot::after {
   content: '';
   position: absolute;
-  inset: 6px;
+  inset: 11px;
   border-radius: 50%;
   border: 1px solid var(--neo-ink);
 }

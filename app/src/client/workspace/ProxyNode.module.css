@@ -24,7 +24,7 @@
   align-items: center;
   gap: 6px;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 

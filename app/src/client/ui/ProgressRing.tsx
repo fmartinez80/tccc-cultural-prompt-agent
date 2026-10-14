@@ -14,18 +14,22 @@ export function ProgressRing({
   label,
   progress,
   status,
+  hint,
 }: {
   label: string;
   /** null before the job reports or has an estimate: an empty ring with no number. */
   progress: Progress | null;
   /** Replaces the time-left line, e.g. "Uploading the layout image…" before the job starts. */
   status?: string;
+  /** One plain sentence under the time left, e.g. what you can do while it waits. */
+  hint?: string;
 }) {
   const left = progress ? timeLeftText(progress) : (status ?? 'Starting…');
   return (
     <div className={styles.overlay}>
       <div
         className={styles.card}
+        data-hint={hint ? true : undefined}
         role="progressbar"
         aria-label={label}
         aria-valuemin={0}
@@ -42,6 +46,7 @@ export function ProgressRing({
         <p className={styles.meta} aria-hidden>
           {left}
         </p>
+        {hint && <p className={styles.hint}>{hint}</p>}
       </div>
     </div>
   );

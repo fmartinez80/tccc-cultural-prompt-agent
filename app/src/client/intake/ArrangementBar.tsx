@@ -1,10 +1,10 @@
-// Sketch review's side panel, beside the sketch: the 3D layout guide the sketch is
-// drawn from (so the two can be compared at a glance), the other arrangements when
-// there is more than one, and the accent. The best-ranked layout is picked for the
-// operator (PrepareLayout in LayoutStep.tsx). Pressing an arrangement previews it in
-// the layout guide; Draw switches to it, with a note that it counts toward the monthly limit.
+// Sketch review's side panel, beside the sketch: a carousel of the 3D layout guides the
+// sketch can be drawn from (so the drawn one can be compared with the sketch at a glance),
+// and the accent. The best-ranked layout is picked for the operator (PrepareLayout in
+// LayoutStep.tsx). The arrows step through the other arrangements as previews; Draw
+// switches to the one shown, with a note that it counts toward the monthly limit.
 
-import { Pencil, RotateCw } from "lucide-react";
+import { ChevronLeft, ChevronRight, Pencil, RotateCw } from "lucide-react";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Dialog, Heading, Modal } from "react-aria-components";
 
@@ -57,7 +57,6 @@ export function ArrangementBar({
   /** A sketch is drawing: switching now would leave that draw behind. */
   drawing: boolean;
 }) {
-  const [thumbs, setThumbs] = useState<string[] | null>(null);
   const [big, setBig] = useState<string | null>(null);
   // The arrangement shown in the layout guide before switching to it; null shows the picked one.
   const [preview, setPreview] = useState<number | null>(null);
@@ -85,23 +84,6 @@ export function ArrangementBar({
     ro.observe(el);
     return () => ro.disconnect();
   }, [bp.layout_meta.rationale, expanded]);
-
-  // Small pictures of every arrangement, drawn after the first paint. One arrangement has nothing to pick between.
-  useEffect(() => {
-    setThumbs(null);
-    if (options.length < 2) return;
-    const frame = requestAnimationFrame(() => {
-      setThumbs(
-        options.map((o) =>
-          renderProxy(o.blueprint, compose.lighting, {
-            width: 480,
-            widen: MODEL_FRAMING_WIDEN,
-          }),
-        ),
-      );
-    });
-    return () => cancelAnimationFrame(frame);
-  }, [options, compose.lighting]);
 
   // The shown arrangement's layout guide, without the composition guides: the same picture the sketch is drawn from.
   useEffect(() => {
@@ -143,12 +125,18 @@ export function ArrangementBar({
   const switchTo = () => {
     if (preview !== null) onPick(preview);
   };
+  // Step through the arrangements, wrapping round; landing back on the drawn one ends the preview.
+  const step = (by: number) => {
+    const next = (shown + by + options.length) % options.length;
+    setPreview(next === picked ? null : next);
+  };
+  const many = options.length > 1;
 
   return (
-    <aside className={styles.bar} aria-label="Layout guide and arrangement">
+    <aside className={styles.bar} aria-label="Layouts">
       <figure className={styles.guide} data-preview={previewing || undefined}>
         <figcaption className={styles.guideHead}>
-          <h3 className={styles.previewTitle}>Preview</h3>
+          <h3 className={styles.previewTitle}>Layouts</h3>
           <span className={styles.guideLine}>
             <span
               className={styles.guideName}
@@ -156,21 +144,49 @@ export function ArrangementBar({
             >
               Layout guide {OPTION_LETTERS[shown]} · {bp.layout_meta.archetype}
             </span>
-            {shown === picked && options.length > 1 && (
+            {shown === picked && many && (
               <span className={styles.inUse}>Drawn</span>
             )}
           </span>
         </figcaption>
-        <div className={styles.guideImage}>
-          {big ? (
-            <img
-              src={big}
-              alt={`3D layout guide of arrangement ${OPTION_LETTERS[shown]}, the shapes the sketch is drawn from`}
-            />
-          ) : (
-            <SkeletonBlock height="100%" />
+        <div className={styles.stage}>
+          <div className={styles.guideImage}>
+            {big ? (
+              <img
+                src={big}
+                alt={`3D layout guide of arrangement ${OPTION_LETTERS[shown]}, the shapes the sketch is drawn from`}
+              />
+            ) : (
+              <SkeletonBlock height="100%" />
+            )}
+          </div>
+          {many && (
+            <>
+              <button type="button" className={styles.arrow} data-side="prev" aria-label="Previous layout" onClick={() => step(-1)}>
+                <ChevronLeft size={18} aria-hidden />
+              </button>
+              <button type="button" className={styles.arrow} data-side="next" aria-label="Next layout" onClick={() => step(1)}>
+                <ChevronRight size={18} aria-hidden />
+              </button>
+            </>
           )}
         </div>
+        {many && (
+          <div className={styles.dots} role="group" aria-label="Layouts">
+            {options.map((o, i) => (
+              <button
+                key={i}
+                type="button"
+                className={styles.dot}
+                data-current={i === shown || undefined}
+                data-drawn={i === picked || undefined}
+                aria-label={`Layout ${OPTION_LETTERS[i]}: ${o.blueprint.layout_meta.archetype}${i === 0 ? ", best fit" : ""}${i === picked ? ", drawn" : ""}`}
+                aria-current={i === shown || undefined}
+                onClick={() => setPreview(i === picked ? null : i)}
+              />
+            ))}
+          </div>
+        )}
         {/* Clamped to a fixed number of lines so switching arrangements never changes the panel's height; Read more opens it up. */}
         <div className={styles.rationaleWrap}>
           <p
@@ -196,31 +212,10 @@ export function ArrangementBar({
         </div>
       </figure>
 
-      {options.length > 1 && (
+      {many && (
         <div className={styles.section}>
-          <span className={styles.label}>Arrangement</span>
-          <div className={styles.thumbs} role="group" aria-label="Arrangements">
-            {options.map((o, i) => (
-              <button
-                key={i}
-                type="button"
-                className={styles.thumb}
-                aria-pressed={i === shown}
-                aria-label={`Preview arrangement ${OPTION_LETTERS[i]}: ${o.blueprint.layout_meta.archetype}${i === 0 ? ", best fit" : ""}${i === picked ? ", drawn" : ""}`}
-                title={o.blueprint.layout_meta.rationale}
-                onClick={() => setPreview(i === picked ? null : i)}
-              >
-                {thumbs ? (
-                  <img src={thumbs[i]} alt="" />
-                ) : (
-                  <SkeletonBlock height="100%" />
-                )}
-                <span className={styles.thumbLabel}>{OPTION_LETTERS[i]}</span>
-              </button>
-            ))}
-          </div>
           <Button
-            variant="primary"
+            variant={previewing ? "primary" : "default"}
             icon={<RotateCw size={16} aria-hidden />}
             disabled={!previewing || drawing}
             onPress={switchTo}
@@ -238,7 +233,7 @@ export function ArrangementBar({
                 ? `Counts toward your monthly limit (${SKETCH_MODEL_LABEL}). Your marks on this sketch don't carry over.`
                 : previewing
                   ? "Already drawn, so switching back is free."
-                  : "Press an arrangement to preview it."}
+                  : "Use the arrows to preview the other layouts."}
           </p>
         </div>
       )}

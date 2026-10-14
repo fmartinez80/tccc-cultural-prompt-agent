@@ -39,7 +39,7 @@
   min-width: 44px;
   text-align: center;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-2);
   font-variant-numeric: tabular-nums;
 }
@@ -55,7 +55,7 @@
 }
 
 .saved {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
   white-space: nowrap;
 }
@@ -64,7 +64,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   color: var(--bay-accent-fg);
   background: var(--neo-hover);
@@ -76,7 +76,7 @@
 
 .footer {
   margin-top: 8px;
-  font-size: 11px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-4);
 }
 

@@ -92,7 +92,7 @@
   border-radius: 999px;
   background: var(--neo-card);
   color: var(--neo-ink);
-  font: 700 12px/1.2 var(--bay-font-sans);
+  font: 700 var(--app-text-min)/1.2 var(--bay-font-sans);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

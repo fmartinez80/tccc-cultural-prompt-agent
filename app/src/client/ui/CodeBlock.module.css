@@ -11,7 +11,7 @@
   white-space: pre-wrap;
   word-break: break-word;
   font-family: var(--bay-font-mono);
-  font-size: 12.5px;
+  font-size: var(--app-text-min);
   line-height: 1.44;
   color: var(--bay-text);
   max-height: 360px;
@@ -30,7 +30,7 @@
   border-radius: var(--bay-r-sm);
   background: var(--neo-card);
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--bay-text-2);

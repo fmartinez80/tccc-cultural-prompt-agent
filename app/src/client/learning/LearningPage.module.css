@@ -63,7 +63,7 @@
 .rowDate {
   margin-top: 2px;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -82,7 +82,7 @@
 
 .statLabel {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;

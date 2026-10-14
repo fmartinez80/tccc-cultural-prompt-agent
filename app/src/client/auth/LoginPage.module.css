@@ -18,8 +18,8 @@
 }
 
 .logo {
-  height: 44px;
-  width: auto;
+  width: 180px; /* twice the old ProdX logo's width */
+  height: auto;
   align-self: flex-start;
 }
 

@@ -94,7 +94,7 @@
   border-radius: 999px;
   background: var(--neo-ink);
   color: var(--bay-text-on-accent);
-  font: 700 12px/1 var(--bay-font-mono);
+  font: 700 var(--app-text-min)/1 var(--bay-font-mono);
   cursor: pointer;
   box-shadow: 0 0 0 2px var(--neo-card);
   transition: transform var(--bay-dur) var(--bay-ease);
@@ -142,16 +142,54 @@
   margin: 12px 0 24px;
 }
 
+/* Download, as an icon button in the sketch's top-right corner. Doubled class beats `.frame > *`. */
+.frame > .frameDownload.frameDownload {
+  inset: 12px 12px auto auto;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: var(--neo-border);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  box-shadow: var(--neo-shadow-sm);
+  color: var(--neo-ink);
+  cursor: pointer;
+}
+
+.frameDownload:hover {
+  background: var(--neo-hover);
+}
+
+.frameDownload:focus-visible {
+  outline: 3px solid var(--neo-selected);
+  outline-offset: 2px;
+}
+
+/* Items title, the tally and Mark the rest working on one line. */
+.itemsHead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-bottom: 10px;
+}
+
+.itemsHead > .sectionTitle {
+  margin: 0;
+}
+
+.itemsHead > :last-child {
+  margin-left: auto;
+}
+
 .tally {
   font-family: var(--bay-font-mono);
   font-size: 13px;
   color: var(--bay-text-3);
-}
-
-.toolbarActions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
 }
 
 .sectionTitle {
@@ -228,7 +266,7 @@
   background: var(--neo-ink);
   color: var(--bay-text-on-accent);
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
 }
 
@@ -262,7 +300,7 @@
 
 .itemMeta {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -285,7 +323,7 @@
   border-radius: 999px;
   background: none;
   color: var(--bay-text-2);
-  font: 700 12px/1 var(--bay-font-sans);
+  font: 700 var(--app-text-min)/1 var(--bay-font-sans);
   cursor: pointer;
   transition: background var(--bay-dur) var(--bay-ease), color var(--bay-dur) var(--bay-ease);
 }
@@ -324,7 +362,7 @@
 
 .reason {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 5px 10px;
@@ -376,7 +414,7 @@
 
 .previewLabel {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -426,7 +464,7 @@
 }
 
 .changeHint {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -438,7 +476,7 @@
   border: var(--neo-border-thin);
   background: var(--neo-amber);
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   color: var(--neo-ink);
@@ -455,7 +493,7 @@
   align-items: center;
   gap: 6px;
   margin: 6px 0 0;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 

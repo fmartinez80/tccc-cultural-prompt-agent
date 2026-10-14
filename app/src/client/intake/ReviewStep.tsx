@@ -477,7 +477,18 @@ export function ReviewStep({
             <SkeletonBlock height="100%" />
           )}
           {sketch && <canvas className={styles.overlay} ref={overlayRef} aria-hidden />}
-          {drawing && <ProgressRing label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'} progress={progress ?? null} />}
+          {(sketch || showDetail) && !drawing && (
+            <button type="button" className={styles.frameDownload} onClick={() => void download()} aria-label={showDetail ? 'Download the sketch' : 'Download the outline'}>
+              <Download size={16} aria-hidden />
+            </button>
+          )}
+          {drawing && (
+            <ProgressRing
+              label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'}
+              progress={progress ?? null}
+              hint={showDetail ? 'The current sketch stays until the new one is ready.' : 'You can start marking items while the sketch draws.'}
+            />
+          )}
           {sketch && (
             <div
               className={styles.hitArea}
@@ -511,21 +522,20 @@ export function ReviewStep({
           })}
         </div>
 
+        {/* Under the sketch: change it by hand on the left, draw it again on the right. */}
         <div className={styles.toolbar}>
-          <span className={styles.tally}>
-            {counts.keep} working · {counts.change} to change{unmarked ? ` · ${unmarked} unmarked` : ''}
-          </span>
-          <div className={styles.toolbarActions}>
-            <Button size="sm" icon={<Move size={14} aria-hidden />} onPress={() => setEditOpen(true)} disabled={!sketch || drawing}>
-              Edit sketch
-            </Button>
-            <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} onPress={markAllWorking} disabled={unmarked === 0}>
-              Mark the rest working
-            </Button>
-            <Button size="sm" variant="ghost" icon={<Download size={14} aria-hidden />} onPress={download} disabled={!sketch && !showDetail}>
-              {showDetail ? 'Download sketch' : 'Download outline'}
-            </Button>
-          </div>
+          <Button size="sm" icon={<Move size={14} aria-hidden />} onPress={() => setEditOpen(true)} disabled={!sketch || drawing}>
+            Edit sketch
+          </Button>
+          <Button
+            size="sm"
+            variant={!detail || expired ? 'primary' : 'default'}
+            icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
+            onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
+            disabled={drawing}
+          >
+            {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Redraw'}
+          </Button>
         </div>
           {hasStory && (
             <Alert tone="info" title="This layout already has a scene">
@@ -534,13 +544,7 @@ export function ReviewStep({
           )}
 
           <div className={styles.detailBar} aria-live="polite">
-            {drawing ? (
-              showDetail ? (
-                <p className={styles.detailText}>Redrawing the sketch. The current one stays until the new one is ready.</p>
-              ) : (
-                <p className={styles.detailText}>You can start marking items while the sketch draws.</p>
-              )
-            ) : run?.error ? (
+            {drawing ? null : run?.error ? (
               signIn ? (
                 <SignInPrompt
                   onSignedIn={() => void drawDetail()}
@@ -574,14 +578,6 @@ export function ReviewStep({
                           ? 'The sketch includes your changes.'
                           : 'The sketch is up to date with this layout.'}
                 </p>
-                <Button
-                  size="sm"
-                  variant={!detail || expired ? 'primary' : detailStale ? 'default' : 'ghost'}
-                  icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
-                  onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
-                >
-                  {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Draw again'}
-                </Button>
               </div>
             )}
           </div>
@@ -592,7 +588,15 @@ export function ReviewStep({
 
       <div className={styles.layoutGrid}>
         <div className={styles.itemsCol}>
-        <h2 className={styles.sectionTitle}>Items</h2>
+        <div className={styles.itemsHead}>
+          <h2 className={styles.sectionTitle}>Items</h2>
+          <span className={styles.tally}>
+            {counts.keep} working · {counts.change} to change{unmarked ? ` · ${unmarked} unmarked` : ''}
+          </span>
+          <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} onPress={markAllWorking} disabled={unmarked === 0}>
+            Mark the rest working
+          </Button>
+        </div>
         <ol className={styles.items}>
           {bp.primitives.map((p, i) => {
             const r = review.items[p.id];

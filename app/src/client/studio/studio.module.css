@@ -88,7 +88,7 @@
 
 .barSub {
   color: var(--bay-text-3);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -145,7 +145,7 @@
 
 .columnValue {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   margin-bottom: 2px;
 }
 
@@ -153,7 +153,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 6px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -225,7 +225,7 @@
   margin-top: 8px;
   cursor: pointer;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
 }
 
 .prompt p {

@@ -63,7 +63,7 @@
 .label {
   margin: 0;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   letter-spacing: 0.02em;
   color: var(--bay-text-2);
@@ -72,9 +72,24 @@
 .meta {
   margin: 0;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-variant-numeric: tabular-nums;
   color: var(--bay-text-3);
+}
+
+/* With a hint the card can sit over a sketch being redrawn, so it gets a plain backing to stay readable. */
+.card[data-hint] {
+  padding: 16px;
+  background: var(--neo-card);
+  border: var(--neo-border-thin);
+  border-radius: var(--app-card-radius);
+}
+
+.hint {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--bay-text-2);
 }
 
 @media (prefers-reduced-motion: reduce) {

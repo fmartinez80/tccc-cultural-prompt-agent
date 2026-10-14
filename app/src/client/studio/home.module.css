@@ -174,7 +174,7 @@
 
 .briefList dt {
   font-family: var(--bay-font-mono);
-  font-size: clamp(9px, 1.2vw, 12px);
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -207,7 +207,7 @@
   background: var(--neo-card);
   border: var(--neo-border-thin);
   font-family: var(--bay-font-mono);
-  font-size: clamp(10px, 1.3vw, 13px);
+  font-size: clamp(var(--app-text-min), 1.3vw, 15px);
   line-height: 1.2;
 }
 
@@ -269,35 +269,43 @@
   font-size: 15px;
 }
 
-/* Six dots; the current one is solid red. */
+/* Six dots; the current one is solid. Each 14px dot sits in a 28px click area (about 25px on screen at 90% zoom). */
 .dots {
   display: flex;
   justify-content: center;
-  gap: 10px;
 }
 
 .dot {
   all: unset;
-  width: 14px;
-  height: 14px;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.dot::after {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  box-sizing: border-box;
   border: var(--neo-border-thin);
   border-radius: 999px;
   background: var(--neo-card);
-  cursor: pointer;
   transition: background 200ms ease;
 }
 
-.dot:hover {
+.dot:hover::after {
   background: var(--neo-hover);
 }
 
-.dot[aria-current='step'] {
+.dot[aria-current='step']::after {
   background: var(--neo-selected);
 }
 
 .dot:focus-visible {
   outline: 3px solid var(--neo-selected);
-  outline-offset: 3px;
+  outline-offset: -2px;
+  border-radius: 999px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -355,7 +363,7 @@
 
 .phaseLabel {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -417,10 +425,10 @@
   .briefList dt,
   .briefList dd {
     padding: 3px 10px;
-    font-size: 10px;
+    font-size: var(--app-text-min);
   }
   .briefList dt {
-    font-size: 9px;
+    font-size: var(--app-text-min);
   }
 }
 

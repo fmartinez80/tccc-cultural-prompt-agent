@@ -8,7 +8,7 @@
 
 .caption {
   margin-top: 6px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -29,7 +29,7 @@
 }
 
 .blockLabel {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   letter-spacing: 0.02em;
   color: var(--bay-text-2);
   margin: 0 0 4px;
@@ -94,7 +94,7 @@ h4.blockLabel {
 }
 
 .checkStatus {
-  font-size: 12px;
+  font-size: var(--app-text-min);
 }
 
 .statusOk,
@@ -103,7 +103,7 @@ h4.blockLabel {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: var(--app-weight-text);
 }
 
@@ -184,7 +184,7 @@ h4.blockLabel {
 
 .ruleId {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -244,7 +244,7 @@ h4.blockLabel {
 
 .chip {
   font-family: var(--bay-font-mono);
-  font-size: 11.5px;
+  font-size: var(--app-text-min);
   font-weight: var(--app-weight-text);
   padding: 2px 6px;
   border: 1px solid var(--neo-ink);
@@ -265,13 +265,13 @@ h4.blockLabel {
 }
 
 .labelWhat {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
 .fixedTag {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   padding: 1px 6px;
   border-radius: 999px;
@@ -373,7 +373,7 @@ h4.blockLabel {
 .briefLabel,
 .briefTitle {
   margin: 0 0 8px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--bay-text);
@@ -469,7 +469,7 @@ h4.blockLabel {
 
 .editedTag {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   padding: 1px 6px;
   border: var(--neo-border-thin);

@@ -190,7 +190,7 @@
 
 .context dt {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -291,14 +291,14 @@
   border: 1px solid var(--fb-line);
   border-radius: 50%;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
 }
 
 .optional {
   color: var(--fb-muted);
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -306,7 +306,7 @@
 .progress {
   color: var(--fb-muted);
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
 }
 
 /* Overall verdict: three cells of one outlined grid. */
@@ -369,7 +369,7 @@
 .groupTitle {
   margin: 4px 0 0;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -435,7 +435,7 @@
 
 .scored {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
 }
 
 .itemBody {
@@ -464,7 +464,7 @@
 
 .detailTitle {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -490,7 +490,7 @@
   border-radius: var(--bay-r-xs);
   color: var(--fb-muted);
   font-family: var(--bay-font-mono);
-  font-size: 10px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -525,7 +525,7 @@
 
 .scale[data-small] .scaleBtn {
   height: 26px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
 }
 
 .scaleBtn {
@@ -573,7 +573,7 @@
   border: 1px solid var(--fb-line);
   border-radius: var(--bay-r-xs);
   font-family: var(--bay-font-mono);
-  font-size: 10px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -641,7 +641,7 @@
   justify-self: end;
   color: var(--fb-muted);
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
 }
 
 .dialog :focus-visible {

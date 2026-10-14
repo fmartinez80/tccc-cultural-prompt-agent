@@ -459,7 +459,7 @@ export function App() {
             openView('home');
           }}
         >
-          <img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />
+          <img src="/scene-composer-logo.png" alt="Scene Composer" className={styles.logoImg} />
         </a>
       }
       user={profile.data ?? undefined}
@@ -596,7 +596,7 @@ export function App() {
             </div>
           </div>
 
-          <main className={styles.panel}>
+          <section className={styles.panel}>
             {rulesQuery.isError && draft.brief.skuId && (
               <Alert tone="error" title="Couldn't load the rule effects for this brief">
                 {rulesQuery.error.message}
@@ -612,7 +612,7 @@ export function App() {
                 </WorkspaceOverlay>
               </StepBackContext.Provider>
             </ErrorBoundary>
-          </main>
+          </section>
 
         </div>
       )}

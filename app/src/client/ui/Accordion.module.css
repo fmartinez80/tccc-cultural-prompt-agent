@@ -72,7 +72,7 @@
 }
 
 .subtitle {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -80,7 +80,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-2);
   white-space: nowrap;
 }
