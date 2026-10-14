@@ -61,7 +61,7 @@ export function SidesStep({
 
   return (
     <DecisionStep<SidesChoice>
-      title="Sides and Accompaniments"
+      title="Sides &amp; Accompaniments"
       intro={
         brief.sideDishRequest
           ? `Including your request for ${brief.sideDishRequest} where it fits.`

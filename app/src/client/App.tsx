@@ -430,13 +430,14 @@ export function App() {
   const isAdmin = profile.data?.role === 'admin';
   const draftInProgress = draft.step !== 'brief' || !!draft.brief.heroDish.trim();
   const menuItems = [
-    ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
-    { id: 'insights', label: 'Insights', current: view === 'insights' },
-    { id: 'whatsNew', label: "What's New", current: view === 'whatsNew' },
+    // Get Started opens the scene builder where it was left; it doesn't clear a draft.
+    { id: 'compose', label: 'Get Started', current: view === 'compose', accent: true },
     { id: 'about', label: 'About Us', current: view === 'about' },
+    ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
+    { id: 'whatsNew', label: "What's New", current: view === 'whatsNew' },
     { id: 'snapshot', label: 'Global Snapshot', current: view === 'snapshot' },
     { id: 'mine', label: 'My Projects', current: view === 'mine' },
-    { id: 'skus', label: 'Adding SKUs', current: view === 'skus' },
+    // Insights and Adding SKUs are out of the menu for now; their pages still open at #insights and #skus.
   ];
 
   return (

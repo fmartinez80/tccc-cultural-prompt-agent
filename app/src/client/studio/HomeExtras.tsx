@@ -1,6 +1,7 @@
 // Home-screen modules: the welcome with its three illustrated features, "How
 // It Works" (the six steps), and the product roadmap.
 
+import type { ReactNode } from 'react';
 
 import { ProductsIllustration, SeasoningIllustration, WorkflowIllustration } from './Illustrations.tsx';
 import { ROADMAP } from './roadmap.ts';
@@ -34,7 +35,7 @@ const FEATURES = [
 ];
 
 /** The welcome at the top of home: headline, pitch and three illustrated features (Fernando's layout, 2026-10-07). */
-export function Intro() {
+export function Intro({ children }: { children?: ReactNode }) {
   return (
     <section className={styles.intro} aria-label="About Scene Composer">
       <h1 className={styles.introTitle}>Welcome to Scene Composer</h1>
@@ -44,6 +45,7 @@ export function Intro() {
         <strong>Scene Composer</strong> helps creative teams design vibrant, authentic meal scenes in minutes. Pick your market, select your product SKU, choose your
         menu, and build your scene with confidence.
       </p>
+      {children}
       <ul className={styles.features}>
         {FEATURES.map(({ Art, title, text }) => (
           <li key={title} className={styles.feature}>

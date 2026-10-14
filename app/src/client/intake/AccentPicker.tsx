@@ -104,9 +104,9 @@ export function AccentPicker({
   return (
     <section className={inDialog ? `${styles.accentPicker} ${styles.accentPickerInDialog}` : styles.accentPicker}>
       {inDialog ? (
-        <h3 className={styles.accentQuestion}>{dishAndDrink ? 'Dish and Drink, or a Third Item?' : 'One Small Accent'}</h3>
+        <h3 className={styles.accentQuestion}>{dishAndDrink ? 'Dish & Drink, or a Third Item?' : 'One Small Accent'}</h3>
       ) : (
-        <h2>{dishAndDrink ? 'Dish and Drink, or a Third Item' : 'One Small Accent'}</h2>
+        <h2>{dishAndDrink ? 'Dish & Drink, or a Third Item' : 'One Small Accent'}</h2>
       )}
       <p>
         {dishAndDrink

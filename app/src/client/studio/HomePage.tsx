@@ -154,8 +154,9 @@ function Gallery() {
 export function HomePage({ draftInProgress, onNewScene, onContinue }: Omit<HomePageProps, 'onSnapshot'>) {
   return (
     <div className={styles.page}>
-      <Intro />
-      <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
+      <Intro>
+        <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
+      </Intro>
       <HowItWorks />
       <Gallery />
     </div>

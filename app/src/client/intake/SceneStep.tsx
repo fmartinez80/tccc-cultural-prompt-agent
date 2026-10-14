@@ -15,6 +15,7 @@ import { TextArea } from '../ui/TextArea.tsx';
 import { VENUE_TYPES } from '../../shared/venues.ts';
 import { AgentStatus } from './AgentStatus.tsx';
 import { TIME_LABELS, type Brief } from './types.ts';
+import noteStyles from './DecisionStep.module.css';
 import styles from './SceneStep.module.css';
 import { StepActions } from './StepActions.tsx';
 
@@ -123,11 +124,11 @@ export function SceneStep({
   const needSurface = scene.venue === 'on-the-go' && !scene.surface;
 
   return (
-    <section>
-      <h1>Time and Place</h1>
+    <section className={clearsNote ? noteStyles.withNote : undefined}>
+      <h1>Time &amp; Place</h1>
       <p>The time and place of the meal.</p>
       {clearsNote && (
-        <Alert tone="warning" title="Changing this clears later choices">
+        <Alert tone="warning" title="Changing this clears later choices" className={noteStyles.sideNote}>
           Changing the venue, kind of place or party clears {clearsNote} you already chose. The time, setting and surface only
           redo the layout.
         </Alert>
