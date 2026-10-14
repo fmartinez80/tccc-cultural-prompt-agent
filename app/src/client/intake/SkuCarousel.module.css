@@ -83,7 +83,7 @@
 
 .name {
   padding-top: 6px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
 }
@@ -131,6 +131,6 @@
   border: 2px dashed var(--neo-ink);
   border-radius: var(--bay-r-sm);
   color: var(--bay-text-3);
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
 }

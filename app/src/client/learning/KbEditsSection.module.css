@@ -7,13 +7,13 @@
 .sectionTitle {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 18px;
+  font-size: 16px;
   color: var(--bay-text);
 }
 
 .sectionHint {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
 }
 
@@ -59,7 +59,7 @@
 
 .fileHeading {
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--bay-text);
 }
@@ -113,7 +113,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-2);
 }
 
@@ -140,7 +140,7 @@
 
 .empty {
   padding: 16px;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
   border: var(--neo-border);
   border-radius: var(--bay-r-md);

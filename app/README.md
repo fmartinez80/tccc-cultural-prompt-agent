@@ -52,7 +52,7 @@ results.
 - Knowledge base: `knowledge-base/` (Markdown, copied from the reference repo); rules: `rules/*.json`.
 - Solver, prompts and registry: `src/shared/`; agent + KB excerpting: `src/server/`; API: `src/api.ts`.
 
-Signed-in people land on the **home** dashboard (the Prod X logo always returns there): a welcome, **Project Data**
+Signed-in people land on the **home** dashboard (the Scene Composer logo always returns there): a welcome, **Project Data**
 (the team's most popular meals or regions), **Recently Added** (what the knowledge base covers and its newest country
 and regional guides, read from each file's `date_drafted`), **Get Started** (opens the composer at `#compose`) and a
 **Gallery** carousel of the latest scenes. The header holds only the logo, the signed-in email (a dropdown with Admin,

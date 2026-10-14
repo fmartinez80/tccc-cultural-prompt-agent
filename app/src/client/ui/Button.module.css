@@ -35,7 +35,7 @@
 .md {
   height: 40px;
   padding: 0 18px;
-  font-size: 14px;
+  font-size: 12.5px;
   border-width: var(--neo-border-w);
   box-shadow: var(--neo-shadow);
 }
@@ -43,7 +43,7 @@
 .sm {
   height: 32px;
   padding: 0 14px;
-  font-size: 12.5px;
+  font-size: 12px;
   border-width: 2px;
   box-shadow: var(--neo-shadow-sm);
 }

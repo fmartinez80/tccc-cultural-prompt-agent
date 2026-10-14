@@ -34,14 +34,14 @@
   margin: 0;
   font-family: var(--app-font-head);
   font-weight: var(--app-weight-headline);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.15;
   color: var(--bay-text);
 }
 
 .message {
   margin: 0;
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 1.4;
   color: var(--bay-text-2);
 }
@@ -49,7 +49,7 @@
 .label {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 1.2;
   text-align: center;
   color: var(--bay-text);
@@ -58,7 +58,7 @@
 .percent {
   margin: -8px 0 0;
   font-family: var(--bay-font-mono);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   line-height: 1;

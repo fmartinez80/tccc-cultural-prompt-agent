@@ -74,15 +74,15 @@ function openView(view: View) {
 }
 
 const STEP_META: Record<StepId, { label: string }> = {
-  brief: { label: 'Brief' },
+  brief: { label: 'Getting Started' },
   scene: { label: 'Time & Place' },
   prep: { label: 'Preparation' },
   plating: { label: 'Plating' },
   sides: { label: 'Sides' },
   camera: { label: 'Camera' },
   layout: { label: 'Layout' },
-  review: { label: 'Sketch review' },
-  story: { label: 'Story & scene' },
+  review: { label: 'Sketch Review' },
+  story: { label: 'Story & Scene' },
   workspace: { label: 'Node workspace' },
 };
 
@@ -354,8 +354,8 @@ export function App() {
           return (
             <EmptyState
               title="Pick a layout first"
-              hint="Go to Sketch review, which picks the best layout for this table."
-              action={<Button onPress={() => setStep('review')}>Go to Sketch review</Button>}
+              hint="Go to Sketch Review, which picks the best layout for this table."
+              action={<Button onPress={() => setStep('review')}>Go to Sketch Review</Button>}
             />
           );
         }
@@ -384,8 +384,8 @@ export function App() {
           return (
             <EmptyState
               title="Create the scene first"
-              hint="Go back to Story & scene and create the scene."
-              action={<Button onPress={() => setStep('story')}>Go to Story & scene</Button>}
+              hint="Go back to Story & Scene and create the scene."
+              action={<Button onPress={() => setStep('story')}>Go to Story & Scene</Button>}
             />
           );
         }
@@ -421,7 +421,7 @@ export function App() {
         <a
           href="/"
           className={styles.logoLink}
-          aria-label="Prod X home"
+          aria-label="Scene Composer home"
           onClick={(e) => {
             e.preventDefault();
             openView('home');

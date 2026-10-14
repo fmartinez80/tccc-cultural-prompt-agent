@@ -65,7 +65,7 @@
 
 .title {
   font-family: var(--app-font-head);
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: var(--app-weight-headline);
   line-height: 1.25;
   color: var(--bay-text);
@@ -108,7 +108,7 @@
   padding: 16px 20px 20px;
   background: var(--neo-card);
   border-top: var(--neo-border-thin);
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 20px;
   color: var(--bay-text-2);
 }

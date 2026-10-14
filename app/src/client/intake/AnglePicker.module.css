@@ -6,7 +6,7 @@
 
 .framingNote {
   margin: 0 0 8px;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
 }
 
@@ -98,7 +98,7 @@
 }
 
 .fallbackLabel {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: var(--app-weight-subhead);
   color: var(--bay-text-2);
 }
@@ -108,7 +108,7 @@
 }
 
 .label {
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: var(--app-weight-subhead);
   color: var(--bay-text);
   text-align: center;

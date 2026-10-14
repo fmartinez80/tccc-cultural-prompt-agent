@@ -37,11 +37,11 @@ const FEATURES = [
 export function Intro() {
   return (
     <section className={styles.intro} aria-label="About Scene Composer">
-      <h1 className={styles.introTitle}>Welcome to ProdX Scene Composer</h1>
+      <h1 className={styles.introTitle}>Welcome to Scene Composer</h1>
       <p className={styles.introPitch}>
         Setting the table for great brand stories just got a whole lot easier!
         <br />
-        <strong>ProdX Scene Composer</strong> helps creative teams design vibrant, authentic Coca-Cola meal scenes in minutes. Pick your market, select your product SKU, choose your
+        <strong>Scene Composer</strong> helps creative teams design vibrant, authentic Coca-Cola meal scenes in minutes. Pick your market, select your product SKU, choose your
         menu, and build your scene with confidence.
       </p>
       <ul className={styles.features}>

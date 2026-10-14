@@ -23,7 +23,7 @@
 .value {
   flex: 1;
   min-width: 0;
-  font-size: 14px;
+  font-size: 12.5px;
   color: var(--bay-text);
 }
 
@@ -54,7 +54,7 @@
   padding-bottom: 6px;
   border-bottom: var(--neo-border);
   font-family: var(--app-font-head);
-  font-size: 26px;
+  font-size: 23.5px;
   font-weight: var(--app-weight-headline);
   line-height: 1;
   text-transform: uppercase;
@@ -93,7 +93,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   line-clamp: 3;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
   color: var(--bay-text);
 }
