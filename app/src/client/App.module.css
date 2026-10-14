@@ -14,8 +14,8 @@
 /* The logo, unboxed, at the left of the header row (same line as Learning, Start over and the name). */
 .logoImg {
   display: block;
-  height: 62px; /* 49.5px + 25% */
-  width: auto;
+  width: 254px; /* twice the old ProdX logo's width */
+  height: auto;
   max-width: 100%;
 }
 
@@ -227,7 +227,7 @@
     position: static;
   }
   .logoImg {
-    height: 48px; /* 38.5px + 25% */
+    width: 196px;
   }
   .rail {
     flex-direction: row;

@@ -459,7 +459,7 @@ export function App() {
             openView('home');
           }}
         >
-          <img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logoImg} />
+          <img src="/scene-composer-logo.png" alt="Scene Composer" className={styles.logoImg} />
         </a>
       }
       user={profile.data ?? undefined}
