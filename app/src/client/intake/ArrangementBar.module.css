@@ -1,4 +1,4 @@
-/* The side panel beside the sketch: layout guide, arrangements, accent. */
+/* The side panel beside the sketch: a carousel of layout guides, then the accent. */
 .bar {
   display: flex;
   flex-direction: column;
@@ -48,8 +48,8 @@
   min-width: 0;
 }
 
-/* Spans the panel edge to edge. */
-.previewTitle {
+/* Spans the panel edge to edge. Doubled class outranks the step's plain h3 rule. */
+.previewTitle.previewTitle {
   margin: 0;
   padding-bottom: 6px;
   border-bottom: var(--neo-border);
@@ -156,76 +156,88 @@
   border-style: dashed;
 }
 
-.section {
+/* The guide with round prev/next buttons straddling its side edges. */
+.stage {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.thumbs {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
-}
-
-.thumb {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  min-width: 0;
-  padding: 4px;
-  border: var(--neo-border-thin);
-  border-radius: var(--bay-r-sm);
-  background: var(--bay-surface, var(--neo-card));
-  color: var(--bay-text-2);
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
-  transition:
-    transform 120ms ease,
-    box-shadow 120ms ease;
-}
-
-.thumb > img,
-.thumb > div {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 3px;
-}
-
-.thumb:hover:not(:disabled) {
-  transform: translate(-1px, -1px);
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  transform: translateY(-50%);
+  border: var(--neo-border);
+  border-radius: 50%;
+  background: var(--neo-card);
   box-shadow: var(--neo-shadow-sm);
+  color: var(--neo-ink);
+  cursor: pointer;
 }
 
-.thumb:focus-visible {
-  outline: 2px solid var(--bay-accent, currentColor);
+.arrow[data-side='prev'] {
+  left: -18px;
+}
+
+.arrow[data-side='next'] {
+  right: -18px;
+}
+
+.arrow:hover {
+  background: var(--neo-hover);
+}
+
+.arrow:focus-visible {
+  outline: 3px solid var(--neo-selected);
   outline-offset: 2px;
 }
 
-.thumb[aria-pressed='true'] {
-  border: var(--neo-border-w) solid var(--neo-selected);
-  background: var(--neo-selected);
-  box-shadow: var(--neo-shadow-sm);
-  color: var(--neo-on-selected);
-}
-
-.thumb:disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
-
-.thumbLabel {
+/* Where the shown layout sits among them; the drawn one is ringed. 28px hit areas. */
+.dots {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 4px 6px;
-  font-size: var(--app-text-min);
-  font-weight: 700;
-  line-height: 1.3;
+  margin: -4px 0 -6px;
+}
+
+.dot {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dot::after {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border: 1.5px solid var(--neo-ink);
+  border-radius: 50%;
+  background: var(--neo-card);
+}
+
+.dot[data-current]::after {
+  background: var(--neo-ink);
+}
+
+.dot:focus-visible {
+  outline: 3px solid var(--neo-selected);
+  outline-offset: -4px;
+  border-radius: 50%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
 }
 
 .inUse {
