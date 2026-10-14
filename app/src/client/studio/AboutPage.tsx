@@ -81,7 +81,11 @@ export function AboutPage() {
       <article className={styles.content}>
         <section id="about-overview" className={styles.section}>
           <p className={styles.eyebrow}>About Us</p>
-          <h1 className={styles.title}>Every scene starts with a place, not a prompt.</h1>
+          <h1 className={styles.title}>
+            Every scene starts with a place,
+            <br />
+            not a prompt.
+          </h1>
           <p className={styles.lede}>
             SCENE COMPOSER builds photoreal dining scenes that hold up to a local eye. Behind every image is a cultural
             knowledge base written dish by dish, region by region, and a pipeline that checks its own work before and
