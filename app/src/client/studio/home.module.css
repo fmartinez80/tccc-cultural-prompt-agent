@@ -17,7 +17,7 @@
   margin: 0;
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 22.5px;
+  font-size: 20px;
 }
 
 .fold {
@@ -44,7 +44,7 @@
   margin: 0;
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.05;
   text-align: center;
 }
@@ -82,7 +82,7 @@
   background: var(--neo-paper);
   border: var(--neo-border);
   font-family: var(--app-font-head);
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1;
 }
 
@@ -100,7 +100,7 @@
 .stepTitle {
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.15;
 }
 
@@ -108,7 +108,7 @@
   margin: 0;
   padding: 12px 12px 16px;
   color: var(--bay-text-2);
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 1.45;
   text-align: center;
 }
@@ -152,7 +152,7 @@
 .phaseTitle {
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 25px;
+  font-size: 22.5px;
 }
 
 .phaseLabel {
@@ -168,7 +168,7 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 1.4;
 }
 
@@ -187,7 +187,7 @@
     grid-template-columns: minmax(0, 1fr);
   }
   .howTitle {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 
@@ -206,7 +206,7 @@
   text-align: center;
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: clamp(32px, 5vw, 52px);
+  font-size: clamp(29px, 4.5vw, 47px);
   line-height: 1.05;
   color: var(--neo-selected);
 }
@@ -214,7 +214,7 @@
 .introPitch {
   margin: 0;
   max-width: 60ch;
-  font-size: 17px;
+  font-size: 15.5px;
   line-height: 1.5;
   color: var(--bay-text-2);
 }
@@ -259,12 +259,12 @@
 
 .featureTitle {
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 14.5px;
 }
 
 .featureText {
   max-width: 34ch;
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 1.5;
   color: var(--bay-text-2);
 }

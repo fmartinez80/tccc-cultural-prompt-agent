@@ -14,14 +14,14 @@
 
 .title {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.05;
   color: var(--bay-text);
 }
 
 .description {
   margin: 6px 0 0;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
   color: var(--bay-text-3);
 }

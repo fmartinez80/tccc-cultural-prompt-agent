@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: var(--app-weight-subhead);
   color: var(--bay-text);
 }
@@ -56,7 +56,7 @@
 /* Beats the step-wide paragraph style, which is sized for intros. */
 .customIntro .customHint {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 18px;
   color: var(--bay-text-3);
 }
@@ -140,7 +140,7 @@
 
 .tableName {
   display: block;
-  font-size: 15px;
+  font-size: 13.5px;
   line-height: 20px;
   color: var(--bay-text);
 }
@@ -169,13 +169,13 @@
 
 .accentQuestion {
   margin: 0 0 6px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: var(--app-weight-subhead);
 }
 
 .accentPicker .compositionList h3 {
   margin: 0;
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: var(--app-weight-subhead);
 }
 
@@ -183,4 +183,30 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+/* The "clears later choices" note sits in a column at the right, a third of the
+   content width, its top level with the headline, so the options start above the fold.
+   The headline and intro keep to the other two thirds. Doubled classes outrank the
+   step heading rules in App.module.css. */
+.withNote {
+  position: relative;
+  --note-w: calc((100% - 24px) / 3);
+}
+
+.withNote.withNote > h1 {
+  padding-right: calc(var(--note-w) + 24px + 10px);
+}
+
+.withNote.withNote > p:first-of-type {
+  max-width: min(640px, calc(100% - var(--note-w) - 24px));
+}
+
+.sideNote {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 31; /* above the sticky headline band, which leaves this column empty */
+  width: var(--note-w);
+  box-sizing: border-box;
 }

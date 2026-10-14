@@ -69,7 +69,7 @@
 .accentBarValue {
   flex: 1;
   min-width: 0;
-  font-size: 14px;
+  font-size: 12.5px;
   color: var(--bay-text);
 }
 
@@ -86,7 +86,7 @@
 
 .layoutsCount {
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: var(--app-weight-text);
   color: var(--bay-text-3);
 }
@@ -104,4 +104,6 @@
 .prepFrame {
   aspect-ratio: 16 / 9;
   width: 100%;
+  max-width: var(--app-frame-max-w);
+  margin-inline: auto;
 }

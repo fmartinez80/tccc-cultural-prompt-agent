@@ -60,6 +60,11 @@
   --app-weight-subhead: 700;
   /* Headlines use --app-font-head at its only weight. */
   --app-weight-headline: 400;
+  /* Width of the step rail; the header logo matches it so it sits centred above the rail. */
+  --app-rail-w: 240px;
+  /* Widest a 16:9 scene image or sketch may be, so the whole frame fits in the window
+     under the header, step headline and action bar without scrolling. */
+  --app-frame-max-w: max(560px, calc((100vh - 360px) * 16 / 9));
 
   /* --- Shared tokens, remapped --- */
   --bay-text: #000000;

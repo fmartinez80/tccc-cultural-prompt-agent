@@ -45,7 +45,7 @@
 
 .meta {
   color: var(--bay-text-3);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .howTo {
@@ -66,12 +66,12 @@
 
 .howTo code {
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .title {
   margin: 0 0 10px;
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
