@@ -34,6 +34,7 @@ import { LearningPage } from './learning/LearningPage.tsx';
 import { MyScenesPage } from './studio/MyScenesPage.tsx';
 import { HomePage, InsightsPage, WhatsNewPage } from './studio/HomePage.tsx';
 import { SnapshotPage } from './studio/SnapshotPage.tsx';
+import { AboutPage } from './studio/AboutPage.tsx';
 import { SkusPage } from './skus/SkusPage.tsx';
 import styles from './App.module.css';
 
@@ -44,6 +45,7 @@ const VIEW_HASH = {
   compose: '#compose',
   insights: '#insights',
   whatsNew: '#whats-new',
+  about: '#about',
   snapshot: '#snapshot',
   mine: '#my-projects',
   skus: '#skus',
@@ -410,6 +412,7 @@ export function App() {
     ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
     { id: 'insights', label: 'Insights', current: view === 'insights' },
     { id: 'whatsNew', label: "What's New", current: view === 'whatsNew' },
+    { id: 'about', label: 'About Us', current: view === 'about' },
     { id: 'snapshot', label: 'Global Snapshot', current: view === 'snapshot' },
     { id: 'mine', label: 'My Projects', current: view === 'mine' },
     { id: 'skus', label: 'Adding SKUs', current: view === 'skus' },
@@ -502,6 +505,10 @@ export function App() {
       ) : view === 'whatsNew' ? (
         <ErrorBoundary label="what's new">
           <WhatsNewPage />
+        </ErrorBoundary>
+      ) : view === 'about' ? (
+        <ErrorBoundary label="about us">
+          <AboutPage />
         </ErrorBoundary>
       ) : view === 'snapshot' ? (
         <ErrorBoundary label="global snapshot">
