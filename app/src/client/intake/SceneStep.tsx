@@ -126,7 +126,11 @@ export function SceneStep({
   return (
     <section className={clearsNote ? noteStyles.withNote : undefined}>
       <h1>Time &amp; Place</h1>
-      <p>The time and place of the meal.</p>
+      <p>
+        Let&rsquo;s set the scene.
+        <br />
+        Define time of day, and whether we are at home, dining out or on the go.
+      </p>
       {clearsNote && (
         <Alert tone="warning" title="Changing this clears later choices" className={noteStyles.sideNote}>
           Changing the venue, kind of place or party clears {clearsNote} you already chose. The time, setting and surface only
