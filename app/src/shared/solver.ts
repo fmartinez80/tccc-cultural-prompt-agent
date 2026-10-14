@@ -45,6 +45,13 @@ export const ARCHETYPE_INFO: Record<Archetype, { name: string; idea: string }> =
 export interface LayoutOption {
   archetype: Archetype;
   blueprint: Blueprint;
+  /** Set on an arrangement the art director made in the sketch editor. */
+  edit?: {
+    /** The solver's arrangement it was edited from (its index in the options). */
+    from: number;
+    /** The sketch on screen when it was edited: the redraw copies its drawing style. */
+    styleUrl?: string;
+  };
 }
 
 export interface SolveResult {
@@ -70,13 +77,18 @@ function edgeGap(a: Placed, b: Placed): number {
 
 /** Minimum edge-to-edge spacing between two items (tableware reference §7). */
 function minGap(a: Placed, b: Placed, multi: { sku: string; clearance: number } | null): number {
-  const k = [a.item.kind, b.item.kind].sort().join("+");
   if (multi && (a.item.label === multi.sku || b.item.label === multi.sku)) {
     // Clearance radius is measured from the bottle's center.
     return Math.max(0.015, multi.clearance - footprintRadius((a.item.label === multi.sku ? a : b).item.def));
   }
+  return kindGap(a.item.kind, b.item.kind);
+}
+
+/** Minimum edge-to-edge spacing between two kinds of item (tableware reference §7); the sketch editor uses it too. */
+export function kindGap(ka: string, kb: string): number {
+  const k = [ka, kb].sort().join("+");
   if (k === "side+side" || k === "shared-side+shared-side" || k === "shared-side+side") return 0.05;
-  if (a.item.kind === "bread" || b.item.kind === "bread") return 0.05;
+  if (ka === "bread" || kb === "bread") return 0.05;
   if (k === "condiment+condiment" || k === "accent+condiment") return 0.01;
   if (k === "main+napkin-set") return 0.03;
   return 0.015;

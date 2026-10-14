@@ -8,6 +8,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Selections } from '../../shared/spec.ts';
 import type { Decision, StepName } from '../../shared/types.ts';
 import type { LayoutReview } from '../../shared/review.ts';
+import type { LayoutOption } from '../../shared/solver.ts';
 import type { Validation } from '../../shared/story.ts';
 import { EMPTY_WORKSPACE, type WorkspaceState } from '../../shared/workspace.ts';
 import type { Brief, ComposeResult, StepId, StoryState } from './types.ts';
@@ -323,6 +324,34 @@ export function useIntake() {
     setDraft((d) => ({ ...d, story, validation: null, turnarounds: {}, workspace: freshSegments(d.workspace) }));
   }, []);
 
+  /**
+   * An arrangement made in the sketch editor: it joins the arrangements and becomes the one
+   * drawn. Editing an edit replaces it, so each solver arrangement has at most one edit.
+   */
+  const addEditedLayout = useCallback((option: LayoutOption, review: LayoutReview) => {
+    setDraft((d) => {
+      if (!d.compose || d.picked === null) return d;
+      const options = [...d.compose.options];
+      let picked = d.picked;
+      if (options[picked]?.edit) options[picked] = option;
+      else {
+        const prior = options.findIndex((o) => o.edit?.from === option.edit?.from);
+        if (prior >= 0) options[prior] = option;
+        else options.push(option);
+        picked = prior >= 0 ? prior : options.length - 1;
+      }
+      return {
+        ...d,
+        compose: { ...d.compose, options },
+        picked,
+        review,
+        story: null,
+        validation: null,
+        workspace: { ...freshSegments(d.workspace), proxy: null },
+      };
+    });
+  }, []);
+
   /** The review feeds the story, so changing it drops a story written before the change. */
   const setReview = useCallback((review: LayoutReview) => {
     setDraft((d) => {
@@ -386,6 +415,7 @@ export function useIntake() {
     setPicked,
     setStory,
     setReview,
+    addEditedLayout,
     setSketch,
     setValidation,
     setTurnaroundView,
