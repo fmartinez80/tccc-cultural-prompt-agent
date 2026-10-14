@@ -51,7 +51,7 @@ export function LoginPage({ error }: { error?: string | undefined }) {
   return (
     <div className={styles.page}>
       <div className={styles.card}>
-        <img src="/prodx-logo.png" alt="Prod X by Studio X" className={styles.logo} />
+        <img src="/scene-composer-logo.png" alt="Scene Composer" className={styles.logo} />
         <h1 className={styles.title}>Scene Composer</h1>
         {sentTo ? (
           <div className={styles.sent}>
