@@ -537,12 +537,6 @@ export function ReviewStep({
             {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Redraw'}
           </Button>
         </div>
-          {hasStory && (
-            <Alert tone="info" title="This layout already has a scene">
-              Changing anything here rewrites the scene when you continue.
-            </Alert>
-          )}
-
           <div className={styles.detailBar} aria-live="polite">
             {drawing ? null : run?.error ? (
               signIn ? (
@@ -581,6 +575,11 @@ export function ReviewStep({
               </div>
             )}
           </div>
+          {hasStory && (
+            <Alert tone="info" title="This layout already has a scene">
+              Changing anything here rewrites the scene when you continue.
+            </Alert>
+          )}
         </div>
 
         {arrangement?.(drawing)}

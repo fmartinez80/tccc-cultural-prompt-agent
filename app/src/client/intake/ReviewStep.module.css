@@ -139,7 +139,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 12px 0 24px;
+  margin: 12px 0;
 }
 
 /* Download, as an icon button in the sketch's top-right corner. Doubled class beats `.frame > *`. */
@@ -572,9 +572,10 @@
   }
 }
 
-/* The detailed sketch's status and action, above the frame + items grid. */
+/* The detailed sketch's status line (or its error), under the Edit sketch / Redraw row.
+   In normal flow, so a note after it (the scene alert) never overlaps it. */
 .detailBar {
-  margin: -12px 0 20px;
+  margin: 0 0 16px;
 }
 
 /* One line under the title; the long explanation is behind a toggle so the sketch sits in the first screen. */
