@@ -771,7 +771,7 @@ export function ReviewStep({
       </div>
       </div>
 
-      <StepActions>
+      <StepActions pinned={false}>
         {detail && !expired && detailStale && !drawing && pending.length > 0 && (
           <Button icon={<RotateCw size={16} aria-hidden />} onPress={() => setConfirmRedraw(true)}>
             Redraw with {pendingText}
