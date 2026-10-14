@@ -138,10 +138,54 @@
 .toolbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 12px 0 24px;
+  margin: 12px 0;
+}
+
+/* Download, as an icon button in the sketch's top-right corner. Doubled class beats `.frame > *`. */
+.frame > .frameDownload.frameDownload {
+  inset: 12px 12px auto auto;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: var(--neo-border);
+  border-radius: var(--bay-r-sm);
+  background: var(--neo-card);
+  box-shadow: var(--neo-shadow-sm);
+  color: var(--neo-ink);
+  cursor: pointer;
+}
+
+.frameDownload:hover {
+  background: var(--neo-hover);
+}
+
+.frameDownload:focus-visible {
+  outline: 3px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+/* Items title, the tally and Mark the rest working on one line. */
+.itemsHead {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-bottom: 10px;
+}
+
+.itemsHead > .sectionTitle {
+  margin: 0;
+}
+
+.itemsHead > :last-child {
+  margin-left: auto;
 }
 
 .tally {
@@ -150,10 +194,27 @@
   color: var(--bay-text-3);
 }
 
-.toolbarActions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
+/* One line under the title; the long explanation is behind a toggle so the sketch sits in the first screen. */
+.lede {
+  margin: 0;
+  max-width: 72ch;
+}
+
+.howLink {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.how {
+  margin: 8px 0 0;
+  max-width: 72ch;
+  color: var(--bay-text-2);
 }
 
 .sectionTitle {
@@ -537,8 +598,9 @@
 }
 
 /* The detailed sketch's status and action, above the frame + items grid. */
+/* The sketch's status line (or its error), under Redraw. In normal flow, so the scene note after it never overlaps it. */
 .detailBar {
-  margin: 4px 0 20px;
+  margin: 0 0 16px;
 }
 
 .detailRow {

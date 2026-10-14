@@ -360,76 +360,27 @@ export function ReviewStep({
     void drawDetail();
   };
 
+  // The long explanation sits behind a link so the sketch lands in the first screen.
+  const [howOpen, setHowOpen] = useState(false);
   const signIn = run?.error ? signInRequiredFrom(run.cause) : null;
   const forbidden = run?.error ? isForbidden(run.cause) : false;
 
   return (
     <section>
       <h1>Review the Sketch</h1>
-      <p>
-        This is the scene sketched in pencil through the camera you picked: the food, dishes and drinks where they will land in the photo. Click an item
-        or its number to mark what is working and what isn't, and add anything else the scene needs. Your notes go into the scene description and the image prompt
-        before the photograph is made.
+      <p className={styles.lede}>
+        The photo is made from this sketch. Mark each item Working or Change, then continue.{' '}
+        <button type="button" className={styles.howLink} aria-expanded={howOpen} onClick={() => setHowOpen((v) => !v)}>
+          {howOpen ? 'Hide how this works' : 'How this works'}
+        </button>
       </p>
-
-      {hasStory && (
-        <Alert tone="info" title="This layout already has a scene">
-          Changing anything here rewrites the scene when you continue.
-        </Alert>
+      {howOpen && (
+        <p className={styles.how}>
+          This is the scene sketched in pencil through the camera you picked: the food, dishes and drinks where they will land in the photo. Click an item
+          or its number to mark what is working and what isn't, and add anything else the scene needs. Your notes go into the scene description and the image prompt
+          before the photograph is made.
+        </p>
       )}
-
-      <div className={styles.detailBar} aria-live="polite">
-        {drawing ? (
-          showDetail ? (
-            <p className={styles.detailText}>Redrawing the sketch. The current one stays until the new one is ready.</p>
-          ) : (
-            <p className={styles.detailText}>You can start marking items while the sketch draws.</p>
-          )
-        ) : run?.error ? (
-          signIn ? (
-            <SignInPrompt
-              onSignedIn={() => void drawDetail()}
-            />
-          ) : (
-            <Alert tone="error" title={forbidden ? 'Monthly limit reached' : "Couldn't draw the sketch"}>
-              {forbidden ? (
-                `${run.error} The outline drawing below still shows where each item sits.`
-              ) : (
-                <span className={styles.errorBody}>
-                  {run.error} The outline drawing below shows where each item sits until it can be drawn.
-                  <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={() => void drawDetail()}>
-                    Try again
-                  </Button>
-                </span>
-              )}
-            </Alert>
-          )
-        ) : (
-          <div className={styles.detailRow}>
-            <p className={styles.detailText}>
-              {!detail
-                ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, counted toward your monthly limit).`
-                : expired
-                  ? 'The sketch has expired. Draw it again to see it; the outline drawing shows where each item sits meanwhile.'
-                  : detailStale
-                    ? pending.length
-                      ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw counts toward your monthly limit.`
-                      : 'The sketch was drawn from an earlier version of the prompt. Redraw it to bring it up to date.'
-                    : changes.length
-                      ? 'The sketch includes your changes.'
-                      : 'The sketch is up to date with this layout.'}
-            </p>
-            <Button
-              size="sm"
-              variant={!detail || expired ? 'primary' : detailStale ? 'default' : 'ghost'}
-              icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
-              onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
-            >
-              {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Draw again'}
-            </Button>
-          </div>
-        )}
-      </div>
 
       <div className={styles.compare}>
         <div className={styles.frameCol}>
@@ -453,6 +404,11 @@ export function ReviewStep({
             <SkeletonBlock height="100%" />
           )}
           {sketch && <canvas className={styles.overlay} ref={overlayRef} aria-hidden />}
+          {(sketch || showDetail) && !drawing && (
+            <button type="button" className={styles.frameDownload} onClick={() => void download()} aria-label={showDetail ? 'Download the sketch' : 'Download the outline'}>
+              <Download size={16} aria-hidden />
+            </button>
+          )}
           {drawing && <ProgressRing label={showDetail ? 'Redrawing the sketch' : 'Drawing the sketch'} progress={progress ?? null} />}
           {sketch && (
             <div
@@ -487,19 +443,61 @@ export function ReviewStep({
           })}
         </div>
 
+        {/* Under the sketch: draw it again on the right; its status line and any note below. */}
         <div className={styles.toolbar}>
-          <span className={styles.tally}>
-            {counts.keep} working · {counts.change} to change{unmarked ? ` · ${unmarked} unmarked` : ''}
-          </span>
-          <div className={styles.toolbarActions}>
-            <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} onPress={markAllWorking} disabled={unmarked === 0}>
-              Mark the rest working
-            </Button>
-            <Button size="sm" variant="ghost" icon={<Download size={14} aria-hidden />} onPress={download} disabled={!sketch && !showDetail}>
-              {showDetail ? 'Download sketch' : 'Download outline'}
-            </Button>
-          </div>
+          <Button
+            size="sm"
+            variant={!detail || expired ? 'primary' : 'default'}
+            icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
+            onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
+            disabled={drawing}
+          >
+            {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Redraw'}
+          </Button>
         </div>
+          <div className={styles.detailBar} aria-live="polite">
+            {drawing ? null : run?.error ? (
+              signIn ? (
+                <SignInPrompt
+                  onSignedIn={() => void drawDetail()}
+                />
+              ) : (
+                <Alert tone="error" title={forbidden ? 'Monthly limit reached' : "Couldn't draw the sketch"}>
+                  {forbidden ? (
+                    `${run.error} The outline drawing below still shows where each item sits.`
+                  ) : (
+                    <span className={styles.errorBody}>
+                      {run.error} The outline drawing below shows where each item sits until it can be drawn.
+                      <Button size="sm" icon={<RotateCw size={14} aria-hidden />} onPress={() => void drawDetail()}>
+                        Try again
+                      </Button>
+                    </span>
+                  )}
+                </Alert>
+              )
+            ) : (
+              <div className={styles.detailRow}>
+                <p className={styles.detailText}>
+                  {!detail
+                    ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, counted toward your monthly limit).`
+                    : expired
+                      ? 'The sketch has expired. Draw it again to see it; the outline drawing shows where each item sits meanwhile.'
+                      : detailStale
+                        ? pending.length
+                          ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw counts toward your monthly limit.`
+                          : 'The sketch was drawn from an earlier version of the prompt. Redraw it to bring it up to date.'
+                        : changes.length
+                          ? 'The sketch includes your changes.'
+                          : 'The sketch is up to date with this layout.'}
+                </p>
+              </div>
+            )}
+          </div>
+          {hasStory && (
+            <Alert tone="info" title="This layout already has a scene">
+              Changing anything here rewrites the scene when you continue.
+            </Alert>
+          )}
         </div>
 
         {arrangement?.(drawing)}
@@ -507,7 +505,15 @@ export function ReviewStep({
 
       <div className={styles.layoutGrid}>
         <div className={styles.itemsCol}>
-        <h2 className={styles.sectionTitle}>Items</h2>
+        <div className={styles.itemsHead}>
+          <h2 className={styles.sectionTitle}>Items</h2>
+          <span className={styles.tally}>
+            {counts.keep} working · {counts.change} to change{unmarked ? ` · ${unmarked} unmarked` : ''}
+          </span>
+          <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} onPress={markAllWorking} disabled={unmarked === 0}>
+            Mark the rest working
+          </Button>
+        </div>
         <ol className={styles.items}>
           {bp.primitives.map((p, i) => {
             const r = review.items[p.id];
