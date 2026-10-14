@@ -45,6 +45,11 @@ const FLAGS: Record<string, string> = {
   iraq: flag_iq,
 };
 
+/** The flag image URL for a knowledge-base country id, if the app has one. */
+export function flagSrc(country: string): string | undefined {
+  return FLAGS[country];
+}
+
 /** A small flag for a knowledge-base country id; nothing for an unknown one. */
 export function Flag({ country, label }: { country: string; label: string }) {
   const src = FLAGS[country];
