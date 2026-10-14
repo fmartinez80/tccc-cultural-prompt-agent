@@ -453,9 +453,20 @@
   text-align: center;
 }
 
-.getStartedText {
+/* Headline in the display face; the subhead under it is lighter, in the body face. */
+.getStartedTitle {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 18px;
-  line-height: 1.2;
+  font-weight: var(--app-weight-headline);
+  font-size: 29px;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.getStartedText {
+  margin: 0;
+  font-family: var(--bay-font-sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
 }
