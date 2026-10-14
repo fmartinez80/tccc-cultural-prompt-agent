@@ -1,8 +1,8 @@
 // A small modal that dims the page while a whole step waits on its content:
-// the Coca-Cola contour bottle fills with cola as the work progresses, above
-// the line saying what's being prepared and a percentage that counts up. When
-// the work finishes the bottle tops up to 100% and the modal closes a moment
-// later; when it fails the modal closes at once (the error shows in the page).
+// a frying pan tosses a red arc of food and catches it, on a loop, above the
+// line saying what's being prepared and a percentage that counts up. When the
+// work finishes the count tops up to 100% and the modal closes a moment later;
+// when it fails the modal closes at once (the error shows in the page).
 
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -30,6 +30,26 @@ function useCountUp(target: number): number {
     return () => cancelAnimationFrame(frame);
   }, [target]);
   return shown;
+}
+
+/**
+ * The pan toss, after Fernando's food-market loader (2.28 s loop): the pan tips
+ * back, flicks, a red arc flies up out of the left rim, over the top and back
+ * into the pan, and the pan dips as it catches it. Drawn in the GIF's own
+ * pixel space (800 x 600) and cropped to the action.
+ */
+function PanToss() {
+  return (
+    <svg className={styles.toss} viewBox="280 136 300 288" aria-hidden>
+      <ellipse className={styles.shadow} cx="390" cy="407" rx="64" ry="7" />
+      <path className={styles.food} d="M311.2 293.1 A95 95 0 1 1 447.2 315.9" pathLength={1000} />
+      <g className={styles.pan}>
+        <path d="M312 305 H467 C466 318 456 330 445 335 H336 C324 330 314 318 312 305 Z" />
+        <rect x="469.5" y="306" width="3.5" height="16" rx="1.5" />
+        <path d="M474 309 C500 309 512 304 530 303 C545 302 566 302 566 313 C566 323 545 323 530 322 C512 321 500 319 474 319 Z" />
+      </g>
+    </svg>
+  );
 }
 
 export function LoadingOverlay({
@@ -70,18 +90,7 @@ export function LoadingOverlay({
   return createPortal(
     <div className={styles.backdrop}>
       <div className={styles.card} role="status" aria-live="polite">
-        <div className={styles.bottle} aria-hidden>
-          <div className={styles.liquidMask}>
-            <div className={styles.liquid} style={{ height: `${target}%` }}>
-              <span className={styles.wave} />
-              <span className={styles.bubble} />
-              <span className={styles.bubble} />
-              <span className={styles.bubble} />
-              <span className={styles.bubble} />
-            </div>
-          </div>
-          <img className={styles.outline} src="/loading-bottle-outline.png" alt="" draggable={false} />
-        </div>
+        <PanToss />
         <div className={styles.text}>
           {title && <p className={styles.title}>{title}</p>}
           <p className={title ? styles.message : styles.label}>{label}</p>
