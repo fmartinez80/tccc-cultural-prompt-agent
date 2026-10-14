@@ -429,7 +429,8 @@
   justify-content: center;
   align-self: center;
   width: min(100%, 640px);
-  margin-top: 43px; /* with the page gap, about 64px of space above */
+  /* Inside the intro (16px gap): 48px to the pitch above and to the feature cards below (their own 12px top margin counts). */
+  margin: 32px 0 20px;
   padding: 24px;
   text-align: center;
   background: var(--neo-selected);
