@@ -11,6 +11,7 @@ import { Button } from '../ui/Button.tsx';
 import { ChoiceCardGroup, splitSources } from '../ui/ChoiceCard.tsx';
 import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { Select } from '../ui/Select.tsx';
+import { Switch } from '../ui/Switch.tsx';
 import { TextArea } from '../ui/TextArea.tsx';
 import { VENUE_TYPES } from '../../shared/venues.ts';
 import { AgentStatus } from './AgentStatus.tsx';
@@ -188,16 +189,31 @@ export function SceneStep({
       </div>
 
       <div className={styles.field}>
+        <span className={styles.fieldLabel}>People at the table</span>
+        <Switch isSelected={!!scene.seated} onChange={(seated) => update(seated ? { seated, party: '2' } : { seated: false })}>
+          {scene.seated ? 'Yes, two people sit at the table' : 'No, the table is set but nobody sits at it'}
+        </Switch>
+        <div className={styles.hint}>
+          {scene.seated
+            ? 'They sit at a corner of the table, at a right angle to each other. Their pose is set by the layout; you describe who they are and what they wear on Review the Sketch.'
+            : 'The place settings show who the meal is for; nobody appears at the table.'}
+        </div>
+      </div>
+
+      <div className={styles.field}>
         <SegmentedControl
           label="People"
           value={scene.party}
           onChange={(v) => update({ party: v as Scene['party'] })}
           options={PARTY_OPTIONS.map((o) => ({
             ...o,
-            disabled: o.value !== '1',
+            // Group and family layouts aren't built yet; seated people come as a pair for now.
+            disabled: o.value === 'group' || o.value === 'family' || (!!scene.seated && o.value === '1'),
           }))}
         />
-        <div className={styles.hint}>Two-person, group and family layouts come in a future build.</div>
+        <div className={styles.hint}>
+          {scene.seated ? 'One seated person, groups and families come in a future build.' : 'Group and family layouts come in a future build.'}
+        </div>
       </div>
 
       <div className={styles.field}>

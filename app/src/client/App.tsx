@@ -117,6 +117,7 @@ export function App() {
     setPicked,
     setStory,
     setReview,
+    setPerson,
     addEditedLayout,
     setSketch,
     setValidation,
@@ -353,6 +354,7 @@ export function App() {
             }
             review={reviewFor(option)}
             onReview={setReview}
+            onPerson={setPerson}
             detail={draft.sketches[key] ?? draft.sketch}
             onDetail={setSketch}
             hasStory={!!draft.story}

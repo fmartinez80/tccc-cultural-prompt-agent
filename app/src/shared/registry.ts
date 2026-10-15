@@ -9,7 +9,7 @@ const plateRadius = (id: keyof typeof plateSpec.plates) => plateSpec.plates[id].
 /** Lip height 1.5-2 cm (flat profile). */
 const PLATE_HEIGHT = 0.02;
 
-export type ShapeKind = "cylinder" | "box" | "lathe-bottle" | "lathe-can" | "lathe-bell-glass" | "lathe-condiment" | "napkin";
+export type ShapeKind = "cylinder" | "box" | "lathe-bottle" | "lathe-can" | "lathe-bell-glass" | "lathe-condiment" | "napkin" | "seated-person";
 
 export interface ProxyDef {
   kind: ShapeKind;

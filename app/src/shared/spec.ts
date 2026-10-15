@@ -22,6 +22,8 @@ export interface Selections {
     surfaceText?: string;
     venueType?: string;
     environmentNote?: string;
+    /** People sit at the table (two people only, for now). */
+    seated?: boolean;
   };
   glass?: boolean;
   camera?: { look: string; angle: string };
@@ -74,6 +76,7 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
       surfaceText: (seatLikeSurface(sel.scene.surfaceText) ? undefined : sel.scene.surfaceText && withoutRoundTable(sel.scene.surfaceText)) ?? place?.surfaceText,
       venueType: place?.id,
       environmentNote: sel.scene.environmentNote?.trim() || undefined,
+      ...(sel.scene.seated && sel.scene.party === "2" ? { seated: true } : {}),
     },
     camera: sel.camera,
     sku: { ...sku, glass: resolveGlass(sku, venue, sel.glass) },

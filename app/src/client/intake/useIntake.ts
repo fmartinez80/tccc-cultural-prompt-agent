@@ -6,7 +6,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import type { Selections } from '../../shared/spec.ts';
-import type { Decision, StepName } from '../../shared/types.ts';
+import type { Decision, Primitive, StepName } from '../../shared/types.ts';
 import type { LayoutReview } from '../../shared/review.ts';
 import type { LayoutOption } from '../../shared/solver.ts';
 import type { Validation } from '../../shared/story.ts';
@@ -361,6 +361,21 @@ export function useIntake() {
     });
   }, []);
 
+  /** Who a seated person is and what they wear, kept on the picked layout's blueprint (the sketch and photo read it there). Drops a story written before. */
+  const setPerson = useCallback((id: string, person: NonNullable<Primitive['person']>) => {
+    setDraft((d) => {
+      if (!d.compose || d.picked === null) return d;
+      const options = [...d.compose.options];
+      const option = options[d.picked];
+      if (!option) return d;
+      const primitives = option.blueprint.primitives.map((p) => (p.id === id ? { ...p, person } : p));
+      options[d.picked] = { ...option, blueprint: { ...option.blueprint, primitives } };
+      const next = { ...d, compose: { ...d.compose, options } };
+      if (!d.story) return next;
+      return { ...next, story: null, validation: null, turnarounds: {}, workspace: freshSegments(d.workspace) };
+    });
+  }, []);
+
   /** Functional update of the workspace; everything in it autosaves with the draft. */
   const updateWorkspace = useCallback((fn: (ws: WorkspaceState) => WorkspaceState) => {
     setDraft((d) => ({ ...d, workspace: fn(d.workspace) }));
@@ -415,6 +430,7 @@ export function useIntake() {
     setPicked,
     setStory,
     setReview,
+    setPerson,
     addEditedLayout,
     setSketch,
     setValidation,

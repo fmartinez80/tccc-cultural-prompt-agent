@@ -5,8 +5,8 @@
 // §3-§7 and coca-cola-guidelines.md §4; composition rules follow
 // docs/tablescape/PLAN.md §5.
 
-import { clipConvex, makeCameraParams, overlapArea, polyArea, Projector, rectPoly, screenBox, silhouette, type Poly, type ScreenBox } from "./camera";
-import { bottleClearance, footprintRadius, SURFACES } from "./registry";
+import { ASPECT, clipConvex, fovFromFocal, makeCameraParams, overlapArea, polyArea, Projector, rectPoly, screenBox, silhouette, type Poly, type ScreenBox } from "./camera";
+import { bottleClearance, footprintRadius, SURFACES, type ProxyDef } from "./registry";
 import { angleById, depthById, lookById } from "./rules";
 import layoutPreferences from "../../rules/layout-preferences.json";
 import { isMultiServe, sceneItems, type ItemSpec } from "./scene";
@@ -28,7 +28,8 @@ export type Archetype =
   | "hero-lockup"
   | "across-the-table"
   | "across-offset"
-  | "corner";
+  | "corner"
+  | "seated-corner";
 
 export const ARCHETYPE_INFO: Record<Archetype, { name: string; idea: string }> = {
   "triangle-loop": { name: "Triangle Loop", idea: "a depth triangle from the entree to the drink and back to a far-left accent" },
@@ -40,6 +41,7 @@ export const ARCHETYPE_INFO: Record<Archetype, { name: string; idea: string }> =
   "across-the-table": { name: "Across the Table", idea: "a second place setting directly opposite the hero, at the far side of the table" },
   "across-offset": { name: "Across, Offset", idea: "a second place setting opposite the hero but shifted aside, so the hero's drink doesn't hide it" },
   corner: { name: "Corner Seating", idea: "the two diners meet at a corner, the second setting turned at a right angle to the hero's" },
+  "seated-corner": { name: "Seated Corner", idea: "two people sit at a right angle around a far corner of the table, seen from the opposite corner" },
 };
 
 export interface LayoutOption {
@@ -183,6 +185,8 @@ const VARIANTS: Record<Archetype, Variant[]> = {
     { condAngle: 165, accentAngle: 150, partnerOffsetX: 0.04 },
     { condAngle: 165, accentAngle: 150, partnerOffsetX: 0.06 },
   ],
+  // Placed by solveSeatedCorner, not by variants.
+  "seated-corner": [{ condAngle: 180, accentAngle: 150 }],
 };
 
 function preferredPositions(items: ItemSpec[], spec: SceneSpec, archetype: Archetype, v: Variant): Map<string, Anchor> {
@@ -1145,6 +1149,8 @@ export function describe(archetype: Archetype, placed: Placed[]): string {
       return "a second place setting sits across the table, shifted aside so the hero's drink doesn't hide it";
     case "corner":
       return "the two diners meet at a right angle, the second setting turned to face in from the table's left end";
+    case "seated-corner":
+      return "two people sit at a right angle around the table's far corner, one on the long side and one at the end, with the Coca-Cola product in front between their plates";
   }
 }
 
@@ -1185,6 +1191,16 @@ export function solve(spec: SceneSpec, maxOptions = 3): SolveResult {
 function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "options" | "infeasible"> {
   const items = sceneItems(spec);
   const infeasible: SolveResult["infeasible"] = [];
+  if (spec.scene.seated && spec.scene.party === "2") {
+    // People at the table: the seated corner, at the far-left or the far-right corner.
+    const options: LayoutOption[] = [];
+    for (const side of [-1, 1] as const) {
+      const r = solveSeatedCorner(spec, items, side);
+      if (typeof r === "string") infeasible.push({ archetype: "seated-corner", reason: r });
+      else options.push(r);
+    }
+    return { options: options.slice(0, maxOptions), infeasible };
+  }
   const candidates: LayoutOption[] = [];
   for (const a of applicableArchetypes(items)) {
     const r = solveArchetype(spec, items, a);
@@ -1204,4 +1220,195 @@ function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "opti
     if (options.every((o) => layoutDistance(o.blueprint, c.blueprint) >= MIN_OPTION_DISTANCE)) options.push(c);
   }
   return { options, infeasible };
+}
+
+// ---------------------------------------------------------------------------
+// Seated corner: two people at the table (staging, 2026-10-15)
+// ---------------------------------------------------------------------------
+
+/**
+ * A seated person for framing: shoulders, chair and forearms on the table, from the seat
+ * (SEAT_DROP below the tabletop) to the top of the head. The renderer draws the figure itself.
+ */
+export const SEATED_PERSON: ProxyDef = { kind: "seated-person", width: 0.5, depth: 0.55, height: 1.0 };
+/** The chair seat sits this far below the tabletop (45 cm seat, 75 cm table, a cushion's give). */
+export const SEAT_DROP = 0.45;
+/** How far a seated person's center sits back from the table edge. */
+const SEAT_BACK = 0.3;
+/** The camera's yaw off the table's axis, toward the corner it faces. */
+const CORNER_YAW = 45;
+
+interface Seat {
+  id: string;
+  name: string;
+  x: number;
+  d: number;
+  yaw: number;
+}
+
+/** A camera aimed at (tx, ty, -td) from `dist` away, turned `yawDeg` off the table's axis. */
+function yawedCamera(focal: number, pitchDeg: number, yawDeg: number, tx: number, ty: number, td: number, dist: number): CameraParams {
+  const p = (pitchDeg * Math.PI) / 180;
+  const y = (yawDeg * Math.PI) / 180;
+  const target: [number, number, number] = [tx, ty, -td];
+  const position: [number, number, number] = [tx + dist * Math.cos(p) * Math.sin(y), ty + dist * Math.sin(p), -td + dist * Math.cos(p) * Math.cos(y)];
+  return { focalLengthMm: focal, fovDeg: fovFromFocal(focal), pitchDeg, aspect: ASPECT, position, target };
+}
+
+/**
+ * Two people around a far corner of the table (side -1: far-left, +1: far-right): PERSON_1 on the
+ * far long side facing the camera, PERSON_2 at the table's end facing across, each with their own
+ * plate, napkin and drink, and the hero Coca-Cola product in front between the plates. The camera
+ * looks at that corner from the opposite side, turned 45 degrees, so the corner sits near the
+ * middle of the frame and both people show in three-quarter view. The one-diner rules (H1-H14)
+ * assume a straight-on camera and an empty chair, so they aren't checked here yet.
+ */
+function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): LayoutOption | string {
+  const surf = SURFACES[spec.scene.surface];
+  const W = surf.width,
+    D = surf.depth;
+  const cx = (side * W) / 2; // the corner's x
+  const inward = -side; // toward the table's middle, in x
+  const main = items.find((i) => i.kind === "main");
+  if (!main) return "no entree to seat around";
+  const r1 = footprintRadius(main.def);
+  const m1 = { x: cx + inward * (r1 + 0.3), d: D - r1 - 0.07 };
+  const m2 = { x: cx + inward * (r1 + 0.07), d: D - r1 - 0.36 };
+  const want = new Map<string, Anchor>();
+  want.set("MAIN", m1);
+  want.set("MAIN_2", m2);
+  const drinkZone = { x: cx + inward * (r1 + 0.42), d: D - r1 - 0.42 };
+  let extra = 0;
+  for (const it of items) {
+    if (want.has(it.label)) continue;
+    const half = (it.def.width ?? 2 * (it.def.radius ?? 0.05)) / 2;
+    switch (it.kind) {
+      case "napkin-set": // PERSON_1's place, on the side away from the corner
+        want.set(it.label, { x: m1.x + inward * (r1 + 0.05 + half), d: m1.d });
+        break;
+      case "partner-napkin": // PERSON_2's place, toward the camera
+        want.set(it.label, { x: m2.x, d: m2.d - r1 - 0.05 - half });
+        break;
+      case "sku":
+      case "shared-hero":
+        want.set(it.label, drinkZone);
+        break;
+      case "glass":
+        want.set(it.label, { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
+        break;
+      case "partner-sku":
+        want.set(it.label, { x: m2.x + inward * 0.04, d: m2.d - r1 - 0.2 });
+        break;
+      case "partner-glass":
+        want.set(it.label, { x: m2.x + inward * 0.13, d: m2.d - r1 - 0.2 });
+        break;
+      default: {
+        // Sides, bread, condiments and the accent fan out in the open table past the drinks.
+        const a = (extra++ * 55 * Math.PI) / 180;
+        want.set(it.label, { x: m1.x + inward * (0.3 + 0.08 * Math.cos(a)), d: D - 0.25 - 0.12 * Math.sin(a) });
+      }
+    }
+  }
+
+  const multi = isMultiServe(spec) ? { sku: "SKU", clearance: bottleClearance(spec.sku) } : null;
+  const rank = (i: ItemSpec) => ["main", "partner-main", "sku", "glass", "napkin-set", "partner-napkin", "partner-sku", "partner-glass"].indexOf(i.kind);
+  const order = [...items].sort((a, b) => (rank(a) < 0 ? 99 : rank(a)) - (rank(b) < 0 ? 99 : rank(b)));
+  const placed: Placed[] = [];
+  for (const it of order) {
+    const p: Placed = { item: it, x: 0, d: 0, yaw: 0 };
+    if (!settle(p, want.get(it.label) ?? drinkZone, placed, W, D, multi)) return `no room for ${it.label} at the ${side < 0 ? "left" : "right"} corner of ${spec.scene.surface}`;
+    // PERSON_1's things face the camera side of the table; PERSON_2's face across from the end.
+    p.yaw = it.kind.startsWith("partner-") ? (side < 0 ? 90 : -90) : 180;
+    placed.push(p);
+  }
+  const P1 = placed.find((p) => p.item.label === "MAIN")!;
+  const P2 = placed.find((p) => p.item.label === "MAIN_2");
+  if (!P2) return "a seated corner needs the second diner's plate";
+  const seats: Seat[] = [
+    { id: "PERSON_1", name: "the first diner, seated on the table's far side", x: P1.x, d: D + SEAT_BACK, yaw: 180 },
+    { id: "PERSON_2", name: "the second diner, seated at the table's end", x: cx - inward * SEAT_BACK, d: P2.d, yaw: side < 0 ? 90 : -90 },
+  ];
+
+  // Frame both people (head to forearms) and every table item: the tightest camera that keeps the
+  // heads under the top edge and everything inside the sides, re-aimed so the group is centred.
+  const look = lookById(spec.camera.look);
+  const pitch = angleById(spec.camera.angle).hidden.pitch_deg;
+  const focal = look.hidden.focal_length_mm;
+  const yaw = -side * CORNER_YAW;
+  const boxesFor = (cam: CameraParams) => {
+    const proj = new Projector(cam);
+    const people = seats.map((s) => screenBox(proj, SEATED_PERSON, s.x, s.d, s.yaw, -SEAT_DROP));
+    const heads = seats.map((s) => proj.project(s.x, SEATED_PERSON.height - SEAT_DROP, s.d));
+    const table = placed.map((p) => screenBox(proj, p.item.def, p.x, p.d, p.yaw, 0, p.item.extraHeight));
+    return { proj, people, heads, table };
+  };
+  const all = [...placed.map((p) => ({ x: p.x, d: p.d })), ...seats];
+  const tx0 = all.reduce((a, q) => a + q.x, 0) / all.length;
+  const td0 = all.reduce((a, q) => a + q.d, 0) / all.length;
+  let best: { cam: CameraParams; score: number } | null = null;
+  for (let ty = 0.05; ty <= 0.4 + 1e-9; ty += 0.05) {
+    for (let dist = 1; dist <= 7; dist *= 1.03) {
+      let tx = tx0,
+        td = td0;
+      let cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
+      // Re-centre horizontally along the camera's right vector (two passes).
+      for (let k = 0; k < 2; k++) {
+        const b = boxesFor(cam);
+        const u = unionBox([...b.people, ...b.table]);
+        const right = [Math.cos((yaw * Math.PI) / 180), Math.sin((yaw * Math.PI) / 180)]; // the camera's right, as (dx, dd)
+        const s0 = b.proj.project(tx, ty, td).x;
+        const s1 = b.proj.project(tx + right[0]! * 0.1, ty, td + right[1]! * 0.1).x;
+        const perM = (s1 - s0) / 0.1;
+        if (Math.abs(perM) < 1e-6) break;
+        const shift = ((u.x0 + u.x1) / 2 - 0.5) / perM;
+        tx += right[0]! * shift;
+        td += right[1]! * shift;
+        cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
+      }
+      const b = boxesFor(cam);
+      const u = unionBox([...b.people, ...b.table]);
+      const headTop = Math.max(...b.people.map((q) => q.y1));
+      const tableLow = Math.min(...b.table.map((q) => q.y0));
+      if (u.x0 < 0.04 || u.x1 > 0.96 || headTop > 0.9 || tableLow < 0.04) continue;
+      // Tightest framing wins; among equals, heads nearest 85% of the frame height.
+      const score = -dist - 0.5 * Math.abs(headTop - 0.85);
+      if (!best || score > best.score) best = { cam, score };
+      break;
+    }
+  }
+  if (!best) return "no camera keeps both people and the table in frame";
+  const cam = best.cam;
+  const { boxes, proj } = project(placed, cam);
+  const sils = new Map<string, Poly[]>();
+  for (const p of placed) sils.set(p.item.label, silhouette(proj, p.item.def, p.x, p.d, p.yaw, p.item.extraHeight));
+  const fit: Fit = { cam, boxes, sils, rearY: proj.project(cx, 0, D).y };
+  const rules: RuleResult[] = [
+    {
+      id: "S1",
+      name: "Seated corner",
+      pass: true,
+      soft: true,
+      detail: "Two people seated at the corner; the one-diner framing rules (H1-H14) aren't checked on this layout yet.",
+    },
+  ];
+  const bp = toBlueprint(spec, placed, fit, "seated-corner", 0, {}, rules, D, W, P1);
+  for (const s of seats) {
+    const b = screenBox(proj, SEATED_PERSON, s.x, s.d, s.yaw, -SEAT_DROP);
+    const c = proj.project(s.x, 0.2, s.d);
+    bp.primitives.push({
+      id: s.id,
+      component_name: s.name,
+      layer: "Layer_2_Secondary_Side",
+      shape_type: "bounding_box",
+      center_coordinates: { x: +(2 * c.x - 1).toFixed(4), y: +c.y.toFixed(4), z: +((s.d / D) * 0.5).toFixed(4) },
+      dimensions: { width: SEATED_PERSON.width!, height: SEATED_PERSON.height, depth: SEATED_PERSON.depth! },
+      rotation_euler_deg: { pitch: 0, yaw: s.yaw, roll: 0 },
+      role: "person",
+      proxy: "seated-person",
+      world: { x: +s.x.toFixed(4), d: +s.d.toFixed(4), yawDeg: s.yaw, elevation: -SEAT_DROP },
+      screen_bbox: { x0: +b.x0.toFixed(4), y0: +b.y0.toFixed(4), x1: +b.x1.toFixed(4), y1: +b.y1.toFixed(4) },
+    });
+  }
+  bp.layout_meta.rationale = `Seated Corner (${side < 0 ? "far-left" : "far-right"} corner): ${describe("seated-corner", placed)}. The camera faces that corner from across the table, so both people show in three-quarter view.`;
+  return { archetype: "seated-corner", blueprint: bp };
 }

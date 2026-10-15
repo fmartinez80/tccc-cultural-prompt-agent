@@ -215,6 +215,8 @@ export interface SceneSpec {
     venueType?: string;
     /** The operator's own description of the environment. */
     environmentNote?: string;
+    /** Two people sit at the table (party "2" only): the seated-corner layout with posed figures. */
+    seated?: boolean;
   };
   /** depth: a depth_of_field preset id (camera-options.json); unset means the default. */
   camera: { look: string; angle: string; depth?: string };
@@ -258,6 +260,8 @@ export interface Primitive {
   footprint?: "rect" | "triangle";
   /** For a second-setting item (party "2"): the single-setting label it copies (MAIN, NAPKIN_SET_1, SKU, GLASS). */
   same_as?: string;
+  /** A seated person (role "person"): who they are and what they wear, from the art director. */
+  person?: { who: string; heritage: string; wearing: string };
   /** Real-world placement in meters: x lateral, d depth from the table's front edge, yawDeg about vertical. */
   world: { x: number; d: number; yawDeg: number; elevation: number };
   screen_bbox?: { x0: number; y0: number; x1: number; y1: number };

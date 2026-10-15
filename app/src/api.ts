@@ -118,6 +118,7 @@ const SelectionsInput = z.object({
       surfaceText: z.string().optional(),
       venueType: z.string().max(64).optional(),
       environmentNote: z.string().max(600).optional(),
+      seated: z.boolean().optional(),
     })
     .optional(),
   glass: z.boolean().optional(),

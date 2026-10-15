@@ -6,6 +6,7 @@
 
 import { onTheGoSurfaceRule } from "./registry";
 import { NO_HANDS_RULE, foodStylingRules, withoutHands } from "./rules";
+import { SEATED_PEOPLE_RULE, hasSeatedPeople } from "./people";
 import { storyFacts } from "./story";
 import type { Blueprint, SceneSpec } from "./types";
 import { environmentBrief } from "./venues";
@@ -39,10 +40,15 @@ export const RESTYLE_LINE =
 
 export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] = [], opts: { restyle?: boolean } = {}): string {
   const facts = storyFacts(spec, bp);
+  const seated = hasSeatedPeople(bp);
   const objects = facts.labels.map((l) => {
     const text = l.fixedText ?? `${objectText(spec, bp, l.label, l.what)} Served in ${l.vessel}.`;
-    return `- ${l.label} (${l.where}): ${withoutHands(text)}`;
+    return `- ${l.label} (${l.where}): ${l.label.startsWith("PERSON_") ? text : withoutHands(text)}`;
   });
+  // A seated scene draws its two people (their pose fixed by the figures in image 1); every other scene is a still life.
+  const people = seated
+    ? `Two people sit at the table, drawn as real people in the same pencil style: ${SEATED_PEOPLE_RULE} Keep each person exactly in the pose of their figure in image 1; their looks and clothes come from their description below.`
+    : `A still life with no one in it. ${NO_HANDS_RULE}`;
   const dishes = foodStylingRules([spec.heroDish, JSON.stringify({ entree: spec.entree, accompaniments: spec.accompaniments })]);
   const place = environmentBrief(spec.scene);
   const table = facts.surfaceText.trim().replace(/[^.!?]$/, "$&.");
@@ -50,10 +56,10 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     "Turn image 1 into a detailed black-and-white pencil sketch of the finished scene: the art director's pre-visualization drawing of a food photograph, showing exactly where everything lands in the final frame.",
     "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines.",
     ...(opts.restyle ? [RESTYLE_LINE] : []),
-    `A still life with no one in it. ${NO_HANDS_RULE}`,
+    people,
     `Camera: ${facts.lookSentence} ${facts.angleSentence} ${facts.scaleSentence}`,
     "Draw the food in detail, as it will look in the photograph from this camera: its real shapes, pieces and portions, how it is stacked or spread on its vessel, the garnish, the texture (crumb, char, crisp edges, sauce, steam). Draw each vessel's real shape and rim, the cutlery and the napkin folds, and the Coca-Cola product's real silhouette with only a hint of its script logo.",
-    `Objects (${facts.labels.length}, and only these):`,
+    `${seated ? "People and objects" : "Objects"} (${facts.labels.length}, and only these):`,
     ...objects,
     `Table: ${table}${onTheGoSurfaceRule(spec.scene) ? ` ${onTheGoSurfaceRule(spec.scene)}` : ""}${place ? ` ${place}` : ""} Suggest the background only lightly, with a few loose lines, behind the table's far edge.`,
     ...(dishes.length ? ["Food-styling rules:", ...dishes.flatMap((d) => d.rules.map((r) => `- ${d.label}: ${r}`))] : []),
@@ -62,6 +68,6 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     "Style: graphite pencil and fine ink line on plain white paper, confident contour lines with light hatching and cross-hatching for shadow and volume, like a storyboard or food-styling concept drawing.",
     "Strictly monochrome: black and grey pencil on white only, with no color anywhere. Ignore the colors of image 1. Do not tint the drink, the Coca-Cola red, the food, the sauces, the garnish, the table or the paper: everything, the Coca-Cola product and its label included, is drawn in the same pencil greys, and the paper stays pure white.",
     "No text, numbers, labels, arrows or annotations anywhere in the drawing.",
-    NO_HANDS_RULE,
+    seated ? "Only PERSON_1 and PERSON_2 are drawn as people; nobody else is at or beside the table." : NO_HANDS_RULE,
   ].join("\n");
 }
