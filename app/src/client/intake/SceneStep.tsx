@@ -13,6 +13,7 @@ import { SegmentedControl } from '../ui/SegmentedControl.tsx';
 import { Select } from '../ui/Select.tsx';
 import { Switch } from '../ui/Switch.tsx';
 import { TextArea } from '../ui/TextArea.tsx';
+import { DEFAULT_POSE, POSES, poseById } from '../../shared/poses.ts';
 import { VENUE_TYPES } from '../../shared/venues.ts';
 import { AgentStatus } from './AgentStatus.tsx';
 import { TIME_LABELS, type Brief } from './types.ts';
@@ -195,10 +196,25 @@ export function SceneStep({
         </Switch>
         <div className={styles.hint}>
           {scene.seated
-            ? 'They sit at a corner of the table, at a right angle to each other. Their pose is set by the layout; you describe who they are and what they wear on Review the Sketch.'
+            ? 'They sit at a corner of the table, at a right angle to each other. Pick their pose below; you describe who they are and what they wear on Review the Sketch.'
             : 'The place settings show who the meal is for; nobody appears at the table.'}
         </div>
       </div>
+
+      {scene.seated && (
+        <div className={`${styles.field} ${styles.poseField}`}>
+          <Select
+            label="Pose"
+            value={poseById(scene.pose).id}
+            onChange={(pose) => update({ pose })}
+            options={POSES.map((p) => ({ id: p.id, label: p.label }))}
+          />
+          <figure className={styles.pose}>
+            <img src={`/poses/${poseById(scene.pose ?? DEFAULT_POSE).id}.png`} alt={`Layout preview: ${poseById(scene.pose).label}`} width={480} height={270} />
+            <figcaption className={styles.hint}>{poseById(scene.pose).detail} At least one person always holds their Coca-Cola: a glass for a large bottle, the bottle or can itself for a small one.</figcaption>
+          </figure>
+        </div>
+      )}
 
       <div className={styles.field}>
         <SegmentedControl

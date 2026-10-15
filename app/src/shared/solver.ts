@@ -5,6 +5,7 @@
 // §3-§7 and coca-cola-guidelines.md §4; composition rules follow
 // docs/tablescape/PLAN.md §5.
 
+import { heldLabel, poseById, sideToward, toWorld, type PersonId } from "./poses";
 import { ASPECT, clipConvex, fovFromFocal, makeCameraParams, overlapArea, polyArea, Projector, rectPoly, screenBox, silhouette, type Poly, type ScreenBox } from "./camera";
 import { bottleClearance, footprintRadius, SURFACES, type ProxyDef } from "./registry";
 import { angleById, depthById, lookById } from "./rules";
@@ -17,6 +18,10 @@ export interface Placed {
   x: number;
   d: number;
   yaw: number;
+  /** Height of its base above the table top (a drink held in a hand); 0 on the table. */
+  elev?: number;
+  /** The seated person holding it. */
+  heldBy?: string;
 }
 
 export type Archetype =
@@ -563,7 +568,7 @@ function heroLabels(placed: Placed[]): string[] {
 function project(placed: Placed[], cam: CameraParams): { proj: Projector; boxes: Map<string, ScreenBox> } {
   const proj = new Projector(cam);
   const boxes = new Map<string, ScreenBox>();
-  for (const p of placed) boxes.set(p.item.label, screenBox(proj, p.item.def, p.x, p.d, p.yaw, 0, p.item.extraHeight));
+  for (const p of placed) boxes.set(p.item.label, screenBox(proj, p.item.def, p.x, p.d, p.yaw, p.elev ?? 0, p.item.extraHeight));
   return { proj, boxes };
 }
 
@@ -965,7 +970,7 @@ export function signature(spec: SceneSpec): string {
     spec.camera.look,
     spec.camera.angle,
     `surface:${spec.scene.surface}`,
-    `settings:${spec.scene.party === "2" ? 2 : 1}`,
+    `settings:${spec.scene.party === "2" ? 2 : 1}${spec.scene.seated ? `+seated:${spec.scene.pose ?? ""}` : ""}`,
     `sku:${spec.sku.id}`,
     `glass:${spec.sku.glass ? "Y" : "N"}`,
     `main:${spec.entree.plating.vessel}(${spec.entree.prep.massClass})${spec.entree.plating.service === "shared" ? "+shared" : ""}`,
@@ -1063,7 +1068,7 @@ function toBlueprint(
   const proj = new Projector(fit.cam);
   const prims: Primitive[] = placed.map((p) => {
     const b = fit.boxes.get(p.item.label)!;
-    const c = proj.project(p.x, (p.item.def.height + p.item.extraHeight) / 2, p.d);
+    const c = proj.project(p.x, (p.elev ?? 0) + (p.item.def.height + p.item.extraHeight) / 2, p.d);
     const def = p.item.def;
     const round = def.radius !== undefined;
     const shape: Primitive["shape_type"] = def.tall ? "cylinder" : round ? "flattened_cylinder" : "bounding_box";
@@ -1087,7 +1092,8 @@ function toBlueprint(
       ...(p.item.injected ? { injected: true } : {}),
       ...(p.item.footprint ? { footprint: p.item.footprint } : {}),
       ...(p.item.sameAs ? { same_as: p.item.sameAs } : {}),
-      world: { x: +p.x.toFixed(4), d: +p.d.toFixed(4), yawDeg: p.yaw, elevation: 0 },
+      ...(p.heldBy ? { held_by: p.heldBy } : {}),
+      world: { x: +p.x.toFixed(4), d: +p.d.toFixed(4), yawDeg: p.yaw, elevation: +(p.elev ?? 0).toFixed(4) },
       screen_bbox: { x0: +b.x0.toFixed(4), y0: +b.y0.toFixed(4), x1: +b.x1.toFixed(4), y1: +b.y1.toFixed(4) },
     };
   });
@@ -1329,6 +1335,26 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): La
     { id: "PERSON_2", name: "the second diner, seated at the table's end", x: cx - inward * SEAT_BACK, d: P2.d, yaw: side < 0 ? 90 : -90 },
   ];
 
+  // The pose: each person who holds their drink takes it off the table into the hand nearer the
+  // other person (a glass for a large SKU, the bottle or can for a small one).
+  const pose = poseById(spec.scene.pose);
+  for (const s of seats) {
+    const pp = pose.people[s.id as PersonId];
+    const label = pp?.holds ? heldLabel(spec, placed.map((p) => p.item.label), s.id as PersonId) : null;
+    const drink = placed.find((p) => p.item.label === label);
+    if (!pp || !drink) continue;
+    const self = { x: s.x, d: s.d, yawDeg: s.yaw };
+    const sx = sideToward(self, seats.find((o) => o.id !== s.id)!);
+    // A little in front of the palm, so the fingers wrap around it.
+    const hand = toWorld(self, [pp.near.hand[0], pp.near.hand[1], pp.near.hand[2] - 0.03], sx);
+    const h = drink.item.def.height + drink.item.extraHeight;
+    const base = hand.y - SEAT_DROP - 0.4 * h; // the hand grips it a little below the middle
+    drink.x = hand.x;
+    drink.d = hand.d;
+    drink.elev = base < 0.05 ? 0 : base; // low enough, it stands on the table with a hand around it
+    drink.heldBy = s.id;
+  }
+
   // Frame both people (head to forearms) and every table item: the tightest camera that keeps the
   // heads under the top edge and everything inside the sides, re-aimed so the group is centred.
   const look = lookById(spec.camera.look);
@@ -1339,7 +1365,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): La
     const proj = new Projector(cam);
     const people = seats.map((s) => screenBox(proj, SEATED_PERSON, s.x, s.d, s.yaw, -SEAT_DROP));
     const heads = seats.map((s) => proj.project(s.x, SEATED_PERSON.height - SEAT_DROP, s.d));
-    const table = placed.map((p) => screenBox(proj, p.item.def, p.x, p.d, p.yaw, 0, p.item.extraHeight));
+    const table = placed.map((p) => screenBox(proj, p.item.def, p.x, p.d, p.yaw, p.elev ?? 0, p.item.extraHeight));
     return { proj, people, heads, table };
   };
   const all = [...placed.map((p) => ({ x: p.x, d: p.d })), ...seats];
@@ -1392,6 +1418,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): La
     },
   ];
   const bp = toBlueprint(spec, placed, fit, "seated-corner", 0, {}, rules, D, W, P1);
+  bp.layout_meta.pose = pose.id;
   for (const s of seats) {
     const b = screenBox(proj, SEATED_PERSON, s.x, s.d, s.yaw, -SEAT_DROP);
     const c = proj.project(s.x, 0.2, s.d);

@@ -119,6 +119,7 @@ const SelectionsInput = z.object({
       venueType: z.string().max(64).optional(),
       environmentNote: z.string().max(600).optional(),
       seated: z.boolean().optional(),
+      pose: z.string().max(40).optional(),
     })
     .optional(),
   glass: z.boolean().optional(),

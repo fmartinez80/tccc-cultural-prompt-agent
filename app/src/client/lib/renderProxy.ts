@@ -8,7 +8,7 @@
 import * as THREE from 'three';
 import { Projector, toThreeCamera } from '../../shared/camera.ts';
 import { primitiveDef } from '../../shared/layoutEdit.ts';
-import { SEAT_DROP } from '../../shared/solver.ts';
+import { poseById, sideToward, toLocal, type PersonId, type PersonPose } from '../../shared/poses.ts';
 import type { LightingPreset } from '../../shared/rules.ts';
 import type { Blueprint, Primitive } from '../../shared/types.ts';
 
@@ -49,7 +49,7 @@ function limb(a: THREE.Vector3, b: THREE.Vector3, r: number, color: string): THR
  * the other person. Local -z is the way they face (toward the table); the table edge is SEAT_BACK
  * in front of them.
  */
-function buildPerson(p: Primitive, other?: Primitive): THREE.Object3D {
+function buildPerson(p: Primitive, other: Primitive | undefined, pose: PersonPose): THREE.Object3D {
   const g = new THREE.Group();
   const color = PERSON_COLORS[p.id] ?? ROLE_COLORS.person!;
   const skin = shade(color, 1.25);
@@ -77,7 +77,7 @@ function buildPerson(p: Primitive, other?: Primitive): THREE.Object3D {
   // Torso leaning toward the table.
   const torso = new THREE.Group();
   torso.position.set(0, seatY + 0.14, 0.06);
-  torso.rotation.x = -0.18;
+  torso.rotation.x = pose.lean;
   const chest = mesh(new THREE.BoxGeometry(0.38, 0.5, 0.22), color);
   chest.position.y = 0.25;
   torso.add(chest);
@@ -88,13 +88,8 @@ function buildPerson(p: Primitive, other?: Primitive): THREE.Object3D {
   const headGroup = new THREE.Group();
   headGroup.position.set(0, 0.68, -0.02);
   if (other) {
-    const yaw = (p.world.yawDeg * Math.PI) / 180;
-    const wx = other.world.x - p.world.x;
-    const wz = -(other.world.d - p.world.d);
-    // World to local: undo the group's rotation.y (= -yaw).
-    const lx = wx * Math.cos(yaw) - wz * Math.sin(yaw);
-    const lz = wx * Math.sin(yaw) + wz * Math.cos(yaw);
-    const turn = Math.atan2(-lx, -lz);
+    const l = toLocal(p.world, other.world.x - p.world.x, other.world.d - p.world.d);
+    const turn = Math.atan2(-l.x, -l.z);
     headGroup.rotation.y = Math.max(-0.8, Math.min(0.8, turn * 0.6));
   }
   const head = mesh(new THREE.SphereGeometry(0.1, 24, 16), skin);
@@ -107,13 +102,14 @@ function buildPerson(p: Primitive, other?: Primitive): THREE.Object3D {
   torso.add(headGroup);
   g.add(torso);
   torso.updateMatrix();
-  // Arms: shoulders down to elbows at the table edge, forearms resting on the table.
+  // Arms from the pose: the near arm is on the side of the other person.
   const sh = (sx: number) => new THREE.Vector3(sx, 0.47, 0).applyMatrix4(torso.matrix);
-  const tableY = SEAT_DROP + 0.025;
-  for (const sx of [-1, 1]) {
+  const near = other ? sideToward(p.world, other.world) : 1;
+  for (const sx of [-1, 1] as const) {
+    const arm = sx === near ? pose.near : pose.far;
     const shoulder = sh(sx * 0.2);
-    const elbow = new THREE.Vector3(sx * 0.2, tableY, -0.36);
-    const hand = new THREE.Vector3(sx * 0.1, tableY, -0.58);
+    const elbow = new THREE.Vector3(sx * arm.elbow[0], arm.elbow[1], arm.elbow[2]);
+    const hand = new THREE.Vector3(sx * arm.hand[0], arm.hand[1], arm.hand[2]);
     g.add(limb(shoulder, elbow, 0.045, color));
     g.add(limb(elbow, hand, 0.04, color));
     const palm = mesh(new THREE.SphereGeometry(0.045, 16, 12), skin);
@@ -168,7 +164,10 @@ function mesh(geo: THREE.BufferGeometry, color: string, opts: { opacity?: number
 }
 
 function buildItem(p: Primitive, bp?: Blueprint): THREE.Object3D {
-  if (p.role === 'person') return buildPerson(p, bp?.primitives.find((q) => q.role === 'person' && q.id !== p.id));
+  if (p.role === 'person') {
+    const other = bp?.primitives.find((q) => q.role === 'person' && q.id !== p.id);
+    return buildPerson(p, other, poseById(bp?.layout_meta.pose).people[p.id as PersonId]);
+  }
   const g = new THREE.Group();
   const def = primitiveDef(p);
   const color = ROLE_COLORS[p.role] ?? '#999';

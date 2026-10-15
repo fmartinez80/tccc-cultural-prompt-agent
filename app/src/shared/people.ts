@@ -3,6 +3,7 @@
 // the Sketch the art director describes who they are and what they wear. The sketch and the
 // photograph both read the same text, so the people stay the same from one to the other.
 
+import { drinkWord, poseOf } from "./poses";
 import type { Blueprint, Primitive, SceneSpec } from "./types";
 
 export interface PersonDetails {
@@ -40,20 +41,28 @@ export function personDetails(spec: SceneSpec, p: Primitive): PersonDetails {
   };
 }
 
-/** The locked pose, from where the layout seated them. */
-function poseText(p: Primitive, bp: Blueprint): string {
+/** The locked pose, from the picked pose and where the layout seated them. */
+function poseText(spec: SceneSpec, p: Primitive, bp: Blueprint): string {
   const other = bp.primitives.find((q) => q.role === "person" && q.id !== p.id);
-  const plate = p.id === "PERSON_1" ? "MAIN" : "MAIN_2";
+  const pose = poseOf(bp, p);
   const seat = p.id === "PERSON_1" ? "on the table's far long side, facing toward the camera's side of the table" : "at the table's end, facing across it";
-  return `Sits on a chair ${seat}, in exactly the pose of the ${p.id} figure in image 1: leaning in slightly, both forearms resting on the table either side of their plate (${plate}), head turned toward ${other?.id ?? "the other person"} as if mid-conversation, relaxed, with a natural easy smile.`;
+  const plate = p.id === "PERSON_1" ? "MAIN" : "MAIN_2";
+  const held = bp.primitives.find((q) => q.held_by === p.id);
+  const doing = pose.text.replace("{drink}", held ? `${drinkWord(spec)} (${held.id})` : drinkWord(spec));
+  return `Sits on a chair ${seat}, near their plate (${plate}), in exactly the pose of the ${p.id} figure in image 1: ${doing}. Their head is turned toward ${other?.id ?? "the other person"}; a casual, unposed moment.`;
 }
 
 /** The fixed text for one seated person, shared by the sketch and the photograph. */
 export function personText(spec: SceneSpec, bp: Blueprint, p: Primitive): string {
   const d = personDetails(spec, p);
-  return `A real person, not a figure or mannequin: ${d.who}, ${d.heritage}, wearing ${d.wearing}. ${poseText(p, bp)} No logos, text or Coca-Cola red on their clothes.`;
+  return `A real person, not a figure or mannequin: ${d.who}, ${d.heritage}, wearing ${d.wearing}. ${poseText(spec, p, bp)} No logos, text or Coca-Cola red on their clothes.`;
 }
 
 /** The rule for people in a seated scene: the sketch and the photograph both use it. */
-export const SEATED_PEOPLE_RULE =
-  "Exactly two people sit at the table, PERSON_1 and PERSON_2, and no one else is at or beside it. Both are adults (over 25), fictional, and look like no real or famous person. Their faces show in natural three-quarter view; neither looks at the camera. Their hands rest on the table or hold their own cutlery near their own plate: nothing is lifted to the mouth, nobody eats, drinks or bites in the frame, and nobody touches the Coca-Cola product. Anyone further back stays a soft, out-of-focus shape with no visible face, and no children.";
+export function seatedPeopleRule(bp: Blueprint): string {
+  const holders = bp.primitives.filter((q) => q.held_by).map((q) => `${q.held_by} holds ${q.id}`);
+  const hold = holders.length
+    ? `${holders.join(" and ")} in a relaxed, natural grip, label turned toward the camera so the logo reads, never covered by the fingers; nobody drinks from it, and nobody else touches a Coca-Cola product.`
+    : "Nobody touches the Coca-Cola product.";
+  return `Exactly two people sit at the table, PERSON_1 and PERSON_2, and no one else is at or beside it. Both are adults (over 25), fictional, and look like no real or famous person. Their faces show in natural three-quarter view; neither looks at the camera. ${hold} Hands not holding a drink rest on the table, in the lap or mid-gesture: nothing is lifted to the mouth, nobody eats, drinks or bites in the frame. Anyone further back stays a soft, out-of-focus shape with no visible face, and no children.`;
+}

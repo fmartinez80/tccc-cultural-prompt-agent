@@ -217,6 +217,8 @@ export interface SceneSpec {
     environmentNote?: string;
     /** Two people sit at the table (party "2" only): the seated-corner layout with posed figures. */
     seated?: boolean;
+    /** How the seated people sit (see shared/poses.ts); at least one holds their Coca-Cola. */
+    pose?: string;
   };
   /** depth: a depth_of_field preset id (camera-options.json); unset means the default. */
   camera: { look: string; angle: string; depth?: string };
@@ -262,6 +264,8 @@ export interface Primitive {
   same_as?: string;
   /** A seated person (role "person"): who they are and what they wear, from the art director. */
   person?: { who: string; heritage: string; wearing: string };
+  /** A drink held in a seated person's hand (PERSON_1 or PERSON_2) instead of standing on the table. */
+  held_by?: string;
   /** Real-world placement in meters: x lateral, d depth from the table's front edge, yawDeg about vertical. */
   world: { x: number; d: number; yawDeg: number; elevation: number };
   screen_bbox?: { x0: number; y0: number; x1: number; y1: number };
@@ -305,5 +309,7 @@ export interface Blueprint {
     rule_results: RuleResult[];
     signature: string;
     seed: number;
+    /** Seated layouts: the pose the people were placed in. */
+    pose?: string;
   };
 }
