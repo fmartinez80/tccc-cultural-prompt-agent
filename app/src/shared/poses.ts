@@ -42,42 +42,74 @@ const T = 0.475;
 const REST: Arm = { elbow: [0.2, T, -0.36], hand: [0.1, T, -0.58] };
 const IN = -0.18;
 
-const LEANING_IN = "leaning in slightly with both forearms resting on the table either side of their plate, turned toward the other person, listening with a relaxed, easy smile";
+/** A hand holding a fork just above the plate, mid-meal (never lifted to the mouth). */
+const FORK: Arm = { elbow: [0.2, T, -0.34], hand: [0.1, T + 0.07, -0.6] };
+/** A hand open mid-gesture while talking. */
+const GESTURE: Arm = { elbow: [0.24, T, -0.3], hand: [0.24, T + 0.13, -0.48] };
 
+// Modelled on the brand's meal photography (Fernando's references, 2026-10-16): faces cropped out,
+// the story told by hands around the food and the Coca-Cola.
 export const POSES: Pose[] = [
   {
     id: "drink-in-hand",
     label: "Drink in hand, chatting",
-    detail: "The diner across the table holds their drink loosely mid-conversation; the other leans in to listen.",
+    detail: "One person holds their drink loosely mid-conversation; the other has a fork over their plate.",
     people: {
       PERSON_1: {
         lean: IN,
-        near: { elbow: [0.22, T, -0.36], hand: [0.17, T + 0.16, -0.5] },
+        near: { elbow: [0.22, T, -0.36], hand: [0.15, T + 0.1, -0.54] },
         far: REST,
         holds: true,
-        text: "leaning in with one elbow on the table, holding {drink} loosely in the hand nearer the other person, a little above the table, mid-sentence with an easy smile",
+        text: "leaning in with one elbow on the table, holding {drink} loosely in the hand nearer the other person, just above the table, the other forearm resting on the table, mid-conversation",
       },
-      PERSON_2: { lean: IN, near: REST, far: REST, holds: false, text: LEANING_IN },
+      PERSON_2: {
+        lean: IN,
+        near: REST,
+        far: FORK,
+        holds: false,
+        text: "leaning in, one hand holding a fork just above their own plate mid-meal, the other forearm resting on the table, listening",
+      },
     },
   },
   {
-    id: "listener-holds",
-    label: "Listening, drink in hand",
-    detail: "The diner at the end holds their drink at rest while the other talks.",
+    id: "hand-on-drink",
+    label: "Hand on the bottle",
+    detail: "One person rests a hand around their drink on the table while talking; the other reaches into their meal.",
     people: {
       PERSON_1: {
         lean: IN,
-        near: { elbow: [0.24, T, -0.36], hand: [0.2, T + 0.04, -0.6] },
-        far: REST,
-        holds: false,
-        text: "leaning in with forearms on the table, one hand open mid-gesture as they tell a story, smiling",
+        near: { elbow: [0.22, T, -0.34], hand: [0.12, T + 0.05, -0.55] },
+        far: GESTURE,
+        holds: true,
+        text: "leaning in, one hand resting loosely around {drink} as it stands on the table, the other hand open mid-gesture as they talk",
       },
       PERSON_2: {
-        lean: IN + 0.06,
-        near: { elbow: [0.22, T, -0.34], hand: [0.15, T + 0.12, -0.5] },
+        lean: IN,
+        near: REST,
+        far: FORK,
+        holds: false,
+        text: "leaning in, one hand holding a fork just above their own plate, the other forearm resting on the table",
+      },
+    },
+  },
+  {
+    id: "sharing-the-meal",
+    label: "Sharing the meal",
+    detail: "Both lean in over the food; one holds their drink just above the table, the other serves themselves.",
+    people: {
+      PERSON_1: {
+        lean: IN - 0.04,
+        near: FORK,
         far: REST,
+        holds: false,
+        text: "leaning in over the table, one hand holding a fork just above their own plate as they eat, the other forearm resting on the table",
+      },
+      PERSON_2: {
+        lean: IN,
+        near: { elbow: [0.22, T, -0.34], hand: [0.15, T + 0.08, -0.54] },
+        far: FORK,
         holds: true,
-        text: "leaning in with one elbow on the table, holding {drink} loosely just above the table in the hand nearer the other person, listening and laughing",
+        text: "leaning in, holding {drink} loosely just above the table in the hand nearer the other person, the other hand holding a fork over their own plate",
       },
     },
   },
@@ -88,32 +120,17 @@ export const POSES: Pose[] = [
     people: {
       PERSON_1: {
         lean: IN,
-        near: { elbow: [0.24, T + 0.06, -0.3], hand: [0.16, T + 0.3, -0.52] },
+        near: { elbow: [0.24, T + 0.02, -0.34], hand: [0.14, T + 0.14, -0.6] },
         far: REST,
         holds: true,
-        text: "leaning in, raising {drink} toward the other person over the corner of the table at about chest height, about to clink, smiling",
+        text: "leaning in, raising {drink} a little above the table toward the other person, over the corner of the table, about to clink",
       },
       PERSON_2: {
         lean: IN,
-        near: { elbow: [0.24, T + 0.06, -0.3], hand: [0.16, T + 0.3, -0.52] },
+        near: { elbow: [0.24, T + 0.02, -0.34], hand: [0.14, T + 0.14, -0.6] },
         far: REST,
         holds: true,
-        text: "leaning in, raising {drink} toward the other person over the corner of the table at about chest height, about to clink, smiling",
-      },
-    },
-  },
-  {
-    id: "laid-back",
-    label: "Laid back",
-    detail: "The diner at the end sits back with a hand around their drink on the table; the other leans in, laughing.",
-    people: {
-      PERSON_1: { lean: IN - 0.04, near: REST, far: REST, holds: false, text: "leaning in with forearms on the table, laughing at something the other person said" },
-      PERSON_2: {
-        lean: 0.12,
-        near: { elbow: [0.22, T - 0.06, -0.2], hand: [0.14, T + 0.08, -0.44] },
-        far: { elbow: [0.22, T - 0.12, -0.14], hand: [0.1, T - 0.1, -0.24] },
-        holds: true,
-        text: "sitting back comfortably in their chair, one hand wrapped loosely around {drink} as it rests on the table near the edge, the other hand in their lap, relaxed and smiling",
+        text: "leaning in, raising {drink} a little above the table toward the other person, over the corner of the table, about to clink",
       },
     },
   },

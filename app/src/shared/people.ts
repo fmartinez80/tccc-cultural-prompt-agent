@@ -49,7 +49,7 @@ function poseText(spec: SceneSpec, p: Primitive, bp: Blueprint): string {
   const plate = p.id === "PERSON_1" ? "MAIN" : "MAIN_2";
   const held = bp.primitives.find((q) => q.held_by === p.id);
   const doing = pose.text.replace("{drink}", held ? `${drinkWord(spec)} (${held.id})` : drinkWord(spec));
-  return `Sits on a chair ${seat}, near their plate (${plate}), in exactly the pose of the ${p.id} figure in image 1: ${doing}. Their head is turned toward ${other?.id ?? "the other person"}; a casual, unposed moment.`;
+  return `Sits on a chair ${seat}, near their plate (${plate}), in exactly the pose of the ${p.id} figure in image 1: ${doing}. Turned toward ${other?.id ?? "the other person"}; a casual, unposed moment, their face above the top of the frame.`;
 }
 
 /** The fixed text for one seated person, shared by the sketch and the photograph. */
@@ -64,5 +64,5 @@ export function seatedPeopleRule(bp: Blueprint): string {
   const hold = holders.length
     ? `${holders.join(" and ")} in a relaxed, natural grip, label turned toward the camera so the logo reads, never covered by the fingers; nobody drinks from it, and nobody else touches a Coca-Cola product.`
     : "Nobody touches the Coca-Cola product.";
-  return `Exactly two people sit at the table, PERSON_1 and PERSON_2, and no one else is at or beside it. Both are adults (over 25), fictional, and look like no real or famous person. Their faces show in natural three-quarter view; neither looks at the camera. ${hold} Hands not holding a drink rest on the table, in the lap or mid-gesture: nothing is lifted to the mouth, nobody eats, drinks or bites in the frame. Anyone further back stays a soft, out-of-focus shape with no visible face, and no children.`;
+  return `Exactly two people sit at the table, PERSON_1 and PERSON_2, and no one else is at or beside it. Both are adults (over 25), fictional, and look like no real or famous person. The top edge of the frame crops both people between the chin and the nose: their eyes and upper face are never in the picture, so nobody is recognizable; we see at most a smile, then shoulders, arms and hands. They sit just behind the food and the Coca-Cola, a little softer than them. ${hold} Hands not holding a drink rest on the table, in the lap or mid-gesture: nothing is lifted to the mouth, nobody eats, drinks or bites in the frame. Anyone further back stays a soft, out-of-focus shape with no visible face, and no children.`;
 }

@@ -268,7 +268,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     lookSentence: lookSentence(lookById(spec.camera.look), drinks, depthById(spec.camera.depth)),
     angleSentence: angleSentence(angleById(spec.camera.angle)),
     framingSentence: seated
-      ? "The camera looks across the table toward one of its corners: the corner sits near the center of the frame, with PERSON_1 seated along one side and PERSON_2 seated at the end, perpendicular to each other. Both people show from about the waist up with their heads well inside the top of the frame; the food and the Coca-Cola products fill the lower half, in front of them."
+      ? "The camera looks across the table toward one of its corners, low and close like the brand's meal photography: the food and the Coca-Cola products sit sharp in the front of the frame, and the corner of the table sits near the center. PERSON_1 sits along one side and PERSON_2 at the end, perpendicular to each other, just behind the food; the top edge of the frame cuts across both of them between the chin and the nose, so we see their shoulders, arms and hands but never their eyes."
       : hasPartner
       ? "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background. The second place setting sits further back or to the side as a secondary element, and may be partly cropped at the frame's edge."
       : "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background.",
