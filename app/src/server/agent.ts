@@ -107,7 +107,9 @@ function venueFit(sel: Selections, step: 'prep' | 'plating' | 'sides'): string {
   const shared =
     scene.party === 'family' || scene.party === 'group'
       ? ` The party is a ${scene.party}: use service "shared" when the dish is typically served family-style from one large vessel on the table (a whole roast, a pizza, a paella pan); the scene then shows that vessel plus one plated portion. Otherwise individual.`
-      : ` The party is ${scene.party === '1' ? 'one person' : 'two people'}, so service is always "individual": each person gets their own portion, never one large shared vessel.`;
+      : scene.party === '2'
+        ? ' The party is two people, sitting at a right angle around one corner of the table, and each always gets their own plated portion. Also use service "shared" when the dish is typically brought to the table family-style for diners to plate from (mandi on a large tray, a whole roast, a paella pan, a big platter of rice and meat): the scene then adds that one serving vessel between the two plates, and the sides and breads are shared too. Otherwise individual.'
+        : ' The party is one person, so service is always "individual": they get their own portion, never one large shared vessel.';
   return fit + shared;
 }
 
@@ -259,7 +261,7 @@ Fixed facts (use these, do not contradict them):
 - Framing: ${facts.framingSentence}
 - Product serving: ${facts.servingSentence}
 - Layout (from the chosen proxy): ${facts.labels.map((l) => `${l.label} = ${l.what}, ${l.where}`).join('; ')}
-${spec.scene.seated && spec.scene.party === '2' ? '\nTwo people sit at this table, at one corner (PERSON_1 and PERSON_2); this overrides the general "nobody sits at the table" rule for this scene only. Their looks, clothes and pose already have fixed text, so do not write labels for them and do not add other people at the table. Mention them briefly in the scene summary as two people sharing the meal, and still describe no hands holding or lifting food. The second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : spec.scene.party === '2' ? '\nThis table is set for two (nobody sits at it in the image, only their place settings show). Mention briefly in the scene summary that the table is set for two; the second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : ''}
+${spec.scene.seated && spec.scene.party === '2' ? '\nTwo people sit at this table, at one corner (PERSON_1 and PERSON_2); this overrides the general "nobody sits at the table" rule for this scene only. Their looks, clothes and pose already have fixed text, so do not write labels for them and do not add other people at the table. Mention them briefly in the scene summary as two people sharing the meal, and still describe no hands holding or lifting food. The second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : spec.scene.party === '2' ? '\nThis table is set for two, at a right angle around one corner (nobody sits at it in the image, only their place settings show). Mention briefly in the scene summary that the table is set for two; the second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : ''}
 
 Write:
 - sceneSummary: a few paragraphs of prose as a food stylist would brief it: what's on the table, where, the setting, the mood, and the cultural framing.

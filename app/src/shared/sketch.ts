@@ -7,7 +7,7 @@
 import { onTheGoSurfaceRule } from "./registry";
 import { NO_HANDS_RULE, foodStylingRules, withoutHands } from "./rules";
 import { seatedPeopleRule, hasSeatedPeople } from "./people";
-import { storyFacts } from "./story";
+import { countsSentence, storyFacts } from "./story";
 import type { Blueprint, SceneSpec } from "./types";
 import { environmentBrief } from "./venues";
 
@@ -62,6 +62,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     "Draw the food in detail, as it will look in the photograph from this camera: its real shapes, pieces and portions, how it is stacked or spread on its vessel, the garnish, the texture (crumb, char, crisp edges, sauce, steam). Draw each vessel's real shape and rim, the cutlery and the napkin folds, and the Coca-Cola product's real silhouette with only a hint of its script logo.",
     `${seated ? "People and objects" : "Objects"} (${facts.labels.length}, and only these):`,
     ...objects,
+    countsSentence(bp),
     `Table: ${table}${onTheGoSurfaceRule(spec.scene) ? ` ${onTheGoSurfaceRule(spec.scene)}` : ""}${place ? ` ${place}` : ""} Suggest the background only lightly, with a few loose lines, behind the table's far edge.`,
     ...(dishes.length ? ["Food-styling rules:", ...dishes.flatMap((d) => d.rules.map((r) => `- ${d.label}: ${r}`))] : []),
     ...(changes.length ? ["The art director's changes, which override the layout guide:", ...changes.map((c) => `- ${c}`)] : []),

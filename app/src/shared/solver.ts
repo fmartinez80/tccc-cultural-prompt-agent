@@ -45,7 +45,7 @@ export const ARCHETYPE_INFO: Record<Archetype, { name: string; idea: string }> =
   "hero-lockup": { name: "Hero Lockup", idea: "the dish front and center with the drink tucked in tight at its right" },
   "across-the-table": { name: "Across the Table", idea: "a second place setting directly opposite the hero, at the far side of the table" },
   "across-offset": { name: "Across, Offset", idea: "a second place setting opposite the hero but shifted aside, so the hero's drink doesn't hide it" },
-  corner: { name: "Corner Seating", idea: "the two diners meet at a corner, the second setting turned at a right angle to the hero's" },
+  corner: { name: "Corner Seating", idea: "two place settings at a right angle around a far corner of the table, seen from the opposite corner" },
   "seated-corner": { name: "Seated Corner", idea: "two people sit at a right angle around a far corner of the table, seen from the opposite corner" },
 };
 
@@ -1154,7 +1154,7 @@ export function describe(archetype: Archetype, placed: Placed[]): string {
     case "across-offset":
       return "a second place setting sits across the table, shifted aside so the hero's drink doesn't hide it";
     case "corner":
-      return "the two diners meet at a right angle, the second setting turned to face in from the table's left end";
+      return "the two place settings meet at a right angle around the table's far corner, one on the long side and one at the end, with the Coca-Cola product in front between the plates";
     case "seated-corner":
       return "two people sit at a right angle around the table's far corner, one on the long side and one at the end, with the Coca-Cola product in front between their plates";
   }
@@ -1197,8 +1197,9 @@ export function solve(spec: SceneSpec, maxOptions = 3): SolveResult {
 function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "options" | "infeasible"> {
   const items = sceneItems(spec);
   const infeasible: SolveResult["infeasible"] = [];
-  if (spec.scene.seated && spec.scene.party === "2") {
-    // People at the table: the seated corner, at the far-left or the far-right corner.
+  if (spec.scene.party === "2") {
+    // Two diners always sit at a right angle around a corner, never opposite each other
+    // (Fernando, 2026-10-16): the far-left or the far-right corner, with or without people shown.
     const options: LayoutOption[] = [];
     for (const side of [-1, 1] as const) {
       // A shared large bottle tries each foreground spot until one leaves it and the plates in view.
@@ -1207,7 +1208,7 @@ function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "opti
         r = solveSeatedCorner(spec, items, side, spot);
         if (typeof r !== "string") break;
       }
-      if (typeof r === "string") infeasible.push({ archetype: "seated-corner", reason: r });
+      if (typeof r === "string") infeasible.push({ archetype: spec.scene.seated ? "seated-corner" : "corner", reason: r });
       else options.push(r);
     }
     return { options: options.slice(0, maxOptions), infeasible };
@@ -1292,6 +1293,10 @@ const SHARED_BOTTLE_SPOTS: Array<[number, number]> = [
 ];
 
 function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bottleSpot: [number, number] | null = null): LayoutOption | string {
+  // Without people the same corner holds the two place settings; only the figures, the pose and
+  // the face crop drop out.
+  const withPeople = !!spec.scene.seated;
+  const archetype: Archetype = withPeople ? "seated-corner" : "corner";
   const surf = SURFACES[spec.scene.surface];
   const W = surf.width,
     D = surf.depth;
@@ -1387,7 +1392,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   // The pose: each person who holds their drink takes it off the table into the hand nearer the
   // other person (a glass for a large SKU, the bottle or can for a small one).
   const pose = poseById(spec.scene.pose);
-  for (const s of seats) {
+  for (const s of withPeople ? seats : []) {
     const pp = pose.people[s.id as PersonId];
     const label = pp?.holds ? heldLabel(spec, placed.map((p) => p.item.label), s.id as PersonId) : null;
     const drink = placed.find((p) => p.item.label === label);
@@ -1465,7 +1470,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   };
   const sharedMeal = placed.some((p) => p.item.kind === "shared-hero" || p.item.kind === "shared-side");
   const tries = [...(sharedMeal ? [{ margin: 0.08, low: 0.3 }] : []), { margin: 0.03, low: 0.3 }, { margin: 0.03, low: 0.45 }];
-  const all = [...placed.map((p) => ({ x: p.x, d: p.d })), ...seats];
+  const all = [...placed.map((p) => ({ x: p.x, d: p.d })), ...(withPeople ? seats : [])];
   const tx0 = all.reduce((a, q) => a + q.x, 0) / all.length;
   const td0 = all.reduce((a, q) => a + q.d, 0) / all.length;
   let best: { cam: CameraParams; score: number } | null = null;
@@ -1504,15 +1509,16 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
       if (bottleIdx >= 0 && (blocked(b.table, bottleIdx) > 0.08 || plateIdx.some((i) => blocked(b.table, i, bottleIdx) > 0.25))) continue;
         // The table fills the bottom of the frame (no empty foreground), the faces are cropped at
         // the top, and like the references the people may run off the sides.
-        if (tableLow > low || nose < 1.01 || shoulder > 1 || Math.min(...bodies) < -0.1 || Math.max(...bodies) > 1.1) continue;
+        if (tableLow > low) continue;
+        if (withPeople && (nose < 1.01 || shoulder > 1 || Math.min(...bodies) < -0.1 || Math.max(...bodies) > 1.1)) continue;
         // Tightest framing wins; among equals, the crop line just under the noses.
-        const score = -dist - 0.5 * Math.abs(nose - 1.05);
+        const score = -dist - (withPeople ? 0.5 * Math.abs(nose - 1.05) : 0);
         if (!best || score > best.score) best = { cam, score };
         break;
       }
     }
   }
-  if (!best) return "no camera frames the table with both faces cropped at the top";
+  if (!best) return withPeople ? "no camera frames the table with both faces cropped at the top" : "no camera frames both place settings at the corner";
   const cam = best.cam;
   const { boxes, proj } = project(placed, cam);
   const sils = new Map<string, Poly[]>();
@@ -1521,15 +1527,15 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   const rules: RuleResult[] = [
     {
       id: "S1",
-      name: "Seated corner",
+      name: withPeople ? "Seated corner" : "Corner seating",
       pass: true,
       soft: true,
-      detail: "Two people seated at the corner; the one-diner framing rules (H1-H14) aren't checked on this layout yet.",
+      detail: `Two ${withPeople ? "people seated" : "place settings"} at the corner; the one-diner framing rules (H1-H14) aren't checked on this layout yet.`,
     },
   ];
-  const bp = toBlueprint(spec, placed, fit, "seated-corner", 0, {}, rules, D, W, P1);
-  bp.layout_meta.pose = pose.id;
-  for (const s of seats) {
+  const bp = toBlueprint(spec, placed, fit, archetype, 0, {}, rules, D, W, P1);
+  if (withPeople) bp.layout_meta.pose = pose.id;
+  for (const s of withPeople ? seats : []) {
     const b = screenBox(proj, SEATED_PERSON, s.x, s.d, s.yaw, -SEAT_DROP);
     const c = proj.project(s.x, 0.2, s.d);
     bp.primitives.push({
@@ -1546,6 +1552,8 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
       screen_bbox: { x0: +b.x0.toFixed(4), y0: +b.y0.toFixed(4), x1: +b.x1.toFixed(4), y1: +b.y1.toFixed(4) },
     });
   }
-  bp.layout_meta.rationale = `Seated Corner (${side < 0 ? "far-left" : "far-right"} corner): ${describe("seated-corner", placed)}. The camera faces that corner from across the table, so both people show in three-quarter view.`;
-  return { archetype: "seated-corner", blueprint: bp };
+  bp.layout_meta.rationale = withPeople
+    ? `Seated Corner (${side < 0 ? "far-left" : "far-right"} corner): ${describe("seated-corner", placed)}. The camera faces that corner from across the table, so both people show in three-quarter view.`
+    : `Corner Seating (${side < 0 ? "far-left" : "far-right"} corner): ${describe("corner", placed)}. The camera faces that corner from across the table.`;
+  return { archetype, blueprint: bp };
 }

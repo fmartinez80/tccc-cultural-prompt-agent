@@ -189,17 +189,22 @@ function whereInFrame(bp: Blueprint, p: Primitive): string {
   if (p.held_by) return `in ${p.held_by}'s hand, ${h === "centre" ? "centre of the frame" : `${h} of the frame`}`;
   const v = b ? ((b.y0 + b.y1) / 2 < 0.3 ? "lower" : (b.y0 + b.y1) / 2 > 0.55 ? "upper" : "middle") : "middle";
   const spot = h === "centre" ? `${v} centre of the frame` : `${v} ${h} of the frame`;
+  const people = hasSeatedPeople(bp);
   const whose = p.role.startsWith("partner-")
-    ? ", at PERSON_2's place"
-    : ["main", "sku", "glass", "napkin-set"].includes(p.role)
-      ? ", at PERSON_1's place"
+    ? `, at ${people ? "PERSON_2's" : "the second diner's"} place${people ? "" : " at the table's end"}`
+    : p.role === "sku" && !bp.primitives.some((q) => q.role === "partner-sku")
+      ? ", between the two places, shared by both"
+      : ["main", "sku", "glass", "napkin-set"].includes(p.role)
+      ? `, at ${people ? "PERSON_1's" : "the first diner's"} place${people ? "" : " on the long side"}`
       : ", between the two places";
   return `${spot}${whose}`;
 }
 
 function whereOnTable(bp: Blueprint, id: string): string {
   const p = bp.primitives.find((q) => q.id === id)!;
-  if (hasSeatedPeople(bp)) return whereInFrame(bp, p);
+  // Two diners sit at a right angle around a corner (seated people or just their settings): the
+  // camera looks across that corner, so say where things land in the frame.
+  if (hasSeatedPeople(bp) || bp.primitives.some((q) => q.role === "partner-main" && Math.abs(q.rotation_euler_deg.yaw) === 90)) return whereInFrame(bp, p);
   const main = bp.primitives.find((q) => q.id === "MAIN")!;
   if (id === "MAIN") return "foreground, center of the frame";
   // Second place setting (party "2"): phrase from the partner's own yaw rather than its offset
@@ -219,6 +224,29 @@ function whereOnTable(bp: Blueprint, id: string): string {
   const depth = dd > 0.06 ? "behind" : dd < -0.06 ? "in front of" : "beside";
   if (depth === "beside") return `to the ${side || "side"} of the entree`;
   return `${depth} the entree${side ? `, to the ${side}` : ""}`;
+}
+
+/**
+ * Exact counts of plates, serving vessels, glasses and products (Fernando, 2026-10-16): image
+ * tests added a third plate and extra glasses. A glass belongs to a diner's plate, never to a
+ * serving dish or a shared bowl.
+ */
+export function countsSentence(bp: Blueprint): string {
+  const n = (roles: string[]) => bp.primitives.filter((p) => roles.includes(p.role)).length;
+  const words = ["no", "one", "two", "three", "four", "five", "six"];
+  const w = (k: number) => words[k] ?? String(k);
+  const portions = n(["main", "partner-main"]);
+  const serving = bp.primitives.filter((p) => p.role === "shared-hero");
+  const glasses = n(["glass", "partner-glass"]);
+  const products = n(["sku", "partner-sku"]);
+  const pkg = bp.primitives.find((p) => p.role === "sku")?.proxy.includes("can") ? "can" : "bottle";
+  const parts = [
+    `exactly ${w(portions)} ${portions === 1 ? "serving" : "servings"} of the main dish (${portions === 2 ? "one at each diner's place, MAIN and MAIN_2" : "MAIN"})`,
+    ...serving.map((p) => `one ${p.proxy in VESSEL_SHORT ? VESSEL_SHORT[p.proxy as Vessel] : "serving dish"} of it to share (${p.id}), which gets no glass and no place setting`),
+    `${w(glasses)} Coca-Cola ${glasses === 1 ? "glass" : "glasses"}${glasses === 2 ? ", one beside each diner's plate" : glasses === 1 ? ", beside the diner's plate" : ""}`,
+    `${w(products)} Coca-Cola ${products === 1 ? pkg : `${pkg}s`}`,
+  ];
+  return `Count: ${parts.join("; ")}. Add no other plates, glasses, cups or bottles anywhere on the table.`;
 }
 
 /** A drink a seated person holds: in their hand (or standing with their hand around it), logo to the camera. */
@@ -293,7 +321,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
     productScale: productScaleSentence(spec, bp),
-    exclusions: `Only the ${tableItems} objects described above are on the table${seated ? " or in hand" : ""}, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${seated ? seatedPeopleRule(bp) : BACKGROUND_PEOPLE_RULE}`,
+    exclusions: `Only the ${tableItems} objects described above are on the table${seated ? " or in hand" : ""}, and no other drinks or glasses (no beer, wine, water or juice). ${countsSentence(bp)} No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${seated ? seatedPeopleRule(bp) : BACKGROUND_PEOPLE_RULE}`,
   };
 }
 
