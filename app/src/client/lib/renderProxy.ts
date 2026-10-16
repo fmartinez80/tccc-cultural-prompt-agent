@@ -145,9 +145,10 @@ const CONDIMENT: Array<[number, number]> = [
   [0.0, 0], [0.96, 0], [1.0, 0.03], [1.0, 0.64], [0.9, 0.72], [0.62, 0.79], [0.42, 0.84], [0.42, 0.9], [0.5, 0.9], [0.5, 1.0], [0.0, 1.0],
 ];
 // The stemless Coca-Cola bell glass (references/glass/poured.jpg): a heavy flat base, a narrow
-// body that widens slowly, then swells into the rounded bell near the top, rim a little in.
+// body that widens slowly, then swells into the rounded bell near the top. Widest at the rim, so
+// def.radius is the measured rim (95 mm, registry BELL_GLASS).
 const BELL: Array<[number, number]> = [
-  [0.0, 0], [0.6, 0], [0.62, 0.02], [0.6, 0.07], [0.62, 0.25], [0.68, 0.45], [0.8, 0.6], [0.95, 0.72], [1.0, 0.8], [0.98, 0.92], [0.94, 1.0], [0.9, 1.0], [0.0, 0.94],
+  [0.0, 0], [0.6, 0], [0.62, 0.02], [0.6, 0.07], [0.62, 0.25], [0.68, 0.45], [0.8, 0.6], [0.93, 0.72], [0.99, 0.82], [1.0, 0.92], [1.0, 1.0], [0.95, 1.0], [0.0, 0.94],
 ];
 
 function lathe(profile: Array<[number, number]>, r: number, h: number): THREE.BufferGeometry {
@@ -180,7 +181,8 @@ function buildItem(p: Primitive, bp?: Blueprint): THREE.Object3D {
   if (def.kind === 'lathe-bottle') {
     g.add(mesh(lathe(isPet ? PET_BOTTLE : CONTOUR_BOTTLE, def.radius!, def.height), color));
   } else if (def.kind === 'lathe-can') {
-    const c = mesh(new THREE.CylinderGeometry(def.radius! * 0.88, def.radius! * 0.9, def.height, 40), color);
+    // The measured diameter is the can body; only the lid and base neck in a little.
+    const c = mesh(new THREE.CylinderGeometry(def.radius!, def.radius!, def.height, 40), color);
     c.position.y = def.height / 2;
     g.add(c);
   } else if (def.kind === 'lathe-condiment') {
