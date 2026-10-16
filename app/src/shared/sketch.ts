@@ -58,6 +58,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     ...(opts.restyle ? [RESTYLE_LINE] : []),
     people,
     `Camera: ${facts.lookSentence} ${facts.angleSentence} ${facts.scaleSentence}`,
+    facts.productScale,
     "Draw the food in detail, as it will look in the photograph from this camera: its real shapes, pieces and portions, how it is stacked or spread on its vessel, the garnish, the texture (crumb, char, crisp edges, sauce, steam). Draw each vessel's real shape and rim, the cutlery and the napkin folds, and the Coca-Cola product's real silhouette with only a hint of its script logo.",
     `${seated ? "People and objects" : "Objects"} (${facts.labels.length}, and only these):`,
     ...objects,

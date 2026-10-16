@@ -57,11 +57,11 @@ export function skuReferenceLines(refs: Array<{ shot: SkuShot; n: number }>): st
   const list = refs.map((r) => `image ${r.n} shows it ${SHOT_WORDS[r.shot]}`).join('; ');
   return [
     `Product photographs of the real package: ${list}.`,
-    'Match the package exactly to these photographs: the same shape and proportions, cap or lid, label artwork, logo lettering and colors. Do not redraw, restyle or re-letter the label, and do not invent any text.',
+    'These are close-ups: they show how the package looks, not how big it is in the scene, so keep it at the real size given in this prompt. Match the package exactly to these photographs: the same shape and proportions, cap or lid, label artwork, logo lettering and colors. Do not redraw, restyle or re-letter the label, and do not invent any text.',
     'Its printed label is part of the product and stays on it. Turn it so the Coca-Cola logo faces the camera; no barcode, nutrition panel or back-label text shows.',
   ].join(' ');
 }
 
 export function glassReferenceLine(n: number): string {
-  return `Image ${n} shows a correctly poured glass of Coca-Cola: match its glass, the liquid color, the height and texture of the foam head, and the amount and size of the ice.`;
+  return `Image ${n} shows a correctly poured glass of Coca-Cola: match its glass shape (not its size: keep the real size given in this prompt), the liquid color, the height and texture of the foam head, and the amount and size of the ice.`;
 }

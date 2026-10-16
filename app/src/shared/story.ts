@@ -95,6 +95,8 @@ export interface StoryFacts {
   proxyInstruction: string;
   /** Target object sizes in the frame, from the true framing. */
   scaleSentence: string;
+  /** The Coca-Cola product's and the glass's real sizes next to the plate. */
+  productScale: string;
   /** The art director's placement changes from the sketch review; they amend the layout guide. */
   adjustments?: string[];
   /** The approved sketch for this layout, when there is one: it replaces the proxy as image 1. */
@@ -148,7 +150,7 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
     return { vessel: `the ${spec.sku.displayName}, about ${h} cm tall${isPartnerDrink ? " (the second diner's)" : ""}`, fixedText: text[0].toUpperCase() + text.slice(1) };
   }
   if (proxy === "bell-glass") {
-    const text = `Exactly one classic Coca-Cola bell glass, about ${cm(BELL_GLASS.height)} cm tall: a stemless tumbler with a heavy flat base and a narrow lower body that swells into a rounded bell shape near the top, the white Coca-Cola script on the bell (no stem, not a goblet or wine glass). ${glassRules.glass.fill_prompt[0]!.toUpperCase()}${glassRules.glass.fill_prompt.slice(1)}, with ice and a thin head of foam, the logo facing the camera.${role === "partner-glass" ? " This is the second diner's own glass." : ""}`;
+    const text = `Exactly one classic Coca-Cola bell glass, about ${cm(BELL_GLASS.height)} cm tall: a stemless tumbler with a heavy flat base and a narrow lower body that swells into a rounded bell shape near the top, the white Coca-Cola script on the bell (no stem, not a goblet, wine glass, pint glass or straight-sided tumbler). ${glassRules.glass.fill_prompt[0]!.toUpperCase()}${glassRules.glass.fill_prompt.slice(1)}, with ice and a thin head of foam, the logo facing the camera.${role === "partner-glass" ? " This is the second diner's own glass." : ""}`;
     return { vessel: `a branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall${role === "partner-glass" ? " (the second diner's)" : ""}`, fixedText: text };
   }
   if (role === "napkin-set" || role === "partner-napkin") {
@@ -243,7 +245,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   const serving = seated
     ? (spec.sku.glass
       ? shared || spec.sku.volumeMl >= 1000
-        ? `A ${spec.sku.displayName} stands on the table between the two places as the one shared bottle, with a branded bell-shaped Coca-Cola glass filled to the top at each person's place.`
+        ? `A ${spec.sku.displayName} stands in the foreground as the one shared bottle, fully visible with nothing in front of it, its label to the camera; each person has a Coca-Cola bell glass filled to the top at their place.`
         : `Each person has their own ${spec.sku.displayName} beside their plate, with a branded bell-shaped Coca-Cola glass filled to the top next to it.`
       : `Each person has their own ${spec.sku.displayName} beside their plate, served as is, no glass.`) + holding
     : spec.sku.glass
@@ -290,6 +292,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
+    productScale: productScaleSentence(spec, bp),
     exclusions: `Only the ${tableItems} objects described above are on the table${seated ? " or in hand" : ""}, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${seated ? seatedPeopleRule(bp) : BACKGROUND_PEOPLE_RULE}`,
   };
 }
@@ -357,6 +360,47 @@ function scaleSentence(bp: Blueprint): string {
   return `Scale: this is a table shot, not a close-up. The camera is about ${dist.toFixed(1)} m from the ${noun}, and at that distance the frame is about ${Math.round(frameW * 20) * 5} cm wide, so the ${cm(plateW)} cm ${noun} fills only about ${Math.round((plateW / frameW) * 100)}% of the frame width, with open table on both sides. Do not enlarge the food or the product.`;
 }
 
+/** A size ratio in words the image model reads more reliably than a percentage. */
+function share(r: number): string {
+  if (r < 0.42) return "well under half";
+  if (r < 0.58) return "about half";
+  if (r < 0.7) return "about two thirds";
+  if (r < 0.78) return "about three quarters";
+  if (r < 0.88) return "about four fifths";
+  if (r < 0.97) return "nearly all";
+  if (r <= 1.03) return "about the same as";
+  if (r < 1.25) return "a little more than";
+  if (r < 1.65) return "about one and a half times";
+  return "about twice";
+}
+
+/**
+ * Real-world sizes of the Coca-Cola product (from the SKU's measured dimensions) and the glass,
+ * next to the plate. Image tests (Fernando, 2026-10-16): the photo step drew a 22.5 cm 20 oz
+ * bottle about a third too tall for its plate and the bell glass as tall as the bottle, because
+ * the product photos are close-ups with no scale. The sketch fixes positions, not this.
+ */
+export function productScaleSentence(spec: SceneSpec, bp: Blueprint): string {
+  const sku = skuProxy(spec.sku);
+  const pkg = spec.sku.package === "can" ? "can" : "bottle";
+  const main = bp.primitives.find((p) => p.id === "MAIN");
+  const glass = bp.primitives.some((p) => p.role === "glass" || p.role === "partner-glass");
+  const parts = [`the Coca-Cola ${pkg} is ${cm(sku.height)} cm tall and ${cm(2 * sku.radius!)} cm wide`];
+  if (main) {
+    const noun = main.proxy in VESSEL_SHORT ? VESSEL_SHORT[main.proxy as Vessel] : "dish";
+    const r = sku.height / main.dimensions.width;
+    parts[0] += `, so its height is ${share(r)} the width of the ${cm(main.dimensions.width)} cm ${noun}`;
+  }
+  if (glass) {
+    const r = BELL_GLASS.height / sku.height;
+    parts.push(
+      `the glass is ${cm(BELL_GLASS.height)} cm tall and ${cm(2 * BELL_GLASS.radius!)} cm across the rim, ${r < 0.97 ? `shorter than the ${pkg}: ${share(r)} its height` : r <= 1.03 ? `about as tall as the ${pkg}` : `taller than the ${pkg}: ${share(r)} its height`}`,
+    );
+  }
+  const hand = bp.primitives.some((p) => p.role === "person") ? " An adult hand is about 19 cm from wrist to fingertip; keep the product in that proportion where it is held." : "";
+  return `Real sizes, which the photograph keeps (the product photos show how the package looks, not how big it is here): ${parts.join("; ")}. Never enlarge the Coca-Cola product or the glass to make them stand out: one nearer the camera looks bigger only through perspective, by the same amount as the food beside it.${hand}`;
+}
+
 export function labelText(story: Story, l: StoryFacts["labels"][number]): string {
   return l.fixedText ?? withoutHands(story.labelSegments.find((x) => x.label === l.label)?.text ?? `${l.what}, on ${l.vessel}.`);
 }
@@ -421,6 +465,8 @@ export function compositionSegments(story: Story, facts: StoryFacts): Compositio
         facts.layoutSketch ? sketchInstruction(facts) : facts.proxyInstruction,
         // The sketch already fixes how big everything is in the frame; the planned scale would contradict it.
         facts.layoutSketch ? "" : facts.scaleSentence,
+        // Real sizes hold either way: the sketch places the product, the photo still tends to inflate it.
+        facts.productScale,
         RECTANGULAR_TABLE_RULE,
         !facts.layoutSketch && facts.adjustments?.length
           ? `Adjustments to the layout guide (these take priority over the shapes for the items named):\n- ${facts.adjustments.join("\n- ")}`
