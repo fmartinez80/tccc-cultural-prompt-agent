@@ -259,7 +259,7 @@ Fixed facts (use these, do not contradict them):
 - Framing: ${facts.framingSentence}
 - Product serving: ${facts.servingSentence}
 - Layout (from the chosen proxy): ${facts.labels.map((l) => `${l.label} = ${l.what}, ${l.where}`).join('; ')}
-${spec.scene.party === '2' ? '\nThis table is set for two (nobody sits at it in the image, only their place settings show). Mention briefly in the scene summary that the table is set for two; the second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : ''}
+${spec.scene.seated && spec.scene.party === '2' ? '\nTwo people sit at this table, at one corner (PERSON_1 and PERSON_2); this overrides the general "nobody sits at the table" rule for this scene only. Their looks, clothes and pose already have fixed text, so do not write labels for them and do not add other people at the table. Mention them briefly in the scene summary as two people sharing the meal, and still describe no hands holding or lifting food. The second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : spec.scene.party === '2' ? '\nThis table is set for two (nobody sits at it in the image, only their place settings show). Mention briefly in the scene summary that the table is set for two; the second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : ''}
 
 Write:
 - sceneSummary: a few paragraphs of prose as a food stylist would brief it: what's on the table, where, the setting, the mood, and the cultural framing.

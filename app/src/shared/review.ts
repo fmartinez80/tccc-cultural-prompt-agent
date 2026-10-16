@@ -106,6 +106,9 @@ export function sketchEdits(review: LayoutReview, bp: Blueprint): Record<string,
     const r = review.items[p.id];
     const summary = r?.verdict === 'change' ? changeSummary(r) : '';
     if (summary) out[p.id] = `${i + 1}. ${p.component_name}: ${summary}`;
+    // A seated person's looks and clothes change the sketch too.
+    const who = p.person ? [p.person.who, p.person.heritage, p.person.wearing].map((t) => t.trim()).filter(Boolean).join(', ') : '';
+    if (who) out[p.id] = `${i + 1}. ${p.id}: ${who}`;
   });
   const notes = review.notes.trim();
   if (notes) out['scene'] = `Whole scene: "${notes}"`;

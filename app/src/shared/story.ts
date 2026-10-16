@@ -5,9 +5,10 @@
 
 import { z } from "zod";
 import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, RECTANGULAR_TABLE_RULE, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase, withoutRoundTable } from "./registry";
+import { seatedPeopleRule, hasSeatedPeople, personText } from "./people";
 import { BACKGROUND_PEOPLE_RULE, type LightingPreset, angleById, angleSentence, depthById, glassRules, isLargeSku, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
 import { sceneItems } from "./scene";
-import type { Blueprint, SceneSpec, Vessel } from "./types";
+import type { Blueprint, Primitive, SceneSpec, Vessel } from "./types";
 import { venueType } from "./venues";
 
 export const StorySegments = z.object({
@@ -128,7 +129,7 @@ function openingText(spec: SceneSpec): string {
   return `Opened: no cap on the neck, ${cap} on the table right beside the bottle's base (the cap is part of the bottle, not another object), no straw. Where its description or product photo shows the cap on, this overrides it: the cap is off.`;
 }
 
-function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: string): { vessel: string; fixedText?: string } {
+function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: string, seated = false): { vessel: string; fixedText?: string } {
   const isPartnerDrink = role === "partner-sku" || role === "partner-glass";
   if (proxy.startsWith("sku:")) {
     const h = cm(skuProxy(spec.sku).height);
@@ -147,7 +148,7 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
     return { vessel: `the ${spec.sku.displayName}, about ${h} cm tall${isPartnerDrink ? " (the second diner's)" : ""}`, fixedText: text[0].toUpperCase() + text.slice(1) };
   }
   if (proxy === "bell-glass") {
-    const text = `Exactly one branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall, ${glassRules.glass.fill_prompt}, with ice, with the logo facing the camera.${role === "partner-glass" ? " This is the second diner's own glass." : ""}`;
+    const text = `Exactly one classic Coca-Cola bell glass, about ${cm(BELL_GLASS.height)} cm tall: a stemless tumbler with a heavy flat base and a narrow lower body that swells into a rounded bell shape near the top, the white Coca-Cola script on the bell (no stem, not a goblet or wine glass). ${glassRules.glass.fill_prompt[0]!.toUpperCase()}${glassRules.glass.fill_prompt.slice(1)}, with ice and a thin head of foam, the logo facing the camera.${role === "partner-glass" ? " This is the second diner's own glass." : ""}`;
     return { vessel: `a branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall${role === "partner-glass" ? " (the second diner's)" : ""}`, fixedText: text };
   }
   if (role === "napkin-set" || role === "partner-napkin") {
@@ -156,7 +157,10 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
     const material = spec.napkinSet?.material ?? "cotton";
     const [w, d] = napkinFoldedCm(size);
     const kind = size === "dinner" ? "everyday dinner napkin" : "luncheon napkin";
-    const facing = role === "partner-napkin" ? "handles toward the second diner" : "handles toward the camera";
+    // Seated, each person's cutlery faces them (PERSON_1 sits across from the camera).
+    const facing = seated
+      ? `handles toward ${role === "partner-napkin" ? "PERSON_2" : "PERSON_1"}`
+      : role === "partner-napkin" ? "handles toward the second diner" : "handles toward the camera";
     if (material === "paper") {
       const text = `A plain white paper napkin, folded into a flat rectangle about ${w} by ${d} cm, lying flat with its long side toward the camera. Soft, slightly textured paper with a light embossed edge, no print, logo or text, no cutlery on it.`;
       return { vessel: "a folded paper napkin", fixedText: text };
@@ -172,8 +176,28 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
   return { vessel: proxy };
 }
 
+/**
+ * Seated corner (staging): the camera looks across the corner, so "left" and "behind" in table
+ * terms don't match the frame. Say where each thing lands in the picture, and whose place it is.
+ */
+function whereInFrame(bp: Blueprint, p: Primitive): string {
+  const b = p.screen_bbox;
+  const h = b ? ((b.x0 + b.x1) / 2 < 0.38 ? "left" : (b.x0 + b.x1) / 2 > 0.62 ? "right" : "centre") : "centre";
+  if (p.role === "person") return `seated at the table, on the ${h} of the frame`;
+  if (p.held_by) return `in ${p.held_by}'s hand, ${h === "centre" ? "centre of the frame" : `${h} of the frame`}`;
+  const v = b ? ((b.y0 + b.y1) / 2 < 0.3 ? "lower" : (b.y0 + b.y1) / 2 > 0.55 ? "upper" : "middle") : "middle";
+  const spot = h === "centre" ? `${v} centre of the frame` : `${v} ${h} of the frame`;
+  const whose = p.role.startsWith("partner-")
+    ? ", at PERSON_2's place"
+    : ["main", "sku", "glass", "napkin-set"].includes(p.role)
+      ? ", at PERSON_1's place"
+      : ", between the two places";
+  return `${spot}${whose}`;
+}
+
 function whereOnTable(bp: Blueprint, id: string): string {
   const p = bp.primitives.find((q) => q.id === id)!;
+  if (hasSeatedPeople(bp)) return whereInFrame(bp, p);
   const main = bp.primitives.find((q) => q.id === "MAIN")!;
   if (id === "MAIN") return "foreground, center of the frame";
   // Second place setting (party "2"): phrase from the partner's own yaw rather than its offset
@@ -195,6 +219,16 @@ function whereOnTable(bp: Blueprint, id: string): string {
   return `${depth} the entree${side ? `, to the ${side}` : ""}`;
 }
 
+/** A drink a seated person holds: in their hand (or standing with their hand around it), logo to the camera. */
+function heldText(text: string, p: Primitive): string {
+  const lifted = p.world.elevation > 0;
+  const how = lifted ? `held upright in ${p.held_by}'s hand a little above the table` : `standing on the table with ${p.held_by}'s hand wrapped loosely around it`;
+  const out = text
+    .replace("standing upright and facing the camera straight on so the full logo reads", `${how}, turned so the full logo faces the camera and no fingers cover it`)
+    .replace("on the table right beside the bottle's base", "on the table near their plate");
+  return out === text ? `${text} It is ${how}, the logo facing the camera and no fingers covering it.` : out;
+}
+
 export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   const styles = new Map(sceneItems(spec).map((i) => [i.label, i.style]));
   const lighting = selectLighting(spec.scene);
@@ -202,7 +236,17 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   const venueWord = spec.scene.venue === "on-the-go" ? "street food" : spec.scene.venue === "restaurant" ? "restaurant food" : "home-cooked food";
   const shared = bp.primitives.some((p) => p.id === "SHARED_HERO");
   const hasPartner = bp.primitives.some((p) => p.role === "partner-main");
-  const serving = spec.sku.glass
+  const seated = hasSeatedPeople(bp);
+  const tableItems = bp.primitives.filter((p) => p.role !== "person").length;
+  const holders = bp.primitives.filter((p) => p.held_by).map((p) => p.held_by!);
+  const holding = holders.length === 2 ? " Both people hold their own drink." : holders.length ? ` ${holders[0]} holds their own drink.` : "";
+  const serving = seated
+    ? (spec.sku.glass
+      ? shared || spec.sku.volumeMl >= 1000
+        ? `A ${spec.sku.displayName} stands on the table between the two places as the one shared bottle, with a branded bell-shaped Coca-Cola glass filled to the top at each person's place.`
+        : `Each person has their own ${spec.sku.displayName} beside their plate, with a branded bell-shaped Coca-Cola glass filled to the top next to it.`
+      : `Each person has their own ${spec.sku.displayName} beside their plate, served as is, no glass.`) + holding
+    : spec.sku.glass
     ? shared || spec.sku.volumeMl >= 1000
       ? hasPartner
         ? `A ${spec.sku.displayName} stands at the top right of the plate as the one shared bottle for the table, with a branded bell-shaped Coca-Cola glass filled to the top at each place.`
@@ -223,13 +267,17 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     skuLightSentence: skuLightSentence(spec.sku, spec.sku.glass, lighting.warmth),
     lookSentence: lookSentence(lookById(spec.camera.look), drinks, depthById(spec.camera.depth)),
     angleSentence: angleSentence(angleById(spec.camera.angle)),
-    framingSentence: hasPartner
+    framingSentence: seated
+      ? "The camera looks across the table toward one of its corners, low and close like the brand's meal photography: the food and the Coca-Cola products sit sharp in the front of the frame, and the corner of the table sits near the center. PERSON_1 sits along one side and PERSON_2 at the end, perpendicular to each other, just behind the food; the top edge of the frame cuts across both of them between the chin and the nose, so we see their shoulders, arms and hands but never their eyes."
+      : hasPartner
       ? "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background. The second place setting sits further back or to the side as a secondary element, and may be partly cropped at the frame's edge."
       : "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background.",
     surfaceText: withoutRoundTable(spec.scene.surfaceText || SURFACES[spec.scene.surface].promptText),
     servingSentence: serving,
     labels: bp.primitives.map((p) => {
-      const base = { label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), ...labelVessel(spec, p.proxy, p.role, styles.get(p.id)) };
+      if (p.role === "person") return { label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), vessel: "a chair at the table", fixedText: personText(spec, bp, p) };
+      const base = { label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), ...labelVessel(spec, p.proxy, p.role, styles.get(p.id), seated) };
+      if (p.held_by && base.fixedText) base.fixedText = heldText(base.fixedText, p);
       // Only a label with no fixed text of its own (currently just MAIN_2) borrows another
       // label's agent-written text; NAPKIN_SET_2/SKU_2/GLASS_2 already got their own fixedText above.
       if (!base.fixedText && p.same_as) {
@@ -242,7 +290,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     proxyInstruction:
       "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines.",
     scaleSentence: scaleSentence(bp),
-    exclusions: `Only the ${bp.primitives.length} objects described above are on the table, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${BACKGROUND_PEOPLE_RULE}`,
+    exclusions: `Only the ${tableItems} objects described above are on the table${seated ? " or in hand" : ""}, and no other drinks or glasses (no beer, wine, water or juice). No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${seated ? seatedPeopleRule(bp) : BACKGROUND_PEOPLE_RULE}`,
   };
 }
 

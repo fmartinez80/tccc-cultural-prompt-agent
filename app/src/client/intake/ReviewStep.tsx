@@ -17,6 +17,7 @@ import { PLACEMENT_REASONS, changeSummary, emptyReview, layoutKey, sketchEdits, 
 import { MODEL_FRAMING_WIDEN } from '../../shared/rules.ts';
 import { SKETCH_MODEL_LABEL, sketchChanges, sketchPrompt } from '../../shared/sketch.ts';
 import type { LayoutOption } from '../../shared/solver.ts';
+import { defaultPersonDetails, type PersonDetails } from '../../shared/people.ts';
 import type { Blueprint } from '../../shared/types.ts';
 import { recordDuration, useProgress } from '../lib/progress.ts';
 import { MODEL_PROXY_WIDTH, renderProxy, renderSketch, type Sketch } from '../lib/renderProxy.ts';
@@ -95,6 +96,7 @@ export function ReviewStep({
   arrangement,
   sourceName,
   onEditLayout,
+  onPerson,
   onNext,
 }: {
   compose: ComposeResult;
@@ -106,6 +108,8 @@ export function ReviewStep({
   /** Null when there is no review yet for this layout. */
   review: LayoutReview | null;
   onReview: (r: LayoutReview) => void;
+  /** Saves who a seated person is and what they wear (seated layouts only); their pose stays the layout's. */
+  onPerson?: (id: string, person: PersonDetails) => void;
   /** A story already exists for this layout: changing the review rewrites it. */
   hasStory: boolean;
   /** The detailed sketch, when one was drawn (for any layout; only this layout's is shown). */
@@ -306,7 +310,7 @@ export function ReviewStep({
 
   const markAllWorking = () => {
     const items: Record<string, ItemReview> = {};
-    for (const p of bp.primitives) items[p.id] = review.items[p.id]?.verdict === 'change' ? review.items[p.id]! : { verdict: 'keep', reasons: [], note: '' };
+    for (const p of bp.primitives) if (p.role !== 'person') items[p.id] = review.items[p.id]?.verdict === 'change' ? review.items[p.id]! : { verdict: 'keep', reasons: [], note: '' };
     onReview({ ...review, items });
   };
 
@@ -385,7 +389,9 @@ export function ReviewStep({
     // eslint-disable-next-line react-hooks/exhaustive-deps -- once per layout
   }, [signature]);
 
-  const unmarked = bp.primitives.length - counts.keep - counts.change;
+  // Seated people aren't marked Working or Change: their pose is locked, their looks are edited in place.
+  const seated = bp.primitives.some((p) => p.role === 'person');
+  const unmarked = bp.primitives.filter((p) => p.role !== 'person').length - counts.keep - counts.change;
 
   const download = async () => {
     const save = (href: string, name: string) => {
@@ -524,7 +530,7 @@ export function ReviewStep({
 
         {/* Under the sketch: change it by hand on the left, draw it again on the right. */}
         <div className={styles.toolbar}>
-          <Button size="sm" icon={<Move size={14} aria-hidden />} onPress={() => setEditOpen(true)} disabled={!sketch || drawing}>
+          <Button size="sm" icon={<Move size={14} aria-hidden />} onPress={() => setEditOpen(true)} disabled={!sketch || drawing || seated}>
             Edit sketch
           </Button>
           <Button
@@ -537,12 +543,6 @@ export function ReviewStep({
             {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Redraw'}
           </Button>
         </div>
-          {hasStory && (
-            <Alert tone="info" title="This layout already has a scene">
-              Changing anything here rewrites the scene when you continue.
-            </Alert>
-          )}
-
           <div className={styles.detailBar} aria-live="polite">
             {drawing ? null : run?.error ? (
               signIn ? (
@@ -581,6 +581,11 @@ export function ReviewStep({
               </div>
             )}
           </div>
+          {hasStory && (
+            <Alert tone="info" title="This layout already has a scene">
+              Changing anything here rewrites the scene when you continue.
+            </Alert>
+          )}
         </div>
 
         {arrangement?.(drawing)}
@@ -622,10 +627,12 @@ export function ReviewStep({
                       <span className={styles.itemTitle}>{p.component_name}</span>
                       <span className={styles.itemMeta}>
                         {p.id}
+                        {p.role === 'person' ? ' · pose locked by the layout' : ''}
                         {hidden ? (boxes ? ' · not found in the sketch' : ' · not visible from this camera') : ''}
                       </span>
                     </span>
                   </button>
+                  {p.role !== 'person' && (
                   <div className={styles.verdicts} role="group" aria-label={`${p.component_name}: is it working?`}>
                     <button type="button" className={styles.verdict} data-kind="keep" aria-pressed={r?.verdict === 'keep'} onClick={() => setVerdict(p.id, 'keep')}>
                       <Check size={14} aria-hidden /> Working
@@ -643,7 +650,17 @@ export function ReviewStep({
                       <PencilLine size={14} aria-hidden /> Change
                     </button>
                   </div>
+                  )}
                 </div>
+
+                {p.role === 'person' && (
+                  <PersonFields
+                    details={p.person ?? { who: '', heritage: '', wearing: '' }}
+                    defaults={defaultPersonDetails(compose.spec, p.id)}
+                    disabled={!onPerson}
+                    onChange={(details) => onPerson?.(p.id, details)}
+                  />
+                )}
 
                 {r?.verdict === 'change' && !editing.has(p.id) && (
                   <div className={styles.changeDone}>
@@ -772,7 +789,7 @@ export function ReviewStep({
       </div>
       </div>
 
-      <StepActions>
+      <StepActions pinned={false}>
         {detail && !expired && detailStale && !drawing && pending.length > 0 && (
           <Button icon={<RotateCw size={16} aria-hidden />} onPress={() => setConfirmRedraw(true)}>
             Redraw with {pendingText}
@@ -828,5 +845,27 @@ export function ReviewStep({
         </Dialog>
       </Modal>
     </section>
+  );
+}
+
+/** Who a seated person is and what they wear. Empty fields fall back to the defaults shown as placeholders. */
+function PersonFields({
+  details,
+  defaults,
+  disabled,
+  onChange,
+}: {
+  details: PersonDetails;
+  defaults: PersonDetails;
+  disabled: boolean;
+  onChange: (d: PersonDetails) => void;
+}) {
+  return (
+    <div className={styles.change}>
+      <TextInput label="Who they are" placeholder={`e.g. ${defaults.who}`} value={details.who} maxLength={200} disabled={disabled} onChange={(who) => onChange({ ...details, who })} />
+      <TextInput label="Heritage" placeholder={`e.g. ${defaults.heritage}`} value={details.heritage} maxLength={200} disabled={disabled} onChange={(heritage) => onChange({ ...details, heritage })} />
+      <TextInput label="Wearing" placeholder={`e.g. ${defaults.wearing}`} value={details.wearing} maxLength={200} disabled={disabled} onChange={(wearing) => onChange({ ...details, wearing })} />
+      <span className={styles.changeHint}>Left blank, the default shown greyed out is used. Redraw the sketch to see the change.</span>
+    </div>
   );
 }

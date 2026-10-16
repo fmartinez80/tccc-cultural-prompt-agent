@@ -38,7 +38,7 @@ const FEATURES = [
   {
     Art: ProductsIllustration,
     title: 'Real Products, Real-World Scale',
-    text: 'Select your exact Coca-Cola SKU and automatically lock in true-to-life dimensions, so food portions, glasses, and packaging are always perfectly proportioned.',
+    text: 'Select your exact SKU and automatically lock in true-to-life dimensions, so food portions, glasses, and packaging are always perfectly proportioned.',
   },
   {
     Art: SeasoningIllustration,

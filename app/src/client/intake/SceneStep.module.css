@@ -15,6 +15,28 @@
   color: var(--bay-text);
 }
 
+.poseField {
+  max-width: 480px;
+}
+
+.pose {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 480px;
+}
+
+.pose img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--bay-border, currentColor);
+  background: var(--bay-surface-2, transparent);
+}
+
 .hint {
   margin-top: 4px;
   font-size: var(--app-text-min);

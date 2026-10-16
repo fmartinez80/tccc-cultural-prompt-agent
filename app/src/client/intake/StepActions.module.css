@@ -3,9 +3,7 @@
 }
 
 .bar {
-  position: sticky;
-  bottom: 0;
-  z-index: 5;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,8 +13,15 @@
   background: var(--bay-bg-canvas);
 }
 
+/* Sticks to the bottom of the window on long steps. */
+.bar[data-pinned] {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+}
+
 /* A gap above the bar so content never butts against it. */
-.bar::before {
+.bar[data-pinned]::before {
   content: '';
   position: absolute;
   left: 0;

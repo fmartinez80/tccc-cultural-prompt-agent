@@ -1,7 +1,9 @@
 // The action bar at the foot of every step: Back on the left, the step's own
 // actions (Continue, Ask again, …) on the right. It sticks to the bottom of
 // the window on long steps and sits at the bottom of the panel on short ones,
-// so Continue is always in the same corner.
+// so Continue is always in the same corner. A step with modules below its
+// main view (Review the Sketch) can turn the sticking off with `pinned={false}`,
+// so the bar stays at the very end of the page.
 
 import { ArrowLeft } from 'lucide-react';
 import { createContext, useContext, type ReactNode } from 'react';
@@ -12,13 +14,13 @@ import styles from './StepActions.module.css';
 /** The previous step, provided by App; undefined on the first step. */
 export const StepBackContext = createContext<{ label: string; onBack: () => void } | undefined>(undefined);
 
-export function StepActions({ children }: { children?: ReactNode }) {
+export function StepActions({ children, pinned = true }: { children?: ReactNode; pinned?: boolean }) {
   const back = useContext(StepBackContext);
   return (
     <>
       {/* Takes up the slack on short steps and keeps a gap on long ones. */}
       <div className={styles.spacer} aria-hidden />
-      <div className={styles.bar}>
+      <div className={styles.bar} data-pinned={pinned || undefined}>
         <div className={styles.left}>
           {back && (
             <Button variant="default" icon={<ArrowLeft size={16} aria-hidden />} onPress={back.onBack} aria-label={`Back to ${back.label}`}>
