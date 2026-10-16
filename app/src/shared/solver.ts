@@ -1298,11 +1298,17 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): La
       case "partner-napkin": // PERSON_2's place, toward the camera
         want.set(it.label, { x: m2.x, d: Math.max(half + 0.03, m2.d - r1 - 0.05 - half) }); // turned 90°, so its width runs along d
         break;
+      case "shared-hero": {
+        // A family-style dish sits in the open table past both plates, diagonally out from the
+        // corner, so it reads as the centre of the meal between the two people.
+        const rh = footprintRadius(it.def);
+        want.set(it.label, { x: cx + inward * (2 * r1 + 0.28 + rh), d: Math.max(rh + 0.04, D - 2 * r1 - 0.3 - rh * 0.5) });
+        break;
+      }
       case "sku":
-      case "shared-hero":
-        // A shared large bottle stands further back, between the two places, leaving room in
-        // front for PERSON_2's napkin.
-        want.set(it.label, isMultiServe(spec) ? { x: drinkZone.x + inward * 0.04, d: drinkZone.d + 0.16 } : drinkZone);
+        // A shared large bottle stands in the corner itself, behind both plates and between the
+        // two people, as in the brand's references, never in front of the food.
+        want.set(it.label, isMultiServe(spec) ? { x: cx + inward * 0.14, d: D - 0.14 } : drinkZone);
         break;
       case "glass":
         want.set(it.label, { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
@@ -1322,7 +1328,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): La
   }
 
   const multi = isMultiServe(spec) ? { sku: "SKU", clearance: bottleClearance(spec.sku) } : null;
-  const rank = (i: ItemSpec) => ["main", "partner-main", "sku", "glass", "napkin-set", "partner-napkin", "partner-sku", "partner-glass"].indexOf(i.kind);
+  const rank = (i: ItemSpec) => ["main", "partner-main", "shared-hero", "sku", "glass", "napkin-set", "partner-napkin", "partner-sku", "partner-glass"].indexOf(i.kind);
   const order = [...items].sort((a, b) => (rank(a) < 0 ? 99 : rank(a)) - (rank(b) < 0 ? 99 : rank(b)));
   const placed: Placed[] = [];
   for (const it of order) {
@@ -1401,48 +1407,55 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1): La
     return { proj, people, heads, table };
   };
   // The plates and the drinks must show whole; napkins and sides may run off the frame's edges.
-  const heroIdx = placed.flatMap((p, i) => (["main", "partner-main", "sku", "glass", "partner-sku", "partner-glass", "shared-hero"].includes(p.item.kind) ? [i] : []));
+  const heroIdx = placed.flatMap((p, i) => (["main", "partner-main", "sku", "glass", "partner-sku", "partner-glass", "shared-hero", "shared-side"].includes(p.item.kind) ? [i] : []));
+  // A shared dish in the middle needs more of the table around it (Fernando, 2026-10-16).
+  // Strictest first: a wide margin for a shared meal, then the standard one, then a fuller foreground.
+  const sharedMeal = placed.some((p) => p.item.kind === "shared-hero" || p.item.kind === "shared-side");
+  const tries = [...(sharedMeal ? [{ margin: 0.08, low: 0.3 }] : []), { margin: 0.03, low: 0.3 }, { margin: 0.03, low: 0.45 }];
   const all = [...placed.map((p) => ({ x: p.x, d: p.d })), ...seats];
   const tx0 = all.reduce((a, q) => a + q.x, 0) / all.length;
   const td0 = all.reduce((a, q) => a + q.d, 0) / all.length;
   let best: { cam: CameraParams; score: number } | null = null;
-  for (let ty = -0.4; ty <= 0.4 + 1e-9; ty += 0.05) {
-    for (let dist = 1; dist <= 7; dist *= 1.03) {
-      let tx = tx0,
-        td = td0;
-      let cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
-      // Re-centre horizontally along the camera's right vector (two passes).
-      for (let k = 0; k < 2; k++) {
+  for (const { margin, low } of tries) {
+    if (best) break;
+    for (let ty = -0.4; ty <= 0.4 + 1e-9; ty += 0.05) {
+      for (let dist = 1; dist <= 7; dist *= 1.03) {
+        let tx = tx0,
+          td = td0;
+        let cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
+        // Re-centre horizontally along the camera's right vector (two passes).
+        for (let k = 0; k < 2; k++) {
+          const b = boxesFor(cam);
+          const u = unionBox(heroIdx.map((i) => b.table[i]!));
+          const right = [Math.cos((yaw * Math.PI) / 180), Math.sin((yaw * Math.PI) / 180)]; // the camera's right, as (dx, dd)
+          const s0 = b.proj.project(tx, ty, td).x;
+          const s1 = b.proj.project(tx + right[0]! * 0.1, ty, td + right[1]! * 0.1).x;
+          const perM = (s1 - s0) / 0.1;
+          if (Math.abs(perM) < 1e-6) break;
+          const shift = ((u.x0 + u.x1) / 2 - 0.5) / perM;
+          tx += right[0]! * shift;
+          td += right[1]! * shift;
+          cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
+        }
         const b = boxesFor(cam);
-        const u = unionBox(heroIdx.map((i) => b.table[i]!));
-        const right = [Math.cos((yaw * Math.PI) / 180), Math.sin((yaw * Math.PI) / 180)]; // the camera's right, as (dx, dd)
-        const s0 = b.proj.project(tx, ty, td).x;
-        const s1 = b.proj.project(tx + right[0]! * 0.1, ty, td + right[1]! * 0.1).x;
-        const perM = (s1 - s0) / 0.1;
-        if (Math.abs(perM) < 1e-6) break;
-        const shift = ((u.x0 + u.x1) / 2 - 0.5) / perM;
-        tx += right[0]! * shift;
-        td += right[1]! * shift;
-        cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
+        const heroes = heroIdx.map((i) => b.table[i]!);
+        const u = unionBox(heroes);
+        const heroLow = Math.min(...heroes.map((q) => q.y0));
+        const tableLow = Math.min(...b.table.map((q) => q.y0));
+        const nose = Math.min(...b.heads.map((h) => h.nose.y));
+        const shoulder = Math.max(...b.heads.map((h) => h.shoulder.y));
+        const bodies = b.heads.map((h) => h.shoulder.x);
+        // A tall shared bottle may run off the top, as in the references; everything else shows whole.
+        const top = Math.max(...heroIdx.filter((i) => placed[i]!.item.label !== multi?.sku).map((i) => b.table[i]!.y1));
+        if (u.x0 < margin || u.x1 > 1 - margin || heroLow < margin || top > 0.99) continue;
+        // The table fills the bottom of the frame (no empty foreground), the faces are cropped at
+        // the top, and like the references the people may run off the sides.
+        if (tableLow > low || nose < 1.01 || shoulder > 1 || Math.min(...bodies) < -0.1 || Math.max(...bodies) > 1.1) continue;
+        // Tightest framing wins; among equals, the crop line just under the noses.
+        const score = -dist - 0.5 * Math.abs(nose - 1.05);
+        if (!best || score > best.score) best = { cam, score };
+        break;
       }
-      const b = boxesFor(cam);
-      const heroes = heroIdx.map((i) => b.table[i]!);
-      const u = unionBox(heroes);
-      const heroLow = Math.min(...heroes.map((q) => q.y0));
-      const tableLow = Math.min(...b.table.map((q) => q.y0));
-      const nose = Math.min(...b.heads.map((h) => h.nose.y));
-      const shoulder = Math.max(...b.heads.map((h) => h.shoulder.y));
-      const bodies = b.heads.map((h) => h.shoulder.x);
-      // A tall shared bottle may run off the top, as in the references; everything else shows whole.
-      const top = Math.max(...heroIdx.filter((i) => placed[i]!.item.label !== multi?.sku).map((i) => b.table[i]!.y1));
-      if (u.x0 < 0.03 || u.x1 > 0.97 || heroLow < 0.03 || top > 0.99) continue;
-      // The table fills the bottom of the frame (no empty foreground), the faces are cropped at
-      // the top, and like the references the people may run off the sides.
-      if (tableLow > 0.3 || nose < 1.01 || shoulder > 1 || Math.min(...bodies) < -0.1 || Math.max(...bodies) > 1.1) continue;
-      // Tightest framing wins; among equals, the crop line just under the noses.
-      const score = -dist - 0.5 * Math.abs(nose - 1.05);
-      if (!best || score > best.score) best = { cam, score };
-      break;
     }
   }
   if (!best) return "no camera frames the table with both faces cropped at the top";

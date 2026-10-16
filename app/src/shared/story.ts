@@ -148,7 +148,7 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
     return { vessel: `the ${spec.sku.displayName}, about ${h} cm tall${isPartnerDrink ? " (the second diner's)" : ""}`, fixedText: text[0].toUpperCase() + text.slice(1) };
   }
   if (proxy === "bell-glass") {
-    const text = `Exactly one branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall, ${glassRules.glass.fill_prompt}, with ice, with the logo facing the camera.${role === "partner-glass" ? " This is the second diner's own glass." : ""}`;
+    const text = `Exactly one classic Coca-Cola bell glass, about ${cm(BELL_GLASS.height)} cm tall: a stemless tumbler with a heavy flat base and a narrow lower body that swells into a rounded bell shape near the top, the white Coca-Cola script on the bell (no stem, not a goblet or wine glass). ${glassRules.glass.fill_prompt[0]!.toUpperCase()}${glassRules.glass.fill_prompt.slice(1)}, with ice and a thin head of foam, the logo facing the camera.${role === "partner-glass" ? " This is the second diner's own glass." : ""}`;
     return { vessel: `a branded bell-shaped Coca-Cola glass, about ${cm(BELL_GLASS.height)} cm tall${role === "partner-glass" ? " (the second diner's)" : ""}`, fixedText: text };
   }
   if (role === "napkin-set" || role === "partner-napkin") {

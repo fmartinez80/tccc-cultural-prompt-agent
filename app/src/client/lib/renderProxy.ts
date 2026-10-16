@@ -144,8 +144,10 @@ const PET_BOTTLE: Array<[number, number]> = [
 const CONDIMENT: Array<[number, number]> = [
   [0.0, 0], [0.96, 0], [1.0, 0.03], [1.0, 0.64], [0.9, 0.72], [0.62, 0.79], [0.42, 0.84], [0.42, 0.9], [0.5, 0.9], [0.5, 1.0], [0.0, 1.0],
 ];
+// The stemless Coca-Cola bell glass (references/glass/poured.jpg): a heavy flat base, a narrow
+// body that widens slowly, then swells into the rounded bell near the top, rim a little in.
 const BELL: Array<[number, number]> = [
-  [0.0, 0], [0.64, 0], [0.64, 0.03], [0.2, 0.08], [0.18, 0.18], [0.55, 0.3], [0.62, 0.45], [0.58, 0.6], [0.72, 0.8], [1.0, 1.0], [0.96, 1.0], [0.0, 0.1],
+  [0.0, 0], [0.6, 0], [0.62, 0.02], [0.6, 0.07], [0.62, 0.25], [0.68, 0.45], [0.8, 0.6], [0.95, 0.72], [1.0, 0.8], [0.98, 0.92], [0.94, 1.0], [0.9, 1.0], [0.0, 0.94],
 ];
 
 function lathe(profile: Array<[number, number]>, r: number, h: number): THREE.BufferGeometry {
