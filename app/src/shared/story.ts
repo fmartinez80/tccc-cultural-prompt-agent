@@ -243,7 +243,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   const serving = seated
     ? (spec.sku.glass
       ? shared || spec.sku.volumeMl >= 1000
-        ? `A ${spec.sku.displayName} stands on the table between the two places as the one shared bottle, with a branded bell-shaped Coca-Cola glass filled to the top at each person's place.`
+        ? `A ${spec.sku.displayName} stands in the foreground as the one shared bottle, fully visible with nothing in front of it, its label to the camera; each person has a Coca-Cola bell glass filled to the top at their place.`
         : `Each person has their own ${spec.sku.displayName} beside their plate, with a branded bell-shaped Coca-Cola glass filled to the top next to it.`
       : `Each person has their own ${spec.sku.displayName} beside their plate, served as is, no glass.`) + holding
     : spec.sku.glass
