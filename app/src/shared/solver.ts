@@ -523,6 +523,44 @@ function repair(placed: Placed[], fit: Fit, spec: SceneSpec, W: number, D: numbe
   }
 }
 
+/**
+ * A shared dish or bottle's spot: the free spot on the table that is closest to the farther of
+ * the two diners' plates, so it sits within reach of both (Fernando, 2026-10-16). Spots between
+ * the plates and the corner, where the diners' arms rest, cost extra.
+ */
+function settleShared(p: Placed, plates: [Anchor, Anchor], corner: Anchor, placed: Placed[], W: number, D: number, multi: { sku: string; clearance: number } | null, bottle?: Placed): boolean {
+  const [a, b] = plates;
+  const mx = (a.x + b.x) / 2,
+    md = (a.d + b.d) / 2;
+  // The diagonal from the corner out through the plates' midpoint.
+  const ux = mx - corner.x,
+    ud = md - corner.d;
+  const len = Math.hypot(ux, ud) || 1;
+  let best: { x: number; d: number; cost: number } | null = null;
+  for (let x = -W / 2; x <= W / 2 + 1e-9; x += 0.02) {
+    for (let d = 0; d <= D + 1e-9; d += 0.02) {
+      const q = { ...p, x, d };
+      if (!onTable(q, W, D) || !placed.every((o) => edgeGap(q, o) >= minGap(q, o, multi) - 1e-9)) continue;
+      const along = ((x - corner.x) * ux + (d - corner.d) * ud) / len;
+      // Nothing taller than the bottle's base stands in the camera's line to it (the camera looks
+      // down the diagonal), so its label shows; a low dish may sit in front, as in a hero shot.
+      const tall = !!bottle && p.item.def.height + p.item.extraHeight > LOW_IN_FRONT * (bottle.item.def.height + bottle.item.extraHeight);
+      const inLine = tall && Math.abs(((x - bottle!.x) * ud - (d - bottle!.d) * ux) / len) < footprintRadius(p.item.def) + footprintRadius(bottle!.item.def) + 0.02;
+      const cost = Math.max(Math.hypot(x - a.x, d - a.d), Math.hypot(x - b.x, d - b.d)) + 2 * Math.max(0, len - along) + (inLine ? 0.35 : 0) + 2 * Math.max(0, FRONT_STRIP - (d - footprintRadius(p.item.def)));
+      if (!best || cost < best.cost) best = { x, d, cost };
+    }
+  }
+  if (!best) return false;
+  p.x = best.x;
+  p.d = best.d;
+  return true;
+}
+
+/** A dish lower than this share of a shared bottle's height may stand in front of it. */
+const LOW_IN_FRONT = 0.3;
+/** Shared dishes keep this far back from the table's near edge, so the table can run off the frame. */
+const FRONT_STRIP = 0.12;
+
 /** Nearest valid position to `want` for item `p`, spiralling outward. */
 function settle(p: Placed, want: Anchor, placed: Placed[], W: number, D: number, multi: { sku: string; clearance: number } | null): boolean {
   const ok = (x: number, d: number) => {
@@ -1203,10 +1241,14 @@ function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "opti
     const options: LayoutOption[] = [];
     for (const side of [-1, 1] as const) {
       // A shared large bottle tries each foreground spot until one leaves it and the plates in view.
+      // Strictest framing first (FRAMING_LEVELS), then each bottle spot at that level.
       let r: LayoutOption | string = "";
-      for (const spot of isMultiServe(spec) ? SHARED_BOTTLE_SPOTS : [null]) {
-        r = solveSeatedCorner(spec, items, side, spot);
-        if (typeof r !== "string") break;
+      levels: for (let level = 0; level < FRAMING_LEVELS.length; level++) {
+        // Without people the bottle first goes where both diners reach it (null), then the list.
+        for (const spot of isMultiServe(spec) ? [...(spec.scene.seated ? [] : [null]), ...SHARED_BOTTLE_SPOTS] : [null]) {
+          r = solveSeatedCorner(spec, items, side, spot, level);
+          if (typeof r !== "string") break levels;
+        }
       }
       if (typeof r === "string") infeasible.push({ archetype: spec.scene.seated ? "seated-corner" : "corner", reason: r });
       else options.push(r);
@@ -1283,6 +1325,12 @@ function yawedCamera(focal: number, pitchDeg: number, yawDeg: number, tx: number
  * plates first, so it covers neither; the camera check rejects any spot that hides a plate.
  */
 const SHARED_BOTTLE_SPOTS: Array<[number, number]> = [
+  // On the diagonal first: the middle of the frame, within reach of both (Fernando, 2026-10-16).
+  [0.95, 0],
+  [0.85, 0],
+  [1.05, 0],
+  [0.95, 0.1],
+  [0.95, -0.1],
   [0.85, 0.5],
   [0.85, -0.5],
   [0.75, 0.6],
@@ -1292,7 +1340,20 @@ const SHARED_BOTTLE_SPOTS: Array<[number, number]> = [
   [1.0, 0.05],
 ];
 
-function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bottleSpot: [number, number] | null = null): LayoutOption | string {
+/**
+ * Framing wishes for the corner layouts, strictest first (Fernando, 2026-10-16): `mid` keeps a
+ * shared bottle in the middle third of the frame, `cover` runs the table off the frame's bottom
+ * corner on the near side so no floor shows there. A layout drops them, in this order, only
+ * when no camera can manage them.
+ */
+const FRAMING_LEVELS = [
+  { mid: true, cover: true },
+  { mid: true, cover: false },
+  { mid: false, cover: true },
+  { mid: false, cover: false },
+];
+
+function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bottleSpot: [number, number] | null = null, level = 0): LayoutOption | string {
   // Without people the same corner holds the two place settings; only the figures, the pose and
   // the face crop drop out.
   const withPeople = !!spec.scene.seated;
@@ -1305,8 +1366,12 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   const main = items.find((i) => i.kind === "main");
   if (!main) return "no entree to seat around";
   const r1 = footprintRadius(main.def);
-  const m1 = { x: cx + inward * (r1 + 0.3), d: D - r1 - 0.07 };
-  const m2 = { x: cx + inward * (r1 + 0.07), d: D - r1 - 0.36 };
+  // Without people, the first plate sits further along the long side and the second further down
+  // the end, so the shared dishes and the bottle have room between them, within reach of both.
+  const spread1 = withPeople ? 0 : 0.3,
+    spread2 = withPeople ? 0 : 0;
+  const m1 = { x: cx + inward * (r1 + 0.3 + spread1), d: D - r1 - 0.07 };
+  const m2 = { x: cx + inward * (r1 + 0.07), d: D - r1 - 0.36 - spread2 };
   const want = new Map<string, Anchor>();
   /** A second spot to try when an item's first one has no room. */
   const fallback = new Map<string, Anchor>();
@@ -1318,7 +1383,8 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   const fromCorner = (along: number, across: number) => ({ x: cx + inward * ((along + across) / Math.SQRT2), d: D + (across - along) / Math.SQRT2 });
   const sharedBottle = isMultiServe(spec);
   const sharedDish = items.some((i) => i.kind === "shared-hero");
-  let extra = 0;
+  let extra = 0,
+    shared = 0;
   for (const it of items) {
     if (want.has(it.label)) continue;
     const half = (it.def.width ?? 2 * (it.def.radius ?? 0.05)) / 2;
@@ -1332,11 +1398,10 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
       case "shared-hero": {
         // A family-style dish sits in the open table past both plates, diagonally out from the
         // corner, so it reads as the centre of the meal between the two people.
+        // With a shared bottle on the diagonal, the dish sits beside it on the second diner's side.
         const rh = footprintRadius(it.def);
-        want.set(
-          it.label,
-          sharedBottle ? fromCorner(0.75 + rh, -0.2) : { x: cx + inward * (2 * r1 + 0.28 + rh), d: Math.max(rh + 0.04, D - 2 * r1 - 0.3 - rh * 0.5) },
-        );
+        want.set(it.label, sharedBottle ? fromCorner(0.8 + 0.5 * rh, -(0.1 + rh)) : fromCorner(0.72 + rh, 0));
+        fallback.set(it.label, { x: cx + inward * (2 * r1 + 0.28 + rh), d: Math.max(rh + 0.04, D - 2 * r1 - 0.3 - rh * 0.5) });
         break;
       }
       case "sku":
@@ -1354,14 +1419,29 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
         break;
       case "partner-glass":
         if (sharedBottle) {
-          want.set(it.label, fromCorner(0.62, -0.4));
+          // Beside the second diner's plate, toward the corner, clear of the dishes in front.
+          want.set(it.label, { x: m2.x + inward * 0.04, d: m2.d + r1 + 0.08 });
           fallback.set(it.label, { x: m2.x + inward * 0.13, d: m2.d - r1 - 0.2 });
           break;
         }
         want.set(it.label, { x: m2.x + inward * 0.13, d: m2.d - r1 - 0.2 });
         break;
+      case "shared-side":
+      case "bread": {
+        // Shared dishes sit within reach of both diners (Fernando, 2026-10-16): on the diagonal out
+        // from the corner, between the two plates, alternating to either side of it.
+        // Around the centre of the meal in front of the corner: the first on the first diner's side
+        // of the diagonal, the next on the second diner's, then a step further out.
+        const k = shared++;
+        const rk = footprintRadius(it.def);
+        const hasCentre = sharedBottle || sharedDish;
+        const across = hasCentre ? 0.1 + rk + (k % 2 && sharedDish ? 0.25 : 0) : k === 0 ? 0 : 0.1 + rk;
+        want.set(it.label, fromCorner(0.7 + 0.5 * rk + 0.2 * Math.floor(k / 2), k % 2 ? -across : across));
+        fallback.set(it.label, { x: m1.x + inward * (0.3 + 0.08 * Math.cos((extra * 55 * Math.PI) / 180)), d: D - 0.25 - 0.12 * Math.sin((extra++ * 55 * Math.PI) / 180) });
+        break;
+      }
       default: {
-        // Sides, bread, condiments and the accent fan out in the open table past the drinks.
+        // Condiments and the accent fan out in the open table past the drinks.
         const a = (extra++ * 55 * Math.PI) / 180;
         want.set(it.label, { x: m1.x + inward * (0.3 + 0.08 * Math.cos(a)), d: D - 0.25 - 0.12 * Math.sin(a) });
       }
@@ -1369,7 +1449,13 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   }
 
   const multi = isMultiServe(spec) ? { sku: "SKU", clearance: bottleClearance(spec.sku) } : null;
-  const rank = (i: ItemSpec) => ["main", "partner-main", "shared-hero", "sku", "glass", "napkin-set", "partner-napkin", "partner-sku", "partner-glass"].indexOf(i.kind);
+  // Without people, everything the two diners share goes where both can reach it: the shared
+  // dish, the shared sides and bread, and a shared bottle (unless a fallback spot is being tried).
+  const byReach = (it: ItemSpec) =>
+    !withPeople && (it.kind === "shared-hero" || it.kind === "shared-side" || it.kind === "bread" || (it.kind === "sku" && sharedBottle && !bottleSpot));
+  // A shared bottle placed by reach takes the middle first; the shared dish then sits beside it.
+  const firsts = byReach({ kind: "sku" } as ItemSpec) ? ["sku", "shared-hero"] : ["shared-hero", "sku"];
+  const rank = (i: ItemSpec) => ["main", "partner-main", "napkin-set", "partner-napkin", ...firsts, "glass", "partner-sku", "partner-glass", "shared-side", "bread"].indexOf(i.kind);
   const order = [...items].sort((a, b) => (rank(a) < 0 ? 99 : rank(a)) - (rank(b) < 0 ? 99 : rank(b)));
   const placed: Placed[] = [];
   for (const it of order) {
@@ -1378,6 +1464,15 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
     const p: Placed = { item: it, x: 0, d: 0, yaw: it.kind.startsWith("partner-") ? (side < 0 ? 90 : -90) : 180 };
     const spot = want.get(it.label) ?? drinkZone;
     const alt = fallback.get(it.label);
+    if (byReach(it)) {
+      const a = placed.find((q) => q.item.label === "MAIN"),
+        b = placed.find((q) => q.item.label === "MAIN_2");
+      const bottle = it.kind === "sku" ? undefined : placed.find((q) => q.item.label === multi?.sku);
+      if (a && b && settleShared(p, [a, b], { x: cx, d: D }, placed, W, D, multi, bottle)) {
+        placed.push(p);
+        continue;
+      }
+    }
     if (!settle(p, spot, placed, W, D, multi) && !(alt && settle(p, alt, placed, W, D, multi))) return `no room for ${it.label} at the ${side < 0 ? "left" : "right"} corner of ${spec.scene.surface}`;
     placed.push(p);
   }
@@ -1436,7 +1531,9 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   const look = lookById(spec.camera.look);
   const pitch = angleById(spec.camera.angle).hidden.pitch_deg;
   const focal = look.hidden.focal_length_mm;
-  const yaw = -side * CORNER_YAW;
+  // Without people the camera may also turn less than 45 degrees, looking more across the long
+  // side, so the table's near edge runs off the bottom of the frame.
+  const yaws = (withPeople ? [CORNER_YAW] : [CORNER_YAW, 35, 25]).map((a) => -side * a);
   const boxesFor = (cam: CameraParams) => {
     const proj = new Projector(cam);
     const people = seats.map((s) => screenBox(proj, SEATED_PERSON, s.x, s.d, s.yaw, -SEAT_DROP));
@@ -1449,15 +1546,20 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
     const table = placed.map((p) => screenBox(proj, p.item.def, p.x, p.d, p.yaw, p.elev ?? 0, p.item.extraHeight));
     return { proj, people, heads, table };
   };
-  // The plates and the drinks must show whole; napkins and sides may run off the frame's edges.
-  const heroIdx = placed.flatMap((p, i) => (["main", "partner-main", "sku", "glass", "partner-sku", "partner-glass", "shared-hero", "shared-side"].includes(p.item.kind) ? [i] : []));
+  // The plates, the shared dish and the drinks must show whole; shared sides and bread may run off
+  // the frame's edges but keep their middle in it; napkins, a diner's own sides and condiments may leave it.
+  const heroIdx = placed.flatMap((p, i) => (["main", "partner-main", "sku", "glass", "partner-sku", "partner-glass", "shared-hero"].includes(p.item.kind) ? [i] : []));
+  const sideIdx = placed.flatMap((p, i) => (["shared-side", "bread"].includes(p.item.kind) ? [i] : []));
   // A shared dish in the middle needs more of the table around it (Fernando, 2026-10-16).
   // Strictest first: a wide margin for a shared meal, then the standard one, then a fuller foreground.
   // The shared bottle shows whole: nothing nearer the camera may cover more than a sliver of it.
   const bottleIdx = multi ? placed.findIndex((p) => p.item.label === multi.sku) : -1;
   const plateIdx = placed.flatMap((p, i) => (p.item.kind === "main" || p.item.kind === "partner-main" || p.item.kind === "shared-hero" ? [i] : []));
-  const blocked = (boxes: ScreenBox[], i: number, by?: number) => {
-    const t = boxes[i]!;
+  // `low`: only the part above a low dish's height counts, so a tray in front of the bottle's
+  // base doesn't count against it.
+  const blocked = (boxes: ScreenBox[], i: number, by?: number, low = 0) => {
+    const b0 = boxes[i]!;
+    const t = { ...b0, y0: b0.y0 + low * (b0.y1 - b0.y0) };
     const area = (t.x1 - t.x0) * (t.y1 - t.y0);
     let covered = 0;
     boxes.forEach((o, j) => {
@@ -1469,12 +1571,17 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
     return covered;
   };
   const sharedMeal = placed.some((p) => p.item.kind === "shared-hero" || p.item.kind === "shared-side");
+  const { mid, cover } = FRAMING_LEVELS[level]!;
   const tries = [...(sharedMeal ? [{ margin: 0.08, low: 0.3 }] : []), { margin: 0.03, low: 0.3 }, { margin: 0.03, low: 0.45 }];
+  // On the table top, or within its front edge's thickness.
+  const onTop = (q: { x: number; d: number } | null) => !!q && Math.abs(q.x) <= W / 2 && q.d >= -0.03 && q.d <= D;
   const all = [...placed.map((p) => ({ x: p.x, d: p.d })), ...(withPeople ? seats : [])];
   const tx0 = all.reduce((a, q) => a + q.x, 0) / all.length;
   const td0 = all.reduce((a, q) => a + q.d, 0) / all.length;
   let best: { cam: CameraParams; score: number } | null = null;
   for (const { margin, low } of tries) {
+    if (best) break;
+    for (const yaw of yaws) {
     if (best) break;
     for (let ty = -0.4; ty <= 0.4 + 1e-9; ty += 0.05) {
       for (let dist = 1; dist <= 7; dist *= 1.03) {
@@ -1503,10 +1610,20 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
         const nose = Math.min(...b.heads.map((h) => h.nose.y));
         const shoulder = Math.max(...b.heads.map((h) => h.shoulder.y));
         const bodies = b.heads.map((h) => h.shoulder.x);
-        // A tall shared bottle may run off the top, as in the references; everything else shows whole.
-        const top = Math.max(...heroIdx.filter((i) => placed[i]!.item.label !== multi?.sku).map((i) => b.table[i]!.y1));
+        // With people, a tall shared bottle may run off the top, as in the references; without them
+        // it is the hero and shows whole, cap included. Everything else always shows whole.
+        const top = Math.max(...heroIdx.filter((i) => !withPeople || placed[i]!.item.label !== multi?.sku).map((i) => b.table[i]!.y1));
         if (u.x0 < margin || u.x1 > 1 - margin || heroLow < margin || top > 0.99) continue;
-      if (bottleIdx >= 0 && (blocked(b.table, bottleIdx) > 0.08 || plateIdx.some((i) => blocked(b.table, i, bottleIdx) > 0.25))) continue;
+        if (sideIdx.some((i) => (b.table[i]!.x0 + b.table[i]!.x1) / 2 > 0.95 || (b.table[i]!.x0 + b.table[i]!.x1) / 2 < 0.05 || (b.table[i]!.y0 + b.table[i]!.y1) / 2 < 0.05)) continue;
+        if (bottleIdx >= 0 && (blocked(b.table, bottleIdx, undefined, LOW_IN_FRONT) > 0.08 || plateIdx.some((i) => blocked(b.table, i, bottleIdx) > 0.25))) continue;
+        // The shared bottle is the hero both diners share: it stands in the middle third of the frame.
+        if (mid && bottleIdx >= 0) {
+          const c = (b.table[bottleIdx]!.x0 + b.table[bottleIdx]!.x1) / 2;
+          if (c < 1 / 3 || c > 2 / 3) continue;
+        }
+        // The table runs off the frame's bottom corner on the near side (Fernando, 2026-10-16), so
+        // no floor shows there and the far side, where the diners eat, gets the room.
+        if (cover && !onTop(b.proj.ground(side < 0 ? 0.01 : 0.99, 0.01))) continue;
         // The table fills the bottom of the frame (no empty foreground), the faces are cropped at
         // the top, and like the references the people may run off the sides.
         if (tableLow > low) continue;
@@ -1517,6 +1634,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
         break;
       }
     }
+  }
   }
   if (!best) return withPeople ? "no camera frames the table with both faces cropped at the top" : "no camera frames both place settings at the corner";
   const cam = best.cam;
