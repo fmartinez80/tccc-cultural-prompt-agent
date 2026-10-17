@@ -119,7 +119,7 @@ export const PlatingChoice = z.object({
   detail: z.string(),
   vessel: Vessel,
   vesselStyle: VesselStyle,
-  service: Service.describe("shared = served family-style in one large vessel on the table, with one plated portion"),
+  service: Service.describe("shared = served family-style in one large vessel on the table, plus a plated portion for each diner"),
   promptText: z.string().describe("How the dish is presented, for the image prompt, one sentence"),
 });
 export type PlatingChoice = z.infer<typeof PlatingChoice>;
