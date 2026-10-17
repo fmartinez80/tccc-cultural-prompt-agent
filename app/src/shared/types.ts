@@ -309,6 +309,8 @@ export interface Blueprint {
     rule_results: RuleResult[];
     signature: string;
     seed: number;
+    /** Edited layouts: ids of the items the art director moved, over every edit so far. */
+    moved?: string[];
     /** Seated layouts: the pose the people were placed in. */
     pose?: string;
   };

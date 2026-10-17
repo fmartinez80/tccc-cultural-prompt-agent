@@ -418,7 +418,7 @@ export function SketchEditor({
 
         <div className={styles.foot}>
           <p className={styles.note}>
-            {changed ? `${summary}. ` : ''}Saving keeps this as a new arrangement and redraws the sketch from it in the same style. A redraw counts toward your
+            {changed ? `${summary}. ` : ''}Saving keeps this as a new arrangement and redraws the sketch from it. A redraw counts toward your
             monthly limit.
           </p>
           <div className={styles.actions}>

@@ -349,8 +349,8 @@ export function App() {
             compose={composeFor(compose, option)}
             option={option}
             sourceName={`arrangement ${OPTION_LETTERS[option.edit?.from ?? draft.picked!]}`}
-            onEditLayout={({ blueprint, styleUrl, review }) =>
-              addEditedLayout({ archetype: option.archetype, blueprint, edit: { from: option.edit?.from ?? draft.picked!, styleUrl } }, review)
+            onEditLayout={({ blueprint, review }) =>
+              addEditedLayout({ archetype: option.archetype, blueprint, edit: { from: option.edit?.from ?? draft.picked! } }, review)
             }
             review={reviewFor(option)}
             onReview={setReview}
