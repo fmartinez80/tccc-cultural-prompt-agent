@@ -1223,9 +1223,13 @@ export function describe(archetype: Archetype, placed: Placed[]): string {
     case "across-offset":
       return "a second place setting sits across the table, shifted aside so the hero's drink doesn't hide it";
     case "corner":
-      return "the two place settings meet at a right angle around the table's far corner, one on the long side and one at the end, with the Coca-Cola product in front between the plates";
-    case "seated-corner":
-      return "two people sit at a right angle around the table's far corner, one on the long side and one at the end, with the Coca-Cola product in front between their plates";
+    case "seated-corner": {
+      const who = archetype === "corner" ? "the two place settings meet" : "two people sit";
+      const drinks = placed.some((p) => p.item.kind === "partner-sku")
+        ? "each diner's own Coca-Cola and glass at 3 o'clock from their plate, on their right"
+        : `the Coca-Cola product in front between ${archetype === "corner" ? "the plates" : "their plates"}`;
+      return `${who} at a right angle around the table's far corner, one on the long side and one at the end, with ${drinks}`;
+    }
   }
 }
 
@@ -1413,6 +1417,29 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   const fromCorner = (along: number, across: number) => ({ x: cx + inward * ((along + across) / Math.SQRT2), d: D + (across - along) / Math.SQRT2 });
   const sharedBottle = isMultiServe(spec);
   const sharedDish = items.some((i) => i.kind === "shared-hero");
+  // A diner's own drink and glass stand at 3 o'clock from their plate, on the diner's right
+  // (Fernando, 2026-10-17): 12 o'clock points away from the diner across the plate. The bottle takes
+  // the side nearer the camera (half past 2 or half past 3) so the glass never stands in front of it.
+  const facing1 = [0, -1] as const; // PERSON_1, on the far long side, faces the camera side
+  const facing2 = [inward, 0] as const; // PERSON_2, at the end, faces along the table
+  const towardCamera = [inward / Math.SQRT2, -1 / Math.SQRT2] as const;
+  const clock = (plate: Anchor, f: readonly [number, number], hours: number, dist: number): Anchor => {
+    const t = (hours * Math.PI) / 6;
+    const right = [f[1], -f[0]]; // the diner's right, a quarter turn clockwise from facing
+    return { x: plate.x + dist * (Math.cos(t) * f[0] + Math.sin(t) * right[0]!), d: plate.d + dist * (Math.cos(t) * f[1] + Math.sin(t) * right[1]!) };
+  };
+  const ownDrinks = (plate: Anchor, f: readonly [number, number], bottle: ItemSpec | undefined, glass: ItemSpec | undefined) => {
+    const near = (a: Anchor) => a.x * towardCamera[0] + a.d * towardCamera[1];
+    const reach = (it: ItemSpec) => r1 + 0.03 + footprintRadius(it.def);
+    const at = (it: ItemSpec, h: number) => clock(plate, f, h, reach(it));
+    const [hb, hg] = !glass || !bottle ? [3, 3] : near(clock(plate, f, 2.5, 1)) >= near(clock(plate, f, 3.5, 1)) ? [2.5, 3.5] : [3.5, 2.5];
+    if (bottle) want.set(bottle.label, at(bottle, hb));
+    if (glass) want.set(glass.label, at(glass, hg));
+  };
+  if (!sharedBottle) {
+    ownDrinks(m1, facing1, items.find((i) => i.kind === "sku"), items.find((i) => i.kind === "glass"));
+    ownDrinks(m2, facing2, items.find((i) => i.kind === "partner-sku"), items.find((i) => i.kind === "partner-glass"));
+  }
   let extra = 0,
     shared = 0;
   for (const it of items) {
@@ -1422,8 +1449,10 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
       case "napkin-set": // PERSON_1's place, on the side away from the corner, tucked in close
         want.set(it.label, { x: m1.x + inward * (r1 + 0.03 + half), d: m1.d });
         break;
-      case "partner-napkin": // PERSON_2's place, toward the camera
-        want.set(it.label, { x: m2.x, d: Math.max(half + 0.03, m2.d - r1 - 0.03 - half) }); // turned 90°, so its width runs along d
+      case "partner-napkin": // PERSON_2's place
+        // On their left (9 o'clock), the way the first diner's sits, leaving their right for the
+        // drink; turned 90°, so its width runs along d.
+        want.set(it.label, clock(m2, facing2, 9, r1 + 0.03 + half));
         break;
       case "shared-hero": {
         // A family-style dish sits in the open table past both plates, diagonally out from the
@@ -1435,27 +1464,26 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
         break;
       }
       case "sku":
+        if (!sharedBottle) break; // at 3 o'clock, above
         // A shared large bottle stands in the foreground between the two plates, where nothing
         // stands in front of it (Fernando, 2026-10-16); beside a shared dish when there is one.
         want.set(it.label, sharedBottle ? fromCorner(...(bottleSpot ?? (sharedDish ? [0.8, 0.3] : [1.0, 0.05]))) : drinkZone);
         break;
       case "glass":
+        if (!sharedBottle) break;
         // With a shared bottle up front, each glass stands beside its own plate, behind the bottle;
         // without people, on the corner side of the first diner's plate, which has moved along.
         if (sharedBottle) fallback.set(it.label, { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
         want.set(it.label, sharedBottle ? (withPeople ? fromCorner(0.62, 0.4) : { x: m1.x - inward * (r1 + 0.07), d: m1.d }) : { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
         break;
-      case "partner-sku":
-        want.set(it.label, { x: m2.x + inward * 0.04, d: m2.d - r1 - 0.2 });
+      case "partner-sku": // at 3 o'clock, above
         break;
       case "partner-glass":
         if (sharedBottle) {
           // Beside the second diner's plate, toward the corner, clear of the dishes in front.
           want.set(it.label, { x: m2.x + inward * 0.04, d: m2.d + r1 + 0.08 });
           fallback.set(it.label, { x: m2.x + inward * 0.13, d: m2.d - r1 - 0.2 });
-          break;
         }
-        want.set(it.label, { x: m2.x + inward * 0.13, d: m2.d - r1 - 0.2 });
         break;
       case "shared-side":
       case "bread": {
@@ -1487,9 +1515,13 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
     !withPeople && (["shared-hero", "shared-side", "bread", "condiment"].includes(it.kind) || (it.kind === "sku" && sharedBottle && !bottleSpot));
   // A shared bottle placed by reach takes the middle first; the shared dish then sits beside it.
   const firsts = byReach({ kind: "sku" } as ItemSpec) ? ["sku", "shared-hero"] : ["shared-hero", "sku"];
-  const rank = (i: ItemSpec) => ["main", "partner-main", "napkin-set", "partner-napkin", ...firsts, "glass", "partner-sku", "partner-glass", "bread", "shared-side"].indexOf(i.kind);
+  // Napkins and cutlery come last (Fernando, 2026-10-17): on a full table, a bread basket or a
+  // shared dish gets the room and a napkin set that no longer fits is left out.
+  const napkin = (i: ItemSpec) => i.kind === "napkin-set" || i.kind === "partner-napkin";
+  const rank = (i: ItemSpec) => (napkin(i) ? 100 : ["main", "partner-main", ...firsts, "glass", "partner-sku", "partner-glass", "bread", "shared-side"].indexOf(i.kind));
   const order = [...items].sort((a, b) => (rank(a) < 0 ? 99 : rank(a)) - (rank(b) < 0 ? 99 : rank(b)));
   const placed: Placed[] = [];
+  const dropped: string[] = [];
   for (const it of order) {
     // PERSON_1's things face the camera side of the table; PERSON_2's face across from the end.
     // Turned before settling, so a partner napkin's long side runs along the table end.
@@ -1508,7 +1540,13 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
         continue;
       }
     }
-    if (!settle(p, spot, placed, W, D, multi, shapeGap) && !(alt && settle(p, alt, placed, W, D, multi, shapeGap))) return `no room for ${it.label} at the ${side < 0 ? "left" : "right"} corner of ${spec.scene.surface}`;
+    if (!settle(p, spot, placed, W, D, multi, shapeGap) && !(alt && settle(p, alt, placed, W, D, multi, shapeGap))) {
+      if (napkin(it)) {
+        dropped.push(it.label);
+        continue;
+      }
+      return `no room for ${it.label} at the ${side < 0 ? "left" : "right"} corner of ${spec.scene.surface}`;
+    }
     placed.push(p);
   }
   const P1 = placed.find((p) => p.item.label === "MAIN")!;
@@ -1708,5 +1746,6 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   bp.layout_meta.rationale = withPeople
     ? `Seated Corner (${side < 0 ? "far-left" : "far-right"} corner): ${describe("seated-corner", placed)}. The camera faces that corner from across the table, so both people show in three-quarter view.`
     : `Corner Seating (${side < 0 ? "far-left" : "far-right"} corner): ${describe("corner", placed)}. The camera faces that corner from across the table.`;
+  if (dropped.length) bp.layout_meta.rationale += ` The table was full, so the napkin and cutlery (${dropped.join(", ")}) were left out.`;
   return { archetype, blueprint: bp };
 }
