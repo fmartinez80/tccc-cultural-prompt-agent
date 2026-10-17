@@ -618,6 +618,15 @@
   color: var(--bay-text-2);
 }
 
+/* The sketch drew things that aren't in the layout: its own line, in the outline's red. */
+.extraText {
+  flex-basis: 100%;
+  margin: 0;
+  font-family: var(--bay-font-mono);
+  font-size: 13px;
+  color: var(--bay-app-red-fg);
+}
+
 .errorBody {
   display: flex;
   flex-direction: column;

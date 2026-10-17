@@ -56,7 +56,7 @@ export interface LayoutOption {
   edit?: {
     /** The solver's arrangement it was edited from (its index in the options). */
     from: number;
-    /** The sketch on screen when it was edited: the redraw copies its drawing style. */
+    /** Drafts saved before 2026-10-17 carry the sketch it was edited on; it's no longer sent to the redraw. */
     styleUrl?: string;
   };
 }

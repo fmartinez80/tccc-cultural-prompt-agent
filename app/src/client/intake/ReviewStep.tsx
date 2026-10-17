@@ -105,7 +105,7 @@ export function ReviewStep({
   /** How this arrangement is named in an edit of it, e.g. "arrangement A". */
   sourceName: string;
   /** Saves an edit from the sketch editor as a new arrangement and switches to it. */
-  onEditLayout: (edit: { blueprint: Blueprint; styleUrl: string | undefined; review: LayoutReview }) => void;
+  onEditLayout: (edit: { blueprint: Blueprint; review: LayoutReview }) => void;
   /** Null when there is no review yet for this layout. */
   review: LayoutReview | null;
   onReview: (r: LayoutReview) => void;
@@ -164,7 +164,7 @@ export function ReviewStep({
     locate
       .mutateAsync({ url: detail.url, items })
       .then((r) => {
-        if (aliveRef.current) onDetail({ ...detail, boxes: r.boxes });
+        if (aliveRef.current) onDetail({ ...detail, boxes: r.boxes, extras: r.extras });
       })
       .catch(() => {
         // keep the planned positions
@@ -173,6 +173,7 @@ export function ReviewStep({
   }, [detail?.url, detail?.boxes]);
   // On the drawn sketch, items are where the drawing put them; otherwise where the layout plans them.
   const boxes = showDetail ? detail.boxes : undefined;
+  const extras = showDetail ? detail.extras : undefined;
   const boxAt = (fx: number, fy: number): number | null => {
     if (!boxes) return null;
     let best: number | null = null;
@@ -221,6 +222,13 @@ export function ReviewStep({
     if (boxes) {
       // The drawn sketch: highlight each item's found box.
       ctx.clearRect(0, 0, width, height);
+      // Dishes or drinks the drawing added on its own: dashed red, since they'd carry into the photo.
+      ctx.save();
+      ctx.setLineDash([width / 120, width / 200]);
+      ctx.lineWidth = Math.max(2, width / 450);
+      ctx.strokeStyle = 'rgba(231, 34, 58, 0.9)';
+      for (const e of extras ?? []) ctx.strokeRect(e.box.x0 * width, e.box.y0 * height, (e.box.x1 - e.box.x0) * width, (e.box.y1 - e.box.y0) * height);
+      ctx.restore();
       bp.primitives.forEach((p, i) => {
         const b = boxes[p.id];
         if (!b) return;
@@ -268,7 +276,7 @@ export function ReviewStep({
       }
     }
     ctx.putImageData(img, 0, 0);
-  }, [sketch, boxes, review.items, selected, hover, bp]);
+  }, [sketch, boxes, extras, review.items, selected, hover, bp]);
 
   const itemAt = (e: MouseEvent<HTMLElement>): number | null => {
     if (boxes) {
@@ -335,9 +343,10 @@ export function ReviewStep({
   const directions = useMemo(() => reviewDirections(review, bp), [review, bp]);
   const counts = reviewCounts(review);
   const changes = useMemo(() => sketchChanges(adjustments, directions), [adjustments, directions]);
-  // An edited arrangement is drawn in the style of the sketch it was edited on (image 2).
-  const styleUrl = option.edit?.styleUrl;
-  const detailPrompt = useMemo(() => sketchPrompt(compose.spec, bp, changes, { restyle: !!styleUrl }), [compose.spec, bp, changes, styleUrl]);
+  // An edited arrangement is redrawn from its proxy alone. It used to get the sketch it was edited on
+  // as image 2 for style, but Nano Banana copied that sketch's positions and extra dishes back in
+  // (Fernando, 2026-10-17: moved plates snapped back, invented plates came back on every redraw).
+  const detailPrompt = useMemo(() => sketchPrompt(compose.spec, bp, changes), [compose.spec, bp, changes]);
   const detailStale = !!detail && detail.prompt !== detailPrompt;
   // With a sketch, the edits it doesn't show yet go into the photo prompt word for word.
   const photoChanges = useMemo(() => reviewFacts(review, bp, detail).directorChanges, [review, bp, detail]);
@@ -367,7 +376,7 @@ export function ReviewStep({
         // Image 1 is the same labeled proxy, at the same framing, that the photograph is made from.
         const png = renderProxy(bp, compose.lighting, { width: MODEL_PROXY_WIDTH, widen: MODEL_FRAMING_WIDEN });
         const { url: proxyUrl } = await uploadImage(png);
-        taskId = (await start.mutateAsync({ prompt, proxyUrl, ...(styleUrl ? { styleUrl } : {}) })).taskId;
+        taskId = (await start.mutateAsync({ prompt, proxyUrl })).taskId;
         writePending({ layout: signature, prompt, taskId, startedAt, edits: drawn });
       }
       const deadline = startedAt + POLL_TIMEOUT_MS;
@@ -443,7 +452,7 @@ export function ReviewStep({
     setConfirmRedraw(false);
     setEditing(new Set());
     if (removals.length) {
-      // The removed items leave the layout: a new arrangement, drawn in this sketch's style with
+      // The removed items leave the layout: a new arrangement, redrawn from its proxy with
       // the other edits carried over (saveEdit), exactly as if they'd been deleted in Edit sketch.
       const place = placementOf(bp);
       for (const p of removals) delete place[p.id];
@@ -469,7 +478,6 @@ export function ReviewStep({
     }
     onEditLayout({
       blueprint: edited,
-      styleUrl: showDetail ? detail.url : styleUrl,
       review: { key: layoutKey(edited), items, notes: review.notes },
     });
   };
@@ -613,6 +621,11 @@ export function ReviewStep({
                           ? 'The sketch includes your changes.'
                           : 'The sketch is up to date with this layout.'}
                 </p>
+                {showDetail && !detailStale && !removals.length && extras && extras.length > 0 && (
+                  <p className={styles.extraText}>
+                    {`The sketch also drew ${extras.length === 1 ? 'something that isn\u2019t' : `${extras.length} things that aren\u2019t`} in the layout (outlined in red: ${extras.map((e) => e.what.toLowerCase()).join(', ')}). It would carry into the photo, so redraw to drop ${extras.length === 1 ? 'it' : 'them'}.`}
+                  </p>
+                )}
               </div>
             )}
           </div>
