@@ -43,6 +43,53 @@ function limb(a: THREE.Vector3, b: THREE.Vector3, r: number, color: string): THR
   return m;
 }
 
+/** A plain chair, its seat at the group's origin, facing local -z, with legs `legH` long. */
+function buildChair(legH: number): THREE.Group {
+  const g = new THREE.Group();
+  const chair = '#a29d95';
+  const seat = mesh(new THREE.BoxGeometry(0.44, 0.04, 0.44), chair);
+  seat.position.set(0, -0.02, 0.04);
+  g.add(seat);
+  const back = mesh(new THREE.BoxGeometry(0.44, 0.48, 0.04), chair);
+  back.position.set(0, 0.24, 0.26);
+  g.add(back);
+  for (const [lx, lz] of [[-0.19, -0.15], [0.19, -0.15], [-0.19, 0.24], [0.19, 0.24]] as const) {
+    const leg = mesh(new THREE.BoxGeometry(0.03, legH, 0.03), chair);
+    leg.position.set(lx, -0.02 - legH / 2, lz);
+    g.add(leg);
+  }
+  return g;
+}
+
+/**
+ * Corner layouts without people: an empty chair pulled up at each diner's place (Fernando,
+ * 2026-10-17), behind the table edge nearest their plate and facing it, so the sketch keeps each
+ * plate at its own seat instead of moving both to the near side.
+ */
+function emptyChairs(bp: Blueprint): THREE.Object3D[] {
+  const corner = bp.primitives.some((q) => q.role === 'partner-main' && Math.abs(q.rotation_euler_deg.yaw) === 90);
+  if (!corner || bp.primitives.some((q) => q.role === 'person')) return [];
+  const { width: W, depth: D } = bp.table;
+  return bp.primitives
+    .filter((p) => p.role === 'main' || p.role === 'partner-main')
+    .map((p) => {
+      const { x, d } = p.world;
+      // A 45 cm seat at a 75 cm table.
+      const c = buildChair(0.45);
+      if (D - d <= W / 2 - Math.abs(x)) {
+        c.position.set(x, -0.3, -(D + 0.3));
+        c.rotation.y = Math.PI;
+      } else {
+        const s = Math.sign(x) || 1;
+        c.position.set(s * (W / 2 + 0.3), -0.3, -d);
+        c.rotation.y = (s * Math.PI) / 2;
+      }
+      // Room dressing: left out of the item hit map, like the wall.
+      c.traverse((o) => (o.userData.part = 'room'));
+      return c;
+    });
+}
+
 /**
  * A seated person in the locked pose: on a chair whose seat sits SEAT_DROP below the tabletop,
  * leaning in a little, forearms resting on the table toward their plate, head up and turned to
@@ -53,19 +100,8 @@ function buildPerson(p: Primitive, other: Primitive | undefined, pose: PersonPos
   const g = new THREE.Group();
   const color = PERSON_COLORS[p.id] ?? ROLE_COLORS.person!;
   const skin = shade(color, 1.25);
-  const chair = '#a29d95';
   const seatY = 0; // the group sits at the seat height (world.elevation)
-  const seat = mesh(new THREE.BoxGeometry(0.44, 0.04, 0.44), chair);
-  seat.position.set(0, seatY - 0.02, 0.04);
-  g.add(seat);
-  const back = mesh(new THREE.BoxGeometry(0.44, 0.48, 0.04), chair);
-  back.position.set(0, seatY + 0.24, 0.26);
-  g.add(back);
-  for (const [lx, lz] of [[-0.19, -0.15], [0.19, -0.15], [-0.19, 0.24], [0.19, 0.24]] as const) {
-    const leg = mesh(new THREE.BoxGeometry(0.03, 0.3, 0.03), chair);
-    leg.position.set(lx, seatY - 0.17, lz);
-    g.add(leg);
-  }
+  g.add(buildChair(0.3));
   // Hips and thighs on the seat, shins down to the floor under the table.
   const hips = mesh(new THREE.BoxGeometry(0.36, 0.14, 0.24), color);
   hips.position.set(0, seatY + 0.07, 0.06);
@@ -285,6 +321,8 @@ export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene
   wall.position.set(0, 3.25, -(D + 2.4));
   wall.userData.part = 'room';
   scene.add(wall);
+
+  for (const c of emptyChairs(bp)) scene.add(c);
 
   bp.primitives.forEach((p, i) => {
     const item = buildItem(p, bp);
