@@ -546,7 +546,7 @@ function settleShared(p: Placed, plates: [Anchor, Anchor], corner: Anchor, place
       // down the diagonal), so its label shows; a low dish may sit in front, as in a hero shot.
       const tall = !!bottle && p.item.def.height + p.item.extraHeight > LOW_IN_FRONT * (bottle.item.def.height + bottle.item.extraHeight);
       const inLine = tall && Math.abs(((x - bottle!.x) * ud - (d - bottle!.d) * ux) / len) < footprintRadius(p.item.def) + footprintRadius(bottle!.item.def) + 0.02;
-      const cost = Math.max(Math.hypot(x - a.x, d - a.d), Math.hypot(x - b.x, d - b.d)) + 2 * Math.max(0, len - along) + (inLine ? 0.35 : 0) + 2 * Math.max(0, FRONT_STRIP - (d - footprintRadius(p.item.def)));
+      const cost = Math.max(Math.hypot(x - a.x, d - a.d), Math.hypot(x - b.x, d - b.d)) + 2 * Math.max(0, CORNER_KEEP + footprintRadius(p.item.def) - along) + (inLine ? 0.35 : 0) + 2 * Math.max(0, FRONT_STRIP - (d - footprintRadius(p.item.def)));
       if (!best || cost < best.cost) best = { x, d, cost };
     }
   }
@@ -558,6 +558,8 @@ function settleShared(p: Placed, plates: [Anchor, Anchor], corner: Anchor, place
 
 /** A dish lower than this share of a shared bottle's height may stand in front of it. */
 const LOW_IN_FRONT = 0.3;
+/** Shared dishes keep this far out from the table corner, where the two diners' elbows meet. */
+const CORNER_KEEP = 0.3;
 /** Shared dishes keep this far back from the table's near edge, so the table can run off the frame. */
 const FRONT_STRIP = 0.12;
 
@@ -1366,12 +1368,11 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   const main = items.find((i) => i.kind === "main");
   if (!main) return "no entree to seat around";
   const r1 = footprintRadius(main.def);
-  // Without people, the first plate sits further along the long side and the second further down
-  // the end, so the shared dishes and the bottle have room between them, within reach of both.
-  const spread1 = withPeople ? 0 : 0.3,
-    spread2 = withPeople ? 0 : 0;
-  const m1 = { x: cx + inward * (r1 + 0.3 + spread1), d: D - r1 - 0.07 };
-  const m2 = { x: cx + inward * (r1 + 0.07), d: D - r1 - 0.36 - spread2 };
+  // Without people, the first diner slides along the long side, opening the corner for what the
+  // two share (Fernando, 2026-10-17); furthest when they share a large bottle.
+  const spread = withPeople ? 0 : isMultiServe(spec) ? 0.5 : 0.3;
+  const m1 = { x: cx + inward * (r1 + 0.3 + spread), d: D - r1 - 0.07 };
+  const m2 = { x: cx + inward * (r1 + 0.07), d: D - r1 - 0.36 };
   const want = new Map<string, Anchor>();
   /** A second spot to try when an item's first one has no room. */
   const fallback = new Map<string, Anchor>();
@@ -1410,9 +1411,10 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
         want.set(it.label, sharedBottle ? fromCorner(...(bottleSpot ?? (sharedDish ? [0.8, 0.3] : [1.0, 0.05]))) : drinkZone);
         break;
       case "glass":
-        // With a shared bottle up front, each glass stands beside its own plate, behind the bottle.
+        // With a shared bottle up front, each glass stands beside its own plate, behind the bottle;
+        // without people, on the corner side of the first diner's plate, which has moved along.
         if (sharedBottle) fallback.set(it.label, { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
-        want.set(it.label, sharedBottle ? fromCorner(0.62, 0.4) : { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
+        want.set(it.label, sharedBottle ? (withPeople ? fromCorner(0.62, 0.4) : { x: m1.x - inward * (r1 + 0.07), d: m1.d }) : { x: drinkZone.x + inward * 0.1, d: drinkZone.d + 0.02 });
         break;
       case "partner-sku":
         want.set(it.label, { x: m2.x + inward * 0.04, d: m2.d - r1 - 0.2 });
@@ -1455,7 +1457,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
     !withPeople && (it.kind === "shared-hero" || it.kind === "shared-side" || it.kind === "bread" || (it.kind === "sku" && sharedBottle && !bottleSpot));
   // A shared bottle placed by reach takes the middle first; the shared dish then sits beside it.
   const firsts = byReach({ kind: "sku" } as ItemSpec) ? ["sku", "shared-hero"] : ["shared-hero", "sku"];
-  const rank = (i: ItemSpec) => ["main", "partner-main", "napkin-set", "partner-napkin", ...firsts, "glass", "partner-sku", "partner-glass", "shared-side", "bread"].indexOf(i.kind);
+  const rank = (i: ItemSpec) => ["main", "partner-main", "napkin-set", "partner-napkin", ...firsts, "glass", "partner-sku", "partner-glass", "bread", "shared-side"].indexOf(i.kind);
   const order = [...items].sort((a, b) => (rank(a) < 0 ? 99 : rank(a)) - (rank(b) < 0 ? 99 : rank(b)));
   const placed: Placed[] = [];
   for (const it of order) {
