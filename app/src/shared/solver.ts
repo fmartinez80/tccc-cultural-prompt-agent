@@ -22,6 +22,8 @@ export interface Placed {
   elev?: number;
   /** The seated person holding it. */
   heldBy?: string;
+  /** It stands on the diner's tray. */
+  onTray?: boolean;
 }
 
 export type Archetype =
@@ -34,7 +36,8 @@ export type Archetype =
   | "across-the-table"
   | "across-offset"
   | "corner"
-  | "seated-corner";
+  | "seated-corner"
+  | "tray";
 
 export const ARCHETYPE_INFO: Record<Archetype, { name: string; idea: string }> = {
   "triangle-loop": { name: "Triangle Loop", idea: "a depth triangle from the entree to the drink and back to a far-left accent" },
@@ -47,6 +50,7 @@ export const ARCHETYPE_INFO: Record<Archetype, { name: string; idea: string }> =
   "across-offset": { name: "Across, Offset", idea: "a second place setting opposite the hero but shifted aside, so the hero's drink doesn't hide it" },
   corner: { name: "Corner Seating", idea: "two place settings at a right angle around a far corner of the table, seen from the opposite corner" },
   "seated-corner": { name: "Seated Corner", idea: "two people sit at a right angle around a far corner of the table, seen from the opposite corner" },
+  tray: { name: "On a Tray", idea: "the diner's meal sits on one tray: the dish front and center, the rest behind it on the tray" },
 };
 
 export interface LayoutOption {
@@ -165,7 +169,7 @@ interface Variant {
   partnerOffsetX?: number;
 }
 
-const VARIANTS: Record<Archetype, Variant[]> = {
+const VARIANTS: Record<Exclude<Archetype, "tray">, Variant[]> = {
   // Team reference: side back-left, condiment level with the plate on its left, drink back-right.
   // Nothing sits in front of the hero dish (H3), so condiments and accents stay at 180° or behind.
   "triangle-loop": [
@@ -857,7 +861,7 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
     const lp = [rectPoly(lb)];
     const la = polyArea(lp[0]);
     for (const o of placed) {
-      if (o === h) continue;
+      if (o === h || o.item.kind === "tray") continue;
       if (B.get(o.item.label)!.depth >= lb.depth) continue;
       if (overlapArea(fit.sils.get(o.item.label)!, lp) > 0.02 * la) {
         logoHits.push(`${o.item.label} over ${h.item.label}`);
@@ -870,9 +874,10 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
 
   const stack: string[] = [];
   const stackMove: string[] = [];
+  // The tray lies flat under its dishes: it neither hides them nor counts as hidden.
   for (const back of placed) {
     for (const front of placed) {
-      if (front === back) continue;
+      if (front === back || front.item.kind === "tray" || back.item.kind === "tray") continue;
       if (B.get(front.item.label)!.depth >= B.get(back.item.label)!.depth) continue;
       const frac = occludedFraction(fit.sils.get(front.item.label)!, fit.sils.get(back.item.label)!);
       // A dish edge may cover the bottom of the SKU or glass, below its logo (H5 keeps the logo itself clear).
@@ -882,6 +887,8 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
       const limit =
         back.item.kind === "sku" || back.item.kind === "glass"
           ? 0.08
+          : back.onTray && front.onTray
+            ? 0.55 // a crowded tray: the dish behind the entree may show only its top half
           : back.item.kind === "main"
             ? 0.15
             : back.item.kind === "partner-main"
@@ -899,7 +906,9 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
   out.push({ id: "H7", name: "No line-of-sight stacking", pass: stack.length === 0, detail: stack.length ? stack.join("; ") : "no item hidden behind another", offenders: movable(stackMove) });
 
   const cond = placed.filter((p) => p.item.kind === "condiment" || p.item.kind === "accent");
+  // On a tray the sauce sits where the tray has room, within the diner's reach.
   const far = cond.filter((c) => {
+    if (c.onTray) return false;
     const partner = get(c.item.pairsWith ?? "MAIN") ?? main;
     const g = edgeGap(c, partner);
     return g < 0.02 || g > 0.08;
@@ -914,7 +923,8 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
   // Depth hierarchy (coca-cola-guidelines.md §4.2, tableware reference §1): nothing stands in
   // front of the hero dish — supporting dishes, condiments and accents sit beside or behind it.
   // Only the flat napkin set and a second diner's own setting may come forward.
-  const forward = placed.filter((p) => ["side", "shared-side", "bread", "shared-hero", "condiment", "accent"].includes(p.item.kind) && p.d < main.d - 0.02);
+  // A tray's dishes are packed around the entree on the tray, so they're exempt.
+  const forward = placed.filter((p) => !p.onTray && ["side", "shared-side", "bread", "shared-hero", "condiment", "accent"].includes(p.item.kind) && p.d < main.d - 0.02);
   out.push({
     id: "H3",
     name: "Depth hierarchy",
@@ -922,7 +932,7 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
     detail: forward.length ? `in front of the hero dish: ${forward.map((p) => p.item.label).join(", ")}` : "nothing sits in front of the hero dish",
     offenders: movable(forward.map((p) => p.item.label)),
   });
-  const n = placed.length;
+  const n = placed.filter((p) => p.item.kind !== "tray").length;
   // A preference, not a rule: an odd count composes better, but an even table is still a valid layout.
   out.push({ id: "H10", name: "Odd item count (preferred)", pass: n % 2 === 1, soft: true, detail: n % 2 === 1 ? `${n} items` : `${n} items — even; odd is preferred, not required` });
 
@@ -930,7 +940,13 @@ function checkRules(placed: Placed[], fit: Fit, spec: SceneSpec): RuleResult[] {
   const multi = isMultiServe(spec) ? { sku: "SKU", clearance: bottleClearance(spec.sku) } : null;
   for (let i = 0; i < placed.length; i++) {
     for (let j = i + 1; j < placed.length; j++) {
-      if (edgeGap(placed[i], placed[j]) < minGap(placed[i], placed[j], multi) - 1e-6) phys.push(`${placed[i].item.label}/${placed[j].item.label}`);
+      const [a, b] = [placed[i]!, placed[j]!];
+      // The tray holds its dishes; next to the tray, the gap is measured from its real rim; on the
+      // tray, dishes sit closer than on a table.
+      const tray = a.item.kind === "tray" || b.item.kind === "tray";
+      if (tray && (a.onTray || b.onTray)) continue;
+      const need = a.onTray && b.onTray ? TRAY_GAP : minGap(a, b, multi);
+      if ((tray ? shapeGap(a, b) : edgeGap(a, b)) < need - 1e-6) phys.push(`${a.item.label}/${b.item.label}`);
     }
   }
   out.push({ id: "H11", name: "Physical spacing", pass: phys.length === 0, detail: phys.length ? `too close: ${phys.join(", ")}` : "no overlaps, spacing rules met, everything on the surface" });
@@ -1048,7 +1064,7 @@ export function signature(spec: SceneSpec): string {
   ].join(" | ");
 }
 
-function applicableArchetypes(items: ItemSpec[]): Archetype[] {
+function applicableArchetypes(items: ItemSpec[]): Exclude<Archetype, "tray">[] {
   // Two place settings: only the layouts built for a second diner apply, shared-hero or not.
   if (items.some((i) => i.kind.startsWith("partner-"))) return ["across-the-table", "across-offset", "corner"];
   // Dish and drink (with at most a napkin set): nothing to arrange around them, so the tight lockup is the layout.
@@ -1057,7 +1073,7 @@ function applicableArchetypes(items: ItemSpec[]): Archetype[] {
   return ["triangle-loop", "crescent-arc", "diagonal-stagger", "counterweight"];
 }
 
-function solveArchetype(spec: SceneSpec, items: ItemSpec[], archetype: Archetype): LayoutOption | string {
+function solveArchetype(spec: SceneSpec, items: ItemSpec[], archetype: Exclude<Archetype, "tray">): LayoutOption | string {
   let best: LayoutOption | null = null;
   let firstError = "";
   for (const v of VARIANTS[archetype]) {
@@ -1068,7 +1084,7 @@ function solveArchetype(spec: SceneSpec, items: ItemSpec[], archetype: Archetype
   return best ?? firstError;
 }
 
-function solveVariant(spec: SceneSpec, items: ItemSpec[], archetype: Archetype, v: Variant): LayoutOption | string {
+function solveVariant(spec: SceneSpec, items: ItemSpec[], archetype: Exclude<Archetype, "tray">, v: Variant): LayoutOption | string {
   const surf = SURFACES[spec.scene.surface];
   const W = surf.width,
     D = surf.depth;
@@ -1162,6 +1178,7 @@ function toBlueprint(
       ...(p.item.footprint ? { footprint: p.item.footprint } : {}),
       ...(p.item.sameAs ? { same_as: p.item.sameAs } : {}),
       ...(p.heldBy ? { held_by: p.heldBy } : {}),
+      ...(p.onTray ? { on_tray: true } : {}),
       world: { x: +p.x.toFixed(4), d: +p.d.toFixed(4), yawDeg: p.yaw, elevation: +(p.elev ?? 0).toFixed(4) },
       screen_bbox: { x0: +b.x0.toFixed(4), y0: +b.y0.toFixed(4), x1: +b.x1.toFixed(4), y1: +b.y1.toFixed(4) },
     };
@@ -1222,6 +1239,14 @@ export function describe(archetype: Archetype, placed: Placed[]): string {
       return "a second place setting sits directly opposite the hero, across the table";
     case "across-offset":
       return "a second place setting sits across the table, shifted aside so the hero's drink doesn't hide it";
+    case "tray": {
+      const tray = placed.find((p) => p.item.kind === "tray");
+      const dishes = placed.filter((p) => p.onTray && TRAY_FOOD.has(p.item.kind) && p.item.kind !== "main").length;
+      const drinksOn = placed.some((p) => p.onTray && p.item.kind === "sku");
+      const rest = dishes ? `, ${dishes === 1 ? "the side behind it" : `${dishes} more dishes around it`}` : "";
+      void tray;
+      return `the meal sits on one tray: the dish front and center${rest}${drinksOn ? ", and the Coca-Cola on the tray too" : ", with the drinks beside the tray on the right"}`;
+    }
     case "corner":
     case "seated-corner": {
       const who = archetype === "corner" ? "the two place settings meet" : "two people sit";
@@ -1270,6 +1295,10 @@ export function solve(spec: SceneSpec, maxOptions = 3): SolveResult {
 function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "options" | "infeasible"> {
   const items = sceneItems(spec);
   const infeasible: SolveResult["infeasible"] = [];
+  if (items.some((i) => i.kind === "tray")) {
+    const r = solveTray(spec, items);
+    return typeof r === "string" ? { options: [], infeasible: [{ archetype: "tray", reason: r }] } : { options: [r], infeasible };
+  }
   if (spec.scene.party === "2") {
     // Two diners always sit at a right angle around a corner, never opposite each other
     // (Fernando, 2026-10-16): the far-left or the far-right corner, with or without people shown.
@@ -1309,6 +1338,163 @@ function solveSpec(spec: SceneSpec, maxOptions: number): Pick<SolveResult, "opti
     if (options.every((o) => layoutDistance(o.blueprint, c.blueprint) >= MIN_OPTION_DISTANCE)) options.push(c);
   }
   return { options, infeasible };
+}
+
+// ---------------------------------------------------------------------------
+// On a tray: one diner's meal on a food-court tray (Fernando, 2026-10-17)
+// ---------------------------------------------------------------------------
+
+/** Dishes keep this far inside the tray's rim, and this far from each other. */
+const TRAY_RIM = 0.015;
+const TRAY_GAP = 0.012;
+/** The tray may deepen to this to fit its dishes (cafeteria trays run about 36 x 46 cm). */
+const TRAY_DEPTH_MAX = 0.42;
+/** And widen to this: two lined baskets side by side need a large tray. */
+const TRAY_WIDTH_MAX = 0.5;
+/** The tray's front edge sits this far in from the table's edge, in front of the diner. */
+const TRAY_FRONT = 0.04;
+const TRAY_FOOD = new Set<string>(["main", "side", "bread", "condiment", "accent"]);
+
+/**
+ * One diner's meal on a tray. The tray holds the dishes, never one tray per dish: the main front
+ * and center, a side in the back left corner. With only a main and one side, the Coca-Cola stands
+ * in the back right corner too; with more on the tray the drinks stand beside it, on the right
+ * (Fernando, 2026-10-17). A dish that doesn't fit goes on the table behind the tray, and the
+ * napkin set goes on the left, or is left out when there is no room.
+ */
+function solveTray(spec: SceneSpec, items: ItemSpec[]): LayoutOption | string {
+  const surf = SURFACES[spec.scene.surface];
+  const W = surf.width,
+    D = surf.depth;
+  const trayItem = items.find((i) => i.kind === "tray")!;
+  const mainItem = items.find((i) => i.kind === "main")!;
+  const others = items.filter((i) => TRAY_FOOD.has(i.kind) && i.kind !== "main").sort((a, b) => footprintRadius(b.def) - footprintRadius(a.def));
+  const drinks = items.filter((i) => i.kind === "sku" || i.kind === "glass");
+  const napkin = items.find((i) => i.kind === "napkin-set");
+  const drinksOnTray = others.length <= 1 && !drinks.some((d) => d.kind === "glass");
+  const r = (i: ItemSpec) => footprintRadius(i.def);
+  const isDrink = (i: ItemSpec) => i.kind === "sku" || i.kind === "glass";
+
+  // Lay the tray out in its own frame: x across (0 at the middle), y back from its front edge.
+  // `front`: small dishes may take the front corners beside the main before the back ones, so a
+  // tall main doesn't hide them.
+  type Local = { item: ItemSpec; x: number; y: number };
+  type Lay = { w: number; depth: number; on: Local[]; off: ItemSpec[] };
+  const layOut = (w: number, depth: number, mainX: number, front: boolean): Lay => {
+    const on: Local[] = [{ item: mainItem, x: mainX, y: r(mainItem) + TRAY_RIM }];
+    const off: ItemSpec[] = [];
+    const inside = (i: ItemSpec, x: number, y: number) => Math.abs(x) + r(i) <= w / 2 - TRAY_RIM + 1e-9 && y - r(i) >= TRAY_RIM - 1e-9 && y + r(i) <= depth - TRAY_RIM + 1e-9;
+    const clear = (i: ItemSpec, x: number, y: number) => on.every((o) => Math.hypot(o.x - x, o.y - y) - r(o.item) - r(i) >= TRAY_GAP - 1e-9);
+    const corner = (i: ItemSpec, sx: number, back: boolean) => ({ x: sx * (w / 2 - TRAY_RIM - r(i)), y: back ? depth - TRAY_RIM - r(i) : r(i) + TRAY_RIM });
+    const place = (i: ItemSpec, prefs: Array<{ x: number; y: number }>) => {
+      for (const p of prefs) {
+        // Slide along the row toward the middle until it fits.
+        for (let k = 0; k <= 40; k++) {
+          const x = p.x - Math.sign(p.x || 1) * k * 0.01;
+          if (inside(i, x, p.y) && clear(i, x, p.y)) {
+            on.push({ item: i, x, y: p.y });
+            return true;
+          }
+        }
+      }
+      return false;
+    };
+    for (const i of others) {
+      const back = [corner(i, -1, true), corner(i, 1, true)];
+      const fore = [corner(i, -1, false), corner(i, 1, false)];
+      const small = i.kind === "condiment" || i.kind === "accent";
+      if (!place(i, front && small ? [...fore, ...back] : [...back, ...fore])) off.push(i);
+    }
+    for (const i of drinks) {
+      // A drink on the tray stands clear to the right of the main, never behind it.
+      const c = corner(i, 1, true);
+      const ok = c.x - r(i) >= mainX + 0.6 * r(mainItem) && inside(i, c.x, c.y) && clear(i, c.x, c.y);
+      if (drinksOnTray && ok) on.push({ item: i, ...c });
+      else off.push(i);
+    }
+    return { w, depth, on, off };
+  };
+  // Candidates, best first: the most dishes on the tray, then the drinks if they belong there,
+  // then the smallest tray with the main closest to center.
+  const cost = (l: Lay) => 10 * l.off.filter((i) => TRAY_FOOD.has(i.kind)).length + l.off.filter((i) => drinksOnTray && isDrink(i)).length;
+  const lays: Array<{ lay: Lay; key: number }> = [];
+  for (let tw = trayItem.def.width!; tw <= TRAY_WIDTH_MAX + 1e-9; tw += 0.025) {
+    for (let dp = trayItem.def.depth!; dp <= TRAY_DEPTH_MAX + 1e-9; dp += 0.01) {
+      for (const mx of [0, -0.02, 0.02, -0.04, 0.04, -0.06, 0.06, -0.08, 0.08, -0.1, 0.1, -0.12, 0.12]) {
+        for (const front of [false, true]) {
+          const lay = layOut(tw, dp, mx, front);
+          lays.push({ lay, key: cost(lay) * 100 + (tw - trayItem.def.width!) * 10 + (dp - trayItem.def.depth!) + Math.abs(mx) * 0.5 + (front ? 0.001 : 0) });
+        }
+      }
+    }
+  }
+  lays.sort((a, b) => a.key - b.key);
+  // Skip near-duplicates so a failing arrangement isn't retried many times over.
+  const seen = new Set<string>();
+  let firstError = "";
+  let tries = 0;
+  for (const { lay } of lays) {
+    const sig = lay.on.map((l) => `${l.item.label}:${Math.round(l.x * 50)},${Math.round(l.y * 50)}`).join(" ") + `|${Math.round(lay.w * 40)}`;
+    if (seen.has(sig)) continue;
+    seen.add(sig);
+    if (++tries > 40) break;
+    const res = trayLayout(spec, lay, W, D, napkin);
+    if (typeof res !== "string") return res;
+    firstError ||= res;
+  }
+  return firstError || "no tray arrangement fits";
+}
+
+/** The tray and its dishes on the table, the rest around it, then camera and rules. */
+function trayLayout(spec: SceneSpec, lay: { w: number; depth: number; on: Array<{ item: ItemSpec; x: number; y: number }>; off: ItemSpec[] }, W: number, D: number, napkin: ItemSpec | undefined): LayoutOption | string {
+  const { w, depth } = lay;
+  const trayItem = sceneItems(spec).find((i) => i.kind === "tray")!;
+  const r = (i: ItemSpec) => footprintRadius(i.def);
+  // On the table: the tray in front of the diner, a little left when the drinks stand to its right.
+  const drinksOff = lay.off.some((i) => i.kind === "sku");
+  const tx = drinksOff ? -0.08 : 0;
+  const td = TRAY_FRONT + depth / 2;
+  const tray: Placed = { item: { ...trayItem, def: { ...trayItem.def, width: w, depth } }, x: tx, d: td, yaw: 0 };
+  const placed: Placed[] = [tray];
+  for (const l of lay.on) placed.push({ item: l.item, x: tx + l.x, d: TRAY_FRONT + l.y, yaw: 0, elev: trayItem.def.height, onTray: true });
+  const multi = isMultiServe(spec) ? { sku: "SKU", clearance: bottleClearance(spec.sku) } : null;
+  // Off the tray: drinks at its right, with the glass beside the bottle (never in front of it);
+  // extra dishes behind it; the napkin set on its left.
+  const right = tx + w / 2;
+  for (const i of lay.off) {
+    const p: Placed = { item: i, x: 0, d: 0, yaw: 0 };
+    const want =
+      i.kind === "sku" ? { x: right + 0.03 + r(i), d: td + 0.06 } : i.kind === "glass" ? { x: right + 0.12 + r(i), d: td + 0.02 } : { x: tx - 0.1, d: td + depth / 2 + 0.03 + r(i) };
+    if (!settle(p, want, placed, W, D, multi, shapeGap)) return `no room for ${i.label} beside the tray on ${spec.scene.surface}`;
+    placed.push(p);
+  }
+  let napkinNote = "";
+  if (napkin) {
+    const p: Placed = { item: napkin, x: 0, d: 0, yaw: 90 };
+    if (settle(p, { x: tx - w / 2 - 0.03 - napkin.def.depth! / 2, d: td }, placed, W, D, multi, shapeGap)) placed.push(p);
+    else napkinNote = " The napkin set is left out: the table has no room for it beside the tray.";
+  }
+
+  // Like the other layouts, push the setting back so the empty front of the table falls below the frame.
+  const rear = Math.max(...placed.map((p) => p.d + radiusOf(p)));
+  const showsFront = angleById(spec.camera.angle).hidden.front_edge_min_y !== undefined;
+  const shift = showsFront ? 0 : Math.max(0, D - REAR_MARGIN - rear);
+  for (const p of placed) p.d += shift;
+
+  const look = lookById(spec.camera.look);
+  const angle = angleById(spec.camera.angle);
+  const spans = layoutPreferences.hero_span_target;
+  const targetSpan = lay.on.length + lay.off.length > 2 ? spans.with_sides : spans.meal_and_drink_only;
+  const fit = fitCamera(placed, D, look.hidden.focal_length_mm, angle.hidden.pitch_deg, targetSpan, angle.hidden);
+  if (!fit) return "no camera position keeps the table in the lower half with the tray in frame";
+  const rules = checkRules(placed, fit, spec);
+  const failed = blocking(rules);
+  if (failed.length) return failed.map((x) => `${x.id} ${x.name}: ${x.detail}`).join(" · ");
+  const { total, terms } = score(placed, fit, "tray", targetSpan);
+  const main = placed.find((p) => p.item.kind === "main")!;
+  const blueprint = toBlueprint(spec, placed, fit, "tray", total, terms, rules, D, W, main);
+  if (napkinNote) blueprint.layout_meta.rationale += napkinNote;
+  return { archetype: "tray", blueprint };
 }
 
 // ---------------------------------------------------------------------------

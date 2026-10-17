@@ -219,6 +219,8 @@ export interface SceneSpec {
     seated?: boolean;
     /** How the seated people sit (see shared/poses.ts); at least one holds their Coca-Cola. */
     pose?: string;
+    /** The diner's dishes sit on one tray (food court, fast casual): a carrier, not a dish. */
+    tray?: boolean;
   };
   /** depth: a depth_of_field preset id (camera-options.json); unset means the default. */
   camera: { look: string; angle: string; depth?: string };
@@ -262,6 +264,8 @@ export interface Primitive {
   footprint?: "rect" | "triangle";
   /** For a second-setting item (party "2"): the single-setting label it copies (MAIN, NAPKIN_SET_1, SKU, GLASS). */
   same_as?: string;
+  /** It stands on the diner's tray (role "tray"), not on the table. */
+  on_tray?: boolean;
   /** A seated person (role "person"): who they are and what they wear, from the art director. */
   person?: { who: string; heritage: string; wearing: string };
   /** A drink held in a seated person's hand (PERSON_1 or PERSON_2) instead of standing on the table. */
