@@ -24,7 +24,7 @@ const SKU_HIDDEN_MAX = 0.05;
 const IN_FRAME_MIN = 0.8;
 
 /** Items the scene is built around: they move, but are never removed. */
-const LOCKED = new Set(["main", "shared-hero", "sku", "glass", "partner-main", "partner-sku", "partner-glass"]);
+const LOCKED = new Set(["main", "shared-hero", "sku", "glass", "partner-main", "partner-sku", "partner-glass", "tray"]);
 const DRINKS = new Set(["sku", "glass", "partner-sku", "partner-glass"]);
 
 export function removable(p: Primitive): boolean {
@@ -34,6 +34,7 @@ export function removable(p: Primitive): boolean {
 /** The proxy shape of a blueprint item: its footprint and vessel height (the food sits on top). */
 export function primitiveDef(p: Primitive): ProxyDef {
   if (p.role === "glass" || p.role === "partner-glass") return BELL_GLASS;
+  if (p.role === "tray") return { kind: "box", width: p.dimensions.width, depth: p.dimensions.depth, height: p.dimensions.height };
   if (p.role === "napkin-set" || p.role === "partner-napkin") return napkinDef(p.footprint ?? "rect", p.proxy.includes("-dinner") ? "dinner" : "luncheon");
   if (p.role === "sku" || p.role === "partner-sku") {
     // Rebuild from the blueprint's dimensions (the SKU proxy key is catalog-specific).

@@ -1,6 +1,6 @@
 // SceneSpec → the list of labeled items the solver places.
 
-import { BELL_GLASS, MASS_HEIGHT, VESSELS, napkinDef, skuProxy, type ProxyDef } from "./registry";
+import { BELL_GLASS, CARRIER_TRAY, MASS_HEIGHT, VESSELS, napkinDef, skuProxy, type ProxyDef } from "./registry";
 import { isLargeSku } from "./rules";
 import type { Layer, SceneSpec } from "./types";
 
@@ -18,7 +18,8 @@ export type ItemKind =
   | "partner-main"
   | "partner-napkin"
   | "partner-sku"
-  | "partner-glass";
+  | "partner-glass"
+  | "tray";
 
 export interface ItemSpec {
   label: string; // role label shown on the proxy and used as the prompt segment key
@@ -119,6 +120,11 @@ export function sceneItems(spec: SceneSpec): ItemSpec[] {
     });
   }
 
+  // The diner's tray goes under their dishes; the solver sizes it and puts them on it.
+  if (spec.scene.tray) {
+    items.push({ label: "TRAY", kind: "tray", layer: L3, name: "the diner's serving tray, holding their meal", proxyKey: "carrier-tray", def: CARRIER_TRAY, extraHeight: 0, footprint: "rect" });
+  }
+
   if (spec.accent) {
     items.push({
       label: "ACCENT_1",
@@ -199,7 +205,8 @@ export function sceneItems(spec: SceneSpec): ItemSpec[] {
  * included). An even count needs one injected accent.
  */
 export function itemCount(spec: SceneSpec): number {
-  return sceneItems({ ...spec, accent: null }).length;
+  // The tray carries the dishes; it isn't one of them.
+  return sceneItems({ ...spec, accent: null }).filter((i) => i.kind !== "tray").length;
 }
 
 export function needsAccent(spec: SceneSpec): boolean {

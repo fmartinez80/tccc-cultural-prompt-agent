@@ -30,6 +30,8 @@ export const ROLE_COLORS: Record<string, string> = {
   'partner-glass': '#f6b3ac',
   // Seated people (staging): one hue per person, so the sketch model can tell them apart.
   person: '#5b6ee1',
+  // The diner's tray, under their dishes: a quiet grey so the dishes on it stand out.
+  tray: '#9aa3ad',
 };
 
 const PERSON_COLORS: Record<string, string> = { PERSON_1: '#5b6ee1', PERSON_2: '#a77be0' };
@@ -373,7 +375,11 @@ function drawLabels(ctx: CanvasRenderingContext2D, bp: Blueprint, w: number, h: 
   // Nearest items first so their labels win the best spot.
   const order = [...bp.primitives].sort((a, b) => a.world.d - b.world.d);
   for (const p of order) {
-    const s = proj.project(p.world.x, labelAnchor(p), p.world.d);
+    // The tray's middle is under its dishes: label its open front right corner instead.
+    const s =
+      p.role === 'tray'
+        ? proj.project(p.world.x + p.dimensions.width * 0.36, p.dimensions.height, p.world.d - p.dimensions.depth * 0.36)
+        : proj.project(p.world.x, labelAnchor(p), p.world.d);
     const text = p.id;
     const tw = ctx.measureText(text).width;
     const padX = size * 0.6,

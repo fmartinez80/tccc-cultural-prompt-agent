@@ -233,6 +233,20 @@ export function cornerViewSentence(spec: SceneSpec, bp: Blueprint): string {
 
 function whereOnTable(bp: Blueprint, id: string): string {
   const p = bp.primitives.find((q) => q.id === id)!;
+  const tray = bp.primitives.find((q) => q.role === "tray");
+  if (tray && p.role === "tray") return "flat on the table in front of the diner, under their meal";
+  if (tray && p.on_tray) {
+    if (p.role === "main") return "on the tray, front and center";
+    const dx = p.world.x - tray.world.x,
+      dd = p.world.d - tray.world.d;
+    const row = dd > 0.03 ? "back" : dd < -0.03 ? "front" : "middle";
+    const col = dx < -0.06 ? "left" : dx > 0.06 ? "right" : "";
+    if (!col) return row === "middle" ? "on the tray, in its middle" : `on the tray, at the ${row} in the middle`;
+    return row === "middle" ? `on the tray, at its ${col} edge` : `on the tray, in its ${row} ${col} corner`;
+  }
+  if (tray && (p.role === "sku" || p.role === "glass")) return "on the table just right of the tray";
+  if (tray && p.role === "napkin-set") return "on the table just left of the tray";
+  if (tray) return "on the table beside the tray";
   // Two diners sit at a right angle around a corner (seated people or just their settings): the
   // camera looks across that corner, so say where things land in the frame.
   if (isCornerLayout(bp)) return whereInFrame(bp, p);
@@ -277,11 +291,16 @@ export function countsSentence(bp: Blueprint): string {
     `${w(glasses)} Coca-Cola ${glasses === 1 ? "glass" : "glasses"}${glasses === 2 ? ", one beside each diner's plate" : glasses === 1 ? ", beside the diner's plate" : ""}`,
     `${w(products)} Coca-Cola ${products === 1 ? pkg : `${pkg}s`}`,
   ];
+  const tray = bp.primitives.find((p) => p.role === "tray");
+  if (tray) {
+    const on = bp.primitives.filter((p) => p.on_tray).map((p) => p.id);
+    parts.push(`one tray (${tray.id}) holding ${on.join(", ")}, and no other tray`);
+  }
   // Every side, sauce, bread and accent dish once (Fernando, 2026-10-17): a test doubled the amba ramekin.
-  const big = ["main", "partner-main", "shared-hero", "glass", "partner-glass", "sku", "partner-sku", "person"];
+  const big = ["main", "partner-main", "shared-hero", "glass", "partner-glass", "sku", "partner-sku", "person", "tray"];
   const small = bp.primitives.filter((p) => !big.includes(p.role) && !p.proxy.includes("napkin")).map((p) => p.id);
   if (small.length) parts.push(`${w(small.length)} smaller ${small.length === 1 ? "dish" : "dishes"} (${small.join(", ")}), one of each, none repeated`);
-  return `Count: ${parts.join("; ")}. Add no other plates, bowls, ramekins, glasses, cups or bottles anywhere on the table.`;
+  return `Count: ${parts.join("; ")}. Add no other plates, bowls, ramekins, trays, glasses, cups or bottles anywhere on the table.`;
 }
 
 /** A drink a seated person holds: in their hand (or standing with their hand around it), logo to the camera. */
@@ -344,6 +363,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     servingSentence: serving,
     labels: bp.primitives.map((p) => {
       if (p.role === "person") return { label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), vessel: "a chair at the table", fixedText: personText(spec, bp, p) };
+      if (p.role === "tray") return { label: p.id, what: "the diner's tray", where: whereOnTable(bp, p.id), vessel: "the table", fixedText: trayText(bp, p) };
       const base = { label: p.id, what: p.component_name, where: whereOnTable(bp, p.id), ...labelVessel(spec, p.proxy, p.role, styles.get(p.id), seated) };
       if (p.held_by && base.fixedText) base.fixedText = heldText(base.fixedText, p);
       // Only a label with no fixed text of its own (currently just MAIN_2) borrows another
@@ -446,6 +466,16 @@ function share(r: number): string {
  * bottle about a third too tall for its plate and the bell glass as tall as the bottle, because
  * the product photos are close-ups with no scale. The sketch fixes positions, not this.
  */
+/**
+ * The diner's tray carries their meal (Fernando, 2026-10-17): one tray, everything named on it
+ * standing inside its rim, never an empty tray beside the food or one tray per dish.
+ */
+function trayText(bp: Blueprint, tray: Primitive): string {
+  const on = bp.primitives.filter((q) => q.on_tray).map((q) => q.id);
+  const list = on.length > 1 ? `${on.slice(0, -1).join(", ")} and ${on[on.length - 1]}` : on[0] ?? "MAIN";
+  return `Exactly one plain rectangular food-court tray, about ${cm(tray.dimensions.width)} by ${cm(tray.dimensions.depth)} cm, in matte plastic in a muted grey, tan or brown, with a low raised rim, lying flat with its long side toward the camera. It carries the diner's meal: ${list} stand on it, inside its rim, and nothing hangs over its edge. It is never empty, never under only one dish while others stand on the table, and there is no second tray. No printed tray liner, logo or text on it.`;
+}
+
 export function productScaleSentence(spec: SceneSpec, bp: Blueprint): string {
   const sku = skuProxy(spec.sku);
   const pkg = spec.sku.package === "can" ? "can" : "bottle";
