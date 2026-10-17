@@ -271,7 +271,10 @@ Write:
 - labelSegments: one entry for each food label below, in this order. The image model draws each labeled shape from this text alone, so each text must make the component unmistakable:
   - When the dish has countable pieces, start with the exact count ("Exactly three tacos side by side", "Two slices") and say none is hidden behind another.
   - Name the food by its local name, then what it visibly looks like: colors, textures, how it is cut, filled, sauced and garnished, as it is actually served in this region.
-  - Say how the pieces are arranged on the container ("in one row across the plate, all fully visible").
+  - Say how the pieces sit on the container the way they land when served, not lined up for display ("two halves, one leaning on the other, neither hidden").
+  - For stuffed, wrapped or sandwiched food (pita, samoon, wraps, burgers), describe the filling as it really is: broken or crushed pieces packed inside with the salad and pickles, sauce soaked into the bread and running out at the opening, never whole pieces lined up on top or a sauce drizzled over the outside.
+  - Give every sauce its real color and consistency, compared with something familiar, so it can't read as melted cheese or mustard (amba is a thin, ochre-orange mango pickle sauce with small fruit bits).
+  - Add one or two signs the food was just made by hand: torn bread edges, uneven browning, crumbs, a drip or smear on the plate.
   - Give proportions: what makes up most of the dish and what is only an accent ("mostly rice, with only a few small pieces of chicken"), and the real size of distinctive pieces ("beans about 2 cm long"). Listing ingredients with equal weight makes the image model draw each one large and prominent.
   - A plated portion served from a shared dish is smaller and simpler than the dish in its vessel: mostly the base, with a few small pieces.
   - Say what it sits on using the given container wording, including the size and its material and color. If a container has no material or color given, choose one following the dishware rules (never plain white for a side bowl, ramekin or sauce boat).

@@ -1327,6 +1327,12 @@ const SEAT_BACK = 0.3;
 /** A seated person's nose and shoulder line, in their own frame (above the seat; forward is -z). */
 const NOSE: readonly [number, number, number] = [0, 0.8, -0.2];
 const SHOULDER: readonly [number, number, number] = [0, 0.6, -0.1];
+/**
+ * A seated diner's eye, above the tabletop. At Low and Diner's eye the corner camera without
+ * people stays at or below it (Fernando, 2026-10-17): pulled back and raised to fit both places, it stood at about
+ * 1.5 m and shrank the table setting against the room.
+ */
+const SEATED_EYE = 0.5;
 /** The camera's yaw off the table's axis, toward the corner it faces. */
 const CORNER_YAW = 45;
 
@@ -1660,6 +1666,7 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
       for (let dist = 1; dist <= 7; dist *= 1.03) {
         let tx = tx0,
           td = td0;
+        if (!withPeople && pitch <= 20 && ty + dist * Math.sin((pitch * Math.PI) / 180) > SEATED_EYE) break;
         let cam = yawedCamera(focal, pitch, yaw, tx, ty, td, dist);
         // Re-centre horizontally along the camera's right vector (two passes).
         for (let k = 0; k < 2; k++) {

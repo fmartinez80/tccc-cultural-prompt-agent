@@ -228,7 +228,7 @@ export function cornerViewSentence(spec: SceneSpec, bp: Blueprint): string {
   const people = hasSeatedPeople(bp);
   const first = people ? "PERSON_1" : "the first diner";
   const second = people ? "PERSON_2" : "the second diner";
-  return `The camera is not square to the table: it stands off the table's near ${other} side and is turned about ${turn} degrees, looking diagonally across the tabletop toward the table's far ${side} corner, which sits ${h}, ${v}, exactly as in image 1. From that corner the table's far long edge runs away toward the ${other} of the frame and its ${side} end edge runs down toward the ${side}, so no table edge runs straight across the frame. ${first[0]!.toUpperCase()}${first.slice(1)}'s place (MAIN) is on the far long side and ${second}'s place (MAIN_2) is at the table's ${side} end, at a right angle to each other around that corner, never side by side or opposite each other. The table's near edges and near corner are mostly out of frame.`;
+  return `The camera is not square to the table: it stands off the table's near ${other} side and is turned about ${turn} degrees, looking diagonally across the tabletop toward the table's far ${side} corner, which sits ${h}, ${v}, exactly as in image 1. From that corner the table's far long edge runs away toward the ${other} of the frame and its ${side} end edge runs down toward the ${side}, so no table edge runs straight across the frame. ${first[0]!.toUpperCase()}${first.slice(1)}'s place (MAIN) is on the far long side and ${second}'s place (MAIN_2) is at the table's ${side} end, at a right angle to each other around that corner, never side by side or opposite each other. The table's near edges and near corner are mostly out of frame.${people ? "" : " An empty chair is pulled up at each diner's place, just behind the table edge nearest their plate, as in image 1."}`;
 }
 
 function whereOnTable(bp: Blueprint, id: string): string {
@@ -277,7 +277,11 @@ export function countsSentence(bp: Blueprint): string {
     `${w(glasses)} Coca-Cola ${glasses === 1 ? "glass" : "glasses"}${glasses === 2 ? ", one beside each diner's plate" : glasses === 1 ? ", beside the diner's plate" : ""}`,
     `${w(products)} Coca-Cola ${products === 1 ? pkg : `${pkg}s`}`,
   ];
-  return `Count: ${parts.join("; ")}. Add no other plates, glasses, cups or bottles anywhere on the table.`;
+  // Every side, sauce, bread and accent dish once (Fernando, 2026-10-17): a test doubled the amba ramekin.
+  const big = ["main", "partner-main", "shared-hero", "glass", "partner-glass", "sku", "partner-sku", "person"];
+  const small = bp.primitives.filter((p) => !big.includes(p.role) && !p.proxy.includes("napkin")).map((p) => p.id);
+  if (small.length) parts.push(`${w(small.length)} smaller ${small.length === 1 ? "dish" : "dishes"} (${small.join(", ")}), one of each, none repeated`);
+  return `Count: ${parts.join("; ")}. Add no other plates, bowls, ramekins, glasses, cups or bottles anywhere on the table.`;
 }
 
 /** A drink a seated person holds: in their hand (or standing with their hand around it), logo to the camera. */
@@ -459,8 +463,26 @@ export function productScaleSentence(spec: SceneSpec, bp: Blueprint): string {
       `the glass is ${cm(BELL_GLASS.height)} cm tall and ${cm(2 * BELL_GLASS.radius!)} cm across the rim, ${r < 0.97 ? `shorter than the ${pkg}: ${share(r)} its height` : r <= 1.03 ? `about as tall as the ${pkg}` : `taller than the ${pkg}: ${share(r)} its height`}`,
     );
   }
+  const frame = frameShareSentence(bp, pkg);
   const hand = bp.primitives.some((p) => p.role === "person") ? " An adult hand is about 19 cm from wrist to fingertip; keep the product in that proportion where it is held." : "";
-  return `Real sizes, which the photograph keeps (the product photos show how the package looks, not how big it is here): ${parts.join("; ")}. Never enlarge the Coca-Cola product or the glass to make them stand out: one nearer the camera looks bigger only through perspective, by the same amount as the food beside it.${hand}`;
+  return `Real sizes, which the photograph keeps (the product photos show how the package looks, not how big it is here): ${parts.join("; ")}. Never enlarge the Coca-Cola product or the glass to make them stand out: one nearer the camera looks bigger only through perspective, by the same amount as the food beside it.${frame}${hand}`;
+}
+
+/**
+ * How much of image 1 the product, a glass and the main plate take up (Fernando, 2026-10-17):
+ * real sizes alone still let the photo inflate a large bottle by about a third.
+ */
+function frameShareSentence(bp: Blueprint, pkg: string): string {
+  const box = (id: string) => bp.primitives.find((p) => p.id === id && !p.held_by)?.screen_bbox;
+  const pct = (v: number) => `${Math.round(v * 100)}%`;
+  const sku = box("SKU");
+  if (!sku) return "";
+  const parts = [`the ${pkg} (SKU) stands about ${pct(sku.y1 - sku.y0)} of the frame's height`];
+  const glass = box("GLASS");
+  if (glass) parts.push(`the glass beside MAIN (GLASS) about ${pct(glass.y1 - glass.y0)}`);
+  const main = box("MAIN");
+  if (main) parts.push(`and the MAIN plate spans about ${pct(main.x1 - main.x0)} of the frame's width`);
+  return ` In image 1 ${parts.join(", ")}; keep those sizes.`;
 }
 
 export function labelText(story: Story, l: StoryFacts["labels"][number]): string {
