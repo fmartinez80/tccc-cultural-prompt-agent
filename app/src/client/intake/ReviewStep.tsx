@@ -9,7 +9,7 @@
 // only shown while the detailed sketch can't be (failed, plan-gated or expired).
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { ArrowRight, Check, CheckCheck, Download, Move, Pencil, PencilLine, RotateCw, Sparkles, Trash2, Undo2, X } from 'lucide-react';
+import { ArrowRight, Check, CheckCheck, Download, Move, Pencil, PencilLine, RotateCw, Sparkles, Trash2, X } from 'lucide-react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 
@@ -692,7 +692,7 @@ export function ReviewStep({
                       data-kind="remove"
                       aria-pressed={removing.has(p.id)}
                       aria-label="Remove"
-                      title={canRemove(p) ? 'Remove' : 'Stays in every scene'}
+                      title={!canRemove(p) ? 'Stays in every scene' : removing.has(p.id) ? 'Keep it' : 'Remove'}
                       disabled={!canRemove(p)}
                       onClick={() => toggleRemove(p.id)}
                     >
@@ -716,9 +716,6 @@ export function ReviewStep({
                     <Trash2 size={14} className={styles.changeDoneIcon} aria-hidden />
                     <span className={styles.changeDoneText}>Removed from the scene</span>
                     {detail && <span className={styles.sketchTag}>Next redraw</span>}
-                    <Button size="sm" variant="ghost" icon={<Undo2 size={14} aria-hidden />} onPress={() => toggleRemove(p.id)}>
-                      Keep it
-                    </Button>
                   </div>
                 )}
 
