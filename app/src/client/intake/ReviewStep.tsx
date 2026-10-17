@@ -9,7 +9,7 @@
 // only shown while the detailed sketch can't be (failed, plan-gated or expired).
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { ArrowRight, Check, CheckCheck, Download, Move, PencilLine, RotateCw, Sparkles, Trash2, Undo2 } from 'lucide-react';
+import { ArrowRight, Check, CheckCheck, Download, Move, Pencil, PencilLine, RotateCw, Sparkles, Trash2, Undo2, X } from 'lucide-react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 
@@ -669,26 +669,35 @@ export function ReviewStep({
                   </button>
                   {p.role !== 'person' && (
                   <div className={styles.verdicts} role="group" aria-label={`${p.component_name}: is it working?`}>
-                    <button type="button" className={styles.verdict} data-kind="keep" aria-pressed={r?.verdict === 'keep'} onClick={() => setVerdict(p.id, 'keep')}>
-                      <Check size={14} aria-hidden /> Working
+                    <button type="button" className={styles.verdict} data-kind="keep" aria-pressed={r?.verdict === 'keep'} aria-label="Working" title="Working" onClick={() => setVerdict(p.id, 'keep')}>
+                      <Check size={18} strokeWidth={2.5} aria-hidden />
                     </button>
                     <button
                       type="button"
                       className={styles.verdict}
                       data-kind="change"
                       aria-pressed={r?.verdict === 'change'}
+                      aria-label="Change"
+                      title="Change"
                       onClick={() => {
                         setVerdict(p.id, 'change');
                         setSelected(i);
                       }}
                     >
-                      <PencilLine size={14} aria-hidden /> Change
+                      <Pencil size={16} strokeWidth={2.5} aria-hidden />
                     </button>
-                    {canRemove(p) && (
-                      <button type="button" className={styles.verdict} data-kind="remove" aria-pressed={removing.has(p.id)} onClick={() => toggleRemove(p.id)}>
-                        <Trash2 size={14} aria-hidden /> Remove
-                      </button>
-                    )}
+                    <button
+                      type="button"
+                      className={styles.verdict}
+                      data-kind="remove"
+                      aria-pressed={removing.has(p.id)}
+                      aria-label="Remove"
+                      title={canRemove(p) ? 'Remove' : 'Stays in every scene'}
+                      disabled={!canRemove(p)}
+                      onClick={() => toggleRemove(p.id)}
+                    >
+                      <X size={18} strokeWidth={2.5} aria-hidden />
+                    </button>
                   </div>
                   )}
                 </div>

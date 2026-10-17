@@ -307,34 +307,35 @@
 .verdicts {
   flex-shrink: 0;
   display: flex;
-  border: var(--neo-border-thin);
-  border-radius: 999px;
-  padding: 2px;
-  gap: 2px;
-  background: var(--neo-card);
+  gap: 8px;
 }
 
 .verdict {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 5px 10px;
-  border: 0;
-  border-radius: 999px;
-  background: none;
-  color: var(--bay-text-2);
-  font: 700 var(--app-text-min)/1 var(--bay-font-sans);
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 2px solid var(--neo-ink);
+  border-radius: 50%;
+  background: var(--neo-card);
+  color: var(--neo-ink);
   cursor: pointer;
   transition: background var(--bay-dur) var(--bay-ease), color var(--bay-dur) var(--bay-ease);
 }
 
-.verdict:hover {
+.verdict:hover:not(:disabled) {
   background: var(--neo-hover);
 }
 
 .verdict:focus-visible {
-  outline: 2px solid var(--neo-ink);
-  outline-offset: 1px;
+  outline: 2px solid var(--neo-selected);
+  outline-offset: 2px;
+}
+
+.verdict:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 .verdict[data-kind='keep'][aria-pressed='true'] {
