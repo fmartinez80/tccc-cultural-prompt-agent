@@ -82,6 +82,35 @@ function edgeGap(a: Placed, b: Placed): number {
   return Math.hypot(a.x - b.x, a.d - b.d) - radiusOf(a) - radiusOf(b);
 }
 
+/**
+ * Edge-to-edge gap using each item's real outline: round items as circles, napkins, trays and
+ * boards as turned rectangles, so a napkin can sit as close to its plate as the spacing rule says
+ * rather than a bounding circle's width away.
+ */
+function shapeGap(a: Placed, b: Placed): number {
+  const rect = (p: Placed) => {
+    if (p.item.def.radius !== undefined || p.item.def.width === undefined || p.item.def.depth === undefined) return null;
+    const t = (p.yaw * Math.PI) / 180;
+    return { hw: p.item.def.width / 2, hd: p.item.def.depth / 2, u: [Math.cos(t), Math.sin(t)] as const, v: [-Math.sin(t), Math.cos(t)] as const };
+  };
+  const ra = rect(a),
+    rb = rect(b);
+  const dx = b.x - a.x,
+    dd = b.d - a.d;
+  if (!ra && !rb) return Math.hypot(dx, dd) - radiusOf(a) - radiusOf(b);
+  if (ra && rb) {
+    // Separating axes: the largest gap along any of the four box axes.
+    const proj = (r: NonNullable<typeof ra>, n: readonly [number, number]) => r.hw * Math.abs(r.u[0] * n[0] + r.u[1] * n[1]) + r.hd * Math.abs(r.v[0] * n[0] + r.v[1] * n[1]);
+    return Math.max(...[ra.u, ra.v, rb.u, rb.v].map((n) => Math.abs(dx * n[0] + dd * n[1]) - proj(ra, n) - proj(rb, n)));
+  }
+  // A circle against a box: the distance from the circle's centre to the box, less its radius.
+  const [r, c, sgn] = ra ? [ra, b, 1] : [rb!, a, -1];
+  const lx = Math.abs(sgn * (dx * r.u[0] + dd * r.u[1])) - r.hw;
+  const ld = Math.abs(sgn * (dx * r.v[0] + dd * r.v[1])) - r.hd;
+  const out = Math.hypot(Math.max(lx, 0), Math.max(ld, 0));
+  return (out > 0 ? out : Math.max(lx, ld)) - radiusOf(c);
+}
+
 /** Minimum edge-to-edge spacing between two items (tableware reference §7). */
 function minGap(a: Placed, b: Placed, multi: { sku: string; clearance: number } | null): number {
   if (multi && (a.item.label === multi.sku || b.item.label === multi.sku)) {
@@ -528,7 +557,7 @@ function repair(placed: Placed[], fit: Fit, spec: SceneSpec, W: number, D: numbe
  * the two diners' plates, so it sits within reach of both (Fernando, 2026-10-16). Spots between
  * the plates and the corner, where the diners' arms rest, cost extra.
  */
-function settleShared(p: Placed, plates: [Anchor, Anchor], corner: Anchor, placed: Placed[], W: number, D: number, multi: { sku: string; clearance: number } | null, bottle?: Placed): boolean {
+function settleShared(p: Placed, plates: [Anchor, Anchor], corner: Anchor, placed: Placed[], W: number, D: number, multi: { sku: string; clearance: number } | null, bottle?: Placed, gap = edgeGap): boolean {
   const [a, b] = plates;
   const mx = (a.x + b.x) / 2,
     md = (a.d + b.d) / 2;
@@ -540,7 +569,7 @@ function settleShared(p: Placed, plates: [Anchor, Anchor], corner: Anchor, place
   for (let x = -W / 2; x <= W / 2 + 1e-9; x += 0.02) {
     for (let d = 0; d <= D + 1e-9; d += 0.02) {
       const q = { ...p, x, d };
-      if (!onTable(q, W, D) || !placed.every((o) => edgeGap(q, o) >= minGap(q, o, multi) - 1e-9)) continue;
+      if (!onTable(q, W, D) || !placed.every((o) => gap(q, o) >= minGap(q, o, multi) - 1e-9)) continue;
       const along = ((x - corner.x) * ux + (d - corner.d) * ud) / len;
       // Nothing taller than the bottle's base stands in the camera's line to it (the camera looks
       // down the diagonal), so its label shows; a low dish may sit in front, as in a hero shot.
@@ -564,11 +593,11 @@ const CORNER_KEEP = 0.3;
 const FRONT_STRIP = 0.12;
 
 /** Nearest valid position to `want` for item `p`, spiralling outward. */
-function settle(p: Placed, want: Anchor, placed: Placed[], W: number, D: number, multi: { sku: string; clearance: number } | null): boolean {
+function settle(p: Placed, want: Anchor, placed: Placed[], W: number, D: number, multi: { sku: string; clearance: number } | null, gap = edgeGap): boolean {
   const ok = (x: number, d: number) => {
     const q = { ...p, x, d };
     if (!onTable(q, W, D)) return false;
-    return placed.every((o) => edgeGap(q, o) >= minGap(q, o, multi) - 1e-9);
+    return placed.every((o) => gap(q, o) >= minGap(q, o, multi) - 1e-9);
   };
   if (ok(want.x, want.d)) {
     p.x = want.x;
@@ -1390,11 +1419,11 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
     if (want.has(it.label)) continue;
     const half = (it.def.width ?? 2 * (it.def.radius ?? 0.05)) / 2;
     switch (it.kind) {
-      case "napkin-set": // PERSON_1's place, on the side away from the corner
-        want.set(it.label, { x: m1.x + inward * (r1 + 0.05 + half), d: m1.d });
+      case "napkin-set": // PERSON_1's place, on the side away from the corner, tucked in close
+        want.set(it.label, { x: m1.x + inward * (r1 + 0.03 + half), d: m1.d });
         break;
       case "partner-napkin": // PERSON_2's place, toward the camera
-        want.set(it.label, { x: m2.x, d: Math.max(half + 0.03, m2.d - r1 - 0.05 - half) }); // turned 90°, so its width runs along d
+        want.set(it.label, { x: m2.x, d: Math.max(half + 0.03, m2.d - r1 - 0.03 - half) }); // turned 90°, so its width runs along d
         break;
       case "shared-hero": {
         // A family-style dish sits in the open table past both plates, diagonally out from the
@@ -1452,9 +1481,10 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
 
   const multi = isMultiServe(spec) ? { sku: "SKU", clearance: bottleClearance(spec.sku) } : null;
   // Without people, everything the two diners share goes where both can reach it: the shared
-  // dish, the shared sides and bread, and a shared bottle (unless a fallback spot is being tried).
+  // dish, the shared sides, bread and sauces (Fernando, 2026-10-17), and a shared bottle (unless a
+  // fallback spot is being tried).
   const byReach = (it: ItemSpec) =>
-    !withPeople && (it.kind === "shared-hero" || it.kind === "shared-side" || it.kind === "bread" || (it.kind === "sku" && sharedBottle && !bottleSpot));
+    !withPeople && (["shared-hero", "shared-side", "bread", "condiment"].includes(it.kind) || (it.kind === "sku" && sharedBottle && !bottleSpot));
   // A shared bottle placed by reach takes the middle first; the shared dish then sits beside it.
   const firsts = byReach({ kind: "sku" } as ItemSpec) ? ["sku", "shared-hero"] : ["shared-hero", "sku"];
   const rank = (i: ItemSpec) => ["main", "partner-main", "napkin-set", "partner-napkin", ...firsts, "glass", "partner-sku", "partner-glass", "bread", "shared-side"].indexOf(i.kind);
@@ -1463,19 +1493,22 @@ function solveSeatedCorner(spec: SceneSpec, items: ItemSpec[], side: -1 | 1, bot
   for (const it of order) {
     // PERSON_1's things face the camera side of the table; PERSON_2's face across from the end.
     // Turned before settling, so a partner napkin's long side runs along the table end.
-    const p: Placed = { item: it, x: 0, d: 0, yaw: it.kind.startsWith("partner-") ? (side < 0 ? 90 : -90) : 180 };
+    // Without people the shared tray turns too, its long side across the corner's diagonal
+    // (Fernando, 2026-10-17).
+    const turned = it.kind.startsWith("partner-") || (!withPeople && it.kind === "shared-hero");
+    const p: Placed = { item: it, x: 0, d: 0, yaw: turned ? (side < 0 ? 90 : -90) : 180 };
     const spot = want.get(it.label) ?? drinkZone;
     const alt = fallback.get(it.label);
     if (byReach(it)) {
       const a = placed.find((q) => q.item.label === "MAIN"),
         b = placed.find((q) => q.item.label === "MAIN_2");
       const bottle = it.kind === "sku" ? undefined : placed.find((q) => q.item.label === multi?.sku);
-      if (a && b && settleShared(p, [a, b], { x: cx, d: D }, placed, W, D, multi, bottle)) {
+      if (a && b && settleShared(p, [a, b], { x: cx, d: D }, placed, W, D, multi, bottle, shapeGap)) {
         placed.push(p);
         continue;
       }
     }
-    if (!settle(p, spot, placed, W, D, multi) && !(alt && settle(p, alt, placed, W, D, multi))) return `no room for ${it.label} at the ${side < 0 ? "left" : "right"} corner of ${spec.scene.surface}`;
+    if (!settle(p, spot, placed, W, D, multi, shapeGap) && !(alt && settle(p, alt, placed, W, D, multi, shapeGap))) return `no room for ${it.label} at the ${side < 0 ? "left" : "right"} corner of ${spec.scene.surface}`;
     placed.push(p);
   }
   const P1 = placed.find((p) => p.item.label === "MAIN")!;
