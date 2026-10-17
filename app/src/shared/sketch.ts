@@ -57,7 +57,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines.",
     ...(opts.restyle ? [RESTYLE_LINE] : []),
     people,
-    `Camera: ${facts.lookSentence} ${facts.angleSentence} ${facts.scaleSentence}`,
+    `Camera: ${facts.lookSentence} ${facts.angleSentence}${facts.viewSentence ? ` ${facts.viewSentence}` : ""} ${facts.scaleSentence}`,
     facts.productScale,
     "Draw the food in detail, as it will look in the photograph from this camera: its real shapes, pieces and portions, how it is stacked or spread on its vessel, the garnish, the texture (crumb, char, crisp edges, sauce, steam). Draw each vessel's real shape and rim, the cutlery and the napkin folds, and the Coca-Cola product's real silhouette with only a hint of its script logo.",
     `${seated ? "People and objects" : "Objects"} (${facts.labels.length}, and only these):`,
