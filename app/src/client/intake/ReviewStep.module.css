@@ -629,3 +629,14 @@
   filter: grayscale(1);
 }
 
+
+/* Remove: marked to leave the scene on the next redraw. */
+.verdict[data-kind='remove'][aria-pressed='true'] {
+  background: var(--neo-ink);
+  color: var(--bay-text-on-accent);
+}
+
+.item[data-verdict='remove'] .itemTitle {
+  text-decoration: line-through;
+  color: var(--bay-text-3);
+}

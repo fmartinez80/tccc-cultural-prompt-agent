@@ -9,11 +9,12 @@
 // only shown while the detailed sketch can't be (failed, plan-gated or expired).
 
 import { SignInPrompt, signInRequiredFrom } from '../lib/signIn.tsx';
-import { ArrowRight, Check, CheckCheck, Download, Move, PencilLine, RotateCw, Sparkles } from 'lucide-react';
+import { ArrowRight, Check, CheckCheck, Download, Move, PencilLine, RotateCw, Sparkles, Trash2, Undo2 } from 'lucide-react';
 import { Dialog, Heading, Modal } from 'react-aria-components';
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 
 import { PLACEMENT_REASONS, changeSummary, emptyReview, layoutKey, sketchEdits, sketchKey, reviewAdjustments, reviewCounts, reviewDirections, reviewFacts, type ItemReview, type LayoutReview } from '../../shared/review.ts';
+import { editedBlueprint, placementOf, removable } from '../../shared/layoutEdit.ts';
 import { MODEL_FRAMING_WIDEN } from '../../shared/rules.ts';
 import { SKETCH_MODEL_LABEL, sketchChanges, sketchPrompt } from '../../shared/sketch.ts';
 import type { LayoutOption } from '../../shared/solver.ts';
@@ -130,6 +131,8 @@ export function ReviewStep({
   const [howOpen, setHowOpen] = useState(false);
   const [confirmRedraw, setConfirmRedraw] = useState(false);
   const [editOpen, setEditOpen] = useState(false);
+  /** Items marked Remove: they leave the layout on the next redraw, which makes it a new arrangement, as Edit sketch does. */
+  const [removing, setRemoving] = useState<ReadonlySet<string>>(() => new Set());
   const overlayRef = useRef<HTMLCanvasElement>(null);
   const rowRefs = useRef<Array<HTMLLIElement | null>>([]);
 
@@ -308,9 +311,23 @@ export function ReviewStep({
     setEditingItem(id, verdict === 'change' && cur?.verdict !== 'change');
   };
 
+  const toggleRemove = (id: string) => {
+    const on = !removing.has(id);
+    setRemoving((cur) => {
+      const next = new Set(cur);
+      if (on) next.add(id);
+      else next.delete(id);
+      return next;
+    });
+    if (on) {
+      if (review.items[id]) setItem(id, null);
+      setEditingItem(id, false);
+    }
+  };
+
   const markAllWorking = () => {
     const items: Record<string, ItemReview> = {};
-    for (const p of bp.primitives) if (p.role !== 'person') items[p.id] = review.items[p.id]?.verdict === 'change' ? review.items[p.id]! : { verdict: 'keep', reasons: [], note: '' };
+    for (const p of bp.primitives) if (p.role !== 'person' && !removing.has(p.id)) items[p.id] = review.items[p.id]?.verdict === 'change' ? review.items[p.id]! : { verdict: 'keep', reasons: [], note: '' };
     onReview({ ...review, items });
   };
 
@@ -383,6 +400,7 @@ export function ReviewStep({
   useEffect(() => {
     if (autoRef.current === signature) return;
     autoRef.current = signature;
+    setRemoving(new Set());
     const pending = readPending(signature);
     if (pending) void drawDetail(pending);
     else if (!detail) void drawDetail();
@@ -391,7 +409,13 @@ export function ReviewStep({
 
   // Seated people aren't marked Working or Change: their pose is locked, their looks are edited in place.
   const seated = bp.primitives.some((p) => p.role === 'person');
-  const unmarked = bp.primitives.filter((p) => p.role !== 'person').length - counts.keep - counts.change;
+  const unmarked = bp.primitives.filter((p) => p.role !== 'person' && !removing.has(p.id)).length - counts.keep - counts.change;
+  // Removal goes through the same edit as Edit sketch, so it isn't offered where that is off.
+  const canRemove = (p: Blueprint['primitives'][number]) => !seated && removable(p);
+  const removals = bp.primitives.filter((p) => removing.has(p.id));
+  const removalLines = removals.map((p) => `Remove ${p.component_name}`);
+  const editCount = pending.length + removals.length;
+  const editCountText = editCount === 1 ? '1 edit' : `${editCount} edits`;
 
   const download = async () => {
     const save = (href: string, name: string) => {
@@ -418,6 +442,15 @@ export function ReviewStep({
   const redraw = () => {
     setConfirmRedraw(false);
     setEditing(new Set());
+    if (removals.length) {
+      // The removed items leave the layout: a new arrangement, drawn in this sketch's style with
+      // the other edits carried over (saveEdit), exactly as if they'd been deleted in Edit sketch.
+      const place = placementOf(bp);
+      for (const p of removals) delete place[p.id];
+      setRemoving(new Set());
+      saveEdit(editedBlueprint(bp, place, sourceName));
+      return;
+    }
     void drawDetail();
   };
 
@@ -537,10 +570,10 @@ export function ReviewStep({
             size="sm"
             variant={!detail || expired ? 'primary' : 'default'}
             icon={detail ? <RotateCw size={14} aria-hidden /> : <Sparkles size={14} aria-hidden />}
-            onPress={() => (detail && !expired ? setConfirmRedraw(true) : void drawDetail())}
+            onPress={() => (detail && !expired ? setConfirmRedraw(true) : removals.length ? redraw() : void drawDetail())}
             disabled={drawing}
           >
-            {!detail || expired ? 'Draw the sketch' : detailStale && pending.length ? `Redraw with ${pendingText}` : 'Redraw'}
+            {!detail || expired ? 'Draw the sketch' : (detailStale && pending.length) || removals.length ? `Redraw with ${editCountText}` : 'Redraw'}
           </Button>
         </div>
           <div className={styles.detailBar} aria-live="polite">
@@ -570,6 +603,8 @@ export function ReviewStep({
                     ? `The sketch draws the food, the dishes and the drinks in pencil, as they will land in the photo (${SKETCH_MODEL_LABEL}, counted toward your monthly limit).`
                     : expired
                       ? 'The sketch has expired. Draw it again to see it; the outline drawing shows where each item sits meanwhile.'
+                      : removals.length
+                        ? `${editCountText} since this sketch was drawn. Removing an item takes a redraw, so the photo can't leave it out until then; each redraw counts toward your monthly limit.`
                       : detailStale
                         ? pending.length
                           ? `${pendingText} since this sketch was drawn. Make all your edits first, then redraw once: each redraw counts toward your monthly limit.`
@@ -596,7 +631,7 @@ export function ReviewStep({
         <div className={styles.itemsHead}>
           <h2 className={styles.sectionTitle}>Items</h2>
           <span className={styles.tally}>
-            {counts.keep} working · {counts.change} to change{unmarked ? ` · ${unmarked} unmarked` : ''}
+            {counts.keep} working · {counts.change} to change{removals.length ? ` · ${removals.length} to remove` : ''}{unmarked ? ` · ${unmarked} unmarked` : ''}
           </span>
           <Button size="sm" variant="ghost" icon={<CheckCheck size={14} aria-hidden />} onPress={markAllWorking} disabled={unmarked === 0}>
             Mark the rest working
@@ -614,7 +649,7 @@ export function ReviewStep({
                 }}
                 className={styles.item}
                 data-selected={selected === i || undefined}
-                data-verdict={r?.verdict}
+                data-verdict={removing.has(p.id) ? 'remove' : r?.verdict}
                 onMouseEnter={() => setHover(i)}
                 onMouseLeave={() => setHover(null)}
               >
@@ -649,6 +684,11 @@ export function ReviewStep({
                     >
                       <PencilLine size={14} aria-hidden /> Change
                     </button>
+                    {canRemove(p) && (
+                      <button type="button" className={styles.verdict} data-kind="remove" aria-pressed={removing.has(p.id)} onClick={() => toggleRemove(p.id)}>
+                        <Trash2 size={14} aria-hidden /> Remove
+                      </button>
+                    )}
                   </div>
                   )}
                 </div>
@@ -660,6 +700,17 @@ export function ReviewStep({
                     disabled={!onPerson}
                     onChange={(details) => onPerson?.(p.id, details)}
                   />
+                )}
+
+                {removing.has(p.id) && (
+                  <div className={styles.changeDone}>
+                    <Trash2 size={14} className={styles.changeDoneIcon} aria-hidden />
+                    <span className={styles.changeDoneText}>Removed from the scene</span>
+                    {detail && <span className={styles.sketchTag}>Next redraw</span>}
+                    <Button size="sm" variant="ghost" icon={<Undo2 size={14} aria-hidden />} onPress={() => toggleRemove(p.id)}>
+                      Keep it
+                    </Button>
+                  </div>
                 )}
 
                 {r?.verdict === 'change' && !editing.has(p.id) && (
@@ -790,12 +841,12 @@ export function ReviewStep({
       </div>
 
       <StepActions pinned={false}>
-        {detail && !expired && detailStale && !drawing && pending.length > 0 && (
+        {detail && !expired && !drawing && ((detailStale && pending.length > 0) || removals.length > 0) && (
           <Button icon={<RotateCw size={16} aria-hidden />} onPress={() => setConfirmRedraw(true)}>
-            Redraw with {pendingText}
+            Redraw with {editCountText}
           </Button>
         )}
-        <Button variant="primary" iconEnd={<ArrowRight size={16} aria-hidden />} onPress={onNext}>
+        <Button variant="primary" iconEnd={<ArrowRight size={16} aria-hidden />} onPress={onNext} disabled={removals.length > 0}>
           {showDetail && pending.length ? 'Approve with changes' : showDetail ? 'Approve the sketch' : hasStory ? 'Continue to the scene' : 'Create the scene'}
         </Button>
       </StepActions>
@@ -813,16 +864,16 @@ export function ReviewStep({
       <Modal isOpen={confirmRedraw} onOpenChange={setConfirmRedraw} isDismissable className={styles.modalOverlay}>
         <Dialog className={styles.dialog}>
           <Heading slot="title" className={styles.dialogTitle}>
-            {pending.length ? `Redraw with ${pending.length === 1 ? "1 Edit" : `${pending.length} Edits`}?` : 'Draw the Same Sketch Again?'}
+            {editCount ? `Redraw with ${editCount === 1 ? '1 Edit' : `${editCount} Edits`}?` : 'Draw the Same Sketch Again?'}
           </Heading>
           <p className={styles.dialogText}>
             Each redraw counts toward your monthly limit ({SKETCH_MODEL_LABEL}), so make all your edits first and redraw once.
           </p>
-          {pending.length > 0 ? (
+          {editCount > 0 ? (
             <>
               <span className={styles.previewLabel}>This redraw includes</span>
               <ul className={styles.dialogList}>
-                {pending.map((line) => (
+                {[...removalLines, ...pending].map((line) => (
                   <li key={line}>{line}</li>
                 ))}
               </ul>
