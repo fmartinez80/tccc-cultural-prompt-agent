@@ -1,6 +1,7 @@
-// A small modal that dims the page while a whole step waits on its content:
-// a frying pan tosses a red arc of food and catches it, on a loop, above the
-// line saying what's being prepared and a percentage that counts up. When the
+// A modal that dims the page while a whole step waits on its content: a
+// "NOW LOADING..." kicker whose dots build one at a time, the step's name in the
+// shadow colour, a frying pan tossing a red arc of food and catching it on a
+// loop, the line saying what's being prepared and a percentage that counts up. When the
 // work finishes the count tops up to 100% and the modal closes a moment later;
 // when it fails the modal closes at once (the error shows in the page).
 
@@ -61,7 +62,7 @@ export function LoadingOverlay({
 }: {
   /** The work is running. Keep the overlay mounted after it stops so it can finish at 100%. */
   open: boolean;
-  /** The step being prepared ("Sides and Accompaniments"), shown above the message. */
+  /** The step being prepared ("Sides & Accompaniments"), shown above the message. */
   title?: string;
   label: string;
   /** 0-99 while running; null before the first estimate. */
@@ -90,11 +91,19 @@ export function LoadingOverlay({
   return createPortal(
     <div className={styles.backdrop}>
       <div className={styles.card} role="status" aria-live="polite">
-        <PanToss />
-        <div className={styles.text}>
+        <div className={styles.head}>
+          <p className={styles.kicker}>
+            Now loading
+            <span className={styles.dots} aria-hidden>
+              <span>.</span>
+              <span>.</span>
+              <span>.</span>
+            </span>
+          </p>
           {title && <p className={styles.title}>{title}</p>}
-          <p className={title ? styles.message : styles.label}>{label}</p>
         </div>
+        <PanToss />
+        <p className={styles.message}>{label}</p>
         <p className={styles.percent} aria-label={`${shown} percent`}>
           {shown}%
         </p>
