@@ -45,7 +45,17 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 (Added 2026-10-01 per `country-file-schema.md` §5.9, wave 1. Two profiles of this file's most distinctive staged venues, written as deltas from the national profiles in `us.md` VENUE PROFILES; anything not stated here follows the national profile. The front porch, small-town diner (format shared with `us-south.md`'s meat-and-three profile), gas-station pepperoni-roll counter and coal-camp backdrop remain register rows for a later wave. Rules as nationally: nothing legible, no alcohol cues, no brand marks, never a full flag, no identifiable children, no more than about 2.5 background faces, none sharp.)
 
-#### Venue: Mountain home kitchen (eat-in kitchen, small town or rural)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Appalachia profile |
+|---|---|
+| Dining room | Mountain home kitchen |
+
+All other options: see the us.md national profiles. Church fellowship hall or community hall serves no option (indoor community-hall meal; kept as context).
+
+#### Venue: Mountain home kitchen (eat-in kitchen, small town or rural) · app: Dining room
 - Use for: home indoor; casual lunch and supper for 1 to 3, soup beans and cornbread, Sunday dinner at the homeplace; the default Appalachian home (see register table and ENVIRONMENT: casual lunch/dinner at home). A delta from `us.md`'s suburban-kitchen profile: smaller, older, closed kitchen with the table in the room, cast iron as the visual centre.
 - Soft background (the core): **back wall:** a modest run of cabinets, painted (white, cream) or plain stained wood, a laminate counter, a white or almond enamel range with a **cast-iron skillet** sitting on a burner or hanging on a nail (cast iron was the daily pan in mountain kitchens [MEDIUM — Blind Pig and the Acorn, a long-running Appalachian folkways blog; consistent with this file's VISUAL & PLATING norms]); a window over the sink onto a yard, a garden, or a wooded hillside rising close behind the house. **Middle distance:** a few shelves or a pie safe with canning jars of home-canned beans, tomatoes or apple butter catching the light as amber, red and green glass (canning as a core preservation practice [MEDIUM-HIGH — TRUSTED CONTENT]); a calendar or framed family photos (never legible), a wall clock; a doorway to the living room or a back porch. **Glows and bokeh:** daylight from one or two windows, softened by trees and the close hillside (often greener and dimmer than open-country light); in early evening, an overhead fixture or a lamp; jar glass as small coloured highlights. **Palette:** muted and earthy (as in VISUAL & PLATING NORMS): cream or pale painted walls, honey or dark wood, black cast iron, white or almond appliances, vinyl or linoleum floor in a brick or tile pattern, green from the window. **Signature shapes:** the black round skillet with its handle; rows of glass jars with lids on a shelf; a square wooden table with spindle-back or ladder-back chairs; a window full of green hillside and tree trunks; an enamel range's boxy shape. **Density and wear:** clean, ordinary and used: a dish towel, a coffee maker, a bowl of tomatoes from the garden on the counter, a bean pot on the back burner; not dilapidated (see the file's caricature note).
 - Shell: a one- or two-storey frame house, ranch or older farmhouse, or a manufactured home; 8 ft ceilings; vinyl or wood floor; double-hung windows.

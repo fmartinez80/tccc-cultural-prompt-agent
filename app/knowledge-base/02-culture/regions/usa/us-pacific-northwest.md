@@ -59,7 +59,18 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 Regional deltas only (`country-file-schema.md` §5.9). The national profiles live in `us.md` VENUE PROFILES: suburban home, apartment, backyard/deck, diner, casual sit-down restaurant and watch-party living room. They apply in the Pacific Northwest with one constant change: default to soft overcast or rainy window light, wet surfaces outside and evergreen trees in any view (see ENVIRONMENT above). The two profiles below are the region's most distinctive staged venues.
 
-#### Venue: Waterfront crab shack and fish market (crab shack, fish market)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Pacific Northwest profile |
+|---|---|
+| Counter service | Waterfront crab shack and fish market |
+| Beach or waterfront | Waterfront crab shack and fish market |
+
+All other options: see the us.md national profiles. Grange or lodge hall dinner serves no option (indoor community-hall meal; kept as context).
+
+#### Venue: Waterfront crab shack and fish market (crab shack, fish market) · app: Counter service, Beach or waterfront
 - Use for: restaurant (counter service), indoor or covered outdoor; midday and early evening; casual seafood meal, weekend outing, visitors' meal; 1, 2 or a small group. The signature PNW away-from-home venue (see QUICK-REFERENCE above); coast towns (Newport, Bandon, Astoria, Westport) and Puget Sound harbours.
 - Soft background (the core): a working-market counter with tubs and cases of crushed ice holding whole Dungeness crabs (orange-red when cooked), halibut and salmon fillets, oysters; a big steaming crab cooker or kettle in the back [MEDIUM — Oregon coast crab-shack descriptions: "tubs of ice piled with halibut, albacore and crab", picnic tables, harbour views]. Walls of painted plank or plywood in white, faded blue or grey, with a few buoys, crab pots or net floats hung up (keep it sparse: this is a working shed, not a theme bar) [LOW for décor — not verified]. Through the window or open side: the harbour: masts and white hulls of fishing boats, wooden pilings, stacked crab pots on the dock, grey water, gulls on posts, a misty band of evergreen shore [MEDIUM]. Light: soft, flat, cool-grey overcast daylight from big windows; inside, plain fluorescent tubes over the ice cases; on a clear evening a pale silver light off the water [EDITORIAL]. Palette: grey sky and water, weathered white and blue wood, stainless steel, ice white, crab orange, evergreen. Signature shapes: ice cases with crabs; boat masts through the glass; stacked crab pots; the steam of the cooker; picnic tables. Density and wear: functional, salt-worn, wet floors. People: a fishmonger in rubber apron and boots blurred behind the counter; within the limit.
 - Shell: a wooden shed or pier building on pilings; concrete or wet-plank floor; open rafters.

@@ -46,7 +46,19 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 Regional deltas only (`country-file-schema.md` §5.9). The national profiles live in `us.md` VENUE PROFILES: suburban home, apartment, backyard/deck, diner, casual sit-down restaurant and watch-party living room. They apply in Arizona; the two profiles below are the Arizona venues the file stages most (the backyard carne asada carries both CELEBRATIONS and GAME NIGHT) and that the national set cannot cover.
 
-#### Venue: Sonoran hot dog stand (dogos, hot dog cart)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Arizona profile |
+|---|---|
+| Dining room | Desert backyard for a carne asada (outdoor) |
+| Counter service | Sonoran hot dog stand |
+| Food truck | Sonoran hot dog stand (the Tucson cart or griddle trailer is the local mobile vendor) |
+
+All other options: see the us.md national profiles.
+
+#### Venue: Sonoran hot dog stand (dogos, hot dog cart) · app: Food truck, Counter service
 - Use for: other (street / on the go), outdoor; midday, evening and late night; meal on the go, quick dinner; 1, 2 or a small group. Tucson's signature street venue; also present in Phoenix and Nogales [HIGH per existing ENVIRONMENT sourcing]. Arizona's replacement for the national drive-thru "on the go" default.
 - Soft background (the core): a gravel lot with a small stainless-steel pushcart or griddle trailer at the front of a shelter; a pitched corrugated tin roof or a pop-up canopy overhead; under it, rows of picnic tables; one table lined with coolers and bowls of toppings (the salsa bar), stacked with roasted green onions and chiles [MEDIUM — Tucson Foodie and travel-press descriptions: "a gravel lot under a pitched corrugated tin roof, picnic tables... a tiny cart"]. The griddle sends up a soft plume of steam and smoke; bacon-wrapped dogs and onions on the flat-top show as a warm sizzling band. Light: by day, harsh desert sun outside the shade and cool blue shadow underneath; at night, the classic look: a few bare bulbs or a string of lights under the roof, the cart's work lights, car headlights and a sodium-orange street lamp as bokeh in the dark lot [EDITORIAL; night trade LOW — not verified this pass]. Middle distance: parked pickup trucks and cars, a cinderblock wall or chain-link fence, a palm or paloverde silhouette, the street beyond. Palette: dusty tan gravel, galvanised grey, stainless steel, the red and green of salsas, warm bulb orange at night. Signature shapes: the small steel cart with its steam; the corrugated roof edge; picnic tables; the topping cooler line; parked trucks. Density and wear: simple, improvised, busy, dusty. People: a short queue of blurred backs at the cart, a doguero's arm and apron; within the limit.
 - Shell: no building, or a tiny food stand; gravel or cracked asphalt underfoot; open sides.
@@ -57,7 +69,7 @@ Regional deltas only (`country-file-schema.md` §5.9). The national profiles liv
 - Prompt-ready line: "A Tucson Sonoran hot dog stand at night: a picnic table in a gravel lot under a corrugated tin roof, a small steel cart steaming on the griddle behind, bare bulbs and car headlights as warm blurred lights in the dark lot."
 - Confidence and sources: MEDIUM-HIGH (one search this pass, Tucson Foodie, Houston Chronicle travel piece, travel blogs, snippets only; existing HIGH sourcing for the stand and dish); night-light details EDITORIAL.
 
-#### Venue: Desert backyard for a carne asada (backyard, patio, ramada)
+#### Venue: Desert backyard for a carne asada (backyard, patio, ramada) · app: Dining room, outdoor
 - Use for: home, outdoor; weekend carne asada, birthdays, fight night (see CELEBRATIONS and GAME NIGHT above); golden-hour and evening; 1, 2 or a small group. A delta on `us.md`'s backyard/deck: same suburban house, desert yard.
 - Soft background (the core): a tan or grey concrete-block perimeter wall about head-high (painted or stuccoed to match the house) closing the yard, the single most Arizona cue; behind it the roofs and a palm or two of the next houses [MEDIUM — Tucson landscaping contractors: block walls, gravel, desert plants; EDITORIAL for the visual weight]. The ground is decomposed granite or river-rock gravel with agave, prickly pear, a paloverde or mesquite tree, and in Tucson-area yards a saguaro if the lot is on the desert edge, not as a given [MEDIUM]. A ramada or patio cover (wood or steel posts, slatted or solid roof, a ceiling fan) shades the table [MEDIUM — ramada contractors]. Middle distance: a grill (kettle, a barrel grill or a home-built brick grill) with a soft plume of mesquite smoke; a folding table with a cooler shape and foil pans; string lights or a bare-bulb strand between posts; a stuccoed house wall with a sliding glass door [EDITORIAL]. Light: low, hard, warm desert sun in the late afternoon casting long shadows and orange light on the block wall; after sunset a pink-violet sky over the wall and warm string-light bokeh. Avoid midday summer sun (people do not gather outside then) [EDITORIAL; per existing celebration entry]. Palette: dusty tan, sage green, terracotta, grey block, sunset orange. Signature shapes: the block wall line; the ramada posts; gravel with agave; the grill's smoke; string lights. Density and wear: lived-in, practical, unlandscaped in many homes. People: blurred relatives at the grill and a second table; within the limit.
 - Shell: single-storey stucco ranch house with a tile or flat roof; concrete slab patio.

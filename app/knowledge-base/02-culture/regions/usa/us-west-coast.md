@@ -52,7 +52,18 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 Regional deltas only (`country-file-schema.md` §5.9). The national profiles live in `us.md` VENUE PROFILES: suburban home, apartment, backyard/deck, diner, casual sit-down restaurant and watch-party living room. They apply on the West Coast; the apartment profile is especially common in San Francisco and Los Angeles. The two profiles below are the most distinctive West Coast venues in this file's registers.
 
-#### Venue: California taquería (taquería; San Diego taco shop and Mission-style variants)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | West Coast profile |
+|---|---|
+| Dining room | California indoor-outdoor patio (outdoor) |
+| Counter service | California taquería |
+
+All other options: see the us.md national profiles.
+
+#### Venue: California taquería (taquería; San Diego taco shop and Mission-style variants) · app: Counter service
 - Use for: restaurant, indoor, counter service, or take-away; midday, dinner, late night; meal on the go and casual eating out; 1, 2 or a small group. The West Coast's everyday casual venue; replaces the national casual sit-down restaurant for most California "eating out" briefs [EDITORIAL; register per existing entries].
 - Soft background (the core): a long order counter with a glass sneeze-guard over a stainless steam table of meats and beans, and behind it the flat-top grill and a cook in a cap, steam rising [HIGH per existing register]. Walls painted in saturated colours (coral, orange, yellow, green) and often a big hand-painted mural of landscapes, village scenes or folk imagery, its figures always blurred to colour shapes [MEDIUM — Mission taquería descriptions: murals, coral-painted walls]. A large illuminated or painted menu board above the counter (never legible, a bright band of light and colour). The salsa bar: a covered stainless stand in a corner with bins of red and green salsas, pickled carrots and jalapeños, radishes, and a stack of small plastic cups [MEDIUM — same source]. Light: flat, bright overhead fluorescent or LED light, cool-white, mixed with daylight from a big front plate-glass window; at night the street is dark beyond the window and the room glows [EDITORIAL; fluorescent LOW — not verified]. Middle distance: other tables, a drinks cooler as a soft glowing rectangle (no labels), the street through the window with parked cars. Palette: coral, yellow, terracotta floor tile, stainless steel, red-and-green salsas. Signature shapes: steam table under glass; the menu board band; the salsa bar bins; the mural; foil-wrapped burritos. Density and wear: busy, well-worn, unpretentious. People: a queue of blurred backs at the counter; within the limit.
 - Shell: a deep, narrow storefront (Mission) or a small corner or strip-mall unit (San Diego); terracotta or vinyl tile floor; dropped ceiling [MEDIUM for terracotta tile].
@@ -63,7 +74,7 @@ Regional deltas only (`country-file-schema.md` §5.9). The national profiles liv
 - Prompt-ready line: "A busy California taquería: a laminate table with a half-unwrapped foil burrito and little cups of salsa, a coral wall with a blurred painted mural, a glowing menu board and a steaming stainless steam table behind the counter."
 - Confidence and sources: MEDIUM (one search this pass, Mission taquería descriptions on review and guide sites, snippets only; existing register entries); lighting LOW; staging EDITORIAL.
 
-#### Venue: California indoor-outdoor patio (patio, backyard)
+#### Venue: California indoor-outdoor patio (patio, backyard) · app: Dining room, outdoor
 - Use for: home, outdoor; everyday dinner, weekend lunch, birthdays, taquiza and Filipino-American parties; midday, golden-hour, evening; 1, 2 or a small group. A delta on `us.md`'s backyard/deck: the California version is used year-round, and the patio is an extension of the kitchen [HIGH per existing ENVIRONMENT sourcing].
 - Soft background (the core): the back of a house with a wide sliding glass door (or French doors in a Craftsman) open to the kitchen, its glass reflecting the yard; walls of smooth or sand-finish stucco in off-white, beige or pale terracotta, or painted wood siding on a bungalow [HIGH for indoor-outdoor design; MEDIUM for materials]. A wooden or stucco fence or a hedge closes the small yard; a lemon or orange tree in the ground or in a big pot, bougainvillea on the fence, succulents and a palm or two above the roofline in Southern California [MEDIUM — patio design sources; EDITORIAL for the selection]. Overhead, a wooden pergola or a market umbrella; warm micro-bulb string lights along the eaves or pergola, which reflect in the glass door at dusk [MEDIUM]. Middle distance: a gas or charcoal grill, potted herbs, a second seating group, the kitchen's warm interior through the glass. Light: clear, bright, slightly cool sunshine at midday; long golden light and a pale sky at golden hour; marine-layer grey diffused light on the coast in early summer (May–June "June gloom") [LOW — not verified this pass, well known]. Palette: off-white stucco, sage green, citrus yellow, bougainvillea magenta, weathered teak. Signature shapes: the sliding door frame; the citrus tree; the pergola; string lights; the palm silhouette. Density and wear: relaxed, lived-in, not a showroom. People: a blurred host by the grill or in the kitchen; within the limit.
 - Shell: a single-storey ranch house, stucco tract home or Craftsman bungalow; concrete, pavers or a wood deck underfoot.
