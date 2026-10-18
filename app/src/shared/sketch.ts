@@ -34,11 +34,7 @@ export function sketchChanges(adjustments: string[], directions: string[]): stri
   return [...adjustments, ...directions.filter((d) => !d.startsWith("Working as shown"))];
 }
 
-/** After an edit in the sketch editor, image 2 is the sketch it was edited on: the redraw keeps its look, never its positions. */
-export const RESTYLE_LINE =
-  "Image 2 is the earlier sketch of this scene, drawn before the art director moved or removed items. Draw in exactly its style, and draw each dish, vessel, napkin and drink the way image 2 shows it. Take every position, every size and the camera from image 1 only, and leave out anything image 2 shows that is not in the list of objects below.";
-
-export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] = [], opts: { restyle?: boolean } = {}): string {
+export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] = []): string {
   const facts = storyFacts(spec, bp);
   const seated = hasSeatedPeople(bp);
   const objects = facts.labels.map((l) => {
@@ -55,7 +51,6 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
   return [
     "Turn image 1 into a detailed black-and-white pencil sketch of the finished scene: the art director's pre-visualization drawing of a food photograph, showing exactly where everything lands in the final frame.",
     "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines.",
-    ...(opts.restyle ? [RESTYLE_LINE] : []),
     people,
     `Camera: ${facts.lookSentence} ${facts.angleSentence}${facts.viewSentence ? ` ${facts.viewSentence}` : ""} ${facts.scaleSentence}`,
     facts.productScale,

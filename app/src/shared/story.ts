@@ -193,14 +193,39 @@ function whereInFrame(bp: Blueprint, p: Primitive): string {
   const v = b ? ((b.y0 + b.y1) / 2 < 0.3 ? "lower" : (b.y0 + b.y1) / 2 > 0.55 ? "upper" : "middle") : "middle";
   const spot = h === "centre" ? `${v} centre of the frame` : `${v} ${h} of the frame`;
   const people = hasSeatedPeople(bp);
+  // Which side each place is on comes from where its plate stands now, so an edit that moves a plate is described as moved.
+  const at = (id: string) => {
+    const plate = bp.primitives.find((q) => q.id === id);
+    return people || !plate ? "" : ` ${edgePhrase(bp, plate)}`;
+  };
   const whose = p.role.startsWith("partner-")
-    ? `, at ${people ? "PERSON_2's" : "the second diner's"} place${people ? "" : " at the table's end"}`
+    ? `, at ${people ? "PERSON_2's" : "the second diner's"} place${at("MAIN_2")}`
     : p.role === "sku" && !bp.primitives.some((q) => q.role === "partner-sku")
       ? ", between the two places, shared by both"
       : ["main", "sku", "glass", "napkin-set"].includes(p.role)
-      ? `, at ${people ? "PERSON_1's" : "the first diner's"} place${people ? "" : " on the long side"}`
+      ? `, at ${people ? "PERSON_1's" : "the first diner's"} place${at("MAIN")}`
       : ", between the two places";
   return `${spot}${whose}`;
+}
+
+type TableEdge = "far" | "near" | "left" | "right";
+
+/** The table edge a plate stands nearest to: the side its diner sits on. */
+function nearestEdge(bp: Blueprint, p: Primitive): TableEdge {
+  const W = bp.table.width;
+  const D = bp.table.depth;
+  const gaps: Array<[TableEdge, number]> = [
+    ["far", D - p.world.d],
+    ["near", p.world.d],
+    ["left", W / 2 + p.world.x],
+    ["right", W / 2 - p.world.x],
+  ];
+  return gaps.reduce((a, b) => (b[1] < a[1] ? b : a))[0];
+}
+
+function edgePhrase(bp: Blueprint, p: Primitive): string {
+  const e = nearestEdge(bp, p);
+  return e === "far" ? "on the far long side" : e === "near" ? "on the near long side" : `at the table's ${e} end`;
 }
 
 /** Two diners at a right angle around one corner of the table, people shown or not. */
@@ -217,7 +242,9 @@ export function cornerViewSentence(spec: SceneSpec, bp: Blueprint): string {
   const main2 = bp.primitives.find((q) => q.role === "partner-main");
   if (!main2) return "";
   const surf = SURFACES[spec.scene.surface];
-  const side = main2.world.x < 0 ? "left" : "right";
+  // The corner is the one the camera looks across (left when it stands off the right side), not
+  // wherever MAIN_2 stands: an edit can move MAIN_2, never the camera.
+  const side = bp.camera.position[0] > 0 ? "left" : "right";
   const other = side === "left" ? "right" : "left";
   const c = bp.camera;
   const turn = Math.round((Math.abs(Math.atan2(c.target[0] - c.position[0], -(c.target[2] - c.position[2]))) * 180) / Math.PI / 5) * 5;
@@ -228,7 +255,25 @@ export function cornerViewSentence(spec: SceneSpec, bp: Blueprint): string {
   const people = hasSeatedPeople(bp);
   const first = people ? "PERSON_1" : "the first diner";
   const second = people ? "PERSON_2" : "the second diner";
-  return `The camera is not square to the table: it stands off the table's near ${other} side and is turned about ${turn} degrees, looking diagonally across the tabletop toward the table's far ${side} corner, which sits ${h}, ${v}, exactly as in image 1. From that corner the table's far long edge runs away toward the ${other} of the frame and its ${side} end edge runs down toward the ${side}, so no table edge runs straight across the frame. ${first[0]!.toUpperCase()}${first.slice(1)}'s place (MAIN) is on the far long side and ${second}'s place (MAIN_2) is at the table's ${side} end, at a right angle to each other around that corner, never side by side or opposite each other. The table's near edges and near corner are mostly out of frame.${people ? "" : " An empty chair is pulled up at each diner's place, just behind the table edge nearest their plate, as in image 1."}`;
+  const main = bp.primitives.find((q) => q.id === "MAIN");
+  // Each place is said where its plate stands now (an edit can move a plate to another side).
+  const e1 = main ? nearestEdge(bp, main) : "far";
+  const e2 = nearestEdge(bp, main2);
+  const around = [e1, e2].includes("far") && [e1, e2].includes(side);
+  const places = people
+    ? `${first}'s place (MAIN) is on the far long side and ${second}'s place (MAIN_2) is at the table's ${side} end, at a right angle to each other around that corner, never side by side or opposite each other.`
+    : `${first[0]!.toUpperCase()}${first.slice(1)}'s plate (MAIN) is ${main ? edgePhrase(bp, main) : "on the far long side"} and ${second}'s plate (MAIN_2) is ${edgePhrase(bp, main2)}${around ? ", at a right angle to each other around that corner, never side by side or opposite each other." : ", each exactly where image 1 puts it."}`;
+  return `The camera is not square to the table: it stands off the table's near ${other} side and is turned about ${turn} degrees, looking diagonally across the tabletop toward the table's far ${side} corner, which sits ${h}, ${v}, exactly as in image 1. From that corner the table's far long edge runs away toward the ${other} of the frame and its ${side} end edge runs down toward the ${side}, so no table edge runs straight across the frame. ${places} The table's near edges and near corner are mostly out of frame.${people ? "" : " An empty chair is pulled up at each diner's place, just behind the table edge nearest their plate, as in image 1."}`;
+}
+
+/** An edit moved MAIN off its spot front and centre: say where it now stands, on the table and in the frame. */
+function movedMainWhere(bp: Blueprint, p: Primitive): string {
+  const depth = p.world.d / bp.table.depth;
+  const onTable = depth > 0.6 ? "toward the back of the table" : depth > 0.35 ? "in the middle of the table" : "near the front edge of the table";
+  const b = p.screen_bbox;
+  const cx = b ? (b.x0 + b.x1) / 2 : 0.5;
+  const inFrame = cx < 0.4 ? "on the left of the frame" : cx > 0.6 ? "on the right of the frame" : "in the centre of the frame";
+  return `${onTable}, ${inFrame}, exactly where its shape sits in image 1`;
 }
 
 function whereOnTable(bp: Blueprint, id: string): string {
@@ -237,7 +282,8 @@ function whereOnTable(bp: Blueprint, id: string): string {
   // camera looks across that corner, so say where things land in the frame.
   if (isCornerLayout(bp)) return whereInFrame(bp, p);
   const main = bp.primitives.find((q) => q.id === "MAIN")!;
-  if (id === "MAIN") return "foreground, center of the frame";
+  // MAIN is placed front and centre; after an edit moves it, say where it now stands.
+  if (id === "MAIN") return bp.layout_meta.moved?.includes("MAIN") ? movedMainWhere(bp, p) : "foreground, center of the frame";
   // Second place setting (party "2"): phrase from the partner's own yaw rather than its offset
   // from MAIN, since across and corner settings sit in very different directions from it.
   if (p.role.startsWith("partner-")) {
@@ -272,7 +318,8 @@ export function countsSentence(bp: Blueprint): string {
   const products = n(["sku", "partner-sku"]);
   const pkg = bp.primitives.find((p) => p.role === "sku")?.proxy.includes("can") ? "can" : "bottle";
   const parts = [
-    `exactly ${w(portions)} ${portions === 1 ? "serving" : "servings"} of the main dish (${portions === 2 ? "one at each diner's place, MAIN and MAIN_2" : "MAIN"})`,
+    // A test split each burger and its onion rings onto two plates (Fernando, 2026-10-17): one serving is one vessel.
+    `exactly ${w(portions)} ${portions === 1 ? "serving" : "servings"} of the main dish (${portions === 2 ? "one at each diner's place, MAIN and MAIN_2" : "MAIN"}), ${portions === 1 ? "all of it together on its one vessel" : "each all together on its one vessel"}, never split across a second plate`,
     ...serving.map((p) => `one ${p.proxy in VESSEL_SHORT ? VESSEL_SHORT[p.proxy as Vessel] : "serving dish"} of it to share (${p.id}), which gets no glass and no place setting`),
     `${w(glasses)} Coca-Cola ${glasses === 1 ? "glass" : "glasses"}${glasses === 2 ? ", one beside each diner's plate" : glasses === 1 ? ", beside the diner's plate" : ""}`,
     `${w(products)} Coca-Cola ${products === 1 ? pkg : `${pkg}s`}`,

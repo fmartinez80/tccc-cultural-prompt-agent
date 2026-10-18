@@ -238,6 +238,7 @@ export function editedBlueprint(bp: Blueprint, place: Placement, sourceName: str
   const proj = new Projector(bp.camera);
   const D = bp.table.depth;
   const moved: string[] = [];
+  const movedIds = new Set(bp.layout_meta.moved ?? []);
   const removed: string[] = [];
   const primitives = bp.primitives.flatMap((p): Primitive[] => {
     const at = place[p.id];
@@ -247,6 +248,7 @@ export function editedBlueprint(bp: Blueprint, place: Placement, sourceName: str
     }
     if (Math.abs(at.x - p.world.x) < 1e-6 && Math.abs(at.d - p.world.d) < 1e-6) return [p];
     moved.push(p.component_name);
+    movedIds.add(p.id);
     const def = primitiveDef(p);
     const c = proj.project(at.x, p.dimensions.height / 2, at.d);
     const b = screenBox(proj, def, at.x, at.d, p.world.yawDeg, 0, extraHeight(p));
@@ -268,6 +270,7 @@ export function editedBlueprint(bp: Blueprint, place: Placement, sourceName: str
       archetype: `Your edit of ${sourceName}`,
       rationale: `Your edit of ${sourceName}: ${what || "no changes"}. Same table, camera and framing.`,
       rule_results: [],
+      moved: [...movedIds].filter((id) => primitives.some((p) => p.id === id)),
     },
   };
 }
