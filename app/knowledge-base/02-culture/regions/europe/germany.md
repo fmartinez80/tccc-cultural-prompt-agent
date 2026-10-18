@@ -161,7 +161,26 @@ mulled-wine mugs), nothing legible, no brand marks, never a full flag, no
 identifiable children, no more than about 2.5 background faces and none
 sharp; the brief dictates the SKU.
 
-#### Venue: Rented-apartment kitchen-dining corner (*Wohnküche* / *Essecke*) (home, indoor)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Germany profile |
+|---|---|
+| Dining room | Rented-apartment kitchen-dining corner (outdoor: Apartment balcony, with the allotment variant) |
+| Gen Z apartment | Shared flat (WG) or first rental, young renters |
+| Kitchen island | New-build or house kitchen with island (owner-built houses only; rare in rentals, where the peninsula variant is the honest fit) |
+| Sit-down | Traditional inn (Wirtshaus, Gasthaus) |
+| Counter service | Imbiss stand; Döner shop |
+| Café | Neighbourhood café (Kiezcafé), with the bakery-café variant |
+| Modern bistro | Modern neighbourhood restaurant, new German cooking |
+| Street market | Weekly market (Wochenmarkt) |
+| Food truck | Imbiss stand (its trailer form, the *Imbisswagen*, is Germany's real food truck); hot-food trailers also in Weekly market |
+| Park | City park lawn (Volkspark, Liegewiese) |
+| Beach or waterfront | Baltic beach and promenade (river and lake fronts as variants) |
+| Stadium or event | Public Viewing fan mile (no stadium-forecourt profile yet; the Bundesliga stadium sausage stand is a candidate) |
+
+#### Venue: Rented-apartment kitchen-dining corner (*Wohnküche* / *Essecke*) (home, indoor) · app: Dining room
 - Use for: home indoor; casual lunch (1, 2, 3), Abendbrot or warm dinner,
   Kaffee und Kuchen, Christmas Eve, Silvester raclette, Spieleabend; the
   national default home interior. Apartments in multi-family buildings
@@ -233,7 +252,7 @@ sharp; the brief dictates the SKU.
   practitioner forums) plus GENERAL NORMS (Destatis); LOW for the Eckbank
   prevalence and the washing-machine location (model knowledge).
 
-#### Venue: Apartment balcony (*Balkonien*), with the allotment variant (home, outdoor)
+#### Venue: Apartment balcony (*Balkonien*), with the allotment variant (home, outdoor) · app: Dining room, outdoor
 - Use for: home outdoor; summer lunch or evening meal, a small Grillfest
   (electric grill on a balcony where the lease allows; charcoal more often
   in a garden or allotment), tournament game outdoors; 1, 2 or small
@@ -282,7 +301,7 @@ sharp; the brief dictates the SKU.
   [Deutscher Mieterbund — balconies](https://mieterbund.de/aktuelles/meldungen/balkone-und-terrassen/);
   [OBI — balcony](https://www.obi.de/magazin/garten/balkon), retail tier).
 
-#### Venue: Traditional inn (*Wirtshaus*, *Gasthaus*, *Gasthof*)
+#### Venue: Traditional inn (*Wirtshaus*, *Gasthaus*, *Gasthof*) · app: Sit-down
 - Use for: restaurant, indoor; weekend and Sunday lunch, a family
   celebration in the side room (confirmation, communion, round birthday),
   group dinner; 1 to small group. With the beer garden, the default German
@@ -352,7 +371,7 @@ sharp; the brief dictates the SKU.
   [Servus Heimat — blue-check tablecloth](https://www.servusheimat.com/biergarten-tischdecke-blaukariert-klein.html),
   retail tier); LOW for the northern and eastern variants.
 
-#### Venue: Imbiss stand (*Imbissbude*, *Pommesbude*) (street, on the go)
+#### Venue: Imbiss stand (*Imbissbude*, *Pommesbude*) (street, on the go) · app: Counter service, Food truck
 - Use for: meal on the go and standing meal; Currywurst, Bratwurst im
   Brötchen, Pommes; lunch, late night; 1 or 2. The default German street
   venue [MEDIUM-HIGH, scenario above].
@@ -407,7 +426,7 @@ sharp; the brief dictates the SKU.
   [Hähnchen Finke — top Currywurst stands](https://hahnfinke.de/top-currywurstbuden-ruhrgebiet-2025-haehnchen-finke-mehr/),
   a business's own page) plus the catalog entries.
 
-#### Venue: Döner shop (*Dönerladen*, *Kebabladen*)
+#### Venue: Döner shop (*Dönerladen*, *Kebabladen*) · app: Counter service
 - Use for: meal on the go (a Döner in flatbread half-wrapped in paper) or
   a quick sit-in; lunch, late night; 1 to small group; the strongest
   young and urban street register [MEDIUM-HIGH, scenario above; catalog:
@@ -456,7 +475,7 @@ sharp; the brief dictates the SKU.
   [CPGASTRO — Döner salad counters](https://cpgastro.de/collections/salattische-saladetten),
   commercial tier). Mirror walls, nazar and landscape photos are LOW.
 
-#### Venue: Public Viewing fan mile (other)
+#### Venue: Public Viewing fan mile (other) · app: Stadium or event
 - Use for: other (fan zone); tournament summers (Euro, World Cup); 1 to 4
   at a high table as a snapshot of tens of thousands (see GAME NIGHT:
   Public Viewing fan mile). The signature German watch-party venue.
@@ -494,6 +513,336 @@ sharp; the brief dictates the SKU.
   screen glowing as a soft green rectangle far away."
 - Confidence and sources: HIGH for scale, EDITORIAL for the background
   (GAME NIGHT sources); no new search this pass.
+
+#### Venue: Shared flat (*WG*) or first rental, young renters (*WG-Küche*, *WG-Zimmer*) (home, indoor) · app: Gen Z apartment
+- Use for: home indoor; students and young workers in a shared flat
+  (*Wohngemeinschaft*) or a first one-room flat; a small table, friends
+  round for dinner or a Spieleabend; 1 to 3. Wave 2 (2026-10-18). Young
+  Germans leave home earlier than the EU average, so a WG or solo rental
+  is at least as plausible as a parental home [MEDIUM-HIGH — Eurostat, see
+  GENERAL NORMS]. In a WG the shared kitchen, not a living room, is the
+  social room.
+- Soft background (the core): in a city *Altbau* WG: high ceilings (about
+  3 m and more), white walls, worn wooden floorboards (*Dielen*), a tall
+  double casement window with a white frame and a plant on the sill, an
+  old white radiator; the kitchen is a mismatched fitted run inherited from
+  previous tenants (white or beech-effect fronts, a tile strip), a
+  second-hand table, a gas or electric cooker, a kettle, a shelf of jars
+  and spice tins, a cleaning rota and postcards on the fridge (illegible),
+  sometimes a second fridge in the hall [MEDIUM — WG-Gesucht and
+  studium.at listings: fully equipped shared kitchens, high ceilings,
+  floorboards, large windows, furniture handed on between tenants]. The
+  personal layer: a white cube shelf unit (the most handed-on piece in
+  listings) with books, records and plants; posters and prints taped or
+  in simple frames; fairy lights; a houseplant jungle; a bicycle in the
+  hall glimpsed through a door. In a post-war block or *Plattenbau* room:
+  lower ceiling, laminate floor, a tilt-and-turn window onto a courtyard
+  or a grid of balconies. Light: cool daylight from the big window; at
+  night, a paper lantern or a clamp lamp and fairy lights. Palette: white
+  walls, honey floorboards, beech or white furniture, plant green, warm
+  lamp light. Signature shapes: the tall double casement, the floorboards,
+  the cube shelf grid, the mismatched chairs, the plant on the sill.
+  Density: lived-in, a little chaotic, cheap and second-hand rather than
+  styled [EDITORIAL].
+- Shell: an Altbau flat in a five-storey courtyard building (Berlin,
+  Leipzig, Hamburg) or a 1960s–70s block in a university town.
+- The table as set here: a second-hand wooden table with mismatched
+  chairs, a candle in a holder, everyday plates, a pot or a
+  baking dish in the middle, kitchen roll.
+- Subregional variants and the national default: Berlin and Leipzig
+  (cheap, large Altbau WGs, more raw); Munich and Hamburg (smaller rooms,
+  higher rents, a newer block); university towns (student WGs in houses).
+  National default: a city Altbau WG kitchen.
+- Hallucination traps: the global Pinterest/Scandinavian showroom; a US
+  loft; a Bavarian chalet corner; the beer crate in the corner and empty
+  bottles on the windowsill (a strong real-life WG cue that must not
+  appear); graffiti everywhere as Berlin shorthand.
+- Never stage: beer, crates, wine or spirits, the deposit symbol; legible
+  rotas, posters or book spines; brand logos.
+- Prompt-ready line: "A shared-flat kitchen in a German Altbau: a
+  second-hand wooden table sharp in front, behind it softly blurred white
+  walls, worn floorboards, a tall double casement window with plants on
+  the sill, a white cube shelf with books and a string of fairy lights."
+- Confidence and sources: MEDIUM-LOW; one search, individual listings
+  ([WG-Gesucht — Berlin Oberschöneweide](https://www.wg-gesucht.de/wg-zimmer-in-Berlin-Oberschoeneweide.13599454.html);
+  [WG-Gesucht — Berlin Friedrichsfelde](https://www.wg-gesucht.de/wg-zimmer-in-Berlin-Friedrichsfelde.13964249.html);
+  [WG-Gesucht — Leipzig Zentrum-Nord](https://www.wg-gesucht.de/wg-zimmer-in-Leipzig-Zentrum-Nord.10391567.html));
+  EDITORIAL for staging.
+
+#### Venue: New-build or house kitchen with island (*Kochinsel*) (home, indoor) · app: Kitchen island
+- Use for: home indoor; a seat at the island counter for lunch or a quick
+  dinner; 1 to 3. Wave 2 (2026-10-18). Honest fit: islands belong to
+  owner-built single-family houses (*Einfamilienhaus*) and some new-build
+  owner flats with an open *Wohnküche*; they are rare in the rented flats
+  most Germans live in, where the fitted run stays the default [MEDIUM-LOW
+  — house-building forums plan islands routinely for new houses; no
+  national share found].
+- Soft background (the core): an open-plan ground floor in a newer house:
+  a tall bank of handleless units in matt white, light grey, anthracite or
+  oak-effect with built-in oven and fridge at eye level; the island's
+  hob and a ceiling or downdraft extractor; a run of worktop with a coffee
+  machine, a bread bin and a fruit bowl. Large floor-to-ceiling triple-
+  glazed windows or a sliding door in anthracite frames, external roller
+  shutters (*Rollläden*) half down in their boxes, onto a paved terrace,
+  a lawn, a hedge and the next detached house with a red-tiled or
+  anthracite roof [LOW — not verified; consistent with house-building
+  forum plans]. Two or three pendants over the island, or a linear LED
+  bar. Middle distance: the dining table and a sofa corner of the same
+  open room. Light: cool even daylight; warm pendant pools by evening.
+  Palette: matt white or grey, anthracite, light oak, white tile or
+  large-format grey floor tiles. Signature shapes: the anthracite window
+  frames, the roller-shutter box, the tall unit wall, the pendants, the
+  bar stools. Density: very tidy and new [EDITORIAL].
+- Shell: a 2010s–2020s detached or semi-detached house in a suburban
+  *Neubaugebiet*; large-format tiles or oak parquet; underfloor heating
+  (no radiators).
+- The table as set here: the island top (white or grey quartz, laminate
+  or oak), an overhang with two or three bar stools; a wooden board,
+  everyday plates.
+- Subregional variants and the national default: rented-flat version: a
+  short peninsula or breakfast bar off a fitted L, the honest fit when a
+  brief needs a counter in a city flat; Bavaria and Swabia: more oak.
+  National default: a new-build suburban house with an open kitchen and
+  island.
+- Hallucination traps: an American show kitchen (vast room, double-door
+  fridge, marble, six-burner range); an island in a city Altbau rental;
+  Bavarian rustic pine; a beer crate by the pantry.
+- Never stage: beer, wine, crates; legible appliance displays or labels;
+  brand logos.
+- Prompt-ready line: "A new German house kitchen: the grey quartz island
+  top sharp in front, behind it softly blurred matt white handleless
+  units, a row of pendants and tall anthracite-framed windows with roller
+  shutters half down onto a terrace and hedge."
+- Confidence and sources: LOW-MEDIUM; one search, practitioner forums
+  only ([Hausbau-Forum — Kochinsel threads](https://www.hausbau-forum.de/category/K/kochinsel/);
+  [Hausbau-Forum — kitchen planning for a new detached house](https://www.hausbau-forum.de/posts/629519/));
+  no prevalence figure found.
+
+#### Venue: Neighbourhood café (*Kiezcafé*), with the bakery-café variant (restaurant, indoor) · app: Café
+- Use for: café; a solo lunch or a Kaffee-und-Kuchen afternoon with a
+  friend; 1 or 2. Wave 2 (2026-10-18). Two real versions: the city
+  neighbourhood café (Berlin, Hamburg, Leipzig, Cologne) and, everywhere,
+  the bakery with a seating corner (see the Bäckerei register).
+- Soft background (the core): a corner shop in an Altbau: tall shop
+  windows, a door with a transom, a few window seats; a counter with a
+  steel espresso machine and grinder, a cake counter (*Kuchentheke*) as a
+  glass case of round cakes and tray bakes (cheesecake, crumble cake,
+  fruit tarts) [MEDIUM — Berlin café guides: wood-heavy Altbau corner
+  cafés with window seats, a cake counter as the centrepiece, industrial
+  lamps, vintage wood; a café sale listing with an espresso machine,
+  grinder and steel counters]. Walls: white, a muted teal or green, or
+  bare plaster; vintage wooden chairs and tables; industrial enamel
+  pendants; shelves with bags of beans and plants; a menu board
+  (illegible). Middle distance: a few small tables, a bench along the
+  wall, the cobbled pavement and a tree outside the window, bicycles
+  locked to the railing. Light: big window light; warm pendant glow on
+  a grey day. Palette: white or teal, honey wood, steel, cake colours.
+  Signature shapes: the cake counter, the espresso machine, the tall shop
+  window, a bentwood chair. Density: relaxed, a laptop or two, well-used.
+- Shell: the ground-floor corner unit of a five-storey Altbau; old tiles,
+  floorboards or painted concrete.
+- The table as set here: a small wooden table, no cloth; a slice of cake
+  or a filled roll on a plain plate, a fork, a paper napkin; cups out of
+  the hero zone (intruder drinks) unless the brief allows.
+- Subregional variants and the national default: bakery-café (a long
+  glass counter of Brötchen and cakes, a few high tables and a bench by
+  the window, bright and practical); small-town Konditorei-Café (older,
+  upholstered chairs, cake-led); Berlin specialty café (minimal,
+  Scandinavian-industrial). National default: a city Kiezcafé with a cake
+  counter.
+- Hallucination traps: a Viennese coffee house with marble and chandeliers
+  (Austria); a Parisian café with wicker chairs; a chain-café palette;
+  Bavarian rustic décor; latte art in the hero zone.
+- Never stage: alcohol (many cafés also serve beer and wine; keep it
+  out); legible menus and cups; chain logos.
+- Prompt-ready line: "A German neighbourhood café in an old corner
+  building: a slice of cake sharp on a small wooden table, behind it a
+  softly blurred glass cake counter, a steel espresso machine, enamel
+  pendants and a tall shop window onto a tree-lined cobbled street."
+- Confidence and sources: MEDIUM-LOW; one search, café guides and a sale
+  listing ([top10berlin — coffee](https://www.top10berlin.de/de/tags/coffee);
+  [The Way to Coffee — specialty coffee Berlin](https://www.thewaytocoffee.com/specialtycoffeeberlin/);
+  [ohne-makler — café for sale](https://www.ohne-makler.net/immobilie/474531/));
+  EDITORIAL for staging.
+
+#### Venue: Modern neighbourhood restaurant, new German cooking (restaurant, indoor) · app: Modern bistro
+- Use for: restaurant indoor; a design-led dinner or weekend lunch for a
+  younger group or couple; 1 to 4. Wave 2 (2026-10-18). The real Modern
+  bistro in Germany: the city restaurant with modern regional cooking in
+  a converted industrial or Altbau space with an open kitchen (Berlin
+  Neukölln and Kreuzberg, Hamburg, Leipzig, Munich), never the Wirtshaus.
+- Soft background (the core): a converted courtyard workshop, distillery
+  or Altbau ground floor: exposed brick or rough plaster, raw concrete or
+  terrazzo floor, steel columns, tall steel-framed windows onto a
+  cobbled backyard (*Hinterhof*) [MEDIUM — a Neukölln modern German
+  restaurant in a listed former distillery with fine materials, warm
+  lighting and an open kitchen; counter seats facing an open kitchen in
+  another]. The open kitchen as a lit steel pass in the middle distance,
+  chefs in dark aprons blurred, a short counter of stools facing it (food
+  counter only). Dark oak or walnut tables, black steel chairs, a long
+  bench with grey felt or leather cushions; statement pendants (large
+  glass globes, black enamel, or one long linear light); shelves of
+  ceramics, jars of ferments and pickles as small glowing shapes, dried
+  herbs; no bottles. Light: low and warm on the tables against a cool,
+  dark room; the kitchen glow behind. Palette: concrete grey, dark oak,
+  brick, black steel, the amber of pickle jars. Signature shapes: the
+  steel pass, the pendant row, the steel window grid, the jar shelf, the
+  felt bench line. Density: calm, spaced, design-led but relaxed
+  [EDITORIAL].
+- Shell: a backyard industrial building or an Altbau shop unit; concrete
+  or old parquet floor.
+- The table as set here: bare dark wood, no cloth; handmade stoneware in
+  grey, sand or black, small plates of modern regional food, linen
+  napkins, cutlery in a ceramic pot; water tumblers at most.
+- Subregional variants and the national default: Berlin (raw, backyard
+  industrial); Hamburg (brick warehouse, harbour light); Munich (more
+  polished, pale oak). National default: a Berlin-style backyard
+  restaurant with concrete, dark oak and an open kitchen.
+- Hallucination traps: the Wirtshaus (panelling, tiled stove, check
+  cloths); white-cloth fine dining; a natural-wine bar backdrop with
+  lit bottle walls (very common in this real register: keep it out);
+  Berlin graffiti and techno-club cliché.
+- Never stage: a bar, bottle walls, taps, wine glasses, carafes of wine;
+  legible menus; white tablecloths.
+- Prompt-ready line: "A modern Berlin neighbourhood restaurant: small
+  plates on a bare dark-oak table sharp in front, behind it softly
+  blurred raw brick and concrete, large glass pendants, a shelf of glowing
+  pickle jars and the lit steel pass of an open kitchen."
+- Confidence and sources: MEDIUM-LOW; one search ([OpenTable — eins44
+  Kantine](https://www.opentable.hk/eins44-kantine-neukolln);
+  [I Heart Berlin — eins44](https://www.iheartberlin.de/tag/weserstrasse/);
+  [The Berliner — best restaurants in Neukölln](https://www.the-berliner.com/food/best-restaurants-in-neukolln/));
+  concrete and pickle jars are LOW (not in the sources found).
+
+#### Venue: City park lawn (*Volkspark*, *Stadtpark*, *Liegewiese*) (on the go, outdoor) · app: Park
+- Use for: meal on the go; a lunch break on a bench, a summer picnic on
+  the lawn, an evening on a former airfield in Berlin; 1 to 4. Wave 2
+  (2026-10-18). The *Liegewiese* (lawn for lying on) is the German park's
+  centre.
+- Soft background (the core): wide open lawns with groups on blankets far
+  back (within the face limit), old lime, plane, chestnut and oak trees
+  as large soft masses, a pond with ducks or swans, gravel or sand paths
+  (*wassergebundene Decke*) in pale beige, simple wooden-slat benches on
+  concrete or iron legs, cyclists and joggers blurred, a kiosk or
+  beer-garden-style café kept as a soft shape with no cups; beyond the
+  trees, the façades of five-storey blocks [MEDIUM — Berlin park guides:
+  lawns, swan pond, fountain, sports areas, picnic and grilling zones in
+  Volkspark Friedrichshain; lawns at Humboldthain, Lietzensee and
+  Gleisdreieck]. Berlin's former-airfield park: wide concrete runways and
+  grass under a huge sky. Grilling is allowed only in marked zones; thin
+  smoke there. Light: long summer evenings (light past 21:30 in June),
+  golden low sun; otherwise flat grey. Palette: lawn green, pale gravel,
+  tree shadows, block façades. Signature shapes: the lawn with blankets,
+  the slatted bench, the pond edge, a gravel path curve, the tree line.
+- Shell: open air; gravel path, lawn, a bin and a lamp.
+- The table as set here: a picnic blanket with a basket, plates and a
+  bowl of salad, a bench slat, or a low wall; Brötchen, a Döner or a
+  bakery bag resting on paper, never in a hand.
+- Subregional variants and the national default: Munich (English Garden
+  meadows, river), Hamburg (Stadtpark lawn, Alster), Cologne (Rhine
+  meadows), Leipzig (Clara-Zetkin-Park). National default: a city
+  Volkspark lawn with old trees and a pond.
+- Hallucination traps: a French formal garden; Central Park; a Bavarian
+  beer garden with steins; Alpine views in a northern city; disposable
+  grills everywhere.
+- Never stage: beer bottles on the blanket (the strongest prior),
+  Späti bottles, beer-garden mugs; legible signs; identifiable children.
+- Prompt-ready line: "A German city park on a summer evening: a picnic
+  blanket with Brötchen and a bowl of salad sharp in front, behind it a
+  softly blurred wide lawn with small groups, old lime trees, a pale
+  gravel path and the façades of apartment blocks in low golden light."
+- Confidence and sources: MEDIUM; one search ([top10berlin — Volkspark
+  Friedrichshain](https://www.top10berlin.de/de/cat/freizeit-268/parks-1375/volkspark-friedrichshain);
+  [Berlin.de — best picnic spots](https://www.berlin.de/special/2471225-208-best-picnic-spots-in-berlin.html);
+  [visitBerlin — top picnic spots](https://www.visitberlin.de/de/blog/berlins-top-11-picknickplaetze));
+  regional variants LOW.
+
+#### Venue: Weekly market (*Wochenmarkt*) (on the go, outdoor) · app: Street market
+- Use for: meal on the go; a Saturday or weekday market lunch; 1 to 3.
+  Wave 2 (2026-10-18). The real German street market: a municipal weekly
+  market on the town square, mostly produce with a few hot-food vans.
+- Soft background (the core): a cobbled market square framed by the town
+  hall and gabled or rendered façades, a church tower; rows of stalls
+  under striped or plain canvas awnings and parasols at a regulated
+  height (about 2.1 m minimum) [HIGH — municipal market ordinances];
+  wooden crates and tiered displays of vegetables, fruit, flowers and
+  bunches of herbs as soft colour blocks; refrigerated sales trailers
+  (cheese, fish, butcher) with a fold-up side panel and a lit glass
+  counter; a rotisserie-chicken trailer (*Hähnchenwagen*) with turning
+  spits as a warm glow and a Bratwurst stand; shoppers with wicker baskets
+  and cotton bags blurred, within the limit [MEDIUM — ordinances admit
+  stalls, sales vans and trailers, including hot-food trucks; EDITORIAL
+  for the stall mix]. Light: clear morning light or flat grey; markets
+  close by early afternoon. Palette: produce greens and reds, white or
+  striped canvas, cobble grey, trailer steel. Signature shapes: the
+  awning rows, the crate tiers, the trailer side hatch, the chicken spits,
+  the town-hall gable.
+- Shell: open air on cobbles or paving.
+- The table as set here: a standing ledge at the Bratwurst or chicken
+  trailer, a stall counter edge; a roll with Bratwurst on a paper napkin,
+  half a chicken in a card tray, a Fischbrötchen in the north.
+- Subregional variants and the national default: Munich (permanent
+  market stalls in a city-centre square, keep any beer garden out),
+  North (fish trailer and Fischbrötchen), Berlin (Turkish market by a
+  canal, more textiles). National default: a mid-sized town's weekly
+  market on the square.
+- Hallucination traps: a Christmas market with wooden huts and lights out
+  of season; a French marché with baguettes; a beer garden; a souvenir
+  market.
+- Never stage: beer, wine stalls, Federweißer; legible price cards and
+  stall signs; brand logos.
+- Prompt-ready line: "A German weekly market on a cobbled town square: a
+  Bratwurst roll on a paper napkin sharp on a stall ledge, behind it
+  softly blurred rows of striped awnings, crates of vegetables, a lit
+  cheese trailer and a gabled town hall under morning light."
+- Confidence and sources: MEDIUM; one search ([Kurz mal weg — best weekly
+  markets](https://www.kurz-mal-weg.de/reisemagazin/freizeitaktivitaeten/wochenmarkt-ranking);
+  [Neckargemünd — market statute 2023](https://neckargemuend.de/site/Neckargemuend_2019/get/params_E702721020/3392945/Wochenmarktsatzung%202023.pdf);
+  [Germersheim — market statute 2025](https://www.germersheim.eu/kultur-tourismus/feste-maerkte/germersheimer-maerkte/wochenmarkt/wochenmarktsatzung-2025.doc.pdf?cid=ix7));
+  the regional variants are LOW.
+
+#### Venue: Baltic beach and promenade (*Strandkorb*, *Strandpromenade*) (on the go, outdoor) · app: Beach or waterfront
+- Use for: meal on the go; a summer day at the Baltic or North Sea, a
+  Fischbrötchen on the promenade; 1 to 4. Wave 2 (2026-10-18). Inland,
+  river and lake fronts serve the same option (see variants).
+- Soft background (the core): a wide pale-sand beach with rows of hooded
+  wicker beach chairs (*Strandkörbe*) in white with striped canvas
+  (blue, green, red) as the signature shape; a pier (*Seebrücke*) on
+  piles running out into a grey-blue sea; dunes with marram grass and a
+  wooden walkway; behind, the promenade with white resort villas in
+  *Bäderarchitektur* (balconies with white wooden or iron fretwork) and a
+  few kiosks and cafés [MEDIUM — Baltic resort guides for Ahlbeck,
+  Boltenhagen, Travemünde and Kühlungsborn: piers, villas, beach chairs,
+  fish and ice cream along the promenade]. Gulls; a lifeguard tower far
+  off. Light: bright, breezy, high clouds; low golden light in the
+  evening; flat grey on cooler days. Palette: pale sand, white wicker,
+  stripe colours, grey-blue sea, white villas. Signature shapes: the
+  hooded beach chair, the pier on piles, the villa balcony fretwork, the
+  dune grass.
+- Shell: open air; sand or the promenade's paving.
+- The table as set here: the fold-out side table of a beach chair, a
+  promenade bench or a kiosk ledge; a Fischbrötchen on paper, a paper
+  tray of fries, never in a hand.
+- Subregional variants and the national default: North Sea (wider beach,
+  dykes, mudflats at low tide, a harbour kiosk; see Fischbrötchen);
+  inland: Rhine promenade (Düsseldorf, Cologne) with steps to the river,
+  Elbe beach in Hamburg with container cranes in haze, a lake jetty with a
+  kiosk shack (*Badesee*). National default: a Baltic resort beach with
+  beach chairs and a pier.
+- Hallucination traps: a Mediterranean beach with umbrellas and turquoise
+  water; palm trees; a beach bar with cocktails; tropical sun as default.
+- Never stage: beach-bar beer, cocktails, wine; legible kiosk signs or
+  beach-chair numbers; identifiable children; a full flag.
+- Prompt-ready line: "A German Baltic beach in summer: a Fischbrötchen on
+  paper sharp on the fold-out table of a beach chair, behind it softly
+  blurred rows of white hooded wicker Strandkörbe with striped canvas,
+  pale dunes and a long pier running into a grey-blue sea."
+- Confidence and sources: MEDIUM; one search ([viel-unterwegs —
+  Boltenhagen](https://viel-unterwegs.de/ostseebad-boltenhagen);
+  [ab-in-den-urlaub — Ahlbeck](https://www.ab-in-den-urlaub.de/magazin/reisetipps/ahlbeck/);
+  [Deutsche Bahn — Travemünde](https://www.bahn.de/angebot/urlaub/bahnreisen/summerrail/travemuende),
+  travel-marketing tier); the Strandkorb is HIGH (also in the regional
+  map above).
 
 ---
 
@@ -3896,6 +4245,17 @@ copyrighted design.
   and DIY-chain guides; the Public Viewing background is editorial with
   no new search; Hamburg's fan-zone site not verified.
 
+- **Venue-profile pass, wave 2 (2026-10-18) open items.** Search
+  summaries only, no pages read. Unverified background details: WG décor
+  rests on individual WG-Gesucht listings; the island kitchen rests on
+  house-building forums with no prevalence figure, and the anthracite
+  windows, roller shutters and handleless units are LOW; the café and
+  modern-restaurant looks come from Berlin guides and one restaurant's
+  listings (concrete, pickle-jar shelves LOW); park, market and beach
+  regional variants are LOW; the Wochenmarkt stall mix is EDITORIAL
+  beyond what municipal ordinances state. Interior photo review would
+  firm these up.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated search pass (or SME/bottler-documentation check) on
@@ -4050,3 +4410,13 @@ copyrighted design.
   rented-apartment kitchen-dining corner, balcony with allotment variant,
   traditional inn, Imbiss stand, Döner shop, Public Viewing fan mile.
   WebSearch only; no pages read at source.
+- **2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 6
+  profiles tagged, 7 new profiles, 7 searches.** Tags: kitchen-dining
+  corner (Dining room), balcony (Dining room, outdoor), traditional inn
+  (Sit-down), Imbiss stand (Counter service, Food truck), Döner shop
+  (Counter service), Public Viewing fan mile (Stadium or event). New: WG
+  shared flat (Gen Z apartment), house kitchen with island (Kitchen
+  island), Kiezcafé with bakery-café variant (Café), modern neighbourhood
+  restaurant (Modern bistro), city park lawn (Park), Wochenmarkt (Street
+  market), Baltic beach and promenade (Beach or waterfront). Coverage
+  table added. WebSearch only; no pages read at source.
