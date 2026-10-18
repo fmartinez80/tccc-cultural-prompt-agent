@@ -28,6 +28,7 @@ body {
   padding-top: var(--env-band-h, 0px);
   font-family: var(--bay-font-sans);
   font-weight: var(--app-weight-text);
+  font-size: 14.5px; /* 90% of the browser default 16px */
   line-height: 1.25;
   color: var(--bay-text);
   background: var(--bay-bg-canvas);

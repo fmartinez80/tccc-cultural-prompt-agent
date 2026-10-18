@@ -35,6 +35,7 @@ import { LearningPage } from './learning/LearningPage.tsx';
 import { MyScenesPage } from './studio/MyScenesPage.tsx';
 import { HomePage, InsightsPage, WhatsNewPage } from './studio/HomePage.tsx';
 import { SnapshotPage } from './studio/SnapshotPage.tsx';
+import { AboutPage } from './studio/AboutPage.tsx';
 import { SkusPage } from './skus/SkusPage.tsx';
 import styles from './App.module.css';
 
@@ -45,6 +46,7 @@ const VIEW_HASH = {
   compose: '#compose',
   insights: '#insights',
   whatsNew: '#whats-new',
+  about: '#about',
   snapshot: '#snapshot',
   mine: '#my-projects',
   skus: '#skus',
@@ -75,15 +77,15 @@ function openView(view: View) {
 }
 
 const STEP_META: Record<StepId, { label: string }> = {
-  brief: { label: 'Brief' },
+  brief: { label: 'Getting Started' },
   scene: { label: 'Time & Place' },
   prep: { label: 'Preparation' },
   plating: { label: 'Plating' },
   sides: { label: 'Sides' },
   camera: { label: 'Camera' },
   layout: { label: 'Layout' },
-  review: { label: 'Sketch review' },
-  story: { label: 'Story & scene' },
+  review: { label: 'Sketch Review' },
+  story: { label: 'Story & Scene' },
   workspace: { label: 'Node workspace' },
 };
 
@@ -385,8 +387,8 @@ export function App() {
           return (
             <EmptyState
               title="Pick a layout first"
-              hint="Go to Sketch review, which picks the best layout for this table."
-              action={<Button onPress={() => setStep('review')}>Go to Sketch review</Button>}
+              hint="Go to Sketch Review, which picks the best layout for this table."
+              action={<Button onPress={() => setStep('review')}>Go to Sketch Review</Button>}
             />
           );
         }
@@ -416,8 +418,8 @@ export function App() {
           return (
             <EmptyState
               title="Create the scene first"
-              hint="Go back to Story & scene and create the scene."
-              action={<Button onPress={() => setStep('story')}>Go to Story & scene</Button>}
+              hint="Go back to Story & Scene and create the scene."
+              action={<Button onPress={() => setStep('story')}>Go to Story & Scene</Button>}
             />
           );
         }
@@ -439,12 +441,14 @@ export function App() {
   const isAdmin = profile.data?.role === 'admin';
   const draftInProgress = draft.step !== 'brief' || !!draft.brief.heroDish.trim();
   const menuItems = [
+    // Get Started opens the scene builder where it was left; it doesn't clear a draft.
+    { id: 'compose', label: 'Get Started', current: view === 'compose', accent: true },
+    { id: 'about', label: 'About Us', current: view === 'about' },
     ...(isAdmin ? [{ id: 'admin', label: 'Admin', current: view === 'admin' || view === 'learning' }] : []),
-    { id: 'insights', label: 'Insights', current: view === 'insights' },
     { id: 'whatsNew', label: "What's New", current: view === 'whatsNew' },
     { id: 'snapshot', label: 'Global Snapshot', current: view === 'snapshot' },
     { id: 'mine', label: 'My Projects', current: view === 'mine' },
-    { id: 'skus', label: 'Adding SKUs', current: view === 'skus' },
+    // Insights and Adding SKUs are out of the menu for now; their pages still open at #insights and #skus.
   ];
 
   return (
@@ -453,7 +457,7 @@ export function App() {
         <a
           href="/"
           className={styles.logoLink}
-          aria-label="Prod X home"
+          aria-label="Scene Composer home"
           onClick={(e) => {
             e.preventDefault();
             openView('home');
@@ -533,6 +537,10 @@ export function App() {
       ) : view === 'whatsNew' ? (
         <ErrorBoundary label="what's new">
           <WhatsNewPage />
+        </ErrorBoundary>
+      ) : view === 'about' ? (
+        <ErrorBoundary label="about us">
+          <AboutPage />
         </ErrorBoundary>
       ) : view === 'snapshot' ? (
         <ErrorBoundary label="global snapshot">

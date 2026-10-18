@@ -1,6 +1,6 @@
 .layout {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
+  grid-template-columns: var(--app-rail-w) minmax(0, 1fr);
   gap: 24px;
   align-items: start;
 }
@@ -11,10 +11,11 @@
   top: calc(var(--env-band-h, 0px) + 16px);
 }
 
-/* The logo, unboxed, at the left of the header row (same line as Learning, Start over and the name). */
+/* The logo, unboxed, at the left of the header row (same line as Start over and the name).
+   It is exactly as wide as the step rail, so it sits centred above it. */
 .logoImg {
   display: block;
-  width: 254px; /* twice the old ProdX logo's width */
+  width: var(--app-rail-w);
   height: auto;
   max-width: 100%;
 }
@@ -69,7 +70,7 @@
 
 .railNumber {
   font-family: var(--app-font-head);
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1;
   color: inherit;
 }
@@ -77,7 +78,7 @@
 .railLabel {
   font-family: var(--bay-font-sans);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12.5px;
   letter-spacing: 0.01em;
   line-height: 1.15;
   color: inherit;
@@ -151,7 +152,7 @@
    this wrapper so step components can stay plain semantic markup. */
 .stepBody h1 {
   margin: 0 0 16px;
-  font-size: clamp(32px, 4.2vw, 56px);
+  font-size: clamp(29px, 3.8vw, 50.5px);
   font-weight: var(--app-weight-headline);
   line-height: 1;
   letter-spacing: -0.01em;
@@ -181,27 +182,27 @@
 .stepBody > section > p:first-of-type {
   margin: 0 0 28px;
   max-width: 640px;
-  font-size: 16px;
+  font-size: 14.5px;
   line-height: 22px;
   color: var(--bay-text-3);
 }
 
 .stepBody p {
   margin: 0 0 12px;
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 20px;
   color: var(--bay-text-2);
 }
 
 .stepBody h2 {
-  font-size: 16px;
+  font-size: 14.5px;
   font-weight: var(--app-weight-subhead);
   line-height: 20px;
   margin: 0 0 8px;
 }
 
 .stepBody h3 {
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: var(--app-weight-subhead);
   margin: 16px 0 8px;
 }
@@ -213,7 +214,7 @@
 }
 
 .confirmText {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   color: var(--bay-text-2);
 }
@@ -254,7 +255,7 @@
   .stepBody > section > h1 {
     margin-top: 0;
     padding: 12px 10px 8px;
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 

@@ -19,7 +19,7 @@
 .title {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 26px;
+  font-size: 23.5px;
   letter-spacing: -0.01em;
   color: var(--bay-text);
 }
@@ -30,7 +30,7 @@
   flex-wrap: wrap;
   gap: 16px;
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-2);
 }
 
@@ -71,12 +71,12 @@
 .sectionTitle {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 18px;
+  font-size: 16px;
   color: var(--bay-text);
 }
 
 .sectionHint {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
 }

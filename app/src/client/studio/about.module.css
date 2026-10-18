@@ -1,0 +1,334 @@
+/* About Us. Same two-column grid as the composer: the sub-navigation sits in the
+   rail column, so it lines up under the logo. Lighter than the rest of the app on
+   purpose: long reading copy, hairline rules, no bold outlines or offset shadows. */
+
+.layout {
+  display: grid;
+  grid-template-columns: var(--app-rail-w) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+  padding-bottom: 96px;
+}
+
+.navColumn {
+  position: sticky;
+  top: 16px;
+}
+
+/* Sub-navigation: plain text rows with a red bar on the current one. */
+.subnav {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--bay-border-hair);
+}
+
+.subnavItem {
+  margin-left: -1px;
+  padding: 9px 0 9px 16px;
+  border: 0;
+  border-left: 3px solid transparent;
+  background: none;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--bay-text-3);
+  cursor: pointer;
+}
+
+.subnavItem:hover {
+  color: var(--bay-text);
+}
+
+.subnavItem[aria-current] {
+  border-left-color: var(--neo-selected);
+  color: var(--neo-selected);
+  font-weight: 700;
+}
+
+.subnavItem:focus-visible {
+  outline: 2px solid var(--neo-ink);
+  outline-offset: 2px;
+}
+
+.content {
+  min-width: 0;
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 48px 0;
+  border-top: 1px solid var(--bay-border-hair);
+  scroll-margin-top: 16px;
+}
+
+.section:first-child {
+  padding-top: 8px;
+  border-top: 0;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--neo-selected);
+}
+
+.title {
+  margin: 0 0 20px;
+  font-size: clamp(29px, 4.2vw, 43px);
+  color: var(--neo-selected);
+}
+
+.sectionTitle {
+  margin: 0 0 20px;
+  font-size: clamp(22px, 2.6vw, 29px);
+}
+
+.itemTitle {
+  margin: 0 0 6px;
+  font-family: var(--bay-font-sans);
+  font-weight: var(--app-weight-subhead);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+.lede {
+  margin: 0 0 28px;
+  max-width: 62ch;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--bay-text-2);
+}
+
+.body {
+  margin: 0;
+  max-width: 68ch;
+  line-height: 1.5;
+  color: var(--bay-text-2);
+}
+
+.body + .itemTitle {
+  margin-top: 24px;
+}
+
+/* Stats: value over label, hairline dividers. */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 24px 20px;
+  margin: 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--bay-border-hair);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statValue {
+  order: -1;
+  margin: 0;
+  font-family: var(--app-font-head);
+  font-size: 29px;
+  line-height: 1;
+  color: var(--bay-text);
+}
+
+.statLabel {
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--bay-text-3);
+}
+
+/* How it works: numbered steps in two columns. */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+}
+
+.stepNumber {
+  font-family: var(--app-font-head);
+  font-size: 25px;
+  line-height: 1;
+  color: var(--neo-selected);
+}
+
+/* The files */
+.fileBlock {
+  margin-bottom: 36px;
+}
+
+.anatomy {
+  display: grid;
+  margin: 16px 0 0;
+}
+
+.anatomyRow {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 16px;
+  padding: 12px 0;
+  border-top: 1px solid var(--bay-border-hair);
+}
+
+.anatomyRow:last-child {
+  border-bottom: 1px solid var(--bay-border-hair);
+}
+
+.anatomyTerm {
+  font-weight: var(--app-weight-subhead);
+  line-height: 1.5;
+}
+
+.anatomyRow dd {
+  margin: 0;
+}
+
+.files {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
+}
+
+.fileName {
+  margin: 0 0 8px;
+  font-family: var(--bay-font-mono);
+  font-size: 12px;
+  color: var(--bay-text-4);
+}
+
+/* Markets: flag tiles on soft white, no outline or shadow. */
+.markets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.market {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bay-bg-subtle);
+  border-radius: var(--bay-r-sm);
+}
+
+.marketHead {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.flag {
+  flex-shrink: 0;
+  width: 36px;
+  height: 27px;
+  object-fit: cover;
+  border-radius: 2px;
+  /* A hairline so white-edged flags (Japan, Indonesia) still read as a shape. */
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.12);
+}
+
+.marketName {
+  margin: 0;
+  font-family: var(--bay-font-sans);
+  font-weight: var(--app-weight-subhead);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.marketStructure {
+  margin: 2px 0 0;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--bay-text-3);
+}
+
+.marketZones {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--bay-text-3);
+}
+
+/* Narrow screens: the sub-navigation becomes a sticky strip along the top. */
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .navColumn {
+    top: 0;
+    z-index: 2;
+    margin: 0 -16px;
+    background: var(--bay-bg-canvas);
+    border-bottom: 1px solid var(--bay-border-hair);
+  }
+
+  .subnav {
+    flex-direction: row;
+    overflow-x: auto;
+    border-left: 0;
+    padding: 0 16px;
+    scrollbar-width: none;
+  }
+
+  .subnavItem {
+    flex-shrink: 0;
+    margin: 0 0 -1px;
+    padding: 12px 0;
+    margin-right: 20px;
+    border-left: 0;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
+  }
+
+  .subnavItem[aria-current] {
+    border-bottom-color: var(--neo-selected);
+  }
+
+  .section {
+    scroll-margin-top: 56px;
+  }
+
+  .section:first-child {
+    padding-top: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .steps,
+  .files {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .anatomyRow {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+}

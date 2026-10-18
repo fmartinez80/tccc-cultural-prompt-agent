@@ -22,13 +22,13 @@
 
 .statValue {
   font-family: var(--app-font-head);
-  font-size: 32px;
+  font-size: 29px;
   line-height: 1;
 }
 
 .statLabel {
   color: var(--bay-text-3);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .grid {
@@ -49,12 +49,12 @@
   margin: 0 0 12px;
   font-family: var(--app-font-head);
   font-weight: var(--app-weight-headline);
-  font-size: 22.5px;
+  font-size: 20px;
 }
 
 .sectionTitle {
   margin-top: 8px;
-  font-size: 22.5px;
+  font-size: 20px;
 }
 
 .muted {
@@ -82,13 +82,13 @@
 .barLabel {
   display: flex;
   flex-direction: column;
-  font-size: 14px;
+  font-size: 12.5px;
   overflow: hidden;
 }
 
 .barSub {
   color: var(--bay-text-3);
-  font-size: var(--app-text-min);
+  font-size: 12px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -114,7 +114,7 @@
 
 .barValue {
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   text-align: right;
 }
 
@@ -145,7 +145,7 @@
 
 .columnValue {
   font-family: var(--bay-font-mono);
-  font-size: var(--app-text-min);
+  font-size: 11px;
   margin-bottom: 2px;
 }
 
@@ -153,7 +153,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 6px;
-  font-size: var(--app-text-min);
+  font-size: 12px;
   color: var(--bay-text-3);
 }
 
@@ -202,22 +202,22 @@
 }
 
 .dish {
-  font-size: 15px;
+  font-size: 13.5px;
 }
 
 .meta {
   color: var(--bay-text-3);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .caption {
   padding: 12px 16px;
-  font-size: 14px;
+  font-size: 12.5px;
 }
 
 .captionNote {
   margin: 0 0 8px;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
 }
 
@@ -225,14 +225,14 @@
   margin-top: 8px;
   cursor: pointer;
   font-family: var(--bay-font-mono);
-  font-size: var(--app-text-min);
+  font-size: 12px;
 }
 
 .prompt p {
   max-height: 200px;
   overflow: auto;
   white-space: pre-wrap;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* My scenes: monthly use */
@@ -252,7 +252,7 @@
 }
 
 .meterText {
-  font-size: 14px;
+  font-size: 12.5px;
 }
 
 .linkButton {
@@ -334,7 +334,7 @@
   margin: 8px 0 4px;
   font-family: var(--app-font-head);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1.05;
 }
 
@@ -405,7 +405,7 @@
     grid-row: auto;
   }
   .welcome {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 
@@ -429,7 +429,8 @@
   justify-content: center;
   align-self: center;
   width: min(100%, 640px);
-  margin-block: 43px; /* with the page gap, 64px above and below, so it sits centred between How It Works and the Gallery */
+  /* Inside the intro (16px gap): 48px to the pitch above and to the feature cards below (their own 12px top margin counts). */
+  margin: 32px 0 20px;
   padding: 24px;
   text-align: center;
   background: var(--neo-selected);
@@ -448,14 +449,25 @@
   border-bottom: var(--neo-border);
   font-family: var(--app-font-head);
   font-weight: var(--app-weight-headline);
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.1;
   text-align: center;
 }
 
-.getStartedText {
+/* Headline in the display face; the subhead under it is lighter, in the body face. */
+.getStartedTitle {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: var(--app-weight-headline);
+  font-size: 29px;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.getStartedText {
+  margin: 0;
+  font-family: var(--bay-font-sans);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
 }

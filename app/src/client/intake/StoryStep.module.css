@@ -1,5 +1,7 @@
 .proxy {
   width: 100%;
+  max-width: var(--app-frame-max-w);
+  margin-inline: auto;
   border-radius: var(--bay-r-md);
   display: block;
   border: var(--neo-border);
@@ -88,7 +90,7 @@ h4.blockLabel {
 }
 
 .checkTitle {
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: var(--app-weight-subhead);
   color: var(--bay-text);
 }
@@ -150,7 +152,7 @@ h4.blockLabel {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.35;
 }
 
@@ -162,7 +164,7 @@ h4.blockLabel {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .rule {
@@ -198,7 +200,7 @@ h4.blockLabel {
 
 /* Scene summary */
 .prose {
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 1.44;
   margin-bottom: 16px;
 }
@@ -259,7 +261,7 @@ h4.blockLabel {
 }
 
 .labelRole {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: var(--app-weight-subhead);
   color: var(--bay-text);
 }
@@ -281,7 +283,7 @@ h4.blockLabel {
 
 .labelText {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.35;
   color: var(--bay-text);
 }
@@ -341,7 +343,7 @@ h4.blockLabel {
 
 .groupTitle {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--bay-text);
 }
 
@@ -385,7 +387,7 @@ h4.blockLabel {
 }
 
 .briefProse {
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 1.44;
   color: var(--bay-text-2);
 }

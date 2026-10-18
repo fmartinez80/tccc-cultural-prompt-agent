@@ -43,6 +43,8 @@
 .frame {
   position: relative;
   width: 100%;
+  max-width: var(--app-frame-max-w);
+  margin-inline: auto;
   aspect-ratio: 16 / 9;
   margin-top: 4px;
   border: var(--neo-border);
@@ -74,7 +76,7 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   color: var(--bay-err-fg);
 }
@@ -188,13 +190,13 @@
 
 .tally {
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
 }
 
 .sectionTitle {
   margin: 0 0 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .items {
@@ -291,7 +293,7 @@
 .itemTitle {
   font-family: var(--bay-font-sans);
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12.5px;
   color: var(--bay-text);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -400,12 +402,12 @@
 
 .previewTitle {
   margin: 0 0 8px;
-  font-size: 14px;
+  font-size: 12.5px;
 }
 
 .previewEmpty {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-3);
 }
 
@@ -425,7 +427,7 @@
 .previewBlock ul {
   margin: 4px 0 0;
   padding-left: 18px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.45;
   color: var(--bay-text-2);
 }
@@ -437,7 +439,7 @@
   flex-wrap: wrap;
   gap: 6px 10px;
   padding: 0 10px 10px 42px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .changeDoneIcon {
@@ -527,21 +529,21 @@
 .dialogTitle {
   margin: 0;
   font-family: var(--app-font-head);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: var(--app-weight-headline);
   color: var(--bay-text);
 }
 
 .dialogText {
   margin: 0;
-  font-size: 14px;
+  font-size: 12.5px;
   color: var(--bay-text-2);
 }
 
 .dialogList {
   margin: -6px 0 0;
   padding-left: 18px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.45;
   color: var(--bay-text-2);
   overflow-wrap: anywhere;
@@ -614,7 +616,7 @@
   flex: 1 1 320px;
   margin: 0;
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--bay-text-2);
 }
 

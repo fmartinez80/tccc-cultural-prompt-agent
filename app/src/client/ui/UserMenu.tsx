@@ -9,6 +9,8 @@ export type UserMenuItem = {
   label: string;
   /** Marks the page currently showing. */
   current?: boolean | undefined;
+  /** Shows the label in the selected red (Get Started). */
+  accent?: boolean | undefined;
 };
 
 export type UserMenuProps = {
@@ -39,7 +41,7 @@ export function UserMenu({ email, items = [], onAction, onSignOut }: UserMenuPro
           }}
         >
           {items.map((item) => (
-            <MenuItem key={item.id} id={item.id} className={styles.item} data-current={item.current || undefined}>
+            <MenuItem key={item.id} id={item.id} className={styles.item} data-current={item.current || undefined} data-accent={item.accent || undefined}>
               {item.label}
             </MenuItem>
           ))}

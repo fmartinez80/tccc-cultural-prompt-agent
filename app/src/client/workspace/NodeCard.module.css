@@ -100,7 +100,7 @@
 
 .title {
   font-family: var(--app-font-head);
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: -0.01em;
   color: var(--neo-ink);
   overflow: hidden;
