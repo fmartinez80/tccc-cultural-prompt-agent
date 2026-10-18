@@ -29,7 +29,7 @@ is staged; others are documented in ICONIC BEVERAGES.
   lamb is the default meat, then chicken, beef, goat and fish. No alcohol
   cues, vessels or branding in any scene; Coca-Cola never appears as a
   mixer. Arak and other alcohol appear in ICONIC BEVERAGES as documented
-  context only. [CONFIDENCE: HIGH] [SOURCE: Wikipedia: Iraqi cuisine]
+  context only. [CONFIDENCE: HIGH] [S7]
 - **No sectarian or political staging.** No flags in hero position, no party
   symbols, militia cues, Ashura blood-ritual imagery, shrine interiors in
   sharp focus, or identifiable religious processions. Ashura qeema
@@ -85,6 +85,11 @@ stew, samoon on the side, hero SKU per brief.
   MEDIUM = 1 credible source; LOW = weak or inferred. Unverified counts and
   shares are [EDITORIAL]. "Not confirmed — flag for review" beats a
   plausible guess.
+- **Layout for the app (2026-10-18):** each venue and dish entry opens with
+  its prompt-ready line, so it survives when the app trims a section. Tags
+  read [LEVEL · S#]: the level stays in the entry and S# points to SOURCES
+  CONSULTED near the end, which the app leaves out of prompts. Keep new
+  entries in this shape.
 - This pass read full pages (not snippets) for the four pages above;
   everything else is carried from the Iraqi cuisine overview and needs a
   second source before HIGH.
@@ -111,6 +116,12 @@ extra "Table dressing" field for the cover and linens. File-wide rules
 hold.
 
 #### Venue: Family dining room, Baghdad apartment or house (home, indoor)
+- Prompt-ready line: "A Baghdad family dining room: the meal sharp on a
+  rectangular dark-walnut table under a clear plastic cover over white
+  cotton, a plain tissue box and bread basket beside it; behind, softly
+  blurred, cream plaster walls, a tall glass-fronted cabinet of gold-rim
+  tea glasses, a gilded calligraphy frame, burgundy drapes over lace at a
+  grilled window, a red medallion rug and a ceiling fan."
 - Use for: home indoor; lunch (the main meal) or dinner; 2 to a large
   family; everyday meals, Friday lunch, iftar, casual guests. The default
   home. See HOME TABLE DRESSING and HOME INTERIOR ELEMENTS (TRUSTED
@@ -156,8 +167,7 @@ hold.
   or cream cotton cloth; it reads as a slight gloss over flat cotton and
   stays on between meals. For guests, the plastic comes off and a white or
   ivory embroidered or damask cloth goes on, sometimes with a crochet or
-  lace runner down the centre. [MEDIUM — import, its HIGH capped; matches
-  the prompt Fernando found most authentic]
+  lace runner down the centre. [MEDIUM · S20]
 - The table as set here: a rectangular dark-walnut or mid-brown laminate
   table, 140–180 × 80–90 cm, matte (glass-topped in newer apartments). In
   the centre a plain tissue box (the napkin; unbranded) and a wicker or
@@ -168,7 +178,7 @@ hold.
   for guests); spoons and forks, as a rule no knives; small plates of
   turshi and amba, a jajik bowl; serving spoons laid beside the dishes.
   Hero SKU per brief. No tea glasses on the table: tea comes after the
-  meal, from the sideboard. [MEDIUM — this file's GENERAL NORMS + import]
+  meal, from the sideboard. [MEDIUM · S21]
 - Subregional variants: Basra and the south: warmer ochre or pale
   terracotta walls, shutters half-closed at midday (darker room), a tile
   dado more common in older houses, a water cooler in view, a palm-fibre
@@ -180,8 +190,7 @@ hold.
   alongside samoon. Well-off homes: damask cloth daily without plastic,
   marble floor, larger chandelier. Modest and rural homes: a painted wood
   table under a cut sheet of plain plastic, a fluorescent tube, and more
-  floor meals (see the sufra profile). [LOW-MEDIUM — import, regional
-  detail not corroborated]
+  floor meals (see the sufra profile). [LOW-MEDIUM · S22]
 - Hallucination traps: a Gulf gold-and-marble majlis; Moroccan zellige and
   pierced-metal lanterns; an Ottoman or Persian palace with Iznik tile
   panels; a Scandinavian white-and-pale-wood room; a Levantine mezze-only
@@ -195,25 +204,19 @@ hold.
   prayer rug spread for use (folded on a shelf at most), recognisable faces
   in photo frames, a full flag, sectarian portraits or banners in sharp
   focus.
-- Prompt-ready line: "A Baghdad family dining room: the meal sharp on a
-  rectangular dark-walnut table under a clear plastic cover over white
-  cotton, a plain tissue box and bread basket beside it; behind, softly
-  blurred, cream plaster walls, a tall glass-fronted cabinet of gold-rim
-  tea glasses, a gilded calligraphy frame, burgundy drapes over lace at a
-  grilled window, a red medallion rug and a ceiling fan."
-- Confidence and sources: MEDIUM overall. Sources: this file's earlier
-  profile; Fernando's research import (2026-10-17, compiled from training
-  data without live search; the sources it names were not checked);
-  EDITORIAL for staging.
+- Confidence: MEDIUM overall; EDITORIAL for staging. [S1]
 
 #### Venue: Floor meal (sufra) in the family room (home, indoor)
+- Prompt-ready line: "An Iraqi family room floor meal: steel trays of rice
+  and stew sharp on a plain white mat spread over a red medallion rug,
+  behind it low dark-red print floor mattresses with bolsters against cream
+  walls and a ceiling fan, softly blurred."
 - Status: documented context. The app's layouts are table-only and its
   cameras sit at seated table height, so a floor meal can't be drawn yet.
   Kept here so the look is ready if floor scenes are added.
 - Use for: everyday family meals in rural, traditional and older-generation
   urban homes; iftar in many homes; large family gatherings the table
-  can't seat. [MEDIUM — import; this file already notes floor seating is
-  real on occasion]
+  can't seat. [MEDIUM · S23]
 - Soft background (the core): cream plaster walls; along three walls, thin
   floor mattresses (farsh, فرش, about 60 cm wide and 10–15 cm thick) in
   dark-red, brown or olive geometric-print cotton with flat bolsters
@@ -225,8 +228,7 @@ hold.
 - Table dressing: no table. A plain white or cream vinyl or plastic-coated
   cotton mat (sufra), 150–200 cm, plain or with a simple red or blue
   border, straight on the rug. In the south, woven palm or printed plastic
-  floor mats. [MEDIUM — import; matches this file's mandi-house floor
-  setting]
+  floor mats. [MEDIUM · S24]
 - The table as set here: steel trays and deep bowls massed in the centre,
   a large rice tray in the middle, a stew bowl and vegetables beside it, a
   bread basket, a tumbler at each diner's place round the edge, a tissue
@@ -238,14 +240,13 @@ hold.
   picnic blanket; the mat drawn as a prayer rug.
 - Never stage: any table, alcohol, pork, legible text, recognisable faces,
   a prayer rug spread for use.
-- Prompt-ready line: "An Iraqi family room floor meal: steel trays of rice
-  and stew sharp on a plain white mat spread over a red medallion rug,
-  behind it low dark-red print floor mattresses with bolsters against cream
-  walls and a ceiling fan, softly blurred."
 - Confidence and sources: MEDIUM — import only; tooling support needed
   before use.
 
 #### Venue: Masgouf restaurant on the Tigris (riverside, open or semi-open)
+- Prompt-ready line: "A Tigris masgouf restaurant at dusk: open-cut carp on
+  stakes around embers sharp behind, a tray of grilled fish over flatbread
+  with lemon and onion in front, river glint and palms softly blurred."
 - Use for: restaurant, outdoor or semi-covered; Friday family midday or an
   evening group; 2 to a large group. The signature Iraqi away-from-home
   venue.
@@ -257,8 +258,7 @@ hold.
   harsh noon plus smoke haze, or amber bulbs and ember glow at night.
   Palette: ember orange, river grey-green, reed tan, fish gold. Signature
   shapes: ring of upright fish stakes, smoke column, river band, palm
-  fringe. [MEDIUM-HIGH for the fish-stake ring — Iraqi cuisine + Masgouf
-  pages; MEDIUM for furniture]
+  fringe. [MEDIUM-HIGH for the fish-stake ring; MEDIUM for furniture · S25]
 - Shell: concrete slab with a corrugated or reed canopy; tiled wash area
   behind.
 - The table as set here: whole or half masgouf on a large round tray over
@@ -270,62 +270,55 @@ hold.
   or boat clichés; alcohol buckets.
 - Never stage: alcohol, legible menus or signs, brand coolers in sharp
   focus.
-- Prompt-ready line: "A Tigris masgouf restaurant at dusk: open-cut carp on
-  stakes around embers sharp behind, a tray of grilled fish over flatbread
-  with lemon and onion in front, river glint and palms softly blurred."
-- Confidence and sources: MEDIUM-HIGH [SOURCE: Wikipedia: Masgouf;
-  Wikipedia: Iraqi cuisine]
+- Confidence: MEDIUM-HIGH [S2]
 
 #### Venue: Kebab / tikka corner shop (street, night)
+- Prompt-ready line: "An Iraqi kebab shop at night: skewers over charcoal
+  glow behind, samoon with grilled meat and onion sharp on a steel tray,
+  tiled walls and street glass softly blurred."
 - Use for: meal on the go or a small sit-in; 1–3. Evening default.
 - Soft background (the core): a charcoal trough grill with rows of skewers
   and a fan stoking the glow; a steel prep counter with a samoon stack,
   onion and parsley trays, amba squeeze bottles (labels turned away); tiled
   walls, a fluorescent tube plus grill glow; street glass with wet-asphalt
   bokeh. Palette: coal black-orange, steel grey, onion white-green.
-  [MEDIUM — Iraqi cuisine kebab + general kebab-shop pattern]
+  [MEDIUM · S26]
 - The table as set here: skewers slid onto samoon on a steel tray or paper,
   an amba drizzle, a turshi cup; eaten by hand with a fork to help.
 - Hallucination traps: Turkish ocakbaşı copper excess; a shawarma spit as
   the only cue (shawarma is real, but tikka and kebab skewers are the grill
   signature).
 - Never stage: alcohol, legible price boards, brand marks.
-- Prompt-ready line: "An Iraqi kebab shop at night: skewers over charcoal
-  glow behind, samoon with grilled meat and onion sharp on a steel tray,
-  tiled walls and street glass softly blurred."
 - Confidence and sources: MEDIUM.
 
 #### Venue: Samoon bakery / tannour (street, daytime)
+- Prompt-ready line: "An Iraqi bakery at midday: stacked diamond samoon
+  loaves sharp in a paper bag, behind it the glowing tannour mouth and flour
+  dust, softly blurred."
 - Use for: meal on the go; a bakery run; 1–2. Morning or midday.
 - Soft background (the core): the glowing mouth of a domed clay tannour, a
   baker's paddle, stacked diamond loaves (pointed oval, ~20–25cm — flag
   MEDIUM), flour dust in the air, a stack of paper bags, a tiled counter.
-  Grey street through the door. [MEDIUM — Iraqi cuisine samoon + bakery
-  pattern; size needs SME]
+  Grey street through the door. [MEDIUM · S27]
 - The table as set here: none; a bag of warm loaves, one torn open showing
   its airy crumb, resting on a counter or ledge.
 - Hallucination traps: French baguette racks; pita pucks (samoon is a
   diamond or pointed oval with a crisp ridge, not round pita).
-- Prompt-ready line: "An Iraqi bakery at midday: stacked diamond samoon
-  loaves sharp in a paper bag, behind it the glowing tannour mouth and flour
-  dust, softly blurred."
 - Confidence and sources: MEDIUM.
 
 #### Venue: Courtyard / roof summer table (home, outdoor)
-- Use for: home outdoor; summer evening family; 3+. Heat-escape register.
-- Soft background (the core): tiled courtyard walls or a roof parapet,
-  potted plants, a hanging bulb or single neon, neighbouring rooftops and
-  satellite dishes as dark shapes, a palm crown over the wall. [LOW — not
-  verified this pass; general Levant/Iraq pattern; flag for photo review]
-- Shell: in older Baghdad, Basra and Mosul houses, the central courtyard
-  (hosh, حوش) with tiled lower walls and terrazzo floor. [LOW — research
-  import 2026-10-17]
-- The table as set here: a low plastic or timber table with the same
-  rice-and-stew spread on trays, floor mats.
-- Never stage: alcohol, shrine views in sharp focus, political banners.
 - Prompt-ready line: "A Baghdad courtyard at night: family trays sharp on a
   low table, behind it tiled walls, plants and a single warm bulb glow with
   dark rooftops softly blurred."
+- Use for: home outdoor; summer evening family; 3+. Heat-escape register.
+- Soft background (the core): tiled courtyard walls or a roof parapet,
+  potted plants, a hanging bulb or single neon, neighbouring rooftops and
+  satellite dishes as dark shapes, a palm crown over the wall. [LOW · S28]
+- Shell: in older Baghdad, Basra and Mosul houses, the central courtyard
+  (hosh, حوش) with tiled lower walls and terrazzo floor. [LOW · S29]
+- The table as set here: a low plastic or timber table with the same
+  rice-and-stew spread on trays, floor mats.
+- Never stage: alcohol, shrine views in sharp focus, political banners.
 - Confidence and sources: LOW.
 
 ### AO Meals Phase 2 venues (added 2026-10-09 for the TCCC briefing set)
@@ -337,6 +330,10 @@ sandwich counters, and casual pizza and pasta cafés. The masgouf and
 kebab venues above already cover masgouf, kebab and mashawi.
 
 #### House look: the briefing's archive frame (reference register, not a venue)
+- Prompt-ready line: "Warm wood plank table lit by low raking sunlight
+  from the right, the dish and a beaded glass Coca-Cola contour bottle
+  sharp, behind them a dark warm maroon-to-amber wall softly blurred with
+  a red glow at the right edge."
 - Use for: any AO Meals scene when the brief asks to match the existing
   TCCC Iraq archive. Every archive image in the briefing shares one frame.
 - Soft background (the core): a dark, warm, out-of-focus wall that goes
@@ -360,23 +357,19 @@ kebab venues above already cover masgouf, kebab and mashawi.
   pushes models toward beer cues); a Western steakhouse; candles and wine
   glasses.
 - Never stage: alcohol, glassware other than the hero, legible text.
-- Prompt-ready line: "Warm wood plank table lit by low raking sunlight
-  from the right, the dish and a beaded glass Coca-Cola contour bottle
-  sharp, behind them a dark warm maroon-to-amber wall softly blurred with
-  a red glow at the right edge."
-- Confidence and sources: HIGH for the description (read directly from the
-  briefing's archive frames, no images kept); EDITORIAL for the camera
-  match.
+- Confidence: HIGH; EDITORIAL for the camera match. [S3]
 
 #### Venue: Mandi house (مطعم مندي — mat'am mandi)
+- Prompt-ready line: "An Iraqi mandi restaurant: a round steel tray of
+  orange-gold rice with roast chicken sharp on the table, behind it a
+  raised carpeted floor-seating area with long cushions and a steel-lidded
+  oven pit glowing softly out of focus."
 - Use for: restaurant, indoor; lunch or dinner; 2 to a family group;
   delivery is also big. Common in Baghdad (Karrada, Mansour, Palestine
   Street, Zayouna) and Najaf, Karbala and Wasit. Mandi is Yemeni in origin
   (Hadramawt); in Iraq it's sold by dedicated mandi chains, often with
   "Hadramawt" or "Yemeni" in the name, and some advertise Iraqi seasoning
-  on a Yemeni method. [MEDIUM — Baghdad mandi restaurant listings (Khan
-  Mandi, Mandi Al-Madina, Tabaq Al-Mandi, Jidr Al-Mandi, Mandi Hadramawt);
-  Saudipedia / Wikipedia: Mandi]
+  on a Yemeni method. [MEDIUM · S30]
 - Soft background (the core): two zones. Table hall: bright, clean,
   mid-range, with tiled or stone-effect walls, warm downlights, and a glass
   or steel counter to the kitchen. Arab seating section (al-qa'da
@@ -394,29 +387,27 @@ kebab venues above already cover masgouf, kebab and mashawi.
   [EDITORIAL]) with rice and the meat on top, small bowls of yogurt (laban)
   and red or green chili sauce (sahawiq), a dish of salad, a sheet of thin
   bread, and spoons. On the floor setting the tray sits on a plastic sheet.
-  The hero SKU stands beside the tray. [MEDIUM — Khan Mandi menu: served
-  with rice, laban and sahawiq]
+  The hero SKU stands beside the tray. [MEDIUM · S31]
 - Subregional variants: Najaf and Karbala branches are busy on pilgrimage
   dates; keep shrine views out of frame (file-wide rule).
 - Hallucination traps: Indian biryani-house décor; a Gulf luxury majlis
   with gold; a whole roast lamb as the default (chicken halves and lamb
   pieces are the everyday mandi order).
 - Never stage: legible menus or branch names, alcohol, sectarian banners.
-- Prompt-ready line: "An Iraqi mandi restaurant: a round steel tray of
-  orange-gold rice with roast chicken sharp on the table, behind it a
-  raised carpeted floor-seating area with long cushions and a steel-lidded
-  oven pit glowing softly out of focus."
 - Confidence and sources: MEDIUM; EDITORIAL for staging.
 
 #### Venue: Burger, broast and fried-chicken shop (fast food, indoor)
+- Prompt-ready line: "A modern Baghdad burger shop at night: the meal
+  sharp on a wooden board, behind it a dark wall with a warm wood-slat
+  panel, glowing pendant bulbs and a steel kitchen pass softly blurred,
+  street lights through the glass."
 - Use for: restaurant or takeaway; afternoon, evening and late night;
   1–4, mostly young adults and families. Burgers and fried chicken are
   the most-ordered categories nationally (delivery-app data, 2023), ahead
   of shawarma, rice and stews. Baghdad has an estimated ~200 mostly local
   burger shops; Iraqis call fried chicken "Kentucky", the chain and its
   many imitators alike. Delivery apps (Talabat in seven cities since 2021,
-  Lezzoo in the north) make "on the go" often mean at home. [MEDIUM —
-  Middle East Eye 2023; San Diego Reader 2023; Travel Tramp; Talabat Iraq]
+  Lezzoo in the north) make "on the go" often mean at home. [MEDIUM · S32]
 - Soft background (the core): a bright, new, design-led interior. Matte
   black or concrete-grey walls with one warm wood-slat or exposed-brick
   feature wall, Edison-bulb pendants or neon tubes (text never legible),
@@ -425,8 +416,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
   street (Karrada, Jadriya, Mansour, 14 Ramadan Street, Erbil's 100m Road)
   as warm and white bokeh. Palette: black, warm wood, chrome, food-orange.
   Signature shapes: pendant row, steel pass, brick wall, lit street glass.
-  [LOW-MEDIUM — general Baghdad fast-casual pattern from listings, flag
-  for photo review]
+  [LOW-MEDIUM · S33]
 - Shell: a street-front shop with a full-glass front; malls (Mansour Mall,
   Baghdad Mall, Family Mall Erbil) for the food-court version.
 - The table as set here: a wooden board, black wire basket or tray paper
@@ -437,12 +427,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
   (any KFC, Pizza Hut or McDonald's look); a tray liner with print on it.
 - Never stage: chain logos or packaging (the only brand mark is the
   hero SKU), legible lightboxes, alcohol.
-- Prompt-ready line: "A modern Baghdad burger shop at night: the meal
-  sharp on a wooden board, behind it a dark wall with a warm wood-slat
-  panel, glowing pendant bulbs and a steel kitchen pass softly blurred,
-  street lights through the glass."
-- Confidence and sources: MEDIUM for the category facts; LOW-MEDIUM for
-  the interior.
+- Confidence: MEDIUM; LOW-MEDIUM for the interior. [S4]
 - Chain and shop types, and how each looks (added 2026-10-09). Iraq's
   fast food comes in five looks. Pick one per scene and stage it as a
   generic place, never a named one:
@@ -456,8 +441,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
      and the Zinger come from here. Stage only as a "bright modern
      fast-food interior". Never use the chains' trade dress: no red-and-
      white stripes, no bucket shapes, no mascot portraits, no house
-     colour blocks that read as one brand. [MEDIUM — Travel Tramp; The
-     National 2023; Middle East Eye 2023; Johnny Rockets press release]
+     colour blocks that read as one brand. [MEDIUM · S34]
   2. **Local themed burger concepts** (Baghdad has ~200 local burger
      shops, often with English names): the look is a deliberate theme. The
      sources describe a New York diner revival in Mansour (stone walls,
@@ -467,18 +451,16 @@ kebab venues above already cover masgouf, kebab and mashawi.
      strong feature wall (stone, graffiti mural, framed posters with
      nothing legible), dark ceilings, Edison or neon light, and a counter
      with a steel griddle. This is the closest real match for the burger
-     and zinger frames in the briefing. [MEDIUM — The National on Burger
-     Joint; Iraqi News on the 80s concept; Wanderlog on Graffiti Burger;
-     San Diego Reader 2023]
+     and zinger frames in the briefing. [MEDIUM · S35]
   3. **Family fried-chicken halls**: large, often two-storey dining rooms
      with extended families and groups of teenagers, sometimes an indoor
      play area. Bright, busy, practical. Off by default (people and
      children rules); use only as an empty, soft background of table rows.
-     [MEDIUM — AP 2012 on a Jadriya chicken chain; dated]
+     [MEDIUM · S36]
   4. **Mall food courts** (Mansour Mall and Baghdad Mall in Baghdad, Family
      Mall in Erbil): shared seating under high ceilings, a row of lit
      counters, international and local food side by side. Use for
-     families and weekends. [MEDIUM — mall reviews; TripAdvisor]
+     families and weekends. [MEDIUM · S37]
   5. **Neighbourhood takeaway and delivery shops** (the briefing's Rizo,
      Zinger and burger references come from shops like these): small
      counters, with much of the trade by delivery app. Their own social
@@ -499,10 +481,13 @@ kebab venues above already cover masgouf, kebab and mashawi.
   briefing pile the sauce on more heavily. [MEDIUM]
 
 #### Venue: Falafel and kass sandwich counter (street, day and night)
+- Prompt-ready line: "An Iraqi sandwich counter: a split samoon stuffed
+  with meat sharp on white paper, behind it a turning meat spit glowing
+  amber, a steel tray of salads and a stack of diamond-shaped loaves
+  softly blurred under tiled-wall light."
 - Use for: meal on the go; 1–2; any hour, peaks at lunch and late night.
   Falafel and shawarma counters are in nearly every neighbourhood; samoon
-  sandwiches are the cheap everyday meal. [MEDIUM — Baghdad food guides;
-  AFP/eNCA on samoon]
+  sandwiches are the cheap everyday meal. [MEDIUM · S38]
 - Soft background (the core): a vertical spit of stacked beef or lamb
   (the kass) turning in front of a glowing upright grill, a steel bain-marie of chopped
   tomato, cucumber, onion, parsley, pickles and a tray of fried aubergine
@@ -519,34 +504,29 @@ kebab venues above already cover masgouf, kebab and mashawi.
   split samoon); Turkish döner shop red-and-white branding; a
   tahini-only white drizzle (amba yellow is the Iraqi signature).
 - Never stage: legible price boards, alcohol, brand marks.
-- Prompt-ready line: "An Iraqi sandwich counter: a split samoon stuffed
-  with meat sharp on white paper, behind it a turning meat spit glowing
-  amber, a steel tray of salads and a stack of diamond-shaped loaves
-  softly blurred under tiled-wall light."
 - Confidence and sources: MEDIUM.
 
 #### Venue: Casual café-restaurant for pizza and pasta (indoor, families and friends)
+- Prompt-ready line: "A warm Baghdad café-restaurant in the evening: the
+  dish sharp on a wooden table, behind it brick walls, amber pendant lamps
+  and plants softly blurred."
 - Use for: restaurant, indoor; evening; 2–4, friends or families. Pizza
   and pasta are sold alongside Iraqi and fast-food menus more often than
   in Italian specialists (Baghdad listings tag places "Pizza, Fast Food" or
   "American, Pizza"). Mansour, Karrada and the Tigris riverfront are the
   café-restaurant districts; some sit on upper floors with city views.
-  [MEDIUM — TripAdvisor and Talabat Baghdad tags; Tolo' Iraq pizza guide]
+  [MEDIUM · S39]
 - Soft background (the core): a warm, dim café-restaurant. Wood and
   exposed-brick or rendered walls in terracotta or deep red, warm pendant
   lamps, potted plants, other tables empty or with 1–2 soft adult shapes,
   and in upmarket places a glimpse of a pizza oven mouth glowing orange.
   Palette: brick red, honey wood, amber, olive green. This is close to the
-  briefing's house look, so the two blend well. [LOW — pattern only, flag
-  for photo review]
+  briefing's house look, so the two blend well. [LOW · S40]
 - The table as set here: pizza on a round wooden board or steel tray,
   pasta in a wide white rimmed bowl, fork, paper napkin. Hero SKU beside.
 - Hallucination traps: red-check tablecloths, chianti bottles, wine
   glasses, candles in bottles (the Italian-trattoria cliché).
 - Never stage: alcohol, legible menus, pork toppings.
-- Prompt-ready line: "A warm Baghdad café-restaurant in the evening: the
-  dish sharp on a wooden table, behind it brick walls, amber pendant lamps
-  and plants softly blurred."
 - Confidence and sources: LOW-MEDIUM.
 
 ## TRUSTED CONTENT
@@ -580,11 +560,11 @@ when the brief names it. No mixer framing, no alcohol adjacency.
   yellowish, Middle Euphrates) is the prestige rice; the "temmen" name's
   "Ten Men" brand folklore is vocabulary context. Multi-step cooking for
   fluffy grains, plus the hikakeh crisp bottom crust broken and shared, is
-  the checkable technique. [HIGH] [SOURCE: Iraqi cuisine]
+  the checkable technique. [HIGH] [S41]
 - **Bread always on the table.** Samoon (diamond or pointed oval) plus the
   khubz / laffa / lavash / markook family; torn by hand. Tashreeb exists
   precisely to use bread: torn nan soaked in lamb or chicken-tomato broth
-  in a big bowl. [HIGH] [SOURCE: Iraqi cuisine]
+  in a big bowl. [HIGH] [S41]
 - **Halal lamb default; no pork.** Chicken, beef, goat and fish follow.
   Stews over rice are the centre, not grilled-only. [HIGH]
 - **Stew + rice + bread + pickle + yogurt pattern.** Fasolia yabsa (white
@@ -597,7 +577,7 @@ when the brief names it. No mixer framing, no alcohol adjacency.
   everyday frequency]
 - **North pomegranate, south fish, centre sweets.** The north adds
   pomegranate juice to dolma; the south centres on fish; the centre is
-  known for rice and sweets (kleicha). [MEDIUM-HIGH] [SOURCE: Iraqi cuisine]
+  known for rice and sweets (kleicha). [MEDIUM-HIGH] [S41]
 - **Utensils:** spoon and fork (the spoon leads for rice and stew); knives
   rarely at the table; bread torn by hand; shared platters and individual
   bowls coexist. The communal flatbread under masgouf soaks up the juices
@@ -707,21 +687,20 @@ with an egg-wash sheen; torn samoon with an airy crumb and a crisp ridge.
 - **Masgouf open-cut, skin-on, stake-grilled.** Butterflied carp opened
   flat, scored, marinated (oil + salt + turmeric + tamarind), slow-roasted
   by the embers; garnished with lemon, onion and tomato + flatbread, not
-  rice. [HIGH — Iraqi cuisine + Masgouf] Negate: deep-fried whole fish, a
+  rice. [HIGH · S42] Negate: deep-fried whole fish, a
   grill-marked salmon steak, a charred kebab-only spread.
 - **Kubba tri-form rule (Iraq-specific):** Kubba Mosul = flat round disc
   (Mosul); Kubba Halab = rice-potato crust (Aleppo-named, Iraqi); kubbat
   shorba = stew dumplings in tomato-turnip-chard broth. Do not render all
-  kubba as the Levantine fried torpedo only. [HIGH] [SOURCE: Wikipedia:
-  Kibbeh]
+  kubba as the Levantine fried torpedo only. [HIGH] [S43]
 - **Dolma pot, not single leaf.** The Mosul-style mixed pot (courgette,
   tomato, onion, pepper, aubergine, vine leaves) in tomato sauce, sometimes
   steamed; the north adds a pomegranate tang. No yogurt by default (Iraqis
-  usually serve it without). [MEDIUM-HIGH] [SOURCE: Iraqi cuisine]
+  usually serve it without). [MEDIUM-HIGH] [S41]
 - **Kleicha shapes:** date-filled rounds (kleichat tamur), nut half-moons
   (kleichat joz), sweet discs (khfefiyyat); cardamom or rose, egg-wash
   (sometimes saffron-tinted). Distinct from ma'amoul (no semolina). [HIGH]
-  [SOURCE: Wikipedia: Kleicha]
+  [S44]
 
 ### ENVIRONMENT & STAGING SCENES
 
@@ -775,8 +754,7 @@ settings when 2). [EDITORIAL]
 Shawarma wrap; falafel + samoon + salad + amba; lahm b'ajeen (thin
 minced-meat flatbread with parsley, tomato, onion and lemon); sfiha open
 meat pies; burek (phyllo + cheese, meat or potato); kahi + qeimar mornings
-(south). Wrapped in paper, lightly sauced; no excess garnish. [MEDIUM —
-Iraqi cuisine breads and pastries list]
+(south). Wrapped in paper, lightly sauced; no excess garnish. [MEDIUM · S45]
 
 ### CROSS-CUTTING REGISTER: FESTIVALS & SEASONAL OCCASIONS
 
@@ -805,7 +783,7 @@ or children.
   the fast, then rice + tashreeb, quzi or biryani + jajik + turshi +
   sharbat; kleicha later with chai. Staging: a bowl of dates + soup + the
   main platter; lantern glow as bokeh only (no legible calligraphy).
-  [MEDIUM — general Ramadan pattern; Iraq-specific soup mix LOW]
+  [MEDIUM · S46]
 - Never stage: alcohol, pork, daytime eating, a shrine in sharp focus,
   sectarian slogans.
 - Confidence and sources: MEDIUM-LOW; needs SME + TCCC sign-off.
@@ -816,8 +794,7 @@ or children.
 - The spread: quzi (stuffed slow-roast lamb + rice + nuts and raisins) or
   tashreeb in the centre; kleicha trays (date rounds + nut half-moons +
   discs) with chai (documented, not staged with the hero). Eid al-Adha adds
-  qurban meat sharing (no slaughter in frame). [MEDIUM — Iraqi cuisine
-  quzi + Kleicha pages]
+  qurban meat sharing (no slaughter in frame). [MEDIUM · S47]
 - Snapshot staging: the quzi platter in the centre, a kleicha board at the
   edge, hero SKU per brief.
 - Never stage: slaughter, blood, alcohol, full flags.
@@ -833,8 +810,7 @@ or children.
   courtyard or kitchen; no processions, no ritual imagery, no faces in
   sharp focus, no text banners. **Requires TCCC / legal sign-off before any
   use.**
-- Confidence and sources: MEDIUM for the food; LOW for staging; EDITORIAL
-  framing.
+- Confidence: MEDIUM; LOW for staging; EDITORIAL framing. [S5]
 
 #### Celebration: Wedding (quzi centre)
 - Type: life event. A hall or home courtyard, 50–200 (editorial).
@@ -859,8 +835,7 @@ or children.
 National-team football at home (evening); a Baghdad derby screening at a
 café (food-led, tea out of frame, hero SKU only). Spread: kebab trays,
 falafel + samoon, crisps and nuts, turshi. No alcohol, no club crests in
-sharp focus, no sectarian colours as decor, no full flags. [LOW — model
-pattern; needs SME]
+sharp focus, no sectarian colours as decor, no full flags. [LOW · S48]
 
 #### Watch party: national-team night at home
 The same apartment living room as the home venue; 3–6 settings implied by
@@ -895,6 +870,15 @@ SKU. No gambling cues. [LOW]
 until the Iraq pack is confirmed (provisional).
 
 #### Dish: Masgouf (national dish — Baghdad/Basra/Tigris)
+- Prompt-ready line: "Half butterflied river carp about two can-heights
+  long, amber turmeric glaze with crisp skin, laid over a round flatbread
+  on a large steel tray with lemon, onion rings and tomato wedges. No
+  rice, no fried batter, no alcohol."
+- Prompt-ready line (briefing archive look): "A butterflied grilled
+  carp, opened flat and golden-brown with dark char streaks, about one
+  and a half bottle heights long, on a long dark-grey oval platter over
+  rocket and lettuce with lemon wedges, pickled cucumber, black olives
+  and red pepper strips. No batter, no rice."
 - Category: Main; Friday and riverside restaurant signature.
 - Cuisine lineage: Native Mesopotamian.
 - Regional form variation: open fire on stakes in the centre and south; a
@@ -908,8 +892,7 @@ until the Iraq pack is confirmed (provisional).
   flames, for roughly 45–60 minutes or more. At the end it's laid
   skin-down on the embers to crisp. Some cooks brush on a turmeric
   tomato-onion topping. Served on a tray over flatbread with lemon, raw
-  onion, tomato, pickles and amba. [MEDIUM-HIGH — Jídlo na cestách
-  "Masgouf"; National Dish; worldfood.guide; Masgouf pages]
+  onion, tomato, pickles and amba. [MEDIUM-HIGH · S49]
 - Briefing note (TCCC AO Meals Phase 2, 2026-10-09): the briefing marked
   the archive masgouf **"reference is ok"**. That frame shows a
   **restaurant-plated** version: a half fish, golden-brown with dark char
@@ -931,14 +914,13 @@ until the Iraq pack is confirmed (provisional).
 - Utensils: bread torn by hand, a fork to help.
 - Visual/plating characteristics: butterflied flat, scored crosshatch, an
   amber-gold turmeric-tamarind glaze, a crisp blistered skin edge, moist
-  white flake; embers and smoke behind. [MEDIUM-HIGH — Iraqi cuisine +
-  Masgouf]
+  white flake; embers and smoke behind. [MEDIUM-HIGH · S42]
 - Real-world scale (§4.5): fish 40–60cm whole [LOW — flag]; a half portion
   ~20–30cm, about 2–2.5 can heights long. [LOW]
 - Common confusion: not deep-fried fish; not a salmon steak; not a kebab
   platter.
 - Confidence: HIGH for identity and method; LOW for exact size.
-- Sources: Wikipedia: Masgouf; Wikipedia: Iraqi cuisine
+- Sources: [S6]
 - Composition & proportions (§4.7) [EDITORIAL shares]:
   - What dominates: **the fish**, ~60% of the top view, over bread ~30%,
     garnish ~10%.
@@ -950,17 +932,17 @@ until the Iraq pack is confirmed (provisional).
   - State cues: steam, glistening oil, char flecks.
   - Absent on purpose: a rice mound, grill-mark stripes, tartar sauce,
     alcohol.
-  - Prompt-ready line: "Half butterflied river carp about two can-heights
-    long, amber turmeric glaze with crisp skin, laid over a round flatbread
-    on a large steel tray with lemon, onion rings and tomato wedges. No
-    rice, no fried batter, no alcohol."
-  - Prompt-ready line (briefing archive look): "A butterflied grilled
-    carp, opened flat and golden-brown with dark char streaks, about one
-    and a half bottle heights long, on a long dark-grey oval platter over
-    rocket and lettuce with lemon wedges, pickled cucumber, black olives
-    and red pepper strips. No batter, no rice."
 
 #### Dish: Quzi (qozi — festive lamb + rice)
+- Prompt-ready line: "Slow-roast lamb joint with crisp brown crust atop a
+  large oval mound of fluffy rice scattered with raisins and nuts, on a
+  steel platter. No skewers, no sauce pool."
+- Prompt-ready line (briefing look): "A large round polished steel tray,
+  about twice the bottle's height across, heaped with yellow basmati
+  under a thick layer of browned vermicelli rice studded with green
+  peas, diced carrot, blanched almonds and raisins, topped by two
+  glossy dark-brown slow-roast lamb shanks with the bone ends showing.
+  No small plate, no skewers."
 - Category: Celebration and Friday centrepiece.
 - Cuisine lineage: Native Iraqi / Arab festive.
 - Primary protein/composition: slow-roast whole lamb or shoulder (stuffed)
@@ -976,9 +958,7 @@ until the Iraq pack is confirmed (provisional).
   (sha'riya), fried in oil with cardamom and cloves, mixed with blanched
   almonds and raisins, and often peas and diced carrot. To serve, the rice
   is mounded, the meat set on top, the vermicelli mix spread over it.
-  Served with a white bean or okra stew on the side. [MEDIUM — Hungry
-  Paprikas "Quzi"; MEM Global "Timmen Qouzi"; Village Voice / San Diego
-  Reader write-ups]
+  Served with a white bean or okra stew on the side. [MEDIUM · S50]
 - Briefing note (TCCC AO Meals Phase 2): the archive quzi was rejected
   ("doesn't look like Iraqi quzi"); it showed a small round dish. The
   approved references are all a **large round metal tray** (polished
@@ -998,20 +978,13 @@ until the Iraq pack is confirmed (provisional).
 - Common confusion: not a shawarma pile; not a layered biryani pot (quzi
   has the meat on top).
 - Confidence: MEDIUM-HIGH.
-- Sources: Wikipedia: Iraqi cuisine
+- Sources: [S7]
 - Composition & proportions (§4.7) [EDITORIAL]: meat ~30%, rice ~55%,
   garnish ~15%; one platter per 4–6 people.
-  - Prompt-ready line: "Slow-roast lamb joint with crisp brown crust atop a
-    large oval mound of fluffy rice scattered with raisins and nuts, on a
-    steel platter. No skewers, no sauce pool."
-  - Prompt-ready line (briefing look): "A large round polished steel tray,
-    about twice the bottle's height across, heaped with yellow basmati
-    under a thick layer of browned vermicelli rice studded with green
-    peas, diced carrot, blanched almonds and raisins, topped by two
-    glossy dark-brown slow-roast lamb shanks with the bone ends showing.
-    No small plate, no skewers."
 
 #### Dish: Tashreeb / tharid (bread soaked in broth)
+- Prompt-ready line: "Deep bowl of soft broth-soaked torn flatbread with
+  lamb chunks in glossy tomato broth, steam, no crisp croutons."
 - Category: Everyday family; Ramadan-adjacent.
 - Primary protein/composition: lamb or chicken pieces in a tomato broth,
   poured over torn nan or khubz. [HIGH — Iraqi cuisine]
@@ -1023,16 +996,13 @@ until the Iraq pack is confirmed (provisional).
 - Common confusion: not a soup with bread on the side (the bread is
   inside); not fattoush (no crisp pita).
 - Confidence: MEDIUM-HIGH.
-- Sources: Wikipedia: Iraqi cuisine
+- Sources: [S7]
 - Composition & proportions (§4.7) [EDITORIAL]: bread ~50% of the volume,
   broth ~35%, meat ~15%.
-  - Prompt-ready line: "Deep bowl of soft broth-soaked torn flatbread with
-    lamb chunks in glossy tomato broth, steam, no crisp croutons."
 
 #### Dish: Kubba trio (Iraq-specific — must not collapse to the Levantine torpedo)
 - **Kubba Mosul:** a flat round disc, bulgur shell + chopped meat,
-  pan-fried or baked; a ~20–25cm disc [MEDIUM-LOW]. [SOURCE: Wikipedia:
-  Kibbeh]
+  pan-fried or baked; a ~20–25cm disc [MEDIUM-LOW]. [S43]
 - **Kubba Halab:** a rice-potato crust, the Aleppo-named Iraqi form; oval,
   crisp gold. [MEDIUM]
 - **Kubbat shorba:** small dumplings in a tomato-turnip-chard stew; turnip
@@ -1045,6 +1015,9 @@ until the Iraq pack is confirmed (provisional).
   prompt-ready line per variant on use.
 
 #### Dish: Dolma — Mosul mixed pot (with the northern pomegranate note)
+- Prompt-ready line: "Bowl of glossy stuffed vine leaves, courgette, onion
+  and tomato in light tomato sauce with rice-meat filling peeking, no
+  yogurt, no char."
 - Category: Family pot; Friday and celebration.
 - Primary protein/composition: courgette, tomato, onion, pepper, aubergine
   and vine leaves stuffed with rice + lamb or beef, cooked together in
@@ -1058,12 +1031,9 @@ until the Iraq pack is confirmed (provisional).
 - Common confusion: not a plate of single-leaf Greek dolmades; not
   yogurt-topped.
 - Confidence: MEDIUM-HIGH.
-- Sources: Wikipedia: Iraqi cuisine
+- Sources: [S7]
 - Composition & proportions (§4.7) [EDITORIAL]: 6–10 mixed pieces per bowl,
   shallow broth.
-  - Prompt-ready line: "Bowl of glossy stuffed vine leaves, courgette, onion
-    and tomato in light tomato sauce with rice-meat filling peeking, no
-    yogurt, no char."
 
 #### Dish: Tepsi baytinijan + Margat bamia + Fasolia (stew cluster — compact)
 - **Tepsi:** sliced fried aubergine + lamb, beef or meatballs + tomato,
@@ -1077,7 +1047,7 @@ until the Iraq pack is confirmed (provisional).
 - Visual: a caramel top (tepsi), intact okra and beans, glossy tomato, oil
   beads.
 - Confidence: HIGH for identity; MEDIUM for everyday frequency.
-- Sources: Wikipedia: Iraqi cuisine. Composition [EDITORIAL].
+- Sources: [S8]
 
 #### Dish: Qeema (Ashura-linked mince + chickpea)
 - Minced meat + tomato + chickpea over rice; the name is from Akkadian
@@ -1089,19 +1059,18 @@ until the Iraq pack is confirmed (provisional).
 - Confidence: MEDIUM; needs SME.
 
 #### Dish: Kleicha (Eid cookie — date / nut / disc)
+- Prompt-ready line: "Three golden patterned date-filled round cookies and
+  two crimped half-moons with dark date edge on a small plate. No powdered
+  sugar, no chocolate."
 - Date-filled (kleichat tamur), nut half-moons (kleichat joz), sweet discs
   (khfefiyyat); cardamom or rose, egg-wash (sometimes saffron); no semolina
   (vs. ma'amoul). Eid al-Fitr and al-Adha, weddings; Assyrian Easter and
-  Christmas with dates and tea; Iraqi Jewish Hanukkah. [HIGH] [SOURCE:
-  Wikipedia: Kleicha]
+  Christmas with dates and tea; Iraqi Jewish Hanukkah. [HIGH] [S44]
 - Visual: golden patterned rounds ~6–8cm [EDITORIAL], crimped half-moons, a
   dark date-paste edge where split; matte with a sheen. Negate: powdered
   ma'amoul domes, chocolate chips.
 - Composition & proportions (§4.7): 3–5 per small plate; chai documented,
   not staged with the hero.
-  - Prompt-ready line: "Three golden patterned date-filled round cookies and
-    two crimped half-moons with dark date edge on a small plate. No powdered
-    sugar, no chocolate."
 
 ### AO MEALS PHASE 2 SET (TCCC briefing, added 2026-10-09)
 
@@ -1143,34 +1112,35 @@ bottle is 200–210mm tall × 60–65mm wide; use it when the brief names glass
 anchor above. The Iraq pack is still unconfirmed (GAP LOG).
 
 #### Dish: Laham kass (لحم كص — "meat kass", Iraqi shawarma in samoon)
+- Prompt-ready line: "One diamond-shaped Iraqi samoon loaf about the
+  length of the glass bottle, split along its side and packed with
+  thin, crisp-edged ribbons of browned beef shawarma, red tomato pieces,
+  onion and parsley, with a thin yellow line of mango amba, on plain
+  white paper, a lemon wedge beside it. No pita, no wrap, no falafel."
 - Category: Everyday street food; lunch, late night, on the go.
 - Cuisine lineage: Iraqi member of the vertical-spit family (döner,
   shawarma). Iraqis kept the name "kass" (from the verb "to cut", for the
   knife shaving the spit), spelled كص, قص or گص; "guss" in some
-  transliterations. [MEDIUM — Jídlo na cestách "Guss"; Arabic recipe
-  sources]
+  transliterations. [MEDIUM · S51]
 - Authentic preparation: thin slices of beef or veal (sometimes lamb),
   marinated in vinegar or lemon, onion and a kass spice mix (bharat), are
   stacked on a vertical spit, layered with slices of lamb fat, and roasted
   in front of an upright grill. The cook shaves the browned outside off
   with a long knife onto a griddle, sometimes giving it a final toss. Home
-  versions bake thin slices layered with fat in a tray. [MEDIUM — Arabic
-  recipe sources (Mawdoo3, Alwasat)]
+  versions bake thin slices layered with fat in a tray. [MEDIUM · S52]
 - Serving format: **sandwich** default: one samoon split along its side
   and stuffed. A plate version (meat with bread on the side) exists; give
   it its own scene if a brief asks.
 - Fillings: shaved meat, tomato, raw onion (often with parsley and
   sumac), pickles, amba (yellow mango pickle sauce), sometimes hummus or
-  garlic sauce, a lemon wedge on the side. [MEDIUM — multiple restaurant
-  sources]
+  garlic sauce, a lemon wedge on the side. [MEDIUM · S53]
 - Serving vessel: plain white paper, a small wooden board or a slate; a
   pickle saucer (cucumber pickles, tomato) beside it.
 - Visual/plating characteristics: the diamond samoon (pointed both ends,
   golden, slightly blistered, sometimes sesame or nigella) opened along
   one side like a boat, packed with browned, shaggy, thin ribbons of meat
   with crisp edges, red tomato pieces, white onion, green parsley, and
-  a ribbon of yellow amba. [HIGH for the samoon form — briefing references
-  + AFP; MEDIUM for fillings]
+  a ribbon of yellow amba. [HIGH for the samoon form; MEDIUM for fillings · S54]
 - Real-world scale (§4.5): samoon ~20–25cm long, ~9–11cm wide at the
   middle [MEDIUM-LOW — flag], so about the height of the glass bottle
   laid flat; filling ~3–4cm proud of the bread.
@@ -1178,8 +1148,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   pocket, not a Turkish döner in a round pide. The briefing's archive
   image had falafel in this bread; the brief replaces it with meat.
 - Confidence: MEDIUM.
-- Sources: Jídlo na cestách — Guss; Mawdoo3 kass recipe; Alwasat kass
-  article; Charlottesville29 (Al Basha); briefing food references.
+- Sources: [S9]
 - Composition & proportions (§4.7) [EDITORIAL shares]:
   - What dominates: **the samoon** ~55% of the view, meat ~30%, tomato,
     onion, parsley and amba ~15%.
@@ -1192,24 +1161,23 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   - State cues: glistening meat fat, crisp brown edges, warm bread.
   - Absent on purpose: falafel, lettuce shreds overflowing, cheese, a
     wrap, chips inside.
-  - Prompt-ready line: "One diamond-shaped Iraqi samoon loaf about the
-    length of the glass bottle, split along its side and packed with
-    thin, crisp-edged ribbons of browned beef shawarma, red tomato pieces,
-    onion and parsley, with a thin yellow line of mango amba, on plain
-    white paper, a lemon wedge beside it. No pita, no wrap, no falafel."
 
 #### Dish: Iraqi falafel in samoon (فلافل بالصمون)
+- Prompt-ready line: "An Iraqi samoon loaf opened like a boat on white
+  paper, holding three dark-brown craggy falafel, folded slices of fried
+  aubergine with purple skin, diced tomato and cucumber and a streak of
+  yellow mango amba, the bread about the length of the glass bottle.
+  No pita, no rolled wrap."
 - Category: Everyday street food; cheap lunch, any hour.
 - Cuisine lineage: Levantine and Egyptian fritter adopted into the Iraqi
   samoon sandwich; amba is the Iraqi signature (Baghdadi trade with India,
-  19th century). [MEDIUM — Beyond Babylon "Amba"; Baghdad food guides]
+  19th century). [MEDIUM · S55]
 - Authentic preparation: soaked raw chickpeas (not cooked) ground with
   onion, garlic, parsley, coriander and cumin, shaped and deep-fried to a
   dark brown crust. The samoon is split and filled at the counter with 2–4
   falafel, fried aubergine slices, chopped tomato and cucumber, pickles,
   shredded cabbage or lettuce, and amba; some shops add fried potato or a
-  boiled egg (the sabich-style combination, "mshakal" = mixed). [MEDIUM —
-  restaurant menus + guides; the sabich link is HIGH (Wikipedia: Sabich)]
+  boiled egg (the sabich-style combination, "mshakal" = mixed). [MEDIUM · S56]
 - Serving format: sandwich (default).
 - Serving vessel: white paper or a wooden board; at the counter it is
   handed over in paper.
@@ -1217,7 +1185,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   or three round dark-brown craggy falafel (green inside if broken),
   purple-black fried aubergine slices with golden flesh, red tomato, pale
   green cucumber cubes, yellow amba and a few yellow potato pieces.
-  [HIGH — briefing references show exactly this; MEDIUM for frequency]
+  [HIGH; MEDIUM for frequency · S57]
 - Real-world scale (§4.5): falafel 4–5cm across [MEDIUM]; samoon as above.
 - Common confusion: the archive failed here. Not a pita pocket with
   falafel and white tahini drizzle, and not a long flatbread with a black
@@ -1225,8 +1193,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   Iraqi tells are the diamond samoon, the fried aubergine and the yellow
   amba.
 - Confidence: MEDIUM-HIGH.
-- Sources: Baghdad food guide (Secret Flying); Beyond Babylon; Wikipedia:
-  Sabich; eNCA/AFP samoon; briefing food references.
+- Sources: [S10]
 - Composition & proportions (§4.7) [EDITORIAL shares]:
   - What dominates: **the samoon** ~50%, falafel ~20%, aubergine ~15%,
     salad and amba ~15%.
@@ -1237,18 +1204,17 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   - State cues: crisp dark crust on the falafel, oil sheen on aubergine.
   - Absent on purpose: pita, white tahini as the only sauce, hummus
     swirl, black sesame crust.
-  - Prompt-ready line: "An Iraqi samoon loaf opened like a boat on white
-    paper, holding three dark-brown craggy falafel, folded slices of fried
-    aubergine with purple skin, diced tomato and cucumber and a streak of
-    yellow mango amba, the bread about the length of the glass bottle.
-    No pita, no rolled wrap."
 
 #### Dish: Iraqi kebab (كباب عراقي — "meat kebap")
+- Prompt-ready line: "Three long hand-pressed Iraqi lamb kebabs, dark
+  brown with charred ridges, each about the height of the glass bottle,
+  laid side by side over a round tannour flatbread on a white plate with
+  two blistered grilled tomatoes, a grilled green chili and a heap of
+  sumac onion and parsley. No rice, no skewers."
 - Category: Everyday grill; dinner and late night; also the backbone of
   mashawi.
 - Cuisine lineage: Iraqi grill (minced lamb kebab, a Baghdad and Mosul
-  standard). [MEDIUM — Nawal Nasrallah, Delights from the Garden of Eden
-  (via ckbk); restaurant menus]
+  standard). [MEDIUM · S58]
 - Authentic preparation: minced lamb (often with tail fat) kneaded with
   grated onion, salt and pepper, sometimes parsley, until sticky, then
   pressed by hand along wide flat steel skewers and grilled over charcoal
@@ -1264,15 +1230,13 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   turshi (pink turnip, cucumber), sometimes hummus under the kebab.
 - Visual/plating characteristics: 3–4 long kebabs, dark brown with char on
   the ridges, side by side over bread, red-black blistered tomatoes, a
-  heap of sumac onion with parsley. [HIGH — briefing references + menus]
+  heap of sumac onion with parsley. [HIGH · S59]
 - Real-world scale (§4.5): each kebab ~18–22cm long and ~3cm thick
   [EDITORIAL]; about the height of the glass bottle.
 - Common confusion: not Turkish Adana with its red pepper flakes and
   lavash as the default; not cubed shish; not köfte balls.
 - Confidence: MEDIUM.
-- Sources: ckbk (Nasrallah, Iraqi grilled kebab); How to Make a Kebab
-  (Iraqi tikka); Sumaq Iraqi Charcoal Grill (blogTO); Kabab Erbil Dubai
-  menu; briefing food references.
+- Sources: [S11]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **kebabs** ~45%, bread ~30%, tomato, onion and greens
     ~25%.
@@ -1284,13 +1248,13 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     skins.
   - Absent on purpose: skewers left in on the plate (usually pulled),
     rice by default, yogurt sauce pooled on top, pork.
-  - Prompt-ready line: "Three long hand-pressed Iraqi lamb kebabs, dark
-    brown with charred ridges, each about the height of the glass bottle,
-    laid side by side over a round tannour flatbread on a white plate with
-    two blistered grilled tomatoes, a grilled green chili and a heap of
-    sumac onion and parsley. No rice, no skewers."
 
 #### Dish: Mashawi mixed grill tray (مشاوي)
+- Prompt-ready line: "A round steel tray about twice the bottle's height
+  across, lined with thin flatbread and heaped with charred lamb kebab
+  logs, cubes of dark lamb tikka and orange-red chicken tikka, ringed by
+  blistered tomatoes, grilled green peppers, small charred onions,
+  magenta pickled turnip and lemon wedges. No slate board."
 - Category: Shared grill; family dinner, Friday, groups, delivery.
 - Cuisine lineage: Iraqi grill (shared mixed grill).
 - Authentic preparation: kebab (above), lamb tikka (lamb chunks buried in
@@ -1300,7 +1264,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   lamb liver, heart or kidney, and grilled chicken wings, all over
   charcoal. Whole tomatoes, onions and green peppers are grilled beside
   them. Everything is pulled off the skewers onto bread laid on the tray.
-  [MEDIUM — Iraqi tikka recipe; Iraqi restaurant menus (Dubai, Texas)]
+  [MEDIUM · S60]
 - Serving format: shared, one tray in the centre.
 - Serving vessel: a **large round steel tray** (stainless or hammered,
   scalloped rim, 40–50cm [EDITORIAL]) or a wooden board lined with thin
@@ -1320,8 +1284,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   round steel tray lined with bread and heaped with meat and charred
   vegetables, not a dark slate.
 - Confidence: MEDIUM-HIGH for the look; MEDIUM for exact contents.
-- Sources: How to Make a Kebab (Iraqi tikka); Kabab Erbil Dubai menu;
-  Mashawi Grill menu; Wikipedia: Mixed grill; briefing food references.
+- Sources: [S12]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **meat** ~55% (kebab ~25, lamb tikka ~15, chicken
     tikka ~15), vegetables and pickles ~30%, bread at the rim ~15%.
@@ -1333,11 +1296,6 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   - State cues: char, fat sheen, steam, blistered skins.
   - Absent on purpose: slate board, microgreens, skewers sticking out,
     rice in the tray, pork.
-  - Prompt-ready line: "A round steel tray about twice the bottle's height
-    across, lined with thin flatbread and heaped with charred lamb kebab
-    logs, cubes of dark lamb tikka and orange-red chicken tikka, ringed by
-    blistered tomatoes, grilled green peppers, small charred onions,
-    magenta pickled turnip and lemon wedges. No slate board."
 
 - Deeper detail (added 2026-10-09): **each item on the tray, its texture
   and colour.** Mashawi looks right when each meat reads differently:
@@ -1355,13 +1313,11 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
 | Grilled onion | Small whole onions or halves | Soft, layered, charred outer skin | Pale with black char |
 | Grilled green chili / pepper | Long finger chili or bell-pepper rings | Blistered, collapsed | Bright green with black blisters |
 
-  [MEDIUM — Iraqi tikka and kebab recipes (How to Make a Kebab; Hungry
-  Paprikas); Kabab Erbil; Iraqi Family Cookbook (liver); briefing
-  references for colours]
+  [MEDIUM · S61]
 - **Regional note:** Erbil kebab is advertised as coarse, hand-minced, no
   bread or binder; Baghdad kebab is judged on char against juice and
   pressed into long thin fingers. Both look knobbly, never smooth like a
-  sausage. [LOW-MEDIUM — one restaurant and one recipe site]
+  sausage. [LOW-MEDIUM · S62]
 - **Ordering units:**
   - **Solo:** one plate, one kebab skewer plus one tikka skewer (or 2
     kebab) on a round of bread with one grilled tomato, onion-parsley and
@@ -1371,8 +1327,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   - **Family / friends:** one or two 45–50cm trays, kebab and tikka
     heaped in bands with liver or wings added, bread under everything,
     side bowls of hummus, jajik, salad and pickles, extra bread stacked.
-    [MEDIUM — Kabab Erbil Dubai "mixed grill for two = eight skewers";
-    recipe serving counts; EDITORIAL for trays]
+    [MEDIUM; EDITORIAL for trays · S63]
 - **Prompt lines by unit:**
   - Solo: "A round tannour flatbread on a white plate with one knobbly
     dark-brown lamb kebab, one skewer's worth of seared lamb tikka chunks
@@ -1385,26 +1340,29 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     turnip pickles, small bowls of hummus and salad around them."
 
 #### Dish: Iraqi mandi (مندي)
+- Prompt-ready line: "A round steel tray of long-grain orange-gold
+  mandi rice heaped to the rim, a smoky red-brown roast half chicken on
+  top, lemon halves and whole green chilies around it, a small bowl of
+  red chili-tomato sauce beside, the tray about one and a half bottle
+  heights across. No biryani layers, no curry."
 - Category: Restaurant and delivery favourite; lunch, dinner, gatherings.
 - Cuisine lineage: Yemeni (Hadramawt), widespread across the Gulf and now
   in Iraq through dedicated mandi chains. Iraqi branches pair the Yemeni
-  pit method with Iraqi seasoning. [MEDIUM — Saudipedia: Mandi; Wikipedia:
-  Mandi; Khan Mandi (Baghdad)]
+  pit method with Iraqi seasoning. [MEDIUM · S64]
 - Authentic preparation: chicken halves or lamb pieces are rubbed with the
   hawaij spice mix, then hung on a rack inside a tannour (a brick-lined
   cylindrical pit with charcoal at the base), above a pot of basmati rice
   cooking in stock with whole spices and dried black lime. The pit is
   sealed so smoke and dripping fat flavour the rice; done in about two
   hours. Restaurants also use electric mandi ovens. The meat comes out
-  tender with a smoky, burnished red-brown skin. [MEDIUM-HIGH — Saudipedia;
-  Wikipedia]
+  tender with a smoky, burnished red-brown skin. [MEDIUM-HIGH · S65]
 - Serving format: shared tray (default) or single portion.
 - Serving vessel: a **round steel tray** with a raised patterned rim
   (single portion ~30cm, shared 40–50cm [EDITORIAL]).
 - Side dishes/condiments: lemon halves, whole green chilies on the rice,
   a red tomato-chili sauce (sahawiq or daqqus style) and laban (yogurt) in
   small bowls, a small salad. Some add fried onions, raisins or nuts on
-  the rice. [MEDIUM — Khan Mandi menu; recipe sources]
+  the rice. [MEDIUM · S66]
 - Visual/plating characteristics: a mound of long separate grains in
   orange-gold with streaks of white and darker grains, a half or whole
   spatchcocked chicken (red-brown, glossy, lightly charred) or a lamb shank
@@ -1417,9 +1375,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   not kabsa (tomato-red, the meat stewed, not smoked), though they look
   close; mandi grains are paler and more separate.
 - Confidence: MEDIUM.
-- Sources: Saudipedia "Mandi"; Wikipedia: Mandi (food); Khan Mandi
-  (Baghdad branches and menu); Baghdad mandi restaurant listings; briefing
-  food references.
+- Sources: [S13]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **rice** ~60%, meat ~30%, lemon, chili and garnish
     ~10%.
@@ -1430,20 +1386,13 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   - State cues: steam, glossy skin, some charred spots, separate grains.
   - Absent on purpose: green ceramic plate, curry sauce, mixed vegetable
     pieces through the rice, naan.
-  - Prompt-ready line: "A round steel tray of long-grain orange-gold
-    mandi rice heaped to the rim, a smoky red-brown roast half chicken on
-    top, lemon halves and whole green chilies around it, a small bowl of
-    red chili-tomato sauce beside, the tray about one and a half bottle
-    heights across. No biryani layers, no curry."
 
 - Deeper detail (added 2026-10-09): **what's on the tray, by order.**
   Baghdad mandi menus sell by the half chicken (the most-ordered item),
   the whole chicken, a lamb plate, lamb by the half or whole kilo, a
   mixed tray (half chicken plus half kilo lamb), and a house platter
   with lamb, half a chicken and several rice types; kabsa often sits on
-  the same menu. [MEDIUM-HIGH — Khan Mandi Karrada and Karbala, Mandi
-  Al-Yaman Qadisiyah (Baly delivery app); a Basra (Zubair) mandi shop
-  post]
+  the same menu. [MEDIUM-HIGH · S67]
 
 | Meat | Look | Texture |
 |---|---|---|
@@ -1455,8 +1404,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   white and yellow or orange grains (saffron, turmeric or hawaij colour
   added in patches, not all through), often with fried onion, raisins or
   toasted nuts on top. Not uniformly red (that reads as kabsa) and not
-  layered (that reads as biryani). [MEDIUM — mandi vs kabsa guides;
-  recipes]
+  layered (that reads as biryani). [MEDIUM · S68]
 - **Ordering units:**
   - **Solo:** half a chicken on a ~30cm round steel plate of rice, with a
     lemon half and green chili, a small cup of red sahawiq and a cup of
@@ -1476,19 +1424,23 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   layers."
 
 #### Dish: Rizo rice bowl (ريزو)
+- Prompt-ready line: "A plain round takeaway bowl about three-quarters
+  of the bottle's height across, filled with yellow saffron rice
+  topped with a layer of golden crispy chicken pieces and glossy zigzags
+  of orange sweet-chili sauce and white garlic mayo, a small dip cup
+  beside it. No logos on the bowl."
 - Category: Modern fast food; lunch and late night, delivery.
 - Cuisine lineage: Iraqi fast-food invention. Per the briefing, "an Iraqi
   modern dish that comes in yellow and brown rice, but the most common is
   yellow; the fried chicken and sauces are main ingredients". It became
   one of KFC Iraq's most popular items, and local shops copy it widely.
-  [MEDIUM-HIGH — briefing; Middle East Eye 2023; Travel Tramp; Lezzoo]
+  [MEDIUM-HIGH · S69]
 - Authentic preparation: yellow (saffron or turmeric) long-grain rice;
   boneless chicken strips or bites, crumbed and deep-fried crisp, cut
   into pieces and laid on top; then two sauces piped in zigzags over the
   whole bowl, a sweet-spicy orange-red sauce (ketchup and barbecue base
   with honey or molasses and garlic, by copycat recipes) and a white or
-  pale garlic mayo. Some add shredded lettuce. [MEDIUM — copycat recipes
-  are unofficial]
+  pale garlic mayo. Some add shredded lettuce. [MEDIUM · S70]
 - Serving format: single bowl.
 - Serving vessel: a round takeaway bowl, ~15–17cm across and ~7cm deep
   [EDITORIAL], paper or black plastic, with a small dip cup.
@@ -1503,9 +1455,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   bowls or logos (the briefing references include printed bowls); use a
   plain bowl. Refer to it as a "Rizo-style" bowl in prompts.
 - Confidence: MEDIUM-HIGH for look; MEDIUM for sauce recipe.
-- Sources: Middle East Eye "American fast food is leaving its mark"
-  (2023); Travel Tramp KFC Baghdad; Lezzoo KFC Erbil listing; Cookpad
-  copycat recipe; briefing.
+- Sources: [S14]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **fried chicken pieces** ~55% of the top surface,
     sauce ~25%, rice ~20% (mostly at the edges).
@@ -1516,18 +1466,17 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
     shape, steam.
   - Absent on purpose: branded bowl, chopsticks, sesame seeds, vegetables
     mixed in.
-  - Prompt-ready line: "A plain round takeaway bowl about three-quarters
-    of the bottle's height across, filled with yellow saffron rice
-    topped with a layer of golden crispy chicken pieces and glossy zigzags
-    of orange sweet-chili sauce and white garlic mayo, a small dip cup
-    beside it. No logos on the bowl."
 
 #### Dish: Zinger-style sandwich (زنگر)
+- Prompt-ready line: "A spicy crispy chicken sandwich about half the
+  bottle's height: a soft sesame bun around a craggy golden-orange fried
+  fillet that sticks out past the bun, white mayo and shredded lettuce,
+  on a wooden board with fries and a small dip cup. No wrapper, no
+  logos."
 - Category: Fast food; lunch, late night, delivery.
 - Cuisine lineage: the spicy crispy-chicken burger (KFC's "Zinger" name)
   is the generic Iraqi menu word for this sandwich in many local shops.
-  [MEDIUM — Travel Tramp; Lezzoo menus; briefing references from local
-  Baghdad shops]
+  [MEDIUM · S71]
 - Authentic preparation: a whole chicken thigh or breast fillet marinated
   in spicy seasoning, double-dipped in seasoned flour so the crust is
   shaggy and craggy, deep-fried; served in a soft sesame or brioche bun
@@ -1544,33 +1493,31 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
 - Common confusion: not a grilled chicken burger, not a beef burger with
   breaded onion. Brand rule: never show chain wrappers or boxes.
 - Confidence: MEDIUM.
-- Sources: Travel Tramp; Lezzoo KFC Erbil menu; briefing references.
+- Sources: [S15]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **the bun and fillet** ~70%, fries ~25%, sauce ~5%.
   - Components: one sandwich; 15–20 fries ~8cm; one dip cup.
   - Arrangement: sandwich front-centre, fries spilling beside it.
   - State cues: crisp crust, soft glossy bun, mayo dripping slightly.
   - Absent on purpose: wrappers with print, bacon, pork.
-  - Prompt-ready line: "A spicy crispy chicken sandwich about half the
-    bottle's height: a soft sesame bun around a craggy golden-orange fried
-    fillet that sticks out past the bun, white mayo and shredded lettuce,
-    on a wooden board with fries and a small dip cup. No wrapper, no
-    logos."
 
 #### Dish: Baghdad burger (برگر)
+- Prompt-ready line: "A double beef burger about half the bottle's
+  height on a pale wooden board: a glossy golden bun, two seared patties
+  with crisp lacy edges, a thick red tomato slice and green lettuce,
+  with a small steel cup of pink house sauce beside it. No bacon, no
+  wrapper."
 - Category: Fast food; evening and late night, groups of young adults,
   families, delivery.
 - Cuisine lineage: American import, made local. Baghdad has an estimated
   ~200 mostly local burger shops; some name burgers after neighbourhoods
   with local toppings (grilled onion and tomato, grilled aubergine), and a
-  brown or pink house sauce is common. [MEDIUM — San Diego Reader 2023;
-  AP 2013 "burger boom"; Middle East Eye 2023]
+  brown or pink house sauce is common. [MEDIUM · S72]
 - Authentic preparation: beef patties (halal) seared on a flat griddle,
   often **double** and fairly thin with crisp browned edges, in a
   glossy brioche-style or sesame bun with tomato, lettuce, sometimes
   cheese, pickles and red onion, and a pink or orange house sauce. Served
-  with fries and a dip cup. [MEDIUM — briefing references from a Baghdad
-  shop; sources above]
+  with fries and a dip cup. [MEDIUM · S73]
 - Serving vessel: a round or freeform pale wooden board; a small steel
   sauce cup.
 - Visual/plating characteristics: shiny domed bun, two dark-brown patties
@@ -1583,8 +1530,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   the stacked double patty, tomato forward and the pink sauce cup on light
   wood.
 - Confidence: MEDIUM.
-- Sources: San Diego Reader "At Aladin Trio"; AP via Hürriyet "Burger
-  boom"; Middle East Eye; briefing references.
+- Sources: [S16]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **the burger** ~75%, board ~15%, sauce cup ~10%.
   - Components: one burger; patties ~1cm thick each, 11cm wide; one tomato
@@ -1593,11 +1539,6 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   - State cues: bun sheen, juices on the patties, melted cheese if used.
   - Absent on purpose: bacon, pork, beer, branded wrappers, toothpick
     flags.
-  - Prompt-ready line: "A double beef burger about half the bottle's
-    height on a pale wooden board: a glossy golden bun, two seared patties
-    with crisp lacy edges, a thick red tomato slice and green lettuce,
-    with a small steel cup of pink house sauce beside it. No bacon, no
-    wrapper."
 
 - Deeper detail (added 2026-10-09): **burger styles in Iraq**, so
   scenes vary:
@@ -1610,10 +1551,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
 | **Crispy chicken** (zinger) | Fried thigh or breast fillet | Sesame bun, lettuce, mayo | Shaggy golden crust past the bun edge |
 | **Neighbourhood-named** (local menus) | Any of the above | Topped with grilled onion and tomato, or grilled aubergine slices | Soft charred vegetables on top |
 
-  [MEDIUM — Talabat Iraq smash-burger listings; Burger Makers Iraq
-  (Mansour, fresh Iraqi beef, flame-grilled, brisket burger); OpenSooq
-  Baghdad burger guide (Cowboy, Khan, Mr Burger, Firefly as typical
-  English names); San Diego Reader on neighbourhood-named burgers]
+  [MEDIUM · S74]
 - **Sauces:** a pink or orange "house" sauce (mayo, ketchup, pickle) is
   the default, plus garlic mayo and a brown or smoky barbecue sauce, in
   small steel or paper cups. Cheese is orange cheddar-style slices.
@@ -1629,10 +1567,20 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
   cone of fries and a small steel sauce cup. No bacon, no logos."
 
 #### Dish: Broast / crispy fried chicken (بروستد)
+- Prompt-ready line (broast, two people): "Half a pressure-fried
+  broast chicken, four bone-in pieces with a thin, tight, even golden
+  crust and juicy meat, heaped on plain paper in a steel tray with a
+  pile of fries, a diamond-shaped samoon loaf, a small cup of white
+  garlic sauce and pickled cucumber and pink turnip, the drumstick
+  about half the bottle's height. No bucket, no logos."
+- Prompt-ready line (crispy, archive look): "Four or five deep-golden
+  bone-in fried chicken pieces with a thick, craggy, flaky crust heaped
+  in a small steel wire basket, a black pot of red chili sauce in front
+  and a few crumbs on the wood, the basket about the bottle's height
+  long. No bucket, no logos."
 - Category: Fast food; lunch, evening, late night, family takeaway and
   delivery. Dedicated broast shops are a street-corner fixture in Baghdad
-  and Basra, alongside "Kentucky"-style chains. [MEDIUM — OpenSooq Iraq
-  broast-restaurant guides; Middle East Eye 2023; TripAdvisor Baghdad]
+  and Basra, alongside "Kentucky"-style chains. [MEDIUM · S75]
 - Cuisine lineage: "broasted" pressure-fried chicken (Gulf and Iraqi
   standard, in the style of the Saudi chains) next to American open-fried
   crispy chicken. Iraqis call fried chicken "Kentucky" whoever makes it.
@@ -1647,9 +1595,7 @@ anchor above. The Iraq pack is still unconfirmed (GAP LOG).
 | **Crispy ("Kentucky" style)** | Double-dipped in seasoned flour (often with a wet dip between), open-fried | Thick, shaggy, craggy crust with deep crevices and flakes that break off, loose crumbs on the board, very crunchy | Deep golden with darker tips |
 | **Spicy** | Either of the above with chili and paprika in marinade and coating | As its base style, with red-orange specks through the crust | Golden orange to reddish brown |
 
-[MEDIUM for the broast-vs-open-fried difference — pressure-frying sources
-(Wikipedia: Pressure frying; trade and recipe sites); EDITORIAL for
-marinade detail; the briefing's archive frame shows the crispy style]
+[MEDIUM for the broast-vs-open-fried difference; EDITORIAL for marinade detail · S76]
 
 **Cuts and what each looks like:**
 
@@ -1675,7 +1621,7 @@ marinade detail; the briefing's archive frame shows the crispy style]
   tipped onto a tray lined with plain paper, a heap of fries, 2–3
   samoon, several sauce cups (garlic, chili, ketchup). A Baghdad chicken
   shop's posted meal: half chicken with sides, samoon, sauces and a
-  drink. [MEDIUM — TikTok shop post via search; menus]
+  drink. [MEDIUM · S77]
 - Condiments are always on the side in small cups, never poured on.
   The meal is eaten by hand: pieces pulled apart, dipped in garlic sauce,
   stuffed into torn samoon with pickles.
@@ -1693,11 +1639,7 @@ marinade detail; the briefing's archive frame shows the crispy style]
   nuggets-only, not Southern US with biscuits and gravy, not a chain
   bucket.
 - Confidence: MEDIUM.
-- Sources: Middle East Eye 2023; Wikipedia: Pressure frying; broast vs
-  fried chicken explainers (Pasturebird, Albaik India); OpenSooq Iraq
-  broast guides; Sumaq Iraqi Charcoal Grill menu (crispy chicken on fries
-  with garlic sauce, pickles and coleslaw); London Iraqi broast menu
-  (Deliveroo); briefing archive frame.
+- Sources: [S17]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **chicken** ~60%, fries ~20%, bread ~10%, sauces and
     pickles ~10% (solo or pair meal). For the basket-only archive look:
@@ -1711,24 +1653,16 @@ marinade detail; the briefing's archive frame shows the crispy style]
     showing juicy white meat (optional), crumbs on the paper.
   - Absent on purpose: chain bucket or box print, glaze, sesame, gravy,
     biscuits, pork.
-  - Prompt-ready line (broast, two people): "Half a pressure-fried
-    broast chicken, four bone-in pieces with a thin, tight, even golden
-    crust and juicy meat, heaped on plain paper in a steel tray with a
-    pile of fries, a diamond-shaped samoon loaf, a small cup of white
-    garlic sauce and pickled cucumber and pink turnip, the drumstick
-    about half the bottle's height. No bucket, no logos."
-  - Prompt-ready line (crispy, archive look): "Four or five deep-golden
-    bone-in fried chicken pieces with a thick, craggy, flaky crust heaped
-    in a small steel wire basket, a black pot of red chili sauce in front
-    and a few crumbs on the wood, the basket about the bottle's height
-    long. No bucket, no logos."
 
 #### Dish: Pizza, Iraqi pizzeria style (بيتزا)
+- Prompt-ready line: "A round 30cm pizza, about one and a half bottle
+  heights across, cut into eight slices on a round wooden board, with a
+  golden puffed rim and melted cheese scattered with spiced chicken
+  pieces, black olive rings and green and red pepper strips. No pork."
 - Category: Casual dining and delivery; evening, friends and families.
 - Cuisine lineage: Italian import sold mostly by mixed fast-food and café
   menus; chicken toppings and Turkish-style pizza are common.
-  Baghdad's best-known early pizzeria opened in 2003. [MEDIUM — Tolo'
-  Iraq pizza guide; Wikipedia: Pizzeria Napoli (Baghdad); TripAdvisor]
+  Baghdad's best-known early pizzeria opened in 2003. [MEDIUM · S78]
 - Authentic preparation: medium-thick hand-stretched crust baked in a
   deck or stone oven; tomato sauce, mozzarella; the briefing's two
   versions are a chicken and vegetable pizza (spiced chicken pieces, black
@@ -1744,8 +1678,7 @@ marinade detail; the briefing's archive frame shows the crispy style]
   heights across.
 - Common confusion: not Neapolitan leopard-spotted; not a deep-dish.
 - Confidence: MEDIUM.
-- Sources: Tolo' "Top 7 pizza restaurants in Iraq"; Wikipedia: Pizzeria
-  Napoli (Baghdad); TripAdvisor Baghdad pizza tags; briefing frames.
+- Sources: [S18]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **cheese and toppings** ~80%, crust rim ~20%.
   - Components: chicken pieces 1–2cm; olive rings; pepper strips; or
@@ -1753,12 +1686,12 @@ marinade detail; the briefing's archive frame shows the crispy style]
   - Arrangement: even scatter, slice cuts visible.
   - State cues: melted cheese pull, oil sheen.
   - Absent on purpose: pork, ham, bacon, basil-leaf Neapolitan styling.
-  - Prompt-ready line: "A round 30cm pizza, about one and a half bottle
-    heights across, cut into eight slices on a round wooden board, with a
-    golden puffed rim and melted cheese scattered with spiced chicken
-    pieces, black olive rings and green and red pepper strips. No pork."
 
 #### Dish: Creamy chicken fettuccine (پاستا / باستا)
+- Prompt-ready line: "A tall twisted nest of fettuccine in a glossy
+  cream and parmesan sauce in a wide white bowl with a dark rim, flecked
+  with chopped parsley and grated cheese, a fork resting in it, the
+  nest about half the bottle's height. No bacon."
 - Category: Café and casual dining; evening.
 - Cuisine lineage: Italian-American café dish. No Iraq-specific source was
   found; it's here because the briefing lists it. Iraqi home pasta is
@@ -1775,17 +1708,98 @@ marinade detail; the briefing's archive frame shows the crispy style]
 - Real-world scale (§4.5): bowl ~26–28cm; nest ~8cm high.
 - Common confusion: not spaghetti bolognese; no wine or candles.
 - Confidence: LOW-MEDIUM (look HIGH, local frequency LOW).
-- Sources: briefing frame; general pasta technique.
+- Sources: [S19]
 - Composition & proportions (§4.7) [EDITORIAL]:
   - What dominates: **pasta** ~85%, herbs and cheese ~10%, chicken ~5%
     when used.
   - Arrangement: a centred twisted nest leaving a 3cm rim.
   - State cues: glossy cream, steam.
   - Absent on purpose: bacon or pancetta, wine.
-  - Prompt-ready line: "A tall twisted nest of fettuccine in a glossy
-    cream and parmesan sauce in a wide white bowl with a dark rim, flecked
-    with chopped parsley and grated cheese, a fork resting in it, the
-    nest about half the bottle's height. No bacon."
+
+## SOURCES CONSULTED
+
+Source notes moved out of the entries above on 2026-10-18 so the app's
+excerpts carry more staging text. Each [S#] tag in the file points here.
+The app skips this section when it builds prompts.
+
+- S1 (Venue: Family dining room, Baghdad apartment or house (home, indoor)): Sources: this file's earlier profile; Fernando's research import (2026-10-17, compiled from training data without live search; the sources it names were not checked)
+- S2 (Venue: Masgouf restaurant on the Tigris (riverside, open or semi-open)): [SOURCE: Wikipedia: Masgouf; Wikipedia: Iraqi cuisine]
+- S3 (House look: the briefing's archive frame (reference register, not a venue)): for the description (read directly from the briefing's archive frames, no images kept)
+- S4 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): for the category facts
+- S5 (Celebration: Ashura qeema distribution (sensitive — food-only)): for the food
+- S6 (Dish: Masgouf (national dish — Baghdad/Basra/Tigris)): Wikipedia: Masgouf; Wikipedia: Iraqi cuisine
+- S7 (Dish: Quzi (qozi — festive lamb + rice)): Wikipedia: Iraqi cuisine
+- S8 (Dish: Tepsi baytinijan + Margat bamia + Fasolia (stew cluster — compact)): Wikipedia: Iraqi cuisine. Composition [EDITORIAL]
+- S9 (Dish: Laham kass (لحم كص — "meat kass", Iraqi shawarma in samoon)): Jídlo na cestách — Guss; Mawdoo3 kass recipe; Alwasat kass article; Charlottesville29 (Al Basha); briefing food references
+- S10 (Dish: Iraqi falafel in samoon (فلافل بالصمون)): Baghdad food guide (Secret Flying); Beyond Babylon; Wikipedia: Sabich; eNCA/AFP samoon; briefing food references
+- S11 (Dish: Iraqi kebab (كباب عراقي — "meat kebap")): ckbk (Nasrallah, Iraqi grilled kebab); How to Make a Kebab (Iraqi tikka); Sumaq Iraqi Charcoal Grill (blogTO); Kabab Erbil Dubai menu; briefing food references
+- S12 (Dish: Mashawi mixed grill tray (مشاوي)): How to Make a Kebab (Iraqi tikka); Kabab Erbil Dubai menu; Mashawi Grill menu; Wikipedia: Mixed grill; briefing food references
+- S13 (Dish: Iraqi mandi (مندي)): Saudipedia "Mandi"; Wikipedia: Mandi (food); Khan Mandi (Baghdad branches and menu); Baghdad mandi restaurant listings; briefing food references
+- S14 (Dish: Rizo rice bowl (ريزو)): Middle East Eye "American fast food is leaving its mark" (2023); Travel Tramp KFC Baghdad; Lezzoo KFC Erbil listing; Cookpad copycat recipe; briefing
+- S15 (Dish: Zinger-style sandwich (زنگر)): Travel Tramp; Lezzoo KFC Erbil menu; briefing references
+- S16 (Dish: Baghdad burger (برگر)): San Diego Reader "At Aladin Trio"; AP via Hürriyet "Burger boom"; Middle East Eye; briefing references
+- S17 (Dish: Broast / crispy fried chicken (بروستد)): Middle East Eye 2023; Wikipedia: Pressure frying; broast vs fried chicken explainers (Pasturebird, Albaik India); OpenSooq Iraq broast guides; Sumaq Iraqi Charcoal Grill menu (crispy chicken on fries with garlic sauce, pickles and coleslaw); London Iraqi broast menu (Deliveroo); briefing archive frame
+- S18 (Dish: Pizza, Iraqi pizzeria style (بيتزا)): Tolo' "Top 7 pizza restaurants in Iraq"; Wikipedia: Pizzeria Napoli (Baghdad); TripAdvisor Baghdad pizza tags; briefing frames
+- S19 (Dish: Creamy chicken fettuccine (پاستا / باستا)): briefing frame; general pasta technique
+- S20 (Venue: Family dining room, Baghdad apartment or house (home, indoor)): import, its HIGH capped; matches the prompt Fernando found most authentic
+- S21 (Venue: Family dining room, Baghdad apartment or house (home, indoor)): this file's GENERAL NORMS + import
+- S22 (Venue: Family dining room, Baghdad apartment or house (home, indoor)): import, regional detail not corroborated
+- S23 (Venue: Floor meal (sufra) in the family room (home, indoor)): import; this file already notes floor seating is real on occasion
+- S24 (Venue: Floor meal (sufra) in the family room (home, indoor)): import; matches this file's mandi-house floor setting
+- S25 (Venue: Masgouf restaurant on the Tigris (riverside, open or semi-open)): Iraqi cuisine + Masgouf pages
+- S26 (Venue: Kebab / tikka corner shop (street, night)): Iraqi cuisine kebab + general kebab-shop pattern
+- S27 (Venue: Samoon bakery / tannour (street, daytime)): Iraqi cuisine samoon + bakery pattern; size needs SME
+- S28 (Venue: Courtyard / roof summer table (home, outdoor)): not verified this pass; general Levant/Iraq pattern; flag for photo review
+- S29 (Venue: Courtyard / roof summer table (home, outdoor)): research import 2026-10-17
+- S30 (Venue: Mandi house (مطعم مندي — mat'am mandi)): Baghdad mandi restaurant listings (Khan Mandi, Mandi Al-Madina, Tabaq Al-Mandi, Jidr Al-Mandi, Mandi Hadramawt); Saudipedia / Wikipedia: Mandi
+- S31 (Venue: Mandi house (مطعم مندي — mat'am mandi)): Khan Mandi menu: served with rice, laban and sahawiq
+- S32 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): Middle East Eye 2023; San Diego Reader 2023; Travel Tramp; Talabat Iraq
+- S33 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): general Baghdad fast-casual pattern from listings, flag for photo review
+- S34 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): Travel Tramp; The National 2023; Middle East Eye 2023; Johnny Rockets press release
+- S35 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): The National on Burger Joint; Iraqi News on the 80s concept; Wanderlog on Graffiti Burger; San Diego Reader 2023
+- S36 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): AP 2012 on a Jadriya chicken chain; dated
+- S37 (Venue: Burger, broast and fried-chicken shop (fast food, indoor)): mall reviews; TripAdvisor
+- S38 (Venue: Falafel and kass sandwich counter (street, day and night)): Baghdad food guides; AFP/eNCA on samoon
+- S39 (Venue: Casual café-restaurant for pizza and pasta (indoor, families and friends)): TripAdvisor and Talabat Baghdad tags; Tolo' Iraq pizza guide
+- S40 (Venue: Casual café-restaurant for pizza and pasta (indoor, families and friends)): pattern only, flag for photo review
+- S41 (GENERAL NORMS): Iraqi cuisine
+- S42 (VISUAL & PLATING NORMS): Iraqi cuisine + Masgouf
+- S43 (VISUAL & PLATING NORMS): Wikipedia: Kibbeh
+- S44 (VISUAL & PLATING NORMS): Wikipedia: Kleicha
+- S45 (CROSS-CUTTING REGISTER: STREET FOOD): Iraqi cuisine breads and pastries list
+- S46 (Celebration: Iftar (Ramadan evening)): general Ramadan pattern; Iraq-specific soup mix LOW
+- S47 (Celebration: Eid al-Fitr / Eid al-Adha family meal): Iraqi cuisine quzi + Kleicha pages
+- S48 (Watch parties): model pattern; needs SME
+- S49 (Dish: Masgouf (national dish — Baghdad/Basra/Tigris)): Jídlo na cestách "Masgouf"; National Dish; worldfood.guide; Masgouf pages
+- S50 (Dish: Quzi (qozi — festive lamb + rice)): Hungry Paprikas "Quzi"; MEM Global "Timmen Qouzi"; Village Voice / San Diego Reader write-ups
+- S51 (Dish: Laham kass (لحم كص — "meat kass", Iraqi shawarma in samoon)): Jídlo na cestách "Guss"; Arabic recipe sources
+- S52 (Dish: Laham kass (لحم كص — "meat kass", Iraqi shawarma in samoon)): Arabic recipe sources (Mawdoo3, Alwasat)
+- S53 (Dish: Laham kass (لحم كص — "meat kass", Iraqi shawarma in samoon)): multiple restaurant sources
+- S54 (Dish: Laham kass (لحم كص — "meat kass", Iraqi shawarma in samoon)): briefing references + AFP
+- S55 (Dish: Iraqi falafel in samoon (فلافل بالصمون)): Beyond Babylon "Amba"; Baghdad food guides
+- S56 (Dish: Iraqi falafel in samoon (فلافل بالصمون)): restaurant menus + guides; the sabich link is HIGH (Wikipedia: Sabich)
+- S57 (Dish: Iraqi falafel in samoon (فلافل بالصمون)): briefing references show exactly this
+- S58 (Dish: Iraqi kebab (كباب عراقي — "meat kebap")): Nawal Nasrallah, Delights from the Garden of Eden (via ckbk); restaurant menus
+- S59 (Dish: Iraqi kebab (كباب عراقي — "meat kebap")): briefing references + menus
+- S60 (Dish: Mashawi mixed grill tray (مشاوي)): Iraqi tikka recipe; Iraqi restaurant menus (Dubai, Texas)
+- S61 (Dish: Mashawi mixed grill tray (مشاوي)): Iraqi tikka and kebab recipes (How to Make a Kebab; Hungry Paprikas); Kabab Erbil; Iraqi Family Cookbook (liver); briefing references for colours
+- S62 (Dish: Mashawi mixed grill tray (مشاوي)): one restaurant and one recipe site
+- S63 (Dish: Mashawi mixed grill tray (مشاوي)): Kabab Erbil Dubai "mixed grill for two = eight skewers"; recipe serving counts
+- S64 (Dish: Iraqi mandi (مندي)): Saudipedia: Mandi; Wikipedia: Mandi; Khan Mandi (Baghdad)
+- S65 (Dish: Iraqi mandi (مندي)): Saudipedia; Wikipedia
+- S66 (Dish: Iraqi mandi (مندي)): Khan Mandi menu; recipe sources
+- S67 (Dish: Iraqi mandi (مندي)): Khan Mandi Karrada and Karbala, Mandi Al-Yaman Qadisiyah (Baly delivery app); a Basra (Zubair) mandi shop post
+- S68 (Dish: Iraqi mandi (مندي)): mandi vs kabsa guides; recipes
+- S69 (Dish: Rizo rice bowl (ريزو)): briefing; Middle East Eye 2023; Travel Tramp; Lezzoo
+- S70 (Dish: Rizo rice bowl (ريزو)): copycat recipes are unofficial
+- S71 (Dish: Zinger-style sandwich (زنگر)): Travel Tramp; Lezzoo menus; briefing references from local Baghdad shops
+- S72 (Dish: Baghdad burger (برگر)): San Diego Reader 2023; AP 2013 "burger boom"; Middle East Eye 2023
+- S73 (Dish: Baghdad burger (برگر)): briefing references from a Baghdad shop; sources above
+- S74 (Dish: Baghdad burger (برگر)): Talabat Iraq smash-burger listings; Burger Makers Iraq (Mansour, fresh Iraqi beef, flame-grilled, brisket burger); OpenSooq Baghdad burger guide (Cowboy, Khan, Mr Burger, Firefly as typical English names); San Diego Reader on neighbourhood-named burgers
+- S75 (Dish: Broast / crispy fried chicken (بروستد)): OpenSooq Iraq broast-restaurant guides; Middle East Eye 2023; TripAdvisor Baghdad
+- S76 (Dish: Broast / crispy fried chicken (بروستد)): pressure-frying sources (Wikipedia: Pressure frying; trade and recipe sites); the briefing's archive frame shows the crispy style
+- S77 (Dish: Broast / crispy fried chicken (بروستد)): TikTok shop post via search; menus
+- S78 (Dish: Pizza, Iraqi pizzeria style (بيتزا)): Tolo' Iraq pizza guide; Wikipedia: Pizzeria Napoli (Baghdad); TripAdvisor
 
 ## GAP LOG
 
