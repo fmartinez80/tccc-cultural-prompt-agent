@@ -93,7 +93,7 @@ stew, samoon on the side, hero SKU per brief.
 
 | Generic scene type | What to draw on |
 |---|---|
-| **Family rice-and-stew table** | Large oval platter or individual plates of timman anbar rice + stew bowl (bamia, fasolia, margat baytinijan), samoon torn at the edge, jajik or a small salad, hikakeh pieces shared. Default home register. |
+| **Family rice-and-stew table** | Large oval platter or individual plates of timman anbar rice + stew bowl (bamia, fasolia, margat baytinijan), samoon torn at the edge, jajik or a small salad, hikakeh pieces shared, on a rectangular table under a clear plastic cover over white cotton, a plain tissue box and bread basket. Default home register. |
 | **Tigris masgouf restaurant** | Open-cut carp grilled on stakes by the river, simple tables with flatbread, onion, tomato and lemon, evening river haze. Signature away-from-home venue. |
 | **Kebab / tikka shop** | Skewered lamb or chicken over charcoal, samoon wrap, amba + turshi on the side, steel counter, night street through glass. |
 | **Bakery / samoon oven** | Clay-oven (tannour) mouth with stacked diamond samoon, flour dust, paper bags; daytime on-the-go. |
@@ -105,43 +105,145 @@ stew, samoon on the side, hero SKU per brief.
 
 ## VENUE PROFILES
 
-Schema §5.9 applies. Five wave-1 profiles, background-first. File-wide
-rules hold.
+Schema §5.9 applies. Five wave-1 profiles, background-first, plus a floor
+meal (sufra) profile kept as documented context. Home profiles carry an
+extra "Table dressing" field for the cover and linens. File-wide rules
+hold.
 
-#### Venue: Apartment family dining room (home, indoor)
+#### Venue: Family dining room, Baghdad apartment or house (home, indoor)
 - Use for: home indoor; lunch (the main meal) or dinner; 2 to a large
-  family. Default home.
-- Soft background (the core): plaster walls in off-white or cream, often one
-  papered or two-tone wall; a tall curtained window with daylight voile and
-  heavy drape; a sideboard with stacked bowls, a thermos flask and a tissue
-  box; a framed calligraphy or landscape print (illegible); a ceiling fan
-  or split AC unit; tiled or timber-look floor with a large rug under the
-  table. Light: hard midday through voile, a warm bulb or pendant at night.
-  Palette: cream, timber brown, muted rug reds and blues. Signature shapes:
-  curtained window band, sideboard line, rug field, pendant glow. Density:
-  lived-in, multi-generational. [MEDIUM — synthesis of Iraqi-cuisine home
-  norms + general Levant apartment pattern; flag for Maps/Yelp ephemeral
-  review]
-- Shell: concrete-frame apartment block, tiled hall, steel entry door;
-  kitchen hatch or doorway behind.
-- The table as set here: a large oval melamine or steel platter of rice in
-  the centre (or individual 26–28cm plates), stew in deep bowls, samoon torn
-  not sliced, spoons and forks (as a rule no knives at the table), small
-  plates of turshi and amba, a jajik bowl, water glasses; hero SKU per
-  brief. A communal water jug. [MEDIUM — this file's GENERAL NORMS]
-- Subregional variants: South: a palm-fibre mat under the platter, date
-  syrup (dibis) + tahini dip at the edge. Kurdistan: thinner flat lavash
-  alongside samoon.
-- Hallucination traps: a Gulf-marble luxury majlis; a Levantine mezze-only
-  spread with wine glasses; a low Gulf floor-cushion-only room as the
-  default (floor seating is real on occasion, not the everyday default).
-- Never stage: alcohol, pork dishes, legible wall text, a full flag,
-  sectarian portraits or banners in sharp focus.
-- Prompt-ready line: "A Baghdad apartment dining room at midday: rice
-  platter sharp on a rug-covered table, behind it a curtained window with
-  voile light, a sideboard with stacked bowls and a warm pendant glow, all
-  softly blurred."
-- Confidence and sources: MEDIUM; EDITORIAL for staging.
+  family; everyday meals, Friday lunch, iftar, casual guests. The default
+  home. See HOME TABLE DRESSING and HOME INTERIOR ELEMENTS (TRUSTED
+  CONTENT) for the parts list.
+- Soft background (the core): smooth matte plaster walls in off-white,
+  cream or pale warm grey; in homes built before the 1990s often two-tone,
+  with the lower third in pale blue, beige-grey or sage, or a white or
+  pale-blue 20 × 20 cm tile dado 80–100 cm high (newer apartments are fully
+  painted). At one side of the frame a tall dark-walnut glass-fronted
+  display cabinet (fetrina, فترينة, 170–200 cm) with gold-rim istikan tea
+  glasses, a china tea service and a brass or copper piece behind the
+  glass. On the back wall a gilded frame of Quranic calligraphy (60–90 cm,
+  gold or black on cream, soft and unreadable) or a landscape print, a
+  round wall clock with a gilded bezel, and a few small family photo frames
+  (faces indistinct). A tall window with a sheer white lace inner curtain
+  under a heavy dark-red, burgundy, gold or olive drape and stiff valance,
+  a black steel square or diamond security grille behind the glass. A low
+  sideboard matching the table with a thermos flask, a spare tissue box and
+  a fruit bowl. A white split AC head high on one wall; a ceiling fan,
+  with a multi-arm brass or chrome chandelier in middle-class homes. Floor:
+  light-grey or cream 60 × 60 cm porcelain tile in newer homes, glossy
+  terrazzo (mozayeek) with a colour-band border in older ones, a deep-red
+  or dark-blue machine-made Persian-style medallion rug under and beyond
+  the table. Chairs: carved dark-walnut frames with red or gold velvet or
+  brocade seats. Light: by day hard sun softened through the lace; by
+  night warm amber from the chandelier, sometimes a warm LED cove in a
+  gypsum ceiling, cool-white fluorescent tube in modest homes. Palette:
+  cream wall, dark walnut, deep-red rug, burgundy drape, warm amber.
+  Signature shapes: the glass-fronted fetrina, the curtain stack with
+  valance, the gilded calligraphy frame, the red medallion rug, the fan or
+  chandelier crown. Density: lived-in, multi-generational, tidy.
+  [MEDIUM for cream walls, curtains, sideboard with thermos and tissue box,
+  fan and rug (this file's earlier profile and the 2026-10-17 research
+  import agree); MEDIUM for the fetrina, grille, terrazzo and chairs
+  (import only, its HIGH capped); LOW for the dado and its pale-blue colour
+  (import's own MEDIUM, "older homes and kitchens")]
+- Shell: concrete-frame apartment block or two-storey house; ceiling
+  2.8–3.2 m; tall windows (150–200 cm) with exterior grilles and often an
+  aluminium roller shutter; kitchen hatch or doorway behind. [MEDIUM —
+  import]
+- Table dressing: everyday, a full-length clear plastic cover (mafresh
+  nylon, مفرش نايلون), plain or with a faint small print, over a plain white
+  or cream cotton cloth; it reads as a slight gloss over flat cotton and
+  stays on between meals. For guests, the plastic comes off and a white or
+  ivory embroidered or damask cloth goes on, sometimes with a crochet or
+  lace runner down the centre. [MEDIUM — import, its HIGH capped; matches
+  the prompt Fernando found most authentic]
+- The table as set here: a rectangular dark-walnut or mid-brown laminate
+  table, 140–180 × 80–90 cm, matte (glass-topped in newer apartments). In
+  the centre a plain tissue box (the napkin; unbranded) and a wicker or
+  plastic bread basket of samoon or khubz; at one end a glass water jug and
+  plain clear tumblers; salt and a sumac or spice shaker; the meal in oval
+  steel trays, a rice platter (35–40 cm) and deep steel or enamel bowls of
+  stew; plain white ceramic or melamine plates (gold-rim or floral china
+  for guests); spoons and forks, as a rule no knives; small plates of
+  turshi and amba, a jajik bowl; serving spoons laid beside the dishes.
+  Hero SKU per brief. No tea glasses on the table: tea comes after the
+  meal, from the sideboard. [MEDIUM — this file's GENERAL NORMS + import]
+- Subregional variants: Basra and the south: warmer ochre or pale
+  terracotta walls, shutters half-closed at midday (darker room), a tile
+  dado more common in older houses, a water cooler in view, a palm-fibre
+  mat under the platter, dibis + tahini at the edge. Mosul: older houses
+  with arched doorways, Mosul copperware in the fetrina, a red-and-black
+  embroidered runner under the plastic. Kurdistan: white-lacquer furniture
+  instead of dark walnut, a flat-woven kilim instead of the pile rug,
+  cooler curtain colours (pale blue, lilac, grey-green), thinner lavash
+  alongside samoon. Well-off homes: damask cloth daily without plastic,
+  marble floor, larger chandelier. Modest and rural homes: a painted wood
+  table under a cut sheet of plain plastic, a fluorescent tube, and more
+  floor meals (see the sufra profile). [LOW-MEDIUM — import, regional
+  detail not corroborated]
+- Hallucination traps: a Gulf gold-and-marble majlis; Moroccan zellige and
+  pierced-metal lanterns; an Ottoman or Persian palace with Iznik tile
+  panels; a Scandinavian white-and-pale-wood room; a Levantine mezze-only
+  spread with wine glasses; a low floor-cushion room as the default (floor
+  meals are real, see the sufra profile, but the table is the default
+  here); war damage or rubble; a rug laid on the tabletop (the table cover
+  is plastic over cloth).
+- Never stage: alcohol, pork dishes, a round or oval table, tea glasses on
+  the table, legible calligraphy, clocks or labels, a brand on the tissue
+  box, water bottle or anything but the hero SKU, a lit TV picture, a
+  prayer rug spread for use (folded on a shelf at most), recognisable faces
+  in photo frames, a full flag, sectarian portraits or banners in sharp
+  focus.
+- Prompt-ready line: "A Baghdad family dining room: the meal sharp on a
+  rectangular dark-walnut table under a clear plastic cover over white
+  cotton, a plain tissue box and bread basket beside it; behind, softly
+  blurred, cream plaster walls, a tall glass-fronted cabinet of gold-rim
+  tea glasses, a gilded calligraphy frame, burgundy drapes over lace at a
+  grilled window, a red medallion rug and a ceiling fan."
+- Confidence and sources: MEDIUM overall. Sources: this file's earlier
+  profile; Fernando's research import (2026-10-17, compiled from training
+  data without live search; the sources it names were not checked);
+  EDITORIAL for staging.
+
+#### Venue: Floor meal (sufra) in the family room (home, indoor)
+- Status: documented context. The app's layouts are table-only and its
+  cameras sit at seated table height, so a floor meal can't be drawn yet.
+  Kept here so the look is ready if floor scenes are added.
+- Use for: everyday family meals in rural, traditional and older-generation
+  urban homes; iftar in many homes; large family gatherings the table
+  can't seat. [MEDIUM — import; this file already notes floor seating is
+  real on occasion]
+- Soft background (the core): cream plaster walls; along three walls, thin
+  floor mattresses (farsh, فرش, about 60 cm wide and 10–15 cm thick) in
+  dark-red, brown or olive geometric-print cotton with flat bolsters
+  against the wall; a red or dark-blue medallion rug under and beyond the
+  mat; the base of a heavy drape at the window; a ceiling fan overhead; a
+  sideboard or TV stand at the room edge (screen off). Signature shapes:
+  the white mat with massed dishes, the low mattress-and-cushion line, the
+  rug field. [MEDIUM — import]
+- Table dressing: no table. A plain white or cream vinyl or plastic-coated
+  cotton mat (sufra), 150–200 cm, plain or with a simple red or blue
+  border, straight on the rug. In the south, woven palm or printed plastic
+  floor mats. [MEDIUM — import; matches this file's mandi-house floor
+  setting]
+- The table as set here: steel trays and deep bowls massed in the centre,
+  a large rice tray in the middle, a stew bowl and vegetables beside it, a
+  bread basket, a tumbler at each diner's place round the edge, a tissue
+  box and a thermos at one edge, serving spoons beside the dishes; no
+  individual cutlery settings, no tea glasses among the food. [MEDIUM —
+  import]
+- Hallucination traps: a Gulf majlis with carved screens and a long low
+  table; a Japanese low table; an embroidered Central Asian dastarkhan; a
+  picnic blanket; the mat drawn as a prayer rug.
+- Never stage: any table, alcohol, pork, legible text, recognisable faces,
+  a prayer rug spread for use.
+- Prompt-ready line: "An Iraqi family room floor meal: steel trays of rice
+  and stew sharp on a plain white mat spread over a red medallion rug,
+  behind it low dark-red print floor mattresses with bolsters against cream
+  walls and a ceiling fan, softly blurred."
+- Confidence and sources: MEDIUM — import only; tooling support needed
+  before use.
 
 #### Venue: Masgouf restaurant on the Tigris (riverside, open or semi-open)
 - Use for: restaurant, outdoor or semi-covered; Friday family midday or an
@@ -215,6 +317,9 @@ rules hold.
   potted plants, a hanging bulb or single neon, neighbouring rooftops and
   satellite dishes as dark shapes, a palm crown over the wall. [LOW — not
   verified this pass; general Levant/Iraq pattern; flag for photo review]
+- Shell: in older Baghdad, Basra and Mosul houses, the central courtyard
+  (hosh, حوش) with tiled lower walls and terrazzo floor. [LOW — research
+  import 2026-10-17]
 - The table as set here: a low plastic or timber table with the same
   rice-and-stew spread on trays, floor mats.
 - Never stage: alcohol, shrine views in sharp focus, political banners.
@@ -498,6 +603,81 @@ when the brief names it. No mixer framing, no alcohol adjacency.
   bowls coexist. The communal flatbread under masgouf soaks up the juices
   — do not plate masgouf on rice by default. [MEDIUM — needs SME]
 
+### HOME TABLE DRESSING (added 2026-10-18 from a research import)
+
+Fernando's research import of 2026-10-17 supplied this and the next
+section. The import was compiled from training data with no live search,
+so the sources it names were not checked here. Its HIGH tags are capped at
+MEDIUM and its MEDIUM tags at LOW, unless this file already agreed.
+Brand names in it (tissues, water, lanterns) were dropped, as was its
+"branded tissue box", under the file-wide no-brands rule.
+
+- **Everyday cover:** a full-length clear plastic cover (mafresh nylon),
+  plain or with a faint small geometric or floral print in pale blue or
+  white, over a plain white or cream cotton cloth. It is practical, wiped
+  between meals and left on the table. [MEDIUM]
+- **Guest cover:** plastic off; a white or ivory embroidered cotton or
+  polyester damask cloth, sometimes a crochet or needle-lace runner down
+  the centre; paper napkins fanned at each place; the tissue box moves to
+  the sideboard. [MEDIUM]
+- **Tables:** rectangular, 4–6 legs, dark-walnut or mid-brown-oak laminate
+  over chipboard, 140–180 × 80–90 cm, matte; glass tops on dark metal or
+  carved wood frames in newer apartments; extendable tables where space is
+  tight; solid wood in old and well-off houses; plastic folding tables for
+  overflow or outdoors. [MEDIUM]
+- **Always on the table:** a plain tissue box (the napkin, in nearly every
+  home, sometimes in a fabric or plastic cover); a wicker or plastic bread
+  basket; a glass or plastic water jug and plain clear tumblers (~250 mL);
+  salt and a sumac or spice shaker; sometimes vinegar or pomegranate
+  molasses. Food in oval stainless-steel trays and deep enamel or steel
+  bowls; plain white ceramic or melamine plates daily, gold-rim or floral
+  china for guests; steel serving spoons and a ladle beside the dishes.
+  [MEDIUM]
+- **No tea at the table.** Tea glasses stay in the fetrina or on the
+  sideboard; tea is served after the meal. Agrees with this file's rule
+  that chai is never staged with the hero. [MEDIUM]
+- **Variants:** rural, a painted table and a cut sheet of plain plastic;
+  well-off Baghdad, Erbil and Sulaymaniyah, damask daily without plastic;
+  Mosul, a red-and-black embroidered runner under the plastic; Basra,
+  palm or woven-plastic mats near floor meals. [LOW]
+- **Prompt-ready line:** "A rectangular dark-walnut laminate table under a
+  clear plastic cover over white cotton, a plain tissue box and a wicker
+  basket of samoon in the centre, a glass water jug and plain tumblers at
+  one end, steel serving trays and white plates, no tea glasses."
+
+### HOME INTERIOR ELEMENTS (added 2026-10-18 from the same import)
+
+Parts list for the soft background of home scenes. Confidence capped as
+above; "agrees" means this file already said it.
+
+| Element | Look | Where and how common | Confidence |
+|---|---|---|---|
+| Walls | Smooth matte plaster, off-white, cream or pale warm grey | Most homes (agrees) | MEDIUM |
+| Two-tone wall | Lower third pale blue, beige-grey or sage, sometimes a 3–5 cm divider strip | Many 1970s–2000s homes; rarer after 2010 | MEDIUM |
+| Feature wall | One wall in pale ochre, dusty rose or sage, or subtle wallpaper | Growing in Baghdad and Erbil | LOW |
+| Tile dado | 15 × 20 or 20 × 20 cm, white, pale blue or mint, 80–100 cm high, border strip | Kitchens and baths; some dining rooms in older homes | LOW |
+| Ceiling | Flat white; gypsum cove or medallion with warm LED strip in middle-class homes | Urban middle class | MEDIUM |
+| Floor, older | Glossy terrazzo (mozayeek), grey, cream or tan with stone chips, colour-band border | Pre-1990 homes | MEDIUM |
+| Floor, newer | 60 × 60 or 80 × 80 cm porcelain, light grey, cream or faux marble | Post-1995 homes | MEDIUM |
+| Rug | Machine-made Persian-style pile, red, burgundy or dark blue medallion, 200 × 300 cm, worn not threadbare | Most homes (agrees) | MEDIUM |
+| Kilim | Flat-woven, bold diamonds and steps, red, orange, dark blue, black, ivory | Kurdistan, some Mosul | MEDIUM |
+| Curtains | Sheer white or cream lace inner panel + heavy red, burgundy, gold or olive drape, valance, ornate rod | Most urban homes (agrees, more specific) | MEDIUM |
+| Window grille | Black or dark-grey welded steel, square or diamond grid | Most urban homes, ground and first floors | MEDIUM |
+| Roller shutter | Beige or grey aluminium slats outside the glass | Many post-2000 homes | LOW |
+| Split AC | White head high on the wall, pipe through the wall | Near-universal (agrees) | MEDIUM |
+| Fetrina | Glass-fronted cabinet 170–200 × 90–120 cm, dark walnut or white lacquer, often mirrored back; istikan glasses, china tea set, brass or copper, crystal, figurines | Most urban homes | MEDIUM |
+| Sideboard | 80–100 cm high, matching the table; thermos, spare tissues, fruit bowl | Many homes (agrees) | MEDIUM |
+| Chairs | Carved dark-walnut frame, red or gold velvet or brocade seat and back | Most urban homes | MEDIUM |
+| Calligraphy | Gilded frame 60–90 cm, black or gold on cream; always soft and unreadable | Most homes (agrees) | MEDIUM |
+| Family photos | Small 10 × 15 cm frames clustered on a wall or sideboard; faces indistinct | Many homes | MEDIUM |
+| Mirror, clock | Gilded or dark-wood mirror; round clock with gilded bezel (numerals never legible) | Many homes | LOW-MEDIUM |
+| Lighting | Multi-arm brass or chrome chandelier (middle class); single fitting or cool fluorescent tube (modest); a white rechargeable lantern for power cuts | By income | MEDIUM |
+| Fan | 4–5 blade ceiling fan, white or light brown | Most homes (agrees) | MEDIUM |
+| Thermos | Tall 1–2 L flask, chrome or coloured plastic, on the sideboard | Most homes (agrees) | MEDIUM |
+| Water | Freestanding white or grey water cooler; plain unbranded bottles where shown | Many homes, most in Basra | MEDIUM |
+| TV | Large flat screen on a unit with a satellite box; screen dark or soft colour, never a legible picture | Most homes | MEDIUM |
+| Prayer rug | Folded on a shelf or chair back only, never spread in frame | Many homes | LOW |
+
 ### SCALE REFERENCE — IRAQ
 
 - UK/EU 330mL can, 11.52cm tall × 6.61cm diameter, as the scale anchor
@@ -546,7 +726,9 @@ with an egg-wash sheen; torn samoon with an airy crumb and a crisp ridge.
 ### ENVIRONMENT & STAGING SCENES
 
 **General environmental norms.** Apartments (concrete block, tiled hall,
-curtained window, rug, sideboard, fan or AC); riverside reed-and-concrete
+lace-and-drape window with a steel grille, glass-fronted fetrina, red
+medallion rug, sideboard, fan or AC; table under clear plastic over
+cotton); riverside reed-and-concrete
 masgouf strips; night kebab streets (fluorescent + ember); bakery tannour
 mornings; courtyard or roof summer nights; palm groves in the south vs.
 stone in the north. Season: a fierce summer (roof or courtyard at night), a
@@ -1631,6 +1813,14 @@ marinade detail; the briefing's archive frame shows the crispy style]
   with chain packaging.
 - The briefing's "human context" (two adult men at the table) conflicts
   with the app's Phase 1 no-people rule; it stays off until Phase 2.
+- Home interiors and table dressing (2026-10-18) rest on one research
+  import compiled from training data; its named sources (Iraqi listing
+  sites, Batatu, Pieri, news footage) were not checked. Still open, per
+  the import: dado colour in dining rooms, how many fetrinas have mirrored
+  backs, plain vs printed plastic covers by city, open-plan vs separate
+  dining rooms after 2010, farsh fabrics by region, Mosul ceiling work.
+- The sufra floor meal can't be drawn yet: layouts are table-only and
+  cameras sit at seated table height.
 
 ## CANDIDATE QUEUE
 
@@ -1648,6 +1838,8 @@ marinade detail; the briefing's archive frame shows the crispy style]
    mandi), then meat kass.
 7. Ephemeral photo review of a Baghdad mandi house, a burger shop and a
    sandwich counter to lift the new venue profiles from LOW.
+8. Verify the home-interior import against Iraqi listing photos and a
+   native reviewer, then image-test the family dining room line.
 
 ## RESEARCH LOG
 
@@ -1696,3 +1888,15 @@ marinade detail; the briefing's archive frame shows the crispy style]
   shops (Talabat, Burger Makers, OpenSooq guide), and Baghdad, Karbala and
   Basra mandi menus on Baly. Added item-by-item texture tables, style
   tables and solo, two-person and family ordering units to all three.
+- **2026-10-18, home interiors and table dressing.** Merged Fernando's
+  research import of 2026-10-17 (run on another account from the brief in
+  the project files; compiled from training data, no live search). Added
+  HOME TABLE DRESSING and HOME INTERIOR ELEMENTS, rewrote the apartment
+  dining room as the family dining room profile with a Table dressing
+  field, added a sufra profile as context, and a courtyard-house shell
+  line. Kept from the old profile: cream walls, voile and drape, sideboard
+  with thermos and tissues, fan or AC, rug, no knives, turshi, amba and
+  jajik. Corrected: the "rug-covered table" (the cover is plastic over
+  cotton; the rug is on the floor) and "timber-look floor" (porcelain or
+  terrazzo). Dropped from the import: brand names, the "branded tissue
+  box", and its HIGH tags (capped at MEDIUM).
