@@ -965,7 +965,8 @@ at the end of this section.
     against the night sky; the brick-red and cream stadium façade with
     arches as a soft block. [MEDIUM — floodlights uncontested; façade
     LOW — not verified]
-  - *Middle distance:* fans in **team-colour shirts**, painted faces
+  - *Middle distance:* fans in **plain clothing in franchise colours** (team kits are
+    not staged, §5.8), painted faces
     (no legible names), flags of franchise colours (never the national
     flag in full); police barricades and walk-through gates as soft
     shapes; the Metro Bus elevated track; a **snack cart** (corn, fries,
@@ -974,7 +975,7 @@ at the end of this section.
     lights, phone torches as bokeh.
   - *Palette:* night blue, floodlight white, franchise colours (green,
     pink, purple, yellow) as blur.
-  - *Signature shapes (3–5):* floodlight towers; a crowd of jerseys;
+  - *Signature shapes (3–5):* floodlight towers; a colour-washed crowd;
     barricade rails; a hand-held flag shape; the stadium arches.
   - *Density and wear:* crowded, loud, celebratory.
   - *People cues:* fans as soft shapes, within the limit; no
@@ -990,11 +991,11 @@ at the end of this section.
 - **Hallucination traps:** a US tailgate with grills and beer coolers;
   a European football stadium; an IPL (India) crowd and branding; a
   full national flag; legible team or sponsor names.
-- **Never stage:** legible jerseys, banners, sponsor boards or
+- **Never stage:** team jerseys or kits, banners, sponsor boards or
   scoreboards; full flags; police weapons in focus; alcohol.
 - **Prompt-ready line:** "Outside a Lahore cricket stadium on match night
   in soft focus: white floodlight towers blazing over the stadium, fans
-  in bright team-colour jerseys streaming past barricades, and a snack
+  in bright franchise colours streaming past barricades, and a snack
   cart's bulb at the roadside."
 - **Confidence and sources:** MEDIUM for security and atmosphere (Dawn,
   Punjab Police, APP, Newsline); vendors LOW. 1 search this pass.
