@@ -143,7 +143,26 @@ coffee (rule 3), nothing held in a hand (rule 4); plus no alcohol cues
 full flag, no identifiable children, no more than about 2.5 background
 faces and none sharp.
 
-#### Venue: Piso living-dining room and kitchen (home, indoor)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Spain profile |
+|---|---|
+| Dining room | Piso living-dining room and kitchen; outdoor: Chalet or village-house patio (balcony and azotea variants) |
+| Gen Z apartment | Young renter's shared piso or studio (most under-30s live with parents; the shared flat is the real version) |
+| Kitchen island | Breakfast-bar peninsula in a newer piso (true islands uncommon in flats) |
+| Sit-down | Menú-del-día dining room; Neighbourhood bar; Plaza terraza (outdoor) |
+| Counter service | Gastro market food hall (chain food courts not staged) |
+| Café | Neighbourhood café (cafetería de barrio and the specialty café) |
+| Modern bistro | New-wave neighbourhood restaurant (neotaberna room, no bar) |
+| Street market | Weekly street market (mercadillo); covered markets: CROSS-CUTTING REGISTER: FOOD MARKETS |
+| Food truck | rare here: street food trucks are uncommon in Spanish cities and appear mainly at festivals; nearest: Weekly street market (its churrería and rotisserie trailers) |
+| Park | City park (parque municipal) |
+| Beach or waterfront | Paseo marítimo and chiringuito |
+| Stadium or event | Village fiesta long tables (outdoor event); stadium: the Stadium stands row in CROSS-CUTTING REGISTER: COCA-COLA MOMENTS |
+
+#### Venue: Piso living-dining room and kitchen (home, indoor) · app: Dining room
 - Use for: home indoor; casual lunch at about 14:00 to 15:00 (1, 2, 3),
   late dinner, Nochebuena and Navidad at the grandparents' piso (table
   extended), El Clásico at home; the national default home. 65.3% of
@@ -210,7 +229,7 @@ faces and none sharp.
   carried from the scaffold). The mesa camilla and the grandparents' detail
   are LOW.
 
-#### Venue: Chalet or village-house patio, with the balcony and azotea variants (home, outdoor)
+#### Venue: Chalet or village-house patio, with the balcony and azotea variants (home, outdoor) · app: Dining room, outdoor
 - Use for: home outdoor; the Sunday family paella (strongest in zone 4),
   a summer lunch or late dinner, a birthday; 1 to small group as a
   snapshot of 8 to 20. See ENVIRONMENT: Meal outdoors at home and
@@ -262,7 +281,7 @@ faces and none sharp.
   Madrid](https://www.casasrurales.net/blog/10-casas-rurales-con-piscina-y-barbacoa-cerca-de-madrid),
   commercial tier); MEDIUM for the paella occasion (CELEBRATIONS sources).
 
-#### Venue: Neighbourhood bar (*bar de barrio*, *bar de toda la vida*)
+#### Venue: Neighbourhood bar (*bar de barrio*, *bar de toda la vida*) · app: Sit-down
 - Use for: restaurant, indoor; a tapa or ración at the counter, a quick
   pincho, LaLiga matchday (food-led only), solo or 2 to 3; the default
   everyday Spanish venue [register above].
@@ -317,7 +336,7 @@ faces and none sharp.
   plus the register and the LaLiga entry. The slot-machine note is LOW
   (model knowledge).
 
-#### Venue: Menú-del-día dining room (*casa de comidas*, *restaurante de menú*)
+#### Venue: Menú-del-día dining room (*casa de comidas*, *restaurante de menú*) · app: Sit-down
 - Use for: restaurant, indoor; weekday lunch (about 14:00 to 15:30) with
   primero, segundo and postre; 1 (a worker alone) or 2 to 3 colleagues;
   the default casual sit-down restaurant [HIGH for the format, scenario
@@ -367,7 +386,7 @@ faces and none sharp.
   [eldiario.es — Madrid casas de comidas that survive](https://www.eldiario.es/madrid/somos/caminando-por-madrid/casas-comidas-sobreviven-madrid-15-negocios-clasicos-3-nuevas-recomendaciones_132_12735813.html);
   [Telemadrid — casas de comidas to neotabernas](https://www.telemadrid.es/experimenta-madrid/Ruta-de-sabores-por-Madrid-de-las-casas-de-comidas-mas-tradicionales-a-las-neotabernas-0-2708129176--20240919080000.html)).
 
-#### Venue: Plaza terraza (bar or café tables outdoors)
+#### Venue: Plaza terraza (bar or café tables outdoors) · app: Sit-down
 - Use for: restaurant, outdoor, and the on-the-go register (a bocadillo
   or a ración between errands); tapeo for 2 to 3, Selección tournament
   night, a merienda; golden-hour and evening. The everyday outdoor
@@ -419,7 +438,7 @@ faces and none sharp.
   municipal tier). Brewery-branded parasols as common is LOW (model
   knowledge).
 
-#### Venue: Village fiesta long tables (*cena popular*, *paella popular*) (other)
+#### Venue: Village fiesta long tables (*cena popular*, *paella popular*) (other) · app: Stadium or event
 - Use for: other (the village plaza or sports ground); summer fiestas,
   especially August; 1 to small group as a snapshot of dozens to several
   hundred (see CELEBRATIONS: Village fiesta communal dinner). The
@@ -464,6 +483,369 @@ faces and none sharp.
   bokeh beneath a church tower."
 - Confidence and sources: MEDIUM for the occasion (CELEBRATIONS sources);
   EDITORIAL for the background; one search this pass, no usable result.
+
+#### Venue: Young renter's shared piso or studio (*piso compartido*, *estudio*) (home, indoor) · app: Gen Z apartment
+- Use for: home indoor, a young adult alone or a pair of flatmates or a
+  young couple, lunch or a late dinner for 1 to 2. Read the option
+  honestly: most Spaniards under 30 still live with their parents
+  (estimated emancipation age 30.2 in 2025 against about 26 in the EU;
+  only 14.5% of 16- to 29-year-olds live independently) and of those who
+  have left, a third share a flat and about a fifth live alone [HIGH —
+  Consejo de la Juventud de España Observatorio 2025 and Eurostat via
+  press]. So the default Gen Z room is the shared piso's living room or
+  kitchen, not a designed loft; a small studio is the variant.
+- Soft background (the core): the same 1960s to 1990s block as the
+  family piso, re-furnished cheaply: the landlord's leftover furniture
+  (a dark-wood or white melamine wall unit, a beige or grey sofa under a
+  throw) mixed with flat-pack pieces (a white or birch-effect shelf, a
+  round white table, metal-frame chairs); persianas half down and an
+  aluminium window or balcony door with a drying rack of laundry outside;
+  terrazzo or cheap floating laminate floor. Personal layer: unframed
+  posters, concert or film prints and postcards held by washi tape or
+  clips, a string of warm fairy lights along a shelf or curtain rail,
+  two or three pothos or monstera plants, a pile of books, a laptop as a
+  dark slab, a tote bag on a hook [LOW — not verified; listings searched
+  show furnished rooms with bed, desk and wardrobe and "modern,
+  minimalist" decor as sales copy]. Light: hard midday bars through the
+  persianas; at night a warm floor lamp plus the string lights as small
+  bokeh dots. Palette: white and cream walls, birch and white melamine,
+  plant green, a grey sofa, warm amber dots. Signature shapes: the slatted
+  persiana, the string-light dots, taped posters, the drying rack on the
+  balcony, a mismatched pair of chairs. Density: lived-in, slightly
+  cluttered, a shared fridge-door and shoe pile out of frame.
+- Shell: a 60 to 80 m² three-bedroom piso with rooms let separately, or a
+  25 to 40 m² studio in a refurbished older building (exposed brick or
+  beams in central Madrid and Barcelona) [EDITORIAL].
+- The table as set here: a small round or square table, no cloth or a
+  cheap cotton one, two mismatched plates, a takeaway-style or home
+  tortilla, a bread barra on the board; 2-top seating [EDITORIAL].
+- Subregional variants and the national default: Madrid and Barcelona
+  (shared flats, the smallest rooms); Valencia and Seville (more light,
+  a balcony used daily); Bilbao and Galicia (glazed galería, greyer
+  light). The "young person at home" version is the family piso profile
+  above with a younger person at the table. National default: a shared
+  Centre-zone piso living room.
+- Hallucination traps: the Pinterest or Scandinavian showroom loft (white
+  oak, boucle chairs, an empty concrete room); a New York brick loft with
+  big steel windows; a US dorm room; a design-hotel look.
+- Never stage: beer cans, wine or a coffee cup on the table; legible
+  posters, book spines or screens; a full flag.
+- Prompt-ready line: "A shared Madrid piso at lunch: a tortilla on a
+  small round table sharp in front, behind it half-lowered persianas
+  throwing bars of light, a grey sofa under a throw, taped posters, a
+  pothos on a white shelf and a string of warm fairy lights, softly
+  blurred."
+- Confidence and sources: HIGH for living arrangements; LOW for the
+  decor layer (model knowledge; two searches:
+  [CJE — Observatorio de Emancipación 2025](https://www.cje.org/download/313/2025/23596/2025-balance-general.pdf);
+  [El Español — rooms in Madrid listings](https://www.elespanol.com/madrid/sociedad/20260601/pisos-habitaciones-cuartos-metros-anuncios-precarios-alquileres-madrid/1003744264304_0.html)).
+
+#### Venue: Breakfast-bar peninsula in a newer piso (*cocina abierta con península o isla*) (home, indoor) · app: Kitchen island
+- Use for: home indoor, a quick lunch or a late dinner for 1 to 2 at the
+  counter. Honest frequency: a true free-standing island is uncommon in
+  Spanish flats (most kitchens are closed galley rooms in older blocks);
+  where the option is asked, stage the newer flat's open kitchen with a
+  peninsula counter and stools, and keep the island for a chalet or a
+  new-build upper-middle flat [LOW-MEDIUM — décor press presents the
+  peninsula as the space-saving alternative for compact homes; Spanish
+  new-build prevalence not confirmed].
+- Soft background (the core): a 2000s to 2020s *obra nueva* or
+  refurbished flat where the kitchen opens to the salón: matt handleless
+  fitted units in white, light grey, sand or wood-effect laminate; a
+  quartz or compact-laminate worktop; an integrated hob with an extractor
+  hood or a slim one under a tall unit; a stainless or white fridge
+  column; a window or a terrace door with an aluminium frame and a
+  motorised or manual persiana; a row of small white or cream tiles or a
+  plain splashback; a pendant pair over the counter. Everyday things as
+  soft shapes: a fruit bowl, an olive-oil cruet, a toaster, a dish rack,
+  a plant [LOW-MEDIUM — décor press on 2026 palettes of white with wood,
+  olive with metal, beige with natural textures]. Light: daylight from
+  the terrace door, warm pendants at night, under-cabinet LED strips as
+  a line of light. Palette: white and sand, oak effect, quartz grey,
+  stainless steel. Signature shapes: the peninsula's square end with
+  stools, the pendant pair, the long run of handleless units, the
+  persiana behind.
+- Shell: an open-plan flat in a newer block with a terrace; porcelain
+  floor tiles in large format [EDITORIAL].
+- The table as set here: the counter top itself; two plates, a cruet,
+  the bread barra on a board, the dish of the brief; upholstered or
+  wooden counter stools at the edge [EDITORIAL].
+- Subregional variants and the national default: Madrid and Barcelona
+  metropolitan new-builds (PAU developments, Diagonal Mar) are the
+  natural home; coastal urbanizaciones (Valencia, Málaga) put the island
+  in a chalet with a terrace and pool beyond; older flats have none.
+  National default: a peninsula counter in a newer Centre-zone flat.
+- Hallucination traps: an American show kitchen with a huge island,
+  double fridge and farmhouse sink; a rustic Spanish farmhouse kitchen
+  with copper pans and hanging garlic; marble everywhere.
+- Never stage: wine glasses, a wine rack, a coffee machine in focus;
+  legible appliance brands.
+- Prompt-ready line: "A newer Spanish flat's open kitchen at lunch: a
+  plate on a white quartz peninsula sharp in front, behind it softly
+  blurred handleless sand-coloured units, a pendant pair and a terrace
+  door with a half-lowered persiana in bright light."
+- Confidence and sources: LOW-MEDIUM; one search, general décor press
+  only ([Meganoticias — peninsula as alternative to the island](https://www.meganoticias.cl/calidad-de-vida/501865-peninsula-mesa-integrada-alternativa-isla-de-cocina-hogar-casa-decoracion-07-10-2025.html);
+  [El Cronista España — interiors trends](https://www.cronista.com/espana/actualidad-es/los-interioristas-explican-la-mesa-del-comedor-dejara-de-utilizarse-en-2026-y-sera-reemplazada-por-esta-nueva-opcion-italiana/)).
+
+#### Venue: Neighbourhood café (*cafetería de barrio* and the specialty café) · app: Café
+- Use for: restaurant indoor; a merienda or a light lunch for 1 to 2
+  (a sandwich, a slice of tarta, a tostada at merienda time; breakfast is
+  out of scope). Two real registers: the everyday *cafetería*, which is
+  close to the neighbourhood bar but brighter, with a pastry vitrine,
+  and the newer *café de especialidad* in central barrios (Malasaña,
+  Lavapiés, Gràcia, Ruzafa). Default: the specialty café when the brief
+  says "café"; the bar profile when it says "bar".
+- Soft background (the core): a small room with whitewashed exposed
+  brick or plain white walls, a wooden or tiled counter with a chrome
+  espresso machine as a soft silver block and a glass case of cakes
+  (tarta de queso, carrot cake, croissants) as warm colour blocks; open
+  shelves of jars and bags (illegible); plants in clay pots; vintage
+  wooden chairs, small marble or wood tables; in some, hydraulic
+  patterned floor tiles or an older castizo café interior kept as it was
+  [MEDIUM — Time Out and city guides on Malasaña cafés: white exposed
+  brick, vintage décor, wooden counters, small rooms]. Through the
+  window: the street, a façade with iron balconies, a parked scooter.
+  Light: soft window light by day; warm Edison-style bulbs or pendants.
+  Palette: white brick, warm wood, chrome, cake gold, plant green.
+  Signature shapes: the espresso machine silhouette, the cake vitrine,
+  the window with balconies opposite, bentwood chairs.
+- Shell: a ground-floor shop unit in an older block, a large shop window
+  [EDITORIAL].
+- The table as set here: a small marble or wood table; a slice of cake
+  or a sandwich on a small white or stoneware plate, a fork, a paper
+  napkin [EDITORIAL].
+- Subregional variants and the national default: Barcelona and Valencia
+  (hydraulic tiles, more plants); Madrid (castizo cafés with marble and
+  mirrors as the heritage variant); Andalusia (the cafetería with a
+  zinc counter, morning-only feel, use the bar profile). National
+  default: a Madrid barrio specialty café.
+- Hallucination traps: a global coffee-chain look (big backlit menu
+  board, branded cups); a Parisian café with rattan chairs; a Viennese
+  coffee house; latte art in the foreground.
+- Never stage: coffee cups, glasses of milk, juice or beer in focus
+  (coffee is an intruder drink, out of frame or a soft blur only);
+  legible chalkboards, bags or cup marks.
+- Prompt-ready line: "A small Madrid barrio café in the afternoon: a
+  slice of tarta de queso on a stoneware plate sharp on a marble table,
+  behind it a softly blurred whitewashed brick wall, a wooden counter
+  with a chrome espresso machine and a lit cake case, and window light."
+- Confidence and sources: MEDIUM; one search ([Time Out Madrid —
+  pretty cafés](https://www.timeout.es/madrid/es/bares-y-pubs/cafeterias-bonitas-madrid);
+  [Guía del Ocio — charming cafés](https://guiadelocio.es/madrid/estas-son-las-cafeterias-mas-bonitas-y-con-mas-encanto-de-madrid/)).
+
+#### Venue: New-wave neighbourhood restaurant (*neotaberna*, *restaurante de autor informal*) · app: Modern bistro
+- Use for: restaurant indoor; dinner or weekend lunch for 2 to 3 in
+  Madrid, Barcelona, Valencia, San Sebastián; modern takes on tapas and
+  stews on shared plates. Madrid food media now group a wave of
+  *neotabernas* that update the classic tavern menu [MEDIUM — Telemadrid,
+  Neo2]. Staging here keeps the cool, design-led room and drops any bar.
+- Soft background (the core): walls of microcement or limewash in warm
+  grey, sand or bone; floor of microcement or large porcelain slabs;
+  dark-stained oak or walnut tables and a long shared oak table; black
+  lacquered-steel or bentwood chairs; a few statement pendants (paper,
+  glass globes or ceramic domes) as soft warm moons; an open kitchen
+  behind a stone or steel pass with a warm glow and cooks in dark aprons
+  blurred; a nod to tradition in a tiled panel of plain glazed
+  ceramic, a terrazzo counter front or a single vintage item [MEDIUM —
+  Dezeen on Zuppa, Madrid (microcement and plywood, black steel, an
+  oak communal table); LOW for the open-kitchen pass as typical].
+  Light: evening, low warm pendants and the kitchen's glow against the
+  cool walls; large street windows dark blue at dusk. Palette: bone and
+  warm grey, dark oak, black steel, terracotta accents. Signature
+  shapes: the pendant moons, the long oak table, the kitchen pass with
+  its heat lamps, the black chair silhouettes.
+- Shell: a refurbished ground-floor unit with high ceilings and exposed
+  beams or a plain plastered ceiling [EDITORIAL].
+- The table as set here: bare dark wood, a linen or paper napkin, small
+  shared plates of handmade ceramic (speckled stoneware, earth tones), a
+  croqueta trio, a modern tortilla, a rice in a small pan [EDITORIAL].
+- Subregional variants and the national default: Barcelona (Eixample
+  shopfronts, more colour and tile); San Sebastián (pintxo-bar ancestry,
+  greyer light, wood); Valencia (rice-led, light ceramic). National
+  default: a Madrid neotaberna room without its bar.
+- Hallucination traps: a white-cloth fine-dining room; a wine-bar look
+  (bottle walls, decanters, glasses); a Nordic restaurant cliché with
+  sheepskins and candles; an industrial-burger look; rustic tavern
+  jamón legs (that is the bar profile).
+- Never stage: a bar counter, bottles, taps, wine glasses, a vermut
+  tap; legible menu cards; a white tablecloth.
+- Prompt-ready line: "A modern Madrid neighbourhood restaurant at
+  dinner: small speckled-stoneware plates of croquetas sharp on a dark
+  oak table, behind them softly blurred microcement walls, globe
+  pendants glowing low and the warm light of an open kitchen pass."
+- Confidence and sources: MEDIUM-LOW; two searches
+  ([Dezeen — Plantea Estudio's Zuppa, Madrid](https://www.dezeen.com/?p=1601891);
+  [Neo2 — Neotaberna de Santerra](https://www.neo2.com/?p=311165);
+  the Telemadrid neotaberna route already cited above).
+
+#### Venue: Gastro market food hall (*mercado gastronómico*) · app: Counter service
+- Use for: restaurant indoor, order-at-the-stall; lunch, evening, weekend
+  for 1 to 3; Madrid (San Ildefonso, San Antón), Barcelona, Valencia,
+  Seville (Lonja del Barranco), Málaga (Merced). A converted or new
+  market hall of cooked-food stalls round shared tables; the honest
+  Spanish counter-service venue, since chain fast food is off-limits.
+  The everyday version is a mercado municipal with a cooking stall and
+  stools (see CROSS-CUTTING REGISTER: FOOD MARKETS).
+- Soft background (the core): a row of stall counters, each its own
+  colour block, with steel worktops, plancha smoke, stacked trays and
+  illegible lit boards; an industrial shell of exposed beams, pipes,
+  brick and concrete with warm wood and plants; coloured neon accents
+  blurred into glowing strokes (never letters); shared high tables,
+  long benches and stools; a mezzanine rail [MEDIUM — Spain.info,
+  Arquitectura Viva and guides on San Ildefonso: industrial design by
+  Cousi Interiorismo, exposed beams, pipes, brick and concrete, neon,
+  high tables and benches, plant-filled terraces]. Light: bright
+  practical stall lights, warm pendants over the tables, neon colour
+  bokeh. Palette: concrete grey, steel, warm wood, neon pink and
+  green, tile. Signature shapes: the row of stalls, the high table with
+  stools, hanging pendants, neon strokes, the mezzanine edge.
+- Shell: a market hall, ground or several floors, concrete or tiled
+  floor [MEDIUM].
+- The table as set here: a high wooden or steel shared table; food on
+  disposable cardboard or wooden boats, a small tray, paper napkins, a
+  wooden fork; the hero standing on the table [EDITORIAL].
+- Subregional variants and the national default: the shopping-centre
+  *zona de restauración* exists everywhere but is chain-led (stage only
+  with no recognisable chain look); Barcelona's Boqueria counters are a
+  tourist register (avoid). National default: a Madrid gastro market
+  at lunchtime.
+- Hallucination traps: a US mall food court with chain logos; an Asian
+  hawker centre; a beer hall; tourist Boqueria crowds with juice cups.
+- Never stage: the halls' bars and beer taps, wine, vermut, cocktails;
+  legible neon, stall names or prices.
+- Prompt-ready line: "A Spanish gastro market at lunch: a cardboard boat
+  of croquetas on a high wooden shared table sharp in front, behind it a
+  softly blurred row of stall counters, exposed beams and brick, warm
+  pendants and coloured neon strokes."
+- Confidence and sources: MEDIUM; one search
+  ([Spain.info — Mercado de San Ildefonso](https://www.spain.info/es/lugares-interes/mercado-san-ildefonso/);
+  [Arquitectura Viva — San Ildefonso](https://arquitecturaviva.com/articulos/mercado-de-san-ildefonso-en-madrid-4as2k);
+  [El Viaje de Sofi](https://www.elviajedesofi.com/mercado-san-ildefonso-experiencia-gourmet-madrid/), blog tier).
+
+#### Venue: Weekly street market (*mercadillo*) · app: Street market
+- Use for: on the go, outdoor, morning to about 14:00; a bocadillo or
+  a snack bought at a stall and set on its counter or a bench, fruit
+  from the stalls; 1 to 2. Every town has one on a fixed weekday, on a
+  street or esplanade closed to traffic, mixing fresh food with clothes,
+  shoes and household textiles [MEDIUM — municipal and tourist pages for
+  Aranjuez (150+ stalls), Ronda, Málaga, Jaén].
+- Soft background (the core): lines of stalls under white, striped or
+  green canvas awnings on steel frames, often backed by the vendors'
+  white vans; fruit and vegetable stalls with crates of oranges,
+  tomatoes, peppers and melons stacked in pyramids, hanging scales,
+  plastic bag rolls; textile stalls with rails of clothes and hanging
+  blankets as colour blocks; a rotisserie-chicken van or a churrería
+  trailer with warm glass; shoppers with wheeled shopping trolleys
+  (*carritos*) blurred; behind, plane trees and the block façades with
+  persianas. Light: bright morning sun filtered through the canvas,
+  tinted shade. Palette: awning white and stripes, citrus orange,
+  tomato red, van white, asphalt grey. Signature shapes: the awning
+  row, crate pyramids, hanging scales, the wheeled trolleys, the
+  vans behind [LOW-MEDIUM — the awning, van and trolley details are
+  model knowledge consistent with the listings].
+- Shell: a street or esplanade, asphalt or paving [MEDIUM].
+- The table as set here: a stall counter edge or a bench; a bocadillo in foil or paper resting on it (no hand);
+  a paper napkin.
+- Subregional variants and the national default: Andalusia (bright
+  sun, more fruit, a churros stall); Catalonia and Balearics (more
+  plants and flowers); Galicia (*feira* with a pulpo stall cooking in
+  copper cauldrons, see Pulpo á feira). National default: a Centre-zone
+  town mercadillo on a weekday morning.
+- Hallucination traps: a Moroccan souk; a Provençal market with
+  lavender; a Mexican tianguis with papel picado; a Christmas market.
+- Never stage: beer, wine or coffee; legible price cards; counterfeit
+  brand goods; faces sharp.
+- Prompt-ready line: "A Spanish mercadillo on a sunny weekday morning: a
+  bocadillo in white paper sharp on a stall counter, behind it softly
+  blurred striped canvas awnings, crates of oranges and tomatoes, rails
+  of clothes and white vans under plane trees."
+- Confidence and sources: MEDIUM-LOW; one search
+  ([Barceló guide — Aranjuez mercadillo](https://www.barcelo.com/guia-turismo/es/espana/aranjuez/que-ver/mercadillo-aranjuez/);
+  [Asest — Ronda market day](https://asest.es/story/ronda-market-day/)).
+
+#### Venue: City park (*parque municipal*) · app: Park
+- Use for: on the go outdoor; a bocadillo or merienda on a bench or a
+  picnic on the grass; 1 to 3; spring and autumn afternoons, summer
+  evenings. National default: a neighbourhood or city park, with
+  Madrid's Retiro as the reference big park (about 118 to 120 ha, lake,
+  rowboats, people on the grass) [MEDIUM — Spain.info, Frommer's].
+- Soft background (the core): paths of compacted pale sand or gravel
+  (*albero* in Andalusia) rather than asphalt; rows of plane trees,
+  horse chestnuts, pines or palms depending on the city; green
+  wooden-slat benches on cast-iron legs; a low ironwork railing, a
+  stone fountain or a drinking fountain; dry yellowed grass by July
+  outside the irrigated lawns; a kiosk or *quiosco* terraza far back
+  (empty glass and plain parasols only); joggers, a dog walker and
+  older people on benches as blurred figures [LOW — not verified; the
+  search found no furniture detail]. Light: dappled afternoon sun under
+  plane trees; golden low sun at 20:00 in summer. Palette: dust-gold
+  sand, plane-tree green, bench green, stone. Signature shapes: the
+  slatted bench, the tree row receding along the sand path, the
+  fountain, the railing.
+- Shell: open air.
+- The table as set here: the bench slats or a cotton blanket on grass;
+  a bocadillo in foil, a tupper of tortilla, napkins; the hero standing
+  on the bench (rule 4).
+- Subregional variants and the national default: Seville (María Luisa:
+  albero paths, tiled benches, palms, orange trees); Barcelona
+  (Ciutadella, Montjuïc pines); Valencia (the Turia riverbed gardens);
+  North (greener lawns, rain-dark paths). National default: a Madrid
+  park bench on a sand path under plane trees.
+- Hallucination traps: an English lawn park; Central Park skyline; the
+  Palacio de Cristal or Alhambra as every backdrop; a picnic basket
+  with wine.
+- Never stage: beer cans, wine, coffee; identifiable children at the
+  playground; legible signs.
+- Prompt-ready line: "A Madrid city park in the late afternoon: a
+  bocadillo in foil resting on a green slatted bench sharp in front,
+  behind it a pale sand path receding under plane trees in dappled
+  light and a stone fountain, softly blurred."
+- Confidence and sources: LOW-MEDIUM; one search, Retiro facts only
+  ([Spain.info — Retiro](https://www.spain.info/es/actividades/visita-parque-buen-retiro-madrid/);
+  [Frommer's — Parque del Retiro](https://www.frommers.com/destinations/madrid/attractions/parque-del-retiro));
+  the furniture and paths are model knowledge.
+
+#### Venue: Paseo marítimo and chiringuito (*paseo marítimo*, *chiringuito*) · app: Beach or waterfront
+- Use for: on the go and casual restaurant, outdoor; summer lunch or
+  sunset for 1 to 3; espetos, pescaíto frito, a bocadillo; zone 5 and the
+  Mediterranean coast (register above: Chiringuito).
+- Soft background (the core): the sand and the sea as bands of beige and
+  blue; on the sand, a wooden or white-rendered chiringuito with reed or
+  canvas shade, plastic or wooden tables and chairs (worn white plastic
+  in El Palo), and, in Málaga, small boats filled with sand used as
+  wood-fire grills, cane skewers of sardines leaning over the embers in
+  a curl of smoke [MEDIUM — Málaga food guides on Pedregalejo and El
+  Palo: boat-grills on the sand, plastic tables]. Behind the sand, the
+  promenade with its paved walk, palms, white lamp posts, a low rail and
+  the line of apartment blocks with balconies and awnings. Light: hard
+  midday sun and white glare; long gold light and pink sky at sunset.
+  Palette: sand beige, sea blue, whitewash, palm green, ember orange.
+  Signature shapes: the sand-filled boat-grill with skewers, the palm
+  line, the reed shade, the low rail and the blocks behind.
+- Shell: open air on the sand or the promenade.
+- The table as set here: a plastic or wooden table, a paper cloth
+  clipped down; a plate of espetos or pescaíto with lemon wedges, bread,
+  paper napkins; or a bocadillo in paper on the promenade rail-ledge.
+- Subregional variants and the national default: Costa del Sol (espetos,
+  boat-grills); Valencia (Malvarrosa, paella restaurants on the paseo);
+  Barcelona (Barceloneta, a busier urban beach); San Sebastián (La
+  Concha's white railing, grey-green sea); Galicia (granite, rías,
+  colder blue); inland, a river front such as Seville's Guadalquivir.
+  National default: a Málaga paseo marítimo with a chiringuito.
+- Hallucination traps: a Caribbean beach bar with thatch and cocktails;
+  a Greek island whitewash-and-blue; a beach club with sunbeds and DJ
+  booth; a seafood tower.
+- Never stage: beer, tinto de verano, sangría, cocktails; legible menu
+  boards or brands on parasols; identifiable children on the sand; bodies
+  in swimwear as the subject.
+- Prompt-ready line: "A Málaga beach chiringuito at sunset: a plate of
+  sardine espetos with lemon sharp on a white plastic table, behind it
+  the sand, a boat-grill with smoking cane skewers and a palm-lined
+  paseo marítimo against a pink sky, softly blurred."
+- Confidence and sources: MEDIUM; one search
+  ([Do Eat Better — Málaga espetos guide](https://doeatbetterexperience.com/es/blog/mejores-espetos-malaga-guia/),
+  food-tour tier) plus the register and the Pescaíto frito + espetos entry.
 
 ---
 
@@ -2848,6 +3230,13 @@ level, since none of these surfaced as contested or surprising.*
 8. Game-night foods with no catalog entry (game-night pass 2026-10-01):
    home picoteo board (cheese wedges, tortilla squares on toothpicks) as a
    compact entry; pizza delivery as eaten at home (no Spain entry yet).
+- **Venue profiles wave 2 (2026-10-18): unverified background details.**
+  Young-renter flat décor layer (posters, string lights, flat-pack mix),
+  the peninsula-vs-island prevalence in Spanish new-builds, park furniture
+  and path surfaces, the mercadillo's awning, van and trolley details, and
+  the open-kitchen pass as typical of neotabernas are model knowledge or
+  thin press [LOW]; check against property listings and city photo guides.
+  Food trucks were judged rare on Spanish streets without a search.
 
 ## RESEARCH LOG
 
@@ -2960,3 +3349,4 @@ level, since none of these surfaced as contested or surprising.*
   and azotea variants), neighbourhood bar, menú-del-día dining room, plaza
   terraza, village fiesta long tables. WebSearch only; no pages read at
   source.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 6 profiles tagged, 8 new profiles, 12 searches. WebSearch only, snippets; no pages read at source.

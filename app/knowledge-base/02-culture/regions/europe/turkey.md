@@ -209,7 +209,29 @@ frame the hero (ENVIRONMENT). İftar staging is not changed by this pass:
 the salon profile below gives the room only, and the CELEBRATIONS: İftar
 entry governs the occasion.
 
-#### Venue: Apartment salon dining table (home, indoor)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Türkiye profile |
+|---|---|
+| Dining room | Apartment salon dining table; outdoor: Apartment balcony |
+| Gen Z apartment | Young renter's 1+1 flat or shared student flat (unmarried young adults often live with family: then use the salon) |
+| Kitchen island | Open "American" kitchen with island or peninsula (new-build site flats; older flats have closed kitchens) |
+| Sit-down | Esnaf lokantası; Kebapçı / ocakbaşı |
+| Counter service | Dönerci (order at the counter, standing ledge) |
+| Café | New-wave neighbourhood café (not the kahvehane or çay bahçesi) |
+| Modern bistro | Modern neighbourhood restaurant (modern lokanta, no bar, never a meyhane look) |
+| Street market | Weekly neighbourhood market (semt pazarı) |
+| Food truck | rare here: food trucks appear mainly at festivals and campuses; the local mobile vendor is the cart (simitçi, mısır, köfte ekmek), see CROSS-CUTTING REGISTER: STREET FOOD and Stadium forecourt on match day |
+| Park | City park with picnic lawns |
+| Beach or waterfront | Seafront promenade (sahil, kordon) |
+| Stadium or event | Stadium forecourt on match day (köfte ekmek carts) |
+
+The Wedding salon profile serves no option; it stays as context for the
+celebration entries.
+
+#### Venue: Apartment salon dining table (home, indoor) · app: Dining room
 - Use for: home indoor; the family dinner at about 19:00 to 20:00 (3 to
   5), weekend lunch, bayram meals, New Year's Eve, derby night (the
   coffee-table end of the same room); the national default home.
@@ -277,7 +299,7 @@ entry governs the occasion.
   retail tier) plus ENVIRONMENT; LOW for the protective table cover and
   the chandelier as common (model knowledge).
 
-#### Venue: Apartment balcony (home, outdoor)
+#### Venue: Apartment balcony (home, outdoor) · app: Dining room, outdoor
 - Use for: home outdoor; a summer lunch or dinner for 1 to 3, a small
   mangal where the building allows, weekend breakfast-lunch (breakfast
   itself is out of scope); very common and genuinely used [MEDIUM,
@@ -327,7 +349,7 @@ entry governs the occasion.
   [LC Waikiki — open and closed balconies](https://www.lcw.com/blog/balkon-dekorasyonu-acik-ve-kapali-balkonlar-icin-oneriler/),
   retail tier) plus ENVIRONMENT exterior markers.
 
-#### Venue: Esnaf lokantası (tradesmen's canteen)
+#### Venue: Esnaf lokantası (tradesmen's canteen) · app: Sit-down
 - Use for: restaurant, indoor; weekday lunch at about 12:00 to 13:30; 1 (a
   worker alone) or 2 to 3 colleagues; the default casual sit-down
   restaurant [register above; catalog: Kuru fasulye & pilav].
@@ -382,7 +404,7 @@ entry governs the occasion.
   [Web Mutfak — benmari counters](https://www.webmutfak.com.tr/benmari-ve-yemek-tezgahlari-pmk5),
   commercial tier).
 
-#### Venue: Dönerci (street döner shop)
+#### Venue: Dönerci (street döner shop) · app: Counter service
 - Use for: meal on the go and standing meal; döner ekmek arası or dürüm on
   its paper on the ledge; lunch, evening, late night; 1 or 2. The default
   street venue [register above; catalog: Döner].
@@ -430,7 +452,7 @@ entry governs the occasion.
   [İnoksan — döner grills](https://www.inoksanshop.com.tr/en/Doner-Ocaklari),
   commercial tier) plus the register and catalog.
 
-#### Venue: Kebapçı / ocakbaşı
+#### Venue: Kebapçı / ocakbaşı · app: Sit-down
 - Use for: restaurant, indoor; dinner or weekend lunch for 2 to 3 or a
   family group; a solo Adana portion at the ocakbaşı counter; the default
   group restaurant [register above; catalog: Adana kebab, Izgara köfte,
@@ -529,6 +551,369 @@ entry governs the occasion.
   sources ([Barış Organizasyon — wedding salon decoration](https://barisorganizasyon.com/blogdetay/dugun-salonu-dekorasyonu.html);
   [Kamış Hasır — wedding salon decoration guide](https://www.kamishasir.com/blog/dugun-salonu-dekorasyon-onerileri),
   commercial tier) plus CELEBRATIONS.
+
+#### Venue: Young renter's 1+1 flat or shared student flat (*1+1 daire*, *öğrenci evi*) (home, indoor) · app: Gen Z apartment
+- Use for: home indoor; a young adult, a pair of flatmates or a young
+  couple, lunch or dinner for 1 to 2. Many young Turks live with their
+  family until marriage, so for an unmarried person the honest version
+  is often a corner of the family salon (use the salon profile); the
+  rented *1+1* (one bedroom plus salon) or a shared *öğrenci evi* is the
+  Gen Z version for students and young workers in Istanbul, Ankara and
+  İzmir [LOW for living-with-family prevalence, not verified this pass;
+  MEDIUM that 1+1 flats and shared student flats are the young-renter
+  stock and that 1+1 rents rose sharply, press via search].
+- Soft background (the core): a small salon with an open or
+  half-open "American" kitchenette along one wall (white or wood-effect
+  laminate units, a two-ring hob, a small fridge); a sofa bed (*çekyat*
+  or *yataklı kanepe*) in grey or beige with cushions; a flat-pack white
+  or birch bookcase, a folding or small round table, a large mirror;
+  white or cream painted walls; PVC windows with white tulle sheers
+  even in young flats, sometimes a roller blind instead; laminate floor
+  with a small machine-made rug; a split AC unit high on the wall
+  [MEDIUM — IKEA Türkiye 1+1 guides on sofa beds, folding tables, mirrors,
+  light colours; LOW for tulle in young flats]. Personal layer: posters
+  and prints, a string of warm fairy lights on the curtain rail, plants
+  (pothos, cactus, a monstera), a vinyl or book shelf, an evil-eye
+  (*nazar*) bead by the door. Through the window: the next block a few
+  metres away, balconies, satellite dishes. Light: tulle-softened daylight;
+  at night a floor lamp and fairy-light dots. Palette: white and cream,
+  birch, grey sofa, plant green, warm amber dots. Signature shapes: the
+  çekyat, the tulle-veiled PVC window, the AC unit, the kitchenette run,
+  taped posters.
+- Shell: a 45 to 60 m² flat in a 1990s to 2010s block, often a ground or
+  basement-level *bahçe katı* in older districts [EDITORIAL].
+- The table as set here: a small round or folding table, no cloth or a
+  cotton one; two plates, a home-cooked or delivered dish, a bread
+  quarter; 2-top seating on mismatched chairs [EDITORIAL].
+- Subregional variants and the national default: Istanbul Kadıköy,
+  Beşiktaş or Şişli (older, smaller flats, high rents); Ankara (newer
+  blocks, more space, student districts near universities); İzmir
+  (brighter, balcony used). National default: an Istanbul 1+1 salon.
+- Hallucination traps: the Scandinavian showroom flat; an Orientalist
+  bohemian den with lanterns, kilims and floor cushions; a New York
+  loft; a çay glass and çaydanlık on the table (the strongest prior).
+- Never stage: çay, ayran, beer or rakı; legible posters, spines or
+  screens; a full flag.
+- Prompt-ready line: "A young Istanbul renter's 1+1 at dinner: a plate on
+  a small round table sharp in front, behind it a grey sofa bed with
+  cushions, a white bookcase, a tulle-veiled window with warm fairy
+  lights on the rail and a wall AC unit, softly blurred."
+- Confidence and sources: LOW-MEDIUM; one search
+  ([IKEA Türkiye — 1+1 home ideas](https://www.ikea.com.tr/iyi-fikirler/1-arti-1-ev-dekorasyonu-fikirleri),
+  retail tier; [Bigpara — rents](https://bigpara.hurriyet.com.tr/haberler/konut-haberleri/kiralar-dustu_ID645931/));
+  the personal layer is model knowledge.
+
+#### Venue: Open "American" kitchen with island or peninsula (*Amerikan mutfak*, *ada mutfak*) (home, indoor) · app: Kitchen island
+- Use for: home indoor; lunch or dinner for 1 to 2 at the counter. In
+  Turkish usage "Amerikan mutfak" is a kitchen open to the salon; it is
+  common in new-build *site* apartments, while a true island (*ada*)
+  belongs to larger new-build and upper-middle flats and villas; older
+  flats have a closed kitchen with a small table [LOW-MEDIUM — the term
+  and the open-plan layout are well established; island prevalence not
+  confirmed by the search].
+- Soft background (the core): a new-build *site* flat (gated complex)
+  where the kitchen opens to the salon: high-gloss or matt lacquered
+  units in white, anthracite or wood-effect, a quartz or granite-look
+  worktop, built-in oven and hob (*ankastre*) as dark glass panels, a
+  chimney hood, a tall fridge; a backsplash of large-format tiles or
+  glass; pendant lights or a spotlit false ceiling (*asma tavan*) with
+  LED strips; beyond, the salon's tulle-curtained window and a glazed
+  balcony door with the complex's other towers and a pool or garden
+  below [LOW — model knowledge consistent with Turkish developer
+  listings, not read this pass]. Everyday things: a fruit bowl, a bread
+  bin, a cutting board, a dish rack, a small plant. Light: daylight from
+  the balcony door through tulle; LED strip and spot lights at night.
+  Palette: white gloss, anthracite, wood effect, quartz grey, tulle
+  white. Signature shapes: the island or peninsula with bar stools, the
+  ankastre glass panels, the LED-lit false ceiling, the tall glazed
+  balcony door with towers beyond.
+- Shell: a flat in a 10- to 30-storey tower in a gated *site*, porcelain
+  floor tiles or laminate [EDITORIAL].
+- The table as set here: the counter top; two plates, a salad bowl, a
+  bread basket of sliced white bread or pide; upholstered bar stools at
+  the edge [EDITORIAL].
+- Subregional variants and the national default: Istanbul's outer
+  districts (Başakşehir, Ataşehir, Beylikdüzü towers); Ankara's
+  Çankaya and Çayyolu new-builds; Aegean villa developments with garden
+  views. National default: an Istanbul site-tower open kitchen with a
+  peninsula.
+- Hallucination traps: an American farmhouse kitchen; an Orientalist
+  kitchen with copper pots and tiles; a Scandinavian showroom; a
+  çaydanlık on the hob (the strongest prior).
+- Never stage: çay or çaydanlık in focus, ayran, alcohol; legible
+  appliance brands; pork-looking cold cuts.
+- Prompt-ready line: "An Istanbul site-tower apartment's open kitchen at
+  dinner: two plates on a quartz peninsula sharp in front, behind it
+  softly blurred white gloss units, black ankastre glass panels, an
+  LED-lit false ceiling and a tulle-veiled balcony door with towers
+  beyond."
+- Confidence and sources: LOW; one search, no source on island prevalence
+  ([Steelradar — built-ins in premium housing](https://www.steelradar.com/ankastre-pazarinin-lideri-arcelik-a-s-basarisini-amerika-da-en-seckin-konut-projelerine-tasiyor-33907/),
+  indirect). Flag for review.
+
+#### Venue: New-wave neighbourhood café (*üçüncü dalga kahveci*, *kafe*) · app: Café
+- Use for: restaurant indoor; an afternoon snack or light lunch for 1 to
+  2 (a sandwich, a slice of cake, a kaşarlı tost). Istanbul (Kadıköy-Moda,
+  Karaköy, Cihangir, Beşiktaş) and Ankara and İzmir have dense
+  third-wave café scenes [MEDIUM — Yemek.com and Time Out Istanbul on
+  Kadıköy cafés]. Not the *kahvehane* or *kıraathane* (a men's tea,
+  coffee and card house; do not stage as a café) and not the *çay
+  bahçesi* (tea garden, çay-led).
+- Soft background (the core): a small former shop on a side street:
+  raw concrete or plaster walls (some brutalist, some retro with
+  original cement tiles), a counter with a chrome espresso machine and a
+  grinder as soft silver shapes, a glass case of cakes and cookies;
+  mismatched colourful or bentwood chairs, small tables, framed prints by
+  local artists, plants and cut flowers; a large window or open front on
+  a steep street with a stray cat on a step [MEDIUM — guides on Moda
+  cafés (Dört Kadıköy's brutalist former repair shop; Yer's mismatched
+  chairs, local art and original tiles)]. Light: soft daylight through the
+  shop window; warm pendants or bare bulbs. Palette: concrete grey,
+  warm wood, chrome, cake gold, plant green, tile pattern. Signature
+  shapes: the espresso machine silhouette, the cake case, mismatched
+  chairs, the shop window with the sloping street.
+- Shell: a ground-floor shop in a 19th- or 20th-century apartment
+  building, high ceiling [EDITORIAL].
+- The table as set here: a small wood or marble table; a slice of
+  cheesecake or a sandwich on a stoneware plate, a fork, a paper napkin
+  [EDITORIAL].
+- Subregional variants and the national default: Istanbul Karaköy
+  (industrial warehouses); Cihangir (narrow, plant-filled); Ankara
+  (Tunalı Hilmi, mall-adjacent); İzmir Alsancak (bright, sidewalk
+  tables). National default: a Kadıköy-Moda side-street café.
+- Hallucination traps: a global coffee-chain look; an Orientalist coffee
+  house with cezve, brass and lanterns; Turkish coffee and lokum as
+  decor; a Parisian café.
+- Never stage: coffee cups, Turkish coffee, çay glasses in focus (all
+  intruder drinks; out of frame or soft blur only); alcohol; legible
+  boards or cup marks.
+- Prompt-ready line: "A small Kadıköy café in the afternoon: a slice of
+  cheesecake on a stoneware plate sharp on a wooden table, behind it
+  softly blurred raw concrete walls, mismatched chairs, a chrome espresso
+  machine on the counter and window light from the sloping street."
+- Confidence and sources: MEDIUM; one search
+  ([Yemek.com — Kadıköy new-generation coffee](https://yemek.com/kadikoy-kahve-mekanlari/);
+  [Time Out Istanbul — Dört Kadıköy](https://www.timeout.com/istanbul/tr/restoranlar/doert-kadikoey);
+  [Culture Trip — Moda cafés](https://www.theculturetrip.com/asia/turkey/articles/the-best-cafes-and-coffee-shops-in-moda-kadikoy-istanbul)).
+
+#### Venue: Modern neighbourhood restaurant (*yeni nesil lokanta*, modern Anatolian) · app: Modern bistro
+- Use for: restaurant indoor; dinner or weekend lunch for 2 to 3 in
+  Istanbul (Karaköy, Kadıköy, Nişantaşı), Ankara or İzmir; modern takes
+  on lokanta and street dishes and regional Anatolian food, shared
+  plates [MEDIUM — Karaköy restaurant reviews: open kitchens, industrial
+  lighting, handmade tile walls between kitchen and dining room,
+  modernised lokanta menus].
+- Soft background (the core): plaster or limewash walls in warm grey,
+  bone or deep tones; a wall of handmade glazed tiles (green, blue or
+  ochre faience, plain or geometric, not Iznik tourist patterns)
+  separating the open kitchen; the kitchen pass in steel with a warm glow
+  and cooks in dark aprons, a wood oven's arch in some; dark walnut or
+  oak tables, black steel or bentwood chairs; industrial or ceramic
+  pendants as warm moons; black-and-white city photographs as soft grey
+  rectangles; a long window to the street [MEDIUM for tiles, open kitchen
+  and industrial lighting — Archello on Karaköy Restaurant, reviews of
+  ColoNie and Karaköy Gümrük]. Light: evening, warm pendant pools and the
+  kitchen glow against cool walls. Palette: bone and warm grey, glazed
+  green or ochre tile, walnut, black steel, copper accents. Signature
+  shapes: the tile wall, the kitchen pass, pendant moons, the long
+  window.
+- Shell: a refurbished ground floor of an old Karaköy or Galata
+  building, stone or concrete floor, high ceiling [EDITORIAL].
+- The table as set here: bare wood, a linen napkin, handmade ceramic
+  plates in earth glazes, shared plates (a modern mantı, grilled
+  vegetables with yoghurt, a pide cut in strips); no water glass beside
+  the hero [EDITORIAL].
+- Subregional variants and the national default: Istanbul Karaköy
+  (industrial shell, tiles); Kadıköy (smaller, more casual); İzmir
+  (Aegean herbs and olive-oil dishes, lighter palette); Gaziantep and
+  Urfa (stone vaults in restored houses, as the heritage variant).
+  National default: a Karaköy modern lokanta at dinner.
+- Hallucination traps: the meyhane (hard rule 2: no tall glasses, ice
+  bucket, meze crowding); a white-cloth hotel restaurant; Orientalist
+  lanterns and cushions; Iznik-tile tourist kitsch; a Greek taverna.
+- Never stage: a bar, bottles, taps, wine glasses, rakı glasses; ayran
+  and çay; legible menus; a white tablecloth.
+- Prompt-ready line: "A modern Istanbul neighbourhood restaurant at
+  dinner: earth-glazed plates of mantı and grilled vegetables sharp on a
+  dark walnut table, behind them a softly blurred wall of green handmade
+  tiles, the warm glow of an open kitchen pass and ceramic pendants."
+- Confidence and sources: MEDIUM-LOW; one search
+  ([Archello — Karaköy Restaurant](https://archello.com/project/karakoy-restaurant);
+  [Yabangee — ColoNie](https://yabangee.com/?p=28759);
+  [Mes Prestiges — Karaköy Gümrük](https://mesprestiges.com/en/istanbul/places/karakoy-gumruk)).
+
+#### Venue: Weekly neighbourhood market (*semt pazarı*) · app: Street market
+- Use for: on the go, outdoor, daytime; a gözleme eaten at the market's
+  food stall or a snack resting on a stall counter; 1 to 2. Every
+  district has a market on a fixed weekday (Göztepe on Mondays, Fatih on
+  Wednesdays), selling fruit and vegetables, olives and cheese, fish,
+  kitchenware and clothes; crowded, loud, chaotic [MEDIUM — TÜBİTAK
+  Bilim Çocuk, istanbul.com, a food writer on Göztepe's market].
+- Soft background (the core): long rows of trestle stalls under blue,
+  white or striped tarpaulins (*branda*) on steel poles, often a whole
+  street covered, light filtered blue; crates and pyramids of tomatoes,
+  peppers, aubergines, citrus and greens, hanging bunches of herbs;
+  olive and white-cheese stalls with tubs; textile and kitchenware
+  stalls further back; vendors calling, shoppers with wheeled
+  shopping trolleys and string bags blurred; at the food stall, women
+  rolling gözleme on a low round board and cooking it on a domed iron
+  *sac* plate, with low tables and stools under the tarp [MEDIUM for
+  the gözleme stall with low tables under a tarp, one food-writer
+  account; LOW for tarp colours]. Light: daylight tinted blue or green
+  by the tarps, bright sun at the open ends. Palette: tarp blue, tomato
+  red, pepper green, citrus orange, cheese white. Signature shapes:
+  the tarp canopy, the crate pyramids, the sac dome, low stools, the
+  trolleys.
+- Shell: a street or a covered municipal market lot, asphalt [MEDIUM].
+- The table as set here: a low wooden table or the stall counter; a
+  folded gözleme on a paper or a small plate, a paper napkin; the hero
+  on the table (no hand) [EDITORIAL].
+- Subregional variants and the national default: Istanbul (the large
+  weekday district pazars, the organic *ekolojik pazar* in Feriköy);
+  Aegean (olive oil, herbs, village women selling greens); Black Sea
+  (hazelnuts, corn bread, rain-darkened tarps). National default: an
+  Istanbul semt pazarı on a weekday.
+- Hallucination traps: the Grand Bazaar or Spice Bazaar with lanterns
+  and arches (a different, covered, tourist register); an Arab souk; a
+  European farmers' market with crates in neat rows; çay glasses on the
+  table (vendors carry trays of çay; keep out).
+- Never stage: çay, ayran, alcohol; legible price cards or signs;
+  counterfeit brand goods; sharp faces.
+- Prompt-ready line: "An Istanbul semt pazarı on a weekday: a folded
+  gözleme on a paper on a low wooden table sharp in front, behind it
+  softly blurred blue tarpaulins, crate pyramids of tomatoes and
+  peppers and a woman cooking on a domed iron sac plate."
+- Confidence and sources: MEDIUM-LOW; one search
+  ([Scatti di Gusto — the Göztepe bazaar](https://www.scattidigusto.it/the-goztepe-bazaar-come-for-the-shopping-stay-for-the-food);
+  [TÜBİTAK Bilim Çocuk](https://bilimcocuk.tubitak.gov.tr/wp-content/uploads/sites/157/2025/09/73b6df1f-5e8d-418e-a094-6aa74614e09d-2.pdf);
+  [istanbul.com — bazaars](https://istanbul.com/tr/blog/historical-bazaars-markets/bazaars-in-istanbul)).
+
+#### Venue: City park with picnic lawns (*park*, *piknik alanı*) · app: Park
+- Use for: on the go and weekend outdoor; a picnic on the grass or a
+  snack on a bench or picnic table; 1 to 3, weekend afternoons. Istanbul
+  parks such as Maçka draw families spreading out to eat on the lawns
+  on weekends; Fenerbahçe Park has picnic tables among trees with sea
+  views [MEDIUM — Go Türkiye, city guides].
+- Soft background (the core): sloping lawns with plane trees, pines and
+  Judas trees, families as blurred colour blocks on blankets with
+  cool-boxes and thermoses (keep thermos and çay out), wooden or
+  concrete-and-slat park benches, a fixed wooden picnic table, paved
+  paths with municipal lamp posts, green steel bins, children's
+  playground colours far back (no identifiable children); stray cats
+  on the grass; in Maçka, the cable car line overhead and apartment
+  blocks on the ridge [LOW-MEDIUM — guides confirm lawns, picnickers,
+  play areas and cats; furniture is model knowledge]. Light: dappled
+  afternoon sun, golden evening in summer. Palette: lawn green, plane
+  tree shade, blanket colours, path grey. Signature shapes: the blanket
+  on the slope, the picnic table, plane trees, the lamp posts, a cat.
+- Shell: open air.
+- The table as set here: a cotton blanket or the picnic table; foil
+  parcels of börek, a plate of sliced fruit, a simit on a napkin, food
+  in lidded plastic boxes; the hero standing on the table (no hand)
+  [EDITORIAL].
+- Subregional variants and the national default: Istanbul (Maçka,
+  Yıldız, Emirgan in tulip season, Fenerbahçe by the sea); Ankara (Gençlik
+  Parkı, Kuğulu Park); a mangal picnic at a forest *piknik alanı* outside
+  cities on summer weekends (smoke from portable grills). National
+  default: Maçka Park lawns on a weekend afternoon.
+- Hallucination traps: an English or Central Park lawn; Gülhane's
+  tourist palace walls in every frame; a çaydanlık and tea glasses on
+  the blanket (the strongest prior); a mosque framing the hero.
+- Never stage: çay, ayran, beer; identifiable children; legible signs;
+  a full flag.
+- Prompt-ready line: "An Istanbul park on a weekend afternoon: foil
+  parcels of börek and a plate of fruit on a cotton blanket sharp in
+  front, behind it a sloping lawn under plane trees with families on
+  blankets as soft colour blocks and a stray cat, softly blurred."
+- Confidence and sources: MEDIUM-LOW; one search
+  ([Go Türkiye — Maçka Demokrasi Park](https://goturkiye.com/istanbul/macka-demokrasi-park);
+  [Yummy Istanbul — parks](https://yummyistanbul.com/istanbul-parks/);
+  [The Guide Istanbul — parks](https://www.theguideistanbul.com/article/istanbul-parks-city-s-breathing-spots/)).
+
+#### Venue: Seafront promenade (*sahil*, *kordon*) · app: Beach or waterfront
+- Use for: on the go outdoor; balık ekmek, midye dolma, simit or mısır
+  resting on a railing, bench or rock; a sunset picnic on the seafront
+  grass for 1 to 3. Istanbul's Moda seafront is where people sit on the
+  grass with friends and picnic at sunset; Eminönü and Karaköy have the
+  grilled-fish boats; İzmir's Kordon is the Aegean equivalent [MEDIUM —
+  istanbul.com and city guides; register: Seaside / ferry-side and
+  CROSS-CUTTING REGISTER: STREET FOOD].
+- Soft background (the core): the water as a broad band of blue-grey
+  (Bosphorus, Marmara) or Aegean blue; a white ferry (*vapur*) crossing
+  with its wake, gulls; a steel or painted railing along a stone or
+  concrete quay with granite blocks or riprap; seafront grass with
+  benches and lamp posts; on the far shore, a soft skyline of hills and
+  apartment blocks (domes and minarets only far and never framing the
+  hero); fishermen's rods leaning on the rail; a simit or corn cart as a
+  red shape further down [MEDIUM]. Light: low gold sunset over the water
+  in summer; bright haze at midday. Palette: water blue-grey, ferry
+  white, railing green or grey, sunset amber, grass green. Signature
+  shapes: the ferry silhouette, the railing line, the gulls, fishing
+  rods, the far-shore hills.
+- Shell: open air on the quay or seafront park.
+- The table as set here: the railing's flat top, a bench, a granite
+  block or a blanket on the grass; balık ekmek in its paper with onion
+  and lettuce, or midye dolma on a small plate with lemon wedges; a
+  paper napkin.
+- Subregional variants and the national default: Istanbul (Moda, Üsküdar,
+  Bebek, Eminönü); İzmir Kordon (wide lawn, palms, sunset over the bay);
+  Antalya and the Mediterranean (cliffs, turquoise water, pebble beach);
+  Black Sea (grey sea, concrete breakwaters). National default: the
+  Moda seafront at sunset.
+- Hallucination traps: Santorini whitewash and blue domes; a tropical
+  beach with palms and sunbeds in Istanbul; the Hagia Sophia and Blue
+  Mosque as the hero's backdrop; a çay glass on the railing (the
+  strongest prior).
+- Never stage: çay, ayran, beer or rakı (a real seafront prior); a
+  mosque framing the hero; legible signs and ferry names; held in a hand.
+- Prompt-ready line: "The Moda seafront in Istanbul at sunset: balık ekmek
+  in its paper resting on a railing sharp in front, behind it the
+  softly blurred grey-blue Marmara with a white ferry crossing, gulls and
+  far hills in low amber light."
+- Confidence and sources: MEDIUM-LOW; one search
+  ([istanbul.com — Istanbul in July](https://istanbul.com/tr/blog/seasonal-picks/istanbul-in-july);
+  [Turkey Travel Planner — Kadıköy](https://turkeytravelplanner.com/go/Istanbul/Sights/asia/kadikoy.html))
+  plus the register and STREET FOOD.
+
+#### Venue: Stadium forecourt on match day (*stadyum önü*, *köfte ekmekçi*) · app: Stadium or event
+- Use for: on the go outdoor; before a Süper Lig match or derby, a köfte
+  ekmek from a vendor resting on a cart ledge, a low wall or a stall
+  counter; 1 to 3, evening. Köfte ekmek is part of Turkish football
+  culture and vendors gather around stadiums before matches, e.g. by
+  Yoğurtçu Parkı near Şükrü Saracoğlu [MEDIUM — Goal Türkiye guide].
+- Soft background (the core): a row of köfte carts and stalls with
+  charcoal grills sending up white smoke lit orange by the coals, rows
+  of small köfte and half-loaves of bread, a tray of onions and
+  peppers; the stadium's concrete and steel stand or its lit facade as
+  a big soft shape, floodlights as hard white bokeh above; crowds as a
+  blurred mass of scarves and jackets (colours reduced to soft
+  non-club tones, no kits worn as uniforms); street lamps, police
+  barriers, kerbs. Light: evening, floodlight glare and the grill's
+  orange glow through smoke. Palette: smoke white, coal orange, concrete
+  grey, night navy, floodlight white. Signature shapes: the cart grill
+  and smoke column, floodlight towers, the stand's curve, the crowd
+  mass [LOW-MEDIUM — the smoke and floodlights are model knowledge].
+- Shell: open air, asphalt forecourt or park edge.
+- The table as set here: the cart's steel ledge or a low wall; a half
+  loaf of köfte ekmek with onion and pepper on paper; a paper napkin
+  (no hand).
+- Subregional variants and the national default: Istanbul (Kadıköy's
+  Şükrü Saracoğlu with Yoğurtçu Parkı; Beşiktaş by the Bosphorus;
+  Galatasaray's stadium in Seyrantepe); Anatolian city stadiums on the
+  edge of town. Outside football, concerts and festivals use the same
+  cart rows. National default: Kadıköy on a derby evening.
+- Hallucination traps: an American tailgate; a German beer-garden fan
+  zone; flares and riot scenes; a çay tray or beer cup.
+- Never stage: club crests, kits, scarves with legible names, club colour
+  pairings as a uniform; beer; flares; a full flag; identifiable
+  children; legible signs.
+- Prompt-ready line: "Outside an Istanbul stadium on a match evening: a
+  köfte ekmek on paper resting on a cart's steel ledge sharp in front,
+  behind it charcoal smoke lit orange, the curve of a stand and
+  floodlights as white bokeh above a blurred crowd."
+- Confidence and sources: MEDIUM-LOW; one search
+  ([Goal Türkiye — eating around Şükrü Saracoğlu](https://www.goal.com/tr/galeri-listesi/ye-ic-oyna-fenerbahce-sukru-saracoglu-stadi-etrafinda-yemek-yiyebileceginiz-yerler/blt5353a872a8a25fea));
+  GAME NIGHT's derby rules apply.
 
 ---
 
@@ -2832,6 +3217,14 @@ entry]
 7. Game-night foods with no catalog entry (game-night pass 2026-10-01):
    çekirdek (sunflower seeds with a shell dish) and kuruyemiş as a compact
    snack entry; kaşarlı tost (café register).
+- **Venue profiles wave 2 (2026-10-18): unverified background details.**
+  Island-vs-peninsula prevalence in Turkish new-builds (no source found),
+  the share of unmarried young adults living with family, tulle in young
+  renters' flats, the personal décor layer, park furniture, tarp colours
+  at the semt pazarı, and smoke and floodlight detail at stadium
+  forecourts are model knowledge or thin snippets [LOW]; check against
+  developer listings, TÜİK household data and photo archives. Food
+  trucks judged rare without a search.
 
 ## RESEARCH LOG
 
@@ -2885,3 +3278,4 @@ entry]
   apartment salon dining table, apartment balcony, esnaf lokantası,
   dönerci, kebapçı or ocakbaşı, wedding salon. İftar entries left as they
   are. WebSearch only; no pages read at source.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5 profiles tagged (Wedding salon left untagged), 8 new profiles, 8 searches. WebSearch only, snippets; no pages read at source.
