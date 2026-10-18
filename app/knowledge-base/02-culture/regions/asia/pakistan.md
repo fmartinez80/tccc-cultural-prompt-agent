@@ -214,12 +214,36 @@ Rooh Afza or water jug beside the hero (rule 4); no calligraphy, Qur'an
 or prayer objects near the product (rule 6). **The iftar staging rule and
 the consumer-boycott note stay open**; no profile is set at iftar.
 
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Pakistan profile |
+|---|---|
+| Dining room | House drawing room and dining room, Lahore; outdoor: Roof BBQ (chhat) |
+| Gen Z apartment | Young person's room or rented studio, Lahore (most young adults live with family until marriage) |
+| Kitchen island | New-build house kitchen with island or breakfast counter, DHA Lahore (islands rare; upper-middle new builds only) |
+| Sit-down | Karahi/tikka restaurant; GT Road dhaba |
+| Counter service | Mall food court, Lahore |
+| Café | Neighbourhood specialty café, Gulberg or DHA Lahore |
+| Modern bistro | Design-led Pakistani restaurant, Gulberg or DHA Lahore |
+| Street market | Food street at night, Lahore |
+| Food truck | rare here: a handful of burger and desi-Chinese vans (Dawn 2017); nearest: Food street at night |
+| Park | City park, Lahore |
+| Beach or waterfront | Sea View and Clifton seafront, Karachi |
+| Stadium or event | Outside the stadium on a PSL night, Lahore |
+
+The wedding marquee or shadi hall serves no option (indoor banquet); it
+stays as context for wedding briefs.
+
 Wave 1: the house drawing and dining room, the roof (chhat) BBQ, the
 karahi/tikka restaurant, the GT Road dhaba, and the wedding marquee or
 shadi hall. The food street, the chai dhaba (GAME NIGHT) and the Karachi
-apartment are left for a later wave.
+apartment are left for a later wave. Wave 2 (2026-10-18) added nine
+profiles for the app options (Gen Z apartment through Stadium or event)
+at the end of this section.
 
-### Venue: House drawing room and dining room, Lahore (drawing room, "dining")
+### Venue: House drawing room and dining room, Lahore (drawing room, "dining") · app: Dining room
 - **Use for:** home indoor; casual lunch for 1–3, the family dinner for
   5–8, Eid lunch, dawats, the cricket watch party in the drawing room or
   TV lounge, ludo and carrom. The national default home interior: a
@@ -296,7 +320,7 @@ apartment are left for a later wave.
   Furnishers and Lahore interior-design sources; ENVIRONMENT markers);
   colours editorial. 1 search this pass.
 
-### Venue: Roof BBQ (chhat; roof of a house)
+### Venue: Roof BBQ (chhat; roof of a house) · app: Dining room, outdoor
 - **Use for:** home outdoor; the Eid ul-Adha BBQ, winter-night family
   BBQs, winter-sun lunches (as a daytime variant), birthday and dawat
   evenings; 1, 2 or a small group of settings inside a gathering of
@@ -357,7 +381,7 @@ apartment are left for a later wave.
   guides, this file's Eid sources); roof architecture LOW-MEDIUM. 1
   search this pass.
 
-### Venue: Karahi/tikka restaurant (karahi restaurant; "family hall")
+### Venue: Karahi/tikka restaurant (karahi restaurant; "family hall") · app: Sit-down
 - **Use for:** restaurant, indoor or open-front; dinner and late lunch,
   2–3 people or a family; the everyday urban eat-out. The national
   default casual sit-down restaurant. [MEDIUM — register; Away from home
@@ -416,7 +440,7 @@ apartment are left for a later wave.
   Lahore interior description; built from the file's register and
   scenarios. 1 search this pass.
 
-### Venue: GT Road dhaba (dhaba; truck stop)
+### Venue: GT Road dhaba (dhaba; truck stop) · app: Sit-down
 - **Use for:** restaurant or on-the-go, outdoor; lunch or dinner on a
   journey, 1 person (Away from home 1 person) or 2–3; the market's
   default roadside venue. [HIGH — Wikipedia (Dhaba), Roads & Kingdoms,
@@ -526,6 +550,454 @@ apartment are left for a later wave.
 - **Confidence and sources:** MEDIUM (Lahore venue and decor guides;
   this file's wedding entry and the Act); colours by event editorial. 1
   search this pass.
+
+### Venue: Young person's room or rented studio, Lahore (kamra; studio flat) · app: Gen Z apartment
+- **Use for:** home indoor; a snack or casual lunch for 1–2 friends.
+  **Most unmarried young Pakistanis live with their parents until
+  marriage**, so the honest default is a young person's own **bedroom in
+  the family house**, set up as their space. The rented **studio flat**
+  (Bahria Town, Gulberg, DHA towers) is the variant for a young working
+  professional or a young couple. [MEDIUM — living at home until
+  marriage per Library of Congress country study (dated) and a Karachi
+  youth survey (37% joint family, 57% nuclear, convenience sample);
+  studios marketed to "young professionals" per Bahria listings]
+- **Soft background (the core):**
+  - *Back wall:* painted plaster in off-white, light grey or one
+    **accent wall** (sage, dusty pink, charcoal); a few **framed prints
+    or a cork board** of photos and cards (blurred), a **string of warm
+    fairy lights** or a neon-style lamp; a wall-mounted **split AC unit**
+    high on the wall (near universal in Lahore heat). [MEDIUM for split
+    and inverter AC in studio listings; décor EDITORIAL]
+  - *Middle distance:* the **bed with a printed bedsheet and cushions**
+    used as the sofa, or in a studio a compact **two-seat sofa** and a
+    **TV on a media wall**; a **built-in wardrobe** with laminate doors; a
+    study desk with a laptop and a desk lamp; one or two **potted plants**
+    (money plant, snake plant); a prayer mat folded away, never in frame.
+    [MEDIUM — sofa set, media wall, built-in wardrobes in 350 sq ft
+    Bahria studios (Zameen, Lamudi listings); rest EDITORIAL]
+  - *Light:* daylight through an aluminium-framed window with a **grille
+    or mesh** and a blind or thin curtain; evening: warm fairy lights and
+    a cool LED ceiling light; a **ceiling fan** in the family-house room.
+  - *Palette:* off-white walls, grey or beige laminate, a pastel or
+    earthy accent, warm bulb gold, plant green.
+  - *Signature shapes (3–5):* the split AC box; fairy-light dots; the
+    bed or small sofa with cushions; a desk lamp; one plant.
+  - *Density and wear:* personal, slightly cluttered (chargers, books,
+    a skincare shelf), not styled.
+  - *People cues:* a friend or sibling as a soft shape, within the limit.
+- **Shell:** a room in a brick-and-plaster house or a 350–460 sq ft
+  studio in a mid-rise tower; tile or marble-chip floor, a rug.
+  [MEDIUM — studio sizes per listings]
+- **The table as set here:** a small coffee table, a side table or the
+  study desk cleared for food; melamine or ceramic plates, a delivery
+  box opened flat (no logos), fries, a burger, or a plate of samosa and
+  chutney. Floor cushions or the bed edge in frame. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Lahore family-house bedroom. Karachi: a flat in a block with a
+  balcony door and sea haze; Islamabad: a shared flat or a portion of a
+  house. Hostels (girls' or boys') for students from other cities.
+- **Hallucination traps:** the Scandinavian/Pinterest showroom (white
+  oak, boucle chair, gallery wall, huge window); a New York loft with
+  exposed brick; a Western solo-renter flat as the norm; an Indian
+  college room with Hindu posters; mixed-gender couples lounging (keep
+  modest).
+- **Never stage:** chai or Rooh Afza beside the hero; legible posters,
+  book spines or screens; Qur'an or prayer mat near the food; alcohol.
+- **Prompt-ready line:** "A young Lahori's bedroom in soft focus:
+  off-white walls with a sage accent wall, warm fairy lights and a few
+  blurred framed prints, a split AC unit high on the wall, a bed with
+  printed cushions and a small potted plant by a grilled window."
+- **Confidence and sources:** MEDIUM for living arrangement and studio
+  fittings (Library of Congress country study; Karachi survey; Zameen,
+  Lamudi listings); décor EDITORIAL. 2 searches this pass.
+
+### Venue: New-build house kitchen with island or breakfast counter, DHA Lahore (open kitchen) · app: Kitchen island
+- **Use for:** home indoor; a snack or quick lunch for 1–2. **Islands
+  are rare in ordinary Pakistani homes.** They appear in newer upper-
+  middle houses (DHA, Bahria Town, Islamabad sectors) as part of an
+  **open "show" kitchen** next to the lounge; in many such houses the
+  heavy masala cooking happens in a **separate closed back kitchen**.
+  The honest everyday version is a **breakfast counter or peninsula**
+  off the open kitchen. [MEDIUM — island and peninsula listed as
+  layouts, open-plan kitchen-dining a modern urban trend (Zameen,
+  Graana design blogs, tier 3); the separate back kitchen LOW — not
+  verified]
+- **Soft background (the core):**
+  - *Back wall:* flat-panel **modular cabinets** in matte finish (dark
+    grey, navy, forest green or wood-grain laminate; glossy white in
+    slightly older builds); a **quartz or granite** backsplash or tiles;
+    a **stainless chimney hood** over a **built-in gas hob**.
+    [MEDIUM — matte dark tones replacing glossy white (Pakistani
+    kitchen-trend blog, tier 4)]
+  - *Middle distance:* a **double-door fridge**, a microwave in a tall
+    unit, a **water filter or dispenser**, a tray of spices tidied
+    away, a fruit bowl; through the open side, the lounge sofa and a
+    TV. [EDITORIAL]
+  - *Light:* **pendant lights** over the island (black metal or glass),
+    LED strip under the cabinets, cool white downlights; a window with a
+    blind or a door to the lawn with daylight.
+  - *Palette:* charcoal or green matte, white or grey quartz, steel,
+    warm wood stools.
+  - *Signature shapes (3–5):* two or three pendants in a row; the
+    chimney hood; flat cabinet run; high stools; the double-door fridge.
+  - *Density and wear:* new and tidy, lightly used (the cooking is
+    elsewhere).
+  - *People cues:* a family member as a soft shape, within the limit.
+- **Shell:** a 1-kanal or 10-marla new-build house; porcelain or marble
+  floor; false ceiling with downlights. [LOW-MEDIUM]
+- **The table as set here:** the **quartz or granite island top**;
+  ceramic plates, a platter of shami kebab or sandwiches, fruit chaat
+  in a glass bowl; high stools at the frame edge. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a DHA Lahore open kitchen with a peninsula counter. Karachi:
+  the newer high-rise flats (Clifton, DHA) with a breakfast bar.
+  Islamabad: larger islands in newer sector houses. Older houses: a
+  closed kitchen with no counter seating (do not use this option).
+- **Hallucination traps:** an American farmhouse show-kitchen (shiplap,
+  subway tile, butcher block, wine fridge); a Scandinavian all-white
+  kitchen; a Gulf marble palace kitchen; an Indian modular kitchen with
+  a puja niche.
+- **Never stage:** chai pot or kettle beside the hero; legible
+  appliance brands; wine rack or bottles; alcohol.
+- **Prompt-ready line:** "A new Lahore house's open kitchen in soft
+  focus: matte charcoal cabinets and a steel chimney hood over a gas
+  hob, a white quartz island under a row of black pendant lights, and
+  the lounge glowing through the open side."
+- **Confidence and sources:** MEDIUM-LOW (Zameen, Graana and kitchen-
+  trend blogs, tier 3–4); placement and back-kitchen split LOW. 1
+  search this pass.
+
+### Venue: Neighbourhood specialty café, Gulberg or DHA Lahore (café; coffee shop) · app: Café
+- **Use for:** café; afternoon or evening snack, 1–3 friends; students
+  and young professionals working on laptops. Upscale-urban, not a mass
+  everyday venue (the everyday "café" for most people is the chai
+  dhaba, excluded beside the hero). [MEDIUM — Lahore café guides
+  (ProPakistani Foodnama, Zameen); "the café is the reward" (The News)]
+- **Soft background (the core):**
+  - *Back wall:* the **counter with an espresso machine** as a steel
+    block, a **glass pastry case** with cakes, brownies and croissants,
+    a blurred menu board; walls in plain plaster, white or warm grey,
+    sometimes wood slats or a **minimal Scandinavian look**. [MEDIUM —
+    "minimalistic and sophisticated", "sleek Scandinavian" interiors
+    (Mocca, Lahore café guides); exact finishes not verified]
+  - *Middle distance:* a few **small round or square tables** with wood
+    or metal chairs; a laptop and a person working; **plants**; a large
+    window onto a tree-lined road or a car park; many Lahore cafés have
+    an **outdoor terrace** used in winter. [MEDIUM — outdoor seating
+    noted (TM Coffee, Artisan Coffee reviews)]
+  - *Light:* big-window daylight; warm Edison or globe pendants; winter
+    evenings: terrace fairy lights and a gas patio heater glow.
+  - *Palette:* white and grey, light oak or walnut, black steel,
+    pastry-case gold, plant green.
+  - *Signature shapes (3–5):* espresso machine; glass pastry case;
+    pendant globes; small round tables; a plant by the window.
+  - *Density and wear:* new, clean, styled; moderately busy.
+  - *People cues:* young customers in kurtas, jeans and hoodies,
+    women with dupattas or uncovered hair (both real in Gulberg), soft,
+    within the limit.
+- **Shell:** a ground-floor shop in a commercial block or a converted
+  house in Gulberg or DHA; tile or polished concrete floor. [LOW]
+- **The table as set here:** a small wood or marble-look table; a
+  ceramic plate with a slice of cake, a croissant or a club sandwich
+  with fries. **Coffee cups are intruder drinks**: out of frame or a
+  blur only. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Gulberg/DHA Lahore café. Walled City rooftop cafés with the
+  **Badshahi Mosque** behind are a tourist variant (minaret only as a
+  distant blur, hard rule 6). Karachi: Zamzama and Clifton cafés;
+  Islamabad: F-6/F-7 markets with Margalla views.
+- **Hallucination traps:** a global chain café look (green aprons,
+  logo cups); a Melbourne hipster café with exposed brick as the
+  default (not verified for Lahore); a Parisian bistro; an Istanbul
+  çay garden; chai glasses on the table.
+- **Never stage:** coffee or chai beside the hero in sharp focus;
+  legible menu boards, cup sleeves or logos; alcohol.
+- **Prompt-ready line:** "A Lahore neighbourhood café in soft focus: a
+  steel espresso machine and a glass pastry case on a light-oak counter,
+  globe pendants, small round tables and a potted plant by a big window
+  onto a leafy road."
+- **Confidence and sources:** MEDIUM-LOW (ProPakistani, Zameen, The
+  News; mostly 2021-era guides); finishes EDITORIAL. 1 search this pass.
+
+### Venue: Design-led Pakistani restaurant, Gulberg or DHA Lahore (modern desi restaurant) · app: Modern bistro
+- **Use for:** restaurant; dinner for 2–3 or a small family, the
+  "nice night out" register. Lahore's newer restaurants mix
+  **traditional and modern themes, open kitchens and styled plating**
+  and serve signature mocktails (never staged). [LOW-MEDIUM — Lahore
+  aesthetic-restaurant guide (ProPakistani) via search; no single
+  interior verified]
+- **Soft background (the core):**
+  - *Back wall:* **exposed concrete or lime-plaster** walls, **dark
+    wood or fluted panels**, a **jali (pierced screen)** in brass, wood
+    or terracotta as the local design cue, or a wall of **handmade
+    terracotta or blue Multani tiles**; one large abstract artwork.
+    [EDITORIAL — jali and Multani tile as local cues; not verified in a
+    named restaurant]
+  - *Middle distance:* the **open kitchen** glow behind a counter: a
+    **tandoor mouth** and a charcoal grill as orange light, cooks in dark
+    aprons; other tables of couples and families; **statement pendants**
+    (woven cane, brass or black metal). [LOW — open kitchens per guide]
+  - *Light:* low warm pendant pools over each table, the kitchen's
+    ember glow, otherwise dim; never candles in jars.
+  - *Palette:* grey concrete, dark walnut, terracotta, brass, deep
+    teal or indigo upholstery.
+  - *Signature shapes (3–5):* the jali screen; statement pendants;
+    the open-kitchen tandoor glow; upholstered banquettes; stone tables.
+  - *Density and wear:* new, calm, full on weekends.
+  - *People cues:* well-dressed diners as soft shapes, within the limit.
+- **Shell:** a ground floor or a converted house on MM Alam Road,
+  Gulberg, or in DHA; polished concrete or stone floor. [LOW — MM Alam
+  Road as Lahore's restaurant row, model knowledge, not verified]
+- **The table as set here:** a bare **stone, terrazzo or dark-wood**
+  table; matte stoneware plates in grey or earth tones; a modern plating
+  of Lahori fish, a small karahi in a copper-and-steel mini pan, naan
+  in a cloth-lined tray; cloth napkins. **No wine glasses, no
+  tablecloth.** [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  MM Alam Road / DHA Lahore. Karachi: Clifton and Zamzama restaurants
+  with more seafood; Islamabad: Kohsar Market and F-7 with Margalla
+  views.
+- **Hallucination traps:** a white-cloth hotel restaurant; a bar with
+  bottles, taps or a wine wall (no bars in Pakistan, hard rule 2); a
+  London "Indian fine dining" room with gold Ganesha or elephant motifs;
+  an orientalist lantern-and-cushion Arabian-nights room.
+- **Never stage:** mocktails, chai or water carafes beside the hero;
+  wine glasses; legible menus; calligraphy near the product; alcohol.
+- **Prompt-ready line:** "A design-led Lahore restaurant at night in
+  soft focus: grey lime-plaster walls and a brass jali screen, woven
+  cane pendants over dark-wood tables, and the orange glow of a tandoor
+  in the open kitchen beyond."
+- **Confidence and sources:** LOW-MEDIUM (one Lahore guide via search;
+  the rest EDITORIAL). 1 search this pass.
+
+### Venue: Mall food court, Lahore (food court) · app: Counter service
+- **Use for:** counter service; lunch or a weekend family outing, 1–3
+  people. The big-mall food court is Lahore's main order-at-the-counter
+  setting (Emporium, Packages, Mall of Lahore). [MEDIUM — Emporium food
+  court seating ~3,000 (Zameen, Graana); Packages Mall 30+ outlets incl.
+  Pakistani, Asian and fast food]
+- **Soft background (the core):**
+  - *Back wall:* a row of **counters with backlit menu boards** blurred
+    to colour blocks (red, yellow, orange, green), steel counter fronts,
+    staff in caps; a **desi counter** with a tawa or karahi and a
+    **Chinese-Pakistani** wok counter among the burger and pizza
+    units. [MEDIUM — fast food, desi and Chinese per guides]
+  - *Middle distance:* a large **atrium** of loose tables and chairs,
+    families and groups at the next tables, trays on tables, an
+    escalator or glass railing, sometimes a play area (children never
+    identifiable). [MEDIUM — loose chairs in the common area (food
+    court renovation, Archello)]
+  - *Light:* bright, even white LED and downlights, skylight in some
+    atriums; menu boards glowing.
+  - *Palette:* white and grey floor, beige tables, saturated menu-board
+    blocks, steel.
+  - *Signature shapes (3–5):* the row of glowing counter fronts; loose
+    chairs in a grid; a tray; the atrium rail; a queue as soft shapes.
+  - *Density and wear:* busy, clean, weekend-crowded.
+  - *People cues:* families in shalwar kameez and Western casual, soft,
+    within the limit.
+- **Shell:** the top floor of a large mall; tiled floor, high ceiling.
+- **The table as set here:** a laminate or compact-board table; a
+  plastic **tray** with a burger box or a paper basket of fries and
+  zinger, or a plate of chicken biryani, or chow mein in a bowl; paper
+  napkins, plastic cutlery; no logos. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Lahore mall food court. Karachi: Dolmen and Lucky One malls;
+  Islamabad: Centaurus. Street-front variant: a **broast or burger
+  shop** (order at counter, eat at steel tables), plainer and brighter.
+- **Hallucination traps:** recognisable global chain livery and logos;
+  a US mall food court with Western-only food; an empty sterile render;
+  a Gulf-style ultra-luxury mall.
+- **Never stage:** legible menus, prices or logos; other soft-drink
+  cups; chai; alcohol.
+- **Prompt-ready line:** "A Lahore mall food court in soft focus: a
+  row of glowing counter fronts blurred to red, yellow and green blocks,
+  loose tables and chairs filling a bright atrium, and families with
+  trays at the next tables."
+- **Confidence and sources:** MEDIUM (Zameen, Graana, Archello). 1
+  search this pass.
+
+### Venue: Food street at night, Lahore (food street; Gawalmandi, Fort Road) · app: Street market
+- **Use for:** on-the-go and evening eat-out, 1–3 people; the market's
+  real open-air street-stall venue. Gawalmandi was Pakistan's first
+  formal food street; others followed in Lahore (Fort Road, Walled
+  City), Islamabad and Karachi (Burns Road). [HIGH — Wikipedia
+  (Pakistani food streets; Gawalmandi Food Street), Dawn]
+- **Soft background (the core):**
+  - *Back wall:* **old Walled City façades**, three or four storeys of
+    brick and plaster with **carved wooden jharokas (balconies)** and
+    shutters, lit warm at night; on Fort Road, the **Badshahi Mosque**
+    as a distant glowing dome (minaret blur only, hard rule 6).
+    [MEDIUM — heritage façades per register; Gawalmandi inside the old
+    city (Wikipedia)]
+  - *Middle distance:* stall after stall: **large tawas and karahis on
+    burners**, charcoal grills with tikka, boti and seekh, a fish fryer
+    with gram-flour fish, juice stands with fruit heaped (orange,
+    pomegranate, sugarcane press); **tables and chairs lining the
+    street**; smoke. [HIGH for stall foods — Dawn, Wikipedia]
+  - *Light:* night: **strings of bare bulbs** and LED tubes, the
+    grills' ember glow, lit façades, smoke catching light.
+  - *Palette:* warm brick, carved-wood brown, bulb gold, ember orange,
+    fruit colours.
+  - *Signature shapes (3–5):* carved wooden balconies; tawas and
+    karahis on flame; heaped fruit at a juice stand; bulb strings;
+    tables along the street.
+  - *Density and wear:* crowded, loud, smoky, well-used.
+  - *People cues:* families and groups of men as soft shapes, within the
+    limit.
+- **Shell:** a pedestrianised old-city street at night; brick or
+  stone paving.
+- **The table as set here:** a steel or plastic table on the street;
+  steel plates of tikka, fish or karahi; naan; onion and lemon; raita.
+  [MEDIUM — register]
+- **Subregional variants and the national default:** national default:
+  a Lahore Walled City food street at night. Karachi: **Burns Road**
+  (nihari, rabri, colonial-era stone façades). Peshawar: Namak Mandi.
+  Islamabad: Melody food street.
+- **Hallucination traps:** a Bangkok or Taipei night market; an
+  Indian Chandni Chowk with Hindu signage; hookah (sheesha) in the
+  scene (real but never staged); a tourist-brochure Badshahi Mosque
+  dominating the frame.
+- **Never stage:** legible signboards; juice glasses or chai beside the
+  hero; sheesha; alcohol; a mosque near the product.
+- **Prompt-ready line:** "A Lahore food street at night in soft focus:
+  carved wooden balconies on old brick façades lit warm, strings of bare
+  bulbs over stalls with karahis on flame and smoking grills, and tables
+  crowding the street."
+- **Confidence and sources:** HIGH for the form (Wikipedia, Dawn);
+  façade detail MEDIUM. 1 search this pass.
+
+### Venue: City park, Lahore (Jilani Park / Race Course; Lawrence Gardens) · app: Park
+- **Use for:** on-the-go; an evening or winter-afternoon outing, 1–3
+  people; Lahore is "the city of gardens" and big parks are family
+  picnic places. [MEDIUM — Jilani Park as a family picnic destination,
+  benches, canteens and food stalls, 06:00–22:00 (Zameen, travel blogs)]
+- **Soft background (the core):**
+  - *Back wall:* tall old trees (**banyan, peepal, eucalyptus, palm
+    rows**) and wide **lawns**; flower beds (spring: the Jashn-e-Baharan
+    flower show); a walking track with joggers. [MEDIUM — lawns, picnics,
+    spring flower show (Zameen, The News); species LOW]
+  - *Middle distance:* **families on durries spread on the grass**, a
+    few **concrete or iron benches**, a **canteen or snack stall**
+    (corn, fries, gol gappay cart), lamp posts. [MEDIUM — benches,
+    canteens, food stalls per guides]
+  - *Light:* low golden winter sun through haze, or evening lamp
+    posts as warm points; **smog** in November–January gives a pale,
+    flat light.
+  - *Palette:* deep green, dusty gold light, white lamp posts, the
+    colours of shalwar kameez and shawls.
+  - *Signature shapes (3–5):* broad tree canopies; a durrie on grass;
+    lamp posts; a bench; a walking track curve.
+  - *Density and wear:* busy at weekends, grass worn at the edges.
+  - *People cues:* families and walkers as soft shapes, within the limit;
+    no identifiable children.
+- **Shell:** a large municipal park with paved paths.
+- **The table as set here:** a park bench or a **durrie** with a plate
+  of fruit chaat, samosas or a paper plate of chana chaat set on it;
+  never in a hand. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Jilani Park or Lawrence Gardens, Lahore. Islamabad: **F-9 Park** and
+  the Margalla foothills; Karachi: Bagh Ibne Qasim, dry and sunlit
+  near the sea.
+- **Hallucination traps:** Central Park or a manicured English lawn
+  with picnic baskets and wine; cherry blossom; a Mughal garden (Shalimar)
+  as a generic park; empty sterile parkland.
+- **Never stage:** chai cups beside the hero; legible signboards;
+  identifiable children; alcohol.
+- **Prompt-ready line:** "A Lahore city park in soft focus: tall old
+  trees over wide lawns in hazy golden light, families on durries on the
+  grass, a lamp post and a snack stall by the path."
+- **Confidence and sources:** MEDIUM (Zameen, travel blogs, The News);
+  light and species EDITORIAL. 1 search this pass.
+
+### Venue: Sea View and Clifton seafront, Karachi (Sea View; Do Darya) · app: Beach or waterfront
+- **Use for:** on-the-go; evening outing, 1–3 people; Karachi's
+  public seafront (zone 3) is the national default for this option.
+  [MEDIUM — Clifton Beach (Wikipedia), Sea View guides: camel and horse
+  rides, buggies, snack and ice-cream vendors, busy at night; Do Darya
+  restaurants on stilts over the sea]
+- **Soft background (the core):**
+  - *Back wall:* the **grey-brown Arabian Sea**, wide flat sand, surf
+    lines; **decorated camels** and horses with tassels as silhouettes;
+    a hazy horizon; at Do Darya, wooden decks over the water.
+    [MEDIUM — guides]
+  - *Middle distance:* the **promenade** with railings and lamps,
+    **snack carts** (corn, chaat, fries, ice cream), plastic chairs,
+    families walking, buggies. [MEDIUM]
+  - *Light:* sunset gold and pink through sea haze; at night, street
+    lights and the vendors' bulbs along the front.
+  - *Palette:* sand beige, sea grey, sunset orange, camel tassel red
+    and gold.
+  - *Signature shapes (3–5):* a decorated camel silhouette; the
+    promenade rail; lamp posts; a vendor cart; the flat horizon.
+  - *Density and wear:* crowded at weekends, windy, sandy.
+  - *People cues:* families as soft shapes, women in dupattas or
+    abayas, within the limit.
+- **Shell:** an open beach and a paved promenade.
+- **The table as set here:** a vendor-cart counter, a plastic table or
+  the promenade ledge: a paper plate of chaat, roasted corn or a plate
+  of fried fish; never in a hand. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Sea View, Karachi at sunset. Do Darya: deck restaurants over the sea.
+  Lake variants inland: Rawal Lake (Islamabad), Kinjhar Lake (Sindh).
+  Gwadar coast: not researched.
+- **Hallucination traps:** a turquoise tropical beach with palms and
+  swimsuits; a Mediterranean promenade; bikinis or people swimming
+  (rare; the sea is often closed in monsoon); a Dubai skyline.
+- **Never stage:** swimwear; legible signs; chai or juice beside the
+  hero; alcohol.
+- **Prompt-ready line:** "Karachi's Sea View at sunset in soft focus: a
+  decorated camel silhouetted on wide flat sand by a hazy grey sea, the
+  promenade rail and lamp posts, and a snack cart's bulb glowing."
+- **Confidence and sources:** MEDIUM (Wikipedia, Zameen, Graana guides).
+  1 search this pass.
+
+### Venue: Outside the stadium on a PSL night, Lahore (Gaddafi Stadium) · app: Stadium or event
+- **Use for:** outdoor event; PSL or an international match night, 1–3
+  fans. Security is heavy (thousands of police, cordons, walking from
+  parking and shuttle points), so the honest scene is the **approach
+  and parking area outside the cordon**, not a stall-lined forecourt.
+  [HIGH for heavy security and walk-in from Liberty/Ferozpur Road (Dawn,
+  Punjab Police, APP); festive crowds singing outside (Newsline, 2017);
+  **food stalls outside not found** — LOW]
+- **Soft background (the core):**
+  - *Back wall:* the stadium's **floodlight towers** blazing white
+    against the night sky; the brick-red and cream stadium façade with
+    arches as a soft block. [MEDIUM — floodlights uncontested; façade
+    LOW — not verified]
+  - *Middle distance:* fans in **team-colour shirts**, painted faces
+    (no legible names), flags of franchise colours (never the national
+    flag in full); police barricades and walk-through gates as soft
+    shapes; the Metro Bus elevated track; a **snack cart** (corn, fries,
+    nimko) at the cordon edge [LOW].
+  - *Light:* floodlight glow and white haze over the stadium, street
+    lights, phone torches as bokeh.
+  - *Palette:* night blue, floodlight white, franchise colours (green,
+    pink, purple, yellow) as blur.
+  - *Signature shapes (3–5):* floodlight towers; a crowd of jerseys;
+    barricade rails; a hand-held flag shape; the stadium arches.
+  - *Density and wear:* crowded, loud, celebratory.
+  - *People cues:* fans as soft shapes, within the limit; no
+    identifiable children.
+- **Shell:** a road and parking area near the stadium complex.
+- **The table as set here:** a cart counter, a car bonnet or a low
+  wall: a paper plate of fries or a paper cone of corn; the hero beside
+  it; never in a hand. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Gaddafi Stadium, Lahore. Karachi: National Stadium; Rawalpindi
+  Cricket Stadium. Event alternative: an open-air **food festival** in
+  a park or ground with stalls and fairy lights [LOW].
+- **Hallucination traps:** a US tailgate with grills and beer coolers;
+  a European football stadium; an IPL (India) crowd and branding; a
+  full national flag; legible team or sponsor names.
+- **Never stage:** legible jerseys, banners, sponsor boards or
+  scoreboards; full flags; police weapons in focus; alcohol.
+- **Prompt-ready line:** "Outside a Lahore cricket stadium on match night
+  in soft focus: white floodlight towers blazing over the stadium, fans
+  in bright team-colour jerseys streaming past barricades, and a snack
+  cart's bulb at the roadside."
+- **Confidence and sources:** MEDIUM for security and atmosphere (Dawn,
+  Punjab Police, APP, Newsline); vendors LOW. 1 search this pass.
 
 ---
 
@@ -2956,6 +3428,14 @@ No green tea glasses, no legible signage."
   fittings beyond trade-site evidence; regional variants for Peshawar,
   Quetta and the North; shamiana colours. Food street, chai dhaba and
   Karachi apartment not yet profiled (later wave).
+- **Venue-profile wave 2 (2026-10-18) open items.** Unverified
+  background details: whether ordinary Lahore stadium approaches have
+  food carts (no source found; heavy security cordons); the separate
+  closed "back kitchen" behind open show kitchens; MM Alam Road as the
+  modern-restaurant row and the jali/Multani-tile décor cue (no named
+  interior found); café finishes (guides are 2021-era); park tree
+  species; Gaddafi Stadium façade. Food truck left uncovered on purpose
+  (rare; 2017 sources only, no current food-truck-park evidence).
 
 ## CANDIDATE QUEUE
 
@@ -3036,3 +3516,4 @@ No green tea glasses, no legible signage."
   staging rule and boycott note left untouched; the after-iftar ludo
   variant is gated on them. No subagents.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (house drawing and dining room, roof BBQ, karahi/tikka restaurant, GT Road dhaba, wedding marquee or shadi hall). Iftar rule and boycott note untouched. No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 4 profiles tagged (wedding marquee left untagged as an indoor banquet), 9 new profiles, 11 searches (Gen Z apartment 2, the other eight 1 each, plus 1 on food trucks, which found them rare). No subagents.
