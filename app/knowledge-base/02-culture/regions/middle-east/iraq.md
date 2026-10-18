@@ -115,7 +115,24 @@ meal (sufra) profile kept as documented context. Home profiles carry an
 extra "Table dressing" field for the cover and linens. File-wide rules
 hold.
 
-#### Venue: Family dining room, Baghdad apartment or house (home, indoor)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Iraq profile |
+|---|---|
+| Dining room | Family dining room; Courtyard / roof (outdoor) |
+| Gen Z apartment | none yet (generic look) |
+| Kitchen island | none yet (generic look) |
+| Sit-down | Masgouf restaurant; Mandi house |
+| Counter service | Burger, broast and fried-chicken shop; Kebab corner shop; Falafel and kass counter |
+| Café | Casual café-restaurant |
+| Modern bistro | Casual café-restaurant (nearest; upmarket riverside places); the design-led burger concepts in the burger shop profile |
+| Street market | Kebab corner shop; Samoon bakery; Falafel and kass counter |
+| Food truck | Falafel and kass counter (nearest) |
+| Park, Beach or waterfront, Stadium or event | none yet (generic look) |
+
+#### Venue: Family dining room, Baghdad apartment or house (home, indoor) · app: Dining room
 - Prompt-ready line: "A Baghdad family dining room: the meal sharp on a
   rectangular dark-walnut table under a clear plastic cover over white
   cotton, a plain tissue box and bread basket beside it; behind, softly
@@ -243,7 +260,7 @@ hold.
 - Confidence and sources: MEDIUM — import only; tooling support needed
   before use.
 
-#### Venue: Masgouf restaurant on the Tigris (riverside, open or semi-open)
+#### Venue: Masgouf restaurant on the Tigris (riverside, open or semi-open) · app: Sit-down
 - Prompt-ready line: "A Tigris masgouf restaurant at dusk: open-cut carp on
   stakes around embers sharp behind, a tray of grilled fish over flatbread
   with lemon and onion in front, river glint and palms softly blurred."
@@ -272,7 +289,7 @@ hold.
   focus.
 - Confidence: MEDIUM-HIGH [S2]
 
-#### Venue: Kebab / tikka corner shop (street, night)
+#### Venue: Kebab / tikka corner shop (street, night) · app: Counter service, Street market
 - Prompt-ready line: "An Iraqi kebab shop at night: skewers over charcoal
   glow behind, samoon with grilled meat and onion sharp on a steel tray,
   tiled walls and street glass softly blurred."
@@ -291,7 +308,7 @@ hold.
 - Never stage: alcohol, legible price boards, brand marks.
 - Confidence and sources: MEDIUM.
 
-#### Venue: Samoon bakery / tannour (street, daytime)
+#### Venue: Samoon bakery / tannour (street, daytime) · app: Street market
 - Prompt-ready line: "An Iraqi bakery at midday: stacked diamond samoon
   loaves sharp in a paper bag, behind it the glowing tannour mouth and flour
   dust, softly blurred."
@@ -306,7 +323,7 @@ hold.
   diamond or pointed oval with a crisp ridge, not round pita).
 - Confidence and sources: MEDIUM.
 
-#### Venue: Courtyard / roof summer table (home, outdoor)
+#### Venue: Courtyard / roof summer table (home, outdoor) · app: Dining room, outdoor
 - Prompt-ready line: "A Baghdad courtyard at night: family trays sharp on a
   low table, behind it tiled walls, plants and a single warm bulb glow with
   dark rooftops softly blurred."
@@ -359,7 +376,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
 - Never stage: alcohol, glassware other than the hero, legible text.
 - Confidence: HIGH; EDITORIAL for the camera match. [S3]
 
-#### Venue: Mandi house (مطعم مندي — mat'am mandi)
+#### Venue: Mandi house (مطعم مندي — mat'am mandi) · app: Sit-down
 - Prompt-ready line: "An Iraqi mandi restaurant: a round steel tray of
   orange-gold rice with roast chicken sharp on the table, behind it a
   raised carpeted floor-seating area with long cushions and a steel-lidded
@@ -396,7 +413,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
 - Never stage: legible menus or branch names, alcohol, sectarian banners.
 - Confidence and sources: MEDIUM; EDITORIAL for staging.
 
-#### Venue: Burger, broast and fried-chicken shop (fast food, indoor)
+#### Venue: Burger, broast and fried-chicken shop (fast food, indoor) · app: Counter service
 - Prompt-ready line: "A modern Baghdad burger shop at night: the meal
   sharp on a wooden board, behind it a dark wall with a warm wood-slat
   panel, glowing pendant bulbs and a steel kitchen pass softly blurred,
@@ -480,7 +497,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
   one reviewer called the chain portion small. Local versions in the
   briefing pile the sauce on more heavily. [MEDIUM]
 
-#### Venue: Falafel and kass sandwich counter (street, day and night)
+#### Venue: Falafel and kass sandwich counter (street, day and night) · app: Counter service, Street market, Food truck
 - Prompt-ready line: "An Iraqi sandwich counter: a split samoon stuffed
   with meat sharp on white paper, behind it a turning meat spit glowing
   amber, a steel tray of salads and a stack of diamond-shaped loaves
@@ -506,7 +523,7 @@ kebab venues above already cover masgouf, kebab and mashawi.
 - Never stage: legible price boards, alcohol, brand marks.
 - Confidence and sources: MEDIUM.
 
-#### Venue: Casual café-restaurant for pizza and pasta (indoor, families and friends)
+#### Venue: Casual café-restaurant for pizza and pasta (indoor, families and friends) · app: Café, Modern bistro
 - Prompt-ready line: "A warm Baghdad café-restaurant in the evening: the
   dish sharp on a wooden table, behind it brick walls, amber pendant lamps
   and plants softly blurred."
