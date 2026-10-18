@@ -237,7 +237,27 @@ canopy, the buka, the suya spot, and the owambe under canopies or in an
 event hall. The viewing centre (GAME NIGHT) and the pepper-soup joint are
 left for a later wave.
 
-### Venue: Family parlour and dining corner (the "parlour", "sitting room")
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Wave 2 (2026-10-18) added eight profiles, all on the sign-off-safe
+baseline. Coverage:
+
+| App option | Nigeria profile |
+|---|---|
+| Dining room | Family parlour and dining corner; outdoor: Compound forecourt under a canopy |
+| Gen Z apartment | Young professional's mini flat |
+| Kitchen island | Open-plan kitchen with an island (rare; new-build Lekki or Abuja flats only) |
+| Sit-down | Buka / mama put (the cook serves the plate; framing PENDING SIGN-OFF) |
+| Counter service | Quick-service eatery |
+| Café | Lagos neighbourhood café |
+| Modern bistro | Design-led Nigerian restaurant |
+| Street market | Open-air food market |
+| Food truck | nearest: Suya spot (food trucks are niche; the roadside grill stand is the local mobile-vendor equivalent) |
+| Park | Managed city park |
+| Beach or waterfront | Lagos Atlantic beach |
+| Stadium or event | Owambe under canopies (the outdoor street or compound version; the hall version is context only). No stadium profile: big football nights are watched at viewing centres and at home (GAME NIGHT) |
+
+### Venue: Family parlour and dining corner (the "parlour", "sitting room") · app: Dining room
 - **Use for:** home indoor; casual lunch for 1–3, dinner, Sunday family
   lunch, Christmas and Sallah family meals, the Premier League and Super
   Eagles watch parties, ludo and Whot. The national default home
@@ -323,7 +343,7 @@ left for a later wave.
   furniture trade sites for the ceiling and centre table); colours,
   food flasks and set dressing LOW or editorial. 1 search this pass.
 
-### Venue: Compound forecourt under a canopy (the "compound", the forecourt)
+### Venue: Compound forecourt under a canopy (the "compound", the forecourt) · app: Dining room, outdoor
 - **Use for:** home outdoor; the family BBQ or get-together, naming
   ceremonies, Christmas in the hometown, the after-party Whot game, a
   Super Eagles night with the TV carried out; 1, 2 or a small group of
@@ -390,7 +410,7 @@ left for a later wave.
   the file's registers or editorial. 1 search this pass (plus the owambe
   canopy search).
 
-### Venue: Buka / mama put (buka, bukka; mama put)
+### Venue: Buka / mama put (buka, bukka; mama put) · app: Sit-down
 - **Use for:** restaurant, indoor or semi-outdoor; weekday lunch, 1 or
   2 people (Away from home 1 person), a small group of co-workers. The
   default casual sit-down eating-out venue. **Framing PENDING HUMAN
@@ -458,7 +478,7 @@ left for a later wave.
   Nigeria, BusinessDay); palettes and tableware editorial. 1 search this
   pass.
 
-### Venue: Suya spot (mai suya's stand)
+### Venue: Suya spot (mai suya's stand) · app: Food truck
 - **Use for:** on-the-go or "other", outdoor; the evening snack, after
   work, 1–3 people; the BEVERAGE MOMENTS "Suya night" row. The national
   default street venue: suya is now sold everywhere, not only in the
@@ -513,7 +533,7 @@ left for a later wave.
   (Wikipedia, Tasting Table, file registers); lamp type LOW. 1 search
   this pass.
 
-### Venue: Owambe under canopies or in an event hall (owambe; "party")
+### Venue: Owambe under canopies or in an event hall (owambe; "party") · app: Stadium or event
 - **Use for:** "other"; wedding receptions, milestone birthdays, naming
   ceremonies of well-off families, igba nkwu receptions; 1, 2 or a small
   group of settings at one arc of a round table of 8–10 inside a crowd of
@@ -581,6 +601,421 @@ left for a later wave.
 - **Confidence and sources:** HIGH for the canopy and aso ebi look
   (register sources); MEDIUM for hire items (Lagos rental firms); hall
   dressing LOW-MEDIUM. 1 search this pass.
+
+### Venue: Young professional's mini flat (mini flat; one-bedroom flat) · app: Gen Z apartment
+- **Use for:** home indoor; a Gen Z or young-couple lunch or dinner for
+  1–2. Default city: Lagos. Many young unmarried adults still live in
+  the family home [LOW-MEDIUM — not verified this pass]; those who move
+  out rent a **mini flat** (one bedroom, sitting room, kitchen and
+  bathroom in one unit) in areas such as Yaba or Lekki, and **shared
+  flats** are growing as rents rise and landlords ask one to two years
+  up front. [MEDIUM — Ownkey glossary; Nigeria Housing Market and
+  RentYourNest guides; OkayAfrica on shared living, one search]
+- **Soft background (the core):**
+  - *Back wall:* smooth painted plaster in white, grey or a pale accent;
+    a **POP ceiling** edge with downlights even in small flats
+    [LOW-MEDIUM — carried from the parlour profile]; a **split AC unit**
+    high on the wall as a white bar; framed **prints by Nigerian
+    artists or Afrobeats-era posters** (all wordless), a string or LED
+    strip light, a **ring light** on a stand for content.
+    [EDITORIAL]
+  - *Middle distance:* a compact two- or three-seater sofa, often
+    **carpenter-made** with fabric or leather-look cover, and cushions
+    in **ankara or adire print**; a **snake plant** or other potted plant;
+    a TV on the wall; a dining or work table pushed to the wall; a small
+    **inverter and battery** unit in a corner for power backup
+    [LOW — not verified].
+  - *Light:* bright, slightly hazy tropical daylight through
+    **aluminium sliding windows with burglar-proof bars** and **blinds**
+    or sheer curtains; evening: cool-white LED downlights, the strip
+    light, a **rechargeable fan or lamp** for outages. [MEDIUM — grilles,
+    blinds and rechargeable lamps per the parlour profile]
+  - *Palette:* white and grey walls, glossy pale tiles, plant green, one
+    bold print colour.
+  - *Signature shapes (3–5):* the AC bar on the wall; the window grille
+    behind blinds; the print cushions; the ring light; a snake plant.
+  - *Density and wear:* compact and new-ish, personal, tidy.
+  - *People cues:* a partner or flatmate soft in the background at most.
+- **Shell:** a flat in a 3–4-storey block or a newer estate building;
+  **large glossy ceramic floor tiles**; POP ceiling; a small kitchen off
+  the sitting room. [LOW-MEDIUM]
+- **The table as set here:** a small two-seater dining table (glass-top
+  or wood) or the centre table; ceramic plates; a spoon for rice, the
+  right hand for swallow with **a small bowl of water for washing hands**
+  (rule 5).
+- **Subregional variants and the national default:** national default: a
+  Lagos mini flat with tiles, an AC unit, blinds and print cushions.
+  Abuja: newer blocks, wider windows, harmattan haze Dec–Feb. North:
+  more modest decor; most young adults with family. *Register variants
+  (PENDING SIGN-OFF, factual only):* a young person's own room in the
+  family flat; a self-contain (one room with a kitchenette); a shared
+  flat with the parlour as common room. The tenement register gets no
+  version here.
+- **Hallucination traps:** the global Pinterest/Scandinavian showroom
+  with no Nigerian sign (no grilles, no AC, wooden floors); a New York
+  loft; "tribal" masks and drums as decor; an African-American US
+  apartment; poverty framing (cracked walls, generator smoke).
+- **Never stage:** beer, stout or spirits on a shelf; Chapman; sachet
+  water; legible posters, screens or book spines; brand marks; a full
+  flag.
+- **Prompt-ready line:** "A young Lagos professional's mini flat in soft
+  focus: white walls with a split AC unit and a framed wordless print, a
+  compact sofa with ankara-print cushions, a snake plant and a ring light,
+  and hazy tropical daylight through blinds over a window grille."
+- **Confidence and sources:** MEDIUM for the mini-flat format and shared
+  living (Ownkey, Nigeria Housing Market, RentYourNest, OkayAfrica);
+  decor, inverter and ring light LOW or EDITORIAL. 1 search this pass.
+
+### Venue: Open-plan kitchen with an island (new-build Lekki or Abuja flat) · app: Kitchen island
+- **Use for:** home indoor; a quick lunch for 1–2 at the counter.
+  **Islands are rare in Nigerian homes overall**: they appear in new
+  serviced apartments and estate flats in Lekki, Ikoyi and Abuja (a Lekki
+  listing: white open-concept kitchen with a large island and three high
+  stools; fitted kitchens advertised as a feature), while most homes have
+  a **closed kitchen** off the dining area. Many upscale homes keep a
+  second, back kitchen for heavy cooking [LOW — not verified]. The honest
+  default for this option is the new-build Lagos flat.
+  [MEDIUM for islands in Lekki short-let and new-build listings (Airbnb,
+  Expedia), one search; rarity is EDITORIAL]
+- **Soft background (the core):**
+  - *Back wall:* **high-gloss or matt white or grey cabinets**, a
+    **granite-look or quartz-look top** in black or white; a **gas
+    cooker** with a glass lid or a built-in hob and a steel extractor;
+    a microwave; white or marble-look wall tiles. [LOW-MEDIUM]
+  - *Middle distance:* the island with **high stools**; a tall fridge
+    (steel or black); a **water dispenser** with a large bottle as a
+    pale shape [LOW — not verified]; through the open plan, a sofa and
+    a POP ceiling with downlights.
+  - *Light:* daylight through aluminium windows with blinds; LED
+    downlights and pendants over the island; the AC's white bar high on
+    a wall. [EDITORIAL]
+  - *Palette:* white, grey and black, glossy surfaces, chrome; neutral
+    (the listings' "neutral colour palettes"). [MEDIUM — listing]
+  - *Signature shapes (3–5):* the island edge with stools; glossy
+    cabinets; the gas cooker or hob; pendants; the AC bar.
+  - *Density and wear:* new, glossy, tidy; a fruit bowl with plantain or
+    oranges.
+  - *People cues:* one person soft at the hob or fridge at most.
+- **Shell:** a flat in a new block or estate; large glossy floor tiles;
+  POP ceiling. [LOW-MEDIUM]
+- **The table as set here:** the island top; a ceramic plate of jollof
+  with chicken and dodo, or a swallow with soup and **a small bowl of
+  water for washing hands** (rule 5); a spoon; high-stool edge in frame.
+- **Subregional variants and the national default:** national default: a
+  Lekki new-build kitchen with white gloss cabinets and an island. Abuja:
+  the same in Maitama or Wuse estates. *Register variants (PENDING
+  SIGN-OFF, factual only):* a closed family kitchen with a gas cylinder
+  and a small worktop, where a peninsula counter or the dining table
+  stands in for the island.
+- **Hallucination traps:** an American show-kitchen (farmhouse sink,
+  brass pendants, huge marble island) as the Nigerian default; a
+  Scandinavian oak kitchen; a mortar and pestle on a glossy island;
+  open-fire or firewood cooking indoors.
+- **Never stage:** wine racks, bottles, a bar cart; sachet water; legible
+  appliance brands or packaging; a full flag.
+- **Prompt-ready line:** "A new-build Lekki apartment kitchen in soft
+  focus: white high-gloss cabinets and a black granite-look counter, a
+  steel extractor over a gas hob, high stools at the island edge, LED
+  pendants, and tropical daylight through blinds."
+- **Confidence and sources:** MEDIUM for islands in new Lekki units
+  (listings); rarity, back kitchens and water dispenser LOW or EDITORIAL.
+  1 search this pass.
+
+### Venue: Lagos neighbourhood café (café; "coffee spot") · app: Café
+- **Use for:** café, indoor; a light lunch or afternoon snack for 1–2.
+  Café culture is concentrated in Lekki, Victoria Island, Ikoyi and
+  Abuja's Wuse and Maitama: air-conditioned rooms, often in a small mall
+  or converted house, serving pastries and small plates alongside
+  coffee and tea. One Lekki café is designed **afro-minimalist**, with
+  metal shelving of plants, books and coffee along the walls and a
+  coffee bar by the entrance. [MEDIUM — Studio Elementals project page
+  (promotional), one search; wider café scene LOW-MEDIUM]
+- **Soft background (the core):**
+  - *Back wall:* the **counter** with an espresso machine as a chrome
+    block and a **glass pastry case** (croissants, cakes, **meat pies**
+    and sausage rolls); behind it **open metal or timber shelving** with
+    plants, books and jars. [MEDIUM — shelving (project page); meat pies
+    EDITORIAL]
+  - *Middle distance:* small tables with **rattan, cane or bentwood
+    chairs**; a banquette with **adire or aso-oke textile** cushions;
+    big potted plants; a **tinted glass frontage** onto a car park or
+    leafy street. [EDITORIAL]
+  - *Light:* bright tropical light filtered through tinted glass or
+    blinds; warm pendant bulbs; the split AC unit's white bar.
+  - *Palette:* warm timber, terracotta or clay tones, plant green,
+    black metal, indigo from adire.
+  - *Signature shapes (3–5):* the espresso machine; the pastry case;
+    metal shelving with plants; rattan chair backs; the glass frontage.
+  - *Density and wear:* calm, new, laptop-friendly (screens dark).
+  - *People cues:* the barista and one or two customers, soft.
+- **Shell:** a ground-floor unit in a small mall or a converted house;
+  tiled, terrazzo or polished concrete floor; POP or exposed ceiling.
+- **The table as set here:** a small round marble-look or timber table;
+  a plate with a meat pie, a croissant or a small chops portion; a paper
+  serviette. Coffee and tea cups are intruder drinks: out of frame or
+  blurred unless the brief allows.
+- **Subregional variants and the national default:** national default: a
+  Lekki or Victoria Island café. Abuja: wider rooms in a plaza, harmattan
+  haze in the glass. Ibadan, Enugu, Port Harcourt: fewer cafés; a bakery-
+  café with a pastry counter is the honest version. [LOW]
+- **Hallucination traps:** an Ethiopian coffee ceremony; a US chain café
+  clone; a Parisian café terrace; a Ghanaian or Kenyan café as generic
+  "African"; tourist "tribal" decor.
+- **Never stage:** legible menus, boards or cup sleeves; brand marks;
+  wine or cocktails; shisha; a full flag.
+- **Prompt-ready line:** "A Lagos neighbourhood café in soft focus: a
+  chrome espresso machine and a glass pastry case with meat pies, open
+  metal shelves of plants and books, rattan chairs with adire cushions,
+  and filtered tropical light through tinted glass."
+- **Confidence and sources:** MEDIUM for the afro-minimalist Lekki café
+  (Studio Elementals project page; promotional source); the rest
+  EDITORIAL or LOW. 1 search this pass.
+
+### Venue: Design-led Nigerian restaurant (Victoria Island, Ikoyi) · app: Modern bistro
+- **Use for:** restaurant, indoor; an elevated but relaxed lunch or
+  dinner for 2–3. Victoria Island and Ikoyi restaurants reinterpret
+  Nigerian and West African food in modern rooms: afro-inspired
+  interiors with **textured dark-grey walls and floors**, layered
+  lighting, **booths in African-patterned fabric**; others use **raw
+  concrete, steel and warm timber**, or a garden framed in bamboo. No
+  bar, bottles or taps; never white-cloth. [MEDIUM — LivinSpaces on an
+  afro-inspired Victoria Island interior; Discover Lagos on a concrete,
+  steel and timber space; one search. Note: Lagos venues of this tier are
+  often lounge-bars; the bar side is excluded]
+- **Soft background (the core):**
+  - *Back wall:* **textured dark-grey plaster** or raw concrete;
+    **timber slats**; a large **adire indigo or aso-oke textile** panel
+    or an abstract artwork as a colour block. [MEDIUM — walls; textiles
+    EDITORIAL]
+  - *Middle distance:* **booths upholstered in patterned fabric**;
+    dark timber or stone tables; an **open kitchen** with a grill's glow
+    and a steel pass, chefs as soft shapes [LOW — open kitchen not
+    confirmed for Lagos by the search]; a big potted palm.
+  - *Light:* **layered warm lighting**: woven raffia or rattan
+    pendants, wall washers on the texture; daylight from tall tinted
+    windows at lunch. [MEDIUM — layered lighting; pendants EDITORIAL]
+  - *Palette:* charcoal, concrete grey, timber, indigo, ochre, plant
+    green.
+  - *Signature shapes (3–5):* patterned booths; woven pendants; the
+    textured wall; a textile panel; the kitchen's glow.
+  - *Density and wear:* new, considered, quiet at lunch.
+  - *People cues:* a waiter and one or two diners, soft.
+- **Shell:** a converted house or a ground floor in a VI or Ikoyi
+  building; dark tiled or polished concrete floor; AC. [LOW-MEDIUM]
+- **The table as set here:** bare dark timber or stone; a linen napkin;
+  a handmade or matt plate with a plated modern dish (jollof with
+  smoked fish, suya-spiced protein, a refined swallow and soup portion);
+  steel cutlery; **a small bowl of water for washing hands** with
+  swallow (rule 5); no glassware except the hero product.
+- **Subregional variants and the national default:** national default: a
+  Victoria Island design-led restaurant in charcoal, timber and indigo.
+  Abuja: Maitama or Wuse 2, more garden space. [EDITORIAL]
+- **Hallucination traps:** the **lounge-bar look** (backlit bottle wall,
+  cocktail bar, shisha, LED strips) common at this tier in Lagos;
+  white-cloth hotel dining; "tribal" mask decor; a London new-wave West
+  African restaurant in place of a Lagos one; a Scandinavian minimalist
+  room.
+- **Never stage:** bottles, taps, wine or cocktail glasses, a bar, shisha;
+  legible menus or art text; brand marks; a full flag.
+- **Prompt-ready line:** "A design-led Victoria Island restaurant in soft
+  focus: textured charcoal walls and timber slats, booths in patterned
+  African fabric, woven pendants casting warm pools of light, and an
+  indigo adire panel, with no bar or bottles anywhere."
+- **Confidence and sources:** MEDIUM (LivinSpaces on an afro-inspired VI
+  interior; Discover Lagos on a concrete-and-timber space); open kitchen
+  and textiles LOW or EDITORIAL. 1 search this pass.
+
+### Venue: Quick-service eatery (the "eatery", fast food) · app: Counter service
+- **Use for:** restaurant, counter service, indoor; a quick lunch for 1–2
+  or a group of friends. Nigerian quick-service restaurants are a major
+  national category (one chain alone counts over 200–300 outlets in
+  Nigeria and Ghana): order at a counter, rice, chicken and plantain
+  from heated trays, tables and booths in bright colours, AC. Stage it
+  **unbranded**. [MEDIUM — Wikipedia (Chicken Republic); Marketing Edge
+  and Food Business MEA on QSR scale; a Lagos review on counters, colour
+  scheme and booths; one search]
+- **Soft background (the core):**
+  - *Back wall:* the **service counter** with **heated display trays**
+    (jollof, fried rice, fried chicken, dodo, moi moi), staff in caps and
+    aprons; a **menu board** above as bright colour blocks, never
+    readable. [MEDIUM — counter ordering (review); trays EDITORIAL]
+  - *Middle distance:* **fixed tables and booths** in bright laminate,
+    plastic or metal chairs; a hand-wash basin on a side wall
+    [LOW — not verified]; a glass frontage onto a car park or road.
+  - *Light:* even, bright **cool-white fluorescent or LED** light; the
+    warm glow of the heated trays; daylight from the glass front.
+  - *Palette:* one or two strong colours (keep generic: **avoid any
+    chain's livery**, e.g. a yellow-red-grey scheme), white tiles,
+    stainless steel, the orange of jollof.
+  - *Signature shapes (3–5):* the counter with steaming trays; the
+    menu board as colour blocks; booths; the glass frontage; staff caps.
+  - *Density and wear:* busy at lunch, clean, functional.
+  - *People cues:* staff and a queue as blurred shapes, within ~2.5 faces.
+- **Shell:** a standalone outlet, a mall unit or a filling-station
+  forecourt site; glossy floor tiles; suspended ceiling. [LOW-MEDIUM]
+- **The table as set here:** a laminate table; a **plastic tray** or a
+  **takeaway pack** (white or kraft, unprinted) with jollof, a chicken
+  piece and dodo; a plastic spoon; a paper serviette.
+- **Subregional variants and the national default:** national default: a
+  Lagos quick-service eatery at lunch. Abuja, Port Harcourt, Enugu: the
+  same format. North: the same format, halal, with modest dress on
+  blurred diners. [EDITORIAL]
+- **Hallucination traps:** a US burger chain interior; a named chain's
+  colours or mascot; a food court in a Western mall; a buka look (that
+  is the Sit-down profile).
+- **Never stage:** chain livery, logos or mascots; legible menu boards or
+  prices; branded cups or packs; sachet water; a full flag.
+- **Prompt-ready line:** "A busy Lagos quick-service eatery in soft
+  focus: a steel counter of steaming heated trays of jollof and fried
+  chicken, a bright menu board blurred to colour blocks, laminate booths,
+  and even white light, with no logos."
+- **Confidence and sources:** MEDIUM for format and scale (Wikipedia,
+  Marketing Edge, Food Business MEA, one Lagos review); trays and set
+  dressing EDITORIAL. 1 search this pass.
+
+### Venue: Open-air food market (Mile 12, Oyingbo-type market) · app: Street market
+- **Use for:** on-the-go, outdoor; a quick lunch for 1–2 at a food
+  seller's corner inside a market. Lagos's food markets (Mile 12 for
+  staples, Oyingbo for fish, produce and spices) are among the city's
+  busiest places. **Stage as a busy, colourful, thriving institution;
+  never as squalor.** Lekki's arts and crafts market is a different kind
+  of place (not a food market). [MEDIUM-HIGH — Guardian Nigeria, Nairametrics,
+  Expat Exchange, Discover Lagos, one search]
+- **Soft background (the core):**
+  - *Back wall:* rows of **stalls**: wooden tables and shed fronts under
+    **large umbrellas** and zinc or tarpaulin roofs [umbrellas LOW — not
+    confirmed by the search]; **heaps and baskets of tomatoes, red and
+    scotch-bonnet peppers, onions**, stacked **yams**, sacks of beans and
+    garri, bunches of plantain. [HIGH — staples at Mile 12 (Guardian
+    Nigeria, Nairametrics)]
+  - *Middle distance:* traders in bright prints and headwraps, buyers
+    with bags; a **food seller's corner** with aluminium pots of rice
+    and stew, an akara fryer with a wok of oil; **wheelbarrows** and
+    carts as shapes. [EDITORIAL]
+  - *Light:* hard tropical daylight in the lanes, coloured shade under
+    umbrellas (each umbrella tints the light); dust or harmattan haze
+    in the dry season.
+  - *Palette:* tomato and pepper reds, onion purple, yam brown, plantain
+    green-yellow, umbrella colours, print fabrics.
+  - *Signature shapes (3–5):* umbrella canopies; pyramids of tomatoes
+    and peppers; stacked yams; a wheelbarrow; the akara wok.
+  - *Density and wear:* dense, loud, energetic; worn stalls, swept
+    lanes.
+  - *People cues:* traders and shoppers as colour and silhouettes,
+    within ~2.5 faces, none sharp.
+- **Shell:** an open market of lanes between stalls and sheds; concrete
+  or beaten earth; zinc roofs.
+- **The table as set here:** a food seller's **wooden bench or table**
+  or a stall's ledge; rice and stew or akara on a plate or in a plain
+  takeaway pack; a spoon. Never in a hand.
+- **Subregional variants and the national default:** national default: a
+  Lagos food market by day. Southeast (Onitsha, Aba): huge market
+  cities with multistorey sheds. North (Kano): a walled-city market,
+  harmattan light, indigo cloth. [LOW-MEDIUM]
+- **Hallucination traps:** a tourist "African market" of masks and
+  drums; a Ghanaian market (kente, kenkey) as generic; refuse heaps,
+  flood water and mud (poverty framing); a European farmers' market.
+- **Never stage:** legible signs, price cards or painted slogans; money
+  changing hands; sachet water; alcohol; brand marks on umbrellas;
+  live animals or slaughter near the product.
+- **Prompt-ready line:** "A busy Lagos food market by day in soft focus:
+  large coloured umbrellas over wooden stalls heaped with tomatoes,
+  peppers and onions, stacked yams and plantain bunches, and traders in
+  bright prints moving through hard sunlight."
+- **Confidence and sources:** HIGH for the staples sold (Guardian
+  Nigeria, Nairametrics); umbrellas and food-seller corner LOW or
+  EDITORIAL. 1 search this pass.
+
+### Venue: Managed city park (Ikeja or Victoria Island park) · app: Park
+- **Use for:** on-the-go, outdoor; a weekend picnic for 1–3 on a mat or
+  a bench. Lagos has few public parks, mostly **gated and managed**
+  with an entry fee or rules: one in Alausa, Ikeja has a lush lawn,
+  a mini-waterfall and fountain, gazebos and a play area, with mats for
+  rent; one in Victoria Island has spacious grounds, outdoor gym
+  equipment and **food stalls**. [MEDIUM-HIGH — Lonely Planet,
+  Wanderlog, Sabiabuja, Wakaabuja, one search; Abuja parks not covered]
+- **Soft background (the core):**
+  - *Back wall:* **manicured lawn** running to clipped hedges, **palm
+    trees** and leafy shade trees; a **fountain** or water feature as a
+    white sparkle; a **gazebo** with a pitched roof. [MEDIUM — Lonely
+    Planet, Wanderlog]
+  - *Middle distance:* other **picnic mats** as colour patches, paved
+    paths, benches; a food stall or kiosk as a small block shape; the
+    perimeter fence and a city building beyond, soft. [MEDIUM — food
+    stalls (Wakaabuja)]
+  - *Light:* hard tropical sun, deep shade under trees; humid haze;
+    golden-hour light from about 17:30 with a short dusk.
+  - *Palette:* lawn green, palm green, paving grey, sky pale, mat
+    colours.
+  - *Signature shapes (3–5):* palms; the gazebo roof; the fountain; mats
+    on the lawn; a bench.
+  - *Density and wear:* busy at weekends, well-kept.
+  - *People cues:* families and friends far off as colour, within ~2.5
+    faces, no identifiable children.
+- **Shell:** a fenced park; lawns, paved paths, low walls.
+- **The table as set here:** a rented or brought mat with a cooler
+  (closed, blank) and plates of jollof, chicken and dodo; or a bench or
+  a gazebo ledge. Food on a plate or in a pack, never in a hand.
+- **Subregional variants and the national default:** national default: a
+  Lagos managed park on a weekend. Abuja: larger parks and gardens with
+  wide lawns and rock outcrops in the distance (keep generic)
+  [LOW — not verified]. Harmattan: dusty pale sky.
+- **Hallucination traps:** Central Park or Hyde Park; savanna with
+  acacias and wildlife; an Abuja rock named and shaped exactly; a South
+  African braai park.
+- **Never stage:** beer, palm wine; sachet water; legible park signs or
+  rules; brand marks on mats or coolers; a full flag.
+- **Prompt-ready line:** "A Lagos city park in soft focus: a manicured
+  green lawn with picnic mats, palm trees and a pitched-roof gazebo, a
+  fountain sparkling white, and hazy tropical afternoon sun."
+- **Confidence and sources:** MEDIUM-HIGH for the Lagos parks (Lonely
+  Planet, Wanderlog, Sabiabuja, Wakaabuja); Abuja LOW. 1 search this
+  pass.
+
+### Venue: Lagos Atlantic beach (Elegushi, Oniru, Eleko-type beach) · app: Beach or waterfront
+- **Use for:** on-the-go, outdoor; a weekend beach lunch for 1–3 at a
+  plastic table. Lagos's Atlantic beaches: **brightly painted wooden
+  shacks and coloured umbrellas** on golden sand, **plastic chairs and
+  long communal tables**, fish grilled over charcoal, **horses** offered
+  for rides, coconut hawkers, loud music. [HIGH — Lonely Planet, Discover
+  Lagos, Take Your Backpack, AFK Travel, one search]
+- **Soft background (the core):**
+  - *Back wall:* the **Atlantic** as a grey-blue band with heavy white
+    surf (strong waves); a pale hazy horizon. [MEDIUM]
+  - *Middle distance:* **painted wooden shacks** in bright colours,
+    **umbrellas** in rows, **plastic chairs** and tables; a **horse** and
+    rider as a silhouette at the waterline; a vendor's **charcoal grill**
+    with smoke. [HIGH — shacks, umbrellas, chairs, horses, grills]
+  - *Light:* strong, hazy coastal sun; sea spray haze; golden-hour light
+    from the west across the sand.
+  - *Palette:* sand gold, sea grey-blue, umbrella and shack colours
+    (red, yellow, blue, green), smoke grey.
+  - *Signature shapes (3–5):* umbrellas; painted shacks; a horse at the
+    surf; the grill's smoke; plastic chairs.
+  - *Density and wear:* busy, loud, festive at weekends.
+  - *People cues:* beachgoers as colour and silhouettes, within ~2.5
+    faces; dressed casual, not swimwear focus.
+- **Shell:** an open sand beach backed by shacks and a road.
+- **The table as set here:** a plastic table under an umbrella; grilled
+  fish (croaker or tilapia) with plantain or a plate of jollof; a
+  plastic plate; paper serviettes. Never in a hand.
+- **Subregional variants and the national default:** national default: a
+  Lagos beach on a weekend afternoon. Lagoon waterfront: a calmer
+  promenade with the bridges far off (no named landmark). Calabar or
+  Port Harcourt: a river or creek waterfront with mangroves. [LOW]
+- **Hallucination traps:** a Caribbean turquoise beach; Zanzibar dhows;
+  a Mediterranean beach club with loungers; a beach bar with bottles
+  (Lagos beaches have makeshift bars: exclude); hookah.
+- **Never stage:** beer, cocktails, palm wine, shisha; speakers or
+  umbrellas with brand marks; legible shack signs; sachet water; a full
+  flag; identifiable children.
+- **Prompt-ready line:** "A Lagos Atlantic beach in soft focus: rows of
+  coloured umbrellas and brightly painted wooden shacks on golden sand,
+  plastic chairs, a horse and rider at the edge of heavy white surf, and
+  grill smoke in hazy afternoon sun."
+- **Confidence and sources:** HIGH for shacks, umbrellas, chairs, horses
+  and grills (Lonely Planet, Discover Lagos, travel blogs); waterfront
+  variants LOW. 1 search this pass.
 
 ---
 
@@ -2826,6 +3261,17 @@ norms unless tagged otherwise — see GAP LOG.*
   variants in VENUE PROFILES stay PENDING HUMAN SIGN-OFF with the
   settlement-register and buka framing. Viewing centre and pepper-soup
   joint not yet profiled (later wave).
+- **Venue-profile wave 2 (2026-10-18) open items.** Unverified background
+  details: how many young adults live with family before marriage; Gen Z
+  flat decor, inverter units and ring lights; island-kitchen rarity, back
+  ("dirty") kitchens and water dispensers; café pastry cases and the wider
+  café scene beyond one Lekki project page; open kitchens and textile
+  panels in design-led Lagos restaurants; heated trays and hand-wash
+  basins in quick-service eateries; market umbrellas and food-seller
+  corners; Abuja parks; lagoon and creek waterfronts. The design-led
+  restaurant and café sources are promotional. Register variants added in
+  wave 2 (own room in the family flat, self-contain, shared flat, closed
+  family kitchen) stay PENDING HUMAN SIGN-OFF; no tenement version.
 
 ## CANDIDATE QUEUE
 
@@ -2900,3 +3346,4 @@ norms unless tagged otherwise — see GAP LOG.*
   register/buka framing and the Ramadan/iftar call left untouched. No
   subagents.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (family parlour and dining corner, compound forecourt under a canopy, buka, suya spot, owambe under canopies or in a hall). Sign-off-safe baseline used; register variants kept factual, framing not resolved; iftar untouched. No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5 profiles tagged, 8 new profiles, 8 searches. New: young professional's mini flat, open-plan kitchen with an island, Lagos neighbourhood café, design-led Nigerian restaurant, quick-service eatery, open-air food market, managed city park, Lagos Atlantic beach. Settlement-register/buka framing not resolved; register variants factual only; iftar untouched. No subagents.
