@@ -80,9 +80,10 @@ The knowledge base below is an excerpt: the sections of each file most relevant 
 /** Knowledge-base search words for where the meal is eaten. */
 function sceneWords(scene: { venue: Venue; venueType?: string | undefined } | undefined): string[] {
   if (!scene) return [];
-  const place = venueType(scene.venue, scene.venueType)?.label;
+  const place = venueType(scene.venue, scene.venueType);
   const venue = scene.venue === 'on-the-go' ? 'street food takeaway vendor stall' : scene.venue === 'home' ? 'home household family' : 'restaurant';
-  return [venue, ...(place ? [place] : [])];
+  // Retired ids (food-court, gastropub, local-spot…) still name sections the knowledge base was written around.
+  return [venue, ...(place ? [place.label, ...(place.aliases ?? []).map((a) => a.replace(/-/g, ' '))] : [])];
 }
 
 /**
@@ -253,7 +254,7 @@ Scene spec:
 ${JSON.stringify({ scene: spec.scene, sku: spec.sku, entree: spec.entree, accompaniments: spec.accompaniments, accent: spec.accent, napkinSet: spec.napkinSet }, null, 1)}
 
 Fixed facts (use these, do not contradict them):
-- Surface: ${facts.surfaceText}${onTheGoSurfaceRule(spec.scene) ? `\n- On the go: ${onTheGoSurfaceRule(spec.scene)}` : ''}${environmentBrief(spec.scene) ? `\n- Environment brief (build the Background from this): ${environmentBrief(spec.scene)}` : ''}
+- Surface: ${facts.surfaceText}${onTheGoSurfaceRule(spec.scene) ? `\n- On the go: ${onTheGoSurfaceRule(spec.scene)}` : ''}${environmentBrief(spec.scene) ? `\n- Environment brief (build the Background from this): ${environmentBrief(spec.scene)}${spec.scene.venueType ? ' Where the knowledge base has a venue profile for this kind of place in this country, follow its look over this generic description.' : ''}` : ''}
 - Lighting: ${facts.lightingSentence}
 - Light on the product: ${facts.skuLightSentence}
 - Look (write the environment and food as this candid, unstyled moment): ${facts.filmSentence}
