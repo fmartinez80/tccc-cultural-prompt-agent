@@ -72,6 +72,6 @@
 .title {
   margin: 0 0 10px;
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
+  font-weight: 400;
   font-size: 20px;
 }

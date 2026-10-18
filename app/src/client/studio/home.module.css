@@ -16,7 +16,7 @@
 .title {
   margin: 0;
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
+  font-weight: 400;
   font-size: 22.5px;
 }
 
@@ -44,7 +44,7 @@
 .howTitle {
   margin: 0;
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
+  font-weight: 400;
   font-size: 40px;
   line-height: 1.05;
   text-align: center;
@@ -258,7 +258,7 @@
 
 .captionTitle {
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
+  font-weight: 400;
   font-size: 22px;
   line-height: 1.15;
 }
@@ -357,7 +357,7 @@
 
 .phaseTitle {
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
+  font-weight: 400;
   font-size: 25px;
 }
 
@@ -446,10 +446,10 @@
   margin: 64px 0 0;
   text-align: center;
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
+  font-weight: 400;
   font-size: clamp(32px, 5vw, 52px);
   line-height: 1.05;
-  color: var(--neo-ink);
+  color: var(--neo-selected);
 }
 
 .introPitch {
