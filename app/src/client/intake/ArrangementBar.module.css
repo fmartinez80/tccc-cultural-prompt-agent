@@ -266,7 +266,7 @@
    Doubled to outrank the shared dialog rules, whichever stylesheet loads last. */
 .accentDialog.accentDialog {
   width: min(880px, 100%);
-  max-height: min(90vh / var(--ui-zoom, 1), 860px);
+  max-height: min(90vh, 860px);
   padding: 0;
   gap: 0;
   overflow: hidden;

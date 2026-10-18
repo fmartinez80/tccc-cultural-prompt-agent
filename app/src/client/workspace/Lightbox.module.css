@@ -14,8 +14,8 @@
   box-shadow: var(--neo-shadow);
   border-radius: var(--bay-r-lg);
   padding: 16px;
-  max-width: min(92vw / var(--ui-zoom, 1), 1100px);
-  max-height: calc(92vh / var(--ui-zoom, 1));
+  max-width: min(92vw, 1100px);
+  max-height: 92vh;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -39,7 +39,7 @@
 
 .img {
   max-width: 100%;
-  max-height: calc(76vh / var(--ui-zoom, 1));
+  max-height: 76vh;
   border: var(--neo-border-thin);
   border-radius: var(--bay-r-sm);
   object-fit: contain;

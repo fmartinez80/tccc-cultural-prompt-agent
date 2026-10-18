@@ -428,8 +428,8 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  width: min(100%, 960px); /* the How It Works carousel's width */
-  margin-top: 43px; /* with the page gap, 64px below the intro, matching the 64px above How It Works */
+  width: min(100%, 640px);
+  margin-block: 43px; /* with the page gap, 64px above and below, so it sits centred between How It Works and the Gallery */
   padding: 24px;
   text-align: center;
   background: var(--neo-selected);

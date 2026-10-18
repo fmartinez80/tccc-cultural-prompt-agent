@@ -406,7 +406,7 @@
   display: flex;
   flex-direction: column;
   width: min(560px, 100%);
-  max-height: min(86vh / var(--ui-zoom, 1), 760px);
+  max-height: min(86vh, 760px);
   border-radius: var(--bay-r-lg);
   border: var(--neo-border);
   background: var(--neo-card);
@@ -447,7 +447,7 @@
 /* Dialogs with a picture (layouts) get room to show it whole. */
 .dialogWide {
   width: min(960px, 100%);
-  max-height: calc(92vh / var(--ui-zoom, 1));
+  max-height: 92vh;
 }
 
 .dialogMediaActions {
