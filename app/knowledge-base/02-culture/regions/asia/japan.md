@@ -256,7 +256,28 @@ sections use far more; the ramen counter is added because it is the
 file's second default 1-person venue. Konbini eat-in, family restaurant
 (famiresu) and the okonomiyaki teppan are queued for wave 2.
 
-#### Venue: Tokyo apartment LDK dining table (マンションのダイニング)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Japan profile |
+|---|---|
+| Dining room | Tokyo apartment LDK dining table; Tatami room with a low table (family and grandparents' homes) |
+| Gen Z apartment | One-room or 1K rental flat |
+| Kitchen island | Counter seat at a face-to-face kitchen (peninsula is the common form; free-standing islands are upmarket) |
+| Sit-down | Neighbourhood teishoku shop |
+| Counter service | Ramen shop counter (ticket machine, counter seating) |
+| Café | Neighbourhood café (kissaten variant) |
+| Modern bistro | Design-led neighbourhood restaurant (counter facing an open kitchen) |
+| Street market | Summer festival stalls (Japan's real open-air stall street; everyday street markets are not the norm) |
+| Food truck | Kitchen car at an office-district lunch plaza |
+| Park | City park with a pond (Inokashira Park, neighbourhood park) |
+| Beach or waterfront | Shōnan beach and seawall promenade |
+| Stadium or event | Baseball stadium concourse and gate plaza (Jingū); the summer festival also serves an outdoor-event brief |
+
+Karaoke box room serves no option (indoor social venue); it stays as context.
+
+#### Venue: Tokyo apartment LDK dining table (マンションのダイニング) · app: Dining room
 
 - Use for: home indoor; casual lunch (1–3), dinner at home, nabe night,
   Christmas Eve, child's birthday (no identifiable children), NPB and
@@ -320,7 +341,7 @@ file's second default 1-person venue. Konbini eat-in, family restaurant
 - Confidence and sources: MEDIUM; 1 search (Japanese housing and
   interior sites) plus General environmental norms.
 
-#### Venue: Tatami room with a low table (和室, 座卓)
+#### Venue: Tatami room with a low table (和室, 座卓) · app: Dining room
 
 - Use for: home indoor; New Year osechi, Obon relatives' gathering,
   Hinamatsuri and Shichi-Go-San family meals, Koshien and sumo at home,
@@ -381,7 +402,7 @@ file's second default 1-person venue. Konbini eat-in, family restaurant
 - Confidence and sources: MEDIUM; 1 search (ja.wikipedia, nippon.com,
   Daiwa House, wa-nokurashi) plus the celebrations section.
 
-#### Venue: Neighbourhood teishoku shop (定食屋, 食堂)
+#### Venue: Neighbourhood teishoku shop (定食屋, 食堂) · app: Sit-down
 
 - Use for: restaurant indoor; 1 person at a restaurant (the default
   weekday lunch), 2–3 colleagues; 1 to a small group. National
@@ -438,7 +459,7 @@ file's second default 1-person venue. Konbini eat-in, family restaurant
 - Confidence and sources: MEDIUM; 1 search (Kyoto Side, Kinarino,
   Tabelog lists, store-design guide) plus the register.
 
-#### Venue: Ramen shop counter (ラーメン屋)
+#### Venue: Ramen shop counter (ラーメン屋) · app: Counter service
 
 - Use for: restaurant indoor; 1 person at a restaurant, 2 friends; 1–2.
   National, with regional styles; Tokyo shōyu is the default. [EDITORIAL;
@@ -490,7 +511,7 @@ file's second default 1-person venue. Konbini eat-in, family restaurant
 - Confidence and sources: MEDIUM; 1 search (shop-design sources) plus
   the register and the Ramen catalog entry.
 
-#### Venue: Summer festival stalls (夏祭りの屋台)
+#### Venue: Summer festival stalls (夏祭りの屋台) · app: Street market
 
 - Use for: street / on the go; matsuri evenings, summer outings; 1 to
   a small group; also the hanami variant in spring. The street-food
@@ -586,6 +607,371 @@ file's second default 1-person venue. Konbini eat-in, family restaurant
   washing the dim room in magenta and blue behind."
 - Confidence and sources: MEDIUM; 1 search (ja.wikipedia, karaoke shop-
   design sources) plus the Game night entry.
+
+#### Venue: One-room or 1K rental flat (ワンルーム / 1K, 一人暮らし) · app: Gen Z apartment
+
+- Use for: home indoor; a student or young worker living alone, or a
+  friend visiting; snack, konbini or home-cooked dinner, a show or a game;
+  1–2. The single-person rental (one room of ~6–8 jō, 10–13 m², with a
+  corridor kitchen in a 1K) is the standard first flat in Tokyo; young
+  couples move to a 1LDK. [MEDIUM — RoomClip 1K/one-room examples tagged
+  20s with 6- and 8-jō rooms and Nitori/IKEA/Muji furnishing (user posts,
+  tier 4); the 1K as standard first flat is general knowledge]
+- Soft background (the core): **back wall** of white vinyl wallpaper
+  (クロス), mostly bare (renters avoid holes): a poster or two on
+  removable tape, a small wall shelf, a **wall mirror** leaning on the
+  floor, dried flowers; a **low bed or sofa bed** with a grey, beige or
+  pale-green cover close behind. **Middle distance**: a **low open
+  rack** with books, a small speaker, figures or plants; a low TV board,
+  a **floor lamp** with a fabric shade or a clip spot (IKEA-type), a
+  hanging rail by the closet; the **balcony sliding window** with lace
+  curtain and a blackout curtain, the AC unit high on the wall above it.
+  **Light**: daylight through the balcony window; at night a warm floor
+  lamp or LED strip against the white ceiling light (シーリングライト),
+  often switched off for mood. **Palette**: white, light oak-tone floor
+  (cushion-floor vinyl or laminate), beige, grey, sage, a black metal
+  accent. **Signature shapes**: the balcony window with two curtains;
+  wall AC unit; the low table on a rug; a floor-leaning mirror; an open
+  rack. **Density and wear**: small but carefully arranged ("カフェ風",
+  monotone or natural styles are common tags); budget furniture from big
+  home retailers (no logos). **People**: a blurred friend, within the
+  limit. [LOW-MEDIUM — RoomClip examples for colour schemes, low beds,
+  racks, IKEA lamps and mirrors, washable rugs; rest EDITORIAL]
+- Shell: a 2–4-storey apāto or a small mansion; one room plus a narrow
+  kitchen corridor; flat white ceiling ~2.4 m.
+- The table as set here: a **low table** (ローテーブル, ~60–80 cm wide) on
+  a washable rug, seated on a floor cushion or the bed edge; a plate or a
+  bowl, chopsticks on a rest; konbini food out of its packaging. [MEDIUM —
+  General environmental norms names the 1K with a low table]
+- Subregional variants and the national default: **Tokyo** — the default
+  above, smaller and pricier; **Osaka/Fukuoka** — slightly larger 1K/1DK;
+  **young couple** — a 1LDK with a two-seat sofa and small dining table.
+  [LOW]
+- Hallucination traps: a large Scandinavian loft or Pinterest showroom;
+  a tatami ryokan; neon-cyberpunk window views; an otaku-cluttered room
+  as caricature; a Western bedroom with a high bed and big windows.
+- Never stage: beer or chūhai cans (same silhouette as the hero); legible
+  posters, manga spines, packaging or screens; tea, coffee or barley-tea
+  bottles; brand logos.
+- Prompt-ready line: "A young person's 1K flat in Tokyo at night: a low
+  table on a pale rug with a bowl of curry rice, a low bed with a grey
+  cover, a floor lamp's warm glow and a curtained balcony window with a
+  wall AC unit softly blurred behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (RoomClip); staging
+  [EDITORIAL].
+
+#### Venue: Counter seat at a face-to-face kitchen (対面キッチン, ペニンシュラ) · app: Kitchen island
+
+- Use for: home indoor; a snack or light lunch at the counter, a parent
+  and grown child, 1–2. The **face-to-face kitchen** (taimen) is the
+  common layout in family mansions and new houses: the sink faces the
+  LDK over a counter. Many appear to be **peninsula kitchens** (one side against
+  the wall, open on three); a free-standing **island** is less common and
+  upmarket (shares not confirmed). Islands and peninsulas are described as popular for openness
+  and watching the family while cooking, with oil-splash and smell as
+  drawbacks. [MEDIUM — Tokyu Livable, Mitsui Home and SMTRC glossaries, AtHome
+  definitions (via search); no share statistic found]
+- Soft background (the core): **behind the counter** the **kitchen
+  back wall**: a stainless or white **range hood**, a three-burner gas
+  or IH hob behind a low glass oil guard, a **back storage unit** of
+  white or wood-grain doors with the **rice cooker**, microwave and
+  kettle on it, a dish rack by the sink; a **wall-mounted water heater
+  control** and a small calendar (blur). **Middle distance**: the narrow
+  kitchen aisle, a tall fridge, a small window. **Light**: **downlights**
+  and one or two **small pendants** over the counter (warm), the ceiling
+  light of the LDK; daylight from the balcony window behind the camera
+  on the counter top. **Palette**: white or warm-grey counter (artificial
+  marble or stainless), light wood grain, white walls. **Signature shapes**:
+  the raised counter edge hiding the sink; the range hood; small pendants;
+  the rice cooker; stools' backs. **Density and wear**: tidy with 生活感:
+  a few bottles of seasoning (labels blurred), a cutting board. **People**:
+  a blurred parent at the hob, within the limit. [LOW-MEDIUM — layout per
+  definitions; materials general knowledge]
+- Shell: a 1990s–2020s mansion LDK; wood-look flooring; ceiling ~2.4 m.
+- The table as set here: the counter top (artificial marble, quartz or
+  stainless); the raised ledge (often ~10–15 cm above the work surface)
+  holds the dish; a plate or a bowl on a small tray, chopsticks on a rest.
+  [LOW — ledge height not verified]
+- Subregional variants and the national default: **new detached houses**
+  (suburbs) — larger peninsula or island; **older flats** — closed or
+  wall-facing kitchens: use the LDK dining table profile. Default: a
+  Tokyo-area family mansion peninsula. [LOW]
+- Hallucination traps: an American island with a farmhouse sink, six
+  stools and a range cooker; an industrial loft kitchen; empty showroom
+  counters; a wine rack.
+- Never stage: beer, chūhai, sake bottles among the seasonings; mugicha
+  jug or teapot; legible labels, calendar, appliance brands; a kamidana
+  above the kitchen (frame away).
+- Prompt-ready line: "A counter seat at a Tokyo family kitchen: a plate of
+  karaage on a white counter ledge, and a softly blurred peninsula kitchen
+  behind with a range hood, a rice cooker on the back unit and two small
+  warm pendants."
+- Confidence and sources: MEDIUM for the layout; 1 search (Tokyu Livable,
+  AtHome, Mitsui Home/SMTRC glossaries); staging [EDITORIAL].
+
+#### Venue: Neighbourhood café (街のカフェ, kissaten variant) · app: Café
+
+- Use for: restaurant indoor; one person or two friends, an afternoon
+  snack or lunch plate; 1–2. Tokyo's independent cafés sit beside old
+  **kissaten** (Shōwa-era coffee houses); Kiyosumi-Shirakawa and Kuramae
+  are known for warehouse conversions turned roasteries and cafés.
+  [MEDIUM — Time Out Tokyo and Tsunagu Japan on Kiyosumi-Shirakawa's mix
+  of independent shops, old kissaten and roasteries in converted
+  warehouses]
+- Soft background (the core): **default (independent café)**: walls of
+  **white or grey plaster, mortar or exposed concrete**, pale **wood
+  counter** with a pour-over set and an espresso machine as a dark block,
+  a small **cake case** (cheesecake, pudding, scones), a few ceramic cups
+  on open shelves (blur), one plant and a single art print. **Middle
+  distance**: three to six small **wood tables** and simple chairs, a
+  window counter facing the street, a **large glass front** with a
+  bicycle parked and a narrow street beyond. **Light**: bright, soft
+  daylight; warm pendants; evenings closed. **Palette**: white, grey,
+  pale oak, black metal, plant green. **Signature shapes**: the wood
+  counter; the cake case; a window counter; a single pendant row; a glass
+  front. **Kissaten variant**: dark wood panelling, **red or brown velvet
+  chairs**, stained-glass lamps, a siphon set on the counter, warm dim
+  light, smoke-darkened ceiling. **Density and wear**: calm, precise, a
+  little quiet; kissaten worn and old. **People**: blurred solo customers,
+  within the limit. [LOW-MEDIUM — warehouse conversions with high ceilings
+  per Time Out; other detail general knowledge]
+- Shell: a ground-floor shop in a low-rise building or a converted
+  warehouse; mortar or wood floor.
+- The table as set here: a small wood table; a slice of cake, a sandwich
+  or a pudding on a small ceramic plate, a cake fork; cups out of frame.
+  [EDITORIAL]
+- Subregional variants and the national default: **Nagoya** — the
+  kissaten with a morning set (breakfast: out of scope) and plush seats;
+  **Kyoto** — machiya cafés with a small garden; **Osaka** — retro
+  kissaten in arcades. Default: a Tokyo independent café. [LOW]
+- Hallucination traps: a global coffee chain; a maid or cat café; a
+  Parisian bistro; an anime-themed café; latte art in frame.
+- Never stage: coffee, tea or a water glass (ohiya) in frame; chain marks;
+  legible menus, chalk boards or cup stamps; ashtrays in kissaten.
+- Prompt-ready line: "A small Tokyo neighbourhood café in soft afternoon
+  light: a slice of cheesecake on a pale-wood table, white mortar walls, a
+  wooden counter with a cake case softly blurred behind and a quiet street
+  through the glass front."
+- Confidence and sources: LOW-MEDIUM; 1 search (Time Out Tokyo, Tsunagu
+  Japan, Mapple); staging [EDITORIAL].
+
+#### Venue: Design-led neighbourhood restaurant (counter facing an open kitchen, ネオ和食 / modern bistro) · app: Modern bistro
+
+- Use for: restaurant indoor; 2–3 people, a dinner out or weekend lunch;
+  2 to a small group. Tokyo's newer neighbourhood restaurants
+  (Nakameguro, Ebisu, Kiyosumi, Kuramae): seasonal Japanese or Japanese-
+  French dishes plated for sharing, often a **long counter facing an
+  open kitchen** plus a few tables. [LOW — one search found new bistros
+  in Nakameguro and Marunouchi (TableCheck, Tabelog), but no design
+  description; materials EDITORIAL]
+- Soft background (the core): **back plane** the **open kitchen**:
+  a stainless worktop, a **charcoal grill or wood-fired oven** glow,
+  copper or iron pans, stacked handmade plates, two cooks in dark aprons;
+  **walls** of **grey mortar, plaster or dark-stained cedar**, a
+  **single-plank wood counter** (hinoki or oak) running the length.
+  **Middle distance**: a few **dark-wood tables**, simple chairs, a large
+  ceramic vase with a branch, the next counter guest's plate (blurred).
+  **Light**: low, warm, directional: **pinpoint downlights** on each
+  setting, one or two **statement paper or glass pendants**, the kitchen
+  glow brighter behind. **Palette**: mortar grey, dark wood, pale hinoki,
+  iron black, ember orange. **Signature shapes**: the plank counter; the
+  grill glow; pinpoint light pools; a branch in a vase; handmade
+  stoneware. **Density and wear**: new, considered, restrained.
+  **People**: blurred cooks and a guest, within the limit. [LOW]
+- Shell: a ground-floor or basement unit in a mid-rise; mortar floor;
+  exposed concrete ceiling.
+- The table as set here: bare wood counter or table, no cloth; handmade
+  stoneware and small plates, chopsticks on a rest or a knife and fork
+  for Japanese-French. [EDITORIAL]
+- Subregional variants and the national default: **Kyoto** — machiya
+  conversions; **Osaka** — louder, teppan-led counters; **Fukuoka** —
+  seafood-led counters. Default: a Tokyo neighbourhood restaurant. [LOW]
+- Hallucination traps: the **izakaya** register (lanterns, beer, sake
+  bottles: hard rule 2); a wine wall or natural-wine bottles behind the
+  counter (very common in these places: frame out); a kaiseki room; a
+  sushi counter; white tablecloths.
+- Never stage: bar, bottles, taps, wine or sake glasses anywhere; water
+  glass or tea; legible menus or noren.
+- Prompt-ready line: "A design-led Tokyo neighbourhood restaurant at
+  dinner: a seasonal dish on handmade stoneware on a pale plank counter,
+  and a softly blurred open kitchen with a glowing charcoal grill, grey
+  mortar walls and warm pinpoint downlights behind."
+- Confidence and sources: LOW; 1 search (TableCheck, Tabelog, Time Out
+  — no design detail); staging [EDITORIAL].
+
+#### Venue: City park with a pond (Inokashira Park, neighbourhood park, 公園) · app: Park
+
+- Use for: on the go / outdoor; a weekday lunch or weekend snack on a
+  bench, friends or a couple; 1–3. Tokyo parks are used for walking and
+  sitting: Inokashira Park (Kichijōji) has a ~1.5 km pond loop under
+  mature **zelkova and cherry** trees and **many benches**; visitors bring
+  takeaway from the shopping street. Hanami is the spring peak (see the
+  register row). [MEDIUM — Tokyo metropolitan walk map, GLTJP, travel
+  guides and a bench-review site agree]
+- Soft background (the core): **back plane** the **pond** with dark
+  green water, rowing and swan boats as soft white shapes, **zelkova
+  and cherry canopies** closing overhead, a low railing of wood or
+  painted steel at the water's edge. **Middle distance**: a broad path
+  of **packed earth or paving**, **wooden or stone benches**, clipped
+  azaleas, a red-painted bridge far off (soft), walkers and joggers as
+  blurred figures. **Light**: dappled daylight through zelkova leaves;
+  autumn golden-yellow ginkgo and zelkova; spring pale pink. **Palette**:
+  deep greens, earth brown, pond green-black, white boats, seasonal
+  pink or gold. **Signature shapes**: overhanging branches; the pond
+  edge railing; bench line; swan boats; tall straight zelkova trunks.
+  **Density and wear**: tidy, quiet, well kept. **People**: within the
+  limit; no identifiable children. [LOW-MEDIUM — path surface and railing
+  not confirmed]
+- Shell: open ground; earth and paved paths; open sky.
+- The table as set here: the hero and a bento or onigiri (unwrapped) on
+  a **bench**, a cloth or a small tray under them. [EDITORIAL]
+- Subregional variants and the national default: **Yoyogi Park** — broad
+  lawns and ginkgo; **small neighbourhood parks** (児童公園) — playground
+  frames and a sandpit (no children in frame); **Osaka Castle Park** —
+  moat and stone walls; **Sapporo Ōdōri Park** — long strip of lawns.
+  Default: a Tokyo pond park. [LOW]
+- Hallucination traps: a temple or shrine garden; a Zen rock garden; a
+  torii; Mount Fuji behind; cherry blossom out of season; a Western
+  manicured lawn.
+- Never stage: food in a hand; tea or water bottles; beer (hanami prior);
+  legible park signs; identifiable children.
+- Prompt-ready line: "A Tokyo pond park on a bright afternoon: an opened
+  bento and the hero on a wooden bench, with dappled zelkova shade, a
+  railing at the dark pond edge and white swan boats softly blurred
+  behind."
+- Confidence and sources: MEDIUM for the setting; 1 search (Tokyo walk
+  map, GLTJP, travel guides); staging [EDITORIAL].
+
+#### Venue: Shōnan beach and seawall promenade (湘南海岸, Kugenuma / Katase) · app: Beach or waterfront
+
+- Use for: on the go / outdoor; a summer or early-evening snack by the
+  sea, friends or a couple; 1–3. The Tokyo-area default seaside: the
+  **Shōnan coast** at Fujisawa (Katase and Kugenuma beaches, ~1.6 km of
+  sand at Katase) with **Enoshima** island linked by a bridge and Mount
+  Fuji visible to the west on clear days; the **Shōnan Coastal Park** runs
+  ~2 km along the shore. Summer adds **umi-no-ie** beach huts (1 Jul–31
+  Aug). [HIGH — Kanagawa Prefecture, Fujisawa/iko-yo, GLTJP]
+- Soft background (the core): **back plane** the **grey-blue Sagami Bay**
+  with long low surf and surfers as dark specks, **Enoshima** as a soft
+  green hump with a slim tower, dark **volcanic grey-brown sand**.
+  **Middle distance**: a **concrete seawall and stepped embankment**, a
+  promenade with timber decking or paving, low **pine windbreak** trees,
+  surfboard racks, cyclists on the coastal path, in summer the beach
+  huts' plain canvas and wooden terraces. **Light**: sunset warm over the
+  sea (Fuji a pale silhouette in winter); summer midday hazy and bright.
+  **Palette**: grey-blue sea, dark sand, concrete, pine green, sunset
+  orange. **Signature shapes**: the stepped seawall; Enoshima's profile;
+  pine silhouettes; surfboards; the long flat horizon. **Density and
+  wear**: relaxed, open; crowded only on summer weekends. **People**:
+  within about 2.5 faces, none sharp. [MEDIUM — seawall and pines general
+  knowledge; dark sand LOW]
+- Shell: open shore; sand and concrete steps; open sky.
+- The table as set here: the hero and a snack (yakisoba tray, shirasu
+  rice bowl, fried chicken in a paper boat) on a **concrete step of the
+  seawall** or a beach-hut terrace table. [EDITORIAL]
+- Subregional variants and the national default: **Odaiba** (Tokyo Bay)
+  — artificial beach with the Rainbow Bridge; **Okinawa** — white coral
+  sand, turquoise water; **Sumida River terrace** — the city riverwalk;
+  **Kamakura Yuigahama** — next door, temple town behind. Default: Shōnan
+  at dusk. [MEDIUM]
+- Hallucination traps: a tropical white-sand beach (that is Okinawa, not
+  Shōnan); Fuji huge and sharp; a Hokusai wave; beach bars with beer
+  (umi-no-ie sell it); a torii in the sea.
+- Never stage: beer or chūhai; food in a hand; legible hut signs; tea
+  bottles; identifiable children.
+- Prompt-ready line: "The Shōnan coast at sunset: a tray of yakisoba and
+  the hero on a concrete seawall step, with dark sand, low surf, pine
+  silhouettes and the soft green outline of Enoshima melting into warm
+  haze behind."
+- Confidence and sources: HIGH for the setting; 1 search (Kanagawa
+  Prefecture, iko-yo, GLTJP); staging [EDITORIAL].
+
+#### Venue: Baseball stadium concourse and gate plaza (Jingū, NPB night game, 球場) · app: Stadium or event
+
+- Use for: on the go / outdoor event; friends before or at an NPB game;
+  2–3. Outdoor ballparks such as **Meiji Jingū Stadium** (Gaienmae,
+  Tokyo) push stadium food hard ("gourmet stadium", player-themed dishes,
+  bento); after-work night games are common, and **drinking beer at the
+  game is a strong part of the scene** (exclude). [MEDIUM — Sports Navi,
+  Asoview, Tabelog on Jingū food and night games; outside-gate food stalls
+  not confirmed]
+- Soft background (the core): **back plane** the **floodlight towers**
+  as white grids against a dusk sky, the **outfield stand** and its
+  scoreboard as a soft glowing block (unreadable), green seats. **Middle
+  distance**: the concourse or gate plaza with **food kiosks** (bento,
+  karaage, yakisoba, hot dogs) as bright counters with colour-block menu
+  panels, fans in **team-colour replica jerseys** (no legible names or
+  numbers) and plastic rain ponchos, **ginkgo trees** of the Gaien avenue
+  near Jingū. **Light**: dusk blue into night, floodlights' cool white
+  halo, kiosk lights warm. **Palette**: field green, team colours (green,
+  navy, orange), floodlight white, dusk blue. **Signature shapes**:
+  floodlight towers; stand rake; kiosk counters; jerseys; ginkgo trunks.
+  **Density and wear**: lively and orderly. **People**: within about 2.5
+  faces, none sharp. [LOW-MEDIUM]
+- Shell: stadium concourse or forecourt; paving; open sky.
+- The table as set here: the hero and a stadium bento or karaage cup on a
+  **concourse ledge or standing table**, or a **seat-back cup holder
+  tray** at the stand. [EDITORIAL]
+- Subregional variants and the national default: **Koshien** (Hyōgo) —
+  ivy-covered walls, summer high-school tournament; **Fukuoka/Sapporo** —
+  domes with indoor concourses; **J.League** football — similar plazas
+  with food trucks. Default: Jingū night game. [LOW]
+- Hallucination traps: an American ballpark with hot-dog vendors in
+  striped hats; beer-vendor girls with kegs on their backs (very real
+  in Japan: never in frame); a rowdy crowd; legible team logos.
+- Never stage: beer, beer vendors, highballs; legible team names, logos,
+  scoreboards, menus; food in a hand; identifiable children.
+- Prompt-ready line: "At a Tokyo outdoor ballpark at dusk: a stadium bento
+  and the hero on a concourse ledge, with blurred fans in team-colour
+  jerseys, glowing food kiosks and white floodlight towers against a deep
+  blue sky behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Sports Navi, Asoview,
+  Tabelog); staging [EDITORIAL].
+
+#### Venue: Kitchen car at an office-district lunch plaza (キッチンカー) · app: Food truck
+
+- Use for: on the go / outdoor; a weekday lunch for office workers,
+  weekend events; 1–2. **Kitchen cars are real in Japan**: in Marunouchi,
+  the **Naka-dōri "Urban Terrace"** closes the street to traffic
+  (weekdays 11:00–15:00) and sets out tables and chairs with kitchen cars
+  serving lunch; they also appear at events, stadiums and park markets;
+  every vehicle needs a public-health permit. [HIGH — Tokyo Metropolitan
+  Government releases, Otemachi-Marunouchi-Yūrakuchō area-management
+  documents, J.League event notice]
+- Soft background (the core): **back plane** the **kitchen car**: a
+  compact light van or small truck, often painted in one bright colour
+  (cream, mint, mustard, red) with a **side hatch** and awning, a small
+  counter with napkins, a hand-lettered board (blur to colour blocks),
+  a staff member in cap and apron. **Middle distance**: the closed street
+  with **zelkova trees**, **street tables and chairs** (folding, wood or
+  metal), office workers in white shirts and lanyards blurred, the
+  **glass and stone office-tower façades** and boutique fronts of
+  Marunouchi. **Light**: bright midday sun filtered through the street
+  trees; reflections in glass. **Palette**: tree green, granite grey,
+  glass blue, the car's single colour. **Signature shapes**: the van's
+  hatch and awning; folding street tables; zelkova trunks; tower glass.
+  **Density and wear**: clean, orderly, a short queue. **People**: within
+  the limit. [MEDIUM — street opening, tables and kitchen cars per the
+  documents; car styling general knowledge]
+- Shell: a pedestrianised street or plaza; granite paving; open sky.
+- The table as set here: the hero and a lunch box (rice bowl, curry,
+  gapao rice) in a paper or pulp container, lid off, on a **street table**
+  or the car's counter. [EDITORIAL]
+- Subregional variants and the national default: **parks and markets**
+  (e.g., farmers' markets at the UN University in Aoyama; LOW) and
+  stadium plazas; **regional events** — rows of cars at a festival.
+  Default: Marunouchi lunch plaza. [LOW for variants]
+- Hallucination traps: an American taco truck or graffitied food truck;
+  a Thai street cart; a ramen yatai (different thing); legible menu
+  boards.
+- Never stage: beer or chūhai; legible car lettering, menus or prices;
+  food in a hand; tea bottles.
+- Prompt-ready line: "A kitchen car lunch in Tokyo's Marunouchi: a rice
+  bowl in a pulp container beside the hero on a folding street table, a
+  mint-green van with an open hatch, zelkova trees and glass office
+  towers softly blurred behind."
+- Confidence and sources: HIGH for the setting; 1 search (Tokyo
+  Metropolitan Government, tokyo-omy.jp, J.League); staging [EDITORIAL].
 
 ---
 
@@ -3433,6 +3819,8 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
   (EDITORIAL in this file, not surveyed); konbini eat-in, famiresu and
   the okonomiyaki teppan are queued for wave 2.
 
+- **Venue-profile wave 2 (2026-10-18, app-option gap fill) open items**: unverified background details in the 8 new profiles: 1K room sizes and décor beyond RoomClip user posts; share of peninsula vs island vs wall kitchens in mansions (no statistic found) and counter-ledge height; café and kissaten interiors beyond the Kiyosumi warehouse note; the whole design-led restaurant look (search found openings, no design description); Inokashira path surfaces and railings; Shōnan seawall, pine windbreak and sand colour; food kiosks and gate plaza at Jingū (only in-stadium food confirmed); kitchen-car styling and the park-market variant. Needs image references or a local reviewer.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: Okinawa spinout; izakaya exclusion; Lemon-Dou
@@ -3505,3 +3893,4 @@ scattered on the lids and tarp; no grills, folding tables or beer cans
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries, all Japanese-language (Zexy 2024 wedding guest count; Obon relatives' food; Shichi-Go-San meal and venue; Hinamatsuri dishes; children's birthday menus; New Year osechi family and purchase surveys). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year, Obon, Hinamatsuri, hanami, Shichi-Go-San, child's birthday, wedding reception) plus a Christmas Eve pointer to its catalog entry. Sources: Zexy/Recruit, Benesse, Kyoto Culinary Art College, MATCHA, HANKYU FOOD, HugKum, food-media and consumer-survey releases (commercial, flagged).
 - **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 4 watch-party entries (Koshien at home, NPB night game at home, national-team football at home, sumo afternoon) and 3 social game-night entries (karaoke box staged food-led and alcohol-free, board-game café, home no-stakes mahjong); watch parties rated medium, social game nights medium-high.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches (all Japanese-language: mansion LDK, washitsu and zabuton, Shōwa teishoku shop, ramen-shop interior, summer-festival yatai, karaoke-box room). Sources were ja.wikipedia, nippon.com, Daiwa House, housing/renovation and shop-design sites, festival and event pages (tier 1–4); home outdoor swapped for the tatami room.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5 profiles tagged, 8 new profiles, 8 searches (1K rentals, face-to-face/peninsula kitchens, Tokyo cafés and kissaten, Marunouchi kitchen cars, neo-washoku bistros, Inokashira Park, Shōnan coast, Jingū stadium food). Kitchen car, Shōnan and Inokashira settings are HIGH-MEDIUM; the modern-bistro profile is LOW. Karaoke box left untagged (indoor social venue).

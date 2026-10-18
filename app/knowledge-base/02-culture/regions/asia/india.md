@@ -241,7 +241,28 @@ Research this pass was thin (search results were mostly design-trade
 and vendor pages), so most background detail is tagged MEDIUM or LOW
 and logged in the GAP LOG.
 
-#### Venue: Delhi apartment or builder-floor dining corner (ghar ka dining area)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | India profile |
+|---|---|
+| Dining room | Delhi apartment or builder-floor dining corner; Rooftop terrace (outdoor) |
+| Gen Z apartment | Young renter's room or shared flat (PG room, 2BHK share); in a home city most young adults live with family (see the profile) |
+| Kitchen island | Breakfast counter in a new modular kitchen (true islands are rare; the peninsula/breakfast counter is the honest version) |
+| Sit-down | North Indian family restaurant (stage the bare-laminate tables, not the cloth-covered ones); Dhaba |
+| Counter service | Self-service snack and sweet-shop restaurant, darshini variant |
+| Café | Neighbourhood independent café (Delhi), Irani café variant |
+| Modern bistro | New-wave modern Indian restaurant (Delhi NCR/Mumbai) |
+| Street market | Chaat stall or cart |
+| Food truck | Nearest: Chaat stall or cart. Western-style food trucks exist in metro hubs but are niche; the pushcart is the real mobile vendor |
+| Park | Neighbourhood park or city garden (Delhi DDA park, Lodhi Garden) |
+| Beach or waterfront | Sea-front promenade (Mumbai Marine Drive, Chowpatty) |
+| Stadium or event | Cricket stadium forecourt on IPL match day |
+
+Banquet hall or marriage lawn serves no option (indoor event venue); it stays as context.
+
+#### Venue: Delhi apartment or builder-floor dining corner (ghar ka dining area) · app: Dining room
 
 - Use for: home indoor; casual lunch (1–3), dinner at home, Sunday
   family lunch, Diwali and Eid dinners, birthday at home; all party
@@ -322,7 +343,7 @@ and logged in the GAP LOG.
   DesignCafe, Interior Company, Kriaan) plus this file's General
   environmental norms; staging [EDITORIAL].
 
-#### Venue: Rooftop terrace (chhat) or open terrace
+#### Venue: Rooftop terrace (chhat) or open terrace · app: Dining room, outdoor
 
 - Use for: home outdoor; winter-afternoon snacks, IPL and India-match
   watch parties on the final night, birthday overflow, Diwali evening
@@ -381,7 +402,7 @@ and logged in the GAP LOG.
 - Confidence and sources: LOW-MEDIUM; 1 search (results were commercial
   rooftop venues); built from this file and general knowledge.
 
-#### Venue: North Indian family restaurant
+#### Venue: North Indian family restaurant · app: Sit-down
 
 - Use for: restaurant indoor; away from home 2–3 people, dinner out,
   birthday dinner, Durga Puja meal out (with zone 8 changes), small
@@ -445,7 +466,7 @@ and logged in the GAP LOG.
 - Confidence and sources: MEDIUM; 1 search (Delhi restaurant-design
   pages, tier 2–4) plus the register.
 
-#### Venue: Dhaba (highway or neighbourhood)
+#### Venue: Dhaba (highway or neighbourhood) · app: Sit-down
 
 - Use for: restaurant indoor/outdoor; 1 person at a restaurant, 2–3
   people, road-trip meals; the zone-1 default casual meal out. National
@@ -502,7 +523,7 @@ and logged in the GAP LOG.
 - Confidence and sources: MEDIUM; 1 search (SCMP on dhaba history,
   restaurant-design pages) plus the register.
 
-#### Venue: Chaat stall or cart (chaat-wala)
+#### Venue: Chaat stall or cart (chaat-wala) · app: Street market, Food truck
 
 - Use for: street / on the go; meal on the go (1), friends at a chaat
   corner (2–3), evening snack. National; zone 1's chaat corner is the
@@ -614,6 +635,398 @@ and logged in the GAP LOG.
   behind."
 - Confidence and sources: MEDIUM; 1 search (event-decor and catering
   pages, tier 3–4) plus Celebration: Wedding feast.
+
+#### Venue: Young renter's room or shared flat (PG room, 2BHK share) · app: Gen Z apartment
+
+- Use for: home indoor; a young professional or student alone or with
+  one flatmate; snack, takeaway dinner, a match on a laptop; 1–2. **Most
+  unmarried young Indians live with their family**, so for a home-city
+  brief the honest version is a young person's own corner of the family
+  flat (desk, bed, a few posters) and the dining corner profile above.
+  The renter's version is real in the job-migration cities: **Bengaluru,
+  Gurugram/Noida, Pune, Hyderabad, Mumbai**, where young workers live in
+  a **PG** (paying-guest room, often twin- or triple-sharing, meals
+  included) or a **shared 2BHK flat**. [MEDIUM — Deccan Herald on the
+  shift from PGs to shared flats; PG formats and rents from colive.com and
+  listing sites (tier 3–4, vendor self-interest); living with family
+  LOW — general knowledge, not verified this pass]
+- Soft background (the core): **back wall** of plain off-white or pastel
+  emulsion with a few **posters or postcard prints taped or framed** (film,
+  music, cricket, travel; all illegible), a **fairy-light string** along
+  the wall or window, a **cork board** or a few polaroids; a **steel or
+  laminate wardrobe** (almirah) and a single bed with a printed cotton
+  bedsheet in a PG room. **Middle distance**: in a shared flat, the
+  living room's cheap **three-seater sofa** or a floor mattress with
+  cushions, a **folding or plastic table**, a bean bag, two or three
+  potted plants (money plant in a bottle, a snake plant), a laptop on a
+  stand, a pressure cooker and a few steel vessels on the open kitchen
+  counter. **Light**: daylight through an aluminium sliding window with
+  a **grille** and a thin printed curtain; at night a **white LED tube
+  or panel** plus the warm string light; a **split-AC** high on the wall
+  or a **ceiling fan** overhead. **Palette**: off-white walls, a strong
+  printed bedsheet or throw (indigo block print, mustard, rust), pale
+  vitrified tiles, steel, green plants. **Signature shapes**: ceiling
+  fan; window grille; fairy-light string; steel almirah; a plastic or
+  folding table. **Density and wear**: compact, a little crowded,
+  rented-plain walls with a few personal touches; budget furniture
+  (online-marketplace or local carpenter), never designer. **People**:
+  a blurred flatmate at the far side, within the limit. [LOW-MEDIUM —
+  furnished twin/triple rooms with beds, wardrobes and fans per listings;
+  décor detail EDITORIAL from general knowledge]
+- Shell: a room in a 4–5-storey independent PG building or a flat in a
+  society tower; vitrified or mosaic tile floor; flat white ceiling.
+- The table as set here: a small folding or plastic table, or the hero
+  on a steel plate on the bed edge; takeaway in foil or a steel tiffin,
+  a steel plate. [EDITORIAL]
+- Subregional variants and the national default: **Bengaluru** (default
+  for the renter version) — the tech-corridor PG or 2BHK share in BTM
+  Layout or Koramangala type areas; **Mumbai** — far smaller, a shared
+  1BHK with a loft bed; **Delhi/home city** — the young person's room in
+  the family flat. [LOW — not verified]
+- Hallucination traps: a Scandinavian/Pinterest studio with white oak
+  and a designer lamp; an American loft; a spacious single-occupancy
+  apartment; squalor or a hostel-dorm cliché; a puja shelf in frame.
+- Never stage: beer bottles or hookah (common in young flats); legible
+  posters, laptop screens or food-delivery bags; brand logos on
+  appliances; chai mugs or a water bottle beside the hero.
+- Prompt-ready line: "A young professional's shared flat in Bengaluru:
+  a small folding table with a steel plate of takeaway biryani, an
+  off-white wall with a fairy-light string and a few blurred prints, a
+  steel wardrobe and a grilled window with a thin printed curtain behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Deccan Herald, colive,
+  listing sites); staging [EDITORIAL].
+
+#### Venue: Breakfast counter in a new modular kitchen (Gurugram/Bengaluru flat) · app: Kitchen island
+
+- Use for: home indoor; a snack or quick lunch at the counter, 1–2.
+  **A true kitchen island is rare in India.** A design vendor notes that
+  most standard 3BHK flats in Gurgaon have **closed kitchens** that cannot
+  take an island; what exists in newer upper-middle flats is a
+  **peninsula or breakfast counter** extending from the modular kitchen
+  into the dining space, with 2–3 bar stools. Use that as the honest
+  version. [MEDIUM — DesignCafe, NoBroker and HomeLane design guides
+  (tier 3, vendors with commercial interest)]
+- Soft background (the core): **behind the counter** the **modular
+  kitchen**: high-gloss or matt **laminate or acrylic shutters** (white,
+  grey, wood-grain, or a two-tone with one colour such as teal or
+  maroon), a **granite or quartz countertop** (black galaxy granite is
+  common), a stainless or black **chimney hood** over a glass-top gas
+  hob, a **tall unit** with a built-in oven or a fridge; a **pressure
+  cooker** and a steel masala box on the counter, a stainless **dish
+  rack**. **Middle distance**: the kitchen window with a grille or the
+  utility-balcony door, a water purifier as a white box on the wall,
+  a toaster or mixer-grinder. **Light**: under-cabinet LED strips and
+  ceiling downlights (cool-white, ~5000 K) are the norm; a pendant over
+  the counter only in designer flats; daylight from the utility window.
+  **Palette**: glossy laminate in white or grey, black granite, steel,
+  a warm wood-grain accent. **Signature shapes**: the chimney hood; the
+  row of glossy shutters with handle profiles; the pressure cooker; the
+  bar-stool backs; the water purifier. **Density and wear**: newer, tidy,
+  practical; daily-use steel vessels on the counter. **People**: a blurred
+  family member at the hob, within the limit. [LOW-MEDIUM — modular
+  kitchen materials from design-guide pages; chimney, purifier and
+  pressure cooker general knowledge, not verified]
+- Shell: a 2010s–2020s society-tower flat; vitrified tiles; false
+  ceiling with downlights.
+- The table as set here: the countertop is granite or quartz, 34–36 in
+  high; a steel or ceramic plate, the hero on the stone. [MEDIUM — counter
+  height per NoBroker guide]
+- Subregional variants and the national default: **Gurugram/Noida and
+  Bengaluru/Hyderabad new towers** — the default above; **Mumbai** —
+  galley kitchens, a fold-down counter at most; **older flats and towns**
+  — no counter: use the dining corner profile. [LOW]
+- Hallucination traps: an American show-kitchen island with a sink and
+  pendant row; open shelving of designer crockery; a Western range cooker;
+  a wine rack; a spotless unlived kitchen with no pressure cooker or steel.
+- Never stage: chai pans and kettles in the hero zone; a puja niche in
+  the kitchen (common: frame away); legible appliance brands; alcohol.
+- Prompt-ready line: "A breakfast counter in a new Gurugram flat: a steel
+  plate of samosas on black granite, a glossy grey modular kitchen with a
+  chimney hood, a pressure cooker and under-cabinet light softly blurred
+  behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (DesignCafe, NoBroker,
+  HomeLane, IndiaMART; vendor pages); staging [EDITORIAL].
+
+#### Venue: Neighbourhood independent café (Delhi) · app: Café
+
+- Use for: restaurant indoor; one person or two friends, an afternoon
+  snack or light meal; 1–2. The young urban café (South Delhi villages
+  such as Shahpur Jat and Hauz Khas, Bengaluru's Indiranagar, Mumbai's
+  Bandra) is a real and growing register; the older counterpart is
+  Mumbai's Irani café (variant). [MEDIUM — Culture Trip and Traveller on
+  Hauz Khas/Shahpur Jat café scenes; LOW for design detail]
+- Soft background (the core): **back wall** of **exposed brick** or rough
+  lime plaster in warm white, terracotta or sage, with a few framed
+  prints, a shelf of plants and books; a **counter** with an espresso
+  machine as a dark chrome block, a glass **pastry case** with cakes,
+  cookies and puffs as warm blobs, a menu board (illegible chalk
+  texture). **Middle distance**: four or five small tables, **cane or
+  bentwood chairs** and a reclaimed-wood bench with cushions, a large
+  window or glass door onto a narrow lane; **Edison-style filament bulbs**
+  or rattan pendants. **Light**: daylight from the front window, warm
+  filament bulbs as amber points; the street beyond bright and hazy.
+  **Palette**: brick red, warm white, cane gold, dark wood, plant green,
+  black metal. **Signature shapes**: filament bulbs; cane chairs; the
+  pastry case; potted monstera or areca palms; exposed brick. **Density
+  and wear**: small, cosy, a little rough at the edges (old village
+  building). **People**: blurred young customers with laptops, within
+  the limit. [LOW-MEDIUM — exposed brick, Edison bulbs and reclaimed wood
+  named as the typical Delhi café look by an interior vendor (tier 4,
+  marketing) and recycled furniture by a Hauz Khas review; cane chairs
+  and pastry case general knowledge]
+- Shell: first or upper floor of an old 3–4-storey village building in a
+  narrow lane, or a ground-floor shop in a market block; tile or polished
+  cement floor.
+- The table as set here: a small round wood or marble-top table; a
+  sandwich, puff or slice of cake on a ceramic plate; a paper napkin;
+  coffee cups out of frame. [EDITORIAL]
+- Subregional variants and the national default: **Mumbai Irani café**
+  — bentwood chairs, red-chequered or marble-top tables, mirrors and
+  old glass cabinets of buns, high ceilings with fans (bun maska and
+  chai are the intruders); **Bengaluru** — garden-house cafés with
+  verandahs; **Kolkata** — old cabins and coffee houses. Default: the
+  South Delhi café above. [LOW]
+- Hallucination traps: a global coffee-chain look (green aprons, branded
+  cups); a Parisian bistro; a Melbourne white-tile café; the chai stall
+  instead; legible chalk menus.
+- Never stage: coffee, chai or cold-brew in frame (intruder drinks);
+  chain branding; legible boards or cup sleeves; hookah (some Hauz Khas
+  places); alcohol bottles.
+- Prompt-ready line: "A small South Delhi neighbourhood café in afternoon
+  light: a slice of cake on a marble table, cane chairs, exposed brick,
+  warm filament bulbs and a softly blurred pastry case and espresso
+  machine behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Culture Trip, Traveller,
+  Dropthebass, interior vendor); staging [EDITORIAL].
+
+#### Venue: New-wave modern Indian restaurant (Delhi NCR/Mumbai) · app: Modern bistro
+
+- Use for: restaurant indoor; 2–3 people, a dinner or weekend lunch out;
+  2 to a small group. The design-led "modern Indian" or regional-cuisine
+  concept in Delhi NCR, Mumbai and Bengaluru, distinct from the warm
+  family restaurant and from five-star fine dining. [MEDIUM — Anjeer,
+  Gurugram (2025) on Archello: kitchen and dining as one continuous space,
+  timber, terrazzo, stone and fabric; one source, design press]
+- Soft background (the core): **back plane** is the **open kitchen**: a
+  long stone or steel worktop with a **tandoor or wood-fired oven** as a
+  warm orange glow, copper and brass pans, cooks in dark aprons; **walls**
+  of lime plaster or micro-concrete in warm grey, sand or terracotta, a
+  **terrazzo** or kota-stone floor; one handcrafted feature (a cane or
+  jaali screen, a large textile hanging, terracotta tiles). **Middle
+  distance**: dark-wood or stone-top tables, **cane-backed or upholstered
+  chairs**, banquettes in rust or olive fabric, a few large plants;
+  **statement pendants** in brass, cane or hand-blown glass. **Light**:
+  dim, warm, directional: pendants pooling on tables, the kitchen glow
+  brighter behind. **Palette**: warm grey, terracotta, sand, dark wood,
+  brass, olive. **Signature shapes**: the long open-kitchen counter with
+  the oven glow; a cane or jaali screen; terrazzo floor; statement
+  pendants; banquettes. **Density and wear**: new, considered, uncluttered.
+  **People**: blurred diners and a cook, within the limit. [LOW-MEDIUM —
+  one design-press project; materials consistent with other Indian
+  design-press results; staging EDITORIAL]
+- Shell: a ground-floor unit in a Delhi market block, a Gurugram mall
+  high-street, or a converted Mumbai mill or bungalow; high ceiling.
+- The table as set here: bare stone or dark wood, no cloth; handmade
+  stoneware or brass-rimmed plates, small katoris; a composed regional
+  dish, cloth napkin. [EDITORIAL]
+- Subregional variants and the national default: **Mumbai** — mill
+  compound conversions (Lower Parel) with exposed steel and timber;
+  **Bengaluru** — garden courtyards; **Goa** — Portuguese-era house
+  conversions. Default: Delhi NCR above. [LOW]
+- Hallucination traps: the backlit bar, bottle wall or cocktail station
+  (most such places have one: frame it out entirely); maharaja palace
+  décor; white tablecloths and silver cloches; a London curry-house; a
+  Scandinavian restaurant with no Indian material.
+- Never stage: bar, bottles, taps, wine or cocktail glasses anywhere;
+  water glasses and tumblers; legible menus; white cloth.
+- Prompt-ready line: "A modern Indian restaurant in Delhi at dinner: a
+  regional dish on handmade stoneware on a bare dark-wood table, with a
+  softly blurred open kitchen glowing from a tandoor, terracotta lime-
+  plaster walls, a cane screen and brass pendants behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Archello, Dezeen,
+  MGS Architecture); staging [EDITORIAL].
+
+#### Venue: Self-service snack and sweet-shop restaurant, darshini variant (mithai-namkeen counter) · app: Counter service
+
+- Use for: restaurant indoor; quick meal or snack, 1–3; order and pay at
+  the counter, collect from the pass, eat at a standing or small table.
+  In Delhi and the North this is the **sweet-and-snack shop with a
+  self-service dining hall** (chole bhature, samosa, dosa, thali under a
+  token system); in Bengaluru it is the **darshini** (self-service
+  vegetarian tiffin room, standing counters). The mall food court is the
+  third, more generic version. [LOW-MEDIUM — darshini per this file's
+  register row; North Indian self-service sweet-shop format general
+  knowledge, not verified; 1 search found only counter vendors]
+- Soft background (the core): **back plane** is the **long glass-fronted
+  sweet counter**: tiers of mithai on steel trays (orange, white, green,
+  silver-leaf glints), bright tube lights inside the case; beside it the
+  **token or cash counter** and the **pick-up pass** with steel plates
+  stacked, a kitchen glimpse with a big kadai and a dosa tawa. **Middle
+  distance**: **stainless-steel standing tables** at chest height and
+  some small laminate tables with moulded chairs, a wash basin on the
+  wall (keep out), customers queuing as blurred shapes. **Light**: very
+  bright, flat, cool white (tube lights and LED panels), with the warm
+  glow of the sweet case. **Palette**: white tiles, polished steel,
+  saffron and pistachio colours of the sweets, red or orange accents.
+  **Signature shapes**: the long lit sweet counter; steel standing tables;
+  a stack of steel plates at the pass; the menu board as a blurred
+  colour block high on the wall. **Density and wear**: busy, quick,
+  scrubbed clean, noisy at lunch. **People**: blurred queue and a server
+  at the pass, within the limit. [LOW-MEDIUM]
+- Shell: a ground-floor unit with a wide glass front in a market or on a
+  main road; white tile floor and walls.
+- The table as set here: a stainless standing table or laminate top;
+  food on a **steel or melamine plate** or a compartment tray, a paper
+  napkin; plastic spoon only for sweets. [EDITORIAL]
+- Subregional variants and the national default: **Bengaluru darshini**
+  — smaller, steel throughout, sambar in steel buckets, idli-vada-dosa
+  plates, standing only, filter coffee is the intruder; **Mumbai** —
+  Udupi restaurants with a quick counter; **mall food court** — branded
+  kiosks (avoid: chain looks). Default: the Delhi self-service hall above.
+- Hallucination traps: a branded fast-food chain counter with trays and
+  combo boards; an American diner; plastic red-and-yellow branding;
+  legible price boards.
+- Never stage: chain or brand marks (the big sweet-shop chains have
+  strong liveries: keep generic); legible boards, tokens and boxes;
+  lassi or chai glasses; water dispenser.
+- Prompt-ready line: "A busy Delhi self-service snack restaurant at
+  lunch: a steel plate of chole bhature on a polished steel standing
+  table, a long brightly lit sweet counter of colourful mithai and a
+  white-tiled hall softly blurred behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (counter fabricators only);
+  this file's register; staging [EDITORIAL].
+
+#### Venue: Neighbourhood park or city garden (Delhi DDA park, Lodhi Garden) · app: Park
+
+- Use for: on the go / outdoor; an afternoon or early-evening snack on a
+  bench, friends after college, a family winter outing; 1–3. Delhi's
+  residential colonies each have a **DDA or RWA park**; the city gardens
+  (Lodhi Garden, Deer Park) add old trees and monuments. [MEDIUM —
+  DDA park features (walking paths, grass, benches) per local listings and
+  the CR Park guide; morning-walker culture per the same; vendors not
+  confirmed]
+- Soft background (the core): **back plane** of big shade trees (neem,
+  peepal, jamun) with dusty dark-green canopies, a **walking track** of
+  red-brick or concrete pavers curving away, **green-painted iron
+  railings** or a low boundary wall, **concrete or wooden benches**,
+  hedges of clipped bougainvillea. **Middle distance**: open grass
+  (green after the monsoon, patchy and straw-coloured by May), an outdoor
+  gym station of painted steel, walkers in track suits and salwar-kameez
+  as blurred figures; in Lodhi Garden, a **sandstone Lodi-era tomb dome**
+  softened by distance. **Light**: winter afternoon sun is soft and hazy,
+  low and warm; summer is harsh white; dusk brings yellow park lamps.
+  **Palette**: dusty greens, brick red, cream stone, bougainvillea
+  magenta, pale haze. **Signature shapes**: the curved track; iron
+  railings; a bench line; big tree trunks; a distant tomb dome (city
+  garden only). **Density and wear**: everyday, well used, slightly
+  dusty. **People**: blurred walkers, within the limit; no identifiable
+  children. [LOW-MEDIUM — trees and light general knowledge]
+- Shell: open ground; packed earth and pavers; open sky.
+- The table as set here: the hero and the snack on a **park bench**
+  (concrete or slatted wood) on a steel plate, paper plate or leaf bowl.
+  Never in a hand. [EDITORIAL]
+- Subregional variants and the national default: **Mumbai** — Shivaji
+  Park-style maidans with cricket; **Bengaluru** — Cubbon Park and Lalbagh
+  with tall rain trees; **Kolkata** — the Maidan; **Chandigarh** — Rose
+  Garden. Default: Delhi colony park or Lodhi Garden. [LOW]
+- Hallucination traps: an English manicured lawn; Central Park; a Mughal
+  garden with fountains as default (that is a monument, not a park);
+  stray cows or squalor; peacocks in every frame.
+- Never stage: food in a hand; legible park boards; chai from a vendor;
+  identifiable children; worship at a tree shrine.
+- Prompt-ready line: "A Delhi park on a hazy winter afternoon: a paper
+  plate of chaat beside the hero on a concrete bench, with a curved brick
+  walking track, green iron railings and big neem trees softly blurred
+  behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (CR Park guide, local
+  listings, The Delhi Walla); staging [EDITORIAL].
+
+#### Venue: Sea-front promenade (Mumbai Marine Drive, Chowpatty) · app: Beach or waterfront
+
+- Use for: on the go / outdoor; an evening snack by the sea, friends or a
+  couple; 1–3. Mumbai is the default (Delhi has no sea front; for a Delhi
+  brief use a park). **Marine Drive** is a long curved promenade along a
+  sea wall with **concrete tetrapods** on the sea side; crowds sit on the
+  low wall at dusk, and food vendors cluster at **Girgaum Chowpatty**
+  beach at its northern end (bhel puri, pav bhaji, kulfi). [HIGH —
+  Incredible India, Free Press Journal, travel guides agree on promenade,
+  sea wall, tetrapods, dusk crowds and Chowpatty food]
+- Soft background (the core): **back plane** the **Arabian Sea** in soft
+  grey-blue, the rough grey forms of **tetrapods** below the wall, and the
+  **curve of the bay** with the "Queen's Necklace" of warm street lamps
+  coming on at dusk and the **Art Deco and high-rise skyline** of Nariman
+  Point and Malabar Hill as soft lit shapes. **Middle distance**: the wide
+  paved promenade, people sitting along the **low sea wall** as blurred
+  silhouettes, the wide road with taxis (black-and-yellow) and cars as
+  light streaks. **Light**: sunset orange over the sea, then blue hour with
+  a chain of warm amber lamps; monsoon brings dark cloud and spray.
+  **Palette**: sea grey-blue, sunset orange, concrete grey, amber lamps,
+  cream Deco façades. **Signature shapes**: the sea wall line; tetrapods;
+  the curved chain of lamps; a distant skyline; the flat horizon.
+  **Density and wear**: lively but open. **People**: within about 2.5
+  faces, none sharp. [HIGH for the scene; colour temperature EDITORIAL]
+- Shell: open promenade; concrete paving; sea wall about knee to waist
+  high on the walk side.
+- The table as set here: the hero and a paper plate or leaf bowl of
+  bhel puri on the **flat top of the sea wall**. [EDITORIAL]
+- Subregional variants and the national default: **Juhu Beach** — sand,
+  stalls, kites; **Chennai Marina** — very wide sand beach; **Kochi** —
+  Fort Kochi waterfront with Chinese fishing nets; **Goa** — beach shacks
+  (alcohol-heavy: avoid). Default: Marine Drive at dusk. [MEDIUM]
+- Hallucination traps: a Goa party beach; a Maldives turquoise sea; a
+  Western boardwalk; the Gateway of India in every frame; litter or
+  monsoon-flood cliché.
+- Never stage: food in a hand; beer; legible hoardings on the skyline;
+  coconut water or chai; identifiable children.
+- Prompt-ready line: "Mumbai's Marine Drive at dusk: a paper plate of
+  bhel puri beside the hero on the sea wall, with grey tetrapods, the
+  Arabian Sea and the curving chain of warm street lamps and city
+  skyline melting into soft bokeh behind."
+- Confidence and sources: HIGH for the setting; 1 search (Incredible
+  India, Free Press Journal, travel guides); staging [EDITORIAL].
+
+#### Venue: Cricket stadium forecourt on IPL match day · app: Stadium or event
+
+- Use for: on the go / outdoor event; friends before an IPL or India
+  match; 2–3. Bengaluru's Chinnaswamy (Queen's Road) is the documented
+  scene: fans gather by the gates, **vendors fill the footpaths selling
+  jerseys and gear**, heavy police presence and frisking at entry points.
+  [MEDIUM — India Currents 2023, IANS/Sportskeeda diaries (tier 3)]
+- Soft background (the core): **back plane** the stadium's **concrete
+  stands and floodlight towers** (the towers as tall grids of white
+  light at an evening match), gate arches with steel barricades.
+  **Middle distance**: the road and footpath crowded with fans in
+  **team-colour jerseys** (red and black, yellow, blue: no logos or
+  names), vendors' racks of jerseys and flags (no full national flag),
+  face-paint stalls, snack carts (peanuts, corn, cut fruit), police
+  barricades, parked two-wheelers. **Light**: late afternoon gold into
+  evening, the floodlights' cool white glow over the stands as a halo,
+  street lamps and cart bulbs as warm bokeh. **Palette**: team colours,
+  concrete grey, floodlight white, warm cart bulbs. **Signature shapes**:
+  floodlight towers; barricade lines; jersey racks; the curved stand.
+  **Density and wear**: busy and festive, never a crush. **People**:
+  blurred fans, within about 2.5 faces, none sharp. [MEDIUM for vendors
+  and gates; floodlight look general knowledge]
+- Shell: footpath and road outside the gate; open sky.
+- The table as set here: the hero and a snack (samosa, corn cob in a
+  paper boat) on a **snack cart's ledge** or a low wall. [EDITORIAL]
+- Subregional variants and the national default: **Mumbai Wankhede** —
+  tight Marine Lines streets, sea breeze; **Kolkata Eden Gardens** —
+  maidan trees; **Ahmedabad (Narendra Modi Stadium)** — huge modern bowl,
+  wide plaza. Default: Bengaluru Chinnaswamy evening. [LOW]
+- Hallucination traps: an American football tailgate with grills and
+  pickups; a European football stadium; team or sponsor logos legible;
+  crowd crush or stampede imagery (sensitive after the June 2025
+  Chinnaswamy stampede at the RCB victory celebration — never suggest
+  crowding at gates).
+- Never stage: legible team names, sponsor logos or tickets; a full
+  national flag; betting; food in a hand; identifiable children.
+- Prompt-ready line: "Outside a Bengaluru cricket stadium before an
+  evening IPL match: a paper boat of masala corn beside the hero on a
+  cart ledge, with blurred fans in red and yellow jerseys, jersey racks
+  and floodlight towers glowing over the stands behind."
+- Confidence and sources: MEDIUM; 1 search (India Currents, Sportskeeda,
+  revsportz); staging [EDITORIAL].
 
 ---
 
@@ -3343,6 +3756,8 @@ Up 300 mL cans, as named by the brief):**
   the kalyana-mandapam dining-hall look; all subregional variants.
   Needs a pass with image references or a local reviewer.
 
+- **Venue-profile wave 2 (2026-10-18, app-option gap fill) open items**: unverified background details in the 8 new profiles: whether most unmarried young adults in home cities live with family (general knowledge), PG/shared-flat décor (posters, fairy lights, steel almirah); modular-kitchen finishes, chimney, water purifier and counter lighting (vendor pages only); Delhi café design (cane chairs, pastry case; the exposed-brick/Edison-bulb look rests on an interior vendor's page); modern Indian restaurant materials (one design-press project, Anjeer, Gurugram); the whole North Indian self-service sweet-shop hall format and the darshini detail (no usable search result); Delhi park trees, railings, outdoor gyms and vendors; stadium floodlights and snack carts outside the gate. Needs image references or a local reviewer.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) keep India as one file with nine zones,
@@ -3422,3 +3837,4 @@ Up 300 mL cans, as named by the brief):**
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding guest count and catering; Tamil wedding banana-leaf feast; Diwali dinner menu; Eid ul-Fitr India menu and visits; Durga Puja eating out in Kolkata; children's birthday party menus). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (Diwali, Eid ul-Fitr, Onam sadya, Durga Puja, wedding, birthday, Sunday family lunch). Sources are mostly tier 3–4 (WeddingWire India, EazyDiner, Agoda, recipe sites) plus Gulf News; headcounts are editorial.
 - **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 3 watch-party entries (IPL evening, India international/India–Pakistan, Pro Kabaddi) and 2 social game-night entries (Diwali card evening staged as the sweets table, family ludo/carrom); popularity rated medium.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches (apartment, dhaba, family restaurant, banquet hall, chaat stall, rooftop). Results were thin (design-trade, vendor and venue-listing pages; SCMP on dhabas); most background detail is MEDIUM or LOW and logged in the GAP LOG.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5 profiles tagged, 8 new profiles, 8 searches (PG/shared flats, modular kitchen counters, Delhi cafés, modern Indian restaurant design, darshini counters, Delhi parks, Marine Drive, stadium match day). Results were mostly vendor, listing and travel pages; Marine Drive is the only HIGH setting. Banquet hall left untagged (indoor event venue).
