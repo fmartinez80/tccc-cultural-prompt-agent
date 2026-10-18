@@ -8,26 +8,28 @@ import type { Surface, Venue } from "./types";
 export interface VenueType {
   id: string;
   label: string;
-  /** How the place is described to the story agent. */
+  /** How the place is described to the story agent: a short name, a colon, then the look. */
   prompt: string;
   surfaceText?: string;
   surface?: Surface;
+  /** Retired ids that now mean this place, so saved scenes keep their choice. */
+  aliases?: string[];
 }
 
+// One kind of place per look that reads differently on camera (Fernando, 2026-10-18): home went from four
+// to three, restaurant from six to four. Each prompt is the generic look; a country's own venue profile in
+// the knowledge base wins where it has one.
 export const VENUE_TYPES: Record<Venue, VenueType[]> = {
   home: [
-    { id: "family-home", label: "Family home", prompt: "a lived-in family home: kitchen or everyday eating area, family touches, relaxed and busy" },
-    { id: "genz-apartment", label: "Gen Z apartment", prompt: "a small, styled Gen Z rental apartment: plants, a few design objects, personal touches, compact and bright", surfaceText: "a small apartment dining table", surface: "table-2top" },
-    { id: "kitchen-island", label: "Kitchen island", prompt: "a home kitchen seen from a seat at the kitchen island, cabinets and counters behind", surfaceText: "a kitchen island countertop" },
-    { id: "dining-room", label: "Dining room", prompt: "a home dining room: a proper dining table, chairs, a sideboard or window behind", surfaceText: "a dining-room table" },
+    { id: "genz-apartment", label: "Gen Z apartment", prompt: "a small, styled Gen Z rental apartment: compact and bright, a few plants, one or two design objects, personal touches such as prints or a string light, a sofa or window close behind", surfaceText: "a small apartment dining table", surface: "table-2top" },
+    { id: "dining-room", label: "Dining room", prompt: "a family dining room in a lived-in home: a proper dining table and chairs, a sideboard or cabinet with everyday things, a curtained window, family touches, furnished the way homes in this country really are, not a showroom", surfaceText: "a dining-room table", aliases: ["family-home"] },
+    { id: "kitchen-island", label: "Kitchen island", prompt: "a home kitchen seen from a seat at the kitchen island: cabinets, counters and everyday appliances softly behind, a window or pendant light", surfaceText: "a kitchen island countertop" },
   ],
   restaurant: [
-    { id: "casual-dining", label: "Casual sit-down", prompt: "a casual sit-down neighborhood restaurant" },
-    { id: "local-spot", label: "Traditional local spot", prompt: "a traditional, family-run local restaurant typical of this region" },
-    { id: "food-court", label: "Food court", prompt: "a busy shopping-mall food court: shared seating, bright and practical", surfaceText: "a food-court table" },
-    { id: "gastropub", label: "Gastropub", prompt: "a gastropub: dark wood, warm pendant lights, bar in the background", surfaceText: "a solid wooden gastropub table" },
-    { id: "fast-casual", label: "Fast casual", prompt: "a modern fast-casual restaurant: clean counters, simple fixtures, order-at-the-counter feel", surfaceText: "a fast-casual restaurant table" },
-    { id: "cafe", label: "Café", prompt: "a small neighborhood café", surfaceText: "a small café table", surface: "table-2top" },
+    { id: "casual-dining", label: "Sit-down", prompt: "a sit-down restaurant: table service, the neighbourhood or traditional kind typical of this country, local décor, simple tables and chairs, other tables softly behind, never upscale or white-cloth", aliases: ["local-spot"] },
+    { id: "fast-casual", label: "Counter service", prompt: "a counter-service restaurant or food court: order at the counter, bright practical light, simple tables, a menu board blurred to colour blocks, food on trays or in baskets", surfaceText: "a counter-service restaurant table", aliases: ["food-court"] },
+    { id: "cafe", label: "Café", prompt: "a small neighbourhood café: a counter with a coffee machine and pastry case softly behind, a few small tables, window light", surfaceText: "a small café table", surface: "table-2top" },
+    { id: "modern-bistro", label: "Modern bistro", prompt: "a modern bistro: design-led and elevated but relaxed, a cooler palette of concrete, dark wood and stone, statement pendant lights, an open-kitchen glow, no bar, bottles or taps behind", surfaceText: "a solid wood or stone bistro table", aliases: ["gastropub"] },
   ],
   "on-the-go": [
     { id: "park", label: "Park", prompt: "a city park: trees, grass and paths" },
@@ -39,7 +41,7 @@ export const VENUE_TYPES: Record<Venue, VenueType[]> = {
 };
 
 export function venueType(venue: Venue, id: string | undefined): VenueType | undefined {
-  return id ? VENUE_TYPES[venue].find((t) => t.id === id) : undefined;
+  return id ? VENUE_TYPES[venue].find((t) => t.id === id || t.aliases?.includes(id)) : undefined;
 }
 
 /** The environment brief for the story agent, or "" when the operator gave none. */

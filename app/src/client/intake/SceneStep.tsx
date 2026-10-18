@@ -14,7 +14,7 @@ import { Select } from '../ui/Select.tsx';
 import { Switch } from '../ui/Switch.tsx';
 import { TextArea } from '../ui/TextArea.tsx';
 import { DEFAULT_POSE, POSES, poseById } from '../../shared/poses.ts';
-import { VENUE_TYPES } from '../../shared/venues.ts';
+import { VENUE_TYPES, venueType } from '../../shared/venues.ts';
 import { AgentStatus } from './AgentStatus.tsx';
 import { TIME_LABELS, type Brief } from './types.ts';
 import styles from './SceneStep.module.css';
@@ -153,7 +153,7 @@ export function SceneStep({
       <div className={styles.placeRow}>
         <Select
           label="Kind of place"
-          value={scene.venueType ?? ANY_PLACE}
+          value={venueType(scene.venue, scene.venueType)?.id ?? ANY_PLACE}
           onChange={(v) => onPlace({ venueType: v === ANY_PLACE ? undefined : v })}
           options={[
             { id: ANY_PLACE, label: 'Any — the agent decides' },
