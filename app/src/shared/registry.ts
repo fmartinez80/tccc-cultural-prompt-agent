@@ -150,12 +150,12 @@ export const SKU_CATALOG: Array<SkuInfo & { shortName: string; markets?: string[
     appearance: "large clear plastic bottle with a red screw cap, a long body with tall vertical grooves above and below the label and a five-lobed base, filled to the shoulder with cola, a red wrap label around the middle carrying the white Coca-Cola script logo with ORIGINAL TASTE beneath it and a white wave with a red and pink stepped geometric pattern below",
   },
   // Iraq only, also keyed by its front-of-pack artwork code (REN-2607-00852_FOP.png, 2026-10-12) until a GTIN arrives.
-  // 21 cm tall, 6.2 cm across the base (Fernando, 2026-10-18: typically 18-21 cm tall, 6-6.5 cm across; set at the
-  // taller end for its long moulded lower body). Was 21.5 x 6.1 cm, unsourced.
+  // 450 mL single-serve contour PET (Fernando, 2026-10-19: was listed as 400 mL). 209-212 mm tall, 65-66 mm across at
+  // the widest; set at 21 cm x 6.55 cm. The id keeps "400ml" so saved briefs still open.
   {
-    id: "coke-iraq-400ml-pet", gtin: "REN-2607-00852", shortName: "400 mL plastic bottle (Iraq)",
-    displayName: "Coca-Cola Original Taste 400 mL plastic bottle", package: "pet-bottle", volumeMl: 400, heightM: 0.21, radiusM: 0.031, markets: ["iraq"],
-    appearance: "clear plastic bottle with a red ribbed screw cap, filled to the shoulder with cola, a red wrap label around the upper body carrying the white Coca-Cola script logo with ORIGINAL TASTE beneath it, and below the label a moulded lower body with rows of round dimples on one side and an embossed Coca-Cola script panel, ending in a five-lobed base",
+    id: "coke-iraq-400ml-pet", gtin: "REN-2607-00852", shortName: "450 mL plastic bottle (Iraq)",
+    displayName: "Coca-Cola Original Taste 450 mL plastic bottle", package: "pet-bottle", volumeMl: 450, heightM: 0.21, radiusM: 0.03275, markets: ["iraq"],
+    appearance: "single-serve 450 mL contour bottle in clear PET, about three times as tall as it is wide. Top to bottom: a red ribbed screw cap with a smooth band at its top edge; a short clear neck with a thin support ring; a clear sloping shoulder; cola filling the bottle up to the shoulder with a thin line of foam at the top. A red wrap label sits high on the upper body, between two faint horizontal rings moulded into the plastic, and carries the white Coca-Cola script logo with ORIGINAL TASTE in white capitals beneath it and a narrow vertical white recycling note along its left edge. Below the label the body pinches in at a gentle contour waist and then widens again toward the base. The moulded lower body starts at a slanted edge that rises from one side to the other. On one side it has three staggered columns of round raised dimples running down the bottle; beside them sits a recessed panel shaped like the contour-bottle silhouette, its surface covered in a fine pebbled stipple, with a large embossed Coca-Cola script running diagonally upward across it, the same colour as the cola, read only by its highlights. The bottle ends in a five-lobed base with rounded feet",
   },
   // Retired provisional sizes (coca-cola-guidelines.md §4.3), hidden from the brief.
   { id: "coke-original-330ml-glass", shortName: "330 mL contour glass bottle", displayName: "Coca-Cola Original Taste 330 mL contour glass bottle", package: "contour-glass-bottle", volumeMl: 330, retired: true },
