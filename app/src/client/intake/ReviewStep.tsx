@@ -239,7 +239,7 @@ export function ReviewStep({
         ctx.fillStyle = change ? `rgba(255, 204, 51, ${on ? 0.4 : 0.28})` : selected === i ? 'rgba(231, 34, 58, 0.22)' : 'rgba(120, 120, 120, 0.2)';
         ctx.fillRect(x, y, w, h);
         ctx.lineWidth = Math.max(2, width / 500);
-        ctx.strokeStyle = change ? 'rgba(0, 0, 0, 0.7)' : selected === i ? 'rgba(47, 75, 176, 0.9)' : 'rgba(80, 80, 80, 0.7)';
+        ctx.strokeStyle = change ? 'rgba(0, 0, 0, 0.7)' : selected === i ? 'rgba(231, 34, 58, 0.9)' : 'rgba(80, 80, 80, 0.7)';
         ctx.strokeRect(x, y, w, h);
       });
       return;

@@ -1,10 +1,11 @@
-// A small modal that dims the page while a whole step waits on its content:
-// the Coca-Cola contour bottle fills with cola as the work progresses, above
-// the line saying what's being prepared and a percentage that counts up. When
-// the work finishes the bottle tops up to 100% and the modal closes a moment
-// later; when it fails the modal closes at once (the error shows in the page).
+// A modal that dims the page while a whole step waits on its content: a
+// "NOW LOADING..." kicker whose dots build one at a time, the step's name in the
+// shadow colour, a frying pan tossing a red arc of food and catching it on a
+// loop, the line saying what's being prepared and a percentage that counts up. When the
+// work finishes the count tops up to 100% and the modal closes a moment later;
+// when it fails the modal closes at once (the error shows in the page).
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState, type RefObject } from 'react';
 import { createPortal } from 'react-dom';
 
 import styles from './LoadingOverlay.module.css';
@@ -32,6 +33,93 @@ function useCountUp(target: number): number {
   return shown;
 }
 
+/**
+ * The pan toss, after Fernando's food-market loader (2.28 s loop): the pan tips
+ * back, flicks, a red arc flies up out of the left rim, over the top and back
+ * into the pan, and the pan dips as it catches it. Drawn in the GIF's own
+ * pixel space (800 x 600) and cropped to the action.
+ */
+function PanToss() {
+  return (
+    <svg className={styles.toss} viewBox="280 136 300 288" aria-hidden>
+      <ellipse className={styles.shadow} cx="390" cy="407" rx="64" ry="7" />
+      <path className={styles.food} d="M311.2 293.1 A95 95 0 1 1 447.2 315.9" pathLength={1000} />
+      <g className={styles.pan}>
+        <path d="M312 305 H467 C466 318 456 330 445 335 H336 C324 330 314 318 312 305 Z" />
+        <rect x="469.5" y="306" width="3.5" height="16" rx="1.5" />
+        <path d="M474 309 C500 309 512 304 530 303 C545 302 566 302 566 313 C566 323 545 323 530 322 C512 321 500 319 474 319 Z" />
+      </g>
+    </svg>
+  );
+}
+
+/**
+ * The width that sets `text` on exactly two lines of about even length: half its
+ * one-line width plus half its longest word, so a break always lands near the
+ * middle (CSS text-wrap: balance then evens the two lines). Measured in the
+ * element's own font once fonts are loaded; the CSS max-width still caps it.
+ */
+function useTwoLineWidth(ref: RefObject<HTMLElement | null>, text: string, active: boolean): number | undefined {
+  const [width, setWidth] = useState<number>();
+  useLayoutEffect(() => {
+    if (!active) return;
+    let live = true;
+    const measure = () => {
+      const el = ref.current;
+      const ctx = document.createElement('canvas').getContext('2d');
+      if (!live || !el || !ctx) return;
+      ctx.font = getComputedStyle(el).font;
+      const whole = ctx.measureText(text).width;
+      const longestWord = Math.max(...text.split(/\s+/).map((w) => ctx.measureText(w).width));
+      setWidth(Math.ceil(whole / 2 + longestWord / 2 + 4));
+    };
+    measure();
+    void document.fonts?.ready.then(measure);
+    return () => {
+      live = false;
+    };
+  }, [ref, text, active]);
+  return width;
+}
+
+/** Halftone grid size: the dot pitch and how far down the card the dots start. */
+const DOT_W = 560;
+const DOT_H = 640;
+const DOT_PITCH = 10;
+const DOT_START = 0.2;
+const DOT_MAX_R = 4.2;
+/** The bottom quarter's dots are 25% larger, eased in over the rows just above it. */
+const DOT_BOOST_FROM = 0.75;
+const DOT_BOOST = 1.25;
+
+/** One row of dots per pitch, in a staggered grid, each row a touch larger than the one above. */
+const HALFTONE_DOTS = (() => {
+  const dots: { x: number; y: number; r: number }[] = [];
+  for (let row = 0; row * DOT_PITCH <= DOT_H; row++) {
+    const y = row * DOT_PITCH;
+    const t = (y / DOT_H - DOT_START) / (1 - DOT_START);
+    if (t <= 0) continue;
+    const depth = y / DOT_H;
+    const boost = 1 + (DOT_BOOST - 1) * Math.min(1, Math.max(0, (depth - (DOT_BOOST_FROM - 0.05)) / 0.05));
+    const r = DOT_MAX_R * Math.pow(t, 1.15) * boost;
+    if (r < 0.5) continue;
+    const offset = row % 2 ? DOT_PITCH / 2 : 0;
+    for (let x = offset; x <= DOT_W; x += DOT_PITCH) dots.push({ x, y, r });
+  }
+  return dots;
+})();
+
+/** The card's halftone: dots that grow from nothing near the top to full size at the bottom. */
+function Halftone() {
+  return (
+    <svg className={styles.halftone} viewBox={`0 0 ${DOT_W} ${DOT_H}`} preserveAspectRatio="xMidYMax slice" aria-hidden>
+      {HALFTONE_DOTS.map((d, i) => (
+        <circle key={i} cx={d.x} cy={d.y} r={d.r} />
+      ))}
+    </svg>
+  );
+}
+
 export function LoadingOverlay({
   open,
   title,
@@ -41,7 +129,7 @@ export function LoadingOverlay({
 }: {
   /** The work is running. Keep the overlay mounted after it stops so it can finish at 100%. */
   open: boolean;
-  /** The step being prepared ("Sides and Accompaniments"), shown above the message. */
+  /** The step being prepared ("Sides & Accompaniments"), shown above the message. */
   title?: string;
   label: string;
   /** 0-99 while running; null before the first estimate. */
@@ -65,27 +153,29 @@ export function LoadingOverlay({
   const target = finishing ? 100 : open ? Math.max(0, Math.min(99, percent ?? 0)) : 0;
   const shown = useCountUp(target);
   const visible = open || finishing;
+  const messageRef = useRef<HTMLParagraphElement>(null);
+  const messageWidth = useTwoLineWidth(messageRef, label, visible);
   if (!visible) return null;
 
   return createPortal(
     <div className={styles.backdrop}>
       <div className={styles.card} role="status" aria-live="polite">
-        <div className={styles.bottle} aria-hidden>
-          <div className={styles.liquidMask}>
-            <div className={styles.liquid} style={{ height: `${target}%` }}>
-              <span className={styles.wave} />
-              <span className={styles.bubble} />
-              <span className={styles.bubble} />
-              <span className={styles.bubble} />
-              <span className={styles.bubble} />
-            </div>
-          </div>
-          <img className={styles.outline} src="/loading-bottle-outline.png" alt="" draggable={false} />
-        </div>
-        <div className={styles.text}>
+        <Halftone />
+        <div className={styles.head}>
+          <p className={styles.kicker}>
+            Now loading
+            <span className={styles.dots} aria-hidden>
+              <span>.</span>
+              <span>.</span>
+              <span>.</span>
+            </span>
+          </p>
           {title && <p className={styles.title}>{title}</p>}
-          <p className={title ? styles.message : styles.label}>{label}</p>
         </div>
+        <PanToss />
+        <p className={styles.message} ref={messageRef} style={{ width: messageWidth }}>
+          {label}
+        </p>
         <p className={styles.percent} aria-label={`${shown} percent`}>
           {shown}%
         </p>

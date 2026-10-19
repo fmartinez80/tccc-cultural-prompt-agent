@@ -5,7 +5,6 @@
 import type { PointerEvent as ReactPointerEvent, ReactNode } from 'react';
 import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef, useState } from 'react';
 
-import { uiZoom } from '../lib/uiZoom.ts';
 import { CanvasContext, type CanvasCtx, type DragState } from './context.ts';
 import { Edges, type EdgeSpec } from './Edges.tsx';
 import { clampZoom, snapToGrid, type NodeGeometry } from './layout.ts';
@@ -63,8 +62,7 @@ export const Canvas = forwardRef<CanvasHandle, {
   const toWorld = useCallback((clientX: number, clientY: number) => {
     const rect = viewportRef.current!.getBoundingClientRect();
     const v = viewRef.current;
-    const z = uiZoom();
-    return { x: ((clientX - rect.left) / z - v.x) / v.scale, y: ((clientY - rect.top) / z - v.y) / v.scale };
+    return { x: (clientX - rect.left - v.x) / v.scale, y: (clientY - rect.top - v.y) / v.scale };
   }, []);
 
   const zoomAt = useCallback(
@@ -84,17 +82,16 @@ export const Canvas = forwardRef<CanvasHandle, {
     () => ({
       zoomIn: () => {
         const rect = viewportRef.current?.getBoundingClientRect();
-        zoomAt(rect ? rect.width / 2 / uiZoom() : 0, rect ? rect.height / 2 / uiZoom() : 0, 1.25);
+        zoomAt(rect ? rect.width / 2 : 0, rect ? rect.height / 2 : 0, 1.25);
       },
       zoomOut: () => {
         const rect = viewportRef.current?.getBoundingClientRect();
-        zoomAt(rect ? rect.width / 2 / uiZoom() : 0, rect ? rect.height / 2 / uiZoom() : 0, 1 / 1.25);
+        zoomAt(rect ? rect.width / 2 : 0, rect ? rect.height / 2 : 0, 1 / 1.25);
       },
       fitToView: () => {
-        const box = viewportRef.current?.getBoundingClientRect();
+        const rect = viewportRef.current?.getBoundingClientRect();
         const ids = Object.keys(geometry);
-        if (!box || !ids.length) return;
-        const rect = { width: box.width / uiZoom(), height: box.height / uiZoom() };
+        if (!rect || !ids.length) return;
         const xs = ids.flatMap((id) => [geometry[id]!.x, geometry[id]!.x + geometry[id]!.width]);
         const ys = ids.flatMap((id) => [geometry[id]!.y, geometry[id]!.y + geometry[id]!.height]);
         const minX = Math.min(...xs);
@@ -123,7 +120,7 @@ export const Canvas = forwardRef<CanvasHandle, {
       e.preventDefault();
       const rect = el.getBoundingClientRect();
       if (e.ctrlKey || e.metaKey) {
-        zoomAt((e.clientX - rect.left) / uiZoom(), (e.clientY - rect.top) / uiZoom(), e.deltaY < 0 ? 1.08 : 1 / 1.08);
+        zoomAt(e.clientX - rect.left, e.clientY - rect.top, e.deltaY < 0 ? 1.08 : 1 / 1.08);
       } else {
         const v = viewRef.current;
         onViewChange({ ...v, x: v.x - e.deltaX, y: v.y - e.deltaY });
@@ -150,8 +147,8 @@ export const Canvas = forwardRef<CanvasHandle, {
       return;
     }
     if (panRef.current) {
-      const dx = (e.clientX - panRef.current.startClientX) / uiZoom();
-      const dy = (e.clientY - panRef.current.startClientY) / uiZoom();
+      const dx = e.clientX - panRef.current.startClientX;
+      const dy = e.clientY - panRef.current.startClientY;
       if (Math.abs(dx) > CLICK_THRESHOLD || Math.abs(dy) > CLICK_THRESHOLD) panRef.current.moved = true;
       onViewChange({ ...view, x: panRef.current.startX + dx, y: panRef.current.startY + dy });
     }

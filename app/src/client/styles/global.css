@@ -1,4 +1,4 @@
-/* Fonts (Hanken Grotesk, DM Mono) load from index.html. */
+/* Fonts (Tilt Warp, Space Grotesk, Space Mono) load from index.html. */
 
 *,
 *::before,
@@ -6,23 +6,15 @@
   box-sizing: border-box;
 }
 
-/* The whole UI draws at 90%: at 100% the pages read too large.
-   Viewport units inside a zoomed page shrink too, so stylesheets divide vh
-   (and vw used for widths) by --ui-zoom, and pointer maths uses lib/uiZoom.ts. */
-:root {
-  --ui-zoom: 0.9;
-}
-
 html {
-  zoom: var(--ui-zoom);
-  /* Only the loaded weights render: never fake a bold or italic. */
+  /* Tilt Warp has one weight: never fake a bold or italic. */
   font-synthesis: none;
 }
 
 html,
 body,
 #root {
-  min-height: calc(100vh / var(--ui-zoom, 1));
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -36,6 +28,7 @@ body {
   padding-top: var(--env-band-h, 0px);
   font-family: var(--bay-font-sans);
   font-weight: var(--app-weight-text);
+  font-size: 14.5px; /* 90% of the browser default 16px */
   line-height: 1.25;
   color: var(--bay-text);
   background: var(--bay-bg-canvas);

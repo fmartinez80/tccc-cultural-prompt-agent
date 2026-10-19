@@ -26,7 +26,7 @@
   background: var(--neo-card);
   color: var(--bay-text);
   font: inherit;
-  font-size: 14px;
+  font-size: 12.5px;
   text-align: left;
   cursor: pointer;
 }
@@ -73,7 +73,7 @@
 
 .popover {
   min-width: var(--trigger-width);
-  max-height: calc(320px * var(--ui-zoom, 1));
+  max-height: 320px;
   overflow: auto;
   padding: 4px;
   border: var(--neo-border);
@@ -87,7 +87,6 @@
   flex-direction: column;
   gap: 1px;
   outline: none;
-  zoom: var(--ui-zoom, 1); /* the popover sits outside the page zoom (lib/uiZoom.ts overlayLayer) */
 }
 
 .item {
@@ -97,7 +96,7 @@
   gap: 8px;
   padding: 8px 10px;
   border-radius: var(--bay-r-sm);
-  font-size: 14px;
+  font-size: 12.5px;
   color: var(--bay-text);
   cursor: pointer;
 }

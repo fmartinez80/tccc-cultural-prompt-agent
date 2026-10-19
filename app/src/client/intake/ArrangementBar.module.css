@@ -27,7 +27,7 @@
   color: var(--bay-text);
 }
 
-.hint {
+.hint.hint {
   margin: 0;
   font-size: var(--app-text-min);
   line-height: 1.35;
@@ -85,7 +85,7 @@
 }
 
 /* Always three lines tall, clamped, so the panel never jumps between arrangements. */
-.rationale {
+.rationale.rationale { /* doubled: outranks the step's plain p rule (line-height, margin) */
   display: -webkit-box;
   height: calc(3 * 1.4em);
   margin: 0;

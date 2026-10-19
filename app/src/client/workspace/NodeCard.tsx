@@ -6,7 +6,6 @@ import { ChevronDown, ChevronRight, GripVertical } from 'lucide-react';
 import type { KeyboardEvent, PointerEvent, ReactNode } from 'react';
 import { useEffect, useRef } from 'react';
 
-import { uiZoom } from '../lib/uiZoom.ts';
 import { Button } from '../ui/Button.tsx';
 import { useCanvasContext } from './context.ts';
 import styles from './NodeCard.module.css';
@@ -67,8 +66,8 @@ export function NodeCard({
   };
   const onHeaderPointerMove = (e: PointerEvent) => {
     if (!originRef.current) return;
-    const dx = (e.clientX - originRef.current.x) / uiZoom() / ctx.scale;
-    const dy = (e.clientY - originRef.current.y) / uiZoom() / ctx.scale;
+    const dx = (e.clientX - originRef.current.x) / ctx.scale;
+    const dy = (e.clientY - originRef.current.y) / ctx.scale;
     if (Math.abs(dx) > 3 || Math.abs(dy) > 3) movedRef.current = true;
     ctx.dragBy(dx, dy);
   };

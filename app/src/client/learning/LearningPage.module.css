@@ -56,7 +56,7 @@
 
 .rowTitle {
   font-family: var(--app-font-head);
-  font-size: 16px;
+  font-size: 14.5px;
   color: var(--bay-text);
 }
 
@@ -91,7 +91,7 @@
 
 .statValue {
   font-family: var(--bay-font-mono);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--bay-text-2);
 }

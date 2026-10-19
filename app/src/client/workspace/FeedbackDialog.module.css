@@ -1,4 +1,4 @@
-/* The rating dialog: the site's fonts (bold Hanken Grotesk titles and text, DM Mono labels)
+/* The rating dialog: the site's fonts (Tilt Warp titles, Space Grotesk text, Space Mono labels)
    on a plain grid of thin ink outlines, without the neo-brutalist shadows (Fernando, 2026-10-10). */
 
 .overlay {
@@ -13,19 +13,19 @@
 
 .dialog {
   --fb-text: var(--bay-text);
-  --fb-muted: var(--bay-text-4);
+  --fb-muted: #5f5b52;
   --fb-line: var(--neo-ink);
   --fb-hair: var(--bay-border-hair);
   --fb-soft: var(--bay-bg-subtle);
   --fb-good: var(--bay-ok-fg);
   --fb-good-bg: var(--bay-ok-bg);
-  --fb-bad: var(--bay-err-fg);
+  --fb-bad: var(--neo-selected);
   --fb-bad-bg: #fdecee;
   --fb-warn: #8a5a00;
   --fb-accent: var(--neo-cta-button);
 
-  width: min(96vw / var(--ui-zoom, 1), 1040px);
-  max-height: calc(100vh / var(--ui-zoom, 1) - var(--env-band-h, 0px) - 48px);
+  width: min(96vw, 1040px);
+  max-height: calc(100vh - var(--env-band-h, 0px) - 48px);
   display: flex;
   flex-direction: column;
   background: var(--neo-card);
@@ -58,8 +58,8 @@
 .title {
   margin: 0;
   font-family: var(--app-font-head);
-  font-weight: var(--app-weight-headline);
-  font-size: 22px;
+  font-size: 14.5px;
+  color: var(--bay-text);
 }
 
 .subtitle {
@@ -100,7 +100,7 @@
 .btn {
   padding: 9px 18px;
   border: 1px solid var(--fb-line);
-  border-radius: var(--bay-r-pill);
+  border-radius: var(--bay-r-sm);
   background: var(--neo-card);
   color: var(--fb-text);
   font-family: var(--bay-font-mono) !important;

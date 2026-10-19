@@ -2,7 +2,6 @@ import { ChevronDown } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { Button, Menu, MenuItem, MenuTrigger, Popover, Separator } from 'react-aria-components';
 
-import { overlayLayer } from '../lib/uiZoom.ts';
 import styles from './UserMenu.module.css';
 
 export type UserMenuItem = {
@@ -10,6 +9,8 @@ export type UserMenuItem = {
   label: string;
   /** Marks the page currently showing. */
   current?: boolean | undefined;
+  /** Shows the label in the selected red (Get Started). */
+  accent?: boolean | undefined;
 };
 
 export type UserMenuProps = {
@@ -30,7 +31,7 @@ export function UserMenu({ email, items = [], onAction, onSignOut }: UserMenuPro
         <span className={styles.name}>{email}</span>
         <ChevronDown size={16} aria-hidden />
       </Button>
-      <Popover placement="bottom end" offset={6} className={styles.popover} UNSTABLE_portalContainer={overlayLayer()}>
+      <Popover placement="bottom end" offset={6} className={styles.popover}>
         <Menu
           className={styles.menu}
           aria-label="Pages"
@@ -40,7 +41,7 @@ export function UserMenu({ email, items = [], onAction, onSignOut }: UserMenuPro
           }}
         >
           {items.map((item) => (
-            <MenuItem key={item.id} id={item.id} className={styles.item} data-current={item.current || undefined}>
+            <MenuItem key={item.id} id={item.id} className={styles.item} data-current={item.current || undefined} data-accent={item.accent || undefined}>
               {item.label}
             </MenuItem>
           ))}

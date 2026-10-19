@@ -1,5 +1,5 @@
 .page {
-  min-height: calc(100vh / var(--ui-zoom, 1) - var(--env-band-h, 0px));
+  min-height: calc(100vh - var(--env-band-h, 0px));
   display: grid;
   place-items: center;
   padding: 24px 16px;
@@ -18,7 +18,7 @@
 }
 
 .logo {
-  width: 180px; /* twice the old ProdX logo's width */
+  width: 180px; /* twice the old logo's width */
   height: auto;
   align-self: flex-start;
 }
@@ -27,7 +27,7 @@
   margin: 0;
   font-family: var(--app-font-head);
   font-weight: var(--app-weight-headline);
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .lead {

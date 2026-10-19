@@ -70,13 +70,13 @@
 
 .muted {
   color: var(--bay-text-3);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .error {
   flex-basis: 100%;
   color: var(--bay-err-fg);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 @media (max-width: 720px) {

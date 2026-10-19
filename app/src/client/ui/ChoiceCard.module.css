@@ -67,7 +67,7 @@
   outline-offset: 2px;
 }
 
-/* Actively selecting (hover, press) = light grey; selected = indigo with white text. */
+/* Actively selecting (hover, press) = light grey; selected = red with white text. */
 .card[data-hovered]:not([data-disabled]):not([data-selected]),
 .card[data-pressed]:not([data-selected]) {
   background: var(--neo-hover);
@@ -149,14 +149,14 @@
 }
 
 .cardTitle {
-  font-size: 16px;
+  font-size: 14.5px;
   font-weight: var(--app-weight-subhead);
   line-height: 20px;
   color: var(--bay-text);
 }
 
 .cardSummary {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: var(--app-weight-text);
   line-height: 17px;
   color: var(--bay-text-3);
@@ -306,7 +306,7 @@
   flex: 1 1 280px;
   min-width: 0;
   max-width: 640px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--app-weight-subhead);
   line-height: 24px;
   color: var(--bay-text);
@@ -333,7 +333,7 @@
 .rowSummary {
   grid-column: 2;
   max-width: 760px;
-  font-size: 15px;
+  font-size: 13.5px;
   font-weight: var(--app-weight-text);
   line-height: 22px;
   color: var(--bay-text-3);
@@ -381,7 +381,7 @@
   }
 
   .rowTitle {
-    font-size: 17px;
+    font-size: 15.5px;
     line-height: 22px;
   }
 
@@ -406,7 +406,7 @@
   display: flex;
   flex-direction: column;
   width: min(560px, 100%);
-  max-height: min(86vh / var(--ui-zoom, 1), 760px);
+  max-height: min(86vh, 760px);
   border-radius: var(--bay-r-lg);
   border: var(--neo-border);
   background: var(--neo-card);
@@ -425,7 +425,7 @@
 .dialogTitle {
   margin: 4px 0 0;
   font-family: var(--app-font-head);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: var(--app-weight-headline);
   line-height: 1.05;
   color: var(--bay-text);
@@ -447,7 +447,7 @@
 /* Dialogs with a picture (layouts) get room to show it whole. */
 .dialogWide {
   width: min(960px, 100%);
-  max-height: calc(92vh / var(--ui-zoom, 1));
+  max-height: 92vh;
 }
 
 .dialogMediaActions {
@@ -473,14 +473,14 @@
 
 .dialogSummary {
   margin: 0;
-  font-size: 16px;
+  font-size: 14.5px;
   line-height: 22px;
   color: var(--bay-text);
 }
 
 .dialogText {
   margin: 0;
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 20px;
   color: var(--bay-text-2);
 }
@@ -498,7 +498,7 @@
   gap: 12px;
   padding: 10px 0;
   border-bottom: 1px solid var(--bay-border-hair);
-  font-size: 14px;
+  font-size: 12.5px;
   line-height: 18px;
 }
 
@@ -524,7 +524,7 @@
 .sources {
   margin: 0;
   padding-left: 18px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 18px;
   color: var(--bay-text-2);
 }

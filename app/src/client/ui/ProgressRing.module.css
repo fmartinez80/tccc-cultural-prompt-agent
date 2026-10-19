@@ -26,7 +26,7 @@
   initial-value: 0;
 }
 
-/* A grey track that fills clockwise in the selected indigo from the top as the percent rises; the percent sits in the opening. */
+/* A grey track that fills clockwise in red from the top as the percent rises; the percent sits in the opening. */
 .ring {
   --ring: 12px;
   position: relative;
@@ -53,7 +53,7 @@
 .percent {
   position: relative;
   font-family: var(--bay-font-mono);
-  font-size: 16px;
+  font-size: 14.5px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   line-height: 1;

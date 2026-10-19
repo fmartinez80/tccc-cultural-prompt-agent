@@ -7,13 +7,13 @@
 }
 
 .shell {
-  min-height: calc(100vh / var(--ui-zoom, 1) - var(--env-band-h, 0px));
+  min-height: calc(100vh - var(--env-band-h, 0px));
 }
 
 /* `fillViewport`: the page owns its own scrolling, so the shell is exactly
    one viewport tall and `main` takes whatever the header leaves. */
 .shellFill {
-  height: calc(100vh / var(--ui-zoom, 1) - var(--env-band-h, 0px));
+  height: calc(100vh - var(--env-band-h, 0px));
   display: flex;
   flex-direction: column;
 }

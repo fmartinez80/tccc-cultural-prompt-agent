@@ -73,11 +73,11 @@ export function DecisionStep<T>({
   const selectedId = selected !== undefined ? (decision?.options.find((o) => isSame(o.value, selected))?.id ?? null) : null;
 
   return (
-    <section>
+    <section className={clearsNote ? styles.withNote : undefined}>
       <h1>{title}</h1>
       <p>{intro}</p>
       {clearsNote && (
-        <Alert tone="warning" title="Changing this clears later choices">
+        <Alert tone="warning" title="Changing this clears later choices" className={styles.sideNote}>
           Changing this clears {clearsNote} you already chose.
         </Alert>
       )}

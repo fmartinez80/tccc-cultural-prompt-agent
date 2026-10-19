@@ -521,7 +521,8 @@ export const AppRouter = router({
    * `turnaroundPoll`, which reads any Nano Banana 2 image task.
    */
   sketchStart: signedInProcedure
-    .input(z.object({ prompt: z.string().min(1).max(12_000), proxyUrl: RefUrl }))
+    // styleUrl: the earlier sketch, after an edit in the sketch editor (image 2: copy its drawing style).
+    .input(z.object({ prompt: z.string().min(1).max(12_000), proxyUrl: RefUrl, styleUrl: RefUrl.optional() }))
     .mutation(async ({ ctx, input }) => {
       try {
         const taskId = await startImageJob(ctx.user, ctx.brief, 'sketch', 'layout-sketch', {
@@ -530,7 +531,7 @@ export const AppRouter = router({
           aspectRatio: SKETCH_ASPECT_RATIO,
           imageSize: SKETCH_IMAGE_SIZE,
           numImages: 1,
-          references: [{ tag: 'layout', url: input.proxyUrl }],
+          references: [{ tag: 'layout', url: input.proxyUrl }, ...(input.styleUrl ? [{ tag: 'style', url: input.styleUrl }] : [])],
         });
         return { taskId };
       } catch (err) {

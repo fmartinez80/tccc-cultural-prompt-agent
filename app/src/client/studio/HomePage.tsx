@@ -105,15 +105,16 @@ function GetStarted({ draftInProgress, onNewScene, onContinue }: Pick<HomePagePr
           <span className={styles.heroConfirm}>This clears the scene you're working on.</span>
           <div className={styles.heroActions}>
             <Button onPress={() => setConfirming(false)}>Cancel</Button>
-            <Button variant="primary" onPress={onNewScene}>Start new</Button>
+            <Button onPress={onNewScene}>Start new</Button>
           </div>
         </>
       ) : (
         <>
-          <p className={styles.getStartedText}>Build a culturally grounded scene in minutes.</p>
+          <h2 className={styles.getStartedTitle}>LET’S MAKE A SCENE!</h2>
+          <p className={styles.getStartedText}>Build a culturally grounded scene from a brief - in minutes!</p>
           <div className={styles.heroActions}>
             {draftInProgress && <Button onPress={onContinue}>Continue your scene</Button>}
-            <Button variant="primary" onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
+            <Button onPress={() => (draftInProgress ? setConfirming(true) : onNewScene())}>
               Get Started
             </Button>
           </div>
@@ -153,8 +154,9 @@ function Gallery() {
 export function HomePage({ draftInProgress, onNewScene, onContinue }: Omit<HomePageProps, 'onSnapshot'>) {
   return (
     <div className={styles.page}>
-      <Intro />
-      <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
+      <Intro>
+        <GetStarted draftInProgress={draftInProgress} onNewScene={onNewScene} onContinue={onContinue} />
+      </Intro>
       <HowItWorks />
       <Gallery />
     </div>

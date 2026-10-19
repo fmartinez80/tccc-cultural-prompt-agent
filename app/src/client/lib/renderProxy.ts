@@ -284,6 +284,33 @@ function shade(hex: string, f: number): string {
   return `#${c.getHexString()}`;
 }
 
+/**
+ * Faint perspective grid (Fernando, 2026-10-16): 10 cm squares on the table top and 50 cm squares
+ * on the floor, seen through the scene's own camera, so the image model builds the room on the
+ * same floor plane and vanishing points as the table. Lines only: the sketch tracer skips them.
+ */
+function addPerspectiveGrid(scene: THREE.Scene, W: number, D: number) {
+  const lines = (pts: number[], color: string, opacity: number) => {
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.Float32BufferAttribute(pts, 3));
+    const l = new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color, transparent: true, opacity }));
+    l.userData.part = 'grid';
+    scene.add(l);
+  };
+  const table: number[] = [];
+  const y = 0.0008;
+  for (let x = -W / 2; x <= W / 2 + 1e-6; x += 0.1) table.push(x, y, 0, x, y, -D);
+  for (let d = 0; d <= D + 1e-6; d += 0.1) table.push(-W / 2, y, -d, W / 2, y, -d);
+  lines(table, '#b9bcc2', 0.55);
+  const floor: number[] = [];
+  const fy = -0.749;
+  // From under the table's far edge (lines that pass behind the camera don't draw) out to 10 m:
+  // further rows crowd into one grey band at the horizon.
+  for (let x = -10; x <= 10; x += 0.5) floor.push(x, fy, -D, x, fy, -10);
+  for (let z = Math.ceil(D / 0.5) * 0.5; z <= 10; z += 0.5) floor.push(-10, fy, -z, 10, fy, -z);
+  lines(floor, '#c4c7cc', 0.7);
+}
+
 export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene {
   const scene = new THREE.Scene();
   scene.background = new THREE.Color('#8a8d91');
@@ -294,11 +321,12 @@ export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene
   top.receiveShadow = true;
   top.userData.part = 'table';
   scene.add(top);
-  const floor = new THREE.Mesh(new THREE.PlaneGeometry(40, 40), new THREE.MeshStandardMaterial({ color: '#7d8085', roughness: 1 }));
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), new THREE.MeshStandardMaterial({ color: '#7d8085', roughness: 1 }));
   floor.rotation.x = -Math.PI / 2;
   floor.position.y = -0.75;
   floor.userData.part = 'floor';
   scene.add(floor);
+  addPerspectiveGrid(scene, W, D);
 
   // The table reads as a real table, not a slab in a void: a darker edge band (apron) and legs
   // under the corners, and a back wall a few metres behind, so the image models see the table's
@@ -439,6 +467,26 @@ function disposeScene(scene: THREE.Scene) {
   });
 }
 
+/** The camera's eye level (the horizon) as a faint line across the frame, when it falls inside it. */
+function drawHorizon(ctx: CanvasRenderingContext2D, cam: THREE.Camera, w: number, h: number) {
+  cam.updateMatrixWorld();
+  const fwd = new THREE.Vector3();
+  cam.getWorldDirection(fwd);
+  fwd.y = 0;
+  if (fwd.lengthSq() < 1e-6) return;
+  const far = cam.position.clone().add(fwd.normalize().multiplyScalar(1e4)).project(cam);
+  const y = ((1 - far.y) / 2) * h;
+  if (y < 2 || y > h - 2) return;
+  ctx.save();
+  ctx.strokeStyle = 'rgba(255,255,255,0.45)';
+  ctx.lineWidth = Math.max(1, w / 1000);
+  ctx.beginPath();
+  ctx.moveTo(0, y);
+  ctx.lineTo(w, y);
+  ctx.stroke();
+  ctx.restore();
+}
+
 /**
  * Width of the proxy sent to the image model. It is only a layout guide, so
  * 1280 px is plenty and keeps the upload small (flat shapes compress well).
@@ -480,6 +528,7 @@ export function renderProxy(bp: Blueprint, lighting: LightingPreset, opts: Rende
     ctx.stroke();
     ctx.setLineDash([]);
   }
+  drawHorizon(ctx, cam, width, height);
   if (opts.labels !== false) drawLabels(ctx, bp, width, height);
   disposeScene(scene);
   return out.toDataURL('image/png');
@@ -519,6 +568,7 @@ export function renderSketch(bp: Blueprint, lighting: LightingPreset, opts: { wi
   // Mesh id (1-based, 0 = background) -> item index (0 = table).
   const itemOfMesh: number[] = [0];
   scene.traverse((o) => {
+    if (o.userData.part === 'grid') o.visible = false;
     if (!(o instanceof THREE.Mesh)) return;
     if (o.userData.part === 'floor' || o.userData.part === 'room') {
       o.visible = false;
