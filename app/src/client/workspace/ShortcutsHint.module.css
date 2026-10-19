@@ -20,14 +20,14 @@
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-2);
   padding: 3px 0;
 }
 
 .key {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   color: var(--bay-text);
   background: var(--neo-card);

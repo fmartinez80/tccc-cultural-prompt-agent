@@ -1,0 +1,20 @@
+.band {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--env-band-h, 50px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff6666;
+  color: #000;
+  border-bottom: 2px solid #000;
+  font-family: var(--app-font-head);
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  pointer-events: none;
+}

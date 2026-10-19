@@ -18,14 +18,14 @@
   gap: 12px;
   flex-wrap: wrap;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   text-transform: uppercase;
   letter-spacing: 0.02em;
   color: var(--bay-text-2);
 }
 
 .wrap[data-size='sm'] .row {
-  font-size: 11px;
+  font-size: var(--app-text-min);
 }
 
 .label {

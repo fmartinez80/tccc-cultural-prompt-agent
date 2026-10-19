@@ -87,7 +87,7 @@
 .chip {
   align-self: flex-start;
   font-family: var(--bay-font-mono);
-  font-size: 10px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -116,7 +116,7 @@
 
 .badge {
   font-family: var(--bay-font-mono);
-  font-size: 10px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -145,6 +145,6 @@
 .note {
   margin: 0;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }

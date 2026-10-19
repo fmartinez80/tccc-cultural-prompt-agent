@@ -1,8 +1,8 @@
 import { Check, RotateCcw } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { specForLayout } from '../shared/layoutEdit.ts';
-import { layoutKey, sketchKey } from '../shared/review.ts';
+import { layoutKey, reviewFacts, sketchKey } from '../shared/review.ts';
 import type { LayoutOption } from '../shared/solver.ts';
 import type { AccentChoice, Decision, PlatingChoice, PrepChoice, SidesChoice, SurfaceChoice } from '../shared/types.ts';
 import { AppShell } from './layouts/AppShell.tsx';
@@ -119,6 +119,7 @@ export function App() {
     setPicked,
     setStory,
     setReview,
+    setPerson,
     addEditedLayout,
     setSketch,
     setValidation,
@@ -130,11 +131,9 @@ export function App() {
   useSessionSync(draft);
   const [confirmingReset, setConfirmingReset] = useState(false);
   const [view, setView] = useState<View>(viewFromHash);
-  const [envBadge, setEnvBadge] = useState('');
   useEffect(() => {
     void envLabel()
       .then((label) => {
-        setEnvBadge(label);
         if (label && !document.title.startsWith(`[${label}]`)) document.title = `[${label}] ${document.title}`;
       })
       .catch(() => {});
@@ -231,6 +230,16 @@ export function App() {
 
   // A review only counts for the layout it was made on.
   const reviewFor = (option: LayoutOption) => (draft.review && draft.review.key === layoutKey(option.blueprint) ? draft.review : null);
+  const sketchFor = (option: LayoutOption) => draft.sketches[sketchKey(option.blueprint)] ?? draft.sketch;
+  // The story's layout image and the art director's changes follow the latest sketch and review, so a
+  // redraw after the story was written still becomes image 1 of the photograph.
+  const pickedOption = draft.compose && draft.picked !== null ? draft.compose.options[draft.picked] : undefined;
+  const live = useMemo(() => {
+    if (!draft.story || !pickedOption) return draft.story;
+    const review = draft.review && draft.review.key === layoutKey(pickedOption.blueprint) ? draft.review : null;
+    const sketch = draft.sketches[sketchKey(pickedOption.blueprint)] ?? draft.sketch;
+    return { ...draft.story, facts: { ...draft.story.facts, ...reviewFacts(review, pickedOption.blueprint, sketch) } };
+  }, [draft.story, draft.review, draft.sketches, draft.sketch, pickedOption]);
 
   const renderStep = (step: typeof draft.step) => {
     switch (step) {
@@ -342,11 +351,12 @@ export function App() {
             compose={composeFor(compose, option)}
             option={option}
             sourceName={`arrangement ${OPTION_LETTERS[option.edit?.from ?? draft.picked!]}`}
-            onEditLayout={({ blueprint, styleUrl, review }) =>
-              addEditedLayout({ archetype: option.archetype, blueprint, edit: { from: option.edit?.from ?? draft.picked!, styleUrl } }, review)
+            onEditLayout={({ blueprint, review }) =>
+              addEditedLayout({ archetype: option.archetype, blueprint, edit: { from: option.edit?.from ?? draft.picked! } }, review)
             }
             review={reviewFor(option)}
             onReview={setReview}
+            onPerson={setPerson}
             detail={draft.sketches[key] ?? draft.sketch}
             onDetail={setSketch}
             hasStory={!!draft.story}
@@ -388,7 +398,8 @@ export function App() {
             compose={composeFor(draft.compose, option)}
             option={option}
             review={reviewFor(option)}
-            story={draft.story}
+            sketch={sketchFor(option)}
+            story={live}
             validation={draft.validation}
             onStory={setStory}
             onValidation={setValidation}
@@ -417,7 +428,7 @@ export function App() {
             brief={draft.brief}
             compose={composeFor(draft.compose, option)}
             option={option}
-            story={draft.story}
+            story={live!}
             ws={draft.workspace}
             updateWorkspace={updateWorkspace}
             saved={saved}
@@ -453,7 +464,6 @@ export function App() {
           }}
         >
           <img src="/scene-composer-logo.png" alt="Scene Composer" className={styles.logoImg} />
-          {envBadge && <span className={styles.envBadge}>{envBadge}</span>}
         </a>
       }
       user={profile.data ?? undefined}
@@ -594,7 +604,7 @@ export function App() {
             </div>
           </div>
 
-          <main className={styles.panel}>
+          <section className={styles.panel}>
             {rulesQuery.isError && draft.brief.skuId && (
               <Alert tone="error" title="Couldn't load the rule effects for this brief">
                 {rulesQuery.error.message}
@@ -610,7 +620,7 @@ export function App() {
                 </WorkspaceOverlay>
               </StepBackContext.Provider>
             </ErrorBoundary>
-          </main>
+          </section>
 
         </div>
       )}

@@ -56,6 +56,14 @@ export class Projector {
     this.v.project(this.cam);
     return { x: (this.v.x + 1) / 2, y: (this.v.y + 1) / 2, depth };
   }
+  /** Where the ray through a screen point (0..1, y bottom-up) meets the plane at height y, as (x, d); null above the horizon. */
+  ground(sx: number, sy: number, y = 0): { x: number; d: number } | null {
+    this.v.set(2 * sx - 1, 2 * sy - 1, 0.5).unproject(this.cam).sub(this.cam.position);
+    const p = this.cam.position;
+    if (this.v.y >= -1e-9) return null;
+    const t = (y - p.y) / this.v.y;
+    return { x: p.x + t * this.v.x, d: -(p.z + t * this.v.z) };
+  }
 }
 
 export interface ScreenBox {

@@ -2,6 +2,7 @@
 // the operator goes) and the server (to compose and write the story).
 
 import { SKU_CATALOG, seatLikeSurface, withoutRoundTable } from "./registry";
+import { DEFAULT_POSE } from "./poses";
 import { glassRule, timeFromOccasion } from "./rules";
 import { venueType } from "./venues";
 import type { AccentChoice, IntakeInput, Occasion, PlatingChoice, PrepChoice, SceneSpec, SidesChoice, SkuInfo, Surface } from "./types";
@@ -22,6 +23,9 @@ export interface Selections {
     surfaceText?: string;
     venueType?: string;
     environmentNote?: string;
+    /** People sit at the table (two people only, for now). */
+    seated?: boolean;
+    pose?: string;
   };
   glass?: boolean;
   camera?: { look: string; angle: string };
@@ -74,6 +78,7 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
       surfaceText: (seatLikeSurface(sel.scene.surfaceText) ? undefined : sel.scene.surfaceText && withoutRoundTable(sel.scene.surfaceText)) ?? place?.surfaceText,
       venueType: place?.id,
       environmentNote: sel.scene.environmentNote?.trim() || undefined,
+      ...(sel.scene.seated && sel.scene.party === "2" ? { seated: true, pose: sel.scene.pose ?? DEFAULT_POSE } : {}),
     },
     camera: sel.camera,
     sku: { ...sku, glass: resolveGlass(sku, venue, sel.glass) },

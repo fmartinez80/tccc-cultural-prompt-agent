@@ -96,7 +96,7 @@
   border-radius: 999px;
   background: var(--neo-ink);
   color: var(--bay-text-on-accent);
-  font: 700 12px/1 var(--bay-font-mono);
+  font: 700 var(--app-text-min)/1 var(--bay-font-mono);
   cursor: pointer;
   box-shadow: 0 0 0 2px var(--neo-card);
   transition: transform var(--bay-dur) var(--bay-ease);
@@ -167,7 +167,7 @@
 }
 
 .frameDownload:focus-visible {
-  outline: 3px solid var(--neo-ink);
+  outline: 3px solid var(--neo-selected);
   outline-offset: 2px;
 }
 
@@ -192,29 +192,6 @@
   font-family: var(--bay-font-mono);
   font-size: 12px;
   color: var(--bay-text-3);
-}
-
-/* One line under the title; the long explanation is behind a toggle so the sketch sits in the first screen. */
-.lede {
-  margin: 0;
-  max-width: 72ch;
-}
-
-.howLink {
-  padding: 0;
-  border: 0;
-  background: none;
-  font: inherit;
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  cursor: pointer;
-}
-
-.how {
-  margin: 8px 0 0;
-  max-width: 72ch;
-  color: var(--bay-text-2);
 }
 
 .sectionTitle {
@@ -291,7 +268,7 @@
   background: var(--neo-ink);
   color: var(--bay-text-on-accent);
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: 700;
 }
 
@@ -325,41 +302,42 @@
 
 .itemMeta {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
 .verdicts {
   flex-shrink: 0;
   display: flex;
-  border: var(--neo-border-thin);
-  border-radius: 999px;
-  padding: 2px;
-  gap: 2px;
-  background: var(--neo-card);
+  gap: 8px;
 }
 
 .verdict {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 5px 10px;
-  border: 0;
-  border-radius: 999px;
-  background: none;
-  color: var(--bay-text-2);
-  font: 700 12px/1 var(--bay-font-sans);
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 2px solid var(--neo-ink);
+  border-radius: 50%;
+  background: var(--neo-card);
+  color: var(--neo-ink);
   cursor: pointer;
   transition: background var(--bay-dur) var(--bay-ease), color var(--bay-dur) var(--bay-ease);
 }
 
-.verdict:hover {
+.verdict:hover:not(:disabled) {
   background: var(--neo-hover);
 }
 
 .verdict:focus-visible {
-  outline: 2px solid var(--neo-ink);
-  outline-offset: 1px;
+  outline: 2px solid var(--neo-selected);
+  outline-offset: 2px;
+}
+
+.verdict:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 .verdict[data-kind='keep'][aria-pressed='true'] {
@@ -387,7 +365,7 @@
 
 .reason {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 5px 10px;
@@ -439,7 +417,7 @@
 
 .previewLabel {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -489,7 +467,7 @@
 }
 
 .changeHint {
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -501,7 +479,7 @@
   border: var(--neo-border-thin);
   background: var(--neo-amber);
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   color: var(--neo-ink);
@@ -518,14 +496,14 @@
   align-items: center;
   gap: 6px;
   margin: 6px 0 0;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
 /* Redraw confirmation. */
 .modalOverlay {
   position: fixed;
-  inset: 0;
+  inset: var(--env-band-h, 0px) 0 0 0;
   z-index: 100;
   display: grid;
   place-items: center;
@@ -597,10 +575,33 @@
   }
 }
 
-/* The detailed sketch's status and action, above the frame + items grid. */
-/* The sketch's status line (or its error), under Redraw. In normal flow, so the scene note after it never overlaps it. */
+/* The detailed sketch's status line (or its error), under the Edit sketch / Redraw row.
+   In normal flow, so a note after it (the scene alert) never overlaps it. */
 .detailBar {
   margin: 0 0 16px;
+}
+
+/* One line under the title; the long explanation is behind a toggle so the sketch sits in the first screen. */
+.lede {
+  margin: 0;
+  max-width: 72ch;
+}
+
+.howLink {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.how {
+  margin: 8px 0 0;
+  max-width: 72ch;
+  color: var(--bay-text-2);
 }
 
 .detailRow {
@@ -609,11 +610,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px 16px;
-  padding: 10px 14px;
-  border: var(--neo-border);
-  border-radius: var(--bay-r-sm);
-  background: var(--neo-card);
-  box-shadow: var(--neo-shadow);
 }
 
 .detailText {
@@ -622,6 +618,15 @@
   font-family: var(--bay-font-mono);
   font-size: 12px;
   color: var(--bay-text-2);
+}
+
+/* The sketch drew things that aren't in the layout: its own line, in the outline's red. */
+.extraText {
+  flex-basis: 100%;
+  margin: 0;
+  font-family: var(--bay-font-mono);
+  font-size: 13px;
+  color: var(--bay-app-red-fg);
 }
 
 .errorBody {
@@ -636,3 +641,14 @@
   filter: grayscale(1);
 }
 
+
+/* Remove: marked to leave the scene on the next redraw. */
+.verdict[data-kind='remove'][aria-pressed='true'] {
+  background: var(--neo-ink);
+  color: var(--bay-text-on-accent);
+}
+
+.item[data-verdict='remove'] .itemTitle {
+  text-decoration: line-through;
+  color: var(--bay-text-3);
+}

@@ -90,7 +90,7 @@
 .email {
   padding: 6px 10px;
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 

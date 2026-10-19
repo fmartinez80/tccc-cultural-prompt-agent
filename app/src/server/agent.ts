@@ -69,7 +69,7 @@ How to work:
 - Every vessel gets a vesselStyle: its material, color and finish. Follow the dishware rules below.
 - The Coca-Cola product is always the only drink in the scene; never suggest another beverage.
 - Tables are never round, circular or oval: describe a square or rectangular table with straight edges, in every option, surface and "Table:" description.
-- No hands or people appear in any image. Even for food eaten by hand (empanadas, tacos, sandwiches, slices), describe it resting on its vessel or the surface; never write "handheld", "held", "in hand", "picked up" or "bitten", and never place a person, diner or passer-by in a scene or environment description.
+- No hands appear in any image and nobody sits at the table. Even for food eaten by hand (empanadas, tacos, sandwiches, slices), describe it resting on its vessel or the surface; never write "handheld", "held", "in hand", "picked up" or "bitten". In an environment description, people may appear only far behind the table as one or two soft, unrecognizable shapes: never a face or features, never a child, never someone at or beside the table.
 
 Dishware rules (the country files give each vessel's type and size but rarely its look, so without these every bowl comes out plain white):
 ${tablewareStyle.rules.map((r) => `- ${r}`).join('\n')}
@@ -80,9 +80,10 @@ The knowledge base below is an excerpt: the sections of each file most relevant 
 /** Knowledge-base search words for where the meal is eaten. */
 function sceneWords(scene: { venue: Venue; venueType?: string | undefined } | undefined): string[] {
   if (!scene) return [];
-  const place = venueType(scene.venue, scene.venueType)?.label;
+  const place = venueType(scene.venue, scene.venueType);
   const venue = scene.venue === 'on-the-go' ? 'street food takeaway vendor stall' : scene.venue === 'home' ? 'home household family' : 'restaurant';
-  return [venue, ...(place ? [place] : [])];
+  // Retired ids (food-court, gastropub, local-spot…) still name sections the knowledge base was written around.
+  return [venue, ...(place ? [place.label, ...(place.aliases ?? []).map((a) => a.replace(/-/g, ' '))] : [])];
 }
 
 /**
@@ -107,7 +108,9 @@ function venueFit(sel: Selections, step: 'prep' | 'plating' | 'sides'): string {
   const shared =
     scene.party === 'family' || scene.party === 'group'
       ? ` The party is a ${scene.party}: use service "shared" when the dish is typically served family-style from one large vessel on the table (a whole roast, a pizza, a paella pan); the scene then shows that vessel plus one plated portion. Otherwise individual.`
-      : ` The party is ${scene.party === '1' ? 'one person' : 'two people'}, so service is always "individual": each person gets their own portion, never one large shared vessel.`;
+      : scene.party === '2'
+        ? ' The party is two people, sitting at a right angle around one corner of the table, and each always gets their own plated portion. Also use service "shared" when the dish is typically brought to the table family-style for diners to plate from (mandi on a large tray, a whole roast, a paella pan, a big platter of rice and meat): the scene then adds that one serving vessel between the two plates, and the sides and breads are shared too. Otherwise individual.'
+        : ' The party is one person, so service is always "individual": they get their own portion, never one large shared vessel.';
   return fit + shared;
 }
 
@@ -251,7 +254,7 @@ Scene spec:
 ${JSON.stringify({ scene: spec.scene, sku: spec.sku, entree: spec.entree, accompaniments: spec.accompaniments, accent: spec.accent, napkinSet: spec.napkinSet }, null, 1)}
 
 Fixed facts (use these, do not contradict them):
-- Surface: ${facts.surfaceText}${onTheGoSurfaceRule(spec.scene) ? `\n- On the go: ${onTheGoSurfaceRule(spec.scene)}` : ''}${environmentBrief(spec.scene) ? `\n- Environment brief (build the Background from this): ${environmentBrief(spec.scene)}` : ''}
+- Surface: ${facts.surfaceText}${onTheGoSurfaceRule(spec.scene) ? `\n- On the go: ${onTheGoSurfaceRule(spec.scene)}` : ''}${environmentBrief(spec.scene) ? `\n- Environment brief (build the Background from this): ${environmentBrief(spec.scene)}${spec.scene.venueType ? ' Where the knowledge base has a venue profile for this kind of place in this country, follow its look over this generic description.' : ''}` : ''}
 - Lighting: ${facts.lightingSentence}
 - Light on the product: ${facts.skuLightSentence}
 - Look (write the environment and food as this candid, unstyled moment): ${facts.filmSentence}
@@ -259,7 +262,7 @@ Fixed facts (use these, do not contradict them):
 - Framing: ${facts.framingSentence}
 - Product serving: ${facts.servingSentence}
 - Layout (from the chosen proxy): ${facts.labels.map((l) => `${l.label} = ${l.what}, ${l.where}`).join('; ')}
-${spec.scene.party === '2' ? '\nThis table is set for two (no people are shown in the image, only their place settings). Mention briefly in the scene summary that the table is set for two; the second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : ''}
+${spec.scene.seated && spec.scene.party === '2' ? '\nTwo people sit at this table, at one corner (PERSON_1 and PERSON_2); this overrides the general "nobody sits at the table" rule for this scene only. Their looks, clothes and pose already have fixed text, so do not write labels for them and do not add other people at the table. Mention them briefly in the scene summary as two people sharing the meal, and still describe no hands holding or lifting food. The second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : spec.scene.party === '2' ? '\nThis table is set for two, at a right angle around one corner (nobody sits at it in the image, only their place settings show). Mention briefly in the scene summary that the table is set for two; the second diner\'s dish (MAIN_2) is the same plate as MAIN and already has fixed text, so do not write a separate food label for it.' : ''}
 
 Write:
 - sceneSummary: a few paragraphs of prose as a food stylist would brief it: what's on the table, where, the setting, the mood, and the cultural framing.
@@ -269,7 +272,10 @@ Write:
 - labelSegments: one entry for each food label below, in this order. The image model draws each labeled shape from this text alone, so each text must make the component unmistakable:
   - When the dish has countable pieces, start with the exact count ("Exactly three tacos side by side", "Two slices") and say none is hidden behind another.
   - Name the food by its local name, then what it visibly looks like: colors, textures, how it is cut, filled, sauced and garnished, as it is actually served in this region.
-  - Say how the pieces are arranged on the container ("in one row across the plate, all fully visible").
+  - Say how the pieces sit on the container the way they land when served, not lined up for display ("two halves, one leaning on the other, neither hidden").
+  - For stuffed, wrapped or sandwiched food (pita, samoon, wraps, burgers), describe the filling as it really is: broken or crushed pieces packed inside with the salad and pickles, sauce soaked into the bread and running out at the opening, never whole pieces lined up on top or a sauce drizzled over the outside.
+  - Give every sauce its real color and consistency, compared with something familiar, so it can't read as melted cheese or mustard (amba is a thin, ochre-orange mango pickle sauce with small fruit bits).
+  - Add one or two signs the food was just made by hand: torn bread edges, uneven browning, crumbs, a drip or smear on the plate.
   - Give proportions: what makes up most of the dish and what is only an accent ("mostly rice, with only a few small pieces of chicken"), and the real size of distinctive pieces ("beans about 2 cm long"). Listing ingredients with equal weight makes the image model draw each one large and prominent.
   - A plated portion served from a shared dish is smaller and simpler than the dish in its vessel: mostly the base, with a few small pieces.
   - Say what it sits on using the given container wording, including the size and its material and color. If a container has no material or color given, choose one following the dishware rules (never plain white for a side bowl, ramekin or sauce boat).
@@ -278,7 +284,7 @@ Write:
   - One or two sentences.
   Food labels: ${foodLabels(facts).map((l) => `${l.label} = ${l.what}, on ${l.vessel}`).join('; ')}.
   (The product and napkin labels have fixed text; do not write them.)
-- environmentalOverview: the environment segment of the image prompt, in two parts. Start with "Table:" and describe the tabletop the objects stand on, building on the fixed surface: material, color, finish, and a cloth or runner only if it belongs to this place. Then "Background:" and give two or three recognizable details of the place in the upper half of the frame (wall color, tile, chairs, plants, a window), softly out of focus, at most two people's faces and blurred, never anything with writing on it (no menus, signs or posters), because the image model renders it as garbled text. The background should read as this place rather than a blank studio; when there is an environment brief, it is the place. No lighting, camera or color words; those have their own segment.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join('\n- ')}` : ''}${directions?.length ? `\n\nThe art director reviewed a sketch of this layout. Follow their directions in the labels and the environment (the shapes' positions are handled separately, so don't describe moving anything):\n- ${directions.join('\n- ')}` : ''}`;
+- environmentalOverview: the environment segment of the image prompt, in two parts. Start with "Table:" and describe the tabletop the objects stand on, building on the fixed surface: material, color, finish, and a cloth or runner only if it belongs to this place. Then "Background:" and give two or three recognizable details of the place in the upper half of the frame (wall color, tile, chairs, plants, a window), soft but still recognizable in shape and color, with at most one or two people far behind as blurred, unrecognizable shapes (no faces, no children) where the place would naturally have them, never anything with writing on it (no menus, signs or posters), because the image model renders it as garbled text. The background should read as this place rather than a blank studio; when there is an environment brief, it is the place. No lighting, camera or color words; those have their own segment.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join('\n- ')}` : ''}${directions?.length ? `\n\nThe art director reviewed a sketch of this layout. Follow their directions in the labels and the environment (the shapes' positions are handled separately, so don't describe moving anything):\n- ${directions.join('\n- ')}` : ''}`;
 }
 
 function validateTask(spec: SceneSpec, fullStory: Story): string {

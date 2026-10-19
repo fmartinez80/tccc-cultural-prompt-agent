@@ -15,7 +15,7 @@
 
 .label {
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--bay-text-3);
@@ -24,13 +24,13 @@
 
 .muted {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
 .summary {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-2);
 }
 
@@ -47,7 +47,7 @@
   align-items: center;
   gap: 6px;
   margin: 0;
-  font-size: 12px;
+  font-size: var(--app-text-min);
   font-weight: var(--app-weight-subhead);
 }
 
@@ -76,7 +76,7 @@
   padding: 6px 8px;
   border: var(--neo-border-thin);
   border-radius: var(--bay-r-sm);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-2);
   overflow-wrap: anywhere;
 }
@@ -96,7 +96,7 @@
 .major,
 .minor {
   font-family: var(--bay-font-mono);
-  font-size: 10px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;

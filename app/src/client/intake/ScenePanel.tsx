@@ -13,7 +13,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { LayoutOption } from '../../shared/solver.ts';
 import {
   assembleWorkspacePrompt,
-  checkElements,
+  checkElements, ratedElements,
   checkFixEdits,
   PROXY_ASPECT_RATIO,
   PROXY_URL_MAX_AGE_MS,
@@ -92,7 +92,10 @@ export function useSceneGenerator(input: SceneGeneratorInput) {
 
   const proxyKey = `${option.blueprint.layout_meta.signature}:${compose.lighting.id}`;
 
+  const sketchUrl = story?.facts.layoutSketch?.url;
   const ensureProxyUploaded = useCallback(async (): Promise<string> => {
+    // The approved sketch is image 1 when there is one; it is already stored by the app.
+    if (sketchUrl) return sketchUrl;
     const cur = wsRef.current;
     if (cur.proxy && cur.proxy.key === proxyKey && Date.now() - cur.proxy.at < PROXY_URL_MAX_AGE_MS) return cur.proxy.url;
     setProxyStatus('uploading');
@@ -107,7 +110,7 @@ export function useSceneGenerator(input: SceneGeneratorInput) {
       setProxyError(err instanceof Error ? err.message : String(err));
       throw err;
     }
-  }, [proxyKey, proxyDataUrl, utils, updateWorkspace]);
+  }, [sketchUrl, proxyKey, proxyDataUrl, utils, updateWorkspace]);
 
   // The image check: Claude compares a result with the story and the prompt it came from.
   const checkTask = useAgentTask('imageCheck');
@@ -436,7 +439,7 @@ export function SceneHero({ gen, slug }: { gen: SceneGenerator; slug: string }) 
         <FeedbackDialog
           result={feedbackTarget ? (ws.results.find((r) => r.id === feedbackTarget.resultId) ?? null) : null}
           imageIndex={feedbackTarget?.imageIndex ?? 1}
-          elements={checkElements(segments, ws)}
+          elements={ratedElements(segments, ws)}
           brief={brief}
           spec={compose.spec}
           model={WORKSPACE_MODEL_LABEL}

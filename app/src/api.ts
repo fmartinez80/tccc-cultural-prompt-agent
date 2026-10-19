@@ -36,6 +36,7 @@ import {
 } from './server/feedback.ts';
 import { buildLearnTask, mergeLearnAnswer } from './server/learn.ts';
 import { loadKnowledge } from './server/knowledge.ts';
+import { locateItems } from './server/locate.ts';
 import { kbHighlights } from './server/insights.ts';
 import { glassReferenceLine, pouredGlass, productElement, skuReferenceLines, skuShots, type SkuShot } from './server/references.ts';
 import { SKU_CATALOG } from './shared/registry.ts';
@@ -117,6 +118,8 @@ const SelectionsInput = z.object({
       surfaceText: z.string().optional(),
       venueType: z.string().max(64).optional(),
       environmentNote: z.string().max(600).optional(),
+      seated: z.boolean().optional(),
+      pose: z.string().max(40).optional(),
     })
     .optional(),
   glass: z.boolean().optional(),
@@ -531,6 +534,25 @@ export const AppRouter = router({
           references: [{ tag: 'layout', url: input.proxyUrl }, ...(input.styleUrl ? [{ tag: 'style', url: input.styleUrl }] : [])],
         });
         return { taskId };
+      } catch (err) {
+        modelError(err);
+      }
+    }),
+
+  /**
+   * Where each item landed in a drawn sketch, so the review's markers sit on the drawing.
+   * One quick text-model call; free (not counted toward the monthly limit).
+   */
+  sketchLocate: signedInProcedure
+    .input(
+      z.object({
+        url: RefUrl,
+        items: z.array(z.object({ id: z.string().min(1).max(64), name: z.string().min(1).max(200) })).min(1).max(30),
+      }),
+    )
+    .mutation(async ({ input }) => {
+      try {
+        return await locateItems(input.url, input.items);
       } catch (err) {
         modelError(err);
       }

@@ -28,7 +28,7 @@ export function recordsToCsv(records: ExportableRecord[]): string {
       r.verdict,
       r.tags.join(';'),
       (r.working ?? []).join(';'),
-      r.elements.join(';'),
+      r.elements.map((el) => (r.elementNames?.[el] ? `${el} (${r.elementNames[el]})` : el)).join(';'),
       r.note,
       image,
       r.prompt,

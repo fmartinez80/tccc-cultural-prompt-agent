@@ -29,7 +29,7 @@
 .groupLabel {
   padding: 10px 16px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -63,7 +63,7 @@
   align-items: center;
   padding: 2px 8px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   border: var(--neo-border-thin);
   border-radius: 999px;
@@ -76,7 +76,7 @@
   align-items: center;
   padding: 2px 8px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -107,7 +107,7 @@
 
 .diagnosis {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -119,7 +119,7 @@
 
 .meta {
   font-family: var(--bay-font-mono);
-  font-size: 12px;
+  font-size: var(--app-text-min);
   color: var(--bay-text-3);
 }
 
@@ -148,7 +148,7 @@
   align-items: center;
   padding: 2px 8px;
   font-family: var(--bay-font-mono);
-  font-size: 11px;
+  font-size: var(--app-text-min);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;

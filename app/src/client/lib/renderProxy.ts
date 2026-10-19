@@ -8,6 +8,7 @@
 import * as THREE from 'three';
 import { Projector, toThreeCamera } from '../../shared/camera.ts';
 import { primitiveDef } from '../../shared/layoutEdit.ts';
+import { poseById, sideToward, toLocal, type PersonId, type PersonPose } from '../../shared/poses.ts';
 import type { LightingPreset } from '../../shared/rules.ts';
 import type { Blueprint, Primitive } from '../../shared/types.ts';
 
@@ -27,7 +28,135 @@ export const ROLE_COLORS: Record<string, string> = {
   'partner-napkin': '#e9e9e4',
   'partner-sku': '#e8707f',
   'partner-glass': '#f6b3ac',
+  // Seated people (staging): one hue per person, so the sketch model can tell them apart.
+  person: '#5b6ee1',
 };
+
+const PERSON_COLORS: Record<string, string> = { PERSON_1: '#5b6ee1', PERSON_2: '#a77be0' };
+
+/** A cylinder from a to b (local coordinates), for the seated figure's limbs. */
+function limb(a: THREE.Vector3, b: THREE.Vector3, r: number, color: string): THREE.Mesh {
+  const len = a.distanceTo(b);
+  const m = mesh(new THREE.CylinderGeometry(r, r, len, 16), color);
+  m.position.copy(a).add(b).multiplyScalar(0.5);
+  m.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), b.clone().sub(a).normalize());
+  return m;
+}
+
+/** A plain chair, its seat at the group's origin, facing local -z, with legs `legH` long. */
+function buildChair(legH: number): THREE.Group {
+  const g = new THREE.Group();
+  const chair = '#a29d95';
+  const seat = mesh(new THREE.BoxGeometry(0.44, 0.04, 0.44), chair);
+  seat.position.set(0, -0.02, 0.04);
+  g.add(seat);
+  const back = mesh(new THREE.BoxGeometry(0.44, 0.48, 0.04), chair);
+  back.position.set(0, 0.24, 0.26);
+  g.add(back);
+  for (const [lx, lz] of [[-0.19, -0.15], [0.19, -0.15], [-0.19, 0.24], [0.19, 0.24]] as const) {
+    const leg = mesh(new THREE.BoxGeometry(0.03, legH, 0.03), chair);
+    leg.position.set(lx, -0.02 - legH / 2, lz);
+    g.add(leg);
+  }
+  return g;
+}
+
+/**
+ * Corner layouts without people: an empty chair pulled up at each diner's place (Fernando,
+ * 2026-10-17), behind the table edge nearest their plate and facing it, so the sketch keeps each
+ * plate at its own seat instead of moving both to the near side.
+ */
+function emptyChairs(bp: Blueprint): THREE.Object3D[] {
+  const corner = bp.primitives.some((q) => q.role === 'partner-main' && Math.abs(q.rotation_euler_deg.yaw) === 90);
+  if (!corner || bp.primitives.some((q) => q.role === 'person')) return [];
+  const { width: W, depth: D } = bp.table;
+  return bp.primitives
+    .filter((p) => p.role === 'main' || p.role === 'partner-main')
+    .map((p) => {
+      const { x, d } = p.world;
+      // A 45 cm seat at a 75 cm table.
+      const c = buildChair(0.45);
+      if (D - d <= W / 2 - Math.abs(x)) {
+        c.position.set(x, -0.3, -(D + 0.3));
+        c.rotation.y = Math.PI;
+      } else {
+        const s = Math.sign(x) || 1;
+        c.position.set(s * (W / 2 + 0.3), -0.3, -d);
+        c.rotation.y = (s * Math.PI) / 2;
+      }
+      // Room dressing: left out of the item hit map, like the wall.
+      c.traverse((o) => (o.userData.part = 'room'));
+      return c;
+    });
+}
+
+/**
+ * A seated person in the locked pose: on a chair whose seat sits SEAT_DROP below the tabletop,
+ * leaning in a little, forearms resting on the table toward their plate, head up and turned to
+ * the other person. Local -z is the way they face (toward the table); the table edge is SEAT_BACK
+ * in front of them.
+ */
+function buildPerson(p: Primitive, other: Primitive | undefined, pose: PersonPose): THREE.Object3D {
+  const g = new THREE.Group();
+  const color = PERSON_COLORS[p.id] ?? ROLE_COLORS.person!;
+  const skin = shade(color, 1.25);
+  const seatY = 0; // the group sits at the seat height (world.elevation)
+  g.add(buildChair(0.3));
+  // Hips and thighs on the seat, shins down to the floor under the table.
+  const hips = mesh(new THREE.BoxGeometry(0.36, 0.14, 0.24), color);
+  hips.position.set(0, seatY + 0.07, 0.06);
+  g.add(hips);
+  for (const sx of [-0.1, 0.1]) {
+    g.add(limb(new THREE.Vector3(sx, seatY + 0.07, 0.04), new THREE.Vector3(sx, seatY + 0.08, -0.36), 0.065, color));
+    g.add(limb(new THREE.Vector3(sx, seatY + 0.08, -0.36), new THREE.Vector3(sx, seatY - 0.27, -0.4), 0.05, color));
+  }
+  // Torso leaning toward the table.
+  const torso = new THREE.Group();
+  torso.position.set(0, seatY + 0.14, 0.06);
+  torso.rotation.x = pose.lean;
+  const chest = mesh(new THREE.BoxGeometry(0.38, 0.5, 0.22), color);
+  chest.position.y = 0.25;
+  torso.add(chest);
+  const neck = mesh(new THREE.CylinderGeometry(0.045, 0.05, 0.08, 16), skin);
+  neck.position.y = 0.54;
+  torso.add(neck);
+  // The head turns toward the other person (at most 45 degrees); the nose shows which way.
+  const headGroup = new THREE.Group();
+  headGroup.position.set(0, 0.68, -0.02);
+  if (other) {
+    const l = toLocal(p.world, other.world.x - p.world.x, other.world.d - p.world.d);
+    const turn = Math.atan2(-l.x, -l.z);
+    headGroup.rotation.y = Math.max(-0.8, Math.min(0.8, turn * 0.6));
+  }
+  const head = mesh(new THREE.SphereGeometry(0.1, 24, 16), skin);
+  head.scale.set(0.9, 1.15, 1);
+  headGroup.add(head);
+  const nose = mesh(new THREE.ConeGeometry(0.02, 0.05, 12), skin);
+  nose.rotation.x = -Math.PI / 2;
+  nose.position.set(0, 0, -0.1);
+  headGroup.add(nose);
+  torso.add(headGroup);
+  g.add(torso);
+  torso.updateMatrix();
+  // Arms from the pose: the near arm is on the side of the other person.
+  const sh = (sx: number) => new THREE.Vector3(sx, 0.47, 0).applyMatrix4(torso.matrix);
+  const near = other ? sideToward(p.world, other.world) : 1;
+  for (const sx of [-1, 1] as const) {
+    const arm = sx === near ? pose.near : pose.far;
+    const shoulder = sh(sx * 0.2);
+    const elbow = new THREE.Vector3(sx * arm.elbow[0], arm.elbow[1], arm.elbow[2]);
+    const hand = new THREE.Vector3(sx * arm.hand[0], arm.hand[1], arm.hand[2]);
+    g.add(limb(shoulder, elbow, 0.045, color));
+    g.add(limb(elbow, hand, 0.04, color));
+    const palm = mesh(new THREE.SphereGeometry(0.045, 16, 12), skin);
+    palm.scale.set(1, 0.5, 1.3);
+    palm.position.copy(hand);
+    g.add(palm);
+  }
+  g.position.set(p.world.x, p.world.elevation, -p.world.d);
+  g.rotation.y = (-p.world.yawDeg * Math.PI) / 180;
+  return g;
+}
 
 function kelvinToColor(k: number): THREE.Color {
   const t = k / 100;
@@ -51,8 +180,11 @@ const PET_BOTTLE: Array<[number, number]> = [
 const CONDIMENT: Array<[number, number]> = [
   [0.0, 0], [0.96, 0], [1.0, 0.03], [1.0, 0.64], [0.9, 0.72], [0.62, 0.79], [0.42, 0.84], [0.42, 0.9], [0.5, 0.9], [0.5, 1.0], [0.0, 1.0],
 ];
+// The stemless Coca-Cola bell glass (references/glass/poured.jpg): a heavy flat base, a narrow
+// body that widens slowly, then swells into the rounded bell near the top. Widest at the rim, so
+// def.radius is the measured rim (95 mm, registry BELL_GLASS).
 const BELL: Array<[number, number]> = [
-  [0.0, 0], [0.64, 0], [0.64, 0.03], [0.2, 0.08], [0.18, 0.18], [0.55, 0.3], [0.62, 0.45], [0.58, 0.6], [0.72, 0.8], [1.0, 1.0], [0.96, 1.0], [0.0, 0.1],
+  [0.0, 0], [0.6, 0], [0.62, 0.02], [0.6, 0.07], [0.62, 0.25], [0.68, 0.45], [0.8, 0.6], [0.93, 0.72], [0.99, 0.82], [1.0, 0.92], [1.0, 1.0], [0.95, 1.0], [0.0, 0.94],
 ];
 
 function lathe(profile: Array<[number, number]>, r: number, h: number): THREE.BufferGeometry {
@@ -70,7 +202,11 @@ function mesh(geo: THREE.BufferGeometry, color: string, opts: { opacity?: number
   return m;
 }
 
-function buildItem(p: Primitive): THREE.Object3D {
+function buildItem(p: Primitive, bp?: Blueprint): THREE.Object3D {
+  if (p.role === 'person') {
+    const other = bp?.primitives.find((q) => q.role === 'person' && q.id !== p.id);
+    return buildPerson(p, other, poseById(bp?.layout_meta.pose).people[p.id as PersonId]);
+  }
   const g = new THREE.Group();
   const def = primitiveDef(p);
   const color = ROLE_COLORS[p.role] ?? '#999';
@@ -81,7 +217,8 @@ function buildItem(p: Primitive): THREE.Object3D {
   if (def.kind === 'lathe-bottle') {
     g.add(mesh(lathe(isPet ? PET_BOTTLE : CONTOUR_BOTTLE, def.radius!, def.height), color));
   } else if (def.kind === 'lathe-can') {
-    const c = mesh(new THREE.CylinderGeometry(def.radius! * 0.88, def.radius! * 0.9, def.height, 40), color);
+    // The measured diameter is the can body; only the lid and base neck in a little.
+    const c = mesh(new THREE.CylinderGeometry(def.radius!, def.radius!, def.height, 40), color);
     c.position.y = def.height / 2;
     g.add(c);
   } else if (def.kind === 'lathe-condiment') {
@@ -191,8 +328,32 @@ export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene
   scene.add(floor);
   addPerspectiveGrid(scene, W, D);
 
+  // The table reads as a real table, not a slab in a void: a darker edge band (apron) and legs
+  // under the corners, and a back wall a few metres behind, so the image models see the table's
+  // edges and angle and the room's depth instead of inventing them.
+  const apron = new THREE.Mesh(new THREE.BoxGeometry(W - 0.02, 0.06, D - 0.02), new THREE.MeshStandardMaterial({ color: '#c9c6bf', roughness: 0.9 }));
+  apron.position.set(0, -0.07, -D / 2);
+  apron.userData.part = 'table';
+  scene.add(apron);
+  const legMat = new THREE.MeshStandardMaterial({ color: '#b5b1a8', roughness: 0.9 });
+  for (const lx of [-W / 2 + 0.05, W / 2 - 0.05]) {
+    for (const ld of [0.05, D - 0.05]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.71, 0.05), legMat);
+      leg.position.set(lx, -0.04 - 0.355, -ld);
+      leg.userData.part = 'room';
+      scene.add(leg);
+    }
+  }
+  // Unlit, so it reads as one flat wall whatever the light preset.
+  const wall = new THREE.Mesh(new THREE.PlaneGeometry(40, 8), new THREE.MeshBasicMaterial({ color: '#b4b6b9' }));
+  wall.position.set(0, 3.25, -(D + 2.4));
+  wall.userData.part = 'room';
+  scene.add(wall);
+
+  for (const c of emptyChairs(bp)) scene.add(c);
+
   bp.primitives.forEach((p, i) => {
-    const item = buildItem(p);
+    const item = buildItem(p, bp);
     // 1-based, so the sketch's hit map can keep 0 for the table and background.
     item.userData.itemIndex = i + 1;
     scene.add(item);
@@ -225,6 +386,7 @@ export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene
 
 /** Where each label is pinned: SKU on its lower body (below the logo box), others at their visual center. */
 function labelAnchor(p: Primitive): number {
+  if (p.role === 'person') return 0.22; // on the chest, above the tabletop
   if (p.role === 'sku' || p.role === 'partner-sku') return p.dimensions.height * 0.22;
   if (p.role === 'glass' || p.role === 'partner-glass') return p.dimensions.height * 0.3;
   return p.dimensions.height * 0.6;
@@ -408,7 +570,7 @@ export function renderSketch(bp: Blueprint, lighting: LightingPreset, opts: { wi
   scene.traverse((o) => {
     if (o.userData.part === 'grid') o.visible = false;
     if (!(o instanceof THREE.Mesh)) return;
-    if (o.userData.part === 'floor') {
+    if (o.userData.part === 'floor' || o.userData.part === 'room') {
       o.visible = false;
       return;
     }

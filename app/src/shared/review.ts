@@ -91,3 +91,70 @@ export function reviewCounts(review: LayoutReview | null): { keep: number; chang
     notes: !!review?.notes.trim(),
   };
 }
+
+/** An item's Change, in words: the placement reasons and the note. Empty when nothing is picked yet. */
+export function changeSummary(r: ItemReview): string {
+  const reasons = r.reasons.map((id) => PLACEMENT_REASONS.find((x) => x.id === id)?.label).filter(Boolean);
+  const note = r.note.trim();
+  return [reasons.join(', '), note && `"${note}"`].filter(Boolean).join(' · ');
+}
+
+/** The review edits that change the sketch, by item id ('scene' for the scene notes). Keeps don't change it. */
+export function sketchEdits(review: LayoutReview, bp: Blueprint): Record<string, string> {
+  const out: Record<string, string> = {};
+  bp.primitives.forEach((p, i) => {
+    const r = review.items[p.id];
+    const summary = r?.verdict === 'change' ? changeSummary(r) : '';
+    if (summary) out[p.id] = `${i + 1}. ${p.component_name}: ${summary}`;
+    // A seated person's looks and clothes change the sketch too.
+    const who = p.person ? [p.person.who, p.person.heritage, p.person.wearing].map((t) => t.trim()).filter(Boolean).join(', ') : '';
+    if (who) out[p.id] = `${i + 1}. ${p.id}: ${who}`;
+  });
+  const notes = review.notes.trim();
+  if (notes) out['scene'] = `Whole scene: "${notes}"`;
+  return out;
+}
+
+/**
+ * The art director's changes as prompt lines, by the same keys as sketchEdits (item id, or
+ * 'scene'), in their own words. `only` keeps just those keys, e.g. the edits a sketch doesn't show yet.
+ */
+export function reviewChangeLines(review: LayoutReview | null, bp: Blueprint, only?: string[]): string[] {
+  if (!review) return [];
+  const keep = (k: string) => !only || only.includes(k);
+  const out: string[] = [];
+  for (const p of bp.primitives) {
+    const r = review.items[p.id];
+    if (r?.verdict !== 'change' || !keep(p.id)) continue;
+    const phrases = r.reasons.map((id) => PLACEMENT_REASONS.find((x) => x.id === id)?.phrase).filter(Boolean);
+    const note = r.note.trim();
+    const parts = [phrases.length ? `It ${phrases.join('; it also ')}.` : '', note && `${note[0]!.toUpperCase()}${note.slice(1)}${/[.!?]$/.test(note) ? '' : '.'}`].filter(Boolean);
+    if (parts.length) out.push(`${nameOf(bp, p.id)}: ${parts.join(' ')}`);
+  }
+  const notes = review.notes.trim();
+  if (notes && keep('scene')) out.push(`Whole scene: ${notes}`);
+  return out;
+}
+
+/** Keys of the edits that differ from what a sketch was drawn with (all of them when there is no sketch). */
+export function pendingEditKeys(edits: Record<string, string>, drawn: Record<string, string> | undefined): string[] {
+  if (!drawn) return Object.keys(edits);
+  return Object.keys(edits).filter((k) => edits[k] !== drawn[k]);
+}
+
+/**
+ * What the review adds to the story facts. With a detailed sketch of this very layout, the sketch is
+ * image 1 of the photograph and only the edits it doesn't show yet go in as changes ("approved with
+ * changes"); without one, the proxy stays image 1 and every change goes in.
+ */
+export function reviewFacts(
+  review: LayoutReview | null,
+  bp: Blueprint,
+  sketch: { url: string; layout?: string; edits?: Record<string, string> } | null | undefined,
+): { adjustments: string[]; layoutSketch?: { url: string }; directorChanges: string[] } {
+  const adjustments = reviewAdjustments(review, bp);
+  const drawn = sketch && sketch.layout === sketchKey(bp) ? sketch : null;
+  if (!drawn) return { adjustments, directorChanges: reviewChangeLines(review, bp) };
+  const edits = review ? sketchEdits(review, bp) : {};
+  return { adjustments, layoutSketch: { url: drawn.url }, directorChanges: reviewChangeLines(review, bp, pendingEditKeys(edits, drawn.edits)) };
+}

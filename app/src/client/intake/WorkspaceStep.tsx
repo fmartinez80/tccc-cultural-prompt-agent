@@ -19,7 +19,7 @@ import {
   replacementUpload,
   previewStale,
   brandConflicts,
-  checkElements,
+  checkElements, ratedElements,
   checkFixEdits,
   referenceLabel,
   sceneReferences,
@@ -181,7 +181,10 @@ export function WorkspaceStep({
     proxyStatus === 'uploading' ? 'uploading' : proxyStatus === 'error' ? 'error' : proxyFresh ? 'uploaded' : 'idle';
   const slug = `${brief.heroDish}-${brief.country}`.toLowerCase().replace(/[^a-z0-9]+/g, '-') || 'scene';
 
+  const sketchUrl = story?.facts.layoutSketch?.url;
   const ensureProxyUploaded = useCallback(async (): Promise<string> => {
+    // The approved sketch is image 1 when there is one; it is already stored by the app.
+    if (sketchUrl) return sketchUrl;
     const cur = wsRef.current;
     if (cur.proxy && cur.proxy.key === proxyKey && Date.now() - cur.proxy.at < PROXY_URL_MAX_AGE_MS) return cur.proxy.url;
     setProxyStatus('uploading');
@@ -200,7 +203,7 @@ export function WorkspaceStep({
       setProxyError(err instanceof Error ? err.message : String(err));
       throw err;
     }
-  }, [proxyKey, proxyDataUrl, utils, updateWorkspace]);
+  }, [sketchUrl, proxyKey, proxyDataUrl, utils, updateWorkspace]);
 
   const previewInput = useCallback(
     (seg: WsSegment): WorkspaceTaskInput => ({
@@ -522,6 +525,7 @@ export function WorkspaceStep({
             x={geometry[PROXY_NODE_ID]!.x}
             y={geometry[PROXY_NODE_ID]!.y}
             proxyDataUrl={proxyDataUrl}
+            sketchUrl={sketchUrl}
             uploadStatus={proxyDisplayStatus}
             uploadError={proxyError}
           />
@@ -540,7 +544,7 @@ export function WorkspaceStep({
               onFlash={showFlash}
             />
           ))}
-          <PromptNode x={geometry[PROMPT_NODE_ID]!.x} y={geometry[PROMPT_NODE_ID]!.y} allSegments={allSegments} ws={ws} />
+          <PromptNode x={geometry[PROMPT_NODE_ID]!.x} y={geometry[PROMPT_NODE_ID]!.y} allSegments={allSegments} ws={ws} sketch={!!sketchUrl} />
           <GenerateNode
             x={geometry[GENERATE_NODE_ID]!.x}
             y={geometry[GENERATE_NODE_ID]!.y}
@@ -585,7 +589,7 @@ export function WorkspaceStep({
       <FeedbackDialog
         result={feedbackTarget ? ws.results.find((r) => r.id === feedbackTarget.resultId) ?? null : null}
         imageIndex={feedbackTarget?.imageIndex ?? 1}
-        elements={checkElements(allSegments, ws)}
+        elements={ratedElements(allSegments, ws)}
         brief={brief}
         spec={compose.spec}
         model={WORKSPACE_MODEL_LABEL}
