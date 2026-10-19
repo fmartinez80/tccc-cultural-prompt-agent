@@ -88,6 +88,9 @@ const DOT_H = 640;
 const DOT_PITCH = 10;
 const DOT_START = 0.2;
 const DOT_MAX_R = 4.2;
+/** The bottom quarter's dots are 25% larger, eased in over the rows just above it. */
+const DOT_BOOST_FROM = 0.75;
+const DOT_BOOST = 1.25;
 
 /** One row of dots per pitch, in a staggered grid, each row a touch larger than the one above. */
 const HALFTONE_DOTS = (() => {
@@ -96,7 +99,9 @@ const HALFTONE_DOTS = (() => {
     const y = row * DOT_PITCH;
     const t = (y / DOT_H - DOT_START) / (1 - DOT_START);
     if (t <= 0) continue;
-    const r = DOT_MAX_R * Math.pow(t, 1.15);
+    const depth = y / DOT_H;
+    const boost = 1 + (DOT_BOOST - 1) * Math.min(1, Math.max(0, (depth - (DOT_BOOST_FROM - 0.05)) / 0.05));
+    const r = DOT_MAX_R * Math.pow(t, 1.15) * boost;
     if (r < 0.5) continue;
     const offset = row % 2 ? DOT_PITCH / 2 : 0;
     for (let x = offset; x <= DOT_W; x += DOT_PITCH) dots.push({ x, y, r });
