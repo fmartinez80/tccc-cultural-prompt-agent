@@ -17,17 +17,23 @@
   gap: 20px;
   width: min(88vw, 560px);
   padding: 36px 48px 32px;
-  /* A blush of the shadow colour with a soft halftone that fades toward the top. */
-  background-color: color-mix(in srgb, var(--neo-shadow-color) 18%, var(--neo-card));
-  background-image:
-    linear-gradient(color-mix(in srgb, var(--neo-shadow-color) 18%, var(--neo-card)) 10%, transparent 75%),
-    radial-gradient(circle, rgb(255 255 255 / 0.7) 2px, transparent 2.5px);
-  background-size:
-    100% 100%,
-    10px 10px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  /* A blush of the shadow colour, under a halftone that grows toward the bottom (see Halftone). */
+  background: color-mix(in srgb, var(--neo-shadow-color) 18%, var(--neo-card));
   border: var(--neo-border);
   border-radius: 0;
   box-shadow: 12px 12px 0 var(--neo-shadow-color);
+}
+
+.halftone {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  fill: rgb(255 255 255 / 0.75);
 }
 
 .head {

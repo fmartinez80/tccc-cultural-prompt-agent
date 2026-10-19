@@ -53,6 +53,39 @@ function PanToss() {
   );
 }
 
+/** Halftone grid size: the dot pitch and how far down the card the dots start. */
+const DOT_W = 560;
+const DOT_H = 640;
+const DOT_PITCH = 10;
+const DOT_START = 0.2;
+const DOT_MAX_R = 4.2;
+
+/** One row of dots per pitch, in a staggered grid, each row a touch larger than the one above. */
+const HALFTONE_DOTS = (() => {
+  const dots: { x: number; y: number; r: number }[] = [];
+  for (let row = 0; row * DOT_PITCH <= DOT_H; row++) {
+    const y = row * DOT_PITCH;
+    const t = (y / DOT_H - DOT_START) / (1 - DOT_START);
+    if (t <= 0) continue;
+    const r = DOT_MAX_R * Math.pow(t, 1.15);
+    if (r < 0.5) continue;
+    const offset = row % 2 ? DOT_PITCH / 2 : 0;
+    for (let x = offset; x <= DOT_W; x += DOT_PITCH) dots.push({ x, y, r });
+  }
+  return dots;
+})();
+
+/** The card's halftone: dots that grow from nothing near the top to full size at the bottom. */
+function Halftone() {
+  return (
+    <svg className={styles.halftone} viewBox={`0 0 ${DOT_W} ${DOT_H}`} preserveAspectRatio="xMidYMax slice" aria-hidden>
+      {HALFTONE_DOTS.map((d, i) => (
+        <circle key={i} cx={d.x} cy={d.y} r={d.r} />
+      ))}
+    </svg>
+  );
+}
+
 export function LoadingOverlay({
   open,
   title,
@@ -91,6 +124,7 @@ export function LoadingOverlay({
   return createPortal(
     <div className={styles.backdrop}>
       <div className={styles.card} role="status" aria-live="polite">
+        <Halftone />
         <div className={styles.head}>
           <p className={styles.kicker}>
             Now loading
