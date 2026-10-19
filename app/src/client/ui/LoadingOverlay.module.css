@@ -15,7 +15,9 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  width: min(88vw, 560px);
+  /* 560px, growing for long copy so it still fits on two lines (see .message). */
+  min-width: min(88vw, 560px);
+  max-width: min(88vw, 760px);
   padding: 36px 48px 32px;
   position: relative;
   isolation: isolate;
@@ -109,9 +111,11 @@
 }
 
 .message {
-  max-width: 440px;
+  /* Width is set to break the copy into two even lines (useTwoLineWidth). */
+  max-width: 100%;
   margin: 0;
   font-size: 17px;
+  text-wrap: balance;
   line-height: 1.5;
   text-align: center;
   color: var(--bay-text-2);
@@ -120,7 +124,7 @@
 .percent {
   margin: -4px 0 0;
   font-family: var(--bay-font-mono);
-  font-size: 26px;
+  font-size: 32.5px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   line-height: 1;

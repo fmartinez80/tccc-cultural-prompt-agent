@@ -5,7 +5,7 @@
 // work finishes the count tops up to 100% and the modal closes a moment later;
 // when it fails the modal closes at once (the error shows in the page).
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState, type RefObject } from 'react';
 import { createPortal } from 'react-dom';
 
 import styles from './LoadingOverlay.module.css';
@@ -51,6 +51,35 @@ function PanToss() {
       </g>
     </svg>
   );
+}
+
+/**
+ * The width that sets `text` on exactly two lines of about even length: half its
+ * one-line width plus half its longest word, so a break always lands near the
+ * middle (CSS text-wrap: balance then evens the two lines). Measured in the
+ * element's own font once fonts are loaded; the CSS max-width still caps it.
+ */
+function useTwoLineWidth(ref: RefObject<HTMLElement | null>, text: string, active: boolean): number | undefined {
+  const [width, setWidth] = useState<number>();
+  useLayoutEffect(() => {
+    if (!active) return;
+    let live = true;
+    const measure = () => {
+      const el = ref.current;
+      const ctx = document.createElement('canvas').getContext('2d');
+      if (!live || !el || !ctx) return;
+      ctx.font = getComputedStyle(el).font;
+      const whole = ctx.measureText(text).width;
+      const longestWord = Math.max(...text.split(/\s+/).map((w) => ctx.measureText(w).width));
+      setWidth(Math.ceil(whole / 2 + longestWord / 2 + 4));
+    };
+    measure();
+    void document.fonts?.ready.then(measure);
+    return () => {
+      live = false;
+    };
+  }, [ref, text, active]);
+  return width;
 }
 
 /** Halftone grid size: the dot pitch and how far down the card the dots start. */
@@ -119,6 +148,8 @@ export function LoadingOverlay({
   const target = finishing ? 100 : open ? Math.max(0, Math.min(99, percent ?? 0)) : 0;
   const shown = useCountUp(target);
   const visible = open || finishing;
+  const messageRef = useRef<HTMLParagraphElement>(null);
+  const messageWidth = useTwoLineWidth(messageRef, label, visible);
   if (!visible) return null;
 
   return createPortal(
@@ -137,7 +168,9 @@ export function LoadingOverlay({
           {title && <p className={styles.title}>{title}</p>}
         </div>
         <PanToss />
-        <p className={styles.message}>{label}</p>
+        <p className={styles.message} ref={messageRef} style={{ width: messageWidth }}>
+          {label}
+        </p>
         <p className={styles.percent} aria-label={`${shown} percent`}>
           {shown}%
         </p>
