@@ -257,7 +257,7 @@ Fixed facts (use these, do not contradict them):
 - Surface: ${facts.surfaceText}${onTheGoSurfaceRule(spec.scene) ? `\n- On the go: ${onTheGoSurfaceRule(spec.scene)}` : ''}${environmentBrief(spec.scene) ? `\n- Environment brief (build the Background from this): ${environmentBrief(spec.scene)}${spec.scene.venueType ? ' Where the knowledge base has a venue profile for this kind of place in this country, follow its look over this generic description.' : ''}` : ''}
 - Lighting: ${facts.lightingSentence}
 - Light on the product: ${facts.skuLightSentence}
-- Look (write the environment and food as this candid, unstyled moment): ${facts.filmSentence}
+- Look (write the environment and food in this look): ${facts.filmSentence}
 - Camera: ${facts.lookSentence} ${facts.angleSentence}
 - Framing: ${facts.framingSentence}
 - Product serving: ${facts.servingSentence}

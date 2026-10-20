@@ -22,7 +22,7 @@ function objectText(spec: SceneSpec, bp: Blueprint, id: string, fallback: string
   const p = bp.primitives.find((q) => q.id === id)!;
   const dish = `${spec.entree.prep.promptText} ${spec.entree.plating.promptText}`;
   if (id === "MAIN" || id === "SHARED_HERO") return `${p.component_name}. ${dish}`;
-  if (p.same_as === "MAIN") return `the second diner's plate, the same dish as MAIN in a matching portion. ${dish}`;
+  if (p.same_as === "MAIN") return "the second diner's plate, the same dish as MAIN in a matching portion.";
   const side = spec.accompaniments.find((a) => a.name === p.component_name);
   if (side) return `${side.name}. ${side.promptText}`;
   if (spec.accent && p.role === "accent") return `${spec.accent.name}. ${spec.accent.promptText}`;
@@ -38,7 +38,10 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
   const facts = storyFacts(spec, bp);
   const seated = hasSeatedPeople(bp);
   const objects = facts.labels.map((l) => {
-    const text = l.fixedText ?? `${objectText(spec, bp, l.label, l.what)} Served in ${l.vessel}.`;
+    const p = bp.primitives.find((q) => q.id === l.label);
+    // The second diner's drink is drawn exactly like the first, so it points there instead of repeating the whole look.
+    const copy = p?.same_as && (p.role === "partner-sku" || p.role === "partner-glass") && facts.labels.some((m) => m.label === p.same_as);
+    const text = copy ? `Exactly one more of the same ${p.role !== "partner-sku" ? "glass" : spec.sku.package === "can" ? "can" : "bottle"} as ${p.same_as}, drawn the same way: the second diner's own.` : l.fixedText ?? `${objectText(spec, bp, l.label, l.what)} Served in ${l.vessel}.`;
     return `- ${l.label} (${l.where}): ${l.label.startsWith("PERSON_") ? text : withoutHands(text)}`;
   });
   // A seated scene draws its two people (their pose fixed by the figures in image 1); every other scene is a still life.
@@ -52,7 +55,8 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     "Turn image 1 into a detailed black-and-white pencil sketch of the finished scene: the art director's pre-visualization drawing of a food photograph, showing exactly where everything lands in the final frame.",
     "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines. The faint grid on the table top and the floor, and the thin light line across the frame where there is one (the camera's eye level), are perspective guides: build the floor, walls, doorways, windows, shelves and furniture on that same floor plane, so their lines recede to the same vanishing points and meet the same eye level as the table. Do not draw the grid or the line.",
     people,
-    `Camera: ${facts.lookSentence} ${facts.angleSentence}${facts.viewSentence ? ` ${facts.viewSentence}` : ""} ${facts.scaleSentence}`,
+    // No depth of field, food texture or photo finish here: a pencil drawing can't use them (the photo prompt keeps them).
+    `Camera: ${facts.angleSentence}${facts.viewSentence ? ` ${facts.viewSentence}` : ""} ${facts.scaleSentence}`,
     facts.productScale,
     "Draw the food in detail, as it will look in the photograph from this camera: its real shapes, pieces and portions, how it is stacked or spread on its vessel, the garnish, the texture (crumb, char, crisp edges, sauce, steam). Draw each vessel's real shape and rim, the cutlery and the napkin folds, and the Coca-Cola product's real silhouette with only a hint of its script logo.",
     `${seated ? "People and objects" : "Objects"} (${facts.labels.length}, and only these):`,

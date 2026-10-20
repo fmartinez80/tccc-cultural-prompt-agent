@@ -156,8 +156,8 @@
   },
   "presets": {
     "commercial-balanced": {
-      "condition": "bright, even soft daylight",
-      "prompt": "Even, well-balanced commercial food photography lighting: a large soft key light from behind and to the left of the table with generous fill from the front, so every item on the table is bright, clearly lit and true to color. Soft, subtle shadows fall forward and to the right, away from the plate. Clean neutral white balance, bright and airy, with no dark vignette, no dark corners and no blown highlights; the background is bright and softly out of focus.",
+      "condition": "soft directional daylight",
+      "prompt": "Commercial food photography lighting: a large soft key light from behind and to the left of the table, with a lighter fill from the front so every item is true to color while its shadows still shape each dish's texture. Soft shadows fall forward and to the right, away from the plate. Neutral white balance, with no dark vignette and no blown highlights; the background is softly out of focus.",
       "warmth": "neutral",
       "rig": {
         "key": {
@@ -206,7 +206,7 @@
     },
     "home-evening-lamps": {
       "condition": "warm evening lamplight",
-      "prompt": "Evening indoors, after dark: windows, if any, show a dark night outside. Warm light from a pendant lamp above and slightly behind the table plus a table lamp to the left, with clean soft fill from the front so every item on the table is clearly lit and true to color; warm pools of lamplight in a dimmer room behind. Never daylight.",
+      "prompt": "Evening indoors, after dark: windows, if any, show a dark night outside. Warm light from a pendant lamp above and slightly behind the table plus a table lamp to the left, with a gentle fill from the front so every item on the table is true to color while its shadows still show its texture; warm pools of lamplight in a dimmer room behind. Never daylight.",
       "warmth": "ambient",
       "rig": {
         "key": {
@@ -259,7 +259,7 @@
     },
     "restaurant-evening-ambient": {
       "condition": "warm ambient restaurant light at night",
-      "prompt": "Restaurant at night: warm ambient light from overhead fixtures and a candle or small lamp on the table, with clean soft fill from the front so every item on the table is clearly lit and true to color; warm bokeh in a dimmer room behind, and any windows show a dark night outside. Never daylight.",
+      "prompt": "Restaurant at night: warm ambient light from overhead fixtures and a candle or small lamp on the table, with a gentle fill from the front so every item on the table is true to color while its shadows still show its texture; warm bokeh in a dimmer room behind, and any windows show a dark night outside. Never daylight.",
       "warmth": "ambient",
       "rig": {
         "key": {
@@ -328,7 +328,7 @@
     },
     "outdoor-evening-string-lights": {
       "condition": "warm string lights after dark",
-      "prompt": "Outdoors after dark: warm string lights overhead and behind the table glow against a deep night sky, with soft warm bokeh in the background. A warm soft key light from behind and to the left, with clean soft fill from the front so every item on the table is clearly lit and true to color. The background is dark and unmistakably evening, never daylight.",
+      "prompt": "Outdoors after dark: warm string lights overhead and behind the table glow against a deep night sky, with soft warm bokeh in the background. A warm soft key light from behind and to the left, with a gentle fill from the front so every item on the table is true to color while its shadows still show its texture. The background is dark and unmistakably evening, never daylight.",
       "warmth": "ambient",
       "rig": {
         "key": {
@@ -347,7 +347,7 @@
     },
     "street-evening": {
       "condition": "warm food-stall lamplight on a street after dark",
-      "prompt": "Night scene, fully after dark: a deep black-blue night sky, glowing street lamps, lit shop signs and car lights blurred into warm and colored bokeh in the background. A warm soft key light from a nearby food-stall lamp behind and to the left, with clean soft fill from the front so every item on the table is clearly lit and true to color. The background is dark and unmistakably nighttime, never daylight, never a bright or blue daytime sky.",
+      "prompt": "Night scene, fully after dark: a deep black-blue night sky, glowing street lamps, lit shop signs and car lights blurred into warm and colored bokeh in the background. A warm soft key light from a nearby food-stall lamp behind and to the left, with a gentle fill from the front so every item on the table is true to color while its shadows still show its texture. The background is dark and unmistakably nighttime, never daylight, never a bright or blue daytime sky.",
       "warmth": "ambient",
       "rig": {
         "key": {

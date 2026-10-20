@@ -11,5 +11,5 @@
     "lip_height_cm": { "value": [1.5, 2.0], "why": "High lips throw harsh shadows onto the food under side light or backlight." },
     "finish": { "value": "matte or satin, never high-gloss", "why": "Glossy glaze gets blinding white hot spots under studio light." }
   },
-  "prompt": "with a narrow rim (or rimless coupe), a low, flat profile and a matte or satin glaze, never glossy"
+  "prompt": "with a narrow rim (or rimless coupe), a low, flat profile and a matte or satin glaze"
 }
