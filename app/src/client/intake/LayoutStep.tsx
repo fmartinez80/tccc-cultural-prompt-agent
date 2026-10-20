@@ -8,7 +8,7 @@ import { ArrowLeft, RotateCw } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
 import type { RuleEffects } from '../../api.ts';
-import type { Selections } from '../../shared/spec.ts';
+import { limitScene, type Selections } from '../../shared/spec.ts';
 import type { AccentChoice, Decision } from '../../shared/types.ts';
 import { recordDuration, useProgress } from '../lib/progress.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
@@ -129,7 +129,7 @@ export function PrepareLayout({
             <>
               Even after moving the supporting items around, something still overlaps. A smaller serving vessel, one fewer side or condiment, or a
               different camera angle usually fixes it.
-              {sel.scene?.party === '2' && (
+              {sel.scene && limitScene(sel.scene).party === '2' && (
                 <> Two place settings need more of the table in frame, so try the Looking down angle first.</>
               )}
               <details className={styles.why}>

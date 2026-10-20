@@ -489,7 +489,7 @@ export function ReviewStep({
     <section>
       <h1>Review the Sketch</h1>
       <p className={styles.lede}>
-        The photo is made from this sketch. Mark each item Working or Change, then approve.{' '}
+        The photo follows this layout. Mark each item Working or Change, then approve.{' '}
         <button type="button" className={styles.howLink} aria-expanded={howOpen} onClick={() => setHowOpen((v) => !v)}>
           {howOpen ? 'Hide how this works' : 'How this works'}
         </button>
@@ -497,7 +497,7 @@ export function ReviewStep({
       {howOpen && (
         <p className={styles.how}>
           This is the scene sketched in pencil through the camera you picked: the food, dishes and drinks where they will land in the photo. Click an item
-          or its number to mark what is working and what isn't, and add anything else the scene needs. Approve the sketch and the photograph keeps its camera,
+          or its number to mark what is working and what isn't, and add anything else the scene needs. Approve the sketch and the photograph is built from the same 3D layout, so it keeps its camera,
           framing and placement. Edits made after the sketch was drawn either redraw it, or go straight into the photo prompt with Approve with changes.
         </p>
       )}
@@ -815,12 +815,12 @@ export function ReviewStep({
         {showDetail ? (
           <>
             <p className={styles.previewEmpty}>
-              The photo is made from this sketch, so it keeps the sketch's camera, framing and placement.
+              The photo is built from the same 3D layout as this sketch, so it keeps its camera, framing and placement.
               {photoChanges.length ? ' Approve with changes to add the edits below without redrawing.' : ''}
             </p>
             {photoChanges.length > 0 && (
               <div className={styles.previewBlock}>
-                <span className={styles.previewLabel}>Not in the sketch yet: added to the photo prompt word for word</span>
+                <span className={styles.previewLabel}>Added to the photo prompt word for word</span>
                 <ul>
                   {photoChanges.map((l) => (
                     <li key={l}>{l}</li>

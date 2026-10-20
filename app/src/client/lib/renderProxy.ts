@@ -284,10 +284,15 @@ function shade(hex: string, f: number): string {
   return `#${c.getHexString()}`;
 }
 
+/** How far behind the table's far edge the proxy's back wall stands. */
+const WALL_GAP = 2.4;
+
 /**
  * Faint perspective grid (Fernando, 2026-10-16): 10 cm squares on the table top and 50 cm squares
  * on the floor, seen through the scene's own camera, so the image model builds the room on the
  * same floor plane and vanishing points as the table. Lines only: the sketch tracer skips them.
+ * 2026-10-20 (backgrounds still drifted): the grid carries on up the back wall in 50 cm squares,
+ * so the room's uprights and wall plane are set by the same camera too, and the floor grid stops at the wall.
  */
 function addPerspectiveGrid(scene: THREE.Scene, W: number, D: number) {
   const lines = (pts: number[], color: string, opacity: number) => {
@@ -304,11 +309,18 @@ function addPerspectiveGrid(scene: THREE.Scene, W: number, D: number) {
   lines(table, '#b9bcc2', 0.55);
   const floor: number[] = [];
   const fy = -0.749;
-  // From under the table's far edge (lines that pass behind the camera don't draw) out to 10 m:
-  // further rows crowd into one grey band at the horizon.
-  for (let x = -10; x <= 10; x += 0.5) floor.push(x, fy, -D, x, fy, -10);
-  for (let z = Math.ceil(D / 0.5) * 0.5; z <= 10; z += 0.5) floor.push(-10, fy, -z, 10, fy, -z);
+  // From under the table's far edge (lines that pass behind the camera don't draw) back to the wall.
+  const wz = D + WALL_GAP;
+  for (let x = -10; x <= 10; x += 0.5) floor.push(x, fy, -D, x, fy, -wz);
+  for (let z = Math.ceil(D / 0.5) * 0.5; z < wz; z += 0.5) floor.push(-10, fy, -z, 10, fy, -z);
   lines(floor, '#c4c7cc', 0.7);
+  // Up the back wall to 3 m, just in front of it; the floor line where they meet is a little stronger.
+  const wall: number[] = [];
+  const z = -wz + 0.005;
+  for (let x = -10; x <= 10; x += 0.5) wall.push(x, fy, z, x, fy + 3.75, z);
+  for (let h = 0.5; h <= 3.75 + 1e-6; h += 0.5) wall.push(-10, fy + h, z, 10, fy + h, z);
+  lines(wall, '#d3d5d8', 0.6);
+  lines([-10, fy, z, 10, fy, z], '#e2e4e6', 0.9);
 }
 
 export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene {
@@ -346,7 +358,7 @@ export function buildScene(bp: Blueprint, lighting: LightingPreset): THREE.Scene
   }
   // Unlit, so it reads as one flat wall whatever the light preset.
   const wall = new THREE.Mesh(new THREE.PlaneGeometry(40, 8), new THREE.MeshBasicMaterial({ color: '#b4b6b9' }));
-  wall.position.set(0, 3.25, -(D + 2.4));
+  wall.position.set(0, 3.25, -(D + WALL_GAP));
   wall.userData.part = 'room';
   scene.add(wall);
 

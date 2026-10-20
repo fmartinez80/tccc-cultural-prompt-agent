@@ -46,7 +46,7 @@ export const STEPS: Array<{ title: string; body: string }> = [
   },
   {
     title: 'The photo is made',
-    body: 'The approved sketch, photos of the real product and its poured glass, and the story segments go to the image model together, so the composition you signed off on is the one you get. Lighting is chosen from the scene, by venue and time of day, never picked by hand.',
+    body: 'The approved 3D layout, photos of the real product and its poured glass, and the story segments go to the image model together, so the composition you signed off on is the one you get. Lighting is chosen from the scene, by venue and time of day, never picked by hand.',
   },
   {
     title: 'Every rating teaches the system',
