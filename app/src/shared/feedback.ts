@@ -8,6 +8,7 @@
 // once a person approves them).
 
 import { z } from 'zod';
+import { MAX_PROMPT_CHARS } from './types.ts';
 
 export const Verdict = z.enum(['usable', 'fixes', 'unusable']);
 export type Verdict = z.infer<typeof Verdict>;
@@ -210,7 +211,7 @@ export const FeedbackInput = z.object({
   /** What each rated element was generated from: prompt text only, or a reference image. */
   elementSources: z.record(z.string().max(64), ElementSource).optional(),
   note: z.string().max(2000),
-  prompt: z.string().max(20_000),
+  prompt: z.string().max(MAX_PROMPT_CHARS),
   model: z.string().max(80),
   brief: z.object({
     country: z.string().max(80),

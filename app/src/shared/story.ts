@@ -70,7 +70,7 @@ export interface StoryFacts {
   skuLightSentence: string;
   /** Optional so stories saved before it existed still load. */
   colorSentence?: string;
-  /** The photodocumentary look: subject, place, lens, film and light. Optional so older stories still load. */
+  /** The photographic look: subject, place, lens, film and light. Optional so older stories still load. */
   filmSentence?: string;
   lookSentence: string;
   angleSentence: string;
@@ -172,7 +172,7 @@ function labelVessel(spec: SceneSpec, proxy: string, role: string, style?: strin
     }
     const cloth =
       material === "polyester"
-        ? "a smooth polyester restaurant napkin with a faint sheen, crisp pressed edges and no wrinkles"
+        ? "a pressed polyester restaurant napkin with a fine smooth weave and soft natural folds"
         : "a soft cotton napkin with a matte woven texture and a few gentle natural creases";
     const text = `A plain ${kind} (${NAPKIN_SIZES[size].inches} inches, about ${NAPKIN_SIZES[size].cm} cm square unfolded): ${cloth}, folded only twice, in thirds and then in half, into a flat rectangle about ${w} by ${d} cm and a few millimetres thick. It lies flat, long side toward the camera, ${cutlery ? `with a ${cutlery} on top, ${facing}` : "with nothing on it"}. Not a thick stack of folds, no decorative fold, no napkin ring. No print or text on the napkin.`;
     return { vessel: `a folded ${material} napkin`, fixedText: text };
@@ -411,8 +411,10 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
 }
 
 /**
- * The art director's photodocumentary template (2026-10-05), filled from the brief: the food,
- * the place, the look's lens and the light. It opens the Camera part of the prompt.
+ * The art director's template (2026-10-05), filled from the brief: the food, the place, the
+ * look's lens and the light. It opens the Camera part of the prompt. "Commercial food
+ * photograph" sets the sharpness and contrast; "candid, unstyled" is about the people's posing
+ * only, so it is said only when people sit at the table (Fernando, 2026-10-20).
  */
 function filmSentence(spec: SceneSpec, lighting: LightingPreset): string {
   const side = spec.accompaniments.find((a) => a.pairsWith === "MAIN" && a.role !== "condiment")?.name;
@@ -424,12 +426,9 @@ function filmSentence(spec: SceneSpec, lighting: LightingPreset): string {
   const lens = lookById(spec.camera.look).hidden.focal_length_mm;
   const light = lighting.condition ?? lighting.prompt.split(/[,.:]/)[0].toLowerCase();
   return (
-    `Candid photodocumentary shot of ${food}, ${place}${where ? ` in ${where}` : ""}. ` +
-    "Authentic slice-of-life moment, unstyled and realistic texture. " +
-    `Shot on ${lens}mm lens, crisp focus. ` +
-    "Enhanced color richness with deep true-to-life tones, emphasizing selective rich red tones, well-rounded contrast, " +
-    `clean analog look with fine film grain, ${light}. ` +
-    "Cinematic realism, documentary aesthetic."
+    `Commercial food photograph of ${food}, ${place}${where ? ` in ${where}` : ""}, shot on a ${lens}mm lens: ` +
+    `sharp detail, well-rounded contrast and deep true-to-life color, with a fine film grain, ${light}.` +
+    (spec.scene.seated ? " The people are candid and unstyled, caught in a natural slice-of-life moment." : "")
   );
 }
 

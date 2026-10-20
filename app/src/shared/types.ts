@@ -1,5 +1,12 @@
 import { z } from "zod";
 
+/**
+ * The longest image prompt the API accepts (sketch, photo, agent checks, saved ratings).
+ * A busy scene (two diners, several bottles with their written look, shared sides) runs
+ * past 15,000 characters; Gemini's image models take far more, so this only stops runaway input.
+ */
+export const MAX_PROMPT_CHARS = 32_000;
+
 // ---------------------------------------------------------------------------
 // Closed vocabularies. The agent maps free text onto these; the exact wording
 // is kept separately for the prompt.

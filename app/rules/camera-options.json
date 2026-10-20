@@ -16,7 +16,7 @@
         "label": "Close-up hero",
         "help": "Tight on the meal and the bottle, the place behind soft but recognizable.",
         "prompt": "[CLOSE_HERO_PROMPT]",
-        "texture": "Food looks real and freshly made: natural textures, visible char, crumbs, moisture and small imperfections, with soft natural highlights, never glossy, waxy or plastic-looking.",
+        "texture": "Food looks real and freshly made: natural textures, visible char, crumbs, moisture and small imperfections, with soft natural highlights on a matte, natural surface.",
         "hidden": { "focal_length_mm": 50, "aperture": "f/5.6", "focus": "the front of the main dish; the whole table setting, including the Coca-Cola product, stays sharp; the room behind is soft but recognizable", "focus_distance_m": "auto" },
         "status": "final"
       }
@@ -32,7 +32,7 @@
         "label": "Table sharp, room soft",
         "help": "The whole meal and the bottle sharp, the place behind soft but still recognizable.",
         "aperture": "f/5.6",
-        "focus": "Moderate depth of field, as at about f/5.6, with focus set on the front of the main dish. The whole table setting is sharp from the near table edge to the far side of the plate: every dish, its garnish and {drinks}, crisp down to the label and the rim.",
+        "focus": "Moderate depth of field, as at about f/5.6, with focus set on the front of the main dish. The whole table setting is sharp from the near table edge to the far side of the plate: every dish, its garnish and {drinks}, in focus down to the label and the rim.",
         "layers": "The picture reads in three planes: the near edge of the table in front, the meal and the Coca-Cola product sharp in the middle, and the room behind in a soft, creamy blur that still keeps the recognizable shapes, colors and light of the place, never a featureless wash.",
         "status": "final"
       }
