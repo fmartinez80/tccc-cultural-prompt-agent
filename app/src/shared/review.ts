@@ -143,9 +143,17 @@ export function pendingEditKeys(edits: Record<string, string>, drawn: Record<str
 }
 
 /**
- * What the review adds to the story facts. With a detailed sketch of this very layout, the sketch is
- * image 1 of the photograph and only the edits it doesn't show yet go in as changes ("approved with
- * changes"); without one, the proxy stays image 1 and every change goes in.
+ * Whether the approved sketch is image 1 of the photograph. Off (Fernando, 2026-10-20): photos
+ * colored in from the pencil sketch looked painted and lost the match between the table and the
+ * room, so the 3D proxy (its perspective grid and eye line included) is image 1 again and the
+ * sketch is a review step only. Set true to go back to sketch-led photos.
+ */
+export const PHOTO_FROM_SKETCH = false;
+
+/**
+ * What the review adds to the story facts. With a detailed sketch of this very layout (and
+ * PHOTO_FROM_SKETCH on), the sketch is image 1 of the photograph and only the edits it doesn't show
+ * yet go in as changes ("approved with changes"); otherwise the proxy is image 1 and every change goes in.
  */
 export function reviewFacts(
   review: LayoutReview | null,
@@ -153,7 +161,7 @@ export function reviewFacts(
   sketch: { url: string; layout?: string; edits?: Record<string, string> } | null | undefined,
 ): { adjustments: string[]; layoutSketch?: { url: string }; directorChanges: string[] } {
   const adjustments = reviewAdjustments(review, bp);
-  const drawn = sketch && sketch.layout === sketchKey(bp) ? sketch : null;
+  const drawn = PHOTO_FROM_SKETCH && sketch && sketch.layout === sketchKey(bp) ? sketch : null;
   if (!drawn) return { adjustments, directorChanges: reviewChangeLines(review, bp) };
   const edits = review ? sketchEdits(review, bp) : {};
   return { adjustments, layoutSketch: { url: drawn.url }, directorChanges: reviewChangeLines(review, bp, pendingEditKeys(edits, drawn.edits)) };
