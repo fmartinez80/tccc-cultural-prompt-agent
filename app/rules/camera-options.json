@@ -40,12 +40,12 @@
   },
 
   "angle": {
-    "$comment": "Pitches set by Fernando on 2026-10-07 (10 / 20 / 40, was 15 / 30 / 45): at 30 degrees the eye line sat far above the frame while Gemini drew the room at standing eye level, so tables looked too steep for their rooms. The angle sentence (rules.ts angleSentence) now states where the eye line falls and asks for the room from the same viewpoint.",
+    "$comment": "Pitches set by Fernando on 2026-10-07 (10 / 20 / 40, was 15 / 30 / 45): at 30 degrees the eye line sat far above the frame while Gemini drew the room at standing eye level, so tables looked too steep for their rooms. Looking down moved from 40 to 45 degrees (Fernando, 2026-10-20). The angle sentence (rules.ts angleSentence) now states where the eye line falls and asks for the room from the same viewpoint.",
     "default": "diners-eye",
     "options": [
       { "id": "low",        "label": "Low, near eye level",   "prompt": "[LOW_ANGLE_PROMPT]",        "hidden": { "pitch_deg": 10, "setback_scale": 0.5, "rear_edge_max_y": 0.62 }, "status": "placeholder" },
       { "id": "diners-eye", "label": "Diner's eye (default)", "prompt": "[DINERS_EYE_ANGLE_PROMPT]", "hidden": { "pitch_deg": 20 }, "status": "placeholder" },
-      { "id": "high",       "label": "Looking down",          "prompt": "[HIGH_ANGLE_PROMPT]",       "hidden": { "pitch_deg": 40, "front_edge_min_y": 0.03, "rear_edge_max_y": 0.8 }, "status": "placeholder" }
+      { "id": "high",       "label": "Looking down",          "prompt": "[HIGH_ANGLE_PROMPT]",       "hidden": { "pitch_deg": 45, "front_edge_min_y": 0.03, "rear_edge_max_y": 0.8 }, "status": "placeholder" }
     ],
 
     "recommendations": {
