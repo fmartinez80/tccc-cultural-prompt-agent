@@ -34,6 +34,24 @@ export interface Selections {
   napkin?: boolean;
 }
 
+/**
+ * Main keeps every scene to one diner's place setting with nobody at the table (Fernando,
+ * 2026-10-20): "2 people" and the "People at the table" switch are off. Set either back to true
+ * to offer it again; saved projects that picked them open as one diner meanwhile.
+ */
+export const SCENE_LIMITS = { twoDiners: false, seatedPeople: false };
+
+/** A scene answer held to SCENE_LIMITS: a party of two becomes one, and nobody sits at the table. */
+export function limitScene<S extends { party: SceneSpec["scene"]["party"]; seated?: boolean; pose?: string }>(scene: S): S {
+  let next = scene;
+  if (!SCENE_LIMITS.twoDiners && next.party === "2") next = { ...next, party: "1" };
+  if (!SCENE_LIMITS.seatedPeople && (next.seated || next.pose)) {
+    const { seated: _seated, pose: _pose, ...rest } = next;
+    next = rest as S;
+  }
+  return next;
+}
+
 export function skuById(id: string): SkuInfo | undefined {
   return SKU_CATALOG.find((s) => s.id === id);
 }
@@ -56,10 +74,11 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
   const sku = skuById(brief.skuId);
   if (!sku) throw new Error(`unknown SKU ${brief.skuId}`);
   if (!sel.prep || !sel.plating || !sel.sides || !sel.scene || !sel.camera) throw new Error("intake is not complete");
-  const time = sel.scene.time ?? timeFromOccasion(brief.occasion) ?? "midday";
-  const venue = sel.scene.venue;
+  const scene = limitScene(sel.scene);
+  const time = scene.time ?? timeFromOccasion(brief.occasion) ?? "midday";
+  const venue = scene.venue;
   const shared = sel.plating.service === "shared";
-  const place = venueType(venue, sel.scene.venueType);
+  const place = venueType(venue, scene.venueType);
   return {
     specVersion: "0.2",
     operatingUnit: brief.operatingUnit,
@@ -69,16 +88,16 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
     occasion: brief.occasion,
     heroDish: brief.heroDish,
     scene: {
-      setting: sel.scene.setting,
+      setting: scene.setting,
       venue,
-      party: sel.scene.party,
+      party: scene.party,
       time,
-      surface: sel.scene.surface ?? (shared ? undefined : place?.surface) ?? defaultSurface(venue, sel.scene.party, shared),
+      surface: scene.surface ?? (shared ? undefined : place?.surface) ?? defaultSurface(venue, scene.party, shared),
       // A seat, step or the ground chosen before the table rule falls back to the surface's own description.
-      surfaceText: (seatLikeSurface(sel.scene.surfaceText) ? undefined : sel.scene.surfaceText && withoutRoundTable(sel.scene.surfaceText)) ?? place?.surfaceText,
+      surfaceText: (seatLikeSurface(scene.surfaceText) ? undefined : scene.surfaceText && withoutRoundTable(scene.surfaceText)) ?? place?.surfaceText,
       venueType: place?.id,
-      environmentNote: sel.scene.environmentNote?.trim() || undefined,
-      ...(sel.scene.seated && sel.scene.party === "2" ? { seated: true, pose: sel.scene.pose ?? DEFAULT_POSE } : {}),
+      environmentNote: scene.environmentNote?.trim() || undefined,
+      ...(scene.seated && scene.party === "2" ? { seated: true, pose: scene.pose ?? DEFAULT_POSE } : {}),
     },
     camera: sel.camera,
     sku: { ...sku, glass: resolveGlass(sku, venue, sel.glass) },

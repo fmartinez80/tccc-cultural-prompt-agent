@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import { useEffect } from 'react';
 
 import type { RuleEffects } from '../../api.ts';
-import type { Selections } from '../../shared/spec.ts';
+import { SCENE_LIMITS, limitScene, type Selections } from '../../shared/spec.ts';
 import type { Decision, SceneSpec, SurfaceChoice } from '../../shared/types.ts';
 import { useAgentTask } from '../lib/useAgentTask.ts';
 import { useOnSignedIn } from '../lib/useOnSignedIn.ts';
@@ -74,11 +74,14 @@ export function SceneStep({
   onGlass: (g: boolean) => void;
   onNext: () => void;
 }) {
-  const scene: Scene = sel.scene ?? {
-    setting: 'indoor',
-    venue: 'home',
-    party: '1',
-  };
+  // Held to what this build offers, so a saved project that picked two people opens as one.
+  const scene: Scene = limitScene(
+    sel.scene ?? {
+      setting: 'indoor',
+      venue: 'home',
+      party: '1',
+    }
+  );
   const time: SceneSpec['scene']['time'] | undefined = scene.time ?? rules?.timeFromOccasion ?? undefined;
   const venueRule = rules?.venues.find((v) => v.venue === scene.venue);
   const surfaceTask = useAgentTask('surface');
@@ -194,17 +197,19 @@ export function SceneStep({
         />
       </div>
 
-      <div className={styles.field}>
-        <span className={styles.fieldLabel}>People at the table</span>
-        <Switch isSelected={!!scene.seated} onChange={(seated) => update(seated ? { seated, party: '2' } : { seated: false })}>
-          {scene.seated ? 'Yes, two people sit at the table' : 'No, the table is set but nobody sits at it'}
-        </Switch>
-        <div className={styles.hint}>
-          {scene.seated
-            ? 'They sit at a corner of the table, at a right angle to each other. Pick their pose below; you describe who they are and what they wear on Review the Sketch.'
-            : 'The place settings show who the meal is for; nobody appears at the table.'}
+      {SCENE_LIMITS.seatedPeople && (
+        <div className={styles.field}>
+          <span className={styles.fieldLabel}>People at the table</span>
+          <Switch isSelected={!!scene.seated} onChange={(seated) => update(seated ? { seated, party: '2' } : { seated: false })}>
+            {scene.seated ? 'Yes, two people sit at the table' : 'No, the table is set but nobody sits at it'}
+          </Switch>
+          <div className={styles.hint}>
+            {scene.seated
+              ? 'They sit at a corner of the table, at a right angle to each other. Pick their pose below; you describe who they are and what they wear on Review the Sketch.'
+              : 'The place settings show who the meal is for; nobody appears at the table.'}
+          </div>
         </div>
-      </div>
+      )}
 
       {scene.seated && (
         <div className={`${styles.field} ${styles.poseField}`}>
@@ -228,12 +233,16 @@ export function SceneStep({
           onChange={(v) => update({ party: v as Scene['party'] })}
           options={PARTY_OPTIONS.map((o) => ({
             ...o,
-            // Group and family layouts aren't built yet; seated people come as a pair for now.
-            disabled: o.value === 'group' || o.value === 'family' || (!!scene.seated && o.value === '1'),
+            // Group and family layouts aren't built yet; two people are off on main (SCENE_LIMITS), and seated people come as a pair.
+            disabled: o.value === 'group' || o.value === 'family' || (o.value === '2' && !SCENE_LIMITS.twoDiners) || (!!scene.seated && o.value === '1'),
           }))}
         />
         <div className={styles.hint}>
-          {scene.seated ? 'One seated person, groups and families come in a future build.' : 'Group and family layouts come in a future build.'}
+          {scene.seated
+            ? 'One seated person, groups and families come in a future build.'
+            : SCENE_LIMITS.twoDiners
+              ? 'Group and family layouts come in a future build.'
+              : 'Every scene is set for one person for now; two people, groups and families come in a future build.'}
         </div>
       </div>
 

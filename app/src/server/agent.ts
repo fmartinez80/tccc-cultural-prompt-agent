@@ -8,11 +8,11 @@
 import { z } from 'zod';
 import tablewareStyle from '../../rules/tableware-style.json';
 import { ON_THE_GO_SURFACE_RULE, benchSurface, onTheGoSurfaceRule, seatLikeSurface, withoutRoundTable } from '../shared/registry.ts';
-import { foodStylingRules } from '../shared/rules.ts';
+import { angleById, backgroundView, foodStylingRules } from '../shared/rules.ts';
 import { environmentBrief, venueType } from '../shared/venues.ts';
 import type { TextTask } from './gemini.ts';
 import { keywords, knowledgeBlock, loadKnowledge, type ContextFocus } from './knowledge.ts';
-import type { Selections } from '../shared/spec.ts';
+import { limitScene, type Selections } from '../shared/spec.ts';
 import type { PromptLesson } from '../shared/feedback.ts';
 import { ImageCheck, Story, Validation, foodLabels, storyFacts } from '../shared/story.ts';
 import {
@@ -91,7 +91,7 @@ function sceneWords(scene: { venue: Venue; venueType?: string | undefined } | un
  * eaten: what is served there, and what it is served on, depends on the venue.
  */
 function venueFit(sel: Selections, step: 'prep' | 'plating' | 'sides'): string {
-  const scene = sel.scene;
+  const scene = sel.scene && limitScene(sel.scene);
   if (!scene) return '';
   const place = venueType(scene.venue, scene.venueType)?.label;
   const where = `${scene.venue === 'on-the-go' ? 'on the go' : `at ${scene.venue === 'home' ? 'home' : 'a restaurant'}`}${place ? ` (${place})` : ''}`;
@@ -190,9 +190,10 @@ function briefText(b: Brief, sel: Selections = {}): string {
       `Chosen sides: ${sel.sides.accompaniments.map((a) => `${a.name} (${a.role}, ${a.vessel}${a.vesselStyle ? `, ${a.vesselStyle}` : ''})`).join('; ') || 'none'}`
     );
   if (sel.scene) {
-    const place = venueType(sel.scene.venue, sel.scene.venueType);
+    const scene = limitScene(sel.scene);
+    const place = venueType(scene.venue, scene.venueType);
     lines.push(
-      `Scene: ${sel.scene.setting}, ${sel.scene.venue}${place ? ` (${place.label})` : ''}, party of ${sel.scene.party}${sel.scene.time ? `, ${sel.scene.time}` : ''}`
+      `Scene: ${scene.setting}, ${scene.venue}${place ? ` (${place.label})` : ''}, party of ${scene.party}${scene.time ? `, ${scene.time}` : ''}`
     );
     const env = environmentBrief(sel.scene);
     if (env) lines.push(env);
@@ -284,7 +285,7 @@ Write:
   - One or two sentences.
   Food labels: ${foodLabels(facts).map((l) => `${l.label} = ${l.what}, on ${l.vessel}`).join('; ')}.
   (The product and napkin labels have fixed text; do not write them.)
-- environmentalOverview: the environment segment of the image prompt, in two parts. Start with "Table:" and describe the tabletop the objects stand on, building on the fixed surface: material, color, finish, and a cloth or runner only if it belongs to this place. Then "Background:" and give two or three recognizable details of the place in the upper half of the frame (wall color, tile, chairs, plants, a window), soft but still recognizable in shape and color, with at most one or two people far behind as blurred, unrecognizable shapes (no faces, no children) where the place would naturally have them, never anything with writing on it (no menus, signs or posters), because the image model renders it as garbled text. The background should read as this place rather than a blank studio; when there is an environment brief, it is the place. No lighting, camera or color words; those have their own segment.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join('\n- ')}` : ''}${directions?.length ? `\n\nThe art director reviewed a sketch of this layout. Follow their directions in the labels and the environment (the shapes' positions are handled separately, so don't describe moving anything):\n- ${directions.join('\n- ')}` : ''}`;
+- environmentalOverview: the environment segment of the image prompt, in two parts. Start with "Table:" and describe the tabletop the objects stand on, building on the fixed surface: material, color, finish, and a cloth or runner only if it belongs to this place. Then "Background:" and give two or three recognizable details of the place behind the table, as this camera sees it (${backgroundView(angleById(spec.camera.angle))}): wall color, tile, chairs, plants, a window where one would be in view, soft but still recognizable in shape and color, with at most one or two people far behind as blurred, unrecognizable shapes (no faces, no children) where the place would naturally have them, never anything with writing on it (no menus, signs or posters), because the image model renders it as garbled text. The background should read as this place rather than a blank studio; when there is an environment brief, it is the place. No lighting, camera or color words; those have their own segment.${notes?.length ? `\n\nA previous version failed validation. Fix these problems:\n- ${notes.join('\n- ')}` : ''}${directions?.length ? `\n\nThe art director reviewed a sketch of this layout. Follow their directions in the labels and the environment (the shapes' positions are handled separately, so don't describe moving anything):\n- ${directions.join('\n- ')}` : ''}`;
 }
 
 function validateTask(spec: SceneSpec, fullStory: Story): string {
