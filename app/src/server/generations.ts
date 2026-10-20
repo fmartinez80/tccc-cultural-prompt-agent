@@ -8,6 +8,7 @@ import { z } from 'zod';
 
 import type { AppUser } from './auth.ts';
 import { type GeneratedImage } from './gemini.ts';
+import { MAX_PROMPT_CHARS } from '../shared/types.ts';
 import { mediaUrl, putFile } from './store.ts';
 import { db } from './supabase.ts';
 
@@ -96,7 +97,7 @@ export async function reserveGeneration(
     kind,
     label: meta.label ?? null,
     model: meta.model,
-    prompt: meta.prompt.slice(0, 20_000),
+    prompt: meta.prompt.slice(0, MAX_PROMPT_CHARS),
     images,
     status: 'running',
     country: b?.country ?? null,

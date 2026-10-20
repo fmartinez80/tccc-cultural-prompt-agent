@@ -83,6 +83,7 @@ import {
   Surface,
   TimeOfDay,
   Venue,
+  MAX_PROMPT_CHARS,
   type Blueprint,
   type SceneSpec,
 } from './shared/types.ts';
@@ -416,7 +417,7 @@ export const AppRouter = router({
         custom: z.string().max(800).optional(),
         shownOptions: z.array(z.string().max(1200)).max(4).optional(),
         imageUrls: z.array(RefUrl).min(1).max(4).optional(),
-        prompt: z.string().max(20_000).optional(),
+        prompt: z.string().max(MAX_PROMPT_CHARS).optional(),
         elements: z.array(z.string().max(64)).max(20).optional(),
       })
     )
@@ -522,7 +523,7 @@ export const AppRouter = router({
    */
   sketchStart: signedInProcedure
     // styleUrl: the earlier sketch, after an edit in the sketch editor (image 2: copy its drawing style).
-    .input(z.object({ prompt: z.string().min(1).max(12_000), proxyUrl: RefUrl, styleUrl: RefUrl.optional() }))
+    .input(z.object({ prompt: z.string().min(1).max(MAX_PROMPT_CHARS), proxyUrl: RefUrl, styleUrl: RefUrl.optional() }))
     .mutation(async ({ ctx, input }) => {
       try {
         const taskId = await startImageJob(ctx.user, ctx.brief, 'sketch', 'layout-sketch', {
@@ -582,7 +583,7 @@ export const AppRouter = router({
       z.object({
         purpose: z.enum(['element', 'environment', 'scene']),
         label: z.string().min(1).max(64),
-        prompt: z.string().min(1).max(20_000),
+        prompt: z.string().min(1).max(MAX_PROMPT_CHARS),
         aspectRatio: z.string().refine(isWorkspaceAspectRatio, {
           message: `${WORKSPACE_MODEL_LABEL} doesn't offer that aspect ratio.`,
         }),
