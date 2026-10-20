@@ -7,7 +7,7 @@ import { z } from "zod";
 import { BELL_GLASS, NAPKIN_SIZES, SURFACES, VESSELS, RECTANGULAR_TABLE_RULE, VESSEL_SHORT, napkinFoldedCm, skuProxy, vesselPhrase, withoutRoundTable } from "./registry";
 import { Projector } from "./camera";
 import { seatedPeopleRule, hasSeatedPeople, personText } from "./people";
-import { BACKGROUND_PEOPLE_RULE, type LightingPreset, angleById, angleSentence, depthById, glassRules, isLargeSku, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
+import { BACKGROUND_PEOPLE_RULE, type LightingPreset, angleById, angleSentence, backgroundPerspectiveSentence, farEdgeSentence, depthById, glassRules, isLargeSku, lookById, lookSentence, selectLighting, skuLightSentence, withoutHands } from "./rules";
 import { sceneItems } from "./scene";
 import type { Blueprint, Primitive, SceneSpec, Vessel } from "./types";
 import { venueType } from "./venues";
@@ -74,6 +74,8 @@ export interface StoryFacts {
   filmSentence?: string;
   lookSentence: string;
   angleSentence: string;
+  /** The tabletop and background seen through the same camera (rules.ts backgroundPerspectiveSentence). Optional so older stories still load. */
+  backgroundPerspective?: string;
   /** Corner layouts: where the table's corner and edges sit in the frame. Empty otherwise. */
   viewSentence: string;
   framingSentence: string;
@@ -350,6 +352,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
   const hasPartner = bp.primitives.some((p) => p.role === "partner-main");
   const seated = hasSeatedPeople(bp);
   const tableItems = bp.primitives.filter((p) => p.role !== "person").length;
+  const farEdge = farEdgeSentence(angleById(spec.camera.angle));
   const holders = bp.primitives.filter((p) => p.held_by).map((p) => p.held_by!);
   const holding = holders.length === 2 ? " Both people hold their own drink." : holders.length ? ` ${holders[0]} holds their own drink.` : "";
   const serving = seated
@@ -379,14 +382,15 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     skuLightSentence: skuLightSentence(spec.sku, spec.sku.glass, lighting.warmth),
     lookSentence: lookSentence(lookById(spec.camera.look), drinks, depthById(spec.camera.depth)),
     angleSentence: angleSentence(angleById(spec.camera.angle)),
+    backgroundPerspective: backgroundPerspectiveSentence(angleById(spec.camera.angle)),
     viewSentence: cornerViewSentence(spec, bp),
     framingSentence: seated
       ? "The camera looks across the table toward one of its corners, low and close like the brand's meal photography: the food and the Coca-Cola products sit sharp in the front of the frame, and the corner of the table sits near the center. PERSON_1 sits along one side and PERSON_2 at the end, perpendicular to each other, just behind the food; the top edge of the frame cuts across both of them between the chin and the nose, so we see their shoulders, arms and hands but never their eyes."
       : isCornerLayout(bp)
       ? "The camera looks diagonally across the table toward one of its far corners. The two place settings meet at a right angle around that corner, one on the long side and one at the end; what they share sits between them in front of the corner, and the Coca-Cola product sits in the vertical center third of the frame."
       : hasPartner
-      ? "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background. The second place setting sits further back or to the side as a secondary element, and may be partly cropped at the frame's edge."
-      : "The entree and the Coca-Cola product sit together in the vertical center third of the frame; the table's far edge sits at or below the middle of the frame, leaving the upper half for soft background.",
+      ? `The entree and the Coca-Cola product sit together in the vertical center third of the frame; ${farEdge} The second place setting sits further back or to the side as a secondary element, and may be partly cropped at the frame's edge.`
+      : `The entree and the Coca-Cola product sit together in the vertical center third of the frame; ${farEdge}`,
     surfaceText: withoutRoundTable(spec.scene.surfaceText || SURFACES[spec.scene.surface].promptText),
     servingSentence: serving,
     labels: bp.primitives.map((p) => {
@@ -403,7 +407,7 @@ export function storyFacts(spec: SceneSpec, bp: Blueprint): StoryFacts {
     labelInstruction:
       "The labeled shapes in the reference layout are placement guides only. Match each shape to the segment with the same label, and do not render the labels or any text as part of the image.",
     proxyInstruction:
-      "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines. The faint grid on the table top and the floor, and the thin light line across the frame where there is one (the camera's eye level), are perspective guides: build the floor, walls, doorways, windows, shelves and furniture on that same floor plane, so their lines recede to the same vanishing points and meet the same eye level as the table. Do not draw the grid or the line.",
+      "Transform image 1 into a photograph. Image 1 is a layout guide: each colored shape is one object, and its label names the text below that describes it. Keep every object exactly where its shape sits, at the same size, and keep the same camera position and framing; do not zoom in, crop tighter or add objects. Remove all shapes, labels and outlines. The faint grid on the table top, the floor and the back wall, and the thin light line across the frame where there is one (the camera's eye level), are perspective guides: build the floor, walls, doorways, windows, shelves and furniture on that same floor plane and wall, so their lines recede to the same vanishing points and meet the same eye level as the table, and the wall grid's upright lines show the slant every upright in the room (door and window frames, shelf sides, chair and table legs) takes in this view. Do not draw the grid or the line.",
     scaleSentence: scaleSentence(bp),
     productScale: productScaleSentence(spec, bp),
     exclusions: `Only the ${tableItems} objects described above are on the table${seated ? " or in hand" : ""}, and no other drinks or glasses (no beer, wine, water or juice). ${countsSentence(bp)} No text anywhere except the Coca-Cola product's own label: no menus, signs, posters or writing in the background either.${spec.napkinSet && !spec.napkinSet.cutlery.length ? " No fork, knife, spoon or chopsticks anywhere on the table." : ""} ${seated ? seatedPeopleRule(bp) : BACKGROUND_PEOPLE_RULE}`,
@@ -633,7 +637,7 @@ export function compositionSegments(story: Story, facts: StoryFacts): Compositio
       title: "Background + table",
       note: `Not a shape: the tabletop (${facts.surfaceText}) and the place around and behind it`,
       fixed: false,
-      text: withoutRoundTable(story.segments.environmentalOverview),
+      text: [withoutRoundTable(story.segments.environmentalOverview), facts.backgroundPerspective].filter(Boolean).join(" "),
     },
     {
       key: "camera",

@@ -50,7 +50,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
   const table = facts.surfaceText.trim().replace(/[^.!?]$/, "$&.");
   return [
     "Turn image 1 into a detailed black-and-white pencil sketch of the finished scene: the art director's pre-visualization drawing of a food photograph, showing exactly where everything lands in the final frame.",
-    "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines. The faint grid on the table top and the floor, and the thin light line across the frame where there is one (the camera's eye level), are perspective guides: build the floor, walls, doorways, windows, shelves and furniture on that same floor plane, so their lines recede to the same vanishing points and meet the same eye level as the table. Do not draw the grid or the line.",
+    "Image 1 is a layout guide: each colored shape is one object, and its label names the description below. Keep every object exactly where its shape sits, at the same size, and keep the same camera position, height, angle, lens and framing; do not zoom in, crop tighter, re-center or add objects. Remove all shapes, labels and outlines. The faint grid on the table top, the floor and the back wall, and the thin light line across the frame where there is one (the camera's eye level), are perspective guides: build the floor, walls, doorways, windows, shelves and furniture on that same floor plane and wall, so their lines recede to the same vanishing points and meet the same eye level as the table, and the wall grid's upright lines show the slant every upright in the room (door and window frames, shelf sides, chair and table legs) takes in this view. Do not draw the grid or the line.",
     people,
     `Camera: ${facts.lookSentence} ${facts.angleSentence}${facts.viewSentence ? ` ${facts.viewSentence}` : ""} ${facts.scaleSentence}`,
     facts.productScale,
@@ -58,7 +58,7 @@ export function sketchPrompt(spec: SceneSpec, bp: Blueprint, changes: string[] =
     `${seated ? "People and objects" : "Objects"} (${facts.labels.length}, and only these):`,
     ...objects,
     countsSentence(bp),
-    `Table: ${table}${onTheGoSurfaceRule(spec.scene) ? ` ${onTheGoSurfaceRule(spec.scene)}` : ""}${place ? ` ${place}` : ""} Suggest the background only lightly, with a few loose lines, behind the table's far edge.`,
+    `Table: ${table}${onTheGoSurfaceRule(spec.scene) ? ` ${onTheGoSurfaceRule(spec.scene)}` : ""}${place ? ` ${place}` : ""} Suggest the background only lightly, with a few loose lines, behind the table's far edge.${facts.backgroundPerspective ? ` ${facts.backgroundPerspective}` : ""}`,
     ...(dishes.length ? ["Food-styling rules:", ...dishes.flatMap((d) => d.rules.map((r) => `- ${d.label}: ${r}`))] : []),
     ...(changes.length ? ["The art director's changes, which override the layout guide:", ...changes.map((c) => `- ${c}`)] : []),
     `Shade the forms with the light of the photograph: ${facts.lightingSentence}`,
