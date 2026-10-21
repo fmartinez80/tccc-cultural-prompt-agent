@@ -160,7 +160,8 @@ soft room), so each profile leads with what reads in the soft background.
 Wave 1 (2026-10-01) covers the six most-used UK staging venues: the
 terraced or semi-detached kitchen-diner, the living room set up for a
 takeaway or watch party, the back garden patio, the gastropub, the
-traditional pub, and the chippy. Scotland's deltas (tenement kitchen,
+traditional pub, and the chippy. Wave 2 (2026-10-18) adds app-option
+tags and eight gap profiles (see the coverage table). Scotland's deltas (tenement kitchen,
 Scottish pub) are in `uk-scotland.md`. National default zone: an English
 town or city outside London (see ZONE CHARACTERIZATION). File-wide rules
 hold in every profile: nothing legible (chalkboards are the top UK trap,
@@ -168,7 +169,29 @@ see VISUAL & PLATING NORMS), no alcohol cues (the beverage-leak note), no
 brand marks, never a full flag, no identifiable children, no more than
 about 2.5 background faces and none sharp; the brief dictates the SKU.
 
-#### Venue: Terraced or semi-detached kitchen-diner (home, indoor)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | UK profile |
+|---|---|
+| Dining room | Terraced or semi-detached kitchen-diner (outdoor: Back garden patio) |
+| Gen Z apartment | Rented flatshare or first flat, young renters (Scotland: tenement flatshare in `uk-scotland.md`) |
+| Kitchen island | Extended-house kitchen with island (a minority look; the kitchen-diner stays the default home) |
+| Sit-down | Traditional pub (default); Gastropub (warm heritage pub, not a Modern bistro) |
+| Counter service | Chippy |
+| Café | Independent neighbourhood café |
+| Modern bistro | Modern neighbourhood restaurant (small plates, open kitchen) |
+| Street market | Street-food market with stalls and vans |
+| Food truck | Street-food market with stalls and vans (UK trucks trade in markets and event pitches); also the burger van in Football ground on match day |
+| Park | Town park bench or lawn |
+| Beach or waterfront | Seaside promenade |
+| Stadium or event | Football ground on match day |
+
+The living-room takeaway/watch-party profile serves no single option and
+carries no tag; it stays as context for GAME NIGHT.
+
+#### Venue: Terraced or semi-detached kitchen-diner (home, indoor) · app: Dining room
 - Use for: home indoor; casual lunch (1, 2, 3), dinner at home, Sunday
   roast and Christmas or Easter at home (with the table extended); the
   national default home interior. Terraced houses are the most common
@@ -289,7 +312,7 @@ about 2.5 background faces and none sharp; the brief dictates the SKU.
   EDITORIAL for the room, consistent with ENVIRONMENT; no new search this
   pass.
 
-#### Venue: Back garden patio (home, outdoor)
+#### Venue: Back garden patio (home, outdoor) · app: Dining room, outdoor
 - Use for: home outdoor; summer lunch or barbecue, garden birthday party,
   a back-garden projector screening; 1 to small group; seasonal, weather
   contingent. Not universal: 12% of GB households (21% in London) have no
@@ -339,7 +362,7 @@ about 2.5 background faces and none sharp; the brief dictates the SKU.
   rattan for UK patios](https://www.furnitureinfashion.net/blog/best-rattan-garden-furniture-uk-patios/));
   HIGH for garden access (ONS); EDITORIAL for staging.
 
-#### Venue: Gastropub
+#### Venue: Gastropub · app: Sit-down
 - Use for: restaurant, indoor; weekend lunch, Sunday roast out, dinner,
   birthday meal; 1, 2 or a small group. A real, more recent register (from
   the 1990s), not the default; the traditional pub stays the default group
@@ -399,7 +422,7 @@ about 2.5 background faces and none sharp; the brief dictates the SKU.
   [Yahoo/Independent — best places for a roast](https://www.yahoo.com/news/15-best-places-roast-dinner-100000888.html);
   [Wikipedia — Gastropub](https://en.wikipedia.org/wiki/Gastropub)).
 
-#### Venue: Traditional pub (the default group venue)
+#### Venue: Traditional pub (the default group venue) · app: Sit-down
 - Use for: restaurant, indoor; weekday lunch, solo pub lunch, dinner,
   Sunday roast out, food-led pub screening (see GAME NIGHT); all party
   sizes. The national default for eating out in a group [HIGH].
@@ -458,7 +481,7 @@ about 2.5 background faces and none sharp; the brief dictates the SKU.
   [The Victorian Emporium — Victorian pub renovation](https://www.thevictorianemporium.com/publications/advice/article/10_essential_elements_of_victorian_pub_renovation);
   [The Spaces — pub design](https://thespaces.com/pub-design-is-going-back-to-basics/)).
 
-#### Venue: Chippy (fish-and-chip shop, takeaway counter or small sit-in)
+#### Venue: Chippy (fish-and-chip shop, takeaway counter or small sit-in) · app: Counter service
 - Use for: meal on the go (chips eaten from the paper outdoors) and
   restaurant indoor (a small sit-in area); Friday-night takeaway pickup;
   1 or 2. The UK's signature everyday hot takeaway (see catalog: Fish and
@@ -517,6 +540,408 @@ about 2.5 background faces and none sharp; the brief dictates the SKU.
   [The Infatuation — London fish and chips](https://www.theinfatuation.com/london/guides/best-fish-and-chips-london));
   LOW for the pickled-egg jar and the regional variants (model knowledge,
   not verified this pass).
+
+#### Venue: Rented flatshare or first flat, young renters (home, indoor) · app: Gen Z apartment
+- Use for: home indoor; a young adult or young couple at a small table,
+  friends round for a takeaway or a Friday night in; 1 to 3. Wave 2
+  (2026-10-18). About a third of men and a fifth of women aged 20–34 live
+  with parents, and private shared renting is the other main young tenure
+  [HIGH — ONS, see ENVIRONMENT]; so the honest version is a rented room or
+  flat furnished partly by the landlord, not a designed home.
+- Soft background (the core): landlord-white or magnolia walls the tenant
+  may not repaint or drill [MEDIUM — SpareRoom on landlord rules; a
+  magnolia-walled flat in an IKEA home visit], so the personal layer is
+  removable: posters and art prints in clip frames or propped on a shelf,
+  a strip of fairy lights or a small paper-shade lamp, adhesive hooks, one
+  or two trailing plants (pothos, a spider plant) on the sill. Flat-pack
+  furniture in white, birch-effect or black: a cube shelf unit with a few
+  books, a record player or a speaker, a candle; a small two-seat sofa in
+  grey with a throw, or, where the flatshare has no living room (almost
+  half of UK flatsharers per SpareRoom research [MEDIUM, one survey]), the
+  kitchen table is the social space and the background is the kitchen
+  itself: a short run of plain white or grey units, a kettle, a
+  clothes-drying airer folded against the wall. Window: a white uPVC
+  double-glazed sash or casement, a roller blind, the brick of the next
+  terrace, a converted Victorian house opposite or the grey cladding of a
+  new-build block; condensation or a radiator under it. Light: flat grey
+  daylight by day; at night, warm fairy-light pinpoints and a single lamp
+  against a dark window. Palette: off-white, birch, grey, plant green,
+  warm amber dots. Signature shapes: the clip-framed poster rectangle, the
+  fairy-light string, the cube shelf grid, the folded airer, the radiator
+  under the window. Density: small and slightly crowded, a few personal
+  things layered on plain landlord stock [EDITORIAL].
+- Shell: a converted Victorian or Edwardian terrace split into flats, a
+  1960s–70s low-rise block, or a small new-build flat (build-to-rent) with
+  laminate floor and low ceiling; carpet in older conversions [EDITORIAL].
+- The table as set here: a small two-seat round or square table (white,
+  birch or a cheap drop-leaf), or a coffee table; mismatched mugs and
+  plates, a takeaway bag or foil trays, kitchen roll for napkins.
+- Subregional variants and the national default: London (smaller, a
+  shared kitchen-living room, a balcony on a new-build); northern and
+  student cities (a bigger room in a terrace for less); Scotland: tenement
+  flatshare, see `uk-scotland.md`. National default: a rented flat in a
+  converted terrace, magnolia walls and a few personal touches.
+- Hallucination traps: the global Pinterest/Scandinavian showroom (white
+  oak, boucle chairs, styled emptiness); a New York loft with exposed
+  brick and steel windows; a big open-plan new-build kitchen; London
+  skyline views from an ordinary flat; Union Jack cushions.
+- Never stage: beer cans, wine or spirits on the shelves; legible posters,
+  book spines, screens or letters; brand logos on appliances.
+- Prompt-ready line: "A young renter's flat in a British terrace
+  conversion: a small table sharp in front, behind it softly blurred
+  magnolia walls with clip-framed prints, a string of warm fairy lights, a
+  grey two-seat sofa, a trailing plant on the sill of a white uPVC window."
+- Confidence and sources: MEDIUM-LOW for the décor (one search, listings
+  and tenant blogs: [SpareRoom — landlord-friendly flatshare hacks](https://blog.spareroom.co.uk/tips-and-advice-4-landlord-friendly-flatshare-interior-hacks);
+  [SpareRoom — iconic IKEA buys](https://blog.spareroom.co.uk/our-top-five-iconic-ikea-buys);
+  [IKEA — home visit, a live-work flatshare](https://www.ikea.com/eg/en/ideas/home-visit-a-live-work-flatshare-for-two-stylists-pubf60ebed0/);
+  [Yahoo — renters losing living rooms](https://www.yahoo.com/news/isolated-lonely-millions-renters-see-173137847.html));
+  HIGH for tenure (ONS); EDITORIAL for staging.
+
+#### Venue: Extended-house kitchen with island (home, indoor) · app: Kitchen island
+- Use for: home indoor; a seat at the island for lunch, a weekend
+  takeaway, a quick dinner; 1 to 3. Wave 2 (2026-10-18). Real but a
+  minority: retailer studies put islands in roughly one UK home in five
+  (Wickes) or about 10–14% (Häfele) [MEDIUM-LOW — commercial tier]. They
+  live in single-storey rear extensions of terraces and semis and in newer
+  estate houses, not in the typical kitchen-diner above.
+- Soft background (the core): a rear extension: a wall of glazing behind
+  or beside, bi-fold or sliding doors in dark grey aluminium frames, with
+  one or two rooflights or a glazed roof strip letting in flat white
+  light; through the glass, a short lawn, a fence and the backs of
+  neighbouring houses in brick (the same narrow garden as the patio
+  profile). Opposite, a run of handleless or Shaker units in navy, sage,
+  dark green, warm grey or white, a tall bank of oven housing and an
+  integrated fridge; a quartz or white composite worktop with a kettle, a
+  toaster, a fruit bowl, a utensil pot. Two or three pendants hang in a
+  row over the island (glass globes, matt black or brass domes); a
+  radiator is replaced by underfloor heating, so no radiator shows. In the
+  middle distance, a dining table or a small sofa at the garden end
+  (the "kitchen-diner-living" room). Light: cool daylight from the
+  rooflights and doors by day, the pendant row and under-cabinet strips
+  warm by evening, the garden going blue outside. Palette: navy or sage
+  units, white quartz, grey aluminium, garden green, brass or black
+  accents. Signature shapes: the bi-fold door grid, the rooflight
+  rectangle, the row of pendants, the bar stools' backs, the kettle.
+  Density: newer and tidier than the kitchen-diner, but lived-in: post,
+  a phone charger, a fruit bowl [EDITORIAL].
+- Shell: a single-storey brick or rendered rear extension with a flat
+  roof, polished concrete-effect tiles or wide oak-effect boards [MEDIUM —
+  knock-through and extension layouts, see the kitchen-diner profile].
+- The table as set here: the island top itself (white quartz or
+  oak-effect laminate), the overhang with two or three upholstered or
+  wooden bar stools, a wooden board or placemats, everyday plates.
+- Subregional variants and the national default: new-build estate house
+  (a smaller island or peninsula, grey gloss units, a patio door instead
+  of bi-folds); Northern Ireland reports the highest island share (Häfele).
+  National default: a semi or terrace with a rear extension, island,
+  pendants and bi-fold doors onto a small garden.
+- Hallucination traps: an American show kitchen (double-door fridge,
+  six-burner range, vast room, marble everywhere); a farmhouse Aga with
+  copper pans; a London penthouse view; an island in every UK kitchen
+  (the kitchen-diner stays the default home).
+- Never stage: wine glasses, a wine fridge or bottles; legible labels or
+  post; branded appliances.
+- Prompt-ready line: "A British rear-extension kitchen: the white quartz
+  island top sharp in front, behind it a row of three softly glowing
+  pendants, navy Shaker units with a kettle on the worktop and grey
+  bi-fold doors opening onto a small fenced garden under a white sky."
+- Confidence and sources: MEDIUM-LOW; one search ([Insight DIY — a fifth
+  of Brits consider an island a dream feature](https://www.insightdiy.co.uk/news/a-fifth-of-brits-consider-a-kitchen-island-a-dream-feature/15203.htm);
+  [Häfele — a picture of the UK kitchen](https://www.hafele.co.uk/en/info/inspiration/kitchens-for-living-a-picture-of-the-uk-kitchen/206474/);
+  [Houzz UK — kitchen trends 2024](https://www.houzz.co.uk/pro-learn/blog/5-major-uk-kitchen-trends-in-2024),
+  all commercial tier); unit colours and the bi-fold look are LOW (model
+  knowledge, not verified this pass).
+
+#### Venue: Independent neighbourhood café (restaurant, indoor) · app: Café
+- Use for: café; a solo lunch (sandwich, toastie, soup, jacket potato),
+  two friends at a small table; 1 or 2. Wave 2 (2026-10-18). The
+  independent café is the second solo default after the pub (see the
+  away-from-home scenario); genericize any chain look.
+- Soft background (the core): a counter with an espresso machine as a
+  rounded steel shape with a soft steam plume, a grinder beside it, and a
+  glass cake stand or a short pastry case with loaf cakes, brownies,
+  sausage rolls and wrapped sandwiches; the counter front in tiles (white
+  metro, green or terracotta), plywood or painted panelling [MEDIUM —
+  plywood, tiled counters and terracotta in London cafés per Dezeen,
+  Designboom and b3 Designers; project showcases, not a survey]. Behind
+  the counter, open shelves with stacked cups and bags of beans as small
+  repeating shapes, a menu board above (a dark or pale rectangle, always
+  illegible). Walls: white, or a warm painted colour (ochre, terracotta,
+  sage); a few framed local prints; plants on shelves. Middle distance:
+  two or three other small tables, a window bench with cushions, a laptop
+  user's blurred back; the plate-glass shopfront with the high street or
+  a terrace street beyond, rain-streaked or grey. Light: big window light,
+  cool grey by default; a few warm pendants (enamel or bare bulbs) over
+  the counter. Palette: white or warm paint, pale wood or plywood, tile
+  colour, steel. Signature shapes: the espresso machine silhouette, the
+  glass cake dome, the stacked cup tower, the shop-window grid, a bentwood
+  or plywood chair back. Density: compact, busy at lunch, a little worn
+  [EDITORIAL].
+- Shell: a high-street or parade shop unit or a terrace corner shop
+  conversion; tiled, painted concrete or wooden floor [EDITORIAL].
+- The table as set here: a small round or square table in pale wood,
+  marble-effect or enamel, no cloth; a toastie or sandwich on a plain
+  plate or wooden board, a crisp bag, a paper napkin, a small pot of
+  cutlery; cups out of the hero zone (intruder drinks) unless the brief
+  allows.
+- Subregional variants and the national default: London and big-city
+  third-wave cafés (concrete or plywood, minimal); market-town tea room
+  (floral china, cakes under domes; use only when the brief asks, it
+  reads as twee); northern and seaside cafés (Formica tables, a plainer
+  "caff" look; breakfast-leaning, so serve lunch dishes). National
+  default: a town independent café with a tiled counter and a cake stand.
+- Hallucination traps: a Parisian café with wicker chairs and an awning;
+  an American diner; a global chain café's palette; chintz "olde tea shop"
+  as the default; latte art in the hero zone.
+- Never stage: alcohol; legible menu, cups or bags; chain logos.
+- Prompt-ready line: "A small British neighbourhood café: a toastie on a
+  wooden board sharp on a pale table, behind it a softly blurred tiled
+  counter with an espresso machine, a glass cake dome and stacked cups,
+  and a rain-grey high street through the window."
+- Confidence and sources: MEDIUM-LOW; one search ([Dezeen — Ozone Emma
+  Street by Box 9](https://www.dezeen.com/2019/12/09/ozone-emma-street-london-roastery-restaurant-box-9-interiors/amp/);
+  [Designboom — Wilson Holloway tiled café](https://designboom.com/?p=331007);
+  [b3 Designers — Urban Baristas](https://www.b3designers.co.uk/portfolio/projects/urban-baristas-flagship-shop/);
+  [Warner Contract Furniture — independent coffee culture](https://www.warnercontractfurniture.co.uk/independent-coffee-culture-uk/),
+  commercial tier); EDITORIAL for staging.
+
+#### Venue: Modern neighbourhood restaurant (small plates, open kitchen) (restaurant, indoor) · app: Modern bistro
+- Use for: restaurant indoor; a design-led weekend lunch or dinner with
+  friends, a birthday meal for a younger group; 1 to 4. Wave 2
+  (2026-10-18). The true Modern bistro for the UK: the city
+  "neighbourhood restaurant" with small or sharing plates and an open
+  kitchen (London, Manchester, Bristol, Glasgow), not a pub. The
+  gastropub above is a warm heritage room and is tagged Sit-down.
+- Soft background (the core): a cooler, pared-back room: raw or polished
+  concrete, limewashed or bare plaster walls in grey, stone or putty,
+  sections of reclaimed brick, dark-stained oak or walnut panelling or
+  banquette backs [MEDIUM — concrete with warm timber in London and
+  south-coast restaurants per Dezeen and Archello; dark wood and raw
+  plaster per a London restaurant roundup]. The open kitchen is the light
+  source of the middle distance: a long steel pass under a hood, a warm
+  orange glow from a grill or wood oven, chefs in dark aprons as blurred
+  moving figures, a short counter of stools facing the kitchen (food
+  counter only, no bar). Statement pendants: a row of large paper, glass
+  or spun-metal shades, or one long linear light over a communal table.
+  Shelves hold ceramics and jars, not bottles. Middle distance: a few
+  closely spaced tables, crittall-style or large plate-glass windows onto
+  a city street at dusk. Light: low and directional; warm pools on each
+  table against a cooler room, the kitchen glow behind. Palette: concrete
+  grey, dark oak, stone, matt black, a touch of rust or olive. Signature
+  shapes: the steel pass and hood, the grill glow, the pendant row, the
+  dark banquette line, handmade plates. Density: tight, buzzy, design-led
+  but relaxed [EDITORIAL].
+- Shell: a converted warehouse, railway arch or high-street shop unit;
+  concrete or dark wood floor; exposed ducting or a plain ceiling.
+- The table as set here: bare dark oak, concrete-topped or zinc table, no
+  cloth; handmade stoneware plates in speckled grey, sand or charcoal,
+  several small plates to share, linen napkins, cutlery in a small pot;
+  tumblers of water at most; a dark wooden or black steel chair back.
+- Subregional variants and the national default: London (railway arch or
+  Victorian shop unit, very compact); Manchester and Leeds (mill or
+  warehouse conversions, brick and steel); Bristol and Brighton (more
+  plants, pale timber). National default: a city neighbourhood restaurant
+  with concrete, dark oak and an open-kitchen glow.
+- Hallucination traps: a gastropub (blackboards, log burner, heritage
+  paint); white-cloth fine dining with towers and foams; a cocktail bar
+  backdrop with lit bottle shelves; Edison-bulb hipster cliché in every
+  frame; a Michelin-star room.
+- Never stage: a bar, back-bar shelves, bottles, taps, wine glasses,
+  decanters, ice buckets; legible menus; white tablecloths.
+- Prompt-ready line: "A modern British neighbourhood restaurant: small
+  sharing plates on a bare dark-oak table sharp in front, behind it
+  softly blurred concrete walls, a row of large paper pendants and the
+  warm orange glow of an open kitchen's grill behind a steel pass."
+- Confidence and sources: MEDIUM-LOW; one search ([Dezeen — timber and
+  open-fire cooking warm a concrete interior](https://www.dezeen.com/2018/10/08/fabled-studio-st-leonards-restaurant-concrete-interiors/amp/);
+  [Archello — Londrino](https://archello.com/project/londrino);
+  [Domkapa — best-designed London restaurants](https://domkapa.com/en/blog/inspiration/10-of-the-best-designed-restaurants-in-london/),
+  commercial tier); sources are older projects; EDITORIAL for staging.
+
+#### Venue: Town park bench or lawn (on the go, outdoor) · app: Park
+- Use for: meal on the go; the meal-deal lunch on a bench, chips or a
+  sandwich on the grass on a warm day; 1 to 3. Wave 2 (2026-10-18). The
+  bench is the UK's defining on-the-go surface (see the meal-on-the-go
+  scenario).
+- Soft background (the core): a Victorian or Edwardian municipal park:
+  wide tarmac or gravel paths edged with grass, mature plane, lime, oak
+  or horse-chestnut trees as large soft green masses, a cast-iron
+  bandstand painted dark green or maroon in the middle distance, a
+  drinking fountain or war memorial, a café or refreshment kiosk with a
+  hatch [MEDIUM — Victorian parks in Taunton, Cardiff, Bath, Ramsgate
+  and Widnes all list bandstands, memorials and cafés or kiosks]. Black
+  painted railings and gates at the edge; flower beds with bedding plants;
+  green slatted benches along the path; a dog-walker or jogger blurred;
+  beyond the trees, red-brick terraces or a church spire. Light: the
+  default is soft white overcast; a sunny summer day brings dappled
+  shade, crowded lawns and picnic blankets; autumn turns the trees amber.
+  Palette: grass green, dark green paint, tarmac grey, brick red, white
+  sky. Signature shapes: the bandstand's octagonal roof, the slatted
+  bench, the curving path, the tree canopy, the railing line.
+- Shell: open air; tarmac path, grass, a bin and a lamp post nearby.
+- The table as set here: the bench slats or a low wall: a meal-deal
+  sandwich wedge and crisps, chips in paper, a pasty in a bag, resting on
+  the bench or its paper, never in a hand (§7.5).
+- Subregional variants and the national default: London (big royal parks
+  or a local common, plane trees, deckchairs in summer); northern towns
+  (a park on a slope with views over terraces and hills); Scotland: see
+  `uk-scotland.md` and `uk.md`. National default: a town Victorian park
+  bench, overcast, trees and a bandstand behind.
+- Hallucination traps: Central Park or a Parisian garden with clipped
+  gravel; stately-home lawns with a mansion; palm trees; Big Ben or the
+  London Eye behind every park; strong Mediterranean sun.
+- Never stage: cans of beer or cider on the bench, legible bench
+  plaques, park signs or litter branding; identifiable children (a
+  playground far off at most).
+- Prompt-ready line: "A British town park on a grey day: a sandwich and
+  crisps sharp on the slats of a green bench, behind it a softly blurred
+  curving tarmac path, big plane trees and a dark green cast-iron
+  bandstand under a white sky."
+- Confidence and sources: MEDIUM; one search ([Somerset Council — Vivary
+  Park](https://www.somerset.gov.uk/vivary-park/); [Parks & Gardens —
+  Victoria Park, Cardiff](https://www.parksandgardens.org/places/victoria-park-cardiff);
+  [Bath & NE Somerset — Royal Victoria Park](https://www.bathnes.gov.uk/visit-royal-victoria-park));
+  bench plaques not found in sources (not used).
+
+#### Venue: Street-food market with stalls and vans (on the go, outdoor) · app: Street market, Food truck
+- Use for: meal on the go; a weekend or evening street-food market, a
+  town-centre charter market's food corner, a summer food festival; 1 to
+  4. Wave 2 (2026-10-18). Serves Food truck too: in the UK the food truck
+  is a converted van, horsebox or trailer trading in a market or event
+  pitch beside gazebo stalls, rarely alone on a kerb [MEDIUM — NCASS;
+  British Street Food; St Albans council market].
+- Soft background (the core): a row of trading units under a grey sky:
+  white or coloured pop-up gazebos with a front table and a hand-painted
+  or printed banner (always illegible), converted vintage vans (a
+  corrugated Citroën H-type silhouette) and wooden horsebox trailers with
+  a drop-down hatch, a chalked board and a short queue of blurred coats
+  [MEDIUM — NCASS on gazebos vs trailers; British Street Food on H vans and
+  horseboxes]. Steam and grill smoke rising from the hatches; festoon
+  lights strung between stalls for evening [LOW — not found in sources;
+  model knowledge]; wooden pallet or picnic benches as communal seating;
+  beyond, a car park, a canal-side warehouse, a railway arch or a
+  market square with brick and stone façades. Light: flat overcast
+  daylight, or at dusk the warm glow of each hatch and a line of bulb
+  bokeh. Palette: white canvas, painted van colours (teal, red, cream),
+  timber, smoke grey, warm bulb amber. Signature shapes: the van hatch
+  with its awning flap, the gazebo peak, the picnic bench, the steam plume.
+- Shell: open air on tarmac, cobbles or a covered market yard.
+- The table as set here: a picnic bench or a standing shelf at a stall;
+  food in compostable card boxes or paper trays with a wooden fork,
+  paper napkins.
+- Subregional variants and the national default: London (railway arches,
+  canalside yards, very dense); northern cities (covered market halls and
+  warehouse yards); market towns (a weekly charter market with produce
+  stalls and two or three food vans). National default: a town or city
+  weekend street-food market of gazebos and converted vans.
+- Hallucination traps: an American food-truck rally with chrome trucks
+  and graffiti; an Asian night market with neon; a Christmas market with
+  wooden chalets out of season; craft-beer and prosecco vans.
+- Never stage: bar vans, beer, prosecco or gin trailers (common at real
+  markets: keep them out of frame), plastic pint cups; legible banners,
+  boards and prices; brand logos.
+- Prompt-ready line: "A British street-food market at dusk: a card box of
+  food sharp on a wooden picnic bench, behind it softly blurred white
+  gazebos, a converted vintage van with its hatch glowing, steam rising
+  and a line of warm bulb lights under a grey sky."
+- Confidence and sources: MEDIUM; one search ([NCASS — gazebo or stall](https://www.ncass.org.uk/mobile-catering-home/content/buying-a-catering-unit/gazebo-or-stall);
+  [British Street Food — H vans and horseboxes](https://britishstreetfood.co.uk/?p=17365);
+  [St Albans — charter market update](https://www.stalbans.gov.uk/news/charter-market-update));
+  LOW for festoon lights.
+
+#### Venue: Seaside promenade (on the go, outdoor) · app: Beach or waterfront
+- Use for: meal on the go; chips from the paper on the seafront, a summer
+  day out; 1 to 4. Wave 2 (2026-10-18). The classic chippy-on-the-wall
+  setting (see the meal-on-the-go scenario and the chippy's seaside
+  variant).
+- Soft background (the core): a long promenade with cast-iron railings
+  painted dark green, blue or white with a silver or white handrail,
+  steps down to a shingle or sand beach; Victorian open-sided shelters
+  with hipped roofs, timber columns and slatted seats, or 1960s concrete
+  shelters with flat roofs [HIGH — Hove railings and Weymouth and Colwyn
+  Bay shelters in heritage listings]; a row of brightly painted timber
+  beach huts (pastel or primary colours) [HIGH — Hove, Scarborough,
+  Southend listings]; groynes running into a grey-green sea; a pier on
+  legs in the far distance; gulls as soft white shapes; seafront terraces
+  and hotels in white or pastel stucco behind. A kiosk or ice-cream hut
+  as a small lit box. Light: bright but hazy, often overcast or windy;
+  a fresh blue summer day is real but seasonal. Palette: grey-green sea,
+  pebble grey or sand, painted railings, pastel huts, white stucco.
+  Signature shapes: the railing line, the shelter roof, the beach-hut
+  row, the pier, a gull.
+- Shell: open air; tarmac or paved promenade, sea wall.
+- The table as set here: the top of the sea wall, a shelter bench or
+  the railing ledge; chips and fish in white paper or a card box with a
+  wooden fork, the paper opened, never in a hand.
+- Subregional variants and the national default: south coast (Brighton,
+  Bournemouth: shingle or sand, stucco terraces); east and Yorkshire
+  coast (Scarborough, Whitby: cliffs, harbour, a darker sea); Blackpool
+  and the north-west (tower, trams, wide sands); Wales (Llandudno pier,
+  Victorian terraces). National default: a seaside town promenade with
+  railings, shelters, beach huts and a pier far off.
+- Hallucination traps: a Mediterranean beach with turquoise water and
+  umbrellas; Californian boardwalk; palm trees (except a few on the south
+  coast, keep out); Union Jack bunting; a sunny tropical sky as default.
+- Never stage: cans of lager or cider on the wall; legible kiosk signs or
+  pier names; amusement-arcade logos; identifiable children.
+- Prompt-ready line: "A British seaside promenade: fish and chips in
+  open white paper sharp on the sea wall, behind it softly blurred
+  green-painted railings, a row of pastel beach huts, a grey-green sea
+  with groynes and a pier far off under a pale sky."
+- Confidence and sources: MEDIUM-HIGH; one search ([Brighton & Hove —
+  King's Esplanade railings](https://design.brighton-hove.gov.uk/planning/heritage/local-list-heritage-assets-directory/kings-esplanade-seafront-railings-hove-street-brighton-boundary-hove);
+  [Historic England — promenade shelter, Weymouth](https://historicengland.org.uk/listing/the-list/list-entry/1328298);
+  [Dezeen — beach huts at Milford-on-Sea](https://www.dezeen.com/2016/09/21/colourful-beach-huts-promenade-coastal-defence-wall-snug-architects-southern-england/amp/));
+  regional variants LOW.
+
+#### Venue: Football ground on match day (on the go, outdoor) · app: Stadium or event
+- Use for: meal on the go; pre-match food outside the ground, a family or
+  group match day; 1 to 4. Wave 2 (2026-10-18). Pairs with GAME NIGHT;
+  this is the street outside, not the stand.
+- Soft background (the core): the ground's outer wall or stand rising
+  behind as a large mass of brick, steel cladding or corrugated sheet in
+  club colours (never a crest), floodlight pylons or a roof truss against
+  the sky; a street of red-brick terraced houses running up to it in older
+  grounds, or a retail-park car park at a newer stadium [EDITORIAL;
+  pubs on every corner of an old ground per a London writer's account].
+  Burger vans and catering trailers parked on the pavement or in the car
+  park, their hatches lit, a queue of fans in coats and scarves in
+  blurred colours; steam and onion smoke; turnstile blocks and a
+  programme kiosk as small boxes; steward hi-vis as yellow flecks; mounted
+  police far back [MEDIUM — burger wagons and street-food vans outside
+  Leicester, Bristol and Wrexham grounds per regional press and fan
+  blogs]. Light: winter afternoon or evening: flat grey 15:00 light, or
+  floodlights as a hard white glow above the roof with the street going
+  dark blue. Palette: brick red, steel grey, hi-vis yellow, scarf colours
+  (abstract), warm hatch light. Signature shapes: the floodlight pylon,
+  the stand wall, the van hatch, the terraced-street perspective, scarves.
+- Shell: open air; pavement and kerb, car-park tarmac.
+- The table as set here: a van's side shelf, a low wall or a bollard top;
+  a burger or hot dog in a card tray with onions, chips in a cone, a pie
+  in foil; paper napkins; never in a hand.
+- Subregional variants and the national default: northern town ground
+  in terraced streets; big Premier League stadium with plazas and kiosks;
+  rugby (Six Nations) in Cardiff city centre. Scotland: pie and the
+  ground, see `uk-scotland.md`. National default: an older town ground
+  with a terraced street and a burger van.
+- Hallucination traps: an American tailgate with grills on pickup
+  trucks; a US stadium concourse; sponsor boards and crests; flares and
+  smoke bombs; full flags.
+- Never stage: beer, plastic pints, pubs with signs; club crests, kits
+  with sponsor marks, legible banners or programmes; betting brands;
+  identifiable children.
+- Prompt-ready line: "Outside a British football ground on a winter
+  match day: a burger in a card tray sharp on a van's side shelf, behind
+  it a softly blurred queue of scarved fans, a lit catering hatch with
+  steam, a red-brick terraced street and floodlights glowing over the
+  stand."
+- Confidence and sources: MEDIUM-LOW; one search ([Express & Star —
+  Championship away-day food](https://expressandstar.com/news/championship-scran-six-away-days-wolves-and-albion-fans-can-pick-up-the-best-food-next-season-7833764);
+  [Daily Post — the Turf burger van taste test](https://dailypost.co.uk/whats-on/food-drink-news/taste-test-burger-van-recommended-24909126);
+  [The Londoni — a Saturday at Griffin Park](https://thelondoni.com/at-the-football-a-saturday-at-griffin-park/));
+  the terraced-street setting is EDITORIAL.
+
 ---
 
 ## ZONE CHARACTERIZATION
@@ -2442,6 +2867,17 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   chippy regional variants are LOW. Interior photo review of real
   terraced kitchens, pubs and chippies would firm these up.
 
+- **Venue-profile pass, wave 2 (2026-10-18) open items.** Search
+  summaries only, no pages read. Unverified background details: the
+  flatshare décor (magnolia walls, clip frames, fairy lights) rests on
+  tenant blogs and one IKEA home visit; island prevalence is retailer data
+  (Wickes ~1 in 5, Häfele ~10–14%), and unit colours, pendants and
+  bi-fold doors are LOW; café and modern-restaurant materials come from
+  design-press showcases of individual (mostly 2018–2020) London projects,
+  not a survey; festoon lights at street-food markets, the football-ground
+  terraced-street setting and the promenade's regional variants are LOW or
+  EDITORIAL. Interior photo review would firm these up.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated pass on Cornish Pasty Association / British Pie Awards
@@ -2569,3 +3005,14 @@ rather than promoted to its own file or deferred to a future Ireland file.**
   back garden patio, gastropub and traditional pub (both rewritten
   background-first from the 2026-10-01 pilots), chippy. WebSearch only;
   no pages read at source.
+- **2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5
+  profiles tagged, 8 new profiles, 8 searches.** Tags: kitchen-diner
+  (Dining room), back garden patio (Dining room, outdoor), gastropub and
+  traditional pub (Sit-down; the gastropub is a warm heritage pub, not a
+  Modern bistro), chippy (Counter service); living room left untagged.
+  New: rented flatshare (Gen Z apartment), extended-house kitchen with
+  island (Kitchen island), independent café (Café), modern neighbourhood
+  restaurant (Modern bistro), town park (Park), street-food market (Street
+  market, Food truck), seaside promenade (Beach or waterfront), football
+  ground on match day (Stadium or event). Coverage table added. WebSearch
+  only; no pages read at source.

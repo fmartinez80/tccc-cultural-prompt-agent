@@ -1303,7 +1303,30 @@ celebration marquee. The fan park (GAME NIGHT) and the Durban curry
 house, Portuguese restaurant and Cape fish-and-chip shop (Away from home
 scenarios) are left for a later wave.
 
-##### Venue: Home kitchen and open-plan lounge (the "kitchen", the "lounge")
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Wave 2 (2026-10-18) added nine profiles; the Durban curry house
+is folded into the Sit-down profile as a variant. Coverage:
+
+| App option | South Africa profile |
+|---|---|
+| Dining room | Home kitchen and open-plan lounge; outdoor: Patio or lapa braai |
+| Gen Z apartment | Young renter's flat |
+| Kitchen island | Breakfast-bar or island kitchen (islands in newer estate and complex units; a breakfast counter elsewhere) |
+| Sit-down | Neighbourhood family restaurant (Portuguese-style; Durban curry house variant) |
+| Counter service | Shisa nyama (meat chosen at the butchery counter, served on trays) |
+| Café | Neighbourhood coffee shop |
+| Modern bistro | Design-led neighbourhood restaurant |
+| Street market | Weekend food market |
+| Food truck | Weekend food market (trucks cluster at markets; kerbside trucks less common) |
+| Park | City park by a lake or dam |
+| Beach or waterfront | Durban beachfront promenade |
+| Stadium or event | Stadium precinct on match day |
+
+Untagged, kept as context: Garage forecourt (on-the-go briefs outside the
+12 options) and Celebration marquee (wedding or banquet tent).
+
+##### Venue: Home kitchen and open-plan lounge (the "kitchen", the "lounge") · app: Dining room
 - **Use for:** home indoor; casual lunch for 1–3, weekday supper,
   Sunday lunch indoors in winter, Eid lunch, the football watch party in
   the lounge. The national default home interior. Newer homes and flats
@@ -1395,7 +1418,7 @@ scenarios) are left for a later wave.
   doors MEDIUM (House and Garden SA, homify SA, burglar-bar suppliers);
   colours and fittings editorial. 1 search this pass.
 
-##### Venue: Patio or lapa braai (the "stoep", the "lapa", the braai area)
+##### Venue: Patio or lapa braai (the "stoep", the "lapa", the braai area) · app: Dining room, outdoor
 - **Use for:** home outdoor; the weekend braai, Heritage Day, the
   Springbok Test braai, Christmas lunch outdoors, the after-braai word
   game; 1, 2 or a small group of settings inside a gathering of 8–20.
@@ -1474,7 +1497,7 @@ scenarios) are left for a later wave.
   Bosazza Roofing, Build-A-Lapa, Donkiz; this file's braai entries);
   colours and set dressing editorial. 1 search this pass.
 
-##### Venue: Shisa nyama (chisa nyama; buy-and-braai)
+##### Venue: Shisa nyama (chisa nyama; buy-and-braai) · app: Counter service
 - **Use for:** restaurant or "other", outdoor or semi-outdoor; weekend
   lunch and late afternoon, 2–3 people (Away from home 2–3), Gen Z
   "chill" sessions staged alcohol-free. This file names it the
@@ -1678,6 +1701,499 @@ scenarios) are left for a later wave.
 - **Confidence and sources:** MEDIUM (Boss Tents, Marquee Hire, Cape
   Marquee; this file's wedding entry and its IOL/Home-Dzine sources);
   colours editorial. 1 search this pass.
+
+##### Venue: Young renter's flat (bachelor or one-bed flat) · app: Gen Z apartment
+- **Use for:** home indoor; a Gen Z or young-couple lunch or supper for
+  1–2 at a small table or the counter. Default city: Johannesburg. Young
+  workers rent compact bachelor and one-bed flats (about 40–55 m²,
+  open-plan, built-in cupboards, a small balcony) in converted
+  inner-city buildings and newer access-controlled complexes; flat
+  shares, with the living room turned into a bedroom, are common.
+  [MEDIUM — Braamfontein and Maboneng rental listings (Rawson,
+  property.mg.co.za, Leading RE, Gumtree), one search]
+- **Soft background (the core):**
+  - *Back wall:* white or off-white painted plaster; one feature wall in
+    sage, terracotta or charcoal [EDITORIAL]; **framed prints and
+    posters** (local illustration, photography or abstract shapes, all
+    unreadable), a **string of warm fairy lights** or a neon-style shape
+    kept wordless; a shelf with books, a speaker and a candle.
+  - *Middle distance:* a two- or three-seater fabric sofa with a throw
+    and a cushion or two in a **shweshwe or bold geometric print**; a
+    **monstera, fiddle-leaf fig or snake plant** in a pot; a TV on a low
+    unit or a laptop on a small desk (the listings' "study table"); a
+    clothes rail or bedroom doorway in a bachelor flat. [LOW-MEDIUM —
+    workspace per listings; decor EDITORIAL]
+  - *Light:* bright Highveld daylight through **aluminium-framed
+    windows**, often with thin **burglar bars** or a security gate on the
+    balcony door; evening: the fairy lights, one warm floor lamp, a
+    **rechargeable LED lamp** kept from load-shedding years [LOW — not
+    verified]. No split AC unit by default on the Highveld; a pedestal
+    fan in summer (Durban flats more often have AC) [LOW — not verified].
+  - *Palette:* white walls, plant green, warm wood or black metal, one
+    accent colour from the cushion or print.
+  - *Signature shapes (3–5):* the bright window with a burglar-bar grid;
+    the sofa with a printed cushion; a big-leaved plant; the string light;
+    a framed print leaning on a shelf.
+  - *Density and wear:* small and personal, mid-price furniture, a few
+    second-hand or market finds; tidy, not styled. [EDITORIAL]
+  - *People cues:* a flatmate or partner soft at the counter at most.
+- **Shell:** a flat in a 4–10-storey block or a complex; laminate, tiled
+  or (in loft conversions) **polished concrete** floors; flat plastered
+  ceiling; a galley kitchen along one wall. [MEDIUM — listings]
+- **The table as set here:** a small round or square 2-top in wood or
+  white laminate with two mismatched chairs, or the kitchen counter with
+  a stool; everyday ceramic plates, a placemat or none. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Johannesburg one-bed with white walls, a sofa, a plant and a burglar
+  -barred window. **Loft variant** (Maboneng-type conversions): exposed
+  brick, metal beams, mezzanine, high ceilings [MEDIUM — listing]; use
+  only when asked, not as the default. Cape Town: a flat with a mountain
+  or sea-blue blur through the window; Durban: AC unit, humid light.
+  *Register variants (PENDING SIGN-OFF, factual only):* a backroom or
+  garden cottage behind a family house; a young person's own room in the
+  family home; student-style shared flats.
+- **Hallucination traps:** the global Pinterest/Scandinavian showroom
+  (white everything, rattan, no burglar bars, no South African signal);
+  a New York loft as the default; "Afro-chic" overload with masks,
+  carved animals and zebra rugs; poverty framing.
+- **Never stage:** beer, wine or gin bottles on shelves; legible posters,
+  book spines or screens; brand marks; a full flag.
+- **Prompt-ready line:** "A young South African renter's flat in soft
+  focus: white walls with a framed print and warm fairy lights, a fabric
+  sofa with a shweshwe-print cushion, a big monstera, and bright Highveld
+  daylight through an aluminium window with thin burglar bars."
+- **Confidence and sources:** MEDIUM for size and layout (Rawson,
+  property.mg.co.za, Leading RE, Gumtree listings); decor EDITORIAL.
+  1 search this pass.
+
+##### Venue: Breakfast-bar or island kitchen (newer flat or estate townhouse) · app: Kitchen island
+- **Use for:** home indoor; a quick lunch for 1–2 seated at the counter.
+  Islands are real in **newer complex and estate units and renovated
+  suburban houses** (a Midrand estate listing: centre island with a gas
+  hob doubling as a breakfast bar; Sandton short-stay flats with a
+  breakfast island and stools); in older homes the honest version is a
+  **peninsula or breakfast counter** at the end of the kitchen run.
+  [MEDIUM — Leading RE and Property24 listings, one search; share of
+  homes with islands not sourced]
+- **Soft background (the core):**
+  - *Back wall:* a run of **flat-fronted cupboards** in white, light
+    grey or wood-look melamine; a **granite-look or quartz-look
+    countertop** in grey-black or speckled white; a band of white
+    subway or large-format tiles; an **eye-level oven** stack; a slim
+    extractor. [MEDIUM for eye-level oven and gas hob — listing; finishes
+    LOW-MEDIUM]
+  - *Middle distance:* the **electric kettle and toaster** (this file's
+    interior markers) and a fruit bowl on the counter; a freestanding
+    fridge (steel or white, never a giant US double-door); through the
+    open plan, the lounge sofa and the **aluminium sliding door** to a
+    small patio or garden.
+  - *Light:* daylight from the sliding door; two or three simple
+    pendants or LED downlights over the island; warm under-cabinet strip
+    in newer kitchens. [EDITORIAL]
+  - *Palette:* white or grey cupboards, a dark speckled top, chrome,
+    garden green beyond the glass.
+  - *Signature shapes (3–5):* the island or counter edge with stools;
+    the kettle silhouette; the eye-level oven; pendants; the bright
+    sliding door.
+  - *Density and wear:* new and neat but used: a tea towel, a bread bin,
+    a phone charging (screen dark). [EDITORIAL]
+  - *People cues:* one person soft at the hob or fridge at most.
+- **Shell:** a townhouse or flat in a walled estate or complex; large
+  pale floor tiles; flat ceiling; aluminium windows. [LOW-MEDIUM]
+- **The table as set here:** the island or breakfast-counter top
+  (granite-look or wood-look laminate); a ceramic plate, a cloth
+  serviette or none; two bar stools in black metal or wood at the edge.
+- **Subregional variants and the national default:** national default: a
+  Gauteng estate or complex kitchen with a granite-look island, a gas hob
+  and a sliding door to a patio. A **gas hob** is common in newer
+  kitchens since load-shedding [LOW — not verified]. Cape Town: softer
+  grey light; Durban: AC and a ceiling fan. *Register variants (PENDING
+  SIGN-OFF, factual only):* a smaller kitchen where a counter against
+  the wall serves as the breakfast bar.
+- **Hallucination traps:** an American show-kitchen (huge marble island,
+  double-door fridge, farmhouse sink, trio of brass pendants) as the
+  default; a Scandinavian white-oak kitchen with no South African sign;
+  a UK range cooker; safari decor on open shelves.
+- **Never stage:** wine racks, bottles on open shelves, a bar cart;
+  legible appliance brands, packaging or fridge magnets; a full flag.
+- **Prompt-ready line:** "A newer South African estate kitchen in soft
+  focus: white flat-fronted cupboards and a dark speckled granite-look
+  counter, a kettle and toaster, an eye-level oven, simple pendants over
+  the island, and daylight through an aluminium sliding door to a small
+  green garden."
+- **Confidence and sources:** MEDIUM for islands and breakfast bars in
+  newer units (Leading RE Midrand listing, Property24/short-stay Sandton
+  listings); finishes and gas hob LOW. 1 search this pass.
+
+##### Venue: Neighbourhood family restaurant (Portuguese-style or curry house) · app: Sit-down
+- **Use for:** restaurant, indoor; a family or friends' lunch or supper
+  for 2–3 with table service. National default: the **Portuguese-style
+  family restaurant** of Johannesburg South and similar neighbourhoods
+  everywhere (grilled peri-peri chicken, prego, trinchado, LM prawns);
+  Durban variant: the **curry house**. Never upscale or white-cloth.
+  [MEDIUM — Rosettenville as the heart of Johannesburg's Portuguese
+  community, and a Johannesburg South family restaurant with a
+  Mozambique-inspired mural, cork and wooden light fittings (IOL); this
+  file's Portuguese-influenced dish entries]
+- **Soft background (the core):**
+  - *Back wall:* warm white or ochre plaster; a **painted mural** of
+    a coastal or harbour scene in bright colours, or a band of
+    **blue-and-white patterned tiles** (azulejo-style, generic); cork or
+    timber panels; framed photos (blurred). [MEDIUM — mural and cork
+    (IOL); tile band EDITORIAL]
+  - *Middle distance:* other tables in dark wood with simple chairs; a
+    **charcoal grill** glowing behind a pass or half-wall, smoke in the
+    kitchen light; a waiter in a dark shirt or apron; a wall-mounted TV
+    with sport as a soft glow. [LOW-MEDIUM — not verified]
+  - *Light:* daylight from a street-facing window or shopfront; warm
+    **wooden or rattan pendants** [MEDIUM — IOL]; the grill's orange
+    glow.
+  - *Palette:* ochre, terracotta, cobalt blue, dark wood, ember orange.
+  - *Signature shapes (3–5):* the mural; the grill glow through the
+    pass; wooden pendants; tables receding; the TV rectangle.
+  - *Density and wear:* busy, family-run, well-worn but clean.
+  - *People cues:* a waiter and diners at other tables as blurred shapes,
+    within ~2.5 faces.
+- **Shell:** a shopfront in a neighbourhood strip or small shopping
+  centre; tiled floor; plastered ceiling. [MEDIUM — IOL: shopping-centre
+  site]
+- **The table as set here:** bare wood or a paper placemat; white
+  everyday plates; the chicken on an oval platter with chips or rice; a
+  small dish of peri-peri sauce (unlabelled); paper serviettes.
+- **Subregional variants and the national default:** national default: a
+  Johannesburg Portuguese family restaurant. **Durban curry house**:
+  brighter light, Formica or steel tables, a counter with steel pots,
+  bunny chow and curry with roti (this file's KZN entries). Cape Town:
+  a Cape Malay or fish restaurant with a sea-blue palette. [EDITORIAL]
+- **Hallucination traps:** the **chain peri-peri look** (a rooster
+  logo, the chain's livery and wall art); a Lisbon tourist tasca with
+  hams and wine casks; walls of wine bottles (common in real Portuguese
+  restaurants: exclude); white-cloth fine dining; a Mexican cantina.
+- **Never stage:** wine bottles, wine glasses, beer, a bar; legible
+  menus, specials boards or TV screens; brand marks or chain livery; a
+  full Portuguese or South African flag.
+- **Prompt-ready line:** "A South African Portuguese-style family
+  restaurant in soft focus: ochre walls with a bright harbour mural, a
+  charcoal grill glowing through a kitchen pass, warm wooden pendants,
+  and dark wooden tables receding toward a sunny shopfront."
+- **Confidence and sources:** MEDIUM (IOL on a Johannesburg South family
+  restaurant; Rosettenville via the Nando's history pages); grill and
+  set dressing LOW or EDITORIAL. 1 search this pass.
+
+##### Venue: Neighbourhood coffee shop (the "coffee shop") · app: Café
+- **Use for:** café, indoor or pavement; a light lunch or afternoon
+  snack for 1–2. Independent coffee shops are a fixture of leafy
+  Johannesburg neighbourhoods (Parkhurst, Melville) and of Cape Town;
+  some roast in-house. [MEDIUM — South African Tourism and In Your Pocket
+  Johannesburg coffee-shop guides; a Parkhurst café with its roaster on
+  show; a Melville café in a converted church with a bougainvillea
+  garden, one search]
+- **Soft background (the core):**
+  - *Back wall:* the **counter**: a chrome espresso machine as a bright
+    block, a grinder, a stack of cups (blurred, never the subject), a
+    glass **pastry case** with muffins, croissants, a **milk tart** or
+    carrot cake; behind it open timber shelves with jars and plants, a
+    blackboard turned to colour blur. [MEDIUM for counter and roaster;
+    pastry contents LOW-MEDIUM]
+  - *Middle distance:* a few small tables, bentwood or metal chairs, a
+    bench along the wall with cushions; in some, a **coffee roaster** as
+    a big rounded shape; the open door to a **pavement or stoep** with
+    tables. [MEDIUM — roaster (South African Tourism)]
+  - *Light:* bright window light from a tree-lined avenue; in spring a
+    purple **jacaranda** blur, in winter bare branches and hard sun;
+    warm Edison-style bulbs inside. [EDITORIAL]
+  - *Palette:* timber, white tiles or exposed brick, black metal, plant
+    green, a seasonal purple outside.
+  - *Signature shapes (3–5):* the espresso machine; the pastry case; a
+    hanging bulb; the bright doorway with a tree; small round tables.
+  - *Density and wear:* relaxed, lived-in, a laptop or two (screens
+    dark). [EDITORIAL]
+  - *People cues:* the barista's back, one or two customers, soft.
+- **Shell:** a converted house or a shopfront on a neighbourhood
+  high street; wooden floorboards, cement screed or tiles.
+- **The table as set here:** a small timber or marble-look round table;
+  a white plate with a toasted sandwich, a slice of milk tart or a
+  quiche; a paper serviette. Coffee cups are intruder drinks: out of
+  frame or blurred unless the brief allows.
+- **Subregional variants and the national default:** national default: a
+  Johannesburg neighbourhood coffee shop with a pavement and a jacaranda
+  avenue. Cape Town: a narrow city-bowl café, mountain grey light,
+  wind-swept pavement tables. Durban: AC, a fan, tropical planting.
+  Small towns: the **padstal** café (this file's on-the-go scenario).
+- **Hallucination traps:** chain-café looks (the red and white of a
+  local chain, the green circle of a US one); a Paris bistro with
+  rattan chairs; a Melbourne or Brooklyn clone with nothing local; a
+  rusks-and-safari tourist café.
+- **Never stage:** legible blackboards, menus or cup sleeves; brand marks
+  on the machine or cups; wine or beer on the menu shelf; a full flag.
+- **Prompt-ready line:** "A Johannesburg neighbourhood coffee shop in
+  soft focus: a chrome espresso machine and a glass pastry case on a
+  timber counter, open shelves with plants, warm hanging bulbs, and a
+  bright doorway onto a jacaranda-lined pavement."
+- **Confidence and sources:** MEDIUM (South African Tourism, In Your
+  Pocket Johannesburg, 2summers blog for Melville); light and dressing
+  EDITORIAL. 1 search this pass.
+
+##### Venue: Design-led neighbourhood restaurant (Rosebank, Melrose, Cape Town) · app: Modern bistro
+- **Use for:** restaurant, indoor; an elevated but relaxed lunch or
+  supper for 2–3. The new South African restaurants of Johannesburg
+  (Rosebank, Melrose, Parkhurst) and Cape Town: contemporary local
+  cooking, open kitchens with a **wood-fired grill**, copper-and-charcoal
+  or concrete palettes. No bar, bottles or taps; never white-cloth.
+  [MEDIUM — Johannesburg guides: an open kitchen built around a
+  wood-fired grill (Marble), a copper-and-charcoal palette with
+  contemporary South African menus (Basalt), one search; concrete
+  finishes not confirmed by the search]
+- **Soft background (the core):**
+  - *Back wall:* **charcoal or dark-grey plaster**, raw concrete or
+    off-shutter concrete columns [LOW — not confirmed], dark stained
+    timber slats; one large abstract artwork as a colour block; local
+    **hand-thrown ceramics** on a narrow shelf. [EDITORIAL]
+  - *Middle distance:* the **open kitchen** with the grill's orange
+    fire glow, chefs in dark aprons as soft shapes, a steel pass with
+    plates; other tables in dark wood or stone; leather or bentwood
+    chairs; a big potted tree. [MEDIUM for open kitchen and grill]
+  - *Light:* **statement pendants** in copper, black metal or woven
+    grass (generic local craft) over each table; dim warm light against
+    dark walls; daylight from a tall steel-framed window at lunch.
+    [MEDIUM — copper palette (Basalt); pendants EDITORIAL]
+  - *Palette:* charcoal, copper, concrete grey, dark wood, ember
+    orange, plant green.
+  - *Signature shapes (3–5):* the fire glow of the grill; copper
+    pendants; a steel-framed window; concrete column; ceramics shelf.
+  - *Density and wear:* new, considered, half-full, calm.
+  - *People cues:* chefs at the pass and one or two diners, soft.
+- **Shell:** a ground-floor unit in a mixed-use building or a converted
+  warehouse; polished concrete or dark tiled floor; exposed ceiling
+  services painted black. [EDITORIAL]
+- **The table as set here:** bare dark timber or honed stone; a linen
+  napkin; a handmade stoneware plate with a plated main (grilled meat
+  with a local twist, a vegetable side); steel or black cutlery; no
+  glassware except the hero product.
+- **Subregional variants and the national default:** national default: a
+  Johannesburg design-led restaurant in charcoal, copper and concrete.
+  Cape Town: paler concrete, more daylight, a mountain blur. Winelands
+  restaurants read alcohol-led; do not use them for this slot.
+- **Hallucination traps:** a **wine wall or wine glasses** (the strongest
+  trap in this market's upscale dining); a bar with stools; white-cloth
+  fine dining; safari-lodge decor; a placeless Scandinavian or New York
+  industrial restaurant; a rooftop cocktail terrace.
+- **Never stage:** bottles, taps, wine glasses, a bar counter; legible
+  menus or art text; brand marks; a full flag.
+- **Prompt-ready line:** "A design-led Johannesburg restaurant in soft
+  focus: charcoal walls and a concrete column, copper pendants glowing
+  over dark wooden tables, and the orange fire of a wood-fired grill in
+  an open kitchen behind, with no bar or bottles anywhere."
+- **Confidence and sources:** MEDIUM for open kitchens, wood-fired grills
+  and the copper-and-charcoal palette (Johannesburg dining guides via
+  search); concrete and pendants LOW or EDITORIAL. 1 search this pass.
+
+##### Venue: Weekend food market (Saturday or Sunday market) · app: Street market, Food truck
+- **Use for:** on-the-go, outdoor or under a shed; a weekend lunch for
+  1–3. Johannesburg and Cape Town run weekly food and design markets:
+  a Saturday market in a Braamfontein building, a Sunday farmers' market
+  in nursery gardens in Fourways with **food trucks**, a market shed in
+  the city, Saturday morning markets in suburbs. This is the honest
+  local Street market; it is also where food trucks really cluster.
+  [HIGH — Eat Out, Cape Argus 2026 and Lekkeslaap guides; food trucks
+  (including a Land Rover truck) at the Fourways market]
+- **Soft background (the core):**
+  - *Back wall:* rows of **stalls under white or canvas gazebos** with
+    trestle counters; smoke from a braai or wood-fired pizza stall;
+    **food trucks** (a converted vintage Land Rover or van, an airstream
+    shape) with serving hatches, painted in plain colours, no lettering.
+    [MEDIUM — guides; truck colours EDITORIAL]
+  - *Middle distance:* **long communal timber tables and benches**;
+    potted trees and garden beds at a nursery market or a brick
+    warehouse wall in the city; a small stage or busker shape far off;
+    shoppers with baskets as colour.
+  - *Light:* bright open sky; dappled shade under trees; under a shed
+    roof, cool shade with bright openings; **festoon string lights**
+    overhead at later markets. [EDITORIAL]
+  - *Palette:* canvas white, timber, garden green, chalky stall
+    colours, the food's own colours.
+  - *Signature shapes (3–5):* gazebo peaks in rows; a food truck's
+    hatch; long communal tables; festoon lights; a smoking grill.
+  - *Density and wear:* busy, cheerful, weekend.
+  - *People cues:* shoppers as blurred colour, within ~2.5 faces.
+- **Shell:** a garden, car park or courtyard; lawn, gravel, paving or a
+  warehouse's concrete floor.
+- **The table as set here:** a communal timber table or a stall's
+  counter ledge; food in a **cardboard tray, on a wooden board or a
+  compostable plate** (boerie roll, Gatsby slice, bunny chow quarter,
+  vetkoek); a paper serviette. Never in a hand.
+- **Subregional variants and the national default:** national default: a
+  Gauteng weekend food market under gazebos with food trucks and
+  communal tables. Cape Town: an old mill or city-farm market with the
+  mountain behind. Durban: a beachfront or Sunday market with curry and
+  samoosa stalls. *Register variants (PENDING SIGN-OFF, factual only):*
+  street vendors and taxi-rank food stalls under umbrellas.
+- **Food truck note:** standalone street-parked food trucks are less
+  common than in the US; stage trucks at a market, not on a kerb.
+  [LOW-MEDIUM — inferred from guides]
+- **Hallucination traps:** a European Christmas market; an Asian night
+  market; a US farmers' market with pickup trucks; an "African curio"
+  market of beadwork, masks and wooden animals; craft-beer and gin stalls
+  (common: exclude).
+- **Never stage:** beer, gin, wine or cocktail stalls; legible stall
+  signs, chalkboards or truck lettering; brand marks; money or card
+  machines in focus; a full flag.
+- **Prompt-ready line:** "A South African weekend food market in soft
+  focus: white gazebos in rows with smoke rising from a grill stall, a
+  plain-painted vintage food truck with an open hatch, long timber
+  communal tables, and garden trees under a bright sky."
+- **Confidence and sources:** HIGH for the format and food trucks (Eat
+  Out, Cape Argus, Lekkeslaap, Sun International market guides); colours
+  EDITORIAL. 1 search this pass.
+
+##### Venue: City park by a lake or dam (Joburg parks) · app: Park
+- **Use for:** on-the-go, outdoor; a weekend picnic for 1–3 on a blanket
+  or a park bench. Johannesburg's lake and dam parks (Zoo Lake,
+  Emmarentia with the Botanical Garden, Delta Park) are the
+  default: wide lawns, tree-lined water, braai spots, **no alcohol
+  allowed**. [HIGH — Food & Home, IOL travel, SweepSouth and Time Out
+  Johannesburg guides]
+- **Soft background (the core):**
+  - *Back wall:* a **dam or lake** as a pale silver band, willows and
+    oaks on the far bank, rowing boats or ducks as small shapes
+    (boats at Zoo Lake). [HIGH — guides]
+  - *Middle distance:* **wide lawns** (green in summer, straw-gold in
+    the dry Highveld winter), other picnic blankets as colour patches,
+    a jogger or dog-walker far off; a **brick braai stand** at a picnic
+    spot; rose beds at the Botanical Garden. [MEDIUM — braai spots and
+    rose gardens (guides)]
+  - *Light:* hard, clear Highveld sun with deep tree shade; golden-hour
+    light across the water; in October–November a **purple jacaranda**
+    canopy (spring signature). [EDITORIAL; jacaranda per this file's
+    zone table]
+  - *Palette:* lawn green or winter gold, water silver, tree green,
+    jacaranda purple in spring, blanket colour.
+  - *Signature shapes (3–5):* the waterline with willows; a big shade
+    tree; blankets on the lawn; a park bench; a brick braai stand.
+  - *Density and wear:* busy on weekends, municipal, well-used.
+  - *People cues:* families and walkers far off, within ~2.5 faces, no
+    identifiable children.
+- **Shell:** open parkland; grass, gravel paths, low stone walls.
+- **The table as set here:** a picnic blanket with a cooler box (closed,
+  blank), a plastic or enamel plate; or a park bench or low stone wall
+  as the ledge. Food on a plate or in a tub, never in a hand.
+- **Subregional variants and the national default:** national default: a
+  Johannesburg lake park in summer. Pretoria: jacaranda streets around
+  the park. Cape Town: a garden with mountain slopes behind (no named
+  garden). Durban: a park with palms and humid haze.
+- **Hallucination traps:** a London or New York park (Central Park
+  skyline, red-brick terraces); a game-reserve savanna with acacias and
+  animals; a manicured European formal garden; snow or autumn reds in
+  winter (Highveld winter is dry and golden).
+- **Never stage:** beer, wine or cooler-box drinks in view; legible park
+  signs; brand marks on blankets or coolers; a full flag.
+- **Prompt-ready line:** "A Johannesburg lake park in soft focus: a wide
+  green lawn with picnic blankets, a silver band of water edged with
+  willows, a brick braai stand under a shade tree, and clear Highveld
+  sun."
+- **Confidence and sources:** HIGH for lawns, dams, braai spots and the
+  no-alcohol rule (Food & Home, IOL, SweepSouth, Time Out); light and
+  palette EDITORIAL. 1 search this pass.
+
+##### Venue: Durban beachfront promenade (the "Golden Mile") · app: Beach or waterfront
+- **Use for:** on-the-go, outdoor; a beachfront lunch for 1–3 on a
+  bench or low wall. Durban's beachfront is the national default:
+  a **wide paved promenade** with palm trees and lawns, sandy beaches
+  divided by **piers**, guarded and netted bathing beaches, the Indian
+  Ocean surf. [HIGH — Wikipedia (Golden Mile, Durban); South African
+  Tourism; East Coast Radio]
+- **Soft background (the core):**
+  - *Back wall:* the **ocean** as a blue-green band with white surf
+    lines; a **pier** reaching out as a dark horizontal; surfers as
+    specks. [HIGH — piers dividing beaches (Wikipedia, South African
+    Tourism)]
+  - *Middle distance:* **golden sand**, beach umbrellas as colour dots
+    [LOW — not confirmed by the search]; the promenade's paving, **palm
+    trees**, strips of **emerald lawn**, cyclists and walkers; a
+    beachfront high-rise as a pale block far behind (keep generic).
+  - *Light:* bright, hazy subtropical sun, humid air softening the
+    distance; early morning light from the sea (east-facing coast);
+    late afternoon from behind the city. [MEDIUM — east-facing coast;
+    haze per this file's KZN zone]
+  - *Palette:* sea turquoise, sand gold, palm green, paving grey, sky
+    pale blue.
+  - *Signature shapes (3–5):* the pier; palm trunks; the surf lines;
+    the promenade's sweep; a lifeguard flag or tower kept wordless.
+  - *Density and wear:* busy, public, sunny, well-kept.
+  - *People cues:* walkers and beachgoers as distant shapes, within
+    ~2.5 faces, none in swimwear focus.
+- **Shell:** a seafront promenade; paving, low walls, benches, lawns.
+- **The table as set here:** a promenade bench or the low sea wall; a
+  bunny chow quarter in a cardboard tray or fish and chips on paper
+  (plain, unprinted); a paper serviette.
+- **Subregional variants and the national default:** national default:
+  Durban's beachfront promenade. Cape Town: a seafront promenade on the
+  Atlantic with a cooler, grey-blue sea, kelp and mountain behind; a
+  harbour waterfront with boats (no named mall). Gqeberha: a bay
+  beachfront. [LOW-MEDIUM; EDITORIAL]
+- **Hallucination traps:** a Caribbean or Mauritian palm-and-hut beach;
+  Miami Beach art-deco hotels; a Mediterranean promenade with café
+  terraces; Copacabana mosaic paving; a beach bar.
+- **Never stage:** beer, coolers with drinks, cocktails; legible signs,
+  lifeguard notices or kiosk boards; brand marks on umbrellas; a full
+  flag; identifiable children.
+- **Prompt-ready line:** "Durban's beachfront in soft focus: a wide paved
+  promenade with palm trees and green lawns, golden sand and a long pier
+  reaching into the turquoise Indian Ocean surf, under hazy subtropical
+  sun."
+- **Confidence and sources:** HIGH for promenade, piers, palms and lawns
+  (Wikipedia, South African Tourism, East Coast Radio); umbrellas LOW.
+  1 search this pass.
+
+##### Venue: Stadium precinct on match day (the "derby", fan zone) · app: Stadium or event
+- **Use for:** outdoor event; pre-match food for 1–3 outside a big
+  stadium, a fan zone or fan park. Default: a Johannesburg stadium on
+  a Soweto derby or Springbok Test day: tens of thousands of fans,
+  **vendors around the stadium** selling snacks, **bunny chows**, cool
+  drinks, sunglasses and flags; fan zones with food stalls and music
+  from mid-morning. Also the base for the GAME NIGHT fan park.
+  [HIGH — Sowetan 2024 on vendors at a derby; Gauteng Tourism event
+  guide on fan zones and food stalls]
+- **Soft background (the core):**
+  - *Back wall:* the **stadium's curved outer shell** as a huge
+    earth-toned or steel shape (keep generic, no named stadium's
+    profile), floodlight masts, gate structures with numbers blurred.
+  - *Middle distance:* **vendors' gazebos and folding tables**, smoke
+    from a grill, a cooler box (closed, blank); streams of fans in
+    **club colours** (gold and black, black and white, or green and gold
+    for the national side) as blurred colour, **vuvuzela** shapes; a
+    fan-zone stage far off. [HIGH for vendors and fan zones; colours
+    EDITORIAL]
+  - *Light:* hard afternoon Highveld sun; dust in the air; evening
+    games: floodlight glare and bokeh.
+  - *Palette:* club colours repeated in the crowd, concrete grey,
+    stadium shell, sky.
+  - *Signature shapes (3–5):* the stadium curve; floodlight masts;
+    vendor gazebos; vuvuzela silhouettes; fans streaming.
+  - *Density and wear:* dense, festive, loud.
+  - *People cues:* crowd as colour, within ~2.5 faces, none sharp.
+- **Shell:** a stadium precinct; tarmac, paving, car parks, barriers.
+- **The table as set here:** a vendor's folding table, a low wall or a
+  car bonnet in a car park; a bunny chow quarter or boerie roll in a
+  cardboard tray or on plain paper. Never in a hand.
+- **Subregional variants and the national default:** national default:
+  a Johannesburg derby day. Durban: a stadium near the beachfront,
+  humid haze. Cape Town: a stadium with the mountain behind. Rugby:
+  a Springbok Test with green-and-gold in the crowd and car-park braais
+  (alcohol kept out) [LOW — not verified].
+- **Hallucination traps:** a US tailgate with pickup trucks; a European
+  stadium in rain; a beer garden (real at derbies: exclude); a full
+  national flag draped; replica team crests and sponsor logos.
+- **Never stage:** beer gardens, beer, quarts; club crests, kit sponsor
+  marks or legible banners; betting ads; a full flag; identifiable
+  children.
+- **Prompt-ready line:** "A South African stadium on match day in soft
+  focus: a huge curved stadium shell and floodlight masts, vendors'
+  gazebos with grill smoke, and fans in gold-and-black and black-and-
+  white colours streaming past, blurred, under hard Highveld sun."
+- **Confidence and sources:** HIGH for vendors and fan zones (Sowetan
+  2024, Gauteng Tourism); stadium look and colours EDITORIAL. 1 search
+  this pass.
 
 ---
 
@@ -3556,7 +4072,21 @@ the Gap Log below.
   accent colours. All register variants in VENUE PROFILES stay PENDING
   HUMAN SIGN-OFF with the settlement-register framing. Fan park, Durban
   curry house, Portuguese restaurant and Cape fish-and-chip shop not yet
-  profiled (later wave).
+  profiled (later wave). *Update 2026-10-18 (wave 2):* the Portuguese
+  restaurant (with the curry house as a variant) and the stadium precinct
+  (base for the fan park) are now profiled; the Cape fish-and-chip shop
+  is still open.
+- **Venue-profile wave 2 (2026-10-18) open items.** Unverified background
+  details: Gen Z flat decor, rechargeable lamps and the absence of AC on
+  the Highveld; gas hobs in newer kitchens and island finishes; the
+  Portuguese restaurant's grill-behind-a-pass, tile band and TV; coffee
+  shop pastry case contents; concrete and pendant finishes in design-led
+  restaurants (the search confirmed open kitchens, wood-fired grills and a
+  copper-and-charcoal palette only); beach umbrellas on the Durban
+  beachfront; stadium shell and crowd colours (editorial); "kerbside food
+  trucks less common" is inferred. Register variants added in wave 2
+  (backroom or garden cottage, own room in the family home, wall-counter
+  kitchen, street and taxi-rank vendors) stay PENDING HUMAN SIGN-OFF.
 
 ## CANDIDATE QUEUE
 1. Get a CCBSA/CCBA spec sheet or direct packaging measurement for the
@@ -3670,6 +4200,7 @@ the Gap Log below.
   medium). Settlement-register sign-off left untouched; entries written
   register-neutral. No subagents.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (home kitchen and lounge, patio or lapa braai, shisa nyama, garage forecourt, celebration marquee). Written register-neutral; settlement-register variants kept as factual variants, sign-off not resolved. No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 3 profiles tagged, 9 new profiles, 9 searches. New: young renter's flat, breakfast-bar or island kitchen, neighbourhood family restaurant, neighbourhood coffee shop, design-led neighbourhood restaurant, weekend food market, city park, Durban beachfront promenade, stadium precinct on match day. Garage forecourt and celebration marquee left untagged. Settlement-register sign-off not resolved; register variants factual only. No subagents.
 
 ---
 

@@ -268,14 +268,37 @@ show. First wave (2026-10-01): the five most-used staging venues. The
 QUICK-REFERENCE table above stays the short index; the angkringan,
 rumah makan Padang, lesehan, mall food court, warung kopi and gedung
 wedding hall keep their register rows and scenario text until a later
-wave. Hard rules 1–10 apply to every profile: **halal by default** (no
+wave (wave 2, 2026-10-18, added seven app-option profiles
+at the end). Hard rules 1–10 apply to every profile: **halal by default** (no
 pork, no alcohol, nothing that reads as either), religious objects out
 of frame (hard rule 7), and **es teh manis, the water glass and the
 galon dispenser as the intruders** (hard rule 9). Iftar and buka puasa
 staging stays under the flagged FESTIVALS guidance (hard rule 6); these
 profiles do not resolve it.
 
-#### Venue: Perumahan row-house living-dining room (ruang tamu dan ruang makan, rumah tipe 36)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Indonesia profile |
+|---|---|
+| Dining room | Perumahan row-house living-dining room; outdoor form: Front terrace |
+| Gen Z apartment | Jakarta kos room (wave 2; the rented room is the real young-adult home, apartments are the upper tier) |
+| Kitchen island | Cluster-house dapur bersih with meja bar (wave 2; full islands are rare, see profile) |
+| Sit-down | Warteg (the everyday neighbourhood eatery; the rumah makan Padang keeps its register row) |
+| Counter service | Warteg (order by pointing at the etalase); the mall food court keeps its register row |
+| Café | Jakarta neighbourhood coffee shop (wave 2) |
+| Modern bistro | Modern Indonesian restaurant, Jakarta (wave 2) |
+| Street market | Kaki lima cart at night (a pasar malam is the same carts and tents in a row) |
+| Food truck | Kaki lima cart at night: the gerobak is Indonesia's real mobile vendor; food trucks are a minor urban novelty [LOW — not verified] |
+| Park | Alun-alun town square at night (wave 2) |
+| Beach or waterfront | Pantai Losari-type waterfront promenade (wave 2) |
+| Stadium or event | Stadium forecourt on a Timnas match night, GBK type (wave 2) |
+
+The Hajatan tent serves no app option (a private celebration, though it
+stands over the yard or lane) and stays as context for CELEBRATIONS.
+
+#### Venue: Perumahan row-house living-dining room (ruang tamu dan ruang makan, rumah tipe 36) · app: Dining room
 - Use for: home indoor; casual lunch at home (1–3), dinner at home,
   Lebaran open house (dining-table and carpet forms), syukuran, the
   home watch party; 1, 2 or a small group. The national default: a
@@ -365,7 +388,7 @@ profiles do not resolve it.
   file ENVIRONMENT norms and register. Kaaba picture and the lemari
   display cabinet LOW — not verified.
 
-#### Venue: Front terrace (teras rumah)
+#### Venue: Front terrace (teras rumah) · app: Dining room, outdoor
 - Use for: home outdoor; casual lunch or afternoon meal outdoors,
   receiving neighbours, part of the Lebaran open house, small
   syukuran, a home viewing on a TV carried out; 1, 2 or a small group.
@@ -433,7 +456,7 @@ profiles do not resolve it.
   ENVIRONMENT norms. Songbird cage and bale-bale frequency LOW — not
   verified.
 
-#### Venue: Warteg (warung Tegal)
+#### Venue: Warteg (warung Tegal) · app: Sit-down, Counter service
 - Use for: restaurant indoor; away-from-home lunch for 1 (the Jakarta
   working lunch), 2–3 co-workers; the default casual sit-down eatery
   in zone 1, with the general warung as the national form [MEDIUM —
@@ -503,7 +526,7 @@ profiles do not resolve it.
   warung-design features; file register. Wall paint colours LOW — not
   verified.
 
-#### Venue: Kaki lima cart at night (gerobak kaki lima)
+#### Venue: Kaki lima cart at night (gerobak kaki lima) · app: Street market, Food truck
 - Use for: street / on-the-go; meal on the go (1), away-from-home dinner
   for 2–3 (nasi goreng, bakso, sate, martabak), late-night snack,
   street-side viewing; the default Indonesian street venue [MEDIUM —
@@ -643,6 +666,302 @@ profiles do not resolve it.
   Cahaya Tenda, NS Tenda, PestaHub, persewaanalatpesta (tier 3,
   vendors). Theme-colour palette and the regional variants LOW — not
   verified as shares.
+
+#### Venue: Jakarta kos room (kamar kos / kos eksklusif) · app: Gen Z apartment
+- Use for: home indoor; a student or young worker, 1–2 people; lunch or
+  dinner with delivered food tipped onto a plate. **The kos (a single
+  rented room in a managed house) is the real young-adult home** in
+  Jakarta, Bandung, Yogyakarta and Surabaya; "exclusive" kos come
+  furnished with AC, TV, private bathroom and a shared kitchen and
+  lounge, from about Rp2 million a month; apartments are the upper tier
+  [MEDIUM — file Gen Z lens; Republika, SWA, Mamikos, detik on Cove
+  (promotional)]. Many young adults still live with family: then stage
+  their room or the family table instead.
+- Soft background (the core): one room of about 3 × 4 m. **Back wall**:
+  white or pale grey paint, a **split AC** high up as a pale bar, a
+  window with an **aluminium frame, a sheer or blackout curtain** and,
+  in older kos, a steel trellis; beyond, a gang roofline or a neighbour's
+  wall in bright haze [MEDIUM — kos listings; EDITORIAL]. **Middle
+  distance**: a **single or queen bed** with a patterned or plain sheet,
+  a small **wardrobe** and a desk in white or light-wood laminate, a
+  wall-mounted TV (dark), a small fridge or dispenser, a standing fan,
+  a clothes rail or drying rack [MEDIUM — file Gen Z lens; kos listings:
+  "furnitur lengkap"]. **Personal touches**: a few posters or polaroid
+  prints on a string with clips, an LED strip or string light, a small
+  plant, a prayer mat folded on a shelf (keep out of frame or plain,
+  hard rule 7), a mirror [LOW — not verified; EDITORIAL]. **Light**:
+  white daylight through the curtain; by night a cool ceiling light and
+  a warm strip. **Palette**: white walls, light ceramic floor tile, light
+  wood laminate, pastel or grey textiles. **Signature shapes**: the AC
+  bar; the bed edge; the low folding table; the string-light dots; the
+  curtained window. **Density**: compact and full, tidy; white,
+  multifunctional furniture is the budget-design norm [MEDIUM — Unisa
+  Yogyakarta interior-design journal].
+- Shell: a two- or three-storey concrete kos house, ceramic tile floor,
+  plaster ceiling ~2.7 m.
+- The table as set here: a **meja lipat** (low folding table) on the
+  tiled floor or on a rug, or the desk; a plate of rice with lauk and a
+  dab of sambal, krupuk, spoon and fork (hard rules 3–5).
+- Subregional variants and the national default: **Yogyakarta**:
+  cheaper student kos, a fan instead of AC, a wooden window. **Jakarta
+  apartment**: a 21–36 m² studio with a tower view (upper tier).
+  National default: the Jakarta exclusive kos room above.
+- Hallucination traps: a Scandinavian Pinterest flat; a Korean drama
+  apartment; a big Western loft; a squalid dorm; a Balinese villa room.
+- Never stage: green delivery bags or driver jackets (text-coded);
+  readable posters or screens; a Qur'an or prayer mat beside the hero;
+  alcohol.
+- Prompt-ready line: "A tidy Jakarta kos room: a low folding table on a
+  light tiled floor in the foreground, a softly blurred single bed with
+  a pastel sheet, a white wardrobe, a split AC high on the white wall,
+  polaroid prints on a string light and a curtained window glowing."
+- Confidence and sources: MEDIUM. 1 search (kos eksklusif). Republika;
+  SWA; Mamikos; detik (Cove, promotional); Unisa journal. Personal
+  touches LOW.
+
+#### Venue: Cluster-house dapur bersih with meja bar (dapur bersih / mini bar) · app: Kitchen island
+- Use for: home indoor; a seat at the counter for 1–2; newer cluster and
+  perumahan houses and apartments in Jabodetabek and big cities. **Full
+  islands are uncommon in small houses**; the common honest version is
+  a **mini bar (meja bar) joined to the kitchen counter**, used instead
+  of a separate dining table in narrow homes, while frying happens in a
+  **dapur kotor** (wet kitchen) at the back [MEDIUM — Kontan Momsmoney
+  (mini bar replacing a dining room; islands crowding small kitchens),
+  IDN Times, Archify, Rumah123 (dapur bersih vs dapur kotor)].
+- Soft background (the core): **cabinets** in white, light wood or grey
+  HPL laminate with a granite or solid-surface top; on the counter a
+  **rice cooker**, a magic-com or water dispenser (galon, hard rule 9,
+  out of frame or soft), a jar of krupuk, a dish rack [MEDIUM — file
+  interior markers]. **Back wall**: white or patterned ceramic
+  splashback, a slim cooker hood, a two-burner gas hob with an LPG tank
+  below; a door or louvred window to the **dapur kotor** and drying yard,
+  bright, with a wok and a rack of pans soft. **Light**: daylight from
+  the back; LED downlights or two simple pendants over the bar.
+  **Palette**: white, light oak, grey, steel; a green potted plant.
+  **Signature shapes**: the bar counter's edge; rice cooker; cooker
+  hood; the bright back doorway; two bar stools. **Density**: neat, a
+  little stuff on the counter.
+- Shell: one- or two-storey concrete house, ceramic tile floor, plaster
+  ceiling with downlights.
+- The table as set here: the bar top; two wooden or steel bar stools; a
+  plate of rice with lauk, sambal, a few krupuk, spoon and fork.
+- Subregional variants and the national default: larger houses in
+  upscale estates (BSD, Pondok Indah) may have a real island; the
+  type-36 row house has no bar, and the meal is at the dining table (see
+  row-house profile). National default: the cluster mini bar above.
+- Hallucination traps: an American show-kitchen with a marble island and
+  range cooker; a wine fridge; a Balinese villa kitchen; heavy frying
+  at the bar.
+- Never stage: wine glasses or bottles; pork; religious items readable;
+  legible packaging.
+- Prompt-ready line: "A seat at the mini bar of a newer Jakarta cluster
+  house: a solid-surface countertop in the foreground, white and
+  light-oak cabinets, a rice cooker and a tiled splashback softly behind,
+  and a bright blurred doorway to the back wet kitchen."
+- Confidence and sources: MEDIUM for the mini-bar form; island share
+  not confirmed. 1 search. Kontan; IDN Times; Archify; Rumah123.
+
+#### Venue: Jakarta neighbourhood coffee shop (coffee shop / kedai kopi kekinian) · app: Café
+- Use for: restaurant indoor; 1–2 young adults, afternoon, work or mabar
+  session; the "kekinian" coffee shop is on every Jakarta, Bandung and
+  Yogyakarta street [MEDIUM — The Way to Coffee; Indonesia Design;
+  Manual Jakarta; file Gen Z lens].
+- Soft background (the core): **exposed concrete walls**, **warm timber**
+  panels or repurposed wood, and **plants or rattan** for softness;
+  a **polished concrete counter** with a steel espresso machine, a
+  grinder and a small glass case of cakes and pastries; floor-to-ceiling
+  windows or a glass-block façade [MEDIUM — Tanatap (concrete pavilion,
+  glass blocks), One Fifteenth (concrete, wood panels, tall windows),
+  Woodpecker (polished concrete counter, wood panels), Publichood
+  (concrete, repurposed timber), Sama Dengan (a house, plant walls,
+  rattan) via The Way to Coffee, Superfuture, Manual]. **Middle
+  distance**: small wooden or terrazzo tables, rattan or plywood chairs,
+  a long communal table with laptops, a trailing pothos, an
+  outdoor terrace through the glass. **Light**: daylight through tall
+  glass, warm pendants, the cool of strong AC. **Palette**: concrete
+  grey, honey wood, rattan beige, deep green. **Signature shapes**: the
+  concrete counter block; the espresso machine; rattan chair backs;
+  tall windows with greenery; a hanging pendant. **Density**: busy in
+  the afternoon, soft figures with laptops.
+- Shell: a converted house or a new concrete box on a side street;
+  polished concrete or terrazzo floor.
+- The table as set here: a small wood or terrazzo top; a croissant,
+  pisang goreng or a rice bowl (many cafés serve nasi ayam sambal
+  matah-type bowls) on a ceramic plate [EDITORIAL]; the hero in a glass
+  when allowed. **Es kopi susu** in plastic cups and es teh are
+  intruders.
+- Subregional variants and the national default: **Bandung**: cooler
+  light, hillside garden cafés. **Yogyakarta**: joglo-house cafés with
+  wood and batik. National default: the Jakarta concrete-and-timber
+  coffee shop above.
+- Hallucination traps: a Parisian café; a chain's colours and cups; a
+  Melbourne chalkboard; a kopitiam (Malaysia/Singapore) with marble
+  tables; a Balinese beach café.
+- Never stage: legible menus, cup logos, neon; alcohol; coffee or tea
+  next to the hero.
+- Prompt-ready line: "A Jakarta neighbourhood coffee shop in the
+  afternoon: a small terrazzo table in the foreground, a softly blurred
+  polished concrete counter with a steel espresso machine, honey-wood
+  wall panels, rattan chairs and tall windows onto green plants."
+- Confidence and sources: MEDIUM (premium end of the market; the
+  ordinary kopi-susu kiosk is plainer). 1 search.
+
+#### Venue: Modern Indonesian restaurant, Jakarta (restoran Indonesia modern) · app: Modern bistro
+- Use for: restaurant indoor; dinner for 2–3, a weekend lunch, a small
+  celebration or buka bersama (iftar framing stays under the flagged
+  FESTIVALS guidance); design-led modern Indonesian cooking in Senopati,
+  Kemang, Menteng and SCBD [MEDIUM — Indonesia Design on Kilo Kitchen
+  (exposed concrete, brickwork, handmade glazed tiles, open kitchen);
+  Semaja (batik motifs with modern design, indoor garden); PANTJA
+  (open-fire cooking) via promotional listings].
+- Soft background (the core): **back wall**: exposed concrete or
+  brickwork, panels of **handmade glazed tiles** in deep green, indigo
+  or terracotta, or a large batik or woven textile as a soft pattern
+  (no script). **Middle distance**: an **open kitchen** with a
+  charcoal grill (open-fire, sate-style) glowing orange, cooks in dark
+  aprons blurred; an **indoor garden** or big tropical plants; teak
+  tables and rattan or woven chairs [MEDIUM — same sources; EDITORIAL].
+  **Light**: warm pendants in rattan, bamboo or clay; the kitchen glow;
+  dusk through tall glass. **Palette**: concrete grey, brick red, teak,
+  glazed green or indigo, rattan beige. **Signature shapes**: woven
+  pendants; the open grill's glow; glazed tile panel; rattan chair
+  backs; big monstera leaves. **Density**: half-full, calm.
+- Shell: a converted house or a ground floor on a busy street; terrazzo
+  or tiled floor; open ceiling.
+- The table as set here: bare teak or stone, no cloth; handmade
+  stoneware; shared dishes (sate, rendang, sayur), rice in a woven
+  basket or clay bowl, sambal in small dishes; spoon and fork; the hero
+  in a tumbler when allowed.
+- Subregional variants and the national default: Bali's modern
+  Indonesian rooms (Ubud, Seminyak) lean more to garden and timber;
+  Yogyakarta's to joglo wood. National default: the Jakarta room above.
+- Hallucination traps: white-cloth hotel fine dining; a marble bar with
+  bottles (Kilo's own bar must be cropped out or negated); a Balinese
+  resort with frangipani and Hindu statues; a Padang window display.
+- Never stage: a bar, bottles, wine glasses, beer taps; pork dishes;
+  legible menus.
+- Prompt-ready line: "A modern Indonesian restaurant in Jakarta at dusk:
+  a bare teak table with handmade stoneware, sate and rice in a woven
+  basket in the foreground, a softly blurred wall of exposed brick and
+  deep-green glazed tiles, rattan pendants glowing and the orange glow
+  of an open charcoal grill."
+- Confidence and sources: MEDIUM-LOW (sources dated, 2019). 1 search.
+  Indonesia Design; Now Jakarta; What's New Indonesia; En Primeur Club
+  (promotional).
+
+#### Venue: Alun-alun town square at night (alun-alun) · app: Park
+- Use for: on the go; an evening snack or meal for 1–3; the Javanese
+  town square (Yogyakarta, Bandung, Purwokerto, Ngawi, Malang and every
+  regency seat) where families sit and buy from vendors; Jakarta's
+  version is a city park (Taman Suropati, Lapangan Banteng) [MEDIUM —
+  Bisnis on Alun-alun Ngawi at night (vendors, play area, benches); Mojok
+  on Yogyakarta's north square (families on mats, roving vendors,
+  ronde); RRI on Purwokerto's reopened grass; vendor rules vary by city
+  (Antara on Malang)].
+- Soft background (the core): a **wide open lawn** ringed by **big
+  banyan (beringin) trees**, paved walks with lamp posts, **a ring of
+  vendor carts and tents** at the edge (bakso, sate, jagung bakar,
+  wedang ronde, martabak) with their lamps glowing, **woven mats
+  (tikar)** spread on the grass, kids' rental light-up cars as
+  coloured dots (no faces) [MEDIUM — same sources; ride cars LOW]. The
+  great mosque on the west side may show as a soft dome far off; keep it
+  soft and never behind the hero (hard rule 7). **Light**: dusk blue
+  turning to night, warm cart bulbs, LED lamp posts, string lights.
+  **Palette**: deep green-black trees, warm amber pools of light,
+  colourful mat patterns. **Signature shapes**: the beringin canopy;
+  carts with glowing lamps; mats on grass; lamp posts. **Density**:
+  lively at weekends.
+- The table as set here: food on a tikar or a low lesehan tray, or on a
+  cart's folding table: bakso in a bowl, sate on a plate, jagung bakar
+  on paper; spoon and fork; never in a hand.
+- Subregional variants and the national default: **Jakarta**: Taman
+  Suropati by day, a manicured park with sculptures and benches.
+  **Bandung**: the alun-alun's artificial turf and the twin mosque
+  towers far behind. National default: the Javanese alun-alun at night.
+- Hallucination traps: Central Park; a European square with cafés; a
+  Bali temple courtyard; a political rally; a Ramadan crowd scene.
+- Never stage: readable banners, government signage, a full flag; the
+  mosque close behind the product; alcohol.
+- Prompt-ready line: "An evening snack on a woven mat on the alun-alun
+  lawn: a bowl of bakso in the foreground, softly blurred banyan trees
+  against a dusk-blue sky, and a ring of vendor carts with glowing warm
+  lamps along the square's edge."
+- Confidence and sources: MEDIUM. 1 search. Bisnis.com; Mojok; RRI;
+  Antara; Undiksha journal.
+
+#### Venue: Pantai Losari-type waterfront promenade (pantai / anjungan) · app: Beach or waterfront
+- Use for: on the go; a sunset or evening snack for 1–3 on a city
+  waterfront: Pantai Losari in Makassar (the classic), with Manado's
+  boulevard, Jakarta's Ancol and Balikpapan's seafront as variants
+  [HIGH — Lonely Planet, indonesia.travel, detik Sulsel: a long
+  esplanade, quiet by day, alive at night with snack carts; pisang epe
+  stalls open about 17:00 to midnight with plastic tables and chairs
+  for watching the sunset].
+- Soft background (the core): a **wide paved promenade** (anjungan)
+  along the sea wall, the **sea** to the west with a **sunset** over
+  the Makassar Strait, fishing boats and the floating mosque's dome as
+  soft shapes far off (soft, never behind the hero); along the
+  promenade, **carts and tent stalls** with grills, glowing bulbs and
+  rows of **plastic tables and chairs** [HIGH for carts, tables and
+  sunset — same sources]. **Middle distance**: families and couples
+  strolling, a busker as a soft figure, street lamps. **Light**: golden
+  hour turning orange and violet, then warm cart bulbs and white lamps.
+  **Palette**: orange sky, slate sea, grey paving, red and blue plastic
+  chairs. **Signature shapes**: the flat sea horizon; the sea-wall rail;
+  plastic chairs; grill smoke; boat silhouettes.
+- The table as set here: a plastic table at a stall; **pisang epe**
+  (flattened grilled banana with palm-sugar syrup) on a plate or paper,
+  or grilled fish (ikan bakar) with rice and sambal; spoon and fork.
+- Subregional variants and the national default: **Jakarta (Ancol)**:
+  a sandy bay with park benches. **Bali**: Jimbaran beach seafood tables
+  on the sand (no alcohol, offerings out of frame). National default:
+  the Losari promenade at sunset.
+- Hallucination traps: a Bali beach club with loungers and cocktails; a
+  turquoise resort; surfers; Kuta party scenes.
+- Never stage: beer, Bintang marks, cocktails; readable letter-sign
+  monuments on the promenade; a mosque directly behind the product.
+- Prompt-ready line: "Pisang epe on a plate at a plastic table on
+  Makassar's waterfront promenade at sunset: a softly blurred sea wall,
+  an orange sky over a flat sea with boat silhouettes, and a row of
+  glowing vendor carts along the paving."
+- Confidence and sources: HIGH for the format. 1 search. Lonely
+  Planet; indonesia.travel; detik Sulsel (2022, 2023).
+
+#### Venue: Stadium forecourt on a Timnas match night, GBK type (kawasan stadion) · app: Stadium or event
+- Use for: on the go / outdoor event; a pre-match meal for 1–3 outside
+  Gelora Bung Karno (Jakarta) or a regional stadium; supporters arrive
+  from about 17:30 for a 19:00 kick-off and **food vendors serve fans
+  eating before the game**, beside jersey sellers [MEDIUM — Suara.com,
+  infopublik (vendors and arrival times); Medcom and Antara on crowds
+  filling the GBK area]. The town-square nobar is covered in GAME NIGHT.
+- Soft background (the core): the **stadium's ring** rising behind: the
+  GBK's curved concrete and steel façade with its lit roof edge, broad
+  paved plazas, palm and tree lines, **crowds in red** as a soft mass
+  (within the face limit), jersey stalls as red blocks, **vendor carts
+  and tents** with bulbs and smoke from sate grills [MEDIUM — same
+  sources; façade EDITORIAL]. **Light**: dusk turning to night,
+  floodlight glow over the stadium rim, warm cart bulbs, phone lights
+  as points. **Palette**: red and white crowd colour, grey concrete,
+  dusk blue, amber bulbs. **Signature shapes**: the stadium curve; the
+  floodlight halo; the red crowd blur; cart lamps. **Density**: packed
+  and loud.
+- The table as set here: food on a cart's ledge, a plastic stool or a
+  low folding table by a gerobak: nasi goreng, sate or bakso on a plate
+  or in a box; never in a hand.
+- Subregional variants and the national default: regional stadiums
+  (Bandung's GBLA, Surabaya's GBT) with smaller plazas and more carts.
+  National default: the GBK forecourt.
+- Hallucination traps: a European stadium with beer stands; an
+  American tailgate with grills on pickups; flares and riots; a stadium
+  covered in a full flag.
+- Never stage: a full flag; crests, jerseys or sponsor marks readable;
+  flares; alcohol (banned by police at matches); crowd trouble.
+- Prompt-ready line: "A plate of sate on a vendor's cart ledge outside
+  a Jakarta stadium on match night: a softly blurred curved stadium
+  façade with a floodlight glow, a crowd in red and white and warm
+  cart lamps in the dusk."
+- Confidence and sources: MEDIUM for vendors and timing. 2 searches.
+  Suara.com; infopublik; Medcom; Antara; JPNN.
 
 ---
 
@@ -3543,6 +3862,15 @@ conversation, not an approved scene.*
   The type-36 open-plan layout rests on property-portal guides (tier 3).
   The angkringan, rumah makan Padang, lesehan, mall food court, warung
   kopi and gedung hall have no profile yet (later wave).
+- **Venue profiles wave 2 (2026-10-18), unverified background details.**
+  Kos-room personal touches LOW; full-island share in cluster houses not
+  confirmed (the mini-bar form is MEDIUM); café sources are the premium
+  end, the ordinary kopi-susu kiosk is plainer; modern-restaurant sources
+  date from 2019; alun-alun vendor access varies by city regulation and
+  ride-on light cars are LOW; the GBK façade description is EDITORIAL;
+  food trucks as a minor novelty LOW. The angkringan, rumah makan Padang,
+  lesehan, mall food court, warung kopi and gedung hall still have no
+  profile. Iftar staging stays pending.
 
 ## CANDIDATE QUEUE
 
@@ -3651,3 +3979,14 @@ conversation, not an approved scene.*
   Times (kaki lima); Lestari Global Industri, Cahaya Tenda, NS Tenda,
   PestaHub (tier 3, tent vendors). Iftar staging left pending as
   flagged. No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5
+  profiles tagged (4 with app options; the hajatan tent left untagged as
+  a private celebration), 7 new profiles (Jakarta kos room, cluster
+  dapur bersih with meja bar, neighbourhood coffee shop, modern
+  Indonesian restaurant, alun-alun at night, Pantai Losari waterfront,
+  GBK stadium forecourt), 8 searches. Key sources: Republika, SWA,
+  Mamikos, detik (kos); Kontan Momsmoney, IDN Times, Archify, Rumah123
+  (kitchens); The Way to Coffee, Superfuture, Manual Jakarta; Indonesia
+  Design (Kilo Kitchen); Bisnis, Mojok, RRI, Antara (alun-alun); Lonely
+  Planet, indonesia.travel, detik Sulsel (Losari); Suara.com, infopublik,
+  Medcom (GBK). Iftar staging left pending as flagged. No subagents.

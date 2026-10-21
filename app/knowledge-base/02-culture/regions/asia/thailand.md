@@ -233,13 +233,36 @@ Schema §5.9 applies. The default camera keeps the table sharp and the
 room soft, so each profile leads with what the blurred background must
 show. First wave (2026-10-01): the five most-used staging venues. The
 QUICK-REFERENCE table above stays the short index; the night market,
-khao gaeng shop, food court, khan tok and karaoke room keep their
-register rows and scenario text until a later wave. Hard rules 1–9 apply
+khao gaeng shop, khan tok and karaoke room keep their register rows
+and scenario text until a later wave (wave 2, 2026-10-18, added the
+food court and six other app-option profiles at the end). Hard rules 1–9 apply
 to every profile; hard rule 5 (no Buddha image, spirit house or royal
 portrait in frame) is the trap that matters most in Thai backgrounds,
 because all three are common in exactly these rooms.
 
-#### Venue: Bangkok townhouse living-dining room (baan tao-hao / tuek thaew)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Thailand profile |
+|---|---|
+| Dining room | Bangkok townhouse living-dining room; outdoor form: Front yard and under-house space |
+| Gen Z apartment | Bangkok studio condo (wave 2) |
+| Kitchen island | Bangkok-suburb moo baan house, peninsula counter (wave 2; true islands are rare, see profile) |
+| Sit-down | Shophouse restaurant |
+| Counter service | Mall food court (wave 2) |
+| Café | Bangkok neighbourhood café (wave 2) |
+| Modern bistro | Bangkok modern Thai restaurant (wave 2) |
+| Street market | Soi street stall (a night-market row is the same stall set repeated under canopies) |
+| Food truck | Soi street stall: the wheeled cart is Thailand's real mobile vendor; food-truck vans at night markets and events exist but are secondary [LOW — not verified] |
+| Park | Bangkok public park, Lumphini type (wave 2) |
+| Beach or waterfront | Bang Saen-type family beach (wave 2) |
+| Stadium or event | none (generic look): not profiled this wave; the party tent is a private event, not this option |
+
+The Party tent with Chinese tables serves no app option (a private
+banquet) and stays as context for CELEBRATIONS.
+
+#### Venue: Bangkok townhouse living-dining room (baan tao-hao / tuek thaew) · app: Dining room
 - Use for: home indoor; casual lunch at home (1–3), dinner at home, the
   family side of Chinese New Year and house-blessing meals, the EPL and
   national-team watch party; 1, 2 or a small group. The Bangkok family
@@ -330,7 +353,7 @@ because all three are common in exactly these rooms.
   ENVIRONMENT norms. Tissue box, fly cover and Deep South calligraphy
   LOW — not verified.
 
-#### Venue: Front yard and under-house space (laan baan / tai thun)
+#### Venue: Front yard and under-house space (laan baan / tai thun) · app: Dining room, outdoor
 - Use for: home outdoor; meal outdoors at home, Songkran homecoming,
   mookata at home, village feasts before the tent goes up, the
   national-team and Muay Thai watch parties; 1, 2 or a small group.
@@ -403,7 +426,7 @@ because all three are common in exactly these rooms.
   house"; file ENVIRONMENT norms. Platform bed, water jar and clay stove
   not individually re-checked.
 
-#### Venue: Shophouse restaurant (raan aahaan taam sang / raan khao)
+#### Venue: Shophouse restaurant (raan aahaan taam sang / raan khao) · app: Sit-down
 - Use for: restaurant indoor; away-from-home lunch for 1, dinner for
   2–3, birthdays in small groups, the street-food-shop watch party; the
   default casual sit-down restaurant in every Thai city [MEDIUM — file
@@ -478,7 +501,7 @@ because all three are common in exactly these rooms.
   (Gai Tord Jae Kee, Wattana Panich); travelfish Nang Loeng market;
   file register and GENERAL NORMS.
 
-#### Venue: Soi street stall (raan khaang thang)
+#### Venue: Soi street stall (raan khaang thang) · app: Street market, Food truck
 - Use for: street / on-the-go and pavement sit-down; meal on the go
   (1), away-from-home lunch (1–2), late-night food, a few friends with a
   TV at a stall; the default Thai street venue [HIGH — travelfish Silom
@@ -624,6 +647,317 @@ because all three are common in exactly these rooms.
   nakorntoh.com, sawsamsaicatering.com rental and catering listings
   (tier 3); drape colour palette and the Deep South form LOW — not
   verified as a share of events.
+
+#### Venue: Bangkok studio condo (hong condo) · app: Gen Z apartment
+- Use for: home indoor; a young renter or young couple, 1–2 people; lunch
+  or dinner, delivery food decanted onto plates. The Bangkok young-adult
+  default: new supply is overwhelmingly condo and a studio runs ~25–30 m²
+  [MEDIUM — file ENVIRONMENT norms (2020 supply figure); Lazudi and
+  Hipflat studio listings at 25–29 m², about 11,000 THB a month]. Outside
+  Bangkok many young adults live with family: stage this option as a
+  bedroom corner of the townhouse instead [EDITORIAL].
+- Soft background (the core): one room seen whole. **Back wall**: a
+  floor-to-ceiling **sliding glass door to a narrow balcony**, its sheer
+  white curtain glowing, and beyond it a blurred band of other condo
+  towers or the BTS viaduct; on the balcony a split-AC compressor and a
+  folding drying rack as grey shapes [MEDIUM — file norms]. **Middle
+  distance**: light wood-look laminate floor, a two-seat fabric sofa with
+  a couple of coloured cushions, a bed edge with a plain duvet, a
+  built-in wardrobe in pale melamine, a desk in the window nook with a
+  laptop (screen dark), a pothos or monstera in a pot, a floor lamp
+  [MEDIUM — listing descriptions: neutral palette, light wood floors,
+  colourful cushions, window desk nook, floor lamps]. **Personal
+  touches**: a few unframed prints taped or clipped to the wall, a
+  warm-white string light along the curtain rail, a figure or art-toy on
+  a shelf, a small mirror [LOW — not verified; EDITORIAL]. **Light**:
+  bright daylight from the balcony door, flat and white at noon, warm at
+  dusk; at night the string light and a ceiling downlight; the AC unit
+  high on the wall as a pale bar. **Palette**: white walls, pale oak
+  laminate, grey or beige fabric, one or two pastel accents, green
+  leaves. **Signature shapes**: the glowing sliding door; the wall AC
+  bar; the low sofa; the string-light dots; the tower blocks beyond.
+  **Density and wear**: compact and a little full (a storage box, a
+  laundry basket, shoes by the door), tidy, not a showroom.
+- Shell: high-rise concrete, about 2.6 m ceiling, a galley kitchenette
+  along one wall (one hob, microwave, small fridge) [MEDIUM — listings].
+- The table as set here: a small square or round two-seat table or a
+  low coffee table with floor cushions; one or two plates with spoon and
+  fork, food decanted from delivery boxes (bags and boxes out of frame);
+  a phone face down.
+- Subregional variants and the national default: **Chiang Mai**: a
+  low-rise apartment near the university, mountains soft beyond.
+  **Elsewhere**: a dorm-style apartment room (hong chao) with a steel
+  window grille. National default: the Bangkok studio above.
+- Hallucination traps: a Scandinavian Pinterest loft with a big
+  open-plan kitchen; a Japanese tatami room; a Korean drama apartment;
+  exposed brick and Edison bulbs; a spacious Western flat with a
+  dining set for six; a Buddha image as décor.
+- Never stage: a Buddha shelf or royal portrait in frame; legible
+  delivery bags, posters or screens; beer cans on the balcony.
+- Prompt-ready line: "A compact Bangkok studio condo: a small two-seat
+  table in the foreground, a softly blurred sliding glass balcony door
+  with a glowing sheer curtain and condo towers beyond, a grey two-seat
+  sofa with pastel cushions, a potted monstera and a warm string light."
+- Confidence and sources: MEDIUM for size and furnishings (1 search:
+  Lazudi and Hipflat studio listings, agent copy); décor touches LOW.
+
+#### Venue: Bangkok-suburb moo baan house, peninsula counter (khrua thai / khrua farang) · app: Kitchen island
+- Use for: home indoor; a seat at the counter of a newer house for 1–2.
+  **True islands are uncommon**: they appear in upper-middle new houses
+  in gated estates (moo baan) and larger condos as a "dry kitchen"
+  (khrua farang) counter, while frying with chilli and fish sauce happens
+  in a separate wet kitchen (khrua thai) at the back or outdoors
+  [MEDIUM — the dry/wet kitchen split: regional renovation guides
+  (Qanvast, Malaysia) and a Chulalongkorn thesis on small kitchens in
+  newer Thai houses; Thai-specific island share not confirmed]. Stage
+  the dry-kitchen peninsula or breakfast bar as the honest version.
+- Soft background (the core): **cabinets**: flat-panel laminate in
+  white, light oak or pale grey with a granite-look or quartz worktop;
+  **counter clutter**: the lidded electric rice cooker, a hot-water
+  dispenser pot, a microwave, a dish rack, a bottle of fish sauce and a
+  jar of chilli as soft shapes (labels unreadable) [MEDIUM — file
+  interior markers]. **Back wall**: white or grey tiled splashback, a
+  slim cooker hood that is rarely used hard, and a **glass sliding door
+  or louvred window to the wet kitchen and yard**, where a gas wok
+  burner and a gas tank show as dark shapes in bright daylight
+  [EDITORIAL from the split]. **Light**: daylight from the yard door; a
+  row of downlights or one or two simple pendants over the counter.
+  **Palette**: white and pale wood, grey stone, steel, green of the yard.
+  **Signature shapes**: the rice-cooker dome; the glass door to the
+  bright yard; the hood; the split-AC bar high on the wall; tall pale
+  fridge. **Density**: neat but used; a fruit bowl, a calendar
+  (unreadable).
+- Shell: two-storey concrete house in an estate, glazed tile floor,
+  plaster ceiling about 2.7 m [MEDIUM — file norms].
+- The table as set here: the counter top (granite-look, quartz or
+  laminate), two bar stools in wood or steel; a plate of rice, one or two
+  shared dishes, spoon and fork; a placemat.
+- Subregional variants and the national default: condos above ~60 m²
+  may have a small island; elsewhere the dining table carries the meal
+  (see townhouse profile). National default: the estate peninsula above.
+- Hallucination traps: an American show-kitchen with a vast marble
+  island, a range cooker and a wine fridge; a European farmhouse
+  kitchen; a Thai resort kitchen in teak; heavy frying on the island
+  itself.
+- Never stage: wine glasses, a bottle rack, whisky on the counter;
+  legible packaging; a Buddha shelf or spirit house through the window.
+- Prompt-ready line: "A seat at the dry-kitchen counter of a Bangkok
+  suburban house: a granite-look countertop in the foreground, white
+  laminate cabinets, a rice-cooker dome and a tiled splashback softly
+  behind, and a glass door to a bright blurred back yard and wet
+  kitchen."
+- Confidence and sources: LOW-MEDIUM. 1 search (wet/dry kitchen; Thai
+  island search returned nothing Thai-specific). Island prevalence not
+  confirmed — flag for review.
+
+#### Venue: Bangkok neighbourhood café (raan kafae) · app: Café
+- Use for: restaurant indoor; one person or two friends, afternoon or a
+  light lunch; also the board-game café's sibling. Independent cafés are
+  dense in Ari, Ekkamai, Thonglor, Charoenkrung and university areas, and
+  in every provincial town [MEDIUM — BK Magazine new-café lists; design
+  press below].
+- Soft background (the core): the **Bangkok café look is concrete,
+  terrazzo, pale wood and plants**: **back wall** in raw or smoothed
+  concrete, limewash, or white paint, sometimes grey brick or oak panels;
+  a long **counter** in terrazzo, concrete or plywood with a steel
+  espresso machine as a bright block, a glass pastry case glowing, a
+  grinder and a stack of cups; shelves of glass jars and ceramics
+  [MEDIUM — Entree (concrete, terrazzo floors), Kaizen Coffee (grey brick,
+  oak), ASWA's Onda Café (concrete front, small garden) via BK Magazine,
+  art4d, designboom]. **Middle distance**: a few small round or square
+  tables in wood or terrazzo, bentwood or plywood chairs, a big potted
+  plant or a glimpse of a small garden courtyard, a large window or glass
+  front onto a leafy soi. **Light**: strong daylight through a glass
+  front and the courtyard, white and even; a few warm pendants; the AC
+  keeping the glass slightly cool-looking. **Palette**: grey concrete,
+  cream terrazzo chips, pale oak, white, deep green leaves. **Signature
+  shapes**: the espresso machine; the glowing pastry case; the glass
+  front with leaves beyond; terrazzo counter edge; a hanging pendant.
+  **Density**: calm, two or three blurred customers with laptops.
+- Shell: a converted shophouse ground floor or a small new-build box with
+  a glass front, polished concrete or terrazzo floor [MEDIUM — same
+  sources].
+- The table as set here: small wood or terrazzo top; a cake or toast on
+  a ceramic plate with a fork; the hero in a glass when the brief allows.
+  Coffee cups and iced drinks in plastic cups are intruders — out of
+  frame.
+- Subregional variants and the national default: **Chiang Mai**
+  (Nimman): wooden houses turned cafés, garden seating. **Provinces**:
+  a roadside café with a lawn and a photo-spot wall. National default:
+  the Bangkok concrete-and-plants café above.
+- Hallucination traps: a Parisian café with bistro chairs on a
+  boulevard; a Melbourne flat-white café with a chalkboard menu; a
+  kopitiam (Malaysia/Singapore); a chain café's colours; orange Thai iced
+  tea as the default drink.
+- Never stage: legible menu boards, cup logos, Wi-Fi signs; alcohol;
+  coffee or cha yen next to the hero.
+- Prompt-ready line: "A small Bangkok neighbourhood café: a terrazzo
+  table in the foreground, a softly blurred concrete counter with a
+  steel espresso machine and a glowing pastry case, pale oak chairs and
+  a glass front onto green leaves in bright daylight."
+- Confidence and sources: MEDIUM. 1 search (Bangkok café interiors).
+  BK Magazine; art4d; designboom (ASWA); Surround Living (tier 3).
+
+#### Venue: Bangkok modern Thai restaurant (raan aahaan thai samai mai) · app: Modern bistro
+- Use for: restaurant indoor; dinner for 2–3, a weekend lunch, a small
+  birthday; design-led but relaxed modern Thai cooking in Bangkok
+  (Thonglor, Ari, Sathorn, Charoenkrung, Thonburi warehouses) [MEDIUM —
+  Frommer's on Never Ending Summer (converted warehouse, plants,
+  industrial lighting, open kitchen); ASWA's Khao Niao restaurant and
+  Clay (concrete plaster, wood, terrazzo) via art4d, Architizer].
+- Soft background (the core): **back wall**: board-marked or smoothed
+  grey concrete, exposed old brick, or earthy clay plaster; a few large
+  ceramic pieces or woven panels as texture, no art with text.
+  **Middle distance**: an **open kitchen** behind a low counter, glowing
+  warm, with a charcoal grill's orange haze, steel shelves, chefs in dark
+  aprons as blurred figures; other tables in dark wood or terrazzo;
+  plants in big pots; tall steel-framed glass or old timber doors
+  [MEDIUM — same sources; EDITORIAL composition]. **Light**: warm
+  pendants in rattan, paper or clay above each table, the kitchen glow,
+  dusk through glass going blue. **Palette**: concrete grey, dark teak
+  or walnut, terracotta, clay, deep green, warm amber. **Signature
+  shapes**: statement pendants; the open-kitchen glow; a concrete or
+  brick wall; big leafy plants; handmade ceramic plates. **Density**:
+  half-full, calm; two blurred tables.
+- Shell: converted shophouse, house or warehouse; polished concrete or
+  handmade brick floor; high ceiling with exposed beams.
+- The table as set here: bare dark wood or terrazzo, no cloth;
+  **handmade stoneware plates and bowls** in earthy glazes, shared
+  dishes in the middle, rice in a ceramic or brass bowl, spoon and fork,
+  linen napkin; the hero in a tumbler when allowed.
+- Subregional variants and the national default: Chiang Mai has its own
+  modern-Lanna rooms with teak and rattan. National default: the Bangkok
+  concrete-and-clay room above.
+- Hallucination traps: white tablecloths and silver domes (fine dining);
+  a carved-teak "Thai restaurant abroad"; a bar with bottles and taps;
+  a rooftop sky bar with city lights; a generic Nordic restaurant with no
+  Thai cue.
+- Never stage: a bar, bottles, wine glasses, cocktail shakers; legible
+  menus; a Buddha image as décor.
+- Prompt-ready line: "A modern Thai restaurant in Bangkok at dusk: a
+  bare dark-wood table with handmade stoneware dishes in the foreground,
+  a softly blurred board-marked concrete wall, rattan pendants glowing
+  warm, big leafy plants and the amber glow of an open charcoal kitchen
+  behind."
+- Confidence and sources: MEDIUM-LOW. 2 searches (modern Thai restaurant
+  interiors; contemporary materials). Frommer's; art4d; designboom;
+  Architizer; Dezeen (older). No bar shown by design [EDITORIAL].
+
+#### Venue: Mall food court (food court nai hang) · app: Counter service
+- Use for: restaurant indoor; quick lunch for 1–3, the everyday urban
+  counter-service venue; malls in Bangkok and every provincial city
+  [HIGH for the prepaid-card system and air-conditioned halls — BK
+  Magazine "Bangkok's 9 best food courts"; visitthailandtoday on MBK
+  Food Legends, Pier 21, Lofter, Platinum].
+- Soft background (the core): a **wide air-conditioned hall**: a long
+  row of **stall counters** with steel display trays, pots and woks,
+  each with a lit photo-menu panel above (blurred to colour blocks, no
+  numbers), staff in caps behind glass sneeze guards; a cashier kiosk for
+  the stored-value card [HIGH — same sources; EDITORIAL for the look].
+  **Middle distance**: many **identical small tables** (laminate or
+  stone-look) with fixed or light chairs, a tray-return station,
+  pillars, a few blurred diners. **Light**: bright, even LED or
+  fluorescent ceiling light, cool-neutral, glossy floor reflections.
+  **Palette**: white and grey, pale wood laminate, steel, the warm
+  colour blocks of menu panels. **Signature shapes**: the counter row
+  with lit panels; steel trays; grid of tables; ceiling light lines.
+  **Density**: busy at noon, clean.
+- Shell: an upper or basement mall floor; tiled or vinyl floor; dropped
+  ceiling with lights and AC grilles.
+- The table as set here: a melamine plate or steel-and-melamine bowl on
+  a plastic tray; spoon and fork, chopsticks for noodles; a small
+  condiment caddy; tissue. One-plate dishes (kra pao rice, khao man gai,
+  noodle soup).
+- Subregional variants and the national default: market-hall food
+  centres and university canteens use the same counter row with fewer
+  finishes. National default: the Bangkok mall food court above.
+- Hallucination traps: a US fast-food chain's colours and logo wall;
+  a Singapore hawker centre with numbered stalls; an upscale food hall
+  with marble and bars.
+- Never stage: chain marks, legible stall names or prices, the card
+  itself readable; beer stalls.
+- Prompt-ready line: "A Bangkok mall food court at lunch: a melamine
+  plate on a plastic tray on a small laminate table in the foreground, a
+  softly blurred row of steel stall counters under glowing colour-block
+  menu panels, bright even ceiling light on a glossy floor."
+- Confidence and sources: HIGH for the system, MEDIUM for the look. 1
+  search. BK Magazine; visitthailandtoday; Frommer's.
+
+#### Venue: Bangkok public park, Lumphini type (suan satharana) · app: Park
+- Use for: on the go; late afternoon or early evening snack or picnic for
+  1–3 [MEDIUM — guides: early morning and 16:00 onward are the park's
+  hours of use]. Lumphini, Benjakitti, Chatuchak and Rot Fai parks;
+  every city has a municipal park.
+- Soft background (the core): a **lake** with a paved path along it,
+  **swan-shaped pedal boats** as white shapes on the water, big rain
+  trees and palms, a manicured lawn, and the **Bangkok skyline** of
+  office and condo towers rising beyond the trees [HIGH for lake, swan
+  boats, benches and tables — Agoda, Thailand Magazine, AFAR, Phuket101].
+  **Middle distance**: green park benches and concrete picnic tables,
+  joggers and walkers as soft streaks, a monitor lizard on the bank as an
+  optional wildlife note [MEDIUM — same]. **Food**: bought from stalls at
+  the gates (fried rice, som tam, fruit, roti) and carried in [MEDIUM —
+  sources conflict on vending inside]. **Light**: low golden light
+  through the trees at 17:00, then dusky blue with lamp posts. **Palette**:
+  deep green, tan path, pale water, glass towers. **Signature shapes**:
+  the swan boats; the tower skyline over the treeline; a rain-tree
+  canopy; a park bench. **Density**: lively but spacious.
+- The table as set here: food on a concrete picnic table or a bench
+  beside the person, in a foam or paper box or a plastic bag laid flat,
+  or on a mat on the grass; a bamboo skewer or plastic spoon; never in a
+  hand.
+- Subregional variants and the national default: Chiang Mai's Nong Buak
+  Haad park with mountains; provincial parks with a bandstand and an
+  aerobics crowd at dusk. National default: Lumphini above.
+- Hallucination traps: Central Park; a Japanese garden; a temple ground
+  as "park"; the King's statue at the gate (royal image; out of frame).
+- Never stage: royal monuments or portraits; legible park signs;
+  alcohol (banned in parks [LOW — not verified]).
+- Prompt-ready line: "A late-afternoon snack on a concrete picnic table
+  in a Bangkok park: the food in the foreground, a softly blurred lake
+  with white swan pedal boats, big rain trees and a skyline of towers
+  beyond in golden light."
+- Confidence and sources: MEDIUM-HIGH. 1 search. Agoda; Thailand
+  Magazine; AFAR; Phuket101.
+
+#### Venue: Bang Saen-type family beach (chai haat) · app: Beach or waterfront
+- Use for: on the go; a weekend seafood meal or snack for 1–3; the Thai
+  family's day-trip beach (Bang Saen, Cha-am, Hua Hin, Pattaya's Thai
+  side), not the resort island [HIGH — travelfish, Thai Holiday Guide,
+  Saensuk municipality: rentable deck chairs and umbrellas, food stalls
+  and seafood vendors along the beach, Bangkok families at weekends].
+- Soft background (the core): **rows of rented deck chairs** (folding
+  canvas or plastic loungers) under **big beach umbrellas** in mixed
+  colours, packed close in a line along the sand; the **grey-green Gulf
+  sea**, calm, with rubber rings and banana boats as specks; a
+  **beach road** behind with a sea wall, casuarina or coconut trees,
+  vendors' carts, motorbikes [HIGH for chairs, umbrellas and vendors —
+  same sources]. **Middle distance**: grilled seafood smoke, a vendor
+  with a tray of grilled squid, blurred families on the next chairs.
+  **Light**: hazy bright Gulf light, often white sky; late afternoon warm.
+  **Palette**: sand, faded umbrella colours, grey-green sea, white sky.
+  **Signature shapes**: the umbrella canopy row; low loungers; casuarina
+  trees; the flat Gulf horizon. **Density**: busy on weekends.
+- The table as set here: a small low plastic or folding table between
+  two loungers; grilled squid, prawns or crab, som tam, sticky rice in a
+  bag, on plates or foam boxes; spoon and fork.
+- Subregional variants and the national default: Andaman beaches
+  (Phuket, Krabi) are clearer and more touristic; riverside Bangkok
+  (Chao Phraya promenades) is the waterfront alternative. National
+  default: the Bang Saen Gulf beach above.
+- Hallucination traps: a turquoise resort with an infinity pool; a
+  beach bar with buckets; longtail boats and limestone cliffs by
+  default; fire shows.
+- Never stage: buckets, beer, whisky on loungers; legible umbrella
+  branding; swimwear-centred people; full Thai flag.
+- Prompt-ready line: "A plate of grilled squid on a small low table
+  between beach loungers at a Thai family beach: a softly blurred row of
+  big umbrellas in faded colours, a calm grey-green Gulf sea and
+  casuarina trees along the beach road, in hazy afternoon light."
+- Confidence and sources: HIGH for the chair-and-umbrella set, MEDIUM
+  for the look. 1 search (plus 1 on Bangkok's riverside, which found no
+  public promenade worth profiling). travelfish; Thai Holiday Guide;
+  Saensuk municipality.
 
 ---
 
@@ -3188,6 +3522,15 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   Bangkok specifically (as opposed to the national 18%) was not found.
   The night market, khao gaeng shop, food court, khan tok and karaoke
   room have no profile yet (later wave).
+- **Venue profiles wave 2 (2026-10-18), unverified background details.**
+  Studio-condo personal touches (prints, string light, art toys) LOW;
+  the share of Bangkok-suburb houses with a dry-kitchen island or
+  peninsula is not confirmed (the Kitchen island profile rests on the
+  regional wet/dry kitchen split); modern-bistro materials rest on a few
+  design-press projects, some 2015-2016; food vending inside Lumphini
+  conflicts between guides; the park alcohol ban is LOW. Stadium or event
+  has no profile (generic look). The night market, khao gaeng shop,
+  khan tok and karaoke room still have no profile.
 
 ## CANDIDATE QUEUE
 
@@ -3285,3 +3628,13 @@ the brief — here a Coca-Cola Original Taste 250 mL glass bottle):**
   "Traditional Thai house"; factsanddetails.com; Beyond Decor (tier 3);
   Thai tent and catering rental listings (tentplk, nakorntoh,
   sawsamsai; tier 3). No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5
+  profiles tagged (4 with app options; the party tent left untagged as a
+  private banquet), 7 new profiles (studio condo, suburban peninsula
+  kitchen, neighbourhood café, modern Thai restaurant, mall food court,
+  Lumphini-type park, Bang Saen-type beach), 9 searches. Key sources:
+  Lazudi and Hipflat listings (tier 3); BK Magazine; art4d; designboom;
+  Architizer; Frommer's; visitthailandtoday; Agoda, Thailand Magazine,
+  AFAR; travelfish; Thai Holiday Guide; Saensuk municipality; Qanvast
+  (Malaysia, tier 3) and a Chulalongkorn thesis for the kitchen split.
+  No subagents.

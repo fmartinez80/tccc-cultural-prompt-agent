@@ -170,7 +170,26 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-used staging venues). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 4 (Centre, Mexico City and Puebla area) is the default; other zones are given as variants, and where a zone has no detail the Centre version applies [EDITORIAL]. File-wide rules 1–6 apply to every profile: nothing legible, no alcohol, no drinks but the hero, nothing held in a hand. The QUICK-REFERENCE table above stays as the short index.
 
-### Venue: Colonia house, kitchen-dining corner (casa en colonia: comedor y cocina)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Mexico profile |
+|---|---|
+| Dining room | Colonia house, kitchen-dining corner; outdoor: Patio, carport or closed street under a tarp |
+| Gen Z apartment | Young renter's flat in an older colonia building (many young adults live with family: the colonia house is the honest variant) |
+| Kitchen island | New-build apartment kitchen with a breakfast bar (true islands are upper-middle and suburban only) |
+| Sit-down | Fonda / comida corrida |
+| Counter service | Mall food court or order-at-the-counter taquería |
+| Café | Neighbourhood specialty café |
+| Modern bistro | New Mexican neighbourhood restaurant |
+| Street market | Street taco stand (the tianguis and mercado municipal are in CROSS-CUTTING REGISTER: STREET FOOD & MARKETS) |
+| Food truck | Street taco stand: US-style food trucks exist (food-truck parks in some cities [LOW — not verified]) but the stand and cart are the real equivalent |
+| Park | Neighbourhood park on a weekend |
+| Beach or waterfront | City seafront promenade (malecón) |
+| Stadium or event | Stadium forecourt on match day (indoor events: Hired party hall, untagged) |
+
+### Venue: Colonia house, kitchen-dining corner (casa en colonia: comedor y cocina) · app: Dining room
 - **Use for:** home indoor; casual lunch for 1, 2 or 3, the light cena, Nochebuena and Sunday comida tables, the living-room side of a home watch party. The national default home: 73.2% of dwellings are a single house on its own lot (INEGI 2020; see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the staging default].
 - **Soft background (the core):**
   - *Back wall:* smooth painted plaster in one flat warm or saturated colour (terracotta, mango yellow, salmon, pistachio green) or plain cream, with a slight satin sheen where the window light hits it. On it, kept small and soft: a paper wall calendar (an unreadable rectangle of colour), a small framed religious image or family photo, a round wall clock [MEDIUM — file interior markers, not individually re-checked].
@@ -188,7 +207,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-use
 - **Prompt-ready line:** "A tidy Mexican family house at midday: soft background of a terracotta-painted plaster wall, a bright window behind a black iron grille, a blurred compact kitchen with a steel comal on the gas stove and a pale blue water jug; in focus, a table with a floral plastic oilcloth, a stone molcajete and a cloth-wrapped stack of tortillas."
 - **Confidence and sources:** MEDIUM overall. Housing type HIGH (INEGI, as cited above); social-housing interior MEDIUM ([Homify — casas de interés social](https://www.homify.com.mx/libros_de_ideas/3788854/casas-de-interes-social-en-mexico-8-cosas-que-debes-debes-saber-en-cuanto-antes); [La Haus — casa de interés social](https://www.lahaus.mx/blog/comprar-vivienda/casa-de-interes-social-que-es-y-como-acceder-a-este-tipo-de-vivienda)); the rest from the file's interior markers; staging EDITORIAL. One search this pass.
 
-### Venue: Patio, carport or closed street under a tarp (patio o cochera con lona)
+### Venue: Patio, carport or closed street under a tarp (patio o cochera con lona) · app: Dining room, outdoor
 - **Use for:** home outdoor; children's birthday taquiza, baptism and first-communion lunches, posada lotería, Fiestas Patrias night, Sunday comida spilling outside, family dominoes; parties of 1, 2 or a small group as a snapshot of 10–80 guests. The everyday-party venue for most of the country (see CELEBRATIONS: How large gatherings work here) [EDITORIAL synthesis; MEDIUM for tarps and rented furniture as a standard service].
 - **Soft background (the core):**
   - *Overhead:* a stretched polyester **tarp (lona or toldo)** on metal poles, white, blue or striped, that glows translucent by day and puts a soft colour cast over the whole scene; for a fiesta, string lights and papel picado hung beneath it [MEDIUM — CDMX party-rental listings for toldos, lonas, tables and chairs].
@@ -207,7 +226,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-use
 - **Prompt-ready line:** "A Mexican family party under a stretched white tarp in a concrete patio: softly blurred rows of folding chairs, a line of clay cazuelas on a long table and warm string lights against a painted block wall with an iron gate; in focus, a folding table with a bright plastic cloth and disposable plates of tacos de guisado."
 - **Confidence and sources:** MEDIUM overall. Rentals: [Renta de Carpas CDMX — toldos](https://rentadecarpascdmx.com/renta-de-toldos-para-fiestas); [Alquiler para Fiestas — sillas y mesas](https://alquiler-para-fiestas.com.mx/renta-de-sillas-y-mesas.html) (tier 3, vendors); the patio and azotea markers from the file; staging EDITORIAL. One search this pass.
 
-### Venue: Fonda / comida corrida (fonda, fondita, cocina económica)
+### Venue: Fonda / comida corrida (fonda, fondita, cocina económica) · app: Sit-down
 - **Use for:** restaurant, indoor; the weekday comida (~14:00–16:00), 1 person, 2 or a small group of co-workers; small, family-run, near offices and markets. The default casual sit-down restaurant [HIGH — comida-corrida sources in Scenario: Away from home; Grupo Animal].
 - **Soft background (the core):**
   - *Back wall:* painted walls, often a warm colour or two-tone with a tiled lower band; a **blackboard or handwritten card with the day's menu** (an unreadable field of chalk or marker strokes); clay pots, jarritos and large wooden spoons hung as decor; an old calendar as a soft rectangle [MEDIUM — Grupo Animal: menu board, plastic tablecloths, a TV and a fast cook as the "classic" fonda; pilot (Algarabía, Chilango)].
@@ -225,7 +244,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-use
 - **Prompt-ready line:** "A small Mexico City fonda at lunchtime: soft background of a warm-painted wall with a blurred chalk menu board and clay pots, a cook working over steaming pots at the back and bright daylight from the open street front; in focus, a square table with a floral plastic tablecloth, a napkin dispenser, salsas in small bowls and melamine plates."
 - **Confidence and sources:** MEDIUM-HIGH. Rewritten background-first from the 2026-10-01 pilot (one search there: Chilango, CDMX food guide, Algarabía); this pass added [Grupo Animal — ¿Qué es una fonda mexicana?](https://grupoanimal.mx/gastronomia/recetas/fonda-mexicana-historia-comida-corrida). One search this pass.
 
-### Venue: Street taco stand (puesto de tacos)
+### Venue: Street taco stand (puesto de tacos) · app: Street market, Food truck
 - **Use for:** other / street; meal on the go for 1, a late-night taco stop for 2–3; midday and night. The default everyday street register and Mexico's strongest one (see Scenario: Meal on the go) [HIGH].
 - **Soft background (the core):**
   - *Overhead and behind:* the stand's **tarp in pink, blue, orange or yellow** stretched over a metal frame, glowing with colour by day; the printed menu banner (lona) hung from it as an unreadable block of colour [MEDIUM — file street-food register; tarp and awning listed in stand-maker specs].
@@ -261,6 +280,150 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the five most-use
 - **Never stage:** bottles, wine glasses, flutes; the toast; legible names or initials on backdrops; the quinceañera, bride or children identifiable; DJ screens with text.
 - **Prompt-ready line:** "A Mexican salón de eventos at night: softly blurred round tables in white cloths with lilac overlays, chairs in covers with satin bows, tall centrepieces and dance-floor lights scattering coloured dots against draped walls; in focus, a plated serving of mole with rice on a charger plate and a folded cloth napkin."
 - **Confidence and sources:** MEDIUM for the furniture package ([Salas Lounge — renta de mesas redondas, mantel, cubremantel, fundas y moños](https://www.salaslounge.mx/producto/renta-de-mesas-redondas-de-banquete-juego-para-10-personas-mantel-cubre-mantel-fundas-y-monos/), tier 3); the rest LOW-MEDIUM and EDITORIAL. One search this pass.
+
+### Venue: Young renter's flat in an older colonia building (depa en renta: Narvarte, Roma, Del Valle) · app: Gen Z apartment
+- **Use for:** home indoor; a young adult or young couple, 1–2 people, lunch or a light cena at a small table. Many young Mexicans live with their parents into their late twenties, so the honest variants are (a) a shared or one-bedroom rental of about 40–55 m² in an older mid-century building in Narvarte, Roma Sur, Del Valle or Escandón, and (b) a young person's corner of the family colonia house (see the colonia house profile) [MEDIUM for 45 m² one-bedrooms as a common rental unit (Propiedades.com, Trovit listings, Narvarte and Roma Sur); LOW — not verified for the live-at-home share; EDITORIAL for the default].
+- **Soft background (the core):**
+  - *Back wall:* white or off-white painted plaster, slightly uneven, with one or two **unframed or thin-framed prints** (an illustration, a gig-poster shape, a photo) and a strip of **warm string lights**; a floating shelf with a few books, a small ceramic piece and a trailing pothos [EDITORIAL; LOW — not verified].
+  - *Middle distance:* a compact two-seat sofa with a woven throw (a striped Mexican-textile blanket is honest here, kept as a soft pattern), a **monstera or snake plant in a terracotta pot**, a rattan or bent-wire lamp; the galley kitchen at one side with a short run of laminate units, a two- or four-burner stove and the **garrafón** on a stand.
+  - *Light:* a tall **steel-framed window**, often older aluminium or painted iron with small panes, sometimes onto a narrow light well or a jacaranda in the street; a sheer curtain; in the evening the string lights and a warm table lamp against a cooler ceiling fitting [LOW — not verified].
+  - *Palette:* white walls, terracotta, plant green, pale wood or rattan, one accent colour (mustard, rose or cobalt) in a cushion or rug.
+  - *Signature shapes (3–5):* the small-paned window; the monstera leaves; the string-light dots; the garrafón cylinder; a round bistro table.
+  - *Density and wear:* compact, personal, slightly cluttered with plants and objects; older building finishes (worn parquet or 1960s tile) under new, cheap furniture.
+  - *People:* the second person, blurred, at the stove or on the sofa.
+- **Shell:** a walk-up of four to six storeys built 1950s–70s; **wood parquet, terrazzo or patterned tile floor**; high-ish plastered ceiling with a single fitting; no AC (Mexico City is temperate), perhaps a small fan [LOW — not verified].
+- **The table as set here:** a small round or square table for two (pale wood, white metal or a second-hand wooden table), two mismatched chairs; a plain cotton cloth or bare wood; artisan-ish ceramic plates or plain white ones, a small bowl of salsa, a takeaway taco order unwrapped onto plates is honest.
+- **Subregional variants and the national default:** Mexico City is the default. *Monterrey and Guadalajara:* a newer small apartment tower with a split AC unit high on the wall and a balcony door. *Smaller cities:* the young person's bedroom-and-desk corner in the family house.
+- **Hallucination traps:** the global Pinterest/Scandinavian showroom (white oak, bouclé, everything new and matching); a New York loft with exposed brick; a US studio with a huge window over a skyline; folkloric overload (sombrero, sarape walls, piñatas); a luxury Polanco penthouse.
+- **Never stage:** beer, mezcal or wine bottles on the shelf; legible posters, book spines or screens; a laptop with a visible logo; any drink but the hero.
+- **Prompt-ready line:** "A young renter's apartment in an older Mexico City building: soft background of a white plaster wall with a thin-framed print and warm string lights, a monstera in a terracotta pot and a tall small-paned window with a sheer curtain; in focus, a small round pale-wood table for two with plain ceramic plates of tacos de guisado and a bowl of salsa."
+- **Confidence and sources:** LOW-MEDIUM. Housing size from listings ([Propiedades.com — Narvarte Poniente](https://propiedades.com/narvarte-poniente-df/departamentos-renta/jardin); [Trovit — Narvarte](https://casas.trovit.com.mx/renta-departamento-colonia-narvarte-ciudad-m%C3%A9xico/2), tier 3); décor EDITORIAL. One search this pass.
+
+### Venue: New-build apartment kitchen with a breakfast bar (cocina abierta con barra o isla) · app: Kitchen island
+- **Use for:** home indoor; 1–2 people, a quick lunch or cena at the counter. A true freestanding island is **uncommon** in Mexico: it belongs to upper-middle new-build towers (Polanco, Santa Fe, Del Valle, Monterrey's San Pedro) and suburban houses in gated developments. The honest everyday version is a **barra desayunadora or peninsula** off the cocina integral in a newer open-plan apartment [MEDIUM — Mexican home press on barras desayunadoras and integrated peninsulas gaining ground in compact flats (TV Azteca; Moove Mag); EDITORIAL for rarity].
+- **Soft background (the core):**
+  - *Back wall:* a run of **flat-front cocina integral units** in white gloss, grey or wood-look melamine, a quartz or granite-look backsplash or white subway tile; a steel extractor hood over a four-burner gas cooktop; the **garrafón** or an under-sink filter tap even here [LOW-MEDIUM — not verified].
+  - *Middle distance:* a stainless or black fridge, a microwave on a shelf, a blender (always), a fruit bowl with limes and avocados; through the open plan, the living room's sofa and a sliding window to a small balcony with a plant or two.
+  - *Light:* two or three **pendant lamps** over the counter (black metal or glass globes, warm); daylight from a wide aluminium sliding window; in the north, a split AC unit as a soft white bar [LOW — not verified].
+  - *Palette:* white and grey with wood-look accents, black fittings, green limes and avocado, terracotta of a clay pot on the stove.
+  - *Signature shapes (3–5):* the pendant lights; the extractor hood; the blender; a clay olla or comal on the cooktop; the counter's straight edge.
+  - *Density and wear:* new and tidy but cooked-in: a comal, a molcajete and a tortillero on the counter keep it Mexican.
+  - *People:* one blurred person at the stove, back turned.
+- **Shell:** a concrete tower built in the last 15 years; large-format porcelain floor tile; flat white ceiling with recessed lights.
+- **The table as set here:** the counter top (quartz, granite or laminate), with **two or three upholstered or metal bar stools** edging the frame; a cloth-wrapped tortillero, salsa in a molcajete or bowl, plain ceramic plates, paper napkins in a holder.
+- **Subregional variants and the national default:** Mexico City new-build is the default. *Monterrey and the north:* larger suburban kitchens where a real island is more common, bigger fridge, AC. *Social housing anywhere:* no island; use the colonia house profile.
+- **Hallucination traps:** an American show-kitchen with a huge marble island, double ovens and a farmhouse sink as the default; Talavera-tiled hacienda kitchen; a Spanish rustic kitchen; everything stainless and empty.
+- **Never stage:** wine glasses or bottles on the counter; legible appliance brands; agua fresca jugs; a coffee machine with a logo.
+- **Prompt-ready line:** "A newer Mexico City apartment kitchen seen from the breakfast bar: soft background of white flat-front units, a steel extractor hood over a gas cooktop with a clay comal, a blender and warm pendant lights; in focus, a quartz counter with a cloth-wrapped tortillero, a stone molcajete of salsa and a plate of enchiladas."
+- **Confidence and sources:** LOW-MEDIUM. [TV Azteca — cómo elegir desayunador](https://www.tvazteca.com/aztecauno/estilo-de-vida/como-elegir-desayunador-cocina-bonito-funcional/); [Moove Mag — cocinas con isla y desayunadores](https://moovemag.com/cocinas-con-isla-y-desayunadores-diseno-funcional) (tier 2–3 home press); rest EDITORIAL. One search this pass.
+
+### Venue: Neighbourhood specialty café (cafetería de especialidad de barrio) · app: Café
+- **Use for:** restaurant or café, indoor or sidewalk; 1–2 people, a snack or light lunch (a torta, a concha is breakfast and out of scope, a baguette or chilaquiles bowl at midday). Mexico City's Roma, Condesa, Juárez and Narvarte have dense small independent cafés serving Mexican-origin coffee; Guadalajara, Puebla and Oaxaca follow [MEDIUM — Time Out México and Food & Pleasure café guides].
+- **Soft background (the core):**
+  - *Back wall:* **white or lime-washed plaster, polished concrete or pale terrazzo**, with a few shelves of handmade ceramic cups and bags of beans (labels blurred), a big plant; the bar faced in wood, tile or concrete.
+  - *Middle distance:* the **espresso bar** as the centre: a chrome machine, a grinder, pour-over stands, a glass **pastry case** with pan dulce and cookies as warm brown shapes; a barista in an apron, blurred; two or three small tables with other customers' backs.
+  - *Light:* **large corner windows or a full-height glass front** onto a tree-lined street, so a bright green-white field fills one side; warm bulbs over the bar [MEDIUM — Constela (Arqhė Studio, large windows, custom furniture), Madre Café (whites, copper, wood, marble) per Time Out and Food & Pleasure].
+  - *Palette:* white, pale wood, terracotta or hand-glazed ceramic, plant green, a touch of copper.
+  - *Signature shapes (3–5):* the espresso machine silhouette; the pastry case; shelves of handmade cups; a large potted plant; the street trees through the glass.
+  - *Density and wear:* small (often a corner or a converted house front), calm, a few people; new finishes kept warm by plants.
+  - *People:* barista and one customer, blurred.
+- **Shell:** a ground-floor corner of a 1920s–50s colonia building or a converted casona; terrazzo, polished concrete or patterned cement-tile floor; a sidewalk with two small tables.
+- **The table as set here:** a small round or square table in pale wood, marble or terrazzo; **handmade ceramic plate** (often from a Oaxaca or Puebla workshop), paper napkin; the snack on the plate. Chair edges: bent-wood or simple wooden chairs, a wooden bench.
+- **Subregional variants and the national default:** Mexico City is the default. *Oaxaca and Chiapas:* coffee-growing identity, adobe or ochre walls, clay cups. *Monterrey:* bigger, more industrial, AC. *Traditional variant:* the old café de chinos or Veracruz café with marble tables and waiters (La Parroquia style), clearly older [LOW — not verified].
+- **Hallucination traps:** a global coffee-chain look with a logo board; a Parisian café with wicker chairs; a Melbourne/Brooklyn industrial café with Edison bulbs everywhere; folkloric papel picado and sombreros; latte art cups in the hero zone.
+- **Never stage:** coffee cups, matcha or juices in focus (out of frame or blurred on the bar only); legible chalkboards, bean bags or menus; a branded cup; laptops with logos.
+- **Prompt-ready line:** "A small neighbourhood café in Mexico City's Roma: soft background of a white-plaster espresso bar with a chrome machine, a glass case of pan dulce, shelves of handmade ceramic cups and bright tree-lined street light through a corner window; in focus, a small terrazzo table with a hand-glazed ceramic plate and a torta."
+- **Confidence and sources:** MEDIUM. [Time Out México — cafés en la Roma](https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes/cafes-en-la-roma); [Food & Pleasure — Constela](https://foodandpleasure.com/constela-cafe/) (tier 2 city press). One search this pass.
+
+### Venue: New Mexican neighbourhood restaurant (restaurante de cocina mexicana contemporánea) · app: Modern bistro
+- **Use for:** restaurant, indoor; 2–3 people at lunch or dinner; design-led, relaxed, modern-Mexican cooking (tostadas, tacos of seasonal produce, moles in small plates). Concentrated in Mexico City's Roma, Juárez and Condesa, and in Guadalajara and Oaxaca [MEDIUM — Time Out México and design press on Roma restaurants].
+- **Soft background (the core):**
+  - *Back wall:* **exposed or polished concrete, lime plaster or volcanic stone (recinto) and tzalam or oak wood panelling**; a shelf of handmade clay pots and baskets; maybe one large artwork as a soft colour field [MEDIUM — Sartoria (Taller ADG: concrete vault, polished concrete floors, built-in wood), Polpo (tzalam wood, Santo Tomás marble, terrazzo), Tr3s Tonalá (wood, copper, brick), per thespaces.com and Time Out].
+  - *Middle distance:* the **open-kitchen pass** with a warm glow, cooks in dark aprons, a wood-fired or charcoal comal and stacks of clay cazuelas; other tables with diners as soft shapes; large plants (palms, olive trees) in clay pots.
+  - *Light:* **statement pendants** in woven palm, blown glass or black metal, warm; daylight from a tall steel-framed window or a courtyard; candles at dinner.
+  - *Palette:* grey concrete, dark tzalam wood, black volcanic stone, terracotta, olive green; cooler and quieter than a fonda.
+  - *Signature shapes (3–5):* the pendant cluster; the open-kitchen glow and comal; clay cazuelas stacked; the concrete or stone wall plane; a big plant in a clay pot.
+  - *Density and wear:* spacious, crafted, new; a few tables in view.
+  - *People:* one or two diners and a server in a dark apron, blurred.
+- **Shell:** a converted colonia house or a ground floor with a high ceiling; polished concrete or stone floor.
+- **The table as set here:** **bare wood or stone table, no cloth**; handmade ceramic plates and bowls (black clay from Oaxaca, matte glazes), linen napkins, simple cutlery; a small dish of salsa macha, a tortilla basket of blue-corn tortillas. Chair edges: wooden chairs with woven palm or leather seats.
+- **Subregional variants and the national default:** Mexico City is the default. *Oaxaca:* adobe and courtyard, barro negro on every table. *Guadalajara and Monterrey:* larger rooms, more steel and glass. Many such restaurants have a mezcal bar: frame it out entirely.
+- **Hallucination traps:** a white-cloth fine-dining room; a marble cocktail bar with bottle shelves (common in these places, exclude explicitly); a tourist "Mexican" restaurant with papel picado and sombreros; a Nordic or Tulum boho-chic look; a generic steakhouse.
+- **Never stage:** bar counter, bottles, taps, wine or mezcal glasses anywhere in frame; legible menus; white tablecloths; any drink but the hero.
+- **Prompt-ready line:** "A design-led modern Mexican restaurant in Mexico City's Roma: soft background of a polished concrete wall and dark tzalam wood panels, a warm open-kitchen pass with a charcoal comal and stacked clay cazuelas, woven palm pendant lights and a large plant; in focus, a bare wood table with matte black clay plates of tostadas and blue-corn tortillas."
+- **Confidence and sources:** MEDIUM for the materials ([thespaces.com — Sartoria](https://thespaces.com/the-concrete-interiors-of-mexico-citys-sartoria-play-with-trattoria-traditions/); [thespaces.com — Polpo](https://thespaces.com/mexican-and-european-design-harmonises-at-mexico-citys-polpo/); [Time Out México — restaurantes para amantes del diseño](https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes/restaurantes-para-amantes-del-disenyo-en-el-df), tier 2); note the strongest design examples cook Italian, so the Mexican-cuisine pairing is EDITORIAL. One search this pass.
+
+### Venue: Mall food court or order-at-the-counter taquería (área de comida / taquería de mostrador) · app: Counter service
+- **Use for:** restaurant, indoor; 1–3 people, quick lunch; the mall **área de comida** (plaza comercial food court) is a mass weekday and weekend format in every city, and the order-and-pay taquería with a counter is its street-side twin [MEDIUM — food-court fit-outs in Plaza Carso and plaza listings; LOW for national ubiquity — not verified].
+- **Soft background (the core):**
+  - *Back wall:* a row of **counter fronts with backlit menu panels** (blurred to colour blocks of red, orange, green), stainless kitchens behind, staff in caps; in a taquería, the taquero's station with the trompo or plancha, white tile walls.
+  - *Middle distance:* **rows of identical tables** (laminate tops, taupe or white) with chairs, some **high tables with stools**; a tray-return station; diners as soft shapes; planters [MEDIUM — Plaza Carso food court: taupe tables, FADO chairs, high tables with stools (Mueble de España)].
+  - *Light:* bright, even, cool-white LED from a high ceiling or skylight; the warm backlit menu panels; in an open-air plaza, daylight and a canopy.
+  - *Palette:* neutral floor and tables, hot colour blocks from the counters, stainless steel.
+  - *Signature shapes (3–5):* the run of glowing counter panels; repeated tables in rows; plastic trays; a skylight or high ceiling grid; salsa station with bowls.
+  - *Density and wear:* busy at lunch, clean and functional.
+  - *People:* a queue at a counter, backs only; one diner at a far table.
+- **Shell:** a mall's upper level or a ground-floor open plaza; large porcelain or terrazzo floor tiles; high ceiling.
+- **The table as set here:** a laminate table with a **plastic tray** and a paper liner, tacos or a torta in a **paper boat or on a plastic plate**, small plastic cups of salsa, lime wedges, paper napkins; in the taquería, the bag-wrapped plate. Chair edges: moulded plastic or metal chairs.
+- **Subregional variants and the national default:** Mexico City is the default. *North:* bigger malls, carne asada and burrito counters, AC chill. *Smaller cities:* an open-air plaza food court under a canopy.
+- **Hallucination traps:** a US mall food court full of global chain logos; a generic burger joint; a Tex-Mex fast-food look with hard shells; legible menu boards.
+- **Never stage:** legible menu panels, prices or chain marks; branded cups or trays; any drink but the hero; children identifiable.
+- **Prompt-ready line:** "A busy Mexican mall food court at lunchtime: soft background of a row of brightly backlit counter fronts blurred to red and orange blocks, rows of taupe tables and bright even overhead light; in focus, a plastic tray on a laminate table with tacos al pastor in a paper boat, salsa cups and lime wedges."
+- **Confidence and sources:** LOW-MEDIUM. [Mueble de España — Foodcourt Plaza Carso](https://muebledeespana.com/projects/foodcourt-plaza-carso) (tier 3, furniture supplier); rest EDITORIAL. One search this pass.
+
+### Venue: Neighbourhood park on a weekend (parque o alameda de colonia) · app: Park
+- **Use for:** other / outdoor; 1–2 people, a snack or tacos from a bag on a bench at midday or late afternoon. Default: a central Mexico City park such as Parque México (Condesa) or a colonia alameda; every town has its plaza or jardín with a kiosk [MEDIUM — Parque México features (Wikipedia via search, CDMX tourism); México Desconocido mentions couples eating tacos from paper bags on its benches].
+- **Soft background (the core):**
+  - *Back wall:* tall trees (**jacaranda**, purple in Feb–April; ash, eucalyptus, palms) as a green or lilac blur; an art-deco fountain or a Porfirian **kiosk** (bandstand) in the distance; the surrounding colonia buildings as pale blocks.
+  - *Middle distance:* paved paths, low hedges and lawns, **cast-iron or concrete benches**, a dog walker, a jogger, a vendor's **cart with a striped umbrella** (elotes, raspados or chicharrones) as a soft colour [LOW — vendors not verified for Parque México].
+  - *Light:* dappled sun through leaves; afternoon golden light; old-style street lamps.
+  - *Palette:* deep green, lilac jacaranda, warm beige paving, a red or yellow umbrella.
+  - *Signature shapes (3–5):* the bench backrest; jacaranda canopy; the fountain or kiosk silhouette; the vendor umbrella; a lamp post.
+  - *Density and wear:* lively, with a few people at distance; well-used paving.
+  - *People:* a couple or walker far behind, blurred.
+- **Shell:** open air; paving or gravel path, lawn.
+- **The table as set here:** the bench seat or its edge, or a low stone wall: tacos in a **paper bag or on paper**, an elote cup, a paper napkin; the hero standing on the bench.
+- **Subregional variants and the national default:** Mexico City is the default. *Towns:* the zócalo or jardín principal with a kiosk, laurel trees cut in shapes, wrought-iron benches. *Monterrey:* Parque Fundidora's industrial chimneys. *Guadalajara:* Parque Colomos-style eucalyptus woods.
+- **Hallucination traps:** a US suburban park with picnic tables; a manicured European garden; Chapultepec Castle as a landmark; sombreros and mariachis; food in a hand.
+- **Never stage:** legible vendor carts or umbrellas with logos; beer; identifiable children; food held.
+- **Prompt-ready line:** "A Mexico City colonia park on a sunny afternoon: soft background of jacaranda trees in lilac bloom over a paved path, an art-deco fountain and a vendor cart with a striped umbrella far behind; in focus, a park bench with tacos de canasta on paper and a napkin."
+- **Confidence and sources:** MEDIUM for the park ([Wikipedia — Parque México](https://en.wikipedia.org/wiki/Parque_M%C3%A9xico) via search; [México Desconocido — Parque México](https://escapadas.mexicodesconocido.com.mx/atractivos/parque-mexico-oasis-urbano-en-la-condesa/)); vendors and staging EDITORIAL. One search this pass.
+
+### Venue: City seafront promenade (malecón) · app: Beach or waterfront
+- **Use for:** other / outdoor; 1–3 people at the end of the afternoon; a seafood snack (tostadas, cóctel, aguachile in a plastic cup or on a plate) at a stand or on the sea wall. Default: **Mazatlán's malecón** (zone 2), the long city seafront with stands; Veracruz (zone 5) and lakefront Chapala are variants [MEDIUM — México Desconocido, Tus Buenas Noticias on Mazatlán's malecón and its food stands].
+- **Soft background (the core):**
+  - *Back wall:* the **Pacific** in blue-grey to silver, white surf on rocks, an island or headland on the horizon; at sunset a pink-orange sky.
+  - *Middle distance:* the **wide paved promenade with a low concrete sea wall**, palms, public sculptures as dark silhouettes, joggers and families as soft shapes; across the road, low pastel buildings and hotels; a **pulmonía** (open white golf-cart taxi) passing [MEDIUM for pulmonías (Civitatis, byFood)].
+  - *Light:* strong sun, glare off the water; golden hour is the money shot; after dark, street lamps and the lit promenade.
+  - *Palette:* sea blue, sand beige, pastel façades, white, sunset orange.
+  - *Signature shapes (3–5):* the sea wall line; palm silhouettes; the horizon and headland; a stand's coloured tarp; the pulmonía.
+  - *Density and wear:* open and airy, a few people.
+  - *People:* strollers far off, blurred.
+- **Shell:** open air.
+- **The table as set here:** a stand's steel counter or a plastic table under a tarp, or the flat top of the sea wall: a **tostada de ceviche on a plastic plate in a bag**, saltine packets unbranded, lime, bottle of hot sauce without label; paper napkins.
+- **Subregional variants and the national default:** Mazatlán is the default. *Veracruz:* the port malecón with ships and cranes, the Gulf greener and calmer, café culture nearby. *Lake Chapala, Jalisco:* a lake malecón with a pier and fishermen. *Baja (Ensenada):* fish-taco stands by the harbour.
+- **Hallucination traps:** a Cancún resort pool and all-inclusive bracelet; Tulum boho beach club; Caribbean turquoise when the brief is Pacific; beer buckets and micheladas (a strong real prior); sombrero vendors.
+- **Never stage:** beer, micheladas, cocktails, coconuts as drinks beside the hero; legible stall signs; identifiable children in swimwear; food in hand.
+- **Prompt-ready line:** "A Mexican Pacific malecón at golden hour: soft background of a wide promenade with a low sea wall, palms and the silver ocean with a headland on the horizon, a white open-air taxi passing; in focus, a steel stand counter with a ceviche tostada on a bag-wrapped plastic plate and lime wedges."
+- **Confidence and sources:** MEDIUM. [México Desconocido — Malecón de Mazatlán](https://www.mexicodesconocido.com.mx/malecon-de-mazatlan-sinaloa-el-mas-largo-del-mundo.html); [Tus Buenas Noticias — malecón de Mazatlán](https://www.tusbuenasnoticias.com/noticias/sinaloa/2024/07/03/35110-cuanto-mide-el-malecon-de-mazatlan-y-que-atractivos-tiene); [Civitatis — Mazatlán](https://www.civitatis.com/blog/en/things-to-do-mazatlan/) (tier 2–4). One search this pass.
+
+### Venue: Stadium forecourt on match day (afuera del estadio: puestos de día de partido) · app: Stadium or event
+- **Use for:** other / outdoor; 1–3 fans eating before a match; Mexico City's Estadio Banorte (the former Azteca, Santa Úrsula), Guadalajara's Akron and Monterrey's BBVA; also concerts and the fan-zone (see GAME NIGHT: fan-zone food court). On match days streets and the forecourt fill with unnamed stalls selling pastor, suadero, quesadillas, tortas and esquites [HIGH — Chilango, El Financiero (Mundial 2026), El Diario NY].
+- **Soft background (the core):**
+  - *Back wall:* the **stadium's concrete and steel bulk** as a grey mass, light towers, a crowd streaming toward gates; keep the façade generic and unbranded.
+  - *Middle distance:* rows of **stalls under coloured tarps** (pink, blue, yellow) with comales and trompos, smoke and steam; fans in team shirts as colour (green for the Selección, crests unreadable), vendors' coolers; a pedestrian bridge or avenue [MEDIUM — Chilango on the infinite stalls by the main entrance; El Financiero on comales and giant-torta stands].
+  - *Light:* afternoon sun or evening floodlights glowing above the stadium rim, string bulbs on the stalls.
+  - *Palette:* grey concrete, tarp colours, team-shirt green or club colours, smoke white.
+  - *Signature shapes (3–5):* the stadium rim and floodlights; the tarp roofs; the trompo; a crowd of blurred backs; plastic stools.
+  - *Density and wear:* dense and loud; litter kept out of frame.
+  - *People:* crowd as soft shapes, within the faces limit.
+- **Shell:** open air: asphalt, sidewalk, parking lot.
+- **The table as set here:** a stall's steel counter or a folding table: **tacos on a bag-wrapped plastic plate**, a giant torta on paper, esquites in a foam cup, salsas, limes, napkins.
+- **Subregional variants and the national default:** Mexico City is the default. *Monterrey:* carne asada and flour tortillas, the mountains (Cerro de la Silla) behind. *Guadalajara:* tortas ahogadas and birria.
+- **Hallucination traps:** a US tailgate with pickup trucks and grills; a European stadium with scarves and beer; branded stadium signage; micheladas (the dominant real drink, exclude).
+- **Never stage:** beer, micheladas; legible club crests, sponsor logos or stadium names; a full flag; identifiable children; food in hand.
+- **Prompt-ready line:** "Outside a Mexico City stadium before a match: soft background of the stadium's grey concrete bulk with floodlights, rows of food stalls under pink and blue tarps with smoke rising and a crowd of fans in green shirts as soft shapes; in focus, a stall counter with tacos al pastor on a bag-wrapped plate, salsa and lime."
+- **Confidence and sources:** HIGH for stalls outside the stadium ([Chilango — Estadio Azteca](https://www.chilango.com/comida-y-tragos/estadio-azteca-2/); [El Financiero — ambiente afuera del Estadio Ciudad de México](https://www.elfinanciero.com.mx/food-and-drink/2026/06/18/asi-se-vive-el-ambiente-afuera-del-estadio-ciudad-de-mexico-en-el-mundial-2026/)); visuals MEDIUM/EDITORIAL. One search this pass.
 
 ---
 
@@ -2495,6 +2658,15 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
    toppings, papas with salsa) as one compact entry; buñuelos (posada
    sweet); promote chicharrones de harina from the compact Snacks list.
 
+- **Venue profiles wave 2 (2026-10-18), unverified background details.**
+  The Gen Z flat's décor (prints, string lights, plants), window type and
+  the share of young adults living with parents; the new-build kitchen's
+  finishes and how common a true island is; the food court's national
+  ubiquity and taquería-counter look; vendors in Parque México; the
+  modern-bistro pairing of these materials with Mexican (rather than
+  Italian) cuisine; stadium-forecourt visuals beyond the stalls. All rest
+  on one search each plus EDITORIAL staging; check with image tests.
+
 ## RESEARCH LOG
 
 - **2026-09-27, first pass (this file).** Built directly — no separate
@@ -2547,3 +2719,12 @@ packaged snack bags — keep brands unbranded and blurred. [MEDIUM]
   (rewritten background-first from the pilot), street taco stand, and
   the salón de eventos. Sources are mostly tier 3 (rental and stand
   vendors) plus Grupo Animal and Homify; open items in GAP LOG.
+- **2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 4
+  profiles tagged, 8 new profiles, 8 searches.** Tagged the wave-1
+  headings with "· app:" options (the salón de eventos left untagged as
+  context), added the App options coverage table, and wrote Gen Z
+  apartment, Kitchen island, Café, Modern bistro, Counter service, Park,
+  Beach or waterfront (malecón) and Stadium or event profiles. Sources
+  are listings, city and design press (Time Out México, Food & Pleasure,
+  thespaces.com, Chilango, El Financiero, México Desconocido); open
+  items in GAP LOG.

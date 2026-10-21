@@ -121,7 +121,27 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 (Added 2026-10-01 under `country-file-schema.md` §5.9, wave 1: the six most-used staging venues. This file has no QUICK-REFERENCE register table, so the profiles sit directly after ENVIRONMENT & STAGING SCENES and expand its scenarios. The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Montevideo is the default; the interior and the coast are variants, and where a place has no detail the Montevideo version applies [EDITORIAL]. Alcohol is never staged, the mate kit stays out of frame unless a brief asks for the ritual (§5.6), and every Uruguayan table carries a strong prior for wine, beer and mate, so negate them in every prompt. Keep the temperate, muted Southern-European palette from General environmental norms throughout.)
 
-#### Venue: Montevideo apartment, kitchen and everyday dining corner (apartamento: cocina y comedor diario)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Uruguay profile |
+|---|---|
+| Dining room | Montevideo apartment, kitchen and comedor diario; Quincho, barbacoa or building parrillero (outdoor) |
+| Gen Z apartment | Young renter's monoambiente in Cordón or Parque Rodó (living with family: the Montevideo apartment) |
+| Kitchen island | Integrated kitchen with a breakfast bar (a true island is rare in Montevideo flats) |
+| Sit-down | Neighbourhood parrilla |
+| Counter service | Pizzería or chivitería al paso |
+| Café | Traditional café-bar (with the specialty-café variant) |
+| Modern bistro | New-wave restaurant in an old Ciudad Vieja or Pocitos building |
+| Street market | Neighbourhood street market (feria vecinal) |
+| Food truck | Street food cart (carrito: the local equivalent, now mostly fixed trailers) |
+| Park | Weekend picnic in the Parque Rodó or the Prado |
+| Beach or waterfront | The Rambla at Pocitos |
+| Stadium or event | Street food cart (outside the Estadio Centenario) |
+| (no option) | Hired party hall: context for celebrations |
+
+#### Venue: Montevideo apartment, kitchen and everyday dining corner (apartamento: cocina y comedor diario) · app: Dining room
 - **Use for:** home indoor; casual lunch for 1, 2 or 3, the late dinner (rarely before 21:30), the winter Sunday pasta or puchero, the living-room watch party. Montevideo's mixed housing stock has no single default (see General environmental norms); this profile uses an ordinary mid-century or older apartment as the everyday version, with the monoambiente and the casa de patio as variants [EDITORIAL].
 - **Soft background (the core):**
   - *Back wall:* plain plaster painted white, cream or a muted warm tone; a few framed prints or family photos; in older buildings a high ceiling with a simple moulding. Muted, not saturated [CONFIDENCE: MEDIUM — per the materials norm above].
@@ -139,7 +159,7 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 - **Prompt-ready line:** "A modest Montevideo apartment at dinner time: soft background of cream plaster walls, a half-lowered roller shutter over the window, honey parquet and a black wood-burning stove glowing in the corner; in focus, a wooden table with a basket of crusty flauta bread and plates of milanesa."
 - **Confidence and sources:** MEDIUM. [InfoCasas — apartamentos en Pocitos](https://www.infocasas.com.uy/venta/apartamentos/montevideo/pocitos); [InfoCasas — apartamentos en Cordón](https://www.infocasas.com.uy/venta/apartamentos/montevideo/cordon) (tier 3, property listings); housing and materials norms as cited above. One search this pass.
 
-#### Venue: Quincho, barbacoa or building parrillero
+#### Venue: Quincho, barbacoa or building parrillero · app: Dining room, outdoor
 - **Use for:** home outdoor; the weekend family asado, Christmas Eve and New Year in summer, the asado before a match, truco after the asado, birthdays; 1, 2 or a small group as a snapshot of 8–25. The default venue for celebrations and game nights in this file [CONFIDENCE: HIGH for the asado as the weekend ritual, per REGION-WIDE NORMS].
 - **Soft background (the core):**
   - *Back wall:* the **brick parrillero**: a brick hearth at waist height with a **hood and chimney**, the **firewood basket (brasero)** where the wood burns down to embers, embers shovelled under a **round-rod grate** (not V-grooved), cuts laid out, a thin blue-grey haze; a brick or tiled counter with a sink beside it [CONFIDENCE: MEDIUM — parrillero construction guide (Scribd) and InfoCasas listings for "parrillero o barbacoa"; round-rod grate per VISUAL & PLATING NORMS].
@@ -158,7 +178,7 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 - **Prompt-ready line:** "A Uruguayan weekend asado in a quincho: soft background of a brick parrillero with a hood and chimney, wood burning down in the side basket, meat on a round-rod grate and a green garden beyond the eucalyptus posts; in focus, a long table with a wooden board of asado, a bread basket and a small dish of chimichurri."
 - **Confidence and sources:** MEDIUM. [InfoCasas — casas con parrillero o barbacoa](https://www.infocasas.com.uy/venta/casas/con-parrillero-o-barbacoa/pagina20); [Scribd — parrillero barbacoa a la uruguaya](https://es.scribd.com/doc/120803102/parrillero-barbacoa-a-la-uruguaya) (tier 4, a construction guide); quincho and grate claims as cited above. One search this pass.
 
-#### Venue: Neighbourhood parrilla (parrillada de barrio)
+#### Venue: Neighbourhood parrilla (parrillada de barrio) · app: Sit-down
 - **Use for:** restaurant, indoor; the 2–3-person meal out (the file's default register), also 1 person at lunch; modest and unpretentious, not an upscale steakhouse [CONFIDENCE: MEDIUM — per Scenario: Away from home — 2–3 people].
 - **Soft background (the core):**
   - *Back wall or focal point:* the **wood-fired parrilla in view**: a large brick or steel grill with a hood, the brasero of burning wood beside it, embers raked under round-rod grates, cuts and chorizos laid out, the parrillero at work; painted brick walls with a few framed photos [CONFIDENCE: MEDIUM — Urubus on Montevideo parrillas: wood fire rather than industrial, simple tables, painted brick; El Palenque's white-linen tables as the more formal end].
@@ -176,7 +196,7 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 - **Prompt-ready line:** "A modest Montevideo neighbourhood parrilla: soft background of a wood fire glowing under a brick grill hood, a wooden bar counter and painted brick walls, simple tables close together; in focus, a wooden board of grilled asado de tira and chorizo with a small dish of chimichurri and a bread basket."
 - **Confidence and sources:** MEDIUM. [Urubus — mejores parrillas en Montevideo](https://urubus.com.uy/blog/mejores-parrillas-en-montevideo/) (tier 3–4); scenario sources. One search this pass.
 
-#### Venue: Street food cart (carrito)
+#### Venue: Street food cart (carrito) · app: Food truck, Stadium or event
 - **Use for:** other / street; meal on the go for 1, a stop for 2–3, the pre-match carrito; evening and night. The documented on-the-go food venue in a country where grab-and-go is thin (see Scenario: Meal on the go) [CONFIDENCE: MEDIUM-HIGH, per scenario].
 - **Soft background (the core):**
   - *The cart itself:* a **fixed trailer-style food cart** (most are now fixed, not mobile), metal-clad, with a serving hatch and a counter shelf; inside, a **flat griddle (plancha) and grill** with chorizos, burgers and panchos sizzling; a lit menu panel above as an unreadable glow [CONFIDENCE: MEDIUM-HIGH — Wikipedia (ES) Carrito (Uruguay): a fast-food trailer for choripán, hamburgers, panchos and baurú; began outside the Estadio Centenario about 40 years ago; now mostly fixed].
@@ -194,7 +214,7 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 - **Prompt-ready line:** "A Montevideo street food cart at night: soft background of a bright serving hatch with sausages on a flat griddle, a plastic stool on the sidewalk and street lights as bokeh along a tree-lined street; in focus, a choripán on a paper napkin on the cart's counter shelf."
 - **Confidence and sources:** MEDIUM-HIGH. [Wikipedia (ES) — Carrito (Uruguay)](https://es.wikipedia.org/wiki/Carrito_(Uruguay)) (via search); [El Observador — el carrito del Estadio Centenario](https://www.elobservador.com.uy/nota/que-paso-con-el-historico-carrito-del-estadio-centenario-su-dueno-aclaro-por-que-lo-quitaron-2023816155426). One search this pass.
 
-#### Venue: Traditional café-bar (bar tradicional / boliche)
+#### Venue: Traditional café-bar (bar tradicional / boliche) · app: Café
 - **Use for:** restaurant, indoor; the 1-person café scene, seated or standing at the counter (cafetear "parado"); an afternoon snack; a merienda with cards for 2–4 [CONFIDENCE: MEDIUM — per Scenario: Away from home — 1 person].
 - **Soft background (the core):**
   - *Back wall:* **dark wood shelving from floor to ceiling** behind the counter (keep it holding cups, jars and tins, never bottles); **blue-and-yellow Portuguese-style majolica tiles** on the lower walls; old framed photographs [CONFIDENCE: MEDIUM — la diaria on Montevideo al Sur: long wood-and-marble counter, geometric floor tiles, majolica baseboards, tall display cabinets, dark wood shelving floor to ceiling; Montevideo Portal on heritage bars].
@@ -229,6 +249,132 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 - **Never stage:** bottles, wine glasses, flutes, the toast; legible names; identifiable minors.
 - **Prompt-ready line:** "A Montevideo salón de fiestas in the evening: soft background of round tables with white cloths and simple centrepieces and a lit dance floor glowing in coloured LED light; in focus, a white plate with a serving of pasta, full cutlery and a folded napkin."
 - **Confidence and sources:** LOW-MEDIUM. [TuFiesta — salones para cumpleaños de 15 en Montevideo](https://www.tufiesta.com.uy/cumple-15/salones-fiestas/montevideo); [TuFiesta — La Casa de Paseos](https://www.tufiesta.com.uy/la-casa-de-paseos-salones-de-fiestas) (tier 3, vendor directory). One search this pass.
+
+#### Venue: Young renter's monoambiente in Cordón or Parque Rodó (monoambiente) · app: Gen Z apartment
+- **Use for:** home indoor; a young person alone or a young couple, casual lunch or late dinner for 1–2, a sofa watch party for two. Added 2026-10-18 (wave 2). The monoambiente is the documented, growing home of young solo professionals in Montevideo (more than 2,200 promoted units since 2020; see General environmental norms); many young adults still live with family, and that version is the apartment profile above [CONFIDENCE: MEDIUM-HIGH for the housing type, per El Observador as cited above; EDITORIAL for the split].
+- **Soft background (the core):**
+  - *Back wall:* white plaster, left as delivered; a few prints or posters **leaned on a shelf** or taped, a small mirror, a floating shelf with a plant, books and a speaker [CONFIDENCE: LOW — not verified for Montevideo; EDITORIAL].
+  - *Middle distance:* the **integrated kitchenette** along one wall (white or light-wood units, a two-burner electric hob, a small extractor, a compact fridge), separated from the bed by a **shelving unit or half-wall**; a **small balcony or 2 m² terrace** through an aluminium sliding door with an **electric or manual roller shutter**; the facade of the block opposite or, in newer towers, the city roofs [CONFIDENCE: MEDIUM — InfoCasas listings in Cordón and Parque Rodó: 24–35 m² monoambientes, integrated equipped kitchen, balcony or 2 m² terrace, shared parrillero and laundry, co-work and gym in newer towers; shelving-unit division per the housing norm above].
+  - *Light:* soft grey-white temperate daylight through the balcony door; at night a warm table or floor lamp, perhaps fairy lights, the cool glow of a laptop (screen unreadable); a split AC unit high on the wall [CONFIDENCE: LOW — not verified].
+  - *Palette:* white walls, light wood or white melamine, plant green, a muted textile accent (ochre, rust, grey-blue); keep the muted Southern-European palette.
+  - *Signature shapes (3–5):* the shelving divider; the kitchenette run; the aluminium balcony door with roller shutter; a trailing plant; a two-seat sofa back.
+  - *Density and wear:* compact and new (most promoted units are 2020s builds), tidy, a few personal things [CONFIDENCE: MEDIUM for the new-build share, per El Observador as cited above].
+  - *People:* the partner or flatmate as one blurred shape.
+- **Shell:** a 2010s–2020s mid-rise block with lift; porcelain tile or laminate floor; low white ceiling.
+- **The table as set here:** a small two-top or the desk that doubles as a table (per Scenario: Casual lunch at home — 1 person); everyday white plates, a plain tumbler, a paper napkin; a plant or a laptop pushed to the edge (closed) [CONFIDENCE: MEDIUM for the desk-as-table, per scenario; EDITORIAL for the rest].
+- **Subregional variants and the national default:** Montevideo (Cordón, Parque Rodó, Tres Cruces, Centro) is the default. *Older stock:* a one-room flat in an early-20th-century building with parquet and a tall window. *Interior towns:* young adults more often at home or in a student room [LOW — not verified].
+- **Hallucination traps:** the Pinterest/Scandinavian showroom; a New York loft; tropical colours and palms; gaucho décor; a mate kit as a styling prop (the true prior; keep it out).
+- **Never stage:** the mate gourd and thermos (unless briefed), wine or beer; legible posters, book spines or screens; football crests; a full flag.
+- **Prompt-ready line:** "A young renter's monoambiente in Montevideo: soft background of white walls, a shelving unit dividing the room with a trailing plant, a compact kitchenette and an aluminium balcony door with its roller shutter half-down under grey-white light; in focus, a small two-top table with a plate of milanesa al pan and a plain tumbler."
+- **Confidence and sources:** MEDIUM. [InfoCasas — monoambiente Cordón Sur con balcón](https://www.infocasas.com.uy/alquiler-monoambiente-cordon-sur-balcon/194197255); [InfoCasas — monoambiente a estrenar en Cordón con amenities](https://www.infocasas.com.uy/monoambiente-a-estrenar-en-alquiler-balcon-amplio-cochera-y-amenities-en-cordon-24300/193999085); [InfoCasas — Parque Rodó](https://www.infocasas.com.uy/apartamento-alquiler-parque-rodo-montevideo-imasuy-p/194033192) (tier 3 listings); El Observador as cited in General environmental norms. One search.
+
+#### Venue: Integrated kitchen with a breakfast bar in a new Pocitos flat (cocina integrada con barra) · app: Kitchen island
+- **Use for:** home indoor; a quick lunch or merienda for 1–2 at the counter. Added 2026-10-18 (wave 2). **A freestanding island is rare in Montevideo apartments**; the real version is the **"cocina integrada con barra"**, a peninsula counter that opens the kitchen to the living room, standard in new Pocitos and Pocitos Nuevo towers. True islands belong to Carrasco houses and coastal homes (not verified) [CONFIDENCE: MEDIUM — InfoCasas new-build listings in Pocitos repeatedly describe "cocina integrada con barra" with built-in oven, hob and extractor hood, quartz worktops; the island rarity is EDITORIAL].
+- **Soft background (the core):**
+  - *Back wall:* flat-front cabinets in white, grey or light wood (listings name a local joinery supplier, not reproduced), a **quartz or granite worktop**, a **built-in electric oven at waist height**, a ceramic hob and a stainless or black **extractor hood**; a white tiled or glass splashback [CONFIDENCE: MEDIUM — InfoCasas listings].
+  - *Middle distance:* over the barra, the living room: a sofa back, a dining table and a glazed door onto a **terrace**, often with its own **parrillero** and **electric roller shutters**; beyond, other towers and a grey-blue river sky [CONFIDENCE: MEDIUM — listings: terrace, electric shutters; private terrace parrillero per Meal outdoors at home].
+  - *Light:* broad side daylight from the terrace glazing; recessed LED downlights or one or two pendants over the barra; in winter the city light is grey and flat.
+  - *Palette:* white and grey, light wood, quartz, stainless; muted river greys outside.
+  - *Signature shapes (3–5):* the barra edge with two stools; the extractor hood; the built-in oven; the glazed terrace door; a pendant over the counter.
+  - *Density and wear:* new, compact (43–71 m² flats), tidy; a kettle, a dish rack, a fruit bowl.
+  - *People:* a partner at the hob, back turned, blurred.
+- **Shell:** a 2020s tower; porcelain tile floor; white ceiling.
+- **The table as set here:** the barra top (quartz or laminate), two stools; a wooden board or white plate, a paper napkin, a plain tumbler [EDITORIAL].
+- **Subregional variants and the national default:** Pocitos new builds are the default. *Carrasco houses and Punta del Este:* a larger kitchen with a true island and garden views [LOW — not verified]. *Older flats:* a separate tiled kitchen with no counter seating; use the apartment profile.
+- **Hallucination traps:** an American show-kitchen with a big marble island in an ordinary Montevideo flat; shaker cabinets and farmhouse sink; tropical colour; a mate kit on the counter.
+- **Never stage:** wine bottles, glasses or a wine fridge, beer; the mate kit (unless briefed); legible appliance logos.
+- **Prompt-ready line:** "A new Pocitos apartment kitchen seen from the breakfast bar: soft background of white flat-front cabinets, a quartz worktop, a built-in oven and a dark extractor hood, a glazed terrace door with grey river light beyond; in focus, the counter top with a chivito al plato on a white plate."
+- **Confidence and sources:** MEDIUM. [InfoCasas — Sea Side II, Pocitos Nuevo, cocina integrada mediante barra](https://www.infocasas.com.uy/apartamento-en-venta-1-dormitorio-a-estrenar-proyecto-sea-side-pocitos-nuevo-ii/193411276); [InfoCasas — Pocitos 2 dormitorios, cocina integrada con barra](https://www.infocasas.com.uy/venta-apartamento-pocitos-2-dormitorios-con-2-gges/194223840); [InfoCasas — Pocitos Nuevo con jardín, mesadas de cuarzo](https://www.infocasas.com.uy/a-estrenar-venta-apartamento-pocitos-nuevo-con-jardin/193792076) (tier 3 listings). One search.
+
+#### Venue: New-wave restaurant in an old Ciudad Vieja or Pocitos building (restaurante de autor) · app: Modern bistro
+- **Use for:** restaurant, indoor; the elevated but relaxed meal for 2–3, small plates to share, dinner. Added 2026-10-18 (wave 2). Montevideo's new-wave places sit in **old buildings stripped back**: Ciudad Vieja (Pérez Castellano is now the old town's food axis) and Pocitos and Cordón, with bare walls behind ornate facades, open kitchens and vintage furniture [CONFIDENCE: MEDIUM — Superfuture on a Pocitos restaurant in a historic building with bare walls and ceilings as the backdrop; La Nación on Montevideo's new places with open kitchens and vintage rooms; Viaje na Viagem on Pérez Castellano].
+- **Soft background (the core):**
+  - *Back wall:* **bare plaster and exposed brick**, patches of old paint left visible, high ceilings with **original mouldings** above **modern black-steel or timber insertions**; a large plant or dried-flower arrangement [CONFIDENCE: MEDIUM — Superfuture (Vang Studios interior: bare walls and ceilings, modern interventions)].
+  - *Middle distance:* the **open kitchen** with a steel pass, cooks as blurs and the glow of a **wood-fired oven or grill** (fire is central to Uruguayan cooking; not confirmed for a named venue); shelves of ceramics and jars; **hydraulic tile floor** surviving in older rooms; tall windows with wooden shutters onto a cobbled or plane-tree street [CONFIDENCE: MEDIUM for open kitchens — La Nación; LOW for the wood fire and tiles — not verified].
+  - *Light:* low warm pendants over tables, fire glow, tall windows going blue-grey at dusk.
+  - *Palette:* bare plaster beige, rust brick, dark wood, black steel, muted greens; temperate and soft, not saturated.
+  - *Signature shapes (3–5):* the tall shuttered window; ornate ceiling moulding above bare walls; the pass with a fire glow; vintage chairs; a pendant row.
+  - *Density and wear:* tables spaced, the old building's patina deliberately kept.
+  - *People:* a cook at the pass and one diner, blurred.
+- **Shell:** a late-19th or early-20th-century house or commercial building; high ceiling; tile or concrete floor.
+- **The table as set here:** bare wood or marble, no cloth; **hand-made stoneware plates** in muted glazes; a linen napkin; shared small plates (grilled vegetables, a portion of asado de tira sliced, a fainá wedge); plain water tumblers [EDITORIAL].
+- **Subregional variants and the national default:** Ciudad Vieja and Pocitos are the default. *José Ignacio and the eastern coast:* summer restaurants of wood, thatch and sand, fire as the centrepiece [LOW — not verified].
+- **Hallucination traps:** white-cloth fine dining; a wine bar with bottle walls (Tannat is a strong prior); a craft-beer bar; a tango dinner show; a Buenos Aires Chacarita warehouse copied over; a recreation of a named real restaurant.
+- **Never stage:** a bar, bottles, taps, wine racks or wine glasses anywhere; vermú (a named feature of these places); legible menus; a specific real venue.
+- **Prompt-ready line:** "A new-wave Montevideo restaurant in an old Ciudad Vieja building: soft background of bare plaster and exposed brick under an ornate ceiling moulding, an open kitchen with a fire glow behind a steel pass and tall shuttered windows going blue at dusk; in focus, a bare wooden table with sliced asado de tira on a grey stoneware plate."
+- **Confidence and sources:** MEDIUM-LOW (design press for one or two venues, generalised). [Superfuture — Bisiesto, Pocitos](https://superfuture.com/?p=133484); [La Nación — Montevideo gourmet](https://www.lanacion.com.ar/sabado/montevideo-gourmet-una-guia-con-las-mejores-opciones-para-comer-del-otro-lado-del-rio-nid17072024/); [Montevideo Portal — una nueva ola de restaurantes](https://www.montevideo.com.uy/Archivo/Una-nueva-ola-de-restaurantes-en-Montevideo-uc827380) (tier 2). Two searches.
+
+#### Venue: Pizzería or chivitería al paso (and the shopping food court) · app: Counter service
+- **Use for:** restaurant, counter; a quick lunch for 1, a stop for 2–3; pizza and fainá by the portion, a chivito or milanesa al pan. Added 2026-10-18 (wave 2). Uruguay's counter-service form is the **neighbourhood pizzería** (pizza a la piedra or a la pala from a wood oven, fainá, eaten at the counter or a few tables) and the casual **chivitería**; the shopping-centre food court (Montevideo Shopping, Tres Cruces) exists but was not researched. Grab-and-go is thin here (see Scenario: Meal on the go) [CONFIDENCE: MEDIUM — Matador and Montevideo Portal on Montevideo's al-paso food and pizzerías (wood-oven pizza a la pala in simple rooms); per Pizza a la piedra entry; LOW for the food court].
+- **Soft background (the core):**
+  - *Back wall:* the **wood-fired oven mouth** glowing orange, with a long-handled peel; white or cream tiled walls; a steel counter with **round pizzas and slabs of fainá** on metal trays behind glass [CONFIDENCE: MEDIUM for the wood oven and pizza/fainá; LOW for tiles].
+  - *Middle distance:* a **counter with a few stools** or a wall ledge, small formica or wooden tables, a drinks fridge as a lit rectangle (brand panels blurred), the street through a wide glass front; in a chivitería, a plancha with steaks and eggs and a counter of sauces.
+  - *Light:* bright practical white light, the oven's warm glow, daylight from the street.
+  - *Palette:* white tile, steel, orange fire, golden fainá, red tomato.
+  - *Signature shapes (3–5):* the oven mouth; the peel; round trays of pizza; the counter edge with stools; the lit fridge.
+  - *Density and wear:* simple, worn, busy at lunch and late at night.
+  - *People:* the pizzero at the oven and one customer at the counter, blurred.
+- **Shell:** a narrow street-front shop, tiled floor, wide glass front.
+- **The table as set here:** the counter or a small table: a **portion of muzzarella with a wedge of fainá on top** (a la "pizza y fainá") on a small metal tray or a paper sheet; or a chivito al pan in paper; paper napkins from a metal dispenser [CONFIDENCE: MEDIUM — per Pizza a la piedra and Chivito entries].
+- **Subregional variants and the national default:** Montevideo is the default. *Interior towns:* the same pizzería on the main street, plainer. *Coast in summer:* beach-town pizzerías with outdoor tables [LOW — not verified].
+- **Hallucination traps:** a US fast-food counter with lit menu boards; a Neapolitan pizzeria with Italian flags; an Argentine pizzería porteña with its estaño and fugazzeta (close, but not this); trays of fries and paper cups with logos.
+- **Never stage:** beer or the "medio y medio" bottle, legible boards or prices, brand marks on fridges or boxes; food in a hand.
+- **Prompt-ready line:** "A Montevideo neighbourhood pizzería at lunchtime: soft background of a wood-fired oven mouth glowing orange with a long peel, white tiled walls and round trays of pizza and fainá behind glass, a counter with stools; in focus, a portion of muzzarella topped with a wedge of fainá on a small metal tray."
+- **Confidence and sources:** MEDIUM-LOW. [Matador — comida al paso en Montevideo](https://matadornetwork.com/es/comida-al-paso-en-montevideo-visitar/); [Montevideo Portal — ranking de las mejores pizzas de Montevideo](https://www.montevideo.com.uy/Archivo/Ranking-de-las-mejores-pizzas-de-Montevideo-uc804702) (tier 2–3); file entries. Two searches (the food-court search found nothing usable).
+
+#### Venue: Neighbourhood street market (feria vecinal) · app: Street market
+- **Use for:** other / outdoor; a weekend stop for 1–3, a snack bought at the feria (torta frita, empanada, a sandwich); morning to early afternoon. Added 2026-10-18 (wave 2). Montevideo's **ferias vecinales** set up on a different street each day of the week and supply a large share of the city's fruit and vegetables; the Sunday **Tristán Narvaja** feria (Cordón, seven blocks from 18 de Julio) mixes produce with antiques, books, plants and prepared food [CONFIDENCE: MEDIUM-HIGH — El Observador (setup from 05:00, takedown 17:00, produce stalls among antiques, crafts and food) and Montevideo Portal on the ferias vecinales].
+- **Soft background (the core):**
+  - *Stalls:* a double row of stalls down the middle of a street under **canvas or tarpaulin awnings on metal frames** (colours mostly faded blues, greens and white — not verified), wooden crates of oranges, tomatoes, greens and squash, hanging scales, stacked plastic crates [CONFIDENCE: MEDIUM for produce and crates; LOW for awning colours].
+  - *Middle distance:* the street of **low early-20th-century facades** in cream and ochre with wrought-iron balconies and **plane trees** overhead; shoppers with **trolleys (changuitos)** and cloth bags as soft shapes; a torta-frita stall with a pan of hot oil and a small counter [CONFIDENCE: LOW for the torta-frita stall — per Torta frita entry, not confirmed at ferias].
+  - *Light:* morning light, filtered through plane trees and awnings; grey winter light or sharp summer sun; temperate, never tropical.
+  - *Palette:* faded canvas, orange and green produce, cream facades, grey cobbles or asphalt.
+  - *Signature shapes (3–5):* the run of awnings receding; produce crates; plane-tree trunks; a hanging scale; a shopping trolley.
+  - *Density and wear:* busy, worn, practical.
+  - *People:* a stallholder in a jacket or apron and one shopper, blurred.
+- **Shell:** a closed residential street, asphalt or cobbles.
+- **The table as set here:** a stall's crate or ledge: a **torta frita** on a paper napkin, or an empanada in paper; produce softly around [EDITORIAL].
+- **Subregional variants and the national default:** the weekday feria vecinal in Montevideo is the default; Tristán Narvaja for a Sunday brief. *Interior towns and the coast:* a smaller weekly feria in the plaza [LOW — not verified].
+- **Hallucination traps:** a Mexican tianguis with pink tarps; a tropical market with palm thatch; a Southeast Asian night market; a gourmet European farmers' market with chalkboards; a flea market with no food.
+- **Never stage:** legible price cards or signs, brand marks, alcohol, identifiable children, food in a hand; a recreation of one named stall.
+- **Prompt-ready line:** "A Montevideo feria vecinal on a weekday morning: soft background of faded canvas awnings over crates of oranges and greens, plane trees and cream early-1900s facades, a shopper with a trolley as a soft shape; in focus, a torta frita on a paper napkin on a wooden crate."
+- **Confidence and sources:** MEDIUM. [El Observador — Tristán es una fiesta](https://www.elobservador.com.uy/nota/tristan-es-una-fiesta-2019625054); [Montevideo Portal — las ferias vecinales de Montevideo a más de un siglo](https://www.montevideo.com.uy/Columnistas/Opinion--Las-ferias-vecinales-de-Montevideo-a-mas-de-un-siglo-de-su-creacion-uc860619) (tier 2). One search.
+
+#### Venue: The Rambla at Pocitos (rambla y playa) · app: Beach or waterfront
+- **Use for:** other / outdoor; an afternoon or sunset stop for 1–3, a summer beach day. Added 2026-10-18 (wave 2). The Rambla is the city's shared living room, the long promenade along the Río de la Plata [CONFIDENCE: MEDIUM-HIGH — Wikipedia (Rambla of Montevideo); Montevideo Portal; Uruguay XXI on the NYT feature].
+- **Soft background (the core):**
+  - *Far ground:* the **wide brown-grey water of the Río de la Plata** (not turquoise sea) running to a flat horizon; at Pocitos, a **2 km arc of pale sand** and the dense line of **apartment towers** following the curve [CONFIDENCE: MEDIUM — Montevideo Portal and travel sources: the "wide brown expanse", Pocitos as a 2 km arc of beach and towers].
+  - *Middle distance:* the **promenade**: a broad paved walkway with a low concrete seawall, runners, cyclists and walkers as blurs; at sunset people sitting along the wall facing the water [CONFIDENCE: MEDIUM for sunset crowds (with thermos and mate — keep that out); LOW for the wall's material].
+  - *Light:* sunset gold and pink over the river (the signature hour); flat grey in winter; a strong temperate sun in summer on the sand.
+  - *Palette:* brown-grey water, pale sand, grey concrete, gold-pink sky, cream and white towers.
+  - *Signature shapes (3–5):* the curved beach and tower line; the low seawall; the flat river horizon; a streetlamp row; distant walkers.
+  - *Density and wear:* busy at sunset and weekends; open and calm.
+  - *People:* two or three distant walkers, backs turned.
+- **Shell:** the open promenade; the surface is the seawall top, a bench or a beach towel.
+- **The table as set here:** the seawall ledge or a bench: a **chivito or choripán in paper** from a carrito, or bizcochos in a paper bag (not breakfast); paper napkins [EDITORIAL].
+- **Subregional variants and the national default:** Pocitos is the default. *Ramirez or Malvín beaches:* the same, lower buildings. *Punta del Este and the Atlantic coast:* open ocean, dunes and pines; a summer register [LOW — not verified].
+- **Hallucination traps:** a turquoise Caribbean beach with palms; Rio de Janeiro's Copacabana wave pavement; a Mediterranean promenade with yachts; the mate kit in the hero (the real local prior; keep it out); a tropical saturated sunset.
+- **Never stage:** the mate gourd and thermos (unless briefed), beer, legible signs, identifiable children, food in a hand.
+- **Prompt-ready line:** "Sunset on the Rambla in Montevideo: soft background of the wide brown-grey Río de la Plata under a gold and pink sky, the curved beach of Pocitos and its line of apartment towers, distant walkers along the promenade; in focus, a chivito in paper on the low concrete seawall."
+- **Confidence and sources:** MEDIUM. [Wikipedia — Rambla of Montevideo](https://en.wikipedia.org/wiki/Rambla_of_Montevideo) (tier 1); [Montevideo Portal — la Rambla de Montevideo](https://www.montevideo.com.uy/Tiempo-libre/La-Rambla-de-Montevideo-la-frontera-entre-la-ciudad-y-el-resto-del-mundo-uc914587); [Uruguay XXI — NYT spotlights the Rambla](https://www.uruguayxxi.gub.uy/en/news/article/new-york-times-spotlights-montevideo-s-rambla-a-gateway-to-relaxed-living/). One search.
+
+#### Venue: Weekend picnic in the Parque Rodó or the Prado (parque) · app: Park
+- **Use for:** other / outdoor; a weekend picnic for 2–3, a solo afternoon; spring to autumn. Added 2026-10-18 (wave 2). The Parque Rodó (about 40 ha, by the Rambla) has a central lake with pedal boats, lawns where families spread out at weekend lunchtime, and old **eucalyptus** plantings; the Prado's park has the Rosedal with its pergolas [CONFIDENCE: MEDIUM — Minube (Durandeau "planted thousands of eucalyptus"), Uber Uruguay blog and Nomado travel guide (picnics, pedal boats at weekends); tier 3–4].
+- **Soft background (the core):**
+  - *Far ground:* tall **eucalyptus** and plane trees, the flat lake with pedal boats as soft shapes, a small **castle-like building** or gazebo in the Parque Rodó (keep it soft, do not make it the landmark), apartment blocks along the park edge [CONFIDENCE: MEDIUM for lake, eucalyptus, castle and gazebo].
+  - *Middle distance:* lawn with blurred groups on blankets, a paved path, park benches, a lamp post [CONFIDENCE: LOW for benches — not verified].
+  - *Light:* soft temperate afternoon light through tall trees, never tropical; long summer evenings.
+  - *Palette:* deep green lawn, blue-grey eucalyptus, brown lake water, pale paths.
+  - *Signature shapes (3–5):* eucalyptus trunks; the lake edge with boats; the path; a gazebo; distant blankets.
+  - *Density and wear:* relaxed weekend crowd; grass worn by the paths.
+  - *People:* two or three distant groups.
+- **Shell:** open park; the surface is a blanket, a bench or a low wall.
+- **The table as set here:** a plain or checked cotton blanket: a **pascualina or tarta** in a foil tray, a few milanesa sandwiches, a box of bizcochos; paper napkins. Food sits on the blanket, never in a hand [EDITORIAL].
+- **Subregional variants and the national default:** Parque Rodó is the default; the Prado (Rosedal pergolas, old trees) for a quieter register; Parque Batlle by the stadium for a match-day picnic. *Interior towns:* the main plaza with its palms and benches (palms here are ornamental, not tropical) [LOW — not verified].
+- **Hallucination traps:** a tropical park with palms as the default; Central Park; an English formal garden; the mate kit centre-blanket (the true prior; keep it out).
+- **Never stage:** the mate gourd and thermos (unless briefed), beer or wine, legible signs, identifiable children, food in a hand.
+- **Prompt-ready line:** "A weekend picnic in the Parque Rodó in Montevideo: soft background of tall eucalyptus trees, a lake with pedal boats and families on the lawn as soft shapes in temperate afternoon light; in focus, a checked cotton blanket with a slice of pascualina in a foil tray."
+- **Confidence and sources:** MEDIUM-LOW. [Minube — aire libre Uruguay](https://www.minube.com/categorias/aire-libre-uruguay); [Uber Uruguay — parques en Montevideo](https://www.uber.com/es-UY/blog/parques-en-montevideo); [Nomado — Parque Rodó](https://www.nomadotravel.app/es/places/parque-rodo) (tier 3–4). One search.
 
 ### CELEBRATIONS & LARGE GATHERINGS
 
@@ -738,6 +884,7 @@ bars that post sign-ups [MEDIUM — pagat, Wikipedia ES].
 - **Celebrations pass (2026-10-01) open items.** All headcounts in CELEBRATIONS & LARGE GATHERINGS are editorial or inferred from vendor listings (no Uruguayan survey found); the children's party foods (sándwich olímpico, chajá as birthday cake) rest on non-Uruguayan food media; the fiesta de 15 and wedding menus rest on vendor listings and may simply mirror Argentina's. The children-in-frame rule needs checking against TCCC's marketing-to-children policy. A `### DISH CATALOG` heading was added above the dish entries so they do not nest under the new section.
 - **Game-night pass (2026-10-01) open items.** No Uruguay-specific viewing data was found by the cross-market research: the Celeste asado, clásico pizza night and stadium choripán scenes, kick-off times and every game-night menu are [LOW — not verified]. Truco's popularity and club championships are MEDIUM (pagat, Wikipedia ES). Rule conflict noted: the research notes put a mate gourd beside the Celeste asado; dropped under §5.6.
 - **Venue-profile pass, wave 1 (2026-10-01) open items.** Not verified this pass [LOW]: the pendant lamp in the Montevideo apartment, interior-town house details, coastal quincho details and summer sunset times; the room-sense of "barbacoa" is inferred from property-listing usage (LOW-MEDIUM); Mercado del Puerto-style and roadside parrilla variants; carts on the coast and in interior towns; plainer interior boliches; the salón profile rests on one vendor directory (TuFiesta). The apartment and quincho details lean on InfoCasas listings. Check all six prompt-ready lines in image tests.
+- **Venue-profile pass, wave 2 (2026-10-18) open items.** All web claims rest on search snippets (tier 2–4: InfoCasas listings, El Observador, Montevideo Portal, Superfuture, travel guides). Not verified [LOW]: décor, string lights and AC in the monoambiente; true islands in Carrasco and coastal houses; the wood fire and hydraulic tiles in new-wave restaurants (generalised from one or two venues); tiled walls in pizzerías; the shopping food court (search found nothing; not profiled); feria awning colours and torta-frita stalls at ferias; the Rambla seawall's material; park benches; every interior-town and coastal variant. Check all seven new prompt-ready lines in image tests.
 
 ## CANDIDATE QUEUE
 
@@ -782,3 +929,4 @@ bars that post sign-ups [MEDIUM — pagat, Wikipedia ES].
 - **2026-10-01 celebrations pass (schema §5.7): 4 searches**, covering the Uruguayan Christmas table (Bodega Garzón, cocina-uruguaya.com), the Día de la Familia secular naming (LARED21, Cadena 3), children's birthday foods, and salón and catering offers for fiestas de 15 and weddings (vendor listings only). Added CELEBRATIONS & LARGE GATHERINGS with 5 entries after ENVIRONMENT & STAGING SCENES.
 - **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT after CELEBRATIONS & LARGE GATHERINGS: three watch-party entries (Celeste match with an asado, clásico night with pizza and fainá or chivitos, choripán outside the stadium), all LOW, and two truco entries (after the asado; club championship and merienda).
 - **2026-10-01 venue-profile pass, wave 1 (schema §5.9): 6 profiles, 6 searches.** Added VENUE PROFILES after ENVIRONMENT & STAGING SCENES (the file has no register table) and a pointer line at the top of that section: Montevideo apartment kitchen and comedor diario, quincho/barbacoa/building parrillero, neighbourhood parrilla, carrito, traditional café-bar, and the salón de fiestas. Sources: InfoCasas listings, a parrillero construction guide, Urubus, Wikipedia (ES) Carrito (via search), El Observador, la diaria, Montevideo Portal, TuFiesta; open items in GAP LOG.
+- **2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5 profiles tagged, 7 new profiles, 9 searches.** New: young renter's monoambiente (Gen Z apartment), integrated kitchen with a breakfast bar (Kitchen island), new-wave Ciudad Vieja/Pocitos restaurant (Modern bistro), pizzería or chivitería al paso (Counter service), feria vecinal (Street market), the Rambla at Pocitos (Beach or waterfront), Parque Rodó/Prado picnic (Park). Added the App options coverage table; all 12 options covered. One search (Tres Cruces food court) returned nothing usable. Open items in GAP LOG.

@@ -78,7 +78,30 @@ Scotland-specific prior), no brand marks, never a full Saltire, no
 identifiable children, no more than about 2.5 background faces, none
 sharp; the brief dictates the SKU.
 
-#### Venue: Sandstone tenement flat kitchen (home, indoor)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Scottish profiles exist only where Scotland's look genuinely
+differs; every other option uses the `uk.md` profile named. Coverage:
+
+| App option | Scotland profile |
+|---|---|
+| Dining room | Sandstone tenement flat kitchen (cities); rural Scotland: `uk.md` kitchen-diner with harled walls or hills outside. Outdoor: `uk.md` Back garden patio (tenements have a shared back court instead) |
+| Gen Z apartment | Tenement flatshare, young renters (delta to `uk.md`) |
+| Kitchen island | `uk.md` Extended-house kitchen with island (same look in Scottish suburbs; rare in tenements) |
+| Sit-down | Scottish traditional pub (delta); gastropub: `uk.md` Gastropub |
+| Counter service | Scottish chippy (delta); Scotch-pie bakery counter |
+| Café | `uk.md` Independent neighbourhood café (sandstone street through the window) |
+| Modern bistro | `uk.md` Modern neighbourhood restaurant (Glasgow and Edinburgh have the same register) |
+| Street market | `uk.md` Street-food market with stalls and vans |
+| Food truck | `uk.md` Street-food market with stalls and vans |
+| Park | `uk.md` Town park bench or lawn (city parks framed by tenements) |
+| Beach or waterfront | `uk.md` Seaside promenade (Portobello and Ayrshire resorts share the look; not separately verified) |
+| Stadium or event | Scottish football ground pie kiosk (delta to `uk.md`) |
+
+The Burns Supper hall serves no option and carries no tag; it stays as
+context for CELEBRATIONS.
+
+#### Venue: Sandstone tenement flat kitchen (home, indoor) · app: Dining room
 - Use for: home indoor; casual lunch, dinner, Hogmanay and New Year's Day
   dinner, a Burns supper at home, Scottish football at home (the living
   room of the same flat); 1 to small group. Replaces `uk.md`'s
@@ -136,7 +159,7 @@ sharp; the brief dictates the SKU.
   trade tier; [British Listed Buildings — The Tenement House](https://britishlistedbuildings.co.uk/200402839-the-tenement-house-flat-12-145-buccleuch-street-glasgow-glasgow))
   plus the ENVIRONMENT delta sources.
 
-#### Venue: Scottish chippy (delta to `uk.md` chippy)
+#### Venue: Scottish chippy (delta to `uk.md` chippy) · app: Counter service
 - Use for: meal on the go and small sit-in; a fish supper; 1 or 2. As
   `uk.md`'s chippy profile in every background element (steel range,
   heated cabinet, tiles, high illegible menu board, night street through
@@ -160,7 +183,7 @@ sharp; the brief dictates the SKU.
 - Confidence and sources: MEDIUM; no new search (uses this file's sourced
   chippy and salt-and-sauce entries).
 
-#### Venue: Scotch-pie bakery counter (street, on the go)
+#### Venue: Scotch-pie bakery counter (street, on the go) · app: Counter service
 - Use for: meal on the go; a hot Scotch pie or bridie bought at a
   high-street bakery and eaten outside or carried; Scottish football
   match day on the way to a game; 1. Scotland's most distinctive daytime
@@ -206,7 +229,7 @@ sharp; the brief dictates the SKU.
   description: [GlasgowWorld — traditional pie shops](https://www.glasgowworld.com/lifestyle/food-and-drink/6-of-the-best-traditional-old-school-pie-shops-in-glasgow-including-alex-fergusons-favourite-4833627));
   HIGH for the pie itself (catalog).
 
-#### Venue: Scottish traditional pub (delta to `uk.md` traditional pub)
+#### Venue: Scottish traditional pub (delta to `uk.md` traditional pub) · app: Sit-down
 - Use for: restaurant, indoor; pub lunch, a Burns Night pub menu, a
   food-led screening (see `uk.md` GAME NIGHT); 1 to small group. As
   `uk.md`'s traditional pub, with Scottish fittings.
@@ -282,6 +305,101 @@ sharp; the brief dictates the SKU.
   guides ([Lochcarron — throwing a Burns Supper](https://www.lochcarron.co.uk/our-journal/our-guide-to-throwing-a-burns-supper/);
   [ScotlandShop — Burns Night table](http://www.scotlandshop.com/c-80-the-burns-night-table.aspx?locale=en-US));
   EDITORIAL for staging.
+
+#### Venue: Tenement flatshare, young renters (delta to `uk.md` flatshare) (home, indoor) · app: Gen Z apartment
+- Use for: home indoor; young adults, students or a young couple in a
+  rented tenement flat in Glasgow or Edinburgh; a small table, a takeaway
+  night in; 1 to 3. Wave 2 (2026-10-18). Keeps `uk.md`'s flatshare
+  personal layer (prints, fairy lights, plants, flat-pack shelving,
+  landlord-plain walls) and replaces the building: in the Scottish cities
+  the young renter's flat is most often a tenement, with the space and
+  height an English terrace conversion lacks [MEDIUM — Glasgow West End,
+  Finnieston, Govanhill and Langside flatshare listings repeatedly
+  advertise "high ceilings, large windows" and bay-window rooms].
+- Soft background (the core), delta only: the room is tall (about
+  2.7–3 m) and the walls feel bare above head height, so prints and
+  posters cluster low and a large plant or a floor lamp fills the
+  vertical space; a moulded cornice and a central ceiling rose show at
+  the top of the frame; a three-light bay window or one tall sash with
+  deep stone reveals and wooden shutters or a white roller blind is the
+  dominant light shape; through it, the sandstone façades of the
+  tenement opposite (red in Glasgow, honey or grey in Edinburgh) with
+  rows of sash windows, or the back court [MEDIUM — listings; NTS
+  tenement guide, see the tenement kitchen profile]. Original pine
+  floorboards with a rug, a marble or cast-iron fireplace (blocked,
+  holding candles) and a press (built-in cupboard) door are common
+  details [LOW — not verified this pass]. Light: tall, cool northern
+  daylight through the bay; winter evenings dark from about 16:00, so
+  fairy lights and a lamp against a black window with lit windows of the
+  opposite block. Signature shapes: the bay window's three tall panes,
+  the cornice line, the blocked fireplace with candles, a tall plant.
+- Shell: an 1880s–1910s sandstone tenement, top or first floor, shared
+  close and common stair.
+- The table as set here: as `uk.md`'s flatshare (a small table or a coffee
+  table, mismatched plates, takeaway foil trays).
+- Subregional variants: Glasgow West End and Southside (red sandstone,
+  bay windows); Edinburgh Marchmont and Leith (honey stone, sash windows,
+  more cramped). Aberdeen granite flats: not verified. Default: a Glasgow
+  West End tenement flat.
+- Hallucination traps: an English magnolia terrace conversion with low
+  ceilings; a castle or baronial interior; tartan throws everywhere; the
+  Pinterest Scandinavian showroom; Highland scenery through a city window.
+- Never stage: whisky, beer cans; legible posters or book spines; a full
+  Saltire.
+- Prompt-ready line: "A young renters' tenement flat in Glasgow: a small
+  table sharp in front, behind it a tall softly blurred bay window with
+  deep stone reveals and red sandstone opposite, high plain walls under a
+  cornice, a few prints, fairy lights and a tall plant."
+- Confidence and sources: MEDIUM-LOW; one search, individual listings
+  ([SpareRoom — Glasgow West End flatshare](https://www.spareroom.co.uk/flatshare/lanarkshire/glasgow_west_end/18358362);
+  [SpareRoom — Finnieston rooms](https://student.spareroom.co.uk/accommodation/glasgow/90/15783023/);
+  [SpareRoom — Glasgow flatshare](https://www.spareroom.co.uk/flatshare/lanarkshire/glasgow/18017076));
+  EDITORIAL for staging.
+
+#### Venue: Scottish football ground pie kiosk (delta to `uk.md` football ground) (on the go, outdoor) · app: Stadium or event
+- Use for: meal on the go; Scottish league or national-team match day; 1
+  to 3. Wave 2 (2026-10-18). Differs from `uk.md`'s football-ground
+  profile in the food and where it is sold: the hot pie (a Scotch pie, a
+  steak pie or the club's "pie of the month") bought at a kiosk hatch in
+  or under the stand is the Scottish match-day ritual [MEDIUM — St
+  Johnstone, Livingston and Partick Thistle catering news; Vittles on the
+  Killie pie]. Outside the ground, `uk.md`'s burger-van street applies,
+  with sandstone tenements in place of brick terraces at city grounds.
+- Soft background (the core), delta only: a kiosk hatch set into the
+  back of a stand or a small block behind the terracing: a lit counter
+  with a heated pie cabinet, foil trays and paper napkins, a steel urn,
+  a short crowd of fans in dark winter coats, scarves and hats as blurred
+  colour blocks (no crests); the steel underside of the stand, its stairs
+  and crush barriers, or open terracing with a grey sky and floodlight
+  pylons; at smaller grounds, a corrugated-roofed enclosure and a view of
+  hills or tenement rooftops beyond [EDITORIAL; kiosk refurbishments per
+  club news]. Light: winter 15:00 grey or floodlit evening, breath and pie
+  steam visible. Palette: grey steel, dark coats, golden pastry, warm
+  hatch light. Signature shapes: the round straight-sided pie in its foil
+  tray, the hatch, the stand's steel stairway, the floodlight pylon.
+- The table as set here: the kiosk's narrow counter ledge or a crush
+  barrier top; the pie in a foil tray or on a napkin, never in a hand.
+- Subregional variants: Glasgow city grounds (tenement streets outside);
+  Kilmarnock (the pie is the club's own signature, unbranded in frame);
+  Hampden for the national team (larger concourse, kiosks under the
+  stand) [LOW]. Default: a lower-league ground kiosk behind the terracing.
+- Hallucination traps: an English Premier League concourse; an American
+  stadium with hot dogs and nachos; Highland dress and bagpipes at a
+  league match; a domed pub pie instead of the straight-sided Scotch pie.
+- Never stage: Bovril and other branded drinks (an intruder drink at
+  Scottish grounds), beer (banned at Scottish football since 1980; keep it
+  out regardless), club crests, sponsor boards, a full Saltire, flares,
+  identifiable children.
+- Prompt-ready line: "A Scottish football ground on a cold match day: a
+  hot Scotch pie in a foil tray sharp on a kiosk ledge, behind it a
+  softly blurred lit hatch with a pie cabinet, scarved fans in dark coats,
+  the steel underside of the stand and a floodlight against a grey sky."
+- Confidence and sources: MEDIUM-LOW; one search ([St Johnstone — Pie
+  Sports kiosks](https://www.perthstjohnstonefc.co.uk/?p=4800);
+  [Livingston FC — Food to Go](https://livingstonfc.co.uk/partnership-food-to-go-stadium-catering/);
+  [Partick Thistle — matchday food](https://ptfc.co.uk/ptfc-news/thistle-go-italian-as-pizza-and-fresh-soup-made-available-on-matchdays/);
+  [Vittles — the match day ritual](https://vittles.substack.com/p/the-match-day-ritual));
+  the alcohol ban date is model knowledge [LOW — not verified this pass].
 
 ---
 
@@ -1054,6 +1172,14 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   Scottish pub gantry and island bar are MEDIUM (CAMRA heritage guide via
   search summary). No pages read at source.
 
+- **Venue-profile pass, wave 2 (2026-10-18) open items.** The tenement
+  flatshare rests on individual rental listings (high ceilings, large and
+  bay windows); its fireplace, press and floorboard details are LOW. The
+  football-ground kiosk rests on club catering news and one food essay;
+  the kiosk's look, the Hampden variant and the 1980 alcohol ban date are
+  LOW (model knowledge). Portobello and Ayrshire promenades are assumed to
+  share `uk.md`'s seaside look, not verified.
+
 ## CANDIDATE QUEUE
 
 1. A dedicated Dundee/Highlands callout, if a future pass finds
@@ -1110,3 +1236,10 @@ apply (a ceilidh is a dance, covered under CELEBRATIONS, not a game night).
   LOW/EDITORIAL items in the Gap Log (rural architecture, bakery-counter
   layout, Burns running order, game-night kick-offs, the Old Firm rule,
   headcounts), to be reviewed by a person.
+- **2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 4
+  profiles tagged, 2 new profiles, 2 searches.** Tags: tenement kitchen
+  (Dining room), Scottish chippy and Scotch-pie bakery counter (Counter
+  service), Scottish pub (Sit-down); Burns Supper hall left untagged. New
+  deltas only where Scotland differs: tenement flatshare (Gen Z
+  apartment), football ground pie kiosk (Stadium or event); all other
+  options point to `uk.md` in the coverage table. WebSearch only.

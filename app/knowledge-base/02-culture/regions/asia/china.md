@@ -242,7 +242,28 @@ is LOW (Meal outdoors at home); the noodle shop takes its place as the
 most-used 1-person venue. Hot pot and the dim sum tea house are queued
 for wave 2.
 
-#### Venue: Beijing apartment dining area (家里的餐厅, 客餐厅)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | China profile |
+|---|---|
+| Dining room | Beijing apartment dining area |
+| Gen Z apartment | Young renter's room or shared flat (出租屋, 合租); young locals often live with parents (then use the dining area) |
+| Kitchen island | Bar counter or peninsula in a newer open kitchen (closed kitchens are the norm; this is the minority, newer-flat version) |
+| Sit-down | Neighbourhood home-style restaurant (家常菜馆) |
+| Counter service | Noodle shop (order and pay at the counter, fetch the bowl at the window) |
+| Café | Neighbourhood independent café (Beijing hutong / Shanghai lane) |
+| Modern bistro | Modern Chinese restaurant (新中式 / 创意中餐) |
+| Street market | Shaokao night street and skewer restaurant |
+| Food truck | Rare here: Western-style food trucks are a niche; the real mobile vendor is the tricycle cart or night-market stall. Nearest: Shaokao night street |
+| Park | City park (Chaoyang Park, neighbourhood park) |
+| Beach or waterfront | Riverside promenade (Shanghai West Bund / Huangpu riverside) |
+| Stadium or event | Football stadium plaza on match day (Workers' Stadium fan carnival) |
+
+Restaurant or hotel banquet hall serves no option (indoor event venue); it stays as context.
+
+#### Venue: Beijing apartment dining area (家里的餐厅, 客餐厅) · app: Dining room
 
 - Use for: home indoor; casual lunch (1–3), dinner at home, New Year's
   Eve and Mid-Autumn reunion dinners, weekend dinner at the
@@ -316,7 +337,7 @@ for wave 2.
 - Confidence and sources: MEDIUM; 1 search (Chinese home-design cases:
   Haohaozhu, 163.com, Zhihu, To8to) plus this file's interior markers.
 
-#### Venue: Neighbourhood home-style restaurant (家常菜馆)
+#### Venue: Neighbourhood home-style restaurant (家常菜馆) · app: Sit-down
 
 - Use for: restaurant indoor; away from home 2–3 people, family meals
   out, small birthday dinners, colleagues' lunch; 2 to a small group,
@@ -378,7 +399,7 @@ for wave 2.
 - Confidence and sources: MEDIUM; 1 search (Sina/Weibo food columns,
   tier 3) plus the register and GENERAL NORMS.
 
-#### Venue: Noodle shop (面馆, Lanzhou beef-noodle default)
+#### Venue: Noodle shop (面馆, Lanzhou beef-noodle default) · app: Counter service
 
 - Use for: restaurant indoor; 1 person at a restaurant, quick lunch,
   meal on the go seated; 1–2. National: Lanzhou beef-noodle shops are in
@@ -438,7 +459,7 @@ for wave 2.
 - Confidence and sources: MEDIUM; 1 search (CBNData, Xinhua, Zhihu,
   Sina) plus the register and the Lanzhou niurou mian catalog entry.
 
-#### Venue: Shaokao night street and skewer restaurant (烧烤摊 / 烧烤店, 撸串)
+#### Venue: Shaokao night street and skewer restaurant (烧烤摊 / 烧烤店, 撸串) · app: Street market
 
 - Use for: street / on the go and other (street-side tables); night
   snacks (夜宵), friends' evenings, late-night football watch party;
@@ -546,6 +567,330 @@ for wave 2.
   distant stage glowing pink and gold in soft bokeh behind."
 - Confidence and sources: MEDIUM; 1 search (Sohu, Zhihu, jiehun.com.cn,
   Sina) plus Celebration: Wedding banquet.
+
+#### Venue: Young renter's room or shared flat (出租屋, 合租) · app: Gen Z apartment
+
+- Use for: home indoor; a young worker alone or a young couple; takeaway
+  dinner, snack, a match or a show on a tablet; 1–2. In the big cities
+  most young migrant workers rent: a **room in a shared flat (合租)** or a
+  small **one-bedroom (一居室)** in an older compound; young locals often
+  live with parents until marriage (then use the apartment profile
+  above). **Renting-room makeovers (出租屋改造)** are a huge Xiaohongshu
+  genre: soft furnishings only, no structural change, low budgets.
+  [MEDIUM — Woshipm (millions of Xiaohongshu notes on bedroom/rented-room
+  makeovers), Huxiu (young first-tier workers improving rented rooms),
+  SMZDM guides; living with parents LOW — general knowledge]
+- Soft background (the core): **back wall** of the landlord's plain
+  white latex paint (sometimes scuffed) softened by the tenant: a
+  **fabric wall hanging or tapestry**, a few prints or photos on a cord
+  with clips, a **warm string light or an ambience lamp** (氛围灯); a
+  **bed with soft-coloured bedding** (cream, sage, grey checks) doubling
+  as the sofa in a single room. **Middle distance**: a cheap white or
+  pale-wood **wardrobe**, plastic **storage boxes and drawer units**
+  neatly labelled (blur), a clothes rail, a **folding table or small
+  low table** with a floor cushion, a projector on a stand pointing at
+  the white wall, one or two **pothos or monstera** plants, a rug over
+  the tiles. **Light**: daylight through an aluminium window with a
+  **wall-hung AC** above it and a sheer curtain replacing the landlord's
+  heavy one; at night warm lamp light against a cool ceiling LED. **Palette**:
+  white walls, cream and oat textiles, light wood, green plants, one
+  accent (dusty blue or orange). **Signature shapes**: wall-hung AC;
+  string light; storage tower; folding table; projector glow on a white
+  wall. **Density and wear**: small (often under 20 m² for a room),
+  every surface used, neat but personal; older compound flats show old
+  window frames and grey tiles. **People**: a blurred partner or flatmate,
+  within the limit. [LOW-MEDIUM — soft furnishings, storage, plants,
+  lights and colour-matched curtains/bedding per the makeover guides;
+  dimensions and projector EDITORIAL]
+- Shell: a room in a 1990s–2000s 6-storey walk-up or a high-rise compound
+  flat; tile or laminate floor; aluminium windows.
+- The table as set here: a folding table or low table; takeaway in a
+  clear plastic box (lid illegible) or a bowl on a tray; chopsticks on
+  the box lid. [EDITORIAL]
+- Subregional variants and the national default: **Beijing/Shanghai** —
+  shared flats in older compounds; **Shenzhen** — urban-village (城中村)
+  rooms with narrow "handshake" windows; **Chengdu/Hangzhou** — bigger,
+  newer one-bedrooms. Default: a Beijing shared-flat room. [LOW]
+- Hallucination traps: a Scandinavian showroom loft; a Japanese 1K with
+  tatami; a spacious Western studio; a gamer den with neon only;
+  squalor or "ant tribe" basement cliché.
+- Never stage: beer cans, milk tea or coffee cups; legible delivery
+  bags, receipts, labels or screens; brand logos on appliances.
+- Prompt-ready line: "A young renter's room in Beijing: a takeaway rice
+  box with chopsticks on a small folding table, cream bedding, a warm
+  string light and a few clipped photos on a white wall, a wall-hung AC
+  and a pothos plant softly blurred behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Woshipm, Huxiu, SMZDM,
+  Sohu); staging [EDITORIAL].
+
+#### Venue: Bar counter or peninsula in a newer open kitchen (开放式厨房吧台, 中岛) · app: Kitchen island
+
+- Use for: home indoor; a snack or light meal at the counter; 1–2.
+  **Most Chinese flats have a closed kitchen** behind a door or sliding
+  glass partition (heavy wok cooking, oil smoke), so a true island is
+  uncommon; in newer upper-middle flats and renovations, a **bar counter
+  (吧台) or a small island (中岛)** joining an open or semi-open kitchen
+  to the dining area is a recognised design trend. Treat it as the
+  aspirational, minority version. [LOW-MEDIUM — Chinese-language design
+  guides describe islands and bar counters as a trend (one search, mostly
+  Taiwanese design platform pages); closed-kitchen norm general knowledge
+  and consistent with this file's apartment profile (sliding glass kitchen
+  door)]
+- Soft background (the core): **behind the counter** the kitchen run:
+  flat-panel **cabinets in white, light grey or wood grain** (handleless
+  or slim handles), a **quartz or sintered-stone counter** (white or
+  grey), a **side-draft range hood** over a two-burner gas hob with a wok
+  on it, a **rice cooker** and a steamer, an **induction or electric
+  kettle**, chopsticks in a drainer; a glass partition or sliding door
+  folded back. **Middle distance**: the window to an enclosed balcony,
+  a tall fridge, a few herbs or a pothos. **Light**: ceiling downlights or
+  a linear LED, a slim pendant or two over the counter in designed flats;
+  daylight from the balcony. **Palette**: white and light grey, warm
+  wood, steel, black hob glass. **Signature shapes**: the range hood;
+  the wok on the hob; the rice cooker; bar stools' backs; the glass
+  partition frame. **Density and wear**: newer, tidy, functional.
+  **People**: a blurred family member at the hob, within the limit.
+  [LOW-MEDIUM — general knowledge plus this file's interior markers]
+- Shell: a 2015–2025 high-rise flat; large tiles; flat ceiling with a
+  border.
+- The table as set here: the stone counter, 75–90 cm high (bar or
+  island); a plate or bowl, chopsticks on a rest, own rice bowl if a
+  meal. [MEDIUM — height ranges per the design guide]
+- Subregional variants and the national default: **Shanghai/Shenzhen new
+  flats** — most likely; **Beijing older stock** — none, use the dining
+  area profile. Default: a Shanghai or Beijing renovated flat. [LOW]
+- Hallucination traps: an American suburban island with a farmhouse
+  sink and pendant trio; a Western oven range; no wok and no rice cooker;
+  a wine fridge or bottles on open shelves.
+- Never stage: teapot, soy milk maker in use, liquor bottles; legible
+  appliance brands; a kitchen god or offerings in frame.
+- Prompt-ready line: "A bar counter in a newer Shanghai flat: a plate of
+  tomato-and-egg with a rice bowl on white quartz, and a white open
+  kitchen with a wok on the hob, a rice cooker and a slim range hood
+  softly blurred behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (design guides, no
+  mainland statistics); staging [EDITORIAL].
+
+#### Venue: Neighbourhood independent café (Beijing hutong / Shanghai lane, 独立咖啡馆) · app: Café
+
+- Use for: restaurant indoor; one person or two friends, an afternoon
+  snack or light lunch; 1–2. Small independent cafés are a dense urban
+  register in Shanghai (lane houses on Wukang/Anfu roads) and Beijing
+  (hutong courtyards around Gulou and Dongcheng). [MEDIUM — Shanghai
+  government and China Daily guides to Wukang Road; SmartShanghai on lane
+  cafés; Beijing hutong cafés LOW — general knowledge]
+- Soft background (the core): **back wall** of white plaster or the old
+  **grey brick** of a hutong house or **red brick and timber** of a
+  Shanghai lane house, kept pale and pared back; a **wooden counter** with
+  an espresso machine as a dark block, a small glass case of cakes and
+  basque cheesecake slices, ceramic cups stacked (blur). **Middle
+  distance**: three or four small **pale-wood tables** and stools, a
+  window seat or a doorway onto a **courtyard or lane** with plane trees
+  (Shanghai) or a persimmon tree and grey-tile roof (Beijing), a bicycle
+  or e-bike beyond. **Light**: soft daylight through a big window or
+  glass door, filtered through plane leaves; warm downlights; evenings
+  quiet. **Palette**: beige, pale wood, white, grey brick, plant green.
+  **Signature shapes**: the courtyard or lane doorway; plane-tree dapple;
+  a pale-wood counter; small stools; a cake case. **Density and wear**:
+  small, calm, curated, young crowd. **People**: blurred customers with
+  laptops or phones face-down, within the limit. [LOW-MEDIUM — beige and
+  wood tones, courtyard and garden settings per Wukang Road guides;
+  hutong detail general knowledge]
+- Shell: a converted ground floor of a lane house or a hutong courtyard
+  room; polished cement or old tile floor.
+- The table as set here: a small pale-wood table; a slice of cake or a
+  sandwich on a ceramic plate; cups out of frame. [EDITORIAL]
+- Subregional variants and the national default: **Shanghai** — lane
+  café under plane trees (strongest café city); **Chengdu** — the teahouse
+  is the traditional equivalent (bamboo chairs, tea: intruder); **Guangzhou**
+  — the cha chaan teng-style café in old arcades. Default: Beijing hutong
+  café (default zone), Shanghai lane as equal alternative. [LOW]
+- Hallucination traps: a global coffee chain; a Parisian café; a
+  traditional teahouse with teapots; red lanterns; legible Chinese menu
+  boards or cup stamps.
+- Never stage: coffee, milk tea or tea in frame; chain marks; legible
+  menus or cup sleeves; cigarettes.
+- Prompt-ready line: "A small Beijing hutong café in afternoon light: a
+  slice of cheesecake on a pale-wood table, grey-brick walls, a wooden
+  counter with an espresso machine softly blurred, and a courtyard doorway
+  with a tree and grey-tile roof beyond."
+- Confidence and sources: LOW-MEDIUM; 1 search (China Daily, Shanghai
+  government, SmartShanghai); staging [EDITORIAL].
+
+#### Venue: Modern Chinese restaurant (新中式 / 创意中餐) · app: Modern bistro
+
+- Use for: restaurant indoor; 2–3 people, a dinner out or weekend lunch,
+  a young couple or friends; 2 to a small group. The design-led 新中式
+  ("new Chinese") restaurant in Shanghai, Beijing, Chengdu and Hangzhou:
+  regional cuisine plated for sharing in a calm, modern interior; a
+  popular register with young diners. [MEDIUM — Shanghai "new Chinese"
+  restaurant guides and a Beijing design firm's Jingshan project (bamboo
+  tables, screens) via search; materials partly EDITORIAL]
+- Soft background (the core): **walls** of warm-grey micro-cement,
+  lime plaster or pale wood slats; one **Chinese reference rendered
+  modern**: a **lattice or rattan screen**, a moon-shaped opening, a
+  large ink-wash-like abstract (no characters), a single branch in a
+  tall vase. **Middle distance**: a **semi-open kitchen** behind glass
+  with a soft warm glow and a cook's white jacket, steamers stacked;
+  **dark-wood or stone tables** spaced well, curved banquettes in
+  celadon, ochre or deep green, potted bamboo or pine. **Light**: low and
+  warm: **paper or linen lantern-shaped pendants**, linear lights in
+  wood slats, the kitchen brighter behind. **Palette**: warm grey, dark
+  walnut, celadon, ink black, brass. **Signature shapes**: the lattice
+  screen; moon opening; lantern pendants (plain, no characters); celadon
+  ware; the glowing kitchen glass. **Density and wear**: new, quiet,
+  composed. **People**: blurred diners, within the limit. [LOW-MEDIUM]
+- Shell: a ground floor in a mall podium, a converted lane house or a
+  heritage building; stone or terrazzo floor.
+- The table as set here: bare stone or wood, no cloth; **celadon or matte
+  stoneware**, shared dishes plated small, own rice bowl, chopsticks on a
+  ceramic rest, no turntable for 2–4. [EDITORIAL]
+- Subregional variants and the national default: **Shanghai** — Bund-area
+  heritage buildings, Jiangnan dishes; **Chengdu** — courtyards and
+  bamboo, Sichuan dishes plated modern; **Hangzhou** — lake views,
+  pale wood. Default: Shanghai/Beijing city restaurant. [LOW]
+- Hallucination traps: imperial red-and-gold dragons; a hotel banquet
+  room; white tablecloths and silver; a Japanese kaiseki interior with
+  noren; a Western fine-dining tasting room with tweezered plates; a
+  baijiu or wine display wall.
+- Never stage: bar, bottles, taps, wine glasses or baijiu cups; teapots and
+  tea sets (often central to the look: remove); legible calligraphy or menus.
+- Prompt-ready line: "A modern Chinese restaurant in Shanghai: shared
+  dishes on celadon plates with a rice bowl on a bare walnut table, a
+  softly blurred lattice screen, warm linen lantern pendants and a glowing
+  glass-fronted kitchen behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Shanghai new-Chinese
+  guides, Bilibili design article, international design press); staging
+  [EDITORIAL].
+
+#### Venue: City park (北京公园 — Chaoyang Park, neighbourhood park) · app: Park
+
+- Use for: on the go / outdoor; a weekend or after-work snack on a bench,
+  friends or a couple; 1–3. City parks are central to urban life: lakes,
+  willows, pavilions, open lawns, benches; mornings belong to older
+  residents' exercise, singing and cards. [MEDIUM — Visit Beijing on
+  Chaoyang Park (lake, trees, lawns, pavilions; bench campaign); Beijing
+  News on poplar and willow wood benches in Chaoyang parks; Beihai park
+  activities from a teaching text (older source)]
+- Soft background (the core): **back plane** a **lake** edged by
+  **weeping willows** and grey stone banks, a red-pillared **pavilion
+  (亭)** with a grey-tile roof softened by distance, poplars beyond.
+  **Middle distance**: a paved path of grey stone or brick, **wooden
+  benches** with metal arms, clipped hedges, a lawn (fenced in older
+  parks), blurred walkers, a pedal-boat or two on the lake, kites high
+  in spring. **Light**: Beijing autumn is clear and golden (gingko yellow);
+  spring hazy with willow catkins; summer evenings warm with lamps along
+  the lakeside. **Palette**: willow green, grey stone, pavilion red,
+  gingko gold, pale sky. **Signature shapes**: willow curtains; the
+  pavilion roof; stone lake edge; bench line; tall poplars. **Density
+  and wear**: well kept, busy at weekends, never crowded in frame.
+  **People**: blurred figures within the limit; no identifiable children.
+  [LOW-MEDIUM for light and seasonal detail]
+- Shell: open ground; stone paths; open sky.
+- The table as set here: the hero and a snack (jianbing in paper, a
+  container of cold noodles, fruit cup) on a **bench** or a stone ledge;
+  never in a hand. [EDITORIAL]
+- Subregional variants and the national default: **Shanghai** — Fuxing
+  Park plane trees and European-style lawns; **Chengdu** — People's Park
+  with bamboo and teahouses; **Hangzhou** — West Lake shore; **Guangzhou**
+  — banyans and subtropical green. Default: a Beijing park lake. [LOW]
+- Hallucination traps: Japanese gardens with torii or maple-and-moss;
+  a Western lawn picnic; imperial palace architecture as the park;
+  political banners or red slogans; square-dancing crowds in focus.
+- Never stage: tea flasks, soy milk; legible signs or banners; flags;
+  identifiable children; food in a hand.
+- Prompt-ready line: "A Beijing park in golden autumn light: the hero and
+  a paper-wrapped jianbing on a wooden bench, a lake edged with weeping
+  willows and a red-pillared pavilion with a grey-tile roof softly
+  blurred behind."
+- Confidence and sources: LOW-MEDIUM; 1 search (Visit Beijing, Beijing
+  News); staging [EDITORIAL].
+
+#### Venue: Riverside promenade (Shanghai West Bund / Huangpu riverside, 滨江) · app: Beach or waterfront
+
+- Use for: on the go / outdoor; an evening walk and snack, friends or a
+  couple; 1–3. Shanghai's Huangpu riverside has been opened up as
+  continuous public waterfront: the **Xuhui West Bund** (11.4 km, open
+  since 2017) reuses industrial heritage (cranes, coal-hopper structures,
+  warehouses) with promenades, lawns and raised esplanades. Beijing
+  alternative: **Houhai** lake; beach alternative: **Qingdao** or
+  **Xiamen**. [HIGH — Shanghai government, David Chipperfield, design
+  press on West Bund scale, history and esplanades]
+- Soft background (the core): **back plane** the **Huangpu River**, grey-
+  green, with barges sliding by, the **Pudong skyline** (or the West Bund
+  towers) as soft silhouettes that light up at dusk; preserved **industrial
+  cranes** and steel structures painted dark grey or rust red. **Middle
+  distance**: a wide promenade of grey granite and timber decking, low
+  concrete edges and steps down to the water, lawns, **plane trees** and
+  grasses, cyclists and walkers blurred, skateboarders. **Light**: sunset
+  warm over the river, then blue hour with the skyline's LED glow as
+  multicolour bokeh; river haze softens everything. **Palette**: river
+  grey-green, granite, rust red, dusk blue, skyline lights. **Signature
+  shapes**: cranes against the sky; the river line; skyline silhouettes;
+  stepped edges; plane trees. **Density and wear**: new, open, generous.
+  **People**: within about 2.5 faces, none sharp. [MEDIUM — cranes and
+  materials general knowledge consistent with the industrial-heritage
+  sources]
+- Shell: open promenade; granite and decking; open sky.
+- The table as set here: the hero and a snack box on a **low concrete
+  ledge or step**. [EDITORIAL]
+- Subregional variants and the national default: **The Bund** — colonial
+  façades behind, very crowded (avoid crowds); **Beijing Houhai** — lake,
+  willows, grey hutong roofs (bar street: keep bars out); **Qingdao/Xiamen**
+  — sand beaches, red roofs or palms; **Chongqing** — river confluence and
+  stacked hillside towers. Default: Shanghai West Bund at dusk. [MEDIUM]
+- Hallucination traps: Hong Kong's Victoria Harbour (different skyline and
+  out of scope); the Pearl Tower in every frame as a postcard; a beach
+  resort; legible LED billboards on towers.
+- Never stage: beer; legible skyline screens or signage; flags; food in a
+  hand.
+- Prompt-ready line: "Shanghai's West Bund riverside at dusk: the hero and
+  a snack box on a low concrete ledge, with the grey Huangpu River, a
+  preserved industrial crane and city towers lighting up into soft bokeh
+  behind."
+- Confidence and sources: HIGH for the setting; 1 search (Shanghai
+  government, Chipperfield, WSP, 10 Design); staging [EDITORIAL].
+
+#### Venue: Football stadium plaza on match day (Beijing Workers' Stadium fan carnival, 工体) · app: Stadium or event
+
+- Use for: on the go / outdoor event; friends before a Chinese Super
+  League match; 2–3. The rebuilt **Workers' Stadium** (工人体育场, reopened
+  2023) draws 60,000+ for Beijing Guoan home games; fans arrive two or
+  three hours early, and a **fan carnival on the north-east plaza** offers
+  shopping, food and games. [HIGH — Beijing Daily 2026, Xinhua, People's
+  Daily (record 64,118 crowd, March 2026); food-stall detail LOW]
+- Soft background (the core): **back plane** the stadium's **pale facade
+  and roof ring**, tall **floodlight** glow at an evening game, entry
+  gates with barriers. **Middle distance**: the plaza with **white
+  pop-up tents** and kiosks (food, merchandise), fans in **team green**
+  (Guoan) scarves and shirts with no legible crests, inflatable arches,
+  queues as soft shapes, plane trees on the edge, the Sanlitun towers
+  beyond. **Light**: late afternoon sun into evening, floodlight halo
+  over the stand, warm tent bulbs. **Palette**: team green, white tents,
+  pale stone, evening blue. **Signature shapes**: the stadium ring;
+  floodlights; pop-up tents; scarves; barrier lines. **Density and
+  wear**: festive and orderly. **People**: within about 2.5 faces, none
+  sharp. [LOW-MEDIUM]
+- Shell: stone-paved plaza; open sky.
+- The table as set here: the hero and a snack (skewers, a paper box of
+  fried chicken, corn) on a **high cocktail-style standing table by a
+  tent** or a kiosk ledge. [EDITORIAL]
+- Subregional variants and the national default: **Shanghai Shenhua**
+  — a fan centre with food outside the stadium; **Dalian (Suoyuwan)** —
+  a seaside sports park with music; **Chengdu** — the huge Phoenix Hill
+  stadium. Default: Workers' Stadium. [MEDIUM — People's Daily on Dalian
+  and Shenhua]
+- Hallucination traps: an American tailgate; a European stadium with beer
+  stands and flares; legible club crests, sponsor boards or LED screens;
+  political banners.
+- Never stage: beer (sold at matches); legible crests, tickets, screens,
+  flags; food in a hand; identifiable children.
+- Prompt-ready line: "Outside Beijing's Workers' Stadium before an
+  evening football match: a paper box of skewers beside the hero on a
+  standing table, with white pop-up tents, blurred fans in green scarves
+  and the stadium's floodlit ring glowing behind."
+- Confidence and sources: MEDIUM; 1 search (Beijing Daily, Xinhua,
+  People's Daily); staging [EDITORIAL].
 
 ---
 
@@ -3142,6 +3487,8 @@ sleek can:**
   outdoor (courtyard, balcony, picnic) was not profiled (evidence LOW);
   hot pot restaurant and dim sum tea house are queued for wave 2.
 
+- **Venue-profile wave 2 (2026-10-18, app-option gap fill) open items**: unverified background details in the 7 new profiles: share of young locals living with parents; rented-room décor beyond the makeover guides (projector, room sizes); how common bar counters and islands are in mainland flats (no mainland statistic found; the search returned Taiwanese design pages); Beijing hutong café look; all modern-Chinese restaurant materials (micro-cement, lantern pendants, celadon) beyond one design-firm article; Beijing park seasonal light and pavilion detail; West Bund cranes and paving; food stalls at the Workers' Stadium carnival. Food truck left uncovered on purpose (rare; the tricycle cart is the equivalent). Needs image references or a local reviewer.
+
 ## CANDIDATE QUEUE
 
 1. **Fernando decisions**: (a) one file with eight zones vs. a national
@@ -3217,3 +3564,4 @@ sleek can:**
 - **2026-10-01 celebrations pass (schema §5.7)**: 6 WebSearch queries (wedding banquet form, English and Chinese; longevity birthday buns and noodles; full-month red eggs; 年夜饭 at home vs restaurant 2025 survey; Mid-Autumn reunion dinner dishes). Added CELEBRATIONS & LARGE GATHERINGS with 7 entries (New Year's Eve dinner, Mid-Autumn dinner, wedding banquet, elder's longevity banquet, full-month banquet, birthday dinner, weekend family dinner). Sources: China Youth Daily survey via Sina, CCTV, Xinhua, ihchina.cn, SCMP, Chinese wedding-planning sites (tier 3), Wikipedia; diaspora sources flagged.
 - **2026-10-01 game-night pass (schema §5.8)**: built from the cross-market research notes (45 searches across all markets), 0 new searches. Added GAME NIGHT with 3 watch-party entries (late-night football at a shaokao restaurant, late-night football with takeaway at home, CBA/NBA at home [LOW]) and 3 social game-night entries (family mahjong, board-game café or jubensha, daytime KTV for an older group); popularity rated high.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (all in Chinese: apartment dining area, 家常菜馆, Lanzhou noodle shop, shaokao street, wedding banquet hall). Sources were home-design case sites, Sina/Weibo/Zhihu food columns, The Paper, CBNData, Xinhua and wedding-planning sites (tier 2–4); home outdoor swapped out for the noodle shop.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 4 profiles tagged, 7 new profiles, 7 searches (rented-room makeovers, open kitchens and islands, Shanghai lane cafés, new-Chinese restaurant design, Beijing parks, West Bund riverside, Workers' Stadium match day). West Bund and Workers' Stadium settings are HIGH; most interior detail is LOW-MEDIUM. Banquet hall left untagged (indoor event venue).

@@ -193,7 +193,27 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used staging venues; the bodegón and the neighbourhood parrilla are both kept because the scenarios use both as defaults). The default camera is a close-up hero, so each profile leads with what must read correctly as **soft background**. Zone 1 (Buenos Aires) is the default; other zones are variants, and where a zone has no detail the Buenos Aires version applies [EDITORIAL]. File-wide rules apply throughout; at Argentine tables the wine glass, the soda siphon, fernet, beer and the mate kit are all real priors, so negate them in every prompt. The QUICK-REFERENCE table above stays as the short index.
 
-### Venue: Buenos Aires flat, kitchen-dining corner (departamento porteño)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Argentina profile |
+|---|---|
+| Dining room | Buenos Aires flat, kitchen-dining corner; Patio or quincho (outdoor) |
+| Gen Z apartment | Young renter's monoambiente (a young person's corner of the family flat: see the Buenos Aires flat) |
+| Kitchen island | Kitchen with a breakfast island (new-build and gated-community register; peninsula counter in CABA) |
+| Sit-down | Bodegón porteño; Neighbourhood parrilla |
+| Counter service | Rotisería or pizzería al mostrador (and the shopping food hall) |
+| Café | Neighbourhood café (classic café-bar and specialty café) |
+| Modern bistro | New-wave neighbourhood restaurant in Chacarita or Villa Crespo |
+| Street market | Weekend food fair in a park; Choripán cart (the street-stall register) |
+| Food truck | Choripán cart (the local equivalent: fixed and mobile carritos; branded food trucks appear mainly at events) |
+| Park | Park picnic in the Bosques de Palermo or a city plaza |
+| Beach or waterfront | Choripán cart on the Costanera (the riverside promenade; Atlantic beach towns not profiled) |
+| Stadium or event | Choripán cart outside the cancha |
+| (no option) | Hired party hall: context for celebrations |
+
+### Venue: Buenos Aires flat, kitchen-dining corner (departamento porteño) · app: Dining room
 - **Use for:** home indoor; casual lunch for 1, 2 or 3, the late cena (~21:00–22:00), the Sunday pasta lunch, Christmas in a CABA flat, the living-room watch party. The default home for a zone 1 CABA scene; a conurbano or provincial scene uses the brick-house variant below (76.7% of dwellings nationally are houses; see ENVIRONMENT & STAGING SCENES) [HIGH for the statistic; EDITORIAL for the default].
 - **Soft background (the core):**
   - *Back wall:* smooth plaster painted white or off-white (sometimes a pale warm grey), a few framed prints or family photos, a wall clock; in older buildings a high ceiling with a simple cornice line. Little colour on the walls: Buenos Aires interiors read pale and neutral, the warmth coming from the wood floor and furniture [MEDIUM — file house-type notes; LOW for the pale palette — not verified].
@@ -211,7 +231,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used
 - **Prompt-ready line:** "A Buenos Aires apartment at dinner time: soft background of white plaster walls, a tall balcony door with half-raised wooden shutters and plants on the rail, honey-coloured parquet and a warm pendant lamp; in focus, a wooden table with a bread basket and white plates of milanesa and puré."
 - **Confidence and sources:** MEDIUM. [Argenprop — CABA flats listings](https://www.argenprop.com/departamentos/venta/villa-del-parque/2-ambientes/dolares-75000-100000) (tier 3, listing descriptions for pinotea and parquet floors, wooden shutters, tiled kitchens); house types from the file; staging EDITORIAL. One search this pass.
 
-### Venue: Patio or quincho with the brick parrilla (patio / quincho)
+### Venue: Patio or quincho with the brick parrilla (patio / quincho) · app: Dining room, outdoor
 - **Use for:** home outdoor; the weekend asado, Christmas and New Year in summer, the asado before the match, truco after the asado, birthdays; 1, 2 or a small group as a snapshot of 6–15 or more. The signature venue of the file: the celebrations and game-night sections stage more scenes here than anywhere else [HIGH for the asado as the weekend ritual, per the file; EDITORIAL for the ranking].
 - **Soft background (the core):**
   - *Back wall:* the **built-in brick parrilla** at waist height with its tall brick chimney hood, a **side brasero** glowing orange, the V-bar grate with cuts laid out, thin blue-grey smoke; exposed red brick or brick-and-cement walls around it, often with brick work counters (mesadas) [HIGH for the rig, per CROSS-CUTTING REGISTER: ASADO & PARRILLA; MEDIUM — La Nación, Homify and Para Ti on brick parrillas and quinchos].
@@ -230,7 +250,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used
 - **Prompt-ready line:** "An Argentine weekend asado under a quincho roof: soft background of a sooty red-brick parrilla with a glowing ember box, thin smoke over meat on the grate, eucalyptus roof beams and a green garden beyond; in focus, the end of a long wooden table with a board of carved meat, a bread basket and bowls of chimichurri."
 - **Confidence and sources:** MEDIUM-HIGH. [Homify — quinchos](https://www.homify.com.ar/libros_de_ideas/6060372/quinchos-todo-lo-que-tenes-que-saber-para-disenar-ese-rinconcito-100-argentino); [La Nación — ideas de parrillas](https://www.lanacion.com.ar/lifestyle/17-ideas-de-parrillas-para-tu-casa-nid2105525/); [Para Ti — quincho perfecto](https://parati.com.ar/todo-lo-que-necesitas-para-tener-un-quincho-perfecto/amp) (tier 2–3 design press); rig per the ASADO register. One search this pass.
 
-### Venue: Bodegón porteño
+### Venue: Bodegón porteño · app: Sit-down
 - **Use for:** restaurant, indoor; the 2–3-person table, Sunday family lunch out, a weeknight cena; oversized shared portions. The signature casual sit-down restaurant of Buenos Aires [HIGH for the aesthetic, per Scenario: Away from home — 2–3 people].
 - **Soft background (the core):**
   - *Back wall:* **exposed brick or dark wood panelling**, crowded with **black-and-white photographs** of old Buenos Aires and football or tango memorabilia (kept generic and soft); **old mirrors with curved frames**; wooden **shelves of preserves (conservas) and tins**; in many, **cured hams and sausages hanging from the ceiling** over the counter [MEDIUM — Ámbito on new and classic bodegones: checked cloths, checkered floor, exposed brick, walls of photos, shelves of conservas, hanging hams, curved mirrors, wooden side bar].
@@ -248,7 +268,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used
 - **Prompt-ready line:** "A classic Buenos Aires bodegón: soft background of a black-and-white checkerboard floor, a long dark wooden counter under hanging cured hams, exposed brick hung with old black-and-white photographs and a curved mirror; in focus, a red-and-white checked tablecloth with an oversized milanesa napolitana on an oval steel platter and a bread basket."
 - **Confidence and sources:** MEDIUM-HIGH. [Ámbito — nueva apertura en Palermo](https://www.ambito.com/lifestyle/nueva-apertura-palermo-un-bodegon-cocina-portena-y-porciones-abundantes-n6268037); [Ámbito — bodegones y cantinas](https://www.ambito.com/uruguay/bodegones-y-cantinas-el-sabor-la-tradicion-portena-n6262943); [La Nación — de posta a bodegón](https://www.lanacion.com.ar/buenos-aires/de-posta-a-bodegon-la-esquina-de-1880-que-frecuento-la-bohemia-arrabalera-y-ahora-apuesta-a-la-nid13052022/); plus canal26 and Pipol as cited in the scenario. One search this pass.
 
-### Venue: Neighbourhood parrilla (parrilla de barrio)
+### Venue: Neighbourhood parrilla (parrilla de barrio) · app: Sit-down
 - **Use for:** restaurant, indoor; the 1-person lunch (bife de chorizo), a parrillada for 2–3, weekend family meals. The everyday steak restaurant [MEDIUM — per Scenario: Away from home — 1 person].
 - **Soft background (the core):**
   - *Back wall or focal point:* the **grill station in view**: a large steel parrilla behind glass or a low wall, the **parrillero** in a white shirt or apron working it, embers glowing and thin smoke, a stainless hood over it; cuts on the grate as dark shapes; in some, a glass-fronted cold cabinet of aged meat [MEDIUM — Time Out and the file's register row].
@@ -266,7 +286,7 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used
 - **Prompt-ready line:** "A Buenos Aires neighbourhood parrilla at lunchtime: soft background of a steel grill glowing with embers behind glass, a white-shirted grill cook and white-clothed tables close together; in focus, a white cloth with a bife de chorizo, a wooden-handled steak knife, a bread basket and a small bowl of chimichurri."
 - **Confidence and sources:** MEDIUM. [Time Out — mejores parrillas de Buenos Aires](https://www.timeout.com/es/buenos-aires/restaurantes/mejores-parrillas-carnes); [Time Out — parrillitas de barrio](https://www.timeout.com/es/buenos-aires/parrillitas-barrio-asado-carne); register row. One search this pass.
 
-### Venue: Choripán cart on the Costanera or outside the cancha (carrito)
+### Venue: Choripán cart on the Costanera or outside the cancha (carrito) · app: Food truck, Beach or waterfront, Stadium or event, Street market
 - **Use for:** other / street; meal on the go for 1, a stop for 2–3, the pre-match carrito; afternoon and evening. A real but thinner street register than Mexico's [MEDIUM — per Scenario: Meal on the go].
 - **Soft background (the core):**
   - *The cart itself:* a boxy steel food cart with a **striped awning** (the Costanera Sur's current carts are brown outside, white inside, with white-and-yellow striped awnings), a **flat grill** with chorizos and bondiola smoking, a counter lined with **rows of glass jars** of chimichurri, salsa criolla and pickled vegetables; a drinks fridge as a lit rectangle (brand panels blurred) [HIGH for the Costanera Sur cart design — Buenos Aires City Government; MEDIUM for the jar rows — travel and blog sources].
@@ -301,6 +321,133 @@ Built 2026-10-01 under `country-file-schema.md` §5.9 (wave 1: the six most-used
 - **Never stage:** the barra de tragos, bottles, wine glasses or flutes, the toast, fernet; legible names on screens or backdrops; identifiable minors.
 - **Prompt-ready line:** "An Argentine salón de fiestas late at night: soft background of fabric draped from the ceiling in deep violet light, round tables with candle clusters in glass and moving dance-floor lights in a faint haze; in focus, a white plate with a plated main, full cutlery and a folded cloth napkin."
 - **Confidence and sources:** MEDIUM for the salón package ([ineventos — temáticas fiesta de 15](https://www.ineventos.com/ar/blog/3-tematicas-musicales-para-la-fiesta-de-15.html); [Inolvidables 15 — salones de fiesta](https://www.inolvidables15.com/servicios-para-fiesta/Salones-de-Fiesta.html), tier 3); staging EDITORIAL. One search this pass.
+
+### Venue: Young renter's monoambiente in Palermo or Villa Crespo (monoambiente / dos ambientes) · app: Gen Z apartment
+- **Use for:** home indoor; a young person alone or a young couple, casual lunch or the late cena for 1–2, a two-person watch party on the sofa. Added 2026-10-18 (wave 2). Many young porteños still live with their parents (37–38% of 25–34s, per the file's research log), so the honest alternatives are this rented one-room flat or a young person's corner of the family flat described in the Buenos Aires flat profile; this profile covers the renter [HIGH for the statistic; EDITORIAL for the split].
+- **Soft background (the core):**
+  - *Back wall:* white or off-white plaster, usually left as the landlord painted it; prints and posters **leaned on a shelf or stuck up with removable strips**, not framed gallery walls; a narrow floating shelf with a plant, a few books, a candle and a speaker [MEDIUM — rental-decor guidance (Mudafy, Planner 5D) on removable hooks, leaned frames and few objects; LOW for the porteño specifics — not verified].
+  - *Middle distance:* a **sliding aluminium balcony door** onto a small balcony with a pot or two and the facade of the block opposite; a **room divider or open shelf unit** separating the bed from the living corner; a **small sofa or two-seat futon** with a knitted throw; in furnished rentals a **high table with stools** instead of a dining table; the kitchenette along one wall (white melamine units, a two- or four-burner cooker, a small fridge) [MEDIUM — Palermo and Villa Crespo monoambiente listings: sofa, high table with stools, shelving, TV, divider between bed and living area, custom storage, balcony].
+  - *Light:* side daylight from the balcony door, often filtered by a white roller blind; at night a **floor or table lamp with a warm bulb**, a string of warm fairy lights on the shelf, and the cool glow of a laptop or TV (screens unreadable) [MEDIUM for warm lamps over ceiling light — Mudafy; LOW for string lights].
+  - *Palette:* white walls, light wood or white melamine, one or two plant greens, a terracotta or mustard textile accent.
+  - *Signature shapes (3–5):* the aluminium balcony door with a plant outside; the open shelf divider; a pothos trailing from a shelf; a leaned poster; the small sofa back.
+  - *Density and wear:* compact (often 25–35 m²), tidy but personal; newer towers (2010s on) in Villa Crespo, Colegiales and Palermo, or an older 1970s block with parquet [MEDIUM — listings quote 23 m² monoambientes; LOW for the age mix].
+  - *People:* the flatmate or partner as one blurred shape on the sofa.
+- **Shell:** a mid-rise concrete block; ceramic or porcelain floor tiles or thin laminate in new builds, parquet in older ones; a split AC unit high on the wall; low ceiling in new builds [LOW — not verified].
+- **The table as set here:** a small round or square two-top in light wood or white, or the high table with stools; mismatched plates (one hand-made ceramic piece), plain glass tumblers, a paper napkin; a pot plant or candle at the table edge [EDITORIAL].
+- **Subregional variants and the national default:** CABA is the default. *Córdoba (Nueva Córdoba student blocks) and Rosario:* the same one-room student flat, more often shared [LOW — not verified]. *Conurbano:* a young adult's bedroom-and-desk corner in the family house is more typical than a rental [EDITORIAL].
+- **Hallucination traps:** the global Pinterest/Scandinavian showroom (white oak, big windows, empty walls, designer chairs); a New York loft with exposed brick and steel windows; tango or Che posters; football shirts and flags on every wall; a mate kit as a decor prop on the table.
+- **Never stage:** wine or beer, fernet; the mate kit (unless briefed); legible posters, book spines or screens; club crests; a full flag.
+- **Prompt-ready line:** "A young renter's one-room flat in Buenos Aires: soft background of white walls, an open shelf unit with a trailing pothos and a leaned poster, a small sofa with a knitted throw and an aluminium balcony door with a plant outside, warm lamp glow; in focus, a small light-wood two-top table with a plate of milanesa and a plain glass tumbler."
+- **Confidence and sources:** MEDIUM for the room and furniture, LOW-MEDIUM for décor. [Roomix — monoambiente Thames 1174, Palermo/Villa Crespo](https://roomix.ai/propiedad/departamento-1-ambientes-palermo-5ef876c2); [Zonaprop — monoambiente Villa Crespo con balcón, 23 m²](https://www.zonaprop.com.ar/propiedades/clasificado/veclapin-departamento-monoambiente-villa-crespo-con-balcon-al-59392619.html) (tier 3 listings); [Mudafy — monoambientes, cómo decorarlos](https://mudafy.com.ar/blog/post/monoambientes-como-decorarlos-para-aprovechar-tu-espacio-al-maximo) (tier 4). Two searches.
+
+### Venue: Kitchen with a breakfast island in a new-build flat or gated-community house (cocina integrada con isla desayunadora) · app: Kitchen island
+- **Use for:** home indoor; a quick lunch or merienda for 1–2 at the island, a couple cooking and eating at the counter. Added 2026-10-18 (wave 2). **Islands are an upper-middle feature**: they appear in new towers and gated developments (Nordelta, other barrios cerrados in the northern conurbano) and in renovated houses, while most CABA flats have a narrow galley kitchen (see the Buenos Aires flat profile). Where the brief wants the ordinary register, use the **peninsula or breakfast bar (barra desayunadora)** of a newer two-room flat [MEDIUM — Nordelta listings for "cocina integrada" with "isla central" or "barra/isla desayunadora"; EDITORIAL for the rarity in CABA].
+- **Soft background (the core):**
+  - *Back wall:* a run of **flat-front cabinets (alacena above, bajo mesada below)** in white, light grey or light wood melamine; a **granite or quartz worktop** (black, grey or white) with a stainless sink under the window; a built-in **gas hob with a stainless extractor hood**; a white or stainless fridge [MEDIUM — listings: modern alacena and bajo mesada furniture, integrated kitchen with island; LOW for finishes — not verified].
+  - *Middle distance:* the kitchen opens onto the living-dining room: a sofa back, a large sliding window or balcony door with an **outdoor parrilla on the balcony** (a standard feature of these units), green of the lagoon or garden beyond in Nordelta [MEDIUM — Nordelta listings pair the integrated kitchen with a balcony and parrilla].
+  - *Light:* broad daylight from the balcony glazing; **two or three pendant lamps** over the island, or recessed LED downlights; warm under-cabinet LED strip in the evening [LOW — not verified].
+  - *Palette:* white and light grey, a dark stone counter edge, stainless steel, green outside.
+  - *Signature shapes (3–5):* the pendant row over the island; the extractor hood; the dark worktop line; the glazed balcony door with the parrilla beyond; bar stools tucked under the island.
+  - *Density and wear:* new and tidy, a fruit bowl, a kettle and a dish rack; not a showroom.
+  - *People:* a partner at the hob, back turned, blurred.
+- **Shell:** a 2010s–2020s tower or townhouse; large porcelain floor tiles; white plaster ceiling [LOW].
+- **The table as set here:** the island top (granite, quartz or white laminate); two upholstered or metal bar stools; a wooden board, a white plate, a paper or cloth napkin, a plain tumbler [EDITORIAL].
+- **Subregional variants and the national default:** Nordelta and northern-conurbano gated communities are the default for a true island. *CABA new tower:* a peninsula counter between kitchen and living room, smaller. *Córdoba and Rosario new builds:* the same peninsula register [LOW — not verified].
+- **Hallucination traps:** an American suburban show-kitchen with a huge marble island, shaker cabinets and a double fridge; an island in an old porteño flat; a farmhouse sink; copper pans hanging as décor; a mate kit on the counter.
+- **Never stage:** wine bottles or glasses, a wine rack or fridge, beer; the mate kit (unless briefed); legible appliance logos.
+- **Prompt-ready line:** "A new-build Argentine kitchen seen from the island: soft background of white flat-front cabinets, a dark granite worktop and a stainless extractor hood, a glazed balcony door with a small parrilla outside; in focus, the island top with a wooden board of empanadas and a plain glass tumbler."
+- **Confidence and sources:** MEDIUM for where islands occur, LOW for finishes. [Roomix — Oceana Nordelta 3 ambientes, isla central y parrilla](https://roomix.ai/propiedad/departamento-3-ambientes-nordelta-a3bb8a1a); [Zonaprop — Jardines del Palmar, Nordelta, isla desayunadora](https://www.zonaprop.com.ar/propiedades/clasificado/veclapin-departamento-4-amb-en-jardines-del-palmar-nordelta-59429061.html); [Mudafy — Insignia El Palmar](https://mudafy.com.ar/propiedades/insignia-el-palmar-nordelta-departamento-en-venta-861582) (tier 3 listings). One search.
+
+### Venue: Neighbourhood café (café de barrio and the new specialty café) · app: Café
+- **Use for:** restaurant, indoor; the 1-person café scene, merienda for 2, a tostado or medialunas at a small table; afternoon. Added 2026-10-18 (wave 2). Buenos Aires has two real registers: the **classic café-bar de barrio** (the city's long café tradition, also used by the truco and tostado entries) and the **specialty café** that spread through Palermo, Villa Crespo, Colegiales and San Telmo (about 150 in CABA by one estimate). Default: the classic café for a traditional brief, the specialty café for a young or contemporary one [MEDIUM — Infonegocios and Time Out on specialty cafés; EDITORIAL for the split].
+- **Soft background (the core):**
+  - *Classic café-bar:* a **long wooden counter with a pale marble or formica top**, a chrome espresso machine and a **glass pastry case** of medialunas and facturas; dark wood panelling or mirrors along the wall; bentwood chairs; a waiter in a white shirt or black vest; a TV high in a corner (screen unreadable) [MEDIUM — file's café-bar and tostado entries; LOW for the TV].
+  - *Specialty café:* a small corner room with **white or raw plaster walls, light wood and concrete**, a pale counter with a matte espresso machine and a short pastry case, open shelves of bags and ceramic cups, **vintage chairs and mismatched tables** in some, plants in the window; laptop tables along a wall or only two or three tables for take-away [MEDIUM — Time Out and iProfesional: minimalist design-led rooms, vintage furniture, either big work tables or tiny rooms of two or three tables].
+  - *Light:* big street windows giving soft daylight; in the classic café warm globe or period fittings; in the specialty café a bare filament bulb or a simple pendant.
+  - *Palette:* classic: dark wood, marble, chrome, sepia. Specialty: white, pale wood, grey concrete, plant green.
+  - *Signature shapes (3–5):* the pastry case; the espresso machine as a chrome or matte block; the corner window onto a plane-tree street; bentwood or vintage chairs; a ceramic cup row on a shelf.
+  - *Density and wear:* classic: worn, patinated, regulars. Specialty: new, sparse, careful.
+  - *People:* the barista or waiter and one customer at the counter, blurred.
+- **Shell:** a street-corner ground floor with tall windows, mosaic or concrete floor.
+- **The table as set here:** a small round marble or wooden table; a white plate with a tostado (ham-and-cheese toastie) cut in triangles or two medialunas on a small plate; a paper napkin; a metal napkin holder in the classic café. Coffee cups are intruder drinks: out of frame or blurred unless the brief allows [EDITORIAL; MEDIUM for the tostado — file entry].
+- **Subregional variants and the national default:** CABA is the default. *Rosario and Córdoba:* both registers, smaller. *Provinces:* the classic café-bar on the main plaza [LOW — not verified].
+- **Hallucination traps:** a Parisian café with a red awning; an American coffee chain with branded cups; recreating Café Tortoni or another named café notable; latte art as hero; a Melbourne brunch café with avocado toast.
+- **Never stage:** bottles on the back shelves, wine or beer glasses, a branded cup or sleeve, legible chalkboards or menus; breakfast framing (out of scope).
+- **Prompt-ready line:** "A Buenos Aires neighbourhood café in the afternoon: soft background of a marble-topped wooden counter with a chrome espresso machine and a glass case of medialunas, mirrors on dark wood and a corner window onto a tree-lined street; in focus, a small round marble table with a tostado cut in triangles on a white plate."
+- **Confidence and sources:** MEDIUM. [Time Out — cafés de especialidad para trabajar](https://www.timeout.com/es/buenos-aires/cafe-de-especialidad-cafeterias-trabajar-estudiar-mucho-surry-hills-hobby); [iProfesional — mejores cafeterías de Buenos Aires](https://www.iprofesional.com/recreo/413885-10-mejores-cafeterias-buenos-aires-para-tomar-excelente-cafe); [Infonegocios — el boom del café de especialidad](https://infonegocios.info/amp/plus/una-cafeteria-por-manzana-el-boom-del-cafe-de-especialidad-un-negocio-que-puede-empezar-con-us-30-000-en-adelante) (tier 2–3). One search.
+
+### Venue: New-wave neighbourhood restaurant in Chacarita or Villa Crespo (restaurante de autor de barrio) · app: Modern bistro
+- **Use for:** restaurant, indoor; the elevated but relaxed meal for 2–3, a weeknight cena; Argentine produce cooked on wood fire, small shared plates. Added 2026-10-18 (wave 2). Chacarita and Villa Crespo are where a new generation of porteño cooks opened design-led places, often in **old houses or workshops** with a patio, keeping the industrial bones [MEDIUM — La Nación Lugares on Chacarita's foodie route; La Nación Living on a Villa Crespo house turned restaurant; Time Out on Chuí].
+- **Soft background (the core):**
+  - *Back wall:* **bare brick or raw plaster** left patchy, or white-painted brick; **microcement or concrete floors**; tables of **reclaimed timber (algarrobo, old railway sleepers)**; a single large plant [MEDIUM — La Nación (white microcement floor, open kitchen, patio); Time Out and MDZ on Chuí (recycled sleepers, algarrobo tables, kitchen visible from the room)].
+  - *Middle distance:* the **open kitchen** with a **wood-fired oven or grill (horno or parrilla a leña)** as a warm orange glow, steel worktops and cooks as blurred shapes; shelves of **fermentation jars and preserves**; through glass, a **patio with plants** or the street [MEDIUM — Chuí: wood-fired kitchen and ferments; La Nación: route ending at the patio and open kitchen].
+  - *Light:* low warm pendants (black metal, paper or rattan) over each table, the fire glow, the patio as a cool green-grey rectangle at dusk.
+  - *Palette:* grey concrete, dark reclaimed wood, rust brick, black steel, plant green, the orange of the fire.
+  - *Signature shapes (3–5):* the wood-oven mouth glowing; the pendant row; heavy timber tables; the jar shelf; the patio glass.
+  - *Density and wear:* tables well spaced, deliberately rough materials, carefully lit.
+  - *People:* a cook at the pass and one diner, blurred.
+- **Shell:** an early-20th-century casa chorizo or a workshop under the San Martín railway viaduct; high ceiling with exposed beams or steel trusses [MEDIUM — Chuí sits under the viaduct; LOW for the general pattern].
+- **The table as set here:** bare timber, no cloth; **hand-thrown stoneware plates** in grey, cream or earthy glazes; a linen napkin; small shared plates in the middle (grilled vegetables, a provoleta in a cast-iron dish, a wood-oven empanada); plain stemless water tumblers [EDITORIAL].
+- **Subregional variants and the national default:** Chacarita and Villa Crespo are the default; Palermo Hollywood and Colegiales the same register. *Córdoba (Güemes), Mendoza and Rosario:* the same new-wave room in an old house [LOW — not verified].
+- **Hallucination traps:** a white-cloth fine-dining room; a wine bar with bottle walls and wine glasses (Mendoza wine is a strong prior); a craft-beer bar with taps; a Palermo "Belle Époque" salon; a generic Nordic restaurant with no Argentine fire.
+- **Never stage:** a bar, bottles, taps, wine racks or wine glasses anywhere in frame; legible menus or chalkboards; a named real restaurant.
+- **Prompt-ready line:** "A new-wave Buenos Aires restaurant in an old Chacarita house: soft background of raw brick and concrete, an open kitchen with a glowing wood-fired oven, shelves of preserve jars and black pendant lamps over heavy timber tables, a green patio through glass; in focus, a bare timber table with a provoleta in a small iron dish and grey stoneware plates."
+- **Confidence and sources:** MEDIUM. [La Nación Living — casa antigua de Villa Crespo mutó en restaurante](https://www.lanacion.com.ar/revista-living/una-casa-antigua-en-villa-crespo-muto-con-un-ingreso-discreto-y-una-apertura-al-patio-nid03032025/); [MDZ — Chuí, cocina a leña y fermentos](https://www.mdzol.com/sociedad/chui-cocina-lena-fermentos-y-un-laboratorio-sabores-pausa-n1613738); [La Nación Lugares — la ruta foodie de Chacarita](https://www.lanacion.com.ar/revista-lugares/la-ruta-foodie-de-chacarita-el-barrio-elegido-por-la-nueva-generacion-de-cocineros-portenos-nid25072023/) (tier 2). One search.
+
+### Venue: Rotisería or pizzería al mostrador (and the shopping food hall) · app: Counter service
+- **Use for:** restaurant, counter; a quick lunch for 1, a stop for 2–3, pizza by the slice standing or at a few tables, take-away for home. Added 2026-10-18 (wave 2). Argentina's real counter-service format is the **neighbourhood rotisería** ("there used to be one on every block": chickens turning on the spit in the window, a numbered ticket, a wait) and the **porteño pizzería with a standing counter**; the shopping-mall food court exists but Buenos Aires malls have been replacing the old tray-and-plastic-table patios with food halls [MEDIUM — Perfil on La Vuelta (Caballito) and the classic rotisería; La Nación and Perfil on shopping food courts turning into food halls].
+- **Soft background (the core):**
+  - *Rotisería:* a **glass-fronted hot counter (vitrina)** with trays of milanesas, tartas, empanadas, potatoes and salads; a **rotating rotisserie (spiedo) of golden chickens** in or near the window; white tiled walls; a stainless steel counter; a staff member in a white apron [MEDIUM — Perfil; LOW for tiles].
+  - *Pizzería al mostrador:* a **long marble or steel standing counter (estaño)** with slices of muzzarella and fainá behind glass, the oven mouth as an orange glow, mirrored or tiled walls, a few tall tables (see the Pizza porteña entry) [MEDIUM — per file's pizza entry].
+  - *Food hall variant:* communal tables, banquettes and bar-height counters around kiosks under industrial ceilings, kiosk signage blurred to colour blocks [MEDIUM — La Nación and BAE Negocios on Base at Alto Palermo].
+  - *Light:* bright, practical fluorescent or LED white; the warm glow of the spit or oven; daylight from the street door.
+  - *Palette:* white tile, stainless steel, golden-brown chicken and pastry, warm glow.
+  - *Signature shapes (3–5):* the turning spit; the glass hot counter; the standing counter edge; the number-ticket dispenser as a small red shape; a stack of white take-away boxes.
+  - *Density and wear:* busy at midday and Sunday noon, worn and practical.
+  - *People:* a counter worker and one customer waiting, blurred.
+- **Shell:** a narrow street-front shop, tiled floor, a wide glass front to the sidewalk.
+- **The table as set here:** the counter top or a small formica table: a slice of muzzarella on a small metal tray or a paper sheet, empanadas in a paper wrap, half a chicken in a foil tray; paper napkins [MEDIUM — file's pizza and empanada entries; EDITORIAL for trays].
+- **Subregional variants and the national default:** Buenos Aires is the default. *Córdoba:* a lomitería counter (see Lomito cordobés). *NOA:* an empanada counter with a clay oven [LOW — not verified].
+- **Hallucination traps:** a US fast-food chain counter with a lit menu board and trays of fries; a Mexican taquería; an Italian pizza-al-taglio bar with rectangular slices; a branded food-court logo wall.
+- **Never stage:** beer taps or bottles, the soda siphon, legible price boards or menus, brand marks on boxes or fridges; food in a hand.
+- **Prompt-ready line:** "A Buenos Aires neighbourhood rotisería at midday: soft background of golden chickens turning on a spit, a glass hot counter of milanesas and tartas, white tiled walls and a steel counter under bright practical light; in focus, two empanadas on a paper wrap on the counter top."
+- **Confidence and sources:** MEDIUM. [Perfil — una rotisería con onda (La Vuelta, Caballito)](https://noticias.perfil.com/noticias/restaurante/2019-10-21-una-rotiseria-con-onda.phtml); [La Nación — la transformación de los patios de comida](https://www.lanacion.com.ar/propiedades/inmuebles-comerciales/la-transformacion-de-los-patios-de-comida-de-los-shoppings-en-polos-gastronomicos-de-alta-cocina-nid06062022/); [BAE Negocios — Alto Palermo abrió Base](https://www.baenegocios.com/negocios/Alto-Palermo-abrio-Base-propuestas-gastronomicas-rooftop-bandas-y-DJ-20220822-0143.html) (tier 2). Two searches.
+
+### Venue: Park picnic in the Bosques de Palermo or a city plaza (parque / plaza) · app: Park
+- **Use for:** other / outdoor; a weekend picnic for 2–3, a solo afternoon break; spring and summer afternoons. Added 2026-10-18 (wave 2). The Parque Tres de Febrero (Bosques de Palermo) is the city's big park: four lakes, lawns, tree cover, the Rosedal, crowded on weekends; every barrio also has its plaza [MEDIUM — Buenos Aires tourism office: picnic under the trees or by the lakes, four lakes, free access areas; Rosedal crowded on weekends].
+- **Soft background (the core):**
+  - *Far ground:* **broad tree canopy** (tall plane trees, tipas and jacarandas, purple in November) and the flat sheen of a lake with paddle boats as soft shapes; the city's apartment towers along the park edge as a pale line [MEDIUM for lakes and arboleda — tourism office; LOW for species — not verified].
+  - *Middle distance:* **open lawn** with blurred groups on blankets, cyclists and runners on the paved paths, a **green-painted iron bench**, a white pergola or a lamp post; at a plaza, a children's playground (no identifiable children) and a fenced dog run [LOW — not verified].
+  - *Light:* dappled afternoon sun through leaves; golden hour long and low in summer (sunset to ~20:10).
+  - *Palette:* deep green lawn and canopy, grey-blue lake, pale paths, jacaranda violet in season.
+  - *Signature shapes (3–5):* the tree canopy; the lake edge; an iron bench; the paved path curving away; towers on the horizon.
+  - *Density and wear:* busy at weekends, grass worn near paths.
+  - *People:* two or three blurred groups on the lawn, far off.
+- **Shell:** open park; the surface is a picnic blanket, a bench or a low wall.
+- **The table as set here:** a **checked or plain cotton blanket** or a bench seat: sándwiches de miga in a paper tray, empanadas in their paper, a box of facturas; paper napkins. Food sits on the blanket or bench, never in a hand [EDITORIAL].
+- **Subregional variants and the national default:** Bosques de Palermo is the default. *Córdoba:* Parque Sarmiento. *Rosario:* the Parque Independencia or the riverside parks. *Mendoza:* Parque General San Martín with the Andes behind [LOW — not verified].
+- **Hallucination traps:** Central Park with a New York skyline; English formal gardens; a tropical park with palms; a mate kit in the centre of the blanket (the true local prior — keep it out); a gaucho on horseback.
+- **Never stage:** the mate gourd and thermos (unless briefed), beer or wine, legible signs, identifiable children, food in a hand.
+- **Prompt-ready line:** "A weekend picnic in the Bosques de Palermo: soft background of tall trees, an open lawn with distant groups on blankets and the sheen of a lake under late afternoon sun; in focus, a checked cotton blanket with a paper tray of sándwiches de miga."
+- **Confidence and sources:** MEDIUM for the park, LOW for species. [Buenos Aires Turismo — Bosques de Palermo](https://turismo.buenosaires.gob.ar/es/atractivo/bosques-de-palermo) (tier 1); [Canal26 — mejores lugares para un picnic porteño](https://www.canal26.com/general/un-picnic-porteno-los-5-mejores-lugares-al-aire-libre-para-disfrutar-durante-la-primavera--355405) (tier 2). One search.
+
+### Venue: Weekend food fair in a park (feria gastronómica / BA Market) · app: Street market
+- **Use for:** other / outdoor; a weekend lunch for 1–3 at a food fair; daytime. Added 2026-10-18 (wave 2). Buenos Aires' open-air food market is the **weekend feria in a park**: the city's BA Market moves between parks (Centenario, Rivadavia) with 40–45 stalls cooking to order, and producer fairs (Sabe La Tierra, the Feria Migrante, the Feria Francesa) fill plazas; the San Telmo Sunday fair is antiques and tourism, not the food default [MEDIUM — Perfil and BAE Negocios on BA Market: free entry, 40+ food stalls, suspended in rain; Perfil on other weekend fairs].
+- **Soft background (the core):**
+  - *Stalls:* rows of **white folding gazebos (3×3 m canopies)** with tables under them, some with their own coloured banners blurred to colour blocks; smoke from a plancha or a paella pan; trays of produce, cheeses, breads and jars [MEDIUM for stall counts and the cooked-to-order dishes; LOW for gazebo colour — not verified].
+  - *Middle distance:* the paved park path lined with stalls; shoppers with tote bags as blurs; **folding tables and plastic chairs** or straw bales in a seating area; park trees overhead.
+  - *Light:* bright daylight dappled by trees; the white canopies glowing; warm grill smoke catching sun.
+  - *Palette:* white canopies, park greens, wood crates, colourful produce, grey path.
+  - *Signature shapes (3–5):* the repeating gazebo peaks; the grill smoke; crates of produce; a folding table; tree trunks.
+  - *Density and wear:* busy, family weekend crowd; new temporary kit.
+  - *People:* a stallholder in an apron and one or two customers, blurred.
+- **Shell:** a city park or plaza, paved path and lawn.
+- **The table as set here:** a folding table or stall ledge: a choripán or bondiola sandwich in a paper sleeve, an empanada on a paper napkin, or a small cardboard tray; paper napkins [EDITORIAL].
+- **Subregional variants and the national default:** Buenos Aires park fair is the default. *Provinces:* the feria on the main plaza or a riverside costanera at a festival [LOW — not verified]. For the street-cart register see the choripán carrito profile.
+- **Hallucination traps:** a Southeast Asian night market; a Mexican tianguis with pink tarps; a European Christmas market; an antiques fair as a food market; tango dancers in the street.
+- **Never stage:** beer or wine stalls or cups (the craft-beer stall is a standard feature of these fairs; keep it out of frame), legible stall banners or price boards, brand marks, food in a hand.
+- **Prompt-ready line:** "A weekend food fair in a Buenos Aires park: soft background of a row of white gazebo stalls under tall trees, smoke rising from a grill and crates of produce, shoppers as soft shapes on the path; in focus, a bondiola sandwich in a paper sleeve on a folding table."
+- **Confidence and sources:** MEDIUM. [Perfil — BA Market llega a Caballito](https://www.perfil.com/noticias/ciudad-de-buenos-aires/ba-market-llega-a-a50-caballito-con-entrada-gratis-y-mas-de-40-puestos-gastronomicos.phtml); [BAE Negocios — Buenos Aires Market en Caballito](https://www.baenegocios.com/amp/Llega-el-Buenos-Aires-Market-a-Caballito-un-paseo-ideal-con-comida-rica-y-productos-de-mercado-20250717-0003/); [Time Out — ferias y mercados](https://www.timeout.com/es/buenos-aires/que-hacer/ferias-mercados-buenos-aires-compras-artesanias) (tier 2). One search.
 
 ---
 
@@ -2778,6 +2925,17 @@ brief names the SKU):**
   not); the salón's light and décor rest on tier-3 vendor listings only.
   The flat's interior relies on property-listing descriptions. Check all
   six prompt-ready lines in image tests.
+- **Venue-profile pass, wave 2 (2026-10-18) open items.** All web
+  claims rest on search snippets (tier 2–3 press and property listings).
+  Not verified [LOW]: finishes in the island kitchen (granite vs. quartz,
+  pendants); string lights, floor types and AC in the young renter's flat;
+  the Córdoba and Rosario student-flat variant; park tree species
+  (plane, tipa, jacaranda) and the plaza details; gazebo colour at food
+  fairs; tiled walls in rotiserías; the provincial variants of every new
+  profile. Whether the old tray-and-plastic shopping food court still
+  dominates outside CABA is not checked. No Atlantic beach (Mar del Plata)
+  profile yet: Beach or waterfront rides on the Costanera cart. Check all
+  seven new prompt-ready lines in image tests.
 
 ## CANDIDATE QUEUE
 
@@ -2855,3 +3013,12 @@ brief names the SKU):**
   and the salón de fiestas. Sources: Ámbito, La Nación, Time Out, Homify,
   Para Ti, the Buenos Aires City Government, property listings and
   salón vendors; open items in GAP LOG.
+- **2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5
+  profiles tagged, 7 new profiles, 9 searches.** New: young renter's
+  monoambiente (Gen Z apartment), kitchen with a breakfast island,
+  neighbourhood café, new-wave Chacarita/Villa Crespo restaurant (Modern
+  bistro), rotisería or pizzería al mostrador (Counter service), park
+  picnic in the Bosques de Palermo, weekend food fair. Added the App
+  options coverage table; all 12 options covered. Sources: Perfil, La
+  Nación, BAE Negocios, Time Out, iProfesional, MDZ, the Buenos Aires
+  tourism office, Zonaprop/Roomix/Mudafy listings; open items in GAP LOG.

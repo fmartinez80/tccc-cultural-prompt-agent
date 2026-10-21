@@ -222,13 +222,37 @@ lassi, Rooh Afza, daab, sharbat or water jug beside the hero (rule 5); no
 legible Bangla script (rule 6). **The Ramadan/iftar staging rule stays
 open**; no profile is set at iftar.
 
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Bangladesh profile |
+|---|---|
+| Dining room | Dhaka flat drawing-dining room; outdoor: Dhaka rooftop (chhad) |
+| Gen Z apartment | Young person's room in a family flat or a shared "mess" flat, Dhaka (styled solo studios are rare) |
+| Kitchen island | Newer flat kitchen with a breakfast counter, Bashundhara or Gulshan (islands rare; counter is the honest version) |
+| Sit-down | Kacchi house |
+| Counter service | Mall or food-court counter, Dhaka |
+| Café | Neighbourhood café, Dhanmondi or Banani |
+| Modern bistro | Design-led Bangladeshi restaurant, Gulshan or Dhanmondi |
+| Street market | Fuchka-chotpoti stand (lakeside stall clusters) |
+| Food truck | Fuchka-chotpoti stand: the wheeled fuchka cart is the local mobile-vendor equivalent; Western-style food trucks look like a niche [LOW — not verified] |
+| Park | Ramna Park, Dhaka |
+| Beach or waterfront | Hatirjheel lakefront at night (Cox's Bazar beach as a variant) |
+| Stadium or event | Outside Sher-e-Bangla stadium on match day, Mirpur |
+
+The community-centre wedding hall serves no option (indoor banquet); it
+stays as context for wedding briefs.
+
 Wave 1: the Dhaka flat's drawing-dining room, the Dhaka rooftop
 (chhad), the kacchi house, the fuchka-chotpoti stand, and the
 community-centre wedding hall. The neighbourhood "hotel", the tong, the
 village courtyard (uthan) and the Chinese-Bangla restaurant are left for
-a later wave.
+a later wave. Wave 2 (2026-10-18) added eight profiles for the
+app options (Gen Z apartment through Stadium or event) at the end of this
+section.
 
-### Venue: Dhaka flat drawing-dining room (drawing-dining; "dining")
+### Venue: Dhaka flat drawing-dining room (drawing-dining; "dining") · app: Dining room
 - **Use for:** home indoor; casual lunch for 1–3, the late family dinner
   for 3–5, Friday lunch, Eid lunch, dawats, cricket at home, carrom and
   ludo. The default home interior for a Dhaka brief (the file's fallback
@@ -300,7 +324,7 @@ a later wave.
   BD, Oakwood Craft BD design firms); colours editorial. 1 search this
   pass.
 
-### Venue: Dhaka rooftop (chhad; chhad-er bagan)
+### Venue: Dhaka rooftop (chhad; chhad-er bagan) · app: Dining room, outdoor
 - **Use for:** home outdoor; rooftop BBQ parties, winter evenings, Eid and
   birthday gatherings, the World Cup football watch party on the roof;
   1, 2 or a small group of settings inside a gathering of 6–30. The real
@@ -355,7 +379,7 @@ a later wave.
 - **Confidence and sources:** MEDIUM (The Daily Star; rooftop garden
   studies); colours and set dressing editorial. 1 search this pass.
 
-### Venue: Kacchi house (kacchi biryani restaurant; kacchi ghor)
+### Venue: Kacchi house (kacchi biryani restaurant; kacchi ghor) · app: Sit-down
 - **Use for:** restaurant, indoor; lunch and dinner, 1 person (Away
   from home 1) or 2–3; the default casual sit-down eat-out for a Dhaka
   brief. [MEDIUM — register; TBS and Bangladesh Post best-kacchi
@@ -406,7 +430,7 @@ a later wave.
   Bangladesh Post); interior decor LOW (no source described it). 1 search
   this pass.
 
-### Venue: Fuchka-chotpoti stand (fuchka stall; fuchkawala)
+### Venue: Fuchka-chotpoti stand (fuchka stall; fuchkawala) · app: Street market, Food truck
 - **Use for:** on-the-go or "other", outdoor; late afternoon and evening
   snacks, 1 person or friends (Away from home 2–3); the default street
   venue (the tong is chai-led and excluded beside the hero). [HIGH for
@@ -514,6 +538,366 @@ a later wave.
 - **Confidence and sources:** MEDIUM (community-centre listings; this
   file's gatherings and wedding sources); colours editorial. 1 search
   this pass.
+
+### Venue: Young person's room in a family flat or a shared "mess" flat, Dhaka (nijer ghor; mess; sublet) · app: Gen Z apartment
+- **Use for:** home indoor; a snack or casual meal for 1–2 friends. Most
+  unmarried young Dhakaites live **with their families**; those from
+  outside Dhaka live in a **"mess"** (a flat shared by several
+  students or workers) or a **sublet room**, because landlords
+  routinely refuse "bachelors". A styled solo studio is rare. [MEDIUM —
+  ~3.5 million unmarried people in Dhaka, "not for bachelors" to-lets,
+  messes and sublets (The Daily Star, The Financial Express, Dhaka
+  Tribune 2026); living with family is model knowledge, LOW — not
+  verified]
+- **Soft background (the core):**
+  - *Back wall:* painted plaster (off-white, pale blue or mint), often
+    with damp marks at the corners; **a few posters or prints** taped
+    up, a fairy-light string along a curtain rail, a small shelf of
+    books and a bluetooth speaker; a **wall-mounted split AC** in better
+    flats, otherwise only a fan. [EDITORIAL; AC LOW]
+  - *Middle distance:* a **single or double bed with a printed bedsheet**
+    used as the seat, a **steel almirah** (cupboard) or a wooden wardrobe,
+    a study table with a laptop and a desk lamp, clothes on a hanger
+    behind the door; in a mess, a second bed and bags; one **potted
+    money plant** or a plant on the grilled window sill. [EDITORIAL]
+  - *Light:* daylight through a **window grille** with a thin curtain,
+    the **ceiling fan** turning; evening: a cool LED tube or bulb plus
+    warm fairy lights; monsoon grey.
+  - *Palette:* pale walls, printed bedsheet colours, grey steel almirah,
+    plant green, bulb gold.
+  - *Signature shapes (3–5):* the window grille; the ceiling fan; fairy
+    lights; the steel almirah; a bed with cushions.
+  - *Density and wear:* cramped, lived-in, personal; not styled.
+  - *People cues:* a friend or sibling as a soft shape, within the limit.
+- **Shell:** a room in a flat in a 6–10-storey block (Mirpur,
+  Mohammadpur, Azimpur, Dhanmondi); white or speckled floor tiles; a
+  low ceiling. [MEDIUM — Dhaka flat register in this file]
+- **The table as set here:** a tray on the bed, a
+  study table or a plastic stool used as a table; melamine plates of
+  singara, chotpoti or a delivery biryani box opened flat (no logos);
+  floor or bed edge in frame. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a young person's room in a Dhaka family flat. Students: a university
+  hall room or a mess. Better-off young couples: a small 2-room flat in
+  Bashundhara or Uttara with a sofa and a TV wall.
+- **Hallucination traps:** the Scandinavian/Pinterest studio (white oak,
+  huge window, gallery wall); a New York loft; a Kolkata room with
+  Hindu calendar art; slum or poverty framing of the mess.
+- **Never stage:** cha cups beside the hero; legible posters, book
+  spines, screens or Bangla text; alcohol; prayer mat near the food.
+- **Prompt-ready line:** "A young Dhakaite's room in soft focus: pale
+  mint walls with a few taped prints and a string of warm fairy lights,
+  a ceiling fan, a steel almirah, and a money plant on a grilled window
+  sill."
+- **Confidence and sources:** MEDIUM for the housing pattern (The Daily
+  Star, The Financial Express, Dhaka Tribune); room details EDITORIAL.
+  1 search this pass.
+
+### Venue: Newer flat kitchen with a breakfast counter, Bashundhara or Gulshan, Dhaka (open kitchen) · app: Kitchen island
+- **Use for:** home indoor; a snack or quick lunch for 1–2. **Islands
+  are rare in Dhaka.** Ordinary flats have a small closed kitchen; a
+  **breakfast counter or peninsula** opening onto the dining space
+  appears in newer upper-middle flats (Bashundhara R/A, Gulshan,
+  Banani, Uttara). Use this, not an island, as the honest version.
+  [LOW — the search found open dining areas in Bashundhara listings but
+  no counter or island described; model knowledge, not verified]
+- **Soft background (the core):**
+  - *Back wall:* laminate or lacquered **modular cabinets** (wood-grain,
+    white or grey), a **granite** counter, wall tiles as backsplash, a
+    **chimney hood** over a two-burner **gas hob**. [LOW; "stainless and
+    wooden materials" in a Dhaka contemporary flat (Houzz project)]
+  - *Middle distance:* a **fridge**, a rice cooker and a blender on the
+    counter, a **water filter** on the wall, spice jars; a window with a
+    **grille**; through the opening, the dining table and the sofa.
+    [EDITORIAL]
+  - *Light:* cool white LED panel or downlights, one or two **pendant
+    lights** over the counter in designed flats; grilled-window daylight.
+  - *Palette:* wood-grain brown, white, black granite, steel.
+  - *Signature shapes (3–5):* the chimney hood; flat cabinet run; a
+    pendant over the counter; the grilled window; the fridge.
+  - *Density and wear:* new but used daily; a few things out.
+  - *People cues:* a family member or the household help as a soft
+    shape, within the limit.
+- **Shell:** a flat in a newer 8–14-storey block; porcelain or ceramic
+  tiles. [LOW]
+- **The table as set here:** the **granite counter top**; ceramic or
+  melamine plates with chicken roll, sandwiches or a bowl of
+  noodles; a high stool edge in frame. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Bashundhara flat's breakfast counter. Older flats and most homes: a
+  closed kitchen with no seating (do not use this option). Sylhet
+  Londoni villas: larger, British-style fitted kitchens [LOW].
+- **Hallucination traps:** an American show-kitchen with a huge marble
+  island, wine fridge and subway tile; a Scandinavian all-white kitchen;
+  an Indian modular kitchen with a puja niche.
+- **Never stage:** cha pot or kettle beside the hero; legible appliance
+  brands; wine bottles; alcohol.
+- **Prompt-ready line:** "A newer Dhaka flat's kitchen in soft focus:
+  wood-grain modular cabinets and a steel chimney hood over a gas hob,
+  a black granite breakfast counter under a pendant light, and daylight
+  through a grilled window."
+- **Confidence and sources:** LOW (one search, no direct description;
+  Houzz project); EDITORIAL staging. 1 search this pass.
+
+### Venue: Neighbourhood café, Dhanmondi or Banani, Dhaka (café; coffee shop) · app: Café
+- **Use for:** café; afternoon or evening snack, 1–3 friends;
+  students and freelancers working on laptops. The modern café wave
+  took off around 2010–12 and clusters in **Dhanmondi, Banani, Uttara
+  and Mirpur**; many work as de facto co-working spaces. [MEDIUM — The
+  Daily Star (2024, 2025), Bangladesh Monitor, The Financial Express]
+- **Soft background (the core):**
+  - *Back wall:* the **counter with an espresso machine**, a **glass
+    case of cakes, brownies and sandwiches**, a blurred menu board;
+    walls in warm white or wood, **monochrome photographs** or prints,
+    shelves with plants. [MEDIUM — warm lighting, minimalist décor and
+    monochrome portraits (House Café, Daily Star via ANN)]
+  - *Middle distance:* small tables with wooden chairs, a laptop and a
+    person at the next table, **plenty of greenery**; a big window, often
+    on an **upper floor** looking over the street's trees, rickshaws and
+    tangled cables. [MEDIUM — high-up branch with natural light and
+    greenery (North End, Financial Express)]
+  - *Light:* window daylight; warm pendant bulbs; evening: warm
+    interior glow against the blue street outside.
+  - *Palette:* warm white, honey wood, plant green, pastry gold.
+  - *Signature shapes (3–5):* espresso machine; pastry case; pendant
+    bulbs; potted plants; the big window over a street.
+  - *Density and wear:* compact (Dhaka cafés are often small upper-floor
+    rooms), clean, moderately full.
+  - *People cues:* young customers in kurta, salwar kameez, jeans or
+    hijab, soft, within the limit.
+- **Shell:** an upper floor of a mixed-use building on a Dhanmondi road
+  or in Banani; tile or wood-look floor. [MEDIUM — North End; Nerdy
+  Bean on Road 2]
+- **The table as set here:** a small wooden table; a ceramic plate with
+  a slice of cake, a croissant or a club sandwich with fries. **Coffee
+  and cha are intruder drinks**: out of frame or blurred. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Dhanmondi upper-floor café. Gulshan and Banani: larger, more
+  polished; Chattogram (GEC, Khulshi) and Sylhet (Zindabazar): the same
+  form, smaller. The **tong** tea stall is the everyday version (chai-
+  led; excluded beside the hero).
+- **Hallucination traps:** a global chain café (logos, green aprons); a
+  Parisian bistro; a Kolkata Coffee House (colonial hall, waiters in
+  turbans); chai glasses on the table.
+- **Never stage:** coffee or cha in sharp focus beside the hero;
+  legible menus, cup sleeves or logos; alcohol.
+- **Prompt-ready line:** "A Dhanmondi café in soft focus: a steel
+  espresso machine and a glass cake case on a honey-wood counter, warm
+  pendant bulbs and potted plants, and a big upper-floor window over a
+  leafy street."
+- **Confidence and sources:** MEDIUM (The Daily Star, Financial
+  Express, Bangladesh Monitor); finishes partly EDITORIAL. 1 search
+  this pass.
+
+### Venue: Design-led Bangladeshi restaurant, Gulshan or Dhanmondi, Dhaka (modern deshi restaurant) · app: Modern bistro
+- **Use for:** restaurant; dinner for 2–3 or a small family, the
+  "nice night out". Dhaka's design-led restaurants use **natural
+  materials and local craft cues**: wood, bamboo, earthy beige and
+  brown, handmade furniture, louvers in the **shital pati** (woven reed
+  mat) pattern. [MEDIUM — BOHO, Dhanmondi (Showcase), Jhaalmukh (TBS);
+  recycled ship timber and scrap metal at Ajo Idea Space, Gulshan (The
+  Daily Star)]
+- **Soft background (the core):**
+  - *Back wall:* **exposed brick or rough plaster**, panels of
+    **reclaimed ship timber** (Chattogram ship-breaking is a Dhaka
+    design cue), **shital pati or bamboo screens**, a large terracotta
+    or jamdani-pattern artwork. [MEDIUM for materials (Daily Star,
+    Showcase, TBS); terracotta art EDITORIAL]
+  - *Middle distance:* other tables of couples and families; **woven
+    cane or bamboo pendants**; potted plants; an open kitchen counter
+    with a warm glow in some places. [LOW for open kitchen]
+  - *Light:* warm, low pendant pools; tall windows dark outside at
+    dinner; no candles in jars.
+  - *Palette:* brick red, beige, earthy brown, bamboo gold, deep green.
+  - *Signature shapes (3–5):* cane pendants; a shital pati screen;
+    reclaimed-wood wall; handmade wooden chairs; plants.
+  - *Density and wear:* new, calm, weekend-busy.
+  - *People cues:* well-dressed diners as soft shapes, within the limit.
+- **Shell:** a ground or upper floor in Gulshan, Banani or Dhanmondi; a
+  rooftop restaurant variant with city lights. [LOW]
+- **The table as set here:** a bare **wood or stone** table; matte
+  stoneware or **clay** plates; a modern plating of bhorta trio,
+  shorshe ilish or beef bhuna with plain rice in a small bowl; cloth
+  napkins. **No wine glasses, no tablecloth.** [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Gulshan/Dhanmondi, Dhaka. Chattogram: rooftop restaurants on the
+  hills; Sylhet: tea-estate resort dining (not researched).
+- **Hallucination traps:** a white-cloth hotel restaurant; a bar with
+  bottles or taps (hard rule 2); a London "Indian" restaurant with
+  Ganesha and brass elephants; a Bali resort bamboo look; a Pan-Asian
+  sushi lounge.
+- **Never stage:** borhani, mocktails, cha or water carafes beside the
+  hero; wine glasses; legible menus; alcohol.
+- **Prompt-ready line:** "A design-led Dhaka restaurant at night in
+  soft focus: exposed brick and reclaimed ship-timber walls, a woven
+  shital pati screen, cane pendant lights over wooden tables, and
+  potted plants catching the warm glow."
+- **Confidence and sources:** MEDIUM for materials (The Daily Star,
+  Showcase, TBS); layout EDITORIAL. 1 search this pass.
+
+### Venue: Mall or food-court counter, Dhaka (food court) · app: Counter service
+- **Use for:** counter service; lunch or a weekend family outing, 1–3
+  people. The big-mall food courts (Bashundhara City, Jamuna Future
+  Park) and stand-alone food courts (Chef's Table, Gulshan) are Dhaka's
+  order-at-the-counter setting. [MEDIUM-LOW — Jamuna food court planned
+  for ~3,000; Chef's Table seating for groups (food-court lists, tier 3)]
+- **Soft background (the core):**
+  - *Back wall:* a row of **counters with backlit menu boards** blurred
+    to colour blocks; burger, pizza and fried-chicken units beside
+    **kacchi, tehari and Chinese-Bangla** counters; staff in caps.
+    [LOW for the counter mix — not verified]
+  - *Middle distance:* loose tables and chairs in a grid, families and
+    groups of students, **trays and buzzers** on tables; an atrium rail
+    or escalators; at Chef's Table, a semi-open hall with a court-like
+    layout. [LOW]
+  - *Light:* bright white LED, glowing boards.
+  - *Palette:* grey and white tiles, wood-look tables, saturated board
+    colours.
+  - *Signature shapes (3–5):* the row of glowing counters; a tray;
+    loose chairs; the atrium rail; a queue as soft shapes.
+  - *Density and wear:* busy, noisy, clean.
+  - *People cues:* families and students as soft shapes, within the
+    limit; no identifiable children.
+- **Shell:** the top floor of a mall or a stand-alone hall; tile floor.
+- **The table as set here:** a laminate table; a plastic tray with a
+  burger or fried chicken and fries, or a plate of kacchi or Chinese
+  fried rice; paper napkins; no logos. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  a Dhaka mall food court. Street variant: a **fast-food shop** with a
+  glass counter of fried chicken and burgers, plainer and brighter.
+- **Hallucination traps:** recognisable global chain livery; a US mall
+  food court with Western-only food; an empty sterile render.
+- **Never stage:** legible menus, prices or logos; borhani or other
+  drinks; alcohol.
+- **Prompt-ready line:** "A Dhaka mall food court in soft focus: a row
+  of counters glowing in red, yellow and green blocks, loose tables
+  filling a bright hall, and families with trays at the next tables."
+- **Confidence and sources:** MEDIUM-LOW (food-court lists; Daily Star
+  archive); counter mix EDITORIAL. 1 search this pass.
+
+### Venue: Ramna Park, Dhaka (Ramna; udyan) · app: Park
+- **Use for:** on-the-go; a late afternoon or winter outing, 1–3
+  people. Ramna is "Dhaka's green heart", with old trees, a lake, a
+  wooden lake walkway and benches; mornings are busy with walking
+  groups. [MEDIUM — The Daily Star, The Financial Express, Bonik Barta]
+- **Soft background (the core):**
+  - *Back wall:* **huge old trees** (rain trees, mahogany, krishnachura
+    with red flowers in April–May) [species LOW], the **lake** with a
+    **wooden walkway**, dense green.
+  - *Middle distance:* **concrete bench slabs under trees**, platforms
+    built by walking groups, paved paths; a few walkers; vendors of
+    **jhalmuri or peanuts** near the gates [LOW]. [MEDIUM — benches,
+    platforms, walkway (Financial Express)]
+  - *Light:* green-filtered dappled light; winter: soft hazy gold;
+    monsoon: wet, saturated green and grey sky.
+  - *Palette:* deep green, brown trunks, lake grey-green, krishnachura
+    red in season.
+  - *Signature shapes (3–5):* broad tree canopies; the wooden lake
+    walkway; a bench slab; a curving path; the lake edge.
+  - *Density and wear:* quiet afternoons, busy mornings; paths repaired
+    in patches.
+  - *People cues:* walkers and couples as soft shapes, within the limit;
+    no identifiable children.
+- **Shell:** a large central park with paved paths and a lake.
+- **The table as set here:** a bench slab or a low wall with a paper
+  cone of jhalmuri or a plate of chotpoti set on it; never in a hand.
+  [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Ramna Park, Dhaka. Also Suhrawardy Udyan (Pohela Boishakh crowds),
+  Dhanmondi Lake park. Chattogram: CRB hill roads with rain trees.
+- **Hallucination traps:** a manicured English or US park with picnic
+  baskets; cherry blossom; a Kolkata Maidan with Victoria Memorial;
+  litter or slum framing.
+- **Never stage:** cha cups beside the hero; legible signs; identifiable
+  children; alcohol.
+- **Prompt-ready line:** "Dhaka's Ramna Park in soft focus: huge old
+  trees over a quiet lake with a wooden walkway, dappled green light
+  and a concrete bench under the canopy."
+- **Confidence and sources:** MEDIUM (The Daily Star, The Financial
+  Express, Bonik Barta); species LOW. 1 search this pass.
+
+### Venue: Hatirjheel lakefront at night, Dhaka (Hatirjheel) · app: Beach or waterfront
+- **Use for:** on-the-go; an evening outing, 1–3 people; Dhaka's
+  signature urban waterfront. Four bridges lit in colours, a 16 km
+  lakeside road and walkway, fountains, and **food courts at both ends
+  of each bridge**, busy from afternoon to late night. [MEDIUM —
+  Wikipedia, The Daily Star, UNB; sources 2013–2017]
+- **Soft background (the core):**
+  - *Back wall:* the **lake** with reflections of **curved bridges lit
+    in changing colours**; high-rise blocks with lit windows beyond;
+    a fountain plume. [MEDIUM]
+  - *Middle distance:* the **paved walkway and railing**, lamp posts,
+    a small kiosk or food-court stall with plastic chairs; a lake
+    water-taxi as a shape. [MEDIUM — food courts; water taxi LOW]
+  - *Light:* night: coloured bridge lights (blue, magenta, green) and
+    their reflections, warm lamp posts; dusk: hazy pink-grey sky.
+  - *Palette:* night blue, neon bridge colours, warm lamp gold, dark
+    water.
+  - *Signature shapes (3–5):* the arched lit bridge; reflections on
+    water; the walkway railing; lamp posts; high-rise silhouettes.
+  - *Density and wear:* busy evenings, young people and families.
+  - *People cues:* strollers as soft shapes, within the limit.
+- **Shell:** a paved promenade beside the lake.
+- **The table as set here:** a railing ledge, a kiosk counter or a
+  plastic table with a plate of fuchka, chotpoti or a chicken roll;
+  never in a hand. [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Hatirjheel at night. Beach variant: **Cox's Bazar** (zone 3): long
+  flat grey-gold sand, beach umbrellas and deck chairs for hire,
+  modest dress; river variant: Buriganga with wooden boats, or the
+  Padma at Mawa [LOW].
+- **Hallucination traps:** a tropical turquoise beach with swimsuits; a
+  Singapore Marina Bay skyline; a Kolkata Howrah Bridge; flood or
+  disaster framing.
+- **Never stage:** swimwear; legible signs; cha or daab beside the hero;
+  alcohol.
+- **Prompt-ready line:** "Dhaka's Hatirjheel at night in soft focus: a
+  curved bridge lit in blue and magenta reflected in the lake, lamp
+  posts along the walkway railing, and lit high-rise windows beyond."
+- **Confidence and sources:** MEDIUM (Wikipedia, The Daily Star, UNB);
+  dated sources, current vendor rules unverified. 1 search this pass.
+
+### Venue: Outside Sher-e-Bangla stadium on match day, Mirpur, Dhaka (Mirpur stadium) · app: Stadium or event
+- **Use for:** outdoor event; a Bangladesh international or BPL match
+  day, 1–3 fans. Fans queue at the gates hours early; **hawkers sell
+  flags and jerseys** and artists **paint faces in team colours**.
+  [HIGH — Dhaka Tribune, The Daily Star, TBS]
+- **Soft background (the core):**
+  - *Back wall:* the stadium's **floodlight towers** and the stand's
+    exterior wall and gates; Mirpur's residential blocks beyond.
+  - *Middle distance:* **queues of fans in plain red and green
+    clothing** (team kits are not staged, §5.8), **painted faces**
+    (stripes, no letters), small **hand flags** carried by vendors in
+    a bundle (blurred, never one full flag in focus); a snack cart (jhalmuri, peanuts, chips) [LOW]; police at the
+    gates. [HIGH for flags, jerseys, face painting]
+  - *Light:* day matches: hard bright sun and haze; day-night: the
+    floodlights' white glow and street lamps.
+  - *Palette:* bottle green and red, floodlight white, dusty grey road.
+  - *Signature shapes (3–5):* floodlight towers; a red-and-green
+    crowd; a bundle of small flags; gate railings.
+  - *Density and wear:* packed for big fixtures, near-empty for minor
+    ones (pick a big fixture).
+  - *People cues:* fans as soft shapes, within the limit; no
+    identifiable children.
+- **Shell:** the road and gate area of the Mirpur stadium complex.
+- **The table as set here:** a vendor-cart counter or a low wall: a
+  paper cone of jhalmuri or a plate of chicken roll; never in a hand.
+  [EDITORIAL]
+- **Subregional variants and the national default:** national default:
+  Mirpur, Dhaka. Chattogram: Zahur Ahmed Chowdhury Stadium; Sylhet:
+  the stadium among tea hills. Football World Cup nights are watch
+  parties, not stadium scenes (see GAME NIGHT).
+- **Hallucination traps:** an Indian IPL crowd with blue jerseys and
+  Hindi branding; a European football stadium; a US tailgate; a full
+  Bangladesh flag in focus; team jerseys or kits (§5.8).
+- **Never stage:** team jerseys or kits, banners, tickets or sponsor boards;
+  a full flag; cha beside the hero; alcohol.
+- **Prompt-ready line:** "Outside Dhaka's Mirpur cricket stadium on match
+  day in soft focus: floodlight towers over the gates, a crowd of fans in
+  plain red and green with painted faces, and a snack cart at the
+  roadside."
+- **Confidence and sources:** HIGH for the crowd scene (Dhaka Tribune,
+  The Daily Star, TBS); vendors of food LOW. 1 search this pass.
 
 ---
 
@@ -3114,6 +3498,15 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   plant types); fuchka-cart lighting; community-centre batch seating and
   decor colours. Neighbourhood "hotel", tong, village uthan and
   Chinese-Bangla restaurant not yet profiled (later wave).
+- **Venue-profile wave 2 (2026-10-18) open items.** Unverified
+  background details: breakfast counters and islands in Dhaka flats (no
+  source described one; the profile is LOW); young people living with
+  family as the majority pattern (model knowledge; the sources cover
+  bachelor messes only); food-court counter mix; Ramna tree species and
+  gate vendors; Hatirjheel vendor rules and lights today (sources
+  2013–2017); food carts outside Mirpur stadium (flag and jersey hawkers
+  confirmed, food not); whether Dhaka still has a Western-style
+  food-truck scene (not searched; Food truck mapped to the fuchka cart).
 
 ## CANDIDATE QUEUE
 
@@ -3191,3 +3584,4 @@ silhouette** (squat vs. slim) and add it to the slot wording.*
   courtyard; popularity medium). The iftar staging rule left untouched.
   No subagents.
 - 2026-10-01 venue-profile pass, wave 1 (schema §5.9): 5 profiles, 5 searches (Dhaka flat drawing-dining room, Dhaka rooftop, kacchi house, fuchka-chotpoti stand, community-centre wedding hall). Iftar rule untouched. No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 4 profiles tagged (wedding hall left untagged as an indoor banquet), 8 new profiles, 8 searches (1 per new profile). No subagents.

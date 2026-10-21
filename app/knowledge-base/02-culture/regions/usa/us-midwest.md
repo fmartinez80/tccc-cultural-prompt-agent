@@ -52,7 +52,17 @@ Full background-first profiles for the main venues: see VENUE PROFILES below.
 
 (Added 2026-10-01 per `country-file-schema.md` §5.9, wave 1. Two profiles of this file's most distinctive staged venues, written as deltas from the national profiles in `us.md` VENUE PROFILES; anything not stated here follows the national profile. The Chicago stand and pizzerias, fish boil, coney restaurant, KC barbecue joint, Hill trattoria, chili parlor, tenderloin diner, lake cabin and garage open house remain register rows and CELEBRATIONS entries for a later wave. Rules as nationally: nothing legible, no alcohol cues, no brand marks, never a full flag, no identifiable children, no more than about 2.5 background faces, none sharp.)
 
-#### Venue: Wisconsin supper club (dining room)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Midwest profile |
+|---|---|
+| Sit-down | Wisconsin supper club |
+
+All other options: see the us.md national profiles. Church basement serves no option (indoor community-hall meal; kept as context).
+
+#### Venue: Wisconsin supper club (dining room) · app: Sit-down
 - Use for: restaurant, indoor; Friday fish fry, Saturday prime rib, Sunday broasted chicken, birthdays and anniversaries; 2 to small group above all (see register table, ENVIRONMENT: Chicago & Great Lakes, catalog: **Wisconsin Friday fish fry**). The Upper Midwest's signature sit-down register, replacing `us.md`'s generic casual restaurant for a Wisconsin or northern-Minnesota brief. **Staging constraint:** a real supper club is built around its bar (the brandy old fashioned is the ritual); stage only the dining room, with the bar out of frame.
 - Soft background (the core): **back wall:** knotty pine paneling (honey-orange, with dark knots as a scattered dot pattern) or dark-stained wood paneling, often with a massive fieldstone fireplace, mounted fish and the odd deer or duck mount, framed old photos of the club [MEDIUM — Visit Madison, Dairyland Sentinel supper-club guide and travel features: dim lighting, abundant wood paneling, knotty pine North Woods atmosphere, stone fireplaces, mounted fish]. **Middle distance:** rows of tables with white or burgundy cloths and padded chairs, some horseshoe or high-backed booths; a big picture window onto a lake, pines or a dark parking lot and highway (many are rural and roadside); a server carrying a relish tray. **Glows and bokeh:** dim and warm: wall sconces with amber or frosted shades, small table lamps or candle jars, a low-hung fixture; firelight in the fireplace in winter; at dusk, the lake window as a blue-gray rectangle, after dark as black glass reflecting the room's warm dots; Christmas-light trim in season. **Palette:** honey pine and dark walnut, amber light, white or deep red linen, fieldstone gray, burgundy carpet, the pale greens and reds of the relish tray. **Signature shapes:** the knotty-pine wall with its dot pattern; a stone chimney breast; a mounted fish as a curved horizontal silhouette; small table lamps as warm points; the dark rectangle of a lake window. **Density and wear:** old and accumulated rather than designed: decades of photos, slightly worn carpet, everything unchanged since the 1960s–70s [MEDIUM — travel features describe "accumulated over decades rather than installed"]. **People cues:** a server in a white shirt and black vest or apron (soft), an older couple at another table (backs).
 - Shell: a stand-alone low building, often a log or wood-sided roadhouse on a lake or a two-lane highway; low ceiling with beams or acoustic tile; carpeted dining room; wide windows.

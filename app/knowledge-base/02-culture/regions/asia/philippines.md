@@ -241,14 +241,37 @@ Schema §5.9 applies. The default camera keeps the table sharp and the
 room soft, so each profile leads with what the blurred background must
 show. First wave (2026-10-01): the five most-used staging venues. The
 QUICK-REFERENCE table above stays the short index; the sari-sari store,
-boodle fight, mall food court and seaside grill keep their register rows
-until a later wave. Hard rules 1–8 apply to every profile; in Filipino
+boodle fight and mall food court keep their register rows until a
+later wave (wave 2, 2026-10-18, folded the seaside grill into the beach
+cottage profile and added six other app-option profiles at the end). Hard rules 1–8 apply to every profile; in Filipino
 backgrounds the two traps that matter most are **religious objects**
 (the Last Supper picture, a Santo Niño, a home altar: hard rule 5) and
 **drinking cues** (beer and gin bottles, an inuman table: hard rule 4),
 because both are common in exactly these rooms.
 
-#### Venue: Concrete-house dining area (kainan / silid-kainan)
+**App options (Kind of place, 2026-10-18).** Each profile heading ends with
+"· app:" and the Scene-step options it serves, so the app pulls the right
+profile. Coverage:
+
+| App option | Philippines profile |
+|---|---|
+| Dining room | Concrete-house dining area; outdoor form: Carport or garage party set-up |
+| Gen Z apartment | Metro Manila studio condo or shared unit (wave 2; most young adults live with family, see profile) |
+| Kitchen island | Subdivision house dry kitchen, peninsula or island counter (wave 2) |
+| Sit-down | Carinderia / turo-turo (the everyday neighbourhood eatery; table-service family restaurants are the step up, not profiled) |
+| Counter service | Carinderia / turo-turo (order by pointing at the counter); the mall food court keeps its register row |
+| Café | Metro Manila neighbourhood coffee shop (wave 2) |
+| Modern bistro | Modern Filipino restaurant, Metro Manila (wave 2) |
+| Street market | Fishball and ihaw-ihaw cart corner |
+| Food truck | Fishball and ihaw-ihaw cart corner: the pushcart is the everyday mobile vendor; food-truck parks exist in Metro Manila malls and BGC [LOW — not verified] but are secondary |
+| Park | Quezon Memorial Circle-type city park and plaza (wave 2) |
+| Beach or waterfront | Local beach resort cottage (wave 2) |
+| Stadium or event | Barangay covered court on liga night (wave 2) |
+
+The Events place / function hall serves no app option (an indoor
+function room) and stays as context for CELEBRATIONS.
+
+#### Venue: Concrete-house dining area (kainan / silid-kainan) · app: Dining room
 - Use for: home indoor; casual lunch at home (1–3), dinner at home,
   Noche Buena and Media Noche, the sala-side PBA and boxing watch
   parties; 1, 2 or a small group. The national default: 87.6% of
@@ -336,7 +359,7 @@ because both are common in exactly these rooms.
   parts of a Filipino house"; file ENVIRONMENT norms. Platera, napkin
   holder, food cover and the zone 7 interior LOW — not verified.
 
-#### Venue: Carport or garage party set-up (handaan sa garahe)
+#### Venue: Carport or garage party set-up (handaan sa garahe) · app: Dining room, outdoor
 - Use for: home outdoor; birthdays, christening parties, fiestas
   (open house), graduations, the outdoor PBA/Gilas and boxing watch
   party, and the everyday front-porch meal; snapshot frames of 1, 2 or a
@@ -417,7 +440,7 @@ because both are common in exactly these rooms.
   vendors); file CELEBRATIONS. Banderitas share and the videoke speaker
   LOW — not verified this pass.
 
-#### Venue: Carinderia / turo-turo (karinderya)
+#### Venue: Carinderia / turo-turo (karinderya) · app: Sit-down, Counter service
 - Use for: restaurant indoor (or semi-outdoor); away-from-home lunch
   for 1, meal on the go (rice meal at a counter), 2–3 co-workers or
   students; the default casual sit-down eatery [MEDIUM — Wikipedia
@@ -487,7 +510,7 @@ because both are common in exactly these rooms.
   register and ENVIRONMENT norms. Wall colours and free sabaw LOW — not
   verified.
 
-#### Venue: Fishball and ihaw-ihaw cart corner (fishbolan / ihawan sa kanto)
+#### Venue: Fishball and ihaw-ihaw cart corner (fishbolan / ihawan sa kanto) · app: Street market, Food truck
 - Use for: street / on-the-go; meal on the go (1), afternoon merienda,
   a stop for 2; the default Filipino street venue [MEDIUM — walanglasa.ph
   on the fishball vendor; Ang Sarap; file STREET FOOD register].
@@ -611,6 +634,310 @@ because both are common in exactly these rooms.
   Event Nest; Quidos Catering; Cebu Food Trays; Booky function-room
   list (tier 3, vendors and listings). Drape colours and the zone 7
   form LOW — not verified.
+
+#### Venue: Metro Manila studio condo or shared unit (condo unit / bedspace) · app: Gen Z apartment
+- Use for: home indoor; a young professional, a young couple or two
+  flatmates, 1–2 people; lunch or dinner with delivered food decanted
+  onto plates. **Many young Filipinos live with their parents**; the
+  rented studio is the Metro Manila (Makati, BGC, Mandaluyong, Quezon
+  City) and Cebu version, and a student's bedspace or dorm room is the
+  cheaper one [LOW — file Gen Z lens, not re-checked]. Studios run about
+  20–25 m², rents around ₱15,000 a month for 21–22 m² [MEDIUM — Trovit
+  and Airbnb listings (tier 3)]. Where the brief says the person lives
+  at home, stage their corner of the family house instead (the
+  concrete-house dining area).
+- Soft background (the core): one open room: a **window wall** of
+  aluminium sliding glass, often with a tiny balcony or a fixed pane, a
+  blackout or sheer curtain, and **other condo towers** soft beyond;
+  a window-type or split **aircon** as a pale box [MEDIUM — listings:
+  open-plan living area, kitchenette and bed]. **Middle distance**: a
+  bed or sofa-bed with a grey or pastel throw, a white built-in
+  wardrobe, a **kitchenette** (two-burner hob, small sink, microwave, a
+  rice cooker, an electric kettle), a small fridge with magnets, a
+  clothes rack or a collapsible drying rack, a monobloc or folding chair
+  [MEDIUM — listings; rice cooker EDITORIAL from file norms]. **Personal
+  touches**: a few posters or prints, a K-pop or anime figure shelf, a
+  pothos or snake plant, a warm LED strip or string light, a small
+  mirror; a rosary or a small Santo Niño on a shelf is common and stays
+  out of frame [LOW — not verified; EDITORIAL]. **Light**: bright,
+  hazy daylight through the window; by night a cool ceiling LED and a
+  warm strip. **Palette**: white walls, beige or wood-look tile or
+  vinyl, grey and pastel textiles, green leaves. **Signature shapes**:
+  the window of towers; the aircon box; the kitchenette's rice cooker;
+  the string-light dots; a low folding table. **Density**: compact,
+  practical, a little crowded; minimalist in intent, never a showroom.
+- Shell: high-rise concrete, ~2.6 m ceiling, tiled floor [MEDIUM].
+- The table as set here: a small round or square two-seat table, a
+  foldable low floor table (common in small units) or the
+  kitchenette counter; a plate of rice and one or two ulam decanted from
+  delivery boxes, spoon and fork (hard rule 2).
+- Subregional variants and the national default: **Cebu**: the same
+  studio with a sea glimpse. **Baguio and university belts**: a
+  boarding-house room with a wooden bunk and a study desk. National
+  default: the Metro Manila studio above.
+- Hallucination traps: a Scandinavian Pinterest loft; a big American
+  apartment; a Japanese micro-flat with tatami; a squatter-coded room;
+  chopsticks as the default cutlery.
+- Never stage: religious objects readable; beer cans; legible delivery
+  bags, posters, screens.
+- Prompt-ready line: "A compact Metro Manila studio condo: a small
+  two-seat table in the foreground, a softly blurred window of condo
+  towers in hazy daylight, a white kitchenette with a rice cooker, a
+  grey throw on a sofa-bed and a warm string light on the wall."
+- Confidence and sources: MEDIUM for size and layout (1 search: Trovit,
+  Airbnb listings); personal touches LOW.
+
+#### Venue: Subdivision house dry kitchen, peninsula or island counter (kusina / dry kitchen) · app: Kitchen island
+- Use for: home indoor; a seat at the counter for 1–2; newer
+  upper-middle subdivision houses (Parañaque, Taguig, Cavite, Laguna,
+  Cebu) and larger condos. Many such houses split cooking: a **"dirty
+  kitchen"** (outdoor or annex wet kitchen) for frying fish and heavy
+  cooking, and an **indoor clean or dry kitchen** for show, where a
+  counter or island sits [MEDIUM-HIGH — Wikipedia "Dirty kitchen";
+  Retiring to the Philippines; subdivision listings ("large dirty
+  kitchen… modern open dining kitchen"); Actlab Manila house (dry
+  kitchen inside, wet kitchen outside)]. True islands remain an
+  upper-middle feature; a peninsula or breakfast bar is the commoner
+  honest version [EDITORIAL].
+- Soft background (the core): **cabinets** in white, grey or light wood
+  laminate with a granite or quartz-look top; on the counter a **rice
+  cooker**, an electric kettle or water dispenser, a dish rack, a jar of
+  utensils, a bowl of fruit (bananas, mangoes) [EDITORIAL from file
+  interior markers]. **Back wall**: white subway-tile or glossy
+  splashback, a slim range hood, a two- or four-burner gas hob; a
+  **door or window to the dirty kitchen and service area**, bright, with
+  a gas tank and a big wok as dark shapes [MEDIUM — same sources].
+  **Light**: daylight from the service door, downlights or pendants over
+  the counter. **Palette**: white, warm wood, grey stone, steel; the
+  green of potted plants outside. **Signature shapes**: rice cooker;
+  range hood; bright service doorway; bar stools; tall fridge with
+  magnets. **Density**: tidy and used.
+- Shell: two-storey concrete house, ceramic tile floor, gypsum ceiling
+  with downlights [MEDIUM — PSA materials; EDITORIAL].
+- The table as set here: the counter top; two wooden or steel bar
+  stools; rice on each plate with one or two ulam, spoon and fork; a
+  placemat.
+- Subregional variants and the national default: older and smaller
+  houses have no island: the meal goes to the dining table (see the
+  concrete-house dining area). National default: the subdivision dry
+  kitchen above.
+- Hallucination traps: an American show-kitchen with a huge marble
+  island, a range cooker and a wine fridge; a farmhouse kitchen; a
+  heavy-frying scene on the island (frying belongs to the dirty
+  kitchen).
+- Never stage: wine glasses or bottles; a Last Supper or Santo Niño in
+  readable form; legible packaging.
+- Prompt-ready line: "A seat at the counter of a newer Filipino
+  subdivision house: a quartz-look countertop in the foreground, white
+  cabinets, a rice cooker and a glossy tiled splashback softly behind,
+  and a bright blurred doorway to the outdoor dirty kitchen."
+- Confidence and sources: MEDIUM. 1 search. Wikipedia "Dirty kitchen";
+  Retiring to the Philippines (tier 3); Dot Property listing; Habitus
+  Living (Actlab). Island share not confirmed — flag for review.
+
+#### Venue: Metro Manila neighbourhood coffee shop (coffee shop / kapihan) · app: Café
+- Use for: restaurant indoor; 1–2 people, afternoon or a study session;
+  independent coffee shops are dense in Quezon City (Maginhawa, Katipunan,
+  Tomas Morato), Makati, Pasig (Kapitolyo) and Cebu [MEDIUM — Spot.ph
+  "10 cafés in and around Maginhawa"; Wikipedia "Maginhawa Art and Food
+  Hub"].
+- Soft background (the core): a small room behind a **glass front**:
+  a **counter** with a steel espresso machine, a grinder, a glass case
+  of pastries (ensaymada, banana bread, cookies), a pendant above;
+  **back wall** in white paint, wood panels, tiles or a feature colour,
+  with a few framed artworks by local artists [MEDIUM — Bluprint on
+  Street Kohi (mid-century lounge, wall lamps, track-lit artwork, glass
+  blocks, Noguchi-type pendant); Isabel's (glass front, natural light);
+  couch seating at Make Your Own Café]. **Middle distance**: small
+  wooden tables, a couch, plants, laptop users as soft figures, a
+  power-strip and the aircon (sometimes struggling in the heat).
+  **Light**: daylight from the glass front, warm pendants and wall lamps,
+  a cool AC-chilled tone. **Palette**: warm wood, white, terracotta or
+  sage accents, green plants. **Signature shapes**: the espresso machine;
+  the pastry case; a hanging globe pendant; the glass front with the
+  street soft beyond; a couch back. **Density**: calm; two or three
+  blurred customers.
+- Shell: a converted house or ground-floor shop on a residential street,
+  tile or concrete floor [MEDIUM — Maginhawa context].
+- The table as set here: a small wood or marble-look table; ensaymada,
+  a slice of cake, or a rice meal on a ceramic plate (many Filipino
+  cafés serve rice meals) with spoon and fork [EDITORIAL]; the hero in a
+  glass when allowed. Coffee cups and milk-tea cups are intruders.
+- Subregional variants and the national default: **Baguio**: pine
+  wood interiors, mountain-cool light. **Cebu and Davao**: the same room
+  with brighter, hotter light. National default: the Quezon City
+  neighbourhood coffee shop above.
+- Hallucination traps: a Parisian sidewalk café; a chain coffee shop's
+  colours and cups; a Melbourne chalkboard menu; a milk-tea shop's
+  neon; a Spanish-colonial heritage café as the default.
+- Never stage: legible menus, cup logos, neon signs; alcohol; coffee or
+  milk tea next to the hero.
+- Prompt-ready line: "A small Quezon City neighbourhood coffee shop: a
+  wooden table with an ensaymada on a ceramic plate in the foreground, a
+  softly blurred counter with a steel espresso machine and a glowing
+  pastry case, warm pendant lights and a glass front onto a leafy
+  street."
+- Confidence and sources: MEDIUM. 1 search. Spot.ph; Wikipedia;
+  Bluprint (Street Kohi); Wanderlog reviews (tier 4).
+
+#### Venue: Modern Filipino restaurant, Metro Manila (modern Filipino) · app: Modern bistro
+- Use for: restaurant indoor; dinner for 2–3, a weekend lunch, a small
+  celebration; design-led modern Filipino cooking in BGC, Poblacion and
+  Makati, Quezon City and Cebu [MEDIUM — Inquirer/blog coverage of LIYAB
+  (terracotta walls, abaca lamps, open kitchen, BGC skyline), Sawsaw by
+  Sau (solihiya chairs, woven lights), Kusina Moderne (concrete floors,
+  pendants); FoodInSpace on Celera (open kitchen, charred timber,
+  exposed brick, corten steel)].
+- Soft background (the core): **back wall**: terracotta plaster,
+  exposed brick, charred or dark timber, or smooth concrete; woven
+  panels or mixed-media local art as texture. **Middle distance**: an
+  **open kitchen** behind a counter with a warm glow, a charcoal grill
+  (ihawan) haze, cooks in dark aprons as blurred figures; a few other
+  tables; **solihiya** (woven rattan) chair backs; big tropical plants;
+  a city window at night in BGC [MEDIUM — same sources]. **Light**:
+  **abaca, rattan or capiz pendants** glowing warm over each table, the
+  kitchen glow, dusk through glass. **Palette**: terracotta, dark wood,
+  natural fibre beige, concrete grey, deep green. **Signature shapes**:
+  woven fibre pendants; solihiya chair backs; the open-kitchen glow; a
+  brick or terracotta wall; handmade clay plates. **Density**: intimate
+  (often under 30 seats), calm.
+- Shell: a mid-rise ground floor or converted house; polished concrete
+  or tile floor; exposed ceiling.
+- The table as set here: bare wood or stone, no cloth; earthy handmade
+  stoneware or clay plates; shared dishes plus rice in a woven or clay
+  bowl; spoon and fork; linen napkin; the hero in a tumbler when allowed.
+- Subregional variants and the national default: Cebu and Davao have
+  their own modern Filipino rooms with more sea-and-wood. National
+  default: the BGC/Poblacion room above.
+- Hallucination traps: white-cloth fine dining; a nipa-hut theme
+  restaurant with costumed staff; a Spanish-colonial heritage dining
+  room; a bar with bottles and taps; a Poblacion cocktail bar; a generic
+  Nordic room with no Filipino cue.
+- Never stage: a bar, bottles, beer, wine glasses; legible menus; a
+  religious image.
+- Prompt-ready line: "A modern Filipino restaurant in Manila at dusk:
+  a bare dark-wood table with handmade clay plates and a woven rice
+  basket in the foreground, softly blurred terracotta walls, glowing
+  abaca pendants, solihiya chair backs and the warm light of an open
+  kitchen."
+- Confidence and sources: MEDIUM. 1 search. Inquirer Lifestyle;
+  awesome.blog; Cathay Pacific inspiration; FoodInSpace (Celera).
+
+#### Venue: Quezon Memorial Circle-type city park and plaza (parke / plaza) · app: Park
+- Use for: on the go; afternoon merienda or an early evening snack for
+  1–3; Quezon Memorial Circle and Rizal Park in Manila, and every town's
+  **plaza** in front of the municipal hall and church [MEDIUM — Wanderlog
+  reviews, Suroy, a QMC case study: food stalls and kiosks from early
+  afternoon into the night, shady grass for family picnics,
+  playgrounds, bike rental, ~12,000 weekend visitors].
+- Soft background (the core): **big acacia and narra trees** with deep
+  shade, a mown lawn, **paved walks** with concrete benches, lamp posts,
+  a row of **food kiosks and carts** (barbecue, fishballs, halo-halo,
+  buko) under small roofs or umbrellas, a playground's coloured frames
+  far off (no children readable), joggers and families as soft figures
+  [MEDIUM — same sources]. The QMC monument tower or a church façade at
+  a plaza stays soft and partial (no religious focus). **Light**:
+  late-afternoon gold through the trees, then lamp-post and kiosk bulbs
+  at dusk. **Palette**: deep greens, grey paving, warm kiosk colours.
+  **Signature shapes**: the acacia canopy; a concrete bench; a line of
+  kiosks; lamp posts; open lawn. **Density**: lively at weekends.
+- The table as set here: food on a concrete bench, a picnic mat, or a
+  kiosk's ledge, on a paper plate, in a paper bag laid flat or on a
+  stick on a plate; never in a hand.
+- Subregional variants and the national default: **Provincial town
+  plaza**: a gazebo or bandstand, the church bell tower soft beyond,
+  tricycles at the edge. **Baguio** (Burnham Park): pines, the lake with
+  rental boats. National default: the QMC-type city park above.
+- Hallucination traps: Central Park; a Japanese garden; a manicured
+  European square with cafés; a protest rally; a heavily religious
+  procession.
+- Never stage: religious images readable; legible kiosk signs and
+  tarpaulins; beer; political posters.
+- Prompt-ready line: "A merienda on a concrete park bench in Quezon City
+  in late afternoon: the food on a paper plate in the foreground, softly
+  blurred acacia trees with deep shade, a paved walk and a row of small
+  food kiosks under umbrellas beyond."
+- Confidence and sources: MEDIUM. 1 search. Wanderlog; Suroy; Sygic;
+  SlideShare case study (tier 3–4).
+
+#### Venue: Local beach resort cottage (beach resort / cottage) · app: Beach or waterfront
+- Use for: on the go; a family or barkada beach day lunch for 1–3; the
+  local beach "resort" where families rent an open **cottage** (kubo)
+  by the day and bring or grill their food (Batangas, La Union,
+  Pangasinan, Cebu, Bohol) [LOW-MEDIUM — beach listings describe open
+  kubos, nipa huts, picnic areas and charcoal grills for guests
+  (Airbnb, GlampingHub, Travelocity); day-rent public-beach practice not
+  confirmed by a source this pass]; also the quick-reference seaside
+  grill. Waterfront alternative: Manila Bay's baywalk at sunset.
+- Soft background (the core): a row of **open bamboo-and-nipa or
+  concrete cottages** with thatched or sheet roofs, each with a wooden
+  table and benches, under **coconut palms**; the **beach** with fine
+  sand (pale on Visayan islands, grey-brown in Batangas), a calm sea
+  with **bangka outrigger boats** moored as white-and-blue shapes;
+  hammocks; smoke from a charcoal ihawan [MEDIUM — listings; bangka
+  EDITORIAL]. **Light**: bright, high tropical sun outside, deep shade
+  under the thatch; a cooler blue in late afternoon. **Palette**: thatch
+  brown, coconut green, turquoise or grey-blue sea, white sand. **Signature
+  shapes**: the cottage roof edge framing the sea; bangka outriggers;
+  palm trunks; a grill with smoke. **Density**: family groups in other
+  cottages, soft; daylight only (hard rule 4: night beach grills read as
+  inuman).
+- The table as set here: the cottage's wooden table, sometimes covered
+  with banana leaves; grilled liempo, fish or squid, rice in a pot,
+  ensaladang mangga, sawsawan saucers; plates or banana leaf; no cutlery
+  in kamayan form.
+- Subregional variants and the national default: Manila Bay baywalk:
+  the sea wall and sunset, food on a ledge. National default: the
+  Batangas-type beach cottage above.
+- Hallucination traps: a luxury Boracay resort; an infinity pool; a
+  beach bar; Hawaiian tiki décor; island-hopping tour boats as the hero.
+- Never stage: beer, gin, the tagay glass, coolers of bottles; a night
+  inuman; legible resort signs.
+- Prompt-ready line: "Lunch in the shade of an open nipa cottage at a
+  Philippine beach: grilled fish and rice on a wooden table in the
+  foreground, coconut palms, pale sand and a calm sea with moored bangka
+  outriggers softly blurred beyond, in bright daylight."
+- Confidence and sources: LOW-MEDIUM. 1 search (beach cottages; results
+  were mostly private rentals). Day-cottage practice from model
+  knowledge [LOW — not verified].
+
+#### Venue: Barangay covered court on liga night (covered court / liga) · app: Stadium or event
+- Use for: on the go / outdoor event; a snack for 1–3 at a summer
+  barangay basketball league game, a town fiesta programme or a watch
+  party on a big screen; the Filipino local "stadium" [MEDIUM — IAFOR
+  paper: the barangay liga as a traditional summer crowd-drawer; Batangas
+  City and Quezon City inaugurations of multipurpose covered courts;
+  Spin.ph (standing-room crowds in Tondo)].
+- Soft background (the core): a **covered court**: a high **arched or
+  gabled steel roof** on steel columns, open sides, a concrete court with
+  painted lines, **basketball hoops and backboards** at each end, tiered
+  concrete bleachers along one side, players as soft streaks, a crowd of
+  blurred spectators (within the face limit) [MEDIUM — same sources].
+  **Middle distance**: banners and tarpaulins (unreadable), a scorer's
+  table, vendors at the edge with a cart of fishballs, a cooler of ice
+  candy or a tray of snacks [LOW — vendors not confirmed by a source].
+  **Light**: late afternoon light from the open sides, then big
+  sodium or LED floodlights under the roof at night, bright and
+  slightly orange. **Palette**: grey concrete, painted court colours,
+  steel, the warm floodlight. **Signature shapes**: the arched roof
+  trusses; the backboard; the bleacher steps; floodlights. **Density**:
+  crowded, noisy.
+- The table as set here: food on the bleacher step, on a paper plate or
+  in a paper bag laid flat, or on a vendor's cart ledge; never in a hand.
+- Subregional variants and the national default: the provincial
+  covered court doubles as the fiesta and evacuation venue; PBA arena
+  forecourts in Metro Manila are the big-league version. National
+  default: the barangay court above.
+- Hallucination traps: an American NBA arena; a US high-school
+  gym with wooden floor; a stadium full of flags; a fight in the stands.
+- Never stage: legible tarpaulins, jerseys, sponsor marks, political
+  names on banners; beer; a full Philippine flag.
+- Prompt-ready line: "A paper plate of fishballs on a concrete bleacher
+  step at a barangay covered court in the evening: a softly blurred arched
+  steel roof under warm floodlights, a basketball backboard, players in
+  motion and a crowd of soft spectators beyond."
+- Confidence and sources: MEDIUM for the venue, LOW for vendors. 1
+  search. IAFOR; Batangas City; Quezon City; Spin.ph.
 
 ---
 
@@ -3690,6 +4017,14 @@ Morning Module exception logged):**
   rests on two home-décor sources (homify.ph, Subli; tier 3–4). The
   sari-sari store, boodle fight, mall food court and seaside grill have
   no profile yet (later wave).
+- **Venue profiles wave 2 (2026-10-18), unverified background details.**
+  Studio-condo personal touches LOW; island and peninsula share in
+  subdivision houses not confirmed (the dirty/dry kitchen split is
+  MEDIUM-HIGH); the day-rented beach cottage rests on private-rental
+  listings, not a public-beach source; vendors at barangay covered courts
+  not confirmed; food-truck parks as secondary LOW. Rice meals in cafés
+  EDITORIAL. The sari-sari store, boodle fight, mall food court and a
+  table-service family restaurant still have no profile.
 
 ## CANDIDATE QUEUE
 
@@ -3815,3 +4150,13 @@ Morning Module exception logged):**
   walanglasa.ph; Ang Sarap; Jojie's, Party Hub, Rentolab, Tent King,
   Venuerific, Event Nest, Quidos, Cebu Food Trays, Booky (tier 3,
   vendors and listings). No subagents.
+- 2026-10-18 venue-profile wave 2 (app-option tags + gap fill): 5
+  profiles tagged (4 with app options; the events place left untagged as
+  an indoor function room), 7 new profiles (Metro Manila studio condo,
+  subdivision dry kitchen, neighbourhood coffee shop, modern Filipino
+  restaurant, QMC-type park and plaza, beach resort cottage, barangay
+  covered court), 7 searches. Key sources: Trovit and Airbnb listings
+  (tier 3); Wikipedia "Dirty kitchen"; Habitus Living (Actlab); Spot.ph;
+  Bluprint (Street Kohi); Inquirer Lifestyle; FoodInSpace (Celera);
+  Wanderlog, Suroy; IAFOR paper on the barangay liga; Batangas City and
+  Quezon City sites; Spin.ph. No subagents.
