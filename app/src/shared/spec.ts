@@ -52,6 +52,18 @@ export function resolveGlass(sku: SkuInfo, venue: SceneSpec["scene"]["venue"], a
   return answer ?? false;
 }
 
+/** Venues where a diner's meal comes on one tray (Fernando, 2026-10-17). */
+const TRAY_VENUES = new Set(["food-court", "fast-casual"]);
+
+/**
+ * A tray holds a diner's dishes; it is never one dish's own vessel (Fernando, 2026-10-17: one tray
+ * per item, or an empty tray beside the bowl). An individual item served "on a tray" goes in a
+ * paper-lined basket, and the tray becomes the diner's carrier. A shared tray of food stays.
+ */
+function offTray<T extends { vessel: string; service: string }>(v: T): T {
+  return v.vessel === "tray" && v.service !== "shared" ? { ...v, vessel: "basket" } : v;
+}
+
 export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: Selections): SceneSpec {
   const sku = skuById(brief.skuId);
   if (!sku) throw new Error(`unknown SKU ${brief.skuId}`);
@@ -60,6 +72,9 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
   const venue = sel.scene.venue;
   const shared = sel.plating.service === "shared";
   const place = venueType(venue, sel.scene.venueType);
+  const plating = offTray(sel.plating);
+  // One diner only for now; a second diner's tray at the corner isn't laid out yet.
+  const tray = sel.scene.party === "1" && !shared && (TRAY_VENUES.has(place?.id ?? "") || sel.plating.vessel === "tray" || sel.sides.accompaniments.some((a) => a.vessel === "tray" && a.service !== "shared"));
   return {
     specVersion: "0.2",
     operatingUnit: brief.operatingUnit,
@@ -79,11 +94,12 @@ export function buildSpec(brief: IntakeInput & { countryLabel?: string }, sel: S
       venueType: place?.id,
       environmentNote: sel.scene.environmentNote?.trim() || undefined,
       ...(sel.scene.seated && sel.scene.party === "2" ? { seated: true, pose: sel.scene.pose ?? DEFAULT_POSE } : {}),
+      ...(tray ? { tray: true } : {}),
     },
     camera: sel.camera,
     sku: { ...sku, glass: resolveGlass(sku, venue, sel.glass) },
-    entree: { name: brief.heroDish, prep: sel.prep, plating: sel.plating },
-    accompaniments: sel.sides.accompaniments.map((a) => (shared && a.role !== "condiment" && a.role !== "sauce" && a.role !== "garnish" ? { ...a, service: "shared" as const } : a)),
+    entree: { name: brief.heroDish, prep: sel.prep, plating },
+    accompaniments: sel.sides.accompaniments.map((a) => offTray(shared && a.role !== "condiment" && a.role !== "sauce" && a.role !== "garnish" ? { ...a, service: "shared" as const } : a)),
     napkinSet:
       venue === "on-the-go"
         ? sel.napkin

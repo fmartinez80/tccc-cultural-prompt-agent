@@ -22,6 +22,12 @@ export interface ProxyDef {
   tall?: boolean;
 }
 
+/**
+ * A fast-food or food-court tray (about 35 x 45 cm), turned so its long side faces the diner. It
+ * carries the diner's dishes rather than holding food itself; the solver may deepen it to fit them.
+ */
+export const CARRIER_TRAY: ProxyDef = { kind: "box", width: 0.45, depth: 0.35, height: 0.015 };
+
 export const VESSELS: Record<Vessel, ProxyDef> = {
   plate: { kind: "cylinder", radius: plateRadius("plate"), height: PLATE_HEIGHT }, // entree 27-29 cm (photo spec)
   "lunch-plate": { kind: "cylinder", radius: plateRadius("lunch-plate"), height: PLATE_HEIGHT }, // smaller mains 22-24 cm
@@ -56,7 +62,7 @@ export const VESSEL_NOUN: Record<Vessel, string> = {
   "large-bowl": "a large communal serving bowl",
   ramekin: "a small ramekin",
   board: "a wooden serving board",
-  basket: "a small bread basket",
+  basket: "a small lined basket",
   "foil-wrap": "a foil wrap",
   tray: "a serving tray",
   leaf: "a banana leaf",
