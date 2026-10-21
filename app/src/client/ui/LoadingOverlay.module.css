@@ -18,24 +18,18 @@
   /* 560px, growing for long copy so it still fits on two lines (see .message). */
   min-width: min(88vw, 560px);
   max-width: min(88vw, 760px);
-  padding: 36px 48px 32px;
+  /* The 25px white frame inside the black border, then the old 36/48/32 padding inside it. */
+  padding: 61px 73px 57px;
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  /* A blush of the shadow colour, under a halftone that grows toward the bottom (see Halftone). */
+  /* One solid blush of the shadow colour, edge to edge. */
   background: color-mix(in srgb, var(--neo-shadow-color) 18%, var(--neo-card));
   border: var(--neo-border);
   border-radius: 0;
-  box-shadow: 12px 12px 0 var(--neo-shadow-color);
-}
-
-.halftone {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  fill: rgb(255 255 255 / 0.75);
+  box-shadow:
+    inset 0 0 0 25px #fff,
+    12px 12px 0 var(--neo-shadow-color);
 }
 
 .head {
@@ -279,6 +273,12 @@
     opacity: 0;
     stroke-dasharray: 0 2000;
     stroke-dashoffset: -1000;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 49px 41px 45px;
   }
 }
 
